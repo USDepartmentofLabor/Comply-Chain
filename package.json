@@ -12,10 +12,12 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "npm run remove:www && react-scripts build",
-        "build:cordova": "npm run remove:www && react-scripts build && node __inject-cordova.js && move build www",
+        "build:cordova": "npm run remove:www && react-scripts build && node _inject-cordova.js && mv build www",
+        "build:cordova:win": "npm run remove:www:win && react-scripts build && node _inject-cordova.js && move build www",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "remove:www": "rm -rf www"
+        "remove:www": "rm -rf www",
+        "remove:www:win": "rmdir /s /q www"
     },
     "eslintConfig": {
         "extends": "react-app"
