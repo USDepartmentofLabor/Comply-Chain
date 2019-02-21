@@ -12,6 +12,7 @@
         "koa-static-server": "^1.4.0",
         "react": "^16.8.2",
         "react-dom": "^16.8.2",
+        "react-localization": "^1.0.13",
         "react-router-dom": "^4.3.1",
         "react-scripts": "2.1.5"
     },
