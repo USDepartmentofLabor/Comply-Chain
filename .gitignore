@@ -33,3 +33,6 @@ yarn-error.log*
 
 # res
 resources/signing
+
+# semantic
+/src/semantic/dist

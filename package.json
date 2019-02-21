@@ -17,10 +17,12 @@
         "react-scripts": "2.1.5"
     },
     "scripts": {
-        "start": "react-scripts start",
-        "build": "npm run remove:www && react-scripts build",
+        "start": "npm run build:semantic && react-scripts start",
+        "build": "npm run build:semantic && npm run remove:www && react-scripts build",
         "build:cordova": "npm run remove:www && react-scripts build && node ./scripts/_inject-cordova.js && mv build www",
         "build:cordova:win": "npm run remove:www:win && react-scripts build && node ./scripts/_inject-cordova.js && move build www",
+        "build:semantic": "gulp --cwd './src/semantic' build-css build-assets",
+        "watch:semantic": "npm run build:semantic && gulp --cwd './src/semantic' watch",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "remove:www": "rm -rf www",
@@ -43,5 +45,9 @@
             "ios",
             "android"
         ]
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "semantic-ui": "^2.4.2"
     }
 }
