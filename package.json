@@ -4,6 +4,9 @@
     "private": true,
     "homepage": "./",
     "dependencies": {
+        "cordova-android": "^7.1.4",
+        "cordova-ios": "^4.5.5",
+        "cordova-plugin-whitelist": "^1.3.3",
         "react": "^16.8.2",
         "react-dom": "^16.8.2",
         "react-router-dom": "^4.3.1",
@@ -27,5 +30,14 @@
         "not dead",
         "not ie <= 11",
         "not op_mini all"
-    ]
+    ],
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "ios",
+            "android"
+        ]
+    }
 }
