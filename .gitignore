@@ -10,7 +10,12 @@
 
 # production
 /build
+/www
 
+# testing
+/coverage
+
+# production
 # misc
 .DS_Store
 .env.local
