@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -15,7 +13,6 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -25,7 +22,17 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run build:cordova`
+
+Builds the app for production for Cordova by appending Cordova specific tags to the built index.html by using the `_inject-cordova.js` script. Uses UNIX specific commands.
+
+### `npm run remove:www:win`
+
+Simply removes the `www/` directory. UNIX specific.
+
+### `npm run remove:www:win`
+
+Simply removes the `www/` directory. Windows specific.
 
 ### `npm run eject`
 
@@ -37,32 +44,58 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+After pulling down the repository run the following `npm install && cordova prepare` to install all the dependencies and prepare the cordova targerted platforms.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **Web**
 
-### Code Splitting
+To run in development mode:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+`npm start`
 
-### Analyzing the Bundle Size
+### **iOS & Android**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+**Note: You need to install SDKs for each platform that you wish to target. Read this to check what requirements need to be satisfied: https://cordova.apache.org/docs/en/latest/guide/cli/index.html#install-pre-requisites-for-building Generally you will have to install Android Studio, XCode, SDKs, emulators, build systems, etc.**
 
-### Making a Progressive Web App
+To create a build for either platform run:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+`npm run build:cordova`
 
-### Advanced Configuration
+To run the app on a simulator:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+`cordova emulate ios`
 
-### Deployment
+`cordova emulate android`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+To run the app on a device:
 
-### `npm run build` fails to minify
+`cordova run ios`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+`cordova run android`
+
+## Deployment
+
+### **Web**
+
+To create a production build:
+
+`npm run build`
+
+See additional information on how to serve the web app at this [link](https://facebook.github.io/create-react-app/docs/deployment).
+
+### **iOS**
+
+To prepare for distribution on the Apple App Store, you need to create an archive. In Xcode make sure the app is properly provisioned and signed for distribution. Next run `npm run build:cordova` followed by `cordova prepare` to copy any assets and plugins. Then in Xcode, ensure the version and build numbers are properly set and choose a generic device target from the Scheme toolbar menu. Then choose `Product > Archive`. If there is an issue uploading to the App Store from the Archives window one can try to instead export the archive and upload it via Application Loader.
+
+### **Android**
+
+To prepare for distribution on the Google Play Store, run `npm run build:cordova` followed by `cordova build android --release` which will result in an APK that needs to be signed. Then run:
+
+`jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore android.keystore app-release-unsigned.apk alias-name`
+
+where `android.keystore` is the location of the `keystore` and `alias-name` is the alias for your key. Make sure you have Android Studio installed because it will also come with the zipalign tool. For Mac OS you can find it in `~/Library/Android/sdk/build-tools/{version}/zipalign`. Then run:
+
+`~/Library/Android/sdk/build-tools/{version}/zipalign -v 4 app-release-unsigned.apk release.apk`
+
+followed by uploading the build to the Google Play Console.
