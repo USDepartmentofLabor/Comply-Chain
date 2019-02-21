@@ -6,9 +6,9 @@ import { Breadcrumb } from "semantic-ui-react";
 
 class Breadcrumbs extends Component {
     render() {
-        const { breadcrumbs } = this.props;
+        const { breadcrumbs, className, id } = this.props;
         return (
-            <Breadcrumb>
+            <Breadcrumb id={id} className={className}>
                 {breadcrumbs.map((breadcrumb, index) => (
                     <span key={breadcrumb.key}>
                         <Breadcrumb.Section
@@ -28,7 +28,9 @@ class Breadcrumbs extends Component {
 }
 
 Breadcrumbs.propTypes = {
-    breadcrumbs: PropTypes.array.isRequired
+    id: PropTypes.string,
+    breadcrumbs: PropTypes.array.isRequired,
+    className: PropTypes.string
 };
 
 export default withBreadcrumbs()(Breadcrumbs);

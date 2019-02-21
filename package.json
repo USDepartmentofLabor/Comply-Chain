@@ -20,6 +20,7 @@
     },
     "scripts": {
         "start": "npm run build:semantic && react-scripts start",
+        "start-ns": "react-scripts start",
         "build": "npm run build:semantic && npm run remove:www && react-scripts build",
         "build:cordova": "npm run remove:www && react-scripts build && node ./scripts/_inject-cordova.js && mv build www",
         "build:cordova:win": "npm run remove:www:win && react-scripts build && node ./scripts/_inject-cordova.js && move build www",

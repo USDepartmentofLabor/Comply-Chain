@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
+import Accordion from "../../../../common/Accordion";
 import { strings } from "../../../../modules/config/strings";
 import KeyTermList from "../KeyTermList";
 import LearningObjectiveList from "../LearningObjectiveList";
@@ -20,7 +21,7 @@ class StepView extends Component {
                 data: {
                     resources: {
                         title: "Further Resources",
-                        content: <Resources />
+                        content: null // todo - come back here and display the resoure data
                     },
                     learningObjectives: {
                         title: "Learning Objectives",
@@ -53,10 +54,9 @@ class StepView extends Component {
             return <div>Step not found!</div>;
         }
         return (
-            <div>
-                {learningObjectives.title}
-                {learningObjectives.content}
-            </div>
+            <Accordion
+                sections={[learningObjectives, keyTerms, topics, resources]}
+            />
         );
     }
 }

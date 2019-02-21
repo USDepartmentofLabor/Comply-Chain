@@ -4,6 +4,7 @@ import LanguageSwitcherContainer from "./common/Menu/LanguageSwitcher";
 import NavBar from "./common/Menu/NavBar";
 import { AppLink, Navigator } from "./common/Navigation";
 import Routes from "./modules/config/routes";
+import "./App.css";
 
 const navBarLeftItems = [
     { as: AppLink, to: Routes.Home.path, content: "Home", key: "home" },
@@ -21,7 +22,7 @@ class App extends Component {
     render() {
         return (
             <NavBar leftItems={navBarLeftItems} rightItems={navBarRightItems}>
-                <Breadcrumbs />
+                <Breadcrumbs id="breadcrumbs" className="breadcrumbs" />
                 <Navigator />
             </NavBar>
         );
