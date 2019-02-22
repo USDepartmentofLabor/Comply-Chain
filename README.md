@@ -10,6 +10,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
+### `npm run start-ns`
+
+Runs the app in the development mode but will not initially run the `build:semantic` command on first start up.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
@@ -22,17 +26,21 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-### `npm run build:cordova`
+### `npm run build:cordova` && `npm run build:cordova:win`
 
-Builds the app for production for Cordova by appending Cordova specific tags to the built index.html by using the `_inject-cordova.js` script. Uses UNIX specific commands.
+Builds the app for production for Cordova by appending Cordova specific tags to the built index.html by using the `_inject-cordova.js` script.
 
-### `npm run remove:www:win`
+### `npm run build:semantic` && `npm run build:semantic:win`
 
-Simply removes the `www/` directory. UNIX specific.
+Runs and builds the Semantic UI CSS and assets to be used in the app.
 
-### `npm run remove:www:win`
+### `npm run watch:semantic`
 
-Simply removes the `www/` directory. Windows specific.
+Watches for any CSS changes related to the Semantic UI theme and will rebuild on the fly.
+
+### `npm run remove:www` && `npm run remove:www:win`
+
+Simply removes the `www/` directory.
 
 ### `npm run eject`
 
@@ -81,6 +89,12 @@ To run the app on a device:
 To create a production build:
 
 `npm run build`
+
+To run the production build:
+
+`npm run server`
+
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 See additional information on how to serve the web app at this [link](https://facebook.github.io/create-react-app/docs/deployment).
 
