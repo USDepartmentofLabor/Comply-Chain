@@ -23,13 +23,10 @@ const initApp = app => {
 };
 
 if (window.cordova) {
-    console.log("using cordova");
     document.addEventListener(
         "deviceready",
         () => {
-            console.log("about to init app");
             initApp(CordovaApp);
-            console.log("app initted");
         },
         false
     );
