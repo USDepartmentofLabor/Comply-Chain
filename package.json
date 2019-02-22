@@ -18,7 +18,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "npm run build:semantic && npm run remove:www && react-scripts build",
-        "build:win": "npm run build:semantic && npm run remove:www:win && react-scripts",
+        "build:win": "npm run build:semantic && npm run remove:www:win && react-scripts build",
         "build:cordova": "npm run remove:www && npm run build:semantic && cross-env PUBLIC_URL=. react-scripts build && node ./scripts/_inject-cordova.js && mv build www",
         "build:cordova:win": "npm run remove:www:win && npm run build:semantic && cross-env PUBLIC_URL=. react-scripts build && node ./scripts/_inject-cordova.js && move build www",
         "build:semantic": "gulp --cwd ./src/semantic build-css build-assets",
@@ -27,7 +27,7 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "remove:www": "rm -rf www",
-        "remove:www:win": "if exist www rd /s /q www"
+        "remove:www:win": "if exist www ( rd /s /q www )"
     },
     "eslintConfig": {
         "extends": "react-app"
