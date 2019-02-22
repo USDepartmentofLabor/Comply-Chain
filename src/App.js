@@ -1,18 +1,30 @@
 import React, { Component } from "react";
+import { Input } from "semantic-ui-react";
+import "./App.css";
 import Breadcrumbs from "./common/Menu/Breadcrumbs";
 import LanguageSwitcherContainer from "./common/Menu/LanguageSwitcher";
 import NavBar from "./common/Menu/NavBar";
 import { AppLink, Navigator } from "./common/Navigation";
 import Routes from "./modules/config/routes";
-import "./App.css";
+import { strings } from "./modules/config/strings";
 
 const navBarLeftItems = [
-    { as: AppLink, to: Routes.Home.path, content: "Home", key: "home" },
+    { component: <Input placeholder={`${strings.search}...`} /> },
     {
-        as: AppLink,
-        to: Routes.Steps.path,
-        content: "Steps",
-        key: "steps"
+        props: {
+            as: AppLink,
+            to: Routes.Home.path,
+            content: "Home",
+            key: "home"
+        }
+    },
+    {
+        props: {
+            as: AppLink,
+            to: Routes.Steps.path,
+            content: "Steps",
+            key: "steps"
+        }
     }
 ];
 

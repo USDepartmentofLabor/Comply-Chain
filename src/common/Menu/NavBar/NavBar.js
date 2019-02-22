@@ -5,8 +5,8 @@ import {
     Icon,
     Menu,
     Responsive,
-    Sidebar,
-    Segment
+    Segment,
+    Sidebar
 } from "semantic-ui-react";
 
 const NavBarMobile = ({
@@ -20,15 +20,18 @@ const NavBarMobile = ({
     <Sidebar.Pushable as={Segment}>
         <Sidebar
             as={Menu}
+            color="blue"
+            inverted
             animation="overlay"
             icon="labeled"
             vertical
             visible={visible}
-            width="wide"
-            inverted
+            width="thin"
         >
             {leftItems.map((item, i) => (
-                <Menu.Item {...item} key={"mobile_left_" + i} />
+                <Menu.Item {...item.props} key={"mobile_left_" + i}>
+                    {item.component}
+                </Menu.Item>
             ))}
         </Sidebar>
 
@@ -37,7 +40,7 @@ const NavBarMobile = ({
             onClick={onPusherClick}
             style={{ minHeight: "100vh" }}
         >
-            <Menu fixed="top" inverted>
+            <Menu fixed="top" size="huge">
                 <Menu.Item>Logo here</Menu.Item>
                 <Menu.Item onClick={onToggle}>
                     <Icon name="sidebar" />
@@ -68,7 +71,7 @@ NavBarMobile.defaultProps = {
 };
 
 const NavBarDesktop = ({ leftItems, rightItems }) => (
-    <Menu fixed="top" inverted>
+    <Menu fixed="top" inverted size="huge">
         <Menu.Item>Logo here</Menu.Item>
         {leftItems.map((item, i) => (
             <Menu.Item {...item} key={"dt_left_" + i} />
@@ -119,26 +122,17 @@ class NavBar extends Component {
         const { visible } = this.state;
 
         return (
-            <div>
-                <Responsive {...Responsive.onlyMobile}>
-                    <NavBarMobile
-                        leftItems={leftItems}
-                        onPusherClick={this.handlePusher}
-                        onToggle={this.handleToggle}
-                        rightItems={rightItems}
-                        visible={visible}
-                    >
-                        <NavBarChildren>{children}</NavBarChildren>
-                    </NavBarMobile>
-                </Responsive>
-                <Responsive minWidth={Responsive.onlyTablet.minWidth}>
-                    <NavBarDesktop
-                        leftItems={leftItems}
-                        rightItems={rightItems}
-                    />
+            <Responsive>
+                <NavBarMobile
+                    leftItems={leftItems}
+                    onPusherClick={this.handlePusher}
+                    onToggle={this.handleToggle}
+                    rightItems={rightItems}
+                    visible={visible}
+                >
                     <NavBarChildren>{children}</NavBarChildren>
-                </Responsive>
-            </div>
+                </NavBarMobile>
+            </Responsive>
         );
     }
 }
