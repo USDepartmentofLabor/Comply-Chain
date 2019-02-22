@@ -7,11 +7,7 @@ const StepBreadcrumb = ({ match }) => {
 
 export const breadcrumbs = [
     {
-        path: `/:lang${Routes.Step.path}`,
+        path: Routes.Step.path,
         breadcrumb: StepBreadcrumb
-    },
-    {
-        path: "/:lang/",
-        breadcrumb: null
     }
 ];

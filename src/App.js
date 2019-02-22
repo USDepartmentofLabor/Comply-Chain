@@ -4,7 +4,8 @@ import "./App.css";
 import Breadcrumbs from "./common/Menu/Breadcrumbs";
 import LanguageSwitcherContainer from "./common/Menu/LanguageSwitcher";
 import NavBar from "./common/Menu/NavBar";
-import { AppLink, Navigator } from "./common/Navigation";
+import { Navigator } from "./common/Navigation";
+import { NavLink } from "react-router-dom";
 import Routes from "./modules/config/routes";
 import { strings } from "./modules/config/strings";
 
@@ -12,7 +13,7 @@ const navBarLeftItems = [
     { component: <Input placeholder={`${strings.search}...`} /> },
     {
         props: {
-            as: AppLink,
+            as: NavLink,
             to: Routes.Home.path,
             content: "Home",
             key: "home"
@@ -20,7 +21,7 @@ const navBarLeftItems = [
     },
     {
         props: {
-            as: AppLink,
+            as: NavLink,
             to: Routes.Steps.path,
             content: "Steps",
             key: "steps"

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { strings } from "../../modules/config/strings";
-import { AppLink } from "../../common/Navigation";
+import { Link } from "react-router-dom";
 
 class Steps extends Component {
     state = { steps: strings.steps };
@@ -14,9 +14,9 @@ class Steps extends Component {
                         const stepId = i + 1;
                         return (
                             <li key={i}>
-                                <AppLink to={`/steps/${stepId}`}>
+                                <Link to={`/steps/${stepId}`}>
                                     {step.title}
-                                </AppLink>
+                                </Link>
                             </li>
                         );
                     })}
