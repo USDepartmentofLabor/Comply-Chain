@@ -10,10 +10,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm run start-ns`
-
-Runs the app in the development mode but will not initially run the `build:semantic` command on first start up.
-
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
@@ -58,7 +54,11 @@ After pulling down the repository run the following `npm install && cordova prep
 
 ### **Web**
 
-To run in development mode:
+To run in development mode first make sure to build the Semantic UI components by running:
+
+`npm run build:semantic`
+
+and then run:
 
 `npm start`
 
