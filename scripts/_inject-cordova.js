@@ -18,7 +18,7 @@ function insertContent(fullContent, beforeWhat, newContent) {
 const afterAddingMeta = insertContent(
     data,
     "<link",
-    `<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">` +
+    `<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">` +
         `<meta name="format-detection" content="telephone=no">` +
         `<meta name="msapplication-tap-highlight" content="no">`
 );
@@ -27,7 +27,7 @@ const afterAddingMeta = insertContent(
 const afterAddingScript = insertContent(
     afterAddingMeta,
     "<script",
-    `<script type="text/javascript" src="cordova.js" onload="javascript:window.usingCordova = true;"></script>`
+    `<script type="text/javascript" src="cordova.js"></script>`
 );
 
 // updates the index.html file
