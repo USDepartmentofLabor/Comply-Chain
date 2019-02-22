@@ -4,34 +4,22 @@ const Routes = {
     Home: {
         path: "/",
         component: Home,
-        exact: true,
-        getPath: () => {
-            return "/";
-        }
+        exact: true
     },
     Steps: {
         path: "/steps",
         component: Steps,
-        exact: true,
-        getPath: () => {
-            return "/steps";
-        }
+        exact: true
     },
     Step: {
         path: "/steps/:step",
         component: Step,
-        exact: true,
-        getPath: params => {
-            return `/steps/${params.step}`;
-        }
+        exact: true
     },
     Topic: {
         path: "/steps/:step/topic/:topic",
         component: Topic,
-        exact: true,
-        getPath: params => {
-            return `/steps/${params.step}/topic/${params.topic}`;
-        }
+        exact: true
     }
 };
 
