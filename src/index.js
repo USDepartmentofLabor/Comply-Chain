@@ -7,7 +7,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 const CordovaApp = (
-    <HashRouter basename=".">
+    <HashRouter>
         <App />
     </HashRouter>
 );
