@@ -2,7 +2,6 @@
     "name": "gov.dol.complychain",
     "version": "0.1.0",
     "private": true,
-    "homepage": "./",
     "dependencies": {
         "cordova-android": "^7.1.4",
         "cordova-ios": "^4.5.5",
@@ -20,8 +19,9 @@
         "start": "npm run build:semantic && react-scripts start",
         "start-ns": "react-scripts start",
         "build": "npm run build:semantic && npm run remove:www && react-scripts build",
-        "build:cordova": "npm run remove:www && react-scripts build && node ./scripts/_inject-cordova.js && mv build www",
-        "build:cordova:win": "npm run remove:www:win && react-scripts build && node ./scripts/_inject-cordova.js && move build www",
+        "build:win": "npm run build:semantic && npm run remove:www:win && react-scripts",
+        "build:cordova": "npm run remove:www && cross-env PUBLIC_URL=. react-scripts build && node ./scripts/_inject-cordova.js && mv build www",
+        "build:cordova:win": "npm run remove:www:win && cross-env PUBLIC_URL=. react-scripts build && node ./scripts/_inject-cordova.js && move build www",
         "build:semantic": "gulp --cwd './src/semantic' build-css build-assets",
         "watch:semantic": "npm run build:semantic && gulp --cwd './src/semantic' watch",
         "server": "node scripts/server.js",
@@ -49,10 +49,11 @@
         ]
     },
     "devDependencies": {
+        "cross-env": "^5.2.0",
         "gulp": "^3.9.1",
-        "semantic-ui": "^2.4.2",
         "koa": "^2.5.2",
         "koa-logger": "^3.2.0",
-        "koa-static-server": "^1.3.4"
+        "koa-static-server": "^1.3.4",
+        "semantic-ui": "^2.4.2"
     }
 }
