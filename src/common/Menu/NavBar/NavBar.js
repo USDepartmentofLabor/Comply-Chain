@@ -5,8 +5,11 @@ import SideNav from "../SideNav";
 
 const NavbarWrapper = styled.div`
     overflow: hidden;
+    position: fixed;
+    top: 0;
     background-color: #fff;
     border-bottom: 1px solid #f1f1f1;
+    width: 100%;
 `;
 
 const NavItem = styled.div`
