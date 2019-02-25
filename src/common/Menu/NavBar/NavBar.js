@@ -3,14 +3,13 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import SideNav from "../SideNav";
 
-const Wrapper = styled.div`
+const NavbarWrapper = styled.div`
     overflow: hidden;
     background-color: #fff;
-    position: relative;
     border-bottom: 1px solid #f1f1f1;
 `;
 
-const NavItem = styled.a`
+const NavItem = styled.div`
     float: ${props => {
         if (props.right) {
             return "right";
@@ -53,7 +52,7 @@ class NavBar extends Component {
         const { leftItems, rightItems, children } = this.props;
         return (
             <div>
-                <Wrapper>
+                <NavbarWrapper>
                     <SideNav
                         visible={visible}
                         onClose={this.handleSideNavClose}
@@ -74,9 +73,11 @@ class NavBar extends Component {
                             {...item.props}
                             right
                             key={"mobile_right_" + i}
-                        />
+                        >
+                            {item.props && item.props.content}
+                        </NavItem>
                     ))}
-                </Wrapper>
+                </NavbarWrapper>
                 <Container>{children}</Container>
             </div>
         );

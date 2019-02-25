@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import "./App.css";
 import Breadcrumbs from "./common/Menu/Breadcrumbs";
-import LanguageSwitcherContainer from "./common/Menu/LanguageSwitcher";
+import LanguageSwitcher from "./common/Menu/LanguageSwitcher";
 import NavBar from "./common/Menu/NavBar";
 import { Navigator } from "./common/Navigation";
 import Routes from "./modules/config/routes";
@@ -26,7 +26,7 @@ const navBarLeftItems = [
     }
 ];
 
-const navBarRightItems = [{ as: LanguageSwitcherContainer }];
+const navBarRightItems = [{ props: { as: LanguageSwitcher } }];
 
 class App extends Component {
     render() {

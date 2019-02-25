@@ -1,3 +1,3 @@
-import LanguageSwitcherContainer from "./LanguageSwitcherContainer";
+import LanguageSwitcher from "./LanguageSwitcher";
 
-export default LanguageSwitcherContainer;
+export default LanguageSwitcher;
