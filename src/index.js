@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { HashRouter, BrowserRouter } from "react-router-dom";
 import "./index.css";
-import "./semantic/dist/semantic.min.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import Accordion from "../../../../common/Accordion";
+import AccordionView from "../../../../common/AccordionView";
 import { strings } from "../../../../modules/config/strings";
 import KeyTermList from "../KeyTermList";
 import LearningObjectiveList from "../LearningObjectiveList";
@@ -54,7 +54,7 @@ class StepView extends Component {
             return <div>Step not found!</div>;
         }
         return (
-            <Accordion
+            <AccordionView
                 sections={[learningObjectives, keyTerms, topics, resources]}
             />
         );

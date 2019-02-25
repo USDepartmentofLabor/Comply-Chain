@@ -2,14 +2,39 @@ import PropTypes from "prop-types";
 import React, { Component } from "react";
 import withBreadcrumbs from "react-router-breadcrumbs-hoc";
 import { NavLink } from "react-router-dom";
-import { Breadcrumb } from "semantic-ui-react";
 import { breadcrumbs } from "../../../modules/config/breadcrumbs";
+import styled from "styled-components";
+
+const Breadcrumb = styled.ul`
+    padding: 10px 16px;
+    list-style: none;
+`;
+
+Breadcrumb.Section = styled.li`
+    display: inline;
+    font-size: 18px;
+    color: #0275d8;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+`;
+
+Breadcrumb.Divider = styled.span`
+    padding: 8px;
+    color: black;
+
+    &:before {
+        content: "/\00a0";
+    }
+`;
 
 class Breadcrumbs extends Component {
     render() {
-        const { breadcrumbs, className, id } = this.props;
+        const { breadcrumbs, id } = this.props;
         return (
-            <Breadcrumb id={id} className={className}>
+            <Breadcrumb id={id}>
                 {breadcrumbs.map((breadcrumb, index) => {
                     return (
                         <span key={breadcrumb.key}>
@@ -19,8 +44,9 @@ class Breadcrumbs extends Component {
                             >
                                 {breadcrumb}
                             </Breadcrumb.Section>
+
                             {index < breadcrumbs.length - 1 && (
-                                <Breadcrumb.Divider icon="right angle" />
+                                <Breadcrumb.Divider />
                             )}
                         </span>
                     );

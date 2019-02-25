@@ -1,3 +1,3 @@
-import Accordion from "./AccordionView";
+import Accordion from "./Accordion";
 
 export default Accordion;

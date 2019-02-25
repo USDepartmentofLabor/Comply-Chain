@@ -1,138 +1,84 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import {
-    Container,
-    Icon,
-    Menu,
-    Responsive,
-    Segment,
-    Sidebar
-} from "semantic-ui-react";
+import styled from "styled-components";
+import SideNav from "../SideNav";
 
-const NavBarMobile = ({
-    children,
-    leftItems,
-    onPusherClick,
-    onToggle,
-    rightItems,
-    visible
-}) => (
-    <Sidebar.Pushable as={Segment}>
-        <Sidebar
-            as={Menu}
-            color="blue"
-            inverted
-            animation="overlay"
-            icon="labeled"
-            vertical
-            visible={visible}
-            width="thin"
-        >
-            {leftItems.map((item, i) => (
-                <Menu.Item {...item.props} key={"mobile_left_" + i}>
-                    {item.component}
-                </Menu.Item>
-            ))}
-        </Sidebar>
+const Wrapper = styled.div`
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    border-bottom: 1px solid #f1f1f1;
+`;
 
-        <Sidebar.Pusher
-            dimmed={visible}
-            onClick={onPusherClick}
-            style={{ minHeight: "100vh" }}
-        >
-            <Menu fixed="top" size="huge">
-                <Menu.Item>Logo here</Menu.Item>
-                <Menu.Item onClick={onToggle}>
-                    <Icon name="sidebar" />
-                </Menu.Item>
-                <Menu.Menu position="right">
-                    {rightItems.map((item, i) => (
-                        <Menu.Item {...item} key={"mobile_right_" + i} />
-                    ))}
-                </Menu.Menu>
-            </Menu>
-            <Segment basic>{children}</Segment>
-        </Sidebar.Pusher>
-    </Sidebar.Pushable>
-);
+const NavItem = styled.a`
+    float: ${props => {
+        if (props.right) {
+            return "right";
+        }
+        return "left";
+    }};
+    display: block;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
 
-NavBarMobile.propTypes = {
-    children: PropTypes.node,
-    leftItems: PropTypes.arrayOf(PropTypes.object),
-    onPusherClick: PropTypes.func,
-    onToggle: PropTypes.func,
-    rightItems: PropTypes.arrayOf(PropTypes.object),
-    visible: PropTypes.bool
-};
+    &:hover {
+        background-color: #ddd;
+        color: black;
+    }
+`;
 
-NavBarMobile.defaultProps = {
-    leftItems: [],
-    rightItems: []
-};
-
-const NavBarDesktop = ({ leftItems, rightItems }) => (
-    <Menu fixed="top" inverted size="huge">
-        <Menu.Item>Logo here</Menu.Item>
-        {leftItems.map((item, i) => (
-            <Menu.Item {...item} key={"dt_left_" + i} />
-        ))}
-        <Menu.Menu position="right">
-            {rightItems.map((item, i) => (
-                <Menu.Item {...item} key={"dt_right_" + i} />
-            ))}
-        </Menu.Menu>
-    </Menu>
-);
-
-NavBarDesktop.propTypes = {
-    leftItems: PropTypes.arrayOf(PropTypes.object),
-    rightItems: PropTypes.arrayOf(PropTypes.object)
-};
-
-NavBarDesktop.defaultProps = {
-    leftItems: [],
-    rightItems: []
-};
-
-const NavBarChildren = ({ children }) => (
-    <Container style={{ marginTop: "5em" }}>{children}</Container>
-);
-
-NavBarChildren.propTypes = {
-    children: PropTypes.node
-};
+const Container = styled.div`
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+`;
 
 class NavBar extends Component {
-    state = {
-        visible: false
-    };
+    state = { visible: false };
 
-    handlePusher = () => {
+    toggleSideNav = () => {
         const { visible } = this.state;
-
-        if (visible) {
-            this.setState({ visible: false });
-        }
+        this.setState({ visible: !visible });
     };
 
-    handleToggle = () => this.setState({ visible: !this.state.visible });
-
+    handleSideNavClose = () => {
+        this.setState({ visible: false });
+    };
     render() {
-        const { children, leftItems, rightItems } = this.props;
         const { visible } = this.state;
-
+        const { leftItems, rightItems, children } = this.props;
         return (
-            <Responsive>
-                <NavBarMobile
-                    leftItems={leftItems}
-                    onPusherClick={this.handlePusher}
-                    onToggle={this.handleToggle}
-                    rightItems={rightItems}
-                    visible={visible}
-                >
-                    <NavBarChildren>{children}</NavBarChildren>
-                </NavBarMobile>
-            </Responsive>
+            <div>
+                <Wrapper>
+                    <SideNav
+                        visible={visible}
+                        onClose={this.handleSideNavClose}
+                    >
+                        {leftItems.map((item, i) => (
+                            <SideNav.Item
+                                {...item.props}
+                                key={"mobile_left_" + i}
+                            >
+                                {item.props && item.props.content}
+                            </SideNav.Item>
+                        ))}
+                    </SideNav>
+
+                    <NavItem onClick={this.toggleSideNav}>Menu</NavItem>
+                    {rightItems.map((item, i) => (
+                        <NavItem
+                            {...item.props}
+                            right
+                            key={"mobile_right_" + i}
+                        />
+                    ))}
+                </Wrapper>
+                <Container>{children}</Container>
+            </div>
         );
     }
 }
