@@ -26,14 +26,6 @@ Your app is ready to be deployed!
 
 Builds the app for production for Cordova by appending Cordova specific tags to the built index.html by using the `_inject-cordova.js` script.
 
-### `npm run build:semantic` && `npm run build:semantic:win`
-
-Runs and builds the Semantic UI CSS and assets to be used in the app.
-
-### `npm run watch:semantic`
-
-Watches for any CSS changes related to the Semantic UI theme and will rebuild on the fly.
-
 ### `npm run remove:www` && `npm run remove:www:win`
 
 Simply removes the `www/` directory.
@@ -54,11 +46,7 @@ After pulling down the repository run the following `npm install && cordova prep
 
 ### **Web**
 
-To run in development mode first make sure to build the Semantic UI components by running:
-
-`npm run build:semantic`
-
-and then run:
+To run in development mode run:
 
 `npm start`
 
