@@ -9,12 +9,12 @@ class AccordionView extends Component {
             <Accordion>
                 {sections.map((section, i) => {
                     return (
-                        <div key={i}>
+                        <Accordion.Section key={i}>
                             <Accordion.Title onClick={this.handleClick}>
                                 {section.title}
                             </Accordion.Title>
                             <Accordion.Panel>{section.content}</Accordion.Panel>
-                        </div>
+                        </Accordion.Section>
                     );
                 })}
             </Accordion>

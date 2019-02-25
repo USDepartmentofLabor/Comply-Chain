@@ -20,14 +20,19 @@ class Accordion extends Component {
         return (
             <Wrapper>
                 {React.Children.map(children, (child, i) => {
-                    return React.Children.map(child.props.children, gchild => {
-                        if (gchild.type.displayName === "Title") {
-                            return React.cloneElement(gchild, {
-                                onClick: this.toggleActive
-                            });
-                        }
-                        return gchild;
-                    });
+                    if (child.type.displayName === "Section") {
+                        return React.Children.map(
+                            child.props.children,
+                            gchild => {
+                                if (gchild.type.displayName === "Title") {
+                                    return React.cloneElement(gchild, {
+                                        onClick: this.toggleActive
+                                    });
+                                }
+                                return gchild;
+                            }
+                        );
+                    }
                 })}
             </Wrapper>
         );
@@ -81,6 +86,10 @@ Accordion.Panel = styled.div`
 `;
 
 Accordion.Panel.displayName = "Panel";
+
+Accordion.Section = styled.div``;
+
+Accordion.Section.displayName = "Section";
 
 Accordion.propTypes = {
     children: PropTypes.node.isRequired
