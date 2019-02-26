@@ -22,7 +22,7 @@ class StepView extends Component {
                 data: {
                     resources: {
                         title: "Further Resources",
-                        content: <Resources />
+                        content: Resources && <Resources />
                     },
                     learningObjectives: {
                         title: "Learning Objectives",
@@ -58,7 +58,10 @@ class StepView extends Component {
         if (!data) {
             return <div>Step not found!</div>;
         }
-        const sections = [learningObjectives, keyTerms, topics, resources];
+        const sections = [learningObjectives, keyTerms, topics];
+        if (resources.content) {
+            sections.push(resources);
+        }
         if (training.content) {
             sections.push(training);
         }

@@ -1,4 +1,3 @@
-import { Resources } from "./resource";
 import { Topics } from "./topic";
 
 export const StepData = {
@@ -27,8 +26,7 @@ export const StepData = {
                 termDefinition:
                     "A plan of action for remediation of all violations found in a particular audit. "
             }
-        ],
-        furtherResources: Resources.en
+        ]
     },
     es: {
         title: "Sexto paso:  Remediación de infracciones",
@@ -60,8 +58,7 @@ export const StepData = {
                 termDefinition:
                     "Plan de acción para remediar todas las infracciones identificadas en una auditoría en particular."
             }
-        ],
-        furtherResources: Resources.es
+        ]
     },
     fr: {
         title: "Sixième étape:  Réparer les infractions",
@@ -93,7 +90,6 @@ export const StepData = {
                 termDefinition:
                     "Plan d’action pour réparer toutes les infractions identifiées par un audit particulier."
             }
-        ],
-        furtherResources: Resources.fr
+        ]
     }
 };
