@@ -14,7 +14,7 @@ const en = () => {
                 <strong>independent verification</strong> of the effectiveness
                 of all social compliance program elements.{" "}
                 <em>Note: If, in </em>
-                <Link to="/step/5">Step 5, Monitor Compliance</Link>
+                <Link to="/steps/5">Step 5, Monitor Compliance</Link>
                 <em>
                     , a company already opted for independent
                     monitoring/auditing, it is not necessary to repeat this

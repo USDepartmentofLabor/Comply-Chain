@@ -88,7 +88,7 @@ const en = () => {
             <p>
                 No child under age 18 should be involved in the Worst Forms of
                 Child Labor specified in ILO Convention 182 (see
-                <Link to="/step/3">Step 3, Develop a Code of Conduct</Link>). If
+                <Link to="/steps/3">Step 3, Develop a Code of Conduct</Link>). If
                 children are found in such situations, the best approaches
                 include:
             </p>
@@ -127,7 +127,7 @@ const en = () => {
                 educational institutions. Options for action in such cases are
                 discussed in <em>Addressing Root Causes</em>.
             </p>
-            <div class="example-in-action" id="turkey">
+            <div className="example-in-action" id="turkey">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

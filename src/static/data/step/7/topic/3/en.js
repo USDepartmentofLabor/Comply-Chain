@@ -16,7 +16,7 @@ const en = () => {
                 exposed to the program or service) to an identical group that
                 does not receive the program or service.
             </p>
-            <div class="example-in-action" id="bwi_eval">
+            <div className="example-in-action" id="bwi_eval">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

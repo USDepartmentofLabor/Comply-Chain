@@ -79,7 +79,7 @@ const es = () => {
                 las infracciones laborales y las partes interesadas
                 tambi&eacute;n pueden sugerir ideas para mitigarla.
             </p>
-            <div class="example-in-action" id="Conflict_Free">
+            <div className="example-in-action" id="Conflict_Free">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n</strong>: la iniciativa
@@ -172,7 +172,7 @@ const es = () => {
                 para los trabajadores. En el ejemplo que se describe a
                 continuaci&oacute;n se ilustra esta tendencia.
             </p>
-            <div class="example-in-action" id="mica">
+            <div className="example-in-action" id="mica">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n</strong>:
@@ -228,7 +228,7 @@ const es = () => {
                 responsabilizarlos del desempe&ntilde;o del cumplimiento social,
                 modelo que puede resultar rentable a largo plazo. Estos y otros
                 temas de capacitaci&oacute;n y comunicaci&oacute;n se tratan en{" "}
-                <Link to="/step/4">
+                <Link to="/steps/4">
                     el cuarto paso: Comunicaci&oacute;n y capacitaci&oacute;n en
                     las cadenas de suministro.
                 </Link>

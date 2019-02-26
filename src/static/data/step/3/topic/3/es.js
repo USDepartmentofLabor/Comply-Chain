@@ -1,4 +1,6 @@
 import React from "react";
+import usFlag from "../../images/us_flag.png";
+import verite from "../../images/verite.png";
 
 const es = () => {
     return (
@@ -223,7 +225,7 @@ const es = () => {
                 opt&oacute; por una pol&iacute;tica de &ldquo;empleo
                 directo&rdquo;.{" "}
             </p>
-            <div class="own-words">
+            <div className="own-words">
                 <h3>
                     <iron-icon icon="icons:feedback" />
                     <strong>En sus propias palabras</strong>
@@ -320,7 +322,7 @@ const es = () => {
                 seres humanos como resultado de pr&aacute;cticas de
                 reclutamiento fraudulentas o enga&ntilde;osas.
             </p>
-            <div class="example-in-action" id="rst1">
+            <div className="example-in-action" id="rst1">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -328,22 +330,22 @@ const es = () => {
                         <span>instrumento de abastecimiento responsable 1</span>
                     </strong>
                 </h3>
-                <div class="flag-verite">
+                <div className="flag-verite">
                     <img
-                        class="flag"
-                        src="topics/step5/images/us_flag.png"
+                        className="flag"
+                        src={usFlag}
                         alt="Bandera de los Estados Unidos"
                     />{" "}
                     <img
-                        class="verite"
-                        src="topics/step5/images/verite.png"
+                        className="verite"
+                        src={verite}
                         alt="Logo de Verit&eacute;"
                     />
                 </div>
-                <p style="color: black">
+                <p style={{ color: "black" }}>
                     <strong>PROTECCIONES CONTRA LA TRATA DE PERSONAS</strong>
                 </p>
-                <p style="color: black">
+                <p style={{ color: "black" }}>
                     <strong>
                         Ejemplo de disposiciones del c&oacute;digo de conducta
                     </strong>

@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import panos from "../../images/panos.png";
+import hrm from "../../images/hrm.jpg";
 
 const en = () => {
     return (
@@ -111,10 +113,10 @@ const en = () => {
                 store. The U.S. Government, international organizations, NGOs
                 and others produce additional useful resources for initial
                 information-gathering; see
-                <Link to="/step/2">Further Resources</Link> for more
+                <Link to="/steps/2">Further Resources</Link> for more
                 information.
             </p>
-            <div class="example-in-action" id="med_rep">
+            <div className="example-in-action" id="med_rep">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -174,10 +176,10 @@ const en = () => {
                 </p>
                 <img
                     id="img-browser"
-                    src="topics/step2/images/panos.jpg"
+                    src={panos}
                     alt="child labourer with a spade"
                 />
-                <p class="small-text">&copy;George Osodi/Panos</p>
+                <p className="small-text">&copy;George Osodi/Panos</p>
             </div>
             <p>
                 Following this initial research, the company should engage
@@ -197,7 +199,7 @@ const en = () => {
             <p>What information are you looking for?</p>
             <h2>Nature and prevalence</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 Are child labor, forced labor and other labor abuses known or
                 believed to occur in your geographic areas (or potential areas)
                 of sourcing? What kind of work is being done? Where are abuses
@@ -205,13 +207,13 @@ const en = () => {
             </p>
             <h2>Root causes</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 If child labor, forced labor and other labor abuses exist, what
                 are the root causes?
             </p>
 
             <h2>Industry structure</h2>
-            <p class="indent-margin">
+            <p className="indent-margin">
                 How does this industry operate in the country? Are workplaces
                 formal or informal? Are employment relationships formalized? Are
                 there elements of production that are subcontracted? If so, is
@@ -220,7 +222,7 @@ const en = () => {
 
             <h2>Labor population</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 What are the characteristics of the labor force in this industry
                 in this geographic area? Is there significant reliance on
                 subcontracted, unskilled temporary and/or migrant workers? If
@@ -231,7 +233,7 @@ const en = () => {
 
             <h2>Industrial relations</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 Is a national legal and institutional framework in place to
                 allow for effective industrial relations and collective
                 bargaining? Are effective labor unions present? If not, are
@@ -241,7 +243,7 @@ const en = () => {
 
             <h2>Social protection</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 Is there a social safety net in the country that protects the
                 most vulnerable&mdash;providing, among other things, access to
                 health care, income security for the elderly and persons with
@@ -252,7 +254,7 @@ const en = () => {
             </p>
             <h2>Legal and regulatory environment</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 What are the key laws and regulations concerning child labor,
                 forced labor and other labor issues in this
                 country/jurisdiction? Do those laws and regulations apply to
@@ -281,7 +283,7 @@ const en = () => {
                 takes a step-by-step approach to examining country-based risks,
                 supply chain-based risks, and supplier-based risks.&nbsp;
             </p>
-            <div class="example-in-action" id="fish">
+            <div className="example-in-action" id="fish">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action: Fishing and Seafood</strong>
@@ -344,7 +346,7 @@ const en = () => {
                     Traceability Program.
                 </p>
             </div>
-            <div class="own-words">
+            <div className="own-words">
                 <h2>
                     <iron-icon icon="icons:feedback" />
                     <strong>In Their Own Words</strong>
@@ -499,8 +501,10 @@ const en = () => {
                 schooling registration programs, and farm owner education and
                 training programs.&nbsp;
             </p>
-            <img src="topics/step2/images/hrm.jpg" alt="Human rights Watch" />
-            <p class="small-text">&copy;Marcus Bleasdale/Human Rights Watch</p>
+            <img src={hrm} alt="Human rights Watch" />
+            <p className="small-text">
+                &copy;Marcus Bleasdale/Human Rights Watch
+            </p>
             <p>
                 If you already have well-established relationships with
                 suppliers and are seeking to assess their existing risks, audit

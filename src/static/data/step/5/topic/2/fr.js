@@ -117,7 +117,7 @@ const fr = () => {
                 syst&egrave;me de conformit&eacute; sociale si elle veut
                 s&rsquo;assurer une efficacit&eacute; et une
                 cr&eacute;dibilit&eacute; maximales. Voir{" "}
-                <Link to="/step/7" style="margin-right: 5px;">
+                <Link to="/steps/7">
                     la 7<sup>e</sup> &eacute;tape&nbsp;: examen
                     ind&eacute;pendant
                 </Link>{" "}
@@ -204,7 +204,7 @@ const fr = () => {
                 L&apos;&eacute;quipe devrait convenir collectivement des
                 r&eacute;sultats de l&apos;audit final.
             </p>
-            <div class="example-in-action" id="better_work_assessment">
+            <div className="example-in-action" id="better_work_assessment">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Exemple d&apos;action&nbsp;: &Eacute;quipes

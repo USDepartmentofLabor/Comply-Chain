@@ -1,4 +1,5 @@
 import React from "react";
+import leap from "../../../../../images/leap.png";
 
 const en = () => {
     return (
@@ -11,7 +12,7 @@ const en = () => {
                 companies and other non-corporate experts, and providing a safe
                 space to engage collectively with different stakeholders.&nbsp;
             </p>
-            <div class="example-in-action" id="rsn">
+            <div className="example-in-action" id="rsn">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -52,7 +53,7 @@ const en = () => {
                     .
                 </p>
             </div>
-            <div class="example-in-action" id="res_min_trade">
+            <div className="example-in-action" id="res_min_trade">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -95,7 +96,7 @@ const en = () => {
                     responsibilities.
                 </p>
             </div>
-            <div class="example-in-action" id="sug_phil">
+            <div className="example-in-action" id="sug_phil">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -167,11 +168,11 @@ const en = () => {
                         workers and their families.
                     </li>
                 </ul>
-                <img src="info-pages/images/leap.png" alt="leap image" />
+                <img src={leap} alt="Leap" />
 
-                <p class="small-text">&copy;Christopher Leones/ABK3 LEAP</p>
+                <p className="small-text">&copy;Christopher Leones/ABK3 LEAP</p>
             </div>
-            <div class="example-in-action">
+            <div className="example-in-action">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

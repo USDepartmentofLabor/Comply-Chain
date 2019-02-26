@@ -41,7 +41,7 @@ const en = () => {
                 further in{" "}
                 <em>
                     <u>
-                        <Link to="/step/2">
+                        <Link to="/steps/2">
                             Assessing and Addressing Root Causes
                         </Link>
                     </u>
@@ -72,7 +72,7 @@ const en = () => {
                 producers and suppliers&rsquo; incomes, so the trainings may be
                 deemed more important by management and supervisors.
             </p>
-            <div class="example-in-action" id="cocoa">
+            <div className="example-in-action" id="cocoa">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

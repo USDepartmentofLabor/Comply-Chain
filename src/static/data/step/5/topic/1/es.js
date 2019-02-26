@@ -14,7 +14,7 @@ const es = () => {
             </p>
             <p>
                 Tal como se indic&oacute; en{" "}
-                <Link to="/step/1">
+                <Link to="/steps/1">
                     el primer paso, Participaci&oacute;n de los interesados y
                     los socios
                 </Link>
@@ -52,7 +52,7 @@ const es = () => {
                 En cualquier auditor&iacute;a, si llegaran a identificarse
                 infracciones, se las debe rectificar. Este tema se trata en
                 detalle en{" "}
-                <Link to="/step/6">
+                <Link to="/steps/6">
                     el sexto paso, Remediaci&oacute;n de las infracciones
                 </Link>
                 .

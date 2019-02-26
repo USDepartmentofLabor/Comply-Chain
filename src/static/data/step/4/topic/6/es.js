@@ -1,4 +1,5 @@
 import React from "react";
+import basicElements from "../../images/basic_elements.png";
 
 const es = () => {
     return (
@@ -9,10 +10,7 @@ const es = () => {
                     reclamaci&oacute;n a nivel de proyecto
                 </strong>
             </p>
-            <img
-                src="topics/step4/images/basic_elements.png"
-                alt="no alt text"
-            />
+            <img src={basicElements} alt="no alt text" />
             <p>
                 Fuente: Corporaci&oacute;n Financiera Internacional.{" "}
                 <em>

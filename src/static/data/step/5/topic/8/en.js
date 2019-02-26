@@ -19,7 +19,7 @@ const en = () => {
                 methodology has been tested in smallholder agricultural
                 production in particular.
             </p>
-            <div class="example-in-action" id="cambodia">
+            <div className="example-in-action" id="cambodia">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import manBamboo from "../../images/man_bamboo.jpg";
 
 const en = () => {
     return (
@@ -7,7 +8,7 @@ const en = () => {
             <h1>Independent Monitoring (Auditing)</h1>
             <p>
                 As discussed under
-                <Link to="/step/5">Step 5, Monitor Compliance,</Link>{" "}
+                <Link to="/steps/5">Step 5, Monitor Compliance,</Link>{" "}
                 independent monitoring should consist of unannounced site visits
                 to worksites in the company&rsquo;s supply chain to evaluate
                 compliance with the code of conduct. Announced visits may also
@@ -48,7 +49,7 @@ const en = () => {
                 can provide such groups the opportunity to bring issues to a
                 company&rsquo;s attention.
             </p>
-            <div class="example-in-action" id="fla">
+            <div className="example-in-action" id="fla">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -88,7 +89,7 @@ const en = () => {
                     outlined in the FLA&rsquo;s Workplace Code of Conduct.
                 </p>
             </div>
-            <div class="example-in-action" id="bonsucro">
+            <div className="example-in-action" id="bonsucro">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -130,13 +131,15 @@ const en = () => {
                 </p>
                 <img
                     id="img-browser"
-                    src="topics/step7/images/man_bamboo.jpg"
+                    src={manBamboo}
                     alt="Man chopping bamboo"
                 />
                 <br />
-                <p class="small-text">&copy; Florian Kopp/Alamy Stock Photo</p>
+                <p className="small-text">
+                    &copy; Florian Kopp/Alamy Stock Photo
+                </p>
             </div>
-            <div class="example-in-action" id="sai_model">
+            <div className="example-in-action" id="sai_model">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

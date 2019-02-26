@@ -4,7 +4,7 @@ const fr = () => {
     return (
         <div>
             <p>
-                <div class="own-words">
+                <div className="own-words">
                     <h2>
                         <iron-icon icon="icons:feedback" />
                         <strong>Dans leurs propres mots</strong>

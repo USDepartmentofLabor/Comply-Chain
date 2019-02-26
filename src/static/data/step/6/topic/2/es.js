@@ -33,7 +33,7 @@ const es = () => {
                 En casos de <strong>trabajo infantil</strong>, las causas pueden
                 ser:
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <p>
                     No exigir documentos que permitan verificar la edad al
                     momento de la contrataci&oacute;n o no constatarlos,
@@ -72,7 +72,7 @@ const es = () => {
                 En casos de <strong>trabajo forzoso</strong>, las causas pueden
                 ser:
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <p>
                     Un c&aacute;lculo inadecuado de los sueldos y las
                     deducciones o el pago tard&iacute;o;
@@ -744,7 +744,7 @@ const es = () => {
                     </tr>
                 </tbody>
             </table>
-            <div class="example-in-action" id="better_work">
+            <div className="example-in-action" id="better_work">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

@@ -101,7 +101,7 @@ const es = () => {
                 opta por usar auditores externos, tal vez se deba solicitar la
                 participaci&oacute;n de entidades independientes para algunas
                 funciones del sistema de cumplimiento social. V&eacute;ase{" "}
-                <Link to="/step/7">
+                <Link to="/steps/7">
                     el s&eacute;ptimo paso, Examen independiente
                 </Link>
                 , donde se tratar&aacute; m&aacute;s el tema de vigilancia,
@@ -176,7 +176,7 @@ const es = () => {
                 equipo debe estar de acuerdo con las conclusiones finales de la
                 auditor&iacute;a.
             </p>
-            <div class="example-in-action" id="better_work_assessment">
+            <div className="example-in-action" id="better_work_assessment">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Ejemplo en acci&oacute;n: equipos de evaluaci&oacute;n del

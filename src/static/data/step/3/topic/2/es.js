@@ -30,7 +30,7 @@ const es = () => {
                 sistema de cumplimiento social en la empresa. Por ejemplo, los
                 instrumentos para la auditor&iacute;a derivados de un
                 c&oacute;digo se analizan en{" "}
-                <Link to="/step/5">
+                <Link to="/steps/5">
                     el quinto paso: Vigilancia y seguimiento del cumplimiento.
                 </Link>
             </p>

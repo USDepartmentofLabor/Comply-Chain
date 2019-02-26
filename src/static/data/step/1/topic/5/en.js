@@ -9,7 +9,7 @@ const en = () => {
                 through industry-led platforms, industry associations and
                 industry-specific initiatives. Examples are below.
             </p>
-            <div class="example-in-action" id="sug_phil">
+            <div className="example-in-action" id="sug_phil">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -95,7 +95,7 @@ const en = () => {
                     tobacco growing.
                 </p>
             </div>
-            <div class="example-in-action" id="clt">
+            <div className="example-in-action" id="clt">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action: Child Labor Platform</strong>
@@ -158,7 +158,7 @@ const en = () => {
                     ongoing basis.
                 </p>
             </div>
-            <div class="example-in-action" id="gbn">
+            <div className="example-in-action" id="gbn">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

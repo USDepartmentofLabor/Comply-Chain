@@ -73,7 +73,7 @@ const en = () => {
                     child&rsquo;s family and work situation:
                 </em>
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <p>
                     <em>Reasons why the child works</em>
                 </p>

@@ -52,7 +52,7 @@ const fr = () => {
                 Les rapports publics pr&eacute;sentent divers avantages, tant
                 internes qu&apos;externes :&nbsp;
             </p>
-            <div style="margin-left: 2%">
+            <div style={{ marginLeft: "2%" }}>
                 <h2>&Eacute;ducation et ralliement des employ&eacute;s</h2>
                 <p>
                     Les rapports sur la conformit&eacute; sociale sont aussi un

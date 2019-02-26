@@ -10,7 +10,7 @@ const es = () => {
                 industria e iniciativas espec&iacute;ficas de la misma. A
                 continuaci&oacute;n se describen algunos ejemplos.
             </p>
-            <div class="example-in-action" id="sug_phil">
+            <div className="example-in-action" id="sug_phil">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -106,7 +106,7 @@ const es = () => {
                     que conlleva el trabajo infantil en el cultivo de tabaco.{" "}
                 </p>
             </div>
-            <div class="example-in-action" id="clt">
+            <div className="example-in-action" id="clt">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -177,7 +177,7 @@ const es = () => {
                     organizaciones pertinentes.
                 </p>
             </div>
-            <div class="example-in-action" id="gbn">
+            <div className="example-in-action" id="gbn">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

@@ -13,7 +13,7 @@ const en = () => {
             </p>
             <p>
                 As discussed in
-                <Link to="/step/1">
+                <Link to="/steps/1">
                     Step 1, Engage Stakeholders and Partners
                 </Link>
                 , if you are part of an industry or multi-industry group, this
@@ -44,7 +44,7 @@ const en = () => {
             <p>
                 In any audit, when violations are found, you should remediate
                 them. This is covered in detail in
-                <Link to="/step/6">Step 6, Remediate Violations</Link>.
+                <Link to="/steps/6">Step 6, Remediate Violations</Link>.
             </p>
         </div>
     );

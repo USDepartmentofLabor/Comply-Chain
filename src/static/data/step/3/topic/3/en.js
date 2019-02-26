@@ -1,4 +1,6 @@
 import React from "react";
+import usFlag from "../../images/us_flag.png";
+import verite from "../../images/verite.png";
 
 const en = () => {
     return (
@@ -191,7 +193,7 @@ const en = () => {
                 risk-based reasons why the company chose to move to a
                 &ldquo;direct employment&rdquo; policy.
             </p>
-            <div class="own-words">
+            <div className="own-words">
                 <h3>
                     <iron-icon icon="icons:feedback" />
                     <strong>In Their Own Words</strong>
@@ -279,7 +281,7 @@ const en = () => {
                 of human trafficking as a result of fraudulent or misleading
                 recruitment practices.
             </p>
-            <div class="example-in-action" id="rst1">
+            <div className="example-in-action" id="rst1">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -287,22 +289,14 @@ const en = () => {
                         <span>Responsible Sourcing Tool 1</span>
                     </strong>
                 </h3>
-                <div class="flag-verite">
-                    <img
-                        class="flag"
-                        src="topics/step5/images/us_flag.png"
-                        alt="US Flag"
-                    />
-                    <img
-                        class="verite"
-                        src="topics/step5/images/verite.png"
-                        alt="Verite sign"
-                    />
+                <div className="flag-verite">
+                    <img className="flag" src={usFlag} alt="US Flag" />
+                    <img className="verite" src={verite} alt="Verite sign" />
                 </div>
-                <p style="color: black">
+                <p style={{ color: "black" }}>
                     <strong>PROTECTIONS AGAINST TRAFFICKING IN PERSONS </strong>
                 </p>
-                <p style="color: black">
+                <p style={{ color: "black" }}>
                     <strong>Sample Code of Conduct Provisions </strong>
                 </p>
                 <p>

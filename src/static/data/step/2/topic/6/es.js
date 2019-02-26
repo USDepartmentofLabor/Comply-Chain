@@ -13,7 +13,7 @@ const es = () => {
                 ¿Cu&aacute;les son las causas fundamentales del trabajo infantil
                 y el trabajo forzoso?
             </h2>
-            <p class="indent-margin">
+            <p className="indent-margin">
                 Un n&uacute;mero importante de pa&iacute;ses que con creciente
                 frecuencia abastecen los bienes manufacturados o los principales
                 productos agr&iacute;colas enfrentan desaf&iacute;os sociales,
@@ -375,7 +375,7 @@ const es = () => {
                     <br />
                 </li>
             </ul>
-            <div class="example-in-action" id="leber">
+            <div className="example-in-action" id="leber">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n</strong>: Leber Jeweler*:
@@ -445,7 +445,7 @@ const es = () => {
                     forzoso y otros abusos laborales. <br />
                 </li>
             </ul>
-            <div class="own-words">
+            <div className="own-words">
                 <h4>
                     <iron-icon icon="icons:feedback" />
                     <strong>En sus propias palabras</strong>
@@ -513,7 +513,7 @@ const es = () => {
                     acceder a mejores puestos de trabajo.
                 </li>
             </ul>
-            <div class="example-in-action" id="Isidro">
+            <div className="example-in-action" id="Isidro">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -595,7 +595,7 @@ const es = () => {
                     <br />
                 </li>
             </ul>
-            <div class="example-in-action" id="lco">
+            <div className="example-in-action" id="lco">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n</strong>: League Collegiate
@@ -648,7 +648,7 @@ const es = () => {
                     <br />
                 </li>
             </ul>
-            <div class="example-in-action" id="gap">
+            <div className="example-in-action" id="gap">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n</strong>: programa P.A.C.E.

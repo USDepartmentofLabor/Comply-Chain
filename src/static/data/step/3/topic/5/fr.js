@@ -52,7 +52,7 @@ const fr = () => {
                 Chacun de ces principes est d&eacute;velopp&eacute; dans le Code
                 de bonnes pratiques d&apos;ISEAL.&nbsp;
             </p>
-            <div class="example-in-action" id="fair_labor">
+            <div className="example-in-action" id="fair_labor">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Exemple d&apos;action</strong>&nbsp;: Processus de

@@ -21,7 +21,7 @@ const fr = () => {
                 meilleure conformit&eacute;.
             </p>
             <p>
-                <Link to="/step/4" style="margin-right: 5px;">
+                <Link to="/steps/4">
                     La 4<sup>e</sup>&nbsp;&eacute;tape&nbsp;: communiquer et
                     former l&rsquo;ensemble de votre cha&icirc;ne
                     d&rsquo;approvisionnement

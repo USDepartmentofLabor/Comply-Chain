@@ -86,7 +86,7 @@ const fr = () => {
                     :
                 </em>
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <p>
                     <em>Motifs pour lesquels l&apos;enfant travaille</em>
                 </p>

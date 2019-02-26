@@ -23,7 +23,7 @@ const en = () => {
                 more detailed guidance for the decision-makers who implement the
                 social compliance system within the company. For instance, the
                 auditing tools derived from a code are discussed under{" "}
-                <Link to="/step/5">Step 5, Monitor Compliance</Link>.
+                <Link to="/steps/5">Step 5, Monitor Compliance</Link>.
             </p>
             <h2>Example Codes</h2>
             <p>

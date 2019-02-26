@@ -28,7 +28,7 @@ const en = () => {
                 In instances of <strong>child labor</strong>, causes can
                 include:
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <p>
                     Failure to require age verification documents at the time of
                     hiring, or failure to check, verify and/or track them;
@@ -61,7 +61,7 @@ const en = () => {
                 In instances of <strong>forced labor</strong>, causes can
                 include:
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <p>
                     Inaccurate computation of wages and deductions and/or
                     delayed wage payment;
@@ -651,7 +651,7 @@ const en = () => {
                     </tr>
                 </tbody>
             </table>
-            <div class="example-in-action" id="better_work">
+            <div className="example-in-action" id="better_work">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action: The </strong>

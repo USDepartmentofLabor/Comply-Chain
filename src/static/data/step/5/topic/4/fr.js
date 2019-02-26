@@ -1,4 +1,5 @@
 import React from "react";
+import usDol from "../../images/usdol.jpg";
 
 const fr = () => {
     return (
@@ -30,7 +31,7 @@ const fr = () => {
                 r&eacute;p&eacute;t&eacute;s &agrave; intervalles
                 p&eacute;riodiques, selon les conclusions de l&apos;audit.
             </p>
-            <div class="example-in-action" id="prereg">
+            <div className="example-in-action" id="prereg">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Exemple d&apos;action&nbsp;: Processus de
@@ -99,10 +100,10 @@ const fr = () => {
             </p>
             <img
                 id="img-browser"
-                src="topics/step5/images/usdol.jpg"
+                src={usDol}
                 alt="travail agricole des enfants"
             />
-            <p class="small-text">
+            <p className="small-text">
                 &copy;Shelley Stinelli/d&eacute;partement du Travail des
                 &Eacute;tats-Unis
             </p>

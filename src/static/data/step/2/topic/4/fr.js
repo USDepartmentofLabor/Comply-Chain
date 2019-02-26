@@ -1,4 +1,6 @@
 import React from "react";
+import cocoaSupplyChains from "../../images/cocoa_supply_chains_fr.png";
+import genericImport from "../../images/generic_import_fr.png";
 
 const fr = () => {
     return (
@@ -142,11 +144,11 @@ const fr = () => {
             </h2>
             <br />{" "}
             <img
-                src="topics/step2/images/cocoa_supply_chains_fr.png"
+                src={cocoaSupplyChains}
                 alt="Cha&icirc;nes d'approvisionnement du cacao"
                 longdesc="#cocoa_chains"
             />
-            <p class="small-text">
+            <p className="small-text">
                 Source&nbsp;:{" "}
                 <a href="http://www.crea.org/">
                     Centre pour la r&eacute;flexion, l&rsquo;&eacute;ducation et
@@ -216,11 +218,11 @@ const fr = () => {
             </h2>
             <br />{" "}
             <img
-                src="topics/step2/images/generic_import_fr.png"
+                src={genericImport}
                 alt="Cha&icirc;ne d&rsquo;approvisionnement d&rsquo;importation g&eacute;n&eacute;rique&nbsp;- mod&egrave;le de d&eacute;tail"
                 longdesc="#generic_import"
             />
-            <p class="small-text">
+            <p className="small-text">
                 Source&nbsp;:{" "}
                 <a href="https://corporate.target.com/">Target Corporation.</a>
             </p>

@@ -19,7 +19,7 @@ const es = () => {
                 avanzando hacia un mayor grado de cumplimiento.
             </p>
             <p>
-                <Link to="/step/4">
+                <Link to="/steps/4">
                     En el cuarto paso: Comunicaci&oacute;n y capacitaci&oacute;n
                     en las cadenas de suministro
                 </Link>

@@ -41,7 +41,7 @@ const es = () => {
                 niveles actuales de cumplimiento. Encontrar&aacute;
                 informaci&oacute;n adicional sobre la manera de realizar estos
                 tipos de auditor&iacute;a en el{" "}
-                <Link to="/step/5">
+                <Link to="/steps/5">
                     quinto paso: Vigilancia y seguimiento del cumplimiento
                 </Link>
                 .
@@ -63,7 +63,7 @@ const es = () => {
                 de los proveedores que necesitan mejoras. Encontrar&aacute;
                 informaci&oacute;n adicional sobre la manera de realizar estos
                 tipos de auditor&iacute;a en{" "}
-                <Link to="/step/5">
+                <Link to="/steps/5">
                     el quinto paso: Vigilancia y seguimiento del cumplimiento.
                 </Link>
             </p>

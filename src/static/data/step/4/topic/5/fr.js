@@ -86,7 +86,7 @@ const fr = () => {
                 &agrave; am&eacute;liorer et d&rsquo;une opportunit&eacute; de
                 progr&egrave;s technologique.&nbsp;
             </p>
-            <div class="own-words">
+            <div className="own-words">
                 <h2>
                     <iron-icon icon="icons:feedback" />
                     <strong>Dans leurs propres mots</strong>

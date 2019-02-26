@@ -19,7 +19,7 @@ const es = () => {
                 tratamiento (los beneficiarios del programa o servicio) con un
                 grupo id&eacute;ntico que no recibe el programa o servicio.
             </p>
-            <div class="example-in-action" id="bwi_eval">
+            <div className="example-in-action" id="bwi_eval">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

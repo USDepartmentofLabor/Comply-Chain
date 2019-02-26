@@ -87,7 +87,7 @@ const en = () => {
                 be necessary to engage independent entities for certain roles
                 within the social compliance system if they wish to ensure
                 maximum effectiveness and credibility. See
-                <Link to="/step/7">Step 7, Independent Review</Link> for a
+                <Link to="/steps/7">Step 7, Independent Review</Link> for a
                 larger discussion of independent monitoring and verification.
             </p>
             <h2>Auditor Competencies</h2>
@@ -150,7 +150,7 @@ const en = () => {
                 patterns are identified. The team should collectively agree on
                 the final audit findings.
             </p>
-            <div class="example-in-action" id="better_work_assessment">
+            <div className="example-in-action" id="better_work_assessment">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Example in Action: Better Work Assessment Teams

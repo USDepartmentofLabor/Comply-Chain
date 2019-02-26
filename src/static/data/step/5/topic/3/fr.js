@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import usFlag from "../../images/us_flag.png";
+import verite from "../../images/verite.png";
 
 const fr = () => {
     return (
@@ -350,7 +352,7 @@ const fr = () => {
                 pr&eacute;cis&eacute;es dans ses Exemples de dispositions de
                 code de conduite, qui sont r&eacute;f&eacute;renc&eacute;es
                 &agrave; la{" "}
-                <Link to="/step/3">
+                <Link to="/steps/3">
                     3<sup>e</sup>&nbsp;&eacute;tape&nbsp;: &eacute;laborer un
                     code de conduite
                 </Link>
@@ -365,21 +367,21 @@ const fr = () => {
                 &eacute;valuer les r&eacute;sultats des fournisseurs et des
                 agents de main d&apos;&oelig;uvre.
             </p>
-            <div class="example-in-action" id="rst1a">
+            <div className="example-in-action" id="rst1a">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Exemple d&apos;action&nbsp;: Outil d&rsquo;approvisionnement
                     responsable&nbsp;1A
                 </h2>
-                <div class="flag-verite">
+                <div className="flag-verite">
                     <img
-                        class="flag"
-                        src="topics/step5/images/us_flag.png"
+                        className="flag"
+                        src={usFlag}
                         alt="Drapeau des &Eacute;tats-Unis d&rsquo;Am&eacute;rique"
                     />{" "}
                     <img
-                        class="verite"
-                        src="topics/step5/images/verite.png"
+                        className="verite"
+                        src={verite}
                         alt="Logo Verit&eacute;"
                     />
                 </div>

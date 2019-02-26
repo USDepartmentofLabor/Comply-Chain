@@ -10,7 +10,7 @@ const en = () => {
                 forced labor.&nbsp;
             </p>
             <h2>What are the Root Causes of Child Labor and Forced Labor?</h2>
-            <p class="indent-margin">
+            <p className="indent-margin">
                 A significant number of countries from which manufactured
                 products are increasingly sourced&mdash;or where major
                 agricultural commodities are grown&mdash;have deeply entrenched
@@ -312,7 +312,7 @@ const en = () => {
                     <br />
                 </li>
             </ul>
-            <div class="example-in-action" id="leber">
+            <div className="example-in-action" id="leber">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action</strong>: Leber Jeweler*: The
@@ -377,7 +377,7 @@ const en = () => {
                     <br />
                 </li>
             </ul>
-            <div class="own-words">
+            <div className="own-words">
                 <h4>
                     <iron-icon icon="icons:feedback" />
                     <strong>In Their Own Words</strong>
@@ -438,7 +438,7 @@ const en = () => {
                     <br />
                 </li>
             </ul>
-            <div class="example-in-action" id="Isidro">
+            <div className="example-in-action" id="Isidro">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action: Isidro Le&oacute;n-York</strong>
@@ -511,7 +511,7 @@ const en = () => {
                     <br />
                 </li>
             </ul>
-            <div class="example-in-action" id="lco">
+            <div className="example-in-action" id="lco">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action</strong>: League Collegiate
@@ -560,7 +560,7 @@ const en = () => {
                     <br />
                 </li>
             </ul>
-            <div class="example-in-action" id="gap">
+            <div className="example-in-action" id="gap">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action</strong>: Gap Inc.&rsquo;s*

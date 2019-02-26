@@ -54,7 +54,7 @@ const es = () => {
                 m&aacute;s detalle en{" "}
                 <em>
                     <u>
-                        <Link to="/step/2">
+                        <Link to="/steps/2">
                             Evaluaci&oacute;n y tratamiento de las causas
                             fundamentales.
                         </Link>
@@ -92,7 +92,7 @@ const es = () => {
                 supervisores tal vez asignen m&aacute;s importancia a la
                 capacitaci&oacute;n.
             </p>
-            <div class="example-in-action" id="cocoa">
+            <div className="example-in-action" id="cocoa">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

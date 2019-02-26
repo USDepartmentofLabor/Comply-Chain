@@ -327,7 +327,7 @@ const en = () => {
                 enhance their social compliance systems. Such engagements can
                 include measures such as:
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <p>
                     Encouraging governments to gather and publish data on child
                     labor, forced labor and other issues that are useful for
@@ -348,7 +348,7 @@ const en = () => {
                     <strong> root causes</strong> of child and forced labor.
                 </p>
             </div>
-            <div class="example-in-action" id="engagement_gov_brazil">
+            <div className="example-in-action" id="engagement_gov_brazil">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

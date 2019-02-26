@@ -204,7 +204,7 @@ const en = () => {
                     when violations are found.
                 </li>
             </ul>
-            <div class="example-in-action" id="nike">
+            <div className="example-in-action" id="nike">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

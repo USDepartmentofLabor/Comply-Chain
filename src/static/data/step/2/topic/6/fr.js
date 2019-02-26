@@ -14,7 +14,7 @@ const fr = () => {
                 Quelles sont les causes profondes du travail des enfants et du
                 travail forc&eacute;&nbsp;?
             </h2>
-            <p class="indent-margin">
+            <p className="indent-margin">
                 Un grand nombre de pays d&apos;o&ugrave; viennent de plus en
                 plus les produits manufactur&eacute;s, ou ceux o&ugrave; sont
                 cultiv&eacute;s les principaux produits agricoles, font face
@@ -451,7 +451,7 @@ const fr = () => {
                     <br />
                 </li>
             </ul>
-            <div class="example-in-action" id="leber">
+            <div className="example-in-action" id="leber">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Exemple d&apos;action</strong>&nbsp;: Leber
@@ -530,7 +530,7 @@ const fr = () => {
                     <br />
                 </li>
             </ul>
-            <div class="own-words">
+            <div className="own-words">
                 <h4>
                     <iron-icon icon="icons:feedback" />
                     <strong>Dans leurs propres mots</strong>
@@ -604,7 +604,7 @@ const fr = () => {
                     <br />
                 </li>
             </ul>
-            <div class="example-in-action" id="Isidro">
+            <div className="example-in-action" id="Isidro">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -694,7 +694,7 @@ const fr = () => {
                     <br />
                 </li>
             </ul>
-            <div class="example-in-action" id="lco">
+            <div className="example-in-action" id="lco">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Exemple d&apos;action</strong>&nbsp;: League
@@ -757,7 +757,7 @@ const fr = () => {
                     <br />
                 </li>
             </ul>
-            <div class="example-in-action" id="gap">
+            <div className="example-in-action" id="gap">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Exemple d&apos;action</strong>&nbsp;: Programme
@@ -1063,16 +1063,11 @@ const fr = () => {
                     OIT (2014) World Social Protection Report: Building economic
                     recovery, inclusive development and social justice.{" "}
                     <a
-                        href="http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--fr/index.htm and link to the French page."
+                        href="http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--fr/index.htm"
                         title="World Social Protection Report: Building economic recovery, inclusive development and social justice."
                     >
                         http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--fr/index.htm
-                    </a>{" "}
-                    [en anglais]
-                    <a
-                        href="http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--en/index.htm"
-                        title="World Social Protection Report: Building economic recovery, inclusive development and social justice."
-                    />
+                    </a>
                 </li>
                 <li>
                     ISEAL Alliance. <em>Global Living Wage Coalition</em> [en

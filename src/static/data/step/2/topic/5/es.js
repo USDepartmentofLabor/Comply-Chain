@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import panos from "../../images/panos.jpg";
+import hrm from "../../images/hrm.jpg";
 
 const es = () => {
     return (
@@ -125,12 +127,12 @@ const es = () => {
                 . El Gobierno de los EE.UU., las organizaciones internacionales,
                 las ONG y otros producen recursos &uacute;tiles para la
                 recolecci&oacute;n inicial de informaci&oacute;n. V&eacute;ase{" "}
-                <Link to="/step/2">
+                <Link to="/steps/2">
                     Recursos adicionales para obtener m&aacute;s
                     informaci&oacute;n.
                 </Link>
             </p>
-            <div class="example-in-action" id="med_rep">
+            <div className="example-in-action" id="med_rep">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -208,10 +210,10 @@ const es = () => {
                 </p>
                 <img
                     id="img-browser"
-                    src="topics/step2/images/panos.jpg"
+                    src={panos}
                     alt="ni&ntilde;o que trabaja con una pala."
                 />
-                <p class="small-text">&copy;George Osodi/Panos</p>
+                <p className="small-text">&copy;George Osodi/Panos</p>
             </div>
             <p>
                 Tras esta investigaci&oacute;n inicial, la empresa debe
@@ -232,7 +234,7 @@ const es = () => {
             <p>¿Qu&eacute; informaci&oacute;n procura obtener?</p>
             <h2>Naturaleza y frecuencia</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 ¿Se conocen casos de trabajo infantil, trabajo forzoso u otras
                 infracciones laborales o se cree que ocurren en sus zonas (o
                 zonas posibles) geogr&aacute;ficas de abastecimiento?
@@ -242,14 +244,14 @@ const es = () => {
             </p>
             <h2>Causas fundamentales</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 Si existe el trabajo infantil, el trabajo forzoso y otras
                 infracciones laborales, ¿cu&aacute;les son las causas
                 fundamentales?
             </p>
 
             <h2>Estructura de la industria</h2>
-            <p class="indent-margin">
+            <p className="indent-margin">
                 ¿C&oacute;mo funciona esta industria en el pa&iacute;s? ¿Los
                 lugares de trabajo son formales o informales? ¿Est&aacute;n
                 formalizadas las relaciones de empleo? ¿Se subcontratan algunos
@@ -259,7 +261,7 @@ const es = () => {
 
             <h2>Poblaci&oacute;n laboral</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 ¿Cu&aacute;les son las caracter&iacute;sticas de la fuerza
                 laboral en esta industria en esta zona geogr&aacute;fica? ¿Se
                 recurre de manera importante a trabajadores subcontratados,
@@ -271,7 +273,7 @@ const es = () => {
 
             <h2>Relaciones industriales</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 ¿Se cuenta con un marco jur&iacute;dico e institucional nacional
                 en vigencia para permitir relaciones industriales efectivas y
                 negociaci&oacute;n colectiva? ¿Est&aacute;n presentes sindicatos
@@ -282,7 +284,7 @@ const es = () => {
 
             <h2>Protecci&oacute;n social</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 ¿Existe en el pa&iacute;s una red de seguridad social que
                 proteja a los m&aacute;s vulnerables y que ofrezca, entre otras
                 cosas, acceso a atenci&oacute;n m&eacute;dica, seguridad de los
@@ -294,7 +296,7 @@ const es = () => {
             </p>
             <h2>Entorno jur&iacute;dico y reglamentario</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 ¿Cu&aacute;les son las leyes y reglamentos principales en
                 materia de trabajo infantil, trabajo forzoso y otras cuestiones
                 laborales en este pa&iacute;s o jurisdicci&oacute;n? ¿Se aplican
@@ -331,7 +333,7 @@ const es = () => {
                 riesgos en la cadena de suministro y los riesgos de los
                 proveedores.&nbsp;
             </p>
-            <div class="example-in-action" id="fish">
+            <div className="example-in-action" id="fish">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -408,7 +410,7 @@ const es = () => {
                     y mariscos.
                 </p>
             </div>
-            <div class="own-words">
+            <div className="own-words">
                 <h2>
                     <iron-icon icon="icons:feedback" />
                     <strong>En sus propias palabras</strong>
@@ -587,8 +589,10 @@ const es = () => {
                 programas de educaci&oacute;n y capacitaci&oacute;n para los
                 propietarios de los campos.&nbsp;
             </p>
-            <img src="topics/step2/images/hrm.jpg" alt="Human Rights Watch" />
-            <p class="small-text">&copy;Marcus Bleasdale/Human Rights Watch</p>
+            <img src={hrm} alt="Human Rights Watch" />
+            <p className="small-text">
+                &copy;Marcus Bleasdale/Human Rights Watch
+            </p>
             <p>
                 Si ya cuenta con relaciones bien establecidas con los
                 proveedores y est&aacute; procurando evaluar los riesgos

@@ -52,7 +52,7 @@ const es = () => {
                 Presentar informes p&uacute;blicos ofrece una gama de
                 beneficios, tanto internos como externos:&nbsp;
             </p>
-            <div style="margin-left: 2%">
+            <div style={{ marginLeft: "2%" }}>
                 <h2>Educaci&oacute;n y aceptaci&oacute;n de los empleados</h2>
                 <p>
                     Presentar informes de cumplimiento social ayuda a que todos

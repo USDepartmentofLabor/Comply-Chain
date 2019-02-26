@@ -17,7 +17,7 @@ const es = () => {
                 eficacia de los elementos del programa de cumplimiento social.{" "}
                 <em>
                     Nota: si en{" "}
-                    <Link to="/step/5">
+                    <Link to="/steps/5">
                         el quinto paso, Vigilancia y seguimiento del
                         cumplimiento
                     </Link>

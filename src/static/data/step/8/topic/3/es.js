@@ -247,7 +247,7 @@ const es = () => {
                     la empresa en caso de hallarse infracciones.
                 </li>
             </ul>
-            <div class="example-in-action" id="nike">
+            <div className="example-in-action" id="nike">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

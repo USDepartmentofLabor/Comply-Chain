@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import panos from "../../images/panos.jpg";
+import hrm from "../../images/hrm.jpg";
 
 const fr = () => {
     return (
@@ -131,9 +133,10 @@ const fr = () => {
                 internationales, les ONG et d&rsquo;autres organismes produisent
                 &eacute;galement d&rsquo;autres ressources utiles pour la
                 collecte initiale d&rsquo;informations&nbsp;; voir{" "}
-                <Link to="/step/2">Autres ressources</Link> pour en savoir plus.{" "}
+                <Link to="/steps/2">Autres ressources</Link> pour en savoir
+                plus.{" "}
             </p>
-            <div class="example-in-action" id="med_rep">
+            <div className="example-in-action" id="med_rep">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -222,10 +225,10 @@ const fr = () => {
                 </p>
                 <img
                     id="img-browser"
-                    src="topics/step2/images/panos.jpg"
+                    src={panos}
                     alt="enfant assujetti au travail forc&eacute; avec sa pelle"
                 />
-                <p class="small-text">&copy;George Osodi/Panos</p>
+                <p className="small-text">&copy;George Osodi/Panos</p>
             </div>
             <p>
                 &Agrave; la suite de ces recherches initiales, la
@@ -250,7 +253,7 @@ const fr = () => {
             <p>Quelles informations recherchez-vous&nbsp;?</p>
             <h2>Nature et pr&eacute;valence</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 La pr&eacute;sence du travail des enfants, du travail
                 forc&eacute; et d&apos;autres violations des droits du travail
                 est-elle attest&eacute;e ou pr&eacute;sum&eacute;e dans vos
@@ -261,14 +264,14 @@ const fr = () => {
             </p>
             <h2>Causes profondes</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 Si le travail des enfants, le travail forc&eacute; et
                 d&apos;autres violations des droits du travail sont
                 pr&eacute;sents, quelles en sont les causes profondes&nbsp;?
             </p>
 
             <h2>Structure de l&apos;industrie</h2>
-            <p class="indent-margin">
+            <p className="indent-margin">
                 Comment cette industrie op&egrave;re-t-elle dans le pays&nbsp;?
                 Les lieux de travail sont-ils formels ou informels Les relations
                 de travail sont-elles formelles&nbsp;? Des
@@ -279,7 +282,7 @@ const fr = () => {
 
             <h2>Population active</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 Quelles sont les caract&eacute;ristiques de la population active
                 dans cette industrie dans cette r&eacute;gion
                 g&eacute;ographique&nbsp;? A-t-on souvent recours &agrave; des
@@ -293,7 +296,7 @@ const fr = () => {
 
             <h2>Relations industrielles</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 Existe-t-il un cadre juridique et institutionnel national en
                 place pour permettre des relations industrielles et des
                 n&eacute;gociations collectives v&eacute;ritables&nbsp;?
@@ -305,7 +308,7 @@ const fr = () => {
 
             <h2>Protection sociale</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 Existe-t-il un filet de s&eacute;curit&eacute; sociale dans le
                 pays qui prot&egrave;ge les plus vuln&eacute;rables, donnant
                 notamment acc&egrave;s aux soins de sant&eacute;, une
@@ -320,7 +323,7 @@ const fr = () => {
             </p>
             <h2>Environnement juridique et r&eacute;glementaire</h2>
 
-            <p class="indent-margin">
+            <p className="indent-margin">
                 Quelles sont les principales lois et r&eacute;glementations
                 concernant le travail des enfants, le travail forc&eacute; et
                 les autres droits du travail dans ce pays/cette
@@ -360,7 +363,7 @@ const fr = () => {
                 cha&icirc;nes d&rsquo;approvisionnement et les
                 fournisseurs.&nbsp;
             </p>
-            <div class="example-in-action" id="fish">
+            <div className="example-in-action" id="fish">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -449,7 +452,7 @@ const fr = () => {
                     produits de la mer.
                 </p>
             </div>
-            <div class="own-words">
+            <div className="own-words">
                 <h2>
                     <iron-icon icon="icons:feedback" />
                     <strong>Dans leurs propres mots</strong>
@@ -646,8 +649,10 @@ const fr = () => {
                 des programmes d&apos;&eacute;ducation et de formation des
                 propri&eacute;taires d&apos;exploitations agricoles.&nbsp;
             </p>
-            <img src="topics/step2/images/hrm.jpg" alt="Human Rights Watch" />
-            <p class="small-text">&copy;Marcus Bleasdale/Human Rights Watch</p>
+            <img src={hrm} alt="Human Rights Watch" />
+            <p className="small-text">
+                &copy;Marcus Bleasdale/Human Rights Watch
+            </p>
             <p>
                 Si vous poss&eacute;dez d&eacute;j&agrave; des relations bien
                 &eacute;tablies avec des fournisseurs et que vous souhaitez

@@ -102,7 +102,7 @@ const es = () => {
                 Ning&uacute;n ni&ntilde;o menor de 18 a&ntilde;os puede realizar
                 las peores formas de trabajo infantil especificadas en el
                 Convenio 182 de la OIT (v&eacute;ase el{" "}
-                <Link to="/step/3">
+                <Link to="/steps/3">
                     tercer paso, Formulaci&oacute;n de un c&oacute;digo de
                     conducta
                 </Link>
@@ -147,7 +147,7 @@ const es = () => {
                 <em>Tratamiento de las causas fundamentales</em> se mencionan
                 algunas opciones para esos casos.
             </p>
-            <div class="example-in-action" id="turkey">
+            <div className="example-in-action" id="turkey">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

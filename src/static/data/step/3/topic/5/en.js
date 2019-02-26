@@ -47,7 +47,7 @@ const en = () => {
                 Each of these principles is more fully elaborated in the ISEAL
                 Code of Good Practice.&nbsp;
             </p>
-            <div class="example-in-action" id="fair_labor">
+            <div className="example-in-action" id="fair_labor">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action</strong>: Fair Labor Association

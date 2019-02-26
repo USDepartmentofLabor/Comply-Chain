@@ -1,4 +1,5 @@
 import React from "react";
+import usDol from "../../images/usdol.jpg";
 
 const en = () => {
     return (
@@ -22,7 +23,7 @@ const en = () => {
                 supply to the company, audits should be repeated on a periodic
                 basis, depending on the findings of the audit.
             </p>
-            <div class="example-in-action" id="prereg">
+            <div className="example-in-action" id="prereg">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Example in Action: Pre-Registration Processes
@@ -70,12 +71,8 @@ const en = () => {
                 maximum production levels. Your risk assessment should provide
                 information to feed in to these determinations.
             </p>
-            <img
-                id="img-browser"
-                src="topics/step5/images/usdol.jpg"
-                alt="agriculture child labor"
-            />
-            <p class="small-text">&copy;Shelley Stinelli/USDOL</p>
+            <img id="img-browser" src={usDol} alt="agriculture child labor" />
+            <p className="small-text">&copy;Shelley Stinelli/USDOL</p>
             <p>
                 Auditing of your supply chain should also be scheduled
                 regularly. However, your audit team should also be ready to

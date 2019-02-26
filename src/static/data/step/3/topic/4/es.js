@@ -1,4 +1,5 @@
 import React from "react";
+import ilo from "../../images/ilo.jpg";
 
 const es = () => {
     return (
@@ -36,7 +37,7 @@ const es = () => {
                 disposiciones sobre el tema en el c&oacute;digo de
                 conducta.&nbsp;
             </p>
-            <div class="example-in-action" id="patagonia">
+            <div className="example-in-action" id="patagonia">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Ejemplo en acci&oacute;n: normas sobre los trabajadores
@@ -130,12 +131,9 @@ const es = () => {
                 </a>
                 .
             </p>
-            <img
-                src="topics/step3/images/ilo.jpg"
-                alt="Obrero subido a un andamio"
-            />
-            <p class="small-text">&copy;M. Crozet/OIT</p>
-            <div class="example-in-action" id="leadership">
+            <img src={ilo} alt="Obrero subido a un andamio" />
+            <p className="small-text">&copy;M. Crozet/OIT</p>
+            <div className="example-in-action" id="leadership">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

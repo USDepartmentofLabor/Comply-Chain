@@ -1,4 +1,6 @@
 import React from "react";
+import cocoaSupplyChains from "../../images/cocoa_supply_chains_es.png";
+import genericImport from "../../images/generic_import_es.png";
 
 const es = () => {
     return (
@@ -131,11 +133,11 @@ const es = () => {
             </h2>
             <br />{" "}
             <img
-                src="topics/step2/images/cocoa_supply_chains_es.png"
+                src={cocoaSupplyChains}
                 alt="Cadenas de suministro del cacao"
                 longdesc="#cocoa_chains"
             />
-            <p class="small-text">
+            <p className="small-text">
                 Fuente:{" "}
                 <a href="http://www.crea.org/">
                     Centro para la Reflexi&oacute;n, la Educaci&oacute;n y la
@@ -196,11 +198,11 @@ const es = () => {
             </h2>
             <br />{" "}
             <img
-                src="topics/step2/images/generic_import_es.png"
+                src={genericImport}
                 alt="Cadena de suministro de importaciones gen&eacute;ricas en un modelo de comercializaci&oacute;n minorista"
                 longdesc="#generic_import"
             />
-            <p class="small-text">
+            <p className="small-text">
                 Fuente:{" "}
                 <a href="https://corporate.target.com/">Target Corporation.</a>
             </p>

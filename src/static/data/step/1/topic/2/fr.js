@@ -10,9 +10,9 @@ const fr = () => {
                 quasi-totalit&eacute; des volets d&apos;un syst&egrave;me de
                 conformit&eacute; sociale. En voici quelques exemples :
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <h2>Causes profondes</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Comme not&eacute; ci-dessous, fondamentalement, il incombe
                     aux gouvernements de r&eacute;gler les causes profondes des
                     abus des droits du travail. La collaboration avec des
@@ -23,7 +23,7 @@ const fr = () => {
                     se regroupent.
                 </p>
                 <h2>Mise au point d&apos;un code de conduite</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     L&apos;incorporation des recommandations d&apos;une large
                     gamme de parties prenantes reste l&apos;un des principes
                     fondamentaux de l&apos;&eacute;laboration d&apos;un bon code
@@ -34,7 +34,7 @@ const fr = () => {
                     continue.
                 </p>
                 <h2>&Eacute;valuation des risques</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     En raison du manque de donn&eacute;es empiriques, il est
                     souvent difficile de comprendre vos risques de travail des
                     enfants, de travail forc&eacute; et d&apos;autres
@@ -45,7 +45,7 @@ const fr = () => {
                     vue d&apos;att&eacute;nuer ces risques.
                 </p>
                 <h2>Formation</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Un programme de conformit&eacute; sociale fructueux doit
                     investir fortement dans la formation et le renforcement des
                     capacit&eacute;s. La participation des parties prenantes
@@ -54,7 +54,7 @@ const fr = () => {
                     de vue culturel.
                 </p>
                 <h2>Communication</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Les parties prenantes peuvent aider &agrave;
                     am&eacute;liorer les cha&icirc;nes de communication&nbsp;;
                     par exemple, les repr&eacute;sentants syndicaux peuvent
@@ -70,7 +70,7 @@ const fr = () => {
                 <h2>
                     Audits et surveillance/contr&ocirc;les ind&eacute;pendants
                 </h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Certains groupes communautaires sont form&eacute;s &agrave;
                     la prestation de services de surveillance et de
                     contr&ocirc;le ind&eacute;pendants ; d&apos;autres peuvent
@@ -79,20 +79,20 @@ const fr = () => {
                     externes.
                 </p>
                 <h2>R&eacute;paration</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Des organisations qualifi&eacute;es peuvent fournir des
                     services aux victimes de violations des droits du travail ou
                     mettre les entreprises en contact avec des ressources
                     locales pour une assistance et une r&eacute;paration.
                 </p>
                 <h2>Rapports publics</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Les parties prenantes peuvent &ecirc;tre
                     d&eacute;terminantes dans le cadre de l&apos;examen
                     minutieux des rapports et le retour d&apos;information.
                 </p>
             </div>
-            <div class="own-words">
+            <div className="own-words">
                 <h2>
                     <iron-icon icon="icons:feedback" />
                     <strong>Dans leurs propres mots</strong>

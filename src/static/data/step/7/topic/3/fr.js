@@ -23,7 +23,7 @@ const fr = () => {
                 &agrave; un groupe identique qui ne re&ccedil;oit pas le
                 programme ou le service.
             </p>
-            <div class="example-in-action" id="bwi_eval">
+            <div className="example-in-action" id="bwi_eval">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

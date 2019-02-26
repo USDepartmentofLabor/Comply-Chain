@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import usFlag from "../../images/us_flag.png";
+import verite from "../../images/verite.png";
 
 const en = () => {
     return (
@@ -277,7 +279,7 @@ const en = () => {
                 and Employment to translate into measurable and actionable data
                 points the requirements and good practices outlined in its
                 Sample Code of Conduct Provisions, referenced in
-                <Link to="/step/3">Step 3, Develop a Code of Conduct</Link>.
+                <Link to="/steps/3">Step 3, Develop a Code of Conduct</Link>.
                 These benchmarks, which cover a range of areas related to forced
                 labor and human trafficking, including recruitment fees,
                 contracts of employment, document retention, and freedom of
@@ -286,22 +288,14 @@ const en = () => {
                 indicators to evaluate the performance of suppliers and labor
                 agents.
             </p>
-            <div class="example-in-action" id="rst1a">
+            <div className="example-in-action" id="rst1a">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Example in Action: Responsible Sourcing Tool 1A
                 </h2>
-                <div class="flag-verite">
-                    <img
-                        class="flag"
-                        src="topics/step5/images/us_flag.png"
-                        alt="US Flag"
-                    />
-                    <img
-                        class="verite"
-                        src="topics/step5/images/verite.png"
-                        alt="Verite sign"
-                    />
+                <div className="flag-verite">
+                    <img className="flag" src={usFlag} alt="US Flag" />
+                    <img className="verite" src={verite} alt="Verite sign" />
                 </div>
                 <p>
                     <strong>PROTECTIONS AGAINST TRAFFICKING IN PERSONS </strong>

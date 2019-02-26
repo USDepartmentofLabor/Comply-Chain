@@ -63,7 +63,7 @@ const en = () => {
                 this is an area of need and an opportunity for further
                 technology development.&nbsp;
             </p>
-            <div class="own-words">
+            <div className="own-words">
                 <h2>
                     <iron-icon icon="icons:feedback" />
                     <strong>In Their Own Words</strong>

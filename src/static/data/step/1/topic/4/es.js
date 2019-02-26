@@ -1,4 +1,5 @@
 import React from "react";
+import leap from "../../../../../images/leap.png";
 
 const es = () => {
     return (
@@ -12,7 +13,7 @@ const es = () => {
                 empresariales o contar con una instancia segura para interactuar
                 de manera colectiva con diferentes partes interesadas.&nbsp;
             </p>
-            <div class="example-in-action" id="rsn">
+            <div className="example-in-action" id="rsn">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -57,7 +58,7 @@ const es = () => {
                     .
                 </p>
             </div>
-            <div class="example-in-action" id="res_min_trade">
+            <div className="example-in-action" id="res_min_trade">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -106,7 +107,7 @@ const es = () => {
                     responsabilidades espec&iacute;ficas.
                 </p>
             </div>
-            <div class="example-in-action" id="sug_phil">
+            <div className="example-in-action" id="sug_phil">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -194,10 +195,10 @@ const es = () => {
                         sector azucarero y a sus familias.
                     </li>
                 </ul>
-                <img src="info-pages/images/leap.png" alt="leap image" />
-                <p class="small-text">&copy;Christopher Leones/ABK3 LEAP</p>
+                <img src={leap} alt="Leap" />
+                <p className="small-text">&copy;Christopher Leones/ABK3 LEAP</p>
             </div>
-            <div class="example-in-action">
+            <div className="example-in-action">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

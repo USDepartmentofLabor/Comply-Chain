@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import manBamboo from "../../images/man_bamboo.jpg";
 
 const fr = () => {
     return (
@@ -7,7 +8,7 @@ const fr = () => {
             <h1>V&eacute;rification ind&eacute;pendante (audit)</h1>
             <p>
                 Comme l&rsquo;indique la{" "}
-                <Link to="/step/5">
+                <Link to="/steps/5">
                     5<sup>e</sup>&nbsp;&eacute;tape&nbsp;: surveiller la
                     conformit&eacute;
                 </Link>
@@ -73,7 +74,7 @@ const fr = () => {
                 s&apos;approvisionne pourra offrir &agrave; ces groupes la
                 possibilit&eacute; de vous signaler les probl&egrave;mes.
             </p>
-            <div class="example-in-action" id="fla">
+            <div className="example-in-action" id="fla">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -126,7 +127,7 @@ const fr = () => {
                     travail de la FLA.
                 </p>
             </div>
-            <div class="example-in-action" id="bonsucro">
+            <div className="example-in-action" id="bonsucro">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -179,13 +180,15 @@ const fr = () => {
                 </p>
                 <img
                     id="img-browser"
-                    src="topics/step7/images/man_bamboo.jpg"
+                    src={manBamboo}
                     alt="Homme coupant des bambous"
                 />{" "}
                 <br />
-                <p class="small-text">&copy; Florian Kopp/Alamy Stock Photo</p>
+                <p className="small-text">
+                    &copy; Florian Kopp/Alamy Stock Photo
+                </p>
             </div>
-            <div class="example-in-action" id="sai_model">
+            <div className="example-in-action" id="sai_model">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

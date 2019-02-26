@@ -61,7 +61,7 @@ const fr = () => {
                     </p>
                 </li>
             </ul>
-            <div class="own-words">
+            <div className="own-words">
                 <h3>
                     <iron-icon icon="icons:feedback" />
                     <strong>

@@ -53,7 +53,7 @@ const es = () => {
                 m&aacute;s detalle en el C&oacute;digo de Buenas
                 Pr&aacute;cticas de ISEAL.&nbsp;
             </p>
-            <div class="example-in-action" id="fair_labor">
+            <div className="example-in-action" id="fair_labor">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n</strong>: proceso de

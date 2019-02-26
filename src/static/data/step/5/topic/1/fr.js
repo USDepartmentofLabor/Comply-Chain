@@ -15,7 +15,7 @@ const fr = () => {
             </p>
             <p>
                 Comme mentionn&eacute; dans{" "}
-                <Link to="/step/1">
+                <Link to="/steps/1">
                     la 1<sup>&egrave;re</sup> &eacute;tape&nbsp;: faire
                     participer les parties prenantes et les partenaires
                 </Link>
@@ -59,7 +59,7 @@ const fr = () => {
                 seraient rep&eacute;r&eacute;es, il vous faudra les
                 r&eacute;parer. Ce point est abord&eacute; en d&eacute;tail
                 &agrave;{" "}
-                <Link to="/step/6">
+                <Link to="/steps/6">
                     la 6e &eacute;tape&nbsp;: r&eacute;parer les infractions
                 </Link>
                 .

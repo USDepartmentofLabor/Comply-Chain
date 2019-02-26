@@ -67,7 +67,7 @@ const en = () => {
                 specific underlying cause of labor abuses, and stakeholders may
                 also suggest ideas for mitigation.
             </p>
-            <div class="example-in-action" id="Conflict_Free">
+            <div className="example-in-action" id="Conflict_Free">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action</strong>: Conflict-Free Sourcing
@@ -146,7 +146,7 @@ const en = () => {
                 because of the negative effects on workers. The following
                 example demonstrates this trend.
             </p>
-            <div class="example-in-action" id="mica">
+            <div className="example-in-action" id="mica">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action</strong>: L&rsquo;Or&eacute;al*
@@ -196,7 +196,7 @@ const en = () => {
                 compliance performance&mdash;a model that can prove
                 cost-effective over the long run. These and other training and
                 communication issues are discussed in
-                <Link to="/step/4">
+                <Link to="/steps/4">
                     Step 4, Communicate and Train Across Your Supply Chains
                 </Link>
                 .

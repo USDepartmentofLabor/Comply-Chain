@@ -1,4 +1,5 @@
 import React from "react";
+import usDol from "../../images/usdol.jpg";
 
 const es = () => {
     return (
@@ -25,7 +26,7 @@ const es = () => {
                 proveedor de la empresa, se deben repetir las auditor&iacute;as
                 peri&oacute;dicamente, en funci&oacute;n de las conclusiones.
             </p>
-            <div class="example-in-action" id="prereg">
+            <div className="example-in-action" id="prereg">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Ejemplo en acci&oacute;n: proceso previo a la
@@ -83,10 +84,10 @@ const es = () => {
             </p>
             <img
                 id="img-browser"
-                src="topics/step5/images/usdol.jpg"
+                src={usDol}
                 alt="trabajo infantil en el sector agr&iacute;cola"
             />
-            <p class="small-text">
+            <p className="small-text">
                 &copy;Shelley Stinelli/Departamento de Trabajo de los Estados
                 Unidos
             </p>

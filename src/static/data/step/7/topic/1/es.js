@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import manBamboo from "../../images/man_bamboo.jpg";
 
 const es = () => {
     return (
@@ -7,7 +8,7 @@ const es = () => {
             <h1>Vigilancia independiente (auditor&iacute;a)</h1>
             <p>
                 Tal como se mencion&oacute; en{" "}
-                <Link to="/step/5">
+                <Link to="/steps/5">
                     el quinto paso, Vigilancia y seguimiento del cumplimiento
                 </Link>
                 , la vigilancia independiente debe consistir en visitas no
@@ -59,7 +60,7 @@ const es = () => {
                 empresa puede brindar la oportunidad de que algunos grupos
                 mencionen los problemas.
             </p>
-            <div class="example-in-action" id="fla">
+            <div className="example-in-action" id="fla">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -103,7 +104,7 @@ const es = () => {
                     de la FLA.
                 </p>
             </div>
-            <div class="example-in-action" id="bonsucro">
+            <div className="example-in-action" id="bonsucro">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -153,15 +154,15 @@ const es = () => {
                 </p>
                 <img
                     id="img-browser"
-                    src="topics/step7/images/man_bamboo.jpg"
+                    src={manBamboo}
                     alt="Hombre que corta bamb&uacute;"
                 />{" "}
                 <br />
-                <p class="small-text">
+                <p className="small-text">
                     &copy; Florian Kopp/Foto de archivo de Alamy
                 </p>
             </div>
-            <div class="example-in-action" id="sai_model">
+            <div className="example-in-action" id="sai_model">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

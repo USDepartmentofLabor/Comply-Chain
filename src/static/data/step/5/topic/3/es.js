@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import usFlag from "../../images/us_flag.png";
+import verite from "../../images/verite.png";
 
 const es = () => {
     return (
@@ -309,7 +311,7 @@ const es = () => {
                 aplicaci&oacute;n pr&aacute;ctica los requisitos y las buenas
                 pr&aacute;cticas que se esbozan en el ejemplo de disposiciones
                 del c&oacute;digo de conducta mencionado en el{" "}
-                <Link to="/step/3">
+                <Link to="/steps/3">
                     tercer paso, Formulaci&oacute;n de un c&oacute;digo de
                     conducta
                 </Link>
@@ -323,21 +325,21 @@ const es = () => {
                 desempe&ntilde;o con miras a evaluar el desempe&ntilde;o de
                 proveedores y agentes laborales.
             </p>
-            <div class="example-in-action" id="rst1a">
+            <div className="example-in-action" id="rst1a">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Ejemplo en acci&oacute;n: Instrumento de abastecimiento
                     responsable 1A
                 </h2>
-                <div class="flag-verite">
+                <div className="flag-verite">
                     <img
-                        class="flag"
-                        src="topics/step5/images/us_flag.png"
+                        className="flag"
+                        src={usFlag}
                         alt="Bandera de los Estados Unidos"
                     />{" "}
                     <img
-                        class="verite"
-                        src="topics/step5/images/verite.png"
+                        className="verite"
+                        src={verite}
                         alt="Logo de Verit&eacute;"
                     />
                 </div>

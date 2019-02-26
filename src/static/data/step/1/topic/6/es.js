@@ -1,4 +1,5 @@
 import React from "react";
+import goodweave from "../../../../../images/goodweave.jpg";
 
 const es = () => {
     return (
@@ -65,7 +66,7 @@ const es = () => {
                 los programas espec&iacute;ficos para evaluar la perspectiva que
                 adoptar&aacute;n las diversas partes interesadas.&nbsp;
             </p>
-            <div class="example-in-action" id="clt">
+            <div className="example-in-action" id="clt">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n: GoodWeave</strong>
@@ -125,11 +126,8 @@ const es = () => {
                     <em>, </em>financiado por el Departamento de Trabajo y
                     ejecutado por GoodWeave.
                 </p>
-                <img
-                    src="info-pages/images/goodweave.jpg"
-                    alt="GoodWeave International"
-                />
-                <p class="small-text">
+                <img src={goodweave} alt="GoodWeave International" />
+                <p className="small-text">
                     &copy; Lorenzo Tugnoli, gentileza de GoodWeave International
                 </p>
             </div>

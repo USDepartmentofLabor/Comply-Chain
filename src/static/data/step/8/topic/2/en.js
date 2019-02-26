@@ -44,7 +44,7 @@ const en = () => {
                 Public reporting offers a variety of benefits, both internal and
                 external:&nbsp;
             </p>
-            <div style="margin-left: 2%">
+            <div style={{ marginLeft: "2%" }}>
                 <h2>Employee Education and Buy-In</h2>
                 <p>
                     Social compliance reporting helps educate everyone in the

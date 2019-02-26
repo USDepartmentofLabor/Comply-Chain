@@ -1,4 +1,5 @@
 import React from "react";
+import goodweave from "../../../../../images/goodweave.jpg";
 
 const fr = () => {
     return (
@@ -67,7 +68,7 @@ const fr = () => {
                 fa&ccedil;on dont ils seront per&ccedil;us par
                 diff&eacute;rentes parties prenantes.&nbsp;
             </p>
-            <div class="example-in-action" id="clt">
+            <div className="example-in-action" id="clt">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Exemple d&apos;action&nbsp;: GoodWeave</strong>
@@ -130,11 +131,8 @@ const fr = () => {
                     Travail des &Eacute;tats-Unis et mis en &oelig;uvre par
                     GoodWeave [en anglais].
                 </p>
-                <img
-                    src="info-pages/images/goodweave.jpg"
-                    alt="GoodWeave International"
-                />
-                <p class="small-text">
+                <img src={goodweave} alt="GoodWeave International" />
+                <p className="small-text">
                     &copy; Lorenzo Tugnoli, avec l&rsquo;aimable autorisation de
                     GoodWeave International
                 </p>

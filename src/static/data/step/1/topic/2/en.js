@@ -9,9 +9,9 @@ const en = () => {
                 stakeholders on almost every component of a social compliance
                 system. Below are just a few examples:
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <h2>Root causes</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     As noted earlier, tackling the root causes of labor abuse is
                     fundamentally a governmental responsibility. Working with
                     governments to advocate for more resource allocation to
@@ -20,7 +20,7 @@ const en = () => {
                     together.
                 </p>
                 <h2>Code of conduct development</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     One of the tenets of good code of conduct development is
                     incorporating input from a broad range of stakeholders. You
                     can seek input at the stage of initial code drafting, or
@@ -28,7 +28,7 @@ const en = () => {
                     and feedback on the code on an ongoing basis.
                 </p>
                 <h2>Risk assessment</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Understanding your risks of child labor, forced labor and
                     other workplace issues is often difficult due to lack of
                     empirical data. Input from a broad range of knowledgeable
@@ -36,7 +36,7 @@ const en = () => {
                     well as recommendations for ways to mitigate them.
                 </p>
                 <h2>Training</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     A successful social compliance program must make a
                     significant investment in training and capacity building.
                     Involvement of stakeholders can have a variety of benefits;
@@ -44,7 +44,7 @@ const en = () => {
                     culturally appropriate.
                 </p>
                 <h2>Communication</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Stakeholders can assist in improving communication channels;
                     for example, trade union representatives can receive
                     feedback and concerns from workers at worksites where a
@@ -53,25 +53,25 @@ const en = () => {
                     channels at non-unionized facilities.
                 </p>
                 <h2>Auditing and independent monitoring/verification</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Some community-based groups are trained to carry out
                     monitoring and independent verification services; others can
                     provide an independent &ldquo;check&rdquo; for internal or
                     external monitors.
                 </p>
                 <h2>Remediation</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Qualified organizations can provide services for victims of
                     labor violations or link companies to local resources to
                     assist and remedy.
                 </p>
                 <h2>Public reporting</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Stakeholders can be instrumental in reviewing or vetting
                     reports and providing feedback.
                 </p>
             </div>
-            <div class="own-words">
+            <div className="own-words">
                 <h2>
                     <iron-icon icon="icons:feedback" />
                     <strong>In Their Own Words</strong>

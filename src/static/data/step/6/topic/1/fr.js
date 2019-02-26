@@ -112,7 +112,7 @@ const fr = () => {
                 soumis aux Pires formes de travail des enfants
                 pr&eacute;cis&eacute;s dans la Convention&nbsp;182 de
                 l&rsquo;OIT (voir{" "}
-                <Link to="/step/3">
+                <Link to="/steps/3">
                     3<sup>e</sup>&nbsp;&eacute;tape&nbsp;: &eacute;laborer un
                     code de conduite
                 </Link>
@@ -162,7 +162,7 @@ const fr = () => {
                 &eacute;tudi&eacute;es dans{" "}
                 <em>S&rsquo;attaquer aux causes profondes</em>.
             </p>
-            <div class="example-in-action" id="turkey">
+            <div className="example-in-action" id="turkey">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

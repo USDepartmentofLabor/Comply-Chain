@@ -35,7 +35,7 @@ const fr = () => {
                 conformit&eacute; sociale au sein de l&apos;entreprise. Par
                 exemple, les outils d&apos;audit tir&eacute;s d&apos;un code
                 sont d&eacute;taill&eacute;s dans{" "}
-                <Link to="/step/5">
+                <Link to="/steps/5">
                     la 5<sup>e</sup>&nbsp;&eacute;tape : surveiller la
                     conformit&eacute;
                 </Link>

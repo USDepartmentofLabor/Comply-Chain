@@ -59,7 +59,7 @@ const fr = () => {
                 d&apos;ensemble de l&apos;entreprise, qui sont examin&eacute;es
                 plus en d&eacute;tail dans{" "}
                 <em>
-                    <Link to="/step/2">
+                    <Link to="/steps/2">
                         &Eacute;valuer les causes profondes et s&rsquo;y
                         attaquer
                     </Link>
@@ -103,7 +103,7 @@ const fr = () => {
                 fournisseurs ; les formations seront donc jug&eacute;es plus
                 importantes par la direction et les contrema&icirc;tres.
             </p>
-            <div class="example-in-action" id="cocoa">
+            <div className="example-in-action" id="cocoa">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

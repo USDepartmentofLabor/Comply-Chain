@@ -1,4 +1,5 @@
 import React from "react";
+import basicElements from "../../images/basic_elements.png";
 
 const en = () => {
     return (
@@ -8,10 +9,7 @@ const en = () => {
                     Basic Design Elements of a Project-Level Grievance Mechanism
                 </strong>
             </p>
-            <img
-                src="topics/step4/images/basic_elements.png"
-                alt="no alt text"
-            />
+            <img src={basicElements} alt="no alt text" />
             <p>
                 Source: International Finance Corporation.{" "}
                 <em>

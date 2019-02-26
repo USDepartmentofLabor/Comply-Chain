@@ -38,7 +38,7 @@ const fr = () => {
                 Dans les cas de <strong>travail des enfants</strong>, les causes
                 peuvent inclure :
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <p>
                     Non-v&eacute;rification de documents attestant
                     l&apos;&acirc;ge au moment de l&apos;embauche, ou
@@ -77,7 +77,7 @@ const fr = () => {
                 Dans les cas de <strong>travail forc&eacute;</strong>, les
                 causes peuvent inclure :
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <p>
                     Calcul inexact des salaires et des retenues, et/ou paiement
                     retard&eacute; des salaires&nbsp;;
@@ -821,7 +821,7 @@ const fr = () => {
                     </tr>
                 </tbody>
             </table>
-            <div class="example-in-action" id="better_work">
+            <div className="example-in-action" id="better_work">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

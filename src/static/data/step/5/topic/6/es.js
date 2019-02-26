@@ -77,7 +77,7 @@ const es = () => {
                     general de su situaci&oacute;n familiar y laboral:
                 </em>
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <p>
                     <em>Motivos por los que trabaja el ni&ntilde;o</em>
                 </p>

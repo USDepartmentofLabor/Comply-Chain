@@ -10,7 +10,7 @@ const fr = () => {
                 les plateformes, les associations et les initiatives de
                 l&apos;industrie. Voici quelques exemples.
             </p>
-            <div class="example-in-action" id="sug_phil">
+            <div className="example-in-action" id="sug_phil">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -103,7 +103,7 @@ const fr = () => {
                     enfants dans la production tabacole.
                 </p>
             </div>
-            <div class="example-in-action" id="clt">
+            <div className="example-in-action" id="clt">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -183,7 +183,7 @@ const fr = () => {
                     rejoignent constamment la plateforme.
                 </p>
             </div>
-            <div class="example-in-action" id="gbn">
+            <div className="example-in-action" id="gbn">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

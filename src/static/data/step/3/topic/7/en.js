@@ -17,7 +17,7 @@ const en = () => {
                 compliance.
             </p>
             <p>
-                <Link to="/step/4">
+                <Link to="/steps/4">
                     Step 4, Communicate and Train Across Your Supply Chain
                 </Link>{" "}
                 will discuss the ins and outs of communicating your code and

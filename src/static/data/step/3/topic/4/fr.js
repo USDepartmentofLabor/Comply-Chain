@@ -1,4 +1,5 @@
 import React from "react";
+import ilo from "../../images/ilo.jpg";
 
 const fr = () => {
     return (
@@ -41,7 +42,7 @@ const fr = () => {
                 pr&eacute;sence, il est important d&apos;inclure les normes et
                 les dispositions pertinentes dans votre code de conduite.&nbsp;
             </p>
-            <div class="example-in-action" id="patagonia">
+            <div className="example-in-action" id="patagonia">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Exemple d&apos;action&nbsp;: Normes concernant les
@@ -142,11 +143,11 @@ const fr = () => {
                 .
             </p>
             <img
-                src="topics/step3/images/ilo.jpg"
+                src={ilo}
                 alt="Travailleur en train de gravir un &eacute;chafaudage"
             />
-            <p class="small-text">&copy;M. Crozet/OIT</p>
-            <div class="example-in-action" id="leadership">
+            <p className="small-text">&copy;M. Crozet/OIT</p>
+            <div className="example-in-action" id="leadership">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

@@ -76,7 +76,7 @@ const es = () => {
                 trabajador, con lo cual en este &aacute;mbito podr&iacute;a
                 haber un mayor desarrollo de la tecnolog&iacute;a. &nbsp;
             </p>
-            <div class="own-words">
+            <div className="own-words">
                 <h2>
                     <iron-icon icon="icons:feedback" />
                     <strong>En sus propias palabras</strong>

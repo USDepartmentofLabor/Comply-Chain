@@ -93,7 +93,7 @@ const fr = () => {
                 pourront eux aussi proposer des id&eacute;es
                 d&apos;att&eacute;nuation.
             </p>
-            <div class="example-in-action" id="Conflict_Free">
+            <div className="example-in-action" id="Conflict_Free">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Exemple d&apos;action</strong>&nbsp;: Initiative
@@ -191,7 +191,7 @@ const fr = () => {
                 n&eacute;gatifs sur les travailleurs. L&rsquo;exemple suivant en
                 est une d&eacute;monstration.
             </p>
-            <div class="example-in-action" id="mica">
+            <div className="example-in-action" id="mica">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Exemple d&apos;action</strong>&nbsp;:
@@ -258,7 +258,7 @@ const fr = () => {
                 &eacute;ch&eacute;ance. Ces questions de formation et de
                 communication, sont d&eacute;taill&eacute;es, entre autres,
                 &agrave; la{" "}
-                <Link to="/step/4">
+                <Link to="/steps/4">
                     4<sup>e</sup>&nbsp;&eacute;tape&nbsp;: communiquer et former
                     l&rsquo;ensemble de votre cha&icirc;ne
                     d&rsquo;approvisionnement

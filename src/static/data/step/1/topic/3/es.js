@@ -385,7 +385,7 @@ const es = () => {
                 afianzar sus sistemas de cumplimiento social. Dicha
                 participaci&oacute;n puede incluir medidas como:
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <p>
                     Instar a los gobiernos a recolectar y publicar datos sobre
                     el trabajo infantil, el trabajo forzoso y otras cuestiones
@@ -410,7 +410,7 @@ const es = () => {
                     trabajo infantil y el trabajo forzoso.
                 </p>
             </div>
-            <div class="example-in-action" id="engagement_gov_brazil">
+            <div className="example-in-action" id="engagement_gov_brazil">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

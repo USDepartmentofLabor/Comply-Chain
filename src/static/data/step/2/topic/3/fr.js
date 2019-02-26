@@ -47,7 +47,7 @@ const fr = () => {
                 niveaux actuels de conformit&eacute;. D&apos;autres informations
                 sur la r&eacute;alisation de ce type d&apos;audits se trouvent
                 &agrave;{" "}
-                <Link to="/step/5">
+                <Link to="/steps/5">
                     la 5<sup>e</sup>&nbsp;&eacute;tape : surveiller la
                     conformit&eacute;.
                 </Link>
@@ -70,7 +70,7 @@ const fr = () => {
                 domaines potentiels d&apos;am&eacute;lioration des fournisseurs.
                 D&apos;autres informations sur la r&eacute;alisation de ce type
                 d&apos;audits se trouvent &agrave;{" "}
-                <Link to="/step/5">
+                <Link to="/steps/5">
                     la 5<sup>e</sup>&nbsp;&eacute;tape : surveiller la
                     conformit&eacute;.
                 </Link>

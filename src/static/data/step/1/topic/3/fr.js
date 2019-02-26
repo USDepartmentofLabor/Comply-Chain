@@ -423,7 +423,7 @@ const fr = () => {
                 Ces participations peuvent inclure diff&eacute;rentes mesures,
                 notamment :
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <p>
                     Encourager les pouvoirs publics &agrave; recueillir et
                     &agrave; publier des donn&eacute;es sur le travail des
@@ -450,7 +450,7 @@ const fr = () => {
                     du travail forc&eacute;.
                 </p>
             </div>
-            <div class="example-in-action" id="engagement_gov_brazil">
+            <div className="example-in-action" id="engagement_gov_brazil">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

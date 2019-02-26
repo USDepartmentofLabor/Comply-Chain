@@ -1,4 +1,5 @@
 import React from "react";
+import ilo from "../../images/ilo.jpg";
 
 const en = () => {
     return (
@@ -30,7 +31,7 @@ const en = () => {
                 supply chain, it is important to include relevant standards and
                 provisions in your code of conduct.&nbsp;
             </p>
-            <div class="example-in-action" id="patagonia">
+            <div className="example-in-action" id="patagonia">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Example in Action: Patagonia&rsquo;s* Migrant Worker
@@ -110,13 +111,10 @@ const en = () => {
                 </a>
                 .
             </p>
-            <img
-                src="topics/step3/images/ilo.jpg"
-                alt="Worker climbing scaffolding"
-            />
+            <img src={ilo} alt="Worker climbing scaffolding" />
 
-            <p class="small-text">&copy;M. Crozet/ILO</p>
-            <div class="example-in-action" id="leadership">
+            <p className="small-text">&copy;M. Crozet/ILO</p>
+            <div className="example-in-action" id="leadership">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>

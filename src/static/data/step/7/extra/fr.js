@@ -19,7 +19,7 @@ const fr = () => {
                 de l&rsquo;efficacit&eacute; de tous les &eacute;l&eacute;ments
                 du programme de conformit&eacute; sociale.{" "}
                 <em>Remarque&nbsp;: Si, &agrave;</em>{" "}
-                <Link to="/step/5">
+                <Link to="/steps/5">
                     la 5<sup>e</sup>&nbsp;&eacute;tape : surveiller la
                     conformit&eacute;
                 </Link>

@@ -10,9 +10,9 @@ const es = () => {
                 sistema de cumplimiento social. A continuaci&oacute;n se citan
                 algunos ejemplos:
             </p>
-            <div class="indent-margin">
+            <div className="indent-margin">
                 <h2>Causas fundamentales</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Conforme se mencion&oacute; anteriormente, tratar las causas
                     fundamentales de la explotaci&oacute;n laboral es
                     responsabilidad del gobierno principalmente. Colaborar con
@@ -23,7 +23,7 @@ const es = () => {
                     empresas.
                 </p>
                 <h2>Formulaci&oacute;n del c&oacute;digo de conducta</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Uno de los principios de un buen c&oacute;digo de conducta
                     es la incorporaci&oacute;n de aportes de una amplia gama de
                     partes interesadas. Puede solicitar la contribuci&oacute;n
@@ -33,7 +33,7 @@ const es = () => {
                     constante.
                 </p>
                 <h2>Evaluaci&oacute;n de riesgos</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Suele ser dif&iacute;cil comprender los riesgos de trabajo
                     infantil, trabajo forzoso y otras cuestiones del lugar de
                     trabajo debido a la falta de datos emp&iacute;ricos. Los
@@ -42,7 +42,7 @@ const es = () => {
                     as&iacute; como recomendaciones para mitigarlos.
                 </p>
                 <h2>Capacitaci&oacute;n</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Un programa satisfactorio de cumplimiento social debe
                     invertir considerablemente en capacitaci&oacute;n y
                     fortalecimiento de capacidades. La participaci&oacute;n de
@@ -51,7 +51,7 @@ const es = () => {
                     capacitaci&oacute;n.
                 </p>
                 <h2>Comunicaci&oacute;n</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Las partes interesadas pueden ayudar a mejorar los canales
                     de comunicaci&oacute;n; por ejemplo, los representantes
                     sindicales pueden recibir comentarios e inquietudes de los
@@ -65,7 +65,7 @@ const es = () => {
                     Auditor&iacute;as, vigilancia, seguimiento y
                     verificaci&oacute;n independientes
                 </h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Algunos grupos comunitarios poseen los conocimientos para
                     prestar servicios de vigilancia, seguimiento y
                     verificaci&oacute;n independientes; otros ofrecen un
@@ -73,7 +73,7 @@ const es = () => {
                     internos o externos de vigilancia y seguimiento.
                 </p>
                 <h2>Remediaci&oacute;n</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Hay organizaciones especializadas que pueden prestar
                     servicios a las v&iacute;ctimas de infracci&oacute;n de los
                     derechos laborales o conectar a las empresas con los
@@ -81,13 +81,13 @@ const es = () => {
                     remediaci&oacute;n.
                 </p>
                 <h2>Presentaci&oacute;n de informes p&uacute;blicos</h2>
-                <p class="indent-margin">
+                <p className="indent-margin">
                     Las partes interesadas pueden desempe&ntilde;ar una
                     funci&oacute;n clave a la hora de releer o examinar los
                     informes y hacer comentarios.
                 </p>
             </div>
-            <div class="own-words">
+            <div className="own-words">
                 <h2>
                     <iron-icon icon="icons:feedback" />
                     <strong>En sus propias palabras</strong>

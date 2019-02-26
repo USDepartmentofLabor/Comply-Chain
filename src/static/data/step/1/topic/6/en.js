@@ -1,4 +1,5 @@
 import React from "react";
+import goodweave from "../../../../../images/goodweave.jpg";
 
 const en = () => {
     return (
@@ -55,7 +56,7 @@ const en = () => {
                 understand the structure of particular programs in order to
                 assess how they will be viewed by different stakeholders.&nbsp;
             </p>
-            <div class="example-in-action" id="clt">
+            <div className="example-in-action" id="clt">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action: Goodweave</strong>
@@ -103,11 +104,8 @@ const en = () => {
                     </a>
                     <em>, </em>implemented by GoodWeave.
                 </p>
-                <img
-                    src="info-pages/images/goodweave.jpg"
-                    alt="GoodWeave International"
-                />
-                <p class="small-text">
+                <img src={goodweave} alt="GoodWeave International" />
+                <p className="small-text">
                     &copy; Lorenzo Tugnoli courtesy of GoodWeave International
                 </p>
             </div>

@@ -29,7 +29,7 @@ const en = () => {
                 country/community, and then a baseline round of pre-sourcing
                 audits to assess current levels of compliance. More information
                 on how to conduct these types of audits is included in
-                <Link to="/step/5">Step 5, Monitor Compliance</Link>.
+                <Link to="/steps/5">Step 5, Monitor Compliance</Link>.
             </p>
             <p>
                 If a company already has well-established supply chains in which
@@ -43,7 +43,7 @@ const en = () => {
                 These baseline data allow you to identify suppliers&rsquo;
                 potential areas for improvement. More information on how to
                 conduct these types of audits is included in
-                <Link to="/step/5">Step 5, Monitor Compliance</Link>.
+                <Link to="/steps/5">Step 5, Monitor Compliance</Link>.
             </p>
         </div>
     );

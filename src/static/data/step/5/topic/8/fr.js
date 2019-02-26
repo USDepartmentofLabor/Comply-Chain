@@ -22,7 +22,7 @@ const fr = () => {
                 &eacute;t&eacute; mise &agrave; l&apos;essai en particulier dans
                 les petites exploitations agricoles.
             </p>
-            <div class="example-in-action" id="cambodia">
+            <div className="example-in-action" id="cambodia">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
