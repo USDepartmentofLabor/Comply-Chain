@@ -63,7 +63,7 @@ const es = () => {
             </p>
             <ExampleInAction id="fla">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Ejemplo en acci&oacute;n: el programa de
                         acreditaci&oacute;n de la FLA para encargados externos
@@ -111,7 +111,7 @@ const es = () => {
             </ExampleInAction>
             <ExampleInAction id="bonsucro">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Ejemplo en acci&oacute;n: el modelo de Bonsucro* para
                         acreditar a los &oacute;rganos de certificaci&oacute;n
@@ -174,7 +174,7 @@ const es = () => {
             </ExampleInAction>
             <ExampleInAction id="sai_model">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Ejemplo en acci&oacute;n: modelo internacional de
                         rendici&oacute;n de cuentas social

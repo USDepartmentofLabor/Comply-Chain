@@ -826,7 +826,7 @@ const fr = () => {
             </table>
             <ExampleInAction id="better_work">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: Le processus de
                         r&eacute;paration{" "}

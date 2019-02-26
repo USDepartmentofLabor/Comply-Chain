@@ -19,7 +19,7 @@ const fr = () => {
             </p>
             <ExampleInAction id="rsn">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: R&eacute;seau de
                         l&rsquo;approvisionnement responsable
@@ -76,7 +76,7 @@ const fr = () => {
             </ExampleInAction>
             <ExampleInAction id="res_min_trade">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: Alliance
                         public-priv&eacute; pour le commerce responsable de
@@ -134,7 +134,7 @@ const fr = () => {
             </ExampleInAction>
             <ExampleInAction id="sug_phil">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: Efforts tripartites pour
                         abolir le travail des enfants dans les champs de canne
@@ -236,7 +236,7 @@ const fr = () => {
             </ExampleInAction>
             <ExampleInAction>
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: Groupe d&rsquo;innovation
                         sur l&rsquo;huile de palme

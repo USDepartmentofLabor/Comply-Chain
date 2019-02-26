@@ -75,7 +75,7 @@ const en = () => {
             </p>
             <ExampleInAction id="cocoa">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Example in Action: The International Chocolate and Cocoa
                         Industry

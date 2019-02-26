@@ -73,7 +73,7 @@ const en = () => {
             </p>
             <ExampleInAction id="clt">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>Example in Action: Goodweave</strong>
                 </h2>
 

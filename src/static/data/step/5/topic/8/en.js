@@ -24,7 +24,7 @@ const en = () => {
             </p>
             <ExampleInAction id="cambodia">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Example in Action: Community Based Child Labor
                         Monitoring in Cambodia

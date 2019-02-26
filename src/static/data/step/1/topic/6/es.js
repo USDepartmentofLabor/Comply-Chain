@@ -83,7 +83,7 @@ const es = () => {
             </p>
             <ExampleInAction id="clt">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>Ejemplo en acci&oacute;n: GoodWeave</strong>
                 </h2>
 

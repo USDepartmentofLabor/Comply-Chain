@@ -19,7 +19,7 @@ const en = () => {
             </p>
             <ExampleInAction id="bwi_eval">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Example in Action: Better Work Impact Evaluation
                     </strong>

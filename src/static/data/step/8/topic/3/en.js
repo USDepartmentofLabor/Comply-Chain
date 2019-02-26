@@ -238,7 +238,7 @@ const en = () => {
             </ul>
             <ExampleInAction id="nike">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Example in Action: Nike*: Reporting on Remediation
                     </strong>

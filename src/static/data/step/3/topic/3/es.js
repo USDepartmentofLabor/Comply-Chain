@@ -352,7 +352,7 @@ const es = () => {
             </p>
             <ExampleInAction id="rst1">
                 <h3>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Ejemplo en acci&oacute;n:{" "}
                         <span>instrumento de abastecimiento responsable 1</span>

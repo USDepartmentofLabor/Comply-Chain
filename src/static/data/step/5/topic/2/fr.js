@@ -209,7 +209,7 @@ const fr = () => {
             </p>
             <ExampleInAction id="better_work_assessment">
                 <h3>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     Exemple d&apos;action&nbsp;: &Eacute;quipes
                     d&apos;&eacute;valuation Better Work
                 </h3>

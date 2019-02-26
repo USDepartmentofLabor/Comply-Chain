@@ -34,7 +34,7 @@ const fr = () => {
             </p>
             <ExampleInAction id="prereg">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     Exemple d&apos;action&nbsp;: Processus de
                     pr&eacute;enregistrement
                 </h2>

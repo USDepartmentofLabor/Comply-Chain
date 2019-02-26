@@ -40,7 +40,7 @@ const es = () => {
             </p>
             <ExampleInAction id="patagonia">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     Ejemplo en acci&oacute;n: normas sobre los trabajadores
                     migrantes de Patagonia*
                 </h2>
@@ -146,7 +146,7 @@ const es = () => {
             <p className="small-text">&copy;M. Crozet/OIT</p>
             <ExampleInAction id="leadership">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Ejemplo en acci&oacute;n: Leadership Group for
                         Responsible Recruitment

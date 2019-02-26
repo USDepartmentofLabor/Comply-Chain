@@ -95,7 +95,7 @@ const es = () => {
             </p>
             <ExampleInAction id="cocoa">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Ejemplo en acci&oacute;n: la industria internacional del
                         cacao y el chocolate

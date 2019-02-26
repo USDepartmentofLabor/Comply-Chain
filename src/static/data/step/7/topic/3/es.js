@@ -22,7 +22,7 @@ const es = () => {
             </p>
             <ExampleInAction id="bwi_eval">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Ejemplo en acci&oacute;n: evaluaci&oacute;n del impacto
                         del programa Better Work

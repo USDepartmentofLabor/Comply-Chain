@@ -159,7 +159,7 @@ const es = () => {
             </p>
             <ExampleInAction id="med_rep">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Ejemplo en acci&oacute;n: la importancia de los medios
                         de comunicaci&oacute;n al informar
@@ -362,7 +362,7 @@ const es = () => {
             </p>
             <ExampleInAction id="fish">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Ejemplo en acci&oacute;n: pescados y mariscos
                     </strong>

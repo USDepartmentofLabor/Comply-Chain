@@ -150,7 +150,7 @@ const es = () => {
             </p>
             <ExampleInAction id="turkey">
                 <h3>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Ejemplo en acci&oacute;n: colaboraci&oacute;n para
                         abordar la problem&aacute;tica del trabajo infantil

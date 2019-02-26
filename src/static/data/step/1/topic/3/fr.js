@@ -453,7 +453,7 @@ const fr = () => {
             </div>
             <ExampleInAction id="engagement_gov_brazil">
                 <h3>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: Dialogue participatif avec
                         les pouvoirs publics

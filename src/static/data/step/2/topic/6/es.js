@@ -378,7 +378,7 @@ const es = () => {
             </ul>
             <ExampleInAction id="leber">
                 <h4>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>Ejemplo en acci&oacute;n</strong>: Leber Jeweler*:
                     proyecto de Jeweler para Asistir a Birmania
                 </h4>
@@ -524,7 +524,7 @@ const es = () => {
             </ul>
             <ExampleInAction id="Isidro">
                 <h4>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Ejemplo en acci&oacute;n: Isidro Le&oacute;n-York
                     </strong>
@@ -610,7 +610,7 @@ const es = () => {
             </ul>
             <ExampleInAction id="lco">
                 <h4>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>Ejemplo en acci&oacute;n</strong>: League Collegiate
                     Outfitters*
                 </h4>
@@ -665,7 +665,7 @@ const es = () => {
             </ul>
             <ExampleInAction id="gap">
                 <h4>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>Ejemplo en acci&oacute;n</strong>: programa P.A.C.E.
                     de Gap Inc.*
                 </h4>

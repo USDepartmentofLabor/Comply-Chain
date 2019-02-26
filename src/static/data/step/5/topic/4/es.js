@@ -29,7 +29,7 @@ const es = () => {
             </p>
             <ExampleInAction id="prereg">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     Ejemplo en acci&oacute;n: proceso previo a la
                     inscripci&oacute;n
                 </h2>

@@ -82,7 +82,7 @@ const es = () => {
             </p>
             <ExampleInAction id="Conflict_Free">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>Ejemplo en acci&oacute;n</strong>: la iniciativa
                     Conflict-Free Sourcing
                 </h2>
@@ -187,7 +187,7 @@ const es = () => {
             </p>
             <ExampleInAction id="mica">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>Ejemplo en acci&oacute;n</strong>:
                     L&rsquo;Or&eacute;al y el abastecimiento responsable de mica
                 </h2>

@@ -106,7 +106,7 @@ const fr = () => {
             </p>
             <ExampleInAction id="cocoa">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: Le secteur international du
                         chocolat et du cacao&nbsp;

@@ -13,7 +13,7 @@ const fr = () => {
             </p>
             <ExampleInAction id="sug_phil">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: Fondation Eliminating Child
                         Labor in Tobacco-Growing (ECLT)
@@ -129,7 +129,7 @@ const fr = () => {
             </ExampleInAction>
             <ExampleInAction id="clt">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: Plateforme sur le travail
                         des enfants
@@ -219,7 +219,7 @@ const fr = () => {
             </ExampleInAction>
             <ExampleInAction id="gbn">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: R&eacute;seau mondial
                         d&apos;entreprises de l&rsquo;OIT sur le travail

@@ -143,7 +143,7 @@ const en = () => {
             </p>
             <ExampleInAction id="med_rep">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Example in Action: The Important Role of Media Reporting
                     </strong>
@@ -312,7 +312,7 @@ const en = () => {
             </p>
             <ExampleInAction id="fish">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>Example in Action: Fishing and Seafood</strong>
                 </h2>
                 <p>

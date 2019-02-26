@@ -656,7 +656,7 @@ const en = () => {
             </table>
             <ExampleInAction id="better_work">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>Example in Action: The </strong>
                     <a
                         target="_blank"

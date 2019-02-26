@@ -297,7 +297,7 @@ const en = () => {
             </p>
             <ExampleInAction id="rst1a">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     Example in Action: Responsible Sourcing Tool 1A
                 </h2>
                 <div className="flag-verite">

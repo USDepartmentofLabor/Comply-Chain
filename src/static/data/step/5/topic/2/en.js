@@ -155,7 +155,7 @@ const en = () => {
             </p>
             <ExampleInAction id="better_work_assessment">
                 <h3>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     Example in Action: Better Work Assessment Teams
                 </h3>
                 <p>

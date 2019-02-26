@@ -70,7 +70,7 @@ const en = () => {
             </p>
             <ExampleInAction id="Conflict_Free">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>Example in Action</strong>: Conflict-Free Sourcing
                     Initiative{" "}
                 </h2>
@@ -161,7 +161,7 @@ const en = () => {
             </p>
             <ExampleInAction id="mica">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>Example in Action</strong>: L&rsquo;Or&eacute;al*
                     and Responsible Mica Sourcing
                 </h2>

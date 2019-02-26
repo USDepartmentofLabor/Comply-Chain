@@ -749,7 +749,7 @@ const es = () => {
             </table>
             <ExampleInAction id="better_work">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Ejemplo en acci&oacute;n: el{" "}
                         <strong>

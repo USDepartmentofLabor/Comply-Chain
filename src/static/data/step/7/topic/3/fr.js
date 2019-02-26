@@ -26,7 +26,7 @@ const fr = () => {
             </p>
             <ExampleInAction id="bwi_eval">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: &Eacute;valuation des
                         incidences de Better Work

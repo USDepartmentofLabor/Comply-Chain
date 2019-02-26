@@ -376,7 +376,7 @@ const fr = () => {
             </p>
             <ExampleInAction id="rst1a">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     Exemple d&apos;action&nbsp;: Outil d&rsquo;approvisionnement
                     responsable&nbsp;1A
                 </h2>

@@ -27,7 +27,7 @@ const fr = () => {
             </p>
             <ExampleInAction id="cambodia">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: Surveillance communautaire
                         du travail des enfants au Cambodge

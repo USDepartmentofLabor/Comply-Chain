@@ -165,7 +165,7 @@ const fr = () => {
             </p>
             <ExampleInAction id="turkey">
                 <h3>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: Travail de collaboration
                         visant &agrave; traiter le travail saisonnier des

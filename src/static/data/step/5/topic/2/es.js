@@ -181,7 +181,7 @@ const es = () => {
             </p>
             <ExampleInAction id="better_work_assessment">
                 <h3>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     Ejemplo en acci&oacute;n: equipos de evaluaci&oacute;n del
                     programa Better Work
                 </h3>

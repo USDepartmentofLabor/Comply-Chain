@@ -351,7 +351,7 @@ const en = () => {
             </div>
             <ExampleInAction id="engagement_gov_brazil">
                 <h3>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Example in Action : Engagement with Government:
                     </strong>

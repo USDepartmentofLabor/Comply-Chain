@@ -278,7 +278,7 @@ const es = () => {
             </ul>
             <ExampleInAction id="nike">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Ejemplo en acci&oacute;n: Nike*: notificaci&oacute;n de
                         las medidas de remediaci&oacute;n

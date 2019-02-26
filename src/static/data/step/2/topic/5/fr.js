@@ -163,7 +163,7 @@ const fr = () => {
             </p>
             <ExampleInAction id="med_rep">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: L&rsquo;importance du
                         r&ocirc;le de la couverture m&eacute;diatique
@@ -392,7 +392,7 @@ const fr = () => {
             </p>
             <ExampleInAction id="fish">
                 <h2>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Exemple d&apos;action&nbsp;: P&ecirc;che et produits de
                         la mer

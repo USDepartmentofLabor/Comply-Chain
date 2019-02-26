@@ -130,7 +130,7 @@ const en = () => {
             </p>
             <ExampleInAction id="turkey">
                 <h3>
-                    <iron-icon icon="icons:lightbulb-outline" />
+                    <ExampleInAction.Icon />
                     <strong>
                         Example in Action: Collaboration to Address Seasonal
                         Migrant Child Labor in Turkey&rsquo;s Hazelnut Harvest
