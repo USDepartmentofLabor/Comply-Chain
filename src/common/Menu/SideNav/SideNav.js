@@ -21,9 +21,9 @@ class SideNav extends Component {
 
     render() {
         const { width, visible } = this.state;
-        const { children } = this.props;
+        const { children, id } = this.props;
         return (
-            <Wrapper width={width} visible={visible}>
+            <Wrapper id={id} width={width} visible={visible}>
                 <CloseButton onClick={this.close}>&times;</CloseButton>
                 {React.Children.map(children, child => {
                     return child;
@@ -73,6 +73,7 @@ const CloseButton = styled(SideNav.Item)`
     cursor: pointer;
 `;
 SideNav.propTypes = {
+    id: PropTypes.string,
     visible: PropTypes.bool,
     onClose: PropTypes.func,
     children: PropTypes.node

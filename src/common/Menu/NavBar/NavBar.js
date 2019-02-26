@@ -51,11 +51,12 @@ class NavBar extends Component {
     };
     render() {
         const { visible } = this.state;
-        const { leftItems, rightItems, children } = this.props;
+        const { leftItems, rightItems, children, id } = this.props;
         return (
-            <div>
+            <div id={id}>
                 <NavbarWrapper>
                     <SideNav
+                        id="side-nav"
                         visible={visible}
                         onClose={this.handleSideNavClose}
                     >
@@ -80,13 +81,14 @@ class NavBar extends Component {
                         </NavItem>
                     ))}
                 </NavbarWrapper>
-                <Container>{children}</Container>
+                <Container id="container">{children}</Container>
             </div>
         );
     }
 }
 
 NavBar.propTypes = {
+    id: PropTypes.string,
     children: PropTypes.node,
     leftItems: PropTypes.arrayOf(PropTypes.object),
     rightItems: PropTypes.arrayOf(PropTypes.object)

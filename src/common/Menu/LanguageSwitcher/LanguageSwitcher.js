@@ -26,7 +26,7 @@ class LanguageSwitcher extends Component {
     render() {
         const { languages, currentLanguage } = this.state;
         return (
-            <Dropdown>
+            <Dropdown id="language-switcher">
                 <Dropdown.Title>
                     {currentLanguage}
                     <DropdownIcon>

@@ -16,9 +16,9 @@ class Accordion extends Component {
         }
     };
     render() {
-        const { children } = this.props;
+        const { children, id } = this.props;
         return (
-            <Wrapper>
+            <Wrapper id={id}>
                 {React.Children.map(children, (child, i) => {
                     if (child.type.displayName === "Section") {
                         return React.Children.map(
@@ -92,6 +92,7 @@ Accordion.Section = styled.div``;
 Accordion.Section.displayName = "Section";
 
 Accordion.propTypes = {
+    id: PropTypes.string,
     children: PropTypes.node.isRequired
 };
 

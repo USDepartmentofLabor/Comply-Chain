@@ -34,9 +34,9 @@ class Dropdown extends Component {
         return child;
     };
     render() {
-        const { children } = this.props;
+        const { children, id } = this.props;
         return (
-            <Wrapper>
+            <Wrapper id={id}>
                 {React.Children.map(children, (child, i) => {
                     if (child.type === "div") {
                         return React.Children.map(
@@ -93,6 +93,7 @@ Dropdown.Item = styled.div`
 Dropdown.Item.displayName = "Item";
 
 Dropdown.propTypes = {
+    id: PropTypes.string,
     children: PropTypes.node.isRequired
 };
 

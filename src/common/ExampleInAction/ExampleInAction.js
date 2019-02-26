@@ -20,8 +20,8 @@ const Wrapper = styled.div`
 
 class ExampleInAction extends Component {
     render() {
-        const { children } = this.props;
-        return <Wrapper>{children}</Wrapper>;
+        const { children, id } = this.props;
+        return <Wrapper id={id}>{children}</Wrapper>;
     }
 }
 
@@ -29,6 +29,7 @@ ExampleInAction.Icon = styled(Icons.Lightbulb)`
     vertical-align: middle;
 `;
 ExampleInAction.propTypes = {
+    id: PropTypes.string,
     children: PropTypes.node
 };
 
