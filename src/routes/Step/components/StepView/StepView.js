@@ -21,7 +21,7 @@ class StepView extends Component {
                 data: {
                     resources: {
                         title: "Further Resources",
-                        content: null // todo - come back here and display the resoure data
+                        content: <Resources />
                     },
                     learningObjectives: {
                         title: "Learning Objectives",
