@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import AccordionView from "../../../../common/AccordionView";
-import { strings } from "../../../../modules/config/strings";
+import { Localize } from "../../../../modules/config/strings";
 import KeyTermList from "../KeyTermList";
 import LearningObjectiveList from "../LearningObjectiveList";
 import TopicsList from "../TopicList";
@@ -11,7 +11,7 @@ class StepView extends Component {
         super(props);
         const { step } = this.props;
 
-        const stepData = strings.steps[step - 1];
+        const stepData = Localize.getStrings().steps[step - 1];
         if (stepData) {
             const topics = stepData.topics;
             const learningObjectives = stepData.learningObjectives;

@@ -6,7 +6,6 @@ import LanguageSwitcher from "./common/Menu/LanguageSwitcher";
 import NavBar from "./common/Menu/NavBar";
 import { Navigator } from "./common/Navigation";
 import Routes from "./modules/config/routes";
-import { strings } from "./modules/config/strings";
 
 const navBarLeftItems = [
     {
@@ -30,15 +29,6 @@ const navBarLeftItems = [
 const navBarRightItems = [{ props: { as: LanguageSwitcher } }];
 
 class App extends Component {
-    constructor(props) {
-        super(props);
-
-        const lang = localStorage.getItem("lang");
-
-        if (lang) {
-            strings.setLanguage(lang);
-        }
-    }
     render() {
         return (
             <NavBar leftItems={navBarLeftItems} rightItems={navBarRightItems}>

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { strings } from "../../modules/config/strings";
 import { Link } from "react-router-dom";
+import { Localize } from "../../modules/config/strings";
 
 class Steps extends Component {
-    state = { steps: strings.steps };
+    state = { steps: Localize.getStrings().steps };
     render() {
         const { steps } = this.state;
 

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { strings } from "../../../modules/config/strings";
-import Dropdown from "../../Dropdown";
+import { IoMdArrowDropdown as Icon } from "react-icons/io";
 import { withRouter } from "react-router-dom";
 import styled from "styled-components";
-import { IoMdArrowDropdown as Icon } from "react-icons/io";
+import { Localize } from "../../../modules/config/strings";
+import Dropdown from "../../Dropdown";
 
 const DropdownIcon = styled.span`
     vertical-align: middle;
@@ -13,14 +13,13 @@ class LanguageSwitcher extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            languages: strings.getAvailableLanguages(),
-            currentLanguage: strings.getLanguage()
+            languages: Localize.getAvailableLanguages(),
+            currentLanguage: Localize.getLanguage()
         };
     }
     handleLanguageChange = lang => {
         const { history } = this.props;
-        strings.setLanguage(lang);
-        localStorage.setItem("lang", lang);
+        Localize.setLanguage(lang);
         this.setState({ currentLanguage: lang });
         history.push(`${history.location.pathname}?lang=${lang}`);
     };

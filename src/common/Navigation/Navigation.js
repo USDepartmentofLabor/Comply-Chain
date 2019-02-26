@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { matchPath } from "react-router";
-import { strings } from "../../modules/config/strings";
+import { Localize } from "../../modules/config/strings";
 
 const withPathGenerator = WrappedComponent => {
     class Path extends Component {
@@ -12,14 +12,13 @@ const withPathGenerator = WrappedComponent => {
             const lang = match && match.params && match.params.lang;
             let langPath;
             if (lang) {
-                if (strings.getAvailableLanguages().includes(lang)) {
-                    strings.setLanguage(match.params.lang);
-                    localStorage.setItem("lang", match.params.lang);
+                if (Localize.getAvailableLanguages().includes(lang)) {
+                    Localize.setLanguage(match.params.lang);
                     langPath = "/" + lang + currentPath;
                 }
             }
             if (!langPath) {
-                langPath = "/" + strings.getLanguage() + currentPath;
+                langPath = "/" + Localize.getLanguage() + currentPath;
             }
 
             return langPath;
@@ -34,8 +33,8 @@ const withPathGenerator = WrappedComponent => {
             let langPath;
 
             if (lang) {
-                if (strings.getAvailableLanguages().includes(lang)) {
-                    strings.setLanguage(match.params.lang);
+                if (Localize.getAvailableLanguages().includes(lang)) {
+                    Localize.setLanguage(match.params.lang);
                     langPath = "/" + lang + currentPath;
                 }
             }
