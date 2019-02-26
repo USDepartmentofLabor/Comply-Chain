@@ -20,6 +20,7 @@ class LanguageSwitcher extends Component {
     handleLanguageChange = lang => {
         const { history } = this.props;
         strings.setLanguage(lang);
+        localStorage.setItem("lang", lang);
         this.setState({ currentLanguage: lang });
         history.push(`${history.location.pathname}?lang=${lang}`);
     };

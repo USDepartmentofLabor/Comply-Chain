@@ -14,6 +14,7 @@ const withPathGenerator = WrappedComponent => {
             if (lang) {
                 if (strings.getAvailableLanguages().includes(lang)) {
                     strings.setLanguage(match.params.lang);
+                    localStorage.setItem("lang", match.params.lang);
                     langPath = "/" + lang + currentPath;
                 }
             }
