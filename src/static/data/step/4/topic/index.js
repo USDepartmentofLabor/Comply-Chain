@@ -3,105 +3,89 @@ import { TopicData as Topic2 } from "./2";
 import { TopicData as Topic3 } from "./3";
 import { TopicData as Topic4 } from "./4";
 import { TopicData as Topic5 } from "./5";
-import { TopicData as Topic6 } from "./6";
 
 export const Topics = {
     en: [
         {
             keywords: [],
-            title: "Why Seek Stakeholder Engagement?",
+            title: "Communicating, Not Policing",
             content: Topic1.en
         },
         {
             keywords: [],
-            title: "What Can Stakeholders Do?",
+            title: "Who Should be Trained?",
             content: Topic2.en
         },
         {
             keywords: [],
-            title: "Engaging Your Stakeholders",
+            title: "What Topics Should Training and Capacity-Building Cover?",
             content: Topic3.en
         },
         {
             keywords: [],
-            title: "Multi-Stakeholder Groups",
+            title: "Where, When and How Should Training be Conducted?",
             content: Topic4.en
         },
         {
             keywords: [],
-            title: "Industry Associations and Initiatives",
+            title: "Grievance Mechanisms",
             content: Topic5.en
-        },
-        {
-            keywords: [],
-            title: "Certification Programs",
-            content: Topic6.en
         }
     ],
     es: [
         {
             keywords: [],
-            title:
-                "¿Por qué buscar la participación de las partes interesadas?",
+            title: "Comunicación, no vigilancia",
             content: Topic1.es
         },
         {
             keywords: [],
-            title: "¿Qué pueden hacer las partes interesadas?",
+            title: "¿A quiénes se debe capacitar?",
             content: Topic2.es
         },
         {
             keywords: [],
-            title: "Participación de las partes interesadas",
+            title:
+                "¿Qué temas deben incluirse en la capacitación y el fortalecimiento de capacidades?",
             content: Topic3.es
         },
         {
             keywords: [],
-            title: "Grupos de varias partes interesadas",
+            title: "¿Dónde, cuándo y cómo debe realizarse la capacitación?",
             content: Topic4.es
         },
         {
             keywords: [],
-            title: "Asociaciones e iniciativas de la industria",
+            title: "Mecanismos de presentación de reclamaciones",
             content: Topic5.es
-        },
-        {
-            keywords: [],
-            title: "Programas de certificación",
-            content: Topic6.es
         }
     ],
     fr: [
         {
             keywords: [],
-            title:
-                "Pourquoi rechercher la participation des parties prenantes ?",
+            title: "Communication, oui, répression, non",
             content: Topic1.fr
         },
         {
             keywords: [],
-            title: "Que peuvent faire les parties prenantes ?",
+            title: "Qui devrait bénéficier de la formation ?",
             content: Topic2.fr
         },
         {
             keywords: [],
-            title: "Faire participer vos parties prenantes",
+            title:
+                "Quels sujets la formation et le renforcement des capacités devraient-ils couvrir ?",
             content: Topic3.fr
         },
         {
             keywords: [],
-            title: "Groupes de plusieurs parties prenantes",
+            title: "Où, quand et comment la formation devrait-elle se tenir ?",
             content: Topic4.fr
         },
         {
             keywords: [],
-            title: "Associations et initiatives de l'industrie",
+            title: "Mécanismes de réclamation",
             content: Topic5.fr
-        },
-        {
-            keywords: [],
-            title: "Programmes de certification",
-            content: Topic6.fr
         }
     ]
 };
