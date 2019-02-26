@@ -2,6 +2,7 @@ import React from "react";
 import usFlag from "../../images/us_flag.png";
 import verite from "../../images/verite.png";
 import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../common/OwnWords";
 
 const fr = () => {
     return (
@@ -255,9 +256,9 @@ const fr = () => {
                 soci&eacute;t&eacute; a d&eacute;cid&eacute; de passer &agrave;
                 une politique d&rsquo;«&nbsp;emploi direct&nbsp;».
             </p>
-            <div className="own-words">
+            <OwnWords>
                 <h3>
-                    <iron-icon icon="icons:feedback" />
+                    <OwnWords.Icon />
                     <strong>Dans leurs propres mots</strong>
                 </h3>
                 <p>
@@ -315,7 +316,7 @@ const fr = () => {
                     </a>{" "}
                     [en anglais] 27&nbsp;avril 2016
                 </p>
-            </div>
+            </OwnWords>
             <p>
                 L&rsquo;
                 <a

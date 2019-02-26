@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import panos from "../../images/panos.png";
 import hrm from "../../images/hrm.jpg";
 import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../common/OwnWords";
 
 const en = () => {
     return (
@@ -377,9 +378,9 @@ const en = () => {
                     Traceability Program.
                 </p>
             </ExampleInAction>
-            <div className="own-words">
+            <OwnWords>
                 <h2>
-                    <iron-icon icon="icons:feedback" />
+                    <OwnWords.Icon />
                     <strong>In Their Own Words</strong>
                 </h2>
                 <p>
@@ -453,7 +454,7 @@ const en = () => {
                     </a>
                     , 2017
                 </p>
-            </div>
+            </OwnWords>
             <h2>Migrant Workers</h2>
             <p>
                 Migrants are a category of workers particularly vulnerable to

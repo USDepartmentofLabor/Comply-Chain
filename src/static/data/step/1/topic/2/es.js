@@ -1,4 +1,5 @@
 import React from "react";
+import OwnWords from "../../../../../../common/OwnWords";
 
 const es = () => {
     return (
@@ -87,9 +88,9 @@ const es = () => {
                     informes y hacer comentarios.
                 </p>
             </div>
-            <div className="own-words">
+            <OwnWords>
                 <h2>
-                    <iron-icon icon="icons:feedback" />
+                    <OwnWords.Icon />
                     <strong>En sus propias palabras</strong>
                 </h2>
                 <p>
@@ -115,7 +116,9 @@ const es = () => {
                         Fuente: Organizaci&oacute;n Internacional de
                         Normalizaci&oacute;n (ISO){" "}
                     </em>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.iso.org/standard/42546.html"
                         title="ISO 26000. <i>Gu&iacute;a de responsabilidad social,</i> 2010."
                     >
@@ -123,7 +126,7 @@ const es = () => {
                     </a>
                     <em>, 2010</em>.
                 </p>
-            </div>
+            </OwnWords>
         </div>
     );
 };

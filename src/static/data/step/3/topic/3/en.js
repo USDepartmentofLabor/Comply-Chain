@@ -2,6 +2,7 @@ import React from "react";
 import usFlag from "../../images/us_flag.png";
 import verite from "../../images/verite.png";
 import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../common/OwnWords";
 
 const en = () => {
     return (
@@ -208,9 +209,9 @@ const en = () => {
                 risk-based reasons why the company chose to move to a
                 &ldquo;direct employment&rdquo; policy.
             </p>
-            <div className="own-words">
+            <OwnWords>
                 <h3>
-                    <iron-icon icon="icons:feedback" />
+                    <OwnWords.Icon />
                     <strong>In Their Own Words</strong>
                 </h3>
                 <p>
@@ -255,7 +256,7 @@ const en = () => {
                     </a>{" "}
                     April 27, 2016
                 </p>
-            </div>
+            </OwnWords>
             <p>
                 A key resource for developing specific code of conduct
                 provisions to prevent forced labor in global supply chains is

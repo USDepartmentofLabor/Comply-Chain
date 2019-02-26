@@ -1,4 +1,5 @@
 import React from "react";
+import OwnWords from "../../../../../../common/OwnWords";
 
 const fr = () => {
     return (
@@ -61,9 +62,9 @@ const fr = () => {
                     </p>
                 </li>
             </ul>
-            <div className="own-words">
+            <OwnWords>
                 <h3>
-                    <iron-icon icon="icons:feedback" />
+                    <OwnWords.Icon />
                     <strong>
                         Dans leurs propres mots&nbsp;: Les d&eacute;fis de la
                         v&eacute;rification de l&apos;&acirc;ge
@@ -79,7 +80,9 @@ const fr = () => {
                     occup&eacute;s par eux, mais aussi de ceux auxquels une
                     orientation ou une formation professionnelles sont
                     dispens&eacute;es dans leur entreprise.&nbsp;»
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm#F4"
                         title="Convention n<sup>o</sup>&nbsp;138 (1973)"
                     >
@@ -92,7 +95,9 @@ const fr = () => {
                     il est facile d&rsquo;obtenir des documents
                     falsifi&eacute;s, les suggestions suivantes peuvent
                     s&rsquo;av&eacute;rer utiles&nbsp;:
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm#F5"
                         title="L&rsquo;abolition du travail des enfants. Guide &agrave; l&rsquo;intention des employeurs"
                     >
@@ -147,7 +152,9 @@ const fr = () => {
                 </p>
                 <p>
                     [1] Voir l&apos;Article 9(3) de la&nbsp;
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138"
                         title="Convention n<sup>o</sup>&nbsp;138 (1973)"
                     >
@@ -156,7 +163,9 @@ const fr = () => {
                     &nbsp;sur l&rsquo;obligation d&rsquo;un employeur de
                     maintenir des registres sur les travailleurs de moins de
                     18&nbsp;ans. <br /> [2] Voir&nbsp;
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/jakarta/whatwedo/publications/WCMS_151355/lang--en/index.htm"
                         title="L&rsquo;abolition du travail des enfants. Guide &agrave; l&rsquo;intention des employeurs"
                     >
@@ -168,7 +177,9 @@ const fr = () => {
                 <p>
                     Source&nbsp;: Extrait du Helpdesk du BIT&nbsp;: Assistance
                     aux entreprises sur les normes internationales du travail,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_152880/lang--fr/index.htm"
                         title="Questions/R&eacute;ponses sur les entreprises et le travail des enfants"
                     >
@@ -179,7 +190,7 @@ const fr = () => {
                     </a>
                     <em>, consult&eacute; le 11&nbsp;mai 2017.</em>
                 </p>
-            </div>
+            </OwnWords>
             <ul>
                 <li>
                     <h2>Entretiens avec les travailleurs</h2>
@@ -248,7 +259,9 @@ const fr = () => {
                     <p>
                         L&rsquo;Outil d&rsquo;approvisionnement responsable
                         comprend un outil,{" "}
-                        <a target="_blank" rel="noopener noreferrer"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="http://www.responsiblesourcingtool.org/workerinterviews"
                             title="Mener des entretiens avec les travailleurs migrants"
                         >
@@ -300,7 +313,9 @@ const fr = () => {
                         recruteurs pour s&apos;entretenir avec eux, et il faudra
                         sans doute pour cela obtenir la coordination et la
                         coop&eacute;ration du fournisseur. La{" "}
-                        <a target="_blank" rel="noopener noreferrer"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="http://helpwanted.verite.org/helpwanted/toolkit"
                             title="Bo&icirc;te &agrave; outils de l&rsquo;embauche &eacute;quitable"
                         >
@@ -308,7 +323,9 @@ const fr = () => {
                             &eacute;quitable
                         </a>{" "}
                         de Verit&eacute; [en anglais] comprend des{" "}
-                        <a target="_blank" rel="noopener noreferrer"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="http://helpwanted.verite.org/helpwanted/toolkit/suppliers/managing-labor-recruiters"
                             title="exemples de questions d&rsquo;entretien avec des recruteurs de main d'&oelig;uvre"
                         >

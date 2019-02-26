@@ -1,5 +1,6 @@
 import React from "react";
 import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../common/OwnWords";
 
 const fr = () => {
     return (
@@ -537,9 +538,9 @@ const fr = () => {
                     <br />
                 </li>
             </ul>
-            <div className="own-words">
+            <OwnWords>
                 <h4>
-                    <iron-icon icon="icons:feedback" />
+                    <OwnWords.Icon />
                     <strong>Dans leurs propres mots</strong>
                 </h4>
                 <p>
@@ -568,7 +569,7 @@ const fr = () => {
                     </a>{" "}
                     [en anglais], mai&nbsp;2003.
                 </p>
-            </div>
+            </OwnWords>
             <br />
             <br />
             <h2>Philanthropie</h2>

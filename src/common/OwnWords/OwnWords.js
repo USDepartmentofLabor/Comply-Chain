@@ -14,22 +14,23 @@ const Wrapper = styled.div`
     h2,
     h3,
     h4 {
-        color: #00008b;
+        color: #aa5703;
     }
 `;
 
-class ExampleInAction extends Component {
+class OwnWords extends Component {
     render() {
         const { children } = this.props;
         return <Wrapper>{children}</Wrapper>;
     }
 }
 
-ExampleInAction.Icon = styled(Icons.Lightbulb)`
+OwnWords.Icon = styled(Icons.Feedback)`
     vertical-align: middle;
 `;
-ExampleInAction.propTypes = {
+
+OwnWords.propTypes = {
     children: PropTypes.node
 };
 
-export default ExampleInAction;
+export default OwnWords;

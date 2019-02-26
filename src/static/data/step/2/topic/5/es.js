@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import panos from "../../images/panos.jpg";
 import hrm from "../../images/hrm.jpg";
 import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../common/OwnWords";
 
 const es = () => {
     return (
@@ -441,9 +442,9 @@ const es = () => {
                     y mariscos.
                 </p>
             </ExampleInAction>
-            <div className="own-words">
+            <OwnWords>
                 <h2>
-                    <iron-icon icon="icons:feedback" />
+                    <OwnWords.Icon />
                     <strong>En sus propias palabras</strong>
                 </h2>
                 <p>
@@ -527,7 +528,7 @@ const es = () => {
                     </a>
                     , 2017.
                 </p>
-            </div>
+            </OwnWords>
             <h2>Trabajadores migrantes</h2>
             <p>
                 Los trabajadores migrantes conforman una categor&iacute;a de

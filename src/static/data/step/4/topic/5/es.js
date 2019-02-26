@@ -1,4 +1,5 @@
 import React from "react";
+import OwnWords from "../../../../../../common/OwnWords";
 
 const es = () => {
     return (
@@ -50,14 +51,24 @@ const es = () => {
                 laborales y abordar las lagunas. Con m&aacute;s de 7 mil
                 millones de abonados a la telefon&iacute;a m&oacute;vil en el
                 mundo, con muchas iniciativas, como{" "}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.laborvoices.com/" title="Labor Voices">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.laborvoices.com/"
+                    title="Labor Voices"
+                >
                     Labor Voices
                 </a>
                 , se recurre a la tecnolog&iacute;a de los tel&eacute;fonos
                 inteligentes para realizar encuestas an&oacute;nimas a los
                 trabajadores sobre las condiciones de trabajo y los campos. En
                 otras iniciativas, como{" "}
-                <a target="_blank" rel="noopener noreferrer" href="http://www.contratados.org/" title="Contratados.org">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.contratados.org/"
+                    title="Contratados.org"
+                >
                     Contratados.org
                 </a>
                 , se utiliza la tecnolog&iacute;a de red para crear plataformas
@@ -76,9 +87,9 @@ const es = () => {
                 trabajador, con lo cual en este &aacute;mbito podr&iacute;a
                 haber un mayor desarrollo de la tecnolog&iacute;a. &nbsp;
             </p>
-            <div className="own-words">
+            <OwnWords>
                 <h2>
-                    <iron-icon icon="icons:feedback" />
+                    <OwnWords.Icon />
                     <strong>En sus propias palabras</strong>
                 </h2>
                 <p>
@@ -110,7 +121,9 @@ const es = () => {
                 </p>
                 <p>
                     Fuente: OCDE.{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.oecd.org/corporate/mne/1922428.pdf"
                         title="<i>L&iacute;neas Directrices para Empresas Multinacionales</i>"
                     >
@@ -121,7 +134,7 @@ const es = () => {
                     </a>
                     <em>,</em> 2011.
                 </p>
-            </div>
+            </OwnWords>
             <p>
                 En los a&ntilde;os 2009 y 2010, gracias a la iniciativa de
                 responsabilidad social empresarial (RSE) de la Harvard Kennedy
@@ -131,7 +144,9 @@ const es = () => {
                 centraban en poner a prueba los mecanismos de reclamaci&oacute;n
                 que implicaban a las empresas y a las comunidades en las que
                 operaban. El{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/report_46_GM_pilots.pdf"
                     title="proyecto de RSE"
                 >
@@ -197,7 +212,9 @@ const es = () => {
             </ol>
             <p>
                 Fuente:{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/report_46_GM_pilots.pdf"
                     title="<i>Piloting Principles for Effective Company-Stakeholder Grievance Mechanisms:</i> <i>A Report of Lessons Learned</i>."
                 >
@@ -216,7 +233,9 @@ const es = () => {
             <p>
                 En la publicaci&oacute;n de la Corporaci&oacute;n Financiera
                 Internacional{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.scribd.com/fullscreen/21356198?access_key=key-d387qdvel3wbc9nnmxk"
                     title="<i>Good Practice Note:</i> <i>Addressing Grievances from Project-Affected Communities</i>"
                 >
@@ -237,7 +256,12 @@ const es = () => {
             <p>
                 Para obtener informaci&oacute;n adicional sobre la
                 investigaci&oacute;n realizada, el{" "}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.shiftproject.org/" title="Proyecto SHIFT">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.shiftproject.org/"
+                    title="Proyecto SHIFT"
+                >
                     proyecto SHIFT
                 </a>{" "}
                 es una buena fuente de informaci&oacute;n y gu&iacute;a sobre

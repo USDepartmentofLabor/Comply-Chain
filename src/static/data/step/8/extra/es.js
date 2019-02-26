@@ -1,12 +1,13 @@
 import React from "react";
+import OwnWords from "../../../../../common/OwnWords";
 
 const es = () => {
     return (
         <div>
             <p>
-                <div className="own-words">
+                <OwnWords>
                     <h2>
-                        <iron-icon icon="icons:feedback" />
+                        <OwnWords.Icon />
                         <strong>En sus propias palabras</strong>
                     </h2>
                     <p>
@@ -33,7 +34,9 @@ const es = () => {
                     <p>
                         <em>
                             Fuente:{" "}
-                            <a target="_blank" rel="noopener noreferrer"
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                                 title="Principios Rectores sobre las Empresas y los Derechos Humanos de las Naciones Unidas"
                             >
@@ -45,7 +48,7 @@ const es = () => {
                             , 2011.
                         </em>
                     </p>
-                </div>
+                </OwnWords>
             </p>
         </div>
     );

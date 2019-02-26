@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import panos from "../../images/panos.jpg";
 import hrm from "../../images/hrm.jpg";
 import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../common/OwnWords";
 
 const fr = () => {
     return (
@@ -483,9 +484,9 @@ const fr = () => {
                     produits de la mer.
                 </p>
             </ExampleInAction>
-            <div className="own-words">
+            <OwnWords>
                 <h2>
-                    <iron-icon icon="icons:feedback" />
+                    <OwnWords.Icon />
                     <strong>Dans leurs propres mots</strong>
                 </h2>
                 <p>
@@ -581,7 +582,7 @@ const fr = () => {
                     </a>{" "}
                     [en anglais], 2017
                 </p>
-            </div>
+            </OwnWords>
             <h2>Travailleurs migrants</h2>
             <p>
                 Les migrants sont une cat&eacute;gorie de travailleurs

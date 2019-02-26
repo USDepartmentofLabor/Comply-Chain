@@ -1,4 +1,5 @@
 import React from "react";
+import OwnWords from "../../../../../../common/OwnWords";
 
 const en = () => {
     return (
@@ -50,9 +51,9 @@ const en = () => {
                     </p>
                 </li>
             </ul>
-            <div className="own-words">
+            <OwnWords>
                 <h3>
-                    <iron-icon icon="icons:feedback" />
+                    <OwnWords.Icon />
                     <strong>
                         In Their Own Words: The Challenges of Age Verification
                     </strong>
@@ -65,7 +66,9 @@ const en = () => {
                     children and young persons employed by them but also of
                     those receiving vocational orientation or training in their
                     undertakings.&rdquo;
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm#F4"
                         title="Convention No. 138 (1973)"
                     >
@@ -76,7 +79,9 @@ const en = () => {
                     When there are no birth certificates to verify age or where
                     falsified documents are easily obtained, the following
                     suggestions may be helpful:
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm#F5"
                         title="Eliminating Child Labour: Guides for Employers"
                     >
@@ -120,7 +125,9 @@ const en = () => {
                 </p>
                 <p>
                     [1] See, Article 9(3) of&nbsp;
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138"
                         title="Convention No. 138 (1973)"
                     >
@@ -129,7 +136,9 @@ const en = () => {
                     , concerning the employers&rsquo; obligation to keep
                     registers of young workers under 18.
                     <br /> [2] See,&nbsp;
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/jakarta/whatwedo/publications/WCMS_151355/lang--en/index.htm"
                         title="Eliminating Child Labour: Guides for Employers"
                     >
@@ -139,7 +148,9 @@ const en = () => {
                 </p>
                 <p>
                     Source: Excerpted from the ILO Helpdesk for Business,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm"
                         title="As on Business and Child Labor"
                     >
@@ -147,7 +158,7 @@ const en = () => {
                     </a>
                     <em>, accessed May 11, 2017.</em>
                 </p>
-            </div>
+            </OwnWords>
             <ul>
                 <li>
                     <h2>Worker interviews</h2>
@@ -194,7 +205,9 @@ const en = () => {
                     </p>
                     <p>
                         The Responsible Sourcing Tool contains a tool,{" "}
-                        <a target="_blank" rel="noopener noreferrer"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="http://www.responsiblesourcingtool.org/workerinterviews"
                             title="Conducting Migrant Worker Interviews"
                         >
@@ -232,14 +245,18 @@ const en = () => {
                         to recruiters or brokers for interviews can be a
                         challenge, and is likely to require the supplier&rsquo;s
                         coordination and cooperation. Verit&eacute;&rsquo;s{" "}
-                        <a target="_blank" rel="noopener noreferrer"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="http://helpwanted.verite.org/helpwanted/toolkit"
                             title="Fair Hiring Toolkit"
                         >
                             Fair Hiring Toolkit
                         </a>{" "}
                         includes{" "}
-                        <a target="_blank" rel="noopener noreferrer"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="http://helpwanted.verite.org/helpwanted/toolkit/suppliers/managing-labor-recruiters"
                             title="sample interview questions for labor recruiters"
                         >

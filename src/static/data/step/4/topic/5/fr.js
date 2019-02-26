@@ -1,4 +1,5 @@
 import React from "react";
+import OwnWords from "../../../../../../common/OwnWords";
 
 const fr = () => {
     return (
@@ -57,14 +58,24 @@ const fr = () => {
                 combler les lacunes. Il existe plus de 7&nbsp;milliards
                 d&rsquo;abonnements mobiles dans le monde&nbsp;; de nombreuses
                 initiatives, comme{" "}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.laborvoices.com/" title="Labor Voices">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.laborvoices.com/"
+                    title="Labor Voices"
+                >
                     Labor Voices
                 </a>
                 , utilisent la technologie des smartphones pour envoyer des
                 sondages anonymes aux travailleurs sur leurs conditions de
                 travail dans les usines et dans les champs. D&rsquo;autres,
                 comme{" "}
-                <a target="_blank" rel="noopener noreferrer" href="http://www.contratados.org/" title="Contratados.org">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.contratados.org/"
+                    title="Contratados.org"
+                >
                     Contratados.org
                 </a>
                 , utilisent la technologie internet pour cr&eacute;er des
@@ -86,9 +97,9 @@ const fr = () => {
                 &agrave; am&eacute;liorer et d&rsquo;une opportunit&eacute; de
                 progr&egrave;s technologique.&nbsp;
             </p>
-            <div className="own-words">
+            <OwnWords>
                 <h2>
-                    <iron-icon icon="icons:feedback" />
+                    <OwnWords.Icon />
                     <strong>Dans leurs propres mots</strong>
                 </h2>
                 <p>
@@ -128,7 +139,9 @@ const fr = () => {
                 </p>
                 <p>
                     Source&nbsp;: OCDE,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.oecd.org/corporate/mne/1922428.pdf"
                         title="Principes directeurs pour les entreprises multinationales"
                     >
@@ -137,7 +150,7 @@ const fr = () => {
                     </a>
                     <em>,</em> 2011.
                 </p>
-            </div>
+            </OwnWords>
             <p>
                 En 2009-2010, l&rsquo;Initiative de responsabilit&eacute;
                 sociale des entreprises (CSRI) de la Kennedy School de Harvard a
@@ -149,7 +162,9 @@ const fr = () => {
                 m&eacute;canismes de r&eacute;clamation relatives aux
                 entreprises commerciales et aux communaut&eacute;s dans
                 lesquelles elles op&egrave;rent. Le{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/report_46_GM_pilots.pdf"
                     title="Projet CSRI"
                 >
@@ -224,7 +239,9 @@ const fr = () => {
             </ol>
             <p>
                 Source&nbsp;:{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/report_46_GM_pilots.pdf"
                     title="Piloting Principles for Effective Company-Stakeholder Grievance Mechanisms&nbsp;: A Report of Lessons Learned."
                 >
@@ -239,7 +256,9 @@ const fr = () => {
             </p>
             <p>
                 Le document{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.scribd.com/fullscreen/21356198?access_key=key-d387qdvel3wbc9nnmxk"
                     title="Good Practice Note: Addressing Grievances from Project-Affected Communities"
                 >
@@ -256,7 +275,12 @@ const fr = () => {
             </p>
             <p>
                 Pour des recherches suppl&eacute;mentaires, le{" "}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.shiftproject.org/" title="Projet SHIFT">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.shiftproject.org/"
+                    title="Projet SHIFT"
+                >
                     Projet SHIFT
                 </a>{" "}
                 est une bonne source d&apos;informations et de recommandations

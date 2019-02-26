@@ -1,5 +1,6 @@
 import React from "react";
 import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../common/OwnWords";
 
 const es = () => {
     return (
@@ -452,9 +453,9 @@ const es = () => {
                     forzoso y otros abusos laborales. <br />
                 </li>
             </ul>
-            <div className="own-words">
+            <OwnWords>
                 <h4>
-                    <iron-icon icon="icons:feedback" />
+                    <OwnWords.Icon />
                     <strong>En sus propias palabras</strong>
                 </h4>
                 <p>
@@ -485,7 +486,7 @@ const es = () => {
                     </a>
                     , mayo de 2003.
                 </p>
-            </div>
+            </OwnWords>
             <br />
             <br />
             <h2>Filantrop&iacute;a</h2>

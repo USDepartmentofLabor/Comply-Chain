@@ -2,6 +2,7 @@ import React from "react";
 import usFlag from "../../images/us_flag.png";
 import verite from "../../images/verite.png";
 import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../common/OwnWords";
 
 const es = () => {
     return (
@@ -240,9 +241,9 @@ const es = () => {
                 opt&oacute; por una pol&iacute;tica de &ldquo;empleo
                 directo&rdquo;.{" "}
             </p>
-            <div className="own-words">
+            <OwnWords>
                 <h3>
-                    <iron-icon icon="icons:feedback" />
+                    <OwnWords.Icon />
                     <strong>En sus propias palabras</strong>
                 </h3>
                 <p>
@@ -291,7 +292,7 @@ const es = () => {
                     </a>
                     , 27 de abril de 2016
                 </p>
-            </div>
+            </OwnWords>
             <p>
                 Un recurso clave para redactar las disposiciones del
                 c&oacute;digo de conducta de manera de evitar el trabajo forzoso
