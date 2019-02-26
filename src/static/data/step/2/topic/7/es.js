@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -79,7 +80,7 @@ const es = () => {
                 las infracciones laborales y las partes interesadas
                 tambi&eacute;n pueden sugerir ideas para mitigarla.
             </p>
-            <div className="example-in-action" id="Conflict_Free">
+            <ExampleInAction id="Conflict_Free">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n</strong>: la iniciativa
@@ -92,14 +93,18 @@ const es = () => {
                     Rep&uacute;blica Democr&aacute;tica del Congo, de donde se
                     extraen muchos de los minerales utilizados en estos
                     art&iacute;culos. La iniciativa{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.conflictfreesourcing.org/"
                         title="La iniciativa Conflict-Free Sourcing"
                     >
                         Conflict-Free Sourcing
                     </a>{" "}
                     (CFSI) fue elaborada en 2008 por la{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.eiccoalition.org/"
                         title="Coalici&oacute;n Ciudadana de la Industria Electr&oacute;nica"
                     >
@@ -107,7 +112,9 @@ const es = () => {
                         Electr&oacute;nica
                     </a>{" "}
                     y la iniciativa{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://gesi.org/"
                         title="Iniciativa Global e-Sustainability"
                     >
@@ -120,7 +127,9 @@ const es = () => {
                     m&aacute;s de 350 empresas de una gama de sectores para
                     vigilar las cadenas de suministro. Como parte de la
                     iniciativa CFSI, se elabor&oacute; el programa{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.conflictfreesourcing.org/conflict-free-smelter-program/"
                         title="Programa Conflict-Free Smelter"
                     >
@@ -130,7 +139,9 @@ const es = () => {
                     refiner&iacute;as a validar, mediante auditor&iacute;as
                     independientes realizadas por terceros, el cumplimiento de
                     normas mundiales como la{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.oecd.org/corporate/mne/mining.htm"
                         title="Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas de Suministro Responsables de Minerales en las &Aacute;reas de Conflicto o de Alto Riesgo"
                     >
@@ -140,7 +151,7 @@ const es = () => {
                     </a>
                     .
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 En general, las respuestas a la informaci&oacute;n de la
                 evaluaci&oacute;n de riesgos e impacto deben girar en torno a
@@ -154,7 +165,9 @@ const es = () => {
                 devastadoras para los trabajadores. El tema de la
                 &ldquo;desvinculaci&oacute;n responsable&rdquo; de un proveedor
                 se examina en la publicaci&oacute;n de SOMO{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.somo.nl/should-i-stay-or-should-i-go/"
                     title="<i>Should I stay or should I go?</i><i> </i><i>Exploring the role of disengagement in human rights due diligence</i>"
                 >
@@ -172,7 +185,7 @@ const es = () => {
                 para los trabajadores. En el ejemplo que se describe a
                 continuaci&oacute;n se ilustra esta tendencia.
             </p>
-            <div className="example-in-action" id="mica">
+            <ExampleInAction id="mica">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n</strong>:
@@ -189,7 +202,9 @@ const es = () => {
                     pesar de estos riesgos, L&rsquo;Or&eacute;al, signataria del
                     Pacto Mundial de las Naciones Unidas y miembro fundador de
                     la{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.responsible-mica-initiative.com/"
                         title="Iniciativa Mica Responsable "
                     >
@@ -217,7 +232,7 @@ const es = () => {
                     cadena de suministro sostenible de la mica y mejorar las
                     condiciones de vida y de trabajo en la regi&oacute;n.&nbsp;
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Fortalecer capacidades y entablar relaciones, por lo general,
                 implica cierta inversi&oacute;n empresarial en

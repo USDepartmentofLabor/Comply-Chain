@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -115,7 +116,9 @@ const es = () => {
                 a&ntilde;os, varios organismos se esforzaron por formalizar y
                 documentar las especialidades y los conocimientos
                 est&aacute;ndar que todo auditor debe poseer. Por ejemplo, la{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.theapsca.org/"
                     title="Asociaci&oacute;n de Auditores Profesionales de Cumplimiento Social (APSCA)"
                 >
@@ -176,7 +179,7 @@ const es = () => {
                 equipo debe estar de acuerdo con las conclusiones finales de la
                 auditor&iacute;a.
             </p>
-            <div className="example-in-action" id="better_work_assessment">
+            <ExampleInAction id="better_work_assessment">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Ejemplo en acci&oacute;n: equipos de evaluaci&oacute;n del
@@ -188,7 +191,9 @@ const es = () => {
                     requisito de que en toda evaluaci&oacute;n haya dos
                     &ldquo;asesores de la empresa&rdquo; [auditores] presentes
                     en las evaluaciones no anunciadas. Los{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://betterwork.org/our-work/factory-services"
                         title="Asesores de Better Work"
                     >
@@ -203,7 +208,7 @@ const es = () => {
                     son los mismos que brindan los servicios de
                     remediaci&oacute;n o asesor&iacute;a.
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

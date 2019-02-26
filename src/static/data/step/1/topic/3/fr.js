@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -450,7 +451,7 @@ const fr = () => {
                     du travail forc&eacute;.
                 </p>
             </div>
-            <div className="example-in-action" id="engagement_gov_brazil">
+            <ExampleInAction id="engagement_gov_brazil">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -514,7 +515,9 @@ const fr = () => {
                 </p>
                 <p>
                     Pour plus d&apos;informations, voir le{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.inpacto.org.br/en/"
                         title="Site Web d&rsquo;InPACTO"
                     >
@@ -522,7 +525,7 @@ const fr = () => {
                     </a>{" "}
                     d&rsquo;InPACTO.
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Apr&egrave;s avoir identifi&eacute; vos parties prenantes et
                 compris les r&ocirc;les potentiels qu&apos;elles peuvent jouer

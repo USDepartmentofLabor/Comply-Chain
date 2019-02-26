@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import panos from "../../images/panos.png";
 import hrm from "../../images/hrm.jpg";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -12,34 +13,44 @@ const en = () => {
                 assessments are becoming increasingly common, and comprehensive
                 tools are available to walk companies through the process. These
                 include the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.ihrb.org/"
                     title="Institute for Human Rights and Business"
                 >
                     Institute for Human Rights and Business
                 </a>{" "}
                 and{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ifc.org/wps/wcm/connect/corp_ext_content/ifc_external_corporate_site/home"
                     title="International Finance Corporation"
                 >
                     International Finance Corporation
                 </a>
                 &rsquo;s{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://exim.hu/hasznos/dokumentum-tar/kornyezetvedelmi-politika-mind/1918-ifc-hiram-full-linked-4/file"
                     title="Guide to Human Rights Impact Assessment and Management"
                 >
                     Guide to Human Rights Impact Assessment and Management
                 </a>{" "}
                 and{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.bsr.org/en/"
                     title="Business for Social Responsibility&rsquo;s"
                 >
                     Business for Social Responsibility&rsquo;s
                 </a>
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.bsr.org/reports/BSR_Human_Rights_Impact_Assessments.pdf"
                     title="Conducting an Effective Human Rights Impact Assessment: Guidelines, Steps, and Examples"
                 >
@@ -56,7 +67,9 @@ const en = () => {
                 those that are more likely to be produced by child or forced
                 labor. A useful resource for this is the Department of
                 Labor&rsquo;s{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.dol.gov/ilab/reports/child-labor/list-of-goods/"
                     title="List of Goods Produced by Child Labor or Forced Labor"
                 >
@@ -66,7 +79,9 @@ const en = () => {
                 </a>
                 . Like this App, this regularly updated ILAB publication was
                 mandated by the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.state.gov/j/tip/laws/61106.htm"
                     title="Trafficking Victims Protection Reauthorization Act of 2005 (TVPRA)"
                 >
@@ -74,14 +89,18 @@ const en = () => {
                     (TVPRA)
                 </a>
                 . The List is available via the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.dol.gov/general/apps/ilab"
                     title="Sweat &amp; Toil App"
                 >
                     Sweat &amp; Toil App
                 </a>
                 , along with extensive information from DOL&rsquo;s{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings"
                     title="Findings on the Worst Forms of Child Labor"
                 >
@@ -90,21 +109,27 @@ const en = () => {
                 report. Sweat &amp; Toil, whose contents are also available on
                 the International Child Labor &amp; Forced Labor Reports section
                 of the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.dol.gov/agencies/ilab/reports/child-labor"
                     title="ILAB website"
                 >
                     ILAB website
                 </a>
                 , is free and available for download on the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://itunes.apple.com/us/app/sweat-toil-child-labor-forced/id1018240593?ls=1"
                     title="iTunes"
                 >
                     iTunes
                 </a>{" "}
                 or{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://play.google.com/store/apps/details?id=gov.dol.childlabor"
                     title="Google Play"
                 >
@@ -116,7 +141,7 @@ const en = () => {
                 <Link to="/steps/2">Further Resources</Link> for more
                 information.
             </p>
-            <div className="example-in-action" id="med_rep">
+            <ExampleInAction id="med_rep">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -180,7 +205,7 @@ const en = () => {
                     alt="child labourer with a spade"
                 />
                 <p className="small-text">&copy;George Osodi/Panos</p>
-            </div>
+            </ExampleInAction>
             <p>
                 Following this initial research, the company should engage
                 relevant stakeholders in gathering additional information about
@@ -273,7 +298,9 @@ const en = () => {
             <p>
                 To get a sense for how this general approach can be applied in a
                 particular sector, the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
                     title="Responsible Sourcing Seafood Tool 4: Information Gathering and Risk Assessment in Seafood Supply Chains"
                 >
@@ -283,7 +310,7 @@ const en = () => {
                 takes a step-by-step approach to examining country-based risks,
                 supply chain-based risks, and supplier-based risks.&nbsp;
             </p>
-            <div className="example-in-action" id="fish">
+            <ExampleInAction id="fish">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action: Fishing and Seafood</strong>
@@ -294,7 +321,9 @@ const en = () => {
                     the world. The isolated nature of work on waters presents a
                     number of challenges to child labor and forced labor law
                     enforcement in fishing and seafood. The{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf"
                         title="United Nations Convention on the Law of the Sea"
                     >
@@ -336,7 +365,9 @@ const en = () => {
                     question regarding corrective measures. The U.S. government
                     is also taking action to address IUU fishing: a Presidential
                     Task Force on Combatting IUU Fishing released an{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.nmfs.noaa.gov/ia/iuu/noaa_taskforce_report_final.pdf"
                         title="Action Plan for Implementing Task Force Recommendations"
                     >
@@ -345,7 +376,7 @@ const en = () => {
                     , under which the United States is developing a Seafood
                     Traceability Program.
                 </p>
-            </div>
+            </ExampleInAction>
             <div className="own-words">
                 <h2>
                     <iron-icon icon="icons:feedback" />
@@ -412,7 +443,9 @@ const en = () => {
                 </ul>
                 <p>
                     Source: U.S. Overseas Private Investment Corporation,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
                         title="Environmental and Social Policy Statement"
                     >
@@ -447,13 +480,17 @@ const en = () => {
                 labor, you may be at risk for forced labor and trafficking in
                 your supply chains. Recommended resources on this issue include
                 the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.iccr.org/"
                     title="Interfaith Center on Corporate Responsibility&rsquo;s (ICCR)"
                 >
                     Interfaith Center on Corporate Responsibility&rsquo;s (ICCR)
                 </a>
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"
                     title="Best Practice Guidance on Ethical Recruitment of Migrant Workers"
                 >
@@ -462,7 +499,9 @@ const en = () => {
                     Workers
                 </a>{" "}
                 and the ILO&rsquo;s{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
                     title="General Principles and Operational Guidelines for Fair Recruitment"
                 >
@@ -483,12 +522,19 @@ const en = () => {
                 supplied to Philip Morris Kazakhstan* (PMK), a wholly owned
                 subsidiary of tobacco company Philip Morris International*
                 (PMI). PMI subsequently commissioned the NGO{" "}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/" title="Verit&eacute;">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.verite.org/"
+                    title="Verit&eacute;"
+                >
                     Verit&eacute;
                 </a>
                 * to conduct an onsite investigation of working conditions on
                 Kazakh tobacco farms and draft a{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.verite.org/wp-content/uploads/2016/11/Verite_Report_for_PMI_on_Kazakhstan-2_May_2011.pdf"
                     title="recommendations report"
                 >
@@ -511,14 +557,18 @@ const en = () => {
                 reports done on these suppliers by other companies or groups
                 afford a very useful source of data. Obtaining them may require
                 joining a group, such as the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.sedexglobal.com/"
                     title="Supplier Ethical Data Exchange (SEDEX)"
                 >
                     Supplier Ethical Data Exchange (SEDEX)
                 </a>{" "}
                 and{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.verite.org/wp-content/uploads/2016/11/Verite_Report_for_PMI_on_Kazakhstan-2_May_2011.pdf"
                     title="Fair Factories Clearinghouse"
                 >
@@ -659,7 +709,9 @@ const en = () => {
             <p>
                 Adapted from International Labor Organization and International
                 Organization of Employers,{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/public/english/dialogue/actemp/downloads/projects/child_guide3_en.pdf"
                     title="The role of employers&rsquo; organizations in combating child labour, Guide 3"
                 >

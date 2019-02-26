@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -410,7 +411,7 @@ const es = () => {
                     trabajo infantil y el trabajo forzoso.
                 </p>
             </div>
-            <div className="example-in-action" id="engagement_gov_brazil">
+            <ExampleInAction id="engagement_gov_brazil">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -469,7 +470,9 @@ const es = () => {
                 </p>
                 <p>
                     Para m&aacute;s informaci&oacute;n v&eacute;ase el{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.inpacto.org.br/en/"
                         title="Sitio web de InPACTO"
                     >
@@ -477,7 +480,7 @@ const es = () => {
                     </a>{" "}
                     de InPACTO.
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Tras identificar a las partes interesadas y comprender las
                 funciones posibles que pueden desempe&ntilde;ar en el sistema de

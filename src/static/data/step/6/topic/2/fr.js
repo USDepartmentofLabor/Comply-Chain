@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -58,7 +59,9 @@ const fr = () => {
             </div>
             <p>
                 Les{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://impacttlimited.com/wp-content/uploads/2017/01/Impactt_CLOPIndustrialcontexts_REVISION_26112008.pdf"
                     title="Proc&eacute;dures op&eacute;rationnelles pour la r&eacute;paration des cas de travail des enfants dans les contextes industriels"
                 >
@@ -821,14 +824,19 @@ const fr = () => {
                     </tr>
                 </tbody>
             </table>
-            <div className="example-in-action" id="better_work">
+            <ExampleInAction id="better_work">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
                         Exemple d&apos;action&nbsp;: Le processus de
                         r&eacute;paration{" "}
                     </strong>
-                    <a target="_blank" rel="noopener noreferrer" href="https://betterwork.org/" title="Better Work">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://betterwork.org/"
+                        title="Better Work"
+                    >
                         <strong>Better Work</strong>
                     </a>
                     <strong />
@@ -861,7 +869,7 @@ const fr = () => {
                     visites de suivi afin d&apos;&eacute;valuer les
                     progr&egrave;s du plan de r&eacute;paration.
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

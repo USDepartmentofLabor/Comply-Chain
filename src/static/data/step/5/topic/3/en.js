@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import usFlag from "../../images/us_flag.png";
 import verite from "../../images/verite.png";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -70,7 +71,9 @@ const en = () => {
             <p>
                 Forced labor is an extremely complex labor rights violation that
                 can take many forms. The ILO&rsquo;s{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_099626/lang--en/index.htm"
                     title="Combating Forced Labour: A Handbook for Employers and Business, Booklet 4"
                 >
@@ -83,7 +86,9 @@ const en = () => {
                 and compliance personnel to identify forced labor at the
                 enterprise level and in global supply chains. In 2016, the ILO
                 also launched a mobile app,{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm"
                     title="Checkpoints for Companies: Eliminating and Preventing Forced Labour"
                 >
@@ -269,7 +274,9 @@ const en = () => {
                 Many companies&rsquo; audit tools are proprietary, so it can be
                 difficult to find samples to guide the development of your own.
                 The{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://responsiblesourcingtool.org/"
                     title="Responsible Sourcing Tool"
                 >
@@ -288,7 +295,7 @@ const en = () => {
                 indicators to evaluate the performance of suppliers and labor
                 agents.
             </p>
-            <div className="example-in-action" id="rst1a">
+            <ExampleInAction id="rst1a">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Example in Action: Responsible Sourcing Tool 1A
@@ -993,7 +1000,9 @@ const en = () => {
                 </ul>
                 <p>
                     <strong>Source: Responsible Sourcing Tool 1A, </strong>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/recruitmentandemployment"
                         title="Sample Benchmarks of Good Practice in Recruitment and Employment"
                     >
@@ -1005,7 +1014,9 @@ const en = () => {
                     .
                 </p>
                 <p>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://responsiblesourcingtool.org/"
                         title="ResponsibleSourcingTool.org"
                     >
@@ -1013,18 +1024,27 @@ const en = () => {
                     </a>{" "}
                     was created through a collaboration between the U.S.
                     Department of State,{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/" title="Verit&eacute;">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.verite.org/"
+                        title="Verit&eacute;"
+                    >
                         Verit&eacute;
                     </a>
                     ,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://madeinafreeworld.com/"
                         title="Made in a Free World"
                     >
                         Made in a Free World
                     </a>
                     , and the{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.aspeninstitute.org/"
                         title="Aspen Institute"
                     >
@@ -1042,7 +1062,7 @@ const en = () => {
                     NGO leaders, and acquisitions personnel and federal
                     contracting officers.
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Good audit tools are more than &ldquo;checklists.&rdquo; Good
                 tools allow for recording information that auditors gain
@@ -1061,7 +1081,9 @@ const en = () => {
                 suppliers to perform self-assessments to highlight potential
                 risks of forced labor and human trafficking in the supply chain.
                 The Responsible Sourcing Tool&rsquo;s{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://responsiblesourcingtool.org/supplierselfassessment"
                     title="Sample Supplier/Subcontractor Self-Assessment Tool"
                 >
@@ -1081,7 +1103,9 @@ const en = () => {
                 an independent third party to authenticate the scope and
                 effectiveness of the organization&rsquo;s anti-human trafficking
                 efforts is Verit&eacute;&rsquo;s{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://responsiblesourcingtool.org/download/reports/Verite_BusinessAuthenticationCriteria_r1.pdf"
                     title="Anti-Human Trafficking Business Authentication Criteria"
                 >

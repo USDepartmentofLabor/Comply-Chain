@@ -1,5 +1,6 @@
 import React from "react";
 import goodweave from "../../../../../images/goodweave.jpg";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -32,11 +33,20 @@ const es = () => {
                 &ldquo;Comercio Justo&rdquo;. Para m&aacute;s
                 informaci&oacute;n, v&eacute;anse los compendios de instrumentos
                 de{" "}
-                <a target="_blank" rel="noopener noreferrer" href="http://www.fairtrade.net/child-labour.html">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.fairtrade.net/child-labour.html"
+                >
                     Fairtrade International
                 </a>{" "}
                 y{" "}
-                <a target="_blank" rel="noopener noreferrer" href="http://www.fairtradeusa.org/" title="Fair Trade USA">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.fairtradeusa.org/"
+                    title="Fair Trade USA"
+                >
                     Fair Trade USA
                 </a>
                 .
@@ -44,7 +54,12 @@ const es = () => {
             <p>
                 Algunos programas de certificaci&oacute;n procuran cumplir las
                 normas de la{" "}
-                <a target="_blank" rel="noopener noreferrer" href="http://www.isealalliance.org/" title="Alianza ISEAL">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.isealalliance.org/"
+                    title="Alianza ISEAL"
+                >
                     Alianza ISEAL
                 </a>
                 , asociaci&oacute;n de organizaciones que formula pautas sobre
@@ -66,7 +81,7 @@ const es = () => {
                 los programas espec&iacute;ficos para evaluar la perspectiva que
                 adoptar&aacute;n las diversas partes interesadas.&nbsp;
             </p>
-            <div className="example-in-action" id="clt">
+            <ExampleInAction id="clt">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n: GoodWeave</strong>
@@ -74,7 +89,12 @@ const es = () => {
 
                 <p>
                     Desde hace m&aacute;s de 20 a&ntilde;os,{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://goodweave.org/" title="GoodWeave">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://goodweave.org/"
+                        title="GoodWeave"
+                    >
                         GoodWeave
                     </a>{" "}
                     trabaja para transformar la industria de las alfombras ya
@@ -113,7 +133,9 @@ const es = () => {
                 </p>
                 <p>
                     Informaci&oacute;n adicional sobre el{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/projects/summaries/Afghanistan_Carpets.pdf"
                         title="Proyecto para prevenir el trabajo infantil en la fabricaci&oacute;n casera de tapetes en Afganist&aacute;n"
                     >
@@ -130,7 +152,7 @@ const es = () => {
                 <p className="small-text">
                     &copy; Lorenzo Tugnoli, gentileza de GoodWeave International
                 </p>
-            </div>
+            </ExampleInAction>
 
             <p>
                 <em>

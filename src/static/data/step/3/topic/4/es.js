@@ -1,5 +1,6 @@
 import React from "react";
 import ilo from "../../images/ilo.jpg";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -37,7 +38,7 @@ const es = () => {
                 disposiciones sobre el tema en el c&oacute;digo de
                 conducta.&nbsp;
             </p>
-            <div className="example-in-action" id="patagonia">
+            <ExampleInAction id="patagonia">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Ejemplo en acci&oacute;n: normas sobre los trabajadores
@@ -69,7 +70,9 @@ const es = () => {
                     como el alojamiento, las condiciones de trabajo, el salario
                     y los procedimientos de presentaci&oacute;n de
                     reclamaciones. Las{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.patagonia.com/static/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw604fc14d/PDF-US/Migrant_Worker_Employment_Standards.pdf"
                         title="Normas de empleo de trabajadores migrantes"
                     >
@@ -81,7 +84,9 @@ const es = () => {
                 <p>
                     Para obtener m&aacute;s informaci&oacute;n, v&eacute;ase el
                     art&iacute;culo (en ingl&eacute;s) Patagonia:{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.patagonia.com/blog/2015/06/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/"
                         title="<i>T</i><i>he Unacceptably High Cost of Labor- How a deeper dive into our supply chain led to a new Migrant Worker Standard</i>."
                     >
@@ -95,11 +100,13 @@ const es = () => {
                     </a>
                     <em>.</em>
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Un documento de pol&iacute;tica importante que se centra en los
                 trabajadores migrantes vulnerables es el titulado
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf"
                     title="<i>Dhaka Principles for Migration with Dignity</i>"
                 >
@@ -113,7 +120,9 @@ const es = () => {
                 los reclutadores de trabajadores migrantes a fin de garantizar
                 una migraci&oacute;n con dignidad. Los Principios de Dhaka
                 fueron formulados por el{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.ihrb.org/"
                     title="Institute for Human Rights and Business"
                 >
@@ -122,7 +131,9 @@ const es = () => {
                 y cuentan con el apoyo de empresas, gobiernos, sindicatos y la
                 sociedad civil. Se basan en las normas internacionales de
                 derechos humanos y en los tres pilares de los{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="<i>Principios Rectores sobre empresas y derechos humanos</i>"
                 >
@@ -133,7 +144,7 @@ const es = () => {
             </p>
             <img src={ilo} alt="Obrero subido a un andamio" />
             <p className="small-text">&copy;M. Crozet/OIT</p>
-            <div className="example-in-action" id="leadership">
+            <ExampleInAction id="leadership">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -143,7 +154,9 @@ const es = () => {
                 </h2>
                 <p>
                     Lanzado en mayo de 2016, el{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment"
                         title="Leadership Group for Responsible Recruitment"
                     >
@@ -163,7 +176,9 @@ const es = () => {
                 </p>
                 <p>
                     Convocado por la organizaci&oacute;n no gubernamental{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.ihrb.org/"
                         title="Institute for Human Rights and Business"
                     >
@@ -186,7 +201,9 @@ const es = () => {
                     Leadership Group y los instrumentos de reclutamiento
                     &eacute;tico, consultar el portal sobre reclutamiento
                     responsable{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.ihrb.org/employerpays/"
                         title="Responsible Recruitment Gateway"
                     >
@@ -194,7 +211,7 @@ const es = () => {
                     </a>
                     .
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 En algunos casos, los empleadores brindan alojamiento a los
                 trabajadores migrantes como parte de las condiciones de empleo.

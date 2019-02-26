@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import manBamboo from "../../images/man_bamboo.jpg";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -60,7 +61,7 @@ const es = () => {
                 empresa puede brindar la oportunidad de que algunos grupos
                 mencionen los problemas.
             </p>
-            <div className="example-in-action" id="fla">
+            <ExampleInAction id="fla">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -72,7 +73,9 @@ const es = () => {
                 <p>
                     La Junta Directiva de la FLA acredita tanto a organismos de
                     vigilancia como a auditores independientes para su{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fairlabor.org/independent-external-monitoring-reports"
                         title="programa de vigilancia independiente externa"
                     >
@@ -82,7 +85,9 @@ const es = () => {
                     renovable por otros dos a&ntilde;os. Los aspirantes pueden
                     postularse para acreditarse para un pa&iacute;s o m&aacute;s
                     y para todas o algunas de las disposiciones del{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fairlabor.org/our-work/code-of-conduct"
                         title="C&oacute;digo de conducta de la FLA"
                     >
@@ -103,8 +108,8 @@ const es = () => {
                     los &aacute;mbitos esbozados en el c&oacute;digo de conducta
                     de la FLA.
                 </p>
-            </div>
-            <div className="example-in-action" id="bonsucro">
+            </ExampleInAction>
+            <ExampleInAction id="bonsucro">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -113,7 +118,12 @@ const es = () => {
                     </strong>
                 </h2>
                 <p>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.bonsucro.com/en/" title="Bonsucro">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.bonsucro.com/en/"
+                        title="Bonsucro"
+                    >
                         Bonsucro
                     </a>{" "}
                     es una red mundial conformada por agricultores,
@@ -161,8 +171,8 @@ const es = () => {
                 <p className="small-text">
                     &copy; Florian Kopp/Foto de archivo de Alamy
                 </p>
-            </div>
-            <div className="example-in-action" id="sai_model">
+            </ExampleInAction>
+            <ExampleInAction id="sai_model">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -174,14 +184,20 @@ const es = () => {
                     A fin de garantizar la independencia de las
                     auditor&iacute;as realizadas de conformidad con la norma de
                     rendici&oacute;n de cuentas social 8000 (SA8000), en 1997,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.sa-intl.org/"
                         title="Social Accountability International (SAI)"
                     >
                         Social Accountability International (SAI)
                     </a>{" "}
                     fund&oacute; la entidad{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="http://www.saasaccreditation.org/">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.saasaccreditation.org/"
+                    >
                         Social Accountability Accreditation Services
                     </a>{" "}
                     (Servicios de Acreditaci&oacute;n de Responsabilidad Social
@@ -191,7 +207,7 @@ const es = () => {
                     de cumplimiento de las normas sociales, incluida la SA8000,
                     para lograr condiciones laborales &eacute;ticas.
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -19,7 +20,7 @@ const es = () => {
                 tratamiento (los beneficiarios del programa o servicio) con un
                 grupo id&eacute;ntico que no recibe el programa o servicio.
             </p>
-            <div className="example-in-action" id="bwi_eval">
+            <ExampleInAction id="bwi_eval">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -66,7 +67,7 @@ const es = () => {
                     laborales en las cadenas de suministro, ninguno de estos
                     m&eacute;todos garantiza la ausencia de estos abusos.
                 </p>
-            </div>
+            </ExampleInAction>
 
             <p>
                 <em>

@@ -1,5 +1,6 @@
 import React from "react";
 import usDol from "../../images/usdol.jpg";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -31,7 +32,7 @@ const fr = () => {
                 r&eacute;p&eacute;t&eacute;s &agrave; intervalles
                 p&eacute;riodiques, selon les conclusions de l&apos;audit.
             </p>
-            <div className="example-in-action" id="prereg">
+            <ExampleInAction id="prereg">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Exemple d&apos;action&nbsp;: Processus de
@@ -66,7 +67,9 @@ const fr = () => {
                     &agrave; terme pour r&eacute;parer les violations avant le
                     d&eacute;but de la production. Pour plus
                     d&apos;informations, voir la{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://corporate.target.com/corporate-responsibility/responsible-sourcing/social-compliance/labor-and-human-rights"
                         title="Page Web de Target sur les normes d&rsquo;engagement des vendeurs"
                     >
@@ -75,7 +78,7 @@ const fr = () => {
                     </a>{" "}
                     [en anglais].
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Les entreprises dot&eacute;es de grandes cha&icirc;nes
                 d&apos;approvisionnement et/ou de fournisseurs

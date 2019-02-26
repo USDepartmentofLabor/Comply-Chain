@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -51,7 +52,9 @@ const es = () => {
             </div>
             <p>
                 La publicaci&oacute;n{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://impacttlimited.com/wp-content/uploads/2017/01/Impactt_CLOPIndustrialcontexts_REVISION_26112008.pdf"
                     title="<i>Operational Procedures for Remediation of Child Labour in Industrial Contexts</i>"
                 >
@@ -744,7 +747,7 @@ const es = () => {
                     </tr>
                 </tbody>
             </table>
-            <div className="example-in-action" id="better_work">
+            <ExampleInAction id="better_work">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -753,7 +756,12 @@ const es = () => {
                             proceso de remediaci&oacute;n del programa{" "}
                         </strong>
                     </strong>
-                    <a target="_blank" rel="noopener noreferrer" href="https://betterwork.org/" title="Better Work">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://betterwork.org/"
+                        title="Better Work"
+                    >
                         <strong>Better Work</strong>
                     </a>
                 </h2>
@@ -783,7 +791,7 @@ const es = () => {
                     realizar auditor&iacute;as de seguimiento a fin de evaluar
                     los logros alcanzados con el plan de remediaci&oacute;n.
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

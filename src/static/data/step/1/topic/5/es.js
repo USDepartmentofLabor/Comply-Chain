@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -10,7 +11,7 @@ const es = () => {
                 industria e iniciativas espec&iacute;ficas de la misma. A
                 continuaci&oacute;n se describen algunos ejemplos.
             </p>
-            <div className="example-in-action" id="sug_phil">
+            <ExampleInAction id="sug_phil">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -21,7 +22,9 @@ const es = () => {
                 </h2>
                 <p>
                     Lanzada en 2002, la{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.eclt.org/"
                         title="Fundaci&oacute;n ECLT"
                     >
@@ -38,7 +41,9 @@ const es = () => {
                     p&uacute;blico y otras partes interesadas que tratan el tema
                     del trabajo infantil en el cultivo de tabaco. Como miembro
                     del Pacto Mundial de las Naciones Unidas y de la{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/ipec/Action/CSR/clp/lang--en/index.htm"
                         title="Plataforma sobre el trabajo infantil de la OIT"
                     >
@@ -52,39 +57,53 @@ const es = () => {
                     interesados de los sectores p&uacute;blico y privado en
                     pa&iacute;ses donde el trabajo infantil en la
                     producci&oacute;n de tabaco es generalizado, como{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-guatemala#introduction"
                         title="Guatemala"
                     >
                         Guatemala
                     </a>
                     ,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-kyrgyzstan#introduction"
                         title="Kirguist&aacute;n"
                     >
                         Kirguist&aacute;n
                     </a>
                     ,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-malawi#introduction"
                         title="Malawi"
                     >
                         Malawi
                     </a>
                     ,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-mozambique#introduction"
                         title="Mozambique"
                     >
                         Mozambique
                     </a>
                     ,{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.eclt.org/impact/projects/eclt-in-tanzania#introduction">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.eclt.org/impact/projects/eclt-in-tanzania#introduction"
+                    >
                         Tanzania
                     </a>{" "}
                     y{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-uganda#introduction"
                         title="Uganda"
                     >
@@ -95,7 +114,9 @@ const es = () => {
                     infantil, brindarles estudios, concientizar, fortalecer a
                     las comunidades y mitigar la pobreza. En 2015, ECLT
                     concret&oacute; una{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.eclt.org/en/news-and-insights/the-ilo-eclt-public-private-partnership-2015-2018-global-guidance-on-hazardous-child-labour-in-tobacco-growing"
                         title="Alianza p&uacute;blico-privada de 3 a&ntilde;os con la OIT"
                     >
@@ -105,8 +126,8 @@ const es = () => {
                     a fin de formular directrices mundiales sobre los peligros
                     que conlleva el trabajo infantil en el cultivo de tabaco.{" "}
                 </p>
-            </div>
-            <div className="example-in-action" id="clt">
+            </ExampleInAction>
+            <ExampleInAction id="clt">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -116,7 +137,9 @@ const es = () => {
                 </h2>
                 <p>
                     La{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/ipec/Action/CSR/clp/lang--en/index.htm"
                         title="Plataforma sobre el trabajo infantil"
                     >
@@ -138,14 +161,18 @@ const es = () => {
                     operaciones. Desde 2012, la Plataforma funciona como parte
                     del Grupo de Trabajo sobre derechos humanos y asuntos
                     laborales del Pacto Mundial de las Naciones Unidas, con la{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ioe-emp.org/"
                         title="Organizaci&oacute;n Internacional de Empleadores (OIE)"
                     >
                         Organizaci&oacute;n Internacional de Empleadores (OIE)
                     </a>{" "}
                     y la{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.ituc-csi.org/"
                         title="Confederaci&oacute;n Sindical Internacional (CSI)"
                     >
@@ -155,7 +182,9 @@ const es = () => {
                     incluidas las empresas de los sectores de bebidas y
                     alimentos, indumentaria y miner&iacute;a, contribuyeron a
                     elaborar una{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/ipecinfo/product/download.do?type=document&amp;id=27555"
                         title="Herramienta de orientaci&oacute;n sobre el trabajo infantil destinada a las empresas"
                     >
@@ -165,7 +194,9 @@ const es = () => {
                     , redactada por la OIT y la OIE, que funge de recurso para
                     las empresas que deseen acatar los requisitos de la debida
                     diligencia plasmados en los{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                         title="Principios Rectores sobre las Empresas y los Derechos Humanos de las Naciones Unidas"
                     >
@@ -176,8 +207,8 @@ const es = () => {
                     recibe con brazos abiertos a nuevas empresas y
                     organizaciones pertinentes.
                 </p>
-            </div>
-            <div className="example-in-action" id="gbn">
+            </ExampleInAction>
+            <ExampleInAction id="gbn">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -205,14 +236,21 @@ const es = () => {
                     la Plataforma sobre el trabajo infantil a fin de garantizar
                     el pleno apoyo y la participaci&oacute;n de la comunidad
                     empresarial con miras a alcanzar los{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://sustainabledevelopment.un.org/?menu=1300"
                         title="Objetivos de Desarrollo Sostenible"
                     >
                         Objetivos de Desarrollo Sostenible
                     </a>{" "}
                     que ata&ntilde;en a la{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="http://www.alliance87.org/" title="Alianza 8.7">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.alliance87.org/"
+                        title="Alianza 8.7"
+                    >
                         Alianza 8.7
                     </a>{" "}
                     de la OIT, iniciativa mundial que aspira a poner fin al
@@ -220,7 +258,7 @@ const es = () => {
                     contempor&aacute;neas de esclavitud y la trata de seres
                     humanos.
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

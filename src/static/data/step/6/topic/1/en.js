@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -88,8 +89,8 @@ const en = () => {
             <p>
                 No child under age 18 should be involved in the Worst Forms of
                 Child Labor specified in ILO Convention 182 (see
-                <Link to="/steps/3">Step 3, Develop a Code of Conduct</Link>). If
-                children are found in such situations, the best approaches
+                <Link to="/steps/3">Step 3, Develop a Code of Conduct</Link>).
+                If children are found in such situations, the best approaches
                 include:
             </p>
             <ul>
@@ -127,7 +128,7 @@ const en = () => {
                 educational institutions. Options for action in such cases are
                 discussed in <em>Addressing Root Causes</em>.
             </p>
-            <div className="example-in-action" id="turkey">
+            <ExampleInAction id="turkey">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -164,7 +165,9 @@ const en = () => {
                     FLA a grant to pilot-test a comprehensive, sustainable
                     program that implements all elements of the U.S. Department
                     of Agriculture (USDA) &ldquo;
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/issues/child-labor/fcea.htm"
                         title="Guidelines for Eliminating Child and Forced Labor in Agricultural Supply Chains"
                     >
@@ -178,7 +181,7 @@ const en = () => {
                     recommendations for other companies seeking to establish
                     programs based on these Guidelines.
                 </p>
-            </div>
+            </ExampleInAction>
             <br />
             <h2>Forced Labor/Trafficking in Persons</h2>
             <p>
@@ -206,7 +209,9 @@ const en = () => {
             </p>
             <p>
                 Pursuant to its{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.unodc.org/unodc/en/frontpage/2010/September/un-launches-global-plan-of-action-against-human-trafficking.html"
                     title="Global Plan of Action on Trafficking in Persons"
                 >
@@ -219,7 +224,9 @@ const en = () => {
             </p>
             <ul>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.unodc.org/documents/human-trafficking/TIP_1st_AidKit_English_V0981429.pdf"
                         title="First Aid Kit for Use by Law Enforcement Responders in Addressing Human Trafficking"
                     >
@@ -228,7 +235,9 @@ const en = () => {
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://humantraffickinghotline.org/resources/victim-translation-assistance-tool-life-support-messages-victims-human-trafficking"
                         title="Victim Translation Assistance Tool: Life Support Messages for Victims of Human Trafficking"
                     >

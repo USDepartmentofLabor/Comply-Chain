@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import manBamboo from "../../images/man_bamboo.jpg";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -49,7 +50,7 @@ const en = () => {
                 can provide such groups the opportunity to bring issues to a
                 company&rsquo;s attention.
             </p>
-            <div className="example-in-action" id="fla">
+            <ExampleInAction id="fla">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -61,7 +62,9 @@ const en = () => {
                 <p>
                     The FLA Board of Directors accredits both monitoring
                     organizations and individual lead auditors for its{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fairlabor.org/independent-external-monitoring-reports"
                         title="Independent External Monitoring program"
                     >
@@ -71,7 +74,9 @@ const en = () => {
                     successive two-year periods. Prospective monitors may apply
                     for accreditation for one or more countries, and for all or
                     some provisions of the{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fairlabor.org/our-work/code-of-conduct"
                         title="FLA Code of Conduct"
                     >
@@ -88,8 +93,8 @@ const en = () => {
                     rigor and thoroughness in assessing compliance for all areas
                     outlined in the FLA&rsquo;s Workplace Code of Conduct.
                 </p>
-            </div>
-            <div className="example-in-action" id="bonsucro">
+            </ExampleInAction>
+            <ExampleInAction id="bonsucro">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -98,7 +103,12 @@ const en = () => {
                     </strong>
                 </h2>
                 <p>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.bonsucro.com/en/" title="Bonsucro">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.bonsucro.com/en/"
+                        title="Bonsucro"
+                    >
                         Bonsucro
                     </a>{" "}
                     is a global network of sugarcane farmers, traders, civil
@@ -138,8 +148,8 @@ const en = () => {
                 <p className="small-text">
                     &copy; Florian Kopp/Alamy Stock Photo
                 </p>
-            </div>
-            <div className="example-in-action" id="sai_model">
+            </ExampleInAction>
+            <ExampleInAction id="sai_model">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -150,14 +160,20 @@ const en = () => {
                 <p>
                     To ensure the independence of audits conducted against its
                     Social Accountability 8000 (SA8000) Standard,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.sa-intl.org/"
                         title="Social Accountability International (SAI)"
                     >
                         Social Accountability International (SAI)
                     </a>{" "}
                     founded{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="http://www.saasaccreditation.org/">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.saasaccreditation.org/"
+                    >
                         Social Accountability Accreditation Services (SAAS)
                     </a>{" "}
                     in 1997. SAAS later became a separate not-for-profit
@@ -166,7 +182,7 @@ const en = () => {
                     social standards, including SA8000, for ethical working
                     conditions.
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

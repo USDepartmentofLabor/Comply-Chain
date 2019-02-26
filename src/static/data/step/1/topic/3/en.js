@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -348,7 +349,7 @@ const en = () => {
                     <strong> root causes</strong> of child and forced labor.
                 </p>
             </div>
-            <div className="example-in-action" id="engagement_gov_brazil">
+            <ExampleInAction id="engagement_gov_brazil">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -397,7 +398,9 @@ const en = () => {
                 </p>
                 <p>
                     For more information, visit InPACTO&rsquo;s{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.inpacto.org.br/en/"
                         title="InPACTO&rsquo;s website"
                     >
@@ -405,7 +408,7 @@ const en = () => {
                     </a>
                     .
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Once you have identified your stakeholders and understand the
                 potential roles they can play in your social compliance system,

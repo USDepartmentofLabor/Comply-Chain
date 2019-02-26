@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -12,7 +13,9 @@ const fr = () => {
                 o&ugrave; la production est fortement &eacute;parpill&eacute;e
                 et informelle, certaines entreprises ont adopt&eacute; des
                 approches de{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/ipec/Action/Childlabourmonitoring/lang--en/index.htm"
                     title="surveillance communautaire du travail des enfants"
                 >
@@ -22,7 +25,7 @@ const fr = () => {
                 &eacute;t&eacute; mise &agrave; l&apos;essai en particulier dans
                 les petites exploitations agricoles.
             </p>
-            <div className="example-in-action" id="cambodia">
+            <ExampleInAction id="cambodia">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -39,7 +42,12 @@ const fr = () => {
                     De&nbsp;2012 &agrave;&nbsp;2016, le d&eacute;partement du
                     Travail des &Eacute;tats-Unis a financ&eacute; un projet,
                     mis en &oelig;uvre par{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.worldvision.org/" title="World Vision">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.worldvision.org/"
+                        title="World Vision"
+                    >
                         World Vision
                     </a>{" "}
                     avec le concours d&rsquo;organisations partenaires locales
@@ -49,7 +57,9 @@ const fr = () => {
                     les mesures communautaires visant &agrave; pr&eacute;venir
                     et &agrave; &eacute;liminer le travail des enfants, le
                     projet{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/projects/summaries/Cambodia_EXCEL.pdf"
                         title="Cambodians EXCEL"
                     >
@@ -78,7 +88,9 @@ const fr = () => {
                 <p>
                     Pour plus d&rsquo;informations sur le projet Cambodians
                     EXCEL, voir Management Systems International,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/projects/summaries/Cambodia_EXCEL_feval.pdf"
                         title="Independent Final Evaluation Cambodians EXCEL Project"
                     >
@@ -89,7 +101,7 @@ const fr = () => {
                     </a>
                     <em>, 2016</em> [en anglais].
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Un syst&egrave;me de surveillance du travail des enfants
                 repr&eacute;sente une approche qui demande du temps et des

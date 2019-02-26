@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -375,7 +376,7 @@ const es = () => {
                     <br />
                 </li>
             </ul>
-            <div className="example-in-action" id="leber">
+            <ExampleInAction id="leber">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n</strong>: Leber Jeweler*:
@@ -388,7 +389,9 @@ const es = () => {
                     que, como bien se sabe, comete abusos contra los derechos
                     humanos de su pueblo y a&uacute;n se enfrenta a enormes
                     desaf&iacute;os de gobernabilidad y derechos humanos.{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.leberjeweler.com/about/burma.php3/?lang=en"
                         title="Leber Jeweler Inc."
                     >
@@ -397,7 +400,9 @@ const es = () => {
                     , empresa familiar con sede en Chicago, no adquiere ninguna
                     piedra preciosa proveniente de Birmania. En 2004, la empresa
                     fund&oacute; el{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.leberjeweler.com/about/burma.php3"
                         title="Proyecto de Jeweler para Asistir a Birmania"
                     >
@@ -411,7 +416,9 @@ const es = () => {
                     &eacute;tnicos y religiones. El proyecto form&oacute; parte
                     tambi&eacute;n de una iniciativa de cabildeo que
                     llev&oacute; al Congreso de los EE.UU. a sancionar la{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.treasury.gov/resource-center/sanctions/Documents/pl110_286_jade_act.pdf"
                         title="Ley JADE birmana del bloque de Tom Lantos de 2008"
                     >
@@ -420,7 +427,7 @@ const es = () => {
                     , por la que se proh&iacute;be la importaci&oacute;n de
                     todos los rub&iacute;es y jades birmanos a los EE.UU.
                 </p>
-            </div>
+            </ExampleInAction>
             <ul>
                 <li>
                     <h3>
@@ -463,7 +470,9 @@ const es = () => {
                 </p>
                 <p>
                     Fuente: Organizaci&oacute;n Internacional del Trabajo,&nbsp;
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.refworld.org/docid/40360bf34.html"
                         title="<i>Trafficking in Human Beings:</i><i> </i><i>New Approaches to Combating the Problem</i>"
                     >
@@ -513,7 +522,7 @@ const es = () => {
                     acceder a mejores puestos de trabajo.
                 </li>
             </ul>
-            <div className="example-in-action" id="Isidro">
+            <ExampleInAction id="Isidro">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -543,7 +552,9 @@ const es = () => {
                     condiciones de trabajo a fin de contribuir a erradicar la
                     pobreza. Gracias a su labor, en 2013 el Departamento de
                     Trabajo le entreg&oacute; el{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/agencies/ilab/issues/child-labor/iqbal"
                         title="Premio Iqbal Masih"
                     >
@@ -554,7 +565,9 @@ const es = () => {
                     explotaci&oacute;n en el plano internacional. Para obtener
                     m&aacute;s informaci&oacute;n sobre este trabajo y sobre el
                     premio Iqbal Masih, consultar{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.dol.gov/ilab"
                         title="http://www.dol.gov/ilab"
                     >
@@ -562,7 +575,7 @@ const es = () => {
                     </a>
                     .
                 </p>
-            </div>
+            </ExampleInAction>
             <ul>
                 <li>
                     <h3>Programas de sustento</h3>Los programas de sustento
@@ -595,7 +608,7 @@ const es = () => {
                     <br />
                 </li>
             </ul>
-            <div className="example-in-action" id="lco">
+            <ExampleInAction id="lco">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n</strong>: League Collegiate
@@ -606,7 +619,9 @@ const es = () => {
                     trayectoria de conflictos civiles e inestabilidad, presenta
                     un entorno operativo incierto. Pero la filial de El Salvador
                     de la League Collegiate Outfitter,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.league91.com/league-central-america-making-difference-el-salvador/"
                         title="League Central America"
                     >
@@ -632,7 +647,7 @@ const es = () => {
                     que reduce la rotaci&oacute;n de personal y mejora la
                     eficiencia de la producci&oacute;n en la f&aacute;brica.
                 </p>
-            </div>
+            </ExampleInAction>
             <ul>
                 <li>
                     <h3>Programas de empoderamiento de la mujer</h3>Si una
@@ -648,7 +663,7 @@ const es = () => {
                     <br />
                 </li>
             </ul>
-            <div className="example-in-action" id="gap">
+            <ExampleInAction id="gap">
                 <h4>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n</strong>: programa P.A.C.E.
@@ -660,7 +675,9 @@ const es = () => {
                     sus hom&oacute;logos hombres y rara vez logran ascender en
                     las f&aacute;bricas. Tras reconocer este problema, en 2007
                     Gap Inc. lanz&oacute; el{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.bewhatspossible.com/pace"
                         title="Programa P.A.C.E. (Personal Advancement and Career Enhancement)"
                     >
@@ -685,7 +702,7 @@ const es = () => {
                     as&iacute; como para llegar a sus hijas mediante programas
                     dirigidos a adolescentes de 13 a 17 a&ntilde;os.{" "}
                 </p>
-            </div>
+            </ExampleInAction>
             <ul>
                 <li>
                     <h3>Programas de salud</h3>Las empresas pueden
@@ -787,7 +804,9 @@ const es = () => {
                     </i>
                     . [en la web, consultado el 8 de mayo de 2017]; disponible
                     en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://next.bncollege.com/league-collegiate-outfitters/"
                         title="Barnes &amp; Noble College. <i>League Collegiate Outfitters Creates Hope and Second Chances in El Salvador</i>./"
                     >
@@ -801,7 +820,9 @@ const es = () => {
                         <i>Business, Conflict &amp; Peace Portal.</i>{" "}
                     </em>
                     Disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.business-humanrights.org/ConflictPeacePortal/Home"
                         title="<i>Business, Conflict &amp; Peace Portal.</i>"
                     >
@@ -819,7 +840,9 @@ const es = () => {
                     </em>
                     . Banco Mundial, Washington, DC , 26 de agosto de 2008;
                     disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://siteresources.worldbank.org/JAPANINJAPANESEEXT/Resources/515497-1201490097949/080827_The_Developing_World_is_Poorer_than_we_Thought.pdf"
                         title="<i>The developing world is poorer than we thought, but no less successful in the fight against poverty</i>."
                     >
@@ -831,7 +854,9 @@ const es = () => {
                     Iniciativa de Comercio &Eacute;tico.{" "}
                     <em>Base Code Guidance: Living Wages</em>; disponible en
                     idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf"
                         title="<i>Base Code Guidance: Living Wages;</i>"
                     >
@@ -847,7 +872,9 @@ const es = () => {
                     </em>
                     [en la web, consultado el 15 de mayo de 2017]; disponible en
                     idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fairlabor.org/report-type/fair-compensation"
                         title="<i>Fair Compensation</i>"
                     >
@@ -863,7 +890,9 @@ const es = () => {
                     </em>
                     27 de febrero de 2017; disponible en idioma ingl&eacute;s
                     solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges"
                         title="<i>Fair Compensation for Farmworkers:</i> <i>Emerging Good Practices and Challenges</i>;"
                     >
@@ -879,7 +908,9 @@ const es = () => {
                     </em>
                     3 de agosto de 2016; disponible en idioma ingl&eacute;s
                     solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries"
                         title="<i>Toward Fair Compensation in Global Supply Chains:</i> <i>Factory Pay Assessments in 21 Countries</i>;"
                     >
@@ -891,7 +922,9 @@ const es = () => {
                     OIT (2016) <em>Informe mundial sobre salarios</em>{" "}
                     2016/2017:<em> </em>
                     <em>Desigualdades salariales en el lugar de trabajo</em>.
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_541632.pdf"
                         title="<i>Informe mundial sobre salarios 2016/2017</i><i><i>:</i></i><i><i> </i></i><i>Desigualdades salariales en el lugar de trabajo</i>"
                     >
@@ -903,7 +936,9 @@ const es = () => {
                     Organizaci&oacute;n Internacional del Trabajo.{" "}
                     <em>Responsabilidad social empresarial (RSE)</em>{" "}
                     [p&aacute;gina web], disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/ipec/Action/CSR/lang--en/index.htm"
                         title="Responsabilidad social empresarial (RSE)"
                     >
@@ -918,7 +953,9 @@ const es = () => {
                         Challenges, Shaping Prospects
                     </em>
                     ; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/global/publications/books/WCMS_534326/lang--en/index.htm"
                         title="<i>Non-Standard Employment Around the World - Understanding Challenges, Shaping Prospects</i>"
                     >
@@ -933,7 +970,9 @@ const es = () => {
                         gu&iacute;a de recursos sobre pol&iacute;ticas, apoyando
                         la transici&oacute;n hacia la formalidad
                     </i>{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/emppolicy/pubs/WCMS_212688/lang--en/index.htm"
                         title="<i>La econom&iacute;a informal y el trabajo decente: una gu&iacute;a de recursos sobre pol&iacute;ticas, apoyando la transici&oacute;n hacia la formalidad</i> "
                     >
@@ -949,7 +988,9 @@ const es = () => {
                     </i>
                     . Informe completo disponible en idioma ingl&eacute;s
                     solamente en:{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/global/research/global-reports/weso/2015-changing-nature-of-jobs/WCMS_368626/lang--en/index.htm"
                         title="<i>Perspectivas sociales y del empleo en el mundo 2015</i><i> - El empleo en plena mutaci&oacute;n.</i>"
                     >
@@ -970,7 +1011,9 @@ const es = () => {
                     </em>
                     . Informe completo disponible en idioma ingl&eacute;s
                     solamente en:{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--en/index.htm"
                         title="<i>Informe Mundial sobre la Protecci&oacute;n Social:</i> <i>Construir la recuperaci&oacute;n econ&oacute;mica, el desarrollo inclusivo y la justicia social</i>."
                     >
@@ -985,7 +1028,9 @@ const es = () => {
                     </em>{" "}
                     [en la web, consultado el 15 de mayo de 2017]; disponible en
                     idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition"
                         title="&gt;Global Living Wage Coalition"
                     >
@@ -1004,7 +1049,9 @@ const es = () => {
                     </em>{" "}
                     21 de septiembre de 2015 disponible en idioma ingl&eacute;s
                     solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0."
                         title="<i>At Salvadoran Factory, Helping Troubled Youth Makes Business Sense</i>"
                     >
@@ -1035,7 +1082,9 @@ const es = () => {
                     </em>
                     Oxfam International, 29 de septiembre de 2015; disponible en
                     idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815"
                         title="<i>In Work but Trapped in Poverty:</i><i> </i><i>A Summary of Five Studies Conducted by Oxfam, with Updates on Progress Along the Road to a Living Wage</i>;"
                     >
@@ -1048,7 +1097,9 @@ const es = () => {
                     <i>Indicadores del desarrollo mundial 2017.</i> Washington,
                     DC, abril de 2017; disponible en idioma ingl&eacute;s
                     solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://data.worldbank.org/data-catalog/world-development-indicators"
                         title="Banco Mundial.  Indicadores del desarrollo mundial 2017."
                     >
@@ -1061,7 +1112,9 @@ const es = () => {
                     <i> </i>
                     <i>Opening Markets to the Poor.</i> Washington, DC, junio de
                     2008; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://siteresources.worldbank.org/CGCSRLP/Resources/DevelopmentOutreachBusinessandPovertyBrochure.pdf"
                         title="Instituto del Banco Mundial. <i>Business and Poverty:</i> <i>Opening Markets to the Poor</i>"
                     >
@@ -1074,7 +1127,9 @@ const es = () => {
                     <i>Estados fr&aacute;giles y afectados por conflictos.</i>
                     <i> </i>
                     <i>Panorama 2017.</i>{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.worldbank.org/en/topic/fragilityconflictviolence/overview"
                         title="http://www.bancomundial.org/es/topic/fragilityconflictviolence/overview"
                     >
@@ -1086,7 +1141,9 @@ const es = () => {
                     Internal Displacement Monitoring Centre.{" "}
                     <i>2016 Global Report on Internal Displacement</i>;
                     disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.internal-displacement.org/globalreport2016/"
                         title="http://www.internal-displacement.org/globalreport2016/"
                     >

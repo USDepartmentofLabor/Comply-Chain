@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -97,7 +98,9 @@ const en = () => {
                 audits effectively. In the past few years, several organizations
                 have made efforts to formalize and document the standard skills
                 and knowledge that an auditor should possess. For example, the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.theapsca.org/"
                     title="Association of Professional Social Compliance Auditors (APSCA)"
                 >
@@ -150,7 +153,7 @@ const en = () => {
                 patterns are identified. The team should collectively agree on
                 the final audit findings.
             </p>
-            <div className="example-in-action" id="better_work_assessment">
+            <ExampleInAction id="better_work_assessment">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Example in Action: Better Work Assessment Teams
@@ -159,7 +162,9 @@ const en = () => {
                     Better Work has several regulations in place for evaluation
                     teams, requiring two &ldquo;enterprise advisors&rdquo;
                     [auditors] to be present for each unannounced assessment.{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://betterwork.org/our-work/factory-services"
                         title="Better Work advisors"
                     >
@@ -172,7 +177,7 @@ const en = () => {
                     particular factory are never the same individuals providing
                     remediation and advisory services to that factory.
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

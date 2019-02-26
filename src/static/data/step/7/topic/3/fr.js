@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -23,7 +24,7 @@ const fr = () => {
                 &agrave; un groupe identique qui ne re&ccedil;oit pas le
                 programme ou le service.
             </p>
-            <div className="example-in-action" id="bwi_eval">
+            <ExampleInAction id="bwi_eval">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -79,7 +80,7 @@ const fr = () => {
                     cha&icirc;nes d&apos;approvisionnement, aucune de ces
                     m&eacute;thodes ne garantit l&apos;absence de ces abus.
                 </p>
-            </div>
+            </ExampleInAction>
 
             <p>
                 <em>

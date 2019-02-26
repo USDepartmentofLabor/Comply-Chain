@@ -1,5 +1,6 @@
 import React from "react";
 import leap from "../../../../../images/leap.png";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -12,7 +13,7 @@ const en = () => {
                 companies and other non-corporate experts, and providing a safe
                 space to engage collectively with different stakeholders.&nbsp;
             </p>
-            <div className="example-in-action" id="rsn">
+            <ExampleInAction id="rsn">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -21,7 +22,9 @@ const en = () => {
                 </h2>
                 <p>
                     The{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/"
                         title="Responsible Sourcing Network"
                     >
@@ -36,7 +39,9 @@ const en = () => {
                     organizations, to create positive change for brands,
                     consumers, and impacted communities. Currently, RSN is
                     working with partners to prevent and{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/minerals/"
                         title="eliminiate human rights abuses in the mining of conflict minerals from the Democratic Republic of the Congo"
                     >
@@ -44,7 +49,9 @@ const en = () => {
                         minerals from the Democratic Republic of the Congo
                     </a>{" "}
                     and in the{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/the-cotton-pledge"
                         title="production of cotton in Uzbekistan"
                     >
@@ -52,8 +59,8 @@ const en = () => {
                     </a>
                     .
                 </p>
-            </div>
-            <div className="example-in-action" id="res_min_trade">
+            </ExampleInAction>
+            <ExampleInAction id="res_min_trade">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -63,7 +70,9 @@ const en = () => {
                 </h2>
                 <p>
                     The{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.resolv.org/site-ppa/"
                         title="Public-Private Alliance for Responsible Minerals Trade"
                     >
@@ -95,8 +104,8 @@ const en = () => {
                     should have defined members with distinct roles and
                     responsibilities.
                 </p>
-            </div>
-            <div className="example-in-action" id="sug_phil">
+            </ExampleInAction>
+            <ExampleInAction id="sug_phil">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -118,14 +127,21 @@ const en = () => {
                     with the Government of the Philippines to take a more
                     deliberate approach to address children working in
                     sugarcane. The{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/agencies/ilab/our-work/projects/ABK3leap"
                         title="ABK3 LEAP project"
                     >
                         ABK3 LEAP project
                     </a>
                     , funded by ILAB and implemented by{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.worldvision.org/" title="World Vision">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.worldvision.org/"
+                        title="World Vision"
+                    >
                         World Vision
                     </a>
                     , worked to mobilize the private sector and foster
@@ -171,8 +187,8 @@ const en = () => {
                 <img src={leap} alt="Leap" />
 
                 <p className="small-text">&copy;Christopher Leones/ABK3 LEAP</p>
-            </div>
-            <div className="example-in-action">
+            </ExampleInAction>
+            <ExampleInAction>
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -205,7 +221,9 @@ const en = () => {
                     Musim Mas* (Singapore) have partnered with a set of global
                     brands that includes Danone*, Ferrero*, and
                     L&rsquo;Or&eacute;al* to form the{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://poig.org/"
                         title="Palm Oil Innovation Group"
                     >
@@ -231,7 +249,7 @@ const en = () => {
                     given that the global production of palm has doubled in the
                     past decade and is expected to continue to increase rapidly.
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

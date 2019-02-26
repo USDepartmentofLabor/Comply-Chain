@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -134,7 +135,9 @@ const fr = () => {
                 d&apos;officialiser et de documenter les connaissances et les
                 comp&eacute;tences standard que devrait poss&eacute;der un
                 auditeur. Ainsi, l&rsquo;
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.theapsca.org/"
                     title="Association des auditeurs professionnels de la conformit&eacute; sociale (APSCA)"
                 >
@@ -204,7 +207,7 @@ const fr = () => {
                 L&apos;&eacute;quipe devrait convenir collectivement des
                 r&eacute;sultats de l&apos;audit final.
             </p>
-            <div className="example-in-action" id="better_work_assessment">
+            <ExampleInAction id="better_work_assessment">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Exemple d&apos;action&nbsp;: &Eacute;quipes
@@ -216,7 +219,9 @@ const fr = () => {
                     pour chaque &eacute;valuation inopin&eacute;e, la
                     pr&eacute;sence de deux «&nbsp;conseillers
                     d&apos;entreprise&nbsp;» [auditeurs]. Les{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://betterwork.org/our-work/factory-services"
                         title="Conseillers Better Work"
                     >
@@ -232,7 +237,7 @@ const fr = () => {
                     jamais &eacute;galement responsables des services de
                     r&eacute;paration et consultatifs pour cette usine.
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

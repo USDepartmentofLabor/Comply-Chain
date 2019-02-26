@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import panos from "../../images/panos.jpg";
 import hrm from "../../images/hrm.jpg";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -16,14 +17,18 @@ const fr = () => {
                 l&apos;homme et des outils complets sont disponibles pour aider
                 les entreprises tout au long du processus. Ces outils sont
                 notamment l&rsquo;
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.ihrb.org/"
                     title="Institut pour les droits de l&rsquo;homme et les entreprises"
                 >
                     Institut pour les droits de l&rsquo;homme et les entreprises
                 </a>
                 , le{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://exim.hu/hasznos/dokumentum-tar/kornyezetvedelmi-politika-mind/1918-ifc-hiram-full-linked-4/file"
                     title="Guide pour l&rsquo;&eacute;valuation et la gestion des incidences en mati&egrave;re de droits de l&rsquo;homme"
                 >
@@ -31,14 +36,18 @@ const fr = () => {
                     incidences en mati&egrave;re de droits de l&rsquo;homme
                 </a>{" "}
                 [en anglais] de la{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ifc.org/wps/wcm/connect/corp_ext_content/ifc_external_corporate_site/home"
                     title="Soci&eacute;t&eacute; financi&egrave;re internationale"
                 >
                     Soci&eacute;t&eacute; financi&egrave;re internationale
                 </a>{" "}
                 et{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.bsr.org/reports/BSR_Human_Rights_Impact_Assessments.pdf"
                     title="Effectuer une &eacute;valuation efficace d&rsquo;incidence en mati&egrave;re de droits de l&rsquo;homme&nbsp;: directives, &eacute;tapes et exemple"
                 >
@@ -50,7 +59,9 @@ const fr = () => {
                     </em>
                 </a>{" "}
                 de{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.bsr.org/fr/"
                     title="Business for Social Responsibility"
                 >
@@ -66,7 +77,9 @@ const fr = () => {
                 que vous vendez et commercialisez pour identifier ceux qui ont
                 le plus de chances d&rsquo;&ecirc;tre produits par le travail
                 des enfants ou le travail forc&eacute;. La{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.dol.gov/ilab/reports/child-labor/list-of-goods/"
                     title="Liste des biens issus du travail des enfants ou du travail forc&eacute;"
                 >
@@ -80,7 +93,9 @@ const fr = () => {
                 l&rsquo;ILAB, qui est mise &agrave; jour
                 r&eacute;guli&egrave;rement, a &eacute;t&eacute; mandat&eacute;e
                 par la{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.state.gov/j/tip/laws/61106.htm"
                     title="Loi de r&eacute;autorisation de la protection des victimes de la traite de&nbsp;2005 (TVPRA)"
                 >
@@ -88,7 +103,9 @@ const fr = () => {
                     de la traite de&nbsp;2005 (TVPRA)
                 </a>
                 . La liste est disponible par le biais de l&rsquo;
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.dol.gov/general/apps/ilab"
                     title="Appli Sweat &amp; Toil"
                 >
@@ -96,7 +113,9 @@ const fr = () => {
                 </a>
                 , ainsi que les rapports d&eacute;taill&eacute;s du
                 d&eacute;partement du Travail concernant les{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings"
                     title="Conclusions sur les pires formes de travail des enfants"
                 >
@@ -108,7 +127,9 @@ const fr = () => {
                 &eacute;galement disponible &agrave; la section Rapports
                 internationaux sur le travail des enfants et le travail
                 forc&eacute; du{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.dol.gov/agencies/ilab/reports/child-labor"
                     title="Site Web de l&rsquo;ILAB"
                 >
@@ -116,14 +137,18 @@ const fr = () => {
                 </a>
                 , est gratuite et peut &ecirc;tre
                 t&eacute;l&eacute;charg&eacute;e sur{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://itunes.apple.com/us/app/sweat-toil-child-labor-forced/id1018240593?ls=1"
                     title="iTunes"
                 >
                     iTunes
                 </a>{" "}
                 ou{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://play.google.com/store/apps/details?id=gov.dol.childlabor"
                     title="Google Play"
                 >
@@ -136,7 +161,7 @@ const fr = () => {
                 <Link to="/steps/2">Autres ressources</Link> pour en savoir
                 plus.{" "}
             </p>
-            <div className="example-in-action" id="med_rep">
+            <ExampleInAction id="med_rep">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -229,7 +254,7 @@ const fr = () => {
                     alt="enfant assujetti au travail forc&eacute; avec sa pelle"
                 />
                 <p className="small-text">&copy;George Osodi/Panos</p>
-            </div>
+            </ExampleInAction>
             <p>
                 &Agrave; la suite de ces recherches initiales, la
                 soci&eacute;t&eacute; devrait obtenir la participation des
@@ -349,7 +374,9 @@ const fr = () => {
                 Pour avoir une id&eacute;e de l&rsquo;application de cette
                 approche g&eacute;n&eacute;rale &agrave; un secteur particulier,
                 l&rsquo;
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
                     title="Outil d&rsquo;approvisionnement responsable&nbsp;des produits de la mer&nbsp;4&nbsp;: Collecte d&rsquo;information et &eacute;valuation des risques dans les cha&icirc;nes d&rsquo;approvisionnement des produits de la mer"
                 >
@@ -363,7 +390,7 @@ const fr = () => {
                 cha&icirc;nes d&rsquo;approvisionnement et les
                 fournisseurs.&nbsp;
             </p>
-            <div className="example-in-action" id="fish">
+            <ExampleInAction id="fish">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -381,7 +408,9 @@ const fr = () => {
                     d&eacute;fis pour les services de r&eacute;pression du
                     travail des enfants et du travail forc&eacute; dans les
                     domaines de la p&ecirc;che et des produits de la mer. La{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf"
                         title="Convention des Nations Unies sur le droit de la mer"
                     >
@@ -440,7 +469,9 @@ const fr = () => {
                     s&apos;attaquer au probl&egrave;me&nbsp;: un groupe de
                     travail pr&eacute;sidentiel sur la lutte contre la
                     p&ecirc;che INN a publi&eacute; un{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.nmfs.noaa.gov/ia/iuu/noaa_taskforce_report_final.pdf"
                         title="Plan d&rsquo;action pour la mise en &oelig;uvre des recommandations du groupe de travail"
                     >
@@ -451,7 +482,7 @@ const fr = () => {
                     en place un programme de tra&ccedil;abilit&eacute; des
                     produits de la mer.
                 </p>
-            </div>
+            </ExampleInAction>
             <div className="own-words">
                 <h2>
                     <iron-icon icon="icons:feedback" />
@@ -539,7 +570,9 @@ const fr = () => {
                     Source&nbsp;: Soci&eacute;t&eacute; de promotion des
                     investissements &agrave; l&rsquo;&eacute;tranger du
                     gouvernement des &Eacute;tats-Unis,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
                         title="D&eacute;claration de politique environnementale et sociale"
                     >
@@ -585,7 +618,9 @@ const fr = () => {
                 forc&eacute; et la traite existe dans vos cha&icirc;nes
                 d&apos;approvisionnement. Les ressources recommand&eacute;es sur
                 cette question comprennent les{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"
                     title="Orientations en mati&egrave;re de bonnes pratiques sur le recrutement &eacute;thique des travailleurs migrants"
                 >
@@ -593,7 +628,9 @@ const fr = () => {
                     recrutement &eacute;thique des travailleurs migrants
                 </a>{" "}
                 [en anglais] du{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.iccr.org/"
                     title="Centre interconfessionnel sur la responsabilit&eacute; des entreprises (ICCR)"
                 >
@@ -601,7 +638,9 @@ const fr = () => {
                     entreprises (ICCR)
                 </a>{" "}
                 et les{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/global/topics/fair-recruitment/WCMS_568730/lang--fr/index.htm"
                     title="Principes g&eacute;n&eacute;raux et directives op&eacute;rationnelles concernant le recrutement &eacute;quitable"
                 >
@@ -627,13 +666,20 @@ const fr = () => {
                 Morris Kazakhstan* (PMK), filiale &agrave; 100 % de la
                 soci&eacute;t&eacute; de tabac Philip Morris International*
                 (PMI). PMI a par la suite confi&eacute; &agrave; l&apos;ONG{" "}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/" title="Verit&eacute;">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.verite.org/"
+                    title="Verit&eacute;"
+                >
                     Verit&eacute;
                 </a>
                 * une enqu&ecirc;te sur le terrain portant sur les conditions de
                 travail dans les exploitations de tabac kazakhes et la
                 pr&eacute;paration d&rsquo;un{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.verite.org/wp-content/uploads/2016/11/Verite_Report_for_PMI_on_Kazakhstan-2_May_2011.pdf"
                     title="rapport de recommandations"
                 >
@@ -661,14 +707,18 @@ const fr = () => {
                 entreprises ou groupes offrent une source tr&egrave;s utile de
                 donn&eacute;es. Il peut &ecirc;tre n&eacute;cessaire, pour y
                 avoir acc&egrave;s, de rejoindre un groupe tel que le{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.sedexglobal.com/"
                     title="Supplier Ethical Data Exchange (SEDEX)"
                 >
                     Supplier Ethical Data Exchange (SEDEX)
                 </a>{" "}
                 et{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.verite.org/wp-content/uploads/2016/11/Verite_Report_for_PMI_on_Kazakhstan-2_May_2011.pdf"
                     title="Fair Factories Clearinghouse"
                 >
@@ -837,7 +887,9 @@ const fr = () => {
                 Adapt&eacute; du Guide III de l&apos;Organisation internationale
                 du travail et de l&apos;Organisation internationale des
                 employeurs,{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/public/english/dialogue/actemp/downloads/projects/child_guide3_en.pdf"
                     title="Le r&ocirc;le des organisations d'employeurs dans la lutte contre le travail des enfants, Guide&nbsp;III"
                 >

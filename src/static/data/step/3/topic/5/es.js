@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -18,7 +19,9 @@ const es = () => {
             <p>
                 La Alianza ISEAL, asociaci&oacute;n mundial que fija normas
                 sociales y ambientales, public&oacute; un{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.isealalliance.org/our-work/defining-credibility/codes-of-good-practice"
                     title="C&oacute;digo de Buenas Pr&aacute;cticas para Establecer Est&aacute;ndares"
                 >
@@ -53,7 +56,7 @@ const es = () => {
                 m&aacute;s detalle en el C&oacute;digo de Buenas
                 Pr&aacute;cticas de ISEAL.&nbsp;
             </p>
-            <div className="example-in-action" id="fair_labor">
+            <ExampleInAction id="fair_labor">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Ejemplo en acci&oacute;n</strong>: proceso de
@@ -62,7 +65,9 @@ const es = () => {
                 </h2>
                 <p>
                     La{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fairlabor.org/"
                         title="Fair Labor Association."
                     >
@@ -72,7 +77,9 @@ const es = () => {
                     sin fines de lucro que vigila las condiciones en las
                     f&aacute;bricas afiliadas a fin de garantizar que se ajusten
                     a su{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fairlabor.org/our-work/code-of-conduct"
                         title="C&oacute;digo de conducta en el lugar de trabajo"
                     >
@@ -82,7 +89,9 @@ const es = () => {
                     contiene disposiciones detalladas de remediaci&oacute;n en
                     caso de detectarse infracciones. El c&oacute;digo se
                     complementa con los{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fairlabor.org/sites/default/files/fla_complete_code_and_benchmarks.pdf"
                         title="&Iacute;ndices de referencia de cumplimiento de la FLA"
                     >
@@ -105,7 +114,9 @@ const es = () => {
                     universidades.&nbsp;
                 </p>
                 <p>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf"
                         title="Obtener m&aacute;s informaci&oacute;n y consultar las principales modificaciones al C&oacute;digo de conducta en el lugar de trabajo y los &Iacute;ndices de referencia de cumplimiento en una comparaci&oacute;n en paralelo con el c&oacute;digo anterior"
                     >
@@ -117,7 +128,7 @@ const es = () => {
                     </a>
                     .
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

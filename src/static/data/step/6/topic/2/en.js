@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -45,7 +46,9 @@ const en = () => {
             </div>
             <p>
                 Impactt Limited&rsquo;s{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://impacttlimited.com/wp-content/uploads/2017/01/Impactt_CLOPIndustrialcontexts_REVISION_26112008.pdf"
                     title="Operational Procedures for Remediation of Child Labour in Industrial Contexts"
                 >
@@ -651,11 +654,16 @@ const en = () => {
                     </tr>
                 </tbody>
             </table>
-            <div className="example-in-action" id="better_work">
+            <ExampleInAction id="better_work">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action: The </strong>
-                    <a target="_blank" rel="noopener noreferrer" href="https://betterwork.org/" title="Better Work">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://betterwork.org/"
+                        title="Better Work"
+                    >
                         <strong>Better Work</strong>
                     </a>
                     <strong> Remediation Process</strong>
@@ -680,7 +688,7 @@ const en = () => {
                     assistance and conduct follow-up visits to evaluate progress
                     on the remediation plan.
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

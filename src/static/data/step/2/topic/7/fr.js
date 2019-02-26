@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -93,7 +94,7 @@ const fr = () => {
                 pourront eux aussi proposer des id&eacute;es
                 d&apos;att&eacute;nuation.
             </p>
-            <div className="example-in-action" id="Conflict_Free">
+            <ExampleInAction id="Conflict_Free">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Exemple d&apos;action</strong>&nbsp;: Initiative
@@ -107,14 +108,18 @@ const fr = () => {
                     des produits &eacute;lectroniques, constitue l&rsquo;un des
                     risques essentiels identifi&eacute;s en mati&egrave;re de
                     droits de l&rsquo;homme et de droits du travail. L&rsquo;
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.conflictfreesourcing.org/"
                         title="Initiative pour un approvisionnement sans conflits"
                     >
                         Initiative pour un approvisionnement sans conflits
                     </a>{" "}
                     (CFSI), mise en place par la{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.eiccoalition.org/"
                         title="Coalition pour la citoyennet&eacute; de l&rsquo;industrie &eacute;lectronique"
                     >
@@ -122,7 +127,9 @@ const fr = () => {
                         l&rsquo;industrie &eacute;lectronique
                     </a>{" "}
                     et l&rsquo;
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://gesi.org/"
                         title="Initiative mondiale d&rsquo;e-durabilit&eacute;"
                     >
@@ -136,7 +143,9 @@ const fr = () => {
                     toute un s&eacute;rie de secteurs pour surveiller leurs
                     cha&icirc;nes d&rsquo;approvisionnement. Elle a
                     &eacute;galement mis en place le{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.conflictfreesourcing.org/conflict-free-smelter-program/"
                         title="Programme de fonderies sans conflits"
                     >
@@ -146,7 +155,9 @@ const fr = () => {
                     valider, par le biais d&rsquo;audits tiers
                     ind&eacute;pendants, qu&rsquo;ils sont conformes aux normes
                     internationales telles que le{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.oecd.org/corporate/mne/mining.htm"
                         title="Guide OCDE sur le devoir de diligence pour des cha&icirc;nes d'approvisionnement responsables en minerais provenant de zones de conflit ou &agrave; haut risque"
                     >
@@ -157,7 +168,7 @@ const fr = () => {
                     </a>
                     .
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Vos r&eacute;ponses aux informations de l&apos;&eacute;valuation
                 des risques et des incidences devraient &ecirc;tre
@@ -175,7 +186,9 @@ const fr = () => {
                 responsable&nbsp;» vis-&agrave;-vis d&rsquo;un fournisseur a
                 fait l&rsquo;objet d&rsquo;un document de travail [en anglais]
                 de SOMO intitul&eacute;{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.somo.nl/should-i-stay-or-should-i-go/"
                     title="Partir ou rester&nbsp;? Le r&ocirc;le du d&eacute;sengagement dans le cadre de la diligence raisonnable en mati&egrave;re de droits de l&rsquo;homme."
                 >
@@ -191,7 +204,7 @@ const fr = () => {
                 n&eacute;gatifs sur les travailleurs. L&rsquo;exemple suivant en
                 est une d&eacute;monstration.
             </p>
-            <div className="example-in-action" id="mica">
+            <ExampleInAction id="mica">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Exemple d&apos;action</strong>&nbsp;:
@@ -210,7 +223,9 @@ const fr = () => {
                     de travail dangereuses. En d&eacute;pit de ces risques,
                     L&rsquo;Or&eacute;al, membre signataire du Pacte mondial des
                     &Eacute;tats-Unis et membre fondateur de la{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.responsible-mica-initiative.com/"
                         title="Responsible Mica Initiative"
                     >
@@ -244,7 +259,7 @@ const fr = () => {
                     am&eacute;liorer les conditions de travail et
                     d&rsquo;existence dans la r&eacute;gion.&nbsp;
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Le renforcement des capacit&eacute;s et des relations comporte
                 d&apos;ordinaire un certain investissement de l&apos;entreprise

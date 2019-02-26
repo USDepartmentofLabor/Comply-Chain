@@ -1,6 +1,7 @@
 import React from "react";
 import usFlag from "../../images/us_flag.png";
 import verite from "../../images/verite.png";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -79,7 +80,9 @@ const es = () => {
             </ol>
             <p>
                 Fuente: Art&iacute;culo 3 del{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
                     title="Convenio 182 de la OIT"
                 >
@@ -151,7 +154,9 @@ const es = () => {
             </p>
             <p>
                 En{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
                     title="<i>Lucha contra el trabajo forzoso - Manual para empleadores y empresas - Folleto 3</i>"
                 >
@@ -166,7 +171,9 @@ const es = () => {
                 trabajo forzoso que las empresas deben considerar incluir en sus
                 c&oacute;digos. Otros recursos &uacute;tiles sobre
                 pol&iacute;ticas y normas son los{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://business-humanrights.org/en/pdf-athens-ethical-principles"
                     title="Principios &eacute;ticos de Atenas"
                 >
@@ -175,7 +182,9 @@ const es = () => {
                 , conjunto de siete principios referidos a la lucha contra la
                 trata de personas de adhesi&oacute;n voluntaria para las
                 empresas y sus{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://fpbb.pl/user_upload/static/file/Luxor_Implementation_Guidelines_Ethical_Principles.pdf"
                     title="Directrices de Aplicaci&oacute;n de Luxor"
                 >
@@ -184,7 +193,9 @@ const es = () => {
                 , que pueden ayudar a las empresas a incorporar en sus
                 c&oacute;digos disposiciones sobre la lucha contra la trata de
                 personas; la{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.iccr.org/"
                     title="Interfaith Center on Corporate Responsibility (ICCR)"
                 >
@@ -193,14 +204,18 @@ const es = () => {
                     esclavitud moderna
                 </a>{" "}
                 del{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.iccr.org/sites/default/files/resources_attachments/2013ICCR_HTPrinciplesFINAL112013.pdf"
                     title="Declaraci&oacute;n de principios y pr&aacute;cticas recomendadas para combatir la trata de seres humanos y la esclavitud moderna"
                 >
                     Interfaith Center on Corporate Responsibility (ICCR)
                 </a>
                 ; y los{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.americanbar.org/content/dam/aba/administrative/business_law/aba_model_policies.authcheckdam.pdf"
                     title="Modelos de pol&iacute;ticas para empresas y proveedores sobre la trata con fines de explotaci&oacute;n laboral y el trabajo infantil"
                 >
@@ -263,7 +278,9 @@ const es = () => {
                 </p>
                 <p>
                     Hewlett Packard Enterprise*,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www8.hp.com/h20195/v2/GetPDF.aspx/c05116077.pdf"
                         title="<i>Hewlett Packard Company Supply Chain Foreign Migrant Worker Standard Guidance Document</i>"
                     >
@@ -280,14 +297,21 @@ const es = () => {
                 c&oacute;digo de conducta de manera de evitar el trabajo forzoso
                 en las cadenas de suministro mundiales es el instrumento de
                 abastecimiento responsable{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/"
                     title="Instrumento de abastecimiento responsable"
                 >
                     Responsible Sourcing Tool
                 </a>{" "}
                 (RST). Lanzado en 2016 por{" "}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/" title="Verit&eacute;">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.verite.org/"
+                    title="Verit&eacute;"
+                >
                     Verit&eacute;
                 </a>{" "}
                 y el Departamento de Estado de los Estados Unidos, RST ofrece
@@ -298,7 +322,9 @@ const es = () => {
                 consumidores y otros interesados que deseen identificar,
                 prevenir y tratar la problem&aacute;tica del trabajo forzoso en
                 sus cadenas de suministro. El instrumento 1,{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/codeofconduct"
                     title="Ejemplo de disposiciones del c&oacute;digo de conducta"
                 >
@@ -309,7 +335,9 @@ const es = () => {
                 o industria. Adem&aacute;s, el RST contiene otros instrumentos
                 relativos al reclutamiento responsable de mano de obra, como el
                 instrumento 3,{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/laborrecruitments"
                     title="Criterios para examinar y evaluar a los candidatos para reclutar obreros"
                 >
@@ -322,7 +350,7 @@ const es = () => {
                 seres humanos como resultado de pr&aacute;cticas de
                 reclutamiento fraudulentas o enga&ntilde;osas.
             </p>
-            <div className="example-in-action" id="rst1">
+            <ExampleInAction id="rst1">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -635,7 +663,9 @@ const es = () => {
                     <strong>
                         Fuente: Instrumento de abastecimiento responsable 1,{" "}
                     </strong>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/codeofconduct"
                         title="Instrumento 1, Ejemplo de disposiciones del c&oacute;digo de conducta"
                     >
@@ -651,7 +681,9 @@ const es = () => {
                         V&eacute;ase tambi&eacute;n el instrumento de
                         abastecimiento responsable 1A,{" "}
                     </strong>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/recruitmentandemployment"
                         title=" Ejemplos de par&aacute;metros de referencia de buenas pr&aacute;cticas en la contrataci&oacute;n y el empleo"
                     >
@@ -665,7 +697,9 @@ const es = () => {
                 </p>
                 <p>
                     La p&aacute;gina{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://responsiblesourcingtool.org/"
                         title="ResponsibleSourcingTool.org"
                     >
@@ -673,18 +707,27 @@ const es = () => {
                     </a>{" "}
                     se cre&oacute; gracias a una colaboraci&oacute;n entre el
                     Departamento de Estado de los Estados Unidos,{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/" title="Verit&eacute;">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.verite.org/"
+                        title="Verit&eacute;"
+                    >
                         Verit&eacute;
                     </a>
                     ,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://madeinafreeworld.com/"
                         title="Made in a Free World"
                     >
                         Made in a Free World
                     </a>{" "}
                     y el{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.aspeninstitute.org/"
                         title="Aspen Institute"
                     >
@@ -704,7 +747,7 @@ const es = () => {
                     dirigentes de empresas y ONG, personal de adquisiciones y
                     oficiales de contrataci&oacute;n de la instancia federal.
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

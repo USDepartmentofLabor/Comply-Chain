@@ -1,5 +1,6 @@
 import React from "react";
 import usDol from "../../images/usdol.jpg";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -26,7 +27,7 @@ const es = () => {
                 proveedor de la empresa, se deben repetir las auditor&iacute;as
                 peri&oacute;dicamente, en funci&oacute;n de las conclusiones.
             </p>
-            <div className="example-in-action" id="prereg">
+            <ExampleInAction id="prereg">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Ejemplo en acci&oacute;n: proceso previo a la
@@ -55,7 +56,9 @@ const es = () => {
                     correctiva completo para rectificar las infracciones antes
                     de comenzar la producci&oacute;n. Para m&aacute;s
                     informaci&oacute;n, v&eacute;ase el{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://corporate.target.com/corporate-responsibility/responsible-sourcing/social-compliance/labor-and-human-rights"
                         title="Sitio web de las normas para los contratistas de Target"
                     >
@@ -63,7 +66,7 @@ const es = () => {
                     </a>
                     .
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Las empresas con grandes cadenas de suministro o proveedores
                 dispersos suelen realizar auditor&iacute;as por muestreo. Esto

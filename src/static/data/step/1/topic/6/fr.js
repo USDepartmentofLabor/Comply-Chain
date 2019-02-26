@@ -1,5 +1,6 @@
 import React from "react";
 import goodweave from "../../../../../images/goodweave.jpg";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -33,11 +34,20 @@ const fr = () => {
                 d&apos;autres droits du travail pour recevoir l&apos;estampille
                 «&nbsp;Fair Trade&nbsp;». Pour plus d&apos;informations, voir
                 les bo&icirc;tes &agrave; outil de{" "}
-                <a target="_blank" rel="noopener noreferrer" href="http://www.fairtrade.net/child-labour.html">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.fairtrade.net/child-labour.html"
+                >
                     Fairtrade International
                 </a>{" "}
                 et de{" "}
-                <a target="_blank" rel="noopener noreferrer" href="http://www.fairtradeusa.org/" title="Fair Trade USA">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.fairtradeusa.org/"
+                    title="Fair Trade USA"
+                >
                     Fair Trade USA
                 </a>
                 .
@@ -45,7 +55,12 @@ const fr = () => {
             <p>
                 Certains programmes de certification visent &eacute;galement
                 &agrave; satisfaire aux normes de{" "}
-                <a target="_blank" rel="noopener noreferrer" href="http://www.isealalliance.org/" title="ISEAL Alliance">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.isealalliance.org/"
+                    title="ISEAL Alliance"
+                >
                     ISEAL Alliance
                 </a>
                 , association d&apos;organisations qui &eacute;labore des
@@ -68,7 +83,7 @@ const fr = () => {
                 fa&ccedil;on dont ils seront per&ccedil;us par
                 diff&eacute;rentes parties prenantes.&nbsp;
             </p>
-            <div className="example-in-action" id="clt">
+            <ExampleInAction id="clt">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Exemple d&apos;action&nbsp;: GoodWeave</strong>
@@ -76,7 +91,12 @@ const fr = () => {
 
                 <p>
                     Depuis plus de 20&nbsp;ans,{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://goodweave.org/" title="GoodWeave">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://goodweave.org/"
+                        title="GoodWeave"
+                    >
                         GoodWeave
                     </a>{" "}
                     travaille &agrave; la transformation de l&rsquo;industrie du
@@ -117,7 +137,9 @@ const fr = () => {
                 </p>
                 <p>
                     En savoir plus sur le{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/projects/summaries/Afghanistan_Carpets.pdf"
                         title="Projet de pr&eacute;vention du travail des enfants dans la production de tapis &agrave; domicile en Afghanistan"
                     >
@@ -136,7 +158,7 @@ const fr = () => {
                     &copy; Lorenzo Tugnoli, avec l&rsquo;aimable autorisation de
                     GoodWeave International
                 </p>
-            </div>
+            </ExampleInAction>
 
             <p>
                 <em>

@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -50,7 +51,11 @@ const fr = () => {
                 viabilit&eacute; de l&apos;entreprise ou la RSE, il existe des
                 recommandations pour l&apos;&eacute;laboration de ces rapports.
                 La{" "}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.globalreporting.org/Pages/default.aspx">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.globalreporting.org/Pages/default.aspx"
+                >
                     Global Reporting Initiative (GRI)
                 </a>{" "}
                 est une organisation en r&eacute;seau recommand&eacute;e en tant
@@ -66,7 +71,9 @@ const fr = () => {
                 civile, des syndicats ainsi que des &eacute;tablissements
                 universitaires et professionnels. La GRI met gratuitement
                 &agrave; la disposition du public une{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://database.globalreporting.org/"
                     title="base de donn&eacute;es"
                 >
@@ -77,7 +84,9 @@ const fr = () => {
             </p>
             <p>
                 Le{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.ungpreporting.org/about-us/"
                     title="Cadre de reporting conforme aux principes directeurs des Nations Unies"
                 >
@@ -88,7 +97,9 @@ const fr = () => {
                 orientations exhaustives et un questionnaire au travers desquels
                 les entreprises peuvent r&eacute;f&eacute;rencer leurs
                 r&eacute;sultats par rapport aux{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="Principes directeurs relatifs aux entreprises et aux droits de l'homme des Nations Unies"
                 >
@@ -98,7 +109,9 @@ const fr = () => {
                 et &eacute;tablir des rapports sur leur m&eacute;thode de mise
                 en &oelig;uvre. L&rsquo;organisation de la soci&eacute;t&eacute;
                 civile Shift publie la{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ungpreporting.org/reportingdatabase/"
                     title="Base de donn&eacute;es de reporting conforme aux principes directeurs des Nations Unies"
                 >
@@ -138,14 +151,18 @@ const fr = () => {
                     <strong>Vos fournisseurs.</strong> Ainsi, l&rsquo;entreprise
                     de l&rsquo;industrie &eacute;lectronique{" "}
                     <strong>Hewlett-Packard* </strong>publie sa{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/supplychain.html?jumpid=in_r138_us/en/corp/sustainability/main-menu-society"
                         title="liste de fournisseurs "
                     >
                         liste de fournisseurs
                     </a>{" "}
                     depuis 2007 et Target Corporation* publie une{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Target-Global-Factory-List_Q2_2017.pdf"
                         title="liste"
                     >
@@ -165,11 +182,17 @@ const fr = () => {
                     exemple, la soci&eacute;t&eacute; de vente de
                     mat&eacute;riel de sports de plein air{" "}
                     <strong>Patagonia*</strong> publie une{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="http://www.patagonia.com/working-with-factories.html">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.patagonia.com/working-with-factories.html"
+                    >
                         liste des usines qui fabriquent ses produits
                     </a>{" "}
                     ainsi qu&rsquo;une{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.patagonia.com/footprint.html"
                         title="carte interactive"
                     >
@@ -225,7 +248,9 @@ const fr = () => {
                     que d&apos;autres regroupent les donn&eacute;es des audits
                     et les publient sous forme compil&eacute;e. Par exemple, la{" "}
                     <strong>FLA</strong> publie ses{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
                         title="Tracking Charts"
                     >
@@ -236,7 +261,9 @@ const fr = () => {
                     les mesures prises par les entreprises affili&eacute;es
                     &agrave; la FLA quant aux r&eacute;sultats de ces audits. Le
                     site Web de{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://sustainability.hm.com/en/sustainability/downloads-resources/resources/supplier-compliance.html"
                         title="Hennes and Mauritz"
                     >
@@ -245,7 +272,9 @@ const fr = () => {
                     * fournit des donn&eacute;es sur les r&eacute;sultats en
                     mati&egrave;re de conformit&eacute; sociale de
                     l&rsquo;ensemble de ses fournisseurs de premier niveau.{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.pmi.com/sustainability/good-agricultural-practices/upholding-labor-rights-on-the-farms"
                         title="Philip Morris International"
                     >
@@ -260,7 +289,7 @@ const fr = () => {
                     violations sont d&eacute;tect&eacute;es.
                 </li>
             </ul>
-            <div className="example-in-action" id="nike">
+            <ExampleInAction id="nike">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -296,7 +325,7 @@ const fr = () => {
                     politiques actuelles et les dispositions de son code
                     concernant les travailleurs migrants.
                 </p>
-            </div>
+            </ExampleInAction>
             <ul>
                 <li>
                     Les r&eacute;sultats de votre &eacute;valuation par un{" "}

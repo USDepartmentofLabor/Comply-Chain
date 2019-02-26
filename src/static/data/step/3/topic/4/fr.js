@@ -1,5 +1,6 @@
 import React from "react";
 import ilo from "../../images/ilo.jpg";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -42,7 +43,7 @@ const fr = () => {
                 pr&eacute;sence, il est important d&apos;inclure les normes et
                 les dispositions pertinentes dans votre code de conduite.&nbsp;
             </p>
-            <div className="example-in-action" id="patagonia">
+            <ExampleInAction id="patagonia">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Exemple d&apos;action&nbsp;: Normes concernant les
@@ -77,7 +78,9 @@ const fr = () => {
                     travail et d&rsquo;existence, les salaires et les
                     proc&eacute;dures de r&egrave;glement des
                     r&eacute;clamations. Les{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.patagonia.com/static/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw604fc14d/PDF-US/Migrant_Worker_Employment_Standards.pdf"
                         title="Normes d&rsquo;emploi concernant les travailleurs migrants"
                     >
@@ -89,7 +92,9 @@ const fr = () => {
                 </p>
                 <p>
                     Pour de plus amples informations, voir{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.patagonia.com/blog/2015/06/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/"
                         title="Le co&ucirc;t &eacute;lev&eacute; inacceptable de la main d&rsquo;&oelig;uvre&nbsp;&ndash; Comment une plong&eacute;e au c&oelig;ur de notre cha&icirc;ne d&rsquo;approvisionnement a conduit &agrave; une nouvelle norme pour les travailleurs migrants"
                     >
@@ -103,10 +108,12 @@ const fr = () => {
                     </a>
                     <em>.</em>
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Les{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf"
                     title="Principes de Dhaka sur la migration dans la dignit&eacute;"
                 >
@@ -122,7 +129,9 @@ const fr = () => {
                 pour assurer une migration dans la dignit&eacute;. Les Principes
                 de Dhaka ont &eacute;t&eacute; &eacute;labor&eacute;s par
                 l&rsquo;
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.ihrb.org/"
                     title="Institut pour les droits de l&rsquo;homme et les entreprises"
                 >
@@ -133,7 +142,9 @@ const fr = () => {
                 syndicats et la soci&eacute;t&eacute; civile. Ils se basent sur
                 les normes internationales en mati&egrave;re de droits de
                 l&rsquo;homme et les trois piliers des{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="Principes directeurs relatifs aux entreprises et aux droits de l'homme des Nations Unies"
                 >
@@ -147,7 +158,7 @@ const fr = () => {
                 alt="Travailleur en train de gravir un &eacute;chafaudage"
             />
             <p className="small-text">&copy;M. Crozet/OIT</p>
-            <div className="example-in-action" id="leadership">
+            <ExampleInAction id="leadership">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -157,7 +168,9 @@ const fr = () => {
                 </h2>
                 <p>
                     Lanc&eacute; en mai&nbsp;2016, le{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment"
                         title="Groupe de leadership pour le recrutement responsable"
                     >
@@ -178,7 +191,9 @@ const fr = () => {
                 </p>
                 <p>
                     Convoqu&eacute; par une ONG, l&rsquo;
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.ihrb.org/"
                         title="Institut pour les droits de l&rsquo;homme et les entreprises"
                     >
@@ -202,7 +217,9 @@ const fr = () => {
                 <p>
                     Pour en savoir plus sur le Groupe de leadership et ses
                     outils sur le recrutement &eacute;thique, visitez le{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.ihrb.org/employerpays/"
                         title="Portail de recrutement responsable"
                     >
@@ -210,7 +227,7 @@ const fr = () => {
                     </a>{" "}
                     [en anglais].
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Dans certains cas, les travailleurs migrants re&ccedil;oivent un
                 h&eacute;bergement de leurs employeurs qui est inclus dans leurs

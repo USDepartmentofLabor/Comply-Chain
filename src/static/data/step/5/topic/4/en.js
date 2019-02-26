@@ -1,5 +1,6 @@
 import React from "react";
 import usDol from "../../images/usdol.jpg";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -23,7 +24,7 @@ const en = () => {
                 supply to the company, audits should be repeated on a periodic
                 basis, depending on the findings of the audit.
             </p>
-            <div className="example-in-action" id="prereg">
+            <ExampleInAction id="prereg">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Example in Action: Pre-Registration Processes
@@ -48,7 +49,9 @@ const en = () => {
                     requires a completed corrective action plan to remediate the
                     violations before production begins. For more information,
                     see{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://corporate.target.com/corporate-responsibility/responsible-sourcing/social-compliance/labor-and-human-rights"
                         title="Target&rsquo;s Standards of Vendor Engagement webpage"
                     >
@@ -56,7 +59,7 @@ const en = () => {
                     </a>
                     .
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Companies with vast supply chains and/or dispersed suppliers
                 typically conduct audits on a sampling basis. This is common

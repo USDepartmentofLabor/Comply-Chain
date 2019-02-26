@@ -1,5 +1,6 @@
 import React from "react";
 import leap from "../../../../../images/leap.png";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -16,7 +17,7 @@ const fr = () => {
                 s&apos;adresser collectivement &agrave; diff&eacute;rentes
                 parties prenantes.&nbsp;
             </p>
-            <div className="example-in-action" id="rsn">
+            <ExampleInAction id="rsn">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -26,7 +27,9 @@ const fr = () => {
                 </h2>
                 <p>
                     Le{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/"
                         title="R&eacute;seau de l&rsquo;approvisionnement responsable"
                     >
@@ -48,7 +51,9 @@ const fr = () => {
                     marques, les consommateurs et les communaut&eacute;s
                     concern&eacute;es. Le RSN travaille actuellement avec des
                     partenaires pour pr&eacute;venir et{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/minerals/"
                         title="&eacute;liminer les violations des droits de l&rsquo;homme dans l&rsquo;extraction de minerais de conflit en R&eacute;publique d&eacute;mocratique du Congo"
                     >
@@ -58,7 +63,9 @@ const fr = () => {
                         Congo
                     </a>{" "}
                     et dans la{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/the-cotton-pledge"
                         title="production de coton en Ouzb&eacute;kistan"
                     >
@@ -66,8 +73,8 @@ const fr = () => {
                     </a>
                     .
                 </p>
-            </div>
-            <div className="example-in-action" id="res_min_trade">
+            </ExampleInAction>
+            <ExampleInAction id="res_min_trade">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -78,7 +85,9 @@ const fr = () => {
                 </h2>
                 <p>
                     L&rsquo;
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.resolv.org/site-ppa/"
                         title="Alliance public-priv&eacute; pour le commerce responsable de minerais"
                     >
@@ -122,8 +131,8 @@ const fr = () => {
                     membres d&eacute;finis, ayant des r&ocirc;les et des
                     responsabilit&eacute;s distincts.
                 </p>
-            </div>
-            <div className="example-in-action" id="sug_phil">
+            </ExampleInAction>
+            <ExampleInAction id="sug_phil">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -152,14 +161,21 @@ const fr = () => {
                     d&eacute;lib&eacute;r&eacute;e &agrave; la question du
                     travail des enfants dans les champs de canne &agrave; sucre.
                     Le{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/agencies/ilab/our-work/projects/ABK3leap"
                         title="Projet ABK3 LEAP"
                     >
                         projet ABK3 LEAP
                     </a>
                     , financ&eacute; par l&rsquo;ILAB et mis en &oelig;uvre par{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.worldvision.org/" title="World Vision">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.worldvision.org/"
+                        title="World Vision"
+                    >
                         World Vision
                     </a>
                     , a travaill&eacute; &agrave; la mobilisation du secteur
@@ -217,8 +233,8 @@ const fr = () => {
                 </ul>
                 <img src={leap} alt="Leap" />
                 <p className="small-text">&copy;Christopher Leones/ABK3 LEAP</p>
-            </div>
-            <div className="example-in-action">
+            </ExampleInAction>
+            <ExampleInAction>
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -263,7 +279,9 @@ const fr = () => {
                     partenariats avec un ensemble de marques mondiales,
                     notamment Danone*, Ferrero* et L&rsquo;Or&eacute;al* pour
                     cr&eacute;er le{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://poig.org/"
                         title="Groupe d&rsquo;innovation sur l&rsquo;huile de palme"
                     >
@@ -301,7 +319,7 @@ const fr = () => {
                     devrait continuer &agrave; augmenter rapidement, cette
                     initiative ne pourrait &ecirc;tre plus opportune.
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

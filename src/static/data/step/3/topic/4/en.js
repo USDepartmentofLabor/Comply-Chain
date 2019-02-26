@@ -1,5 +1,6 @@
 import React from "react";
 import ilo from "../../images/ilo.jpg";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -31,7 +32,7 @@ const en = () => {
                 supply chain, it is important to include relevant standards and
                 provisions in your code of conduct.&nbsp;
             </p>
-            <div className="example-in-action" id="patagonia">
+            <ExampleInAction id="patagonia">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     Example in Action: Patagonia&rsquo;s* Migrant Worker
@@ -55,7 +56,9 @@ const en = () => {
                     a range of other issues relevant for migrant workers,
                     including living and working conditions, wages, and
                     greivance procedures. Patagonia&rsquo;s{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.patagonia.com/static/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw604fc14d/PDF-US/Migrant_Worker_Employment_Standards.pdf"
                         title="Migrant Worker Employment Standards"
                     >
@@ -65,7 +68,9 @@ const en = () => {
                 </p>
                 <p>
                     For more information, see Patagonia{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.patagonia.com/blog/2015/06/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/"
                         title="The Unacceptably High Cost of Labor- How a deeper dive into our supply chain led to a new Migrant Worker Standard"
                     >
@@ -77,11 +82,13 @@ const en = () => {
                     </a>
                     <em>.</em>
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 An important policy document focused on vulnerable migrant
                 workers is the
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf"
                     title="Dhaka Principles for Migration with Dignity"
                 >
@@ -94,7 +101,9 @@ const en = () => {
                 provide key principles that employers and migrant recruiters
                 should respect to ensure migration with dignity. The Dhaka
                 Principles were developed by the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.ihrb.org/"
                     title="Institute for Human Rights and Business"
                 >
@@ -103,7 +112,9 @@ const en = () => {
                 and are supported by businesses, governments, trade unions, and
                 civil society. They are based on international human rights
                 standards and the three pillars of the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="UN Guiding Principles on Business and Human Rights"
                 >
@@ -114,7 +125,7 @@ const en = () => {
             <img src={ilo} alt="Worker climbing scaffolding" />
 
             <p className="small-text">&copy;M. Crozet/ILO</p>
-            <div className="example-in-action" id="leadership">
+            <ExampleInAction id="leadership">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -124,7 +135,9 @@ const en = () => {
                 </h2>
                 <p>
                     Launched in May 2016, the{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment"
                         title="Leadership Group for Responsible Recruitment"
                     >
@@ -143,7 +156,9 @@ const en = () => {
                 </p>
                 <p>
                     Convened by the non-governmental organization{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.ihrb.org/"
                         title="Institute for Human Rights and Business"
                     >
@@ -162,7 +177,9 @@ const en = () => {
                 <p>
                     Learn more about the Leadership Group and its tools on
                     ethical recruitment by visiting the{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.ihrb.org/employerpays/"
                         title="Responsible Recruitment Gateway"
                     >
@@ -170,7 +187,7 @@ const en = () => {
                     </a>
                     .
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 In some cases, migrant workers are provided accommodations by
                 their employers as part of the terms of employment. For

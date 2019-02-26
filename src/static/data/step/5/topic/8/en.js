@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -9,7 +10,9 @@ const en = () => {
             <p>
                 In remote geographic locations and industries where production
                 is largely dispersed and informal, some companies have pursued{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/ipec/Action/Childlabourmonitoring/lang--en/index.htm"
                     title="community-based child labor monitoring"
                 >
@@ -19,7 +22,7 @@ const en = () => {
                 methodology has been tested in smallholder agricultural
                 production in particular.
             </p>
-            <div className="example-in-action" id="cambodia">
+            <ExampleInAction id="cambodia">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -32,7 +35,12 @@ const en = () => {
                     of defense in identifying children at risk of child labor.
                     From 2012-2016, the U.S. Department of Labor funded a
                     project implemented by{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.worldvision.org/" title="World Vision">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.worldvision.org/"
+                        title="World Vision"
+                    >
                         World Vision
                     </a>{" "}
                     and local partner organizations to combat child labor in
@@ -40,7 +48,9 @@ const en = () => {
                     domestic service sectors. In an effort to strengthen
                     community-based action to prevent and eliminate child labor,
                     the{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/projects/summaries/Cambodia_EXCEL.pdf"
                         title="Cambodians EXCEL"
                     >
@@ -61,7 +71,9 @@ const en = () => {
                 <p>
                     For more information on the Cambodians EXCEL project, see
                     Management Systems International,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/projects/summaries/Cambodia_EXCEL_feval.pdf"
                         title="Independent Final Evaluation Cambodians EXCEL Project"
                     >
@@ -72,7 +84,7 @@ const en = () => {
                     </a>
                     <em>, 2016</em>.
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 A CLMS is a time-intensive and resource-intensive approach to
                 monitoring that requires extensive engagement at the community

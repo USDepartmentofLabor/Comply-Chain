@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -103,7 +104,7 @@ const fr = () => {
                 fournisseurs ; les formations seront donc jug&eacute;es plus
                 importantes par la direction et les contrema&icirc;tres.
             </p>
-            <div className="example-in-action" id="cocoa">
+            <ExampleInAction id="cocoa">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -120,7 +121,9 @@ const fr = () => {
                     neuf grandes soci&eacute;t&eacute;s de production de cacao
                     et de chocolat se sont r&eacute;unies pour soutenir ensemble
                     l&rsquo;
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.worldcocoafoundation.org/wp-content/uploads/CocoaAction-Primer-v1_English_May-2016.pdf"
                         title="Initiative CocoaAction de la World Cocoa Foundation"
                     >
@@ -199,7 +202,9 @@ const fr = () => {
                 </p>
                 <p>
                     Pour plus d&apos;informations, voir le{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/sites/default/files/documents/ilab/CLCCG%202016%20Annual%20Report.pdf"
                         title="Rapport annuel 2016 du Groupe de coordination sur le travail des enfants dans la cacaoculture"
                     >
@@ -208,10 +213,12 @@ const fr = () => {
                     </a>
                     .
                 </p>
-            </div>
+            </ExampleInAction>
             <p>
                 Le programme de l&apos;OIT d&rsquo;
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/empent/Projects/score/lang--en/index.htm"
                     title="Appui des entreprises comp&eacute;titives et responsables (SCORE)"
                 >

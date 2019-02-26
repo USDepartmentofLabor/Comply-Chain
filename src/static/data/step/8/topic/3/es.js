@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const es = () => {
     return (
@@ -48,7 +49,11 @@ const es = () => {
                 m&aacute;s amplio de sostenibilidad de la empresa o RSE, se
                 pueden consultar gu&iacute;as para redactar tales informes. Un
                 recurso que se recomienda es la{" "}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.globalreporting.org/Pages/default.aspx">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.globalreporting.org/Pages/default.aspx"
+                >
                     Global Reporting Initiative (GRI)
                 </a>
                 , una organizaci&oacute;n basada en red que elabora un marco
@@ -61,7 +66,9 @@ const es = () => {
                 que abarca a instituciones comerciales, de la sociedad civil,
                 laborales, acad&eacute;micas y profesionales. La GRI pone a
                 disposici&oacute;n una{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://database.globalreporting.org/"
                     title="base de datos"
                 >
@@ -72,7 +79,9 @@ const es = () => {
             </p>
             <p>
                 Otro recurso que se recomienda es el{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.ungpreporting.org/about-us/"
                     title="Marco para el Informe sobre los Principios Rectores de las Naciones Unidas"
                 >
@@ -82,7 +91,9 @@ const es = () => {
                 . El Marco para el Informe brinda orientaci&oacute;n integral y
                 contiene un cuestionario que pueden emplear las empresas para
                 comparar su desempe&ntilde;o con los{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="Principios Rectores de las Naciones Unidas sobre las Empresas y los Derechos Humanos "
                 >
@@ -92,7 +103,9 @@ const es = () => {
                 y presentar un informe sobre la manera en que los est&aacute;n
                 aplicando. La organizaci&oacute;n de la sociedad civil Shift
                 publica la{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ungpreporting.org/reportingdatabase/"
                     title="Base de datos para el informe de los Principios Rectores de las Naciones Unidas"
                 >
@@ -128,14 +141,18 @@ const es = () => {
                     <strong>Sus proveedores.</strong> Por ejemplo, la empresa de
                     art&iacute;culos de electr&oacute;nica{" "}
                     <strong>Hewlett-Packard* </strong>hace p&uacute;blica su{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/supplychain.html?jumpid=in_r138_us/en/corp/sustainability/main-menu-society"
                         title="lista de proveedores"
                     >
                         lista de proveedores
                     </a>{" "}
                     desde 2007 y Target Corporation* publica{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Target-Global-Factory-List_Q2_2017.pdf"
                         title="lista"
                     >
@@ -157,11 +174,17 @@ const es = () => {
                     responsabilidad social y ambiental. Por ejemplo, la empresa
                     que vende art&iacute;culos deportivos para el aire libre{" "}
                     <strong>Patagonia*</strong> publica una{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="http://www.patagonia.com/working-with-factories.html">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.patagonia.com/working-with-factories.html"
+                    >
                         lista de las f&aacute;bricas que hacen sus productos
                     </a>{" "}
                     y un{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.patagonia.com/footprint.html"
                         title="mapa interactivo"
                     >
@@ -212,7 +235,9 @@ const es = () => {
                     las auditor&iacute;as mientras que otros compilan los datos
                     y publican una versi&oacute;n abreviada. Por ejemplo, la{" "}
                     <strong>FLA</strong> publica{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
                         title="Gr&aacute;ficos de seguimiento"
                     >
@@ -223,7 +248,9 @@ const es = () => {
                     f&aacute;bricas, as&iacute; como las medidas adoptadas por
                     las empresas afiliadas a la FLA para abordar las
                     conclusiones. La p&aacute;gina web de{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://sustainability.hm.com/en/sustainability/downloads-resources/resources/supplier-compliance.html"
                         title="Hennes and Mauritz"
                     >
@@ -231,7 +258,9 @@ const es = () => {
                     </a>
                     * contiene datos sobre el desempe&ntilde;o de todos sus
                     proveedores en materia de cumplimiento social.{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.pmi.com/sustainability/good-agricultural-practices/upholding-labor-rights-on-the-farms"
                         title="Philip Morris International"
                     >
@@ -247,7 +276,7 @@ const es = () => {
                     la empresa en caso de hallarse infracciones.
                 </li>
             </ul>
-            <div className="example-in-action" id="nike">
+            <ExampleInAction id="nike">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -279,7 +308,7 @@ const es = () => {
                     las pol&iacute;ticas y las disposiciones actuales del
                     c&oacute;digo en materia de trabajadores migrantes.
                 </p>
-            </div>
+            </ExampleInAction>
             <ul>
                 <li>
                     Los resultados de la evaluaci&oacute;n de la{" "}

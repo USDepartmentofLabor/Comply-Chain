@@ -1,4 +1,5 @@
 import React from "react";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -16,7 +17,7 @@ const en = () => {
                 exposed to the program or service) to an identical group that
                 does not receive the program or service.
             </p>
-            <div className="example-in-action" id="bwi_eval">
+            <ExampleInAction id="bwi_eval">
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -55,7 +56,7 @@ const en = () => {
                     of these methods guarantees that these abuses are not
                     present.
                 </p>
-            </div>
+            </ExampleInAction>
 
             <p>
                 <em>

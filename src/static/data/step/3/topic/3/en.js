@@ -1,6 +1,7 @@
 import React from "react";
 import usFlag from "../../images/us_flag.png";
 import verite from "../../images/verite.png";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -68,7 +69,9 @@ const en = () => {
             </ol>
             <p>
                 Source: Article 3 of{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
                     title="ILO Convention 182"
                 >
@@ -131,7 +134,9 @@ const en = () => {
             </p>
             <p>
                 In{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
                     title="Combating Forced Labor: A Handbook for Employers and Business, Booklet 3"
                 >
@@ -143,7 +148,9 @@ const en = () => {
                 <em>, </em>the ILO provides guidance on forced labor standards
                 that companies should consider including in their codes. Other
                 useful resources on policies and standards include the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://business-humanrights.org/en/pdf-athens-ethical-principles"
                     title="Athens Ethical Principles"
                 >
@@ -151,7 +158,9 @@ const en = () => {
                 </a>{" "}
                 a set of seven anti-trafficking principles to which companies
                 can voluntarily commit, and its accompanying{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://fpbb.pl/user_upload/static/file/Luxor_Implementation_Guidelines_Ethical_Principles.pdf"
                     title="Luxor Implementation Guidelines"
                 >
@@ -159,13 +168,17 @@ const en = () => {
                 </a>
                 , which can assist companies to incorporate anti-trafficking
                 provisions into their codes; the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.iccr.org/"
                     title="Interfaith Center on Corporate Responsibility&rsquo;s (ICCR)"
                 >
                     Interfaith Center on Corporate Responsibility&rsquo;s (ICCR)
                 </a>
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.iccr.org/sites/default/files/resources_attachments/2013ICCR_HTPrinciplesFINAL112013.pdf"
                     title="Statement of Principles &amp; Recommended Practices for Confronting Human Trafficking &amp; Modern Slavery"
                 >
@@ -173,7 +186,9 @@ const en = () => {
                     Confronting Human Trafficking &amp; Modern Slavery
                 </a>
                 ; and the American Bar Association&rsquo;s (ABA){" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.americanbar.org/content/dam/aba/administrative/business_law/aba_model_policies.authcheckdam.pdf"
                     title="Model Business and Supplier Policies on Labor Trafficking and Child Labor"
                 >
@@ -227,7 +242,9 @@ const en = () => {
                 </p>
                 <p>
                     Hewlett Packard Enterprise*,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www8.hp.com/h20195/v2/GetPDF.aspx/c05116077.pdf"
                         title="Hewlett Packard Company Supply Chain Foreign Migrant Worker Standard Guidance Document"
                     >
@@ -243,14 +260,21 @@ const en = () => {
                 A key resource for developing specific code of conduct
                 provisions to prevent forced labor in global supply chains is
                 the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/"
                     title="Responsible Sourcing Tool"
                 >
                     Responsible Sourcing Tool
                 </a>{" "}
                 (RST). Launched in 2016 by{" "}
-                <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/" title="Verit&eacute;">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.verite.org/"
+                    title="Verit&eacute;"
+                >
                     Verit&eacute;
                 </a>{" "}
                 and the U.S. Department of State, the RST provides a set of
@@ -259,7 +283,9 @@ const en = () => {
                 professionals, advocates, investors, consumers, and other
                 stakeholders that wish to identify, prevent, and address forced
                 labor in supply chains. Tool 1,{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/codeofconduct"
                     title="Sample Code of Conduct Provisions"
                 >
@@ -269,7 +295,9 @@ const en = () => {
                 incorporated into a company or industry code of conduct. The RST
                 also contains additional tools related to responsible labor
                 recruitment, including Tool 3,{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/laborrecruitments"
                     title="Criteria for Screening and Evaluating Labor Recruitment Candidates"
                 >
@@ -281,7 +309,7 @@ const en = () => {
                 of human trafficking as a result of fraudulent or misleading
                 recruitment practices.
             </p>
-            <div className="example-in-action" id="rst1">
+            <ExampleInAction id="rst1">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -530,7 +558,9 @@ const en = () => {
                 </p>
                 <p>
                     <strong>Source: Responsible Sourcing </strong>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/codeofconduct"
                         title="Tool 1, Sample Code of Conduct Provisions"
                     >
@@ -542,7 +572,9 @@ const en = () => {
                 </p>
                 <p>
                     <strong>See also Responsible Sourcing Tool 1A, </strong>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/recruitmentandemployment"
                         title="Sample Benchmarks of Good Practice in Recruitment and Employment"
                     >
@@ -554,7 +586,9 @@ const en = () => {
                     .
                 </p>
                 <p>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://responsiblesourcingtool.org/"
                         title="ResponsibleSourcingTool.org"
                     >
@@ -562,18 +596,27 @@ const en = () => {
                     </a>{" "}
                     was created through a collaboration between the U.S.
                     Department of State,{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/" title="Verit&eacute;">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.verite.org/"
+                        title="Verit&eacute;"
+                    >
                         Verit&eacute;
                     </a>
                     ,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://madeinafreeworld.com/"
                         title="Made in a Free World"
                     >
                         Made in a Free World
                     </a>
                     , and the{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.aspeninstitute.org/"
                         title="Aspen Institute"
                     >
@@ -591,7 +634,7 @@ const en = () => {
                     NGO leaders, and acquisitions personnel and federal
                     contracting officers.
                 </p>
-            </div>
+            </ExampleInAction>
         </div>
     );
 };

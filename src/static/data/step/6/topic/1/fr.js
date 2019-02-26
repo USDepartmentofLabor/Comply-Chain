@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -162,7 +163,7 @@ const fr = () => {
                 &eacute;tudi&eacute;es dans{" "}
                 <em>S&rsquo;attaquer aux causes profondes</em>.
             </p>
-            <div className="example-in-action" id="turkey">
+            <ExampleInAction id="turkey">
                 <h3>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>
@@ -215,7 +216,9 @@ const fr = () => {
                     subvention pour mettre en place le test pilote d&rsquo;un
                     programme exhaustif et durable visant &agrave; mettre en
                     &oelig;uvre tous les &eacute;l&eacute;ments des «&nbsp;
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/issues/child-labor/fcea.htm"
                         title="Directives pour l&rsquo;&eacute;limination du travail des enfant et du travail forc&eacute; dans les cha&icirc;nes d&rsquo;approvisionnement agricoles"
                     >
@@ -234,7 +237,7 @@ const fr = () => {
                     cherchent &agrave; &eacute;tablir des programmes sur la base
                     de ces Directives.
                 </p>
-            </div>
+            </ExampleInAction>
             <br />
             <h2>Travail forc&eacute;/traite des personnes</h2>
             <p>
@@ -270,7 +273,9 @@ const fr = () => {
             </p>
             <p>
                 En vertu de son{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.unodc.org/unodc/en/frontpage/2010/September/un-launches-global-plan-of-action-against-human-trafficking.html"
                     title="Plan d&rsquo;action mondial pour la lutte contre la traite des personnes"
                 >
@@ -286,7 +291,9 @@ const fr = () => {
             </p>
             <ul>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.unodc.org/documents/human-trafficking/TIP_1st_AidKit_English_V0981429.pdf"
                         title="Manuel de premier secours &agrave; l'usage des agents de d&eacute;tection et de r&eacute;pression de premi&egrave;re ligne face &agrave; des cas de traite des &ecirc;tres humains"
                     >
@@ -297,7 +304,9 @@ const fr = () => {
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://humantraffickinghotline.org/resources/victim-translation-assistance-tool-life-support-messages-victims-human-trafficking"
                         title="Outil d&rsquo;aide &agrave; la traduction pour les victimes de la traite : messages d'assistance &agrave; la vie pour les victimes de la traite des personnes"
                     >
