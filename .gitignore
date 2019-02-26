@@ -36,3 +36,6 @@ resources/signing
 
 # semantic
 /src/semantic/dist
+
+# vscode
+.vscode/
