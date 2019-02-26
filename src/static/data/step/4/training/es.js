@@ -13,7 +13,11 @@ const es = () => {
                         for Licensees.
                     </i>{" "}
                     2011; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.bsr.org/our-insights/report-view/good-practices-for-complying-with-licensors-social-and-environmental-requir">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.bsr.org/our-insights/report-view/good-practices-for-complying-with-licensors-social-and-environmental-requir"
+                    >
                         https://www.bsr.org/our-insights/report-view/good-practices-for-complying-with-licensors-social-and-environmental-requir
                     </a>
                     .
@@ -33,7 +37,9 @@ const es = () => {
                         </i>{" "}
                     </em>
                     2015; disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_27555/lang--en/index.htm"
                         title="<i>C&oacute;mo hacer negocios respetando el derecho de los ni&ntilde;os a estar libres del trabajo infantil:</i> <i>Herramienta de orientaci&oacute;n de la OIT y la OIE sobre el trabajo infantil destinada a las empresas.</i>"
                     >
@@ -50,7 +56,11 @@ const es = () => {
                     </em>{" "}
                     (2015); segunda edici&oacute;n disponible en idioma
                     ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/wcmsp5/groups/public/---ed_norm/---declaration/documents/publication/wcms_101171.pdf">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/wcmsp5/groups/public/---ed_norm/---declaration/documents/publication/wcms_101171.pdf"
+                    >
                         http://www.ilo.org/wcmsp5/groups/public/---ed_norm/---declaration/documents/publication/wcms_101171.pdf
                     </a>
                     .
@@ -61,7 +71,11 @@ const es = () => {
                         . Mini gu&iacute;a de acci&oacute;n: Trabajo forzoso
                     </em>
                     . 2008; disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="http://www.ituc-csi.org/IMG/pdf/guide_forced_labour_EN.pdf">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ituc-csi.org/IMG/pdf/guide_forced_labour_EN.pdf"
+                    >
                         https://www.ituc-csi.org/IMG/pdf/mini_guide_CL_final_ES-2.pdf
                     </a>
                     .
@@ -77,7 +91,9 @@ const es = () => {
                     </em>{" "}
                     Abril de 2017; disponible en idioma ingl&eacute;s solamente
                     en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.iccr.org/sites/default/files/iccrsbestpracticeguidanceethicalrecruitment05.04.17.pdf"
                         title="<i>Best Practice Guidance on Ethical Recruitment of Migrant Workers</i>"
                     >
@@ -94,7 +110,9 @@ const es = () => {
                         </i>
                     </em>{" "}
                     2006; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/wcmsp5/groups/public/---ed_protect/---protrav/---migrant/documents/publication/wcms_203851.pdf"
                         title="<i>Handbook on Establishing Effective Labour Migration Policies in Countries of Origin and Destination</i>"
                     >
@@ -112,7 +130,11 @@ const es = () => {
                     </em>
                     .<em /> 2011; disponible en idioma ingl&eacute;s solamente
                     en{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="http://www.iom.int/jahia/webdav/shared/shared/mainsite/published_docs/">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.iom.int/jahia/webdav/shared/shared/mainsite/published_docs/"
+                    >
                         https://www.osce.org/eea/92572?download=true
                     </a>
                     .
@@ -123,7 +145,11 @@ const es = () => {
                         <i>Anti-Human Trafficking and Migrant Smuggling</i>
                     </em>
                     . 2010; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="http://www.unodc.org/unodc/en/frontpage/2010/September/un-launches-global-plan-of-action-against-human-trafficking.html">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.unodc.org/unodc/en/frontpage/2010/September/un-launches-global-plan-of-action-against-human-trafficking.html"
+                    >
                         http://www.unodc.org/unodc/en/frontpage/2010/September/un-launches-global-plan-of-action-against-human-trafficking.html
                     </a>
                     .
@@ -137,7 +163,11 @@ const es = () => {
                         </i>{" "}
                     </em>
                     disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="http://helpwanted.verite.org/helpwanted/toolkit">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://helpwanted.verite.org/helpwanted/toolkit"
+                    >
                         http://helpwanted.verite.org/helpwanted/toolkit
                     </a>
                     .
@@ -148,7 +178,11 @@ const es = () => {
                         <i>Instrumento de abastecimiento responsable</i>;{" "}
                     </em>
                     disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="http://responsiblesourcingtool.org/">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://responsiblesourcingtool.org/"
+                    >
                         http://www.responsiblesourcingtool.org/codeofconduct
                     </a>
                     .

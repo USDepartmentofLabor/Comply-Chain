@@ -17,6 +17,7 @@ class StepView extends Component {
             const learningObjectives = stepData.learningObjectives;
             const keyTerms = stepData.keyTerms;
             const Resources = stepData.furtherResources;
+            const Training = stepData.training;
             this.state = {
                 data: {
                     resources: {
@@ -40,6 +41,10 @@ class StepView extends Component {
                         content: (
                             <TopicsList step={Number(step)} topics={topics} />
                         )
+                    },
+                    training: {
+                        title: "Training Materials",
+                        content: Training && <Training />
                     }
                 }
             };
@@ -48,16 +53,16 @@ class StepView extends Component {
     render() {
         const {
             data,
-            data: { learningObjectives, keyTerms, topics, resources }
+            data: { learningObjectives, keyTerms, topics, resources, training }
         } = this.state;
         if (!data) {
             return <div>Step not found!</div>;
         }
-        return (
-            <AccordionView
-                sections={[learningObjectives, keyTerms, topics, resources]}
-            />
-        );
+        const sections = [learningObjectives, keyTerms, topics, resources];
+        if (training.content) {
+            sections.push(training);
+        }
+        return <AccordionView sections={sections} />;
     }
 }
 

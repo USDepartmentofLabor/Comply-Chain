@@ -1,5 +1,6 @@
 import { Resources } from "./resource";
 import { Topics } from "./topic";
+import { Training } from "./training";
 
 export const StepData = {
     en: {
@@ -24,7 +25,8 @@ export const StepData = {
                     "A concern or complaint raised by an individual or a group within a community affected by company operations."
             }
         ],
-        furtherResources: Resources.en
+        furtherResources: Resources.en,
+        training: Training.en
     },
     es: {
         title:
@@ -49,7 +51,8 @@ export const StepData = {
                     "Inquietud o queja planteada por una persona o un grupo que se encuentra en una comunidad afectada por las operaciones de la empresa."
             }
         ],
-        furtherResources: Resources.es
+        furtherResources: Resources.es,
+        training: Training.es
     },
     fr: {
         title:
@@ -74,6 +77,7 @@ export const StepData = {
                     "Préoccupation ou plainte soulevée par un particulier ou un groupe au sein d’une communauté touchée par les opérations de l’entreprise."
             }
         ],
-        furtherResources: Resources.fr
+        furtherResources: Resources.fr,
+        training: Training.fr
     }
 };
