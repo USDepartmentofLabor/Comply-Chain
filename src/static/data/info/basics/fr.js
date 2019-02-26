@@ -1,5 +1,8 @@
 import React from "react";
 import Accordion from "../../../../common/Accordion";
+import ExampleInAction from "../../../../common/ExampleInAction";
+import OwnWords from "../../../../common/OwnWords";
+import { Link } from "react-router-dom";
 
 const fr = () => {
     return (
@@ -300,10 +303,10 @@ const fr = () => {
                                 normes du travail telles que la sant&eacute; et
                                 la s&eacute;curit&eacute; au travail, les
                                 salaires et les heures ouvr&eacute;es (voir{" "}
-                                <app-link href="/step/3">
+                                <Link to="/steps/3">
                                     3<sup>e</sup> &eacute;tape&nbsp;:
                                     &eacute;laborer un code de conduite
-                                </app-link>{" "}
+                                </Link>{" "}
                                 pour un compl&eacute;ment d&apos;information sur
                                 ces normes de l&apos;OIT).
                             </p>
@@ -346,12 +349,9 @@ const fr = () => {
                                 vous joindre &agrave; un programme existant ou
                                 alors d&apos;&eacute;laborer le v&ocirc;tre.
                             </p>
-                            <div
-                                class="example-in-action"
-                                id="better-work-garment"
-                            >
+                            <ExampleInAction id="better-work-garment">
                                 <h4>
-                                    <iron-icon icon="icons:lightbulb-outline" />
+                                    <ExampleInAction.Icon />
                                     <strong>Exemple d&apos;action</strong> Le
                                     programme{" "}
                                     <em>
@@ -437,7 +437,7 @@ const fr = () => {
                                         d&rsquo;Ala&rsquo;a al Sukhni
                                     </p>
                                 </div>
-                            </div>
+                            </ExampleInAction>
                             <p>
                                 La plupart des associations de l&apos;industrie
                                 poss&egrave;dent des crit&egrave;res de base
@@ -534,11 +534,11 @@ const fr = () => {
                                 .
                             </p>
                             <p>
-                                <app-link href="/step/1">
+                                <Link to="/steps/1">
                                     La 1<sup>&egrave;re</sup>{" "}
                                     &eacute;tape&nbsp;: faire participer les
                                     parties prenantes et les partenaires
-                                </app-link>
+                                </Link>
                                 offre de nombreux autres exemples de programmes
                                 et d&apos;initiatives collaboratives que vous
                                 pouvez choisir de rejoindre.
@@ -589,10 +589,10 @@ const fr = () => {
                                 li&eacute;es &agrave; ses op&eacute;rations
                                 commerciales par l&apos;interm&eacute;diaire de
                                 ses relations commerciales. La{" "}
-                                <app-link href="/step/2">
+                                <Link to="/steps/2">
                                     2<sup>e</sup>&nbsp;&eacute;tape,
                                     &eacute;valuer les risques et les incidences
-                                </app-link>
+                                </Link>
                                 , d&eacute;crit les processus de diligence
                                 raisonnable qu&apos;il conviendrait de mettre en
                                 place pour identifier de tels abus et
@@ -617,10 +617,10 @@ const fr = () => {
                                 l&rsquo;entreprise poss&egrave;de la plus forte
                                 influence pour op&eacute;rer un changement
                                 utile. La{" "}
-                                <app-link href="/step/2">
+                                <Link to="/steps/2">
                                     2<sup>e</sup>&nbsp;&eacute;tape,
                                     &eacute;valuer les risques et les incidences
-                                </app-link>
+                                </Link>
                                 , vous permettra &eacute;galement
                                 d&apos;identifier les points les plus importants
                                 de risques et d&apos;influence.
@@ -649,9 +649,9 @@ const fr = () => {
                                 question, et la taille de l&apos;entreprise et
                                 du fournisseur, entre autres facteurs.
                             </p>
-                            <div class="own-words">
+                            <OwnWords>
                                 <h4>
-                                    <iron-icon icon="icons:feedback" />
+                                    <OwnWords.Icon />
                                     <strong>
                                         Dans leurs propres mots
                                     </strong>{" "}
@@ -836,7 +836,7 @@ const fr = () => {
                                     </a>
                                     <em>,</em> 2012.
                                 </p>
-                            </div>
+                            </OwnWords>
                         </div>
                         <h3>Syst&egrave;mes de gestion</h3>
                         <div class="">
@@ -981,9 +981,9 @@ const fr = () => {
                                 est d&eacute;montr&eacute; dans l&rsquo;exemple
                                 ci-dessous.
                             </p>
-                            <div class="example-in-action">
+                            <ExampleInAction>
                                 <h4>
-                                    <iron-icon icon="icons:lightbulb-outline" />
+                                    <ExampleInAction.Icon />
                                     <strong>Exemple d&rsquo;action</strong>{" "}
                                     <strong>
                                         Code de conduite de la Coalition pour la
@@ -1227,7 +1227,7 @@ const fr = () => {
                                         </p>
                                     </li>
                                 </ol>
-                            </div>
+                            </ExampleInAction>
                         </div>
                         <h3>
                             L&apos;&eacute;quipe de conformit&eacute; sociale
@@ -1348,10 +1348,10 @@ const fr = () => {
                             comp&eacute;tences n&eacute;cessaires et les autres
                             questions connexes sont d&eacute;velopp&eacute;es
                             dans la{" "}
-                            <app-link href="/step/5">
+                            <Link to="/steps/5">
                                 5<sup>e</sup>&nbsp;&eacute;tape : surveiller la
                                 conformit&eacute;.
-                            </app-link>
+                            </Link>
                         </p>
                         <p>
                             <em>

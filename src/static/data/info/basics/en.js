@@ -1,5 +1,8 @@
 import React from "react";
 import Accordion from "../../../../common/Accordion";
+import ExampleInAction from "../../../../common/ExampleInAction";
+import OwnWords from "../../../../common/OwnWords";
+import { Link } from "react-router-dom";
 
 const en = () => {
     return (
@@ -234,9 +237,9 @@ const en = () => {
                                 forced labor―as well as other labor standards
                                 such as occupational safety and health, wages
                                 and hours of work (see
-                                <app-link href="/step/3">
+                                <Link to="/steps/3">
                                     Step 3: Develop a Code of Conduct
-                                </app-link>{" "}
+                                </Link>{" "}
                                 for further information on these ILO standards).
                             </p>
                             <p>
@@ -265,12 +268,9 @@ const en = () => {
                                 before deciding to either join an existing
                                 program or develop your own.
                             </p>
-                            <div
-                                class="example-in-action"
-                                id="better-work-garment"
-                            >
+                            <ExampleInAction id="better-work-garment">
                                 <h4>
-                                    <iron-icon icon="icons:lightbulb-outline" />
+                                    <ExampleInAction.Icon />
                                     <strong>Example in Action</strong>
                                     <em>
                                         <strong>Better Work</strong>
@@ -336,7 +336,7 @@ const en = () => {
                                         Ala&rsquo;a al Sukhni
                                     </p>
                                 </div>
-                            </div>
+                            </ExampleInAction>
                             <p>
                                 Most industry associations have a basic set of
                                 requirements for any company wishing to join.
@@ -419,9 +419,9 @@ const en = () => {
                                 .
                             </p>
                             <p>
-                                <app-link href="/step/1">
+                                <Link to="/steps/1">
                                     Step 1, Engage Stakeholders and Partners
-                                </app-link>{" "}
+                                </Link>{" "}
                                 offers many more examples of collaborative
                                 programs and initiatives you could opt to join.
                             </p>
@@ -455,9 +455,9 @@ const en = () => {
                                 mitigate adverse labor rights impacts linked to
                                 its business operations through business
                                 relationships.
-                                <app-link href="/step/2">
+                                <Link to="/steps/2">
                                     Step 2, Assess Risks and Impacts
-                                </app-link>
+                                </Link>
                                 , describes due diligence processes you should
                                 put in place in order to identify such abuses
                                 and impacts.
@@ -473,9 +473,9 @@ const en = () => {
                                 areas of the supply chain where the company has
                                 the greatest leverage to effect meaningful
                                 change.
-                                <app-link href="/step/2">
+                                <Link to="/steps/2">
                                     Step 2, Assess Risks and Impacts
-                                </app-link>
+                                </Link>
                                 , will also help you identify those points of
                                 greatest risk and leverage.
                             </p>
@@ -496,9 +496,9 @@ const en = () => {
                                 supplier in question, size of the
                                 company/supplier, and other factors.
                             </p>
-                            <div class="own-words">
+                            <OwnWords>
                                 <h4>
-                                    <iron-icon icon="icons:feedback" />
+                                    <OwnWords.Icon />
                                     <strong>In Their Own Words</strong>
                                     <strong>
                                         International Institution Guidance on
@@ -631,7 +631,7 @@ const en = () => {
                                     </a>
                                     <em>,</em> 2012.
                                 </p>
-                            </div>
+                            </OwnWords>
                         </div>
                         <h3>Management Systems</h3>
                         <div class="">
@@ -737,9 +737,9 @@ const en = () => {
                                 concept is demonstrated in the example that
                                 follows.
                             </p>
-                            <div class="example-in-action">
+                            <ExampleInAction>
                                 <h4>
-                                    <iron-icon icon="icons:lightbulb-outline" />
+                                    <ExampleInAction.Icon />
                                     <strong>Example in Action</strong>
                                     <strong>
                                         Electronics Industry Citizenship
@@ -923,7 +923,7 @@ const en = () => {
                                         </p>
                                     </li>
                                 </ol>
-                            </div>
+                            </ExampleInAction>
                         </div>
                         <h3>The Social Compliance Team</h3>
                         <p>
@@ -1005,9 +1005,9 @@ const en = () => {
                             identify appropriate remediation strategies.
                             Composition of field teams, skills needed, and
                             related issues are discussed in
-                            <app-link href="/step/5">
+                            <Link to="/steps/5">
                                 Step 5, Monitor Compliance
-                            </app-link>
+                            </Link>
                             .
                         </p>
                         <p>

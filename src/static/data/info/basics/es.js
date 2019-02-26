@@ -1,5 +1,8 @@
 import React from "react";
 import Accordion from "../../../../common/Accordion";
+import ExampleInAction from "../../../../common/ExampleInAction";
+import OwnWords from "../../../../common/OwnWords";
+import { Link } from "react-router-dom";
 
 const es = () => {
     return (
@@ -279,10 +282,10 @@ const es = () => {
                                 otras normas del trabajo tales como la seguridad
                                 y salud en el trabajo, los salarios y el horario
                                 de trabajo. (V&eacute;ase el{" "}
-                                <app-link href="/step/3">
+                                <Link to="/steps/3">
                                     tercer paso, Formulaci&oacute;n de un
                                     c&oacute;digo de conducta
-                                </app-link>
+                                </Link>
                                 , para obtener m&aacute;s informaci&oacute;n
                                 sobre estas normas de la OIT.)
                             </p>
@@ -317,12 +320,9 @@ const es = () => {
                                 antes de decidir sumarse a un programa actual o
                                 elaborar uno propio.
                             </p>
-                            <div
-                                class="example-in-action"
-                                id="better-work-garment"
-                            >
+                            <ExampleInAction id="better-work-garment">
                                 <h4>
-                                    <iron-icon icon="icons:lightbulb-outline" />
+                                    <ExampleInAction.Icon />
                                     <strong>Ejemplo en acci&oacute;n</strong>:
                                     el programa{" "}
                                     <em>
@@ -401,7 +401,7 @@ const es = () => {
                                         Ala&rsquo;a al Sukhni
                                     </p>
                                 </div>
-                            </div>
+                            </ExampleInAction>
                             <p>
                                 La mayor&iacute;a de las asociaciones de la
                                 industria posee una serie b&aacute;sica de
@@ -491,10 +491,10 @@ const es = () => {
                             </p>
                             <p>
                                 El
-                                <app-link href="/step/1">
+                                <Link to="/steps/1">
                                     primer paso, Participaci&oacute;n de los
                                     interesados y los socios
-                                </app-link>
+                                </Link>
                                 , contiene muchos m&aacute;s ejemplos de
                                 programas e iniciativas de colaboraci&oacute;n a
                                 las que puede sumarse.
@@ -538,10 +538,10 @@ const es = () => {
                                 derechos laborales emanada de sus operaciones
                                 comerciales como consecuencia de sus relaciones
                                 comerciales. En el{" "}
-                                <app-link href="/step/2">
+                                <Link to="/steps/2">
                                     segundo paso, Evaluaci&oacute;n de riesgos e
                                     impacto
-                                </app-link>
+                                </Link>
                                 , se describen los procesos de debida diligencia
                                 con los que se debe contar para identificar
                                 estos abusos y el impacto.
@@ -559,10 +559,10 @@ const es = () => {
                                 las cadenas de suministro en los que la empresa
                                 tiene la mayor influencia para realizar un
                                 cambio importante. El{" "}
-                                <app-link href="/step/2">
+                                <Link to="/steps/2">
                                     segundo paso, Evaluaci&oacute;n de riesgos e
                                     impacto
-                                </app-link>
+                                </Link>
                                 , tambi&eacute;n lo ayudar&aacute; a identificar
                                 esos puntos de mayor riesgo e influencia.
                             </p>
@@ -586,9 +586,9 @@ const es = () => {
                                 cuesti&oacute;n, el tama&ntilde;o de la empresa
                                 o el proveedor y otros factores.
                             </p>
-                            <div class="own-words">
+                            <OwnWords>
                                 <h4>
-                                    <iron-icon icon="icons:feedback" />
+                                    <OwnWords.Icon />
                                     <strong>
                                         En sus propias palabras
                                     </strong>,{" "}
@@ -745,7 +745,7 @@ const es = () => {
                                     </a>
                                     <em>,</em> 2012.
                                 </p>
-                            </div>
+                            </OwnWords>
                         </div>
                         <h3>Sistemas de gesti&oacute;n</h3>
                         <div class="">
@@ -875,9 +875,9 @@ const es = () => {
                                 concepto se ilustra con el ejemplo que se
                                 describe a continuaci&oacute;n.
                             </p>
-                            <div class="example-in-action">
+                            <ExampleInAction>
                                 <h4>
-                                    <iron-icon icon="icons:lightbulb-outline" />
+                                    <ExampleInAction.Icon />
                                     <strong>
                                         Ejemplo en acci&oacute;n:
                                     </strong>{" "}
@@ -1103,7 +1103,7 @@ const es = () => {
                                         </p>
                                     </li>
                                 </ol>
-                            </div>
+                            </ExampleInAction>
                         </div>
                         <h3>El equipo de cumplimiento social</h3>
                         <p>
@@ -1202,10 +1202,10 @@ const es = () => {
                             composici&oacute;n de los equipos en el terreno, las
                             aptitudes necesarias y las cuestiones conexas se
                             analizan en el{" "}
-                            <app-link href="/step/5">
+                            <Link to="/steps/5">
                                 quinto paso: Vigilancia y seguimiento del
                                 cumplimiento.
-                            </app-link>
+                            </Link>
                         </p>
                         <p>
                             <em>
