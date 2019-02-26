@@ -45,7 +45,7 @@ const en = () => {
             </div>
             <p>
                 Impactt Limited&rsquo;s{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://impacttlimited.com/wp-content/uploads/2017/01/Impactt_CLOPIndustrialcontexts_REVISION_26112008.pdf"
                     title="Operational Procedures for Remediation of Child Labour in Industrial Contexts"
                 >
@@ -655,7 +655,7 @@ const en = () => {
                 <h2>
                     <iron-icon icon="icons:lightbulb-outline" />
                     <strong>Example in Action: The </strong>
-                    <a href="https://betterwork.org/" title="Better Work">
+                    <a target="_blank" rel="noopener noreferrer" href="https://betterwork.org/" title="Better Work">
                         <strong>Better Work</strong>
                     </a>
                     <strong> Remediation Process</strong>

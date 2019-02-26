@@ -108,7 +108,7 @@ const es = () => {
                     de las principales empresas que trabajan con el cacao y el
                     chocolate aunaron esfuerzos para respaldar de manera
                     conjunta la{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.worldcocoafoundation.org/wp-content/uploads/CocoaAction-Primer-v1_English_May-2016.pdf"
                         title="Iniciativa CocoaAction de la Fundaci&oacute;n Mundial del Cacao"
                     >
@@ -174,7 +174,7 @@ const es = () => {
                 </p>
                 <p>
                     Para obtener m&aacute;s informaci&oacute;n, v&eacute;ase el{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/sites/default/files/documents/ilab/CLCCG%202016%20Annual%20Report.pdf"
                         title="Informe anual de 2016 del Grupo coordinador de la industria del cacao para el trabajo infantil."
                     >
@@ -186,7 +186,7 @@ const es = () => {
             </div>
             <p>
                 El Programa de capacitaci&oacute;n de la OIT{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/empent/Projects/score/lang--en/index.htm"
                     title="Promoci&oacute;n de Empresas Competitivas y Responsables (PECR)"
                 >

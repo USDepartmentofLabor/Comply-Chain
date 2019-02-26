@@ -31,7 +31,7 @@ const es = () => {
                 social en todas las unidades pertinentes de la empresa. Una
                 publicaci&oacute;n que profundiza en este tema es la
                 publicaci&oacute;n de{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.asyousow.org/reports/best-current-practices-in-purchasing-the-apparel-industry"
                     title="<i>Best Current Practices in Purchasing: The Apparel Industry</i>"
                 >

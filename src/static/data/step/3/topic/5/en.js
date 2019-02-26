@@ -16,7 +16,7 @@ const en = () => {
             <p>
                 The ISEAL Alliance, a global association for social and
                 environmental standards, has published a{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.isealalliance.org/our-work/defining-credibility/codes-of-good-practice"
                     title="Code of Good Practice for Standard-Setting"
                 >
@@ -55,7 +55,7 @@ const en = () => {
                 </h2>
                 <p>
                     The{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/"
                         title="Fair Labor Association"
                     >
@@ -63,7 +63,7 @@ const en = () => {
                     </a>{" "}
                     (FLA) is a nonprofit organization that monitors conditions
                     in affiliated factories for compliance with its{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/our-work/code-of-conduct"
                         title="Workplace Code of Conduct"
                     >
@@ -72,7 +72,7 @@ const en = () => {
                     , based on ILO standards, and also has detailed provisions
                     for remediation when violations are identified. The code is
                     supplemented by{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/sites/default/files/fla_complete_code_and_benchmarks.pdf"
                         title="FLA Compliance Benchmarks"
                     >
@@ -91,7 +91,7 @@ const en = () => {
                     from companies, NGOs and university members.&nbsp;
                 </p>
                 <p>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf"
                         title="Obtain more information and view the complete Workplace Code of Conduct and Compliance Benchmarks, revision highlights and a side-by-side comparison to the previous code"
                     >

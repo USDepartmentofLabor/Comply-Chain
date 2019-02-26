@@ -76,7 +76,7 @@ const es = () => {
                     sino de aquellos que reciban orientaci&oacute;n o
                     capacitaci&oacute;n profesional en el desempe&ntilde;o de
                     sus funciones.&rdquo;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm#F4"
                         title="Convenio n&uacute;m. 138 (1973)"
                     >
@@ -89,7 +89,7 @@ const es = () => {
                     documentos falsos en el mercado negro), para lo cual se
                     ofrecen algunas t&eacute;cnicas que pueden resultar
                     &uacute;tiles:
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm#F5"
                         title="Eliminaci&oacute;n del trabajo infantil. Gu&iacute;a para empleadores"
                     >
@@ -140,7 +140,7 @@ const es = () => {
                 </p>
                 <p>
                     [1] V&eacute;ase el art&iacute;culo 9, inciso 3) del&nbsp;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138"
                         title="Convenio n&uacute;m. 138 (1973)"
                     >
@@ -149,7 +149,7 @@ const es = () => {
                     , referente a la obligaci&oacute;n de los empleadores de
                     llevar registros de los trabajadores menores de 18
                     a&ntilde;os. <br /> [2] V&eacute;ase:{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/jakarta/whatwedo/publications/WCMS_151355/lang--en/index.htm"
                         title="Eliminaci&oacute;n del trabajo infantil. Gu&iacute;a para empleadores"
                     >
@@ -161,7 +161,7 @@ const es = () => {
                 <p>
                     Fuente: Extra&iacute;do del Servicio de Asistencia de la OIT
                     para empresas,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_151846/lang--es/index.htm"
                         title="Preguntas y respuestas sobre las empresas y el trabajo infantil"
                     >
@@ -224,7 +224,7 @@ const es = () => {
                     </p>
                     <p>
                         El RST contiene un instrumento,{" "}
-                        <a
+                        <a target="_blank" rel="noopener noreferrer"
                             href="http://www.responsiblesourcingtool.org/workerinterviews"
                             title="<i>Conducting Migrant Worker Interviews</i>"
                         >
@@ -269,7 +269,7 @@ const es = () => {
                         reclutadores para entrevistarlos puede ser un
                         desaf&iacute;o y probablemente exija coordinaci&oacute;n
                         y cooperaci&oacute;n con el proveedor. El{" "}
-                        <a
+                        <a target="_blank" rel="noopener noreferrer"
                             href="http://helpwanted.verite.org/helpwanted/toolkit"
                             title="<i>Kit de herramientas para la contrataci&oacute;n justa</i>"
                         >
@@ -277,7 +277,7 @@ const es = () => {
                             Justa
                         </a>{" "}
                         de Verit&eacute; incluye{" "}
-                        <a
+                        <a target="_blank" rel="noopener noreferrer"
                             href="http://helpwanted.verite.org/helpwanted/toolkit/suppliers/managing-labor-recruiters"
                             title="ejemplos de preguntas que los reclutadores deben hacer en las entrevistas"
                         >

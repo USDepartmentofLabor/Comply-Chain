@@ -32,7 +32,7 @@ const en = () => {
                 Companies and multi-stakeholder groups have been grappling with
                 the challenges of informal work and homework for years. In 2010,
                 the Ethical Trading Initiative published{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
                     title="ETI Homeworker Guidelines"
                 >

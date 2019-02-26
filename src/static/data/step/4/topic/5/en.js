@@ -41,13 +41,13 @@ const en = () => {
                 third-party monitoring groups to capture worker feedback on
                 their work situations and address gaps. With more than 7 billion
                 mobile subscriptions globally, many initiatives, such as{" "}
-                <a href="https://www.laborvoices.com/" title="Labor Voices">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.laborvoices.com/" title="Labor Voices">
                     Labor Voices
                 </a>
                 , rely on smart phone technology to administer anonymous surveys
                 that poll workers on their working conditions in factories and
                 fields. Other initiatives, such as{" "}
-                <a href="http://www.contratados.org/" title="Contratados.org">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.contratados.org/" title="Contratados.org">
                     Contratados.org
                 </a>
                 , utilize web-based technology to create online platforms by
@@ -91,7 +91,7 @@ const en = () => {
                 </p>
                 <p>
                     Source: OECD,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.oecd.org/corporate/mne/1922428.pdf"
                         title="Guidelines for Multinational Enterprises"
                     >
@@ -107,7 +107,7 @@ const en = () => {
                 Human Rights. These pilots were focused on testing grievance
                 mechanisms involving business enterprises and communities in
                 which they operate. The{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/report_46_GM_pilots.pdf"
                     title="CSRI project"
                 >
@@ -167,7 +167,7 @@ const en = () => {
             </ol>
             <p>
                 Source:{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/report_46_GM_pilots.pdf"
                     title="Piloting Principles for Effective Company-Stakeholder Grievance Mechanisms: A Report of Lessons Learned"
                 >
@@ -181,7 +181,7 @@ const en = () => {
             </p>
             <p>
                 The International Finance Corporation&rsquo;s{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.scribd.com/fullscreen/21356198?access_key=key-d387qdvel3wbc9nnmxk"
                     title="Good Practice Note: Addressing Grievances from Project-Affected Communities"
                 >
@@ -195,7 +195,7 @@ const en = () => {
             </p>
             <p>
                 For additional research, the{" "}
-                <a href="https://www.shiftproject.org/" title="SHIFT Project">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.shiftproject.org/" title="SHIFT Project">
                     SHIFT Project
                 </a>{" "}
                 is a good source of information and guidance on operation-level

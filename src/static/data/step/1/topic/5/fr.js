@@ -20,7 +20,7 @@ const fr = () => {
                 </h2>
                 <p>
                     Lanc&eacute;e en&nbsp;2002, la{" "}
-                    <a href="http://www.eclt.org/" title="Fondation ECLT">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.eclt.org/" title="Fondation ECLT">
                         Fondation ECLT
                     </a>{" "}
                     a une approche multipartite de la pr&eacute;vention du
@@ -34,7 +34,7 @@ const fr = () => {
                     parties prenantes pour faire face au travail des enfants
                     dans le domaine de la production du tabac. Membre du Pacte
                     mondial de l&rsquo;ONU et de la{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/ipec/Action/CSR/clp/lang--fr/index.htm"
                         title="Plateforme de l&rsquo;OIT sur le travail des enfants"
                     >
@@ -48,39 +48,39 @@ const fr = () => {
                     de parties prenantes issues des secteurs public et
                     priv&eacute; dans des pays o&ugrave; le travail des enfants
                     est courant dans la production de tabac, notamment au{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-guatemala#introduction"
                         title="Guatemala"
                     >
                         Guatemala
                     </a>
                     , au{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-kyrgyzstan#introduction"
                         title="Kirghizistan"
                     >
                         Kirghizistan
                     </a>
                     , au{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-malawi#introduction"
                         title="Malawi"
                     >
                         Malawi
                     </a>
                     , au{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-mozambique#introduction"
                         title="Mozambique"
                     >
                         Mozambique
                     </a>
                     , en{" "}
-                    <a href="https://www.eclt.org/impact/projects/eclt-in-tanzania#introduction">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.eclt.org/impact/projects/eclt-in-tanzania#introduction">
                         Tanzanie
                     </a>{" "}
                     et en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-uganda#introduction"
                         title="Ouganda"
                     >
@@ -91,7 +91,7 @@ const fr = () => {
                     services &eacute;ducatifs, sensibiliser, renforcer les
                     communaut&eacute;s et r&eacute;duire la pauvret&eacute;. En
                     2015, l&rsquo;ECLT a commenc&eacute; un{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.eclt.org/en/news-and-insights/the-ilo-eclt-public-private-partnership-2015-2018-global-guidance-on-hazardous-child-labour-in-tobacco-growing"
                         title="Partenariat public-priv&eacute; de 3&nbsp;ans avec l&rsquo;OIT"
                     >
@@ -113,7 +113,7 @@ const fr = () => {
                 </h2>
                 <p>
                     La{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.ilo.org/ipec/Action/CSR/clp/lang--fr/index.htm"
                         title="Plateforme sur le travail des enfants"
                     >
@@ -140,14 +140,14 @@ const fr = () => {
                     de l&rsquo;homme et les questions de travail (HRLWG) du
                     Pacte mondial de l&rsquo;ONU, aux c&ocirc;t&eacute;s de
                     l&rsquo;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ioe-emp.org/"
                         title="Organisation internationale des employeurs (OIE)"
                     >
                         Organisation internationale des employeurs (OIE)
                     </a>{" "}
                     et de la{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.ituc-csi.org/"
                         title="Conf&eacute;d&eacute;ration syndicale internationale (CSI)"
                     >
@@ -160,7 +160,7 @@ const fr = () => {
                     v&ecirc;tements et de l&rsquo;extraction mini&egrave;re, ont
                     contribu&eacute; &agrave; l&rsquo;&eacute;laboration
                     d&rsquo;un{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/ipecinfo/product/download.do?type=document&amp;id=27555"
                         title="Outil d'orientation sur le travail des enfants &agrave; l'intention des entreprises"
                     >
@@ -171,7 +171,7 @@ const fr = () => {
                     sert de ressource aux soci&eacute;t&eacute;s pour satisfaire
                     aux exigences en mati&egrave;re de diligence raisonnable
                     d&eacute;taill&eacute;s dans les{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ohchr.org/documents/publications/guidingprinciplesbusinesshr_fr.pdf"
                         title="Principes directeurs des Nations Unies relatifs aux entreprises et aux droits de l'homme"
                     >
@@ -219,14 +219,14 @@ const fr = () => {
                     afin d&rsquo;assurer le soutien plein et entier et la
                     participation compl&egrave;te du secteur des affaires pour
                     atteindre les{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://sustainabledevelopment.un.org/?menu=1300"
                         title="Objectifs de d&eacute;veloppement durable"
                     >
                         Objectifs de d&eacute;veloppement durable
                     </a>{" "}
                     en vertu de l&rsquo;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.alliance87.org/"
                         title="Alliance&nbsp;8.7"
                     >

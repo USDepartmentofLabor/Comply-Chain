@@ -215,7 +215,7 @@ const fr = () => {
                     subvention pour mettre en place le test pilote d&rsquo;un
                     programme exhaustif et durable visant &agrave; mettre en
                     &oelig;uvre tous les &eacute;l&eacute;ments des «&nbsp;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/issues/child-labor/fcea.htm"
                         title="Directives pour l&rsquo;&eacute;limination du travail des enfant et du travail forc&eacute; dans les cha&icirc;nes d&rsquo;approvisionnement agricoles"
                     >
@@ -270,7 +270,7 @@ const fr = () => {
             </p>
             <p>
                 En vertu de son{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.unodc.org/unodc/en/frontpage/2010/September/un-launches-global-plan-of-action-against-human-trafficking.html"
                     title="Plan d&rsquo;action mondial pour la lutte contre la traite des personnes"
                 >
@@ -286,7 +286,7 @@ const fr = () => {
             </p>
             <ul>
                 <li>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.unodc.org/documents/human-trafficking/TIP_1st_AidKit_English_V0981429.pdf"
                         title="Manuel de premier secours &agrave; l'usage des agents de d&eacute;tection et de r&eacute;pression de premi&egrave;re ligne face &agrave; des cas de traite des &ecirc;tres humains"
                     >
@@ -297,7 +297,7 @@ const fr = () => {
                     </a>
                 </li>
                 <li>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://humantraffickinghotline.org/resources/victim-translation-assistance-tool-life-support-messages-victims-human-trafficking"
                         title="Outil d&rsquo;aide &agrave; la traduction pour les victimes de la traite : messages d'assistance &agrave; la vie pour les victimes de la traite des personnes"
                     >

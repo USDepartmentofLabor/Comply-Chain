@@ -97,7 +97,7 @@ const en = () => {
                 audits effectively. In the past few years, several organizations
                 have made efforts to formalize and document the standard skills
                 and knowledge that an auditor should possess. For example, the{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.theapsca.org/"
                     title="Association of Professional Social Compliance Auditors (APSCA)"
                 >
@@ -159,7 +159,7 @@ const en = () => {
                     Better Work has several regulations in place for evaluation
                     teams, requiring two &ldquo;enterprise advisors&rdquo;
                     [auditors] to be present for each unannounced assessment.{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://betterwork.org/our-work/factory-services"
                         title="Better Work advisors"
                     >

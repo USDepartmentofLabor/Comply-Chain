@@ -40,7 +40,7 @@ const fr = () => {
                 sont aux prises aux d&eacute;fis du travail informel et &agrave;
                 domicile depuis des ann&eacute;es. En 2010, l&apos;Initiative
                 pour le commerce &eacute;thique a publi&eacute;{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
                     title="ETI Homeworker Guidelines"
                 >

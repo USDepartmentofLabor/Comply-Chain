@@ -61,7 +61,7 @@ const en = () => {
                 <p>
                     The FLA Board of Directors accredits both monitoring
                     organizations and individual lead auditors for its{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/independent-external-monitoring-reports"
                         title="Independent External Monitoring program"
                     >
@@ -71,7 +71,7 @@ const en = () => {
                     successive two-year periods. Prospective monitors may apply
                     for accreditation for one or more countries, and for all or
                     some provisions of the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/our-work/code-of-conduct"
                         title="FLA Code of Conduct"
                     >
@@ -98,7 +98,7 @@ const en = () => {
                     </strong>
                 </h2>
                 <p>
-                    <a href="https://www.bonsucro.com/en/" title="Bonsucro">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.bonsucro.com/en/" title="Bonsucro">
                         Bonsucro
                     </a>{" "}
                     is a global network of sugarcane farmers, traders, civil
@@ -150,14 +150,14 @@ const en = () => {
                 <p>
                     To ensure the independence of audits conducted against its
                     Social Accountability 8000 (SA8000) Standard,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.sa-intl.org/"
                         title="Social Accountability International (SAI)"
                     >
                         Social Accountability International (SAI)
                     </a>{" "}
                     founded{" "}
-                    <a href="http://www.saasaccreditation.org/">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.saasaccreditation.org/">
                         Social Accountability Accreditation Services (SAAS)
                     </a>{" "}
                     in 1997. SAAS later became a separate not-for-profit

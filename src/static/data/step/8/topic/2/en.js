@@ -10,21 +10,21 @@ const en = () => {
                 required public disclosure of audit findings and other program
                 elements as conditions for membership. However, several U.S.
                 laws enacted at both the state and federal levels, including the{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
                     title="California Transparency in Supply Chains Act"
                 >
                     California Transparency in Supply Chains Act
                 </a>
                 , as well as internationally, such as the{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.legislation.gov.uk/ukpga/2015/30/contents/enacted"
                     title="United Kingdom&rsquo;s Modern Slavery Act"
                 >
                     United Kingdom&rsquo;s Modern Slavery Act
                 </a>{" "}
                 and{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://business-humanrights.org/sites/default/files/documents/Texte%20PPL_EN-US.docx"
                     title="France&rsquo;s Duty of Vigilance Law"
                 >

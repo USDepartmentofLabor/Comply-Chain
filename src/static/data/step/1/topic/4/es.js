@@ -23,7 +23,7 @@ const es = () => {
                 </h2>
                 <p>
                     La{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/"
                         title="Red de abastecimiento responsable"
                     >
@@ -40,7 +40,7 @@ const es = () => {
                     civil, para lograr un cambio positivo para las marcas, los
                     consumidores y las comunidades afectadas. Actualmente, la
                     red est&aacute; trabajando con sus socios para prevenir y{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/minerals/"
                         title="erradicar los abusos en materia de derechos humanos en la extracci&oacute;n de minerales de conflicto en la Rep&uacute;blica Democr&aacute;tica del Congo"
                     >
@@ -49,7 +49,7 @@ const es = () => {
                         Rep&uacute;blica Democr&aacute;tica del Congo
                     </a>{" "}
                     y en la{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/the-cotton-pledge"
                         title="producci&oacute;n de algod&oacute;n en Uzbekist&aacute;n"
                     >
@@ -68,7 +68,7 @@ const es = () => {
                 </h2>
                 <p>
                     La{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.resolv.org/site-ppa/"
                         title="Alianza p&uacute;blico-privada para el comercio responsable de minerales"
                     >
@@ -134,14 +134,14 @@ const es = () => {
                     un enfoque m&aacute;s decisivo que permitiera atacar el
                     problema de los ni&ntilde;os que trabajan en las
                     plantaciones de ca&ntilde;a de az&uacute;car. El{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/agencies/ilab/our-work/projects/ABK3leap"
                         title="proyecto ABK3 LEAP"
                     >
                         proyecto ABK3 LEAP
                     </a>
                     , financiado por ILAB y puesto en pr&aacute;ctica por{" "}
-                    <a href="https://www.worldvision.org/" title="World Vision">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.worldvision.org/" title="World Vision">
                         World Vision
                     </a>
                     , se concentr&oacute; en movilizar al sector privado y
@@ -237,7 +237,7 @@ const es = () => {
                     Agropalma* (Brasil), DAABON* (Colombia) y Musim Mas*
                     (Singapur) se asociaron con marcas mundiales, como Danone*,
                     Ferrero* y L&rsquo;Or&eacute;al* y formaron el{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://poig.org/"
                         title="Palm Oil Innovation Group"
                     >

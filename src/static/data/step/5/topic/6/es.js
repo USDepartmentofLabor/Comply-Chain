@@ -98,7 +98,7 @@ const es = () => {
             </div>
             <p>
                 Fuente: Save the Children Dinamarca.{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.etiskhandel.no/noop/file.php?id=1580"
                     title="Save the Children Dinamarca, Child Labour Toolkit, Responsible Approaches to Child Labour in the Textile and Garment Industry"
                 >

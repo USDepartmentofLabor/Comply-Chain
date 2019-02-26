@@ -67,21 +67,21 @@ const fr = () => {
                 (C&ocirc;te d&apos;Ivoire et Ghana) <br /> Exemple&nbsp;2&nbsp;:
                 Cha&icirc;nes d&apos;approvisionnement de
                 l&apos;&eacute;lectronique&nbsp;&ndash;{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
                     title="Cobalt"
                 >
                     Cobalt
                 </a>{" "}
                 (voir page&nbsp;44 du PDF),{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
                     title="Tantale"
                 >
                     Tantale
                 </a>{" "}
                 (voir page&nbsp;43 du PDF),{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
                     title="&Eacute;tain"
                 >
@@ -113,7 +113,7 @@ const fr = () => {
                 qu&rsquo;une entreprise est responsable de toutes les incidences
                 et de tous les risques associ&eacute;s &agrave; toutes les
                 entit&eacute;s de la cha&icirc;ne. Comme l&apos;indiquent les{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="Principes directeurs des Nations Unies relatifs aux entreprises et aux droits de l'homme"
                 >
@@ -150,7 +150,7 @@ const fr = () => {
             />
             <p className="small-text">
                 Source&nbsp;:{" "}
-                <a href="http://www.crea.org/">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.crea.org/">
                     Centre pour la r&eacute;flexion, l&rsquo;&eacute;ducation et
                     l&rsquo;action (CREA).
                 </a>
@@ -224,7 +224,7 @@ const fr = () => {
             />
             <p className="small-text">
                 Source&nbsp;:{" "}
-                <a href="https://corporate.target.com/">Target Corporation.</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://corporate.target.com/">Target Corporation.</a>
             </p>
             <div>
                 <expandable-item-no-icon>

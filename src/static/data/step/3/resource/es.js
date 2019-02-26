@@ -13,7 +13,7 @@ const es = () => {
                         <i>Model Policies</i>,{" "}
                     </em>
                     2014; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.americanbar.org/content/dam/aba/administrative/business_law/aba_model_policies.authcheckdam.pdf"
                         title="<i>Model Policies</i>, 2014"
                     >
@@ -30,7 +30,7 @@ const es = () => {
                     </em>
                     , 2012; Versi&oacute;n completa disponible en idioma
                     ingl&eacute;s solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf"
                         title="<i>Dhaka Principles for Migration with Dignity</i>"
                     >
@@ -44,7 +44,7 @@ const es = () => {
                         <i>Statement of Principles</i>,{" "}
                     </em>
                     2013; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.iccr.org/sites/default/files/resources_attachments/2013ICCR_HTPrinciplesFINAL112013.pdf"
                         title="<i>Statement of Principles</i>"
                     >
@@ -62,7 +62,7 @@ const es = () => {
                     </em>
                     . Alemania, junio de 2010; disponible en idioma
                     ingl&eacute;s solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.ftc.gov/sites/default/files/documents/public_events/enforceable-codes-conduct-protecting-consumers-across-borders/iseal-code-good-practice.pdf"
                         title="<i>Code of Good Practice: Setting Social and Environmental Standards v 5.0</i>"
                     >
@@ -90,7 +90,7 @@ const es = () => {
                         <i>How to Develop a Human Rights Policy</i>
                     </em>
                     , 2011; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ohchr.org/Documents/Publications/DevelopHumanRightsPolicy_en.pdf"
                         title="<i>&gt;A Guide for Business:</i><i> </i><i>How to Develop a Human Rights Policy</i>"
                     >
@@ -108,7 +108,7 @@ const es = () => {
                     </em>
                     , 2da ed., 2009; disponible en idioma ingl&eacute;s
                     solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ohchr.org/Documents/Publications/GuideHRBusinessen.pdf"
                         title="<i>A Guide for Integrating Human Rights Into Business Management</i>"
                     >
@@ -122,7 +122,7 @@ const es = () => {
                         <i>Human Rights and Business Learning Tool</i>
                     </em>
                     ; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://human-rights-and-business-learning-tool.unglobalcompact.org/&amp;exitTitle=human-rights-and-business-learning-tool.unglobalcompact.org&amp;fedpage=no"
                         title="<i>Human Rights and Business Learning Tool</i>"
                     >
@@ -140,7 +140,7 @@ const es = () => {
                         <i>Global Compact</i>
                     </em>
                     , 2010; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.unglobalcompact.org/docs/issues_doc/labour/tools_guidance_materials/Principles_to_Practice.pdf&amp;exitTitle=www.unglobalcompact.org&amp;fedpage=no"
                         title="<i>From Principles to Practice:</i><i> </i><i>The Role of SA8000 in Implementing the U.N. Global Compact</i> "
                     >
@@ -157,7 +157,7 @@ const es = () => {
                         <i>Embedding Human Rights in Business Practice IV</i>
                     </em>
                     , 2013; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.unglobalcompact.org/library/401"
                         title="<i>Embedding Human Rights in Business Practice IV</i>"
                     >
@@ -174,7 +174,7 @@ const es = () => {
                         </i>{" "}
                     </em>{" "}
                     disponible en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://helpwanted.verite.org/helpwanted/toolkit"
                         title="<i>Kit de herramientas para la contrataci&oacute;n justa</i>"
                     >
@@ -185,7 +185,7 @@ const es = () => {
                 <li>
                     Verit&eacute;. <em>Responsible Sourcing Tool; </em>
                     disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/codeofconduct"
                         title="<i>Instrumento de abastecimiento responsable</i>"
                     >

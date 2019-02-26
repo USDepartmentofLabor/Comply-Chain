@@ -69,7 +69,7 @@ const es = () => {
                     como el alojamiento, las condiciones de trabajo, el salario
                     y los procedimientos de presentaci&oacute;n de
                     reclamaciones. Las{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.patagonia.com/static/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw604fc14d/PDF-US/Migrant_Worker_Employment_Standards.pdf"
                         title="Normas de empleo de trabajadores migrantes"
                     >
@@ -81,7 +81,7 @@ const es = () => {
                 <p>
                     Para obtener m&aacute;s informaci&oacute;n, v&eacute;ase el
                     art&iacute;culo (en ingl&eacute;s) Patagonia:{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.patagonia.com/blog/2015/06/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/"
                         title="<i>T</i><i>he Unacceptably High Cost of Labor- How a deeper dive into our supply chain led to a new Migrant Worker Standard</i>."
                     >
@@ -99,7 +99,7 @@ const es = () => {
             <p>
                 Un documento de pol&iacute;tica importante que se centra en los
                 trabajadores migrantes vulnerables es el titulado
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf"
                     title="<i>Dhaka Principles for Migration with Dignity</i>"
                 >
@@ -113,7 +113,7 @@ const es = () => {
                 los reclutadores de trabajadores migrantes a fin de garantizar
                 una migraci&oacute;n con dignidad. Los Principios de Dhaka
                 fueron formulados por el{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.ihrb.org/"
                     title="Institute for Human Rights and Business"
                 >
@@ -122,7 +122,7 @@ const es = () => {
                 y cuentan con el apoyo de empresas, gobiernos, sindicatos y la
                 sociedad civil. Se basan en las normas internacionales de
                 derechos humanos y en los tres pilares de los{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="<i>Principios Rectores sobre empresas y derechos humanos</i>"
                 >
@@ -143,7 +143,7 @@ const es = () => {
                 </h2>
                 <p>
                     Lanzado en mayo de 2016, el{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment"
                         title="Leadership Group for Responsible Recruitment"
                     >
@@ -163,7 +163,7 @@ const es = () => {
                 </p>
                 <p>
                     Convocado por la organizaci&oacute;n no gubernamental{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.ihrb.org/"
                         title="Institute for Human Rights and Business"
                     >
@@ -186,7 +186,7 @@ const es = () => {
                     Leadership Group y los instrumentos de reclutamiento
                     &eacute;tico, consultar el portal sobre reclutamiento
                     responsable{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.ihrb.org/employerpays/"
                         title="Responsible Recruitment Gateway"
                     >

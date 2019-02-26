@@ -514,7 +514,7 @@ const fr = () => {
                 </p>
                 <p>
                     Pour plus d&apos;informations, voir le{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.inpacto.org.br/en/"
                         title="Site Web d&rsquo;InPACTO"
                     >

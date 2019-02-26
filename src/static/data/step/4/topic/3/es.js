@@ -342,7 +342,7 @@ const es = () => {
                 agr&iacute;cola, algunos trabajadores pueden ser analfabetos. El
                 c&oacute;digo de conducta de Starbucks* para el caf&eacute;,
                 conocido como las{" "}
-                <a href="https://www.scsglobalservices.com/starbucks-cafe-practices">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.scsglobalservices.com/starbucks-cafe-practices">
                     Pr&aacute;cticas C.A.F.E.
                 </a>
                 , contempla el requisito de que todos los trabajadores

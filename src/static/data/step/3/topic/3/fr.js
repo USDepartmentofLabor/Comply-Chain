@@ -87,7 +87,7 @@ const fr = () => {
             </ol>
             <p>
                 Source&nbsp;: Article 3 de la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
                     title="Convention 182 de l&rsquo;OIT"
                 >
@@ -164,7 +164,7 @@ const fr = () => {
             </p>
             <p>
                 Dans{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
                     title="Combattre le travail forc&eacute;&nbsp;: Manuel pour les employeurs et le secteur priv&eacute;&nbsp;&ndash; Brochure 3"
                 >
@@ -177,7 +177,7 @@ const fr = () => {
                 sur les normes relatives au travail forc&eacute; que les
                 entreprises devraient envisager d&rsquo;inclure dans leurs
                 codes. Les{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://business-humanrights.org/en/pdf-athens-ethical-principles"
                     title="Principes &eacute;thiques d&rsquo;Ath&egrave;nes"
                 >
@@ -186,7 +186,7 @@ const fr = () => {
                 , ensemble de sept principes de lutte contre la traite
                 vis-&agrave;-vis desquels les soci&eacute;t&eacute;s peuvent
                 volontairement s&rsquo;engager et ses{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://fpbb.pl/user_upload/static/file/Luxor_Implementation_Guidelines_Ethical_Principles.pdf"
                     title="Directives d&rsquo;application de Louxor"
                 >
@@ -195,7 +195,7 @@ const fr = () => {
                 en annexe, qui peuvent aider les entreprises &agrave; incorporer
                 des dispositions en mati&egrave;re de lutte contre la traite
                 dans leurs codes, les{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.iccr.org/sites/default/files/resources_attachments/2013ICCR_HTPrinciplesFINAL112013.pdf"
                     title="D&eacute;clarations de principes et pratiques recommand&eacute;es en mati&egrave;re de lutte contre la traite des personnes et l&rsquo;esclavage moderne"
                 >
@@ -204,14 +204,14 @@ const fr = () => {
                     traite des personnes et l&rsquo;esclavage moderne
                 </a>{" "}
                 [en anglais] de l&rsquo;
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.iccr.org/"
                     title="Interfaith Center on Corporate Responsibility (ICCR)"
                 >
                     Interfaith Center on Corporate Responsibility (ICCR)
                 </a>{" "}
                 et les{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.americanbar.org/content/dam/aba/administrative/business_law/aba_model_policies.authcheckdam.pdf"
                     title="Politiques mod&egrave;les pour les entreprises et les fournisseurs relatives &agrave; la traite &agrave; des fins d&rsquo;exploitation dans le travail et au travail des enfants"
                 >
@@ -284,7 +284,7 @@ const fr = () => {
                 </p>
                 <p>
                     Hewlett Packard Enterprise*,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www8.hp.com/h20195/v2/GetPDF.aspx/c05116077.pdf"
                         title="Document d&rsquo;orientation normalis&eacute;e concernant les travailleurs migrants &eacute;trangers au sein des cha&icirc;nes d&rsquo;approvisionnement de la soci&eacute;t&eacute; Hewlett Packard"
                     >
@@ -301,7 +301,7 @@ const fr = () => {
             </div>
             <p>
                 L&rsquo;
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/"
                     title="Outil d&rsquo;approvisionnement responsable"
                 >
@@ -313,7 +313,7 @@ const fr = () => {
                 travail forc&eacute; dans les cha&icirc;nes
                 d&rsquo;approvisionnement au niveau international. Lanc&eacute;
                 en&nbsp;2016 par{" "}
-                <a href="https://www.verite.org/" title="Verit&eacute;">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/" title="Verit&eacute;">
                     Verit&eacute;
                 </a>{" "}
                 et le d&eacute;partement d&apos;&Eacute;tat des
@@ -326,7 +326,7 @@ const fr = () => {
                 identifier, pr&eacute;venir et traiter les cas de travail
                 forc&eacute; au sein des cha&icirc;nes
                 d&rsquo;approvisionnement. L&rsquo;outil&nbsp;1,{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/codeofconduct"
                     title="Exemples de dispositions de code de conduite"
                 >
@@ -338,7 +338,7 @@ const fr = () => {
                 contient &eacute;galement d&rsquo;autres outils concernant le
                 recrutement responsable de la main d&apos;&oelig;uvre, notamment
                 l&rsquo;outil&nbsp;3,{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/laborrecruitments"
                     title="Crit&egrave;res de s&eacute;lection et d&rsquo;&eacute;valuation de candidats au recrutement de la main d'&oelig;uvre"
                 >
@@ -701,7 +701,7 @@ const fr = () => {
                 </p>
                 <p>
                     <strong>Source&nbsp;: </strong>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/codeofconduct"
                         title="Outil&nbsp;1, Exemples de dispositions de code de conduite"
                     >
@@ -717,7 +717,7 @@ const fr = () => {
                         Voir &eacute;galement Outil d&rsquo;approvisionnement
                         responsable&nbsp;1A,{" "}
                     </strong>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/recruitmentandemployment"
                         title="Exemples de r&eacute;f&eacute;rences de bonnes pratiques en mati&egrave;re de recrutement et d&rsquo;emploi"
                     >
@@ -730,7 +730,7 @@ const fr = () => {
                     [en anglais].
                 </p>
                 <p>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://responsiblesourcingtool.org/"
                         title="ResponsibleSourcingTool.org"
                     >
@@ -738,18 +738,18 @@ const fr = () => {
                     </a>{" "}
                     est le fruit d&rsquo;un travail de collaboration entre le
                     D&eacute;partement d&apos;&Eacute;tat des &Eacute;tats-Unis,{" "}
-                    <a href="https://www.verite.org/" title="Verit&eacute;">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/" title="Verit&eacute;">
                         Verit&eacute;
                     </a>
                     ,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://madeinafreeworld.com/"
                         title="Made in a Free World"
                     >
                         Made in a Free World
                     </a>{" "}
                     et l&rsquo;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.aspeninstitute.org/"
                         title="Aspen Institute"
                     >

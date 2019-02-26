@@ -72,7 +72,7 @@ const es = () => {
                 <p>
                     La Junta Directiva de la FLA acredita tanto a organismos de
                     vigilancia como a auditores independientes para su{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/independent-external-monitoring-reports"
                         title="programa de vigilancia independiente externa"
                     >
@@ -82,7 +82,7 @@ const es = () => {
                     renovable por otros dos a&ntilde;os. Los aspirantes pueden
                     postularse para acreditarse para un pa&iacute;s o m&aacute;s
                     y para todas o algunas de las disposiciones del{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/our-work/code-of-conduct"
                         title="C&oacute;digo de conducta de la FLA"
                     >
@@ -113,7 +113,7 @@ const es = () => {
                     </strong>
                 </h2>
                 <p>
-                    <a href="https://www.bonsucro.com/en/" title="Bonsucro">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.bonsucro.com/en/" title="Bonsucro">
                         Bonsucro
                     </a>{" "}
                     es una red mundial conformada por agricultores,
@@ -174,14 +174,14 @@ const es = () => {
                     A fin de garantizar la independencia de las
                     auditor&iacute;as realizadas de conformidad con la norma de
                     rendici&oacute;n de cuentas social 8000 (SA8000), en 1997,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.sa-intl.org/"
                         title="Social Accountability International (SAI)"
                     >
                         Social Accountability International (SAI)
                     </a>{" "}
                     fund&oacute; la entidad{" "}
-                    <a href="http://www.saasaccreditation.org/">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.saasaccreditation.org/">
                         Social Accountability Accreditation Services
                     </a>{" "}
                     (Servicios de Acreditaci&oacute;n de Responsabilidad Social

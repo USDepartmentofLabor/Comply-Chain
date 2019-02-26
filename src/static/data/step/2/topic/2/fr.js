@@ -38,7 +38,7 @@ const fr = () => {
                 dans toutes les unit&eacute;s pertinentes d&rsquo;une
                 entreprise. Voici une ressource qui d&eacute;taille en
                 profondeur cette question [en anglais]&nbsp;:{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.asyousow.org/reports/best-current-practices-in-purchasing-the-apparel-industry"
                     title="Best Current Practices in Purchasing: The Apparel Industry"
                 >

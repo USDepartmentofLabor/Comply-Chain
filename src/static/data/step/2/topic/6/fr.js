@@ -465,7 +465,7 @@ const fr = () => {
                     citoyens, et qui fait face encore aujourd&apos;hui &agrave;
                     d&apos;&eacute;normes difficult&eacute;s de gouvernance et
                     des droits de l&apos;homme.{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.leberjeweler.com/about/burma.php3/?lang=en"
                         title="Leber Jeweler Inc."
                     >
@@ -474,7 +474,7 @@ const fr = () => {
                     , entreprise familiale bas&eacute;e &agrave; Chicago,
                     n&apos;ach&egrave;te aucune pierre pr&eacute;cieuse birmane.
                     En 2004, l&apos;entreprise a cr&eacute;&eacute; le{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.leberjeweler.com/about/burma.php3"
                         title="Jewelers&rsquo; Burma Relief Project"
                     >
@@ -488,7 +488,7 @@ const fr = () => {
                     religion. Le projet faisait &eacute;galement partie
                     d&apos;un effort de lobbying qui a amen&eacute; le
                     Congr&egrave;s des &Eacute;tats-Unis &agrave; adopter la{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.treasury.gov/resource-center/sanctions/Documents/pl110_286_jade_act.pdf"
                         title="loi Tom Lantos Block Burmese JADE de 2008"
                     >
@@ -548,7 +548,7 @@ const fr = () => {
                 </p>
                 <p>
                     Source&nbsp;: Organisation internationale du travail,&nbsp;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.refworld.org/docid/40360bf34.html"
                         title="Trafficking in Human Beings: New Approaches to Combating the Problem"
                     >
@@ -635,7 +635,7 @@ const fr = () => {
                     &agrave; faciliter l&rsquo;&eacute;radication de la
                     pauvret&eacute;). En r&eacute;compense de ses efforts, il a
                     re&ccedil;u le prix{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/agencies/ilab/issues/child-labor/iqbal"
                         title="Prix Iqbal Masih"
                     >
@@ -646,7 +646,7 @@ const fr = () => {
                     internationaux de lutte contre le travail des enfants
                     &agrave; l&rsquo;&eacute;chelle mondiale. Pour en savoir
                     plus sur ces travaux et le prix Iqbal Masih, rendez-vous sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.dol.gov/ilab"
                         title="http://www.dol.gov/ilab"
                     >
@@ -705,7 +705,7 @@ const fr = () => {
                     conflit civil et d&rsquo;instabilit&eacute;, constitue un
                     environnement op&eacute;rationnel incertain. Mais la branche
                     salvadorienne de League Collegiate Outfitter,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.league91.com/league-central-america-making-difference-el-salvador/"
                         title="League Central America"
                     >
@@ -769,7 +769,7 @@ const fr = () => {
                     que les hommes et gravissent rarement les &eacute;chelons
                     dans leurs usines. Prenant acte de ce probl&egrave;me, Gap
                     Inc. a lanc&eacute; le{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.bewhatspossible.com/pace"
                         title="Programme P.A.C.E."
                     >
@@ -903,7 +903,7 @@ const fr = () => {
                     Creates Hope and Second Chances in El Salvador. [en ligne,
                     disponible le 8&nbsp;mai 2017]&nbsp;; disponible [en
                     anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://next.bncollege.com/league-collegiate-outfitters/"
                         title="Barnes &amp; Noble College League Collegiate Outfitters Creates Hope and Second Chances in El Salvador."
                     >
@@ -914,7 +914,7 @@ const fr = () => {
                 <li>
                     Business &amp; Human Rights Resource Centre,{" "}
                     <em>Portail conflits et paix. </em>Disponible sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.business-humanrights.org/fr/conflits-et-paix/derni%C3%A8res-infos-%C2%AB-conflits-et-paix-%C2%BB"
                         title="Portail conflits et paix."
                     >
@@ -931,7 +931,7 @@ const fr = () => {
                     </em>
                     . Banque mondiale, Washington, DC, 26&nbsp;ao&ucirc;t
                     2008&nbsp;; disponible [en anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://siteresources.worldbank.org/JAPANINJAPANESEEXT/Resources/515497-1201490097949/080827_The_Developing_World_is_Poorer_than_we_Thought.pdf"
                         title="Le monde en d&eacute;veloppement est plus pauvre que nous ne pensions, mais pas moins efficace pour autant dans la lutte contre la pauvret&eacute;"
                     >
@@ -943,7 +943,7 @@ const fr = () => {
                     Ethical Trading Initiative.{" "}
                     <em>Base Code Guidance: Living Wages&nbsp;; </em>disponible
                     [en anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf"
                         title="Base Code Guidance: Living Wages;"
                     >
@@ -955,7 +955,7 @@ const fr = () => {
                     Fair Labor Association.<em> Fair Compensation</em> [en
                     ligne, consult&eacute; le 15&nbsp;mai 2017]&nbsp;;
                     disponible [en anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/report-type/fair-compensation"
                         title="Fair Compensation"
                     >
@@ -971,7 +971,7 @@ const fr = () => {
                     </em>
                     27&nbsp;f&eacute;vrier 2017&nbsp;; disponible [en anglais]
                     sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges"
                         title="Fair Compensation for Farmworkers: Emerging Good Practices and Challenges;"
                     >
@@ -987,7 +987,7 @@ const fr = () => {
                     </em>
                     3&nbsp;ao&ucirc;t&nbsp;2016&nbsp;; disponible [en anglais]
                     sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries"
                         title="Toward Fair Compensation in Global Supply Chains: Factory Pay Assessments in 21 Countries;"
                     >
@@ -999,7 +999,7 @@ const fr = () => {
                     Rapport mondial sur les salaires 2016/17 de l&rsquo;OIT
                     (2016)&nbsp;: Les in&eacute;galit&eacute;s salariales au
                     travail&nbsp;:{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_545416.pdf"
                         title="Rapport mondial sur les salaires 2016/17&nbsp;: Les in&eacute;galit&eacute;s salariales au travail"
                     >
@@ -1013,7 +1013,7 @@ const fr = () => {
                         Responsabilit&eacute; sociale d&apos;entreprise (RSE)
                     </em>{" "}
                     [page Web], disponible sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/ipec/Action/CSR/lang--fr/index.htm"
                         title="Responsabilit&eacute; sociale d'entreprise (RSE)"
                     >
@@ -1023,7 +1023,7 @@ const fr = () => {
                 <li>
                     OIT (2016) Non-Standard Employment Around the World&nbsp;-
                     Understanding Challenges, Shaping Prospects{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/global/publications/books/WCMS_534326/lang--en/index.htm"
                         title="Non-Standard Employment Around the World&nbsp;- Understanding Challenges, Shaping Prospects"
                     >
@@ -1036,7 +1036,7 @@ const fr = () => {
                     d&eacute;cent : Guide de ressources sur les
                     politiques&nbsp;&ndash; soutenir les transitions vers la
                     formalit&eacute;{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/emppolicy/pubs/WCMS_229834/lang--fr/index.htm"
                         title="&Eacute;conomie informelle et travail d&eacute;cent : Guide de ressources sur les politiques&nbsp;&ndash; soutenir les transitions vers la formalit&eacute;"
                     >
@@ -1047,7 +1047,7 @@ const fr = () => {
                 <li>
                     OIT (2015) World Employment Social Outlook&nbsp;- The
                     Changing Nature of Jobs.{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/global/research/global-reports/weso/2015-changing-nature-of-jobs/WCMS_368626/lang--fr/index.htm"
                         title="World Employment Social Outlook&nbsp;- The Changing Nature of Jobs."
                     >
@@ -1062,7 +1062,7 @@ const fr = () => {
                 <li>
                     OIT (2014) World Social Protection Report: Building economic
                     recovery, inclusive development and social justice.{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--fr/index.htm"
                         title="World Social Protection Report: Building economic recovery, inclusive development and social justice."
                     >
@@ -1073,7 +1073,7 @@ const fr = () => {
                     ISEAL Alliance. <em>Global Living Wage Coalition</em> [en
                     ligne, consult&eacute; le 15&nbsp;mai 2017]&nbsp;;
                     disponible [en anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition"
                         title="&gt;Global Living Wage Coalition"
                     >
@@ -1088,7 +1088,7 @@ const fr = () => {
                         Business Sense.
                     </em>{" "}
                     21&nbsp;septembre&nbsp;2015. Disponible [en anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0."
                         title="At Salvadoran Factory, Helping Troubled Youth Makes Business Sense"
                     >
@@ -1111,7 +1111,7 @@ const fr = () => {
                     </em>
                     Oxfam International, 29&nbsp;septembre&nbsp;2015&nbsp;;
                     disponible [en anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815"
                         title="In Work but Trapped in Poverty: A Summary of Five Studies Conducted by Oxfam, with Updates on Progress Along the Road to a Living Wage"
                     >
@@ -1122,7 +1122,7 @@ const fr = () => {
                 <li>
                     Banque mondiale. Indicateurs du d&eacute;veloppement dans le
                     monde 2017. Washington, DC, avril 2017 ; disponible sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://data.worldbank.org/data-catalog/world-development-indicators"
                         title="Banque mondiale. Indicateurs du d&eacute;veloppement dans le monde 2017."
                     >
@@ -1134,7 +1134,7 @@ const fr = () => {
                     Institut de la Banque mondiale. Business and Poverty:
                     Opening Markets to the Poor. Washington, DC, juin 2008 ;
                     disponible [en anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://siteresources.worldbank.org/CGCSRLP/Resources/DevelopmentOutreachBusinessandPovertyBrochure.pdf"
                         title="Institut de la Banque mondiale. Business and Poverty: Opening Markets to the Poor."
                     >
@@ -1145,7 +1145,7 @@ const fr = () => {
                 <li>
                     Banque mondiale. Fragilit&eacute;, conflits et violences.
                     2017.{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.banquemondiale.org/fr/topic/fragilityconflictviolence/overview"
                         title="http://www.banquemondiale.org/fr/topic/fragilityconflictviolence/overview"
                     >
@@ -1155,7 +1155,7 @@ const fr = () => {
                 <li>
                     Internal Displacement Monitoring Centre. 2016 Global Report
                     on Internal Displacement [en anglais].{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.internal-displacement.org/globalreport2016/"
                         title="http://www.internal-displacement.org/globalreport2016/"
                     >

@@ -64,7 +64,7 @@ const en = () => {
             </p>
             <p>
                 The Fair Labor Association (FLA) publishes{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
                     title="reports on all factory assessments"
                 >

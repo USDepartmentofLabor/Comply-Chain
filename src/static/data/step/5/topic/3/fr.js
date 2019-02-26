@@ -87,7 +87,7 @@ const fr = () => {
                 Le travail forc&eacute; est une violation extr&ecirc;mement
                 complexe des droits du travail et il peut prendre de nombreuses
                 formes. Le document{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_099626/lang--en/index.htm"
                     title="Combattre le travail forc&eacute; : Manuel pour les employeurs et le secteur priv&eacute;&nbsp;&ndash; Brochure 4"
                 >
@@ -104,7 +104,7 @@ const fr = () => {
                 dans les cha&icirc;nes d&rsquo;approvisionnement
                 internationales. En 2016, l&rsquo;OIT a &eacute;galement
                 lanc&eacute; une application mobile,{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm"
                     title="Points de contr&ocirc;le &agrave; l&rsquo;intention des entreprises&nbsp;: &eacute;liminer et pr&eacute;venir le travail forc&eacute;"
                 >
@@ -339,7 +339,7 @@ const fr = () => {
                 leurs outils d&apos;audit et il peut donc &ecirc;tre difficile
                 de trouver des exemples pour orienter l&rsquo;&eacute;laboration
                 de votre outil d&apos;audit. L&rsquo;
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://responsiblesourcingtool.org/"
                     title="l&rsquo;Outil d&rsquo;approvisionnement responsable,"
                 >
@@ -1285,7 +1285,7 @@ const fr = () => {
                         Source&nbsp;: Outil d&rsquo;approvisionnement
                         responsable&nbsp;1A,{" "}
                     </strong>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/recruitmentandemployment"
                         title="Exemples de r&eacute;f&eacute;rences de bonnes pratiques en mati&egrave;re de recrutement et d&rsquo;emploi"
                     >
@@ -1298,7 +1298,7 @@ const fr = () => {
                     [en anglais].
                 </p>
                 <p>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://responsiblesourcingtool.org/"
                         title="ResponsibleSourcingTool.org"
                     >
@@ -1306,18 +1306,18 @@ const fr = () => {
                     </a>{" "}
                     est le fruit d&rsquo;un travail de collaboration entre le
                     d&eacute;partement d&apos;&Eacute;tat des &Eacute;tats-Unis,{" "}
-                    <a href="https://www.verite.org/" title="Verit&eacute;">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/" title="Verit&eacute;">
                         Verit&eacute;
                     </a>
                     ,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://madeinafreeworld.com/"
                         title="Made in a Free World"
                     >
                         Made in a Free World
                     </a>{" "}
                     et l&rsquo;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.aspeninstitute.org/"
                         title="Aspen Institute"
                     >
@@ -1367,7 +1367,7 @@ const fr = () => {
                 auto-&eacute;valuations afin de souligner les risques potentiels
                 de travail forc&eacute; et de traite des personnes dans la
                 cha&icirc;ne d&rsquo;approvisionnement. L&rsquo;
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://responsiblesourcingtool.org/supplierselfassessment"
                     title="Exemple d&rsquo;outil d&rsquo;auto-&eacute;valuation des fournisseurs/sous-traitants"
                 >
@@ -1392,7 +1392,7 @@ const fr = () => {
             </p>
             <p>
                 Les{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://responsiblesourcingtool.org/download/reports/Verite_BusinessAuthenticationCriteria_r1.pdf"
                     title="Crit&egrave;res d&rsquo;authentification institutionnelle de lutte contre la traite des personnes"
                 >

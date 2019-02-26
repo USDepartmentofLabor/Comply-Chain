@@ -38,7 +38,7 @@ const en = () => {
                 If your social compliance report is embedded within a larger
                 company sustainability or CSR report, guidance is available for
                 developing such reports. A recommended resource is the{" "}
-                <a href="https://www.globalreporting.org/Pages/default.aspx">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.globalreporting.org/Pages/default.aspx">
                     Global Reporting Initiative (GRI)
                 </a>
                 , a network-based organization that&nbsp;produces a reporting
@@ -49,7 +49,7 @@ const en = () => {
                 multi-stakeholder, consensus-building&nbsp;process that includes
                 business, civil society, labor, and academic&nbsp;and
                 professional institutions. GRI makes available a{" "}
-                <a href="http://database.globalreporting.org/" title="database">
+                <a target="_blank" rel="noopener noreferrer" href="http://database.globalreporting.org/" title="database">
                     database
                 </a>{" "}
                 of company CSR and sustainability reports for free public
@@ -57,7 +57,7 @@ const en = () => {
             </p>
             <p>
                 Another recommended resource is the{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.ungpreporting.org/about-us/"
                     title="UN Guiding Principles Reporting Framework"
                 >
@@ -66,7 +66,7 @@ const en = () => {
                 . This Reporting Framework provides comprehensive guidance and a
                 questionnaire through which companies can benchmark their
                 performance against the{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="UN Guiding Principles on Business and Human Rights"
                 >
@@ -74,7 +74,7 @@ const en = () => {
                 </a>{" "}
                 and report on how they are implementing them. The civil society
                 organization Shift publishes the{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ungpreporting.org/reportingdatabase/"
                     title="UN Guiding Principles Reporting Database"
                 >
@@ -104,14 +104,14 @@ const en = () => {
                 <li>
                     <strong>Your suppliers.</strong> For example, electronics
                     company <strong>Hewlett-Packard* </strong>has made its{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/supplychain.html?jumpid=in_r138_us/en/corp/sustainability/main-menu-society"
                         title="supplier list"
                     >
                         supplier list
                     </a>{" "}
                     public since 2007 and Target Corporation* publishes{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Target-Global-Factory-List_Q2_2017.pdf"
                         title="list"
                     >
@@ -127,11 +127,11 @@ const en = () => {
                     social and environmental responsibility. For example,
                     outdoor sports gear retailer <strong>Patagonia*</strong>{" "}
                     publishes a{" "}
-                    <a href="http://www.patagonia.com/working-with-factories.html">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.patagonia.com/working-with-factories.html">
                         list of the factories producing its products
                     </a>{" "}
                     as well as an{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.patagonia.com/footprint.html"
                         title="interactive map"
                     >
@@ -173,7 +173,7 @@ const en = () => {
                     publish full audit reports, while others aggregate audit
                     data and publish it in compiled form. For example, the{" "}
                     <strong>FLA</strong> publishes{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
                         title="Tracking Charts"
                     >
@@ -182,7 +182,7 @@ const en = () => {
                     on its website that contain complete data from every audit
                     carried out on factories, as well as the actions taken by
                     FLA-affiliated companies to address the findings. The{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://sustainability.hm.com/en/sustainability/downloads-resources/resources/supplier-compliance.html"
                         title="Hennes and Mauritz"
                     >
@@ -190,7 +190,7 @@ const en = () => {
                     </a>
                     * website provides data on social compliance performance for
                     all first tier suppliers.{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.pmi.com/sustainability/good-agricultural-practices/upholding-labor-rights-on-the-farms"
                         title="Philip Morris International"
                     >

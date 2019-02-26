@@ -26,18 +26,18 @@ const en = () => {
                 child labor, forced labor and other labor standards in order to
                 earn the &ldquo;Fair Trade&rdquo; certification. For more
                 information, see the{" "}
-                <a href="http://www.fairtrade.net/child-labour.html">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.fairtrade.net/child-labour.html">
                     Fairtrade International
                 </a>{" "}
                 and{" "}
-                <a href="http://www.fairtradeusa.org/" title="Fair Trade USA">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.fairtradeusa.org/" title="Fair Trade USA">
                     Fair Trade USA
                 </a>{" "}
                 toolkits.
             </p>
             <p>
                 Some certification programs aim to meet the standards of the{" "}
-                <a href="http://www.isealalliance.org/" title="ISEAL Alliance">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.isealalliance.org/" title="ISEAL Alliance">
                     ISEAL Alliance
                 </a>
                 , an association of organizations that develops guidance on
@@ -64,7 +64,7 @@ const en = () => {
 
                 <p>
                     For over 20 years,{" "}
-                    <a href="https://goodweave.org/" title="GoodWeave">
+                    <a target="_blank" rel="noopener noreferrer" href="https://goodweave.org/" title="GoodWeave">
                         GoodWeave
                     </a>{" "}
                     has been working to transform the carpet industry by
@@ -93,7 +93,7 @@ const en = () => {
                 </p>
                 <p>
                     Learn more about the DOL-funded{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/projects/summaries/Afghanistan_Carpets.pdf"
                         title="Project to Prevent Child Labor in Home-Based Carpet Production in Afghanistan"
                     >

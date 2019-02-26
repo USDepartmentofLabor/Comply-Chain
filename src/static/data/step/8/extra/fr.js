@@ -38,7 +38,7 @@ const fr = () => {
                     <p>
                         <em>
                             Source&nbsp;:{" "}
-                            <a
+                            <a target="_blank" rel="noopener noreferrer"
                                 href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                                 title="Principes directeurs des Nations Unies relatifs aux entreprises et aux droits de l'homme"
                             >

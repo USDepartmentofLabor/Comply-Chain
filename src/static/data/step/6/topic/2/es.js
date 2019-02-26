@@ -51,7 +51,7 @@ const es = () => {
             </div>
             <p>
                 La publicaci&oacute;n{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://impacttlimited.com/wp-content/uploads/2017/01/Impactt_CLOPIndustrialcontexts_REVISION_26112008.pdf"
                     title="<i>Operational Procedures for Remediation of Child Labour in Industrial Contexts</i>"
                 >
@@ -753,7 +753,7 @@ const es = () => {
                             proceso de remediaci&oacute;n del programa{" "}
                         </strong>
                     </strong>
-                    <a href="https://betterwork.org/" title="Better Work">
+                    <a target="_blank" rel="noopener noreferrer" href="https://betterwork.org/" title="Better Work">
                         <strong>Better Work</strong>
                     </a>
                 </h2>

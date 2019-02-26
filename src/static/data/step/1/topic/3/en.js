@@ -397,7 +397,7 @@ const en = () => {
                 </p>
                 <p>
                     For more information, visit InPACTO&rsquo;s{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.inpacto.org.br/en/"
                         title="InPACTO&rsquo;s website"
                     >

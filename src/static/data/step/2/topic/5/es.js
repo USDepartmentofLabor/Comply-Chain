@@ -17,7 +17,7 @@ const es = () => {
                 humanos y se cuenta con instrumentos integrales para
                 acompa&ntilde;ar a las empresas en el proceso. Algunos ejemplos
                 son la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.cofemersimir.gob.mx/expediente/14565/mir/34590/archivo/948600"
                     title="Gu&iacute;a de Evaluaci&oacute;n y Gesti&oacute;n del Impacto a los Derechos Humanos "
                 >
@@ -25,21 +25,21 @@ const es = () => {
                     Impacto a los Derechos Humanos
                 </a>{" "}
                 de la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ifc.org/wps/wcm/connect/corp_ext_content/ifc_external_corporate_site/home"
                     title="Corporaci&oacute;n Financiera Internacional"
                 >
                     Corporaci&oacute;n Financiera Internacional
                 </a>
                 , el{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.ihrb.org/"
                     title="Institute for Human Rights and Business"
                 >
                     Institute for Human Rights and Business
                 </a>{" "}
                 y la publicaci&oacute;n{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.bsr.org/reports/BSR_Human_Rights_Impact_Assessments.pdf"
                     title="<i>Conducting an Effective Human Rights Impact Assessment: Guidelines, Steps, and Example, 2013</i>;"
                 >
@@ -51,7 +51,7 @@ const es = () => {
                     </em>
                 </a>{" "}
                 2013 [en ingl&eacute;s] de la organizaci&oacute;n{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.bsr.org/en/"
                     title="Business for Social Responsibility"
                 >
@@ -66,7 +66,7 @@ const es = () => {
                 comercializa y vende la empresa para identificar los que
                 seguramente ser&aacute;n producidos con trabajo infantil o
                 forzoso. Un recurso &uacute;til para esto es la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.dol.gov/ilab/reports/child-labor/list-of-goods/"
                     title="Lista de bienes producidos con trabajo infantil o trabajo forzoso"
                 >
@@ -79,7 +79,7 @@ const es = () => {
                 aplicaci&oacute;n, esta publicaci&oacute;n de ILAB, que se
                 actualiza peri&oacute;dicamente, es parte del mandato emanado de
                 la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.state.gov/j/tip/laws/61106.htm"
                     title="Ley de reautorizaci&oacute;n de la protecci&oacute;n a las v&iacute;ctimas de la trata de 2005 (TVPRA)"
                 >
@@ -87,14 +87,14 @@ const es = () => {
                     v&iacute;ctimas de la trata de 2005 (TVPRA)
                 </a>
                 . La Lista figura en la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.dol.gov/general/apps/ilab"
                     title="Aplicaci&oacute;n Sweat &amp; Toil"
                 >
                     aplicaci&oacute;n Sweat &amp; Toil
                 </a>
                 , junto con un gran acervo de informaci&oacute;n del informe{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings"
                     title="Conclusiones sobre las peores formas de trabajo infantil"
                 >
@@ -104,21 +104,21 @@ const es = () => {
                 </a>{" "}
                 del Departamento de Trabajo. La aplicaci&oacute;n Sweat &amp;
                 Toil, cuyo contenido tambi&eacute;n figura en el{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings"
                     title="Sitio web de ILAB"
                 >
                     sitio web de ILAB
                 </a>
                 , se puede descargar gratuitamente en la tienda de{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://itunes.apple.com/us/app/sweat-toil-child-labor-forced/id1018240593?ls=1"
                     title="iTunes"
                 >
                     iTunes
                 </a>{" "}
                 o{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://play.google.com/store/apps/details?id=gov.dol.childlabor"
                     title="Google Play"
                 >
@@ -319,7 +319,7 @@ const es = () => {
             <p>
                 Para tener una idea de c&oacute;mo se puede aplicar este enfoque
                 general en un sector en particular, en el{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
                     title="Instrumento de abastecimiento responsable 4: Recolecci&oacute;n de informaci&oacute;n y evaluaci&oacute;n de riesgos en las cadenas de suministro de la industria pesquera (en ingl&eacute;s)"
                 >
@@ -348,7 +348,7 @@ const es = () => {
                     desaf&iacute;os para hacer cumplir la normativa en materia
                     de trabajo infantil y trabajo forzoso en la industria
                     pesquera. La{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf"
                         title="Convenci&oacute;n de las Naciones Unidas sobre el Derecho del Mar"
                     >
@@ -398,7 +398,7 @@ const es = () => {
                     Unidos tambi&eacute;n adopta medidas para combatir la pesca
                     INDNR: un equipo de tareas presidencial abocado a combatir
                     la pesca INDNR lanz&oacute; un{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.nmfs.noaa.gov/ia/iuu/noaa_taskforce_report_final.pdf"
                         title="Plan de acci&oacute;n para aplicar las recomendaciones del equipo de tareas"
                     >
@@ -486,7 +486,7 @@ const es = () => {
                 <p>
                     Fuente: Corporaci&oacute;n de Inversiones Privadas en el
                     Extranjero de los EE.UU.,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
                         title="Declaraci&oacute;n de pol&iacute;tica ambiental y social"
                     >
@@ -527,7 +527,7 @@ const es = () => {
                 migrante, en sus cadenas de suministro podr&iacute;a haber
                 trabajo forzoso y trata de personas. Algunas fuentes que se
                 recomiendan para este tema son{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"
                     title="<i>Best Practice Guidance on Ethical Recruitment of Migrant Workers</i>"
                 >
@@ -537,14 +537,14 @@ const es = () => {
                     </i>
                 </a>{" "}
                 del{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.iccr.org/"
                     title="Interfaith Center on Corporate Responsibility (ICCR)"
                 >
                     Interfaith Center on Corporate Responsibility (ICCR)
                 </a>{" "}
                 y los{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
                     title="Principios generales y directrices para la contrataci&oacute;n equitativa"
                 >
@@ -568,13 +568,13 @@ const es = () => {
                 Philip Morris Kazajst&aacute;n* (PMK), filial propiedad absoluta
                 de la tabacalera Philip Morris International* (PMI). PMI
                 posteriormente encarg&oacute; a la ONG{" "}
-                <a href="https://www.verite.org/" title="Verit&eacute;">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/" title="Verit&eacute;">
                     Verit&eacute;
                 </a>
                 * que realizara una investigaci&oacute;n en el lugar de las
                 condiciones laborales en los campos de tabaco de
                 Kazajst&aacute;n y que redacatara un{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.verite.org/wp-content/uploads/2016/11/Verite_Report_for_PMI_on_Kazakhstan-2_May_2011.pdf"
                     title="Informe con recomendaciones"
                 >
@@ -600,14 +600,14 @@ const es = () => {
                 proveedores realizados por otras empresas o grupos constituyen
                 una fuente de datos muy &uacute;til. Para acceder a ellos, tal
                 vez sea requisito incorporarse al grupo, como el{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.sedexglobal.com/"
                     title="Supplier Ethical Data Exchange (SEDEX)"
                 >
                     Supplier Ethical Data Exchange (SEDEX)
                 </a>{" "}
                 y{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.verite.org/wp-content/uploads/2016/11/Verite_Report_for_PMI_on_Kazakhstan-2_May_2011.pdf"
                     title="Fair Factories Clearinghouse"
                 >
@@ -766,7 +766,7 @@ const es = () => {
             </ul>
             <p>
                 Texto adaptado de{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/public/english/dialogue/actemp/downloads/projects/child_guide3_en.pdf"
                     title="The role of employers&rsquo; organizations in combating child labour, Guide 3"
                 >

@@ -104,7 +104,7 @@ const es = () => {
             </p>
             <p>
                 Fuente:{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains"
                     title="<i>Perspectives on Information Management in Sustainable Supply Chains.</i> de BSR."
                 >

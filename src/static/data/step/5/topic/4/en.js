@@ -48,7 +48,7 @@ const en = () => {
                     requires a completed corrective action plan to remediate the
                     violations before production begins. For more information,
                     see{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://corporate.target.com/corporate-responsibility/responsible-sourcing/social-compliance/labor-and-human-rights"
                         title="Target&rsquo;s Standards of Vendor Engagement webpage"
                     >

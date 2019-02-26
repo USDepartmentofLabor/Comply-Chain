@@ -14,7 +14,7 @@ const fr = () => {
                 &Eacute;tats-Unis, plusieurs lois promulgu&eacute;es aux niveaux
                 f&eacute;d&eacute;ral et des &Eacute;tats am&eacute;ricains,
                 notamment la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
                     title="Loi de la Californie sur la transparence de la cha&icirc;ne d&rsquo;approvisionnement"
                 >
@@ -22,14 +22,14 @@ const fr = () => {
                     d&rsquo;approvisionnement
                 </a>
                 , ainsi que dans le reste du monde, comme la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.legislation.gov.uk/ukpga/2015/30/contents/enacted"
                     title="Loi du Royaume-Uni sur l&rsquo;esclavage moderne"
                 >
                     loi du Royaume-Uni sur l&rsquo;esclavage moderne
                 </a>{" "}
                 et la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://business-humanrights.org/sites/default/files/documents/Texte%20PPL_EN-US.docx"
                     title="Loi fran&ccedil;aise sur le devoir de vigilance"
                 >

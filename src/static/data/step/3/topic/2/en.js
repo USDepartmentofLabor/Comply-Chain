@@ -32,7 +32,7 @@ const en = () => {
             </p>
             <ul>
                 <li>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://levistrauss.com/unzipped-blog/tag/terms-of-engagement/"
                         title="Levi Strauss &amp; Co*. Terms of Engagement"
                     >
@@ -40,7 +40,7 @@ const en = () => {
                     </a>
                 </li>
                 <li>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.coca-colacompany.com/content/dam/journey/us/en/private/fileassets/pdf/unknown/unknown/SGP_Brochure_ENG.pdf"
                         title="Coca-Cola* Supplier Guiding Principles"
                     >
@@ -48,7 +48,7 @@ const en = () => {
                     </a>
                 </li>
                 <li>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://globalassets.starbucks.com/assets/1deb372ee3d840179e59c5b9c21cd5fe.pdf"
                         title="Starbucks* Supplier Responsibility Standards: Manufactured Goods and Services"
                     >
@@ -132,7 +132,7 @@ const en = () => {
                 ILO periodically on its implementation of each convention it has
                 ratified. The ILO&rsquo;s core labor standards are set forth in
                 the Declaration on{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/declaration/lang--en/index.htm"
                     title="Fundamental Principles and Rights at Work"
                 >
@@ -146,7 +146,7 @@ const en = () => {
             </p>
             <p>
                 The following constitute the{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/global/standards/introduction-to-international-labour-standards/conventions-and-recommendations/lang--en/index.htm"
                     title="set of core ILO conventions"
                 >
@@ -156,7 +156,7 @@ const en = () => {
                 occupational safety and health and other related labor issues.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C087"
                     title="Freedom of Association and Protection of the Right to Organize Convention, 1948 (No. 87)"
                 >
@@ -166,7 +166,7 @@ const en = () => {
                 .
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C098:NO"
                     title="Right to Organize and Collective Bargaining Convention, 1949 (No. 98)"
                 >
@@ -176,7 +176,7 @@ const en = () => {
                 . This is supplemented by Recommendation 163.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.ilo.org/dyn/normlex/en/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:312174,en:NO"
                     title="Forced Labor Convention, 1930 (No. 29)"
                 >
@@ -185,7 +185,7 @@ const en = () => {
                 . This is supplemented by Recommendation 35.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029"
                     title="Protocol of 2014 to the Forced Labor Convention, 1930"
                 >
@@ -194,7 +194,7 @@ const en = () => {
                 . This is supplemented by Recommendation 203.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C105:NO"
                     title="Abolition of Forced Labor Convention, 1957 (No. 105)"
                 >
@@ -203,7 +203,7 @@ const en = () => {
                 .
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C138:NO"
                     title="Minimum Age Convention, 1973 (No. 138)"
                 >
@@ -213,7 +213,7 @@ const en = () => {
                 Recommendation 146.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C182:NO"
                     title="Worst Forms of Child Labor Convention, 1999 (No. 182)"
                 >
@@ -222,7 +222,7 @@ const en = () => {
                 . This is supplemented by Recommendation 190.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C100:NO"
                     title="Equal Remuneration Convention, 1951 (No. 100)"
                 >
@@ -231,7 +231,7 @@ const en = () => {
                 . This is supplemented by Recommendation 90.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C111:NO"
                     title="Discrimination (Employment and Occupation) Convention, 1958 (No. 111)"
                 >
@@ -242,7 +242,7 @@ const en = () => {
             </p>
             <p>
                 The{" "}
-                <a href="http://www.ilo.org/empent/Publications/WCMS_094386/lang--en/index.htm">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/empent/Publications/WCMS_094386/lang--en/index.htm">
                     ILO&rsquo;s Tripartite Declaration of Principles Concerning
                     Multinational Enterprises and Social Policy
                 </a>
@@ -260,7 +260,7 @@ const en = () => {
             </p>
             <p>
                 Since 2010, the ILO has maintained a{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/empent/areas/business-helpdesk/lang--en/index.htm"
                     title="Helpdesk for Business on International Labor Standards"
                 >

@@ -122,7 +122,7 @@ const fr = () => {
                         Source&nbsp;: Organisation internationale de
                         normalisation (ISO){" "}
                     </em>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.iso.org/fr/standard/42546.html"
                         title="26000, Lignes directrices relatives &agrave; la responsabilit&eacute; soci&eacute;tale"
                     >

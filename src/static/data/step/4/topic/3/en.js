@@ -282,7 +282,7 @@ const en = () => {
                 It is important to note that in some industries, particularly
                 agriculture, some workers may not be literate. Starbucks&rsquo;*
                 code of conduct for coffee, known as the{" "}
-                <a href="https://www.scsglobalservices.com/starbucks-cafe-practices">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.scsglobalservices.com/starbucks-cafe-practices">
                     CAF&Eacute; Practices
                 </a>
                 , includes a requirement that all workers who are illiterate be

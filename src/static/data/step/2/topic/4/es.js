@@ -64,21 +64,21 @@ const es = () => {
                 Ejemplo 1: cadenas de suministro del cacao (Cote D&apos;Ivoire y
                 Ghana) <br /> Ejemplo 2: cadenas de suministro de
                 art&iacute;culos de electr&oacute;nica:{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
                     title="Cobalto"
                 >
                     cobalto
                 </a>{" "}
                 (v&eacute;ase la p&aacute;gina 44 del documento en PDF),{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
                     title="Tantalio"
                 >
                     tantalio
                 </a>{" "}
                 (v&eacute;ase la p&aacute;gina 43 del documento en PDF),{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
                     title="Esta&ntilde;o"
                 >
@@ -107,7 +107,7 @@ const es = () => {
                 necesariamente que la empresa sea responsable de todas las
                 consecuencias y riesgos de cada entidad en la cadena. Conforme
                 se afirma en los{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="Principios Rectores sobre las Empresas y los Derechos Humanos de las Naciones Unidas"
                 >
@@ -139,7 +139,7 @@ const es = () => {
             />
             <p className="small-text">
                 Fuente:{" "}
-                <a href="http://www.crea.org/">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.crea.org/">
                     Centro para la Reflexi&oacute;n, la Educaci&oacute;n y la
                     Acci&oacute;n (CREA).
                 </a>
@@ -204,7 +204,7 @@ const es = () => {
             />
             <p className="small-text">
                 Fuente:{" "}
-                <a href="https://corporate.target.com/">Target Corporation.</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://corporate.target.com/">Target Corporation.</a>
             </p>
             <div>
                 <expandable-item-no-icon>

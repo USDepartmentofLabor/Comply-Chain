@@ -193,7 +193,7 @@ const es = () => {
                     Estados Unidos otorg&oacute; una subvenci&oacute;n a la FLA
                     para que realizara una prueba piloto de un programa integral
                     y sostenible que aplicara todos los elementos de las &ldquo;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/issues/child-labor/fcea.htm"
                         title="Directrices para erradicar el trabajo infantil y el trabajo forzoso en las cadenas de suministro del sector agr&iacute;cola"
                     >
@@ -245,7 +245,7 @@ const es = () => {
             </p>
             <p>
                 De conformidad con su{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.unodc.org/unodc/en/frontpage/2010/September/un-launches-global-plan-of-action-against-human-trafficking.html"
                     title="Plan de Acci&oacute;n Mundial para Combatir la Trata de Personas"
                 >
@@ -260,7 +260,7 @@ const es = () => {
             </p>
             <ul>
                 <li>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.unodc.org/documents/human-trafficking/TIP_1st_AidKit_English_V0981429.pdf"
                         title="Manual de primeros auxilios para los funcionarios de los servicios de aplicaci&oacute;n de la ley encargados de la respuesta inicial en los casos de trata de personas"
                     >
@@ -270,7 +270,7 @@ const es = () => {
                     </a>
                 </li>
                 <li>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://humantraffickinghotline.org/resources/victim-translation-assistance-tool-life-support-messages-victims-human-trafficking"
                         title="Herramienta de traducci&oacute;n para asistir a las v&iacute;ctimas: Mensajes de apoyo a las v&iacute;ctimas de la trata de personas"
                     >

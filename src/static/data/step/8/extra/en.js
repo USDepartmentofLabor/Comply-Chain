@@ -31,7 +31,7 @@ const en = () => {
                     <p>
                         <em>
                             Source:{" "}
-                            <a
+                            <a target="_blank" rel="noopener noreferrer"
                                 href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                                 title="United Nations Guiding Principles on Business and Human Rights"
                             >

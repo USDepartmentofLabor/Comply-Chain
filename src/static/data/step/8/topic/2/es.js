@@ -13,7 +13,7 @@ const es = () => {
                 condici&oacute;n para ser socio. No obstante, se promulgaron
                 varias leyes en las instancias tanto estatal como federal de los
                 Estados Unidos, como la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
                     title="Ley de California sobre transparencia en las cadenas de suministro"
                 >
@@ -21,14 +21,14 @@ const es = () => {
                     suministro
                 </a>
                 , y en el plano internacional, como la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.legislation.gov.uk/ukpga/2015/30/contents/enacted"
                     title="Ley del Reino Unido sobre la esclavitud moderna"
                 >
                     Ley de esclavitud moderna del Reino Unido{" "}
                 </a>{" "}
                 y la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://business-humanrights.org/sites/default/files/documents/Texte%20PPL_EN-US.docx"
                     title="Ley de Francia sobre el deber de vigilancia"
                 >

@@ -75,7 +75,7 @@ const es = () => {
             </p>
             <p>
                 La FLA (Asociaci&oacute;n Trabajo Justo) publica{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
                     title="informes de todas las evaluaciones de f&aacute;bricas"
                 >

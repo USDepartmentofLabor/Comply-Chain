@@ -392,7 +392,7 @@ const fr = () => {
                 particuli&egrave;rement l&apos;agriculture, certains
                 travailleurs sont analphab&egrave;tes. Le code de conduite de
                 Starbucks*, appel&eacute;{" "}
-                <a href="https://www.scsglobalservices.com/starbucks-cafe-practices">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.scsglobalservices.com/starbucks-cafe-practices">
                     Practices C.A.F.&Eacute;.
                 </a>
                 , inclut l&apos;exigence que tous les travailleurs

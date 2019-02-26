@@ -46,21 +46,21 @@ const en = () => {
             <p>
                 Example 1: Cocoa Supply Chains (Cote D&rsquo;Ivoire and Ghana)
                 <br /> Example 2: Electronics Supply Chains -{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
                     title="Cobalt"
                 >
                     Cobalt
                 </a>{" "}
                 (See page 44 of the PDF),{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
                     title="Tantalum"
                 >
                     Tantalum
                 </a>{" "}
                 (See page 43 of the PDF),{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
                     title="Tin"
                 >
@@ -83,7 +83,7 @@ const en = () => {
                 To be clear, mapping supply chains does not necessarily imply
                 that a company is responsible for all impacts and risks
                 associated with every entity in the chain. As stated in the{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="United Nations Guiding Principles on Business and Human Rights"
                 >
@@ -111,7 +111,7 @@ const en = () => {
             />
             <p className="small-text">
                 Source:{" "}
-                <a href="http://www.crea.org/">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.crea.org/">
                     Center for Reflection, Education and Action (CREA).
                 </a>
             </p>
@@ -163,7 +163,7 @@ const en = () => {
             />
             <p className="small-text">
                 Source:{" "}
-                <a href="https://corporate.target.com/">Target Corporation.</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://corporate.target.com/">Target Corporation.</a>
             </p>
             <div>
                 <expandable-item-no-icon>

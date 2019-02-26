@@ -21,7 +21,7 @@ const en = () => {
                 </h2>
                 <p>
                     The{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/"
                         title="Responsible Sourcing Network"
                     >
@@ -36,7 +36,7 @@ const en = () => {
                     organizations, to create positive change for brands,
                     consumers, and impacted communities. Currently, RSN is
                     working with partners to prevent and{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/minerals/"
                         title="eliminiate human rights abuses in the mining of conflict minerals from the Democratic Republic of the Congo"
                     >
@@ -44,7 +44,7 @@ const en = () => {
                         minerals from the Democratic Republic of the Congo
                     </a>{" "}
                     and in the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/the-cotton-pledge"
                         title="production of cotton in Uzbekistan"
                     >
@@ -63,7 +63,7 @@ const en = () => {
                 </h2>
                 <p>
                     The{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.resolv.org/site-ppa/"
                         title="Public-Private Alliance for Responsible Minerals Trade"
                     >
@@ -118,14 +118,14 @@ const en = () => {
                     with the Government of the Philippines to take a more
                     deliberate approach to address children working in
                     sugarcane. The{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/agencies/ilab/our-work/projects/ABK3leap"
                         title="ABK3 LEAP project"
                     >
                         ABK3 LEAP project
                     </a>
                     , funded by ILAB and implemented by{" "}
-                    <a href="https://www.worldvision.org/" title="World Vision">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.worldvision.org/" title="World Vision">
                         World Vision
                     </a>
                     , worked to mobilize the private sector and foster
@@ -205,7 +205,7 @@ const en = () => {
                     Musim Mas* (Singapore) have partnered with a set of global
                     brands that includes Danone*, Ferrero*, and
                     L&rsquo;Or&eacute;al* to form the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://poig.org/"
                         title="Palm Oil Innovation Group"
                     >

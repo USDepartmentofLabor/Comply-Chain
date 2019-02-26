@@ -107,14 +107,14 @@ const fr = () => {
                     des produits &eacute;lectroniques, constitue l&rsquo;un des
                     risques essentiels identifi&eacute;s en mati&egrave;re de
                     droits de l&rsquo;homme et de droits du travail. L&rsquo;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.conflictfreesourcing.org/"
                         title="Initiative pour un approvisionnement sans conflits"
                     >
                         Initiative pour un approvisionnement sans conflits
                     </a>{" "}
                     (CFSI), mise en place par la{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.eiccoalition.org/"
                         title="Coalition pour la citoyennet&eacute; de l&rsquo;industrie &eacute;lectronique"
                     >
@@ -122,7 +122,7 @@ const fr = () => {
                         l&rsquo;industrie &eacute;lectronique
                     </a>{" "}
                     et l&rsquo;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://gesi.org/"
                         title="Initiative mondiale d&rsquo;e-durabilit&eacute;"
                     >
@@ -136,7 +136,7 @@ const fr = () => {
                     toute un s&eacute;rie de secteurs pour surveiller leurs
                     cha&icirc;nes d&rsquo;approvisionnement. Elle a
                     &eacute;galement mis en place le{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.conflictfreesourcing.org/conflict-free-smelter-program/"
                         title="Programme de fonderies sans conflits"
                     >
@@ -146,7 +146,7 @@ const fr = () => {
                     valider, par le biais d&rsquo;audits tiers
                     ind&eacute;pendants, qu&rsquo;ils sont conformes aux normes
                     internationales telles que le{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.oecd.org/corporate/mne/mining.htm"
                         title="Guide OCDE sur le devoir de diligence pour des cha&icirc;nes d'approvisionnement responsables en minerais provenant de zones de conflit ou &agrave; haut risque"
                     >
@@ -175,7 +175,7 @@ const fr = () => {
                 responsable&nbsp;» vis-&agrave;-vis d&rsquo;un fournisseur a
                 fait l&rsquo;objet d&rsquo;un document de travail [en anglais]
                 de SOMO intitul&eacute;{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.somo.nl/should-i-stay-or-should-i-go/"
                     title="Partir ou rester&nbsp;? Le r&ocirc;le du d&eacute;sengagement dans le cadre de la diligence raisonnable en mati&egrave;re de droits de l&rsquo;homme."
                 >
@@ -210,7 +210,7 @@ const fr = () => {
                     de travail dangereuses. En d&eacute;pit de ces risques,
                     L&rsquo;Or&eacute;al, membre signataire du Pacte mondial des
                     &Eacute;tats-Unis et membre fondateur de la{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.responsible-mica-initiative.com/"
                         title="Responsible Mica Initiative"
                     >

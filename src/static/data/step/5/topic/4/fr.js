@@ -66,7 +66,7 @@ const fr = () => {
                     &agrave; terme pour r&eacute;parer les violations avant le
                     d&eacute;but de la production. Pour plus
                     d&apos;informations, voir la{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://corporate.target.com/corporate-responsibility/responsible-sourcing/social-compliance/labor-and-human-rights"
                         title="Page Web de Target sur les normes d&rsquo;engagement des vendeurs"
                     >

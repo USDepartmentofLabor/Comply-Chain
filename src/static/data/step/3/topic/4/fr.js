@@ -77,7 +77,7 @@ const fr = () => {
                     travail et d&rsquo;existence, les salaires et les
                     proc&eacute;dures de r&egrave;glement des
                     r&eacute;clamations. Les{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.patagonia.com/static/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw604fc14d/PDF-US/Migrant_Worker_Employment_Standards.pdf"
                         title="Normes d&rsquo;emploi concernant les travailleurs migrants"
                     >
@@ -89,7 +89,7 @@ const fr = () => {
                 </p>
                 <p>
                     Pour de plus amples informations, voir{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.patagonia.com/blog/2015/06/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/"
                         title="Le co&ucirc;t &eacute;lev&eacute; inacceptable de la main d&rsquo;&oelig;uvre&nbsp;&ndash; Comment une plong&eacute;e au c&oelig;ur de notre cha&icirc;ne d&rsquo;approvisionnement a conduit &agrave; une nouvelle norme pour les travailleurs migrants"
                     >
@@ -106,7 +106,7 @@ const fr = () => {
             </div>
             <p>
                 Les{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf"
                     title="Principes de Dhaka sur la migration dans la dignit&eacute;"
                 >
@@ -122,7 +122,7 @@ const fr = () => {
                 pour assurer une migration dans la dignit&eacute;. Les Principes
                 de Dhaka ont &eacute;t&eacute; &eacute;labor&eacute;s par
                 l&rsquo;
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.ihrb.org/"
                     title="Institut pour les droits de l&rsquo;homme et les entreprises"
                 >
@@ -133,7 +133,7 @@ const fr = () => {
                 syndicats et la soci&eacute;t&eacute; civile. Ils se basent sur
                 les normes internationales en mati&egrave;re de droits de
                 l&rsquo;homme et les trois piliers des{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="Principes directeurs relatifs aux entreprises et aux droits de l'homme des Nations Unies"
                 >
@@ -157,7 +157,7 @@ const fr = () => {
                 </h2>
                 <p>
                     Lanc&eacute; en mai&nbsp;2016, le{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment"
                         title="Groupe de leadership pour le recrutement responsable"
                     >
@@ -178,7 +178,7 @@ const fr = () => {
                 </p>
                 <p>
                     Convoqu&eacute; par une ONG, l&rsquo;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.ihrb.org/"
                         title="Institut pour les droits de l&rsquo;homme et les entreprises"
                     >
@@ -202,7 +202,7 @@ const fr = () => {
                 <p>
                     Pour en savoir plus sur le Groupe de leadership et ses
                     outils sur le recrutement &eacute;thique, visitez le{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.ihrb.org/employerpays/"
                         title="Portail de recrutement responsable"
                     >

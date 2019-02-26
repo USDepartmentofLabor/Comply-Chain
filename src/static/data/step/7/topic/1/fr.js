@@ -88,7 +88,7 @@ const fr = () => {
                     Le conseil d&rsquo;administration de la FLA accr&eacute;dite
                     des organisations de surveillance et des chefs auditeurs
                     pour son{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/independent-external-monitoring-reports"
                         title="Programme de v&eacute;rification ext&eacute;rieure ind&eacute;pendante"
                     >
@@ -99,7 +99,7 @@ const fr = () => {
                     tous les deux ans. Les candidats peuvent demander leur
                     accr&eacute;ditation pour un pays ou plusieurs, et pour
                     toutes les dispositions du{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/our-work/code-of-conduct"
                         title="Code de conduite de la FLA"
                     >
@@ -137,7 +137,7 @@ const fr = () => {
                     </strong>
                 </h2>
                 <p>
-                    <a href="https://www.bonsucro.com/en/" title="Bonsucro">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.bonsucro.com/en/" title="Bonsucro">
                         Bonsucro
                     </a>{" "}
                     est un r&eacute;seau international de cultivateurs, de
@@ -200,14 +200,14 @@ const fr = () => {
                     Pour garantir l&apos;ind&eacute;pendance des audits
                     r&eacute;alis&eacute;s en vertu de sa norme&nbsp;8000 de
                     responsabilit&eacute; sociale (SA8000),{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.sa-intl.org/"
                         title="Social Accountability International (SAI)"
                     >
                         Social Accountability International (SAI)
                     </a>{" "}
                     a cr&eacute;&eacute;{" "}
-                    <a href="http://www.saasaccreditation.org/">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.saasaccreditation.org/">
                         Social Accountability Accreditation Services (SAAS)
                     </a>{" "}
                     en 1997. SAAS est par la suite devenue, en 2007, une

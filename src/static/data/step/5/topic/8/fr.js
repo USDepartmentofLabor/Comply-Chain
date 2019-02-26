@@ -12,7 +12,7 @@ const fr = () => {
                 o&ugrave; la production est fortement &eacute;parpill&eacute;e
                 et informelle, certaines entreprises ont adopt&eacute; des
                 approches de{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/ipec/Action/Childlabourmonitoring/lang--en/index.htm"
                     title="surveillance communautaire du travail des enfants"
                 >
@@ -39,7 +39,7 @@ const fr = () => {
                     De&nbsp;2012 &agrave;&nbsp;2016, le d&eacute;partement du
                     Travail des &Eacute;tats-Unis a financ&eacute; un projet,
                     mis en &oelig;uvre par{" "}
-                    <a href="https://www.worldvision.org/" title="World Vision">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.worldvision.org/" title="World Vision">
                         World Vision
                     </a>{" "}
                     avec le concours d&rsquo;organisations partenaires locales
@@ -49,7 +49,7 @@ const fr = () => {
                     les mesures communautaires visant &agrave; pr&eacute;venir
                     et &agrave; &eacute;liminer le travail des enfants, le
                     projet{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/projects/summaries/Cambodia_EXCEL.pdf"
                         title="Cambodians EXCEL"
                     >
@@ -78,7 +78,7 @@ const fr = () => {
                 <p>
                     Pour plus d&rsquo;informations sur le projet Cambodians
                     EXCEL, voir Management Systems International,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/projects/summaries/Cambodia_EXCEL_feval.pdf"
                         title="Independent Final Evaluation Cambodians EXCEL Project"
                     >

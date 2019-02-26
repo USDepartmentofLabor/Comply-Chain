@@ -37,7 +37,7 @@ const es = () => {
                 a&ntilde;os lidiando con los desaf&iacute;os del trabajo
                 informal y el trabajo en el hogar. En 2010, la Iniciativa de
                 Comercio &Eacute;tico public&oacute; las directrices{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
                     title="ETI Homeworker Guidelines"
                 >

@@ -28,14 +28,14 @@ const es = () => {
             <p>
                 Otro acuerdo reciente que recibi&oacute; atenci&oacute;n
                 positiva es el{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.industriall-union.org/industriall-global-union-and-hm-sign-global-framework-agreement"
                     title="Acuerdo marco mundial"
                 >
                     acuerdo marco mundial
                 </a>{" "}
                 entre el sindicato mundial{" "}
-                <a href="http://www.industriall-union.org/" title="IndustriALL">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.industriall-union.org/" title="IndustriALL">
                     IndustriALL
                 </a>{" "}
                 y el minorista de indumentaria Hennes &amp; Mauritz, que abarca
@@ -65,7 +65,7 @@ const es = () => {
                 equidad entre los sexos y aplicaci&oacute;n de los derechos
                 sindicales, seg&uacute;n las definiciones en convenios
                 espec&iacute;ficos de la OIT. En marzo de 2016,{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://business-humanrights.org/sites/default/files/webform/Danone%20-%20IUF_press%20release%20EN_final.pdf"
                     title="Danone y la UITA firmaron su d&eacute;cimo acuerdo"
                 >
@@ -90,7 +90,7 @@ const es = () => {
                     </em>{" "}
                     1° de agosto de 2014; disponible en idioma ingl&eacute;s
                     solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://aflcio.org/sites/default/files/2017-03/CSReport.pdf"
                         title="<i>Responsibility Outsourced:</i><i> </i><i>Social Audits, Workplace Certification and Twenty Years of Failure to Protect Worker Rights</i>"
                     >
@@ -108,7 +108,7 @@ const es = () => {
                     </em>
                     . [en la web, consultado el 16 de mayo de 2017]; disponible
                     en idioma ingl&eacute;s solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf"
                         title="<i>Danone and IUF Sign Tenth Agreement on Sustainable Employment</i>"
                     >
@@ -123,7 +123,7 @@ const es = () => {
                     </em>
                     [en la web, consultado el 16 de mayo de 2017]; disponible en
                     idioma ingl&eacute;s solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.danone.com/impact/people-communities/social-dialogue.html"
                         title="<i>Social Dialogue</i>"
                     >
@@ -141,7 +141,7 @@ const es = () => {
                     </em>
                     , 2016 [en la web, consultado el 16 de mayo de 2016].
                     Disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.industriall-union.org/agreement-with-hm-proves-instrumental-in-resolving-conflicts-0"
                         title="<i>Agreement with H&amp;M Proves Instrumental in Resolving Conflicts</i>"
                     >
@@ -161,7 +161,7 @@ const es = () => {
                     Ginebra, 2008; disponible en idioma ingl&eacute;s solamente
                     en{" "}
                     <u>
-                        <a
+                        <a target="_blank" rel="noopener noreferrer"
                             href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm"
                             title="OIT. <i>Cross-Border Social Dialogue and Agreements:</i> An emerging global industrial relations framework?"
                         >
@@ -179,7 +179,7 @@ const es = () => {
                     ; Ginebra, 2010; disponible en idioma ingl&eacute;s
                     solamente en{" "}
                     <u>
-                        <a
+                        <a target="_blank" rel="noopener noreferrer"
                             href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm"
                             title="<i>International framework agreements and global social dialogue: parameters and prospects</i>"
                         >
@@ -196,7 +196,7 @@ const es = () => {
                     </i>{" "}
                     2007; disponible en idioma ingl&eacute;s solamente en{" "}
                     <u>
-                        <a
+                        <a target="_blank" rel="noopener noreferrer"
                             href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
                             title="OIT-OIE. <i>International framework agreements: an employers&rsquo; guide</i>"
                         >

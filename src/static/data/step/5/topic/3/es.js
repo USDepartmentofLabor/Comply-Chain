@@ -82,7 +82,7 @@ const es = () => {
                 El trabajo forzoso es una contravenci&oacute;n sumamente
                 compleja de los derechos laborales y puede adoptar numerosas
                 formas. La publicaci&oacute;n de la OIT{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_099626/lang--en/index.htm"
                     title="<i>Lucha contra el trabajo forzoso:</i> <i>Manual para empleadores y empresas - Folleto 4</i>"
                 >
@@ -96,7 +96,7 @@ const es = () => {
                 para identificar el trabajo forzoso en la empresa y en las
                 cadenas de suministro mundiales. Por otra parte, en 2016, la OIT
                 lanz&oacute; la aplicaci&oacute;n de celular{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm"
                     title="<i>Checkpoints for Companies: Eliminating and Preventing Forced Labour</i>"
                 >
@@ -299,7 +299,7 @@ const es = () => {
                 Los instrumentos de auditor&iacute;a de muchas empresas son
                 propiedad de ellas, con lo cual puede resultar dif&iacute;cil
                 encontrar modelos que lo ayuden a elaborar los suyos. El{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://responsiblesourcingtool.org/"
                     title="Responsible Sourcing Tool"
                 >
@@ -1146,7 +1146,7 @@ const es = () => {
                     <strong>
                         Fuente: Instrumento de abastecimiento responsable 1A:{" "}
                     </strong>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/recruitmentandemployment"
                         title="Instrumento de abastecimiento responsable 1A: Ejemplos de par&aacute;metros de referencia de buenas pr&aacute;cticas en la contrataci&oacute;n y el empleo"
                     >
@@ -1160,7 +1160,7 @@ const es = () => {
                 </p>
                 <p>
                     La p&aacute;gina{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://responsiblesourcingtool.org/"
                         title="ResponsibleSourcingTool.org"
                     >
@@ -1168,18 +1168,18 @@ const es = () => {
                     </a>{" "}
                     se cre&oacute; gracias a una colaboraci&oacute;n entre el
                     Departamento de Estado de los Estados Unidos,{" "}
-                    <a href="https://www.verite.org/" title="Verit&eacute;">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/" title="Verit&eacute;">
                         Verit&eacute;
                     </a>
                     ,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://madeinafreeworld.com/"
                         title="Made in a Free World"
                     >
                         Made in a Free World
                     </a>{" "}
                     y el{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.aspeninstitute.org/"
                         title="Aspen Institute"
                     >
@@ -1220,7 +1220,7 @@ const es = () => {
                 y proveedores realicen autoevaluaciones que pongan de manifiesto
                 los posibles riegos de trabajo forzoso y trata de seres humanos
                 en la cadena de suministro. El{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://responsiblesourcingtool.org/supplierselfassessment"
                     title="Ejemplo de instrumento de autoevaluaci&oacute;n de proveedores y subcontratistas"
                 >
@@ -1246,7 +1246,7 @@ const es = () => {
                 alcance y la eficacia de las iniciativas de la
                 organizaci&oacute;n a fin de combatir la trata de seres humanos
                 es el conjunto de{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://responsiblesourcingtool.org/download/reports/Verite_BusinessAuthenticationCriteria_r1.pdf"
                     title="<i>Anti-Human Trafficking Business Authentication Criteria</i>"
                 >

@@ -15,7 +15,7 @@ const fr = () => {
                         travail des enfants au N&eacute;pal, 2005&nbsp;;{" "}
                     </em>
                     disponible sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://white.lim.ilo.org/ipec/documentos/2005_ethical_considerations_nepal_trilingual_es.pdf"
                         title=". Consid&eacute;rations &eacute;thiques concernant la recherche sur les enfants astreints aux pires formes de travail des enfants au N&eacute;pal, 2005"
                     >
@@ -29,7 +29,7 @@ const fr = () => {
                         employeurs et le secteur priv&eacute;.
                     </em>{" "}
                     Gen&egrave;ve, 2015&nbsp;; disponible sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/global/topics/forced-labour/lang--en/index.htm"
                         title="Combattre le travail forc&eacute; : Manuel pour les employeurs et le secteur priv&eacute;."
                     >
@@ -40,7 +40,7 @@ const fr = () => {
                 <li>
                     <em>Travail d&eacute;cent et &eacute;conomie informelle</em>
                     . Gen&egrave;ve, 2002 ; disponible sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/public/english/standards/relm/ilc/ilc90/pdf/rep-vi.pdf"
                         title="Travail d&eacute;cent et &eacute;conomie informelle"
                     >
@@ -55,7 +55,7 @@ const fr = () => {
                     </em>
                     1<sup>er</sup>&nbsp;mars 2016&nbsp;; disponible [en anglais]
                     sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm."
                         title="Eliminating and Preventing Forced Labour: Checkpoints"
                     >
@@ -69,7 +69,7 @@ const fr = () => {
                         estimate forced labour of adults and children
                     </em>
                     . Gen&egrave;ve, 2011 ; disponible [en anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/global/publications/books/WCMS_182084/lang--es/index.htm"
                         title="Hard to See, Harder to Count: Survey guidelines to estimate forced labour of adults and children"
                     >
@@ -85,7 +85,7 @@ const fr = () => {
                         enfants (OSTE).
                     </em>{" "}
                     2005; disponible sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/ipecinfo/product/viewProduct.do;?productId=1500"
                         title="Principes directeurs pour l'&eacute;laboration de processus d'observation et de suivi du travail des enfants (OSTE)."
                     >
@@ -99,7 +99,7 @@ const fr = () => {
                         forc&eacute;,
                     </em>{" "}
                     2008, disponible sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ituc-csi.org/IMG/pdf/guide_forced_labour_EN.pdf"
                         title="Mini guide d&rsquo;action contre le travail forc&eacute;"
                     >
@@ -117,7 +117,7 @@ const fr = () => {
                     </em>
                     Sheffield Political Economy Research Institute,
                     janvier&nbsp;2016&nbsp;; disponible [en anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://speri.dept.shef.ac.uk/wp-content/uploads/2016/01/Global-Brief-1-Ethical-Audits-and-the-Supply-Chains-of-Global-Corporations.pdf"
                         title="Ethical Audits and the Supply Chains of Global Corporations."
                     >
@@ -128,7 +128,7 @@ const fr = () => {
                 <li>
                     Verit&eacute;. <em>Fair Hiring Toolkit&nbsp;;</em>{" "}
                     disponible [en anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://helpwanted.verite.org/helpwanted/toolkit"
                         title="Fair Hiring Toolkit"
                     >
@@ -143,7 +143,7 @@ const fr = () => {
                         Benchmarks&nbsp;;{" "}
                     </em>
                     disponible [en anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/recruitmentandemployment"
                         title="Responsible Sourcing Tool: Recruitment and Employment Benchmarks"
                     >
@@ -158,7 +158,7 @@ const fr = () => {
                         Self-Assessment&nbsp;;
                     </em>{" "}
                     disponible [en anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://responsiblesourcingtool.org/supplierselfassessment"
                         title="Responsible Sourcing Tool: Sample Supplier Self-Assessment"
                     >
@@ -173,7 +173,7 @@ const fr = () => {
                         Interviews&nbsp;;{" "}
                     </em>
                     disponible [en anglais] sur{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/workerinterviews"
                         title="Responsible Sourcing Tool: Conducting Migrant Worker Interviews"
                     >

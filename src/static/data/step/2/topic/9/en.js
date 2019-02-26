@@ -32,7 +32,7 @@ const en = () => {
             </p>
             <ul>
                 <li>
-                    <a href="http://www.dol.gov/ilab/child-forced-labor/Addressing-Root-Causes.htm">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/ilab/child-forced-labor/Addressing-Root-Causes.htm">
                         What are the Root Causes of Child Labor and Forced
                         Labor?
                     </a>
@@ -204,7 +204,7 @@ const en = () => {
             </ul>
             <ul>
                 <li>
-                    <a href="http://www.dol.gov/ilab/child-forced-labor/Addressing-Root-Causes.htm">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/ilab/child-forced-labor/Addressing-Root-Causes.htm">
                         Addressing the Root Causes of Child Labor and Forced
                         Labor
                     </a>
@@ -317,7 +317,7 @@ const en = () => {
                 Africa.
             </p>
             <p>
-                <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.resolv.org/site-ppa/?lang=en&amp;exitTitle=www.resolv.org&amp;fedpage=no">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.resolv.org/site-ppa/?lang=en&amp;exitTitle=www.resolv.org&amp;fedpage=no">
                     Learn more about the PPA, including members
                 </a>
                 .
@@ -357,7 +357,7 @@ const en = () => {
                 human trafficking.
             </p>
             <p>
-                <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.microsoft.com/middleeast/humantrafficking/default.aspx/?lang=en&amp;exitTitle=www.microsoft.com&amp;fedpage=no">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.microsoft.com/middleeast/humantrafficking/default.aspx/?lang=en&amp;exitTitle=www.microsoft.com&amp;fedpage=no">
                     Learn more about the Human Trafficking and Business Training
                     Module.
                 </a>
@@ -388,7 +388,7 @@ const en = () => {
                 importation of all Burmese rubies and jade into the U.S.
             </p>
             <p>
-                <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.leberjeweler.com/about/burma.php3/?lang=en&amp;exitTitle=www.leberjeweler.com&amp;fedpage=no">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.leberjeweler.com/about/burma.php3/?lang=en&amp;exitTitle=www.leberjeweler.com&amp;fedpage=no">
                     Learn more about the Jewelers&rsquo; Burma Relief Project
                 </a>
                 .
@@ -426,7 +426,7 @@ const en = () => {
             <p>Source: International Labor Organization.</p>
             <ul>
                 <li>
-                    <a href="http://www.dol.gov/ilab/child-forced-labor/Addressing-Root-Causes.htm">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/ilab/child-forced-labor/Addressing-Root-Causes.htm">
                         Philanthropy
                     </a>
                 </li>
@@ -468,7 +468,7 @@ const en = () => {
                 this initiative.
             </p>
             <p>
-                <a href="http://levistrauss.com/sites/default/files/librarydocument/2012/4/ceres-lsco-whitepaper-2012-04-17.pdf">
+                <a target="_blank" rel="noopener noreferrer" href="http://levistrauss.com/sites/default/files/librarydocument/2012/4/ceres-lsco-whitepaper-2012-04-17.pdf">
                     Learn more about Levi Strauss &amp; Co.&rsquo;s Terms of
                     Engagement
                 </a>
@@ -516,7 +516,7 @@ const en = () => {
                 Guatemalans through a partnership with a local organization.
             </p>
             <p>
-                <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.state.gov/secretary/rm/2010/12/153123.htm&amp;exitTitle=www.state.gov&amp;fedpage=yes">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.state.gov/secretary/rm/2010/12/153123.htm&amp;exitTitle=www.state.gov&amp;fedpage=yes">
                     Learn more about Denimatrix
                 </a>
                 .
@@ -562,7 +562,7 @@ const en = () => {
                 skills.
             </p>
             <p>
-                <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.gapinc.com/content/csr/html/Goals/supplychain/our_program_in_action/handwork_protections1.html/?lang=en&amp;exitTitle=www.gapinc.com&amp;fedpage=no">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.gapinc.com/content/csr/html/Goals/supplychain/our_program_in_action/handwork_protections1.html/?lang=en&amp;exitTitle=www.gapinc.com&amp;fedpage=no">
                     Learn more about Gap Inc.&rsquo;s Handwork Protections
                 </a>
                 .
@@ -608,7 +608,7 @@ const en = () => {
                 help them navigate the transition to independence.
             </p>
             <p>
-                <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.manpowergroup.com/social/trafficking.cfm/?lang=en&amp;exitTitle=www.manpowergroup.com&amp;fedpage=no">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.manpowergroup.com/social/trafficking.cfm/?lang=en&amp;exitTitle=www.manpowergroup.com&amp;fedpage=no">
                     Learn more about <em>J&oacute;venes Visionarios</em>
                 </a>
                 .
@@ -660,7 +660,7 @@ const en = () => {
             </p>
             <p>
                 Learn more about{" "}
-                <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.unesco.org/new/en/education/resources/online-materials/single-view/news/unesco_and_procter_gamble_launch_partnership_to_promote_education_for_young_girls_and_young_women/?lang=en&amp;exitTitle=www.unesco.org&amp;fedpage=no">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.unesco.org/new/en/education/resources/online-materials/single-view/news/unesco_and_procter_gamble_launch_partnership_to_promote_education_for_young_girls_and_young_women/?lang=en&amp;exitTitle=www.unesco.org&amp;fedpage=no">
                     UNESCO&rsquo;s Women and Girls&rsquo; Education Advocacy
                     Program
                 </a>
@@ -762,7 +762,7 @@ const en = () => {
                 help with job searches.
             </p>
             <p>
-                <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.manpowergroup.com/social/social.cfm/?lang=en&amp;exitTitle=www.manpowergroup.com&amp;fedpage=no">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.manpowergroup.com/social/social.cfm/?lang=en&amp;exitTitle=www.manpowergroup.com&amp;fedpage=no">
                     Learn more about Manpower&rsquo;s social responsibility
                     efforts
                 </a>
@@ -819,59 +819,59 @@ const en = () => {
                 consumers in their business success.
             </p>
             <p>
-                <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.unilever.com/careers/insideunilever/oursuccessandchallenges/shaktiprogrammeindia/?lang=en&amp;exitTitle=www.unilever.com&amp;fedpage=no">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.unilever.com/careers/insideunilever/oursuccessandchallenges/shaktiprogrammeindia/?lang=en&amp;exitTitle=www.unilever.com&amp;fedpage=no">
                     Learn more about Project Shakti
                 </a>
                 .
             </p>
             <ul>
                 <li>
-                    <a href="http://www.dol.gov/ilab/child-forced-labor/Addressing-Root-Causes.htm">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/ilab/child-forced-labor/Addressing-Root-Causes.htm">
                         Further Resources
                     </a>
                     <ol>
                         <li>
-                            <a href="http://next.bncollege.com/league-collegiate-outfitters/">
+                            <a target="_blank" rel="noopener noreferrer" href="http://next.bncollege.com/league-collegiate-outfitters/">
                                 <em>
                                     League Collegiate Outfitters Creates Hope
                                     and Second Chances in El Salvador
                                 </em>
                             </a>
                             .Business &amp; Human Rights Resource Centre,{" "}
-                            <a href="http://www.business-humanrights.org/ConflictPeacePortal/Home">
+                            <a target="_blank" rel="noopener noreferrer" href="http://www.business-humanrights.org/ConflictPeacePortal/Home">
                                 Business, Conflict &amp; Peace Portal
                             </a>
                             <em>. </em>Available from{" "}
-                            <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://business-humanrights.org/en/conflict-peace/latest-news-on-conflict-peace&amp;exitTitle=www.business-humanrights.org&amp;fedpage=no">
+                            <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://business-humanrights.org/en/conflict-peace/latest-news-on-conflict-peace&amp;exitTitle=www.business-humanrights.org&amp;fedpage=no">
                                 http://www.business-humanrights.org/ConflictPeacePortal/Home
                             </a>
                             .
                         </li>
                         <li>
                             Chen, Shaohua, and Martin Ravillion.{" "}
-                            <a href="http://siteresources.worldbank.org/JAPANINJAPANESEEXT/Resources/515497-1201490097949/080827_The_Developing_World_is_Poorer_than_we_Thought.pdf">
+                            <a target="_blank" rel="noopener noreferrer" href="http://siteresources.worldbank.org/JAPANINJAPANESEEXT/Resources/515497-1201490097949/080827_The_Developing_World_is_Poorer_than_we_Thought.pdf">
                                 The developing world is poorer than we thought,
                                 but no less successful in the fight against
                                 poverty
                             </a>
                             . World Bank, Washington, DC , August 26, 2008.;
                             available from{" "}
-                            <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://siteresources.worldbank.org/JAPANINJAPANESEEXT/Resources/515497-1201490097949/080827_The_Developing_World_is_Poorer_than_we_Thought.pdf&amp;exitTitle=siteresources.worldbank.org&amp;fedpage=no">
+                            <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://siteresources.worldbank.org/JAPANINJAPANESEEXT/Resources/515497-1201490097949/080827_The_Developing_World_is_Poorer_than_we_Thought.pdf&amp;exitTitle=siteresources.worldbank.org&amp;fedpage=no">
                                 http://siteresources.worldbank.org/JAPANINJAPANESEEXT/Resources/515497-1201490097949/080827_The_Developing_World_is_Poorer_than_we_Thought.pdf
                             </a>
                             . <em>Base Code Guidance: Living Wages</em>.
-                            <a href="http://www.fairlabor.org/report-type/fair-compensation">
+                            <a target="_blank" rel="noopener noreferrer" href="http://www.fairlabor.org/report-type/fair-compensation">
                                 <em>Fair Compensation</em>
                             </a>
                             .
-                            <a href="http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges">
+                            <a target="_blank" rel="noopener noreferrer" href="http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges">
                                 <em>
                                     Fair Compensation for Farmworkers: Emerging
                                     Good Practices and Challenges
                                 </em>
                             </a>
                             .
-                            <a href="http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries">
+                            <a target="_blank" rel="noopener noreferrer" href="http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries">
                                 <em>
                                     Toward Fair Compensation in Global Supply
                                     Chains: Factory Pay Assessments in 21
@@ -884,7 +884,7 @@ const en = () => {
                             Gap, Inc.{" "}
                             <em>Handwork Protections Project Summary</em>.
                             Available from{" "}
-                            <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.gapinc.com/content/csr/html/Goals/supplychain/our_program_in_action/handwork_protections1.html?lang=en&amp;exitTitle=www.gapinc.com&amp;fedpage=no">
+                            <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.gapinc.com/content/csr/html/Goals/supplychain/our_program_in_action/handwork_protections1.html?lang=en&amp;exitTitle=www.gapinc.com&amp;fedpage=no">
                                 http://www.gapinc.com/content/csr/html/Goals/supplychain/our_program_in_action/handwork_protections1.html
                             </a>
                             .
@@ -892,14 +892,14 @@ const en = () => {
                     </ol>
                 </li>
                 <li>
-                    <a href="http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_537846.pdf">
+                    <a target="_blank" rel="noopener noreferrer" href="http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_537846.pdf">
                         Wage inequality in the workplace
                     </a>
                     .
                 </li>
                 <li>
                     International Labor Organization. [webpage], available from{" "}
-                    <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.ilo.org/ipec/Action/CSR/lang--en/?lang=en&amp;exitTitle=www.ilo.org&amp;fedpage=no">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.ilo.org/ipec/Action/CSR/lang--en/?lang=en&amp;exitTitle=www.ilo.org&amp;fedpage=no">
                         http://www.ilo.org/ipec/Action/CSR/lang--en/index.htm
                     </a>
                     .
@@ -911,36 +911,36 @@ const en = () => {
                                 times of crisis
                             </em>
                             . Geneva, December 15, 2010; available from{" "}
-                            <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.ilo.org/global/publications/books/WCMS_145265/lang--en/index.htm&amp;exitTitle=www.ilo.org&amp;fedpage=no">
+                            <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.ilo.org/global/publications/books/WCMS_145265/lang--en/index.htm&amp;exitTitle=www.ilo.org&amp;fedpage=no">
                                 http://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_145265.pdf
                             </a>
                             .
-                            <a href="http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_534326.pd">
+                            <a target="_blank" rel="noopener noreferrer" href="http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_534326.pd">
                                 Non-Standard Employment Around the World -
                                 Understanding Challenges, Shaping Prospects
                             </a>
                             .
-                            <a href="http://www.ilo.org/wcmsp5/groups/public/---ed_emp/---emp_policy/documents/publication/wcms_212689.pdf">
+                            <a target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/wcmsp5/groups/public/---ed_emp/---emp_policy/documents/publication/wcms_212689.pdf">
                                 The Informal Economy and Decent Work - A Policy
                                 Resource Guide for Supporting Transitions to
                                 Formality
                             </a>
                             .
-                            <a href="http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_368626.pdf">
+                            <a target="_blank" rel="noopener noreferrer" href="http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_368626.pdf">
                                 World Employment Social Outlook - The Changing
                                 Nature of Jobs
                             </a>
                             .
-                            <a href="http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/publication/wcms_245201.pdf">
+                            <a target="_blank" rel="noopener noreferrer" href="http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/publication/wcms_245201.pdf">
                                 World Social Protection Report: Building
                                 economic recovery, inclusive development and
                                 social justice
                             </a>
-                            <a href="https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition">
                                 <em>Global Living Wage Coalition</em>
                             </a>
                             .
-                            <a href="https://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0&amp;exitTitle=www.nytimes.com&amp;fedpage=no">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0&amp;exitTitle=www.nytimes.com&amp;fedpage=no">
                                 <em>
                                     At Salvadoran Factory, Helping Troubled
                                     Youth Makes Business Sense
@@ -949,7 +949,7 @@ const en = () => {
                             .
                         </li>
                         <li>
-                            <a href="http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815">
+                            <a target="_blank" rel="noopener noreferrer" href="http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815">
                                 <em>
                                     In Work but Trapped in Poverty: A Summary of
                                     Five Studies Conducted by Oxfam, with
@@ -958,11 +958,11 @@ const en = () => {
                                 </em>
                             </a>
                             .
-                            <a href="http://data.worldbank.org/sites/default/files/wdi-final.pdf">
+                            <a target="_blank" rel="noopener noreferrer" href="http://data.worldbank.org/sites/default/files/wdi-final.pdf">
                                 World Development Indicators
                             </a>
                             .{" "}
-                            <a href="http://siteresources.worldbank.org/CGCSRLP/Resources/DevelopmentOutreachBusinessandPovertyBrochure.pdf">
+                            <a target="_blank" rel="noopener noreferrer" href="http://siteresources.worldbank.org/CGCSRLP/Resources/DevelopmentOutreachBusinessandPovertyBrochure.pdf">
                                 Business and Poverty: Opening Markets to the
                                 Poor
                             </a>
@@ -978,14 +978,14 @@ const en = () => {
                     to Fish is Humanly Possible
                 </em>
                 . Milwaukee, WI, 2011; available from{" "}
-                <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://files.shareholder.com/downloads/MAN/1590349430x0x530225/87BCD97B-F49D-411A-87A6-7B2CBF921F8C/2011CSR_lo.pdf&amp;exitTitle=files.shareholder.com&amp;fedpage=no">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://files.shareholder.com/downloads/MAN/1590349430x0x530225/87BCD97B-F49D-411A-87A6-7B2CBF921F8C/2011CSR_lo.pdf&amp;exitTitle=files.shareholder.com&amp;fedpage=no">
                     http://files.shareholder.com/downloads/MAN/1590349430x0x530225/87BCD97B-F49D-411A-87A6-7B2CBF921F8C/2011CSR_lo.pdf
                 </a>
                 .
             </p>
             <p>
                 Manpower Group. <em>Social Responsibility.</em> Available from{" "}
-                <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.manpower.us/en/About-Us/Social-Responsibility.htm&amp;exitTitle=www.manpowergroup.com&amp;fedpage=no">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.manpower.us/en/About-Us/Social-Responsibility.htm&amp;exitTitle=www.manpowergroup.com&amp;fedpage=no">
                     http://www.manpowergroup.com/social/social.cfm
                 </a>
                 .
@@ -993,7 +993,7 @@ const en = () => {
             <p>
                 World Bank. <em>2010 World Development Indicators</em>.
                 Washington, DC, April 2010; available from{" "}
-                <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.worldbank.org/data-catalog/world-development-indicators&amp;exitTitle=data.worldbank.org&amp;fedpage=no">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://data.worldbank.org/data-catalog/world-development-indicators&amp;exitTitle=data.worldbank.org&amp;fedpage=no">
                     http://data.worldbank.org/sites/default/files/wdi-final.pdf
                 </a>
                 .
@@ -1003,7 +1003,7 @@ const en = () => {
                     World Bank Institute.{" "}
                     <em>Business and Poverty: Opening Markets to the Poor</em>.
                     Washington, DC, June 2008; available from{" "}
-                    <a href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://siteresources.worldbank.org/CGCSRLP/Resources/DevelopmentOutreachBusinessandPovertyBrochure.pdf&amp;exitTitle=siteresources.worldbank.org&amp;fedpage=no">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://siteresources.worldbank.org/CGCSRLP/Resources/DevelopmentOutreachBusinessandPovertyBrochure.pdf&amp;exitTitle=siteresources.worldbank.org&amp;fedpage=no">
                         http://siteresources.worldbank.org/CGCSRLP/Resources/DevelopmentOutreachBusinessandPovertyBrochure.pdf
                     </a>
                     .

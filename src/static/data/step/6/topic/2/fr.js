@@ -58,7 +58,7 @@ const fr = () => {
             </div>
             <p>
                 Les{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://impacttlimited.com/wp-content/uploads/2017/01/Impactt_CLOPIndustrialcontexts_REVISION_26112008.pdf"
                     title="Proc&eacute;dures op&eacute;rationnelles pour la r&eacute;paration des cas de travail des enfants dans les contextes industriels"
                 >
@@ -828,7 +828,7 @@ const fr = () => {
                         Exemple d&apos;action&nbsp;: Le processus de
                         r&eacute;paration{" "}
                     </strong>
-                    <a href="https://betterwork.org/" title="Better Work">
+                    <a target="_blank" rel="noopener noreferrer" href="https://betterwork.org/" title="Better Work">
                         <strong>Better Work</strong>
                     </a>
                     <strong />

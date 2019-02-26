@@ -164,7 +164,7 @@ const en = () => {
                     FLA a grant to pilot-test a comprehensive, sustainable
                     program that implements all elements of the U.S. Department
                     of Agriculture (USDA) &ldquo;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/issues/child-labor/fcea.htm"
                         title="Guidelines for Eliminating Child and Forced Labor in Agricultural Supply Chains"
                     >
@@ -206,7 +206,7 @@ const en = () => {
             </p>
             <p>
                 Pursuant to its{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.unodc.org/unodc/en/frontpage/2010/September/un-launches-global-plan-of-action-against-human-trafficking.html"
                     title="Global Plan of Action on Trafficking in Persons"
                 >
@@ -219,7 +219,7 @@ const en = () => {
             </p>
             <ul>
                 <li>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.unodc.org/documents/human-trafficking/TIP_1st_AidKit_English_V0981429.pdf"
                         title="First Aid Kit for Use by Law Enforcement Responders in Addressing Human Trafficking"
                     >
@@ -228,7 +228,7 @@ const en = () => {
                     </a>
                 </li>
                 <li>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://humantraffickinghotline.org/resources/victim-translation-assistance-tool-life-support-messages-victims-human-trafficking"
                         title="Victim Translation Assistance Tool: Life Support Messages for Victims of Human Trafficking"
                     >

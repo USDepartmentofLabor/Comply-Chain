@@ -86,7 +86,7 @@ const en = () => {
                     supply chains, particularly in C&ocirc;te d&rsquo;Ivoire and
                     Ghana. Recently, nine major cocoa and chocolate companies
                     have come together to collectively support the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.worldcocoafoundation.org/wp-content/uploads/CocoaAction-Primer-v1_English_May-2016.pdf"
                         title="World Cocoa Foundation&rsquo;s CocoaAction initiative"
                     >
@@ -142,7 +142,7 @@ const en = () => {
                 </p>
                 <p>
                     For more information, see the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/sites/default/files/documents/ilab/CLCCG%202016%20Annual%20Report.pdf"
                         title="Child Labor Cocoa Coordinating Group&rsquo;s (CLCCG) 2016 Annual Report"
                     >
@@ -154,7 +154,7 @@ const en = () => {
             </div>
             <p>
                 The ILO&rsquo;s Program for{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/empent/Projects/score/lang--en/index.htm"
                     title="Sustaining Competitive and Responsible Enterprises (SCORE)"
                 >

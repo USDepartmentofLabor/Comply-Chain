@@ -41,7 +41,7 @@ const es = () => {
             </p>
             <ul>
                 <li>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://levistrauss.com/unzipped-blog/tag/terms-of-engagement/"
                         title="Levi Strauss &amp; Co*. Condiciones de la participaci&oacute;n"
                     >
@@ -50,7 +50,7 @@ const es = () => {
                     </a>
                 </li>
                 <li>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.coca-colacompany.com/content/dam/journey/us/en/private/fileassets/pdf/unknown/unknown/SGP_Brochure_ENG.pdf"
                         title="Principios rectores para los proveedores de la Coca Cola*"
                     >
@@ -59,7 +59,7 @@ const es = () => {
                     </a>
                 </li>
                 <li>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://globalassets.starbucks.com/assets/1deb372ee3d840179e59c5b9c21cd5fe.pdf"
                         title="Normas de responsabilidad de los proveedores de Starbucks*: Productos fabricados y servicios"
                     >
@@ -150,7 +150,7 @@ const es = () => {
                 aplicaci&oacute;n de cada convenio que ratifica. Las normas
                 fundamentales del trabajo se encuentran plasmadas en la
                 Declaraci&oacute;n de la OIT relativa a los{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/declaration/lang--en/index.htm"
                     title="Principios y derechos fundamentales en el trabajo"
                 >
@@ -164,7 +164,7 @@ const es = () => {
             </p>
             <p>
                 A continuaci&oacute;n se menciona el{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/global/standards/introduction-to-international-labour-standards/conventions-and-recommendations/lang--en/index.htm"
                     title="Conjunto de convenios fundamentales de la OIT"
                 >
@@ -175,7 +175,7 @@ const es = () => {
                 cuestiones laborales relacionadas.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C087"
                     title="Convenio sobre la libertad sindical y la protecci&oacute;n del derecho de sindicaci&oacute;n, 1948 (n&uacute;m. 87)"
                 >
@@ -185,7 +185,7 @@ const es = () => {
                 .
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C098:NO"
                     title="Convenio sobre el derecho de sindicaci&oacute;n y de negociaci&oacute;n colectiva, 1949 (n&uacute;m. 98)"
                 >
@@ -195,7 +195,7 @@ const es = () => {
                 . Complementado por la recomendaci&oacute;n 163.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.ilo.org/dyn/normlex/en/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:312174,es:NO"
                     title="Convenio sobre el trabajo forzoso, 1930 (n&uacute;m. 29)"
                 >
@@ -204,7 +204,7 @@ const es = () => {
                 . Complementado por la recomendaci&oacute;n 35.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029"
                     title="Protocolo facultativo de 2014 relativo al Convenio sobre el trabajo forzoso, 1930"
                 >
@@ -214,7 +214,7 @@ const es = () => {
                 . Complementado por la recomendaci&oacute;n 203.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C105:NO"
                     title="Convenio sobre la abolici&oacute;n del trabajo forzoso, 1957 (n&uacute;m. 105)"
                 >
@@ -224,7 +224,7 @@ const es = () => {
                 .
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C138:NO"
                     title="Convenio sobre la edad m&iacute;nima de admisi&oacute;n al empleo, 1973 (n&uacute;m. 138)"
                 >
@@ -234,7 +234,7 @@ const es = () => {
                 . Complementado por varias recomendaciones, como la 146.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C182:NO"
                     title="Convenio sobre la prohibici&oacute;n de las peores formas de trabajo infantil, 1999 (n&uacute;m. 182)"
                 >
@@ -244,7 +244,7 @@ const es = () => {
                 . Complementado por la recomendaci&oacute;n 190.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C100:NO"
                     title="Convenio sobre igualdad de remuneraci&oacute;n, 1951 (n&uacute;m. 100)"
                 >
@@ -254,7 +254,7 @@ const es = () => {
                 . Complementado por la recomendaci&oacute;n 90.
             </p>
             <p>
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C111:NO"
                     title="Convenio sobre la discriminaci&oacute;n (empleo y ocupaci&oacute;n), 1958 (n&uacute;m. 111)"
                 >
@@ -265,7 +265,7 @@ const es = () => {
             </p>
             <p>
                 La{" "}
-                <a href="http://www.ilo.org/empent/Publications/WCMS_094386/lang--en/index.htm">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/empent/Publications/WCMS_094386/lang--en/index.htm">
                     Declaraci&oacute;n tripartita de principios de la OIT sobre
                     las empresas multinacionales y la pol&iacute;tica social
                 </a>
@@ -286,7 +286,7 @@ const es = () => {
             </p>
             <p>
                 A partir de 2010, la OIT ofrece un{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/empent/areas/business-helpdesk/lang--en/index.htm"
                     title="Servicio de asistencia de la OIT para empresas sobre las normas internacionales del trabajo"
                 >

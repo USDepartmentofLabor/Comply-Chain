@@ -78,21 +78,21 @@ const en = () => {
                     rights and labor risks is conflict in the Democratic
                     Republic of Congo, where many of the minerals used to
                     produce electronic products are sourced. The{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.conflictfreesourcing.org/"
                         title="Conflict-Free Sourcing Initiative"
                     >
                         Conflict-Free Sourcing Initiative
                     </a>{" "}
                     (CFSI) was developed by the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.eiccoalition.org/"
                         title="Electronic Industry Citizenship Coalition"
                     >
                         Electronic Industry Citizenship Coalition
                     </a>{" "}
                     and the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://gesi.org/"
                         title="Global e-Sustainability Initiative"
                     >
@@ -103,7 +103,7 @@ const en = () => {
                     tools and resources that are used by more than 350 companies
                     from a variety of sectors to monitor their supply chains.
                     The CFSI developed the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.conflictfreesourcing.org/conflict-free-smelter-program/"
                         title="Conflict-Free Smelter Program"
                     >
@@ -112,7 +112,7 @@ const en = () => {
                     that helps smelters and refiners validate, through
                     independent third-party audits, their compliance with global
                     standards, such as the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.oecd.org/corporate/mne/mining.htm"
                         title="OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Area"
                     >
@@ -133,7 +133,7 @@ const en = () => {
                 compliance, but also had devastating consequences for workers.
                 The issue of &ldquo;responsible disengagement&rdquo; from a
                 supplier is explored in SOMO&rsquo;s discussion paper,{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.somo.nl/should-i-stay-or-should-i-go/"
                     title="Should I stay or should I go? Exploring the role of disengagement in human rights due diligence"
                 >
@@ -162,7 +162,7 @@ const en = () => {
                     unsafe working conditions. Despite these risks,
                     L&rsquo;Or&eacute;al, which is a signatory to the United
                     Nations Global Compact and a founding member of the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.responsible-mica-initiative.com/"
                         title="Responsible Mica Initiative"
                     >

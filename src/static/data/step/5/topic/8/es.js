@@ -11,7 +11,7 @@ const es = () => {
                 En algunos lugares alejados y en industrias donde la
                 producci&oacute;n est&aacute; muy dispersa y es informal,
                 algunas empresas adoptaron enfoques de{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ilo.org/ipec/Action/Childlabourmonitoring/lang--en/index.htm"
                     title="vigilancia comunitaria del trabajo infantil"
                 >
@@ -37,7 +37,7 @@ const es = () => {
                     Desde 2012 hasta 2016, el Departamento de Trabajo de los
                     Estados Unidos financi&oacute; un proyecto ejecutado por la
                     organizaci&oacute;n{" "}
-                    <a href="https://www.worldvision.org/" title="World Vision">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.worldvision.org/" title="World Vision">
                         World Vision
                     </a>{" "}
                     y otros socios locales para combatir el trabajo infantil en
@@ -45,7 +45,7 @@ const es = () => {
                     pesquero y de servicio dom&eacute;stico. En aras de
                     fortalecer la acci&oacute;n comunitaria a fin de prevenir y
                     erradicar el trabajo infantil, gracias al proyecto{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/projects/summaries/Cambodia_EXCEL.pdf"
                         title="Cambodians EXCEL"
                     >
@@ -70,7 +70,7 @@ const es = () => {
                 <p>
                     Para obtener m&aacute;s informaci&oacute;n sobre el proyecto
                     Cambodians EXCEL, v&eacute;ase{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/projects/summaries/Cambodia_EXCEL_feval.pdf"
                         title="Independent Final Evaluation Cambodians EXCEL Project"
                     >

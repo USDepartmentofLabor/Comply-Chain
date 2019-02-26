@@ -13,7 +13,7 @@ const en = () => {
                         Standards Systems: ISEAL Code of Good Practice
                     </em>
                     , December 2014; available from{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.isealalliance.org/our-work/defining-credibility/codes-of-good-practice/impacts-code"
                         title="Assessing the Impacts of Social and Environmental Standards Systems: ISEAL Code of Good Practice"
                     >

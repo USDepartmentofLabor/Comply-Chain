@@ -33,11 +33,11 @@ const fr = () => {
                 d&apos;autres droits du travail pour recevoir l&apos;estampille
                 «&nbsp;Fair Trade&nbsp;». Pour plus d&apos;informations, voir
                 les bo&icirc;tes &agrave; outil de{" "}
-                <a href="http://www.fairtrade.net/child-labour.html">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.fairtrade.net/child-labour.html">
                     Fairtrade International
                 </a>{" "}
                 et de{" "}
-                <a href="http://www.fairtradeusa.org/" title="Fair Trade USA">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.fairtradeusa.org/" title="Fair Trade USA">
                     Fair Trade USA
                 </a>
                 .
@@ -45,7 +45,7 @@ const fr = () => {
             <p>
                 Certains programmes de certification visent &eacute;galement
                 &agrave; satisfaire aux normes de{" "}
-                <a href="http://www.isealalliance.org/" title="ISEAL Alliance">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.isealalliance.org/" title="ISEAL Alliance">
                     ISEAL Alliance
                 </a>
                 , association d&apos;organisations qui &eacute;labore des
@@ -76,7 +76,7 @@ const fr = () => {
 
                 <p>
                     Depuis plus de 20&nbsp;ans,{" "}
-                    <a href="https://goodweave.org/" title="GoodWeave">
+                    <a target="_blank" rel="noopener noreferrer" href="https://goodweave.org/" title="GoodWeave">
                         GoodWeave
                     </a>{" "}
                     travaille &agrave; la transformation de l&rsquo;industrie du
@@ -117,7 +117,7 @@ const fr = () => {
                 </p>
                 <p>
                     En savoir plus sur le{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/projects/summaries/Afghanistan_Carpets.pdf"
                         title="Projet de pr&eacute;vention du travail des enfants dans la production de tapis &agrave; domicile en Afghanistan"
                     >

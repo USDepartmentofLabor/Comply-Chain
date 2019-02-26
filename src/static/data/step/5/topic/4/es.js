@@ -55,7 +55,7 @@ const es = () => {
                     correctiva completo para rectificar las infracciones antes
                     de comenzar la producci&oacute;n. Para m&aacute;s
                     informaci&oacute;n, v&eacute;ase el{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://corporate.target.com/corporate-responsibility/responsible-sourcing/social-compliance/labor-and-human-rights"
                         title="Sitio web de las normas para los contratistas de Target"
                     >

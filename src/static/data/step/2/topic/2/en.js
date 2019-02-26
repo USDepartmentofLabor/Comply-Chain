@@ -25,7 +25,7 @@ const en = () => {
                 improve performance. The best way to mitigate these impacts is
                 to integrate social compliance within all relevant units of a
                 company. One resource that discusses this issue in depth is{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.asyousow.org/reports/best-current-practices-in-purchasing-the-apparel-industry"
                     title="Best Current Practices in Purchasing: The Apparel Industry"
                 >

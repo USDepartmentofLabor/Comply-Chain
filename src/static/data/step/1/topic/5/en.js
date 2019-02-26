@@ -19,7 +19,7 @@ const en = () => {
                 </h2>
                 <p>
                     Launched in 2002, the{" "}
-                    <a href="http://www.eclt.org/" title="ECLT Foundation">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.eclt.org/" title="ECLT Foundation">
                         ECLT Foundation
                     </a>{" "}
                     employs a multi-stakeholder approach in preventing child
@@ -31,7 +31,7 @@ const en = () => {
                     representatives, and other stakeholders that address child
                     labor in tobacco growing. As a member of the UN Global
                     Compact and the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/ipec/Action/CSR/clp/lang--en/index.htm"
                         title="ILO&rsquo;s Child Labor Platform"
                     >
@@ -43,39 +43,39 @@ const en = () => {
                     Foundation has conducted projects with a range of public and
                     private stakeholders in countries where child labor in the
                     production of tobacco is prevalent, including in{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-guatemala#introduction"
                         title="Guatemala"
                     >
                         Guatemala
                     </a>
                     ,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-kyrgyzstan#introduction"
                         title="Kyrgyzstan"
                     >
                         Kyrgyzstan
                     </a>
                     ,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-malawi#introduction"
                         title="Malawi"
                     >
                         Malawi
                     </a>
                     ,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-mozambique#introduction"
                         title="Mozambique"
                     >
                         Mozambique
                     </a>
                     ,{" "}
-                    <a href="https://www.eclt.org/impact/projects/eclt-in-tanzania#introduction">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.eclt.org/impact/projects/eclt-in-tanzania#introduction">
                         Tanzania
                     </a>{" "}
                     and{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.eclt.org/impact/projects/eclt-in-uganda#introduction"
                         title="Uganda"
                     >
@@ -85,7 +85,7 @@ const en = () => {
                     children from child labor, providing education, raising
                     awareness, strengthening communities, and alleviating
                     poverty. In 2015, the ECLT entered into a{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.eclt.org/en/news-and-insights/the-ilo-eclt-public-private-partnership-2015-2018-global-guidance-on-hazardous-child-labour-in-tobacco-growing"
                         title="3-year public-private partnership&nbsp;with the ILO"
                     >
@@ -102,7 +102,7 @@ const en = () => {
                 </h2>
                 <p>
                     The{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/ipec/Action/CSR/clp/lang--en/index.htm"
                         title="Child Labor Platform"
                     >
@@ -121,14 +121,14 @@ const en = () => {
                     operations. Since 2012, the CLP has operated as part of the
                     UN Global Compact&rsquo;s Human Rights and Labor Working
                     Group, with the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ioe-emp.org/"
                         title="International Organisation of Employers (IOE)"
                     >
                         International Organisation of Employers (IOE)
                     </a>{" "}
                     and the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.ituc-csi.org/"
                         title="International Trade Union Confederation (ITUC)"
                     >
@@ -137,7 +137,7 @@ const en = () => {
                     serving as co-chairs. In 2015, members of the CLP, including
                     companies from the food and beverage, apparel, and mining
                     sectors contributed to the production of a{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/ipecinfo/product/download.do?type=document&amp;id=27555"
                         title="Child Labor Guidance Tool for Business"
                     >
@@ -146,7 +146,7 @@ const en = () => {
                     , authored by the ILO and the IOE, which serves as a
                     resource for companies to meet the due diligence
                     requirements laid out in the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                         title="United Nations Guiding Principles on Business and Human Rights"
                     >
@@ -184,14 +184,14 @@ const en = () => {
                     Child Labor Platform to ensure the full support and
                     involvement of the business community towards the
                     achievement of the{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://sustainabledevelopment.un.org/?menu=1300"
                         title="Sustainable Development Goals"
                     >
                         Sustainable Development Goals
                     </a>{" "}
                     under ILO{" "}
-                    <a href="http://www.alliance87.org/" title="Alliance 8.7">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.alliance87.org/" title="Alliance 8.7">
                         Alliance 8.7
                     </a>{" "}
                     &ndash; a global partnership aimed at ending child labor,

@@ -26,7 +26,7 @@ const fr = () => {
                 </h2>
                 <p>
                     Le{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/"
                         title="R&eacute;seau de l&rsquo;approvisionnement responsable"
                     >
@@ -48,7 +48,7 @@ const fr = () => {
                     marques, les consommateurs et les communaut&eacute;s
                     concern&eacute;es. Le RSN travaille actuellement avec des
                     partenaires pour pr&eacute;venir et{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/minerals/"
                         title="&eacute;liminer les violations des droits de l&rsquo;homme dans l&rsquo;extraction de minerais de conflit en R&eacute;publique d&eacute;mocratique du Congo"
                     >
@@ -58,7 +58,7 @@ const fr = () => {
                         Congo
                     </a>{" "}
                     et dans la{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.sourcingnetwork.org/the-cotton-pledge"
                         title="production de coton en Ouzb&eacute;kistan"
                     >
@@ -78,7 +78,7 @@ const fr = () => {
                 </h2>
                 <p>
                     L&rsquo;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.resolv.org/site-ppa/"
                         title="Alliance public-priv&eacute; pour le commerce responsable de minerais"
                     >
@@ -152,14 +152,14 @@ const fr = () => {
                     d&eacute;lib&eacute;r&eacute;e &agrave; la question du
                     travail des enfants dans les champs de canne &agrave; sucre.
                     Le{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/agencies/ilab/our-work/projects/ABK3leap"
                         title="Projet ABK3 LEAP"
                     >
                         projet ABK3 LEAP
                     </a>
                     , financ&eacute; par l&rsquo;ILAB et mis en &oelig;uvre par{" "}
-                    <a href="https://www.worldvision.org/" title="World Vision">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.worldvision.org/" title="World Vision">
                         World Vision
                     </a>
                     , a travaill&eacute; &agrave; la mobilisation du secteur
@@ -263,7 +263,7 @@ const fr = () => {
                     partenariats avec un ensemble de marques mondiales,
                     notamment Danone*, Ferrero* et L&rsquo;Or&eacute;al* pour
                     cr&eacute;er le{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://poig.org/"
                         title="Groupe d&rsquo;innovation sur l&rsquo;huile de palme"
                     >

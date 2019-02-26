@@ -115,7 +115,7 @@ const es = () => {
                 a&ntilde;os, varios organismos se esforzaron por formalizar y
                 documentar las especialidades y los conocimientos
                 est&aacute;ndar que todo auditor debe poseer. Por ejemplo, la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.theapsca.org/"
                     title="Asociaci&oacute;n de Auditores Profesionales de Cumplimiento Social (APSCA)"
                 >
@@ -188,7 +188,7 @@ const es = () => {
                     requisito de que en toda evaluaci&oacute;n haya dos
                     &ldquo;asesores de la empresa&rdquo; [auditores] presentes
                     en las evaluaciones no anunciadas. Los{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://betterwork.org/our-work/factory-services"
                         title="Asesores de Better Work"
                     >

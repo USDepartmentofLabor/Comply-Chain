@@ -469,7 +469,7 @@ const es = () => {
                 </p>
                 <p>
                     Para m&aacute;s informaci&oacute;n v&eacute;ase el{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.inpacto.org.br/en/"
                         title="Sitio web de InPACTO"
                     >

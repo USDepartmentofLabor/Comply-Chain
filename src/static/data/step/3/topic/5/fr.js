@@ -19,7 +19,7 @@ const fr = () => {
             <p>
                 L&apos;Alliance ISEAL, association mondiale pour les normes
                 sociales et environnementales, a publi&eacute; un{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="https://www.isealalliance.org/our-work/defining-credibility/codes-of-good-practice"
                     title="Code de bonnes pratiques pour la mise en place de normes"
                 >
@@ -60,7 +60,7 @@ const fr = () => {
                 </h2>
                 <p>
                     La{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/"
                         title="Fair Labor Association"
                     >
@@ -68,7 +68,7 @@ const fr = () => {
                     </a>{" "}
                     (FLA) est une organisation &agrave; but non lucratif qui
                     surveille la conformit&eacute; avec son{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/our-work/code-of-conduct"
                         title="Code de conduite sur le lieu de travail"
                     >
@@ -80,7 +80,7 @@ const fr = () => {
                     d&eacute;taill&eacute;es de r&eacute;paration lorsque des
                     violations sont identifi&eacute;es. Il est
                     compl&eacute;t&eacute; par les{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/sites/default/files/fla_complete_code_and_benchmarks.pdf"
                         title="R&eacute;f&eacute;rences de conformit&eacute; de la FLA"
                     >
@@ -108,7 +108,7 @@ const fr = () => {
                     d&apos;universit&eacute;s.&nbsp;
                 </p>
                 <p>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf"
                         title="Obtenir davantage d'informations et voir le Code de conduite sur le lieu de travail et les R&eacute;f&eacute;rences de conformit&eacute; complets, les principaux points de la r&eacute;vision et une comparaison c&ocirc;te &agrave; c&ocirc;te avec le code pr&eacute;c&eacute;dent."
                     >

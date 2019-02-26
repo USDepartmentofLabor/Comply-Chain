@@ -36,7 +36,7 @@ const es = () => {
             </p>
             <p>
                 Algunos ejemplos de c&oacute;digos de la industria son los{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://bettercotton.org/about-better-cotton/better-cotton-standard-system/production-principles-and-criteria/"
                     title="Principios y Criterios de Producci&oacute;n de la iniciativa BCI (Better Cotton Initiative)"
                 >
@@ -45,7 +45,7 @@ const es = () => {
                 </a>{" "}
                 para empresas que participan en toda la cadena de suministro del
                 algod&oacute;n, el{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.eiccoalition.org/media/docs/EICCCodeofConduct5_English.pdf"
                     title="C&oacute;digo de la Coalici&oacute;n Ciudadana de la Industria Electr&oacute;nica"
                 >
@@ -53,7 +53,7 @@ const es = () => {
                     Industria Electr&oacute;nica
                 </a>{" "}
                 para empresas de electr&oacute;nica, la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.bonsucro.com/en/production-standard/"
                     title="Norma de producci&oacute;n Bonsucro"
                 >
@@ -61,7 +61,7 @@ const es = () => {
                 </a>{" "}
                 para empresas que trabajan en la cadena de suministro de la
                 ca&ntilde;a de az&uacute;car y el{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ethicaltrade.org/eti-base-code"
                     title="C&oacute;digo B&aacute;sico de la Iniciativa de Comercio &Eacute;tico para empresas de distintas industrias"
                 >
@@ -75,14 +75,14 @@ const es = () => {
                 redactaron declaraciones generales de pol&iacute;tica y
                 declaraciones de compromiso para que adopten los socios. Algunos
                 ejemplos son el{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.aiag.org/corporate-responsibility/supply-chain-sustainability"
                     title="Automotive Industry Action Group"
                 >
                     Automotive Industry Action Group
                 </a>
                 * y los{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-priority-industry-principles"
                     title="Principios esenciales de la industria del Foro de Bienes de Consumo*"
                 >
@@ -96,7 +96,7 @@ const es = () => {
                 interesadas que elaboraron gu&iacute;as para un producto o una
                 l&iacute;nea de productos en particular. Algunos ejemplos son
                 (menos el primero, solo disponible en idioma ingl&eacute;s): 1){" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.oecd.org/daf/inv/mne/mining.htm"
                     title="Suplemento sobre esta&ntilde;o, tantalio y tungsteno de la Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas de Suministro Responsables de Minerales en las &Aacute;reas de Conflicto o de Alto Riesgo"
                 >
@@ -106,7 +106,7 @@ const es = () => {
                     Conflicto o de Alto Riesgo
                 </a>
                 ; 2){" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://mneguidelines.oecd.org/responsible-supply-chains-textile-garment-sector.htm"
                     title="Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas de Suministro Responsables en los Sectores de la Producci&oacute;n de Ropa y de Calzado"
                 >
@@ -115,7 +115,7 @@ const es = () => {
                     Producci&oacute;n de Ropa y de Calzado
                 </a>
                 ; 3){" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://mneguidelines.oecd.org/rbc-agriculture-supply-chains.htm"
                     title="Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas de Suministro Responsables en el Sector Agr&iacute;cola"
                 >
@@ -123,7 +123,7 @@ const es = () => {
                     Suministro Responsables en el Sector Agr&iacute;cola
                 </a>
                 ; 4){" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://mneguidelines.oecd.org/Practical-actions-for-worst-forms-of-child-labour-mining-sector.pdf"
                     title="Acciones pr&aacute;cticas de la OCDE para que las empresas identifiquen y combatan las peores formas de trabajo infantil en las cadenas de suministro de minerales"
                 >
@@ -139,7 +139,7 @@ const es = () => {
                 adopten su propio c&oacute;digo de conducta o un c&oacute;digo
                 pertinente para la industria. El instrumento de abastecimiento
                 responsable (RST) de Verit&eacute; contiene un{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/vendoragreement"
                     title="Ejemplo de acuerdo de responsabilidad social"
                 >

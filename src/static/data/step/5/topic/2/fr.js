@@ -134,7 +134,7 @@ const fr = () => {
                 d&apos;officialiser et de documenter les connaissances et les
                 comp&eacute;tences standard que devrait poss&eacute;der un
                 auditeur. Ainsi, l&rsquo;
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.theapsca.org/"
                     title="Association des auditeurs professionnels de la conformit&eacute; sociale (APSCA)"
                 >
@@ -216,7 +216,7 @@ const fr = () => {
                     pour chaque &eacute;valuation inopin&eacute;e, la
                     pr&eacute;sence de deux «&nbsp;conseillers
                     d&apos;entreprise&nbsp;» [auditeurs]. Les{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://betterwork.org/our-work/factory-services"
                         title="Conseillers Better Work"
                     >

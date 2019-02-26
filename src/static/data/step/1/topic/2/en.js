@@ -96,7 +96,7 @@ const en = () => {
                         Source: International Organization for Standardization
                         (ISO){" "}
                     </em>
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.iso.org/standard/42546.html"
                         title="26000, Guidance on Social Responsibility"
                     >

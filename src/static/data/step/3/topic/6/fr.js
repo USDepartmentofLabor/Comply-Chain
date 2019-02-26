@@ -41,7 +41,7 @@ const fr = () => {
             </p>
             <p>
                 Voici quelques exemples de codes sectoriels ou industriels : les{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://bettercotton.org/about-better-cotton/better-cotton-standard-system/production-principles-and-criteria/"
                     title="Principes et crit&egrave;res de production de la Better Cotton Initiative"
                 >
@@ -50,7 +50,7 @@ const fr = () => {
                 </a>{" "}
                 pour les entreprises de l&apos;ensemble de la cha&icirc;ne
                 d&apos;approvisionnement du coton, le{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.eiccoalition.org/media/docs/EICCCodeofConduct5_English.pdf"
                     title="Code de conduite de la Coalition pour la citoyennet&eacute; de l&rsquo;industrie &eacute;lectronique"
                 >
@@ -59,7 +59,7 @@ const fr = () => {
                 </a>{" "}
                 pour les entreprises de l&rsquo;industrie &eacute;lectronique,
                 la{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.bonsucro.com/en/production-standard/"
                     title="Norme de production Bonsucro"
                 >
@@ -67,7 +67,7 @@ const fr = () => {
                 </a>{" "}
                 pour les entreprises de la cha&icirc;ne d&apos;approvisionnement
                 du secteur de la canne &agrave; sucre, et le{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ethicaltrade.org/eti-base-code"
                     title="Code de base de l&rsquo;Initiative pour le commerce &eacute;thique pour les entreprises de diff&eacute;rents secteurs"
                 >
@@ -84,14 +84,14 @@ const fr = () => {
                 pour eux des d&eacute;clarations de politique
                 g&eacute;n&eacute;rale et des actes d&rsquo;engagement pour
                 adoption. L&rsquo;
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.aiag.org/corporate-responsibility/supply-chain-sustainability"
                     title="Automotive Industry Action Group"
                 >
                     Automotive Industry Action Group
                 </a>
                 * et les{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-priority-industry-principles"
                     title="Principes sectoriels prioritaires du Consumer Goods Forum"
                 >
@@ -104,7 +104,7 @@ const fr = () => {
                 multipartites qui ont mis au point des recommandations au sujet
                 d&rsquo;un produit ou d&rsquo;une gamme de produits
                 pr&eacute;cis. Par exemple&nbsp;: 1) le{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.oecd.org/daf/inv/mne/mining.htm"
                     title="Suppl&eacute;ment sur l'&eacute;tain, le tantale et le tungst&egrave;ne du Guide de l&rsquo;Organisation de coop&eacute;ration et de d&eacute;veloppement &eacute;conomiques (OCDE) sur le devoir de diligence pour des cha&icirc;nes d'approvisionnement responsables en minerais provenant de zones de conflit ou &agrave; haut risque"
                 >
@@ -118,7 +118,7 @@ const fr = () => {
                     risque
                 </a>
                 &nbsp;; 2) le{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://mneguidelines.oecd.org/responsible-supply-chains-textile-garment-sector.htm"
                     title="Guide OCDE sur le devoir de diligence pour des cha&icirc;nes d'approvisionnement responsables dans le secteur de l'habillement et de la chaussure"
                 >
@@ -127,7 +127,7 @@ const fr = () => {
                     l&apos;habillement et de la chaussure
                 </a>
                 &nbsp;; 3) le{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://mneguidelines.oecd.org/rbc-agriculture-supply-chains.htm"
                     title="Guide OCDE pour des cha&icirc;nes d'approvisionnement agricoles responsables"
                 >
@@ -135,7 +135,7 @@ const fr = () => {
                     agricoles responsables
                 </a>
                 &nbsp;; 4) les{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://mneguidelines.oecd.org/Practical-actions-for-worst-forms-of-child-labour-mining-sector.pdf"
                     title="Actions pratiques de l&rsquo;OCDE pour aider les entreprises &agrave; identifier et &eacute;liminer les pires formes du travail des enfants dans les cha&icirc;nes d'approvisionnement en minerais"
                 >
@@ -153,7 +153,7 @@ const fr = () => {
                 &agrave; leur code de conduite ou &agrave; un code sectoriel
                 pertinent. L&rsquo;Outil d&rsquo;approvisionnement responsable
                 de Verit&eacute;&rsquo;s comprend un{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/vendoragreement"
                     title="Exemple d&rsquo;accord de responsabilit&eacute; sociale"
                 >

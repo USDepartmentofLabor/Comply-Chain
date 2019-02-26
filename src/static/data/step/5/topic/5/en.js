@@ -65,7 +65,7 @@ const en = () => {
                     children and young persons employed by them but also of
                     those receiving vocational orientation or training in their
                     undertakings.&rdquo;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm#F4"
                         title="Convention No. 138 (1973)"
                     >
@@ -76,7 +76,7 @@ const en = () => {
                     When there are no birth certificates to verify age or where
                     falsified documents are easily obtained, the following
                     suggestions may be helpful:
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm#F5"
                         title="Eliminating Child Labour: Guides for Employers"
                     >
@@ -120,7 +120,7 @@ const en = () => {
                 </p>
                 <p>
                     [1] See, Article 9(3) of&nbsp;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138"
                         title="Convention No. 138 (1973)"
                     >
@@ -129,7 +129,7 @@ const en = () => {
                     , concerning the employers&rsquo; obligation to keep
                     registers of young workers under 18.
                     <br /> [2] See,&nbsp;
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/jakarta/whatwedo/publications/WCMS_151355/lang--en/index.htm"
                         title="Eliminating Child Labour: Guides for Employers"
                     >
@@ -139,7 +139,7 @@ const en = () => {
                 </p>
                 <p>
                     Source: Excerpted from the ILO Helpdesk for Business,{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm"
                         title="As on Business and Child Labor"
                     >
@@ -194,7 +194,7 @@ const en = () => {
                     </p>
                     <p>
                         The Responsible Sourcing Tool contains a tool,{" "}
-                        <a
+                        <a target="_blank" rel="noopener noreferrer"
                             href="http://www.responsiblesourcingtool.org/workerinterviews"
                             title="Conducting Migrant Worker Interviews"
                         >
@@ -232,14 +232,14 @@ const en = () => {
                         to recruiters or brokers for interviews can be a
                         challenge, and is likely to require the supplier&rsquo;s
                         coordination and cooperation. Verit&eacute;&rsquo;s{" "}
-                        <a
+                        <a target="_blank" rel="noopener noreferrer"
                             href="http://helpwanted.verite.org/helpwanted/toolkit"
                             title="Fair Hiring Toolkit"
                         >
                             Fair Hiring Toolkit
                         </a>{" "}
                         includes{" "}
-                        <a
+                        <a target="_blank" rel="noopener noreferrer"
                             href="http://helpwanted.verite.org/helpwanted/toolkit/suppliers/managing-labor-recruiters"
                             title="sample interview questions for labor recruiters"
                         >

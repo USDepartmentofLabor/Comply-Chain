@@ -33,7 +33,7 @@ const en = () => {
             </p>
             <p>
                 Examples of industry codes include the{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://bettercotton.org/about-better-cotton/better-cotton-standard-system/production-principles-and-criteria/"
                     title="Better Cotton Initiative&rsquo;s Production Principles and Criteria"
                 >
@@ -41,21 +41,21 @@ const en = () => {
                     Criteria
                 </a>{" "}
                 for companies throughout the cotton supply chain, the{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.eiccoalition.org/media/docs/EICCCodeofConduct5_English.pdf"
                     title="Electronic Industry Citizenship Coalition Code"
                 >
                     Electronic Industry Citizenship Coalition Code
                 </a>{" "}
                 for electronics companies, the{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.bonsucro.com/en/production-standard/"
                     title="Bonsucro Production Standard"
                 >
                     Bonsucro Production Standard
                 </a>{" "}
                 for companies in the sugarcane supply chain,&nbsp;and{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.ethicaltrade.org/eti-base-code"
                     title="Ethical Trading Initiative&rsquo;s Base Code for companies in a variety of industries"
                 >
@@ -68,14 +68,14 @@ const en = () => {
                 adherence to a specific code, but that have developed general
                 policy statements and statements of commitment for members to
                 adopt. Examples include the{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.aiag.org/corporate-responsibility/supply-chain-sustainability"
                     title="Automotive Industry Action Group"
                 >
                     Automotive Industry Action Group
                 </a>
                 * and the{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-priority-industry-principles"
                     title="Consumer Goods Forum&rsquo;s* Priority Industry Principles"
                 >
@@ -87,7 +87,7 @@ const en = () => {
                 Similarly, there are multilateral and multi-stakeholder groups
                 that have developed guidance for a particular product or line of
                 products. Examples include: 1){" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.oecd.org/daf/inv/mne/mining.htm"
                     title="Organization for Economic Co-operation and Development (OECD) Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas Supplement on Tin, Tantalum and Tungsten"
                 >
@@ -97,7 +97,7 @@ const en = () => {
                     Supplement on Tin, Tantalum and Tungsten
                 </a>
                 ; 2){" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://mneguidelines.oecd.org/responsible-supply-chains-textile-garment-sector.htm"
                     title="OECD Due Diligence For Responsible Supply Chains in the Garment and Footwear Sector"
                 >
@@ -105,14 +105,14 @@ const en = () => {
                     Garment and Footwear Sector
                 </a>
                 ; 3){" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://mneguidelines.oecd.org/rbc-agriculture-supply-chains.htm"
                     title="OECD Guidance for Responsible Agricultural Supply Chains"
                 >
                     OECD Guidance for Responsible Agricultural Supply Chains
                 </a>
                 ; 4){" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://mneguidelines.oecd.org/Practical-actions-for-worst-forms-of-child-labour-mining-sector.pdf"
                     title="OECD Practical Actions for Companies to Identify and Address the Worst Forms of Child Labor in Mineral Supply Chains"
                 >
@@ -126,7 +126,7 @@ const en = () => {
                 require that their subcontractors and suppliers adhere to their
                 code of conduct or a relevant industry code.
                 Verit&eacute;&rsquo;s Responsible Sourcing Tool contains a{" "}
-                <a
+                <a target="_blank" rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/vendoragreement"
                     title="Sample Social Responsibility Agreement"
                 >

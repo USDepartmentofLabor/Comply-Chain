@@ -32,11 +32,11 @@ const es = () => {
                 &ldquo;Comercio Justo&rdquo;. Para m&aacute;s
                 informaci&oacute;n, v&eacute;anse los compendios de instrumentos
                 de{" "}
-                <a href="http://www.fairtrade.net/child-labour.html">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.fairtrade.net/child-labour.html">
                     Fairtrade International
                 </a>{" "}
                 y{" "}
-                <a href="http://www.fairtradeusa.org/" title="Fair Trade USA">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.fairtradeusa.org/" title="Fair Trade USA">
                     Fair Trade USA
                 </a>
                 .
@@ -44,7 +44,7 @@ const es = () => {
             <p>
                 Algunos programas de certificaci&oacute;n procuran cumplir las
                 normas de la{" "}
-                <a href="http://www.isealalliance.org/" title="Alianza ISEAL">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.isealalliance.org/" title="Alianza ISEAL">
                     Alianza ISEAL
                 </a>
                 , asociaci&oacute;n de organizaciones que formula pautas sobre
@@ -74,7 +74,7 @@ const es = () => {
 
                 <p>
                     Desde hace m&aacute;s de 20 a&ntilde;os,{" "}
-                    <a href="https://goodweave.org/" title="GoodWeave">
+                    <a target="_blank" rel="noopener noreferrer" href="https://goodweave.org/" title="GoodWeave">
                         GoodWeave
                     </a>{" "}
                     trabaja para transformar la industria de las alfombras ya
@@ -113,7 +113,7 @@ const es = () => {
                 </p>
                 <p>
                     Informaci&oacute;n adicional sobre el{" "}
-                    <a
+                    <a target="_blank" rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/projects/summaries/Afghanistan_Carpets.pdf"
                         title="Proyecto para prevenir el trabajo infantil en la fabricaci&oacute;n casera de tapetes en Afganist&aacute;n"
                     >

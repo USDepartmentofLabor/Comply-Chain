@@ -26,7 +26,7 @@ const es = () => {
                 </em>{" "}
                 Washington, D.C., 2009; disponible en idioma ingl&eacute;s
                 solamente en{" "}
-                <a href="http://www1.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&amp;CACHEID=cbe7b18048855348ae6cfe6a6515bb18">
+                <a target="_blank" rel="noopener noreferrer" href="http://www1.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&amp;CACHEID=cbe7b18048855348ae6cfe6a6515bb18">
                     http://www1.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&amp;CACHEID=cbe7b18048855348ae6cfe6a6515bb18
                 </a>
                 .
