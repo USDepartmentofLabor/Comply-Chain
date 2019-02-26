@@ -4,7 +4,6 @@ import styled from "styled-components";
 import SideNav from "../SideNav";
 
 const NavbarWrapper = styled.div`
-    overflow: hidden;
     position: fixed;
     top: 0;
     background-color: #fff;
