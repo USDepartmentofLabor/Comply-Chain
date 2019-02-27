@@ -102,7 +102,7 @@ const fr = () => {
                 d&eacute;terminations.
             </p>
             <img
-                id="img-browser"
+                id="img-browser" className="small-img"
                 src={usDol}
                 alt="travail agricole des enfants"
             />

@@ -218,7 +218,6 @@ const en = () => {
                         </ul>
                         <p />
                     </Accordion.Panel>
-                    <border-separator />
                 </Accordion.Section>
                 <Accordion.Section>
                     <Accordion.Title>
@@ -247,7 +246,6 @@ const en = () => {
                             application, released in September 2017.
                         </p>
                     </Accordion.Panel>
-                    <border-separator />
                 </Accordion.Section>
                 <Accordion.Section>
                     <Accordion.Title>
@@ -264,7 +262,6 @@ const en = () => {
                             programs.
                         </p>
                     </Accordion.Panel>
-                    <border-separator />
                 </Accordion.Section>
                 <Accordion.Section>
                     <Accordion.Title>
@@ -326,7 +323,7 @@ const en = () => {
                     <Accordion.Section />
                 </Accordion.Section>
             </Accordion>
-            <border-separator />
+
             <p>
                 <em>
                     *Note: References to specific companies and non-governmental

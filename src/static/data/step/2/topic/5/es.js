@@ -235,7 +235,7 @@ const es = () => {
                     en sus cadenas de suministro.
                 </p>
                 <img
-                    id="img-browser"
+                    id="img-browser" className="small-img"
                     src={panos}
                     alt="ni&ntilde;o que trabaja con una pala."
                 />

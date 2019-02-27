@@ -292,7 +292,7 @@ const fr = () => {
                         <p />
                     </Accordion.Panel>
                 </Accordion.Section>
-                <border-separator />
+
                 <Accordion.Section>
                     <Accordion.Title>
                         <strong>
@@ -336,7 +336,7 @@ const fr = () => {
                         </p>
                     </Accordion.Panel>
                 </Accordion.Section>
-                <border-separator />
+
                 <Accordion.Section>
                     <Accordion.Title>
                         <strong>
@@ -360,7 +360,7 @@ const fr = () => {
                         </p>
                     </Accordion.Panel>
                 </Accordion.Section>
-                <border-separator />
+
                 <Accordion.Section>
                     <Accordion.Title>
                         <strong>Comment se servir de cette appli?</strong>
@@ -439,7 +439,7 @@ const fr = () => {
                     </Accordion.Panel>
                 </Accordion.Section>
             </Accordion>
-            <border-separator />
+
             <p>
                 <em>
                     *Remarque&nbsp;: Les r&eacute;f&eacute;rences &agrave; des

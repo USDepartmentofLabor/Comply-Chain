@@ -163,7 +163,7 @@ const es = () => {
                     auditor&iacute;as de conformidad con las normas de Bonsucro.
                 </p>
                 <img
-                    id="img-browser"
+                    id="img-browser" className="small-img"
                     src={manBamboo}
                     alt="Hombre que corta bamb&uacute;"
                 />{" "}

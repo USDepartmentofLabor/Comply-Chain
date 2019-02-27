@@ -189,7 +189,7 @@ const fr = () => {
                     conform&eacute;ment aux normes de Bonsucro.
                 </p>
                 <img
-                    id="img-browser"
+                    id="img-browser" className="small-img"
                     src={manBamboo}
                     alt="Homme coupant des bambous"
                 />{" "}

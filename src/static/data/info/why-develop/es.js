@@ -1,5 +1,6 @@
 import React from "react";
 import Accordion from "../../../../common/Accordion";
+import BorderSeparator from "../../../../common/BorderSeparator";
 
 const es = () => {
     return (
@@ -54,7 +55,6 @@ const es = () => {
                     aplicaci&oacute;n
                 </li>
                 <br />
-                <border-separator />
                 <Accordion>
                     <Accordion.Section>
                         <Accordion.Title>
@@ -138,7 +138,7 @@ const es = () => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <border-separator />
+                    <BorderSeparator />
                     <Accordion.Section>
                         <Accordion.Title>
                             <strong>
@@ -200,7 +200,7 @@ const es = () => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <border-separator />
+                    <BorderSeparator />
                     <Accordion.Section content-label="United Kingdom Modern Slavery Act">
                         <Accordion.Title>
                             <strong>
@@ -288,7 +288,7 @@ const es = () => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <border-separator />
+                    <BorderSeparator />
                     <Accordion.Section content-label="France&rsquo;s Duty of Vigilance Law">
                         <Accordion.Title>
                             <strong>
@@ -334,7 +334,7 @@ const es = () => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <border-separator />
+                    <BorderSeparator />
                     <Accordion.Section content-label="Dodd-Frank Wall Street Reform and Consumer Protection Act">
                         <Accordion.Title>
                             <strong>
@@ -390,7 +390,7 @@ const es = () => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <border-separator />
+                    <BorderSeparator />
                     <Accordion.Section content-label="California Transparency in Supply Chains Act">
                         <Accordion.Title>
                             <strong>
@@ -401,7 +401,7 @@ const es = () => {
                         <Accordion.Panel>
                             <p>
                                 La{" "}
-                                <a hreh="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf">
+                                <a href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf">
                                     Ley de California sobre transparencia en las
                                     cadenas de suministro
                                 </a>
@@ -520,7 +520,7 @@ const es = () => {
                         </Accordion.Panel>
                     </Accordion.Section>
                 </Accordion>
-                <border-separator />
+                <BorderSeparator />
             </ul>
             <h2>
                 Evoluci&oacute;n de las normas voluntarias y normas autoritarias

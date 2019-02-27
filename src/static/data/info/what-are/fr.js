@@ -1,5 +1,7 @@
 import React from "react";
 import Accordion from "../../../../common/Accordion";
+import childBrick from "../images/child_brick.jpg";
+import unoDc from "../images/UNO_DC_fr.png";
 
 const fr = () => {
     return (
@@ -187,8 +189,8 @@ const fr = () => {
                             </li>
                         </ol>
                         <img
-                            id="img-browser"
-                            src="info-pages/images/child_brick.jpg"
+                            id="img-browser" className="small-img"
+                            src={childBrick}
                             alt="Une fillette et ses briques"
                         />
                         <p class="small-text">M. Crozet/OIT</p>
@@ -435,7 +437,7 @@ const fr = () => {
                         </ol>
                     </Accordion.Panel>
                 </Accordion.Section>
-                <border-separator />
+
                 <Accordion.Section>
                     <Accordion.Title>Travail forc&eacute;</Accordion.Title>
                     <Accordion.Panel>
@@ -741,7 +743,7 @@ const fr = () => {
                             servitude ou le pr&eacute;l&egrave;vement
                             d&apos;organes&nbsp;».
                         </p>
-                        <img src="info-pages/images/UNO_DC_fr.png" /> <br />
+                        <img src={unoDc} alt="UNO DC" /> <br />
                         <p class="small-text">
                             Source&nbsp;: Office des Nations unies contre la
                             drogue et le crime.{" "}

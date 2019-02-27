@@ -1,4 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import BorderSeparator from "../../../../common/BorderSeparator";
+import Icons from "../../../../common/Icons";
+import { EiaList } from "./shared";
 
 const en = () => {
     return (
@@ -11,9 +15,9 @@ const en = () => {
                     Trafficking Around the World
                 </em>
             </p>
-            <smart-link />
+            {/* TODO replace with links to sweat and toil apps */}
             <br />
-            <border-separator />
+            <BorderSeparator />
             <h2>
                 <strong>Key Tools: </strong>
             </h2>
@@ -31,7 +35,7 @@ const en = () => {
                     http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf
                 </a>
             </p>
-            <border-separator />
+            <BorderSeparator />
             <p>Organization for Economic Co-operation and Development</p>
             <p>
                 <em>Guidelines for Multinational Enterprises</em>
@@ -44,7 +48,7 @@ const en = () => {
                     http://www.oecd.org/corporate/mne/
                 </a>
             </p>
-            <border-separator />
+            <BorderSeparator />
             <p>International Labor Organization</p>
             <p>
                 <em>
@@ -59,7 +63,7 @@ const en = () => {
                     http://www.ilo.org/empent/areas/business-helpdesk/lang--en/index.htm
                 </a>
             </p>
-            <border-separator />
+            <BorderSeparator />
             <p>International Labor Organization</p>
             <p>
                 <em>
@@ -75,7 +79,7 @@ const en = () => {
                     http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm
                 </a>
             </p>
-            <border-separator />
+            <BorderSeparator />
             <p>International Labor Organization</p>
             <p>
                 <em>
@@ -91,7 +95,7 @@ const en = () => {
                     http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm
                 </a>
             </p>
-            <border-separator />
+            <BorderSeparator />
             <p>International Labor Organization</p>
             <p>
                 <em>ILO-IOE Child Labour Guidance Tool for Business</em>
@@ -104,7 +108,7 @@ const en = () => {
                     http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_27555/lang--en/index.htm
                 </a>
             </p>
-            <border-separator />
+            <BorderSeparator />
             <p>Consumer Goods Forum</p>
             <p>
                 <em>
@@ -120,7 +124,7 @@ const en = () => {
                     http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-case-studies
                 </a>
             </p>
-            <border-separator />
+            <BorderSeparator />
             <p>Verit&eacute;</p>
             <p>
                 <em>Responsible Sourcing Tool</em>
@@ -133,7 +137,7 @@ const en = () => {
                     http://www.responsiblesourcingtool.org/
                 </a>
             </p>
-            <border-separator />
+            <BorderSeparator />
             <p>Verit&eacute;</p>
             <p>
                 <em>Anti-Human Trafficking Business Authentication Criteria</em>
@@ -146,196 +150,297 @@ const en = () => {
                     http://responsiblesourcingtool.org/download/reports/Verite_BusinessAuthenticationCriteria_r1.pdf
                 </a>
             </p>
-            <border-separator />
+            <BorderSeparator />
             <h2>
                 <strong>Examples in Action:</strong>
             </h2>
-            <div id="eia-list">
-                <app-link href="/info-basics-page">
-                    Better Work Program in the Garment Industry
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/info-basics-page">
-                    Electronics Industry Citizenship Coalition (EICC) Code of
-                    Conduct &ndash; Management Systems
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/1/3" id="engagement_gov_brazil">
-                    Engagement with Government: Brazil&rsquo;s &ldquo;Dirty
-                    List&rdquo; and Institute of the National Pact for the
-                    Eradication of Slave Labor
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/1/4" id="rsn">
-                    Responsible Sourcing Network
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/1/4" id="res_min_trade">
-                    Public-Private Alliance for Responsible Minerals Trade
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/1/4" id="sug_phil">
-                    Multi-stakeholder Efforts to Eliminate Child Labor in the
-                    Sugarcane Sector in the Philippines
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/1/5" id="eclt">
-                    Eliminating Child Labor in Tobacco-Growing (ECLT) Foundation
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/1/5" id="clt">
-                    Child Labor Platform
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/1/5" id="gbn">
-                    ILO&rsquo;s Global Business Network on Forced Labor and
-                    Human Trafficking
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/1/6" id="goodweave">
-                    GoodWeave
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/2/5" id="med_rep">
-                    The Important Role of Media Reporting
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/2/5" id="fish">
-                    Fishing and Seafood
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/2/6" id="leber">
-                    Leber Jeweler: The Jewelers&rsquo; Burma Relief Project
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/2/6" id="Isidro">
-                    Isidro Le&oacute;n-York
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/2/6" id="lco">
-                    League Collegiate Outfitters: Creating Opportunities for
-                    Disadvantaged Youth in El Salvador
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/2/6" id="gap">
-                    Gap Inc.&rsquo;s P.A.C.E Program
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/2/7" id="Conflict_Free">
-                    Conflict-Free Sourcing Initiative
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/2/7" id="mica">
-                    L&rsquo;Or&eacute;al and Responsible Mica Sourcing
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/3/3" id="rst1">
-                    Responsible Sourcing Tool 1, Sample Code of Conduct
-                    Provisions
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/3/4" id="patagonia">
-                    Patagonia&rsquo;s Migrant Worker Standards
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/3/4" id="leadership">
-                    Leadership Group for Responsible Recruitment
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/3/5" id="fair_labor">
-                    Fair Labor Association Code Revision Process
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/4/4" id="cocoa">
-                    The International Chocolate and Cocoa Industry &ndash; World
-                    Cocoa Foundation&rsquo;s CocoaAction
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/5/2" id="better_work_assessment">
-                    Better Work Assessment Teams
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/5/3" id="rst1a">
-                    Responsible Sourcing Tool 1A, Sample Benchmarks of Good
-                    Practice in Recruitment and Employment
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/5/4" id="prereg">
-                    Pre-Registration Processes
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/5/8" id="cambodia">
-                    Community Based Child Labor Monitoring in Cambodia
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/6/1" id="turkey">
-                    Collaboration to Address Seasonal Migrant Child Labor in
-                    Turkey&rsquo;s Hazelnut Harvest
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/6/2" id="better_work">
-                    The Better Work Remediation Process: Performance Improvement
-                    Consultative Committees (PICC)
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/7/1" id="fla">
-                    The Fair Labor Association&rsquo;s (FLA) Accreditation
-                    Program for Independent External Monitors
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
-                <app-link href="/topic/7/1" id="bonsucro">
-                    The Bonsucro Accreditation Model
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
+            <EiaList id="eia-list">
+                <li>
+                    <Link to="/basics">
+                        Better Work Program in the Garment Industry
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+                <li>
+                    <Link to="/basics">
+                        Electronics Industry Citizenship Coalition (EICC) Code
+                        of Conduct &ndash; Management Systems
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+                <li>
+                    <Link
+                        to="/steps/1/topic/3#engagement_gov_brazil"
+                        id="engagement_gov_brazil"
+                    >
+                        Engagement with Government: Brazil&rsquo;s &ldquo;Dirty
+                        List&rdquo; and Institute of the National Pact for the
+                        Eradication of Slave Labor
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+                <li>
+                    <Link to="/steps/1/topic/4#rsn" id="rsn">
+                        Responsible Sourcing Network
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+                <li>
+                    <Link
+                        to="/steps/1/topic/4#res_min_trade"
+                        id="res_min_trade"
+                    >
+                        Public-Private Alliance for Responsible Minerals Trade
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
 
-                <app-link href="/topic/7/1" id="sai_model">
-                    Social Accountability International Model
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
+                <li>
+                    <Link to="/steps/1/topic/4#sug_phil" id="sug_phil">
+                        Multi-stakeholder Efforts to Eliminate Child Labor in
+                        the Sugarcane Sector in the Philippines
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
 
-                <app-link href="/topic/7/3" id="bwi_eval">
-                    Better Work Impact Evaluation
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-                <border-separator />
+                <li>
+                    <Link to="/steps/1/topic/5#eclt" id="eclt">
+                        Eliminating Child Labor in Tobacco-Growing (ECLT)
+                        Foundation
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
 
-                <app-link href="/topic/8/3" id="nike">
-                    Nike: Reporting on Remediation
-                    <iron-icon icon="icons:chevron-right" />
-                </app-link>
-            </div>
+                <li>
+                    <Link to="/steps/1/topic/5#clt" id="clt">
+                        Child Labor Platform
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/1/topic/5#gbn" id="gbn">
+                        ILO&rsquo;s Global Business Network on Forced Labor and
+                        Human Trafficking
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/1/topic/6#goodweave" id="goodweave">
+                        GoodWeave
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/2/topic/5#med_rep" id="med_rep">
+                        The Important Role of Media Reporting
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/2/topic/5#fish" id="fish">
+                        Fishing and Seafood
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/2/topic/6#leber" id="leber">
+                        Leber Jeweler: The Jewelers&rsquo; Burma Relief Project
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/2/topic/6#Isidro" id="Isidro">
+                        Isidro Le&oacute;n-York
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/2/topic/6#lco" id="lco">
+                        League Collegiate Outfitters: Creating Opportunities for
+                        Disadvantaged Youth in El Salvador
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/2/topic/6#gap" id="gap">
+                        Gap Inc.&rsquo;s P.A.C.E Program
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link
+                        to="/steps/2/topic/7#Conflict_Free"
+                        id="Conflict_Free"
+                    >
+                        Conflict-Free Sourcing Initiative
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/2/topic/7#mica" id="mica">
+                        L&rsquo;Or&eacute;al and Responsible Mica Sourcing
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/3/topic/3#rst1" id="rst1">
+                        Responsible Sourcing Tool 1, Sample Code of Conduct
+                        Provisions
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/3/topic/4#patagonia" id="patagonia">
+                        Patagonia&rsquo;s Migrant Worker Standards
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/3/topic/4#leadership" id="leadership">
+                        Leadership Group for Responsible Recruitment
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/3/topic/5#fair_labor" id="fair_labor">
+                        Fair Labor Association Code Revision Process
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/4/topic/4#cocoa" id="cocoa">
+                        The International Chocolate and Cocoa Industry &ndash;
+                        World Cocoa Foundation&rsquo;s CocoaAction
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link
+                        to="/steps/5/topic/2#better_work_assessment"
+                        id="better_work_assessment"
+                    >
+                        Better Work Assessment Teams
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+                <li>
+                    <Link to="/steps/5/topic/3#rst1a" id="rst1a">
+                        Responsible Sourcing Tool 1A, Sample Benchmarks of Good
+                        Practice in Recruitment and Employment
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+                <li>
+                    <Link to="/steps/5/topic/4#prereg" id="prereg">
+                        Pre-Registration Processes
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+                <li>
+                    <Link to="/steps/5/topic/8#cambodia" id="cambodia">
+                        Community Based Child Labor Monitoring in Cambodia
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+                <li>
+                    <Link to="/steps/6/topic/1#turkey" id="turkey">
+                        Collaboration to Address Seasonal Migrant Child Labor in
+                        Turkey&rsquo;s Hazelnut Harvest
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+                <li>
+                    <Link to="/steps/6/topic/2#better_work" id="better_work">
+                        The Better Work Remediation Process: Performance
+                        Improvement Consultative Committees (PICC)
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+                <li>
+                    <Link to="/steps/7/topic/1#fla" id="fla">
+                        The Fair Labor Association&rsquo;s (FLA) Accreditation
+                        Program for Independent External Monitors
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+                <li>
+                    <Link to="/steps/7/topic/1#bonsucro" id="bonsucro">
+                        The Bonsucro Accreditation Model
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/7/topic/1#sai_model" id="sai_model">
+                        Social Accountability International Model
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/7/topic/3#bwi_eval" id="bwi_eval">
+                        Better Work Impact Evaluation
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+                <BorderSeparator />
+
+                <li>
+                    <Link to="/steps/8/topic/3#nike" id="nike">
+                        Nike: Reporting on Remediation
+                        <Icons.ChevronRight />
+                    </Link>
+                </li>
+            </EiaList>
         </div>
     );
 };

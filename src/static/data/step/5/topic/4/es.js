@@ -86,7 +86,7 @@ const es = () => {
                 decisiones.
             </p>
             <img
-                id="img-browser"
+                id="img-browser" className="small-img"
                 src={usDol}
                 alt="trabajo infantil en el sector agr&iacute;cola"
             />

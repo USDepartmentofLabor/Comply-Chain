@@ -250,7 +250,7 @@ const fr = () => {
                     d&rsquo;approvisionnement.
                 </p>
                 <img
-                    id="img-browser"
+                    id="img-browser" className="small-img"
                     src={panos}
                     alt="enfant assujetti au travail forc&eacute; avec sa pelle"
                 />

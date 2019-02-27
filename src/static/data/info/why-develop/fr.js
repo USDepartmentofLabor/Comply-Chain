@@ -1,5 +1,6 @@
 import React from "react";
 import Accordion from "../../../../common/Accordion";
+import BorderSeparator from "../../../../common/BorderSeparator";
 
 const fr = () => {
     return (
@@ -65,7 +66,6 @@ const fr = () => {
                     ses r&eacute;glementations de mise en &oelig;uvre.
                 </li>
                 <br />
-                <border-separator />
                 <Accordion>
                     <Accordion.Section>
                         <Accordion.Title>
@@ -178,7 +178,7 @@ const fr = () => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <border-separator />
+                    <BorderSeparator />
                     <Accordion.Section>
                         <Accordion.Title>
                             <strong>
@@ -250,7 +250,7 @@ const fr = () => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <border-separator />
+                    <BorderSeparator />
                     <Accordion.Section>
                         <Accordion.Title>
                             <strong>
@@ -342,7 +342,7 @@ const fr = () => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <border-separator />
+                    <BorderSeparator />
                     <Accordion.Section>
                         <Accordion.Title>
                             <strong>
@@ -393,7 +393,7 @@ const fr = () => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <border-separator />
+                    <BorderSeparator />
                     <Accordion.Section>
                         <Accordion.Title>
                             <strong>
@@ -460,7 +460,7 @@ const fr = () => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <border-separator />
+                    <BorderSeparator />
                     <Accordion.Section>
                         <Accordion.Title>
                             <strong>
@@ -595,7 +595,7 @@ const fr = () => {
                         </Accordion.Panel>
                     </Accordion.Section>
                 </Accordion>
-                <border-separator />
+                <BorderSeparator />
             </ul>
             <h2>
                 &Eacute;volution des normes volontaires et faisant

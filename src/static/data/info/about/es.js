@@ -258,7 +258,6 @@ const es = () => {
                         </ul>
                         <p />
                     </Accordion.Panel>
-                    <border-separator />
                 </Accordion.Section>
                 <Accordion.Section>
                     <Accordion.Title>
@@ -298,7 +297,6 @@ const es = () => {
                             que se lanz&oacute; en septiembre de 2017.
                         </p>
                     </Accordion.Panel>
-                    <border-separator />
                 </Accordion.Section>
                 <Accordion.Section>
                     <Accordion.Title>
@@ -320,7 +318,6 @@ const es = () => {
                             de establecer dichos programas.
                         </p>
                     </Accordion.Panel>
-                    <border-separator />
                 </Accordion.Section>
                 <Accordion.Section>
                     <Accordion.Title>
@@ -394,7 +391,7 @@ const es = () => {
                     </Accordion.Panel>
                 </Accordion.Section>
             </Accordion>
-            <border-separator />
+
             <p>
                 <em>
                     *Nota: Toda referencia que se haga en la presente

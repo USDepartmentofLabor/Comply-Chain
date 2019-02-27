@@ -140,7 +140,7 @@ const en = () => {
                     audits according to Bonsucro&rsquo;s standards.
                 </p>
                 <img
-                    id="img-browser"
+                    id="img-browser" className="small-img"
                     src={manBamboo}
                     alt="Man chopping bamboo"
                 />

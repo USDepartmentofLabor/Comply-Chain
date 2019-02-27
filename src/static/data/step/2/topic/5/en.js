@@ -201,7 +201,7 @@ const en = () => {
                     eliminate human rights violations in their supply chains.
                 </p>
                 <img
-                    id="img-browser"
+                    id="img-browser" className="small-img"
                     src={panos}
                     alt="child labourer with a spade"
                 />

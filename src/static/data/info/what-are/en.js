@@ -1,5 +1,7 @@
 import React from "react";
 import Accordion from "../../../../common/Accordion";
+import childBrick from "../images/child_brick.jpg";
+import unoDc from "../images/UNO_DC.png";
 
 const en = () => {
     return (
@@ -141,8 +143,8 @@ const en = () => {
                             </li>
                         </ol>
                         <img
-                            id="img-browser"
-                            src="info-pages/images/child_brick.jpg"
+                            id="img-browser" className="small-img"
+                            src={childBrick}
                             alt="Girl with bricks"
                         />
                         <p class="small-text">M. Crozet/ILO</p>
@@ -330,7 +332,7 @@ const en = () => {
                         </ol>
                     </Accordion.Panel>
                 </Accordion.Section>
-                <border-separator />
+
                 <Accordion.Section>
                     <Accordion.Title>Forced Labor</Accordion.Title>
                     <Accordion.Panel>
@@ -555,7 +557,7 @@ const en = () => {
                             services, slavery or practices similar to slavery,
                             servitude or the removal of organs."
                         </p>
-                        <img src="info-pages/images/UNO_DC.png" />
+                        <img src={unoDc} alt="UNO DC" />
                         <br />
                         <p class="small-text">
                             Source: United Nations Office on Drugs and Crime.{" "}

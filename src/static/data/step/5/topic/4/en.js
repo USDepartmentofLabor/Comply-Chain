@@ -74,7 +74,7 @@ const en = () => {
                 maximum production levels. Your risk assessment should provide
                 information to feed in to these determinations.
             </p>
-            <img id="img-browser" src={usDol} alt="agriculture child labor" />
+            <img id="img-browser" className="small-img" src={usDol} alt="agriculture child labor" />
             <p className="small-text">&copy;Shelley Stinelli/USDOL</p>
             <p>
                 Auditing of your supply chain should also be scheduled

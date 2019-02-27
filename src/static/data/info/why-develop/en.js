@@ -43,7 +43,6 @@ const en = () => {
                     , and its implementing regulations
                 </li>
                 <br />
-                <border-separator />
                 <Accordion>
                     <Accordion.Section>
                         <Accordion.Title>
@@ -339,7 +338,7 @@ const en = () => {
                         <Accordion.Panel>
                             <p>
                                 The{" "}
-                                <a hreh="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf">
+                                <a href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf">
                                     California Transparency in Supply Chains Act
                                 </a>
                                 , which was signed into law in October 2010 and
