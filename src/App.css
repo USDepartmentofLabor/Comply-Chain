@@ -3,6 +3,10 @@ img {
     height: auto;
 }
 
+a {
+    overflow-wrap: break-word;
+}
+
 .small-img {
     width: 50%;
     height: auto;
