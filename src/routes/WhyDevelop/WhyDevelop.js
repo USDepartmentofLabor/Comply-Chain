@@ -4,7 +4,7 @@ import { withLanguageContext } from "../../common/Language";
 class WhyDevelop extends Component {
     render() {
         const { localizor } = this.props;
-        const WhyDevelopInfo = localizor.stringsO.info.whyDevelop.content;
+        const WhyDevelopInfo = localizor.strings.info.whyDevelop.content;
         return <WhyDevelopInfo />;
     }
 }
