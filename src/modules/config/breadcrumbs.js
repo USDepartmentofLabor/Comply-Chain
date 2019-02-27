@@ -6,7 +6,7 @@ const StepBreadcrumb = ({ match }) => {
     return (
         <LocalizedBreadcrumb
             string="general.step"
-            extra={" " + match.params.step}
+            extra={`\u0020${match.params.step}`}
         />
     );
 };
@@ -15,7 +15,7 @@ const TopicBreadcrumb = ({ match }) => {
     return (
         <LocalizedBreadcrumb
             string="general.topic"
-            extra={" " + match.params.topic}
+            extra={`\u0020${match.params.topic}`}
         />
     );
 };
@@ -26,11 +26,11 @@ const Breadcrumb = string => {
 
 export const breadcrumbs = [
     {
-        path: Routes.Home,
+        path: Routes.Home.path,
         breadcrumb: Breadcrumb("general.home")
     },
     {
-        path: Routes.Steps,
+        path: Routes.Steps.path,
         breadcrumb: Breadcrumb("general.steps")
     },
     {
