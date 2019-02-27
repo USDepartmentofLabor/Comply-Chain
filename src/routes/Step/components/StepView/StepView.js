@@ -22,7 +22,8 @@ class StepView extends Component {
                 data: {
                     resources: {
                         title: "Further Resources",
-                        content: Resources && <Resources />
+                        content: Resources && <Resources />,
+                        id: "resources"
                     },
                     learningObjectives: {
                         title: "Learning Objectives",
@@ -30,21 +31,25 @@ class StepView extends Component {
                             <LearningObjectiveList
                                 objectives={learningObjectives}
                             />
-                        )
+                        ),
+                        id: "learning-objectives"
                     },
                     keyTerms: {
                         title: "Key Terms",
-                        content: <KeyTermList terms={keyTerms} />
+                        content: <KeyTermList terms={keyTerms} />,
+                        id: "key-terms"
                     },
                     topics: {
                         title: "Topics",
                         content: (
                             <TopicsList step={Number(step)} topics={topics} />
-                        )
+                        ),
+                        id: "topics"
                     },
                     training: {
                         title: "Training Materials",
-                        content: Training && <Training />
+                        content: Training && <Training />,
+                        id: "training"
                     }
                 }
             };
@@ -65,7 +70,7 @@ class StepView extends Component {
         if (training.content) {
             sections.push(training);
         }
-        return <AccordionView sections={sections} />;
+        return <AccordionView id="step-accordions" sections={sections} />;
     }
 }
 

@@ -8,6 +8,9 @@ class Accordion extends Component {
         const title = e.target;
         const panel = e.target.nextElementSibling;
 
+        if (!panel) {
+            return;
+        }
         title.classList.toggle("active");
         if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
@@ -15,26 +18,33 @@ class Accordion extends Component {
             panel.style.maxHeight = panel.scrollHeight + "px";
         }
     };
+    renderWrappedChildren = children => {
+        return React.Children.map(children, child => {
+            // This is support for non-node elements (eg. pure text), they have no props
+            if (!child.props) {
+                return child;
+            }
+
+            if (child.type.displayName === "Section") {
+                return React.cloneElement(child, {
+                    children: this.renderWrappedChildren(child.props.children)
+                });
+            }
+
+            if (child.type.displayName === "Title") {
+                return React.cloneElement(child, {
+                    onClick: this.toggleActive
+                });
+            }
+
+            return child;
+        });
+    };
+
     render() {
         const { children, id } = this.props;
         return (
-            <Wrapper id={id}>
-                {React.Children.map(children, (child, i) => {
-                    if (child.type.displayName === "Section") {
-                        return React.Children.map(
-                            child.props.children,
-                            gchild => {
-                                if (gchild.type.displayName === "Title") {
-                                    return React.cloneElement(gchild, {
-                                        onClick: this.toggleActive
-                                    });
-                                }
-                                return gchild;
-                            }
-                        );
-                    }
-                })}
-            </Wrapper>
+            <Wrapper id={id}>{this.renderWrappedChildren(children)}</Wrapper>
         );
     }
 }
