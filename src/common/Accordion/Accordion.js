@@ -4,32 +4,60 @@ import styled from "styled-components";
 
 class Accordion extends Component {
     state = { active: false };
-    toggleActive = e => {
-        e.preventDefault();
-        const title = e.currentTarget;
-        const panel = e.currentTarget.nextElementSibling;
 
-        if (!panel) {
-            return;
+    constructor(props) {
+        super(props);
+        this.section = [];
+        this.title = [];
+        this.panel = [];
+    }
+    componentDidMount() {
+        const { hash } = window.location;
+        const id = hash.replace("#", "");
+        if (id) {
+            this.section.some((section, i) => {
+                if (section.id === id) {
+                    this.toggleActive(i);
+                    return true;
+                }
+
+                return false;
+            });
         }
-        title.classList.toggle("active");
-        if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
+    }
+    toggleActive = sectionIndex => {
+        this.title[sectionIndex].classList.toggle("active");
+        if (this.panel[sectionIndex].style.maxHeight) {
+            this.panel[sectionIndex].style.maxHeight = null;
         } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
+            this.panel[sectionIndex].style.maxHeight =
+                this.panel[sectionIndex].scrollHeight + "px";
         }
     };
-    renderWrappedChildren = children => {
-        return React.Children.map(children, child => {
+    renderWrappedChildren = (children, sectionIndex) => {
+        return React.Children.map(children, (child, i) => {
             if (child.type.displayName === "Section") {
                 return React.cloneElement(child, {
-                    children: this.renderWrappedChildren(child.props.children)
+                    ref: section => (this.section[i] = section),
+                    children: this.renderWrappedChildren(
+                        child.props.children,
+                        i
+                    )
                 });
             }
 
             if (child.type.displayName === "Title") {
                 return React.cloneElement(child, {
-                    onClick: this.toggleActive
+                    ref: title => (this.title[sectionIndex] = title),
+                    onClick: () => {
+                        this.toggleActive(sectionIndex);
+                    }
+                });
+            }
+
+            if (child.type.displayName === "Panel") {
+                return React.cloneElement(child, {
+                    ref: panel => (this.panel[sectionIndex] = panel)
                 });
             }
 
@@ -48,18 +76,16 @@ class Accordion extends Component {
 const Wrapper = styled.div``;
 
 Accordion.Title = styled.div`
-    & {
-        background-color: #eee;
-        color: #444;
-        cursor: pointer;
-        padding: 18px;
-        width: 100%;
-        border: none;
-        text-align: left;
-        outline: none;
-        font-size: 15px;
-        transition: 0.4s;
-    }
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
 
     &:hover {
         background-color: #ccc;
@@ -96,6 +122,10 @@ Accordion.Panel.displayName = "Panel";
 Accordion.Section = styled.div``;
 
 Accordion.Section.displayName = "Section";
+
+Accordion.Section.propTypes = {
+    id: PropTypes.string
+};
 
 Accordion.propTypes = {
     id: PropTypes.string,
