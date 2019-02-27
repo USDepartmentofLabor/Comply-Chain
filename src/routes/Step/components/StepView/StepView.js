@@ -21,12 +21,12 @@ class StepView extends Component {
             this.state = {
                 data: {
                     resources: {
-                        title: "Further Resources",
+                        title: localizor.strings.general.furtherResources,
                         content: Resources && <Resources />,
                         id: "resources"
                     },
                     learningObjectives: {
-                        title: "Learning Objectives",
+                        title: localizor.strings.general.learningObjectives,
                         content: (
                             <LearningObjectiveList
                                 objectives={learningObjectives}
@@ -35,19 +35,19 @@ class StepView extends Component {
                         id: "learning-objectives"
                     },
                     keyTerms: {
-                        title: "Key Terms",
+                        title: localizor.strings.general.keyTerms,
                         content: <KeyTermList terms={keyTerms} />,
                         id: "key-terms"
                     },
                     topics: {
-                        title: "Topics",
+                        title: localizor.strings.general.topics,
                         content: (
                             <TopicsList step={Number(step)} topics={topics} />
                         ),
                         id: "topics"
                     },
                     training: {
-                        title: "Training Materials",
+                        title: localizor.strings.general.training,
                         content: Training && <Training />,
                         id: "training"
                     }

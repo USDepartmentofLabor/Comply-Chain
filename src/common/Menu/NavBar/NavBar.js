@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import React, { Component } from "react";
 import styled from "styled-components";
 import SideNav from "../SideNav";
+import { withLanguageContext } from "../../Language";
 
 const NavbarWrapper = styled.div`
     position: fixed;
@@ -57,7 +58,7 @@ class NavBar extends Component {
     };
     render() {
         const { visible } = this.state;
-        const { leftItems, rightItems, children, id } = this.props;
+        const { leftItems, rightItems, children, id, localizor } = this.props;
         return (
             <div id={id}>
                 <NavbarWrapper>
@@ -76,7 +77,9 @@ class NavBar extends Component {
                         ))}
                     </SideNav>
 
-                    <NavItem onClick={this.toggleSideNav}>Menu</NavItem>
+                    <NavItem onClick={this.toggleSideNav}>
+                        {localizor.strings.general.menu}
+                    </NavItem>
                     {rightItems.map((item, i) => (
                         <NavItem
                             {...item.props}
@@ -99,7 +102,8 @@ NavBar.propTypes = {
     id: PropTypes.string,
     children: PropTypes.node,
     leftItems: PropTypes.arrayOf(PropTypes.object),
-    rightItems: PropTypes.arrayOf(PropTypes.object)
+    rightItems: PropTypes.arrayOf(PropTypes.object),
+    localizor: PropTypes.object.isRequired
 };
 
-export default NavBar;
+export default withLanguageContext(NavBar);
