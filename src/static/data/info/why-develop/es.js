@@ -46,7 +46,7 @@ const es = () => {
             </p>
             <ul id="law-list">
                 <li id="no-expand">
-                    <a href="https://www.gpo.gov/fdsys/pkg/FR-1999-06-16/pdf/99-15491.pdf">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.gpo.gov/fdsys/pkg/FR-1999-06-16/pdf/99-15491.pdf">
                         La Orden Ejecutiva 13126, Prohibici&oacute;n de la
                         adquisici&oacute;n de productos producidos con trabajo
                         forzoso o trabajo infantil no remunerado
@@ -72,7 +72,7 @@ const es = () => {
                                 Adquisiciones, Combatir la Trata de Personas, en
                                 vigor desde el 2 de marzo de 2015, incorpora
                                 salvaguardias para combatir la trata en la{" "}
-                                <a href="https://www.federalregister.gov/documents/2015/01/29/2015-01524/federal-acquisition-regulation-ending-trafficking-in-persons">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.federalregister.gov/documents/2015/01/29/2015-01524/federal-acquisition-regulation-ending-trafficking-in-persons">
                                     Orden Ejecutiva 13627, Fortalecimiento de
                                     las protecciones para combatir la trata de
                                     personas en los contratos del gobierno
@@ -121,14 +121,14 @@ const es = () => {
                             </p>
                             <p>
                                 El{" "}
-                                <a href="http://responsiblesourcingtool.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://responsiblesourcingtool.org/">
                                     Responsible Sourcing Tool
                                 </a>{" "}
                                 (instrumento de abastecimiento responsable)
                                 lanzado en 2016 por Verit&eacute; y el
                                 Departamento de Estado de los Estados Unidos,
                                 contiene un{" "}
-                                <a href="http://responsiblesourcingtool.org/download/footer/Tool_09.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="http://responsiblesourcingtool.org/download/footer/Tool_09.pdf">
                                     modelo de plan de cumplimiento
                                 </a>{" "}
                                 para que usen las empresas que deben demostrar
@@ -149,7 +149,7 @@ const es = () => {
                         <Accordion.Panel>
                             <p>
                                 La{" "}
-                                <a href="https://www.finance.senate.gov/imo/media/doc/BILLS-114hr644enr.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.finance.senate.gov/imo/media/doc/BILLS-114hr644enr.pdf">
                                     Ley de facilitaci&oacute;n del comercio y
                                     aplicaci&oacute;n de controles comerciales
                                     de 2015
@@ -159,7 +159,7 @@ const es = () => {
                                 hechos con trabajo forzoso mediante la
                                 eliminaci&oacute;n de un antiguo vac&iacute;o
                                 legal. En el marco de la{" "}
-                                <a href="https://www.gpo.gov/fdsys/granule/USCODE-2010-title19/USCODE-2010-title19-chap4">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.gpo.gov/fdsys/granule/USCODE-2010-title19/USCODE-2010-title19-chap4">
                                     Ley de aranceles de 1930
                                 </a>
                                 , desde hace mucho tiempo que se proh&iacute;be
@@ -212,7 +212,7 @@ const es = () => {
                             {" "}
                             <p>
                                 La{" "}
-                                <a href="http://www.legislation.gov.uk/ukpga/2015/30/pdfs/ukpga_20150030_en.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.legislation.gov.uk/ukpga/2015/30/pdfs/ukpga_20150030_en.pdf">
                                     Ley de formas contempor&aacute;neas de
                                     esclavitud del Reino Unido
                                 </a>
@@ -243,7 +243,7 @@ const es = () => {
                             </p>
                             <p>
                                 V&eacute;ase tambi&eacute;n el{" "}
-                                <a href="http://www.modernslaveryregistry.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.modernslaveryregistry.org/">
                                     <em>
                                         Registro de formas contempor&aacute;neas
                                         de esclavitud
@@ -256,35 +256,35 @@ const es = () => {
                                 esclavitud que hacen las empresas de conformidad
                                 con la ley. El comit&eacute; encargado del
                                 Registro est&aacute; integrado por Freedom Fund,{" "}
-                                <a href="https://humanityunited.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://humanityunited.org/">
                                     Humanity United
                                 </a>
                                 ,{" "}
-                                <a href="http://freedomfund.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://freedomfund.org/">
                                     Freedom United
                                 </a>
                                 ,{" "}
-                                <a href="https://www.antislavery.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.antislavery.org/">
                                     Anti-Slavery International
                                 </a>
                                 , la{" "}
-                                <a href="http://www.ethicaltrade.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.ethicaltrade.org/">
                                     Iniciativa de Comercio &Eacute;tico
                                 </a>
                                 ,{" "}
-                                <a href="http://corporate-responsibility.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://corporate-responsibility.org/">
                                     CORE Coalition
                                 </a>
                                 ,{" "}
-                                <a href="https://www.unicef.org.uk/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.unicef.org.uk/">
                                     UNICEF Reino Unido
                                 </a>
                                 ,{" "}
-                                <a href="http://www.labourexploitation.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.labourexploitation.org/">
                                     Focus on Labour Exploitation
                                 </a>{" "}
                                 y{" "}
-                                <a href="http://www.oxfam.org.uk/">Oxfam GB</a>.
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.oxfam.org.uk/">Oxfam GB</a>.
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
@@ -298,7 +298,7 @@ const es = () => {
                         <Accordion.Panel>
                             <p>
                                 En la{" "}
-                                <a href="https://business-humanrights.org/sites/default/files/documents/Texte%20PPL_EN-US.docx">
+                                <a target="_blank" rel="noopener noreferrer" href="https://business-humanrights.org/sites/default/files/documents/Texte%20PPL_EN-US.docx">
                                     Ley sobre el deber de vigilancia de las
                                     empresas de Francia
                                 </a>
@@ -345,7 +345,7 @@ const es = () => {
                         <Accordion.Panel>
                             <p>
                                 La{" "}
-                                <a href="https://www.sec.gov/about/laws/wallstreetreform-cpa.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.sec.gov/about/laws/wallstreetreform-cpa.pdf">
                                     Ley Dodd-Frank de reforma de Wall Street y
                                     protecci&oacute;n del consumidor
                                 </a>{" "}
@@ -401,7 +401,7 @@ const es = () => {
                         <Accordion.Panel>
                             <p>
                                 La{" "}
-                                <a href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf">
                                     Ley de California sobre transparencia en las
                                     cadenas de suministro
                                 </a>
@@ -450,7 +450,7 @@ const es = () => {
                             <p>
                                 V&eacute;ase tambi&eacute;n la
                                 publicaci&oacute;n{" "}
-                                <a href="https://ktcdevlab.wpengine.com/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="https://ktcdevlab.wpengine.com/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf">
                                     &nbsp;
                                     <i>
                                         Five Years of the California
@@ -458,31 +458,31 @@ const es = () => {
                                     </i>
                                 </a>{" "}
                                 elaborada por{" "}
-                                <a href="https://knowthechain.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://knowthechain.org/">
                                     KnowTheChain
                                 </a>
                                 , iniciativa de{" "}
-                                <a href="https://humanityunited.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://humanityunited.org/">
                                     Humanity United
                                 </a>{" "}
                                 en asociaci&oacute;n con el{" "}
-                                <a href="https://www.business-humanrights.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.business-humanrights.org/">
                                     Centro de Recursos sobre Empresas y Derechos
                                     Humanos
                                 </a>
                                 ,{" "}
-                                <a href="http://www.sustainalytics.com/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.sustainalytics.com/">
                                     Sustainalytics
                                 </a>{" "}
                                 y{" "}
-                                <a href="https://www.verite.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/">
                                     Verit&eacute;
                                 </a>
                                 .
                             </p>
                             <p>
                                 V&eacute;ase tambi&eacute;n{" "}
-                                <a href="https://www.verite.org/the-california-transparency-in-supply-chains-act-a-resource-guide/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/the-california-transparency-in-supply-chains-act-a-resource-guide/">
                                     <em>
                                         <i>
                                             The California Transparency in
@@ -498,7 +498,7 @@ const es = () => {
                             </p>
                             <p>
                                 V&eacute;ase tambi&eacute;n{" "}
-                                <a href="http://www.verite.org/wp-content/uploads/2016/11/VTE_WhitePaper_California_Bill657FINAL5.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.verite.org/wp-content/uploads/2016/11/VTE_WhitePaper_California_Bill657FINAL5.pdf">
                                     <em>
                                         <i>Compliance is Not Enough:</i>{" "}
                                         <i>
@@ -512,7 +512,7 @@ const es = () => {
                                 sobre transparencia en las cadenas de suministro
                                 preparado por la organizaci&oacute;n no
                                 gubernamental{" "}
-                                <a href="https://www.verite.org/?lang=en">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/?lang=en">
                                     Verit&eacute;
                                 </a>
                                 .
@@ -531,7 +531,7 @@ const es = () => {
                 las normas del trabajo y los derechos humanos en las cadenas de
                 suministro. Durante d&eacute;cadas, las normas de
                 aplicaci&oacute;n voluntaria, como las{" "}
-                <a href="http://www.oecd.org/daf/inv/mne/">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.oecd.org/daf/inv/mne/">
                     L&iacute;neas Directrices de la Organizaci&oacute;n de
                     Cooperaci&oacute;n y Desarrollo Econ&oacute;micos (OCDE)
                     para Empresas Multinacionales
@@ -540,7 +540,7 @@ const es = () => {
                 de mano de obra y empleo. La modificaci&oacute;n en 2011 de las
                 L&iacute;neas Directrices de la OCDE, junto con la
                 adopci&oacute;n en junio de 2011 de los{" "}
-                <a href="https://business-humanrights.org/en/un-guiding-principles">
+                <a target="_blank" rel="noopener noreferrer" href="https://business-humanrights.org/en/un-guiding-principles">
                     Principios rectores sobre las empresas y los derechos
                     humanos
                 </a>{" "}
@@ -590,7 +590,7 @@ const es = () => {
                 sobre el desempe&ntilde;o social y ambiental de las empresas se
                 ponen cada vez m&aacute;s a disposici&oacute;n del
                 p&uacute;blico mediante iniciativas como el{" "}
-                <a href="http://www.bloomberg.com/sustainability/">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.bloomberg.com/sustainability/">
                     canal de sostenibilidad
                 </a>{" "}
                 en Bloomberg.com.
@@ -613,12 +613,12 @@ const es = () => {
             <h2>Condicionalidad de los pr&eacute;stamos</h2>
             <p>
                 Las entidades comerciales que reciben pr&eacute;stamos de la{" "}
-                <a href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf">
                     Corporaci&oacute;n de Inversiones Privadas en el Extranjero
                     (OPIC)
                 </a>
                 , de los EE.UU. o la{" "}
-                <a href="http://www.ifc.org/wps/wcm/connect/Topics_Ext_Content/IFC_External_Corporate_Site/Sustainability-At-IFC/Policies-Standards/Performance-Standards">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.ifc.org/wps/wcm/connect/Topics_Ext_Content/IFC_External_Corporate_Site/Sustainability-At-IFC/Policies-Standards/Performance-Standards">
                     Corporaci&oacute;n Financiera Internacional (CFI)
                 </a>
                 , parte del Grupo del Banco Mundial, deben observar normas
@@ -674,7 +674,7 @@ const es = () => {
                         </i>
                     </em>{" "}
                     2016; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf">
+                    <a target="_blank" rel="noopener noreferrer" href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf">
                         http://www1.ifc.org/wps/wcm/connect/a4aab30048865910b81afa6a6515bb18/SAI_IFC_LaborHandbook_Ch1-Intro.pdf?MOD=AJPERES&amp;CACHEID=a4aab30048865910b81afa6a6515bb18
                     </a>
                     .

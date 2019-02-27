@@ -517,7 +517,7 @@ const en = () => {
                             manufacturing. The remaining 4 million are in
                             state-imposed forms of forced labor.
                             <sup>
-                                <a href="#_ftnref1" name="_ftn1">
+                                <a target="_blank" rel="noopener noreferrer" href="#_ftnref1" name="_ftn1">
                                     [1]
                                 </a>{" "}
                                 ILO:&nbsp;{" "}

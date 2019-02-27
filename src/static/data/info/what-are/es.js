@@ -618,7 +618,7 @@ const es = () => {
                             millones restantes realizaban distintos tipos de
                             trabajo forzoso impuestos por el Estado.
                             <sup>
-                                <a href="#_ftnref1" name="_ftn1">
+                                <a target="_blank" rel="noopener noreferrer" href="#_ftnref1" name="_ftn1">
                                     [1]
                                 </a>{" "}
                                 OIT:&nbsp;

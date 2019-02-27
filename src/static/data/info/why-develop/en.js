@@ -36,7 +36,7 @@ const en = () => {
             </p>
             <ul id="law-list">
                 <li id="no-expand">
-                    <a href="https://www.gpo.gov/fdsys/pkg/FR-1999-06-16/pdf/99-15491.pdf">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.gpo.gov/fdsys/pkg/FR-1999-06-16/pdf/99-15491.pdf">
                         Executive Order 13126, Prohibition of Acquisition of
                         Products Produced by Forced or Indentured Child Labor
                     </a>
@@ -59,7 +59,7 @@ const en = () => {
                                 Combating Trafficking in Persons, in effect as
                                 of March 2, 2015, implements anti-trafficking
                                 safeguards in{" "}
-                                <a href="https://www.federalregister.gov/documents/2015/01/29/2015-01524/federal-acquisition-regulation-ending-trafficking-in-persons">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.federalregister.gov/documents/2015/01/29/2015-01524/federal-acquisition-regulation-ending-trafficking-in-persons">
                                     Executive Order 13627 Strengthening
                                     Protections Against Trafficking in Persons
                                     in Federal Contracts
@@ -100,12 +100,12 @@ const en = () => {
                             </p>
                             <p>
                                 The{" "}
-                                <a href="http://responsiblesourcingtool.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://responsiblesourcingtool.org/">
                                     Responsible Sourcing Tool
                                 </a>
                                 , launched in 2016 by Verit&eacute; and the U.S.
                                 Department of State, includes a{" "}
-                                <a href="http://responsiblesourcingtool.org/download/footer/Tool_09.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="http://responsiblesourcingtool.org/download/footer/Tool_09.pdf">
                                     Compliance Plan Template
                                 </a>
                                 , which is intended for use by companies that
@@ -124,7 +124,7 @@ const en = () => {
                         <Accordion.Panel>
                             <p>
                                 The{" "}
-                                <a href="https://www.finance.senate.gov/imo/media/doc/BILLS-114hr644enr.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.finance.senate.gov/imo/media/doc/BILLS-114hr644enr.pdf">
                                     Trade Facilitation and Trade Enforcement Act
                                     of 2015
                                 </a>
@@ -136,7 +136,7 @@ const en = () => {
                                 part&rdquo; by convict, forced, or indentured
                                 labor had long been prohibited from entering the
                                 U.S. under the{" "}
-                                <a href="https://www.gpo.gov/fdsys/granule/USCODE-2010-title19/USCODE-2010-title19-chap4">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.gpo.gov/fdsys/granule/USCODE-2010-title19/USCODE-2010-title19-chap4">
                                     Tariff Act of 1930
                                 </a>
                                 , except for when the U.S.-produced supply of
@@ -173,7 +173,7 @@ const en = () => {
                         <Accordion.Panel>
                             <p>
                                 The{" "}
-                                <a href="http://www.legislation.gov.uk/ukpga/2015/30/pdfs/ukpga_20150030_en.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.legislation.gov.uk/ukpga/2015/30/pdfs/ukpga_20150030_en.pdf">
                                     UK Modern Slavery Act
                                 </a>
                                 , in effect as of October 29, 2015, contains
@@ -201,7 +201,7 @@ const en = () => {
                             </p>
                             <p>
                                 See also the{" "}
-                                <a href="http://www.modernslaveryregistry.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.modernslaveryregistry.org/">
                                     <em>Modern Slavery Registry</em>
                                 </a>
                                 , a website operated and maintained by the
@@ -210,35 +210,35 @@ const en = () => {
                                 slavery statements under the Act. This
                                 Registry&rsquo;s governance committee includes
                                 the Freedom Fund,{" "}
-                                <a href="https://humanityunited.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://humanityunited.org/">
                                     Humanity United
                                 </a>
                                 ,{" "}
-                                <a href="http://freedomfund.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://freedomfund.org/">
                                     Freedom United
                                 </a>
                                 ,{" "}
-                                <a href="https://www.antislavery.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.antislavery.org/">
                                     Anti-Slavery International
                                 </a>
                                 , the{" "}
-                                <a href="http://www.ethicaltrade.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.ethicaltrade.org/">
                                     Ethical Trading Initiative
                                 </a>
                                 ,{" "}
-                                <a href="http://corporate-responsibility.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://corporate-responsibility.org/">
                                     CORE Coalition
                                 </a>
                                 ,{" "}
-                                <a href="https://www.unicef.org.uk/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.unicef.org.uk/">
                                     UNICEF UK
                                 </a>
                                 ,{" "}
-                                <a href="http://www.labourexploitation.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.labourexploitation.org/">
                                     Focus on Labour Exploitation
                                 </a>
                                 , and{" "}
-                                <a href="http://www.oxfam.org.uk/">Oxfam GB</a>.
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.oxfam.org.uk/">Oxfam GB</a>.
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
@@ -251,7 +251,7 @@ const en = () => {
                         <Accordion.Panel>
                             <p>
                                 The{" "}
-                                <a href="https://business-humanrights.org/sites/default/files/documents/Texte%20PPL_EN-US.docx">
+                                <a target="_blank" rel="noopener noreferrer" href="https://business-humanrights.org/sites/default/files/documents/Texte%20PPL_EN-US.docx">
                                     French Corporate Duty of Vigilance Law
                                 </a>
                                 , amended March 28, 2017, requires large
@@ -290,7 +290,7 @@ const en = () => {
                         <Accordion.Panel>
                             <p>
                                 The{" "}
-                                <a href="https://www.sec.gov/about/laws/wallstreetreform-cpa.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.sec.gov/about/laws/wallstreetreform-cpa.pdf">
                                     Dodd-Frank Wall Street Reform and Consumer
                                     Protection Act
                                 </a>{" "}
@@ -338,7 +338,7 @@ const en = () => {
                         <Accordion.Panel>
                             <p>
                                 The{" "}
-                                <a href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf">
                                     California Transparency in Supply Chains Act
                                 </a>
                                 , which was signed into law in October 2010 and
@@ -380,35 +380,35 @@ const en = () => {
                             </p>
                             <p>
                                 See also{" "}
-                                <a href="https://ktcdevlab.wpengine.com/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="https://ktcdevlab.wpengine.com/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf">
                                     &nbsp;Five Years of the California
                                     Transparency in Supply Chains Act,
                                 </a>{" "}
                                 an insights brief prepared by{" "}
-                                <a href="https://knowthechain.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://knowthechain.org/">
                                     KnowTheChain
                                 </a>
                                 , an initiative led by{" "}
-                                <a href="https://humanityunited.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://humanityunited.org/">
                                     Humanity United
                                 </a>
                                 , in partnership with the{" "}
-                                <a href="https://www.business-humanrights.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.business-humanrights.org/">
                                     Business &amp; Human Rights Resource Centre
                                 </a>
                                 ,{" "}
-                                <a href="http://www.sustainalytics.com/">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.sustainalytics.com/">
                                     Sustainalytics
                                 </a>
                                 , and{" "}
-                                <a href="https://www.verite.org/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/">
                                     Verit&eacute;
                                 </a>
                                 .
                             </p>
                             <p>
                                 See also{" "}
-                                <a href="https://www.verite.org/the-california-transparency-in-supply-chains-act-a-resource-guide/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/the-california-transparency-in-supply-chains-act-a-resource-guide/">
                                     <em>
                                         The California Transparency in Supply
                                         Chains Act: A Resource Guide
@@ -420,7 +420,7 @@ const en = () => {
                             </p>
                             <p>
                                 See also{" "}
-                                <a href="http://www.verite.org/wp-content/uploads/2016/11/VTE_WhitePaper_California_Bill657FINAL5.pdf">
+                                <a target="_blank" rel="noopener noreferrer" href="http://www.verite.org/wp-content/uploads/2016/11/VTE_WhitePaper_California_Bill657FINAL5.pdf">
                                     <em>
                                         Compliance is Not Enough: Best Practices
                                         in Responding to The California
@@ -430,7 +430,7 @@ const en = () => {
                                 , a white paper on the California Transparency
                                 in Supply Chains Act prepared by the
                                 non-governmental organization{" "}
-                                <a href="https://www.verite.org/?lang=en">
+                                <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/?lang=en">
                                     Verit&eacute;
                                 </a>
                                 .
@@ -445,7 +445,7 @@ const en = () => {
                 standards and human rights in their supply chains have
                 intensified in recent years. For decades, voluntary standards
                 such as the{" "}
-                <a href="http://www.oecd.org/daf/inv/mne/">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.oecd.org/daf/inv/mne/">
                     Organization for Economic Cooperation and Development (OECD)
                     Guidelines for Multinational Enterprises
                 </a>{" "}
@@ -453,7 +453,7 @@ const en = () => {
                 and employment issues. A 2011 revision to the OECD Guidelines,
                 along with the United Nations Human Rights Council&rsquo;s June
                 2011 adoption of{" "}
-                <a href="https://business-humanrights.org/en/un-guiding-principles">
+                <a target="_blank" rel="noopener noreferrer" href="https://business-humanrights.org/en/un-guiding-principles">
                     Guiding Principles on Business and Human Rights
                 </a>
                 , have played important roles in this shift in public
@@ -494,7 +494,7 @@ const en = () => {
                 companies&rsquo; social and environmental performance are
                 increasingly available to the public through data sources like
                 the{" "}
-                <a href="http://www.bloomberg.com/sustainability/">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.bloomberg.com/sustainability/">
                     Sustainability Channel on Bloomberg.com
                 </a>
                 .
@@ -515,11 +515,11 @@ const en = () => {
             <p>
                 Business entities receiving loans from the U.S.
                 Government&rsquo;s{" "}
-                <a href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf">
                     Overseas Private Investment Corporation (OPIC)
                 </a>{" "}
                 or the{" "}
-                <a href="http://www.ifc.org/wps/wcm/connect/Topics_Ext_Content/IFC_External_Corporate_Site/Sustainability-At-IFC/Policies-Standards/Performance-Standards">
+                <a target="_blank" rel="noopener noreferrer" href="http://www.ifc.org/wps/wcm/connect/Topics_Ext_Content/IFC_External_Corporate_Site/Sustainability-At-IFC/Policies-Standards/Performance-Standards">
                     International Finance Corporation (IFC)
                 </a>
                 , part of the World Bank Group, must adhere to specific social
@@ -567,7 +567,7 @@ const en = () => {
                         of the Better Work Programme;.
                     </em>{" "}
                     2016 available from{" "}
-                    <a href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf">
+                    <a target="_blank" rel="noopener noreferrer" href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf">
                         https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf
                     </a>
                     .

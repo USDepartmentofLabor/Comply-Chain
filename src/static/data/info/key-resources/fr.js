@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import BorderSeparator from "../../../../common/BorderSeparator";
 import Icons from "../../../../common/Icons";
 import { EiaList } from "./shared";
+import SweatAndToilLink from "../../../../common/SweatAndToilLink";
 
 const fr = () => {
     return (
@@ -15,7 +16,7 @@ const fr = () => {
                     Trafficking Around the World [en anglais]
                 </em>
             </p>
-            {/* TODO replace with links to sweat and toil apps */}
+            <SweatAndToilLink />
             <br />
             <BorderSeparator />
             <h2>
@@ -32,6 +33,8 @@ const fr = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="Principes directeurs relatifs aux entreprises et aux droits de l'homme des Nations Unies"
                 >
@@ -50,6 +53,8 @@ const fr = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.oecd.org/corporate/mne/"
                     title="Principes directeurs pour les entreprises multinationales"
                 >
@@ -66,6 +71,8 @@ const fr = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/empent/areas/business-helpdesk/lang--en/index.htm"
                     title="Helpdesk de l&rsquo;OIT: assistance aux entreprises sur les normes internationales du travail"
                 >
@@ -82,6 +89,8 @@ const fr = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
                     title="&gt;Combating Forced Labor: A Handbook for Employers and Business"
                 >
@@ -98,6 +107,8 @@ const fr = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm"
                     title="Checkpoints for Companies &ndash; Eliminating and Preventing Forced Labour"
                 >
@@ -111,6 +122,8 @@ const fr = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_27555/lang--en/index.htm"
                     title="ILO-IOE Child Labour Guidance Tool for Business"
                 >
@@ -127,6 +140,8 @@ const fr = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-case-studies"
                     title="Business Actions Against Forced Labour &ndash; Success Stories [en anglais]"
                 >
@@ -140,6 +155,8 @@ const fr = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/"
                     title="Responsible Sourcing Tool"
                 >
@@ -156,6 +173,8 @@ const fr = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://responsiblesourcingtool.org/download/reports/Verite_BusinessAuthenticationCriteria_r1.pdf"
                     title="Anti-Human Trafficking Business Authentication Criteria"
                 >

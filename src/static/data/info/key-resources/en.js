@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import BorderSeparator from "../../../../common/BorderSeparator";
 import Icons from "../../../../common/Icons";
 import { EiaList } from "./shared";
+import SweatAndToilLink from "../../../../common/SweatAndToilLink";
 
 const en = () => {
     return (
@@ -15,7 +16,7 @@ const en = () => {
                     Trafficking Around the World
                 </em>
             </p>
-            {/* TODO replace with links to sweat and toil apps */}
+            <SweatAndToilLink />
             <br />
             <BorderSeparator />
             <h2>
@@ -29,6 +30,8 @@ const en = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="UN Guiding Principles on Business and Human Rights"
                 >
@@ -42,6 +45,8 @@ const en = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.oecd.org/corporate/mne/"
                     title="Guidelines for Multinational Enterprises"
                 >
@@ -57,6 +62,8 @@ const en = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/empent/areas/business-helpdesk/lang--en/index.htm"
                     title="ILO Helpdesk for Business on International Labour Standards"
                 >
@@ -73,6 +80,8 @@ const en = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
                     title=">Combating Forced Labor: A Handbook for Employers and Business"
                 >
@@ -89,6 +98,8 @@ const en = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm"
                     title="Checkpoints for Companies &ndash; Eliminating and Preventing Forced Labour"
                 >
@@ -102,6 +113,8 @@ const en = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_27555/lang--en/index.htm"
                     title="ILO-IOE Child Labour Guidance Tool for Business"
                 >
@@ -118,6 +131,8 @@ const en = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-case-studies"
                     title="Business Actions Against Forced Labour &ndash; Success Stories"
                 >
@@ -131,6 +146,8 @@ const en = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.responsiblesourcingtool.org/"
                     title="Responsible Sourcing Tool"
                 >
@@ -144,6 +161,8 @@ const en = () => {
             </p>
             <p>
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://responsiblesourcingtool.org/download/reports/Verite_BusinessAuthenticationCriteria_r1.pdf"
                     title="Anti-Human Trafficking Business Authentication Criteria"
                 >
