@@ -80,7 +80,6 @@ Accordion.Title = styled.div`
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
     border: none;
     text-align: left;
     outline: none;
