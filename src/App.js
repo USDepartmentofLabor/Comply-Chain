@@ -23,6 +23,38 @@ const navBarLeftItems = [
             content: "Steps",
             key: "steps"
         }
+    },
+    {
+        props: {
+            as: NavLink,
+            to: Routes.KeyResources.path,
+            content: "Key Resources",
+            key: "keyResources"
+        }
+    },
+    {
+        props: {
+            as: NavLink,
+            to: Routes.WhyDevelop.path,
+            content: "Why Develop a Social Compliance System",
+            key: "whyDeveloper"
+        }
+    },
+    {
+        props: {
+            as: NavLink,
+            to: Routes.WhatAre.path,
+            content: "What are Child Labor and Forced Labor",
+            key: "whatAre"
+        }
+    },
+    {
+        props: {
+            as: NavLink,
+            to: Routes.About.path,
+            content: "About",
+            key: "about"
+        }
     }
 ];
 
