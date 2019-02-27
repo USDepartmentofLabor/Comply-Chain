@@ -5,8 +5,11 @@ import styled from "styled-components";
 class Accordion extends Component {
     state = { active: false };
     toggleActive = e => {
-        const title = e.target;
-        const panel = e.target.nextElementSibling;
+        e.preventDefault();
+
+        console.log("test");
+        const title = e.currentTarget;
+        const panel = e.currentTarget.nextElementSibling;
 
         if (!panel) {
             return;
@@ -20,11 +23,6 @@ class Accordion extends Component {
     };
     renderWrappedChildren = children => {
         return React.Children.map(children, child => {
-            // This is support for non-node elements (eg. pure text), they have no props
-            if (!child.props) {
-                return child;
-            }
-
             if (child.type.displayName === "Section") {
                 return React.cloneElement(child, {
                     children: this.renderWrappedChildren(child.props.children)
