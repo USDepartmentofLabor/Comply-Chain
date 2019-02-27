@@ -31,11 +31,17 @@ const NavItem = styled.div`
     }
 `;
 
+const Main = styled.div`
+    margin: 0;
+    padding: 0 10px;
+`;
+
 const Container = styled.div`
-    margin-top: 5em;
+    margin-top: 3em;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    max-width: 900px;
+    width: 100%;
 `;
 
 class NavBar extends Component {
@@ -81,7 +87,9 @@ class NavBar extends Component {
                         </NavItem>
                     ))}
                 </NavbarWrapper>
-                <Container id="container">{children}</Container>
+                <Main>
+                    <Container id="container">{children}</Container>
+                </Main>
             </div>
         );
     }

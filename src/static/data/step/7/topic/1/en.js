@@ -8,7 +8,7 @@ const en = () => {
         <div>
             <h1>Independent Monitoring (Auditing)</h1>
             <p>
-                As discussed under
+                As discussed under{" "}
                 <Link to="/steps/5">Step 5, Monitor Compliance,</Link>{" "}
                 independent monitoring should consist of unannounced site visits
                 to worksites in the company&rsquo;s supply chain to evaluate
@@ -140,7 +140,8 @@ const en = () => {
                     audits according to Bonsucro&rsquo;s standards.
                 </p>
                 <img
-                    id="img-browser" className="small-img"
+                    id="img-browser"
+                    className="small-img"
                     src={manBamboo}
                     alt="Man chopping bamboo"
                 />

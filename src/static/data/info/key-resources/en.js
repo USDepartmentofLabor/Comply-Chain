@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import BorderSeparator from "../../../../common/BorderSeparator";
 import Icons from "../../../../common/Icons";
 import { EiaList } from "./shared";
