@@ -22,6 +22,9 @@ class LanguageProvider extends Component {
 
     setLanguage = lang => {
         this.localize.setLanguage(lang);
+        if (this.state.language !== lang) {
+            this.setState({ language: lang });
+        }
     };
 
     render() {

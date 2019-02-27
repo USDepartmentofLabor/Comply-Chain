@@ -9,61 +9,76 @@ import { Navigator } from "../Navigation";
 import PropTypes from "prop-types";
 
 class AppWrapper extends Component {
-    state = {
-        navBarLeftItems: [
-            {
-                props: {
-                    as: NavLink,
-                    to: Routes.Home.path,
-                    content: this.props.localizor.strings.general.home,
-                    key: "home"
-                }
-            },
-            {
-                props: {
-                    as: NavLink,
-                    to: Routes.Steps.path,
-                    content: this.props.localizor.strings.general.steps,
-                    key: "steps"
-                }
-            },
-            {
-                props: {
-                    as: NavLink,
-                    to: Routes.KeyResources.path,
-                    content: this.props.localizor.strings.info.keyResources
-                        .title,
-                    key: "keyResources"
-                }
-            },
-            {
-                props: {
-                    as: NavLink,
-                    to: Routes.WhyDevelop.path,
-                    content: this.props.localizor.strings.info.whyDevelop.title,
-                    key: "whyDeveloper"
-                }
-            },
-            {
-                props: {
-                    as: NavLink,
-                    to: Routes.WhatAre.path,
-                    content: this.props.localizor.strings.info.whatAre.title,
-                    key: "whatAre"
-                }
-            },
-            {
-                props: {
-                    as: NavLink,
-                    to: Routes.About.path,
-                    content: this.props.localizor.strings.info.about.title,
-                    key: "about"
-                }
-            }
-        ],
+    constructor(props) {
+        super(props);
+        this.state = this.updateNavBarItems();
+    }
 
-        navBarRightItems: [{ props: { as: LanguageSwitcher } }]
+    updateNavBarItems = () => {
+        const items = {
+            navBarLeftItems: [
+                {
+                    props: {
+                        as: NavLink,
+                        to: Routes.Home.path,
+                        content: this.props.localizor.strings.general.home,
+                        key: "home"
+                    }
+                },
+                {
+                    props: {
+                        as: NavLink,
+                        to: Routes.Steps.path,
+                        content: this.props.localizor.strings.general.steps,
+                        key: "steps"
+                    }
+                },
+                {
+                    props: {
+                        as: NavLink,
+                        to: Routes.KeyResources.path,
+                        content: this.props.localizor.strings.info.keyResources
+                            .title,
+                        key: "keyResources"
+                    }
+                },
+                {
+                    props: {
+                        as: NavLink,
+                        to: Routes.WhyDevelop.path,
+                        content: this.props.localizor.strings.info.whyDevelop
+                            .title,
+                        key: "whyDeveloper"
+                    }
+                },
+                {
+                    props: {
+                        as: NavLink,
+                        to: Routes.WhatAre.path,
+                        content: this.props.localizor.strings.info.whatAre
+                            .title,
+                        key: "whatAre"
+                    }
+                },
+                {
+                    props: {
+                        as: NavLink,
+                        to: Routes.About.path,
+                        content: this.props.localizor.strings.info.about.title,
+                        key: "about"
+                    }
+                }
+            ],
+
+            navBarRightItems: [{ props: { as: LanguageSwitcher } }]
+        };
+        return items;
     };
+    componentDidUpdate(prevProps) {
+        if (prevProps.localizor.language !== this.props.localizor.language) {
+            this.setState({ ...this.updateNavBarItems() });
+        }
+    }
     render() {
         const { navBarLeftItems, navBarRightItems } = this.state;
         return (
