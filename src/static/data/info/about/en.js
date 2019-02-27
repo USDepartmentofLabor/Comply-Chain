@@ -97,7 +97,7 @@ const en = () => {
                             on Decent Work and Economic Growth, Target 8.7 calls
                             on governments to:
                         </p>
-                        <p class="indent-margin">
+                        <p className="indent-margin">
                             &ldquo;Take immediate and effective measures to
                             eradicate forced labor, end modern slavery and human
                             trafficking and secure the prohibition and

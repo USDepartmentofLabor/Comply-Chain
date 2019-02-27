@@ -147,7 +147,7 @@ const en = () => {
                             src={childBrick}
                             alt="Girl with bricks"
                         />
-                        <p class="small-text">M. Crozet/ILO</p>
+                        <p className="small-text">M. Crozet/ILO</p>
                         <p>
                             Child labor spans nearly every sector and kind of
                             work. Children harvest cotton in Uzbekistan, work as
@@ -559,7 +559,7 @@ const en = () => {
                         </p>
                         <img src={unoDc} alt="UNO DC" />
                         <br />
-                        <p class="small-text">
+                        <p className="small-text">
                             Source: United Nations Office on Drugs and Crime.{" "}
                             <em>Global Report on Trafficking in Persons</em>;
                             2016.{" "}

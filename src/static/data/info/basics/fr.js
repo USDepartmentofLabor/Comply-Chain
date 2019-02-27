@@ -115,7 +115,7 @@ const fr = () => {
                             src="info-pages/images/graph_fr.jpg"
                             alt="Le sch&eacute;ma illustre la cha&icirc;ne d&rsquo;approvisionnement du coton."
                         />
-                        <div class="small-text">
+                        <div className="small-text">
                             <p>Sources</p>
                             <ol>
                                 <li>
@@ -198,7 +198,7 @@ const fr = () => {
                             Mod&egrave;le de syst&egrave;me de conformit&eacute;
                             sociale
                         </h3>
-                        <div class="">
+                        <div>
                             <p>
                                 Si les syst&egrave;mes diff&egrave;rent selon
                                 les industries, un syst&egrave;me de
@@ -326,7 +326,7 @@ const fr = () => {
                             Rejoindre un programme de conformit&eacute; sociale
                             existant
                         </h3>
-                        <div class="">
+                        <div>
                             <p>
                                 Dans certaines industries, des groupes
                                 d&apos;entreprises se sont r&eacute;unis pour
@@ -431,7 +431,7 @@ const fr = () => {
                                     alt="Travail effectu&eacute; dans une usine propre et bien &eacute;clair&eacute;e"
                                 />{" "}
                                 <br />
-                                <div class="small-text">
+                                <div className="small-text">
                                     <p>
                                         &copy; Better Work Jordanie/Photo
                                         d&rsquo;Ala&rsquo;a al Sukhni
@@ -548,7 +548,7 @@ const fr = () => {
                             D&eacute;finir la port&eacute;e de votre
                             syst&egrave;me de conformit&eacute; sociale
                         </h3>
-                        <div class="">
+                        <div>
                             <p>
                                 Il existe dans le monde &agrave; l&apos;heure
                                 actuelle quelque 80 000 entreprises
@@ -839,7 +839,7 @@ const fr = () => {
                             </OwnWords>
                         </div>
                         <h3>Syst&egrave;mes de gestion</h3>
-                        <div class="">
+                        <div>
                             <p>
                                 &Agrave; l&apos;instar de tout
                                 d&eacute;partement d&apos;une entreprise

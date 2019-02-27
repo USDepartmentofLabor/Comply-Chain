@@ -3,14 +3,14 @@ import queryString from "query-string";
 import React, { Component } from "react";
 import { Route, Switch, withRouter } from "react-router-dom";
 import Routes from "../../../modules/config/routes";
-import { Localize } from "../../../modules/config/strings";
+import { withLanguageContext } from "../../Language";
 
 class Navigator extends Component {
     generateRoutes() {
-        const { history } = this.props;
+        const { history, localizor } = this.props;
         const params = queryString.parse(history.location.search);
         if (params.lang) {
-            Localize.setLanguage(params.lang);
+            localizor.setLanguage(params.lang);
         }
         return Object.keys(Routes).map((routeName, idx) => {
             const { component: Component, path, exact } = Routes[routeName];
@@ -40,7 +40,8 @@ class Navigator extends Component {
 
 Navigator.propTypes = {
     history: PropTypes.object.isRequired,
-    location: PropTypes.object.isRequired
+    location: PropTypes.object.isRequired,
+    localizor: PropTypes.object.isRequired
 };
 
-export default withRouter(Navigator);
+export default withRouter(withLanguageContext(Navigator));

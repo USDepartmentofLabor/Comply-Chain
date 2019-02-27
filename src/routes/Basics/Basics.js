@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import { Localize } from "../../modules/config/strings";
+import { withLanguageContext } from "../../common/Language";
 
 class Basics extends Component {
     render() {
-        const BasicsInfo = Localize.getStrings().info.basic;
+        const { localizor } = this.props;
+        const BasicsInfo = localizor.strings.info.basic.content;
         return <BasicsInfo />;
     }
 }
 
-export default Basics;
+export default withLanguageContext(Basics);

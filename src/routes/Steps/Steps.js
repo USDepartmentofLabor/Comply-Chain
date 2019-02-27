@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Localize } from "../../modules/config/strings";
+import { withLanguageContext } from "../../common/Language";
 
 class Steps extends Component {
-    state = { steps: Localize.getStrings().steps };
+    state = { steps: this.props.localizor.strings.steps };
     render() {
         const { steps } = this.state;
 
@@ -26,4 +26,4 @@ class Steps extends Component {
     }
 }
 
-export default Steps;
+export default withLanguageContext(Steps);

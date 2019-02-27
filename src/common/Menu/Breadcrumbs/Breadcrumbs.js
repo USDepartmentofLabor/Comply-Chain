@@ -2,8 +2,8 @@ import PropTypes from "prop-types";
 import React, { Component } from "react";
 import withBreadcrumbs from "react-router-breadcrumbs-hoc";
 import { NavLink } from "react-router-dom";
-import { breadcrumbs } from "../../../modules/config/breadcrumbs";
 import styled from "styled-components";
+import { breadcrumbs } from "../../../modules/config/breadcrumbs";
 
 const Breadcrumb = styled.ul`
     padding: 10px 16px;

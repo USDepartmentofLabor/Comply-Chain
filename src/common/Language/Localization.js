@@ -1,24 +1,25 @@
 import LocalizedStrings from "react-localization";
 import { Info } from "../../static/data/info";
 import { Steps } from "../../static/data/step";
+import { General } from "../../static/data/general";
 
-class Localization {
+export default class Localization {
     constructor() {
         this.strings = new LocalizedStrings({
             en: {
-                search: "Search",
                 steps: Steps.en,
-                info: Info.en
+                info: Info.en,
+                general: General.en
             },
             es: {
-                search: "Buscar",
                 steps: Steps.es,
-                info: Info.es
+                info: Info.es,
+                general: General.es
             },
             fr: {
-                search: "Rechercher",
                 steps: Steps.fr,
-                info: Info.fr
+                info: Info.fr,
+                general: General.fr
             }
         });
         const lang = localStorage.getItem("lang");
@@ -49,5 +50,3 @@ class Localization {
         return this.strings;
     }
 }
-
-export const Localize = new Localization();

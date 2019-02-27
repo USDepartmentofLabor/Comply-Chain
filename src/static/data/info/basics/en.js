@@ -86,7 +86,7 @@ const en = () => {
                             src="info-pages/images/graph.jpg"
                             alt="The graph illustrates the cotton supply chain."
                         />
-                        <div class="small-text">
+                        <div className="small-text">
                             <p>Sources</p>
                             <ol>
                                 <li>
@@ -155,7 +155,7 @@ const en = () => {
                             compliance system. The links below can assist.
                         </p>
                         <h3>Model of a Social Compliance System</h3>
-                        <div class="">
+                        <div>
                             <p>
                                 While systems may vary from industry to
                                 industry, a good social compliance system in any
@@ -252,7 +252,7 @@ const en = () => {
                             </p>
                         </div>
                         <h3>Joining an Existing Social Compliance Program</h3>
-                        <div class="">
+                        <div>
                             <p>
                                 In some industries, groups of companies have
                                 already come together to develop joint social
@@ -330,7 +330,7 @@ const en = () => {
                                     alt="Work being done in a well-lit and clean factory"
                                 />
                                 <br />
-                                <div class="small-text">
+                                <div className="small-text">
                                     <p>
                                         &copy; Better Work Jordan/Photo by
                                         Ala&rsquo;a al Sukhni
@@ -429,7 +429,7 @@ const en = () => {
                         <h3>
                             Defining the Scope of Your Social Compliance System
                         </h3>
-                        <div class="">
+                        <div>
                             <p>
                                 Today, around the world there are roughly 80,000
                                 transnational enterprises and ten times as many
@@ -634,7 +634,7 @@ const en = () => {
                             </OwnWords>
                         </div>
                         <h3>Management Systems</h3>
-                        <div class="">
+                        <div>
                             <p>
                                 Like any successful business unit, the social
                                 compliance management team should have

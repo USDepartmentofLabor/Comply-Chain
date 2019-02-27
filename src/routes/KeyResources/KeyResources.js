@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import { Localize } from "../../modules/config/strings";
+import { withLanguageContext } from "../../common/Language";
 
 class KeyResources extends Component {
     render() {
-        const KeyResourcesInfo = Localize.getStrings().info.keyResources;
+        const { localizor } = this.props;
+        const KeyResourcesInfo = localizor.strings.info.keyResources.content;
         return <KeyResourcesInfo />;
     }
 }
 
-export default KeyResources;
+export default withLanguageContext(KeyResources);

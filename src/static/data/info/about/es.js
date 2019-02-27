@@ -112,7 +112,7 @@ const es = () => {
                             econ&oacute;mico, la meta 8.7 exhorta a los
                             gobiernos a:{" "}
                         </p>
-                        <p class="indent-margin">
+                        <p className="indent-margin">
                             &ldquo;Adoptar medidas inmediatas y eficaces para
                             erradicar el trabajo forzoso, poner fin a las formas
                             contempor&aacute;neas de esclavitud y la trata de

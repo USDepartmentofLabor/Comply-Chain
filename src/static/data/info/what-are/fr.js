@@ -193,7 +193,7 @@ const fr = () => {
                             src={childBrick}
                             alt="Une fillette et ses briques"
                         />
-                        <p class="small-text">M. Crozet/OIT</p>
+                        <p className="small-text">M. Crozet/OIT</p>
                         <p>
                             Le travail des enfants recouvre la
                             quasi-totalit&eacute; des secteurs et des types de
@@ -744,7 +744,7 @@ const fr = () => {
                             d&apos;organes&nbsp;».
                         </p>
                         <img src={unoDc} alt="UNO DC" /> <br />
-                        <p class="small-text">
+                        <p className="small-text">
                             Source&nbsp;: Office des Nations unies contre la
                             drogue et le crime.{" "}
                             <em>Rapport mondial sur la traite des personnes</em>

@@ -126,7 +126,7 @@ const fr = () => {
                             &eacute;conomique, la cible&nbsp;8.7 appelle les
                             gouvernements &agrave;&nbsp;:
                         </p>
-                        <p class="indent-margin">
+                        <p className="indent-margin">
                             «&nbsp;prendre des mesures imm&eacute;diates et
                             efficaces pour supprimer le travail forc&eacute;,
                             mettre fin &agrave; l&rsquo;esclavage moderne et

@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import { IoMdArrowDropdown as Icon } from "react-icons/io";
 import { withRouter } from "react-router-dom";
 import styled from "styled-components";
-import { Localize } from "../../../modules/config/strings";
 import Dropdown from "../../Dropdown";
+import { withLanguageContext } from "../../Language";
+import PropTypes from "prop-types";
 
 const DropdownIcon = styled.span`
     vertical-align: middle;
@@ -12,14 +13,15 @@ const DropdownIcon = styled.span`
 class LanguageSwitcher extends Component {
     constructor(props) {
         super(props);
+        const { localizor } = this.props;
         this.state = {
-            languages: Localize.getAvailableLanguages(),
-            currentLanguage: Localize.getLanguage()
+            languages: localizor.availableLanguages,
+            currentLanguage: localizor.language
         };
     }
     handleLanguageChange = lang => {
-        const { history } = this.props;
-        Localize.setLanguage(lang);
+        const { history, localizor } = this.props;
+        localizor.setLanguage(lang);
         this.setState({ currentLanguage: lang });
         history.push(`${history.location.pathname}?lang=${lang}`);
     };
@@ -50,4 +52,9 @@ class LanguageSwitcher extends Component {
     }
 }
 
-export default withRouter(LanguageSwitcher);
+LanguageSwitcher.propTypes = {
+    localizor: PropTypes.object.isRequired,
+    history: PropTypes.object.isRequired
+};
+
+export default withRouter(withLanguageContext(LanguageSwitcher));

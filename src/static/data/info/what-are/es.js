@@ -171,7 +171,7 @@ const es = () => {
                             src={childBrick}
                             alt="Ni&ntilde;a con ladrillos"
                         />
-                        <p class="small-text">M. Crozet/OIT</p>
+                        <p className="small-text">M. Crozet/OIT</p>
                         <p>
                             El trabajo infantil abarca pr&aacute;cticamente a
                             todos los sectores y tipos de trabajo. Los
@@ -664,7 +664,7 @@ const es = () => {
                             extracci&oacute;n de &oacute;rganos&rdquo;.
                         </p>
                         <img src={unoDc} alt="UNO DC" /> <br />
-                        <p class="small-text">
+                        <p className="small-text">
                             Fuente: Oficina de Naciones Unidas contra la Droga y
                             el Delito.{" "}
                             <em>Informe mundial sobre la trata de personas</em>;

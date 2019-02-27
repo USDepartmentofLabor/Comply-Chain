@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import { Localize } from "../../modules/config/strings";
+import { withLanguageContext } from "../../common/Language";
 
 class WhyDevelop extends Component {
     render() {
-        const WhyDevelopInfo = Localize.getStrings().info.whyDevelop;
+        const { localizor } = this.props;
+        const WhyDevelopInfo = localizor.stringsO.info.whyDevelop.content;
         return <WhyDevelopInfo />;
     }
 }
 
-export default WhyDevelop;
+export default withLanguageContext(WhyDevelop);

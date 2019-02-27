@@ -100,7 +100,7 @@ const es = () => {
                             src="info-pages/images/graph_es.jpg"
                             alt="En el gr&aacute;fico se muestra la cadena de suministro del algod&oacute;n."
                         />
-                        <div class="small-text">
+                        <div className="small-text">
                             <p>Fuentes</p>
                             <ol>
                                 <li>
@@ -191,7 +191,7 @@ const es = () => {
                             continuaci&oacute;n pueden ser de utilidad.
                         </p>
                         <h3>Modelo de un sistema de cumplimiento social</h3>
-                        <div class="">
+                        <div>
                             <p>
                                 Si bien los sistemas pueden variar seg&uacute;n
                                 la industria, un buen sistema de cumplimiento
@@ -303,7 +303,7 @@ const es = () => {
                             Incorporaci&oacute;n a un programa de cumplimiento
                             social vigente
                         </h3>
-                        <div class="">
+                        <div>
                             <p>
                                 En algunas industrias, hay grupos de empresas
                                 que ya se reunieron para elaborar sistemas de
@@ -395,7 +395,7 @@ const es = () => {
                                     alt="Trabajo en una f&aacute;brica limpia y bien iluminada"
                                 />{" "}
                                 <br />
-                                <div class="small-text">
+                                <div className="small-text">
                                     <p>
                                         &copy; Better Work Jordania/Foto de
                                         Ala&rsquo;a al Sukhni
@@ -504,7 +504,7 @@ const es = () => {
                             Definici&oacute;n del alcance del sistema de
                             cumplimiento social
                         </h3>
-                        <div class="">
+                        <div>
                             <p>
                                 Actualmente en el mundo hay cerca de 80.000
                                 empresas transnacionales y una cifra diez veces
@@ -748,7 +748,7 @@ const es = () => {
                             </OwnWords>
                         </div>
                         <h3>Sistemas de gesti&oacute;n</h3>
-                        <div class="">
+                        <div>
                             <p>
                                 Al igual que toda unidad empresarial exitosa, el
                                 equipo de gesti&oacute;n del cumplimiento social

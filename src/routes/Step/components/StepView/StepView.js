@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import AccordionView from "../../../../common/AccordionView";
-import { Localize } from "../../../../modules/config/strings";
+import { withLanguageContext } from "../../../../common/Language";
 import KeyTermList from "../KeyTermList";
 import LearningObjectiveList from "../LearningObjectiveList";
 import TopicsList from "../TopicList";
@@ -9,9 +9,9 @@ import TopicsList from "../TopicList";
 class StepView extends Component {
     constructor(props) {
         super(props);
-        const { step } = this.props;
+        const { step, localizor } = this.props;
 
-        const stepData = Localize.getStrings().steps[step - 1];
+        const stepData = localizor.strings.steps[step - 1];
         if (stepData) {
             const topics = stepData.topics;
             const learningObjectives = stepData.learningObjectives;
@@ -78,4 +78,4 @@ StepView.propTypes = {
     step: PropTypes.number.isRequired
 };
 
-export default StepView;
+export default withLanguageContext(StepView);
