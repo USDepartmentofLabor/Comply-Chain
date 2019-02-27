@@ -71,6 +71,7 @@ class NavBar extends Component {
                             <SideNav.Item
                                 {...item.props}
                                 key={"mobile_left_" + i}
+                                onClick={this.handleSideNavClose}
                             >
                                 {item.props && item.props.content}
                             </SideNav.Item>
