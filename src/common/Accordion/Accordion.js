@@ -6,8 +6,6 @@ class Accordion extends Component {
     state = { active: false };
     toggleActive = e => {
         e.preventDefault();
-
-        console.log("test");
         const title = e.currentTarget;
         const panel = e.currentTarget.nextElementSibling;
 
