@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { withLanguageContext } from "../../common/Language";
+import PropTypes from "prop-types";
 
 class KeyResources extends Component {
     render() {
@@ -8,5 +9,8 @@ class KeyResources extends Component {
         return <KeyResourcesInfo />;
     }
 }
+KeyResources.propTypes = {
+    localizor: PropTypes.object.isRequired
+};
 
 export default withLanguageContext(KeyResources);

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { withLanguageContext } from "../../common/Language";
+import PropTypes from "prop-types";
 
 class WhyDevelop extends Component {
     render() {
@@ -8,5 +9,9 @@ class WhyDevelop extends Component {
         return <WhyDevelopInfo />;
     }
 }
+
+WhyDevelop.propTypes = {
+    localizor: PropTypes.object.isRequired
+};
 
 export default withLanguageContext(WhyDevelop);

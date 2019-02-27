@@ -24,7 +24,8 @@ class TopicView extends Component {
 
 TopicView.propTypes = {
     step: PropTypes.number.isRequired,
-    topic: PropTypes.number.isRequired
+    topic: PropTypes.number.isRequired,
+    localizor: PropTypes.object.isRequired
 };
 
 export default withLanguageContext(TopicView);

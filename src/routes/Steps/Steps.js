@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { withLanguageContext } from "../../common/Language";
+import PropTypes from "prop-types";
 
 class Steps extends Component {
     state = { steps: this.props.localizor.strings.steps };
@@ -25,5 +26,8 @@ class Steps extends Component {
         );
     }
 }
+Steps.propTypes = {
+    localizor: PropTypes.object.isRequired
+};
 
 export default withLanguageContext(Steps);
