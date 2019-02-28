@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import { theme } from "../../../modules/config/theme";
+import PropTypes from "prop-types";
 
 const Wrapper = styled.nav`
     display: flex;
@@ -50,9 +51,9 @@ NavItem.Label = styled.span`
 `;
 class BottomNavBar extends Component {
     render() {
-        const { items } = this.props;
+        const { items, id } = this.props;
         return (
-            <Wrapper>
+            <Wrapper id={id}>
                 {items.map((item, i) => {
                     const Icon = item.icon;
                     return (
@@ -68,5 +69,15 @@ class BottomNavBar extends Component {
         );
     }
 }
+
+BottomNavBar.propTypes = {
+    items: PropTypes.arrayOf(
+        PropTypes.shape({
+            icon: PropTypes.func.isRequired,
+            label: PropTypes.string.isRequired,
+            props: PropTypes.object
+        })
+    )
+};
 
 export default BottomNavBar;

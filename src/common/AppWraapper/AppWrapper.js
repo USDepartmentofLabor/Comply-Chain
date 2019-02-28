@@ -81,7 +81,7 @@ class AppWrapper extends Component {
                         to: "/search"
                     },
                     icon: Icons.Search,
-                    label: "Search"
+                    label: localizor.strings.general.search
                 },
                 {
                     props: {
@@ -123,7 +123,7 @@ class AppWrapper extends Component {
                     <Breadcrumbs id="breadcrumbs" className="breadcrumbs" />
                     <Navigator />
                 </NavBar>
-                <BottomNavBar items={bottomNavItems} />
+                <BottomNavBar id="bottom-nav-bar" items={bottomNavItems} />
             </ScrollToTop>
         );
     }
