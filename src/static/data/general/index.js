@@ -19,8 +19,12 @@ export const General = {
         nextStep: "Next Step",
         furtherResources: "Further Resources",
         training: "Training Materials",
-        results: " results found for ",
-        searchResults: "Search Results"
+        results: "Results found for",
+        searchResults: "Search Results",
+        search: "Search",
+        ilab: "ILAB - The Bureau of International Labor Affairs",
+        usdol: "United States Department of Labor",
+        close: "Close"
     },
     es: {
         home: "Inicio",
@@ -42,8 +46,12 @@ export const General = {
         nextStep: "Próximo paso",
         furtherResources: "Recursos adicionales",
         training: "Materiales de capacitación",
-        results: " resultados encontrados para ",
-        searchResults: "Resultados de búsqueda"
+        results: "Resultados encontrados para",
+        searchResults: "Resultados de búsqueda",
+        search: "Buscar",
+        ilab: "Dirección de Asuntos Internacionales de Trabajo",
+        usdol: "Departamento de Trabajo de los Estados Unidos",
+        close: "Cerrar"
     },
     fr: {
         home: "Accueil",
@@ -65,7 +73,11 @@ export const General = {
         nextStep: "étape suivante",
         furtherResources: "Autres ressources",
         training: "Documents de formation",
-        results: " résultats trouvés avec ",
-        searchResults: "Résultats de votre recherché"
+        results: "Résultats trouvés avec",
+        searchResults: "Résultats de votre recherché",
+        search: "Rechercher",
+        ilab: "Bureau des Affaires Internationales du Travail",
+        usdol: "Département du travail des États-Unis",
+        close: "Fermer"
     }
 };
