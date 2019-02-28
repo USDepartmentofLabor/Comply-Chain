@@ -34,7 +34,18 @@ class Accordion extends Component {
                 this.panel[sectionIndex].scrollHeight + "px";
         }
     };
+
+    closeOthers = sectionIndex => {
+        this.section.map((section, i) => {
+            if (sectionIndex !== i) {
+                this.panel[i].style.maxHeight = null;
+                this.title[i].classList.remove("active");
+            }
+            return section;
+        });
+    };
     renderWrappedChildren = (children, sectionIndex) => {
+        const { keepOpen } = this.props;
         return React.Children.map(children, (child, i) => {
             if (child.type.displayName === "Section") {
                 return React.cloneElement(child, {
@@ -51,6 +62,9 @@ class Accordion extends Component {
                     ref: title => (this.title[sectionIndex] = title),
                     onClick: () => {
                         this.toggleActive(sectionIndex);
+                        if (!keepOpen) {
+                            this.closeOthers(sectionIndex);
+                        }
                     }
                 });
             }
@@ -128,7 +142,8 @@ Accordion.Section.propTypes = {
 
 Accordion.propTypes = {
     id: PropTypes.string,
-    children: PropTypes.node.isRequired
+    children: PropTypes.node.isRequired,
+    keepOpen: PropTypes.bool
 };
 
 export default Accordion;
