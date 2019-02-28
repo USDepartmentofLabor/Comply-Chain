@@ -35,6 +35,10 @@ class Accordion extends Component {
         }
     };
 
+    scrollToTitle = sectionIndex => {
+        window.scrollTo(0, this.title[sectionIndex].offsetTop);
+    };
+
     closeOthers = sectionIndex => {
         this.section.map((section, i) => {
             if (sectionIndex !== i) {
