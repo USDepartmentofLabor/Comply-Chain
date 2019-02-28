@@ -41,6 +41,7 @@ const Container = styled.div`
     margin-top: 3em;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 4em;
     max-width: 900px;
     width: 100%;
 `;

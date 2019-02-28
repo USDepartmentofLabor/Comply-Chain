@@ -70,6 +70,7 @@ class StepView extends Component {
     };
 
     render() {
+        const { localizor } = this.props;
         const {
             nextStep,
             prevStep,
@@ -96,7 +97,7 @@ class StepView extends Component {
                         onClick={() => this.navigate(prevStep)}
                     >
                         <Icons.ArrowDropLeft />
-                        Previous Step
+                        {localizor.strings.general.prevStep}
                     </Button>
                 )}
                 {nextStep && (
@@ -104,7 +105,8 @@ class StepView extends Component {
                         variant="primary"
                         onClick={() => this.navigate(nextStep)}
                     >
-                        Next Step <Icons.ArrowDropRight />
+                        {localizor.strings.general.nextStep}
+                        <Icons.ArrowDropRight />
                     </Button>
                 )}
             </div>

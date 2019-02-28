@@ -35,7 +35,7 @@ class TopicView extends Component {
 
     render() {
         const { topicData, prevTopic, nextTopic, nextStep } = this.state;
-        const { step } = this.props;
+        const { step, localizor } = this.props;
         if (topicData) {
             const TopicData = topicData;
             return (
@@ -48,7 +48,7 @@ class TopicView extends Component {
                             onClick={() => this.navigate(prevTopic)}
                         >
                             <Icons.ArrowDropLeft />
-                            Previous Topic
+                            {localizor.strings.general.prevTopic}
                         </Button>
                     )}
                     {nextTopic && (
@@ -56,7 +56,8 @@ class TopicView extends Component {
                             variant="primary"
                             onClick={() => this.navigate(nextTopic)}
                         >
-                            Next Topic <Icons.ArrowDropRight />
+                            {localizor.strings.general.nextTopic}
+                            <Icons.ArrowDropRight />
                         </Button>
                     )}
                     {nextStep && (
@@ -64,7 +65,8 @@ class TopicView extends Component {
                             variant="primary"
                             onClick={() => this.navigate(nextStep)}
                         >
-                            Next Topic <Icons.ArrowDropRight />
+                            {localizor.strings.general.nextStep}
+                            <Icons.ArrowDropRight />
                         </Button>
                     )}
                 </div>
