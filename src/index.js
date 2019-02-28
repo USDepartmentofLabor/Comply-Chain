@@ -27,6 +27,7 @@ if (window.cordova) {
         () => {
             window.open = window.cordova.InAppBrowser.open;
 
+            // prevent's external links from opening in external browser and opens in cordova's InAppBrowser instead.
             document.onclick = function(e) {
                 e = e || window.event;
                 const element = e.target || e.srcElement;
@@ -34,7 +35,8 @@ if (window.cordova) {
                 if (element.tagName === "A") {
                     const link = element.href;
                     const pattern = /^((http|https):\/\/)/;
-                    if (pattern.test(link)) {
+                    const pdf = /(\.pdf$)/; // InAppBrowser doesn't support displaying PDF's so we let the system open them.
+                    if (pattern.test(link) && !pdf.test(link)) {
                         window.open(link, "_blank");
                         return false;
                     }
