@@ -8,6 +8,8 @@ import NavBar from "../Menu/NavBar";
 import { Navigator } from "../Navigation";
 import PropTypes from "prop-types";
 import ScrollToTop from "./ScrollToTop";
+import BottomNavBar from "../Menu/BottomNavBar";
+import Icons from "../Icons";
 
 class AppWrapper extends Component {
     constructor(props) {
@@ -16,39 +18,22 @@ class AppWrapper extends Component {
     }
 
     updateNavBarItems = () => {
+        const { localizor } = this.props;
         const items = {
             navBarLeftItems: [
                 {
                     props: {
                         as: NavLink,
-                        to: Routes.Home.path,
-                        content: this.props.localizor.strings.general.home,
-                        key: "home"
-                    }
-                },
-                {
-                    props: {
-                        as: NavLink,
                         to: Routes.Steps.path,
-                        content: this.props.localizor.strings.general.steps,
+                        content: localizor.strings.general.steps,
                         key: "steps"
                     }
                 },
                 {
                     props: {
                         as: NavLink,
-                        to: Routes.KeyResources.path,
-                        content: this.props.localizor.strings.info.keyResources
-                            .title,
-                        key: "keyResources"
-                    }
-                },
-                {
-                    props: {
-                        as: NavLink,
                         to: Routes.WhyDevelop.path,
-                        content: this.props.localizor.strings.info.whyDevelop
-                            .title,
+                        content: localizor.strings.info.whyDevelop.title,
                         key: "whyDeveloper"
                     }
                 },
@@ -56,22 +41,65 @@ class AppWrapper extends Component {
                     props: {
                         as: NavLink,
                         to: Routes.WhatAre.path,
-                        content: this.props.localizor.strings.info.whatAre
-                            .title,
+                        content: localizor.strings.info.whatAre.title,
                         key: "whatAre"
                     }
                 },
                 {
                     props: {
                         as: NavLink,
-                        to: Routes.About.path,
-                        content: this.props.localizor.strings.info.about.title,
-                        key: "about"
+                        to: Routes.KeyResources.path,
+                        content: localizor.strings.info.keyResources.title,
+                        key: "keyResources"
+                    }
+                },
+                {
+                    props: {
+                        as: "a",
+                        href: `mailto:GlobalKids@dol.gov?subject=${
+                            localizor.strings.general.contactUsSubject
+                        }`,
+                        content: localizor.strings.general.contactUs
                     }
                 }
             ],
 
-            navBarRightItems: [{ props: { as: LanguageSwitcher } }]
+            navBarRightItems: [{ props: { as: LanguageSwitcher } }],
+
+            bottomNavItems: [
+                {
+                    props: {
+                        as: NavLink,
+                        to: "/bookmarks"
+                    },
+                    icon: Icons.Bookmarks,
+                    label: "Bookmarks"
+                },
+                {
+                    props: {
+                        as: NavLink,
+                        to: "/search"
+                    },
+                    icon: Icons.Search,
+                    label: "Search"
+                },
+                {
+                    props: {
+                        as: NavLink,
+                        to: "/share"
+                    },
+                    icon: Icons.Share,
+                    label: "Share"
+                },
+                {
+                    props: {
+                        as: NavLink,
+                        to: "/about"
+                    },
+                    icon: Icons.HelpCircle,
+                    label: "About"
+                }
+            ]
         };
         return items;
     };
@@ -81,7 +109,11 @@ class AppWrapper extends Component {
         }
     }
     render() {
-        const { navBarLeftItems, navBarRightItems } = this.state;
+        const {
+            navBarLeftItems,
+            navBarRightItems,
+            bottomNavItems
+        } = this.state;
         return (
             <ScrollToTop>
                 <NavBar
@@ -91,6 +123,7 @@ class AppWrapper extends Component {
                     <Breadcrumbs id="breadcrumbs" className="breadcrumbs" />
                     <Navigator />
                 </NavBar>
+                <BottomNavBar items={bottomNavItems} />
             </ScrollToTop>
         );
     }

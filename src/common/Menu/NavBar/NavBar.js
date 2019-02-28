@@ -107,4 +107,9 @@ NavBar.propTypes = {
     localizor: PropTypes.object.isRequired
 };
 
+NavBar.defaultProps = {
+    leftItems: [],
+    rightItems: []
+};
+
 export default withLanguageContext(NavBar);
