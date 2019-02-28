@@ -7,6 +7,7 @@ import LanguageSwitcher from "../Menu/LanguageSwitcher";
 import NavBar from "../Menu/NavBar";
 import { Navigator } from "../Navigation";
 import PropTypes from "prop-types";
+import ScrollToTop from "./ScrollToTop";
 
 class AppWrapper extends Component {
     constructor(props) {
@@ -82,10 +83,15 @@ class AppWrapper extends Component {
     render() {
         const { navBarLeftItems, navBarRightItems } = this.state;
         return (
-            <NavBar leftItems={navBarLeftItems} rightItems={navBarRightItems}>
-                <Breadcrumbs id="breadcrumbs" className="breadcrumbs" />
-                <Navigator />
-            </NavBar>
+            <ScrollToTop>
+                <NavBar
+                    leftItems={navBarLeftItems}
+                    rightItems={navBarRightItems}
+                >
+                    <Breadcrumbs id="breadcrumbs" className="breadcrumbs" />
+                    <Navigator />
+                </NavBar>
+            </ScrollToTop>
         );
     }
 }
