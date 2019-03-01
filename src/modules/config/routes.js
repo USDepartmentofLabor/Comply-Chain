@@ -7,7 +7,8 @@ import {
     Basics,
     KeyResources,
     WhatAre,
-    WhyDevelop
+    WhyDevelop,
+    Search
 } from "../../routes";
 
 const Routes = {
@@ -54,6 +55,11 @@ const Routes = {
     WhyDevelop: {
         path: "/why-develop",
         component: WhyDevelop,
+        exact: true
+    },
+    Search: {
+        path: "/search",
+        component: Search,
         exact: true
     }
 };

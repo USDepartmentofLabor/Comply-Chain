@@ -7,6 +7,7 @@ import Basics from "./Basics";
 import KeyResources from "./KeyResources";
 import WhatAre from "./WhatAre";
 import WhyDevelop from "./WhyDevelop";
+import Search from "./Search";
 
 export {
     Home,
@@ -17,5 +18,6 @@ export {
     Basics,
     KeyResources,
     WhatAre,
-    WhyDevelop
+    WhyDevelop,
+    Search
 };

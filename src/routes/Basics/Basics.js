@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 class Basics extends Component {
     render() {
         const { localizor } = this.props;
-        const BasicsInfo = localizor.strings.info.basic.content;
+        const BasicsInfo = localizor.strings.info.basics.content;
         return <BasicsInfo />;
     }
 }

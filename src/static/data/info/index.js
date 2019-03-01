@@ -21,7 +21,7 @@ export const Info = {
             keywords: ["Laws"],
             content: WhyDevelop.en
         },
-        basic: {
+        basics: {
             title: "Basics of a Social Compliance System",
             keywords: ["Management systems"],
             content: Basics.en
@@ -48,7 +48,7 @@ export const Info = {
             keywords: ["Leyes"],
             content: WhyDevelop.es
         },
-        basic: {
+        basics: {
             title: "Aspectos básicos de un sistema de cumplimiento social",
             keywords: ["Sistemas de gestión"],
             content: Basics.es
@@ -76,7 +76,7 @@ export const Info = {
             keywords: ["Législation"],
             content: WhyDevelop.fr
         },
-        basic: {
+        basics: {
             title: "Fondements d’un système de conformité sociale",
             keywords: ["Systèmes de gestion"],
             content: Basics.fr
