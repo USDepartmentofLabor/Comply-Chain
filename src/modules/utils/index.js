@@ -11,3 +11,9 @@ export const getRawTextData = children => {
         return getRawTextData(child.props.children);
     });
 };
+
+export const getHash = () => {
+    const { hash } = window.location;
+    const hashFrag = hash.split("#").slice(1);
+    return hashFrag[hashFrag.length - 1];
+};

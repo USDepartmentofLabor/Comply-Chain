@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import styled from "styled-components";
+import { getHash } from "../../modules/utils";
 
 class Accordion extends Component {
     state = { active: false };
@@ -12,8 +13,7 @@ class Accordion extends Component {
         this.panel = [];
     }
     componentDidMount() {
-        const { hash } = window.location;
-        const id = hash.replace("#", "");
+        const id = getHash();
         if (id) {
             this.section.some((section, i) => {
                 if (section.id === id) {
