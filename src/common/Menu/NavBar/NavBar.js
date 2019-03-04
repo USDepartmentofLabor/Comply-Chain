@@ -1,10 +1,11 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import styled from "styled-components";
-import { withLanguageContext } from "../../Language";
-import SideNav from "../SideNav";
 import { NavLink } from "react-router-dom";
+import styled from "styled-components";
 import Icons from "../../Icons";
+import { withLanguageContext } from "../../Language";
+import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
+import SideNav from "../SideNav";
 
 const NavbarWrapper = styled.div`
     position: fixed;
@@ -12,6 +13,7 @@ const NavbarWrapper = styled.div`
     background-color: #fff;
     border-bottom: 1px solid #f1f1f1;
     width: 100%;
+    z-index: 10;
 `;
 
 const NavItem = styled.div`
@@ -97,6 +99,7 @@ class NavBar extends Component {
                                         as={NavLink}
                                         to={`/steps/${i + 1}`}
                                         key={step.title}
+                                        onClick={this.handleSideNavClose}
                                     >
                                         {step.title}
                                     </SideNav.IdentedItem>
@@ -111,6 +114,10 @@ class NavBar extends Component {
                                 {item.props && item.props.content}
                             </SideNav.Item>
                         ))}
+
+                        <SideNav.Footer>
+                            <LanguageSwitcher />
+                        </SideNav.Footer>
                     </SideNav>
 
                     <NavItem right onClick={this.toggleSideNav}>

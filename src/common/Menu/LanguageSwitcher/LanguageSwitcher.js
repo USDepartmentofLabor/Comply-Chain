@@ -1,13 +1,33 @@
+import PropTypes from "prop-types";
 import React, { Component } from "react";
-import { IoMdArrowDropdown as Icon } from "react-icons/io";
 import { withRouter } from "react-router-dom";
 import styled from "styled-components";
-import Dropdown from "../../Dropdown";
+import { theme } from "../../../modules/config/theme";
 import { withLanguageContext } from "../../Language";
-import PropTypes from "prop-types";
 
-const DropdownIcon = styled.span`
-    vertical-align: middle;
+const LanguageWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    & * {
+        margin-bottom: 10px;
+    }
+`;
+
+const LanguageButton = styled.button`
+    color: ${theme.colors.white};
+    background-color: ${theme.colors.primary};
+    border-radius: 4px;
+    padding: 15px 48px;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid ${theme.colors.white};
+
+    &:hover {
+        background-color: ${theme.colors.primaryDarker};
+    }
 `;
 
 class LanguageSwitcher extends Component {
@@ -26,28 +46,30 @@ class LanguageSwitcher extends Component {
         history.push(`${history.location.pathname}?lang=${lang}`);
     };
     render() {
-        const { languages, currentLanguage } = this.state;
         return (
-            <Dropdown id="language-switcher">
-                <Dropdown.Title>
-                    {currentLanguage}
-                    <DropdownIcon>
-                        <Icon />
-                    </DropdownIcon>
-                </Dropdown.Title>
-                <Dropdown.Content>
-                    {languages.map((lang, i) => {
-                        return (
-                            <Dropdown.Item
-                                key={i}
-                                onClick={() => this.handleLanguageChange(lang)}
-                            >
-                                {lang}
-                            </Dropdown.Item>
-                        );
-                    })}
-                </Dropdown.Content>
-            </Dropdown>
+            <LanguageWrapper id="language-switcher">
+                <LanguageButton
+                    onClick={() => {
+                        this.handleLanguageChange("en");
+                    }}
+                >
+                    English
+                </LanguageButton>
+                <LanguageButton
+                    onClick={() => {
+                        this.handleLanguageChange("es");
+                    }}
+                >
+                    Espanol
+                </LanguageButton>
+                <LanguageButton
+                    onClick={() => {
+                        this.handleLanguageChange("fr");
+                    }}
+                >
+                    Francais
+                </LanguageButton>
+            </LanguageWrapper>
         );
     }
 }

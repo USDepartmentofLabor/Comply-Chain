@@ -60,12 +60,18 @@ const variant = {
 };
 
 const Button = styled.button`
-    color: ${props => variant[props.variant].color || variant.primary.color};
+    color: ${props =>
+        (props.variant && props.variant && variant[props.variant].color) ||
+        variant.primary.color};
     background-color: ${props =>
-        variant[props.variant].backgroundColor ||
+        (props.variant &&
+            props.variant &&
+            variant[props.variant].backgroundColor) ||
         variant.primary.backgroundColor};
 
-    border: ${props => variant[props.variant].border || variant.primary.border};
+    border: ${props =>
+        (props.variant && props.variant && variant[props.variant].border) ||
+        variant.primary.border};
 
     border-radius: 4px;
     padding: 15px 32px;
@@ -79,21 +85,21 @@ const Button = styled.button`
 
     &:hover {
         background-color: ${props =>
-            variant[props.variant].hover.backgroundColor ||
+            (props.variant && variant[props.variant].hover.backgroundColor) ||
             variant.primary.hover.color};
 
         border: ${props =>
-            variant[props.variant].hover.border ||
+            (props.variant && variant[props.variant].hover.border) ||
             variant.primary.hover.border};
     }
 
     &:active {
         background-color: ${props =>
-            variant[props.variant].active.backgroundColor ||
+            (props.variant && variant[props.variant].active.backgroundColor) ||
             variant.primary.active.backgroundColor};
 
         border: ${props =>
-            variant[props.variant].active.border ||
+            (props.variant && variant[props.variant].active.border) ||
             variant.primary.active.border};
     }
 `;

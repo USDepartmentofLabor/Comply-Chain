@@ -70,6 +70,12 @@ SideNav.IdentedItem = styled(SideNav.Item)`
     padding-left: 48px;
 `;
 
+SideNav.Footer = styled.div`
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+`;
+
 SideNav.propTypes = {
     id: PropTypes.string,
     visible: PropTypes.bool,

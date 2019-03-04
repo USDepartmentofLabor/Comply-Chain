@@ -1,15 +1,14 @@
+import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import Routes from "../../modules/config/routes";
+import Icons from "../Icons";
 import { withLanguageContext } from "../Language";
+import BottomNavBar from "../Menu/BottomNavBar";
 import Breadcrumbs from "../Menu/Breadcrumbs";
-import LanguageSwitcher from "../Menu/LanguageSwitcher";
 import NavBar from "../Menu/NavBar";
 import { Navigator } from "../Navigation";
-import PropTypes from "prop-types";
 import ScrollToTop from "./ScrollToTop";
-import BottomNavBar from "../Menu/BottomNavBar";
-import Icons from "../Icons";
 
 class AppWrapper extends Component {
     constructor(props) {
@@ -56,8 +55,6 @@ class AppWrapper extends Component {
                 }
             ],
 
-            navBarRightItems: [{ props: { as: LanguageSwitcher } }],
-
             bottomNavItems: [
                 {
                     props: {
@@ -101,17 +98,10 @@ class AppWrapper extends Component {
         }
     }
     render() {
-        const {
-            navBarLeftItems,
-            navBarRightItems,
-            bottomNavItems
-        } = this.state;
+        const { navBarLeftItems, bottomNavItems } = this.state;
         return (
             <ScrollToTop>
-                <NavBar
-                    leftItems={navBarLeftItems}
-                    rightItems={navBarRightItems}
-                >
+                <NavBar leftItems={navBarLeftItems}>
                     <Breadcrumbs id="breadcrumbs" className="breadcrumbs" />
                     <Navigator />
                 </NavBar>
