@@ -1,8 +1,10 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import styled from "styled-components";
-import SideNav from "../SideNav";
 import { withLanguageContext } from "../../Language";
+import SideNav from "../SideNav";
+import { NavLink } from "react-router-dom";
+import Icons from "../../Icons";
 
 const NavbarWrapper = styled.div`
     position: fixed;
@@ -46,8 +48,17 @@ const Container = styled.div`
     width: 100%;
 `;
 
+const StepsMenuItem = styled(SideNav.Item)`
+    display: flex;
+    align-items: center;
+
+    svg {
+        font-size: 25px;
+    }
+`;
+
 class NavBar extends Component {
-    state = { visible: false };
+    state = { visible: false, stepAccordionActive: false };
 
     toggleSideNav = () => {
         const { visible } = this.state;
@@ -57,8 +68,13 @@ class NavBar extends Component {
     handleSideNavClose = () => {
         this.setState({ visible: false });
     };
+
+    toggleStepAccordion = () => {
+        const { stepAccordionActive } = this.state;
+        this.setState({ stepAccordionActive: !stepAccordionActive });
+    };
     render() {
-        const { visible } = this.state;
+        const { visible, stepAccordionActive } = this.state;
         const { leftItems, rightItems, children, id, localizor } = this.props;
         return (
             <div id={id}>
@@ -68,6 +84,24 @@ class NavBar extends Component {
                         visible={visible}
                         onClose={this.handleSideNavClose}
                     >
+                        <StepsMenuItem onClick={this.toggleStepAccordion}>
+                            {localizor.strings.general.stepsToBasic}
+                            {!stepAccordionActive && <Icons.ArrowCircleRight />}
+                            {stepAccordionActive && <Icons.ArrowCircleDown />}
+                        </StepsMenuItem>
+
+                        {stepAccordionActive &&
+                            localizor.strings.steps.map((step, i) => {
+                                return (
+                                    <SideNav.IdentedItem
+                                        as={NavLink}
+                                        to={`/steps/${i + 1}`}
+                                        key={step.title}
+                                    >
+                                        {step.title}
+                                    </SideNav.IdentedItem>
+                                );
+                            })}
                         {leftItems.map((item, i) => (
                             <SideNav.Item
                                 {...item.props}

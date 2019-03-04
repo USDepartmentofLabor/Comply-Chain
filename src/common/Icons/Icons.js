@@ -5,7 +5,9 @@ import {
     IoMdHelpCircleOutline,
     IoMdBookmarks,
     IoMdSearch,
-    IoMdShareAlt
+    IoMdShareAlt,
+    IoIosArrowDropright,
+    IoIosArrowDropdown
 } from "react-icons/io";
 import { MdChevronRight, MdFeedback, MdLightbulbOutline } from "react-icons/md";
 
@@ -20,5 +22,7 @@ Icons.HelpCircle = IoMdHelpCircleOutline;
 Icons.Bookmarks = IoMdBookmarks;
 Icons.Search = IoMdSearch;
 Icons.Share = IoMdShareAlt;
+Icons.ArrowCircleRight = IoIosArrowDropright;
+Icons.ArrowCircleDown = IoIosArrowDropdown;
 
 export default Icons;

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
+import { theme } from "../../../modules/config/theme";
 
 class SideNav extends Component {
     state = { width: "260px", visible: false };
@@ -24,7 +25,6 @@ class SideNav extends Component {
         const { children, id } = this.props;
         return (
             <Wrapper id={id} width={width} visible={visible}>
-                <CloseButton onClick={this.close}>&times;</CloseButton>
                 {React.Children.map(children, child => {
                     return child;
                 })}
@@ -45,33 +45,31 @@ const Wrapper = styled.div`
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: ${theme.colors.primary};
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
 `;
 
 SideNav.Item = styled.div`
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 1em;
+    font-weight: bold;
+    color: ${theme.colors.white};
     display: block;
     transition: 0.3s;
+    border-bottom: 2px solid ${theme.colors.primaryDarker};
+    cursor: pointer;
 
     &:hover {
         color: #f1f1f1;
     }
 `;
 
-const CloseButton = styled(SideNav.Item)`
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-    cursor: pointer;
+SideNav.IdentedItem = styled(SideNav.Item)`
+    padding-left: 48px;
 `;
+
 SideNav.propTypes = {
     id: PropTypes.string,
     visible: PropTypes.bool,

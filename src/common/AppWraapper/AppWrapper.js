@@ -24,14 +24,6 @@ class AppWrapper extends Component {
                 {
                     props: {
                         as: NavLink,
-                        to: Routes.Steps.path,
-                        content: localizor.strings.general.steps,
-                        key: "steps"
-                    }
-                },
-                {
-                    props: {
-                        as: NavLink,
                         to: Routes.WhyDevelop.path,
                         content: localizor.strings.info.whyDevelop.title,
                         key: "whyDeveloper"
