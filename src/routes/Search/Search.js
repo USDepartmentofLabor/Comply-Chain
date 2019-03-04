@@ -30,8 +30,33 @@ class Search extends Component {
     };
 
     search = query => {
-        const { localizor } = this.props;
+        const data = this.setupData();
+        const pattern = new RegExp(query, "i");
+        const filteredData = data.filter(val => this.filterData(val, pattern));
 
+        const results = filteredData.map(item => {
+            if (item.content) {
+                const snippets = item.content
+                    .filter(contentItem => pattern.test(contentItem))
+                    .map(val => {
+                        const idx = val.indexOf(query);
+                        if (idx !== -1) {
+                            return this.shorten(val, 100);
+                        }
+                        return null;
+                    });
+
+                return { ...item, snippets };
+            }
+
+            return item;
+        });
+
+        return results;
+    };
+
+    setupData = () => {
+        const { localizor } = this.props;
         const steps = localizor.strings.steps.map((step, i) => ({
             title: step.title,
             keywords: step.keywords,
@@ -52,7 +77,13 @@ class Search extends Component {
         }));
         const keyTerms = localizor.strings.steps.map((step, i) => ({
             title: `${step.title} - Key Terms`,
-            content: step.keyTerms,
+            // map through keyterms to create an array of arrays and then flattem those arrays into a single array
+            content: [].concat.apply(
+                [],
+                step.keyTerms.map(keyTerm => {
+                    return Object.values(keyTerm);
+                })
+            ),
             to: `/steps/${i + 1}#key-terms`
         }));
 
@@ -68,6 +99,7 @@ class Search extends Component {
         let info = [];
         for (const key in localizor.strings.info) {
             const item = localizor.strings.info[key];
+            // convert the first letter of the object keys to uppercase in order to find the path based on the Routes object.
             const routeKey = key.charAt(0).toUpperCase() + key.slice(1);
             info.push({
                 title: item.title,
@@ -76,37 +108,13 @@ class Search extends Component {
                 to: Routes[routeKey].path
             });
         }
-        const data = steps
+        // merge all the data together in order to search it all
+        return steps
             .concat(furtherResources)
             .concat(learningObjectives)
             .concat(keyTerms)
             .concat(topics)
             .concat(info);
-        const pattern = new RegExp(query, "i");
-        const filteredData = data.filter(val => this.filterData(val, pattern));
-
-        const results = filteredData.map(item => {
-            if (item.content) {
-                const snippets = item.content
-                    .filter(contentItem => pattern.test(contentItem))
-                    .map(val => {
-                        const idx = val.indexOf(query);
-                        if (idx !== -1) {
-                            return val.substring(
-                                idx - 50,
-                                idx + query.length + 50
-                            );
-                        }
-                        return null;
-                    });
-
-                return { ...item, snippets };
-            }
-
-            return item;
-        });
-
-        return results;
     };
 
     filterData = (data, query) => {
@@ -131,6 +139,16 @@ class Search extends Component {
             }
         }
         return false;
+    };
+
+    /**
+     * Shortens a string up to a maximum length
+     * or up to the last index of the given separator
+     * in order to not cut off a string in the middle of a word.
+     */
+    shorten = (str, maxLen, separator = " ") => {
+        if (str.length <= maxLen) return str;
+        return str.substr(0, str.lastIndexOf(separator, maxLen));
     };
 
     componentWillMount() {
@@ -163,7 +181,7 @@ class Search extends Component {
                                                     <p
                                                         key={`snippet_${i}_${j}`}
                                                     >
-                                                        ...{contentItem}
+                                                        {contentItem}...
                                                     </p>
                                                 );
                                             }
