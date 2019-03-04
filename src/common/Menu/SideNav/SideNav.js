@@ -24,16 +24,18 @@ class SideNav extends Component {
         const { width, visible } = this.state;
         const { children, id } = this.props;
         return (
-            <Wrapper id={id} width={width} visible={visible}>
-                {React.Children.map(children, child => {
-                    return child;
-                })}
-            </Wrapper>
+            <RootSideNav id={id} width={width} visible={visible}>
+                <Content>
+                    {React.Children.map(children, child => {
+                        return child;
+                    })}
+                </Content>
+            </RootSideNav>
         );
     }
 }
 
-const Wrapper = styled.div`
+const RootSideNav = styled.div`
     height: 100%;
     width: ${props => {
         if (props.visible) {
@@ -48,6 +50,19 @@ const Wrapper = styled.div`
     background-color: ${theme.colors.primary};
     overflow-x: hidden;
     transition: 0.5s;
+`;
+
+const Content = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+
+    & * {
+        margin-bottom: 5px;
+    }
 `;
 
 SideNav.Item = styled.div`
@@ -68,12 +83,6 @@ SideNav.Item = styled.div`
 
 SideNav.IdentedItem = styled(SideNav.Item)`
     padding-left: 48px;
-`;
-
-SideNav.Footer = styled.div`
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 `;
 
 SideNav.propTypes = {

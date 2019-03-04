@@ -86,38 +86,43 @@ class NavBar extends Component {
                         visible={visible}
                         onClose={this.handleSideNavClose}
                     >
-                        <StepsMenuItem onClick={this.toggleStepAccordion}>
-                            {localizor.strings.general.stepsToBasic}
-                            {!stepAccordionActive && <Icons.ArrowCircleRight />}
-                            {stepAccordionActive && <Icons.ArrowCircleDown />}
-                        </StepsMenuItem>
+                        <div>
+                            <StepsMenuItem onClick={this.toggleStepAccordion}>
+                                {localizor.strings.general.stepsToBasic}
+                                {!stepAccordionActive && (
+                                    <Icons.ArrowCircleRight />
+                                )}
+                                {stepAccordionActive && (
+                                    <Icons.ArrowCircleDown />
+                                )}
+                            </StepsMenuItem>
 
-                        {stepAccordionActive &&
-                            localizor.strings.steps.map((step, i) => {
-                                return (
-                                    <SideNav.IdentedItem
-                                        as={NavLink}
-                                        to={`/steps/${i + 1}`}
-                                        key={step.title}
-                                        onClick={this.handleSideNavClose}
-                                    >
-                                        {step.title}
-                                    </SideNav.IdentedItem>
-                                );
-                            })}
-                        {leftItems.map((item, i) => (
-                            <SideNav.Item
-                                {...item.props}
-                                key={"mobile_left_" + i}
-                                onClick={this.handleSideNavClose}
-                            >
-                                {item.props && item.props.content}
-                            </SideNav.Item>
-                        ))}
-
-                        <SideNav.Footer>
+                            {stepAccordionActive &&
+                                localizor.strings.steps.map((step, i) => {
+                                    return (
+                                        <SideNav.IdentedItem
+                                            as={NavLink}
+                                            to={`/steps/${i + 1}`}
+                                            key={step.title}
+                                            onClick={this.handleSideNavClose}
+                                        >
+                                            {step.title}
+                                        </SideNav.IdentedItem>
+                                    );
+                                })}
+                            {leftItems.map((item, i) => (
+                                <SideNav.Item
+                                    {...item.props}
+                                    key={"mobile_left_" + i}
+                                    onClick={this.handleSideNavClose}
+                                >
+                                    {item.props && item.props.content}
+                                </SideNav.Item>
+                            ))}
+                        </div>
+                        <divr>
                             <LanguageSwitcher />
-                        </SideNav.Footer>
+                        </divr>
                     </SideNav>
 
                     <NavItem right onClick={this.toggleSideNav}>
