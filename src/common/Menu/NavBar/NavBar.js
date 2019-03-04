@@ -79,8 +79,9 @@ class NavBar extends Component {
                         ))}
                     </SideNav>
 
-                    <NavItem onClick={this.toggleSideNav}>
-                        {localizor.strings.general.menu}
+                    <NavItem right onClick={this.toggleSideNav}>
+                        {!visible && localizor.strings.general.menu}
+                        {visible && localizor.strings.general.close}
                     </NavItem>
                     {rightItems.map((item, i) => (
                         <NavItem
