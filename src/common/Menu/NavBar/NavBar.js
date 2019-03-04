@@ -116,7 +116,10 @@ class NavBar extends Component {
                         onClose={this.handleSideNavClose}
                     >
                         <div>
-                            <StepsMenuItem onClick={this.toggleStepAccordion}>
+                            <StepsMenuItem
+                                id="steps-dropdown"
+                                onClick={this.toggleStepAccordion}
+                            >
                                 {localizor.strings.general.stepsToBasic}
                                 {!stepAccordionActive && (
                                     <Icons.ArrowCircleRight />
@@ -133,6 +136,7 @@ class NavBar extends Component {
                                             as={NavLink}
                                             to={`/steps/${i + 1}`}
                                             key={step.title}
+                                            id={`step-${i + 1}-link`}
                                             onClick={this.handleSideNavClose}
                                         >
                                             {step.title}
@@ -154,7 +158,7 @@ class NavBar extends Component {
                         </div>
                     </SideNav>
 
-                    <NavItem right onClick={this.toggleSideNav}>
+                    <NavItem id="menu-btn" right onClick={this.toggleSideNav}>
                         {!visible && localizor.strings.general.menu}
                         {visible && localizor.strings.general.close}
                     </NavItem>

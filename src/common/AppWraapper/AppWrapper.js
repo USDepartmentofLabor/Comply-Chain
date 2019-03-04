@@ -25,7 +25,8 @@ class AppWrapper extends Component {
                         as: NavLink,
                         to: Routes.WhyDevelop.path,
                         content: localizor.strings.info.whyDevelop.title,
-                        key: "whyDeveloper"
+                        id: "why-develop-link",
+                        key: "whyDevelop"
                     }
                 },
                 {
@@ -33,6 +34,7 @@ class AppWrapper extends Component {
                         as: NavLink,
                         to: Routes.WhatAre.path,
                         content: localizor.strings.info.whatAre.title,
+                        id: "what-are-link",
                         key: "whatAre"
                     }
                 },
@@ -41,6 +43,7 @@ class AppWrapper extends Component {
                         as: NavLink,
                         to: Routes.KeyResources.path,
                         content: localizor.strings.info.keyResources.title,
+                        id: "key-resources-link",
                         key: "keyResources"
                     }
                 },
@@ -50,7 +53,8 @@ class AppWrapper extends Component {
                         href: `mailto:GlobalKids@dol.gov?subject=${
                             localizor.strings.general.contactUsSubject
                         }`,
-                        content: localizor.strings.general.contactUs
+                        content: localizor.strings.general.contactUs,
+                        link: "contact-us-link"
                     }
                 }
             ],
@@ -59,7 +63,8 @@ class AppWrapper extends Component {
                 {
                     props: {
                         as: NavLink,
-                        to: "/bookmarks"
+                        to: "/bookmarks",
+                        id: "bookmarks-link"
                     },
                     icon: Icons.Bookmarks,
                     label: "Bookmarks"
@@ -67,7 +72,8 @@ class AppWrapper extends Component {
                 {
                     props: {
                         as: NavLink,
-                        to: "/search"
+                        to: "/search",
+                        id: "search-link"
                     },
                     icon: Icons.Search,
                     label: localizor.strings.general.search
@@ -75,7 +81,8 @@ class AppWrapper extends Component {
                 {
                     props: {
                         as: NavLink,
-                        to: "/share"
+                        to: "/share",
+                        id: "share-link"
                     },
                     icon: Icons.Share,
                     label: "Share"
@@ -83,7 +90,8 @@ class AppWrapper extends Component {
                 {
                     props: {
                         as: NavLink,
-                        to: "/about"
+                        to: "/about",
+                        id: "about-link"
                     },
                     icon: Icons.HelpCircle,
                     label: "About"

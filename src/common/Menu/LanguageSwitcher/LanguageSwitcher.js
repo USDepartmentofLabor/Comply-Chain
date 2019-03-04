@@ -49,6 +49,7 @@ class LanguageSwitcher extends Component {
         return (
             <LanguageWrapper id="language-switcher">
                 <LanguageButton
+                    id="en-btn"
                     onClick={() => {
                         this.handleLanguageChange("en");
                     }}
@@ -56,6 +57,7 @@ class LanguageSwitcher extends Component {
                     English
                 </LanguageButton>
                 <LanguageButton
+                    id="es-btn"
                     onClick={() => {
                         this.handleLanguageChange("es");
                     }}
@@ -63,6 +65,7 @@ class LanguageSwitcher extends Component {
                     Espanol
                 </LanguageButton>
                 <LanguageButton
+                    id="fr-btn"
                     onClick={() => {
                         this.handleLanguageChange("fr");
                     }}
