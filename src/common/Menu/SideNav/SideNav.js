@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import { theme } from "../../../modules/config/theme";
+import { isBrowser } from "../../../modules/utils/platform";
 
 class SideNav extends Component {
-    state = { width: "260px", visible: false };
+    state = { width: (isBrowser() && "260px") || "100%", visible: false };
 
     componentDidUpdate(prevProps) {
         if (prevProps.visible !== this.props.visible) {

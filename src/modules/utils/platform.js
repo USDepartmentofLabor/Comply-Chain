@@ -24,7 +24,7 @@ export const isAndroid = () => {
 
 export const isBrowser = () => {
     if (!window.cordova) {
-        return false;
+        return true;
     }
-    return true;
+    return false;
 };

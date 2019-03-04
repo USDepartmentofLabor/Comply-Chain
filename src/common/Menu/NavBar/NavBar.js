@@ -2,10 +2,12 @@ import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import { isBrowser } from "../../../modules/utils/platform";
 import Icons from "../../Icons";
 import { withLanguageContext } from "../../Language";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import SideNav from "../SideNav";
+import { withRouter } from "react-router-dom";
 
 const NavbarWrapper = styled.div`
     position: fixed;
@@ -60,7 +62,34 @@ const StepsMenuItem = styled(SideNav.Item)`
 `;
 
 class NavBar extends Component {
-    state = { visible: false, stepAccordionActive: false };
+    constructor(props) {
+        super(props);
+        this.state = { visible: false, stepAccordionActive: false };
+
+        if (!isBrowser()) {
+            document.addEventListener(
+                "backbutton",
+                this.onBackButtonPressed,
+                false
+            );
+        }
+    }
+
+    onBackButtonPressed = e => {
+        const { visible } = this.state;
+        const { location } = this.props;
+        if (visible) {
+            e.preventDefault();
+            this.handleSideNavClose();
+        } else {
+            e.preventDefault();
+            if (location.pathname === "/") {
+                navigator.app.exitApp();
+            } else {
+                navigator.app.backHistory();
+            }
+        }
+    };
 
     toggleSideNav = () => {
         const { visible } = this.state;
@@ -120,9 +149,9 @@ class NavBar extends Component {
                                 </SideNav.Item>
                             ))}
                         </div>
-                        <divr>
+                        <div>
                             <LanguageSwitcher />
-                        </divr>
+                        </div>
                     </SideNav>
 
                     <NavItem right onClick={this.toggleSideNav}>
@@ -160,4 +189,4 @@ NavBar.defaultProps = {
     rightItems: []
 };
 
-export default withLanguageContext(NavBar);
+export default withRouter(withLanguageContext(NavBar));
