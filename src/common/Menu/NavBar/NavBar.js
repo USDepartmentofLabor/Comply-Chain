@@ -48,6 +48,10 @@ const Container = styled.div`
     width: 100%;
 `;
 
+const SideNavFooter = styled.div`
+    padding-bottom: 2em;
+`;
+
 const MenuButton = styled(Button)`
     padding: 16px 16px;
 `;
@@ -153,9 +157,9 @@ class NavBar extends Component {
                                     );
                                 })}
                         </div>
-                        <div id="side-nav-footer">
+                        <SideNavFooter id="side-nav-footer">
                             <LanguageSwitcher />
-                        </div>
+                        </SideNavFooter>
                     </SideNav>
                     <NavbarWrapper>
                         <span id="navbar-left-items">

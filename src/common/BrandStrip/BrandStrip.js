@@ -29,9 +29,9 @@ const BrandLogo = styled.img`
 class BrandStrip extends Component {
     render() {
         return (
-            <Band>
-                <BrandText>ILAB</BrandText>
-                <BrandLogo src={logo} alt="Logo" />
+            <Band id="brand-band">
+                <BrandText id="brand-name">ILAB</BrandText>
+                <BrandLogo id="brand-logo" src={logo} alt="Logo" />
             </Band>
         );
     }
