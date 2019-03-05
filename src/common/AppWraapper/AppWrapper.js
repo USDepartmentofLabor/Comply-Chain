@@ -5,7 +5,6 @@ import Routes from "../../modules/config/routes";
 import Icons from "../Icons";
 import { withLanguageContext } from "../Language";
 import BottomNavBar from "../Menu/BottomNavBar";
-import Breadcrumbs from "../Menu/Breadcrumbs";
 import NavBar from "../Menu/NavBar";
 import { Navigator } from "../Navigation";
 import ScrollToTop from "./ScrollToTop";
