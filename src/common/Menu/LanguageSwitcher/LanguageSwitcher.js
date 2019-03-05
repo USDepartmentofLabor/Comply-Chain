@@ -62,7 +62,7 @@ class LanguageSwitcher extends Component {
                         this.handleLanguageChange("es");
                     }}
                 >
-                    Espanol
+                    Español
                 </LanguageButton>
                 <LanguageButton
                     id="fr-btn"
@@ -70,7 +70,7 @@ class LanguageSwitcher extends Component {
                         this.handleLanguageChange("fr");
                     }}
                 >
-                    Francais
+                    Français
                 </LanguageButton>
             </LanguageWrapper>
         );

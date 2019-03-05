@@ -115,7 +115,16 @@ class NavBar extends Component {
                         visible={visible}
                         onClose={this.handleSideNavClose}
                     >
-                        <div>
+                        <div id="side-nav-main-content">
+                            {leftItems.map((item, i) => (
+                                <SideNav.Item
+                                    {...item.props}
+                                    key={"mobile_left_" + i}
+                                    onClick={this.handleSideNavClose}
+                                >
+                                    {item.props && item.props.content}
+                                </SideNav.Item>
+                            ))}
                             <StepsMenuItem
                                 id="steps-dropdown"
                                 onClick={this.toggleStepAccordion}
@@ -143,17 +152,8 @@ class NavBar extends Component {
                                         </SideNav.IdentedItem>
                                     );
                                 })}
-                            {leftItems.map((item, i) => (
-                                <SideNav.Item
-                                    {...item.props}
-                                    key={"mobile_left_" + i}
-                                    onClick={this.handleSideNavClose}
-                                >
-                                    {item.props && item.props.content}
-                                </SideNav.Item>
-                            ))}
                         </div>
-                        <div>
+                        <div id="side-nav-footer">
                             <LanguageSwitcher />
                         </div>
                     </SideNav>

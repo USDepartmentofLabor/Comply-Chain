@@ -23,15 +23,6 @@ class AppWrapper extends Component {
                 {
                     props: {
                         as: NavLink,
-                        to: Routes.WhyDevelop.path,
-                        content: localizor.strings.info.whyDevelop.title,
-                        id: "why-develop-link",
-                        key: "whyDevelop"
-                    }
-                },
-                {
-                    props: {
-                        as: NavLink,
                         to: Routes.WhatAre.path,
                         content: localizor.strings.info.whatAre.title,
                         id: "what-are-link",
@@ -41,20 +32,19 @@ class AppWrapper extends Component {
                 {
                     props: {
                         as: NavLink,
-                        to: Routes.KeyResources.path,
-                        content: localizor.strings.info.keyResources.title,
-                        id: "key-resources-link",
-                        key: "keyResources"
+                        to: Routes.WhyDevelop.path,
+                        content: localizor.strings.info.whyDevelop.title,
+                        id: "why-develop-link",
+                        key: "whyDevelop"
                     }
                 },
                 {
                     props: {
-                        as: "a",
-                        href: `mailto:GlobalKids@dol.gov?subject=${
-                            localizor.strings.general.contactUsSubject
-                        }`,
-                        content: localizor.strings.general.contactUs,
-                        link: "contact-us-link"
+                        as: NavLink,
+                        to: Routes.Basics.path,
+                        content: localizor.strings.info.basics.title,
+                        id: "basics-link",
+                        key: "basics"
                     }
                 }
             ],
