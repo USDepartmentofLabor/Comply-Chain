@@ -12,7 +12,7 @@ import Breadcrumbs from "../Breadcrumbs";
 
 const NavbarRoot = styled.div`
     position: fixed;
-    top: 0;
+    top: 25px;
     background-color: #fff;
     border-bottom: 1px solid #f1f1f1;
     width: 100%;
@@ -40,7 +40,7 @@ const Main = styled.div`
 `;
 
 const Container = styled.div`
-    margin-top: 5em;
+    margin-top: 7em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4em;

@@ -2,13 +2,13 @@ import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import Routes from "../../modules/config/routes";
+import BrandStrip from "../BrandStrip";
 import Icons from "../Icons";
 import { withLanguageContext } from "../Language";
 import BottomNavBar from "../Menu/BottomNavBar";
 import NavBar from "../Menu/NavBar";
 import { Navigator } from "../Navigation";
 import ScrollToTop from "./ScrollToTop";
-
 class AppWrapper extends Component {
     constructor(props) {
         super(props);
@@ -98,6 +98,7 @@ class AppWrapper extends Component {
         const { navBarLeftItems, bottomNavItems } = this.state;
         return (
             <ScrollToTop>
+                <BrandStrip />
                 <NavBar leftItems={navBarLeftItems}>
                     <Navigator />
                 </NavBar>
