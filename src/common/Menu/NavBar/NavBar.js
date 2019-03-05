@@ -1,13 +1,13 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 import styled from "styled-components";
 import { isBrowser } from "../../../modules/utils/platform";
 import Icons from "../../Icons";
 import { withLanguageContext } from "../../Language";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import SideNav from "../SideNav";
-import { withRouter } from "react-router-dom";
+import Button from "../../../components/Button";
 
 const NavbarWrapper = styled.div`
     position: fixed;
@@ -31,11 +31,6 @@ const NavItem = styled.div`
     text-decoration: none;
     font-size: 17px;
     cursor: pointer;
-
-    &:hover {
-        background-color: #ddd;
-        color: black;
-    }
 `;
 
 const Main = styled.div`
@@ -50,6 +45,10 @@ const Container = styled.div`
     margin-bottom: 4em;
     max-width: 900px;
     width: 100%;
+`;
+
+const MenuButton = styled(Button)`
+    padding: 16px 16px;
 `;
 
 const StepsMenuItem = styled(SideNav.Item)`
@@ -159,8 +158,10 @@ class NavBar extends Component {
                     </SideNav>
 
                     <NavItem id="menu-btn" right onClick={this.toggleSideNav}>
-                        {!visible && localizor.strings.general.menu}
-                        {visible && localizor.strings.general.close}
+                        <MenuButton variant="primary">
+                            {!visible && localizor.strings.general.menu}
+                            {visible && localizor.strings.general.close}
+                        </MenuButton>
                     </NavItem>
                     {rightItems.map((item, i) => (
                         <NavItem
