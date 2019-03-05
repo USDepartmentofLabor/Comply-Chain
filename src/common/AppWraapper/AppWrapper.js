@@ -100,7 +100,6 @@ class AppWrapper extends Component {
         return (
             <ScrollToTop>
                 <NavBar leftItems={navBarLeftItems}>
-                    <Breadcrumbs id="breadcrumbs" className="breadcrumbs" />
                     <Navigator />
                 </NavBar>
                 <BottomNavBar id="bottom-nav-bar" items={bottomNavItems} />

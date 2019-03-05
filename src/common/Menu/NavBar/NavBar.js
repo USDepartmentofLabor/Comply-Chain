@@ -8,8 +8,9 @@ import { withLanguageContext } from "../../Language";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import SideNav from "../SideNav";
 import Button from "../../../components/Button";
+import Breadcrumbs from "../Breadcrumbs";
 
-const NavbarWrapper = styled.div`
+const NavbarRoot = styled.div`
     position: fixed;
     top: 0;
     background-color: #fff;
@@ -18,14 +19,14 @@ const NavbarWrapper = styled.div`
     z-index: 10;
 `;
 
+const NavbarWrapper = styled.div`
+    display: flex;
+    padding: 5px 5px;
+    justify-content: space-between;
+    align-items: center;
+`;
+
 const NavItem = styled.div`
-    float: ${props => {
-        if (props.right) {
-            return "right";
-        }
-        return "left";
-    }};
-    display: block;
     text-align: center;
     padding: 14px 14px;
     text-decoration: none;
@@ -39,7 +40,7 @@ const Main = styled.div`
 `;
 
 const Container = styled.div`
-    margin-top: 3em;
+    margin-top: 5em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4em;
@@ -108,7 +109,7 @@ class NavBar extends Component {
         const { leftItems, rightItems, children, id, localizor } = this.props;
         return (
             <div id={id}>
-                <NavbarWrapper>
+                <NavbarRoot>
                     <SideNav
                         id="side-nav"
                         visible={visible}
@@ -156,23 +157,32 @@ class NavBar extends Component {
                             <LanguageSwitcher />
                         </div>
                     </SideNav>
-
-                    <NavItem id="menu-btn" right onClick={this.toggleSideNav}>
-                        <MenuButton variant="primary">
-                            {!visible && localizor.strings.general.menu}
-                            {visible && localizor.strings.general.close}
-                        </MenuButton>
-                    </NavItem>
-                    {rightItems.map((item, i) => (
-                        <NavItem
-                            {...item.props}
-                            right
-                            key={"mobile_right_" + i}
-                        >
-                            {item.props && item.props.content}
-                        </NavItem>
-                    ))}
-                </NavbarWrapper>
+                    <NavbarWrapper>
+                        <span id="navbar-left-items">
+                            <NavItem as={Breadcrumbs} id="breadcrumbs" />
+                        </span>
+                        <span id="navbar-right-items">
+                            <NavItem
+                                id="menu-btn"
+                                as={MenuButton}
+                                right
+                                onClick={this.toggleSideNav}
+                            >
+                                {!visible && localizor.strings.general.menu}
+                                {visible && localizor.strings.general.close}
+                            </NavItem>
+                            {rightItems.map((item, i) => (
+                                <NavItem
+                                    {...item.props}
+                                    right
+                                    key={"mobile_right_" + i}
+                                >
+                                    {item.props && item.props.content}
+                                </NavItem>
+                            ))}
+                        </span>
+                    </NavbarWrapper>
+                </NavbarRoot>
                 <Main>
                     <Container id="container">{children}</Container>
                 </Main>
