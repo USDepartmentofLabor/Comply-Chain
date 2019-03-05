@@ -236,7 +236,7 @@ const en = () => {
                                 employment discrimination, child labor and
                                 forced labor―as well as other labor standards
                                 such as occupational safety and health, wages
-                                and hours of work (see
+                                and hours of work (see{" "}
                                 <Link to="/steps/3">
                                     Step 3: Develop a Code of Conduct
                                 </Link>{" "}
