@@ -28,7 +28,7 @@
         "build:cordova": "npm run remove:www && cross-env PUBLIC_URL=. react-scripts build && node ./scripts/_inject-cordova.js && mv build www",
         "build:cordova:win": "npm run remove:www:win && cross-env PUBLIC_URL=. react-scripts build && node ./scripts/_inject-cordova.js && move build www",
         "server": "node scripts/server.js",
-        "test": "react-scripts test",
+        "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",
         "remove:www": "rm -rf www",
         "remove:www:win": "if exist www ( rd /s /q www )"
@@ -55,6 +55,8 @@
     },
     "devDependencies": {
         "cross-env": "^5.2.0",
+        "enzyme": "^3.9.0",
+        "enzyme-adapter-react-16": "^1.10.0",
         "koa": "^2.5.2",
         "koa-logger": "^3.2.0",
         "koa-static-server": "^1.3.4"
