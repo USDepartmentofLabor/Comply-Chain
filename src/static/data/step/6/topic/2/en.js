@@ -112,10 +112,10 @@ const en = () => {
                 be updated to prevent recurrence.
             </p>
             <table>
+                <caption>
+                    Table 1: Remediation of Recruitment Practice Issues
+                </caption>
                 <tbody>
-                    <caption>
-                        Table 1: Remediation of Recruitment Practice Issues
-                    </caption>
                     <tr>
                         <th width="35%" scope="col">
                             <p>
@@ -580,7 +580,7 @@ const en = () => {
                                 immigration authorities.
                             </p>
                         </td>
-                        <td rowspan="6">
+                        <td rowSpan="6">
                             <p>
                                 In any situation of violence, penalty,
                                 intimidation or threat, determine

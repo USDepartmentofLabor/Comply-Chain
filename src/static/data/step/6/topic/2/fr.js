@@ -145,11 +145,11 @@ const fr = () => {
                 r&eacute;cidives.
             </p>
             <table>
+                <caption>
+                    Tableau&nbsp;1&nbsp;: R&eacute;paration des probl&egrave;mes
+                    concernant les pratiques de recrutement
+                </caption>
                 <tbody>
-                    <caption>
-                        Tableau&nbsp;1&nbsp;: R&eacute;paration des
-                        probl&egrave;mes concernant les pratiques de recrutement
-                    </caption>
                     <tr>
                         <th width="35%" scope="col">
                             <p>
@@ -736,7 +736,7 @@ const fr = () => {
                                 d&apos;immigration.
                             </p>
                         </td>
-                        <td rowspan="6">
+                        <td rowSpan="6">
                             <p>
                                 Dans toute situation de violence, de sanction,
                                 d&apos;intimidation ou de menace,

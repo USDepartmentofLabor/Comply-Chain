@@ -131,11 +131,11 @@ const es = () => {
                 reincidencia.
             </p>
             <table>
+                <caption>
+                    Cuadro 1: Problemas en la remediaci&oacute;n de las
+                    pr&aacute;cticas de reclutamiento
+                </caption>
                 <tbody>
-                    <caption>
-                        Cuadro 1: Problemas en la remediaci&oacute;n de las
-                        pr&aacute;cticas de reclutamiento
-                    </caption>
                     <tr>
                         <th width="35%" scope="col">
                             <p>
@@ -664,7 +664,7 @@ const es = () => {
                                 trabajadores a las autoridades inmigratorias.
                             </p>
                         </td>
-                        <td rowspan="6">
+                        <td rowSpan="6">
                             <p>
                                 En cualquier situaci&oacute;n de violencia,
                                 sanci&oacute;n, intimidaci&oacute;n o amenaza,
