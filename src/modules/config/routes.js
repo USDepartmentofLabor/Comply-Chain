@@ -1,26 +1,20 @@
 import {
-    Home,
-    Steps,
-    Step,
-    Topic,
     About,
     Basics,
+    Bookmarks,
+    Home,
     KeyResources,
-    WhatAre,
-    WhyDevelop,
     Search,
-    Bookmarks
+    Step,
+    Topic,
+    WhatAre,
+    WhyDevelop
 } from "../../routes";
 
 const Routes = {
     Home: {
         path: "/",
         component: Home,
-        exact: true
-    },
-    Steps: {
-        path: "/steps",
-        component: Steps,
         exact: true
     },
     Step: {

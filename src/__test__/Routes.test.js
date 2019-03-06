@@ -28,25 +28,59 @@ describe("Routes", () => {
                     it(`renders step ${i + 1} ${lang}`, () => {
                         const Route = Routes.Step.component;
                         const props = { match: { params: { step: i + 1 } } };
-                        mount(
+                        const mountedStep = mount(
                             <LanguageProvider>
                                 <Router>
                                     <Route {...props} />
                                 </Router>
                             </LanguageProvider>
                         );
+
+                        if (mountedStep.state("prevStep")) {
+                            const prevButton = mountedStep.find("#prev-step");
+                            prevButton.simulate("click");
+                        }
+                        if (mountedStep.state("nextStep")) {
+                            const nextButton = mountedStep.find("#next-step");
+                            nextButton.simulate("click");
+                        }
                     });
 
                     describe(`Step ${i + 1} rendered`, () => {
                         step.topics.map((topic, j) => {
                             it(`renders topic ${j + 1} ${lang}`, () => {
-                                const Topic = topic.content;
-
-                                mount(
-                                    <Router>
-                                        <Topic />
-                                    </Router>
+                                const Route = Routes.Topic.component;
+                                const props = {
+                                    match: {
+                                        params: { step: i + 1, topic: j + 1 }
+                                    }
+                                };
+                                const mountedTopic = mount(
+                                    <LanguageProvider>
+                                        <Router>
+                                            <Route {...props} />
+                                        </Router>
+                                    </LanguageProvider>
                                 );
+
+                                if (mountedTopic.state("prevTopic")) {
+                                    const prevButton = mountedTopic.find(
+                                        "#prev-step"
+                                    );
+                                    prevButton.simulate("click");
+                                }
+                                if (mountedTopic.state("nextTopic")) {
+                                    const nextButton = mountedTopic.find(
+                                        "#next-topic"
+                                    );
+                                    nextButton.simulate("click");
+                                }
+                                if (mountedTopic.state("nextStep")) {
+                                    const nextButton = mountedTopic.find(
+                                        "#next-step"
+                                    );
+                                    nextButton.simulate("click");
+                                }
                             });
 
                             return topic;

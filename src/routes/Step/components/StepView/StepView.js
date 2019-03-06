@@ -93,6 +93,7 @@ class StepView extends Component {
                 <AccordionView id="step-accordions" sections={sections} />
                 {prevStep && (
                     <Button
+                        id="prev-step"
                         variant="primaryDarkest"
                         onClick={() => this.navigate(prevStep)}
                     >
@@ -102,6 +103,7 @@ class StepView extends Component {
                 )}
                 {nextStep && (
                     <Button
+                        id="next-step"
                         variant="primary"
                         onClick={() => this.navigate(nextStep)}
                     >

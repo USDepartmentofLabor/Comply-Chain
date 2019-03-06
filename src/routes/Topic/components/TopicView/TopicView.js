@@ -44,6 +44,7 @@ class TopicView extends Component {
 
                     {prevTopic && (
                         <Button
+                            id="prev-topic"
                             variant="primaryDarkest"
                             onClick={() => this.navigate(prevTopic)}
                         >
@@ -53,6 +54,7 @@ class TopicView extends Component {
                     )}
                     {nextTopic && (
                         <Button
+                            id="next-topic"
                             variant="primary"
                             onClick={() => this.navigate(nextTopic)}
                         >
@@ -62,6 +64,7 @@ class TopicView extends Component {
                     )}
                     {nextStep && (
                         <Button
+                            id="next-step"
                             variant="primary"
                             onClick={() => this.navigate(nextStep)}
                         >
