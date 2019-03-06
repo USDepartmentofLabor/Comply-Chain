@@ -80,4 +80,8 @@ BottomNavBar.propTypes = {
     )
 };
 
+BottomNavBar.defaultProps = {
+    items: []
+};
+
 export default BottomNavBar;
