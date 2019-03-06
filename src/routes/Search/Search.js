@@ -119,7 +119,7 @@ class Search extends Component {
         }));
         const keyTerms = localizor.strings.steps.map((step, i) => ({
             title: `${step.title} - Key Terms`,
-            // map through keyterms to create an array of arrays and then flattem those arrays into a single array
+            // map through keyterms to create an array of arrays and then flatten those arrays into a single array
             content: [].concat
                 .apply(
                     [],
@@ -211,6 +211,7 @@ class Search extends Component {
      */
     shorten = (str, maxLen, idx = 0, separator = " ") => {
         if (str.length <= maxLen) return str;
+        // go back an X amount of characters before the index and grab the last whole word.
         const strBegin = str.substr(
             str.indexOf(separator, idx - maxLen > 0 ? idx - maxLen : 0) + 1
         );
@@ -222,6 +223,7 @@ class Search extends Component {
     }
 
     render() {
+        const { localizor } = this.props;
         const { query, results, searching } = this.state;
         return (
             <div>
@@ -234,7 +236,7 @@ class Search extends Component {
                 <SearchLabel>
                     <Icons.Search />
                     <SearchInput
-                        placeholder="Search"
+                        placeholder={localizor.strings.general.search}
                         value={query}
                         onChange={this.handleChange}
                     />
