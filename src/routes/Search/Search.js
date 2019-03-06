@@ -52,7 +52,7 @@ const ResultTitle = styled(Link)`
     text-decoration: none;
 `;
 
-const Snippet = styled.div``;
+const Snippet = styled.p``;
 
 class Search extends Component {
     state = { query: "", results: [], searching: false };
@@ -89,8 +89,6 @@ class Search extends Component {
             }
             return snippets;
         });
-        console.log(results);
-
         return results;
     };
 
@@ -106,23 +104,25 @@ class Search extends Component {
             title: `${step.title} - Further Resources`,
             content:
                 step.furtherResources &&
-                getRawTextData(step.furtherResources()),
+                getRawTextData(step.furtherResources()).join(""),
             to: `/steps/${i + 1}#resources`
         }));
         const learningObjectives = localizor.strings.steps.map((step, i) => ({
             title: `${step.title} - Learning Objectives`,
-            content: step.learningObjectives,
+            content: step.learningObjectives.join(""),
             to: `/steps/${i + 1}#learning-objectives`
         }));
         const keyTerms = localizor.strings.steps.map((step, i) => ({
             title: `${step.title} - Key Terms`,
             // map through keyterms to create an array of arrays and then flattem those arrays into a single array
-            content: [].concat.apply(
-                [],
-                step.keyTerms.map(keyTerm => {
-                    return Object.values(keyTerm);
-                })
-            ),
+            content: [].concat
+                .apply(
+                    [],
+                    step.keyTerms.map(keyTerm => {
+                        return Object.values(keyTerm);
+                    })
+                )
+                .join(""),
             to: `/steps/${i + 1}#key-terms`
         }));
 
@@ -130,7 +130,9 @@ class Search extends Component {
             step.topics.map((topic, topicIdx) => ({
                 title: topic.title,
                 keywords: topic.keywords,
-                content: getRawTextData(topic.content().props.children),
+                content: getRawTextData(topic.content().props.children).join(
+                    ""
+                ),
                 to: `/steps/${stepIdx + 1}/topic/${topicIdx + 1}`
             }))
         );
@@ -143,7 +145,7 @@ class Search extends Component {
             info.push({
                 title: item.title,
                 keywords: item.keywords,
-                content: getRawTextData(item.content().props.children),
+                content: getRawTextData(item.content().props.children).join(""),
                 to: Routes[routeKey].path
             });
         }
@@ -182,21 +184,16 @@ class Search extends Component {
 
     generateSnippets = (item, pattern, query) => {
         if (item.content) {
-            const snippets = item.content
-                .filter(contentItem => pattern.test(contentItem))
-                .map(val => {
-                    const idx = val.indexOf(query);
-                    if (idx !== -1) {
-                        return this.shorten(val, 100, idx - 50);
-                    }
-                    return null;
-                });
+            const content = item.content;
+            let snippets;
+            if (pattern.test(content)) {
+                const idx = content.indexOf(query);
+                if (idx !== -1) {
+                    snippets = this.shorten(content, 200, idx);
+                }
+            }
 
-            return { ...item, snippets: snippets.filter(snippet => snippet) };
-        } else if (item.constructor === Array) {
-            return item.map(
-                it => this.generateSnippets(it, pattern, query) || null
-            );
+            return { ...item, snippets };
         }
 
         return item;
@@ -209,7 +206,10 @@ class Search extends Component {
      */
     shorten = (str, maxLen, idx = 0, separator = " ") => {
         if (str.length <= maxLen) return str;
-        return str.substr(idx, str.lastIndexOf(separator, maxLen));
+        const strBegin = str.substr(
+            str.indexOf(separator, idx - maxLen > 0 ? idx - maxLen : 0) + 1
+        );
+        return strBegin.substr(0, strBegin.lastIndexOf(separator, maxLen));
     };
 
     componentWillMount() {
@@ -245,25 +245,7 @@ class Search extends Component {
                                     {result.title}
                                 </ResultTitle>
                             )}
-                            <Snippet>
-                                {result.snippets &&
-                                    result.snippets
-                                        .slice(0, 2)
-                                        .map((contentItem, j) => {
-                                            if (
-                                                typeof contentItem === "string"
-                                            ) {
-                                                return (
-                                                    <p
-                                                        key={`snippet_${i}_${j}`}
-                                                    >
-                                                        {contentItem}...
-                                                    </p>
-                                                );
-                                            }
-                                            return null;
-                                        })}
-                            </Snippet>
+                            <Snippet>{result.snippets}...</Snippet>
                         </SearchResult>
                     );
                 })}
