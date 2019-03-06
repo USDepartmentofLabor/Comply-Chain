@@ -1,17 +1,65 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
+import Icons from "../../components/Icons";
 import { withLanguageContext } from "../../components/Language";
 import Routes from "../../modules/config/routes";
+import { theme } from "../../modules/config/theme";
 import { getRawTextData } from "../../modules/utils";
 
 const WAIT_INTERVAL = 1000;
 
+const SearchLabel = styled.label`
+    position: relative;
+    color: ${theme.colors.primaryAltDarkest};
+    & svg {
+        content: "";
+        position: absolute;
+        bottom: -25px;
+        height: 100%;
+        font-size: 2em;
+        z-index: 1;
+    }
+`;
+
+const SearchInput = styled.input`
+    display: block;
+    color: ${theme.colors.base};
+    background-color: ${theme.colors.white};
+    border: 1px solid ${theme.colors.grayLight};
+    padding: 10px 25px;
+    width: 100%;
+    box-sizing: border-box;
+`;
+
+const SearchResultsHeader = styled.h4`
+    color: ${theme.colors.base};
+    & .query {
+        color: ${theme.colors.primaryAltDarkest};
+    }
+`;
+
+const SearchResult = styled.div`
+    border: 1px solid ${theme.colors.grayLight};
+    margin-top: 1em;
+    padding: 20px 20px;
+`;
+
+const ResultTitle = styled(Link)`
+    color: ${theme.colors.primary};
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+`;
+
+const Snippet = styled.div``;
+
 class Search extends Component {
-    state = { query: "", results: [] };
+    state = { query: "", results: [], searching: false };
 
     handleChange = e => {
         const value = e.target.value;
-        this.setState({ query: value });
+        this.setState({ query: value, searching: true });
         clearTimeout(this.timer);
         this.timer = setTimeout(this.finish, WAIT_INTERVAL);
     };
@@ -23,9 +71,9 @@ class Search extends Component {
     handleQuery = () => {
         const { query } = this.state;
         if (query.length > 2) {
-            this.setState({ results: this.search(query) });
+            this.setState({ results: this.search(query), searching: false });
         } else {
-            this.setState({ results: [] });
+            this.setState({ results: [], searching: false });
         }
     };
 
@@ -35,22 +83,13 @@ class Search extends Component {
         const filteredData = data.filter(val => this.filterData(val, pattern));
 
         const results = filteredData.map(item => {
-            if (item.content) {
-                const snippets = item.content
-                    .filter(contentItem => pattern.test(contentItem))
-                    .map(val => {
-                        const idx = val.indexOf(query);
-                        if (idx !== -1) {
-                            return this.shorten(val, 100);
-                        }
-                        return null;
-                    });
-
-                return { ...item, snippets };
+            const snippets = this.generateSnippets(item, pattern, query);
+            if (snippets.constructor === Array) {
+                return Object.assign(...snippets);
             }
-
-            return item;
+            return snippets;
         });
+        console.log(results);
 
         return results;
     };
@@ -141,14 +180,36 @@ class Search extends Component {
         return false;
     };
 
+    generateSnippets = (item, pattern, query) => {
+        if (item.content) {
+            const snippets = item.content
+                .filter(contentItem => pattern.test(contentItem))
+                .map(val => {
+                    const idx = val.indexOf(query);
+                    if (idx !== -1) {
+                        return this.shorten(val, 100, idx - 50);
+                    }
+                    return null;
+                });
+
+            return { ...item, snippets: snippets.filter(snippet => snippet) };
+        } else if (item.constructor === Array) {
+            return item.map(
+                it => this.generateSnippets(it, pattern, query) || null
+            );
+        }
+
+        return item;
+    };
+
     /**
      * Shortens a string up to a maximum length
      * or up to the last index of the given separator
      * in order to not cut off a string in the middle of a word.
      */
-    shorten = (str, maxLen, separator = " ") => {
+    shorten = (str, maxLen, idx = 0, separator = " ") => {
         if (str.length <= maxLen) return str;
-        return str.substr(0, str.lastIndexOf(separator, maxLen));
+        return str.substr(idx, str.lastIndexOf(separator, maxLen));
     };
 
     componentWillMount() {
@@ -156,20 +217,35 @@ class Search extends Component {
     }
 
     render() {
-        const { query, results } = this.state;
+        const { query, results, searching } = this.state;
         return (
             <div>
-                <label>Search</label>
-                <input value={query} onChange={this.handleChange} />
+                {query && !searching && (
+                    <SearchResultsHeader>
+                        {results.length} search results for "
+                        <span className="query">{query}</span>"
+                    </SearchResultsHeader>
+                )}
+                <SearchLabel>
+                    <Icons.Search />
+                    <SearchInput
+                        placeholder="Search"
+                        value={query}
+                        onChange={this.handleChange}
+                    />
+                </SearchLabel>
                 {results.map((result, i) => {
+                    if (!result.to || !result.snippets) {
+                        return null;
+                    }
                     return (
-                        <div key={`search_results_${i}`}>
+                        <SearchResult key={`search_results_${i}`}>
                             {result.to && (
-                                <Link to={result.to} target="_blank">
+                                <ResultTitle to={result.to} target="_blank">
                                     {result.title}
-                                </Link>
+                                </ResultTitle>
                             )}
-                            <div>
+                            <Snippet>
                                 {result.snippets &&
                                     result.snippets
                                         .slice(0, 2)
@@ -187,8 +263,8 @@ class Search extends Component {
                                             }
                                             return null;
                                         })}
-                            </div>
-                        </div>
+                            </Snippet>
+                        </SearchResult>
                     );
                 })}
             </div>
