@@ -8,7 +8,7 @@ import KeyResources from "./KeyResources";
 import WhatAre from "./WhatAre";
 import WhyDevelop from "./WhyDevelop";
 import Search from "./Search";
-
+import Bookmarks from "./Bookmarks";
 export {
     Home,
     Topic,
@@ -19,5 +19,6 @@ export {
     KeyResources,
     WhatAre,
     WhyDevelop,
-    Search
+    Search,
+    Bookmarks
 };

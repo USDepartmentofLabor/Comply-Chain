@@ -8,7 +8,8 @@ import {
     KeyResources,
     WhatAre,
     WhyDevelop,
-    Search
+    Search,
+    Bookmarks
 } from "../../routes";
 
 const Routes = {
@@ -55,6 +56,11 @@ const Routes = {
     WhyDevelop: {
         path: "/why-develop",
         component: WhyDevelop,
+        exact: true
+    },
+    Bookmarks: {
+        path: "/bookmarks",
+        component: Bookmarks,
         exact: true
     },
     Search: {
