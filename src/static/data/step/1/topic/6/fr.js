@@ -1,6 +1,6 @@
 import React from "react";
 import goodweave from "../../../../../images/goodweave.jpg";
-import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (

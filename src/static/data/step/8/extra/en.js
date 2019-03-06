@@ -1,5 +1,5 @@
 import React from "react";
-import OwnWords from "../../../../../common/OwnWords";
+import OwnWords from "../../../../../components/OwnWords";
 
 const en = () => {
     return (

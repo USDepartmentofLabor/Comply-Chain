@@ -1,8 +1,8 @@
 import { mount } from "enzyme";
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { LanguageProvider } from "../common/Language";
-import LanguageSwitcher from "../common/Menu/LanguageSwitcher/LanguageSwitcher";
+import { LanguageProvider } from "../components/Language";
+import LanguageSwitcher from "../components/Menu/LanguageSwitcher/LanguageSwitcher";
 
 describe("LanguageSwitcher", () => {
     let props;

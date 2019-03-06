@@ -1,7 +1,7 @@
 import React from "react";
-import Accordion from "../../../../common/Accordion";
-import ExampleInAction from "../../../../common/ExampleInAction";
-import OwnWords from "../../../../common/OwnWords";
+import Accordion from "../../../../components/Accordion";
+import ExampleInAction from "../../../../components/ExampleInAction";
+import OwnWords from "../../../../components/OwnWords";
 import { Link } from "react-router-dom";
 
 const en = () => {

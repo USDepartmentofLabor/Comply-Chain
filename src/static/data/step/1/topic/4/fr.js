@@ -1,6 +1,6 @@
 import React from "react";
 import leap from "../../../../../images/leap.png";
-import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (

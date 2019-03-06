@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BorderSeparator from "../../../../common/BorderSeparator";
-import Icons from "../../../../common/Icons";
+import BorderSeparator from "../../../../components/BorderSeparator";
+import Icons from "../../../../components/Icons";
 import { EiaList } from "./shared";
-import SweatAndToilLink from "../../../../common/SweatAndToilLink";
+import SweatAndToilLink from "../../../../components/SweatAndToilLink";
 
 const fr = () => {
     return (

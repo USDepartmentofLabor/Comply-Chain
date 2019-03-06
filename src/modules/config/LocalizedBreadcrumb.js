@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { withLanguageContext } from "../../common/Language";
+import { withLanguageContext } from "../../components/Language";
 
 class LocalizedBreadcrumb extends Component {
     getPropByString = (obj, propString) => {

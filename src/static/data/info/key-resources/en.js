@@ -1,9 +1,9 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import BorderSeparator from "../../../../common/BorderSeparator";
-import Icons from "../../../../common/Icons";
+import BorderSeparator from "../../../../components/BorderSeparator";
+import Icons from "../../../../components/Icons";
 import { EiaList } from "./shared";
-import SweatAndToilLink from "../../../../common/SweatAndToilLink";
+import SweatAndToilLink from "../../../../components/SweatAndToilLink";
 
 const en = () => {
     return (

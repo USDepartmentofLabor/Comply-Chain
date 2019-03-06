@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import manBamboo from "../../images/man_bamboo.jpg";
-import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (

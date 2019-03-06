@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import usFlag from "../../images/us_flag.png";
 import verite from "../../images/verite.png";
-import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (

@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import panos from "../../images/panos.jpg";
 import hrm from "../../images/hrm.jpg";
-import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
-import OwnWords from "../../../../../../common/OwnWords";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 
 const fr = () => {
     return (

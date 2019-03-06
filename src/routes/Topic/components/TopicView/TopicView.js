@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
-import { withLanguageContext } from "../../../../common/Language";
+import { withLanguageContext } from "../../../../components/Language";
 import Button from "../../../../components/Button";
-import Icons from "../../../../common/Icons";
+import Icons from "../../../../components/Icons";
 import { withRouter } from "react-router-dom";
 
 class TopicView extends Component {

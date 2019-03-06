@@ -1,6 +1,6 @@
 import React from "react";
-import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
-import OwnWords from "../../../../../../common/OwnWords";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 
 const es = () => {
     return (

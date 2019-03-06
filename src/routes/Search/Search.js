@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { withLanguageContext } from "../../common/Language";
+import { withLanguageContext } from "../../components/Language";
 import Routes from "../../modules/config/routes";
 import { getRawTextData } from "../../modules/utils";
 

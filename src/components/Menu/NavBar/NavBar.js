@@ -7,7 +7,7 @@ import Icons from "../../Icons";
 import { withLanguageContext } from "../../Language";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import SideNav from "../SideNav";
-import Button from "../../../components/Button";
+import Button from "../../Button";
 import Breadcrumbs from "../Breadcrumbs";
 
 const NavbarRoot = styled.div`

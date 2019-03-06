@@ -1,6 +1,6 @@
 import React from "react";
-import Accordion from "../../../../common/Accordion";
-import BorderSeparator from "../../../../common/BorderSeparator";
+import Accordion from "../../../../components/Accordion";
+import BorderSeparator from "../../../../components/BorderSeparator";
 
 const es = () => {
     return (

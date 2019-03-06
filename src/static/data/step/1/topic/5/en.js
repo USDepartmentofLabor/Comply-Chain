@@ -1,5 +1,5 @@
 import React from "react";
-import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (

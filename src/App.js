@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import AppWrapper from "./common/AppWraapper";
-import { LanguageProvider } from "./common/Language";
+import AppWrapper from "./components/AppWraapper";
+import { LanguageProvider } from "./components/Language";
 
 class App extends Component {
     render() {

@@ -1,9 +1,9 @@
 import { mount } from "enzyme";
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { LanguageProvider } from "../common/Language";
-import NavBar from "../common/Menu/NavBar";
-import Breadcrumbs from "../common/Menu/Breadcrumbs";
+import { LanguageProvider } from "../components/Language";
+import NavBar from "../components/Menu/NavBar";
+import Breadcrumbs from "../components/Menu/Breadcrumbs";
 
 describe("NavBar", () => {
     let props;

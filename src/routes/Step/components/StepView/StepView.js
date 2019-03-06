@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import AccordionView from "../../../../common/AccordionView";
-import Icons from "../../../../common/Icons";
-import { withLanguageContext } from "../../../../common/Language";
+import AccordionView from "../../../../components/AccordionView";
+import Icons from "../../../../components/Icons";
+import { withLanguageContext } from "../../../../components/Language";
 import Button from "../../../../components/Button";
 import KeyTermList from "../KeyTermList";
 import LearningObjectiveList from "../LearningObjectiveList";

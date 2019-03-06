@@ -39,3 +39,6 @@ resources/signing
 
 # vscode
 .vscode/
+
+# intellij
+.idea/

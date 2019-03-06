@@ -1,6 +1,6 @@
 import { mount } from "enzyme";
 import React from "react";
-import SideNav from "../common/Menu/SideNav";
+import SideNav from "../components/Menu/SideNav";
 
 describe("SideNav", () => {
     let props;

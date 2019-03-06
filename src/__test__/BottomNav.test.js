@@ -1,7 +1,7 @@
 import { mount } from "enzyme";
 import React from "react";
-import BottomNavBar from "../common/Menu/BottomNavBar";
-import Icons from "../common/Icons";
+import BottomNavBar from "../components/Menu/BottomNavBar";
+import Icons from "../components/Icons";
 
 describe("BottomNavBar", () => {
     let props;

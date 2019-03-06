@@ -1,6 +1,6 @@
 import React from "react";
 import ilo from "../../images/ilo.jpg";
-import ExampleInAction from "../../../../../../common/ExampleInAction/ExampleInAction";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (

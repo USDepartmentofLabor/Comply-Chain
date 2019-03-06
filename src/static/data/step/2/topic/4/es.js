@@ -1,7 +1,7 @@
 import React from "react";
 import cocoaSupplyChains from "../../images/cocoa_supply_chains_es.png";
 import genericImport from "../../images/generic_import_es.png";
-import Accordion from "../../../../../../common/Accordion";
+import Accordion from "../../../../../../components/Accordion";
 
 const es = () => {
     return (

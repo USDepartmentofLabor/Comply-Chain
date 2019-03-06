@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { withLanguageContext } from "../../common/Language";
+import { withLanguageContext } from "../../components/Language";
 import PropTypes from "prop-types";
 class Basics extends Component {
     render() {
