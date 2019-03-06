@@ -54,6 +54,11 @@ const ResultTitle = styled(Link)`
 
 const Snippet = styled.p``;
 
+const SnippetLink = styled(Link)`
+    color: ${theme.colors.primary};
+    text-decoration: none;
+`;
+
 class Search extends Component {
     state = { query: "", results: [], searching: false };
 
@@ -246,6 +251,9 @@ class Search extends Component {
                                 </ResultTitle>
                             )}
                             <Snippet>{result.snippets}...</Snippet>
+                            <SnippetLink to={result.to} target="_blank">
+                                Continue reading.
+                            </SnippetLink>
                         </SearchResult>
                     );
                 })}
