@@ -5,8 +5,10 @@ import { theme } from "../../../modules/config/theme";
 import { isBrowser } from "../../../modules/utils/platform";
 
 class SideNav extends Component {
-    state = { width: (isBrowser() && "260px") || "100%", visible: false };
-
+    state = {
+        width: (isBrowser() && "260px") || "100%",
+        visible: this.props.visible || false
+    };
     componentDidUpdate(prevProps) {
         if (prevProps.visible !== this.props.visible) {
             this.setState({ visible: this.props.visible });
