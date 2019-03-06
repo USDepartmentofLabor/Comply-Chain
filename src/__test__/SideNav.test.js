@@ -2,7 +2,7 @@ import { mount } from "enzyme";
 import React from "react";
 import SideNav from "../common/Menu/SideNav";
 
-describe("NavBar", () => {
+describe("SideNav", () => {
     let props;
     let mountedSideNav;
     const sideNav = () => {
