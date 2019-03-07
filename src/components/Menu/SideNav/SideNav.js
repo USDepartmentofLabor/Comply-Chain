@@ -6,7 +6,7 @@ import { isBrowser } from "../../../modules/utils/platform";
 
 class SideNav extends Component {
     state = {
-        width: (isBrowser() && "260px") || "100%",
+        width: (isBrowser() && "270px") || "100%",
         visible: this.props.visible || false
     };
     componentDidUpdate(prevProps) {
@@ -28,11 +28,11 @@ class SideNav extends Component {
         const { children, id } = this.props;
         return (
             <RootSideNav id={id} width={width} visible={visible}>
-                <Content>
+                <FlexContainer>
                     {React.Children.map(children, child => {
                         return child;
                     })}
-                </Content>
+                </FlexContainer>
             </RootSideNav>
         );
     }
@@ -47,24 +47,25 @@ const RootSideNav = styled.div`
         return 0;
     }};
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     top: auto;
     left: 0;
     background-color: ${theme.colors.primary};
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: all 0.3s ease;
 `;
 
-const Content = styled.div`
+const FlexContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
     height: 100%;
-    flex: 1;
 
-    & * {
+    & > * {
         margin-bottom: 5px;
+        flex-shrink: 0;
+        min-width: 270px;
     }
 `;
 
