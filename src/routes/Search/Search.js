@@ -101,6 +101,7 @@ class Search extends Component {
             }
             return snippets;
         });
+
         return results;
     };
 
@@ -177,7 +178,7 @@ class Search extends Component {
 
         if (data.constructor === Array) {
             return data.reduce(
-                (accum, item) => accum || this.filterData(item, query),
+                (accum, item) => this.filterData(item, query),
                 false
             );
         }
@@ -206,6 +207,8 @@ class Search extends Component {
             }
 
             return { ...item, snippets };
+        } else if (item.constructor === Array) {
+            return item.map(it => this.generateSnippets(it, pattern, query));
         }
 
         return item;
@@ -219,10 +222,13 @@ class Search extends Component {
     shorten = (str, maxLen, idx = 0, separator = " ") => {
         if (str.length <= maxLen) return str;
         // go back an X amount of characters before the index and grab the last whole word.
-        const strBegin = str.substr(
-            str.indexOf(separator, idx - maxLen > 0 ? idx - maxLen : 0) + 1
+        const idxStart = idx - maxLen > 0 ? idx - maxLen : 0;
+        const strBegin = str.substr(str.indexOf(separator, idxStart) + 1);
+        const diff = idx - idxStart;
+        return strBegin.substr(
+            0,
+            strBegin.lastIndexOf(separator, maxLen + diff)
         );
-        return strBegin.substr(0, strBegin.lastIndexOf(separator, maxLen));
     };
 
     componentWillMount() {
@@ -250,9 +256,6 @@ class Search extends Component {
                     />
                 </SearchLabel>
                 {results.map((result, i) => {
-                    if (!result.to || !result.snippets) {
-                        return null;
-                    }
                     return (
                         <SearchResult key={`search_results_${i}`}>
                             {result.to && (
@@ -264,7 +267,7 @@ class Search extends Component {
                                 <Snippet
                                     searchWords={[query]}
                                     autoEscape={true}
-                                    textToHighlight={result.snippets}
+                                    textToHighlight={result.snippets || ""}
                                 />
                             </p>
                             <SnippetLink to={result.to} target="_blank">
