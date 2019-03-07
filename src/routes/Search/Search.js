@@ -200,7 +200,7 @@ class Search extends Component {
             const content = item.content;
             let snippets;
             if (pattern.test(content)) {
-                const idx = content.indexOf(query);
+                const idx = content.toLowerCase().indexOf(query.toLowerCase());
                 if (idx !== -1) {
                     snippets = this.shorten(content, 200, idx);
                 }
@@ -267,7 +267,11 @@ class Search extends Component {
                                 <Snippet
                                     searchWords={[query]}
                                     autoEscape={true}
-                                    textToHighlight={result.snippets || ""}
+                                    textToHighlight={
+                                        (result.snippets &&
+                                            result.snippets + "...") ||
+                                        ""
+                                    }
                                 />
                             </p>
                             <SnippetLink to={result.to} target="_blank">
