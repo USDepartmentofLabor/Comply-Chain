@@ -7,8 +7,8 @@ import { getPageTitle } from "./ShareUtils";
 
 class ShareNative extends Component {
     handleShare = () => {
-        const { location, match, localizor } = this.props;
-        let title = getPageTitle(location, match, localizor) || "Comply Chain";
+        const { location, localizor } = this.props;
+        let title = getPageTitle(location, localizor) || "Comply Chain";
 
         console.log(title);
         const options = {
