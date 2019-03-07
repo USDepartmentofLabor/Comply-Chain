@@ -6,6 +6,7 @@ import { withLanguageContext } from "../../components/Language";
 import Routes from "../../modules/config/routes";
 import { theme } from "../../modules/config/theme";
 import { getRawTextData } from "../../modules/utils";
+import Highlighter from "react-highlight-words";
 
 const WAIT_INTERVAL = 1000;
 
@@ -52,7 +53,13 @@ const ResultTitle = styled(Link)`
     text-decoration: none;
 `;
 
-const Snippet = styled.p``;
+const Snippet = styled(Highlighter)`
+    & mark {
+        color: ${theme.colors.primary};
+        font-weight: bold;
+        background-color: ${theme.colors.white};
+    }
+`;
 
 const SnippetLink = styled(Link)`
     color: ${theme.colors.primary};
@@ -252,7 +259,13 @@ class Search extends Component {
                                     {result.title}
                                 </ResultTitle>
                             )}
-                            <Snippet>{result.snippets}...</Snippet>
+                            <p>
+                                <Snippet
+                                    searchWords={[query]}
+                                    autoEscape={true}
+                                    textToHighlight={result.snippets}
+                                />
+                            </p>
                             <SnippetLink to={result.to} target="_blank">
                                 Continue reading.
                             </SnippetLink>
