@@ -47,7 +47,9 @@ const fr = () => {
             </p>
             <ul>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://levistrauss.com/unzipped-blog/tag/terms-of-engagement/"
                         title="Conditions d&rsquo;engagement de Levi Strauss &amp; Co*."
                     >
@@ -55,7 +57,9 @@ const fr = () => {
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.coca-colacompany.com/content/dam/journey/us/en/private/fileassets/pdf/unknown/unknown/SGP_Brochure_ENG.pdf"
                         title="Principes directeurs de The Coca-Cola Company pour les fournisseurs"
                     >
@@ -64,7 +68,9 @@ const fr = () => {
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://globalassets.starbucks.com/assets/1deb372ee3d840179e59c5b9c21cd5fe.pdf"
                         title="Normes en mati&egrave;re de responsabilit&eacute; des fournisseurs de Starbucks*&nbsp;: produits manufactur&eacute;s et services"
                     >
@@ -165,7 +171,9 @@ const fr = () => {
                 &oelig;uvre de chaque convention qu&apos;il a ratifi&eacute;e.
                 Les normes fondamentales du travail de l&rsquo;OIT sont
                 pr&eacute;cis&eacute;es dans la D&eacute;claration relative aux{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/declaration/lang--en/index.htm"
                     title="Principes et droits fondamentaux au travail"
                 >
@@ -180,7 +188,9 @@ const fr = () => {
             </p>
             <p>
                 Vous trouverez ci-dessous l&apos;
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/global/standards/introduction-to-international-labour-standards/conventions-and-recommendations/lang--en/index.htm"
                     title="ensemble des conventions essentielles de l'OIT"
                 >
@@ -192,7 +202,9 @@ const fr = () => {
                 ayant trait aux droits du travail.
             </p>
             <p>
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C087"
                     title="Convention sur la libert&eacute; syndicale et la protection du droit syndical, 1948 (n<sup>o</sup>&nbsp;87)."
                 >
@@ -202,7 +214,9 @@ const fr = () => {
                 .
             </p>
             <p>
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C098:NO"
                     title="Convention sur le droit d'organisation et de n&eacute;gociation collective, 1949 (n<sup>o</sup>&nbsp;98)"
                 >
@@ -212,17 +226,21 @@ const fr = () => {
                 . Compl&eacute;t&eacute;e par la recommandation&nbsp;163.
             </p>
             <p>
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C029"
                     title="Convention sur l'abolition du travail forc&eacute;, 1930 (no&nbsp;29)"
                 >
                     Convention sur l&apos;abolition du travail forc&eacute;,
-                    1930 (n<sup>o</sup>&nbsp;29
+                    1930 (n<sup>o</sup>&nbsp;29)
                 </a>
-                ). Compl&eacute;t&eacute;e par la recommandation&nbsp;35.
+                . Compl&eacute;t&eacute;e par la recommandation&nbsp;35.
             </p>
             <p>
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029"
                     title="Protocole de&nbsp;2014 relatif &agrave; la convention sur le travail forc&eacute;, 1930."
                 >
@@ -232,7 +250,9 @@ const fr = () => {
                 . Compl&eacute;t&eacute; par la recommandation&nbsp;203.
             </p>
             <p>
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C105:NO"
                     title="Convention sur l'abolition du travail forc&eacute;, 1957 (n<sup>o</sup>&nbsp;105)"
                 >
@@ -242,7 +262,9 @@ const fr = () => {
                 .
             </p>
             <p>
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C138:NO"
                     title="Convention sur l&rsquo;&acirc;ge minimum, 1973 (n<sup>o</sup>&nbsp;138)"
                 >
@@ -253,7 +275,9 @@ const fr = () => {
                 notamment la recommandation&nbsp;146.
             </p>
             <p>
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C182:NO"
                     title="Convention sur les pires formes de travail des enfants, 1999 (n<sup>o</sup>&nbsp;182)"
                 >
@@ -263,7 +287,9 @@ const fr = () => {
                 . Compl&eacute;t&eacute;e par la recommandation&nbsp;190.
             </p>
             <p>
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C100:NO"
                     title="Convention sur l&rsquo;&eacute;galit&eacute; de r&eacute;mun&eacute;ration, 1951 (n<sup>o</sup>&nbsp;100)"
                 >
@@ -273,7 +299,9 @@ const fr = () => {
                 . Compl&eacute;t&eacute;e par la recommandation&nbsp;90.
             </p>
             <p>
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C111:NO"
                     title="Convention concernant la discrimination (emploi et profession), 1958 (n<sup>o</sup>&nbsp;111)."
                 >
@@ -284,7 +312,11 @@ const fr = () => {
             </p>
             <p>
                 La{" "}
-                <a target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/empent/Publications/WCMS_094386/lang--en/index.htm">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.ilo.org/empent/Publications/WCMS_094386/lang--en/index.htm"
+                >
                     D&eacute;claration de principes tripartite de l&rsquo;OIT
                     sur les entreprises multinationales et la politique sociale
                 </a>
@@ -306,7 +338,9 @@ const fr = () => {
             </p>
             <p>
                 Depuis 2010, l&apos;OIT propose un{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/empent/areas/business-helpdesk/lang--en/index.htm"
                     title="Service d'assistance (Helpdesk) de l&rsquo;OIT aux entreprises sur les normes internationales du travail"
                 >
