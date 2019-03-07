@@ -9,6 +9,7 @@ import BottomNavBar from "../Menu/BottomNavBar";
 import NavBar from "../Menu/NavBar";
 import { Navigator } from "../Navigation";
 import ScrollToTop from "./ScrollToTop";
+import Share from "../Share";
 class AppWrapper extends Component {
     constructor(props) {
         super(props);
@@ -69,8 +70,7 @@ class AppWrapper extends Component {
                 },
                 {
                     props: {
-                        as: NavLink,
-                        to: "/share",
+                        as: Share,
                         id: "share-link"
                     },
                     icon: Icons.Share,

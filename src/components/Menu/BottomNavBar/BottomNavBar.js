@@ -23,6 +23,7 @@ const NavItem = styled.div`
     flex: 1 1 auto;
     color: ${theme.colors.primaryDarkest};
     text-decoration: none;
+    cursor: pointer;
 
     &:not(:last-child) {
         margin-right: 12px;
