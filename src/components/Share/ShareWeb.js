@@ -6,8 +6,8 @@ import { getPageTitle } from "./ShareUtils";
 
 class ShareWeb extends Component {
     handleShare = () => {
-        const { location, match, localizor } = this.props;
-        let title = getPageTitle(location, match, localizor) || "Comply Chain";
+        const { location, localizor } = this.props;
+        let title = getPageTitle(location, localizor) || "Comply Chain";
 
         // TODO impl web share logic
         console.log(title);
