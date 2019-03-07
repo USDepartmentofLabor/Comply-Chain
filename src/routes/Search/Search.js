@@ -117,12 +117,12 @@ class Search extends Component {
             title: `${step.title} - Further Resources`,
             content:
                 step.furtherResources &&
-                getRawTextData(step.furtherResources()).join(""),
+                getRawTextData(step.furtherResources()).join(" "),
             to: `/steps/${i + 1}#resources`
         }));
         const learningObjectives = localizor.strings.steps.map((step, i) => ({
             title: `${step.title} - Learning Objectives`,
-            content: step.learningObjectives.join(""),
+            content: step.learningObjectives.join(" "),
             to: `/steps/${i + 1}#learning-objectives`
         }));
         const keyTerms = localizor.strings.steps.map((step, i) => ({
@@ -135,7 +135,7 @@ class Search extends Component {
                         return Object.values(keyTerm);
                     })
                 )
-                .join(""),
+                .join(" "),
             to: `/steps/${i + 1}#key-terms`
         }));
 
@@ -144,7 +144,7 @@ class Search extends Component {
                 title: topic.title,
                 keywords: topic.keywords,
                 content: getRawTextData(topic.content().props.children).join(
-                    ""
+                    " "
                 ),
                 to: `/steps/${stepIdx + 1}/topic/${topicIdx + 1}`
             }))
@@ -158,7 +158,9 @@ class Search extends Component {
             info.push({
                 title: item.title,
                 keywords: item.keywords,
-                content: getRawTextData(item.content().props.children).join(""),
+                content: getRawTextData(item.content().props.children).join(
+                    " "
+                ),
                 to: Routes[routeKey].path
             });
         }
