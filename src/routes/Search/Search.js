@@ -69,6 +69,9 @@ const SnippetLink = styled(Link)`
 class Search extends Component {
     state = { query: "", results: [], searching: false };
 
+    /**
+     * Handles the user input in the search field. Users a short timer to prevent searching on each keystroke.
+     */
     handleChange = e => {
         const value = e.target.value;
         this.setState({ query: value, searching: true });
@@ -76,10 +79,16 @@ class Search extends Component {
         this.timer = setTimeout(this.finish, WAIT_INTERVAL);
     };
 
+    /**
+     * Fires when search input timer expires.
+     */
     finish = () => {
         this.handleQuery();
     };
 
+    /**
+     * Handles the query input and kicks off the search.
+     */
     handleQuery = () => {
         const { query } = this.state;
         if (query.length > 2) {
@@ -89,10 +98,17 @@ class Search extends Component {
         }
     };
 
+    /**
+     * Search logic.
+     *
+     * @param query the query string to search by.
+     */
     search = query => {
         const data = this.setupData();
         const pattern = new RegExp(query, "i");
-        const filteredData = data.filter(val => this.filterData(val, pattern));
+        const filteredData = data.filter(val =>
+            this.filterData(val, pattern, ["to"])
+        );
 
         const results = filteredData.map(item => {
             const snippets = this.generateSnippets(item, pattern, query);
@@ -105,6 +121,9 @@ class Search extends Component {
         return results;
     };
 
+    /**
+     * Aggregates and sets up language data and static components to search in the entire app.
+     */
     setupData = () => {
         const { localizor } = this.props;
         const steps = localizor.strings.steps.map((step, i) => ({
@@ -114,19 +133,23 @@ class Search extends Component {
         }));
 
         const furtherResources = localizor.strings.steps.map((step, i) => ({
-            title: `${step.title} - Further Resources`,
+            title: `${step.title} - ${
+                localizor.strings.general.furtherResources
+            }`,
             content:
                 step.furtherResources &&
                 getRawTextData(step.furtherResources()).join(" "),
             to: `/steps/${i + 1}#resources`
         }));
         const learningObjectives = localizor.strings.steps.map((step, i) => ({
-            title: `${step.title} - Learning Objectives`,
+            title: `${step.title} - ${
+                localizor.strings.general.learningObjectives
+            }`,
             content: step.learningObjectives.join(" "),
             to: `/steps/${i + 1}#learning-objectives`
         }));
         const keyTerms = localizor.strings.steps.map((step, i) => ({
-            title: `${step.title} - Key Terms`,
+            title: `${step.title} - ${localizor.strings.general.keyTerms}`,
             // map through keyterms to create an array of arrays and then flatten those arrays into a single array
             content: [].concat
                 .apply(
@@ -173,14 +196,21 @@ class Search extends Component {
             .concat(info);
     };
 
-    filterData = (data, query) => {
+    /**
+     * Filter object or array of object by a string query.
+     *
+     * @param data the data to filter
+     * @param query the string to filter by
+     * @param excluded_keys any keys to exclude when searching object keys.
+     */
+    filterData = (data, query, excluded_keys = []) => {
         if (data === null || data === undefined) {
             return false;
         }
 
         if (data.constructor === Array) {
             return data.reduce(
-                (accum, item) => this.filterData(item, query),
+                (accum, item) => this.filterData(item, query, excluded_keys),
                 false
             );
         }
@@ -189,14 +219,23 @@ class Search extends Component {
         }
         if (typeof data === "object") {
             for (const key in data) {
-                if (this.filterData(data[key], query)) {
-                    return true;
+                if (!excluded_keys.includes(key)) {
+                    if (this.filterData(data[key], query, excluded_keys)) {
+                        return true;
+                    }
                 }
             }
         }
         return false;
     };
 
+    /**
+     * Searches an item with string content for a string query and generates a short string snippet of the content.
+     *
+     * @param item the item to search
+     * @param pattern the regex to use
+     * @param query the string query
+     */
     generateSnippets = (item, pattern, query) => {
         if (item.content) {
             const content = item.content;
@@ -220,6 +259,11 @@ class Search extends Component {
      * Shortens a string up to a maximum length
      * or up to the last index of the given separator
      * in order to not cut off a string in the middle of a word.
+     *
+     * @param str the string to search
+     * @param maxLen the maximum amount of characters to include from the index going backward and forward.
+     * @param idx the index to start at in @str. Defaults to 0.
+     * @param separator the character separator to stop at. Defaults to a single whitespace.
      */
     shorten = (str, maxLen, idx = 0, separator = " ") => {
         if (str.length <= maxLen) return str;
