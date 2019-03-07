@@ -243,6 +243,7 @@ class Search extends Component {
                 <SearchLabel>
                     <Icons.Search />
                     <SearchInput
+                        id="search-input"
                         placeholder={localizor.strings.general.search}
                         value={query}
                         onChange={this.handleChange}
