@@ -6,6 +6,42 @@ import { withLanguageContext } from "../Language";
 import { getPageTitle } from "./ShareUtils";
 
 class ShareNative extends Component {
+    displayActionSheet = () => {
+        const options = {
+            title: "What would you like to do?",
+            buttonLabels: ["Share to...", "Copy Link", "Create PDF"],
+            androidEnableCancelButton: true, // default false
+            winphoneEnableCancelButton: true, // default false
+            addCancelButtonWithLabel: "Cancel",
+            position: [20, 40] // for iPad pass in the [x, y] position of the popover
+        };
+        window.plugins.actionsheet.show(options, this.handleAction);
+    };
+
+    handleAction = buttonIdx => {
+        // buttonIdx is 1-based. First button is 1.
+        const { location } = this.props;
+
+        switch (buttonIdx) {
+            case 1:
+                this.handleShare();
+                break;
+            case 2:
+                window.cordova.plugins.clipboard.copy(
+                    `${webUrl}${location.pathname}`,
+                    this.onCopySuccess,
+                    this.onCopyError
+                );
+                break;
+            case 3:
+                this.generatePDF();
+                break;
+            default:
+                console.log("user cancelled");
+                break;
+        }
+    };
+
     handleShare = () => {
         const { location, localizor } = this.props;
         let title = getPageTitle(location, localizor) || "Comply Chain";
@@ -20,18 +56,35 @@ class ShareNative extends Component {
 
         window.plugins.socialsharing.shareWithOptions(
             options,
-            this.onSuccess,
-            this.onError
+            this.onShareSuccess,
+            this.onShareError
         );
     };
 
-    onSuccess = result => {
-        console.log("Share completed? " + result.completed); // On Android apps mostly return false even while it's true
-        console.log("Shared to app: " + result.app); // On Android result.app since plugin version 5.4.0 this is no longer empty. On iOS it's empty when sharing is cancelled (result.completed=false)
+    onShareSuccess = result => {};
+
+    onShareError = msg => {
+        console.log("Sharing failed with message: " + msg);
     };
 
-    onError = msg => {
-        console.log("Sharing failed with message: " + msg);
+    onCopySuccess = () => {
+        window.plugins.toast.showWithOptions({
+            message: "Copied to clipboard.",
+            duration: "short",
+            position: "bottom"
+        });
+    };
+
+    onCopyError = () => {
+        window.plugins.toast.showWithOptions({
+            message: "Unable to copy to clipboard.",
+            duration: "short",
+            position: "bottom"
+        });
+    };
+
+    generatePDF = () => {
+        console.log("generate PDF");
     };
 
     render() {
@@ -41,7 +94,7 @@ class ShareNative extends Component {
                 id={id}
                 className={className}
                 children={children}
-                onClick={this.handleShare}
+                onClick={this.displayActionSheet}
             />
         );
     }

@@ -45,6 +45,9 @@
     <icon height="114" platform="ios" src="res/icon/share/comply-chain-app-114.png" width="114" />
     <icon height="1024" platform="ios" src="res/icon/share/comply-chain-app-1024.png" width="1024" />
     <icon height="72" platform="android" src="res/icon/share/comply-chain-app-72.png" width="72" />
+    <plugin name="cordova-plugin-actionsheet" spec="^2.3.3" />
+    <plugin name="cordova-clipboard" spec="^1.2.1" />
+    <plugin name="cordova-plugin-x-toast" spec="^2.7.2" />
     <engine name="android" spec="^8.0.0" />
     <engine name="ios" spec="^5.0.0" />
 </widget>
