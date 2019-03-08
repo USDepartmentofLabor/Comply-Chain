@@ -3,17 +3,16 @@ import PropTypes from "prop-types";
 import { withRouter } from "react-router-dom";
 import { webUrl } from "../../modules/config/constants";
 import { withLanguageContext } from "../Language";
-import { getPageTitle } from "./ShareUtils";
+import { getPageTitle, getPageHtml } from "./ShareUtils";
 
 class ShareNative extends Component {
     displayActionSheet = () => {
         const options = {
             title: "What would you like to do?",
             buttonLabels: ["Share to...", "Copy Link", "Create PDF"],
-            androidEnableCancelButton: true, // default false
-            winphoneEnableCancelButton: true, // default false
-            addCancelButtonWithLabel: "Cancel",
-            position: [20, 40] // for iPad pass in the [x, y] position of the popover
+            androidEnableCancelButton: true,
+            winphoneEnableCancelButton: true,
+            addCancelButtonWithLabel: "Cancel"
         };
         window.plugins.actionsheet.show(options, this.handleAction);
     };
@@ -34,7 +33,7 @@ class ShareNative extends Component {
                 );
                 break;
             case 3:
-                this.generatePDF();
+                this.generatePDF(location);
                 break;
             default:
                 console.log("user cancelled");
@@ -46,12 +45,11 @@ class ShareNative extends Component {
         const { location, localizor } = this.props;
         let title = getPageTitle(location, localizor) || "Comply Chain";
 
-        console.log(title);
         const options = {
             message: title,
             subject: title,
             url: `${webUrl}${location.pathname}`,
-            chooserTitle: "Pick an app"
+            chooserTitle: "Share via"
         };
 
         window.plugins.socialsharing.shareWithOptions(
@@ -64,7 +62,11 @@ class ShareNative extends Component {
     onShareSuccess = result => {};
 
     onShareError = msg => {
-        console.log("Sharing failed with message: " + msg);
+        window.plugins.toast.showWithOptions({
+            message: "An error occurred when attempting to share.",
+            duration: "short",
+            position: "bottom"
+        });
     };
 
     onCopySuccess = () => {
@@ -83,8 +85,36 @@ class ShareNative extends Component {
         });
     };
 
-    generatePDF = () => {
-        console.log("generate PDF");
+    generatePDF = location => {
+        const data = getPageHtml(location);
+        console.log(data);
+        const options = {
+            documentSize: "A4",
+            type: "share",
+            fileName: "myFile.pdf"
+        };
+        window.cordova.plugins.pdf
+            .fromData(data, options)
+            .then(stats => console.log("status", stats)) // ok..., ok if it was able to handle the file to the OS.
+            .catch(err => console.err(err));
+        console.log("finished");
+    };
+
+    onPDFSuccess = () => {
+        window.plugins.toast.showWithOptions({
+            message: "PDF generated successfully.",
+            duration: "short",
+            position: "bottom"
+        });
+    };
+
+    onPDFError = e => {
+        console.log(e);
+        window.plugins.toast.showWithOptions({
+            message: "Unable to generate PDF.",
+            duration: "short",
+            position: "bottom"
+        });
     };
 
     render() {

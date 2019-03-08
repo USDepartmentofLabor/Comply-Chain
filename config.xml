@@ -48,6 +48,7 @@
     <plugin name="cordova-plugin-actionsheet" spec="^2.3.3" />
     <plugin name="cordova-clipboard" spec="^1.2.1" />
     <plugin name="cordova-plugin-x-toast" spec="^2.7.2" />
+    <plugin name="cordova-pdf-generator" spec="^2.0.8" />
     <engine name="android" spec="^8.0.0" />
     <engine name="ios" spec="^5.0.0" />
 </widget>
