@@ -4,14 +4,15 @@ import PropTypes from "prop-types";
 
 class WhyDevelop extends Component {
     render() {
-        const { localizor } = this.props;
+        const { localizor, pdf } = this.props;
         const WhyDevelopInfo = localizor.strings.info.whyDevelop.content;
-        return <WhyDevelopInfo />;
+        return <WhyDevelopInfo pdf={pdf} />;
     }
 }
 
 WhyDevelop.propTypes = {
-    localizor: PropTypes.object.isRequired
+    localizor: PropTypes.object.isRequired,
+    pdf: PropTypes.bool
 };
 
 export default withLanguageContext(WhyDevelop);

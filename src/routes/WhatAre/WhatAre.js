@@ -3,13 +3,14 @@ import { withLanguageContext } from "../../components/Language";
 import PropTypes from "prop-types";
 class WhatAre extends Component {
     render() {
-        const { localizor } = this.props;
+        const { localizor, pdf } = this.props;
         const WhatAreInfo = localizor.strings.info.whatAre.content;
-        return <WhatAreInfo />;
+        return <WhatAreInfo pdf={pdf} />;
     }
 }
 WhatAre.propTypes = {
-    localizor: PropTypes.object.isRequired
+    localizor: PropTypes.object.isRequired,
+    pdf: PropTypes.bool
 };
 
 export default withLanguageContext(WhatAre);
