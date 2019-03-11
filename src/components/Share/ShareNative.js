@@ -36,7 +36,11 @@ class ShareNative extends Component {
                 this.generatePDF(location);
                 break;
             default:
-                console.log("user cancelled");
+                window.plugins.toast.showWithOptions({
+                    message: "Action canceled.",
+                    duration: "short",
+                    position: "bottom"
+                });
                 break;
         }
     };
@@ -87,17 +91,15 @@ class ShareNative extends Component {
 
     generatePDF = location => {
         const data = getPageHtml(location);
-        console.log(data);
         const options = {
             documentSize: "A4",
             type: "share",
-            fileName: "myFile.pdf"
+            fileName: "complychain.pdf"
         };
         window.cordova.plugins.pdf
             .fromData(data, options)
-            .then(stats => console.log("status", stats)) // ok..., ok if it was able to handle the file to the OS.
+            .then(stats => console.log("status", stats))
             .catch(err => console.err(err));
-        console.log("finished");
     };
 
     onPDFSuccess = () => {
@@ -109,7 +111,6 @@ class ShareNative extends Component {
     };
 
     onPDFError = e => {
-        console.log(e);
         window.plugins.toast.showWithOptions({
             message: "Unable to generate PDF.",
             duration: "short",

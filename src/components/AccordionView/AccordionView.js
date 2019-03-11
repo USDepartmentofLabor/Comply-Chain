@@ -4,9 +4,9 @@ import Accordion from "../Accordion";
 
 class AccordionView extends Component {
     render() {
-        const { sections, id } = this.props;
+        const { sections, id, pdf } = this.props;
         return (
-            <Accordion id={id}>
+            <Accordion id={id} pdf={pdf}>
                 {sections.map((section, i) => {
                     return (
                         <Accordion.Section id={section.id} key={i}>
@@ -22,6 +22,7 @@ class AccordionView extends Component {
 
 AccordionView.propTypes = {
     id: PropTypes.string,
-    sections: PropTypes.arrayOf(PropTypes.object).isRequired
+    sections: PropTypes.arrayOf(PropTypes.object).isRequired,
+    pdf: PropTypes.bool
 };
 export default AccordionView;

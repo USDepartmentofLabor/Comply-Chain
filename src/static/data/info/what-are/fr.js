@@ -3,7 +3,7 @@ import Accordion from "../../../../components/Accordion";
 import childBrick from "../images/child_brick.jpg";
 import unoDc from "../images/UNO_DC_fr.png";
 
-const fr = () => {
+const fr = ({ pdf }) => {
     return (
         <div>
             <h1>
@@ -189,7 +189,8 @@ const fr = () => {
                             </li>
                         </ol>
                         <img
-                            id="img-browser" className="small-img"
+                            id="img-browser"
+                            className="small-img"
                             src={childBrick}
                             alt="Une fillette et ses briques"
                         />

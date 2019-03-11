@@ -12,6 +12,7 @@ class Accordion extends Component {
         this.title = [];
         this.panel = [];
     }
+
     componentDidMount() {
         const id = getHash();
         if (id) {
@@ -25,6 +26,7 @@ class Accordion extends Component {
             });
         }
     }
+
     toggleActive = sectionIndex => {
         this.title[sectionIndex].classList.toggle("active");
         if (this.panel[sectionIndex].style.maxHeight) {
@@ -49,7 +51,7 @@ class Accordion extends Component {
         });
     };
     renderWrappedChildren = (children, sectionIndex) => {
-        const { keepOpen } = this.props;
+        const { keepOpen, pdf } = this.props;
         return React.Children.map(children, (child, i) => {
             if (child.type.displayName === "Section") {
                 return React.cloneElement(child, {
@@ -62,6 +64,9 @@ class Accordion extends Component {
             }
 
             if (child.type.displayName === "Title") {
+                if (pdf) {
+                    return React.createElement(PdfTitle, child.props);
+                }
                 return React.cloneElement(child, {
                     ref: title => (this.title[sectionIndex] = title),
                     onClick: () => {
@@ -74,6 +79,9 @@ class Accordion extends Component {
             }
 
             if (child.type.displayName === "Panel") {
+                if (pdf) {
+                    return React.createElement(PdfPanel, child.props);
+                }
                 return React.cloneElement(child, {
                     ref: panel => (this.panel[sectionIndex] = panel)
                 });
@@ -92,6 +100,30 @@ class Accordion extends Component {
 }
 
 const Wrapper = styled.div``;
+
+const PdfTitle = styled.div`
+    background-color: #ccc;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+
+    &:hover {
+        background-color: #ccc;
+    }
+
+    &:after {
+        content: "\\2212";
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+`;
 
 Accordion.Title = styled.div`
     background-color: #eee;
@@ -125,6 +157,14 @@ Accordion.Title = styled.div`
 `;
 
 Accordion.Title.displayName = "Title";
+
+const PdfPanel = styled.div`
+    padding: 0 18px;
+    background-color: white;
+    max-height: 100%;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+`;
 
 Accordion.Panel = styled.div`
     padding: 0 18px;

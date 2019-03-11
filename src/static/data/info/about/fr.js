@@ -1,7 +1,7 @@
 import React from "react";
 import Accordion from "../../../../components/Accordion";
 
-const fr = () => {
+const fr = ({ pdf }) => {
     return (
         <div>
             <h1>

@@ -3,7 +3,7 @@ import cocoaSupplyChains from "../../images/cocoa_supply_chains.png";
 import genericImport from "../../images/generic_import.png";
 import Accordion from "../../../../../../components/Accordion";
 
-const en = () => {
+const en = ({ pdf }) => {
     return (
         <div>
             <h1>Supply Chain Mapping</h1>

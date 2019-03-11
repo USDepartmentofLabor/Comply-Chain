@@ -3,7 +3,7 @@ import Accordion from "../../../../components/Accordion";
 import childBrick from "../images/child_brick.jpg";
 import unoDc from "../images/UNO_DC_es.png";
 
-const es = () => {
+const es = ({ pdf }) => {
     return (
         <div>
             <h1>
@@ -167,7 +167,8 @@ const es = () => {
                             </li>
                         </ol>
                         <img
-                            id="img-browser" className="small-img"
+                            id="img-browser"
+                            className="small-img"
                             src={childBrick}
                             alt="Ni&ntilde;a con ladrillos"
                         />
@@ -618,7 +619,12 @@ const es = () => {
                             millones restantes realizaban distintos tipos de
                             trabajo forzoso impuestos por el Estado.
                             <sup>
-                                <a target="_blank" rel="noopener noreferrer" href="#_ftnref1" name="_ftn1">
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="#_ftnref1"
+                                    name="_ftn1"
+                                >
                                     [1]
                                 </a>{" "}
                                 OIT:&nbsp;

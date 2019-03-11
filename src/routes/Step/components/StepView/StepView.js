@@ -70,7 +70,7 @@ class StepView extends Component {
     };
 
     render() {
-        const { localizor } = this.props;
+        const { localizor, pdf } = this.props;
         const {
             nextStep,
             prevStep,
@@ -87,10 +87,13 @@ class StepView extends Component {
         if (training.content) {
             sections.push(training);
         }
-
         return (
             <div>
-                <AccordionView id="step-accordions" sections={sections} />
+                <AccordionView
+                    id="step-accordions"
+                    sections={sections}
+                    pdf={pdf}
+                />
                 {prevStep && (
                     <Button
                         id="prev-step"
@@ -119,7 +122,8 @@ class StepView extends Component {
 StepView.propTypes = {
     localizor: PropTypes.object.isRequired,
     history: PropTypes.object.isRequired,
-    step: PropTypes.number.isRequired
+    step: PropTypes.number.isRequired,
+    pdf: PropTypes.bool
 };
 
 export default withRouter(withLanguageContext(StepView));

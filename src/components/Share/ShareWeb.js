@@ -2,13 +2,14 @@ import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import { withLanguageContext } from "../Language";
-import { getPageTitle, getPageHtml } from "./ShareUtils";
+import { getPageHtml, getPageTitle } from "./ShareUtils";
 
 class ShareWeb extends Component {
     handleShare = () => {
         const { location, localizor } = this.props;
         let title = getPageTitle(location, localizor) || "Comply Chain";
 
+        //EventService.triggerEvent("pdf");
         console.log(getPageHtml(location));
 
         // TODO impl web share logic

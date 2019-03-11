@@ -6,6 +6,7 @@ import { __DO_NOT_USE_OR_YOU_WILL_BE_HAUNTED_BY_SPOOKY_GHOSTS as scSecrets } fro
 import Routes from "../../modules/config/routes";
 import { isBrowser } from "../../modules/utils/platform";
 import { LanguageProvider } from "../Language";
+import StyleSheetManager from "./StyleSheetManager";
 
 const { StyleSheet } = scSecrets;
 
@@ -55,14 +56,21 @@ export const getPageTitle = (location, localizor) => {
     return title;
 };
 
+const collectStyles = children => {
+    return (
+        <StyleSheetManager sheet={StyleSheet.master}>
+            {children}
+        </StyleSheetManager>
+    );
+};
+
 export const getPageHtml = location => {
     const mountComponent = component => {
         let Router = isBrowser() ? BrowserRouter : HashRouter;
-        return (
+
+        return collectStyles(
             <Router>
-                <LanguageProvider>
-                    {StyleSheet.master.toReactElements()} {component}
-                </LanguageProvider>
+                <LanguageProvider>{component}</LanguageProvider>
             </Router>
         );
     };
@@ -84,8 +92,11 @@ export const getPageHtml = location => {
             if (topic >= 0) {
                 Component = Routes.Topic.component;
             }
-            return renderToString(
-                mountComponent(<Component pdfSnapshot={true} match={match} />)
+            const html = renderToString(
+                mountComponent(<Component pdf={true} match={match} />)
+            );
+            return renderToString(StyleSheet.master.toReactElements()).concat(
+                html
             );
         }
     } else {
@@ -104,10 +115,12 @@ export const getPageHtml = location => {
                       .join("");
         const Component =
             (Routes[route] && Routes[route].component) || undefined;
-        return (
+
+        const html =
             Component &&
-            renderToString(mountComponent(<Component pdfSnapshot={true} />))
-        );
+            renderToString(mountComponent(<Component pdf={true} />));
+
+        return renderToString(StyleSheet.master.toReactElements()).concat(html);
     }
 
     return undefined;

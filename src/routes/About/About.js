@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 
 class About extends Component {
     render() {
-        const { localizor } = this.props;
+        const { localizor, pdf } = this.props;
         const AboutInfo = localizor.strings.info.about.content;
-        return <AboutInfo />;
+        return <AboutInfo pdf={pdf} />;
     }
 }
 

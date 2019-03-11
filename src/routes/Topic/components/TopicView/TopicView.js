@@ -35,12 +35,12 @@ class TopicView extends Component {
 
     render() {
         const { topicData, prevTopic, nextTopic, nextStep } = this.state;
-        const { step, localizor } = this.props;
+        const { step, localizor, pdf } = this.props;
         if (topicData) {
             const TopicData = topicData;
             return (
                 <div>
-                    <TopicData />
+                    <TopicData pdf={pdf} />
 
                     {prevTopic && (
                         <Button
@@ -83,7 +83,8 @@ class TopicView extends Component {
 TopicView.propTypes = {
     step: PropTypes.number.isRequired,
     topic: PropTypes.number.isRequired,
-    localizor: PropTypes.object.isRequired
+    localizor: PropTypes.object.isRequired,
+    pdf: PropTypes.bool
 };
 
 export default withRouter(withLanguageContext(TopicView));

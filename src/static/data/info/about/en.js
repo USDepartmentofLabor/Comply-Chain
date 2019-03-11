@@ -1,7 +1,7 @@
 import React from "react";
 import Accordion from "../../../../components/Accordion";
 
-const en = () => {
+const en = ({ pdf }) => {
     return (
         <div>
             <h1>About the Comply Chain App</h1>
@@ -42,7 +42,7 @@ const en = () => {
                 labor, and human trafficking.&nbsp;
             </p>
             <p />
-            <Accordion>
+            <Accordion pdf={pdf}>
                 <Accordion.Section>
                     <Accordion.Title>
                         <strong>

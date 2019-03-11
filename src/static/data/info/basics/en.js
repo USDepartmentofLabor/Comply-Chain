@@ -4,7 +4,7 @@ import ExampleInAction from "../../../../components/ExampleInAction";
 import OwnWords from "../../../../components/OwnWords";
 import { Link } from "react-router-dom";
 
-const en = () => {
+const en = ({ pdf }) => {
     return (
         <div>
             <h1>

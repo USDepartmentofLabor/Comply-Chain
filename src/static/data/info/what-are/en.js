@@ -3,7 +3,7 @@ import Accordion from "../../../../components/Accordion";
 import childBrick from "../images/child_brick.jpg";
 import unoDc from "../images/UNO_DC.png";
 
-const en = () => {
+const en = ({ pdf }) => {
     return (
         <div>
             <h1>
@@ -143,7 +143,8 @@ const en = () => {
                             </li>
                         </ol>
                         <img
-                            id="img-browser" className="small-img"
+                            id="img-browser"
+                            className="small-img"
                             src={childBrick}
                             alt="Girl with bricks"
                         />
@@ -517,7 +518,12 @@ const en = () => {
                             manufacturing. The remaining 4 million are in
                             state-imposed forms of forced labor.
                             <sup>
-                                <a target="_blank" rel="noopener noreferrer" href="#_ftnref1" name="_ftn1">
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="#_ftnref1"
+                                    name="_ftn1"
+                                >
                                     [1]
                                 </a>{" "}
                                 ILO:&nbsp;{" "}

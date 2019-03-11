@@ -1,7 +1,7 @@
 import React from "react";
 import Accordion from "../../../../components/Accordion";
 
-const es = () => {
+const es = ({ pdf }) => {
     return (
         <div>
             <h1>Acerca de la aplicaci&oacute;n de la cadena de cumplimiento</h1>
