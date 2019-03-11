@@ -33,7 +33,7 @@ class ShareWeb extends Component {
                     <Dropdown.Title>{children}</Dropdown.Title>
                     <Dropdown.Content>
                         <Dropdown.Item>
-                            <PocketButton lang="en" />
+                            <PocketButton lang="en" count="horizontal" />
                         </Dropdown.Item>
                         <Dropdown.Item onClick={this.handleEmail}>
                             Email

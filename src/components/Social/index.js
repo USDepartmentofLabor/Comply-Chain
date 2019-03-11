@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Helmet } from "react-helmet";
 
-export const PocketButton = ({ lang }) => (
+export const PocketButton = ({ lang, count }) => (
     <div>
         <Helmet>
             <script
@@ -13,7 +13,7 @@ export const PocketButton = ({ lang }) => (
         {/* eslint-disable-next-line  */}
         <a
             data-pocket-label="pocket"
-            data-pocket-count="none"
+            data-pocket-count={count}
             className="pocket-btn"
             data-lang={lang}
         />
@@ -21,5 +21,6 @@ export const PocketButton = ({ lang }) => (
 );
 
 PocketButton.propTypes = {
-    lang: PropTypes.string.isRequired
+    lang: PropTypes.string.isRequired,
+    count: PropTypes.oneOf(["none", "horizontal", "vertical"]).isRequired
 };
