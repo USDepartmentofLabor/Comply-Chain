@@ -23,27 +23,25 @@ class ShareWeb extends Component {
     render() {
         const { id, className, children } = this.props;
         return (
-            <div>
-                <Dropdown
-                    up
-                    id={id}
-                    className={className}
-                    onClick={this.handleShare}
-                >
-                    <Dropdown.Title>{children}</Dropdown.Title>
-                    <Dropdown.Content>
-                        <Dropdown.Item>
-                            <PocketButton lang="en" count="horizontal" />
-                        </Dropdown.Item>
-                        <Dropdown.Item onClick={this.handleEmail}>
-                            Email
-                        </Dropdown.Item>
-                        <Dropdown.Item onClick={this.handleCopy}>
-                            Copy Link
-                        </Dropdown.Item>
-                    </Dropdown.Content>
-                </Dropdown>
-            </div>
+            <Dropdown
+                up
+                id={id}
+                className={className}
+                onClick={this.handleShare}
+            >
+                <Dropdown.Title>{children}</Dropdown.Title>
+                <Dropdown.Content>
+                    <Dropdown.Item>
+                        <PocketButton lang="en" count="horizontal" />
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={this.handleEmail}>
+                        Email
+                    </Dropdown.Item>
+                    <Dropdown.Item onClick={this.handleCopy}>
+                        Copy Link
+                    </Dropdown.Item>
+                </Dropdown.Content>
+            </Dropdown>
         );
     }
 }
