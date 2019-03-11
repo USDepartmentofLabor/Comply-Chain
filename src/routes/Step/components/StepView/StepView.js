@@ -59,7 +59,8 @@ class StepView extends Component {
                     }
                 },
                 nextStep: nextStep && `/steps/${nextStep}`,
-                prevStep: prevStep && `/steps/${prevStep}`
+                prevStep: prevStep && `/steps/${prevStep}`,
+                title: stepData.title
             };
         }
     }
@@ -75,7 +76,8 @@ class StepView extends Component {
             nextStep,
             prevStep,
             data,
-            data: { learningObjectives, keyTerms, topics, resources, training }
+            data: { learningObjectives, keyTerms, topics, resources, training },
+            title
         } = this.state;
         if (!data) {
             return <div>Step not found!</div>;
@@ -89,6 +91,7 @@ class StepView extends Component {
         }
         return (
             <div>
+                <h3>{title}</h3>
                 <AccordionView
                     id="step-accordions"
                     sections={sections}
