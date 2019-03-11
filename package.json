@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "copy-to-clipboard": "^3.0.8",
         "cordova-android": "^8.0.0",
         "cordova-clipboard": "^1.2.1",
         "cordova-ios": "^5.0.0",
