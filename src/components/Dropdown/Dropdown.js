@@ -10,11 +10,40 @@ const Wrapper = styled.div`
 class Dropdown extends Component {
     state = { active: false };
 
+    componentWillMount() {
+        if (window.PointerEvent) {
+            document.addEventListener("pointerdown", this.handleClick, false);
+        } else {
+            document.addEventListener("mousedown", this.handleClick, false);
+        }
+    }
+
+    componentWillUnmount() {
+        if (window.PointerEvent) {
+            document.removeEventListener(
+                "pointerdown",
+                this.handleClick,
+                false
+            );
+        } else {
+            document.removeEventListener("mousedown", this.handleClick, false);
+        }
+    }
+
+    handleClick = e => {
+        if (this.node.contains(e.target)) {
+            return;
+        }
+
+        this.setState({ active: false });
+    };
+
     toggleActive = () => {
         this.setState({ active: !this.state.active });
     };
 
     generatePropsForChild = child => {
+        const { up } = this.props;
         const { active } = this.state;
         if (child.type.displayName === "Title") {
             return React.cloneElement(child, {
@@ -27,18 +56,23 @@ class Dropdown extends Component {
                 return null;
             }
             return React.cloneElement(child, {
-                onClick: this.toggleActive
+                onClick: this.toggleActive,
+                up
             });
         }
 
         return child;
     };
     render() {
-        const { children, id } = this.props;
+        const { children, id, className } = this.props;
         return (
-            <Wrapper id={id}>
+            <Wrapper
+                id={id}
+                className={className}
+                ref={div => (this.node = div)}
+            >
                 {React.Children.map(children, (child, i) => {
-                    if (child.type === "div") {
+                    if (child.type.displayName === "div") {
                         return React.Children.map(
                             child.props.children,
                             gchild => {
@@ -58,7 +92,6 @@ Dropdown.Title = styled.div`
     font-size: 16px;
     border: none;
     outline: none;
-    padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -73,6 +106,7 @@ Dropdown.Content = styled.div`
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    bottom: ${props => (props.up ? "100%" : null)};
 `;
 
 Dropdown.Content.displayName = "Content";
@@ -94,7 +128,9 @@ Dropdown.Item.displayName = "Item";
 
 Dropdown.propTypes = {
     id: PropTypes.string,
-    children: PropTypes.node.isRequired
+    className: PropTypes.string,
+    children: PropTypes.node.isRequired,
+    up: PropTypes.bool
 };
 
 export default Dropdown;
