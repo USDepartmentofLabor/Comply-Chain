@@ -1,10 +1,11 @@
+import copy from "copy-to-clipboard";
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import Dropdown from "../Dropdown";
 import { withLanguageContext } from "../Language";
+import { PocketButton } from "../Social";
 import { getPageTitle } from "./ShareUtils";
-import copy from "copy-to-clipboard";
 
 class ShareWeb extends Component {
     handleShare = () => {};
@@ -22,22 +23,27 @@ class ShareWeb extends Component {
     render() {
         const { id, className, children } = this.props;
         return (
-            <Dropdown
-                up
-                id={id}
-                className={className}
-                onClick={this.handleShare}
-            >
-                <Dropdown.Title>{children}</Dropdown.Title>
-                <Dropdown.Content>
-                    <Dropdown.Item onClick={this.handleEmail}>
-                        Email
-                    </Dropdown.Item>
-                    <Dropdown.Item onClick={this.handleCopy}>
-                        Copy Link
-                    </Dropdown.Item>
-                </Dropdown.Content>
-            </Dropdown>
+            <div>
+                <Dropdown
+                    up
+                    id={id}
+                    className={className}
+                    onClick={this.handleShare}
+                >
+                    <Dropdown.Title>{children}</Dropdown.Title>
+                    <Dropdown.Content>
+                        <Dropdown.Item>
+                            <PocketButton lang="en" />
+                        </Dropdown.Item>
+                        <Dropdown.Item onClick={this.handleEmail}>
+                            Email
+                        </Dropdown.Item>
+                        <Dropdown.Item onClick={this.handleCopy}>
+                            Copy Link
+                        </Dropdown.Item>
+                    </Dropdown.Content>
+                </Dropdown>
+            </div>
         );
     }
 }
