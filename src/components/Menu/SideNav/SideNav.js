@@ -6,7 +6,7 @@ import { isBrowser } from "../../../modules/utils/platform";
 
 class SideNav extends Component {
     state = {
-        width: (isBrowser() && "270px") || "100%",
+        width: (isBrowser() && "280px") || "100%",
         visible: this.props.visible || false
     };
     componentDidUpdate(prevProps) {

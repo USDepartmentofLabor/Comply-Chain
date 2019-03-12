@@ -65,6 +65,20 @@ const StepsMenuItem = styled(SideNav.Item)`
     }
 `;
 
+const StepWrapper = styled.div`
+    display: flex;
+    align-items: center;
+
+    svg {
+        font-size: 25px;
+    }
+`;
+
+const StepIcon = styled.span``;
+const StepText = styled.span`
+    padding-left: 15px;
+`;
+
 class NavBar extends Component {
     constructor(props) {
         super(props);
@@ -152,8 +166,16 @@ class NavBar extends Component {
                                             id={`step-${i + 1}-link`}
                                             onClick={this.handleSideNavClose}
                                         >
-                                            <Icons.StepIcon step={i + 1} />
-                                            {step.title}
+                                            <StepWrapper>
+                                                <StepIcon>
+                                                    <Icons.StepIcon
+                                                        step={i + 1}
+                                                    />
+                                                </StepIcon>
+                                                <StepText>
+                                                    {step.title}
+                                                </StepText>
+                                            </StepWrapper>
                                         </SideNav.IdentedItem>
                                     );
                                 })}

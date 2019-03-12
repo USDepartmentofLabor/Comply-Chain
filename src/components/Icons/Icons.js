@@ -10,6 +10,7 @@ import {
     IoMdShareAlt
 } from "react-icons/io";
 import { MdChevronRight, MdFeedback, MdLightbulbOutline } from "react-icons/md";
+import { StepIcon } from "./StepIcons";
 
 class Icons extends Component {}
 
@@ -24,5 +25,7 @@ Icons.Search = IoMdSearch;
 Icons.Share = IoMdShareAlt;
 Icons.ArrowCircleRight = IoIosArrowDropright;
 Icons.ArrowCircleDown = IoIosArrowDropdown;
+
+Icons.StepIcon = StepIcon;
 
 export default Icons;
