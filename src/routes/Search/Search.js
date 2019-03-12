@@ -54,6 +54,7 @@ const ResultTitle = styled(Link)`
 `;
 
 const Snippet = styled(Highlighter)`
+    overflow-wrap: break-word;
     & mark {
         color: ${theme.colors.primary};
         font-weight: bold;
