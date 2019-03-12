@@ -16,10 +16,10 @@ const SearchLabel = styled.label`
     & svg {
         content: "";
         position: absolute;
-        bottom: -25px;
-        height: 100%;
+        bottom: -26px;
+        height: 20px;
         font-size: 2em;
-        z-index: 1;
+        z-index: 5;
     }
 `;
 
@@ -299,6 +299,7 @@ class Search extends Component {
                     <Icons.Search />
                     <SearchInput
                         id="search-input"
+                        type="search"
                         placeholder={localizor.strings.general.search}
                         value={query}
                         onChange={this.handleChange}
