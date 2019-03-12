@@ -1,6 +1,6 @@
 export const General = {
     en: {
-        home: "Home",
+        home: "Homepage",
         menu: "Menu",
         appFullTitle: "Do Good",
         info: "Info",
