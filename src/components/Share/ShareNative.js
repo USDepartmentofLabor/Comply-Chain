@@ -98,8 +98,8 @@ class ShareNative extends Component {
         };
         window.cordova.plugins.pdf
             .fromData(data, options)
-            .then(stats => console.log("status", stats))
-            .catch(err => console.err(err));
+            .then(this.onPDFSuccess)
+            .catch(this.onPDFError);
     };
 
     onPDFSuccess = () => {
