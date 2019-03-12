@@ -8,6 +8,7 @@ import KeyTermList from "../KeyTermList";
 import LearningObjectiveList from "../LearningObjectiveList";
 import TopicsList from "../TopicList";
 import { withRouter } from "react-router-dom";
+import { markStepComplete } from "../../../../modules/storage";
 
 class StepView extends Component {
     constructor(props) {
@@ -62,6 +63,7 @@ class StepView extends Component {
                 prevStep: prevStep && `/steps/${prevStep}`,
                 title: stepData.title
             };
+            markStepComplete(step);
         }
     }
 
