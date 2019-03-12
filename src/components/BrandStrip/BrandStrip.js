@@ -13,7 +13,7 @@ const Band = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 5;
+    z-index: 100;
 `;
 
 const BrandText = styled.span`

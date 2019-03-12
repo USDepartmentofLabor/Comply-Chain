@@ -47,7 +47,7 @@ const RootSideNav = styled.div`
         return 0;
     }};
     position: fixed;
-    z-index: 100;
+    z-index: 500;
     top: auto;
     left: 0;
     background-color: ${theme.colors.primary};

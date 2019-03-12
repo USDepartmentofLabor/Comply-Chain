@@ -16,7 +16,7 @@ const NavbarRoot = styled.div`
     background-color: #fff;
     border-bottom: 1px solid #f1f1f1;
     width: 100%;
-    z-index: 10;
+    z-index: 100;
 `;
 
 const NavbarWrapper = styled.div`
@@ -152,6 +152,7 @@ class NavBar extends Component {
                                             id={`step-${i + 1}-link`}
                                             onClick={this.handleSideNavClose}
                                         >
+                                            <Icons.StepIcon step={i + 1} />
                                             {step.title}
                                         </SideNav.IdentedItem>
                                     );
