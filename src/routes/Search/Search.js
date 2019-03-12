@@ -162,16 +162,18 @@ class Search extends Component {
             to: `/steps/${i + 1}#key-terms`
         }));
 
-        const topics = localizor.strings.steps.map((step, stepIdx) =>
-            step.topics.map((topic, topicIdx) => ({
-                title: topic.title,
-                keywords: topic.keywords,
-                content: getRawTextData(topic.content().props.children).join(
-                    " "
-                ),
-                to: `/steps/${stepIdx + 1}/topic/${topicIdx + 1}`
-            }))
-        );
+        const topics = localizor.strings.steps.map((step, stepIdx) => {
+            return step.topics.map((topic, topicIdx) => {
+                return {
+                    title: topic.title,
+                    keywords: topic.keywords,
+                    content: getRawTextData(
+                        topic.content({ pdf: false }).props.children
+                    ).join(" "),
+                    to: `/steps/${stepIdx + 1}/topic/${topicIdx + 1}`
+                };
+            });
+        });
 
         let info = [];
         for (const key in localizor.strings.info) {
@@ -181,9 +183,9 @@ class Search extends Component {
             info.push({
                 title: item.title,
                 keywords: item.keywords,
-                content: getRawTextData(item.content().props.children).join(
-                    " "
-                ),
+                content: getRawTextData(
+                    item.content({ pdf: false }).props.children
+                ).join(" "),
                 to: Routes[routeKey].path
             });
         }
