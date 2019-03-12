@@ -80,11 +80,20 @@ class Search extends Component {
         this.timer = setTimeout(this.finish, WAIT_INTERVAL);
     };
 
+    handleSubmit = e => {
+        e.preventDefault();
+        clearTimeout(this.timer);
+        this.finish();
+    };
+
     /**
      * Fires when search input timer expires.
      */
     finish = () => {
         this.handleQuery();
+        if (this.state.query !== "") {
+            this.searchInput.blur();
+        }
     };
 
     /**
@@ -295,17 +304,20 @@ class Search extends Component {
                         <span className="query">{query}</span>"
                     </SearchResultsHeader>
                 )}
-                <SearchLabel>
-                    <HiddenText508>Search</HiddenText508>
-                    <Icons.Search role="img" aria-label="Search" />
-                    <SearchInput
-                        id="search-input"
-                        type="search"
-                        placeholder={localizor.strings.general.search}
-                        value={query}
-                        onChange={this.handleChange}
-                    />
-                </SearchLabel>
+                <form onSubmit={this.handleSubmit}>
+                    <SearchLabel>
+                        <HiddenText508>Search</HiddenText508>
+                        <Icons.Search role="img" aria-label="Search" />
+                        <SearchInput
+                            id="search-input"
+                            type="search"
+                            ref={input => (this.searchInput = input)}
+                            placeholder={localizor.strings.general.search}
+                            value={query}
+                            onChange={this.handleChange}
+                        />
+                    </SearchLabel>
+                </form>
                 {results.map((result, i) => {
                     return (
                         <SearchResult key={`search_results_${i}`}>
