@@ -32,7 +32,7 @@ class BrandStrip extends Component {
         return (
             <Band id="brand-band">
                 <BrandText id="brand-name">ILAB</BrandText>
-                <BrandLogo id="brand-logo" src={logo} alt="Logo" />
+                <BrandLogo id="brand-logo" src={logo} alt="Brand Strip Logo" />
             </Band>
         );
     }

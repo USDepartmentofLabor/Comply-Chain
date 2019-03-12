@@ -296,7 +296,8 @@ class Search extends Component {
                     </SearchResultsHeader>
                 )}
                 <SearchLabel>
-                    <Icons.Search />
+                    <HiddenText508>Search</HiddenText508>
+                    <Icons.Search role="img" aria-label="Search" />
                     <SearchInput
                         id="search-input"
                         type="search"
@@ -334,5 +335,9 @@ class Search extends Component {
         );
     }
 }
+
+const HiddenText508 = styled.span`
+    display: none;
+`;
 
 export default withLanguageContext(Search);
