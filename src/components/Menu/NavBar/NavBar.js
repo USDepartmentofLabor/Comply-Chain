@@ -3,12 +3,12 @@ import React, { Component } from "react";
 import { NavLink, withRouter } from "react-router-dom";
 import styled from "styled-components";
 import { isBrowser } from "../../../modules/utils/platform";
+import Button from "../../Button";
 import Icons from "../../Icons";
 import { withLanguageContext } from "../../Language";
+import Breadcrumbs from "../Breadcrumbs";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import SideNav from "../SideNav";
-import Button from "../../Button";
-import Breadcrumbs from "../Breadcrumbs";
 
 const NavbarRoot = styled.div`
     position: fixed;

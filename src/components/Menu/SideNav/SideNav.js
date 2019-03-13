@@ -72,9 +72,8 @@ const FlexContainer = styled.div`
 SideNav.Item = styled.div`
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 1em;
-    font-weight: bold;
     color: ${theme.colors.white};
+    font-weight: bold;
     display: block;
     transition: 0.3s;
     border-bottom: 2px solid ${theme.colors.primaryDarker};

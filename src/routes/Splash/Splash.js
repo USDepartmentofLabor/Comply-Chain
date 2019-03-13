@@ -36,15 +36,17 @@ const BrandLogoWrapper = styled.div`
 `;
 
 const Brand = styled.span`
-    font-size: 6em;
     font-weight: bold;
+    font-size: 6em;
+    font-family: "${theme.fonts.body}";
 `;
 
 const SubText = styled.span`
     color: ${theme.colors.white};
-    font-size: 1.25em;
     text-align: center;
     font-weight: bold;
+    font-family: ${theme.fonts.headings};
+    font-size: 15px;
 `;
 
 const LogoWrapper = styled.div`

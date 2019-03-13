@@ -28,5 +28,10 @@ export const theme = {
         greenLightest: "#e7f4e4",
         focus: "#3e94cf",
         visited: "#4c2c92"
+    },
+    fonts: {
+        headings: "Merriweather",
+        leadParagraph: "Merriweather",
+        body: "Source Sans Pro"
     }
 };

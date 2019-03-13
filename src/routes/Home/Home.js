@@ -18,12 +18,12 @@ class Home extends Component {
                         id="home_whydeveloper"
                         to={Routes.WhyDevelop.path}
                     >
-                        {localizor.strings.info.whyDevelop.title}
+                        <h3>{localizor.strings.info.whyDevelop.title}</h3>
                     </ItemContent>
                 </Item>
                 <Item>
                     <ItemContent id="home_basics" to={Routes.Basics.path}>
-                        {localizor.strings.info.basics.title}
+                        <h3>{localizor.strings.info.basics.title}</h3>
                     </ItemContent>
                 </Item>
 
@@ -40,7 +40,7 @@ class Home extends Component {
                                     </Icon>
                                     <PaddedContent>
                                         <ItemContent to={`/steps/${i + 1}`}>
-                                            {step.title}
+                                            <h3>{step.title}</h3>
                                         </ItemContent>
                                     </PaddedContent>
                                 </FlexContent>
@@ -83,15 +83,13 @@ const CheckIcon = styled(Icons.BookmarkCheck)`
 
 const ItemContent = styled(Link)`
     color: ${theme.colors.primaryDarker};
-    font-size: 1.25em;
-    font-weight: bold;
     text-decoration: none;
 `;
 
 const Item = styled.div`
     border: 1px solid ${theme.colors.grayLight};
     margin-top: 1em;
-    padding: 20px 20px;
+    padding: 5px 20px;
 `;
 
 Home.propTypes = {

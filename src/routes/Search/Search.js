@@ -41,13 +41,11 @@ const SearchResultsHeader = styled.h4`
 const SearchResult = styled.div`
     border: 1px solid ${theme.colors.grayLight};
     margin-top: 1em;
-    padding: 20px 20px;
+    padding: 0 20px 20px;
 `;
 
 const ResultTitle = styled(Link)`
     color: ${theme.colors.primary};
-    font-size: 1.5em;
-    font-weight: bold;
     text-decoration: none;
 `;
 
@@ -318,7 +316,7 @@ class Search extends Component {
                         <SearchResult key={`search_results_${i}`}>
                             {result.to && (
                                 <ResultTitle to={result.to} target="_blank">
-                                    {result.title}
+                                    <h3>{result.title}</h3>
                                 </ResultTitle>
                             )}
                             <p>
