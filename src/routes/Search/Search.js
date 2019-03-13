@@ -8,8 +8,6 @@ import { theme } from "../../modules/config/theme";
 import { getRawTextData } from "../../modules/utils";
 import Highlighter from "react-highlight-words";
 
-const WAIT_INTERVAL = 1000;
-
 const SearchLabel = styled.label`
     position: relative;
     color: ${theme.colors.primaryAltDarkest};
@@ -76,13 +74,10 @@ class Search extends Component {
     handleChange = e => {
         const value = e.target.value;
         this.setState({ query: value, searching: true });
-        clearTimeout(this.timer);
-        this.timer = setTimeout(this.finish, WAIT_INTERVAL);
     };
 
     handleSubmit = e => {
         e.preventDefault();
-        clearTimeout(this.timer);
         this.finish();
     };
 
