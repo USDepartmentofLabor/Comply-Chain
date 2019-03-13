@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import React, { Component } from "react";
 import styled from "styled-components";
 import { getHash } from "../../modules/utils";
+import { theme } from "../../modules/config/theme";
 
 class Accordion extends Component {
     state = { active: false };
@@ -101,39 +102,15 @@ class Accordion extends Component {
 
 const Wrapper = styled.div``;
 
-const PdfTitle = styled.div`
-    background-color: #ccc;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-
-    &:hover {
-        background-color: #ccc;
-    }
-
-    &:after {
-        content: "\\2212";
-        color: #777;
-        font-weight: bold;
-        float: right;
-        margin-left: 5px;
-    }
-`;
-
 Accordion.Title = styled.div`
-    background-color: #eee;
-    color: #444;
+    background-color: ${theme.colors.offWhite};
+    color: ${theme.colors.base};
     cursor: pointer;
-    padding: 18px;
+    font-weight: bold;
+    padding: 1rem 2rem;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
     transition: 0.4s;
 
     &:hover {
@@ -142,14 +119,11 @@ Accordion.Title = styled.div`
 
     &:after {
         content: "\\002B";
-        color: #777;
-        font-weight: bold;
+        color: ${theme.colors.base};
         float: right;
         margin-left: 5px;
     }
     &.active {
-        background-color: #ccc;
-
         &:after {
             content: "\\2212";
         }
@@ -158,17 +132,12 @@ Accordion.Title = styled.div`
 
 Accordion.Title.displayName = "Title";
 
-const PdfPanel = styled.div`
-    padding: 0 18px;
-    background-color: white;
-    max-height: 100%;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-`;
-
 Accordion.Panel = styled.div`
     padding: 0 18px;
     background-color: white;
+    border-bottom: 3px solid ${theme.colors.offWhite};
+    border-left: 3px solid ${theme.colors.offWhite};
+    border-right: 3px solid ${theme.colors.offWhite};
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -176,9 +145,20 @@ Accordion.Panel = styled.div`
 
 Accordion.Panel.displayName = "Panel";
 
-Accordion.Section = styled.div``;
+Accordion.Section = styled.div`
+    margin-top: 1rem;
+`;
 
 Accordion.Section.displayName = "Section";
+
+const PdfTitle = styled(Accordion.Title)`
+    &:after {
+        content: "\\2212";
+    }
+`;
+const PdfPanel = styled(Accordion.Panel)`
+    max-height: 100%;
+`;
 
 Accordion.Section.propTypes = {
     id: PropTypes.string
