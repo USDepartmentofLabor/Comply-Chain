@@ -11,7 +11,8 @@ class About extends Component {
 }
 
 About.propTypes = {
-    localizor: PropTypes.object.isRequired
+    localizor: PropTypes.object.isRequired,
+    pdf: PropTypes.bool
 };
 
 export default withLanguageContext(About);
