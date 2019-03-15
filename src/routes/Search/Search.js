@@ -293,7 +293,8 @@ class Search extends Component {
             <div>
                 {query && !searching && (
                     <SearchResultsHeader>
-                        {results.length} search results for "
+                        {results.length}{" "}
+                        {localizor.strings.general.searchResultsFor} "
                         <span className="query">{query}</span>"
                     </SearchResultsHeader>
                 )}
@@ -331,7 +332,7 @@ class Search extends Component {
                                 />
                             </p>
                             <SnippetLink to={result.to} target="_blank">
-                                Continue reading.
+                                {localizor.strings.general.continueReading}.
                             </SnippetLink>
                         </SearchResult>
                     );

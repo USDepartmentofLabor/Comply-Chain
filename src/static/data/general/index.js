@@ -24,10 +24,15 @@ export const General = {
         search: "Search",
         ilab: "ILAB - The Bureau of International Labor Affairs",
         usdol: "United States Department of Labor",
-        close: "Close"
+        close: "Close",
+        searchResultsFor: "search results for",
+        bookmarks: "Bookmarks",
+        share: "Share",
+        about: "About",
+        continueReading: "Continue reading"
     },
     es: {
-        home: "Inicio",
+        home: "Página principal",
         menu: "Menú",
         appFullTitle: "Do Good",
         info: "Info",
@@ -51,10 +56,15 @@ export const General = {
         search: "Buscar",
         ilab: "Dirección de Asuntos Internacionales de Trabajo",
         usdol: "Departamento de Trabajo de los Estados Unidos",
-        close: "Cerrar"
+        close: "Cerrar",
+        searchResultsFor: "resultados de la búsqueda",
+        bookmarks: "Marcadores",
+        share: "Compartir",
+        about: "Sobre",
+        continueReading: "Seguir leyendo"
     },
     fr: {
-        home: "Accueil",
+        home: "Page d'accueil",
         menu: "Menu",
         appFullTitle: "Do Good",
         info: "Info",
@@ -78,6 +88,11 @@ export const General = {
         search: "Rechercher",
         ilab: "Bureau des Affaires Internationales du Travail",
         usdol: "Département du travail des États-Unis",
-        close: "Fermer"
+        close: "Fermer",
+        searchResultsFor: "résultats de recherche pour",
+        bookmarks: "Signet",
+        share: "Partager",
+        about: "Sur",
+        continueReading: "Continuer à lire"
     }
 };

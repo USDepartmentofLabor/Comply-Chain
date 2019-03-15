@@ -57,7 +57,7 @@ class AppWrapper extends Component {
                         id: "bookmarks-link"
                     },
                     icon: Icons.Bookmarks,
-                    label: "Bookmarks"
+                    label: localizor.strings.general.bookmarks
                 },
                 {
                     props: {
@@ -74,7 +74,7 @@ class AppWrapper extends Component {
                         id: "share-link"
                     },
                     icon: Icons.Share,
-                    label: "Share"
+                    label: localizor.strings.general.share
                 },
                 {
                     props: {
@@ -83,7 +83,7 @@ class AppWrapper extends Component {
                         id: "about-link"
                     },
                     icon: Icons.HelpCircle,
-                    label: "About"
+                    label: localizor.strings.general.about
                 }
             ]
         };
