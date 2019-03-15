@@ -30,7 +30,7 @@ const NavItem = styled.div`
     }
 
     &.active {
-        color: ${theme.colors.primary};
+        color: ${theme.colors.primaryDarker};
     }
 `;
 
