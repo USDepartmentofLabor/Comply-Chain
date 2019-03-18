@@ -9,7 +9,13 @@ import FurtherResources from "../FurtherResources/FurtherResources";
 import KeyTermList from "../KeyTermList";
 import LearningObjectiveList from "../LearningObjectiveList";
 import TopicsList from "../TopicList";
+import styled from "styled-components";
 
+const StepNavButtonGroup = styled.div`
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+`;
 class StepView extends Component {
     constructor(props) {
         super(props);
@@ -102,26 +108,28 @@ class StepView extends Component {
                     sections={sections}
                     pdf={pdf}
                 />
-                {prevStep && (
-                    <Button
-                        id="prev-step"
-                        variant="primaryDarkest"
-                        onClick={() => this.navigate(prevStep)}
-                    >
-                        <Icons.ArrowDropLeft />
-                        {localizor.strings.general.prevStep}
-                    </Button>
-                )}
-                {nextStep && (
-                    <Button
-                        id="next-step"
-                        variant="primary"
-                        onClick={() => this.navigate(nextStep)}
-                    >
-                        {localizor.strings.general.nextStep}
-                        <Icons.ArrowDropRight />
-                    </Button>
-                )}
+                <StepNavButtonGroup>
+                    {prevStep && (
+                        <Button
+                            id="prev-step"
+                            variant="primaryDarkest"
+                            onClick={() => this.navigate(prevStep)}
+                        >
+                            <Icons.ArrowDropLeft />
+                            {localizor.strings.general.prevStep}
+                        </Button>
+                    )}
+                    {nextStep && (
+                        <Button
+                            id="next-step"
+                            variant="primary"
+                            onClick={() => this.navigate(nextStep)}
+                        >
+                            {localizor.strings.general.nextStep}
+                            <Icons.ArrowDropRight />
+                        </Button>
+                    )}
+                </StepNavButtonGroup>
             </div>
         );
     }

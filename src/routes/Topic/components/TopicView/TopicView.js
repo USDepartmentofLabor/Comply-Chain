@@ -6,7 +6,13 @@ import Button from "../../../../components/Button";
 import Icons from "../../../../components/Icons";
 import { withRouter } from "react-router-dom";
 import { markTopicComplete, createStep } from "../../../../modules/storage";
+import styled from "styled-components";
 
+const TopicNavButtonGroup = styled.div`
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+`;
 class TopicView extends Component {
     constructor(props) {
         super(props);
@@ -18,7 +24,7 @@ class TopicView extends Component {
                     (stepData.topics[topic - 2] && topic - 1) || null;
                 const nextTopic = (stepData.topics[topic] && topic + 1) || null;
                 const nextStep =
-                    !nextTopic && localizor.strings.steps[step] && step;
+                    !nextTopic && localizor.strings.steps[step] && step + 1;
                 this.state = {
                     topicData: stepData.topics[topic - 1].content,
                     prevTopic: prevTopic && `/steps/${step}/topic/${prevTopic}`,
@@ -45,37 +51,38 @@ class TopicView extends Component {
             return (
                 <div>
                     <TopicData pdf={pdf} />
-
-                    {prevTopic && (
-                        <Button
-                            id="prev-topic"
-                            variant="primaryDarkest"
-                            onClick={() => this.navigate(prevTopic)}
-                        >
-                            <Icons.ArrowDropLeft />
-                            {localizor.strings.general.prevTopic}
-                        </Button>
-                    )}
-                    {nextTopic && (
-                        <Button
-                            id="next-topic"
-                            variant="primary"
-                            onClick={() => this.navigate(nextTopic)}
-                        >
-                            {localizor.strings.general.nextTopic}
-                            <Icons.ArrowDropRight />
-                        </Button>
-                    )}
-                    {nextStep && (
-                        <Button
-                            id="next-step"
-                            variant="primary"
-                            onClick={() => this.navigate(nextStep)}
-                        >
-                            {localizor.strings.general.nextStep}
-                            <Icons.ArrowDropRight />
-                        </Button>
-                    )}
+                    <TopicNavButtonGroup>
+                        {prevTopic && (
+                            <Button
+                                id="prev-topic"
+                                variant="primaryDarkest"
+                                onClick={() => this.navigate(prevTopic)}
+                            >
+                                <Icons.ArrowDropLeft />
+                                {localizor.strings.general.prevTopic}
+                            </Button>
+                        )}
+                        {nextTopic && (
+                            <Button
+                                id="next-topic"
+                                variant="primary"
+                                onClick={() => this.navigate(nextTopic)}
+                            >
+                                {localizor.strings.general.nextTopic}
+                                <Icons.ArrowDropRight />
+                            </Button>
+                        )}
+                        {nextStep && (
+                            <Button
+                                id="next-step"
+                                variant="primary"
+                                onClick={() => this.navigate(nextStep)}
+                            >
+                                {localizor.strings.general.nextStep}
+                                <Icons.ArrowDropRight />
+                            </Button>
+                        )}
+                    </TopicNavButtonGroup>
                 </div>
             );
         }
