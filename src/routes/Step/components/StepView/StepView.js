@@ -1,15 +1,15 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
+import styled from "styled-components";
 import AccordionView from "../../../../components/AccordionView";
 import Button from "../../../../components/Button";
 import Icons from "../../../../components/Icons";
 import { withLanguageContext } from "../../../../components/Language";
-import FurtherResources from "../FurtherResources/FurtherResources";
+import { theme } from "../../../../modules/config/theme";
 import KeyTermList from "../KeyTermList";
 import LearningObjectiveList from "../LearningObjectiveList";
 import TopicsList from "../TopicList";
-import styled from "styled-components";
 
 const StepNavButtonGroup = styled.div`
     margin-top: 1rem;
@@ -20,6 +20,30 @@ const StepNavButtonGroup = styled.div`
 const HeaderIcon = styled.span`
     vertical-align: middle;
     padding-right: 10px;
+`;
+
+const OrderedListWrapper = styled.div`
+    & ol {
+        list-style: none;
+        counter-reset: li;
+    }
+    & li {
+        counter-increment: li;
+        &::before {
+            content: counter(li) ".";
+            color: ${theme.colors.primary};
+            font-weight: bold;
+            width: 1em;
+            margin-left: -1em;
+            margin-right: 0.5em;
+            text-align: right;
+            direction: rtl;
+        }
+        & a {
+            text-decoration: none;
+            color: ${theme.colors.primary};
+        }
+    }
 `;
 class StepView extends Component {
     constructor(props) {
@@ -41,9 +65,9 @@ class StepView extends Component {
                     resources: {
                         title: localizor.strings.general.furtherResources,
                         content: Resources && (
-                            <FurtherResources>
+                            <OrderedListWrapper>
                                 <Resources />
-                            </FurtherResources>
+                            </OrderedListWrapper>
                         ),
                         id: "resources"
                     },
@@ -70,7 +94,11 @@ class StepView extends Component {
                     },
                     training: {
                         title: localizor.strings.general.training,
-                        content: Training && <Training />,
+                        content: Training && (
+                            <OrderedListWrapper>
+                                <Training />
+                            </OrderedListWrapper>
+                        ),
                         id: "training"
                     }
                 },
