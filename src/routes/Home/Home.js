@@ -45,7 +45,7 @@ class Home extends Component {
                                     </PaddedContent>
                                 </FlexContent>
                             </Item>
-                            {isStepComplete(i + 1) && <CheckIcon />}
+                            {isStepComplete(i) && <CheckIcon />}
                         </CheckIconContainer>
                     );
                 })}

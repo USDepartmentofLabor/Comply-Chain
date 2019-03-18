@@ -1,15 +1,14 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
+import { withRouter } from "react-router-dom";
 import AccordionView from "../../../../components/AccordionView";
+import Button from "../../../../components/Button";
 import Icons from "../../../../components/Icons";
 import { withLanguageContext } from "../../../../components/Language";
-import Button from "../../../../components/Button";
+import FurtherResources from "../FurtherResources/FurtherResources";
 import KeyTermList from "../KeyTermList";
 import LearningObjectiveList from "../LearningObjectiveList";
 import TopicsList from "../TopicList";
-import { withRouter } from "react-router-dom";
-import { markStepComplete } from "../../../../modules/storage";
-import FurtherResources from "../FurtherResources/FurtherResources";
 
 class StepView extends Component {
     constructor(props) {
@@ -68,7 +67,6 @@ class StepView extends Component {
                 prevStep: prevStep && `/steps/${prevStep}`,
                 title: stepData.title
             };
-            markStepComplete(step);
         }
     }
 

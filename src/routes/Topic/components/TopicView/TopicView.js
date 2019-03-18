@@ -5,6 +5,7 @@ import { withLanguageContext } from "../../../../components/Language";
 import Button from "../../../../components/Button";
 import Icons from "../../../../components/Icons";
 import { withRouter } from "react-router-dom";
+import { markTopicComplete, createStep } from "../../../../modules/storage";
 
 class TopicView extends Component {
     constructor(props) {
@@ -24,6 +25,9 @@ class TopicView extends Component {
                     nextTopic: nextTopic && `/steps/${step}/topic/${nextTopic}`,
                     nextStep: nextStep && `/steps/${nextStep}`
                 };
+                console.log(step, topic);
+                createStep(step - 1, stepData.topics.length);
+                markTopicComplete(step - 1, topic - 1);
             }
         }
     }
