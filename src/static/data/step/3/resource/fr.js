@@ -3,9 +3,6 @@ import React from "react";
 const fr = () => {
     return (
         <div>
-            <p>
-                <strong>Autres ressources</strong>
-            </p>
             <ol>
                 <li>
                     Barreau am&eacute;ricain. <em>Model Policies, </em>

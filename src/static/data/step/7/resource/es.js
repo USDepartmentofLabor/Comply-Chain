@@ -3,9 +3,6 @@ import React from "react";
 const es = () => {
     return (
         <div>
-            <p>
-                <strong>Recursos adicionales</strong>
-            </p>
             <ol>
                 <li>
                     <em>
@@ -14,7 +11,9 @@ const es = () => {
                     </em>
                     , diciembre de 2014; &uacute;ltima versi&oacute;n disponible
                     en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.isealalliance.org/our-work/defining-credibility/codes-of-good-practice/impacts-code"
                         title="C&oacute;digo ISEAL de Buenas Pr&aacute;cticas para Establecer Est&aacute;ndares Sociales y Ambientales"
                     >

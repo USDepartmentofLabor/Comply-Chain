@@ -3,9 +3,6 @@ import React from "react";
 const es = () => {
     return (
         <div>
-            <p>
-                <strong>Recursos adicionales</strong>
-            </p>
             <ol>
                 <li>
                     Better Buying.{" "}
@@ -14,7 +11,9 @@ const es = () => {
                     </em>
                     [en la web, consultado el 16 de mayo de 2017]; disponible en
                     idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.betterbuying.org/Home/purchasing-practices"
                         title="Purchasing Practices"
                     >
@@ -32,7 +31,9 @@ const es = () => {
                         , 2013;{" "}
                     </em>
                     disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.bsr.org/reports/BSR_Human_Rights_Impact_Assessments.pdf"
                         title="<i>Conducting an Effective Human Rights Impact Assessment:</i> <i>Guidelines, Steps, and Example</i>, 2013;"
                     >
@@ -47,7 +48,9 @@ const es = () => {
                     </em>
                     [en la web, consultado el 16 de mayo de 2017]; disponible en
                     idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.goodjobsfirst.org/violation-tracker"
                         title="Violation Tracker"
                     >
@@ -58,7 +61,9 @@ const es = () => {
                 <li>
                     Human Rights Watch, [en la web, consultado el 7 de junio de
                     2017]; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.hrw.org/"
                         title="&gt;Human Rights Watch"
                     >
@@ -76,7 +81,9 @@ const es = () => {
                         , 2015.{" "}
                     </em>
                     disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://documents.worldbank.org/curated/en/116191467986337508/pdf/99393-REVISED-ESMS-Handbook-General-v2-1-NEW-DATE-PUBLIC.pdf"
                         title="<i>Sistema de gesti&oacute;n ambiental y social - Manual de aplicaci&oacute;n</i>, 2015."
                     >
@@ -95,7 +102,9 @@ const es = () => {
                         </i>
                     </em>
                     . 2010; disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ideaspaz.org/tools/download/59336"
                         title="Pacto Mundial y Foro Internacional de L&iacute;deres Empresariales, <i>Gu&iacute;a de Evaluaci&oacute;n y Gesti&oacute;n del Impacto a los Derechos Humanos (EGIDH)</i>."
                     >
@@ -113,7 +122,9 @@ const es = () => {
                         ,{" "}
                     </em>
                     2010; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ifc.org/wps/wcm/connect/177c370048865808b3def36a6515bb18/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&amp;CACHEID=177c370048865808b3def36a6515bb18"
                         title="<i>Measure and Improve Your Labor Standards Performance</i> <i>- Performance Standard 2 Handbook</i>."
                     >
@@ -132,7 +143,9 @@ const es = () => {
                     </em>
                     Nueva York, abril de 2017; disponible en idioma
                     ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.iccr.org/sites/default/files/iccrsbestpracticeguidanceethicalrecruitment05.09.17_final.pdf"
                         title="<i>Best Practice Guidance on Ethical Recruitment of Migrant Workers.</i>"
                     >
@@ -150,7 +163,9 @@ const es = () => {
                         , 2016;
                     </em>{" "}
                     disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
                         title="<i>Principios generales y directrices para la contrataci&oacute;n equitativa</i>, 2016;"
                     >
@@ -166,7 +181,9 @@ const es = () => {
                     </i>
                     , [en la web, consultado el 7 de junio de 2017]; disponible
                     en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/dyn/normlex/en/f?p=1000:1:0::NO"
                         title="Organizaci&oacute;n Internacional del Trabajo. NORMLEX, la base de datos de la OIT de las Normas Internacionales del Trabajo"
                     >
@@ -187,7 +204,9 @@ const es = () => {
                     </em>
                     , [en la web, consultado el 7 de junio de 2017]; disponible
                     en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/ipec/ChildlabourstatisticsSIMPOC/lang--en/index.htm"
                         title="<i>Estad&iacute;sticas sobre trabajo infantil</i>"
                     >
@@ -215,7 +234,11 @@ const es = () => {
                         ; 2014 ;{" "}
                     </em>
                     disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="http://www.ituc-csi.org/IMG/pdf/survey_ra_2014_eng_v2.pdf">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ituc-csi.org/IMG/pdf/survey_ra_2014_eng_v2.pdf"
+                    >
                         https://www.ituc-csi.org/IMG/pdf/survey_ra_2014_esp_v2.pdf
                     </a>
                     .&nbsp;
@@ -227,7 +250,9 @@ const es = () => {
                     </em>
                     enero de 2017; disponible en idioma ingl&eacute;s solamente
                     en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
                         title="<i>&Iacute;ndice Global de los derechos:</i> <i>Los peores lugares del mundo para los trabajadores y trabajadoras</i>; 2014."
                     >
@@ -239,7 +264,9 @@ const es = () => {
                     UNICEF, Encuestas de indicadores m&uacute;ltiples por
                     conglomerados, [en la web, consultado el 7 de junio de
                     2017]; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.childinfo.org/mics_available.html"
                         title="UNICEF, Encuestas de indicadores m&uacute;ltiples por conglomerados"
                     >
@@ -256,7 +283,11 @@ const es = () => {
                     Departamento de Trabajo de los Estados Unidos. Datos de
                     ejecuci&oacute;n. [en la web, consultado el 7 de junio de
                     2017]; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://enforcedata.dol.gov/homePage.php">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://enforcedata.dol.gov/homePage.php"
+                    >
                         https://enforcedata.dol.gov/homePage.php
                     </a>
                     .
@@ -266,7 +297,9 @@ const es = () => {
                     Asuntos Laborales Internacionales (ILAB).{" "}
                     <em>Lista del Decreto 13126,</em> Washington, DC; disponible
                     en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products"
                         title="Lista del Decreto 13126"
                     >
@@ -284,7 +317,9 @@ const es = () => {
                         </em>
                     </em>
                     , Washington, DC; disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings"
                         title="<i>Conclusiones sobre las peores formas de trabajo infantil</i>, Washington, DC."
                     >
@@ -302,7 +337,9 @@ const es = () => {
                     </em>{" "}
                     Washington, DC, 2016; disponible en idioma ingl&eacute;s
                     solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/reports/child-labor/list-of-goods/"
                         title="Lista de mercanc&iacute;as producidas por trabajo infantil o trabajo forzoso."
                     >
@@ -318,7 +355,9 @@ const es = () => {
                     </em>
                     . Washington, DC, 2010; disponible en idioma ingl&eacute;s
                     solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.state.gov/g/drl/rls/hrrpt/"
                         title="Informes por pa&iacute;s sobre la pr&aacute;ctica de derechos humanos."
                     >
@@ -328,7 +367,9 @@ const es = () => {
                 </li>
                 <li>
                     Departamento de Estado de los EE.UU.,{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.state.gov/j/tip/index.htm"
                         title="Departamento de Estado de los EE.UU., Oficina para Controlar y Combatir la Trata de Personas."
                     >
@@ -336,7 +377,9 @@ const es = () => {
                     </a>
                     . <em>Informes sobre la trata de personas. </em>Washington,
                     DC. disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.state.gov/j/tip/rls/tiprpt/index.htm"
                         title="Informes sobre la trata de personas."
                     >
@@ -354,7 +397,9 @@ const es = () => {
                         </i>{" "}
                     </em>{" "}
                     disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://helpwanted.verite.org/helpwanted/toolkit"
                         title="<i>Fair Hiring Toolkit</i>"
                     >
@@ -364,7 +409,9 @@ const es = () => {
                 </li>
                 <li>
                     Verit&eacute;. <em>Knowledge Portal</em>. Disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://knowledge.verite.org/#/map"
                         title="Knowledge Portal"
                     >

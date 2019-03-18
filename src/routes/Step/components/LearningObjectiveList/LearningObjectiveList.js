@@ -1,14 +1,31 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
+import styled from "styled-components";
+import { theme } from "../../../../modules/config/theme";
+
+const Wrapper = styled.ul`
+    list-style: none;
+`;
+
+const Objective = styled.li`
+    &::before {
+        content: "\u2022";
+        color: ${theme.colors.primary};
+        display: inline-block;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding-right: 7px;
+    }
+`;
 class LearningObjectiveList extends Component {
     render() {
         const { objectives } = this.props;
         return (
-            <ul>
+            <Wrapper>
                 {objectives.map((objective, i) => {
-                    return <li key={i}>{objective}</li>;
+                    return <Objective key={i}>{objective}</Objective>;
                 })}
-            </ul>
+            </Wrapper>
         );
     }
 }

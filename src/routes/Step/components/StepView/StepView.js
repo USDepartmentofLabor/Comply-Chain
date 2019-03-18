@@ -9,6 +9,7 @@ import LearningObjectiveList from "../LearningObjectiveList";
 import TopicsList from "../TopicList";
 import { withRouter } from "react-router-dom";
 import { markStepComplete } from "../../../../modules/storage";
+import FurtherResources from "../FurtherResources/FurtherResources";
 
 class StepView extends Component {
     constructor(props) {
@@ -29,7 +30,11 @@ class StepView extends Component {
                 data: {
                     resources: {
                         title: localizor.strings.general.furtherResources,
-                        content: Resources && <Resources />,
+                        content: Resources && (
+                            <FurtherResources>
+                                <Resources />
+                            </FurtherResources>
+                        ),
                         id: "resources"
                     },
                     learningObjectives: {
