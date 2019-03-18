@@ -31,7 +31,6 @@ class TopicView extends Component {
                     nextTopic: nextTopic && `/steps/${step}/topic/${nextTopic}`,
                     nextStep: nextStep && `/steps/${nextStep}`
                 };
-                console.log(step, topic);
                 createStep(step - 1, stepData.topics.length);
                 markTopicComplete(step - 1, topic - 1);
             }
