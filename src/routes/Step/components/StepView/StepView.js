@@ -16,6 +16,11 @@ const StepNavButtonGroup = styled.div`
     display: flex;
     justify-content: space-between;
 `;
+
+const HeaderIcon = styled.span`
+    vertical-align: middle;
+    padding-right: 10px;
+`;
 class StepView extends Component {
     constructor(props) {
         super(props);
@@ -82,7 +87,7 @@ class StepView extends Component {
     };
 
     render() {
-        const { localizor, pdf } = this.props;
+        const { localizor, pdf, step } = this.props;
         const {
             nextStep,
             prevStep,
@@ -102,7 +107,12 @@ class StepView extends Component {
         }
         return (
             <div>
-                <h3>{title}</h3>
+                <h3>
+                    <HeaderIcon>
+                        <Icons.StepIcon step={step} />
+                    </HeaderIcon>
+                    {title}
+                </h3>
                 <AccordionView
                     id="step-accordions"
                     sections={sections}
