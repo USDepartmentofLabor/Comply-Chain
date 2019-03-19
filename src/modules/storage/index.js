@@ -46,7 +46,7 @@ export const findNextIncompleteStep = totalSteps => {
         return 0;
     }
     steps.map((step, i) => {
-        if (!nextStep && (!step || !step.complete)) {
+        if (nextStep === null && (!step || !step.complete)) {
             nextStep = i;
         }
         return step;
