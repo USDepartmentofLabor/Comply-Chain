@@ -1,7 +1,9 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
+import styled from "styled-components";
 import Routes from "../../modules/config/routes";
+import { theme } from "../../modules/config/theme";
 import BrandStrip from "../BrandStrip";
 import Icons from "../Icons";
 import { withLanguageContext } from "../Language";
@@ -9,7 +11,33 @@ import BottomNavBar from "../Menu/BottomNavBar";
 import NavBar from "../Menu/NavBar";
 import { Navigator } from "../Navigation";
 import Share from "../Share";
+import StepProgressBar from "../StepProgessBar/StepProgressBar";
 import ScrollToTop from "./ScrollToTop";
+
+const Main = styled.div`
+    margin: 0;
+    padding: 0 10px;
+`;
+
+const StepBarWrapper = styled.div`
+    background-color: ${theme.colors.grayLightest};
+    padding: 30px 30px;
+    border-bottom: 1px solid ${theme.colors.grayLight};
+    margin-bottom: -5.2em;
+`;
+
+const NavbarWrapper = styled.div`
+    margin-bottom: 5.2em;
+`;
+
+const Container = styled.div`
+    margin-top: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+    max-width: 900px;
+    width: 100%;
+`;
 class AppWrapper extends Component {
     constructor(props) {
         super(props);
@@ -96,12 +124,23 @@ class AppWrapper extends Component {
     }
     render() {
         const { navBarLeftItems, bottomNavItems } = this.state;
+        const { location } = this.props;
         return (
             <ScrollToTop>
                 <BrandStrip />
-                <NavBar leftItems={navBarLeftItems}>
-                    <Navigator />
-                </NavBar>
+                <NavbarWrapper>
+                    <NavBar leftItems={navBarLeftItems} />
+                </NavbarWrapper>
+                {location.pathname !== Routes.Home.path && (
+                    <StepBarWrapper>
+                        <StepProgressBar />
+                    </StepBarWrapper>
+                )}
+                <Main>
+                    <Container id="container">
+                        <Navigator />
+                    </Container>
+                </Main>
                 <BottomNavBar id="bottom-nav-bar" items={bottomNavItems} />
             </ScrollToTop>
         );
@@ -109,7 +148,8 @@ class AppWrapper extends Component {
 }
 
 AppWrapper.propTypes = {
+    location: PropTypes.object.isRequired,
     localizor: PropTypes.object.isRequired
 };
 
-export default withLanguageContext(AppWrapper);
+export default withRouter(withLanguageContext(AppWrapper));

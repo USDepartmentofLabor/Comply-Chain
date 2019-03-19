@@ -9,12 +9,13 @@ import { withLanguageContext } from "../../Language";
 import Breadcrumbs from "../Breadcrumbs";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import SideNav from "../SideNav";
+import { theme } from "../../../modules/config/theme";
 
 const NavbarRoot = styled.div`
     position: fixed;
     top: 25px;
     background-color: #fff;
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid ${theme.colors.grayLight};
     width: 100%;
     z-index: 100;
 `;
@@ -32,20 +33,6 @@ const NavItem = styled.div`
     text-decoration: none;
     font-size: 17px;
     cursor: pointer;
-`;
-
-const Main = styled.div`
-    margin: 0;
-    padding: 0 10px;
-`;
-
-const Container = styled.div`
-    margin-top: 7em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 4em;
-    max-width: 900px;
-    width: 100%;
 `;
 
 const SideNavFooter = styled.div`
@@ -124,7 +111,7 @@ class NavBar extends Component {
     };
     render() {
         const { visible, stepAccordionActive } = this.state;
-        const { leftItems, rightItems, children, id, localizor } = this.props;
+        const { leftItems, rightItems, id, localizor } = this.props;
         return (
             <div id={id}>
                 <NavbarRoot>
@@ -210,9 +197,6 @@ class NavBar extends Component {
                         </span>
                     </NavbarWrapper>
                 </NavbarRoot>
-                <Main>
-                    <Container id="container">{children}</Container>
-                </Main>
             </div>
         );
     }
@@ -220,7 +204,6 @@ class NavBar extends Component {
 
 NavBar.propTypes = {
     id: PropTypes.string,
-    children: PropTypes.node,
     leftItems: PropTypes.arrayOf(PropTypes.object),
     rightItems: PropTypes.arrayOf(PropTypes.object),
     localizor: PropTypes.object.isRequired

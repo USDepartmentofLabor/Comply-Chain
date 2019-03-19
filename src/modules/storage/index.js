@@ -38,6 +38,27 @@ export const isStepComplete = step => {
     return false;
 };
 
+export const findNextIncompleteStep = totalSteps => {
+    const steps = JSON.parse(localStorage.getItem(STEP_KEY)) || [];
+
+    let nextStep = null;
+    if (!steps || steps.length === 0) {
+        return 0;
+    }
+    steps.map((step, i) => {
+        if (!nextStep && (!step || !step.complete)) {
+            nextStep = i;
+        }
+        return step;
+    });
+
+    if (nextStep === null && steps.length < totalSteps) {
+        nextStep = steps.length;
+    }
+
+    return nextStep;
+};
+
 export const markTopicComplete = (step, topic) => {
     const steps = JSON.parse(localStorage.getItem(STEP_KEY)) || [];
     if (steps[step] && steps[step].topics[topic]) {
@@ -46,7 +67,7 @@ export const markTopicComplete = (step, topic) => {
     steps[step].topics[topic] = true;
     localStorage.setItem(STEP_KEY, JSON.stringify(steps));
 
-    isStepComplete(step); // mark step as complete if it is
+    isStepComplete(step);
 };
 
 export const isTopicComplete = (step, topic) => {
