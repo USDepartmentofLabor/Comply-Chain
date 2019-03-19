@@ -8,8 +8,6 @@ import { PocketButton } from "../Social";
 import { getPageTitle } from "./ShareUtils";
 
 class ShareWeb extends Component {
-    handleShare = () => {};
-
     handleEmail = () => {
         const { location, localizor } = this.props;
         let title = getPageTitle(location, localizor) || "Comply Chain";
@@ -23,12 +21,7 @@ class ShareWeb extends Component {
     render() {
         const { id, className, children } = this.props;
         return (
-            <Dropdown
-                up
-                id={id}
-                className={className}
-                onClick={this.handleShare}
-            >
+            <Dropdown up id={id} className={className}>
                 <Dropdown.Title>{children}</Dropdown.Title>
                 <Dropdown.Content>
                     <Dropdown.Item>
