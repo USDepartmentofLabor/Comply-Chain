@@ -2,6 +2,8 @@ import React from "react";
 import Accordion from "../../../../components/Accordion";
 import ExampleInAction from "../../../../components/ExampleInAction";
 import OwnWords from "../../../../components/OwnWords";
+import graph from "../../../images/graph_es.jpg";
+import betterwork from "../../../images/betterwork.jpg";
 import { Link } from "react-router-dom";
 
 const es = ({ pdf }) => {
@@ -97,7 +99,7 @@ const es = ({ pdf }) => {
                             suministro del algod&oacute;n.
                         </p>
                         <img
-                            src="info-pages/images/graph_es.jpg"
+                            src={graph}
                             alt="En el gr&aacute;fico se muestra la cadena de suministro del algod&oacute;n."
                         />
                         <div className="small-text">
@@ -391,7 +393,7 @@ const es = ({ pdf }) => {
                                     gobiernos e instituciones donantes.
                                 </p>
                                 <img
-                                    src="info-pages/images/betterwork.jpg"
+                                    src={betterwork}
                                     alt="Trabajo en una f&aacute;brica limpia y bien iluminada"
                                 />{" "}
                                 <br />

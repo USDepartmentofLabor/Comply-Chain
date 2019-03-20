@@ -2,6 +2,8 @@ import React from "react";
 import Accordion from "../../../../components/Accordion";
 import ExampleInAction from "../../../../components/ExampleInAction";
 import OwnWords from "../../../../components/OwnWords";
+import graph from "../../../images/graph_fr.jpg";
+import betterwork from "../../../images/betterwork.jpg";
 import { Link } from "react-router-dom";
 
 const fr = ({ pdf }) => {
@@ -112,7 +114,7 @@ const fr = ({ pdf }) => {
                             d&rsquo;approvisionnement du coton.
                         </p>
                         <img
-                            src="info-pages/images/graph_fr.jpg"
+                            src={graph}
                             alt="Le sch&eacute;ma illustre la cha&icirc;ne d&rsquo;approvisionnement du coton."
                         />
                         <div className="small-text">
@@ -427,7 +429,7 @@ const fr = ({ pdf }) => {
                                     gouvernements et institutions donateurs.
                                 </p>
                                 <img
-                                    src="info-pages/images/betterwork.jpg"
+                                    src={betterwork}
                                     alt="Travail effectu&eacute; dans une usine propre et bien &eacute;clair&eacute;e"
                                 />{" "}
                                 <br />

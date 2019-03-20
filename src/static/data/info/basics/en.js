@@ -2,6 +2,8 @@ import React from "react";
 import Accordion from "../../../../components/Accordion";
 import ExampleInAction from "../../../../components/ExampleInAction";
 import OwnWords from "../../../../components/OwnWords";
+import graph from "../../../images/graph.jpg";
+import betterwork from "../../../images/betterwork.jpg";
 import { Link } from "react-router-dom";
 
 const en = ({ pdf }) => {
@@ -83,7 +85,7 @@ const en = ({ pdf }) => {
                             chain.
                         </p>
                         <img
-                            src="info-pages/images/graph.jpg"
+                            src={graph}
                             alt="The graph illustrates the cotton supply chain."
                         />
                         <div className="small-text">
@@ -326,7 +328,7 @@ const en = ({ pdf }) => {
                                     governments and institutions.
                                 </p>
                                 <img
-                                    src="info-pages/images/betterwork.jpg"
+                                    src={betterwork}
                                     alt="Work being done in a well-lit and clean factory"
                                 />
                                 <br />
