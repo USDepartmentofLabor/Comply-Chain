@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { theme } from "../../../../modules/config/theme";
-import { isTopicComplete } from "../../../../modules/storage";
+import { storage } from "../../../../modules/storage";
 
 const Wrapper = styled.ul`
     list-style: none;
@@ -35,7 +35,10 @@ class TopicsList extends Component {
                 {topics.map((topic, i) => {
                     const topicId = i + 1;
                     return (
-                        <Topic checked={isTopicComplete(step - 1, i)} key={i}>
+                        <Topic
+                            checked={storage.steps.isTopicComplete(step - 1, i)}
+                            key={i}
+                        >
                             <StyledLink to={`/steps/${step}/topic/${topicId}`}>
                                 {topic.title}
                             </StyledLink>

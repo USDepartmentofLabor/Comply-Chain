@@ -1,7 +1,7 @@
 const STEP_KEY = "steps";
 const SPLASH_KEY = "splash";
 
-export const createStep = (step, totalTopics) => {
+const createStep = (step, totalTopics) => {
     const steps = JSON.parse(localStorage.getItem(STEP_KEY)) || [];
     if (steps[step]) {
         return;
@@ -13,7 +13,7 @@ export const createStep = (step, totalTopics) => {
     localStorage.setItem(STEP_KEY, JSON.stringify(steps));
 };
 
-export const markStepComplete = step => {
+const markStepComplete = step => {
     const steps = JSON.parse(localStorage.getItem(STEP_KEY)) || [];
     if (steps[step].complete) {
         return;
@@ -22,7 +22,7 @@ export const markStepComplete = step => {
     localStorage.setItem(STEP_KEY, JSON.stringify(steps));
 };
 
-export const isStepComplete = step => {
+const isStepComplete = step => {
     const steps = JSON.parse(localStorage.getItem(STEP_KEY)) || [];
     if (!steps[step]) {
         return false;
@@ -38,7 +38,7 @@ export const isStepComplete = step => {
     return false;
 };
 
-export const findNextIncompleteStep = totalSteps => {
+const findNextIncompleteStep = totalSteps => {
     const steps = JSON.parse(localStorage.getItem(STEP_KEY)) || [];
 
     let nextStep = null;
@@ -59,7 +59,7 @@ export const findNextIncompleteStep = totalSteps => {
     return nextStep;
 };
 
-export const markTopicComplete = (step, topic) => {
+const markTopicComplete = (step, topic) => {
     const steps = JSON.parse(localStorage.getItem(STEP_KEY)) || [];
     if (steps[step] && steps[step].topics[topic]) {
         return;
@@ -70,17 +70,32 @@ export const markTopicComplete = (step, topic) => {
     isStepComplete(step);
 };
 
-export const isTopicComplete = (step, topic) => {
+const isTopicComplete = (step, topic) => {
     const steps = JSON.parse(localStorage.getItem(STEP_KEY)) || [];
     return steps[step] && steps[step].topics[topic];
 };
 
-export const isSplashComplete = () => {
+const isSplashComplete = () => {
     const isComplete = JSON.parse(localStorage.getItem(SPLASH_KEY)) || false;
 
     return isComplete;
 };
 
-export const markSplashComplete = () => {
+const markSplashComplete = () => {
     localStorage.setItem(SPLASH_KEY, true);
+};
+
+export const storage = {
+    steps: {
+        createStep,
+        markStepComplete,
+        isStepComplete,
+        findNextIncompleteStep,
+        markTopicComplete,
+        isTopicComplete
+    },
+    splash: {
+        isSplashComplete,
+        markSplashComplete
+    }
 };

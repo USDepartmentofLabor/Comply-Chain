@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./App.css";
 import AppWrapper from "./components/AppWraapper";
 import { LanguageProvider } from "./components/Language";
-import { isBrowser, isIOS, isAndroid } from "./modules/utils/platform";
-import { isSplashComplete } from "./modules/storage";
+import { storage } from "./modules/storage";
+import { isAndroid, isBrowser, isIOS } from "./modules/utils/platform";
 import { Splash } from "./routes";
 
 class App extends Component {
@@ -17,8 +17,8 @@ class App extends Component {
                 {isBrowser() && <AppWrapper />}
                 {(isIOS() || isAndroid()) && (
                     <div>
-                        {isSplashComplete() && <AppWrapper />}
-                        {!isSplashComplete() && (
+                        {storage.splash.isSplashComplete() && <AppWrapper />}
+                        {!storage.splash.isSplashComplete() && (
                             <Splash onComplete={this.handleSplashComplete} />
                         )}
                     </div>

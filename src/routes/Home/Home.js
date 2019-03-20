@@ -1,12 +1,12 @@
+import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { theme } from "../../modules/config/theme";
-import { withLanguageContext } from "../../components/Language";
-import PropTypes from "prop-types";
-import Routes from "../../modules/config/routes";
 import Icons from "../../components/Icons";
-import { isStepComplete } from "../../modules/storage";
+import { withLanguageContext } from "../../components/Language";
+import Routes from "../../modules/config/routes";
+import { theme } from "../../modules/config/theme";
+import { storage } from "../../modules/storage";
 
 class Home extends Component {
     render() {
@@ -45,7 +45,7 @@ class Home extends Component {
                                     </PaddedContent>
                                 </FlexContent>
                             </Item>
-                            {isStepComplete(i) && <CheckIcon />}
+                            {storage.steps.isStepComplete(i) && <CheckIcon />}
                         </CheckIconContainer>
                     );
                 })}

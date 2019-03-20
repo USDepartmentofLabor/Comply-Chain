@@ -5,7 +5,7 @@ import { withLanguageContext } from "../../../../components/Language";
 import Button from "../../../../components/Button";
 import Icons from "../../../../components/Icons";
 import { withRouter } from "react-router-dom";
-import { markTopicComplete, createStep } from "../../../../modules/storage";
+import { storage } from "../../../../modules/storage";
 import styled from "styled-components";
 
 const TopicNavButtonGroup = styled.div`
@@ -31,8 +31,8 @@ class TopicView extends Component {
                     nextTopic: nextTopic && `/steps/${step}/topic/${nextTopic}`,
                     nextStep: nextStep && `/steps/${nextStep}`
                 };
-                createStep(step - 1, stepData.topics.length);
-                markTopicComplete(step - 1, topic - 1);
+                storage.steps.createStep(step - 1, stepData.topics.length);
+                storage.steps.markTopicComplete(step - 1, topic - 1);
             }
         }
     }

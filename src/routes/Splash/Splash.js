@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { withLanguageContext } from "../../components/Language";
 import { theme } from "../../modules/config/theme";
-import { markSplashComplete } from "../../modules/storage";
+import { storage } from "../../modules/storage";
 import logo from "../../static/images/dol-white.png";
 import splashImg from "../../static/images/splash.jpg";
 
@@ -87,7 +87,7 @@ class Splash extends Component {
     handleLanguageChange = lang => {
         const { localizor, onComplete } = this.props;
         localizor.setLanguage(lang);
-        markSplashComplete();
+        storage.steps.markSplashComplete();
         onComplete();
     };
 

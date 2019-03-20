@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import "react-step-progress-bar/styles.css";
 import { ProgressBar, Step } from "react-step-progress-bar";
+import "react-step-progress-bar/styles.css";
 import styled from "styled-components";
-import { withLanguageContext } from "../Language";
 import { theme } from "../../modules/config/theme";
-import { isStepComplete, findNextIncompleteStep } from "../../modules/storage";
+import { storage } from "../../modules/storage";
+import { withLanguageContext } from "../Language";
 
 const StepProgress = styled.div`
     color: white;
@@ -24,7 +24,7 @@ class StepProgressBar extends Component {
     render() {
         const { localizor } = this.props;
         const numOfSteps = localizor.strings.steps.length;
-        const currentStep = findNextIncompleteStep(numOfSteps);
+        const currentStep = storage.steps.findNextIncompleteStep(numOfSteps);
         const percent = (100 / numOfSteps + 1.75) * currentStep;
         return (
             <ProgressBar
@@ -35,7 +35,11 @@ class StepProgressBar extends Component {
                     return (
                         <Step key={`progress_${step.title}`}>
                             {() => (
-                                <StepProgress accomplished={isStepComplete(i)}>
+                                <StepProgress
+                                    accomplished={storage.steps.isStepComplete(
+                                        i
+                                    )}
+                                >
                                     {i + 1}
                                 </StepProgress>
                             )}
