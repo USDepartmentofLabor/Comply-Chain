@@ -1,5 +1,6 @@
 const STEP_KEY = "steps";
 const SPLASH_KEY = "splash";
+const BOOKMARK_KEY = "bookmarks";
 
 const createStep = (step, totalTopics) => {
     const steps = JSON.parse(localStorage.getItem(STEP_KEY)) || [];
@@ -85,6 +86,18 @@ const markSplashComplete = () => {
     localStorage.setItem(SPLASH_KEY, true);
 };
 
+const toggleBookmark = (name, url) => {
+    const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
+
+    const index = bookmarks.findIndex(bookmark => bookmark.name === name);
+    if (index !== -1) {
+        bookmarks.splice(index, 1);
+    } else {
+        bookmarks.push({ name, url });
+    }
+    localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
+};
+
 export const storage = {
     steps: {
         createStep,
@@ -97,5 +110,8 @@ export const storage = {
     splash: {
         isSplashComplete,
         markSplashComplete
+    },
+    bookmarks: {
+        toggleBookmark
     }
 };
