@@ -70,6 +70,14 @@
             "ios"
         ]
     },
+    "jest": {
+        "collectCoverageFrom": [
+            "src/**/*.{js,jsx}",
+            "!src/index.js",
+            "!src/setupTests.js",
+            "!src/serviceWorker.js"
+        ]
+    },
     "devDependencies": {
         "@types/jest": "^24.0.11",
         "cross-env": "^5.2.0",
