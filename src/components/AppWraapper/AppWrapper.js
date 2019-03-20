@@ -132,7 +132,7 @@ class AppWrapper extends Component {
                     <NavBar leftItems={navBarLeftItems} />
                 </NavbarWrapper>
                 {location.pathname !== Routes.Home.path && (
-                    <StepBarWrapper>
+                    <StepBarWrapper id="step_progess_bar">
                         <StepProgressBar />
                     </StepBarWrapper>
                 )}
