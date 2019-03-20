@@ -61,21 +61,34 @@ describe("Storage Module", () => {
         });
     });
     describe("boomarks storage", () => {
-        it("adds bookmark to storage", () => {
+        beforeEach(() => {
             storage.bookmarks.toggleBookmark("test", "/testurl");
+        });
+        it("adds bookmark to storage", () => {
             const bookmarks = JSON.parse(localStorage.getItem("bookmarks"));
             expect(bookmarks.length).toBe(1);
         });
+        it("retrieves all bookmarks from storage", () => {
+            storage.bookmarks.toggleBookmark("test2", "/test2url");
+            const bookmarks = storage.bookmarks.retrieveBookmarks();
+            expect(bookmarks.length).toBe(2);
+        });
+        it("retrieves a single bookmark from storage", () => {
+            const bookmark = storage.bookmarks.retrieveBookmark("test");
+            expect(bookmark.name).toBe("test");
+        });
+        it("returns undefined if no bookmark with X name exists", () => {
+            const bookmark = storage.bookmarks.retrieveBookmark("test2");
+            expect(bookmark).toBeUndefined();
+        });
         it("has correct bookmark values", () => {
-            storage.bookmarks.toggleBookmark("test", "/testurl");
-            const bookmark = JSON.parse(localStorage.getItem("bookmarks"))[0];
+            const bookmark = storage.bookmarks.retrieveBookmarks()[0];
             expect(bookmark.name).toBe("test");
             expect(bookmark.url).toBe("/testurl");
         });
         it("remove bookmark from storage", () => {
-            storage.bookmarks.toggleBookmark("test", "/testurl");
             storage.bookmarks.toggleBookmark("test");
-            const bookmarks = JSON.parse(localStorage.getItem("bookmarks"));
+            const bookmarks = storage.bookmarks.retrieveBookmarks();
             expect(bookmarks.length).toBe(0);
         });
     });

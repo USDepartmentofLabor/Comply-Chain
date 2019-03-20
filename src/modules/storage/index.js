@@ -86,6 +86,11 @@ const markSplashComplete = () => {
     localStorage.setItem(SPLASH_KEY, true);
 };
 
+/**
+ * Toggles a bookmark by adding or removing it from storage.
+ * @param {string} name - unique bookmark name
+ * @param {string=} url - url of the bookmark
+ */
 const toggleBookmark = (name, url) => {
     const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
 
@@ -96,6 +101,27 @@ const toggleBookmark = (name, url) => {
         bookmarks.push({ name, url });
     }
     localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
+};
+
+/**
+ * Retrieves a single bookmark by name.
+ * @param {string} name - the unqiue bookmark name to retrieve
+ */
+const retrieveBookmark = name => {
+    const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
+
+    const index = bookmarks.findIndex(bookmark => bookmark.name === name);
+    if (index === -1) {
+        return undefined;
+    }
+    return bookmarks[index];
+};
+
+/**
+ * Retrieve all bookmarks.
+ */
+const retrieveBookmarks = () => {
+    return JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
 };
 
 export const storage = {
@@ -112,6 +138,8 @@ export const storage = {
         markSplashComplete
     },
     bookmarks: {
-        toggleBookmark
+        toggleBookmark,
+        retrieveBookmark,
+        retrieveBookmarks
     }
 };
