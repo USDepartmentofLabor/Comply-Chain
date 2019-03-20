@@ -87,7 +87,7 @@ class Splash extends Component {
     handleLanguageChange = lang => {
         const { localizor, onComplete } = this.props;
         localizor.setLanguage(lang);
-        storage.steps.markSplashComplete();
+        storage.splash.markSplashComplete();
         onComplete();
     };
 
