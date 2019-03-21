@@ -44,6 +44,8 @@ const Container = styled.div`
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4em;
+    margin-bottom: calc(4em + constant(safe-area-inset-top));
+    margin-bottom: calc(4em + env(safe-area-inset-top));
     max-width: 900px;
     width: 100%;
 `;
