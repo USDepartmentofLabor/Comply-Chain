@@ -19,10 +19,19 @@ const Main = styled.div`
     padding: 0 10px;
 `;
 
+const Header = styled.div`
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+`;
+
 const StepBarWrapper = styled.div`
     background-color: ${theme.colors.grayLightest};
     padding: 30px 30px;
     border-bottom: 1px solid ${theme.colors.grayLight};
+    margin-top: 5.2em;
     margin-bottom: -5.2em;
 `;
 
@@ -127,10 +136,12 @@ class AppWrapper extends Component {
         const { location } = this.props;
         return (
             <ScrollToTop>
-                <BrandStrip />
-                <NavbarWrapper>
-                    <NavBar leftItems={navBarLeftItems} />
-                </NavbarWrapper>
+                <Header>
+                    <NavbarWrapper>
+                        <BrandStrip />
+                        <NavBar leftItems={navBarLeftItems} />
+                    </NavbarWrapper>
+                </Header>
                 {location.pathname !== Routes.Home.path && (
                     <StepBarWrapper id="step_progess_bar">
                         <StepProgressBar />

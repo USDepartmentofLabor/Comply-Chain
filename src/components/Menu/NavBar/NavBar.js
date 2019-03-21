@@ -12,8 +12,6 @@ import SideNav from "../SideNav";
 import { theme } from "../../../modules/config/theme";
 
 const NavbarRoot = styled.div`
-    position: fixed;
-    top: 25px;
     background-color: #fff;
     border-bottom: 1px solid ${theme.colors.grayLight};
     width: 100%;
