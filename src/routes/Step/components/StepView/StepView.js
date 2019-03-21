@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import styled from "styled-components";
 import AccordionView from "../../../../components/AccordionView";
+import Bookmarkable from "../../../../components/Bookmarkable";
 import Button from "../../../../components/Button";
 import Icons from "../../../../components/Icons";
 import { withLanguageContext } from "../../../../components/Language";
@@ -115,7 +116,7 @@ class StepView extends Component {
     };
 
     render() {
-        const { localizor, pdf, step } = this.props;
+        const { localizor, pdf, step, location } = this.props;
         const {
             nextStep,
             prevStep,
@@ -134,7 +135,7 @@ class StepView extends Component {
             sections.push(training);
         }
         return (
-            <div>
+            <Bookmarkable title={title} url={location.pathname}>
                 <h3>
                     <HeaderIcon>
                         <Icons.StepIcon step={step} />
@@ -168,7 +169,7 @@ class StepView extends Component {
                         </Button>
                     )}
                 </StepNavButtonGroup>
-            </div>
+            </Bookmarkable>
         );
     }
 }
@@ -176,6 +177,7 @@ class StepView extends Component {
 StepView.propTypes = {
     localizor: PropTypes.object.isRequired,
     history: PropTypes.object.isRequired,
+    locaiton: PropTypes.object.isRequired,
     step: PropTypes.number.isRequired,
     pdf: PropTypes.bool
 };

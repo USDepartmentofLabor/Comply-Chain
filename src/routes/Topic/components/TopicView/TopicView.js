@@ -7,6 +7,7 @@ import Icons from "../../../../components/Icons";
 import { withRouter } from "react-router-dom";
 import { storage } from "../../../../modules/storage";
 import styled from "styled-components";
+import Bookmarkable from "../../../../components/Bookmarkable";
 
 const TopicNavButtonGroup = styled.div`
     margin-top: 1rem;
@@ -26,6 +27,7 @@ class TopicView extends Component {
                 const nextStep =
                     !nextTopic && localizor.strings.steps[step] && step + 1;
                 this.state = {
+                    title: stepData.topics[topic - 1].title,
                     topicData: stepData.topics[topic - 1].content,
                     prevTopic: prevTopic && `/steps/${step}/topic/${prevTopic}`,
                     nextTopic: nextTopic && `/steps/${step}/topic/${nextTopic}`,
@@ -43,12 +45,12 @@ class TopicView extends Component {
     };
 
     render() {
-        const { topicData, prevTopic, nextTopic, nextStep } = this.state;
-        const { step, localizor, pdf } = this.props;
+        const { topicData, prevTopic, nextTopic, nextStep, title } = this.state;
+        const { step, localizor, pdf, location } = this.props;
         if (topicData) {
             const TopicData = topicData;
             return (
-                <div>
+                <Bookmarkable title={title} url={location.pathname}>
                     <TopicData pdf={pdf} />
                     <TopicNavButtonGroup>
                         {prevTopic && (
@@ -82,7 +84,7 @@ class TopicView extends Component {
                             </Button>
                         )}
                     </TopicNavButtonGroup>
-                </div>
+                </Bookmarkable>
             );
         }
 
@@ -94,7 +96,9 @@ TopicView.propTypes = {
     step: PropTypes.number.isRequired,
     topic: PropTypes.number.isRequired,
     localizor: PropTypes.object.isRequired,
-    pdf: PropTypes.bool
+    pdf: PropTypes.bool,
+    history: PropTypes.object.isRequired,
+    location: PropTypes.object.isRequired
 };
 
 export default withRouter(withLanguageContext(TopicView));
