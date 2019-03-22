@@ -35,9 +35,7 @@ const StepBarWrapper = styled.div`
     margin-bottom: -5.2em;
 `;
 
-const NavbarWrapper = styled.div`
-    margin-bottom: 5.2em;
-`;
+const NavbarWrapper = styled.div``;
 
 const Container = styled.div`
     margin-top: 7em;
