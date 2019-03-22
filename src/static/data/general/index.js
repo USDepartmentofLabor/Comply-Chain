@@ -47,7 +47,7 @@ export const General = {
         stepsToBasic: "Pasos hacia un sistema de cumplimiento social",
         prevTopic: "Tema anterior",
         prevStep: "Paso anterior",
-        nextTopic: "Siguiente tema",
+        nextTopic: "Próximo tema",
         nextStep: "Próximo paso",
         furtherResources: "Recursos adicionales",
         training: "Materiales de capacitación",
