@@ -119,7 +119,7 @@ class AppWrapper extends Component {
                         to: "/about",
                         id: "about-link"
                     },
-                    icon: Icons.HelpCircle,
+                    icon: Icons.About,
                     label: localizor.strings.general.about
                 }
             ]
