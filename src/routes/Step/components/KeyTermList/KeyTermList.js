@@ -24,7 +24,7 @@ const TermDefinition = styled.p`
 `;
 class KeyTermList extends Component {
     render() {
-        const { terms } = this.props;
+        const { terms, children } = this.props;
         return (
             <Wrapper>
                 {terms.map((term, i) => {
@@ -37,12 +37,14 @@ class KeyTermList extends Component {
                         </KeyTerm>
                     );
                 })}
+                {children}
             </Wrapper>
         );
     }
 }
 
 KeyTermList.propTypes = {
-    terms: PropTypes.arrayOf(PropTypes.object).isRequired
+    terms: PropTypes.arrayOf(PropTypes.object).isRequired,
+    extraInfo: PropTypes.node
 };
 export default KeyTermList;

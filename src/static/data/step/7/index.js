@@ -1,4 +1,5 @@
 import { Resources } from "./resource";
+import { ExtraInfo } from "./extra";
 import { Topics } from "./topic";
 
 export const StepData = {
@@ -44,7 +45,8 @@ export const StepData = {
                     "A method that establishes, with statistical rigor, a causal linkage and quantifiable impact of a specific intervention."
             }
         ],
-        furtherResources: Resources.en
+        furtherResources: Resources.en,
+        extraInfo: ExtraInfo.en
     },
     es: {
         title: "Séptimo paso: Examen independiente",
@@ -88,7 +90,8 @@ export const StepData = {
                     "Método que permite determinar, con rigor estadístico, una relación causal y el efecto cuantificable de una intervención específica."
             }
         ],
-        furtherResources: Resources.es
+        furtherResources: Resources.es,
+        extraInfo: ExtraInfo.es
     },
     fr: {
         title: "Septième étape: Examen indépendant",
@@ -132,6 +135,7 @@ export const StepData = {
                     "Méthode qui établit, avec une rigueur statistique, une relation de cause à effet et une incidence quantifiable d'une intervention donnée."
             }
         ],
-        furtherResources: Resources.fr
+        furtherResources: Resources.fr,
+        extraInfo: ExtraInfo.fr
     }
 };

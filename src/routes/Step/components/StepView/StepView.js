@@ -61,6 +61,7 @@ class StepView extends Component {
             const keyTerms = stepData.keyTerms;
             const Resources = stepData.furtherResources;
             const Training = stepData.training;
+            const ExtraInfo = stepData.extraInfo;
             this.state = {
                 data: {
                     resources: {
@@ -83,7 +84,11 @@ class StepView extends Component {
                     },
                     keyTerms: {
                         title: localizor.strings.general.keyTerms,
-                        content: <KeyTermList terms={keyTerms} />,
+                        content: (
+                            <KeyTermList terms={keyTerms}>
+                                {ExtraInfo && <ExtraInfo />}
+                            </KeyTermList>
+                        ),
                         id: "key-terms"
                     },
                     topics: {
