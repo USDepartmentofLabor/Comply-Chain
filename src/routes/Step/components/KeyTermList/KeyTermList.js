@@ -3,7 +3,9 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { theme } from "../../../../modules/config/theme";
 
-const Wrapper = styled.ul`
+const Wrapper = styled.div``;
+
+const ListWrapper = styled.ul`
     list-style: none;
 `;
 
@@ -27,16 +29,18 @@ class KeyTermList extends Component {
         const { terms, children } = this.props;
         return (
             <Wrapper>
-                {terms.map((term, i) => {
-                    return (
-                        <KeyTerm key={i}>
-                            <strong>{term.termName}</strong>
-                            <TermDefinition>
-                                {term.termDefinition}
-                            </TermDefinition>
-                        </KeyTerm>
-                    );
-                })}
+                <ListWrapper>
+                    {terms.map((term, i) => {
+                        return (
+                            <KeyTerm key={i}>
+                                <strong>{term.termName}</strong>
+                                <TermDefinition>
+                                    {term.termDefinition}
+                                </TermDefinition>
+                            </KeyTerm>
+                        );
+                    })}
+                </ListWrapper>
                 {children}
             </Wrapper>
         );

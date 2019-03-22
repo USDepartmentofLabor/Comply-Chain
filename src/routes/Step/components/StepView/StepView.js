@@ -178,7 +178,7 @@ class StepView extends Component {
 StepView.propTypes = {
     localizor: PropTypes.object.isRequired,
     history: PropTypes.object.isRequired,
-    locaiton: PropTypes.object.isRequired,
+    location: PropTypes.object.isRequired,
     step: PropTypes.number.isRequired,
     pdf: PropTypes.bool
 };
