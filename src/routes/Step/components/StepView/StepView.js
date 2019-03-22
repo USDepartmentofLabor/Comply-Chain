@@ -40,10 +40,6 @@ const OrderedListWrapper = styled.div`
             text-align: right;
             direction: rtl;
         }
-        & a {
-            text-decoration: none;
-            color: ${theme.colors.primary};
-        }
     }
 `;
 class StepView extends Component {
