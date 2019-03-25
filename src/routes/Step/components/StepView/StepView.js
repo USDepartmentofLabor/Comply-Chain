@@ -106,7 +106,8 @@ class StepView extends Component {
                 },
                 nextStep: nextStep && `/steps/${nextStep}`,
                 prevStep: prevStep && `/steps/${prevStep}`,
-                title: stepData.title
+                title: stepData.title,
+                titleString: `steps.${step - 1}.title`
             };
         }
     }
@@ -123,7 +124,8 @@ class StepView extends Component {
             prevStep,
             data,
             data: { learningObjectives, keyTerms, topics, resources, training },
-            title
+            title,
+            titleString
         } = this.state;
         if (!data) {
             return <div>Step not found!</div>;
@@ -136,7 +138,7 @@ class StepView extends Component {
             sections.push(training);
         }
         return (
-            <Bookmarkable title={title} url={location.pathname}>
+            <Bookmarkable titleString={titleString} url={location.pathname}>
                 <h3>
                     <HeaderIcon>
                         <Icons.StepIcon step={step} />

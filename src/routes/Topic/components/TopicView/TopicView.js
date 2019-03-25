@@ -33,6 +33,7 @@ class TopicView extends Component {
                     !nextTopic && localizor.strings.steps[step] && step + 1;
                 this.state = {
                     title: stepData.topics[topic - 1].title,
+                    titleString: `steps.${step - 1}.topics.${topic - 1}.title`,
                     topicData: stepData.topics[topic - 1].content,
                     prevStep: prevStep && `/steps/${prevStep}`,
                     prevTopic: prevTopic && `/steps/${step}/topic/${prevTopic}`,
@@ -57,13 +58,13 @@ class TopicView extends Component {
             prevTopic,
             nextTopic,
             nextStep,
-            title
+            titleString
         } = this.state;
         const { step, localizor, pdf, location } = this.props;
         if (topicData) {
             const TopicData = topicData;
             return (
-                <Bookmarkable title={title} url={location.pathname}>
+                <Bookmarkable titleString={titleString} url={location.pathname}>
                     <TopicData pdf={pdf} />
                     <TopicNavButtonGroup>
                         {prevStep && (

@@ -1,18 +1,21 @@
 import React, { Component } from "react";
 import { storage } from "../../modules/storage";
+import PropTypes from "prop-types";
 
 class Bookmarkable extends Component {
     constructor(props) {
         super(props);
-        const bookmarked = storage.bookmarks.retrieveBookmark(this.props.title)
+        const bookmarked = storage.bookmarks.retrieveBookmark(
+            this.props.titleString
+        )
             ? true
             : false;
         this.state = { bookmarked };
     }
     handleBookmark = () => {
-        const { title, url } = this.props;
+        const { titleString, url } = this.props;
         const { bookmarked } = this.state;
-        storage.bookmarks.toggleBookmark(title, url);
+        storage.bookmarks.toggleBookmark(titleString, url);
         this.setState({ bookmarked: !bookmarked });
     };
     render() {
@@ -28,5 +31,10 @@ class Bookmarkable extends Component {
         );
     }
 }
+
+Bookmarkable.propTypes = {
+    titleString: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired
+};
 
 export default Bookmarkable;
