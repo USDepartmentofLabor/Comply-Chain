@@ -44,7 +44,7 @@ const MenuButton = styled(Button)`
 const StepsMenuItem = styled(SideNav.Item)`
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
     svg {
         font-size: 25px;
     }
@@ -59,7 +59,9 @@ const StepWrapper = styled.div`
     }
 `;
 
-const StepIcon = styled.span``;
+const StepIcon = styled.span`
+    flex-shrink: 0;
+`;
 const StepText = styled.span`
     padding-left: 15px;
 `;
@@ -133,12 +135,14 @@ class NavBar extends Component {
                                 onClick={this.toggleStepAccordion}
                             >
                                 {localizor.strings.general.stepsToBasic}
-                                {!stepAccordionActive && (
-                                    <Icons.ArrowCircleRight />
-                                )}
-                                {stepAccordionActive && (
-                                    <Icons.ArrowCircleDown />
-                                )}
+                                <StepIcon>
+                                    {!stepAccordionActive && (
+                                        <Icons.ArrowCircleRight />
+                                    )}
+                                    {stepAccordionActive && (
+                                        <Icons.ArrowCircleDown />
+                                    )}
+                                </StepIcon>
                             </StepsMenuItem>
 
                             {stepAccordionActive &&
