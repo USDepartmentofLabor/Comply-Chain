@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import { withRouter } from "react-router-dom";
 import styled from "styled-components";
 import { theme } from "../../../modules/config/theme";
 import { withLanguageContext } from "../../Language";
@@ -40,10 +39,9 @@ class LanguageSwitcher extends Component {
         };
     }
     handleLanguageChange = lang => {
-        const { history, localizor } = this.props;
+        const { localizor } = this.props;
         localizor.setLanguage(lang);
         this.setState({ currentLanguage: lang });
-        history.push(`${history.location.pathname}?lang=${lang}`);
     };
     render() {
         return (
@@ -78,8 +76,7 @@ class LanguageSwitcher extends Component {
 }
 
 LanguageSwitcher.propTypes = {
-    localizor: PropTypes.object.isRequired,
-    history: PropTypes.object.isRequired
+    localizor: PropTypes.object.isRequired
 };
 
-export default withRouter(withLanguageContext(LanguageSwitcher));
+export default withLanguageContext(LanguageSwitcher);

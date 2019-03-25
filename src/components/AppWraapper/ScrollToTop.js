@@ -3,6 +3,9 @@ import { withRouter } from "react-router-dom";
 import { getHash } from "../../modules/utils";
 
 class ScrollToTop extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     componentDidUpdate(prevProps) {
         if (this.props.location !== prevProps.location) {
             const id = getHash();

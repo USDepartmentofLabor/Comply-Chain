@@ -45,12 +45,23 @@ const OrderedListWrapper = styled.div`
 class StepView extends Component {
     constructor(props) {
         super(props);
+        this.state = this.buildStepData();
+    }
+
+    componentDidUpdate(prevProps) {
+        if (prevProps.localizor.language !== this.props.localizor.language) {
+            this.setState(this.buildStepData());
+        }
+    }
+
+    buildStepData = () => {
         const { step, localizor } = this.props;
 
         const stepData = localizor.strings.steps[step - 1];
         const prevStep =
             (localizor.strings.steps[step - 2] && step - 1) || null;
         const nextStep = (localizor.strings.steps[step] && step + 1) || null;
+        let items;
         if (stepData) {
             const topics = stepData.topics;
             const learningObjectives = stepData.learningObjectives;
@@ -58,7 +69,7 @@ class StepView extends Component {
             const Resources = stepData.furtherResources;
             const Training = stepData.training;
             const ExtraInfo = stepData.extraInfo;
-            this.state = {
+            items = {
                 data: {
                     resources: {
                         title: localizor.strings.general.furtherResources,
@@ -110,7 +121,8 @@ class StepView extends Component {
                 titleString: `steps.${step - 1}.title`
             };
         }
-    }
+        return items;
+    };
 
     navigate = path => {
         const { history } = this.props;
