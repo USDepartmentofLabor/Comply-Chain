@@ -48,9 +48,16 @@ class StepView extends Component {
         this.state = this.buildStepData();
     }
 
-    componentDidUpdate(prevProps) {
-        if (prevProps.localizor.language !== this.props.localizor.language) {
+    componentDidUpdate(prevProps, prevState) {
+        if (
+            prevProps.localizor.language !== this.props.localizor.language ||
+            prevProps.location.pathname !== this.props.location.pathname
+        ) {
             this.setState(this.buildStepData());
+        }
+
+        if (prevState.reset !== this.state.reset) {
+            this.setState({ reset: false });
         }
     }
 
@@ -126,6 +133,7 @@ class StepView extends Component {
 
     navigate = path => {
         const { history } = this.props;
+        this.setState({ reset: true });
         history.push(path);
     };
 
@@ -137,7 +145,8 @@ class StepView extends Component {
             data,
             data: { learningObjectives, keyTerms, topics, resources, training },
             title,
-            titleString
+            titleString,
+            reset
         } = this.state;
         if (!data) {
             return <div>Step not found!</div>;
@@ -161,6 +170,7 @@ class StepView extends Component {
                     id="step-accordions"
                     sections={sections}
                     pdf={pdf}
+                    reset={reset}
                 />
                 <StepNavButtonGroup>
                     {prevStep && (

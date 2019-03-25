@@ -28,6 +28,12 @@ class Accordion extends Component {
         }
     }
 
+    componentWillReceiveProps(props) {
+        if (props.reset !== this.props.reset && props.reset) {
+            this.closeAll();
+        }
+    }
+
     toggleActive = sectionIndex => {
         this.title[sectionIndex].classList.toggle("active");
         if (this.panel[sectionIndex].style.maxHeight) {
@@ -41,10 +47,18 @@ class Accordion extends Component {
     scrollToTitle = sectionIndex => {
         window.scrollTo(0, this.title[sectionIndex].offsetTop);
     };
+    closeAll = () => {
+        this.section.map((section, i) => {
+            this.panel[i].style.maxHeight = null;
+            this.title[i].classList.remove("active");
+
+            return section;
+        });
+    };
 
     closeOthers = sectionIndex => {
         this.section.map((section, i) => {
-            if (sectionIndex !== i) {
+            if (section && sectionIndex !== i) {
                 this.panel[i].style.maxHeight = null;
                 this.title[i].classList.remove("active");
             }
@@ -53,6 +67,9 @@ class Accordion extends Component {
     };
     renderWrappedChildren = (children, sectionIndex) => {
         const { keepOpen, pdf } = this.props;
+        this.section = [];
+        this.title = [];
+        this.panel = [];
         return React.Children.map(children, (child, i) => {
             if (child.type.displayName === "Section") {
                 return React.cloneElement(child, {
@@ -140,7 +157,6 @@ Accordion.Panel = styled.div`
     border-right: 3px solid ${theme.colors.offWhite};
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
 `;
 
 Accordion.Panel.displayName = "Panel";
