@@ -19,6 +19,7 @@ const Topic = styled.li`
     &::before {
         content: "${props => (props.checked ? "✓" : "\u25A1")}";
         padding-right: 7px;
+        font-size: 1em;
     }
 `;
 

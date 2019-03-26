@@ -75,6 +75,48 @@ a {
     text-decoration: none;
     color: #0071bc;
 }
+
+ul {
+    list-style: none;
+}
+
+ul > li::before {
+    content: "\2022";
+    color: #0071bc;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-right: 7px;
+    margin-left: -1em;
+}
+
+ol {
+    list-style: none;
+    counter-reset: li;
+}
+ol > li {
+    counter-increment: li;
+}
+ol > li::before {
+    content: counter(li) ".";
+    color: #0071bc;
+    font-weight: bold;
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 0.5em;
+    text-align: right;
+    direction: rtl;
+}
+
+li > h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: inline-block;
+}
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;

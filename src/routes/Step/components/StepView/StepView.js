@@ -7,7 +7,6 @@ import Bookmarkable from "../../../../components/Bookmarkable";
 import Button from "../../../../components/Button";
 import Icons from "../../../../components/Icons";
 import { withLanguageContext } from "../../../../components/Language";
-import { theme } from "../../../../modules/config/theme";
 import KeyTermList from "../KeyTermList";
 import LearningObjectiveList from "../LearningObjectiveList";
 import TopicsList from "../TopicList";
@@ -23,25 +22,6 @@ const HeaderIcon = styled.span`
     padding-right: 10px;
 `;
 
-const OrderedListWrapper = styled.div`
-    & ol {
-        list-style: none;
-        counter-reset: li;
-    }
-    & li {
-        counter-increment: li;
-        &::before {
-            content: counter(li) ".";
-            color: ${theme.colors.primary};
-            font-weight: bold;
-            width: 1em;
-            margin-left: -1em;
-            margin-right: 0.5em;
-            text-align: right;
-            direction: rtl;
-        }
-    }
-`;
 class StepView extends Component {
     constructor(props) {
         super(props);
@@ -62,11 +42,7 @@ class StepView extends Component {
                 data: {
                     resources: {
                         title: localizor.strings.general.furtherResources,
-                        content: Resources && (
-                            <OrderedListWrapper>
-                                <Resources />
-                            </OrderedListWrapper>
-                        ),
+                        content: Resources && <Resources />,
                         id: "resources"
                     },
                     learningObjectives: {
@@ -96,11 +72,7 @@ class StepView extends Component {
                     },
                     training: {
                         title: localizor.strings.general.training,
-                        content: Training && (
-                            <OrderedListWrapper>
-                                <Training />
-                            </OrderedListWrapper>
-                        ),
+                        content: Training && <Training />,
                         id: "training"
                     }
                 },
