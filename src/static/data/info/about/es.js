@@ -67,6 +67,8 @@ const es = ({ pdf }) => {
                             producci&oacute;n de mercanc&iacute;as incluidas en
                             la [
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://www.dol.gov/ilab/reports/child-labor/list-of-goods/"
                                 title="Lista de bienes producidos con trabajo infantil o trabajo forzoso"
                             >
@@ -91,6 +93,8 @@ const es = ({ pdf }) => {
                             internacional. En septiembre de 2015, los Estados
                             miembros de las Naciones Unidas adoptaron los{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://sustainabledevelopment.un.org/?menu=1300"
                                 title="Objetivos de Desarrollo Sostenible"
                             >
@@ -103,6 +107,8 @@ const es = ({ pdf }) => {
                             fijaron metas espec&iacute;ficas que son esenciales
                             para alcanzar los objetivos. En el{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://sustainabledevelopment.un.org/sdg8"
                                 title="ODS 8"
                             >
@@ -126,6 +132,8 @@ const es = ({ pdf }) => {
                         <p>
                             ILAB participa activamente en la{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.alliance87.org/"
                                 title="Alianza 8.7"
                             >
@@ -189,6 +197,8 @@ const es = ({ pdf }) => {
                             Adem&aacute;s, esta aplicaci&oacute;n es un
                             componente importante del{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://www.state.gov/documents/organization/265918.pdf"
                                 title="Plan de acci&oacute;n nacional sobre conducta empresarial responsable "
                             >
@@ -198,6 +208,8 @@ const es = ({ pdf }) => {
                             del gobierno de los Estados Unidos, elaborado de
                             conformidad con las{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.oecd.org/corporate/mne/1922428.pdf"
                                 title="L&iacute;neas Directrices de la Organizaci&oacute;n para la Cooperaci&oacute;n y el Desarrollo Econ&oacute;mico para Empresas Multinacionales"
                             >
@@ -208,6 +220,8 @@ const es = ({ pdf }) => {
                             </a>{" "}
                             y los{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                                 title="Principios Rectores de las Naciones Unidas sobre las Empresas y los Derechos Humanos"
                             >
@@ -233,6 +247,8 @@ const es = ({ pdf }) => {
                             infantil y los abusos conexos a nivel internacional
                             mediante{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://www.dol.gov/ilab/projects/"
                                 title="proyectos de asistencia t&eacute;cnica"
                             >
@@ -248,6 +264,8 @@ const es = ({ pdf }) => {
                         <ul>
                             <li>
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.dol.gov/agencies/ilab/ilab-around-world"
                                     title="Informaci&oacute;n adicional"
                                 >
@@ -367,6 +385,8 @@ const es = ({ pdf }) => {
                             que tenga en su experiencia. Tambi&eacute;n puede
                             hacerlo mediante un mensaje de{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="mailto:GlobalKids@dol.gov?subject=Comentarios sobre la aplicación Comply Chain"
                                 title="correo electr&oacute;nico a ILAB"
                             >

@@ -57,6 +57,8 @@ const en = ({ pdf }) => {
                             with persons who are involved in the production of
                             goods on [ILAB&rsquo;s{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://www.dol.gov/ilab/reports/child-labor/list-of-goods/"
                                 title="List of Goods Produced by Child Labor or Forced Labor"
                             >
@@ -78,6 +80,8 @@ const en = ({ pdf }) => {
                             by the international community. In September 2015,
                             UN member states adopted the{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://sustainabledevelopment.un.org/?menu=1300"
                                 title="Sustainable Development Goals"
                             >
@@ -89,6 +93,8 @@ const en = ({ pdf }) => {
                             targets have been set which will be essential to
                             achieving the goals. Under{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://sustainabledevelopment.un.org/sdg8"
                                 title="SDG 8"
                             >
@@ -108,6 +114,8 @@ const en = ({ pdf }) => {
                         <p>
                             ILAB is actively engaged in{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.alliance87.org/"
                                 title="Alliance 8.7"
                             >
@@ -157,6 +165,8 @@ const en = ({ pdf }) => {
                             The App is also an important component of the U.S.
                             government&rsquo;s{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://www.state.gov/documents/organization/265918.pdf"
                                 title="National Action Plan on Responsible Business Conduct (NAP-RBC)"
                             >
@@ -165,6 +175,8 @@ const en = ({ pdf }) => {
                             </a>
                             , which was developed pursuant to the{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.oecd.org/corporate/mne/1922428.pdf"
                                 title="Organization for Economic Cooperation and Development&rsquo;s Guidelines for Multinational Enterprises"
                             >
@@ -174,6 +186,8 @@ const en = ({ pdf }) => {
                             </a>{" "}
                             and the{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                                 title="United Nations Guiding Principles on Business and Human Rights"
                             >
@@ -195,6 +209,8 @@ const en = ({ pdf }) => {
                             combat child labor&nbsp;and related abuses
                             internationally, through{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://www.dol.gov/ilab/projects/"
                                 title="technical assistance projects"
                             >
@@ -208,6 +224,8 @@ const en = ({ pdf }) => {
                         <ul>
                             <li>
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.dol.gov/agencies/ilab/ilab-around-world"
                                     title="Learn more"
                                 >
@@ -302,6 +320,8 @@ const en = ({ pdf }) => {
                             social compliance from your own experience. You may
                             do so by{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="mailto:GlobalKids@dol.gov?subject=Comments on Comply Chain App"
                                 title="e-mailing ILAB"
                             >
