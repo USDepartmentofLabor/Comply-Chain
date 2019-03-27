@@ -24,7 +24,7 @@ const BrandText = styled.span`
 
 const BrandLogo = styled.img`
     padding-right: 10px;
-    max-height: 100%;
+    max-height: 25px;
 `;
 
 class BrandStrip extends Component {

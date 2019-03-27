@@ -35,6 +35,8 @@ const NavItem = styled.div`
 
 const SideNavFooter = styled.div`
     padding-bottom: 2em;
+    padding-bottom: calc(2em + constant(safe-area-inset-bottom));
+    padding-bottom: calc(2em + env(safe-area-inset-bottom));
 `;
 
 const MenuButton = styled(Button)`
