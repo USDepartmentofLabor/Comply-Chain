@@ -13,7 +13,7 @@ const StepProgress = styled.div`
     height: 20px;
     font-size: 12px;
     background-color: ${props =>
-        props.accomplished ? theme.colors.primary : "rgba(211, 211, 211)"};
+        props.accomplished ? theme.colors.primary : theme.colors.gray};
     border-radius: 50%;
     display: flex;
     justify-content: center;
