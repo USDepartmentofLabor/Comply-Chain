@@ -13,16 +13,26 @@ const TopicNavButtonGroup = styled.div`
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
+    & > * {
+        margin: 0 10px;
+    }
+    & > :first-child {
+        margin-left: 0;
+    }
+    & > :last-child {
+        margin-right: 0;
+    }
 `;
 const NavButton = styled(Button)`
     position: relative;
-    width: 180px;
+    width: 200px;
     & svg {
         position: absolute;
         right: ${props => (props.right ? "3px" : null)};
         left: ${props => (props.left ? "3px" : null)};
         top: 50%;
         transform: translateY(-50%);
+        font-size: 1.5em;
     }
 `;
 
