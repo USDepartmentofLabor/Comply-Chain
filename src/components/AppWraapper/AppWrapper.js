@@ -15,8 +15,12 @@ import StepProgressBar from "../StepProgessBar/StepProgressBar";
 import ScrollToTop from "./ScrollToTop";
 
 const Main = styled.div`
-    margin: 0;
     padding: 0 10px;
+`;
+
+const MainWrapper = styled.div`
+    margin-top: calc(7em + constant(safe-area-inset-top));
+    margin-top: calc(7em + env(safe-area-inset-top));
 `;
 
 const Header = styled.div`
@@ -31,19 +35,18 @@ const StepBarWrapper = styled.div`
     background-color: ${theme.colors.grayLightest};
     padding: 30px 30px;
     border-bottom: 1px solid ${theme.colors.grayLight};
-    margin-top: 5.2em;
-    margin-bottom: -5.2em;
+    margin-top: -1.8em;
 `;
 
 const NavbarWrapper = styled.div``;
 
 const Container = styled.div`
-    margin-top: 7em;
+    margin-top: 1.8em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4em;
-    margin-bottom: calc(4em + constant(safe-area-inset-top));
-    margin-bottom: calc(4em + env(safe-area-inset-top));
+    margin-bottom: calc(4em + constant(safe-area-inset-bottom));
+    margin-bottom: calc(4em + env(safe-area-inset-bottom));
     max-width: 900px;
     width: 100%;
 `;
@@ -142,16 +145,18 @@ class AppWrapper extends Component {
                         <NavBar leftItems={navBarLeftItems} />
                     </NavbarWrapper>
                 </Header>
-                {location.pathname !== Routes.Home.path && (
-                    <StepBarWrapper id="step_progess_bar">
-                        <StepProgressBar />
-                    </StepBarWrapper>
-                )}
-                <Main>
-                    <Container id="container">
-                        <Navigator />
-                    </Container>
-                </Main>
+                <MainWrapper>
+                    {location.pathname !== Routes.Home.path && (
+                        <StepBarWrapper id="step_progess_bar">
+                            <StepProgressBar />
+                        </StepBarWrapper>
+                    )}
+                    <Main>
+                        <Container id="container">
+                            <Navigator />
+                        </Container>
+                    </Main>
+                </MainWrapper>
                 <BottomNavBar id="bottom-nav-bar" items={bottomNavItems} />
             </ScrollToTop>
         );
