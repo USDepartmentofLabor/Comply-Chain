@@ -80,7 +80,7 @@ export const General = {
         prevTopic: "Sujet précédent",
         prevStep: "Étape précédente",
         nextTopic: "Sujet suivant",
-        nextStep: "étape suivante",
+        nextStep: "Étape suivante",
         furtherResources: "Autres ressources",
         training: "Documents de formation",
         results: "Résultats trouvés avec",

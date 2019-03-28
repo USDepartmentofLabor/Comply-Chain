@@ -14,6 +14,18 @@ const TopicNavButtonGroup = styled.div`
     display: flex;
     justify-content: space-between;
 `;
+const NavButton = styled(Button)`
+    position: relative;
+    width: 180px;
+    & svg {
+        position: absolute;
+        right: ${props => (props.right ? "3px" : null)};
+        left: ${props => (props.left ? "3px" : null)};
+        top: 50%;
+        transform: translateY(-50%);
+    }
+`;
+
 class TopicView extends Component {
     constructor(props) {
         super(props);
@@ -68,44 +80,48 @@ class TopicView extends Component {
                     <TopicData pdf={pdf} />
                     <TopicNavButtonGroup>
                         {prevStep && (
-                            <Button
+                            <NavButton
                                 id="prev-step"
                                 variant="primaryDarkest"
                                 onClick={() => this.navigate(prevStep)}
+                                left
                             >
                                 <Icons.ArrowDropLeft />
                                 {localizor.strings.general.prevStep}
-                            </Button>
+                            </NavButton>
                         )}
                         {prevTopic && (
-                            <Button
+                            <NavButton
                                 id="prev-topic"
                                 variant="primaryDarkest"
                                 onClick={() => this.navigate(prevTopic)}
+                                left
                             >
                                 <Icons.ArrowDropLeft />
                                 {localizor.strings.general.prevTopic}
-                            </Button>
+                            </NavButton>
                         )}
                         {nextTopic && (
-                            <Button
+                            <NavButton
                                 id="next-topic"
                                 variant="primary"
                                 onClick={() => this.navigate(nextTopic)}
+                                right
                             >
                                 {localizor.strings.general.nextTopic}
                                 <Icons.ArrowDropRight />
-                            </Button>
+                            </NavButton>
                         )}
                         {nextStep && (
-                            <Button
+                            <NavButton
                                 id="next-step"
                                 variant="primary"
                                 onClick={() => this.navigate(nextStep)}
+                                right
                             >
                                 {localizor.strings.general.nextStep}
                                 <Icons.ArrowDropRight />
-                            </Button>
+                            </NavButton>
                         )}
                     </TopicNavButtonGroup>
                 </Bookmarkable>
