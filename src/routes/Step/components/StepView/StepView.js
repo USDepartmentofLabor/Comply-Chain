@@ -33,7 +33,8 @@ const HeaderIcon = styled.span`
 
 const NavButton = styled(Button)`
     position: relative;
-    width: 180px;
+    width: 200px;
+    padding: 15px;
     & svg {
         position: absolute;
         right: ${props => (props.right ? "3px" : null)};

@@ -26,6 +26,7 @@ const TopicNavButtonGroup = styled.div`
 const NavButton = styled(Button)`
     position: relative;
     width: 200px;
+    padding: 15px;
     & svg {
         position: absolute;
         right: ${props => (props.right ? "3px" : null)};
