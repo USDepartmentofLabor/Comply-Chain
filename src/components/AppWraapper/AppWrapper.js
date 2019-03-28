@@ -19,8 +19,18 @@ const Main = styled.div`
 `;
 
 const MainWrapper = styled.div`
-    margin-top: calc(7em + constant(safe-area-inset-top));
-    margin-top: calc(7em + env(safe-area-inset-top));
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 5.2em;
+    margin-top: calc(5.2em + constant(safe-area-inset-top));
+    margin-top: calc(5.2em + env(safe-area-inset-top));
+    margin-bottom: 3.2em;
+    margin-bottom: calc(3.2em + constant(safe-area-inset-bottom));
+    margin-bottom: calc(3.2em + env(safe-area-inset-bottom));
+    overflow-y: scroll;
 `;
 
 const Header = styled.div`
@@ -31,22 +41,24 @@ const Header = styled.div`
     z-index: 100;
 `;
 
+const Footer = styled.div`
+    position: fixed;
+    bottom: 0;
+`;
+
 const StepBarWrapper = styled.div`
     background-color: ${theme.colors.grayLightest};
     padding: 30px 30px;
     border-bottom: 1px solid ${theme.colors.grayLight};
-    margin-top: -1.8em;
 `;
 
 const NavbarWrapper = styled.div``;
 
 const Container = styled.div`
     margin-top: 1.8em;
+    margin-bottom: 0.8em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 4em;
-    margin-bottom: calc(4em + constant(safe-area-inset-bottom));
-    margin-bottom: calc(4em + env(safe-area-inset-bottom));
     max-width: 900px;
     width: 100%;
 `;
@@ -145,7 +157,7 @@ class AppWrapper extends Component {
                         <NavBar leftItems={navBarLeftItems} />
                     </NavbarWrapper>
                 </Header>
-                <MainWrapper>
+                <MainWrapper id="main">
                     {location.pathname !== Routes.Home.path && (
                         <StepBarWrapper id="step_progess_bar">
                             <StepProgressBar />
@@ -157,7 +169,9 @@ class AppWrapper extends Component {
                         </Container>
                     </Main>
                 </MainWrapper>
-                <BottomNavBar id="bottom-nav-bar" items={bottomNavItems} />
+                <Footer>
+                    <BottomNavBar id="bottom-nav-bar" items={bottomNavItems} />
+                </Footer>
             </ScrollToTop>
         );
     }

@@ -8,7 +8,12 @@ class ScrollToTop extends Component {
             const id = getHash();
 
             if (!id) {
-                window.scrollTo(0, 0);
+                const main = document.getElementById("main");
+                if (main) {
+                    main.scrollTo(0, 0);
+                } else {
+                    window.scrollTo(0, 0);
+                }
             } else {
                 const element = document.getElementById(id);
                 if (element) {
