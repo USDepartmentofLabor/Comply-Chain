@@ -41,6 +41,8 @@ const SideNavFooter = styled.div`
 
 const MenuButton = styled(Button)`
     padding: 16px 16px;
+    width: 90px;
+    height: 55px;
 `;
 
 const StepsMenuItem = styled(SideNav.Item)`
