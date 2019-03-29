@@ -50,7 +50,7 @@ const es = ({ pdf }) => {
                 internacionales.&nbsp;
             </p>
             <p />
-            <Accordion>
+            <Accordion pdf={pdf}>
                 <Accordion.Section>
                     <Accordion.Title>
                         <strong>

@@ -12,7 +12,7 @@ const en = ({ pdf }) => {
             <h1>
                 <strong>The Basics of a Social Compliance System</strong>
             </h1>
-            <Accordion>
+            <Accordion pdf={pdf}>
                 <Accordion.Section>
                     <Accordion.Title>Learning Objectives</Accordion.Title>
                     <Accordion.Panel>

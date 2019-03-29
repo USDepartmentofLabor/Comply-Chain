@@ -14,7 +14,7 @@ const es = ({ pdf }) => {
                     Aspectos b&aacute;sicos de un sistema de cumplimiento social
                 </strong>
             </h1>
-            <Accordion>
+            <Accordion pdf={pdf}>
                 <Accordion.Section>
                     <Accordion.Title>
                         Objetivos did&aacute;cticos

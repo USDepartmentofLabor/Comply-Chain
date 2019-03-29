@@ -41,7 +41,7 @@ const fr = ({ pdf }) => {
                 concevoir des programmes de promotion des droits sur le lieu de
                 travail et du travail d&eacute;cent pour tous.
             </p>
-            <Accordion>
+            <Accordion pdf={pdf}>
                 <Accordion.Section>
                     <Accordion.Title>Travail des enfants</Accordion.Title>
                     <Accordion.Panel>

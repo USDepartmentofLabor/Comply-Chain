@@ -167,7 +167,8 @@ Accordion.Section.propTypes = {
 Accordion.propTypes = {
     id: PropTypes.string,
     children: PropTypes.node.isRequired,
-    keepOpen: PropTypes.bool
+    keepOpen: PropTypes.bool,
+    pdf: PropTypes.bool
 };
 
 export default Accordion;

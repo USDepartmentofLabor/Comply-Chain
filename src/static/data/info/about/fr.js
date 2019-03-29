@@ -60,7 +60,7 @@ const fr = ({ pdf }) => {
                 au niveau international.&nbsp;
             </p>
             <p />
-            <Accordion>
+            <Accordion pdf={pdf}>
                 <Accordion.Section>
                     <Accordion.Title>
                         <strong>

@@ -15,7 +15,7 @@ const fr = ({ pdf }) => {
                     conformit&eacute; sociale
                 </strong>
             </h1>
-            <Accordion>
+            <Accordion pdf={pdf}>
                 <Accordion.Section>
                     <Accordion.Title>
                         Objectifs d&apos;apprentissage

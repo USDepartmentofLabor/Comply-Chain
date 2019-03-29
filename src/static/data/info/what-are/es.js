@@ -38,7 +38,7 @@ const es = ({ pdf }) => {
                 pol&iacute;ticas e idear programas para promover los derechos en
                 el trabajo y el empleo digno para todos.
             </p>
-            <Accordion>
+            <Accordion pdf={pdf}>
                 <Accordion.Section>
                     <Accordion.Title>Trabajo infantil</Accordion.Title>
                     <Accordion.Panel>
