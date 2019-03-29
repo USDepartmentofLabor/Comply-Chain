@@ -118,14 +118,14 @@ Accordion.Title = styled.div`
     }
 
     &:after {
-        content: "\\002B";
+        content: "\u002B";
         color: ${theme.colors.base};
         float: right;
         margin-left: 5px;
     }
     &.active {
         &:after {
-            content: "\\2212";
+            content: "\u2212";
         }
     }
 `;
@@ -153,7 +153,7 @@ Accordion.Section.displayName = "Section";
 
 const PdfTitle = styled(Accordion.Title)`
     &:after {
-        content: "\\2212";
+        content: "\u2212";
     }
 `;
 const PdfPanel = styled(Accordion.Panel)`
