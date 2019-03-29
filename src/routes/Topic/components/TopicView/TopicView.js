@@ -29,11 +29,11 @@ const NavButton = styled(Button)`
     padding: 15px;
     & svg {
         position: absolute;
-        right: ${props => (props.right ? "3px" : null)};
-        left: ${props => (props.left ? "3px" : null)};
+        right: ${props => (props.right ? "0" : null)};
+        left: ${props => (props.left ? "0" : null)};
         top: 50%;
         transform: translateY(-50%);
-        font-size: 1.5em;
+        font-size: 1.25em;
     }
 `;
 
