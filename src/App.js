@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "./App.css";
 import AppWrapper from "./components/AppWraapper";
 import { LanguageProvider } from "./components/Language";
 import { storage } from "./modules/storage";
 import { isAndroid, isBrowser, isIOS } from "./modules/utils/platform";
 import { Splash } from "./routes";
+import { AppGlobalStyles } from "./AppGlobalStyles";
 
 class App extends Component {
     state = { splashComplete: false };
@@ -14,6 +14,7 @@ class App extends Component {
     render() {
         return (
             <LanguageProvider>
+                <AppGlobalStyles />
                 {isBrowser() && <AppWrapper />}
                 {(isIOS() || isAndroid()) && (
                     <div>
