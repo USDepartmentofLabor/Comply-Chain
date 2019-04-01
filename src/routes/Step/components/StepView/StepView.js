@@ -16,7 +16,7 @@ const StepNavButtonGroup = styled.div`
     display: flex;
     justify-content: space-between;
     & > * {
-        margin: 0 10px;
+        margin: 0 5px;
     }
     & > :first-child {
         margin-left: 0;
