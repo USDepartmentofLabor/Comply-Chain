@@ -5,7 +5,7 @@ import { withRouter } from "react-router-dom";
 import Dropdown from "../Dropdown";
 import { withLanguageContext } from "../Language";
 import { PocketButton } from "../Social";
-import { getPageTitle, getPageHtml } from "./ShareUtils";
+import { getPageTitle } from "./ShareUtils";
 
 class ShareWeb extends Component {
     handleEmail = () => {
@@ -16,7 +16,6 @@ class ShareWeb extends Component {
 
     handleCopy = () => {
         copy(window.location.href);
-        console.log(getPageHtml(this.props.location));
     };
 
     render() {
