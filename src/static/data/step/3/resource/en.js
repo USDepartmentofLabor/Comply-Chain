@@ -3,14 +3,13 @@ import React from "react";
 const en = () => {
     return (
         <div>
-            <p>
-                <strong>Further Resources</strong>
-            </p>
             <ol>
                 <li>
                     American Bar Association. <em>Model Policies, </em>2014;
                     available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.americanbar.org/content/dam/aba/administrative/business_law/aba_model_policies.authcheckdam.pdf"
                         title="Model Policies, 2014"
                     >
@@ -21,7 +20,9 @@ const en = () => {
                 <li>
                     <em>Dhaka Principles for Migration with Dignity</em>, 2012;
                     available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf"
                         title="Dhaka Principles for Migration with Dignity"
                     >
@@ -31,7 +32,9 @@ const en = () => {
                 </li>
                 <li>
                     ICCR. <em>Statement of Principles, </em>2013; available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.iccr.org/sites/default/files/resources_attachments/2013ICCR_HTPrinciplesFINAL112013.pdf"
                         title="Statement of Principles"
                     >
@@ -46,7 +49,9 @@ const en = () => {
                         Standards v 5.0
                     </em>
                     . Germany, June, 2010; available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.ftc.gov/sites/default/files/documents/public_events/enforceable-codes-conduct-protecting-consumers-across-borders/iseal-code-good-practice.pdf"
                         title="Code of Good Practice: Setting Social and Environmental Standards v 5.0"
                     >
@@ -67,7 +72,9 @@ const en = () => {
                         Policy
                     </em>
                     , 2011; available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ohchr.org/Documents/Publications/DevelopHumanRightsPolicy_en.pdf"
                         title=">A Guide for Business: How to Develop a Human Rights Policy"
                     >
@@ -82,7 +89,9 @@ const en = () => {
                         Management
                     </em>
                     , 2nd ed., 2009; available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ohchr.org/Documents/Publications/GuideHRBusinessen.pdf"
                         title="A Guide for Integrating Human Rights Into Business Management"
                     >
@@ -94,7 +103,9 @@ const en = () => {
                     U.N. Global Compact.{" "}
                     <em>Human Rights and Business Learning Tool</em>; available
                     from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://human-rights-and-business-learning-tool.unglobalcompact.org/&amp;exitTitle=human-rights-and-business-learning-tool.unglobalcompact.org&amp;fedpage=no"
                         title="Human Rights and Business Learning Tool"
                     >
@@ -109,7 +120,9 @@ const en = () => {
                         Implementing the U.N. Global Compact
                     </em>
                     , 2010; available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.unglobalcompact.org/docs/issues_doc/labour/tools_guidance_materials/Principles_to_Practice.pdf&amp;exitTitle=www.unglobalcompact.org&amp;fedpage=no"
                         title="From Principles to Practice: The Role of SA8000 in Implementing the U.N. Global Compact"
                     >
@@ -123,7 +136,9 @@ const en = () => {
                     of Human Rights.{" "}
                     <em>Embedding Human Rights in Business Practice IV</em>,
                     2013; available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.unglobalcompact.org/library/401"
                         title="Embedding Human Rights in Business Practice IV"
                     >
@@ -133,7 +148,9 @@ const en = () => {
                 </li>
                 <li>
                     Verit&eacute;. <em>Fair Hiring Toolkit; available from</em>
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://helpwanted.verite.org/helpwanted/toolkit"
                         title="Fair Hiring Toolkit"
                     >
@@ -144,7 +161,9 @@ const en = () => {
                 <li>
                     Verit&eacute;. <em>Responsible Sourcing Tool; </em>available
                     from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/codeofconduct"
                         title="Responsible Sourcing Tool"
                     >

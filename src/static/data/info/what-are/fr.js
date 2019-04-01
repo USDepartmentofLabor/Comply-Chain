@@ -18,6 +18,8 @@ const fr = ({ pdf }) => {
                 travail forc&eacute; ont &eacute;t&eacute;
                 &eacute;labor&eacute;es par l&rsquo;
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/global/about-the-ilo/lang--fr/index.htm"
                     title="Organisation internationale du Travail"
                 >
@@ -27,6 +29,8 @@ const fr = ({ pdf }) => {
                 rassemble les gouvernements et les repr&eacute;sentants des
                 employeurs et des travailleurs de&nbsp;
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/public/english/standards/relm/country.htm"
                     title="187&nbsp;&Eacute;tats membres&nbsp;"
                 >
@@ -37,7 +41,7 @@ const fr = ({ pdf }) => {
                 concevoir des programmes de promotion des droits sur le lieu de
                 travail et du travail d&eacute;cent pour tous.
             </p>
-            <Accordion>
+            <Accordion pdf={pdf}>
                 <Accordion.Section>
                     <Accordion.Title>Travail des enfants</Accordion.Title>
                     <Accordion.Panel>
@@ -73,6 +77,8 @@ const fr = ({ pdf }) => {
                         <p>
                             La{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
                                 title="Convention n<sup>o</sup>&nbsp;182 de l&rsquo;OIT"
                             >
@@ -133,6 +139,8 @@ const fr = ({ pdf }) => {
                             «&nbsp;dangereux&nbsp;» pour les enfants varient
                             selon les pays. La{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:R190"
                                 title="La recommandation n<sup>o</sup>&nbsp;190 de l&rsquo;OIT"
                             >
@@ -307,6 +315,8 @@ const fr = ({ pdf }) => {
                                 travail&nbsp;&ndash; 2010, Gen&egrave;ve ; 2010
                                 ; disponible [en anglais] sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/global/publications/books/WCMS_127688/lang--en/index.htm%20"
                                     title="Rapport global en vertu du suivi de la D&eacute;claration de l'OIT relative aux principes et droits fondamentaux au travail&nbsp;&ndash; 2010"
                                 >
@@ -320,6 +330,8 @@ const fr = ({ pdf }) => {
                                 enfants&nbsp;?&nbsp;» consult&eacute; le
                                 25&nbsp;novembre 2011&nbsp;; disponible sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/ipec/facts/lang--fr/index.htm"
                                     title="«&nbsp;Qu'est-ce que le travail des enfants&nbsp;?&nbsp;»"
                                 >
@@ -333,6 +345,8 @@ const fr = ({ pdf }) => {
                                 savons, ce que nous devons faire, Gen&egrave;ve,
                                 juin 2011&nbsp;; disponible sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_155430/lang--fr/index.htm"
                                     title="Enfants dans les travaux dangereux&nbsp;: Ce que nous savons, ce que nous devons faire, Gen&egrave;ve, juin 2011"
                                 >
@@ -346,6 +360,8 @@ const fr = ({ pdf }) => {
                                 l&apos;&acirc;ge minimum d&apos;admission
                                 &agrave; l&apos;emploi ; disponible sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138"
                                     title="Convention 138 de l'Organisation internationale du Travail concernant l'&acirc;ge minimum d'admission &agrave; l'emploi"
                                 >
@@ -358,6 +374,8 @@ const fr = ({ pdf }) => {
                                 internationale du Travail sur les pires formes
                                 de travail des enfants ; disponible sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
                                     title="Convention 182 de l'Organisation internationale du Travail sur les pires formes de travail des enfants"
                                 >
@@ -378,6 +396,8 @@ const fr = ({ pdf }) => {
                                 </i>
                                 , Gen&egrave;ve: 2007. disponible sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ioe-emp.org/fileadmin/ioe_documents/publications/Policy%20Areas/child_labour/FR/%282008%29%20Abolition%20travail%20enfants%20Guide%201%20-%20Intro.pdf"
                                     title="L&rsquo;abolition du travail des enfants&nbsp;&ndash; Guides &agrave; l&rsquo;intention des employeurs&nbsp;: Guide&nbsp;I&nbsp;: Introduction &agrave; la probl&eacute;matique du travail des enfants"
                                 >
@@ -395,6 +415,8 @@ const fr = ({ pdf }) => {
                                 </em>
                                 , Bruxelles, 2008 ; disponible sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ituc-csi.org/IMG/pdf/mini_guide_CL_final_FR.pdf"
                                     title="Miniguide d'action : Travail des enfants"
                                 >
@@ -414,6 +436,8 @@ const fr = ({ pdf }) => {
                                 Gen&egrave;ve, 5&nbsp;d&eacute;cembre 2008.
                                 ICLS/18/2008/III. Disponible sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099580.pdf"
                                     title="Dix-huiti&egrave;me Conf&eacute;rence internationale des statisticiens du travail&nbsp;&ndash; Rapport III&nbsp;: Statistiques sur le travail des enfants."
                                 >
@@ -429,6 +453,8 @@ const fr = ({ pdf }) => {
                                 </i>
                                 , Washington, DC&nbsp;; disponible sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings"
                                     title="D&eacute;partement du Travail des &Eacute;tats-Unis. &nbsp;Conclusions sur les pires formes de travail des enfants, Washington, DC"
                                 >
@@ -713,6 +739,8 @@ const fr = ({ pdf }) => {
                             L&apos;expression traite des &ecirc;tres humains ou
                             traite des personnes, dans le{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.ohchr.org/Documents/ProfessionalInterest/ProtocolTraffickingInPersons_fr.pdf"
                                 title="Protocole visant &agrave; pr&eacute;venir, r&eacute;primer et punir la traite des personnes, en particulier des femmes et des enfants"
                             >
@@ -751,6 +779,8 @@ const fr = ({ pdf }) => {
                             <em>Rapport mondial sur la traite des personnes</em>
                             &nbsp;; 2016 [en anglais].{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://www.unodc.org/documents/data-and-analysis/glotip/2016_Global_Report_on_Trafficking_in_Persons.pdf"
                                 title="Rapport mondial sur la traite des personnes"
                             >
@@ -768,6 +798,8 @@ const fr = ({ pdf }) => {
                                 internationale du travail sur le travail
                                 forc&eacute; ; disponible sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/dyn/normlex/fr/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:312174,fr:NO"
                                     title="Convention 29 de l'Organisation internationale du Travail sur le travail forc&eacute;"
                                 >
@@ -787,6 +819,8 @@ const fr = ({ pdf }) => {
                                 </em>
                                 Gen&egrave;ve&nbsp;; 2009 disponible sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_106270/lang--fr/index.htm"
                                     title="Le co&ucirc;t de la coercition&nbsp;: Rapport global en vertu du suivi de la D&eacute;claration de l'OIT relative aux principes et droits fondamentaux au travail"
                                 >
@@ -800,6 +834,8 @@ const fr = ({ pdf }) => {
                                 Methodology, Gen&egrave;ve, 2012&nbsp;;
                                 disponible [en anglais] sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/washington/WCMS_182004/lang--en/index.htm"
                                     title="ILO Global Estimate of Forced Labour: Results and Methodology"
                                 >
@@ -817,6 +853,8 @@ const fr = ({ pdf }) => {
                                 Gen&egrave;ve, 2012&nbsp;; disponible [en
                                 anglais] sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://ilo.org/global/topics/forced-labour/publications/WCMS_182096/lang--en/index.htm"
                                     title="Hard to See, Harder to Count: Survey guidelines to estimate forced labour of adults and children"
                                 >
@@ -831,6 +869,8 @@ const fr = ({ pdf }) => {
                                 25&nbsp;juin 2015&nbsp;; disponible [en anglais]
                                 sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
                                     title="Combating Forced Labour: A Handbook for Employers and Business"
                                 >
@@ -847,6 +887,8 @@ const fr = ({ pdf }) => {
                                 </em>
                                 . Gen&egrave;ve, 2014 ; disponible sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--fr/index.htm"
                                     title="Profits et pauvret&eacute;&nbsp;: L&rsquo;&eacute;conomie du travail forc&eacute;"
                                 >
@@ -860,6 +902,8 @@ const fr = ({ pdf }) => {
                                 convention sur le travail forc&eacute;&nbsp;;
                                 disponible sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/dyn/normlex/fr/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174672,fr:NO"
                                     title="Protocole 2014 de l'Organisation internationale du Travail relatif &agrave; la convention sur le travail forc&eacute;"
                                 >
@@ -874,6 +918,8 @@ const fr = ({ pdf }) => {
                                 la suppression effective du travail
                                 forc&eacute;, 2014&nbsp;; disponible sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/dyn/normlex/fr/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174688,fr:NO"
                                     title="Recommandation sur des mesures compl&eacute;mentaires en vue de la suppression effective du travail forc&eacute;"
                                 >
@@ -891,6 +937,8 @@ const fr = ({ pdf }) => {
                                 , Bruxelles, 2010&nbsp;; disponible [en anglais]
                                 sur{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ituc-csi.org/ituc-guide-how-to-combat-forced.html?lang=en"
                                     title="Comment lutter contre le travail forc&eacute; et la traite des &ecirc;tres humains"
                                 >

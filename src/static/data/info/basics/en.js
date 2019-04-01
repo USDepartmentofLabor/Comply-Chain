@@ -2,6 +2,8 @@ import React from "react";
 import Accordion from "../../../../components/Accordion";
 import ExampleInAction from "../../../../components/ExampleInAction";
 import OwnWords from "../../../../components/OwnWords";
+import graph from "../../../images/graph.jpg";
+import betterwork from "../../../images/betterwork.jpg";
 import { Link } from "react-router-dom";
 
 const en = ({ pdf }) => {
@@ -10,7 +12,7 @@ const en = ({ pdf }) => {
             <h1>
                 <strong>The Basics of a Social Compliance System</strong>
             </h1>
-            <Accordion>
+            <Accordion pdf={pdf}>
                 <Accordion.Section>
                     <Accordion.Title>Learning Objectives</Accordion.Title>
                     <Accordion.Panel>
@@ -83,7 +85,7 @@ const en = ({ pdf }) => {
                             chain.
                         </p>
                         <img
-                            src="info-pages/images/graph.jpg"
+                            src={graph}
                             alt="The graph illustrates the cotton supply chain."
                         />
                         <div className="small-text">
@@ -99,6 +101,8 @@ const en = ({ pdf }) => {
                                     </em>{" "}
                                     New Delhi, 2012; available from{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="http://globalmarch.org/wp-content/uploads/2017/09/Dirty-Cotton-Report.pdf"
                                         title="Dirty Cotton: A Research on Child Labour, Slavery, Trafficking and Exploitation in Cotton and Cotton Seed Farming in India."
                                     >
@@ -112,6 +116,8 @@ const en = ({ pdf }) => {
                                     Can Be Done." theguardian.com [online]
                                     [cited 2015]; available from{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="https://labs.theguardian.com/unicef-child-labour/"
                                         title="Child Labour in the Fashion Supply Chain: Where, Why, And What Can Be Done."
                                     >
@@ -125,6 +131,8 @@ const en = ({ pdf }) => {
                                     . Washington, D.C., July 27, 2016; available
                                     from{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="https://www.state.gov/j/tip/rls/tiprpt/countries/2016/258874.htm"
                                         title="Trafficking in Persons Report- 2016"
                                     >
@@ -280,6 +288,8 @@ const en = ({ pdf }) => {
                                 <p>
                                     The{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="http://betterwork.org/"
                                         title="Better Work"
                                     >
@@ -305,6 +315,8 @@ const en = ({ pdf }) => {
                                     and working hours. <em>Better Work</em>{" "}
                                     makes these assessments public through its{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="https://portal.betterwork.org/transparency"
                                         title="Transparency Portal"
                                     >
@@ -326,7 +338,7 @@ const en = ({ pdf }) => {
                                     governments and institutions.
                                 </p>
                                 <img
-                                    src="info-pages/images/betterwork.jpg"
+                                    src={betterwork}
                                     alt="Work being done in a well-lit and clean factory"
                                 />
                                 <br />
@@ -342,6 +354,8 @@ const en = ({ pdf }) => {
                                 requirements for any company wishing to join.
                                 For example, members of the{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.eiccoalition.org/"
                                     title="Electronics Industry Citizenship Coalition (EICC)"
                                 >
@@ -350,6 +364,8 @@ const en = ({ pdf }) => {
                                 </a>{" "}
                                 commit to a common{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.eiccoalition.org/standards/"
                                     title="Code of Conduct"
                                 >
@@ -362,6 +378,8 @@ const en = ({ pdf }) => {
                                 through a range of mandatory assessments,
                                 including the{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.eiccoalition.org/standards/vap/"
                                     title="Validated Assessment Process"
                                 >
@@ -377,6 +395,8 @@ const en = ({ pdf }) => {
                                 compliance systems that span multiple
                                 industries. One such program is the{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ethicaltrade.org"
                                     title="Ethical Trading Initiative (ETI)"
                                 >
@@ -386,6 +406,8 @@ const en = ({ pdf }) => {
                                 non-governmental organizations (NGOs) and
                                 corporate members, ETI developed the{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ethicaltrade.org/eti-base-code"
                                     title="ETI Base Code"
                                 >
@@ -394,6 +416,8 @@ const en = ({ pdf }) => {
                                 . Companies that join ETI must adopt this Code
                                 and agree to{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ethicaltrade.org/resources/principles-implementation"
                                     title="ETI&rsquo;s Principles of Implementation"
                                 >
@@ -404,12 +428,16 @@ const en = ({ pdf }) => {
                                 in tackling on-the-ground compliance issues. For
                                 more information, see{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ethicaltrade.org/node/1192?lang=en"
                                     title="ETI's toolkit"
                                 >
                                     ETI's toolkit
                                 </a>
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ethicaltrade.org/node/1650"
                                     title="resources for ethical trade"
                                 >
@@ -548,6 +576,8 @@ const en = ({ pdf }) => {
                                 <p>
                                     Source:{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                                         title="United Nations Guiding Principles on Human Rights and Business"
                                     >
@@ -582,6 +612,8 @@ const en = ({ pdf }) => {
                                 <p>
                                     Source:{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="http://www.oecd.org/corporate/mne/"
                                         title="OECD Guidelines for Multinational Enterprises 2011"
                                     >
@@ -624,6 +656,8 @@ const en = ({ pdf }) => {
                                 <p>
                                     Source:{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2"
                                         title="IFC Performance Standard 2"
                                     >
@@ -668,6 +702,8 @@ const en = ({ pdf }) => {
                             <p>
                                 The{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://responsiblesourcingtool.org/"
                                     title="Responsible Sourcing Tool"
                                 >
@@ -676,6 +712,8 @@ const en = ({ pdf }) => {
                                 , launched in 2016 by Verit&eacute; and the U.S.
                                 Department of State, contains{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://responsiblesourcingtool.org/riskmanagementprocess"
                                     title="Sample Supply Chain Risk Management Process Flow"
                                 >
@@ -687,6 +725,8 @@ const en = ({ pdf }) => {
                                 to detect, mitigate, and prevent human
                                 trafficking in a supply chain. In addition, its{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://responsiblesourcingtool.org/supplychainassurance"
                                     title="Sample Supply Chain Assurance Program"
                                 >
@@ -702,6 +742,8 @@ const en = ({ pdf }) => {
                                 achieve and manage a sustainable supply chain{" "}
                                 <em>is </em>
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://supply-chain.unglobalcompact.org/site/article/183"
                                     title="Supply Chain Sustainability: A Practical Guide for Continuous Improvement"
                                 >
@@ -750,6 +792,8 @@ const en = ({ pdf }) => {
                                 <p>
                                     <em>Excerpted from </em>
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="http://www.eiccoalition.org/standards/code-of-conduct/"
                                         title="EICC Code of Conduct v. 5.1 (2016"
                                     >
@@ -950,6 +994,8 @@ const en = ({ pdf }) => {
                             Corporation&rsquo;s social compliance function sits
                             within its &ldquo;
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://about.nike.com/pages/sustainable-innovation"
                                 title="sustainable innovation team"
                             >
@@ -1055,6 +1101,8 @@ const en = ({ pdf }) => {
                                 procedures, appeals and complaints; available
                                 from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="https://www.iso.org/home.html"
                                     title="International Organization for Standardization"
                                 >
@@ -1068,6 +1116,8 @@ const en = ({ pdf }) => {
                                 effective Environmental and Social Management
                                 Systems (ESMS); available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ifc.org/wps/wcm/connect/b29a4600498009cfa7fcf7336b93d75f/Updated_GN1-2012.pdf?MOD=AJPERES"
                                     title="the elements of effective Environmental and Social Management Systems (ESMS)"
                                 >
@@ -1095,6 +1145,8 @@ const en = ({ pdf }) => {
                                 Measure and Improve Your Labor Standards
                                 Performance. 2010; available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ifc.org/wps/wcm/connect/a4aab30048865910b81afa6a6515bb18/SAI_IFC_LaborHandbook_Ch1-Intro.pdf?MOD=AJPERES"
                                     title="Measure and Improve Your Labor Standards Performance."
                                 >
@@ -1113,6 +1165,8 @@ const en = ({ pdf }) => {
                                 online training to boost competencies; available
                                 from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://sa-intl.org/index.cfm?fuseaction=Page.viewPage"
                                     title="Social Fingerprint"
                                 >
@@ -1130,6 +1184,8 @@ const en = ({ pdf }) => {
                                 </em>{" "}
                                 New York: March 21, 2011; available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="https://business-humanrights.org/en/un-guiding-principles"
                                     title="Guiding Principles on Business and Human Rights: Implementing the United Nations Protect, Respect and Remedy; Framework."
                                 >

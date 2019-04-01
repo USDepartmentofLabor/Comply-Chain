@@ -1,7 +1,9 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
+import styled from "styled-components";
 import Routes from "../../modules/config/routes";
+import { theme } from "../../modules/config/theme";
 import BrandStrip from "../BrandStrip";
 import Icons from "../Icons";
 import { withLanguageContext } from "../Language";
@@ -9,7 +11,57 @@ import BottomNavBar from "../Menu/BottomNavBar";
 import NavBar from "../Menu/NavBar";
 import { Navigator } from "../Navigation";
 import Share from "../Share";
+import StepProgressBar from "../StepProgessBar/StepProgressBar";
 import ScrollToTop from "./ScrollToTop";
+
+const Main = styled.div`
+    padding: 0 10px;
+`;
+
+const MainWrapper = styled.div`
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 5.2em;
+    margin-top: calc(5.2em + constant(safe-area-inset-top));
+    margin-top: calc(5.2em + env(safe-area-inset-top));
+    margin-bottom: 3.2em;
+    margin-bottom: calc(3.2em + constant(safe-area-inset-bottom));
+    margin-bottom: calc(3.2em + env(safe-area-inset-bottom));
+    overflow-y: scroll;
+`;
+
+const Header = styled.div`
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+`;
+
+const Footer = styled.div`
+    position: fixed;
+    bottom: 0;
+`;
+
+const StepBarWrapper = styled.div`
+    background-color: ${theme.colors.grayLightest};
+    padding: 30px 30px;
+    border-bottom: 1px solid ${theme.colors.grayLight};
+`;
+
+const NavbarWrapper = styled.div``;
+
+const Container = styled.div`
+    margin-top: 1.8em;
+    margin-bottom: 0.8em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    width: 100%;
+`;
 class AppWrapper extends Component {
     constructor(props) {
         super(props);
@@ -82,7 +134,7 @@ class AppWrapper extends Component {
                         to: "/about",
                         id: "about-link"
                     },
-                    icon: Icons.HelpCircle,
+                    icon: Icons.About,
                     label: localizor.strings.general.about
                 }
             ]
@@ -96,20 +148,38 @@ class AppWrapper extends Component {
     }
     render() {
         const { navBarLeftItems, bottomNavItems } = this.state;
+        const { location } = this.props;
         return (
             <ScrollToTop>
-                <BrandStrip />
-                <NavBar leftItems={navBarLeftItems}>
-                    <Navigator />
-                </NavBar>
-                <BottomNavBar id="bottom-nav-bar" items={bottomNavItems} />
+                <Header>
+                    <NavbarWrapper>
+                        <BrandStrip />
+                        <NavBar leftItems={navBarLeftItems} />
+                    </NavbarWrapper>
+                </Header>
+                <MainWrapper id="main">
+                    {location.pathname !== Routes.Home.path && (
+                        <StepBarWrapper id="step_progess_bar">
+                            <StepProgressBar />
+                        </StepBarWrapper>
+                    )}
+                    <Main>
+                        <Container id="container">
+                            <Navigator />
+                        </Container>
+                    </Main>
+                </MainWrapper>
+                <Footer>
+                    <BottomNavBar id="bottom-nav-bar" items={bottomNavItems} />
+                </Footer>
             </ScrollToTop>
         );
     }
 }
 
 AppWrapper.propTypes = {
+    location: PropTypes.object.isRequired,
     localizor: PropTypes.object.isRequired
 };
 
-export default withLanguageContext(AppWrapper);
+export default withRouter(withLanguageContext(AppWrapper));

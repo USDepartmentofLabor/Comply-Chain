@@ -14,6 +14,8 @@ const Wrapper = styled.nav`
     border-top: 1px solid #e0e0e0;
     background-color: ${theme.colors.grayLightest};
     z-index: 1;
+    padding-bottom: constant(safe-area-inset-bottom); /* iOS 11.0 */
+    padding-bottom: env(safe-area-inset-bottom); /* iOS 11.2 */
 `;
 
 const NavItem = styled.div`

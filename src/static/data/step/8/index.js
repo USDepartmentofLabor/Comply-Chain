@@ -1,4 +1,5 @@
 import { Resources } from "./resource";
+import { ExtraInfo } from "./extra";
 import { Topics } from "./topic";
 
 export const StepData = {
@@ -18,7 +19,8 @@ export const StepData = {
                     "Communication that is made available to the public, through a variety of channels, about all elements of a company’s social compliance system."
             }
         ],
-        furtherResources: Resources.en
+        furtherResources: Resources.en,
+        extraInfo: ExtraInfo.en
     },
     es: {
         title: "Octavo paso: Notificación del desempeño",
@@ -36,7 +38,8 @@ export const StepData = {
                     "Información que se pone a disposición del público por distintas vías, sobre todos los elementos del sistema de cumplimiento social de una empresa."
             }
         ],
-        furtherResources: Resources.es
+        furtherResources: Resources.es,
+        extraInfo: ExtraInfo.es
     },
     fr: {
         title: "Huitième étape: Rendre compte des résultats",
@@ -54,6 +57,7 @@ export const StepData = {
                     "Communication sur l’ensemble des éléments du système de conformité sociale d’une entreprise mise à la disposition du public par toute une série de chaînes de communication."
             }
         ],
-        furtherResources: Resources.fr
+        furtherResources: Resources.fr,
+        extraInfo: ExtraInfo.fr
     }
 };

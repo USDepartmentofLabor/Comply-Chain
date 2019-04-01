@@ -3,9 +3,6 @@ import React from "react";
 const fr = () => {
     return (
         <div>
-            <p>
-                <strong>Autres ressources</strong>
-            </p>
             <ol>
                 <li>
                     Nations Unies.{" "}
@@ -15,7 +12,9 @@ const fr = () => {
                         interpr&eacute;tatif.{" "}
                     </em>
                     2012&nbsp;; disponible sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ohchr.org/Documents/Publications/HR.PUB.12.2_En.pdf"
                         title="La responsabilit&eacute; des entreprises de respecter les droits de l'homme&nbsp;: Guide interpr&eacute;tatif."
                     >
@@ -37,7 +36,9 @@ const fr = () => {
                         visuel d&rsquo;animation.
                     </em>{" "}
                     2015&nbsp;; disponible sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.fao.org/3/a-i3527e.pdf"
                         title="Prot&eacute;geons nos enfants des pesticides&nbsp;: Guide visuel d&rsquo;animation."
                     >
@@ -52,7 +53,9 @@ const fr = () => {
                         standards in the readymade garment industry
                     </em>
                     , s.d.&nbsp;; disponible [en anglais] sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.giz.de/en/downloads/giz2016-en-social-environmental-standards-industry.pdf"
                         title="Promotion of social, environmental, and production standards in the readymade garment industry"
                     >
@@ -68,7 +71,9 @@ const fr = () => {
                     </em>
                     n<sup>o</sup>&nbsp;7. 2009&nbsp;; disponible [en anglais]
                     sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.kpesic.com/sites/default/files/IFC%2BGrievance%2BMechanisms.pdf%20"
                         title="Good Practice Note: Addressing Grievances from Project-Affected Communities, n<sup>o</sup>&nbsp;7."
                     >
@@ -84,7 +89,9 @@ const fr = () => {
                         kind of support is needed?
                     </em>{" "}
                     novembre 2016&nbsp;; disponible [en anglais] sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/wcmsp5/groups/public/---ed_emp/---emp_ent/---ifp_seed/documents/publication/wcms_535220.pdf"
                         title="SMEs and Human Rights: What is the current state of play, what are the opportunities and challenge, what kind of support is needed?"
                     >
@@ -107,7 +114,9 @@ const fr = () => {
                         Responsibility to Respect Human Rights.{" "}
                     </em>
                     2014 ; disponible [en anglais] sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.shiftproject.org/media/resources/docs/Shift_remediationUNGPs_2014.pdf"
                         title="Remediation, Grievance Mechanisms and the Corporate Responsibility to Respect Human Rights."
                     >
@@ -125,7 +134,9 @@ const fr = () => {
                         victims of business-related human rights abuse&nbsp;;{" "}
                     </em>
                     10&nbsp;mai 2016&nbsp;; disponible [en anglais] sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ohchr.org/Documents/Issues/Business/DomesticLawRemedies/A_HRC_32_19_AEV.pdf"
                         title="Improving accountability and access to remedy for victims of business-related human rights abuse;"
                     >

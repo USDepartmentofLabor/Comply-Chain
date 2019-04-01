@@ -3,9 +3,6 @@ import React from "react";
 const en = () => {
     return (
         <div>
-            <p>
-                <strong>Further Resources</strong>
-            </p>
             <ol>
                 <li>
                     Bader, Christine.{" "}
@@ -14,7 +11,9 @@ const en = () => {
                         Enough?
                     </em>{" "}
                     Forbes.com. March 5, 2012. available at{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.forbes.com/sites/forbesleadershipforum/2012/03/05/is-the-organization-investigating-apples-factories-good-enough/"
                         title="Is the Organization Investigating Apple's Factories Good Enough?"
                     >
@@ -30,7 +29,9 @@ const en = () => {
                     </em>
                     , Working Paper No., 29, Corporate Social Responsibility
                     Initiative. November 2006; available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.hks.harvard.edu/m-rcbg/CSRI/publications/workingpaper_29_casey.pdf"
                         title="Meaningful Change: Raising the Bar in Supply Chain Workplace Standards"
                     >
@@ -51,7 +52,9 @@ const en = () => {
                         Companies Doing Business in Emerging Markets.
                     </em>{" "}
                     May 2007; available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.scribd.com/doc/16903354/Stakeholder-Engagement-A-Good-Practice-Handbook-for-Companies-Doing-Business-in-Emerging-Markets-May-2007"
                         title="Stakeholder Engagement: A Good Practice Handbook for Companies Doing Business in Emerging Markets."
                     >
@@ -62,7 +65,9 @@ const en = () => {
                 <li>
                     ILO, IOE. <em>Child Labour Guidance Tool for Business</em>,
                     2015{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/ipecinfo/product/download.do?type=document&amp;id=27555"
                         title="Child Labour Guidance Tool for Business"
                     >
@@ -102,12 +107,14 @@ const en = () => {
                         List of Goods Produced by Child Labor or Forced Labor.
                     </em>{" "}
                     Washington, DC, 2016; available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/reports/child-labor/list-of-goods/"
                         title="List of Goods Produced by Child Labor or Forced Labor."
                     >
                         https://www.dol.gov/ilab/reports/child-labor/list-of-goods/
-                    </a>{" "}
+                    </a>
                     .
                 </li>
             </ol>

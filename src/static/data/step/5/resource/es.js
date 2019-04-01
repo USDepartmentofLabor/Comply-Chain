@@ -3,9 +3,6 @@ import React from "react";
 const es = () => {
     return (
         <div>
-            <p>
-                <strong>Recursos adicionales</strong>
-            </p>
             <ol>
                 <li>
                     Edmonds, Casper.{" "}
@@ -19,7 +16,9 @@ const es = () => {
                         , 2005;{" "}
                     </em>
                     versi&oacute;n triling&uuml;e disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://white.lim.ilo.org/ipec/documentos/2005_ethical_considerations_nepal_trilingual_es.pdf"
                         title=". <i>Consideraciones &eacute;ticas en la investigaci&oacute;n sobre ni&ntilde;os y ni&ntilde;as sometidos a las peores formas de trabajo infantil en Nepal</i>, 2005"
                     >
@@ -33,7 +32,9 @@ const es = () => {
                         <i>Manual para empleadores y empresas.</i>
                     </em>{" "}
                     Ginebra, 2015; disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/global/topics/forced-labour/lang--en/index.htm"
                         title="<i>Lucha contra el trabajo forzoso:</i> <i>Manual para empleadores y empresas</i>"
                     >
@@ -45,7 +46,9 @@ const es = () => {
                         <i>El trabajo decente y la econom&iacute;a informal</i>
                     </em>
                     . Ginebra, 2002; disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/public/english/standards/relm/ilc/ilc90/pdf/rep-vi.pdf"
                         title="El trabajo decente y la econom&iacute;a informal."
                     >
@@ -63,7 +66,9 @@ const es = () => {
                     </em>
                     1° de marzo de 2016; disponible en idioma ingl&eacute;s
                     solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm."
                         title="<i>Eliminating and Preventing Forced Labour: Checkpoints</i>"
                     >
@@ -79,7 +84,9 @@ const es = () => {
                     </em>
                     . Ginebra, 2011; disponible en idioma ingl&eacute;s
                     solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/global/publications/books/WCMS_182084/lang--es/index.htm"
                         title="<i>Hard to see, harder to count - Survey guidelines to estimate forced labour of adults and children</i>"
                     >
@@ -94,7 +101,9 @@ const es = () => {
                         y seguimiento del trabajo infantil.
                     </em>{" "}
                     2005; disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/ipecinfo/product/viewProduct.do;?productId=1500"
                         title="Directrices para el desarrollo de procesos de vigilancia y seguimiento del trabajo infantil."
                     >
@@ -109,7 +118,9 @@ const es = () => {
                         </i>
                     </em>{" "}
                     2008; disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ituc-csi.org/IMG/pdf/guide_forced_labour_EN.pdf"
                         title="Mini gu&iacute;a de acci&oacute;n: Trabajo forzoso"
                     >
@@ -128,7 +139,9 @@ const es = () => {
                     </em>
                     Sheffield Political Economy Research Institute, enero de
                     2016; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://speri.dept.shef.ac.uk/wp-content/uploads/2016/01/Global-Brief-1-Ethical-Audits-and-the-Supply-Chains-of-Global-Corporations.pdf"
                         title="Ethical Audits and the Supply Chains of Global Corporations."
                     >
@@ -145,7 +158,9 @@ const es = () => {
                         </i>{" "}
                     </em>
                     disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://helpwanted.verite.org/helpwanted/toolkit"
                         title="<i>Kit de herramientas para la contrataci&oacute;n justa</i>"
                     >
@@ -161,7 +176,9 @@ const es = () => {
                         <i>Recruitment and Employment Benchmarks</i>;{" "}
                     </em>
                     disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/recruitmentandemployment"
                         title="<i>Responsible Sourcing Tool:</i> <i>Recruitment and Employment Benchmarks</i>"
                     >
@@ -176,7 +193,9 @@ const es = () => {
                         <i>Sample Supplier Self-Assessment;</i>
                     </em>{" "}
                     disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://responsiblesourcingtool.org/supplierselfassessment"
                         title="<i>Responsible Sourcing Tool:</i> <i>Sample Supplier Self-Assessment</i>"
                     >
@@ -191,7 +210,9 @@ const es = () => {
                         <i>Conducting Migrant Worker Interviews;</i>{" "}
                     </em>
                     disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/workerinterviews"
                         title="<i>Responsible Sourcing Tool:</i> <i>Conducting Migrant Worker Interviews</i>"
                     >

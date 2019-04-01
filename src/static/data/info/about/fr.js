@@ -60,7 +60,7 @@ const fr = ({ pdf }) => {
                 au niveau international.&nbsp;
             </p>
             <p />
-            <Accordion>
+            <Accordion pdf={pdf}>
                 <Accordion.Section>
                     <Accordion.Title>
                         <strong>
@@ -76,6 +76,8 @@ const fr = ({ pdf }) => {
                             prenant part &agrave; la production de biens
                             figurant sur [la{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://www.dol.gov/ilab/reports/child-labor/list-of-goods/"
                                 title="Liste des biens issus du travail des enfants ou du travail forc&eacute;"
                             >
@@ -103,6 +105,8 @@ const fr = ({ pdf }) => {
                             septembre&nbsp;2015, les &Eacute;tats membres des
                             Nations Unies ont en effet adopt&eacute; les{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://sustainabledevelopment.un.org/?menu=1300"
                                 title="Objectifs de d&eacute;veloppement durable"
                             >
@@ -117,6 +121,8 @@ const fr = ({ pdf }) => {
                             d&eacute;finies pour chaque ODD. En vertu de
                             l&rsquo;
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://sustainabledevelopment.un.org/sdg8"
                                 title="ODD&nbsp;8"
                             >
@@ -141,6 +147,8 @@ const fr = ({ pdf }) => {
                         <p>
                             L&rsquo;ILAB participe activement &agrave; l&rsquo;
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.alliance87.org/"
                                 title="L&rsquo;Alliance&nbsp;8.7"
                             >
@@ -218,6 +226,8 @@ const fr = ({ pdf }) => {
                             Elle constitue &eacute;galement une importante
                             composante du{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://www.state.gov/documents/organization/265918.pdf"
                                 title="Plan d&rsquo;action national sur la conduite commerciale responsable (NAP-RBC)"
                             >
@@ -227,6 +237,8 @@ const fr = ({ pdf }) => {
                             du gouvernement des &Eacute;tats-Unis, mis au point
                             en vertu des{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.oecd.org/corporate/mne/1922428.pdf"
                                 title="Principes directeurs pour les entreprises multinationales de l'Organisation de coop&eacute;ration et de d&eacute;veloppement &eacute;conomiques"
                             >
@@ -237,6 +249,8 @@ const fr = ({ pdf }) => {
                             </a>{" "}
                             et des{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                                 title="Principes directeurs des Nations Unies relatifs aux entreprises et aux droits de l'homme"
                             >
@@ -265,6 +279,8 @@ const fr = ({ pdf }) => {
                             de lutte internationale contre le travail des
                             enfants par le biais de{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://www.dol.gov/ilab/projects/"
                                 title="projets d&rsquo;assistance technique"
                             >
@@ -280,6 +296,8 @@ const fr = ({ pdf }) => {
                         <ul>
                             <li>
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.dol.gov/agencies/ilab/ilab-around-world"
                                     title="En savoir plus"
                                 >
@@ -415,6 +433,8 @@ const fr = ({ pdf }) => {
                             propre exp&eacute;rience. Pour ce faire, veuillez
                             nous les faire parvenir par{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="mailto:GlobalKids@dol.gov?subject=Commentaires sur l%27appli Comply Chain"
                                 title="courrier &eacute;lectronique adress&eacute; &agrave; l'ILAB"
                             >

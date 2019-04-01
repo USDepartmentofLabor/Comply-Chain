@@ -14,7 +14,7 @@ const SearchLabel = styled.label`
     & svg {
         content: "";
         position: absolute;
-        bottom: -26px;
+        bottom: -24px;
         height: 20px;
         font-size: 2em;
         z-index: 5;
@@ -26,7 +26,7 @@ const SearchInput = styled.input`
     color: ${theme.colors.base};
     background-color: ${theme.colors.white};
     border: 1px solid ${theme.colors.grayLight};
-    padding: 10px 25px;
+    padding: 10px 30px;
     width: 100%;
     box-sizing: border-box;
 `;

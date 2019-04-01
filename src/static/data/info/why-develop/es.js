@@ -59,7 +59,7 @@ const es = ({ pdf }) => {
                     aplicaci&oacute;n
                 </li>
                 <br />
-                <Accordion>
+                <Accordion pdf={pdf}>
                     <Accordion.Section>
                         <Accordion.Title>
                             <strong>

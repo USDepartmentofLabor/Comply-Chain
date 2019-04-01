@@ -3,9 +3,6 @@ import React from "react";
 const fr = () => {
     return (
         <div>
-            <p>
-                <strong>Autres ressources</strong>
-            </p>
             <ol>
                 <li>
                     Bader, Christine.{" "}
@@ -14,7 +11,9 @@ const fr = () => {
                         Good Enough?
                     </em>{" "}
                     Forbes.com. 5 mars 2012 ; disponible [en anglais] sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.forbes.com/sites/forbesleadershipforum/2012/03/05/is-the-organization-investigating-apples-factories-good-enough/"
                         title="Is the Organization Investigating Apple's Factories Good Enough?"
                     >
@@ -31,7 +30,9 @@ const fr = () => {
                     , Document de travail n<sup>o</sup>&nbsp;29, Corporate
                     Social Responsibility Initiative. Novembre 2006 ; disponible
                     [en anglais] sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.hks.harvard.edu/m-rcbg/CSRI/publications/workingpaper_29_casey.pdf"
                         title="Meaningful Change: Raising the Bar in Supply Chain Workplace Standards"
                     >
@@ -52,7 +53,9 @@ const fr = () => {
                         Companies Doing Business in Emerging Markets.
                     </em>{" "}
                     Mai 2007 ; disponible [en anglais] sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.scribd.com/doc/16903354/Stakeholder-Engagement-A-Good-Practice-Handbook-for-Companies-Doing-Business-in-Emerging-Markets-May-2007"
                         title="Stakeholder Engagement: A Good Practice Handbook for Companies Doing Business in Emerging Markets."
                     >
@@ -67,7 +70,9 @@ const fr = () => {
                         &agrave; l&apos;intention des entreprises{" "}
                     </em>
                     , 2015{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.ilo.org/ipecinfo/product/download.do?type=document&id=28416"
                         title="Outil d'orientation sur le travail des enfants &agrave; l'intention des entreprises"
                     >
@@ -112,7 +117,9 @@ const fr = () => {
                         List of Goods Produced by Child Labor or Forced Labor.
                     </em>{" "}
                     Washington, DC, 2016 ; disponible [en anglais] sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.dol.gov/ilab/reports/child-labor/list-of-goods/"
                         title="List of Goods Produced by Child Labor or Forced Labor."
                     >

@@ -89,19 +89,5 @@ describe("NavBar", () => {
                 expect(breadcrumbs.length).toBe(1);
             });
         });
-
-        describe("rendered container", () => {
-            it("renders children", () => {
-                props.children = (
-                    <div id="test-children">
-                        <span>Test</span>
-                    </div>
-                );
-
-                const children = navBar().find({ id: "test-children" });
-
-                expect(children.length).toBe(1);
-            });
-        });
     });
 });
