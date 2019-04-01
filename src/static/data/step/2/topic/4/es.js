@@ -158,7 +158,7 @@ const es = ({ pdf }) => {
                 </a>
             </p>
             <div id="cocoa_chains">
-                <Accordion>
+                <Accordion pdf={pdf}>
                     <Accordion.Section>
                         <Accordion.Title>
                             Descripci&oacute;n del gr&aacute;fico
@@ -234,7 +234,7 @@ const es = ({ pdf }) => {
                 </a>
             </p>
             <div>
-                <Accordion>
+                <Accordion pdf={pdf}>
                     <Accordion.Section>
                         <Accordion.Title>
                             Descripci&oacute;n del gr&aacute;fico
