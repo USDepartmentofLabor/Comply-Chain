@@ -35,11 +35,25 @@ class Accordion extends Component {
         } else {
             this.panel[sectionIndex].style.maxHeight =
                 this.panel[sectionIndex].scrollHeight + "px";
+            setTimeout(() => {
+                if (!this.isVisible(this.title[sectionIndex])) {
+                    this.scrollToTitle(sectionIndex);
+                }
+            }, 215);
         }
     };
 
+    isVisible = ele => {
+        var rect = ele.getBoundingClientRect();
+        var viewHeight = Math.max(
+            document.documentElement.clientHeight,
+            window.innerHeight
+        );
+        return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+    };
+
     scrollToTitle = sectionIndex => {
-        window.scrollTo(0, this.title[sectionIndex].offsetTop);
+        this.title[sectionIndex].scrollIntoView(true);
     };
 
     closeOthers = sectionIndex => {
