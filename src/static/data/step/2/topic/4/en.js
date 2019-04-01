@@ -1,6 +1,6 @@
 import React from "react";
-import cocoaSupplyChains from "../../images/cocoa_supply_chains.png";
-import genericImport from "../../images/generic_import.png";
+import cocoaSupplyChains from "../../../../../images/cocoa_supply_chains.png";
+import genericImport from "../../../../../images/generic_import.png";
 import Accordion from "../../../../../../components/Accordion";
 
 const en = ({ pdf }) => {

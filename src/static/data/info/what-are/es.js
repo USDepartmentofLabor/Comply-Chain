@@ -1,7 +1,7 @@
 import React from "react";
 import Accordion from "../../../../components/Accordion";
-import childBrick from "../images/child_brick.jpg";
-import unoDc from "../images/UNO_DC_es.png";
+import childBrick from "../../../images/child_brick.jpg";
+import unoDc from "../../../images/UNO_DC_es.png";
 
 const es = ({ pdf }) => {
     return (
