@@ -47,7 +47,7 @@ const en = ({ pdf }) => {
                     , and its implementing regulations
                 </li>
                 <br />
-                <Accordion>
+                <Accordion pdf={pdf}>
                     <Accordion.Section>
                         <Accordion.Title>
                             <strong>

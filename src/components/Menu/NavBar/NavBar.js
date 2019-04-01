@@ -9,12 +9,11 @@ import { withLanguageContext } from "../../Language";
 import Breadcrumbs from "../Breadcrumbs";
 import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 import SideNav from "../SideNav";
+import { theme } from "../../../modules/config/theme";
 
 const NavbarRoot = styled.div`
-    position: fixed;
-    top: 25px;
     background-color: #fff;
-    border-bottom: 1px solid #f1f1f1;
+    border-bottom: 1px solid ${theme.colors.grayLight};
     width: 100%;
     z-index: 100;
 `;
@@ -34,32 +33,22 @@ const NavItem = styled.div`
     cursor: pointer;
 `;
 
-const Main = styled.div`
-    margin: 0;
-    padding: 0 10px;
-`;
-
-const Container = styled.div`
-    margin-top: 7em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 4em;
-    max-width: 900px;
-    width: 100%;
-`;
-
 const SideNavFooter = styled.div`
-    padding-bottom: 2em;
+    padding-bottom: 3em;
+    padding-bottom: calc(3em + constant(safe-area-inset-bottom));
+    padding-bottom: calc(3em + env(safe-area-inset-bottom));
 `;
 
 const MenuButton = styled(Button)`
     padding: 16px 16px;
+    width: 90px;
+    height: 55px;
 `;
 
 const StepsMenuItem = styled(SideNav.Item)`
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
     svg {
         font-size: 25px;
     }
@@ -74,7 +63,9 @@ const StepWrapper = styled.div`
     }
 `;
 
-const StepIcon = styled.span``;
+const StepIcon = styled.span`
+    flex-shrink: 0;
+`;
 const StepText = styled.span`
     padding-left: 15px;
 `;
@@ -124,7 +115,7 @@ class NavBar extends Component {
     };
     render() {
         const { visible, stepAccordionActive } = this.state;
-        const { leftItems, rightItems, children, id, localizor } = this.props;
+        const { leftItems, rightItems, id, localizor } = this.props;
         return (
             <div id={id}>
                 <NavbarRoot>
@@ -148,12 +139,14 @@ class NavBar extends Component {
                                 onClick={this.toggleStepAccordion}
                             >
                                 {localizor.strings.general.stepsToBasic}
-                                {!stepAccordionActive && (
-                                    <Icons.ArrowCircleRight />
-                                )}
-                                {stepAccordionActive && (
-                                    <Icons.ArrowCircleDown />
-                                )}
+                                <StepIcon>
+                                    {!stepAccordionActive && (
+                                        <Icons.ArrowCircleRight />
+                                    )}
+                                    {stepAccordionActive && (
+                                        <Icons.ArrowCircleDown />
+                                    )}
+                                </StepIcon>
                             </StepsMenuItem>
 
                             {stepAccordionActive &&
@@ -210,9 +203,6 @@ class NavBar extends Component {
                         </span>
                     </NavbarWrapper>
                 </NavbarRoot>
-                <Main>
-                    <Container id="container">{children}</Container>
-                </Main>
             </div>
         );
     }
@@ -220,7 +210,6 @@ class NavBar extends Component {
 
 NavBar.propTypes = {
     id: PropTypes.string,
-    children: PropTypes.node,
     leftItems: PropTypes.arrayOf(PropTypes.object),
     rightItems: PropTypes.arrayOf(PropTypes.object),
     localizor: PropTypes.object.isRequired

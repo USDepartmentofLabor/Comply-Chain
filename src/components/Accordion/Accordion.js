@@ -118,14 +118,14 @@ Accordion.Title = styled.div`
     }
 
     &:after {
-        content: "\\002B";
+        content: "+";
         color: ${theme.colors.base};
         float: right;
         margin-left: 5px;
     }
     &.active {
         &:after {
-            content: "\\2212";
+            content: "-";
         }
     }
 `;
@@ -153,7 +153,7 @@ Accordion.Section.displayName = "Section";
 
 const PdfTitle = styled(Accordion.Title)`
     &:after {
-        content: "\\2212";
+        content: "-";
     }
 `;
 const PdfPanel = styled(Accordion.Panel)`
@@ -167,7 +167,8 @@ Accordion.Section.propTypes = {
 Accordion.propTypes = {
     id: PropTypes.string,
     children: PropTypes.node.isRequired,
-    keepOpen: PropTypes.bool
+    keepOpen: PropTypes.bool,
+    pdf: PropTypes.bool
 };
 
 export default Accordion;

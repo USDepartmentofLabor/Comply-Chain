@@ -3,9 +3,6 @@ import React from "react";
 const en = () => {
     return (
         <div>
-            <p>
-                <strong>Further Resources</strong>
-            </p>
             <ol>
                 <li>
                     <em>
@@ -13,7 +10,9 @@ const en = () => {
                         Standards Systems: ISEAL Code of Good Practice
                     </em>
                     , December 2014; available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.isealalliance.org/our-work/defining-credibility/codes-of-good-practice/impacts-code"
                         title="Assessing the Impacts of Social and Environmental Standards Systems: ISEAL Code of Good Practice"
                     >

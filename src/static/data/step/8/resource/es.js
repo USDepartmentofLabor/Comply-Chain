@@ -3,9 +3,6 @@ import React from "react";
 const es = () => {
     return (
         <div>
-            <p>
-                <strong>Recursos adicionales</strong>
-            </p>
             <ol>
                 <li>
                     Global Reporting Initiative, el Pacto Mundial de las
@@ -18,7 +15,9 @@ const es = () => {
                     </em>
                     <i>; the Ethical Globalization Initiative</i>, noviembre de
                     2009; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.globalreporting.org/resourcelibrary/Human_Rights_analysis_trends.pdf"
                         title="Corporate Human Rights Reporting: An Analysis of Current Trends"
                     >
@@ -33,7 +32,11 @@ const es = () => {
                     </em>
                     . [En la web, consultado el 16 de mayo de 2016.]; disponible
                     en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="http://www.ungpreporting.org/reportingdatabase/.%20">
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ungpreporting.org/reportingdatabase/.%20"
+                    >
                         http://www.ungpreporting.org/reportingdatabase/.
                     </a>
                 </li>
@@ -47,7 +50,9 @@ const es = () => {
                         basadas en el marco GRI
                     </i>
                     . Ginebra, 2014; disponible en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.unicef.org/csr/css/Childrens_Rights_in_Reporting_Second_Edition_HR.pdf"
                         title="Fondo de las Naciones Unidas para la Infancia, <i>Los derechos del ni&ntilde;o en
 informes de sostenibilidad: Una gu&iacute;a para incorporar los derechos del ni&ntilde;o en memorias
@@ -64,7 +69,9 @@ de sostenibilidad basadas en el marco GRI</i>. "
                         Communicate Progress on the UN Global Compact Principles
                     </i>
                     , 2013; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.globalreporting.org/resourcelibrary/UNGC-G4-linkage-publication.pdf"
                         title="Pacto Mundial de las Naciones Unidas y la Stichting Global Reporting Initiative (GRI)"
                     >

@@ -1,14 +1,49 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
+import { withRouter } from "react-router-dom";
+import styled from "styled-components";
 import AccordionView from "../../../../components/AccordionView";
+import Bookmarkable from "../../../../components/Bookmarkable";
+import Button from "../../../../components/Button";
 import Icons from "../../../../components/Icons";
 import { withLanguageContext } from "../../../../components/Language";
-import Button from "../../../../components/Button";
 import KeyTermList from "../KeyTermList";
 import LearningObjectiveList from "../LearningObjectiveList";
 import TopicsList from "../TopicList";
-import { withRouter } from "react-router-dom";
-import { markStepComplete } from "../../../../modules/storage";
+
+const StepNavButtonGroup = styled.div`
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    & > * {
+        margin: 0 5px;
+    }
+    & > :first-child {
+        margin-left: 0;
+    }
+    & > :last-child {
+        margin-right: 0;
+    }
+`;
+
+const HeaderIcon = styled.span`
+    vertical-align: middle;
+    padding-right: 10px;
+`;
+
+const NavButton = styled(Button)`
+    position: relative;
+    width: 200px;
+    padding: 15px;
+    & svg {
+        position: absolute;
+        right: ${props => (props.right ? "0" : null)};
+        left: ${props => (props.left ? "0" : null)};
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.25em;
+    }
+`;
 
 class StepView extends Component {
     constructor(props) {
@@ -25,6 +60,7 @@ class StepView extends Component {
             const keyTerms = stepData.keyTerms;
             const Resources = stepData.furtherResources;
             const Training = stepData.training;
+            const ExtraInfo = stepData.extraInfo;
             this.state = {
                 data: {
                     resources: {
@@ -43,7 +79,11 @@ class StepView extends Component {
                     },
                     keyTerms: {
                         title: localizor.strings.general.keyTerms,
-                        content: <KeyTermList terms={keyTerms} />,
+                        content: (
+                            <KeyTermList terms={keyTerms}>
+                                {ExtraInfo && <ExtraInfo />}
+                            </KeyTermList>
+                        ),
                         id: "key-terms"
                     },
                     topics: {
@@ -61,9 +101,9 @@ class StepView extends Component {
                 },
                 nextStep: nextStep && `/steps/${nextStep}`,
                 prevStep: prevStep && `/steps/${prevStep}`,
-                title: stepData.title
+                title: stepData.title,
+                titleString: `steps.${step - 1}.title`
             };
-            markStepComplete(step);
         }
     }
 
@@ -73,13 +113,14 @@ class StepView extends Component {
     };
 
     render() {
-        const { localizor, pdf } = this.props;
+        const { localizor, pdf, step, location } = this.props;
         const {
             nextStep,
             prevStep,
             data,
             data: { learningObjectives, keyTerms, topics, resources, training },
-            title
+            title,
+            titleString
         } = this.state;
         if (!data) {
             return <div>Step not found!</div>;
@@ -92,34 +133,43 @@ class StepView extends Component {
             sections.push(training);
         }
         return (
-            <div>
-                <h3>{title}</h3>
+            <Bookmarkable titleString={titleString} url={location.pathname}>
+                <h3>
+                    <HeaderIcon>
+                        <Icons.StepIcon step={step} />
+                    </HeaderIcon>
+                    {title}
+                </h3>
                 <AccordionView
                     id="step-accordions"
                     sections={sections}
                     pdf={pdf}
                 />
-                {prevStep && (
-                    <Button
-                        id="prev-step"
-                        variant="primaryDarkest"
-                        onClick={() => this.navigate(prevStep)}
-                    >
-                        <Icons.ArrowDropLeft />
-                        {localizor.strings.general.prevStep}
-                    </Button>
-                )}
-                {nextStep && (
-                    <Button
-                        id="next-step"
-                        variant="primary"
-                        onClick={() => this.navigate(nextStep)}
-                    >
-                        {localizor.strings.general.nextStep}
-                        <Icons.ArrowDropRight />
-                    </Button>
-                )}
-            </div>
+                <StepNavButtonGroup>
+                    {prevStep && (
+                        <NavButton
+                            id="prev-step"
+                            variant="primaryDarkest"
+                            onClick={() => this.navigate(prevStep)}
+                            left
+                        >
+                            <Icons.ArrowDropLeft />
+                            {localizor.strings.general.prevStep}
+                        </NavButton>
+                    )}
+                    {nextStep && (
+                        <NavButton
+                            id="next-step"
+                            variant="primary"
+                            onClick={() => this.navigate(nextStep)}
+                            right
+                        >
+                            {localizor.strings.general.nextStep}
+                            <Icons.ArrowDropRight />
+                        </NavButton>
+                    )}
+                </StepNavButtonGroup>
+            </Bookmarkable>
         );
     }
 }
@@ -127,6 +177,7 @@ class StepView extends Component {
 StepView.propTypes = {
     localizor: PropTypes.object.isRequired,
     history: PropTypes.object.isRequired,
+    location: PropTypes.object.isRequired,
     step: PropTypes.number.isRequired,
     pdf: PropTypes.bool
 };

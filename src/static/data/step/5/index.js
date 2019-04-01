@@ -1,4 +1,5 @@
 import { Resources } from "./resource";
+import { ExtraInfo } from "./extra";
 import { Topics } from "./topic";
 
 export const StepData = {
@@ -25,7 +26,8 @@ export const StepData = {
                     "For the purposes of this App, synonymous with auditing."
             }
         ],
-        furtherResources: Resources.en
+        furtherResources: Resources.en,
+        extraInfo: ExtraInfo.en
     },
     es: {
         title: "Quinto paso:  Vigilancia y seguimiento del cumplimiento",
@@ -53,7 +55,8 @@ export const StepData = {
                 termDefinition: "En esta aplicación, es sinónimo de auditoría."
             }
         ],
-        furtherResources: Resources.es
+        furtherResources: Resources.es,
+        extraInfo: ExtraInfo.es
     },
     fr: {
         title: "Cinquième étape:  Surveiller la conformité",
@@ -78,6 +81,7 @@ export const StepData = {
                     "Pour les besoins de la présente appli, synonyme d’audit."
             }
         ],
-        furtherResources: Resources.fr
+        furtherResources: Resources.fr,
+        extraInfo: ExtraInfo.fr
     }
 };

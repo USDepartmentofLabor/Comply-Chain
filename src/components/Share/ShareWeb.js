@@ -5,11 +5,9 @@ import { withRouter } from "react-router-dom";
 import Dropdown from "../Dropdown";
 import { withLanguageContext } from "../Language";
 import { PocketButton } from "../Social";
-import { getPageTitle } from "./ShareUtils";
+import { getPageTitle, getPageHtml } from "./ShareUtils";
 
 class ShareWeb extends Component {
-    handleShare = () => {};
-
     handleEmail = () => {
         const { location, localizor } = this.props;
         let title = getPageTitle(location, localizor) || "Comply Chain";
@@ -18,17 +16,13 @@ class ShareWeb extends Component {
 
     handleCopy = () => {
         copy(window.location.href);
+        console.log(getPageHtml(this.props.location));
     };
 
     render() {
         const { id, className, children } = this.props;
         return (
-            <Dropdown
-                up
-                id={id}
-                className={className}
-                onClick={this.handleShare}
-            >
+            <Dropdown up id={id} className={className}>
                 <Dropdown.Title>{children}</Dropdown.Title>
                 <Dropdown.Content>
                     <Dropdown.Item>

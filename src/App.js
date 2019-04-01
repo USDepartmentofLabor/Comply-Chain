@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "./App.css";
 import AppWrapper from "./components/AppWraapper";
 import { LanguageProvider } from "./components/Language";
-import { isBrowser, isIOS, isAndroid } from "./modules/utils/platform";
-import { isSplashComplete } from "./modules/storage";
+import { storage } from "./modules/storage";
+import { isAndroid, isBrowser, isIOS } from "./modules/utils/platform";
 import { Splash } from "./routes";
+import { AppGlobalStyles } from "./AppGlobalStyles";
 
 class App extends Component {
     state = { splashComplete: false };
@@ -14,11 +14,12 @@ class App extends Component {
     render() {
         return (
             <LanguageProvider>
+                <AppGlobalStyles />
                 {isBrowser() && <AppWrapper />}
                 {(isIOS() || isAndroid()) && (
                     <div>
-                        {isSplashComplete() && <AppWrapper />}
-                        {!isSplashComplete() && (
+                        {storage.splash.isSplashComplete() && <AppWrapper />}
+                        {!storage.splash.isSplashComplete() && (
                             <Splash onComplete={this.handleSplashComplete} />
                         )}
                     </div>
