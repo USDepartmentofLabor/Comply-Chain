@@ -4,9 +4,10 @@ import { matchPath } from "react-router";
 import { BrowserRouter, HashRouter } from "react-router-dom";
 import { __DO_NOT_USE_OR_YOU_WILL_BE_HAUNTED_BY_SPOOKY_GHOSTS as scSecrets } from "styled-components";
 import Routes from "../../modules/config/routes";
-import { isBrowser } from "../../modules/utils/platform";
+import { isBrowser, isIOS } from "../../modules/utils/platform";
 import { LanguageProvider } from "../Language";
 import StyleSheetManager from "./StyleSheetManager";
+import { iosCSS } from "./ios-css";
 
 const { StyleSheet } = scSecrets;
 
@@ -92,12 +93,14 @@ export const getPageHtml = location => {
             if (topic >= 0) {
                 Component = Routes.Topic.component;
             }
-            const html = renderToString(
+            let html = renderToString(
                 mountComponent(<Component pdf={true} match={match} />)
             );
-            return renderToString(StyleSheet.master.toReactElements()).concat(
-                html
-            );
+            html = StyleSheet.master.toHTML().concat(html);
+            if (isIOS()) {
+                html = iosCSS.concat(html);
+            }
+            return html;
         }
     } else {
         // if not a topic or step page then must be an info page
@@ -116,11 +119,14 @@ export const getPageHtml = location => {
         const Component =
             (Routes[route] && Routes[route].component) || undefined;
 
-        const html =
+        let html =
             Component &&
             renderToString(mountComponent(<Component pdf={true} />));
-
-        return renderToString(StyleSheet.master.toReactElements()).concat(html);
+        html = StyleSheet.master.toHTML().concat(html);
+        if (isIOS()) {
+            html = iosCSS.concat(html);
+        }
+        return html;
     }
 
     return undefined;

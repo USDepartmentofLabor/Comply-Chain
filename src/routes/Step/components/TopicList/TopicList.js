@@ -35,9 +35,11 @@ class TopicsList extends Component {
             <Wrapper>
                 {topics.map((topic, i) => {
                     const topicId = i + 1;
+                    const checked = storage.steps.isTopicComplete(step - 1, i);
                     return (
                         <Topic
-                            checked={storage.steps.isTopicComplete(step - 1, i)}
+                            className={`topicList ${checked ? "checked" : ""}`}
+                            checked={checked}
                             key={i}
                         >
                             <StyledLink to={`/steps/${step}/topic/${topicId}`}>
