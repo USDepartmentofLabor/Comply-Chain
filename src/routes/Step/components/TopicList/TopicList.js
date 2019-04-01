@@ -17,7 +17,7 @@ const Topic = styled.li`
             props.checked ? theme.colors.primaryDarker : theme.colors.primary};
     }
     &::before {
-        content: "${props => (props.checked ? "✓" : "\u25A1")}";
+        content: "${props => (props.checked ? "\\2713" : "\\25A1")}";
         padding-right: 7px;
         font-size: 1em;
     }

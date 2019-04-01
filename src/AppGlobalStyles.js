@@ -55,7 +55,7 @@ export const AppGlobalStyles = createGlobalStyle`
         list-style: none;
     }
     ul > li::before {
-        content: "\u2022";
+        content: "\\2022";
         color: #0071bc;
         display: inline-block;
         font-weight: bold;
