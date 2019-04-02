@@ -3,6 +3,8 @@ import { Basics } from "./basics";
 import { KeyResources } from "./key-resources";
 import { WhatAre } from "./what-are";
 import { WhyDevelop } from "./why-develop";
+import { Findings } from "./findings";
+import { Goods } from "./goods";
 
 export const Info = {
     en: {
@@ -30,6 +32,17 @@ export const Info = {
             title: "Key Resources",
             keywords: [],
             content: KeyResources.en
+        },
+        findings: {
+            title: "Findings on the Worst Forms of Child Labor Report",
+            keywords: [],
+            content: Findings.en
+        },
+        goods: {
+            title:
+                "List of Goods Produced by Child Labor or Forced Labor Report",
+            keywords: [],
+            content: Goods.en
         }
     },
     es: {
@@ -57,6 +70,17 @@ export const Info = {
             title: "Recursos clave",
             keywords: [],
             content: KeyResources.es
+        },
+        findings: {
+            title: "Findings on the Worst Forms of Child Labor Report",
+            keywords: [],
+            content: Findings.es
+        },
+        goods: {
+            title:
+                "List of Goods Produced by Child Labor or Forced Labor Report",
+            keywords: [],
+            content: Goods.es
         }
     },
     fr: {
@@ -85,6 +109,17 @@ export const Info = {
             title: "Ressources clés",
             keywords: [],
             content: KeyResources.fr
+        },
+        findings: {
+            title: "Findings on the Worst Forms of Child Labor Report",
+            keywords: [],
+            content: Findings.fr
+        },
+        goods: {
+            title:
+                "List of Goods Produced by Child Labor or Forced Labor Report",
+            keywords: [],
+            content: Goods.fr
         }
     }
 };
