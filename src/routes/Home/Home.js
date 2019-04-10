@@ -23,23 +23,33 @@ class Home extends Component {
         const { localizor } = this.props;
         return (
             <HomeWrapper>
-                <Item image={mica}>
-                    <ItemContent
-                        id="home_whydeveloper"
-                        to={Routes.WhyDevelop.path}
-                    >
-                        <h3>{localizor.strings.info.whyDevelop.title}</h3>
-                    </ItemContent>
-                </Item>
-                <Item green={true} image={diamondMines}>
-                    <ItemContent id="home_basics" to={Routes.Basics.path}>
-                        <h3>{localizor.strings.info.basics.title}</h3>
-                    </ItemContent>
-                </Item>
+                <IconContainer>
+                    <Item image={mica}>
+                        <ItemContent
+                            id="home_whydeveloper"
+                            to={Routes.WhyDevelop.path}
+                        >
+                            <h3>{localizor.strings.info.whyDevelop.title}</h3>
+                        </ItemContent>
+                    </Item>
+                    {storage.bookmarks.retrieveBookmark(`whydevelop`) && (
+                        <BookmarkIcon />
+                    )}
+                </IconContainer>
+                <IconContainer>
+                    <Item green={true} image={diamondMines}>
+                        <ItemContent id="home_basics" to={Routes.Basics.path}>
+                            <h3>{localizor.strings.info.basics.title}</h3>
+                        </ItemContent>
+                    </Item>
+                    {storage.bookmarks.retrieveBookmark(`basics`) && (
+                        <BookmarkIcon />
+                    )}
+                </IconContainer>
 
                 {localizor.strings.steps.map((step, i) => {
                     return (
-                        <CheckIconContainer
+                        <IconContainer
                             id={`home_step_${i + 1}`}
                             key={`home_step_${i + 1}`}
                         >
@@ -56,7 +66,10 @@ class Home extends Component {
                                 </FlexContent>
                             </Item>
                             {storage.steps.isStepComplete(i) && <CheckIcon />}
-                        </CheckIconContainer>
+                            {storage.bookmarks.retrieveBookmark(
+                                `steps.${i}.title`
+                            ) && <BookmarkIcon />}
+                        </IconContainer>
                     );
                 })}
             </HomeWrapper>
@@ -95,7 +108,7 @@ const Icon = styled.span`
     margin-bottom: -10px;
 `;
 
-const CheckIconContainer = styled.div`
+const IconContainer = styled.div`
     position: relative;
 `;
 
@@ -103,6 +116,14 @@ const CheckIcon = styled(Icons.BookmarkCheck)`
     position: absolute;
     top: -4px;
     right: 0;
+    color: ${theme.colors.white};
+    font-size: 2em;
+`;
+
+const BookmarkIcon = styled(Icons.BookmarkRibbon)`
+    position: absolute;
+    top: -4px;
+    right: 1em;
     color: ${theme.colors.white};
     font-size: 2em;
 `;

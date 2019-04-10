@@ -5,7 +5,12 @@ import {
     IoMdArrowDropleft,
     IoMdArrowDropright
 } from "react-icons/io";
-import { MdChevronRight, MdFeedback, MdLightbulbOutline } from "react-icons/md";
+import {
+    MdChevronRight,
+    MdFeedback,
+    MdLightbulbOutline,
+    MdBookmark
+} from "react-icons/md";
 import { StepIcon } from "./StepIcons";
 import { SVG } from "./SVG";
 
@@ -18,6 +23,7 @@ Icons.ArrowDropLeft = IoMdArrowDropleft;
 Icons.ArrowDropRight = IoMdArrowDropright;
 Icons.ArrowCircleRight = IoIosArrowDropright;
 Icons.ArrowCircleDown = IoIosArrowDropdown;
+Icons.BookmarkRibbon = MdBookmark;
 
 Icons.StepIcon = StepIcon;
 
