@@ -32,9 +32,11 @@ class Home extends Component {
                             <h3>{localizor.strings.info.whyDevelop.title}</h3>
                         </ItemContent>
                     </Item>
-                    {storage.bookmarks.retrieveBookmark(`whydevelop`) && (
-                        <BookmarkIcon />
-                    )}
+                    <StatusIcons>
+                        {storage.bookmarks.retrieveBookmark(`whydevelop`) && (
+                            <BookmarkIcon />
+                        )}
+                    </StatusIcons>
                 </IconContainer>
                 <IconContainer>
                     <Item green={true} image={diamondMines}>
@@ -42,9 +44,11 @@ class Home extends Component {
                             <h3>{localizor.strings.info.basics.title}</h3>
                         </ItemContent>
                     </Item>
-                    {storage.bookmarks.retrieveBookmark(`basics`) && (
-                        <BookmarkIcon />
-                    )}
+                    <StatusIcons>
+                        {storage.bookmarks.retrieveBookmark(`basics`) && (
+                            <BookmarkIcon />
+                        )}
+                    </StatusIcons>
                 </IconContainer>
 
                 {localizor.strings.steps.map((step, i) => {
@@ -65,10 +69,14 @@ class Home extends Component {
                                     </PaddedContent>
                                 </FlexContent>
                             </Item>
-                            {storage.steps.isStepComplete(i) && <CheckIcon />}
-                            {storage.bookmarks.retrieveBookmark(
-                                `steps.${i}.title`
-                            ) && <BookmarkIcon />}
+                            <StatusIcons>
+                                {storage.bookmarks.retrieveBookmark(
+                                    `steps.${i}.title`
+                                ) && <BookmarkIcon />}
+                                {storage.steps.isStepComplete(i) && (
+                                    <CheckIcon />
+                                )}
+                            </StatusIcons>
                         </IconContainer>
                     );
                 })}
@@ -112,21 +120,21 @@ const IconContainer = styled.div`
     position: relative;
 `;
 
-const CheckIcon = styled(Icons.BookmarkCheck)`
+const StatusIcons = styled.div`
     position: absolute;
-    top: -4px;
-    right: 0;
+    top: 8px;
+    right: 16px;
     color: ${theme.colors.white};
-    font-size: 2em;
+    font-size: 1.5em;
+
+    & > :not(:last-child) {
+        padding-right: 8px;
+    }
 `;
 
-const BookmarkIcon = styled(Icons.BookmarkRibbon)`
-    position: absolute;
-    top: -4px;
-    right: 1em;
-    color: ${theme.colors.white};
-    font-size: 2em;
-`;
+const CheckIcon = styled(Icons.Check)``;
+
+const BookmarkIcon = styled(Icons.BookmarkCheck)``;
 
 const ItemContent = styled(Link)`
     color: ${theme.colors.white};
