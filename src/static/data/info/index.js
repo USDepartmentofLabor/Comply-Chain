@@ -9,7 +9,7 @@ import { Goods } from "./goods";
 export const Info = {
     en: {
         about: {
-            title: "About this Toolkit",
+            title: "About the Comply Chain App",
             keywords: ["Child Labor", "Forced Labor"],
             content: About.en
         },
@@ -47,7 +47,7 @@ export const Info = {
     },
     es: {
         about: {
-            title: "Acerca de este compendio de instrumentos",
+            title: "Acerca de la aplicación de la cadena de cumplimiento",
             keywords: ["Trabajo infantil", "Trabajo forzoso"],
             content: About.es
         },
@@ -85,7 +85,7 @@ export const Info = {
     },
     fr: {
         about: {
-            title: "À propos de cette boîte à outils",
+            title: "À propos de l’appli Chaîne de conformité",
             keywords: ["Travail des enfants", "Travail forcé"],
             content: About.fr
         },
