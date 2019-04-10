@@ -71,8 +71,10 @@ const Content = styled.div`
 const ContentItem = styled.span`
     border-bottom: solid 1px ${theme.colors.gray};
     padding: 10px 10px;
-    color: ${theme.colors.primaryDarkest};
-    font-size: 1.5em;
+    color: ${theme.colors.primaryDarker};
+    font-size: 1.25em;
+    font-family: ${theme.fonts.headings};
+    font-weight: bold;
 `;
 
 BottomDrawer.propTypes = {
