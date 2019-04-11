@@ -24,12 +24,20 @@ class Home extends Component {
         return (
             <HomeWrapper>
                 <IconContainer>
-                    <Item image={mica}>
-                        <ItemContent
-                            id="home_whydeveloper"
-                            to={Routes.WhyDevelop.path}
-                        >
-                            <h3>{localizor.strings.info.whyDevelop.title}</h3>
+                    <Item
+                        image={infoImageData[0].image}
+                        imageMobilePosition={infoImageData[0].mobile}
+                        imageDesktopPosition={infoImageData[0].desktop}
+                    >
+                        <ItemContent>
+                            <ItemTitle
+                                id="home_whydeveloper"
+                                to={Routes.WhyDevelop.path}
+                            >
+                                <h3>
+                                    {localizor.strings.info.whyDevelop.title}
+                                </h3>
+                            </ItemTitle>
                         </ItemContent>
                     </Item>
                     <StatusIcons>
@@ -39,9 +47,16 @@ class Home extends Component {
                     </StatusIcons>
                 </IconContainer>
                 <IconContainer>
-                    <Item green={true} image={diamondMines}>
-                        <ItemContent id="home_basics" to={Routes.Basics.path}>
-                            <h3>{localizor.strings.info.basics.title}</h3>
+                    <Item
+                        green={true}
+                        image={infoImageData[1].image}
+                        imageMobilePosition={infoImageData[1].mobile}
+                        imageDesktopPosition={infoImageData[1].desktop}
+                    >
+                        <ItemContent>
+                            <ItemTitle id="home_basics" to={Routes.Basics.path}>
+                                <h3>{localizor.strings.info.basics.title}</h3>
+                            </ItemTitle>
                         </ItemContent>
                     </Item>
                     <StatusIcons>
@@ -57,17 +72,24 @@ class Home extends Component {
                             id={`home_step_${i + 1}`}
                             key={`home_step_${i + 1}`}
                         >
-                            <Item green={i % 2 !== 0} image={images[i]}>
-                                <FlexContent>
-                                    <Icon>
-                                        <Icons.StepIcon step={i + 1} />
-                                    </Icon>
-                                    <PaddedContent>
-                                        <ItemContent to={`/steps/${i + 1}`}>
-                                            <h3>{step.title}</h3>
-                                        </ItemContent>
-                                    </PaddedContent>
-                                </FlexContent>
+                            <Item
+                                green={i % 2 !== 0}
+                                image={stepImageData[i].image}
+                                imageMobilePosition={stepImageData[i].mobile}
+                                imageDesktopPosition={stepImageData[i].desktop}
+                            >
+                                <ItemContent>
+                                    <FlexContent>
+                                        <Icon>
+                                            <Icons.StepIcon step={i + 1} />
+                                        </Icon>
+                                        <PaddedContent>
+                                            <ItemTitle to={`/steps/${i + 1}`}>
+                                                <h3>{step.title}</h3>
+                                            </ItemTitle>
+                                        </PaddedContent>
+                                    </FlexContent>
+                                </ItemContent>
                             </Item>
                             <StatusIcons>
                                 {storage.bookmarks.retrieveBookmark(
@@ -85,15 +107,90 @@ class Home extends Component {
     }
 }
 
-const images = [
-    mexicoPeppers,
-    girlIndia,
-    girlsIraq,
-    boyPakistan,
-    girlNepal,
-    girlUganda,
-    girlIndonesia,
-    girlPakistan
+const infoImageData = [
+    {
+        image: mica,
+        mobile: {
+            x: 50,
+            y: 38
+        },
+        desktop: { x: 50, y: 40 }
+    },
+    {
+        image: diamondMines,
+        mobile: {
+            x: 50,
+            y: 25
+        },
+        desktop: { x: 50, y: 25 }
+    }
+];
+
+const stepImageData = [
+    {
+        image: mexicoPeppers,
+        mobile: {
+            x: 50,
+            y: 15
+        },
+        desktop: { x: 50, y: 20 }
+    },
+    {
+        image: girlIndia,
+        mobile: {
+            x: 50,
+            y: 0
+        },
+        desktop: { x: 50, y: 10 }
+    },
+    {
+        image: girlsIraq,
+        mobile: {
+            x: 50,
+            y: 35
+        },
+        desktop: { x: 50, y: 33 }
+    },
+    {
+        image: boyPakistan,
+        mobile: {
+            x: 50,
+            y: 10
+        },
+        desktop: { x: 50, y: 25 }
+    },
+    {
+        image: girlNepal,
+        mobile: {
+            x: 50,
+            y: 15
+        },
+        desktop: { x: 50, y: 23 }
+    },
+    {
+        image: girlUganda,
+        mobile: {
+            x: 50,
+            y: 0
+        },
+        desktop: { x: 50, y: 18 }
+    },
+    {
+        image: girlIndonesia,
+        mobile: {
+            x: 50,
+            y: 0
+        },
+        desktop: { x: 50, y: 20 }
+    },
+    {
+        image: girlPakistan,
+        mobile: {
+            x: 50,
+            y: 0
+        },
+        desktop: { x: 50, y: 18 }
+    }
 ];
 
 const HomeWrapper = styled.div`
@@ -136,12 +233,20 @@ const CheckIcon = styled(Icons.Check)``;
 
 const BookmarkIcon = styled(Icons.BookmarkCheck)``;
 
-const ItemContent = styled(Link)`
+const ItemTitle = styled(Link)`
     color: ${theme.colors.white};
     text-decoration: none;
 `;
 
+const ItemContent = styled.div`
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    padding-right: 30px;
+`;
+
 const Item = styled.div`
+    position: relative;
     background-image: linear-gradient(
             rgba(
                 ${props =>
@@ -160,9 +265,22 @@ const Item = styled.div`
         ),
         url(${props => props.image});
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: ${props =>
+        `${props.imageMobilePosition.x}% ${props.imageMobilePosition.y}%`};
     background-size: cover;
-    padding: 40px 20px 2px;
+
+    @media only screen and (max-width: 600px) {
+        background-position: ${props =>
+            `${props.imageMobilePosition.x}% ${props.imageMobilePosition.y}%`};
+    }
+    @media only screen and (min-width: 601px) {
+        background-position: ${props =>
+            `${props.imageDesktopPosition.x}% ${
+                props.imageDesktopPosition.y
+            }%`};
+    }
+    min-height: 125px;
+    font-size: 1em;
 `;
 
 Home.propTypes = {
