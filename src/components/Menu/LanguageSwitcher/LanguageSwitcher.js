@@ -20,6 +20,7 @@ const LanguageButton = styled.button`
     border-radius: 4px;
     padding: 15px 48px;
     display: inline-block;
+    width: 155px;
     font-size: 1em;
     font-weight: bold;
     border: 1px solid ${theme.colors.white};
@@ -44,6 +45,7 @@ class LanguageSwitcher extends Component {
         this.setState({ currentLanguage: lang });
     };
     render() {
+        const { localizor } = this.props;
         return (
             <LanguageWrapper id="language-switcher">
                 <LanguageButton
@@ -52,7 +54,7 @@ class LanguageSwitcher extends Component {
                         this.handleLanguageChange("en");
                     }}
                 >
-                    English
+                    {localizor.strings.general.english}
                 </LanguageButton>
                 <LanguageButton
                     id="es-btn"
@@ -60,7 +62,7 @@ class LanguageSwitcher extends Component {
                         this.handleLanguageChange("es");
                     }}
                 >
-                    Español
+                    {localizor.strings.general.spanish}
                 </LanguageButton>
                 <LanguageButton
                     id="fr-btn"
@@ -68,7 +70,7 @@ class LanguageSwitcher extends Component {
                         this.handleLanguageChange("fr");
                     }}
                 >
-                    Français
+                    {localizor.strings.general.french}
                 </LanguageButton>
             </LanguageWrapper>
         );

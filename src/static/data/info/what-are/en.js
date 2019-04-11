@@ -1,7 +1,7 @@
 import React from "react";
 import Accordion from "../../../../components/Accordion";
-import childBrick from "../images/child_brick.jpg";
-import unoDc from "../images/UNO_DC.png";
+import childBrick from "../../../images/child_brick.jpg";
+import unoDc from "../../../images/UNO_DC.png";
 
 const en = ({ pdf }) => {
     return (
@@ -14,6 +14,8 @@ const en = ({ pdf }) => {
                 International standards on child labor and forced labor were
                 developed by the{" "}
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/global/about-the-ilo/lang--en/index.htm"
                     title="International Labor Organization"
                 >
@@ -22,6 +24,8 @@ const en = ({ pdf }) => {
                 (ILO), a specialized UN agency that brings together governments,
                 employers&rsquo;, and workers&rsquo; representatives of&nbsp;
                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.ilo.org/public/english/standards/relm/country.htm"
                     title="187 member states&nbsp;"
                 >
@@ -31,7 +35,7 @@ const en = ({ pdf }) => {
                 devise programs to promote rights at work and decent work for
                 all persons.
             </p>
-            <Accordion>
+            <Accordion pdf={pdf}>
                 <Accordion.Section>
                     <Accordion.Title>Child Labor</Accordion.Title>
                     <Accordion.Panel>
@@ -57,6 +61,8 @@ const en = ({ pdf }) => {
                         </p>
                         <p>
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
                                 title="ILO Convention 182"
                             >
@@ -101,6 +107,8 @@ const en = ({ pdf }) => {
                             suggests, forms of work identified as "hazardous"
                             for children may vary from country to country.{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:R190"
                                 title="ILO Recommendation No. 190"
                             >
@@ -227,6 +235,8 @@ const en = ({ pdf }) => {
                                 Fundamental Principles and Rights at Work;
                                 Geneva: 2010; available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/global/publications/books/WCMS_127688/lang--en/index.htm%20"
                                     title=" Global Report under the follow-up to the ILO Declaration on Fundamental Principles and Rights at Work - 2010"
                                 >
@@ -238,6 +248,8 @@ const en = ({ pdf }) => {
                                 child labour,&rdquo; accessed November 25, 2011;
                                 available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/ipec/facts/lang--en/index.htm"
                                     title="&ldquo;What is child labour,&rdquo;"
                                 >
@@ -250,6 +262,8 @@ const en = ({ pdf }) => {
                                 hazardous work: What we know, what we need to do
                                 Geneva, June 2011; available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_155428/lang--en/index.htm"
                                     title="Children in hazardous work: What we know, what we need to do Geneva, June 2011"
                                 >
@@ -261,6 +275,8 @@ const en = ({ pdf }) => {
                                 International Labor Organization Convention 138
                                 (Minimum Age); available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138"
                                     title="International Labor Organization Convention 138 (Minimum Age)"
                                 >
@@ -271,6 +287,8 @@ const en = ({ pdf }) => {
                                 International Labor Organization Convention 182
                                 (Worst Forms of Child Labor); available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
                                     title="International Labor Organization Convention 182 (Worst Forms of Child Labor)"
                                 >
@@ -284,6 +302,8 @@ const en = ({ pdf }) => {
                                 Introduction to the Issue of Child Labour,
                                 Geneva: 2007; available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/wcmsp5/groups/public/---asia/---ro-bangkok/documents/publication/wcms_117863.pdf"
                                     title="Eliminating Child Labour Guide for Employers: Guide One: Introduction to the Issue of Child Labour"
                                 >
@@ -296,6 +316,8 @@ const en = ({ pdf }) => {
                                 <em> Mini Action Guide on Child Labour, </em>
                                 Brussels, 2008; available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ituc-csi.org/IMG/pdf/guide_CL_EN_Final.pdf"
                                     title="Mini Action Guide on Child Labour"
                                 >
@@ -313,6 +335,8 @@ const en = ({ pdf }) => {
                                 Geneva, December 5, 2008. ICLS/18/2008/III.
                                 Available at{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099577.pdf"
                                     title="18<sup>th</sup> International Conference of Labor Statisticians Report III: Child labour statistics."
                                 >
@@ -324,6 +348,8 @@ const en = ({ pdf }) => {
                                 Worst Forms of Child Labor, Washington, D.C.
                                 available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings"
                                     title="U.S. Department of Labor. &nbsp;Findings on the Worst Forms of Child Labor, Washington, D.C."
                                 >
@@ -540,6 +566,8 @@ const en = ({ pdf }) => {
                             Human trafficking, or trafficking in persons, is
                             defined in the{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://www.osce.org/odihr/19223?download=true"
                                 title="Protocol to Prevent, Suppress and Punish Trafficking in Persons, especially Women and Children"
                             >
@@ -570,6 +598,8 @@ const en = ({ pdf }) => {
                             <em>Global Report on Trafficking in Persons</em>;
                             2016.{" "}
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="https://www.unodc.org/documents/data-and-analysis/glotip/2016_Global_Report_on_Trafficking_in_Persons.pdf"
                                 title="Global Report on Trafficking in Persons"
                             >
@@ -586,6 +616,8 @@ const en = ({ pdf }) => {
                                 International Labor Organization Convention 29
                                 (Forced Labor Convention); available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/dyn/normlex/en/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID:312174"
                                     title="International Labor Organization Convention 29 (Forced Labor Convention)"
                                 >
@@ -603,6 +635,8 @@ const en = ({ pdf }) => {
                                 </em>
                                 Geneva; 2009 available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_106268/lang--en/index.htm"
                                     title="The cost of coercion: Global Report under the follow-up to the ILO Declaration on Fundamental Principles and Rights at Work"
                                 >
@@ -615,6 +649,8 @@ const en = ({ pdf }) => {
                                 Estimate of Forced Labour: Results and
                                 Methodology, Geneva, 2012; available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/washington/WCMS_182004/lang--en/index.htm"
                                     title="ILO Global Estimate of Forced Labour: Results and Methodology"
                                 >
@@ -631,6 +667,8 @@ const en = ({ pdf }) => {
                                 </em>
                                 Geneva, 2012; available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://ilo.org/global/topics/forced-labour/publications/WCMS_182096/lang--en/index.htm"
                                     title="Hard to see, harder to count - Survey guidelines to estimate forced labour of adults and children"
                                 >
@@ -643,6 +681,8 @@ const en = ({ pdf }) => {
                                 Forced Labour: A Handbook for Employers and
                                 Business, Geneva, June 25, 2015; available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
                                     title="Combating Forced Labour: A Handbook for Employers and Business"
                                 >
@@ -658,6 +698,8 @@ const en = ({ pdf }) => {
                                 </em>
                                 . Geneva, 2014; available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--en/index.htm."
                                     title="Profits and Poverty: The Economics of Forced Labor"
                                 >
@@ -669,6 +711,8 @@ const en = ({ pdf }) => {
                                 2014 to the Forced Labour Convention; available
                                 from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/dyn/normlex/en/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174672,en:NO"
                                     title="International Labor Organization Protocol of 2014 to the Forced Labour Convention"
                                 >
@@ -681,6 +725,8 @@ const en = ({ pdf }) => {
                                 suppression of forced labour, 2014; available
                                 from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ilo.org/dyn/normlex/en/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174688,en:NO"
                                     title="Recommendation on supplementary measures for the effective suppression of forced labour"
                                 >
@@ -695,6 +741,8 @@ const en = ({ pdf }) => {
                                 </em>
                                 , Brussels, 2010; available from{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ituc-csi.org/ituc-guide-how-to-combat-forced.html?lang=en"
                                     title="How to Combat Forced Labour and Human Trafficking"
                                 >

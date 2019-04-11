@@ -13,10 +13,25 @@ import { Navigator } from "../Navigation";
 import Share from "../Share";
 import StepProgressBar from "../StepProgessBar/StepProgressBar";
 import ScrollToTop from "./ScrollToTop";
+import BottomDrawer from "../Menu/BottomDrawer/BottomDrawer";
 
 const Main = styled.div`
-    margin: 0;
     padding: 0 10px;
+`;
+
+const MainWrapper = styled.div`
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 5.2em;
+    margin-top: calc(5.2em + constant(safe-area-inset-top));
+    margin-top: calc(5.2em + env(safe-area-inset-top));
+    margin-bottom: 3.2em;
+    margin-bottom: calc(3.2em + constant(safe-area-inset-bottom));
+    margin-bottom: calc(3.2em + env(safe-area-inset-bottom));
+    overflow-y: scroll;
 `;
 
 const Header = styled.div`
@@ -27,30 +42,36 @@ const Header = styled.div`
     z-index: 100;
 `;
 
+const Footer = styled.div`
+    position: fixed;
+    bottom: 0;
+`;
+
 const StepBarWrapper = styled.div`
     background-color: ${theme.colors.grayLightest};
     padding: 30px 30px;
     border-bottom: 1px solid ${theme.colors.grayLight};
-    margin-top: 5.2em;
-    margin-bottom: -5.2em;
 `;
 
 const NavbarWrapper = styled.div``;
 
 const Container = styled.div`
-    margin-top: 7em;
+    margin-top: 1.8em;
+    margin-bottom: 0.8em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 4em;
-    margin-bottom: calc(4em + constant(safe-area-inset-top));
-    margin-bottom: calc(4em + env(safe-area-inset-top));
     max-width: 900px;
     width: 100%;
 `;
 class AppWrapper extends Component {
     constructor(props) {
         super(props);
-        this.state = this.updateNavBarItems();
+        this.state = { ...this.updateNavBarItems(), bottomDrawerActive: false };
+    }
+    componentDidUpdate(prevProps) {
+        if (prevProps.localizor.language !== this.props.localizor.language) {
+            this.setState({ ...this.updateNavBarItems() });
+        }
     }
 
     updateNavBarItems = () => {
@@ -90,7 +111,7 @@ class AppWrapper extends Component {
                 {
                     props: {
                         as: NavLink,
-                        to: "/bookmarks",
+                        to: Routes.Bookmarks.path,
                         id: "bookmarks-link"
                     },
                     icon: Icons.Bookmarks,
@@ -115,24 +136,54 @@ class AppWrapper extends Component {
                 },
                 {
                     props: {
-                        as: NavLink,
-                        to: "/about",
-                        id: "about-link"
+                        as: "span",
+                        id: "about-link",
+                        onClick: () => this.toggleBottomDrawer()
                     },
                     icon: Icons.About,
                     label: localizor.strings.general.about
+                }
+            ],
+
+            bottomDrawerItems: [
+                {
+                    props: {
+                        as: NavLink,
+                        id: "bottom-drawer-about-link",
+                        to: Routes.About.path
+                    },
+                    label: localizor.strings.info.about.title
+                },
+                {
+                    props: {
+                        as: NavLink,
+                        id: "bottom-drawer-findings-link",
+                        to: Routes.Findings.path
+                    },
+                    label: localizor.strings.info.findings.title
+                },
+                {
+                    props: {
+                        as: NavLink,
+                        id: "bottom-drawer-goods-link",
+                        to: Routes.Goods.path
+                    },
+                    label: localizor.strings.info.goods.title
                 }
             ]
         };
         return items;
     };
-    componentDidUpdate(prevProps) {
-        if (prevProps.localizor.language !== this.props.localizor.language) {
-            this.setState({ ...this.updateNavBarItems() });
-        }
-    }
+    toggleBottomDrawer = () => {
+        this.setState({ bottomDrawerActive: !this.state.bottomDrawerActive });
+    };
     render() {
-        const { navBarLeftItems, bottomNavItems } = this.state;
+        const {
+            navBarLeftItems,
+            bottomNavItems,
+            bottomDrawerActive,
+            bottomDrawerItems
+        } = this.state;
         const { location } = this.props;
         return (
             <ScrollToTop>
@@ -142,17 +193,29 @@ class AppWrapper extends Component {
                         <NavBar leftItems={navBarLeftItems} />
                     </NavbarWrapper>
                 </Header>
-                {location.pathname !== Routes.Home.path && (
-                    <StepBarWrapper id="step_progess_bar">
-                        <StepProgressBar />
-                    </StepBarWrapper>
-                )}
-                <Main>
-                    <Container id="container">
-                        <Navigator />
-                    </Container>
-                </Main>
-                <BottomNavBar id="bottom-nav-bar" items={bottomNavItems} />
+                <MainWrapper id="main">
+                    {location.pathname !== Routes.Home.path && (
+                        <StepBarWrapper id="step_progess_bar">
+                            <StepProgressBar />
+                        </StepBarWrapper>
+                    )}
+                    <Main>
+                        <Container id="container">
+                            <Navigator />
+                        </Container>
+                    </Main>
+                </MainWrapper>
+                <Footer>
+                    <BottomDrawer
+                        id="bototm-drawer"
+                        active={bottomDrawerActive}
+                        items={bottomDrawerItems}
+                        onClose={() => {
+                            this.setState({ bottomDrawerActive: false });
+                        }}
+                    />
+                    <BottomNavBar id="bottom-nav-bar" items={bottomNavItems} />
+                </Footer>
             </ScrollToTop>
         );
     }

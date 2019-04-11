@@ -9,6 +9,8 @@ import Topic from "./Topic";
 import WhatAre from "./WhatAre";
 import WhyDevelop from "./WhyDevelop";
 import Splash from "./Splash";
+import Goods from "./Goods";
+import Findings from "./Findings";
 export {
     Home,
     Topic,
@@ -20,5 +22,7 @@ export {
     WhyDevelop,
     Search,
     Bookmarks,
-    Splash
+    Splash,
+    Goods,
+    Findings
 };

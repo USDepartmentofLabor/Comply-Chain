@@ -9,7 +9,7 @@ const Wrapper = styled.ul`
 
 const Objective = styled.li`
     &::before {
-        content: "\u2022";
+        content: "\\2022";
         color: ${theme.colors.primary};
         display: inline-block;
         font-weight: bold;

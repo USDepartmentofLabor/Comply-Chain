@@ -1,6 +1,6 @@
 import React from "react";
-import cocoaSupplyChains from "../../images/cocoa_supply_chains_fr.png";
-import genericImport from "../../images/generic_import_fr.png";
+import cocoaSupplyChains from "../../../../../images/cocoa_supply_chains_fr.png";
+import genericImport from "../../../../../images/generic_import_fr.png";
 import Accordion from "../../../../../../components/Accordion";
 
 const fr = ({ pdf }) => {
@@ -169,7 +169,7 @@ const fr = ({ pdf }) => {
                 </a>
             </p>
             <div id="cocoa_chains">
-                <Accordion>
+                <Accordion pdf={pdf}>
                     <Accordion.Section>
                         <Accordion.Title>
                             Description du graphique
@@ -254,7 +254,7 @@ const fr = ({ pdf }) => {
                 </a>
             </p>
             <div>
-                <Accordion>
+                <Accordion pdf={pdf}>
                     <Accordion.Section>
                         <Accordion.Title>
                             Description du graphique

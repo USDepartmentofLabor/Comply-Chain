@@ -70,7 +70,7 @@ const fr = ({ pdf }) => {
                     ses r&eacute;glementations de mise en &oelig;uvre.
                 </li>
                 <br />
-                <Accordion>
+                <Accordion pdf={pdf}>
                     <Accordion.Section>
                         <Accordion.Title>
                             <strong>

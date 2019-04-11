@@ -1,6 +1,6 @@
 import React from "react";
-import usFlag from "../../images/us_flag.png";
-import verite from "../../images/verite.png";
+import usFlag from "../../../../../images/us_flag.png";
+import verite from "../../../../../images/verite.png";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import OwnWords from "../../../../../../components/OwnWords";
 

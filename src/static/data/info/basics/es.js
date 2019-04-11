@@ -14,7 +14,7 @@ const es = ({ pdf }) => {
                     Aspectos b&aacute;sicos de un sistema de cumplimiento social
                 </strong>
             </h1>
-            <Accordion>
+            <Accordion pdf={pdf}>
                 <Accordion.Section>
                     <Accordion.Title>
                         Objetivos did&aacute;cticos
@@ -120,6 +120,8 @@ const es = ({ pdf }) => {
                                     Nueva Delhi, 2012; disponible en idioma
                                     ingl&eacute;s solamente en{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="http://globalmarch.org/wp-content/uploads/2017/09/Dirty-Cotton-Report.pdf"
                                         title="<i>Dirty Cotton:</i> <i>A Research on Child Labour, Slavery, Trafficking and Exploitation in Cotton and Cotton Seed Farming in India.</i>"
                                     >
@@ -138,6 +140,8 @@ const es = ({ pdf }) => {
                                     [citado 2015]; disponible en idioma
                                     ingl&eacute;s solamente en{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="https://labs.theguardian.com/unicef-child-labour/"
                                         title="<i>Child Labour in the Fashion Supply Chain:</i> <i>Where, Why, And What Can Be Done.</i>"
                                     >
@@ -157,6 +161,8 @@ const es = ({ pdf }) => {
                                     disponible en idioma ingl&eacute;s solamente
                                     en{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="https://www.state.gov/j/tip/rls/tiprpt/countries/2016/258874.htm"
                                         title="Informe de 2016 sobre la trata de personas"
                                     >
@@ -335,6 +341,8 @@ const es = ({ pdf }) => {
                                 <p>
                                     El programa{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="http://betterwork.org/"
                                         title="Better Work"
                                     >
@@ -367,6 +375,8 @@ const es = ({ pdf }) => {
                                     trabajo. <em>Better Work</em> hace
                                     p&uacute;blicas estas evaluaciones en su{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="https://portal.betterwork.org/transparency"
                                         title="Portal de transparencia"
                                     >
@@ -411,6 +421,8 @@ const es = ({ pdf }) => {
                                 aspire a integrar la asociaci&oacute;n. Por
                                 ejemplo, los miembros de la{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.eiccoalition.org/"
                                     title="Coalici&oacute;n Ciudadana de la Industria Electr&oacute;nica (EICC)"
                                 >
@@ -419,6 +431,8 @@ const es = ({ pdf }) => {
                                 </a>{" "}
                                 se comprometen a seguir un{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.eiccoalition.org/standards/"
                                     title="C&oacute;digo de conducta"
                                 >
@@ -431,6 +445,8 @@ const es = ({ pdf }) => {
                                 este c&oacute;digo com&uacute;n mediante una
                                 serie de evaluaciones obligatorias, como el{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.eiccoalition.org/standards/vap/"
                                     title="Proceso de evaluaci&oacute;n validado"
                                 >
@@ -448,6 +464,8 @@ const es = ({ pdf }) => {
                                 sistemas de cumplimiento social que abarcan a
                                 varias industrias. Uno de estos programas es la{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ethicaltrade.org"
                                     title="Iniciativa de Comercio &Eacute;tico (ETI)"
                                 >
@@ -457,6 +475,8 @@ const es = ({ pdf }) => {
                                 organizaciones no gubernamentales (ONG) y
                                 miembros empresariales, ETI cre&oacute; el{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ethicaltrade.org/eti-base-code"
                                     title="C&oacute;digo B&aacute;sico de la ETI"
                                 >
@@ -465,6 +485,8 @@ const es = ({ pdf }) => {
                                 . Las empresas que se incorporan a la ETI deben
                                 adoptar este C&oacute;digo y aceptar los{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ethicaltrade.org/resources/principles-implementation"
                                     title="Principios de aplicaci&oacute;n de la ETI"
                                 >
@@ -477,6 +499,8 @@ const es = ({ pdf }) => {
                                 obtener m&aacute;s informaci&oacute;n,
                                 v&eacute;ase{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ethicaltrade.org/node/1192?lang=en"
                                     title="compendio de instrumentos de la ETI"
                                 >
@@ -484,6 +508,8 @@ const es = ({ pdf }) => {
                                 </a>{" "}
                                 en el{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ethicaltrade.org/node/1650"
                                     title="recursos para un comercio &eacute;tico"
                                 >
@@ -652,6 +678,8 @@ const es = ({ pdf }) => {
                                 <p>
                                     Fuente:{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                                         title="Principios rectores de las Naciones Unidas sobre las empresas y los derechos humanos"
                                     >
@@ -692,6 +720,8 @@ const es = ({ pdf }) => {
                                 <p>
                                     Fuente:{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="http://www.oecd.org/corporate/mne/"
                                         title="L&iacute;neas Directrices de la OCDE para Empresas Multinacionales, 2011."
                                     >
@@ -740,6 +770,8 @@ const es = ({ pdf }) => {
                                 <p>
                                     Fuente:{" "}
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2"
                                         title="Norma de desempe&ntilde;o 2 de la CFI"
                                     >
@@ -794,6 +826,8 @@ const es = ({ pdf }) => {
                             <p>
                                 El{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://responsiblesourcingtool.org/"
                                     title="Responsible Sourcing Tool"
                                 >
@@ -804,6 +838,8 @@ const es = ({ pdf }) => {
                                 Departamento de Estado de los Estados Unidos,
                                 contiene un{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://responsiblesourcingtool.org/riskmanagementprocess"
                                     title="Ejemplo de flujo de procesos para la gesti&oacute;n de riesgos en la cadena de suministro"
                                 >
@@ -817,6 +853,8 @@ const es = ({ pdf }) => {
                                 personas en la cadena de suministro. Por otra
                                 parte, el{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://responsiblesourcingtool.org/supplychainassurance"
                                     title="Ejemplo de programa de garant&iacute;a en la cadena de suministro"
                                 >
@@ -836,6 +874,8 @@ const es = ({ pdf }) => {
                                 conservar una cadena de suministro sostenible es
                                 la publicaci&oacute;n <em />
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://supply-chain.unglobalcompact.org/site/article/183"
                                     title="<i>Supply Chain Sustainability:</i> <i>A Practical Guide for Continuous Improvement</i>"
                                 >
@@ -893,6 +933,8 @@ const es = ({ pdf }) => {
                                 <p>
                                     Extra&iacute;do de la <em />
                                     <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         href="http://www.eiccoalition.org/standards/code-of-conduct/"
                                         title="Extra&iacute;do de la versi&oacute;n 5.1 del C&oacute;digo de conducta de la EICC (2016)"
                                     >
@@ -1137,6 +1179,8 @@ const es = ({ pdf }) => {
                             cumplimiento social de Nike Corporation se encuentra
                             dentro de su &ldquo;
                             <a
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 href="http://about.nike.com/pages/sustainable-innovation"
                                 title="Equipo de innovaci&oacute;n sostenible"
                             >
@@ -1237,8 +1281,7 @@ const es = ({ pdf }) => {
                 <Accordion.Section>
                     <Accordion.Title>Recursos adicionales</Accordion.Title>
                     <Accordion.Panel>
-                        {" "}
-                        <ol>
+                        <ol className="blue-numbers">
                             <li>
                                 Dickson, Marsha, Suzanne Loker, Molly Eckman,
                                 &ldquo;Stakeholder Theory and Social
@@ -1261,6 +1304,8 @@ const es = ({ pdf }) => {
                                 y demandas; disponible en idioma ingl&eacute;s
                                 solamente en{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="https://www.iso.org/home.html"
                                     title="Organizaci&oacute;n Internacional de Normalizaci&oacute;n"
                                 >
@@ -1276,6 +1321,8 @@ const es = ({ pdf }) => {
                                 efectivos; disponible en idioma ingl&eacute;s
                                 solamente en{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ifc.org/wps/wcm/connect/b29a4600498009cfa7fcf7336b93d75f/Updated_GN1-2012.pdf?MOD=AJPERES"
                                     title="los elementos de los sistemas de Gesti&oacute;n Ambiental y Social (SGAS) efectivos "
                                 >
@@ -1309,6 +1356,8 @@ const es = ({ pdf }) => {
                                 . 2010; disponible en idioma ingl&eacute;s
                                 solamente en{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ifc.org/wps/wcm/connect/a4aab30048865910b81afa6a6515bb18/SAI_IFC_LaborHandbook_Ch1-Intro.pdf?MOD=AJPERES"
                                     title="<i>Measure and Improve Your Labor Standards Performance</i>."
                                 >
@@ -1330,6 +1379,8 @@ const es = ({ pdf }) => {
                                 la web para reforzar las competencias;
                                 disponible en{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://sa-intl.org/index.cfm?fuseaction=Page.viewPage"
                                     title="Huella Social"
                                 >
@@ -1349,6 +1400,8 @@ const es = ({ pdf }) => {
                                 </em>{" "}
                                 Nueva York: 21 de marzo de 2011; disponible en{" "}
                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_SP.pdf"
                                     title='<i>Principios Rectores Sobre las Empresas y los Derechos Humanos: Puesta en pr&aacute;ctica del marco de las Naciones Unidas para "proteger, respetar y remediar"</i>'
                                 >
