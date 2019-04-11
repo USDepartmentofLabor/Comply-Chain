@@ -45,6 +45,25 @@ const NavButton = styled(Button)`
     }
 `;
 
+const ListWrapper = styled.div`
+    ol {
+        list-style: none;
+        counter-reset: li;
+    }
+    ol > li {
+        counter-increment: li;
+    }
+    ol > li::before {
+        content: counter(li) ".";
+        color: #0071bc;
+        font-weight: bold;
+        width: 1em;
+        margin-left: -1em;
+        margin-right: 0.5em;
+        text-align: right;
+        direction: rtl;
+    }
+`;
 class StepView extends Component {
     constructor(props) {
         super(props);
@@ -65,7 +84,11 @@ class StepView extends Component {
                 data: {
                     resources: {
                         title: localizor.strings.general.furtherResources,
-                        content: Resources && <Resources />,
+                        content: Resources && (
+                            <ListWrapper>
+                                <Resources />
+                            </ListWrapper>
+                        ),
                         id: "resources"
                     },
                     learningObjectives: {

@@ -65,14 +65,14 @@ export const AppGlobalStyles = createGlobalStyle`
         margin-left: -1em;
     }
 
-    ol {
+    .blue-numbers {
         list-style: none;
         counter-reset: li;
     }
-    ol > li {
+    .blue-numbers > li {
         counter-increment: li;
     } 
-    ol > li::before {
+    .blue-numbers > li::before {
         content: counter(li) ".";
         color: #0071bc;
         font-weight: bold;

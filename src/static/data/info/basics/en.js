@@ -1081,7 +1081,7 @@ const en = ({ pdf }) => {
                 <Accordion.Section>
                     <Accordion.Title>Further Resources</Accordion.Title>
                     <Accordion.Panel>
-                        <ol>
+                        <ol className="blue-numbers">
                             <li>
                                 Dickson, Marsha, Suzanne Loker, Molly Eckman,
                                 &ldquo;Stakeholder Theory and Social
