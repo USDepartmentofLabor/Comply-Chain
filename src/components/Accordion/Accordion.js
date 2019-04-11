@@ -28,6 +28,17 @@ class Accordion extends Component {
         }
     }
 
+    componentDidUpdate() {
+        // if text updates - update the current opened accordion height.
+        this.section.map((section, i) => {
+            if (this.panel[i].style.maxHeight) {
+                this.panel[i].style.maxHeight =
+                    this.panel[i].scrollHeight + "px";
+            }
+            return section;
+        });
+    }
+
     componentWillReceiveProps(props) {
         if (props.reset !== this.props.reset && props.reset) {
             this.closeAll();
