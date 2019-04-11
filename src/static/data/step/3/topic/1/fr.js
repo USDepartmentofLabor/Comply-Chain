@@ -28,14 +28,21 @@ const fr = () => {
             </p>
             <p>
                 L&rsquo;
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.industriall-union.org/industriall-global-union-and-hm-sign-global-framework-agreement"
                     title="accord-cadre mondial "
                 >
                     accord-cadre international
                 </a>{" "}
                 entre le syndicat international{" "}
-                <a target="_blank" rel="noopener noreferrer" href="http://www.industriall-union.org/" title="IndustriALL">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.industriall-union.org/"
+                    title="IndustriALL"
+                >
                     IndustriALL
                 </a>{" "}
                 et le d&eacute;taillant de v&ecirc;tements Hennes &amp; Mauritz
@@ -67,7 +74,9 @@ const fr = () => {
                 la mise en &oelig;uvre des droits des syndicats de travailleurs,
                 d&eacute;finis dans les conventions sp&eacute;cifiques de
                 l&apos;OIT. En mars&nbsp;2016,{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://business-humanrights.org/sites/default/files/webform/Danone%20-%20IUF_press%20release%20EN_final.pdf"
                     title="Danone et l&rsquo;IUF ont sign&eacute; leur dixi&egrave;me accord"
                 >
@@ -79,7 +88,7 @@ const fr = () => {
                 soci&eacute;t&eacute; dans le monde.
             </p>
             <h2>Autres ressources</h2>
-            <ol>
+            <ol className="blue-numbers">
                 <li>
                     AFL-CIO{" "}
                     <em>
@@ -89,7 +98,9 @@ const fr = () => {
                     </em>{" "}
                     1<sup>er</sup>&nbsp;ao&ucirc;t&nbsp;2014&nbsp;; disponible
                     [en anglais] sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://aflcio.org/sites/default/files/2017-03/CSReport.pdf"
                         title="Responsibility Outsourced: Social Audits, Workplace Certification and Twenty Years of Failure to Protect Worker Rights"
                     >
@@ -105,7 +116,9 @@ const fr = () => {
                     </em>
                     . [en ligne, consult&eacute; le 16&nbsp;mai 2017]&nbsp;;
                     disponible sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf"
                         title="Danone-UITA&nbsp;: signature d&rsquo;un dixi&egrave;me accord sur l&rsquo;emploi durable"
                     >
@@ -116,7 +129,9 @@ const fr = () => {
                 <li>
                     Danone. <em>Dialogue social.</em>[en ligne, consult&eacute;
                     le 16&nbsp;mai 2017]&nbsp;; disponible sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.danone.com/impact/people-communities/social-dialogue.html"
                         title="Dialogue social"
                     >
@@ -132,7 +147,9 @@ const fr = () => {
                     </em>
                     , 2016 [en ligne, consult&eacute; le 16&nbsp;mai 2016].
                     Disponible [en anglais] sur{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.industriall-union.org/agreement-with-hm-proves-instrumental-in-resolving-conflicts-0"
                         title="Agreement with H&amp;M Proves Instrumental in Resolving Conflicts"
                     >
@@ -147,7 +164,9 @@ const fr = () => {
                     </em>{" "}
                     Gen&egrave;ve, 2008&nbsp;; disponible [en anglais] sur{" "}
                     <u>
-                        <a target="_blank" rel="noopener noreferrer"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--fr/index.htm"
                             title="OIT. Cross-Border Social Dialogue and Agreements: An emerging global industrial relations framework?"
                         >
@@ -161,7 +180,9 @@ const fr = () => {
                     dialogue: parameters and prospects; Gen&egrave;ve,
                     2010&nbsp;; disponible [en anglais] sur{" "}
                     <u>
-                        <a target="_blank" rel="noopener noreferrer"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--fr/index.htm"
                             title="International framework agreements and global social dialogue: parameters and prospects"
                         >
@@ -174,7 +195,9 @@ const fr = () => {
                     OIT-OIE. International framework agreements : an
                     employers&rsquo; guide ; 2007 ; disponible [en anglais] sur{" "}
                     <u>
-                        <a target="_blank" rel="noopener noreferrer"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
                             title="OIT-OIE. International framework agreements: an employers&rsquo; guide"
                         >

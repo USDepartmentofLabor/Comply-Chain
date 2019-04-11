@@ -915,7 +915,7 @@ const fr = () => {
                 </li>
             </ul>
             <h2>Autres ressources</h2>
-            <ol>
+            <ol className="blue-numbers">
                 <li>
                     Barnes &amp; Noble College League Collegiate Outfitters
                     Creates Hope and Second Chances in El Salvador. [en ligne,

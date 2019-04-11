@@ -24,14 +24,21 @@ const en = () => {
             <p>
                 Another recent agreement that has received positive attention is
                 the{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="http://www.industriall-union.org/industriall-global-union-and-hm-sign-global-framework-agreement"
                     title="global framework agreement"
                 >
                     global framework agreement
                 </a>{" "}
                 between global union{" "}
-                <a target="_blank" rel="noopener noreferrer" href="http://www.industriall-union.org/" title="IndustriALL">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.industriall-union.org/"
+                    title="IndustriALL"
+                >
                     IndustriALL
                 </a>{" "}
                 and apparel retailer Hennes &amp; Mauritz, covering 1.6 million
@@ -54,7 +61,9 @@ const en = () => {
                 coordinating information across countries, ensuring gender
                 equity and implementing trade union rights as defined in
                 specific ILO conventions. In March 2016,{" "}
-                <a target="_blank" rel="noopener noreferrer"
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://business-humanrights.org/sites/default/files/webform/Danone%20-%20IUF_press%20release%20EN_final.pdf"
                     title="Danone and IUF signed their tenth agreement"
                 >
@@ -64,7 +73,7 @@ const en = () => {
                 applies to the company&rsquo;s subsidiaries across the globe.
             </p>
             <h2>Further Resources</h2>
-            <ol>
+            <ol className="blue-numbers">
                 <li>
                     AFL-CIO{" "}
                     <em>
@@ -73,7 +82,9 @@ const en = () => {
                         Worker Rights;
                     </em>{" "}
                     August 1,2014; available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://aflcio.org/sites/default/files/2017-03/CSReport.pdf"
                         title="Responsibility Outsourced: Social Audits, Workplace Certification and Twenty Years of Failure to Protect Worker Rights"
                     >
@@ -88,7 +99,9 @@ const en = () => {
                         Employment
                     </em>
                     . [online, accessed May 16, 2017]; available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf"
                         title="Danone and IUF Sign Tenth Agreement on Sustainable Employment"
                     >
@@ -99,7 +112,9 @@ const en = () => {
                 <li>
                     Danone. <em>Social Dialogue.</em>[online, accessed May 16,
                     2017]; available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="https://www.danone.com/impact/people-communities/social-dialogue.html"
                         title="Social Dialogue"
                     >
@@ -114,7 +129,9 @@ const en = () => {
                         Conflicts
                     </em>
                     , 2016 [online, accessed May 16, 2016]. Available from{" "}
-                    <a target="_blank" rel="noopener noreferrer"
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
                         href="http://www.industriall-union.org/agreement-with-hm-proves-instrumental-in-resolving-conflicts-0"
                         title="Agreement with H&M Proves Instrumental in Resolving Conflicts"
                     >
@@ -130,7 +147,9 @@ const en = () => {
                     </em>{" "}
                     Geneva, 2008; available from{" "}
                     <u>
-                        <a target="_blank" rel="noopener noreferrer"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm"
                             title="ILO. Cross-Border Social Dialogue and Agreements: An emerging global industrial relations framework?"
                         >
@@ -144,7 +163,9 @@ const en = () => {
                     dialogue: parameters and prospects; Geneva, 2010; available
                     from{" "}
                     <u>
-                        <a target="_blank" rel="noopener noreferrer"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm"
                             title="nternational framework agreements and global social dialogue: parameters and prospects"
                         >
@@ -158,7 +179,9 @@ const en = () => {
                     ILO-IOE. International framework agreements: an employers’
                     guide; 2007; available from{" "}
                     <u>
-                        <a target="_blank" rel="noopener noreferrer"
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
                             href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
                             title="ILO-IOE. International framework agreements: an employers’ guide"
                         >
