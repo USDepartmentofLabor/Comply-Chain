@@ -279,7 +279,7 @@ const en = ({ pdf }) => {
                             <ExampleInAction id="better-work-garment">
                                 <h4>
                                     <ExampleInAction.Icon />
-                                    <strong>Example in Action</strong>
+                                    <strong>Example in Action</strong>{" "}
                                     <em>
                                         <strong>Better Work</strong>
                                     </em>{" "}
@@ -527,7 +527,7 @@ const en = ({ pdf }) => {
                             <OwnWords>
                                 <h4>
                                     <OwnWords.Icon />
-                                    <strong>In Their Own Words</strong>
+                                    <strong>In Their Own Words</strong>{" "}
                                     <strong>
                                         International Institution Guidance on
                                         Supply Chain Responsibility{" "}
@@ -782,7 +782,7 @@ const en = ({ pdf }) => {
                             <ExampleInAction>
                                 <h4>
                                     <ExampleInAction.Icon />
-                                    <strong>Example in Action</strong>
+                                    <strong>Example in Action</strong>{" "}
                                     <strong>
                                         Electronics Industry Citizenship
                                         Coalition (EICC) Code of Conduct &ndash;
