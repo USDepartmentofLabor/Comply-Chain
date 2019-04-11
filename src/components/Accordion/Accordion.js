@@ -176,7 +176,6 @@ Accordion.Title = styled.div`
     border: none;
     text-align: left;
     outline: none;
-    transition: 0.4s;
 
     &:hover {
         background-color: #ccc;
@@ -221,7 +220,7 @@ const PdfTitle = styled(Accordion.Title)`
     }
 `;
 const PdfPanel = styled(Accordion.Panel)`
-    max-height: 100%;
+    max-height: 10000px;
 `;
 
 Accordion.Section.propTypes = {

@@ -102,6 +102,15 @@ export const AppGlobalStyles = createGlobalStyle`
         height: auto;
     }
 
+    @media print {
+        img {
+            max-width: 50%;
+            height: auto;
+            page-break-inside: avoid;
+        }
+    }
+
+
     .small-img {
         width: 50%;
         height: auto;
