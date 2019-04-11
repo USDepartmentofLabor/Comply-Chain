@@ -34,9 +34,7 @@ class Home extends Component {
                                 id="home_whydeveloper"
                                 to={Routes.WhyDevelop.path}
                             >
-                                <h3>
-                                    {localizor.strings.info.whyDevelop.title}
-                                </h3>
+                                {localizor.strings.info.whyDevelop.title}
                             </ItemTitle>
                         </ItemContent>
                     </Item>
@@ -55,7 +53,7 @@ class Home extends Component {
                     >
                         <ItemContent>
                             <ItemTitle id="home_basics" to={Routes.Basics.path}>
-                                <h3>{localizor.strings.info.basics.title}</h3>
+                                {localizor.strings.info.basics.title}
                             </ItemTitle>
                         </ItemContent>
                     </Item>
@@ -85,7 +83,7 @@ class Home extends Component {
                                         </Icon>
                                         <PaddedContent>
                                             <ItemTitle to={`/steps/${i + 1}`}>
-                                                <h3>{step.title}</h3>
+                                                {step.title}
                                             </ItemTitle>
                                         </PaddedContent>
                                     </FlexContent>
@@ -200,7 +198,7 @@ const HomeWrapper = styled.div`
 
 const FlexContent = styled.div`
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 `;
 
 const PaddedContent = styled.span`
@@ -236,11 +234,14 @@ const BookmarkIcon = styled(Icons.BookmarkCheck)``;
 const ItemTitle = styled(Link)`
     color: ${theme.colors.white};
     text-decoration: none;
+    font-weight: 700;
+    font-family: ${theme.fonts.headings};
+    font-size: 20px;
 `;
 
 const ItemContent = styled.div`
     position: absolute;
-    bottom: 0;
+    bottom: 7px;
     left: 20px;
     padding-right: 30px;
 `;
