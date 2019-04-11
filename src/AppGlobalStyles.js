@@ -49,12 +49,13 @@ export const AppGlobalStyles = createGlobalStyle`
     a {
         text-decoration: none;
         color: #0071bc;
+        word-wrap: break-word;
     }
 
-    ul {
+    .blue-bullets {
         list-style: none;
     }
-    ul > li::before {
+    .blue-bullets > li::before {
         content: "\\2022";
         color: #0071bc;
         display: inline-block;
