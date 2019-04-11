@@ -41,6 +41,8 @@ class LanguageSwitcher extends Component {
     }
     handleLanguageChange = lang => {
         const { localizor } = this.props;
+        const main = document.getElementById("main");
+        localStorage.setItem("scrolly", main.scrollTop || window.scrollY);
         localizor.setLanguage(lang);
         this.setState({ currentLanguage: lang });
     };

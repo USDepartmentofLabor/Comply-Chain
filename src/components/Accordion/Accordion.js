@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import styled from "styled-components";
-import { getHash } from "../../modules/utils";
 import { theme } from "../../modules/config/theme";
+import { storage } from "../../modules/storage";
+import { getHash } from "../../modules/utils";
 
 class Accordion extends Component {
     state = { active: false };
@@ -25,17 +26,29 @@ class Accordion extends Component {
 
                 return false;
             });
+        } else {
+            const accId = storage.accordion.retrieveAccordionId();
+            if (accId) {
+                this.section.some((section, i) => {
+                    if (section.id === accId) {
+                        this.makeActive(i);
+                        return true;
+                    }
+
+                    return false;
+                });
+            }
         }
     }
 
     componentDidUpdate() {
         // if text updates - update the current opened accordion height.
-        this.section.map((section, i) => {
+        this.section.some((section, i) => {
             if (this.panel[i].style.maxHeight) {
-                this.panel[i].style.maxHeight =
-                    this.panel[i].scrollHeight + "px";
+                this.makeActive(i);
+                return true;
             }
-            return section;
+            return false;
         });
     }
 
@@ -48,16 +61,26 @@ class Accordion extends Component {
     toggleActive = sectionIndex => {
         this.title[sectionIndex].classList.toggle("active");
         if (this.panel[sectionIndex].style.maxHeight) {
-            this.panel[sectionIndex].style.maxHeight = null;
+            this.makeInactive(sectionIndex);
         } else {
-            this.panel[sectionIndex].style.maxHeight =
-                this.panel[sectionIndex].scrollHeight + "px";
+            this.makeActive(sectionIndex);
             setTimeout(() => {
                 if (!this.isVisible(this.title[sectionIndex])) {
                     this.scrollToTitle(sectionIndex);
                 }
             }, 215);
         }
+    };
+
+    makeInactive = sectionIndex => {
+        this.panel[sectionIndex].style.maxHeight = null;
+        storage.accordion.setAccordionId("");
+    };
+
+    makeActive = sectionIndex => {
+        this.panel[sectionIndex].style.maxHeight =
+            this.panel[sectionIndex].scrollHeight + "px";
+        storage.accordion.setAccordionId(this.section[sectionIndex].id);
     };
 
     isVisible = ele => {

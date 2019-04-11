@@ -136,7 +136,11 @@ class StepView extends Component {
                     },
                     training: {
                         title: localizor.strings.general.training,
-                        content: Training && <Training />,
+                        content: Training && (
+                            <ListWrapper>
+                                <Training />
+                            </ListWrapper>
+                        ),
                         id: "training"
                     }
                 },

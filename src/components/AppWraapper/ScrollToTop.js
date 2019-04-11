@@ -3,6 +3,8 @@ import { withRouter } from "react-router-dom";
 import { getHash } from "../../modules/utils";
 import PropTypes from "prop-types";
 import { isBrowser } from "../../modules/utils/platform";
+import { storage } from "../../modules/storage";
+import { withLanguageContext } from "../Language";
 
 class ScrollToTop extends Component {
     state = { loadingLastPage: false };
@@ -27,6 +29,7 @@ class ScrollToTop extends Component {
 
     componentDidUpdate(prevProps) {
         if (this.props.location !== prevProps.location) {
+            storage.accordion.setAccordionId("");
             if (this.state.loadingLastPage) {
                 if (!isBrowser()) {
                     const scrollY = localStorage.getItem("scrolly") || 0;
@@ -50,6 +53,11 @@ class ScrollToTop extends Component {
                 localStorage.setItem("page", this.props.location.pathname);
                 this.saveScrollPosition();
             }
+        } else if (
+            prevProps.localizor.language !== this.props.localizor.language
+        ) {
+            const scrollY = localStorage.getItem("scrolly") || 0;
+            this.scrollTo(0, scrollY);
         }
     }
 
@@ -74,6 +82,7 @@ class ScrollToTop extends Component {
 
 ScrollToTop.propTypes = {
     history: PropTypes.object.isRequired,
-    location: PropTypes.object.isRequired
+    location: PropTypes.object.isRequired,
+    localizor: PropTypes.object.isRequired
 };
-export default withRouter(ScrollToTop);
+export default withRouter(withLanguageContext(ScrollToTop));

@@ -48,8 +48,12 @@ class TopicView extends Component {
             storage.steps.markTopicComplete(step - 1, topic - 1);
         }
     }
+
     componentDidUpdate(prevProps) {
-        if (prevProps.localizor.language !== this.props.localizor.language) {
+        if (
+            prevProps.localizor.language !== this.props.localizor.language ||
+            prevProps.location.pathname !== this.props.location.pathname
+        ) {
             this.setState(this.buildTopicData());
         }
     }
