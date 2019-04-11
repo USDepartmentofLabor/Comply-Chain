@@ -177,16 +177,14 @@ const es = () => {
                     </em>{" "}
                     Ginebra, 2008; disponible en idioma ingl&eacute;s solamente
                     en{" "}
-                    <u>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm"
-                            title="OIT. <i>Cross-Border Social Dialogue and Agreements:</i> An emerging global industrial relations framework?"
-                        >
-                            http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm
-                        </a>
-                    </u>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm"
+                        title="OIT. <i>Cross-Border Social Dialogue and Agreements:</i> An emerging global industrial relations framework?"
+                    >
+                        http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm
+                    </a>
                     .
                 </li>
                 <li>
@@ -197,16 +195,14 @@ const es = () => {
                     </i>
                     ; Ginebra, 2010; disponible en idioma ingl&eacute;s
                     solamente en{" "}
-                    <u>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm"
-                            title="<i>International framework agreements and global social dialogue: parameters and prospects</i>"
-                        >
-                            http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm
-                        </a>
-                    </u>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm"
+                        title="<i>International framework agreements and global social dialogue: parameters and prospects</i>"
+                    >
+                        http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm
+                    </a>
                     .
                 </li>
                 <li>
@@ -216,16 +212,14 @@ const es = () => {
                         guide;
                     </i>{" "}
                     2007; disponible en idioma ingl&eacute;s solamente en{" "}
-                    <u>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
-                            title="OIT-OIE. <i>International framework agreements: an employers&rsquo; guide</i>"
-                        >
-                            ihttp://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1
-                        </a>
-                    </u>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
+                        title="OIT-OIE. <i>International framework agreements: an employers&rsquo; guide</i>"
+                    >
+                        ihttp://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1
+                    </a>
                     .
                 </li>
             </ol>

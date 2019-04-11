@@ -163,47 +163,41 @@ const fr = () => {
                         : An emerging global industrial relations framework?
                     </em>{" "}
                     Gen&egrave;ve, 2008&nbsp;; disponible [en anglais] sur{" "}
-                    <u>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--fr/index.htm"
-                            title="OIT. Cross-Border Social Dialogue and Agreements: An emerging global industrial relations framework?"
-                        >
-                            http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--fr/index.htm
-                        </a>
-                    </u>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--fr/index.htm"
+                        title="OIT. Cross-Border Social Dialogue and Agreements: An emerging global industrial relations framework?"
+                    >
+                        http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--fr/index.htm
+                    </a>
                     .
                 </li>
                 <li>
                     OIT. International framework agreements and global social
                     dialogue: parameters and prospects; Gen&egrave;ve,
                     2010&nbsp;; disponible [en anglais] sur{" "}
-                    <u>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--fr/index.htm"
-                            title="International framework agreements and global social dialogue: parameters and prospects"
-                        >
-                            http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--fr/index.htm
-                        </a>
-                    </u>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--fr/index.htm"
+                        title="International framework agreements and global social dialogue: parameters and prospects"
+                    >
+                        http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--fr/index.htm
+                    </a>
                     .
                 </li>
                 <li>
                     OIT-OIE. International framework agreements : an
                     employers&rsquo; guide ; 2007 ; disponible [en anglais] sur{" "}
-                    <u>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
-                            title="OIT-OIE. International framework agreements: an employers&rsquo; guide"
-                        >
-                            http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1
-                        </a>
-                    </u>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
+                        title="OIT-OIE. International framework agreements: an employers&rsquo; guide"
+                    >
+                        http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1
+                    </a>
                     .
                 </li>
             </ol>

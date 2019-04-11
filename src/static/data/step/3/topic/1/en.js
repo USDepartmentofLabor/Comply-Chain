@@ -146,48 +146,42 @@ const en = () => {
                         An emerging global industrial relations framework?
                     </em>{" "}
                     Geneva, 2008; available from{" "}
-                    <u>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm"
-                            title="ILO. Cross-Border Social Dialogue and Agreements: An emerging global industrial relations framework?"
-                        >
-                            http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm
-                        </a>
-                    </u>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm"
+                        title="ILO. Cross-Border Social Dialogue and Agreements: An emerging global industrial relations framework?"
+                    >
+                        http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm
+                    </a>
                     .
                 </li>
                 <li>
                     ILO. International framework agreements and global social
                     dialogue: parameters and prospects; Geneva, 2010; available
                     from{" "}
-                    <u>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm"
-                            title="nternational framework agreements and global social dialogue: parameters and prospects"
-                        >
-                            {" "}
-                            http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm
-                        </a>
-                    </u>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm"
+                        title="nternational framework agreements and global social dialogue: parameters and prospects"
+                    >
+                        {" "}
+                        http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm
+                    </a>
                     .
                 </li>
                 <li>
                     ILO-IOE. International framework agreements: an employers’
                     guide; 2007; available from{" "}
-                    <u>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
-                            title="ILO-IOE. International framework agreements: an employers’ guide"
-                        >
-                            http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1
-                        </a>
-                    </u>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
+                        title="ILO-IOE. International framework agreements: an employers’ guide"
+                    >
+                        http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1
+                    </a>
                     .
                 </li>
             </ol>
