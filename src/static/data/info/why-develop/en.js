@@ -692,7 +692,7 @@ const en = ({ pdf }) => {
             <h2>
                 <strong>Further Resources</strong>
             </h2>
-            <ol>
+            <ol className="blue-numbers">
                 <li>
                     ILO.{" "}
                     <em>

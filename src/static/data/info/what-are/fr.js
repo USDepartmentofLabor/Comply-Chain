@@ -298,7 +298,7 @@ const fr = ({ pdf }) => {
                         <h3>
                             <strong>Autres ressources</strong>
                         </h3>
-                        <ol>
+                        <ol className="blue-numbers">
                             <li>
                                 Organisation internationale du Travail, Les
                                 estimations mondiales sur le travail des
@@ -792,7 +792,7 @@ const fr = ({ pdf }) => {
                         <h3>
                             <strong>Autres ressources</strong>
                         </h3>
-                        <ol>
+                        <ol className="blue-numbers">
                             <li>
                                 Convention 29 de l&apos;Organisation
                                 internationale du travail sur le travail

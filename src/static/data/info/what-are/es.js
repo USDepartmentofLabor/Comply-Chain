@@ -261,7 +261,7 @@ const es = ({ pdf }) => {
                         <h3>
                             <strong>Recursos adicionales</strong>
                         </h3>
-                        <ol>
+                        <ol className="blue-numbers">
                             <li>
                                 Organizaci&oacute;n Internacional del Trabajo.{" "}
                                 <i>Global estimation of child labour 2016:</i>{" "}
@@ -717,7 +717,7 @@ const es = ({ pdf }) => {
                         <h3>
                             <strong>Recursos adicionales</strong>
                         </h3>
-                        <ol>
+                        <ol className="blue-numbers">
                             <li>
                                 Convenio 29 de la Organizaci&oacute;n
                                 Internacional del Trabajo (Convenio sobre el

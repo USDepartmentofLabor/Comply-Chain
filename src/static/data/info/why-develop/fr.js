@@ -894,7 +894,7 @@ const fr = ({ pdf }) => {
             <h2>
                 <strong>Autres ressources</strong>
             </h2>
-            <ol>
+            <ol className="blue-numbers">
                 <li>
                     OIT.{" "}
                     <em>
