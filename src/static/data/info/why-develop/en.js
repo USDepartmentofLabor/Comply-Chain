@@ -47,8 +47,8 @@ const en = ({ pdf }) => {
                     , and its implementing regulations
                 </li>
                 <br />
-                <Accordion pdf={pdf}>
-                    <Accordion.Section>
+                <Accordion pdf={pdf} id="why-develop-acc">
+                    <Accordion.Section id="exec-order">
                         <Accordion.Title>
                             <strong>
                                 Executive Order 13627, Strengthening Protections
@@ -131,7 +131,7 @@ const en = ({ pdf }) => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <Accordion.Section>
+                    <Accordion.Section id="trade-act">
                         <Accordion.Title>
                             <strong>
                                 Trade Facilitation and Trade Enforcement Act
@@ -190,7 +190,7 @@ const en = ({ pdf }) => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <Accordion.Section>
+                    <Accordion.Section id="uk-slave-act">
                         <Accordion.Title>
                             <strong>United Kingdom Modern Slavery Act</strong>
                         </Accordion.Title>
@@ -309,7 +309,7 @@ const en = ({ pdf }) => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <Accordion.Section>
+                    <Accordion.Section id="france-dov-law">
                         <Accordion.Title>
                             <strong>
                                 France&rsquo;s Duty of Vigilance Law
@@ -351,7 +351,7 @@ const en = ({ pdf }) => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <Accordion.Section>
+                    <Accordion.Section id="wall-street-prot-act">
                         <Accordion.Title>
                             <strong>
                                 Dodd-Frank Wall Street Reform and Consumer
@@ -404,7 +404,7 @@ const en = ({ pdf }) => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <Accordion.Section>
+                    <Accordion.Section id="cali-supply-chain-act">
                         <Accordion.Title>
                             <strong>
                                 California Transparency in Supply Chains Act

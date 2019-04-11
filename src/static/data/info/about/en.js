@@ -42,8 +42,8 @@ const en = ({ pdf }) => {
                 labor, and human trafficking.&nbsp;
             </p>
             <p />
-            <Accordion pdf={pdf}>
-                <Accordion.Section>
+            <Accordion pdf={pdf} id="about-acc">
+                <Accordion.Section id="why-develop">
                     <Accordion.Title>
                         <strong>
                             Why did the Department of Labor develop this App?
@@ -237,7 +237,7 @@ const en = ({ pdf }) => {
                         <p />
                     </Accordion.Panel>
                 </Accordion.Section>
-                <Accordion.Section>
+                <Accordion.Section id="how-develop">
                     <Accordion.Title>
                         <strong>How did DOL develop this App?</strong>
                     </Accordion.Title>
@@ -265,7 +265,7 @@ const en = ({ pdf }) => {
                         </p>
                     </Accordion.Panel>
                 </Accordion.Section>
-                <Accordion.Section>
+                <Accordion.Section id="who-app">
                     <Accordion.Title>
                         <strong>Who is this App for?</strong>
                     </Accordion.Title>
@@ -281,7 +281,7 @@ const en = ({ pdf }) => {
                         </p>
                     </Accordion.Panel>
                 </Accordion.Section>
-                <Accordion.Section>
+                <Accordion.Section id="how-use-app">
                     <Accordion.Title>
                         <strong>How do I use this App?</strong>
                     </Accordion.Title>
@@ -340,7 +340,6 @@ const en = ({ pdf }) => {
                         </p>
                         <p />
                     </Accordion.Panel>
-                    <Accordion.Section />
                 </Accordion.Section>
             </Accordion>
 

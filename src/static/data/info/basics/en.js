@@ -12,8 +12,8 @@ const en = ({ pdf }) => {
             <h1>
                 <strong>The Basics of a Social Compliance System</strong>
             </h1>
-            <Accordion pdf={pdf}>
-                <Accordion.Section>
+            <Accordion pdf={pdf} id="basics-acc">
+                <Accordion.Section id="learning-objectives">
                     <Accordion.Title>Learning Objectives</Accordion.Title>
                     <Accordion.Panel>
                         <ul className="blue-bullets">
@@ -42,7 +42,7 @@ const en = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 <border-separator> </border-separator>
-                <Accordion.Section>
+                <Accordion.Section id="key-terms">
                     <Accordion.Title>Key Terms</Accordion.Title>
                     <Accordion.Panel>
                         <p>
@@ -154,7 +154,7 @@ const en = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 <border-separator> </border-separator>
-                <Accordion.Section>
+                <Accordion.Section id="topics">
                     <Accordion.Title>Topics</Accordion.Title>
                     <Accordion.Panel>
                         <p>
@@ -1078,7 +1078,7 @@ const en = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 <border-separator> </border-separator>
-                <Accordion.Section>
+                <Accordion.Section id="resources">
                     <Accordion.Title>Further Resources</Accordion.Title>
                     <Accordion.Panel>
                         <ol className="blue-numbers">

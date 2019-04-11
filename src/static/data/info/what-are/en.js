@@ -35,8 +35,8 @@ const en = ({ pdf }) => {
                 devise programs to promote rights at work and decent work for
                 all persons.
             </p>
-            <Accordion pdf={pdf}>
-                <Accordion.Section>
+            <Accordion pdf={pdf} id="what-are-acc">
+                <Accordion.Section id="child-labor">
                     <Accordion.Title>Child Labor</Accordion.Title>
                     <Accordion.Panel>
                         <h3>Definitions</h3>
@@ -360,7 +360,7 @@ const en = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
 
-                <Accordion.Section>
+                <Accordion.Section id="forced-labor">
                     <Accordion.Title>Forced Labor</Accordion.Title>
                     <Accordion.Panel>
                         <h3>Definitions</h3>

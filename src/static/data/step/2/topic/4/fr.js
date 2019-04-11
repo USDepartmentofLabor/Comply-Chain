@@ -169,8 +169,8 @@ const fr = ({ pdf }) => {
                 </a>
             </p>
             <div id="cocoa_chains">
-                <Accordion pdf={pdf}>
-                    <Accordion.Section>
+                <Accordion pdf={pdf} id="cocoa-chains-acc">
+                    <Accordion.Section id="cocoa-description">
                         <Accordion.Title>
                             Description du graphique
                         </Accordion.Title>
@@ -254,8 +254,8 @@ const fr = ({ pdf }) => {
                 </a>
             </p>
             <div>
-                <Accordion pdf={pdf}>
-                    <Accordion.Section>
+                <Accordion pdf={pdf} id="generic-import-acc">
+                    <Accordion.Section id="generic-import-description">
                         <Accordion.Title>
                             Description du graphique
                         </Accordion.Title>

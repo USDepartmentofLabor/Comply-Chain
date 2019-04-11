@@ -70,8 +70,8 @@ const fr = ({ pdf }) => {
                     ses r&eacute;glementations de mise en &oelig;uvre.
                 </li>
                 <br />
-                <Accordion pdf={pdf}>
-                    <Accordion.Section>
+                <Accordion pdf={pdf} id="why-develop-acc">
+                    <Accordion.Section id="exec-order">
                         <Accordion.Title>
                             <strong>
                                 D&eacute;cret ex&eacute;cutif&nbsp;13627,
@@ -195,7 +195,7 @@ const fr = ({ pdf }) => {
                         </Accordion.Panel>
                     </Accordion.Section>
                     <BorderSeparator />
-                    <Accordion.Section>
+                    <Accordion.Section id="trade-act">
                         <Accordion.Title>
                             <strong>
                                 Loi sur la facilitation et l&rsquo;application
@@ -275,7 +275,7 @@ const fr = ({ pdf }) => {
                         </Accordion.Panel>
                     </Accordion.Section>
                     <BorderSeparator />
-                    <Accordion.Section>
+                    <Accordion.Section id="uk-slave-act">
                         <Accordion.Title>
                             <strong>
                                 Loi du Royaume-Uni sur l&rsquo;esclavage moderne
@@ -410,7 +410,7 @@ const fr = ({ pdf }) => {
                         </Accordion.Panel>
                     </Accordion.Section>
                     <BorderSeparator />
-                    <Accordion.Section>
+                    <Accordion.Section id="france-dov-law">
                         <Accordion.Title>
                             <strong>
                                 Loi fran&ccedil;aise sur le devoir de vigilance
@@ -465,7 +465,7 @@ const fr = ({ pdf }) => {
                         </Accordion.Panel>
                     </Accordion.Section>
                     <BorderSeparator />
-                    <Accordion.Section>
+                    <Accordion.Section id="wall-street-prot-act">
                         <Accordion.Title>
                             <strong>
                                 Loi Dodd-Frank sur la r&eacute;forme de Wall
@@ -536,7 +536,7 @@ const fr = ({ pdf }) => {
                         </Accordion.Panel>
                     </Accordion.Section>
                     <BorderSeparator />
-                    <Accordion.Section>
+                    <Accordion.Section id="cali-supply-chain-act">
                         <Accordion.Title>
                             <strong>
                                 Loi de la Californie sur la transparence dans

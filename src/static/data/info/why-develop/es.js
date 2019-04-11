@@ -59,8 +59,8 @@ const es = ({ pdf }) => {
                     aplicaci&oacute;n
                 </li>
                 <br />
-                <Accordion pdf={pdf}>
-                    <Accordion.Section>
+                <Accordion pdf={pdf} id="why-develop-acc">
+                    <Accordion.Section id="exec-order">
                         <Accordion.Title>
                             <strong>
                                 La Orden Ejecutiva 13627, Fortalecimiento de las
@@ -155,7 +155,7 @@ const es = ({ pdf }) => {
                         </Accordion.Panel>
                     </Accordion.Section>
                     <BorderSeparator />
-                    <Accordion.Section>
+                    <Accordion.Section id="trade-act">
                         <Accordion.Title>
                             <strong>
                                 Ley de facilitaci&oacute;n del comercio y
@@ -225,7 +225,7 @@ const es = ({ pdf }) => {
                         </Accordion.Panel>
                     </Accordion.Section>
                     <BorderSeparator />
-                    <Accordion.Section content-label="United Kingdom Modern Slavery Act">
+                    <Accordion.Section id="uk-slave-act">
                         <Accordion.Title>
                             <strong>
                                 Ley de formas contempor&aacute;neas de
@@ -356,7 +356,7 @@ const es = ({ pdf }) => {
                         </Accordion.Panel>
                     </Accordion.Section>
                     <BorderSeparator />
-                    <Accordion.Section content-label="France&rsquo;s Duty of Vigilance Law">
+                    <Accordion.Section id="france-dov-law">
                         <Accordion.Title>
                             <strong>
                                 Ley de Francia sobre el deber de vigilancia
@@ -406,7 +406,7 @@ const es = ({ pdf }) => {
                         </Accordion.Panel>
                     </Accordion.Section>
                     <BorderSeparator />
-                    <Accordion.Section content-label="Dodd-Frank Wall Street Reform and Consumer Protection Act">
+                    <Accordion.Section id="wall-street-prot-act">
                         <Accordion.Title>
                             <strong>
                                 Ley Dodd-Frank de reforma de Wall Street y
@@ -466,7 +466,7 @@ const es = ({ pdf }) => {
                         </Accordion.Panel>
                     </Accordion.Section>
                     <BorderSeparator />
-                    <Accordion.Section content-label="California Transparency in Supply Chains Act">
+                    <Accordion.Section id="cali-supply-chain-act">
                         <Accordion.Title>
                             <strong>
                                 Ley de California sobre transparencia en las

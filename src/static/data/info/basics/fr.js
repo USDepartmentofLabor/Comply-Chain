@@ -15,8 +15,8 @@ const fr = ({ pdf }) => {
                     conformit&eacute; sociale
                 </strong>
             </h1>
-            <Accordion pdf={pdf}>
-                <Accordion.Section>
+            <Accordion pdf={pdf} id="basics-acc">
+                <Accordion.Section id="learning-objectives">
                     <Accordion.Title>
                         Objectifs d&apos;apprentissage
                     </Accordion.Title>
@@ -52,7 +52,7 @@ const fr = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 <border-separator> </border-separator>
-                <Accordion.Section>
+                <Accordion.Section id="key-terms">
                     <Accordion.Title>Termes cl&eacute;s</Accordion.Title>
                     <Accordion.Panel>
                         {" "}
@@ -192,7 +192,7 @@ const fr = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 <border-separator> </border-separator>
-                <Accordion.Section>
+                <Accordion.Section id="topics">
                     <Accordion.Title>Sujets</Accordion.Title>
                     <Accordion.Panel>
                         <p>
@@ -1427,7 +1427,7 @@ const fr = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 <border-separator> </border-separator>
-                <Accordion.Section>
+                <Accordion.Section id="resources">
                     <Accordion.Title>Autres ressources</Accordion.Title>
                     <Accordion.Panel>
                         <ol className="blue-numbers">
