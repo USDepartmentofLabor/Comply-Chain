@@ -18,9 +18,13 @@ class Accordion extends Component {
     componentDidMount() {
         const id = getHash();
         if (id) {
+            const element = document.getElementById(id);
             this.section.some((section, i) => {
                 if (section.id === id) {
                     this.toggleActive(i);
+                    return true;
+                } else if (section.contains(element)) {
+                    this.makeActive(i);
                     return true;
                 }
 
@@ -59,7 +63,6 @@ class Accordion extends Component {
     }
 
     toggleActive = sectionIndex => {
-        this.title[sectionIndex].classList.toggle("active");
         if (this.panel[sectionIndex].style.maxHeight) {
             this.makeInactive(sectionIndex);
         } else {
@@ -73,11 +76,13 @@ class Accordion extends Component {
     };
 
     makeInactive = sectionIndex => {
+        this.title[sectionIndex].classList.remove("active");
         this.panel[sectionIndex].style.maxHeight = null;
         storage.accordion.setAccordionId("");
     };
 
     makeActive = sectionIndex => {
+        this.title[sectionIndex].classList.add("active");
         this.panel[sectionIndex].style.maxHeight =
             this.panel[sectionIndex].scrollHeight + "px";
         storage.accordion.setAccordionId(this.section[sectionIndex].id);
