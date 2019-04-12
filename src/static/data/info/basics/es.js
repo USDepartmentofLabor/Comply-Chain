@@ -917,7 +917,7 @@ const es = ({ pdf }) => {
                                 concepto se ilustra con el ejemplo que se
                                 describe a continuaci&oacute;n.
                             </p>
-                            <ExampleInAction>
+                            <ExampleInAction id="eicc">
                                 <h4>
                                     <ExampleInAction.Icon />
                                     <strong>

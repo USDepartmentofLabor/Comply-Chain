@@ -1023,7 +1023,7 @@ const fr = ({ pdf }) => {
                                 est d&eacute;montr&eacute; dans l&rsquo;exemple
                                 ci-dessous.
                             </p>
-                            <ExampleInAction>
+                            <ExampleInAction id="eicc">
                                 <h4>
                                     <ExampleInAction.Icon />
                                     <strong>Exemple d&rsquo;action</strong>{" "}

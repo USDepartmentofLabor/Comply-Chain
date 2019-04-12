@@ -187,7 +187,7 @@ const fr = () => {
             </h2>
             <EiaList>
                 <li>
-                    <Link to="/basics">
+                    <Link to="/basics#better-work-garment">
                         Programme Better Work dans l&apos;industrie de la
                         confection
                         <Icons.ChevronRight />
@@ -195,7 +195,7 @@ const fr = () => {
                 </li>
                 <BorderSeparator />
                 <li>
-                    <Link to="/basics">
+                    <Link to="/basics#eicc">
                         Code de conduite de la Coalition pour la
                         citoyennet&eacute; de l&apos;industrie
                         &eacute;lectronique&nbsp;(EICC)&nbsp;&ndash;

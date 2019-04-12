@@ -779,7 +779,7 @@ const en = ({ pdf }) => {
                                 concept is demonstrated in the example that
                                 follows.
                             </p>
-                            <ExampleInAction>
+                            <ExampleInAction id="eicc">
                                 <h4>
                                     <ExampleInAction.Icon />
                                     <strong>Example in Action</strong>{" "}
