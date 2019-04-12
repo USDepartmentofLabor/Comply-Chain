@@ -168,6 +168,7 @@ class Accordion extends Component {
 const Wrapper = styled.div``;
 
 Accordion.Title = styled.div`
+    position: relative;
     background-color: ${theme.colors.offWhite};
     color: ${theme.colors.base};
     cursor: pointer;
@@ -182,10 +183,13 @@ Accordion.Title = styled.div`
     }
 
     &:after {
+        position: absolute;
         content: "+";
         color: ${theme.colors.base};
-        float: right;
-        margin-left: 5px;
+        font-size: 2em;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
     }
     &.active {
         &:after {
