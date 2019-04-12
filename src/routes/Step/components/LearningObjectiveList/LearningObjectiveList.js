@@ -1,22 +1,10 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import styled from "styled-components";
-import { theme } from "../../../../modules/config/theme";
 
-const Wrapper = styled.ul`
-    list-style: none;
-`;
+const Wrapper = styled.ul``;
 
-const Objective = styled.li`
-    &::before {
-        content: "\\2022";
-        color: ${theme.colors.primary};
-        display: inline-block;
-        font-weight: bold;
-        font-size: 1.5em;
-        padding-right: 7px;
-    }
-`;
+const Objective = styled.li``;
 class LearningObjectiveList extends Component {
     render() {
         const { objectives } = this.props;
