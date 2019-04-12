@@ -55,6 +55,12 @@ class TopicView extends Component {
             prevProps.location.pathname !== this.props.location.pathname
         ) {
             this.setState(this.buildTopicData());
+            const { step, topic, localizor } = this.props;
+            const stepData = localizor.strings.steps[step - 1];
+            if (stepData) {
+                storage.steps.createStep(step - 1, stepData.topics.length);
+                storage.steps.markTopicComplete(step - 1, topic - 1);
+            }
         }
     }
 

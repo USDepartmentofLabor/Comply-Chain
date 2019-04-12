@@ -44,7 +44,7 @@ class Accordion extends Component {
     componentDidUpdate() {
         // if text updates - update the current opened accordion height.
         this.section.some((section, i) => {
-            if (this.panel[i].style.maxHeight) {
+            if (this.panel[i] && this.panel[i].style.maxHeight) {
                 this.makeActive(i);
                 return true;
             }
