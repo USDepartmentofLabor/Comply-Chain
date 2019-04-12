@@ -234,20 +234,21 @@ const BookmarkIcon = styled(Icons.BookmarkCheck)``;
 const ItemTitle = styled(Link)`
     color: ${theme.colors.white};
     text-decoration: none;
-    font-weight: 700;
+    font-weight: bold;
     font-family: ${theme.fonts.headings};
-    font-size: 20px;
+    font-size: 30px;
 `;
 
 const ItemContent = styled.div`
-    position: absolute;
-    bottom: 7px;
-    left: 20px;
+    padding-bottom: 7px;
+    padding-left: 20px;
     padding-right: 30px;
 `;
 
 const Item = styled.div`
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     background-image: linear-gradient(
             rgba(
                 ${props =>
