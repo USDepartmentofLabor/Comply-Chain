@@ -19,8 +19,11 @@ class Bookmarkable extends Component {
         this.setState({ bookmarked: !bookmarked });
     };
     render() {
-        const { children } = this.props;
+        const { children, pdf } = this.props;
         const { bookmarked } = this.state;
+        if (pdf) {
+            return children;
+        }
         return (
             <div>
                 <button onClick={this.handleBookmark}>
@@ -34,7 +37,8 @@ class Bookmarkable extends Component {
 
 Bookmarkable.propTypes = {
     titleString: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired
+    url: PropTypes.string.isRequired,
+    pdf: PropTypes.bool
 };
 
 export default Bookmarkable;

@@ -153,7 +153,11 @@ class StepView extends Component {
             sections.push(training);
         }
         return (
-            <Bookmarkable titleString={titleString} url={location.pathname}>
+            <Bookmarkable
+                titleString={titleString}
+                url={location.pathname}
+                pdf={pdf}
+            >
                 <h3>
                     <HeaderIcon>
                         <Icons.StepIcon step={step} />

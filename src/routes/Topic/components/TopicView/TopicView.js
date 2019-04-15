@@ -112,7 +112,11 @@ class TopicView extends Component {
         if (topicData) {
             const TopicData = topicData;
             return (
-                <Bookmarkable titleString={titleString} url={location.pathname}>
+                <Bookmarkable
+                    titleString={titleString}
+                    url={location.pathname}
+                    pdf={pdf}
+                >
                     <TopicData pdf={pdf} />
                     <TopicNavButtonGroup>
                         {prevStep && (
