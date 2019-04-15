@@ -129,54 +129,64 @@ class Search extends Component {
      */
     setupData = () => {
         const { localizor } = this.props;
-        const steps = localizor.strings.steps.map((step, i) => ({
-            title: step.title,
-            keywords: step.keywords,
-            to: `/steps/${i + 1}`
-        }));
 
-        const furtherResources = localizor.strings.steps.map((step, i) => ({
-            title: `${step.title} - ${
-                localizor.strings.general.furtherResources
-            }`,
-            content:
-                step.furtherResources &&
-                getRawTextData(step.furtherResources()).join(" "),
-            to: `/steps/${i + 1}#resources`
-        }));
-        const learningObjectives = localizor.strings.steps.map((step, i) => ({
-            title: `${step.title} - ${
-                localizor.strings.general.learningObjectives
-            }`,
-            content: step.learningObjectives.join(" "),
-            to: `/steps/${i + 1}#learning-objectives`
-        }));
-        const keyTerms = localizor.strings.steps.map((step, i) => ({
-            title: `${step.title} - ${localizor.strings.general.keyTerms}`,
-            // map through keyterms to create an array of arrays and then flatten those arrays into a single array
-            content: [].concat
-                .apply(
-                    [],
-                    step.keyTerms.map(keyTerm => {
-                        return Object.values(keyTerm);
-                    })
-                )
-                .join(" "),
-            to: `/steps/${i + 1}#key-terms`
-        }));
+        // set up steps data in a way so that when the data is searched and returned it is returned in chronological order
+        const steps = [].concat.apply(
+            [],
+            localizor.strings.steps.map((step, stepIdx) => {
+                const data = [
+                    {
+                        title: step.title,
+                        keywords: step.keywords,
+                        to: `/steps/${stepIdx + 1}`
+                    },
+                    {
+                        title: `${step.title} - ${
+                            localizor.strings.general.learningObjectives
+                        }`,
+                        content: step.learningObjectives.join(" "),
+                        to: `/steps/${stepIdx + 1}#learning-objectives`
+                    },
+                    {
+                        title: `${step.title} - ${
+                            localizor.strings.general.keyTerms
+                        }`,
+                        // map through keyterms to create an array of arrays and then flatten those arrays into a single array
+                        content: [].concat
+                            .apply(
+                                [],
+                                step.keyTerms.map(keyTerm => {
+                                    return Object.values(keyTerm);
+                                })
+                            )
+                            .join(" "),
+                        to: `/steps/${stepIdx + 1}#key-terms`
+                    }
+                ];
 
-        const topics = localizor.strings.steps.map((step, stepIdx) => {
-            return step.topics.map((topic, topicIdx) => {
-                return {
-                    title: topic.title,
-                    keywords: topic.keywords,
-                    content: getRawTextData(
-                        topic.content({ pdf: false }).props.children
-                    ).join(" "),
-                    to: `/steps/${stepIdx + 1}/topic/${topicIdx + 1}`
-                };
-            });
-        });
+                const topics = step.topics.map((topic, topicIdx) => {
+                    return {
+                        title: `${step.title} - ${topic.title}`,
+                        keywords: topic.keywords,
+                        content: getRawTextData(
+                            topic.content({ pdf: false }).props.children
+                        ).join(" "),
+                        to: `/steps/${stepIdx + 1}/topic/${topicIdx + 1}`
+                    };
+                });
+                const result = data.concat(topics);
+                result.push({
+                    title: `${step.title} - ${
+                        localizor.strings.general.furtherResources
+                    }`,
+                    content:
+                        step.furtherResources &&
+                        getRawTextData(step.furtherResources()).join(" "),
+                    to: `/steps/${stepIdx + 1}#resources`
+                });
+                return result;
+            })
+        );
 
         let info = [];
         for (const key in localizor.strings.info) {
@@ -192,13 +202,9 @@ class Search extends Component {
                 to: Routes[routeKey].path
             });
         }
+
         // merge all the data together in order to search it all
-        return steps
-            .concat(furtherResources)
-            .concat(learningObjectives)
-            .concat(keyTerms)
-            .concat(topics)
-            .concat(info);
+        return steps.concat(info);
     };
 
     /**
