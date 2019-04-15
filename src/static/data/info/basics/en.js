@@ -16,7 +16,7 @@ const en = ({ pdf }) => {
                 <Accordion.Section id="learning-objectives">
                     <Accordion.Title>Learning Objectives</Accordion.Title>
                     <Accordion.Panel>
-                        <ul className="blue-bullets">
+                        <ul>
                             <li>
                                 Understand the key components of a social
                                 compliance system and how they fit together.
