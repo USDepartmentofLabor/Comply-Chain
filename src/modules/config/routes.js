@@ -8,7 +8,9 @@ import {
     Step,
     Topic,
     WhatAre,
-    WhyDevelop
+    WhyDevelop,
+    Findings,
+    Goods
 } from "../../routes";
 
 const Routes = {
@@ -60,6 +62,16 @@ const Routes = {
     Search: {
         path: "/search",
         component: Search,
+        exact: true
+    },
+    Findings: {
+        path: "/findings",
+        component: Findings,
+        exact: true
+    },
+    Goods: {
+        path: "/goods",
+        component: Goods,
         exact: true
     }
 };

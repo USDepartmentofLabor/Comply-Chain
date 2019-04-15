@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import styled from "styled-components";
-import { getHash } from "../../modules/utils";
 import { theme } from "../../modules/config/theme";
+import { storage } from "../../modules/storage";
+import { getHash } from "../../modules/utils";
 
 class Accordion extends Component {
     state = { active: false };
@@ -17,34 +18,100 @@ class Accordion extends Component {
     componentDidMount() {
         const id = getHash();
         if (id) {
+            const element = document.getElementById(id);
             this.section.some((section, i) => {
                 if (section.id === id) {
                     this.toggleActive(i);
+                    return true;
+                } else if (section.contains(element)) {
+                    this.makeActive(i);
                     return true;
                 }
 
                 return false;
             });
+        } else {
+            const accId = storage.accordion.retrieveAccordionId();
+            if (accId) {
+                this.section.some((section, i) => {
+                    if (section.id === accId) {
+                        this.makeActive(i);
+                        return true;
+                    }
+
+                    return false;
+                });
+            }
+        }
+    }
+
+    componentDidUpdate() {
+        // if text updates - update the current opened accordion height.
+        this.section.some((section, i) => {
+            if (this.panel[i] && this.panel[i].style.maxHeight) {
+                this.makeActive(i);
+                return true;
+            }
+            return false;
+        });
+    }
+
+    componentWillReceiveProps(props) {
+        if (props.reset !== this.props.reset && props.reset) {
+            this.closeAll();
         }
     }
 
     toggleActive = sectionIndex => {
-        this.title[sectionIndex].classList.toggle("active");
         if (this.panel[sectionIndex].style.maxHeight) {
-            this.panel[sectionIndex].style.maxHeight = null;
+            this.makeInactive(sectionIndex);
         } else {
-            this.panel[sectionIndex].style.maxHeight =
-                this.panel[sectionIndex].scrollHeight + "px";
+            this.makeActive(sectionIndex);
+            setTimeout(() => {
+                if (!this.isVisible(this.title[sectionIndex])) {
+                    this.scrollToTitle(sectionIndex);
+                }
+            }, 215);
         }
     };
 
+    makeInactive = sectionIndex => {
+        this.title[sectionIndex].classList.remove("active");
+        this.panel[sectionIndex].style.maxHeight = null;
+        storage.accordion.setAccordionId("");
+    };
+
+    makeActive = sectionIndex => {
+        this.title[sectionIndex].classList.add("active");
+        this.panel[sectionIndex].style.maxHeight =
+            this.panel[sectionIndex].scrollHeight + "px";
+        storage.accordion.setAccordionId(this.section[sectionIndex].id);
+    };
+
+    isVisible = ele => {
+        var rect = ele.getBoundingClientRect();
+        var viewHeight = Math.max(
+            document.documentElement.clientHeight,
+            window.innerHeight
+        );
+        return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+    };
+
     scrollToTitle = sectionIndex => {
-        window.scrollTo(0, this.title[sectionIndex].offsetTop);
+        this.title[sectionIndex].scrollIntoView(true);
+    };
+    closeAll = () => {
+        this.section.map((section, i) => {
+            this.panel[i].style.maxHeight = null;
+            this.title[i].classList.remove("active");
+
+            return section;
+        });
     };
 
     closeOthers = sectionIndex => {
         this.section.map((section, i) => {
-            if (sectionIndex !== i) {
+            if (section && sectionIndex !== i) {
                 this.panel[i].style.maxHeight = null;
                 this.title[i].classList.remove("active");
             }
@@ -53,6 +120,9 @@ class Accordion extends Component {
     };
     renderWrappedChildren = (children, sectionIndex) => {
         const { keepOpen, pdf } = this.props;
+        this.section = [];
+        this.title = [];
+        this.panel = [];
         return React.Children.map(children, (child, i) => {
             if (child.type.displayName === "Section") {
                 return React.cloneElement(child, {
@@ -103,6 +173,7 @@ class Accordion extends Component {
 const Wrapper = styled.div``;
 
 Accordion.Title = styled.div`
+    position: relative;
     background-color: ${theme.colors.offWhite};
     color: ${theme.colors.base};
     cursor: pointer;
@@ -111,17 +182,19 @@ Accordion.Title = styled.div`
     border: none;
     text-align: left;
     outline: none;
-    transition: 0.4s;
 
     &:hover {
         background-color: #ccc;
     }
 
     &:after {
+        position: absolute;
         content: "+";
         color: ${theme.colors.base};
-        float: right;
-        margin-left: 5px;
+        font-size: 2em;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
     }
     &.active {
         &:after {
@@ -140,7 +213,6 @@ Accordion.Panel = styled.div`
     border-right: 3px solid ${theme.colors.offWhite};
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
 `;
 
 Accordion.Panel.displayName = "Panel";
@@ -157,7 +229,7 @@ const PdfTitle = styled(Accordion.Title)`
     }
 `;
 const PdfPanel = styled(Accordion.Panel)`
-    max-height: 100%;
+    max-height: 10000px;
 `;
 
 Accordion.Section.propTypes = {

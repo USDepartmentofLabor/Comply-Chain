@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import usFlag from "../../images/us_flag.png";
-import verite from "../../images/verite.png";
+import usFlag from "../../../../../images/us_flag.png";
+import verite from "../../../../../images/verite.png";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const es = () => {

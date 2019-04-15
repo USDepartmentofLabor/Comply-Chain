@@ -44,16 +44,33 @@ const NavButton = styled(Button)`
         font-size: 1.25em;
     }
 `;
-
 class StepView extends Component {
     constructor(props) {
         super(props);
+        this.state = this.buildStepData();
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        if (
+            prevProps.localizor.language !== this.props.localizor.language ||
+            prevProps.location.pathname !== this.props.location.pathname
+        ) {
+            this.setState(this.buildStepData());
+        }
+
+        if (prevState.reset !== this.state.reset) {
+            this.setState({ reset: false });
+        }
+    }
+
+    buildStepData = () => {
         const { step, localizor } = this.props;
 
         const stepData = localizor.strings.steps[step - 1];
         const prevStep =
             (localizor.strings.steps[step - 2] && step - 1) || null;
         const nextStep = (localizor.strings.steps[step] && step + 1) || null;
+        let items;
         if (stepData) {
             const topics = stepData.topics;
             const learningObjectives = stepData.learningObjectives;
@@ -61,7 +78,7 @@ class StepView extends Component {
             const Resources = stepData.furtherResources;
             const Training = stepData.training;
             const ExtraInfo = stepData.extraInfo;
-            this.state = {
+            items = {
                 data: {
                     resources: {
                         title: localizor.strings.general.furtherResources,
@@ -105,10 +122,12 @@ class StepView extends Component {
                 titleString: `steps.${step - 1}.title`
             };
         }
-    }
+        return items;
+    };
 
     navigate = path => {
         const { history } = this.props;
+        this.setState({ reset: true });
         history.push(path);
     };
 
@@ -120,7 +139,8 @@ class StepView extends Component {
             data,
             data: { learningObjectives, keyTerms, topics, resources, training },
             title,
-            titleString
+            titleString,
+            reset
         } = this.state;
         if (!data) {
             return <div>Step not found!</div>;
@@ -144,6 +164,7 @@ class StepView extends Component {
                     id="step-accordions"
                     sections={sections}
                     pdf={pdf}
+                    reset={reset}
                 />
                 <StepNavButtonGroup>
                     {prevStep && (

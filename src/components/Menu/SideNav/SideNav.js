@@ -72,7 +72,8 @@ const FlexContainer = styled.div`
 SideNav.Item = styled.div`
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    color: ${theme.colors.white};
+    color: ${props =>
+        props.dimmed ? theme.colors.grayLight : theme.colors.white};
     font-weight: bold;
     display: block;
     transition: 0.3s;
@@ -80,9 +81,14 @@ SideNav.Item = styled.div`
     cursor: pointer;
 
     &:hover {
-        color: #f1f1f1;
+        color: ${props =>
+            props.dimmed ? theme.colors.gray : theme.colors.offWhite};
     }
 `;
+
+SideNav.Item.propTypes = {
+    dimmed: PropTypes.bool
+};
 
 SideNav.IdentedItem = styled(SideNav.Item)`
     padding-left: 48px;

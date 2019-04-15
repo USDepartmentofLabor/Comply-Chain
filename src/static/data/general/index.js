@@ -29,7 +29,10 @@ export const General = {
         bookmarks: "Bookmarks",
         share: "Share",
         about: "About",
-        continueReading: "Continue reading"
+        continueReading: "Continue reading",
+        english: "English",
+        spanish: "Español",
+        french: "Français"
     },
     es: {
         home: "Página principal",
@@ -61,7 +64,10 @@ export const General = {
         bookmarks: "Marcadores",
         share: "Compartir",
         about: "Sobre",
-        continueReading: "Seguir leyendo"
+        continueReading: "Seguir leyendo",
+        english: "Inglés",
+        spanish: "Español",
+        french: "Francés"
     },
     fr: {
         home: "Page d'accueil",
@@ -93,6 +99,9 @@ export const General = {
         bookmarks: "Signet",
         share: "Partager",
         about: "Sur",
-        continueReading: "Continuer à lire"
+        continueReading: "Continuer à lire",
+        english: "Anglais",
+        spanish: "Espagnol",
+        french: "Français"
     }
 };

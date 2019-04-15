@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import panos from "../../images/panos.png";
-import hrm from "../../images/hrm.jpg";
+import panos from "../../../../../images/panos.png";
+import hrm from "../../../../../images/hrm.jpg";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import OwnWords from "../../../../../../components/OwnWords";
 
@@ -201,7 +201,8 @@ const en = () => {
                     eliminate human rights violations in their supply chains.
                 </p>
                 <img
-                    id="img-browser" className="small-img"
+                    id="img-browser"
+                    className="small-img"
                     src={panos}
                     alt="child labourer with a spade"
                 />

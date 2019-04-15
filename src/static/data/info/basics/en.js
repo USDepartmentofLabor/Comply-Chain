@@ -12,8 +12,8 @@ const en = ({ pdf }) => {
             <h1>
                 <strong>The Basics of a Social Compliance System</strong>
             </h1>
-            <Accordion pdf={pdf}>
-                <Accordion.Section>
+            <Accordion pdf={pdf} id="basics-acc">
+                <Accordion.Section id="learning-objectives">
                     <Accordion.Title>Learning Objectives</Accordion.Title>
                     <Accordion.Panel>
                         <ul>
@@ -42,7 +42,7 @@ const en = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 <border-separator> </border-separator>
-                <Accordion.Section>
+                <Accordion.Section id="key-terms">
                     <Accordion.Title>Key Terms</Accordion.Title>
                     <Accordion.Panel>
                         <p>
@@ -154,7 +154,7 @@ const en = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 <border-separator> </border-separator>
-                <Accordion.Section>
+                <Accordion.Section id="topics">
                     <Accordion.Title>Topics</Accordion.Title>
                     <Accordion.Panel>
                         <p>
@@ -279,7 +279,7 @@ const en = ({ pdf }) => {
                             <ExampleInAction id="better-work-garment">
                                 <h4>
                                     <ExampleInAction.Icon />
-                                    <strong>Example in Action</strong>
+                                    <strong>Example in Action</strong>{" "}
                                     <em>
                                         <strong>Better Work</strong>
                                     </em>{" "}
@@ -527,7 +527,7 @@ const en = ({ pdf }) => {
                             <OwnWords>
                                 <h4>
                                     <OwnWords.Icon />
-                                    <strong>In Their Own Words</strong>
+                                    <strong>In Their Own Words</strong>{" "}
                                     <strong>
                                         International Institution Guidance on
                                         Supply Chain Responsibility{" "}
@@ -779,10 +779,10 @@ const en = ({ pdf }) => {
                                 concept is demonstrated in the example that
                                 follows.
                             </p>
-                            <ExampleInAction>
+                            <ExampleInAction id="eicc">
                                 <h4>
                                     <ExampleInAction.Icon />
-                                    <strong>Example in Action</strong>
+                                    <strong>Example in Action</strong>{" "}
                                     <strong>
                                         Electronics Industry Citizenship
                                         Coalition (EICC) Code of Conduct &ndash;
@@ -1078,7 +1078,7 @@ const en = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 <border-separator> </border-separator>
-                <Accordion.Section>
+                <Accordion.Section id="resources">
                     <Accordion.Title>Further Resources</Accordion.Title>
                     <Accordion.Panel>
                         <ol>

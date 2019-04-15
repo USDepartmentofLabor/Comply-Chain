@@ -1,5 +1,5 @@
 import React from "react";
-import usDol from "../../images/usdol.jpg";
+import usDol from "../../../../../images/usdol.jpg";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const en = () => {
@@ -74,7 +74,12 @@ const en = () => {
                 maximum production levels. Your risk assessment should provide
                 information to feed in to these determinations.
             </p>
-            <img id="img-browser" className="small-img" src={usDol} alt="agriculture child labor" />
+            <img
+                id="img-browser"
+                className="small-img"
+                src={usDol}
+                alt="agriculture child labor"
+            />
             <p className="small-text">&copy;Shelley Stinelli/USDOL</p>
             <p>
                 Auditing of your supply chain should also be scheduled

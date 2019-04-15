@@ -1,5 +1,5 @@
 import React from "react";
-import usDol from "../../images/usdol.jpg";
+import usDol from "../../../../../images/usdol.jpg";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const es = () => {
@@ -86,7 +86,8 @@ const es = () => {
                 decisiones.
             </p>
             <img
-                id="img-browser" className="small-img"
+                id="img-browser"
+                className="small-img"
                 src={usDol}
                 alt="trabajo infantil en el sector agr&iacute;cola"
             />
