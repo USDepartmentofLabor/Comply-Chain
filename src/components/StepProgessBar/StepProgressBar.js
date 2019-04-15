@@ -46,9 +46,6 @@ class StepProgressBar extends Component {
         let match = matchPath(path, {
             path: Routes.Step.path
         });
-        console.log(window.location);
-        console.log(window.location.pathname);
-        console.log(window.location.href);
 
         if (match && match.params && match.params.step) {
             if (this.state.currentStep !== match.params.step) {
