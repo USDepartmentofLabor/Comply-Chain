@@ -8,6 +8,7 @@ import { storage } from "../../modules/storage";
 import { withLanguageContext } from "../Language";
 import { matchPath } from "react-router";
 import Routes from "../../modules/config/routes";
+import { isBrowser } from "../../modules/utils/platform";
 
 const StepProgress = styled.div`
     color: white;
@@ -39,9 +40,15 @@ class StepProgressBar extends Component {
     }
 
     checkStepInfo = () => {
-        let match = matchPath(window.location.pathname, {
+        const path = isBrowser()
+            ? window.location.pathname
+            : window.location.href.split("#")[1];
+        let match = matchPath(path, {
             path: Routes.Step.path
         });
+        console.log(window.location);
+        console.log(window.location.pathname);
+        console.log(window.location.href);
 
         if (match && match.params && match.params.step) {
             if (this.state.currentStep !== match.params.step) {
