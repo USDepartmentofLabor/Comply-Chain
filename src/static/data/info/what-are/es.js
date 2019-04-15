@@ -1,7 +1,7 @@
 import React from "react";
 import Accordion from "../../../../components/Accordion";
-import childBrick from "../images/child_brick.jpg";
-import unoDc from "../images/UNO_DC_es.png";
+import childBrick from "../../../images/child_brick.jpg";
+import unoDc from "../../../images/UNO_DC_es.png";
 
 const es = ({ pdf }) => {
     return (
@@ -38,8 +38,8 @@ const es = ({ pdf }) => {
                 pol&iacute;ticas e idear programas para promover los derechos en
                 el trabajo y el empleo digno para todos.
             </p>
-            <Accordion pdf={pdf}>
-                <Accordion.Section>
+            <Accordion pdf={pdf} id="what-are-acc">
+                <Accordion.Section id="child-labor">
                     <Accordion.Title>Trabajo infantil</Accordion.Title>
                     <Accordion.Panel>
                         <h3>Definiciones</h3>
@@ -429,7 +429,7 @@ const es = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
 
-                <Accordion.Section>
+                <Accordion.Section id="forced-labor">
                     <Accordion.Title>Trabajo forzoso</Accordion.Title>
                     <Accordion.Panel>
                         <h3>Definiciones</h3>

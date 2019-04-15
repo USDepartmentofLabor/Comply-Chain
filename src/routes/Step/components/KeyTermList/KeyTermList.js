@@ -1,24 +1,12 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import styled from "styled-components";
-import { theme } from "../../../../modules/config/theme";
 
 const Wrapper = styled.div``;
 
-const ListWrapper = styled.ul`
-    list-style: none;
-`;
+const ListWrapper = styled.ul``;
 
-const KeyTerm = styled.li`
-    &::before {
-        content: "\\2022";
-        color: ${theme.colors.primary};
-        display: inline-block;
-        font-weight: bold;
-        font-size: 1.5em;
-        padding-right: 7px;
-    }
-`;
+const KeyTerm = styled.li``;
 
 const TermDefinition = styled.p`
     margin-top: 0;

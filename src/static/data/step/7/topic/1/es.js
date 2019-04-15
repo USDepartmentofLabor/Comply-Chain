@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import manBamboo from "../../images/man_bamboo.jpg";
+import manBamboo from "../../../../../images/man_bamboo.jpg";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const es = () => {
@@ -163,7 +163,8 @@ const es = () => {
                     auditor&iacute;as de conformidad con las normas de Bonsucro.
                 </p>
                 <img
-                    id="img-browser" className="small-img"
+                    id="img-browser"
+                    className="small-img"
                     src={manBamboo}
                     alt="Hombre que corta bamb&uacute;"
                 />{" "}

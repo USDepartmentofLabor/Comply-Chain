@@ -34,9 +34,9 @@ const NavItem = styled.div`
 `;
 
 const SideNavFooter = styled.div`
-    padding-bottom: 3em;
-    padding-bottom: calc(3em + constant(safe-area-inset-bottom));
-    padding-bottom: calc(3em + env(safe-area-inset-bottom));
+    padding-bottom: 7em;
+    padding-bottom: calc(7em + constant(safe-area-inset-bottom));
+    padding-bottom: calc(7em + env(safe-area-inset-bottom));
 `;
 
 const MenuButton = styled(Button)`
@@ -119,64 +119,6 @@ class NavBar extends Component {
         return (
             <div id={id}>
                 <NavbarRoot>
-                    <SideNav
-                        id="side-nav"
-                        visible={visible}
-                        onClose={this.handleSideNavClose}
-                    >
-                        <div id="side-nav-main-content">
-                            {leftItems.map((item, i) => (
-                                <SideNav.Item
-                                    {...item.props}
-                                    key={"mobile_left_" + i}
-                                    onClick={this.handleSideNavClose}
-                                >
-                                    {item.props && item.props.content}
-                                </SideNav.Item>
-                            ))}
-                            <StepsMenuItem
-                                id="steps-dropdown"
-                                onClick={this.toggleStepAccordion}
-                            >
-                                {localizor.strings.general.stepsToBasic}
-                                <StepIcon>
-                                    {!stepAccordionActive && (
-                                        <Icons.ArrowCircleRight />
-                                    )}
-                                    {stepAccordionActive && (
-                                        <Icons.ArrowCircleDown />
-                                    )}
-                                </StepIcon>
-                            </StepsMenuItem>
-
-                            {stepAccordionActive &&
-                                localizor.strings.steps.map((step, i) => {
-                                    return (
-                                        <SideNav.IdentedItem
-                                            as={NavLink}
-                                            to={`/steps/${i + 1}`}
-                                            key={step.title}
-                                            id={`step-${i + 1}-link`}
-                                            onClick={this.handleSideNavClose}
-                                        >
-                                            <StepWrapper>
-                                                <StepIcon>
-                                                    <Icons.StepIcon
-                                                        step={i + 1}
-                                                    />
-                                                </StepIcon>
-                                                <StepText>
-                                                    {step.title}
-                                                </StepText>
-                                            </StepWrapper>
-                                        </SideNav.IdentedItem>
-                                    );
-                                })}
-                        </div>
-                        <SideNavFooter id="side-nav-footer">
-                            <LanguageSwitcher />
-                        </SideNavFooter>
-                    </SideNav>
                     <NavbarWrapper>
                         <span id="navbar-left-items">
                             <NavItem as={Breadcrumbs} id="breadcrumbs" />
@@ -203,6 +145,62 @@ class NavBar extends Component {
                         </span>
                     </NavbarWrapper>
                 </NavbarRoot>
+
+                <SideNav
+                    id="side-nav"
+                    visible={visible}
+                    onClose={this.handleSideNavClose}
+                >
+                    <div id="side-nav-main-content">
+                        {leftItems.map((item, i) => (
+                            <SideNav.Item
+                                {...item.props}
+                                key={"mobile_left_" + i}
+                                onClick={this.handleSideNavClose}
+                                dimmed={stepAccordionActive ? true : undefined}
+                            >
+                                {item.props && item.props.content}
+                            </SideNav.Item>
+                        ))}
+                        <StepsMenuItem
+                            id="steps-dropdown"
+                            onClick={this.toggleStepAccordion}
+                        >
+                            {localizor.strings.general.stepsToBasic}
+                            <StepIcon>
+                                {!stepAccordionActive && (
+                                    <Icons.ArrowCircleRight />
+                                )}
+                                {stepAccordionActive && (
+                                    <Icons.ArrowCircleDown />
+                                )}
+                            </StepIcon>
+                        </StepsMenuItem>
+
+                        {stepAccordionActive &&
+                            localizor.strings.steps.map((step, i) => {
+                                return (
+                                    <SideNav.IdentedItem
+                                        as={NavLink}
+                                        to={`/steps/${i + 1}`}
+                                        key={step.title}
+                                        id={`step-${i + 1}-link`}
+                                        onClick={this.handleSideNavClose}
+                                    >
+                                        <StepWrapper>
+                                            <StepIcon>
+                                                <Icons.StepIcon step={i + 1} />
+                                            </StepIcon>
+                                            <StepText>{step.title}</StepText>
+                                        </StepWrapper>
+                                    </SideNav.IdentedItem>
+                                );
+                            })}
+                    </div>
+                    <SideNavFooter id="side-nav-footer">
+                        <LanguageSwitcher />
+                    </SideNavFooter>
+                </SideNav>
             </div>
         );
     }

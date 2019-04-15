@@ -1,6 +1,7 @@
 const STEP_KEY = "steps";
 const SPLASH_KEY = "splash";
 const BOOKMARK_KEY = "bookmarks";
+const ACCORDION_KEY = "accordion";
 
 const createStep = (step, totalTopics) => {
     const steps = JSON.parse(localStorage.getItem(STEP_KEY)) || [];
@@ -124,6 +125,14 @@ const retrieveBookmarks = () => {
     return JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
 };
 
+const setAccordionId = id => {
+    localStorage.setItem(ACCORDION_KEY, JSON.stringify(id));
+};
+
+const retrieveAccordionId = () => {
+    return JSON.parse(localStorage.getItem(ACCORDION_KEY));
+};
+
 export const storage = {
     steps: {
         createStep,
@@ -141,5 +150,9 @@ export const storage = {
         toggleBookmark,
         retrieveBookmark,
         retrieveBookmarks
+    },
+    accordion: {
+        setAccordionId,
+        retrieveAccordionId
     }
 };

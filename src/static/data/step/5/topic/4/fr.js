@@ -1,5 +1,5 @@
 import React from "react";
-import usDol from "../../images/usdol.jpg";
+import usDol from "../../../../../images/usdol.jpg";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const fr = () => {
@@ -102,7 +102,8 @@ const fr = () => {
                 d&eacute;terminations.
             </p>
             <img
-                id="img-browser" className="small-img"
+                id="img-browser"
+                className="small-img"
                 src={usDol}
                 alt="travail agricole des enfants"
             />

@@ -13,6 +13,7 @@ import { Navigator } from "../Navigation";
 import Share from "../Share";
 import StepProgressBar from "../StepProgessBar/StepProgressBar";
 import ScrollToTop from "./ScrollToTop";
+import BottomDrawer from "../Menu/BottomDrawer/BottomDrawer";
 
 const Main = styled.div`
     padding: 0 10px;
@@ -65,7 +66,12 @@ const Container = styled.div`
 class AppWrapper extends Component {
     constructor(props) {
         super(props);
-        this.state = this.updateNavBarItems();
+        this.state = { ...this.updateNavBarItems(), bottomDrawerActive: false };
+    }
+    componentDidUpdate(prevProps) {
+        if (prevProps.localizor.language !== this.props.localizor.language) {
+            this.setState({ ...this.updateNavBarItems() });
+        }
     }
 
     updateNavBarItems = () => {
@@ -105,7 +111,7 @@ class AppWrapper extends Component {
                 {
                     props: {
                         as: NavLink,
-                        to: "/bookmarks",
+                        to: Routes.Bookmarks.path,
                         id: "bookmarks-link"
                     },
                     icon: Icons.Bookmarks,
@@ -130,24 +136,54 @@ class AppWrapper extends Component {
                 },
                 {
                     props: {
-                        as: NavLink,
-                        to: "/about",
-                        id: "about-link"
+                        as: "span",
+                        id: "about-link",
+                        onClick: () => this.toggleBottomDrawer()
                     },
                     icon: Icons.About,
                     label: localizor.strings.general.about
+                }
+            ],
+
+            bottomDrawerItems: [
+                {
+                    props: {
+                        as: NavLink,
+                        id: "bottom-drawer-about-link",
+                        to: Routes.About.path
+                    },
+                    label: localizor.strings.info.about.title
+                },
+                {
+                    props: {
+                        as: NavLink,
+                        id: "bottom-drawer-findings-link",
+                        to: Routes.Findings.path
+                    },
+                    label: localizor.strings.info.findings.title
+                },
+                {
+                    props: {
+                        as: NavLink,
+                        id: "bottom-drawer-goods-link",
+                        to: Routes.Goods.path
+                    },
+                    label: localizor.strings.info.goods.title
                 }
             ]
         };
         return items;
     };
-    componentDidUpdate(prevProps) {
-        if (prevProps.localizor.language !== this.props.localizor.language) {
-            this.setState({ ...this.updateNavBarItems() });
-        }
-    }
+    toggleBottomDrawer = () => {
+        this.setState({ bottomDrawerActive: !this.state.bottomDrawerActive });
+    };
     render() {
-        const { navBarLeftItems, bottomNavItems } = this.state;
+        const {
+            navBarLeftItems,
+            bottomNavItems,
+            bottomDrawerActive,
+            bottomDrawerItems
+        } = this.state;
         const { location } = this.props;
         return (
             <ScrollToTop>
@@ -170,6 +206,14 @@ class AppWrapper extends Component {
                     </Main>
                 </MainWrapper>
                 <Footer>
+                    <BottomDrawer
+                        id="bototm-drawer"
+                        active={bottomDrawerActive}
+                        items={bottomDrawerItems}
+                        onClose={() => {
+                            this.setState({ bottomDrawerActive: false });
+                        }}
+                    />
                     <BottomNavBar id="bottom-nav-bar" items={bottomNavItems} />
                 </Footer>
             </ScrollToTop>

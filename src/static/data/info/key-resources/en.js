@@ -175,14 +175,14 @@ const en = () => {
             </h2>
             <EiaList id="eia-list">
                 <li>
-                    <Link to="/basics">
+                    <Link to="/basics#better-work-garment">
                         Better Work Program in the Garment Industry
                         <Icons.ChevronRight />
                     </Link>
                 </li>
                 <BorderSeparator />
                 <li>
-                    <Link to="/basics">
+                    <Link to="/basics#eicc">
                         Electronics Industry Citizenship Coalition (EICC) Code
                         of Conduct &ndash; Management Systems
                         <Icons.ChevronRight />

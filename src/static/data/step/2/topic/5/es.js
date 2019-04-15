@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import panos from "../../images/panos.jpg";
-import hrm from "../../images/hrm.jpg";
+import panos from "../../../../../images/panos.jpg";
+import hrm from "../../../../../images/hrm.jpg";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import OwnWords from "../../../../../../components/OwnWords";
 
@@ -235,7 +235,8 @@ const es = () => {
                     en sus cadenas de suministro.
                 </p>
                 <img
-                    id="img-browser" className="small-img"
+                    id="img-browser"
+                    className="small-img"
                     src={panos}
                     alt="ni&ntilde;o que trabaja con una pala."
                 />

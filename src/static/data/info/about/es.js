@@ -50,8 +50,8 @@ const es = ({ pdf }) => {
                 internacionales.&nbsp;
             </p>
             <p />
-            <Accordion pdf={pdf}>
-                <Accordion.Section>
+            <Accordion pdf={pdf} id="about-acc">
+                <Accordion.Section id="why-develop">
                     <Accordion.Title>
                         <strong>
                             ¿Por qu&eacute; el Departamento de Trabajo
@@ -277,7 +277,7 @@ const es = ({ pdf }) => {
                         <p />
                     </Accordion.Panel>
                 </Accordion.Section>
-                <Accordion.Section>
+                <Accordion.Section id="how-develop">
                     <Accordion.Title>
                         <strong>
                             ¿C&oacute;mo elabor&oacute; el Departamento de
@@ -316,7 +316,7 @@ const es = ({ pdf }) => {
                         </p>
                     </Accordion.Panel>
                 </Accordion.Section>
-                <Accordion.Section>
+                <Accordion.Section id="who-app">
                     <Accordion.Title>
                         <strong>
                             ¿A qui&eacute;n est&aacute; dirigida esta
@@ -337,7 +337,7 @@ const es = ({ pdf }) => {
                         </p>
                     </Accordion.Panel>
                 </Accordion.Section>
-                <Accordion.Section>
+                <Accordion.Section id="how-use-app">
                     <Accordion.Title>
                         <strong>
                             ¿C&oacute;mo se usa esta aplicaci&oacute;n?

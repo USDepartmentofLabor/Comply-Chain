@@ -182,6 +182,26 @@ describe("Routes", () => {
                     );
                 });
             });
+            describe("Findings", () => {
+                it("renders Findings route", () => {
+                    const Route = Routes.Findings.component;
+                    localizeComp(
+                        <Router>
+                            <Route />
+                        </Router>
+                    );
+                });
+            });
+            describe("Goods", () => {
+                it("renders Goods route", () => {
+                    const Route = Routes.Goods.component;
+                    localizeComp(
+                        <Router>
+                            <Route />
+                        </Router>
+                    );
+                });
+            });
             describe("Bookmarks", () => {
                 it("renders Bookmarks route", () => {
                     const Route = Routes.Bookmarks.component;

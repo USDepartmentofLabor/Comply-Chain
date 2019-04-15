@@ -14,7 +14,7 @@ const Wrapper = styled.div`
     h2,
     h3,
     h4 {
-        color: #00008b;
+        color: #aa5703;
     }
 `;
 

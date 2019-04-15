@@ -1,6 +1,6 @@
 import React from "react";
-import cocoaSupplyChains from "../../images/cocoa_supply_chains_es.png";
-import genericImport from "../../images/generic_import_es.png";
+import cocoaSupplyChains from "../../../../../images/cocoa_supply_chains_es.png";
+import genericImport from "../../../../../images/generic_import_es.png";
 import Accordion from "../../../../../../components/Accordion";
 
 const es = ({ pdf }) => {
@@ -158,8 +158,8 @@ const es = ({ pdf }) => {
                 </a>
             </p>
             <div id="cocoa_chains">
-                <Accordion pdf={pdf}>
-                    <Accordion.Section>
+                <Accordion pdf={pdf} id="cocoa-chains-acc">
+                    <Accordion.Section id="cocoa-description">
                         <Accordion.Title>
                             Descripci&oacute;n del gr&aacute;fico
                         </Accordion.Title>
@@ -234,8 +234,8 @@ const es = ({ pdf }) => {
                 </a>
             </p>
             <div>
-                <Accordion pdf={pdf}>
-                    <Accordion.Section>
+                <Accordion pdf={pdf} id="generic-import-acc">
+                    <Accordion.Section id="generic-import-description">
                         <Accordion.Title>
                             Descripci&oacute;n del gr&aacute;fico
                         </Accordion.Title>

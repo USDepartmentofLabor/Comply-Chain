@@ -14,8 +14,8 @@ const es = ({ pdf }) => {
                     Aspectos b&aacute;sicos de un sistema de cumplimiento social
                 </strong>
             </h1>
-            <Accordion pdf={pdf}>
-                <Accordion.Section>
+            <Accordion pdf={pdf} id="basics-acc">
+                <Accordion.Section id="learning-objectives">
                     <Accordion.Title>
                         Objetivos did&aacute;cticos
                     </Accordion.Title>
@@ -48,7 +48,7 @@ const es = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 <border-separator> </border-separator>
-                <Accordion.Section>
+                <Accordion.Section id="key-terms">
                     <Accordion.Title>T&eacute;rminos clave</Accordion.Title>
                     <Accordion.Panel>
                         <p>
@@ -189,7 +189,7 @@ const es = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 <border-separator> </border-separator>
-                <Accordion.Section>
+                <Accordion.Section id="topics">
                     <Accordion.Title>Temas</Accordion.Title>
                     <Accordion.Panel>
                         <p>
@@ -917,7 +917,7 @@ const es = ({ pdf }) => {
                                 concepto se ilustra con el ejemplo que se
                                 describe a continuaci&oacute;n.
                             </p>
-                            <ExampleInAction>
+                            <ExampleInAction id="eicc">
                                 <h4>
                                     <ExampleInAction.Icon />
                                     <strong>
@@ -1278,10 +1278,9 @@ const es = ({ pdf }) => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 <border-separator> </border-separator>
-                <Accordion.Section>
+                <Accordion.Section id="resources">
                     <Accordion.Title>Recursos adicionales</Accordion.Title>
                     <Accordion.Panel>
-                        {" "}
                         <ol>
                             <li>
                                 Dickson, Marsha, Suzanne Loker, Molly Eckman,

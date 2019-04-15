@@ -1,5 +1,5 @@
 import React from "react";
-import ilo from "../../images/ilo.jpg";
+import ilo from "../../../../../images/ilo.jpg";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const en = () => {

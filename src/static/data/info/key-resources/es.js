@@ -38,7 +38,9 @@ const es = () => {
             </p>
             <p>
                 <a
-                    target="_blank" rel="noopener noreferrer" href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     title="Principios Rectores de las Naciones Unidas sobre empresas y derechos humanos"
                 >
                     http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_SP.pdf
@@ -54,7 +56,9 @@ const es = () => {
             </p>
             <p>
                 <a
-                    target="_blank" rel="noopener noreferrer" href="http://www.oecd.org/corporate/mne/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.oecd.org/corporate/mne/"
                     title="L&iacute;neas directrices para empresas internacionales"
                 >
                     https://www.oecd.org/daf/inv/mne/MNEguidelinesESPANOL.pdf
@@ -70,7 +74,9 @@ const es = () => {
             </p>
             <p>
                 <a
-                    target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/empent/areas/business-helpdesk/lang--en/index.htm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.ilo.org/empent/areas/business-helpdesk/lang--en/index.htm"
                     title="Servicio de Asistencia de la OIT para empresas sobre las normas internacionales del trabajo"
                 >
                     http://www.ilo.org/empent/areas/business-helpdesk/lang--es/index.htm
@@ -86,7 +92,9 @@ const es = () => {
             </p>
             <p>
                 <a
-                    target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
                     title="&gt;Lucha contra el trabajo forzoso:<i> </i>Manual para empleadores y empresas"
                 >
                     http://www.ilo.org/global/topics/forced-labour/publications/WCMS_105883/lang--es/index.htm
@@ -104,7 +112,9 @@ const es = () => {
             </p>
             <p>
                 <a
-                    target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm"
                     title="<i>Checkpoints for Companies &ndash; Eliminating and Preventing Forced Labour</i>"
                 >
                     http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm
@@ -120,7 +130,9 @@ const es = () => {
             </p>
             <p>
                 <a
-                    target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_27555/lang--en/index.htm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_27555/lang--en/index.htm"
                     title="Herramienta de orientaci&oacute;n de la OIT y la OIE sobre el trabajo infantil destinada a las empresas"
                 >
                     http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_27555/lang--en/index.htm
@@ -138,7 +150,9 @@ const es = () => {
             </p>
             <p>
                 <a
-                    target="_blank" rel="noopener noreferrer" href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-case-studies"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-case-studies"
                     title="<i>Business Actions Against Forced Labour &ndash; Success Stories</i>"
                 >
                     http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-case-studies
@@ -153,7 +167,9 @@ const es = () => {
             </p>
             <p>
                 <a
-                    target="_blank" rel="noopener noreferrer" href="http://www.responsiblesourcingtool.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.responsiblesourcingtool.org/"
                     title="<i>Responsible Sourcing Tool</i>"
                 >
                     http://www.responsiblesourcingtool.org/
@@ -170,7 +186,9 @@ const es = () => {
             </p>
             <p>
                 <a
-                    target="_blank" rel="noopener noreferrer" href="http://responsiblesourcingtool.org/download/reports/Verite_BusinessAuthenticationCriteria_r1.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://responsiblesourcingtool.org/download/reports/Verite_BusinessAuthenticationCriteria_r1.pdf"
                     title="<i>Anti-Human Trafficking Business Authentication Criteria</i>"
                 >
                     http://responsiblesourcingtool.org/download/reports/Verite_BusinessAuthenticationCriteria_r1.pdf
@@ -182,14 +200,14 @@ const es = () => {
             </h2>
             <EiaList>
                 <li>
-                    <Link to="basics">
+                    <Link to="/basics#better-work-garment">
                         Programa Better Work en la industria de la vestimenta
                         <Icons.ChevronRight />
                     </Link>
                 </li>
                 <BorderSeparator />
                 <li>
-                    <Link to="basics">
+                    <Link to="/basics#eicc">
                         C&oacute;digo de conducta de la Coalici&oacute;n
                         Ciudadana de la Industria Electr&oacute;nica (EICC).
                         Sistemas de gesti&oacute;n

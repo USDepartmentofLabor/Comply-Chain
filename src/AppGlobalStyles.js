@@ -49,12 +49,13 @@ export const AppGlobalStyles = createGlobalStyle`
     a {
         text-decoration: none;
         color: #0071bc;
+        word-wrap: break-word;
     }
 
-    ul {
+    .blue-bullets {
         list-style: none;
     }
-    ul > li::before {
+    .blue-bullets > li::before {
         content: "\\2022";
         color: #0071bc;
         display: inline-block;
@@ -64,14 +65,14 @@ export const AppGlobalStyles = createGlobalStyle`
         margin-left: -1em;
     }
 
-    ol {
+    .blue-numbers {
         list-style: none;
         counter-reset: li;
     }
-    ol > li {
+    .blue-numbers > li {
         counter-increment: li;
     } 
-    ol > li::before {
+    .blue-numbers > li::before {
         content: counter(li) ".";
         color: #0071bc;
         font-weight: bold;
@@ -100,6 +101,15 @@ export const AppGlobalStyles = createGlobalStyle`
         max-width: 100%;
         height: auto;
     }
+
+    @media print {
+        img {
+            max-width: 50%;
+            height: auto;
+            page-break-inside: avoid;
+        }
+    }
+
 
     .small-img {
         width: 50%;

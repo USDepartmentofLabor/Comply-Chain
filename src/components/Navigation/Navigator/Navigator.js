@@ -15,12 +15,11 @@ class Navigator extends Component {
         return Object.keys(Routes).map((routeName, idx) => {
             const { component: Component, path, exact } = Routes[routeName];
 
-            const currentComponent = props => <Component {...props} />;
-
             const routeProps = {
                 path: path,
-                component: currentComponent,
-                key: idx,
+                component: Component,
+                key: routeName,
+                localizor,
                 exact
             };
 
