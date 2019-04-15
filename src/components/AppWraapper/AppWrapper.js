@@ -14,6 +14,7 @@ import Share from "../Share";
 import StepProgressBar from "../StepProgessBar/StepProgressBar";
 import ScrollToTop from "./ScrollToTop";
 import BottomDrawer from "../Menu/BottomDrawer/BottomDrawer";
+import { storage } from "../../modules/storage";
 
 const Main = styled.div`
     padding: 0 10px;
@@ -69,10 +70,18 @@ class AppWrapper extends Component {
         this.state = { ...this.updateNavBarItems(), bottomDrawerActive: false };
     }
 
+    componentDidMount() {
+        storage.search.clearSearchData();
+    }
+
     componentDidUpdate(prevProps) {
         if (prevProps.localizor.language !== this.props.localizor.language) {
             this.setState({ ...this.updateNavBarItems() });
         }
+    }
+
+    componentWillUnmount() {
+        storage.search.clearSearchData();
     }
 
     updateNavBarItems = () => {

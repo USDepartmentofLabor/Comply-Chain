@@ -7,6 +7,7 @@ import Routes from "../../modules/config/routes";
 import { theme } from "../../modules/config/theme";
 import { getRawTextData } from "../../modules/utils";
 import Highlighter from "react-highlight-words";
+import { storage } from "../../modules/storage";
 
 const SearchLabel = styled.label`
     position: relative;
@@ -66,6 +67,34 @@ const SnippetLink = styled(Link)`
 class Search extends Component {
     state = { query: "", results: [], searching: false };
 
+    componentDidMount() {
+        const cache = storage.search.retrieveSearchCache();
+        if (cache) {
+            this.setState({ ...cache }, () => {
+                const scrollY = storage.search.retrieveSearchScrollY() || 0;
+                if (scrollY) {
+                    const main = document.getElementById("main");
+                    if (main) {
+                        main.scrollTo(0, scrollY);
+                    } else {
+                        window.scrollTo(0, scrollY);
+                    }
+                }
+            });
+        }
+    }
+
+    componentDidUpdate(prevProps) {
+        if (prevProps.localizor.language !== this.props.localizor.language) {
+            this.handleQuery();
+        }
+    }
+
+    componentWillUnmount() {
+        const main = document.getElementById("main");
+        storage.search.setSearchScrollY(main.scrollTop || window.scrollY);
+    }
+
     /**
      * Handles the user input in the search field. Users a short timer to prevent searching on each keystroke.
      */
@@ -95,7 +124,10 @@ class Search extends Component {
     handleQuery = () => {
         const { query } = this.state;
         if (query.length > 2) {
-            this.setState({ results: this.search(query), searching: false });
+            this.setState(
+                { results: this.search(query), searching: false },
+                this.cacheResults
+            );
         } else {
             this.setState({ results: [], searching: false });
         }
@@ -238,6 +270,10 @@ class Search extends Component {
             }
         }
         return false;
+    };
+
+    cacheResults = () => {
+        storage.search.cacheSearchResults(this.state);
     };
 
     /**

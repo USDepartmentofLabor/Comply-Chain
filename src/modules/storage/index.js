@@ -2,6 +2,8 @@ const STEP_KEY = "steps";
 const SPLASH_KEY = "splash";
 const BOOKMARK_KEY = "bookmarks";
 const ACCORDION_KEY = "accordion";
+const SEARCH_CACHE_KEY = "search_cache";
+const SEARCH_SCROLL = "search_scroll";
 
 const createStep = (step, totalTopics) => {
     const steps = JSON.parse(localStorage.getItem(STEP_KEY)) || [];
@@ -133,6 +135,27 @@ const retrieveAccordionId = () => {
     return JSON.parse(localStorage.getItem(ACCORDION_KEY));
 };
 
+const cacheSearchResults = data => {
+    localStorage.setItem(SEARCH_CACHE_KEY, JSON.stringify(data));
+};
+
+const retrieveSearchCache = () => {
+    return JSON.parse(localStorage.getItem(SEARCH_CACHE_KEY));
+};
+
+const setSearchScrollY = scrolly => {
+    localStorage.setItem(SEARCH_SCROLL, JSON.stringify(scrolly));
+};
+
+const retrieveSearchScrollY = () => {
+    return JSON.parse(localStorage.getItem(SEARCH_SCROLL));
+};
+
+const clearSearchData = () => {
+    localStorage.removeItem(SEARCH_CACHE_KEY);
+    localStorage.removeItem(SEARCH_SCROLL);
+};
+
 export const storage = {
     steps: {
         createStep,
@@ -154,5 +177,12 @@ export const storage = {
     accordion: {
         setAccordionId,
         retrieveAccordionId
+    },
+    search: {
+        cacheSearchResults,
+        retrieveSearchCache,
+        clearSearchData,
+        setSearchScrollY,
+        retrieveSearchScrollY
     }
 };
