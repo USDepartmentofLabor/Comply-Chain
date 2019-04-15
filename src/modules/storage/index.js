@@ -54,7 +54,7 @@ const findNextIncompleteStep = totalSteps => {
         return step;
     });
 
-    if (nextStep === null && steps.length < totalSteps) {
+    if (nextStep === null && steps.length <= totalSteps) {
         nextStep = steps.length;
     }
 

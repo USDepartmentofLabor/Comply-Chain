@@ -56,7 +56,7 @@ class StepProgressBar extends Component {
         if (isNaN(currentStep)) {
             currentStep = storage.steps.findNextIncompleteStep(numOfSteps);
         }
-        const percent = (100 / numOfSteps + 1.75) * currentStep;
+        const percent = Math.min((100 / numOfSteps + 1.75) * currentStep, 100);
         return (
             <ProgressBar
                 percent={percent}
