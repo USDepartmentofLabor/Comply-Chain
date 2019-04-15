@@ -796,7 +796,7 @@ const es = () => {
                 </li>
             </ul>
             <h2>Recursos adicionales</h2>
-            <ol className="blue-numbers">
+            <ol>
                 <li>
                     Barnes &amp; Noble College.{" "}
                     <i>

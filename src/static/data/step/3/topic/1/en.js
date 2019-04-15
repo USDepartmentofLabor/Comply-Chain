@@ -73,7 +73,7 @@ const en = () => {
                 applies to the company&rsquo;s subsidiaries across the globe.
             </p>
             <h2>Further Resources</h2>
-            <ol className="blue-numbers">
+            <ol>
                 <li>
                     AFL-CIO{" "}
                     <em>

@@ -222,7 +222,7 @@ const en = ({ pdf }) => {
                         <h3>
                             <strong>Further Resources</strong>
                         </h3>
-                        <ol className="blue-numbers">
+                        <ol>
                             <li>
                                 International Labor Organization, Global
                                 estimation of child labour 2016: Main results
@@ -611,7 +611,7 @@ const en = ({ pdf }) => {
                         <h3>
                             <strong>Further Resources</strong>
                         </h3>
-                        <ol className="blue-numbers">
+                        <ol>
                             <li>
                                 International Labor Organization Convention 29
                                 (Forced Labor Convention); available from{" "}

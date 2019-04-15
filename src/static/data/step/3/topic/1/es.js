@@ -85,7 +85,7 @@ const es = () => {
                 en el mundo.
             </p>
             <h2>Recursos adicionales</h2>
-            <ol className="blue-numbers">
+            <ol>
                 <li>
                     AFL-CIO{" "}
                     <em>
