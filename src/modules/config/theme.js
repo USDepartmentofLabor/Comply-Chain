@@ -27,6 +27,7 @@ export const theme = {
         goldLight: "#f9c642",
         goldLighter: "#fad980",
         goldLightest: "#fff1d2",
+        yellow: "#f4e842",
         green: "#2e8540",
         greenRGB: "46,133,64",
         greenLight: "#4aa564",

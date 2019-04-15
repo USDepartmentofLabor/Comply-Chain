@@ -68,6 +68,7 @@ class AppWrapper extends Component {
         super(props);
         this.state = { ...this.updateNavBarItems(), bottomDrawerActive: false };
     }
+
     componentDidUpdate(prevProps) {
         if (prevProps.localizor.language !== this.props.localizor.language) {
             this.setState({ ...this.updateNavBarItems() });
@@ -222,6 +223,7 @@ class AppWrapper extends Component {
 }
 
 AppWrapper.propTypes = {
+    match: PropTypes.object.isRequired,
     location: PropTypes.object.isRequired,
     localizor: PropTypes.object.isRequired
 };
