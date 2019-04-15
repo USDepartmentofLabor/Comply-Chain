@@ -25,6 +25,7 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+        <preference name="DisallowOverscroll" value="true" />
     </platform>
     <plugin name="cordova-plugin-device" spec="^2.0.2" />
     <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
