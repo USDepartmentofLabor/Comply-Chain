@@ -1,9 +1,10 @@
 import React from "react";
 import Accordion from "../../../../components/Accordion";
+import StaticData from "../../../../components/StaticData";
 
 const en = ({ pdf }) => {
     return (
-        <div>
+        <StaticData>
             <h1>About the Comply Chain App</h1>
             <p>
                 In the era of globalization, the production of goods in foreign
@@ -380,7 +381,7 @@ const en = ({ pdf }) => {
                 This application was developed for USDOL / ILAB. All Rights
                 Reserved.
             </p>
-        </div>
+        </StaticData>
     );
 };
 

@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import { withLanguageContext } from "../../components/Language";
-import Bookmarkable from "../../components/Bookmarkable";
 import { withRouter } from "react-router-dom";
+import Bookmarkable from "../../components/Bookmarkable";
+import { withLanguageContext } from "../../components/Language";
 
 class About extends Component {
     render() {
