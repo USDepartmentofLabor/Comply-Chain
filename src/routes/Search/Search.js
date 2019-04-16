@@ -280,17 +280,6 @@ class Search extends Component {
         storage.search.cacheSearchResults(this.state);
     };
 
-    createSearchQueryUrl = (path, query) => {
-        const split = path.split("#");
-        const searchQuery = `?search=${query}`;
-
-        if (split.length > 1) {
-            return `${split[0]}${searchQuery}#${split[1]}`;
-        }
-
-        return `${path}${searchQuery}`;
-    };
-
     /**
      * Searches an item with string content for a string query and generates a short string snippet of the content.
      *
@@ -338,6 +327,18 @@ class Search extends Component {
             strBegin.lastIndexOf(separator, maxLen + diff)
         );
     };
+
+    createSearchQueryUrl = (path, query) => {
+        const split = path.split("#");
+        const searchQuery = `?search=${query}`;
+
+        if (split.length > 1) {
+            return `${split[0]}${searchQuery}#${split[1]}`;
+        }
+
+        return `${path}${searchQuery}`;
+    };
+
     render() {
         const { localizor } = this.props;
         const { query, results, searching } = this.state;
