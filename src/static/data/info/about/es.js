@@ -1,5 +1,6 @@
 import React from "react";
 import Accordion from "../../../../components/Accordion";
+import StaticData from "../../../../components/StaticData";
 
 const es = ({ pdf }) => {
     return (

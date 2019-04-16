@@ -1,5 +1,5 @@
-import { Resources } from "./resource";
 import { ExtraInfo } from "./extra";
+import { Resources } from "./resource";
 import { Topics } from "./topic";
 
 export const StepData = {
