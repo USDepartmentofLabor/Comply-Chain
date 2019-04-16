@@ -1,13 +1,13 @@
 import React, { Component } from "react";
+import Highlighter from "react-highlight-words";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Icons from "../../components/Icons";
 import { withLanguageContext } from "../../components/Language";
 import Routes from "../../modules/config/routes";
 import { theme } from "../../modules/config/theme";
-import { getRawTextData } from "../../modules/utils";
-import Highlighter from "react-highlight-words";
 import { storage } from "../../modules/storage";
+import { getRawTextData } from "../../modules/utils";
 
 const SearchLabel = styled.label`
     position: relative;
@@ -66,6 +66,10 @@ const SnippetLink = styled(Link)`
 
 class Search extends Component {
     state = { query: "", results: [], searching: false };
+
+    componentWillMount() {
+        this.timer = null;
+    }
 
     componentDidMount() {
         const cache = storage.search.retrieveSearchCache();
@@ -276,6 +280,17 @@ class Search extends Component {
         storage.search.cacheSearchResults(this.state);
     };
 
+    createSearchQueryUrl = (path, query) => {
+        const split = path.split("#");
+        const searchQuery = `?search=${query}`;
+
+        if (split.length > 1) {
+            return `${split[0]}${searchQuery}#${split[1]}`;
+        }
+
+        return `${path}${searchQuery}`;
+    };
+
     /**
      * Searches an item with string content for a string query and generates a short string snippet of the content.
      *
@@ -323,11 +338,6 @@ class Search extends Component {
             strBegin.lastIndexOf(separator, maxLen + diff)
         );
     };
-
-    componentWillMount() {
-        this.timer = null;
-    }
-
     render() {
         const { localizor } = this.props;
         const { query, results, searching } = this.state;
@@ -358,7 +368,13 @@ class Search extends Component {
                     return (
                         <SearchResult key={`search_results_${i}`}>
                             {result.to && (
-                                <ResultTitle to={result.to} target="_blank">
+                                <ResultTitle
+                                    to={this.createSearchQueryUrl(
+                                        result.to,
+                                        query
+                                    )}
+                                    target="_blank"
+                                >
                                     <h3>{result.title}</h3>
                                 </ResultTitle>
                             )}
