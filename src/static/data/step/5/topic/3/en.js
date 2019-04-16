@@ -4,6 +4,7 @@ import ExampleInAction from "../../../../../../components/ExampleInAction/Exampl
 import StaticData from "../../../../../../components/StaticData";
 import usFlag from "../../../../../images/us_flag.png";
 import verite from "../../../../../images/verite.png";
+import { UsFlag, Verite, VeriteFlagWrapper } from "./shared";
 
 const en = () => {
     return (
@@ -307,14 +308,10 @@ const en = () => {
                         <ExampleInAction.Icon />
                         Example in Action: Responsible Sourcing Tool 1A
                     </h2>
-                    <div className="flag-verite">
-                        <img className="flag" src={usFlag} alt="US Flag" />
-                        <img
-                            className="verite"
-                            src={verite}
-                            alt="Verite sign"
-                        />
-                    </div>
+                    <VeriteFlagWrapper>
+                        <UsFlag src={usFlag} alt="US Flag" />
+                        <Verite src={verite} alt="Verite sign" />
+                    </VeriteFlagWrapper>
                     <p>
                         <strong>
                             PROTECTIONS AGAINST TRAFFICKING IN PERSONS{" "}

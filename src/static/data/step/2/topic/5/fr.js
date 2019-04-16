@@ -164,8 +164,8 @@ const fr = () => {
                     internationales, les ONG et d&rsquo;autres organismes
                     produisent &eacute;galement d&rsquo;autres ressources utiles
                     pour la collecte initiale d&rsquo;informations&nbsp;; voir{" "}
-                    <Link to="/steps/2">Autres ressources</Link> pour en savoir
-                    plus.{" "}
+                    <Link to="/steps/2#resources">Autres ressources</Link> pour
+                    en savoir plus.{" "}
                 </p>
                 <ExampleInAction id="med_rep">
                     <h2>

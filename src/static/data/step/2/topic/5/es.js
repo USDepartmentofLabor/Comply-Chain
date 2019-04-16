@@ -157,7 +157,7 @@ const es = () => {
                     internacionales, las ONG y otros producen recursos
                     &uacute;tiles para la recolecci&oacute;n inicial de
                     informaci&oacute;n. V&eacute;ase{" "}
-                    <Link to="/steps/2">
+                    <Link to="/steps/2#resources">
                         Recursos adicionales para obtener m&aacute;s
                         informaci&oacute;n.
                     </Link>

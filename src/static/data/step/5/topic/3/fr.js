@@ -4,6 +4,7 @@ import ExampleInAction from "../../../../../../components/ExampleInAction/Exampl
 import StaticData from "../../../../../../components/StaticData";
 import usFlag from "../../../../../images/us_flag.png";
 import verite from "../../../../../images/verite.png";
+import { UsFlag, Verite, VeriteFlagWrapper } from "./shared";
 
 const fr = () => {
     return (
@@ -401,18 +402,13 @@ const fr = () => {
                         Exemple d&apos;action&nbsp;: Outil
                         d&rsquo;approvisionnement responsable&nbsp;1A
                     </h2>
-                    <div className="flag-verite">
-                        <img
-                            className="flag"
+                    <VeriteFlagWrapper>
+                        <UsFlag
                             src={usFlag}
                             alt="Drapeau des &Eacute;tats-Unis d&rsquo;Am&eacute;rique"
-                        />{" "}
-                        <img
-                            className="verite"
-                            src={verite}
-                            alt="Logo Verit&eacute;"
                         />
-                    </div>
+                        <Verite src={verite} alt="Logo Verit&eacute;" />
+                    </VeriteFlagWrapper>
                     <p>
                         <strong>
                             PROTECTIONS CONTRE LA TRAITE DES PERSONNES

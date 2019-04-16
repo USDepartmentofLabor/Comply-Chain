@@ -4,6 +4,7 @@ import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import usFlag from "../../../../../images/us_flag.png";
 import verite from "../../../../../images/verite.png";
+import { UsFlag, Verite, VeriteFlagWrapper } from "./shared";
 
 const fr = () => {
     return (
@@ -411,18 +412,10 @@ const fr = () => {
                             </span>
                         </strong>
                     </h3>
-                    <div className="flag-verite">
-                        <img
-                            className="flag"
-                            src={usFlag}
-                            alt="Drapeau des &Eacute;tats-Unis d&rsquo;Am&eacute;rique"
-                        />{" "}
-                        <img
-                            className="verite"
-                            src={verite}
-                            alt="Logo Verit&eacute;"
-                        />
-                    </div>
+                    <VeriteFlagWrapper>
+                        <UsFlag src={usFlag} alt="US Flag" />
+                        <Verite src={verite} alt="Verite sign" />
+                    </VeriteFlagWrapper>
                     <p style={{ color: "black" }}>
                         <strong>
                             PROTECTIONS CONTRE LA TRAITE DES PERSONNES

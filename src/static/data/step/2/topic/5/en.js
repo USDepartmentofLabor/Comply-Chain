@@ -141,9 +141,9 @@ const en = () => {
                     </a>{" "}
                     store. The U.S. Government, international organizations,
                     NGOs and others produce additional useful resources for
-                    initial information-gathering; see
-                    <Link to="/steps/2">Further Resources</Link> for more
-                    information.
+                    initial information-gathering; see{" "}
+                    <Link to="/steps/2#resources">Further Resources</Link> for
+                    more information.
                 </p>
                 <ExampleInAction id="med_rep">
                     <h2>

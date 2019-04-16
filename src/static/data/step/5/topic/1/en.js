@@ -14,7 +14,7 @@ const en = () => {
                     planning and activities based on this evaluation.
                 </p>
                 <p>
-                    As discussed in
+                    As discussed in{" "}
                     <Link to="/steps/1">
                         Step 1, Engage Stakeholders and Partners
                     </Link>
@@ -47,7 +47,7 @@ const en = () => {
                 </p>
                 <p>
                     In any audit, when violations are found, you should
-                    remediate them. This is covered in detail in
+                    remediate them. This is covered in detail in{" "}
                     <Link to="/steps/6">Step 6, Remediate Violations</Link>.
                 </p>
             </div>

@@ -219,7 +219,7 @@ const en = () => {
                     and suppliers, and then holding them responsible for social
                     compliance performance&mdash;a model that can prove
                     cost-effective over the long run. These and other training
-                    and communication issues are discussed in
+                    and communication issues are discussed in{" "}
                     <Link to="/steps/4">
                         Step 4, Communicate and Train Across Your Supply Chains
                     </Link>

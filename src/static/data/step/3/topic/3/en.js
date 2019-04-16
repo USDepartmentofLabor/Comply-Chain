@@ -4,6 +4,7 @@ import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import usFlag from "../../../../../images/us_flag.png";
 import verite from "../../../../../images/verite.png";
+import { UsFlag, Verite, VeriteFlagWrapper } from "./shared";
 
 const en = () => {
     return (
@@ -330,14 +331,10 @@ const en = () => {
                             <span>Responsible Sourcing Tool 1</span>
                         </strong>
                     </h3>
-                    <div className="flag-verite">
-                        <img className="flag" src={usFlag} alt="US Flag" />
-                        <img
-                            className="verite"
-                            src={verite}
-                            alt="Verite sign"
-                        />
-                    </div>
+                    <VeriteFlagWrapper>
+                        <UsFlag src={usFlag} alt="US Flag" />
+                        <Verite src={verite} alt="Verite sign" />
+                    </VeriteFlagWrapper>
                     <p style={{ color: "black" }}>
                         <strong>
                             PROTECTIONS AGAINST TRAFFICKING IN PERSONS{" "}

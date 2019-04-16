@@ -92,7 +92,7 @@ const en = () => {
                     If a company opts to use internal or external auditors, it
                     may be necessary to engage independent entities for certain
                     roles within the social compliance system if they wish to
-                    ensure maximum effectiveness and credibility. See
+                    ensure maximum effectiveness and credibility. See{" "}
                     <Link to="/steps/7">Step 7, Independent Review</Link> for a
                     larger discussion of independent monitoring and
                     verification.

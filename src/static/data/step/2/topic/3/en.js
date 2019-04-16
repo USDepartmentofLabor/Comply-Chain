@@ -31,7 +31,7 @@ const en = () => {
                     research in the target country/community, and then a
                     baseline round of pre-sourcing audits to assess current
                     levels of compliance. More information on how to conduct
-                    these types of audits is included in
+                    these types of audits is included in{" "}
                     <Link to="/steps/5">Step 5, Monitor Compliance</Link>.
                 </p>
                 <p>
@@ -46,7 +46,7 @@ const en = () => {
                     level of compliance. These baseline data allow you to
                     identify suppliers&rsquo; potential areas for improvement.
                     More information on how to conduct these types of audits is
-                    included in
+                    included in{" "}
                     <Link to="/steps/5">Step 5, Monitor Compliance</Link>.
                 </p>
             </div>

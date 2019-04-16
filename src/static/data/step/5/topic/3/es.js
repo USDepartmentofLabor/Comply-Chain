@@ -4,6 +4,7 @@ import ExampleInAction from "../../../../../../components/ExampleInAction/Exampl
 import StaticData from "../../../../../../components/StaticData";
 import usFlag from "../../../../../images/us_flag.png";
 import verite from "../../../../../images/verite.png";
+import { UsFlag, Verite, VeriteFlagWrapper } from "./shared";
 
 const es = () => {
     return (
@@ -355,18 +356,13 @@ const es = () => {
                         Ejemplo en acci&oacute;n: Instrumento de abastecimiento
                         responsable 1A
                     </h2>
-                    <div className="flag-verite">
-                        <img
-                            className="flag"
+                    <VeriteFlagWrapper>
+                        <UsFlag
                             src={usFlag}
                             alt="Bandera de los Estados Unidos"
-                        />{" "}
-                        <img
-                            className="verite"
-                            src={verite}
-                            alt="Logo de Verit&eacute;"
                         />
-                    </div>
+                        <Verite src={verite} alt="Logo de Verit&eacute;" />
+                    </VeriteFlagWrapper>
                     <p>
                         <strong>
                             PROTECCIONES CONTRA LA TRATA DE PERSONAS
