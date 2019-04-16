@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import reactStringReplace from "react-string-replace";
 import styled from "styled-components";
+import { isBrowser } from "../../modules/utils/platform";
 
 const Highlight = styled.mark`
     background-color: ${props => (props.active ? "yellow" : "initial")};
@@ -14,7 +15,13 @@ class Searchable extends Component {
 
     componentDidMount() {
         if (this.highlight) {
-            this.highlight.scrollIntoView();
+            if (!isBrowser()) {
+                setTimeout(() => {
+                    this.highlight.scrollIntoView(true);
+                }, 50);
+            } else {
+                this.highlight.scrollIntoView(true);
+            }
         }
         document.addEventListener("click", this.hideHighlights);
     }
@@ -57,6 +64,7 @@ class Searchable extends Component {
     };
 
     hideHighlights = () => {
+        this.highlight = null;
         this.setState({ active: false });
     };
 
