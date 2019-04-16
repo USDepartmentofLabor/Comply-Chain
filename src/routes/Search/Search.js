@@ -8,6 +8,7 @@ import Routes from "../../modules/config/routes";
 import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
 import { getRawTextData } from "../../modules/utils";
+import { isBrowser } from "../../modules/utils/platform";
 
 const SearchLabel = styled.label`
     position: relative;
@@ -15,7 +16,7 @@ const SearchLabel = styled.label`
     & svg {
         content: "";
         position: absolute;
-        bottom: -24px;
+        bottom: ${() => (isBrowser() ? "-24px" : "-29px")};
         height: 20px;
         font-size: 2em;
         z-index: 5;
