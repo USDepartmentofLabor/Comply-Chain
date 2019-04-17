@@ -11,7 +11,13 @@ class Bookmarks extends Component {
     constructor(props) {
         super(props);
         const bookmarks = storage.bookmarks.retrieveBookmarks();
-        this.state = { bookmarks, week: [], month: [], others: [] };
+        this.state = {
+            bookmarks,
+            week: [],
+            month: [],
+            others: [],
+            bookmarksToRemove: []
+        };
         const monthAgo = new Date();
         monthAgo.setMonth(monthAgo.getMonth() - 1);
         const weekAgo = new Date();
@@ -31,8 +37,17 @@ class Bookmarks extends Component {
         });
     }
 
+    componentWillUnmount() {
+        const { bookmarksToRemove } = this.state;
+        bookmarksToRemove.map(bookmark => {
+            storage.bookmarks.toggleBookmark(bookmark.name);
+            return bookmark;
+        });
+    }
+
     renderBookmarks = bookmarks => {
         const { localizor } = this.props;
+        const { bookmarksToRemove } = this.state;
         return (
             <ul>
                 {bookmarks.map(bookmark => {
@@ -62,11 +77,44 @@ class Bookmarks extends Component {
                                     bookmark.name
                                 )}
                             </StyledLink>
+                            {" - "}
+                            {bookmarksToRemove.indexOf(bookmark) !== -1 ? (
+                                <button
+                                    onClick={() => {
+                                        this.unmarkForRemoval(bookmark);
+                                    }}
+                                >
+                                    Add back
+                                </button>
+                            ) : (
+                                <button
+                                    onClick={() => {
+                                        this.markForRemoval(bookmark);
+                                    }}
+                                >
+                                    Remove
+                                </button>
+                            )}
                         </li>
                     );
                 })}
             </ul>
         );
+    };
+
+    markForRemoval = bookmark => {
+        const { bookmarksToRemove } = this.state;
+        bookmarksToRemove.push(bookmark);
+        this.setState({ bookmarksToRemove });
+    };
+
+    unmarkForRemoval = bookmark => {
+        const { bookmarksToRemove } = this.state;
+        const idx = bookmarksToRemove.indexOf(bookmark);
+        if (idx !== -1) {
+            bookmarksToRemove.splice(idx, 1);
+        }
+        this.setState({ bookmarksToRemove });
     };
     render() {
         const { bookmarks, week, month, others } = this.state;
