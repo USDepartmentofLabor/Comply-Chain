@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { LanguageProvider } from "../components/Language";
 import Routes from "../modules/config/routes";
 import Localization from "../components/Language/Localization";
+import { storage } from "../modules/storage";
 
 describe("Routes", () => {
     const localizor = new Localization();
@@ -204,6 +205,48 @@ describe("Routes", () => {
             });
             describe("Bookmarks", () => {
                 it("renders Bookmarks route", () => {
+                    const Route = Routes.Bookmarks.component;
+                    localizeComp(
+                        <Router>
+                            <Route />
+                        </Router>
+                    );
+                });
+
+                it("renders with bookmarks", () => {
+                    const twoDaysAgo = new Date();
+                    twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
+                    const tenDaysAgo = new Date();
+                    tenDaysAgo.setDate(tenDaysAgo.getDate() - 10);
+                    const fiftyDaysAgo = new Date();
+                    fiftyDaysAgo.setDate(fiftyDaysAgo.getDate() - 50);
+                    const bookmarks = [
+                        {
+                            name: "withinWeek",
+                            prefix: "prefix",
+                            header: "header",
+                            url: "/week",
+                            time: twoDaysAgo.getTime()
+                        },
+                        {
+                            name: "withinMonth",
+                            prefix: "prefix",
+                            header: "header",
+                            url: "/month",
+                            time: tenDaysAgo.getTime()
+                        },
+                        {
+                            name: "overMonth",
+                            prefix: "prefix",
+                            header: "header",
+                            url: "/over",
+                            time: fiftyDaysAgo.getTime()
+                        }
+                    ];
+                    localStorage.setItem(
+                        "bookmarks",
+                        JSON.stringify(bookmarks)
+                    );
                     const Route = Routes.Bookmarks.component;
                     localizeComp(
                         <Router>

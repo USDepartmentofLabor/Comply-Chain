@@ -103,7 +103,13 @@ const toggleBookmark = (name, prefix, header, url) => {
     if (index !== -1) {
         bookmarks.splice(index, 1);
     } else {
-        bookmarks.push({ name, prefix, header, url });
+        bookmarks.push({
+            name,
+            prefix,
+            header,
+            url,
+            time: new Date().getTime()
+        });
     }
     localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
 };
