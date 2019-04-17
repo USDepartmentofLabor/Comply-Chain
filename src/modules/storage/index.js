@@ -92,16 +92,18 @@ const markSplashComplete = () => {
 /**
  * Toggles a bookmark by adding or removing it from storage.
  * @param {string} name - unique bookmark name
+ * @param {string} prefix - a string that will be prepended to the name
+ * @param {string} header - the bookmark header title before the name
  * @param {string=} url - url of the bookmark
  */
-const toggleBookmark = (name, url) => {
+const toggleBookmark = (name, prefix, header, url) => {
     const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
 
     const index = bookmarks.findIndex(bookmark => bookmark.name === name);
     if (index !== -1) {
         bookmarks.splice(index, 1);
     } else {
-        bookmarks.push({ name, url });
+        bookmarks.push({ name, prefix, header, url });
     }
     localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
 };

@@ -1,13 +1,12 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import { Redirect } from "react-router-dom";
-import { withLanguageContext } from "../../../../components/Language";
-import Button from "../../../../components/Button";
-import Icons from "../../../../components/Icons";
-import { withRouter } from "react-router-dom";
-import { storage } from "../../../../modules/storage";
+import { Redirect, withRouter } from "react-router-dom";
 import styled from "styled-components";
 import Bookmarkable from "../../../../components/Bookmarkable";
+import Button from "../../../../components/Button";
+import Icons from "../../../../components/Icons";
+import { withLanguageContext } from "../../../../components/Language";
+import { storage } from "../../../../modules/storage";
 
 const TopicNavButtonGroup = styled.div`
     margin-top: 1rem;
@@ -83,6 +82,7 @@ class TopicView extends Component {
                 items = {
                     title: stepData.topics[topic - 1].title,
                     titleString: `steps.${step - 1}.topics.${topic - 1}.title`,
+                    stepTitleString: `steps.${step - 1}.title`,
                     topicData: stepData.topics[topic - 1].content,
                     prevStep: prevStep && `/steps/${prevStep}`,
                     prevTopic: prevTopic && `/steps/${step}/topic/${prevTopic}`,
@@ -106,13 +106,16 @@ class TopicView extends Component {
             prevTopic,
             nextTopic,
             nextStep,
-            titleString
+            titleString,
+            stepTitleString
         } = this.state;
         const { step, localizor, pdf, location } = this.props;
         if (topicData) {
             const TopicData = topicData;
             return (
                 <Bookmarkable
+                    headerTitle={stepTitleString}
+                    titlePrefix={"general.topic"}
                     titleString={titleString}
                     url={location.pathname}
                     pdf={pdf}

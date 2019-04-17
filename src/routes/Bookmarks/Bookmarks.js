@@ -1,10 +1,12 @@
-import React, { Component } from "react";
-import { storage } from "../../modules/storage";
-import { Link } from "react-router-dom";
-import { getPropByString } from "../../modules/utils";
-import { withLanguageContext } from "../../components/Language";
 import PropTypes from "prop-types";
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { withLanguageContext } from "../../components/Language";
+import { storage } from "../../modules/storage";
+import { getPropByString } from "../../modules/utils";
+import styled from "styled-components";
 
+const StyledLink = styled(Link)``;
 class Bookmarks extends Component {
     render() {
         const { localizor } = this.props;
@@ -17,12 +19,30 @@ class Bookmarks extends Component {
                         {bookmarks.map(bookmark => {
                             return (
                                 <li key={`bookmark_${bookmark.name}`}>
-                                    <Link to={bookmark.url}>
+                                    <StyledLink to={bookmark.url}>
+                                        {bookmark.header && (
+                                            <span>
+                                                {getPropByString(
+                                                    localizor.strings,
+                                                    bookmark.header
+                                                )}
+                                                <br />
+                                            </span>
+                                        )}
+                                        {bookmark.prefix && (
+                                            <span>
+                                                {getPropByString(
+                                                    localizor.strings,
+                                                    bookmark.prefix
+                                                )}
+                                                :{" "}
+                                            </span>
+                                        )}
                                         {getPropByString(
                                             localizor.strings,
                                             bookmark.name
                                         )}
-                                    </Link>
+                                    </StyledLink>
                                 </li>
                             );
                         })}
