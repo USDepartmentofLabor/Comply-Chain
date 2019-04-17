@@ -12,6 +12,17 @@ class Bookmarkable extends Component {
             : false;
         this.state = { bookmarked };
     }
+    componentDidUpdate(prevProps) {
+        if (prevProps.titleString !== this.props.titleString) {
+            const bookmarked = storage.bookmarks.retrieveBookmark(
+                this.props.titleString
+            )
+                ? true
+                : false;
+            this.setState({ bookmarked });
+        }
+    }
+
     handleBookmark = () => {
         const { headerTitle, titleString, titlePrefix, url } = this.props;
         const { bookmarked } = this.state;

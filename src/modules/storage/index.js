@@ -115,6 +115,20 @@ const toggleBookmark = (name, prefix, header, url) => {
 };
 
 /**
+ * Remove a bookmark by name.
+ * @param {string} name - unique bookmark name
+ */
+const removeBookmark = name => {
+    const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
+
+    const index = bookmarks.findIndex(bookmark => bookmark.name === name);
+    if (index !== -1) {
+        bookmarks.splice(index, 1);
+    }
+    localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
+};
+
+/**
  * Retrieves a single bookmark by name.
  * @param {string} name - the unqiue bookmark name to retrieve
  */
@@ -179,6 +193,7 @@ export const storage = {
     },
     bookmarks: {
         toggleBookmark,
+        removeBookmark,
         retrieveBookmark,
         retrieveBookmarks
     },

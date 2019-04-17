@@ -10,6 +10,13 @@ const StyledLink = styled(Link)``;
 class Bookmarks extends Component {
     constructor(props) {
         super(props);
+
+        // remove any bookmarks marked for removal just incase we couldn't clean up.
+        const bookmarksToRemove = JSON.parse(
+            localStorage.getItem("bookmarksToRemove")
+        );
+        this.removeBookmarks(bookmarksToRemove);
+
         const bookmarks = storage.bookmarks.retrieveBookmarks();
         this.state = {
             bookmarks,
@@ -39,11 +46,18 @@ class Bookmarks extends Component {
 
     componentWillUnmount() {
         const { bookmarksToRemove } = this.state;
-        bookmarksToRemove.map(bookmark => {
-            storage.bookmarks.toggleBookmark(bookmark.name);
-            return bookmark;
-        });
+        this.removeBookmarks(bookmarksToRemove);
     }
+
+    removeBookmarks = bookmarksToRemove => {
+        if (bookmarksToRemove) {
+            bookmarksToRemove.map(bookmark => {
+                storage.bookmarks.removeBookmark(bookmark.name);
+                return bookmark;
+            });
+        }
+        localStorage.removeItem("bookmarksToRemove");
+    };
 
     renderBookmarks = bookmarks => {
         const { localizor } = this.props;
@@ -106,6 +120,10 @@ class Bookmarks extends Component {
         const { bookmarksToRemove } = this.state;
         bookmarksToRemove.push(bookmark);
         this.setState({ bookmarksToRemove });
+        localStorage.setItem(
+            "bookmarksToRemove",
+            JSON.stringify(bookmarksToRemove)
+        );
     };
 
     unmarkForRemoval = bookmark => {
@@ -115,6 +133,10 @@ class Bookmarks extends Component {
             bookmarksToRemove.splice(idx, 1);
         }
         this.setState({ bookmarksToRemove });
+        localStorage.setItem(
+            "bookmarksToRemove",
+            JSON.stringify(bookmarksToRemove)
+        );
     };
     render() {
         const { bookmarks, week, month, others } = this.state;
