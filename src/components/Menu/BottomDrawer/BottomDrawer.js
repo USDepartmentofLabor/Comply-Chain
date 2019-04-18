@@ -53,7 +53,6 @@ class BottomDrawer extends Component {
                         return (
                             <ContentItem
                                 {...item.props}
-                                onClick={this.closeDrawer}
                                 key={"bottom_drawer_" + i}
                             >
                                 {item.label}

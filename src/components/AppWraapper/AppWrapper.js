@@ -160,7 +160,8 @@ class AppWrapper extends Component {
                     props: {
                         as: NavLink,
                         id: "bottom-drawer-about-link",
-                        to: Routes.About.path
+                        to: Routes.About.path,
+                        onClick: () => this.toggleBottomDrawer()
                     },
                     label: localizor.strings.info.about.title
                 },
@@ -168,7 +169,8 @@ class AppWrapper extends Component {
                     props: {
                         as: NavLink,
                         id: "bottom-drawer-findings-link",
-                        to: Routes.Findings.path
+                        to: Routes.Findings.path,
+                        onClick: () => this.toggleBottomDrawer()
                     },
                     label: localizor.strings.info.findings.title
                 },
@@ -176,7 +178,8 @@ class AppWrapper extends Component {
                     props: {
                         as: NavLink,
                         id: "bottom-drawer-goods-link",
-                        to: Routes.Goods.path
+                        to: Routes.Goods.path,
+                        onClick: () => this.toggleBottomDrawer()
                     },
                     label: localizor.strings.info.goods.title
                 }
