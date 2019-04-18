@@ -9,13 +9,33 @@ class SideNav extends Component {
         width: (isBrowser() && "280px") || "100%",
         visible: this.props.visible || false
     };
+
+    componentWillMount() {
+        if (window.PointerEvent) {
+            document.addEventListener("pointerdown", this.close, false);
+        } else {
+            document.addEventListener("mousedown", this.close, false);
+        }
+    }
+
     componentDidUpdate(prevProps) {
         if (prevProps.visible !== this.props.visible) {
             this.setState({ visible: this.props.visible });
         }
     }
 
-    close = () => {
+    componentWillUnmount() {
+        if (window.PointerEvent) {
+            document.removeEventListener("pointerdown", this.close, false);
+        } else {
+            document.removeEventListener("mousedown", this.close, false);
+        }
+    }
+
+    close = e => {
+        if (this.node.contains(e.target)) {
+            return;
+        }
         const { onClose } = this.props;
         this.setState({ visible: false });
         if (onClose) {
@@ -27,7 +47,12 @@ class SideNav extends Component {
         const { width, visible } = this.state;
         const { children, id } = this.props;
         return (
-            <RootSideNav id={id} width={width} visible={visible}>
+            <RootSideNav
+                id={id}
+                width={width}
+                visible={visible}
+                ref={node => (this.node = node)}
+            >
                 <FlexContainer>
                     {React.Children.map(children, child => {
                         return child;
