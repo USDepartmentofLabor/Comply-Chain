@@ -33,7 +33,10 @@ class SideNav extends Component {
     }
 
     close = e => {
-        if (this.node.contains(e.target)) {
+        if (
+            this.node.contains(e.target) ||
+            e.target.id === this.props.clickable
+        ) {
             return;
         }
         const { onClose } = this.props;
@@ -123,7 +126,8 @@ SideNav.propTypes = {
     id: PropTypes.string,
     visible: PropTypes.bool,
     onClose: PropTypes.func,
-    children: PropTypes.node
+    children: PropTypes.node,
+    clickable: PropTypes.string
 };
 
 export default SideNav;

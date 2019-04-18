@@ -129,6 +129,7 @@ class NavBar extends Component {
                                 as={MenuButton}
                                 right
                                 onClick={this.toggleSideNav}
+                                ref={node => (this.closeBtn = node)}
                             >
                                 {!visible && localizor.strings.general.menu}
                                 {visible && localizor.strings.general.close}
@@ -150,6 +151,7 @@ class NavBar extends Component {
                     id="side-nav"
                     visible={visible}
                     onClose={this.handleSideNavClose}
+                    clickable={"menu-btn"}
                 >
                     <div id="side-nav-main-content">
                         {leftItems.map((item, i) => (
