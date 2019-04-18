@@ -7,13 +7,37 @@ class BottomDrawer extends Component {
     state = {
         active: this.props.active
     };
+
+    componentWillMount() {
+        if (window.PointerEvent) {
+            document.addEventListener("pointerdown", this.closeDrawer, false);
+        } else {
+            document.addEventListener("mousedown", this.closeDrawer, false);
+        }
+    }
+
     componentDidUpdate(prevProps) {
         if (prevProps.active !== this.props.active) {
             this.setState({ active: this.props.active });
         }
     }
 
-    closeDrawer = () => {
+    componentWillUnmount() {
+        if (window.PointerEvent) {
+            document.removeEventListener(
+                "pointerdown",
+                this.closeDrawer,
+                false
+            );
+        } else {
+            document.removeEventListener("mousedown", this.closeDrawer, false);
+        }
+    }
+
+    closeDrawer = e => {
+        if (this.node.contains(e.target)) {
+            return;
+        }
         this.setState({ active: false });
         if (this.props.onClose) {
             this.props.onClose();
@@ -23,7 +47,7 @@ class BottomDrawer extends Component {
     render() {
         const { active, items } = this.props;
         return (
-            <Wrapper active={active}>
+            <Wrapper ref={node => (this.node = node)} active={active}>
                 <Content>
                     {items.map((item, i) => {
                         return (
