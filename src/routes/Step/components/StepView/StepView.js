@@ -170,30 +170,32 @@ class StepView extends Component {
                     pdf={pdf}
                     reset={reset}
                 />
-                <StepNavButtonGroup>
-                    {prevStep && (
-                        <NavButton
-                            id="prev-step"
-                            variant="primaryDarkest"
-                            onClick={() => this.navigate(prevStep)}
-                            left
-                        >
-                            <Icons.ArrowDropLeft />
-                            {localizor.strings.general.prevStep}
-                        </NavButton>
-                    )}
-                    {nextStep && (
-                        <NavButton
-                            id="next-step"
-                            variant="primary"
-                            onClick={() => this.navigate(nextStep)}
-                            right
-                        >
-                            {localizor.strings.general.nextStep}
-                            <Icons.ArrowDropRight />
-                        </NavButton>
-                    )}
-                </StepNavButtonGroup>
+                {!pdf && (
+                    <StepNavButtonGroup>
+                        {prevStep && (
+                            <NavButton
+                                id="prev-step"
+                                variant="primaryDarkest"
+                                onClick={() => this.navigate(prevStep)}
+                                left
+                            >
+                                <Icons.ArrowDropLeft />
+                                {localizor.strings.general.prevStep}
+                            </NavButton>
+                        )}
+                        {nextStep && (
+                            <NavButton
+                                id="next-step"
+                                variant="primary"
+                                onClick={() => this.navigate(nextStep)}
+                                right
+                            >
+                                {localizor.strings.general.nextStep}
+                                <Icons.ArrowDropRight />
+                            </NavButton>
+                        )}
+                    </StepNavButtonGroup>
+                )}
             </Bookmarkable>
         );
     }

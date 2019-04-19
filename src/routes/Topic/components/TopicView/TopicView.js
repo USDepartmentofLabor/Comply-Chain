@@ -121,52 +121,54 @@ class TopicView extends Component {
                     pdf={pdf}
                 >
                     <TopicData pdf={pdf} />
-                    <TopicNavButtonGroup>
-                        {prevStep && (
-                            <NavButton
-                                id="prev-step"
-                                variant="primaryDarkest"
-                                onClick={() => this.navigate(prevStep)}
-                                left
-                            >
-                                <Icons.ArrowDropLeft />
-                                {localizor.strings.general.prevStep}
-                            </NavButton>
-                        )}
-                        {prevTopic && (
-                            <NavButton
-                                id="prev-topic"
-                                variant="primaryDarkest"
-                                onClick={() => this.navigate(prevTopic)}
-                                left
-                            >
-                                <Icons.ArrowDropLeft />
-                                {localizor.strings.general.prevTopic}
-                            </NavButton>
-                        )}
-                        {nextTopic && (
-                            <NavButton
-                                id="next-topic"
-                                variant="primary"
-                                onClick={() => this.navigate(nextTopic)}
-                                right
-                            >
-                                {localizor.strings.general.nextTopic}
-                                <Icons.ArrowDropRight />
-                            </NavButton>
-                        )}
-                        {nextStep && (
-                            <NavButton
-                                id="next-step"
-                                variant="primary"
-                                onClick={() => this.navigate(nextStep)}
-                                right
-                            >
-                                {localizor.strings.general.nextStep}
-                                <Icons.ArrowDropRight />
-                            </NavButton>
-                        )}
-                    </TopicNavButtonGroup>
+                    {!pdf && (
+                        <TopicNavButtonGroup>
+                            {prevStep && (
+                                <NavButton
+                                    id="prev-step"
+                                    variant="primaryDarkest"
+                                    onClick={() => this.navigate(prevStep)}
+                                    left
+                                >
+                                    <Icons.ArrowDropLeft />
+                                    {localizor.strings.general.prevStep}
+                                </NavButton>
+                            )}
+                            {prevTopic && (
+                                <NavButton
+                                    id="prev-topic"
+                                    variant="primaryDarkest"
+                                    onClick={() => this.navigate(prevTopic)}
+                                    left
+                                >
+                                    <Icons.ArrowDropLeft />
+                                    {localizor.strings.general.prevTopic}
+                                </NavButton>
+                            )}
+                            {nextTopic && (
+                                <NavButton
+                                    id="next-topic"
+                                    variant="primary"
+                                    onClick={() => this.navigate(nextTopic)}
+                                    right
+                                >
+                                    {localizor.strings.general.nextTopic}
+                                    <Icons.ArrowDropRight />
+                                </NavButton>
+                            )}
+                            {nextStep && (
+                                <NavButton
+                                    id="next-step"
+                                    variant="primary"
+                                    onClick={() => this.navigate(nextStep)}
+                                    right
+                                >
+                                    {localizor.strings.general.nextStep}
+                                    <Icons.ArrowDropRight />
+                                </NavButton>
+                            )}
+                        </TopicNavButtonGroup>
+                    )}
                 </Bookmarkable>
             );
         }
