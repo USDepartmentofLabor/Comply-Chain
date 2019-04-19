@@ -51,16 +51,20 @@ class StepProgressBar extends Component {
             if (this.state.currentStep !== match.params.step) {
                 this.setState({ currentStep: match.params.step });
             }
+        } else {
+            if (this.state.currentStep !== undefined)
+                this.setState({ currentStep: undefined });
         }
     };
     render() {
         const { localizor } = this.props;
         const numOfSteps = localizor.strings.steps.length;
         let currentStep = this.state.currentStep - 1;
-        if (isNaN(currentStep)) {
-            currentStep = storage.steps.findNextIncompleteStep(numOfSteps);
+        let progressStep = currentStep;
+        if (isNaN(progressStep)) {
+            progressStep = storage.steps.findNextIncompleteStep(numOfSteps);
         }
-        const percent = Math.min((100 / numOfSteps + 1.75) * currentStep, 100);
+        const percent = Math.min((100 / numOfSteps + 1.75) * progressStep, 100);
         return (
             <ProgressBar
                 percent={percent}
