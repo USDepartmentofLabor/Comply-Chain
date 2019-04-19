@@ -8,6 +8,11 @@ import Icons from "../../../../components/Icons";
 import { withLanguageContext } from "../../../../components/Language";
 import { storage } from "../../../../modules/storage";
 
+const HeaderIcon = styled.span`
+    vertical-align: middle;
+    padding-right: 10px;
+`;
+
 const TopicNavButtonGroup = styled.div`
     margin-top: 1rem;
     display: flex;
@@ -81,6 +86,7 @@ class TopicView extends Component {
                     !nextTopic && localizor.strings.steps[step] && step + 1;
                 items = {
                     title: stepData.topics[topic - 1].title,
+                    stepTitle: stepData.title,
                     titleString: `steps.${step - 1}.topics.${topic - 1}.title`,
                     stepTitleString: `steps.${step - 1}.title`,
                     topicData: stepData.topics[topic - 1].content,
@@ -107,6 +113,7 @@ class TopicView extends Component {
             nextTopic,
             nextStep,
             titleString,
+            stepTitle,
             stepTitleString
         } = this.state;
         const { step, localizor, pdf, location } = this.props;
@@ -120,6 +127,14 @@ class TopicView extends Component {
                     url={location.pathname}
                     pdf={pdf}
                 >
+                    {pdf && (
+                        <h1>
+                            <HeaderIcon>
+                                <Icons.StepIcon step={step} />
+                            </HeaderIcon>
+                            {stepTitle}
+                        </h1>
+                    )}
                     <TopicData pdf={pdf} />
                     {!pdf && (
                         <TopicNavButtonGroup>
