@@ -102,9 +102,7 @@ class Accordion extends Component {
     };
     closeAll = () => {
         this.section.map((section, i) => {
-            this.panel[i].style.maxHeight = null;
-            this.title[i].classList.remove("active");
-
+            this.makeInactive(i);
             return section;
         });
     };
