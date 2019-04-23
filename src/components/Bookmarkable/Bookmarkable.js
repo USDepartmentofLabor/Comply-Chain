@@ -39,7 +39,6 @@ class Bookmarkable extends Component {
         if (pdf) {
             return children;
         }
-        console.log("render...");
         return (
             <div>
                 <button onClick={this.handleBookmark}>
