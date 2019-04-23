@@ -22,7 +22,6 @@ class Bookmarkable extends Component {
             this.setState({ bookmarked });
         }
     }
-
     handleBookmark = () => {
         const { headerTitle, titleString, titlePrefix, url } = this.props;
         const { bookmarked } = this.state;
@@ -40,6 +39,7 @@ class Bookmarkable extends Component {
         if (pdf) {
             return children;
         }
+        console.log("render...");
         return (
             <div>
                 <button onClick={this.handleBookmark}>

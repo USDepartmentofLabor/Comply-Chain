@@ -10,13 +10,6 @@ const StyledLink = styled(Link)``;
 class Bookmarks extends Component {
     constructor(props) {
         super(props);
-
-        // remove any bookmarks marked for removal just incase we couldn't clean up.
-        const bookmarksToRemove = JSON.parse(
-            localStorage.getItem("bookmarksToRemove")
-        );
-        this.removeBookmarks(bookmarksToRemove);
-
         const bookmarks = storage.bookmarks.retrieveBookmarks();
         this.state = {
             bookmarks,
@@ -56,7 +49,6 @@ class Bookmarks extends Component {
                 return bookmark;
             });
         }
-        localStorage.removeItem("bookmarksToRemove");
     };
 
     renderBookmarks = bookmarks => {
@@ -120,10 +112,7 @@ class Bookmarks extends Component {
         const { bookmarksToRemove } = this.state;
         bookmarksToRemove.push(bookmark);
         this.setState({ bookmarksToRemove });
-        localStorage.setItem(
-            "bookmarksToRemove",
-            JSON.stringify(bookmarksToRemove)
-        );
+        storage.bookmarks.removeBookmark(bookmark.name);
     };
 
     unmarkForRemoval = bookmark => {
@@ -133,9 +122,11 @@ class Bookmarks extends Component {
             bookmarksToRemove.splice(idx, 1);
         }
         this.setState({ bookmarksToRemove });
-        localStorage.setItem(
-            "bookmarksToRemove",
-            JSON.stringify(bookmarksToRemove)
+        storage.bookmarks.toggleBookmark(
+            bookmark.name,
+            bookmark.prefix,
+            bookmark.header,
+            bookmark.url
         );
     };
     render() {
