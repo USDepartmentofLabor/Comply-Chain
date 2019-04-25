@@ -109,7 +109,8 @@
             "cordova-plugin-actionsheet": {},
             "cordova-clipboard": {},
             "cordova-plugin-x-toast": {},
-            "cordova-pdf-generator": {}
+            "cordova-pdf-generator": {},
+            "cordova-plugin-wkwebview-engine": {}
         },
         "platforms": [
             "android",
