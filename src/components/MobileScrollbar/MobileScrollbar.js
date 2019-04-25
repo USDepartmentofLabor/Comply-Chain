@@ -22,11 +22,8 @@ const Scrollbar = styled.div`
 const SCROLL_TIMEOUT = 75;
 
 class MobileScrollbar extends Component {
-    state = { visible: false, lastScroll: null };
+    state = { visible: false };
     componentDidMount() {
-        document
-            .getElementById("main")
-            .addEventListener("touchmove", this.scrollStart);
         document
             .getElementById("main")
             .addEventListener("scroll", this.displayScrollbar);
@@ -36,26 +33,16 @@ class MobileScrollbar extends Component {
     componentWillUnmount() {
         document
             .getElementById("main")
-            .removeEventListener("touchmove", this.scrollStart);
-        document
-            .getElementById("main")
             .removeEventListener("scroll", this.displayScrollbar);
     }
 
-    scrollStart = e => {
-        if (isIOS()) {
-            this.setState({ visible: true, lastScroll: new Date() });
-        }
-    };
-
     displayScrollbar = e => {
-        if (isIOS()) {
-            this.hideScrollbar();
-        } else {
-            clearTimeout(this.scrollTimeout);
-            this.setState({ visible: true, lastScroll: new Date() });
-            this.scrollTimeout = setTimeout(this.hideScrollbar, SCROLL_TIMEOUT);
+        const { visible } = this.state;
+        clearTimeout(this.scrollTimeout);
+        if(!visible) {
+            this.setState({ visible: true });
         }
+        this.scrollTimeout = setTimeout(this.hideScrollbar, SCROLL_TIMEOUT);
     };
 
     hideScrollbar = () => {
