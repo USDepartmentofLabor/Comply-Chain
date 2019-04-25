@@ -44,46 +44,47 @@ const Icon = styled.span`
 `;
 
 class Breadcrumbs extends Component {
+    displayBreadcrumb = breadcrumbs => {
+        for (let i = 0; i < breadcrumbs.length; i++) {
+            const breadcrumb = breadcrumbs[i];
+            if (
+                breadcrumb.props.location.pathname ===
+                breadcrumb.props.match.url
+            ) {
+                if (breadcrumb.props.location.pathname === Routes.Home.path) {
+                    return (
+                        <Breadcrumb.Section
+                            key="home_comply_chain"
+                            as={StyledLink}
+                            to={breadcrumb.props.match.url}
+                        >
+                            Comply Chain
+                        </Breadcrumb.Section>
+                    );
+                }
+            } else {
+                return (
+                    <span key={breadcrumb.key}>
+                        <Breadcrumb.Section
+                            as={StyledLink}
+                            to={breadcrumb.props.match.url}
+                        >
+                            <Icon>
+                                <Icons.ArrowDropLeft />
+                            </Icon>
+                            {breadcrumb}
+                        </Breadcrumb.Section>
+                    </span>
+                );
+            }
+        }
+    };
+
     render() {
         const { breadcrumbs, id } = this.props;
         return (
             <Breadcrumb id={id}>
-                {breadcrumbs.map(breadcrumb => {
-                    // don't display breadcrumb for the current page
-                    if (
-                        breadcrumb.props.location.pathname ===
-                        breadcrumb.props.match.url
-                    ) {
-                        if (
-                            breadcrumb.props.location.pathname ===
-                            Routes.Home.path
-                        ) {
-                            return (
-                                <Breadcrumb.Section
-                                    key="home_comply_chain"
-                                    as={StyledLink}
-                                    to={breadcrumb.props.match.url}
-                                >
-                                    Comply Chain
-                                </Breadcrumb.Section>
-                            );
-                        }
-                        return null;
-                    }
-                    return (
-                        <span key={breadcrumb.key}>
-                            <Breadcrumb.Section
-                                as={StyledLink}
-                                to={breadcrumb.props.match.url}
-                            >
-                                <Icon>
-                                    <Icons.ArrowDropLeft />
-                                </Icon>
-                                {breadcrumb}
-                            </Breadcrumb.Section>
-                        </span>
-                    );
-                })}
+                {this.displayBreadcrumb(breadcrumbs.slice(-2).reverse())}
             </Breadcrumb>
         );
     }

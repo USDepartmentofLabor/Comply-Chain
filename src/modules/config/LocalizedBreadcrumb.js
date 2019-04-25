@@ -9,6 +9,7 @@ class LocalizedBreadcrumb extends Component {
         return (
             <span>
                 {getPropByString(localizor.strings, string)}
+                {extra && " "}
                 {extra}
             </span>
         );

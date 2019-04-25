@@ -16,6 +16,17 @@ class BottomDrawer extends Component {
         }
     }
 
+    componentDidMount() {
+        const main = document.getElementById("main");
+        if(main) {
+            if (window.PointerEvent) {
+                main.addEventListener("pointerdown", this.closeDrawer, false);
+            } else {
+                main.addEventListener("mousedown", this.closeDrawer, false);
+            }
+        }
+    }
+
     componentDidUpdate(prevProps) {
         if (prevProps.active !== this.props.active) {
             this.setState({ active: this.props.active });
@@ -23,13 +34,20 @@ class BottomDrawer extends Component {
     }
 
     componentWillUnmount() {
+        const main = document.getElementById("main");
         if (window.PointerEvent) {
+            if(main) {
+                main.removeEventListener("pointerdown", this.closeDrawer, false);
+            }
             document.removeEventListener(
                 "pointerdown",
                 this.closeDrawer,
                 false
             );
         } else {
+            if(main) {
+                main.removeEventListener("mousedown", this.closeDrawer, false);
+            }
             document.removeEventListener("mousedown", this.closeDrawer, false);
         }
     }
