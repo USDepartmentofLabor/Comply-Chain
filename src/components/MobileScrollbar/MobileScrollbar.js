@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { isBrowser } from "../../modules/utils/platform";
+import { isBrowser, isIOS } from "../../modules/utils/platform";
 
 const Scrollbar = styled.div`
     div::-webkit-scrollbar {
@@ -26,6 +26,9 @@ class MobileScrollbar extends Component {
     componentDidMount() {
         document
             .getElementById("main")
+            .addEventListener("touchmove", this.scrollStart);
+        document
+            .getElementById("main")
             .addEventListener("scroll", this.displayScrollbar);
         this.scrollTimeout = setTimeout(this.hideScrollbar, SCROLL_TIMEOUT);
     }
@@ -33,13 +36,26 @@ class MobileScrollbar extends Component {
     componentWillUnmount() {
         document
             .getElementById("main")
+            .removeEventListener("touchmove", this.scrollStart);
+        document
+            .getElementById("main")
             .removeEventListener("scroll", this.displayScrollbar);
     }
 
+    scrollStart = e => {
+        if (isIOS()) {
+            this.setState({ visible: true, lastScroll: new Date() });
+        }
+    };
+
     displayScrollbar = e => {
-        clearTimeout(this.scrollTimeout);
-        this.setState({ visible: true, lastScroll: new Date() });
-        this.scrollTimeout = setTimeout(this.hideScrollbar, SCROLL_TIMEOUT);
+        if (isIOS()) {
+            this.hideScrollbar();
+        } else {
+            clearTimeout(this.scrollTimeout);
+            this.setState({ visible: true, lastScroll: new Date() });
+            this.scrollTimeout = setTimeout(this.hideScrollbar, SCROLL_TIMEOUT);
+        }
     };
 
     hideScrollbar = () => {
