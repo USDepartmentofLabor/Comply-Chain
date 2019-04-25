@@ -10,6 +10,7 @@ import { withLanguageContext } from "../../../../components/Language";
 import KeyTermList from "../KeyTermList";
 import LearningObjectiveList from "../LearningObjectiveList";
 import TopicsList from "../TopicList";
+import Searchable from "../../../../components/Searchable";
 
 const StepNavButtonGroup = styled.div`
     margin-top: 1rem;
@@ -108,7 +109,11 @@ class StepView extends Component {
                     },
                     training: {
                         title: localizor.strings.general.training,
-                        content: Training && <Training />,
+                        content: Training && (
+                            <Searchable>
+                                <Training />
+                            </Searchable>
+                        ),
                         id: "training"
                     }
                 },

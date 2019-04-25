@@ -32,6 +32,9 @@ class Searchable extends Component {
 
     highlightTextInChildren = (children, search) => {
         return React.Children.map(children, child => {
+            if (!child) {
+                return null;
+            }
             if (typeof child === "string") {
                 const result = reactStringReplace(child, search, (match, i) => {
                     return (
@@ -73,7 +76,7 @@ class Searchable extends Component {
         const search = qs.parse(history.location.search).search;
 
         if (search) {
-            return this.highlightTextInChildren(children, search);
+            return <div>{this.highlightTextInChildren(children, search)}</div>;
         }
         return <div onClick={this.hideHighlights}>{children}</div>;
     }

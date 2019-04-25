@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import styled from "styled-components";
+import Searchable from "../../../../components/Searchable";
 
 const Wrapper = styled.div``;
 
@@ -16,21 +17,23 @@ class KeyTermList extends Component {
     render() {
         const { terms, children } = this.props;
         return (
-            <Wrapper>
-                <ListWrapper>
-                    {terms.map((term, i) => {
-                        return (
-                            <KeyTerm key={i}>
-                                <strong>{term.termName}</strong>
-                                <TermDefinition>
-                                    {term.termDefinition}
-                                </TermDefinition>
-                            </KeyTerm>
-                        );
-                    })}
-                </ListWrapper>
-                {children}
-            </Wrapper>
+            <Searchable>
+                <Wrapper>
+                    <ListWrapper>
+                        {terms.map((term, i) => {
+                            return (
+                                <KeyTerm key={i}>
+                                    <strong>{term.termName}</strong>
+                                    <TermDefinition>
+                                        {term.termDefinition}
+                                    </TermDefinition>
+                                </KeyTerm>
+                            );
+                        })}
+                    </ListWrapper>
+                    {children}
+                </Wrapper>
+            </Searchable>
         );
     }
 }
