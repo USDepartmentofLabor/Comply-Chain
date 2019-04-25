@@ -53,6 +53,7 @@ class StepView extends Component {
             prevProps.location.pathname !== this.props.location.pathname
         ) {
             this.setState(this.buildStepData());
+            this.setState({ reset: true });
         }
 
         if (prevState.reset !== this.state.reset) {

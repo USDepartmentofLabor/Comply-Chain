@@ -157,6 +157,10 @@ const retrieveAccordionId = () => {
     return JSON.parse(localStorage.getItem(ACCORDION_KEY));
 };
 
+const removeAccordionId = () => {
+    localStorage.removeItem(ACCORDION_KEY);
+};
+
 const cacheSearchResults = data => {
     localStorage.setItem(SEARCH_CACHE_KEY, JSON.stringify(data));
 };
@@ -199,7 +203,8 @@ export const storage = {
     },
     accordion: {
         setAccordionId,
-        retrieveAccordionId
+        retrieveAccordionId,
+        removeAccordionId
     },
     search: {
         cacheSearchResults,

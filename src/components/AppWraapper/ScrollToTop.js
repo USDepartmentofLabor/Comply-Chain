@@ -26,7 +26,7 @@ class ScrollToTop extends Component {
             }
         }
         this.props.history.listen((location, action) => {
-            storage.accordion.setAccordionId("");
+            storage.accordion.removeAccordionId();
         });
     }
 
