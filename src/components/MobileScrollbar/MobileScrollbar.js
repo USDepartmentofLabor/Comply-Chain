@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { isBrowser, isIOS } from "../../modules/utils/platform";
+import { isBrowser } from "../../modules/utils/platform";
 
 const Scrollbar = styled.div`
     div::-webkit-scrollbar {
@@ -41,7 +41,7 @@ class MobileScrollbar extends Component {
     displayScrollbar = e => {
         const { visible } = this.state;
         clearTimeout(this.scrollTimeout);
-        if(!visible) {
+        if (!visible) {
             this.setState({ visible: true });
         }
         this.scrollTimeout = setTimeout(this.hideScrollbar, SCROLL_TIMEOUT);
