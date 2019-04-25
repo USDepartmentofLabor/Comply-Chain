@@ -11,11 +11,13 @@ const Scrollbar = styled.div`
 
     div::-webkit-scrollbar-track {
         border-radius: 10px;
+        background: ${props => (!props.visible ? "transparent" : "undefined")};
     }
 
     div::-webkit-scrollbar-thumb {
         border-radius: 10px;
         background: rgb(169, 169, 169);
+        background: ${props => (!props.visible ? "transparent" : "undefined")};
     }
 `;
 
