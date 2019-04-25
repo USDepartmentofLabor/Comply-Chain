@@ -375,7 +375,7 @@ class Search extends Component {
                                         result.to,
                                         query
                                     )}
-                                    target="_blank"
+                                    target={isBrowser() ? "_blank" : "_self"}
                                 >
                                     <h3>{result.title}</h3>
                                 </ResultTitle>
@@ -391,7 +391,10 @@ class Search extends Component {
                                     }
                                 />
                             </p>
-                            <SnippetLink to={result.to} target="_blank">
+                            <SnippetLink
+                                to={this.createSearchQueryUrl(result.to, query)}
+                                target={isBrowser() ? "_blank" : "_self"}
+                            >
                                 {localizor.strings.general.continueReading}.
                             </SnippetLink>
                         </SearchResult>
