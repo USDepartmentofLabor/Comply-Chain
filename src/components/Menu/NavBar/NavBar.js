@@ -106,7 +106,7 @@ class NavBar extends Component {
     };
 
     handleSideNavClose = () => {
-        this.setState({ visible: false });
+        this.setState({ visible: false, stepAccordionActive: false });
     };
 
     toggleStepAccordion = () => {
