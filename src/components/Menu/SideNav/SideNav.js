@@ -115,7 +115,7 @@ SideNav.Item = styled.div`
 `;
 
 SideNav.Item.propTypes = {
-    dimmed: PropTypes.bool
+    dimmed: PropTypes.oneOf([0, 1])
 };
 
 SideNav.IdentedItem = styled(SideNav.Item)`

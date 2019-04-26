@@ -159,7 +159,7 @@ class NavBar extends Component {
                                 {...item.props}
                                 key={"mobile_left_" + i}
                                 onClick={this.handleSideNavClose}
-                                dimmed={stepAccordionActive ? true : undefined}
+                                dimmed={stepAccordionActive ? 1 : 0}
                             >
                                 {item.props && item.props.content}
                             </SideNav.Item>
