@@ -23,7 +23,7 @@ class Home extends Component {
         const { localizor } = this.props;
         return (
             <HomeWrapper>
-                <IconContainer>
+                <IconContainer className="home_item">
                     <Item
                         image={infoImageData[0].image}
                         imageMobilePosition={infoImageData[0].mobile}
@@ -44,7 +44,7 @@ class Home extends Component {
                         )}
                     </StatusIcons>
                 </IconContainer>
-                <IconContainer>
+                <IconContainer className="home_item">
                     <Item
                         green={true}
                         image={infoImageData[1].image}
@@ -69,6 +69,7 @@ class Home extends Component {
                         <IconContainer
                             id={`home_step_${i + 1}`}
                             key={`home_step_${i + 1}`}
+                            className="home_item"
                         >
                             <Item
                                 green={i % 2 !== 0}
