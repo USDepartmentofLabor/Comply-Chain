@@ -1,6 +1,6 @@
+import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { storage } from "../../modules/storage";
-import PropTypes from "prop-types";
 
 class Bookmarkable extends Component {
     constructor(props) {
@@ -12,15 +12,33 @@ class Bookmarkable extends Component {
             : false;
         this.state = { bookmarked };
     }
+    componentDidUpdate(prevProps) {
+        if (prevProps.titleString !== this.props.titleString) {
+            const bookmarked = storage.bookmarks.retrieveBookmark(
+                this.props.titleString
+            )
+                ? true
+                : false;
+            this.setState({ bookmarked });
+        }
+    }
     handleBookmark = () => {
-        const { titleString, url } = this.props;
+        const { headerTitle, titleString, titlePrefix, url } = this.props;
         const { bookmarked } = this.state;
-        storage.bookmarks.toggleBookmark(titleString, url);
+        storage.bookmarks.toggleBookmark(
+            titleString,
+            titlePrefix,
+            headerTitle,
+            url
+        );
         this.setState({ bookmarked: !bookmarked });
     };
     render() {
-        const { children } = this.props;
+        const { children, pdf } = this.props;
         const { bookmarked } = this.state;
+        if (pdf) {
+            return children;
+        }
         return (
             <div>
                 <button onClick={this.handleBookmark}>
@@ -34,7 +52,9 @@ class Bookmarkable extends Component {
 
 Bookmarkable.propTypes = {
     titleString: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired
+    titlePrefix: PropTypes.string,
+    url: PropTypes.string.isRequired,
+    pdf: PropTypes.bool
 };
 
 export default Bookmarkable;

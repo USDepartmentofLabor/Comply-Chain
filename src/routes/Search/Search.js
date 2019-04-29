@@ -1,12 +1,14 @@
 import React, { Component } from "react";
+import Highlighter from "react-highlight-words";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Icons from "../../components/Icons";
 import { withLanguageContext } from "../../components/Language";
 import Routes from "../../modules/config/routes";
 import { theme } from "../../modules/config/theme";
+import { storage } from "../../modules/storage";
 import { getRawTextData } from "../../modules/utils";
-import Highlighter from "react-highlight-words";
+import { isBrowser } from "../../modules/utils/platform";
 
 const SearchLabel = styled.label`
     position: relative;
@@ -14,7 +16,7 @@ const SearchLabel = styled.label`
     & svg {
         content: "";
         position: absolute;
-        bottom: -24px;
+        bottom: ${() => (isBrowser() ? "-24px" : "-29px")};
         height: 20px;
         font-size: 2em;
         z-index: 5;
@@ -66,6 +68,38 @@ const SnippetLink = styled(Link)`
 class Search extends Component {
     state = { query: "", results: [], searching: false };
 
+    componentWillMount() {
+        this.timer = null;
+    }
+
+    componentDidMount() {
+        const cache = storage.search.retrieveSearchCache();
+        if (cache) {
+            this.setState({ ...cache }, () => {
+                const scrollY = storage.search.retrieveSearchScrollY() || 0;
+                if (scrollY) {
+                    const main = document.getElementById("main");
+                    if (main) {
+                        main.scrollTo(0, scrollY);
+                    } else {
+                        window.scrollTo(0, scrollY);
+                    }
+                }
+            });
+        }
+    }
+
+    componentDidUpdate(prevProps) {
+        if (prevProps.localizor.language !== this.props.localizor.language) {
+            this.handleQuery();
+        }
+    }
+
+    componentWillUnmount() {
+        const main = document.getElementById("main");
+        storage.search.setSearchScrollY(main.scrollTop || window.scrollY);
+    }
+
     /**
      * Handles the user input in the search field. Users a short timer to prevent searching on each keystroke.
      */
@@ -95,7 +129,10 @@ class Search extends Component {
     handleQuery = () => {
         const { query } = this.state;
         if (query.length > 2) {
-            this.setState({ results: this.search(query), searching: false });
+            this.setState(
+                { results: this.search(query), searching: false },
+                this.cacheResults
+            );
         } else {
             this.setState({ results: [], searching: false });
         }
@@ -129,54 +166,64 @@ class Search extends Component {
      */
     setupData = () => {
         const { localizor } = this.props;
-        const steps = localizor.strings.steps.map((step, i) => ({
-            title: step.title,
-            keywords: step.keywords,
-            to: `/steps/${i + 1}`
-        }));
 
-        const furtherResources = localizor.strings.steps.map((step, i) => ({
-            title: `${step.title} - ${
-                localizor.strings.general.furtherResources
-            }`,
-            content:
-                step.furtherResources &&
-                getRawTextData(step.furtherResources()).join(" "),
-            to: `/steps/${i + 1}#resources`
-        }));
-        const learningObjectives = localizor.strings.steps.map((step, i) => ({
-            title: `${step.title} - ${
-                localizor.strings.general.learningObjectives
-            }`,
-            content: step.learningObjectives.join(" "),
-            to: `/steps/${i + 1}#learning-objectives`
-        }));
-        const keyTerms = localizor.strings.steps.map((step, i) => ({
-            title: `${step.title} - ${localizor.strings.general.keyTerms}`,
-            // map through keyterms to create an array of arrays and then flatten those arrays into a single array
-            content: [].concat
-                .apply(
-                    [],
-                    step.keyTerms.map(keyTerm => {
-                        return Object.values(keyTerm);
-                    })
-                )
-                .join(" "),
-            to: `/steps/${i + 1}#key-terms`
-        }));
+        // set up steps data in a way so that when the data is searched and returned it is returned in chronological order
+        const steps = [].concat.apply(
+            [],
+            localizor.strings.steps.map((step, stepIdx) => {
+                const data = [
+                    {
+                        title: step.title,
+                        keywords: step.keywords,
+                        to: `/steps/${stepIdx + 1}`
+                    },
+                    {
+                        title: `${step.title} - ${
+                            localizor.strings.general.learningObjectives
+                        }`,
+                        content: step.learningObjectives.join(" "),
+                        to: `/steps/${stepIdx + 1}#learning-objectives`
+                    },
+                    {
+                        title: `${step.title} - ${
+                            localizor.strings.general.keyTerms
+                        }`,
+                        // map through keyterms to create an array of arrays and then flatten those arrays into a single array
+                        content: [].concat
+                            .apply(
+                                [],
+                                step.keyTerms.map(keyTerm => {
+                                    return Object.values(keyTerm);
+                                })
+                            )
+                            .join(" "),
+                        to: `/steps/${stepIdx + 1}#key-terms`
+                    }
+                ];
 
-        const topics = localizor.strings.steps.map((step, stepIdx) => {
-            return step.topics.map((topic, topicIdx) => {
-                return {
-                    title: topic.title,
-                    keywords: topic.keywords,
-                    content: getRawTextData(
-                        topic.content({ pdf: false }).props.children
-                    ).join(" "),
-                    to: `/steps/${stepIdx + 1}/topic/${topicIdx + 1}`
-                };
-            });
-        });
+                const topics = step.topics.map((topic, topicIdx) => {
+                    return {
+                        title: `${step.title} - ${topic.title}`,
+                        keywords: topic.keywords,
+                        content: getRawTextData(
+                            topic.content({ pdf: false }).props.children
+                        ).join(" "),
+                        to: `/steps/${stepIdx + 1}/topic/${topicIdx + 1}`
+                    };
+                });
+                const result = data.concat(topics);
+                result.push({
+                    title: `${step.title} - ${
+                        localizor.strings.general.furtherResources
+                    }`,
+                    content:
+                        step.furtherResources &&
+                        getRawTextData(step.furtherResources()).join(" "),
+                    to: `/steps/${stepIdx + 1}#resources`
+                });
+                return result;
+            })
+        );
 
         let info = [];
         for (const key in localizor.strings.info) {
@@ -192,13 +239,9 @@ class Search extends Component {
                 to: Routes[routeKey].path
             });
         }
+
         // merge all the data together in order to search it all
-        return steps
-            .concat(furtherResources)
-            .concat(learningObjectives)
-            .concat(keyTerms)
-            .concat(topics)
-            .concat(info);
+        return steps.concat(info);
     };
 
     /**
@@ -232,6 +275,10 @@ class Search extends Component {
             }
         }
         return false;
+    };
+
+    cacheResults = () => {
+        storage.search.cacheSearchResults(this.state);
     };
 
     /**
@@ -282,9 +329,16 @@ class Search extends Component {
         );
     };
 
-    componentWillMount() {
-        this.timer = null;
-    }
+    createSearchQueryUrl = (path, query) => {
+        const split = path.split("#");
+        const searchQuery = `?search=${query}`;
+
+        if (split.length > 1) {
+            return `${split[0]}${searchQuery}#${split[1]}`;
+        }
+
+        return `${path}${searchQuery}`;
+    };
 
     render() {
         const { localizor } = this.props;
@@ -316,7 +370,13 @@ class Search extends Component {
                     return (
                         <SearchResult key={`search_results_${i}`}>
                             {result.to && (
-                                <ResultTitle to={result.to} target="_blank">
+                                <ResultTitle
+                                    to={this.createSearchQueryUrl(
+                                        result.to,
+                                        query
+                                    )}
+                                    target={isBrowser() ? "_blank" : "_self"}
+                                >
                                     <h3>{result.title}</h3>
                                 </ResultTitle>
                             )}
@@ -331,7 +391,10 @@ class Search extends Component {
                                     }
                                 />
                             </p>
-                            <SnippetLink to={result.to} target="_blank">
+                            <SnippetLink
+                                to={this.createSearchQueryUrl(result.to, query)}
+                                target={isBrowser() ? "_blank" : "_self"}
+                            >
                                 {localizor.strings.general.continueReading}.
                             </SnippetLink>
                         </SearchResult>

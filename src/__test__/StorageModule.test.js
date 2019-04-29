@@ -62,14 +62,24 @@ describe("Storage Module", () => {
     });
     describe("boomarks storage", () => {
         beforeEach(() => {
-            storage.bookmarks.toggleBookmark("test", "/testurl");
+            storage.bookmarks.toggleBookmark(
+                "test",
+                "prefix",
+                "header",
+                "/testurl"
+            );
         });
         it("adds bookmark to storage", () => {
             const bookmarks = JSON.parse(localStorage.getItem("bookmarks"));
             expect(bookmarks.length).toBe(1);
         });
         it("retrieves all bookmarks from storage", () => {
-            storage.bookmarks.toggleBookmark("test2", "/test2url");
+            storage.bookmarks.toggleBookmark(
+                "test2",
+                "prefix",
+                "header",
+                "/test2url"
+            );
             const bookmarks = storage.bookmarks.retrieveBookmarks();
             expect(bookmarks.length).toBe(2);
         });
@@ -84,6 +94,8 @@ describe("Storage Module", () => {
         it("has correct bookmark values", () => {
             const bookmark = storage.bookmarks.retrieveBookmarks()[0];
             expect(bookmark.name).toBe("test");
+            expect(bookmark.prefix).toBe("prefix");
+            expect(bookmark.header).toBe("header");
             expect(bookmark.url).toBe("/testurl");
         });
         it("remove bookmark from storage", () => {

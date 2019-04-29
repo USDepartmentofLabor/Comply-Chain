@@ -10,6 +10,7 @@ import { withLanguageContext } from "../../../../components/Language";
 import KeyTermList from "../KeyTermList";
 import LearningObjectiveList from "../LearningObjectiveList";
 import TopicsList from "../TopicList";
+import Searchable from "../../../../components/Searchable";
 
 const StepNavButtonGroup = styled.div`
     margin-top: 1rem;
@@ -17,12 +18,6 @@ const StepNavButtonGroup = styled.div`
     justify-content: space-between;
     & > * {
         margin: 0 5px;
-    }
-    & > :first-child {
-        margin-left: 0;
-    }
-    & > :last-child {
-        margin-right: 0;
     }
 `;
 
@@ -43,6 +38,8 @@ const NavButton = styled(Button)`
         transform: translateY(-50%);
         font-size: 1.25em;
     }
+    margin-left: ${props => (props.right ? "auto" : undefined)};
+    margin-right: ${props => (props.left ? "auto" : undefined)};
 `;
 class StepView extends Component {
     constructor(props) {
@@ -56,6 +53,7 @@ class StepView extends Component {
             prevProps.location.pathname !== this.props.location.pathname
         ) {
             this.setState(this.buildStepData());
+            this.setState({ reset: true });
         }
 
         if (prevState.reset !== this.state.reset) {
@@ -112,7 +110,11 @@ class StepView extends Component {
                     },
                     training: {
                         title: localizor.strings.general.training,
-                        content: Training && <Training />,
+                        content: Training && (
+                            <Searchable>
+                                <Training />
+                            </Searchable>
+                        ),
                         id: "training"
                     }
                 },
@@ -153,7 +155,11 @@ class StepView extends Component {
             sections.push(training);
         }
         return (
-            <Bookmarkable titleString={titleString} url={location.pathname}>
+            <Bookmarkable
+                titleString={titleString}
+                url={location.pathname}
+                pdf={pdf}
+            >
                 <h3>
                     <HeaderIcon>
                         <Icons.StepIcon step={step} />
@@ -166,30 +172,32 @@ class StepView extends Component {
                     pdf={pdf}
                     reset={reset}
                 />
-                <StepNavButtonGroup>
-                    {prevStep && (
-                        <NavButton
-                            id="prev-step"
-                            variant="primaryDarkest"
-                            onClick={() => this.navigate(prevStep)}
-                            left
-                        >
-                            <Icons.ArrowDropLeft />
-                            {localizor.strings.general.prevStep}
-                        </NavButton>
-                    )}
-                    {nextStep && (
-                        <NavButton
-                            id="next-step"
-                            variant="primary"
-                            onClick={() => this.navigate(nextStep)}
-                            right
-                        >
-                            {localizor.strings.general.nextStep}
-                            <Icons.ArrowDropRight />
-                        </NavButton>
-                    )}
-                </StepNavButtonGroup>
+                {!pdf && (
+                    <StepNavButtonGroup>
+                        {prevStep && (
+                            <NavButton
+                                id="prev-step"
+                                variant="primaryDarkest"
+                                onClick={() => this.navigate(prevStep)}
+                                left
+                            >
+                                <Icons.ArrowDropLeft />
+                                {localizor.strings.general.prevStep}
+                            </NavButton>
+                        )}
+                        {nextStep && (
+                            <NavButton
+                                id="next-step"
+                                variant="primary"
+                                onClick={() => this.navigate(nextStep)}
+                                right
+                            >
+                                {localizor.strings.general.nextStep}
+                                <Icons.ArrowDropRight />
+                            </NavButton>
+                        )}
+                    </StepNavButtonGroup>
+                )}
             </Bookmarkable>
         );
     }

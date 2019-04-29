@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import styled from "styled-components";
+import Searchable from "../../../../components/Searchable";
 
 const Wrapper = styled.ul``;
 
@@ -9,11 +10,13 @@ class LearningObjectiveList extends Component {
     render() {
         const { objectives } = this.props;
         return (
-            <Wrapper>
-                {objectives.map((objective, i) => {
-                    return <Objective key={i}>{objective}</Objective>;
-                })}
-            </Wrapper>
+            <Searchable>
+                <Wrapper>
+                    {objectives.map((objective, i) => {
+                        return <Objective key={i}>{objective}</Objective>;
+                    })}
+                </Wrapper>
+            </Searchable>
         );
     }
 }

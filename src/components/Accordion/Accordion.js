@@ -78,7 +78,7 @@ class Accordion extends Component {
     makeInactive = sectionIndex => {
         this.title[sectionIndex].classList.remove("active");
         this.panel[sectionIndex].style.maxHeight = null;
-        storage.accordion.setAccordionId("");
+        storage.accordion.removeAccordionId();
     };
 
     makeActive = sectionIndex => {
@@ -102,9 +102,7 @@ class Accordion extends Component {
     };
     closeAll = () => {
         this.section.map((section, i) => {
-            this.panel[i].style.maxHeight = null;
-            this.title[i].classList.remove("active");
-
+            this.makeInactive(i);
             return section;
         });
     };

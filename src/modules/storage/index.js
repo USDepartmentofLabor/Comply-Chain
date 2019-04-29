@@ -2,6 +2,8 @@ const STEP_KEY = "steps";
 const SPLASH_KEY = "splash";
 const BOOKMARK_KEY = "bookmarks";
 const ACCORDION_KEY = "accordion";
+const SEARCH_CACHE_KEY = "search_cache";
+const SEARCH_SCROLL = "search_scroll";
 
 const createStep = (step, totalTopics) => {
     const steps = JSON.parse(localStorage.getItem(STEP_KEY)) || [];
@@ -54,7 +56,7 @@ const findNextIncompleteStep = totalSteps => {
         return step;
     });
 
-    if (nextStep === null && steps.length < totalSteps) {
+    if (nextStep === null && steps.length <= totalSteps) {
         nextStep = steps.length;
     }
 
@@ -90,16 +92,38 @@ const markSplashComplete = () => {
 /**
  * Toggles a bookmark by adding or removing it from storage.
  * @param {string} name - unique bookmark name
+ * @param {string} prefix - a string that will be prepended to the name
+ * @param {string} header - the bookmark header title before the name
  * @param {string=} url - url of the bookmark
  */
-const toggleBookmark = (name, url) => {
+const toggleBookmark = (name, prefix, header, url) => {
     const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
 
     const index = bookmarks.findIndex(bookmark => bookmark.name === name);
     if (index !== -1) {
         bookmarks.splice(index, 1);
     } else {
-        bookmarks.push({ name, url });
+        bookmarks.push({
+            name,
+            prefix,
+            header,
+            url,
+            time: new Date().getTime()
+        });
+    }
+    localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
+};
+
+/**
+ * Remove a bookmark by name.
+ * @param {string} name - unique bookmark name
+ */
+const removeBookmark = name => {
+    const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
+
+    const index = bookmarks.findIndex(bookmark => bookmark.name === name);
+    if (index !== -1) {
+        bookmarks.splice(index, 1);
     }
     localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
 };
@@ -133,6 +157,31 @@ const retrieveAccordionId = () => {
     return JSON.parse(localStorage.getItem(ACCORDION_KEY));
 };
 
+const removeAccordionId = () => {
+    localStorage.removeItem(ACCORDION_KEY);
+};
+
+const cacheSearchResults = data => {
+    localStorage.setItem(SEARCH_CACHE_KEY, JSON.stringify(data));
+};
+
+const retrieveSearchCache = () => {
+    return JSON.parse(localStorage.getItem(SEARCH_CACHE_KEY));
+};
+
+const setSearchScrollY = scrolly => {
+    localStorage.setItem(SEARCH_SCROLL, JSON.stringify(scrolly));
+};
+
+const retrieveSearchScrollY = () => {
+    return JSON.parse(localStorage.getItem(SEARCH_SCROLL));
+};
+
+const clearSearchData = () => {
+    localStorage.removeItem(SEARCH_CACHE_KEY);
+    localStorage.removeItem(SEARCH_SCROLL);
+};
+
 export const storage = {
     steps: {
         createStep,
@@ -148,11 +197,20 @@ export const storage = {
     },
     bookmarks: {
         toggleBookmark,
+        removeBookmark,
         retrieveBookmark,
         retrieveBookmarks
     },
     accordion: {
         setAccordionId,
-        retrieveAccordionId
+        retrieveAccordionId,
+        removeAccordionId
+    },
+    search: {
+        cacheSearchResults,
+        retrieveSearchCache,
+        clearSearchData,
+        setSearchScrollY,
+        retrieveSearchScrollY
     }
 };

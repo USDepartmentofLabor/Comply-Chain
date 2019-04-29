@@ -1,9 +1,9 @@
+import PropTypes from "prop-types";
 import { Component } from "react";
 import { withRouter } from "react-router-dom";
-import { getHash } from "../../modules/utils";
-import PropTypes from "prop-types";
-import { isBrowser } from "../../modules/utils/platform";
 import { storage } from "../../modules/storage";
+import { getHash } from "../../modules/utils";
+import { isBrowser } from "../../modules/utils/platform";
 import { withLanguageContext } from "../Language";
 
 class ScrollToTop extends Component {
@@ -25,11 +25,13 @@ class ScrollToTop extends Component {
                 history.push(lastPageUrl);
             }
         }
+        this.props.history.listen((location, action) => {
+            storage.accordion.removeAccordionId();
+        });
     }
 
     componentDidUpdate(prevProps) {
         if (this.props.location !== prevProps.location) {
-            storage.accordion.setAccordionId("");
             if (this.state.loadingLastPage) {
                 if (!isBrowser()) {
                     const scrollY = localStorage.getItem("scrolly") || 0;

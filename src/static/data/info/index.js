@@ -1,10 +1,10 @@
 import { About } from "./about";
 import { Basics } from "./basics";
+import { Findings } from "./findings";
+import { Goods } from "./goods";
 import { KeyResources } from "./key-resources";
 import { WhatAre } from "./what-are";
 import { WhyDevelop } from "./why-develop";
-import { Findings } from "./findings";
-import { Goods } from "./goods";
 
 export const Info = {
     en: {

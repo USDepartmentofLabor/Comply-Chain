@@ -81,15 +81,6 @@ export const AppGlobalStyles = createGlobalStyle`
         margin-right: 0.5em;
         text-align: right;
         direction: rtl;
-    } 
-
-    li > h1,
-    li > h2,
-    li > h3,
-    li > h4,
-    li > h5,
-    li > h6 {
-        display: inline-block;
     }
 
     code {

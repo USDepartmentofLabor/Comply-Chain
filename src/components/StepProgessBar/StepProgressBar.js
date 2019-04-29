@@ -6,14 +6,24 @@ import styled from "styled-components";
 import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
 import { withLanguageContext } from "../Language";
+import { matchPath } from "react-router";
+import Routes from "../../modules/config/routes";
+import { isBrowser } from "../../modules/utils/platform";
 
 const StepProgress = styled.div`
     color: white;
     width: 20px;
     height: 20px;
     font-size: 12px;
-    background-color: ${props =>
-        props.accomplished ? theme.colors.primary : theme.colors.gray};
+    background-color: ${props => {
+        if (props.viewing) {
+            return theme.colors.yellow;
+        }
+        if (props.accomplished) {
+            return theme.colors.green;
+        }
+        return theme.colors.gray;
+    }};
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -21,14 +31,44 @@ const StepProgress = styled.div`
 `;
 
 class StepProgressBar extends Component {
+    state = { currentStep: undefined };
+    componentDidMount() {
+        this.checkStepInfo();
+    }
+    componentDidUpdate() {
+        this.checkStepInfo();
+    }
+
+    checkStepInfo = () => {
+        const path = isBrowser()
+            ? window.location.pathname
+            : window.location.href.split("#")[1];
+        let match = matchPath(path, {
+            path: Routes.Step.path
+        });
+
+        if (match && match.params && match.params.step) {
+            if (this.state.currentStep !== match.params.step) {
+                this.setState({ currentStep: match.params.step });
+            }
+        } else {
+            if (this.state.currentStep !== undefined)
+                this.setState({ currentStep: undefined });
+        }
+    };
     render() {
         const { localizor } = this.props;
         const numOfSteps = localizor.strings.steps.length;
-        const currentStep = storage.steps.findNextIncompleteStep(numOfSteps);
-        const percent = (100 / numOfSteps + 1.75) * currentStep;
+        let currentStep = this.state.currentStep - 1;
+        let progressStep = currentStep;
+        if (isNaN(progressStep)) {
+            progressStep = storage.steps.findNextIncompleteStep(numOfSteps);
+        }
+        const percent = Math.min((100 / numOfSteps + 1.75) * progressStep, 100);
         return (
             <ProgressBar
                 percent={percent}
+                currentStep={currentStep}
                 filledBackground={theme.colors.primary}
             >
                 {localizor.strings.steps.map((step, i) => {
@@ -39,6 +79,7 @@ class StepProgressBar extends Component {
                                     accomplished={storage.steps.isStepComplete(
                                         i
                                     )}
+                                    viewing={currentStep === i}
                                 >
                                     {i + 1}
                                 </StepProgress>

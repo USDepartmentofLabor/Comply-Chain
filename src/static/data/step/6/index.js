@@ -1,5 +1,5 @@
-import { Topics } from "./topic";
 import { ExtraInfo } from "./extra";
+import { Topics } from "./topic";
 
 export const StepData = {
     en: {

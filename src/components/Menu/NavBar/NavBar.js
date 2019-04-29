@@ -106,7 +106,7 @@ class NavBar extends Component {
     };
 
     handleSideNavClose = () => {
-        this.setState({ visible: false });
+        this.setState({ visible: false, stepAccordionActive: false });
     };
 
     toggleStepAccordion = () => {
@@ -129,6 +129,7 @@ class NavBar extends Component {
                                 as={MenuButton}
                                 right
                                 onClick={this.toggleSideNav}
+                                ref={node => (this.closeBtn = node)}
                             >
                                 {!visible && localizor.strings.general.menu}
                                 {visible && localizor.strings.general.close}
@@ -150,6 +151,7 @@ class NavBar extends Component {
                     id="side-nav"
                     visible={visible}
                     onClose={this.handleSideNavClose}
+                    clickable={"menu-btn"}
                 >
                     <div id="side-nav-main-content">
                         {leftItems.map((item, i) => (
@@ -157,7 +159,7 @@ class NavBar extends Component {
                                 {...item.props}
                                 key={"mobile_left_" + i}
                                 onClick={this.handleSideNavClose}
-                                dimmed={stepAccordionActive ? true : undefined}
+                                dimmed={stepAccordionActive ? 1 : 0}
                             >
                                 {item.props && item.props.content}
                             </SideNav.Item>
