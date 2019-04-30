@@ -214,6 +214,9 @@ const Icon = styled.span`
 
 const IconContainer = styled.div`
     position: relative;
+    @media print {
+        page-break-inside: avoid;
+    }
 `;
 
 const StatusIcons = styled.div`
@@ -250,23 +253,16 @@ const Item = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-image: linear-gradient(
+    background-image: url(${props => props.image});
+
+    box-shadow:inset 0 0 0 2000px 
             rgba(
                 ${props =>
                     props.green
                         ? theme.colors.greenRGB
                         : theme.colors.primaryRGB},
                 0.75
-            ),
-            rgba(
-                ${props =>
-                    props.green
-                        ? theme.colors.greenRGB
-                        : theme.colors.primaryRGB},
-                0.75
-            )
-        ),
-        url(${props => props.image});
+            );
     background-repeat: no-repeat;
     background-position: ${props =>
         `${props.imageMobilePosition.x}% ${props.imageMobilePosition.y}%`};

@@ -99,8 +99,9 @@ export const AppGlobalStyles = createGlobalStyle`
             height: auto;
             page-break-inside: avoid;
         }
-        .home_item {
-            page-break-inside: avoid;
+
+        * {
+            -webkit-print-color-adjust:exact;
         }
     }
 
