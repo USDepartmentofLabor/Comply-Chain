@@ -23,7 +23,7 @@ class Home extends Component {
         const { localizor } = this.props;
         return (
             <HomeWrapper>
-                <IconContainer className="home_item">
+                <IconContainer>
                     <Item
                         image={infoImageData[0].image}
                         imageMobilePosition={infoImageData[0].mobile}
@@ -44,7 +44,7 @@ class Home extends Component {
                         )}
                     </StatusIcons>
                 </IconContainer>
-                <IconContainer className="home_item">
+                <IconContainer>
                     <Item
                         green={true}
                         image={infoImageData[1].image}
@@ -69,7 +69,6 @@ class Home extends Component {
                         <IconContainer
                             id={`home_step_${i + 1}`}
                             key={`home_step_${i + 1}`}
-                            className="home_item"
                         >
                             <Item
                                 green={i % 2 !== 0}
@@ -91,8 +90,8 @@ class Home extends Component {
                                 </ItemContent>
                             </Item>
                             <StatusIcons>
-                                {storage.bookmarks.retrieveBookmark(
-                                    `steps.${i}.title`
+                                {storage.bookmarks.containsBookmarks(
+                                    `steps.${i}`
                                 ) && <BookmarkIcon />}
                                 {storage.steps.isStepComplete(i) && (
                                     <CheckIcon />
@@ -255,14 +254,12 @@ const Item = styled.div`
     justify-content: flex-end;
     background-image: url(${props => props.image});
 
-    box-shadow:inset 0 0 0 2000px 
-            rgba(
-                ${props =>
-                    props.green
-                        ? theme.colors.greenRGB
-                        : theme.colors.primaryRGB},
-                0.75
-            );
+    box-shadow: inset 0 0 0 2000px
+        rgba(
+            ${props =>
+                props.green ? theme.colors.greenRGB : theme.colors.primaryRGB},
+            0.75
+        );
     background-repeat: no-repeat;
     background-position: ${props =>
         `${props.imageMobilePosition.x}% ${props.imageMobilePosition.y}%`};
