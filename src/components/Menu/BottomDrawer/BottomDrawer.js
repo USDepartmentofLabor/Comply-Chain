@@ -18,7 +18,7 @@ class BottomDrawer extends Component {
 
     componentDidMount() {
         const main = document.getElementById("main");
-        if(main) {
+        if (main) {
             if (window.PointerEvent) {
                 main.addEventListener("pointerdown", this.closeDrawer, false);
             } else {
@@ -36,8 +36,12 @@ class BottomDrawer extends Component {
     componentWillUnmount() {
         const main = document.getElementById("main");
         if (window.PointerEvent) {
-            if(main) {
-                main.removeEventListener("pointerdown", this.closeDrawer, false);
+            if (main) {
+                main.removeEventListener(
+                    "pointerdown",
+                    this.closeDrawer,
+                    false
+                );
             }
             document.removeEventListener(
                 "pointerdown",
@@ -45,7 +49,7 @@ class BottomDrawer extends Component {
                 false
             );
         } else {
-            if(main) {
+            if (main) {
                 main.removeEventListener("mousedown", this.closeDrawer, false);
             }
             document.removeEventListener("mousedown", this.closeDrawer, false);
@@ -84,7 +88,7 @@ class BottomDrawer extends Component {
 }
 
 const Wrapper = styled.div`
-    background-color: ${theme.colors.white};
+    background-color: ${theme.colors.primary};
     height: ${props => (props.active ? "auto" : "0")};
     max-height: 300px;
     width: 100%;
@@ -95,7 +99,7 @@ const Wrapper = styled.div`
     overflow-y: hidden;
     transition: 1.5s ease-out;
 
-    box-shadow: 0px -5px 3px rgba(${theme.colors.grayRGB}, 0.75);
+    box-shadow: 0px -5px 8px rgba(${theme.colors.grayDarkRGB}, 0.75);
 `;
 
 const Content = styled.div`
@@ -110,9 +114,9 @@ const Content = styled.div`
 `;
 
 const ContentItem = styled.span`
-    border-bottom: solid 1px ${theme.colors.gray};
+    border-bottom: solid 2px ${theme.colors.primaryDarker};
     padding: 10px 10px;
-    color: ${theme.colors.primaryDarker};
+    color: ${theme.colors.white};
     font-size: 1.25em;
     font-family: ${theme.fonts.headings};
     font-weight: bold;
