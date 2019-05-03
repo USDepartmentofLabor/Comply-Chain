@@ -41,11 +41,18 @@ const addInAppBrowser = () => {
     };
 };
 
+const addStatusBarScrollToTop = () => {
+    window.addEventListener("statusTap", () => {
+        window.scrollTo(0, 0);
+    });
+};
+
 if (window.cordova) {
     document.addEventListener(
         "deviceready",
         () => {
             addInAppBrowser();
+            addStatusBarScrollToTop();
             initApp(CordovaApp);
         },
         false
