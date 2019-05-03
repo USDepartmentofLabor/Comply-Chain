@@ -35,6 +35,7 @@ const MainWrapper = styled.div`
     margin-bottom: calc(3.2em + env(safe-area-inset-bottom));
     overflow-y: overlay;
     overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
 `;
 
 const Header = styled.div`
