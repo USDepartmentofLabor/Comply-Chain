@@ -19,6 +19,10 @@ class ScrollToTop extends Component {
             // a compromise of saving every X amount of seconds was made
             setInterval(this.saveScrollPosition, 5000);
 
+            window.addEventListener("statusTap", () => {
+                this.scrollTo(0, 0);
+            });
+
             if (lastPageUrl) {
                 const { history } = this.props;
                 this.setState({ loadingLastPage: true });
