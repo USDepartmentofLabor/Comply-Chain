@@ -238,7 +238,7 @@ class AppWrapper extends Component {
                         </NavbarWrapper>
                     </Header>
                     <MainWrapper id="main">
-                        {location.pathname !== Routes.Home.path && (
+                        {location.pathname.includes("/steps") && (
                             <StepBarWrapper id="step_progess_bar">
                                 <StepProgressBar />
                             </StepBarWrapper>
