@@ -73,6 +73,14 @@ class AppWrapper extends Component {
         this.state = { ...this.updateNavBarItems(), bottomDrawerActive: false };
     }
 
+    componentWillMount() {
+        if (window.PointerEvent) {
+            document.addEventListener("pointerdown", this.closeDrawer, false);
+        } else {
+            document.addEventListener("mousedown", this.closeDrawer, false);
+        }
+    }
+
     componentDidMount() {
         storage.search.clearSearchData();
     }
@@ -85,6 +93,15 @@ class AppWrapper extends Component {
 
     componentWillUnmount() {
         storage.search.clearSearchData();
+        if (window.PointerEvent) {
+            document.removeEventListener(
+                "pointerdown",
+                this.closeDrawer,
+                false
+            );
+        } else {
+            document.removeEventListener("mousedown", this.closeDrawer, false);
+        }
     }
 
     updateNavBarItems = () => {
@@ -190,9 +207,21 @@ class AppWrapper extends Component {
         };
         return items;
     };
+
     toggleBottomDrawer = () => {
         this.setState({ bottomDrawerActive: !this.state.bottomDrawerActive });
     };
+
+    closeDrawer = e => {
+        if (!this.state.bottomDrawerActive) return;
+        const aboutBtn = document.getElementById("about-link");
+        const bottomDrawer = document.getElementById("bottom-drawer");
+        if (aboutBtn.contains(e.target) || bottomDrawer.contains(e.target)) {
+            return;
+        }
+        this.setState({ bottomDrawerActive: false });
+    };
+
     render() {
         const {
             navBarLeftItems,
@@ -224,7 +253,7 @@ class AppWrapper extends Component {
                     </MainWrapper>
                     <Footer>
                         <BottomDrawer
-                            id="bototm-drawer"
+                            id="bottom-drawer"
                             active={bottomDrawerActive}
                             items={bottomDrawerItems}
                             onClose={() => {

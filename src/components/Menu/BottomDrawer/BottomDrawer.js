@@ -8,68 +8,10 @@ class BottomDrawer extends Component {
         active: this.props.active
     };
 
-    componentWillMount() {
-        if (window.PointerEvent) {
-            document.addEventListener("pointerdown", this.closeDrawer, false);
-        } else {
-            document.addEventListener("mousedown", this.closeDrawer, false);
-        }
-    }
-
-    componentDidMount() {
-        const main = document.getElementById("main");
-        if (main) {
-            if (window.PointerEvent) {
-                main.addEventListener("pointerdown", this.closeDrawer, false);
-            } else {
-                main.addEventListener("mousedown", this.closeDrawer, false);
-            }
-        }
-    }
-
-    componentDidUpdate(prevProps) {
-        if (prevProps.active !== this.props.active) {
-            this.setState({ active: this.props.active });
-        }
-    }
-
-    componentWillUnmount() {
-        const main = document.getElementById("main");
-        if (window.PointerEvent) {
-            if (main) {
-                main.removeEventListener(
-                    "pointerdown",
-                    this.closeDrawer,
-                    false
-                );
-            }
-            document.removeEventListener(
-                "pointerdown",
-                this.closeDrawer,
-                false
-            );
-        } else {
-            if (main) {
-                main.removeEventListener("mousedown", this.closeDrawer, false);
-            }
-            document.removeEventListener("mousedown", this.closeDrawer, false);
-        }
-    }
-
-    closeDrawer = e => {
-        if (this.node.contains(e.target)) {
-            return;
-        }
-        this.setState({ active: false });
-        if (this.props.onClose) {
-            this.props.onClose();
-        }
-    };
-
     render() {
-        const { active, items } = this.props;
+        const { active, items, id } = this.props;
         return (
-            <Wrapper ref={node => (this.node = node)} active={active}>
+            <Wrapper id={id} active={active}>
                 <Content>
                     {items.map((item, i) => {
                         return (
