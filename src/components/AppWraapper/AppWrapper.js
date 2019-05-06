@@ -22,17 +22,15 @@ const Main = styled.div`
 `;
 
 const MainWrapper = styled.div`
-    position: absolute;
-    top: 0;
-    bottom: 0;
+    position: fixed;
     left: 0;
     right: 0;
-    margin-top: 5.2em;
-    margin-top: calc(5.2em + constant(safe-area-inset-top));
-    margin-top: calc(5.2em + env(safe-area-inset-top));
-    margin-bottom: 3.2em;
-    margin-bottom: calc(3.2em + constant(safe-area-inset-bottom));
-    margin-bottom: calc(3.2em + env(safe-area-inset-bottom));
+    top: 5.2em;
+    top: calc(5.2em + constant(safe-area-inset-top));
+    top: calc(5.2em + env(safe-area-inset-top));
+    bottom: 3.2em;
+    bottom: calc(3.2em + constant(safe-area-inset-bottom));
+    bottom: calc(3.2em + env(safe-area-inset-bottom));
     overflow-y: overlay;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
