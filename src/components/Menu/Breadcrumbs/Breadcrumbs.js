@@ -81,7 +81,6 @@ class Breadcrumbs extends Component {
                     </Breadcrumb.Section>
                 );
             } else {
-                console.log(breadcrumb);
                 return (
                     <span key={breadcrumb.key}>
                         <Breadcrumb.Section
