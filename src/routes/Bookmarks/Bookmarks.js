@@ -135,46 +135,50 @@ class Bookmarks extends Component {
         const { localizor } = this.props;
         const { bookmarksToRemove } = this.state;
 
+        const filtered = bookmarks.filter(
+            bookmark => !bookmarksToRemove.includes(bookmark)
+        );
         return (
             <div>
-                {bookmarks
-                    .filter(bookmark => !bookmarksToRemove.includes(bookmark))
-                    .map((bookmark, i) => {
-                        return (
-                            <IconContainer
-                                id={`bookmark_${i + 1}`}
-                                key={`bookmark_${i + 1}`}
+                {filtered.map((bookmark, i) => {
+                    return (
+                        <IconContainer
+                            id={`bookmark_${i + 1}`}
+                            key={`bookmark_${i + 1}`}
+                        >
+                            <Item>
+                                <PaddedContent>
+                                    {bookmark.header && (
+                                        <ItemHeader>
+                                            {getPropByString(
+                                                localizor.strings,
+                                                bookmark.header
+                                            )}
+                                        </ItemHeader>
+                                    )}
+                                    <ItemContent to={bookmark.url}>
+                                        <ItemTitle>
+                                            {getPropByString(
+                                                localizor.strings,
+                                                bookmark.name
+                                            )}
+                                        </ItemTitle>
+                                    </ItemContent>
+                                </PaddedContent>
+                            </Item>
+                            <IconWrapper
+                                onClick={() => {
+                                    this.markForRemoval(bookmark);
+                                }}
                             >
-                                <Item>
-                                    <PaddedContent>
-                                        {bookmark.header && (
-                                            <ItemHeader>
-                                                {getPropByString(
-                                                    localizor.strings,
-                                                    bookmark.header
-                                                )}
-                                            </ItemHeader>
-                                        )}
-                                        <ItemContent to={bookmark.url}>
-                                            <ItemTitle>
-                                                {getPropByString(
-                                                    localizor.strings,
-                                                    bookmark.name
-                                                )}
-                                            </ItemTitle>
-                                        </ItemContent>
-                                    </PaddedContent>
-                                </Item>
-                                <IconWrapper
-                                    onClick={() => {
-                                        this.markForRemoval(bookmark);
-                                    }}
-                                >
-                                    <BookmarkIcon />
-                                </IconWrapper>
-                            </IconContainer>
-                        );
-                    })}
+                                <BookmarkIcon />
+                            </IconWrapper>
+                        </IconContainer>
+                    );
+                })}
+                {filtered.length === 0 && (
+                    <span>You don't have any bookmarks.</span>
+                )}
             </div>
         );
     };
