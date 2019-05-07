@@ -140,6 +140,7 @@ class Bookmarks extends Component {
         );
         return (
             <div>
+                <h4>Bookmarks</h4>
                 {filtered.map((bookmark, i) => {
                     return (
                         <IconContainer
