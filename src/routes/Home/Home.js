@@ -239,11 +239,10 @@ const ItemTitle = styled(Link)`
     text-decoration: none;
     font-weight: bold;
     font-family: ${theme.fonts.headings};
-    font-size: 30px;
+    font-size: 20px;
 `;
 
 const ItemContent = styled.div`
-    padding-bottom: 7px;
     padding-left: 20px;
     padding-right: 30px;
 `;
@@ -251,7 +250,7 @@ const ItemContent = styled.div`
 const Item = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     background-image: url(${props => props.image});
 
     box-shadow: inset 0 0 0 2000px
