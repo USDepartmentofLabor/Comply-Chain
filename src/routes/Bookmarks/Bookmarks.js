@@ -1,40 +1,120 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import styled from "styled-components";
+import Icons from "../../components/Icons";
 import { withLanguageContext } from "../../components/Language";
+import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
 import { getPropByString } from "../../modules/utils";
-import styled from "styled-components";
 
-const StyledLink = styled(Link)``;
+const PaddedContent = styled.div`
+    padding-left: 25px;
+`;
+
+const IconWrapper = styled.div`
+    color: ${theme.colors.primary};
+    font-size: 2em;
+    cursor: pointer;
+`;
+
+const IconContainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid ${theme.colors.grayLight};
+    padding: 20px 10px;
+    margin-top: 1em;
+`;
+
+const BookmarkIcon = styled(Icons.BookmarkCheck)`
+    display: block;
+`;
+
+const ItemHeader = styled.span``;
+
+const ItemTitle = styled.h3`
+    padding: 0;
+    margin: 0;
+`;
+
+const ItemContent = styled(Link)`
+    color: ${theme.colors.primary};
+    text-decoration: none;
+`;
+
+const Item = styled.div``;
+
+const ToastContainerWrapper = styled.div`
+    .toast-container {
+        bottom: 3em;
+        & > * {
+            color: ${theme.colors.white};
+            background: ${theme.colors.primary};
+        }
+    }
+
+    .toast {
+        background: ${theme.colors.primary};
+    }
+`;
+
+const ToastStrong = styled.span`
+    font-weight: bold;
+`;
+
+const ToastUndo = ({ bookmark, localizor, undo, closeToast }) => {
+    const handleClick = () => {
+        undo(bookmark);
+        closeToast();
+    };
+
+    const Content = styled.div`
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 15px;
+    `;
+
+    const UndoButton = styled.button`
+        border: none;
+        background: ${theme.colors.primaryDarker};
+        color: ${theme.colors.white};
+        min-width: 75px;
+        height: auto;
+        padding: 15px;
+        font-weight: bold;
+    `;
+
+    const UndoText = styled.span`
+        font-size: 12px;
+        padding: 0 5px;
+    `;
+
+    return (
+        <Content>
+            <UndoText>
+                You removed{" "}
+                <ToastStrong>
+                    {getPropByString(localizor.strings, bookmark.name)}
+                </ToastStrong>{" "}
+                from your bookmarks.
+            </UndoText>{" "}
+            <UndoButton onClick={handleClick}>Undo</UndoButton>
+        </Content>
+    );
+};
+
 class Bookmarks extends Component {
     constructor(props) {
         super(props);
         const bookmarks = storage.bookmarks.retrieveBookmarks();
         this.state = {
             bookmarks,
-            week: [],
-            month: [],
-            others: [],
             bookmarksToRemove: []
         };
-        const monthAgo = new Date();
-        monthAgo.setMonth(monthAgo.getMonth() - 1);
-        const weekAgo = new Date();
-        weekAgo.setDate(weekAgo.getDate() - 7);
-        bookmarks.map(bookmark => {
-            if (weekAgo.getTime() <= bookmark.time) {
-                this.state.week.push(bookmark);
-            } else if (
-                monthAgo.getTime() <= bookmark.time &&
-                weekAgo.getTime() > bookmark.time
-            ) {
-                this.state.month.push(bookmark);
-            } else {
-                this.state.others.push(bookmark);
-            }
-            return bookmark;
-        });
     }
 
     componentWillUnmount() {
@@ -54,57 +134,48 @@ class Bookmarks extends Component {
     renderBookmarks = bookmarks => {
         const { localizor } = this.props;
         const { bookmarksToRemove } = this.state;
+
         return (
-            <ul>
-                {bookmarks.map(bookmark => {
-                    return (
-                        <li key={`bookmark_${bookmark.name}`}>
-                            <StyledLink to={bookmark.url}>
-                                {bookmark.header && (
-                                    <span>
-                                        {getPropByString(
-                                            localizor.strings,
-                                            bookmark.header
+            <div>
+                {bookmarks
+                    .filter(bookmark => !bookmarksToRemove.includes(bookmark))
+                    .map((bookmark, i) => {
+                        return (
+                            <IconContainer
+                                id={`bookmark_${i + 1}`}
+                                key={`bookmark_${i + 1}`}
+                            >
+                                <Item>
+                                    <PaddedContent>
+                                        {bookmark.header && (
+                                            <ItemHeader>
+                                                {getPropByString(
+                                                    localizor.strings,
+                                                    bookmark.header
+                                                )}
+                                            </ItemHeader>
                                         )}
-                                        <br />
-                                    </span>
-                                )}
-                                {bookmark.prefix && (
-                                    <span>
-                                        {getPropByString(
-                                            localizor.strings,
-                                            bookmark.prefix
-                                        )}
-                                        :{" "}
-                                    </span>
-                                )}
-                                {getPropByString(
-                                    localizor.strings,
-                                    bookmark.name
-                                )}
-                            </StyledLink>
-                            {" - "}
-                            {bookmarksToRemove.indexOf(bookmark) !== -1 ? (
-                                <button
-                                    onClick={() => {
-                                        this.unmarkForRemoval(bookmark);
-                                    }}
-                                >
-                                    Add back
-                                </button>
-                            ) : (
-                                <button
+                                        <ItemContent to={bookmark.url}>
+                                            <ItemTitle>
+                                                {getPropByString(
+                                                    localizor.strings,
+                                                    bookmark.name
+                                                )}
+                                            </ItemTitle>
+                                        </ItemContent>
+                                    </PaddedContent>
+                                </Item>
+                                <IconWrapper
                                     onClick={() => {
                                         this.markForRemoval(bookmark);
                                     }}
                                 >
-                                    Remove
-                                </button>
-                            )}
-                        </li>
-                    );
-                })}
-            </ul>
+                                    <BookmarkIcon />
+                                </IconWrapper>
+                            </IconContainer>
+                        );
+                    })}
+            </div>
         );
     };
 
@@ -113,6 +184,13 @@ class Bookmarks extends Component {
         bookmarksToRemove.push(bookmark);
         this.setState({ bookmarksToRemove });
         storage.bookmarks.removeBookmark(bookmark.name);
+        toast(
+            <ToastUndo
+                undo={this.unmarkForRemoval}
+                localizor={this.props.localizor}
+                bookmark={bookmark}
+            />
+        );
     };
 
     unmarkForRemoval = bookmark => {
@@ -129,27 +207,25 @@ class Bookmarks extends Component {
             bookmark.url
         );
     };
+
     render() {
-        const { bookmarks, week, month, others } = this.state;
+        const { bookmarks } = this.state;
         return (
             <div>
                 {bookmarks.length === 0 && <span>No bookmarks!</span>}
                 {bookmarks.length > 0 && (
-                    <ul>
-                        <li>
-                            <span>Within a week</span>
-                            {this.renderBookmarks(week)}
-                        </li>
-                        <li>
-                            <span>Within a month</span>
-                            {this.renderBookmarks(month)}
-                        </li>
-                        <li>
-                            <span>Over a month</span>
-                            {this.renderBookmarks(others)}
-                        </li>
-                    </ul>
+                    <div>{this.renderBookmarks(bookmarks)}</div>
                 )}
+                <ToastContainerWrapper>
+                    <ToastContainer
+                        className="toast-container"
+                        toastClassName="toast"
+                        autoClose={false}
+                        closeButton={false}
+                        closeOnClick={false}
+                        position="bottom-center"
+                    />
+                </ToastContainerWrapper>
             </div>
         );
     }

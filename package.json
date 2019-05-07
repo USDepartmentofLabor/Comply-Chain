@@ -69,6 +69,7 @@
         "react-router-hash-link": "^1.2.1",
         "react-step-progress-bar": "^1.0.3",
         "react-string-replace": "^0.4.3",
+        "react-toastify": "^5.1.0",
         "resolve": "1.10.0",
         "sass-loader": "7.1.0",
         "style-loader": "0.23.1",
