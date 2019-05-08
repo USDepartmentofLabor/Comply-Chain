@@ -39,9 +39,9 @@ class Home extends Component {
                         </ItemContent>
                     </Item>
                     <StatusIcons>
-                        {storage.bookmarks.retrieveBookmark(`whydevelop`) && (
-                            <BookmarkIcon />
-                        )}
+                        {storage.bookmarks.retrieveBookmark(
+                            `info.whyDevelop.title`
+                        ) && <BookmarkIcon />}
                     </StatusIcons>
                 </IconContainer>
                 <IconContainer>
@@ -58,9 +58,9 @@ class Home extends Component {
                         </ItemContent>
                     </Item>
                     <StatusIcons>
-                        {storage.bookmarks.retrieveBookmark(`basics`) && (
-                            <BookmarkIcon />
-                        )}
+                        {storage.bookmarks.retrieveBookmark(
+                            `info.basics.title`
+                        ) && <BookmarkIcon />}
                     </StatusIcons>
                 </IconContainer>
 
