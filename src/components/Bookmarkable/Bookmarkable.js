@@ -9,9 +9,16 @@ const Wrapper = styled.div`
     position: relative;
 `;
 
-const ButtonWrapper = styled.div`
+const BookmarkButton = styled.button`
+    border: none;
     cursor: pointer;
     float: right;
+    background: transparent;
+
+    &:hover {
+        border: none;
+        background: transparent;
+    }
 `;
 
 const BookmarkIcon = styled(Icons.BookmarkCheck)`
@@ -58,17 +65,18 @@ class Bookmarkable extends Component {
         }
         return (
             <Wrapper>
-                <ButtonWrapper onClick={this.handleBookmark}>
-                    <div>
-                        <BookmarkIcon
-                            color={
-                                bookmarked
-                                    ? theme.colors.primary
-                                    : theme.colors.base
-                            }
-                        />
-                    </div>
-                </ButtonWrapper>
+                <BookmarkButton
+                    title={bookmarked ? "Unbookmark page" : "Bookmark page"}
+                    onClick={this.handleBookmark}
+                >
+                    <BookmarkIcon
+                        color={
+                            bookmarked
+                                ? theme.colors.primary
+                                : theme.colors.base
+                        }
+                    />
+                </BookmarkButton>
                 {children}
             </Wrapper>
         );
