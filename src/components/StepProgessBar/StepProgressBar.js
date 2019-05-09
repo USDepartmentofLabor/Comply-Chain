@@ -80,6 +80,9 @@ class StepProgressBar extends Component {
                                         i
                                     )}
                                     viewing={currentStep === i}
+                                    aria-label={`${
+                                        localizor.strings.general.step
+                                    } ${i + 1}`}
                                 >
                                     {i + 1}
                                 </StepProgress>
