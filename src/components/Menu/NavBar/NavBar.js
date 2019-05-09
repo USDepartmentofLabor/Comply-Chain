@@ -85,13 +85,12 @@ class NavBar extends Component {
     }
 
     onBackButtonPressed = e => {
+        e.preventDefault();
         const { visible } = this.state;
         const { location } = this.props;
         if (visible) {
-            e.preventDefault();
             this.handleSideNavClose();
         } else {
-            e.preventDefault();
             if (location.pathname === "/") {
                 navigator.app.exitApp();
             } else {
@@ -110,7 +109,11 @@ class NavBar extends Component {
     };
 
     handleSideNavClose = () => {
+        const { onSideNavToggle } = this.props;
         this.setState({ visible: false, stepAccordionActive: false });
+        if (onSideNavToggle) {
+            onSideNavToggle(false);
+        }
     };
 
     toggleStepAccordion = () => {
