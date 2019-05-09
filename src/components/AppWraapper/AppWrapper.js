@@ -16,6 +16,7 @@ import ScrollToTop from "./ScrollToTop";
 import BottomDrawer from "../Menu/BottomDrawer/BottomDrawer";
 import { storage } from "../../modules/storage";
 import MobileScrollbar from "../MobileScrollbar";
+import { isBrowser } from "../../modules/utils/platform";
 
 const Main = styled.div`
     padding: 0 10px;
@@ -74,7 +75,11 @@ const BottomNavButton = styled.button`
 class AppWrapper extends Component {
     constructor(props) {
         super(props);
-        this.state = { ...this.updateNavBarItems(), bottomDrawerActive: false };
+        this.state = {
+            ...this.updateNavBarItems(),
+            bottomDrawerActive: false,
+            sideNavVisible: false
+        };
     }
 
     componentWillMount() {
@@ -226,12 +231,18 @@ class AppWrapper extends Component {
         this.setState({ bottomDrawerActive: false });
     };
 
+    handleSideNavToggle = visible => {
+        if (isBrowser()) return;
+        this.setState({ sideNavVisible: visible });
+    };
+
     render() {
         const {
             navBarLeftItems,
             bottomNavItems,
             bottomDrawerActive,
-            bottomDrawerItems
+            bottomDrawerItems,
+            sideNavVisible
         } = this.state;
         const { location } = this.props;
         return (
@@ -240,35 +251,42 @@ class AppWrapper extends Component {
                     <Header>
                         <NavbarWrapper>
                             <BrandStrip />
-                            <NavBar leftItems={navBarLeftItems} />
+                            <NavBar
+                                leftItems={navBarLeftItems}
+                                onSideNavToggle={this.handleSideNavToggle}
+                            />
                         </NavbarWrapper>
                     </Header>
-                    <MainWrapper id="main">
-                        {location.pathname.includes("/steps") && (
-                            <StepBarWrapper id="step_progess_bar">
-                                <StepProgressBar />
-                            </StepBarWrapper>
-                        )}
-                        <Main>
-                            <Container id="container">
-                                <Navigator />
-                            </Container>
-                        </Main>
-                    </MainWrapper>
-                    <Footer>
-                        <BottomDrawer
-                            id="bottom-drawer"
-                            active={bottomDrawerActive}
-                            items={bottomDrawerItems}
-                            onClose={() => {
-                                this.setState({ bottomDrawerActive: false });
-                            }}
-                        />
-                        <BottomNavBar
-                            id="bottom-nav-bar"
-                            items={bottomNavItems}
-                        />
-                    </Footer>
+                    <div aria-hidden={sideNavVisible}>
+                        <MainWrapper id="main">
+                            {location.pathname.includes("/steps") && (
+                                <StepBarWrapper id="step_progess_bar">
+                                    <StepProgressBar />
+                                </StepBarWrapper>
+                            )}
+                            <Main>
+                                <Container id="container">
+                                    <Navigator />
+                                </Container>
+                            </Main>
+                        </MainWrapper>
+                        <Footer>
+                            <BottomDrawer
+                                id="bottom-drawer"
+                                active={bottomDrawerActive}
+                                items={bottomDrawerItems}
+                                onClose={() => {
+                                    this.setState({
+                                        bottomDrawerActive: false
+                                    });
+                                }}
+                            />
+                            <BottomNavBar
+                                id="bottom-nav-bar"
+                                items={bottomNavItems}
+                            />
+                        </Footer>
+                    </div>
                 </ScrollToTop>
             </MobileScrollbar>
         );

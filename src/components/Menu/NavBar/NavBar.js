@@ -102,7 +102,11 @@ class NavBar extends Component {
 
     toggleSideNav = () => {
         const { visible } = this.state;
+        const { onSideNavToggle } = this.props;
         this.setState({ visible: !visible });
+        if (onSideNavToggle) {
+            onSideNavToggle(!visible);
+        }
     };
 
     handleSideNavClose = () => {
