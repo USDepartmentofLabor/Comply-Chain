@@ -65,6 +65,12 @@ const Container = styled.div`
     max-width: 900px;
     width: 100%;
 `;
+
+const BottomNavButton = styled.button`
+    border: none;
+    background: transparent;
+`;
+
 class AppWrapper extends Component {
     constructor(props) {
         super(props);
@@ -164,7 +170,7 @@ class AppWrapper extends Component {
                 },
                 {
                     props: {
-                        as: "span",
+                        as: BottomNavButton,
                         id: "about-link",
                         onClick: () => this.toggleBottomDrawer()
                     },
