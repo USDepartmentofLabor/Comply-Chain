@@ -398,6 +398,9 @@ class Search extends Component {
                             <SnippetLink
                                 to={this.createSearchQueryUrl(result.to, query)}
                                 target={isBrowser() ? "_blank" : "_self"}
+                                title={`${
+                                    localizor.strings.general.continueReading
+                                } ${result.title}`}
                             >
                                 {localizor.strings.general.continueReading}.
                             </SnippetLink>
