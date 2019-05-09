@@ -145,7 +145,8 @@ class Accordion extends Component {
                         if (!keepOpen) {
                             this.closeOthers(sectionIndex);
                         }
-                    }
+                    },
+                    role: "button"
                 });
             }
 
