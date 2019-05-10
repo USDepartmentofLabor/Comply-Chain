@@ -59,8 +59,7 @@ const ContentItem = styled.span`
     border-bottom: solid 2px ${theme.colors.primaryDarker};
     padding: 10px 10px;
     color: ${theme.colors.white};
-    font-size: 1.25em;
-    font-family: ${theme.fonts.headings};
+    font-size: 17px;
     font-weight: bold;
 `;
 
