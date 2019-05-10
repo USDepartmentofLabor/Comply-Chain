@@ -32,6 +32,7 @@ class BottomDrawer extends Component {
 const Wrapper = styled.div`
     background-color: ${theme.colors.primary};
     height: ${props => (props.active ? "auto" : "0")};
+    display: ${props => (props.active ? "block" : "none")};
     max-height: 300px;
     width: 100%;
     position: fixed;

@@ -77,12 +77,16 @@ class Accordion extends Component {
 
     makeInactive = sectionIndex => {
         this.title[sectionIndex].classList.remove("active");
+        this.title[sectionIndex].setAttribute("aria-expanded", false);
         this.panel[sectionIndex].style.maxHeight = null;
+        this.panel[sectionIndex].style.display = "none";
         storage.accordion.removeAccordionId();
     };
 
     makeActive = sectionIndex => {
         this.title[sectionIndex].classList.add("active");
+        this.title[sectionIndex].setAttribute("aria-expanded", true);
+        this.panel[sectionIndex].style.display = "block";
         this.panel[sectionIndex].style.maxHeight =
             this.panel[sectionIndex].scrollHeight + "px";
         storage.accordion.setAccordionId(this.section[sectionIndex].id);
@@ -143,7 +147,9 @@ class Accordion extends Component {
                         if (!keepOpen) {
                             this.closeOthers(sectionIndex);
                         }
-                    }
+                    },
+                    role: "button",
+                    "aria-expanded": false
                 });
             }
 
@@ -210,6 +216,7 @@ Accordion.Panel = styled.div`
     border-left: 3px solid ${theme.colors.offWhite};
     border-right: 3px solid ${theme.colors.offWhite};
     max-height: 0;
+    display: none;
     overflow: hidden;
 `;
 

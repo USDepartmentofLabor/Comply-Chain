@@ -20,7 +20,16 @@ class SideNav extends Component {
 
     componentDidUpdate(prevProps) {
         if (prevProps.visible !== this.props.visible) {
-            this.setState({ visible: this.props.visible });
+            window.clearTimeout(this.displayTimeout);
+            if (!this.props.visible) {
+                this.displayTimeout = this.setDisplayTimeout();
+                this.setState({ visible: this.props.visible });
+            } else {
+                this.node.style.display = "block";
+                this.displayTimeout = setTimeout(() => {
+                    this.setState({ visible: this.props.visible });
+                }, 100);
+            }
         }
     }
 
@@ -41,9 +50,17 @@ class SideNav extends Component {
         }
         const { onClose } = this.props;
         this.setState({ visible: false });
+        window.clearTimeout(this.displayTimeout);
+        this.displayTimeout = this.setDisplayTimeout();
         if (onClose) {
             onClose();
         }
+    };
+
+    setDisplayTimeout = () => {
+        return setTimeout(() => {
+            this.node.style.display = "none";
+        }, 300);
     };
 
     render() {
