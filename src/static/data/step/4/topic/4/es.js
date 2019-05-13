@@ -117,7 +117,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.worldcocoafoundation.org/wp-content/uploads/CocoaAction-Primer-v1_English_May-2016.pdf"
+                            href="https://www.worldcocoafoundation.org/about-wcf/cocoaaction/"
                             title="Iniciativa CocoaAction de la Fundaci&oacute;n Mundial del Cacao"
                         >
                             iniciativa CocoaAction de la Fundaci&oacute;n

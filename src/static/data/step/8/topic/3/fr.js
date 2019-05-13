@@ -171,7 +171,7 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Target-Global-Factory-List_Q2_2017.pdf"
+                            href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Target-Global-Factory-List_Q1_2019.pdf"
                             title="liste"
                         >
                             liste

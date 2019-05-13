@@ -308,19 +308,26 @@ const en = () => {
                         In some cases, governments are actively engaged with
                         industries to address the root causes of child labor and
                         forced labor. For example, the Government of the
-                        Philippines implements the Social Amelioration Program
-                        (SAP), which distributes cash bonuses to sugar workers
-                        to augment their income, finances socio-economic
-                        projects, and provides other benefits, such as death and
-                        maternity benefits. The SAP is administered by the
-                        Department of Labor and Employment (DOLE) and is
-                        financed through the collection of a levy imposed on
-                        sugar produced. Since 2002, the amount of the levy has
-                        been set at approximately $0.15 per 50 kg. bag of sugar.
-                        Working closely with DOLE, the Sugar Industry Foundation
-                        Inc. is one of the entities charged with delivery of
-                        social, educational, and health programs for sugar
-                        workers and their families.
+                        Philippines implements the{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.bwsc.dole.gov.ph/programs-and-projects-submenu1/30-programs-projects/social-amelioration-program-in-the-sugar-industry.html"
+                        >
+                            Social Amelioration Program (SAP)
+                        </a>
+                        , which distributes cash bonuses to sugar workers to
+                        augment their income, finances socio-economic projects,
+                        and provides other benefits, such as death and maternity
+                        benefits. The SAP is administered by the Department of
+                        Labor and Employment (DOLE) and is financed through the
+                        collection of a levy imposed on sugar produced. Since
+                        2002, the amount of the levy has been set at
+                        approximately $0.15 per 50 kg. bag of sugar. Working
+                        closely with DOLE, the Sugar Industry Foundation Inc. is
+                        one of the entities charged with delivery of social,
+                        educational, and health programs for sugar workers and
+                        their families.
                         <br />
                         <br />
                     </li>
@@ -381,8 +388,10 @@ const en = () => {
                         >
                             Tom Lantos Block Burmese JADE Act of 2008
                         </a>
-                        , which bans the importation of all Burmese rubies and
-                        jade into the U.S.
+                        , which banned the importation of all Burmese rubies and
+                        jade into the U.S. The ban was removed in 2016 when all
+                        U.S. trade sanctions against Burma were lifted by
+                        Executive Order.
                     </p>
                 </ExampleInAction>
                 <ul>
@@ -771,7 +780,7 @@ const en = () => {
                     <li>
                         Ethical Trading Initiative.{" "}
                         <em>Base Code Guidance: Living Wages; </em>available
-                        from http://s3-eu-west-
+                        from
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -889,10 +898,10 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/research/global-reports/weso/2015-changing-nature-of-jobs/WCMS_368626/lang--en/index.htm"
+                            href="http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_368626.pdf "
                             title="World Employment Social Outlook - The Changing Nature of Jobs."
                         >
-                            http://www.ilo.org/global/research/global-reports/weso/2015-changing-nature-of-jobs/WCMS_368626/lang--en/index.htm
+                            http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_368626.pdf
                         </a>
                         . Note that as of 2015 the World of Work Report has been
                         replaced by a new annual ILO flagship series, the World

@@ -221,22 +221,20 @@ const es = () => {
                         <ExampleInAction.Icon />
                         <strong>
                             Ejemplo en acci&oacute;n: Red mundial de empresas
-                            sobre trabajo forzoso y trata de seres humanos de la
-                            OIT
+                            sobre trabajo forzoso
                         </strong>
                     </h2>
                     <p>
                         En 2018 se lanzar&aacute; la Red mundial de empresas
-                        sobre trabajo forzoso y trata de seres humanos de la
-                        OIT, financiada inicialmente por el Departamento de
-                        Trabajo y Mars, Inc.*, que agrupar&aacute; a
-                        organizaciones patronales, empresas y dem&aacute;s
-                        interesados para que compartan informaci&oacute;n sobre
-                        c&oacute;mo las empresas de una gama de sectores
-                        realizan la debida diligencia y las evaluaciones de
-                        riesgo relativas al trabajo forzoso y la trata de seres
-                        humanos en sus operaciones comerciales. La Red
-                        permitir&aacute; que las empresas comparen su
+                        sobre trabajo forzoso, financiada inicialmente por el
+                        Departamento de Trabajo y Mars, Inc.*, que
+                        agrupar&aacute; a organizaciones patronales, empresas y
+                        dem&aacute;s interesados para que compartan
+                        informaci&oacute;n sobre c&oacute;mo las empresas de una
+                        gama de sectores realizan la debida diligencia y las
+                        evaluaciones de riesgo relativas al trabajo forzoso y la
+                        trata de seres humanos en sus operaciones comerciales.
+                        La Red permitir&aacute; que las empresas comparen su
                         desempe&ntilde;o y facilitar&aacute; el aprendizaje
                         entre hom&oacute;logos de cuestiones de trabajo forzoso,
                         entre otros, mediante el intercambio de

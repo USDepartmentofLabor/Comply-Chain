@@ -311,7 +311,7 @@ const en = () => {
                         rel="noopener noreferrer"
                         href="https://www.scsglobalservices.com/starbucks-cafe-practices"
                     >
-                        CAF&Eacute; Practices
+                        C.A.F.E Practices
                     </a>
                     , includes a requirement that all workers who are illiterate
                     be informed of their rights under the code verbally.

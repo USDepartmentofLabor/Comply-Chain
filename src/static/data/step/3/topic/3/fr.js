@@ -184,7 +184,7 @@ const fr = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
+                        href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_099625/lang--en/index.htm"
                         title="Combattre le travail forc&eacute;&nbsp;: Manuel pour les employeurs et le secteur priv&eacute;&nbsp;&ndash; Brochure 3"
                     >
                         <em>

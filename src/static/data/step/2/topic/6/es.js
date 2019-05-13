@@ -372,18 +372,24 @@ const es = () => {
                         casos, los gobiernos pueden colaborar activamente con
                         las industrias para tratar las causas fundamentales del
                         trabajo infantil y el trabajo forzoso. Por ejemplo, el
-                        gobierno de las Filipinas ejecuta un Programa de
-                        Mejoramiento Social (SAP), mediante el que distribuye
-                        bonificaciones en efectivo a los trabajadores de la
-                        ca&ntilde;a de az&uacute;car a fin de aumentar sus
-                        ingresos, financia proyectos socioecon&oacute;micos y
-                        brinda otras prestaciones, como por defunci&oacute;n o
-                        maternidad. El SAP est&aacute; administrado por el
-                        Departamento de Trabajo y Empleo (DOLE) y est&aacute;
-                        financiado con un gravamen que se impone al
-                        az&uacute;car producido. Desde 2002, este gravamen es de
-                        $0,15 por cada bolsa de az&uacute;car de 50 kilos. Sugar
-                        Industry Foundation Inc., en estrecha
+                        gobierno de las Filipinas ejecuta un{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.bwsc.dole.gov.ph/programs-and-projects-submenu1/30-programs-projects/social-amelioration-program-in-the-sugar-industry.html"
+                        >
+                            Programa de Mejoramiento Social (SAP)
+                        </a>
+                        , mediante el que distribuye bonificaciones en efectivo
+                        a los trabajadores de la ca&ntilde;a de az&uacute;car a
+                        fin de aumentar sus ingresos, financia proyectos
+                        socioecon&oacute;micos y brinda otras prestaciones, como
+                        por defunci&oacute;n o maternidad. El SAP est&aacute;
+                        administrado por el Departamento de Trabajo y Empleo
+                        (DOLE) y est&aacute; financiado con un gravamen que se
+                        impone al az&uacute;car producido. Desde 2002, este
+                        gravamen es de $0,15 por cada bolsa de az&uacute;car de
+                        50 kilos. Sugar Industry Foundation Inc., en estrecha
                         colaboraci&oacute;n con el DOLE, es una de las entidades
                         encargadas de brindar los programas sociales, educativos
                         y sanitarios a los trabajadores del az&uacute;car y sus
@@ -452,8 +458,11 @@ const es = () => {
                         >
                             Ley JADE birmana del bloque de Tom Lantos de 2008
                         </a>
-                        , por la que se proh&iacute;be la importaci&oacute;n de
-                        todos los rub&iacute;es y jades birmanos a los EE.UU.
+                        , cual prohibió la importación de todos los rubíes y
+                        jade birmanos a los EE. UU. La prohibición se eliminó en
+                        2016 cuando todas las sanciones comerciales de los EE.
+                        UU. contra Birmania fueron levantadas por Orden
+                        Ejecutiva.
                     </p>
                 </ExampleInAction>
                 <ul>
@@ -1042,10 +1051,10 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/research/global-reports/weso/2015-changing-nature-of-jobs/WCMS_368626/lang--en/index.htm"
+                            href="http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_368626.pdf "
                             title="<i>Perspectivas sociales y del empleo en el mundo 2015</i><i> - El empleo en plena mutaci&oacute;n.</i>"
                         >
-                            http://www.ilo.org/global/research/global-reports/weso/2015-changing-nature-of-jobs/WCMS_368626/lang--en/index.htm
+                            http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_368626.pdf
                         </a>
                         . Cabe mencionar que a partir de 2015, el informe{" "}
                         <i>World of Work</i> ha sido sustituido por una nueva

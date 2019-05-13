@@ -229,24 +229,24 @@ const fr = () => {
                         <strong>
                             Exemple d&apos;action&nbsp;: R&eacute;seau mondial
                             d&apos;entreprises de l&rsquo;OIT sur le travail
-                            forc&eacute; et la traite des &ecirc;tres humains
+                            forc&eacute;
                         </strong>
                     </h2>
                     <p>
                         Le R&eacute;seau mondial d&apos;entreprises de
-                        l&rsquo;OIT sur le travail forc&eacute; et la traite des
-                        &ecirc;tres humains, soutenu par un financement initial
-                        du d&eacute;partement du Travail et Mars, Inc.*, devrait
-                        &ecirc;tre lanc&eacute; en&nbsp;2018&nbsp;; il
-                        rassemblera des organisations d&rsquo;employeurs, des
-                        entreprises et d&rsquo;autres parties prenantes pour
-                        donner des occasions de partager des informations sur la
-                        mani&egrave;re dont les soci&eacute;t&eacute;s de toute
-                        une s&eacute;rie de secteurs exercent leur diligence
-                        raisonnable et effectuent des &eacute;valuations de
-                        risques en mati&egrave;re de travail forc&eacute; et de
-                        traite des &ecirc;tres humains dans leurs
-                        op&eacute;rations commerciales. Le R&eacute;seau mondial
+                        l&rsquo;OIT sur le travail forc&eacute;, soutenu par un
+                        financement initial du d&eacute;partement du Travail et
+                        Mars, Inc.*, devrait &ecirc;tre lanc&eacute;
+                        en&nbsp;2018&nbsp;; il rassemblera des organisations
+                        d&rsquo;employeurs, des entreprises et d&rsquo;autres
+                        parties prenantes pour donner des occasions de partager
+                        des informations sur la mani&egrave;re dont les
+                        soci&eacute;t&eacute;s de toute une s&eacute;rie de
+                        secteurs exercent leur diligence raisonnable et
+                        effectuent des &eacute;valuations de risques en
+                        mati&egrave;re de travail forc&eacute; et de traite des
+                        &ecirc;tres humains dans leurs op&eacute;rations
+                        commerciales. Le R&eacute;seau mondial
                         d&rsquo;entreprises fournira aux soci&eacute;t&eacute;s
                         des occasions de r&eacute;f&eacute;rencer leurs
                         r&eacute;sultats et de faciliter l&rsquo;apprentissage

@@ -450,18 +450,25 @@ const fr = () => {
                         s&rsquo;attaquent activement aux c&ocirc;t&eacute;s des
                         secteurs aux causes fondamentales du travail des enfants
                         et du travail forc&eacute;. Par exemple, le gouvernement
-                        des Philippines met en &oelig;uvre le Programme
-                        d&rsquo;am&eacute;lioration sociale (SAP), qui distribue
-                        des primes en liquide aux travailleurs de
-                        l&rsquo;industrie sucri&egrave;re pour augmenter leurs
-                        revenus, finance des projets socio&eacute;conomiques et
-                        fournit d&rsquo;autres avantages, notamment en
-                        mati&egrave;re de d&eacute;c&egrave;s et de
-                        maternit&eacute;. Ce programme est administr&eacute; par
-                        le d&eacute;partement du Travail et de l&rsquo;Emploi et
-                        financ&eacute; par une taxe sur la production
-                        sucri&egrave;re. Depuis&nbsp;2002, le montant de cette
-                        taxe est fix&eacute; &agrave; environ 0,15&nbsp;dollar
+                        des Philippines met en &oelig;uvre le{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.bwsc.dole.gov.ph/programs-and-projects-submenu1/30-programs-projects/social-amelioration-program-in-the-sugar-industry.html"
+                        >
+                            Programme d&rsquo;am&eacute;lioration sociale (SAP)
+                        </a>
+                        , qui distribue des primes en liquide aux travailleurs
+                        de l&rsquo;industrie sucri&egrave;re pour augmenter
+                        leurs revenus, finance des projets
+                        socio&eacute;conomiques et fournit d&rsquo;autres
+                        avantages, notamment en mati&egrave;re de
+                        d&eacute;c&egrave;s et de maternit&eacute;. Ce programme
+                        est administr&eacute; par le d&eacute;partement du
+                        Travail et de l&rsquo;Emploi et financ&eacute; par une
+                        taxe sur la production sucri&egrave;re.
+                        Depuis&nbsp;2002, le montant de cette taxe est
+                        fix&eacute; &agrave; environ 0,15&nbsp;dollar
                         &Eacute;.-U. par sac de 50&nbsp;kg de sucre. La Sugar
                         Industry Foundation, Inc., qui travaille en
                         &eacute;troite collaboration avec le d&eacute;partement
@@ -538,8 +545,11 @@ const fr = () => {
                         >
                             loi Tom Lantos Block Burmese JADE de 2008
                         </a>
-                        , interdisant l&apos;importation aux &Eacute;tats-Unis
-                        des rubis et du jade en provenance de Birmanie.
+                        , qui a interdit l'importation de tous les rubis et
+                        jades birmans aux États-Unis. L'interdiction a été levée
+                        en 2016 lorsque toutes les sanctions commerciales prises
+                        par les États-Unis contre la Birmanie ont été levées par
+                        décret présidentiel.
                     </p>
                 </ExampleInAction>
                 <ul>

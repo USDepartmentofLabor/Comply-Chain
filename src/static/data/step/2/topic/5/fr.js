@@ -492,7 +492,7 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.nmfs.noaa.gov/ia/iuu/noaa_taskforce_report_final.pdf"
+                            href="https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf"
                             title="Plan d&rsquo;action pour la mise en &oelig;uvre des recommandations du groupe de travail"
                         >
                             Plan d&rsquo;action pour la mise en &oelig;uvre des
@@ -667,7 +667,7 @@ const fr = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.ilo.org/global/topics/fair-recruitment/WCMS_568730/lang--fr/index.htm"
+                        href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
                         title="Principes g&eacute;n&eacute;raux et directives op&eacute;rationnelles concernant le recrutement &eacute;quitable"
                     >
                         Principes g&eacute;n&eacute;raux et directives
@@ -748,7 +748,7 @@ const fr = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.verite.org/wp-content/uploads/2016/11/Verite_Report_for_PMI_on_Kazakhstan-2_May_2011.pdf"
+                        href="https://www.fairfactories.org/"
                         title="Fair Factories Clearinghouse"
                     >
                         Fair Factories Clearinghouse
@@ -924,7 +924,7 @@ const fr = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.ilo.org/public/english/dialogue/actemp/downloads/projects/child_guide3_en.pdf"
+                        href="https://www.ilo.org/asia/publications/WCMS_117866/lang--ja/index.htm"
                         title="Le r&ocirc;le des organisations d'employeurs dans la lutte contre le travail des enfants, Guide&nbsp;III"
                     >
                         <em>

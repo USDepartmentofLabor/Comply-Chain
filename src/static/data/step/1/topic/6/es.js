@@ -47,10 +47,10 @@ const es = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.fairtradeusa.org/"
-                        title="Fair Trade USA"
+                        href="https://www.fairtradecertified.org"
+                        title="Fair Trade Certified"
                     >
-                        Fair Trade USA
+                        Fair Trade Certified
                     </a>
                     .
                 </p>

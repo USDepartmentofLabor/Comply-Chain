@@ -202,27 +202,26 @@ const en = () => {
                         <ExampleInAction.Icon />
                         <strong>
                             Example in Action: ILO&rsquo;s Global Business
-                            Network on Forced Labor and Human Trafficking
+                            Network on Forced Labor
                         </strong>
                     </h2>
                     <p>
-                        The ILO&rsquo;s Global Business Network on Forced Labor
-                        and Human Trafficking, supported by initial funding from
-                        DOL and Mars, Inc.*, is set to launch in 2018 and will
-                        bring together employers&rsquo; organizations,
-                        businesses, and other stakeholders to provide
-                        opportunities to share information on how companies from
-                        a range of sectors conduct due diligence and risk
-                        assessments related to forced labor and human
-                        trafficking in their business operations. The Global
-                        Business Network will provide opportunities for
-                        companies to benchmark their performance and to
-                        facilitate peer learning on forced labor issues,
-                        including through the exchange of information on
-                        self-regulatory initiatives and best practices on
-                        managing complex supply chains. The Global Business
-                        Network will work in close collaboration with the Child
-                        Labor Platform to ensure the full support and
+                        The ILO&rsquo;s Global Business Network on Forced Labor,
+                        supported by initial funding from DOL and Mars, Inc.*,
+                        is set to launch in 2018 and will bring together
+                        employers&rsquo; organizations, businesses, and other
+                        stakeholders to provide opportunities to share
+                        information on how companies from a range of sectors
+                        conduct due diligence and risk assessments related to
+                        forced labor and human trafficking in their business
+                        operations. The Global Business Network will provide
+                        opportunities for companies to benchmark their
+                        performance and to facilitate peer learning on forced
+                        labor issues, including through the exchange of
+                        information on self-regulatory initiatives and best
+                        practices on managing complex supply chains. The Global
+                        Business Network will work in close collaboration with
+                        the Child Labor Platform to ensure the full support and
                         involvement of the business community towards the
                         achievement of the{" "}
                         <a

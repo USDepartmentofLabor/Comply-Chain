@@ -16,10 +16,10 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.forbes.com/sites/forbesleadershipforum/2012/03/05/is-the-organization-investigating-apples-factories-good-enough/"
+                            href="https://www.forbes.com/sites/forbesleadershipforum/2012/03/05/is-the-organization-investigating-apples-factories-good-enough/"
                             title="Is the Organization Investigating Apple's Factories Good Enough?"
                         >
-                            http://www.forbes.com/sites/forbesleadershipforum/2012/03/05/is-the-organization-investigating-apples-factories-good-enough/
+                            https://www.forbes.com/sites/forbesleadershipforum/2012/03/05/is-the-organization-investigating-apples-factories-good-enough/
                         </a>
                         .
                     </li>
@@ -35,10 +35,10 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.hks.harvard.edu/m-rcbg/CSRI/publications/workingpaper_29_casey.pdf"
+                            href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/workingpaper_29_casey.pdf"
                             title="Meaningful Change: Raising the Bar in Supply Chain Workplace Standards"
                         >
-                            http://www.hks.harvard.edu/m-rcbg/CSRI/publications/workingpaper_29_casey.pdf
+                            https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/workingpaper_29_casey.pdf
                         </a>
                         .
                     </li>

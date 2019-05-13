@@ -168,7 +168,7 @@ const es = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
+                        href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_099625/lang--en/index.htm"
                         title="<i>Lucha contra el trabajo forzoso - Manual para empleadores y empresas - Folleto 3</i>"
                     >
                         <em>
