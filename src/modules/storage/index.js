@@ -143,6 +143,18 @@ const retrieveBookmark = name => {
 };
 
 /**
+ * Checks to see if a page has any sub-pages that contain bookmarks.
+ * @param {string} name the partial name to search
+ */
+const containsBookmarks = name => {
+    const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
+    const index = bookmarks.findIndex(bookmark => bookmark.name.includes(name));
+    if (index === -1) {
+        return false;
+    }
+    return true;
+};
+/**
  * Retrieve all bookmarks.
  */
 const retrieveBookmarks = () => {
@@ -199,7 +211,8 @@ export const storage = {
         toggleBookmark,
         removeBookmark,
         retrieveBookmark,
-        retrieveBookmarks
+        retrieveBookmarks,
+        containsBookmarks
     },
     accordion: {
         setAccordionId,

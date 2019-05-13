@@ -4,6 +4,7 @@ import { withRouter } from "react-router-dom";
 import { webUrl } from "../../modules/config/constants";
 import { withLanguageContext } from "../Language";
 import { getPageTitle, getPageHtml } from "./ShareUtils";
+import styled from "styled-components";
 
 class ShareNative extends Component {
     displayActionSheet = () => {
@@ -121,7 +122,7 @@ class ShareNative extends Component {
     render() {
         const { id, className, children } = this.props;
         return (
-            <div
+            <ShareButton
                 id={id}
                 className={className}
                 children={children}
@@ -130,6 +131,11 @@ class ShareNative extends Component {
         );
     }
 }
+
+const ShareButton = styled.button`
+    border: none;
+    background: transparent;
+`;
 
 ShareNative.propTypes = {
     localizor: PropTypes.object.isRequired,

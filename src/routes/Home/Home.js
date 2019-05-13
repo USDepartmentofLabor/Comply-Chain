@@ -39,9 +39,9 @@ class Home extends Component {
                         </ItemContent>
                     </Item>
                     <StatusIcons>
-                        {storage.bookmarks.retrieveBookmark(`whydevelop`) && (
-                            <BookmarkIcon />
-                        )}
+                        {storage.bookmarks.retrieveBookmark(
+                            `info.whyDevelop.title`
+                        ) && <BookmarkIcon />}
                     </StatusIcons>
                 </IconContainer>
                 <IconContainer>
@@ -58,9 +58,9 @@ class Home extends Component {
                         </ItemContent>
                     </Item>
                     <StatusIcons>
-                        {storage.bookmarks.retrieveBookmark(`basics`) && (
-                            <BookmarkIcon />
-                        )}
+                        {storage.bookmarks.retrieveBookmark(
+                            `info.basics.title`
+                        ) && <BookmarkIcon />}
                     </StatusIcons>
                 </IconContainer>
 
@@ -90,8 +90,8 @@ class Home extends Component {
                                 </ItemContent>
                             </Item>
                             <StatusIcons>
-                                {storage.bookmarks.retrieveBookmark(
-                                    `steps.${i}.title`
+                                {storage.bookmarks.containsBookmarks(
+                                    `steps.${i}`
                                 ) && <BookmarkIcon />}
                                 {storage.steps.isStepComplete(i) && (
                                     <CheckIcon />
@@ -213,6 +213,9 @@ const Icon = styled.span`
 
 const IconContainer = styled.div`
     position: relative;
+    @media print {
+        page-break-inside: avoid;
+    }
 `;
 
 const StatusIcons = styled.div`
@@ -236,11 +239,10 @@ const ItemTitle = styled(Link)`
     text-decoration: none;
     font-weight: bold;
     font-family: ${theme.fonts.headings};
-    font-size: 30px;
+    font-size: 20px;
 `;
 
 const ItemContent = styled.div`
-    padding-bottom: 7px;
     padding-left: 20px;
     padding-right: 30px;
 `;
@@ -248,24 +250,15 @@ const ItemContent = styled.div`
 const Item = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    background-image: linear-gradient(
-            rgba(
-                ${props =>
-                    props.green
-                        ? theme.colors.greenRGB
-                        : theme.colors.primaryRGB},
-                0.75
-            ),
-            rgba(
-                ${props =>
-                    props.green
-                        ? theme.colors.greenRGB
-                        : theme.colors.primaryRGB},
-                0.75
-            )
-        ),
-        url(${props => props.image});
+    justify-content: center;
+    background-image: url(${props => props.image});
+
+    box-shadow: inset 0 0 0 2000px
+        rgba(
+            ${props =>
+                props.green ? theme.colors.greenRGB : theme.colors.primaryRGB},
+            0.75
+        );
     background-repeat: no-repeat;
     background-position: ${props =>
         `${props.imageMobilePosition.x}% ${props.imageMobilePosition.y}%`};

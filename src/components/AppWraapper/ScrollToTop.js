@@ -19,6 +19,14 @@ class ScrollToTop extends Component {
             // a compromise of saving every X amount of seconds was made
             setInterval(this.saveScrollPosition, 5000);
 
+            window.addEventListener("statusTap", () => {
+                // disable momentum scrolling and scroll to top and then reenable momentum scrolling.
+                const main = document.getElementById("main");
+                main.style["-webkit-overflow-scrolling"] = "auto";
+                this.scrollTo(0, 0);
+                main.style["-webkit-overflow-scrolling"] = "touch";
+            });
+
             if (lastPageUrl) {
                 const { history } = this.props;
                 this.setState({ loadingLastPage: true });

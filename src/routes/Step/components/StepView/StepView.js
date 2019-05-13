@@ -21,6 +21,10 @@ const StepNavButtonGroup = styled.div`
     }
 `;
 
+const StepHeader = styled.h1`
+    font-size: 20px;
+`;
+
 const HeaderIcon = styled.span`
     vertical-align: middle;
     padding-right: 10px;
@@ -160,12 +164,12 @@ class StepView extends Component {
                 url={location.pathname}
                 pdf={pdf}
             >
-                <h3>
+                <StepHeader>
                     <HeaderIcon>
                         <Icons.StepIcon step={step} />
                     </HeaderIcon>
                     {title}
-                </h3>
+                </StepHeader>
                 <AccordionView
                     id="step-accordions"
                     sections={sections}

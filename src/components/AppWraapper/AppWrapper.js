@@ -16,25 +16,25 @@ import ScrollToTop from "./ScrollToTop";
 import BottomDrawer from "../Menu/BottomDrawer/BottomDrawer";
 import { storage } from "../../modules/storage";
 import MobileScrollbar from "../MobileScrollbar";
+import { isBrowser } from "../../modules/utils/platform";
 
 const Main = styled.div`
     padding: 0 10px;
 `;
 
 const MainWrapper = styled.div`
-    position: absolute;
-    top: 0;
-    bottom: 0;
+    position: fixed;
     left: 0;
     right: 0;
-    margin-top: 5.2em;
-    margin-top: calc(5.2em + constant(safe-area-inset-top));
-    margin-top: calc(5.2em + env(safe-area-inset-top));
-    margin-bottom: 3.2em;
-    margin-bottom: calc(3.2em + constant(safe-area-inset-bottom));
-    margin-bottom: calc(3.2em + env(safe-area-inset-bottom));
+    top: 5.2em;
+    top: calc(5.2em + constant(safe-area-inset-top));
+    top: calc(5.2em + env(safe-area-inset-top));
+    bottom: 3.2em;
+    bottom: calc(3.2em + constant(safe-area-inset-bottom));
+    bottom: calc(3.2em + env(safe-area-inset-bottom));
     overflow-y: overlay;
     overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
 `;
 
 const Header = styled.div`
@@ -66,10 +66,28 @@ const Container = styled.div`
     max-width: 900px;
     width: 100%;
 `;
+
+const BottomNavButton = styled.button`
+    border: none;
+    background: transparent;
+`;
+
 class AppWrapper extends Component {
     constructor(props) {
         super(props);
-        this.state = { ...this.updateNavBarItems(), bottomDrawerActive: false };
+        this.state = {
+            ...this.updateNavBarItems(),
+            bottomDrawerActive: false,
+            sideNavVisible: false
+        };
+    }
+
+    componentWillMount() {
+        if (window.PointerEvent) {
+            document.addEventListener("pointerdown", this.closeDrawer, false);
+        } else {
+            document.addEventListener("mousedown", this.closeDrawer, false);
+        }
     }
 
     componentDidMount() {
@@ -84,6 +102,15 @@ class AppWrapper extends Component {
 
     componentWillUnmount() {
         storage.search.clearSearchData();
+        if (window.PointerEvent) {
+            document.removeEventListener(
+                "pointerdown",
+                this.closeDrawer,
+                false
+            );
+        } else {
+            document.removeEventListener("mousedown", this.closeDrawer, false);
+        }
     }
 
     updateNavBarItems = () => {
@@ -148,7 +175,7 @@ class AppWrapper extends Component {
                 },
                 {
                     props: {
-                        as: "span",
+                        as: BottomNavButton,
                         id: "about-link",
                         onClick: () => this.toggleBottomDrawer()
                     },
@@ -189,15 +216,33 @@ class AppWrapper extends Component {
         };
         return items;
     };
+
     toggleBottomDrawer = () => {
         this.setState({ bottomDrawerActive: !this.state.bottomDrawerActive });
     };
+
+    closeDrawer = e => {
+        if (!this.state.bottomDrawerActive) return;
+        const aboutBtn = document.getElementById("about-link");
+        const bottomDrawer = document.getElementById("bottom-drawer");
+        if (aboutBtn.contains(e.target) || bottomDrawer.contains(e.target)) {
+            return;
+        }
+        this.setState({ bottomDrawerActive: false });
+    };
+
+    handleSideNavToggle = visible => {
+        if (isBrowser()) return;
+        this.setState({ sideNavVisible: visible });
+    };
+
     render() {
         const {
             navBarLeftItems,
             bottomNavItems,
             bottomDrawerActive,
-            bottomDrawerItems
+            bottomDrawerItems,
+            sideNavVisible
         } = this.state;
         const { location } = this.props;
         return (
@@ -206,35 +251,42 @@ class AppWrapper extends Component {
                     <Header>
                         <NavbarWrapper>
                             <BrandStrip />
-                            <NavBar leftItems={navBarLeftItems} />
+                            <NavBar
+                                leftItems={navBarLeftItems}
+                                onSideNavToggle={this.handleSideNavToggle}
+                            />
                         </NavbarWrapper>
                     </Header>
-                    <MainWrapper id="main">
-                        {location.pathname !== Routes.Home.path && (
-                            <StepBarWrapper id="step_progess_bar">
-                                <StepProgressBar />
-                            </StepBarWrapper>
-                        )}
-                        <Main>
-                            <Container id="container">
-                                <Navigator />
-                            </Container>
-                        </Main>
-                    </MainWrapper>
-                    <Footer>
-                        <BottomDrawer
-                            id="bototm-drawer"
-                            active={bottomDrawerActive}
-                            items={bottomDrawerItems}
-                            onClose={() => {
-                                this.setState({ bottomDrawerActive: false });
-                            }}
-                        />
-                        <BottomNavBar
-                            id="bottom-nav-bar"
-                            items={bottomNavItems}
-                        />
-                    </Footer>
+                    <div aria-hidden={sideNavVisible}>
+                        <MainWrapper id="main">
+                            {location.pathname.includes("/steps") && (
+                                <StepBarWrapper id="step_progess_bar">
+                                    <StepProgressBar />
+                                </StepBarWrapper>
+                            )}
+                            <Main>
+                                <Container id="container">
+                                    <Navigator />
+                                </Container>
+                            </Main>
+                        </MainWrapper>
+                        <Footer>
+                            <BottomDrawer
+                                id="bottom-drawer"
+                                active={bottomDrawerActive}
+                                items={bottomDrawerItems}
+                                onClose={() => {
+                                    this.setState({
+                                        bottomDrawerActive: false
+                                    });
+                                }}
+                            />
+                            <BottomNavBar
+                                id="bottom-nav-bar"
+                                items={bottomNavItems}
+                            />
+                        </Footer>
+                    </div>
                 </ScrollToTop>
             </MobileScrollbar>
         );
