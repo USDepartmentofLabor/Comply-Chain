@@ -168,9 +168,10 @@ const en = ({ pdf }) => {
                             <p className="small-text">M. Crozet/ILO</p>
                             <p>
                                 Child labor spans nearly every sector and kind
-                                of work. Children harvest cotton in Uzbekistan,
-                                work as domestic servants in Haiti and mine
-                                diamonds in the Central African Republic.
+                                of work. Children harvest cotton in
+                                Turkmenistan, work as domestic servants in Haiti
+                                and mine diamonds in the Central African
+                                Republic.
                             </p>
                             <p>
                                 It is important to recognize that not all work
@@ -275,7 +276,8 @@ const en = ({ pdf }) => {
                                 <li>
                                     International Labor Organization, Children
                                     in hazardous work: What we know, what we
-                                    need to do Geneva, June 2011; available from{" "}
+                                    need to do, Geneva, June 2011; available
+                                    from{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -338,10 +340,10 @@ const en = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ituc-csi.org/IMG/pdf/guide_CL_EN_Final.pdf"
+                                        href="https://www.ituc-csi.org/mini-action-guide-child-labour"
                                         title="Mini Action Guide on Child Labour"
                                     >
-                                        http://www.ituc-csi.org/IMG/pdf/guide_CL_EN_Final.pdf
+                                        https://www.ituc-csi.org/mini-action-guide-child-labour
                                     </a>
                                     .
                                 </li>
@@ -352,15 +354,14 @@ const en = ({ pdf }) => {
                                         of Labor Statisticians Report III: Child
                                         labour statistics.
                                     </em>{" "}
-                                    Geneva, December 5, 2008. ICLS/18/2008/III.
-                                    Available at{" "}
+                                    Geneva, December 5, 2008. Available at{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099577.pdf"
+                                        href="https://www.ilo.org/global/statistics-and-databases/meetings-and-events/international-conference-of-labour-statisticians/WCMS_099577/lang--en/index.htm"
                                         title="18<sup>th</sup> International Conference of Labor Statisticians Report III: Child labour statistics."
                                     >
-                                        http://www.ilo.org/global/statistics-and-databases/meetings-and-events/international-conference-of-labour-statisticians/WCMS_099577/lang--en/index.htm
+                                        https://www.ilo.org/global/statistics-and-databases/meetings-and-events/international-conference-of-labour-statisticians/WCMS_099577/lang--en/index.htm
                                     </a>
                                 </li>
                                 <li>
@@ -670,10 +671,10 @@ const en = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_106268/lang--en/index.htm"
+                                        href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_106268/lang--en/index.htm"
                                         title="The cost of coercion: Global Report under the follow-up to the ILO Declaration on Fundamental Principles and Rights at Work"
                                     >
-                                        http://www.ilo.org/global/topics/forced-labour/publications/WCMS_106268/lang--en/index.htm
+                                        https://www.ilo.org/global/topics/forced-labour/publications/WCMS_106268/lang--en/index.htm
                                     </a>
                                     .
                                 </li>
@@ -734,10 +735,10 @@ const en = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--en/index.htm."
+                                        href="https://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--en/index.htm."
                                         title="Profits and Poverty: The Economics of Forced Labor"
                                     >
-                                        http://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--en/index.htm
+                                        https://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--en/index.htm
                                     </a>
                                 </li>
                                 <li>
@@ -747,10 +748,10 @@ const en = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ilo.org/dyn/normlex/en/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174672,en:NO"
+                                        href="https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029"
                                         title="International Labor Organization Protocol of 2014 to the Forced Labour Convention"
                                     >
-                                        http://www.ilo.org/dyn/normlex/en/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174672,en:NO
+                                        https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029
                                     </a>
                                 </li>
                                 <li>

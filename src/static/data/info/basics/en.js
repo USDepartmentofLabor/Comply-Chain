@@ -374,13 +374,13 @@ const en = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.eiccoalition.org/"
-                                        title="Electronics Industry Citizenship Coalition (EICC)"
+                                        href="http://www.responsiblebusiness.org/"
+                                        title="Responsible Business Alliance (RBA)"
                                     >
-                                        Electronics Industry Citizenship
-                                        Coalition (EICC)
+                                        Responsible Business Alliance
                                     </a>{" "}
-                                    commit to a common{" "}
+                                    (formerly Electronics Industry Citizenship
+                                    Coalition) commit to a common{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -823,11 +823,12 @@ const en = ({ pdf }) => {
                                 <ExampleInAction id="eicc">
                                     <h4>
                                         <ExampleInAction.Icon />
-                                        <strong>Example in Action</strong>{" "}
                                         <strong>
+                                            Example in Action Responsible
+                                            Business Alliance (RBA) (formerly
                                             Electronics Industry Citizenship
-                                            Coalition (EICC) Code of Conduct
-                                            &ndash; Management Systems
+                                            Coalition) (EICC) Code of Conduct –
+                                            Management Systems
                                         </strong>
                                     </h4>
                                     <p>
@@ -835,12 +836,12 @@ const en = ({ pdf }) => {
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            href="http://www.eiccoalition.org/standards/code-of-conduct/"
-                                            title="EICC Code of Conduct v. 5.1 (2016"
+                                            href="http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_English.pdf"
+                                            title="RBA Code of Conduct v. 6.0 (2018)"
                                         >
                                             <em>
-                                                EICC Code of Conduct v. 5.1
-                                                (2016)
+                                                Responsible Business Alliance
+                                                Code of Conduct v. 6.0 (2018)
                                             </em>
                                         </a>
                                     </p>

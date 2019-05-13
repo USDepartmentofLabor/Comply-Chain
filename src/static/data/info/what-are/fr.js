@@ -213,13 +213,11 @@ const fr = ({ pdf }) => {
                             />
                             <p className="small-text">M. Crozet/OIT</p>
                             <p>
-                                Le travail des enfants recouvre la
-                                quasi-totalit&eacute; des secteurs et des types
-                                de travaux. Des enfants participent &agrave; la
-                                r&eacute;colte du coton en Ouzb&eacute;kistan,
-                                et travaillent comme domestiques en Ha&iuml;ti
-                                et dans des mines de diamants en
-                                R&eacute;publique centrafricaine.
+                                Le travail des enfants concerne presque tous les
+                                secteurs et types de travail. Des enfants
+                                récoltent du coton au Turkménistan, travaillent
+                                comme domestiques en Haïti et extraient des
+                                diamants en République centrafricaine.
                             </p>
                             <p>
                                 Il est important de reconna&icirc;tre que toutes
@@ -436,10 +434,10 @@ const fr = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ituc-csi.org/IMG/pdf/mini_guide_CL_final_FR.pdf"
+                                        href="https://www.ituc-csi.org/mini-guide-d-action-travail-des"
                                         title="Miniguide d'action : Travail des enfants"
                                     >
-                                        http://www.ituc-csi.org/IMG/pdf/mini_guide_CL_final_FR.pdf
+                                        https://www.ituc-csi.org/mini-guide-d-action-travail-des
                                     </a>
                                     .
                                 </li>
@@ -454,7 +452,7 @@ const fr = ({ pdf }) => {
                                         Statistiques sur le travail des enfants.
                                     </em>{" "}
                                     Gen&egrave;ve, 5&nbsp;d&eacute;cembre 2008.
-                                    ICLS/18/2008/III. Disponible sur{" "}
+                                    Disponible sur{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -864,10 +862,10 @@ const fr = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_106270/lang--fr/index.htm"
+                                        href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_106270/lang--fr/index.htm"
                                         title="Le co&ucirc;t de la coercition&nbsp;: Rapport global en vertu du suivi de la D&eacute;claration de l'OIT relative aux principes et droits fondamentaux au travail"
                                     >
-                                        http://www.ilo.org/global/topics/forced-labour/publications/WCMS_106270/lang--fr/index.htm
+                                        https://www.ilo.org/global/topics/forced-labour/publications/WCMS_106270/lang--fr/index.htm
                                     </a>
                                     .
                                 </li>
@@ -933,10 +931,10 @@ const fr = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--fr/index.htm"
+                                        href="https://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--fr/index.htm"
                                         title="Profits et pauvret&eacute;&nbsp;: L&rsquo;&eacute;conomie du travail forc&eacute;"
                                     >
-                                        http://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--fr/index.htm
+                                        https://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--fr/index.htm
                                     </a>
                                     .
                                 </li>
@@ -948,10 +946,10 @@ const fr = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ilo.org/dyn/normlex/fr/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174672,fr:NO"
+                                        href="https://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029"
                                         title="Protocole 2014 de l'Organisation internationale du Travail relatif &agrave; la convention sur le travail forc&eacute;"
                                     >
-                                        http://www.ilo.org/dyn/normlex/fr/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174672,fr:NO
+                                        https://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029
                                     </a>
                                     .
                                 </li>

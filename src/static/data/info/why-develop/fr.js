@@ -42,16 +42,31 @@ const fr = ({ pdf }) => {
                     juridiques. Des lois ont &eacute;t&eacute; adopt&eacute;es
                     aux &Eacute;tats-Unis, notamment la loi Dodd-Frank sur la
                     r&eacute;forme de Wall Street et la protection du
-                    consommateur (Dodd-Frank Wall Street Reform and Consumer
-                    Protection Act&nbsp;&ndash; 2010) et la loi de Californie
-                    sur la transparence des cha&icirc;nes
-                    d&rsquo;approvisionnement (California Transparency in Supply
-                    Chains Act&nbsp;&ndash; 2010) et promulgu&eacute;es au
-                    d&eacute;but des ann&eacute;es&nbsp;2010 pour
-                    r&eacute;pondre aux pr&eacute;occupations concernant les
-                    droits de la personne. Elles imposent &agrave; certaines
-                    entreprises l&rsquo;obligation de communiquer des
-                    informations relatives &agrave; leurs cha&icirc;nes
+                    consommateur (
+                    <a
+                        href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Dodd-Frank Wall Street Reform and Consumer Protection
+                        Act&nbsp;&ndash; 2010
+                    </a>
+                    ) et la loi de Californie sur la transparence des
+                    cha&icirc;nes d&rsquo;approvisionnement (
+                    <a
+                        href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        California Transparency in Supply Chains
+                        Act&nbsp;&ndash; 2010
+                    </a>
+                    ) et promulgu&eacute;es au d&eacute;but des
+                    ann&eacute;es&nbsp;2010 pour r&eacute;pondre aux
+                    pr&eacute;occupations concernant les droits de la personne.
+                    Elles imposent &agrave; certaines entreprises
+                    l&rsquo;obligation de communiquer des informations relatives
+                    &agrave; leurs cha&icirc;nes
                     d&apos;approvisionnement.&nbsp;D&rsquo;autres lois et
                     r&eacute;glementations ont &eacute;t&eacute; adopt&eacute;es
                     et promulgu&eacute;es depuis, tant aux &Eacute;tats-Unis que
@@ -426,8 +441,16 @@ const fr = ({ pdf }) => {
                                         href="http://www.labourexploitation.org/"
                                     >
                                         Focus on Labour Exploitation
-                                    </a>{" "}
-                                    et{" "}
+                                    </a>
+                                    ,{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.tuc.org.uk/"
+                                    >
+                                        Congrès des syndicats
+                                    </a>
+                                    , et{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"

@@ -329,12 +329,12 @@ const es = ({ pdf }) => {
                                 todos los participantes en este proceso.
                             </p>
                             <p>
-                                La primera edici&oacute;n en l&iacute;nea de la
-                                aplicaci&oacute;n se public&oacute; en diciembre
-                                de 2012. En 2017, ILAB la adapt&oacute; y la
-                                convirti&oacute; en una aplicaci&oacute;n de
-                                celular que se lanz&oacute; en septiembre de
-                                2017.
+                                La primera edición en línea de la aplicación se
+                                publicó en diciembre de 2012. En septiembre de
+                                2017, ILAB lanzó la primera versión de la
+                                aplicación móvil y actualizó la aplicación en
+                                septiembre de 2018, incluso en francés y
+                                español.
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>

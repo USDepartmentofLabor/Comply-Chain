@@ -485,13 +485,13 @@ const fr = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.eiccoalition.org/"
-                                        title="Coalition pour la citoyennet&eacute; de l'industrie &eacute;lectronique&nbsp;(EICC)"
+                                        href="http://www.responsiblebusiness.org/"
+                                        title="Responsible Business Alliance (RBA)"
                                     >
-                                        Coalition pour la citoyennet&eacute; de
-                                        l&apos;industrie
-                                        &eacute;lectronique&nbsp;(EICC)
-                                    </a>{" "}
+                                        Responsible Business Alliance (RBA)
+                                    </a>
+                                    , anciennement appelée Electronic Industry
+                                    Citizenship Coalition (EICC)
                                     s&rsquo;engagent vis-&agrave;-vis d&rsquo;un{" "}
                                     <a
                                         target="_blank"
@@ -1098,11 +1098,11 @@ const fr = ({ pdf }) => {
                                             Exemple d&rsquo;action
                                         </strong>{" "}
                                         <strong>
-                                            Code de conduite de la Coalition
-                                            pour la citoyennet&eacute; de
-                                            l&apos;industrie
-                                            &eacute;lectronique&nbsp;(EICC)&nbsp;&ndash;
-                                            Syst&egrave;mes de gestion
+                                            la Responsible Business Alliance
+                                            (RBA) (anciennement appelée
+                                            Electronic Industry Citizenship
+                                            Coalition) (EICC) Code de Conduite -
+                                            Systèmes de Gestion
                                         </strong>
                                     </h4>
                                     <p>
@@ -1110,12 +1110,15 @@ const fr = ({ pdf }) => {
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            href="http://www.eiccoalition.org/standards/code-of-conduct/"
-                                            title="Code de conduite de l&rsquo;EICC v. 5.1 (2016)"
+                                            href="http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_French.pdf"
+                                            title="Code de Conduite de
+                                                la Responsible Business Alliance
+                                                v. 6.0 (2018)"
                                         >
                                             <em>
-                                                Code de conduite de l&rsquo;EICC
-                                                v. 5.1 (2016)
+                                                Extrait du Code de Conduite de
+                                                la Responsible Business Alliance
+                                                v. 6.0 (2018)
                                             </em>
                                         </a>
                                     </p>

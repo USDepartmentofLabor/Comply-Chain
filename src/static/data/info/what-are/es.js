@@ -192,12 +192,11 @@ const es = ({ pdf }) => {
                             />
                             <p className="small-text">M. Crozet/OIT</p>
                             <p>
-                                El trabajo infantil abarca pr&aacute;cticamente
-                                a todos los sectores y tipos de trabajo. Los
-                                ni&ntilde;os cosechan algod&oacute;n en
-                                Uzbekist&aacute;n, trabajan como sirvientes
-                                dom&eacute;sticos en Hait&iacute; y extraen
-                                diamantes en la Rep&uacute;blica Centroafricana.
+                                El trabajo infantil abarca casi todos los
+                                sectores y tipos de trabajo. Los niños cosechan
+                                algodón en Turkmenistán, trabajan como
+                                sirvientes domésticos en Haití y extraen
+                                diamantes en la República Centroafricana.
                             </p>
                             <p>
                                 Cabe mencionar que no en todos los trabajos que
@@ -405,10 +404,10 @@ const es = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ituc-csi.org/IMG/pdf/mini_guide_CL_final_ES.pdf"
+                                        href="https://www.ituc-csi.org/mini-guia-de-accion-trabajo,2203"
                                         title="Mini gu&iacute;a de acci&oacute;n para los sindicatos: : trabajo infantil"
                                     >
-                                        http://www.ituc-csi.org/IMG/pdf/mini_guide_CL_final_ES.pdf
+                                        https://www.ituc-csi.org/mini-guia-de-accion-trabajo,2203
                                     </a>
                                     .
                                 </li>
@@ -421,14 +420,14 @@ const es = ({ pdf }) => {
                                         trabajo infantil
                                     </em>
                                     . Ginebra, 5 de diciembre de 2008.
-                                    ICLS/18/2008/III. Disponible en{" "}
+                                    Disponible en{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099977.pdf"
+                                        href="https://www.ilo.org/global/statistics-and-databases/meetings-and-events/international-conference-of-labour-statisticians/WCMS_099577/lang--es/index.htm"
                                         title="18a Conferencia Internacional de Estad&iacute;sticos del Trabajo - Informe III: Estad&iacute;sticas sobre trabajo infantil"
                                     >
-                                        https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099977.pdf
+                                        https://www.ilo.org/global/statistics-and-databases/meetings-and-events/international-conference-of-labour-statisticians/WCMS_099577/lang--es/index.htm
                                     </a>
                                     .
                                 </li>
@@ -850,10 +849,10 @@ const es = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
+                                        href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
                                         title="<i>Lucha contra el trabajo forzoso -</i><i> </i><i>Manual para empleadores y empresas</i>"
                                     >
-                                        http://www.ilo.org/global/topics/forced-labour/publications/WCMS_105883/lang--es/index.htm
+                                        https://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm
                                     </a>
                                     .
                                 </li>
@@ -871,10 +870,10 @@ const es = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--es/index.htm"
+                                        href="https://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--es/index.htm"
                                         title="<i>Ganancias y Pobreza:</i><i> </i><i>Aspectos econ&oacute;micos del trabajo forzoso</i>"
                                     >
-                                        http://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--es/index.htm
+                                        https://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--es/index.htm
                                     </a>
                                     .
                                 </li>
@@ -886,10 +885,10 @@ const es = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ilo.org/dyn/normlex/es/f?p=NORMLEXPUB:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174672,es"
+                                        href="https://www.ilo.org/dyn/normlex/es/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029"
                                         title="Protocolo de la Organizaci&oacute;n Internacional del Trabajo de 2014 relativo al Convenio sobre el trabajo forzoso"
                                     >
-                                        http://www.ilo.org/dyn/normlex/es/f?p=NORMLEXPUB:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174672,es
+                                        https://www.ilo.org/dyn/normlex/es/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029
                                     </a>
                                     .
                                 </li>

@@ -37,12 +37,27 @@ const es = ({ pdf }) => {
                     est&aacute;n convirtiendo en instrumentos cada vez
                     m&aacute;s importantes para cumplir los requisitos legales.
                     La legislaci&oacute;n en los Estados Unidos, especialmente
-                    la Ley Dodd-Frank de reforma de Wall Street y
-                    protecci&oacute;n del consumidor (2010) y la Ley de
-                    California sobre transparencia en las cadenas de suministro
-                    (2010), se promulgaron a comienzos de la d&eacute;cada de
-                    2010 en respuesta a las inquietudes en torno a los derechos
-                    humanos y exige a ciertas empresas hacer p&uacute;blica la
+                    la Ley{" "}
+                    <a
+                        href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Dodd-Frank de reforma de Wall Street y protecci&oacute;n
+                        del consumidor (2010)
+                    </a>{" "}
+                    y la Ley de{" "}
+                    <a
+                        href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        California sobre transparencia en las cadenas de
+                        suministro (2010)
+                    </a>
+                    , se promulgaron a comienzos de la d&eacute;cada de 2010 en
+                    respuesta a las inquietudes en torno a los derechos humanos
+                    y exige a ciertas empresas hacer p&uacute;blica la
                     informaci&oacute;n sobre sus cadenas de
                     suministro.&nbsp;Desde entonces, tanto en los Estados Unidos
                     como en otros pa&iacute;ses, se aprobaron m&aacute;s leyes y
@@ -362,8 +377,16 @@ const es = ({ pdf }) => {
                                         href="http://www.labourexploitation.org/"
                                     >
                                         Focus on Labour Exploitation
-                                    </a>{" "}
-                                    y{" "}
+                                    </a>
+                                    ,{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.tuc.org.uk/"
+                                    >
+                                        Trade Unions Congress
+                                    </a>
+                                    , y{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
