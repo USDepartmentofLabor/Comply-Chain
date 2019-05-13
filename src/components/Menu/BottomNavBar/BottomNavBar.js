@@ -19,7 +19,7 @@ const Wrapper = styled.nav`
 `;
 
 const NavItem = styled.div`
-    padding: 8px 12px;
+    padding: 8px 0;
     min-width: 56px;
     max-width: 144px;
     flex: 1 1 auto;

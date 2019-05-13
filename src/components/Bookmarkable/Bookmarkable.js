@@ -1,6 +1,30 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { storage } from "../../modules/storage";
+import styled from "styled-components";
+import Icons from "../Icons";
+import { theme } from "../../modules/config/theme";
+
+const Wrapper = styled.div`
+    position: relative;
+`;
+
+const BookmarkButton = styled.button`
+    border: none;
+    cursor: pointer;
+    float: right;
+    background: transparent;
+
+    &:hover {
+        border: none;
+        background: transparent;
+    }
+`;
+
+const BookmarkIcon = styled(Icons.BookmarkCheck)`
+    font-size: 2em;
+    color: ${props => props.color};
+`;
 
 class Bookmarkable extends Component {
     constructor(props) {
@@ -40,12 +64,21 @@ class Bookmarkable extends Component {
             return children;
         }
         return (
-            <div>
-                <button onClick={this.handleBookmark}>
-                    {bookmarked ? "Unbookmark" : "Bookmark"}
-                </button>
+            <Wrapper>
+                <BookmarkButton
+                    title={bookmarked ? "Unbookmark page" : "Bookmark page"}
+                    onClick={this.handleBookmark}
+                >
+                    <BookmarkIcon
+                        color={
+                            bookmarked
+                                ? theme.colors.primary
+                                : theme.colors.base
+                        }
+                    />
+                </BookmarkButton>
                 {children}
-            </div>
+            </Wrapper>
         );
     }
 }

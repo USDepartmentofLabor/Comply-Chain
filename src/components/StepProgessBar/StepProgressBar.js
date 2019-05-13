@@ -16,11 +16,11 @@ const StepProgress = styled.div`
     height: 20px;
     font-size: 12px;
     background-color: ${props => {
-        if (props.viewing) {
-            return theme.colors.yellow;
-        }
         if (props.accomplished) {
             return theme.colors.green;
+        }
+        if (props.viewing) {
+            return theme.colors.yellow;
         }
         return theme.colors.gray;
     }};
@@ -80,6 +80,9 @@ class StepProgressBar extends Component {
                                         i
                                     )}
                                     viewing={currentStep === i}
+                                    aria-label={`${
+                                        localizor.strings.general.step
+                                    } ${i + 1}`}
                                 >
                                     {i + 1}
                                 </StepProgress>

@@ -33,6 +33,7 @@
     <plugin name="cordova-plugin-x-socialsharing" spec="^5.4.4">
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="24.1.1+" />
     </plugin>
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
     <icon height="120" platform="ios" src="res/icon/share/comply-chain-app-120.png" width="120" />
     <icon height="180" platform="ios" src="res/icon/share/comply-chain-app-180.png" width="180" />
     <icon height="144" platform="ios" src="res/icon/share/comply-chain-app-144.png" width="144" />

@@ -8,64 +8,10 @@ class BottomDrawer extends Component {
         active: this.props.active
     };
 
-    componentWillMount() {
-        if (window.PointerEvent) {
-            document.addEventListener("pointerdown", this.closeDrawer, false);
-        } else {
-            document.addEventListener("mousedown", this.closeDrawer, false);
-        }
-    }
-
-    componentDidMount() {
-        const main = document.getElementById("main");
-        if(main) {
-            if (window.PointerEvent) {
-                main.addEventListener("pointerdown", this.closeDrawer, false);
-            } else {
-                main.addEventListener("mousedown", this.closeDrawer, false);
-            }
-        }
-    }
-
-    componentDidUpdate(prevProps) {
-        if (prevProps.active !== this.props.active) {
-            this.setState({ active: this.props.active });
-        }
-    }
-
-    componentWillUnmount() {
-        const main = document.getElementById("main");
-        if (window.PointerEvent) {
-            if(main) {
-                main.removeEventListener("pointerdown", this.closeDrawer, false);
-            }
-            document.removeEventListener(
-                "pointerdown",
-                this.closeDrawer,
-                false
-            );
-        } else {
-            if(main) {
-                main.removeEventListener("mousedown", this.closeDrawer, false);
-            }
-            document.removeEventListener("mousedown", this.closeDrawer, false);
-        }
-    }
-
-    closeDrawer = e => {
-        if (this.node.contains(e.target)) {
-            return;
-        }
-        this.setState({ active: false });
-        if (this.props.onClose) {
-            this.props.onClose();
-        }
-    };
-
     render() {
-        const { active, items } = this.props;
+        const { active, items, id } = this.props;
         return (
-            <Wrapper ref={node => (this.node = node)} active={active}>
+            <Wrapper id={id} active={active}>
                 <Content>
                     {items.map((item, i) => {
                         return (
@@ -84,8 +30,9 @@ class BottomDrawer extends Component {
 }
 
 const Wrapper = styled.div`
-    background-color: ${theme.colors.white};
+    background-color: ${theme.colors.primary};
     height: ${props => (props.active ? "auto" : "0")};
+    display: ${props => (props.active ? "block" : "none")};
     max-height: 300px;
     width: 100%;
     position: fixed;
@@ -95,7 +42,7 @@ const Wrapper = styled.div`
     overflow-y: hidden;
     transition: 1.5s ease-out;
 
-    box-shadow: 0px -5px 3px rgba(${theme.colors.grayRGB}, 0.75);
+    box-shadow: 0px -5px 8px rgba(${theme.colors.grayDarkRGB}, 0.75);
 `;
 
 const Content = styled.div`
@@ -110,11 +57,10 @@ const Content = styled.div`
 `;
 
 const ContentItem = styled.span`
-    border-bottom: solid 1px ${theme.colors.gray};
+    border-bottom: solid 2px ${theme.colors.primaryDarker};
     padding: 10px 10px;
-    color: ${theme.colors.primaryDarker};
-    font-size: 1.25em;
-    font-family: ${theme.fonts.headings};
+    color: ${theme.colors.white};
+    font-size: 17px;
     font-weight: bold;
 `;
 

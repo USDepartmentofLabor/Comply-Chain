@@ -44,43 +44,13 @@ export const AppGlobalStyles = createGlobalStyle`
 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-    }
+    } 
+    
 
     a {
         text-decoration: none;
         color: #0071bc;
         word-wrap: break-word;
-    }
-
-    .blue-bullets {
-        list-style: none;
-    }
-    .blue-bullets > li::before {
-        content: "\\2022";
-        color: #0071bc;
-        display: inline-block;
-        font-weight: bold;
-        font-size: 1.5em;
-        padding-right: 7px;
-        margin-left: -1em;
-    }
-
-    .blue-numbers {
-        list-style: none;
-        counter-reset: li;
-    }
-    .blue-numbers > li {
-        counter-increment: li;
-    } 
-    .blue-numbers > li::before {
-        content: counter(li) ".";
-        color: #0071bc;
-        font-weight: bold;
-        width: 1em;
-        margin-left: -1em;
-        margin-right: 0.5em;
-        text-align: right;
-        direction: rtl;
     }
 
     code {
@@ -99,6 +69,10 @@ export const AppGlobalStyles = createGlobalStyle`
             height: auto;
             page-break-inside: avoid;
         }
+
+        * {
+            -webkit-print-color-adjust:exact;
+        }
     }
 
 
@@ -106,4 +80,5 @@ export const AppGlobalStyles = createGlobalStyle`
         width: 50%;
         height: auto;
     }
+
 `;

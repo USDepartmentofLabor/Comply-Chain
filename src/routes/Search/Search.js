@@ -370,15 +370,19 @@ class Search extends Component {
                     return (
                         <SearchResult key={`search_results_${i}`}>
                             {result.to && (
-                                <ResultTitle
-                                    to={this.createSearchQueryUrl(
-                                        result.to,
-                                        query
-                                    )}
-                                    target={isBrowser() ? "_blank" : "_self"}
-                                >
-                                    <h3>{result.title}</h3>
-                                </ResultTitle>
+                                <h3>
+                                    <ResultTitle
+                                        to={this.createSearchQueryUrl(
+                                            result.to,
+                                            query
+                                        )}
+                                        target={
+                                            isBrowser() ? "_blank" : "_self"
+                                        }
+                                    >
+                                        {result.title}
+                                    </ResultTitle>
+                                </h3>
                             )}
                             <p>
                                 <Snippet
@@ -394,6 +398,9 @@ class Search extends Component {
                             <SnippetLink
                                 to={this.createSearchQueryUrl(result.to, query)}
                                 target={isBrowser() ? "_blank" : "_self"}
+                                aria-label={`${
+                                    localizor.strings.general.continueReading
+                                } ${result.title}`}
                             >
                                 {localizor.strings.general.continueReading}.
                             </SnippetLink>

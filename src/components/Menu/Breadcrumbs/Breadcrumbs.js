@@ -4,9 +4,10 @@ import withBreadcrumbs from "react-router-breadcrumbs-hoc";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { breadcrumbs } from "../../../modules/config/breadcrumbs";
-import Icons from "../../Icons";
-import { theme } from "../../../modules/config/theme";
 import Routes from "../../../modules/config/routes";
+import { theme } from "../../../modules/config/theme";
+import { isIOS } from "../../../modules/utils/platform";
+import Icons from "../../Icons";
 
 const Breadcrumb = styled.span``;
 
@@ -62,6 +63,23 @@ class Breadcrumbs extends Component {
                         </Breadcrumb.Section>
                     );
                 }
+            } else if (
+                isIOS() &&
+                breadcrumb.props.location.search &&
+                breadcrumb.props.location.search.includes("search=")
+            ) {
+                return (
+                    <Breadcrumb.Section
+                        key="search_comply_chain"
+                        as={StyledLink}
+                        to={Routes.Search.path}
+                    >
+                        <Icon>
+                            <Icons.ArrowDropLeft />
+                        </Icon>
+                        Search Results
+                    </Breadcrumb.Section>
+                );
             } else {
                 return (
                     <span key={breadcrumb.key}>
