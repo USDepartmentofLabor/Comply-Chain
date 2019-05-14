@@ -21,7 +21,6 @@ import mexicoPeppers from "../../static/images/TVPRA_CL_Mexico_peppers.jpg";
 class Home extends Component {
     render() {
         const { localizor } = this.props;
-        console.log(girlNepal);
         return (
             <HomeWrapper>
                 <IconContainer>

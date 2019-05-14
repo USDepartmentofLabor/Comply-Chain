@@ -95,7 +95,6 @@ class ShareNative extends Component {
             /.\/static\/media\//g,
             `${window.cordova.file.applicationDirectory}www/static/media/`
         );
-        console.log(data);
         const options = {
             documentSize: "A4",
             type: "share",
