@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="10101" id="gov.dol.complychain" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="10101" id="gov.dol.complychain" version="1.0.0" 
+    xmlns="http://www.w3.org/ns/widgets" 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Comply Chain</name>
     <description>
         A DoL application describing about dealing with Child Labor and Forced Labor.
@@ -28,12 +31,6 @@
         <preference name="DisallowOverscroll" value="true" />
         <plugin name="cordova-plugin-wkwebview-engine" spec="git+https://github.com/apache/cordova-plugin-wkwebview-engine.git#81eeadeb542fefc05c4cd5e68ba0221e6a965c73"/>
     </platform>
-    <plugin name="cordova-plugin-device" spec="^2.0.2" />
-    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
-    <plugin name="cordova-plugin-x-socialsharing" spec="^5.4.4">
-        <variable name="ANDROID_SUPPORT_V4_VERSION" value="24.1.1+" />
-    </plugin>
-    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
     <icon height="120" platform="ios" src="res/icon/share/comply-chain-app-120.png" width="120" />
     <icon height="180" platform="ios" src="res/icon/share/comply-chain-app-180.png" width="180" />
     <icon height="144" platform="ios" src="res/icon/share/comply-chain-app-144.png" width="144" />
@@ -55,6 +52,13 @@
     <plugin name="cordova-clipboard" spec="^1.2.1" />
     <plugin name="cordova-plugin-x-toast" spec="^2.7.2" />
     <plugin name="cordova-pdf-generator" spec="^2.0.8" />
+    <plugin name="cordova-plugin-device" spec="^2.0.2" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^3.0.0" />
+    <plugin name="cordova-plugin-x-socialsharing" spec="^5.4.4">
+        <variable name="ANDROID_SUPPORT_V4_VERSION" value="24.1.1+" />
+    </plugin>
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <plugin name="cordova-plugin-file" spec="^6.0.1" />
     <engine name="android" spec="^8.0.0" />
     <engine name="ios" spec="^5.0.0" />
 </widget>

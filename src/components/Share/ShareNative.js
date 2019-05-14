@@ -91,7 +91,11 @@ class ShareNative extends Component {
     };
 
     generatePDF = location => {
-        const data = getPageHtml(location);
+        const data = getPageHtml(location).replace(
+            /.\/static\/media\//g,
+            `${window.cordova.file.applicationDirectory}www/static/media/`
+        );
+        console.log(data);
         const options = {
             documentSize: "A4",
             type: "share",
