@@ -45,10 +45,8 @@ if (window.cordova) {
     document.addEventListener(
         "deviceready",
         () => {
-            setTimeout(() => {
-                addInAppBrowser();
-                initApp(CordovaApp);
-            }, 1000);
+            addInAppBrowser();
+            initApp(CordovaApp);
         },
         false
     );

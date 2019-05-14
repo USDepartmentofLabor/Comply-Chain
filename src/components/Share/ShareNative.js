@@ -92,7 +92,7 @@ class ShareNative extends Component {
 
     generatePDF = location => {
         const data = getPageHtml(location).replace(
-            /.\/static\/media\//g,
+            /\.\/static\/media\//g,
             `${window.cordova.file.applicationDirectory}www/static/media/`
         );
         const options = {
