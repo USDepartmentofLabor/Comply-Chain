@@ -16,10 +16,11 @@ const SearchLabel = styled.label`
     & svg {
         content: "";
         position: absolute;
-        bottom: ${() => (isBrowser() ? "-24px" : "-29px")};
-        height: 20px;
-        font-size: 2em;
+        transform: translateY(40%);
         z-index: 5;
+        top: 90%;
+        left: 10px;
+        height: 20px;
     }
 `;
 
@@ -31,6 +32,7 @@ const SearchInput = styled.input`
     padding: 10px 30px;
     width: 100%;
     box-sizing: border-box;
+    appearance: none;
 `;
 
 const SearchResultsHeader = styled.h4`
