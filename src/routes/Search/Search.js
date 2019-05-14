@@ -20,7 +20,6 @@ const SearchLabel = styled.label`
         z-index: 5;
         top: 90%;
         left: 10px;
-        appearance: none;
         height: 20px;
     }
 `;
@@ -33,6 +32,7 @@ const SearchInput = styled.input`
     padding: 10px 30px;
     width: 100%;
     box-sizing: border-box;
+    appearance: none;
 `;
 
 const SearchResultsHeader = styled.h4`
