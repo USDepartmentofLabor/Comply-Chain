@@ -4,7 +4,7 @@ import ExampleInAction from "../../../../../../components/ExampleInAction/Exampl
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import hrm from "../../../../../images/hrm.jpg";
-import panos from "../../../../../images/panos.png";
+import panos from "../../../../../images/panos.jpg";
 
 const en = () => {
     return (
