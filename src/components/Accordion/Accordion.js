@@ -234,6 +234,7 @@ const PdfTitle = styled(Accordion.Title)`
     }
 `;
 const PdfPanel = styled(Accordion.Panel)`
+    display: block;
     max-height: 10000px;
 `;
 
