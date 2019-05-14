@@ -16,10 +16,12 @@ const SearchLabel = styled.label`
     & svg {
         content: "";
         position: absolute;
-        bottom: ${() => (isBrowser() ? "-24px" : "-29px")};
-        height: 20px;
-        font-size: 2em;
+        transform: translateY(40%);
         z-index: 5;
+        top: 90%;
+        left: 10px;
+        appearance: none;
+        height: 20px;
     }
 `;
 
