@@ -3,7 +3,7 @@ export const isIOS = () => {
         return false;
     }
 
-    if (window.device.platform === "iOS") {
+    if (window.cordova.platformId === "ios") {
         return true;
     }
 
@@ -15,7 +15,7 @@ export const isAndroid = () => {
         return false;
     }
 
-    if (window.device.platform === "Android") {
+    if (window.cordova.platformId === "android") {
         return true;
     }
 
