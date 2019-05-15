@@ -35,7 +35,8 @@ const SearchInput = styled.input`
     appearance: none;
 `;
 
-const SearchResultsHeader = styled.h4`
+const SearchResultsHeader = styled.h1`
+    font-size: 17px;
     color: ${theme.colors.base};
     margin-bottom: 10px;
     & .query {
@@ -47,6 +48,10 @@ const SearchResult = styled.div`
     border: 1px solid ${theme.colors.grayLight};
     margin-top: 1em;
     padding: 0 20px 20px;
+`;
+
+const ResultHeading = styled.h2`
+    font-size: 18px;
 `;
 
 const ResultTitle = styled(Link)`
@@ -373,7 +378,7 @@ class Search extends Component {
                     return (
                         <SearchResult key={`search_results_${i}`}>
                             {result.to && (
-                                <h3>
+                                <ResultHeading>
                                     <ResultTitle
                                         to={this.createSearchQueryUrl(
                                             result.to,
@@ -385,7 +390,7 @@ class Search extends Component {
                                     >
                                         {result.title}
                                     </ResultTitle>
-                                </h3>
+                                </ResultHeading>
                             )}
                             <p>
                                 <Snippet
