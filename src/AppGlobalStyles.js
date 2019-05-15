@@ -8,6 +8,8 @@ export const AppGlobalStyles = createGlobalStyle`
     h5 {
         font-family: "Merriweather", serif;
         font-weight: 700;
+        margin-top: 30px;
+        margin-bottom: -10px;
     }
 
     h1 {
@@ -32,6 +34,8 @@ export const AppGlobalStyles = createGlobalStyle`
         font-size: 13px;
 
         text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: -10px;
     }
 
     body {

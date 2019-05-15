@@ -17,8 +17,7 @@ const Wrapper = styled.div`
     h3,
     h4 {
         color: ${theme.colors.darkOrange};
-        margin: 0;
-        padding: 0;
+        margin-top: 0;
     }
 
     ol,
