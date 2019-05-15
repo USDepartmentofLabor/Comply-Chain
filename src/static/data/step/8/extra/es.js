@@ -8,8 +8,9 @@ const es = () => {
                 <br />
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />
+                        <OwnWords.Icon />{" "}
                         <strong>En sus propias palabras</strong>
+                        {": "}
                     </h2>
                     <p>
                         La responsabilidad de respetar los derechos humanos

@@ -292,8 +292,9 @@ const en = ({ pdf }) => {
                                 </p>
                                 <ExampleInAction id="better-work-garment">
                                     <h4>
-                                        <ExampleInAction.Icon />
-                                        <strong>Example in Action</strong>{" "}
+                                        <ExampleInAction.Icon />{" "}
+                                        <strong>Example in Action</strong>
+                                        {": "}
                                         <em>
                                             <strong>Better Work</strong>
                                         </em>{" "}
@@ -549,8 +550,9 @@ const en = ({ pdf }) => {
                                 </p>
                                 <OwnWords>
                                     <h4>
-                                        <OwnWords.Icon />
-                                        <strong>In Their Own Words</strong>{" "}
+                                        <OwnWords.Icon />{" "}
+                                        <strong>In Their Own Words</strong>
+                                        {": "}
                                         <strong>
                                             International Institution Guidance
                                             on Supply Chain Responsibility{" "}
@@ -822,9 +824,9 @@ const en = ({ pdf }) => {
                                 </p>
                                 <ExampleInAction id="eicc">
                                     <h4>
-                                        <ExampleInAction.Icon />
+                                        <ExampleInAction.Icon />{" "}
                                         <strong>
-                                            Example in Action Responsible
+                                            Example in Action: Responsible
                                             Business Alliance (RBA) (formerly
                                             Electronics Industry Citizenship
                                             Coalition) (EICC) Code of Conduct –

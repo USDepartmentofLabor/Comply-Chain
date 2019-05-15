@@ -877,7 +877,7 @@ const fr = () => {
                 </table>
                 <ExampleInAction id="better_work">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Exemple d&apos;action&nbsp;: Le processus de
                             r&eacute;paration{" "}

@@ -354,7 +354,7 @@ const es = ({ pdf }) => {
                                 </p>
                                 <ExampleInAction id="better-work-garment">
                                     <h4>
-                                        <ExampleInAction.Icon />
+                                        <ExampleInAction.Icon />{" "}
                                         <strong>
                                             Ejemplo en acci&oacute;n
                                         </strong>
@@ -656,9 +656,9 @@ const es = ({ pdf }) => {
                                 </p>
                                 <OwnWords>
                                     <h4>
-                                        <OwnWords.Icon />
+                                        <OwnWords.Icon />{" "}
                                         <strong>En sus propias palabras</strong>
-                                        ,{" "}
+                                        {": "}
                                         <strong>
                                             Directrices de una
                                             instituci&oacute;n internacional
@@ -980,7 +980,7 @@ const es = ({ pdf }) => {
                                 </p>
                                 <ExampleInAction id="eicc">
                                     <h4>
-                                        <ExampleInAction.Icon />
+                                        <ExampleInAction.Icon />{" "}
                                         <strong>
                                             Ejemplo en acci&oacute;n:
                                             Responsible Business Alliance (RBA)

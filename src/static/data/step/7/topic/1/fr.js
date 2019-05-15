@@ -83,7 +83,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="fla">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Exemple d&apos;action&nbsp;: Programme
                             d&apos;accr&eacute;ditation de v&eacute;rificateurs
@@ -140,7 +140,7 @@ const fr = () => {
                 </ExampleInAction>
                 <ExampleInAction id="bonsucro">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Exemple d&apos;action&nbsp;: Le mod&egrave;le
                             Bonsucro* d&rsquo;accr&eacute;ditation des
@@ -210,7 +210,7 @@ const fr = () => {
                 </ExampleInAction>
                 <ExampleInAction id="sai_model">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Exemple d&apos;action&nbsp;: Mod&egrave;le de Social
                             Accountability International

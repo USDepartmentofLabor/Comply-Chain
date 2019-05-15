@@ -89,7 +89,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="Conflict_Free">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>Ejemplo en acci&oacute;n</strong>: la iniciativa
                         Conflict-Free Sourcing
                     </h2>
@@ -195,7 +195,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="mica">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>Ejemplo en acci&oacute;n</strong>:
                         L&rsquo;Or&eacute;al y el abastecimiento responsable de
                         mica

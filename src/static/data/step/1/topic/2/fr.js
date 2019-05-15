@@ -102,8 +102,8 @@ const fr = () => {
                 </div>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />
-                        <strong>Dans leurs propres mots</strong>
+                        <OwnWords.Icon />{" "}
+                        <strong>Dans leurs propres mots</strong>&nbsp;{": "}
                     </h2>
                     <p>
                         « La participation des parties prenantes peut prendre de

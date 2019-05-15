@@ -273,8 +273,8 @@ const fr = () => {
                 </p>
                 <OwnWords>
                     <h3>
-                        <OwnWords.Icon />
-                        <strong>Dans leurs propres mots</strong>
+                        <OwnWords.Icon />{" "}
+                        <strong>Dans leurs propres mots</strong>&nbsp;{": "}
                     </h3>
                     <p>
                         <strong>Transition vers l&rsquo;emploi direct</strong>
@@ -403,7 +403,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="rst1">
                     <h3>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Exemple d&apos;action&nbsp;:{" "}
                             <span>

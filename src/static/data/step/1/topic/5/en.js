@@ -14,7 +14,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="sug_phil">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Example in Action: Eliminating Child Labor in
                             Tobacco-Growing (ECLT) Foundation
@@ -125,7 +125,7 @@ const en = () => {
                 </ExampleInAction>
                 <ExampleInAction id="clt">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>Example in Action: Child Labor Platform</strong>
                     </h2>
                     <p>
@@ -199,7 +199,7 @@ const en = () => {
                 </ExampleInAction>
                 <ExampleInAction id="gbn">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Example in Action: ILO&rsquo;s Global Business
                             Network on Forced Labor

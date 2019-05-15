@@ -169,7 +169,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="med_rep">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Exemple d&apos;action&nbsp;: L&rsquo;importance du
                             r&ocirc;le de la couverture m&eacute;diatique
@@ -408,7 +408,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="fish">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Exemple d&apos;action&nbsp;: P&ecirc;che et produits
                             de la mer
@@ -505,8 +505,8 @@ const fr = () => {
                 </ExampleInAction>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />
-                        <strong>Dans leurs propres mots</strong>
+                        <OwnWords.Icon />{" "}
+                        <strong>Dans leurs propres mots</strong>&nbsp;{": "}
                     </h2>
                     <p>
                         <strong>

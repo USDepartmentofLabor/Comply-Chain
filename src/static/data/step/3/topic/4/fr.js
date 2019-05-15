@@ -49,7 +49,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="patagonia">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         Exemple d&apos;action&nbsp;: Normes concernant les
                         travailleurs migrants de Patagonia*
                     </h2>
@@ -168,7 +168,7 @@ const fr = () => {
                 <p className="small-text">&copy;M. Crozet/OIT</p>
                 <ExampleInAction id="leadership">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Exemple d&apos;action&nbsp;: Groupe de leadership
                             pour le recrutement responsable

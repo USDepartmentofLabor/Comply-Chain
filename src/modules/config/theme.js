@@ -33,6 +33,7 @@ export const theme = {
         greenLight: "#4aa564",
         greenLighter: "#94bfa2",
         greenLightest: "#e7f4e4",
+        darkOrange: "#aa5703",
         focus: "#3e94cf",
         visited: "#4c2c92"
     },

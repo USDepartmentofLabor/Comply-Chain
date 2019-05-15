@@ -82,8 +82,8 @@ const en = () => {
                 </p>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />
-                        <strong>In Their Own Words</strong>
+                        <OwnWords.Icon /> <strong>In Their Own Words</strong>
+                        {": "}
                     </h2>
                     <p>
                         <strong>

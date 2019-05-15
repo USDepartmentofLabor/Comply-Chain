@@ -60,7 +60,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="fair_labor">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>Ejemplo en acci&oacute;n</strong>: proceso de
                         modificaci&oacute;n del c&oacute;digo de la Fair Labor
                         Association (FLA)

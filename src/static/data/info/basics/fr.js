@@ -377,10 +377,9 @@ const fr = ({ pdf }) => {
                                 </p>
                                 <ExampleInAction id="better-work-garment">
                                     <h4>
-                                        <ExampleInAction.Icon />
-                                        <strong>
-                                            Exemple d&apos;action
-                                        </strong>{" "}
+                                        <ExampleInAction.Icon />{" "}
+                                        <strong>Exemple d&apos;action</strong>
+                                        &nbsp;{": "}
                                         Le programme{" "}
                                         <em>
                                             <strong>Better Work </strong>
@@ -719,10 +718,9 @@ const fr = ({ pdf }) => {
                                 </p>
                                 <OwnWords>
                                     <h4>
-                                        <OwnWords.Icon />
-                                        <strong>
-                                            Dans leurs propres mots
-                                        </strong>{" "}
+                                        <OwnWords.Icon />{" "}
+                                        <strong>Dans leurs propres mots</strong>
+                                        &nbsp;{": "}
                                         <strong>
                                             Recommandation d&apos;une
                                             institution internationale sur la
@@ -1093,10 +1091,9 @@ const fr = ({ pdf }) => {
                                 </p>
                                 <ExampleInAction id="eicc">
                                     <h4>
-                                        <ExampleInAction.Icon />
-                                        <strong>
-                                            Exemple d&rsquo;action
-                                        </strong>{" "}
+                                        <ExampleInAction.Icon />{" "}
+                                        <strong>Exemple d&apos;action</strong>
+                                        &nbsp;{": "}
                                         <strong>
                                             la Responsible Business Alliance
                                             (RBA) (anciennement appelée

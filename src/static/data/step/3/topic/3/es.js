@@ -253,8 +253,9 @@ const es = () => {
                 </p>
                 <OwnWords>
                     <h3>
-                        <OwnWords.Icon />
+                        <OwnWords.Icon />{" "}
                         <strong>En sus propias palabras</strong>
+                        {": "}
                     </h3>
                     <p>
                         <strong>Transici&oacute;n al empleo directo</strong>
@@ -367,7 +368,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="rst1">
                     <h3>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Ejemplo en acci&oacute;n:{" "}
                             <span>

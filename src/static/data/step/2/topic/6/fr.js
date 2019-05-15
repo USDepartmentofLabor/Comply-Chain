@@ -495,7 +495,7 @@ const fr = () => {
                 </ul>
                 <ExampleInAction id="leber">
                     <h4>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>Exemple d&apos;action</strong>&nbsp;: Leber
                         Jeweler*&nbsp;: Le Jewelers&rsquo; Burma Relief Project
                     </h4>
@@ -588,8 +588,8 @@ const fr = () => {
                 </ul>
                 <OwnWords>
                     <h4>
-                        <OwnWords.Icon />
-                        <strong>Dans leurs propres mots</strong>
+                        <OwnWords.Icon />{" "}
+                        <strong>Dans leurs propres mots</strong>&nbsp;{": "}
                     </h4>
                     <p>
                         <em>
@@ -669,7 +669,7 @@ const fr = () => {
                 </ul>
                 <ExampleInAction id="Isidro">
                     <h4>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Exemple d&apos;action&nbsp;: Isidro Le&oacute;n-York
                         </strong>
@@ -769,7 +769,7 @@ const fr = () => {
                 </ul>
                 <ExampleInAction id="lco">
                     <h4>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>Exemple d&apos;action</strong>&nbsp;: League
                         Collegiate Outfitters*
                     </h4>
@@ -836,7 +836,7 @@ const fr = () => {
                 </ul>
                 <ExampleInAction id="gap">
                     <h4>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>Exemple d&apos;action</strong>&nbsp;: Programme
                         P.A.C.E. de Gap Inc.*
                     </h4>
