@@ -43,17 +43,6 @@ const es = () => {
                         https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods
                     </a>
                 </p>
-                <p>
-                    Download the 2018 List of Goods here:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.dol.gov/sites/default/files/documents/ilab/ListofGoods.pdf"
-                        title="Child labor Findings Report 2017"
-                    >
-                        https://www.dol.gov/sites/default/files/documents/ilab/ListofGoods.pdf
-                    </a>
-                </p>
             </div>
         </StaticData>
     );

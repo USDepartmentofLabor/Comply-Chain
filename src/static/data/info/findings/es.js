@@ -60,17 +60,6 @@ const es = () => {
                         https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings
                     </a>
                 </p>
-                <p>
-                    Download the 2017 Magazine here:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.dol.gov/sites/default/files/images/ilab/ChildLaborReport.pdf"
-                        title="Child labor Findings Report 2017"
-                    >
-                        https://www.dol.gov/sites/default/files/images/ilab/ChildLaborReport.pdf
-                    </a>
-                </p>
             </div>
         </StaticData>
     );
