@@ -38,6 +38,12 @@ export const AppGlobalStyles = createGlobalStyle`
         margin-bottom: -10px;
     }
 
+    li {
+        h1,h2,h3,h4,h5,h6{
+            margin: initial;
+        }
+    }
+
     body {
         margin: 0;
         padding: 0;
