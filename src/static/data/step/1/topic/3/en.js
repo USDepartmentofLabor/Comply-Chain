@@ -380,7 +380,7 @@ const en = () => {
                     <h3>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Example in Action : Engagement with Government:
+                            Example in Action: Engagement with Government
                         </strong>
                     </h3>
                     <p>
