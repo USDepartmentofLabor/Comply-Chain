@@ -37,6 +37,7 @@ const SearchInput = styled.input`
 
 const SearchResultsHeader = styled.h4`
     color: ${theme.colors.base};
+    margin-bottom: 10px;
     & .query {
         color: ${theme.colors.primaryAltDarkest};
     }
@@ -297,7 +298,7 @@ class Search extends Component {
             if (pattern.test(content)) {
                 const idx = content.toLowerCase().indexOf(query.toLowerCase());
                 if (idx !== -1) {
-                    snippets = this.shorten(content, 200, idx);
+                    snippets = this.shorten(content, 120, idx);
                 }
             }
 
