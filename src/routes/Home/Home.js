@@ -7,15 +7,16 @@ import { withLanguageContext } from "../../components/Language";
 import Routes from "../../modules/config/routes";
 import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
+import { isIOS } from "../../modules/utils/platform";
 import boyPakistan from "../../static/images/Boy_Pakistan_Corn.jpg";
 import mica from "../../static/images/CWerner_mica_002EXTRA.jpg";
+import diamondMines from "../../static/images/diamond_mines.jpg";
 import girlsIraq from "../../static/images/Girls_Iraq_School_2017.jpg";
 import girlIndia from "../../static/images/Girl_India_Bricks_2016.jpg";
 import girlIndonesia from "../../static/images/Girl_Indonesia_Palm_Oil.jpg";
 import girlNepal from "../../static/images/Girl_Nepal_Bricks.jpg";
 import girlPakistan from "../../static/images/Girl_Pakistan_Cotton_2011.jpg";
 import girlUganda from "../../static/images/Girl_Uganda_Farm.jpg";
-import diamondMines from "../../static/images/diamond_mines.jpg";
 import mexicoPeppers from "../../static/images/TVPRA_CL_Mexico_peppers.jpg";
 
 class Home extends Component {
@@ -192,8 +193,17 @@ const stepImageData = [
 ];
 
 const HomeWrapper = styled.div`
-    margin: -1.8em -10px -0.8em;
-    width: auto;
+    @media screen and (min-width: 900px) {
+        margin: -1.8em -10px -0.8em;
+        width: auto;
+    }
+
+    @media screen and (max-width: 899px) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
 `;
 
 const FlexContent = styled.div`
@@ -255,14 +265,38 @@ const Item = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(${props => props.image});
-
-    box-shadow: inset 0 0 0 2000px
+    /* iOS PDF view does not display background images using background-image linear-gradient but works with box-shadow.
+    *   Android PDF view has tearing when using box-shadow but not with the linear-gradient.*/
+    background-image: ${props =>
+        isIOS()
+            ? `url(${props.image})`
+            : `linear-gradient(
+            rgba(
+                ${
+                    props.green
+                        ? theme.colors.greenRGB
+                        : theme.colors.primaryRGB
+                },
+                0.75
+            ),
+            rgba(
+                ${
+                    props.green
+                        ? theme.colors.greenRGB
+                        : theme.colors.primaryRGB
+                },
+                0.75
+            )
+        ),
+        url(${props.image})`};
+    box-shadow: ${props =>
+        isIOS()
+            ? `inset 0 0 0 2000px
         rgba(
-            ${props =>
-                props.green ? theme.colors.greenRGB : theme.colors.primaryRGB},
+            ${props.green ? theme.colors.greenRGB : theme.colors.primaryRGB},
             0.75
-        );
+        )`
+            : "none"};
     background-repeat: no-repeat;
     background-position: ${props =>
         `${props.imageMobilePosition.x}% ${props.imageMobilePosition.y}%`};
