@@ -230,9 +230,13 @@ const StatusIcons = styled.div`
     }
 `;
 
-const CheckIcon = styled(Icons.Check)``;
+const CheckIcon = styled(Icons.Check)`
+    overflow: visible;
+`;
 
-const BookmarkIcon = styled(Icons.BookmarkCheck)``;
+const BookmarkIcon = styled(Icons.BookmarkCheck)`
+    overflow: visible;
+`;
 
 const ItemTitle = styled(Link)`
     color: ${theme.colors.white};
