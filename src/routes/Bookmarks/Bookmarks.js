@@ -18,6 +18,7 @@ const IconWrapper = styled.div`
     color: ${theme.colors.primary};
     font-size: 2em;
     cursor: pointer;
+    margin-left: 10px;
 `;
 
 const IconContainer = styled.div`
@@ -31,6 +32,7 @@ const IconContainer = styled.div`
 
 const BookmarkIcon = styled(Icons.BookmarkCheck)`
     display: block;
+    overflow: visible;
 `;
 
 const ItemHeader = styled.span``;
