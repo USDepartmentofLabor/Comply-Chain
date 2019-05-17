@@ -18,9 +18,9 @@ const LanguageButton = styled.button`
     color: ${theme.colors.white};
     background-color: ${theme.colors.primary};
     border-radius: 4px;
-    padding: 15px 48px;
     display: inline-block;
     width: 155px;
+    height: 50px;
     font-size: 1em;
     font-weight: bold;
     border: 1px solid ${theme.colors.white};
