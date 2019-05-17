@@ -40,7 +40,7 @@ const fr = () => {
                 <h2>Travail des enfants</h2>
                 <p>
                     Dans les cas de <strong>travail des enfants</strong>, les
-                    causes peuvent inclure :
+                    causes peuvent inclure:
                 </p>
                 <div className="indent-margin">
                     <p>
@@ -82,7 +82,7 @@ const fr = () => {
                 <h3>Travail forc&eacute;</h3>
                 <p>
                     Dans les cas de <strong>travail forc&eacute;</strong>, les
-                    causes peuvent inclure :
+                    causes peuvent inclure:
                 </p>
                 <div className="indent-margin">
                     <p>
@@ -153,7 +153,7 @@ const fr = () => {
                 </p>
                 <table>
                     <caption>
-                        Tableau&nbsp;1&nbsp;: R&eacute;paration des
+                        Tableau&nbsp;1: R&eacute;paration des
                         probl&egrave;mes concernant les pratiques de recrutement
                     </caption>
                     <tbody>
@@ -226,7 +226,7 @@ const fr = () => {
                         <tr>
                             <td>
                                 <p>
-                                    Recrutement trompeur : il a
+                                    Recrutement trompeur: il a
                                     &eacute;t&eacute; promis aux travailleurs
                                     des types de travail, des conditions de
                                     travail, des modalit&eacute;s de contrat,
@@ -262,7 +262,7 @@ const fr = () => {
                 </table>
                 <table>
                     <caption>
-                        Tableau&nbsp;2&nbsp;: R&eacute;paration des
+                        Tableau&nbsp;2: R&eacute;paration des
                         probl&egrave;mes concernant les conditions de travail et
                         d&rsquo;existence
                     </caption>
@@ -586,7 +586,7 @@ const fr = () => {
                 </table>
                 <table>
                     <caption>
-                        Tableau&nbsp;3&nbsp;: R&eacute;paration des
+                        Tableau&nbsp;3: R&eacute;paration des
                         probl&egrave;mes concernant
                         l&apos;«&nbsp;impossibilit&eacute; de partir&nbsp;»
                     </caption>
@@ -713,7 +713,7 @@ const fr = () => {
                 </table>
                 <table width="100%">
                     <caption>
-                        Tableau&nbsp;4&nbsp;: R&eacute;paration des
+                        Tableau&nbsp;4: R&eacute;paration des
                         probl&egrave;mes concernant les sanctions ou les menaces
                     </caption>
                     <tbody>
@@ -879,7 +879,7 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Le processus de
+                            Exemple d&apos;action: Le processus de
                             r&eacute;paration{" "}
                         </strong>
                         <a

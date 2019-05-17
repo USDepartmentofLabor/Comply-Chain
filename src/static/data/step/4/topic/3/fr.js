@@ -19,7 +19,7 @@ const fr = () => {
                     <li>
                         Les normes incluses dans votre code de conduite{" "}
                         <em>
-                            (N.&nbsp;B.&nbsp;: Cette partie de la formation
+                            (N.&nbsp;B.: Cette partie de la formation
                             devrait &ecirc;tre approfondie et exhaustive. Chaque
                             norme devrait &ecirc;tre expliqu&eacute;e en
                             d&eacute;tail. Une explication compl&egrave;te du
@@ -130,7 +130,7 @@ const fr = () => {
                     conformit&eacute; sociale du fournisseur/producteur est
                     d&eacute;l&eacute;gu&eacute;e au fournisseur/agent. Dans
                     cette configuration, votre contrat pourrait &eacute;galement
-                    exiger que le fournisseur/agent :
+                    exiger que le fournisseur/agent:
                 </p>
                 <ul>
                     <li>
@@ -164,7 +164,7 @@ const fr = () => {
                         sociale.
                     </li>
                 </ul>
-                <h2>Fournisseurs&nbsp;: gestion</h2>
+                <h2>Fournisseurs: gestion</h2>
 
                 <p>
                     Exigences contractuelles auxquelles sont tenus les
@@ -184,7 +184,7 @@ const fr = () => {
                     responsabilit&eacute; en mati&egrave;re de conformit&eacute;
                     sociale sera d&eacute;l&eacute;gu&eacute;e au fournisseur.
                     Dans cette configuration, votre contrat pourrait
-                    &eacute;galement exiger que le fournisseur :
+                    &eacute;galement exiger que le fournisseur:
                 </p>
                 <ul>
                     <li>
@@ -216,7 +216,7 @@ const fr = () => {
                     </li>
                 </ul>
 
-                <h2>Fournisseurs&nbsp;: contrema&icirc;tres</h2>
+                <h2>Fournisseurs: contrema&icirc;tres</h2>
                 <ul>
                     <li>Usage appropri&eacute; des pouvoirs&nbsp;;</li>
                     <li>
@@ -236,7 +236,7 @@ const fr = () => {
                     </li>
                 </ul>
 
-                <h2>Fournisseurs&nbsp;: personnel des ressources humaines </h2>
+                <h2>Fournisseurs: personnel des ressources humaines </h2>
                 <ul>
                     <li>
                         Calcul des salaires, y compris du travail &agrave; la

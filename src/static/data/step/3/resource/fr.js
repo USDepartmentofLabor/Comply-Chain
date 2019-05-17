@@ -70,7 +70,7 @@ const fr = () => {
                         coffee sector: The dynamics on MNC responses and code
                         development&nbsp;»,{" "}
                         <em>European Management Journal </em>23, n<sup>o</sup> 2
-                        (avril 2005)&nbsp;: 228-236. [en anglais]
+                        (avril 2005): 228-236. [en anglais]
                     </li>
                     <li>
                         Pacte mondial de l&apos;ONU.{" "}

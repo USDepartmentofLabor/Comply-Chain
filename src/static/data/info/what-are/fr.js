@@ -14,7 +14,7 @@ const fr = ({ pdf }) => {
                         forc&eacute; ?
                     </strong>
                 </h1>
-                <p>Sources des normes&nbsp;:</p>
+                <p>Sources des normes:</p>
                 <p>
                     Les normes internationales sur le travail des enfants et le
                     travail forc&eacute; ont &eacute;t&eacute;
@@ -90,7 +90,7 @@ const fr = ({ pdf }) => {
                                     l&rsquo;OIT
                                 </a>{" "}
                                 d&eacute;finit les pires formes de travail des
-                                enfants comme suit&nbsp;:
+                                enfants comme suit:
                             </p>
                             <ol type="a">
                                 <li>
@@ -159,13 +159,13 @@ const fr = ({ pdf }) => {
                                 trait aux «&nbsp;travaux dangereux&nbsp;». La
                                 recommandation n<sup>o</sup>
                                 &nbsp;190 de l&apos;OIT pr&eacute;cise &agrave;
-                                la section&nbsp;II, paragraphe&nbsp;3&nbsp;:
+                                la section&nbsp;II, paragraphe&nbsp;3:
                                 «&nbsp;En d&eacute;terminant les types de
                                 travail vis&eacute;s &agrave; l&apos;article 3
                                 (d) de la convention [n
                                 <sup>o</sup>&nbsp;182 de l&apos;OIT] et leur
                                 localisation, il faudrait, entre autres, prendre
-                                en consid&eacute;ration&nbsp;:
+                                en consid&eacute;ration:
                             </p>
                             <ol type="a">
                                 <li>
@@ -242,7 +242,7 @@ const fr = ({ pdf }) => {
                                 d&apos;argent.
                             </p>
                             <p>
-                                <em>Remarque&nbsp;: </em>
+                                <em>Remarque: </em>
                                 <em>
                                     Les normes relatives au travail des enfants
                                     et au travail forc&eacute; discut&eacute;es
@@ -315,14 +315,14 @@ const fr = ({ pdf }) => {
                                 <li>
                                     Organisation internationale du Travail, Les
                                     estimations mondiales sur le travail des
-                                    enfants&nbsp;pour 2016 : r&eacute;sultats et
+                                    enfants&nbsp;pour 2016: r&eacute;sultats et
                                     tendances, 2012-2016, Gen&egrave;ve,
                                     septembre 2017.
                                 </li>
                                 <li>
                                     Organisation internationale du Travail,
                                     Intensifier la lutte contre le travail des
-                                    enfants : Rapport global en vertu du suivi
+                                    enfants: Rapport global en vertu du suivi
                                     de la D&eacute;claration de l&apos;OIT
                                     relative aux principes et droits
                                     fondamentaux au travail&nbsp;&ndash; 2010,
@@ -341,13 +341,13 @@ const fr = ({ pdf }) => {
                                 <li>
                                     Organisation internationale du Travail,
                                     «&nbsp;Qu&apos;est-ce que le travail des
-                                    enfants&nbsp;?&nbsp;» consult&eacute; le
+                                    enfants?&nbsp;» consult&eacute; le
                                     25&nbsp;novembre 2011&nbsp;; disponible sur{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="http://www.ilo.org/ipec/facts/lang--fr/index.htm"
-                                        title="«&nbsp;Qu'est-ce que le travail des enfants&nbsp;?&nbsp;»"
+                                        title="«&nbsp;Qu'est-ce que le travail des enfants?&nbsp;»"
                                     >
                                         http://www.ilo.org/ipec/facts/lang--fr/index.htm
                                     </a>
@@ -355,7 +355,7 @@ const fr = ({ pdf }) => {
                                 </li>
                                 <li>
                                     Organisation internationale du Travail,
-                                    Enfants dans les travaux dangereux&nbsp;: Ce
+                                    Enfants dans les travaux dangereux: Ce
                                     que nous savons, ce que nous devons faire,
                                     Gen&egrave;ve, juin 2011&nbsp;; disponible
                                     sur{" "}
@@ -363,7 +363,7 @@ const fr = ({ pdf }) => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_155430/lang--fr/index.htm"
-                                        title="Enfants dans les travaux dangereux&nbsp;: Ce que nous savons, ce que nous devons faire, Gen&egrave;ve, juin 2011"
+                                        title="Enfants dans les travaux dangereux: Ce que nous savons, ce que nous devons faire, Gen&egrave;ve, juin 2011"
                                     >
                                         http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_155430/lang--fr/index.htm
                                     </a>
@@ -406,8 +406,8 @@ const fr = ({ pdf }) => {
                                     <i>
                                         L&rsquo;abolition du travail des
                                         enfants&nbsp;&ndash; Guides &agrave;
-                                        l&rsquo;intention des employeurs&nbsp;:
-                                        Guide&nbsp;I&nbsp;: Introduction
+                                        l&rsquo;intention des employeurs:
+                                        Guide&nbsp;I: Introduction
                                         &agrave; la probl&eacute;matique du
                                         travail des enfants
                                     </i>
@@ -416,7 +416,7 @@ const fr = ({ pdf }) => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="http://www.ioe-emp.org/fileadmin/ioe_documents/publications/Policy%20Areas/child_labour/FR/%282008%29%20Abolition%20travail%20enfants%20Guide%201%20-%20Intro.pdf"
-                                        title="L&rsquo;abolition du travail des enfants&nbsp;&ndash; Guides &agrave; l&rsquo;intention des employeurs&nbsp;: Guide&nbsp;I&nbsp;: Introduction &agrave; la probl&eacute;matique du travail des enfants"
+                                        title="L&rsquo;abolition du travail des enfants&nbsp;&ndash; Guides &agrave; l&rsquo;intention des employeurs: Guide&nbsp;I: Introduction &agrave; la probl&eacute;matique du travail des enfants"
                                     >
                                         http://www.ioe-emp.org/fileadmin/ioe_documents/publications/Policy%20Areas/child_labour/FR/%282008%29%20Abolition%20travail%20enfants%20Guide%201%20-%20Intro.pdf
                                     </a>
@@ -427,7 +427,7 @@ const fr = ({ pdf }) => {
                                     internationale.
                                     <em>
                                         {" "}
-                                        Miniguide d&apos;action : Travail des
+                                        Miniguide d&apos;action: Travail des
                                         enfants
                                     </em>
                                     , Bruxelles, 2008 ; disponible sur{" "}
@@ -435,7 +435,7 @@ const fr = ({ pdf }) => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="https://www.ituc-csi.org/mini-guide-d-action-travail-des"
-                                        title="Miniguide d'action : Travail des enfants"
+                                        title="Miniguide d'action: Travail des enfants"
                                     >
                                         https://www.ituc-csi.org/mini-guide-d-action-travail-des
                                     </a>
@@ -448,7 +448,7 @@ const fr = ({ pdf }) => {
                                         Dix-huiti&egrave;me
                                         <sup /> Conf&eacute;rence internationale
                                         des statisticiens du
-                                        travail&nbsp;&ndash; Rapport III&nbsp;:
+                                        travail&nbsp;&ndash; Rapport III:
                                         Statistiques sur le travail des enfants.
                                     </em>{" "}
                                     Gen&egrave;ve, 5&nbsp;d&eacute;cembre 2008.
@@ -457,7 +457,7 @@ const fr = ({ pdf }) => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099580.pdf"
-                                        title="Dix-huiti&egrave;me Conf&eacute;rence internationale des statisticiens du travail&nbsp;&ndash; Rapport III&nbsp;: Statistiques sur le travail des enfants."
+                                        title="Dix-huiti&egrave;me Conf&eacute;rence internationale des statisticiens du travail&nbsp;&ndash; Rapport III: Statistiques sur le travail des enfants."
                                     >
                                         https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099580.pdf
                                     </a>
@@ -512,7 +512,7 @@ const fr = ({ pdf }) => {
                             </p>
                             <ul>
                                 <li>
-                                    <em>Tout travail ou service&nbsp;:</em> Il
+                                    <em>Tout travail ou service:</em> Il
                                     s&apos;agit de tous les types de travaux, de
                                     services et d&apos;emploi, quels que soient
                                     l&apos;industrie, le secteur ou
@@ -522,13 +522,13 @@ const fr = ({ pdf }) => {
                                     ill&eacute;gaux et informels.
                                 </li>
                                 <li>
-                                    <em>Tout individu&nbsp;:</em> Cela
+                                    <em>Tout individu:</em> Cela
                                     d&eacute;signe les adultes et les enfants.
                                 </li>
                                 <li>
                                     <em>
                                         Menace d&apos;une peine
-                                        quelconque&nbsp;:
+                                        quelconque:
                                     </em>{" "}
                                     Il s&apos;agit d&apos;un travailleur ou
                                     d&apos;une travailleuse qui estime que des
@@ -555,7 +555,7 @@ const fr = ({ pdf }) => {
                                     d&eacute;finissant le travail forc&eacute;.
                                 </li>
                                 <li>
-                                    <em>Plein gr&eacute;&nbsp;: </em>Il
+                                    <em>Plein gr&eacute;: </em>Il
                                     s&apos;agit du consentement du travailleur
                                     &agrave; contracter un emploi et la
                                     libert&eacute; de quitter cet emploi
@@ -601,7 +601,7 @@ const fr = ({ pdf }) => {
                                 particip&eacute; &agrave; des gr&egrave;ves.
                             </p>
                             <p>
-                                <em>Remarque&nbsp;: </em>
+                                <em>Remarque: </em>
                                 <em>
                                     Les normes relatives au travail des enfants
                                     et au travail forc&eacute; discut&eacute;es
@@ -673,7 +673,7 @@ const fr = ({ pdf }) => {
                                 travailleurs migrants versent des commissions
                                 &agrave; ces recruteurs ou interm&eacute;diaires
                                 et se retrouvent pi&eacute;g&eacute;s en
-                                situation de servitude pour dette : dette
+                                situation de servitude pour dette: dette
                                 cyclique, assortie souvent
                                 d&rsquo;int&eacute;r&ecirc;ts
                                 d&eacute;raisonnables ou d&apos;autres
@@ -813,7 +813,7 @@ const fr = ({ pdf }) => {
                             </p>
                             <img src={unoDc} alt="UNO DC" /> <br />
                             <p className="small-text">
-                                Source&nbsp;: Office des Nations unies contre la
+                                Source: Office des Nations unies contre la
                                 drogue et le crime.{" "}
                                 <em>
                                     Rapport mondial sur la traite des personnes
@@ -852,7 +852,7 @@ const fr = ({ pdf }) => {
                                     Organisation internationale du Travail,
                                     <em>
                                         {" "}
-                                        Le co&ucirc;t de la coercition&nbsp;:
+                                        Le co&ucirc;t de la coercition:
                                         Rapport global en vertu du suivi de la
                                         D&eacute;claration de l&rsquo;OIT
                                         relative aux principes et droits
@@ -863,7 +863,7 @@ const fr = ({ pdf }) => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_106270/lang--fr/index.htm"
-                                        title="Le co&ucirc;t de la coercition&nbsp;: Rapport global en vertu du suivi de la D&eacute;claration de l'OIT relative aux principes et droits fondamentaux au travail"
+                                        title="Le co&ucirc;t de la coercition: Rapport global en vertu du suivi de la D&eacute;claration de l'OIT relative aux principes et droits fondamentaux au travail"
                                     >
                                         https://www.ilo.org/global/topics/forced-labour/publications/WCMS_106270/lang--fr/index.htm
                                     </a>
@@ -923,7 +923,7 @@ const fr = ({ pdf }) => {
                                 <li>
                                     Organisation internationale du Travail,{" "}
                                     <em>
-                                        Profits et pauvret&eacute;&nbsp;:
+                                        Profits et pauvret&eacute;:
                                         L&rsquo;&eacute;conomie du travail
                                         forc&eacute;
                                     </em>
@@ -932,7 +932,7 @@ const fr = ({ pdf }) => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="https://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--fr/index.htm"
-                                        title="Profits et pauvret&eacute;&nbsp;: L&rsquo;&eacute;conomie du travail forc&eacute;"
+                                        title="Profits et pauvret&eacute;: L&rsquo;&eacute;conomie du travail forc&eacute;"
                                     >
                                         https://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--fr/index.htm
                                     </a>

@@ -160,7 +160,7 @@ const fr = () => {
                 </p>
                 <p>
                     <em>
-                        *Remarque&nbsp;: Les r&eacute;f&eacute;rences &agrave;
+                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
                         des soci&eacute;t&eacute;s et entit&eacute;s non
                         gouvernementales sp&eacute;cifiques dans ce guide sont
                         &agrave; des fins d&rsquo;information uniquement afin de

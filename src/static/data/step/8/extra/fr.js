@@ -39,7 +39,7 @@ const fr = () => {
                     </p>
                     <p>
                         <em>
-                            Source&nbsp;:{" "}
+                            Source:{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"

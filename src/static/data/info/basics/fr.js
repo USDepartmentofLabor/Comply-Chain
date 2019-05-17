@@ -327,7 +327,7 @@ const fr = ({ pdf }) => {
                                     s&eacute;curit&eacute; au travail, les
                                     salaires et les heures ouvr&eacute;es (voir{" "}
                                     <Link to="/steps/3">
-                                        3<sup>e</sup> &eacute;tape&nbsp;:
+                                        3<sup>e</sup> &eacute;tape:
                                         &eacute;laborer un code de conduite
                                     </Link>{" "}
                                     pour un compl&eacute;ment d&apos;information
@@ -594,7 +594,7 @@ const fr = ({ pdf }) => {
                                 <p>
                                     <Link to="/steps/1">
                                         La 1<sup>&egrave;re</sup>{" "}
-                                        &eacute;tape&nbsp;: faire participer les
+                                        &eacute;tape: faire participer les
                                         parties prenantes et les partenaires
                                     </Link>
                                     offre de nombreux autres exemples de
@@ -793,7 +793,7 @@ const fr = ({ pdf }) => {
                                         </em>
                                     </p>
                                     <p>
-                                        Source&nbsp;:{" "}
+                                        Source:{" "}
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -845,7 +845,7 @@ const fr = ({ pdf }) => {
                                         </em>
                                     </p>
                                     <p>
-                                        Source&nbsp;:{" "}
+                                        Source:{" "}
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -911,7 +911,7 @@ const fr = ({ pdf }) => {
                                         </em>
                                     </p>
                                     <p>
-                                        Source&nbsp;:{" "}
+                                        Source:{" "}
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -1042,11 +1042,11 @@ const fr = ({ pdf }) => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="http://supply-chain.unglobalcompact.org/site/article/183"
-                                        title="Durabilit&eacute; des cha&icirc;nes d&rsquo;approvisionnement&nbsp;: Guide pratique pour l&rsquo;am&eacute;lioration continue"
+                                        title="Durabilit&eacute; des cha&icirc;nes d&rsquo;approvisionnement: Guide pratique pour l&rsquo;am&eacute;lioration continue"
                                     >
                                         <em>
                                             Durabilit&eacute; des cha&icirc;nes
-                                            d&rsquo;approvisionnement&nbsp;:
+                                            d&rsquo;approvisionnement:
                                             Guide pratique pour
                                             l&rsquo;am&eacute;lioration continue
                                         </em>
@@ -1126,7 +1126,7 @@ const fr = ({ pdf }) => {
                                         est li&eacute; au contenu de ce Code. Le
                                         syst&egrave;me de gestion doit
                                         &ecirc;tre con&ccedil;u pour veiller
-                                        &agrave; : (a) la conformit&eacute; aux
+                                        &agrave;: (a) la conformit&eacute; aux
                                         lois et r&eacute;glementations
                                         applicables et aux exigences des clients
                                         li&eacute;es &agrave;
@@ -1143,7 +1143,7 @@ const fr = ({ pdf }) => {
                                     <p>
                                         Le syst&egrave;me de gestion doit
                                         inclure les &eacute;l&eacute;ments
-                                        suivants :
+                                        suivants:
                                     </p>
                                     <ol>
                                         <li>
@@ -1494,13 +1494,13 @@ const fr = ({ pdf }) => {
                                 autres questions connexes sont
                                 d&eacute;velopp&eacute;es dans la{" "}
                                 <Link to="/steps/5">
-                                    5<sup>e</sup>&nbsp;&eacute;tape : surveiller
+                                    5<sup>e</sup>&nbsp;&eacute;tape: surveiller
                                     la conformit&eacute;.
                                 </Link>
                             </p>
                             <p>
                                 <em>
-                                    *Remarque&nbsp;: Les
+                                    *Remarque: Les
                                     r&eacute;f&eacute;rences &agrave; des
                                     soci&eacute;t&eacute;s et entit&eacute;s non
                                     gouvernementales sp&eacute;cifiques dans ce
@@ -1537,13 +1537,13 @@ const fr = ({ pdf }) => {
                                     Eckman, «&nbsp;Stakeholder Theory and Social
                                     Responsibility&nbsp;». Social Responsibility
                                     in the Global Apparel Industry ; Fairchild
-                                    Books, 2009 : 112-215. [en anglais]&nbsp;
+                                    Books, 2009: 112-215. [en anglais]&nbsp;
                                 </li>
                                 <li>
                                     L&apos;Organisation internationale de
                                     normalisation (ISO) a &eacute;tabli
                                     diff&eacute;rentes normes pour les
-                                    syst&egrave;mes de gestion : ISO 17021,
+                                    syst&egrave;mes de gestion: ISO 17021,
                                     Guide ISO 65, ISO&nbsp;9001 et ISO 19011.
                                     Ces normes incluent notamment
                                     l&apos;impartialit&eacute; et la
@@ -1635,7 +1635,7 @@ const fr = ({ pdf }) => {
                                     >
                                         http://socialfingerprint.org/
                                     </a>
-                                    . N.B. : il s&apos;agit d&apos;un service
+                                    . N.B.: il s&apos;agit d&apos;un service
                                     tarif&eacute;.
                                 </li>
 
@@ -1650,7 +1650,7 @@ const fr = ({ pdf }) => {
                                         «&nbsp;prot&eacute;ger, respecter et
                                         r&eacute;parer&nbsp;» des Nations Unies
                                     </em>
-                                    . New York&nbsp;:
+                                    . New York:
                                     21&nbsp;mars&nbsp;2011&nbsp;; disponible sur{" "}
                                     <a
                                         target="_blank"

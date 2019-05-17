@@ -17,7 +17,7 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Fondation Eliminating
+                            Exemple d&apos;action: Fondation Eliminating
                             Child Labor in Tobacco-Growing (ECLT)
                         </strong>
                     </h2>
@@ -112,7 +112,7 @@ const fr = () => {
                             Ouganda
                         </a>
                         . Ces projets ont cinq objectifs
-                        strat&eacute;giques&nbsp;: soustraire les enfants du
+                        strat&eacute;giques: soustraire les enfants du
                         travail des enfants, fournir des services
                         &eacute;ducatifs, sensibiliser, renforcer les
                         communaut&eacute;s et r&eacute;duire la pauvret&eacute;.
@@ -135,7 +135,7 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Plateforme sur le
+                            Exemple d&apos;action: Plateforme sur le
                             travail des enfants
                         </strong>
                     </h2>
@@ -227,7 +227,7 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: R&eacute;seau mondial
+                            Exemple d&apos;action: R&eacute;seau mondial
                             d&apos;entreprises de l&rsquo;OIT sur le travail
                             forc&eacute;
                         </strong>

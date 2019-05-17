@@ -19,7 +19,7 @@ const fr = ({ pdf }) => {
                 </p>
                 <h2>
                     Quelles sont les causes profondes du travail des enfants et
-                    du travail forc&eacute;&nbsp;?
+                    du travail forc&eacute;?
                 </h2>
                 <p className="indent-margin">
                     Un grand nombre de pays d&apos;o&ugrave; viennent de plus en
@@ -198,7 +198,7 @@ const fr = ({ pdf }) => {
                         des commissions &agrave; ces recruteurs ou
                         interm&eacute;diaires et se retrouvent
                         pi&eacute;g&eacute;s en situation de servitude pour
-                        dette : dette cyclique, comprenant souvent des
+                        dette: dette cyclique, comprenant souvent des
                         int&eacute;r&ecirc;ts d&eacute;raisonnables ou
                         d&apos;autres modalit&eacute;s que leurs salaires ne
                         suffisent pas &agrave; rembourser. Les cycles de
@@ -350,7 +350,7 @@ const fr = ({ pdf }) => {
                     r&ocirc;les importants &agrave; remplir dans la promotion et
                     l&apos;appui de ces actions. Les entreprises ont des
                     fonctions essentielles &agrave; remplir dans cet effort, y
-                    compris dans les domaines suivants&nbsp;:
+                    compris dans les domaines suivants:
                 </p>
                 <ul>
                     <li>
@@ -497,8 +497,8 @@ const fr = ({ pdf }) => {
                 <ExampleInAction id="leber">
                     <h4>
                         <ExampleInAction.Icon />{" "}
-                        <strong>Exemple d&apos;action</strong>&nbsp;: Leber
-                        Jeweler*&nbsp;: Le Jewelers&rsquo; Burma Relief Project
+                        <strong>Exemple d&apos;action</strong>: Leber
+                        Jeweler*: Le Jewelers&rsquo; Burma Relief Project
                     </h4>
                     <p>
                         De nombreuses pierres pr&eacute;cieuses, y compris 90 %
@@ -605,7 +605,7 @@ const fr = ({ pdf }) => {
                         </em>
                     </p>
                     <p>
-                        Source&nbsp;: Organisation internationale du
+                        Source: Organisation internationale du
                         travail,&nbsp;
                         <a
                             target="_blank"
@@ -639,7 +639,7 @@ const fr = ({ pdf }) => {
                 <p>
                     Les initiatives philanthropiques pour appuyer la lutte
                     contre le travail des enfants et le travail forc&eacute;
-                    comprennent :
+                    comprennent:
                 </p>
                 <ul>
                     <li>
@@ -672,7 +672,7 @@ const fr = ({ pdf }) => {
                     <h4>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Isidro Le&oacute;n-York
+                            Exemple d&apos;action: Isidro Le&oacute;n-York
                         </strong>
                     </h4>
                     <p>
@@ -771,7 +771,7 @@ const fr = ({ pdf }) => {
                 <ExampleInAction id="lco">
                     <h4>
                         <ExampleInAction.Icon />{" "}
-                        <strong>Exemple d&apos;action</strong>&nbsp;: League
+                        <strong>Exemple d&apos;action</strong>: League
                         Collegiate Outfitters*
                     </h4>
                     <p>
@@ -838,7 +838,7 @@ const fr = ({ pdf }) => {
                 <ExampleInAction id="gap">
                     <h4>
                         <ExampleInAction.Icon />{" "}
-                        <strong>Exemple d&apos;action</strong>&nbsp;: Programme
+                        <strong>Exemple d&apos;action</strong>: Programme
                         P.A.C.E. de Gap Inc.*
                     </h4>
                     <p>
@@ -1114,14 +1114,14 @@ const fr = ({ pdf }) => {
                                 </li>
                                 <li>
                                     Rapport mondial sur les salaires 2016/17 de
-                                    l&rsquo;OIT (2016)&nbsp;: Les
+                                    l&rsquo;OIT (2016): Les
                                     in&eacute;galit&eacute;s salariales au
-                                    travail&nbsp;:{" "}
+                                    travail:{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_545416.pdf"
-                                        title="Rapport mondial sur les salaires 2016/17&nbsp;: Les in&eacute;galit&eacute;s salariales au travail"
+                                        title="Rapport mondial sur les salaires 2016/17: Les in&eacute;galit&eacute;s salariales au travail"
                                     >
                                         http://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_545416.pdf
                                     </a>
@@ -1159,14 +1159,14 @@ const fr = ({ pdf }) => {
                                 </li>
                                 <li>
                                     OIT (2013) &Eacute;conomie informelle et
-                                    travail d&eacute;cent : Guide de ressources
+                                    travail d&eacute;cent: Guide de ressources
                                     sur les politiques&nbsp;&ndash; soutenir les
                                     transitions vers la formalit&eacute;{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="http://www.ilo.org/emppolicy/pubs/WCMS_229834/lang--fr/index.htm"
-                                        title="&Eacute;conomie informelle et travail d&eacute;cent : Guide de ressources sur les politiques&nbsp;&ndash; soutenir les transitions vers la formalit&eacute;"
+                                        title="&Eacute;conomie informelle et travail d&eacute;cent: Guide de ressources sur les politiques&nbsp;&ndash; soutenir les transitions vers la formalit&eacute;"
                                     >
                                         http://www.ilo.org/emppolicy/pubs/WCMS_229834/lang--fr/index.htm
                                     </a>
@@ -1240,7 +1240,7 @@ const fr = ({ pdf }) => {
                                 <li>
                                     Weil, David. The Fissured Workplace: Why
                                     Work Became So Bad for So Many and What Can
-                                    Be Done to Improve It. Cambridge, MA&nbsp;:
+                                    Be Done to Improve It. Cambridge, MA:
                                     Harvard University Press, 2014.
                                 </li>
                                 <li>

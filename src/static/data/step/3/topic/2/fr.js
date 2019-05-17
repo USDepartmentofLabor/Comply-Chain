@@ -40,14 +40,14 @@ const fr = () => {
                     tir&eacute;s d&apos;un code sont d&eacute;taill&eacute;s
                     dans{" "}
                     <Link to="/steps/5">
-                        la 5<sup>e</sup>&nbsp;&eacute;tape : surveiller la
+                        la 5<sup>e</sup>&nbsp;&eacute;tape: surveiller la
                         conformit&eacute;
                     </Link>
                 </p>
                 <h2>Exemples de codes</h2>
                 <p>
                     Les exemples ci-dessous pr&eacute;sentent les
-                    diff&eacute;rentes formes des codes :
+                    diff&eacute;rentes formes des codes:
                 </p>
                 <ul>
                     <li>
@@ -77,10 +77,10 @@ const fr = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://globalassets.starbucks.com/assets/1deb372ee3d840179e59c5b9c21cd5fe.pdf"
-                            title="Normes en mati&egrave;re de responsabilit&eacute; des fournisseurs de Starbucks*&nbsp;: produits manufactur&eacute;s et services"
+                            title="Normes en mati&egrave;re de responsabilit&eacute; des fournisseurs de Starbucks*: produits manufactur&eacute;s et services"
                         >
                             Normes en mati&egrave;re de responsabilit&eacute;
-                            des fournisseurs de Starbucks*&nbsp;: produits
+                            des fournisseurs de Starbucks*: produits
                             manufactur&eacute;s et services
                         </a>
                     </li>
@@ -105,7 +105,7 @@ const fr = () => {
                     Le contenu des codes s&apos;est normalis&eacute; ces
                     derni&egrave;res ann&eacute;es, et s&apos;est
                     cristallis&eacute; autour de th&egrave;me centraux
-                    comprenant g&eacute;n&eacute;ralement :
+                    comprenant g&eacute;n&eacute;ralement:
                 </p>
                 <ul>
                     <li>Gouvernance et gestion du code</li>
@@ -119,7 +119,7 @@ const fr = () => {
                     <li>
                         Normes environnementales{" "}
                         <em>
-                            (N.B. : si ces normes sont souvent incluses dans le
+                            (N.B.: si ces normes sont souvent incluses dans le
                             code de conduite d&apos;ensemble, elles ne sont pas
                             d&eacute;battues plus avant dans cette appli qui est
                             centr&eacute;e sur le travail des enfants et le
@@ -140,7 +140,7 @@ const fr = () => {
                     En ce qui concerne les normes du travail, un code fiable
                     devrait aborder les domaines couverts par les normes
                     fondamentales du travail de l&apos;Organisation
-                    internationale du travail :
+                    internationale du travail:
                 </p>
                 <ul>
                     <li>
@@ -151,7 +151,7 @@ const fr = () => {
                     <li>Travail des enfants</li>
                     <li>Travail forc&eacute;</li>
                 </ul>
-                <p>De plus, il devrait couvrir les questions suivantes :</p>
+                <p>De plus, il devrait couvrir les questions suivantes:</p>
                 <ul>
                     <li>R&eacute;mun&eacute;ration</li>
                     <li>Temps de travail</li>

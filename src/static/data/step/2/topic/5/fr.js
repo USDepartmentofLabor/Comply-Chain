@@ -54,12 +54,12 @@ const fr = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.bsr.org/reports/BSR_Human_Rights_Impact_Assessments.pdf"
-                        title="Effectuer une &eacute;valuation efficace d&rsquo;incidence en mati&egrave;re de droits de l&rsquo;homme&nbsp;: directives, &eacute;tapes et exemple"
+                        title="Effectuer une &eacute;valuation efficace d&rsquo;incidence en mati&egrave;re de droits de l&rsquo;homme: directives, &eacute;tapes et exemple"
                     >
                         <em>
                             Effectuer une &eacute;valuation efficace
                             d&rsquo;incidence en mati&egrave;re de droits de
-                            l&rsquo;homme&nbsp;: directives, &eacute;tapes et
+                            l&rsquo;homme: directives, &eacute;tapes et
                             exemple [en anglais]
                         </em>
                     </a>{" "}
@@ -171,7 +171,7 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: L&rsquo;importance du
+                            Exemple d&apos;action: L&rsquo;importance du
                             r&ocirc;le de la couverture m&eacute;diatique
                         </strong>
                     </h2>
@@ -288,7 +288,7 @@ const fr = () => {
                     peuvent vous aider &agrave; mener votre &eacute;valuation
                     des risques et des incidences.
                 </p>
-                <p>Quelles informations recherchez-vous&nbsp;?</p>
+                <p>Quelles informations recherchez-vous?</p>
                 <h2>Nature et pr&eacute;valence</h2>
 
                 <p className="indent-margin">
@@ -296,27 +296,27 @@ const fr = () => {
                     forc&eacute; et d&apos;autres violations des droits du
                     travail est-elle attest&eacute;e ou pr&eacute;sum&eacute;e
                     dans vos zones g&eacute;ographiques (&eacute;ventuellement
-                    potentielles) d&apos;approvisionnement&nbsp;? Quel type de
-                    travail est ex&eacute;cut&eacute;&nbsp;? Quelles sont les
-                    violations les plus couramment relev&eacute;es&nbsp;?
+                    potentielles) d&apos;approvisionnement? Quel type de
+                    travail est ex&eacute;cut&eacute;? Quelles sont les
+                    violations les plus couramment relev&eacute;es?
                 </p>
                 <h2>Causes profondes</h2>
 
                 <p className="indent-margin">
                     Si le travail des enfants, le travail forc&eacute; et
                     d&apos;autres violations des droits du travail sont
-                    pr&eacute;sents, quelles en sont les causes profondes&nbsp;?
+                    pr&eacute;sents, quelles en sont les causes profondes?
                 </p>
 
                 <h2>Structure de l&apos;industrie</h2>
                 <p className="indent-margin">
                     Comment cette industrie op&egrave;re-t-elle dans le
-                    pays&nbsp;? Les lieux de travail sont-ils formels ou
+                    pays? Les lieux de travail sont-ils formels ou
                     informels Les relations de travail sont-elles
-                    formelles&nbsp;? Des &eacute;l&eacute;ments de la production
-                    sont-ils sous-trait&eacute;s&nbsp;? Dans ce cas, une partie
+                    formelles? Des &eacute;l&eacute;ments de la production
+                    sont-ils sous-trait&eacute;s? Dans ce cas, une partie
                     de la production est-elle externalis&eacute;e &agrave;
-                    domicile&nbsp;?
+                    domicile?
                 </p>
 
                 <h2>Population active</h2>
@@ -324,13 +324,13 @@ const fr = () => {
                 <p className="indent-margin">
                     Quelles sont les caract&eacute;ristiques de la population
                     active dans cette industrie dans cette r&eacute;gion
-                    g&eacute;ographique&nbsp;? A-t-on souvent recours &agrave;
+                    g&eacute;ographique? A-t-on souvent recours &agrave;
                     des travailleurs sous-traitants, temporaires, sans
-                    qualifications et/ou migrants&nbsp;? Si c&apos;est le cas,
+                    qualifications et/ou migrants? Si c&apos;est le cas,
                     ces travailleurs parlent-ils d&apos;ordinaire la langue
-                    locale&nbsp;? Les travailleurs sont-ils surtout des hommes,
-                    ou des femmes&nbsp;? Un groupe d&apos;&acirc;ge particulier
-                    est-il couramment engag&eacute;&nbsp;?
+                    locale? Les travailleurs sont-ils surtout des hommes,
+                    ou des femmes? Un groupe d&apos;&acirc;ge particulier
+                    est-il couramment engag&eacute;?
                 </p>
 
                 <h2>Relations industrielles</h2>
@@ -338,11 +338,11 @@ const fr = () => {
                 <p className="indent-margin">
                     Existe-t-il un cadre juridique et institutionnel national en
                     place pour permettre des relations industrielles et des
-                    n&eacute;gociations collectives v&eacute;ritables&nbsp;?
-                    Existe-t-il de v&eacute;ritables syndicats&nbsp;? Si ce
+                    n&eacute;gociations collectives v&eacute;ritables?
+                    Existe-t-il de v&eacute;ritables syndicats? Si ce
                     n&apos;est pas le cas, existe-t-il d&apos;autres
                     m&eacute;canismes en place pour que les travailleurs
-                    puissent s&apos;exprimer sur le lieu de travail&nbsp;?
+                    puissent s&apos;exprimer sur le lieu de travail?
                 </p>
 
                 <h2>Protection sociale</h2>
@@ -355,11 +355,11 @@ const fr = () => {
                     &acirc;g&eacute;es et les personnes handicap&eacute;es, des
                     prestations sociales pour les enfants et une
                     s&eacute;curit&eacute; des revenus pour les ch&ocirc;meurs
-                    et les travailleurs pauvres&nbsp;? Y a-t-il suffisamment
+                    et les travailleurs pauvres? Y a-t-il suffisamment
                     d&apos;&eacute;tablissements &eacute;ducatifs pour instruire
                     les enfants jusqu&apos;&agrave; l&apos;&acirc;ge
                     l&eacute;gal d&rsquo;admission &agrave;
-                    l&rsquo;emploi&nbsp;?
+                    l&rsquo;emploi?
                 </p>
                 <h2>Environnement juridique et r&eacute;glementaire</h2>
 
@@ -367,14 +367,14 @@ const fr = () => {
                     Quelles sont les principales lois et r&eacute;glementations
                     concernant le travail des enfants, le travail forc&eacute;
                     et les autres droits du travail dans ce pays/cette
-                    juridiction&nbsp;? Ces lois et ces r&eacute;glementations
-                    s&apos;appliquent-elles aux travailleurs migrants&nbsp;?
+                    juridiction? Ces lois et ces r&eacute;glementations
+                    s&apos;appliquent-elles aux travailleurs migrants?
                     Quelles lois existe-t-il concernant la complicit&eacute; des
                     entreprises dans les violations des droits de
-                    l&apos;homme&nbsp;? Dans quelle mesure les lois sont-elles
+                    l&apos;homme? Dans quelle mesure les lois sont-elles
                     appliqu&eacute;es et y a-t-il des &eacute;l&eacute;ments de
                     preuve de corruption li&eacute;e &agrave; l&apos;absence de
-                    r&eacute;pression&nbsp;?
+                    r&eacute;pression?
                 </p>
 
                 <h2>Initiatives existantes</h2>
@@ -383,7 +383,7 @@ const fr = () => {
                     Quels sont les efforts entrepris, et par qui, pour lutter
                     contre les violations des droits du travail, telles que le
                     travail des enfants et le travail forc&eacute;, dans cette
-                    industrie ou dans cette r&eacute;gion&nbsp;?
+                    industrie ou dans cette r&eacute;gion?
                 </p>
 
                 <p>
@@ -394,10 +394,10 @@ const fr = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
-                        title="Outil d&rsquo;approvisionnement responsable&nbsp;des produits de la mer&nbsp;4&nbsp;: Collecte d&rsquo;information et &eacute;valuation des risques dans les cha&icirc;nes d&rsquo;approvisionnement des produits de la mer"
+                        title="Outil d&rsquo;approvisionnement responsable&nbsp;des produits de la mer&nbsp;4: Collecte d&rsquo;information et &eacute;valuation des risques dans les cha&icirc;nes d&rsquo;approvisionnement des produits de la mer"
                     >
                         Outil d&rsquo;approvisionnement responsable des produits
-                        de la mer&nbsp;4&nbsp;: Collecte d&rsquo;information et
+                        de la mer&nbsp;4: Collecte d&rsquo;information et
                         &eacute;valuation des risques dans les cha&icirc;nes
                         d&rsquo;approvisionnement des produits de la mer
                     </a>{" "}
@@ -410,7 +410,7 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: P&ecirc;che et produits
+                            Exemple d&apos;action: P&ecirc;che et produits
                             de la mer
                         </strong>
                     </h2>
@@ -486,7 +486,7 @@ const fr = () => {
                         un dialogue officiel avec le gouvernement en question
                         concernant des mesures correctives. Le gouvernement des
                         &Eacute;tats-Unis prend &eacute;galement des mesures
-                        pour s&apos;attaquer au probl&egrave;me&nbsp;: un groupe
+                        pour s&apos;attaquer au probl&egrave;me: un groupe
                         de travail pr&eacute;sidentiel sur la lutte contre la
                         p&ecirc;che INN a publi&eacute; un{" "}
                         <a
@@ -543,18 +543,18 @@ const fr = () => {
                     </p>
                     <p>
                         Les principaux facteurs de risque pris en compte
-                        pourront &ecirc;tre notamment les suivants&nbsp;:
+                        pourront &ecirc;tre notamment les suivants:
                     </p>
                     <ul>
                         <li>
-                            Industrie ou secteur&nbsp;: industries ou secteurs
+                            Industrie ou secteur: industries ou secteurs
                             &agrave; forte intensit&eacute; de
                             main-d&apos;&oelig;uvre qui ont statistiquement plus
                             de chances d&rsquo;enfreindre les droits du travail.
                         </li>
                         <li>
                             Vuln&eacute;rabilit&eacute;s
-                            r&eacute;gionales&nbsp;: projets dans les pays (i)
+                            r&eacute;gionales: projets dans les pays (i)
                             pr&eacute;sentant un historique document&eacute; de
                             probl&egrave;mes relatifs aux droits du travail,
                             (ii) ayant r&eacute;cemment connu un conflit
@@ -564,7 +564,7 @@ const fr = () => {
                             compromis.
                         </li>
                         <li>
-                            Pr&eacute;sence de groupes vuln&eacute;rables&nbsp;:
+                            Pr&eacute;sence de groupes vuln&eacute;rables:
                             (i) usage ou d&eacute;pendance en grande partie de
                             grands groupes de travailleurs non qualifi&eacute;s,
                             temporaires et/ou migrants en sous-traitance,
@@ -581,7 +581,7 @@ const fr = () => {
                             des enfants.
                         </li>
                         <li>
-                            Effets n&eacute;gatifs importants&nbsp;: (i) projets
+                            Effets n&eacute;gatifs importants: (i) projets
                             qui devraient avoir des effets n&eacute;gatifs sur
                             un nombre important de travailleurs, ou (ii) projets
                             qui, de par leur nature ou en raison de leur
@@ -592,7 +592,7 @@ const fr = () => {
                         </li>
                     </ul>
                     <p>
-                        Source&nbsp;: Soci&eacute;t&eacute; de promotion des
+                        Source: Soci&eacute;t&eacute; de promotion des
                         investissements &agrave; l&rsquo;&eacute;tranger du
                         gouvernement des &Eacute;tats-Unis,{" "}
                         <a
@@ -774,7 +774,7 @@ const fr = () => {
                     &eacute;num&eacute;r&eacute;s ci-dessus.
                 </p>
                 <h2>
-                    Liste de contr&ocirc;le : Principales questions relatives au
+                    Liste de contr&ocirc;le: Principales questions relatives au
                     «&nbsp;paysage&nbsp;»
                 </h2>
                 <p>
@@ -785,22 +785,22 @@ const fr = () => {
                         d&apos;&eacute;valuation des risques et des incidences.
                     </em>
                 </p>
-                <h3>March&eacute; du travail :</h3>
+                <h3>March&eacute; du travail:</h3>
                 <ul>
                     <li>
                         <em>
                             Le travail des enfants est-il un probl&egrave;me
-                            important dans le pays&nbsp;?
+                            important dans le pays?
                         </em>
                     </li>
                     <li>
-                        <em>Touche-t-il uniquement certains secteurs&nbsp;?</em>
+                        <em>Touche-t-il uniquement certains secteurs?</em>
                     </li>
                     <li>
                         <em>
                             Les enfants travaillent-ils surtout dans des
                             entreprises du secteur formel ou du secteur
-                            informel&nbsp;?
+                            informel?
                         </em>
                     </li>
                     <li>
@@ -809,18 +809,18 @@ const fr = () => {
                             travailleurs qui n&apos;ont pas l&apos;&acirc;ge
                             l&eacute;gal de travailler, ou celui de ceux qui ont
                             l&apos;&acirc;ge l&eacute;gal de travailler mais
-                            effectuent des travaux dangereux&nbsp;?
+                            effectuent des travaux dangereux?
                         </em>
                     </li>
                 </ul>
-                <h3>L&eacute;gislatif :</h3>
+                <h3>L&eacute;gislatif:</h3>
                 <ul>
                     <li>
                         <em>
                             Quelles sont les lois nationales existantes sur le
                             travail des enfants d&eacute;finissant le travail
-                            permis ou pas pour les enfants&nbsp;? Quelles en
-                            sont les dispositions et d&eacute;finitions&nbsp;?
+                            permis ou pas pour les enfants? Quelles en
+                            sont les dispositions et d&eacute;finitions?
                         </em>
                     </li>
                     <li>
@@ -828,84 +828,84 @@ const fr = () => {
                             Le pays a-t-il ratifi&eacute; les conventions de
                             l&apos;OIT sur l&apos;&acirc;ge minimum
                             (convention&nbsp;138) et/ou les pires formes de
-                            travail des enfants (convention&nbsp;182)&nbsp;?
+                            travail des enfants (convention&nbsp;182)?
                         </em>
                     </li>
                     <li>
                         <em>
                             Une liste de ce qui constitue des travaux
                             «&nbsp;dangereux&nbsp;» a-t-elle fait l&apos;objet
-                            d&apos;un accord entre partenaires sociaux&nbsp;?
+                            d&apos;un accord entre partenaires sociaux?
                         </em>
                     </li>
                 </ul>
-                <h3>Organisations :</h3>
+                <h3>Organisations:</h3>
                 <ul>
                     <li>
                         <em>
                             Le gouvernement est-il actif dans l&apos;application
-                            des lois&nbsp;? Quels minist&egrave;res ou
-                            organismes sont actifs dans ce domaine&nbsp;?
+                            des lois? Quels minist&egrave;res ou
+                            organismes sont actifs dans ce domaine?
                         </em>
                     </li>
                     <li>
                         <em>
                             Le minist&egrave;re de l&apos;&Eacute;ducation
-                            est-il un intervenant important&nbsp;? Qu&apos;en
-                            est-il des conseils locaux&nbsp;?
+                            est-il un intervenant important? Qu&apos;en
+                            est-il des conseils locaux?
                         </em>
                     </li>
                     <li>
                         <em>
                             Quelles ONG locales, nationales et internationales
                             sont actives dans votre r&eacute;gion, dans le
-                            domaine du travail des enfants&nbsp;? Existe-t-il
+                            domaine du travail des enfants? Existe-t-il
                             des groupes ext&eacute;rieurs surveillant la
                             question, ou d&apos;autres qui pourraient aider les
                             entreprises et les organisations d&apos;employeurs
                             &agrave; soustraire les enfants au travail et
                             &agrave; aider leurs parents &agrave; augmenter
-                            leurs revenus&nbsp;?
+                            leurs revenus?
                         </em>
                     </li>
                     <li>
                         <em>
                             Des organisations internationales, telles que
                             l&apos;OIT et l&apos;UNICEF, sont-elles actives dans
-                            le pays&nbsp;? L&apos;Organisation internationale
-                            pour les migrations&nbsp;?
+                            le pays? L&apos;Organisation internationale
+                            pour les migrations?
                         </em>
                     </li>
                     <li>
                         <em>
                             Quels sont les autres groupes, y compris les
                             associations sectorielles, qui sont actifs dans le
-                            pays&nbsp;?
+                            pays?
                         </em>
                     </li>
                 </ul>
-                <h3>Acheteurs et consommateurs :</h3>
+                <h3>Acheteurs et consommateurs:</h3>
                 <ul>
                     <li>
                         <em>
                             Les attentes des acheteurs et des consommateurs
                             sont-elles plus strictes que les lois
-                            nationales&nbsp;?
+                            nationales?
                         </em>
                     </li>
                     <li>
                         <em>
                             Les attentes des acheteurs varient-elles selon les
-                            secteurs&nbsp;? Par exemple, les acheteurs du
+                            secteurs? Par exemple, les acheteurs du
                             secteur du textile sont-ils plus exigeants que les
-                            acheteurs de celui du caf&eacute;&nbsp;?
+                            acheteurs de celui du caf&eacute;?
                         </em>
                     </li>
                     <li>
                         <em>
                             Les producteurs se sont-ils plaints de la
                             multiplicit&eacute; des exigences des
-                            acheteurs&nbsp;?
+                            acheteurs?
                         </em>
                     </li>
                     <li>
@@ -913,7 +913,7 @@ const fr = () => {
                             Une coordination des acheteurs a-t-elle
                             &eacute;t&eacute; tent&eacute;e pour qu&apos;ils
                             s&apos;accordent sur un m&ecirc;me ensemble de
-                            normes&nbsp;?
+                            normes?
                         </em>
                     </li>
                 </ul>

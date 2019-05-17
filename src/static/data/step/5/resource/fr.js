@@ -25,7 +25,7 @@ const fr = () => {
                     </li>
                     <li>
                         <em>
-                            Combattre le travail forc&eacute; : Manuel pour les
+                            Combattre le travail forc&eacute;: Manuel pour les
                             employeurs et le secteur priv&eacute;.
                         </em>{" "}
                         Gen&egrave;ve, 2015&nbsp;; disponible sur{" "}
@@ -33,7 +33,7 @@ const fr = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.ilo.org/global/topics/forced-labour/lang--en/index.htm"
-                            title="Combattre le travail forc&eacute; : Manuel pour les employeurs et le secteur priv&eacute;."
+                            title="Combattre le travail forc&eacute;: Manuel pour les employeurs et le secteur priv&eacute;."
                         >
                             http://www.ilo.org/global/topics/forced-labour/lang--fr/index.htm
                         </a>

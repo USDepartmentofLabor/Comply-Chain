@@ -134,7 +134,7 @@ const fr = () => {
                     Vous trouverez ci-dessous des directives
                     g&eacute;n&eacute;rales concernant le contenu qu&apos;il
                     faudrait inclure dans un rapport sur la conformit&eacute;
-                    sociale :
+                    sociale:
                 </p>
                 <ul>
                     <li>
@@ -303,7 +303,7 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Nike*&nbsp;: rapports
+                            Exemple d&apos;action: Nike*: rapports
                             sur les r&eacute;parations
                         </strong>
                     </h2>

@@ -9,7 +9,7 @@ const fr = ({ pdf }) => {
             <div>
                 <h1>
                     Pourquoi &eacute;laborer un syst&egrave;me de
-                    conformit&eacute; sociale&nbsp;?
+                    conformit&eacute; sociale?
                 </h1>
                 <p>
                     L&apos;abolition du travail des enfants et du travail
@@ -31,7 +31,7 @@ const fr = ({ pdf }) => {
                 <p>
                     Les entreprises ont diverses motivations pour la mise en
                     &oelig;uvre de syst&egrave;mes de conformit&eacute; sociale,
-                    notamment les suivantes&nbsp;:
+                    notamment les suivantes:
                 </p>
                 <h2>Lois et r&eacute;glementations</h2>
                 <p>
@@ -654,7 +654,7 @@ const fr = ({ pdf }) => {
                                     d&apos;approvisionnement directe concernant
                                     les articles propos&eacute;s &agrave; la
                                     vente. Une entreprise doit communiquer dans
-                                    quelle mesure&nbsp;: 1) elle effectue le
+                                    quelle mesure: 1) elle effectue le
                                     contr&ocirc;le des cha&icirc;nes
                                     d&apos;approvisionnement de produits pour
                                     &eacute;valuer et &eacute;liminer les

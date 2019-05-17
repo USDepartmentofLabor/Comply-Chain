@@ -23,7 +23,7 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: R&eacute;seau de
+                            Exemple d&apos;action: R&eacute;seau de
                             l&rsquo;approvisionnement responsable
                         </strong>
                     </h2>
@@ -81,7 +81,7 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Alliance
+                            Exemple d&apos;action: Alliance
                             public-priv&eacute; pour le commerce responsable de
                             minerais
                         </strong>
@@ -142,7 +142,7 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Efforts tripartites
+                            Exemple d&apos;action: Efforts tripartites
                             pour abolir le travail des enfants dans les champs
                             de canne &agrave; sucre aux Philippines
                         </strong>
@@ -191,7 +191,7 @@ const fr = () => {
                         parties prenantes gouvernementales, sectorielles et
                         communautaires. Ces efforts de collaboration ont abouti
                         &agrave; toute une s&eacute;rie d&apos;activit&eacute;s,
-                        dont les suivantes :
+                        dont les suivantes:
                     </p>
                     <ul>
                         <li>
@@ -253,7 +253,7 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Groupe
+                            Exemple d&apos;action: Groupe
                             d&rsquo;innovation sur l&rsquo;huile de palme
                         </strong>
                     </h2>
@@ -290,7 +290,7 @@ const fr = () => {
                         pour lutter contre le travail des enfants dans
                         l&apos;offre mondiale de la palme, et comment les
                         consommateurs peuvent-ils prendre des d&eacute;cisions
-                        inform&eacute;es au supermarch&eacute;&nbsp;? Depuis
+                        inform&eacute;es au supermarch&eacute;? Depuis
                         2013, les producteurs d&rsquo;huile de palme Agropalma*
                         (Br&eacute;sil), DAABON* (Colombie) et Musim Mas*
                         (Singapour) ont &eacute;tabli des partenariats avec un

@@ -19,14 +19,14 @@ const fr = ({ pdf }) => {
                     conditions de travail. Il existe divers ACI mais ils se
                     fondent sur les normes fondamentales du travail de
                     l&apos;OIT, centr&eacute;es sur deux grandes
-                    cat&eacute;gories de normes : a) les principes et droits
+                    cat&eacute;gories de normes: a) les principes et droits
                     fondamentaux du travail (libert&eacute; d&apos;association,
                     n&eacute;gociation collective, non-discrimination,
                     &eacute;limination du travail forc&eacute;, abolition du
                     travail des enfants) et les termes et conditions minimum de
                     l&apos;emploi (dur&eacute;e du travail, salaires,
                     s&eacute;curit&eacute; et sant&eacute; au travail) ; et b)
-                    d&apos;autres conditions de travail : mobilit&eacute; et
+                    d&apos;autres conditions de travail: mobilit&eacute; et
                     questions connexes telles que la formation, la
                     s&eacute;curit&eacute; de l&apos;emploi, la sous-traitance
                     et la restructuration.&nbsp;
@@ -123,7 +123,7 @@ const fr = ({ pdf }) => {
                                 <li>
                                     Danone{" "}
                                     <em>
-                                        Danone-UITA&nbsp;: signature d&rsquo;un
+                                        Danone-UITA: signature d&rsquo;un
                                         dixi&egrave;me accord sur l&rsquo;emploi
                                         durable
                                     </em>
@@ -133,7 +133,7 @@ const fr = ({ pdf }) => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf"
-                                        title="Danone-UITA&nbsp;: signature d&rsquo;un dixi&egrave;me accord sur l&rsquo;emploi durable"
+                                        title="Danone-UITA: signature d&rsquo;un dixi&egrave;me accord sur l&rsquo;emploi durable"
                                     >
                                         https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf
                                     </a>
@@ -176,7 +176,7 @@ const fr = ({ pdf }) => {
                                     OIT. Cross-Border Social Dialogue and
                                     Agreements
                                     <em>
-                                        : An emerging global industrial
+                                       : An emerging global industrial
                                         relations framework?
                                     </em>{" "}
                                     Gen&egrave;ve, 2008&nbsp;; disponible [en
@@ -208,7 +208,7 @@ const fr = ({ pdf }) => {
                                 </li>
                                 <li>
                                     OIT-OIE. International framework agreements
-                                    : an employers&rsquo; guide ; 2007 ;
+                                   : an employers&rsquo; guide ; 2007 ;
                                     disponible [en anglais] sur{" "}
                                     <a
                                         target="_blank"

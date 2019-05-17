@@ -91,13 +91,12 @@ export const Info = {
             content: About.fr
         },
         whatAre: {
-            title:
-                "Qu'est-ce que le travail des enfants et le travail forcé\u00a0?",
+            title: "Qu'est-ce que le travail des enfants et le travail forcé?",
             keywords: ["Travail des enfants", "Travail forcé"],
             content: WhatAre.fr
         },
         whyDevelop: {
-            title: "Pourquoi élaborer un système de conformité sociale\u00a0?",
+            title: "Pourquoi élaborer un système de conformité sociale?",
             keywords: ["Législation"],
             content: WhyDevelop.fr
         },

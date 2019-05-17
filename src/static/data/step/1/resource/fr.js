@@ -46,7 +46,7 @@ const fr = () => {
                         Dickson, Marsha, Suzanne Loker, Molly Eckman,
                         «&nbsp;Stakeholder Theory and Social Responsibility ».
                         Social Responsibility in the Global Apparel Industry ;
-                        Fairchild Books, 2009 : 112-215 [en anglais].&nbsp;
+                        Fairchild Books, 2009: 112-215 [en anglais].&nbsp;
                     </li>
                     <li>
                         Soci&eacute;t&eacute; financi&egrave;re internationale.{" "}
@@ -96,14 +96,14 @@ const fr = () => {
                         &lsquo;Community Participation&rsquo; in Corporate
                         Community Involvement: Lessons from Magadi Soda in
                         Kenya&nbsp;», <em>Journal of Business Ethics</em> 85,
-                        Supplement 2 (2009)&nbsp;: 431-444 [en anglais].
+                        Supplement 2 (2009): 431-444 [en anglais].
                     </li>
                     <li>
                         Perrez-Aleman, Paola et Marion Sandilands.
                         «&nbsp;Building Value at the Top and the Bottom of the
                         Global Supply Chain: MNC-NGO Partnerships&nbsp;»,{" "}
                         <em>California Management Review</em> 51, n<sup>o</sup>
-                        &nbsp;1 (automne 2008)&nbsp;: 24-49 [en anglais].
+                        &nbsp;1 (automne 2008): 24-49 [en anglais].
                     </li>
                     <li>
                         Van Tulder, Rob, Jeroen van Wijk et Ans Kolk,
@@ -111,7 +111,7 @@ const fr = () => {
                         Approaches to Implement Safety and Health Codes in
                         International Supply Chains&nbsp;»,
                         <em> Journal of Business Ethics</em> 85,
-                        Supplement&nbsp;2 (2009)&nbsp;: 399-412 [en anglais].
+                        Supplement&nbsp;2 (2009): 399-412 [en anglais].
                     </li>
                     <li>
                         S. d&eacute;partement du Travail des &Eacute;tats-Unis.

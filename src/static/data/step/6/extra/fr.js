@@ -8,7 +8,7 @@ const fr = () => {
                     Chaque violation identifi&eacute;e dans un audit devrait
                     &ecirc;tre r&eacute;par&eacute;e. Diff&eacute;rentes parties
                     prenantes devraient jouer un r&ocirc;le dans la
-                    r&eacute;paration : la direction de
+                    r&eacute;paration: la direction de
                     l&apos;&eacute;tablissement du fournisseur devrait
                     s&apos;engager &agrave; corriger les violations ;
                     l&rsquo;entreprise devrait poss&eacute;der les

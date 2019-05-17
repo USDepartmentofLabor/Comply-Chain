@@ -33,7 +33,7 @@ const fr = () => {
                 </p>
                 <p>
                     Par exemple, en ce qui concerne le travail des enfants, un
-                    code de conduite pourrait &eacute;noncer :
+                    code de conduite pourrait &eacute;noncer:
                 </p>
                 <ul>
                     <li>
@@ -48,48 +48,48 @@ const fr = () => {
                 <p>
                     En se fondant sur cette disposition du code, l&apos;outil
                     d&apos;audit m&egrave;nera alors l&apos;auditeur &agrave;
-                    examiner les questions suivantes :
+                    examiner les questions suivantes:
                 </p>
                 <ul>
                     <li>
                         Quelle preuve de documentation de l&apos;&acirc;ge est
-                        exig&eacute;e au moment de l&apos;embauche&nbsp;?
+                        exig&eacute;e au moment de l&apos;embauche?
                         Comment cette documentation est-elle
-                        v&eacute;rifi&eacute;e&nbsp;? O&ugrave; est
+                        v&eacute;rifi&eacute;e? O&ugrave; est
                         conserv&eacute;e la documentation de preuve de
-                        l&apos;&acirc;ge&nbsp;?
+                        l&apos;&acirc;ge?
                     </li>
                     <li>
                         Si des enfants de moins de 15 ans se trouvent dans
                         l&apos;&eacute;tablissement, travaillent-ils dans le
                         cadre d&apos;un programme l&eacute;gal
-                        d&apos;apprentissage ou de formation&nbsp;? Quelle
+                        d&apos;apprentissage ou de formation? Quelle
                         documentation l&apos;&eacute;tablissement conserve-t-il
                         pour v&eacute;rifier qu&apos;il s&apos;agit d&apos;un
                         programme l&eacute;gitime d&apos;apprentissage ou de
-                        formation&nbsp;?
+                        formation?
                     </li>
                     <li>
                         Les enfants font-ils des «&nbsp;travaux
                         l&eacute;gers&nbsp;» tels que d&eacute;finis par les
-                        lois locales ou par les normes internationales&nbsp;?
+                        lois locales ou par les normes internationales?
                         Comment l&apos;&eacute;tablissement d&eacute;finit-il et
-                        documente-t-il les « travaux l&eacute;gers »&nbsp;?
+                        documente-t-il les « travaux l&eacute;gers »?
                     </li>
                     <li>
                         Quelles sont les conditions de travail de tous les
-                        mineurs de moins de 18&nbsp;ans&nbsp;? Quelles
-                        t&acirc;ches sp&eacute;cifiques accomplissent-ils&nbsp;?
-                        De quels &eacute;quipements se servent-ils&nbsp;? Ces
+                        mineurs de moins de 18&nbsp;ans? Quelles
+                        t&acirc;ches sp&eacute;cifiques accomplissent-ils?
+                        De quels &eacute;quipements se servent-ils? Ces
                         t&acirc;ches ou ces &eacute;quipements peuvent-ils
-                        &ecirc;tre dangereux&nbsp;?
+                        &ecirc;tre dangereux?
                     </li>
                     <li>
                         Quelle distinction l&apos;&eacute;tablissement fait-il
                         entre les travaux dangereux ou pas, et comment
                         s&apos;assure-t-il que les mineurs de moins de 18 ans
                         n&apos;accomplissent pas de travaux dangereux, en
-                        contravention avec le droit international&nbsp;?
+                        contravention avec le droit international?
                     </li>
                 </ul>
                 <p>
@@ -100,10 +100,10 @@ const fr = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_099626/lang--en/index.htm"
-                        title="Combattre le travail forc&eacute; : Manuel pour les employeurs et le secteur priv&eacute;&nbsp;&ndash; Brochure 4"
+                        title="Combattre le travail forc&eacute;: Manuel pour les employeurs et le secteur priv&eacute;&nbsp;&ndash; Brochure 4"
                     >
                         <em>
-                            Combattre le travail forc&eacute;&nbsp;: Manuel pour
+                            Combattre le travail forc&eacute;: Manuel pour
                             les employeurs et le secteur
                             priv&eacute;&nbsp;&ndash; Brochure&nbsp;4
                         </em>
@@ -120,10 +120,10 @@ const fr = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm"
-                        title="Points de contr&ocirc;le &agrave; l&rsquo;intention des entreprises&nbsp;: &eacute;liminer et pr&eacute;venir le travail forc&eacute;"
+                        title="Points de contr&ocirc;le &agrave; l&rsquo;intention des entreprises: &eacute;liminer et pr&eacute;venir le travail forc&eacute;"
                     >
                         Points de contr&ocirc;le &agrave; l&rsquo;intention des
-                        entreprises&nbsp;: &eacute;liminer et pr&eacute;venir le
+                        entreprises: &eacute;liminer et pr&eacute;venir le
                         travail forc&eacute;
                     </a>
                     , disponible en anglais uniquement, pour permettre aux
@@ -138,31 +138,31 @@ const fr = () => {
                     forc&eacute;.&nbsp;
                 </p>
                 <h2>
-                    Tableau&nbsp;1&nbsp;: Indicateurs de travail forc&eacute;
+                    Tableau&nbsp;1: Indicateurs de travail forc&eacute;
                     obtenu par des pratiques de recrutement
                 </h2>
                 <ol>
                     <li>
                         Y a-t-il des travailleurs n&eacute;s ou descendants
                         d&apos;un statut d&rsquo;«&nbsp;esclave&nbsp;» ou de
-                        servitude&nbsp;?
+                        servitude?
                     </li>
                     <li>
                         Y a-t-il des travailleurs enlev&eacute;s, retenus
                         pendant le processus de recrutement ou vendus pour ce
-                        travail&nbsp;?
+                        travail?
                     </li>
                     <li>
                         Y a-t-il des travailleurs recrut&eacute;s sous une forme
                         d&apos;arrangement pour dettes, par exemple une avance
                         ou un pr&ecirc;t, qu&apos;ils travaillent &agrave;
-                        rembourser&nbsp;?
+                        rembourser?
                     </li>
                     <li>
                         Au moment du recrutement, y a-t-il des travailleurs
                         auxquels on a dit qu&apos;ils feraient un travail
                         d&apos;une nature diff&eacute;rente de celui qu&apos;ils
-                        accomplissent&nbsp;?
+                        accomplissent?
                     </li>
                     <li>
                         Au moment du recrutement, a-t-on promis &agrave; des
@@ -171,16 +171,16 @@ const fr = () => {
                         conditions d&rsquo;existence, des lieux de travail, des
                         employeurs ou des salaires/des revenus diff&eacute;rents
                         de ceux qu&apos;ils ont &agrave; l&apos;heure
-                        actuelle&nbsp;?
+                        actuelle?
                     </li>
                     <li>
                         Au moment du recrutement, a-t-on offert un mariage
                         &agrave; certains travailleurs &agrave; titre
-                        d&apos;incitation&nbsp;?
+                        d&apos;incitation?
                     </li>
                 </ol>
                 <h2>
-                    Tableau&nbsp;2&nbsp;: Indicateurs de travail forc&eacute;
+                    Tableau&nbsp;2: Indicateurs de travail forc&eacute;
                     obtenu par un travail et des conditions d&rsquo;existence
                     sous la contrainte
                 </h2>
@@ -188,30 +188,30 @@ const fr = () => {
                     <li>
                         Y a-t-il des travailleurs qui font des heures
                         suppl&eacute;mentaires excessives, au-del&agrave; des
-                        limites pr&eacute;vues par la loi&nbsp;?
+                        limites pr&eacute;vues par la loi?
                     </li>
                     <li>
                         Y a-t-il des travailleurs contraints d&rsquo;effectuer
-                        des astreintes (jour ou nuit)&nbsp;?
+                        des astreintes (jour ou nuit)?
                     </li>
                     <li>
                         L&apos;employeur restreint-il la libert&eacute; de
                         d&eacute;placement ou de communication des travailleurs
                         avec des tiers, &agrave; l&apos;int&eacute;rieur ou
                         &agrave; l&apos;ext&eacute;rieur du lieu de
-                        travail&nbsp;?
+                        travail?
                     </li>
                     <li>
                         Si l&apos;employeur fournit un logement aux
                         travailleurs, les conditions d&rsquo;existence
-                        sont-elles d&eacute;gradantes&nbsp;?
+                        sont-elles d&eacute;gradantes?
                     </li>
                     <li>
                         L&apos;employeur contraint-il les travailleurs &agrave;
                         ex&eacute;cuter des activit&eacute;s illicites, &agrave;
                         travailler pour son domicile priv&eacute; ou sa famille
                         ou &agrave; prendre des drogues
-                        toxicomanog&egrave;nes&nbsp;?
+                        toxicomanog&egrave;nes?
                     </li>
                     <li>
                         L&apos;employeur impose-t-il aux travailleurs des dettes
@@ -222,13 +222,13 @@ const fr = () => {
                         produits par les travailleurs, en facturant des
                         int&eacute;r&ecirc;ts excessifs sur les pr&ecirc;ts ou
                         les avances accord&eacute;s aux travailleurs,
-                        etc.&nbsp;?
+                        etc.?
                     </li>
                     <li>
                         Y a-t-il des travailleurs tributaires de
                         l&apos;employeur quant au logement, &agrave; la
                         nourriture et aux autres produits de premi&egrave;re
-                        n&eacute;cessit&eacute;&nbsp;?
+                        n&eacute;cessit&eacute;?
                     </li>
                     <li>
                         Y a-t-il des travailleurs en relation de
@@ -236,11 +236,11 @@ const fr = () => {
                         de leur emploi, par ex. rapports personnels,
                         d&eacute;pendance vis-&agrave;-vis de l&apos;employeur
                         quant &agrave; l&apos;emploi de membres de leur famille,
-                        etc.&nbsp;?
+                        etc.?
                     </li>
                 </ol>
                 <h2>
-                    Tableau&nbsp;3&nbsp;: Indicateurs de travail forc&eacute;
+                    Tableau&nbsp;3: Indicateurs de travail forc&eacute;
                     obtenu par l&apos;impossibilit&eacute; de partir
                 </h2>
                 <ol>
@@ -248,28 +248,28 @@ const fr = () => {
                         Y a-t-il des travailleurs qui estiment qu&apos;ils ne
                         sont pas libres de d&eacute;missionner en raison de la
                         formation, ou d&apos;autres avantages re&ccedil;us de
-                        l&apos;employeur&nbsp;?
+                        l&apos;employeur?
                     </li>
                     <li>
                         Les travailleurs peuvent-ils mettre fin &agrave; leur
                         emploi &agrave; tout moment, sans p&eacute;nalit&eacute;
-                        (sauf celles pr&eacute;vues par la loi)&nbsp;?
+                        (sauf celles pr&eacute;vues par la loi)?
                     </li>
                     <li>
                         Y a-t-il des travailleurs qui estiment devoir rester
                         dans leur emploi car ils attendent qu&apos;on leur verse
-                        les salaires qui leur sont dus&nbsp;?
+                        les salaires qui leur sont dus?
                     </li>
                     <li>
                         Y a-t-il des travailleurs qui travaillent pendant des
                         p&eacute;riodes de dur&eacute;e excessive ou
                         ind&eacute;finie pour rembourser une dette ou une avance
                         re&ccedil;ue de l&apos;employeur ou d&apos;un
-                        recruteur&nbsp;?
+                        recruteur?
                     </li>
                 </ol>
                 <h2>
-                    Tableau&nbsp;4&nbsp;: Indicateurs de sanctions ou de menaces
+                    Tableau&nbsp;4: Indicateurs de sanctions ou de menaces
                 </h2>
                 <p>
                     Si l&apos;un des indicateurs ci-dessus est relev&eacute;
@@ -278,19 +278,19 @@ const fr = () => {
                     ait un indicateur par tableau), l&apos;auditeur devrait
                     examiner si des sanctions ou des menaces servent &agrave;
                     extorquer du travail. Si c&apos;est le cas, la situation
-                    peut constituer du travail forc&eacute; :
+                    peut constituer du travail forc&eacute;:
                 </p>
                 <ol>
                     <li>
                         L&apos;employeur (ou le recruteur) menace-t-il de
                         remettre les travailleurs aux autorit&eacute;s publiques
                         (p. ex. les autorit&eacute;s de
-                        l&apos;immigration)&nbsp;?
+                        l&apos;immigration)?
                     </li>
                     <li>
                         L&apos;employeur (ou le recruteur) a-t-il pris
                         possession des papiers d&apos;identit&eacute; ou des
-                        titres de voyage des travailleurs&nbsp;?
+                        titres de voyage des travailleurs?
                     </li>
                     <li>
                         L&apos;employeur restreint-il la communication des
@@ -299,55 +299,55 @@ const fr = () => {
                         travailleurs des autres travailleurs, en enfermant les
                         travailleurs dans leur lieu de travail ou dans leur
                         logement, ou en les pla&ccedil;ant sous surveillance
-                        constante&nbsp;?
+                        constante?
                     </li>
                     <li>
                         L&apos;employeur (ou le recruteur) exerce-t-il des
                         violences physiques ou sexuelles sur les travailleurs,
                         ou les en menace-t-il, y compris des ch&acirc;timents
-                        violents sur un travailleur devant les autres&nbsp;?
+                        violents sur un travailleur devant les autres?
                     </li>
                     <li>
                         L&apos;employeur punit-il ou menace-t-il de punir les
                         travailleurs par d&apos;autres moyens, par exemple la
                         privation de nourriture, d&apos;eau ou de sommeil, ou en
-                        mena&ccedil;ant les membres de leur famille&nbsp;?
+                        mena&ccedil;ant les membres de leur famille?
                     </li>
                     <li>
                         L&apos;employeur (ou le recruteur) menace-t-il de
                         retirer des avantages, par exemple une promotion
-                        potentielle&nbsp;?
+                        potentielle?
                     </li>
                     <li>
                         L&apos;employeur menace-t-il d&apos;une aggravation des
-                        conditions de travail&nbsp;?
+                        conditions de travail?
                     </li>
                     <li>
                         L&apos;employeur (ou le recruteur) exploite-t-il les
                         convictions religieuses ou culturelles des travailleurs
-                        pour les menacer&nbsp;?
+                        pour les menacer?
                     </li>
                     <li>
                         L&apos;employeur (ou le recruteur) retient-il des biens
                         des travailleurs, par exemple des effets personnels, de
-                        l&apos;argent liquide, etc.&nbsp;?
+                        l&apos;argent liquide, etc.?
                     </li>
                     <li>
                         L&apos;employeur retient-il les salaires des
-                        travailleurs&nbsp;?
+                        travailleurs?
                     </li>
                     <li>
                         L&apos;employeur menace-t-il de renvoyer/licencier des
-                        travailleurs&nbsp;?
+                        travailleurs?
                     </li>
                     <li>
                         L&apos;employeur menace-t-il de travail
                         suppl&eacute;mentaire les travailleurs qui ne
-                        coop&egrave;rent pas&nbsp;?
+                        coop&egrave;rent pas?
                     </li>
                     <li>
                         L&apos;employeur menace-t-il de sanctions
-                        financi&egrave;res&nbsp;?
+                        financi&egrave;res?
                     </li>
                     <li>
                         L&apos;employeur (ou le recruteur) menace-t-il de
@@ -356,7 +356,7 @@ const fr = () => {
                         d&apos;exclure des travailleurs d&apos;activit&eacute;s
                         sociales ou communautaires, ou a-t-il recours &agrave;
                         du chantage pour exercer des contraintes sur les
-                        travailleurs&nbsp;?
+                        travailleurs?
                     </li>
                 </ol>
                 <p>
@@ -381,7 +381,7 @@ const fr = () => {
                     code de conduite, qui sont r&eacute;f&eacute;renc&eacute;es
                     &agrave; la{" "}
                     <Link to="/steps/3">
-                        3<sup>e</sup>&nbsp;&eacute;tape&nbsp;: &eacute;laborer
+                        3<sup>e</sup>&nbsp;&eacute;tape: &eacute;laborer
                         un code de conduite
                     </Link>
                     . Ces r&eacute;f&eacute;rences, qui couvrent toute une
@@ -399,7 +399,7 @@ const fr = () => {
                 <ExampleInAction id="rst1a">
                     <h2>
                         <ExampleInAction.Icon />{" "}
-                        Exemple d&apos;action&nbsp;: Outil
+                        Exemple d&apos;action: Outil
                         d&rsquo;approvisionnement responsable&nbsp;1A
                     </h2>
                     <VeriteFlagWrapper>
@@ -668,7 +668,7 @@ const fr = () => {
                             d&rsquo;exigences juridiques, ils sont
                             imm&eacute;diatement rendus au travailleur sur sa
                             demande et sans conditions pr&eacute;alables. Dans
-                            ce cas, l&rsquo;employeur ou le sous-traitant&nbsp;:
+                            ce cas, l&rsquo;employeur ou le sous-traitant:
                             <ul>
                                 <li>
                                     Fournit aux travailleurs une copie conforme
@@ -801,7 +801,7 @@ const fr = () => {
                         <li>
                             Les travailleurs migrants sont trait&eacute;s de
                             fa&ccedil;on non moins favorable que les
-                            ressortissants du pays en mati&egrave;re&nbsp;:
+                            ressortissants du pays en mati&egrave;re:
                             <ul>
                                 <li>
                                     de r&eacute;mun&eacute;ration, heures de
@@ -902,7 +902,7 @@ const fr = () => {
                             accord&eacute;s aux travailleurs, tout comme les
                             taux d&rsquo;int&eacute;r&ecirc;t connexes, sont au
                             minimum en conformit&eacute; avec la loi. Par
-                            ailleurs&nbsp;:
+                            ailleurs:
                             <ul>
                                 <li>
                                     Les taux d&rsquo;int&eacute;r&ecirc;t et les
@@ -950,7 +950,7 @@ const fr = () => {
                             Si les travailleurs migrants paient
                             l&rsquo;h&eacute;bergement ou les repas fournis ou
                             pr&eacute;par&eacute;s par l&rsquo;employeur, les
-                            frais correspondants :
+                            frais correspondants:
                             <ul>
                                 <li>
                                     ne d&eacute;passent pas les taux du
@@ -1354,7 +1354,7 @@ const fr = () => {
                     </ul>
                     <p>
                         <strong>
-                            Source&nbsp;: Outil d&rsquo;approvisionnement
+                            Source: Outil d&rsquo;approvisionnement
                             responsable&nbsp;1A,{" "}
                         </strong>
                         <a
