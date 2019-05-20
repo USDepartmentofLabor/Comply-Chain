@@ -2,6 +2,7 @@
     "name": "gov.dol.complychain",
     "version": "0.1.0",
     "private": true,
+    "homepage": ".",
     "dependencies": {
         "@babel/core": "7.2.2",
         "@svgr/webpack": "^4.2.0",
