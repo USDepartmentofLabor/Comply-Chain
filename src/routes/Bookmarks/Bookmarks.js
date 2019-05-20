@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { toast } from "react-toastify";
+import { toast, cssTransition } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import styled from "styled-components";
 import Icons from "../../components/Icons";
@@ -98,6 +98,13 @@ const ToastUndo = ({ bookmark, localizor, undo, shouldClose, closeToast }) => {
     );
 };
 
+const Slide = cssTransition({
+    enter: "Toastify__slide-enter",
+    exit: "Toastify__slide-exit",
+    duration: [450, 750],
+    appendPosition: true
+});
+
 class Bookmarks extends Component {
     constructor(props) {
         super(props);
@@ -188,13 +195,11 @@ class Bookmarks extends Component {
                 bookmark={bookmark}
             />
         );
-        if (bookmarksToRemove.length > 1) {
-            toast.update(this.toastId, {
-                render: toastComp
-            });
-        } else {
-            toast(toastComp, { toastId: this.toastId });
-        }
+        toast(toastComp, {
+            toastId: this.toastId,
+            transition: Slide
+        });
+
         clearTimeout(this.undoTimer);
         this.undoTimer = setTimeout(() => {
             toast.dismiss(this.toastId);
