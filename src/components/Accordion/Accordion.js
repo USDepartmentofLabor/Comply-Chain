@@ -93,6 +93,9 @@ class Accordion extends Component {
     };
 
     isVisible = ele => {
+        if (!ele) {
+            return false;
+        }
         var rect = ele.getBoundingClientRect();
         var viewHeight = Math.max(
             document.documentElement.clientHeight,
