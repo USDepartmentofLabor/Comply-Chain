@@ -93,7 +93,9 @@ const ToastUndo = ({ bookmark, localizor, undo, shouldClose, closeToast }) => {
                 </ToastStrong>{" "}
                 from your bookmarks.
             </UndoText>{" "}
-            <UndoButton onClick={handleClick}>Undo</UndoButton>
+            <UndoButton onTouchStart={() => {
+                handleClick();
+            }} onClick={handleClick}>Undo</UndoButton>
         </Content>
     );
 };
