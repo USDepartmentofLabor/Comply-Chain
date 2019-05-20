@@ -858,32 +858,38 @@ const es = ({ pdf }) => {
                     brinden apoyo y recursos considerables a sus sistemas de
                     cumplimiento social.
                 </p>
-                <h2>
-                    <strong>Recursos adicionales</strong>
-                </h2>
-                <ol>
-                    <li>
-                        OIT.{" "}
-                        <em>
-                            <i>
-                                Progress and potential: How Better Work is
-                                Improving Garment Workers&rsquo; Lives and
-                                Boosting Factory Competitiveness: A Summary of
-                                an Independent Assessment of the Better Work
-                                Programme;
-                            </i>
-                        </em>{" "}
-                        2016; disponible en idioma ingl&eacute;s solamente en{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf"
-                        >
-                            http://www1.ifc.org/wps/wcm/connect/a4aab30048865910b81afa6a6515bb18/SAI_IFC_LaborHandbook_Ch1-Intro.pdf?MOD=AJPERES&amp;CACHEID=a4aab30048865910b81afa6a6515bb18
-                        </a>
-                        .
-                    </li>
-                </ol>
+                <Accordion pdf={pdf}>
+                    <Accordion.Section id="resources">
+                        <Accordion.Title>Recursos adicionales</Accordion.Title>
+                        <Accordion.Panel>
+                            <ol>
+                                <li>
+                                    OIT.{" "}
+                                    <em>
+                                        <i>
+                                            Progress and potential: How Better
+                                            Work is Improving Garment
+                                            Workers&rsquo; Lives and Boosting
+                                            Factory Competitiveness: A Summary
+                                            of an Independent Assessment of the
+                                            Better Work Programme;
+                                        </i>
+                                    </em>{" "}
+                                    2016; disponible en idioma ingl&eacute;s
+                                    solamente en{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf"
+                                    >
+                                        http://www1.ifc.org/wps/wcm/connect/a4aab30048865910b81afa6a6515bb18/SAI_IFC_LaborHandbook_Ch1-Intro.pdf?MOD=AJPERES&amp;CACHEID=a4aab30048865910b81afa6a6515bb18
+                                    </a>
+                                    .
+                                </li>
+                            </ol>
+                        </Accordion.Panel>
+                    </Accordion.Section>
+                </Accordion>
             </div>
         </StaticData>
     );

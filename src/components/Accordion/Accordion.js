@@ -48,7 +48,7 @@ class Accordion extends Component {
     componentDidUpdate() {
         // if text updates - update the current opened accordion height.
         this.section.some((section, i) => {
-            if (this.panel[i] && this.panel[i].style.maxHeight) {
+            if (this.panel[i] && this.panel[i].style.height) {
                 this.makeActive(i);
                 return true;
             }
@@ -63,7 +63,7 @@ class Accordion extends Component {
     }
 
     toggleActive = sectionIndex => {
-        if (this.panel[sectionIndex].style.maxHeight) {
+        if (this.panel[sectionIndex].style.height) {
             this.makeInactive(sectionIndex);
         } else {
             this.makeActive(sectionIndex);
@@ -78,7 +78,7 @@ class Accordion extends Component {
     makeInactive = sectionIndex => {
         this.title[sectionIndex].classList.remove("active");
         this.title[sectionIndex].setAttribute("aria-expanded", false);
-        this.panel[sectionIndex].style.maxHeight = null;
+        this.panel[sectionIndex].style.height = null;
         this.panel[sectionIndex].style.display = "none";
         storage.accordion.removeAccordionId();
     };
@@ -87,8 +87,7 @@ class Accordion extends Component {
         this.title[sectionIndex].classList.add("active");
         this.title[sectionIndex].setAttribute("aria-expanded", true);
         this.panel[sectionIndex].style.display = "block";
-        this.panel[sectionIndex].style.maxHeight =
-            this.panel[sectionIndex].scrollHeight + "px";
+        this.panel[sectionIndex].style.height = "auto";
         storage.accordion.setAccordionId(this.section[sectionIndex].id);
     };
 
@@ -117,7 +116,7 @@ class Accordion extends Component {
     closeOthers = sectionIndex => {
         this.section.map((section, i) => {
             if (section && sectionIndex !== i) {
-                this.panel[i].style.maxHeight = null;
+                this.panel[i].style.height = null;
                 this.title[i].classList.remove("active");
             }
             return section;
@@ -218,7 +217,7 @@ Accordion.Panel = styled.div`
     border-bottom: 3px solid ${theme.colors.offWhite};
     border-left: 3px solid ${theme.colors.offWhite};
     border-right: 3px solid ${theme.colors.offWhite};
-    max-height: 0;
+    height: 0;
     display: none;
     overflow: hidden;
 `;
@@ -238,7 +237,7 @@ const PdfTitle = styled(Accordion.Title)`
 `;
 const PdfPanel = styled(Accordion.Panel)`
     display: block;
-    max-height: 10000px;
+    height: auto;
 `;
 
 Accordion.Section.propTypes = {

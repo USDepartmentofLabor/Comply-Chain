@@ -742,29 +742,36 @@ const en = ({ pdf }) => {
                     companies are more likely to devote significant support and
                     resources to their social compliance systems.
                 </p>
-                <h2>
-                    <strong>Further Resources</strong>
-                </h2>
-                <ol>
-                    <li>
-                        ILO.{" "}
-                        <em>
-                            Progress and potential: How Better Work is Improving
-                            Garment Workers&rsquo; Lives and Boosting Factory
-                            Competitiveness: A Summary of an Independent
-                            Assessment of the Better Work Programme;.
-                        </em>{" "}
-                        2016 available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf"
-                        >
-                            https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf
-                        </a>
-                        .
-                    </li>
-                </ol>
+
+                <Accordion pdf={pdf}>
+                    <Accordion.Section id="resources">
+                        <Accordion.Title>Further Resources</Accordion.Title>
+                        <Accordion.Panel>
+                            <ol>
+                                <li>
+                                    ILO.{" "}
+                                    <em>
+                                        Progress and potential: How Better Work
+                                        is Improving Garment Workers&rsquo;
+                                        Lives and Boosting Factory
+                                        Competitiveness: A Summary of an
+                                        Independent Assessment of the Better
+                                        Work Programme;.
+                                    </em>{" "}
+                                    2016 available from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf"
+                                    >
+                                        https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf
+                                    </a>
+                                    .
+                                </li>
+                            </ol>
+                        </Accordion.Panel>
+                    </Accordion.Section>
+                </Accordion>
             </div>
         </StaticData>
     );

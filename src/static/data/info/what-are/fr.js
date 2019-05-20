@@ -159,10 +159,10 @@ const fr = ({ pdf }) => {
                                 trait aux «&nbsp;travaux dangereux&nbsp;». La
                                 recommandation n<sup>o</sup>
                                 &nbsp;190 de l&apos;OIT pr&eacute;cise &agrave;
-                                la section&nbsp;II, paragraphe&nbsp;3:
-                                «&nbsp;En d&eacute;terminant les types de
-                                travail vis&eacute;s &agrave; l&apos;article 3
-                                (d) de la convention [n
+                                la section&nbsp;II, paragraphe&nbsp;3: «&nbsp;En
+                                d&eacute;terminant les types de travail
+                                vis&eacute;s &agrave; l&apos;article 3 (d) de la
+                                convention [n
                                 <sup>o</sup>&nbsp;182 de l&apos;OIT] et leur
                                 localisation, il faudrait, entre autres, prendre
                                 en consid&eacute;ration:
@@ -308,178 +308,206 @@ const fr = ({ pdf }) => {
                                 disponibles.
                             </p>
                             <p />
-                            <h3>
-                                <strong>Autres ressources</strong>
-                            </h3>
-                            <ol>
-                                <li>
-                                    Organisation internationale du Travail, Les
-                                    estimations mondiales sur le travail des
-                                    enfants&nbsp;pour 2016: r&eacute;sultats et
-                                    tendances, 2012-2016, Gen&egrave;ve,
-                                    septembre 2017.
-                                </li>
-                                <li>
-                                    Organisation internationale du Travail,
-                                    Intensifier la lutte contre le travail des
-                                    enfants: Rapport global en vertu du suivi
-                                    de la D&eacute;claration de l&apos;OIT
-                                    relative aux principes et droits
-                                    fondamentaux au travail&nbsp;&ndash; 2010,
-                                    Gen&egrave;ve ; 2010 ; disponible [en
-                                    anglais] sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.ilo.org/global/publications/books/WCMS_127688/lang--en/index.htm%20"
-                                        title="Rapport global en vertu du suivi de la D&eacute;claration de l'OIT relative aux principes et droits fondamentaux au travail&nbsp;&ndash; 2010"
-                                    >
-                                        http://www.ilo.org/global/publications/books/WCMS_127688/lang--fr/index.htm
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Organisation internationale du Travail,
-                                    «&nbsp;Qu&apos;est-ce que le travail des
-                                    enfants?&nbsp;» consult&eacute; le
-                                    25&nbsp;novembre 2011&nbsp;; disponible sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.ilo.org/ipec/facts/lang--fr/index.htm"
-                                        title="«&nbsp;Qu'est-ce que le travail des enfants?&nbsp;»"
-                                    >
-                                        http://www.ilo.org/ipec/facts/lang--fr/index.htm
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Organisation internationale du Travail,
-                                    Enfants dans les travaux dangereux: Ce
-                                    que nous savons, ce que nous devons faire,
-                                    Gen&egrave;ve, juin 2011&nbsp;; disponible
-                                    sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_155430/lang--fr/index.htm"
-                                        title="Enfants dans les travaux dangereux: Ce que nous savons, ce que nous devons faire, Gen&egrave;ve, juin 2011"
-                                    >
-                                        http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_155430/lang--fr/index.htm
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Convention 138 de l&apos;Organisation
-                                    internationale du Travail concernant
-                                    l&apos;&acirc;ge minimum d&apos;admission
-                                    &agrave; l&apos;emploi ; disponible sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138"
-                                        title="Convention 138 de l'Organisation internationale du Travail concernant l'&acirc;ge minimum d'admission &agrave; l'emploi"
-                                    >
-                                        http://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Convention 182 de l&apos;Organisation
-                                    internationale du Travail sur les pires
-                                    formes de travail des enfants ; disponible
-                                    sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
-                                        title="Convention 182 de l'Organisation internationale du Travail sur les pires formes de travail des enfants"
-                                    >
-                                        http://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Organisation internationale du
-                                    Travail&nbsp;&ndash; Organisation
-                                    internationale des Employeurs,{" "}
-                                    <i>
-                                        L&rsquo;abolition du travail des
-                                        enfants&nbsp;&ndash; Guides &agrave;
-                                        l&rsquo;intention des employeurs:
-                                        Guide&nbsp;I: Introduction
-                                        &agrave; la probl&eacute;matique du
-                                        travail des enfants
-                                    </i>
-                                    , Gen&egrave;ve: 2007. disponible sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.ioe-emp.org/fileadmin/ioe_documents/publications/Policy%20Areas/child_labour/FR/%282008%29%20Abolition%20travail%20enfants%20Guide%201%20-%20Intro.pdf"
-                                        title="L&rsquo;abolition du travail des enfants&nbsp;&ndash; Guides &agrave; l&rsquo;intention des employeurs: Guide&nbsp;I: Introduction &agrave; la probl&eacute;matique du travail des enfants"
-                                    >
-                                        http://www.ioe-emp.org/fileadmin/ioe_documents/publications/Policy%20Areas/child_labour/FR/%282008%29%20Abolition%20travail%20enfants%20Guide%201%20-%20Intro.pdf
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Conf&eacute;d&eacute;ration syndicale
-                                    internationale.
-                                    <em>
-                                        {" "}
-                                        Miniguide d&apos;action: Travail des
-                                        enfants
-                                    </em>
-                                    , Bruxelles, 2008 ; disponible sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.ituc-csi.org/mini-guide-d-action-travail-des"
-                                        title="Miniguide d'action: Travail des enfants"
-                                    >
-                                        https://www.ituc-csi.org/mini-guide-d-action-travail-des
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Organisation internationale du
-                                    Travail.&nbsp;{" "}
-                                    <em>
-                                        Dix-huiti&egrave;me
-                                        <sup /> Conf&eacute;rence internationale
-                                        des statisticiens du
-                                        travail&nbsp;&ndash; Rapport III:
-                                        Statistiques sur le travail des enfants.
-                                    </em>{" "}
-                                    Gen&egrave;ve, 5&nbsp;d&eacute;cembre 2008.
-                                    Disponible sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099580.pdf"
-                                        title="Dix-huiti&egrave;me Conf&eacute;rence internationale des statisticiens du travail&nbsp;&ndash; Rapport III: Statistiques sur le travail des enfants."
-                                    >
-                                        https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099580.pdf
-                                    </a>
-                                </li>
-                                <li>
-                                    D&eacute;partement du Travail des
-                                    &Eacute;tats-Unis.{" "}
-                                    <i>
-                                        Conclusions sur les pires formes de
-                                        travail des enfants
-                                    </i>
-                                    , Washington, DC&nbsp;; disponible sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings"
-                                        title="D&eacute;partement du Travail des &Eacute;tats-Unis. &nbsp;Conclusions sur les pires formes de travail des enfants, Washington, DC"
-                                    >
-                                        https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings
-                                    </a>
-                                </li>
-                            </ol>
+                            <Accordion pdf={pdf}>
+                                <Accordion.Section id="child-resources">
+                                    <Accordion.Title>
+                                        Autres ressources
+                                    </Accordion.Title>
+                                    <Accordion.Panel>
+                                        <ol>
+                                            <li>
+                                                Organisation internationale du
+                                                Travail, Les estimations
+                                                mondiales sur le travail des
+                                                enfants&nbsp;pour 2016:
+                                                r&eacute;sultats et tendances,
+                                                2012-2016, Gen&egrave;ve,
+                                                septembre 2017.
+                                            </li>
+                                            <li>
+                                                Organisation internationale du
+                                                Travail, Intensifier la lutte
+                                                contre le travail des enfants:
+                                                Rapport global en vertu du suivi
+                                                de la D&eacute;claration de
+                                                l&apos;OIT relative aux
+                                                principes et droits fondamentaux
+                                                au travail&nbsp;&ndash; 2010,
+                                                Gen&egrave;ve ; 2010 ;
+                                                disponible [en anglais] sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="http://www.ilo.org/global/publications/books/WCMS_127688/lang--en/index.htm%20"
+                                                    title="Rapport global en vertu du suivi de la D&eacute;claration de l'OIT relative aux principes et droits fondamentaux au travail&nbsp;&ndash; 2010"
+                                                >
+                                                    http://www.ilo.org/global/publications/books/WCMS_127688/lang--fr/index.htm
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Organisation internationale du
+                                                Travail, «&nbsp;Qu&apos;est-ce
+                                                que le travail des
+                                                enfants?&nbsp;» consult&eacute;
+                                                le 25&nbsp;novembre 2011&nbsp;;
+                                                disponible sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="http://www.ilo.org/ipec/facts/lang--fr/index.htm"
+                                                    title="«&nbsp;Qu'est-ce que le travail des enfants?&nbsp;»"
+                                                >
+                                                    http://www.ilo.org/ipec/facts/lang--fr/index.htm
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Organisation internationale du
+                                                Travail, Enfants dans les
+                                                travaux dangereux: Ce que nous
+                                                savons, ce que nous devons
+                                                faire, Gen&egrave;ve, juin
+                                                2011&nbsp;; disponible sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_155430/lang--fr/index.htm"
+                                                    title="Enfants dans les travaux dangereux: Ce que nous savons, ce que nous devons faire, Gen&egrave;ve, juin 2011"
+                                                >
+                                                    http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_155430/lang--fr/index.htm
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Convention 138 de
+                                                l&apos;Organisation
+                                                internationale du Travail
+                                                concernant l&apos;&acirc;ge
+                                                minimum d&apos;admission
+                                                &agrave; l&apos;emploi ;
+                                                disponible sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="http://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138"
+                                                    title="Convention 138 de l'Organisation internationale du Travail concernant l'&acirc;ge minimum d'admission &agrave; l'emploi"
+                                                >
+                                                    http://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Convention 182 de
+                                                l&apos;Organisation
+                                                internationale du Travail sur
+                                                les pires formes de travail des
+                                                enfants ; disponible sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="http://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
+                                                    title="Convention 182 de l'Organisation internationale du Travail sur les pires formes de travail des enfants"
+                                                >
+                                                    http://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Organisation internationale du
+                                                Travail&nbsp;&ndash;
+                                                Organisation internationale des
+                                                Employeurs,{" "}
+                                                <i>
+                                                    L&rsquo;abolition du travail
+                                                    des enfants&nbsp;&ndash;
+                                                    Guides &agrave;
+                                                    l&rsquo;intention des
+                                                    employeurs: Guide&nbsp;I:
+                                                    Introduction &agrave; la
+                                                    probl&eacute;matique du
+                                                    travail des enfants
+                                                </i>
+                                                , Gen&egrave;ve: 2007.
+                                                disponible sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="http://www.ioe-emp.org/fileadmin/ioe_documents/publications/Policy%20Areas/child_labour/FR/%282008%29%20Abolition%20travail%20enfants%20Guide%201%20-%20Intro.pdf"
+                                                    title="L&rsquo;abolition du travail des enfants&nbsp;&ndash; Guides &agrave; l&rsquo;intention des employeurs: Guide&nbsp;I: Introduction &agrave; la probl&eacute;matique du travail des enfants"
+                                                >
+                                                    http://www.ioe-emp.org/fileadmin/ioe_documents/publications/Policy%20Areas/child_labour/FR/%282008%29%20Abolition%20travail%20enfants%20Guide%201%20-%20Intro.pdf
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Conf&eacute;d&eacute;ration
+                                                syndicale internationale.
+                                                <em>
+                                                    {" "}
+                                                    Miniguide d&apos;action:
+                                                    Travail des enfants
+                                                </em>
+                                                , Bruxelles, 2008 ; disponible
+                                                sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="https://www.ituc-csi.org/mini-guide-d-action-travail-des"
+                                                    title="Miniguide d'action: Travail des enfants"
+                                                >
+                                                    https://www.ituc-csi.org/mini-guide-d-action-travail-des
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Organisation internationale du
+                                                Travail.&nbsp;{" "}
+                                                <em>
+                                                    Dix-huiti&egrave;me
+                                                    <sup /> Conf&eacute;rence
+                                                    internationale des
+                                                    statisticiens du
+                                                    travail&nbsp;&ndash; Rapport
+                                                    III: Statistiques sur le
+                                                    travail des enfants.
+                                                </em>{" "}
+                                                Gen&egrave;ve,
+                                                5&nbsp;d&eacute;cembre 2008.
+                                                Disponible sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099580.pdf"
+                                                    title="Dix-huiti&egrave;me Conf&eacute;rence internationale des statisticiens du travail&nbsp;&ndash; Rapport III: Statistiques sur le travail des enfants."
+                                                >
+                                                    https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099580.pdf
+                                                </a>
+                                            </li>
+                                            <li>
+                                                D&eacute;partement du Travail
+                                                des &Eacute;tats-Unis.{" "}
+                                                <i>
+                                                    Conclusions sur les pires
+                                                    formes de travail des
+                                                    enfants
+                                                </i>
+                                                , Washington, DC&nbsp;;
+                                                disponible sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings"
+                                                    title="D&eacute;partement du Travail des &Eacute;tats-Unis. &nbsp;Conclusions sur les pires formes de travail des enfants, Washington, DC"
+                                                >
+                                                    https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings
+                                                </a>
+                                            </li>
+                                        </ol>
+                                    </Accordion.Panel>
+                                </Accordion.Section>
+                            </Accordion>
+                            <p />
                         </Accordion.Panel>
                     </Accordion.Section>
 
@@ -522,14 +550,11 @@ const fr = ({ pdf }) => {
                                     ill&eacute;gaux et informels.
                                 </li>
                                 <li>
-                                    <em>Tout individu:</em> Cela
-                                    d&eacute;signe les adultes et les enfants.
+                                    <em>Tout individu:</em> Cela d&eacute;signe
+                                    les adultes et les enfants.
                                 </li>
                                 <li>
-                                    <em>
-                                        Menace d&apos;une peine
-                                        quelconque:
-                                    </em>{" "}
+                                    <em>Menace d&apos;une peine quelconque:</em>{" "}
                                     Il s&apos;agit d&apos;un travailleur ou
                                     d&apos;une travailleuse qui estime que des
                                     sanctions lui seront impos&eacute;es
@@ -555,29 +580,29 @@ const fr = ({ pdf }) => {
                                     d&eacute;finissant le travail forc&eacute;.
                                 </li>
                                 <li>
-                                    <em>Plein gr&eacute;: </em>Il
-                                    s&apos;agit du consentement du travailleur
-                                    &agrave; contracter un emploi et la
-                                    libert&eacute; de quitter cet emploi
-                                    &agrave; tout instant, avec un
-                                    pr&eacute;avis raisonnable conforme aux lois
-                                    nationales ou aux conventions collectives.
-                                    En substance, un individu se trouve en
-                                    situation de travail forc&eacute; s&apos;il
-                                    est astreint, contre sa volont&eacute;, au
-                                    travail ou &agrave; un service et ne peut le
-                                    quitter sous peine de sanction ou de menace
-                                    de sanction. La coercition ne r&eacute;sulte
-                                    pas d&apos;un ch&acirc;timent ou d&apos;une
-                                    contrainte ; elle peut &eacute;galement
-                                    &eacute;maner d&apos;autres formes de
-                                    repr&eacute;sailles, par exemple la
-                                    d&eacute;ch&eacute;ance de droits ou
-                                    d&apos;avantages, ou encore le non-paiement
-                                    d&apos;une r&eacute;mun&eacute;ration due.
-                                    Il convient de noter qu&apos;un travailleur
-                                    peut &ecirc;tre consid&eacute;r&eacute;
-                                    comme &eacute;tant en situation de travail
+                                    <em>Plein gr&eacute;: </em>Il s&apos;agit du
+                                    consentement du travailleur &agrave;
+                                    contracter un emploi et la libert&eacute; de
+                                    quitter cet emploi &agrave; tout instant,
+                                    avec un pr&eacute;avis raisonnable conforme
+                                    aux lois nationales ou aux conventions
+                                    collectives. En substance, un individu se
+                                    trouve en situation de travail forc&eacute;
+                                    s&apos;il est astreint, contre sa
+                                    volont&eacute;, au travail ou &agrave; un
+                                    service et ne peut le quitter sous peine de
+                                    sanction ou de menace de sanction. La
+                                    coercition ne r&eacute;sulte pas d&apos;un
+                                    ch&acirc;timent ou d&apos;une contrainte ;
+                                    elle peut &eacute;galement &eacute;maner
+                                    d&apos;autres formes de repr&eacute;sailles,
+                                    par exemple la d&eacute;ch&eacute;ance de
+                                    droits ou d&apos;avantages, ou encore le
+                                    non-paiement d&apos;une
+                                    r&eacute;mun&eacute;ration due. Il convient
+                                    de noter qu&apos;un travailleur peut
+                                    &ecirc;tre consid&eacute;r&eacute; comme
+                                    &eacute;tant en situation de travail
                                     forc&eacute; alors m&ecirc;me qu&apos;il a
                                     donn&eacute; son consentement, si ce
                                     consentement a &eacute;t&eacute; obtenu par
@@ -830,166 +855,191 @@ const fr = ({ pdf }) => {
                                 .
                             </p>
                             <p />
-                            <h3>
-                                <strong>Autres ressources</strong>
-                            </h3>
-                            <ol>
-                                <li>
-                                    Convention 29 de l&apos;Organisation
-                                    internationale du travail sur le travail
-                                    forc&eacute; ; disponible sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.ilo.org/dyn/normlex/fr/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:312174,fr:NO"
-                                        title="Convention 29 de l'Organisation internationale du Travail sur le travail forc&eacute;"
-                                    >
-                                        http://www.ilo.org/dyn/normlex/fr/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:312174,fr:NO
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Organisation internationale du Travail,
-                                    <em>
-                                        {" "}
-                                        Le co&ucirc;t de la coercition:
-                                        Rapport global en vertu du suivi de la
-                                        D&eacute;claration de l&rsquo;OIT
-                                        relative aux principes et droits
-                                        fondamentaux au travail,{" "}
-                                    </em>
-                                    Gen&egrave;ve&nbsp;; 2009 disponible sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_106270/lang--fr/index.htm"
-                                        title="Le co&ucirc;t de la coercition: Rapport global en vertu du suivi de la D&eacute;claration de l'OIT relative aux principes et droits fondamentaux au travail"
-                                    >
-                                        https://www.ilo.org/global/topics/forced-labour/publications/WCMS_106270/lang--fr/index.htm
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Organisation internationale du travail, ILO
-                                    Global Estimate of Forced Labour: Results
-                                    and Methodology, Gen&egrave;ve, 2012&nbsp;;
-                                    disponible [en anglais] sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.ilo.org/washington/WCMS_182004/lang--en/index.htm"
-                                        title="ILO Global Estimate of Forced Labour: Results and Methodology"
-                                    >
-                                        http://www.ilo.org/washington/WCMS_182004/lang--en/index.htm
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Organisation internationale du Travail,{" "}
-                                    <em>
-                                        Hard to see, harder to
-                                        count&nbsp;&ndash; Survey guidelines to
-                                        estimate forced labour of adults and
-                                        children,{" "}
-                                    </em>
-                                    Gen&egrave;ve, 2012&nbsp;; disponible [en
-                                    anglais] sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://ilo.org/global/topics/forced-labour/publications/WCMS_182096/lang--en/index.htm"
-                                        title="Hard to See, Harder to Count: Survey guidelines to estimate forced labour of adults and children"
-                                    >
-                                        http://ilo.org/global/topics/forced-labour/publications/WCMS_182096/lang--en/index.htm
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Organisation internationale du Travail,
-                                    Combating Forced Labour: A Handbook for
-                                    Employers and Business, Gen&egrave;ve,
-                                    25&nbsp;juin 2015&nbsp;; disponible [en
-                                    anglais] sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
-                                        title="Combating Forced Labour: A Handbook for Employers and Business"
-                                    >
-                                        http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--fr/index.htm
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Organisation internationale du Travail,{" "}
-                                    <em>
-                                        Profits et pauvret&eacute;:
-                                        L&rsquo;&eacute;conomie du travail
-                                        forc&eacute;
-                                    </em>
-                                    . Gen&egrave;ve, 2014 ; disponible sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--fr/index.htm"
-                                        title="Profits et pauvret&eacute;: L&rsquo;&eacute;conomie du travail forc&eacute;"
-                                    >
-                                        https://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--fr/index.htm
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Protocole 2014 de l&apos;Organisation
-                                    internationale du Travail relatif &agrave;
-                                    la convention sur le travail
-                                    forc&eacute;&nbsp;; disponible sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029"
-                                        title="Protocole 2014 de l'Organisation internationale du Travail relatif &agrave; la convention sur le travail forc&eacute;"
-                                    >
-                                        https://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029
-                                    </a>
-                                    .
-                                </li>
-                                <li>
-                                    Recommandation N<sup>o</sup> 203 de
-                                    l&rsquo;Organisation internationale du
-                                    Travail sur des mesures
-                                    compl&eacute;mentaires en vue de la
-                                    suppression effective du travail
-                                    forc&eacute;, 2014&nbsp;; disponible sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.ilo.org/dyn/normlex/fr/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174688,fr:NO"
-                                        title="Recommandation sur des mesures compl&eacute;mentaires en vue de la suppression effective du travail forc&eacute;"
-                                    >
-                                        http://www.ilo.org/dyn/normlex/fr/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174688,fr:NO
-                                    </a>
-                                </li>
-                                <li>
-                                    Conf&eacute;d&eacute;ration syndicale
-                                    internationale.{" "}
-                                    <em>
-                                        Comment lutter contre le travail
-                                        forc&eacute; et la traite des
-                                        &ecirc;tres humains
-                                    </em>
-                                    , Bruxelles, 2010&nbsp;; disponible [en
-                                    anglais] sur{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.ituc-csi.org/ituc-guide-how-to-combat-forced.html?lang=en"
-                                        title="Comment lutter contre le travail forc&eacute; et la traite des &ecirc;tres humains"
-                                    >
-                                        http://www.ilo.org/global/topics/forced-labour/WCMS_142662/lang--fr/index.htm
-                                    </a>
-                                    .
-                                </li>
-                            </ol>
+                            <Accordion pdf={pdf}>
+                                <Accordion.Section id="forced-resources">
+                                    <Accordion.Title>
+                                        Autres ressources
+                                    </Accordion.Title>
+                                    <Accordion.Panel>
+                                        <ol>
+                                            <li>
+                                                Convention 29 de
+                                                l&apos;Organisation
+                                                internationale du travail sur le
+                                                travail forc&eacute; ;
+                                                disponible sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="http://www.ilo.org/dyn/normlex/fr/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:312174,fr:NO"
+                                                    title="Convention 29 de l'Organisation internationale du Travail sur le travail forc&eacute;"
+                                                >
+                                                    http://www.ilo.org/dyn/normlex/fr/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:312174,fr:NO
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Organisation internationale du
+                                                Travail,
+                                                <em>
+                                                    {" "}
+                                                    Le co&ucirc;t de la
+                                                    coercition: Rapport global
+                                                    en vertu du suivi de la
+                                                    D&eacute;claration de
+                                                    l&rsquo;OIT relative aux
+                                                    principes et droits
+                                                    fondamentaux au travail,{" "}
+                                                </em>
+                                                Gen&egrave;ve&nbsp;; 2009
+                                                disponible sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_106270/lang--fr/index.htm"
+                                                    title="Le co&ucirc;t de la coercition: Rapport global en vertu du suivi de la D&eacute;claration de l'OIT relative aux principes et droits fondamentaux au travail"
+                                                >
+                                                    https://www.ilo.org/global/topics/forced-labour/publications/WCMS_106270/lang--fr/index.htm
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Organisation internationale du
+                                                travail, ILO Global Estimate of
+                                                Forced Labour: Results and
+                                                Methodology, Gen&egrave;ve,
+                                                2012&nbsp;; disponible [en
+                                                anglais] sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="http://www.ilo.org/washington/WCMS_182004/lang--en/index.htm"
+                                                    title="ILO Global Estimate of Forced Labour: Results and Methodology"
+                                                >
+                                                    http://www.ilo.org/washington/WCMS_182004/lang--en/index.htm
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Organisation internationale du
+                                                Travail,{" "}
+                                                <em>
+                                                    Hard to see, harder to
+                                                    count&nbsp;&ndash; Survey
+                                                    guidelines to estimate
+                                                    forced labour of adults and
+                                                    children,{" "}
+                                                </em>
+                                                Gen&egrave;ve, 2012&nbsp;;
+                                                disponible [en anglais] sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="http://ilo.org/global/topics/forced-labour/publications/WCMS_182096/lang--en/index.htm"
+                                                    title="Hard to See, Harder to Count: Survey guidelines to estimate forced labour of adults and children"
+                                                >
+                                                    http://ilo.org/global/topics/forced-labour/publications/WCMS_182096/lang--en/index.htm
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Organisation internationale du
+                                                Travail, Combating Forced
+                                                Labour: A Handbook for Employers
+                                                and Business, Gen&egrave;ve,
+                                                25&nbsp;juin 2015&nbsp;;
+                                                disponible [en anglais] sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
+                                                    title="Combating Forced Labour: A Handbook for Employers and Business"
+                                                >
+                                                    http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--fr/index.htm
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Organisation internationale du
+                                                Travail,{" "}
+                                                <em>
+                                                    Profits et pauvret&eacute;:
+                                                    L&rsquo;&eacute;conomie du
+                                                    travail forc&eacute;
+                                                </em>
+                                                . Gen&egrave;ve, 2014 ;
+                                                disponible sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="https://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--fr/index.htm"
+                                                    title="Profits et pauvret&eacute;: L&rsquo;&eacute;conomie du travail forc&eacute;"
+                                                >
+                                                    https://www.ilo.org/global/topics/forced-labour/publications/profits-of-forced-labour-2014/lang--fr/index.htm
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Protocole 2014 de
+                                                l&apos;Organisation
+                                                internationale du Travail
+                                                relatif &agrave; la convention
+                                                sur le travail
+                                                forc&eacute;&nbsp;; disponible
+                                                sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="https://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029"
+                                                    title="Protocole 2014 de l'Organisation internationale du Travail relatif &agrave; la convention sur le travail forc&eacute;"
+                                                >
+                                                    https://www.ilo.org/dyn/normlex/fr/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029
+                                                </a>
+                                                .
+                                            </li>
+                                            <li>
+                                                Recommandation N<sup>o</sup> 203
+                                                de l&rsquo;Organisation
+                                                internationale du Travail sur
+                                                des mesures
+                                                compl&eacute;mentaires en vue de
+                                                la suppression effective du
+                                                travail forc&eacute;,
+                                                2014&nbsp;; disponible sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="http://www.ilo.org/dyn/normlex/fr/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174688,fr:NO"
+                                                    title="Recommandation sur des mesures compl&eacute;mentaires en vue de la suppression effective du travail forc&eacute;"
+                                                >
+                                                    http://www.ilo.org/dyn/normlex/fr/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:3174688,fr:NO
+                                                </a>
+                                            </li>
+                                            <li>
+                                                Conf&eacute;d&eacute;ration
+                                                syndicale internationale.{" "}
+                                                <em>
+                                                    Comment lutter contre le
+                                                    travail forc&eacute; et la
+                                                    traite des &ecirc;tres
+                                                    humains
+                                                </em>
+                                                , Bruxelles, 2010&nbsp;;
+                                                disponible [en anglais] sur{" "}
+                                                <a
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    href="http://www.ituc-csi.org/ituc-guide-how-to-combat-forced.html?lang=en"
+                                                    title="Comment lutter contre le travail forc&eacute; et la traite des &ecirc;tres humains"
+                                                >
+                                                    http://www.ilo.org/global/topics/forced-labour/WCMS_142662/lang--fr/index.htm
+                                                </a>
+                                                .
+                                            </li>
+                                        </ol>
+                                    </Accordion.Panel>
+                                </Accordion.Section>
+                            </Accordion>
                             <p>&nbsp;</p>
                         </Accordion.Panel>
                     </Accordion.Section>
