@@ -74,9 +74,25 @@ To run the app on a device:
 
 ### **Web**
 
+#### **Building**
+
 To create a production build:
 
 `npm run build`
+
+If the build is going to be living in a subdirectory and not the root path and it would be accessed by some relative path such as `/ilab/complychain` then we need to set a environmental variable before kicking of the build scripts. We can do that with the following commands:
+
+Bash (Linux / MacOS)
+
+`PUBLIC_URL=/ilab/complychain npm run build`
+
+Windows
+
+`set PUBLIC_URL=/ilab/complychain&& npm run build:win`
+
+**Note**: Ensure there is no space before `&&`. This is intentional.
+
+#### **Running**
 
 To run the production build:
 
