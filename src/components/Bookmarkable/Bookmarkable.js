@@ -3,7 +3,10 @@ import React, { Component } from "react";
 import { storage } from "../../modules/storage";
 import styled from "styled-components";
 import Icons from "../Icons";
+import { toast, cssTransition } from "react-toastify";
 import { theme } from "../../modules/config/theme";
+import { withLanguageContext } from "../Language";
+import { getPropByString } from "../../modules/utils";
 
 const Wrapper = styled.div`
     position: relative;
@@ -26,6 +29,67 @@ const BookmarkIcon = styled(Icons.BookmarkCheck)`
     color: ${props => props.color};
 `;
 
+const ToastStrong = styled.span`
+    font-weight: bold;
+`;
+
+const ToastUndo = ({ name, localizor, undo, closeToast }) => {
+    const handleClick = () => {
+        undo();
+        closeToast();
+    };
+
+    const Content = styled.div`
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 15px;
+    `;
+
+    const UndoButton = styled.button`
+        border: none;
+        background: ${theme.colors.primaryDarker};
+        color: ${theme.colors.white};
+        min-width: 75px;
+        height: auto;
+        padding: 15px;
+        font-weight: bold;
+        cursor: pointer;
+    `;
+
+    const UndoText = styled.span`
+        font-size: 12px;
+        padding: 0 5px;
+    `;
+
+    return (
+        <Content>
+            <UndoText>
+                You have bookmarked{" "}
+                <ToastStrong>
+                    {getPropByString(localizor.strings, name)}
+                </ToastStrong>
+                .
+            </UndoText>{" "}
+            <UndoButton
+                onTouchStart={() => {
+                    handleClick();
+                }}
+                onClick={handleClick}
+            >
+                Undo
+            </UndoButton>
+        </Content>
+    );
+};
+
+const Slide = cssTransition({
+    enter: "Toastify__slide-enter",
+    exit: "Toastify__slide-exit",
+    duration: [450, 750],
+    appendPosition: true
+});
+
 class Bookmarkable extends Component {
     constructor(props) {
         super(props);
@@ -35,6 +99,7 @@ class Bookmarkable extends Component {
             ? true
             : false;
         this.state = { bookmarked };
+        this.toastId = "bookmarkableToast";
     }
     componentDidUpdate(prevProps) {
         if (prevProps.titleString !== this.props.titleString) {
@@ -46,6 +111,24 @@ class Bookmarkable extends Component {
             this.setState({ bookmarked });
         }
     }
+
+    displayToast = () => {
+        const { titleString, localizor } = this.props;
+        toast(
+            <ToastUndo
+                undo={this.handleBookmark}
+                localizor={localizor}
+                name={titleString}
+            />,
+            {
+                toastId: this.toastId,
+                transition: Slide,
+                autoClose: 5000,
+                hideProgressBar: true
+            }
+        );
+    };
+
     handleBookmark = () => {
         const { headerTitle, titleString, titlePrefix, url } = this.props;
         const { bookmarked } = this.state;
@@ -57,6 +140,7 @@ class Bookmarkable extends Component {
         );
         this.setState({ bookmarked: !bookmarked });
     };
+
     render() {
         const { children, pdf } = this.props;
         const { bookmarked } = this.state;
@@ -67,7 +151,12 @@ class Bookmarkable extends Component {
             <Wrapper>
                 <BookmarkButton
                     title={bookmarked ? "Unbookmark page" : "Bookmark page"}
-                    onClick={this.handleBookmark}
+                    onClick={() => {
+                        if (!bookmarked) {
+                            this.displayToast();
+                        }
+                        this.handleBookmark();
+                    }}
                 >
                     <BookmarkIcon
                         color={
@@ -87,7 +176,8 @@ Bookmarkable.propTypes = {
     titleString: PropTypes.string.isRequired,
     titlePrefix: PropTypes.string,
     url: PropTypes.string.isRequired,
-    pdf: PropTypes.bool
+    pdf: PropTypes.bool,
+    localizor: PropTypes.object.isRequired
 };
 
-export default Bookmarkable;
+export default withLanguageContext(Bookmarkable);

@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { toast, cssTransition } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import styled from "styled-components";
 import Icons from "../../components/Icons";
 import { withLanguageContext } from "../../components/Language";
@@ -93,9 +92,14 @@ const ToastUndo = ({ bookmark, localizor, undo, shouldClose, closeToast }) => {
                 </ToastStrong>{" "}
                 from your bookmarks.
             </UndoText>{" "}
-            <UndoButton onTouchStart={() => {
-                handleClick();
-            }} onClick={handleClick}>Undo</UndoButton>
+            <UndoButton
+                onTouchStart={() => {
+                    handleClick();
+                }}
+                onClick={handleClick}
+            >
+                Undo
+            </UndoButton>
         </Content>
     );
 };
