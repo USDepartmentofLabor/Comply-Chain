@@ -115,6 +115,7 @@ class Bookmarkable extends Component {
 
     displayToast = () => {
         const { titleString, localizor } = this.props;
+        clearTimeout(this.toastTimer);
         toast(
             <ToastUndo
                 undo={this.handleBookmark}
@@ -123,11 +124,12 @@ class Bookmarkable extends Component {
             />,
             {
                 toastId: this.toastId,
-                transition: Slide,
-                autoClose: 5000,
-                hideProgressBar: true
+                transition: Slide
             }
         );
+        this.toastTimer = setTimeout(() => {
+            toast.dismiss(this.toastId);
+        }, 5000);
     };
 
     handleBookmark = () => {
