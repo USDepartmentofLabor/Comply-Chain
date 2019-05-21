@@ -17,7 +17,7 @@ const BookmarkButton = styled.button`
     cursor: pointer;
     float: right;
     background: transparent;
-
+    margin-top: -10px;
     &:hover {
         border: none;
         background: transparent;
