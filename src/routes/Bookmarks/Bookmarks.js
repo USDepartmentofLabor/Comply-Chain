@@ -145,7 +145,6 @@ class Bookmarks extends Component {
         );
         return (
             <div>
-                <h4>Bookmarks</h4>
                 {filtered.map((bookmark, i) => {
                     return (
                         <IconContainer
@@ -182,9 +181,7 @@ class Bookmarks extends Component {
                         </IconContainer>
                     );
                 })}
-                {filtered.length === 0 && (
-                    <span>You don't have any bookmarks.</span>
-                )}
+                {filtered.length === 0 && <p>You don't have any bookmarks.</p>}
             </div>
         );
     };
@@ -248,7 +245,8 @@ class Bookmarks extends Component {
         const { bookmarks } = this.state;
         return (
             <div>
-                {bookmarks.length === 0 && <span>No bookmarks!</span>}
+                <h4>Bookmarks</h4>
+                {bookmarks.length === 0 && <p>You don't have any bookmarks.</p>}
                 {bookmarks.length > 0 && (
                     <div>{this.renderBookmarks(bookmarks)}</div>
                 )}
