@@ -82,11 +82,11 @@ class Home extends Component {
                                         <Icon>
                                             <Icons.StepIcon step={i + 1} />
                                         </Icon>
-                                        <PaddedContent>
+                                        <PaddedTitle>
                                             <ItemTitle to={`/steps/${i + 1}`}>
                                                 {step.title}
                                             </ItemTitle>
-                                        </PaddedContent>
+                                        </PaddedTitle>
                                     </FlexContent>
                                 </ItemContent>
                             </Item>
@@ -209,9 +209,10 @@ const HomeWrapper = styled.div`
 const FlexContent = styled.div`
     display: flex;
     align-items: flex-end;
+    align-items: center;
 `;
 
-const PaddedContent = styled.span`
+const PaddedTitle = styled.span`
     padding-left: 25px;
 `;
 
