@@ -25,8 +25,9 @@ const BookmarkButton = styled.button`
 `;
 
 const BookmarkIcon = styled(Icons.BookmarkCheck)`
-    font-size: 2em;
+    font-size: 2.5em;
     color: ${props => props.color};
+    overflow: visible;
 `;
 
 const ToastStrong = styled.span`
@@ -154,6 +155,8 @@ class Bookmarkable extends Component {
                     onClick={() => {
                         if (!bookmarked) {
                             this.displayToast();
+                        } else {
+                            toast.dismiss(this.toastId);
                         }
                         this.handleBookmark();
                     }}
