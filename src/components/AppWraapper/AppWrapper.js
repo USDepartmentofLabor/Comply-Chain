@@ -76,7 +76,9 @@ const BottomNavButton = styled.button`
 
 const ToastContainerWrapper = styled.div`
     .toast-container {
-        bottom: 3em;
+        bottom: 3.2em;
+        bottom: calc(3.2em + constant(safe-area-inset-bottom));
+        bottom: calc(3.2em + env(safe-area-inset-bottom));
         & > * {
             color: ${theme.colors.white};
             background: ${theme.colors.primary};
