@@ -360,7 +360,7 @@ class Search extends Component {
                         <span className="query">{query}</span>"
                     </SearchResultsHeader>
                 )}
-                <form onSubmit={this.handleSubmit}>
+                <form action="." onSubmit={this.handleSubmit}>
                     <SearchLabel>
                         <HiddenText508>Search</HiddenText508>
                         <Icons.Search role="img" aria-label="Search" />
