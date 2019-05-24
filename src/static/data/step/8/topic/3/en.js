@@ -138,7 +138,7 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Target-Global-Factory-List_Q2_2017.pdf"
+                            href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Target-Global-Factory-List_Q1_2019.pdf"
                             title="list"
                         >
                             a list
@@ -248,7 +248,7 @@ const en = () => {
                 </ul>
                 <ExampleInAction id="nike">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Example in Action: Nike*: Reporting on Remediation
                         </strong>

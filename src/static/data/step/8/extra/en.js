@@ -8,8 +8,8 @@ const en = () => {
                 <br />
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />
-                        <strong>In Their Own Words</strong>
+                        <OwnWords.Icon /> <strong>In Their Own Words</strong>
+                        {": "}
                     </h2>
                     <p>
                         The responsibility to respect human rights requires that

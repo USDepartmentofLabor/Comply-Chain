@@ -6,7 +6,7 @@ const fr = () => {
         <StaticData>
             <div>
                 <h1>
-                    Sujet particulier&nbsp;: Sous-traitance informelle et
+                    Sujet particulier: Sous-traitance informelle et
                     travail &agrave; domicile
                 </h1>
                 <p>

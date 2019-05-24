@@ -4,7 +4,7 @@ import ExampleInAction from "../../../../../../components/ExampleInAction/Exampl
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import hrm from "../../../../../images/hrm.jpg";
-import panos from "../../../../../images/panos.png";
+import panos from "../../../../../images/panos.jpg";
 
 const en = () => {
     return (
@@ -147,7 +147,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="med_rep">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Example in Action: The Important Role of Media
                             Reporting
@@ -327,7 +327,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="fish">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>Example in Action: Fishing and Seafood</strong>
                     </h2>
                     <p>
@@ -387,7 +387,7 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.nmfs.noaa.gov/ia/iuu/noaa_taskforce_report_final.pdf"
+                            href="https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf"
                             title="Action Plan for Implementing Task Force Recommendations"
                         >
                             Action Plan for Implementing Task Force
@@ -399,8 +399,8 @@ const en = () => {
                 </ExampleInAction>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />
-                        <strong>In Their Own Words</strong>
+                        <OwnWords.Icon /> <strong>In Their Own Words</strong>
+                        {": "}
                     </h2>
                     <p>
                         <strong>
@@ -409,7 +409,7 @@ const en = () => {
                     </p>
                     <p>
                         The U.S. Government&rsquo;s Overseas Private Investment
-                        Corporation has processes in place to ensure that
+                        Corporation (OPIC) has processes in place to ensure that
                         projects receiving OPIC support are environmentally and
                         socially sustainable. Certain OPIC-funded projects are
                         classified as &ldquo;Special Consideration&rdquo; based
@@ -526,7 +526,7 @@ const en = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
+                        href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
                         title="General Principles and Operational Guidelines for Fair Recruitment"
                     >
                         General Principles and Operational Guidelines for Fair
@@ -594,7 +594,7 @@ const en = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.verite.org/wp-content/uploads/2016/11/Verite_Report_for_PMI_on_Kazakhstan-2_May_2011.pdf"
+                        href="https://www.fairfactories.org/"
                         title="Fair Factories Clearinghouse"
                     >
                         Fair Factories Clearinghouse
@@ -739,7 +739,7 @@ const en = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.ilo.org/public/english/dialogue/actemp/downloads/projects/child_guide3_en.pdf"
+                        href="https://www.ilo.org/asia/publications/WCMS_117866/lang--ja/index.htm"
                         title="The role of employers&rsquo; organizations in combating child labour, Guide 3"
                     >
                         <em>

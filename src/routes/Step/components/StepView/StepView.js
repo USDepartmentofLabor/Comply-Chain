@@ -189,6 +189,8 @@ class StepView extends Component {
                                 {localizor.strings.general.prevStep}
                             </NavButton>
                         )}
+                        {/** Used to keep a space between the buttons */}
+                        <div />
                         {nextStep && (
                             <NavButton
                                 id="next-step"

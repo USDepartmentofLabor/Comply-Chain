@@ -170,7 +170,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
+                            href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
                             title="<i>Principios generales y directrices para la contrataci&oacute;n equitativa</i>, 2016;"
                         >
                             http://www.ilo.org/global/topics/fair-recruitment/WCMS_568731/lang--es/index.htm

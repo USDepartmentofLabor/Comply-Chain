@@ -22,7 +22,7 @@ const fr = () => {
                     syst&egrave;me peut fonctionner s&apos;il est bien
                     g&eacute;r&eacute;, mais sinon, ce morcellement des
                     donn&eacute;es peut nuire &agrave; l&apos;entreprise
-                    &agrave; plusieurs &eacute;gards : doublon, donc gaspillage
+                    &agrave; plusieurs &eacute;gards: doublon, donc gaspillage
                     de ressources ; prise de d&eacute;cisions fond&eacute;e sur
                     des informations incompl&egrave;tes, ce qui accro&icirc;t
                     les risques ; et diff&eacute;rents services de
@@ -58,10 +58,10 @@ const fr = () => {
                 <p>
                     Voici quelques exemples, &agrave; titre indicatif, de
                     donn&eacute;es qu&apos;il faudrait saisir et suivre dans le
-                    syst&egrave;me d&apos;information :
+                    syst&egrave;me d&apos;information:
                 </p>
                 <h2>
-                    Donn&eacute;es relatives &agrave; l&apos;approvisionnement :
+                    Donn&eacute;es relatives &agrave; l&apos;approvisionnement:
                 </h2>
                 <ul>
                     <li>Pays de provenance des produits.</li>
@@ -88,7 +88,7 @@ const fr = () => {
                 </ul>
                 <h2>
                     Donn&eacute;es relatives &agrave; la conformit&eacute;
-                    sociale :
+                    sociale:
                 </h2>
                 <ul>
                     <li>
@@ -134,7 +134,7 @@ const fr = () => {
                     r&eacute;ussites et les domaines de perfectionnement.
                 </p>
                 <p>
-                    Source&nbsp;:{" "}
+                    Source:{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -151,7 +151,7 @@ const fr = () => {
                 </p>
                 <p>
                     <em>
-                        *Remarque&nbsp;: Les r&eacute;f&eacute;rences &agrave;
+                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
                         des soci&eacute;t&eacute;s et entit&eacute;s non
                         gouvernementales sp&eacute;cifiques dans ce guide sont
                         &agrave; des fins d&rsquo;information uniquement afin de

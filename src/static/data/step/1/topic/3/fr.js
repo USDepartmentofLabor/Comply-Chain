@@ -9,7 +9,7 @@ const fr = () => {
                 <h1>Faire participer vos parties prenantes</h1>
                 <p>
                     Voici quelques-unes des fonctions-type que les parties
-                    prenantes peuvent remplir&nbsp;:
+                    prenantes peuvent remplir:
                 </p>
                 <ul>
                     <li>
@@ -455,7 +455,7 @@ const fr = () => {
                     aux &Eacute;tats-Unis qu&rsquo;&agrave;
                     l&rsquo;&eacute;tranger pour rehausser leurs syst&egrave;mes
                     de conformit&eacute; sociale. Ces participations peuvent
-                    inclure diff&eacute;rentes mesures, notamment :
+                    inclure diff&eacute;rentes mesures, notamment:
                 </p>
                 <div className="indent-margin">
                     <p>
@@ -486,9 +486,9 @@ const fr = () => {
                 </div>
                 <ExampleInAction id="engagement_gov_brazil">
                     <h3>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Dialogue participatif
+                            Exemple d&apos;action: Dialogue participatif
                             avec les pouvoirs publics
                         </strong>
                     </h3>

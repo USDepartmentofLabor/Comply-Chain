@@ -25,14 +25,14 @@ const fr = () => {
                 </p>
                 <p>
                     <Link to="/steps/4">
-                        La 4<sup>e</sup>&nbsp;&eacute;tape&nbsp;: communiquer et
+                        La 4<sup>e</sup>&nbsp;&eacute;tape: communiquer et
                         former l&rsquo;ensemble de votre cha&icirc;ne
                         d&rsquo;approvisionnement
                     </Link>{" "}
                     d&eacute;taillera les tenants et les aboutissants de la
                     communication de votre code et de votre syst&egrave;me de
                     conformit&eacute; &agrave; l&rsquo;intention de
-                    diff&eacute;rents publics : vos propres employ&eacute;s, vos
+                    diff&eacute;rents publics: vos propres employ&eacute;s, vos
                     actionnaires, vos fournisseurs, les cadres et les
                     contrema&icirc;tres de vos fournisseurs, les travailleurs
                     dans les &eacute;tablissements de l&apos;ensemble de votre
@@ -46,7 +46,7 @@ const fr = () => {
                 </p>
                 <p>
                     <em>
-                        *Remarque&nbsp;: Les r&eacute;f&eacute;rences &agrave;
+                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
                         des soci&eacute;t&eacute;s et entit&eacute;s non
                         gouvernementales sp&eacute;cifiques dans ce guide sont
                         &agrave; des fins d&rsquo;information uniquement afin de

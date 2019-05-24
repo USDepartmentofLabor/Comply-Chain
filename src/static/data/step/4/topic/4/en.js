@@ -81,7 +81,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="cocoa">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Example in Action: The International Chocolate and
                             Cocoa Industry
@@ -96,7 +96,7 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.worldcocoafoundation.org/wp-content/uploads/CocoaAction-Primer-v1_English_May-2016.pdf"
+                            href="https://www.worldcocoafoundation.org/about-wcf/cocoaaction/"
                             title="World Cocoa Foundation&rsquo;s CocoaAction initiative"
                         >
                             World Cocoa Foundation&rsquo;s CocoaAction

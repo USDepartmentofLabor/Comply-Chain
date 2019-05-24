@@ -8,8 +8,8 @@ const fr = () => {
                 <br />
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />
-                        <strong>Dans leurs propres mots</strong>
+                        <OwnWords.Icon />{" "}
+                        <strong>Dans leurs propres mots</strong>&nbsp;{": "}
                     </h2>
                     <p>
                         La responsabilit&eacute; qui leur incombe de respecter
@@ -39,7 +39,7 @@ const fr = () => {
                     </p>
                     <p>
                         <em>
-                            Source&nbsp;:{" "}
+                            Source:{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"

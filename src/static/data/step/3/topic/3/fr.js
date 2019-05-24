@@ -17,7 +17,7 @@ const fr = () => {
                 <p>
                     Le code et les outils d&rsquo;audit de chaque entreprise
                     devraient comprendre les normes suivantes d&eacute;finies
-                    dans les conventions de l&rsquo;OIT&nbsp;:
+                    dans les conventions de l&rsquo;OIT:
                 </p>
                 <h2>Travail des enfants</h2>
                 <ul>
@@ -61,7 +61,7 @@ const fr = () => {
                 <p>
                     Les activit&eacute;s suivantes constituent les pires formes
                     de travail des enfants et devraient &ecirc;tre interdites
-                    &agrave; tout enfant de moins de 18&nbsp;ans&nbsp;:
+                    &agrave; tout enfant de moins de 18&nbsp;ans:
                 </p>
                 <ol type="a">
                     <li>
@@ -94,7 +94,7 @@ const fr = () => {
                     </li>
                 </ol>
                 <p>
-                    Source&nbsp;: Article 3 de la{" "}
+                    Source: Article 3 de la{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -129,12 +129,12 @@ const fr = () => {
                     suppl&eacute;mentaires ayant trait aux «&nbsp;travaux
                     dangereux&nbsp;». La recommandation n<sup>o</sup>&nbsp;190
                     de l&apos;OIT pr&eacute;cise &agrave; la section II,
-                    paragraphe 3&nbsp;: «&nbsp;En d&eacute;terminant les types
+                    paragraphe 3: «&nbsp;En d&eacute;terminant les types
                     de travail vis&eacute;s &agrave; l&apos;article 3 (d) de la
                     convention [n
                     <sup>o</sup>&nbsp;182 de l&apos;OIT] et leur localisation,
                     il faudrait, entre autres, prendre en
-                    consid&eacute;ration&nbsp;:
+                    consid&eacute;ration:
                 </p>
                 <ol type="a">
                     <li>
@@ -184,11 +184,11 @@ const fr = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
-                        title="Combattre le travail forc&eacute;&nbsp;: Manuel pour les employeurs et le secteur priv&eacute;&nbsp;&ndash; Brochure 3"
+                        href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_099625/lang--en/index.htm"
+                        title="Combattre le travail forc&eacute;: Manuel pour les employeurs et le secteur priv&eacute;&nbsp;&ndash; Brochure 3"
                     >
                         <em>
-                            Combattre le travail forc&eacute;&nbsp;: Manuel pour
+                            Combattre le travail forc&eacute;: Manuel pour
                             les employeurs et le secteur priv&eacute; - Brochure
                             3
                         </em>
@@ -273,8 +273,8 @@ const fr = () => {
                 </p>
                 <OwnWords>
                     <h3>
-                        <OwnWords.Icon />
-                        <strong>Dans leurs propres mots</strong>
+                        <OwnWords.Icon />{" "}
+                        <strong>Dans leurs propres mots</strong>&nbsp;{": "}
                     </h3>
                     <p>
                         <strong>Transition vers l&rsquo;emploi direct</strong>
@@ -403,9 +403,9 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="rst1">
                     <h3>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;:{" "}
+                            Exemple d&apos;action:{" "}
                             <span>
                                 Outil d&rsquo;approvisionnement
                                 responsable&nbsp;1
@@ -459,7 +459,7 @@ const fr = () => {
                         fournisseurs et les agents.
                     </p>
                     <p>
-                        <strong>TRAITE DES PERSONNES</strong>&nbsp;: La
+                        <strong>TRAITE DES PERSONNES</strong>: La
                         soci&eacute;t&eacute; interdit formellement la traite
                         des personnes dans toutes ses op&eacute;rations et
                         celles de tous les sous-traitants, fournisseurs et
@@ -475,7 +475,7 @@ const fr = () => {
                     </p>
                     <p>
                         <strong>FRAIS DE RECRUTEMENT ET DE TRANSPORT</strong>
-                        &nbsp;: Les travailleurs ne se verront pas facturer,
+                       : Les travailleurs ne se verront pas facturer,
                         directement ou indirectement, de commissions ou
                         co&ucirc;ts de recrutement en tout ou partie, notamment
                         les frais li&eacute;s au d&eacute;placement
@@ -488,7 +488,7 @@ const fr = () => {
                         co&ucirc;t de ce transport.
                     </p>
                     <p>
-                        <strong>CONTRATS DE TRAVAIL</strong>&nbsp;: Des contrats
+                        <strong>CONTRATS DE TRAVAIL</strong>: Des contrats
                         de travail &eacute;crits seront remis aux travailleurs
                         migrants dans leur langue maternelle, indiquant
                         clairement leurs droits et responsabilit&eacute;s, ainsi
@@ -535,7 +535,7 @@ const fr = () => {
                         <strong>
                             R&Eacute;TENTION DE DOCUMENTS PERSONNELS
                         </strong>
-                        &nbsp;: Il est strictement interdit de confisquer,
+                       : Il est strictement interdit de confisquer,
                         d&eacute;truire ou conserver les pi&egrave;ces
                         d&rsquo;identit&eacute; ou les documents
                         d&rsquo;immigration d&rsquo;un travailleur ou de lui
@@ -552,7 +552,7 @@ const fr = () => {
                         &agrave; tout moment.
                     </p>
                     <p>
-                        <strong>CAUTIONS</strong>&nbsp;: Les travailleurs
+                        <strong>CAUTIONS</strong>: Les travailleurs
                         migrants ne se verront pas oblig&eacute;s de
                         d&eacute;poser des arrhes ou des cautions de garantie ou
                         de voir une partie de leur paie retenue &agrave; quelque
@@ -560,7 +560,7 @@ const fr = () => {
                         de r&eacute;tention d&rsquo;un emploi.
                     </p>
                     <p>
-                        <strong>TRAITEMENT INHUMAIN</strong>&nbsp;: Le lieu de
+                        <strong>TRAITEMENT INHUMAIN</strong>: Le lieu de
                         travail ne sera pas sujet &agrave; des traitements durs
                         ou inhumains de quelque forme que ce soit. Les
                         politiques et proc&eacute;dures disciplinaires seront
@@ -585,7 +585,7 @@ const fr = () => {
                         <strong>
                             &Eacute;GALIT&Eacute; SUR LE LIEU DE TRAVAIL
                         </strong>
-                        &nbsp;: Tous les travailleurs, quels que soient leur
+                       : Tous les travailleurs, quels que soient leur
                         nationalit&eacute; ou leur statut juridique, seront
                         trait&eacute;s de fa&ccedil;on juste et
                         &eacute;quitable. Les travailleurs migrants jouiront de
@@ -599,7 +599,7 @@ const fr = () => {
                         accepter ou &agrave; conserver un emploi.
                     </p>
                     <p>
-                        <strong>SALAIRES ET AVANTAGES</strong>&nbsp;: Tous les
+                        <strong>SALAIRES ET AVANTAGES</strong>: Tous les
                         travailleurs recevront au minimum le salaire minimum
                         requis par la l&eacute;gislation applicable, ainsi que
                         tous les avantages sociaux exig&eacute;s par la loi. Le
@@ -634,7 +634,7 @@ const fr = () => {
                         d&rsquo;avance et de pr&ecirc;t est interdite.
                     </p>
                     <p>
-                        <strong>HEURES DE TRAVAIL</strong>&nbsp;: Les
+                        <strong>HEURES DE TRAVAIL</strong>: Les
                         travailleurs ne seront pas forc&eacute;s de travailler
                         au-del&agrave; du nombre d&rsquo;heures permis par la
                         l&eacute;gislation nationale. Lorsque la loi est muette,
@@ -661,7 +661,7 @@ const fr = () => {
                             LIBERT&Eacute; DE CIRCULATION ET LIBERT&Eacute;
                             INDIVIDUELLE
                         </strong>
-                        &nbsp;: Les travailleurs auront un acc&egrave;s non
+                       : Les travailleurs auront un acc&egrave;s non
                         restreint aux n&eacute;cessit&eacute;s de base telles
                         que de l&rsquo;eau potable et des toilettes propres
                         pendant les heures tant ouvr&eacute;es que non
@@ -691,7 +691,7 @@ const fr = () => {
                             PROC&Eacute;DURES DE R&Egrave;GLEMENT DES
                             R&Eacute;CLAMATIONS
                         </strong>
-                        &nbsp;: Un processus de r&egrave;glement des
+                       : Un processus de r&egrave;glement des
                         r&eacute;clamations efficace et confidentiel sera mis en
                         place pour s&rsquo;assurer que tout travailleur,
                         agissant seul ou conjointement avec d&rsquo;autres
@@ -713,7 +713,7 @@ const fr = () => {
                             AGENCES D&rsquo;EMPLOI PRIV&Eacute;ES ET RECRUTEURS
                             DE MAIN D&rsquo;&OElig;UVRE
                         </strong>
-                        &nbsp;: Dans la mesure du possible, les entreprises
+                       : Dans la mesure du possible, les entreprises
                         devraient embaucher les travailleurs directement.
                         Lorsqu&rsquo;il est n&eacute;cessaire de sous-traiter le
                         processus de recrutement et d&rsquo;embauche, les
@@ -733,7 +733,7 @@ const fr = () => {
                         <strong>
                             SENSIBILISATION ET FORMATION DES EMPLOY&Eacute;S
                         </strong>
-                        &nbsp;: Au moment de leur embauche, les travailleurs
+                       : Au moment de leur embauche, les travailleurs
                         doivent &ecirc;tre inform&eacute;s sur leurs droits et
                         responsabilit&eacute;s, notamment les modalit&eacute;s
                         et conditions de leur contrat de travail, les
@@ -761,7 +761,7 @@ const fr = () => {
                         des fins d&apos;actes sexuels tarif&eacute;s.
                     </p>
                     <p>
-                        <strong>Source&nbsp;: </strong>
+                        <strong>Source: </strong>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

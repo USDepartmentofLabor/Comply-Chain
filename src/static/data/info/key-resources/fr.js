@@ -10,7 +10,7 @@ const fr = () => {
     return (
         <StaticData>
             <div>
-                <h2>Autres applis de ce type&nbsp;:</h2>
+                <h2>Autres applis de ce type:</h2>
                 <p>D&eacute;partement du Travail des &Eacute;tats-Unis</p>
                 <p>
                     <em>
@@ -22,7 +22,7 @@ const fr = () => {
                 <br />
                 <BorderSeparator />
                 <h2>
-                    <strong>Principaux outils&nbsp;:</strong>
+                    <strong>Principaux outils:</strong>
                 </h2>
                 <p>
                     Haut-Commissariat des Nations Unies aux droits de
@@ -187,7 +187,7 @@ const fr = () => {
                 </p>
                 <BorderSeparator />
                 <h2>
-                    <strong>Exemples d&apos;action&nbsp;:</strong>
+                    <strong>Exemples d&apos;action:</strong>
                 </h2>
                 <EiaList>
                     <li>
@@ -214,7 +214,7 @@ const fr = () => {
                             id="engagement_gov_brazil"
                         >
                             Dialogue participatif avec les pouvoirs
-                            publics&nbsp;: «&nbsp;liste sale&nbsp;» du
+                            publics: «&nbsp;liste sale&nbsp;» du
                             Br&eacute;sil et Institut du pacte national pour
                             l&rsquo;&eacute;radication du travail en servitude
                             <Icons.ChevronRight />
@@ -297,7 +297,7 @@ const fr = () => {
                     <BorderSeparator />
                     <li>
                         <Link to="/steps/2/topic/6#leber" id="leber">
-                            Leber, bijoutier&nbsp;: The Jewelers&rsquo; Burma
+                            Leber, bijoutier: The Jewelers&rsquo; Burma
                             Relief Project
                             <Icons.ChevronRight />
                         </Link>
@@ -433,7 +433,7 @@ const fr = () => {
                             to="/steps/6/topic/2#better_work"
                             id="better_work"
                         >
-                            Processus de r&eacute;paration Better Work&nbsp;:
+                            Processus de r&eacute;paration Better Work:
                             Comit&eacute; consultatif d&apos;am&eacute;lioration
                             des performances (PICC)
                             <Icons.ChevronRight />
@@ -474,7 +474,7 @@ const fr = () => {
                     <BorderSeparator />
                     <li>
                         <Link to="/steps/8/topic/3#nike" id="nike">
-                            Nike&nbsp;: rapports sur les r&eacute;parations
+                            Nike: rapports sur les r&eacute;parations
                             <Icons.ChevronRight />
                         </Link>
                     </li>

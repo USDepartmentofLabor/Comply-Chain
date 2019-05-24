@@ -58,7 +58,7 @@ const en = () => {
                 </ul>
                 <OwnWords>
                     <h3>
-                        <OwnWords.Icon />
+                        <OwnWords.Icon />{" "}
                         <strong>
                             In Their Own Words: The Challenges of Age
                             Verification

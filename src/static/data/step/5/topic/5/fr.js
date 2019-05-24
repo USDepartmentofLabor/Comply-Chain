@@ -71,9 +71,9 @@ const fr = () => {
                 </ul>
                 <OwnWords>
                     <h3>
-                        <OwnWords.Icon />
+                        <OwnWords.Icon />{" "}
                         <strong>
-                            Dans leurs propres mots&nbsp;: Les d&eacute;fis de
+                            Dans leurs propres mots: Les d&eacute;fis de
                             la v&eacute;rification de l&apos;&acirc;ge
                         </strong>
                     </h3>
@@ -102,7 +102,7 @@ const fr = () => {
                         de v&eacute;rifier l&rsquo;&acirc;ge ou dans les cas
                         o&ugrave; il est facile d&rsquo;obtenir des documents
                         falsifi&eacute;s, les suggestions suivantes peuvent
-                        s&rsquo;av&eacute;rer utiles&nbsp;:
+                        s&rsquo;av&eacute;rer utiles:
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -185,7 +185,7 @@ const fr = () => {
                         , OIT, Gen&egrave;ve, 2007.
                     </p>
                     <p>
-                        Source&nbsp;: Extrait du Helpdesk du BIT&nbsp;:
+                        Source: Extrait du Helpdesk du BIT:
                         Assistance aux entreprises sur les normes
                         internationales du travail,{" "}
                         <a
@@ -362,7 +362,7 @@ const fr = () => {
                             quant aux informations recueillies lors des
                             entretiens avec les travailleurs et la direction.
                             Voici notamment les types de documents &agrave;
-                            examiner :
+                            examiner:
                         </p>
                         <ul>
                             <li>

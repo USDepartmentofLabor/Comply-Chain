@@ -7,7 +7,7 @@ const fr = () => {
         <StaticData>
             <div>
                 <h1>
-                    Sujet particulier&nbsp;: syst&egrave;mes de surveillance
+                    Sujet particulier: syst&egrave;mes de surveillance
                     communautaire du travail des enfants
                 </h1>
                 <p>
@@ -29,9 +29,9 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="cambodia">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Surveillance
+                            Exemple d&apos;action: Surveillance
                             communautaire du travail des enfants au Cambodge
                         </strong>
                     </h2>
@@ -112,7 +112,7 @@ const fr = () => {
                     repr&eacute;sente une approche qui demande du temps et des
                     ressources et exige une grande mobilisation &agrave;
                     l&apos;&eacute;chelon de la communaut&eacute;. Une approche
-                    participative a un avantage essentiel : elle fait participer
+                    participative a un avantage essentiel: elle fait participer
                     toutes les parties prenantes d&egrave;s le d&eacute;but et
                     garantit que toutes les interactions avec les
                     enfants&nbsp;&ndash; de l&apos;identification &agrave; la

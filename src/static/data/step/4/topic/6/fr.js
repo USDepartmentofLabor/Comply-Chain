@@ -15,7 +15,7 @@ const fr = () => {
                 </p>
                 <img src={basicElements} alt="no alt text" />
                 <p>
-                    Source&nbsp;: Soci&eacute;t&eacute; financi&egrave;re
+                    Source: Soci&eacute;t&eacute; financi&egrave;re
                     internationale.{" "}
                     <em>
                         Good Practice Note: Addressing Grievances from
@@ -34,7 +34,7 @@ const fr = () => {
                 </p>
                 <p>
                     <em>
-                        *Remarque&nbsp;: Les r&eacute;f&eacute;rences &agrave;
+                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
                         des soci&eacute;t&eacute;s et entit&eacute;s non
                         gouvernementales sp&eacute;cifiques dans ce guide sont
                         &agrave; des fins d&rsquo;information uniquement afin de
