@@ -168,7 +168,7 @@ const es = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
+                        href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_099625/lang--en/index.htm"
                         title="<i>Lucha contra el trabajo forzoso - Manual para empleadores y empresas - Folleto 3</i>"
                     >
                         <em>
@@ -253,8 +253,9 @@ const es = () => {
                 </p>
                 <OwnWords>
                     <h3>
-                        <OwnWords.Icon />
+                        <OwnWords.Icon />{" "}
                         <strong>En sus propias palabras</strong>
+                        {": "}
                     </h3>
                     <p>
                         <strong>Transici&oacute;n al empleo directo</strong>
@@ -367,7 +368,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="rst1">
                     <h3>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Ejemplo en acci&oacute;n:{" "}
                             <span>

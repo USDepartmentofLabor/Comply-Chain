@@ -52,7 +52,7 @@ const fr = () => {
                     informations sur la r&eacute;alisation de ce type
                     d&apos;audits se trouvent &agrave;{" "}
                     <Link to="/steps/5">
-                        la 5<sup>e</sup>&nbsp;&eacute;tape : surveiller la
+                        la 5<sup>e</sup>&nbsp;&eacute;tape: surveiller la
                         conformit&eacute;.
                     </Link>
                 </p>
@@ -77,7 +77,7 @@ const fr = () => {
                     r&eacute;alisation de ce type d&apos;audits se trouvent
                     &agrave;{" "}
                     <Link to="/steps/5">
-                        la 5<sup>e</sup>&nbsp;&eacute;tape : surveiller la
+                        la 5<sup>e</sup>&nbsp;&eacute;tape: surveiller la
                         conformit&eacute;.
                     </Link>
                 </p>

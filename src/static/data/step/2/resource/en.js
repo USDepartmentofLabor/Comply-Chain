@@ -134,10 +134,10 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
+                            href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
                             title="General principles &amp; operational guidelines for fair recruitment, 2016;"
                         >
-                            http://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm
+                            https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm
                         </a>
                         .
                     </li>

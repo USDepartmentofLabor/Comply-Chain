@@ -25,7 +25,7 @@ const fr = () => {
                         <em>
                             Comment faire des affaires tout en respectant le
                             droit des enfants &agrave; ne pas &ecirc;tre
-                            astreints au travail des enfants&nbsp;: Outil
+                            astreints au travail des enfants: Outil
                             d&apos;orientation du BIT et l&apos;OIE sur le
                             travail des enfants &agrave; l&apos;intention des
                             entreprises
@@ -35,7 +35,7 @@ const fr = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_27555/lang--en/index.htm"
-                            title="Comment faire des affaires tout en respectant le droit des enfants &agrave; ne pas &ecirc;tre astreints au travail des enfants&nbsp;: Outil d'orientation du BIT et l'OIE sur le travail des enfants &agrave; l'intention des entreprises"
+                            title="Comment faire des affaires tout en respectant le droit des enfants &agrave; ne pas &ecirc;tre astreints au travail des enfants: Outil d'orientation du BIT et l'OIE sur le travail des enfants &agrave; l'intention des entreprises"
                         >
                             http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_28416/lang--fr/index.htm
                         </a>
@@ -162,7 +162,7 @@ const fr = () => {
                 </ol>
                 <p>
                     <em>
-                        *Remarque&nbsp;: Les r&eacute;f&eacute;rences &agrave;
+                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
                         des soci&eacute;t&eacute;s et entit&eacute;s non
                         gouvernementales sp&eacute;cifiques dans ce guide sont
                         &agrave; des fins d&rsquo;information uniquement afin de

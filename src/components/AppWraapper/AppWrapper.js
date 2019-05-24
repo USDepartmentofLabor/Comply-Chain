@@ -1,22 +1,24 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { NavLink, withRouter } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import styled from "styled-components";
 import Routes from "../../modules/config/routes";
 import { theme } from "../../modules/config/theme";
+import { storage } from "../../modules/storage";
+import { isBrowser } from "../../modules/utils/platform";
 import BrandStrip from "../BrandStrip";
 import Icons from "../Icons";
 import { withLanguageContext } from "../Language";
+import BottomDrawer from "../Menu/BottomDrawer/BottomDrawer";
 import BottomNavBar from "../Menu/BottomNavBar";
 import NavBar from "../Menu/NavBar";
+import MobileScrollbar from "../MobileScrollbar";
 import { Navigator } from "../Navigation";
 import Share from "../Share";
 import StepProgressBar from "../StepProgessBar";
 import ScrollToTop from "./ScrollToTop";
-import BottomDrawer from "../Menu/BottomDrawer/BottomDrawer";
-import { storage } from "../../modules/storage";
-import MobileScrollbar from "../MobileScrollbar";
-import { isBrowser } from "../../modules/utils/platform";
 
 const Main = styled.div`
     padding: 0 10px;
@@ -70,6 +72,22 @@ const Container = styled.div`
 const BottomNavButton = styled.button`
     border: none;
     background: transparent;
+`;
+
+const ToastContainerWrapper = styled.div`
+    .toast-container {
+        bottom: 3.2em;
+        bottom: calc(3.2em + constant(safe-area-inset-bottom));
+        bottom: calc(3.2em + env(safe-area-inset-bottom));
+        & > * {
+            color: ${theme.colors.white};
+            background: ${theme.colors.primary};
+        }
+    }
+
+    .toast {
+        background: ${theme.colors.primary};
+    }
 `;
 
 class AppWrapper extends Component {
@@ -267,6 +285,17 @@ class AppWrapper extends Component {
                             <Main>
                                 <Container id="container">
                                     <Navigator />
+
+                                    <ToastContainerWrapper>
+                                        <ToastContainer
+                                            className="toast-container"
+                                            toastClassName="toast"
+                                            autoClose={false}
+                                            closeButton={false}
+                                            closeOnClick={false}
+                                            position="bottom-center"
+                                        />
+                                    </ToastContainerWrapper>
                                 </Container>
                             </Main>
                         </MainWrapper>

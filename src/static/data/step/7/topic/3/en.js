@@ -22,7 +22,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="bwi_eval">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Example in Action: Better Work Impact Evaluation
                         </strong>

@@ -105,8 +105,8 @@ const fr = () => {
                 </p>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />
-                        <strong>Dans leurs propres mots</strong>
+                        <OwnWords.Icon />{" "}
+                        <strong>Dans leurs propres mots</strong>&nbsp;{": "}
                     </h2>
                     <p>
                         <strong>
@@ -122,7 +122,7 @@ const fr = () => {
                             affect&eacute;es par les activit&eacute;s de
                             l&rsquo;entreprise peuvent &ecirc;tre un moyen
                             efficace&hellip; &agrave; condition de remplir les
-                            crit&egrave;res fondamentaux suivants :
+                            crit&egrave;res fondamentaux suivants:
                             l&eacute;gitimit&eacute;, accessibilit&eacute;,
                             pr&eacute;visibilit&eacute;, caract&egrave;re
                             &eacute;quitable&hellip; et transparence ; ils
@@ -144,7 +144,7 @@ const fr = () => {
                         </em>
                     </p>
                     <p>
-                        Source&nbsp;: OCDE,{" "}
+                        Source: OCDE,{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -179,18 +179,18 @@ const fr = () => {
                     </a>{" "}
                     a abouti &agrave; un ensemble de principes
                     r&eacute;vis&eacute;s pour des m&eacute;canismes de
-                    r&eacute;clamation efficaces :
+                    r&eacute;clamation efficaces:
                 </p>
                 <ol>
                     <li>
-                        <strong>L&eacute;gitimit&eacute;&nbsp;: </strong>
+                        <strong>L&eacute;gitimit&eacute;: </strong>
                         Favoriser la confiance des groupes de parties prenantes
                         auxquels ils sont destin&eacute;s et &ecirc;tre
                         responsable du d&eacute;roulement &eacute;quitable des
                         processus de r&eacute;clamation&nbsp;;
                     </li>
                     <li>
-                        <strong>Accessibilit&eacute;&nbsp;: </strong>
+                        <strong>Accessibilit&eacute;: </strong>
                         Port&eacute;s &agrave; la connaissance de tous les
                         groupes de parties prenantes auxquels ils sont
                         destin&eacute;s, et prestation d&apos;une assistance
@@ -199,7 +199,7 @@ const fr = () => {
                         pour y acc&eacute;der&nbsp;;
                     </li>
                     <li>
-                        <strong>Pr&eacute;visibilit&eacute;&nbsp;: </strong>
+                        <strong>Pr&eacute;visibilit&eacute;: </strong>
                         Offrir une proc&eacute;dure claire et connue,
                         s&apos;accompagnant d&apos;un cadre temporel &agrave;
                         titre indicatif pour chaque &eacute;tape, et
@@ -209,7 +209,7 @@ const fr = () => {
                     </li>
                     <li>
                         <strong>
-                            Caract&egrave;re &eacute;quitable&nbsp;:{" "}
+                            Caract&egrave;re &eacute;quitable:{" "}
                         </strong>
                         Viser &agrave; s&apos;assurer que les parties
                         plaignantes aient un acc&egrave;s raisonnable &agrave;
@@ -220,7 +220,7 @@ const fr = () => {
                         inform&eacute;es et respectueuses&nbsp;;
                     </li>
                     <li>
-                        <strong>Transparence&nbsp;: </strong>Informer les
+                        <strong>Transparence: </strong>Informer les
                         parties &agrave; la r&eacute;clamation de la progression
                         de celle-ci, et fournir suffisamment d&apos;informations
                         sur les r&eacute;sultats du m&eacute;canisme pour
@@ -229,13 +229,13 @@ const fr = () => {
                         publics en jeu&nbsp;;
                     </li>
                     <li>
-                        <strong>Compatibilit&eacute; des droits&nbsp;: </strong>
+                        <strong>Compatibilit&eacute; des droits: </strong>
                         S&apos;assurer que les r&eacute;sultats et les
                         r&eacute;parations sont conformes aux droits de
                         l&apos;homme internationalement reconnus&nbsp;;
                     </li>
                     <li>
-                        <strong>Dialogue et participation&nbsp;: </strong>
+                        <strong>Dialogue et participation: </strong>
                         Consulter les groupes de parties prenantes auxquels ces
                         m&eacute;canismes sont destin&eacute;s quant &agrave; la
                         conception et &agrave; la performance des
@@ -244,7 +244,7 @@ const fr = () => {
                         les r&eacute;clamations&nbsp;;
                     </li>
                     <li>
-                        <strong>Apprentissage continu&nbsp;: </strong>
+                        <strong>Apprentissage continu: </strong>
                         S&apos;appuyer sur des mesures pertinentes pour
                         identifier les enseignements afin
                         d&apos;am&eacute;liorer les m&eacute;canismes et de
@@ -253,16 +253,16 @@ const fr = () => {
                     </li>
                 </ol>
                 <p>
-                    Source&nbsp;:{" "}
+                    Source:{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/report_46_GM_pilots.pdf"
-                        title="Piloting Principles for Effective Company-Stakeholder Grievance Mechanisms&nbsp;: A Report of Lessons Learned."
+                        title="Piloting Principles for Effective Company-Stakeholder Grievance Mechanisms: A Report of Lessons Learned."
                     >
                         <em>
                             Piloting Principles for Effective
-                            Company-Stakeholder Grievance Mechanisms&nbsp;: A
+                            Company-Stakeholder Grievance Mechanisms: A
                             Report of Lessons Learned
                         </em>
                     </a>
@@ -305,7 +305,7 @@ const fr = () => {
                 </p>
                 <p>
                     <em>
-                        *Remarque&nbsp;: Les r&eacute;f&eacute;rences &agrave;
+                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
                         des soci&eacute;t&eacute;s et entit&eacute;s non
                         gouvernementales sp&eacute;cifiques dans ce guide sont
                         &agrave; des fins d&rsquo;information uniquement afin de

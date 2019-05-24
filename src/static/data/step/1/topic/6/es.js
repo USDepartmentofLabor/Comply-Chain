@@ -47,10 +47,10 @@ const es = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.fairtradeusa.org/"
-                        title="Fair Trade USA"
+                        href="https://www.fairtradecertified.org"
+                        title="Fair Trade Certified"
                     >
-                        Fair Trade USA
+                        Fair Trade Certified
                     </a>
                     .
                 </p>
@@ -87,7 +87,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="clt">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>Ejemplo en acci&oacute;n: GoodWeave</strong>
                     </h2>
 

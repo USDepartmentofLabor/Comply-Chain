@@ -104,8 +104,8 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="Conflict_Free">
                     <h2>
-                        <ExampleInAction.Icon />
-                        <strong>Exemple d&apos;action</strong>&nbsp;: Initiative
+                        <ExampleInAction.Icon />{" "}
+                        <strong>Exemple d&apos;action</strong>: Initiative
                         pour un approvisionnement sans conflits
                     </h2>
                     <p>
@@ -201,9 +201,9 @@ const fr = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.somo.nl/should-i-stay-or-should-i-go/"
-                        title="Partir ou rester&nbsp;? Le r&ocirc;le du d&eacute;sengagement dans le cadre de la diligence raisonnable en mati&egrave;re de droits de l&rsquo;homme."
+                        title="Partir ou rester? Le r&ocirc;le du d&eacute;sengagement dans le cadre de la diligence raisonnable en mati&egrave;re de droits de l&rsquo;homme."
                     >
-                        Partir ou rester&nbsp;? Le r&ocirc;le du
+                        Partir ou rester? Le r&ocirc;le du
                         d&eacute;sengagement dans le cadre de la diligence
                         raisonnable en mati&egrave;re de droits de l&rsquo;homme
                     </a>
@@ -218,8 +218,8 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="mica">
                     <h2>
-                        <ExampleInAction.Icon />
-                        <strong>Exemple d&apos;action</strong>&nbsp;:
+                        <ExampleInAction.Icon />{" "}
+                        <strong>Exemple d&apos;action</strong>:
                         L&rsquo;Or&eacute;al* et l&rsquo;approvisionnement
                         responsable en mica
                     </h2>
@@ -290,7 +290,7 @@ const fr = () => {
                     questions de formation et de communication, sont
                     d&eacute;taill&eacute;es, entre autres, &agrave; la{" "}
                     <Link to="/steps/4">
-                        4<sup>e</sup>&nbsp;&eacute;tape&nbsp;: communiquer et
+                        4<sup>e</sup>&nbsp;&eacute;tape: communiquer et
                         former l&rsquo;ensemble de votre cha&icirc;ne
                         d&rsquo;approvisionnement
                     </Link>

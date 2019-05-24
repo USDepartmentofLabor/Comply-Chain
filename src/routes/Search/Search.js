@@ -16,10 +16,11 @@ const SearchLabel = styled.label`
     & svg {
         content: "";
         position: absolute;
-        bottom: ${() => (isBrowser() ? "-24px" : "-29px")};
-        height: 20px;
-        font-size: 2em;
+        transform: translateY(40%);
         z-index: 5;
+        top: 90%;
+        left: 10px;
+        height: 20px;
     }
 `;
 
@@ -31,10 +32,13 @@ const SearchInput = styled.input`
     padding: 10px 30px;
     width: 100%;
     box-sizing: border-box;
+    appearance: none;
 `;
 
-const SearchResultsHeader = styled.h4`
+const SearchResultsHeader = styled.h1`
+    font-size: 17px;
     color: ${theme.colors.base};
+    margin-bottom: 10px;
     & .query {
         color: ${theme.colors.primaryAltDarkest};
     }
@@ -44,6 +48,10 @@ const SearchResult = styled.div`
     border: 1px solid ${theme.colors.grayLight};
     margin-top: 1em;
     padding: 0 20px 20px;
+`;
+
+const ResultHeading = styled.h2`
+    font-size: 18px;
 `;
 
 const ResultTitle = styled(Link)`
@@ -295,7 +303,7 @@ class Search extends Component {
             if (pattern.test(content)) {
                 const idx = content.toLowerCase().indexOf(query.toLowerCase());
                 if (idx !== -1) {
-                    snippets = this.shorten(content, 200, idx);
+                    snippets = this.shorten(content, 120, idx);
                 }
             }
 
@@ -352,7 +360,7 @@ class Search extends Component {
                         <span className="query">{query}</span>"
                     </SearchResultsHeader>
                 )}
-                <form onSubmit={this.handleSubmit}>
+                <form action="." onSubmit={this.handleSubmit}>
                     <SearchLabel>
                         <HiddenText508>Search</HiddenText508>
                         <Icons.Search role="img" aria-label="Search" />
@@ -370,7 +378,7 @@ class Search extends Component {
                     return (
                         <SearchResult key={`search_results_${i}`}>
                             {result.to && (
-                                <h3>
+                                <ResultHeading>
                                     <ResultTitle
                                         to={this.createSearchQueryUrl(
                                             result.to,
@@ -382,7 +390,7 @@ class Search extends Component {
                                     >
                                         {result.title}
                                     </ResultTitle>
-                                </h3>
+                                </ResultHeading>
                             )}
                             <p>
                                 <Snippet

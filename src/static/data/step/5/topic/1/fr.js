@@ -6,7 +6,7 @@ const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Audits : guide de d&eacute;marrage</h1>
+                <h1>Audits: guide de d&eacute;marrage</h1>
                 <p>
                     Les audits sont au c&oelig;ur de la mise en &oelig;uvre
                     d&apos;un syst&egrave;me efficace de conformit&eacute;
@@ -18,7 +18,7 @@ const fr = () => {
                 <p>
                     Comme mentionn&eacute; dans{" "}
                     <Link to="/steps/1">
-                        la 1<sup>&egrave;re</sup> &eacute;tape&nbsp;: faire
+                        la 1<sup>&egrave;re</sup> &eacute;tape: faire
                         participer les parties prenantes et les partenaires
                     </Link>
                     , si vous faites partie d&apos;un groupe sectoriel ou
@@ -63,7 +63,7 @@ const fr = () => {
                     r&eacute;parer. Ce point est abord&eacute; en d&eacute;tail
                     &agrave;{" "}
                     <Link to="/steps/6">
-                        la 6e &eacute;tape&nbsp;: r&eacute;parer les infractions
+                        la 6e &eacute;tape: r&eacute;parer les infractions
                     </Link>
                     .
                 </p>

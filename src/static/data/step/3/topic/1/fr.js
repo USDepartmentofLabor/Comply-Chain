@@ -1,7 +1,8 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import Accordion from "../../../../../../components/Accordion";
 
-const fr = () => {
+const fr = ({ pdf }) => {
     return (
         <StaticData>
             <div>
@@ -18,14 +19,14 @@ const fr = () => {
                     conditions de travail. Il existe divers ACI mais ils se
                     fondent sur les normes fondamentales du travail de
                     l&apos;OIT, centr&eacute;es sur deux grandes
-                    cat&eacute;gories de normes : a) les principes et droits
+                    cat&eacute;gories de normes: a) les principes et droits
                     fondamentaux du travail (libert&eacute; d&apos;association,
                     n&eacute;gociation collective, non-discrimination,
                     &eacute;limination du travail forc&eacute;, abolition du
                     travail des enfants) et les termes et conditions minimum de
                     l&apos;emploi (dur&eacute;e du travail, salaires,
                     s&eacute;curit&eacute; et sant&eacute; au travail) ; et b)
-                    d&apos;autres conditions de travail : mobilit&eacute; et
+                    d&apos;autres conditions de travail: mobilit&eacute; et
                     questions connexes telles que la formation, la
                     s&eacute;curit&eacute; de l&apos;emploi, la sous-traitance
                     et la restructuration.&nbsp;
@@ -93,122 +94,136 @@ const fr = () => {
                     travailleurs et qui s&rsquo;applique aux filiales de la
                     soci&eacute;t&eacute; dans le monde.
                 </p>
-                <h2>Autres ressources</h2>
-                <ol>
-                    <li>
-                        AFL-CIO{" "}
-                        <em>
-                            Responsibility Outsourced: Social Audits, Workplace
-                            Certification and Twenty Years of Failure to Protect
-                            Worker Rights&nbsp;;
-                        </em>{" "}
-                        1<sup>er</sup>&nbsp;ao&ucirc;t&nbsp;2014&nbsp;;
-                        disponible [en anglais] sur{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://aflcio.org/sites/default/files/2017-03/CSReport.pdf"
-                            title="Responsibility Outsourced: Social Audits, Workplace Certification and Twenty Years of Failure to Protect Worker Rights"
-                        >
-                            https://aflcio.org/sites/default/files/2017-03/CSReport.pdf
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        Danone{" "}
-                        <em>
-                            Danone-UITA&nbsp;: signature d&rsquo;un
-                            dixi&egrave;me accord sur l&rsquo;emploi durable
-                        </em>
-                        . [en ligne, consult&eacute; le 16&nbsp;mai 2017]&nbsp;;
-                        disponible sur{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf"
-                            title="Danone-UITA&nbsp;: signature d&rsquo;un dixi&egrave;me accord sur l&rsquo;emploi durable"
-                        >
-                            https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        Danone. <em>Dialogue social.</em>[en ligne,
-                        consult&eacute; le 16&nbsp;mai 2017]&nbsp;; disponible
-                        sur{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.danone.com/impact/people-communities/social-dialogue.html"
-                            title="Dialogue social"
-                        >
-                            https://www.danone.com/impact/people-communities/social-dialogue.html
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        IndustriALL.{" "}
-                        <em>
-                            Agreement with H&amp;M Proves Instrumental in
-                            Resolving Conflicts
-                        </em>
-                        , 2016 [en ligne, consult&eacute; le 16&nbsp;mai 2016].
-                        Disponible [en anglais] sur{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.industriall-union.org/agreement-with-hm-proves-instrumental-in-resolving-conflicts-0"
-                            title="Agreement with H&amp;M Proves Instrumental in Resolving Conflicts"
-                        >
-                            http://www.industriall-union.org/agreement-with-hm-proves-instrumental-in-resolving-conflicts-0
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        OIT. Cross-Border Social Dialogue and Agreements
-                        <em>
-                            : An emerging global industrial relations framework?
-                        </em>{" "}
-                        Gen&egrave;ve, 2008&nbsp;; disponible [en anglais] sur{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--fr/index.htm"
-                            title="OIT. Cross-Border Social Dialogue and Agreements: An emerging global industrial relations framework?"
-                        >
-                            http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--fr/index.htm
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        OIT. International framework agreements and global
-                        social dialogue: parameters and prospects;
-                        Gen&egrave;ve, 2010&nbsp;; disponible [en anglais] sur{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--fr/index.htm"
-                            title="International framework agreements and global social dialogue: parameters and prospects"
-                        >
-                            http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--fr/index.htm
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        OIT-OIE. International framework agreements : an
-                        employers&rsquo; guide ; 2007 ; disponible [en anglais]
-                        sur{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
-                            title="OIT-OIE. International framework agreements: an employers&rsquo; guide"
-                        >
-                            http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1
-                        </a>
-                        .
-                    </li>
-                </ol>
+                <Accordion id="resources" pdf={pdf}>
+                    <Accordion.Section>
+                        <Accordion.Title>Autres ressources</Accordion.Title>
+                        <Accordion.Panel>
+                            <ol>
+                                <li>
+                                    AFL-CIO{" "}
+                                    <em>
+                                        Responsibility Outsourced: Social
+                                        Audits, Workplace Certification and
+                                        Twenty Years of Failure to Protect
+                                        Worker Rights&nbsp;;
+                                    </em>{" "}
+                                    1<sup>er</sup>
+                                    &nbsp;ao&ucirc;t&nbsp;2014&nbsp;; disponible
+                                    [en anglais] sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://aflcio.org/sites/default/files/2017-03/CSReport.pdf"
+                                        title="Responsibility Outsourced: Social Audits, Workplace Certification and Twenty Years of Failure to Protect Worker Rights"
+                                    >
+                                        https://aflcio.org/sites/default/files/2017-03/CSReport.pdf
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    Danone{" "}
+                                    <em>
+                                        Danone-UITA: signature d&rsquo;un
+                                        dixi&egrave;me accord sur l&rsquo;emploi
+                                        durable
+                                    </em>
+                                    . [en ligne, consult&eacute; le 16&nbsp;mai
+                                    2017]&nbsp;; disponible sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf"
+                                        title="Danone-UITA: signature d&rsquo;un dixi&egrave;me accord sur l&rsquo;emploi durable"
+                                    >
+                                        https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    Danone. <em>Dialogue social.</em>[en ligne,
+                                    consult&eacute; le 16&nbsp;mai 2017]&nbsp;;
+                                    disponible sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.danone.com/impact/people-communities/social-dialogue.html"
+                                        title="Dialogue social"
+                                    >
+                                        https://www.danone.com/impact/people-communities/social-dialogue.html
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    IndustriALL.{" "}
+                                    <em>
+                                        Agreement with H&amp;M Proves
+                                        Instrumental in Resolving Conflicts
+                                    </em>
+                                    , 2016 [en ligne, consult&eacute; le
+                                    16&nbsp;mai 2016]. Disponible [en anglais]
+                                    sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.industriall-union.org/agreement-with-hm-proves-instrumental-in-resolving-conflicts-0"
+                                        title="Agreement with H&amp;M Proves Instrumental in Resolving Conflicts"
+                                    >
+                                        http://www.industriall-union.org/agreement-with-hm-proves-instrumental-in-resolving-conflicts-0
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    OIT. Cross-Border Social Dialogue and
+                                    Agreements
+                                    <em>
+                                       : An emerging global industrial
+                                        relations framework?
+                                    </em>{" "}
+                                    Gen&egrave;ve, 2008&nbsp;; disponible [en
+                                    anglais] sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--fr/index.htm"
+                                        title="OIT. Cross-Border Social Dialogue and Agreements: An emerging global industrial relations framework?"
+                                    >
+                                        http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--fr/index.htm
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    OIT. International framework agreements and
+                                    global social dialogue: parameters and
+                                    prospects; Gen&egrave;ve, 2010&nbsp;;
+                                    disponible [en anglais] sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--fr/index.htm"
+                                        title="International framework agreements and global social dialogue: parameters and prospects"
+                                    >
+                                        http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--fr/index.htm
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    OIT-OIE. International framework agreements
+                                   : an employers&rsquo; guide ; 2007 ;
+                                    disponible [en anglais] sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
+                                        title="OIT-OIE. International framework agreements: an employers&rsquo; guide"
+                                    >
+                                        http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1
+                                    </a>
+                                    .
+                                </li>
+                            </ol>
+                        </Accordion.Panel>
+                    </Accordion.Section>
+                </Accordion>
             </div>
         </StaticData>
     );

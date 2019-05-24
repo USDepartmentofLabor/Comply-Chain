@@ -164,7 +164,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="med_rep">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Ejemplo en acci&oacute;n: la importancia de los
                             medios de comunicaci&oacute;n al informar
@@ -373,7 +373,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="fish">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Ejemplo en acci&oacute;n: pescados y mariscos
                         </strong>
@@ -445,7 +445,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.nmfs.noaa.gov/ia/iuu/noaa_taskforce_report_final.pdf"
+                            href="https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf"
                             title="Plan de acci&oacute;n para aplicar las recomendaciones del equipo de tareas"
                         >
                             Plan de acci&oacute;n para aplicar las
@@ -458,8 +458,9 @@ const es = () => {
                 </ExampleInAction>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />
+                        <OwnWords.Icon />{" "}
                         <strong>En sus propias palabras</strong>
+                        {": "}
                     </h2>
                     <p>
                         <strong>
@@ -469,13 +470,13 @@ const es = () => {
                     </p>
                     <p>
                         La Corporaci&oacute;n para Inversiones Privadas en el
-                        Extranjero del gobierno de los Estados Unidos cuenta con
-                        procesos que permiten garantizar que los proyectos que
-                        reciban apoyo de la OPIC sean sostenibles desde las
-                        perspectivas social y ambiental. Algunos proyectos
-                        financiados por la OPIC se clasifican como &ldquo;de
-                        especial consideraci&oacute;n&rdquo; por una serie de
-                        factores laborales.
+                        Extranjero del gobierno de los Estados Unidos (OPIC)
+                        cuenta con procesos que permiten garantizar que los
+                        proyectos que reciban apoyo de la OPIC sean sostenibles
+                        desde las perspectivas social y ambiental. Algunos
+                        proyectos financiados por la OPIC se clasifican como
+                        &ldquo;de especial consideraci&oacute;n&rdquo; por una
+                        serie de factores laborales.
                     </p>
                     <p>
                         &nbsp;&ldquo;Los proyectos de especial
@@ -605,7 +606,7 @@ const es = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
+                        href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
                         title="Principios generales y directrices para la contrataci&oacute;n equitativa"
                     >
                         Principios generales y directrices para la
@@ -682,7 +683,7 @@ const es = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.verite.org/wp-content/uploads/2016/11/Verite_Report_for_PMI_on_Kazakhstan-2_May_2011.pdf"
+                        href="https://www.fairfactories.org/"
                         title="Fair Factories Clearinghouse"
                     >
                         Fair Factories Clearinghouse
@@ -846,7 +847,7 @@ const es = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.ilo.org/public/english/dialogue/actemp/downloads/projects/child_guide3_en.pdf"
+                        href="https://www.ilo.org/asia/publications/WCMS_117866/lang--ja/index.htm"
                         title="The role of employers&rsquo; organizations in combating child labour, Guide 3"
                     >
                         <em>

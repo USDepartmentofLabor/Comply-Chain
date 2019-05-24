@@ -354,7 +354,7 @@ const es = ({ pdf }) => {
                                 </p>
                                 <ExampleInAction id="better-work-garment">
                                     <h4>
-                                        <ExampleInAction.Icon />
+                                        <ExampleInAction.Icon />{" "}
                                         <strong>
                                             Ejemplo en acci&oacute;n
                                         </strong>
@@ -452,13 +452,14 @@ const es = ({ pdf }) => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.eiccoalition.org/"
-                                        title="Coalici&oacute;n Ciudadana de la Industria Electr&oacute;nica (EICC)"
+                                        href="http://www.responsiblebusiness.org/"
+                                        title="Responsible Business Alliance (RBA)"
                                     >
-                                        Coalici&oacute;n Ciudadana de la
-                                        Industria Electr&oacute;nica (EICC)
-                                    </a>{" "}
-                                    se comprometen a seguir un{" "}
+                                        Responsible Business Alliance (RBA)
+                                    </a>
+                                    , anteriormente conocida como Electronic
+                                    Industry Citizenship Coalition (EICC) se
+                                    comprometen a seguir un{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -655,9 +656,9 @@ const es = ({ pdf }) => {
                                 </p>
                                 <OwnWords>
                                     <h4>
-                                        <OwnWords.Icon />
+                                        <OwnWords.Icon />{" "}
                                         <strong>En sus propias palabras</strong>
-                                        ,{" "}
+                                        {": "}
                                         <strong>
                                             Directrices de una
                                             instituci&oacute;n internacional
@@ -979,15 +980,14 @@ const es = ({ pdf }) => {
                                 </p>
                                 <ExampleInAction id="eicc">
                                     <h4>
-                                        <ExampleInAction.Icon />
+                                        <ExampleInAction.Icon />{" "}
                                         <strong>
                                             Ejemplo en acci&oacute;n:
-                                        </strong>{" "}
-                                        <strong>
-                                            C&oacute;digo de conducta de la
-                                            Coalici&oacute;n Ciudadana de la
-                                            Industria Electr&oacute;nica (EICC).
-                                            Sistemas de gesti&oacute;n
+                                            Responsible Business Alliance (RBA)
+                                            (antes conocida como Electronics
+                                            Industry Citizenship Coalition)
+                                            (EICC) Código de conducta - Sistemas
+                                            de Gestión
                                         </strong>
                                     </h4>
                                     <p>
@@ -995,13 +995,15 @@ const es = ({ pdf }) => {
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            href="http://www.eiccoalition.org/standards/code-of-conduct/"
-                                            title="Extra&iacute;do de la versi&oacute;n 5.1 del C&oacute;digo de conducta de la EICC (2016)"
+                                            href="http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_Spanish.pdf"
+                                            title="Extraído del Código de Conducta
+                                                de Responsible Business Alliance
+                                                v. 6.0 (2018)"
                                         >
                                             <em>
-                                                versi&oacute;n 5.1 del
-                                                C&oacute;digo de conducta de la
-                                                EICC (2016)
+                                                Extraído del Código de Conducta
+                                                de Responsible Business Alliance
+                                                v. 6.0 (2018)
                                             </em>
                                         </a>
                                     </p>

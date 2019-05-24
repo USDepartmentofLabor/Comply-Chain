@@ -15,9 +15,9 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="sug_phil">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Fondation Eliminating
+                            Exemple d&apos;action: Fondation Eliminating
                             Child Labor in Tobacco-Growing (ECLT)
                         </strong>
                     </h2>
@@ -112,7 +112,7 @@ const fr = () => {
                             Ouganda
                         </a>
                         . Ces projets ont cinq objectifs
-                        strat&eacute;giques&nbsp;: soustraire les enfants du
+                        strat&eacute;giques: soustraire les enfants du
                         travail des enfants, fournir des services
                         &eacute;ducatifs, sensibiliser, renforcer les
                         communaut&eacute;s et r&eacute;duire la pauvret&eacute;.
@@ -133,9 +133,9 @@ const fr = () => {
                 </ExampleInAction>
                 <ExampleInAction id="clt">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Plateforme sur le
+                            Exemple d&apos;action: Plateforme sur le
                             travail des enfants
                         </strong>
                     </h2>
@@ -225,28 +225,28 @@ const fr = () => {
                 </ExampleInAction>
                 <ExampleInAction id="gbn">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: R&eacute;seau mondial
+                            Exemple d&apos;action: R&eacute;seau mondial
                             d&apos;entreprises de l&rsquo;OIT sur le travail
-                            forc&eacute; et la traite des &ecirc;tres humains
+                            forc&eacute;
                         </strong>
                     </h2>
                     <p>
                         Le R&eacute;seau mondial d&apos;entreprises de
-                        l&rsquo;OIT sur le travail forc&eacute; et la traite des
-                        &ecirc;tres humains, soutenu par un financement initial
-                        du d&eacute;partement du Travail et Mars, Inc.*, devrait
-                        &ecirc;tre lanc&eacute; en&nbsp;2018&nbsp;; il
-                        rassemblera des organisations d&rsquo;employeurs, des
-                        entreprises et d&rsquo;autres parties prenantes pour
-                        donner des occasions de partager des informations sur la
-                        mani&egrave;re dont les soci&eacute;t&eacute;s de toute
-                        une s&eacute;rie de secteurs exercent leur diligence
-                        raisonnable et effectuent des &eacute;valuations de
-                        risques en mati&egrave;re de travail forc&eacute; et de
-                        traite des &ecirc;tres humains dans leurs
-                        op&eacute;rations commerciales. Le R&eacute;seau mondial
+                        l&rsquo;OIT sur le travail forc&eacute;, soutenu par un
+                        financement initial du d&eacute;partement du Travail et
+                        Mars, Inc.*, devrait &ecirc;tre lanc&eacute;
+                        en&nbsp;2018&nbsp;; il rassemblera des organisations
+                        d&rsquo;employeurs, des entreprises et d&rsquo;autres
+                        parties prenantes pour donner des occasions de partager
+                        des informations sur la mani&egrave;re dont les
+                        soci&eacute;t&eacute;s de toute une s&eacute;rie de
+                        secteurs exercent leur diligence raisonnable et
+                        effectuent des &eacute;valuations de risques en
+                        mati&egrave;re de travail forc&eacute; et de traite des
+                        &ecirc;tres humains dans leurs op&eacute;rations
+                        commerciales. Le R&eacute;seau mondial
                         d&rsquo;entreprises fournira aux soci&eacute;t&eacute;s
                         des occasions de r&eacute;f&eacute;rencer leurs
                         r&eacute;sultats et de faciliter l&rsquo;apprentissage

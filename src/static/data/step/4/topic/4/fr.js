@@ -9,7 +9,7 @@ const fr = () => {
             <div>
                 <h1>
                     O&ugrave;, quand et comment la formation devrait-elle se
-                    tenir&nbsp;?
+                    tenir?
                 </h1>
                 <p>
                     Certaines &eacute;quipes de conformit&eacute; sociale ont du
@@ -82,7 +82,7 @@ const fr = () => {
                     pi&egrave;ce. Dans certains cas, selon le groupe
                     concern&eacute;, il s&apos;agira d&apos;un formateur ou
                     d&apos;une formatrice. Il est important que les formateurs
-                    comprennent diff&eacute;rentes questions : regarder dans les
+                    comprennent diff&eacute;rentes questions: regarder dans les
                     yeux ou pas, &agrave; quelle distance se tenir. Il est aussi
                     essentiel de comprendre les styles d&rsquo;enseignement
                     habituels pour la r&eacute;gion. Par exemple, dans de
@@ -114,9 +114,9 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="cocoa">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Le secteur
+                            Exemple d&apos;action: Le secteur
                             international du chocolat et du cacao&nbsp;
                         </strong>
                     </h2>
@@ -132,7 +132,7 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.worldcocoafoundation.org/wp-content/uploads/CocoaAction-Primer-v1_English_May-2016.pdf"
+                            href="https://www.worldcocoafoundation.org/about-wcf/cocoaaction/"
                             title="Initiative CocoaAction de la World Cocoa Foundation"
                         >
                             initiative CocoaAction de la World Cocoa Foundation
@@ -160,7 +160,7 @@ const fr = () => {
                     </p>
                     <p>
                         Les interventions centrales de CocoaAction se
-                        r&eacute;partissent en deux ensembles&nbsp;:
+                        r&eacute;partissent en deux ensembles:
                         productivit&eacute; et d&eacute;veloppement
                         communautaire. Le volet productivit&eacute; a pour
                         objectif d&rsquo;aider &agrave; augmenter la production

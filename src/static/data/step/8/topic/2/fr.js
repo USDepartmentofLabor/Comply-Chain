@@ -5,7 +5,7 @@ const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Pourquoi produire des rapports publics&nbsp;?</h1>
+                <h1>Pourquoi produire des rapports publics?</h1>
                 <p>
                     Auparavant, les rapports publics sur la conformit&eacute;
                     sociale &eacute;taient principalement volontaires, bien que
@@ -59,7 +59,7 @@ const fr = () => {
                 </p>
                 <p>
                     Les rapports publics pr&eacute;sentent divers avantages,
-                    tant internes qu&apos;externes :&nbsp;
+                    tant internes qu&apos;externes:&nbsp;
                 </p>
                 <div style={{ marginLeft: "2%" }}>
                     <h2>&Eacute;ducation et ralliement des employ&eacute;s</h2>

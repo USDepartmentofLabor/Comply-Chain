@@ -46,7 +46,7 @@ const fr = () => {
                     l&apos;entreprise qui sont form&eacute;s et poss&egrave;dent
                     des qualifications et des comp&eacute;tences d&apos;audit
                     social. Un avantage du recours &agrave; des auditeurs
-                    internes : il est probablement plus facile de communiquer
+                    internes: il est probablement plus facile de communiquer
                     avec eux ; par exemple, s&apos;il y a des modifications de
                     la politique, il est plus facile d&apos;assurer une
                     uniformit&eacute; au sein des employ&eacute;s de
@@ -127,7 +127,7 @@ const fr = () => {
                     sociale si elle veut s&rsquo;assurer une efficacit&eacute;
                     et une cr&eacute;dibilit&eacute; maximales. Voir{" "}
                     <Link to="/steps/7">
-                        la 7<sup>e</sup> &eacute;tape&nbsp;: examen
+                        la 7<sup>e</sup> &eacute;tape: examen
                         ind&eacute;pendant
                     </Link>{" "}
                     pour un examen plus approfondi de la surveillance et du
@@ -222,8 +222,8 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="better_work_assessment">
                     <h3>
-                        <ExampleInAction.Icon />
-                        Exemple d&apos;action&nbsp;: &Eacute;quipes
+                        <ExampleInAction.Icon />{" "}
+                        Exemple d&apos;action: &Eacute;quipes
                         d&apos;&eacute;valuation Better Work
                     </h3>
                     <p>

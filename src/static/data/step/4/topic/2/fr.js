@@ -16,7 +16,7 @@ const fr = () => {
                     employ&eacute;s charg&eacute;s de fonctions concernant la
                     conformit&eacute; sociale, une entreprise devrait tenir
                     compte des parties suivantes dans l&apos;ensemble de sa
-                    cha&icirc;ne d&apos;approvisionnement :
+                    cha&icirc;ne d&apos;approvisionnement:
                 </p>
                 <ul>
                     <li>Vos propres employ&eacute;s</li>

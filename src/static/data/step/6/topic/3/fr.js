@@ -10,7 +10,7 @@ const fr = () => {
                     Un plan d&apos;action corrective (PAC) est d&apos;ordinaire
                     formul&eacute; peu de temps apr&egrave;s l&apos;audit. Les
                     entreprises abordent cette &eacute;laboration de
-                    diff&eacute;rentes fa&ccedil;ons : certaines
+                    diff&eacute;rentes fa&ccedil;ons: certaines
                     &eacute;laborent elles-m&ecirc;mes leurs PAC en se fondant
                     sur les r&eacute;sultats des audits ; d&apos;autres exigent
                     que le fournisseur &eacute;labore son propre PAC et en
@@ -33,7 +33,7 @@ const fr = () => {
                     conform&eacute;ment &agrave; des proc&eacute;dures
                     d&eacute;finies.
                 </p>
-                <p>Un PAC devrait comprendre :</p>
+                <p>Un PAC devrait comprendre:</p>
                 <ul>
                     <li>Toutes les conclusions d&apos;un audit ;</li>
                     <li>

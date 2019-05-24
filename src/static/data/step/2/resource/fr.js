@@ -191,7 +191,7 @@ const fr = () => {
                     <li>
                         Conf&eacute;d&eacute;ration syndicale internationale.{" "}
                         <em>
-                            L&rsquo;indice CSI des droits dans le monde&nbsp;:
+                            L&rsquo;indice CSI des droits dans le monde:
                             les pires endroits au monde pour les travailleurs et
                             les travailleuses&nbsp;; 2014 &nbsp;;{" "}
                         </em>
@@ -213,7 +213,7 @@ const fr = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
-                            title="L&rsquo;indice CSI des droits dans le monde&nbsp;: les pires endroits au monde pour les travailleurs et les travailleuses&nbsp;; 2014"
+                            title="L&rsquo;indice CSI des droits dans le monde: les pires endroits au monde pour les travailleurs et les travailleuses&nbsp;; 2014"
                         >
                             https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf
                         </a>

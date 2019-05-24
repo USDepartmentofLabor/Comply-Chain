@@ -30,7 +30,7 @@ const fr = () => {
                     prenantes sont examin&eacute;es dans l&apos;ensemble des
                     sections de cette appli. La pr&eacute;sente section est
                     centr&eacute;e sur deux formes pr&eacute;cises de
-                    communication&nbsp;:{" "}
+                    communication:{" "}
                     <strong>
                         la formation et le renforcement des capacit&eacute;s
                     </strong>

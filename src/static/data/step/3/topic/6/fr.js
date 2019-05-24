@@ -44,7 +44,7 @@ const fr = () => {
                     votre activit&eacute;.
                 </p>
                 <p>
-                    Voici quelques exemples de codes sectoriels ou industriels :
+                    Voici quelques exemples de codes sectoriels ou industriels:
                     les{" "}
                     <a
                         target="_blank"
@@ -123,7 +123,7 @@ const fr = () => {
                     De m&ecirc;me, il existe des groupes multilat&eacute;raux et
                     multipartites qui ont mis au point des recommandations au
                     sujet d&rsquo;un produit ou d&rsquo;une gamme de produits
-                    pr&eacute;cis. Par exemple&nbsp;: 1) le{" "}
+                    pr&eacute;cis. Par exemple: 1) le{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

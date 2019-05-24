@@ -156,6 +156,8 @@ class TopicView extends Component {
                                     {localizor.strings.general.prevTopic}
                                 </NavButton>
                             )}
+                            {/** Used to keep a space between the buttons */}
+                            <div />
                             {nextTopic && (
                                 <NavButton
                                     id="next-topic"

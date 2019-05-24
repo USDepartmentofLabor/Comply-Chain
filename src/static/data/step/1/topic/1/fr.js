@@ -7,13 +7,13 @@ const fr = () => {
             <div>
                 <h1>
                     Pourquoi rechercher la participation des parties
-                    prenantes&nbsp;?
+                    prenantes?
                 </h1>
                 <p>
                     &Agrave; ce stade, vous n&apos;avez sans doute pas toutes
                     les informations n&eacute;cessaires pour mettre sur pied un
                     syst&egrave;me de conformit&eacute; sociale fructueux. Par
-                    exemple : quelle est l&apos;ampleur du probl&egrave;me du
+                    exemple: quelle est l&apos;ampleur du probl&egrave;me du
                     travail des enfants dans l&apos;un des pays ou l&apos;une
                     des villes o&ugrave; vous vous approvisionnez ? Quels sont
                     les services que vous devriez offrir &agrave; une victime du

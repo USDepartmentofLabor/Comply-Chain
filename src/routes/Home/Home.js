@@ -7,16 +7,17 @@ import { withLanguageContext } from "../../components/Language";
 import Routes from "../../modules/config/routes";
 import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
-import boyPakistan from "../../static/images/Boy_Pakistan_Corn.jpg";
-import mica from "../../static/images/CWerner_mica_002EXTRA.jpg";
-import girlsIraq from "../../static/images/Girls_Iraq_School_2017.jpg";
-import girlIndia from "../../static/images/Girl_India_Bricks_2016.jpg";
-import girlIndonesia from "../../static/images/Girl_Indonesia_Palm_Oil.jpg";
-import girlNepal from "../../static/images/Girl_Nepal_Bricks.jpg";
-import girlPakistan from "../../static/images/Girl_Pakistan_Cotton_2011.jpg";
-import girlUganda from "../../static/images/Girl_Uganda_Farm.jpg";
-import diamondMines from "../../static/images/diamond_mines.jpg";
-import mexicoPeppers from "../../static/images/TVPRA_CL_Mexico_peppers.jpg";
+import { isIOS } from "../../modules/utils/platform";
+import homeBasics from "../../static/images/home_basics.jpg";
+import homeStep1 from "../../static/images/home_step_1.jpg";
+import homeStep2 from "../../static/images/home_step_2.jpg";
+import homeStep3 from "../../static/images/home_step_3.jpg";
+import homeStep4 from "../../static/images/home_step_4.jpg";
+import homeStep5 from "../../static/images/home_step_5.jpg";
+import homeStep6 from "../../static/images/home_step_6.jpg";
+import homeStep7 from "../../static/images/home_step_7.jpg";
+import homeStep8 from "../../static/images/home_step_8.jpg";
+import homeWhyDevelop from "../../static/images/home_why_develop.jpg";
 
 class Home extends Component {
     render() {
@@ -81,11 +82,11 @@ class Home extends Component {
                                         <Icon>
                                             <Icons.StepIcon step={i + 1} />
                                         </Icon>
-                                        <PaddedContent>
+                                        <PaddedTitle>
                                             <ItemTitle to={`/steps/${i + 1}`}>
                                                 {step.title}
                                             </ItemTitle>
-                                        </PaddedContent>
+                                        </PaddedTitle>
                                     </FlexContent>
                                 </ItemContent>
                             </Item>
@@ -107,15 +108,15 @@ class Home extends Component {
 
 const infoImageData = [
     {
-        image: mica,
+        image: homeWhyDevelop,
         mobile: {
             x: 50,
-            y: 38
+            y: 20
         },
-        desktop: { x: 50, y: 40 }
+        desktop: { x: 50, y: 35 }
     },
     {
-        image: diamondMines,
+        image: homeBasics,
         mobile: {
             x: 50,
             y: 25
@@ -126,23 +127,23 @@ const infoImageData = [
 
 const stepImageData = [
     {
-        image: mexicoPeppers,
+        image: homeStep1,
         mobile: {
             x: 50,
-            y: 15
+            y: 30
         },
-        desktop: { x: 50, y: 20 }
+        desktop: { x: 50, y: 40 }
     },
     {
-        image: girlIndia,
+        image: homeStep2,
         mobile: {
             x: 50,
-            y: 0
+            y: 25
         },
-        desktop: { x: 50, y: 10 }
+        desktop: { x: 50, y: 35 }
     },
     {
-        image: girlsIraq,
+        image: homeStep3,
         mobile: {
             x: 50,
             y: 35
@@ -150,23 +151,23 @@ const stepImageData = [
         desktop: { x: 50, y: 33 }
     },
     {
-        image: boyPakistan,
+        image: homeStep4,
         mobile: {
             x: 50,
-            y: 10
+            y: 25
         },
         desktop: { x: 50, y: 25 }
     },
     {
-        image: girlNepal,
+        image: homeStep5,
         mobile: {
             x: 50,
-            y: 15
+            y: 20
         },
-        desktop: { x: 50, y: 23 }
+        desktop: { x: 50, y: 28 }
     },
     {
-        image: girlUganda,
+        image: homeStep6,
         mobile: {
             x: 50,
             y: 0
@@ -174,15 +175,15 @@ const stepImageData = [
         desktop: { x: 50, y: 18 }
     },
     {
-        image: girlIndonesia,
+        image: homeStep7,
         mobile: {
             x: 50,
-            y: 0
+            y: 60
         },
-        desktop: { x: 50, y: 20 }
+        desktop: { x: 50, y: 30 }
     },
     {
-        image: girlPakistan,
+        image: homeStep8,
         mobile: {
             x: 50,
             y: 0
@@ -192,16 +193,26 @@ const stepImageData = [
 ];
 
 const HomeWrapper = styled.div`
-    margin: -1.8em -10px -0.8em;
-    width: auto;
+    @media screen and (min-width: 900px) {
+        margin: -1.8em -10px -0.8em;
+        width: auto;
+    }
+
+    @media screen and (max-width: 899px) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
 `;
 
 const FlexContent = styled.div`
     display: flex;
     align-items: flex-end;
+    align-items: center;
 `;
 
-const PaddedContent = styled.span`
+const PaddedTitle = styled.span`
     padding-left: 25px;
 `;
 
@@ -230,9 +241,13 @@ const StatusIcons = styled.div`
     }
 `;
 
-const CheckIcon = styled(Icons.Check)``;
+const CheckIcon = styled(Icons.Check)`
+    overflow: visible;
+`;
 
-const BookmarkIcon = styled(Icons.BookmarkCheck)``;
+const BookmarkIcon = styled(Icons.BookmarkCheck)`
+    overflow: visible;
+`;
 
 const ItemTitle = styled(Link)`
     color: ${theme.colors.white};
@@ -251,14 +266,38 @@ const Item = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(${props => props.image});
-
-    box-shadow: inset 0 0 0 2000px
+    /* iOS PDF view does not display background images using background-image linear-gradient but works with box-shadow.
+    *   Android PDF view has tearing when using box-shadow but not with the linear-gradient.*/
+    background-image: ${props =>
+        isIOS()
+            ? `url(${props.image})`
+            : `linear-gradient(
+            rgba(
+                ${
+                    props.green
+                        ? theme.colors.tealAltRGB
+                        : theme.colors.primaryRGB
+                },
+                0.75
+            ),
+            rgba(
+                ${
+                    props.green
+                        ? theme.colors.tealAltRGB
+                        : theme.colors.primaryRGB
+                },
+                0.75
+            )
+        ),
+        url(${props.image})`};
+    box-shadow: ${props =>
+        isIOS()
+            ? `inset 0 0 0 2000px
         rgba(
-            ${props =>
-                props.green ? theme.colors.greenRGB : theme.colors.primaryRGB},
+            ${props.green ? theme.colors.tealAltRGB : theme.colors.primaryRGB},
             0.75
-        );
+        )`
+            : "none"};
     background-repeat: no-repeat;
     background-position: ${props =>
         `${props.imageMobilePosition.x}% ${props.imageMobilePosition.y}%`};

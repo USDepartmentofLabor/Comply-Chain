@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import withBreadcrumbs from "react-router-breadcrumbs-hoc";
-import { NavLink } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 import styled from "styled-components";
 import { breadcrumbs } from "../../../modules/config/breadcrumbs";
 import Routes from "../../../modules/config/routes";
@@ -45,7 +45,17 @@ const Icon = styled.span`
 `;
 
 class Breadcrumbs extends Component {
+    state = { prevPath: null };
+
+    componentDidUpdate(prevProps) {
+        if (prevProps.location.pathname !== this.props.location.pathname) {
+            this.setState({ prevPath: prevProps.location.pathname });
+        }
+    }
+
     displayBreadcrumb = breadcrumbs => {
+        const { location } = this.props;
+        const { prevPath } = this.state;
         for (let i = 0; i < breadcrumbs.length; i++) {
             const breadcrumb = breadcrumbs[i];
             if (
@@ -80,6 +90,24 @@ class Breadcrumbs extends Component {
                         Search Results
                     </Breadcrumb.Section>
                 );
+            } else if (
+                isIOS() &&
+                location.pathname === Routes.Bookmarks.path &&
+                prevPath &&
+                prevPath !== Routes.Home.path
+            ) {
+                return (
+                    <Breadcrumb.Section
+                        key="back_to_prev"
+                        as={StyledLink}
+                        to={prevPath}
+                    >
+                        <Icon>
+                            <Icons.ArrowDropLeft />
+                        </Icon>
+                        Back
+                    </Breadcrumb.Section>
+                );
             } else {
                 return (
                     <span key={breadcrumb.key}>
@@ -111,9 +139,10 @@ class Breadcrumbs extends Component {
 Breadcrumbs.propTypes = {
     id: PropTypes.string,
     breadcrumbs: PropTypes.array.isRequired,
-    className: PropTypes.string
+    className: PropTypes.string,
+    location: PropTypes.object.isRequired
 };
 
-export default withBreadcrumbs(breadcrumbs, { disableDefaults: true })(
-    Breadcrumbs
+export default withRouter(
+    withBreadcrumbs(breadcrumbs, { disableDefaults: true })(Breadcrumbs)
 );

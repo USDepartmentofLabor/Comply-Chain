@@ -12,7 +12,7 @@ const fr = () => {
                 <p>
                     Comme l&rsquo;indique la{" "}
                     <Link to="/steps/5">
-                        5<sup>e</sup>&nbsp;&eacute;tape&nbsp;: surveiller la
+                        5<sup>e</sup>&nbsp;&eacute;tape: surveiller la
                         conformit&eacute;
                     </Link>
                     , une v&eacute;rification ind&eacute;pendante devrait
@@ -68,7 +68,7 @@ const fr = () => {
                     site de travail et qui pourraient d&eacute;tecter des abus
                     des droits des travailleurs. Les syndicats sont
                     consid&eacute;r&eacute;s par certains comme &eacute;tant des
-                    « v&eacute;rificateurs ind&eacute;pendants »&nbsp;:
+                    « v&eacute;rificateurs ind&eacute;pendants »:
                     s&apos;il existe un syndicat sur le lieu de travail, il
                     devrait &ecirc;tre au courant des moyens s&ucirc;rs de vous
                     signaler des probl&egrave;mes. De m&ecirc;me, les
@@ -83,9 +83,9 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="fla">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Programme
+                            Exemple d&apos;action: Programme
                             d&apos;accr&eacute;ditation de v&eacute;rificateurs
                             ext&eacute;rieurs ind&eacute;pendants par la Fair
                             Labor Association (FLA)
@@ -140,9 +140,9 @@ const fr = () => {
                 </ExampleInAction>
                 <ExampleInAction id="bonsucro">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Le mod&egrave;le
+                            Exemple d&apos;action: Le mod&egrave;le
                             Bonsucro* d&rsquo;accr&eacute;ditation des
                             organisations de certification
                         </strong>
@@ -167,7 +167,7 @@ const fr = () => {
                         v&eacute;rification, ou selon l&apos;appellation choisie
                         par Bonsucro, une organisation de certification, doit
                         d&apos;abord remplir plusieurs crit&egrave;res,
-                        notamment les suivants&nbsp;: 1) une organisation de
+                        notamment les suivants: 1) une organisation de
                         certification (OC) doit &ecirc;tre en conformit&eacute;
                         avec les{" "}
                         <em>
@@ -210,9 +210,9 @@ const fr = () => {
                 </ExampleInAction>
                 <ExampleInAction id="sai_model">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Mod&egrave;le de Social
+                            Exemple d&apos;action: Mod&egrave;le de Social
                             Accountability International
                         </strong>
                     </h2>

@@ -6,12 +6,12 @@ const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Que peuvent faire les parties prenantes&nbsp;?</h1>
+                <h1>Que peuvent faire les parties prenantes?</h1>
                 <p>
                     Il existe des moyens fructueux de collaboration et de
                     partenariat avec les parties prenantes, dans la
                     quasi-totalit&eacute; des volets d&apos;un syst&egrave;me de
-                    conformit&eacute; sociale. En voici quelques exemples :
+                    conformit&eacute; sociale. En voici quelques exemples:
                 </p>
                 <div className="indent-margin">
                     <h2>Causes profondes</h2>
@@ -102,8 +102,8 @@ const fr = () => {
                 </div>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />
-                        <strong>Dans leurs propres mots</strong>
+                        <OwnWords.Icon />{" "}
+                        <strong>Dans leurs propres mots</strong>&nbsp;{": "}
                     </h2>
                     <p>
                         « La participation des parties prenantes peut prendre de
@@ -113,7 +113,7 @@ const fr = () => {
                         organisation adress&eacute;e &agrave; une ou &agrave;
                         plusieurs parties prenantes. Elle peut se situer dans
                         des r&eacute;unions formelles ou informelles et suivre
-                        diff&eacute;rents formats : rencontres individuelles,
+                        diff&eacute;rents formats: rencontres individuelles,
                         conf&eacute;rences, ateliers, audiences publiques,
                         tables rondes, comit&eacute;s consultatifs,
                         proc&eacute;dures r&eacute;guli&egrave;res et
@@ -129,7 +129,7 @@ const fr = () => {
                     </p>
                     <p>
                         <em>
-                            Source&nbsp;: Organisation internationale de
+                            Source: Organisation internationale de
                             normalisation (ISO){" "}
                         </em>
                         <a

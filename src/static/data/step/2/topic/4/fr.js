@@ -68,12 +68,12 @@ const fr = ({ pdf }) => {
                 </p>
                 <p>
                     Voici trois exemples de cartes de cha&icirc;nes
-                    d&apos;approvisionnement :
+                    d&apos;approvisionnement:
                 </p>
                 <p>
-                    Exemple 1&nbsp;: Cha&icirc;nes d&apos;approvisionnement du
+                    Exemple 1: Cha&icirc;nes d&apos;approvisionnement du
                     cacao (C&ocirc;te d&apos;Ivoire et Ghana) <br />{" "}
-                    Exemple&nbsp;2&nbsp;: Cha&icirc;nes d&apos;approvisionnement
+                    Exemple&nbsp;2: Cha&icirc;nes d&apos;approvisionnement
                     de l&apos;&eacute;lectronique&nbsp;&ndash;{" "}
                     <a
                         target="_blank"
@@ -101,7 +101,7 @@ const fr = ({ pdf }) => {
                     >
                         &Eacute;tain
                     </a>{" "}
-                    (voir page&nbsp;42 du PDF) <br /> Exemple 3&nbsp;:
+                    (voir page&nbsp;42 du PDF) <br /> Exemple 3:
                     Cha&icirc;ne d&rsquo;alimentation d&rsquo;importation
                     g&eacute;n&eacute;rique&nbsp;&ndash; mod&egrave;le de
                     d&eacute;tail
@@ -168,7 +168,7 @@ const fr = ({ pdf }) => {
                     longdesc="#cocoa_chains"
                 />
                 <p className="small-text">
-                    Source&nbsp;:{" "}
+                    Source:{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -187,7 +187,7 @@ const fr = ({ pdf }) => {
                             <Accordion.Panel>
                                 Ce graphique illustre les diff&eacute;rents
                                 acteurs de la cha&icirc;ne
-                                d&apos;approvisionnement du cacao&nbsp;: les
+                                d&apos;approvisionnement du cacao: les
                                 agriculteurs, les receveurs/transporteurs, les
                                 transformateurs, les exportateurs, le
                                 march&eacute; mondial, les fabricants (qui
@@ -198,7 +198,7 @@ const fr = ({ pdf }) => {
                                 d&rsquo;entit&eacute;s et
                                 d&rsquo;activit&eacute;s r&eacute;parties entre
                                 ces cat&eacute;gories de la cha&icirc;ne
-                                d&rsquo;approvisionnement dans deux pays : la
+                                d&rsquo;approvisionnement dans deux pays: la
                                 C&ocirc;te d&rsquo;Ivoire et le Ghana. En
                                 C&ocirc;te d&rsquo;Ivoire, les agriculteurs sont
                                 par exemple les petites exploitations agricoles
@@ -261,7 +261,7 @@ const fr = ({ pdf }) => {
                     longdesc="#generic_import"
                 />
                 <p className="small-text">
-                    Source&nbsp;:{" "}
+                    Source:{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -284,11 +284,11 @@ const fr = ({ pdf }) => {
                                     d&rsquo;importation g&eacute;n&eacute;rique.
                                     La description d&rsquo;une cha&icirc;ne
                                     d&rsquo;approvisionnement mod&egrave;le de
-                                    d&eacute;tail typique commence ainsi&nbsp;:
+                                    d&eacute;tail typique commence ainsi:
                                 </p>
                                 <ul>
                                     <li>
-                                        Premi&egrave;re &eacute;tape&nbsp;:
+                                        Premi&egrave;re &eacute;tape:
                                         d&eacute;veloppement du produit.
                                         &Agrave; ce stade, le concept du produit
                                         et un fournisseur sont choisis, et le
@@ -300,7 +300,7 @@ const fr = ({ pdf }) => {
                                         en magasin.
                                     </li>
                                     <li>
-                                        Deuxi&egrave;me &eacute;tape : commande
+                                        Deuxi&egrave;me &eacute;tape: commande
                                         et production. Au cours de cette
                                         &eacute;tape se produisent le placement
                                         et la classification du produit&nbsp;;
@@ -320,7 +320,7 @@ const fr = ({ pdf }) => {
                                         magasin.
                                     </li>
                                     <li>
-                                        Troisi&egrave;me &eacute;tape :
+                                        Troisi&egrave;me &eacute;tape:
                                         r&eacute;servation du transporteur. Le
                                         vendeur proc&egrave;de &agrave; une
                                         r&eacute;servation de fret aupr&egrave;s
@@ -332,7 +332,7 @@ const fr = ({ pdf }) => {
                                         en magasin.
                                     </li>
                                     <li>
-                                        Quatri&egrave;me &eacute;tape :
+                                        Quatri&egrave;me &eacute;tape:
                                         traitement des documents et
                                         exp&eacute;dition. Le fournisseur remet
                                         les documents d&apos;entr&eacute;e au
@@ -362,7 +362,7 @@ const fr = ({ pdf }) => {
                                         magasin.
                                     </li>
                                     <li>
-                                        Cinqui&egrave;me &eacute;tape :
+                                        Cinqui&egrave;me &eacute;tape:
                                         d&eacute;douanement. Le courtier
                                         re&ccedil;oit les documents
                                         d&apos;entr&eacute;e
@@ -383,7 +383,7 @@ const fr = ({ pdf }) => {
                                         mise en magasin.
                                     </li>
                                     <li>
-                                        Sixi&egrave;me &eacute;tape :
+                                        Sixi&egrave;me &eacute;tape:
                                         d&eacute;groupement/exp&eacute;dition
                                         &agrave; la destination finale. Elle se
                                         d&eacute;roule deux semaines avant la
