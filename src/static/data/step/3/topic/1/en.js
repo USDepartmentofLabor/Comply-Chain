@@ -1,7 +1,8 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import Accordion from "../../../../../../components/Accordion";
 
-const en = () => {
+const en = ({ pdf }) => {
     return (
         <StaticData>
             <div>
@@ -77,119 +78,130 @@ const en = () => {
                     and applies to the company&rsquo;s subsidiaries across the
                     globe.
                 </p>
-                <h2>Further Resources</h2>
-                <ol>
-                    <li>
-                        AFL-CIO{" "}
-                        <em>
-                            Responsibility Outsourced: Social Audits, Workplace
-                            Certification and Twenty Years of Failure to Protect
-                            Worker Rights;
-                        </em>{" "}
-                        August 1,2014; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://aflcio.org/sites/default/files/2017-03/CSReport.pdf"
-                            title="Responsibility Outsourced: Social Audits, Workplace Certification and Twenty Years of Failure to Protect Worker Rights"
-                        >
-                            https://aflcio.org/sites/default/files/2017-03/CSReport.pdf
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        Danone{" "}
-                        <em>
-                            Danone and IUF Sign Tenth Agreement on Sustainable
-                            Employment
-                        </em>
-                        . [online, accessed May 16, 2017]; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf"
-                            title="Danone and IUF Sign Tenth Agreement on Sustainable Employment"
-                        >
-                            https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        Danone. <em>Social Dialogue.</em>[online, accessed May
-                        16, 2017]; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.danone.com/impact/people-communities/social-dialogue.html"
-                            title="Social Dialogue"
-                        >
-                            https://www.danone.com/impact/people-communities/social-dialogue.html
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        IndustriALL.{" "}
-                        <em>
-                            Agreement with H&M Proves Instrumental in Resolving
-                            Conflicts
-                        </em>
-                        , 2016 [online, accessed May 16, 2016]. Available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.industriall-union.org/agreement-with-hm-proves-instrumental-in-resolving-conflicts-0"
-                            title="Agreement with H&M Proves Instrumental in Resolving Conflicts"
-                        >
-                            http://www.industriall-union.org/agreement-with-hm-proves-instrumental-in-resolving-conflicts-0
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        ILO. Cross-Border Social Dialogue and Agreements:
-                        <em>
-                            {" "}
-                            An emerging global industrial relations framework?
-                        </em>{" "}
-                        Geneva, 2008; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm"
-                            title="ILO. Cross-Border Social Dialogue and Agreements: An emerging global industrial relations framework?"
-                        >
-                            http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        ILO. International framework agreements and global
-                        social dialogue: parameters and prospects; Geneva, 2010;
-                        available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm"
-                            title="nternational framework agreements and global social dialogue: parameters and prospects"
-                        >
-                            {" "}
-                            http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        ILO-IOE. International framework agreements: an
-                        employers’ guide; 2007; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
-                            title="ILO-IOE. International framework agreements: an employers’ guide"
-                        >
-                            http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1
-                        </a>
-                        .
-                    </li>
-                </ol>
+                <Accordion id="resources" pdf={pdf}>
+                    <Accordion.Section>
+                        <Accordion.Title>Further Resources</Accordion.Title>
+                        <Accordion.Panel>
+                            <ol>
+                                <li>
+                                    AFL-CIO{" "}
+                                    <em>
+                                        Responsibility Outsourced: Social
+                                        Audits, Workplace Certification and
+                                        Twenty Years of Failure to Protect
+                                        Worker Rights;
+                                    </em>{" "}
+                                    August 1,2014; available from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://aflcio.org/sites/default/files/2017-03/CSReport.pdf"
+                                        title="Responsibility Outsourced: Social Audits, Workplace Certification and Twenty Years of Failure to Protect Worker Rights"
+                                    >
+                                        https://aflcio.org/sites/default/files/2017-03/CSReport.pdf
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    Danone{" "}
+                                    <em>
+                                        Danone and IUF Sign Tenth Agreement on
+                                        Sustainable Employment
+                                    </em>
+                                    . [online, accessed May 16, 2017]; available
+                                    from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf"
+                                        title="Danone and IUF Sign Tenth Agreement on Sustainable Employment"
+                                    >
+                                        https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    Danone. <em>Social Dialogue.</em>[online,
+                                    accessed May 16, 2017]; available from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.danone.com/impact/people-communities/social-dialogue.html"
+                                        title="Social Dialogue"
+                                    >
+                                        https://www.danone.com/impact/people-communities/social-dialogue.html
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    IndustriALL.{" "}
+                                    <em>
+                                        Agreement with H&M Proves Instrumental
+                                        in Resolving Conflicts
+                                    </em>
+                                    , 2016 [online, accessed May 16, 2016].
+                                    Available from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.industriall-union.org/agreement-with-hm-proves-instrumental-in-resolving-conflicts-0"
+                                        title="Agreement with H&M Proves Instrumental in Resolving Conflicts"
+                                    >
+                                        http://www.industriall-union.org/agreement-with-hm-proves-instrumental-in-resolving-conflicts-0
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    ILO. Cross-Border Social Dialogue and
+                                    Agreements:
+                                    <em>
+                                        {" "}
+                                        An emerging global industrial relations
+                                        framework?
+                                    </em>{" "}
+                                    Geneva, 2008; available from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm"
+                                        title="ILO. Cross-Border Social Dialogue and Agreements: An emerging global industrial relations framework?"
+                                    >
+                                        http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--es/index.htm
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    ILO. International framework agreements and
+                                    global social dialogue: parameters and
+                                    prospects; Geneva, 2010; available from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm"
+                                        title="nternational framework agreements and global social dialogue: parameters and prospects"
+                                    >
+                                        {" "}
+                                        http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--en/index.htm
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    ILO-IOE. International framework agreements:
+                                    an employers’ guide; 2007; available from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
+                                        title="ILO-IOE. International framework agreements: an employers’ guide"
+                                    >
+                                        http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1
+                                    </a>
+                                    .
+                                </li>
+                            </ol>
+                        </Accordion.Panel>
+                    </Accordion.Section>
+                </Accordion>
             </div>
         </StaticData>
     );

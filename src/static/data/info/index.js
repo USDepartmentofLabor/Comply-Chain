@@ -72,13 +72,14 @@ export const Info = {
             content: KeyResources.es
         },
         findings: {
-            title: "Findings on the Worst Forms of Child Labor Report",
+            title:
+                "Informe Resultados sobre las peores formas de trabajo infantil",
             keywords: [],
             content: Findings.es
         },
         goods: {
             title:
-                "List of Goods Produced by Child Labor or Forced Labor Report",
+                "Lista de productos producidos por medio del trabajo infantil y del trabajo forzoso",
             keywords: [],
             content: Goods.es
         }
@@ -90,13 +91,12 @@ export const Info = {
             content: About.fr
         },
         whatAre: {
-            title:
-                "Qu'est-ce que le travail des enfants et le travail forcé\u00a0?",
+            title: "Qu'est-ce que le travail des enfants et le travail forcé?",
             keywords: ["Travail des enfants", "Travail forcé"],
             content: WhatAre.fr
         },
         whyDevelop: {
-            title: "Pourquoi élaborer un système de conformité sociale\u00a0?",
+            title: "Pourquoi élaborer un système de conformité sociale?",
             keywords: ["Législation"],
             content: WhyDevelop.fr
         },
@@ -111,13 +111,12 @@ export const Info = {
             content: KeyResources.fr
         },
         findings: {
-            title: "Findings on the Worst Forms of Child Labor Report",
+            title: "Conclusions sur les pires formes de travail des enfants",
             keywords: [],
             content: Findings.fr
         },
         goods: {
-            title:
-                "List of Goods Produced by Child Labor or Forced Labor Report",
+            title: "Liste de biens issus du travail des enfants ou du travail",
             keywords: [],
             content: Goods.fr
         }

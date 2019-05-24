@@ -49,8 +49,8 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="patagonia">
                     <h2>
-                        <ExampleInAction.Icon />
-                        Exemple d&apos;action&nbsp;: Normes concernant les
+                        <ExampleInAction.Icon />{" "}
+                        Exemple d&apos;action: Normes concernant les
                         travailleurs migrants de Patagonia*
                     </h2>
                     <p>
@@ -168,9 +168,9 @@ const fr = () => {
                 <p className="small-text">&copy;M. Crozet/OIT</p>
                 <ExampleInAction id="leadership">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Groupe de leadership
+                            Exemple d&apos;action: Groupe de leadership
                             pour le recrutement responsable
                         </strong>
                     </h2>
@@ -190,7 +190,7 @@ const fr = () => {
                         recrutement des travailleurs migrants. Les membres du
                         Groupe de leadership se sont engag&eacute;s
                         vis-&agrave;-vis du Principe «&nbsp;C&rsquo;est
-                        l&rsquo;employeur qui paie&nbsp;»&nbsp;:{" "}
+                        l&rsquo;employeur qui paie&nbsp;»:{" "}
                         <em>
                             «&nbsp;Aucun travailleur ne devrait payer pour un
                             emploi&nbsp;&ndash; les frais de recrutement ne

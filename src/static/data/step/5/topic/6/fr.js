@@ -10,7 +10,7 @@ const fr = () => {
                     <em>
                         «&nbsp;Dans le cadre du recrutement de jeunes, il est
                         n&eacute;cessaire de s&apos;entretenir avec des enfants
-                        pour : a) &eacute;valuer leur &acirc;ge, b)
+                        pour: a) &eacute;valuer leur &acirc;ge, b)
                         &eacute;valuer leur maturit&eacute; et savoir de quel
                         travail la personne est en mesure de s&apos;acquitter,
                         c) d&eacute;terminer l&apos;exp&eacute;rience
@@ -89,7 +89,7 @@ const fr = () => {
                         toujours d&apos;&eacute;couter l&apos;enfant et de
                         tenter d&apos;&eacute;tablir une &eacute;valuation
                         d&apos;ensemble de la famille et de la situation de
-                        travail de l&apos;enfant :
+                        travail de l&apos;enfant:
                     </em>
                 </p>
                 <div className="indent-margin">
@@ -107,12 +107,12 @@ const fr = () => {
                         <em>
                             Comment l&apos;enfant comprend-il et
                             consid&egrave;re-t-il son propre
-                            travail&nbsp;?&nbsp;»
+                            travail?&nbsp;»
                         </em>
                     </p>
                 </div>
                 <p>
-                    Source&nbsp;: Save the Children Denmark,{" "}
+                    Source: Save the Children Denmark,{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

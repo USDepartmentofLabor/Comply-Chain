@@ -37,12 +37,27 @@ const es = ({ pdf }) => {
                     est&aacute;n convirtiendo en instrumentos cada vez
                     m&aacute;s importantes para cumplir los requisitos legales.
                     La legislaci&oacute;n en los Estados Unidos, especialmente
-                    la Ley Dodd-Frank de reforma de Wall Street y
-                    protecci&oacute;n del consumidor (2010) y la Ley de
-                    California sobre transparencia en las cadenas de suministro
-                    (2010), se promulgaron a comienzos de la d&eacute;cada de
-                    2010 en respuesta a las inquietudes en torno a los derechos
-                    humanos y exige a ciertas empresas hacer p&uacute;blica la
+                    la Ley{" "}
+                    <a
+                        href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Dodd-Frank de reforma de Wall Street y protecci&oacute;n
+                        del consumidor (2010)
+                    </a>{" "}
+                    y la Ley de{" "}
+                    <a
+                        href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        California sobre transparencia en las cadenas de
+                        suministro (2010)
+                    </a>
+                    , se promulgaron a comienzos de la d&eacute;cada de 2010 en
+                    respuesta a las inquietudes en torno a los derechos humanos
+                    y exige a ciertas empresas hacer p&uacute;blica la
                     informaci&oacute;n sobre sus cadenas de
                     suministro.&nbsp;Desde entonces, tanto en los Estados Unidos
                     como en otros pa&iacute;ses, se aprobaron m&aacute;s leyes y
@@ -362,8 +377,16 @@ const es = ({ pdf }) => {
                                         href="http://www.labourexploitation.org/"
                                     >
                                         Focus on Labour Exploitation
-                                    </a>{" "}
-                                    y{" "}
+                                    </a>
+                                    ,{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.tuc.org.uk/"
+                                    >
+                                        Trade Unions Congress
+                                    </a>
+                                    , y{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -835,32 +858,38 @@ const es = ({ pdf }) => {
                     brinden apoyo y recursos considerables a sus sistemas de
                     cumplimiento social.
                 </p>
-                <h2>
-                    <strong>Recursos adicionales</strong>
-                </h2>
-                <ol>
-                    <li>
-                        OIT.{" "}
-                        <em>
-                            <i>
-                                Progress and potential: How Better Work is
-                                Improving Garment Workers&rsquo; Lives and
-                                Boosting Factory Competitiveness: A Summary of
-                                an Independent Assessment of the Better Work
-                                Programme;
-                            </i>
-                        </em>{" "}
-                        2016; disponible en idioma ingl&eacute;s solamente en{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf"
-                        >
-                            http://www1.ifc.org/wps/wcm/connect/a4aab30048865910b81afa6a6515bb18/SAI_IFC_LaborHandbook_Ch1-Intro.pdf?MOD=AJPERES&amp;CACHEID=a4aab30048865910b81afa6a6515bb18
-                        </a>
-                        .
-                    </li>
-                </ol>
+                <Accordion pdf={pdf}>
+                    <Accordion.Section id="resources">
+                        <Accordion.Title>Recursos adicionales</Accordion.Title>
+                        <Accordion.Panel>
+                            <ol>
+                                <li>
+                                    OIT.{" "}
+                                    <em>
+                                        <i>
+                                            Progress and potential: How Better
+                                            Work is Improving Garment
+                                            Workers&rsquo; Lives and Boosting
+                                            Factory Competitiveness: A Summary
+                                            of an Independent Assessment of the
+                                            Better Work Programme;
+                                        </i>
+                                    </em>{" "}
+                                    2016; disponible en idioma ingl&eacute;s
+                                    solamente en{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf"
+                                    >
+                                        http://www1.ifc.org/wps/wcm/connect/a4aab30048865910b81afa6a6515bb18/SAI_IFC_LaborHandbook_Ch1-Intro.pdf?MOD=AJPERES&amp;CACHEID=a4aab30048865910b81afa6a6515bb18
+                                    </a>
+                                    .
+                                </li>
+                            </ol>
+                        </Accordion.Panel>
+                    </Accordion.Section>
+                </Accordion>
             </div>
         </StaticData>
     );

@@ -36,7 +36,7 @@ const fr = () => {
                     d&apos;&eacute;laborer le rapport. Les informations sont
                     fournies &agrave; ce prestataire de service par les
                     unit&eacute;s pertinentes au sein de l&apos;entreprise. Le
-                    risque de cette approche : produira-t-elle la m&ecirc;me
+                    risque de cette approche: produira-t-elle la m&ecirc;me
                     qualit&eacute; et profondeur de collaboration pendant la
                     r&eacute;daction du rapport ?
                 </p>
@@ -63,7 +63,7 @@ const fr = () => {
                 </p>
                 <p>
                     <em>
-                        *Remarque&nbsp;: Les r&eacute;f&eacute;rences &agrave;
+                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
                         des entreprises et entit&eacute;s non gouvernementales
                         sp&eacute;cifiques dans ce guide sont &agrave; des fins
                         d&rsquo;information uniquement afin de d&eacute;montrer

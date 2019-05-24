@@ -68,7 +68,7 @@ const fr = () => {
                     diff&eacute;rent, peut-&ecirc;tre dans de pires conditions
                     pour sa sant&eacute;, sa s&eacute;curit&eacute; ou son
                     bien-&ecirc;tre. Les entreprises peuvent prendre des mesures
-                    pour att&eacute;nuer cette situation en :
+                    pour att&eacute;nuer cette situation en:
                 </p>
                 <ul>
                     <li>
@@ -123,12 +123,12 @@ const fr = () => {
                     pr&eacute;cis&eacute;s dans la Convention&nbsp;182 de
                     l&rsquo;OIT (voir{" "}
                     <Link to="/steps/3">
-                        3<sup>e</sup>&nbsp;&eacute;tape&nbsp;: &eacute;laborer
+                        3<sup>e</sup>&nbsp;&eacute;tape: &eacute;laborer
                         un code de conduite
                     </Link>
                     ). Dans le cas o&ugrave; des enfants sont identifi&eacute;s
                     dans ce type de situations, les meilleures approches sont
-                    notamment les suivantes :
+                    notamment les suivantes:
                 </p>
                 <ul>
                     <li>
@@ -178,9 +178,9 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="turkey">
                     <h3>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: Travail de
+                            Exemple d&apos;action: Travail de
                             collaboration visant &agrave; traiter le travail
                             saisonnier des enfants migrants dans le cadre de la
                             r&eacute;colte des noisettes en Turquie
@@ -308,7 +308,7 @@ const fr = () => {
                     forc&eacute; et de la traite des personnes et aux services
                     &agrave; leur intention. La plupart d&rsquo;entre eux sont
                     disponibles en diff&eacute;rentes langues. Voici quelques
-                    ressources recommand&eacute;es :
+                    ressources recommand&eacute;es:
                 </p>
                 <ul>
                     <li>
@@ -329,10 +329,10 @@ const fr = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://humantraffickinghotline.org/resources/victim-translation-assistance-tool-life-support-messages-victims-human-trafficking"
-                            title="Outil d&rsquo;aide &agrave; la traduction pour les victimes de la traite : messages d'assistance &agrave; la vie pour les victimes de la traite des personnes"
+                            title="Outil d&rsquo;aide &agrave; la traduction pour les victimes de la traite: messages d'assistance &agrave; la vie pour les victimes de la traite des personnes"
                         >
                             Outil d&rsquo;aide &agrave; la traduction pour les
-                            victimes de la traite : messages d&apos;assistance
+                            victimes de la traite: messages d&apos;assistance
                             &agrave; la vie pour les victimes de la traite des
                             personnes
                         </a>

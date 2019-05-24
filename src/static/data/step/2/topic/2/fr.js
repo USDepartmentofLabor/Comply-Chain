@@ -41,7 +41,7 @@ const fr = () => {
                     conformit&eacute; sociale dans toutes les unit&eacute;s
                     pertinentes d&rsquo;une entreprise. Voici une ressource qui
                     d&eacute;taille en profondeur cette question [en
-                    anglais]&nbsp;:{" "}
+                    anglais]:{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

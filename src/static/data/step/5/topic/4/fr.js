@@ -36,8 +36,8 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="prereg">
                     <h2>
-                        <ExampleInAction.Icon />
-                        Exemple d&apos;action&nbsp;: Processus de
+                        <ExampleInAction.Icon />{" "}
+                        Exemple d&apos;action: Processus de
                         pr&eacute;enregistrement
                     </h2>
                     <p>

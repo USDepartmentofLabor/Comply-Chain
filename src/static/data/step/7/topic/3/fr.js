@@ -29,9 +29,9 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="bwi_eval">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action&nbsp;: &Eacute;valuation des
+                            Exemple d&apos;action: &Eacute;valuation des
                             incidences de Better Work
                         </strong>
                     </h2>
@@ -88,7 +88,7 @@ const fr = () => {
 
                 <p>
                     <em>
-                        *Remarque&nbsp;: Les r&eacute;f&eacute;rences &agrave;
+                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
                         des entreprises et entit&eacute;s non gouvernementales
                         sp&eacute;cifiques dans ce guide sont &agrave; des fins
                         d&rsquo;information uniquement afin de d&eacute;montrer

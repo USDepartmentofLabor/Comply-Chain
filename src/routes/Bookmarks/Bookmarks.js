@@ -1,8 +1,7 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { toast, ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { toast, cssTransition } from "react-toastify";
 import styled from "styled-components";
 import Icons from "../../components/Icons";
 import { withLanguageContext } from "../../components/Language";
@@ -18,6 +17,7 @@ const IconWrapper = styled.div`
     color: ${theme.colors.primary};
     font-size: 2em;
     cursor: pointer;
+    margin-left: 10px;
 `;
 
 const IconContainer = styled.div`
@@ -31,6 +31,7 @@ const IconContainer = styled.div`
 
 const BookmarkIcon = styled(Icons.BookmarkCheck)`
     display: block;
+    overflow: visible;
 `;
 
 const ItemHeader = styled.span``;
@@ -47,28 +48,16 @@ const ItemContent = styled(Link)`
 
 const Item = styled.div``;
 
-const ToastContainerWrapper = styled.div`
-    .toast-container {
-        bottom: 3em;
-        & > * {
-            color: ${theme.colors.white};
-            background: ${theme.colors.primary};
-        }
-    }
-
-    .toast {
-        background: ${theme.colors.primary};
-    }
-`;
-
 const ToastStrong = styled.span`
     font-weight: bold;
 `;
 
-const ToastUndo = ({ bookmark, localizor, undo, closeToast }) => {
+const ToastUndo = ({ bookmark, localizor, undo, shouldClose, closeToast }) => {
     const handleClick = () => {
         undo(bookmark);
-        closeToast();
+        if (shouldClose) {
+            closeToast();
+        }
     };
 
     const Content = styled.div`
@@ -86,6 +75,7 @@ const ToastUndo = ({ bookmark, localizor, undo, closeToast }) => {
         height: auto;
         padding: 15px;
         font-weight: bold;
+        cursor: pointer;
     `;
 
     const UndoText = styled.span`
@@ -102,10 +92,24 @@ const ToastUndo = ({ bookmark, localizor, undo, closeToast }) => {
                 </ToastStrong>{" "}
                 from your bookmarks.
             </UndoText>{" "}
-            <UndoButton onClick={handleClick}>Undo</UndoButton>
+            <UndoButton
+                onTouchStart={() => {
+                    handleClick();
+                }}
+                onClick={handleClick}
+            >
+                Undo
+            </UndoButton>
         </Content>
     );
 };
+
+const Slide = cssTransition({
+    enter: "Toastify__slide-enter",
+    exit: "Toastify__slide-exit",
+    duration: [450, 750],
+    appendPosition: true
+});
 
 class Bookmarks extends Component {
     constructor(props) {
@@ -115,6 +119,7 @@ class Bookmarks extends Component {
             bookmarks,
             bookmarksToRemove: []
         };
+        this.toastId = "bookmarkToast";
     }
 
     componentWillUnmount() {
@@ -140,7 +145,6 @@ class Bookmarks extends Component {
         );
         return (
             <div>
-                <h4>Bookmarks</h4>
                 {filtered.map((bookmark, i) => {
                     return (
                         <IconContainer
@@ -177,9 +181,7 @@ class Bookmarks extends Component {
                         </IconContainer>
                     );
                 })}
-                {filtered.length === 0 && (
-                    <span>You don't have any bookmarks.</span>
-                )}
+                {filtered.length === 0 && <p>You don't have any bookmarks.</p>}
             </div>
         );
     };
@@ -189,13 +191,22 @@ class Bookmarks extends Component {
         bookmarksToRemove.push(bookmark);
         this.setState({ bookmarksToRemove });
         storage.bookmarks.removeBookmark(bookmark.name);
-        toast(
+        const toastComp = (
             <ToastUndo
                 undo={this.unmarkForRemoval}
                 localizor={this.props.localizor}
                 bookmark={bookmark}
             />
         );
+        toast(toastComp, {
+            toastId: this.toastId,
+            transition: Slide
+        });
+
+        clearTimeout(this.undoTimer);
+        this.undoTimer = setTimeout(() => {
+            toast.dismiss(this.toastId);
+        }, 5000);
     };
 
     unmarkForRemoval = bookmark => {
@@ -211,26 +222,34 @@ class Bookmarks extends Component {
             bookmark.header,
             bookmark.url
         );
+        if (bookmarksToRemove.length > 0) {
+            clearTimeout(this.undoTimer);
+            const prevBookmark =
+                bookmarksToRemove[bookmarksToRemove.length - 1];
+            toast.update(this.toastId, {
+                render: (
+                    <ToastUndo
+                        undo={this.unmarkForRemoval}
+                        localizor={this.props.localizor}
+                        bookmark={prevBookmark}
+                        shouldClose={bookmarksToRemove.length === 1}
+                    />
+                )
+            });
+        } else {
+            toast.dismiss(this.toastId);
+        }
     };
 
     render() {
         const { bookmarks } = this.state;
         return (
             <div>
-                {bookmarks.length === 0 && <span>No bookmarks!</span>}
+                <h4>Bookmarks</h4>
+                {bookmarks.length === 0 && <p>You don't have any bookmarks.</p>}
                 {bookmarks.length > 0 && (
                     <div>{this.renderBookmarks(bookmarks)}</div>
                 )}
-                <ToastContainerWrapper>
-                    <ToastContainer
-                        className="toast-container"
-                        toastClassName="toast"
-                        autoClose={false}
-                        closeButton={false}
-                        closeOnClick={false}
-                        position="bottom-center"
-                    />
-                </ToastContainerWrapper>
             </div>
         );
     }

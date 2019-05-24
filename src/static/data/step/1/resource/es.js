@@ -19,10 +19,10 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.forbes.com/sites/forbesleadershipforum/2012/03/05/is-the-organization-investigating-apples-factories-good-enough/"
+                            href="https://www.forbes.com/sites/forbesleadershipforum/2012/03/05/is-the-organization-investigating-apples-factories-good-enough/"
                             title="<i>Is the Organization Investigating Apple's Factories Good Enough?</i>"
                         >
-                            http://www.forbes.com/sites/forbesleadershipforum/2012/03/05/is-the-organization-investigating-apples-factories-good-enough/
+                            https://www.forbes.com/sites/forbesleadershipforum/2012/03/05/is-the-organization-investigating-apples-factories-good-enough/
                         </a>
                         .
                     </li>
@@ -41,10 +41,10 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.hks.harvard.edu/m-rcbg/CSRI/publications/workingpaper_29_casey.pdf"
+                            href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/workingpaper_29_casey.pdf"
                             title="<i><i><i><i>Meaningful Change:</i></i></i></i> <i>Raising the Bar in Supply Chain Workplace Standards</i>"
                         >
-                            http://www.hks.harvard.edu/m-rcbg/CSRI/publications/workingpaper_29_casey.pdf
+                            https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/workingpaper_29_casey.pdf
                         </a>
                         .
                     </li>
@@ -76,7 +76,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.scribd.com/doc/16903354/Stakeholder-Engagement-A-Good-Practice-Handbook-for-Companies-Doing-Business-in-Emerging-Markets-May-2007"
+                            href="http://www.scribd.com/doc/16903348/Stakeholder-Engagement-A-Good-Practice-Handbook-for-Companies-Doing-Business-in-Emerging-Markets-Spanish-May-2007-#fullscreen"
                             title="Relaciones con la comunidad y otros actores sociales:<i> </i>Manual de pr&aacute;cticas recomendadas para las empresas que hacen negocios en mercados emergentes."
                         >
                             http://www.scribd.com/doc/16903348/Stakeholder-Engagement-A-Good-Practice-Handbook-for-Companies-Doing-Business-in-Emerging-Markets-Spanish-May-2007-#fullscreen

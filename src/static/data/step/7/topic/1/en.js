@@ -57,7 +57,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="fla">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Example in Action: The Fair Labor
                             Association&rsquo;s (FLA) Accreditation Program for
@@ -102,7 +102,7 @@ const en = () => {
                 </ExampleInAction>
                 <ExampleInAction id="bonsucro">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Example in Action: The Bonsucro* Model for
                             Accrediting Certification Bodies
@@ -159,7 +159,7 @@ const en = () => {
                 </ExampleInAction>
                 <ExampleInAction id="sai_model">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon />{" "}
                         <strong>
                             Example in Action: Social Accountability
                             International Model{" "}

@@ -38,6 +38,8 @@ const Wrapper = styled.div`
     position: fixed;
     z-index: 1;
     bottom: 57px;
+    bottom: calc(57px + constant(safe-area-inset-bottom));
+    bottom: calc(57px + env(safe-area-inset-bottom));
     left: 0;
     overflow-y: hidden;
     transition: 1.5s ease-out;

@@ -9,7 +9,7 @@ const fr = () => {
                         Nations Unies.{" "}
                         <em>
                             La responsabilit&eacute; des entreprises de
-                            respecter les droits de l&apos;homme&nbsp;: Guide
+                            respecter les droits de l&apos;homme: Guide
                             interpr&eacute;tatif.{" "}
                         </em>
                         2012&nbsp;; disponible sur{" "}
@@ -17,7 +17,7 @@ const fr = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.ohchr.org/Documents/Publications/HR.PUB.12.2_En.pdf"
-                            title="La responsabilit&eacute; des entreprises de respecter les droits de l'homme&nbsp;: Guide interpr&eacute;tatif."
+                            title="La responsabilit&eacute; des entreprises de respecter les droits de l'homme: Guide interpr&eacute;tatif."
                         >
                             http://www.ohchr.org/Documents/Publications/HR_PUB_12_2_fr.pdf
                         </a>
@@ -29,12 +29,12 @@ const fr = () => {
                         Responsibility (CSR): The Role of CSR
                         Communication&nbsp;»,{" "}
                         <em>International Journal of Management Reviews</em>{" "}
-                        (2010)&nbsp;: 8-19 [en anglais].
+                        (2010): 8-19 [en anglais].
                     </li>
                     <li>
                         FAO et OIT.{" "}
                         <em>
-                            Prot&eacute;geons nos enfants des pesticides : Guide
+                            Prot&eacute;geons nos enfants des pesticides: Guide
                             visuel d&rsquo;animation.
                         </em>{" "}
                         2015&nbsp;; disponible sur{" "}
@@ -42,7 +42,7 @@ const fr = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.fao.org/3/a-i3527e.pdf"
-                            title="Prot&eacute;geons nos enfants des pesticides&nbsp;: Guide visuel d&rsquo;animation."
+                            title="Prot&eacute;geons nos enfants des pesticides: Guide visuel d&rsquo;animation."
                         >
                             http://www.fao.org/3/a-i3527f.pdf
                         </a>
@@ -106,7 +106,7 @@ const fr = () => {
                         «&nbsp;Virtue out of Necessity? Compliance, Commitment,
                         and the Improvement of Labor Conditions in Global Supply
                         Chains&nbsp;», <em>Politics &amp; Society</em> 37, n
-                        <sup>o</sup>&nbsp;3 (septembre 2009)&nbsp;: 319-351 [en
+                        <sup>o</sup>&nbsp;3 (septembre 2009): 319-351 [en
                         anglais].
                     </li>
                     <li>

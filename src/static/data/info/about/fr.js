@@ -70,7 +70,7 @@ const fr = ({ pdf }) => {
                         <Accordion.Title>
                             <strong>
                                 Pourquoi le d&eacute;partement du Travail a-t-il
-                                mis au point cette appli&nbsp;?
+                                mis au point cette appli?
                             </strong>
                         </Accordion.Title>
                         <Accordion.Panel>
@@ -137,7 +137,7 @@ const fr = ({ pdf }) => {
                                 </a>{" "}
                                 sur le travail d&eacute;cent et la croissance
                                 &eacute;conomique, la cible&nbsp;8.7 appelle les
-                                gouvernements &agrave;&nbsp;:
+                                gouvernements &agrave;:
                             </p>
                             <p className="indent-margin">
                                 «&nbsp;prendre des mesures imm&eacute;diates et
@@ -332,7 +332,7 @@ const fr = ({ pdf }) => {
                         <Accordion.Title>
                             <strong>
                                 Comment le d&eacute;partement du Travail a-t-il
-                                mis au point cette appli&nbsp;?
+                                mis au point cette appli?
                             </strong>
                         </Accordion.Title>
                         <Accordion.Panel>
@@ -365,12 +365,12 @@ const fr = ({ pdf }) => {
                                 ceux qui ont pris part &agrave; ce processus.
                             </p>
                             <p>
-                                La premi&egrave;re version de l&rsquo;appli a
-                                &eacute;t&eacute; mise en ligne en
-                                d&eacute;cembre&nbsp;2012. En&nbsp;2017,
-                                l&rsquo;ILAB l&rsquo;a adapt&eacute;e en
-                                application mobile, lanc&eacute;e
-                                en&nbsp;septembre&nbsp;2017.
+                                La première édition en ligne de l'application a
+                                été publiée en décembre 2012. En septembre 2017,
+                                l'ILAB a publié la première version de
+                                l'application mobile et l'a mise à jour en
+                                septembre 2018, y compris en français et en
+                                espagnol.
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
@@ -378,7 +378,7 @@ const fr = ({ pdf }) => {
                     <Accordion.Section id="who-app">
                         <Accordion.Title>
                             <strong>
-                                &Agrave; qui s&rsquo;adresse cette appli&nbsp;?
+                                &Agrave; qui s&rsquo;adresse cette appli?
                             </strong>
                         </Accordion.Title>
                         <Accordion.Panel>
@@ -487,7 +487,7 @@ const fr = ({ pdf }) => {
 
                 <p>
                     <em>
-                        *Remarque&nbsp;: Les r&eacute;f&eacute;rences &agrave;
+                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
                         des soci&eacute;t&eacute;s et entit&eacute;s non
                         gouvernementales sp&eacute;cifiques dans ce guide sont
                         &agrave; des fins d&rsquo;information uniquement afin de

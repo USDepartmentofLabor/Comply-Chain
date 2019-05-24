@@ -9,7 +9,7 @@ const fr = ({ pdf }) => {
             <div>
                 <h1>
                     Pourquoi &eacute;laborer un syst&egrave;me de
-                    conformit&eacute; sociale&nbsp;?
+                    conformit&eacute; sociale?
                 </h1>
                 <p>
                     L&apos;abolition du travail des enfants et du travail
@@ -31,7 +31,7 @@ const fr = ({ pdf }) => {
                 <p>
                     Les entreprises ont diverses motivations pour la mise en
                     &oelig;uvre de syst&egrave;mes de conformit&eacute; sociale,
-                    notamment les suivantes&nbsp;:
+                    notamment les suivantes:
                 </p>
                 <h2>Lois et r&eacute;glementations</h2>
                 <p>
@@ -42,16 +42,31 @@ const fr = ({ pdf }) => {
                     juridiques. Des lois ont &eacute;t&eacute; adopt&eacute;es
                     aux &Eacute;tats-Unis, notamment la loi Dodd-Frank sur la
                     r&eacute;forme de Wall Street et la protection du
-                    consommateur (Dodd-Frank Wall Street Reform and Consumer
-                    Protection Act&nbsp;&ndash; 2010) et la loi de Californie
-                    sur la transparence des cha&icirc;nes
-                    d&rsquo;approvisionnement (California Transparency in Supply
-                    Chains Act&nbsp;&ndash; 2010) et promulgu&eacute;es au
-                    d&eacute;but des ann&eacute;es&nbsp;2010 pour
-                    r&eacute;pondre aux pr&eacute;occupations concernant les
-                    droits de la personne. Elles imposent &agrave; certaines
-                    entreprises l&rsquo;obligation de communiquer des
-                    informations relatives &agrave; leurs cha&icirc;nes
+                    consommateur (
+                    <a
+                        href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Dodd-Frank Wall Street Reform and Consumer Protection
+                        Act&nbsp;&ndash; 2010
+                    </a>
+                    ) et la loi de Californie sur la transparence des
+                    cha&icirc;nes d&rsquo;approvisionnement (
+                    <a
+                        href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        California Transparency in Supply Chains
+                        Act&nbsp;&ndash; 2010
+                    </a>
+                    ) et promulgu&eacute;es au d&eacute;but des
+                    ann&eacute;es&nbsp;2010 pour r&eacute;pondre aux
+                    pr&eacute;occupations concernant les droits de la personne.
+                    Elles imposent &agrave; certaines entreprises
+                    l&rsquo;obligation de communiquer des informations relatives
+                    &agrave; leurs cha&icirc;nes
                     d&apos;approvisionnement.&nbsp;D&rsquo;autres lois et
                     r&eacute;glementations ont &eacute;t&eacute; adopt&eacute;es
                     et promulgu&eacute;es depuis, tant aux &Eacute;tats-Unis que
@@ -426,8 +441,16 @@ const fr = ({ pdf }) => {
                                         href="http://www.labourexploitation.org/"
                                     >
                                         Focus on Labour Exploitation
-                                    </a>{" "}
-                                    et{" "}
+                                    </a>
+                                    ,{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.tuc.org.uk/"
+                                    >
+                                        Congrès des syndicats
+                                    </a>
+                                    , et{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -631,7 +654,7 @@ const fr = ({ pdf }) => {
                                     d&apos;approvisionnement directe concernant
                                     les articles propos&eacute;s &agrave; la
                                     vente. Une entreprise doit communiquer dans
-                                    quelle mesure&nbsp;: 1) elle effectue le
+                                    quelle mesure: 1) elle effectue le
                                     contr&ocirc;le des cha&icirc;nes
                                     d&apos;approvisionnement de produits pour
                                     &eacute;valuer et &eacute;liminer les
@@ -953,29 +976,35 @@ const fr = ({ pdf }) => {
                     consacrer des ressources et un soutien importants &agrave;
                     leurs syst&egrave;mes de conformit&eacute; sociale.
                 </p>
-                <h2>
-                    <strong>Autres ressources</strong>
-                </h2>
-                <ol>
-                    <li>
-                        OIT.{" "}
-                        <em>
-                            Progress and potential: How Better Work is Improving
-                            Garment Workers&rsquo; Lives and Boosting Factory
-                            Competitiveness: A Summary of an Independent
-                            Assessment of the Better Work Programme&nbsp;;
-                        </em>{" "}
-                        2016 ; disponible [en anglais] sur{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf"
-                        >
-                            https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf
-                        </a>
-                        .
-                    </li>
-                </ol>
+                <Accordion pdf={pdf}>
+                    <Accordion.Section id="resources">
+                        <Accordion.Title>Autres ressources</Accordion.Title>
+                        <Accordion.Panel>
+                            <ol>
+                                <li>
+                                    OIT.{" "}
+                                    <em>
+                                        Progress and potential: How Better Work
+                                        is Improving Garment Workers&rsquo;
+                                        Lives and Boosting Factory
+                                        Competitiveness: A Summary of an
+                                        Independent Assessment of the Better
+                                        Work Programme&nbsp;;
+                                    </em>{" "}
+                                    2016 ; disponible [en anglais] sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf"
+                                    >
+                                        https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf
+                                    </a>
+                                    .
+                                </li>
+                            </ol>
+                        </Accordion.Panel>
+                    </Accordion.Section>
+                </Accordion>
             </div>
         </StaticData>
     );

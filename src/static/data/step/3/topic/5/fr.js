@@ -34,7 +34,7 @@ const fr = () => {
                     </a>{" "}
                     qui pr&eacute;cise les &eacute;tapes fondamentales de
                     l&apos;&eacute;laboration d&apos;un ensemble de normes.
-                    Selon ISEAL, le processus devrait inclure :
+                    Selon ISEAL, le processus devrait inclure:
                 </p>
                 <ul>
                     <li>
@@ -63,8 +63,8 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="fair_labor">
                     <h2>
-                        <ExampleInAction.Icon />
-                        <strong>Exemple d&apos;action</strong>&nbsp;: Processus
+                        <ExampleInAction.Icon />{" "}
+                        <strong>Exemple d&apos;action</strong>: Processus
                         de r&eacute;vision du code de la Fair Labor Association
                     </h2>
                     <p>

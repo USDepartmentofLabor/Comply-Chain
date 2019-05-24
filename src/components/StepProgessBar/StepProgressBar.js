@@ -10,24 +10,48 @@ import { matchPath } from "react-router";
 import Routes from "../../modules/config/routes";
 import { isBrowser } from "../../modules/utils/platform";
 
-const StepProgress = styled.div`
-    color: white;
+const StepCircle = styled.div`
     width: 20px;
     height: 20px;
-    font-size: 12px;
+    background-color: ${theme.colors.white};
+    border-radius: 50%;
+    position: relative;
+`;
+
+const StepProgress = styled.div`
+    width: ${props => (props.viewing ? "10px" : "20px")};
+    height: 20px;
     background-color: ${props => {
+        if (props.viewing) {
+            return theme.colors.gold;
+        }
         if (props.accomplished) {
             return theme.colors.green;
         }
-        if (props.viewing) {
-            return theme.colors.yellow;
-        }
-        return theme.colors.gray;
+        return theme.colors.white;
     }};
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-top-left-radius: 110px;
+    border-bottom-left-radius: 110px;
+    border-top-right-radius: ${props => (props.viewing ? 0 : "110px")};
+    border-bottom-right-radius: ${props => (props.viewing ? 0 : "110px")};
+`;
+
+const StepNumber = styled.span`
+    color: ${props => {
+        if (props.viewing) {
+            return theme.colors.primary;
+        }
+        if (props.accomplished) {
+            return theme.colors.white;
+        }
+        return theme.colors.primary;
+    }};
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 `;
 
 class StepProgressBar extends Component {
@@ -69,23 +93,29 @@ class StepProgressBar extends Component {
             <ProgressBar
                 percent={percent}
                 currentStep={currentStep}
+                unfilledBackground={theme.colors.white}
                 filledBackground={theme.colors.primary}
             >
                 {localizor.strings.steps.map((step, i) => {
+                    const stepComplete = storage.steps.isStepComplete(i);
                     return (
                         <Step key={`progress_${step.title}`}>
                             {() => (
-                                <StepProgress
-                                    accomplished={storage.steps.isStepComplete(
-                                        i
-                                    )}
-                                    viewing={currentStep === i}
-                                    aria-label={`${
-                                        localizor.strings.general.step
-                                    } ${i + 1}`}
-                                >
-                                    {i + 1}
-                                </StepProgress>
+                                <StepCircle>
+                                    <StepProgress
+                                        accomplished={stepComplete}
+                                        viewing={currentStep === i}
+                                        aria-label={`${
+                                            localizor.strings.general.step
+                                        } ${i + 1}`}
+                                    />
+                                    <StepNumber
+                                        accomplished={stepComplete}
+                                        viewing={currentStep === i}
+                                    >
+                                        {i + 1}
+                                    </StepNumber>
+                                </StepCircle>
                             )}
                         </Step>
                     );

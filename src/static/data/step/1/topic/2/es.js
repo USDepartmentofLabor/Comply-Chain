@@ -93,8 +93,9 @@ const es = () => {
                 </div>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />
+                        <OwnWords.Icon />{" "}
                         <strong>En sus propias palabras</strong>
+                        {": "}
                     </h2>
                     <p>
                         &ldquo;La participaci&oacute;n de los interesados puede

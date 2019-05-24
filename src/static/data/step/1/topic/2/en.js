@@ -79,8 +79,8 @@ const en = () => {
                 </div>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />
-                        <strong>In Their Own Words</strong>
+                        <OwnWords.Icon /> <strong>In Their Own Words</strong>
+                        {": "}
                     </h2>
                     <p>
                         &ldquo;Stakeholder engagement can take many forms. It

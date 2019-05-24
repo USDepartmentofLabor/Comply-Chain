@@ -261,8 +261,10 @@ const en = ({ pdf }) => {
                         </p>
                         <p>
                             The first online edition of the App was published in
-                            December 2012. In 2017, ILAB adapted it for a mobile
-                            application, released in September 2017.
+                            December 2012. In September 2017, ILAB released the
+                            first version of the mobile application and updated
+                            the App in September 2018, including in French and
+                            Spanish.
                         </p>
                     </Accordion.Panel>
                 </Accordion.Section>

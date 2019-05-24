@@ -28,15 +28,30 @@ const en = ({ pdf }) => {
                     Social compliance systems, traditionally viewed as a purely
                     voluntary undertaking, are becoming increasingly important
                     tools to meet legal requirements. Legislation in the U.S.,
-                    notably the Dodd-Frank Wall Street Reform and Consumer
-                    Protection Act (2010) and the California Transparency in
-                    Supply Chains Act (2010), enacted in the early 2010&rsquo;s
-                    to respond to human rights concerns, require certain
-                    companies to publicly disclose information about their
-                    supply chains.&nbsp;Since then, there have been more laws
-                    passed and regulations promulgated, inside and outside the
-                    U.S., that strengthen protections against child labor and
-                    forced labor in supply chains.&nbsp;
+                    notably the{" "}
+                    <a
+                        href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Dodd-Frank Wall Street Reform and Consumer Protection
+                        Act (2010)
+                    </a>{" "}
+                    and the{" "}
+                    <a
+                        href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        California Transparency in Supply Chains Act (2010)
+                    </a>
+                    , enacted in the early 2010&rsquo;s to respond to human
+                    rights concerns, require certain companies to publicly
+                    disclose information about their supply chains.&nbsp;Since
+                    then, there have been more laws passed and regulations
+                    promulgated, inside and outside the U.S., that strengthen
+                    protections against child labor and forced labor in supply
+                    chains.&nbsp;
                 </p>
                 <ul id="law-list">
                     <li id="no-expand">
@@ -313,6 +328,14 @@ const en = ({ pdf }) => {
                                         href="http://www.labourexploitation.org/"
                                     >
                                         Focus on Labour Exploitation
+                                    </a>
+                                    ,{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.tuc.org.uk/"
+                                    >
+                                        Trade Unions Congress
                                     </a>
                                     , and{" "}
                                     <a
@@ -719,29 +742,36 @@ const en = ({ pdf }) => {
                     companies are more likely to devote significant support and
                     resources to their social compliance systems.
                 </p>
-                <h2>
-                    <strong>Further Resources</strong>
-                </h2>
-                <ol>
-                    <li>
-                        ILO.{" "}
-                        <em>
-                            Progress and potential: How Better Work is Improving
-                            Garment Workers&rsquo; Lives and Boosting Factory
-                            Competitiveness: A Summary of an Independent
-                            Assessment of the Better Work Programme;.
-                        </em>{" "}
-                        2016 available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf"
-                        >
-                            https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf
-                        </a>
-                        .
-                    </li>
-                </ol>
+
+                <Accordion pdf={pdf}>
+                    <Accordion.Section id="resources">
+                        <Accordion.Title>Further Resources</Accordion.Title>
+                        <Accordion.Panel>
+                            <ol>
+                                <li>
+                                    ILO.{" "}
+                                    <em>
+                                        Progress and potential: How Better Work
+                                        is Improving Garment Workers&rsquo;
+                                        Lives and Boosting Factory
+                                        Competitiveness: A Summary of an
+                                        Independent Assessment of the Better
+                                        Work Programme;.
+                                    </em>{" "}
+                                    2016 available from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf"
+                                    >
+                                        https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf
+                                    </a>
+                                    .
+                                </li>
+                            </ol>
+                        </Accordion.Panel>
+                    </Accordion.Section>
+                </Accordion>
             </div>
         </StaticData>
     );
