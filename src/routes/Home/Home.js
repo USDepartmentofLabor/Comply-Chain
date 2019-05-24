@@ -275,7 +275,7 @@ const Item = styled.div`
             rgba(
                 ${
                     props.green
-                        ? theme.colors.greenRGB
+                        ? theme.colors.tealAltRGB
                         : theme.colors.primaryRGB
                 },
                 0.75
@@ -283,7 +283,7 @@ const Item = styled.div`
             rgba(
                 ${
                     props.green
-                        ? theme.colors.greenRGB
+                        ? theme.colors.tealAltRGB
                         : theme.colors.primaryRGB
                 },
                 0.75
@@ -294,7 +294,7 @@ const Item = styled.div`
         isIOS()
             ? `inset 0 0 0 2000px
         rgba(
-            ${props.green ? theme.colors.greenRGB : theme.colors.primaryRGB},
+            ${props.green ? theme.colors.tealAltRGB : theme.colors.primaryRGB},
             0.75
         )`
             : "none"};
