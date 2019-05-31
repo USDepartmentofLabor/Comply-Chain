@@ -29,7 +29,10 @@ export const getPageTitle = (location, localizor) => {
         if (step >= 0) {
             title = localizor.strings.steps[step].title;
             if (topic >= 0) {
-                title = localizor.strings.steps[step].topics[topic].title;
+                title =
+                    title +
+                    " | " +
+                    localizor.strings.steps[step].topics[topic].title;
             }
         }
     } else {

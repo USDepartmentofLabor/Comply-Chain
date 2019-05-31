@@ -3,7 +3,7 @@ import { Topics } from "./topic";
 
 export const StepData = {
     en: {
-        title: "Step 3:  Develop a Code of Conduct",
+        title: "Step 3: Develop a Code of Conduct",
         topics: Topics.en,
         keywords: ["Code of conduct", "Code"],
         learningObjectives: [
@@ -21,7 +21,7 @@ export const StepData = {
         furtherResources: Resources.en
     },
     es: {
-        title: "Tercer paso:  Formulación de un código de conducta",
+        title: "Tercer paso: Formulación de un código de conducta",
         topics: Topics.es,
         keywords: ["Código de conducta", "Código"],
         learningObjectives: [

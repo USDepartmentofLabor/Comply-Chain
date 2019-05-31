@@ -3,7 +3,7 @@ import { Topics } from "./topic";
 
 export const StepData = {
     en: {
-        title: "Step 6:  Remediate Violations",
+        title: "Step 6: Remediate Violations",
         topics: Topics.en,
         keywords: ["Violation", "Remediation", "Corrective Action Plan", "CAP"],
         learningObjectives: [
@@ -31,7 +31,7 @@ export const StepData = {
         extraInfo: ExtraInfo.en
     },
     es: {
-        title: "Sexto paso:  Remediación de infracciones",
+        title: "Sexto paso: Remediación de infracciones",
         topics: Topics.es,
         keywords: [
             "Infracción",
@@ -64,7 +64,7 @@ export const StepData = {
         extraInfo: ExtraInfo.es
     },
     fr: {
-        title: "Sixième étape:  Réparer les infractions",
+        title: "Sixième étape: Réparer les infractions",
         topics: Topics.fr,
         keywords: [
             "Infraction",

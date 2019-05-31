@@ -3,7 +3,7 @@ import { Topics } from "./topic";
 
 export const StepData = {
     en: {
-        title: "Step 2:  Assess Risks And Impacts",
+        title: "Step 2: Assess Risks And Impacts",
         topics: Topics.en,
         keywords: ["Due diligence", "Risk", "Impact"],
         learningObjectives: [
@@ -32,7 +32,7 @@ export const StepData = {
         furtherResources: Resources.en
     },
     es: {
-        title: "Segundo paso:  Evaluación de riesgos e impacto",
+        title: "Segundo paso: Evaluación de riesgos e impacto",
         topics: Topics.es,
         keywords: ["Debida diligencia", "Riesgo", "Impacto"],
         learningObjectives: [
