@@ -6,13 +6,12 @@ import { withRouter } from "react-router-dom";
 
 class Goods extends Component {
     render() {
-        const { localizor, pdf, location } = this.props;
+        const { localizor, location } = this.props;
         const GoodsInfo = localizor.strings.info.goods.content;
         return (
             <Bookmarkable
                 titleString="info.goods.title"
                 url={location.pathname}
-                pdf={pdf}
             >
                 <GoodsInfo />
             </Bookmarkable>
@@ -22,7 +21,6 @@ class Goods extends Component {
 
 Goods.propTypes = {
     localizor: PropTypes.object.isRequired,
-    location: PropTypes.object.isRequired,
-    pdf: PropTypes.bool
+    location: PropTypes.object.isRequired
 };
 export default withRouter(withLanguageContext(Goods));

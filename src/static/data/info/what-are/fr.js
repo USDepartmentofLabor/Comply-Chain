@@ -4,7 +4,7 @@ import StaticData from "../../../../components/StaticData";
 import childBrick from "../../../images/child_brick.jpg";
 import unoDc from "../../../images/UNO_DC_fr.png";
 
-const fr = ({ pdf }) => {
+const fr = () => {
     return (
         <StaticData>
             <div>
@@ -43,7 +43,7 @@ const fr = ({ pdf }) => {
                     et de concevoir des programmes de promotion des droits sur
                     le lieu de travail et du travail d&eacute;cent pour tous.
                 </p>
-                <Accordion pdf={pdf} id="what-are-acc">
+                <Accordion  id="what-are-acc">
                     <Accordion.Section id="child-labor">
                         <Accordion.Title>Travail des enfants</Accordion.Title>
                         <Accordion.Panel>
@@ -308,7 +308,7 @@ const fr = ({ pdf }) => {
                                 disponibles.
                             </p>
                             <p />
-                            <Accordion pdf={pdf}>
+                            <Accordion >
                                 <Accordion.Section id="child-resources">
                                     <Accordion.Title>
                                         Autres ressources
@@ -854,7 +854,7 @@ const fr = ({ pdf }) => {
                                 .
                             </p>
                             <p />
-                            <Accordion pdf={pdf}>
+                            <Accordion >
                                 <Accordion.Section id="forced-resources">
                                     <Accordion.Title>
                                         Autres ressources

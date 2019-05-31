@@ -6,15 +6,14 @@ import { withLanguageContext } from "../../components/Language";
 
 class WhyDevelop extends Component {
     render() {
-        const { localizor, pdf, location } = this.props;
+        const { localizor, location } = this.props;
         const WhyDevelopInfo = localizor.strings.info.whyDevelop.content;
         return (
             <Bookmarkable
                 titleString="info.whyDevelop.title"
                 url={location.pathname}
-                pdf={pdf}
             >
-                <WhyDevelopInfo pdf={pdf} />
+                <WhyDevelopInfo />
             </Bookmarkable>
         );
     }
@@ -22,8 +21,7 @@ class WhyDevelop extends Component {
 
 WhyDevelop.propTypes = {
     localizor: PropTypes.object.isRequired,
-    location: PropTypes.object.isRequired,
-    pdf: PropTypes.bool
+    location: PropTypes.object.isRequired
 };
 
 export default withRouter(withLanguageContext(WhyDevelop));

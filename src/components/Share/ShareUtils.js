@@ -97,7 +97,7 @@ export const getPageHtml = location => {
                 Component = Routes.Topic.component;
             }
             let html = renderToString(
-                mountComponent(<Component pdf={true} match={match} />)
+                mountComponent(<Component match={match} />)
             );
             html = StyleSheet.master.toHTML().concat(html);
             if (isIOS()) {
@@ -122,9 +122,7 @@ export const getPageHtml = location => {
         const Component =
             (Routes[route] && Routes[route].component) || undefined;
 
-        let html =
-            Component &&
-            renderToString(mountComponent(<Component pdf={true} />));
+        let html = Component && renderToString(mountComponent(<Component />));
         html = StyleSheet.master.toHTML().concat(html);
         if (isIOS()) {
             html = iosCSS.concat(html);

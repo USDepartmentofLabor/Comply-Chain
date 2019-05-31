@@ -7,7 +7,7 @@ import StaticData from "../../../../components/StaticData";
 import betterwork from "../../../images/betterwork.jpg";
 import graph from "../../../images/graph_es.jpg";
 
-const es = ({ pdf }) => {
+const es = () => {
     return (
         <StaticData>
             <div>
@@ -17,7 +17,7 @@ const es = ({ pdf }) => {
                         social
                     </strong>
                 </h1>
-                <Accordion pdf={pdf} id="basics-acc">
+                <Accordion  id="basics-acc">
                     <Accordion.Section id="learning-objectives">
                         <Accordion.Title>
                             Objetivos did&aacute;cticos

@@ -149,11 +149,8 @@ class Bookmarkable extends Component {
     };
 
     render() {
-        const { children, pdf } = this.props;
+        const { children } = this.props;
         const { bookmarked } = this.state;
-        if (pdf) {
-            return children;
-        }
         return (
             <Wrapper>
                 <BookmarkButton
@@ -185,7 +182,6 @@ Bookmarkable.propTypes = {
     titleString: PropTypes.string.isRequired,
     titlePrefix: PropTypes.string,
     url: PropTypes.string.isRequired,
-    pdf: PropTypes.bool,
     localizor: PropTypes.object.isRequired
 };
 

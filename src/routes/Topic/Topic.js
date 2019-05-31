@@ -7,19 +7,15 @@ class Topic extends Component {
         const {
             match: {
                 params: { step, topic }
-            },
-            pdf
+            }
         } = this.props;
 
-        return (
-            <TopicView step={Number(step)} topic={Number(topic)} pdf={pdf} />
-        );
+        return <TopicView step={Number(step)} topic={Number(topic)} />;
     }
 }
 
 Topic.propTypes = {
-    match: PropTypes.object.isRequired,
-    pdf: PropTypes.bool
+    match: PropTypes.object.isRequired
 };
 
 export default Topic;

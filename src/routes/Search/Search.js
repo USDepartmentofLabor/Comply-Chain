@@ -214,7 +214,7 @@ class Search extends Component {
                         title: `${step.title} - ${topic.title}`,
                         keywords: topic.keywords,
                         content: getRawTextData(
-                            topic.content({ pdf: false }).props.children
+                            topic.content().props.children
                         ).join(" "),
                         to: `/steps/${stepIdx + 1}/topic/${topicIdx + 1}`
                     };
@@ -241,9 +241,9 @@ class Search extends Component {
             info.push({
                 title: item.title,
                 keywords: item.keywords,
-                content: getRawTextData(
-                    item.content({ pdf: false }).props.children
-                ).join(" "),
+                content: getRawTextData(item.content().props.children).join(
+                    " "
+                ),
                 to: Routes[routeKey].path
             });
         }

@@ -6,15 +6,14 @@ import { withLanguageContext } from "../../components/Language";
 
 class About extends Component {
     render() {
-        const { localizor, pdf, location } = this.props;
+        const { localizor, location } = this.props;
         const AboutInfo = localizor.strings.info.about.content;
         return (
             <Bookmarkable
                 titleString="info.about.title"
                 url={location.pathname}
-                pdf={pdf}
             >
-                <AboutInfo pdf={pdf} />
+                <AboutInfo />
             </Bookmarkable>
         );
     }
@@ -22,8 +21,7 @@ class About extends Component {
 
 About.propTypes = {
     localizor: PropTypes.object.isRequired,
-    location: PropTypes.object.isRequired,
-    pdf: PropTypes.bool
+    location: PropTypes.object.isRequired
 };
 
 export default withRouter(withLanguageContext(About));

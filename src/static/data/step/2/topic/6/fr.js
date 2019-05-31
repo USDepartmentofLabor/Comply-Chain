@@ -4,7 +4,7 @@ import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import Accordion from "../../../../../../components/Accordion";
 
-const fr = ({ pdf }) => {
+const fr = () => {
     return (
         <StaticData>
             <div>
@@ -987,7 +987,7 @@ const fr = ({ pdf }) => {
                         consommateurs durable.
                     </li>
                 </ul>
-                <Accordion id="resources" pdf={pdf}>
+                <Accordion id="resources" >
                     <Accordion.Section>
                         <Accordion.Title>Autres ressources</Accordion.Title>
                         <Accordion.Panel>

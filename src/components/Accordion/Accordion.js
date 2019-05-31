@@ -123,7 +123,7 @@ class Accordion extends Component {
         });
     };
     renderWrappedChildren = (children, sectionIndex) => {
-        const { keepOpen, pdf } = this.props;
+        const { keepOpen } = this.props;
         this.section = [];
         this.title = [];
         this.panel = [];
@@ -139,9 +139,6 @@ class Accordion extends Component {
             }
 
             if (child.type.displayName === "Title") {
-                if (pdf) {
-                    return React.createElement(PdfTitle, child.props);
-                }
                 return React.cloneElement(child, {
                     ref: title => (this.title[sectionIndex] = title),
                     onClick: () => {
@@ -156,9 +153,6 @@ class Accordion extends Component {
             }
 
             if (child.type.displayName === "Panel") {
-                if (pdf) {
-                    return React.createElement(PdfPanel, child.props);
-                }
                 return React.cloneElement(child, {
                     ref: panel => (this.panel[sectionIndex] = panel)
                 });
@@ -241,16 +235,6 @@ Accordion.Section = styled.div`
 
 Accordion.Section.displayName = "Section";
 
-const PdfTitle = styled(Accordion.Title)`
-    &:after {
-        content: "-";
-    }
-`;
-const PdfPanel = styled(Accordion.Panel)`
-    display: block;
-    height: auto;
-`;
-
 Accordion.Section.propTypes = {
     id: PropTypes.string
 };
@@ -258,8 +242,7 @@ Accordion.Section.propTypes = {
 Accordion.propTypes = {
     id: PropTypes.string,
     children: PropTypes.node.isRequired,
-    keepOpen: PropTypes.bool,
-    pdf: PropTypes.bool
+    keepOpen: PropTypes.bool
 };
 
 export default Accordion;

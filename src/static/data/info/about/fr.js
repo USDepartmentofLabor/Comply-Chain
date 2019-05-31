@@ -2,7 +2,7 @@ import React from "react";
 import Accordion from "../../../../components/Accordion";
 import StaticData from "../../../../components/StaticData";
 
-const fr = ({ pdf }) => {
+const fr = () => {
     return (
         <StaticData>
             <div>
@@ -65,7 +65,7 @@ const fr = ({ pdf }) => {
                     international.&nbsp;
                 </p>
                 <p />
-                <Accordion pdf={pdf} id="about-acc">
+                <Accordion  id="about-acc">
                     <Accordion.Section id="why-develop">
                         <Accordion.Title>
                             <strong>
