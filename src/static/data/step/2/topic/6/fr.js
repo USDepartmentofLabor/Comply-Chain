@@ -996,7 +996,7 @@ const fr = ({ pdf }) => {
                                     Barnes &amp; Noble College League Collegiate
                                     Outfitters Creates Hope and Second Chances
                                     in El Salvador. [en ligne, disponible le
-                                    8&nbsp;mai 2017]&nbsp;; disponible [en
+                                    8&nbsp;mai 2017]; disponible [en
                                     anglais] sur{" "}
                                     <a
                                         target="_blank"
@@ -1031,7 +1031,7 @@ const fr = ({ pdf }) => {
                                         lutte contre la pauvret&eacute;
                                     </em>
                                     . Banque mondiale, Washington, DC,
-                                    26&nbsp;ao&ucirc;t 2008&nbsp;; disponible
+                                    26&nbsp;ao&ucirc;t 2008; disponible
                                     [en anglais] sur{" "}
                                     <a
                                         target="_blank"
@@ -1046,7 +1046,7 @@ const fr = ({ pdf }) => {
                                 <li>
                                     Ethical Trading Initiative.{" "}
                                     <em>
-                                        Base Code Guidance: Living Wages&nbsp;;{" "}
+                                        Base Code Guidance: Living Wages;{" "}
                                     </em>
                                     disponible [en anglais] sur{" "}
                                     <a
@@ -1062,7 +1062,7 @@ const fr = ({ pdf }) => {
                                 <li>
                                     Fair Labor Association.
                                     <em> Fair Compensation</em> [en ligne,
-                                    consult&eacute; le 15&nbsp;mai 2017]&nbsp;;
+                                    consult&eacute; le 15&nbsp;mai 2017];
                                     disponible [en anglais] sur{" "}
                                     <a
                                         target="_blank"
@@ -1079,9 +1079,9 @@ const fr = ({ pdf }) => {
                                     <em>
                                         Fair Compensation for Farmworkers:
                                         Emerging Good Practices and
-                                        Challenges&nbsp;;{" "}
+                                        Challenges;{" "}
                                     </em>
-                                    27&nbsp;f&eacute;vrier 2017&nbsp;;
+                                    27&nbsp;f&eacute;vrier 2017;
                                     disponible [en anglais] sur{" "}
                                     <a
                                         target="_blank"
@@ -1098,9 +1098,9 @@ const fr = ({ pdf }) => {
                                     <em>
                                         Toward Fair Compensation in Global
                                         Supply Chains: Factory Pay Assessments
-                                        in 21 Countries&nbsp;;{" "}
+                                        in 21 Countries;{" "}
                                     </em>
-                                    3&nbsp;ao&ucirc;t&nbsp;2016&nbsp;;
+                                    3&nbsp;ao&ucirc;t&nbsp;2016;
                                     disponible [en anglais] sur{" "}
                                     <a
                                         target="_blank"
@@ -1208,7 +1208,7 @@ const fr = ({ pdf }) => {
                                     ISEAL Alliance.{" "}
                                     <em>Global Living Wage Coalition</em> [en
                                     ligne, consult&eacute; le 15&nbsp;mai
-                                    2017]&nbsp;; disponible [en anglais] sur{" "}
+                                    2017]; disponible [en anglais] sur{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -1244,8 +1244,8 @@ const fr = ({ pdf }) => {
                                     Harvard University Press, 2014.
                                 </li>
                                 <li>
-                                    Wilshaw, Rachel&nbsp;; Hamilton,
-                                    Sloane&nbsp;; Theroux-Seguin, Julie et Daisy
+                                    Wilshaw, Rachel; Hamilton,
+                                    Sloane; Theroux-Seguin, Julie et Daisy
                                     Gardener.{" "}
                                     <em>
                                         In Work but Trapped in Poverty: A
@@ -1254,7 +1254,7 @@ const fr = ({ pdf }) => {
                                         the Road to a Living Wage;{" "}
                                     </em>
                                     Oxfam International,
-                                    29&nbsp;septembre&nbsp;2015&nbsp;;
+                                    29&nbsp;septembre&nbsp;2015;
                                     disponible [en anglais] sur{" "}
                                     <a
                                         target="_blank"

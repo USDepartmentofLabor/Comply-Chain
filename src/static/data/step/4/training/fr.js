@@ -94,7 +94,7 @@ const fr = () => {
                             Migration Policies in Countries of Origin and
                             Destination&nbsp;».
                         </em>{" "}
-                        2006&nbsp;; disponible [en anglais] sur{" "}
+                        2006; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -111,7 +111,7 @@ const fr = () => {
                             «&nbsp;Training Modules on Labour Migration
                             Management &ndash; Trainer&rsquo;s Manual
                         </em>
-                        <em>&nbsp;».</em> 2011&nbsp;; disponible [en anglais]
+                        <em>&nbsp;».</em> 2011; disponible [en anglais]
                         sur{" "}
                         <a
                             target="_blank"

@@ -613,7 +613,7 @@ const fr = () => {
                     <p>
                         Seuls sont permis les d&eacute;ductions, les avances et
                         les pr&ecirc;ts autoris&eacute;s par la
-                        l&eacute;gislation nationale&nbsp;; le cas
+                        l&eacute;gislation nationale; le cas
                         &eacute;ch&eacute;ant, ils ne seront effectu&eacute;s
                         qu&rsquo;avec le consentement &eacute;clair&eacute;
                         plein et entier des travailleurs. Lors de leur embauche,

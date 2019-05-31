@@ -303,7 +303,7 @@ const fr = ({ pdf }) => {
                                         Deuxi&egrave;me &eacute;tape: commande
                                         et production. Au cours de cette
                                         &eacute;tape se produisent le placement
-                                        et la classification du produit&nbsp;;
+                                        et la classification du produit;
                                         un acheteur envoie un bon de commande
                                         &eacute;lectronique au fournisseur, au
                                         commissionnaire en douane, au

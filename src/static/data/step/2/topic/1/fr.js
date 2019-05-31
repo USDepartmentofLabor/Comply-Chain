@@ -7,7 +7,7 @@ const fr = () => {
             <div>
                 <h1>
                     Pourquoi r&eacute;aliser des &eacute;valuations de risques
-                    et d&apos;incidences ?
+                    et d&apos;incidences?
                 </h1>
                 <p>
                     Les &eacute;valuations des risques et des incidences sont

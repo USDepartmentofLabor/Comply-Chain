@@ -62,7 +62,7 @@ const fr = () => {
                     d&rsquo;information des travailleurs sur leurs situations
                     professionnelles et &agrave; combler les lacunes. Il existe
                     plus de 7&nbsp;milliards d&rsquo;abonnements mobiles dans le
-                    monde&nbsp;; de nombreuses initiatives, comme{" "}
+                    monde; de nombreuses initiatives, comme{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -98,7 +98,7 @@ const fr = () => {
                     nombreuses technologies permettent aux travailleurs de faire
                     part de leurs r&eacute;clamations, sans toutefois proposer
                     de m&eacute;thodes de r&eacute;paration des violations
-                    individuelles des droits des travailleurs&nbsp;; il
+                    individuelles des droits des travailleurs; il
                     s&rsquo;agit l&agrave; d&rsquo;un domaine &agrave;
                     am&eacute;liorer et d&rsquo;une opportunit&eacute; de
                     progr&egrave;s technologique.&nbsp;
@@ -187,7 +187,7 @@ const fr = () => {
                         Favoriser la confiance des groupes de parties prenantes
                         auxquels ils sont destin&eacute;s et &ecirc;tre
                         responsable du d&eacute;roulement &eacute;quitable des
-                        processus de r&eacute;clamation&nbsp;;
+                        processus de r&eacute;clamation;
                     </li>
                     <li>
                         <strong>Accessibilit&eacute;: </strong>
@@ -196,7 +196,7 @@ const fr = () => {
                         destin&eacute;s, et prestation d&apos;une assistance
                         ad&eacute;quate &agrave; ceux qui pourraient &ecirc;tre
                         confront&eacute;s &agrave; des obstacles particuliers
-                        pour y acc&eacute;der&nbsp;;
+                        pour y acc&eacute;der;
                     </li>
                     <li>
                         <strong>Pr&eacute;visibilit&eacute;: </strong>
@@ -205,7 +205,7 @@ const fr = () => {
                         titre indicatif pour chaque &eacute;tape, et
                         clart&eacute; quant aux types de processus et de
                         r&eacute;sultats disponibles et de moyens de suivi de la
-                        mise en &oelig;uvre&nbsp;;
+                        mise en &oelig;uvre;
                     </li>
                     <li>
                         <strong>
@@ -217,7 +217,7 @@ const fr = () => {
                         connaissances sp&eacute;cialis&eacute;es
                         n&eacute;cessaires pour lancer un processus de
                         r&eacute;clamation selon des modalit&eacute;s justes,
-                        inform&eacute;es et respectueuses&nbsp;;
+                        inform&eacute;es et respectueuses;
                     </li>
                     <li>
                         <strong>Transparence: </strong>Informer les
@@ -226,13 +226,13 @@ const fr = () => {
                         sur les r&eacute;sultats du m&eacute;canisme pour
                         renforcer la confiance quant &agrave; son
                         efficacit&eacute; et remplir les int&eacute;r&ecirc;ts
-                        publics en jeu&nbsp;;
+                        publics en jeu;
                     </li>
                     <li>
                         <strong>Compatibilit&eacute; des droits: </strong>
                         S&apos;assurer que les r&eacute;sultats et les
                         r&eacute;parations sont conformes aux droits de
-                        l&apos;homme internationalement reconnus&nbsp;;
+                        l&apos;homme internationalement reconnus;
                     </li>
                     <li>
                         <strong>Dialogue et participation: </strong>
@@ -241,7 +241,7 @@ const fr = () => {
                         conception et &agrave; la performance des
                         m&eacute;canismes, et s&apos;axer sur le dialogue comme
                         &eacute;tant le moyen d&apos;aborder et de r&eacute;gler
-                        les r&eacute;clamations&nbsp;;
+                        les r&eacute;clamations;
                     </li>
                     <li>
                         <strong>Apprentissage continu: </strong>

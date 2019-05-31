@@ -7,7 +7,7 @@ const fr = () => {
                 <ol>
                     <li>
                         Barreau am&eacute;ricain. <em>Model Policies, </em>
-                        2014&nbsp;; disponible [en anglais] sur{" "}
+                        2014; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -23,7 +23,7 @@ const fr = () => {
                             Principes de Dhaka sur la migration dans la
                             dignit&eacute;
                         </em>
-                        , 2012&nbsp;; disponible sur
+                        , 2012; disponible sur
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -35,7 +35,7 @@ const fr = () => {
                         .
                     </li>
                     <li>
-                        ICCR. <em>Statement of Principles, </em>2013&nbsp;;
+                        ICCR. <em>Statement of Principles, </em>2013;
                         disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
@@ -53,7 +53,7 @@ const fr = () => {
                             Code of Good Practice: Setting Social and
                             Environmental Standards v 5.0
                         </em>
-                        . Allemagne, juin&nbsp;2010&nbsp;; disponible [en
+                        . Allemagne, juin&nbsp;2010; disponible [en
                         anglais] sur{" "}
                         <a
                             target="_blank"
@@ -78,7 +78,7 @@ const fr = () => {
                             A Guide for Business: How to Develop a Human Rights
                             Policy
                         </em>
-                        , 2011&nbsp;; disponible [en anglais] sur{" "}
+                        , 2011; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -95,7 +95,7 @@ const fr = () => {
                             A Guide for Integrating Human Rights Into Business
                             Management
                         </em>
-                        , 2<sup>e</sup>&nbsp;&eacute;d., 2009&nbsp;; disponible
+                        , 2<sup>e</sup>&nbsp;&eacute;d., 2009; disponible
                         [en anglais] sur{" "}
                         <a
                             target="_blank"
@@ -109,7 +109,7 @@ const fr = () => {
                     </li>
                     <li>
                         Pacte mondial de l&apos;ONU.{" "}
-                        <em>Human Rights and Business Learning Tool</em>&nbsp;;
+                        <em>Human Rights and Business Learning Tool</em>;
                         disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
@@ -127,7 +127,7 @@ const fr = () => {
                             From Principles to Practice: The Role of SA8000 in
                             Implementing the U.N. Global Compact
                         </em>
-                        , 2010&nbsp;; disponible [en anglais] sur{" "}
+                        , 2010; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -143,7 +143,7 @@ const fr = () => {
                         Pacte mondial de l&apos;ONU et Haut-Commissariat des
                         Nations Unies aux droits de l&apos;homme.{" "}
                         <em>Embedding Human Rights in Business Practice IV</em>,
-                        2013&nbsp;; disponible [en anglais] sur{" "}
+                        2013; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

@@ -17,7 +17,7 @@ const fr = () => {
                     durabilit&eacute; ou la responsabilit&eacute; sociale de
                     l&apos;entreprise (RSE). Il peut &ecirc;tre publi&eacute;
                     sous forme imprim&eacute;e et/ou sur le site Web d&rsquo;une
-                    entreprise&nbsp;; certaines entreprises publient un rapport
+                    entreprise; certaines entreprises publient un rapport
                     annuel ou un autre rapport r&eacute;gulier sous forme
                     imprim&eacute;e et font des mises &agrave; jour en ligne.
                 </p>

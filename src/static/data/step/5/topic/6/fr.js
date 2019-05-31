@@ -36,7 +36,7 @@ const fr = () => {
                     </em>
                 </p>
                 <h2>
-                    <em>Que faut-il observer ?</em>
+                    <em>Que faut-il observer?</em>
                 </h2>
                 <p>
                     <em>
@@ -106,8 +106,7 @@ const fr = () => {
                     <p>
                         <em>
                             Comment l&apos;enfant comprend-il et
-                            consid&egrave;re-t-il son propre
-                            travail?&nbsp;»
+                            consid&egrave;re-t-il son propre travail?&nbsp;»
                         </em>
                     </p>
                 </div>

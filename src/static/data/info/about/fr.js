@@ -177,7 +177,7 @@ const fr = ({ pdf }) => {
                                 marchandises dans le monde entier. Les
                                 entreprises cr&eacute;ent des emplois et
                                 embauchent des travailleurs pour effectuer les
-                                travaux n&eacute;cessaires&nbsp;; il leur
+                                travaux n&eacute;cessaires; il leur
                                 incombe donc de s&rsquo;assurer que ces
                                 relations de travail respectent la
                                 l&eacute;gislation nationale et les droits
