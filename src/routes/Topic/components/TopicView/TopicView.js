@@ -35,6 +35,10 @@ const NavButton = styled(Button)`
     }
     margin-left: ${props => (props.right ? "auto" : undefined)};
     margin-right: ${props => (props.left ? "auto" : undefined)};
+
+    @media print {
+        display: none;
+    }
 `;
 
 class TopicView extends Component {
@@ -122,7 +126,6 @@ class TopicView extends Component {
                     titleString={titleString}
                     url={location.pathname}
                 >
-                    (
                     <h1>
                         <HeaderIcon>
                             <Icons.StepIcon step={step} />
