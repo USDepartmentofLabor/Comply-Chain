@@ -207,6 +207,12 @@ Accordion.Title = styled.div`
             content: "-";
         }
     }
+
+    @media print {
+        &:after {
+            content: "-";
+        }
+    }
 `;
 
 Accordion.Title.displayName = "Title";
@@ -220,6 +226,11 @@ Accordion.Panel = styled.div`
     height: 0;
     display: none;
     overflow: hidden;
+
+    @media print {
+        display: block;
+        height: auto;
+    }
 `;
 
 Accordion.Panel.displayName = "Panel";

@@ -22,6 +22,10 @@ const BookmarkButton = styled.button`
         border: none;
         background: transparent;
     }
+
+    @media print {
+        display: none;
+    }
 `;
 
 const BookmarkIcon = styled(Icons.BookmarkCheck)`

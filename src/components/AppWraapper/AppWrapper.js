@@ -37,6 +37,10 @@ const MainWrapper = styled.div`
     overflow-y: overlay;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
+
+    @media print {
+        position: unset;
+    }
 `;
 
 const Header = styled.div`
@@ -45,17 +49,27 @@ const Header = styled.div`
     left: 0;
     right: 0;
     z-index: 100;
+    @media print {
+        display: none;
+    }
 `;
 
 const Footer = styled.div`
     position: fixed;
     bottom: 0;
+    @media print {
+        display: none;
+    }
 `;
 
 const StepBarWrapper = styled.div`
     background-color: ${theme.colors.grayLightest};
     padding: 30px 30px;
     border-bottom: 1px solid ${theme.colors.grayLight};
+
+    @media print {
+        display: none;
+    }
 `;
 
 const NavbarWrapper = styled.div``;

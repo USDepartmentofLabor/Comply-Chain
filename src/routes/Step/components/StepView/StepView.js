@@ -44,6 +44,10 @@ const NavButton = styled(Button)`
     }
     margin-left: ${props => (props.right ? "auto" : undefined)};
     margin-right: ${props => (props.left ? "auto" : undefined)};
+
+    @media print {
+        display: none;
+    }
 `;
 class StepView extends Component {
     constructor(props) {
