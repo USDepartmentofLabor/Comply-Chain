@@ -198,10 +198,17 @@ class Bookmarks extends Component {
                 bookmark={bookmark}
             />
         );
-        toast(toastComp, {
-            toastId: this.toastId,
-            transition: Slide
-        });
+
+        if (toast.isActive(this.toastId)) {
+            toast.update(this.toastId, {
+                render: toastComp
+            });
+        } else {
+            toast(toastComp, {
+                toastId: this.toastId,
+                transition: Slide
+            });
+        }
 
         clearTimeout(this.undoTimer);
         this.undoTimer = setTimeout(() => {
