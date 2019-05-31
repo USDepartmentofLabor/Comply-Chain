@@ -41,6 +41,13 @@ const NavButton = styled(Button)`
     }
 `;
 
+const PrintHeader = styled.h1`
+    display: none;
+    @media print {
+        display: block;
+    }
+`;
+
 class TopicView extends Component {
     constructor(props) {
         super(props);
@@ -126,12 +133,12 @@ class TopicView extends Component {
                     titleString={titleString}
                     url={location.pathname}
                 >
-                    <h1>
+                    <PrintHeader>
                         <HeaderIcon>
                             <Icons.StepIcon step={step} />
                         </HeaderIcon>
                         {stepTitle}
-                    </h1>
+                    </PrintHeader>
                     <TopicData />
                     <TopicNavButtonGroup>
                         {prevStep && (
