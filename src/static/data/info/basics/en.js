@@ -14,7 +14,7 @@ const en = () => {
                 <h1>
                     <strong>The Basics of a Social Compliance System</strong>
                 </h1>
-                <Accordion  id="basics-acc">
+                <Accordion id="basics-acc">
                     <Accordion.Section id="learning-objectives">
                         <Accordion.Title>Learning Objectives</Accordion.Title>
                         <Accordion.Panel>
@@ -505,7 +505,7 @@ const en = () => {
                                     activities, but also seek to prevent or
                                     mitigate adverse labor rights impacts linked
                                     to its business operations through business
-                                    relationships.
+                                    relationships.{" "}
                                     <Link to="/steps/2">
                                         Step 2, Assess Risks and Impacts
                                     </Link>
@@ -524,7 +524,7 @@ const en = () => {
                                     may also need to prioritize those areas of
                                     the supply chain where the company has the
                                     greatest leverage to effect meaningful
-                                    change.
+                                    change.{" "}
                                     <Link to="/steps/2">
                                         Step 2, Assess Risks and Impacts
                                     </Link>
@@ -1115,7 +1115,7 @@ const en = () => {
                                 production facilities and work with factory
                                 management to identify appropriate remediation
                                 strategies. Composition of field teams, skills
-                                needed, and related issues are discussed in
+                                needed, and related issues are discussed in{" "}
                                 <Link to="/steps/5">
                                     Step 5, Monitor Compliance
                                 </Link>
