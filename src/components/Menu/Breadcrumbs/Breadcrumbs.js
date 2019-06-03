@@ -45,31 +45,8 @@ const Icon = styled.span`
 `;
 
 class Breadcrumbs extends Component {
-    state = { backUrl: undefined };
-
-    componentDidUpdate(prevProps) {
-        if (prevProps.location.pathname !== this.props.location.pathname) {
-            const { pathname } = prevProps.location;
-            const exclude = [
-                Routes.Search.path,
-                Routes.Bookmarks.path,
-                Routes.Home.path
-            ];
-            let backUrl = undefined;
-            if (!exclude.includes(pathname)) {
-                backUrl = pathname;
-            } else if (pathname === Routes.Home.path) {
-                backUrl = undefined;
-            } else {
-                backUrl = this.state.backUrl;
-            }
-            this.setState({ backUrl });
-        }
-    }
-
     displayBreadcrumb = breadcrumbs => {
-        const { location } = this.props;
-        const { backUrl } = this.state;
+        const { location, backUrl } = this.props;
 
         for (let i = 0; i < breadcrumbs.length; i++) {
             const breadcrumb = breadcrumbs[i];
@@ -155,7 +132,8 @@ Breadcrumbs.propTypes = {
     id: PropTypes.string,
     breadcrumbs: PropTypes.array.isRequired,
     className: PropTypes.string,
-    location: PropTypes.object.isRequired
+    location: PropTypes.object.isRequired,
+    backUrl: PropTypes.string
 };
 
 export default withRouter(

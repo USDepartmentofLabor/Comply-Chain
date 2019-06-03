@@ -110,7 +110,8 @@ class AppWrapper extends Component {
         this.state = {
             ...this.updateNavBarItems(),
             bottomDrawerActive: false,
-            sideNavVisible: false
+            sideNavVisible: false,
+            backUrl: undefined
         };
     }
 
@@ -129,6 +130,23 @@ class AppWrapper extends Component {
     componentDidUpdate(prevProps) {
         if (prevProps.localizor.language !== this.props.localizor.language) {
             this.setState({ ...this.updateNavBarItems() });
+        }
+        if (prevProps.location.pathname !== this.props.location.pathname) {
+            const { pathname } = prevProps.location;
+            const exclude = [
+                Routes.Search.path,
+                Routes.Bookmarks.path,
+                Routes.Home.path
+            ];
+            let backUrl = undefined;
+            if (!exclude.includes(pathname)) {
+                backUrl = pathname;
+            } else if (pathname === Routes.Home.path) {
+                backUrl = undefined;
+            } else {
+                backUrl = this.state.backUrl;
+            }
+            this.setState({ backUrl });
         }
     }
 
@@ -183,7 +201,10 @@ class AppWrapper extends Component {
                     props: {
                         as: NavLink,
                         to: Routes.Bookmarks.path,
-                        id: "bookmarks-link"
+                        id: "bookmarks-link",
+                        onClick: e => {
+                            this.displayBackPage(e, Routes.Bookmarks.path);
+                        }
                     },
                     icon: Icons.Bookmarks,
                     label: localizor.strings.general.bookmarks
@@ -192,7 +213,10 @@ class AppWrapper extends Component {
                     props: {
                         as: NavLink,
                         to: "/search",
-                        id: "search-link"
+                        id: "search-link",
+                        onClick: e => {
+                            this.displayBackPage(e, Routes.Search.path);
+                        }
                     },
                     icon: Icons.Search,
                     label: localizor.strings.general.search
@@ -249,6 +273,16 @@ class AppWrapper extends Component {
         return items;
     };
 
+    displayBackPage = (e, backPageUrl) => {
+        const { location, history } = this.props;
+        const { backUrl } = this.state;
+
+        if (backPageUrl === location.pathname && backUrl) {
+            e.preventDefault();
+            history.push(backUrl);
+        }
+    };
+
     toggleBottomDrawer = () => {
         this.setState({ bottomDrawerActive: !this.state.bottomDrawerActive });
     };
@@ -274,7 +308,8 @@ class AppWrapper extends Component {
             bottomNavItems,
             bottomDrawerActive,
             bottomDrawerItems,
-            sideNavVisible
+            sideNavVisible,
+            backUrl
         } = this.state;
         const { location } = this.props;
         return (
@@ -286,6 +321,7 @@ class AppWrapper extends Component {
                             <NavBar
                                 leftItems={navBarLeftItems}
                                 onSideNavToggle={this.handleSideNavToggle}
+                                backUrl={backUrl}
                             />
                         </NavbarWrapper>
                     </Header>
@@ -337,6 +373,7 @@ class AppWrapper extends Component {
 }
 
 AppWrapper.propTypes = {
+    history: PropTypes.object.isRequired,
     match: PropTypes.object.isRequired,
     location: PropTypes.object.isRequired,
     localizor: PropTypes.object.isRequired
