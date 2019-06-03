@@ -63,7 +63,7 @@ class Accordion extends Component {
     }
 
     toggleActive = sectionIndex => {
-        if (this.panel[sectionIndex].style.height) {
+        if (this.panel[sectionIndex].classList.contains("active")) {
             this.makeInactive(sectionIndex);
         } else {
             this.makeActive(sectionIndex);
@@ -78,16 +78,14 @@ class Accordion extends Component {
     makeInactive = sectionIndex => {
         this.title[sectionIndex].classList.remove("active");
         this.title[sectionIndex].setAttribute("aria-expanded", false);
-        this.panel[sectionIndex].style.height = null;
-        this.panel[sectionIndex].style.display = "none";
+        this.panel[sectionIndex].classList.remove("active");
         storage.accordion.removeAccordionId();
     };
 
     makeActive = sectionIndex => {
         this.title[sectionIndex].classList.add("active");
         this.title[sectionIndex].setAttribute("aria-expanded", true);
-        this.panel[sectionIndex].style.display = "block";
-        this.panel[sectionIndex].style.height = "auto";
+        this.panel[sectionIndex].classList.add("active");
         storage.accordion.setAccordionId(this.section[sectionIndex].id);
     };
 
@@ -116,8 +114,7 @@ class Accordion extends Component {
     closeOthers = sectionIndex => {
         this.section.map((section, i) => {
             if (section && sectionIndex !== i) {
-                this.panel[i].style.height = null;
-                this.title[i].classList.remove("active");
+                this.makeInactive(i);
             }
             return section;
         });
@@ -220,6 +217,11 @@ Accordion.Panel = styled.div`
     height: 0;
     display: none;
     overflow: hidden;
+
+    &.active {
+        display: block;
+        height: auto;
+    }
 
     @media print {
         display: block;
