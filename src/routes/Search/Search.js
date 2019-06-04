@@ -28,7 +28,7 @@ const SearchInput = styled.input`
     display: block;
     color: ${theme.colors.base};
     background-color: ${theme.colors.white};
-    border: 1px solid ${theme.colors.grayLight};
+    border: 1px solid ${theme.colors.charcoal};
     padding: 10px 30px;
     width: 100%;
     box-sizing: border-box;
@@ -45,7 +45,7 @@ const SearchResultsHeader = styled.h1`
 `;
 
 const SearchResult = styled.div`
-    border: 1px solid ${theme.colors.grayLight};
+    border: 1px solid ${theme.colors.charcoal};
     margin-top: 1em;
     padding: 0 20px 20px;
 `;

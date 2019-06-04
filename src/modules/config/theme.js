@@ -11,6 +11,7 @@ export const theme = {
         grayLightest: "#efefef",
         gray: "#d3d3d3",
         grayRGB: "211,211,211",
+        charcoal: "#3d3d3d",
         white: "#fff",
         offWhite: "#f1f1f1",
         primaryAlt: "#02bfe7",
