@@ -70,7 +70,7 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
     return (
         <Content>
             <UndoText>
-                You have bookmarked{" "}
+                {localizor.strings.general.bookmarked}{" "}
                 <ToastStrong>
                     {getPropByString(localizor.strings, name)}
                 </ToastStrong>
@@ -82,7 +82,7 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
                 }}
                 onClick={handleClick}
             >
-                Undo
+                {localizor.strings.general.undo}
             </UndoButton>
         </Content>
     );

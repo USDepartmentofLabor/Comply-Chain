@@ -71,7 +71,6 @@ const ToastUndo = ({ bookmark, localizor, undo, shouldClose, closeToast }) => {
         border: none;
         background: ${theme.colors.primaryDarker};
         color: ${theme.colors.white};
-        min-width: 75px;
         height: auto;
         padding: 15px;
         font-weight: bold;
@@ -86,11 +85,11 @@ const ToastUndo = ({ bookmark, localizor, undo, shouldClose, closeToast }) => {
     return (
         <Content>
             <UndoText>
-                You removed{" "}
+                {localizor.strings.general.removed}{" "}
                 <ToastStrong>
                     {getPropByString(localizor.strings, bookmark.name)}
                 </ToastStrong>{" "}
-                from your bookmarks.
+                {localizor.strings.general.fromBookmarks}.
             </UndoText>{" "}
             <UndoButton
                 onTouchStart={() => {
@@ -98,7 +97,7 @@ const ToastUndo = ({ bookmark, localizor, undo, shouldClose, closeToast }) => {
                 }}
                 onClick={handleClick}
             >
-                Undo
+                {localizor.strings.general.undo}
             </UndoButton>
         </Content>
     );
@@ -213,7 +212,7 @@ class Bookmarks extends Component {
         clearTimeout(this.undoTimer);
         this.undoTimer = setTimeout(() => {
             toast.dismiss(this.toastId);
-        }, 5000);
+        }, 500000);
     };
 
     unmarkForRemoval = bookmark => {
