@@ -8,7 +8,7 @@ const fr = () => {
             <div>
                 <h1>
                     Qu&apos;est-ce qui fait la qualit&eacute; d&apos;un code de
-                    conduite ?
+                    conduite?
                 </h1>
                 <p>
                     Les codes se pr&eacute;sentent sous des formes et des

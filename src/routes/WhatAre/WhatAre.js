@@ -5,23 +5,21 @@ import Bookmarkable from "../../components/Bookmarkable";
 import { withLanguageContext } from "../../components/Language";
 class WhatAre extends Component {
     render() {
-        const { localizor, pdf, location } = this.props;
+        const { localizor, location } = this.props;
         const WhatAreInfo = localizor.strings.info.whatAre.content;
         return (
             <Bookmarkable
                 titleString="info.whatAre.title"
                 url={location.pathname}
-                pdf={pdf}
             >
-                <WhatAreInfo pdf={pdf} />
+                <WhatAreInfo />
             </Bookmarkable>
         );
     }
 }
 WhatAre.propTypes = {
     localizor: PropTypes.object.isRequired,
-    location: PropTypes.object.isRequired,
-    pdf: PropTypes.bool
+    location: PropTypes.object.isRequired
 };
 
 export default withRouter(withLanguageContext(WhatAre));

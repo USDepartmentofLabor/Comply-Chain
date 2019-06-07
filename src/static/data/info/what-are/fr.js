@@ -4,14 +4,14 @@ import StaticData from "../../../../components/StaticData";
 import childBrick from "../../../images/child_brick.jpg";
 import unoDc from "../../../images/UNO_DC_fr.png";
 
-const fr = ({ pdf }) => {
+const fr = () => {
     return (
         <StaticData>
             <div>
                 <h1>
                     <strong>
                         Qu&apos;est-ce que le travail des enfants et le travail
-                        forc&eacute; ?
+                        forc&eacute;?
                     </strong>
                 </h1>
                 <p>Sources des normes:</p>
@@ -43,7 +43,7 @@ const fr = ({ pdf }) => {
                     et de concevoir des programmes de promotion des droits sur
                     le lieu de travail et du travail d&eacute;cent pour tous.
                 </p>
-                <Accordion pdf={pdf} id="what-are-acc">
+                <Accordion  id="what-are-acc">
                     <Accordion.Section id="child-labor">
                         <Accordion.Title>Travail des enfants</Accordion.Title>
                         <Accordion.Panel>
@@ -280,10 +280,10 @@ const fr = ({ pdf }) => {
                                 moins ch&egrave;re. Les enfants peuvent
                                 &ecirc;tre les seuls travailleurs
                                 dispos&eacute;s &agrave; accepter ces
-                                r&eacute;mun&eacute;rations&nbsp;; pour les
-                                adultes, ces salaires ne leur permettent pas de
-                                subvenir &agrave; leurs besoins de base et ils
-                                doivent envoyer leurs enfants au travail pour
+                                r&eacute;mun&eacute;rations; pour les adultes,
+                                ces salaires ne leur permettent pas de subvenir
+                                &agrave; leurs besoins de base et ils doivent
+                                envoyer leurs enfants au travail pour
                                 compl&eacute;ter les revenus familiaux. &Agrave;
                                 ces facteurs fondamentaux de l&apos;offre et de
                                 la demande viennent s&apos;en greffer
@@ -308,7 +308,7 @@ const fr = ({ pdf }) => {
                                 disponibles.
                             </p>
                             <p />
-                            <Accordion pdf={pdf}>
+                            <Accordion >
                                 <Accordion.Section id="child-resources">
                                     <Accordion.Title>
                                         Autres ressources
@@ -350,7 +350,7 @@ const fr = ({ pdf }) => {
                                                 Travail, «&nbsp;Qu&apos;est-ce
                                                 que le travail des
                                                 enfants?&nbsp;» consult&eacute;
-                                                le 25&nbsp;novembre 2011&nbsp;;
+                                                le 25&nbsp;novembre 2011;
                                                 disponible sur{" "}
                                                 <a
                                                     target="_blank"
@@ -367,8 +367,8 @@ const fr = ({ pdf }) => {
                                                 Travail, Enfants dans les
                                                 travaux dangereux: Ce que nous
                                                 savons, ce que nous devons
-                                                faire, Gen&egrave;ve, juin
-                                                2011&nbsp;; disponible sur{" "}
+                                                faire, Gen&egrave;ve, juin 2011;
+                                                disponible sur{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -492,8 +492,7 @@ const fr = ({ pdf }) => {
                                                     formes de travail des
                                                     enfants
                                                 </i>
-                                                , Washington, DC&nbsp;;
-                                                disponible sur{" "}
+                                                , Washington, DC; disponible sur{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -843,7 +842,7 @@ const fr = ({ pdf }) => {
                                 <em>
                                     Rapport mondial sur la traite des personnes
                                 </em>
-                                &nbsp;; 2016 [en anglais].{" "}
+                                ; 2016 [en anglais].{" "}
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -855,7 +854,7 @@ const fr = ({ pdf }) => {
                                 .
                             </p>
                             <p />
-                            <Accordion pdf={pdf}>
+                            <Accordion >
                                 <Accordion.Section id="forced-resources">
                                     <Accordion.Title>
                                         Autres ressources
@@ -891,8 +890,8 @@ const fr = ({ pdf }) => {
                                                     principes et droits
                                                     fondamentaux au travail,{" "}
                                                 </em>
-                                                Gen&egrave;ve&nbsp;; 2009
-                                                disponible sur{" "}
+                                                Gen&egrave;ve; 2009 disponible
+                                                sur{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -908,8 +907,8 @@ const fr = ({ pdf }) => {
                                                 travail, ILO Global Estimate of
                                                 Forced Labour: Results and
                                                 Methodology, Gen&egrave;ve,
-                                                2012&nbsp;; disponible [en
-                                                anglais] sur{" "}
+                                                2012; disponible [en anglais]
+                                                sur{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -930,8 +929,8 @@ const fr = ({ pdf }) => {
                                                     forced labour of adults and
                                                     children,{" "}
                                                 </em>
-                                                Gen&egrave;ve, 2012&nbsp;;
-                                                disponible [en anglais] sur{" "}
+                                                Gen&egrave;ve, 2012; disponible
+                                                [en anglais] sur{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -947,8 +946,8 @@ const fr = ({ pdf }) => {
                                                 Travail, Combating Forced
                                                 Labour: A Handbook for Employers
                                                 and Business, Gen&egrave;ve,
-                                                25&nbsp;juin 2015&nbsp;;
-                                                disponible [en anglais] sur{" "}
+                                                25&nbsp;juin 2015; disponible
+                                                [en anglais] sur{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -984,9 +983,8 @@ const fr = ({ pdf }) => {
                                                 l&apos;Organisation
                                                 internationale du Travail
                                                 relatif &agrave; la convention
-                                                sur le travail
-                                                forc&eacute;&nbsp;; disponible
-                                                sur{" "}
+                                                sur le travail forc&eacute;;
+                                                disponible sur{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -1004,8 +1002,8 @@ const fr = ({ pdf }) => {
                                                 des mesures
                                                 compl&eacute;mentaires en vue de
                                                 la suppression effective du
-                                                travail forc&eacute;,
-                                                2014&nbsp;; disponible sur{" "}
+                                                travail forc&eacute;, 2014;
+                                                disponible sur{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -1024,8 +1022,8 @@ const fr = ({ pdf }) => {
                                                     traite des &ecirc;tres
                                                     humains
                                                 </em>
-                                                , Bruxelles, 2010&nbsp;;
-                                                disponible [en anglais] sur{" "}
+                                                , Bruxelles, 2010; disponible
+                                                [en anglais] sur{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"

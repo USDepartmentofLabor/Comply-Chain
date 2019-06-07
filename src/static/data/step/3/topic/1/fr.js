@@ -2,7 +2,7 @@ import React from "react";
 import StaticData from "../../../../../../components/StaticData";
 import Accordion from "../../../../../../components/Accordion";
 
-const fr = ({ pdf }) => {
+const fr = () => {
     return (
         <StaticData>
             <div>
@@ -94,7 +94,7 @@ const fr = ({ pdf }) => {
                     travailleurs et qui s&rsquo;applique aux filiales de la
                     soci&eacute;t&eacute; dans le monde.
                 </p>
-                <Accordion id="resources" pdf={pdf}>
+                <Accordion id="resources" >
                     <Accordion.Section>
                         <Accordion.Title>Autres ressources</Accordion.Title>
                         <Accordion.Panel>
@@ -105,10 +105,10 @@ const fr = ({ pdf }) => {
                                         Responsibility Outsourced: Social
                                         Audits, Workplace Certification and
                                         Twenty Years of Failure to Protect
-                                        Worker Rights&nbsp;;
+                                        Worker Rights;
                                     </em>{" "}
                                     1<sup>er</sup>
-                                    &nbsp;ao&ucirc;t&nbsp;2014&nbsp;; disponible
+                                    &nbsp;ao&ucirc;t&nbsp;2014; disponible
                                     [en anglais] sur{" "}
                                     <a
                                         target="_blank"
@@ -128,7 +128,7 @@ const fr = ({ pdf }) => {
                                         durable
                                     </em>
                                     . [en ligne, consult&eacute; le 16&nbsp;mai
-                                    2017]&nbsp;; disponible sur{" "}
+                                    2017]; disponible sur{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -141,7 +141,7 @@ const fr = ({ pdf }) => {
                                 </li>
                                 <li>
                                     Danone. <em>Dialogue social.</em>[en ligne,
-                                    consult&eacute; le 16&nbsp;mai 2017]&nbsp;;
+                                    consult&eacute; le 16&nbsp;mai 2017];
                                     disponible sur{" "}
                                     <a
                                         target="_blank"
@@ -179,7 +179,7 @@ const fr = ({ pdf }) => {
                                        : An emerging global industrial
                                         relations framework?
                                     </em>{" "}
-                                    Gen&egrave;ve, 2008&nbsp;; disponible [en
+                                    Gen&egrave;ve, 2008; disponible [en
                                     anglais] sur{" "}
                                     <a
                                         target="_blank"
@@ -194,7 +194,7 @@ const fr = ({ pdf }) => {
                                 <li>
                                     OIT. International framework agreements and
                                     global social dialogue: parameters and
-                                    prospects; Gen&egrave;ve, 2010&nbsp;;
+                                    prospects; Gen&egrave;ve, 2010;
                                     disponible [en anglais] sur{" "}
                                     <a
                                         target="_blank"

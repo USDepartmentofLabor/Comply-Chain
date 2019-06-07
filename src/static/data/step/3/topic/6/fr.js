@@ -139,7 +139,7 @@ const fr = () => {
                         responsables en minerais provenant de zones de conflit
                         ou &agrave; haut risque
                     </a>
-                    &nbsp;; 2) le{" "}
+                    ; 2) le{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -150,7 +150,7 @@ const fr = () => {
                         cha&icirc;nes d&apos;approvisionnement responsables dans
                         le secteur de l&apos;habillement et de la chaussure
                     </a>
-                    &nbsp;; 3) le{" "}
+                    ; 3) le{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -160,7 +160,7 @@ const fr = () => {
                         Guide OCDE pour des cha&icirc;nes
                         d&apos;approvisionnement agricoles responsables
                     </a>
-                    &nbsp;; 4) les{" "}
+                    ; 4) les{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

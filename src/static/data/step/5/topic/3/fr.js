@@ -673,18 +673,18 @@ const fr = () => {
                                 <li>
                                     Fournit aux travailleurs une copie conforme
                                     de ses documents personnels lorsqu&rsquo;ils
-                                    ne sont pas en leur possession&nbsp;;
+                                    ne sont pas en leur possession;
                                 </li>
                                 <li>
                                     Met en place des politiques et des
                                     proc&eacute;dures &eacute;crites pour
-                                    &eacute;viter toute violation&nbsp;;
+                                    &eacute;viter toute violation;
                                 </li>
                                 <li>
                                     Nomme une personne responsable pour garantir
                                     l&rsquo;acc&egrave;s libre des travailleurs
                                     &agrave; leur document sur leur
-                                    demande&nbsp;; et
+                                    demande; et
                                 </li>
                                 <li>
                                     Avise les travailleurs de ces
@@ -806,23 +806,23 @@ const fr = () => {
                                 <li>
                                     de r&eacute;mun&eacute;ration, heures de
                                     travail, heures suppl&eacute;mentaires et
-                                    cong&eacute;s pay&eacute;s&nbsp;;
+                                    cong&eacute;s pay&eacute;s;
                                 </li>
                                 <li>
                                     d&rsquo;acc&egrave;s &agrave; la
-                                    formation&nbsp;;
+                                    formation;
                                 </li>
                                 <li>
                                     d&rsquo;admissibilit&eacute; &agrave; des
                                     promotions et des augmentations de
-                                    salaire&nbsp;;
+                                    salaire;
                                 </li>
                                 <li>
                                     d&rsquo;adh&eacute;sion &agrave; des
                                     syndicats et d&rsquo;autres associations de
-                                    travailleurs&nbsp;;
+                                    travailleurs;
                                 </li>
-                                <li>d&rsquo;h&eacute;bergement&nbsp;; et</li>
+                                <li>d&rsquo;h&eacute;bergement; et</li>
                                 <li>
                                     d&rsquo;avantages sociaux et
                                     d&rsquo;assurance sociale, notamment de
@@ -913,7 +913,7 @@ const fr = () => {
                                     le remboursement d&rsquo;un pr&ecirc;t
                                     s&rsquo;effectue sur une p&eacute;riode
                                     raisonnable ne d&eacute;passant pas six
-                                    mois&nbsp;;
+                                    mois;
                                 </li>
                                 <li>
                                     Le calcul des taux
@@ -922,12 +922,12 @@ const fr = () => {
                                     d&eacute;ductions de salaire pr&eacute;vues
                                     pour leur remboursement s&rsquo;effectuent
                                     en toute transparence pour le
-                                    travailleur&nbsp;;
+                                    travailleur;
                                 </li>
                                 <li>
                                     Les taux d&rsquo;int&eacute;r&ecirc;t ne
                                     d&eacute;passent pas les taux bancaires du
-                                    march&eacute; local en vigueur&nbsp;;
+                                    march&eacute; local en vigueur;
                                 </li>
                                 <li>
                                     Les modalit&eacute;s des avances sur les
@@ -955,14 +955,14 @@ const fr = () => {
                                 <li>
                                     ne d&eacute;passent pas les taux du
                                     march&eacute; ou le taux pay&eacute; par les
-                                    travailleurs locaux&nbsp;;
+                                    travailleurs locaux;
                                 </li>
                                 <li>
                                     n&rsquo;aident pas les entreprises ou les
                                     sous-traitants &agrave;
                                     g&eacute;n&eacute;rer un
                                     b&eacute;n&eacute;fice aux d&eacute;pends
-                                    des travailleurs&nbsp;; et
+                                    des travailleurs; et
                                 </li>
                                 <li>
                                     ne font pas partie de mesures visant

@@ -4,7 +4,7 @@ import StaticData from "../../../../../../components/StaticData";
 import cocoaSupplyChains from "../../../../../images/cocoa_supply_chains_es.png";
 import genericImport from "../../../../../images/generic_import_es.png";
 
-const es = ({ pdf }) => {
+const es = () => {
     return (
         <StaticData>
             <div>
@@ -165,7 +165,7 @@ const es = ({ pdf }) => {
                     </a>
                 </p>
                 <div id="cocoa_chains">
-                    <Accordion pdf={pdf} id="cocoa-chains-acc">
+                    <Accordion  id="cocoa-chains-acc">
                         <Accordion.Section id="cocoa-description">
                             <Accordion.Title>
                                 Descripci&oacute;n del gr&aacute;fico
@@ -245,7 +245,7 @@ const es = ({ pdf }) => {
                     </a>
                 </p>
                 <div>
-                    <Accordion pdf={pdf} id="generic-import-acc">
+                    <Accordion  id="generic-import-acc">
                         <Accordion.Section id="generic-import-description">
                             <Accordion.Title>
                                 Descripci&oacute;n del gr&aacute;fico

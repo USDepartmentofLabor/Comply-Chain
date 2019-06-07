@@ -44,6 +44,10 @@ const NavButton = styled(Button)`
     }
     margin-left: ${props => (props.right ? "auto" : undefined)};
     margin-right: ${props => (props.left ? "auto" : undefined)};
+
+    @media print {
+        display: none;
+    }
 `;
 class StepView extends Component {
     constructor(props) {
@@ -138,7 +142,7 @@ class StepView extends Component {
     };
 
     render() {
-        const { localizor, pdf, step, location } = this.props;
+        const { localizor, step, location } = this.props;
         const {
             nextStep,
             prevStep,
@@ -159,11 +163,7 @@ class StepView extends Component {
             sections.push(training);
         }
         return (
-            <Bookmarkable
-                titleString={titleString}
-                url={location.pathname}
-                pdf={pdf}
-            >
+            <Bookmarkable titleString={titleString} url={location.pathname}>
                 <StepHeader>
                     <HeaderIcon>
                         <Icons.StepIcon step={step} />
@@ -173,37 +173,35 @@ class StepView extends Component {
                 <AccordionView
                     id="step-accordions"
                     sections={sections}
-                    pdf={pdf}
                     reset={reset}
                 />
-                {!pdf && (
-                    <StepNavButtonGroup>
-                        {prevStep && (
-                            <NavButton
-                                id="prev-step"
-                                variant="primaryDarkest"
-                                onClick={() => this.navigate(prevStep)}
-                                left
-                            >
-                                <Icons.ArrowDropLeft />
-                                {localizor.strings.general.prevStep}
-                            </NavButton>
-                        )}
-                        {/** Used to keep a space between the buttons */}
-                        <div />
-                        {nextStep && (
-                            <NavButton
-                                id="next-step"
-                                variant="primary"
-                                onClick={() => this.navigate(nextStep)}
-                                right
-                            >
-                                {localizor.strings.general.nextStep}
-                                <Icons.ArrowDropRight />
-                            </NavButton>
-                        )}
-                    </StepNavButtonGroup>
-                )}
+
+                <StepNavButtonGroup>
+                    {prevStep && (
+                        <NavButton
+                            id="prev-step"
+                            variant="primaryDarkest"
+                            onClick={() => this.navigate(prevStep)}
+                            left
+                        >
+                            <Icons.ArrowDropLeft />
+                            {localizor.strings.general.prevStep}
+                        </NavButton>
+                    )}
+                    {/** Used to keep a space between the buttons */}
+                    <div />
+                    {nextStep && (
+                        <NavButton
+                            id="next-step"
+                            variant="primary"
+                            onClick={() => this.navigate(nextStep)}
+                            right
+                        >
+                            {localizor.strings.general.nextStep}
+                            <Icons.ArrowDropRight />
+                        </NavButton>
+                    )}
+                </StepNavButtonGroup>
             </Bookmarkable>
         );
     }
@@ -213,8 +211,7 @@ StepView.propTypes = {
     localizor: PropTypes.object.isRequired,
     history: PropTypes.object.isRequired,
     location: PropTypes.object.isRequired,
-    step: PropTypes.number.isRequired,
-    pdf: PropTypes.bool
+    step: PropTypes.number.isRequired
 };
 
 export default withRouter(withLanguageContext(StepView));

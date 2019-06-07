@@ -14,7 +14,7 @@ const fr = () => {
                             Current Trends
                         </em>
                         ; the Ethical Globalization Initiative,
-                        novembre&nbsp;2009&nbsp;; disponible [en anglais] sur{" "}
+                        novembre&nbsp;2009; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -27,7 +27,7 @@ const fr = () => {
                     </li>
                     <li>
                         Shift et Mazars. <em>UNGP Reporting Database</em>. [en
-                        ligne, consult&eacute; le 16&nbsp;mai 2016]&nbsp;;
+                        ligne, consult&eacute; le 16&nbsp;mai 2016];
                         disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
@@ -43,7 +43,7 @@ const fr = () => {
                         Fonds des Nations Unies pour l&rsquo;enfance,
                         Children&rsquo;s rights in sustainability reporting: A
                         guide for incorporating children&rsquo;s rights into
-                        GRI-based reporting, Gen&egrave;ve&nbsp;; 2014;
+                        GRI-based reporting, Gen&egrave;ve; 2014;
                         disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
@@ -59,7 +59,7 @@ const fr = () => {
                         Pacte mondial des Nations Unies et la Stichting Global
                         Reporting Initiative (GRI), Making the Connection: Using
                         the GRI G4 Guidelines to Communicate Progress on the UN
-                        Global Compact Principles, 2013&nbsp;; disponible [en
+                        Global Compact Principles, 2013; disponible [en
                         anglais] sur{" "}
                         <a
                             target="_blank"

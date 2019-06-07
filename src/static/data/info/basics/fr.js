@@ -7,7 +7,7 @@ import StaticData from "../../../../components/StaticData";
 import betterwork from "../../../images/betterwork.jpg";
 import graph from "../../../images/graph_fr.jpg";
 
-const fr = ({ pdf }) => {
+const fr = () => {
     return (
         <StaticData>
             <div>
@@ -17,7 +17,7 @@ const fr = ({ pdf }) => {
                         conformit&eacute; sociale
                     </strong>
                 </h1>
-                <Accordion pdf={pdf} id="basics-acc">
+                <Accordion  id="basics-acc">
                     <Accordion.Section id="learning-objectives">
                         <Accordion.Title>
                             Objectifs d&apos;apprentissage
@@ -137,7 +137,7 @@ const fr = ({ pdf }) => {
                                             Exploitation in Cotton and Cotton
                                             Seed Farming in India.
                                         </em>{" "}
-                                        New Delhi, 2012&nbsp;; disponible [en
+                                        New Delhi, 2012; disponible [en
                                         anglais] sur{" "}
                                         <a
                                             target="_blank"
@@ -154,7 +154,7 @@ const fr = ({ pdf }) => {
                                         the Fashion Supply Chain: Where, Why,
                                         And What Can Be Done&nbsp;».
                                         theguardian.com [en ligne] [cit&eacute;
-                                        en&nbsp;2015]&nbsp;; disponible [en
+                                        en&nbsp;2015]; disponible [en
                                         anglais] sur{" "}
                                         <a
                                             target="_blank"
@@ -175,7 +175,7 @@ const fr = ({ pdf }) => {
                                             personnes
                                         </em>
                                         . Washington, D.C.,
-                                        27&nbsp;juillet&nbsp;2016&nbsp;;
+                                        27&nbsp;juillet&nbsp;2016;
                                         disponible sur{" "}
                                         <a
                                             target="_blank"
@@ -1373,7 +1373,7 @@ const fr = ({ pdf }) => {
                                 gestion, sise au si&egrave;ge, et d&apos;une
                                 &eacute;quipe de terrain, bas&eacute;e dans les
                                 pays d&apos;o&ugrave; viennent les
-                                produits&nbsp;; les PME, elles, ont
+                                produits; les PME, elles, ont
                                 g&eacute;n&eacute;ralement des &eacute;quipes de
                                 conformit&eacute; sociale plus r&eacute;duites.
                             </p>
@@ -1651,7 +1651,7 @@ const fr = ({ pdf }) => {
                                         r&eacute;parer&nbsp;» des Nations Unies
                                     </em>
                                     . New York:
-                                    21&nbsp;mars&nbsp;2011&nbsp;; disponible sur{" "}
+                                    21&nbsp;mars&nbsp;2011; disponible sur{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"

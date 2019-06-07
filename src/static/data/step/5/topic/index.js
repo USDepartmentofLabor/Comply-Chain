@@ -109,7 +109,7 @@ export const Topics = {
     fr: [
         {
             keywords: [],
-            title: "Audits : Guide de démarrage",
+            title: "Audits: Guide de démarrage",
             content: Topic1.fr
         },
         {
@@ -140,13 +140,13 @@ export const Topics = {
         {
             keywords: [],
             title:
-                "Sujet particulier : Sous-traitance informelle et travail à domicile",
+                "Sujet particulier: Sous-traitance informelle et travail à domicile",
             content: Topic7.fr
         },
         {
             keywords: [],
             title:
-                "Sujet particulier : Systèmes de surveillance communautaire du travail des enfants",
+                "Sujet particulier: Systèmes de surveillance communautaire du travail des enfants",
             content: Topic8.fr
         },
         {

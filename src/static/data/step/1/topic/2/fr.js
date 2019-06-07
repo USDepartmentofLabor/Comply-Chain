@@ -62,7 +62,7 @@ const fr = () => {
                     <p className="indent-margin">
                         Les parties prenantes peuvent aider &agrave;
                         am&eacute;liorer les cha&icirc;nes de
-                        communication&nbsp;; par exemple, les
+                        communication; par exemple, les
                         repr&eacute;sentants syndicaux peuvent recevoir les
                         commentaires et pr&eacute;occupations des travailleurs
                         sur les lieux de travail qui disposent de la

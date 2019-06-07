@@ -3,7 +3,7 @@ import Accordion from "../../../../components/Accordion";
 import BorderSeparator from "../../../../components/BorderSeparator";
 import StaticData from "../../../../components/StaticData";
 
-const fr = ({ pdf }) => {
+const fr = () => {
     return (
         <StaticData>
             <div>
@@ -90,7 +90,7 @@ const fr = ({ pdf }) => {
                         et ses r&eacute;glementations de mise en &oelig;uvre.
                     </li>
                     <br />
-                    <Accordion pdf={pdf} id="why-develop-acc">
+                    <Accordion  id="why-develop-acc">
                         <Accordion.Section id="exec-order">
                             <Accordion.Title>
                                 <strong>
@@ -498,15 +498,15 @@ const fr = ({ pdf }) => {
                                     m&egrave;res et de leurs filiales et de tous
                                     leurs sous-traitants. Le plan doit inclure
                                     1) des proc&eacute;dures
-                                    d&rsquo;identification des risques&nbsp;; 2)
+                                    d&rsquo;identification des risques; 2)
                                     des m&eacute;thodes de surveillance
                                     r&eacute;guli&egrave;re des filiales et des
-                                    sous-traitants&nbsp;; 3) des approches
+                                    sous-traitants; 3) des approches
                                     appropri&eacute;es
                                     d&rsquo;att&eacute;nuation des risques et de
                                     pr&eacute;vention des pr&eacute;judices
-                                    graves&nbsp;; 4) une m&eacute;thode de
-                                    signalement des risques&nbsp;; et 5) une
+                                    graves; 4) une m&eacute;thode de
+                                    signalement des risques; et 5) une
                                     m&eacute;thode de surveillance de
                                     l&rsquo;efficacit&eacute; des mesures
                                     pr&eacute;ventives. Les victimes et les
@@ -976,7 +976,7 @@ const fr = ({ pdf }) => {
                     consacrer des ressources et un soutien importants &agrave;
                     leurs syst&egrave;mes de conformit&eacute; sociale.
                 </p>
-                <Accordion pdf={pdf}>
+                <Accordion >
                     <Accordion.Section id="resources">
                         <Accordion.Title>Autres ressources</Accordion.Title>
                         <Accordion.Panel>
@@ -989,7 +989,7 @@ const fr = ({ pdf }) => {
                                         Lives and Boosting Factory
                                         Competitiveness: A Summary of an
                                         Independent Assessment of the Better
-                                        Work Programme&nbsp;;
+                                        Work Programme;
                                     </em>{" "}
                                     2016 ; disponible [en anglais] sur{" "}
                                     <a

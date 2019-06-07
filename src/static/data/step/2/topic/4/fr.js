@@ -4,7 +4,7 @@ import StaticData from "../../../../../../components/StaticData";
 import cocoaSupplyChains from "../../../../../images/cocoa_supply_chains_fr.png";
 import genericImport from "../../../../../images/generic_import_fr.png";
 
-const fr = ({ pdf }) => {
+const fr = () => {
     return (
         <StaticData>
             <div>
@@ -179,7 +179,7 @@ const fr = ({ pdf }) => {
                     </a>
                 </p>
                 <div id="cocoa_chains">
-                    <Accordion pdf={pdf} id="cocoa-chains-acc">
+                    <Accordion  id="cocoa-chains-acc">
                         <Accordion.Section id="cocoa-description">
                             <Accordion.Title>
                                 Description du graphique
@@ -271,7 +271,7 @@ const fr = ({ pdf }) => {
                     </a>
                 </p>
                 <div>
-                    <Accordion pdf={pdf} id="generic-import-acc">
+                    <Accordion  id="generic-import-acc">
                         <Accordion.Section id="generic-import-description">
                             <Accordion.Title>
                                 Description du graphique
@@ -303,7 +303,7 @@ const fr = ({ pdf }) => {
                                         Deuxi&egrave;me &eacute;tape: commande
                                         et production. Au cours de cette
                                         &eacute;tape se produisent le placement
-                                        et la classification du produit&nbsp;;
+                                        et la classification du produit;
                                         un acheteur envoie un bon de commande
                                         &eacute;lectronique au fournisseur, au
                                         commissionnaire en douane, au

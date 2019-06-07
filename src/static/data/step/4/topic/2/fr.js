@@ -5,7 +5,7 @@ const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Qui devrait b&eacute;n&eacute;ficier de la formation ?</h1>
+                <h1>Qui devrait b&eacute;n&eacute;ficier de la formation?</h1>
                 <p>
                     Nombreuses sont les personnes et les organisations qui
                     jouent un r&ocirc;le dans le bon fonctionnement de votre

@@ -64,7 +64,7 @@ const en = () => {
                     <li>
                         Kolk, Ans. &ldquo;Corporate social responsibility in the
                         coffee sector: The dynamics on MNC responses and code
-                        development,&rdquo;{" "}
+                        development&rdquo;,{" "}
                         <em>European Management Journal </em>23, no. 2 (April
                         2005): 228-236.
                     </li>

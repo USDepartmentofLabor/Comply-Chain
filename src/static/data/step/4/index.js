@@ -4,7 +4,7 @@ import { Training } from "./training";
 
 export const StepData = {
     en: {
-        title: "Step 4:  Communicate and Train across your Supply Chain",
+        title: "Step 4: Communicate and Train across your Supply Chain",
         topics: Topics.en,
         keywords: [
             "Grievance",
@@ -30,7 +30,7 @@ export const StepData = {
     },
     es: {
         title:
-            "Cuarto paso:  Comunicación y capacitación en la cadena de suministro",
+            "Cuarto paso: Comunicación y capacitación en la cadena de suministro",
         topics: Topics.es,
         keywords: [
             "Presentación de reclamaciones",

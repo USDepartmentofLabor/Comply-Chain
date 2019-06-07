@@ -68,18 +68,18 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Qui devrait bénéficier de la formation ?",
+            title: "Qui devrait bénéficier de la formation?",
             content: Topic2.fr
         },
         {
             keywords: [],
             title:
-                "Quels sujets la formation et le renforcement des capacités devraient-ils couvrir ?",
+                "Quels sujets la formation et le renforcement des capacités devraient-ils couvrir?",
             content: Topic3.fr
         },
         {
             keywords: [],
-            title: "Où, quand et comment la formation devrait-elle se tenir ?",
+            title: "Où, quand et comment la formation devrait-elle se tenir?",
             content: Topic4.fr
         },
         {

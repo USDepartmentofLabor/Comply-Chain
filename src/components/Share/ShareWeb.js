@@ -11,7 +11,11 @@ class ShareWeb extends Component {
     handleEmail = () => {
         const { location, localizor } = this.props;
         let title = getPageTitle(location, localizor) || "Comply Chain";
-        window.open(`mailto:?subject=${title}&body=${window.location.href}`);
+        window.open(
+            `mailto:?subject=${title}&body=U.S. Department of Labor’s International Labor Affairs Bureau’s Comply Chain Website: ${
+                window.location.href
+            }`
+        );
     };
 
     handleCopy = () => {

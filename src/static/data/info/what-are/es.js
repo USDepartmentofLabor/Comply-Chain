@@ -4,7 +4,7 @@ import StaticData from "../../../../components/StaticData";
 import childBrick from "../../../images/child_brick.jpg";
 import unoDc from "../../../images/UNO_DC_es.png";
 
-const es = ({ pdf }) => {
+const es = () => {
     return (
         <StaticData>
             <div>
@@ -41,7 +41,7 @@ const es = ({ pdf }) => {
                     pol&iacute;ticas e idear programas para promover los
                     derechos en el trabajo y el empleo digno para todos.
                 </p>
-                <Accordion pdf={pdf} id="what-are-acc">
+                <Accordion  id="what-are-acc">
                     <Accordion.Section id="child-labor">
                         <Accordion.Title>Trabajo infantil</Accordion.Title>
                         <Accordion.Panel>
@@ -273,7 +273,7 @@ const es = ({ pdf }) => {
                                 adelante.
                             </p>
                             <p />
-                            <Accordion pdf={pdf}>
+                            <Accordion >
                                 <Accordion.Section id="child-resources">
                                     <Accordion.Title>
                                         Recursos adicionales
@@ -786,7 +786,7 @@ const es = ({ pdf }) => {
                                 .
                             </p>
                             <p />
-                            <Accordion pdf={pdf}>
+                            <Accordion >
                                 <Accordion.Section id="forced-resources">
                                     <Accordion.Title>
                                         Recursos adicionales

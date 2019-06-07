@@ -3,7 +3,7 @@ import Accordion from "../../../../components/Accordion";
 import BorderSeparator from "../../../../components/BorderSeparator";
 import StaticData from "../../../../components/StaticData";
 
-const es = ({ pdf }) => {
+const es = () => {
     return (
         <StaticData>
             <div>
@@ -80,7 +80,7 @@ const es = ({ pdf }) => {
                         aplicaci&oacute;n
                     </li>
                     <br />
-                    <Accordion pdf={pdf} id="why-develop-acc">
+                    <Accordion  id="why-develop-acc">
                         <Accordion.Section id="exec-order">
                             <Accordion.Title>
                                 <strong>
@@ -858,7 +858,7 @@ const es = ({ pdf }) => {
                     brinden apoyo y recursos considerables a sus sistemas de
                     cumplimiento social.
                 </p>
-                <Accordion pdf={pdf}>
+                <Accordion >
                     <Accordion.Section id="resources">
                         <Accordion.Title>Recursos adicionales</Accordion.Title>
                         <Accordion.Panel>

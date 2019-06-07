@@ -38,7 +38,7 @@ const fr = () => {
                     unit&eacute;s pertinentes au sein de l&apos;entreprise. Le
                     risque de cette approche: produira-t-elle la m&ecirc;me
                     qualit&eacute; et profondeur de collaboration pendant la
-                    r&eacute;daction du rapport ?
+                    r&eacute;daction du rapport?
                 </p>
                 <p>
                     Certaines entreprises ont des parties prenantes
@@ -63,8 +63,8 @@ const fr = () => {
                 </p>
                 <p>
                     <em>
-                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
-                        des entreprises et entit&eacute;s non gouvernementales
+                        *Remarque: Les r&eacute;f&eacute;rences &agrave; des
+                        entreprises et entit&eacute;s non gouvernementales
                         sp&eacute;cifiques dans ce guide sont &agrave; des fins
                         d&rsquo;information uniquement afin de d&eacute;montrer
                         les bonnes pratiques reconnues &agrave;

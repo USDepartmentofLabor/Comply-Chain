@@ -56,7 +56,7 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Pourquoi produire des rapports publics ?",
+            title: "Pourquoi produire des rapports publics?",
             content: Topic2.fr
         },
         {

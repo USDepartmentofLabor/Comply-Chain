@@ -35,6 +35,17 @@ const NavButton = styled(Button)`
     }
     margin-left: ${props => (props.right ? "auto" : undefined)};
     margin-right: ${props => (props.left ? "auto" : undefined)};
+
+    @media print {
+        display: none;
+    }
+`;
+
+const PrintHeader = styled.h1`
+    display: none;
+    @media print {
+        display: block;
+    }
 `;
 
 class TopicView extends Component {
@@ -112,7 +123,7 @@ class TopicView extends Component {
             stepTitle,
             stepTitleString
         } = this.state;
-        const { step, localizor, pdf, location } = this.props;
+        const { step, localizor, location } = this.props;
         if (topicData) {
             const TopicData = topicData;
             return (
@@ -121,67 +132,62 @@ class TopicView extends Component {
                     titlePrefix={"general.topic"}
                     titleString={titleString}
                     url={location.pathname}
-                    pdf={pdf}
                 >
-                    {pdf && (
-                        <h1>
-                            <HeaderIcon>
-                                <Icons.StepIcon step={step} />
-                            </HeaderIcon>
-                            {stepTitle}
-                        </h1>
-                    )}
-                    <TopicData pdf={pdf} />
-                    {!pdf && (
-                        <TopicNavButtonGroup>
-                            {prevStep && (
-                                <NavButton
-                                    id="prev-step"
-                                    variant="primaryDarkest"
-                                    onClick={() => this.navigate(prevStep)}
-                                    left
-                                >
-                                    <Icons.ArrowDropLeft />
-                                    {localizor.strings.general.prevStep}
-                                </NavButton>
-                            )}
-                            {prevTopic && (
-                                <NavButton
-                                    id="prev-topic"
-                                    variant="primaryDarkest"
-                                    onClick={() => this.navigate(prevTopic)}
-                                    left
-                                >
-                                    <Icons.ArrowDropLeft />
-                                    {localizor.strings.general.prevTopic}
-                                </NavButton>
-                            )}
-                            {/** Used to keep a space between the buttons */}
-                            <div />
-                            {nextTopic && (
-                                <NavButton
-                                    id="next-topic"
-                                    variant="primary"
-                                    onClick={() => this.navigate(nextTopic)}
-                                    right
-                                >
-                                    {localizor.strings.general.nextTopic}
-                                    <Icons.ArrowDropRight />
-                                </NavButton>
-                            )}
-                            {nextStep && (
-                                <NavButton
-                                    id="next-step"
-                                    variant="primary"
-                                    onClick={() => this.navigate(nextStep)}
-                                    right
-                                >
-                                    {localizor.strings.general.nextStep}
-                                    <Icons.ArrowDropRight />
-                                </NavButton>
-                            )}
-                        </TopicNavButtonGroup>
-                    )}
+                    <PrintHeader>
+                        <HeaderIcon>
+                            <Icons.StepIcon step={step} />
+                        </HeaderIcon>
+                        {stepTitle}
+                    </PrintHeader>
+                    <TopicData />
+                    <TopicNavButtonGroup>
+                        {prevStep && (
+                            <NavButton
+                                id="prev-step"
+                                variant="primaryDarkest"
+                                onClick={() => this.navigate(prevStep)}
+                                left
+                            >
+                                <Icons.ArrowDropLeft />
+                                {localizor.strings.general.prevStep}
+                            </NavButton>
+                        )}
+                        {prevTopic && (
+                            <NavButton
+                                id="prev-topic"
+                                variant="primaryDarkest"
+                                onClick={() => this.navigate(prevTopic)}
+                                left
+                            >
+                                <Icons.ArrowDropLeft />
+                                {localizor.strings.general.prevTopic}
+                            </NavButton>
+                        )}
+                        {/** Used to keep a space between the buttons */}
+                        <div />
+                        {nextTopic && (
+                            <NavButton
+                                id="next-topic"
+                                variant="primary"
+                                onClick={() => this.navigate(nextTopic)}
+                                right
+                            >
+                                {localizor.strings.general.nextTopic}
+                                <Icons.ArrowDropRight />
+                            </NavButton>
+                        )}
+                        {nextStep && (
+                            <NavButton
+                                id="next-step"
+                                variant="primary"
+                                onClick={() => this.navigate(nextStep)}
+                                right
+                            >
+                                {localizor.strings.general.nextStep}
+                                <Icons.ArrowDropRight />
+                            </NavButton>
+                        )}
+                    </TopicNavButtonGroup>
                 </Bookmarkable>
             );
         }
@@ -194,7 +200,6 @@ TopicView.propTypes = {
     step: PropTypes.number.isRequired,
     topic: PropTypes.number.isRequired,
     localizor: PropTypes.object.isRequired,
-    pdf: PropTypes.bool,
     history: PropTypes.object.isRequired,
     location: PropTypes.object.isRequired
 };

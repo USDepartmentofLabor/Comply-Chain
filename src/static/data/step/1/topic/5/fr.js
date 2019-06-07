@@ -237,7 +237,7 @@ const fr = () => {
                         l&rsquo;OIT sur le travail forc&eacute;, soutenu par un
                         financement initial du d&eacute;partement du Travail et
                         Mars, Inc.*, devrait &ecirc;tre lanc&eacute;
-                        en&nbsp;2018&nbsp;; il rassemblera des organisations
+                        en&nbsp;2018; il rassemblera des organisations
                         d&rsquo;employeurs, des entreprises et d&rsquo;autres
                         parties prenantes pour donner des occasions de partager
                         des informations sur la mani&egrave;re dont les

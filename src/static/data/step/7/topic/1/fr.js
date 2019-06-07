@@ -181,11 +181,11 @@ const fr = () => {
                             Lignes directrices ISO 19011:2011 d&rsquo;audit des
                             syst&egrave;mes de management
                         </em>
-                        &nbsp;; 2) une OC doit op&eacute;rer au moins un
+                        ; 2) une OC doit op&eacute;rer au moins un
                         programme accr&eacute;dit&eacute; satisfaisant aux
                         crit&egrave;res de durabilit&eacute; de la norme de
                         production et de la norme de cha&icirc;ne de
-                        contr&ocirc;le de Bonsucro&nbsp;; et 3) une OC est
+                        contr&ocirc;le de Bonsucro; et 3) une OC est
                         responsable de rester &agrave; jour sur les exigences de
                         Bonsucro, et, le cas &eacute;ch&eacute;ant, sur la
                         l&eacute;gislation europ&eacute;enne applicable.

@@ -2,7 +2,7 @@ import React from "react";
 import Accordion from "../../../../components/Accordion";
 import StaticData from "../../../../components/StaticData";
 
-const en = ({ pdf }) => {
+const en = () => {
     return (
         <StaticData>
             <div>
@@ -67,7 +67,7 @@ const en = ({ pdf }) => {
                         , and its implementing regulations
                     </li>
                     <br />
-                    <Accordion pdf={pdf} id="why-develop-acc">
+                    <Accordion  id="why-develop-acc">
                         <Accordion.Section id="exec-order">
                             <Accordion.Title>
                                 <strong>
@@ -743,7 +743,7 @@ const en = ({ pdf }) => {
                     resources to their social compliance systems.
                 </p>
 
-                <Accordion pdf={pdf}>
+                <Accordion >
                     <Accordion.Section id="resources">
                         <Accordion.Title>Further Resources</Accordion.Title>
                         <Accordion.Panel>

@@ -4,7 +4,7 @@ import { Topics } from "./topic";
 
 export const StepData = {
     en: {
-        title: "Step 5:  Monitor Compliance",
+        title: "Step 5: Monitor Compliance",
         topics: Topics.en,
         keywords: ["Social Audit", "Auditing", "Monitoring"],
         learningObjectives: [
@@ -30,7 +30,7 @@ export const StepData = {
         extraInfo: ExtraInfo.en
     },
     es: {
-        title: "Quinto paso:  Vigilancia y seguimiento del cumplimiento",
+        title: "Quinto paso: Vigilancia y seguimiento del cumplimiento",
         topics: Topics.es,
         keywords: [
             "Auditoría social",
@@ -59,7 +59,7 @@ export const StepData = {
         extraInfo: ExtraInfo.es
     },
     fr: {
-        title: "Cinquième étape:  Surveiller la conformité",
+        title: "Cinquième étape: Surveiller la conformité",
         topics: Topics.fr,
         keywords: ["Audit social", "Audit", "Contrôle"],
         learningObjectives: [
