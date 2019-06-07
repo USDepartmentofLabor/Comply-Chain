@@ -726,7 +726,7 @@ const en = () => {
                         research has made the case for company investment in
                         education, health and livelihoods programs for the
                         poorest segment of these societies, the so-called
-                        &ldquo;bottom of the pyramid,&rdquo; in order to
+                        &ldquo;bottom of the pyramid&rdquo;, in order to
                         encourage the growth of a sustainable consumer base.
                     </li>
                 </ul>

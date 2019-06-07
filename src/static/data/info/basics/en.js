@@ -58,10 +58,10 @@ const en = () => {
                                 interactions with stakeholders aside from legal
                                 requirements. Many other terms are also used to
                                 address such actions, including the
-                                &ldquo;triple bottom line,&rdquo;
-                                &ldquo;sustainability,&rdquo; &ldquo;corporate
-                                citizenship,&rdquo; &ldquo;environmental, social
-                                and governance (ESG),&rdquo; and many others.
+                                &ldquo;triple bottom line&rdquo;,
+                                &ldquo;sustainability&rdquo;, &ldquo;corporate
+                                citizenship&rdquo;, &ldquo;environmental, social
+                                and governance (ESG)&rdquo;, and many others.
                                 &ldquo;Corporate accountability&rdquo; is a term
                                 often used to reference companies&rsquo; actions
                                 that are more closely linked to legal
@@ -1064,7 +1064,7 @@ const en = () => {
                                 >
                                     sustainable innovation team
                                 </a>
-                                ,&rdquo; which is responsible for not only
+                                &rdquo;, which is responsible for not only
                                 environmental and social compliance but also
                                 product development.
                             </p>
@@ -1196,14 +1196,14 @@ const en = () => {
                                     Romis, and Fei Qin. &ldquo;Beyond corporate
                                     codes of conduct: Work organization and
                                     labour standards at Nike&rsquo;s
-                                    suppliers,&rdquo;{" "}
+                                    suppliers&rdquo;,{" "}
                                     <em>International Labour Review</em> 146,
                                     no. 1/2 (2007): 21-37.
                                 </li>
                                 <li>
                                     Mamic, Ivanka, &ldquo;Managing Global Supply
                                     Chain: The Sports Footwear, Apparel and
-                                    Retail Sectors,&rdquo;{" "}
+                                    Retail Sectors&rdquo;,{" "}
                                     <em>Journal of Business Ethics,</em> (2005)
                                     59: 81&ndash;100.
                                 </li>
@@ -1228,7 +1228,7 @@ const en = () => {
                                     program focused on management systems
                                     development. By participating in the
                                     &ldquo;Social Fingerprint Supply Chain
-                                    Management Program,&rdquo; companies can
+                                    Management Program&rdquo;, companies can
                                     assess their progress in key social
                                     compliance performance areas and access
                                     online training to boost competencies;

@@ -26,7 +26,7 @@ const en = () => {
                         Du, Shuili, C. B. Bhattacharya, and Sankar Sen,
                         &ldquo;Maximizing Business Returns to Corporate Social
                         Responsibility (CSR): The Role of CSR
-                        Communication,&rdquo;{" "}
+                        Communication&rdquo;,{" "}
                         <em>International Journal of Management Reviews</em>{" "}
                         (2010): 8-19.
                     </li>
@@ -104,7 +104,7 @@ const en = () => {
                         Locke, Richard, Matthew Amengual, and Akshay Mangla.
                         &ldquo;Virtue out of Necessity? Compliance, Commitment,
                         and the Improvement of Labor Conditions in Global Supply
-                        Chains,&rdquo; <em>Politics &amp; Society</em> 37, no. 3
+                        Chains&rdquo;, <em>Politics &amp; Society</em> 37, no. 3
                         (September 2009): 319-351
                     </li>
                     <li>

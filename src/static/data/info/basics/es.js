@@ -1429,7 +1429,7 @@ const es = () => {
                                     Romis y Fei Qin. &ldquo;Beyond corporate
                                     codes of conduct: Work organization and
                                     labour standards at Nike&rsquo;s
-                                    suppliers,&rdquo;{" "}
+                                    suppliers&rdquo;,{" "}
                                     <em>International Labour Review</em> 146, N.
                                     <sup>o</sup> 1/2 (2007): 21-37.
                                 </li>
@@ -1468,7 +1468,7 @@ const es = () => {
                                     gesti&oacute;n. Al participar del
                                     &ldquo;Programa huella social para la
                                     gesti&oacute;n de la cadena de
-                                    suministro,&rdquo; las empresas pueden
+                                    suministro&rdquo;, las empresas pueden
                                     evaluar sus avances en &aacute;mbitos de
                                     desempe&ntilde;o clave para el cumplimiento
                                     social y tener acceso a capacitaci&oacute;n

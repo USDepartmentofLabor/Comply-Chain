@@ -270,14 +270,14 @@ const en = () => {
                                             <li>
                                                 International Labor
                                                 Organization, &ldquo;What is
-                                                child labour,&rdquo; accessed
+                                                child labour&rdquo;, accessed
                                                 November 25, 2011; available
                                                 from{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     href="http://www.ilo.org/ipec/facts/lang--en/index.htm"
-                                                    title="&ldquo;What is child labour,&rdquo;"
+                                                    title="&ldquo;What is child labour&rdquo;,"
                                                 >
                                                     http://www.ilo.org/ipec/facts/lang--en/index.htm
                                                 </a>
