@@ -97,7 +97,7 @@ export const Topics = {
         {
             keywords: [],
             title:
-                "Pourquoi réaliser des évaluations de risques et d'incidences ?",
+                "Pourquoi réaliser des évaluations de risques et d'incidences?",
             content: Topic1.fr
         },
         {

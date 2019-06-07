@@ -6,8 +6,7 @@ const fr = () => {
         <StaticData>
             <div>
                 <h1>
-                    Pourquoi rechercher la participation des parties
-                    prenantes?
+                    Pourquoi rechercher la participation des parties prenantes?
                 </h1>
                 <p>
                     &Agrave; ce stade, vous n&apos;avez sans doute pas toutes
@@ -15,12 +14,12 @@ const fr = () => {
                     syst&egrave;me de conformit&eacute; sociale fructueux. Par
                     exemple: quelle est l&apos;ampleur du probl&egrave;me du
                     travail des enfants dans l&apos;un des pays ou l&apos;une
-                    des villes o&ugrave; vous vous approvisionnez ? Quels sont
+                    des villes o&ugrave; vous vous approvisionnez? Quels sont
                     les services que vous devriez offrir &agrave; une victime du
                     trafic de main-d&apos;&oelig;uvre, si l&apos;on en identifie
-                    une dans votre cha&icirc;ne d&apos;approvisionnement ? Qui
+                    une dans votre cha&icirc;ne d&apos;approvisionnement? Qui
                     devriez-vous engager pour assurer la formation en
-                    conformit&eacute; sociale de vos principaux fournisseurs ?
+                    conformit&eacute; sociale de vos principaux fournisseurs?
                 </p>
                 <p>
                     Ne tentez pas de r&eacute;pondre &agrave; ces questions par

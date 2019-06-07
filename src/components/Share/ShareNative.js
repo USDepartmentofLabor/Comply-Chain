@@ -51,7 +51,7 @@ class ShareNative extends Component {
         let title = getPageTitle(location, localizor) || "Comply Chain";
 
         const options = {
-            message: title,
+            message: `U.S. Department of Labor’s International Labor Affairs Bureau’s Comply Chain Website:`,
             subject: title,
             url: `${webUrl}${location.pathname}`,
             chooserTitle: "Share via"

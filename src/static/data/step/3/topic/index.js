@@ -92,7 +92,7 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Qu'est-ce qui fait la qualité d'un code de conduite ?",
+            title: "Qu'est-ce qui fait la qualité d'un code de conduite?",
             content: Topic2.fr
         },
         {

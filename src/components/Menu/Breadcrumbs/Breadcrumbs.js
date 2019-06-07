@@ -45,17 +45,9 @@ const Icon = styled.span`
 `;
 
 class Breadcrumbs extends Component {
-    state = { prevPath: null };
-
-    componentDidUpdate(prevProps) {
-        if (prevProps.location.pathname !== this.props.location.pathname) {
-            this.setState({ prevPath: prevProps.location.pathname });
-        }
-    }
-
     displayBreadcrumb = breadcrumbs => {
-        const { location } = this.props;
-        const { prevPath } = this.state;
+        const { location, backUrl } = this.props;
+
         for (let i = 0; i < breadcrumbs.length; i++) {
             const breadcrumb = breadcrumbs[i];
             if (
@@ -92,15 +84,15 @@ class Breadcrumbs extends Component {
                 );
             } else if (
                 isIOS() &&
-                location.pathname === Routes.Bookmarks.path &&
-                prevPath &&
-                prevPath !== Routes.Home.path
+                (location.pathname === Routes.Bookmarks.path ||
+                    location.pathname === Routes.Search.path) &&
+                backUrl
             ) {
                 return (
                     <Breadcrumb.Section
                         key="back_to_prev"
                         as={StyledLink}
-                        to={prevPath}
+                        to={backUrl}
                     >
                         <Icon>
                             <Icons.ArrowDropLeft />
@@ -140,7 +132,8 @@ Breadcrumbs.propTypes = {
     id: PropTypes.string,
     breadcrumbs: PropTypes.array.isRequired,
     className: PropTypes.string,
-    location: PropTypes.object.isRequired
+    location: PropTypes.object.isRequired,
+    backUrl: PropTypes.string
 };
 
 export default withRouter(

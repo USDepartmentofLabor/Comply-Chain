@@ -4,7 +4,7 @@ import StaticData from "../../../../components/StaticData";
 import childBrick from "../../../images/child_brick.jpg";
 import unoDc from "../../../images/UNO_DC.png";
 
-const en = ({ pdf }) => {
+const en = () => {
     return (
         <StaticData>
             <div>
@@ -38,7 +38,7 @@ const en = ({ pdf }) => {
                     devise programs to promote rights at work and decent work
                     for all persons.
                 </p>
-                <Accordion pdf={pdf} id="what-are-acc">
+                <Accordion  id="what-are-acc">
                     <Accordion.Section id="child-labor">
                         <Accordion.Title>Child Labor</Accordion.Title>
                         <Accordion.Panel>
@@ -235,7 +235,7 @@ const en = ({ pdf }) => {
                             </p>
                             <p />
 
-                            <Accordion pdf={pdf}>
+                            <Accordion >
                                 <Accordion.Section id="child-resources">
                                     <Accordion.Title>
                                         Further Resources
@@ -270,14 +270,14 @@ const en = ({ pdf }) => {
                                             <li>
                                                 International Labor
                                                 Organization, &ldquo;What is
-                                                child labour,&rdquo; accessed
+                                                child labour&rdquo;, accessed
                                                 November 25, 2011; available
                                                 from{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                     href="http://www.ilo.org/ipec/facts/lang--en/index.htm"
-                                                    title="&ldquo;What is child labour,&rdquo;"
+                                                    title="&ldquo;What is child labour&rdquo;,"
                                                 >
                                                     http://www.ilo.org/ipec/facts/lang--en/index.htm
                                                 </a>
@@ -665,7 +665,7 @@ const en = ({ pdf }) => {
                                 .
                             </p>
                             <p />
-                            <Accordion pdf={pdf}>
+                            <Accordion >
                                 <Accordion.Section id="forced-resources">
                                     <Accordion.Title>
                                         Further Resources

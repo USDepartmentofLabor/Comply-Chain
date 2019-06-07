@@ -75,12 +75,12 @@ export const Topics = {
         {
             keywords: [],
             title:
-                "Pourquoi rechercher la participation des parties prenantes ?",
+                "Pourquoi rechercher la participation des parties prenantes?",
             content: Topic1.fr
         },
         {
             keywords: [],
-            title: "Que peuvent faire les parties prenantes ?",
+            title: "Que peuvent faire les parties prenantes?",
             content: Topic2.fr
         },
         {

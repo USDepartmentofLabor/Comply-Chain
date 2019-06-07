@@ -94,7 +94,7 @@ const RootSideNav = styled.div`
     position: fixed;
     z-index: 500;
     top: auto;
-    left: 0;
+    right: 0;
     background-color: ${theme.colors.primary};
     overflow-x: hidden;
     transition: all 0.3s ease;

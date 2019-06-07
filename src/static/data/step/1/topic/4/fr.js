@@ -200,7 +200,7 @@ const fr = () => {
                             sucri&egrave;re ont mis en place des programmes de
                             r&eacute;duction du travail des enfants dans les
                             cha&icirc;nes d&apos;approvisionnement en
-                            sucre&nbsp;;
+                            sucre;
                         </li>
                         <li>
                             La Sugarcane Industry Foundation, Inc. (SIFI), qui

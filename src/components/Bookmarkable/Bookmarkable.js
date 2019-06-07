@@ -22,6 +22,10 @@ const BookmarkButton = styled.button`
         border: none;
         background: transparent;
     }
+
+    @media print {
+        display: none;
+    }
 `;
 
 const BookmarkIcon = styled(Icons.BookmarkCheck)`
@@ -66,7 +70,7 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
     return (
         <Content>
             <UndoText>
-                You have bookmarked{" "}
+                {localizor.strings.general.bookmarked}{" "}
                 <ToastStrong>
                     {getPropByString(localizor.strings, name)}
                 </ToastStrong>
@@ -78,7 +82,7 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
                 }}
                 onClick={handleClick}
             >
-                Undo
+                {localizor.strings.general.undo}
             </UndoButton>
         </Content>
     );
@@ -116,17 +120,30 @@ class Bookmarkable extends Component {
     displayToast = () => {
         const { titleString, localizor } = this.props;
         clearTimeout(this.toastTimer);
-        toast(
-            <ToastUndo
-                undo={this.handleBookmark}
-                localizor={localizor}
-                name={titleString}
-            />,
-            {
-                toastId: this.toastId,
-                transition: Slide
-            }
-        );
+
+        if (toast.isActive(this.toastId)) {
+            toast.update(this.toastId, {
+                render: (
+                    <ToastUndo
+                        undo={this.handleBookmark}
+                        localizor={localizor}
+                        name={titleString}
+                    />
+                )
+            });
+        } else {
+            toast(
+                <ToastUndo
+                    undo={this.handleBookmark}
+                    localizor={localizor}
+                    name={titleString}
+                />,
+                {
+                    toastId: this.toastId,
+                    transition: Slide
+                }
+            );
+        }
         this.toastTimer = setTimeout(() => {
             toast.dismiss(this.toastId);
         }, 5000);
@@ -145,11 +162,8 @@ class Bookmarkable extends Component {
     };
 
     render() {
-        const { children, pdf } = this.props;
+        const { children } = this.props;
         const { bookmarked } = this.state;
-        if (pdf) {
-            return children;
-        }
         return (
             <Wrapper>
                 <BookmarkButton
@@ -181,7 +195,6 @@ Bookmarkable.propTypes = {
     titleString: PropTypes.string.isRequired,
     titlePrefix: PropTypes.string,
     url: PropTypes.string.isRequired,
-    pdf: PropTypes.bool,
     localizor: PropTypes.object.isRequired
 };
 

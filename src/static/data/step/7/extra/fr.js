@@ -31,7 +31,7 @@ const fr = () => {
                         opt&eacute; pour un contr&ocirc;le
                         ind&eacute;pendant/audit, il n&rsquo;est pas
                         n&eacute;cessaire de r&eacute;p&eacute;ter cette
-                        &eacute;tape&nbsp;; cependant, il est tout de m&ecirc;me
+                        &eacute;tape; cependant, il est tout de m&ecirc;me
                         recommand&eacute; de proc&eacute;der &agrave; une
                         v&eacute;rification ind&eacute;pendante.{" "}
                     </em>

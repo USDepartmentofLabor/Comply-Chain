@@ -87,13 +87,13 @@ const en = () => {
                         &ldquo;An Integrated Approach to Implementing
                         &lsquo;Community Participation&rsquo; in Corporate
                         Community Involvement: Lessons from Magadi Soda in
-                        Kenya,&rdquo; <em>Journal of Business Ethics</em> 85,
+                        Kenya&rdquo;, <em>Journal of Business Ethics</em> 85,
                         Supplement 2 (2009): 431-444.
                     </li>
                     <li>
                         Perrez-Aleman, Paola, and Marion Sandilands.
                         &ldquo;Building Value at the Top and the Bottom of the
-                        Global Supply Chain: MNC-NGO Partnerships,&rdquo;{" "}
+                        Global Supply Chain: MNC-NGO Partnerships&rdquo;,{" "}
                         <em>California Management Review</em> 51, no. 1 (Fall
                         2008): 24-49.
                     </li>
@@ -101,7 +101,7 @@ const en = () => {
                         Van Tulder, Rob, Jeroen van Wijk, and Ans Kolk,
                         &ldquo;From Chain Liability to Chain Responsibility: MNE
                         Approaches to Implement Safety and Health Codes in
-                        International Supply Chains,&rdquo;
+                        International Supply Chains&rdquo;,
                         <em> Journal of Business Ethics</em> 85, Supplement 2
                         (2009): 399-412.
                     </li>

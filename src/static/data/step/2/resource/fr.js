@@ -30,7 +30,7 @@ const fr = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.bsr.org/reports/BSR_Human_Rights_Impact_Assessments.pdf"
-                            title="Conducting an Effective Human Rights Impact Assessment: Guidelines, Steps, and Example, 2013&nbsp;;"
+                            title="Conducting an Effective Human Rights Impact Assessment: Guidelines, Steps, and Example, 2013;"
                         >
                             https://www.bsr.org/reports/BSR_Human_Rights_Impact_Assessments.pdf
                         </a>
@@ -38,7 +38,7 @@ const fr = () => {
                     </li>
                     <li>
                         Good Jobs First. <em>Violation Tracker, </em>[en ligne,
-                        consult&eacute; le 16&nbsp;mai&nbsp;2017]&nbsp;;
+                        consult&eacute; le 16&nbsp;mai&nbsp;2017];
                         disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
@@ -84,7 +84,7 @@ const fr = () => {
                             Forum, Guide to Human Rights Impact Assessment and
                             Management (HRIAM)
                         </em>
-                        . 2010&nbsp;; disponible [en anglais] sur{" "}
+                        . 2010; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -100,7 +100,7 @@ const fr = () => {
                             Measure and Improve Your Labor Standards Performance
                             - Performance Standard 2 Handbook,{" "}
                         </em>
-                        2010&nbsp;; disponible [en anglais] sur{" "}
+                        2010; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -116,7 +116,7 @@ const fr = () => {
                             Best Practice Guidance on Ethical Recruitment of
                             Migrant Workers.{" "}
                         </em>
-                        New York, avril 2017&nbsp;; disponible [en anglais] sur{" "}
+                        New York, avril 2017; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -131,14 +131,14 @@ const fr = () => {
                         <em>
                             Principes g&eacute;n&eacute;raux et directives
                             op&eacute;rationnelles concernant le recrutement
-                            &eacute;quitable, 2016&nbsp;;
+                            &eacute;quitable, 2016;
                         </em>{" "}
                         disponible sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.ilo.org/global/topics/fair-recruitment/WCMS_568730/lang--fr/index.htm"
-                            title="Principes g&eacute;n&eacute;raux et directives op&eacute;rationnelles concernant le recrutement &eacute;quitable, 2016&nbsp;;"
+                            title="Principes g&eacute;n&eacute;raux et directives op&eacute;rationnelles concernant le recrutement &eacute;quitable, 2016;"
                         >
                             http://www.ilo.org/global/topics/fair-recruitment/WCMS_568730/lang--fr/index.htm
                         </a>
@@ -168,7 +168,7 @@ const fr = () => {
                     <li>
                         OIT-IPEC.{" "}
                         <em>Statistiques sur le travail des enfants</em>, [en
-                        ligne, consult&eacute; le 7&nbsp;juin&nbsp;2017]&nbsp;;
+                        ligne, consult&eacute; le 7&nbsp;juin&nbsp;2017];
                         disponible sur{" "}
                         <a
                             target="_blank"
@@ -193,7 +193,7 @@ const fr = () => {
                         <em>
                             L&rsquo;indice CSI des droits dans le monde:
                             les pires endroits au monde pour les travailleurs et
-                            les travailleuses&nbsp;; 2014 &nbsp;;{" "}
+                            les travailleuses; 2014 ;{" "}
                         </em>
                         disponible [en anglais] sur{" "}
                         <a
@@ -208,12 +208,12 @@ const fr = () => {
                     <li>
                         Overseas Private Investment Corporation.{" "}
                         <em>Environmental and Social Policy Statement</em>,
-                        janvier&nbsp;2017&nbsp;; disponible [en anglais] sur{" "}
+                        janvier&nbsp;2017; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
-                            title="L&rsquo;indice CSI des droits dans le monde: les pires endroits au monde pour les travailleurs et les travailleuses&nbsp;; 2014"
+                            title="L&rsquo;indice CSI des droits dans le monde: les pires endroits au monde pour les travailleurs et les travailleuses; 2014"
                         >
                             https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf
                         </a>
@@ -256,7 +256,7 @@ const fr = () => {
                         D&eacute;partement du Travail des &Eacute;tats-Unis,
                         Bureau des affaires internationales du travail (ILAB).{" "}
                         <em>Executive Order 13126 List,</em> Washington,
-                        DC&nbsp;; disponible [en anglais] sur{" "}
+                        DC; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -274,7 +274,7 @@ const fr = () => {
                             Conclusions sur les pires formes de travail des
                             enfants
                         </em>
-                        , Washington, DC&nbsp;; disponible sur{" "}
+                        , Washington, DC; disponible sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -309,7 +309,7 @@ const fr = () => {
                             Rapports sur les pratiques des pays en
                             mati&egrave;re des droits de l&apos;homme
                         </em>
-                        . Washington, DC&nbsp;; disponible sur{" "}
+                        . Washington, DC; disponible sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -333,7 +333,7 @@ const fr = () => {
                             lutte contre la traite des personnes
                         </a>
                         . <em>Rapports sur la traite des personnes. </em>
-                        Washington, DC&nbsp;; disponible sur{" "}
+                        Washington, DC; disponible sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

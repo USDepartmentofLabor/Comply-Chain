@@ -4,7 +4,7 @@ import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import Accordion from "../../../../../../components/Accordion";
 
-const en = ({ pdf }) => {
+const en = () => {
     return (
         <StaticData>
             <div>
@@ -726,12 +726,12 @@ const en = ({ pdf }) => {
                         research has made the case for company investment in
                         education, health and livelihoods programs for the
                         poorest segment of these societies, the so-called
-                        &ldquo;bottom of the pyramid,&rdquo; in order to
+                        &ldquo;bottom of the pyramid&rdquo;, in order to
                         encourage the growth of a sustainable consumer base.
                     </li>
                 </ul>
 
-                <Accordion id="resources" pdf={pdf}>
+                <Accordion id="resources" >
                     <Accordion.Section>
                         <Accordion.Title>Further Resources</Accordion.Title>
                         <Accordion.Panel>

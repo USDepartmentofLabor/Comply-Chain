@@ -10,7 +10,7 @@ const fr = () => {
                             Assessing the Impacts of Social and Environmental
                             Standards Systems: ISEAL Code of Good Practice
                         </em>
-                        , d&eacute;cembre&nbsp;2014&nbsp;; disponible [en
+                        , d&eacute;cembre&nbsp;2014; disponible [en
                         anglais] sur{" "}
                         <a
                             target="_blank"

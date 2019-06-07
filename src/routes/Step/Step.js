@@ -7,16 +7,14 @@ class Step extends Component {
         const {
             match: {
                 params: { step }
-            },
-            pdf
+            }
         } = this.props;
-        return <StepView step={Number(step)} pdf={pdf} />;
+        return <StepView step={Number(step)} />;
     }
 }
 
 Step.propTypes = {
-    match: PropTypes.object.isRequired,
-    pdf: PropTypes.bool
+    match: PropTypes.object.isRequired
 };
 
 export default Step;

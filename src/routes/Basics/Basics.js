@@ -5,15 +5,14 @@ import Bookmarkable from "../../components/Bookmarkable";
 import { withRouter } from "react-router-dom";
 class Basics extends Component {
     render() {
-        const { localizor, pdf, location } = this.props;
+        const { localizor, location } = this.props;
         const BasicsInfo = localizor.strings.info.basics.content;
         return (
             <Bookmarkable
                 titleString="info.basics.title"
                 url={location.pathname}
-                pdf={pdf}
             >
-                <BasicsInfo pdf={pdf} />
+                <BasicsInfo />
             </Bookmarkable>
         );
     }
@@ -21,8 +20,7 @@ class Basics extends Component {
 
 Basics.propTypes = {
     localizor: PropTypes.object.isRequired,
-    location: PropTypes.object.isRequired,
-    pdf: PropTypes.bool
+    location: PropTypes.object.isRequired
 };
 
 export default withRouter(withLanguageContext(Basics));

@@ -87,12 +87,12 @@ const fr = () => {
                 <div className="indent-margin">
                     <p>
                         Calcul inexact des salaires et des retenues, et/ou
-                        paiement retard&eacute; des salaires&nbsp;;
+                        paiement retard&eacute; des salaires;
                     </p>
                     <p>
                         Absence de politiques et proc&eacute;dures claires
                         concernant le recrutement et l&apos;embauche des
-                        travailleurs&nbsp;;
+                        travailleurs;
                     </p>
                     <p>
                         Absence de proc&eacute;dures claires pour s&apos;assurer
@@ -102,14 +102,14 @@ const fr = () => {
                         toute modification apport&eacute;e au contrat sera
                         r&eacute;alis&eacute;e avec le consentement
                         &eacute;clair&eacute; et &eacute;crit des
-                        travailleurs&nbsp;;
+                        travailleurs;
                     </p>
                     <p>
                         Absence de m&eacute;canismes par lesquels les
                         travailleurs peuvent pr&eacute;senter des
-                        r&eacute;clamations&nbsp;;
+                        r&eacute;clamations;
                     </p>
-                    <p>Mauvaise tenue de registres&nbsp;;</p>
+                    <p>Mauvaise tenue de registres;</p>
                     <p>
                         Absence de politiques et proc&eacute;dures
                         sp&eacute;cifiques aux travailleurs migrants, y compris
@@ -118,7 +118,7 @@ const fr = () => {
                         redevances, qu&apos;ils ne sont pas contraints de
                         d&eacute;poser des arrhes, qu&apos;ils re&ccedil;oivent
                         des modalit&eacute;s et des conditions d&apos;emploi
-                        &eacute;gales &agrave; celles des non-migrants&nbsp;; et
+                        &eacute;gales &agrave; celles des non-migrants; et
                     </p>
                     <p>
                         Politiques qui permettent aux employeurs de

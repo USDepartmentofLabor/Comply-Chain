@@ -75,17 +75,17 @@ const fr = () => {
                         Donnant une allocation &agrave; la famille de
                         l&apos;enfant pour compenser les revenus perdus,
                         &agrave; condition de pouvoir contacter la famille de
-                        l&apos;enfant&nbsp;;
+                        l&apos;enfant;
                     </li>
                     <li>
                         Offrant l&apos;emploi de l&apos;enfant &agrave; un autre
                         membre de sa famille qui est en &acirc;ge l&eacute;gal
-                        de travailler&nbsp;;
+                        de travailler;
                     </li>
                     <li>
                         Donnant aux parents ou aux adultes de la famille de
                         l&apos;enfant d&apos;autres possibilit&eacute;s de
-                        revenus&nbsp;;
+                        revenus;
                     </li>
                     <li>
                         S&apos;assurant que l&apos;enfant fr&eacute;quente
@@ -93,7 +93,7 @@ const fr = () => {
                         &eacute;ducatif similaire, en r&eacute;glant les frais
                         connexes le cas &eacute;ch&eacute;ant et en suivant
                         l&apos;enfant jusqu&apos;&agrave; ce qu&apos;il soit en
-                        &acirc;ge de travailler&nbsp;;
+                        &acirc;ge de travailler;
                     </li>
                     <li>
                         Donnant &agrave; l&apos;enfant une opportunit&eacute; de
@@ -101,13 +101,13 @@ const fr = () => {
                         l&apos;&acirc;ge pour suivre ces programmes, et en
                         s&apos;engageant a lui redonner cet emploi
                         lorsqu&apos;il aura l&apos;&acirc;ge l&eacute;gal de
-                        travailler&nbsp;;
+                        travailler;
                     </li>
                     <li>
                         Orientant l&apos;enfant vers des services
                         &eacute;ducatifs, de d&eacute;veloppement, psychosociaux
                         et autres fournis par les pouvoirs publics ou des
-                        ONG&nbsp;; et
+                        ONG; et
                     </li>
                     <li>
                         Si l&apos;enfant vit s&eacute;par&eacute; de sa famille,
@@ -135,27 +135,27 @@ const fr = () => {
                         &Eacute;liminer toute activit&eacute; dangereuse du
                         travail de l&apos;enfant et continuer de surveiller de
                         pr&egrave;s les activit&eacute;s de l&apos;enfant au
-                        travail&nbsp;;
+                        travail;
                     </li>
                     <li>
                         S&apos;il n&apos;est pas possible de r&eacute;duire les
                         dangers dans son environnement de travail actuel, aider
                         l&apos;enfant &agrave; identifier d&apos;autres
                         possibilit&eacute;s de gagner un revenu sans
-                        danger&nbsp;;
+                        danger;
                     </li>
                     <li>
                         S&apos;assurer que l&apos;enfant ne travaille pas trop
                         d&apos;heures, ni &agrave; des p&eacute;riodes mettant
                         en danger sa sant&eacute;, son bien-&ecirc;tre ou son
-                        &eacute;ducation&nbsp;;
+                        &eacute;ducation;
                     </li>
                     <li>
                         En cas de r&eacute;duction des heures de travail,
                         trouver un moyen pour l&apos;enfant de compenser le
                         revenu perdu par d&apos;autres opportunit&eacute;s
                         lucratives, une allocation ou des interventions
-                        familiales&nbsp;; et
+                        familiales; et
                     </li>
                     <li>
                         Orienter l&apos;enfant vers des services
@@ -191,7 +191,7 @@ const fr = () => {
                         bas&eacute;e aux &Eacute;tats-Unis, &eacute;value les
                         conditions de travail dans les exploitations agricoles
                         de noisettes de la r&eacute;gion de la Mer noire en
-                        Turquie&nbsp;; ce travail a commenc&eacute; au travers
+                        Turquie; ce travail a commenc&eacute; au travers
                         d&rsquo;un projet sp&eacute;cial commandit&eacute; par
                         la multinationale Nestl&eacute;*, avant de se poursuivre
                         en collaboration avec Nestl&eacute; et deux de ses

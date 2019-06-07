@@ -122,13 +122,17 @@ class NavBar extends Component {
     };
     render() {
         const { visible, stepAccordionActive } = this.state;
-        const { leftItems, rightItems, id, localizor } = this.props;
+        const { leftItems, rightItems, id, localizor, backUrl } = this.props;
         return (
             <div id={id}>
                 <NavbarRoot>
                     <NavbarWrapper>
                         <span id="navbar-left-items">
-                            <NavItem as={Breadcrumbs} id="breadcrumbs" />
+                            <NavItem
+                                as={Breadcrumbs}
+                                backUrl={backUrl}
+                                id="breadcrumbs"
+                            />
                         </span>
                         <span id="navbar-right-items">
                             <NavItem
@@ -219,7 +223,8 @@ NavBar.propTypes = {
     id: PropTypes.string,
     leftItems: PropTypes.arrayOf(PropTypes.object),
     rightItems: PropTypes.arrayOf(PropTypes.object),
-    localizor: PropTypes.object.isRequired
+    localizor: PropTypes.object.isRequired,
+    backUrl: PropTypes.string
 };
 
 NavBar.defaultProps = {

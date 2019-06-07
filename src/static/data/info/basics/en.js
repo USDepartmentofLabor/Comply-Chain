@@ -7,14 +7,14 @@ import StaticData from "../../../../components/StaticData";
 import betterwork from "../../../images/betterwork.jpg";
 import graph from "../../../images/graph.jpg";
 
-const en = ({ pdf }) => {
+const en = () => {
     return (
         <StaticData>
             <div>
                 <h1>
                     <strong>The Basics of a Social Compliance System</strong>
                 </h1>
-                <Accordion pdf={pdf} id="basics-acc">
+                <Accordion id="basics-acc">
                     <Accordion.Section id="learning-objectives">
                         <Accordion.Title>Learning Objectives</Accordion.Title>
                         <Accordion.Panel>
@@ -58,10 +58,10 @@ const en = ({ pdf }) => {
                                 interactions with stakeholders aside from legal
                                 requirements. Many other terms are also used to
                                 address such actions, including the
-                                &ldquo;triple bottom line,&rdquo;
-                                &ldquo;sustainability,&rdquo; &ldquo;corporate
-                                citizenship,&rdquo; &ldquo;environmental, social
-                                and governance (ESG),&rdquo; and many others.
+                                &ldquo;triple bottom line&rdquo;,
+                                &ldquo;sustainability&rdquo;, &ldquo;corporate
+                                citizenship&rdquo;, &ldquo;environmental, social
+                                and governance (ESG)&rdquo;, and many others.
                                 &ldquo;Corporate accountability&rdquo; is a term
                                 often used to reference companies&rsquo; actions
                                 that are more closely linked to legal
@@ -505,7 +505,7 @@ const en = ({ pdf }) => {
                                     activities, but also seek to prevent or
                                     mitigate adverse labor rights impacts linked
                                     to its business operations through business
-                                    relationships.
+                                    relationships.{" "}
                                     <Link to="/steps/2">
                                         Step 2, Assess Risks and Impacts
                                     </Link>
@@ -524,7 +524,7 @@ const en = ({ pdf }) => {
                                     may also need to prioritize those areas of
                                     the supply chain where the company has the
                                     greatest leverage to effect meaningful
-                                    change.
+                                    change.{" "}
                                     <Link to="/steps/2">
                                         Step 2, Assess Risks and Impacts
                                     </Link>
@@ -1064,7 +1064,7 @@ const en = ({ pdf }) => {
                                 >
                                     sustainable innovation team
                                 </a>
-                                ,&rdquo; which is responsible for not only
+                                &rdquo;, which is responsible for not only
                                 environmental and social compliance but also
                                 product development.
                             </p>
@@ -1115,7 +1115,7 @@ const en = ({ pdf }) => {
                                 production facilities and work with factory
                                 management to identify appropriate remediation
                                 strategies. Composition of field teams, skills
-                                needed, and related issues are discussed in
+                                needed, and related issues are discussed in{" "}
                                 <Link to="/steps/5">
                                     Step 5, Monitor Compliance
                                 </Link>
@@ -1196,14 +1196,14 @@ const en = ({ pdf }) => {
                                     Romis, and Fei Qin. &ldquo;Beyond corporate
                                     codes of conduct: Work organization and
                                     labour standards at Nike&rsquo;s
-                                    suppliers,&rdquo;{" "}
+                                    suppliers&rdquo;,{" "}
                                     <em>International Labour Review</em> 146,
                                     no. 1/2 (2007): 21-37.
                                 </li>
                                 <li>
                                     Mamic, Ivanka, &ldquo;Managing Global Supply
                                     Chain: The Sports Footwear, Apparel and
-                                    Retail Sectors,&rdquo;{" "}
+                                    Retail Sectors&rdquo;,{" "}
                                     <em>Journal of Business Ethics,</em> (2005)
                                     59: 81&ndash;100.
                                 </li>
@@ -1228,7 +1228,7 @@ const en = ({ pdf }) => {
                                     program focused on management systems
                                     development. By participating in the
                                     &ldquo;Social Fingerprint Supply Chain
-                                    Management Program,&rdquo; companies can
+                                    Management Program&rdquo;, companies can
                                     assess their progress in key social
                                     compliance performance areas and access
                                     online training to boost competencies;

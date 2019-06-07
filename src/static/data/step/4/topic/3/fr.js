@@ -7,7 +7,7 @@ const fr = () => {
             <div>
                 <h1>
                     Quels sujets la formation et le renforcement des
-                    capacit&eacute;s devraient-ils couvrir ?
+                    capacit&eacute;s devraient-ils couvrir?
                 </h1>
                 <p>
                     Voici les sujets essentiels de la formation pour chaque
@@ -19,14 +19,14 @@ const fr = () => {
                     <li>
                         Les normes incluses dans votre code de conduite{" "}
                         <em>
-                            (N.&nbsp;B.: Cette partie de la formation
-                            devrait &ecirc;tre approfondie et exhaustive. Chaque
-                            norme devrait &ecirc;tre expliqu&eacute;e en
+                            (N.&nbsp;B.: Cette partie de la formation devrait
+                            &ecirc;tre approfondie et exhaustive. Chaque norme
+                            devrait &ecirc;tre expliqu&eacute;e en
                             d&eacute;tail. Une explication compl&egrave;te du
                             travail des enfants, par exemple, devrait &ecirc;tre
                             fournie accompagn&eacute;e d&apos;exemples de ce qui
                             est consid&eacute;r&eacute;, ou pas, comme du
-                            travail des enfants)&nbsp;;
+                            travail des enfants);
                         </em>
                     </li>
                     <li>
@@ -34,28 +34,28 @@ const fr = () => {
                         syst&egrave;me de conformit&eacute; sociale,
                         pr&eacute;sentant tous ses &eacute;l&eacute;ments et
                         leur int&eacute;gration, pour que tous comprennent leur
-                        fonction dans le syst&egrave;me&nbsp;;
+                        fonction dans le syst&egrave;me;
                     </li>
                     <li>
                         Vos attentes concernant chaque &eacute;l&eacute;ment du
                         syst&egrave;me, qui est responsable de quels
                         &eacute;l&eacute;ments et comment vous les en tiendrez
-                        responsables&nbsp;;
+                        responsables;
                     </li>
                     <li>
                         Ce que vous attendez d&apos;un audit et comment les
                         donn&eacute;es d&apos;audit sont ind&eacute;pendamment
-                        contr&ocirc;l&eacute;es&nbsp;;
+                        contr&ocirc;l&eacute;es;
                     </li>
                     <li>
                         Les politiques et proc&eacute;dures de r&eacute;paration
-                        de l&apos;entreprise&nbsp;;
+                        de l&apos;entreprise;
                     </li>
                     <li>
                         Les valeurs du lieu de travail, y compris le respect
-                        mutuel et l&apos;honn&ecirc;tet&eacute;&nbsp;;
+                        mutuel et l&apos;honn&ecirc;tet&eacute;;
                     </li>
-                    <li>Les rapports publics de l&apos;entreprise&nbsp;; et</li>
+                    <li>Les rapports publics de l&apos;entreprise; et</li>
                     <li>
                         Les opportunit&eacute;s de donner des avis, y compris
                         les m&eacute;canismes de r&eacute;clamation.
@@ -135,23 +135,22 @@ const fr = () => {
                 <ul>
                     <li>
                         S&apos;assure de la conformit&eacute; des fournisseurs
-                        de premier niveau avec le code de conduite&nbsp;;
+                        de premier niveau avec le code de conduite;
                     </li>
                     <li>
-                        Offre une formation aux fournisseurs de premier
-                        niveau&nbsp;;
+                        Offre une formation aux fournisseurs de premier niveau;
                     </li>
                     <li>
                         R&eacute;alise un «&nbsp;auto-audit&nbsp;» des
-                        fournisseurs de premier niveau&nbsp;;
+                        fournisseurs de premier niveau;
                     </li>
                     <li>
                         R&eacute;dige un projet, mette en &oelig;uvre et/ou
-                        assure le suivi de plans d&apos;action correctifs&nbsp;;
+                        assure le suivi de plans d&apos;action correctifs;
                     </li>
                     <li>
                         Suive et rende compte de la performance des fournisseurs
-                        en mati&egrave;re de conformit&eacute; sociale&nbsp;; et
+                        en mati&egrave;re de conformit&eacute; sociale; et
                     </li>
                     <li>
                         Limite le nombre de sous-traitants et/ou indique les
@@ -190,24 +189,22 @@ const fr = () => {
                     <li>
                         Forme &agrave; la conformit&eacute; sociale les
                         contrema&icirc;tres, les travailleurs et d&apos;autres
-                        groupes&nbsp;;
+                        groupes;
                     </li>
-                    <li>
-                        R&eacute;alise certains «&nbsp;auto-audits&nbsp;»&nbsp;;
-                    </li>
+                    <li>R&eacute;alise certains «&nbsp;auto-audits&nbsp;»;</li>
                     <li>
                         R&eacute;dige un projet, mette en &oelig;uvre et/ou
-                        assure le suivi de plans d&apos;action correctifs&nbsp;;
+                        assure le suivi de plans d&apos;action correctifs;
                     </li>
                     <li>
                         Suive et rende compte de la performance en
-                        mati&egrave;re de conformit&eacute; sociale&nbsp;;
+                        mati&egrave;re de conformit&eacute; sociale;
                     </li>
                     <li>
                         Limite le nombre de sous-traitants et/ou indique les
                         sous-traitants des diff&eacute;rents niveaux
                         sp&eacute;cifiques des cha&icirc;nes
-                        d&apos;approvisionnement&nbsp;; et
+                        d&apos;approvisionnement; et
                     </li>
                     <li>
                         S&apos;assure de la conformit&eacute; sociale de ses
@@ -218,16 +215,16 @@ const fr = () => {
 
                 <h2>Fournisseurs: contrema&icirc;tres</h2>
                 <ul>
-                    <li>Usage appropri&eacute; des pouvoirs&nbsp;;</li>
+                    <li>Usage appropri&eacute; des pouvoirs;</li>
                     <li>
                         Comp&eacute;tences de communication pour motiver les
                         travailleurs et communiquer les r&eacute;ussites, les
                         besoins, les comp&eacute;tences et les talents des
-                        travailleurs &agrave; la direction&nbsp;;
+                        travailleurs &agrave; la direction;
                     </li>
                     <li>
                         Comp&eacute;tences de promotion du travail
-                        d&apos;&eacute;quipe&nbsp;; et
+                        d&apos;&eacute;quipe; et
                     </li>
                     <li>
                         «&nbsp;Signaux d&apos;alarme&nbsp;» pour identifier le
@@ -242,24 +239,23 @@ const fr = () => {
                         Calcul des salaires, y compris du travail &agrave; la
                         pi&egrave;ce, des heures suppl&eacute;mentaires, des
                         primes et des d&eacute;ductions permises et
-                        l&eacute;gales&nbsp;;
+                        l&eacute;gales;
                     </li>
                     <li>
                         Politiques garantissant le paiement correct et en temps
-                        opportun des salaires&nbsp;;
+                        opportun des salaires;
                     </li>
                     <li>
                         Documentation appropri&eacute;e de la
-                        v&eacute;rification de l&apos;&acirc;ge&nbsp;;
+                        v&eacute;rification de l&apos;&acirc;ge;
                     </li>
                     <li>
                         Politiques sur le traitement appropri&eacute; des
-                        enfants identifi&eacute;s sur les lieux de
-                        travail&nbsp;;
+                        enfants identifi&eacute;s sur les lieux de travail;
                     </li>
                     <li>
                         Politiques et proc&eacute;dures de recrutement et
-                        d&apos;embauche des travailleurs&nbsp;;
+                        d&apos;embauche des travailleurs;
                     </li>
                     <li>
                         Proc&eacute;dures pour s&apos;assurer que tous les
@@ -269,17 +265,17 @@ const fr = () => {
                         qu&rsquo;ils comprennent, et que toute modification
                         apport&eacute;e au contrat sera r&eacute;alis&eacute;e
                         avec le consentement &eacute;clair&eacute;, par
-                        &eacute;crit, des travailleurs&nbsp;;
+                        &eacute;crit, des travailleurs;
                     </li>
                     <li>
                         M&eacute;canismes par lesquels les travailleurs peuvent
                         pr&eacute;senter leurs r&eacute;clamations, y compris
                         celles ayant trait au harc&egrave;lement, aux menaces ou
-                        &agrave; l&apos;intimidation&nbsp;;
+                        &agrave; l&apos;intimidation;
                     </li>
                     <li>
                         Comp&eacute;tences appropri&eacute;es de tenue des
-                        registres&nbsp;;
+                        registres;
                     </li>
                     <li>
                         Politiques et proc&eacute;dures sp&eacute;cifiques aux
@@ -291,7 +287,7 @@ const fr = () => {
                         conditions d&apos;emploi &eacute;gales &agrave; celles
                         des non-migrants, et qu&apos;ils ont libre acc&egrave;s
                         &agrave; leurs pi&egrave;ces d&apos;identit&eacute; et
-                        un lieu s&ucirc;r pour les y conserver&nbsp;; et
+                        un lieu s&ucirc;r pour les y conserver; et
                     </li>
                     <li>
                         Utilisation du syst&egrave;me d&rsquo;information sur la
@@ -327,51 +323,48 @@ const fr = () => {
 
                 <h2>Travailleurs et syndicats</h2>
                 <ul>
-                    <li>
-                        Responsabilit&eacute;s sur le lieu de travail&nbsp;;
-                    </li>
+                    <li>Responsabilit&eacute;s sur le lieu de travail;</li>
                     <li>
                         Droits suppl&eacute;mentaires sur le lieu de travail,
                         non abord&eacute;s dans le contenu de la formation
                         principale, par exemple les droits en vertu des lois
                         locales concernant la libert&eacute; d&apos;emploi, les
-                        d&eacute;ductions salariales, etc.&nbsp;;
+                        d&eacute;ductions salariales, etc.;
                     </li>
                     <li>
                         Proc&eacute;dures appropri&eacute;es pour enregistrer
-                        les heures ouvr&eacute;es&nbsp;;
+                        les heures ouvr&eacute;es;
                     </li>
                     <li>
                         Comprendre les fiches de paye, calculer les salaires et
-                        les d&eacute;ductions&nbsp;;
+                        les d&eacute;ductions;
                     </li>
                     <li>
                         «&nbsp;Signaux d&apos;alarme&nbsp;» pour identifier le
                         travail des enfants, le travail forc&eacute; et la
-                        traite des personnes&nbsp;;
+                        traite des personnes;
                     </li>
                     <li>
                         Calcul des salaires, y compris du travail &agrave; la
                         pi&egrave;ce, des heures suppl&eacute;mentaires, des
                         primes et des d&eacute;ductions permises et
-                        l&eacute;gales&nbsp;;
+                        l&eacute;gales;
                     </li>
                     <li>
                         Politiques garantissant le paiement correct et en temps
-                        opportun des salaires&nbsp;;
+                        opportun des salaires;
                     </li>
                     <li>
                         Documentation appropri&eacute;e de la
-                        v&eacute;rification de l&apos;&acirc;ge&nbsp;;
+                        v&eacute;rification de l&apos;&acirc;ge;
                     </li>
                     <li>
                         Politiques sur le traitement appropri&eacute; des
-                        enfants identifi&eacute;s sur les lieux de
-                        travail&nbsp;;
+                        enfants identifi&eacute;s sur les lieux de travail;
                     </li>
                     <li>
                         Politiques et proc&eacute;dures de recrutement et
-                        d&apos;embauche des travailleurs&nbsp;;
+                        d&apos;embauche des travailleurs;
                     </li>
                     <li>
                         Proc&eacute;dures pour s&apos;assurer que tous les
@@ -381,13 +374,13 @@ const fr = () => {
                         qu&rsquo;ils comprennent, et que toute modification
                         apport&eacute;e au contrat sera r&eacute;alis&eacute;e
                         avec le consentement &eacute;clair&eacute; et
-                        &eacute;crit des travailleurs&nbsp;;
+                        &eacute;crit des travailleurs;
                     </li>
                     <li>
                         M&eacute;canismes par lesquels les travailleurs peuvent
                         pr&eacute;senter leurs r&eacute;clamations, y compris
                         celles ayant trait au harc&egrave;lement, aux menaces ou
-                        &agrave; l&apos;intimidation&nbsp;; et
+                        &agrave; l&apos;intimidation; et
                     </li>
                     <li>
                         Politiques et proc&eacute;dures sp&eacute;cifiques aux

@@ -163,7 +163,7 @@ const fr = () => {
                     . Le gouvernement des &Eacute;tats-Unis, les organisations
                     internationales, les ONG et d&rsquo;autres organismes
                     produisent &eacute;galement d&rsquo;autres ressources utiles
-                    pour la collecte initiale d&rsquo;informations&nbsp;; voir{" "}
+                    pour la collecte initiale d&rsquo;informations; voir{" "}
                     <Link to="/steps/2#resources">Autres ressources</Link> pour
                     en savoir plus.{" "}
                 </p>
@@ -569,7 +569,7 @@ const fr = () => {
                             grands groupes de travailleurs non qualifi&eacute;s,
                             temporaires et/ou migrants en sous-traitance,
                             notamment au sein de la cha&icirc;ne
-                            d&rsquo;approvisionnement&nbsp;; (ii) risques ou
+                            d&rsquo;approvisionnement; (ii) risques ou
                             incidences du projet touchant de mani&egrave;re
                             disproportionn&eacute;e les personnes
                             affect&eacute;es par le projet qui, en raison de

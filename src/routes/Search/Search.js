@@ -28,7 +28,7 @@ const SearchInput = styled.input`
     display: block;
     color: ${theme.colors.base};
     background-color: ${theme.colors.white};
-    border: 1px solid ${theme.colors.grayLight};
+    border: 1px solid ${theme.colors.charcoal};
     padding: 10px 30px;
     width: 100%;
     box-sizing: border-box;
@@ -45,7 +45,7 @@ const SearchResultsHeader = styled.h1`
 `;
 
 const SearchResult = styled.div`
-    border: 1px solid ${theme.colors.grayLight};
+    border: 1px solid ${theme.colors.charcoal};
     margin-top: 1em;
     padding: 0 20px 20px;
 `;
@@ -214,7 +214,7 @@ class Search extends Component {
                         title: `${step.title} - ${topic.title}`,
                         keywords: topic.keywords,
                         content: getRawTextData(
-                            topic.content({ pdf: false }).props.children
+                            topic.content().props.children
                         ).join(" "),
                         to: `/steps/${stepIdx + 1}/topic/${topicIdx + 1}`
                     };
@@ -241,9 +241,9 @@ class Search extends Component {
             info.push({
                 title: item.title,
                 keywords: item.keywords,
-                content: getRawTextData(
-                    item.content({ pdf: false }).props.children
-                ).join(" "),
+                content: getRawTextData(item.content().props.children).join(
+                    " "
+                ),
                 to: Routes[routeKey].path
             });
         }

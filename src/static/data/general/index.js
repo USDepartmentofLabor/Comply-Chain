@@ -32,7 +32,11 @@ export const General = {
         continueReading: "Continue reading",
         english: "English",
         spanish: "Español",
-        french: "Français"
+        french: "Français",
+        bookmarked: "You have bookmarked",
+        removed: "You have removed",
+        fromBookmarks: "from your bookmarks",
+        undo: "Undo"
     },
     es: {
         home: "Página principal",
@@ -67,7 +71,11 @@ export const General = {
         continueReading: "Seguir leyendo",
         english: "Inglés",
         spanish: "Español",
-        french: "Francés"
+        french: "Francés",
+        bookmarked: "Ha marcado",
+        removed: "Ha eliminado",
+        fromBookmarks: "de sus marcadores",
+        undo: "Deshacer"
     },
     fr: {
         home: "Page d'accueil",
@@ -102,6 +110,10 @@ export const General = {
         continueReading: "Continuer à lire",
         english: "Anglais",
         spanish: "Espagnol",
-        french: "Français"
+        french: "Français",
+        bookmarked: "Vous avez marqué",
+        removed: "Vous avez supprimé",
+        fromBookmarks: "de vos favoris",
+        undo: "Annuler"
     }
 };

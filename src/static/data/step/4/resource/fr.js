@@ -12,7 +12,7 @@ const fr = () => {
                             respecter les droits de l&apos;homme: Guide
                             interpr&eacute;tatif.{" "}
                         </em>
-                        2012&nbsp;; disponible sur{" "}
+                        2012; disponible sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -37,7 +37,7 @@ const fr = () => {
                             Prot&eacute;geons nos enfants des pesticides: Guide
                             visuel d&rsquo;animation.
                         </em>{" "}
-                        2015&nbsp;; disponible sur{" "}
+                        2015; disponible sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -54,7 +54,7 @@ const fr = () => {
                             Promotion of social, environmental, and production
                             standards in the readymade garment industry
                         </em>
-                        , s.d.&nbsp;; disponible [en anglais] sur{" "}
+                        , s.d.; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -71,7 +71,7 @@ const fr = () => {
                             Good Practice Note: Addressing Grievances from
                             Project-Affected Communities,{" "}
                         </em>
-                        n<sup>o</sup>&nbsp;7. 2009&nbsp;; disponible [en
+                        n<sup>o</sup>&nbsp;7. 2009; disponible [en
                         anglais] sur{" "}
                         <a
                             target="_blank"
@@ -90,7 +90,7 @@ const fr = () => {
                             play, what are the opportunities and challenge, what
                             kind of support is needed?
                         </em>{" "}
-                        novembre 2016&nbsp;; disponible [en anglais] sur{" "}
+                        novembre 2016; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -134,9 +134,9 @@ const fr = () => {
                         <em>
                             Improving accountability and access to remedy for
                             victims of business-related human rights
-                            abuse&nbsp;;{" "}
+                            abuse;{" "}
                         </em>
-                        10&nbsp;mai 2016&nbsp;; disponible [en anglais] sur{" "}
+                        10&nbsp;mai 2016; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

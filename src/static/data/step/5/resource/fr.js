@@ -10,7 +10,7 @@ const fr = () => {
                         <em>
                             Consid&eacute;rations &eacute;thiques concernant la
                             recherche sur les enfants astreints aux pires formes
-                            de travail des enfants au N&eacute;pal, 2005&nbsp;;{" "}
+                            de travail des enfants au N&eacute;pal, 2005;{" "}
                         </em>
                         disponible sur{" "}
                         <a
@@ -28,7 +28,7 @@ const fr = () => {
                             Combattre le travail forc&eacute;: Manuel pour les
                             employeurs et le secteur priv&eacute;.
                         </em>{" "}
-                        Gen&egrave;ve, 2015&nbsp;; disponible sur{" "}
+                        Gen&egrave;ve, 2015; disponible sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -57,9 +57,9 @@ const fr = () => {
                     <li>
                         <em>
                             Eliminating and Preventing Forced Labour:
-                            Checkpoints&nbsp;;{" "}
+                            Checkpoints;{" "}
                         </em>
-                        1<sup>er</sup>&nbsp;mars 2016&nbsp;; disponible [en
+                        1<sup>er</sup>&nbsp;mars 2016; disponible [en
                         anglais] sur{" "}
                         <a
                             target="_blank"
@@ -130,7 +130,7 @@ const fr = () => {
                             Corporations.{" "}
                         </em>
                         Sheffield Political Economy Research Institute,
-                        janvier&nbsp;2016&nbsp;; disponible [en anglais] sur{" "}
+                        janvier&nbsp;2016; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -142,7 +142,7 @@ const fr = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;. <em>Fair Hiring Toolkit&nbsp;;</em>{" "}
+                        Verit&eacute;. <em>Fair Hiring Toolkit;</em>{" "}
                         disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
@@ -158,7 +158,7 @@ const fr = () => {
                         Verit&eacute;.{" "}
                         <em>
                             Responsible Sourcing Tool: Recruitment and
-                            Employment Benchmarks&nbsp;;{" "}
+                            Employment Benchmarks;{" "}
                         </em>
                         disponible [en anglais] sur{" "}
                         <a
@@ -175,7 +175,7 @@ const fr = () => {
                         Verit&eacute;.{" "}
                         <em>
                             Responsible Sourcing Tool: Sample Supplier
-                            Self-Assessment&nbsp;;
+                            Self-Assessment;
                         </em>{" "}
                         disponible [en anglais] sur{" "}
                         <a
@@ -192,7 +192,7 @@ const fr = () => {
                         Verit&eacute;.{" "}
                         <em>
                             Responsible Sourcing Tool: Conducting Migrant Worker
-                            Interviews&nbsp;;{" "}
+                            Interviews;{" "}
                         </em>
                         disponible [en anglais] sur{" "}
                         <a
