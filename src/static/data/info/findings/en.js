@@ -11,7 +11,7 @@ const en = () => {
                     of Child Labor focuses on the efforts of certain U.S. trade
                     beneficiary countries and territories to eliminate the worst
                     forms of child labor through legislation, enforcement
-                    mechanisms, policies and social programs. Read More
+                    mechanisms, policies and social programs.
                 </p>
                 The Report presents:
                 <ul>
@@ -28,17 +28,16 @@ const en = () => {
                         Significant, Moderate, Minimal, or No Advancement has
                         been made (since 2011).
                     </li>
-                    <li>
-                        The Report serves as a resource to foreign governments,
-                        NGOs, academics and policymakers working on labor and
-                        human rights issues. It helps inform Congress and
-                        Executive Branch agencies that formulate labor and trade
-                        policy and is an important resource for the Department
-                        in assessing future technical assistance and research
-                        priorities as it seeks to combat child labor around the
-                        world.
-                    </li>
                 </ul>
+                <p>
+                    The Report serves as a resource to foreign governments,
+                    NGOs, academics and policymakers working on labor and human
+                    rights issues. It helps inform Congress and Executive Branch
+                    agencies that formulate labor and trade policy and is an
+                    important resource for the Department in assessing future
+                    technical assistance and research priorities as it seeks to
+                    combat child labor around the world.
+                </p>
                 <p>
                     The Department's Bureau of International Labor Affairs
                     (ILAB) has published the Findings each year since 2002, as
