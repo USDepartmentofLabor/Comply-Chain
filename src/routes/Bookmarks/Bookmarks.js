@@ -212,7 +212,7 @@ class Bookmarks extends Component {
         clearTimeout(this.undoTimer);
         this.undoTimer = setTimeout(() => {
             toast.dismiss(this.toastId);
-        }, 500000);
+        }, 5000);
     };
 
     unmarkForRemoval = bookmark => {
