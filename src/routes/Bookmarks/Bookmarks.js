@@ -180,7 +180,9 @@ class Bookmarks extends Component {
                         </IconContainer>
                     );
                 })}
-                {filtered.length === 0 && <p>You don't have any bookmarks.</p>}
+                {filtered.length === 0 && (
+                    <p>{localizor.strings.general.nobookmarks}.</p>
+                )}
             </div>
         );
     };
@@ -249,10 +251,13 @@ class Bookmarks extends Component {
 
     render() {
         const { bookmarks } = this.state;
+        const { localizor } = this.props;
         return (
             <div>
-                <h4>Bookmarks</h4>
-                {bookmarks.length === 0 && <p>You don't have any bookmarks.</p>}
+                <h4>{localizor.strings.general.bookmarks}</h4>
+                {bookmarks.length === 0 && (
+                    <p>{localizor.strings.general.nobookmarks}.</p>
+                )}
                 {bookmarks.length > 0 && (
                     <div>{this.renderBookmarks(bookmarks)}</div>
                 )}

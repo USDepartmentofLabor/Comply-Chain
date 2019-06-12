@@ -36,7 +36,9 @@ export const General = {
         bookmarked: "You have bookmarked",
         removed: "You have removed",
         fromBookmarks: "from your bookmarks",
-        undo: "Undo"
+        undo: "Undo",
+        nobookmarks: "You don't have any bookmarks",
+        copyLink: "Copy Link"
     },
     es: {
         home: "Página principal",
@@ -75,7 +77,9 @@ export const General = {
         bookmarked: "Ha marcado",
         removed: "Ha eliminado",
         fromBookmarks: "de sus marcadores",
-        undo: "Deshacer"
+        undo: "Deshacer",
+        nobookmarks: "No tiene ningún marcador",
+        copyLink: "Copiar enlace"
     },
     fr: {
         home: "Page d'accueil",
@@ -114,6 +118,8 @@ export const General = {
         bookmarked: "Vous avez marqué",
         removed: "Vous avez supprimé",
         fromBookmarks: "de vos favoris",
-        undo: "Annuler"
+        undo: "Annuler",
+        nobookmarks: "Vous n'avez pas de favoris ",
+        copyLink: "Copier le lien"
     }
 };
