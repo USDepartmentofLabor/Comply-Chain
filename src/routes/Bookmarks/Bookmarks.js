@@ -34,11 +34,15 @@ const BookmarkIcon = styled(Icons.BookmarkCheck)`
     overflow: visible;
 `;
 
-const ItemHeader = styled.span``;
+const ItemHeader = styled.span`
+    font-size: 14px;
+    font-weight: bold;
+`;
 
 const ItemTitle = styled.h3`
     padding: 0;
     margin: 0;
+    font-size: 18px;
 `;
 
 const ItemContent = styled(Link)`
