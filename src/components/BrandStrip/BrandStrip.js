@@ -31,8 +31,17 @@ class BrandStrip extends Component {
     render() {
         return (
             <Band id="brand-band">
-                <BrandText id="brand-name">ILAB</BrandText>
-                <BrandLogo id="brand-logo" src={logo} alt="Brand Strip Logo" />
+                <BrandText
+                    id="brand-name"
+                    aria-label="Bureau of International Labor Affairs."
+                >
+                    ILAB
+                </BrandText>
+                <BrandLogo
+                    id="brand-logo"
+                    src={logo}
+                    alt="United States Department of Labor seal"
+                />
             </Band>
         );
     }
