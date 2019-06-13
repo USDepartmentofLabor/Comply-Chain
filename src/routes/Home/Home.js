@@ -66,6 +66,10 @@ class Home extends Component {
                 </IconContainer>
 
                 {localizor.strings.steps.map((step, i) => {
+                    const bookmarked = storage.bookmarks.containsBookmarks(
+                        `steps.${i}`
+                    );
+                    const complete = storage.steps.isStepComplete(i);
                     return (
                         <IconContainer
                             id={`home_step_${i + 1}`}
@@ -77,7 +81,10 @@ class Home extends Component {
                                 imageMobilePosition={stepImageData[i].mobile}
                                 imageDesktopPosition={stepImageData[i].desktop}
                             >
-                                <ItemContent>
+                                <ItemContent
+                                    bookmarked={bookmarked}
+                                    complete={complete}
+                                >
                                     <FlexContent>
                                         <Icon>
                                             <Icons.StepIcon step={i + 1} />
@@ -91,12 +98,8 @@ class Home extends Component {
                                 </ItemContent>
                             </Item>
                             <StatusIcons>
-                                {storage.bookmarks.containsBookmarks(
-                                    `steps.${i}`
-                                ) && <BookmarkIcon />}
-                                {storage.steps.isStepComplete(i) && (
-                                    <CheckIcon />
-                                )}
+                                {bookmarked && <BookmarkIcon />}
+                                {complete && <CheckIcon />}
                             </StatusIcons>
                         </IconContainer>
                     );
@@ -259,7 +262,15 @@ const ItemTitle = styled(Link)`
 
 const ItemContent = styled.div`
     padding-left: 20px;
-    padding-right: 30px;
+    padding-right: ${props => {
+        if (props.complete && props.bookmarked) {
+            return "85px";
+        }
+        if (props.complete || props.bookmarked) {
+            return "55px";
+        }
+        return "30px";
+    }};
 `;
 
 const Item = styled.div`
