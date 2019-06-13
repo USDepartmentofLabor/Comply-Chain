@@ -90,7 +90,7 @@ const fr = () => {
                         et ses r&eacute;glementations de mise en &oelig;uvre.
                     </li>
                     <br />
-                    <Accordion  id="why-develop-acc">
+                    <Accordion id="why-develop-acc">
                         <Accordion.Section id="exec-order">
                             <Accordion.Title>
                                 <strong>
@@ -385,7 +385,15 @@ const fr = () => {
                                     entreprises concernant l&rsquo;esclavage
                                     moderne en vertu de cette loi. Au
                                     comit&eacute; de gouvernance du site
-                                    si&egrave;gent Freedom Fund,{" "}
+                                    si&egrave;gent{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://freedomfund.org/"
+                                    >
+                                        Freedom Fund
+                                    </a>
+                                    ,{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -397,7 +405,7 @@ const fr = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://freedomfund.org/"
+                                        href="https://www.freedomunited.org"
                                     >
                                         Freedom United
                                     </a>
@@ -438,7 +446,7 @@ const fr = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.labourexploitation.org/"
+                                        href="https://www.labourexploitation.org/"
                                     >
                                         Focus on Labour Exploitation
                                     </a>
@@ -476,7 +484,7 @@ const fr = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://business-humanrights.org/sites/default/files/documents/Texte%20PPL_EN-US.docx"
+                                        href="https://www.business-humanrights.org/en/frances-law-on-the-corporate-duty-of-vigilance-a-practical-and-multidimensional-analysis-in-english"
                                     >
                                         Loi fran&ccedil;aise sur le devoir de
                                         vigilance des entreprises
@@ -498,21 +506,20 @@ const fr = () => {
                                     m&egrave;res et de leurs filiales et de tous
                                     leurs sous-traitants. Le plan doit inclure
                                     1) des proc&eacute;dures
-                                    d&rsquo;identification des risques; 2)
-                                    des m&eacute;thodes de surveillance
+                                    d&rsquo;identification des risques; 2) des
+                                    m&eacute;thodes de surveillance
                                     r&eacute;guli&egrave;re des filiales et des
                                     sous-traitants; 3) des approches
                                     appropri&eacute;es
                                     d&rsquo;att&eacute;nuation des risques et de
                                     pr&eacute;vention des pr&eacute;judices
-                                    graves; 4) une m&eacute;thode de
-                                    signalement des risques; et 5) une
-                                    m&eacute;thode de surveillance de
-                                    l&rsquo;efficacit&eacute; des mesures
-                                    pr&eacute;ventives. Les victimes et les
-                                    autres parties affect&eacute;es peuvent
-                                    informer les instances judiciaires de
-                                    l&rsquo;absence de plan ou de mise en
+                                    graves; 4) une m&eacute;thode de signalement
+                                    des risques; et 5) une m&eacute;thode de
+                                    surveillance de l&rsquo;efficacit&eacute;
+                                    des mesures pr&eacute;ventives. Les victimes
+                                    et les autres parties affect&eacute;es
+                                    peuvent informer les instances judiciaires
+                                    de l&rsquo;absence de plan ou de mise en
                                     &oelig;uvre de plan dans une entreprise, et
                                     celle-ci peut se voir somm&eacute;e de
                                     s&rsquo;ex&eacute;cuter et de compenser les
@@ -976,7 +983,7 @@ const fr = () => {
                     consacrer des ressources et un soutien importants &agrave;
                     leurs syst&egrave;mes de conformit&eacute; sociale.
                 </p>
-                <Accordion >
+                <Accordion>
                     <Accordion.Section id="resources">
                         <Accordion.Title>Autres ressources</Accordion.Title>
                         <Accordion.Panel>
