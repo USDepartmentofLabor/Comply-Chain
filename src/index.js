@@ -31,7 +31,7 @@ const addInAppBrowser = () => {
         if (element.tagName === "A") {
             const link = element.href;
             const pattern = /^((http|https):\/\/)/;
-            const pdf = /(\.pdf$)/; // InAppBrowser doesn't support displaying PDF's so we let the system open them.
+            const pdf = /(\.pdf(\?|$))/; // InAppBrowser doesn't support displaying PDF's so we let the system open them.
             if (pattern.test(link) && !pdf.test(link)) {
                 window.open(link, "_blank");
                 return false;
