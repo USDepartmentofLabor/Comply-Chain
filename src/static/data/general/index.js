@@ -12,7 +12,7 @@ export const General = {
         learningObjectives: "Learning Objectives",
         keyTerms: "Key Terms",
         topics: "Topics",
-        stepsToBasic: "Steps to a social compliance system",
+        stepsToBasic: "Steps to a Social Compliance System",
         prevTopic: "Previous Topic",
         prevStep: "Previous Step",
         nextTopic: "Next Topic",

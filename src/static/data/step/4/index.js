@@ -4,7 +4,7 @@ import { Training } from "./training";
 
 export const StepData = {
     en: {
-        title: "Step 4: Communicate and Train across your Supply Chain",
+        title: "Step 4: Communicate and Train Across Your Supply Chain",
         topics: Topics.en,
         keywords: [
             "Grievance",
