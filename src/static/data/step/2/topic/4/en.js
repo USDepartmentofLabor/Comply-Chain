@@ -55,30 +55,11 @@ const en = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
-                        title="Cobalt"
+                        href="https://www.resolve.ngo/site-eiscm/default.htm?RD=1"
+                        title="Cobalt, Tantalum, and Tin"
                     >
-                        Cobalt
-                    </a>{" "}
-                    (See page 44 of the PDF),{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
-                        title="Tantalum"
-                    >
-                        Tantalum
-                    </a>{" "}
-                    (See page 43 of the PDF),{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
-                        title="Tin"
-                    >
-                        Tin
-                    </a>{" "}
-                    (See page 42 of the PDF)
+                        Cobalt, Tantalum, and Tin
+                    </a>
                     <br /> Example 3: Generic Import Supply Chain - Retail Model
                 </p>
                 <p>
@@ -136,7 +117,7 @@ const en = () => {
                     </a>
                 </p>
                 <div id="cocoa_chains">
-                    <Accordion  id="cocoa-chains-acc">
+                    <Accordion id="cocoa-chains-acc">
                         <Accordion.Section id="cocoa-description">
                             <Accordion.Title>
                                 Description of Graphic
@@ -201,7 +182,7 @@ const en = () => {
                     </a>
                 </p>
                 <div>
-                    <Accordion  id="generic-import-acc">
+                    <Accordion id="generic-import-acc">
                         <Accordion.Section id="generic-import-description">
                             <Accordion.Title>
                                 Description of Graphic
