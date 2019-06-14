@@ -4,6 +4,8 @@ import { HashRouter, BrowserRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import { whitelist } from "./modules/config/whitelist";
+import { isAndroid } from "./modules/utils/platform";
 
 const CordovaApp = (
     <HashRouter>
@@ -33,7 +35,11 @@ const addInAppBrowser = () => {
             const pattern = /^((http|https):\/\/)/;
             const pdf = /(\.pdf(\?|$))/; // InAppBrowser doesn't support displaying PDF's so we let the system open them.
             if (pattern.test(link) && !pdf.test(link)) {
-                window.open(link, "_blank");
+                if (isAndroid() && whitelist.includes(link)) {
+                    window.open(link, "_system");
+                } else {
+                    window.open(link, "_blank");
+                }
                 return false;
             }
         }
