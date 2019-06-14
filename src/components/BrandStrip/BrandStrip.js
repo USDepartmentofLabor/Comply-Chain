@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { theme } from "../../modules/config/theme";
 import logo from "../../static/images/dol.png";
+import { withLanguageContext } from "../Language";
+import PropTypes from "prop-types";
 
 const Band = styled.div`
     width: 100%;
@@ -29,22 +31,27 @@ const BrandLogo = styled.img`
 
 class BrandStrip extends Component {
     render() {
+        const { localizor } = this.props;
         return (
             <Band id="brand-band">
                 <BrandText
                     id="brand-name"
-                    aria-label="Bureau of International Labor Affairs."
+                    aria-label={localizor.strings.general.usDol}
                 >
                     ILAB
                 </BrandText>
                 <BrandLogo
                     id="brand-logo"
                     src={logo}
-                    alt="United States Department of Labor seal"
+                    alt={localizor.strings.general.dolSeal}
                 />
             </Band>
         );
     }
 }
 
-export default BrandStrip;
+BrandStrip.propTypes = {
+    localizor: PropTypes.object.isRequired
+};
+
+export default withLanguageContext(BrandStrip);
