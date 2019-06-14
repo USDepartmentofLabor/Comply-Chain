@@ -96,7 +96,8 @@ const ToastUndo = ({ bookmark, localizor, undo, shouldClose, closeToast }) => {
                 {localizor.strings.general.fromBookmarks}.
             </UndoText>{" "}
             <UndoButton
-                onTouchStart={() => {
+                onTouchStart={e => {
+                    e.preventDefault();
                     handleClick();
                 }}
                 onClick={handleClick}
