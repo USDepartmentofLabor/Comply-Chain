@@ -8,6 +8,7 @@ import Routes from "../../../modules/config/routes";
 import { theme } from "../../../modules/config/theme";
 import { isIOS } from "../../../modules/utils/platform";
 import Icons from "../../Icons";
+import { withLanguageContext } from "../../Language";
 
 const Breadcrumb = styled.span``;
 
@@ -46,7 +47,7 @@ const Icon = styled.span`
 
 class Breadcrumbs extends Component {
     displayBreadcrumb = breadcrumbs => {
-        const { location, backUrl } = this.props;
+        const { location, backUrl, localizor } = this.props;
 
         for (let i = 0; i < breadcrumbs.length; i++) {
             const breadcrumb = breadcrumbs[i];
@@ -79,7 +80,7 @@ class Breadcrumbs extends Component {
                         <Icon>
                             <Icons.ArrowDropLeft />
                         </Icon>
-                        Search Results
+                        {localizor.strings.general.searchResults}
                     </Breadcrumb.Section>
                 );
             } else if (
@@ -97,7 +98,7 @@ class Breadcrumbs extends Component {
                         <Icon>
                             <Icons.ArrowDropLeft />
                         </Icon>
-                        Back
+                        {localizor.strings.general.back}
                     </Breadcrumb.Section>
                 );
             } else {
@@ -133,9 +134,12 @@ Breadcrumbs.propTypes = {
     breadcrumbs: PropTypes.array.isRequired,
     className: PropTypes.string,
     location: PropTypes.object.isRequired,
-    backUrl: PropTypes.string
+    backUrl: PropTypes.string,
+    localizor: PropTypes.object.isRequired
 };
 
 export default withRouter(
-    withBreadcrumbs(breadcrumbs, { disableDefaults: true })(Breadcrumbs)
+    withLanguageContext(
+        withBreadcrumbs(breadcrumbs, { disableDefaults: true })(Breadcrumbs)
+    )
 );

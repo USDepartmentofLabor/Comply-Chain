@@ -40,7 +40,8 @@ export const General = {
         nobookmarks: "You don't have any bookmarks",
         copyLink: "Copy Link",
         usDol: "Bureau of International Labor Affairs",
-        dolSeal: "United States Department of Labor seal"
+        dolSeal: "United States Department of Labor seal",
+        back: "Back"
     },
     es: {
         home: "Página principal",
@@ -83,7 +84,8 @@ export const General = {
         nobookmarks: "No tiene ningún marcador",
         copyLink: "Copiar enlace",
         usDol: "Dirección de Asuntos Laborales Internacionales",
-        dolSeal: "Sello del Departamento de Trabajo de los Estados Unidos"
+        dolSeal: "Sello del Departamento de Trabajo de los Estados Unidos",
+        back: "Regresar"
     },
     fr: {
         home: "Page d'accueil",
@@ -126,6 +128,7 @@ export const General = {
         nobookmarks: "Vous n'avez pas de favoris ",
         copyLink: "Copier le lien",
         usDol: "Bureau des affaires internationales du travail",
-        dolSeal: "Sceau du Département du Travail des États-Unis"
+        dolSeal: "Sceau du Département du Travail des États-Unis",
+        back: "Retour"
     }
 };
