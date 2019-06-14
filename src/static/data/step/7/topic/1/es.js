@@ -181,7 +181,6 @@ const es = () => {
                         src={manBamboo}
                         alt="Hombre que corta bamb&uacute;"
                     />{" "}
-                    <br />
                     <p className="small-text">
                         &copy; Florian Kopp/Foto de archivo de Alamy
                     </p>

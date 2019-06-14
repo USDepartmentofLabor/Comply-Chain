@@ -108,4 +108,13 @@ export const AppGlobalStyles = createGlobalStyle`
         height: auto;
     }
 
+    .small-text {
+        margin-top: 0;
+        font-style: italic;
+
+        & p {
+            margin-top: 0;
+        }
+    }
+
 `;

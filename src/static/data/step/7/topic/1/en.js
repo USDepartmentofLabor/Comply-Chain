@@ -152,7 +152,6 @@ const en = () => {
                         src={manBamboo}
                         alt="Man chopping bamboo"
                     />
-                    <br />
                     <p className="small-text">
                         &copy; Florian Kopp/Alamy Stock Photo
                     </p>
