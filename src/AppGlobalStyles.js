@@ -12,26 +12,27 @@ export const AppGlobalStyles = createGlobalStyle`
         margin-bottom: -10px;
     }
 
+
     h1 {
-        font-size: 40px;
+        font-size: 20px;
     }
 
     h2 {
-        font-size: 30px;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    h4 {
         font-size: 17px;
     }
-    h5 {
+    h3 {
         font-size: 15px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    h5 {
+        font-size: 13px;
     }
     h6 {
         font-family: "Source Sans Pro", sans-serif;
         font-weight: 400;
-        font-size: 13px;
+        font-size: 12px;
 
         text-transform: uppercase;
         margin-top: 30px;
@@ -82,6 +83,22 @@ export const AppGlobalStyles = createGlobalStyle`
 
         * {
             -webkit-print-color-adjust:exact;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+        h4 {
+            font-size: 17px;
+        }
+        h5 {
+            font-size: 15px;
         }
     }
 
