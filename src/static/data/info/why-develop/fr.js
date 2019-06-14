@@ -543,7 +543,7 @@ const fr = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://www.sec.gov/about/laws/wallstreetreform-cpa.pdf"
+                                        href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
                                     >
                                         Dodd-Frank sur la r&eacute;forme de Wall
                                         Street et la protection du consommateur

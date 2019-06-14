@@ -415,7 +415,7 @@ const en = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://www.sec.gov/about/laws/wallstreetreform-cpa.pdf"
+                                        href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
                                     >
                                         Dodd-Frank Wall Street Reform and
                                         Consumer Protection Act

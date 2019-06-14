@@ -473,7 +473,7 @@ const es = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://www.sec.gov/about/laws/wallstreetreform-cpa.pdf"
+                                        href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
                                     >
                                         Ley Dodd-Frank de reforma de Wall Street
                                         y protecci&oacute;n del consumidor
