@@ -1,6 +1,19 @@
 import React from "react";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
+import styled from "styled-components";
+import { theme } from "../../../../../../modules/config/theme";
+
+const Table = styled.table`
+    border-collapse: collapse;
+
+    border: 2px solid ${theme.colors.charcoal};
+
+    & th,
+    td {
+        border: 1px solid ${theme.colors.charcoal};
+    }
+`;
 
 const en = () => {
     return (
@@ -117,18 +130,18 @@ const en = () => {
                     cases, issues should be documented and tracked and
                     management systems should be updated to prevent recurrence.
                 </p>
-                <table>
+                <Table>
                     <caption>
                         Table 1: Remediation of Recruitment Practice Issues
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="35%" scope="col">
+                            <th width="55%" scope="col">
                                 <p>
                                     <strong>Circumstances</strong>
                                 </p>
                             </th>
-                            <th width="65%" scope="col">
+                            <th width="45%" scope="col">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
@@ -201,8 +214,8 @@ const en = () => {
                             </td>
                         </tr>
                     </tbody>
-                </table>
-                <table>
+                </Table>
+                <Table>
                     <caption>
                         {" "}
                         Table 2: Remediation of Working and Living Conditions
@@ -210,12 +223,12 @@ const en = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="35%" scope="col">
+                            <th width="55%" scope="col">
                                 <p>
                                     <strong>Circumstances</strong>
                                 </p>
                             </th>
-                            <th width="65%" scope="col">
+                            <th width="45%" scope="col">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
@@ -455,20 +468,20 @@ const en = () => {
                             </td>
                         </tr>
                     </tbody>
-                </table>
-                <table>
+                </Table>
+                <Table>
                     <caption>
                         Table 3: Remediation of "Impossibility of Leaving"
                         Issues{" "}
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="35%" scope="col">
+                            <th width="55%" scope="col">
                                 <p>
                                     <strong>Circumstances</strong>
                                 </p>
                             </th>
-                            <th width="65%" scope="col">
+                            <th width="45%" scope="col">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
@@ -551,19 +564,19 @@ const en = () => {
                             </td>
                         </tr>
                     </tbody>
-                </table>
-                <table width="100%">
+                </Table>
+                <Table width="100%">
                     <caption>
                         Table 4: Remediation of Penalty or Threat Issues
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="35%" scope="col">
+                            <th width="55%" scope="col">
                                 <p>
                                     <strong>Circumstances</strong>
                                 </p>
                             </th>
-                            <th width="65%" scope="col">
+                            <th width="45%" scope="col">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
@@ -688,7 +701,7 @@ const en = () => {
                             </td>
                         </tr>
                     </tbody>
-                </table>
+                </Table>
                 <ExampleInAction id="better_work">
                     <h2>
                         <ExampleInAction.Icon />{" "}

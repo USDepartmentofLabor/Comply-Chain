@@ -118,7 +118,9 @@ class NavBar extends Component {
 
     toggleStepAccordion = () => {
         const { stepAccordionActive } = this.state;
-        this.setState({ stepAccordionActive: !stepAccordionActive });
+        this.setState({ stepAccordionActive: !stepAccordionActive }, () => {
+            this.stepsAccordion.focus();
+        });
     };
     render() {
         const { visible, stepAccordionActive } = this.state;
@@ -178,6 +180,9 @@ class NavBar extends Component {
                         <StepsMenuItem
                             id="steps-dropdown"
                             onClick={this.toggleStepAccordion}
+                            ref={node => (this.stepsAccordion = node)}
+                            role="button"
+                            tabIndex="0"
                         >
                             {localizor.strings.general.stepsToBasic}
                             <StepIcon>

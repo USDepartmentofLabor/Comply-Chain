@@ -58,10 +58,10 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.giz.de/en/downloads/giz2016-en-social-environmental-standards-industry.pdf"
+                            href="https://www.giz.de/en/worldwide/14900.html"
                             title="Promotion of social, environmental, and production standards in the readymade garment industry"
                         >
-                            https://www.giz.de/en/downloads/giz2016-en-social-environmental-standards-industry.pdf
+                            https://www.giz.de/en/worldwide/14900.html
                         </a>
                         .
                     </li>
@@ -71,15 +71,14 @@ const fr = () => {
                             Good Practice Note: Addressing Grievances from
                             Project-Affected Communities,{" "}
                         </em>
-                        n<sup>o</sup>&nbsp;7. 2009; disponible [en
-                        anglais] sur{" "}
+                        n<sup>o</sup>&nbsp;7. 2009; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.kpesic.com/sites/default/files/IFC%2BGrievance%2BMechanisms.pdf%20"
+                            href="https://www.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=cbe7b18048855348ae6cfe6a6515bb18"
                             title="Good Practice Note: Addressing Grievances from Project-Affected Communities, n<sup>o</sup>&nbsp;7."
                         >
-                            http://www.kpesic.com/sites/default/files/IFC%2BGrievance%2BMechanisms.pdf
+                            https://www.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=cbe7b18048855348ae6cfe6a6515bb18
                         </a>
                         .
                     </li>
@@ -133,8 +132,7 @@ const fr = () => {
                         l&apos;homme.{" "}
                         <em>
                             Improving accountability and access to remedy for
-                            victims of business-related human rights
-                            abuse;{" "}
+                            victims of business-related human rights abuse;{" "}
                         </em>
                         10&nbsp;mai 2016; disponible [en anglais] sur{" "}
                         <a

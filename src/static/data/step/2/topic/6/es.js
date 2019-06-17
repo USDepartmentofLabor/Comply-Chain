@@ -377,7 +377,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.bwsc.dole.gov.ph/programs-and-projects-submenu1/30-programs-projects/social-amelioration-program-in-the-sugar-industry.html"
+                            href="https://www.dole.gov.ph/social-amelioration-program-sap-in-the-sugar-industry/"
                         >
                             Programa de Mejoramiento Social (SAP)
                         </a>
@@ -426,7 +426,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.leberjeweler.com/about/burma.php3/?lang=en"
+                            href="https://leberjeweler.com/burma-and-blood-gems/"
                             title="Leber Jeweler Inc."
                         >
                             Leber Jeweler Inc.
@@ -437,7 +437,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.leberjeweler.com/about/burma.php3"
+                            href="https://leberjeweler.com/our-story/about-the-designers/"
                             title="Proyecto de Jeweler para Asistir a Birmania"
                         >
                             Proyecto de Jeweler para Asistir a Birmania
@@ -454,7 +454,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.treasury.gov/resource-center/sanctions/Documents/pl110_286_jade_act.pdf"
+                            href="https://www.congress.gov/110/plaws/publ286/PLAW-110publ286.pdf"
                             title="Ley JADE birmana del bloque de Tom Lantos de 2008"
                         >
                             Ley JADE birmana del bloque de Tom Lantos de 2008
@@ -727,7 +727,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.bewhatspossible.com/pace"
+                            href="https://www.gapincsustainability.com/people/pace-changing-one-million-lives"
                             title="Programa P.A.C.E. (Personal Advancement and Career Enhancement)"
                         >
                             programa P.A.C.E. (
@@ -851,7 +851,7 @@ const es = () => {
                         consumidores.
                     </li>
                 </ul>
-                <Accordion id="resources" >
+                <Accordion id="resources">
                     <Accordion.Section>
                         <Accordion.Title>Recursos adicionales</Accordion.Title>
                         <Accordion.Panel>

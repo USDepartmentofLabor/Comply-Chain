@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { Component } from "react";
+import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import { storage } from "../../modules/storage";
 import { getHash } from "../../modules/utils";
@@ -78,6 +78,7 @@ class ScrollToTop extends Component {
         } else {
             window.scrollTo(x, y);
         }
+        this.node.focus();
     };
 
     saveScrollPosition = () => {
@@ -86,7 +87,11 @@ class ScrollToTop extends Component {
     };
 
     render() {
-        return this.props.children;
+        return (
+            <div ref={n => (this.node = n)} tabIndex={-1}>
+                {this.props.children}
+            </div>
+        );
     }
 }
 

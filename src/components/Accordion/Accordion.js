@@ -4,7 +4,9 @@ import styled from "styled-components";
 import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
 import { getHash } from "../../modules/utils";
-
+const Heading = styled.h1`
+    font-family: ${theme.fonts.body};
+`;
 class Accordion extends Component {
     state = { active: false };
 
@@ -136,7 +138,7 @@ class Accordion extends Component {
             }
 
             if (child.type.displayName === "Title") {
-                return React.cloneElement(child, {
+                const title = React.cloneElement(child, {
                     ref: title => (this.title[sectionIndex] = title),
                     onClick: () => {
                         this.toggleActive(sectionIndex);
@@ -147,6 +149,10 @@ class Accordion extends Component {
                     role: "button",
                     "aria-expanded": false
                 });
+                if (child.props.heading) {
+                    return <Heading as={child.props.heading}>{title}</Heading>;
+                }
+                return title;
             }
 
             if (child.type.displayName === "Panel") {

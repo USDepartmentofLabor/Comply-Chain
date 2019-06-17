@@ -38,7 +38,7 @@ const fr = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://business-humanrights.org/sites/default/files/documents/Texte%20PPL_EN-US.docx"
+                        href="https://www.business-humanrights.org/en/frances-law-on-the-corporate-duty-of-vigilance-a-practical-and-multidimensional-analysis-in-english"
                         title="Loi fran&ccedil;aise sur le devoir de vigilance"
                     >
                         loi fran&ccedil;aise sur le devoir de vigilance

@@ -66,10 +66,10 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.giz.de/en/downloads/giz2016-en-social-environmental-standards-industry.pdf"
+                            href="https://www.giz.de/en/worldwide/14900.html"
                             title="GTZ, <i>Promotion of social, environmental, and production standards in the readymade garment industry</i>, sin fecha; disponible en idioma ingl&eacute;s solamente en http://www.giz.de/themen/en/20176.htm."
                         >
-                            https://www.giz.de/en/downloads/giz2016-en-social-environmental-standards-industry.pdf
+                            https://www.giz.de/en/worldwide/14900.html
                         </a>
                         .
                     </li>
@@ -87,10 +87,10 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.kpesic.com/sites/default/files/IFC%2BGrievance%2BMechanisms.pdf%20"
+                            href="https://www.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=cbe7b18048855348ae6cfe6a6515bb18"
                             title="Nota de asesor�a: <i>Addressing Grievances from Project-Affected Communities</i>, n&uacute;m. 7."
                         >
-                            http://www.kpesic.com/sites/default/files/IFC%2BGrievance%2BMechanisms.pdf{" "}
+                            https://www.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=cbe7b18048855348ae6cfe6a6515bb18
                         </a>
                         .
                     </li>

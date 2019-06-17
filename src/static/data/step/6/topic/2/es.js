@@ -1,6 +1,19 @@
 import React from "react";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
+import styled from "styled-components";
+import { theme } from "../../../../../../modules/config/theme";
+
+const Table = styled.table`
+    border-collapse: collapse;
+
+    border: 2px solid ${theme.colors.charcoal};
+
+    & th,
+    td {
+        border: 1px solid ${theme.colors.charcoal};
+    }
+`;
 
 const es = () => {
     return (
@@ -138,19 +151,19 @@ const es = () => {
                     sistemas de la gerencia deben actualizarse para evitar la
                     reincidencia.
                 </p>
-                <table>
+                <Table>
                     <caption>
                         Cuadro 1: Problemas en la remediaci&oacute;n de las
                         pr&aacute;cticas de reclutamiento
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="35%" scope="col">
+                            <th width="55%" scope="col">
                                 <p>
                                     <strong>Circunstancias</strong>
                                 </p>
                             </th>
-                            <th width="65%" scope="col">
+                            <th width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Medidas de remediaci&oacute;n
@@ -238,20 +251,20 @@ const es = () => {
                             </td>
                         </tr>
                     </tbody>
-                </table>
-                <table>
+                </Table>
+                <Table>
                     <caption>
                         Cuadro 2: Remediaci&oacute;n de problemas con las
                         condiciones laborales o de alojamiento
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="35%" scope="col">
+                            <th width="55%" scope="col">
                                 <p>
                                     <strong>Circunstancias</strong>
                                 </p>
                             </th>
-                            <th width="65%" scope="col">
+                            <th width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Medidas de remediaci&oacute;n
@@ -526,20 +539,20 @@ const es = () => {
                             </td>
                         </tr>
                     </tbody>
-                </table>
-                <table>
+                </Table>
+                <Table>
                     <caption>
                         Cuadro 3: Remediaci&oacute;n de los problemas de la
                         &ldquo;imposibilidad de irse&rdquo;
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="35%" scope="col">
+                            <th width="55%" scope="col">
                                 <p>
                                     <strong>Circunstancias</strong>
                                 </p>
                             </th>
-                            <th width="65%" scope="col">
+                            <th width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Medidas de remediaci&oacute;n
@@ -638,20 +651,20 @@ const es = () => {
                             </td>
                         </tr>
                     </tbody>
-                </table>
-                <table width="100%">
+                </Table>
+                <Table width="100%">
                     <caption>
                         Cuadro 4: Remediaci&oacute;n de los problemas de
                         sanciones o amenazas
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="35%" scope="col">
+                            <th width="55%" scope="col">
                                 <p>
                                     <strong>Circunstancias</strong>
                                 </p>
                             </th>
-                            <th width="65%" scope="col">
+                            <th width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Medidas de remediaci&oacute;n
@@ -795,7 +808,7 @@ const es = () => {
                             </td>
                         </tr>
                     </tbody>
-                </table>
+                </Table>
                 <ExampleInAction id="better_work">
                     <h2>
                         <ExampleInAction.Icon />{" "}

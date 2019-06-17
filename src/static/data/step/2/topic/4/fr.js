@@ -71,40 +71,21 @@ const fr = () => {
                     d&apos;approvisionnement:
                 </p>
                 <p>
-                    Exemple 1: Cha&icirc;nes d&apos;approvisionnement du
-                    cacao (C&ocirc;te d&apos;Ivoire et Ghana) <br />{" "}
-                    Exemple&nbsp;2: Cha&icirc;nes d&apos;approvisionnement
-                    de l&apos;&eacute;lectronique&nbsp;&ndash;{" "}
+                    Exemple 1: Cha&icirc;nes d&apos;approvisionnement du cacao
+                    (C&ocirc;te d&apos;Ivoire et Ghana) <br /> Exemple&nbsp;2:
+                    Cha&icirc;nes d&apos;approvisionnement de
+                    l&apos;&eacute;lectronique&nbsp;&ndash;{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
-                        title="Cobalt"
+                        href="https://www.resolve.ngo/site-eiscm/default.htm?RD=1"
+                        title="Cobalt, Tantale, et &Eacute;tain"
                     >
-                        Cobalt
-                    </a>{" "}
-                    (voir page&nbsp;44 du PDF),{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
-                        title="Tantale"
-                    >
-                        Tantale
-                    </a>{" "}
-                    (voir page&nbsp;43 du PDF),{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
-                        title="&Eacute;tain"
-                    >
-                        &Eacute;tain
-                    </a>{" "}
-                    (voir page&nbsp;42 du PDF) <br /> Exemple 3:
-                    Cha&icirc;ne d&rsquo;alimentation d&rsquo;importation
-                    g&eacute;n&eacute;rique&nbsp;&ndash; mod&egrave;le de
-                    d&eacute;tail
+                        Cobalt, Tantale, et &Eacute;tain
+                    </a>
+                    <br /> Exemple 3: Cha&icirc;ne d&rsquo;alimentation
+                    d&rsquo;importation g&eacute;n&eacute;rique&nbsp;&ndash;
+                    mod&egrave;le de d&eacute;tail
                 </p>
                 <p>
                     Les marchandises produites &agrave; partir de produits
@@ -179,7 +160,7 @@ const fr = () => {
                     </a>
                 </p>
                 <div id="cocoa_chains">
-                    <Accordion  id="cocoa-chains-acc">
+                    <Accordion id="cocoa-chains-acc">
                         <Accordion.Section id="cocoa-description">
                             <Accordion.Title>
                                 Description du graphique
@@ -271,7 +252,7 @@ const fr = () => {
                     </a>
                 </p>
                 <div>
-                    <Accordion  id="generic-import-acc">
+                    <Accordion id="generic-import-acc">
                         <Accordion.Section id="generic-import-description">
                             <Accordion.Title>
                                 Description du graphique
@@ -303,8 +284,8 @@ const fr = () => {
                                         Deuxi&egrave;me &eacute;tape: commande
                                         et production. Au cours de cette
                                         &eacute;tape se produisent le placement
-                                        et la classification du produit;
-                                        un acheteur envoie un bon de commande
+                                        et la classification du produit; un
+                                        acheteur envoie un bon de commande
                                         &eacute;lectronique au fournisseur, au
                                         commissionnaire en douane, au
                                         transitaire et &agrave; la banque.

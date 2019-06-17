@@ -1,6 +1,19 @@
 import React from "react";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
+import styled from "styled-components";
+import { theme } from "../../../../../../modules/config/theme";
+
+const Table = styled.table`
+    border-collapse: collapse;
+
+    border: 2px solid ${theme.colors.charcoal};
+
+    & th,
+    td {
+        border: 1px solid ${theme.colors.charcoal};
+    }
+`;
 
 const fr = () => {
     return (
@@ -101,8 +114,7 @@ const fr = () => {
                         emploi, dans une langue qu&apos;ils comprennent, et que
                         toute modification apport&eacute;e au contrat sera
                         r&eacute;alis&eacute;e avec le consentement
-                        &eacute;clair&eacute; et &eacute;crit des
-                        travailleurs;
+                        &eacute;clair&eacute; et &eacute;crit des travailleurs;
                     </p>
                     <p>
                         Absence de m&eacute;canismes par lesquels les
@@ -151,19 +163,19 @@ const fr = () => {
                     &ecirc;tre mis &agrave; jour pour emp&ecirc;cher les
                     r&eacute;cidives.
                 </p>
-                <table>
+                <Table>
                     <caption>
-                        Tableau&nbsp;1: R&eacute;paration des
-                        probl&egrave;mes concernant les pratiques de recrutement
+                        Tableau&nbsp;1: R&eacute;paration des probl&egrave;mes
+                        concernant les pratiques de recrutement
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="35%" scope="col">
+                            <th width="55%" scope="col">
                                 <p>
                                     <strong>Situations</strong>
                                 </p>
                             </th>
-                            <th width="65%" scope="col">
+                            <th width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Actions de r&eacute;paration
@@ -226,14 +238,14 @@ const fr = () => {
                         <tr>
                             <td>
                                 <p>
-                                    Recrutement trompeur: il a
-                                    &eacute;t&eacute; promis aux travailleurs
-                                    des types de travail, des conditions de
-                                    travail, des modalit&eacute;s de contrat,
-                                    des conditions de logement ou
-                                    d&apos;existence, des lieux de travail, des
-                                    employeurs ou des salaires/revenus qui ne se
-                                    sont pas r&eacute;alis&eacute;s.
+                                    Recrutement trompeur: il a &eacute;t&eacute;
+                                    promis aux travailleurs des types de
+                                    travail, des conditions de travail, des
+                                    modalit&eacute;s de contrat, des conditions
+                                    de logement ou d&apos;existence, des lieux
+                                    de travail, des employeurs ou des
+                                    salaires/revenus qui ne se sont pas
+                                    r&eacute;alis&eacute;s.
                                 </p>
                             </td>
                             <td>
@@ -259,21 +271,21 @@ const fr = () => {
                             </td>
                         </tr>
                     </tbody>
-                </table>
-                <table>
+                </Table>
+                <Table>
                     <caption>
-                        Tableau&nbsp;2: R&eacute;paration des
-                        probl&egrave;mes concernant les conditions de travail et
+                        Tableau&nbsp;2: R&eacute;paration des probl&egrave;mes
+                        concernant les conditions de travail et
                         d&rsquo;existence
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="35%" scope="col">
+                            <th width="55%" scope="col">
                                 <p>
                                     <strong>Situations</strong>
                                 </p>
                             </th>
-                            <th width="65%" scope="col">
+                            <th width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Actions de r&eacute;paration
@@ -583,21 +595,21 @@ const fr = () => {
                             </td>
                         </tr>
                     </tbody>
-                </table>
-                <table>
+                </Table>
+                <Table>
                     <caption>
-                        Tableau&nbsp;3: R&eacute;paration des
-                        probl&egrave;mes concernant
-                        l&apos;«&nbsp;impossibilit&eacute; de partir&nbsp;»
+                        Tableau&nbsp;3: R&eacute;paration des probl&egrave;mes
+                        concernant l&apos;«&nbsp;impossibilit&eacute; de
+                        partir&nbsp;»
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="35%" scope="col">
+                            <th width="55%" scope="col">
                                 <p>
                                     <strong>Situations</strong>
                                 </p>
                             </th>
-                            <th width="65%" scope="col">
+                            <th width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Actions de r&eacute;paration
@@ -710,20 +722,20 @@ const fr = () => {
                             </td>
                         </tr>
                     </tbody>
-                </table>
-                <table width="100%">
+                </Table>
+                <Table width="100%">
                     <caption>
-                        Tableau&nbsp;4: R&eacute;paration des
-                        probl&egrave;mes concernant les sanctions ou les menaces
+                        Tableau&nbsp;4: R&eacute;paration des probl&egrave;mes
+                        concernant les sanctions ou les menaces
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="35%" scope="col">
+                            <th width="55%" scope="col">
                                 <p>
                                     <strong>Situations</strong>
                                 </p>
                             </th>
-                            <th width="65%" scope="col">
+                            <th width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Actions de r&eacute;paration
@@ -874,7 +886,7 @@ const fr = () => {
                             </td>
                         </tr>
                     </tbody>
-                </table>
+                </Table>
                 <ExampleInAction id="better_work">
                     <h2>
                         <ExampleInAction.Icon />{" "}

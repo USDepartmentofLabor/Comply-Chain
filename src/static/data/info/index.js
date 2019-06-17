@@ -72,14 +72,13 @@ export const Info = {
             content: KeyResources.es
         },
         findings: {
-            title:
-                "Informe Resultados sobre las peores formas de trabajo infantil",
+            title: "Resultados sobre las peores formas de trabajo infantil",
             keywords: [],
             content: Findings.es
         },
         goods: {
             title:
-                "Lista de productos producidos por medio del trabajo infantil y del trabajo forzoso",
+                "Lista de productos producidos por medio del trabajo infantil o del trabajo forzoso",
             keywords: [],
             content: Goods.es
         }
@@ -116,7 +115,8 @@ export const Info = {
             content: Findings.fr
         },
         goods: {
-            title: "Liste de biens issus du travail des enfants ou du travail",
+            title:
+                "Liste de biens issus du travail des enfants ou du travail forcé",
             keywords: [],
             content: Goods.fr
         }

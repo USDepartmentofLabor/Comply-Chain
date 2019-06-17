@@ -455,7 +455,7 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.bwsc.dole.gov.ph/programs-and-projects-submenu1/30-programs-projects/social-amelioration-program-in-the-sugar-industry.html"
+                            href="https://www.dole.gov.ph/social-amelioration-program-sap-in-the-sugar-industry/"
                         >
                             Programme d&rsquo;am&eacute;lioration sociale (SAP)
                         </a>
@@ -497,8 +497,8 @@ const fr = () => {
                 <ExampleInAction id="leber">
                     <h4>
                         <ExampleInAction.Icon />{" "}
-                        <strong>Exemple d&apos;action</strong>: Leber
-                        Jeweler*: Le Jewelers&rsquo; Burma Relief Project
+                        <strong>Exemple d&apos;action</strong>: Leber Jeweler*:
+                        Le Jewelers&rsquo; Burma Relief Project
                     </h4>
                     <p>
                         De nombreuses pierres pr&eacute;cieuses, y compris 90 %
@@ -512,7 +512,7 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.leberjeweler.com/about/burma.php3/?lang=en"
+                            href="https://leberjeweler.com/burma-and-blood-gems/"
                             title="Leber Jeweler Inc."
                         >
                             Leber Jeweler Inc.
@@ -524,7 +524,7 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.leberjeweler.com/about/burma.php3"
+                            href="https://leberjeweler.com/our-story/about-the-designers/"
                             title="Jewelers&rsquo; Burma Relief Project"
                         >
                             Jewelers&rsquo; Burma Relief Project
@@ -541,7 +541,7 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.treasury.gov/resource-center/sanctions/Documents/pl110_286_jade_act.pdf"
+                            href="https://www.congress.gov/110/plaws/publ286/PLAW-110publ286.pdf"
                             title="loi Tom Lantos Block Burmese JADE de 2008"
                         >
                             loi Tom Lantos Block Burmese JADE de 2008
@@ -605,8 +605,7 @@ const fr = () => {
                         </em>
                     </p>
                     <p>
-                        Source: Organisation internationale du
-                        travail,&nbsp;
+                        Source: Organisation internationale du travail,&nbsp;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -850,7 +849,7 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.bewhatspossible.com/pace"
+                            href="https://www.gapincsustainability.com/people/pace-changing-one-million-lives"
                             title="Programme P.A.C.E."
                         >
                             programme P.A.C.E.
@@ -987,7 +986,7 @@ const fr = () => {
                         consommateurs durable.
                     </li>
                 </ul>
-                <Accordion id="resources" >
+                <Accordion id="resources">
                     <Accordion.Section>
                         <Accordion.Title>Autres ressources</Accordion.Title>
                         <Accordion.Panel>
@@ -996,8 +995,8 @@ const fr = () => {
                                     Barnes &amp; Noble College League Collegiate
                                     Outfitters Creates Hope and Second Chances
                                     in El Salvador. [en ligne, disponible le
-                                    8&nbsp;mai 2017]; disponible [en
-                                    anglais] sur{" "}
+                                    8&nbsp;mai 2017]; disponible [en anglais]
+                                    sur{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -1031,8 +1030,8 @@ const fr = () => {
                                         lutte contre la pauvret&eacute;
                                     </em>
                                     . Banque mondiale, Washington, DC,
-                                    26&nbsp;ao&ucirc;t 2008; disponible
-                                    [en anglais] sur{" "}
+                                    26&nbsp;ao&ucirc;t 2008; disponible [en
+                                    anglais] sur{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -1045,9 +1044,7 @@ const fr = () => {
                                 </li>
                                 <li>
                                     Ethical Trading Initiative.{" "}
-                                    <em>
-                                        Base Code Guidance: Living Wages;{" "}
-                                    </em>
+                                    <em>Base Code Guidance: Living Wages; </em>
                                     disponible [en anglais] sur{" "}
                                     <a
                                         target="_blank"
@@ -1078,11 +1075,10 @@ const fr = () => {
                                     Fair Labor Association.{" "}
                                     <em>
                                         Fair Compensation for Farmworkers:
-                                        Emerging Good Practices and
-                                        Challenges;{" "}
+                                        Emerging Good Practices and Challenges;{" "}
                                     </em>
-                                    27&nbsp;f&eacute;vrier 2017;
-                                    disponible [en anglais] sur{" "}
+                                    27&nbsp;f&eacute;vrier 2017; disponible [en
+                                    anglais] sur{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -1100,8 +1096,8 @@ const fr = () => {
                                         Supply Chains: Factory Pay Assessments
                                         in 21 Countries;{" "}
                                     </em>
-                                    3&nbsp;ao&ucirc;t&nbsp;2016;
-                                    disponible [en anglais] sur{" "}
+                                    3&nbsp;ao&ucirc;t&nbsp;2016; disponible [en
+                                    anglais] sur{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -1207,8 +1203,8 @@ const fr = () => {
                                 <li>
                                     ISEAL Alliance.{" "}
                                     <em>Global Living Wage Coalition</em> [en
-                                    ligne, consult&eacute; le 15&nbsp;mai
-                                    2017]; disponible [en anglais] sur{" "}
+                                    ligne, consult&eacute; le 15&nbsp;mai 2017];
+                                    disponible [en anglais] sur{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -1244,9 +1240,8 @@ const fr = () => {
                                     Harvard University Press, 2014.
                                 </li>
                                 <li>
-                                    Wilshaw, Rachel; Hamilton,
-                                    Sloane; Theroux-Seguin, Julie et Daisy
-                                    Gardener.{" "}
+                                    Wilshaw, Rachel; Hamilton, Sloane;
+                                    Theroux-Seguin, Julie et Daisy Gardener.{" "}
                                     <em>
                                         In Work but Trapped in Poverty: A
                                         Summary of Five Studies Conducted by
@@ -1254,8 +1249,8 @@ const fr = () => {
                                         the Road to a Living Wage;{" "}
                                     </em>
                                     Oxfam International,
-                                    29&nbsp;septembre&nbsp;2015;
-                                    disponible [en anglais] sur{" "}
+                                    29&nbsp;septembre&nbsp;2015; disponible [en
+                                    anglais] sur{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"

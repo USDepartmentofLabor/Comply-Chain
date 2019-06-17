@@ -5,52 +5,61 @@ const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Findings on the Worst Forms of Child Labor</h1>
+                <h1>Conclusions sur les pires formes de travail des enfants</h1>
                 <p>
-                    The Department of Labor's annual Findings on the Worst Forms
-                    of Child Labor focuses on the efforts of certain U.S. trade
-                    beneficiary countries and territories to eliminate the worst
-                    forms of child labor through legislation, enforcement
-                    mechanisms, policies and social programs. Read More
+                    Le rapport annuel du département du Travail intitulé «
+                    Conclusions sur les pires formes de travail des enfants »
+                    évalue les efforts déployés par certains pays et territoires
+                    bénéficiaires d’échanges commerciaux avec les États-Unis en
+                    vue d’éliminer les pires formes de travail des enfants par
+                    des mesures législatives, des mécanismes de répression, des
+                    politiques et des programmes sociaux.
                 </p>
-                The Report presents:
+                Le rapport présente:
                 <ul>
                     <li>
-                        Findings on the prevalence and sectoral distribution of
-                        the worst forms of child labor in each country.
+                        Des conclusions sur la prévalence et la répartition
+                        sectorielle des pires formes du travail des enfants dans
+                        chaque pays
                     </li>
                     <li>
-                        Country-specific suggestions for government action
-                        (since 2009).
+                        Des suggestions spécifiques de mesures gouvernementales
+                        pour chaque pays (depuis 2009).
                     </li>
                     <li>
-                        Individual country assessments that identify where
-                        Significant, Moderate, Minimal, or No Advancement has
-                        been made (since 2011).
-                    </li>
-                    <li>
-                        The Report serves as a resource to foreign governments,
-                        NGOs, academics and policymakers working on labor and
-                        human rights issues. It helps inform Congress and
-                        Executive Branch agencies that formulate labor and trade
-                        policy and is an important resource for the Department
-                        in assessing future technical assistance and research
-                        priorities as it seeks to combat child labor around the
-                        world.
+                        Des évaluations individuelles de divers pays identifiant
+                        s’ils ont accompli des progrès importants, modérés,
+                        minimes ou nuls (depuis 2011).
                     </li>
                 </ul>
                 <p>
-                    The Department's Bureau of International Labor Affairs
-                    (ILAB) has published the Findings each year since 2002, as
-                    mandated by the Trade and Development Act of 2000 (TDA). The
-                    TDA requires that countries fulfill commitments to eliminate
-                    the worst forms of child labor to be eligible for certain
-                    U.S. trade preference programs. It also requires the U.S.
-                    Secretary of Labor to issue annual findings on beneficiary
-                    country initiatives to implement these commitments.
+                    Le Rapport sert de ressource aux gouvernements étrangers,
+                    aux ONG, aux universitaires et aux décideurs politiques qui
+                    travaillent sur les questions de main d’œuvre et de droits
+                    de la personne. Il informe le Congrès et les organismes de
+                    l’Exécutif qui formulent les politiques applicables à la
+                    main d’œuvre et aux échanges commerciaux, et constitue une
+                    ressource importante pour l’évaluation par le département du
+                    Travail de toute future priorité en matière d’assistance
+                    technique et de recherche dans le cadre de la lutte contre
+                    le travail des enfants à l’échelle mondiale.
                 </p>
                 <p>
-                    Read more here:{" "}
+                    Le Bureau chargé des Affaires internationales du Travail du
+                    département du Travail (ILAB) publie ces Conclusions chaque
+                    année depuis 2002, conformément au mandat de la TDA de 2000
+                    (Trade and Development Act - Loi sur le Commerce et le
+                    Développement). La TDA exige des pays qu’ils respectent des
+                    engagements visant à éliminer les pires formes de travail
+                    des enfants afin de pouvoir bénéficier de certains
+                    programmes de préférences commerciales offerts par les
+                    États-Unis. Elle exige de surcroît que le secrétaire au
+                    Commerce publie chaque année des conclusions sur les
+                    initiatives mises en place par les pays bénéficiaires pour
+                    s’acquitter de leurs engagements.
+                </p>
+                <p>
+                    Pour de plus amples informations, lire:{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
