@@ -74,30 +74,11 @@ const es = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
-                        title="Cobalto"
+                        href="https://www.resolve.ngo/site-eiscm/default.htm?RD=1"
+                        title="cobalto, tantalio, y tantalio"
                     >
-                        cobalto
-                    </a>{" "}
-                    (v&eacute;ase la p&aacute;gina 44 del documento en PDF),{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
-                        title="Tantalio"
-                    >
-                        tantalio
-                    </a>{" "}
-                    (v&eacute;ase la p&aacute;gina 43 del documento en PDF),{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.resolv.org/site-eiscm/files/2011/02/Tracing-a-Path-Forward-A-Study-of-the-Challenges-of-the-Supply-Chain-for-Target-Metals-Used-in-Electronics_FINAL-Updated.pdf"
-                        title="Esta&ntilde;o"
-                    >
-                        esta&ntilde;o
-                    </a>{" "}
-                    (v&eacute;ase la p&aacute;gina 42 del documento en PDF){" "}
+                        cobalto, tantalio, y tantalio
+                    </a>
                     <br /> Ejemplo 3: cadena de suministro de importaciones
                     gen&eacute;ricas en un modelo de comercializaci&oacute;n
                     minorista
@@ -165,7 +146,7 @@ const es = () => {
                     </a>
                 </p>
                 <div id="cocoa_chains">
-                    <Accordion  id="cocoa-chains-acc">
+                    <Accordion id="cocoa-chains-acc">
                         <Accordion.Section id="cocoa-description">
                             <Accordion.Title>
                                 Descripci&oacute;n del gr&aacute;fico
@@ -245,7 +226,7 @@ const es = () => {
                     </a>
                 </p>
                 <div>
-                    <Accordion  id="generic-import-acc">
+                    <Accordion id="generic-import-acc">
                         <Accordion.Section id="generic-import-description">
                             <Accordion.Title>
                                 Descripci&oacute;n del gr&aacute;fico

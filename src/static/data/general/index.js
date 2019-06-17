@@ -12,7 +12,7 @@ export const General = {
         learningObjectives: "Learning Objectives",
         keyTerms: "Key Terms",
         topics: "Topics",
-        stepsToBasic: "Steps to a social compliance system",
+        stepsToBasic: "Steps to a Social Compliance System",
         prevTopic: "Previous Topic",
         prevStep: "Previous Step",
         nextTopic: "Next Topic",
@@ -36,7 +36,12 @@ export const General = {
         bookmarked: "You have bookmarked",
         removed: "You have removed",
         fromBookmarks: "from your bookmarks",
-        undo: "Undo"
+        undo: "Undo",
+        nobookmarks: "You don't have any bookmarks",
+        copyLink: "Copy Link",
+        usDol: "Bureau of International Labor Affairs",
+        dolSeal: "United States Department of Labor seal",
+        back: "Back"
     },
     es: {
         home: "Página principal",
@@ -75,7 +80,12 @@ export const General = {
         bookmarked: "Ha marcado",
         removed: "Ha eliminado",
         fromBookmarks: "de sus marcadores",
-        undo: "Deshacer"
+        undo: "Deshacer",
+        nobookmarks: "No tiene ningún marcador",
+        copyLink: "Copiar enlace",
+        usDol: "Dirección de Asuntos Laborales Internacionales",
+        dolSeal: "Sello del Departamento de Trabajo de los Estados Unidos",
+        back: "Regresar"
     },
     fr: {
         home: "Page d'accueil",
@@ -114,6 +124,11 @@ export const General = {
         bookmarked: "Vous avez marqué",
         removed: "Vous avez supprimé",
         fromBookmarks: "de vos favoris",
-        undo: "Annuler"
+        undo: "Annuler",
+        nobookmarks: "Vous n'avez pas de favoris ",
+        copyLink: "Copier le lien",
+        usDol: "Bureau des affaires internationales du travail",
+        dolSeal: "Sceau du Département du Travail des États-Unis",
+        back: "Retour"
     }
 };

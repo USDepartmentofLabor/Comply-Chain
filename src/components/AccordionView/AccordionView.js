@@ -1,21 +1,33 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
 import Accordion from "../Accordion";
+import styled from "styled-components";
 
+const Wrapper = styled(Accordion.Section)`
+    & h3 {
+        font-size: 17px;
+    }
+`;
 class AccordionView extends Component {
     render() {
         const { sections, id, reset } = this.props;
         return (
-            <Accordion id={id} reset={reset}>
-                {sections.map((section, i) => {
-                    return (
-                        <Accordion.Section id={section.id} key={i}>
-                            <Accordion.Title>{section.title}</Accordion.Title>
-                            <Accordion.Panel>{section.content}</Accordion.Panel>
-                        </Accordion.Section>
-                    );
-                })}
-            </Accordion>
+            <Wrapper>
+                <Accordion id={id} reset={reset}>
+                    {sections.map((section, i) => {
+                        return (
+                            <Accordion.Section id={section.id} key={i}>
+                                <Accordion.Title heading="h3">
+                                    {section.title}
+                                </Accordion.Title>
+                                <Accordion.Panel>
+                                    {section.content}
+                                </Accordion.Panel>
+                            </Accordion.Section>
+                        );
+                    })}
+                </Accordion>
+            </Wrapper>
         );
     }
 }

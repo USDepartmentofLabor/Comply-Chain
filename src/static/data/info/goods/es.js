@@ -5,35 +5,42 @@ const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>List of Goods Produced by Child Labor or Forced Labor</h1>
+                <h1>
+                    Lista de productos producidos por medio del trabajo infantil
+                    o del trabajo forzoso
+                </h1>
                 <p>
-                    ILAB maintains a list of goods and their source countries
-                    which it has reason to believe are produced by child labor
-                    or forced labor in violation of international standards, as
-                    required under the Trafficking Victims Protection
-                    Reauthorization Act (TVPRA) of 2005 and subsequent
-                    reauthorizations. As of September 20, 2018, the List of
-                    Goods Produced by Child Labor or Forced Labor comprises 148
-                    goods from 76 countries.
+                    La ILAB mantiene una lista de productos y sus países de
+                    origen que según le consta han sido producidos con trabajo
+                    infantil o trabajo forzoso lo que es una contravención de
+                    las normas internacionales, conforme la Ley de
+                    Reautorización para la Protección de las Víctimas de la
+                    Trata de Personas (TVPRA) de 2005 y sus reautorizaciones
+                    posteriores. Desde el 20 de septiembre de 2018, la Lista de
+                    productos producidos por medio del trabajo infantil o del
+                    trabajo forzoso incluye 148 productos de 76 países.
                 </p>
                 <p>
-                    ILAB maintains the List primarily to raise public awareness
-                    about forced labor and child labor around the world and to
-                    promote efforts to combat them; it is not intended to be
-                    punitive, but rather to serve as a catalyst for more
-                    strategic and focused coordination and collaboration among
-                    those working to address these problems.
+                    La ILAB mantiene la lista principalmente para concientizar
+                    al público acerca del trabajo forzoso y el trabajo infantil
+                    en todo el mundo, así como para fomentar iniciativas para
+                    combatirlos; no tiene la intención de ser punitiva, más bien
+                    de ser un agente catalizador para que exista un mayor grado
+                    de coordinación y colaboración estratégicas y centradas
+                    entre los que trabajan para abordar estos problemas.
                 </p>
                 <p>
-                    Publication of the List has resulted in new opportunities
-                    for ILAB to engage with foreign governments to combat forced
-                    labor and child labor. It is also a valuable resource for
-                    researchers, advocacy organizations and companies wishing to
-                    carry out risk assessments and engage in due diligence on
-                    labor rights in their supply chains.
+                    La publicación de la Lista ha generado nuevas oportunidades
+                    para que la ILAB interactúe con gobiernos extranjeros con el
+                    fin de luchar contra el trabajo forzoso y el trabajo
+                    infantil. Es también un instrumento valioso para
+                    investigadores, organizaciones de promoción y empresas que
+                    quieren realizar evaluaciones de riesgo y participar en la
+                    diligencia debida en materia de derechos laborales en sus
+                    cadenas de suministro.
                 </p>
                 <p>
-                    Read more here:{" "}
+                    Más información aquí:{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

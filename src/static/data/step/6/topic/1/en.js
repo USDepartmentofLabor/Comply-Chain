@@ -33,7 +33,7 @@ const en = () => {
                     child labor and forced labor.
                 </p>
                 <h2>Child Labor</h2>
-                <h3>Underage Labor.</h3>
+                <h3>Underage Labor</h3>
                 <p>
                     If the audit identifies a child in the workplace who is
                     under the country&rsquo;s legal working age, the child
@@ -95,7 +95,7 @@ const en = () => {
                 <h3>Hazardous Child Labor</h3>
                 <p>
                     No child under age 18 should be involved in the Worst Forms
-                    of Child Labor specified in ILO Convention 182 (see
+                    of Child Labor specified in ILO Convention 182 (see{" "}
                     <Link to="/steps/3">Step 3, Develop a Code of Conduct</Link>
                     ). If children are found in such situations, the best
                     approaches include:

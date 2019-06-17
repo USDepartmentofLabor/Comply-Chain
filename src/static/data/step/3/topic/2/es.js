@@ -49,7 +49,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://levistrauss.com/unzipped-blog/tag/terms-of-engagement/"
+                            href="http://levistrauss.com/wp-content/uploads/2017/12/TOE.pdf"
                             title="Levi Strauss &amp; Co*. Condiciones de la participaci&oacute;n"
                         >
                             Levi Strauss &amp; Co*. Condiciones de la

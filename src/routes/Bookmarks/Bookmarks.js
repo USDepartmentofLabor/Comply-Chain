@@ -34,11 +34,15 @@ const BookmarkIcon = styled(Icons.BookmarkCheck)`
     overflow: visible;
 `;
 
-const ItemHeader = styled.span``;
+const ItemHeader = styled.span`
+    font-size: 22px;
+    font-weight: bold;
+`;
 
 const ItemTitle = styled.h3`
     padding: 0;
     margin: 0;
+    font-size: 20px;
 `;
 
 const ItemContent = styled(Link)`
@@ -92,7 +96,8 @@ const ToastUndo = ({ bookmark, localizor, undo, shouldClose, closeToast }) => {
                 {localizor.strings.general.fromBookmarks}.
             </UndoText>{" "}
             <UndoButton
-                onTouchStart={() => {
+                onTouchEnd={e => {
+                    e.preventDefault();
                     handleClick();
                 }}
                 onClick={handleClick}
@@ -180,7 +185,9 @@ class Bookmarks extends Component {
                         </IconContainer>
                     );
                 })}
-                {filtered.length === 0 && <p>You don't have any bookmarks.</p>}
+                {filtered.length === 0 && (
+                    <p>{localizor.strings.general.nobookmarks}.</p>
+                )}
             </div>
         );
     };
@@ -212,7 +219,7 @@ class Bookmarks extends Component {
         clearTimeout(this.undoTimer);
         this.undoTimer = setTimeout(() => {
             toast.dismiss(this.toastId);
-        }, 500000);
+        }, 5000);
     };
 
     unmarkForRemoval = bookmark => {
@@ -249,10 +256,13 @@ class Bookmarks extends Component {
 
     render() {
         const { bookmarks } = this.state;
+        const { localizor } = this.props;
         return (
             <div>
-                <h4>Bookmarks</h4>
-                {bookmarks.length === 0 && <p>You don't have any bookmarks.</p>}
+                <h4>{localizor.strings.general.bookmarks}</h4>
+                {bookmarks.length === 0 && (
+                    <p>{localizor.strings.general.nobookmarks}.</p>
+                )}
                 {bookmarks.length > 0 && (
                     <div>{this.renderBookmarks(bookmarks)}</div>
                 )}

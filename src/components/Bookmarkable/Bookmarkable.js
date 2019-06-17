@@ -77,7 +77,8 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
                 .
             </UndoText>{" "}
             <UndoButton
-                onTouchStart={() => {
+                onTouchEnd={e => {
+                    e.preventDefault();
                     handleClick();
                 }}
                 onClick={handleClick}

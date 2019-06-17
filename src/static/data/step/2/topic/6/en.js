@@ -313,7 +313,7 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.bwsc.dole.gov.ph/programs-and-projects-submenu1/30-programs-projects/social-amelioration-program-in-the-sugar-industry.html"
+                            href="https://www.dole.gov.ph/social-amelioration-program-sap-in-the-sugar-industry/"
                         >
                             Social Amelioration Program (SAP)
                         </a>
@@ -358,7 +358,7 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.leberjeweler.com/about/burma.php3/?lang=en"
+                            href="https://leberjeweler.com/burma-and-blood-gems/"
                             title="Leber Jeweler Inc."
                         >
                             Leber Jeweler Inc.
@@ -369,7 +369,7 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.leberjeweler.com/about/burma.php3"
+                            href="https://leberjeweler.com/our-story/about-the-designers/"
                             title="Jewelers&rsquo; Burma Relief Project"
                         >
                             Jewelers&rsquo; Burma Relief Project
@@ -384,7 +384,7 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.treasury.gov/resource-center/sanctions/Documents/pl110_286_jade_act.pdf"
+                            href="https://www.congress.gov/110/plaws/publ286/PLAW-110publ286.pdf"
                             title="Tom Lantos Block Burmese JADE Act of 2008"
                         >
                             Tom Lantos Block Burmese JADE Act of 2008
@@ -631,7 +631,7 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.bewhatspossible.com/pace"
+                            href="https://www.gapincsustainability.com/people/pace-changing-one-million-lives"
                             title="Personal Advancement and Career Enhancement (P.A.C.E.) program"
                         >
                             Personal Advancement and Career Enhancement
@@ -731,7 +731,7 @@ const en = () => {
                     </li>
                 </ul>
 
-                <Accordion id="resources" >
+                <Accordion id="resources">
                     <Accordion.Section>
                         <Accordion.Title>Further Resources</Accordion.Title>
                         <Accordion.Panel>

@@ -23,7 +23,7 @@ class ShareWeb extends Component {
     };
 
     render() {
-        const { id, className, children } = this.props;
+        const { id, className, children, localizor } = this.props;
         return (
             <Dropdown up id={id} className={className}>
                 <Dropdown.Title>{children}</Dropdown.Title>
@@ -35,7 +35,7 @@ class ShareWeb extends Component {
                         Email
                     </Dropdown.Item>
                     <Dropdown.Item onClick={this.handleCopy}>
-                        Copy Link
+                        {localizor.strings.general.copyLink}
                     </Dropdown.Item>
                 </Dropdown.Content>
             </Dropdown>

@@ -80,7 +80,7 @@ const es = () => {
                         aplicaci&oacute;n
                     </li>
                     <br />
-                    <Accordion  id="why-develop-acc">
+                    <Accordion id="why-develop-acc">
                         <Accordion.Section id="exec-order">
                             <Accordion.Title>
                                 <strong>
@@ -322,7 +322,15 @@ const es = () => {
                                     contempor&aacute;neas de esclavitud que
                                     hacen las empresas de conformidad con la
                                     ley. El comit&eacute; encargado del Registro
-                                    est&aacute; integrado por Freedom Fund,{" "}
+                                    est&aacute; integrado por{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://freedomfund.org/"
+                                    >
+                                        Freedom Fund
+                                    </a>
+                                    ,{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -334,7 +342,7 @@ const es = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://freedomfund.org/"
+                                        href="https://www.freedomunited.org"
                                     >
                                         Freedom United
                                     </a>
@@ -374,7 +382,7 @@ const es = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.labourexploitation.org/"
+                                        href="https://www.labourexploitation.org/"
                                     >
                                         Focus on Labour Exploitation
                                     </a>
@@ -411,7 +419,7 @@ const es = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://business-humanrights.org/sites/default/files/documents/Texte%20PPL_EN-US.docx"
+                                        href="https://www.business-humanrights.org/en/frances-law-on-the-corporate-duty-of-vigilance-a-practical-and-multidimensional-analysis-in-english"
                                     >
                                         Ley sobre el deber de vigilancia de las
                                         empresas de Francia
@@ -465,7 +473,7 @@ const es = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://www.sec.gov/about/laws/wallstreetreform-cpa.pdf"
+                                        href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
                                     >
                                         Ley Dodd-Frank de reforma de Wall Street
                                         y protecci&oacute;n del consumidor
@@ -858,7 +866,7 @@ const es = () => {
                     brinden apoyo y recursos considerables a sus sistemas de
                     cumplimiento social.
                 </p>
-                <Accordion >
+                <Accordion>
                     <Accordion.Section id="resources">
                         <Accordion.Title>Recursos adicionales</Accordion.Title>
                         <Accordion.Panel>

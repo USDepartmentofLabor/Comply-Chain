@@ -47,7 +47,7 @@ class Home extends Component {
                 </IconContainer>
                 <IconContainer>
                     <Item
-                        green={true}
+                        red={true}
                         image={infoImageData[1].image}
                         imageMobilePosition={infoImageData[1].mobile}
                         imageDesktopPosition={infoImageData[1].desktop}
@@ -66,18 +66,25 @@ class Home extends Component {
                 </IconContainer>
 
                 {localizor.strings.steps.map((step, i) => {
+                    const bookmarked = storage.bookmarks.containsBookmarks(
+                        `steps.${i}`
+                    );
+                    const complete = storage.steps.isStepComplete(i);
                     return (
                         <IconContainer
                             id={`home_step_${i + 1}`}
                             key={`home_step_${i + 1}`}
                         >
                             <Item
-                                green={i % 2 !== 0}
+                                red={i % 2 !== 0}
                                 image={stepImageData[i].image}
                                 imageMobilePosition={stepImageData[i].mobile}
                                 imageDesktopPosition={stepImageData[i].desktop}
                             >
-                                <ItemContent>
+                                <ItemContent
+                                    bookmarked={bookmarked}
+                                    complete={complete}
+                                >
                                     <FlexContent>
                                         <Icon>
                                             <Icons.StepIcon step={i + 1} />
@@ -91,12 +98,8 @@ class Home extends Component {
                                 </ItemContent>
                             </Item>
                             <StatusIcons>
-                                {storage.bookmarks.containsBookmarks(
-                                    `steps.${i}`
-                                ) && <BookmarkIcon />}
-                                {storage.steps.isStepComplete(i) && (
-                                    <CheckIcon />
-                                )}
+                                {bookmarked && <BookmarkIcon />}
+                                {complete && <CheckIcon />}
                             </StatusIcons>
                         </IconContainer>
                     );
@@ -259,7 +262,15 @@ const ItemTitle = styled(Link)`
 
 const ItemContent = styled.div`
     padding-left: 20px;
-    padding-right: 30px;
+    padding-right: ${props => {
+        if (props.complete && props.bookmarked) {
+            return "85px";
+        }
+        if (props.complete || props.bookmarked) {
+            return "55px";
+        }
+        return "30px";
+    }};
 `;
 
 const Item = styled.div`
@@ -273,19 +284,11 @@ const Item = styled.div`
             ? `url(${props.image})`
             : `linear-gradient(
             rgba(
-                ${
-                    props.green
-                        ? theme.colors.tealAltRGB
-                        : theme.colors.primaryRGB
-                },
+                ${props.red ? theme.colors.redRGB : theme.colors.primaryRGB},
                 0.75
             ),
             rgba(
-                ${
-                    props.green
-                        ? theme.colors.tealAltRGB
-                        : theme.colors.primaryRGB
-                },
+                ${props.red ? theme.colors.redRGB : theme.colors.primaryRGB},
                 0.75
             )
         ),
@@ -294,7 +297,7 @@ const Item = styled.div`
         isIOS()
             ? `inset 0 0 0 2000px
         rgba(
-            ${props.green ? theme.colors.tealAltRGB : theme.colors.primaryRGB},
+            ${props.red ? theme.colors.redRGB : theme.colors.primaryRGB},
             0.75
         )`
             : "none"};

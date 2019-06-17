@@ -67,7 +67,7 @@ const en = () => {
                         , and its implementing regulations
                     </li>
                     <br />
-                    <Accordion  id="why-develop-acc">
+                    <Accordion id="why-develop-acc">
                         <Accordion.Section id="exec-order">
                             <Accordion.Title>
                                 <strong>
@@ -273,7 +273,15 @@ const en = () => {
                                     that collects and hosts companies&rsquo;
                                     modern slavery statements under the Act.
                                     This Registry&rsquo;s governance committee
-                                    includes the Freedom Fund,{" "}
+                                    includes the{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://freedomfund.org/"
+                                    >
+                                        Freedom Fund
+                                    </a>
+                                    ,{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -285,7 +293,7 @@ const en = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://freedomfund.org/"
+                                        href="https://www.freedomunited.org"
                                     >
                                         Freedom United
                                     </a>
@@ -325,7 +333,7 @@ const en = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.labourexploitation.org/"
+                                        href="https://www.labourexploitation.org/"
                                     >
                                         Focus on Labour Exploitation
                                     </a>
@@ -361,7 +369,7 @@ const en = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://business-humanrights.org/sites/default/files/documents/Texte%20PPL_EN-US.docx"
+                                        href="https://www.business-humanrights.org/en/frances-law-on-the-corporate-duty-of-vigilance-a-practical-and-multidimensional-analysis-in-english"
                                     >
                                         French Corporate Duty of Vigilance Law
                                     </a>
@@ -407,7 +415,7 @@ const en = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://www.sec.gov/about/laws/wallstreetreform-cpa.pdf"
+                                        href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
                                     >
                                         Dodd-Frank Wall Street Reform and
                                         Consumer Protection Act
@@ -743,7 +751,7 @@ const en = () => {
                     resources to their social compliance systems.
                 </p>
 
-                <Accordion >
+                <Accordion>
                     <Accordion.Section id="resources">
                         <Accordion.Title>Further Resources</Accordion.Title>
                         <Accordion.Panel>

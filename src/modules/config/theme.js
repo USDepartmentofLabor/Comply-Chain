@@ -38,7 +38,9 @@ export const theme = {
         tealAltRGB: "18,112,147",
         darkOrange: "#aa5703",
         focus: "#3e94cf",
-        visited: "#4c2c92"
+        visited: "#4c2c92",
+        red: "#9B2529",
+        redRGB: "155, 37, 41"
     },
     fonts: {
         headings: "Merriweather",

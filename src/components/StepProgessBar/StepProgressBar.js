@@ -105,16 +105,17 @@ class StepProgressBar extends Component {
                                     <StepProgress
                                         accomplished={stepComplete}
                                         viewing={currentStep === i}
-                                        aria-label={`${
-                                            localizor.strings.general.step
-                                        } ${i + 1}`}
-                                    />
-                                    <StepNumber
-                                        accomplished={stepComplete}
-                                        viewing={currentStep === i}
                                     >
-                                        {i + 1}
-                                    </StepNumber>
+                                        <StepNumber
+                                            accomplished={stepComplete}
+                                            viewing={currentStep === i}
+                                            aria-label={`${
+                                                localizor.strings.general.step
+                                            } ${i + 1}`}
+                                        >
+                                            {i + 1}
+                                        </StepNumber>
+                                    </StepProgress>
                                 </StepCircle>
                             )}
                         </Step>

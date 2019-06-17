@@ -293,7 +293,7 @@ const en = () => {
                     Recruitment and Employment to translate into measurable and
                     actionable data points the requirements and good practices
                     outlined in its Sample Code of Conduct Provisions,
-                    referenced in
+                    referenced in{" "}
                     <Link to="/steps/3">Step 3, Develop a Code of Conduct</Link>
                     . These benchmarks, which cover a range of areas related to
                     forced labor and human trafficking, including recruitment
@@ -305,8 +305,8 @@ const en = () => {
                 </p>
                 <ExampleInAction id="rst1a">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
-                        Example in Action: Responsible Sourcing Tool 1A
+                        <ExampleInAction.Icon /> Example in Action: Responsible
+                        Sourcing Tool 1A
                     </h2>
                     <VeriteFlagWrapper>
                         <UsFlag src={usFlag} alt="US Flag" />

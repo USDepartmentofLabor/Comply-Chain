@@ -68,18 +68,17 @@ const fr = () => {
                     site de travail et qui pourraient d&eacute;tecter des abus
                     des droits des travailleurs. Les syndicats sont
                     consid&eacute;r&eacute;s par certains comme &eacute;tant des
-                    « v&eacute;rificateurs ind&eacute;pendants »:
-                    s&apos;il existe un syndicat sur le lieu de travail, il
-                    devrait &ecirc;tre au courant des moyens s&ucirc;rs de vous
-                    signaler des probl&egrave;mes. De m&ecirc;me, les
-                    travailleurs individuels et les groupes communautaires
-                    peuvent &ecirc;tre conscients de probl&egrave;mes qui
-                    n&apos;ont pas &eacute;t&eacute; d&eacute;tect&eacute;s par
-                    les auditeurs. Mettre &agrave; la disposition du public une
-                    liste des fournisseurs aupr&egrave;s desquels votre
-                    entreprise s&apos;approvisionne pourra offrir &agrave; ces
-                    groupes la possibilit&eacute; de vous signaler les
-                    probl&egrave;mes.
+                    « v&eacute;rificateurs ind&eacute;pendants »: s&apos;il
+                    existe un syndicat sur le lieu de travail, il devrait
+                    &ecirc;tre au courant des moyens s&ucirc;rs de vous signaler
+                    des probl&egrave;mes. De m&ecirc;me, les travailleurs
+                    individuels et les groupes communautaires peuvent &ecirc;tre
+                    conscients de probl&egrave;mes qui n&apos;ont pas
+                    &eacute;t&eacute; d&eacute;tect&eacute;s par les auditeurs.
+                    Mettre &agrave; la disposition du public une liste des
+                    fournisseurs aupr&egrave;s desquels votre entreprise
+                    s&apos;approvisionne pourra offrir &agrave; ces groupes la
+                    possibilit&eacute; de vous signaler les probl&egrave;mes.
                 </p>
                 <ExampleInAction id="fla">
                     <h2>
@@ -142,9 +141,9 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon />{" "}
                         <strong>
-                            Exemple d&apos;action: Le mod&egrave;le
-                            Bonsucro* d&rsquo;accr&eacute;ditation des
-                            organisations de certification
+                            Exemple d&apos;action: Le mod&egrave;le Bonsucro*
+                            d&rsquo;accr&eacute;ditation des organisations de
+                            certification
                         </strong>
                     </h2>
                     <p>
@@ -181,21 +180,21 @@ const fr = () => {
                             Lignes directrices ISO 19011:2011 d&rsquo;audit des
                             syst&egrave;mes de management
                         </em>
-                        ; 2) une OC doit op&eacute;rer au moins un
-                        programme accr&eacute;dit&eacute; satisfaisant aux
-                        crit&egrave;res de durabilit&eacute; de la norme de
-                        production et de la norme de cha&icirc;ne de
-                        contr&ocirc;le de Bonsucro; et 3) une OC est
-                        responsable de rester &agrave; jour sur les exigences de
-                        Bonsucro, et, le cas &eacute;ch&eacute;ant, sur la
-                        l&eacute;gislation europ&eacute;enne applicable.
-                        Lorsqu&apos;une OC est approuv&eacute;e par Bonsucro et
-                        qu&apos;elle signe un accord contractuel, Bonsucro
-                        d&eacute;livre une approbation officielle et place le
-                        nom de l&apos;OC sur son site Web &agrave; titre
-                        d&apos;OC officiellement approuv&eacute;e par Bonsucro.
-                        L&rsquo;OC en question peut ensuite effectuer des audits
-                        conform&eacute;ment aux normes de Bonsucro.
+                        ; 2) une OC doit op&eacute;rer au moins un programme
+                        accr&eacute;dit&eacute; satisfaisant aux crit&egrave;res
+                        de durabilit&eacute; de la norme de production et de la
+                        norme de cha&icirc;ne de contr&ocirc;le de Bonsucro; et
+                        3) une OC est responsable de rester &agrave; jour sur
+                        les exigences de Bonsucro, et, le cas
+                        &eacute;ch&eacute;ant, sur la l&eacute;gislation
+                        europ&eacute;enne applicable. Lorsqu&apos;une OC est
+                        approuv&eacute;e par Bonsucro et qu&apos;elle signe un
+                        accord contractuel, Bonsucro d&eacute;livre une
+                        approbation officielle et place le nom de l&apos;OC sur
+                        son site Web &agrave; titre d&apos;OC officiellement
+                        approuv&eacute;e par Bonsucro. L&rsquo;OC en question
+                        peut ensuite effectuer des audits conform&eacute;ment
+                        aux normes de Bonsucro.
                     </p>
                     <img
                         id="img-browser"
@@ -203,7 +202,6 @@ const fr = () => {
                         src={manBamboo}
                         alt="Homme coupant des bambous"
                     />{" "}
-                    <br />
                     <p className="small-text">
                         &copy; Florian Kopp/Alamy Stock Photo
                     </p>
