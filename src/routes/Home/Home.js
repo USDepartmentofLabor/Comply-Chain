@@ -47,7 +47,7 @@ class Home extends Component {
                 </IconContainer>
                 <IconContainer>
                     <Item
-                        green={true}
+                        red={true}
                         image={infoImageData[1].image}
                         imageMobilePosition={infoImageData[1].mobile}
                         imageDesktopPosition={infoImageData[1].desktop}
@@ -76,7 +76,7 @@ class Home extends Component {
                             key={`home_step_${i + 1}`}
                         >
                             <Item
-                                green={i % 2 !== 0}
+                                red={i % 2 !== 0}
                                 image={stepImageData[i].image}
                                 imageMobilePosition={stepImageData[i].mobile}
                                 imageDesktopPosition={stepImageData[i].desktop}
@@ -284,19 +284,11 @@ const Item = styled.div`
             ? `url(${props.image})`
             : `linear-gradient(
             rgba(
-                ${
-                    props.green
-                        ? theme.colors.tealAltRGB
-                        : theme.colors.primaryRGB
-                },
+                ${props.red ? theme.colors.redRGB : theme.colors.primaryRGB},
                 0.75
             ),
             rgba(
-                ${
-                    props.green
-                        ? theme.colors.tealAltRGB
-                        : theme.colors.primaryRGB
-                },
+                ${props.red ? theme.colors.redRGB : theme.colors.primaryRGB},
                 0.75
             )
         ),
@@ -305,7 +297,7 @@ const Item = styled.div`
         isIOS()
             ? `inset 0 0 0 2000px
         rgba(
-            ${props.green ? theme.colors.tealAltRGB : theme.colors.primaryRGB},
+            ${props.red ? theme.colors.redRGB : theme.colors.primaryRGB},
             0.75
         )`
             : "none"};
