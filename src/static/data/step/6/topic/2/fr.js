@@ -6,8 +6,8 @@ import { theme } from "../../../../../../modules/config/theme";
 
 const Table = styled.table`
     border-collapse: collapse;
-
     border: 2px solid ${theme.colors.charcoal};
+    margin-bottom: 16px;
 
     & th,
     td {
@@ -889,7 +889,7 @@ const fr = () => {
                 </Table>
                 <ExampleInAction id="better_work">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Exemple d&apos;action: Le processus de
                             r&eacute;paration{" "}

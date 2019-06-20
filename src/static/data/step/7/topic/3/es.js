@@ -25,7 +25,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="bwi_eval">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Ejemplo en acci&oacute;n: evaluaci&oacute;n del
                             impacto del programa Better Work

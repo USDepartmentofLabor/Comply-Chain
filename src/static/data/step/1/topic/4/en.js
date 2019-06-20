@@ -18,7 +18,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="rsn">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Example in Action: Responsible Sourcing Network
                         </strong>
@@ -66,7 +66,7 @@ const en = () => {
                 </ExampleInAction>
                 <ExampleInAction id="res_min_trade">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Example in Action: Public-Private Alliance for
                             Responsible Minerals Trade{" "}
@@ -114,7 +114,7 @@ const en = () => {
                 </ExampleInAction>
                 <ExampleInAction id="sug_phil">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Example in Action: Multi-stakeholder Efforts to
                             Eliminate Child Labor in the Sugarcane Sector in the
@@ -201,7 +201,7 @@ const en = () => {
                 </ExampleInAction>
                 <ExampleInAction>
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Example in Action: Palm Oil Innovation Group
                         </strong>

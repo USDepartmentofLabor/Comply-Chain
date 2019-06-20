@@ -63,7 +63,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="fair_labor">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>Exemple d&apos;action</strong>: Processus
                         de r&eacute;vision du code de la Fair Labor Association
                     </h2>

@@ -178,7 +178,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="turkey">
                     <h3>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Exemple d&apos;action: Travail de
                             collaboration visant &agrave; traiter le travail
