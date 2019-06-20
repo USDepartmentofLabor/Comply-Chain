@@ -55,7 +55,6 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
         border: none;
         background: ${theme.colors.primaryDarker};
         color: ${theme.colors.white};
-        min-width: 75px;
         height: auto;
         padding: 15px;
         font-weight: bold;
