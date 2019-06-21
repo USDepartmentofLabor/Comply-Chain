@@ -226,6 +226,8 @@ const Icon = styled.span`
 `;
 
 const IconContainer = styled.div`
+    display: flex;
+    flex-direction: column;
     position: relative;
     @media print {
         page-break-inside: avoid;
