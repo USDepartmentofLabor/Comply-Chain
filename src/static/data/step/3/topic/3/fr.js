@@ -403,7 +403,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="rst1">
                     <h3>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Exemple d&apos;action:{" "}
                             <span>

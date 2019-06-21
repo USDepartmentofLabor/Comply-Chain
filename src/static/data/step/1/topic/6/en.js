@@ -77,7 +77,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="clt">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>Example in Action: Goodweave</strong>
                     </h2>
 

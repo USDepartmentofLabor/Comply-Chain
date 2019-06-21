@@ -10,6 +10,12 @@ import { matchPath } from "react-router";
 import Routes from "../../modules/config/routes";
 import { isBrowser } from "../../modules/utils/platform";
 
+const Wrapper = styled.div`
+	& .RSPBstep {
+		top: -50%;
+	}
+`;
+
 const StepCircle = styled.div`
     width: 20px;
     height: 20px;
@@ -90,38 +96,40 @@ class StepProgressBar extends Component {
         }
         const percent = Math.min((100 / numOfSteps + 1.75) * progressStep, 100);
         return (
-            <ProgressBar
-                percent={percent}
-                currentStep={currentStep}
-                unfilledBackground={theme.colors.white}
-                filledBackground={theme.colors.primary}
-            >
-                {localizor.strings.steps.map((step, i) => {
-                    const stepComplete = storage.steps.isStepComplete(i);
-                    return (
-                        <Step key={`progress_${step.title}`}>
-                            {() => (
-                                <StepCircle>
-                                    <StepProgress
-                                        accomplished={stepComplete}
-                                        viewing={currentStep === i}
-                                    >
-                                        <StepNumber
-                                            accomplished={stepComplete}
-                                            viewing={currentStep === i}
-                                            aria-label={`${
-                                                localizor.strings.general.step
-                                            } ${i + 1}`}
-                                        >
-                                            {i + 1}
-                                        </StepNumber>
-                                    </StepProgress>
-                                </StepCircle>
-                            )}
-                        </Step>
-                    );
-                })}
-            </ProgressBar>
+			<Wrapper>
+				<ProgressBar
+					percent={percent}
+					currentStep={currentStep}
+					unfilledBackground={theme.colors.white}
+					filledBackground={theme.colors.primary}
+				>
+					{localizor.strings.steps.map((step, i) => {
+						const stepComplete = storage.steps.isStepComplete(i);
+						return (
+							<Step key={`progress_${step.title}`}>
+								{() => (
+									<StepCircle>
+										<StepProgress
+											accomplished={stepComplete}
+											viewing={currentStep === i}
+										>
+											<StepNumber
+												accomplished={stepComplete}
+												viewing={currentStep === i}
+												aria-label={`${
+													localizor.strings.general.step
+												} ${i + 1}`}
+											>
+												{i + 1}
+											</StepNumber>
+										</StepProgress>
+									</StepCircle>
+								)}
+							</Step>
+						);
+					})}
+				</ProgressBar>
+			</Wrapper>
         );
     }
 }

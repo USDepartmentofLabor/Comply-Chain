@@ -114,7 +114,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="cocoa">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Exemple d&apos;action: Le secteur
                             international du chocolat et du cacao&nbsp;

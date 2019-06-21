@@ -301,7 +301,7 @@ const fr = () => {
                 </ul>
                 <ExampleInAction id="nike">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Exemple d&apos;action: Nike*: rapports
                             sur les r&eacute;parations

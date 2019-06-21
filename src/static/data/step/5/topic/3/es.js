@@ -352,7 +352,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="rst1a">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         Ejemplo en acci&oacute;n: Instrumento de abastecimiento
                         responsable 1A
                     </h2>

@@ -368,7 +368,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="rst1">
                     <h3>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Ejemplo en acci&oacute;n:{" "}
                             <span>

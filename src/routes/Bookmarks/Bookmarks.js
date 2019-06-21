@@ -35,8 +35,9 @@ const BookmarkIcon = styled(Icons.BookmarkCheck)`
 `;
 
 const ItemHeader = styled.span`
-    font-size: 22px;
+    font-size: 19px;
     font-weight: bold;
+    font-family: ${theme.fonts.headings};
 `;
 
 const ItemTitle = styled.h3`

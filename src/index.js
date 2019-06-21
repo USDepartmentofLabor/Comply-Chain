@@ -1,3 +1,8 @@
+import 'react-app-polyfill/ie11';
+import 'core-js/features/array/includes';
+import 'core-js/features/array/find-index';
+import 'core-js/features/string/includes';
+import smoothscroll from "smoothscroll-polyfill";
 import React from "react";
 import ReactDOM from "react-dom";
 import { HashRouter, BrowserRouter } from "react-router-dom";
@@ -6,6 +11,8 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { whitelist } from "./modules/config/whitelist";
 import { isAndroid } from "./modules/utils/platform";
+
+smoothscroll.polyfill();
 
 const CordovaApp = (
     <HashRouter>

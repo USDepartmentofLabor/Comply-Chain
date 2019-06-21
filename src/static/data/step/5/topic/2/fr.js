@@ -222,7 +222,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="better_work_assessment">
                     <h3>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         Exemple d&apos;action: &Eacute;quipes
                         d&apos;&eacute;valuation Better Work
                     </h3>

@@ -496,7 +496,7 @@ const fr = () => {
                 </ul>
                 <ExampleInAction id="leber">
                     <h4>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>Exemple d&apos;action</strong>: Leber Jeweler*:
                         Le Jewelers&rsquo; Burma Relief Project
                     </h4>
@@ -669,7 +669,7 @@ const fr = () => {
                 </ul>
                 <ExampleInAction id="Isidro">
                     <h4>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Exemple d&apos;action: Isidro Le&oacute;n-York
                         </strong>
@@ -769,7 +769,7 @@ const fr = () => {
                 </ul>
                 <ExampleInAction id="lco">
                     <h4>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>Exemple d&apos;action</strong>: League
                         Collegiate Outfitters*
                     </h4>
@@ -836,7 +836,7 @@ const fr = () => {
                 </ul>
                 <ExampleInAction id="gap">
                     <h4>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>Exemple d&apos;action</strong>: Programme
                         P.A.C.E. de Gap Inc.*
                     </h4>

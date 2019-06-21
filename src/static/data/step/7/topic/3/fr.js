@@ -29,7 +29,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="bwi_eval">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Exemple d&apos;action: &Eacute;valuation des
                             incidences de Better Work

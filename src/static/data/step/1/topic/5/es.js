@@ -16,7 +16,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="sug_phil">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Ejemplo en acci&oacute;n: Fundaci&oacute;n para la
                             erradicaci&oacute;n del trabajo infantil en el
@@ -134,7 +134,7 @@ const es = () => {
                 </ExampleInAction>
                 <ExampleInAction id="clt">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Ejemplo en acci&oacute;n: Plataforma sobre el
                             trabajo infantil
@@ -218,7 +218,7 @@ const es = () => {
                 </ExampleInAction>
                 <ExampleInAction id="gbn">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Ejemplo en acci&oacute;n: Red mundial de empresas
                             sobre trabajo forzoso

@@ -139,7 +139,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="turkey">
                     <h3>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Example in Action: Collaboration to Address Seasonal
                             Migrant Child Labor in Turkey&rsquo;s Hazelnut
