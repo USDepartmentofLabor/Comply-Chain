@@ -519,7 +519,7 @@ const en = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://ktcdevlab.wpengine.com/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf"
+                                        href="https://oag.ca.gov/sites/all/files/agweb/pdfs/cybersafety/sb_657_bill_ch556.pdf"
                                     >
                                         &nbsp;Five Years of the California
                                         Transparency in Supply Chains Act,
