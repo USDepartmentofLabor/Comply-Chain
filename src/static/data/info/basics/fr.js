@@ -377,7 +377,7 @@ const fr = () => {
                                 </p>
                                 <ExampleInAction id="better-work-garment">
                                     <h4>
-                                        <ExampleInAction.Icon />{" "}
+                                        <ExampleInAction.Icon />
                                         <strong>Exemple d&apos;action</strong>
                                         &nbsp;{": "}
                                         Le programme{" "}
@@ -1091,7 +1091,7 @@ const fr = () => {
                                 </p>
                                 <ExampleInAction id="eicc">
                                     <h4>
-                                        <ExampleInAction.Icon />{" "}
+                                        <ExampleInAction.Icon />
                                         <strong>Exemple d&apos;action</strong>
                                         &nbsp;{": "}
                                         <strong>

@@ -354,7 +354,7 @@ const es = () => {
                                 </p>
                                 <ExampleInAction id="better-work-garment">
                                     <h4>
-                                        <ExampleInAction.Icon />{" "}
+                                        <ExampleInAction.Icon />
                                         <strong>
                                             Ejemplo en acci&oacute;n
                                         </strong>
@@ -980,7 +980,7 @@ const es = () => {
                                 </p>
                                 <ExampleInAction id="eicc">
                                     <h4>
-                                        <ExampleInAction.Icon />{" "}
+                                        <ExampleInAction.Icon />
                                         <strong>
                                             Ejemplo en acci&oacute;n:
                                             Responsible Business Alliance (RBA)

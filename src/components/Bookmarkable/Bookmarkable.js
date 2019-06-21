@@ -55,7 +55,6 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
         border: none;
         background: ${theme.colors.primaryDarker};
         color: ${theme.colors.white};
-        min-width: 75px;
         height: auto;
         padding: 15px;
         font-weight: bold;
@@ -163,12 +162,15 @@ class Bookmarkable extends Component {
     };
 
     render() {
-        const { children } = this.props;
+        const { localizor, titleString, children } = this.props;
         const { bookmarked } = this.state;
+        const title = getPropByString(localizor.strings, titleString);
         return (
             <Wrapper>
                 <BookmarkButton
-                    title={bookmarked ? "Unbookmark page" : "Bookmark page"}
+                    title={
+                        bookmarked ? `Unbookmark ${title}` : `Bookmark ${title}`
+                    }
                     onClick={() => {
                         if (!bookmarked) {
                             this.displayToast();

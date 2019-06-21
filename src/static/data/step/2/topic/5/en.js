@@ -147,7 +147,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="med_rep">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Example in Action: The Important Role of Media
                             Reporting
@@ -327,7 +327,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="fish">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>Example in Action: Fishing and Seafood</strong>
                     </h2>
                     <p>

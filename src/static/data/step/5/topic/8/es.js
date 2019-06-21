@@ -29,7 +29,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="cambodia">
                     <h2>
-                        <ExampleInAction.Icon />{" "}
+                        <ExampleInAction.Icon />
                         <strong>
                             Ejemplo en acci&oacute;n: vigilancia comunitaria del
                             trabajo infantil en Camboya

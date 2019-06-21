@@ -18,7 +18,7 @@ const fr = () => {
                     des victimes de la traite (TVPRA) de 2005 et ses
                     réautorisations ultérieures. Au 20 septembre 2018, la Liste
                     de biens issus du travail des enfants ou du travail forcé
-                    inclut 148 produits provenant de 76 pays
+                    inclut 148 produits provenant de 76 pays.
                 </p>
                 <p>
                     La raison principale pour laquelle l’ILAB tient cette liste

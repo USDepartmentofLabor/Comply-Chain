@@ -41,10 +41,10 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/workingpaper_29_casey.pdf"
+                            href="https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/programs/cri/files/workingpaper_29_casey.pdf"
                             title="<i><i><i><i>Meaningful Change:</i></i></i></i> <i>Raising the Bar in Supply Chain Workplace Standards</i>"
                         >
-                            https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/workingpaper_29_casey.pdf
+                            https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/programs/cri/files/workingpaper_29_casey.pdf
                         </a>
                         .
                     </li>
