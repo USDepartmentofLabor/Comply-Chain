@@ -8,6 +8,7 @@ import { withLanguageContext } from "../../components/Language";
 import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
 import { getPropByString } from "../../modules/utils";
+import Title from "../../components/Title/Title";
 
 const PaddedContent = styled.div`
     padding-left: 25px;
@@ -150,6 +151,13 @@ class Bookmarks extends Component {
         );
         return (
             <div>
+                <Title
+                    title={
+                        localizor.strings.general.bookmarks +
+                        " - Comply Chain - " +
+                        localizor.strings.general.dol
+                    }
+                />
                 {filtered.map((bookmark, i) => {
                     return (
                         <IconContainer

@@ -9,6 +9,7 @@ import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
 import { getRawTextData } from "../../modules/utils";
 import { isBrowser } from "../../modules/utils/platform";
+import Title from "../../components/Title/Title";
 
 const SearchLabel = styled.label`
     position: relative;
@@ -351,13 +352,27 @@ class Search extends Component {
     render() {
         const { localizor } = this.props;
         const { query, results, searching } = this.state;
+        let title =
+            localizor.strings.general.search +
+            " - Comply Chain - " +
+            localizor.strings.general.dol;
+
+        if (query && !searching) {
+            title =
+                localizor.strings.general.searchResultsFor +
+                " " +
+                query +
+                " - Comply Chain - " +
+                localizor.strings.general.dol;
+        }
         return (
             <div>
+                <Title title={title} />
                 {query && !searching && (
                     <SearchResultsHeader>
                         {results.length}{" "}
-                        {localizor.strings.general.searchResultsFor} "
-                        <span className="query">{query}</span>"
+                        {localizor.strings.general.searchResultsFor.toLowerCase()}{" "}
+                        "<span className="query">{query}</span>"
                     </SearchResultsHeader>
                 )}
                 <form action="." onSubmit={this.handleSubmit}>

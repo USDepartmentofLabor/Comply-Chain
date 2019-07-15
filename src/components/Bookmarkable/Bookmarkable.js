@@ -7,6 +7,7 @@ import { toast, cssTransition } from "react-toastify";
 import { theme } from "../../modules/config/theme";
 import { withLanguageContext } from "../Language";
 import { getPropByString } from "../../modules/utils";
+import Title from "../Title/Title";
 
 const Wrapper = styled.div`
     position: relative;
@@ -164,9 +165,13 @@ class Bookmarkable extends Component {
     render() {
         const { localizor, titleString, children } = this.props;
         const { bookmarked } = this.state;
-        const title = getPropByString(localizor.strings, titleString);
+        const title =
+            getPropByString(localizor.strings, titleString) +
+            " - Comply Chain - " +
+            localizor.strings.general.dol;
         return (
             <Wrapper>
+                <Title title={title} />
                 <BookmarkButton
                     title={
                         bookmarked ? `Unbookmark ${title}` : `Bookmark ${title}`

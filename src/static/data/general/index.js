@@ -25,7 +25,7 @@ export const General = {
         ilab: "ILAB - The Bureau of International Labor Affairs",
         usdol: "United States Department of Labor",
         close: "Close",
-        searchResultsFor: "search results for",
+        searchResultsFor: "Search results for",
         bookmarks: "Bookmarks",
         share: "Share",
         about: "About",
@@ -41,6 +41,7 @@ export const General = {
         copyLink: "Copy Link",
         usDol: "Bureau of International Labor Affairs",
         dolSeal: "United States Department of Labor seal",
+        dol: "United States Department of Labor",
         back: "Back"
     },
     es: {
@@ -69,7 +70,7 @@ export const General = {
         ilab: "Dirección de Asuntos Internacionales de Trabajo",
         usdol: "Departamento de Trabajo de los Estados Unidos",
         close: "Cerrar",
-        searchResultsFor: "resultados de la búsqueda",
+        searchResultsFor: "Resultados de la búsqueda",
         bookmarks: "Marcadores",
         share: "Compartir",
         about: "Sobre",
@@ -85,6 +86,7 @@ export const General = {
         copyLink: "Copiar enlace",
         usDol: "Dirección de Asuntos Laborales Internacionales",
         dolSeal: "Sello del Departamento de Trabajo de los Estados Unidos",
+        dol: "Departamento de Trabajo de los Estados Unidos",
         back: "Regresar"
     },
     fr: {
@@ -113,7 +115,7 @@ export const General = {
         ilab: "Bureau des Affaires Internationales du Travail",
         usdol: "Département du travail des États-Unis",
         close: "Fermer",
-        searchResultsFor: "résultats de recherche pour",
+        searchResultsFor: "Résultats de recherche pour",
         bookmarks: "Signet",
         share: "Partager",
         about: "Sur",
@@ -129,6 +131,7 @@ export const General = {
         copyLink: "Copier le lien",
         usDol: "Bureau des affaires internationales du travail",
         dolSeal: "Sceau du Département du Travail des États-Unis",
+        dol: "Département du Travail des États-Unis",
         back: "Retour"
     }
 };
