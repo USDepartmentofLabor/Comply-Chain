@@ -388,7 +388,7 @@ class Search extends Component {
                     </SearchResultsHeader>
                 )}
                 <form action="." onSubmit={this.handleSubmit}>
-                    <SearchLabel>
+                    <SearchLabel for="search-input">
                         <HiddenText508>Search</HiddenText508>
                         <Icons.Search role="img" aria-label="Search" />
                         <SearchInput
@@ -400,7 +400,7 @@ class Search extends Component {
                             onChange={this.handleChange}
                         />
                         <SearchButton
-                            id="next-step"
+                            id="search-button"
                             variant="primary"
                             type="submit"
                         >
