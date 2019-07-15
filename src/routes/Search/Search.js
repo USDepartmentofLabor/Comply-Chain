@@ -10,6 +10,7 @@ import { storage } from "../../modules/storage";
 import { getRawTextData } from "../../modules/utils";
 import { isBrowser } from "../../modules/utils/platform";
 import Title from "../../components/Title/Title";
+import Button from "../../components/Button";
 
 const SearchLabel = styled.label`
     position: relative;
@@ -34,6 +35,17 @@ const SearchInput = styled.input`
     width: 100%;
     box-sizing: border-box;
     appearance: none;
+`;
+
+const SearchButton = styled(Button)`
+    width: 200px;
+    padding: 15px;
+    margin: 1rem auto 0;
+    display: block;
+
+    @media print {
+        display: none;
+    }
 `;
 
 const SearchResultsHeader = styled.h1`
@@ -387,6 +399,13 @@ class Search extends Component {
                             value={query}
                             onChange={this.handleChange}
                         />
+                        <SearchButton
+                            id="next-step"
+                            variant="primary"
+                            type="submit"
+                        >
+                            {localizor.strings.general.search}
+                        </SearchButton>
                     </SearchLabel>
                 </form>
                 {results.map((result, i) => {
