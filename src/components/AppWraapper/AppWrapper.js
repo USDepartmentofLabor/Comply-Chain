@@ -354,6 +354,10 @@ class AppWrapper extends Component {
                             </Main>
                         </MainWrapper>
                         <Footer>
+                            <BottomNavBar
+                                id="bottom-nav-bar"
+                                items={bottomNavItems}
+                            />
                             <BottomDrawer
                                 id="bottom-drawer"
                                 active={bottomDrawerActive}
@@ -363,10 +367,6 @@ class AppWrapper extends Component {
                                         bottomDrawerActive: false
                                     });
                                 }}
-                            />
-                            <BottomNavBar
-                                id="bottom-nav-bar"
-                                items={bottomNavItems}
                             />
                         </Footer>
                     </div>
