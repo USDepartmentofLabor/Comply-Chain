@@ -191,6 +191,7 @@ class Bookmarkable extends Component {
                                 ? theme.colors.primary
                                 : theme.colors.base
                         }
+                        alt="Bookmark button"
                     />
                 </BookmarkButton>
                 {children}

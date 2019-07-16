@@ -390,7 +390,11 @@ class Search extends Component {
                 <form action="." onSubmit={this.handleSubmit}>
                     <SearchLabel for="search-input">
                         <HiddenText508>Search</HiddenText508>
-                        <Icons.Search role="img" aria-label="Search" />
+                        <Icons.Search
+                            role="img"
+                            aria-label="Search"
+                            alt="Magnifying glass"
+                        />
                         <SearchInput
                             id="search-input"
                             type="search"

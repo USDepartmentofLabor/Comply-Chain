@@ -96,7 +96,7 @@ class Breadcrumbs extends Component {
                         to={backUrl}
                     >
                         <Icon>
-                            <Icons.ArrowDropLeft />
+                            <Icons.ArrowDropLeft alt="Back Arrow" />
                         </Icon>
                         {localizor.strings.general.back}
                     </Breadcrumb.Section>
@@ -109,7 +109,7 @@ class Breadcrumbs extends Component {
                             to={breadcrumb.props.match.url}
                         >
                             <Icon>
-                                <Icons.ArrowDropLeft />
+                                <Icons.ArrowDropLeft alt="Back Arrow" />
                             </Icon>
                             {breadcrumb}
                         </Breadcrumb.Section>

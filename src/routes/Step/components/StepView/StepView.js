@@ -166,7 +166,7 @@ class StepView extends Component {
             <Bookmarkable titleString={titleString} url={location.pathname}>
                 <StepHeader>
                     <HeaderIcon>
-                        <Icons.StepIcon step={step} />
+                        <Icons.StepIcon step={step} alt="Step icon" />
                     </HeaderIcon>
                     {title}
                 </StepHeader>
@@ -184,7 +184,12 @@ class StepView extends Component {
                             onClick={() => this.navigate(prevStep)}
                             left
                         >
-                            <Icons.ArrowDropLeft />
+                            <Icons.ArrowDropLeft
+                                alt={
+                                    localizor.strings.general.prevStep +
+                                    " arrow"
+                                }
+                            />
                             {localizor.strings.general.prevStep}
                         </NavButton>
                     )}
@@ -198,7 +203,12 @@ class StepView extends Component {
                             right
                         >
                             {localizor.strings.general.nextStep}
-                            <Icons.ArrowDropRight />
+                            <Icons.ArrowDropRight
+                                alt={
+                                    localizor.strings.general.nextStep +
+                                    " arrow"
+                                }
+                            />
                         </NavButton>
                     )}
                 </StepNavButtonGroup>

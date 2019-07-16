@@ -207,7 +207,8 @@ class AppWrapper extends Component {
                         }
                     },
                     icon: Icons.Bookmarks,
-                    label: localizor.strings.general.bookmarks
+                    label: localizor.strings.general.bookmarks,
+                    alt: localizor.strings.general.bookmarks
                 },
                 {
                     props: {
@@ -219,7 +220,8 @@ class AppWrapper extends Component {
                         }
                     },
                     icon: Icons.Search,
-                    label: localizor.strings.general.search
+                    label: localizor.strings.general.search,
+                    alt: localizor.strings.general.search
                 },
                 {
                     props: {
@@ -227,7 +229,8 @@ class AppWrapper extends Component {
                         id: "share-link"
                     },
                     icon: Icons.Share,
-                    label: localizor.strings.general.share
+                    label: localizor.strings.general.share,
+                    alt: localizor.strings.general.share
                 },
                 {
                     props: {
@@ -236,7 +239,8 @@ class AppWrapper extends Component {
                         onClick: () => this.toggleBottomDrawer()
                     },
                     icon: Icons.About,
-                    label: localizor.strings.general.about
+                    label: localizor.strings.general.about,
+                    alt: localizor.strings.general.about
                 }
             ],
 

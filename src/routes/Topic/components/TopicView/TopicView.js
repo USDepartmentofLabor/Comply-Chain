@@ -148,7 +148,12 @@ class TopicView extends Component {
                                 onClick={() => this.navigate(prevStep)}
                                 left
                             >
-                                <Icons.ArrowDropLeft />
+                                <Icons.ArrowDropLeft
+                                    alt={
+                                        localizor.strings.general.prevStep +
+                                        " arrow"
+                                    }
+                                />
                                 {localizor.strings.general.prevStep}
                             </NavButton>
                         )}
@@ -159,7 +164,12 @@ class TopicView extends Component {
                                 onClick={() => this.navigate(prevTopic)}
                                 left
                             >
-                                <Icons.ArrowDropLeft />
+                                <Icons.ArrowDropLeft
+                                    alt={
+                                        localizor.strings.general.prevTopic +
+                                        " arrow"
+                                    }
+                                />
                                 {localizor.strings.general.prevTopic}
                             </NavButton>
                         )}
@@ -173,7 +183,12 @@ class TopicView extends Component {
                                 right
                             >
                                 {localizor.strings.general.nextTopic}
-                                <Icons.ArrowDropRight />
+                                <Icons.ArrowDropRight
+                                    alt={
+                                        localizor.strings.general.nextTopic +
+                                        " arrow"
+                                    }
+                                />
                             </NavButton>
                         )}
                         {nextStep && (
@@ -184,7 +199,12 @@ class TopicView extends Component {
                                 right
                             >
                                 {localizor.strings.general.nextStep}
-                                <Icons.ArrowDropRight />
+                                <Icons.ArrowDropRight
+                                    alt={
+                                        localizor.strings.general.nextStep +
+                                        " arrow"
+                                    }
+                                />
                             </NavButton>
                         )}
                     </TopicNavButtonGroup>

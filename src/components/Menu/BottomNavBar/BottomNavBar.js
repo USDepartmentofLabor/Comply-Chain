@@ -62,7 +62,7 @@ class BottomNavBar extends Component {
                     return (
                         <NavItem {...item.props} key={"bottom_nav_" + i}>
                             <NavItem.Icon>
-                                <Icon />
+                                <Icon alt={item.alt} />
                             </NavItem.Icon>
                             <NavItem.Label>{item.label}</NavItem.Label>
                         </NavItem>

@@ -94,7 +94,10 @@ class Home extends Component {
                                 >
                                     <FlexContent>
                                         <Icon>
-                                            <Icons.StepIcon step={i + 1} />
+                                            <Icons.StepIcon
+                                                step={i + 1}
+                                                alt="Step icon"
+                                            />
                                         </Icon>
                                         <PaddedTitle>
                                             <h1>
@@ -109,8 +112,10 @@ class Home extends Component {
                                 </ItemContent>
                             </Item>
                             <StatusIcons>
-                                {bookmarked && <BookmarkIcon />}
-                                {complete && <CheckIcon />}
+                                {bookmarked && (
+                                    <BookmarkIcon alt={"Bookmarked"} />
+                                )}
+                                {complete && <CheckIcon alt="Complete" />}
                             </StatusIcons>
                         </IconContainer>
                     );
