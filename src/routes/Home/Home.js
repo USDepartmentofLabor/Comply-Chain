@@ -31,12 +31,14 @@ class Home extends Component {
                         imageDesktopPosition={infoImageData[0].desktop}
                     >
                         <ItemContent>
-                            <ItemTitle
-                                id="home_whydeveloper"
-                                to={Routes.WhyDevelop.path}
-                            >
-                                {localizor.strings.info.whyDevelop.title}
-                            </ItemTitle>
+                            <h1>
+                                <ItemTitle
+                                    id="home_whydeveloper"
+                                    to={Routes.WhyDevelop.path}
+                                >
+                                    {localizor.strings.info.whyDevelop.title}
+                                </ItemTitle>
+                            </h1>
                         </ItemContent>
                     </Item>
                     <StatusIcons>
@@ -53,9 +55,14 @@ class Home extends Component {
                         imageDesktopPosition={infoImageData[1].desktop}
                     >
                         <ItemContent>
-                            <ItemTitle id="home_basics" to={Routes.Basics.path}>
-                                {localizor.strings.info.basics.title}
-                            </ItemTitle>
+                            <h1>
+                                <ItemTitle
+                                    id="home_basics"
+                                    to={Routes.Basics.path}
+                                >
+                                    {localizor.strings.info.basics.title}
+                                </ItemTitle>
+                            </h1>
                         </ItemContent>
                     </Item>
                     <StatusIcons>
@@ -90,9 +97,13 @@ class Home extends Component {
                                             <Icons.StepIcon step={i + 1} />
                                         </Icon>
                                         <PaddedTitle>
-                                            <ItemTitle to={`/steps/${i + 1}`}>
-                                                {step.title}
-                                            </ItemTitle>
+                                            <h1>
+                                                <ItemTitle
+                                                    to={`/steps/${i + 1}`}
+                                                >
+                                                    {step.title}
+                                                </ItemTitle>
+                                            </h1>
                                         </PaddedTitle>
                                     </FlexContent>
                                 </ItemContent>
