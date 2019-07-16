@@ -58,7 +58,7 @@ class LanguageSwitcher extends Component {
                         this.handleLanguageChange("en");
                     }}
                 >
-                    {localizor.strings.general.english}
+                    <span lang="en">{localizor.strings.general.english}</span>
                 </LanguageButton>
                 <LanguageButton
                     id="es-btn"
@@ -66,7 +66,7 @@ class LanguageSwitcher extends Component {
                         this.handleLanguageChange("es");
                     }}
                 >
-                    {localizor.strings.general.spanish}
+                    <span lang="es">{localizor.strings.general.spanish}</span>
                 </LanguageButton>
                 <LanguageButton
                     id="fr-btn"
@@ -74,7 +74,7 @@ class LanguageSwitcher extends Component {
                         this.handleLanguageChange("fr");
                     }}
                 >
-                    {localizor.strings.general.french}
+                    <span lang="fr">{localizor.strings.general.french}</span>
                 </LanguageButton>
             </LanguageWrapper>
         );
