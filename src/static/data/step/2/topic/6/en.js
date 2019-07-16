@@ -345,7 +345,7 @@ const en = () => {
                 </ul>
                 <ExampleInAction id="leber">
                     <h4>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>Example in Action</strong>: Leber Jeweler*: The
                         Jewelers&rsquo; Burma Relief Project{" "}
                     </h4>
@@ -420,7 +420,7 @@ const en = () => {
                 </ul>
                 <OwnWords>
                     <h4>
-                        <OwnWords.Icon /> <strong>In Their Own Words</strong>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
                         {": "}
                     </h4>
                     <p>
@@ -485,7 +485,7 @@ const en = () => {
                 </ul>
                 <ExampleInAction id="Isidro">
                     <h4>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Example in Action: Isidro Le&oacute;n-York
                         </strong>
@@ -565,7 +565,7 @@ const en = () => {
                 </ul>
                 <ExampleInAction id="lco">
                     <h4>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>Example in Action</strong>: League Collegiate
                         Outfitters*
                     </h4>
@@ -618,7 +618,7 @@ const en = () => {
                 </ul>
                 <ExampleInAction id="gap">
                     <h4>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>Example in Action</strong>: Gap Inc.&rsquo;s*
                         P.A.C.E Program
                     </h4>

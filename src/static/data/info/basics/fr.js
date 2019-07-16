@@ -377,7 +377,7 @@ const fr = () => {
                                 </p>
                                 <ExampleInAction id="better-work-garment">
                                     <h4>
-                                        <ExampleInAction.Icon />
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
                                         <strong>Exemple d&apos;action</strong>
                                         &nbsp;{": "}
                                         Le programme{" "}
@@ -718,7 +718,7 @@ const fr = () => {
                                 </p>
                                 <OwnWords>
                                     <h4>
-                                        <OwnWords.Icon />{" "}
+                                        <OwnWords.Icon alt="Feedback"/>{" "}
                                         <strong>Dans leurs propres mots</strong>
                                         &nbsp;{": "}
                                         <strong>
@@ -1091,7 +1091,7 @@ const fr = () => {
                                 </p>
                                 <ExampleInAction id="eicc">
                                     <h4>
-                                        <ExampleInAction.Icon />
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
                                         <strong>Exemple d&apos;action</strong>
                                         &nbsp;{": "}
                                         <strong>

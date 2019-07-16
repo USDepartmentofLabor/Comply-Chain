@@ -704,7 +704,7 @@ const en = () => {
                 </Table>
                 <ExampleInAction id="better_work">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>Example in Action: The </strong>
                         <a
                             target="_blank"

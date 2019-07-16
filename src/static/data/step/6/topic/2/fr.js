@@ -889,7 +889,7 @@ const fr = () => {
                 </Table>
                 <ExampleInAction id="better_work">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Exemple d&apos;action: Le processus de
                             r&eacute;paration{" "}

@@ -81,7 +81,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="cocoa">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Example in Action: The International Chocolate and
                             Cocoa Industry

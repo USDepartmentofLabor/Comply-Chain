@@ -65,7 +65,7 @@ const es = () => {
                 </ul>
                 <OwnWords>
                     <h3>
-                        <OwnWords.Icon />{" "}
+                        <OwnWords.Icon alt="Feedback"/>{" "}
                         <strong>
                             En sus propias palabras: los desaf&iacute;os a la
                             hora de verificar la edad

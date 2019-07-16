@@ -55,7 +55,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="fair_labor">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>Example in Action</strong>: Fair Labor
                         Association Code Revision Process
                     </h2>

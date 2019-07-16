@@ -223,7 +223,7 @@ const en = () => {
                 </p>
                 <OwnWords>
                     <h3>
-                        <OwnWords.Icon /> <strong>In Their Own Words</strong>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
                         {": "}
                     </h3>
                     <p>
@@ -325,7 +325,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="rst1">
                     <h3>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Example in Action:{" "}
                             <span>Responsible Sourcing Tool 1</span>

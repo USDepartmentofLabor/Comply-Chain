@@ -104,7 +104,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="Conflict_Free">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>Exemple d&apos;action</strong>: Initiative
                         pour un approvisionnement sans conflits
                     </h2>
@@ -218,7 +218,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="mica">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>Exemple d&apos;action</strong>:
                         L&rsquo;Or&eacute;al* et l&rsquo;approvisionnement
                         responsable en mica

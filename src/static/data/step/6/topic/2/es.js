@@ -811,7 +811,7 @@ const es = () => {
                 </Table>
                 <ExampleInAction id="better_work">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Ejemplo en acci&oacute;n: el{" "}
                             <strong>

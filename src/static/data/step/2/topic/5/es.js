@@ -164,7 +164,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="med_rep">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Ejemplo en acci&oacute;n: la importancia de los
                             medios de comunicaci&oacute;n al informar
@@ -373,7 +373,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="fish">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Ejemplo en acci&oacute;n: pescados y mariscos
                         </strong>
@@ -458,7 +458,7 @@ const es = () => {
                 </ExampleInAction>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />{" "}
+                        <OwnWords.Icon alt="Feedback"/>{" "}
                         <strong>En sus propias palabras</strong>
                         {": "}
                     </h2>
