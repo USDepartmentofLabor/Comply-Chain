@@ -49,9 +49,18 @@ const StepsMenuItem = styled(SideNav.Item)`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 17px;
+    font-weight: bold;
     svg {
         font-size: 25px;
     }
+    text-align: left;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 2px solid ${theme.colors.primaryDarker};
 `;
 
 const StepWrapper = styled.div`
@@ -180,9 +189,8 @@ class NavBar extends Component {
                         <StepsMenuItem
                             id="steps-dropdown"
                             onClick={this.toggleStepAccordion}
+                            as="button"
                             ref={node => (this.stepsAccordion = node)}
-                            role="button"
-                            tabIndex="0"
                         >
                             {localizor.strings.general.stepsToBasic}
                             <StepIcon>
