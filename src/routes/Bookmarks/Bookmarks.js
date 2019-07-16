@@ -57,58 +57,67 @@ const Item = styled.div``;
 const ToastStrong = styled.span`
     font-weight: bold;
 `;
+const Content = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+`;
 
-const ToastUndo = ({ bookmark, localizor, undo, shouldClose, closeToast }) => {
-    const handleClick = () => {
+const UndoButton = styled.button`
+    border: none;
+    background: ${theme.colors.primaryDarker};
+    color: ${theme.colors.white};
+    height: auto;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+`;
+
+const UndoText = styled.span`
+    font-size: 12px;
+    padding: 0 5px;
+`;
+class ToastUndo extends Component {
+    componentDidMount() {
+        if (this.node) {
+            this.node.focus();
+        }
+    }
+    handleClick = () => {
+        const { bookmark, undo, shouldClose, closeToast } = this.props;
         undo(bookmark);
         if (shouldClose) {
             closeToast();
         }
     };
 
-    const Content = styled.div`
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        padding: 15px;
-    `;
-
-    const UndoButton = styled.button`
-        border: none;
-        background: ${theme.colors.primaryDarker};
-        color: ${theme.colors.white};
-        height: auto;
-        padding: 15px;
-        font-weight: bold;
-        cursor: pointer;
-    `;
-
-    const UndoText = styled.span`
-        font-size: 12px;
-        padding: 0 5px;
-    `;
-
-    return (
-        <Content>
-            <UndoText>
-                {localizor.strings.general.removed}{" "}
-                <ToastStrong>
-                    {getPropByString(localizor.strings, bookmark.name)}
-                </ToastStrong>{" "}
-                {localizor.strings.general.fromBookmarks}.
-            </UndoText>{" "}
-            <UndoButton
-                onTouchEnd={e => {
-                    e.preventDefault();
-                    handleClick();
-                }}
-                onClick={handleClick}
-            >
-                {localizor.strings.general.undo}
-            </UndoButton>
-        </Content>
-    );
-};
+    render() {
+        const { bookmark, localizor } = this.props;
+        return (
+            <Content>
+                <UndoText>
+                    {localizor.strings.general.removed}{" "}
+                    <ToastStrong>
+                        {getPropByString(localizor.strings, bookmark.name)}
+                    </ToastStrong>{" "}
+                    {localizor.strings.general.fromBookmarks}.
+                </UndoText>{" "}
+                <UndoButton
+                    id="undo-bookmark-btn"
+                    ref={node => (this.node = node)}
+                    onTouchEnd={e => {
+                        e.preventDefault();
+                        this.handleClick();
+                    }}
+                    onClick={this.handleClick}
+                >
+                    {localizor.strings.general.undo}
+                </UndoButton>
+            </Content>
+        );
+    }
+}
 
 const Slide = cssTransition({
     enter: "Toastify__slide-enter",
