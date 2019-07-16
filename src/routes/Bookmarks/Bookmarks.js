@@ -14,11 +14,16 @@ const PaddedContent = styled.div`
     padding-left: 25px;
 `;
 
-const IconWrapper = styled.div`
+const IconWrapper = styled.button`
     color: ${theme.colors.primary};
     font-size: 2em;
     cursor: pointer;
     margin-left: 10px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    outline: none;
 `;
 
 const IconContainer = styled.div`
@@ -135,6 +140,8 @@ class Bookmarks extends Component {
             bookmarksToRemove: []
         };
         this.toastId = "bookmarkToast";
+        this.lastRemovedIdx = -1;
+        this.removeBookmarkBtns = [];
     }
 
     componentWillUnmount() {
@@ -194,8 +201,12 @@ class Bookmarks extends Component {
                                 </PaddedContent>
                             </Item>
                             <IconWrapper
+                                ref={node =>
+                                    (this.removeBookmarkBtns[i] = node)
+                                }
+                                aria-label="Remove bookmark"
                                 onClick={() => {
-                                    this.markForRemoval(bookmark);
+                                    this.markForRemoval(bookmark, i);
                                 }}
                             >
                                 <BookmarkIcon />
@@ -210,7 +221,7 @@ class Bookmarks extends Component {
         );
     };
 
-    markForRemoval = bookmark => {
+    markForRemoval = (bookmark, i = -1) => {
         const { bookmarksToRemove } = this.state;
         bookmarksToRemove.push(bookmark);
         this.setState({ bookmarksToRemove });
@@ -233,6 +244,9 @@ class Bookmarks extends Component {
                 transition: Slide
             });
         }
+        if (i !== -1) {
+            this.lastRemovedIdx = i;
+        }
 
         clearTimeout(this.undoTimer);
         this.undoTimer = setTimeout(() => {
@@ -253,6 +267,9 @@ class Bookmarks extends Component {
             bookmark.header,
             bookmark.url
         );
+        if (this.lastRemovedIdx !== -1) {
+            this.removeBookmarkBtns[this.lastRemovedIdx].focus();
+        }
         if (bookmarksToRemove.length > 0) {
             clearTimeout(this.undoTimer);
             const prevBookmark =
