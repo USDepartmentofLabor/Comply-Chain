@@ -133,8 +133,8 @@ const en = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;. <em>Fair Hiring Toolkit; </em>available
-                        from{" "}
+                        <span lang="fr">Verit&eacute;</span>.{" "}
+                        <em>Fair Hiring Toolkit; </em>available from{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -146,7 +146,7 @@ const en = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;.{" "}
+                        <span lang="fr">Verit&eacute;</span>.{" "}
                         <em>
                             Responsible Sourcing Tool: Recruitment and
                             Employment Benchmarks;{" "}
@@ -163,7 +163,7 @@ const en = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;.{" "}
+                        <span lang="fr">Verit&eacute;</span>.{" "}
                         <em>
                             Responsible Sourcing Tool: Sample Supplier
                             Self-Assessment;
@@ -180,7 +180,7 @@ const en = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;.{" "}
+                        <span lang="fr">Verit&eacute;</span>.{" "}
                         <em>
                             Responsible Sourcing Tool: Conducting Migrant Worker
                             Interviews;{" "}
