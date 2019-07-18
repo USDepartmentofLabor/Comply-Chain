@@ -154,7 +154,7 @@ const es = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;.{" "}
+                        <span lang="fr">Verit&eacute;</span>.{" "}
                         <em>
                             <i>
                                 Kit de Herramientas para la Contrataci&oacute;n
@@ -173,7 +173,7 @@ const es = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;.{" "}
+                        <span lang="fr">Verit&eacute;</span>.{" "}
                         <em>
                             <i>Responsible Sourcing Tool:</i>
                             <i> </i>
@@ -191,7 +191,7 @@ const es = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;.{" "}
+                        <span lang="fr">Verit&eacute;</span>.{" "}
                         <em>
                             <i>Responsible Sourcing Tool:</i>{" "}
                             <i>Sample Supplier Self-Assessment;</i>
@@ -208,7 +208,7 @@ const es = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;.{" "}
+                        <span lang="fr">Verit&eacute;</span>.{" "}
                         <em>
                             <i>Responsible Sourcing Tool:</i>{" "}
                             <i>Conducting Migrant Worker Interviews;</i>{" "}
