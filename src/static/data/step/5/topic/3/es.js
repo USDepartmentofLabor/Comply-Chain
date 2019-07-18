@@ -352,7 +352,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="rst1a">
                     <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <ExampleInAction.Icon alt="Lightbulb" />
                         Ejemplo en acci&oacute;n: Instrumento de abastecimiento
                         responsable 1A
                     </h2>
@@ -1246,7 +1246,7 @@ const es = () => {
                             href="https://www.verite.org/"
                             title="Verit&eacute;"
                         >
-                            Verit&eacute;
+                            <span lang="fr">Verit&eacute;</span>
                         </a>
                         ,{" "}
                         <a
@@ -1266,7 +1266,8 @@ const es = () => {
                         >
                             Aspen Institute
                         </a>
-                        . El contenido de RST fue aportado por Verit&eacute;,
+                        . El contenido de RST fue aportado por{" "}
+                        <span lang="fr">Verit&eacute;</span>,
                         organizaci&oacute;n dedicada a los derechos laborales
                         con conocimientos especializados en la cadena de
                         suministro, con fondos de la Oficina del Departamento de
@@ -1342,19 +1343,20 @@ const es = () => {
                         criterios de autenticaci&oacute;n de empresas para
                         combatir la trata de seres humanos
                     </a>{" "}
-                    de Verit&eacute;. Este instrumento brinda a los evaluadores
-                    criterios para autenticar el cumplimiento en toda la empresa
-                    de las iniciativas para combatir la trata de seres humanos,
-                    incluidos los compromisos de pol&iacute;tica, la
-                    rendici&oacute;n de cuentas a nivel ejecutivo y del
-                    directorio, estructura org&aacute;nica, evaluaci&oacute;n y
-                    control de riesgos y expectativas de desempe&ntilde;o.
-                    Brinda tanto pr&aacute;cticas innovadoras para cada
-                    criterio, como prueba necesaria para la verificaci&oacute;n.
-                    Adem&aacute;s, funge de gu&iacute;a para que los evaluadores
-                    puedan autenticar el cumplimiento de estas iniciativas al
-                    nivel del lugar de trabajo, al especificar, por ejemplo, los
-                    requisitos m&iacute;nimos.
+                    de <span lang="fr">Verit&eacute;</span>. Este instrumento
+                    brinda a los evaluadores criterios para autenticar el
+                    cumplimiento en toda la empresa de las iniciativas para
+                    combatir la trata de seres humanos, incluidos los
+                    compromisos de pol&iacute;tica, la rendici&oacute;n de
+                    cuentas a nivel ejecutivo y del directorio, estructura
+                    org&aacute;nica, evaluaci&oacute;n y control de riesgos y
+                    expectativas de desempe&ntilde;o. Brinda tanto
+                    pr&aacute;cticas innovadoras para cada criterio, como prueba
+                    necesaria para la verificaci&oacute;n. Adem&aacute;s, funge
+                    de gu&iacute;a para que los evaluadores puedan autenticar el
+                    cumplimiento de estas iniciativas al nivel del lugar de
+                    trabajo, al especificar, por ejemplo, los requisitos
+                    m&iacute;nimos.
                 </p>
             </div>
         </StaticData>
