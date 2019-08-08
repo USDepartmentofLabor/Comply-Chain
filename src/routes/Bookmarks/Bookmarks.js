@@ -64,6 +64,7 @@ const ToastStrong = styled.span`
 `;
 const Content = styled.div`
     display: flex;
+    width: 300px;
     align-items: center;
     justify-content: space-evenly;
     padding: 15px;
@@ -74,6 +75,7 @@ const UndoButton = styled.button`
     background: ${theme.colors.primaryDarker};
     color: ${theme.colors.white};
     height: auto;
+    width: 150px;
     padding: 15px;
     font-weight: bold;
     cursor: pointer;
@@ -81,7 +83,8 @@ const UndoButton = styled.button`
 
 const UndoText = styled.span`
     font-size: 12px;
-    padding: 0 5px;
+    width:100px;
+    padding: 0 5 px;
 `;
 class ToastUndo extends Component {
     componentDidMount() {

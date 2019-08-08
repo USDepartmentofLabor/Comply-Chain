@@ -48,6 +48,7 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
     const Content = styled.div`
         display: flex;
         align-items: center;
+        width: 300px;
         justify-content: space-evenly;
         padding: 15px;
     `;
@@ -57,12 +58,14 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
         background: ${theme.colors.primaryDarker};
         color: ${theme.colors.white};
         height: auto;
+        width: 150px;
         padding: 15px;
         font-weight: bold;
         cursor: pointer;
     `;
 
     const UndoText = styled.span`
+        width: 100px;
         font-size: 12px;
         padding: 0 5px;
     `;
