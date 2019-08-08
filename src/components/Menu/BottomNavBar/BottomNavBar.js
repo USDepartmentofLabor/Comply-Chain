@@ -22,7 +22,6 @@ const NavItem = styled.div`
     padding: 8px 0;
     min-width: 56px;
     max-width: 144px;
-    flex: 1 1 auto;
     color: ${theme.colors.primaryDarkest};
     text-decoration: none;
     cursor: pointer;
