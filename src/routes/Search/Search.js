@@ -20,7 +20,7 @@ const SearchLabel = styled.label`
         position: absolute;
         transform: translateY(40%);
         z-index: 5;
-        top: 90%;
+        top: 0%;
         left: 10px;
         height: 20px;
     }
