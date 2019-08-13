@@ -170,12 +170,12 @@ const fr = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col">
                                 <p>
                                     <strong>Situations</strong>
                                 </p>
                             </th>
-                            <th width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Actions de r&eacute;paration
@@ -280,12 +280,12 @@ const fr = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col">
                                 <p>
                                     <strong>Situations</strong>
                                 </p>
                             </th>
-                            <th width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Actions de r&eacute;paration
@@ -604,12 +604,12 @@ const fr = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col">
                                 <p>
                                     <strong>Situations</strong>
                                 </p>
                             </th>
-                            <th width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Actions de r&eacute;paration
@@ -730,12 +730,12 @@ const fr = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col">
                                 <p>
                                     <strong>Situations</strong>
                                 </p>
                             </th>
-                            <th width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Actions de r&eacute;paration

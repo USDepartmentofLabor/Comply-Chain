@@ -158,12 +158,12 @@ const es = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col">
                                 <p>
                                     <strong>Circunstancias</strong>
                                 </p>
                             </th>
-                            <th width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Medidas de remediaci&oacute;n
@@ -259,12 +259,12 @@ const es = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col">
                                 <p>
                                     <strong>Circunstancias</strong>
                                 </p>
                             </th>
-                            <th width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Medidas de remediaci&oacute;n
@@ -547,12 +547,12 @@ const es = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col">
                                 <p>
                                     <strong>Circunstancias</strong>
                                 </p>
                             </th>
-                            <th width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Medidas de remediaci&oacute;n
@@ -659,12 +659,12 @@ const es = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col">
                                 <p>
                                     <strong>Circunstancias</strong>
                                 </p>
                             </th>
-                            <th width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col">
                                 <p>
                                     <strong>
                                         Medidas de remediaci&oacute;n

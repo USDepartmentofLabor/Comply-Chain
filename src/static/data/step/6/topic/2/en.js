@@ -136,12 +136,12 @@ const en = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col">
                                 <p>
                                     <strong>Circumstances</strong>
                                 </p>
                             </th>
-                            <th width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
@@ -223,12 +223,12 @@ const en = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col">
                                 <p>
                                     <strong>Circumstances</strong>
                                 </p>
                             </th>
-                            <th width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
@@ -476,12 +476,12 @@ const en = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col">
                                 <p>
                                     <strong>Circumstances</strong>
                                 </p>
                             </th>
-                            <th width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
@@ -571,12 +571,12 @@ const en = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col">
                                 <p>
                                     <strong>Circumstances</strong>
                                 </p>
                             </th>
-                            <th width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
