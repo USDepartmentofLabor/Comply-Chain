@@ -43,6 +43,18 @@ const MenuButton = styled(Button)`
     padding: 16px 16px;
     width: 90px;
     height: 55px;
+    &:hover {
+        background-color: ${theme.colors.primaryDarker};
+        border: solid 3px #3d3d3d;
+    };
+    &:focus {
+        background-color: ${theme.colors.primaryDarker};
+        border: solid 3px #3d3d3d;
+    };
+    &:active {
+        background-color: ${theme.colors.primaryDarker};
+        border: solid 3px #3d3d3d;
+    }
 `;
 
 const StepsMenuItem = styled(SideNav.Item)`
