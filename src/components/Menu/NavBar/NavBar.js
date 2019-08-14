@@ -45,15 +45,15 @@ const MenuButton = styled(Button)`
     height: 55px;
     &:hover {
         background-color: ${theme.colors.primaryDarker};
-        border: solid 3px #3d3d3d;
+        outline: solid 3px #3d3d3d;
     };
     &:focus {
         background-color: ${theme.colors.primaryDarker};
-        border: solid 3px #3d3d3d;
+        outline: solid 3px #3d3d3d;
     };
     &:active {
         background-color: ${theme.colors.primaryDarker};
-        border: solid 3px #3d3d3d;
+        outline: solid 3px #3d3d3d;
     }
 `;
 
