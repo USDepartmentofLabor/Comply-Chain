@@ -19,6 +19,7 @@ import { Navigator } from "../Navigation";
 import Share from "../Share";
 import StepProgressBar from "../StepProgessBar";
 import ScrollToTop from "./ScrollToTop";
+import SkipToMainContent from "../SkipToMainContent/SkipToMainContent";
 
 const Main = styled.div`
     padding: 0 10px;
@@ -321,6 +322,7 @@ class AppWrapper extends Component {
                 <ScrollToTop>
                     <Header>
                         <NavbarWrapper>
+                            <SkipToMainContent/>
                             <BrandStrip />
                             <NavBar
                                 leftItems={navBarLeftItems}
@@ -330,7 +332,7 @@ class AppWrapper extends Component {
                         </NavbarWrapper>
                     </Header>
                     <div aria-hidden={sideNavVisible}>
-                        <MainWrapper id="main">
+                        <MainWrapper id="main" tabIndex={-1}>
                             {location.pathname.includes("/steps") && (
                                 <StepBarWrapper id="step_progess_bar">
                                     <StepProgressBar />
