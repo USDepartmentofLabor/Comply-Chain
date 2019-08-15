@@ -233,6 +233,7 @@ const FlexContent = styled.div`
 
 const PaddedTitle = styled.span`
     padding-left: 25px;
+    padding-bottom: 25px;
 `;
 
 const Icon = styled.span`
