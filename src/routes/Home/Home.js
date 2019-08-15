@@ -303,11 +303,11 @@ const Item = styled.div`
             : `linear-gradient(
             rgba(
                 ${props.red ? theme.colors.redRGB : theme.colors.primaryRGB},
-                0.75
+                0.9
             ),
             rgba(
                 ${props.red ? theme.colors.redRGB : theme.colors.primaryRGB},
-                0.75
+                0.9
             )
         ),
         url(${props.image})`};
@@ -320,6 +320,7 @@ const Item = styled.div`
         )`
             : "none"};
     background-repeat: no-repeat;
+    opacity: 1;
     background-position: ${props =>
         `${props.imageMobilePosition.x}% ${props.imageMobilePosition.y}%`};
     background-size: cover;
