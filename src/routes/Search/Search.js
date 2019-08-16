@@ -214,7 +214,9 @@ class Search extends Component {
                             .apply(
                                 [],
                                 step.keyTerms.map(keyTerm => {
-                                    return Object.values(keyTerm);
+                                    // return Object.values(keyTerm);
+                                    // below works in IE
+                                    return Object.keys(keyTerm).map(itm => keyTerm[itm]);
                                 })
                             )
                             .join(" "),
