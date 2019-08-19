@@ -25,6 +25,7 @@ class ShareWeb extends Component {
     render() {
         const { id, className, children, localizor } = this.props;
         return (
+            <div tabIndex="0">
             <Dropdown up id={id} className={className}>
                 <Dropdown.Title>{children}</Dropdown.Title>
                 <Dropdown.Content>
@@ -39,6 +40,7 @@ class ShareWeb extends Component {
                     </Dropdown.Item>
                 </Dropdown.Content>
             </Dropdown>
+            </div>
         );
     }
 }
