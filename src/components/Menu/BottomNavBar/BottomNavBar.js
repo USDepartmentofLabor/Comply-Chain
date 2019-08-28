@@ -27,7 +27,7 @@ const NavItem = styled.div`
     cursor: pointer;
 
     &:not(:last-child) {
-        margin-right: 12px;
+        // margin-right: 12px;
     }
 
     &.active {
@@ -39,10 +39,14 @@ NavItem.Icon = styled.div`
     display: block;
     width: 1em;
     height: 1em;
+    padding: 8px 40px;
+    min-width: 56px;
+    max-width: 144px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4px;
     font-size: 24px;
+    text-align: center;
 `;
 NavItem.Label = styled.span`
     line-height: 1;
