@@ -399,6 +399,7 @@ class Search extends Component {
                         />
                         <SearchInput
                             id="search-input"
+                            aria-label="Search Box"
                             type="search"
                             ref={input => (this.searchInput = input)}
                             placeholder={localizor.strings.general.search}
@@ -407,6 +408,7 @@ class Search extends Component {
                         />
                         <SearchButton
                             id="search-button"
+                            aria-label="Search Submit Button"
                             variant="primary"
                             type="submit"
                         >
