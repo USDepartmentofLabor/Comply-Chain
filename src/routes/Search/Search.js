@@ -17,12 +17,13 @@ const SearchLabel = styled.label`
     color: ${theme.colors.primaryAltDarkest};
     & svg {
         content: "";
-        position: absolute;
+        position: relative;
         transform: translateY(40%);
         z-index: 5;
-        top: 0%;
+        top: 20px;
         left: 10px;
         height: 20px;
+        vertical-align: bottom;
     }
 `;
 
