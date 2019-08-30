@@ -97,7 +97,9 @@ const ToastContainerWrapper = styled.div`
         & > * {
             color: ${theme.colors.white};
             background: ${theme.colors.primary};
-        }
+        };
+        width:399px;
+        left:47.5%;
     }
 
     .toast {
@@ -322,7 +324,7 @@ class AppWrapper extends Component {
                 <ScrollToTop>
                     <Header>
                         <NavbarWrapper>
-                            <SkipToMainContent/>
+                            {/*<SkipToMainContent/>*/}
                             <BrandStrip />
                             <NavBar
                                 leftItems={navBarLeftItems}

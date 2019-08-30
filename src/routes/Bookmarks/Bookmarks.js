@@ -55,16 +55,19 @@ const ItemTitle = styled.h3`
 const ItemContent = styled(Link)`
     color: ${theme.colors.primary};
     text-decoration: none;
+    width:420px;
 `;
 
 const Item = styled.div``;
 
 const ToastStrong = styled.span`
     font-weight: bold;
+    width: 430px;
+    padding: 10px;
 `;
 const Content = styled.div`
     display: flex;
-    width: 300px;
+    // width: 440px;
     align-items: center;
     justify-content: space-evenly;
     padding: 15px;
@@ -75,7 +78,7 @@ const UndoButton = styled.button`
     background: ${theme.colors.primaryDarker};
     color: ${theme.colors.white};
     height: auto;
-    width: 150px;
+    width: 74px;
     padding: 15px;
     font-weight: bold;
     cursor: pointer;
@@ -83,7 +86,7 @@ const UndoButton = styled.button`
 
 const UndoText = styled.span`
     font-size: 12px;
-    width:100px;
+    width:250px;
     padding: 0 5 px;
 `;
 class ToastUndo extends Component {
