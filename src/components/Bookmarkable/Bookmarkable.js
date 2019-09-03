@@ -77,11 +77,11 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
     return (
         <Content>
             <UndoText>
-                {localizor.strings.general.bookmarked}{" "}
+                {localizor.strings.general.bookmarked}{""}
                 <ToastStrong>
                     {getPropByString(localizor.strings, name)}
                 </ToastStrong>
-                .
+
             </UndoText>{" "}
             <UndoButton
                 onTouchEnd={e => {

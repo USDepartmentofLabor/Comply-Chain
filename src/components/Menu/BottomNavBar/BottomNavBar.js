@@ -39,7 +39,7 @@ NavItem.Icon = styled.div`
     display: block;
     width: 1em;
     height: 1em;
-    padding: 0px 30px 0px 30px;
+    padding: 0px 15px 0px 15px;
     min-width: 56px;
     max-width: 144px;
     margin-left: auto;
@@ -55,6 +55,9 @@ NavItem.Label = styled.span`
     display: block;
     font-size: 12px;
 `;
+
+// style={{minWidth: '56px', maxWidth: '144px', justifyContent:'center', alignItems:'center'}}
+
 class BottomNavBar extends Component {
     render() {
         const { items, id } = this.props;
@@ -63,11 +66,11 @@ class BottomNavBar extends Component {
                 {items.map((item, i) => {
                     const Icon = item.icon;
                     return (
-                        <NavItem {...item.props} key={"bottom_nav_" + i} style={{ justifyContent:'center', alignItems:'center'}}>
+                        <NavItem {...item.props} key={"bottom_nav_" + i}>
                             <NavItem.Icon>
                                 <Icon alt={item.alt} />
                             </NavItem.Icon>
-                            <NavItem.Label>hey{item.label}</NavItem.Label>
+                            <NavItem.Label>{item.label}</NavItem.Label>
                         </NavItem>
                     );
                 })}
