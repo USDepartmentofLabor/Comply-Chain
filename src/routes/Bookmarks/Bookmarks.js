@@ -70,7 +70,7 @@ const Content = styled.div`
     // width: 440px;
     align-items: center;
     justify-content: space-evenly;
-    padding: 15px;
+    padding: 5px;
 `;
 
 const UndoButton = styled.button`
@@ -86,7 +86,7 @@ const UndoButton = styled.button`
 
 const UndoText = styled.span`
     font-size: 12px;
-    width:250px;
+    width:180px;
     padding: 0 5 px;
 `;
 class ToastUndo extends Component {
@@ -108,12 +108,12 @@ class ToastUndo extends Component {
         return (
             <Content>
                 <UndoText>
-                    {localizor.strings.general.removed}{" "}
+                    {localizor.strings.general.removed}{""}
                     <ToastStrong>
                         {getPropByString(localizor.strings, bookmark.name)}
-                    </ToastStrong>{" "}
+                    </ToastStrong>{""}
                     {localizor.strings.general.fromBookmarks}.
-                </UndoText>{" "}
+                </UndoText>{""}
                 <UndoButton
                     id="undo-bookmark-btn"
                     ref={node => (this.node = node)}

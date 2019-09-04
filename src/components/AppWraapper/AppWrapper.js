@@ -104,6 +104,14 @@ const ToastContainerWrapper = styled.div`
 
     .toast {
         background: ${theme.colors.primary};
+        position: fixed;
+        align-content:center;
+        align-items: center;
+        left:10px;
+        right:10px;
+        bottom:70px;
+        width:300px;
+        margin: 0 auto;
     }
 `;
 

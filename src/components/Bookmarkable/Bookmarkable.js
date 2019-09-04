@@ -53,8 +53,9 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
         align-items: center;
         // width: 300px;
         // justify-content: space-evenly;
-        padding: 15px;
+        padding: 5px;
         left: 50px;
+        width: 280px;
     `;
 
     const UndoButton = styled.button`
@@ -69,7 +70,7 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
     `;
 
     const UndoText = styled.span`
-        width: 250px;
+        width: 180px;
         font-size: 12px;
         padding: 0 5px;
     `;
