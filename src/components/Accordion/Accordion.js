@@ -146,7 +146,6 @@ class Accordion extends Component {
                             this.closeOthers(sectionIndex);
                         }
                     },
-                    role: "button",
                     "aria-expanded": false
                 });
                 if (child.props.heading) {
@@ -175,7 +174,7 @@ class Accordion extends Component {
 
 const Wrapper = styled.div``;
 
-Accordion.Title = styled.div`
+Accordion.Title = styled.button`
     position: relative;
     background-color: ${theme.colors.offWhite};
     color: ${theme.colors.base};
@@ -185,6 +184,7 @@ Accordion.Title = styled.div`
     border: none;
     text-align: left;
     outline: none;
+    width: 100%;
 
     &:hover {
         background-color: #ccc;

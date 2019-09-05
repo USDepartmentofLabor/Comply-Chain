@@ -292,7 +292,7 @@ const en = () => {
                                 </p>
                                 <ExampleInAction id="better-work-garment">
                                     <h4>
-                                        <ExampleInAction.Icon />
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
                                         <strong>Example in Action</strong>
                                         {": "}
                                         <em>
@@ -550,7 +550,7 @@ const en = () => {
                                 </p>
                                 <OwnWords>
                                     <h4>
-                                        <OwnWords.Icon />{" "}
+                                        <OwnWords.Icon alt="Feedback"/>{" "}
                                         <strong>In Their Own Words</strong>
                                         {": "}
                                         <strong>
@@ -824,7 +824,7 @@ const en = () => {
                                 </p>
                                 <ExampleInAction id="eicc">
                                     <h4>
-                                        <ExampleInAction.Icon />
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
                                         <strong>
                                             Example in Action: Responsible
                                             Business Alliance (RBA) (formerly

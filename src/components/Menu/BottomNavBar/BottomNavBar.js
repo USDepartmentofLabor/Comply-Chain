@@ -22,13 +22,12 @@ const NavItem = styled.div`
     padding: 8px 0;
     min-width: 56px;
     max-width: 144px;
-    flex: 1 1 auto;
     color: ${theme.colors.primaryDarkest};
     text-decoration: none;
     cursor: pointer;
 
     &:not(:last-child) {
-        margin-right: 12px;
+        // margin-right: 12px;
     }
 
     &.active {
@@ -40,10 +39,14 @@ NavItem.Icon = styled.div`
     display: block;
     width: 1em;
     height: 1em;
+    padding: 0px 15px 0px 15px;
+    min-width: 56px;
+    max-width: 144px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4px;
     font-size: 24px;
+    text-align: center;
 `;
 NavItem.Label = styled.span`
     line-height: 1;
@@ -52,6 +55,9 @@ NavItem.Label = styled.span`
     display: block;
     font-size: 12px;
 `;
+
+// style={{minWidth: '56px', maxWidth: '144px', justifyContent:'center', alignItems:'center'}}
+
 class BottomNavBar extends Component {
     render() {
         const { items, id } = this.props;
@@ -62,7 +68,7 @@ class BottomNavBar extends Component {
                     return (
                         <NavItem {...item.props} key={"bottom_nav_" + i}>
                             <NavItem.Icon>
-                                <Icon />
+                                <Icon alt={item.alt} />
                             </NavItem.Icon>
                             <NavItem.Label>{item.label}</NavItem.Label>
                         </NavItem>

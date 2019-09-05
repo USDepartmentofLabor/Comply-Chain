@@ -9,18 +9,21 @@ import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
 import { getRawTextData } from "../../modules/utils";
 import { isBrowser } from "../../modules/utils/platform";
+import Title from "../../components/Title/Title";
+import Button from "../../components/Button";
 
 const SearchLabel = styled.label`
     position: relative;
     color: ${theme.colors.primaryAltDarkest};
     & svg {
         content: "";
-        position: absolute;
+        position: relative;
         transform: translateY(40%);
         z-index: 5;
-        top: 90%;
+        top: 20px;
         left: 10px;
         height: 20px;
+        vertical-align: bottom;
     }
 `;
 
@@ -33,6 +36,17 @@ const SearchInput = styled.input`
     width: 100%;
     box-sizing: border-box;
     appearance: none;
+`;
+
+const SearchButton = styled(Button)`
+    width: 200px;
+    padding: 15px;
+    margin: 1rem auto 0;
+    display: block;
+
+    @media print {
+        display: none;
+    }
 `;
 
 const SearchResultsHeader = styled.h1`
@@ -201,7 +215,9 @@ class Search extends Component {
                             .apply(
                                 [],
                                 step.keyTerms.map(keyTerm => {
-                                    return Object.values(keyTerm);
+                                    // return Object.values(keyTerm);
+                                    // below works in IE
+                                    return Object.keys(keyTerm).map(itm => keyTerm[itm]);
                                 })
                             )
                             .join(" "),
@@ -351,27 +367,54 @@ class Search extends Component {
     render() {
         const { localizor } = this.props;
         const { query, results, searching } = this.state;
+        let title =
+            localizor.strings.general.search +
+            " - Comply Chain - " +
+            localizor.strings.general.dol;
+
+        if (query && !searching) {
+            title =
+                localizor.strings.general.searchResultsFor +
+                " " +
+                query +
+                " - Comply Chain - " +
+                localizor.strings.general.dol;
+        }
         return (
             <div>
+                <Title title={title} />
                 {query && !searching && (
                     <SearchResultsHeader>
                         {results.length}{" "}
-                        {localizor.strings.general.searchResultsFor} "
-                        <span className="query">{query}</span>"
+                        {localizor.strings.general.searchResultsFor.toLowerCase()}{" "}
+                        "<span className="query">{query}</span>"
                     </SearchResultsHeader>
                 )}
                 <form action="." onSubmit={this.handleSubmit}>
-                    <SearchLabel>
+                    <SearchLabel for="search-input">
                         <HiddenText508>Search</HiddenText508>
-                        <Icons.Search role="img" aria-label="Search" />
+                        <Icons.Search
+                            role="img"
+                            aria-label="Search"
+                            alt="Magnifying glass"
+                        />
                         <SearchInput
                             id="search-input"
+                            aria-label="Search Box"
                             type="search"
                             ref={input => (this.searchInput = input)}
                             placeholder={localizor.strings.general.search}
                             value={query}
                             onChange={this.handleChange}
                         />
+                        <SearchButton
+                            id="search-button"
+                            aria-label="Search Submit Button"
+                            variant="primary"
+                            type="submit"
+                        >
+                            {localizor.strings.general.search}
+                        </SearchButton>
                     </SearchLabel>
                 </form>
                 {results.map((result, i) => {

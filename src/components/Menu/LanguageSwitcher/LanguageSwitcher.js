@@ -24,9 +24,17 @@ const LanguageButton = styled.button`
     font-size: 1em;
     font-weight: bold;
     border: 1px solid ${theme.colors.white};
-
     &:hover {
         background-color: ${theme.colors.primaryDarker};
+        outline: solid 3px #3d3d3d;
+    };
+    &:focus {
+        background-color: ${theme.colors.primaryDarker};
+        outline: solid 3px #3d3d3d;
+    };
+    &:active {
+        background-color: ${theme.colors.primaryDarker};
+        outline: solid 3px #3d3d3d;
     }
 `;
 
@@ -58,7 +66,7 @@ class LanguageSwitcher extends Component {
                         this.handleLanguageChange("en");
                     }}
                 >
-                    {localizor.strings.general.english}
+                    <span lang="en">{localizor.strings.general.english}</span>
                 </LanguageButton>
                 <LanguageButton
                     id="es-btn"
@@ -66,7 +74,7 @@ class LanguageSwitcher extends Component {
                         this.handleLanguageChange("es");
                     }}
                 >
-                    {localizor.strings.general.spanish}
+                    <span lang="es">{localizor.strings.general.spanish}</span>
                 </LanguageButton>
                 <LanguageButton
                     id="fr-btn"
@@ -74,7 +82,7 @@ class LanguageSwitcher extends Component {
                         this.handleLanguageChange("fr");
                     }}
                 >
-                    {localizor.strings.general.french}
+                    <span lang="fr">{localizor.strings.general.french}</span>
                 </LanguageButton>
             </LanguageWrapper>
         );

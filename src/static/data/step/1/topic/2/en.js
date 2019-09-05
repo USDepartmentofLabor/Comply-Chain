@@ -79,7 +79,7 @@ const en = () => {
                 </div>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon /> <strong>In Their Own Words</strong>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
                         {": "}
                     </h2>
                     <p>

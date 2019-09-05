@@ -31,12 +31,14 @@ class Home extends Component {
                         imageDesktopPosition={infoImageData[0].desktop}
                     >
                         <ItemContent>
-                            <ItemTitle
-                                id="home_whydeveloper"
-                                to={Routes.WhyDevelop.path}
-                            >
-                                {localizor.strings.info.whyDevelop.title}
-                            </ItemTitle>
+                            <h1>
+                                <ItemTitle
+                                    id="home_whydeveloper"
+                                    to={Routes.WhyDevelop.path}
+                                >
+                                    {localizor.strings.info.whyDevelop.title}
+                                </ItemTitle>
+                            </h1>
                         </ItemContent>
                     </Item>
                     <StatusIcons>
@@ -53,9 +55,14 @@ class Home extends Component {
                         imageDesktopPosition={infoImageData[1].desktop}
                     >
                         <ItemContent>
-                            <ItemTitle id="home_basics" to={Routes.Basics.path}>
-                                {localizor.strings.info.basics.title}
-                            </ItemTitle>
+                            <h1>
+                                <ItemTitle
+                                    id="home_basics"
+                                    to={Routes.Basics.path}
+                                >
+                                    {localizor.strings.info.basics.title}
+                                </ItemTitle>
+                            </h1>
                         </ItemContent>
                     </Item>
                     <StatusIcons>
@@ -87,19 +94,28 @@ class Home extends Component {
                                 >
                                     <FlexContent>
                                         <Icon>
-                                            <Icons.StepIcon step={i + 1} />
+                                            <Icons.StepIcon
+                                                step={i + 1}
+                                                alt="Step icon"
+                                            />
                                         </Icon>
                                         <PaddedTitle>
-                                            <ItemTitle to={`/steps/${i + 1}`}>
-                                                {step.title}
-                                            </ItemTitle>
+                                            <h1>
+                                                <ItemTitle
+                                                    to={`/steps/${i + 1}`}
+                                                >
+                                                    {step.title}
+                                                </ItemTitle>
+                                            </h1>
                                         </PaddedTitle>
                                     </FlexContent>
                                 </ItemContent>
                             </Item>
                             <StatusIcons>
-                                {bookmarked && <BookmarkIcon />}
-                                {complete && <CheckIcon />}
+                                {bookmarked && (
+                                    <BookmarkIcon alt={"Bookmarked"} />
+                                )}
+                                {complete && <CheckIcon alt="Complete" />}
                             </StatusIcons>
                         </IconContainer>
                     );
@@ -217,6 +233,7 @@ const FlexContent = styled.div`
 
 const PaddedTitle = styled.span`
     padding-left: 25px;
+    padding-bottom: 25px;
 `;
 
 const Icon = styled.span`
@@ -287,11 +304,11 @@ const Item = styled.div`
             : `linear-gradient(
             rgba(
                 ${props.red ? theme.colors.redRGB : theme.colors.primaryRGB},
-                0.75
+                0.9
             ),
             rgba(
                 ${props.red ? theme.colors.redRGB : theme.colors.primaryRGB},
-                0.75
+                0.9
             )
         ),
         url(${props.image})`};
@@ -304,6 +321,7 @@ const Item = styled.div`
         )`
             : "none"};
     background-repeat: no-repeat;
+    opacity: 1;
     background-position: ${props =>
         `${props.imageMobilePosition.x}% ${props.imageMobilePosition.y}%`};
     background-size: cover;

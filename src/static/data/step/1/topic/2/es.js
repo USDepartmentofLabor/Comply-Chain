@@ -93,7 +93,7 @@ const es = () => {
                 </div>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />{" "}
+                        <OwnWords.Icon alt="Feedback"/>{" "}
                         <strong>En sus propias palabras</strong>
                         {": "}
                     </h2>

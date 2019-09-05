@@ -128,6 +128,16 @@ SideNav.Item = styled.div`
     &:hover {
         color: ${props =>
             props.dimmed ? theme.colors.gray : theme.colors.offWhite};
+        background-color: ${theme.colors.primaryDarker};
+        outline: solid 3px #3d3d3d;
+    };
+    &:focus {
+        background-color: ${theme.colors.primaryDarker};
+        outline: solid 3px #3d3d3d;
+    };
+    &:active {
+        background-color: ${theme.colors.primaryDarker};
+        outline: solid 3px #3d3d3d;
     }
 `;
 

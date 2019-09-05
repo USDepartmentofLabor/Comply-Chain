@@ -90,7 +90,7 @@ const fr = () => {
                 </p>
                 <ExampleInAction id="clt">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>Exemple d&apos;action: GoodWeave</strong>
                     </h2>
 

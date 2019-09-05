@@ -116,5 +116,4 @@ export const AppGlobalStyles = createGlobalStyle`
             margin-top: 0;
         }
     }
-
 `;

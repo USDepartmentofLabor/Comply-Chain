@@ -71,7 +71,7 @@ const fr = () => {
                 </ul>
                 <OwnWords>
                     <h3>
-                        <OwnWords.Icon />{" "}
+                        <OwnWords.Icon alt="Feedback"/>{" "}
                         <strong>
                             Dans leurs propres mots: Les d&eacute;fis de
                             la v&eacute;rification de l&apos;&acirc;ge

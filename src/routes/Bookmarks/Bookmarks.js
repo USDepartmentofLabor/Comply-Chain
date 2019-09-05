@@ -8,16 +8,22 @@ import { withLanguageContext } from "../../components/Language";
 import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
 import { getPropByString } from "../../modules/utils";
+import Title from "../../components/Title/Title";
 
 const PaddedContent = styled.div`
     padding-left: 25px;
 `;
 
-const IconWrapper = styled.div`
+const IconWrapper = styled.button`
     color: ${theme.colors.primary};
     font-size: 2em;
     cursor: pointer;
     margin-left: 10px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    outline: none;
 `;
 
 const IconContainer = styled.div`
@@ -49,65 +55,80 @@ const ItemTitle = styled.h3`
 const ItemContent = styled(Link)`
     color: ${theme.colors.primary};
     text-decoration: none;
+    width:420px;
 `;
 
 const Item = styled.div``;
 
 const ToastStrong = styled.span`
     font-weight: bold;
+    width: 430px;
+    padding: 10px;
+`;
+const Content = styled.div`
+    display: flex;
+    // width: 440px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
 `;
 
-const ToastUndo = ({ bookmark, localizor, undo, shouldClose, closeToast }) => {
-    const handleClick = () => {
+const UndoButton = styled.button`
+    border: none;
+    background: ${theme.colors.primaryDarker};
+    color: ${theme.colors.white};
+    height: auto;
+    width: 74px;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+`;
+
+const UndoText = styled.span`
+    font-size: 12px;
+    width:180px;
+    padding: 0 5 px;
+`;
+class ToastUndo extends Component {
+    componentDidMount() {
+        if (this.node) {
+            this.node.focus();
+        }
+    }
+    handleClick = () => {
+        const { bookmark, undo, shouldClose, closeToast } = this.props;
         undo(bookmark);
         if (shouldClose) {
             closeToast();
         }
     };
 
-    const Content = styled.div`
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        padding: 15px;
-    `;
-
-    const UndoButton = styled.button`
-        border: none;
-        background: ${theme.colors.primaryDarker};
-        color: ${theme.colors.white};
-        height: auto;
-        padding: 15px;
-        font-weight: bold;
-        cursor: pointer;
-    `;
-
-    const UndoText = styled.span`
-        font-size: 12px;
-        padding: 0 5px;
-    `;
-
-    return (
-        <Content>
-            <UndoText>
-                {localizor.strings.general.removed}{" "}
-                <ToastStrong>
-                    {getPropByString(localizor.strings, bookmark.name)}
-                </ToastStrong>{" "}
-                {localizor.strings.general.fromBookmarks}.
-            </UndoText>{" "}
-            <UndoButton
-                onTouchEnd={e => {
-                    e.preventDefault();
-                    handleClick();
-                }}
-                onClick={handleClick}
-            >
-                {localizor.strings.general.undo}
-            </UndoButton>
-        </Content>
-    );
-};
+    render() {
+        const { bookmark, localizor } = this.props;
+        return (
+            <Content>
+                <UndoText>
+                    {localizor.strings.general.removed}{""}
+                    <ToastStrong>
+                        {getPropByString(localizor.strings, bookmark.name)}
+                    </ToastStrong>{""}
+                    {localizor.strings.general.fromBookmarks}.
+                </UndoText>{""}
+                <UndoButton
+                    id="undo-bookmark-btn"
+                    ref={node => (this.node = node)}
+                    onTouchEnd={e => {
+                        e.preventDefault();
+                        this.handleClick();
+                    }}
+                    onClick={this.handleClick}
+                >
+                    {localizor.strings.general.undo}
+                </UndoButton>
+            </Content>
+        );
+    }
+}
 
 const Slide = cssTransition({
     enter: "Toastify__slide-enter",
@@ -125,6 +146,8 @@ class Bookmarks extends Component {
             bookmarksToRemove: []
         };
         this.toastId = "bookmarkToast";
+        this.lastRemovedIdx = -1;
+        this.removeBookmarkBtns = [];
     }
 
     componentWillUnmount() {
@@ -150,6 +173,13 @@ class Bookmarks extends Component {
         );
         return (
             <div>
+                <Title
+                    title={
+                        localizor.strings.general.bookmarks +
+                        " - Comply Chain - " +
+                        localizor.strings.general.dol
+                    }
+                />
                 {filtered.map((bookmark, i) => {
                     return (
                         <IconContainer
@@ -177,8 +207,12 @@ class Bookmarks extends Component {
                                 </PaddedContent>
                             </Item>
                             <IconWrapper
+                                ref={node =>
+                                    (this.removeBookmarkBtns[i] = node)
+                                }
+                                aria-label="Remove bookmark"
                                 onClick={() => {
-                                    this.markForRemoval(bookmark);
+                                    this.markForRemoval(bookmark, i);
                                 }}
                             >
                                 <BookmarkIcon />
@@ -193,7 +227,7 @@ class Bookmarks extends Component {
         );
     };
 
-    markForRemoval = bookmark => {
+    markForRemoval = (bookmark, i = -1) => {
         const { bookmarksToRemove } = this.state;
         bookmarksToRemove.push(bookmark);
         this.setState({ bookmarksToRemove });
@@ -216,6 +250,9 @@ class Bookmarks extends Component {
                 transition: Slide
             });
         }
+        if (i !== -1) {
+            this.lastRemovedIdx = i;
+        }
 
         clearTimeout(this.undoTimer);
         this.undoTimer = setTimeout(() => {
@@ -236,6 +273,9 @@ class Bookmarks extends Component {
             bookmark.header,
             bookmark.url
         );
+        if (this.lastRemovedIdx !== -1) {
+            this.removeBookmarkBtns[this.lastRemovedIdx].focus();
+        }
         if (bookmarksToRemove.length > 0) {
             clearTimeout(this.undoTimer);
             const prevBookmark =

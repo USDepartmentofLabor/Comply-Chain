@@ -378,7 +378,7 @@ const en = () => {
                 </div>
                 <ExampleInAction id="engagement_gov_brazil">
                     <h3>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Example in Action: Engagement with Government
                         </strong>

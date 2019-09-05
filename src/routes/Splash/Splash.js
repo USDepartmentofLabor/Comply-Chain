@@ -98,7 +98,7 @@ class Splash extends Component {
                     <SplashHeader>
                         <BrandLogoWrapper>
                             <LogoWrapper>
-                                <Logo src={logo} align="middle" />
+                                <Logo alt="United States Department of Labor seal" src={logo} align="middle" />
                             </LogoWrapper>
                             <Brand>ILAB</Brand>
                         </BrandLogoWrapper>

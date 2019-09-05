@@ -19,7 +19,7 @@ const es = () => {
                 </p>
                 <ExampleInAction id="rsn">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Ejemplo en acci&oacute;n: Red de abastecimiento
                             responsable
@@ -72,7 +72,7 @@ const es = () => {
                 </ExampleInAction>
                 <ExampleInAction id="res_min_trade">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Ejemplo en acci&oacute;n: Alianza
                             p&uacute;blico-privada para el comercio responsable
@@ -126,7 +126,7 @@ const es = () => {
                 </ExampleInAction>
                 <ExampleInAction id="sug_phil">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Ejemplo en acci&oacute;n: esfuerzos de
                             m&uacute;ltiples interesados para erradicar el
@@ -231,7 +231,7 @@ const es = () => {
                 </ExampleInAction>
                 <ExampleInAction>
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Ejemplo en acci&oacute;n: Palm Oil Innovation Group
                         </strong>

@@ -29,7 +29,7 @@ const en = () => {
                 </p>
                 <ExampleInAction id="prereg">
                     <h2>
-                        <ExampleInAction.Icon />
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         Example in Action: Pre-Registration Processes
                     </h2>
                     <p>

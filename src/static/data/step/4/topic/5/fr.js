@@ -105,7 +105,7 @@ const fr = () => {
                 </p>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon />{" "}
+                        <OwnWords.Icon alt="Feedback"/>{" "}
                         <strong>Dans leurs propres mots</strong>&nbsp;{": "}
                     </h2>
                     <p>

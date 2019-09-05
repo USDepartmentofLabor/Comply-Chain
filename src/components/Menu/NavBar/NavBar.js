@@ -43,15 +43,36 @@ const MenuButton = styled(Button)`
     padding: 16px 16px;
     width: 90px;
     height: 55px;
+    &:hover {
+        background-color: ${theme.colors.primaryDarker};
+        outline: solid 3px #3d3d3d;
+    };
+    &:focus {
+        background-color: ${theme.colors.primaryDarker};
+        outline: solid 3px #3d3d3d;
+    };
+    &:active {
+        background-color: ${theme.colors.primaryDarker};
+        outline: solid 3px #3d3d3d;
+    }
 `;
 
 const StepsMenuItem = styled(SideNav.Item)`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 17px;
+    font-weight: bold;
     svg {
         font-size: 25px;
     }
+    text-align: left;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 2px solid ${theme.colors.primaryDarker};
 `;
 
 const StepWrapper = styled.div`
@@ -180,9 +201,8 @@ class NavBar extends Component {
                         <StepsMenuItem
                             id="steps-dropdown"
                             onClick={this.toggleStepAccordion}
+                            as="button"
                             ref={node => (this.stepsAccordion = node)}
-                            role="button"
-                            tabIndex="0"
                         >
                             {localizor.strings.general.stepsToBasic}
                             <StepIcon>

@@ -305,8 +305,8 @@ const en = () => {
                 </p>
                 <ExampleInAction id="rst1a">
                     <h2>
-                        <ExampleInAction.Icon /> Example in Action: Responsible
-                        Sourcing Tool 1A
+                        <ExampleInAction.Icon alt="Lightbulb" /> Example in
+                        Action: Responsible Sourcing Tool 1A
                     </h2>
                     <VeriteFlagWrapper>
                         <UsFlag src={usFlag} alt="US Flag" />
@@ -1071,7 +1071,7 @@ const en = () => {
                             href="https://www.verite.org/"
                             title="Verit&eacute;"
                         >
-                            Verit&eacute;
+                            <span lang="fr">Verit&eacute;</span>
                         </a>
                         ,{" "}
                         <a
@@ -1091,12 +1091,12 @@ const en = () => {
                         >
                             Aspen Institute
                         </a>
-                        . The content of RST was provided by Verit&eacute;, a
-                        labor rights organization with expertise in supply chain
-                        compliance, with funds from the U.S. Department of
-                        State&rsquo;s Office to Monitor and Combat Trafficking
-                        in Persons under Cooperative Agreement
-                        S-SJTIP-13-CA-1029
+                        . The content of RST was provided by{" "}
+                        <span lang="fr">Verit&eacute;</span>, a labor rights
+                        organization with expertise in supply chain compliance,
+                        with funds from the U.S. Department of State&rsquo;s
+                        Office to Monitor and Combat Trafficking in Persons
+                        under Cooperative Agreement S-SJTIP-13-CA-1029
                         <strong>.</strong> The development of RST was informed
                         by experts from several U.S. government agencies,
                         including the U.S. Departments of State and Labor, and
@@ -1145,7 +1145,8 @@ const en = () => {
                     Another important tool that can be used by any organization
                     or an independent third party to authenticate the scope and
                     effectiveness of the organization&rsquo;s anti-human
-                    trafficking efforts is Verit&eacute;&rsquo;s{" "}
+                    trafficking efforts is <span lang="fr">Verit&eacute;</span>
+                    &rsquo;s{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

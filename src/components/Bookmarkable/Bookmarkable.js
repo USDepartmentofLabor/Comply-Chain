@@ -7,6 +7,7 @@ import { toast, cssTransition } from "react-toastify";
 import { theme } from "../../modules/config/theme";
 import { withLanguageContext } from "../Language";
 import { getPropByString } from "../../modules/utils";
+import Title from "../Title/Title";
 
 const Wrapper = styled.div`
     position: relative;
@@ -36,7 +37,10 @@ const BookmarkIcon = styled(Icons.BookmarkCheck)`
 
 const ToastStrong = styled.span`
     font-weight: bold;
+    width: 330px;
+    padding: 10px;
 `;
+
 
 const ToastUndo = ({ name, localizor, undo, closeToast }) => {
     const handleClick = () => {
@@ -47,8 +51,11 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
     const Content = styled.div`
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        padding: 15px;
+        // width: 300px;
+        // justify-content: space-evenly;
+        padding: 5px;
+        left: 50px;
+        width: 280px;
     `;
 
     const UndoButton = styled.button`
@@ -56,12 +63,14 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
         background: ${theme.colors.primaryDarker};
         color: ${theme.colors.white};
         height: auto;
+        width: 74px;
         padding: 15px;
         font-weight: bold;
         cursor: pointer;
     `;
 
     const UndoText = styled.span`
+        width: 180px;
         font-size: 12px;
         padding: 0 5px;
     `;
@@ -69,11 +78,11 @@ const ToastUndo = ({ name, localizor, undo, closeToast }) => {
     return (
         <Content>
             <UndoText>
-                {localizor.strings.general.bookmarked}{" "}
+                {localizor.strings.general.bookmarked}{""}
                 <ToastStrong>
                     {getPropByString(localizor.strings, name)}
                 </ToastStrong>
-                .
+
             </UndoText>{" "}
             <UndoButton
                 onTouchEnd={e => {
@@ -164,9 +173,13 @@ class Bookmarkable extends Component {
     render() {
         const { localizor, titleString, children } = this.props;
         const { bookmarked } = this.state;
-        const title = getPropByString(localizor.strings, titleString);
+        const title =
+            getPropByString(localizor.strings, titleString) +
+            " - Comply Chain - " +
+            localizor.strings.general.dol;
         return (
             <Wrapper>
+                <Title title={title} />
                 <BookmarkButton
                     title={
                         bookmarked ? `Unbookmark ${title}` : `Bookmark ${title}`
@@ -186,6 +199,7 @@ class Bookmarkable extends Component {
                                 ? theme.colors.primary
                                 : theme.colors.base
                         }
+                        alt="Bookmark button"
                     />
                 </BookmarkButton>
                 {children}

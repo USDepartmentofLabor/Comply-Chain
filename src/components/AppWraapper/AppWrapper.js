@@ -19,6 +19,7 @@ import { Navigator } from "../Navigation";
 import Share from "../Share";
 import StepProgressBar from "../StepProgessBar";
 import ScrollToTop from "./ScrollToTop";
+import SkipToMainContent from "../SkipToMainContent/SkipToMainContent";
 
 const Main = styled.div`
     padding: 0 10px;
@@ -96,11 +97,21 @@ const ToastContainerWrapper = styled.div`
         & > * {
             color: ${theme.colors.white};
             background: ${theme.colors.primary};
-        }
+        };
+        width:399px;
+        left:47.5%;
     }
 
     .toast {
         background: ${theme.colors.primary};
+        position: fixed;
+        align-content:center;
+        align-items: center;
+        left:10px;
+        right:10px;
+        bottom:70px;
+        width:300px;
+        margin: 0 auto;
     }
 `;
 
@@ -207,7 +218,8 @@ class AppWrapper extends Component {
                         }
                     },
                     icon: Icons.Bookmarks,
-                    label: localizor.strings.general.bookmarks
+                    label: localizor.strings.general.bookmarks,
+                    alt: localizor.strings.general.bookmarks
                 },
                 {
                     props: {
@@ -219,7 +231,8 @@ class AppWrapper extends Component {
                         }
                     },
                     icon: Icons.Search,
-                    label: localizor.strings.general.search
+                    label: localizor.strings.general.search,
+                    alt: localizor.strings.general.search
                 },
                 {
                     props: {
@@ -227,7 +240,8 @@ class AppWrapper extends Component {
                         id: "share-link"
                     },
                     icon: Icons.Share,
-                    label: localizor.strings.general.share
+                    label: localizor.strings.general.share,
+                    alt: localizor.strings.general.share
                 },
                 {
                     props: {
@@ -236,7 +250,8 @@ class AppWrapper extends Component {
                         onClick: () => this.toggleBottomDrawer()
                     },
                     icon: Icons.About,
-                    label: localizor.strings.general.about
+                    label: localizor.strings.general.about,
+                    alt: localizor.strings.general.about
                 }
             ],
 
@@ -317,6 +332,7 @@ class AppWrapper extends Component {
                 <ScrollToTop>
                     <Header>
                         <NavbarWrapper>
+                            {/*<SkipToMainContent/>*/}
                             <BrandStrip />
                             <NavBar
                                 leftItems={navBarLeftItems}
@@ -326,7 +342,7 @@ class AppWrapper extends Component {
                         </NavbarWrapper>
                     </Header>
                     <div aria-hidden={sideNavVisible}>
-                        <MainWrapper id="main">
+                        <MainWrapper id="main" tabIndex={-1}>
                             {location.pathname.includes("/steps") && (
                                 <StepBarWrapper id="step_progess_bar">
                                     <StepProgressBar />
@@ -350,6 +366,10 @@ class AppWrapper extends Component {
                             </Main>
                         </MainWrapper>
                         <Footer>
+                            <BottomNavBar
+                                id="bottom-nav-bar"
+                                items={bottomNavItems}
+                            />
                             <BottomDrawer
                                 id="bottom-drawer"
                                 active={bottomDrawerActive}
@@ -359,10 +379,6 @@ class AppWrapper extends Component {
                                         bottomDrawerActive: false
                                     });
                                 }}
-                            />
-                            <BottomNavBar
-                                id="bottom-nav-bar"
-                                items={bottomNavItems}
                             />
                         </Footer>
                     </div>
