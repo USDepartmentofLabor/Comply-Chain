@@ -332,7 +332,7 @@ class AppWrapper extends Component {
                 <ScrollToTop>
                     <Header>
                         <NavbarWrapper>
-                            <SkipToMainContent/>
+                            {/*<SkipToMainContent/>*/}
                             <BrandStrip />
                             <NavBar
                                 leftItems={navBarLeftItems}
