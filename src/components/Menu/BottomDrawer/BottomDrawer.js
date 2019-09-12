@@ -68,7 +68,8 @@ const ContentItem = styled.span`
 
 BottomDrawer.propTypes = {
     active: PropTypes.bool,
-    items: PropTypes.arrayOf(PropTypes.object).isRequired
+    items: PropTypes.arrayOf(PropTypes.object).isRequired,
+    tabIndex: 1
 };
 
 export default BottomDrawer;
