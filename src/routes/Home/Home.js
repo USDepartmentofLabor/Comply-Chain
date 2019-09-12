@@ -30,7 +30,7 @@ class Home extends Component {
                         imageMobilePosition={infoImageData[0].mobile}
                         imageDesktopPosition={infoImageData[0].desktop}
                     >
-                        <ItemContent>
+                        <ItemContentFirstTwoLinks>
                             <h1>
                                 <ItemTitle
                                     id="home_whydeveloper"
@@ -39,7 +39,7 @@ class Home extends Component {
                                     {localizor.strings.info.whyDevelop.title}
                                 </ItemTitle>
                             </h1>
-                        </ItemContent>
+                        </ItemContentFirstTwoLinks>
                     </Item>
                     <StatusIcons>
                         {storage.bookmarks.retrieveBookmark(
@@ -54,7 +54,7 @@ class Home extends Component {
                         imageMobilePosition={infoImageData[1].mobile}
                         imageDesktopPosition={infoImageData[1].desktop}
                     >
-                        <ItemContent>
+                        <ItemContentFirstTwoLinks>
                             <h1>
                                 <ItemTitle
                                     id="home_basics"
@@ -63,7 +63,7 @@ class Home extends Component {
                                     {localizor.strings.info.basics.title}
                                 </ItemTitle>
                             </h1>
-                        </ItemContent>
+                        </ItemContentFirstTwoLinks>
                     </Item>
                     <StatusIcons>
                         {storage.bookmarks.retrieveBookmark(
@@ -290,6 +290,20 @@ const ItemContent = styled.div`
         }
         return "30px";
     }};
+`;
+
+const ItemContentFirstTwoLinks = styled.div`
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: ${props => {
+    if (props.complete && props.bookmarked) {
+        return "85px";
+    }
+    if (props.complete || props.bookmarked) {
+        return "55px";
+    }
+    return "30px";
+}};
 `;
 
 const Item = styled.div`
