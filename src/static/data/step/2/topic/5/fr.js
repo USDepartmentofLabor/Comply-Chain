@@ -85,7 +85,7 @@ const fr = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.dol.gov/ilab/reports/child-labor/list-of-goods/"
+                        href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods/"
                         title="Liste des biens issus du travail des enfants ou du travail forc&eacute;"
                     >
                         <em>
