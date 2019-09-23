@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="10101" id="gov.dol.complychain" version="1.0.0" 
-    xmlns="http://www.w3.org/ns/widgets" 
-    xmlns:android="http://schemas.android.com/apk/res/android" 
-    xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="10101" id="gov.dol.complychain" version="2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Comply Chain</name>
     <description>
         A DoL application describing about dealing with Child Labor and Forced Labor.
@@ -29,7 +26,7 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         <preference name="DisallowOverscroll" value="true" />
-        <plugin name="cordova-plugin-wkwebview-engine" spec="git+https://github.com/apache/cordova-plugin-wkwebview-engine.git#81eeadeb542fefc05c4cd5e68ba0221e6a965c73"/>
+        <plugin name="cordova-plugin-wkwebview-engine" spec="git+https://github.com/apache/cordova-plugin-wkwebview-engine.git#81eeadeb542fefc05c4cd5e68ba0221e6a965c73" />
     </platform>
     <icon height="120" platform="ios" src="res/icon/share/comply-chain-app-120.png" width="120" />
     <icon height="180" platform="ios" src="res/icon/share/comply-chain-app-180.png" width="180" />
@@ -59,6 +56,5 @@
     </plugin>
     <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
     <plugin name="cordova-plugin-file" spec="^6.0.1" />
-    <engine name="android" spec="^8.0.0" />
     <engine name="ios" spec="^5.0.0" />
 </widget>

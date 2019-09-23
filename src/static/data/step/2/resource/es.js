@@ -345,10 +345,10 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.dol.gov/ilab/reports/child-labor/list-of-goods/"
+                            href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods/"
                             title="Lista de mercanc&iacute;as producidas por trabajo infantil o trabajo forzoso."
                         >
-                            https://www.dol.gov/ilab/reports/child-labor/list-of-goods/
+                            https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods/
                         </a>
                         .
                     </li>
