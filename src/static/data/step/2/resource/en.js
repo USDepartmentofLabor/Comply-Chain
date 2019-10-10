@@ -69,10 +69,10 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://documents.worldbank.org/curated/en/116191467986337508/pdf/99393-REVISED-ESMS-Handbook-General-v2-1-NEW-DATE-PUBLIC.pdf"
+                            href="https://www.ifc.org/wps/wcm/connect/4c41260d-1ba8-4d10-a77d-f762d60a1380/ESMS+Handbook+General+v2.1.pdf?MOD=AJPERES&CVID=lllFYII"
                             title="Environmental and Social Management System Implementation Handbook, 2015. "
                         >
-                            http://documents.worldbank.org/curated/en/116191467986337508/pdf/99393-REVISED-ESMS-Handbook-General-v2-1-NEW-DATE-PUBLIC.pdf
+                            https://www.ifc.org/wps/wcm/connect/4c41260d-1ba8-4d10-a77d-f762d60a1380/ESMS+Handbook+General+v2.1.pdf?MOD=AJPERES&CVID=lllFYII
                         </a>
                     </li>
                     <li>
@@ -102,10 +102,10 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ifc.org/wps/wcm/connect/177c370048865808b3def36a6515bb18/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&amp;CACHEID=177c370048865808b3def36a6515bb18"
+                            href="https://www.sustainabilityxchange.info/filesagri/SAI_IFC_LaborHandbook.pdf"
                             title="Measure and Improve Your Labor Standards Performance - Performance Standard 2 Handbook"
                         >
-                            http://www.ifc.org/wps/wcm/connect/177c370048865808b3def36a6515bb18/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&amp;CACHEID=177c370048865808b3def36a6515bb18
+                            https://www.sustainabilityxchange.info/filesagri/SAI_IFC_LaborHandbook.pdf
                         </a>
                     </li>
                     <li>

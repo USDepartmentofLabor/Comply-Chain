@@ -573,15 +573,7 @@ const en = () => {
                         El Salvador, a small country with a long history of
                         civil conflict and instability, is an uncertain
                         operating environment. But League Collegiate
-                        Outfitter&rsquo;s El Salvador branch,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.league91.com/league-central-america-making-difference-el-salvador/"
-                            title="League Central America"
-                        >
-                            League Central America
-                        </a>{" "}
+                        Outfitter&rsquo;s El Salvador branch, League Central America
                         (LCA), saw an opportunity to develop a productive
                         enterprise through investing in programs that build the
                         capacity of workers and help tackle poverty and violence

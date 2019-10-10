@@ -158,7 +158,7 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.dol.gov/sites/default/files/documents/ilab/CLCCG%202016%20Annual%20Report.pdf"
+                            href="https://www.worldcocoafoundation.org/wp-content/uploads/2018/08/CLCCG-2016-Annual-Report.pdf"
                             title="Child Labor Cocoa Coordinating Group&rsquo;s (CLCCG) 2016 Annual Report"
                         >
                             Child Labor Cocoa Coordinating Group&rsquo;s (CLCCG)

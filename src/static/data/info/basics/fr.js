@@ -1574,10 +1574,10 @@ const fr = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ifc.org/wps/wcm/connect/b29a4600498009cfa7fcf7336b93d75f/Updated_GN1-2012.pdf?MOD=AJPERES"
+                                        href="https://www.ifc.org/wps/wcm/connect/8804e6fb-bd51-4822-92cf-3dfd8221be28/PS1_English_2012.pdf?MOD=AJPERES&CVID=jiVQIfe"
                                         title="&eacute;l&eacute;ments de syst&egrave;mes efficaces de gestion environnementale et sociale (ESMS)"
                                     >
-                                        http://www.ifc.org/wps/wcm/connect/b29a4600498009cfa7fcf7336b93d75f/Updated_GN1-2012.pdf?MOD=AJPERES
+                                        https://www.ifc.org/wps/wcm/connect/8804e6fb-bd51-4822-92cf-3dfd8221be28/PS1_English_2012.pdf?MOD=AJPERES&CVID=jiVQIfe
                                     </a>
                                 </li>
                                 <li>
@@ -1605,10 +1605,10 @@ const fr = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ifc.org/wps/wcm/connect/a4aab30048865910b81afa6a6515bb18/SAI_IFC_LaborHandbook_Ch1-Intro.pdf?MOD=AJPERES"
+                                        href="https://www.ifc.org/wps/wcm/connect/e0e8e968-132a-4dbf-af0b-4b971e4a4b9b/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&CVID=jkD0.wG"
                                         title="Measure and Improve Your Labor Standards Performance."
                                     >
-                                        http://www1.ifc.org/wps/wcm/connect/a4aab30048865910b81afa6a6515bb18/SAI_IFC_LaborHandbook_Ch1-Intro.pdf?MOD=AJPERES&amp;CACHEID=a4aab30048865910b81afa6a6515bb18
+                                        https://www.ifc.org/wps/wcm/connect/e0e8e968-132a-4dbf-af0b-4b971e4a4b9b/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&CVID=jkD0.wG
                                     </a>
                                     .
                                 </li>
