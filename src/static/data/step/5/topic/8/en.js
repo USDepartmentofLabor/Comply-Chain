@@ -55,7 +55,7 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.dol.gov/ilab/projects/summaries/Cambodia_EXCEL.pdf"
+                            href="https://www.dol.gov/agencies/ilab/cambodians-excel-eliminating-exploitative-child-labor-through-education-and"
                             title="Cambodians EXCEL"
                         >
                             <em>Cambodians EXCEL</em>
@@ -80,7 +80,7 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.dol.gov/ilab/projects/summaries/Cambodia_EXCEL_feval.pdf"
+                            href="https://www.dol.gov/sites/dolgov/files/EBSA/Cambodia_EXCEL_feval.pdf"
                             title="Independent Final Evaluation Cambodians EXCEL Project"
                         >
                             <em>

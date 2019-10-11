@@ -664,16 +664,8 @@ const es = () => {
                         El Salvador, pa&iacute;s peque&ntilde;o con una larga
                         trayectoria de conflictos civiles e inestabilidad,
                         presenta un entorno operativo incierto. Pero la filial
-                        de El Salvador de la League Collegiate Outfitter,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.league91.com/league-central-america-making-difference-el-salvador/"
-                            title="League Central America"
-                        >
-                            League Central America
-                        </a>{" "}
-                        (LCA), vislumbr&oacute; una oportunidad de desarrollar
+                        de El Salvador de la League Collegiate Outfitter,
+                        League Central America (LCA), vislumbr&oacute; una oportunidad de desarrollar
                         una empresa productiva invirtiendo en programas que
                         fomentan la capacidad de los trabajadores y ayudan a
                         combatir la pobreza y la violencia en sus comunidades.

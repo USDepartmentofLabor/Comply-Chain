@@ -87,10 +87,10 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=cbe7b18048855348ae6cfe6a6515bb18"
+                            href="https://www.ifc.org/wps/wcm/connect/f9019c05-0651-4ff5-9496-c46b66dbeedb/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-f9019c05-0651-4ff5-9496-c46b66dbeedb-jkD0-.g"
                             title="Nota de asesor�a: <i>Addressing Grievances from Project-Affected Communities</i>, n&uacute;m. 7."
                         >
-                            https://www.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=cbe7b18048855348ae6cfe6a6515bb18
+                            https://www.ifc.org/wps/wcm/connect/f9019c05-0651-4ff5-9496-c46b66dbeedb/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-f9019c05-0651-4ff5-9496-c46b66dbeedb-jkD0-.g
                         </a>
                         .
                     </li>

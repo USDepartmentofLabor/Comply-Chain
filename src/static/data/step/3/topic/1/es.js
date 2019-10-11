@@ -132,10 +132,10 @@ const es = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf"
+                                        href="https://www.business-humanrights.org/sites/default/files/webform/Danone%20-%20IUF_press%20release%20EN_final.pdf"
                                         title="<i>Danone and IUF Sign Tenth Agreement on Sustainable Employment</i>"
                                     >
-                                        https://www.danone.com/content/dam/danone-corp/investors/en-all-publications/2016/pressreleases/2016-03-15-Danone-IUF-press-release-EN-final.pdf
+                                        https://www.business-humanrights.org/sites/default/files/webform/Danone%20-%20IUF_press%20release%20EN_final.pdf
                                     </a>
                                     .
                                 </li>

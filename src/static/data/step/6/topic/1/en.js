@@ -180,7 +180,7 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.dol.gov/ilab/issues/child-labor/fcea.htm"
+                            href="https://www.fairlabor.org/sites/default/files/documents/reports/harvesting_the_future_june_2018.pdf"
                             title="Guidelines for Eliminating Child and Forced Labor in Agricultural Supply Chains"
                         >
                             Guidelines for Eliminating Child and Forced Labor in

@@ -49,7 +49,7 @@ const fr = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://bettercotton.org/about-better-cotton/better-cotton-standard-system/production-principles-and-criteria/"
+                        href="https://bettercotton.org/wp-content/uploads/2014/10/production-principles-and-criteria.pdf"
                         title="Principes et crit&egrave;res de production de la Better Cotton Initiative"
                     >
                         Principes et crit&egrave;res de production de la Better

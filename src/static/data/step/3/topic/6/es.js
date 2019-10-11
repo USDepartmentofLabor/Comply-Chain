@@ -44,7 +44,7 @@ const es = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://bettercotton.org/about-better-cotton/better-cotton-standard-system/production-principles-and-criteria/"
+                        href="https://bettercotton.org/wp-content/uploads/2014/10/production-principles-and-criteria.pdf"
                         title="Principios y Criterios de Producci&oacute;n de la iniciativa BCI (Better Cotton Initiative)"
                     >
                         Principios y Criterios de Producci&oacute;n de la
