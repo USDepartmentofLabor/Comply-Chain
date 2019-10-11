@@ -86,7 +86,7 @@ const en = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.state.gov/j/tip/laws/61106.htm"
+                        href="https://www.congress.gov/109/plaws/publ164/PLAW-109publ164.pdf"
                         title="Trafficking Victims Protection Reauthorization Act of 2005 (TVPRA)"
                     >
                         Trafficking Victims Protection Reauthorization Act of
@@ -116,7 +116,7 @@ const en = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.dol.gov/agencies/ilab/reports/child-labor"
+                        href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor"
                         title="ILAB website"
                     >
                         ILAB website
