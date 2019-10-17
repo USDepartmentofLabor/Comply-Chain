@@ -333,7 +333,9 @@ class AppWrapper extends Component {
                     <Header>
                         <NavbarWrapper>
                             {/*<SkipToMainContent/>*/}
+<div tabIndex={1                                        }>
                             <BrandStrip />
+                            </div>
                             <NavBar
                                 leftItems={navBarLeftItems}
                                 onSideNavToggle={this.handleSideNavToggle}
