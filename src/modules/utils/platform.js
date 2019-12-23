@@ -1,3 +1,5 @@
+import { theme } from "../config/theme";
+
 export const isIOS = () => {
     if (!window.cordova) {
         return false;
@@ -27,4 +29,14 @@ export const isBrowser = () => {
         return true;
     }
     return false;
+};
+
+export const inAppBrowserOptions = () => {
+    if (window.cordova.platformId === "ios") {
+        const closebuttoncolor = theme.colors.offWhite;
+        return "".concat(
+            "closebuttoncolor=", closebuttoncolor
+        );
+    }
+    return "";
 };
