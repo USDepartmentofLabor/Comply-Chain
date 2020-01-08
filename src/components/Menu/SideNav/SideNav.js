@@ -5,12 +5,24 @@ import { theme } from "../../../modules/config/theme";
 import { isBrowser } from "../../../modules/utils/platform";
 
 class SideNav extends Component {
-    state = {
-        width: (isBrowser() && "280px") || "100%",
-        visible: this.props.visible || false
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            width: (isBrowser() && "280px") || "100%",
+            visible: this.props.visible || false,
+            props: props
+        };
+    }
+
+    handleKeyPress = event => {
+        if (event.target.id === 'fr-btn') {
+            this.close(event);
+        }
     };
 
     componentWillMount() {
+        //document.addEventListener("keydown", this.handleKeyPress);
         if (window.PointerEvent) {
             document.addEventListener("pointerdown", this.close, false);
         } else {
@@ -18,22 +30,8 @@ class SideNav extends Component {
         }
     }
 
-    componentDidUpdate(prevProps) {
-        if (prevProps.visible !== this.props.visible) {
-            window.clearTimeout(this.displayTimeout);
-            if (!this.props.visible) {
-                this.displayTimeout = this.setDisplayTimeout();
-                this.setState({ visible: this.props.visible });
-            } else {
-                this.node.style.display = "block";
-                this.displayTimeout = setTimeout(() => {
-                    this.setState({ visible: this.props.visible });
-                }, 100);
-            }
-        }
-    }
-
     componentWillUnmount() {
+        //document.removeEventListener("keydown", this.handleKeyPress);
         if (window.PointerEvent) {
             document.removeEventListener("pointerdown", this.close, false);
         } else {
@@ -41,10 +39,33 @@ class SideNav extends Component {
         }
     }
 
+    componentDidUpdate(prevProps) {
+
+        if (prevProps.visible === false && this.props.visible === true ) {
+            document.addEventListener("keydown", this.handleKeyPress, false);
+        } else if (prevProps.visible === true && this.props.visible === false ) {
+            document.removeEventListener("keydown", this.handleKeyPress, false);
+        }
+
+        if (prevProps.visible !== this.props.visible) {
+            window.clearTimeout(this.displayTimeout);
+            if (!this.props.visible) {
+                this.displayTimeout = this.setDisplayTimeout();
+                this.setState({visible: this.props.visible});
+            } else {
+                this.node.style.display = "block";
+                this.displayTimeout = setTimeout(() => {
+                    this.setState({visible: this.props.visible});
+                }, 100);
+            }
+        }
+    }
+
     close = e => {
         if (
-            this.node.contains(e.target) ||
+            (this.node.contains(e.target) && e.key !== "Tab") ||
             e.target.id === this.props.clickable
+
         ) {
             return;
         }
