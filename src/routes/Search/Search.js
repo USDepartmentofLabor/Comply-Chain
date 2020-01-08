@@ -409,7 +409,7 @@ class Search extends Component {
                         />
                         <SearchButton
                             id="search-button"
-                            aria-label="Search Submit Button"
+                            aria-label="Search Submit"
                             variant="primary"
                             type="submit"
                         >
