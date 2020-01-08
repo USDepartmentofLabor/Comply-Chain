@@ -10,8 +10,7 @@ class SideNav extends Component {
         super(props);
         this.state = {
             width: (isBrowser() && "280px") || "100%",
-            visible: this.props.visible || false,
-            props: props
+            visible: this.props.visible || false
         };
     }
 
@@ -22,7 +21,6 @@ class SideNav extends Component {
     };
 
     componentWillMount() {
-        //document.addEventListener("keydown", this.handleKeyPress);
         if (window.PointerEvent) {
             document.addEventListener("pointerdown", this.close, false);
         } else {
@@ -31,7 +29,6 @@ class SideNav extends Component {
     }
 
     componentWillUnmount() {
-        //document.removeEventListener("keydown", this.handleKeyPress);
         if (window.PointerEvent) {
             document.removeEventListener("pointerdown", this.close, false);
         } else {
