@@ -21,6 +21,7 @@ class SideNav extends Component {
     };
 
     componentWillMount() {
+        document.addEventListener("keydown", this.handleKeyPress, false);
         if (window.PointerEvent) {
             document.addEventListener("pointerdown", this.close, false);
         } else {
@@ -29,6 +30,7 @@ class SideNav extends Component {
     }
 
     componentWillUnmount() {
+        document.removeEventListener("keydown", this.handleKeyPress, false);
         if (window.PointerEvent) {
             document.removeEventListener("pointerdown", this.close, false);
         } else {
@@ -37,12 +39,6 @@ class SideNav extends Component {
     }
 
     componentDidUpdate(prevProps) {
-
-        if (prevProps.visible === false && this.props.visible === true ) {
-            document.addEventListener("keydown", this.handleKeyPress, false);
-        } else if (prevProps.visible === true && this.props.visible === false ) {
-            document.removeEventListener("keydown", this.handleKeyPress, false);
-        }
 
         if (prevProps.visible !== this.props.visible) {
             window.clearTimeout(this.displayTimeout);
