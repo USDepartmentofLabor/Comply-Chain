@@ -10,7 +10,6 @@ import { storage } from "../../modules/storage";
 import { getPropByString } from "../../modules/utils";
 import Title from "../../components/Title/Title";
 
-
 const PaddedContent = styled.div`
     padding-left: 25px;
 `;
@@ -51,17 +50,17 @@ const ItemHeader = styled.span`
 `;
 
 const ItemTitle = styled.h4`
-    padding-top: 6px;
+    padding: 0;
     margin: 0;
 `;
-
-const Item = styled.div``;
 
 const ItemContent = styled(Link)`
     color: ${theme.colors.primary};
     text-decoration: none;
     width:420px;
 `;
+
+const Item = styled.div``;
 
 const ToastStrong = styled.span`
     font-weight: bold;
@@ -193,12 +192,12 @@ class Bookmarks extends Component {
                                 <PaddedContent>
                                     {bookmark.header && (
                                         <ItemHeaderTitle>
-                                        <ItemHeader>
-                                            {getPropByString(
-                                                localizor.strings,
-                                                bookmark.header
-                                            )}
-                                        </ItemHeader>
+                                            <ItemHeader>
+                                                {getPropByString(
+                                                    localizor.strings,
+                                                    bookmark.header
+                                                )}
+                                            </ItemHeader>
                                         </ItemHeaderTitle>
                                     )}
                                     <ItemContent to={bookmark.url}>
