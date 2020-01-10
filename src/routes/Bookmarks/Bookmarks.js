@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import { NavLink as Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { toast, cssTransition } from "react-toastify";
 import styled from "styled-components";
 import Icons from "../../components/Icons";
@@ -10,30 +10,9 @@ import { storage } from "../../modules/storage";
 import { getPropByString } from "../../modules/utils";
 import Title from "../../components/Title/Title";
 
-const Item = styled.div``;
 
 const PaddedContent = styled.div`
     padding-left: 25px;
-`;
-
-const ItemHeaderTitle = styled.h4`
-    margin: 0;
-`;
-
-const ItemHeader = styled.span`
-    font-weight: bold;
-    font-family: ${theme.fonts.headings};
-`;
-
-const ItemContent = styled(Link)`
-    color: ${theme.colors.primary};
-    text-decoration: none;
-    width:420px;
-`;
-
-const ItemTitle = styled.h4`
-    padding-top: 6px;
-    margin: 0;
 `;
 
 const IconWrapper = styled.button`
@@ -60,6 +39,28 @@ const IconContainer = styled.div`
 const BookmarkIcon = styled(Icons.BookmarkCheck)`
     display: block;
     overflow: visible;
+`;
+
+const ItemHeaderTitle = styled.h4`
+    margin: 0;
+`;
+
+const ItemHeader = styled.span`
+    font-weight: bold;
+    font-family: ${theme.fonts.headings};
+`;
+
+const ItemTitle = styled.h4`
+    padding-top: 6px;
+    margin: 0;
+`;
+
+const Item = styled.div``;
+
+const ItemContent = styled(Link)`
+    color: ${theme.colors.primary};
+    text-decoration: none;
+    width:420px;
 `;
 
 const ToastStrong = styled.span`
