@@ -40,16 +40,18 @@ const BookmarkIcon = styled(Icons.BookmarkCheck)`
     overflow: visible;
 `;
 
+const ItemHeaderTitle = styled.h4`
+    margin: 0;
+`;
+
 const ItemHeader = styled.span`
-    font-size: 19px;
     font-weight: bold;
     font-family: ${theme.fonts.headings};
 `;
 
-const ItemTitle = styled.h3`
+const ItemTitle = styled.h4`
     padding: 0;
     margin: 0;
-    font-size: 20px;
 `;
 
 const ItemContent = styled(Link)`
@@ -189,12 +191,14 @@ class Bookmarks extends Component {
                             <Item>
                                 <PaddedContent>
                                     {bookmark.header && (
-                                        <ItemHeader>
-                                            {getPropByString(
-                                                localizor.strings,
-                                                bookmark.header
-                                            )}
-                                        </ItemHeader>
+                                        <ItemHeaderTitle>
+                                            <ItemHeader>
+                                                {getPropByString(
+                                                    localizor.strings,
+                                                    bookmark.header
+                                                )}
+                                            </ItemHeader>
+                                        </ItemHeaderTitle>
                                     )}
                                     <ItemContent to={bookmark.url}>
                                         <ItemTitle>
@@ -300,7 +304,7 @@ class Bookmarks extends Component {
         const { localizor } = this.props;
         return (
             <div>
-                <h4>{localizor.strings.general.bookmarks}</h4>
+                <h1>{localizor.strings.general.bookmarks}</h1>
                 {bookmarks.length === 0 && (
                     <p>{localizor.strings.general.nobookmarks}.</p>
                 )}
