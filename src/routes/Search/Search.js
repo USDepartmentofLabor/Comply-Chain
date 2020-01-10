@@ -382,7 +382,8 @@ class Search extends Component {
         }
         return (
             <div>
-                <Title title={title} />
+                <Title title={title}/>
+                <h1>{localizor.strings.general.search}</h1>
                 {query && !searching && (
                     <SearchResultsHeader>
                         {results.length}{" "}
