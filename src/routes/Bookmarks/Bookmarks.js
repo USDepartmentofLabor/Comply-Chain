@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink as Link } from "react-router-dom";
 import { toast, cssTransition } from "react-toastify";
 import styled from "styled-components";
 import Icons from "../../components/Icons";
@@ -10,9 +10,58 @@ import { storage } from "../../modules/storage";
 import { getPropByString } from "../../modules/utils";
 import Title from "../../components/Title/Title";
 
+
+/*
+BEGIN NOTES FOR ISDMISSSTC-324-20200109-0
+-------- Remove before merging ----------
+<Item>
+  <PaddedContent>
+    <ItemHeader></ItemHeader>
+    <ItemContent>
+      <ItemTitle></ItemTitle>
+    </ItemContent>
+  </PaddedContent>
+</Item>
+*/
+
+const Item = styled.div``;
+
 const PaddedContent = styled.div`
     padding-left: 25px;
 `;
+
+// The header for the link, e.g. Step 1: Engage Stakeholders and Partners,
+// This is a <span></span> and shouldnet have a heading tag. <h2></h2> is typically 1em
+// Bookmarks should be <h1></h1> and this is typically 2em.
+// Now Bookmarks appears in the render() and is within a heading tag.
+//    <h4></h4> was changed to <h1></h1>
+const ItemHeader = styled.span`
+    font-size: 1em;
+    font-weight: bold;
+    font-family: ${theme.fonts.headings};
+`;
+
+// This is the <a></a> tags and wraps the ItemTitle.
+const ItemContent = styled(Link)`
+    color: ${theme.colors.primary};
+    text-decoration: none;
+    width:420px;
+`;
+
+// The ItemTitle is wrapped by the <a></a> tags and can be set to a heading.
+// Previously it was set to <h2></h2> and now it is set to <h4></h4>
+const ItemTitle = styled.h4`
+    font-size: 1em;
+    padding-top: 6px;
+    margin: 0;
+`;
+
+/*
+END NOTES FOR ISDMISSSTC-324-20200109-0
+------- Remove before merging ---------
+*/
+
+
 
 const IconWrapper = styled.button`
     color: ${theme.colors.primary};
@@ -39,26 +88,6 @@ const BookmarkIcon = styled(Icons.BookmarkCheck)`
     display: block;
     overflow: visible;
 `;
-
-const ItemHeader = styled.span`
-    font-size: 19px;
-    font-weight: bold;
-    font-family: ${theme.fonts.headings};
-`;
-
-const ItemTitle = styled.h3`
-    padding: 0;
-    margin: 0;
-    font-size: 20px;
-`;
-
-const ItemContent = styled(Link)`
-    color: ${theme.colors.primary};
-    text-decoration: none;
-    width:420px;
-`;
-
-const Item = styled.div``;
 
 const ToastStrong = styled.span`
     font-weight: bold;
@@ -300,7 +329,7 @@ class Bookmarks extends Component {
         const { localizor } = this.props;
         return (
             <div>
-                <h4>{localizor.strings.general.bookmarks}</h4>
+                <h1>{localizor.strings.general.bookmarks}</h1>
                 {bookmarks.length === 0 && (
                     <p>{localizor.strings.general.nobookmarks}.</p>
                 )}
