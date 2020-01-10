@@ -10,34 +10,12 @@ import { storage } from "../../modules/storage";
 import { getPropByString } from "../../modules/utils";
 import Title from "../../components/Title/Title";
 
-/*
-BEGIN NOTES FOR ISDMISSSTC-324-20200109-0
--------- Remove before merging ----------
-<Item>
-  <PaddedContent>
-    <ItemHeader></ItemHeader>
-    <ItemContent>
-      <ItemTitle></ItemTitle>
-    </ItemContent>
-  </PaddedContent>
-</Item>
-*/
-
-// The Bookmarks text should be at <h1>. Looking in the render() method it was set to <h4>.
-// This was corrected so that <h4></h4> is now <h1></h1>.
-
-// Here is the CSS for the header title, e.g. Engage Stakeholders and Partners,
-// and item title, or the style for the URL text
 const Item = styled.div``;
 
 const PaddedContent = styled.div`
     padding-left: 25px;
 `;
 
-// This is the header title, which was originally a span. I can change the font-size
-// the span to 1em (h2) or wrap the span in an <h> tag. Since the defect is specifying
-// <h4></h4> for the span it is wrapped by <h4></h4> with the ItemHeaderTitle style.
-// After the change this gives upon inspection: <h4><span></span></h4>.
 const ItemHeaderTitle = styled.h4`
     margin: 0;
 `;
@@ -47,25 +25,16 @@ const ItemHeader = styled.span`
     font-family: ${theme.fonts.headings};
 `;
 
-// This is the <a> tag that gets wrapped the ItemTitle.
 const ItemContent = styled(Link)`
     color: ${theme.colors.primary};
     text-decoration: none;
     width:420px;
 `;
 
-// The ItemTitle is wrapped by the <a> tag of ItemContent and can be set to a heading.
-// Previously it was set to <h2></h2> and now it is set to <h4></h4>.
-// After the change this gives upon inspection: <a><h4></h4><a>.
 const ItemTitle = styled.h4`
     padding-top: 6px;
     margin: 0;
 `;
-
-/*
-END NOTES FOR ISDMISSSTC-324-20200109-0
-------- Remove before merging ---------
-*/
 
 const IconWrapper = styled.button`
     color: ${theme.colors.primary};
