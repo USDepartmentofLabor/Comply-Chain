@@ -10,7 +10,6 @@ import { storage } from "../../modules/storage";
 import { getPropByString } from "../../modules/utils";
 import Title from "../../components/Title/Title";
 
-
 /*
 BEGIN NOTES FOR ISDMISSSTC-324-20200109-0
 -------- Remove before merging ----------
@@ -24,34 +23,41 @@ BEGIN NOTES FOR ISDMISSSTC-324-20200109-0
 </Item>
 */
 
+// The Bookmarks text should be at <h1>. Looking in the render() method it was set to <h4>.
+// This was corrected so that <h4></h4> is now <h1></h1>.
+
+// Here is the CSS for the header title, e.g. Engage Stakeholders and Partners,
+// and item title, or the style for the URL text
 const Item = styled.div``;
 
 const PaddedContent = styled.div`
     padding-left: 25px;
 `;
 
-// The header for the link, e.g. Step 1: Engage Stakeholders and Partners,
-// This is a <span></span> and shouldnet have a heading tag. <h2></h2> is typically 1em
-// Bookmarks should be <h1></h1> and this is typically 2em.
-// Now Bookmarks appears in the render() and is within a heading tag.
-//    <h4></h4> was changed to <h1></h1>
+// This is the header title, which was originally a span. I can change the font-size
+// the span to 1em (h2) or wrap the span in an <h> tag. Since the defect is specifying
+// <h4></h4> for the span it is wrapped by <h4></h4> with the ItemHeaderTitle style.
+// After the change this gives upon inspection: <h4><span></span></h4>.
+const ItemHeaderTitle = styled.h4`
+    margin: 0;
+`;
+
 const ItemHeader = styled.span`
-    font-size: 1em;
     font-weight: bold;
     font-family: ${theme.fonts.headings};
 `;
 
-// This is the <a></a> tags and wraps the ItemTitle.
+// This is the <a> tag that gets wrapped the ItemTitle.
 const ItemContent = styled(Link)`
     color: ${theme.colors.primary};
     text-decoration: none;
     width:420px;
 `;
 
-// The ItemTitle is wrapped by the <a></a> tags and can be set to a heading.
-// Previously it was set to <h2></h2> and now it is set to <h4></h4>
+// The ItemTitle is wrapped by the <a> tag of ItemContent and can be set to a heading.
+// Previously it was set to <h2></h2> and now it is set to <h4></h4>.
+// After the change this gives upon inspection: <a><h4></h4><a>.
 const ItemTitle = styled.h4`
-    font-size: 1em;
     padding-top: 6px;
     margin: 0;
 `;
@@ -60,8 +66,6 @@ const ItemTitle = styled.h4`
 END NOTES FOR ISDMISSSTC-324-20200109-0
 ------- Remove before merging ---------
 */
-
-
 
 const IconWrapper = styled.button`
     color: ${theme.colors.primary};
@@ -218,12 +222,14 @@ class Bookmarks extends Component {
                             <Item>
                                 <PaddedContent>
                                     {bookmark.header && (
+                                        <ItemHeaderTitle>
                                         <ItemHeader>
                                             {getPropByString(
                                                 localizor.strings,
                                                 bookmark.header
                                             )}
                                         </ItemHeader>
+                                        </ItemHeaderTitle>
                                     )}
                                     <ItemContent to={bookmark.url}>
                                         <ItemTitle>
