@@ -40,7 +40,7 @@ const BookmarkIcon = styled(Icons.BookmarkCheck)`
     overflow: visible;
 `;
 
-const ItemHeaderTitle = styled.h4`
+const ItemHeaderTitle = styled.h2`
     margin: 0;
 `;
 
@@ -49,7 +49,7 @@ const ItemHeader = styled.span`
     font-family: ${theme.fonts.headings};
 `;
 
-const ItemTitle = styled.h4`
+const ItemTitle = styled.h2`
     padding: 0;
     margin: 0;
 `;
