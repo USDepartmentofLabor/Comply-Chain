@@ -107,14 +107,14 @@ class Splash extends Component {
                             forced labor, and human trafficking worldwide.
                         </SubText>
                     </SplashHeader>
-                    <LanguageWrapper id="splash-language-switcher">
+                    <LanguageWrapper id="language-switcher">
                         <LanguageButton
                             id="en-btn"
                             onClick={() => {
                                 this.handleLanguageChange("en");
                             }}
                         >
-                            English
+                            <span lang="en">{this.props.localizor.strings.general.english}</span>
                         </LanguageButton>
                         <LanguageButton
                             id="es-btn"
@@ -122,7 +122,7 @@ class Splash extends Component {
                                 this.handleLanguageChange("es");
                             }}
                         >
-                            Español
+                            <span lang="es">{this.props.localizor.strings.general.spanish}</span>
                         </LanguageButton>
                         <LanguageButton
                             id="fr-btn"
@@ -130,7 +130,7 @@ class Splash extends Component {
                                 this.handleLanguageChange("fr");
                             }}
                         >
-                            Français
+                            <span lang="fr">{this.props.localizor.strings.general.french}</span>
                         </LanguageButton>
                     </LanguageWrapper>
                 </FlexContent>
