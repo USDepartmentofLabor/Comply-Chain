@@ -22,6 +22,7 @@ export default class Localization {
                 general: General.fr
             }
         });
+
         const lang = localStorage.getItem("lang");
 
         if (lang) {
