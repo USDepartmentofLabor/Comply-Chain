@@ -97,6 +97,7 @@ class ToastUndo extends Component {
             this.node.focus();
         }
     }
+
     handleClick = () => {
         const { bookmark, undo, shouldClose, closeToast } = this.props;
         undo(bookmark);
@@ -193,31 +194,21 @@ class Bookmarks extends Component {
                                     {bookmark.header && (
                                         <ItemHeaderTitle>
                                             <ItemHeader>
-                                                {getPropByString(
-                                                    localizor.strings,
-                                                    bookmark.header
-                                                )}
+                                                {getPropByString(localizor.strings, bookmark.header)}
                                             </ItemHeader>
                                         </ItemHeaderTitle>
                                     )}
                                     <ItemContent to={bookmark.url}>
                                         <ItemTitle>
-                                            {getPropByString(
-                                                localizor.strings,
-                                                bookmark.name
-                                            )}
+                                            {getPropByString(localizor.strings, bookmark.name)}
                                         </ItemTitle>
                                     </ItemContent>
                                 </PaddedContent>
                             </Item>
                             <IconWrapper
-                                ref={node =>
-                                    (this.removeBookmarkBtns[i] = node)
-                                }
+                                ref={node => (this.removeBookmarkBtns[i] = node)}
                                 aria-label="Remove bookmark"
-                                onClick={() => {
-                                    this.markForRemoval(bookmark, i);
-                                }}
+                                onClick={() => {this.markForRemoval(bookmark, i);}}
                             >
                                 <BookmarkIcon />
                             </IconWrapper>
@@ -258,6 +249,10 @@ class Bookmarks extends Component {
             this.lastRemovedIdx = i;
         }
 
+        this.timeoutHandler()
+    };
+
+    timeoutHandler = () => {
         clearTimeout(this.undoTimer);
         this.undoTimer = setTimeout(() => {
             toast.dismiss(this.toastId);
@@ -305,12 +300,8 @@ class Bookmarks extends Component {
         return (
             <div>
                 <h1>{localizor.strings.general.bookmarks}</h1>
-                {bookmarks.length === 0 && (
-                    <p>{localizor.strings.general.nobookmarks}.</p>
-                )}
-                {bookmarks.length > 0 && (
-                    <div>{this.renderBookmarks(bookmarks)}</div>
-                )}
+                {bookmarks.length === 0 && (<p>{localizor.strings.general.nobookmarks}.</p>)}
+                {bookmarks.length > 0 && (<div>{this.renderBookmarks(bookmarks)}</div>)}
             </div>
         );
     }
