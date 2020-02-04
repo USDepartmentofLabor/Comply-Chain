@@ -22,8 +22,6 @@ const IconWrapper = styled.button`
     background-color: Transparent;
     background-repeat: no-repeat;
     border: none;
-    cursor: pointer;
-    outline: none;
 `;
 
 const IconContainer = styled.div`
@@ -146,8 +144,8 @@ class Bookmarks extends Component {
 
         // const bookmarks = storage.bookmarks.retrieveBookmarks();
 
-        // storage.bookmarks.removeAllBookmarks();
-        // storage.bookmarks.getTestBookmarks();
+        storage.bookmarks.removeAllBookmarks();
+        storage.bookmarks.getTestBookmarks();
         const bookmarks = storage.bookmarks.retrieveBookmarks();
 
         this.state = {
@@ -216,7 +214,7 @@ class Bookmarks extends Component {
                                 aria-label="Remove bookmark"
                                 onClick={() => {this.markForRemoval(bookmark, i);}}
                             >
-                                <BookmarkIcon />
+                                <BookmarkIcon/>
                             </IconWrapper>
                         </IconContainer>
                     );
