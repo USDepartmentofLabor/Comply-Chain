@@ -143,7 +143,13 @@ const Slide = cssTransition({
 class Bookmarks extends Component {
     constructor(props) {
         super(props);
+
+        // const bookmarks = storage.bookmarks.retrieveBookmarks();
+
+        storage.bookmarks.removeAllBookmarks();
+        storage.bookmarks.getTestBookmarks();
         const bookmarks = storage.bookmarks.retrieveBookmarks();
+
         this.state = {
             bookmarks,
             bookmarksToRemove: []

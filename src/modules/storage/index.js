@@ -5,6 +5,107 @@ const ACCORDION_KEY = "accordion";
 const SEARCH_CACHE_KEY = "search_cache";
 const SEARCH_SCROLL = "search_scroll";
 
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+/* *************************** BOOKMARKS ******************************************* */
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+
+/**
+ * Toggles a bookmark by adding or removing it from storage.
+ * @param {string} name - unique bookmark name
+ * @param {string} prefix - a string that will be prepended to the name
+ * @param {string} header - the bookmark header title before the name
+ * @param {string=} url - url of the bookmark
+ */
+const toggleBookmark = (name, prefix, header, url) => {
+    const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
+
+    const index = bookmarks.findIndex(bookmark => bookmark.name === name);
+    if (index !== -1) {
+        bookmarks.splice(index, 1);
+    } else {
+        bookmarks.push({
+            name,
+            prefix,
+            header,
+            url,
+            time: new Date().getTime()
+        });
+    }
+    localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
+};
+
+/**
+ * Remove a bookmark by name.
+ * @param {string} name - unique bookmark name
+ */
+const removeBookmark = name => {
+    const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
+
+    const index = bookmarks.findIndex(bookmark => bookmark.name === name);
+    if (index !== -1) {
+        bookmarks.splice(index, 1);
+    }
+    localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
+};
+
+/**
+ * Removes all bookmarks.
+ */
+const removeAllBookmarks = () => {
+    localStorage.setItem(BOOKMARK_KEY, JSON.stringify([]));
+};
+
+/**
+ * Create test bookmarks.
+ */
+const getTestBookmarks = () => {
+    const bookmarks = [
+        {"name": "steps.0.title", "url": "/steps/1", "time": 1580666994652},
+        {"name": "steps.1.title", "url": "/steps/2", "time": 1580684388618},
+        {"name": "steps.2.title", "url": "/steps/3", "time": 1580682169037},
+        {"name": "steps.3.title", "url": "/steps/4", "time": 1580683275733}
+    ];
+    localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
+};
+
+/**
+ * Retrieves a single bookmark by name.
+ * @param {string} name - the unqiue bookmark name to retrieve
+ */
+const retrieveBookmark = name => {
+    const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
+
+    const index = bookmarks.findIndex(bookmark => bookmark.name === name);
+    if (index === -1) {
+        return undefined;
+    }
+    return bookmarks[index];
+};
+
+/**
+ * Checks to see if a page has any sub-pages that contain bookmarks.
+ * @param {string} name the partial name to search
+ */
+const containsBookmarks = name => {
+    const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
+    const index = bookmarks.findIndex(bookmark => bookmark.name.includes(name));
+    return index !== -1;
+};
+/**
+ * Retrieve all bookmarks.
+ */
+const retrieveBookmarks = () => {
+    return JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
+};
+
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+
+
 const createStep = (step, totalTopics) => {
     const steps = JSON.parse(localStorage.getItem(STEP_KEY)) || [];
     if (steps[step]) {
@@ -89,78 +190,6 @@ const markSplashComplete = () => {
     localStorage.setItem(SPLASH_KEY, true);
 };
 
-/**
- * Toggles a bookmark by adding or removing it from storage.
- * @param {string} name - unique bookmark name
- * @param {string} prefix - a string that will be prepended to the name
- * @param {string} header - the bookmark header title before the name
- * @param {string=} url - url of the bookmark
- */
-const toggleBookmark = (name, prefix, header, url) => {
-    const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
-
-    const index = bookmarks.findIndex(bookmark => bookmark.name === name);
-    if (index !== -1) {
-        bookmarks.splice(index, 1);
-    } else {
-        bookmarks.push({
-            name,
-            prefix,
-            header,
-            url,
-            time: new Date().getTime()
-        });
-    }
-    localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
-};
-
-/**
- * Remove a bookmark by name.
- * @param {string} name - unique bookmark name
- */
-const removeBookmark = name => {
-    const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
-
-    const index = bookmarks.findIndex(bookmark => bookmark.name === name);
-    if (index !== -1) {
-        bookmarks.splice(index, 1);
-    }
-    localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bookmarks));
-};
-
-/**
- * Retrieves a single bookmark by name.
- * @param {string} name - the unqiue bookmark name to retrieve
- */
-const retrieveBookmark = name => {
-    const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
-
-    const index = bookmarks.findIndex(bookmark => bookmark.name === name);
-    if (index === -1) {
-        return undefined;
-    }
-    return bookmarks[index];
-};
-
-/**
- * Checks to see if a page has any sub-pages that contain bookmarks.
- * @param {string} name the partial name to search
- */
-const containsBookmarks = name => {
-    const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
-    const index = bookmarks.findIndex(bookmark => bookmark.name.includes(name));
-    if (index === -1) {
-        return false;
-    }
-    return true;
-};
-/**
- * Retrieve all bookmarks.
- */
-const retrieveBookmarks = () => {
-    return JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
-};
-
 const setAccordionId = id => {
     localStorage.setItem(ACCORDION_KEY, JSON.stringify(id));
 };
@@ -212,7 +241,9 @@ export const storage = {
         removeBookmark,
         retrieveBookmark,
         retrieveBookmarks,
-        containsBookmarks
+        containsBookmarks,
+        removeAllBookmarks,
+        getTestBookmarks
     },
     accordion: {
         setAccordionId,
