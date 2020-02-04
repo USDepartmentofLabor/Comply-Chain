@@ -146,8 +146,8 @@ class Bookmarks extends Component {
 
         // const bookmarks = storage.bookmarks.retrieveBookmarks();
 
-        storage.bookmarks.removeAllBookmarks();
-        storage.bookmarks.getTestBookmarks();
+        // storage.bookmarks.removeAllBookmarks();
+        // storage.bookmarks.getTestBookmarks();
         const bookmarks = storage.bookmarks.retrieveBookmarks();
 
         this.state = {
@@ -192,8 +192,8 @@ class Bookmarks extends Component {
                 {filtered.map((bookmark, i) => {
                     return (
                         <IconContainer
-                            id={`bookmark_${i + 1}`}
-                            key={`bookmark_${i + 1}`}
+                            id={`bookmark_${bookmark.name}`}
+                            key={`bookmark_${bookmark.name}`}
                         >
                             <Item>
                                 <PaddedContent>
