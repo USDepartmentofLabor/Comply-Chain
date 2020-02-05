@@ -146,14 +146,14 @@ class Bookmarks extends Component {
         // TODO: Get rid of storage debug code.
         // TODO: Add characters per second.
         // TODO: Change timeout to 20 seconds.
-        storage.bookmarks.removeAllBookmarks();
-        storage.bookmarks.getTestBookmarks();
+        // storage.bookmarks.removeAllBookmarks();
+        // storage.bookmarks.getTestBookmarks();
         const bookmarks = storage.bookmarks.retrieveBookmarks();
 
         this.charactersPerSecondEnglish = 10;
         this.standardCharactersReadFromButton = 190;
         this.timeoutTimeSeconds = 5;
-        this.useTimeoutTimeSeconds = true;
+        this.useTimeoutTimeSeconds = false;
 
         let tags = new EnhancedBookmarks();
         tags.initEnhancedBookmarks(bookmarks);
