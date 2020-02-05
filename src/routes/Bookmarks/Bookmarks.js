@@ -143,9 +143,17 @@ class Bookmarks extends Component {
     constructor(props) {
         super(props);
 
-        // storage.bookmarks.removeAllBookmarks();
-        // storage.bookmarks.getTestBookmarks();
+        // TODO: Get rid of storage debug code.
+        // TODO: Add characters per second.
+        // TODO: Change timeout to 20 seconds.
+        storage.bookmarks.removeAllBookmarks();
+        storage.bookmarks.getTestBookmarks();
         const bookmarks = storage.bookmarks.retrieveBookmarks();
+
+        this.charactersPerSecondEnglish = 10;
+        this.standardCharactersReadFromButton = 190;
+        this.timeoutTimeSeconds = 5;
+        this.useTimeoutTimeSeconds = true;
 
         let tags = new EnhancedBookmarks();
         tags.initEnhancedBookmarks(bookmarks);
@@ -228,6 +236,7 @@ class Bookmarks extends Component {
     };
 
     markForRemoval = (bookmark, i = -1) => {
+        const { localizor } = this.props;
         const { tags, bookmarksToRemove } = this.state;
 
         // Move bookmark from onPage to notOnPage and delete from storage.
@@ -258,21 +267,26 @@ class Bookmarks extends Component {
                 transition: Slide
             });
         }
-
-        this.timeoutHandler()
+        const bookmarkTitle = getPropByString(localizor.strings, bookmark.name);
+        const totalCharactersToRead = bookmarkTitle.length + this.standardCharactersReadFromButton;
+        const readTimeInSeconds = totalCharactersToRead / this.charactersPerSecondEnglish;
+        this.timeoutHandler(readTimeInSeconds);
     };
 
-    timeoutHandler = () => {
+    timeoutHandler = (timeInSeconds) => {
         clearTimeout(this.undoTimer);
+        const seconds =  this.useTimeoutTimeSeconds ? this.timeoutTimeSeconds : timeInSeconds;
         this.undoTimer = setTimeout(() => {
             toast.dismiss(this.toastId);
             this.setBookmarkTitleFocus();
-        }, 5000);
+        }, seconds*1000);
     };
 
     setBookmarkTitleFocus() {
         const { tags } = this.state;
-        const firstOnPageBookmarkFromBookmarks = tags.getFirstOnPageBookmarkFromBookmarks();
+        // Create a deep copy.
+        const tempBookmark = tags.getFirstOnPageBookmarkFromBookmarks();
+        let firstOnPageBookmarkFromBookmarks = Object.assign({}, tempBookmark);
         const lastRemovedBookmark = tags.getBookmarkAtEnd('bookmarksNotOnPage');
         const nextBookmarkOnPage = tags.getNextBookmarkOnPage(lastRemovedBookmark);
         // Try the next bookmark, if that has no reference default to first bookmark on page.
