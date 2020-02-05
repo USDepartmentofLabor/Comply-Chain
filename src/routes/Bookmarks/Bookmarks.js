@@ -143,8 +143,8 @@ class Bookmarks extends Component {
     constructor(props) {
         super(props);
 
-        storage.bookmarks.removeAllBookmarks();
-        storage.bookmarks.getTestBookmarks();
+        // storage.bookmarks.removeAllBookmarks();
+        // storage.bookmarks.getTestBookmarks();
         const bookmarks = storage.bookmarks.retrieveBookmarks();
 
         let tags = new EnhancedBookmarks();
