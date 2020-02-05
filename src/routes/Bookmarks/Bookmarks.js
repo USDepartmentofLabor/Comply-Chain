@@ -52,7 +52,7 @@ const ItemTitle = styled.h2`
     margin: 0;
 `;
 
-const ItemContent = styled(Link)`
+const ItemContent = styled.a`
     color: ${theme.colors.primary};
     text-decoration: none;
     width:420px;
@@ -68,7 +68,6 @@ const ToastStrong = styled.span`
 
 const Content = styled.div`
     display: flex;
-    // width: 440px;
     align-items: center;
     justify-content: space-evenly;
     padding: 5px;
@@ -144,8 +143,6 @@ class Bookmarks extends Component {
     constructor(props) {
         super(props);
 
-        // const bookmarks = storage.bookmarks.retrieveBookmarks();
-
         storage.bookmarks.removeAllBookmarks();
         storage.bookmarks.getTestBookmarks();
         const bookmarks = storage.bookmarks.retrieveBookmarks();
@@ -154,37 +151,31 @@ class Bookmarks extends Component {
         tags.initEnhancedBookmarks(bookmarks);
 
         this.state = {
+            tags,
             bookmarks,
             bookmarksToRemove: [],
-            tags
-
         };
         this.toastId = "bookmarkToast";
-        this.lastRemovedIdx = -1;
-        this.removeBookmarkBtns = [];
     }
 
     componentWillUnmount() {
-        const { bookmarksToRemove } = this.state;
-        this.removeBookmarks(bookmarksToRemove);
+        const { tags, bookmarksToRemove } = this.state;
+        this.removeBookmarks(tags.bookmarksNotOnPage)
     }
 
-    removeBookmarks = bookmarksToRemove => {
-        if (bookmarksToRemove) {
-            bookmarksToRemove.map(bookmark => {
+    removeBookmarks = bookmarksNotOnPage => {
+        if (bookmarksNotOnPage) {
+            bookmarksNotOnPage.map(bookmark => {
                 storage.bookmarks.removeBookmark(bookmark.name);
                 return bookmark;
             });
         }
     };
 
-    renderBookmarks = bookmarks => {
+    renderBookmarks = tags => {
         const { localizor } = this.props;
         const { bookmarksToRemove } = this.state;
 
-        const filtered = bookmarks.filter(
-            bookmark => !bookmarksToRemove.includes(bookmark)
-        );
         return (
             <div>
                 <Title
@@ -194,7 +185,7 @@ class Bookmarks extends Component {
                         localizor.strings.general.dol
                     }
                 />
-                {filtered.map((bookmark, i) => {
+                {tags.bookmarksOnPage.map((bookmark, i) => {
                     return (
                         <IconContainer
                             id={`bookmark_${bookmark.name}`}
@@ -209,7 +200,10 @@ class Bookmarks extends Component {
                                             </ItemHeader>
                                         </ItemHeaderTitle>
                                     )}
-                                    <ItemContent to={bookmark.url}>
+                                    <ItemContent
+                                        href={bookmark.url}
+                                        ref={node => (bookmark.titleRef = node)}
+                                    >
                                         <ItemTitle>
                                             {getPropByString(localizor.strings, bookmark.name)}
                                         </ItemTitle>
@@ -217,7 +211,7 @@ class Bookmarks extends Component {
                                 </PaddedContent>
                             </Item>
                             <IconWrapper
-                                ref={node => (this.removeBookmarkBtns[i] = node)}
+                                ref={node => (bookmark.iconRef = node)}
                                 aria-label="Remove bookmark"
                                 onClick={() => {this.markForRemoval(bookmark, i);}}
                             >
@@ -226,7 +220,7 @@ class Bookmarks extends Component {
                         </IconContainer>
                     );
                 })}
-                {filtered.length === 0 && (
+                {tags.bookmarksOnPage.length === 0 && (
                     <p>{localizor.strings.general.nobookmarks}.</p>
                 )}
             </div>
@@ -234,10 +228,18 @@ class Bookmarks extends Component {
     };
 
     markForRemoval = (bookmark, i = -1) => {
-        const { bookmarksToRemove } = this.state;
-        bookmarksToRemove.push(bookmark);
-        this.setState({ bookmarksToRemove });
+        const { tags, bookmarksToRemove } = this.state;
+
+        // Move bookmark from onPage to notOnPage and delete from storage.
+        tags.removeBookmarkByName('bookmarksOnPage', bookmark.name);
+        tags.toggleLastRemovedBookmark(bookmark.name);
+        tags.addBookmarkAtEnd('bookmarksNotOnPage', bookmark);
         storage.bookmarks.removeBookmark(bookmark.name);
+
+        bookmarksToRemove.push(bookmark);
+
+        this.setState({ tags, bookmarksToRemove });
+
         const toastComp = (
             <ToastUndo
                 undo={this.unmarkForRemoval}
@@ -256,9 +258,6 @@ class Bookmarks extends Component {
                 transition: Slide
             });
         }
-        if (i !== -1) {
-            this.lastRemovedIdx = i;
-        }
 
         this.timeoutHandler()
     };
@@ -267,36 +266,50 @@ class Bookmarks extends Component {
         clearTimeout(this.undoTimer);
         this.undoTimer = setTimeout(() => {
             toast.dismiss(this.toastId);
+            this.setBookmarkTitleFocus();
         }, 5000);
     };
 
-    unmarkForRemoval = bookmark => {
-        const { bookmarksToRemove } = this.state;
-        const idx = bookmarksToRemove.indexOf(bookmark);
-        if (idx !== -1) {
-            bookmarksToRemove.splice(idx, 1);
+    setBookmarkTitleFocus() {
+        const { tags } = this.state;
+        const firstOnPageBookmarkFromBookmarks = tags.getFirstOnPageBookmarkFromBookmarks();
+        const lastRemovedBookmark = tags.getBookmarkAtEnd('bookmarksNotOnPage');
+        const nextBookmarkOnPage = tags.getNextBookmarkOnPage(lastRemovedBookmark);
+        // Try the next bookmark, if that has no reference default to first bookmark on page.
+        if (nextBookmarkOnPage && nextBookmarkOnPage.titleRef) {
+            nextBookmarkOnPage.titleRef.focus();
         }
-        this.setState({ bookmarksToRemove });
+        else if (firstOnPageBookmarkFromBookmarks && firstOnPageBookmarkFromBookmarks.titleRef) {
+            firstOnPageBookmarkFromBookmarks.titleRef.focus();
+        }
+    }
+
+    unmarkForRemoval = bookmark => {
+        const { tags, bookmarksToRemove } = this.state;
+        // Toggle the lastRemoved.
+        tags.toggleLastRemovedBookmark(bookmark.name);
+        // Remove the bookmark for removal (unmark).
+        tags.removeBookmarkByName('bookmarksNotOnPage', bookmark.name);
+        // Find where it was in the original list: put back in same place on page.
+        tags.placeAtCorrectIndexOnPage(bookmark);
+        this.setState({ tags, bookmarksToRemove });
+        // Adds the removed bookmark back to storage.
         storage.bookmarks.toggleBookmark(
             bookmark.name,
             bookmark.prefix,
             bookmark.header,
             bookmark.url
         );
-        if (this.lastRemovedIdx !== -1) {
-            this.removeBookmarkBtns[this.lastRemovedIdx].focus();
-        }
-        if (bookmarksToRemove.length > 0) {
+        if (tags.bookmarksNotOnPage.length > 0) {
             clearTimeout(this.undoTimer);
-            const prevBookmark =
-                bookmarksToRemove[bookmarksToRemove.length - 1];
+            const prevBookmark = tags.getBookmarkAtEnd('bookmarksNotOnPage');
             toast.update(this.toastId, {
                 render: (
                     <ToastUndo
                         undo={this.unmarkForRemoval}
                         localizor={this.props.localizor}
                         bookmark={prevBookmark}
-                        shouldClose={bookmarksToRemove.length === 1}
+                        shouldClose={tags.bookmarksNotOnPage.length === 1}
                     />
                 )
             });
@@ -306,13 +319,13 @@ class Bookmarks extends Component {
     };
 
     render() {
-        const { bookmarks } = this.state;
+        const { tags, bookmarks } = this.state;
         const { localizor } = this.props;
         return (
             <div>
                 <h1>{localizor.strings.general.bookmarks}</h1>
                 {bookmarks.length === 0 && (<p>{localizor.strings.general.nobookmarks}.</p>)}
-                {bookmarks.length > 0 && (<div>{this.renderBookmarks(bookmarks)}</div>)}
+                {bookmarks.length > 0 && (<div>{this.renderBookmarks(tags)}</div>)}
             </div>
         );
     }
@@ -323,60 +336,180 @@ Bookmarks.propTypes = {
 };
 
 class EnhancedBookmarks {
-    constructor() {
-        this.bookmarks = [];
-        this.bookmarksOnPage = [];
-        this.bookmarksNotOnPage = [];
-    }
 
-    createEnhancedBookmark = (bookmark, i, titleRef=null, iconRef=null, isRemoved=false) => ({
+    bookmarks = [];
+    bookmarksOnPage = [];
+    bookmarksNotOnPage = [];
+
+    createEnhancedBookmark = (bookmark, i, titleRef=null, iconRef=null, lastRemoved=false) => ({
         "name": bookmark.name,
         "url": bookmark.url,
+        "prefix": bookmark.prefix,
+        "header": bookmark.header,
         "time": bookmark.time,
         "titleRef": titleRef,
         "iconRef": iconRef,
         "listIndex": i,
-        "onPageIndex": i,
-        "notOnPageIndex": null
+        "lastRemoved": lastRemoved
     });
 
     initEnhancedBookmarks = (bookmarks, i) => {
         for (const [index, bookmark] of bookmarks.entries()) {
             let enhancedBookmark = this.createEnhancedBookmark(bookmark, index);
             this.bookmarks.push(enhancedBookmark);
+            this.bookmarksOnPage.push(enhancedBookmark)
         }
     };
 
-    getBookmarkObjectByName = (bookmarks, name) => {
-        return this.bookmarks.find((element) => element.name === name);
+    getFirstOnPageBookmarkFromBookmarks = () => {
+        for (const bookmark of this.bookmarks) {
+            for (const bookmarkOnPage of this.bookmarksOnPage) {
+                if (bookmark.name === bookmarkOnPage.name) {
+                    return bookmark;
+                }
+            }
+        }
+        return null;
     };
 
-    getBookmarkIndexByName = (bookmarks, name) => {
-        return this.bookmarks.findIndex((element) => element.name === name);
+    getBookmarkObjectByName = (arrayName, name) => {
+        if (arrayName === 'bookmarks') {
+            return this.bookmarks.find((bookmark) => bookmark.name === name);
+        } else if (arrayName === 'bookmarksOnPage') {
+            return this.bookmarksOnPage.find((bookmark) => bookmark.name === name);
+        } else if (arrayName === 'bookmarksNotOnPage') {
+            return this.bookmarksNotOnPage.find((bookmark) => bookmark.name === name);
+        }
     };
 
-    getNextBookmarkOnPage = name => {
-        const bookmarksOnPage = this.getBookmarksOnPage();
+    getBookmarkIndexByName = (arrayName, name) => {
+        if (arrayName === 'bookmarks') {
+            return this.bookmarks.findIndex((bookmark) => bookmark.name === name);
+        } else if (arrayName === 'bookmarksOnPage') {
+            return this.bookmarksOnPage.findIndex((bookmark) => bookmark.name === name);
+        } else if (arrayName === 'bookmarksNotOnPage') {
+            return this.bookmarksNotOnPage.findIndex((bookmark) => bookmark.name === name);
+        }
+    };
+
+    getBookmarkAtEnd = (arrayName) => {
+        let bookmark = [];
+        if (arrayName === 'bookmarks') {
+            bookmark = this.bookmarks.slice(-1);
+        } else if (arrayName === 'bookmarksOnPage') {
+            bookmark = this.bookmarksOnPage.slice(-1);
+        } else if (arrayName === 'bookmarksNotOnPage') {
+            bookmark = this.bookmarksNotOnPage.slice(-1);
+        }
+        if (bookmark.length > 0) {
+            return bookmark[0]
+        } else {
+            return null;
+        }
+    };
+
+    removeBookmarkByName = (arrayName, name) => {
+        if (arrayName === 'bookmarks') {
+            this.bookmarks = this.bookmarks.filter(bookmark => bookmark.name !== name);
+        } else if (arrayName === 'bookmarksOnPage') {
+            this.bookmarksOnPage = this.bookmarksOnPage.filter(bookmark => bookmark.name !== name);
+        } else if (arrayName === 'bookmarksNotOnPage') {
+            this.bookmarksNotOnPage = this.bookmarksNotOnPage.filter(bookmark => bookmark.name !== name);
+        }
+    };
+
+    addBookmarkAtEnd = (arrayName, bookmark) => {
+        if (arrayName === 'bookmarks') {
+            this.bookmarks.push(bookmark);
+        } else if (arrayName === 'bookmarksOnPage') {
+            this.bookmarksOnPage.push(bookmark);
+        } else if (arrayName === 'bookmarksNotOnPage') {
+            this.bookmarksNotOnPage.push(bookmark);
+        }
+    };
+
+    addBookmarkAtBeginning = (arrayName, bookmark) => {
+        if (arrayName === 'bookmarks') {
+            this.bookmarks.unshift(bookmark);
+        } else if (arrayName === 'bookmarksOnPage') {
+            this.bookmarksOnPage.unshift(bookmark);
+        } else if (arrayName === 'bookmarksNotOnPage') {
+            this.bookmarksNotOnPage.unshift(bookmark);
+        }
+    };
+
+    toggleLastRemovedBookmark = (name) => {
+        const bookmark = this.bookmarks.filter(bookmark => bookmark.lastRemoved === true);
+        if (bookmark.length > 0) {
+            const indexPrevious = this.getBookmarkIndexByName('bookmarks', bookmark[0].name);
+            if (indexPrevious !== -1) {
+                this.bookmarks[indexPrevious].lastRemoved = false;
+            }
+        }
+        const indexPrevious = this.getBookmarkIndexByName('bookmarks', bookmark.name);
+        if (indexPrevious !== -1) {
+            this.bookmarks[indexPrevious].lastRemoved = false;
+        }
+        const indexCurrent = this.getBookmarkIndexByName('bookmarks', name);
+        this.bookmarks[indexCurrent].lastRemoved = true;
+    };
+
+    placeAtCorrectIndexOnPage = (thisBookmark) => {
+        const bookmarkIndex = thisBookmark.listIndex;
+        const indexes = [];
+        for (const bookmark of this.bookmarksOnPage) {
+            indexes.push(bookmark.listIndex)
+        }
+        const length = indexes.length;
+        if (length === 0) {
+            this.bookmarksOnPage.push(thisBookmark);
+            return;
+        } else if (bookmarkIndex < indexes[0]) {
+            this.bookmarksOnPage.unshift(thisBookmark);
+            return;
+        } else if (bookmarkIndex > indexes[length-1]) {
+            this.bookmarksOnPage.push(thisBookmark);
+            return;
+        }
+        for (let i = 1; i <= length-1; i++) {
+            if (bookmarkIndex < indexes[i]) {
+                this.bookmarksOnPage.splice(i, 0, thisBookmark);
+                return;
+            }
+        }
+    };
+
+    getNextBookmarkOnPage = bookmark => {
+        if (!bookmark) {
+            bookmark = this.bookmarks.filter(bookmark => bookmark.lastRemoved === true);
+            if (bookmark.length <= 0) {
+                return null;
+            }
+            else {
+                return bookmark[0];
+            }
+        }
+        const bookmarksOnPage = this.bookmarksOnPage;
+        const bookmarksNotOnPage = this.bookmarksNotOnPage;
         // Find where the removed bookmark is in the list.
-        const indexBookmarkInList = this.bookmarks.findIndex((element) => element.name === name);
+        const indexBookmarkInList = this.getBookmarkIndexByName('bookmarks', bookmark.name);
         // Now slice the list to get all the bookmarks after it.
         const possibleBookmarksFromList = this.bookmarks.slice(indexBookmarkInList+1);
         // Get the first bookmark that is visible.
         for (let [index, bookmark] of possibleBookmarksFromList.entries()) {
-            if (!bookmark.isRemoved) {return bookmark;}
+            if (!(bookmark in bookmarksNotOnPage)) {return bookmark;}
         }
         // Fell off the earth: try taking the first on the page
-        if (bookmarksOnPage) {
-            return bookmarksOnPage[0]
+        if (bookmarksOnPage.length > 0) {
+            const firstBookmark = bookmarksOnPage[0];
+            let bookmark = this.getBookmarkIndexByName('bookmarks', firstBookmark.name);
+            firstBookmark.titleRef = bookmark.titleRef;
+            return firstBookmark;
         }
         // No bookmarks on page.
         return null;
     };
 
-    toggleIsRemovedByBookmarkName = name => {
-        const index = this.bookmarks.findIndex((element) => element.name === name);
-        this.bookmarks[index].isRemoved = !this.bookmarks[index].isRemoved;
-    }
 }
 
 export default withLanguageContext(Bookmarks);
