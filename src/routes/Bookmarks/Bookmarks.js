@@ -100,7 +100,6 @@ class ToastUndo extends Component {
     componentWillMount() {
         if (this.isVisible) {
             document.addEventListener("keydown", this.handleKeyPress, false);
-            document.addEventListener("mousedown", this.handleKeyPress, false);
         }
     }
     componentDidMount() {
@@ -111,16 +110,15 @@ class ToastUndo extends Component {
     componentWillUnmount() {
         if (this.isVisible) {
             document.removeEventListener("keydown", this.handleKeyPress, false);
-            document.removeEventListener("mousedown", this.handleKeyPress, false);
             this.isVisible = false;
         }
     }
 
     handleKeyPress = event => {
-        const { shouldClose, closeToast } = this.props;
+        const { closeToast } = this.props;
         if (event.key === 'Tab') {
             event.preventDefault();
-        } else if (event.type === "mousedown") {
+        } else if (event.key === "Escape") {
             closeToast();
         }
     };
