@@ -52,10 +52,10 @@ const ItemTitle = styled.h2`
     margin: 0;
 `;
 
-const ItemContent = styled.a`
+const ItemContent = styled(Link)`
     color: ${theme.colors.primary};
     text-decoration: none;
-    width:420px;
+    width: 420px;
 `;
 
 const Item = styled.div``;
@@ -167,7 +167,7 @@ class Bookmarks extends Component {
     }
 
     componentWillUnmount() {
-        const { tags, bookmarksToRemove } = this.state;
+        const { tags } = this.state;
         this.removeBookmarks(tags.bookmarksNotOnPage)
     }
 
@@ -182,7 +182,6 @@ class Bookmarks extends Component {
 
     renderBookmarks = tags => {
         const { localizor } = this.props;
-        const { bookmarksToRemove } = this.state;
 
         return (
             <div>
@@ -209,8 +208,8 @@ class Bookmarks extends Component {
                                         </ItemHeaderTitle>
                                     )}
                                     <ItemContent
-                                        href={bookmark.url}
-                                        ref={node => (bookmark.titleRef = node)}
+                                        to={bookmark.url}
+                                        innerRef={node => (bookmark.titleRef = node)}
                                     >
                                         <ItemTitle>
                                             {getPropByString(localizor.strings, bookmark.name)}
@@ -314,22 +313,7 @@ class Bookmarks extends Component {
             bookmark.header,
             bookmark.url
         );
-        if (tags.bookmarksNotOnPage.length > 0) {
-            clearTimeout(this.undoTimer);
-            const prevBookmark = tags.getBookmarkAtEnd('bookmarksNotOnPage');
-            toast.update(this.toastId, {
-                render: (
-                    <ToastUndo
-                        undo={this.unmarkForRemoval}
-                        localizor={this.props.localizor}
-                        bookmark={prevBookmark}
-                        shouldClose={tags.bookmarksNotOnPage.length === 1}
-                    />
-                )
-            });
-        } else {
-            toast.dismiss(this.toastId);
-        }
+        toast.dismiss(this.toastId);
     };
 
     render() {
@@ -510,7 +494,7 @@ class EnhancedBookmarks {
         // Now slice the list to get all the bookmarks after it.
         const possibleBookmarksFromList = this.bookmarks.slice(indexBookmarkInList+1);
         // Get the first bookmark that is visible.
-        for (let [index, bookmark] of possibleBookmarksFromList.entries()) {
+        for (let bookmark of possibleBookmarksFromList.entries()) {
             if (!(bookmark in bookmarksNotOnPage)) {return bookmark;}
         }
         // Fell off the earth: try taking the first on the page
