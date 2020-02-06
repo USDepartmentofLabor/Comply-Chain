@@ -91,11 +91,39 @@ const UndoText = styled.span`
 `;
 
 class ToastUndo extends Component {
+
+    constructor(props) {
+        super(props);
+        this.isVisible = true;
+    }
+
+    componentWillMount() {
+        if (this.isVisible) {
+            document.addEventListener("keydown", this.handleKeyPress, false);
+            document.addEventListener("mousedown", this.handleKeyPress, false);
+        }
+    }
     componentDidMount() {
         if (this.node) {
             this.node.focus();
         }
     }
+    componentWillUnmount() {
+        if (this.isVisible) {
+            document.removeEventListener("keydown", this.handleKeyPress, false);
+            document.removeEventListener("mousedown", this.handleKeyPress, false);
+            this.isVisible = false;
+        }
+    }
+
+    handleKeyPress = event => {
+        const { shouldClose, closeToast } = this.props;
+        if (event.key === 'Tab') {
+            event.preventDefault();
+        } else if (event.type === "mousedown") {
+            closeToast();
+        }
+    };
 
     handleClick = () => {
         const { bookmark, undo, shouldClose, closeToast } = this.props;
@@ -146,22 +174,21 @@ class Bookmarks extends Component {
         // TODO: Get rid of storage debug code.
         // TODO: Add characters per second.
         // TODO: Change timeout to 20 seconds.
-        // storage.bookmarks.removeAllBookmarks();
-        // storage.bookmarks.getTestBookmarks();
+        storage.bookmarks.removeAllBookmarks();
+        storage.bookmarks.getTestBookmarks();
         const bookmarks = storage.bookmarks.retrieveBookmarks();
 
         this.charactersPerSecondEnglish = 10;
         this.standardCharactersReadFromButton = 190;
         this.timeoutTimeSeconds = 5;
-        this.useTimeoutTimeSeconds = false;
+        this.useTimeoutTimeSeconds = true;
 
         let tags = new EnhancedBookmarks();
         tags.initEnhancedBookmarks(bookmarks);
 
         this.state = {
             tags,
-            bookmarks,
-            bookmarksToRemove: [],
+            bookmarks
         };
         this.toastId = "bookmarkToast";
     }
@@ -236,7 +263,7 @@ class Bookmarks extends Component {
 
     markForRemoval = (bookmark, i = -1) => {
         const { localizor } = this.props;
-        const { tags, bookmarksToRemove } = this.state;
+        const { tags } = this.state;
 
         // Move bookmark from onPage to notOnPage and delete from storage.
         tags.removeBookmarkByName('bookmarksOnPage', bookmark.name);
@@ -244,9 +271,7 @@ class Bookmarks extends Component {
         tags.addBookmarkAtEnd('bookmarksNotOnPage', bookmark);
         storage.bookmarks.removeBookmark(bookmark.name);
 
-        bookmarksToRemove.push(bookmark);
-
-        this.setState({ tags, bookmarksToRemove });
+        this.setState({ tags });
 
         const toastComp = (
             <ToastUndo
@@ -298,14 +323,14 @@ class Bookmarks extends Component {
     }
 
     unmarkForRemoval = bookmark => {
-        const { tags, bookmarksToRemove } = this.state;
+        const { tags } = this.state;
         // Toggle the lastRemoved.
         tags.toggleLastRemovedBookmark(bookmark.name);
         // Remove the bookmark for removal (unmark).
         tags.removeBookmarkByName('bookmarksNotOnPage', bookmark.name);
         // Find where it was in the original list: put back in same place on page.
         tags.placeAtCorrectIndexOnPage(bookmark);
-        this.setState({ tags, bookmarksToRemove });
+        this.setState({ tags });
         // Adds the removed bookmark back to storage.
         storage.bookmarks.toggleBookmark(
             bookmark.name,
