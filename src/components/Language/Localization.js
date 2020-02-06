@@ -23,8 +23,6 @@ export default class Localization {
             }
         });
 
-        localStorage.setItem("lang", "fr");
-
         const lang = localStorage.getItem("lang");
 
         if (lang) {

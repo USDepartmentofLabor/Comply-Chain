@@ -92,6 +92,7 @@ class Splash extends Component {
     };
 
     render() {
+        const { localizor } = this.props;
         return (
             <Wrapper>
                 <FlexContent>
@@ -102,10 +103,9 @@ class Splash extends Component {
                             </LogoWrapper>
                             <Brand>ILAB</Brand>
                         </BrandLogoWrapper>
-                        <SubText>
-                            Working to eliminate the worst forms of child labor,
-                            forced labor, and human trafficking worldwide.
-                        </SubText>
+                            <SubText>
+                                {localizor.strings.general.logline}
+                            </SubText>
                     </SplashHeader>
                     <LanguageWrapper id="language-switcher">
                         <LanguageButton
