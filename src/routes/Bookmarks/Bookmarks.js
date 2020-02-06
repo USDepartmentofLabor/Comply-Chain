@@ -9,6 +9,7 @@ import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
 import { getPropByString } from "../../modules/utils";
 import Title from "../../components/Title/Title";
+import ReactDOM from 'react-dom';
 
 const PaddedContent = styled.div`
     padding-left: 25px;
@@ -45,11 +46,6 @@ const ItemHeaderTitle = styled.h2`
 const ItemHeader = styled.span`
     font-weight: bold;
     font-family: ${theme.fonts.headings};
-`;
-
-const ItemTitle = styled.h2`
-    padding: 0;
-    margin: 0;
 `;
 
 const ItemContent = styled(Link)`
@@ -175,14 +171,13 @@ class Bookmarks extends Component {
         // storage.bookmarks.removeAllBookmarks();
         // storage.bookmarks.getTestBookmarks();
         const bookmarks = storage.bookmarks.retrieveBookmarks();
+        let tags = new EnhancedBookmarks();
+        tags.initEnhancedBookmarks(bookmarks);
 
         this.charactersPerSecondEnglish = 10;
         this.standardCharactersReadFromButton = 190;
         this.timeoutTimeSeconds = 5;
-        this.useTimeoutTimeSeconds = false;
-
-        let tags = new EnhancedBookmarks();
-        tags.initEnhancedBookmarks(bookmarks);
+        this.useTimeoutTimeSeconds = true;
 
         this.state = {
             tags,
@@ -232,13 +227,12 @@ class Bookmarks extends Component {
                                             </ItemHeader>
                                         </ItemHeaderTitle>
                                     )}
-                                    <ItemContent
-                                        to={bookmark.url}
-                                        innerRef={node => (bookmark.titleRef = node)}
-                                    >
-                                        <ItemTitle>
+                                    <ItemContent to={bookmark.url}>
+                                        <button
+                                            id={bookmark.name}
+                                        >
                                             {getPropByString(localizor.strings, bookmark.name)}
-                                        </ItemTitle>
+                                        </button>
                                     </ItemContent>
                                 </PaddedContent>
                             </Item>
@@ -306,17 +300,20 @@ class Bookmarks extends Component {
 
     setBookmarkTitleFocus() {
         const { tags } = this.state;
-        // Create a deep copy.
+        // Create a deep copy for the first bookmark on the page.
+        let firstOnPageBookmarkFromBookmarks = null;
         const tempBookmark = tags.getFirstOnPageBookmarkFromBookmarks();
-        let firstOnPageBookmarkFromBookmarks = Object.assign({}, tempBookmark);
+        if (tempBookmark) {
+            firstOnPageBookmarkFromBookmarks = Object.assign({}, tempBookmark);
+        }
         const lastRemovedBookmark = tags.getBookmarkAtEnd('bookmarksNotOnPage');
         const nextBookmarkOnPage = tags.getNextBookmarkOnPage(lastRemovedBookmark);
         // Try the next bookmark, if that has no reference default to first bookmark on page.
-        if (nextBookmarkOnPage && nextBookmarkOnPage.titleRef) {
-            nextBookmarkOnPage.titleRef.focus();
+        if (nextBookmarkOnPage) {
+            document.getElementById(nextBookmarkOnPage.name).focus();
         }
-        else if (firstOnPageBookmarkFromBookmarks && firstOnPageBookmarkFromBookmarks.titleRef) {
-            firstOnPageBookmarkFromBookmarks.titleRef.focus();
+        else if (firstOnPageBookmarkFromBookmarks) {
+            document.getElementById(firstOnPageBookmarkFromBookmarks).focus();
         }
     }
 
@@ -511,24 +508,34 @@ class EnhancedBookmarks {
             }
         }
         const bookmarksOnPage = this.bookmarksOnPage;
-        const bookmarksNotOnPage = this.bookmarksNotOnPage;
         // Find where the removed bookmark is in the list.
         const indexBookmarkInList = this.getBookmarkIndexByName('bookmarks', bookmark.name);
         // Now slice the list to get all the bookmarks after it.
         const possibleBookmarksFromList = this.bookmarks.slice(indexBookmarkInList+1);
         // Get the first bookmark that is visible.
-        for (let bookmark of possibleBookmarksFromList.entries()) {
-            if (!(bookmark in bookmarksNotOnPage)) {return bookmark;}
+
+        for (let possibleBookmarkFromList of possibleBookmarksFromList) {
+            if (this.isNotIn(possibleBookmarkFromList)) {
+                return possibleBookmarkFromList;
+            }
         }
+
         // Fell off the earth: try taking the first on the page
         if (bookmarksOnPage.length > 0) {
-            const firstBookmark = bookmarksOnPage[0];
-            let bookmark = this.getBookmarkIndexByName('bookmarks', firstBookmark.name);
-            firstBookmark.titleRef = bookmark.titleRef;
-            return firstBookmark;
+            return bookmarksOnPage[0];
         }
         // No bookmarks on page.
         return null;
+    };
+
+    isNotIn = (possibleBookmarkFromList) => {
+        const bookmarksNotOnPage = this.bookmarksNotOnPage;
+        for (let bookmarkNotOnPage of bookmarksNotOnPage) {
+            if (possibleBookmarkFromList.name === bookmarkNotOnPage.name) {
+                return false;
+            }
+        }
+        return true;
     };
 
 }
