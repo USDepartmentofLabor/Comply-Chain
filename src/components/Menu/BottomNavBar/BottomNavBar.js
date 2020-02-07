@@ -3,6 +3,48 @@ import styled from "styled-components";
 import { theme } from "../../../modules/config/theme";
 import PropTypes from "prop-types";
 
+class BottomNavBar extends Component {
+
+    constructor(props) {
+        super(props);
+        this.bottomDrawerGoodLink = this.props.items[3].props;
+    }
+
+
+    handleKeyPress = event => {
+        if (event.target.id === "bottom-drawer-goods-link") {
+            this.bottomDrawerGoodLink.onClick();
+        }
+    };
+
+    componentWillMount(prevProps) {
+        document.addEventListener("keydown", this.handleKeyPress, false);
+    }
+
+    componentWillUnmount(prevProps) {
+        document.removeEventListener("keydown", this.handleKeyPress, false);
+    }
+
+    render() {
+        const { items, id } = this.props;
+        return (
+            <Wrapper id={id}>
+                {items.map((item, i) => {
+                    const Icon = item.icon;
+                    return (
+                        <NavItem {...item.props} key={"bottom_nav_" + i}>
+                            <NavItem.Icon>
+                                <Icon alt={item.alt} />
+                            </NavItem.Icon>
+                            <NavItem.Label>{item.label}</NavItem.Label>
+                        </NavItem>
+                    );
+                })}
+            </Wrapper>
+        );
+    }
+}
+
 const Wrapper = styled.nav`
     display: flex;
     align-items: center;
@@ -48,6 +90,7 @@ NavItem.Icon = styled.div`
     font-size: 24px;
     text-align: center;
 `;
+
 NavItem.Label = styled.span`
     line-height: 1;
     text-align: center;
@@ -55,29 +98,6 @@ NavItem.Label = styled.span`
     display: block;
     font-size: 12px;
 `;
-
-// style={{minWidth: '56px', maxWidth: '144px', justifyContent:'center', alignItems:'center'}}
-
-class BottomNavBar extends Component {
-    render() {
-        const { items, id } = this.props;
-        return (
-            <Wrapper id={id}>
-                {items.map((item, i) => {
-                    const Icon = item.icon;
-                    return (
-                        <NavItem {...item.props} key={"bottom_nav_" + i}>
-                            <NavItem.Icon>
-                                <Icon alt={item.alt} />
-                            </NavItem.Icon>
-                            <NavItem.Label>{item.label}</NavItem.Label>
-                        </NavItem>
-                    );
-                })}
-            </Wrapper>
-        );
-    }
-}
 
 BottomNavBar.propTypes = {
     items: PropTypes.arrayOf(
