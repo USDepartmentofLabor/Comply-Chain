@@ -177,12 +177,7 @@ const Slide = cssTransition({
 class Bookmarks extends Component {
     constructor(props) {
         super(props);
-
-        // TODO: Get rid of storage debug code.
-        // TODO: Add characters per second.
-        // TODO: Change timeout to 20 seconds.
-        // storage.bookmarks.removeAllBookmarks();
-        // storage.bookmarks.getTestBookmarks();
+        
         const bookmarks = storage.bookmarks.retrieveBookmarks();
         let tags = new EnhancedBookmarks();
         tags.initEnhancedBookmarks(bookmarks);
