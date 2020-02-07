@@ -33,7 +33,6 @@ class SideNav extends Component {
     }
 
     componentWillUnmount() {
-        const { visible } = this.state;
         document.removeEventListener("keydown", this.handleKeyPress, false);
         if (window.PointerEvent) {
             document.removeEventListener("pointerdown", this.close, false);
