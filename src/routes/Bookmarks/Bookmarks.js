@@ -54,6 +54,19 @@ const ItemContent = styled(Link)`
     width: 420px;
 `;
 
+const ItemContentButtonAsWrapper = styled.button`
+    color: ${theme.colors.primary};
+    text-decoration: none;
+    width: fit-content;
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1em;
+    font-family: ${theme.fonts.headings};
+    font-weight: bold;
+`;
+
 const Item = styled.div``;
 
 const ToastStrong = styled.span`
@@ -177,7 +190,7 @@ class Bookmarks extends Component {
         this.charactersPerSecondEnglish = 10;
         this.standardCharactersReadFromButton = 190;
         this.timeoutTimeSeconds = 5;
-        this.useTimeoutTimeSeconds = true;
+        this.useTimeoutTimeSeconds = false;
 
         this.state = {
             tags,
@@ -227,17 +240,14 @@ class Bookmarks extends Component {
                                             </ItemHeader>
                                         </ItemHeaderTitle>
                                     )}
-                                    <ItemContent to={bookmark.url}>
-                                        <button
-                                            id={bookmark.name}
-                                        >
+                                    <ItemContent to={bookmark.url} tabIndex="-1">
+                                        <ItemContentButtonAsWrapper id={bookmark.name}>
                                             {getPropByString(localizor.strings, bookmark.name)}
-                                        </button>
+                                        </ItemContentButtonAsWrapper>
                                     </ItemContent>
                                 </PaddedContent>
                             </Item>
                             <IconWrapper
-                                ref={node => (bookmark.iconRef = node)}
                                 aria-label="Remove bookmark"
                                 onClick={() => {this.markForRemoval(bookmark, i);}}
                             >
@@ -298,6 +308,28 @@ class Bookmarks extends Component {
         }, seconds*1000);
     };
 
+    /**
+     *  Finds the next bookmark to receive focus. Ran out of time and used document.getElementById()
+     *  to set focus. Actually, a nice solution, although it looks like a hack having Javascript embedded
+     *  in React. To assign focus there needs to be a focusable element and a reference to that element.
+     *  Here are some of the considerations faced:
+     *      1. The styled(Link) tag is a wrapper around an <a></a>. Trying to use
+     *         'ref={node => (bookmark.titleRef = node)}} did not work, and I assume because it gives
+     *         a reference to the Link, and not the inner <a></a> which is focusable. Additionally, the
+     *         Link is not focusable?
+     *      2. Trying to use 'innerRef={node => (bookmark.titleRef = node)}} did not work either. It
+     *         was picking up the reference to the inner <a><a>, but for some unknown reason not
+     *         assigning it to the bookmark.titleRef used to hold it.
+     *      3. Change the styled(Link) to a styled.a and that worked like a charm, however iOS will not
+     *         retrieve the link because of some issues it has. Using the inAppBrowser seemed like a
+     *         possible way to go, and that might have been a good solution. Couldn't get it running.
+     *      4. Then I read that there are times you might want to focus an un-focusable element. In that
+     *         case the suggestion was to use a button along with CSS to achieve the desired result.
+     *         Instead of a 'ref' an ID was given the button element and document.getElementByID() used.
+     *      5. One rung higher on the hack ladder would be using ReactDOM to get the node. I did try
+     *         that, but it was getting late and I needed a solution, and so abandoned it for more familiar
+     *         territory.
+     */
     setBookmarkTitleFocus() {
         const { tags } = this.state;
         // Create a deep copy for the first bookmark on the page.
@@ -359,14 +391,12 @@ class EnhancedBookmarks {
     bookmarksOnPage = [];
     bookmarksNotOnPage = [];
 
-    createEnhancedBookmark = (bookmark, i, titleRef=null, iconRef=null, lastRemoved=false) => ({
+    createEnhancedBookmark = (bookmark, i, lastRemoved=false) => ({
         "name": bookmark.name,
         "url": bookmark.url,
         "prefix": bookmark.prefix,
         "header": bookmark.header,
         "time": bookmark.time,
-        "titleRef": titleRef,
-        "iconRef": iconRef,
         "listIndex": i,
         "lastRemoved": lastRemoved
     });
