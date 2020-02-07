@@ -42,7 +42,8 @@ export const General = {
         usDol: "Bureau of International Labor Affairs",
         dolSeal: "United States Department of Labor seal",
         dol: "United States Department of Labor",
-        back: "Back"
+        back: "Back",
+        logline: "Working to eliminate the worst forms of child labor, forced labor, and human trafficking worldwide."
     },
     es: {
         home: "Página principal",
@@ -87,7 +88,8 @@ export const General = {
         usDol: "Dirección de Asuntos Laborales Internacionales",
         dolSeal: "Sello del Departamento de Trabajo de los Estados Unidos",
         dol: "Departamento de Trabajo de los Estados Unidos",
-        back: "Regresar"
+        back: "Regresar",
+        logline: "Iniciativas para eliminar las peores formas de trabajo infantil, trabajo forzoso y trata de personas en todo el mundo."
     },
     fr: {
         home: "Page d'accueil",
@@ -132,6 +134,7 @@ export const General = {
         usDol: "Bureau des affaires internationales du travail",
         dolSeal: "Sceau du Département du Travail des États-Unis",
         dol: "Département du Travail des États-Unis",
-        back: "Retour"
+        back: "Retour",
+        logline: "Agir pour éliminer les pires formes de travail des enfants, le travail forcé et la traite des personnes à travers le monde."
     }
 };

@@ -11,6 +11,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { whitelist } from "./modules/config/whitelist";
 import { isAndroid } from "./modules/utils/platform";
+import { inAppBrowserOptions } from "./modules/utils/platform";
 
 smoothscroll.polyfill();
 
@@ -45,7 +46,8 @@ const addInAppBrowser = () => {
                 if (isAndroid() && whitelist.includes(link)) {
                     window.open(link, "_system");
                 } else {
-                    window.open(link, "_blank");
+                    const browserOptions = inAppBrowserOptions();
+                    window.open(link, "_blank", browserOptions);
                 }
                 return false;
             }

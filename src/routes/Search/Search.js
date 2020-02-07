@@ -382,7 +382,8 @@ class Search extends Component {
         }
         return (
             <div>
-                <Title title={title} />
+                <Title title={title}/>
+                <h1>{localizor.strings.general.search}</h1>
                 {query && !searching && (
                     <SearchResultsHeader>
                         {results.length}{" "}
@@ -409,7 +410,7 @@ class Search extends Component {
                         />
                         <SearchButton
                             id="search-button"
-                            aria-label="Search Submit Button"
+                            aria-label="Search Submit"
                             variant="primary"
                             type="submit"
                         >
