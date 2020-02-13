@@ -1,6 +1,6 @@
 export const General = {
     en: {
-        home: "Homepage",
+        home: "Comply Chain Homepage",
         menu: "Menu",
         appFullTitle: "Do Good",
         info: "Info",
@@ -46,7 +46,7 @@ export const General = {
         logline: "Working to eliminate the worst forms of child labor, forced labor, and human trafficking worldwide."
     },
     es: {
-        home: "Página principal",
+        home: "Página principal de Comply Chain",
         menu: "Menú",
         appFullTitle: "Do Good",
         info: "Info",
@@ -92,7 +92,7 @@ export const General = {
         logline: "Iniciativas para eliminar las peores formas de trabajo infantil, trabajo forzoso y trata de personas en todo el mundo."
     },
     fr: {
-        home: "Page d'accueil",
+        home: "Page d'accueil de Comply Chain",
         menu: "Menu",
         appFullTitle: "Do Good",
         info: "Info",
