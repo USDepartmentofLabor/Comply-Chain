@@ -11,6 +11,9 @@ import WhyDevelop from "./WhyDevelop";
 import Splash from "./Splash";
 import Goods from "./Goods";
 import Findings from "./Findings";
+import IndenturedProductList from "./IndenturedProductList";
+
+
 export {
     Home,
     Topic,
@@ -24,5 +27,6 @@ export {
     Bookmarks,
     Splash,
     Goods,
-    Findings
+    Findings,
+    IndenturedProductList
 };

@@ -5,6 +5,7 @@ import { Goods } from "./goods";
 import { KeyResources } from "./key-resources";
 import { WhatAre } from "./what-are";
 import { WhyDevelop } from "./why-develop";
+import { IndenturedProductList } from "./indenturedProductList";
 
 export const Info = {
     en: {
@@ -43,7 +44,13 @@ export const Info = {
                 "List of Goods Produced by Child Labor or Forced Labor Report",
             keywords: [],
             content: Goods.en
-        }
+        },
+        indenturedProductList: {
+             title:
+             "List of Products Produced by Forced or Indentured Child Labor.",
+              keywords: [],
+              content: IndenturedProductList.en
+         }
     },
     es: {
         about: {
@@ -81,6 +88,12 @@ export const Info = {
                 "Lista de productos producidos por medio del trabajo infantil o del trabajo forzoso",
             keywords: [],
             content: Goods.es
+        },
+        indenturedProductList: {
+             title:
+             "List of Goods Produced by Child Labor or Forced Labor Report",
+              keywords: [],
+              content: IndenturedProductList.es
         }
     },
     fr: {
@@ -119,6 +132,12 @@ export const Info = {
                 "Liste de biens issus du travail des enfants ou du travail forcé",
             keywords: [],
             content: Goods.fr
-        }
+        },
+        indenturedProductList: {
+             title:
+             "List of Goods Produced by Child Labor or Forced Labor Report",
+              keywords: [],
+              content: IndenturedProductList.fr
+                 }
     }
 };
