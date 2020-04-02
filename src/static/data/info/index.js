@@ -47,7 +47,7 @@ export const Info = {
         },
         indenturedProductList: {
              title:
-             "List of Products Produced by Forced or Indentured Child Labor.",
+             "List of Products Produced by Forced or Indentured Child Labor",
               keywords: [],
               content: IndenturedProductList.en
          }
