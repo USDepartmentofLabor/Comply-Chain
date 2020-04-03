@@ -282,6 +282,15 @@ class AppWrapper extends Component {
                         onClick: () => this.toggleBottomDrawer()
                     },
                     label: localizor.strings.info.goods.title
+                },
+                {
+                     props: {
+                         as: NavLink,
+                         id: "bottom-drawer-indenturedProductList-link",
+                         to: Routes.IndenturedProductList.path,
+                         onClick: () => this.toggleBottomDrawer()
+                },
+                         label: localizor.strings.info.indenturedProductList.title
                 }
             ]
         };

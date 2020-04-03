@@ -10,7 +10,8 @@ import {
     WhatAre,
     WhyDevelop,
     Findings,
-    Goods
+    Goods,
+    IndenturedProductList
 } from "../../routes";
 
 const Routes = {
@@ -73,7 +74,12 @@ const Routes = {
         path: "/goods",
         component: Goods,
         exact: true
-    }
+    },
+    IndenturedProductList: {
+            path: "/indenturedProductList",
+            component: IndenturedProductList,
+            exact: true
+        }
 };
 
 export default Routes;
