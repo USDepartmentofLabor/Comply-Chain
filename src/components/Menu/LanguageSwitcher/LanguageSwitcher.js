@@ -84,6 +84,14 @@ class LanguageSwitcher extends Component {
                 >
                     <span lang="fr">{localizor.strings.general.french}</span>
                 </LanguageButton>
+                <LanguageButton
+                    id="ms-btn"
+                    onClick={() => {
+                        this.handleLanguageChange("ms");
+                    }}
+                >
+                    <span lang="ms">{localizor.strings.general.malay}</span>
+                </LanguageButton>
             </LanguageWrapper>
         );
     }
