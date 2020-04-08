@@ -69,5 +69,27 @@ export const Topics = {
             title: "Communication sur les réparations",
             content: Topic4.fr
         }
-    ]
+    ],
+    ms: [
+            {
+                keywords: [],
+                title: "Improving Victim Situations",
+                content: Topic1.en
+            },
+            {
+                keywords: [],
+                title: "Preventing Recurrence",
+                content: Topic2.en
+            },
+            {
+                keywords: [],
+                title: "Corrective Action Plan",
+                content: Topic3.en
+            },
+            {
+                keywords: [],
+                title: "Communication About Remediation",
+                content: Topic4.en
+            }
+        ]
 };

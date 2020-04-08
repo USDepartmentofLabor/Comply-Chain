@@ -136,5 +136,48 @@ export const Topics = {
             title: "Gestion des données relatives à la conformité sociale",
             content: Topic8.fr
         }
-    ]
+    ],
+    ms: [
+            {
+                keywords: [],
+                title: "Why Conduct Risk and Impact Assessments?",
+                content: Topic1.en
+            },
+            {
+                keywords: [],
+                title: "Assessing Internal Impacts and Risk Factors",
+                content: Topic2.en
+            },
+            {
+                keywords: [],
+                title: "Assessing External Impacts and Risk Factors",
+                content: Topic3.en
+            },
+            {
+                keywords: [],
+                title: "Supply Chain Mapping",
+                content: Topic4.en
+            },
+            {
+                keywords: [],
+                title: "Risk and Impact Information Gathering",
+                content: Topic5.en
+            },
+            {
+                keywords: [],
+                title: "Assessing and Addressing Root Causes",
+                content: Topic6.en
+            },
+            {
+                keywords: [],
+                title: "Using Risk and Impact Assessment Information",
+                content: Topic7.en
+            },
+            {
+                keywords: [],
+                title: "Social Compliance Data Management",
+                content: Topic8.en
+            }
+        ]
+
 };

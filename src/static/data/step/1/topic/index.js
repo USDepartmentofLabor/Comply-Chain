@@ -103,5 +103,37 @@ export const Topics = {
             title: "Programmes de certification",
             content: Topic6.fr
         }
-    ]
+    ],
+    ms: [
+            {
+                keywords: [],
+                title: "Why Seek Stakeholder Engagement?",
+                content: Topic1.en
+            },
+            {
+                keywords: [],
+                title: "What Can Stakeholders Do?",
+                content: Topic2.en
+            },
+            {
+                keywords: [],
+                title: "Engaging Your Stakeholders",
+                content: Topic3.en
+            },
+            {
+                keywords: [],
+                title: "Multi-Stakeholder Groups",
+                content: Topic4.en
+            },
+            {
+                keywords: [],
+                title: "Industry Associations and Initiatives",
+                content: Topic5.en
+            },
+            {
+                keywords: [],
+                title: "Certification Programs",
+                content: Topic6.en
+            }
+        ]
 };

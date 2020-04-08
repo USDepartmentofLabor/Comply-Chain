@@ -83,5 +83,31 @@ export const StepData = {
         ],
         furtherResources: Resources.fr,
         extraInfo: ExtraInfo.fr
-    }
+    },
+     en: {
+            title: "Step 5: Monitor Compliance",
+            topics: Topics.en,
+            keywords: ["Social Audit", "Auditing", "Monitoring"],
+            learningObjectives: [
+                "Understand the personnel requirements for your auditing activities.",
+                "Know what tools your auditors need to do their job.",
+                "Decide how you will schedule audits.",
+                "Understand the components and flow of a typical audit.",
+                "Learn good practices for managing, analyzing and using audit data."
+            ],
+            keyTerms: [
+                {
+                    termName: "Social Audit (“Audit”)",
+                    termDefinition:
+                        "The process of examining a specific worksite’s compliance with the standards set in the company’s code of conduct. The term “audit” is used throughout the App to refer to social auditing, but should not be confused with financial and other types of auditing undertaken by companies."
+                },
+                {
+                    termName: "Monitoring",
+                    termDefinition:
+                        "For the purposes of this App, synonymous with auditing."
+                }
+            ],
+            furtherResources: Resources.en,
+            extraInfo: ExtraInfo.en
+        }
 };

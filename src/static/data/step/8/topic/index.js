@@ -69,5 +69,27 @@ export const Topics = {
             title: "L’équipe chargée des rapports",
             content: Topic4.fr
         }
-    ]
+    ],
+    ms: [
+            {
+                keywords: [],
+                title: "Forms of Public Reporting",
+                content: Topic1.en
+            },
+            {
+                keywords: [],
+                title: "Why Produce Public Reporting?",
+                content: Topic2.en
+            },
+            {
+                keywords: [],
+                title: "What to Include in Public Reporting",
+                content: Topic3.en
+            },
+            {
+                keywords: [],
+                title: "The Reporting Team",
+                content: Topic4.en
+            }
+        ]
 };

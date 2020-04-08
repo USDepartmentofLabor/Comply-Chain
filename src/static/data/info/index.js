@@ -139,5 +139,49 @@ export const Info = {
               keywords: [],
               content: IndenturedProductList.fr
                  }
-    }
+    },
+     ms: {
+            about: {
+                title: "About the Comply Chain App",
+                keywords: ["Child Labor", "Forced Labor"],
+                content: About.en
+            },
+            whatAre: {
+                title: "What are Child Labor and Forced Labor?",
+                keywords: ["Child Labor", "Forced Labor"],
+                content: WhatAre.en
+            },
+            whyDevelop: {
+                title: "Why Develop a Social Compliance System?",
+                keywords: ["Laws"],
+                content: WhyDevelop.en
+            },
+            basics: {
+                title: "Basics of a Social Compliance System",
+                keywords: ["Management systems"],
+                content: Basics.en
+            },
+            keyResources: {
+                title: "Key Resources",
+                keywords: [],
+                content: KeyResources.en
+            },
+            findings: {
+                title: "Findings on the Worst Forms of Child Labor Report",
+                keywords: [],
+                content: Findings.en
+            },
+            goods: {
+                title:
+                    "List of Goods Produced by Child Labor or Forced Labor Report",
+                keywords: [],
+                content: Goods.en
+            },
+            indenturedProductList: {
+                 title:
+                 "List of Products Produced by Forced or Indentured Child Labor",
+                  keywords: [],
+                  content: IndenturedProductList.en
+             }
+        }
 };

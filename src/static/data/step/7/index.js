@@ -137,5 +137,50 @@ export const StepData = {
         ],
         furtherResources: Resources.fr,
         extraInfo: ExtraInfo.fr
-    }
+    },
+    ms: {
+            title: "Step 7: Independent Review",
+            topics: Topics.en,
+            keywords: [
+                "Independent review",
+                "Independent monitoring",
+                "Independent verification",
+                "Certification body",
+                "CB",
+                "Impact Evaluation"
+            ],
+            learningObjectives: [
+                "Understand the difference between auditing and independent review, and understand the importance of independent review as a critical step in the social compliance process.",
+                "Learn how impact evaluation may benefit your program."
+            ],
+            keyTerms: [
+                {
+                    termName: "Independent Review",
+                    termDefinition:
+                        "Independent review consists of independent monitoring (auditing) and independent verification.  Independence in the social compliance context is defined by a lack of a direct financial transaction between the company and external entity."
+                },
+                {
+                    termName: "Independent Monitoring (Auditing)",
+                    termDefinition:
+                        "Monitoring/auditing carried out by audit professionals accredited by institutions or mechanisms; their role is to ensure that auditing takes place while eliminating any direct financial transaction between the company and the auditor. Typically, a company pays a separate, independent institution for auditing services, and/or for membership in that body. The institution accredits auditors under its established standards and is responsible for scheduling and oversight of all audits.  While this is designed to increase the credibility of the audit, in some sectors or geographic locations, this arrangement may not be available.  In addition, even without a direct financial transaction, some stakeholders may still have concerns about the degree of an auditor’s independence from the audited entity. Varying degrees of independence exist, and independence ultimately needs to be judged on a case-by-case basis."
+                },
+                {
+                    termName: "Independent Verification",
+                    termDefinition:
+                        "Independent third-party review of the implementation and effectiveness of the other activities of the social compliance system, usually carried out by a Certification Body."
+                },
+                {
+                    termName: "Certification Body (CB)",
+                    termDefinition:
+                        "An organization accredited to certify or verify another entity’s compliance with a specified standard or set of standards."
+                },
+                {
+                    termName: "Impact Evaluation",
+                    termDefinition:
+                        "A method that establishes, with statistical rigor, a causal linkage and quantifiable impact of a specific intervention."
+                }
+            ],
+            furtherResources: Resources.en,
+            extraInfo: ExtraInfo.en
+        }
 };

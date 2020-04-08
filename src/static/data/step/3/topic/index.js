@@ -122,5 +122,43 @@ export const Topics = {
             title: "Communiquer le code",
             content: Topic7.fr
         }
-    ]
+    ],
+    ms: [
+            {
+                keywords: [],
+                title: "International Framework Agreements (IFAs)",
+                content: Topic1.en
+            },
+            {
+                keywords: [],
+                title: "What Makes a Good Code of Conduct?",
+                content: Topic2.en
+            },
+            {
+                keywords: [],
+                title: "Standards on Child Labor and Forced Labor",
+                content: Topic3.en
+            },
+            {
+                keywords: [],
+                title:
+                    "Addressing the Vulnerability of Migrants in Codes of Conduct",
+                content: Topic4.en
+            },
+            {
+                keywords: [],
+                title: "How to Develop a Code",
+                content: Topic5.en
+            },
+            {
+                keywords: [],
+                title: "Joining an Existing Code",
+                content: Topic6.en
+            },
+            {
+                keywords: [],
+                title: "Communicating the Code",
+                content: Topic7.en
+            }
+        ]
 };
