@@ -1,6 +1,6 @@
 import React from "react";
 import StaticData from "../../../../../components/StaticData";
-const en = () => {
+const ms = () => {
     return (
         <StaticData>
             <div>
@@ -201,4 +201,4 @@ const en = () => {
     );
 };
 
-export default en;
+export default ms;

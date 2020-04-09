@@ -55,5 +55,23 @@ export const StepData = {
             }
         ],
         furtherResources: Resources.fr
-    }
+    },
+    ms: {
+            title: "Step 3: Develop a Code of Conduct",
+            topics: Topics.en,
+            keywords: ["Code of conduct", "Code"],
+            learningObjectives: [
+                "Know the main standards that should be included in a good code of conduct.",
+                "Understand the basic steps involved in developing and revising a code.",
+                "Become familiar with industry or cross-sector codes that may be relevant to you."
+            ],
+            keyTerms: [
+                {
+                    termName: 'Code of Conduct ("Code")',
+                    termDefinition:
+                        "The foundation of a social compliance program, a code of conduct is a document that sets out the social (and often, environmental) standards and policies with which a company and its suppliers are expected to comply.  Many companies refer to their codes by a name other than “code of conduct,” such as “terms of engagement,” “supplier expectations,” and many others, but the term is used throughout this App for consistency and clarity.A code is a set of voluntary standards; in this respect it differs from law—although relevant laws (both U.S. and source country) must be taken into account, as should collective bargaining agreements and international framework agreements (IFAs) with union federations, which are enforceable contracts.  A code is not a substitute for any of these instruments."
+                }
+            ],
+            furtherResources: Resources.en
+        }
 };

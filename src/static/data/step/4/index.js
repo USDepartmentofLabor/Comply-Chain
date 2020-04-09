@@ -79,5 +79,30 @@ export const StepData = {
         ],
         furtherResources: Resources.fr,
         training: Training.fr
-    }
+    },
+     ms: {
+            title: "Step 4: Communicate and Train Across Your Supply Chain",
+            topics: Topics.en,
+            keywords: [
+                "Grievance",
+                "Grievance Mechanism",
+                "Training",
+                "Worker Voice"
+            ],
+            learningObjectives: [
+                "Identify the people and groups to whom you should communicate and provide training.",
+                "Define the topics that should be covered in communication and training activities for each group.",
+                "Learn about appropriate communication channels and training formats for different audiences.",
+                "Understand how to put effective grievance mechanisms in place."
+            ],
+            keyTerms: [
+                {
+                    termName: "Grievance",
+                    termDefinition:
+                        "A concern or complaint raised by an individual or a group within a community affected by company operations."
+                }
+            ],
+            furtherResources: Resources.en,
+            training: Training.en
+        }
 };

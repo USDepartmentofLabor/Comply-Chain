@@ -37,5 +37,15 @@ export const Steps = {
         Step6.fr,
         Step7.fr,
         Step8.fr
-    ]
+    ],
+     ms: [
+            Step1.ms,
+            Step2.ms,
+            Step3.ms,
+            Step4.ms,
+            Step5.ms,
+            Step6.ms,
+            Step7.ms,
+            Step8.ms
+        ]
 };

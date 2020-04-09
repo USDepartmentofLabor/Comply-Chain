@@ -88,5 +88,33 @@ export const StepData = {
             }
         ],
         furtherResources: Resources.fr
-    }
+    },
+    ms: {
+            title: "Step 2: Assess Risks and Impacts",
+            topics: Topics.en,
+            keywords: ["Due diligence", "Risk", "Impact"],
+            learningObjectives: [
+                "Understand the importance of risk and impact assessment as part of an overall due diligence approach.",
+                "Understand supply chain mapping as a critical step in assessing risks and impacts of labor abuse.",
+                "Learn the steps involved in risk and impact assessment and what resources are available.",
+                "Know how to use your assessment information and available resources."
+            ],
+            keyTerms: [
+                {
+                    termName: "Due Diligence",
+                    termDefinition:
+                        "As defined by the United Nations Guiding Principles on Business and Human Rights, a process that includes assessing actual and potential human rights impacts (including fundamental labor rights such as child labor and forced labor), integrating and acting upon the findings, tracking responses and communicating how impacts are addressed.  Due diligence should cover assessment of the adverse impacts that a business may cause or contribute to through its own activities, as well as those that may be directly linked to its operations, products or services through business relationships.  Due diligence varies in complexity with the size of a business enterprise, the risk of severe human rights impacts and the nature and context of a business’s operations. "
+                },
+                {
+                    termName: "Risk",
+                    termDefinition:
+                        "A situation that increases the potential for damage to your company, such as reputational damage or legal liability, or damage to individuals or entities affected by your company’s activities or linked to your company’s operations, products or services through business relationships.  "
+                },
+                {
+                    termName: "Impact",
+                    termDefinition:
+                        "A situation in which damage has been done to your company, such as reputational damage or legal liability, or to individuals or entities affected by your company’s activities or linked to your company’s operations, products or services through business relationships. "
+                }
+            ]
+          }
 };

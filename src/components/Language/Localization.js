@@ -20,7 +20,12 @@ export default class Localization {
                 steps: Steps.fr,
                 info: Info.fr,
                 general: General.fr
-            }
+            },
+            ms: {
+                 steps: Steps.ms,
+                 info: Info.ms,
+                 general: General.ms
+             }
         });
 
         const lang = localStorage.getItem("lang");
