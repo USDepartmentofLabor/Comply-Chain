@@ -87,5 +87,32 @@ export const Topics = {
             title: "Mécanismes de réclamation",
             content: Topic5.fr
         }
-    ]
+    ],
+    ms: [
+            {
+                keywords: [],
+                title: "Communicating, Not Policing",
+                content: Topic1.en
+            },
+            {
+                keywords: [],
+                title: "Who Should be Trained?",
+                content: Topic2.en
+            },
+            {
+                keywords: [],
+                title: "What Topics Should Training and Capacity-Building Cover?",
+                content: Topic3.en
+            },
+            {
+                keywords: [],
+                title: "Where, When and How Should Training be Conducted?",
+                content: Topic4.en
+            },
+            {
+                keywords: [],
+                title: "Grievance Mechanisms",
+                content: Topic5.en
+            }
+        ]
 };

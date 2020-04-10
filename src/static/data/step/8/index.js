@@ -59,5 +59,24 @@ export const StepData = {
         ],
         furtherResources: Resources.fr,
         extraInfo: ExtraInfo.fr
-    }
+    },
+    en: {
+            title: "Step 8: Report Performance",
+            topics: Topics.en,
+            keywords: ["Public reporting"],
+            learningObjectives: [
+                "Understand the reasons for reporting publicly on social compliance programs, and the benefits for companies.",
+                "Understand the nature and scope of the information that should be reported.",
+                "Get a sense of the work involved in preparing and issuing public reports."
+            ],
+            keyTerms: [
+                {
+                    termName: "Public Reporting",
+                    termDefinition:
+                        "Communication that is made available to the public, through a variety of channels, about all elements of a company’s social compliance system."
+                }
+            ],
+            furtherResources: Resources.en,
+            extraInfo: ExtraInfo.en
+        }
 };

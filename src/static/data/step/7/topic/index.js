@@ -53,5 +53,22 @@ export const Topics = {
             title: "Évaluation des incidences",
             content: Topic3.fr
         }
-    ]
+    ],
+    en: [
+            {
+                keywords: [],
+                title: "Independent Monitoring (Auditing)",
+                content: Topic1.en
+            },
+            {
+                keywords: [],
+                title: "Independent Verification",
+                content: Topic2.en
+            },
+            {
+                keywords: [],
+                title: "Impact Evaluation",
+                content: Topic3.en
+            }
+        ]
 };

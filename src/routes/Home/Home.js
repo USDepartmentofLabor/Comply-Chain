@@ -25,20 +25,23 @@ class Home extends Component {
         return (
             <HomeWrapper>
                 <IconContainer>
+                    <HomePageTitle>
+                        {localizor.strings.general.home}
+                    </HomePageTitle>
                     <Item
                         image={infoImageData[0].image}
                         imageMobilePosition={infoImageData[0].mobile}
                         imageDesktopPosition={infoImageData[0].desktop}
                     >
                         <ItemContentFirstTwoLinks>
-                            <h1>
+                            <h2>
                                 <ItemTitle
                                     id="home_whydeveloper"
                                     to={Routes.WhyDevelop.path}
                                 >
                                     {localizor.strings.info.whyDevelop.title}
                                 </ItemTitle>
-                            </h1>
+                            </h2>
                         </ItemContentFirstTwoLinks>
                     </Item>
                     <StatusIcons>
@@ -55,14 +58,14 @@ class Home extends Component {
                         imageDesktopPosition={infoImageData[1].desktop}
                     >
                         <ItemContentFirstTwoLinks>
-                            <h1>
+                            <h2>
                                 <ItemTitle
                                     id="home_basics"
                                     to={Routes.Basics.path}
                                 >
                                     {localizor.strings.info.basics.title}
                                 </ItemTitle>
-                            </h1>
+                            </h2>
                         </ItemContentFirstTwoLinks>
                     </Item>
                     <StatusIcons>
@@ -100,13 +103,13 @@ class Home extends Component {
                                             />
                                         </Icon>
                                         <PaddedTitle>
-                                            <h1>
+                                            <h2>
                                                 <ItemTitle
                                                     to={`/steps/${i + 1}`}
                                                 >
                                                     {step.title}
                                                 </ItemTitle>
-                                            </h1>
+                                            </h2>
                                         </PaddedTitle>
                                     </FlexContent>
                                 </ItemContent>
@@ -210,6 +213,17 @@ const stepImageData = [
         desktop: { x: 50, y: 18 }
     }
 ];
+
+const HomePageTitle = styled.h1`
+    font-weight: bold;
+    font-family: ${theme.fonts.headings};
+    font-size: 20px;
+    color: ${theme.colors.primary};
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+`;
 
 const HomeWrapper = styled.div`
     @media screen and (min-width: 900px) {

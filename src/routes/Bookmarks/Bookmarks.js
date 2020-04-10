@@ -9,7 +9,6 @@ import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
 import { getPropByString } from "../../modules/utils";
 import Title from "../../components/Title/Title";
-import ReactDOM from 'react-dom';
 
 const PaddedContent = styled.div`
     padding-left: 25px;

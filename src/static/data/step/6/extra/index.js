@@ -1,9 +1,11 @@
 import en from "./en";
 import es from "./es";
 import fr from "./fr";
+import ms from "./ms";
 
 export const ExtraInfo = {
     en: en,
     es: es,
-    fr: fr
+    fr: fr,
+    ms: ms
 };

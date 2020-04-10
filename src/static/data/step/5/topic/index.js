@@ -154,5 +154,53 @@ export const Topics = {
             title: "Gérer les données des audits",
             content: Topic9.fr
         }
-    ]
+    ],
+    ms: [
+            {
+                keywords: [],
+                title: "Auditing: Getting Started ",
+                content: Topic1.en
+            },
+            {
+                keywords: [],
+                title: "The Audit Team",
+                content: Topic2.en
+            },
+            {
+                keywords: [],
+                title: "Audit Tools",
+                content: Topic3.en
+            },
+            {
+                keywords: [],
+                title: "Scheduling Audits",
+                content: Topic4.en
+            },
+            {
+                keywords: [],
+                title: "Steps in an Audit",
+                content: Topic5.en
+            },
+            {
+                keywords: [],
+                title: "How to Interview a Child",
+                content: Topic6.en
+            },
+            {
+                keywords: [],
+                title: "Special Topic: Informal Subcontracting and “Homework”",
+                content: Topic7.en
+            },
+            {
+                keywords: [],
+                title:
+                    "Special Topic: Community-Based Child Labor Monitoring Systems",
+                content: Topic8.en
+            },
+            {
+                keywords: [],
+                title: "Managing Audit Data",
+                content: Topic9.en
+            }
+        ]
 };
