@@ -5,50 +5,18 @@ const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>El equipo de notificaci&oacute;n</h1>
+                <h1>Comunicaci&oacute;n sobre la remediaci&oacute;n</h1>
                 <p>
-                    Planificar la redacci&oacute;n de informes depende en cierta
-                    medida de la frecuencia con que se presentan dichos informes
-                    y en qu&eacute; forma. Un informe anual formal exige
-                    competencias algo distintas a las necesarias para las
-                    actualizaciones peri&oacute;dicas en l&iacute;nea, aunque
-                    ambos exigen una inversi&oacute;n considerable de tiempo y
-                    recursos.
-                </p>
-                <p>
-                    El equipo de cumplimiento social debe designar a un
-                    encargado de la redacci&oacute;n de informes y a otros
-                    integrantes del equipo para que lo ayuden. Esa persona
-                    coordinar&aacute; la labor con el equipo y con otras
-                    unidades de negocios de toda la empresa. Se deben nombrar
-                    puntos de contacto dentro de la empresa para que brinden su
-                    aporte y examinen el informe a fin de garantizar que refleje
-                    la integraci&oacute;n del cumplimiento social en toda la
-                    empresa.
-                </p>
-                <p>
-                    Algunas empresas contratan a un proveedor externo para que
-                    redacte el informe. Las distintas unidades pertinentes de la
-                    empresa brindan la informaci&oacute;n necesaria al proveedor
-                    del servicio. El riesgo de este enfoque es que tal vez no se
-                    obtenga la misma calidad ni profundidad de
-                    colaboraci&oacute;n durante la redacci&oacute;n del informe.
-                </p>
-                <p>
-                    Algunas empresas tienen partes interesadas externas que
-                    fungen de asesores del equipo o incluso lo integran. En este
-                    caso, se debe tratar de personas con experiencia y
-                    conocimientos t&eacute;cnicos en el campo del cumplimiento
-                    social pero que provengan de otros &aacute;mbitos o tengan
-                    una perspectiva distinta a la del resto de los integrantes
-                    del equipo. Asimismo, puede resultar &uacute;til que lo lean
-                    personas ajenas que puedan hacer comentarios a medida que se
-                    redacta el informe; en aras de la apertura y la
-                    transparencia, algunas empresas invitan a representantes de
-                    grupos laborales, ONG y dem&aacute;s partes interesadas e
-                    incluyen extractos de sus comentarios, que se publican en el
-                    informe en s&iacute;, incluso los que tal vez critiquen
-                    algunos aspectos del programa de la empresa.
+                    En especial en los casos en que se recibe una denuncia que
+                    da lugar a una auditor&iacute;a y a la constataci&oacute;n
+                    de infracciones, el denunciante (y posiblemente otras partes
+                    interesadas) desear&aacute; saber c&oacute;mo se
+                    manej&oacute; el problema. En la medida de lo posible, en la
+                    comunicaci&oacute;n y la presentaci&oacute;n de informes
+                    p&uacute;blicos se debe incorporar informaci&oacute;n sobre
+                    la remediaci&oacute;n. Toda esta comunicaci&oacute;n debe
+                    garantizar la m&aacute;xima protecci&oacute;n de la
+                    seguridad y la privacidad de las v&iacute;ctimas.
                 </p>
                 <p>
                     <em>

@@ -1,54 +1,54 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import StaticData from "../../../../../../components/StaticData";
 
 const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>
-                    Special Topic: Informal Subcontracting and
-                    &ldquo;Homework&rdquo;
-                </h1>
+                <h1>Communicating the Code</h1>
                 <p>
-                    In many countries, particularly developing countries, the
-                    informal economy accounts for a significant portion of the
-                    overall economy. A large proportion of agricultural work is
-                    informal, and in the manufacturing sector, portions of
-                    production are frequently subcontracted to informal
-                    workshops or homes.&nbsp;
+                    Effective communication is an important aspect of any social
+                    compliance program. Many companies have learned that merely
+                    auditing workplaces and remediating violations alone does
+                    not solve many of the labor problems found at harvesting,
+                    mining and production sites, processing facilities and other
+                    workplaces. Ongoing training and communication, capacity
+                    building and an emphasis on continuous improvement have been
+                    found to be the most effective path to sustaining progress
+                    toward greater compliance.
                 </p>
                 <p>
-                    Child labor and forced labor typically thrive in the
-                    informal economy &ndash; in unregistered workplaces outside
-                    the purview of labor unions and law enforcement. Using child
-                    labor in the home increases a family unit&rsquo;s
-                    productivity and wages with little risk of interference from
-                    regulatory bodies. In addition, the increased focus by many
-                    governments and corporations on eradicating child labor may
-                    have caused more of it to be driven underground into
-                    informal work. The informal economy often involves the most
-                    dangerous and hidden forms of work, and children are
-                    extremely vulnerable to the negative impacts of the work
-                    associated with informal labor situations.
+                    <Link to="/steps/6">
+                        Step 4, Communicate and Train Across Your Supply Chain
+                    </Link>{" "}
+                    will discuss the ins and outs of communicating your code and
+                    compliance system to a variety of audiences: your own
+                    employees, your shareholders, your suppliers, supplier
+                    managers and supervisors, workers at facilities throughout
+                    the supply chain, governments, workers&rsquo; organizations,
+                    community groups and others. It will also discuss ways to
+                    make the code more accessible to stakeholders by avoiding
+                    unnecessary technical jargon and providing for translation
+                    into multiple languages.
                 </p>
                 <p>
-                    Companies and multi-stakeholder groups have been grappling
-                    with the challenges of informal work and homework for years.
-                    In 2010, the Ethical Trading Initiative published{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
-                        title="ETI Homeworker Guidelines"
-                    >
-                        ETI Homeworker Guidelines
-                    </a>
-                    <em> for both retailers and suppliers</em>. These guidelines
-                    and their supporting documents include tools such as a model
-                    policy for retailers and suppliers on homework, research
-                    guides for identifying homework in supply chains, mapping
-                    tools, and guidance on setting appropriate piece rates,
-                    since homeworkers are usually paid on a piece rate basis.
+                    <em>
+                        *Note: References to specific companies and
+                        non-governmental entities within this guide are for
+                        informational purposes only to demonstrate best
+                        practices that have been recognized internationally, as
+                        of the app&rsquo;s release date. Referencing the
+                        entities should not be interpreted as an official
+                        endorsement of those entities, their products, or
+                        services by the U.S. Department of Labor{" "}
+                    </em>
+                    <em>
+                        and their inclusion should not be interpreted as a
+                        comprehensive review of these entities&rsquo; practices
+                        in all areas
+                    </em>
+                    <em>.</em>
                 </p>
             </div>
         </StaticData>

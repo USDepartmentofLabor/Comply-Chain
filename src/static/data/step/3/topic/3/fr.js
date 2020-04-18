@@ -1,860 +1,595 @@
 import React from "react";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
-import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
-import usFlag from "../../../../../images/us_flag.png";
-import verite from "../../../../../images/verite.png";
-import { UsFlag, Verite, VeriteFlagWrapper } from "./shared";
 
 const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>
-                    Normes relatives au travail des enfants et au travail
-                    forc&eacute;
-                </h1>
+                <h1>Faire participer vos parties prenantes</h1>
                 <p>
-                    Le code et les outils d&rsquo;audit de chaque entreprise
-                    devraient comprendre les normes suivantes d&eacute;finies
-                    dans les conventions de l&rsquo;OIT:
+                    Voici quelques-unes des fonctions-type que les parties
+                    prenantes peuvent remplir:
                 </p>
-                <h2>Travail des enfants</h2>
                 <ul>
                     <li>
-                        L&rsquo;&acirc;ge minimum d&rsquo;admission &agrave;
-                        l&rsquo;emploi devrait &ecirc;tre 15&nbsp;ans, ou 14
-                        pour les pays qui ont ratifi&eacute; la
-                        Convention&nbsp;138 et pr&eacute;sent&eacute; &agrave;
-                        l&rsquo;OIT au moment de la ratification un motif pour
-                        un &acirc;ge minimum inf&eacute;rieur.
-                    </li>
-                    <li>
-                        Le travail des jeunes et des enfants n&apos;ayant pas
-                        l&apos;&acirc;ge minimum pour travailler est permis{" "}
-                        <em>dans les &eacute;coles</em> aux fins de formation
-                        g&eacute;n&eacute;rale, professionnelle ou technique.
-                    </li>
-                    <li>
-                        Les enfants &acirc;g&eacute;s de 14 ans et plus peuvent
-                        &ecirc;tre autoris&eacute;s &agrave; ex&eacute;cuter des
-                        travaux en dehors de leur scolarit&eacute; s&apos;ils
-                        font partie d&apos;un programme de formation
-                        professionnelle ou technique et si certaines garanties
-                        sont en place.
-                    </li>
-                    <li>
-                        Les enfants &acirc;g&eacute;s de 13 &agrave; 15&nbsp;ans
-                        (12 &agrave; 14&nbsp;ans dans les pays o&ugrave;
-                        l&apos;&acirc;ge minimum est de 14&nbsp;ans) sont
-                        autoris&eacute;s &agrave; ex&eacute;cuter des
-                        «&nbsp;travaux l&eacute;gers&nbsp;», pour autant que
-                        ceux-ci ne portent pas pr&eacute;judice &agrave; leur
-                        sant&eacute; ou &agrave; leur d&eacute;veloppement, ni
-                        &agrave; leur assiduit&eacute; scolaire, tant que le
-                        pays pr&eacute;cise les travaux sp&eacute;cifiques
-                        qu&rsquo;ils sont autoris&eacute;s &agrave;
-                        ex&eacute;cuter, le nombre d&rsquo;heures et les
-                        conditions des activit&eacute;s en question.
+                        Employ&eacute;s de l&apos;entreprise
+                        <ul>
+                            <li>
+                                Prendre part &agrave; l&apos;&eacute;laboration
+                                d&apos;un <strong>code de conduite</strong>.
+                            </li>
+                            <li>
+                                Sugg&eacute;rer les fa&ccedil;ons dont les
+                                donn&eacute;es et l&apos;analyse de l&apos;
+                                <strong>
+                                    &eacute;valuation des risques
+                                </strong>{" "}
+                                et des <strong>audits</strong> pourraient
+                                appuyer la prise de d&eacute;cisions sur
+                                l&apos;approvisionnement, le
+                                d&eacute;veloppement de produits, la
+                                strat&eacute;gie et d&apos;autres questions.
+                            </li>
+                            <li>
+                                Apporter des connaissances
+                                sp&eacute;cialis&eacute;es sur la{" "}
+                                <strong>communication</strong>{" "}
+                                strat&eacute;gique du syst&egrave;me de
+                                conformit&eacute; sociale.
+                            </li>
+                            <li>
+                                Faire office «&nbsp;d&rsquo;yeux et
+                                d&apos;oreilles&nbsp;» suppl&eacute;mentaires en
+                                ce qui concerne les questions de
+                                conformit&eacute; sociale, en compl&eacute;ment
+                                des programmes de conformit&eacute; sociale sur
+                                le lieu de travail.
+                            </li>
+                            <li>
+                                Contribuer des &eacute;l&eacute;ments pour les{" "}
+                                <strong>rapports publics</strong> (par exemple
+                                des d&eacute;clarations sur la valeur
+                                qu&apos;accordent les employ&eacute;s &agrave;
+                                la responsabilit&eacute; sociale de leur
+                                entreprise, et leurs motifs).
+                            </li>
+                            <li>
+                                Contribuer des id&eacute;es d&apos;initiatives
+                                caritatives strat&eacute;giques qui peuvent
+                                r&eacute;gler les{" "}
+                                <strong> causes profondes</strong> des
+                                violations des droits du travail, tout en
+                                remplissant d&apos;autres objectifs de
+                                l&apos;entreprise.
+                            </li>
+                            <li>
+                                &Ecirc;tre form&eacute;s pour s&apos;assurer que
+                                le travail accompli dans d&apos;autres
+                                d&eacute;partements de l&apos;entreprise ne
+                                contrevient pas &agrave; la conformit&eacute;
+                                sociale.
+                            </li>
+                        </ul>
                     </li>
                 </ul>
+                <ul>
+                    <li>
+                        Travailleurs dans les ateliers de production et
+                        organisations de repr&eacute;sentation des travailleurs
+                        <ul>
+                            <li>
+                                Prendre part aux{" "}
+                                <strong>n&eacute;gociations collectives</strong>{" "}
+                                avec la direction concernant les
+                                probl&egrave;mes sur les lieux de travail.
+                            </li>
+                            <li>
+                                {" "}
+                                Prendre part &agrave; l&apos;&eacute;laboration
+                                du <strong>code de conduite</strong> et aider
+                                &agrave; <strong>&eacute;duquer</strong> tous
+                                les travailleurs quant &agrave; leurs droits au
+                                titre du code.
+                            </li>
+                            <li>
+                                Aider &agrave;{" "}
+                                <strong>identifier les risques</strong> de
+                                travail des enfants et de travail forc&eacute;,
+                                et d&apos;autres violations du code dans leurs
+                                ateliers.
+                            </li>
+                            <li>
+                                Participer pleinement &agrave; la{" "}
+                                <strong>formation des travailleurs</strong> et
+                                fournir un retour d&apos;information pour
+                                qu&apos;elle puisse &ecirc;tre
+                                am&eacute;lior&eacute;e.
+                            </li>
+                            <li>
+                                <strong>Communiquer</strong> avec la direction
+                                du site, ou par l&apos;interm&eacute;diaire de
+                                voies d&eacute;sign&eacute;es de communication
+                                des r&eacute;clamations, pour signaler les
+                                violations des droits du travail.
+                            </li>
+                            <li>
+                                <strong>Surveiller</strong> les lieux de travail
+                                et signaler les probl&egrave;mes &agrave; la
+                                direction.
+                            </li>
+                            <li>
+                                Prendre part aux{" "}
+                                <strong>plans de r&eacute;paration</strong> le
+                                cas &eacute;ch&eacute;ant.
+                            </li>
+                            <li>
+                                Sugg&eacute;rer des opportunit&eacute;s
+                                permettant &agrave; l&apos;entreprise de
+                                r&eacute;gler les{" "}
+                                <strong> causes profondes</strong> des
+                                violations des droits du travail.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Fournisseurs dans toute votre cha&icirc;ne
+                        d&apos;approvisionnement
+                        <ul>
+                            <li>
+                                Prendre part &agrave; l&apos;
+                                <strong>
+                                    &eacute;laboration d&apos;un code de
+                                    conduite
+                                </strong>
+                                .
+                            </li>
+                            <li>
+                                S&apos;assurer que leurs employ&eacute;s
+                                connaissent le code et travailler en permanence
+                                pour faire en sorte que les normes du code sont
+                                respect&eacute;es sur le lieu de travail.
+                            </li>
+                            <li>
+                                Fournir des informations utiles &agrave;
+                                l&rsquo;
+                                <strong>
+                                    &eacute;valuation des risques
+                                </strong>{" "}
+                                de votre entreprise, le cas
+                                &eacute;ch&eacute;ant.
+                            </li>
+                            <li>
+                                Prendre int&eacute;gralement part &agrave;
+                                toutes les activit&eacute;s n&eacute;cessaires
+                                de <strong> formation</strong> et{" "}
+                                <strong>communiquer</strong> de fa&ccedil;on
+                                continue, y compris avec les communaut&eacute;s
+                                concern&eacute;es, sur les probl&egrave;mes qui
+                                surgissent sur les lieux de travail.
+                            </li>
+                            <li>
+                                Coop&eacute;rer pleinement avec les{" "}
+                                <strong> auditeurs</strong> et les{" "}
+                                <strong>
+                                    {" "}
+                                    contr&ocirc;leurs ind&eacute;pendants
+                                </strong>
+                                .
+                            </li>
+                            <li>
+                                Jouer un r&ocirc;le actif dans la{" "}
+                                <strong>r&eacute;paration</strong> et appuyer
+                                l&apos;&eacute;laboration de plans d&apos;action
+                                correctifs appropri&eacute;s.
+                            </li>
+                            <li>
+                                Contribuer, si n&eacute;cessaire, aux
+                                activit&eacute;s de{" "}
+                                <strong>rapport public</strong> de
+                                l&apos;entreprise.
+                            </li>
+                            <li>
+                                Sugg&eacute;rer des opportunit&eacute;s pour
+                                l&apos;entreprise de r&eacute;gler les{" "}
+                                <strong>causes profondes</strong> des violations
+                                des droits du travail, que ce soit dans les
+                                &eacute;tablissements des fournisseurs ou dans
+                                les communaut&eacute;s.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Communaut&eacute;s et organisations communautaires dans
+                        toute votre cha&icirc;ne d&apos;approvisionnement
+                        <ul>
+                            <li>
+                                Fournir des avis utiles pour votre{" "}
+                                <strong>code de conduite</strong>, en termes
+                                d&apos;exp&eacute;rience, de contacts et de
+                                cr&eacute;dibilit&eacute; au niveau local.&nbsp;
+                            </li>
+                            <li>
+                                Fournir des avis utiles pour votre{" "}
+                                <strong>&eacute;valuation des risques</strong>,
+                                notamment des avis sur le genre, la culture et
+                                d&apos;autres &eacute;l&eacute;ments de la
+                                dynamique de la communaut&eacute;.
+                            </li>
+                            <li>
+                                Fournir une <strong>formation</strong> et/ou{" "}
+                                <strong>sensibiliser</strong> les travailleurs
+                                et les communaut&eacute;s au travail des
+                                enfants, au travail forc&eacute; et &agrave;
+                                d&apos;autres probl&egrave;mes li&eacute;s aux
+                                droits du travail.
+                            </li>
+                            <li>
+                                Fournir des informations aux{" "}
+                                <strong>auditeurs</strong> et aux{" "}
+                                <strong>
+                                    contr&ocirc;leurs ind&eacute;pendants
+                                </strong>{" "}
+                                le cas &eacute;ch&eacute;ant.
+                            </li>
+                            <li>
+                                Appuyer la r&eacute;alisation d&apos;
+                                <strong>audits</strong> et/ou de{" "}
+                                <strong>
+                                    contr&ocirc;les ind&eacute;pendants
+                                </strong>{" "}
+                                (si qualifi&eacute;s), et/ou prendre part
+                                &agrave; des{" "}
+                                <strong>
+                                    syst&egrave;mes de surveillance
+                                    communautaire
+                                </strong>
+                                .
+                            </li>
+                            <li>
+                                Jouer un r&ocirc;le dans la{" "}
+                                <strong>r&eacute;paration</strong> en
+                                fournissant les services directs
+                                n&eacute;cessaires aux enfants ou aux adultes
+                                victimes de violations des droits du travail
+                                et/ou en conseillant les entreprises sur les
+                                d&eacute;marches de r&eacute;paration.
+                            </li>
+                            <li>
+                                Fournir des avis sur les activit&eacute;s de{" "}
+                                <strong>rapports publics</strong> pour rehausser
+                                leur exactitude et leur
+                                cr&eacute;dibilit&eacute;.
+                            </li>
+                            <li>
+                                Sugg&eacute;rer des opportunit&eacute;s pour
+                                r&eacute;gler les{" "}
+                                <strong>causes profondes</strong> des violations
+                                des droits du travail, et/ou s&apos;associer en
+                                partenariat avec votre entreprise dans des
+                                initiatives pour lutter contre elles.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Organisations nationales ou internationales de la
+                        soci&eacute;t&eacute; civile
+                        <ul>
+                            <li>
+                                Fournir des avis utiles pour votre{" "}
+                                <strong>code de conduite</strong>, en termes
+                                d&apos;exp&eacute;rience, de contacts et de
+                                cr&eacute;dibilit&eacute;.&nbsp;
+                            </li>
+                            <li>
+                                Fournir des informations, par le biais de la
+                                recherche, de rapports ou de collaborateurs sur
+                                place, pour appuyer votre{" "}
+                                <strong>&eacute;valuation des risques</strong>.
+                            </li>
+                            <li>
+                                Fournir une <strong>formation</strong> sur les
+                                questions du travail des enfants, du travail
+                                forc&eacute; et d&apos;autres questions
+                                relatives au travail.
+                            </li>
+                            <li>
+                                R&eacute;aliser des <strong>audits</strong>{" "}
+                                et/ou des{" "}
+                                <strong>
+                                    contr&ocirc;les ind&eacute;pendants
+                                </strong>
+                                , le cas &eacute;ch&eacute;ant.
+                            </li>
+                            <li>
+                                Apporter des connaissances
+                                sp&eacute;cialis&eacute;es sur des
+                                d&eacute;marches de{" "}
+                                <strong>r&eacute;paration</strong>, par exemple
+                                sur les droits des enfants, les situations
+                                d&apos;abus et d&rsquo;autres questions.
+                            </li>
+                            <li>
+                                Contribuer ou apporter des avis sur les{" "}
+                                <strong>rapports publics</strong> pour rehausser
+                                leur exactitude et leur
+                                cr&eacute;dibilit&eacute;.
+                            </li>
+                            <li>
+                                Sugg&eacute;rer des opportunit&eacute;s pour
+                                r&eacute;gler les{" "}
+                                <strong>causes profondes</strong> des violations
+                                des droits du travail, et/ou s&apos;associer en
+                                partenariat &agrave; des initiatives pour lutter
+                                contre elles.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Actionnaires et groupes d&apos;investisseurs
+                        <ul>
+                            <li>
+                                Pr&eacute;coniser aupr&egrave;s des autres
+                                actionnaires l&apos;appui au{" "}
+                                <strong>code de conduite</strong> et au
+                                programme de conformit&eacute; sociale dans son
+                                ensemble.
+                            </li>
+                            <li>
+                                <strong>Communiquer</strong> avec les
+                                entreprises quant aux <strong>risques</strong>{" "}
+                                sp&eacute;cifiques et aux violations des droits
+                                du travail dans leurs cha&icirc;nes
+                                d&apos;approvisionnement (les groupes
+                                d&apos;actionnaires qui s&apos;expriment haut et
+                                fort peuvent &eacute;galement aggraver le{" "}
+                                <strong>risque</strong> de nuire &agrave; votre
+                                r&eacute;putation s&apos;ils estiment que votre
+                                syst&egrave;me de conformit&eacute; sociale
+                                n&apos;est pas efficace et qu&apos;ils ne sont
+                                pas &eacute;cout&eacute;s).
+                            </li>
+                            <li>
+                                Encourager l&apos;entreprise &agrave; consacrer
+                                des ressources aux{" "}
+                                <strong>rapports publics</strong>.
+                            </li>
+                            <li>
+                                Participer avec l&apos;entreprise &agrave;
+                                l&apos;identification des{" "}
+                                <strong>causes profondes </strong> des
+                                violations des droits du travail qui seraient
+                                li&eacute;es &agrave; ses op&eacute;rations.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        Autres entreprises dans votre industrie
+                        <ul>
+                            <li>
+                                Partager des exemples de{" "}
+                                <strong>codes de conduite</strong> ou
+                                &eacute;laborer un code conjoint par le biais
+                                d&apos;un groupe de l&apos;industrie et/ou en
+                                collaborant avec d&apos;autres parties
+                                prenantes.
+                            </li>
+                            <li>
+                                Partager les informations tir&eacute;es des{" "}
+                                <strong>&eacute;valuations de risques</strong>{" "}
+                                concernant des sites d&apos;approvisionnement ou
+                                des fournisseurs particuliers.
+                            </li>
+                            <li>
+                                S&apos;unir pour <strong>former</strong> ou{" "}
+                                <strong>communiquer</strong> avec des
+                                fournisseurs communs et d&apos;autres parties
+                                prenantes situ&eacute;s sur ces sites.
+                            </li>
+                            <li>
+                                Organiser des <strong>audits</strong> conjoints
+                                et/ou des{" "}
+                                <strong>
+                                    processus de contr&ocirc;les
+                                    ind&eacute;pendants
+                                </strong>
+                                .
+                            </li>
+                            <li>
+                                Partager les enseignements tir&eacute;s relatifs
+                                aux d&eacute;marches de{" "}
+                                <strong> r&eacute;paration</strong> et/ou
+                                &eacute;laborer des strat&eacute;gies de
+                                r&eacute;paration collaboratives pour des
+                                fournisseurs communs.
+                            </li>
+                            <li>
+                                &Eacute;tudier les moyens de collaboration pour
+                                r&eacute;gler les{" "}
+                                <strong>causes profondes</strong> des violations
+                                des droits du travail.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <h2>
+                    R&ocirc;le des organismes du gouvernement dans les
+                    syst&egrave;mes de conformit&eacute; sociale
+                </h2>
                 <p>
-                    Les activit&eacute;s suivantes constituent les pires formes
-                    de travail des enfants et devraient &ecirc;tre interdites
-                    &agrave; tout enfant de moins de 18&nbsp;ans:
-                </p>
-                <ol type="a">
-                    <li>
-                        Toutes les formes d&apos;esclavage ou pratiques
-                        analogues, telles que la vente et la traite des enfants,
-                        la servitude pour dettes et le servage ainsi que le
-                        travail forc&eacute; ou obligatoire, y compris le
-                        recrutement forc&eacute; ou obligatoire des enfants en
-                        vue de leur utilisation dans des conflits arm&eacute;s ;
-                    </li>
-                    <li>
-                        L&apos;utilisation, le recrutement ou l&apos;offre
-                        d&apos;un enfant &agrave; des fins de prostitution, de
-                        production de mat&eacute;riel pornographique ou de
-                        spectacles pornographiques ;
-                    </li>
-                    <li>
-                        L&apos;utilisation, le recrutement ou l&apos;offre
-                        d&apos;un enfant aux fins d&apos;activit&eacute;s
-                        illicites, notamment pour la production et le trafic de
-                        stup&eacute;fiants, tels que les d&eacute;finissent les
-                        trait&eacute;s internationaux pertinents ; et
-                    </li>
-                    <li>
-                        Des travaux qui, par leur nature ou les conditions dans
-                        lesquelles ils s&apos;exercent, sont susceptibles de
-                        nuire &agrave; la sant&eacute;, &agrave; la
-                        s&eacute;curit&eacute; ou &agrave; la moralit&eacute; de
-                        l&apos;enfant.
-                    </li>
-                </ol>
-                <p>
-                    Source: Article 3 de la{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
-                        title="Convention 182 de l&rsquo;OIT"
-                    >
-                        convention 182 de l&rsquo;OIT
-                    </a>
-                    .
-                </p>
-                <h3>Travaux dangereux pour les enfants</h3>
-                <p>
-                    Selon l&rsquo;Article&nbsp;3(d) de la la convention n
-                    <sup>o</sup>&nbsp;182 de l&apos;OIT, les travaux dangereux
-                    «&nbsp;doivent &ecirc;tre d&eacute;termin&eacute;s par la
-                    l&eacute;gislation nationale ou l&apos;autorit&eacute;
-                    comp&eacute;tente, apr&egrave;s consultation des
-                    organisations d&apos;employeurs et de travailleurs
-                    int&eacute;ress&eacute;es, en prenant en
-                    consid&eacute;ration les normes internationales
-                    pertinentes&hellip;&nbsp;» [convention&nbsp;182 de
-                    l&rsquo;OIT, Article&nbsp;4]. Comme l&apos;indique ce texte,
-                    les formes de travail identifi&eacute;es comme &eacute;tant
-                    «&nbsp;dangereuses » pour les enfants [article 3 (d)]
-                    peuvent diff&eacute;rer selon les pays.&nbsp;Les pays
-                    &eacute;laborent leurs propres listes de travaux dangereux
-                    interdits &agrave; l&rsquo;ensemble des enfants de moins de
-                    18&nbsp;ans. La recommandation n<sup>o</sup>
-                    &nbsp;190 de l&apos;OIT en annexe de la convention n
-                    <sup>o</sup>
-                    &nbsp;182 de l&apos;OIT offre des recommandations
-                    suppl&eacute;mentaires ayant trait aux «&nbsp;travaux
-                    dangereux&nbsp;». La recommandation n<sup>o</sup>&nbsp;190
-                    de l&apos;OIT pr&eacute;cise &agrave; la section II,
-                    paragraphe 3: «&nbsp;En d&eacute;terminant les types
-                    de travail vis&eacute;s &agrave; l&apos;article 3 (d) de la
-                    convention [n
-                    <sup>o</sup>&nbsp;182 de l&apos;OIT] et leur localisation,
-                    il faudrait, entre autres, prendre en
-                    consid&eacute;ration:
-                </p>
-                <ol type="a">
-                    <li>
-                        les travaux qui exposent les enfants &agrave; des
-                        s&eacute;vices physiques, psychologiques ou sexuels ;
-                    </li>
-                    <li>
-                        les travaux qui s&apos;effectuent sous terre, sous
-                        l&apos;eau, &agrave; des hauteurs dangereuses ou dans
-                        des espaces confin&eacute;s ;
-                    </li>
-                    <li>
-                        les travaux qui s&apos;effectuent avec des machines, du
-                        mat&eacute;riel ou des outils dangereux, ou qui
-                        impliquent de manipuler ou de porter de lourdes charges
-                        ;
-                    </li>
-                    <li>
-                        les travaux qui s&apos;effectuent dans un milieu malsain
-                        pouvant, par exemple, exposer des enfants &agrave; des
-                        substances, des agents ou des proc&eacute;d&eacute;s
-                        dangereux, ou &agrave; des conditions de
-                        temp&eacute;rature, de bruit ou de vibrations
-                        pr&eacute;judiciables &agrave; leur sant&eacute; ;
-                    </li>
-                    <li>
-                        les travaux qui s&apos;effectuent dans des conditions
-                        particuli&egrave;rement difficiles, par exemple pendant
-                        de longues heures, ou la nuit, ou pour lesquels
-                        l&apos;enfant est retenu de mani&egrave;re
-                        injustifi&eacute;e dans les locaux de l&apos;employeur.
-                        »
-                    </li>
-                </ol>
-                <h2>Travail forc&eacute;/traite des personnes</h2>
-                <p>
-                    Tous les codes de conduite devraient comprendre des
-                    dispositions interdisant le travail forc&eacute; et la
-                    traite des personnes. Ces deux ph&eacute;nom&egrave;nes sont
-                    &eacute;troitement li&eacute;s et, dans certains cas, se
-                    produisent simultan&eacute;ment, d&rsquo;o&ugrave; le fait
-                    qu&rsquo;ils soient souvent r&eacute;unis en une seule et
-                    m&ecirc;me cat&eacute;gorie d&rsquo;un code de conduite.
+                    Les gouvernements ont une obligation de protection des
+                    droits de l&apos;homme des personnes se trouvant sur leur
+                    territoire et/ou relevant de leur juridiction. Cette
+                    obligation comprend notamment l&apos;obligation de
+                    protection contre des violations des droits de l&apos;homme
+                    et des droits du travail perp&eacute;tr&eacute;es par des
+                    tierces parties, y compris les entreprises. Il leur incombe
+                    de d&eacute;finir clairement que toutes les entreprises
+                    commerciales domicili&eacute;es sur le territoire et
+                    relevant de leur juridiction sont tenues de respecter les
+                    droits de l&apos;homme dans toutes leurs op&eacute;rations.
                 </p>
                 <p>
-                    Dans{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_099625/lang--en/index.htm"
-                        title="Combattre le travail forc&eacute;: Manuel pour les employeurs et le secteur priv&eacute;&nbsp;&ndash; Brochure 3"
-                    >
-                        <em>
-                            Combattre le travail forc&eacute;: Manuel pour
-                            les employeurs et le secteur priv&eacute; - Brochure
-                            3
-                        </em>
-                    </a>
-                    <em>, </em> l&apos;OIT pr&eacute;sente des principes
-                    directeurs sur les normes relatives au travail forc&eacute;
-                    que les entreprises devraient envisager d&rsquo;inclure dans
-                    leurs codes. Les{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://business-humanrights.org/en/pdf-athens-ethical-principles"
-                        title="Principes &eacute;thiques d&rsquo;Ath&egrave;nes"
-                    >
-                        Principes &eacute;thiques d&rsquo;Ath&egrave;nes
-                    </a>
-                    , ensemble de sept principes de lutte contre la traite
-                    vis-&agrave;-vis desquels les soci&eacute;t&eacute;s peuvent
-                    volontairement s&rsquo;engager et ses{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://fpbb.pl/user_upload/static/file/Luxor_Implementation_Guidelines_Ethical_Principles.pdf"
-                        title="Directives d&rsquo;application de Louxor"
-                    >
-                        directives d&rsquo;application de Louxor
-                    </a>{" "}
-                    en annexe, qui peuvent aider les entreprises &agrave;
-                    incorporer des dispositions en mati&egrave;re de lutte
-                    contre la traite dans leurs codes, les{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.iccr.org/sites/default/files/resources_attachments/2013ICCR_HTPrinciplesFINAL112013.pdf"
-                        title="D&eacute;clarations de principes et pratiques recommand&eacute;es en mati&egrave;re de lutte contre la traite des personnes et l&rsquo;esclavage moderne"
-                    >
-                        d&eacute;clarations de principes et pratiques
-                        recommand&eacute;es en mati&egrave;re de lutte contre la
-                        traite des personnes et l&rsquo;esclavage moderne
-                    </a>{" "}
-                    [en anglais] de l&rsquo;
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.iccr.org/"
-                        title="Interfaith Center on Corporate Responsibility (ICCR)"
-                    >
-                        Interfaith Center on Corporate Responsibility (ICCR)
-                    </a>{" "}
-                    et les{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.americanbar.org/content/dam/aba/administrative/business_law/aba_model_policies.authcheckdam.pdf"
-                        title="Politiques mod&egrave;les pour les entreprises et les fournisseurs relatives &agrave; la traite &agrave; des fins d&rsquo;exploitation dans le travail et au travail des enfants"
-                    >
-                        politiques mod&egrave;les pour les entreprises et les
-                        fournisseurs relatives &agrave; la traite &agrave; des
-                        fins d&rsquo;exploitation dans le travail et au travail
-                        des enfants
-                    </a>{" "}
-                    du barreau am&eacute;ricain (ABA) [en anglais
-                    &eacute;galement] sont autant d&rsquo;autres ressources
-                    utiles sur les politiques et normes &agrave; ce sujet.
+                    En remplissant ces obligations, les gouvernements devraient,
+                    notamment, adopter et faire appliquer des lois qui exigent
+                    que les entreprises respectent les droits de l&apos;homme et
+                    s&apos;assurer que les lois et les politiques qui
+                    r&eacute;gissent la cr&eacute;ation d&apos;entreprises et
+                    l&apos;exploitation d&apos;entreprises existantes
+                    n&apos;entravent pas leur respect des droits de
+                    l&apos;homme.
                 </p>
                 <p>
-                    Ces derni&egrave;res ann&eacute;es, les entreprises
-                    comprenant mieux la nature du travail forc&eacute; et des
-                    formes qu&rsquo;il rev&ecirc;t au sein des cha&icirc;nes
-                    d&rsquo;approvisionnement, elles ont commenc&eacute;
-                    &agrave; int&eacute;grer de nouvelles dispositions dans
-                    leurs codes de conduite, avec par exemple des interdictions
-                    relatives au paiement de commissions de recrutement par les
-                    travailleurs concern&eacute;s, et l&rsquo;obligation pour
-                    les fournisseurs d&rsquo;embaucher ou d&rsquo;employer
-                    directement les travailleurs. Un document de politique
-                    publi&eacute; en&nbsp;2016 par Hewlett Packard Enterprise*
-                    explique les raisons, bas&eacute;es sur des risques, pour
-                    lesquelles la soci&eacute;t&eacute; a d&eacute;cid&eacute;
-                    de passer &agrave; une politique d&rsquo;«&nbsp;emploi
-                    direct&nbsp;».
+                    Les entreprises peuvent adopter une d&eacute;marche
+                    proactive de participation avec les organismes publics tant
+                    aux &Eacute;tats-Unis qu&rsquo;&agrave;
+                    l&rsquo;&eacute;tranger pour rehausser leurs syst&egrave;mes
+                    de conformit&eacute; sociale. Ces participations peuvent
+                    inclure diff&eacute;rentes mesures, notamment:
                 </p>
-                <OwnWords>
-                    <h3>
-                        <OwnWords.Icon alt="Feedback"/>{" "}
-                        <strong>Dans leurs propres mots</strong>&nbsp;{": "}
-                    </h3>
+                <div className="indent-margin">
                     <p>
-                        <strong>Transition vers l&rsquo;emploi direct</strong>
+                        Encourager les pouvoirs publics &agrave; recueillir et
+                        &agrave; publier des donn&eacute;es sur le travail des
+                        enfants, le travail forc&eacute; et d&rsquo;autres
+                        questions utiles &agrave; l&apos;
+                        <strong>&eacute;valuation des risques</strong>.
                     </p>
                     <p>
-                        «&nbsp;Les recherches ind&eacute;pendantes et les
-                        r&eacute;sultats des audits montrent que les
-                        travailleurs migrants &eacute;trangers employ&eacute;s
-                        par le biais de relations d&rsquo;emploi
-                        externalis&eacute;es se r&eacute;v&egrave;lent souvent
-                        &ecirc;tre plus vuln&eacute;rables &agrave;
-                        l&rsquo;exploitation que ceux employ&eacute;s
-                        directement par les fournisseurs. Si beaucoup de
-                        fournisseurs font d&rsquo;importants efforts pour
-                        surveiller les agents de recrutement qui emploient et
-                        dirigent leurs travailleurs, nombreuses sont les
-                        violations qui restent difficiles &agrave;
-                        d&eacute;tecter et &agrave; r&eacute;gler. Tant que les
-                        syst&egrave;mes des agents de recrutement dans les pays
-                        d&rsquo;origine et de destination ne passeront pas par
-                        une vaste r&eacute;forme structurelle, nous pensons que
-                        l&rsquo;emploi direct par les fournisseurs est
-                        n&eacute;cessaires pour apporter de plus grandes
-                        protections aux travailleurs migrants &eacute;trangers.
+                        Renforcer les voies de <strong>communication</strong>{" "}
+                        pour permettre aux entreprises de signaler aux
+                        autorit&eacute;s les abus, ce qui aboutira &agrave; des
+                        r&eacute;parations v&eacute;ritables pour les victimes.
                     </p>
                     <p>
-                        Cela signifie que pour les fournisseurs d&rsquo;HP, tous
-                        les travailleurs migrants &eacute;trangers doivent
-                        &ecirc;tre employ&eacute;s et
-                        r&eacute;mun&eacute;r&eacute;s directement par le
-                        fournisseur et non par des agents, sous-agents ou
-                        parties tierces. &Eacute;tant donn&eacute; que de
-                        nombreux fournisseurs d&eacute;pendent au moins en
-                        partie d&rsquo;agents de recrutement pour g&eacute;rer
-                        la direction sur le terrain des travailleurs migrants
-                        &eacute;trangers, une p&eacute;riode de transition sera
-                        n&eacute;cessaire pour faire passer l&rsquo;ensemble des
-                        travailleurs migrants &eacute;trangers,
-                        d&eacute;j&agrave; embauch&eacute;s ou nouvellement
-                        recrut&eacute;s, &agrave; l&rsquo;emploi direct.&nbsp;»
+                        Relier les fonctions d&apos;<strong>audit</strong> et/ou
+                        de <strong>contr&ocirc;le ind&eacute;pendant</strong> de
+                        l&rsquo;entreprise et celles des forces publiques de
+                        l&apos;ordre, le cas &eacute;ch&eacute;ant.
                     </p>
                     <p>
-                        Hewlett Packard Enterprise*,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www8.hp.com/h20195/v2/GetPDF.aspx/c05116077.pdf"
-                            title="Document d&rsquo;orientation normalis&eacute;e concernant les travailleurs migrants &eacute;trangers au sein des cha&icirc;nes d&rsquo;approvisionnement de la soci&eacute;t&eacute; Hewlett Packard"
-                        >
-                            <em>
-                                Document d&rsquo;orientation normalis&eacute;e
-                                concernant les travailleurs migrants
-                                &eacute;trangers au sein des cha&icirc;nes
-                                d&rsquo;approvisionnement de la
-                                soci&eacute;t&eacute; Hewlett Packard,
-                            </em>
-                        </a>{" "}
-                        [en anglais] 27&nbsp;avril 2016
+                        Collaborer avec les gouvernements &agrave;
+                        l&apos;identification de moyens de r&eacute;gler les{" "}
+                        <strong>causes profondes</strong> du travail des enfants
+                        et du travail forc&eacute;.
                     </p>
-                </OwnWords>
-                <p>
-                    L&rsquo;
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.responsiblesourcingtool.org/"
-                        title="Outil d&rsquo;approvisionnement responsable"
-                    >
-                        Outil d&rsquo;approvisionnement responsable
-                    </a>{" "}
-                    (RST) constitue une ressource essentielle pour
-                    l&rsquo;&eacute;laboration de dispositions
-                    sp&eacute;cifiques d&rsquo;un code de conduite visant
-                    &agrave; pr&eacute;venir le travail forc&eacute; dans les
-                    cha&icirc;nes d&rsquo;approvisionnement au niveau
-                    international. Lanc&eacute; en&nbsp;2016 par{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.verite.org/"
-                        title="Verit&eacute;"
-                    >
-                        Verit&eacute;
-                    </a>{" "}
-                    et le d&eacute;partement d&apos;&Eacute;tat des
-                    &Eacute;tats-Unis, il fournit un ensemble de ressources pour
-                    la conformit&eacute; et d&rsquo;outils de gestion des
-                    risques aux soci&eacute;t&eacute;s, contractuels
-                    f&eacute;d&eacute;raux, professionnels de
-                    l&rsquo;approvisionnement et de la passation de
-                    march&eacute;s, d&eacute;fenseurs, investisseurs,
-                    consommateurs et autres parties prenantes qui souhaitent
-                    identifier, pr&eacute;venir et traiter les cas de travail
-                    forc&eacute; au sein des cha&icirc;nes
-                    d&rsquo;approvisionnement. L&rsquo;outil&nbsp;1,{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.responsiblesourcingtool.org/codeofconduct"
-                        title="Exemples de dispositions de code de conduite"
-                    >
-                        Exemples de dispositions de code de conduite
-                    </a>
-                    , comprend des dispositions relatives au travail
-                    forc&eacute; qui peuvent &ecirc;tre incorpor&eacute;es dans
-                    le code de conduite d&rsquo;une entreprise ou d&rsquo;un
-                    secteur. Le RST contient &eacute;galement d&rsquo;autres
-                    outils concernant le recrutement responsable de la main
-                    d&apos;&oelig;uvre, notamment l&rsquo;outil&nbsp;3,{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.responsiblesourcingtool.org/laborrecruitments"
-                        title="Crit&egrave;res de s&eacute;lection et d&rsquo;&eacute;valuation de candidats au recrutement de la main d'&oelig;uvre"
-                    >
-                        Crit&egrave;res de s&eacute;lection et
-                        d&rsquo;&eacute;valuation de candidats au recrutement de
-                        la main d&apos;&oelig;uvre
-                    </a>
-                    , qui aide les entreprises &agrave; faire preuve de
-                    diligence raisonnable dans le cadre du processus de
-                    s&eacute;lection des recruteurs de main d&apos;&oelig;uvre
-                    afin de minimiser le risque de traite des personnes d&ucirc;
-                    &agrave; des pratiques de recrutement frauduleuses ou
-                    trompeuses.
-                </p>
-                <ExampleInAction id="rst1">
+                </div>
+                <ExampleInAction id="engagement_gov_brazil">
                     <h3>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Exemple d&apos;action:{" "}
-                            <span>
-                                Outil d&rsquo;approvisionnement
-                                responsable&nbsp;1
-                            </span>
+                            Exemple d&apos;action: Dialogue participatif
+                            avec les pouvoirs publics
                         </strong>
                     </h3>
-                    <VeriteFlagWrapper>
-                        <UsFlag src={usFlag} alt="US Flag" />
-                        <Verite src={verite} alt="Verite sign" />
-                    </VeriteFlagWrapper>
-                    <p style={{ color: "black" }}>
+                    <p>
                         <strong>
-                            PROTECTIONS CONTRE LA TRAITE DES PERSONNES
-                        </strong>
-                    </p>
-                    <p style={{ color: "black" }}>
-                        <strong>
-                            Exemples de dispositions de code de conduite
+                            «&nbsp;Liste sale&nbsp;» du Br&eacute;sil et
+                            Institut du pacte national pour
+                            l&rsquo;&eacute;radication du travail en servitude
                         </strong>
                     </p>
                     <p>
-                        Le code de conduite d&rsquo;une cha&icirc;ne
-                        d&rsquo;approvisionnement met en place les attentes de
-                        base en mati&egrave;re de r&eacute;sultats pour les
-                        sous-traitants, les fournisseurs et les agents. Il est
-                        important pour la politique d&rsquo;approvisionnement ou
-                        le code de conduite d&rsquo;une soci&eacute;t&eacute;
-                        d&rsquo;interdire explicitement la traite des personnes
-                        et de d&eacute;finir les protections
-                        r&eacute;serv&eacute;es aux travailleurs. Les exemples
-                        de dispositions ci-dessous peuvent servir &agrave; toute
-                        soci&eacute;t&eacute;, y compris les contractuels
-                        f&eacute;d&eacute;raux et leurs sous-traitants, au cours
-                        de leur r&eacute;flexion sur la meilleure mani&egrave;re
-                        de cr&eacute;er, renforcer ou r&eacute;viser leurs
-                        propres politiques de cha&icirc;nes
-                        d&rsquo;approvisionnement.
+                        Le gouvernement br&eacute;silien publie un registre des
+                        employeurs <em>(</em>
+                        <em>cadastro de empregadores),</em> &eacute;galement
+                        connu sous le nom de Liste sale (<em>lista suja</em>),
+                        r&eacute;pertoriant des personnes qualifi&eacute;es par
+                        les inspecteurs de l&rsquo;administration publique comme
+                        assujettissant les travailleurs &agrave; des
+                        «&nbsp;conditions semblables &agrave;
+                        l&rsquo;esclavage&nbsp;». Les employeurs peuvent
+                        accepter une injonction du tribunal ou une adaptation
+                        des r&egrave;gles du comportement qui exige qu&rsquo;ils
+                        r&egrave;glent tous les salaires dus aux travailleurs et
+                        adoptent des mesures de pr&eacute;vention, faute de quoi
+                        leur nom est ajout&eacute; &agrave; la liste. Les
+                        entreprises qui y figurent sont interdites de
+                        cr&eacute;dit aupr&egrave;s des banques
+                        d&apos;&Eacute;tat et peuvent se le voir refuser par
+                        certaines banques priv&eacute;es. Les contrevenants
+                        restent sur la liste pendant deux ans et n&rsquo;en sont
+                        retir&eacute;s que s&apos;ils ont cess&eacute;
+                        d&apos;avoir recours au travail forc&eacute; et ont
+                        pay&eacute; tous les salaires dus aux travailleurs.
+                        Toutes les donn&eacute;es d&apos;inspection du travail
+                        des pouvoirs publics sont &agrave; la disposition du
+                        public.
                     </p>
                     <p>
-                        L&rsquo;exemple de dispositions de code traite les
-                        facteurs «&nbsp;habilitants&nbsp;» ou qui contribuent
-                        aux situations ou aux risques de traite des personnes,
-                        mais son objectif n&rsquo;est pas d&rsquo;assurer la
-                        conformit&eacute; &agrave; des exigences juridiques
-                        sp&eacute;cifiques comme la R&eacute;glementation sur
-                        les acquisitions f&eacute;d&eacute;rales (FAR). Les
-                        exigences sp&eacute;cifiques en mati&egrave;re de
-                        conformit&eacute; devraient &ecirc;tre
-                        d&eacute;taill&eacute;es dans les modalit&eacute;s des
-                        contrats pass&eacute;s avec les sous-traitants, les
-                        fournisseurs et les agents.
+                        &Agrave; la Liste sale s&rsquo;ajoutent les efforts
+                        d&rsquo;une ONG, l&rsquo;Institut du pacte national pour
+                        l&rsquo;&eacute;radication du travail en servitude
+                        (InPACTO). InPACTO fait participer le secteur
+                        priv&eacute;, des organisations de la
+                        soci&eacute;t&eacute; civile, des organisations
+                        multilat&eacute;rales et des organismes publics pour
+                        pr&eacute;venir et &eacute;radiquer le travail
+                        forc&eacute; dans les cha&icirc;nes
+                        d&rsquo;approvisionnement. Les entreprises ou les
+                        associations commerciales qui deviennent membres
+                        d&rsquo;InPACTO s&apos;engagent notamment &agrave;
+                        rompre leurs relations commerciales avec les personnes
+                        ou les entreprises figurant sur la Liste sale, &agrave;
+                        surveiller leurs cha&icirc;nes d&apos;approvisionnement,
+                        &agrave; donner une formation relative au travail
+                        forc&eacute; aux employ&eacute;s et aux fournisseurs et
+                        &agrave; appuyer les programmes de r&eacute;insertion
+                        sociale pour les travailleurs affranchis du travail
+                        forc&eacute;. InPACTO compte plus de 40&nbsp;entreprises
+                        et 6&nbsp;associations commerciales membres.
                     </p>
                     <p>
-                        <strong>TRAITE DES PERSONNES</strong>: La
-                        soci&eacute;t&eacute; interdit formellement la traite
-                        des personnes dans toutes ses op&eacute;rations et
-                        celles de tous les sous-traitants, fournisseurs et
-                        agents de sa cha&icirc;ne d&rsquo;approvisionnement
-                        internationale. Les travailleurs ne seront assujettis
-                        &agrave; aucune forme de travail forc&eacute;,
-                        obligatoire, en servitude ou pour dette de quelque
-                        nature que ce soit. Tout travail devra &ecirc;tre
-                        volontaire et les travailleurs auront la libert&eacute;
-                        de mettre un terme &agrave; leur emploi &agrave; tout
-                        moment sans p&eacute;nalit&eacute; et avec un
-                        pr&eacute;avis raisonnable.&nbsp;
-                    </p>
-                    <p>
-                        <strong>FRAIS DE RECRUTEMENT ET DE TRANSPORT</strong>
-                       : Les travailleurs ne se verront pas facturer,
-                        directement ou indirectement, de commissions ou
-                        co&ucirc;ts de recrutement en tout ou partie, notamment
-                        les frais li&eacute;s au d&eacute;placement
-                        jusqu&rsquo;au pays de destination, ou de traitement de
-                        documents professionnels officiels et de visas de
-                        travail dans les pays d&rsquo;origine et de destination.
-                        Au terme de leur contrat de travail, les travailleurs
-                        recevront un moyen de transport pour rentrer dans leur
-                        pays d&rsquo;origine ou une compensation pour le
-                        co&ucirc;t de ce transport.
-                    </p>
-                    <p>
-                        <strong>CONTRATS DE TRAVAIL</strong>: Des contrats
-                        de travail &eacute;crits seront remis aux travailleurs
-                        migrants dans leur langue maternelle, indiquant
-                        clairement leurs droits et responsabilit&eacute;s, ainsi
-                        que leurs conditions d&rsquo;emploi, notamment leurs
-                        salaires, avantages sociaux, heures et lieux de travail,
-                        conditions d&rsquo;existence, logement et co&ucirc;ts
-                        associ&eacute;s, dangers professionnels et autres
-                        conditions de travail et d&rsquo;emploi.
-                    </p>
-                    <p>
-                        Les travailleurs migrants se verront remettre un
-                        exemplaire de leur contrat de travail dans leur langue
-                        maternelle au moins cinq jours avant le d&eacute;but de
-                        leur emploi. Les travailleurs qui ont du mal &agrave;
-                        comprendre le contrat &eacute;crit se verront expliquer
-                        oralement les modalit&eacute;s du contrat.
-                    </p>
-                    <p>
-                        Le remplacement du contrat, ou la mise en place par
-                        l&rsquo;employeur d&rsquo;accords compl&eacute;mentaires
-                        visant &agrave; remplacer un contrat original ou
-                        l&rsquo;une de ses dispositions quelle qu&rsquo;elle
-                        soit, par un nouveau contrat ou de nouvelles
-                        modalit&eacute;s moins favorables pour le travailleur
-                        sont strictement interdits. Le pr&eacute;avis
-                        exig&eacute; des travailleurs pour mettre fin &agrave;
-                        leurs contrats de mani&egrave;re anticip&eacute;e
-                        n&rsquo;exc&egrave;dera pas un mois, et une fois
-                        l&rsquo;emploi commenc&eacute;, les travailleurs
-                        migrants ne pourront pas &ecirc;tre
-                        p&eacute;nalis&eacute;s en cas de r&eacute;siliation
-                        anticip&eacute;e de leur contrat de travail si le
-                        pr&eacute;avis exig&eacute; est respect&eacute;.
-                    </p>
-                    <p>
-                        Le pr&eacute;avis n&rsquo;aura pas lieu de
-                        s&rsquo;appliquer si le travailleur a &eacute;t&eacute;
-                        victime de harc&egrave;lement, de violations ou de la
-                        traite des personnes. Dans de telles situations,
-                        l&rsquo;employeur sera &eacute;galement responsable des
-                        frais de transport de retour de la victime.
-                    </p>
-                    <p>
-                        <strong>
-                            R&Eacute;TENTION DE DOCUMENTS PERSONNELS
-                        </strong>
-                       : Il est strictement interdit de confisquer,
-                        d&eacute;truire ou conserver les pi&egrave;ces
-                        d&rsquo;identit&eacute; ou les documents
-                        d&rsquo;immigration d&rsquo;un travailleur ou de lui
-                        refuser de toute autre mani&egrave;re que ce soit
-                        d&rsquo;y avoir acc&egrave;s, notamment les permis de
-                        travail et les documents de voyage (p. ex. passeports).{" "}
-                    </p>
-                    <p>
-                        Les travailleurs doivent avoir &agrave; leur disposition
-                        des installations individuelles s&ucirc;res et
-                        verrouillables pour y ranger leurs pi&egrave;ces
-                        d&rsquo;identit&eacute; et d&rsquo;autres objets de
-                        valeur auxquelles ils doivent pouvoir avoir acc&egrave;s
-                        &agrave; tout moment.
-                    </p>
-                    <p>
-                        <strong>CAUTIONS</strong>: Les travailleurs
-                        migrants ne se verront pas oblig&eacute;s de
-                        d&eacute;poser des arrhes ou des cautions de garantie ou
-                        de voir une partie de leur paie retenue &agrave; quelque
-                        moment que ce soit comme condition d&rsquo;obtention ou
-                        de r&eacute;tention d&rsquo;un emploi.
-                    </p>
-                    <p>
-                        <strong>TRAITEMENT INHUMAIN</strong>: Le lieu de
-                        travail ne sera pas sujet &agrave; des traitements durs
-                        ou inhumains de quelque forme que ce soit. Les
-                        politiques et proc&eacute;dures disciplinaires seront
-                        clairement d&eacute;finies et communiqu&eacute;es
-                        &agrave; l&rsquo;ensemble des travailleurs et ne
-                        comprendront pas de mesures disciplinaires inhumaines
-                        telles que des punitions physiques, des mesures de
-                        coercition mentale ou physique ou des violences verbales
-                        &agrave; l&rsquo;encontre des travailleurs.
-                        L&rsquo;usage ou la menace de violences physiques ou
-                        sexuelles, le harc&egrave;lement et les mesures
-                        d&rsquo;intimidation &agrave; l&rsquo;encontre
-                        d&rsquo;un travailleur ou d&rsquo;une travailleuse, de
-                        sa famille ou de ses proches associ&eacute;s sont
-                        strictement interdits. Les proc&eacute;dures
-                        disciplinaires ne comprendront pas de sanctions
-                        entra&icirc;nant des d&eacute;ductions de salaire, des
-                        r&eacute;ductions des avantages sociaux ou du travail
-                        forc&eacute;.
-                    </p>
-                    <p>
-                        <strong>
-                            &Eacute;GALIT&Eacute; SUR LE LIEU DE TRAVAIL
-                        </strong>
-                       : Tous les travailleurs, quels que soient leur
-                        nationalit&eacute; ou leur statut juridique, seront
-                        trait&eacute;s de fa&ccedil;on juste et
-                        &eacute;quitable. Les travailleurs migrants jouiront de
-                        conditions de travail non moins favorables que les
-                        ressortissants du pays (y compris mais sans s&rsquo;y
-                        limiter en mati&egrave;re de salaire, d&rsquo;avantage
-                        sociaux et d&rsquo;h&eacute;bergement). Les travailleurs
-                        migrants (ou les membres de leurs familles) ne se
-                        verront pas menac&eacute;s de d&eacute;nonciation aux
-                        autorit&eacute;s dans le but de les forcer &agrave;
-                        accepter ou &agrave; conserver un emploi.
-                    </p>
-                    <p>
-                        <strong>SALAIRES ET AVANTAGES</strong>: Tous les
-                        travailleurs recevront au minimum le salaire minimum
-                        requis par la l&eacute;gislation applicable, ainsi que
-                        tous les avantages sociaux exig&eacute;s par la loi. Le
-                        versement des salaires sera effectu&eacute; &agrave;
-                        intervalles r&eacute;guliers et directement aux
-                        travailleurs, conform&eacute;ment &agrave; la
-                        l&eacute;gislation applicable, le cas
-                        &eacute;ch&eacute;ant, et ne sera pas retard&eacute;,
-                        report&eacute; ou retenu.
-                    </p>
-                    <p>
-                        Seuls sont permis les d&eacute;ductions, les avances et
-                        les pr&ecirc;ts autoris&eacute;s par la
-                        l&eacute;gislation nationale; le cas
-                        &eacute;ch&eacute;ant, ils ne seront effectu&eacute;s
-                        qu&rsquo;avec le consentement &eacute;clair&eacute;
-                        plein et entier des travailleurs. Lors de leur embauche,
-                        les travailleurs recevront des informations sur leurs
-                        heures de travail, leur taux de
-                        r&eacute;mun&eacute;ration et le calcul des
-                        d&eacute;ductions l&eacute;gales.
-                    </p>
-                    <p>
-                        Tous les travailleurs doivent conserver le
-                        contr&ocirc;le plein et entier de leurs revenus. Il ne
-                        sera pas fait usage de d&eacute;ductions de salaires
-                        pour maintenir les travailleurs li&eacute;s &agrave;
-                        leur employeur ou leur emploi. Les travailleurs ne
-                        seront pas retenus en servitude pour dette ou assujettis
-                        au travail forc&eacute; pour rembourser une dette. Toute
-                        tromperie en mati&egrave;re de salaire, de paiement,
-                        d&rsquo;avance et de pr&ecirc;t est interdite.
-                    </p>
-                    <p>
-                        <strong>HEURES DE TRAVAIL</strong>: Les
-                        travailleurs ne seront pas forc&eacute;s de travailler
-                        au-del&agrave; du nombre d&rsquo;heures permis par la
-                        l&eacute;gislation nationale. Lorsque la loi est muette,
-                        les heures de travail normales ne d&eacute;passeront pas
-                        huit heures par jour et 48&nbsp;heures par semaine, et
-                        le nombre d&rsquo;heures total avec les heures
-                        suppl&eacute;mentaires ne d&eacute;passera pas
-                        60&nbsp;heures.
-                    </p>
-                    <p>
-                        Toute heure suppl&eacute;mentaire sera exclusivement
-                        volontaire, sauf dans le cadre d&rsquo;une convention
-                        collective reconnue par la loi. Aucun travailleur ne
-                        sera verra forc&eacute; de faire des heures
-                        suppl&eacute;mentaires sous la menace d&rsquo;une
-                        p&eacute;nalit&eacute;, d&rsquo;un licenciement ou
-                        d&rsquo;une d&eacute;nonciation aux autorit&eacute;s.
-                        Aucun travailleur ne se verra forc&eacute; de faire des
-                        heures suppl&eacute;mentaires comme mesure disciplinaire
-                        ou pour non-respect des quotas de production.
-                    </p>
-                    <p>
-                        <strong>
-                            LIBERT&Eacute; DE CIRCULATION ET LIBERT&Eacute;
-                            INDIVIDUELLE
-                        </strong>
-                       : Les travailleurs auront un acc&egrave;s non
-                        restreint aux n&eacute;cessit&eacute;s de base telles
-                        que de l&rsquo;eau potable et des toilettes propres
-                        pendant les heures tant ouvr&eacute;es que non
-                        ouvr&eacute;es sur le lieu de travail ou dans les
-                        logements fournis ou pr&eacute;par&eacute;s par
-                        l&rsquo;employeur.
-                    </p>
-                    <p>
-                        La libert&eacute; de circulation des travailleurs ne
-                        sera pas ind&ucirc;ment restreinte. Les travailleurs ne
-                        seront pas retenus physiquement sur le lieu de travail
-                        ou dans des locaux annexes tels que des b&acirc;timents
-                        r&eacute;sidentiels op&eacute;r&eacute;s par
-                        l&rsquo;employeur ou le recruteur, et il ne sera pas
-                        fait usage de mesures de coercition pour restreindre la
-                        libert&eacute; de circulation ou la libert&eacute;
-                        individuelle des travailleurs.
-                    </p>
-                    <p>
-                        L&rsquo;h&eacute;bergement obligatoire dans un local
-                        fourni ou pr&eacute;par&eacute; par l&rsquo;employeur ne
-                        constituera pas une condition d&rsquo;emploi, sauf si
-                        cela est exig&eacute; par la loi.
-                    </p>
-                    <p>
-                        <strong>
-                            PROC&Eacute;DURES DE R&Egrave;GLEMENT DES
-                            R&Eacute;CLAMATIONS
-                        </strong>
-                       : Un processus de r&egrave;glement des
-                        r&eacute;clamations efficace et confidentiel sera mis en
-                        place pour s&rsquo;assurer que tout travailleur,
-                        agissant seul ou conjointement avec d&rsquo;autres
-                        travailleurs, pour d&eacute;poser une r&eacute;clamation
-                        sans &ecirc;tre victime de pr&eacute;judice ou de
-                        repr&eacute;sailles de quelque sorte que ce soit. Cette
-                        proc&eacute;dure comprendra une proc&eacute;dure
-                        d&rsquo;appel pour les travailleurs en d&eacute;saccord
-                        avec le r&egrave;glement de la r&eacute;clamation.
-                    </p>
-                    <p>
-                        Les m&eacute;canismes y aff&eacute;rents seront
-                        disponibles dans la langue maternelle du travailleur et
-                        permettront le d&eacute;p&ocirc;t anonyme de
-                        r&eacute;clamations.
-                    </p>
-                    <p>
-                        <strong>
-                            AGENCES D&rsquo;EMPLOI PRIV&Eacute;ES ET RECRUTEURS
-                            DE MAIN D&rsquo;&OElig;UVRE
-                        </strong>
-                       : Dans la mesure du possible, les entreprises
-                        devraient embaucher les travailleurs directement.
-                        Lorsqu&rsquo;il est n&eacute;cessaire de sous-traiter le
-                        processus de recrutement et d&rsquo;embauche, les
-                        entreprises s&rsquo;assureront que les agences
-                        d&rsquo;emploi qu&rsquo;elles engagent fonctionnent en
-                        toute l&eacute;galit&eacute;, qu&rsquo;elles sont
-                        certifi&eacute;es ou agr&eacute;&eacute;es par un
-                        organisme comp&eacute;tent du pays o&ugrave; se
-                        d&eacute;roulent les op&eacute;rations, ne facturent pas
-                        de commissions de recrutement, n&rsquo;utilisent que des
-                        employ&eacute;s form&eacute;s et ne se rendent pas
-                        coupables de pratiques de recrutement frauduleuses qui
-                        mettent les travailleurs en situation de risque de
-                        traite des personnes et d&rsquo;exploitation sexuelle.
-                    </p>
-                    <p>
-                        <strong>
-                            SENSIBILISATION ET FORMATION DES EMPLOY&Eacute;S
-                        </strong>
-                       : Au moment de leur embauche, les travailleurs
-                        doivent &ecirc;tre inform&eacute;s sur leurs droits et
-                        responsabilit&eacute;s, notamment les modalit&eacute;s
-                        et conditions de leur contrat de travail, les
-                        dispositions du pr&eacute;sent code et toutes les lois
-                        et r&eacute;glementations de leur pays d&rsquo;origine,
-                        du pays o&ugrave; le travail s&rsquo;effectue et de tout
-                        autre pays et juridiction contractuel au travail.
-                    </p>
-                    <p>
-                        &Agrave; l&rsquo;arriv&eacute;e dans le pays de
-                        destination, les travailleurs doivent &ecirc;tre
-                        form&eacute;s sur les r&egrave;gles et proc&eacute;dures
-                        de la soci&eacute;t&eacute; sur les lieux de travail, sa
-                        proc&eacute;dure de r&egrave;glement des
-                        r&eacute;clamations, les conditions
-                        d&rsquo;h&eacute;bergement (fourni ou
-                        pr&eacute;par&eacute; par la soci&eacute;t&eacute;) et
-                        les conditions de travail, notamment tout danger en
-                        mati&egrave;re de sant&eacute; et de
-                        s&eacute;curit&eacute; et les pr&eacute;cautions
-                        n&eacute;cessaires pour garantir la
-                        s&eacute;curit&eacute; individuelle. Les travailleurs
-                        doivent se voir informer du fait que la
-                        soci&eacute;t&eacute; interdit tout recrutement &agrave;
-                        des fins d&apos;actes sexuels tarif&eacute;s.
-                    </p>
-                    <p>
-                        <strong>Source: </strong>
+                        Pour plus d&apos;informations, voir le{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.responsiblesourcingtool.org/codeofconduct"
-                            title="Outil&nbsp;1, Exemples de dispositions de code de conduite"
+                            href="http://www.inpacto.org.br/en/"
+                            title="Site Web d&rsquo;InPACTO"
                         >
-                            <strong>
-                                Outil d&rsquo;approvisionnement
-                                responsable&nbsp;1, Exemples de dispositions de
-                                code de conduite
-                            </strong>
-                        </a>
-                        <strong> [en anglais].</strong>
-                    </p>
-                    <p>
-                        <strong>
-                            Voir &eacute;galement Outil
-                            d&rsquo;approvisionnement responsable&nbsp;1A,{" "}
-                        </strong>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.responsiblesourcingtool.org/recruitmentandemployment"
-                            title="Exemples de r&eacute;f&eacute;rences de bonnes pratiques en mati&egrave;re de recrutement et d&rsquo;emploi"
-                        >
-                            <strong>
-                                Exemples de r&eacute;f&eacute;rences de bonnes
-                                pratiques en mati&egrave;re de recrutement et
-                                d&rsquo;emploi
-                            </strong>
+                            site Web
                         </a>{" "}
-                        [en anglais].
-                    </p>
-                    <p>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://responsiblesourcingtool.org/"
-                            title="ResponsibleSourcingTool.org"
-                        >
-                            ResponsibleSourcingTool.org
-                        </a>{" "}
-                        est le fruit d&rsquo;un travail de collaboration entre
-                        le D&eacute;partement d&apos;&Eacute;tat des
-                        &Eacute;tats-Unis,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.verite.org/"
-                            title="Verit&eacute;"
-                        >
-                            Verit&eacute;
-                        </a>
-                        ,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://madeinafreeworld.com/"
-                            title="Made in a Free World"
-                        >
-                            Made in a Free World
-                        </a>{" "}
-                        et l&rsquo;
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.aspeninstitute.org/"
-                            title="Aspen Institute"
-                        >
-                            Aspen Institute
-                        </a>
-                        . Le contenu de RST a &eacute;t&eacute; fourni par
-                        Verit&eacute;, organisation de d&eacute;fense des droits
-                        des travailleurs disposant d&rsquo;une expertise en
-                        mati&egrave;re de conformit&eacute; de la cha&icirc;ne
-                        d&apos;approvisionnement, avec un financement de
-                        l&rsquo;Office charg&eacute; de la surveillance et de la
-                        lutte contre la traite des personnes du
-                        d&eacute;partement d&apos;&Eacute;tat des
-                        &Eacute;tats-Unis en vertu de l&rsquo;accord de
-                        coop&eacute;ration S-SJTIP-13-CA-1029
-                        <strong>.</strong> L&rsquo;&eacute;laboration de RST a
-                        &eacute;t&eacute; inform&eacute;e par des experts issus
-                        de diff&eacute;rents organismes publics des
-                        &Eacute;tats-Unis, notamment les D&eacute;partements
-                        d&apos;&Eacute;tat et du Travail des &Eacute;tats-Unis,
-                        ainsi que d&rsquo;autres parties prenantes de premier
-                        plan, notamment des survivants de la traite, des
-                        dirigeants d&rsquo;entreprises et d&rsquo;ONG et des
-                        responsables des acquisitions et des passations de
-                        march&eacute; au niveau f&eacute;d&eacute;ral.
+                        d&rsquo;InPACTO.
                     </p>
                 </ExampleInAction>
+                <p>
+                    Apr&egrave;s avoir identifi&eacute; vos parties prenantes et
+                    compris les r&ocirc;les potentiels qu&apos;elles peuvent
+                    jouer dans votre syst&egrave;me de conformit&eacute;
+                    sociale, vous pouvez cibler certains groupes pour les amener
+                    &agrave; participer. Pour certaines entreprises, identifier
+                    les groupes-cl&eacute;s de parties prenantes et les amener
+                    &agrave; participer &agrave; des domaines sp&eacute;cifiques
+                    du syst&egrave;me de conformit&eacute; sociale constitue la
+                    fa&ccedil;on la plus utile d&apos;op&eacute;rer des
+                    am&eacute;liorations cibl&eacute;es. C&apos;est
+                    particuli&egrave;rement vrai pour les entreprises qui
+                    poss&egrave;dent d&eacute;j&agrave; quelques
+                    &eacute;l&eacute;ments en place d&apos;un syst&egrave;me de
+                    conformit&eacute; sociale, mais comprennent qu&apos;il reste
+                    des domaines pr&eacute;cis qu&apos;il conviendrait
+                    d&apos;am&eacute;liorer.
+                </p>
+                <p>
+                    Pour d&apos;autres, le «&nbsp;premier pas&nbsp;» le plus
+                    indiqu&eacute; pour mobiliser la participation des parties
+                    prenantes consistera &agrave; &eacute;tablir des liens avec
+                    des initiatives existantes, par exemple des groupes de
+                    plusieurs parties prenantes, des associations ou des
+                    initiatives de l&apos;industrie ou des programmes de
+                    certification &eacute;ventuels qui correspondent aux besoins
+                    et aux objectifs de l&apos;entreprise.
+                </p>
             </div>
         </StaticData>
     );

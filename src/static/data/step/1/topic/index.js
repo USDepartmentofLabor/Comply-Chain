@@ -4,136 +4,152 @@ import { TopicData as Topic3 } from "./3";
 import { TopicData as Topic4 } from "./4";
 import { TopicData as Topic5 } from "./5";
 import { TopicData as Topic6 } from "./6";
+import { TopicData as Topic7 } from "./7";
+import { TopicData as Topic8 } from "./8";
+import { TopicData as Topic9 } from "./9";
 
 export const Topics = {
     en: [
         {
             keywords: [],
-            title: "Why Seek Stakeholder Engagement?",
+            title: "Laws and Regulations",
             content: Topic1.en
         },
         {
             keywords: [],
-            title: "What Can Stakeholders Do?",
+            title: "Evolving voluntary standards and authoritative norms",
             content: Topic2.en
         },
         {
             keywords: [],
-            title: "Engaging Your Stakeholders",
+            title: "Company reputation",
             content: Topic3.en
         },
         {
             keywords: [],
-            title: "Multi-Stakeholder Groups",
+            title: "Marketing and competitiveness",
             content: Topic4.en
         },
         {
             keywords: [],
-            title: "Industry Associations and Initiatives",
+            title: "Civil society and shareholder pressure",
             content: Topic5.en
         },
         {
             keywords: [],
-            title: "Certification Programs",
+            title: "Loan conditionality",
             content: Topic6.en
+        },
+        {
+            keywords: [],
+            title: "Improved supply chain management",
+            content: Topic7.en
+        },
+        {
+            keywords: [],
+            title: "Employee recruitment and retention",
+            content: Topic8.en
+        },
+        {
+            keywords: [],
+            title: "Doing good",
+            content: Topic9.en
         }
     ],
     es: [
         {
             keywords: [],
             title:
-                "¿Por qué buscar la participación de las partes interesadas?",
+                "Leyes y reglamentaciones",
             content: Topic1.es
         },
         {
             keywords: [],
-            title: "¿Qué pueden hacer las partes interesadas?",
+            title: "Evolución de las normas voluntarias y normas autoritarias",
             content: Topic2.es
         },
         {
             keywords: [],
-            title: "Participación de las partes interesadas",
+            title: "Reputación empresarial",
             content: Topic3.es
         },
         {
             keywords: [],
-            title: "Grupos de varias partes interesadas",
+            title: "Comercialización y competitividad",
             content: Topic4.es
         },
         {
             keywords: [],
-            title: "Asociaciones e iniciativas de la industria",
+            title: "La presión de la sociedad civil y las partes interesadas",
             content: Topic5.es
         },
         {
             keywords: [],
-            title: "Programas de certificación",
+            title: "Condicionalidad de los préstamos",
             content: Topic6.es
+        },
+        {
+            keywords: [],
+            title: "Mejoramiento de la gestión de la cadena de suministro",
+            content: Topic7.es
+        },
+        {
+            keywords: [],
+            title: "Contratación y retención de empleados",
+            content: Topic8.es
+        },
+        {
+            keywords: [],
+            title: "Hacer el bien",
+            content: Topic9.es
         }
     ],
     fr: [
         {
             keywords: [],
             title:
-                "Pourquoi rechercher la participation des parties prenantes?",
+                "Lois et réglementations",
             content: Topic1.fr
         },
         {
             keywords: [],
-            title: "Que peuvent faire les parties prenantes?",
+            title: "Évolution des normes volontaires et faisant autorité",
             content: Topic2.fr
         },
         {
             keywords: [],
-            title: "Faire participer vos parties prenantes",
+            title: "Réputation de l'entreprise",
             content: Topic3.fr
         },
         {
             keywords: [],
-            title: "Groupes de plusieurs parties prenantes",
+            title: "Marketing et compétitivité",
             content: Topic4.fr
         },
         {
             keywords: [],
-            title: "Associations et initiatives de l'industrie",
+            title: "Pression de la société civile et des actionnaires",
             content: Topic5.fr
         },
         {
             keywords: [],
-            title: "Programmes de certification",
+            title: "Conditionnalité des prêts",
             content: Topic6.fr
+        },
+        {
+            keywords: [],
+            title: "Gestion améliorée de la chaîne d'approvisionnement",
+            content: Topic7.fr
+        },
+        {
+            keywords: [],
+            title: "Recrutement et fidélisation du personnel",
+            content: Topic8.fr
+        },
+        {
+            keywords: [],
+            title: "Faire le bien",
+            content: Topic9.fr
         }
-    ],
-    ms: [
-            {
-                keywords: [],
-                title: "Why Seek Stakeholder Engagement?",
-                content: Topic1.en
-            },
-            {
-                keywords: [],
-                title: "What Can Stakeholders Do?",
-                content: Topic2.en
-            },
-            {
-                keywords: [],
-                title: "Engaging Your Stakeholders",
-                content: Topic3.en
-            },
-            {
-                keywords: [],
-                title: "Multi-Stakeholder Groups",
-                content: Topic4.en
-            },
-            {
-                keywords: [],
-                title: "Industry Associations and Initiatives",
-                content: Topic5.en
-            },
-            {
-                keywords: [],
-                title: "Certification Programs",
-                content: Topic6.en
-            }
-        ]
+    ]
 };

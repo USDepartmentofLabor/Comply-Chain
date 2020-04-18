@@ -1,247 +1,72 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
-import manBamboo from "../../../../../images/man_bamboo.jpg";
 
 const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>V&eacute;rification ind&eacute;pendante (audit)</h1>
+                <h1>Audits: guide de d&eacute;marrage</h1>
                 <p>
-                    Comme l&rsquo;indique la{" "}
-                    <Link to="/steps/5">
-                        5<sup>e</sup>&nbsp;&eacute;tape: surveiller la
-                        conformit&eacute;
+                    Les audits sont au c&oelig;ur de la mise en &oelig;uvre
+                    d&apos;un syst&egrave;me efficace de conformit&eacute;
+                    sociale et devraient &ecirc;tre suivis par leurs
+                    r&eacute;sultats, l&apos;&eacute;valuation des
+                    donn&eacute;es d&apos;audit, une planification et des
+                    activit&eacute;s &agrave; partir de cette &eacute;valuation.
+                </p>
+                <p>
+                    Comme mentionn&eacute; dans{" "}
+                    <Link to="/steps/3">
+                        la 1<sup>&egrave;re</sup> &eacute;tape: faire
+                        participer les parties prenantes et les partenaires
                     </Link>
-                    , une v&eacute;rification ind&eacute;pendante devrait
-                    comporter des visites inopin&eacute;es sur les lieux de
-                    travail de la cha&icirc;ne d&apos;approvisionnement de
-                    l&apos;entreprise pour &eacute;valuer la conformit&eacute;
-                    avec le code de conduite. Les visites annonc&eacute;es
-                    peuvent &eacute;galement &ecirc;tre utiles lorsqu&apos;il
-                    est n&eacute;cessaire d&apos;avoir acc&egrave;s &agrave; des
-                    employ&eacute;s ou &agrave; des documents sp&eacute;cifiques
-                    sur place. Dans les cas o&ugrave; les auditeurs internes de
-                    la soci&eacute;t&eacute; ou de tierces parties
-                    r&eacute;mun&eacute;r&eacute;es proc&egrave;dent &agrave;
-                    des audits par &eacute;chantillonnage dans les domaines
-                    &agrave; haut risque de la cha&icirc;ne
-                    d&apos;approvisionnement, les sites visit&eacute;s par des
-                    v&eacute;rificateurs ind&eacute;pendants peuvent &ecirc;tres
-                    les m&ecirc;mes que ceux qui ont d&eacute;j&agrave; fait
-                    l&apos;objet d&apos;un audit, ou des sites diff&eacute;rents
-                    dans les m&ecirc;mes domaines, ou les deux.
+                    , si vous faites partie d&apos;un groupe sectoriel ou
+                    plurisectoriel, ce groupe aura peut-&ecirc;tre
+                    d&eacute;j&agrave; des auditeurs form&eacute;s et/ou des
+                    documents de formation d&apos;auditeurs. Il pourrait avoir
+                    tous les outils d&apos;audit qui correspondent au code de
+                    votre groupe. Nombre de ces groupes coordonnent la conduite
+                    d&rsquo;audits conjoints de fournisseurs communs ou le
+                    partage des rapports d&rsquo;audit.
                 </p>
                 <p>
-                    Les v&eacute;rificateurs ind&eacute;pendants devraient
-                    &ecirc;tre des personnes ou des organisations
-                    accr&eacute;dit&eacute;es, impartiales, poss&eacute;dant des
-                    connaissances sp&eacute;cialis&eacute;es sur les normes du
-                    travail, des connaissances linguistiques appropri&eacute;es
-                    et des connaissances d&eacute;taill&eacute;es sur les
-                    conditions de travail locales et les pratiques en vigueur
-                    dans l&apos;industrie.
+                    Apr&egrave;s avoir cibl&eacute; certains domaines de votre
+                    cha&icirc;ne d&apos;approvisionnement qui comporteraient des
+                    risques plus &eacute;lev&eacute;s et apr&egrave;s avoir
+                    communiqu&eacute; aux personnes et aux organisations
+                    pertinentes leurs r&ocirc;les et leurs
+                    responsabilit&eacute;s dans le cadre de votre syst&egrave;me
+                    de conformit&eacute; sociale, vous pouvez mettre en place
+                    des audits. Pour garantir leur utilit&eacute;, vous devez
+                    vous assurer que vous avez les effectifs idoines en place et
+                    qu&apos;ils poss&egrave;dent les outils dont ils ont besoin.
+                </p>
+                <h2>R&ocirc;le essentiel des travailleurs et des syndicats</h2>
+                <p>
+                    L&apos;une des fa&ccedil;ons les plus efficaces de
+                    surveiller les cha&icirc;nes d&apos;approvisionnement passe
+                    par les travailleurs eux-m&ecirc;mes et les syndicats qui
+                    les repr&eacute;sentent. Les travailleurs et les syndicats
+                    peuvent porter certains probl&egrave;mes &agrave;
+                    l&apos;attention d&rsquo;une entreprise avant qu&apos;un
+                    audit ne soit r&eacute;alis&eacute;. S&apos;il existe un
+                    syndicat sur un lieu de travail faisant l&apos;objet
+                    d&apos;un audit, il conviendrait de le consulter
+                    d&apos;embl&eacute;e ; dans le cas contraire, les entretiens
+                    avec les travailleurs et leurs avis devraient faire partie
+                    int&eacute;grante de l&apos;audit.
                 </p>
                 <p>
-                    Les v&eacute;rificateurs ind&eacute;pendants devraient
-                    fournir &agrave; l&apos;entreprise un rapport
-                    pr&eacute;sentant leurs conclusions et ils peuvent
-                    recommander des mesures de r&eacute;paration qu&apos;une
-                    entreprise devrait adopter pour r&eacute;gler toute
-                    violation d&eacute;tect&eacute;e. Les entreprises devraient
-                    rendre public ce rapport ou l&apos;inclure dans
-                    l&apos;ensemble de leurs rapports publics.
+                    Quel que soit l&apos;audit, au cas o&ugrave; des violations
+                    seraient rep&eacute;r&eacute;es, il vous faudra les
+                    r&eacute;parer. Ce point est abord&eacute; en d&eacute;tail
+                    &agrave;{" "}
+                    <Link to="/steps/8">
+                        la 6e &eacute;tape: r&eacute;parer les infractions
+                    </Link>
+                    .
                 </p>
-                <p>
-                    Dans les situations o&ugrave; il n&rsquo;y a pas
-                    d&rsquo;obligation de rendre des compte &agrave; des
-                    structures institutionnelles, une v&eacute;rification
-                    ind&eacute;pendante peut constituer une autre option pour
-                    assurer la cr&eacute;dibilit&eacute; des r&eacute;sultats de
-                    la v&eacute;rification. Si vous n&apos;&ecirc;tes pas en
-                    mesure d&apos;obtenir une v&eacute;rification
-                    ind&eacute;pendante telle que d&eacute;crite ici, vous
-                    pouvez toutefois conserver des voies de communication
-                    ouvertes avec les parties prenantes qui ont acc&egrave;s aux
-                    site de travail et qui pourraient d&eacute;tecter des abus
-                    des droits des travailleurs. Les syndicats sont
-                    consid&eacute;r&eacute;s par certains comme &eacute;tant des
-                    « v&eacute;rificateurs ind&eacute;pendants »: s&apos;il
-                    existe un syndicat sur le lieu de travail, il devrait
-                    &ecirc;tre au courant des moyens s&ucirc;rs de vous signaler
-                    des probl&egrave;mes. De m&ecirc;me, les travailleurs
-                    individuels et les groupes communautaires peuvent &ecirc;tre
-                    conscients de probl&egrave;mes qui n&apos;ont pas
-                    &eacute;t&eacute; d&eacute;tect&eacute;s par les auditeurs.
-                    Mettre &agrave; la disposition du public une liste des
-                    fournisseurs aupr&egrave;s desquels votre entreprise
-                    s&apos;approvisionne pourra offrir &agrave; ces groupes la
-                    possibilit&eacute; de vous signaler les probl&egrave;mes.
-                </p>
-                <ExampleInAction id="fla">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Exemple d&apos;action: Programme
-                            d&apos;accr&eacute;ditation de v&eacute;rificateurs
-                            ext&eacute;rieurs ind&eacute;pendants par la Fair
-                            Labor Association (FLA)
-                        </strong>
-                    </h2>
-                    <p>
-                        Le conseil d&rsquo;administration de la FLA
-                        accr&eacute;dite des organisations de surveillance et
-                        des chefs auditeurs pour son{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.fairlabor.org/independent-external-monitoring-reports"
-                            title="Programme de v&eacute;rification ext&eacute;rieure ind&eacute;pendante"
-                        >
-                            programme de v&eacute;rification ext&eacute;rieure
-                            ind&eacute;pendante
-                        </a>{" "}
-                        pour deux ans et cette accr&eacute;ditation est
-                        renouvelable tous les deux ans. Les candidats peuvent
-                        demander leur accr&eacute;ditation pour un pays ou
-                        plusieurs, et pour toutes les dispositions du{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.fairlabor.org/our-work/code-of-conduct"
-                            title="Code de conduite de la FLA"
-                        >
-                            code de conduite de la FLA
-                        </a>{" "}
-                        ou pour certaines seulement. Les v&eacute;rificateurs
-                        sont accr&eacute;dit&eacute;s lorsqu&rsquo;ils ont
-                        rempli les crit&egrave;res pr&eacute;cis&eacute;s dans
-                        la charte de la FLA et pour des r&eacute;gions
-                        pr&eacute;cises pour lesquelles ils ont fait la preuve
-                        pratique et th&eacute;orique (par le biais d&apos;audits
-                        parall&egrave;les r&eacute;alis&eacute;s par la FLA au
-                        pr&eacute;alable de l&apos;accr&eacute;ditation) de leur
-                        exp&eacute;rience et de leurs connaissances
-                        sp&eacute;cialis&eacute;es. Les auditeurs en chef sont
-                        des personnes poss&eacute;dant suffisamment
-                        d&apos;exp&eacute;rience pour diriger et administrer une
-                        &eacute;quipe de suivi et pr&eacute;senter les rapports
-                        exig&eacute;s. Tous les v&eacute;rificateurs doivent
-                        faire la d&eacute;monstration de leur
-                        ind&eacute;pendance et de leur impartialit&eacute;, et
-                        d&apos;un tr&egrave;s haut degr&eacute; de rigueur et de
-                        minutie dans l&apos;&eacute;valuation de la
-                        conformit&eacute; dans tous les domaines inclus dans le
-                        code de conduite sur le lieu de travail de la FLA.
-                    </p>
-                </ExampleInAction>
-                <ExampleInAction id="bonsucro">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Exemple d&apos;action: Le mod&egrave;le Bonsucro*
-                            d&rsquo;accr&eacute;ditation des organisations de
-                            certification
-                        </strong>
-                    </h2>
-                    <p>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.bonsucro.com/en/"
-                            title="Bonsucro"
-                        >
-                            Bonsucro
-                        </a>{" "}
-                        est un r&eacute;seau international de cultivateurs, de
-                        n&eacute;gociants, de groupes de la
-                        soci&eacute;t&eacute; civile, de marques et
-                        d&rsquo;autres parties prenantes qui font la promotion
-                        de la production responsable de la canne &agrave; sucre.
-                        Pour &ecirc;tre reconnue et approuv&eacute;e par
-                        Bonsucro aux fins d&apos;audit et de certification par
-                        rapport &agrave; ses normes, une organisation de
-                        v&eacute;rification, ou selon l&apos;appellation choisie
-                        par Bonsucro, une organisation de certification, doit
-                        d&apos;abord remplir plusieurs crit&egrave;res,
-                        notamment les suivants: 1) une organisation de
-                        certification (OC) doit &ecirc;tre en conformit&eacute;
-                        avec les{" "}
-                        <em>
-                            Exigences 17065:2012 pour les organismes de
-                            certification de produits, processus et services
-                        </em>{" "}
-                        de l&rsquo;Organisation internationale de normalisation
-                        (ISO) et le personnel en charge des audits doit suivre
-                        les directives contenues dans les{" "}
-                        <em>
-                            Lignes directrices ISO 19011:2011 d&rsquo;audit des
-                            syst&egrave;mes de management
-                        </em>
-                        ; 2) une OC doit op&eacute;rer au moins un programme
-                        accr&eacute;dit&eacute; satisfaisant aux crit&egrave;res
-                        de durabilit&eacute; de la norme de production et de la
-                        norme de cha&icirc;ne de contr&ocirc;le de Bonsucro; et
-                        3) une OC est responsable de rester &agrave; jour sur
-                        les exigences de Bonsucro, et, le cas
-                        &eacute;ch&eacute;ant, sur la l&eacute;gislation
-                        europ&eacute;enne applicable. Lorsqu&apos;une OC est
-                        approuv&eacute;e par Bonsucro et qu&apos;elle signe un
-                        accord contractuel, Bonsucro d&eacute;livre une
-                        approbation officielle et place le nom de l&apos;OC sur
-                        son site Web &agrave; titre d&apos;OC officiellement
-                        approuv&eacute;e par Bonsucro. L&rsquo;OC en question
-                        peut ensuite effectuer des audits conform&eacute;ment
-                        aux normes de Bonsucro.
-                    </p>
-                    <img
-                        id="img-browser"
-                        className="small-img"
-                        src={manBamboo}
-                        alt="Homme coupant des bambous"
-                    />{" "}
-                    <p className="small-text">
-                        &copy; Florian Kopp/Alamy Stock Photo
-                    </p>
-                </ExampleInAction>
-                <ExampleInAction id="sai_model">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Exemple d&apos;action: Mod&egrave;le de Social
-                            Accountability International
-                        </strong>
-                    </h2>
-                    <p>
-                        Pour garantir l&apos;ind&eacute;pendance des audits
-                        r&eacute;alis&eacute;s en vertu de sa norme&nbsp;8000 de
-                        responsabilit&eacute; sociale (SA8000),{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.sa-intl.org/"
-                            title="Social Accountability International (SAI)"
-                        >
-                            Social Accountability International (SAI)
-                        </a>{" "}
-                        a cr&eacute;&eacute;{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.saasaccreditation.org/"
-                        >
-                            Social Accountability Accreditation Services (SAAS)
-                        </a>{" "}
-                        en 1997. SAAS est par la suite devenue, en 2007, une
-                        organisation distincte &agrave; but non lucratif. SAAS
-                        est une agence qui accr&eacute;dite et surveille les
-                        organisations &agrave; titre de certificateurs de
-                        conformit&eacute; avec les normes sociales, y compris la
-                        SA8000, pour les conditions de travail &eacute;thiques.
-                    </p>
-                </ExampleInAction>
             </div>
         </StaticData>
     );

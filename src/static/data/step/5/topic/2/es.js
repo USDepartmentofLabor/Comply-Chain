@@ -1,224 +1,351 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
 
 const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>El equipo de auditor&iacute;a</h1>
-                <h2>Personal</h2>
+                <h1>
+                    ¿Cu&aacute;les son las caracter&iacute;sticas de un buen
+                    c&oacute;digo de conducta?
+                </h1>
                 <p>
-                    El equipo de cumplimiento social est&aacute; conformado por
-                    el personal de cumplimiento social en la sede central de la
-                    empresa y el personal de campo que coordina las
-                    auditor&iacute;as o las realiza. Para las empresas que
-                    cuentan con un programa de auditor&iacute;as internas, los
-                    integrantes del equipo de auditor&iacute;a son empleados de
-                    la empresa; en el caso de empresas que recurren a auditores
-                    externos, los integrantes del equipo de auditor&iacute;a son
-                    auditores contratados que trabajan para entidades externas
-                    (con o sin fines de lucro). Algunas empresas emplean
-                    auditores tanto internos como externos, seg&uacute;n el
-                    sector o la ubicaci&oacute;n de la planta.
+                    Los c&oacute;digos se publican en numerosas formas y
+                    formatos seg&uacute;n la empresa. Algunos c&oacute;digos son
+                    documentos independientes, mientras que otros integran
+                    declaraciones m&aacute;s amplias de la misi&oacute;n, los
+                    valores o las pol&iacute;ticas de la empresa. Algunos se
+                    incluyen en los documentos gu&iacute;a de los proveedores
+                    que comprenden otros requisitos, como la calidad de los
+                    productos. Cada vez m&aacute;s, las empresas hacen
+                    referencia a los c&oacute;digos de conducta en varios
+                    documentos, a medida que los aspectos del cumplimiento
+                    social se permean en la estrategia empresarial en las
+                    distintas unidades empresariales.
                 </p>
                 <p>
-                    Los tres enfoques de auditor&iacute;a que se presentan a
-                    continuaci&oacute;n pueden ser fiables siempre y cuando
-                    est&eacute;n bien administrados por el equipo de
-                    cumplimiento social y se realicen en el marco de un programa
-                    integral de cumplimiento social. Sin embargo, cada enfoque
-                    tiene ventajas y desventajas.&nbsp;
-                </p>
-                <ul>
-                    <li>
-                        <h3>Auditores internos</h3>
-                    </li>
-                </ul>
-                <p>
-                    Los auditores internos son empleados de la empresa
-                    capacitados en las especialidades y competencias de la
-                    auditor&iacute;a social. Una ventaja de usar auditores
-                    internos es que probablemente resulte m&aacute;s
-                    f&aacute;cil comunicarse con ellos; por ejemplo, si se
-                    introducen cambios a una pol&iacute;tica, es m&aacute;s
-                    f&aacute;cil garantizar la coherencia interna con el
-                    personal propio que hacerlo con auditores externos
-                    contratados. Adem&aacute;s, es probable que los auditores
-                    internos conozcan m&aacute;s a fondo la totalidad del
-                    programa de cumplimiento social de la empresa y puedan
-                    contribuir m&aacute;s all&aacute; de la auditor&iacute;a.
-                    Por otro lado, dado que los auditores internos son empleados
-                    de la empresa, algunas partes interesadas pueden cuestionar
-                    la credibilidad de sus conclusiones.&nbsp;
-                </p>
-                <ul>
-                    <li>
-                        <h3>Auditores externos</h3>
-                    </li>
-                </ul>
-                <p>
-                    Los auditores externos son profesionales de la
-                    auditor&iacute;a con especialidades y competencias
-                    definidas, empleados por firmas de auditor&iacute;a social
-                    ajenas a la empresa. Son una fuerza laboral flexible y puede
-                    estar disponible en lugares geogr&aacute;ficos donde a la
-                    empresa no le resulte rentable tener auditores internos. Por
-                    otra parte, dado que a los auditores externos tambi&eacute;n
-                    les paga la empresa para que realicen las auditor&iacute;as,
-                    algunas partes interesadas pueden poner en tela de juicio
-                    las conclusiones. Asimismo, algunos grupos de auditores
-                    externos tal vez tengan sus propios sistemas, los cuales
-                    quiz&aacute;s no se adapten plenamente a los protocolos o
-                    par&aacute;metros propios de la empresa.
-                </p>
-                <ul>
-                    <li>
-                        <h3>
-                            Encargados de la vigilancia o verificadores
-                            independientes
-                        </h3>
-                    </li>
-                </ul>
-                <p>
-                    Los encargados de la vigilancia o verificadores
-                    independientes son profesionales de la auditor&iacute;a
-                    acreditados por instituciones o mecanismos y cuya
-                    funci&oacute;n consiste en garantizar que se realice la
-                    auditor&iacute;a sin ninguna transacci&oacute;n financiera
-                    directa entre la empresa y el auditor. Por lo general, la
-                    empresa le paga a una instituci&oacute;n separada e
-                    independiente por los servicios de auditor&iacute;a, por
-                    afiliarse, o ambos. La instituci&oacute;n acredita a los
-                    auditores en virtud de normas establecidas y se encarga de
-                    programar todas las auditor&iacute;as y supervisarlas. Si
-                    bien esto est&aacute; dise&ntilde;ado para aumentar la
-                    credibilidad de la auditor&iacute;a, en algunos sectores o
-                    lugares geogr&aacute;ficos, tal vez no se pueda coordinar
-                    este tipo de arreglo. Adem&aacute;s, incluso sin
-                    transacci&oacute;n financiera directa de por medio, algunas
-                    partes interesadas pueden tener dudas acerca del grado de
-                    independencia entre el auditor y la entidad auditada. Hay
-                    distintos grados de independencia y, en definitiva, debe
-                    evaluarse caso por caso.
-                </p>
-                <p>
-                    Si desea lograr la mayor eficacia y credibilidad y la
-                    empresa opta por usar auditores externos, tal vez se deba
-                    solicitar la participaci&oacute;n de entidades
-                    independientes para algunas funciones del sistema de
-                    cumplimiento social. V&eacute;ase{" "}
+                    Algunos c&oacute;digos son muy generales (establecen
+                    meramente los &aacute;mbitos amplios de cumplimiento)
+                    mientras que otros son mucho m&aacute;s detallados. En
+                    cualquiera de los casos, el c&oacute;digo suele ser la base
+                    de una directriz m&aacute;s detallada para los tomadores de
+                    decisiones que aplican el sistema de cumplimiento social en
+                    la empresa. Por ejemplo, los instrumentos para la
+                    auditor&iacute;a derivados de un c&oacute;digo se analizan
+                    en{" "}
                     <Link to="/steps/7">
-                        el s&eacute;ptimo paso, Examen independiente
+                        el quinto paso: Vigilancia y seguimiento del
+                        cumplimiento.
                     </Link>
-                    , donde se tratar&aacute; m&aacute;s el tema de vigilancia,
-                    seguimiento y verificaci&oacute;n independientes.
                 </p>
-                <h2>Competencias del auditor</h2>
+                <h2>Ejemplos de c&oacute;digo</h2>
                 <p>
-                    Ya sea interno, externo o independiente, todo auditor debe
-                    poseer especialidades y conocimientos espec&iacute;ficos
-                    para realizar auditor&iacute;as eficaces. En los
-                    &uacute;ltimos a&ntilde;os, varios organismos se esforzaron
-                    por formalizar y documentar las especialidades y los
-                    conocimientos est&aacute;ndar que todo auditor debe poseer.
-                    Por ejemplo, la{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.theapsca.org/"
-                        title="Asociaci&oacute;n de Auditores Profesionales de Cumplimiento Social (APSCA)"
-                    >
-                        Asociaci&oacute;n de Auditores Profesionales de
-                        Cumplimiento Social (APSCA)
-                    </a>{" "}
-                    es un &oacute;rgano encabezado por profesionales que
-                    actualmente est&aacute; trabajando para definir el proceso
-                    de certificaci&oacute;n para los auditores de cumplimiento
-                    social. Algunos de los conocimientos necesarios son una
-                    comprensi&oacute;n detallada de las normas internacionales
-                    del trabajo, los entornos y procesos de producci&oacute;n de
-                    la industria y las culturas y los idiomas locales.&nbsp;
+                    Los ejemplos a continuaci&oacute;n demuestran las distintas
+                    formas en que se publican los c&oacute;digos:
                 </p>
-                <p>
-                    Es importante que los auditores tambi&eacute;n est&eacute;n
-                    capacitados en protocolos espec&iacute;ficos para manejar
-                    situaciones delicadas que impliquen a ni&ntilde;os o a
-                    v&iacute;ctimas adultas de explotaci&oacute;n atroz. Los
-                    auditores deben estar preparados para interactuar con
-                    ni&ntilde;os y tomar medidas en nombre de estos que sean
-                    adecuadas para la edad. Tambi&eacute;n se debe contar con
-                    procedimientos para garantizar que haya personas u
-                    organismos preparados que extiendan de inmediato
-                    atenci&oacute;n y servicios a las v&iacute;ctimas de trabajo
-                    forzoso (tanto ni&ntilde;os como adultos).
-                </p>
-                <h2>Composici&oacute;n del equipo</h2>
-                <p>
-                    El tama&ntilde;o y la composici&oacute;n del equipo de
-                    auditor&iacute;a depende del tama&ntilde;o y tipo de planta
-                    que se auditar&aacute;, de la cantidad de trabajadores que
-                    haya en dicha planta y del tipo de fuerza laboral, incluidos
-                    los idiomas y la composici&oacute;n cultural de los
-                    trabajadores. Si la planta es grande y en ella se hablan
-                    varios idiomas, se debe contar con auditores que hablen cada
-                    uno de esos idiomas. El sexo de los trabajadores
-                    tambi&eacute;n es una consideraci&oacute;n importante. Por
-                    ejemplo, suele ser preferible que las mujeres sean
-                    entrevistadas por una mujer a fin de facilitar un
-                    di&aacute;logo m&aacute;s distendido sobre temas como el
-                    acoso sexual.
-                </p>
-                <p>
-                    Muchas empresas prefieren que los auditores sean ciudadanos
-                    del pa&iacute;s donde se realizar&aacute;n las
-                    auditor&iacute;as ya que conocen la cultura, el idioma y las
-                    costumbres; adem&aacute;s, contratar auditores locales
-                    contribuye al fortalecimiento sostenible de la capacidad
-                    local.&nbsp;
-                </p>
-                <p>
-                    El jefe de equipo debe garantizar que el equipo funcione de
-                    manera interactiva. Dado que las infracciones pueden ser
-                    sutiles, o ser ocultadas de los auditores adrede, el equipo
-                    no debe limitarse a dividir las responsabilidades laborales;
-                    en muchos casos, m&aacute;s de un auditor debe analizar un
-                    mismo tema y el equipo debe reunirse para evaluar las
-                    conclusiones y garantizar que se identifiquen conexiones y
-                    patrones. Todo el equipo debe estar de acuerdo con las
-                    conclusiones finales de la auditor&iacute;a.
-                </p>
-                <ExampleInAction id="better_work_assessment">
-                    <h3>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        Ejemplo en acci&oacute;n: equipos de evaluaci&oacute;n
-                        del programa Better Work
-                    </h3>
-                    <p>
-                        El programa Better Work tiene una amplia normativa que
-                        rige el trabajo de los equipos de evaluaci&oacute;n,
-                        como el requisito de que en toda evaluaci&oacute;n haya
-                        dos &ldquo;asesores de la empresa&rdquo; [auditores]
-                        presentes en las evaluaciones no anunciadas. Los{" "}
+                <ul>
+                    <li>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://betterwork.org/our-work/factory-services"
-                            title="Asesores de Better Work"
+                            href="http://levistrauss.com/wp-content/uploads/2017/12/TOE.pdf"
+                            title="Levi Strauss &amp; Co*. Condiciones de la participaci&oacute;n"
                         >
-                            asesores de Better Work
-                        </a>{" "}
-                        se contratan localmente y reciben amplia
-                        capacitaci&oacute;n. Los equipos siempre est&aacute;n
-                        conformados por un asesor m&aacute;s experimentado y uno
-                        nuevo y nunca va el mismo par de auditores a visitas
-                        consecutivas de una misma f&aacute;brica. Los asesores
-                        que realizan las evaluaciones de una planta en
-                        particular nunca son los mismos que brindan los
-                        servicios de remediaci&oacute;n o asesor&iacute;a.
-                    </p>
-                </ExampleInAction>
+                            Levi Strauss &amp; Co*. Condiciones de la
+                            participaci&oacute;n
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.coca-colacompany.com/content/dam/journey/us/en/private/fileassets/pdf/unknown/unknown/SGP_Brochure_ENG.pdf"
+                            title="Principios rectores para los proveedores de la Coca Cola*"
+                        >
+                            Principios rectores para los proveedores de la Coca
+                            Cola*
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://globalassets.starbucks.com/assets/1deb372ee3d840179e59c5b9c21cd5fe.pdf"
+                            title="Normas de responsabilidad de los proveedores de Starbucks*: Productos fabricados y servicios"
+                        >
+                            Normas de responsabilidad de los proveedores de
+                            Starbucks*: productos fabricados y servicios
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    Un buen c&oacute;digo de conducta debe ser un documento
+                    p&uacute;blico en donde se indiquen claramente los actores
+                    en la empresa que son los responsables de su
+                    formulaci&oacute;n, fiscalizaci&oacute;n y
+                    aplicaci&oacute;n, los cuales deben incluir al Directorio y
+                    a la gerencia superior, as&iacute; como a todas las unidades
+                    empresariales que participan del cumplimiento social.
+                    Publicar el c&oacute;digo comunica a todas las partes
+                    interesadas que el cumplimiento social se valora en los
+                    niveles m&aacute;s altos de la empresa y que la empresa
+                    prev&eacute; el examen minucioso de su grado de
+                    cumplimiento.&nbsp;
+                </p>
+                <h2>Contenido de los c&oacute;digos</h2>
+                <p>
+                    En los &uacute;ltimos a&ntilde;os, el contenido de los
+                    c&oacute;digos se ha estandarizado m&aacute;s y se
+                    consolid&oacute; en torno a &aacute;reas de contenido
+                    centrales que, por lo general, abarcan:
+                </p>
+                <ul>
+                    <li>Gobernabilidad y gesti&oacute;n del c&oacute;digo</li>
+                    <li>Alcance de la cobertura</li>
+                    <li>Normas del trabajo</li>
+                    <li>
+                        Otras pol&iacute;ticas en el lugar de trabajo, como el
+                        derecho al trato humano y el no sometimiento al acoso
+                        sexual
+                    </li>
+                    <li>
+                        Normas ambientales{" "}
+                        <em>
+                            (nota: si bien estas normas suelen incluirse en el
+                            c&oacute;digo de conducta m&aacute;s general, no se
+                            ahonda en ellas en esta aplicaci&oacute;n debido a
+                            que se hace hincapi&eacute; en el trabajo infantil y
+                            el trabajo forzoso)
+                        </em>
+                    </li>
+                    <li>
+                        Sistemas de gesti&oacute;n, procedimientos y
+                        pr&aacute;ctica para la aplicaci&oacute;n
+                    </li>
+                    <li>
+                        Responsabilidad y sanciones legales por el
+                        incumplimiento en la aplicaci&oacute;n de las
+                        disposiciones del c&oacute;digo
+                    </li>
+                </ul>
+                <p>
+                    Con respecto a las normas del trabajo, un c&oacute;digo de
+                    conducta s&oacute;lido debe abordar los &aacute;mbitos
+                    tratados en las normas fundamentales del trabajo de la
+                    Organizaci&oacute;n Internacional del Trabajo (OIT):
+                </p>
+                <ul>
+                    <li>Libertad sindical y negociaci&oacute;n colectiva</li>
+                    <li>Discriminaci&oacute;n laboral</li>
+                    <li>Trabajo infantil</li>
+                    <li>Trabajo forzoso</li>
+                </ul>
+                <p>Adem&aacute;s, debe abarcar las siguientes cuestiones:</p>
+                <ul>
+                    <li>Remuneraci&oacute;n</li>
+                    <li>Horario de trabajo</li>
+                    <li>
+                        Seguridad y salud en el trabajo, con la inclusi&oacute;n
+                        de cuestiones como higiene industrial,
+                        preparaci&oacute;n para emergencias, equipo de
+                        seguridad, saneamiento y acceso a alimentos y agua
+                    </li>
+                </ul>
+                <h2>Convenio fundamental de la OIT</h2>
+                <p>
+                    La Organizaci&oacute;n Internacional del Trabajo (OIT)
+                    aprob&oacute; normas, denominadas convenios y
+                    recomendaciones, en todos estos &aacute;mbitos. Cuando un
+                    gobierno nacional ratifica un convenio, se espera que tome
+                    las medidas necesarias para garantizar que sus leyes y
+                    pr&aacute;cticas se adapten a las disposiciones del
+                    convenio. Se espera tambi&eacute;n que el pa&iacute;s
+                    informe a la OIT peri&oacute;dicamente sobre la
+                    aplicaci&oacute;n de cada convenio que ratifica. Las normas
+                    fundamentales del trabajo se encuentran plasmadas en la
+                    Declaraci&oacute;n de la OIT relativa a los{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/declaration/lang--en/index.htm"
+                        title="Principios y derechos fundamentales en el trabajo"
+                    >
+                        principios y derechos fundamentales en el trabajo
+                    </a>{" "}
+                    como derechos cuyo ejercicio deben garantizar todos los
+                    gobiernos, independientemente de que hayan ratificado o no
+                    el convenio correspondiente. Los gobiernos que no hayan
+                    ratificado los convenios correspondientes deben notificar
+                    peri&oacute;dicamente a la OIT el ejercicio de dichos
+                    derechos.
+                </p>
+                <p>
+                    A continuaci&oacute;n se menciona el{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/global/standards/introduction-to-international-labour-standards/conventions-and-recommendations/lang--en/index.htm"
+                        title="Conjunto de convenios fundamentales de la OIT"
+                    >
+                        conjunto de convenios fundamentales de la OIT
+                    </a>
+                    , aunque la OIT tiene otros convenios en materia de
+                    remuneraci&oacute;n, seguridad y salud en el trabajo y otras
+                    cuestiones laborales relacionadas.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C087"
+                        title="Convenio sobre la libertad sindical y la protecci&oacute;n del derecho de sindicaci&oacute;n, 1948 (n&uacute;m. 87)"
+                    >
+                        Convenio sobre la libertad sindical y la
+                        protecci&oacute;n del derecho de sindicaci&oacute;n,
+                        1948 (n&uacute;m. 87)
+                    </a>
+                    .
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C098:NO"
+                        title="Convenio sobre el derecho de sindicaci&oacute;n y de negociaci&oacute;n colectiva, 1949 (n&uacute;m. 98)"
+                    >
+                        Convenio sobre el derecho de sindicaci&oacute;n y de
+                        negociaci&oacute;n colectiva, 1949 (n&uacute;m. 98)
+                    </a>
+                    . Complementado por la recomendaci&oacute;n 163.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ilo.org/dyn/normlex/en/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:312174,es:NO"
+                        title="Convenio sobre el trabajo forzoso, 1930 (n&uacute;m. 29)"
+                    >
+                        Convenio sobre el trabajo forzoso, 1930 (n&uacute;m. 29)
+                    </a>
+                    . Complementado por la recomendaci&oacute;n 35.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029"
+                        title="Protocolo facultativo de 2014 relativo al Convenio sobre el trabajo forzoso, 1930"
+                    >
+                        Protocolo facultativo de 2014 relativo al Convenio sobre
+                        el trabajo forzoso, 1930
+                    </a>
+                    . Complementado por la recomendaci&oacute;n 203.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C105:NO"
+                        title="Convenio sobre la abolici&oacute;n del trabajo forzoso, 1957 (n&uacute;m. 105)"
+                    >
+                        Convenio sobre la abolici&oacute;n del trabajo forzoso,
+                        1957 (n&uacute;m. 105)
+                    </a>
+                    .
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C138:NO"
+                        title="Convenio sobre la edad m&iacute;nima de admisi&oacute;n al empleo, 1973 (n&uacute;m. 138)"
+                    >
+                        Convenio sobre la edad m&iacute;nima de admisi&oacute;n
+                        al empleo, 1973 (n&uacute;m. 138)
+                    </a>
+                    . Complementado por varias recomendaciones, como la 146.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C182:NO"
+                        title="Convenio sobre la prohibici&oacute;n de las peores formas de trabajo infantil, 1999 (n&uacute;m. 182)"
+                    >
+                        Convenio sobre la prohibici&oacute;n de las peores
+                        formas de trabajo infantil, 1999 (n&uacute;m. 182)
+                    </a>
+                    . Complementado por la recomendaci&oacute;n 190.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C100:NO"
+                        title="Convenio sobre igualdad de remuneraci&oacute;n, 1951 (n&uacute;m. 100)"
+                    >
+                        Convenio sobre igualdad de remuneraci&oacute;n, 1951
+                        (n&uacute;m. 100)
+                    </a>
+                    . Complementado por la recomendaci&oacute;n 90.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C111:NO"
+                        title="Convenio sobre la discriminaci&oacute;n (empleo y ocupaci&oacute;n), 1958 (n&uacute;m. 111)"
+                    >
+                        Convenio sobre la discriminaci&oacute;n (empleo y
+                        ocupaci&oacute;n), 1958 (n&uacute;m. 111)
+                    </a>
+                    . Complementado por la recomendaci&oacute;n 111.
+                </p>
+                <p>
+                    La{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/empent/Publications/WCMS_094386/lang--en/index.htm"
+                    >
+                        Declaraci&oacute;n tripartita de principios de la OIT
+                        sobre las empresas multinacionales y la pol&iacute;tica
+                        social
+                    </a>
+                    , aprobada en 1977, establece que si bien los convenios de
+                    la OIT est&aacute;n dirigidos a los gobiernos, los
+                    principios subyacentes pueden y deben ser aplicados por las
+                    empresas. En la actualidad, la mayor parte de las empresas,
+                    industrias y coaliciones de varias industrias con
+                    c&oacute;digos basan sus normas del trabajo en los convenios
+                    de la OIT. Toda vez que las leyes nacionales establecen
+                    normas de menor rigurosidad que los convenios de la OIT, por
+                    ejemplo en relaci&oacute;n con la edad m&iacute;nima para
+                    trabajar, las empresas deben incorporar la norma de la OIT
+                    en sus c&oacute;digos. En casos en que las disposiciones
+                    contenidas en la legislaci&oacute;n nacional sean iguales o
+                    m&aacute;s rigurosas que las normas de la OIT, el
+                    c&oacute;digo debe satisfacer o exceder la
+                    legislaci&oacute;n nacional.
+                </p>
+                <p>
+                    A partir de 2010, la OIT ofrece un{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/empent/areas/business-helpdesk/lang--en/index.htm"
+                        title="Servicio de asistencia de la OIT para empresas sobre las normas internacionales del trabajo"
+                    >
+                        Servicio de asistencia para empresas sobre las normas
+                        internacionales del trabajo
+                    </a>
+                    . Se trata de un servicio gratuito y confidencial en el que
+                    se ofrece asesoramiento t&eacute;cnico experto a los
+                    usuarios sobre las normas internacionales del trabajo de la
+                    OIT y la Declaraci&oacute;n tripartita de principios sobre
+                    las empresas multinacionales y la pol&iacute;tica social.
+                </p>
             </div>
         </StaticData>
     );

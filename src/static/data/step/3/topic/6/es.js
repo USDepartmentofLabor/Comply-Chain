@@ -1,187 +1,185 @@
 import React from "react";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
+import goodweave from "../../../../../images/goodweave.jpg";
 
 const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>Adopci&oacute;n de un c&oacute;digo actual</h1>
+                <h1>
+                    <strong>Programas de certificaci&oacute;n</strong>
+                </h1>
                 <p>
-                    En determinadas industrias, hay grupos de empresas que ya se
-                    reunieron para elaborar sistemas de cumplimiento social
-                    conjuntos que las distintas empresas individuales pueden
-                    adoptar al sumarse al grupo. En la mayor&iacute;a de los
-                    casos, estos grupos o bien tienen un c&oacute;digo de
-                    conducta o bien est&aacute;n redactando uno de manera
-                    conjunta.
+                    Otra opci&oacute;n para formular programas de cumplimiento
+                    social es analizar los programas de{" "}
+                    <strong>certificaci&oacute;n </strong>actuales. Mediante
+                    estos programas se certifican productos o procesos
+                    seg&uacute;n un conjunto de normas establecidas; algunos
+                    confieren un r&oacute;tulo a los productos certificados para
+                    llegar directamente al consumidor y comunicar que el
+                    producto se fabric&oacute; en determinadas condiciones.
                 </p>
                 <p>
-                    Los c&oacute;digos de la industria presentan tanto ventajas
-                    como desventajas. El aspecto positivo es que aprovechan las
-                    experiencias y las ideas de varias empresas y agrupan
-                    recursos para minimizar el esfuerzo general y el tiempo que
-                    se dedica a redactar el c&oacute;digo. Asimismo, en
-                    industrias como la de la vestimenta, donde muchas marcas
-                    tienden a compartir proveedores, un &uacute;nico
-                    c&oacute;digo acordado entre todos garantiza que los
-                    proveedores individuales no deban someterse a numerosas
-                    auditor&iacute;as regidas por c&oacute;digos divergentes y,
-                    en vez, concentrarse en mejorar el cumplimiento de un
-                    conjunto claro de normas.
-                </p>
-                <p>
-                    El aspecto negativo es que en el proceso de redacci&oacute;n
-                    del c&oacute;digo alguna empresa tal vez deba ceder en
-                    determinadas disposiciones. Como empresa, es importante
-                    comprender la cadena de suministro, incluidos los riesgos y
-                    desaf&iacute;os, antes de tomar la decisi&oacute;n de
-                    adoptar un c&oacute;digo grupal a fin de garantizar que este
-                    exprese compromisos f&eacute;rreos en los aspectos
-                    m&aacute;s importantes y visibles de la empresa.
-                </p>
-                <p>
-                    Algunos ejemplos de c&oacute;digos de la industria son los{" "}
+                    Pocos programas de certificaci&oacute;n confieren el
+                    r&oacute;tulo &ldquo;exento de trabajo infantil&rdquo; o
+                    &ldquo;exento de trabajo forzoso&rdquo; pero algunos
+                    programas incluyen el trabajo infantil, el trabajo forzoso y
+                    otras cuestiones laborales en sus normas de
+                    certificaci&oacute;n. Por ejemplo, el programa de Comercio
+                    Justo (Fair Trade) est&aacute; dirigido principalmente a
+                    garantizar un precio &ldquo;justo&rdquo; para los
+                    productores en la base de la cadena de suministro, pero los
+                    productores deben cumplir tambi&eacute;n normas sobre
+                    trabajo infantil, trabajo forzoso y otras en el
+                    &aacute;mbito laboral a fin de lograr la
+                    certificaci&oacute;n de &ldquo;Comercio Justo&rdquo;. Para
+                    m&aacute;s informaci&oacute;n, v&eacute;anse los compendios
+                    de instrumentos de{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://bettercotton.org/wp-content/uploads/2014/10/production-principles-and-criteria.pdf"
-                        title="Principios y Criterios de Producci&oacute;n de la iniciativa BCI (Better Cotton Initiative)"
+                        href="http://www.fairtrade.net/child-labour.html"
                     >
-                        Principios y Criterios de Producci&oacute;n de la
-                        iniciativa BCI (Better Cotton Initiative)
+                        Fairtrade International
                     </a>{" "}
-                    para empresas que participan en toda la cadena de suministro
-                    del algod&oacute;n, el{" "}
+                    y{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.eiccoalition.org/media/docs/EICCCodeofConduct5_English.pdf"
-                        title="C&oacute;digo de la Coalici&oacute;n Ciudadana de la Industria Electr&oacute;nica"
+                        href="https://www.fairtradecertified.org"
+                        title="Fair Trade Certified"
                     >
-                        C&oacute;digo de la Coalici&oacute;n Ciudadana de la
-                        Industria Electr&oacute;nica
-                    </a>{" "}
-                    para empresas de electr&oacute;nica, la{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.bonsucro.com/en/production-standard/"
-                        title="Norma de producci&oacute;n Bonsucro"
-                    >
-                        Norma de producci&oacute;n Bonsucro
-                    </a>{" "}
-                    para empresas que trabajan en la cadena de suministro de la
-                    ca&ntilde;a de az&uacute;car y el{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ethicaltrade.org/eti-base-code"
-                        title="C&oacute;digo B&aacute;sico de la Iniciativa de Comercio &Eacute;tico para empresas de distintas industrias"
-                    >
-                        C&oacute;digo B&aacute;sico de la Iniciativa de Comercio
-                        &Eacute;tico para empresas de distintas industrias.
-                    </a>
-                </p>
-                <p>
-                    Tambi&eacute;n hay grupos de la industria que no exigen que
-                    sus socios se adhieran a un c&oacute;digo espec&iacute;fico
-                    sino que redactaron declaraciones generales de
-                    pol&iacute;tica y declaraciones de compromiso para que
-                    adopten los socios. Algunos ejemplos son el{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.aiag.org/corporate-responsibility/supply-chain-sustainability"
-                        title="Automotive Industry Action Group"
-                    >
-                        Automotive Industry Action Group
-                    </a>
-                    * y los{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-priority-industry-principles"
-                        title="Principios esenciales de la industria del Foro de Bienes de Consumo*"
-                    >
-                        principios esenciales de la industria del Foro de Bienes
-                        de Consumo*
-                    </a>{" "}
-                    en materia de trabajo forzoso.
-                </p>
-                <p>
-                    De la misma manera, hay grupos multilaterales y de varias
-                    partes interesadas que elaboraron gu&iacute;as para un
-                    producto o una l&iacute;nea de productos en particular.
-                    Algunos ejemplos son (menos el primero, solo disponible en
-                    idioma ingl&eacute;s): 1){" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.oecd.org/daf/inv/mne/mining.htm"
-                        title="Suplemento sobre esta&ntilde;o, tantalio y tungsteno de la Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas de Suministro Responsables de Minerales en las &Aacute;reas de Conflicto o de Alto Riesgo"
-                    >
-                        Suplemento sobre esta&ntilde;o, tantalio y tungsteno de
-                        la Gu&iacute;a de Debida Diligencia de la OCDE para
-                        Cadenas de Suministro Responsables de Minerales en las
-                        &Aacute;reas de Conflicto o de Alto Riesgo
-                    </a>
-                    ; 2){" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://mneguidelines.oecd.org/responsible-supply-chains-textile-garment-sector.htm"
-                        title="Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas de Suministro Responsables en los Sectores de la Producci&oacute;n de Ropa y de Calzado"
-                    >
-                        Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas
-                        de Suministro Responsables en los Sectores de la
-                        Producci&oacute;n de Ropa y de Calzado
-                    </a>
-                    ; 3){" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://mneguidelines.oecd.org/rbc-agriculture-supply-chains.htm"
-                        title="Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas de Suministro Responsables en el Sector Agr&iacute;cola"
-                    >
-                        Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas
-                        de Suministro Responsables en el Sector Agr&iacute;cola
-                    </a>
-                    ; 4){" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://mneguidelines.oecd.org/Practical-actions-for-worst-forms-of-child-labour-mining-sector.pdf"
-                        title="Acciones pr&aacute;cticas de la OCDE para que las empresas identifiquen y combatan las peores formas de trabajo infantil en las cadenas de suministro de minerales"
-                    >
-                        Acciones pr&aacute;cticas de la OCDE para que las
-                        empresas identifiquen y combatan las peores formas de
-                        trabajo infantil en las cadenas de suministro de
-                        minerales
+                        Fair Trade Certified
                     </a>
                     .
                 </p>
                 <p>
-                    Es a la vez cada vez m&aacute;s com&uacute;n y beneficioso
-                    para las empresas exigir que sus subcontratistas y
-                    proveedores adopten su propio c&oacute;digo de conducta o un
-                    c&oacute;digo pertinente para la industria. El instrumento
-                    de abastecimiento responsable (RST) de Verit&eacute;
-                    contiene un{" "}
+                    Algunos programas de certificaci&oacute;n procuran cumplir
+                    las normas de la{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.responsiblesourcingtool.org/vendoragreement"
-                        title="Ejemplo de acuerdo de responsabilidad social"
+                        href="http://www.isealalliance.org/"
+                        title="Alianza ISEAL"
                     >
-                        ejemplo de acuerdo de responsabilidad social
-                    </a>{" "}
-                    que complementa los contratos y acuerdos celebrados entre
-                    una empresa y sus subcontratistas o proveedores, por ejemplo
-                    en la incorporaci&oacute;n del c&oacute;digo general en los
-                    c&oacute;digos particulares y el respectivo cumplimiento,
-                    incluidos los programas de autoevaluaci&oacute;n y mejora
-                    dise&ntilde;ados para lograr el cumplimiento del
-                    c&oacute;digo.
+                        Alianza ISEAL
+                    </a>
+                    , asociaci&oacute;n de organizaciones que formula pautas
+                    sobre el establecimiento y la aplicaci&oacute;n de normas de
+                    sostenibilidad.
+                </p>
+                <p>
+                    Al mismo tiempo, algunos programas de certificaci&oacute;n
+                    &mdash;e iniciativas de varias partes interesadas m&aacute;s
+                    ampliamente&mdash; han recibido cr&iacute;ticas en
+                    relaci&oacute;n con las disposiciones para la
+                    gobernabilidad, como las estructuras financieras de los
+                    programas de certificaci&oacute;n, el equilibrio de poderes
+                    entre los miembros y los mecanismos para la rendici&oacute;n
+                    de cuentas de los miembros. Otras cr&iacute;ticas
+                    est&aacute;n dirigidas a la aplicaci&oacute;n, como el tema
+                    de auditor&iacute;as inadecuadas o insuficientes y la falta
+                    de difusi&oacute;n a las partes interesadas. Por ende, es
+                    importante comprender la estructura de los programas
+                    espec&iacute;ficos para evaluar la perspectiva que
+                    adoptar&aacute;n las diversas partes interesadas.&nbsp;
+                </p>
+                <ExampleInAction id="clt">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>Ejemplo en acci&oacute;n: GoodWeave</strong>
+                    </h2>
+
+                    <p>
+                        Desde hace m&aacute;s de 20 a&ntilde;os,{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://goodweave.org/"
+                            title="GoodWeave"
+                        >
+                            GoodWeave
+                        </a>{" "}
+                        trabaja para transformar la industria de las alfombras
+                        ya que fomenta en el mercado la demanda de tapetes
+                        exentos de trabajo infantil y ayuda a las empresas a
+                        atender dicha demanda. Los importadores y exportadores
+                        de tapetes que desean obtener la licencia de Goodweave y
+                        acceder al r&oacute;tulo de Goodweave que ven los
+                        consumidores deben firmar un contrato vinculante para
+                        cumplir la rigurosa norma que fija GoodWeave a fin de
+                        certificar que los tapetes est&aacute;n fabricados sin
+                        trabajo infantil, trabajo forzoso ni trabajo en
+                        condiciones de servidumbre. Como parte del programa de
+                        certificaci&oacute;n, las empresas acuerdan permitir que
+                        se realicen inspecciones sin previo aviso en sus cadenas
+                        de suministro para verificar el cumplimiento de la norma
+                        y garantizar que se rectifiquen las infracciones.
+                        Adem&aacute;s, las empresas pagan un derecho de licencia
+                        y el dinero se destina a los programas de vigilancia,
+                        seguimiento e inspecci&oacute;n que realiza GoodWeave en
+                        los lugares de trabajo, as&iacute; como a la
+                        rehabilitaci&oacute;n y los estudios de los ni&ntilde;os
+                        v&iacute;ctimas de explotaci&oacute;n. GoodWeave es
+                        miembro de pleno derecho de la Alianza Internacional de
+                        Acreditaci&oacute;n y Etiquetado Social y Ambiental
+                        (ISEAL), asociaci&oacute;n muy conocida por ser
+                        l&iacute;der mundial en la fijaci&oacute;n de las
+                        mejores pr&aacute;cticas para las normas de
+                        certificaci&oacute;n. En los &uacute;ltimos a&ntilde;os,
+                        GoodWeave ampli&oacute; el alcance de su programa
+                        m&aacute;s all&aacute; de la industria de las alfombras
+                        en la India y lleg&oacute; a nuevos sectores y
+                        pa&iacute;ses, como las f&aacute;bricas de ladrillos de
+                        Nepal, las de indumentaria en la india y la
+                        fabricaci&oacute;n casera de tapetes en
+                        Afganist&aacute;n (este &uacute;ltimo mediante un
+                        proyecto financiado por el Departamento de Trabajo de
+                        los Estados Unidos).
+                    </p>
+                    <p>
+                        Informaci&oacute;n adicional sobre el{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/ilab/projects/summaries/Afghanistan_Carpets.pdf"
+                            title="Proyecto para prevenir el trabajo infantil en la fabricaci&oacute;n casera de tapetes en Afganist&aacute;n"
+                        >
+                            <em>
+                                Proyecto para prevenir el trabajo infantil en la
+                                fabricaci&oacute;n casera de tapetes en
+                                Afganist&aacute;n
+                            </em>
+                        </a>
+                        <em>, </em>financiado por el Departamento de Trabajo y
+                        ejecutado por GoodWeave.
+                    </p>
+                    <img src={goodweave} alt="GoodWeave International" />
+                    <p className="small-text">
+                        &copy; Lorenzo Tugnoli, gentileza de GoodWeave
+                        International
+                    </p>
+                </ExampleInAction>
+
+                <p>
+                    <em>
+                        *Nota: Toda referencia que se haga en la presente
+                        gu&iacute;a a empresas o entidades no gubernamentales
+                        espec&iacute;ficas es con fines informativos
+                        &uacute;nicamente a fin de demostrar las buenas
+                        pr&aacute;cticas internacionalmente reconocidas a la
+                        fecha de lanzamiento de la aplicaci&oacute;n. Las
+                        referencias a dichas entidades no debe interpretarse
+                        como un aval oficial del Departamento de Trabajo de los
+                        Estados Unidos a ellas, sus productos ni servicios{" "}
+                    </em>
+                    <em>
+                        y su menci&oacute;n no debe interpretarse como un examen
+                        exhaustivo de las pr&aacute;cticas que emplean dichas
+                        entidades en todos los &aacute;mbitos
+                    </em>
+                    <em>.</em>
                 </p>
             </div>
         </StaticData>

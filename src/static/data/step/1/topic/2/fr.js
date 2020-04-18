@@ -1,149 +1,68 @@
 import React from "react";
-import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 
 const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Que peuvent faire les parties prenantes?</h1>
+                <h1>Évolution des normes volontaires et faisant autorité</h1>
                 <p>
-                    Il existe des moyens fructueux de collaboration et de
-                    partenariat avec les parties prenantes, dans la
-                    quasi-totalit&eacute; des volets d&apos;un syst&egrave;me de
-                    conformit&eacute; sociale. En voici quelques exemples:
+                    Ces derni&egrave;res ann&eacute;es, le grand public
+                    s&apos;attend de plus en plus &agrave; ce que les
+                    entreprises ma&icirc;trisent, dans leurs cha&icirc;nes
+                    d&apos;approvisionnement, les normes relatives au travail et
+                    aux droits de la personne. Des d&eacute;cennies durant, des
+                    normes volontaires, telles que les{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.oecd.org/daf/inv/mne/"
+                    >
+                        Principes directeurs pour les entreprises
+                        multinationales de l&apos;Organisation de
+                        Coop&eacute;ration et de D&eacute;veloppement
+                        &Eacute;conomiques (OECD)
+                    </a>{" "}
+                    ont constitu&eacute; les normes de base pour les entreprises
+                    quant aux domaines du travail et de l&apos;emploi. Une
+                    r&eacute;vision en 2011 des principes directeurs de
+                    l&apos;OCDE, parall&egrave;lement &agrave; l&apos;adoption
+                    par le Conseil des droits de l&apos;homme des Nations Unies,
+                    en juin 2011, des{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://business-humanrights.org/en/un-guiding-principles"
+                    >
+                        Principes directeurs des Nations Unies relatifs aux
+                        entreprises et aux droits de l&apos;homme
+                    </a>
+                    , ont jou&eacute; un r&ocirc;le important dans cette
+                    &eacute;volution des attentes du public. En vertu des
+                    Principes directeurs des Nations Unies relatifs aux
+                    entreprises et aux droits de l&apos;homme, les &Eacute;tats
+                    ont, sur leur territoire et/ou dans leur juridiction, un
+                    devoir de protection contre les violations des droits de
+                    l&rsquo;homme perp&eacute;tr&eacute;es par des parties
+                    tierces, y compris les entreprises. Ils ont &eacute;galement
+                    le devoir de prendre les mesures qui s&rsquo;imposent pour
+                    s&rsquo;assurer qu&rsquo;en cas de telles violations, les
+                    victimes ont acc&egrave;s &agrave; de v&eacute;ritables
+                    r&eacute;parations. Pour leur part, les entreprises ont la
+                    responsabilit&eacute; de respecter les droits de la
+                    personne, notamment en &eacute;vitant de provoquer des
+                    effets n&eacute;gatifs sur les droits de la personne au
+                    travers de leurs propres activit&eacute;s, ou d&rsquo;y
+                    contribuer, et en cherchant &agrave; pr&eacute;venir ou
+                    &agrave; att&eacute;nuer de tels effets directement
+                    li&eacute;s &agrave; leurs op&eacute;rations, &agrave; leurs
+                    produits ou &agrave; leurs services par leurs relations
+                    commerciales. Les principes directeurs des Nations Unies
+                    s&rsquo;appliquent &agrave; tous les &Eacute;tats et
+                    &agrave; toutes les entreprises, notamment internationales,
+                    quels que soient leur secteur, leur taille, leur
+                    emplacement, leur propri&eacute;taire et leur structure.
                 </p>
-                <div className="indent-margin">
-                    <h2>Causes profondes</h2>
-                    <p className="indent-margin">
-                        Comme not&eacute; ci-dessous, fondamentalement, il
-                        incombe aux gouvernements de r&eacute;gler les causes
-                        profondes des abus des droits du travail. La
-                        collaboration avec des gouvernements pour
-                        pr&eacute;coniser l&apos;affectation de ressources plus
-                        importantes &agrave; ces probl&egrave;mes peut produire
-                        des avantages durables sur le long terme et sera sans
-                        doute plus efficace lorsque plusieurs entreprises se
-                        regroupent.
-                    </p>
-                    <h2>Mise au point d&apos;un code de conduite</h2>
-                    <p className="indent-margin">
-                        L&apos;incorporation des recommandations d&apos;une
-                        large gamme de parties prenantes reste l&apos;un des
-                        principes fondamentaux de l&apos;&eacute;laboration
-                        d&apos;un bon code de conduite. Vous pouvez demander des
-                        avis lors de la r&eacute;daction initiale de
-                        l&apos;avant-projet du code, ou avoir un groupe
-                        permanent qui contribue des id&eacute;es et des
-                        informations en retour sur le code de fa&ccedil;on
-                        continue.
-                    </p>
-                    <h2>&Eacute;valuation des risques</h2>
-                    <p className="indent-margin">
-                        En raison du manque de donn&eacute;es empiriques, il est
-                        souvent difficile de comprendre vos risques de travail
-                        des enfants, de travail forc&eacute; et d&apos;autres
-                        probl&egrave;mes li&eacute;s au lieu de travail. Il est
-                        important d&apos;avoir les avis d&apos;un grand nombre
-                        de personnes avis&eacute;es pour avoir une id&eacute;e
-                        pr&eacute;cise des risques ainsi que des recommandations
-                        en vue d&apos;att&eacute;nuer ces risques.
-                    </p>
-                    <h2>Formation</h2>
-                    <p className="indent-margin">
-                        Un programme de conformit&eacute; sociale fructueux doit
-                        investir fortement dans la formation et le renforcement
-                        des capacit&eacute;s. La participation des parties
-                        prenantes peut offrir diff&eacute;rents avantages, comme
-                        assurer que les documents de formation sont
-                        appropri&eacute;s du point de vue culturel.
-                    </p>
-                    <h2>Communication</h2>
-                    <p className="indent-margin">
-                        Les parties prenantes peuvent aider &agrave;
-                        am&eacute;liorer les cha&icirc;nes de
-                        communication; par exemple, les
-                        repr&eacute;sentants syndicaux peuvent recevoir les
-                        commentaires et pr&eacute;occupations des travailleurs
-                        sur les lieux de travail qui disposent de la
-                        pr&eacute;sence d&rsquo;un syndicat, tandis que certains
-                        groupes de la soci&eacute;t&eacute; civile se
-                        sp&eacute;cialisent dans la mise en place de
-                        m&eacute;canismes de r&eacute;clamation et
-                        d&rsquo;autres cha&icirc;nes de communication dans les
-                        &eacute;tablissements non syndiqu&eacute;s.
-                    </p>
-                    <h2>
-                        Audits et surveillance/contr&ocirc;les
-                        ind&eacute;pendants
-                    </h2>
-                    <p className="indent-margin">
-                        Certains groupes communautaires sont form&eacute;s
-                        &agrave; la prestation de services de surveillance et de
-                        contr&ocirc;le ind&eacute;pendants ; d&apos;autres
-                        peuvent fournir une «&nbsp;v&eacute;rification&nbsp;»
-                        ind&eacute;pendante pour les contr&ocirc;leurs internes
-                        ou externes.
-                    </p>
-                    <h2>R&eacute;paration</h2>
-                    <p className="indent-margin">
-                        Des organisations qualifi&eacute;es peuvent fournir des
-                        services aux victimes de violations des droits du
-                        travail ou mettre les entreprises en contact avec des
-                        ressources locales pour une assistance et une
-                        r&eacute;paration.
-                    </p>
-                    <h2>Rapports publics</h2>
-                    <p className="indent-margin">
-                        Les parties prenantes peuvent &ecirc;tre
-                        d&eacute;terminantes dans le cadre de l&apos;examen
-                        minutieux des rapports et le retour d&apos;information.
-                    </p>
-                </div>
-                <OwnWords>
-                    <h2>
-                        <OwnWords.Icon alt="Feedback"/>{" "}
-                        <strong>Dans leurs propres mots</strong>&nbsp;{": "}
-                    </h2>
-                    <p>
-                        « La participation des parties prenantes peut prendre de
-                        nombreuses formes. Elle peut &ecirc;tre &agrave;
-                        l&apos;initiative d&apos;une organisation ou
-                        d&eacute;buter avec la r&eacute;ponse d&apos;une
-                        organisation adress&eacute;e &agrave; une ou &agrave;
-                        plusieurs parties prenantes. Elle peut se situer dans
-                        des r&eacute;unions formelles ou informelles et suivre
-                        diff&eacute;rents formats: rencontres individuelles,
-                        conf&eacute;rences, ateliers, audiences publiques,
-                        tables rondes, comit&eacute;s consultatifs,
-                        proc&eacute;dures r&eacute;guli&egrave;res et
-                        structur&eacute;es d&apos;information et de
-                        consultation, n&eacute;gociations collectives et forums
-                        sur le Web. La participation des parties prenantes
-                        devrait &ecirc;tre interactive et est destin&eacute;e
-                        &agrave; leur donner la possibilit&eacute; de faire
-                        conna&icirc;tre leurs points de vue. Sa
-                        caract&eacute;ristique essentielle est qu&apos;il
-                        s&apos;agit d&apos;une communication
-                        d&apos;&eacute;changes ».
-                    </p>
-                    <p>
-                        <em>
-                            Source: Organisation internationale de
-                            normalisation (ISO){" "}
-                        </em>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.iso.org/fr/standard/42546.html"
-                            title="26000, Lignes directrices relatives &agrave; la responsabilit&eacute; soci&eacute;tale"
-                        >
-                            26000, Lignes directrices relatives &agrave; la
-                            responsabilit&eacute; soci&eacute;tale
-                        </a>
-                        <em>, 2010</em>.
-                    </p>
-                </OwnWords>
             </div>
         </StaticData>
     );

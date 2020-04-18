@@ -1,284 +1,399 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import Accordion from "../../../../../../components/Accordion";
 import StaticData from "../../../../../../components/StaticData";
+import cocoaSupplyChains from "../../../../../images/cocoa_supply_chains_fr.png";
+import genericImport from "../../../../../images/generic_import_fr.png";
 
 const fr = () => {
     return (
         <StaticData>
             <div>
                 <h1>
-                    O&ugrave;, quand et comment la formation devrait-elle se
-                    tenir?
+                    Cartographie de la cha&icirc;ne d&apos;approvisionnement
                 </h1>
                 <p>
-                    Certaines &eacute;quipes de conformit&eacute; sociale ont du
-                    personnel interne qui &eacute;labore des documents de
-                    formation pour le programme de leur entreprise.
-                    D&apos;autres sous-traitent cette fonction, ou se servent de
-                    documents &eacute;labor&eacute;s par un groupe sectoriel ou
-                    intersectoriel. Dans certains cas, il est &eacute;galement
-                    possible et utile de demander &agrave; certains groupes de
-                    parties prenantes de faire la formation d&apos;autres
-                    groupes de parties prenantes. Par exemple, les fournisseurs
-                    ou les agents peuvent &ecirc;tre form&eacute;s, puis
-                    charg&eacute;s de former tous les cadres, les
-                    contrema&icirc;tres et le personnel des ressources humaines
-                    des &eacute;tablissements de production aupr&egrave;s
-                    desquels ils s&apos;approvisionnent. Les syndicats peuvent
-                    aussi remplir des fonctions importantes dans
-                    l&apos;&eacute;laboration de documents de formation et le
-                    renforcement de la sensibilisation des travailleurs et/ou
-                    des communaut&eacute;s dans le domaine des questions de
-                    conformit&eacute; sociale.
+                    Les entreprises savent qui sont leurs fournisseurs directs
+                    et o&ugrave; ils se trouvent. Toutefois, dans de nombreux
+                    cas, les entreprises s&apos;approvisionnent aupr&egrave;s de
+                    vendeurs ou d&apos;agents qui ne divulguent pas les usines
+                    ou les autres &eacute;tablissements de production
+                    aupr&egrave;s desquels <em>ils</em> s&apos;approvisionnent
+                    eux. Les entreprises sont souvent inform&eacute;es des
+                    usines et des &eacute;tablissements de production du premier
+                    niveau de leurs cha&icirc;nes d&apos;approvisionnement, mais
+                    connaissent mal ou pas du tout les pratiques des
+                    fournisseurs de deuxi&egrave;me ou de troisi&egrave;me
+                    niveau de la cha&icirc;ne. Les entreprises devraient
+                    disposer d&rsquo;autant d&rsquo;informations que possible
+                    sur leurs fournisseurs &agrave; tous les niveaux de la
+                    cha&icirc;ne d&apos;approvisionnement, y compris les
+                    producteurs de mati&egrave;res premi&egrave;res. Plus une
+                    entreprise est en mesure de cartographier avec exactitude
+                    ses cha&icirc;nes d&apos;approvisionnement, plus elles saura
+                    identifier avec pr&eacute;cision les lieux dans la
+                    cha&icirc;ne o&ugrave; se situent les risques les plus
+                    s&eacute;rieux de violations des droits du travail. Il est
+                    donc important de communiquer avec les &eacute;quipes de
+                    gestion de l&apos;approvisionnement et/ou de la cha&icirc;ne
+                    d&apos;approvisionnement pour obtenir des donn&eacute;es sur
+                    leurs propres cha&icirc;nes d&apos;approvisionnement, et
+                    s&apos;il est n&eacute;cessaire d&apos;obtenir davantage
+                    d&apos;informations, de collaborer avec elles pour
+                    compl&eacute;ter ces donn&eacute;es.
                 </p>
                 <p>
-                    La formation destin&eacute;e aux travailleurs devrait
-                    &ecirc;tre con&ccedil;ue selon le groupe sp&eacute;cifique
-                    de travailleurs. Dans un pays ou dans une r&eacute;gion
-                    o&ugrave; la plupart des travailleurs poss&egrave;dent au
-                    moins un niveau d&rsquo;&eacute;ducation de base, la
-                    formation pourra &eacute;galement &ecirc;tre
-                    enseign&eacute;e dans un cadre scolaire classique, &agrave;
-                    l&apos;aide de documents &eacute;crits. Toutefois, dans
-                    certaines industries et r&eacute;gions, une grande partie
-                    des travailleurs peuvent &ecirc;tre analphab&egrave;tes ou
-                    n&rsquo;avoir que peu l&apos;exp&eacute;rience d&apos;un
-                    cadre scolaire formel. Dans ce cas, les m&eacute;thodes et
-                    les documents de formation doivent &ecirc;tre adapt&eacute;s
-                    pour s&apos;assurer que les travailleurs saisissent
-                    n&eacute;anmoins les informations n&eacute;cessaires. Des
-                    formats de formation sp&eacute;cifiques ont
-                    &eacute;t&eacute; mis au point pour ces populations,
-                    notamment des films, des illustrations, des affiches et
-                    autres documents visuels.
+                    Si votre entreprise n&apos;a pas &agrave; l&apos;heure
+                    actuelle acc&egrave;s aux informations sur les fournisseurs
+                    en dehors de ceux aupr&egrave;s desquels elle
+                    s&rsquo;approvisionne directement, pensez &agrave; la
+                    possibilit&eacute; de vous adresser au service juridique
+                    et/ou aux autres services appropri&eacute;s au sein de votre
+                    entreprise pour &eacute;tablir des exigences contractuelles
+                    de communication d&apos;informations exhaustives sur tous
+                    les fournisseurs.
                 </p>
                 <p>
-                    Dans les r&eacute;gions o&ugrave; de nombreux travailleurs
-                    n&apos;ont pas d&apos;instruction de base, certaines
-                    entreprises pr&eacute;f&egrave;rent aller au-del&agrave; de
-                    la formation de base sur la conformit&eacute; sociale et
-                    offrent des cours de lecture et de calcul sur le lieu de
-                    travail ou encore des bourses pour ce type
-                    d&apos;&eacute;ducation. Ces efforts sont souvent
-                    li&eacute;s aux activit&eacute;s philanthropiques
-                    d&apos;ensemble de l&apos;entreprise, qui sont
-                    examin&eacute;es plus en d&eacute;tail dans{" "}
-                    <em>
-                        <Link to="/steps/2">
-                            &Eacute;valuer les causes profondes et s&rsquo;y
-                            attaquer
-                        </Link>
-                    </em>
-                    .
+                    Cette cartographie inclut non seulement le fait de savoir
+                    qui sont vos fournisseurs (dans toute la cha&icirc;ne
+                    d&apos;approvisionnement), mais &eacute;galement o&ugrave;
+                    ils se trouvent. Ces informations sont essentielles pour
+                    l&apos;&eacute;valuation notamment des risques et des
+                    incidences li&eacute;s aux environnements juridiques et
+                    r&eacute;glementaires. Cet exercice peut &eacute;galement
+                    inclure des cartes indiquant le caract&egrave;re saisonnier
+                    de la production ou des cycles de production au cours de
+                    l&apos;ann&eacute;e, ceux-ci pouvant &ecirc;tre li&eacute;s
+                    aux p&eacute;riodes de risques accrus de violations des
+                    droits du travail.&nbsp;
                 </p>
                 <p>
-                    Les normes culturelles sont &eacute;galement une
-                    consid&eacute;ration essentielle dans la conception des
-                    cours de formation. Dans certains pays, par exemple, les
-                    hommes et les femmes ne seront pas assis c&ocirc;te &agrave;
-                    c&ocirc;te ou doivent &ecirc;tre &agrave; une certaine
-                    distance les uns des autres dans une m&ecirc;me
-                    pi&egrave;ce. Dans certains cas, selon le groupe
-                    concern&eacute;, il s&apos;agira d&apos;un formateur ou
-                    d&apos;une formatrice. Il est important que les formateurs
-                    comprennent diff&eacute;rentes questions: regarder dans les
-                    yeux ou pas, &agrave; quelle distance se tenir. Il est aussi
-                    essentiel de comprendre les styles d&rsquo;enseignement
-                    habituels pour la r&eacute;gion. Par exemple, dans de
-                    nombreuses cultures, il est impensable de lever le doigt
-                    pour r&eacute;pondre &agrave; une question ou de faire
-                    participer toute la classe &agrave; un &eacute;change
-                    d&rsquo;id&eacute;es.&nbsp;
+                    Voici trois exemples de cartes de cha&icirc;nes
+                    d&apos;approvisionnement:
                 </p>
                 <p>
-                    Certaines entreprises pr&eacute;f&egrave;rent
-                    &eacute;galement relier leur formation au sujet de la
-                    conformit&eacute; sociale &agrave; d&apos;autres formes de
-                    formation qu&apos;elles proposent. D&apos;ailleurs, de
-                    nombreuses entreprises ont d&eacute;couvert les avantages
-                    nombreux d&apos;une int&eacute;gration de la formation sur
-                    la conformit&eacute; sociale dans d&apos;autres cours de
-                    formation, par exemple sur la productivit&eacute;,
-                    l&apos;assurance de qualit&eacute; et des comp&eacute;tences
-                    techniques sp&eacute;cifiques au secteur. Les travailleurs
-                    dont les comp&eacute;tences sont am&eacute;lior&eacute;es
-                    sont susceptibles d&apos;&ecirc;tre plus
-                    appr&eacute;ci&eacute;s et mieux trait&eacute;s, et
-                    l&apos;am&eacute;lioration des comp&eacute;tences techniques
-                    et de la productivit&eacute; de la main-d&apos;&oelig;uvre
-                    aura une incidence concr&egrave;te sur les revenus des
-                    producteurs et des fournisseurs ; les formations seront donc
-                    jug&eacute;es plus importantes par la direction et les
-                    contrema&icirc;tres.
-                </p>
-                <ExampleInAction id="cocoa">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Exemple d&apos;action: Le secteur
-                            international du chocolat et du cacao&nbsp;
-                        </strong>
-                    </h2>
-                    <p>
-                        Le secteur international du chocolat et du
-                        cacao&nbsp;travaille depuis de nombreuses ann&eacute;es
-                        &agrave; la r&eacute;duction du travail des enfants dans
-                        ses cha&icirc;nes d&rsquo;approvisionnement, surtout en
-                        C&ocirc;te d&rsquo;Ivoire et au Ghana. R&eacute;cemment,
-                        neuf grandes soci&eacute;t&eacute;s de production de
-                        cacao et de chocolat se sont r&eacute;unies pour
-                        soutenir ensemble l&rsquo;
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.worldcocoafoundation.org/about-wcf/cocoaaction/"
-                            title="Initiative CocoaAction de la World Cocoa Foundation"
-                        >
-                            initiative CocoaAction de la World Cocoa Foundation
-                        </a>
-                        . CocoaAction est une initiative sectorielle volontaire
-                        bas&eacute;e sur la vision de la promotion d&rsquo;une
-                        cha&icirc;ne d&rsquo;approvisionnement du cacao durable
-                        et socialement responsable offrant un mode de vie
-                        rentable aux cultivateurs de cacao et leurs familles et
-                        une am&eacute;lioration sensible de la qualit&eacute; de
-                        vie des communaut&eacute;s productrices de cacao. Les
-                        soci&eacute;t&eacute;s membres de CocoaAction se sont
-                        engag&eacute;es &agrave; partager et &agrave;
-                        &eacute;changer des informations et les bonnes pratiques
-                        pour des activit&eacute;s men&eacute;es par leur
-                        initiative. Elles ont &eacute;galement affect&eacute; un
-                        financement &agrave; la mise en &oelig;uvre des
-                        m&ecirc;mes interventions centrales et consensuelles. En
-                        outre, elles sont convenues d&rsquo;un cadre commun et
-                        finalis&eacute; de mesure des r&eacute;sultats et
-                        d&rsquo;indicateurs de performance cl&eacute;s, qui leur
-                        permettront de mesurer les progr&egrave;s atteints et de
-                        soutenir les conclusions li&eacute;es &agrave; leur
-                        strat&eacute;gie d&rsquo;ensemble.
-                    </p>
-                    <p>
-                        Les interventions centrales de CocoaAction se
-                        r&eacute;partissent en deux ensembles:
-                        productivit&eacute; et d&eacute;veloppement
-                        communautaire. Le volet productivit&eacute; a pour
-                        objectif d&rsquo;aider &agrave; augmenter la production
-                        de cacao et les revenus des cultivateurs, l&rsquo;un des
-                        r&eacute;sultats escompt&eacute;s &eacute;tant
-                        d&rsquo;aider les producteurs &agrave; envoyer leurs
-                        enfants &agrave; l&rsquo;&eacute;cole et donc de
-                        r&eacute;duire l&rsquo;exploitation des enfants dans le
-                        cadre du travail. La partie d&eacute;veloppement
-                        communautaire quant &agrave; elle accorde la
-                        priorit&eacute; aux activit&eacute;s autour de la
-                        r&eacute;duction du travail des enfants, de
-                        l&rsquo;enseignement primaire et de
-                        l&apos;autonomisation des femmes. Dans le cadre de
-                        CocoaAction, les soci&eacute;t&eacute;s visent le
-                        renforcement des Comit&eacute;s de protection des
-                        enfants, avec pour objectif de sensibiliser davantage
-                        sur l&rsquo;importance de la protection des enfants et
-                        de la r&eacute;duction du travail des enfants. En outre,
-                        au travers du renforcement des Comit&eacute;s de gestion
-                        scolaire, les soci&eacute;t&eacute;s membres visent
-                        l&rsquo;am&eacute;lioration de la capacit&eacute; des
-                        &eacute;coles et des communaut&eacute;s &agrave;
-                        augmenter le nombre d&rsquo;&eacute;coles primaires qui
-                        fonctionnent de mani&egrave;re effective. Enfin, en
-                        proposant des cours de formation et des activit&eacute;s
-                        g&eacute;n&eacute;ratrices de revenus, CocoaAction vise
-                        &agrave; augmenter les capacit&eacute;s, les
-                        opportunit&eacute;s et l&rsquo;influence des femmes dans
-                        les communaut&eacute;s cacaoy&egrave;res.
-                        L&apos;autonomisation des femmes peut en effet avoir une
-                        incidence positive sur la r&eacute;duction du travail,
-                        comme en a &eacute;t&eacute; t&eacute;moin l&rsquo;une
-                        des communaut&eacute;s cacaoy&egrave;res, o&ugrave;,
-                        gr&acirc;ce &agrave; des activit&eacute;s
-                        g&eacute;n&eacute;ratrices de revenus soutenues par
-                        l&rsquo;une des soci&eacute;t&eacute;s membres de
-                        CocoaAction, les femmes de la communaut&eacute; ont
-                        lev&eacute; des fonds pour restaurer des salles de
-                        classe.
-                    </p>
-                    <p>
-                        Ces interventions centrales sont associ&eacute;es
-                        &agrave; la cr&eacute;ation de syst&egrave;mes de
-                        surveillance et d&apos;&eacute;radication du travail des
-                        enfants dans l&rsquo;ensemble des cha&icirc;nes
-                        d&rsquo;approvisionnement et au sein des
-                        communaut&eacute;s, l&rsquo;objectif ultime &eacute;tant
-                        de r&eacute;duire sensiblement le travail des enfants
-                        dans les communaut&eacute;s cacaoy&egrave;res
-                        ivoiriennes et ghan&eacute;ennes.
-                    </p>
-                    <p>
-                        Pour plus d&apos;informations, voir le{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.dol.gov/sites/default/files/documents/ilab/CLCCG%202016%20Annual%20Report.pdf"
-                            title="Rapport annuel 2016 du Groupe de coordination sur le travail des enfants dans la cacaoculture"
-                        >
-                            rapport annuel 2016 du Groupe de coordination sur le
-                            travail des enfants dans la cacaoculture
-                        </a>
-                        .
-                    </p>
-                </ExampleInAction>
-                <p>
-                    Le programme de l&apos;OIT d&rsquo;
+                    Exemple 1: Cha&icirc;nes d&apos;approvisionnement du cacao
+                    (C&ocirc;te d&apos;Ivoire et Ghana) <br /> Exemple&nbsp;2:
+                    Cha&icirc;nes d&apos;approvisionnement de
+                    l&apos;&eacute;lectronique&nbsp;&ndash;{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.ilo.org/empent/Projects/score/lang--en/index.htm"
-                        title="Appui des entreprises comp&eacute;titives et responsables (SCORE)"
+                        href="https://www.resolve.ngo/site-eiscm/default.htm?RD=1"
+                        title="Cobalt, Tantale, et &Eacute;tain"
                     >
-                        appui des entreprises comp&eacute;titives et
-                        responsables (SCORE)
-                    </a>{" "}
-                    a mis au point un programme de formation pour
-                    accro&icirc;tre la productivit&eacute; des petites et
-                    moyennes entreprises (PME) tout en favorisant la
-                    reconnaissance des normes internationales du travail de
-                    l&apos;OIT et le respect de ces normes et en
-                    am&eacute;liorant les conditions de travail. SCORE offre une
-                    «&nbsp;formation des formateurs&nbsp;» aux organismes
-                    publics, aux associations sectorielles et aux syndicats,
-                    ainsi qu&rsquo;&agrave; d&rsquo;autres organisations qui
-                    pr&eacute;sentent alors ce programme de formation aux PME.
-                    SCORE est actuellement actif dans les &eacute;conomies
-                    &eacute;mergentes de l&rsquo;ensemble de l&rsquo;Afrique, de
-                    l&rsquo;Asie et de l&rsquo;Am&eacute;rique latine, et
-                    en&nbsp;avril&nbsp;2017, plus d&rsquo;un millier de PME
-                    repr&eacute;sentant plus de 270&nbsp;000&nbsp;travailleurs
-                    avaient particip&eacute; &agrave; des formations
-                    organis&eacute;es par SCORE.&nbsp;
+                        Cobalt, Tantale, et &Eacute;tain
+                    </a>
+                    <br /> Exemple 3: Cha&icirc;ne d&rsquo;alimentation
+                    d&rsquo;importation g&eacute;n&eacute;rique&nbsp;&ndash;
+                    mod&egrave;le de d&eacute;tail
                 </p>
                 <p>
-                    L&apos;&eacute;laboration de documents, la programmation de
-                    cours de formation, l&apos;embauche de formateurs et le
-                    suivi de l&apos;ex&eacute;cution de la formation
-                    repr&eacute;sentent tous des investissements importants. Il
-                    existe diff&eacute;rentes fa&ccedil;ons de structurer le
-                    financement de votre programme de formation. Certaines
-                    entreprises d&eacute;cident simplement d&apos;affecter une
-                    grande partie de leur budget de conformit&eacute; sociale
-                    &agrave; la formation et au renforcement des
-                    capacit&eacute;s, car elles estiment que la formation permet
-                    d&apos;&eacute;viter les probl&egrave;mes et qu&apos;elle
-                    est source d&apos;&eacute;conomies &agrave; long terme.
-                    Certaines entreprises offrent un ensemble de base
-                    d&rsquo;actions de formation &agrave; titre gracieux, mais
-                    si des violations du code sont rep&eacute;r&eacute;es, pour
-                    lesquelles une formation est obligatoire dans le cadre des
-                    r&eacute;parations, le fournisseur se charge alors de
-                    couvrir les frais de cette formation. Dans certaines
-                    relations, les vendeurs/agents ou fournisseurs sont
-                    enti&egrave;rement responsables de la formation, notamment
-                    de l&rsquo;ensemble des co&ucirc;ts en la mati&egrave;re.
+                    Les marchandises produites &agrave; partir de produits
+                    agricoles ou miniers peuvent &ecirc;tre
+                    particuli&egrave;rement difficiles &agrave; pister, car les
+                    mati&egrave;res premi&egrave;res peuvent &ecirc;tre
+                    r&eacute;colt&eacute;es ou extraites de mines dans des
+                    r&eacute;gions tr&egrave;s dispers&eacute;es, puis
+                    &ecirc;tre regroup&eacute;es ou m&eacute;lang&eacute;es
+                    tr&egrave;s t&ocirc;t dans la cha&icirc;ne
+                    d&apos;approvisionnement. Certaines coalitions
+                    d&apos;entreprises ou de l&apos;industrie ont tent&eacute;
+                    des programmes de «&nbsp;tra&ccedil;abilit&eacute;&nbsp;»
+                    pour pister certaines marchandises, en remontant la
+                    cha&icirc;ne d&apos;approvisionnement de son produit fini
+                    jusqu&apos;au point d&apos;origine.
                 </p>
+                <p>
+                    Pour &ecirc;tre clair, la cartographie des cha&icirc;nes
+                    d&apos;approvisionnement ne signifie pas
+                    n&eacute;cessairement qu&rsquo;une entreprise est
+                    responsable de toutes les incidences et de tous les risques
+                    associ&eacute;s &agrave; toutes les entit&eacute;s de la
+                    cha&icirc;ne. Comme l&apos;indiquent les{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+                        title="Principes directeurs des Nations Unies relatifs aux entreprises et aux droits de l'homme"
+                    >
+                        Principes directeurs des Nations Unies relatifs aux
+                        entreprises et aux droits de l&apos;homme
+                    </a>
+                    , «&nbsp;lorsque les entreprises comptent un grand nombre
+                    d&apos;entit&eacute;s dans leurs cha&icirc;nes de valeur, il
+                    peut &ecirc;tre difficile d&apos;exercer la diligence
+                    raisonnable pour les incidences d&eacute;favorables sur les
+                    droits de l&apos;homme de toutes ces entit&eacute;s. Si tel
+                    est le cas, les entreprises doivent recenser les domaines
+                    g&eacute;n&eacute;raux o&ugrave; le risque d&apos;incidences
+                    n&eacute;gatives sur les droits de l&apos;homme est le plus
+                    important, que cela soit d&ucirc; au cadre
+                    d&apos;exploitation de certains fournisseurs ou clients, aux
+                    activit&eacute;s, produits ou services particuliers en jeu
+                    ou &agrave; d&apos;autres consid&eacute;rations et leur
+                    conf&eacute;rer un ordre de priorit&eacute; pour
+                    l&apos;exercice de la diligence raisonnable en
+                    mati&egrave;re de droits de l&apos;homme&nbsp;». Ce
+                    processus d&apos;&eacute;tablissement des priorit&eacute;s
+                    est abord&eacute; ci-dessous.
+                </p>
+                <br />
+                <h2>
+                    Cha&icirc;nes d&apos;approvisionnement du cacao (C&ocirc;te
+                    d&apos;Ivoire et Ghana)
+                </h2>
+                <br />{" "}
+                <img
+                    src={cocoaSupplyChains}
+                    alt="Cha&icirc;nes d'approvisionnement du cacao"
+                    longdesc="#cocoa_chains"
+                />
+                <p className="small-text">
+                    Source:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.crea.org/"
+                    >
+                        Centre pour la r&eacute;flexion,
+                        l&rsquo;&eacute;ducation et l&rsquo;action (CREA).
+                    </a>
+                </p>
+                <div id="cocoa_chains">
+                    <Accordion id="cocoa-chains-acc">
+                        <Accordion.Section id="cocoa-description">
+                            <Accordion.Title>
+                                Description du graphique
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                                Ce graphique illustre les diff&eacute;rents
+                                acteurs de la cha&icirc;ne
+                                d&apos;approvisionnement du cacao: les
+                                agriculteurs, les receveurs/transporteurs, les
+                                transformateurs, les exportateurs, le
+                                march&eacute; mondial, les fabricants (qui
+                                peuvent &eacute;galement fabriquer
+                                d&rsquo;autres f&egrave;ves), les clients et les
+                                consommateurs. Ce graphique r&eacute;pertorie
+                                &eacute;galement des exemples
+                                d&rsquo;entit&eacute;s et
+                                d&rsquo;activit&eacute;s r&eacute;parties entre
+                                ces cat&eacute;gories de la cha&icirc;ne
+                                d&rsquo;approvisionnement dans deux pays: la
+                                C&ocirc;te d&rsquo;Ivoire et le Ghana. En
+                                C&ocirc;te d&rsquo;Ivoire, les agriculteurs sont
+                                par exemple les petites exploitations agricoles
+                                familiales (il en existe plus de 750&nbsp;000),
+                                les op&eacute;rations ind&eacute;pendantes et
+                                quelques coop&eacute;ratives (o&ugrave; le cacao
+                                repr&eacute;sente moins de 20&nbsp;% des
+                                cultures). Les receveurs et transporteurs
+                                comprennent les op&eacute;rateurs
+                                financ&eacute;s par des entreprises
+                                priv&eacute;es, les pisteurs et les traitants,
+                                qui disposent de moins de liens de
+                                qualit&eacute;. Les transformateurs et les
+                                exportateurs comprennent diff&eacute;rents
+                                participants, notamment les
+                                soci&eacute;t&eacute;s internationales. Cette
+                                cat&eacute;gorie comprend les producteurs de
+                                produits semi-finis. Au Ghana, les agriculteurs
+                                sont par exemple les petites exploitations
+                                agricoles familiales (dont le nombre
+                                d&eacute;passe les 600&nbsp;000), les
+                                op&eacute;rations ind&eacute;pendantes et
+                                quelques coop&eacute;ratives (o&ugrave; le cacao
+                                repr&eacute;sente moins de 10&nbsp;% des
+                                cultures). L&rsquo;achat initial des
+                                f&egrave;ves de cacao est effectu&eacute; par
+                                des acheteurs agr&eacute;&eacute;s (LBC).
+                                L&rsquo;Office du cacao du Ghana (COCOBOD) et
+                                ses organisations affili&eacute;es
+                                s&rsquo;assurent que la vente est assortie
+                                d&rsquo;exigences de qualit&eacute;. Au Ghana,
+                                les transformateurs et les exportateurs sont
+                                notamment le COCOBOD et des entreprises
+                                internationales. Cette cat&eacute;gorie comprend
+                                les producteurs de produits semi-finis. Le
+                                graphique indique &eacute;galement des
+                                &eacute;tapes finales similaires dans le
+                                processus des deux pays. Les f&egrave;ves et les
+                                produits issus des petites exploitations
+                                agricoles familiales passent au march&eacute;
+                                mondial. Les fabricants poursuivent la
+                                fabrication des produits. Les magasins,
+                                restaurants et petites entreprises correspondent
+                                aux clients. Et les consommateurs sont les
+                                clients finaux.&nbsp;
+                            </Accordion.Panel>
+                        </Accordion.Section>
+                    </Accordion>
+                </div>
+                <br />
+                <h2>
+                    Cha&icirc;ne d&rsquo;approvisionnement d&rsquo;importation
+                    g&eacute;n&eacute;rique&nbsp;&ndash; mod&egrave;le de
+                    d&eacute;tail
+                </h2>
+                <br />{" "}
+                <img
+                    src={genericImport}
+                    alt="Cha&icirc;ne d&rsquo;approvisionnement d&rsquo;importation g&eacute;n&eacute;rique&nbsp;- mod&egrave;le de d&eacute;tail"
+                    longdesc="#generic_import"
+                />
+                <p className="small-text">
+                    Source:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://corporate.target.com/"
+                    >
+                        Target Corporation.
+                    </a>
+                </p>
+                <div>
+                    <Accordion id="generic-import-acc">
+                        <Accordion.Section id="generic-import-description">
+                            <Accordion.Title>
+                                Description du graphique
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                                <p>
+                                    Ce graphique illustre les &eacute;tapes
+                                    d&rsquo;une cha&icirc;ne
+                                    d&rsquo;approvisionnement
+                                    d&rsquo;importation g&eacute;n&eacute;rique.
+                                    La description d&rsquo;une cha&icirc;ne
+                                    d&rsquo;approvisionnement mod&egrave;le de
+                                    d&eacute;tail typique commence ainsi:
+                                </p>
+                                <ul>
+                                    <li>
+                                        Premi&egrave;re &eacute;tape:
+                                        d&eacute;veloppement du produit.
+                                        &Agrave; ce stade, le concept du produit
+                                        et un fournisseur sont choisis, et le
+                                        produit re&ccedil;oit sa conception
+                                        finale. C&apos;est &eacute;galement
+                                        l&agrave; que le financement est
+                                        d&eacute;cid&eacute; et intervient cinq
+                                        &agrave; neuf mois avant la date de mise
+                                        en magasin.
+                                    </li>
+                                    <li>
+                                        Deuxi&egrave;me &eacute;tape: commande
+                                        et production. Au cours de cette
+                                        &eacute;tape se produisent le placement
+                                        et la classification du produit; un
+                                        acheteur envoie un bon de commande
+                                        &eacute;lectronique au fournisseur, au
+                                        commissionnaire en douane, au
+                                        transitaire et &agrave; la banque.
+                                        Viennent ensuite le choix de
+                                        l&rsquo;usine et les tests de
+                                        pr&eacute;production, suivis de la
+                                        production de la marchandise par
+                                        l&rsquo;usine pour v&eacute;rifier
+                                        l&apos;assurance qualit&eacute; et la
+                                        conformit&eacute; sociale. Cette
+                                        &eacute;tape intervient deux &agrave;
+                                        cinq&nbsp;mois avant la date de mise en
+                                        magasin.
+                                    </li>
+                                    <li>
+                                        Troisi&egrave;me &eacute;tape:
+                                        r&eacute;servation du transporteur. Le
+                                        vendeur proc&egrave;de &agrave; une
+                                        r&eacute;servation de fret aupr&egrave;s
+                                        d&rsquo;un transitaire et le livre
+                                        &agrave; un terminal ou une station de
+                                        fret de conteneur (CFS). Cette
+                                        &eacute;tape se produit deux &agrave;
+                                        quatre&nbsp;mois avant la date de mise
+                                        en magasin.
+                                    </li>
+                                    <li>
+                                        Quatri&egrave;me &eacute;tape:
+                                        traitement des documents et
+                                        exp&eacute;dition. Le fournisseur remet
+                                        les documents d&apos;entr&eacute;e au
+                                        commissionnaire de transport et
+                                        r&egrave;gle les charges locales. Le
+                                        transitaire envoie &eacute;galement les
+                                        documents au courtier, par voie
+                                        &eacute;lectronique. Un
+                                        r&eacute;c&eacute;piss&eacute; de
+                                        transitaire est remis au fournisseur
+                                        (dont il a besoin pour &ecirc;tre
+                                        pay&eacute;). &Agrave; ce stade, le
+                                        manifeste &agrave; 24&nbsp;heures et les
+                                        informations relatives au classement de
+                                        s&eacute;curit&eacute; de
+                                        l&rsquo;importateur (ISF) sont
+                                        &eacute;galement &agrave; remettre
+                                        &agrave; la douane am&eacute;ricaine.
+                                        Apr&egrave;s le d&eacute;part du moyen
+                                        de transport, le transitaire envoie les
+                                        informations d&rsquo;exp&eacute;dition
+                                        par voie &eacute;lectronique au
+                                        commissionnaire en douane et &agrave;
+                                        l&rsquo;acheteur. Cette &eacute;tape se
+                                        d&eacute;roule un &agrave;
+                                        deux&nbsp;mois avant la date de mise en
+                                        magasin.
+                                    </li>
+                                    <li>
+                                        Cinqui&egrave;me &eacute;tape:
+                                        d&eacute;douanement. Le courtier
+                                        re&ccedil;oit les documents
+                                        d&apos;entr&eacute;e
+                                        &eacute;lectroniques, il les passe en
+                                        revue et en assure la
+                                        v&eacute;rification. Il d&eacute;pose
+                                        alors une demande d&apos;entr&eacute;e
+                                        aupr&egrave;s des douanes
+                                        am&eacute;ricaines et autres organismes
+                                        publics. &Agrave; cette &eacute;tape,
+                                        l&apos;acheteur envoie &eacute;galement
+                                        des instructions d&apos;affectation au
+                                        d&eacute;groupement. Puis le moyen de
+                                        transport arrive et le conteneur est
+                                        d&eacute;douan&eacute; pour
+                                        distribution. Tout cela se
+                                        d&eacute;roule un mois avant la date de
+                                        mise en magasin.
+                                    </li>
+                                    <li>
+                                        Sixi&egrave;me &eacute;tape:
+                                        d&eacute;groupement/exp&eacute;dition
+                                        &agrave; la destination finale. Elle se
+                                        d&eacute;roule deux semaines avant la
+                                        date de mise en magasin. La livraison
+                                        est organis&eacute;e au centre de
+                                        d&eacute;groupement (ou &agrave; la
+                                        destination finale). Les services de
+                                        d&eacute;consolidation distribuent
+                                        ensuite le produit conform&eacute;ment
+                                        aux instructions d&rsquo;affectation de
+                                        l&rsquo;acheteur. Le produit est
+                                        livr&eacute; au centre de distribution,
+                                        &agrave; l&rsquo;entrep&ocirc;t ou au
+                                        magasin. Une section Modalit&eacute;s et
+                                        informations suppl&eacute;mentaires sur
+                                        le graphique d&eacute;finit les
+                                        acronymes utilis&eacute;s dans
+                                        l&rsquo;illustration et mentionne
+                                        &eacute;galement que tous les
+                                        importateurs ne proc&egrave;dent pas
+                                        &agrave; une classification des produits
+                                        au d&eacute;but de la cha&icirc;ne
+                                        d&rsquo;approvisionnement.
+                                    </li>
+                                </ul>
+                            </Accordion.Panel>
+                        </Accordion.Section>
+                    </Accordion>
+                </div>
             </div>
         </StaticData>
     );

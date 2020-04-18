@@ -1,199 +1,179 @@
 import React from "react";
 import StaticData from "../../../../../components/StaticData";
-const ms = () => {
+const en = () => {
     return (
         <StaticData>
             <div>
                 <ol>
                     <li>
-                        Edmonds, Casper.{" "}
-                        <em>
-                            Ethical considerations when conducting research on
-                            children in the worst forms of child labour in
-                            Nepal, 2005;{" "}
-                        </em>
+                        American Bar Association. <em>Model Policies, </em>2014;
                         available from{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://white.lim.ilo.org/ipec/documentos/2005_ethical_considerations_nepal_trilingual_es.pdf"
-                            title=". Ethical considerations when conducting research on children in the worst forms of child labour in Nepal, 2005"
+                            href="http://www.americanbar.org/content/dam/aba/administrative/business_law/aba_model_policies.authcheckdam.pdf"
+                            title="Model Policies, 2014"
                         >
-                            http://white.lim.ilo.org/ipec/documentos/2005_ethical_considerations_nepal_trilingual_es.pdf
+                            http://www.americanbar.org/content/dam/aba/administrative/business_law/aba_model_policies.authcheckdam.pdf
                         </a>
                         .
                     </li>
                     <li>
-                        <em>
-                            Combating Forced Labour: A Handbook for Employers
-                            and Business.
-                        </em>{" "}
-                        Geneva, 2015; available from{" "}
+                        <em>Dhaka Principles for Migration with Dignity</em>,
+                        2012; available from{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/topics/forced-labour/lang--en/index.htm"
-                            title="Combating Forced Labour: A Handbook for Employers and Business."
+                            href="http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf"
+                            title="Dhaka Principles for Migration with Dignity"
                         >
-                            http://www.ilo.org/global/topics/forced-labour/lang--en/index.htm
+                            http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf
                         </a>
                         .
                     </li>
                     <li>
-                        <em>Decent work and the informal economy</em>. Geneva,
-                        2002; available from{" "}
+                        ICCR. <em>Statement of Principles, </em>2013; available
+                        from{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/public/english/standards/relm/ilc/ilc90/pdf/rep-vi.pdf"
-                            title="Decent work and the informal economy"
+                            href="http://www.iccr.org/sites/default/files/resources_attachments/2013ICCR_HTPrinciplesFINAL112013.pdf"
+                            title="Statement of Principles"
                         >
-                            http://www.ilo.org/public/english/standards/relm/ilc/ilc90/pdf/rep-vi.pdf
+                            http://www.iccr.org/sites/default/files/resources_attachments/2013ICCR_HTPrinciplesFINAL112013.pdf
                         </a>
                         .
                     </li>
                     <li>
+                        ISEAL.{" "}
                         <em>
-                            Eliminating and Preventing Forced Labour:
-                            Checkpoints;{" "}
+                            Code of Good Practice: Setting Social and
+                            Environmental Standards v 5.0
                         </em>
-                        March 1, 2016; available from{" "}
+                        . Germany, June, 2010; available from{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm."
-                            title="Eliminating and Preventing Forced Labour: Checkpoints"
+                            href="https://www.ftc.gov/sites/default/files/documents/public_events/enforceable-codes-conduct-protecting-consumers-across-borders/iseal-code-good-practice.pdf"
+                            title="Code of Good Practice: Setting Social and Environmental Standards v 5.0"
                         >
-                            http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm.
+                            https://www.ftc.gov/sites/default/files/documents/public_events/enforceable-codes-conduct-protecting-consumers-across-borders/iseal-code-good-practice.pdf
                         </a>
+                        .
                     </li>
                     <li>
+                        Kolk, Ans. &ldquo;Corporate social responsibility in the
+                        coffee sector: The dynamics on MNC responses and code
+                        development&rdquo;,{" "}
+                        <em>European Management Journal </em>23, no. 2 (April
+                        2005): 228-236.
+                    </li>
+                    <li>
+                        U.N. Global Compact.{" "}
                         <em>
-                            Hard to See, Harder to Count: Survey guidelines to
-                            estimate forced labour of adults and children
+                            A Guide for Business: How to Develop a Human Rights
+                            Policy
                         </em>
-                        . Geneva, 2011; available from{" "}
+                        , 2011; available from{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/publications/books/WCMS_182084/lang--es/index.htm"
-                            title="Hard to See, Harder to Count: Survey guidelines to estimate forced labour of adults and children"
+                            href="http://www.ohchr.org/Documents/Publications/DevelopHumanRightsPolicy_en.pdf"
+                            title=">A Guide for Business: How to Develop a Human Rights Policy"
                         >
-                            http://www.ilo.org/global/publications/books/WCMS_182084/lang--es/index.htm
+                            http://www.ohchr.org/Documents/Publications/DevelopHumanRightsPolicy_en.pdf
                         </a>
                         .
                     </li>
                     <li>
-                        ILO-IPEC.{" "}
+                        U.N. Global Compact.{" "}
                         <em>
-                            Guidelines for developing child labour monitoring
-                            (CLM) processes.
-                        </em>{" "}
-                        2005; available from{" "}
+                            A Guide for Integrating Human Rights Into Business
+                            Management
+                        </em>
+                        , 2nd ed., 2009; available from{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/ipecinfo/product/viewProduct.do;?productId=1500"
-                            title="Guidelines for developing child labour monitoring (CLM) processes."
+                            href="http://www.ohchr.org/Documents/Publications/GuideHRBusinessen.pdf"
+                            title="A Guide for Integrating Human Rights Into Business Management"
                         >
-                            http://www.ilo.org/ipecinfo/product/viewProduct.do;?productId=1500
+                            http://www.ohchr.org/Documents/Publications/GuideHRBusinessen.pdf
                         </a>
                         .
                     </li>
                     <li>
-                        <em>Mini Action Guide on Forced Labour,</em> 2008,
+                        U.N. Global Compact.{" "}
+                        <em>Human Rights and Business Learning Tool</em>;
                         available from{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ituc-csi.org/IMG/pdf/guide_forced_labour_EN.pdf"
-                            title="Mini Action Guide on Forced Labour"
+                            href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://human-rights-and-business-learning-tool.unglobalcompact.org/&amp;exitTitle=human-rights-and-business-learning-tool.unglobalcompact.org&amp;fedpage=no"
+                            title="Human Rights and Business Learning Tool"
                         >
-                            http://www.ituc-csi.org/IMG/pdf/
-                            <br /> guide_forced_labour_EN.pdf
+                            http://human-rights-and-business-learning-tool.unglobalcompact.org
                         </a>
                         .
                     </li>
                     <li>
-                        LeBaron, Genevieve and Jane Lister,{" "}
+                        U.N. Global Compact.{" "}
                         <em>
-                            Ethical Audits and the Supply Chains of Global
-                            Corporations.{" "}
+                            From Principles to Practice: The Role of SA8000 in
+                            Implementing the U.N. Global Compact
                         </em>
-                        Sheffield Political Economy Research Institute, January
-                        2016; available from{" "}
+                        , 2010; available from{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://speri.dept.shef.ac.uk/wp-content/uploads/2016/01/Global-Brief-1-Ethical-Audits-and-the-Supply-Chains-of-Global-Corporations.pdf"
-                            title="Ethical Audits and the Supply Chains of Global Corporations."
+                            href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.unglobalcompact.org/docs/issues_doc/labour/tools_guidance_materials/Principles_to_Practice.pdf&amp;exitTitle=www.unglobalcompact.org&amp;fedpage=no"
+                            title="From Principles to Practice: The Role of SA8000 in Implementing the U.N. Global Compact"
                         >
-                            http://speri.dept.shef.ac.uk/wp-content/uploads/2016/01/Global-Brief-1-Ethical-Audits-and-the-Supply-Chains-of-Global-Corporations.pdf
+                            http://www.unglobalcompact.org/docs/issues_doc/labour/tools_guidance_materials/
+                            <br /> Principles_to_Practice.pdf
                         </a>
                         .
                     </li>
                     <li>
-                        <span lang="fr">Verit&eacute;</span>.{" "}
-                        <em>Fair Hiring Toolkit; </em>available from{" "}
+                        U.N. Global Compact and the Office of the High
+                        Commissioner of Human Rights.{" "}
+                        <em>Embedding Human Rights in Business Practice IV</em>,
+                        2013; available from{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.unglobalcompact.org/library/401"
+                            title="Embedding Human Rights in Business Practice IV"
+                        >
+                            https://www.unglobalcompact.org/library/401
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Verit&eacute;.{" "}
+                        <em>Fair Hiring Toolkit; available from</em>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://helpwanted.verite.org/helpwanted/toolkit"
                             title="Fair Hiring Toolkit"
                         >
-                            http://helpwanted.verite.org/helpwanted/toolkit
+                            &nbsp;http://helpwanted.verite.org/helpwanted/toolkit
                         </a>
                         .
                     </li>
                     <li>
-                        <span lang="fr">Verit&eacute;</span>.{" "}
-                        <em>
-                            Responsible Sourcing Tool: Recruitment and
-                            Employment Benchmarks;{" "}
-                        </em>
+                        Verit&eacute;. <em>Responsible Sourcing Tool; </em>
                         available from{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.responsiblesourcingtool.org/recruitmentandemployment"
-                            title="Responsible Sourcing Tool: Recruitment and Employment Benchmarks"
+                            href="http://www.responsiblesourcingtool.org/codeofconduct"
+                            title="Responsible Sourcing Tool"
                         >
-                            http://www.responsiblesourcingtool.org/recruitmentandemployment
+                            http://www.responsiblesourcingtool.org/codeofconduct
                         </a>
                         .
-                    </li>
-                    <li>
-                        <span lang="fr">Verit&eacute;</span>.{" "}
-                        <em>
-                            Responsible Sourcing Tool: Sample Supplier
-                            Self-Assessment;
-                        </em>{" "}
-                        available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://responsiblesourcingtool.org/supplierselfassessment"
-                            title="Responsible Sourcing Tool: Sample Supplier Self-Assessment"
-                        >
-                            http://responsiblesourcingtool.org/supplierselfassessment
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        <span lang="fr">Verit&eacute;</span>.{" "}
-                        <em>
-                            Responsible Sourcing Tool: Conducting Migrant Worker
-                            Interviews;{" "}
-                        </em>
-                        available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.responsiblesourcingtool.org/workerinterviews"
-                            title="Responsible Sourcing Tool: Conducting Migrant Worker Interviews"
-                        >
-                            http://www.responsiblesourcingtool.org/workerinterviews
-                        </a>
                     </li>
                 </ol>
             </div>
@@ -201,4 +181,4 @@ const ms = () => {
     );
 };
 
-export default ms;
+export default en;

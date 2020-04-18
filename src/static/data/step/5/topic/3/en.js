@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import usFlag from "../../../../../images/us_flag.png";
 import verite from "../../../../../images/verite.png";
@@ -10,1037 +10,594 @@ const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>Audit Tools</h1>
+                <h1>Standards on Child Labor and Forced Labor</h1>
                 <p>
-                    Audit tool formats vary; some are on paper (later
-                    transcribed into an electronic system), while others are
-                    programmed into handheld electronic devices. Electronic
-                    tools are not necessarily superior to paper-based ones, but
-                    they do allow for greater efficiency and quicker reporting
-                    back to non-field-based team members.
+                    Every company&rsquo;s code and audit tools should include
+                    the following standards set forth in ILO Conventions:
                 </p>
-                <p>
-                    Audit tools are essentially sets of questions that flow
-                    directly from the code of conduct; in a sense, they
-                    &ldquo;translate&rdquo; the broader statements in the code
-                    into specific data points that must be gathered to assess
-                    compliance with the code.
-                </p>
-                <p>
-                    For example, with respect to child labor, a code of conduct
-                    might say:
-                </p>
+                <h2>Child Labor</h2>
                 <ul>
                     <li>
-                        Suppliers shall not employ children under age 15 or the
-                        minimum age for work as defined by local law, whichever
-                        is higher.
+                        The minimum age for work should be 15 years old, or 14
+                        if countries have ratified Convention 138 and submitted
+                        a justification for a lower minimum age to the ILO upon
+                        ratification.
+                    </li>
+                    <li>
+                        It is permissible for children and young persons below
+                        the minimum age for work to perform work{" "}
+                        <em>in schools </em>for general, vocational or technical
+                        education.
+                    </li>
+                    <li>
+                        It is also permissible for children aged 14 and above to
+                        perform work outside of school that is part of a
+                        vocational or occupational training program with certain
+                        safeguards.
+                    </li>
+                    <li>
+                        Children ages 13 to 15 (12 to 14 in countries with a
+                        minimum age of 14) are permitted to perform &ldquo;light
+                        work&rdquo; that is not harmful to their health or
+                        development and does not interfere with school so long
+                        as the country sets forth the specified activities
+                        children can do, the number of hours, and the conditions
+                        of activities.
                     </li>
                 </ul>
                 <p>
-                    Based on this code provision, the audit tool would then
-                    guide the auditor to examine issues such as:
+                    The following consist of the Worst Forms of Child Labor and
+                    should be prohibited to all children under age 18:
                 </p>
-                <ul>
+                <ol type="a">
                     <li>
-                        What proof of age documentation is required at the time
-                        of hire? How is this documentation verified? Where is
-                        proof of age documentation kept?
+                        All forms of slavery or practices similar to slavery,
+                        such as the sale and trafficking of children, debt
+                        bondage and serfdom and forced or compulsory labor,
+                        including forced or compulsory recruitment of children
+                        for use in armed conflict;
                     </li>
                     <li>
-                        If there are children under age 15 in the facility, are
-                        they working in a legal apprenticeship or training
-                        program? What documentation does the facility keep to
-                        verify that this is a legitimate apprenticeship or
-                        training program?
+                        the use, procuring or offering of a child for
+                        prostitution, for the production of pornography or for
+                        pornographic performances;
                     </li>
                     <li>
-                        Are they doing &ldquo;light work&rdquo; as defined in
-                        local law or international standards? How does the
-                        facility define and document &ldquo;light work&rdquo;?
+                        the use, procuring or offering of a child for illicit
+                        activities, in particular for the production and
+                        trafficking of drugs as defined in the relevant
+                        international treaties; or
                     </li>
                     <li>
-                        What are the working conditions of all persons under age
-                        18? What specific tasks are they performing? What
-                        equipment are they using? Can any of these tasks or
-                        equipment be hazardous?
+                        work which, by its nature or the circumstances in which
+                        it is carried out, is likely to harm the health, safety
+                        or morals of children.
                     </li>
-                    <li>
-                        How does the facility distinguish between hazardous and
-                        non-hazardous tasks, and how is the facility ensuring
-                        that persons under 18 do not engage in hazardous tasks
-                        in violation of international law?
-                    </li>
-                </ul>
+                </ol>
                 <p>
-                    Forced labor is an extremely complex labor rights violation
-                    that can take many forms. The ILO&rsquo;s{" "}
+                    Source: Article 3 of{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_099626/lang--en/index.htm"
-                        title="Combating Forced Labour: A Handbook for Employers and Business, Booklet 4"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
+                        title="ILO Convention 182"
+                    >
+                        ILO Convention 182
+                    </a>
+                    .
+                </p>
+                <h3>Hazardous Work for Children</h3>
+                <p>
+                    The hazardous work referred to in ILO Convention 182 Article
+                    3(d) &ldquo;shall be determined by national laws or
+                    regulations or by the competent authority, after
+                    consultation with the organizations of employers and workers
+                    concerned, taking into consideration relevant international
+                    standards&hellip;&rdquo; [ILO Convention 182, Article 4]. As
+                    this suggests, forms of work identified as
+                    &ldquo;hazardous&rdquo; for children [Article 3(d)] may vary
+                    from country to country.&nbsp;Countries develop their own
+                    lists of hazardous work prohibited to all children under age
+                    18. ILO Recommendation No. 190, which accompanies ILO
+                    Convention 182, gives additional guidance on identifying
+                    &ldquo;hazardous work.&rdquo; ILO Recommendation No. 190
+                    states in Section II, Paragraph 3 that &ldquo;[i]n
+                    determining the types of work referred to under Article 3(d)
+                    of the Convention [ILO Convention 182], and in identifying
+                    where they exist, consideration should be given, inter alia
+                    to:
+                </p>
+                <ol type="a">
+                    <li>
+                        work which exposes children to physical, psychological
+                        or sexual abuse;
+                    </li>
+                    <li>
+                        work underground, under water, at dangerous heights or
+                        in confined spaces;
+                    </li>
+                    <li>
+                        work with dangerous machinery, equipment and tools, or
+                        which involves the manual handling or transport of heavy
+                        loads;
+                    </li>
+                    <li>
+                        work in an unhealthy environment which may, for example,
+                        expose children to hazardous substances, agents or
+                        processes, or to temperatures, noise levels, or
+                        vibrations damaging to their health;
+                    </li>
+                    <li>
+                        work under particularly difficult conditions such as
+                        work for long hours or during the night or work where
+                        the child is unreasonably confined to the premises of
+                        the employer.&rdquo;
+                    </li>
+                </ol>
+                <h2>Forced Labor / Trafficking in Persons</h2>
+                <p>
+                    All codes of conduct should include provisions prohibiting
+                    forced labor and trafficking in persons. Forced labor and
+                    trafficking are closely related and in some instances
+                    overlapping phenomena, and these issues are often combined
+                    into one category in a code of conduct.
+                </p>
+                <p>
+                    In{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_099625/lang--en/index.htm"
+                        title="Combating Forced Labor: A Handbook for Employers and Business, Booklet 3"
                     >
                         <em>
-                            Combating Forced Labour: A Handbook for Employers
-                            and Business, Booklet 4
+                            Combating Forced Labor: A Handbook for Employers and
+                            Business, Booklet 3
                         </em>
                     </a>
-                    <em>, </em>contains a useful checklist and guidance for
-                    auditors and compliance personnel to identify forced labor
-                    at the enterprise level and in global supply chains. In
-                    2016, the ILO also launched a mobile app,{" "}
+                    <em>, </em>the ILO provides guidance on forced labor
+                    standards that companies should consider including in their
+                    codes. Other useful resources on policies and standards
+                    include the{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm"
-                        title="Checkpoints for Companies: Eliminating and Preventing Forced Labour"
+                        href="https://business-humanrights.org/en/pdf-athens-ethical-principles"
+                        title="Athens Ethical Principles"
                     >
-                        Checkpoints for Companies: Eliminating and Preventing
-                        Forced Labour
-                    </a>
-                    , which allows companies, auditors, and compliance personnel
-                    to create interactive checklists to help eliminate and
-                    prevent forced labor in business operations. The below
-                    questions, excerpted from an ILO publication, can help an
-                    auditor identify specific forms of forced labor.&nbsp;
-                </p>
-                <h2>
-                    Table 1: Indicators of Forced Labor Through Recruitment
-                    Practices
-                </h2>
-                <ol>
-                    <li>
-                        Were any workers born or descended into "slave" or
-                        bonded status?
-                    </li>
-                    <li>
-                        Were any workers abducted, confined during the
-                        recruitment process, or sold into this job?
-                    </li>
-                    <li>
-                        Were any workers recruited through some form of debt
-                        arrangement, such as an advance or loan, which they are
-                        working to pay off?
-                    </li>
-                    <li>
-                        At the time of recruitment, were any workers told they
-                        would be doing work of a different nature from the work
-                        they are currently performing?
-                    </li>
-                    <li>
-                        At the time of recruitment, were any workers promised
-                        certain working conditions, employment contract terms,
-                        living conditions, job locations, employers, or
-                        wages/earnings that are different from what they
-                        actually receiving?
-                    </li>
-                    <li>
-                        At the time of recruitment, were workers offered
-                        marriage as an incentive?
-                    </li>
-                </ol>
-                <h2>
-                    Table 2: Indicators of Forced Labor Through Work and Life
-                    Under Duress
-                </h2>
-                <ol>
-                    <li>
-                        Are any workers working excessive overtime beyond legal
-                        limits?
-                    </li>
-                    <li>
-                        Are any workers forced to work &ldquo;on call&rdquo;
-                        (day or night)?
-                    </li>
-                    <li>
-                        Does the employer restrict workers&rsquo; freedom of
-                        movement or communication with others inside or outside
-                        the workplace?
-                    </li>
-                    <li>
-                        If workers&rsquo; lodging is provided by the employer,
-                        are the living conditions degrading?
-                    </li>
-                    <li>
-                        Does the employer force workers to engage in illicit
-                        activities, to work for his/her private home or family,
-                        or to take addictive drugs?
-                    </li>
-                    <li>
-                        Does the employer impose or inflate workers&rsquo;
-                        indebtedness through means such as falsifying work
-                        records, inflating prices for goods that workers are
-                        obliged to purchase, reducing the value of goods or
-                        services produced by workers, charging excessive
-                        interest on loans or advances to workers, etc.?
-                    </li>
-                    <li>
-                        Are any workers dependent on the employer for housing,
-                        food, and other necessities?
-                    </li>
-                    <li>
-                        Do any workers have dependency relationships with the
-                        employer that go beyond the job, e.g., personal
-                        relationship, dependency on the employer for family
-                        members&rsquo; employment, etc.?
-                    </li>
-                </ol>
-                <h2>
-                    Table 3: Indicators of Forced Labor Through Impossibility of
-                    Leaving
-                </h2>
-                <ol>
-                    <li>
-                        Do any workers feel they do not have freedom to resign
-                        the job because of training other benefits they have
-                        received from the employer?
-                    </li>
-                    <li>
-                        Can workers terminate employment at any time, without
-                        penalty (except as provided by law)?
-                    </li>
-                    <li>
-                        Do any workers feel compelled to stay in the job because
-                        they are waiting for wages they are due?
-                    </li>
-                    <li>
-                        Are any workers working for an excessive or indefinite
-                        period of time in order to repay a debt or advance from
-                        the employer or recruiter?
-                    </li>
-                </ol>
-                <h2>Table 4: Indicators of Penalties or Threats</h2>
-                <p>
-                    If any of the indicators listed above are present (note that
-                    any one indicator is enough; one is not needed from each
-                    table), the auditor should examine whether penalties or
-                    threats are being used to exact labor. If so, the situation
-                    may constitute forced labor:
-                </p>
-                <ol>
-                    <li>
-                        Does the employer (or recruiter) threaten to turn
-                        workers over to government authorities (e.g. immigration
-                        authorities)?
-                    </li>
-                    <li>
-                        Has the employer (or recruiter) taken possession of
-                        workers&rsquo; identity papers or travel documents?
-                    </li>
-                    <li>
-                        Does the employer restrict workers&rsquo; communication,
-                        such as by confiscating mobile phones, isolating workers
-                        from others, locking workers in the workplace or living
-                        quarters, or constant surveillance?
-                    </li>
-                    <li>
-                        Does the employer (or recruiter) perpetrate or threaten
-                        any physical or sexual violence against workers
-                        including violent punishment of one worker in front of
-                        other workers?
-                    </li>
-                    <li>
-                        Does the employer punish or threaten to punish workers
-                        through any other means, such as deprivation of food,
-                        water or sleep, or make threats against their family
-                        members?
-                    </li>
-                    <li>
-                        Does the employer (or recruiter) threaten to remove
-                        privileges such as promotion potential?
-                    </li>
-                    <li>
-                        Does the employer threaten further deterioration in
-                        working conditions?
-                    </li>
-                    <li>
-                        Does the employer (or recruiter) exploit religious or
-                        cultural beliefs to threaten workers?
-                    </li>
-                    <li>
-                        Does the employer (or recruiter) withhold workers&rsquo;
-                        assets, such as personal property, cash, etc.?
-                    </li>
-                    <li>Does the employer withhold workers&rsquo; pay?</li>
-                    <li>Does the employer threaten to fire/dismiss workers?</li>
-                    <li>
-                        Does the employer threaten extra work for workers who do
-                        not cooperate?
-                    </li>
-                    <li>Does the employer threaten financial penalties?</li>
-                    <li>
-                        Does the employer (or recruiter) threaten to withhold
-                        future employment opportunities, to impose financial
-                        penalties, to exclude workers from social or community
-                        activities, or use any form of blackmail to coerce
-                        workers?
-                    </li>
-                </ol>
-                <p>
-                    Many companies&rsquo; audit tools are proprietary, so it can
-                    be difficult to find samples to guide the development of
-                    your own. The{" "}
+                        Athens Ethical Principles,
+                    </a>{" "}
+                    a set of seven anti-trafficking principles to which
+                    companies can voluntarily commit, and its accompanying{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://responsiblesourcingtool.org/"
+                        href="https://fpbb.pl/user_upload/static/file/Luxor_Implementation_Guidelines_Ethical_Principles.pdf"
+                        title="Luxor Implementation Guidelines"
+                    >
+                        Luxor Implementation Guidelines
+                    </a>
+                    , which can assist companies to incorporate anti-trafficking
+                    provisions into their codes; the{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.iccr.org/"
+                        title="Interfaith Center on Corporate Responsibility&rsquo;s (ICCR)"
+                    >
+                        Interfaith Center on Corporate Responsibility&rsquo;s
+                        (ICCR)
+                    </a>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.iccr.org/sites/default/files/resources_attachments/2013ICCR_HTPrinciplesFINAL112013.pdf"
+                        title="Statement of Principles &amp; Recommended Practices for Confronting Human Trafficking &amp; Modern Slavery"
+                    >
+                        Statement of Principles &amp; Recommended Practices for
+                        Confronting Human Trafficking &amp; Modern Slavery
+                    </a>
+                    ; and the American Bar Association&rsquo;s (ABA){" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.americanbar.org/content/dam/aba/administrative/business_law/aba_model_policies.authcheckdam.pdf"
+                        title="Model Business and Supplier Policies on Labor Trafficking and Child Labor"
+                    >
+                        Model Business and Supplier Policies on Labor
+                        Trafficking and Child Labor
+                    </a>
+                    .
+                </p>
+                <p>
+                    In recent years, as companies have learned more about the
+                    nature of forced labor and the forms it takes in supply
+                    chains, they have begun integrating new provisions into
+                    codes of conduct. Examples include prohibitions on worker
+                    payment of recruitment fees, and requirements for suppliers
+                    to do &ldquo;direct hiring&rdquo; or &ldquo;direct
+                    employment&rdquo; of workers. A 2016 Hewlett Packard
+                    Enterprise* policy document explains the risk-based reasons
+                    why the company chose to move to a &ldquo;direct
+                    employment&rdquo; policy.
+                </p>
+                <OwnWords>
+                    <h3>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h3>
+                    <p>
+                        <strong>Transitioning to Direct Employment</strong>
+                    </p>
+                    <p>
+                        &ldquo;Based on independent research and audit results,
+                        foreign migrant workers who are employed through
+                        outsourced employment relationships are often found to
+                        be more vulnerable to exploitation than those employed
+                        directly by suppliers. While many suppliers undertake
+                        extensive monitoring of the recruitment agents employing
+                        and managing their workers, many violations remain
+                        difficult to detect and address. Until there are
+                        significant structural reforms to the recruitment agent
+                        systems in both sending and receiving countries we
+                        believe that direct employment by suppliers is necessary
+                        to offer greater protections to foreign migrant workers.
+                    </p>
+                    <p>
+                        This means that with respect to HP suppliers, all
+                        foreign migrant workers must be employed and paid
+                        directly by the supplier, not by agents, sub-agents, or
+                        third parties. Recognizing that many suppliers rely on
+                        recruitment agents, at least in part, to handle on-site
+                        management of foreign migrant workers, there will be a
+                        need for a transition period to move all new and
+                        existing foreign migrant workers to direct
+                        employment.&rdquo;
+                    </p>
+                    <p>
+                        Hewlett Packard Enterprise*,{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www8.hp.com/h20195/v2/GetPDF.aspx/c05116077.pdf"
+                            title="Hewlett Packard Company Supply Chain Foreign Migrant Worker Standard Guidance Document"
+                        >
+                            <em>
+                                Hewlett Packard Company Supply Chain Foreign
+                                Migrant Worker Standard Guidance Document,
+                            </em>
+                        </a>{" "}
+                        April 27, 2016
+                    </p>
+                </OwnWords>
+                <p>
+                    A key resource for developing specific code of conduct
+                    provisions to prevent forced labor in global supply chains
+                    is the{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.responsiblesourcingtool.org/"
                         title="Responsible Sourcing Tool"
                     >
                         Responsible Sourcing Tool
                     </a>{" "}
-                    (RST) includes Sample Benchmarks of Good Practice in
-                    Recruitment and Employment to translate into measurable and
-                    actionable data points the requirements and good practices
-                    outlined in its Sample Code of Conduct Provisions,
-                    referenced in{" "}
-                    <Link to="/steps/3">Step 3, Develop a Code of Conduct</Link>
-                    . These benchmarks, which cover a range of areas related to
-                    forced labor and human trafficking, including recruitment
-                    fees, contracts of employment, document retention, and
-                    freedom of movement, can serve as a basis for the
-                    development of audit instruments and for establishing and
-                    monitoring key performance indicators to evaluate the
-                    performance of suppliers and labor agents.
+                    (RST). Launched in 2016 by{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.verite.org/"
+                        title="Verit&eacute;"
+                    >
+                        Verit&eacute;
+                    </a>{" "}
+                    and the U.S. Department of State, the RST provides a set of
+                    compliance-oriented resources and risk-management tools for
+                    companies, federal contractors, procurement and contracting
+                    professionals, advocates, investors, consumers, and other
+                    stakeholders that wish to identify, prevent, and address
+                    forced labor in supply chains. Tool 1,{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.responsiblesourcingtool.org/codeofconduct"
+                        title="Sample Code of Conduct Provisions"
+                    >
+                        Sample Code of Conduct Provisions
+                    </a>
+                    , contains forced labor-related provisions that can be
+                    incorporated into a company or industry code of conduct. The
+                    RST also contains additional tools related to responsible
+                    labor recruitment, including Tool 3,{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.responsiblesourcingtool.org/laborrecruitments"
+                        title="Criteria for Screening and Evaluating Labor Recruitment Candidates"
+                    >
+                        Criteria for Screening and Evaluating Labor Recruitment
+                        Candidates
+                    </a>
+                    , which assists companies in conducting due diligence in the
+                    screening and selection of labor recruiters to minimize the
+                    risk of human trafficking as a result of fraudulent or
+                    misleading recruitment practices.
                 </p>
-                <ExampleInAction id="rst1a">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb" /> Example in
-                        Action: Responsible Sourcing Tool 1A
-                    </h2>
+                <ExampleInAction id="rst1">
+                    <h3>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action:{" "}
+                            <span>Responsible Sourcing Tool 1</span>
+                        </strong>
+                    </h3>
                     <VeriteFlagWrapper>
                         <UsFlag src={usFlag} alt="US Flag" />
                         <Verite src={verite} alt="Verite sign" />
                     </VeriteFlagWrapper>
-                    <p>
+                    <p style={{ color: "black" }}>
                         <strong>
                             PROTECTIONS AGAINST TRAFFICKING IN PERSONS{" "}
                         </strong>
                     </p>
-                    <p>
-                        <strong>
-                            Sample Benchmarks of Good Practice in Recruitment
-                            and Employment
-                        </strong>
+                    <p style={{ color: "black" }}>
+                        <strong>Sample Code of Conduct Provisions </strong>
                     </p>
                     <p>
-                        <strong>HUMAN TRAFFICKING</strong>
+                        A supply chain Code of Conduct establishes basic
+                        performance expectations for subcontractors, suppliers
+                        and agents. It is important that a company&rsquo;s
+                        sourcing policy or Code of Conduct explicitly prohibits
+                        human trafficking and sets out protections for workers.
+                        The sample provisions below can be used by any company,
+                        including federal contractors and their subcontractors,
+                        as they consider how best to create, strengthen or
+                        revise their own supply chain policies.
                     </p>
                     <p>
-                        Company policies and practices express a clear
-                        prohibition of, forced, compulsory, bonded, or
-                        indentured labor that applies to all entities in its
-                        supply chain, including those involved in the
-                        recruitment, selection, and hiring of workers. Company
-                        policies and practices also express a clear prohibition
-                        of sex trafficking and procurement of commercial sex.
+                        The sample Code provision addresses factors that are
+                        &ldquo;enablers&rdquo; or contributors to situations or
+                        risks of human trafficking but is not intended to ensure
+                        compliance with specific legal requirements, such as
+                        Federal Acquisition Regulation (FAR). Specific
+                        compliance requirements should be detailed in the terms
+                        and conditions of contracts with subcontractors,
+                        suppliers and agents.
                     </p>
-                    <ul>
-                        <li>
-                            Clear and transparent human resource practices on
-                            recruitment, contracts, wages and working hours are
-                            adopted by the company and its subcontractors to
-                            minimize the risk of human trafficking.
-                        </li>
-                        <li>
-                            The company, and suppliers, subcontractors or agents
-                            acting on its behalf, comply with all relevant local
-                            laws and regulations, including those concerning the
-                            prohibition of forced labor and human trafficking in
-                            each jurisdiction in which they operate.
-                        </li>
-                        <li>
-                            The workplace is free of any form of, forced,
-                            compulsory, bonded, or indentured labor, or
-                            involuntary prison labor.
-                        </li>
-                        <li>
-                            Workers enter into employment freely and employment
-                            terms and conditions are agreed to voluntarily,
-                            without deception or threat of penalty.
-                        </li>
-                        <li>All work is voluntary.</li>
-                        <li>
-                            Workers have the freedom to terminate their
-                            employment at any time without penalty, given notice
-                            of reasonable length (not to exceed 30 days).
-                        </li>
-                    </ul>
+                    <p>
+                        <strong>HUMAN TRAFFICKING</strong>: The Company strictly
+                        prohibits human trafficking in all of our operations and
+                        in those of all subcontractors, suppliers and agents in
+                        our global supply chain. Workers shall not be subject to
+                        any form of forced, compulsory, bonded, or indentured
+                        labor. All work must be voluntary and workers shall have
+                        the freedom to terminate their employment at any time
+                        without penalty, upon giving reasonable notice.&nbsp;
+                    </p>
                     <p>
                         <strong>
                             RECRUITMENT FEES AND TRANSPORTATION EXPENSES
                         </strong>
+                        : Workers shall not be charged any fees or costs for
+                        recruitment, directly or indirectly, in whole or in
+                        part, including costs associated with travel to the
+                        receiving country, and processing official job-related
+                        documents and work visas in both home and host
+                        countries. Workers shall be provided with return
+                        transportation to their country of origin, or
+                        compensation for the cost of return transportation, upon
+                        completion of their employment contract.
                     </p>
                     <p>
-                        The company has a written policy declaring that workers
-                        shall not pay any amount to secure a job with the
-                        company or with a supplier or subcontractor.
+                        <strong>CONTRACTS OF EMPLOYMENT</strong>: Written
+                        contracts of employment shall be provided to migrant
+                        workers in their native language, clearly indicating
+                        their rights and responsibilities and conditions of
+                        employment, including wages, benefits, working hours,
+                        locations of the work, living conditions, housing and
+                        associated costs, work-related hazards, and other
+                        working and employment conditions.
                     </p>
-                    <ul>
-                        <li>
-                            The job advertisements from the company and its
-                            subcontractors and suppliers include the statement
-                            that no fees shall be charged at any phase in the
-                            recruitment and hiring process.
-                        </li>
-                        <li>
-                            The employer covers all recruitment and processing
-                            fees, costs, and expenses, including those
-                            associated with securing identity cards, medical
-                            certificates and examinations, skills testing, and
-                            travel from the worker&rsquo;s home to the location
-                            of employment.
-                        </li>
-                        <li>
-                            The employer fully covers the cost of return
-                            transportation to the worker&rsquo;s country of
-                            origin upon completion of their employment contract.
-                        </li>
-                        <li>
-                            The company has mechanisms to continuously monitor
-                            and ensure that workers are not charged any amount
-                            to secure a job.
-                        </li>
-                        <li>
-                            The company only engages recruiters, agents, and
-                            sub-agents who do not charge fees to jobseekers.
-                        </li>
-                        <li>
-                            The company, or subcontractors acting on its behalf,
-                            has means of informing jobseekers at the point of
-                            recruitment that workers do not pay fees or costs
-                            for any services directly related to obtaining
-                            employment.
-                        </li>
-                        <li>
-                            The company or receiving country recruiter has a
-                            verification process to ensure that workers are not
-                            charged any fees.
-                        </li>
-                        <li>
-                            Workers found to have been charged fees are repaid,
-                            and contracts with recruiters found to have charged
-                            fees are terminated.
-                        </li>
-                    </ul>
                     <p>
-                        <strong>CONTRACTS OF EMPLOYMENT</strong>
+                        Migrant workers shall be provided with a copy of their
+                        employment contract at least five days prior to
+                        deployment in their native language. Workers with
+                        difficulty understanding the written contract shall be
+                        given a verbal explanation of the contract&rsquo;s terms
+                        and conditions.
                     </p>
-                    <ul>
-                        <li>
-                            All candidates are clearly informed of the terms and
-                            conditions of employment, and successful candidates
-                            are provided a copy of the contract at least five
-                            days prior to deployment.
-                        </li>
-                        <li>
-                            The company explains the terms and conditions of the
-                            contract in the workers&rsquo; native language, and
-                            has means to verify that the terms are clearly
-                            understood and fully agreed to by the workers.
-                        </li>
-                        <li>
-                            Employment contracts clearly specify the rights and
-                            responsibilities of workers with regard to wages,
-                            benefits, hours of work, including regular hours and
-                            overtime requirements, days off and annual leave,
-                            location of the work, living conditions, housing
-                            arrangements, work related hazards, and disciplinary
-                            and other procedures that can lead to termination,
-                            as well as appeal procedures and grievance
-                            mechanisms consistent with applicable law.
-                        </li>
-                        <li>
-                            The details of working conditions described at the
-                            point of recruitment are consistent with the details
-                            contained in the employment contract at the time of
-                            hiring, and with actual job conditions and
-                            responsibilities.
-                        </li>
-                        <li>
-                            Company policy prohibits the substitution of
-                            original contract provisions with those that are
-                            less favorable to the worker. Any amendments made to
-                            improve conditions are made with the knowledge and
-                            the informed, written consent of the worker.
-                        </li>
-                        <li>
-                            Changes to working conditions are made with the
-                            knowledge and consent of the worker. Consent is
-                            obtained voluntarily and without the threat of
-                            penalty. No changes are made that in any way
-                            diminish the worker&rsquo;s originally anticipated
-                            wages, benefits, or other conditions of work; or
-                            place the worker in a position of physical or mental
-                            risk or peril, or other form of disadvantage or
-                            vulnerability.
-                        </li>
-                        <li>
-                            Employment contracts clearly stipulate the rights
-                            and responsibilities of each party regarding the
-                            termination of employment.
-                        </li>
-                        <li>
-                            Employment contracts clearly specify the
-                            circumstances in which a worker can terminate his or
-                            her contract without penalty, given reasonable
-                            notice, and in accordance with national law. The
-                            required notice period for workers to terminate
-                            their contracts early shall not exceed one month or
-                            as specified by local law, whichever is shortest.
-                        </li>
-                        <li>
-                            The notice period shall be waived in situations
-                            where the worker has suffered harassment or abuse,
-                            or is a victim of trafficking in persons. In such
-                            cases the employer shall also be responsible for
-                            paying the cost of return transportation for the
-                            affected worker.
-                        </li>
-                    </ul>
                     <p>
-                        <strong>DOCUMENT RETENTION</strong>
+                        The use of supplemental agreements and the practice of
+                        contract substitution or use of supplemental agreements
+                        by the employer to replace an original contract or any
+                        of its provisions with a new contract or terms that are
+                        less favorable to the worker is strictly prohibited. The
+                        required notice period for workers to terminate their
+                        contracts early shall not exceed one month, and once
+                        they have begun working, migrant workers shall not be
+                        penalized for early termination of their employment
+                        contract upon giving the required notice.
                     </p>
-                    <ul>
-                        <li>
-                            Applicants&rsquo; or workers&rsquo; identity or
-                            immigration documents, including passports,
-                            residency or work permits, or other personal
-                            documents, such as bank books or automatic teller
-                            machine (ATM) cards, are not destroyed, concealed,
-                            confiscated, or otherwise denied access by the
-                            worker, for any reason.
-                        </li>
-                        <li>
-                            In the event that personal documents are held by the
-                            employer or subcontractor due to legal requirements,
-                            these are immediately returned to the worker upon
-                            demand and without any preconditions. In such
-                            circumstances, the employer or subcontractor:
-                            <ul>
-                                <li>
-                                    Provides workers with an exact copy of
-                                    personal documentation when not in their
-                                    possession;
-                                </li>
-                                <li>
-                                    Develops written policies and procedures to
-                                    prevent abuse;
-                                </li>
-                                <li>
-                                    Nominates a responsible person to ensure
-                                    workers have unhindered access to their
-                                    documents upon demand; and
-                                </li>
-                                <li>Notifies workers of these procedures.</li>
-                            </ul>
-                        </li>
-                        <li>
-                            Lengthy or otherwise burdensome prerequisites for
-                            accessing one&rsquo;s passport or other personal
-                            documents, such as written requests, monetary
-                            deposits or waiting periods, are strictly
-                            prohibited.
-                        </li>
-                        <li>
-                            Workers are provided with individual locked, secure
-                            storage space for personal documents and valuables
-                            at both their employer-provided accommodation and
-                            workplace.
-                        </li>
-                    </ul>
                     <p>
-                        <strong>DEPOSITS</strong>
+                        The notice period shall be waived in situations where
+                        the worker has suffered harassment or abuse, or is a
+                        victim of trafficking in persons. In such cases the
+                        employer shall also be responsible for paying the cost
+                        of return transportation for the affected worker.
                     </p>
-                    <ul>
-                        <li>
-                            Workers are not required to post a bond at the time
-                            of recruitment or at any other time during the
-                            employment relationship.
-                        </li>
-                        <li>
-                            The company policies strictly prohibit the
-                            collection of monetary deposits or security
-                            payments.
-                        </li>
-                        <li>
-                            The company, or subcontractor acting on its behalf,
-                            withholds portions of workers&rsquo; pay only where
-                            it is legally required.
-                        </li>
-                        <li>
-                            In those cases where migrant workers have opted to
-                            participate in voluntary savings schemes facilitated
-                            by their employer, such workers have unhindered
-                            access to and full control over all savings and
-                            monies owed.
-                        </li>
-                    </ul>
                     <p>
-                        <strong>HUMANE TREATMENT</strong>
+                        <strong>RETENTION OF PERSONAL DOCUMENTS</strong>:
+                        Confiscating, destroying, withholding or otherwise
+                        denying workers&rsquo; access to their identity or
+                        immigration documents, including work permits and travel
+                        documentation (e.g. passports), is strictly prohibited.
                     </p>
-                    <ul>
-                        <li>
-                            Company policies and procedures prohibit sanctions
-                            that impose work or wage deductions, or reductions
-                            in benefits as a means to discipline workers.
-                        </li>
-                        <li>
-                            No form of compulsory labor is imposed on any
-                            worker.
-                        </li>
-                        <li>
-                            The policy of the company, or subcontractor acting
-                            on its behalf, strictly prohibits the use or threat
-                            of physical or sexual violence, harassment and
-                            intimidation, and senior management has expressed
-                            clear commitment to this policy.
-                        </li>
-                        <li>
-                            Effective measures are in place to implement,
-                            monitor, and ensure company-wide compliance with
-                            this policy.
-                        </li>
-                        <li>
-                            There is no evidence of complaints, grievances, or
-                            actions taken against the company, its managers or
-                            supervisors, or its subcontractors, suppliers and
-                            agents, with respect to violence, intimidation, or
-                            harassment in the workplace. In cases where a
-                            complaint or grievance has been raised, evidence
-                            should show that swift and transparent action was
-                            taken to address it.
-                        </li>
-                    </ul>
                     <p>
-                        <strong>WORKPLACE EQUALITY</strong>
+                        Workers must be provided with individual secure and
+                        lockable storage facilities for their identification
+                        documents and other valuables that are accessible to
+                        them at all times.
                     </p>
-                    <ul>
-                        <li>
-                            All workers, regardless of their national origin,
-                            ethnicity, race, or legal status, are treated
-                            equally in the workplace.
-                        </li>
-                        <li>
-                            Migrant workers are treated no less favorably than
-                            country nationals with respect to:
-                            <ul>
-                                <li>
-                                    Remuneration, hours of work, overtime
-                                    arrangements, and holidays with pay;
-                                </li>
-                                <li>Access to training;</li>
-                                <li>
-                                    Eligibility for promotion and wage
-                                    increases;
-                                </li>
-                                <li>
-                                    Membership in labor unions or other worker
-                                    organizations;
-                                </li>
-                                <li>Accommodation; and</li>
-                                <li>
-                                    Benefits and social insurance, including
-                                    social security, maternity and sick leave,
-                                    disability and employment injury insurance.
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            The company, or subcontractors acting on its behalf,
-                            explicitly prohibits the abuse of vulnerability of
-                            migrant workers, including the threat of
-                            denunciation to authorities as a means of coercion.
-                        </li>
-                    </ul>
                     <p>
-                        <strong>WAGES AND BENEFITS</strong>
+                        <strong>DEPOSITS</strong>: Migrant workers shall not be
+                        required to lodge monetary deposits or security
+                        payments, or have a portion of their pay withheld at any
+                        time as a condition of obtaining or retaining
+                        employment.
                     </p>
-                    <ul>
-                        <li>
-                            The freedom of workers to dispose of their wages as
-                            they choose is not limited in any way.
-                        </li>
-                        <li>
-                            Wages specified in employment contracts meet legal
-                            minimum wage. In the absence of a legal minimum
-                            wage, wages are at least the industry prevailing
-                            wage for similar work in the immediate area in the
-                            country of employment, and wage calculations are
-                            equitable and objective.
-                        </li>
-                        <li>
-                            Wage payments are not deferred, delayed, or withheld
-                            as a means of binding workers to employment.
-                        </li>
-                        <li>
-                            Non-cash or &ldquo;in-kind&rdquo; payments in lieu
-                            of wages are not used.
-                        </li>
-                        <li>
-                            Wage rates and payments are calculated with full
-                            transparency.
-                        </li>
-                        <li>
-                            The calculation and payment of wages, including
-                            legal wage deductions, are clearly explained to and
-                            understood by all workers.
-                        </li>
-                        <li>
-                            No unlawful or unauthorized deductions are made from
-                            workers&rsquo; wages. Any deductions from wages are
-                            clearly described in the employment contract and
-                            undertaken with written worker consent.
-                        </li>
-                        <li>
-                            Wage deductions levied for tardiness or absence are
-                            not excessive and do not exceed the time missed on
-                            the job, for example 10 minutes worth of pay for 10
-                            minutes tardiness.
-                        </li>
-                        <li>
-                            Wage advances or loans provided to workers, along
-                            with related interest rates, comply with the law, at
-                            a minimum. Additionally:
-                            <ul>
-                                <li>
-                                    Interest rates and repayment terms are fair.
-                                    Payments do not exceed 10 percent of a
-                                    worker&rsquo;s monthly wage, such that loans
-                                    can be repaid in a reasonable amount of time
-                                    not exceeding six months;
-                                </li>
-                                <li>
-                                    The calculation of interest rates for loans
-                                    and advances, and wage deductions made for
-                                    their repayment are made with complete
-                                    transparency to the worker;
-                                </li>
-                                <li>
-                                    Interest rates do not exceed the local
-                                    prevailing local market bank rates;
-                                </li>
-                                <li>
-                                    The terms of wage advances and their
-                                    repayment are agreed to by both parties in
-                                    advance and in written form.
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            Jobseekers, applicants or workers are not required
-                            to participate in any form of forced or mandatory
-                            savings in order to recoup costs associated with
-                            recruitment or other services.
-                        </li>
-                        <li>
-                            If migrant workers pay for employer provided or
-                            arranged housing and food, such charges:
-                            <ul>
-                                <li>
-                                    Do not exceed market rates or the rate paid
-                                    by local workers;
-                                </li>
-                                <li>
-                                    Do not aid companies or subcontractors in
-                                    earning a profit at workers&rsquo; expense;
-                                    and
-                                </li>
-                                <li>
-                                    Are not part of efforts to reclaim placement
-                                    fees or other fees paid by employers for
-                                    recruiting workers.
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
                     <p>
-                        <strong>WORKING HOURS</strong>
+                        <strong>HUMANE TREATMENT</strong>: The workplace shall
+                        be free of any form of harsh or inhumane treatment.
+                        Disciplinary policies and procedures shall be clearly
+                        defined and communicated to all workers, and shall not
+                        include any inhumane disciplinary measures, including
+                        any corporal punishment, mental or physical coercion, or
+                        verbal abuse of workers. The use or threat of physical
+                        or sexual violence, harassment and intimidation against
+                        a worker, his or her family, or close associates, is
+                        strictly prohibited. Disciplinary procedures shall not
+                        include sanctions that result in wage deductions,
+                        reductions in benefits, or compulsory labor.
                     </p>
-                    <ul>
-                        <li>
-                            Workers are not forced to work more than the number
-                            of hours allowed by national law, or, where the law
-                            is silent, working hours do not exceed eight per day
-                            and 48 per week, and total working hours including
-                            overtime does not exceed 60 hours in a week.
-                        </li>
-                        <li>
-                            Effective workplace and company-wide measures are
-                            adopted to ensure full implementation and compliance
-                            with this policy, including continuous monitoring of
-                            hours worked to identify workers at risk of
-                            exceeding the limit, coordination of production and
-                            manpower planning, etc.
-                        </li>
-                        <li>
-                            All overtime work is purely voluntary, unless
-                            specifically stated otherwise in a legally
-                            recognized collective bargaining agreement.
-                        </li>
-                        <li>
-                            Workers track their own working hours using an
-                            electronic or other objective, verifiable
-                            timekeeping system.
-                        </li>
-                        <li>
-                            Workers are free to refuse overtime work without
-                            threat or fear of punishment or reprisal.
-                        </li>
-                        <li>
-                            For those that agree to work overtime, a system is
-                            in place to obtain their written consent at the time
-                            of the request.
-                        </li>
-                        <li>
-                            In cases where remuneration is based on productivity
-                            targets, for example piece rate, workers are not
-                            forced to work more overtime hours than allowed by
-                            national law in order to achieve their production
-                            quota.
-                        </li>
-                    </ul>
+                    <p>
+                        <strong>WORKPLACE EQUALITY</strong>: All workers,
+                        irrespective of their nationality or legal status, shall
+                        be treated fairly and equally. Migrant workers shall
+                        benefit from conditions of work no less favorable than
+                        those available to country nationals (including but not
+                        limited to wages, benefits, and accommodations). Migrant
+                        workers (or their family members) shall not be
+                        threatened with denunciation to authorities to coerce
+                        them into taking up or maintaining employment.
+                    </p>
+                    <p>
+                        <strong>WAGES AND BENEFITS</strong>: All workers shall
+                        be paid at least the minimum wage required by applicable
+                        laws, and shall be provided all legally mandated
+                        benefits. Wage payments shall be made at regular
+                        intervals and directly to workers, in accordance with
+                        applicable law, if any, and shall not be delayed,
+                        deferred, or withheld.
+                    </p>
+                    <p>
+                        Only deductions, advances, and loans authorized by
+                        national law are permitted and, if made or provided,
+                        shall only be taken with the full consent and
+                        understanding of workers. Information shall be provided
+                        to workers at the time of their hire about hours worked,
+                        rates of pay, and the calculation of legal deductions.
+                    </p>
+                    <p>
+                        All workers must retain full and complete control over
+                        their earnings. Wage deductions must not be used to keep
+                        workers tied to the employer or to their jobs. Workers
+                        shall not be held in debt bondage or forced to work in
+                        order to pay off a debt. Deception in wage commitments,
+                        payment, advances, and loans is prohibited.
+                    </p>
+                    <p>
+                        <strong>WORKING HOURS</strong>: Workers shall not be
+                        required to work in excess of the number of hours
+                        permitted by national law. Where the law is silent,
+                        normal working hours shall not exceed eight hours per
+                        day and 48 per week, and total working hours including
+                        overtime shall not exceed 60 hours.
+                    </p>
+                    <p>
+                        All overtime shall be purely voluntary, unless part of a
+                        legally recognized collective bargaining agreement. No
+                        worker shall be made to work overtime under the threat
+                        of penalty, dismissal, or denunciation to authorities.
+                        No worker shall be made to work overtime as a
+                        disciplinary measure, or for failure to meet production
+                        quotas.
+                    </p>
                     <p>
                         <strong>
                             FREEDOM OF MOVEMENT AND PERSONAL FREEDOM
                         </strong>
+                        : Workers shall have unrestricted access to basic
+                        necessities such as clean drinking water and toilets
+                        during both work and non-work hours at the work site or
+                        in employer provided or arranged housing.
                     </p>
-                    <ul>
-                        <li>
-                            Workers enjoy reasonable freedom of movement within
-                            their work and living environments. Any legitimate
-                            constraints on off premises movement (for example,
-                            for valid personal safety or security concerns) are
-                            specified prior to the signing of the employment
-                            contract.
-                        </li>
-                        <li>
-                            Workers have unrestricted access to basic
-                            necessities (drinking water, toilets) during both
-                            work and non-work hours.
-                        </li>
-                        <li>
-                            The presence of security personnel or other security
-                            measures in the workplace or employer or
-                            recruiter-provided or arranged residences are not
-                            used as a means to restrict worker freedom of
-                            movement.
-                        </li>
-                        <li>
-                            No other coercive means are used to restrict migrant
-                            workers&rsquo; freedom of movement or personal
-                            freedom, including confiscation of personal
-                            documents, levying of financial penalties or
-                            security deposits, or use of deception in wage
-                            payment and deductions.
-                        </li>
-                        <li>
-                            Workers are not required to live in employer- or
-                            recruiter-operated residences as a condition of
-                            employment, unless required by applicable law.
-                        </li>
-                        <li>
-                            Migrant workers are free to return to their home
-                            country during paid leave, without any penalty, or
-                            threat of termination.
-                        </li>
-                    </ul>
                     <p>
-                        <strong>GRIEVANCE PROCEDURES</strong>
+                        Workers&rsquo; freedom of movement shall not be
+                        unreasonably restricted. Workers shall not be physically
+                        confined to the workplace or related premises, such as
+                        employer- or recruiter-operated residences; nor shall
+                        any other coercive means be used to restrict
+                        workers&rsquo; freedom of movement or personal freedom.
                     </p>
-                    <ul>
-                        <li>
-                            Supplier and recruiter policy and practice reveals a
-                            functioning and effective grievance procedure
-                            available to workers in their native language.
-                        </li>
-                        <li>
-                            Effective measures are in place to ensure that
-                            migrant workers know how to use this procedure and
-                            feel safe and free from potential retaliation if
-                            doing so.
-                        </li>
-                        <li>
-                            Where grievances are raised, effective and
-                            appropriate procedures are in place to ensure a
-                            rapid and mutually agreed settlement.
-                        </li>
-                        <li>
-                            Resolution of workplace grievances are regularly
-                            reported back to all workers.
-                        </li>
-                        <li>
-                            Results of worker surveys and interviews confirm
-                            that workers both understand the means available to
-                            them to report grievances and that they trust the
-                            process to fairly address their issues.
-                        </li>
-                        <li>
-                            An effective appeals process is in place to
-                            impartially evaluate any disputed grievance
-                            resolution.
-                        </li>
-                    </ul>
+                    <p>
+                        Mandatory residence in employer-provided or arranged
+                        facilities shall not be made a condition of employment
+                        unless required by law.
+                    </p>
+                    <p>
+                        <strong>GRIEVANCE PROCEDURES</strong>: An effective,
+                        confidential grievance process shall be established to
+                        ensure that any worker, acting individually or with
+                        other workers, can submit a grievance without suffering
+                        any prejudice or retaliation of any kind. The grievance
+                        procedure shall include an appeals process for workers
+                        who disagree with how a grievance is resolved.
+                    </p>
+                    <p>
+                        Grievance mechanisms shall be available in the
+                        worker&rsquo;s native language and include the ability
+                        to report grievances anonymously.
+                    </p>
                     <p>
                         <strong>
                             PRIVATE EMPLOYMENT AGENCIES AND LABOR RECRUITERS
                         </strong>
+                        : Companies should hire workers directly whenever
+                        possible. When the subcontracting of recruitment and
+                        hiring is necessary, companies shall ensure that the
+                        labor agencies they engage operate legally, are
+                        certified or licensed by the competent authority in
+                        their country of operation, do not charge recruitment
+                        fees, use only trained employees, and do not engage in
+                        fraudulent recruitment practices that place workers at
+                        risk for human trafficking and sexual exploitation.
                     </p>
-                    <ul>
-                        <li>
-                            The company and its suppliers hire workers directly
-                            whenever possible.
-                        </li>
-                        <li>
-                            When the recruitment, selection, and hiring of
-                            workers is undertaken by a private employment agency
-                            or other third-party, suppliers shall have the
-                            responsibility to ensure that the agencies operate
-                            legally, are certified or licensed by the competent
-                            authority, use only employees trained on applicable
-                            Code and legal requirements, and do not charge
-                            recruitment fees or engage in fraudulent behavior
-                            that places workers at risk of trafficking for labor
-                            exploitation.
-                        </li>
-                        <li>
-                            The company signs a formal contract with the
-                            subcontracted agency and performs regular due
-                            diligence on the agency and its partners involved in
-                            the hiring and placement of workers.
-                        </li>
-                        <li>
-                            Effective measures are established by the company to
-                            ensure the legal compliance of sub-contractors in
-                            each jurisdiction in which they operate.
-                        </li>
-                        <li>
-                            The subcontracted agency has an up-to-date license
-                            or permit to operate in all countries of operation,
-                            and any partners or agents working on its behalf
-                            also have up-to-date permits or licenses.
-                        </li>
-                        <li>
-                            The subcontracted agency has not been cited,
-                            suspended, or otherwise sanctioned for
-                            non-compliance with any laws in any country of
-                            operation; or, where a citation for non-compliance
-                            exists, the agency can demonstrate that it has
-                            rectified the non-compliance.
-                        </li>
-                        <li>
-                            The company has mechanisms to monitor the
-                            performance of agents and recruiters to ensure that
-                            no deception, fraud and/or coercion in the
-                            recruitment, placement, transport or management of
-                            migrant workers take place.
-                        </li>
-                        <li>
-                            The company, or subcontractors acting on its behalf,
-                            provides jobseekers with accurate details of working
-                            conditions at the time of recruitment, including the
-                            nature of work, wages, benefits and duration of
-                            contract.
-                        </li>
-                        <li>
-                            Details of working and employment conditions are
-                            communicated to jobseekers in a language they
-                            understand.
-                        </li>
-                        <li>
-                            False promises are not made to applicants or workers
-                            regarding employment conditions, job locations,
-                            employment or contract duration, or anticipated
-                            earnings.
-                        </li>
-                        <li>
-                            The subcontracted agency has an implementing
-                            structure, an accountable officer, and clear
-                            procedures to ensure that all policies are compliant
-                            with all relevant legislation and regulations. This
-                            includes a current registry of laws for all
-                            countries of operation; and a mechanism that ensures
-                            the company is regularly informed of new
-                            legislation/regulations or changes in
-                            legislation/regulations.
-                        </li>
-                        <li>
-                            The subcontracted agency has a code of conduct that
-                            prohibits human trafficking and sets out protective
-                            measures for workers. The code covers principles
-                            elaborated in relevant ILO Conventions and the Code
-                            of Conduct of the International Confederation of
-                            Private Employment Agencies (CIETT), and applies to
-                            all parties in the chain of recruitment. The code is
-                            supported by an institutional structure that ensures
-                            its effective implementation.
-                        </li>
-                        <li>
-                            The subcontracted agency has established a mechanism
-                            for confidential reporting of noncompliance, a
-                            grievance mechanism, procedures of investigation and
-                            reporting on grievances, and protection for
-                            whistleblowers.
-                        </li>
-                        <li>
-                            The subcontracted agency has established effective
-                            remediation procedures in case of verified reports
-                            of noncompliance, including mechanisms to ensure the
-                            reimbursement of workers for any recruitment fees
-                            paid.
-                        </li>
-                        <li>
-                            The company, or subcontractors acting on its behalf,
-                            does not use any means to restrict migrant
-                            workers&rsquo; freedom to terminate employment, for
-                            example by levying excessive recruitment fees,
-                            requiring deposits, or withholding personal
-                            documentation.
-                        </li>
-                    </ul>
                     <p>
-                        <strong>EMPLOYEE AWARENESS AND TRAINING</strong>
+                        <strong>EMPLOYEE AWARENESS AND TRAINING</strong>:
+                        Workers must be made aware of their rights and
+                        responsibilities at the time of hire, including the
+                        terms and conditions of their employment contract, the
+                        provisions of this Code and all applicable laws and
+                        regulations of their home country, the country where the
+                        work is performed, and of any country and jurisdiction
+                        contracting the work.
                     </p>
-                    <ul>
-                        <li>
-                            All written information and training is provided in
-                            the native language of the workers.
-                        </li>
-                        <li>
-                            Workers are made aware of their rights and
-                            responsibilities, both verbally and in writing, at
-                            the time of hire including the provisions of this
-                            Code and all applicable laws and regulations of
-                            their home country, the country where the work is
-                            performed, and of any country and jurisdiction
-                            contracting the work.
-                        </li>
-                        <li>
-                            Pre-departure orientation is conducted to review
-                            contractual obligations, terms and conditions of
-                            work and other matters including but not limited to
-                            living conditions, company policies, and the
-                            grievance mechanisms in place for workers.
-                        </li>
-                        <li>
-                            Workers are trained upon arrival in the receiving
-                            country on the company&rsquo;s workplace rules and
-                            procedures, the grievance process, the housing
-                            arrangements (if provided or arranged by the
-                            company), and the conditions of work, including any
-                            health and safety hazards and the precautions needed
-                            to ensure personal safety.
-                        </li>
-                        <li>
-                            The company evaluates the effectiveness of its
-                            training and awareness efforts by measuring employee
-                            knowledge upon completion of training and
-                            periodically thereafter using surveys, interviews
-                            and other means.
-                        </li>
-                    </ul>
                     <p>
-                        <strong>Source: Responsible Sourcing Tool 1A, </strong>
+                        Workers must be trained upon arrival in the receiving
+                        country on the company&rsquo;s workplace rules and
+                        procedures, the grievance process, the housing
+                        arrangements (if provided or arranged by the company),
+                        and the conditions of work, including any health and
+                        safety hazards and the precautions needed to ensure
+                        personal safety. Workers should be informed that the
+                        company prohibits the procurement of commercial sex.
+                    </p>
+                    <p>
+                        <strong>Source: Responsible Sourcing </strong>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.responsiblesourcingtool.org/codeofconduct"
+                            title="Tool 1, Sample Code of Conduct Provisions"
+                        >
+                            <strong>
+                                Tool 1, Sample Code of Conduct Provisions
+                            </strong>
+                        </a>
+                        <strong>.</strong>
+                    </p>
+                    <p>
+                        <strong>See also Responsible Sourcing Tool 1A, </strong>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -1071,7 +628,7 @@ const en = () => {
                             href="https://www.verite.org/"
                             title="Verit&eacute;"
                         >
-                            <span lang="fr">Verit&eacute;</span>
+                            Verit&eacute;
                         </a>
                         ,{" "}
                         <a
@@ -1091,12 +648,12 @@ const en = () => {
                         >
                             Aspen Institute
                         </a>
-                        . The content of RST was provided by{" "}
-                        <span lang="fr">Verit&eacute;</span>, a labor rights
-                        organization with expertise in supply chain compliance,
-                        with funds from the U.S. Department of State&rsquo;s
-                        Office to Monitor and Combat Trafficking in Persons
-                        under Cooperative Agreement S-SJTIP-13-CA-1029
+                        . The content of RST was provided by Verit&eacute;, a
+                        labor rights organization with expertise in supply chain
+                        compliance, with funds from the U.S. Department of
+                        State&rsquo;s Office to Monitor and Combat Trafficking
+                        in Persons under Cooperative Agreement
+                        S-SJTIP-13-CA-1029
                         <strong>.</strong> The development of RST was informed
                         by experts from several U.S. government agencies,
                         including the U.S. Departments of State and Labor, and
@@ -1105,67 +662,6 @@ const en = () => {
                         personnel and federal contracting officers.
                     </p>
                 </ExampleInAction>
-                <p>
-                    Good audit tools are more than &ldquo;checklists.&rdquo;
-                    Good tools allow for recording information that auditors
-                    gain nonverbally, through observation of site conditions and
-                    workplace climate, interviewees&rsquo; body language and
-                    other cues. Auditors should research in advance any
-                    vulnerabilities that the worker population at the facility
-                    may experience, and should be attentive to subtle hints that
-                    workers may be subject to pressure or coercion. Audit tools
-                    should allow for recording information that may not be
-                    directly linked to the questions contained in the tool, but
-                    which the auditor still feels is important and relevant.
-                </p>
-                <p>
-                    Companies increasingly require their subcontractors and
-                    suppliers to perform self-assessments to highlight potential
-                    risks of forced labor and human trafficking in the supply
-                    chain. The Responsible Sourcing Tool&rsquo;s{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://responsiblesourcingtool.org/supplierselfassessment"
-                        title="Sample Supplier/Subcontractor Self-Assessment Tool"
-                    >
-                        Sample Supplier/Subcontractor Self-Assessment Tool
-                    </a>{" "}
-                    is designed to help suppliers and subcontractors determine
-                    whether their activities conform to company or industry
-                    codes of conduct, as well as highlight potential human
-                    trafficking risks in how they recruit, select, and hire
-                    workers, in how they work with labor brokers, and in how
-                    migrant workers are managed. This tool can be used variously
-                    as a supplier screening tool, to develop corrective action
-                    plans, or to establish key performance indicators to track
-                    ongoing social responsibility performance.
-                </p>
-                <p>
-                    Another important tool that can be used by any organization
-                    or an independent third party to authenticate the scope and
-                    effectiveness of the organization&rsquo;s anti-human
-                    trafficking efforts is <span lang="fr">Verit&eacute;</span>
-                    &rsquo;s{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://responsiblesourcingtool.org/download/reports/Verite_BusinessAuthenticationCriteria_r1.pdf"
-                        title="Anti-Human Trafficking Business Authentication Criteria"
-                    >
-                        Anti-Human Trafficking Business Authentication Criteria
-                    </a>
-                    . This tool provides assessors with criteria to authenticate
-                    company-level conformance with its anti-human trafficking
-                    efforts, including policy commitments, board and executive
-                    accountability, organizational structure, assessing and
-                    controlling risks, and performance expectations. It provides
-                    both leading practices for each criterion, as well as
-                    evidence needed for verification. The tool also provides
-                    guidance to assessors to authenticate site-level conformance
-                    with these efforts, including by specifying minimum
-                    requirements.
-                </p>
             </div>
         </StaticData>
     );

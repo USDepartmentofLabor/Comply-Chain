@@ -5,123 +5,199 @@ const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Mener un entretien avec un enfant</h1>
+                <h1>Rejoindre un code existant</h1>
                 <p>
-                    <em>
-                        «&nbsp;Dans le cadre du recrutement de jeunes, il est
-                        n&eacute;cessaire de s&apos;entretenir avec des enfants
-                        pour: a) &eacute;valuer leur &acirc;ge, b)
-                        &eacute;valuer leur maturit&eacute; et savoir de quel
-                        travail la personne est en mesure de s&apos;acquitter,
-                        c) d&eacute;terminer l&apos;exp&eacute;rience
-                        professionnelle possible et/ou d) s&apos;il se
-                        r&eacute;v&egrave;le que l&apos;un des travailleurs
-                        n&apos;a pas l&apos;&acirc;ge pour le type
-                        d&apos;emploi/de processus que l&apos;enfant ou le jeune
-                        ex&eacute;cute.
-                    </em>
+                    Dans certaines industries, des groupes d&apos;entreprises se
+                    sont d&eacute;j&agrave; form&eacute;s pour &eacute;laborer
+                    des syst&egrave;mes de conformit&eacute; sociale collectifs
+                    que des entreprises individuelles peuvent adopter en
+                    s&rsquo;associant au groupe. Dans la plupart des cas, ces
+                    groupes disposent d&eacute;j&agrave; d&apos;un code de
+                    conduite ou en &eacute;laborent un de concert.
                 </p>
                 <p>
-                    <em>
-                        En vous entretenant avec un enfant que vous
-                        soup&ccedil;onnez de ne pas avoir l&apos;&acirc;ge
-                        minimum exig&eacute; pour le type d&apos;emploi
-                        particulier ou si l&apos;enfant fait un travail
-                        dangereux, il est important d&apos;&eacute;tablir une
-                        atmosph&egrave;re de confiance d&eacute;tendue. Il est
-                        &eacute;galement important que la conversation se tienne
-                        dans un environnement sans perturbation, mais ni trop
-                        loin, ni hors de vue. Bref, l&apos;enfant doit se sentir
-                        autant en s&eacute;curit&eacute; que possible.
-                    </em>
-                </p>
-                <h2>
-                    <em>Que faut-il observer?</em>
-                </h2>
-                <p>
-                    <em>
-                        L&apos;enfant, gar&ccedil;on ou fille, doit &ecirc;tre
-                        trait&eacute; avec respect et &ecirc;tre
-                        consid&eacute;r&eacute; comme une personne &agrave; part
-                        enti&egrave;re.
-                    </em>
+                    Les codes sectoriels ou industriels comportent des avantages
+                    et des inconv&eacute;nients. Pour ce qui est des avantages,
+                    ils tirent parti de l&apos;exp&eacute;rience et des
+                    id&eacute;es de diff&eacute;rentes entreprises et regroupent
+                    les ressources pour minimiser la totalit&eacute; des efforts
+                    et du temps n&eacute;cessaires &agrave;
+                    l&apos;&eacute;laboration d&apos;un code. De plus, dans les
+                    secteurs tels que la confection o&ugrave; de nombreuses
+                    marques partagent les m&ecirc;mes fournisseurs, un seul code
+                    convenu garantit que les fournisseurs individuels ne
+                    subissent pas de nombreux audits relevant de
+                    diff&eacute;rents codes et qu&apos;ils peuvent se concentrer
+                    sur l&apos;am&eacute;lioration de leur conformit&eacute; par
+                    rapport &agrave; un ensemble de normes claires.
                 </p>
                 <p>
-                    <em>
-                        Deux adultes doivent toujours &ecirc;tre pr&eacute;sents
-                        pendant tout l&apos;entretien. Un adulte ne doit pas
-                        passer trop de temps seul avec des enfants, &agrave;
-                        l&apos;&eacute;cart des autres, pour ne pas
-                        entra&icirc;ner trop d&apos;inqui&eacute;tude concernant
-                        l&apos;enfant et des soup&ccedil;ons de comportement
-                        inappropri&eacute; ou mena&ccedil;ant, ou de
-                        s&eacute;vices.
-                    </em>
+                    Pour ce qui est des inconv&eacute;nients, au cours de
+                    l&apos;&eacute;laboration du code, il est possible que les
+                    entreprises membres doivent accepter des concessions sur
+                    certaines dispositions. Il est important pour une entreprise
+                    de comprendre sa cha&icirc;ne d&apos;approvisionnement, ses
+                    risques et ses difficult&eacute;s, avant de d&eacute;cider
+                    de rejoindre un code collectif, pour s&apos;assurer que ce
+                    dernier comporte des engagements politiques solides dans les
+                    domaines les plus importants et caract&eacute;ristiques de
+                    votre activit&eacute;.
                 </p>
                 <p>
-                    <em>
-                        S&apos;il s&apos;agit d&apos;un entretien avec une
-                        fille, une femme doit toujours &ecirc;tre
-                        pr&eacute;sente.
-                    </em>
-                </p>
-                <p>
-                    <em>
-                        Il est conseill&eacute; de convier &agrave;
-                        l&apos;entretien les parents ou les tuteurs de
-                        l&apos;enfant.
-                    </em>
-                </p>
-                <p>
-                    <em>
-                        Si l&apos;enfant est orphelin et qu&apos;aucun parent ou
-                        tuteur ne peut &ecirc;tre identifi&eacute;, un
-                        repr&eacute;sentant d&apos;une ONG de d&eacute;fense des
-                        droits des enfants pourra &ecirc;tre invit&eacute;.
-                    </em>
-                </p>
-                <h2>
-                    <em>Au cours d&apos;un entretien avec un enfant</em>
-                </h2>
-                <p>
-                    <em>
-                        L&apos;objectif principal de l&apos;entretien est
-                        toujours d&apos;&eacute;couter l&apos;enfant et de
-                        tenter d&apos;&eacute;tablir une &eacute;valuation
-                        d&apos;ensemble de la famille et de la situation de
-                        travail de l&apos;enfant:
-                    </em>
-                </p>
-                <div className="indent-margin">
-                    <p>
-                        <em>Motifs pour lesquels l&apos;enfant travaille</em>
-                    </p>
-                    <p>
-                        <em>
-                            Comment l&apos;enfant contribue-t-il aux revenus de
-                            la famille et quelle est la situation de sa famille
-                            (par ex., ch&ocirc;mage, maladie, etc.)?
-                        </em>
-                    </p>
-                    <p>
-                        <em>
-                            Comment l&apos;enfant comprend-il et
-                            consid&egrave;re-t-il son propre travail?&nbsp;»
-                        </em>
-                    </p>
-                </div>
-                <p>
-                    Source: Save the Children Denmark,{" "}
+                    Voici quelques exemples de codes sectoriels ou industriels:
+                    les{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.etiskhandel.no/noop/file.php?id=1580"
-                        title="Child Labour Toolkit, Responsible Approaches to Child Labour in the Textile and Garment Industry"
+                        href="https://bettercotton.org/wp-content/uploads/2014/10/production-principles-and-criteria.pdf"
+                        title="Principes et crit&egrave;res de production de la Better Cotton Initiative"
                     >
-                        Child Labour Toolkit, Responsible Approaches to Child
-                        Labour in the Textile and Garment Industry
+                        Principes et crit&egrave;res de production de la Better
+                        Cotton Initiative
                     </a>{" "}
-                    [en anglais], 2006.
+                    pour les entreprises de l&apos;ensemble de la cha&icirc;ne
+                    d&apos;approvisionnement du coton, le{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.eiccoalition.org/media/docs/EICCCodeofConduct5_English.pdf"
+                        title="Code de conduite de la Coalition pour la citoyennet&eacute; de l&rsquo;industrie &eacute;lectronique"
+                    >
+                        Code de conduite de la Coalition pour la
+                        citoyennet&eacute; de l&rsquo;industrie
+                        &eacute;lectronique
+                    </a>{" "}
+                    pour les entreprises de l&rsquo;industrie
+                    &eacute;lectronique, la{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.bonsucro.com/en/production-standard/"
+                        title="Norme de production Bonsucro"
+                    >
+                        norme de production Bonsucro
+                    </a>{" "}
+                    pour les entreprises de la cha&icirc;ne
+                    d&apos;approvisionnement du secteur de la canne &agrave;
+                    sucre, et le{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ethicaltrade.org/eti-base-code"
+                        title="Code de base de l&rsquo;Initiative pour le commerce &eacute;thique pour les entreprises de diff&eacute;rents secteurs"
+                    >
+                        Code de base de l&rsquo;Initiative pour le commerce
+                        &eacute;thique pour les entreprises de diff&eacute;rents
+                        secteurs
+                    </a>
+                    .{" "}
+                </p>
+                <p>
+                    Il existe &eacute;galement des groupes sectoriels ou
+                    industriels qui n&apos;exigent pas que leurs membres se
+                    conforment &agrave; un code sp&eacute;cifique, mais qui ont
+                    &eacute;labor&eacute; pour eux des d&eacute;clarations de
+                    politique g&eacute;n&eacute;rale et des actes
+                    d&rsquo;engagement pour adoption. L&rsquo;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.aiag.org/corporate-responsibility/supply-chain-sustainability"
+                        title="Automotive Industry Action Group"
+                    >
+                        Automotive Industry Action Group
+                    </a>
+                    * et les{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-priority-industry-principles"
+                        title="Principes sectoriels prioritaires du Consumer Goods Forum"
+                    >
+                        Principes sectoriels prioritaires du Consumer Goods
+                        Forum
+                    </a>{" "}
+                    sur le travail forc&eacute; en sont deux exemples.
+                </p>
+                <p>
+                    De m&ecirc;me, il existe des groupes multilat&eacute;raux et
+                    multipartites qui ont mis au point des recommandations au
+                    sujet d&rsquo;un produit ou d&rsquo;une gamme de produits
+                    pr&eacute;cis. Par exemple: 1) le{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.oecd.org/daf/inv/mne/mining.htm"
+                        title="Suppl&eacute;ment sur l'&eacute;tain, le tantale et le tungst&egrave;ne du Guide de l&rsquo;Organisation de coop&eacute;ration et de d&eacute;veloppement &eacute;conomiques (OCDE) sur le devoir de diligence pour des cha&icirc;nes d'approvisionnement responsables en minerais provenant de zones de conflit ou &agrave; haut risque"
+                    >
+                        {" "}
+                        le Suppl&eacute;ment sur l&apos;&eacute;tain, le tantale
+                        et le tungst&egrave;ne du Guide de l&rsquo;Organisation
+                        de coop&eacute;ration et de d&eacute;veloppement
+                        &eacute;conomiques (OCDE) sur le devoir de diligence
+                        pour des cha&icirc;nes d&apos;approvisionnement
+                        responsables en minerais provenant de zones de conflit
+                        ou &agrave; haut risque
+                    </a>
+                    ; 2) le{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://mneguidelines.oecd.org/responsible-supply-chains-textile-garment-sector.htm"
+                        title="Guide OCDE sur le devoir de diligence pour des cha&icirc;nes d'approvisionnement responsables dans le secteur de l'habillement et de la chaussure"
+                    >
+                        Guide OCDE sur le devoir de diligence pour des
+                        cha&icirc;nes d&apos;approvisionnement responsables dans
+                        le secteur de l&apos;habillement et de la chaussure
+                    </a>
+                    ; 3) le{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://mneguidelines.oecd.org/rbc-agriculture-supply-chains.htm"
+                        title="Guide OCDE pour des cha&icirc;nes d'approvisionnement agricoles responsables"
+                    >
+                        Guide OCDE pour des cha&icirc;nes
+                        d&apos;approvisionnement agricoles responsables
+                    </a>
+                    ; 4) les{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://mneguidelines.oecd.org/Practical-actions-for-worst-forms-of-child-labour-mining-sector.pdf"
+                        title="Actions pratiques de l&rsquo;OCDE pour aider les entreprises &agrave; identifier et &eacute;liminer les pires formes du travail des enfants dans les cha&icirc;nes d'approvisionnement en minerais"
+                    >
+                        Actions pratiques de l&rsquo;OCDE pour aider les
+                        entreprises &agrave; identifier et &eacute;liminer les
+                        pires formes du travail des enfants dans les
+                        cha&icirc;nes d&apos;approvisionnement en minerais
+                    </a>
+                    .
+                </p>
+                <p>
+                    Il est de plus en plus courant et b&eacute;n&eacute;fique
+                    pour les soci&eacute;t&eacute;s d&rsquo;exiger de leurs
+                    sous-traitants et de leurs fournisseurs qu&rsquo;ils
+                    souscrivent &agrave; leur code de conduite ou &agrave; un
+                    code sectoriel pertinent. L&rsquo;Outil
+                    d&rsquo;approvisionnement responsable de
+                    Verit&eacute;&rsquo;s comprend un{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.responsiblesourcingtool.org/vendoragreement"
+                        title="Exemple d&rsquo;accord de responsabilit&eacute; sociale"
+                    >
+                        Exemple d&rsquo;accord de responsabilit&eacute; sociale
+                    </a>{" "}
+                    qui permet de compl&eacute;ter les contrats et les accords
+                    pass&eacute;s entre une soci&eacute;t&eacute; et ses
+                    sous-traitants ou ses fournisseurs en mati&egrave;re
+                    d&rsquo;int&eacute;gration du code et de conformit&eacute;
+                    &agrave; celui-ci, notamment concernant les programmes
+                    d&rsquo;auto-&eacute;valuation et
+                    d&rsquo;am&eacute;lioration &eacute;labor&eacute;s pour
+                    atteindre la conformit&eacute; au code.
                 </p>
             </div>
         </StaticData>

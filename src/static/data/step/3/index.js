@@ -3,75 +3,97 @@ import { Topics } from "./topic";
 
 export const StepData = {
     en: {
-        title: "Step 3: Develop a Code of Conduct",
+        title: "Step 1: Engage Stakeholders and Partners",
         topics: Topics.en,
-        keywords: ["Code of conduct", "Code"],
+        keywords: ["Stakeholder", "Community"],
         learningObjectives: [
-            "Know the main standards that should be included in a good code of conduct.",
-            "Understand the basic steps involved in developing and revising a code.",
-            "Become familiar with industry or cross-sector codes that may be relevant to you."
+            "Understand the importance of getting external entities involved in your social compliance system.",
+            "Become familiar with the various forms that engagement can take, including specific examples of partnerships and other collaboration.",
+            "Identify and engage with your stakeholders."
         ],
         keyTerms: [
             {
-                termName: 'Code of Conduct ("Code")',
+                termName: "Stakeholder",
                 termDefinition:
-                    "The foundation of a social compliance program, a code of conduct is a document that sets out the social (and often, environmental) standards and policies with which a company and its suppliers are expected to comply.  Many companies refer to their codes by a name other than “code of conduct,” such as “terms of engagement,” “supplier expectations,” and many others, but the term is used throughout this App for consistency and clarity.A code is a set of voluntary standards; in this respect it differs from law—although relevant laws (both U.S. and source country) must be taken into account, as should collective bargaining agreements and international framework agreements (IFAs) with union federations, which are enforceable contracts.  A code is not a substitute for any of these instruments."
+                    "A person or group directly or indirectly affected by, or otherwise having an interest in, your company’s policies and/or actions.  The term stakeholder is widely used in government, business, and civil society organizations, not solely in relation to social compliance.  However, a company’s social compliance program may have a subset of stakeholders that is distinct from those of the company as a whole."
+            },
+            {
+                termName: "Community",
+                termDefinition:
+                    "For purposes of this toolkit, a community is comprised of the people in a geographic area (neighborhood, village, town, region) located at some point along your company’s supply chain. The communities in your company’s supply chains are among your stakeholders. "
             }
         ],
         furtherResources: Resources.en
     },
     es: {
-        title: "Tercer paso: Formulación de un código de conducta",
+        title:
+            "Primer paso: Participación de las partes interesadas y los socios",
         topics: Topics.es,
-        keywords: ["Código de conducta", "Código"],
+        keywords: ["Parte interesada", "Comunidad"],
         learningObjectives: [
-            "Conocer las principales normas que deben figurar en un buen código de conducta.",
-            "Comprender los pasos básicos para formular y modificar un código.",
-            "Familiarizarse con los códigos de la industria o intersectoriales que puedan ser pertinentes."
+            "Comprender la importancia de que las entidades externas participen del sistema de cumplimiento social.",
+            "Familiarizarse con las distintas formas de participación, como ejemplos específicos de alianzas y otros tipos de colaboración.",
+            "Identificar a las partes interesadas y hacerlas participar."
         ],
         keyTerms: [
             {
-                termName: "Código de conducta",
+                termName: "Parte interesada",
                 termDefinition:
-                    "La base de todo sistema de cumplimiento social. Es un documento en que se estipulan las normas y políticas sociales (e, incluso, ambientales) que se pretende que acaten las empresas y sus proveedores.  Muchas empresas se refieren a sus códigos con un nombre distinto al de “código de conducta”; algunas los denominan “condiciones de participación”, “expectativas de los proveedores” y de muchas otras maneras pero en la presente aplicación se emplea este término por motivos de coherencia interna y claridad.Un código es un conjunto de normas voluntarias; en este sentido, difiere de la ley, aunque se debe tener en cuenta la legislación aplicable (tanto de los Estados Unidos como del país en cuestión), al igual que los convenios colectivos y los acuerdos marco internacionales (IFA) con federaciones sindicales, que son contratos ejecutables.  El código no reemplaza a ninguno de estos instrumentos."
+                    "Persona o grupo afectado directa o indirectamente por las políticas o el accionar de la empresa o que tiene algún tipo de interés en ellos.  El término partes interesadas tiene un uso generalizado en el gobierno, las empresas y las organizaciones de la sociedad civil, no solamente en el contexto del cumplimiento social.  No obstante, el programa de cumplimiento social de una empresa puede tener un subconjunto de partes interesadas diferente al que tiene la empresa en general."
+            },
+            {
+                termName: "Comunidad",
+                termDefinition:
+                    "Para los fines del presente compendio de instrumentos, una comunidad está integrada por los habitantes de una zona geográfica (vecindario, aldea, pueblo, región) que se encuentra en algún punto de la cadena de suministro de la empresa. Las comunidades que se encuentran en la cadena de suministro de la empresa son algunas de las partes interesadas."
             }
         ],
         furtherResources: Resources.es
     },
     fr: {
-        title: "Troisième étape: élaborer un code de conduite",
+        title:
+            "Première étape: faire participer les parties prenantes et les partenaires",
         topics: Topics.fr,
-        keywords: ["Code de conduite", "Code"],
+        keywords: ["Partie prenante", "Communauté"],
         learningObjectives: [
-            "Connaître les principales normes qui devraient figurer dans un bon code de conduite.",
-            "Comprendre les étapes de base de l’élaboration et de la révision d’un code.",
-            "Se familiariser avec les programmes sectoriels ou intersectoriels qui peuvent vous concerner."
+            "Comprendre l’importance d’impliquer des entités extérieures dans votre système de conformité sociale.",
+            "Se familiariser avec les différentes formes que peut revêtir cet engagement, notamment des exemples précis de partenariats ou d’autres types de collaboration.",
+            "Identifier vos parties prenantes et collaborer avec elles."
         ],
         keyTerms: [
             {
-                termName: "Code de conduite (« Code »)",
+                termName: "Partie prenante",
                 termDefinition:
-                    "Base d’un programme de conformité sociale, un code de conduite est un document précisant les normes et politiques sociales (et, souvent, environnementales) avec lesquelles une entreprise et ses fournisseurs sont censés être en conformité.  Un grand nombre d’entreprises utilisent un autre terme que «&nbsp;code de conduite&nbsp;», tel que «&nbsp;conditions d’engagement&nbsp;», «&nbsp;attente envers les fournisseurs&nbsp;», etc., mais l’ensemble de cette appli utilise ce terme par souci de cohérence et de clarté.Un code constitue un ensemble de normes volontaires; à cet égard, il est différent d’une loi, bien qu’il faille prendre en compte la législation pertinente (à la fois aux États-Unis et dans le pays d’origine), de même que les conventions collectives et les accords-cadres internationaux (ACI) avec les fédérations syndicales, qui ont force exécutoire.  Un code ne saurait remplacer l’un de ces instruments quel qu’il soit."
+                    "Personne ou groupe directement ou indirectement touché par les politiques et/ou actions de votre entreprise ou ayant sinon un intérêt dans celles-ci.  Le terme partie prenante est largement utilisé par les pouvoirs publics, les entreprises et les organisations de la société civile et pas uniquement en matière de conformité sociale.  Toutefois, le programme de conformité sociale d’une entreprise peut avoir un sous-ensemble de parties prenantes différent de celui de l’ensemble de l’entreprise."
+            },
+            {
+                termName: "Communauté",
+                termDefinition:
+                    "Pour les besoins de cette boîte à outils, une communauté se compose des habitants d’une zone géographique (quartier, village, ville, région) se trouvant à un point de la chaîne d’approvisionnement de votre entreprise. Les communautés des chaînes d’approvisionnement de votre entreprise font partie de vos parties prenantes."
             }
         ],
         furtherResources: Resources.fr
     },
     ms: {
-            title: "Step 3: Develop a Code of Conduct",
+            title: "Step 1: Engage Stakeholders and Partners",
             topics: Topics.en,
-            keywords: ["Code of conduct", "Code"],
+            keywords: ["Stakeholder", "Community"],
             learningObjectives: [
-                "Know the main standards that should be included in a good code of conduct.",
-                "Understand the basic steps involved in developing and revising a code.",
-                "Become familiar with industry or cross-sector codes that may be relevant to you."
+                "Understand the importance of getting external entities involved in your social compliance system.",
+                "Become familiar with the various forms that engagement can take, including specific examples of partnerships and other collaboration.",
+                "Identify and engage with your stakeholders."
             ],
             keyTerms: [
                 {
-                    termName: 'Code of Conduct ("Code")',
+                    termName: "Stakeholder",
                     termDefinition:
-                        "The foundation of a social compliance program, a code of conduct is a document that sets out the social (and often, environmental) standards and policies with which a company and its suppliers are expected to comply.  Many companies refer to their codes by a name other than “code of conduct,” such as “terms of engagement,” “supplier expectations,” and many others, but the term is used throughout this App for consistency and clarity.A code is a set of voluntary standards; in this respect it differs from law—although relevant laws (both U.S. and source country) must be taken into account, as should collective bargaining agreements and international framework agreements (IFAs) with union federations, which are enforceable contracts.  A code is not a substitute for any of these instruments."
+                        "A person or group directly or indirectly affected by, or otherwise having an interest in, your company’s policies and/or actions.  The term stakeholder is widely used in government, business, and civil society organizations, not solely in relation to social compliance.  However, a company’s social compliance program may have a subset of stakeholders that is distinct from those of the company as a whole."
+                },
+                {
+                    termName: "Community",
+                    termDefinition:
+                        "For purposes of this toolkit, a community is comprised of the people in a geographic area (neighborhood, village, town, region) located at some point along your company’s supply chain. The communities in your company’s supply chains are among your stakeholders. "
                 }
             ],
-            furtherResources: Resources.en
+            furtherResources: Resources.ms
         }
 };

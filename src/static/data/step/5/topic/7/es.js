@@ -1,64 +1,61 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import StaticData from "../../../../../../components/StaticData";
 
 const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>
-                    Tema especial: la subcontrataci&oacute;n informal y el
-                    trabajo en el hogar
-                </h1>
+                <h1>Comunicaci&oacute;n del c&oacute;digo</h1>
                 <p>
-                    En muchos pa&iacute;ses, en particular en aquellos en
-                    v&iacute;as de desarrollo, la econom&iacute;a informal
-                    representa un segmento considerable de la econom&iacute;a
-                    general. Una gran proporci&oacute;n del trabajo
-                    agr&iacute;cola se realiza de manera informal y, en el
-                    sector manufacturero, hay partes de la producci&oacute;n que
-                    suelen subcontratarse a hogares o talleres informales.&nbsp;
+                    La comunicaci&oacute;n eficaz es un aspecto importante de
+                    todo programa de cumplimiento social. Muchas empresas se
+                    dieron cuenta de que limitarse simplemente a auditar los
+                    lugares de trabajo y remediar las infracciones no resuelve
+                    muchos de los problemas laborales presentes en lugares de
+                    cosecha, miner&iacute;a y producci&oacute;n, plantas de
+                    proceso y dem&aacute;s lugares de trabajo. La
+                    capacitaci&oacute;n y comunicaci&oacute;n constantes, el
+                    fortalecimiento de capacidades y un &eacute;nfasis en la
+                    mejora continua han demostrado ser la manera m&aacute;s
+                    eficaz de continuar avanzando hacia un mayor grado de
+                    cumplimiento.
                 </p>
                 <p>
-                    El trabajo infantil y el trabajo forzoso suelen estar muy
-                    difundidos en la econom&iacute;a informal (en lugares de
-                    trabajo no inscritos que est&aacute;n fuera del campo de
-                    acci&oacute;n de los sindicatos y las autoridades
-                    responsables de la aplicaci&oacute;n de la ley). Emplear el
-                    trabajo infantil en el hogar aumenta la productividad y el
-                    salario de la unidad familiar con poco riesgo de
-                    interferencia de los entes regulatorios. Asimismo, dado que
-                    muchos gobiernos y empresas se han concentrado en erradicar
-                    el trabajo infantil, este tal vez se haya visto reducido a
-                    la clandestinidad del trabajo informal. La econom&iacute;a
-                    informal suele implicar las formas m&aacute;s peligrosas y
-                    ocultas de trabajo y los ni&ntilde;os son sumamente
-                    vulnerables a los efectos negativos del trabajo en
-                    situaci&oacute;n informal.
+                    <Link to="/steps/6">
+                        En el cuarto paso: Comunicaci&oacute;n y
+                        capacitaci&oacute;n en las cadenas de suministro
+                    </Link>
+                    , se tratar&aacute;n los detalles de la comunicaci&oacute;n
+                    del c&oacute;digo y del sistema de cumplimiento a varios
+                    p&uacute;blicos: los propios empleados, las partes
+                    interesadas, los proveedores, los gerentes y supervisores de
+                    los proveedores, los trabajadores de las plantas en toda la
+                    cadena de suministro, los gobiernos, las organizaciones de
+                    trabajadores, grupos comunitarios y otros. Adem&aacute;s, se
+                    presentar&aacute;n distintas maneras de lograr que el
+                    c&oacute;digo sea m&aacute;s accesible para las partes
+                    interesadas evitando la jerga t&eacute;cnica innecesaria y
+                    facilitando la traducci&oacute;n a varios idiomas.
                 </p>
                 <p>
-                    Hay empresas y grupos de varias partes interesadas que
-                    llevan a&ntilde;os lidiando con los desaf&iacute;os del
-                    trabajo informal y el trabajo en el hogar. En 2010, la
-                    Iniciativa de Comercio &Eacute;tico public&oacute; las
-                    directrices{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
-                        title="ETI Homeworker Guidelines"
-                    >
-                        ETI Homeworker Guidelines
-                    </a>
-                    <em> para comerciantes minoristas y proveedores</em>. Estas
-                    directrices y la documentaci&oacute;n complementaria
-                    contienen instrumentos, como un modelo de pol&iacute;tica
-                    para minoristas y proveedores sobre el trabajo en el hogar,
-                    gu&iacute;as de investigaci&oacute;n para identificar el
-                    trabajo en el hogar en la cadena de suministro, instrumentos
-                    para realizar una representaci&oacute;n gr&aacute;fica y
-                    pautas para fijar el pago a destajo adecuado, dado que a
-                    quienes trabajan en el hogar se les suele pagar con esta
-                    modalidad.
+                    <em>
+                        *Nota: Toda referencia que se haga en la presente
+                        gu&iacute;a a empresas o entidades no gubernamentales
+                        espec&iacute;ficas es con fines informativos
+                        &uacute;nicamente a fin de demostrar las buenas
+                        pr&aacute;cticas internacionalmente reconocidas a la
+                        fecha de lanzamiento de la aplicaci&oacute;n. Las
+                        referencias a dichas entidades no debe interpretarse
+                        como un aval oficial del Departamento de Trabajo de los
+                        Estados Unidos a ellas, sus productos ni servicios{" "}
+                    </em>
+                    <em>
+                        y su menci&oacute;n no debe interpretarse como un examen
+                        exhaustivo de las pr&aacute;cticas que emplean dichas
+                        entidades en todos los &aacute;mbitos
+                    </em>
+                    <em>.</em>
                 </p>
             </div>
         </StaticData>

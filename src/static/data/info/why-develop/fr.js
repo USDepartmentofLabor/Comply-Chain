@@ -888,9 +888,9 @@ const fr = () => {
                         rel="noopener noreferrer"
                         href="http://www.bloomberg.com/sustainability/"
                     >
-                        Cha&icirc;ne Durabilit&eacute; sur Bloomberg.com
+                        Cha&icirc;ne Durabilit&eacute; 
                     </a>
-                    .
+                    sur Bloomberg.com.
                 </p>
                 <h2>
                     Pression de la soci&eacute;t&eacute; civile et des

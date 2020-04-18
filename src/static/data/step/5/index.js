@@ -1,113 +1,77 @@
-import { ExtraInfo } from "./extra";
 import { Resources } from "./resource";
 import { Topics } from "./topic";
 
 export const StepData = {
     en: {
-        title: "Step 5: Monitor Compliance",
+        title: "Step 3: Develop a Code of Conduct",
         topics: Topics.en,
-        keywords: ["Social Audit", "Auditing", "Monitoring"],
+        keywords: ["Code of conduct", "Code"],
         learningObjectives: [
-            "Understand the personnel requirements for your auditing activities.",
-            "Know what tools your auditors need to do their job.",
-            "Decide how you will schedule audits.",
-            "Understand the components and flow of a typical audit.",
-            "Learn good practices for managing, analyzing and using audit data."
+            "Know the main standards that should be included in a good code of conduct.",
+            "Understand the basic steps involved in developing and revising a code.",
+            "Become familiar with industry or cross-sector codes that may be relevant to you."
         ],
         keyTerms: [
             {
-                termName: "Social Audit (“Audit”)",
+                termName: 'Code of Conduct ("Code")',
                 termDefinition:
-                    "The process of examining a specific worksite’s compliance with the standards set in the company’s code of conduct. The term “audit” is used throughout the App to refer to social auditing, but should not be confused with financial and other types of auditing undertaken by companies."
-            },
-            {
-                termName: "Monitoring",
-                termDefinition:
-                    "For the purposes of this App, synonymous with auditing."
+                    "The foundation of a social compliance program, a code of conduct is a document that sets out the social (and often, environmental) standards and policies with which a company and its suppliers are expected to comply.  Many companies refer to their codes by a name other than “code of conduct,” such as “terms of engagement,” “supplier expectations,” and many others, but the term is used throughout this App for consistency and clarity.A code is a set of voluntary standards; in this respect it differs from law—although relevant laws (both U.S. and source country) must be taken into account, as should collective bargaining agreements and international framework agreements (IFAs) with union federations, which are enforceable contracts.  A code is not a substitute for any of these instruments."
             }
         ],
-        furtherResources: Resources.en,
-        extraInfo: ExtraInfo.en
+        furtherResources: Resources.en
     },
     es: {
-        title: "Quinto paso: Vigilancia y seguimiento del cumplimiento",
+        title: "Tercer paso: Formulación de un código de conducta",
         topics: Topics.es,
-        keywords: [
-            "Auditoría social",
-            "Auditorías",
-            "Vigilancia y seguimiento"
-        ],
+        keywords: ["Código de conducta", "Código"],
         learningObjectives: [
-            "Comprender cuáles son los requisitos de personal para las actividades de auditoría.",
-            "Saber qué herramientas necesitan los auditores para hacer su trabajo.",
-            "Decidir cómo programar las auditorías.",
-            "Comprender cuáles son los componentes y el flujo de una auditoría típica.",
-            "Aprender las buenas prácticas para administrar, analizar y utilizar los datos de las auditorías."
+            "Conocer las principales normas que deben figurar en un buen código de conducta.",
+            "Comprender los pasos básicos para formular y modificar un código.",
+            "Familiarizarse con los códigos de la industria o intersectoriales que puedan ser pertinentes."
         ],
         keyTerms: [
             {
-                termName: "Auditoría social",
+                termName: "Código de conducta",
                 termDefinition:
-                    "Proceso de examinar el cumplimiento de las normas estipuladas en el código de conducta de una empresa en un lugar de trabajo específico. El término “auditoría” se emplea a lo largo de la aplicación en referencia a la auditoría social. No debe confundirse con las auditorías financieras o de otro tipo que se realizan en las empresas."
-            },
-            {
-                termName: "Vigilancia y seguimiento",
-                termDefinition: "En esta aplicación, es sinónimo de auditoría."
+                    "La base de todo sistema de cumplimiento social. Es un documento en que se estipulan las normas y políticas sociales (e, incluso, ambientales) que se pretende que acaten las empresas y sus proveedores.  Muchas empresas se refieren a sus códigos con un nombre distinto al de “código de conducta”; algunas los denominan “condiciones de participación”, “expectativas de los proveedores” y de muchas otras maneras pero en la presente aplicación se emplea este término por motivos de coherencia interna y claridad.Un código es un conjunto de normas voluntarias; en este sentido, difiere de la ley, aunque se debe tener en cuenta la legislación aplicable (tanto de los Estados Unidos como del país en cuestión), al igual que los convenios colectivos y los acuerdos marco internacionales (IFA) con federaciones sindicales, que son contratos ejecutables.  El código no reemplaza a ninguno de estos instrumentos."
             }
         ],
-        furtherResources: Resources.es,
-        extraInfo: ExtraInfo.es
+        furtherResources: Resources.es
     },
     fr: {
-        title: "Cinquième étape: Surveiller la conformité",
+        title: "Troisième étape: élaborer un code de conduite",
         topics: Topics.fr,
-        keywords: ["Audit social", "Audit", "Contrôle"],
+        keywords: ["Code de conduite", "Code"],
         learningObjectives: [
-            "Comprendre les exigences en matière de personnel pour vos activités d’audit.",
-            "Comprendre de quels outils vos auditeurs ont besoin pour réaliser leur travail.",
-            "Décider de la manière dont vous allez programmer les audits.",
-            "Comprendre les composantes et le flux des opérations d’un audit typique.",
-            "Apprendre les bonnes pratiques pour la gestion, l’analyse et l’usage des données d’audit."
+            "Connaître les principales normes qui devraient figurer dans un bon code de conduite.",
+            "Comprendre les étapes de base de l’élaboration et de la révision d’un code.",
+            "Se familiariser avec les programmes sectoriels ou intersectoriels qui peuvent vous concerner."
         ],
         keyTerms: [
             {
-                termName: "Audit social (« audit »)",
+                termName: "Code de conduite (« Code »)",
                 termDefinition:
-                    "Processus consistant à examiner la conformité d’un lieu de travail précis aux normes établies dans le code de conduite d’une entreprise. Le terme « audit » fait référence dans l’ensemble de l’appli à l'audit social ; à ne pas confondre avec d’autres types d’audit, comme l’audit financier, réalisés par les entreprises."
-            },
-            {
-                termName: "Contrôle",
-                termDefinition:
-                    "Pour les besoins de la présente appli, synonyme d’audit."
+                    "Base d’un programme de conformité sociale, un code de conduite est un document précisant les normes et politiques sociales (et, souvent, environnementales) avec lesquelles une entreprise et ses fournisseurs sont censés être en conformité.  Un grand nombre d’entreprises utilisent un autre terme que «&nbsp;code de conduite&nbsp;», tel que «&nbsp;conditions d’engagement&nbsp;», «&nbsp;attente envers les fournisseurs&nbsp;», etc., mais l’ensemble de cette appli utilise ce terme par souci de cohérence et de clarté.Un code constitue un ensemble de normes volontaires; à cet égard, il est différent d’une loi, bien qu’il faille prendre en compte la législation pertinente (à la fois aux États-Unis et dans le pays d’origine), de même que les conventions collectives et les accords-cadres internationaux (ACI) avec les fédérations syndicales, qui ont force exécutoire.  Un code ne saurait remplacer l’un de ces instruments quel qu’il soit."
             }
         ],
-        furtherResources: Resources.fr,
-        extraInfo: ExtraInfo.fr
+        furtherResources: Resources.fr
     },
-     en: {
-            title: "Step 5: Monitor Compliance",
+    ms: {
+            title: "Step 3: Develop a Code of Conduct",
             topics: Topics.en,
-            keywords: ["Social Audit", "Auditing", "Monitoring"],
+            keywords: ["Code of conduct", "Code"],
             learningObjectives: [
-                "Understand the personnel requirements for your auditing activities.",
-                "Know what tools your auditors need to do their job.",
-                "Decide how you will schedule audits.",
-                "Understand the components and flow of a typical audit.",
-                "Learn good practices for managing, analyzing and using audit data."
+                "Know the main standards that should be included in a good code of conduct.",
+                "Understand the basic steps involved in developing and revising a code.",
+                "Become familiar with industry or cross-sector codes that may be relevant to you."
             ],
             keyTerms: [
                 {
-                    termName: "Social Audit (“Audit”)",
+                    termName: 'Code of Conduct ("Code")',
                     termDefinition:
-                        "The process of examining a specific worksite’s compliance with the standards set in the company’s code of conduct. The term “audit” is used throughout the App to refer to social auditing, but should not be confused with financial and other types of auditing undertaken by companies."
-                },
-                {
-                    termName: "Monitoring",
-                    termDefinition:
-                        "For the purposes of this App, synonymous with auditing."
+                        "The foundation of a social compliance program, a code of conduct is a document that sets out the social (and often, environmental) standards and policies with which a company and its suppliers are expected to comply.  Many companies refer to their codes by a name other than “code of conduct,” such as “terms of engagement,” “supplier expectations,” and many others, but the term is used throughout this App for consistency and clarity.A code is a set of voluntary standards; in this respect it differs from law—although relevant laws (both U.S. and source country) must be taken into account, as should collective bargaining agreements and international framework agreements (IFAs) with union federations, which are enforceable contracts.  A code is not a substitute for any of these instruments."
                 }
             ],
-            furtherResources: Resources.en,
-            extraInfo: ExtraInfo.en
+            furtherResources: Resources.en
         }
 };

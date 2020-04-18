@@ -1,368 +1,135 @@
 import React from "react";
-import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
 
 const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>
-                    Qu&eacute; incluir en la presentaci&oacute;n de informes
-                    p&uacute;blicos
-                </h1>
+                <h1>Planes de acci&oacute;n correctiva</h1>
                 <p>
-                    Los informes p&uacute;blicos deben incluir una
-                    descripci&oacute;n y explicaci&oacute;n de todos los
-                    elementos del sistema de cumplimiento social, desde el
-                    c&oacute;digo de conducta hasta la participaci&oacute;n
-                    comunitaria y de las partes interesadas, la
-                    evaluaci&oacute;n de riesgos, capacitaci&oacute;n,
-                    auditor&iacute;as, remediaci&oacute;n, verificaci&oacute;n
-                    independiente e iniciativas para tratar las causas
-                    fundamentales. Por otra parte, en los informes se debe
-                    tratar el tema de los entornos de aplicaci&oacute;n en que
-                    funciona el sistema de cumplimiento social de la empresa y
-                    los desaf&iacute;os presentes en ellos. En muchos informes
-                    de cumplimiento social tambi&eacute;n se menciona a las
-                    distintas personas y organizaciones que se asocian con la
-                    empresa para ayudar a alcanzar las metas del programa.
+                    Un plan de acci&oacute;n correctiva (PAC) suele elaborarse
+                    al poco tiempo de realizada la auditor&iacute;a. Las
+                    empresas formulan estos planes de diferentes maneras:
+                    algunas los elaboran por su propia cuenta a partir de las
+                    conclusiones de la auditor&iacute;a; otras exigen que el
+                    proveedor elabore su propio PAC, que luego examinar&aacute;
+                    y aprobar&aacute; la empresa, mientras que otras exigen que
+                    el contratista o agente redacte el PAC de su proveedor. En
+                    algunos casos, los auditores mismos elaboran el PAC pero
+                    este enfoque despierta inquietudes dado que puede haber un
+                    conflicto de intereses.
                 </p>
                 <p>
-                    Los informes deben ser escritos, estar redactados en un
-                    idioma sencillo que puedan comprender los distintos
-                    p&uacute;blicos y traducirse a todos los idiomas
-                    pertinentes. Deben presentar los aspectos del sistema que
-                    est&aacute;n dando buen resultado y los elementos que han
-                    tenido menos &eacute;xito sin omitir las lecciones
-                    aprendidas ni los planes de mejora. Ser franco en cuanto a
-                    los puntos d&eacute;biles y a la vez demostrar que la
-                    empresa est&aacute; al tanto de ellos y est&aacute;
-                    trabajando activamente para rectificar el problema es un
-                    aspecto importante de la rendici&oacute;n de cuentas en los
-                    informes p&uacute;blicos.
+                    Es aconsejable brindar oportunidades de recibir el aporte de
+                    los trabajadores y de la comunidad para redactar el PAC, en
+                    especial de los trabajadores que se vieron afectados por las
+                    infracciones de manera directa. Esto puede hacerse mediante
+                    una organizaci&oacute;n de trabajadores, una de la sociedad
+                    civil o directamente con trabajadores individuales,
+                    seg&uacute;n los procedimientos definidos.
                 </p>
-                <p>
-                    Es importante maximizar la transparencia en los informes
-                    p&uacute;blicos pero a la vez evitar causar riesgos a
-                    personas u organizaciones puntuales, como trabajadores,
-                    proveedores y otras partes interesadas. Tambi&eacute;n es
-                    importante tener en cuenta las consideraciones de
-                    confidencialidad comercial.
-                </p>
-                <p>
-                    Si el informe de cumplimiento social es parte de un informe
-                    m&aacute;s amplio de sostenibilidad de la empresa o RSE, se
-                    pueden consultar gu&iacute;as para redactar tales informes.
-                    Un recurso que se recomienda es la{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.globalreporting.org/Pages/default.aspx"
-                    >
-                        Global Reporting Initiative (GRI)
-                    </a>
-                    , una organizaci&oacute;n basada en red que elabora un marco
-                    para la redacci&oacute;n de informes que utilizan muchas
-                    empresas de todo el mundo. El marco de la GRI fija los
-                    principios y los indicadores de desempe&ntilde;o para
-                    presentar informes del desempe&ntilde;o ambiental, social y
-                    de gobernabilidad de las empresas. Este marco es elaborado
-                    por varias partes interesadas en un proceso de
-                    concertaci&oacute;n que abarca a instituciones comerciales,
-                    de la sociedad civil, laborales, acad&eacute;micas y
-                    profesionales. La GRI pone a disposici&oacute;n una{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://database.globalreporting.org/"
-                        title="base de datos"
-                    >
-                        base de datos
-                    </a>{" "}
-                    de los informes de RSE y sostenibilidad de las empresas para
-                    uso gratuito del p&uacute;blico.&nbsp;
-                </p>
-                <p>
-                    Otro recurso que se recomienda es el{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.ungpreporting.org/about-us/"
-                        title="Marco para el Informe sobre los Principios Rectores de las Naciones Unidas"
-                    >
-                        Marco para el Informe sobre los Principios Rectores de
-                        las Naciones Unidas
-                    </a>
-                    . El Marco para el Informe brinda orientaci&oacute;n
-                    integral y contiene un cuestionario que pueden emplear las
-                    empresas para comparar su desempe&ntilde;o con los{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
-                        title="Principios Rectores de las Naciones Unidas sobre las Empresas y los Derechos Humanos "
-                    >
-                        Principios Rectores de las Naciones Unidas sobre las
-                        Empresas y los Derechos Humanos
-                    </a>{" "}
-                    y presentar un informe sobre la manera en que los
-                    est&aacute;n aplicando. La organizaci&oacute;n de la
-                    sociedad civil Shift publica la{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ungpreporting.org/reportingdatabase/"
-                        title="Base de datos para el informe de los Principios Rectores de las Naciones Unidas"
-                    >
-                        Base de datos para el informe de los Principios rectores
-                        de las Naciones Unidas
-                    </a>
-                    , para que las empresas puedan presentar informaci&oacute;n
-                    de car&aacute;cter p&uacute;blico sobre la manera en que
-                    est&aacute;n aplicando los Principios rectores de las
-                    Naciones Unidas sobre Empresas y Derechos Humanos para ser
-                    examinada por los analistas de la base de datos del informe.
-                </p>
-                <p>
-                    A continuaci&oacute;n se presentan unas directrices sobre el
-                    contenido que se debe incluir en el informe de cumplimiento
-                    social.
-                </p>
+                <p>Todo PAC debe abarcar:</p>
                 <ul>
+                    <li>Todas las conclusiones de la auditor&iacute;a.</li>
                     <li>
-                        Una descripci&oacute;n de los procesos de{" "}
-                        <strong>
-                            evaluaci&oacute;n de riesgos y la debida diligencia
-                        </strong>{" "}
-                        que sigue la empresa en sus cadenas de suministro.
+                        Las medidas espec&iacute;ficas necesarias para remediar
+                        cada uno de los puntos mencionados en las conclusiones,
+                        incluida la asistencia a v&iacute;ctimas individuales,
+                        nuevas pol&iacute;ticas o procedimientos escritos,
+                        capacitaci&oacute;n para los gerentes, el personal,
+                        empleados y dem&aacute;s medidas.
+                    </li>
+                    <li>El responsable de cada medida.</li>
+                    <li>
+                        De qu&eacute; manera se verificar&aacute; o
+                        confirmar&aacute; cada medida, como mediante un examen
+                        de registros, entrevistas a los empleados, controles
+                        puntuales u otros.
                     </li>
                     <li>
-                        Los <strong>pa&iacute;ses </strong>que abastecen a la
-                        empresa. Si hay pa&iacute;ses donde prevalecen
-                        determinados problemas de trabajo infantil y trabajo
-                        forzoso, tambi&eacute;n se deben mencionar estas
-                        situaciones.
+                        Las fechas l&iacute;mites o los hitos para completar
+                        cada medida, que deber&iacute;a ser cuanto antes.
                     </li>
-                    <li>
-                        <strong>Sus proveedores.</strong> Por ejemplo, la
-                        empresa de art&iacute;culos de electr&oacute;nica{" "}
-                        <strong>Hewlett-Packard* </strong>hace p&uacute;blica su{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/supplychain.html?jumpid=in_r138_us/en/corp/sustainability/main-menu-society"
-                            title="lista de proveedores"
-                        >
-                            lista de proveedores
-                        </a>{" "}
-                        desde 2007 y Target Corporation* publica{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Target-Global-Factory-List_Q1_2019.pdf"
-                            title="lista"
-                        >
-                            una lista
-                        </a>{" "}
-                        de todas las f&aacute;bricas, plantas textiles y plantas
-                        de proceso h&uacute;medo que fabrican sus productos de
-                        marca propia.
-                    </li>
-                    <li>
-                        Las{" "}
-                        <strong>
-                            f&aacute;bricas, establecimientos agr&iacute;colas o
-                            minas
-                        </strong>{" "}
-                        que abastecen a la empresa, a sus proveedores o a ambos.
-                        Publicar listas de las f&aacute;bricas es una tendencia
-                        creciente para muchas empresas que aspiran a una mayor
-                        responsabilidad social y ambiental. Por ejemplo, la
-                        empresa que vende art&iacute;culos deportivos para el
-                        aire libre <strong>Patagonia*</strong> publica una{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/working-with-factories.html"
-                        >
-                            lista de las f&aacute;bricas que hacen sus productos
-                        </a>{" "}
-                        y un{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/footprint.html"
-                            title="mapa interactivo"
-                        >
-                            mapa interactivo
-                        </a>{" "}
-                        donde se muestra el nombre de la f&aacute;brica, el
-                        domicilio, los art&iacute;culos que fabrica, los idiomas
-                        que se hablan y la cantidad de empleados por sexo.
-                    </li>
-                    <li>
-                        La <strong>m&eacute;trica </strong>o los indicadores
-                        clave del desempe&ntilde;o que se utilizan en el sistema
-                        de cumplimiento social para medir los avances y el
-                        desempe&ntilde;o de la empresa en comparaci&oacute;n con
-                        dichos indicadores. Al calcular el desempe&ntilde;o en
-                        funci&oacute;n de una m&eacute;trica, para muchas
-                        empresas es importante desglosar el desempe&ntilde;o
-                        interno de la compa&ntilde;&iacute;a del
-                        desempe&ntilde;o en su cadena de suministro. Combinar
-                        ambos puede tergiversar el verdadero desempe&ntilde;o de
-                        la cadena de suministro.
-                    </li>
-                    <li>
-                        El <strong>c&oacute;digo de conducta</strong> de la
-                        empresa y las &aacute;reas de la cadena de suministro
-                        que abarca, incluido todo examen o actualizaci&oacute;n
-                        al c&oacute;digo que se haya realizado en el
-                        per&iacute;odo de notificaci&oacute;n.
-                    </li>
-                    <li>
-                        Una descripci&oacute;n de la{" "}
-                        <strong>participaci&oacute;n de los interesados</strong>{" "}
-                        y las comunidades locales, incluidos los grupos de
-                        varias partes interesadas con los que interact&uacute;a
-                        la empresa, las actividades de extensi&oacute;n que son
-                        parte de la evaluaci&oacute;n de riesgos y otros
-                        mecanismos de reclamaci&oacute;n y
-                        extensi&oacute;n.&nbsp;
-                    </li>
-                    <li>
-                        Un resumen esquem&aacute;tico de los{" "}
-                        <strong>programas de capacitaci&oacute;n</strong> en
-                        cumplimiento social a lo largo de todas las cadenas de
-                        suministro.
-                    </li>
-                    <li>
-                        <strong>Datos de la auditoria social. </strong>Estos
-                        datos deben ser lo m&aacute;s exhaustivos y
-                        espec&iacute;ficos posible. Algunas empresas publican
-                        los informes completos de las auditor&iacute;as mientras
-                        que otros compilan los datos y publican una
-                        versi&oacute;n abreviada. Por ejemplo, la{" "}
-                        <strong>FLA</strong> publica{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
-                            title="Gr&aacute;ficos de seguimiento"
-                        >
-                            &ldquo;Gr&aacute;ficos de seguimiento&rdquo;
-                        </a>{" "}
-                        en su p&aacute;gina web que contienen datos completos de
-                        todas las auditor&iacute;as realizadas en las
-                        f&aacute;bricas, as&iacute; como las medidas adoptadas
-                        por las empresas afiliadas a la FLA para abordar las
-                        conclusiones. La p&aacute;gina web de{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://sustainability.hm.com/en/sustainability/downloads-resources/resources/supplier-compliance.html"
-                            title="Hennes and Mauritz"
-                        >
-                            Hennes &amp; Mauritz (H&amp;M)
-                        </a>
-                        * contiene datos sobre el desempe&ntilde;o de todos sus
-                        proveedores en materia de cumplimiento social.{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.pmi.com/sustainability/good-agricultural-practices/upholding-labor-rights-on-the-farms"
-                            title="Philip Morris International"
-                        >
-                            Philip Morris International
-                        </a>
-                        * publica sus propios informes de vigilancia y
-                        seguimiento, as&iacute; como los que realizan los
-                        encargados de la vigilancia y seguimiento externos.
-                    </li>
-                    <li>
-                        Una descripci&oacute;n de las{" "}
-                        <strong>pol&iacute;ticas de remediaci&oacute;n</strong>{" "}
-                        de la empresa en caso de hallarse infracciones.
-                    </li>
+                    <li>Posibles consecuencias si no se adoptan medidas.</li>
                 </ul>
-                <ExampleInAction id="nike">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Ejemplo en acci&oacute;n: Nike*: notificaci&oacute;n
-                            de las medidas de remediaci&oacute;n
-                        </strong>
-                    </h2>
-                    <p>
-                        En 2008, distintos informes de los medios pusieron en la
-                        mira a Hytex Apparel, Inc.*, una empresa malaya
-                        contratista de Nike Inc., mayormente por el maltrato
-                        conferido a centenares de trabajadores migrantes. Nike
-                        investig&oacute; y descubri&oacute; que si bien Hytex no
-                        contraven&iacute;a ninguna de las leyes inmigratorias de
-                        Malasia, los complejos habitacionales de los
-                        trabajadores no cumpl&iacute;an las normas de Nike.
-                        Asimismo, numerosas pr&aacute;cticas de Hytex, como el
-                        embargo salarial y la retenci&oacute;n de documentos
-                        personales como pasaportes, contraven&iacute;an el
-                        c&oacute;digo de conducta de los proveedores de Nike, si
-                        bien no la legislaci&oacute;n nacional.&nbsp;
-                    </p>
-                    <p>
-                        Nike colabor&oacute; con Hytex para que devolviera los
-                        documentos a los trabajadores, les reembolsara el
-                        salario embargado y mejorara los complejos
-                        habitacionales. Asimismo, Hytex acord&oacute; solventar
-                        los gastos de los trabajadores que desearan regresar a
-                        su pa&iacute;s de origen. La situaci&oacute;n con Hytex
-                        provoc&oacute; que Nike redactara las pol&iacute;ticas y
-                        las disposiciones actuales del c&oacute;digo en materia
-                        de trabajadores migrantes.
-                    </p>
-                </ExampleInAction>
-                <ul>
-                    <li>
-                        Los resultados de la evaluaci&oacute;n de la{" "}
-                        <strong>verificaci&oacute;n independiente</strong> y una
-                        explicaci&oacute;n de la manera en que est&aacute;
-                        integrando dichas conclusiones y respondiendo a ellas.
-                    </li>
-                    <li>
-                        Informaci&oacute;n sobre la{" "}
-                        <strong>
-                            fiscalizaci&oacute;n interna y la rendici&oacute;n
-                            de cuentas
-                        </strong>{" "}
-                        con respecto al programa de cumplimiento social, incluso
-                        mencionar al responsable del programa y los niveles de
-                        participaci&oacute;n de la Junta y del Director
-                        Ejecutivo.
-                    </li>
-                    <li>
-                        Una explicaci&oacute;n de los{" "}
-                        <strong>desaf&iacute;os</strong> que afronta el programa
-                        de cumplimiento social de la empresa, las{" "}
-                        <strong>lecciones aprendidas</strong>, as&iacute; como
-                        las iniciativas para tratar las causas fundamentales del
-                        abuso laboral.
-                    </li>
-                    <li>
-                        Los estudios de caso o{" "}
-                        <strong>
-                            aspectos m&aacute;s notables de actividades
-                            espec&iacute;ficas
-                        </strong>{" "}
-                        durante el per&iacute;odo de notificaci&oacute;n.
-                    </li>
-                    <li>
-                        Los{" "}
-                        <strong>
-                            procedimientos para la recepci&oacute;n de
-                            comentarios
-                        </strong>{" "}
-                        sobre el informe.
-                    </li>
-                </ul>
+                <p>
+                    Por ejemplo, si se determina que hay trabajadores en
+                    situaci&oacute;n de trabajo forzoso en un lugar de trabajo,
+                    en el PAC tal vez se exija adoptar una o m&aacute;s medidas
+                    de remediaci&oacute;n en los cuadros 1 a 4 bajo{" "}
+                    <em>
+                        <u>Prevenci&oacute;n de la reincidencia</u>
+                    </em>
+                    . Se debe especificar claramente qui&eacute;n es el
+                    responsable de la supervisi&oacute;n y el seguimiento de
+                    cada medida. Esto tal vez requiera establecer nuevos
+                    procedimientos y aclarar las l&iacute;neas de
+                    responsabilidad para aplicar estos procedimientos. Tal vez
+                    se establezcan nuevos mecanismos de &ldquo;control&rdquo;
+                    para detectar el trabajo forzoso en el lugar de trabajo y
+                    especificar qui&eacute;n es el responsable de realizar estos
+                    controles. Adem&aacute;s, quiz&aacute;s se requiera una
+                    sesi&oacute;n de capacitaci&oacute;n para toda la gerencia
+                    en el tema de trabajo forzoso y los requisitos conexos que
+                    figuran en el c&oacute;digo de conducta. Por &uacute;ltimo,
+                    en el PAC se pueden enumerar las medidas que adoptar&aacute;
+                    la empresa si vuelve a producirse esta infracci&oacute;n,
+                    como una suspensi&oacute;n temporal de los pedidos o la
+                    cancelaci&oacute;n de pedidos futuros.
+                </p>
+                <p>
+                    La FLA (Asociaci&oacute;n Trabajo Justo) publica{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
+                        title="informes de todas las evaluaciones de f&aacute;bricas"
+                    >
+                        informes de todas las evaluaciones de f&aacute;bricas
+                    </a>{" "}
+                    que realiza de las empresas miembro de conformidad con el
+                    C&oacute;digo de conducta en el lugar de trabajo de la FLA.
+                    En estos informes se detallan las infracciones identificadas
+                    en la f&aacute;brica, las medidas correctivas recomendadas y
+                    los avances logrados hasta la fecha.&nbsp;
+                </p>
+                <p>
+                    Una vez que el PAC est&aacute; en funcionamiento, la
+                    supervisi&oacute;n y el seguimiento son, por supuesto,
+                    fundamentales. Por lo general, la empresa realiza un
+                    seguimiento de la aplicaci&oacute;n del PAC y se comunica
+                    con el proveedor para verificar los avances logrados, sobre
+                    todo en los momentos en que se deber&iacute;a haber llegado
+                    a los hitos. Si la empresa tiene personal en la zona
+                    geogr&aacute;fica, pueden verificar directamente, el equipo
+                    que realiz&oacute; la auditor&iacute;a original puede
+                    regresar a hacer una de seguimiento o se puede enviar a otro
+                    equipo. Adem&aacute;s, la empresa hace rendir cuentas a sus
+                    contratistas o agentes del seguimiento. Lo importante no es
+                    qui&eacute;n lo hace sino que se haga de manera oportuna y
+                    eficaz y que se desprenda de una comunicaci&oacute;n clara
+                    con el proveedor. Como parte de la aplicaci&oacute;n del
+                    PAC, muchas empresas brindan capacitaci&oacute;n y
+                    fortalecimiento de capacidades de manera constante a fin de
+                    apoyar al proveedor en el proceso de mejora continua.&nbsp;
+                </p>
+                <p>
+                    A pesar del incentivo claro de mantener un v&iacute;nculo
+                    comercial positivo con la empresa, de vez en cuando los
+                    proveedores no participan de manera eficaz de los PAC ya sea
+                    porque no cuentan con el debido apoyo o capacitaci&oacute;n
+                    o porque no perciben cu&aacute;l es el incentivo de hacerlo.
+                    Por lo tanto, los PAC deben contemplar incentivos para los
+                    proveedores, como una prima en el precio, garant&iacute;as
+                    de compra, acceso a financiamiento o una notificaci&oacute;n
+                    p&uacute;blica y peri&oacute;dica que recompensa el
+                    cumplimiento. Si los intentos de remediaci&oacute;n y
+                    participaci&oacute;n no arrojaron los resultados deseados,
+                    se debe considerar desvincularse comercialmente del
+                    proveedor sin dejar de tener en cuenta el posible efecto que
+                    tendr&aacute; en los trabajadores e intentar atenuar dicho
+                    efecto.
+                </p>
             </div>
         </StaticData>
     );

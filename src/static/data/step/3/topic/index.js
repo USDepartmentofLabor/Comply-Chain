@@ -4,161 +4,136 @@ import { TopicData as Topic3 } from "./3";
 import { TopicData as Topic4 } from "./4";
 import { TopicData as Topic5 } from "./5";
 import { TopicData as Topic6 } from "./6";
-import { TopicData as Topic7 } from "./7";
 
 export const Topics = {
     en: [
         {
             keywords: [],
-            title: "International Framework Agreements (IFAs)",
+            title: "Why Seek Stakeholder Engagement?",
             content: Topic1.en
         },
         {
             keywords: [],
-            title: "What Makes a Good Code of Conduct?",
+            title: "What Can Stakeholders Do?",
             content: Topic2.en
         },
         {
             keywords: [],
-            title: "Standards on Child Labor and Forced Labor",
+            title: "Engaging Your Stakeholders",
             content: Topic3.en
         },
         {
             keywords: [],
-            title:
-                "Addressing the Vulnerability of Migrants in Codes of Conduct",
+            title: "Multi-Stakeholder Groups",
             content: Topic4.en
         },
         {
             keywords: [],
-            title: "How to Develop a Code",
+            title: "Industry Associations and Initiatives",
             content: Topic5.en
         },
         {
             keywords: [],
-            title: "Joining an Existing Code",
+            title: "Certification Programs",
             content: Topic6.en
-        },
-        {
-            keywords: [],
-            title: "Communicating the Code",
-            content: Topic7.en
         }
     ],
     es: [
         {
             keywords: [],
-            title: "Acuerdos marco internacionales (IFA)",
+            title:
+                "¿Por qué buscar la participación de las partes interesadas?",
             content: Topic1.es
         },
         {
             keywords: [],
-            title:
-                "¿Cuáles son las características de un buen código de conducta?",
+            title: "¿Qué pueden hacer las partes interesadas?",
             content: Topic2.es
         },
         {
             keywords: [],
-            title: "Normas sobre el trabajo infantil y el trabajo forzoso",
+            title: "Participación de las partes interesadas",
             content: Topic3.es
         },
         {
             keywords: [],
-            title:
-                "Tratar la vulnerabilidad de los migrantes en los códigos de conducta",
+            title: "Grupos de varias partes interesadas",
             content: Topic4.es
         },
         {
             keywords: [],
-            title: "Redacción del código",
+            title: "Asociaciones e iniciativas de la industria",
             content: Topic5.es
         },
         {
             keywords: [],
-            title: "Adopción de un código actual",
+            title: "Programas de certificación",
             content: Topic6.es
-        },
-        {
-            keywords: [],
-            title: "Comunicación del código",
-            content: Topic7.es
         }
     ],
     fr: [
         {
             keywords: [],
-            title: "Accords-cadre internationaux (ACI)",
+            title:
+                "Pourquoi rechercher la participation des parties prenantes?",
             content: Topic1.fr
         },
         {
             keywords: [],
-            title: "Qu'est-ce qui fait la qualité d'un code de conduite?",
+            title: "Que peuvent faire les parties prenantes?",
             content: Topic2.fr
         },
         {
             keywords: [],
-            title:
-                "Normes relatives au travail des enfants et au travail forcé",
+            title: "Faire participer vos parties prenantes",
             content: Topic3.fr
         },
         {
             keywords: [],
-            title:
-                "Gérer la vulnérabilité des migrants dans les codes de conduite",
+            title: "Groupes de plusieurs parties prenantes",
             content: Topic4.fr
         },
         {
             keywords: [],
-            title: "Comment élaborer un code",
+            title: "Associations et initiatives de l'industrie",
             content: Topic5.fr
         },
         {
             keywords: [],
-            title: "Rejoindre un code existant",
+            title: "Programmes de certification",
             content: Topic6.fr
-        },
-        {
-            keywords: [],
-            title: "Communiquer le code",
-            content: Topic7.fr
         }
     ],
     ms: [
             {
                 keywords: [],
-                title: "International Framework Agreements (IFAs)",
+                title: "Why Seek Stakeholder Engagement?",
                 content: Topic1.en
             },
             {
                 keywords: [],
-                title: "What Makes a Good Code of Conduct?",
+                title: "What Can Stakeholders Do?",
                 content: Topic2.en
             },
             {
                 keywords: [],
-                title: "Standards on Child Labor and Forced Labor",
+                title: "Engaging Your Stakeholders",
                 content: Topic3.en
             },
             {
                 keywords: [],
-                title:
-                    "Addressing the Vulnerability of Migrants in Codes of Conduct",
+                title: "Multi-Stakeholder Groups",
                 content: Topic4.en
             },
             {
                 keywords: [],
-                title: "How to Develop a Code",
+                title: "Industry Associations and Initiatives",
                 content: Topic5.en
             },
             {
                 keywords: [],
-                title: "Joining an Existing Code",
+                title: "Certification Programs",
                 content: Topic6.en
-            },
-            {
-                keywords: [],
-                title: "Communicating the Code",
-                content: Topic7.en
             }
         ]
 };

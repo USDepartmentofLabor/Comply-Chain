@@ -3,118 +3,93 @@ import { Topics } from "./topic";
 
 export const StepData = {
     en: {
-        title: "Step 2: Assess Risks and Impacts",
+        title: "The Basics of a Social Compliance System",
         topics: Topics.en,
-        keywords: ["Due diligence", "Risk", "Impact"],
+        keywords: ["Corporate Social Responsibility (CSR)", "Social Compliance System", "Supply Chain"],
         learningObjectives: [
-            "Understand the importance of risk and impact assessment as part of an overall due diligence approach.",
-            "Understand supply chain mapping as a critical step in assessing risks and impacts of labor abuse.",
-            "Learn the steps involved in risk and impact assessment and what resources are available.",
-            "Know how to use your assessment information and available resources."
+            "Understand the key components of a social compliance system and how they fit together.",
+            "Become familiar with industry or cross-industry social compliance programs that may be available to you.",
+            "Begin to define the scope of your social compliance system.",
+            "Understand the personnel requirements for a strong social compliance team.",
+            "Recognize the management systems that will make your social compliance system successful."
         ],
         keyTerms: [
             {
-                termName: "Due Diligence",
+                termName: "Corporate Social Responsibility (CSR)",
                 termDefinition:
-                    "As defined by the United Nations Guiding Principles on Business and Human Rights, a process that includes assessing actual and potential human rights impacts (including fundamental labor rights such as child labor and forced labor), integrating and acting upon the findings, tracking responses and communicating how impacts are addressed.  Due diligence should cover assessment of the adverse impacts that a business may cause or contribute to through its own activities, as well as those that may be directly linked to its operations, products or services through business relationships.  Due diligence varies in complexity with the size of a business enterprise, the risk of severe human rights impacts and the nature and context of a business’s operations. "
+                    "A broad concept intended to cover how companies integrate social and environmental concerns into their operations and their interactions with stakeholders aside from legal requirements. Many other terms are also used to address such actions, including the “triple bottom line”, “sustainability”, “corporate citizenship”, “environmental, social and governance (ESG)”, and many others. “Corporate accountability” is a term often used to reference companies’ actions that are more closely linked to legal requirements."
             },
             {
-                termName: "Risk",
+                termName: "Social Compliance System",
                 termDefinition:
-                    "A situation that increases the potential for damage to your company, such as reputational damage or legal liability, or damage to individuals or entities affected by your company’s activities or linked to your company’s operations, products or services through business relationships.  "
+                    "One component of a company’s broader CSR, sustainability or accountability program. A social compliance system is an integrated set of policies and practices through which a company seeks to ensure maximum adherence to the elements of its code of conduct that cover social and labor issues. "
             },
             {
-                termName: "Impact",
+                termName: "Supply Chain",
                 termDefinition:
-                    "A situation in which damage has been done to your company, such as reputational damage or legal liability, or to individuals or entities affected by your company’s activities or linked to your company’s operations, products or services through business relationships. "
-            }
+                    "The chain that is comprised of all organizations and individuals involved in producing, processing, trading, transporting and/or distributing a product or commodity from its point of origin to the company and/or to the final retailer. "
+            },
         ],
         furtherResources: Resources.en
     },
     es: {
-        title: "Segundo paso: Evaluación de riesgos e impacto",
+        title: "Aspectos básicos de un sistema de cumplimiento social",
         topics: Topics.es,
-        keywords: ["Debida diligencia", "Riesgo", "Impacto"],
+        keywords: ["Responsabilidad social empresarial (RSE)", "Sistema de cumplimiento social", "Cadena de suministro"],
         learningObjectives: [
-            "Comprender la importancia de la evaluación de riesgos e impacto como parte del enfoque general de debida diligencia.",
-            "Entender la representación gráfica de la cadena de suministro como un paso crítico en la evaluación de riesgos e impacto de la explotación laboral.",
-            "Aprender cuáles son los pasos de una evaluación de riesgos e impacto y los recursos disponibles.",
-            "Saber usar la información obtenida en la evaluación y los recursos disponibles."
+            "Comprender los componentes clave de un sistema de cumplimiento social y cómo encajan.",
+            "Familiarizarse de los programas de cumplimiento social de la industria y de otras industrias que podrían estar a su disposición.",
+            "Comenzar a definir el alcance de su sistema de cumplimiento social.",
+            "Comprender los requisitos de personal para conformar un equipo de cumplimiento social sólido.",
+            "Reconocer los sistemas de gestión que marcarán el éxito de su sistema de cumplimiento social."
         ],
         keyTerms: [
             {
-                termName: "Debida diligencia",
+                termName: "Responsabilidad social empresarial (RSE)",
                 termDefinition:
-                    "Según la definición contenida en los Principios Rectores sobre empresas y derechos humanos, se trata de un proceso que implica evaluar el impacto potencial y real en los derechos humanos (incluidos los derechos fundamentales del trabajo, como el trabajo infantil y el trabajo forzoso), integrar las conclusiones y tomar medidas en función de ellas, dar seguimiento a las respuestas y comunicar la manera en que se atenderá el impacto.  La debida diligencia debe incluir una evaluación del impacto negativo que puede causar una empresa o al que puede contribuir con sus propias actividades, así como las que pueden guardar una relación directa con sus operaciones, productos o servicios mediante las relaciones comerciales.  La debida diligencia varía en complejidad en función del tamaño de la empresa, el riesgo de causar un impacto grave en los derechos humanos, el tipo de operaciones que realiza la empresa y el contexto en que las realiza."
+                    "un concepto amplio con el que se procura describir la manera en que las empresas integran las inquietudes sociales y ambientales en sus operaciones, así como su interacción con las partes interesadas al margen de los requisitos legales. También se utilizan muchos otros términos para referirse a estas acciones, como “triple cuenta de resultados”, “sostenibilidad”, “civismo empresarial” y “cuestiones ambientales, sociales y de gobernabilidad”, entre otros. La “rendición de cuentas empresarial” es un término que suele usarse en referencia a las acciones de las empresas que se vinculan más bien con los requisitos legales."
             },
             {
-                termName: "Riesgo",
+                termName: "Sistema de cumplimiento social",
                 termDefinition:
-                    "Situación que aumenta el potencial de daños a la empresa, como el daño a la reputación o la responsabilidad legal, o el daño a personas o entidades afectadas por las actividades de la empresa o vinculadas con las operaciones, los productos o servicios de la empresa mediante relaciones comerciales."
+                    "no de los componentes del programa de RSE, sostenibilidad o rendición de cuentas de una empresa. Un sistema de cumplimiento social es una serie integrada de políticas y prácticas por las que una empresa procura garantizar la máxima adhesión a los elementos de su código de conducta que abarca cuestiones sociales y laborales."
             },
             {
-                termName: "Impacto",
+                termName: "Cadena de suministro",
                 termDefinition:
-                    "Situación en que se provocaron daños a la empresa, como el daño a la reputación o la responsabilidad legal o el causado a personas o entidades afectadas por las actividades de la empresa o vinculadas con las operaciones, los productos o servicios de la empresa mediante relaciones comerciales."
-            }
+                    "una cadena compuesta por todas las organizaciones y los individuos que participan en la producción, el procesamiento, la comercialización, el transporte o la distribución de un producto desde el punto de origen hasta la empresa o hasta el comerciante minorista final."
+            },
         ],
         furtherResources: Resources.es
     },
     fr: {
-        title: "Deuxième étape: Évaluer les risques et les incidences",
+        title: "Fondements d’un système de conformité sociale",
         topics: Topics.fr,
-        keywords: ["Diligence raisonnable", "Risque", "Incidence"],
+        keywords: ["Responsabilité sociale des entreprises (RSE)", "Système de conformité sociale", "Chaîne d'approvisionnement"],
         learningObjectives: [
-            "Comprendre l’importance de l’évaluation des risques et des incidences dans le cadre d’une approche globale de la diligence raisonnable.",
-            "Comprendre la cartographie de la chaîne d'approvisionnement comme étape essentielle de l’évaluation des risques et des incidences des violations des droits des travailleurs.",
-            "Apprendre les étapes de l’évaluation des risques et des incidences et les ressources disponibles.",
-            "Comprendre comment utiliser les informations relatives à votre évaluation et les ressources disponibles."
+            "Comprendre les éléments essentiels d'un système de conformité sociale et la manière dont ils s'imbriquent.",
+            "Se familiariser avec les programmes sectoriels ou intersectoriels de conformité sociale qui seraient à votre disposition.",
+            "Commencer à définir la portée de votre système de conformité sociale.",
+            "Comprendre les impératifs en personnel d'une solide équipe de conformité sociale.",
+            "Reconnaître les systèmes de gestion qui permettront la réussite de votre système de conformité sociale."
         ],
         keyTerms: [
             {
-                termName: "Diligence raisonnable",
+                termName: "Responsabilité sociale des entreprises (RSE)",
                 termDefinition:
-                    "Selon la définition des Principes directeurs des Nations Unies relatifs aux entreprises et aux droits de l'homme, processus comprenant l’évaluation des incidences réelles et potentielles sur les droits de l'homme (notamment sur les droits fondamentaux du travail, comme le travail des enfants et le travail forcé), qui intègre les conclusions, y donne suite, suit les réponses et communique sur la gestion des incidences.  La diligence raisonnable devrait couvrir l’évaluation des incidences négatives qu’une entreprise peut éventuellement causer ou auxquelles elle peut contribuer par le biais de ses propres activités, ainsi que celles pouvant être directement liées à ses opérations, produits ou services par le biais de ses relations commerciales.  La complexité de la diligence raisonnable dépend de la taille de l’entreprise, du risque d’incidences graves sur les droits de l’homme et de la nature et du contexte des opérations d’une entreprise."
+                    "Concept large destiné à recouvrir la façon dont les entreprises intègrent les préoccupations sociales et environnementales dans leurs opérations et leurs interactions avec les parties prenantes hormis leurs obligations juridiques. De nombreux autres termes sont utilisés pour ces actions, y compris « le triple bilan », la « durabilité », la « citoyenneté des entreprises », les questions « environnementales, sociales et de la gouvernance », et bien d'autres. La « responsabilité d'entreprise » est un terme servant souvent pour désigner les actions des entreprises qui sont plus étroitement liées aux obligations imposées par la loi."
             },
             {
-                termName: "Risque",
+                termName: "Système de conformité sociale",
                 termDefinition:
-                    "Situation augmentant le potentiel de préjudice pour votre entreprise, comme un préjudice de réputation ou une responsabilité civile, ou de préjudice à des particuliers ou des entités touchées par les activités de votre entreprise ou liées aux opérations, produits ou services de votre société par le biais de ses relations commerciales."
+                    "Élément de la RSE d'ensemble d'une entreprise, de son programme de durabilité ou de responsabilité d'entreprise. Un système de conformité sociale est un ensemble intégré de politiques et de pratiques grâce auxquelles une entreprise s'assure du respect maximum des éléments de son code de conduite qui couvrent les questions sociales et relatives aux droits des travailleurs."
             },
             {
-                termName: "Incidence",
+                termName: "Chaîne d'approvisionnement",
                 termDefinition:
-                    "Situation dans laquelle un préjudice s’est produit pour votre entreprise, comme un préjudice de réputation ou une responsabilité civile, ou pour des particuliers ou des entités touchées par les activités de votre entreprise ou liées aux opérations, produits ou services de votre société par le biais de ses relations commerciales."
-            }
+                    "Chaîne qui se compose de toutes les organisations et des personnes physiques impliquées dans la production, la transformation, le négoce, le transport et/ou la distribution d'un produit ou d'une marchandise, de son point d'origine jusqu'à l'entreprise et/ou au détaillant final."
+            },
         ],
         furtherResources: Resources.fr
-    },
-    ms: {
-            title: "Step 2: Assess Risks and Impacts",
-            topics: Topics.en,
-            keywords: ["Due diligence", "Risk", "Impact"],
-            learningObjectives: [
-                "Understand the importance of risk and impact assessment as part of an overall due diligence approach.",
-                "Understand supply chain mapping as a critical step in assessing risks and impacts of labor abuse.",
-                "Learn the steps involved in risk and impact assessment and what resources are available.",
-                "Know how to use your assessment information and available resources."
-            ],
-            keyTerms: [
-                {
-                    termName: "Due Diligence",
-                    termDefinition:
-                        "As defined by the United Nations Guiding Principles on Business and Human Rights, a process that includes assessing actual and potential human rights impacts (including fundamental labor rights such as child labor and forced labor), integrating and acting upon the findings, tracking responses and communicating how impacts are addressed.  Due diligence should cover assessment of the adverse impacts that a business may cause or contribute to through its own activities, as well as those that may be directly linked to its operations, products or services through business relationships.  Due diligence varies in complexity with the size of a business enterprise, the risk of severe human rights impacts and the nature and context of a business’s operations. "
-                },
-                {
-                    termName: "Risk",
-                    termDefinition:
-                        "A situation that increases the potential for damage to your company, such as reputational damage or legal liability, or damage to individuals or entities affected by your company’s activities or linked to your company’s operations, products or services through business relationships.  "
-                },
-                {
-                    termName: "Impact",
-                    termDefinition:
-                        "A situation in which damage has been done to your company, such as reputational damage or legal liability, or to individuals or entities affected by your company’s activities or linked to your company’s operations, products or services through business relationships. "
-                }
-            ]
-          }
+    }
 };
