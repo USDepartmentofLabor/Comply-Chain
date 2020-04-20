@@ -43,8 +43,20 @@ const es = () => {
                     trabajo forzoso en las cadenas de suministro.&nbsp;
                 </p>
                 <ul id="law-list">
-                    <li id="no-expand">
-                        <a
+                
+                    <Accordion id="why-develop-acc">
+                    <Accordion.Section id="law-order">
+                            <Accordion.Title>
+                                <strong>
+                                La Orden Ejecutiva 13126, Prohibici&oacute;n de la
+                            adquisici&oacute;n de productos producidos con
+                            trabajo forzoso o trabajo infantil no remunerado, y las correspondientes reglamentaciones de
+                        aplicaci&oacute;n
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                                <p>
+                                <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.gpo.gov/fdsys/pkg/FR-1999-06-16/pdf/99-15491.pdf"
@@ -55,9 +67,10 @@ const es = () => {
                         </a>
                         , y las correspondientes reglamentaciones de
                         aplicaci&oacute;n
-                    </li>
-                    <br />
-                    <Accordion id="why-develop-acc">
+                                </p>
+                                
+                            </Accordion.Panel>
+                        </Accordion.Section>
                         <Accordion.Section id="exec-order">
                             <Accordion.Title>
                                 <strong>

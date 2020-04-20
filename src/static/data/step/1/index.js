@@ -9,9 +9,9 @@ export const StepData = {
         // keywords: ["Stakeholder", "Community"],
         learningObjectives: [
             "Eradicating child and forced labor and educating children are fundamental government responsibilities.",
-            "Companies &rsquo; social compliance programs can help fill critical gaps where governments have not yet developed full capacity &ndash; and, as outlined below, they fulfill other important responsibilities and objectives.",
+            "Companies’ social compliance programs can help fill critical gaps where governments have not yet developed full capacity – and, as outlined below, they fulfill other important responsibilities and objectives.",
             "At the same time, they do not substitute for strong government action to protect children and workers, and should not be regarded as adequate substitutes for the responsibilities of governments.",
-            "Las empresas poseen toda una gama de motivaciones para poner en marcha los sistemas de cumplimiento social."
+            "Companies have a variety of motivations for implementing social compliance systems."
         ],
         keyTerms: [
             "Some text"

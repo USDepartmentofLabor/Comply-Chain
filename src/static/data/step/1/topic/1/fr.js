@@ -49,8 +49,21 @@ const fr = () => {
                     dans les cha&icirc;nes d&rsquo;approvisionnement.&nbsp;
                 </p>
                 <ul id="law-list">
-                    <li id="no-expand">
-                        <a
+                    
+                    <Accordion id="why-develop-acc">
+                    <Accordion.Section id="law-order">
+                            <Accordion.Title>
+                                <strong>
+                                D&eacute;cret ex&eacute;cutif&nbsp;13126,
+                            Interdiction de l&apos;acquisition de produits issus
+                            du travail forc&eacute; ou pour dette des enfants (Executive Order 13126, Prohibition of Acquisition of
+                        Products Produced by Forced or Indentured Child Labor),
+                        et ses r&eacute;glementations de mise en &oelig;uvre
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                                <p>
+                                <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.gpo.gov/fdsys/pkg/FR-1999-06-16/pdf/99-15491.pdf"
@@ -62,9 +75,10 @@ const fr = () => {
                         (Executive Order 13126, Prohibition of Acquisition of
                         Products Produced by Forced or Indentured Child Labor),
                         et ses r&eacute;glementations de mise en &oelig;uvre.
-                    </li>
-                    <br />
-                    <Accordion id="why-develop-acc">
+                                </p>
+                                
+                            </Accordion.Panel>
+                        </Accordion.Section>
                         <Accordion.Section id="exec-order">
                             <Accordion.Title>
                                 <strong>
