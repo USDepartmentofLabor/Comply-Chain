@@ -26,56 +26,6 @@ class Home extends Component {
         const { localizor } = this.props;
         return (
             <HomeWrapper>
-                <IconContainer>
-                    <HomePageTitle>
-                        {localizor.strings.general.home}
-                    </HomePageTitle>
-                    <Item
-                        image={infoImageData[0].image}
-                        imageMobilePosition={infoImageData[0].mobile}
-                        imageDesktopPosition={infoImageData[0].desktop}
-                    >
-                        <ItemContentFirstTwoLinks>
-                            <h2>
-                                <ItemTitle
-                                    id="home_whydeveloper"
-                                    to={Routes.WhyDevelop.path}
-                                >
-                                    {localizor.strings.info.whyDevelop.title}
-                                </ItemTitle>
-                            </h2>
-                        </ItemContentFirstTwoLinks>
-                    </Item>
-                    <StatusIcons>
-                        {storage.bookmarks.retrieveBookmark(
-                            `info.whyDevelop.title`
-                        ) && <BookmarkIcon />}
-                    </StatusIcons>
-                </IconContainer>
-                <IconContainer>
-                    <Item
-                        red={true}
-                        image={infoImageData[1].image}
-                        imageMobilePosition={infoImageData[1].mobile}
-                        imageDesktopPosition={infoImageData[1].desktop}
-                    >
-                        <ItemContentFirstTwoLinks>
-                            <h2>
-                                <ItemTitle
-                                    id="home_basics"
-                                    to={Routes.Basics.path}
-                                >
-                                    {localizor.strings.info.basics.title}
-                                </ItemTitle>
-                            </h2>
-                        </ItemContentFirstTwoLinks>
-                    </Item>
-                    <StatusIcons>
-                        {storage.bookmarks.retrieveBookmark(
-                            `info.basics.title`
-                        ) && <BookmarkIcon />}
-                    </StatusIcons>
-                </IconContainer>
 
                 {localizor.strings.steps.map((step, i) => {
                     const bookmarked = storage.bookmarks.containsBookmarks(

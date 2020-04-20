@@ -1,10 +1,8 @@
 import { About } from "./about";
-import { Basics } from "./basics";
 import { Findings } from "./findings";
 import { Goods } from "./goods";
 import { KeyResources } from "./key-resources";
 import { WhatAre } from "./what-are";
-import { WhyDevelop } from "./why-develop";
 import { IndenturedProductList } from "./indenturedProductList";
 
 export const Info = {
@@ -18,16 +16,6 @@ export const Info = {
             title: "What are Child Labor and Forced Labor?",
             keywords: ["Child Labor", "Forced Labor"],
             content: WhatAre.en
-        },
-        whyDevelop: {
-            title: "Why Develop a Social Compliance System?",
-            keywords: ["Laws"],
-            content: WhyDevelop.en
-        },
-        basics: {
-            title: "Basics of a Social Compliance System",
-            keywords: ["Management systems"],
-            content: Basics.en
         },
         keyResources: {
             title: "Key Resources",
@@ -63,16 +51,6 @@ export const Info = {
             keywords: ["Trabajo infantil", "Trabajo forzoso"],
             content: WhatAre.es
         },
-        whyDevelop: {
-            title: "¿Por qué crear un sistema de cumplimiento social?",
-            keywords: ["Leyes"],
-            content: WhyDevelop.es
-        },
-        basics: {
-            title: "Aspectos básicos de un sistema de cumplimiento social",
-            keywords: ["Sistemas de gestión"],
-            content: Basics.es
-        },
         keyResources: {
             title: "Recursos clave",
             keywords: [],
@@ -107,16 +85,6 @@ export const Info = {
             keywords: ["Travail des enfants", "Travail forcé"],
             content: WhatAre.fr
         },
-        whyDevelop: {
-            title: "Pourquoi élaborer un système de conformité sociale?",
-            keywords: ["Législation"],
-            content: WhyDevelop.fr
-        },
-        basics: {
-            title: "Fondements d’un système de conformité sociale",
-            keywords: ["Systèmes de gestion"],
-            content: Basics.fr
-        },
         keyResources: {
             title: "Ressources clés",
             keywords: [],
@@ -150,16 +118,6 @@ export const Info = {
                 title: "What are Child Labor and Forced Labor?",
                 keywords: ["Child Labor", "Forced Labor"],
                 content: WhatAre.en
-            },
-            whyDevelop: {
-                title: "Why Develop a Social Compliance System?",
-                keywords: ["Laws"],
-                content: WhyDevelop.en
-            },
-            basics: {
-                title: "Basics of a Social Compliance System",
-                keywords: ["Management systems"],
-                content: Basics.en
             },
             keyResources: {
                 title: "Key Resources",
