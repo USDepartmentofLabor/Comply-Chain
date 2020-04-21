@@ -5,7 +5,7 @@ const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>List of Products Produced by Forced or Indentured Labor</h1>
+                <h1>List of Products Produced by Forced or Indentured Child Labor</h1>
                 <p>
                 ILAB maintains a list of products and their source countries which it has a reasonable basis to believe are produced by forced or indentured child labor,
                 pursuant to &nbsp;
