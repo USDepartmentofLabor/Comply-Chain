@@ -77,6 +77,8 @@ const LanguageButton = styled.button`
     font-size: 1em;
     font-weight: bold;
     border: none;
+    width: 155px;
+    height: 50px;
 
     &:hover {
         background-color: ${theme.colors.primaryDarker};
@@ -131,6 +133,14 @@ class Splash extends Component {
                             }}
                         >
                             <span lang="fr">{this.props.localizor.strings.general.french}</span>
+                        </LanguageButton>
+                        <LanguageButton
+                            id="ms-btn"
+                            onClick={() => {
+                                this.handleLanguageChange("ms");
+                            }}
+                        >
+                            <span lang="ms">{this.props.localizor.strings.general.malay}</span>
                         </LanguageButton>
                     </LanguageWrapper>
                 </FlexContent>
