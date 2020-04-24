@@ -1,203 +1,194 @@
 import React from "react";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
+import goodweave from "../../../../../images/goodweave.jpg";
 
 const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Rejoindre un code existant</h1>
+                <h1>
+                    <strong>Programmes de certification</strong>
+                </h1>
                 <p>
-                    Dans certaines industries, des groupes d&apos;entreprises se
-                    sont d&eacute;j&agrave; form&eacute;s pour &eacute;laborer
-                    des syst&egrave;mes de conformit&eacute; sociale collectifs
-                    que des entreprises individuelles peuvent adopter en
-                    s&rsquo;associant au groupe. Dans la plupart des cas, ces
-                    groupes disposent d&eacute;j&agrave; d&apos;un code de
-                    conduite ou en &eacute;laborent un de concert.
+                    L&apos;&eacute;tude des programmes existants de{" "}
+                    <strong>certification</strong> est une autre option pour
+                    d&eacute;velopper les programmes de conformit&eacute;
+                    sociale. Ces programmes certifient des produits ou des
+                    processus par rapport &agrave; des ensembles &eacute;tablis
+                    de normes ; certains d&apos;entre eux accordent une
+                    estampille aux produits certifi&eacute;s pour toucher
+                    directement les consommateurs et leur indiquer que ce
+                    produit a &eacute;t&eacute; produit dans certaines
+                    conditions.
                 </p>
                 <p>
-                    Les codes sectoriels ou industriels comportent des avantages
-                    et des inconv&eacute;nients. Pour ce qui est des avantages,
-                    ils tirent parti de l&apos;exp&eacute;rience et des
-                    id&eacute;es de diff&eacute;rentes entreprises et regroupent
-                    les ressources pour minimiser la totalit&eacute; des efforts
-                    et du temps n&eacute;cessaires &agrave;
-                    l&apos;&eacute;laboration d&apos;un code. De plus, dans les
-                    secteurs tels que la confection o&ugrave; de nombreuses
-                    marques partagent les m&ecirc;mes fournisseurs, un seul code
-                    convenu garantit que les fournisseurs individuels ne
-                    subissent pas de nombreux audits relevant de
-                    diff&eacute;rents codes et qu&apos;ils peuvent se concentrer
-                    sur l&apos;am&eacute;lioration de leur conformit&eacute; par
-                    rapport &agrave; un ensemble de normes claires.
-                </p>
-                <p>
-                    Pour ce qui est des inconv&eacute;nients, au cours de
-                    l&apos;&eacute;laboration du code, il est possible que les
-                    entreprises membres doivent accepter des concessions sur
-                    certaines dispositions. Il est important pour une entreprise
-                    de comprendre sa cha&icirc;ne d&apos;approvisionnement, ses
-                    risques et ses difficult&eacute;s, avant de d&eacute;cider
-                    de rejoindre un code collectif, pour s&apos;assurer que ce
-                    dernier comporte des engagements politiques solides dans les
-                    domaines les plus importants et caract&eacute;ristiques de
-                    votre activit&eacute;.
-                </p>
-                <p>
-                    Voici quelques exemples de codes sectoriels ou industriels:
-                    les{" "}
+                    S&apos;il existe peu de programmes de certification qui
+                    accordent une estampille «&nbsp;libre de travail des
+                    enfants&nbsp;» ou «&nbsp;libre de travail
+                    forc&eacute;&nbsp;», il existe des programmes qui incluent
+                    dans leurs normes de certification des questions de travail
+                    des enfants et de travail forc&eacute;, entre autres. Par
+                    exemple, le programme Fair Trade (Commerce &eacute;quitable)
+                    vise principalement &agrave; assurer un prix
+                    «&nbsp;&eacute;quitable&nbsp;» aux producteurs &agrave; la
+                    source de la cha&icirc;ne d&apos;approvisionnement, mais les
+                    producteurs doivent &eacute;galement satisfaire aux normes
+                    concernant le travail des enfants, le travail forc&eacute;
+                    et d&apos;autres droits du travail pour recevoir
+                    l&apos;estampille «&nbsp;Fair Trade&nbsp;». Pour plus
+                    d&apos;informations, voir les bo&icirc;tes &agrave; outil de{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://bettercotton.org/wp-content/uploads/2014/10/production-principles-and-criteria.pdf"
-                        title="Principes et crit&egrave;res de production de la Better Cotton Initiative"
+                        href="http://www.fairtrade.net/child-labour.html"
                     >
-                        Principes et crit&egrave;res de production de la Better
-                        Cotton Initiative
+                        Fairtrade International
                     </a>{" "}
-                    pour les entreprises de l&apos;ensemble de la cha&icirc;ne
-                    d&apos;approvisionnement du coton, le{" "}
+                    et de{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.eiccoalition.org/media/docs/EICCCodeofConduct5_English.pdf"
-                        title="Code de conduite de la Coalition pour la citoyennet&eacute; de l&rsquo;industrie &eacute;lectronique"
+                        href="https://www.fairtradecertified.org"
+                        title="Fair Trade Certified"
                     >
-                        Code de conduite de la Coalition pour la
-                        citoyennet&eacute; de l&rsquo;industrie
-                        &eacute;lectronique
-                    </a>{" "}
-                    pour les entreprises de l&rsquo;industrie
-                    &eacute;lectronique, la{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.bonsucro.com/en/production-standard/"
-                        title="Norme de production Bonsucro"
-                    >
-                        norme de production Bonsucro
-                    </a>{" "}
-                    pour les entreprises de la cha&icirc;ne
-                    d&apos;approvisionnement du secteur de la canne &agrave;
-                    sucre, et le{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ethicaltrade.org/eti-base-code"
-                        title="Code de base de l&rsquo;Initiative pour le commerce &eacute;thique pour les entreprises de diff&eacute;rents secteurs"
-                    >
-                        Code de base de l&rsquo;Initiative pour le commerce
-                        &eacute;thique pour les entreprises de diff&eacute;rents
-                        secteurs
-                    </a>
-                    .{" "}
-                </p>
-                <p>
-                    Il existe &eacute;galement des groupes sectoriels ou
-                    industriels qui n&apos;exigent pas que leurs membres se
-                    conforment &agrave; un code sp&eacute;cifique, mais qui ont
-                    &eacute;labor&eacute; pour eux des d&eacute;clarations de
-                    politique g&eacute;n&eacute;rale et des actes
-                    d&rsquo;engagement pour adoption. L&rsquo;
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.aiag.org/corporate-responsibility/supply-chain-sustainability"
-                        title="Automotive Industry Action Group"
-                    >
-                        Automotive Industry Action Group
-                    </a>
-                    * et les{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-priority-industry-principles"
-                        title="Principes sectoriels prioritaires du Consumer Goods Forum"
-                    >
-                        Principes sectoriels prioritaires du Consumer Goods
-                        Forum
-                    </a>{" "}
-                    sur le travail forc&eacute; en sont deux exemples.
-                </p>
-                <p>
-                    De m&ecirc;me, il existe des groupes multilat&eacute;raux et
-                    multipartites qui ont mis au point des recommandations au
-                    sujet d&rsquo;un produit ou d&rsquo;une gamme de produits
-                    pr&eacute;cis. Par exemple: 1) le{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.oecd.org/daf/inv/mne/mining.htm"
-                        title="Suppl&eacute;ment sur l'&eacute;tain, le tantale et le tungst&egrave;ne du Guide de l&rsquo;Organisation de coop&eacute;ration et de d&eacute;veloppement &eacute;conomiques (OCDE) sur le devoir de diligence pour des cha&icirc;nes d'approvisionnement responsables en minerais provenant de zones de conflit ou &agrave; haut risque"
-                    >
-                        {" "}
-                        le Suppl&eacute;ment sur l&apos;&eacute;tain, le tantale
-                        et le tungst&egrave;ne du Guide de l&rsquo;Organisation
-                        de coop&eacute;ration et de d&eacute;veloppement
-                        &eacute;conomiques (OCDE) sur le devoir de diligence
-                        pour des cha&icirc;nes d&apos;approvisionnement
-                        responsables en minerais provenant de zones de conflit
-                        ou &agrave; haut risque
-                    </a>
-                    ; 2) le{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://mneguidelines.oecd.org/responsible-supply-chains-textile-garment-sector.htm"
-                        title="Guide OCDE sur le devoir de diligence pour des cha&icirc;nes d'approvisionnement responsables dans le secteur de l'habillement et de la chaussure"
-                    >
-                        Guide OCDE sur le devoir de diligence pour des
-                        cha&icirc;nes d&apos;approvisionnement responsables dans
-                        le secteur de l&apos;habillement et de la chaussure
-                    </a>
-                    ; 3) le{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://mneguidelines.oecd.org/rbc-agriculture-supply-chains.htm"
-                        title="Guide OCDE pour des cha&icirc;nes d'approvisionnement agricoles responsables"
-                    >
-                        Guide OCDE pour des cha&icirc;nes
-                        d&apos;approvisionnement agricoles responsables
-                    </a>
-                    ; 4) les{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://mneguidelines.oecd.org/Practical-actions-for-worst-forms-of-child-labour-mining-sector.pdf"
-                        title="Actions pratiques de l&rsquo;OCDE pour aider les entreprises &agrave; identifier et &eacute;liminer les pires formes du travail des enfants dans les cha&icirc;nes d'approvisionnement en minerais"
-                    >
-                        Actions pratiques de l&rsquo;OCDE pour aider les
-                        entreprises &agrave; identifier et &eacute;liminer les
-                        pires formes du travail des enfants dans les
-                        cha&icirc;nes d&apos;approvisionnement en minerais
+                        Fair Trade Certified
                     </a>
                     .
                 </p>
                 <p>
-                    Il est de plus en plus courant et b&eacute;n&eacute;fique
-                    pour les soci&eacute;t&eacute;s d&rsquo;exiger de leurs
-                    sous-traitants et de leurs fournisseurs qu&rsquo;ils
-                    souscrivent &agrave; leur code de conduite ou &agrave; un
-                    code sectoriel pertinent. L&rsquo;Outil
-                    d&rsquo;approvisionnement responsable de
-                    Verit&eacute;&rsquo;s comprend un{" "}
+                    Certains programmes de certification visent &eacute;galement
+                    &agrave; satisfaire aux normes de{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.responsiblesourcingtool.org/vendoragreement"
-                        title="Exemple d&rsquo;accord de responsabilit&eacute; sociale"
+                        href="http://www.isealalliance.org/"
+                        title="ISEAL Alliance"
                     >
-                        Exemple d&rsquo;accord de responsabilit&eacute; sociale
-                    </a>{" "}
-                    qui permet de compl&eacute;ter les contrats et les accords
-                    pass&eacute;s entre une soci&eacute;t&eacute; et ses
-                    sous-traitants ou ses fournisseurs en mati&egrave;re
-                    d&rsquo;int&eacute;gration du code et de conformit&eacute;
-                    &agrave; celui-ci, notamment concernant les programmes
-                    d&rsquo;auto-&eacute;valuation et
-                    d&rsquo;am&eacute;lioration &eacute;labor&eacute;s pour
-                    atteindre la conformit&eacute; au code.
+                        ISEAL Alliance
+                    </a>
+                    , association d&apos;organisations qui &eacute;labore des
+                    recommandations sur la mise en place et la mise en
+                    &oelig;uvre de normes de viabilit&eacute;.
+                </p>
+                <p>
+                    Parall&egrave;lement, certains programmes de certification,
+                    et, plus largement, des initiatives de plusieurs parties
+                    prenantes, se sont trouv&eacute;s en butte &agrave; des
+                    critiques concernant des dispositions de gouvernance, par
+                    exemple les structures de financement des programmes de
+                    certification, l&apos;&eacute;quilibre des pouvoirs entre
+                    les membres et les m&eacute;canismes pour les tenir
+                    responsables. D&apos;autres critiques ont trait &agrave; la
+                    mise en &oelig;uvre, par exemple les questions concernant
+                    l&apos;insuffisance ou l&apos;inad&eacute;quation des audits
+                    et de la sensibilisation des parties prenantes. Il est donc
+                    important de comprendre la structure de programmes
+                    particuliers pour &eacute;valuer la fa&ccedil;on dont ils
+                    seront per&ccedil;us par diff&eacute;rentes parties
+                    prenantes.&nbsp;
+                </p>
+                <ExampleInAction id="clt">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>Exemple d&apos;action: GoodWeave</strong>
+                    </h2>
+
+                    <p>
+                        Depuis plus de 20&nbsp;ans,{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://goodweave.org/"
+                            title="GoodWeave"
+                        >
+                            GoodWeave
+                        </a>{" "}
+                        travaille &agrave; la transformation de
+                        l&rsquo;industrie du tapis en encourageant la demande de
+                        tapis libre de travail des enfants et en aidant les
+                        entreprises &agrave; y r&eacute;pondre. Les importateurs
+                        et exportateurs de tapis qui souhaitent &ecirc;tre
+                        agr&eacute;&eacute;s par GoodWeave et obtenir
+                        l&rsquo;estampille GoodWeave d&rsquo;information des
+                        consommateurs doivent signer un contrat &agrave;
+                        caract&egrave;re ex&eacute;cutoire de respect de la
+                        norme rigoureuse de GoodWeave concernant la
+                        certification de fabrication de tapis sans recours au
+                        travail des enfants, au travail forc&eacute; et au
+                        travail en servitude. Dans le cadre du programme de
+                        certification, les entreprises conviennent
+                        d&rsquo;autoriser les inspections inopin&eacute;es de
+                        leurs cha&icirc;nes d&rsquo;approvisionnement afin de
+                        v&eacute;rifier la conformit&eacute; &agrave; la norme
+                        et d&rsquo;assurer la r&eacute;paration des violations.
+                        Elles s&rsquo;acquittent &eacute;galement de redevances
+                        qui soutiennent les programmes de GoodWeave de
+                        surveillance et d&rsquo;inspection des lieux de travail
+                        et de r&eacute;insertion et d&rsquo;&eacute;ducation des
+                        enfants en situation d&rsquo;exploitation. GoodWeave est
+                        membre de plein droit de l&rsquo;Alliance internationale
+                        pour l&apos;accr&eacute;ditation et
+                        l&apos;&eacute;tiquetage sociaux et environnementaux
+                        (ISEAL Alliance), association largement reconnue comme
+                        chef de file de la mise en place des bonnes pratiques
+                        pour les normes de certification. Ces derni&egrave;res
+                        ann&eacute;es, GoodWeave a &eacute;tendu la
+                        port&eacute;e de son programme au-del&agrave; de
+                        l&rsquo;industrie des tapis en Inde pour toucher de
+                        nouveaux secteurs et de nouveaux pays, notamment les
+                        fours &agrave; brique au N&eacute;pal, les usines de
+                        confection en Inde et, par le biais d&rsquo;un projet
+                        financ&eacute; par le d&eacute;partement du Travail des
+                        &Eacute;tats-Unis, la production de tapis &agrave;
+                        domicile en Afghanistan.
+                    </p>
+                    <p>
+                        En savoir plus sur le{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/ilab/projects/summaries/Afghanistan_Carpets.pdf"
+                            title="Projet de pr&eacute;vention du travail des enfants dans la production de tapis &agrave; domicile en Afghanistan"
+                        >
+                            <em>
+                                Projet de pr&eacute;vention du travail des
+                                enfants dans la production de tapis &agrave;
+                                domicile en Afghanistan
+                            </em>
+                        </a>
+                        <em>, </em> financ&eacute; par le d&eacute;partement du
+                        Travail des &Eacute;tats-Unis et mis en &oelig;uvre par
+                        GoodWeave [en anglais].
+                    </p>
+                    <img src={goodweave} alt="GoodWeave International" />
+                    <p className="small-text">
+                        &copy; Lorenzo Tugnoli, avec l&rsquo;aimable
+                        autorisation de GoodWeave International
+                    </p>
+                </ExampleInAction>
+
+                <p>
+                    <em>
+                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
+                        des soci&eacute;t&eacute;s et entit&eacute;s non
+                        gouvernementales sp&eacute;cifiques dans ce guide sont
+                        &agrave; des fins d&rsquo;information uniquement afin de
+                        d&eacute;montrer les bonnes pratiques reconnues &agrave;
+                        l&rsquo;&eacute;chelle internationale, &agrave; la date
+                        de lancement de l&rsquo;appli. Toute
+                        r&eacute;f&eacute;rence &agrave; ces entit&eacute;s ne
+                        saurait constituer une approbation officielle de ces
+                        derni&egrave;res, de leurs produits ou de leurs services
+                        par le d&eacute;partement du Travail des
+                        &Eacute;tats-Unis,{" "}
+                    </em>
+                    <em>
+                        et leur inclusion dans cette appli ne saurait &ecirc;tre
+                        interpr&eacute;t&eacute;e comme un examen exhaustif des
+                        pratiques de ces entit&eacute;s dans tous les domaines
+                    </em>
+                    <em>.</em>
                 </p>
             </div>
         </StaticData>

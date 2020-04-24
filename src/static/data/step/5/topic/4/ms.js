@@ -1,111 +1,211 @@
 import React from "react";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
-import usDol from "../../../../../images/usdol.jpg";
+import ilo from "../../../../../images/ilo.jpg";
 
 const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Scheduling Audits</h1>
+                <h1>
+                    Addressing the Vulnerability of Migrants in Codes of Conduct
+                </h1>
                 <p>
-                    If you are part of an industry or multi-industry group, the
-                    group&rsquo;s systems and processes may drive when and how
-                    you schedule audits. If you are pursuing a social compliance
-                    system on your own, you will have several decisions to make
-                    in scheduling your audits.
+                    Often, the workers who are most vulnerable to forced
+                    labor/trafficking are migrant and temporary workers, who
+                    make up a significant proportion of the workforce in certain
+                    industries and parts of the world. In some cases, employers
+                    obtain migrant and temporary labor through labor brokerage
+                    or recruitment services. Workers are highly vulnerable to a
+                    wide range of abuses in these situations. Some recruiters
+                    confiscate workers&rsquo; identity documents as a means to
+                    entrap them, and/or deceive workers about the nature of the
+                    work they will be doing, the working conditions, the housing
+                    and living arrangements, and other aspects of their
+                    employment. In some cases, workers are made to pay fees to
+                    recruiters, brokers and other actors along the migration
+                    chain&ndash;fees which may be impossible to pay back and
+                    lead to debt bondage. As enshrined in ILO Convention 181,
+                    all costs of recruiting labor should be borne by the
+                    employer&mdash;workers should never pay any cost to obtain a
+                    job.
                 </p>
                 <p>
-                    First, if auditing is part of a pre-screening or
-                    pre-registration process (i.e., if you require potential
-                    suppliers to obtain a passing score on an audit before you
-                    will place your first order), you will schedule audits with
-                    these facilities as soon as you believe they are ready,
-                    based on their experience with audits and/or the training
-                    they have received. Once the supplier has passed the audit
-                    and been registered to supply to the company, audits should
-                    be repeated on a periodic basis, depending on the findings
-                    of the audit.
+                    If you know or suspect that there is migrant labor in your
+                    supply chain, it is important to include relevant standards
+                    and provisions in your code of conduct.&nbsp;
                 </p>
-                <ExampleInAction id="prereg">
+                <ExampleInAction id="patagonia">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        Example in Action: Pre-Registration Processes
+                        Example in Action: Patagonia&rsquo;s* Migrant Worker
+                        Standards
                     </h2>
                     <p>
-                        Many companies require a new supplier to earn a passing
-                        score on a social audit before the company will place
-                        any orders with that supplier. Typically, the company
-                        provides training to prepare the supplier for the audit,
-                        or may expect a vendor/agent to provide training to
-                        suppliers. Once a supplier passes an audit, some
-                        companies will then register each supplier in the social
-                        compliance information system; other companies&rsquo;
-                        information systems are web-based and allow suppliers to
-                        register themselves.
-                    </p>
-                    <p>
-                        For example, Target Corporation* requires all vendors
-                        that supply Target branded products to complete a human
-                        rights and compliance assessment as part of the
-                        registration process. If a vendor proposes to source
-                        from a supplier that has a history of social compliance
-                        violations, Target requires a completed corrective
-                        action plan to remediate the violations before
-                        production begins. For more information, see{" "}
+                        When 2011 audits revealed indicators of forced labor,
+                        human trafficking, and labor exploitation in
+                        Patagonia&rsquo;s supplier factories in Taiwan, the
+                        outdoor apparel company realized that despite its
+                        existing Supplier Workplace Code of Conduct, more robust
+                        standards were needed. Patagonia collaborated with
+                        Verit&eacute;*, an NGO that promotes safe, fair, and
+                        legal working conditions worldwide, to conduct research
+                        to better understand the situation of migrant workers in
+                        their supply chain. Upon finding that many migrants fall
+                        victims to an exploitative labor recruitment system that
+                        leaves workers laden with excessive broker fees and
+                        vulnerable to debt bondage, Patagonia developed
+                        comprehensive migrant worker standards. These standards
+                        ban supplier factories from charging recruitment fees
+                        and cover a range of other issues relevant for migrant
+                        workers, including living and working conditions, wages,
+                        and greivance procedures. Patagonia&rsquo;s{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://corporate.target.com/corporate-responsibility/responsible-sourcing/social-compliance/labor-and-human-rights"
-                            title="Target&rsquo;s Standards of Vendor Engagement webpage"
+                            href="http://www.patagonia.com/static/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw604fc14d/PDF-US/Migrant_Worker_Employment_Standards.pdf"
+                            title="Migrant Worker Employment Standards"
                         >
-                            Target&rsquo;s Standards of Vendor Engagement
-                            webpage
+                            Migrant Worker Employment Standards
+                        </a>{" "}
+                        are publicly available.
+                    </p>
+                    <p>
+                        For more information, see Patagonia{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.patagonia.com/blog/2015/06/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/"
+                            title="The Unacceptably High Cost of Labor- How a deeper dive into our supply chain led to a new Migrant Worker Standard"
+                        >
+                            <em>
+                                The Unacceptably High Cost of Labor- How a
+                                deeper dive into our supply chain led to a new
+                                Migrant Worker Standard
+                            </em>
+                        </a>
+                        <em>.</em>
+                    </p>
+                </ExampleInAction>
+                <p>
+                    An important policy document focused on vulnerable migrant
+                    workers is the
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf"
+                        title="Dhaka Principles for Migration with Dignity"
+                    >
+                        {" "}
+                        Dhaka Principles for Migration with Dignity
+                    </a>{" "}
+                    (Dhaka Principles). The Dhaka Principles consist of ten
+                    principles that trace the worker from recruitment, through
+                    employment, to the end of the employment relationship, and
+                    provide key principles that employers and migrant recruiters
+                    should respect to ensure migration with dignity. The Dhaka
+                    Principles were developed by the{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ihrb.org/"
+                        title="Institute for Human Rights and Business"
+                    >
+                        Institute for Human Rights and Business (IHRB)
+                    </a>{" "}
+                    and are supported by businesses, governments, trade unions,
+                    and civil society. They are based on international human
+                    rights standards and the three pillars of the{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+                        title="UN Guiding Principles on Business and Human Rights"
+                    >
+                        UN Guiding Principles on Business and Human Rights
+                    </a>
+                    .
+                </p>
+                <img src={ilo} alt="Worker climbing scaffolding" />
+
+                <p className="small-text">&copy;M. Crozet/ILO</p>
+                <ExampleInAction id="leadership">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: Leadership Group for Responsible
+                            Recruitment
+                        </strong>
+                    </h2>
+                    <p>
+                        Launched in May 2016, the{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment"
+                            title="Leadership Group for Responsible Recruitment"
+                        >
+                            Leadership Group for Responsible Recruitment
+                        </a>{" "}
+                        is a collaboration between several large multinational
+                        companies and expert organizations to drive positive
+                        change in the way that migrant workers are recruited.
+                        Members of the Leadership Group have committed to
+                        the&nbsp;Employer Pays Principle:{" "}
+                        <em>
+                            "No worker should pay for a job &ndash; the costs of
+                            recruitment should be borne not by the worker but by
+                            the employer."{" "}
+                        </em>
+                    </p>
+                    <p>
+                        Convened by the non-governmental organization{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ihrb.org/"
+                            title="Institute for Human Rights and Business"
+                        >
+                            Institute for Human Rights and Business
+                        </a>{" "}
+                        (IHRB), the Leadership Group calls for the Employer Pays
+                        Principle to be embedded in corporate and government
+                        policy and practice to protect migrant workers and
+                        counter the risk of forced labor in their own
+                        operations, business relationships, and global supply
+                        chains. Together, the Leadership Group provides a
+                        vehicle for advocacy and collaboration and serves as a
+                        knowledge hub for sharing good practices, tools, and
+                        guidance in relation to responsible recruitment.
+                    </p>
+                    <p>
+                        Learn more about the Leadership Group and its tools on
+                        ethical recruitment by visiting the{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ihrb.org/employerpays/"
+                            title="Responsible Recruitment Gateway"
+                        >
+                            Responsible Recruitment Gateway
                         </a>
                         .
                     </p>
                 </ExampleInAction>
                 <p>
-                    Companies with vast supply chains and/or dispersed suppliers
-                    typically conduct audits on a sampling basis. This is common
-                    with audits of agricultural producers, for example. Your
-                    sample should be random and statistically representative.
-                </p>
-                <p>
-                    Audits should be scheduled at times when code violations are
-                    most likely to occur. For example, in agriculture, child
-                    labor may be most likely to occur at harvest time. In
-                    manufacturing, labor issues are most likely to occur when
-                    facilities are at maximum production levels. Your risk
-                    assessment should provide information to feed in to these
-                    determinations.
-                </p>
-                <img
-                    id="img-browser"
-                    className="small-img"
-                    src={usDol}
-                    alt="agriculture child labor"
-                />
-                <p className="small-text">&copy;Shelley Stinelli/USDOL</p>
-                <p>
-                    Auditing of your supply chain should also be scheduled
-                    regularly. However, your audit team should also be ready to
-                    react quickly if a grievance is received regarding a
-                    particular worksite.
-                </p>
-                <p>
-                    Some companies allow suppliers to conduct their own
-                    self-audits, in which suppliers evaluate their own
-                    performance using the audit tools, and report it to the
-                    company. Typically, companies may allow this for suppliers
-                    who have established a pattern of excellent performance on
-                    audits, and/or for suppliers located in countries where the
-                    government has shown a pattern of effective labor law
-                    enforcement. It is still advisable to reserve the right to
-                    conduct additional audits on such suppliers. Self-auditing
-                    has the advantage of raising the capacity of suppliers, but
-                    results of self-auditing should still be verified by an
-                    independent party.
+                    In some cases, migrant workers are provided accommodations
+                    by their employers as part of the terms of employment. For
+                    employers, this is a means to recruit and keep valuable
+                    employees, and for migrant workers who have traveled far
+                    from home, this arrangement can provide needed housing.
+                    However, such housing must be safe, clean and appropriate to
+                    the worker population. Workers must always have freedom of
+                    movement, and the right to choose other housing if they
+                    wish. According to the ILO, if workers are living in
+                    &ldquo;degrading living conditions&rdquo; in
+                    employer-provided housing, and are also subject to some form
+                    of penalty or threat preventing them from leaving their
+                    jobs, this would amount to a forced labor situation.
                 </p>
             </div>
         </StaticData>

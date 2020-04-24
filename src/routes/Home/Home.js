@@ -17,6 +17,8 @@ import homeStep5 from "../../static/images/home_step_5.jpg";
 import homeStep6 from "../../static/images/home_step_6.jpg";
 import homeStep7 from "../../static/images/home_step_7.jpg";
 import homeStep8 from "../../static/images/home_step_8.jpg";
+import homeStep9 from "../../static/images/home_step_9.jpg";
+import homeStep10 from "../../static/images/home_step_10.jpg";
 import homeWhyDevelop from "../../static/images/home_why_develop.jpg";
 
 class Home extends Component {
@@ -24,56 +26,6 @@ class Home extends Component {
         const { localizor } = this.props;
         return (
             <HomeWrapper>
-                <IconContainer>
-                    <HomePageTitle>
-                        {localizor.strings.general.home}
-                    </HomePageTitle>
-                    <Item
-                        image={infoImageData[0].image}
-                        imageMobilePosition={infoImageData[0].mobile}
-                        imageDesktopPosition={infoImageData[0].desktop}
-                    >
-                        <ItemContentFirstTwoLinks>
-                            <h2>
-                                <ItemTitle
-                                    id="home_whydeveloper"
-                                    to={Routes.WhyDevelop.path}
-                                >
-                                    {localizor.strings.info.whyDevelop.title}
-                                </ItemTitle>
-                            </h2>
-                        </ItemContentFirstTwoLinks>
-                    </Item>
-                    <StatusIcons>
-                        {storage.bookmarks.retrieveBookmark(
-                            `info.whyDevelop.title`
-                        ) && <BookmarkIcon />}
-                    </StatusIcons>
-                </IconContainer>
-                <IconContainer>
-                    <Item
-                        red={true}
-                        image={infoImageData[1].image}
-                        imageMobilePosition={infoImageData[1].mobile}
-                        imageDesktopPosition={infoImageData[1].desktop}
-                    >
-                        <ItemContentFirstTwoLinks>
-                            <h2>
-                                <ItemTitle
-                                    id="home_basics"
-                                    to={Routes.Basics.path}
-                                >
-                                    {localizor.strings.info.basics.title}
-                                </ItemTitle>
-                            </h2>
-                        </ItemContentFirstTwoLinks>
-                    </Item>
-                    <StatusIcons>
-                        {storage.bookmarks.retrieveBookmark(
-                            `info.basics.title`
-                        ) && <BookmarkIcon />}
-                    </StatusIcons>
-                </IconContainer>
 
                 {localizor.strings.steps.map((step, i) => {
                     const bookmarked = storage.bookmarks.containsBookmarks(
@@ -152,9 +104,9 @@ const stepImageData = [
         image: homeStep1,
         mobile: {
             x: 50,
-            y: 30
+            y: 20
         },
-        desktop: { x: 50, y: 40 }
+        desktop: { x: 50, y: 35 }
     },
     {
         image: homeStep2,
@@ -162,15 +114,15 @@ const stepImageData = [
             x: 50,
             y: 25
         },
-        desktop: { x: 50, y: 35 }
+        desktop: { x: 50, y: 25 }
     },
     {
         image: homeStep3,
         mobile: {
             x: 50,
-            y: 35
+            y: 30
         },
-        desktop: { x: 50, y: 33 }
+        desktop: { x: 50, y: 40 }
     },
     {
         image: homeStep4,
@@ -178,31 +130,31 @@ const stepImageData = [
             x: 50,
             y: 25
         },
-        desktop: { x: 50, y: 25 }
+        desktop: { x: 50, y: 35 }
     },
     {
         image: homeStep5,
         mobile: {
             x: 50,
-            y: 20
+            y: 35
         },
-        desktop: { x: 50, y: 28 }
+        desktop: { x: 50, y: 33 }
     },
     {
         image: homeStep6,
         mobile: {
             x: 50,
-            y: 0
+            y: 25
         },
-        desktop: { x: 50, y: 18 }
+        desktop: { x: 50, y: 25 }
     },
     {
         image: homeStep7,
         mobile: {
             x: 50,
-            y: 60
+            y: 20
         },
-        desktop: { x: 50, y: 30 }
+        desktop: { x: 50, y: 28 }
     },
     {
         image: homeStep8,
@@ -211,7 +163,24 @@ const stepImageData = [
             y: 0
         },
         desktop: { x: 50, y: 18 }
+    },
+    {
+        image: homeStep9,
+        mobile: {
+            x: 50,
+            y: 60
+        },
+        desktop: { x: 50, y: 30 }
+    },
+    {
+        image: homeStep10,
+        mobile: {
+            x: 50,
+            y: 0
+        },
+        desktop: { x: 50, y: 18 }
     }
+
 ];
 
 const HomePageTitle = styled.h1`

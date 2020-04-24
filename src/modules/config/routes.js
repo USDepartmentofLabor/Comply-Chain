@@ -1,6 +1,5 @@
 import {
     About,
-    Basics,
     Bookmarks,
     Home,
     KeyResources,
@@ -8,7 +7,6 @@ import {
     Step,
     Topic,
     WhatAre,
-    WhyDevelop,
     Findings,
     Goods,
     IndenturedProductList
@@ -35,11 +33,6 @@ const Routes = {
         component: About,
         exact: true
     },
-    Basics: {
-        path: "/basics",
-        component: Basics,
-        exact: true
-    },
     KeyResources: {
         path: "/key-resources",
         component: KeyResources,
@@ -48,11 +41,6 @@ const Routes = {
     WhatAre: {
         path: "/what-are",
         component: WhatAre,
-        exact: true
-    },
-    WhyDevelop: {
-        path: "/why-develop",
-        component: WhyDevelop,
         exact: true
     },
     Bookmarks: {

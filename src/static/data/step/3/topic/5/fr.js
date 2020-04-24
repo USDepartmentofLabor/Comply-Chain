@@ -6,141 +6,282 @@ const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Comment &eacute;laborer un code</h1>
+                <h1>Associations et initiatives de l&apos;industrie</h1>
                 <p>
-                    La port&eacute;e et la couverture d&rsquo;un code devraient
-                    correspondre &agrave; celles du syst&egrave;me de
-                    conformit&eacute; dans son ensemble. Si une entreprise
-                    d&eacute;cide d&apos;&eacute;laborer son propre code au lieu
-                    de rejoindre un code existant, il est important tout
-                    d&apos;abord de prendre mieux connaissance des bonnes
-                    pratiques de l&apos;&eacute;laboration des codes. Par
-                    exemple, le processus devrait &ecirc;tre transparent et
-                    permettre &agrave; une grande gamme de parties prenantes, y
-                    compris les travailleurs et leurs repr&eacute;sentants,
-                    d&rsquo;exprimer leur opinion.&nbsp;
+                    Une autre fa&ccedil;on d&apos;identifier et d&apos;amener la
+                    participation des parties prenantes et des partenaires passe
+                    par les plateformes, les associations et les initiatives de
+                    l&apos;industrie. Voici quelques exemples.
                 </p>
-                <p>
-                    L&apos;Alliance ISEAL, association mondiale pour les normes
-                    sociales et environnementales, a publi&eacute; un{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.isealalliance.org/our-work/defining-credibility/codes-of-good-practice"
-                        title="Code de bonnes pratiques pour la mise en place de normes"
-                    >
-                        Code de bonnes pratiques pour la mise en place de normes
-                        sociales et environnementales
-                    </a>{" "}
-                    qui pr&eacute;cise les &eacute;tapes fondamentales de
-                    l&apos;&eacute;laboration d&apos;un ensemble de normes.
-                    Selon ISEAL, le processus devrait inclure:
-                </p>
-                <ul>
-                    <li>
-                        Une d&eacute;finition claire des objectifs vis&eacute;s
-                        par la norme et la justification de sa
-                        n&eacute;cessit&eacute;
-                    </li>
-                    <li>
-                        L&apos;identification des parties prenantes
-                        touch&eacute;es et des opportunit&eacute;s pour leur
-                        participation
-                    </li>
-                    <li>
-                        Des consultations publiques et le maintien d&apos;un
-                        &eacute;quilibre d&apos;int&eacute;r&ecirc;ts
-                    </li>
-                    <li>
-                        La mise &agrave; la disposition du public de la norme et
-                        son r&eacute;examen &agrave; intervalles
-                        r&eacute;guliers
-                    </li>
-                </ul>
-                <p>
-                    Chacun de ces principes est d&eacute;velopp&eacute; dans le
-                    Code de bonnes pratiques d&apos;ISEAL.&nbsp;
-                </p>
-                <ExampleInAction id="fair_labor">
+                <ExampleInAction id="sug_phil">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Exemple d&apos;action</strong>: Processus
-                        de r&eacute;vision du code de la Fair Labor Association
+                        <strong>
+                            Exemple d&apos;action: Fondation Eliminating
+                            Child Labor in Tobacco-Growing (ECLT)
+                        </strong>
+                    </h2>
+                    <p>
+                        Lanc&eacute;e en&nbsp;2002, la{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.eclt.org/"
+                            title="Fondation ECLT"
+                        >
+                            Fondation ECLT
+                        </a>{" "}
+                        a une approche multipartite de la pr&eacute;vention du
+                        travail des enfants dans la production du tabac et de la
+                        protection et de l&rsquo;am&eacute;lioration de leurs
+                        vies dans les r&eacute;gions tabacoles. Ses efforts
+                        suivent un mod&egrave;le tripartite qui r&eacute;unit
+                        des gouvernements, des syndicats et des employeurs,
+                        ainsi que des organisations de la soci&eacute;t&eacute;
+                        civile, des repr&eacute;sentants du secteur public et
+                        d&rsquo;autres parties prenantes pour faire face au
+                        travail des enfants dans le domaine de la production du
+                        tabac. Membre du Pacte mondial de l&rsquo;ONU et de la{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.ilo.org/ipec/Action/CSR/clp/lang--fr/index.htm"
+                            title="Plateforme de l&rsquo;OIT sur le travail des enfants"
+                        >
+                            Plateforme de l&rsquo;OIT sur le travail des enfants
+                        </a>
+                        , la Fondation ECLT m&egrave;ne des efforts de plaidoyer
+                        sur le travail des enfants dans le monde entier et fait
+                        office de centre de recherche et
+                        d&rsquo;am&eacute;lioration des connaissances sur ce
+                        sujet. Depuis&nbsp;2003, la Fondation ECLT a men&eacute;
+                        des projets avec toute une s&eacute;rie de parties
+                        prenantes issues des secteurs public et priv&eacute;
+                        dans des pays o&ugrave; le travail des enfants est
+                        courant dans la production de tabac, notamment au{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.eclt.org/impact/projects/eclt-in-guatemala#introduction"
+                            title="Guatemala"
+                        >
+                            Guatemala
+                        </a>
+                        , au{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.eclt.org/impact/projects/eclt-in-kyrgyzstan#introduction"
+                            title="Kirghizistan"
+                        >
+                            Kirghizistan
+                        </a>
+                        , au{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.eclt.org/impact/projects/eclt-in-malawi#introduction"
+                            title="Malawi"
+                        >
+                            Malawi
+                        </a>
+                        , au{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.eclt.org/impact/projects/eclt-in-mozambique#introduction"
+                            title="Mozambique"
+                        >
+                            Mozambique
+                        </a>
+                        , en{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.eclt.org/impact/projects/eclt-in-tanzania#introduction"
+                        >
+                            Tanzanie
+                        </a>{" "}
+                        et en{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.eclt.org/impact/projects/eclt-in-uganda#introduction"
+                            title="Ouganda"
+                        >
+                            Ouganda
+                        </a>
+                        . Ces projets ont cinq objectifs
+                        strat&eacute;giques: soustraire les enfants du
+                        travail des enfants, fournir des services
+                        &eacute;ducatifs, sensibiliser, renforcer les
+                        communaut&eacute;s et r&eacute;duire la pauvret&eacute;.
+                        En 2015, l&rsquo;ECLT a commenc&eacute; un{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.eclt.org/en/news-and-insights/the-ilo-eclt-public-private-partnership-2015-2018-global-guidance-on-hazardous-child-labour-in-tobacco-growing"
+                            title="Partenariat public-priv&eacute; de 3&nbsp;ans avec l&rsquo;OIT"
+                        >
+                            partenariat public-priv&eacute; de 3&nbsp;ans avec
+                            l&rsquo;OIT
+                        </a>{" "}
+                        afin de mettre au point des orientations &agrave;
+                        &eacute;chelle mondiale sur les dangers du travail des
+                        enfants dans la production tabacole.
+                    </p>
+                </ExampleInAction>
+                <ExampleInAction id="clt">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Exemple d&apos;action: Plateforme sur le
+                            travail des enfants
+                        </strong>
                     </h2>
                     <p>
                         La{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.fairlabor.org/"
-                            title="Fair Labor Association"
+                            href="https://www.ilo.org/ipec/Action/CSR/clp/lang--fr/index.htm"
+                            title="Plateforme sur le travail des enfants"
                         >
-                            Fair Labor Association
+                            Plateforme sur le travail des enfants
                         </a>{" "}
-                        (FLA) est une organisation &agrave; but non lucratif qui
-                        surveille la conformit&eacute; avec son{" "}
+                        (CLP) est un forum op&eacute;r&eacute; par des
+                        entreprises visant &agrave; s&rsquo;attaquer au travail
+                        des enfants dans les cha&icirc;nes
+                        d&rsquo;approvisionnement. La plateforme tente
+                        d&rsquo;identifier les obstacles &agrave; la mise en
+                        &oelig;uvre des conventions de l&rsquo;OIT sur le
+                        travail des enfants dans les cha&icirc;nes
+                        d&rsquo;approvisionnement et les communaut&eacute;s
+                        environnantes ainsi que des mani&egrave;res pratiques de
+                        les surmonter, et sert de catalyseur pour les actions
+                        collectives. Cela signifie exercer une diligence
+                        raisonnable afin d&rsquo;identifier, de pr&eacute;venir,
+                        d&rsquo;att&eacute;nuer, de r&eacute;parer et de prendre
+                        en compte tout effet n&eacute;gatif sur le droit des
+                        enfants &agrave; &ecirc;tre &agrave; l&rsquo;abri du
+                        travail des enfants que les entreprises causent ou
+                        auquel elles contribuent ou sont li&eacute;es au travers
+                        de leur op&eacute;rations et relations.
+                        Depuis&nbsp;2012, la plateforme est
+                        int&eacute;gr&eacute;e au Groupe de travail sur les
+                        droits de l&rsquo;homme et les questions de travail
+                        (HRLWG) du Pacte mondial de l&rsquo;ONU, aux
+                        c&ocirc;t&eacute;s de l&rsquo;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.fairlabor.org/our-work/code-of-conduct"
-                            title="Code de conduite sur le lieu de travail"
+                            href="http://www.ioe-emp.org/"
+                            title="Organisation internationale des employeurs (OIE)"
                         >
-                            Code de conduite sur le lieu de travail
+                            Organisation internationale des employeurs (OIE)
                         </a>{" "}
-                        des conditions de travail dans les usines
-                        affili&eacute;es &agrave; celle-ci. Ce code est
-                        fond&eacute; sur les normes de l&apos;OIT et comporte
-                        &eacute;galement des dispositions
-                        d&eacute;taill&eacute;es de r&eacute;paration lorsque
-                        des violations sont identifi&eacute;es. Il est
-                        compl&eacute;t&eacute; par les{" "}
+                        et de la{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.fairlabor.org/sites/default/files/fla_complete_code_and_benchmarks.pdf"
-                            title="R&eacute;f&eacute;rences de conformit&eacute; de la FLA"
+                            href="https://www.ituc-csi.org/"
+                            title="Conf&eacute;d&eacute;ration syndicale internationale (CSI)"
                         >
-                            R&eacute;f&eacute;rences de conformit&eacute; de la
-                            FLA
-                        </a>{" "}
-                        qui identifient les normes sp&eacute;cifiques relatives
-                        &agrave; chaque &eacute;l&eacute;ment du code. En juin
-                        2011, le conseil d&rsquo;administration de la FLA a
-                        approuv&eacute; des am&eacute;liorations sensibles au
-                        Code de conduite sur le lieu de travail et aux
-                        R&eacute;f&eacute;rences de conformit&eacute;. Six
-                        &eacute;l&eacute;ments du code adopt&eacute;, sur les
-                        neuf &eacute;l&eacute;ments qui s&apos;y trouvent,
-                        &eacute;taient soit de nouveaux &eacute;l&eacute;ments,
-                        soit des r&eacute;visions dans des domaines allant des
-                        relations de travail aux heures ouvr&eacute;es en
-                        passant par la r&eacute;mun&eacute;ration, la
-                        sant&eacute;, la s&eacute;curit&eacute; et
-                        l&apos;environnement. Le code r&eacute;vis&eacute; a
-                        &eacute;t&eacute; &eacute;labor&eacute; sur deux ans par
-                        un processus appelant les suggestions d&apos;une grande
-                        gamme de parties prenantes et a &eacute;t&eacute;
-                        adopt&eacute; par un conseil de membres qui comprend
-                        &agrave; part &eacute;gale des repr&eacute;sentants
-                        d&apos;entreprises, d&apos;ONG et
-                        d&apos;universit&eacute;s.&nbsp;
-                    </p>
-                    <p>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf"
-                            title="Obtenir davantage d'informations et voir le Code de conduite sur le lieu de travail et les R&eacute;f&eacute;rences de conformit&eacute; complets, les principaux points de la r&eacute;vision et une comparaison c&ocirc;te &agrave; c&ocirc;te avec le code pr&eacute;c&eacute;dent."
-                        >
-                            Obtenir davantage d&apos;informations et voir le
-                            Code de conduite sur le lieu de travail et les
-                            R&eacute;f&eacute;rences de conformit&eacute;
-                            complets, les principaux points de la
-                            r&eacute;vision et une comparaison c&ocirc;te
-                            &agrave; c&ocirc;te avec le code
-                            pr&eacute;c&eacute;dent
+                            Conf&eacute;d&eacute;ration syndicale internationale
+                            (CSI)
                         </a>
-                        .
+                        , toutes deux copr&eacute;sidentes. En 2015, des membres
+                        de la plateforme, notamment des soci&eacute;t&eacute;s
+                        des secteurs des produits alimentaires et des boissons,
+                        des v&ecirc;tements et de l&rsquo;extraction
+                        mini&egrave;re, ont contribu&eacute; &agrave;
+                        l&rsquo;&eacute;laboration d&rsquo;un{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.ilo.org/ipecinfo/product/download.do?type=document&amp;id=27555"
+                            title="Outil d'orientation sur le travail des enfants &agrave; l'intention des entreprises"
+                        >
+                            Outil d&apos;orientation sur le travail des enfants
+                            &agrave; l&apos;intention des entreprises
+                        </a>
+                        , r&eacute;dig&eacute; par l&rsquo;OIT et l&rsquo;OIE,
+                        qui sert de ressource aux soci&eacute;t&eacute;s pour
+                        satisfaire aux exigences en mati&egrave;re de diligence
+                        raisonnable d&eacute;taill&eacute;s dans les{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.ohchr.org/documents/publications/guidingprinciplesbusinesshr_fr.pdf"
+                            title="Principes directeurs des Nations Unies relatifs aux entreprises et aux droits de l'homme"
+                        >
+                            Principes directeurs des Nations Unies relatifs aux
+                            entreprises et aux droits de l&apos;homme
+                        </a>{" "}
+                        concernant le travail des enfants. De nouvelles
+                        soci&eacute;t&eacute;s et organisations pertinentes
+                        rejoignent constamment la plateforme.
+                    </p>
+                </ExampleInAction>
+                <ExampleInAction id="gbn">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Exemple d&apos;action: R&eacute;seau mondial
+                            d&apos;entreprises de l&rsquo;OIT sur le travail
+                            forc&eacute;
+                        </strong>
+                    </h2>
+                    <p>
+                        Le R&eacute;seau mondial d&apos;entreprises de
+                        l&rsquo;OIT sur le travail forc&eacute;, soutenu par un
+                        financement initial du d&eacute;partement du Travail et
+                        Mars, Inc.*, devrait &ecirc;tre lanc&eacute;
+                        en&nbsp;2018; il rassemblera des organisations
+                        d&rsquo;employeurs, des entreprises et d&rsquo;autres
+                        parties prenantes pour donner des occasions de partager
+                        des informations sur la mani&egrave;re dont les
+                        soci&eacute;t&eacute;s de toute une s&eacute;rie de
+                        secteurs exercent leur diligence raisonnable et
+                        effectuent des &eacute;valuations de risques en
+                        mati&egrave;re de travail forc&eacute; et de traite des
+                        &ecirc;tres humains dans leurs op&eacute;rations
+                        commerciales. Le R&eacute;seau mondial
+                        d&rsquo;entreprises fournira aux soci&eacute;t&eacute;s
+                        des occasions de r&eacute;f&eacute;rencer leurs
+                        r&eacute;sultats et de faciliter l&rsquo;apprentissage
+                        par les pairs sur les questions de travail forc&eacute;,
+                        notamment par le biais de l&rsquo;&eacute;change
+                        d&rsquo;informations sur les initiatives
+                        d&rsquo;autor&eacute;glementation et les bonnes
+                        pratiques en mati&egrave;re de gestion de cha&icirc;nes
+                        d&rsquo;approvisionnement complexes. Le R&eacute;seau
+                        mondial d&rsquo;entreprises travaillera en
+                        &eacute;troite collaboration avec la Plateforme sur le
+                        travail des enfants afin d&rsquo;assurer le soutien
+                        plein et entier et la participation compl&egrave;te du
+                        secteur des affaires pour atteindre les{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://sustainabledevelopment.un.org/?menu=1300"
+                            title="Objectifs de d&eacute;veloppement durable"
+                        >
+                            Objectifs de d&eacute;veloppement durable
+                        </a>{" "}
+                        en vertu de l&rsquo;
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.alliance87.org/"
+                            title="Alliance&nbsp;8.7"
+                        >
+                            Alliance 8.7
+                        </a>{" "}
+                        de l&rsquo;OIT, partenariat mondial visant &agrave;
+                        &eacute;liminer le travail des enfants, le travail
+                        forc&eacute;, l&rsquo;esclavage moderne et la traite des
+                        personnes.
                     </p>
                 </ExampleInAction>
             </div>

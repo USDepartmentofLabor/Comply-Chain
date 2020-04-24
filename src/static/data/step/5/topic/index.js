@@ -5,202 +5,160 @@ import { TopicData as Topic4 } from "./4";
 import { TopicData as Topic5 } from "./5";
 import { TopicData as Topic6 } from "./6";
 import { TopicData as Topic7 } from "./7";
-import { TopicData as Topic8 } from "./8";
-import { TopicData as Topic9 } from "./9";
 
 export const Topics = {
     en: [
         {
             keywords: [],
-            title: "Auditing: Getting Started ",
+            title: "International Framework Agreements (IFAs)",
             content: Topic1.en
         },
         {
             keywords: [],
-            title: "The Audit Team",
+            title: "What Makes a Good Code of Conduct?",
             content: Topic2.en
         },
         {
             keywords: [],
-            title: "Audit Tools",
+            title: "Standards on Child Labor and Forced Labor",
             content: Topic3.en
         },
         {
             keywords: [],
-            title: "Scheduling Audits",
+            title:
+                "Addressing the Vulnerability of Migrants in Codes of Conduct",
             content: Topic4.en
         },
         {
             keywords: [],
-            title: "Steps in an Audit",
+            title: "How to Develop a Code",
             content: Topic5.en
         },
         {
             keywords: [],
-            title: "How to Interview a Child",
+            title: "Joining an Existing Code",
             content: Topic6.en
         },
         {
             keywords: [],
-            title: "Special Topic: Informal Subcontracting and “Homework”",
+            title: "Communicating the Code",
             content: Topic7.en
-        },
-        {
-            keywords: [],
-            title:
-                "Special Topic: Community-Based Child Labor Monitoring Systems",
-            content: Topic8.en
-        },
-        {
-            keywords: [],
-            title: "Managing Audit Data",
-            content: Topic9.en
         }
     ],
     es: [
         {
             keywords: [],
-            title: "Auditorías: los primeros pasos",
+            title: "Acuerdos marco internacionales (IFA)",
             content: Topic1.es
         },
         {
             keywords: [],
-            title: "El equipo de auditoría",
+            title:
+                "¿Cuáles son las características de un buen código de conducta?",
             content: Topic2.es
         },
         {
             keywords: [],
-            title: "Instrumentos de auditoría",
+            title: "Normas sobre el trabajo infantil y el trabajo forzoso",
             content: Topic3.es
         },
         {
             keywords: [],
-            title: "Programación de las auditorías",
+            title:
+                "Tratar la vulnerabilidad de los migrantes en los códigos de conducta",
             content: Topic4.es
         },
         {
             keywords: [],
-            title: "Pasos de una auditoría",
+            title: "Redacción del código",
             content: Topic5.es
         },
         {
             keywords: [],
-            title: "Cómo entrevistar a un niño",
+            title: "Adopción de un código actual",
             content: Topic6.es
         },
         {
             keywords: [],
-            title:
-                "Tema especial: la subcontratación informal y el trabajo en el hogar",
+            title: "Comunicación del código",
             content: Topic7.es
-        },
-        {
-            keywords: [],
-            title:
-                "Tema especial: sistemas de vigilancia comunitaria del trabajo infantil",
-            content: Topic8.es
-        },
-        {
-            keywords: [],
-            title: "Administración de los datos de la auditoría",
-            content: Topic9.es
         }
     ],
     fr: [
         {
             keywords: [],
-            title: "Audits: Guide de démarrage",
+            title: "Accords-cadre internationaux (ACI)",
             content: Topic1.fr
         },
         {
             keywords: [],
-            title: "L’équipe d’audit",
+            title: "Qu'est-ce qui fait la qualité d'un code de conduite?",
             content: Topic2.fr
         },
         {
             keywords: [],
-            title: "Les outils d’audit",
+            title:
+                "Normes relatives au travail des enfants et au travail forcé",
             content: Topic3.fr
         },
         {
             keywords: [],
-            title: "Programmer des audits",
+            title:
+                "Gérer la vulnérabilité des migrants dans les codes de conduite",
             content: Topic4.fr
         },
         {
             keywords: [],
-            title: "Étapes d'un audit",
+            title: "Comment élaborer un code",
             content: Topic5.fr
         },
         {
             keywords: [],
-            title: "Mener un entretien avec un enfant",
+            title: "Rejoindre un code existant",
             content: Topic6.fr
         },
         {
             keywords: [],
-            title:
-                "Sujet particulier: Sous-traitance informelle et travail à domicile",
+            title: "Communiquer le code",
             content: Topic7.fr
-        },
-        {
-            keywords: [],
-            title:
-                "Sujet particulier: Systèmes de surveillance communautaire du travail des enfants",
-            content: Topic8.fr
-        },
-        {
-            keywords: [],
-            title: "Gérer les données des audits",
-            content: Topic9.fr
         }
     ],
     ms: [
             {
                 keywords: [],
-                title: "Auditing: Getting Started ",
+                title: "International Framework Agreements (IFAs)",
                 content: Topic1.en
             },
             {
                 keywords: [],
-                title: "The Audit Team",
+                title: "What Makes a Good Code of Conduct?",
                 content: Topic2.en
             },
             {
                 keywords: [],
-                title: "Audit Tools",
+                title: "Standards on Child Labor and Forced Labor",
                 content: Topic3.en
             },
             {
                 keywords: [],
-                title: "Scheduling Audits",
+                title:
+                    "Addressing the Vulnerability of Migrants in Codes of Conduct",
                 content: Topic4.en
             },
             {
                 keywords: [],
-                title: "Steps in an Audit",
+                title: "How to Develop a Code",
                 content: Topic5.en
             },
             {
                 keywords: [],
-                title: "How to Interview a Child",
+                title: "Joining an Existing Code",
                 content: Topic6.en
             },
             {
                 keywords: [],
-                title: "Special Topic: Informal Subcontracting and “Homework”",
+                title: "Communicating the Code",
                 content: Topic7.en
-            },
-            {
-                keywords: [],
-                title:
-                    "Special Topic: Community-Based Child Labor Monitoring Systems",
-                content: Topic8.en
-            },
-            {
-                keywords: [],
-                title: "Managing Audit Data",
-                content: Topic9.en
             }
         ]
 };

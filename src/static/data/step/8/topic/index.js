@@ -7,88 +7,88 @@ export const Topics = {
     en: [
         {
             keywords: [],
-            title: "Forms of Public Reporting",
+            title: "Improving Victim Situations",
             content: Topic1.en
         },
         {
             keywords: [],
-            title: "Why Produce Public Reporting?",
+            title: "Preventing Recurrence",
             content: Topic2.en
         },
         {
             keywords: [],
-            title: "What to Include in Public Reporting",
+            title: "Corrective Action Plan",
             content: Topic3.en
         },
         {
             keywords: [],
-            title: "The Reporting Team",
+            title: "Communication About Remediation",
             content: Topic4.en
         }
     ],
     es: [
         {
             keywords: [],
-            title: "Tipos de informes públicos",
+            title: "Mejora de la situación de las víctimas",
             content: Topic1.es
         },
         {
             keywords: [],
-            title: "¿Por qué elaborar los informes públicos?",
+            title: "Prevención de la reincidencia",
             content: Topic2.es
         },
         {
             keywords: [],
-            title: "Qué incluir en la presentación de informes públicos",
+            title: "Plan de acción correctiva",
             content: Topic3.es
         },
         {
             keywords: [],
-            title: "El equipo de notificación",
+            title: "Comunicación sobre la remediación",
             content: Topic4.es
         }
     ],
     fr: [
         {
             keywords: [],
-            title: "Formes de comptes-rendus publics",
+            title: "Améliorer la situation des victimes",
             content: Topic1.fr
         },
         {
             keywords: [],
-            title: "Pourquoi produire des rapports publics?",
+            title: "Empêcher la récidive",
             content: Topic2.fr
         },
         {
             keywords: [],
-            title: "Qu’inclure dans les rapports publics",
+            title: "Plan d'action corrective",
             content: Topic3.fr
         },
         {
             keywords: [],
-            title: "L’équipe chargée des rapports",
+            title: "Communication sur les réparations",
             content: Topic4.fr
         }
     ],
     ms: [
             {
                 keywords: [],
-                title: "Forms of Public Reporting",
+                title: "Improving Victim Situations",
                 content: Topic1.en
             },
             {
                 keywords: [],
-                title: "Why Produce Public Reporting?",
+                title: "Preventing Recurrence",
                 content: Topic2.en
             },
             {
                 keywords: [],
-                title: "What to Include in Public Reporting",
+                title: "Corrective Action Plan",
                 content: Topic3.en
             },
             {
                 keywords: [],
-                title: "The Reporting Team",
+                title: "Communication About Remediation",
                 content: Topic4.en
             }
         ]

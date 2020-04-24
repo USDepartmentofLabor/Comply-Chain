@@ -1,399 +1,475 @@
 import React from "react";
-import Accordion from "../../../../../../components/Accordion";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
-import cocoaSupplyChains from "../../../../../images/cocoa_supply_chains_fr.png";
-import genericImport from "../../../../../images/generic_import_fr.png";
+
 
 const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>
-                    Cartographie de la cha&icirc;ne d&apos;approvisionnement
-                </h1>
+                <h1>Systèmes de gestion</h1>
                 <p>
-                    Les entreprises savent qui sont leurs fournisseurs directs
-                    et o&ugrave; ils se trouvent. Toutefois, dans de nombreux
-                    cas, les entreprises s&apos;approvisionnent aupr&egrave;s de
-                    vendeurs ou d&apos;agents qui ne divulguent pas les usines
-                    ou les autres &eacute;tablissements de production
-                    aupr&egrave;s desquels <em>ils</em> s&apos;approvisionnent
-                    eux. Les entreprises sont souvent inform&eacute;es des
-                    usines et des &eacute;tablissements de production du premier
-                    niveau de leurs cha&icirc;nes d&apos;approvisionnement, mais
-                    connaissent mal ou pas du tout les pratiques des
-                    fournisseurs de deuxi&egrave;me ou de troisi&egrave;me
-                    niveau de la cha&icirc;ne. Les entreprises devraient
-                    disposer d&rsquo;autant d&rsquo;informations que possible
-                    sur leurs fournisseurs &agrave; tous les niveaux de la
-                    cha&icirc;ne d&apos;approvisionnement, y compris les
-                    producteurs de mati&egrave;res premi&egrave;res. Plus une
-                    entreprise est en mesure de cartographier avec exactitude
-                    ses cha&icirc;nes d&apos;approvisionnement, plus elles saura
-                    identifier avec pr&eacute;cision les lieux dans la
-                    cha&icirc;ne o&ugrave; se situent les risques les plus
-                    s&eacute;rieux de violations des droits du travail. Il est
-                    donc important de communiquer avec les &eacute;quipes de
-                    gestion de l&apos;approvisionnement et/ou de la cha&icirc;ne
-                    d&apos;approvisionnement pour obtenir des donn&eacute;es sur
-                    leurs propres cha&icirc;nes d&apos;approvisionnement, et
-                    s&apos;il est n&eacute;cessaire d&apos;obtenir davantage
-                    d&apos;informations, de collaborer avec elles pour
-                    compl&eacute;ter ces donn&eacute;es.
-                </p>
-                <p>
-                    Si votre entreprise n&apos;a pas &agrave; l&apos;heure
-                    actuelle acc&egrave;s aux informations sur les fournisseurs
-                    en dehors de ceux aupr&egrave;s desquels elle
-                    s&rsquo;approvisionne directement, pensez &agrave; la
-                    possibilit&eacute; de vous adresser au service juridique
-                    et/ou aux autres services appropri&eacute;s au sein de votre
-                    entreprise pour &eacute;tablir des exigences contractuelles
-                    de communication d&apos;informations exhaustives sur tous
-                    les fournisseurs.
-                </p>
-                <p>
-                    Cette cartographie inclut non seulement le fait de savoir
-                    qui sont vos fournisseurs (dans toute la cha&icirc;ne
-                    d&apos;approvisionnement), mais &eacute;galement o&ugrave;
-                    ils se trouvent. Ces informations sont essentielles pour
-                    l&apos;&eacute;valuation notamment des risques et des
-                    incidences li&eacute;s aux environnements juridiques et
-                    r&eacute;glementaires. Cet exercice peut &eacute;galement
-                    inclure des cartes indiquant le caract&egrave;re saisonnier
-                    de la production ou des cycles de production au cours de
-                    l&apos;ann&eacute;e, ceux-ci pouvant &ecirc;tre li&eacute;s
-                    aux p&eacute;riodes de risques accrus de violations des
-                    droits du travail.&nbsp;
-                </p>
-                <p>
-                    Voici trois exemples de cartes de cha&icirc;nes
-                    d&apos;approvisionnement:
-                </p>
-                <p>
-                    Exemple 1: Cha&icirc;nes d&apos;approvisionnement du cacao
-                    (C&ocirc;te d&apos;Ivoire et Ghana) <br /> Exemple&nbsp;2:
-                    Cha&icirc;nes d&apos;approvisionnement de
-                    l&apos;&eacute;lectronique&nbsp;&ndash;{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.resolve.ngo/site-eiscm/default.htm?RD=1"
-                        title="Cobalt, Tantale, et &Eacute;tain"
-                    >
-                        Cobalt, Tantale, et &Eacute;tain
-                    </a>
-                    <br /> Exemple 3: Cha&icirc;ne d&rsquo;alimentation
-                    d&rsquo;importation g&eacute;n&eacute;rique&nbsp;&ndash;
-                    mod&egrave;le de d&eacute;tail
-                </p>
-                <p>
-                    Les marchandises produites &agrave; partir de produits
-                    agricoles ou miniers peuvent &ecirc;tre
-                    particuli&egrave;rement difficiles &agrave; pister, car les
-                    mati&egrave;res premi&egrave;res peuvent &ecirc;tre
-                    r&eacute;colt&eacute;es ou extraites de mines dans des
-                    r&eacute;gions tr&egrave;s dispers&eacute;es, puis
-                    &ecirc;tre regroup&eacute;es ou m&eacute;lang&eacute;es
-                    tr&egrave;s t&ocirc;t dans la cha&icirc;ne
-                    d&apos;approvisionnement. Certaines coalitions
-                    d&apos;entreprises ou de l&apos;industrie ont tent&eacute;
-                    des programmes de «&nbsp;tra&ccedil;abilit&eacute;&nbsp;»
-                    pour pister certaines marchandises, en remontant la
-                    cha&icirc;ne d&apos;approvisionnement de son produit fini
-                    jusqu&apos;au point d&apos;origine.
-                </p>
-                <p>
-                    Pour &ecirc;tre clair, la cartographie des cha&icirc;nes
-                    d&apos;approvisionnement ne signifie pas
-                    n&eacute;cessairement qu&rsquo;une entreprise est
-                    responsable de toutes les incidences et de tous les risques
-                    associ&eacute;s &agrave; toutes les entit&eacute;s de la
-                    cha&icirc;ne. Comme l&apos;indiquent les{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
-                        title="Principes directeurs des Nations Unies relatifs aux entreprises et aux droits de l'homme"
-                    >
-                        Principes directeurs des Nations Unies relatifs aux
-                        entreprises et aux droits de l&apos;homme
-                    </a>
-                    , «&nbsp;lorsque les entreprises comptent un grand nombre
-                    d&apos;entit&eacute;s dans leurs cha&icirc;nes de valeur, il
-                    peut &ecirc;tre difficile d&apos;exercer la diligence
-                    raisonnable pour les incidences d&eacute;favorables sur les
-                    droits de l&apos;homme de toutes ces entit&eacute;s. Si tel
-                    est le cas, les entreprises doivent recenser les domaines
-                    g&eacute;n&eacute;raux o&ugrave; le risque d&apos;incidences
-                    n&eacute;gatives sur les droits de l&apos;homme est le plus
-                    important, que cela soit d&ucirc; au cadre
-                    d&apos;exploitation de certains fournisseurs ou clients, aux
-                    activit&eacute;s, produits ou services particuliers en jeu
-                    ou &agrave; d&apos;autres consid&eacute;rations et leur
-                    conf&eacute;rer un ordre de priorit&eacute; pour
-                    l&apos;exercice de la diligence raisonnable en
-                    mati&egrave;re de droits de l&apos;homme&nbsp;». Ce
-                    processus d&apos;&eacute;tablissement des priorit&eacute;s
-                    est abord&eacute; ci-dessous.
-                </p>
-                <br />
-                <h2>
-                    Cha&icirc;nes d&apos;approvisionnement du cacao (C&ocirc;te
-                    d&apos;Ivoire et Ghana)
-                </h2>
-                <br />{" "}
-                <img
-                    src={cocoaSupplyChains}
-                    alt="Cha&icirc;nes d'approvisionnement du cacao"
-                    longdesc="#cocoa_chains"
-                />
-                <p className="small-text">
-                    Source:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.crea.org/"
-                    >
-                        Centre pour la r&eacute;flexion,
-                        l&rsquo;&eacute;ducation et l&rsquo;action (CREA).
-                    </a>
-                </p>
-                <div id="cocoa_chains">
-                    <Accordion id="cocoa-chains-acc">
-                        <Accordion.Section id="cocoa-description">
-                            <Accordion.Title>
-                                Description du graphique
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                                Ce graphique illustre les diff&eacute;rents
-                                acteurs de la cha&icirc;ne
-                                d&apos;approvisionnement du cacao: les
-                                agriculteurs, les receveurs/transporteurs, les
-                                transformateurs, les exportateurs, le
-                                march&eacute; mondial, les fabricants (qui
-                                peuvent &eacute;galement fabriquer
-                                d&rsquo;autres f&egrave;ves), les clients et les
-                                consommateurs. Ce graphique r&eacute;pertorie
-                                &eacute;galement des exemples
-                                d&rsquo;entit&eacute;s et
-                                d&rsquo;activit&eacute;s r&eacute;parties entre
-                                ces cat&eacute;gories de la cha&icirc;ne
-                                d&rsquo;approvisionnement dans deux pays: la
-                                C&ocirc;te d&rsquo;Ivoire et le Ghana. En
-                                C&ocirc;te d&rsquo;Ivoire, les agriculteurs sont
-                                par exemple les petites exploitations agricoles
-                                familiales (il en existe plus de 750&nbsp;000),
-                                les op&eacute;rations ind&eacute;pendantes et
-                                quelques coop&eacute;ratives (o&ugrave; le cacao
-                                repr&eacute;sente moins de 20&nbsp;% des
-                                cultures). Les receveurs et transporteurs
-                                comprennent les op&eacute;rateurs
-                                financ&eacute;s par des entreprises
-                                priv&eacute;es, les pisteurs et les traitants,
-                                qui disposent de moins de liens de
-                                qualit&eacute;. Les transformateurs et les
-                                exportateurs comprennent diff&eacute;rents
-                                participants, notamment les
-                                soci&eacute;t&eacute;s internationales. Cette
-                                cat&eacute;gorie comprend les producteurs de
-                                produits semi-finis. Au Ghana, les agriculteurs
-                                sont par exemple les petites exploitations
-                                agricoles familiales (dont le nombre
-                                d&eacute;passe les 600&nbsp;000), les
-                                op&eacute;rations ind&eacute;pendantes et
-                                quelques coop&eacute;ratives (o&ugrave; le cacao
-                                repr&eacute;sente moins de 10&nbsp;% des
-                                cultures). L&rsquo;achat initial des
-                                f&egrave;ves de cacao est effectu&eacute; par
-                                des acheteurs agr&eacute;&eacute;s (LBC).
-                                L&rsquo;Office du cacao du Ghana (COCOBOD) et
-                                ses organisations affili&eacute;es
-                                s&rsquo;assurent que la vente est assortie
-                                d&rsquo;exigences de qualit&eacute;. Au Ghana,
-                                les transformateurs et les exportateurs sont
-                                notamment le COCOBOD et des entreprises
-                                internationales. Cette cat&eacute;gorie comprend
-                                les producteurs de produits semi-finis. Le
-                                graphique indique &eacute;galement des
-                                &eacute;tapes finales similaires dans le
-                                processus des deux pays. Les f&egrave;ves et les
-                                produits issus des petites exploitations
-                                agricoles familiales passent au march&eacute;
-                                mondial. Les fabricants poursuivent la
-                                fabrication des produits. Les magasins,
-                                restaurants et petites entreprises correspondent
-                                aux clients. Et les consommateurs sont les
-                                clients finaux.&nbsp;
-                            </Accordion.Panel>
-                        </Accordion.Section>
-                    </Accordion>
-                </div>
-                <br />
-                <h2>
-                    Cha&icirc;ne d&rsquo;approvisionnement d&rsquo;importation
-                    g&eacute;n&eacute;rique&nbsp;&ndash; mod&egrave;le de
-                    d&eacute;tail
-                </h2>
-                <br />{" "}
-                <img
-                    src={genericImport}
-                    alt="Cha&icirc;ne d&rsquo;approvisionnement d&rsquo;importation g&eacute;n&eacute;rique&nbsp;- mod&egrave;le de d&eacute;tail"
-                    longdesc="#generic_import"
-                />
-                <p className="small-text">
-                    Source:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://corporate.target.com/"
-                    >
-                        Target Corporation.
-                    </a>
-                </p>
-                <div>
-                    <Accordion id="generic-import-acc">
-                        <Accordion.Section id="generic-import-description">
-                            <Accordion.Title>
-                                Description du graphique
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                                <p>
-                                    Ce graphique illustre les &eacute;tapes
-                                    d&rsquo;une cha&icirc;ne
-                                    d&rsquo;approvisionnement
-                                    d&rsquo;importation g&eacute;n&eacute;rique.
-                                    La description d&rsquo;une cha&icirc;ne
-                                    d&rsquo;approvisionnement mod&egrave;le de
-                                    d&eacute;tail typique commence ainsi:
+                                    &Agrave; l&apos;instar de tout
+                                    d&eacute;partement d&apos;une entreprise
+                                    op&eacute;rant avec succ&egrave;s,
+                                    l&apos;&eacute;quipe de gestion de la
+                                    conformit&eacute; sociale devrait
+                                    poss&eacute;der des syst&egrave;mes de
+                                    gestion int&eacute;gr&eacute;s &agrave;
+                                    l&apos;ensemble des syst&egrave;mes de
+                                    l&apos;entreprise, au lieu de travailler en
+                                    silo d&eacute;tach&eacute; des autres
+                                    op&eacute;rations commerciales. De nombreux
+                                    &eacute;l&eacute;ments d&apos;un
+                                    syst&egrave;me de gestion&nbsp;&ndash; par
+                                    exemple l&apos;&eacute;valuation des
+                                    risques, les plans de communication, les
+                                    syst&egrave;mes d&apos;information, les
+                                    m&eacute;canismes de r&eacute;clamation et
+                                    de plainte, et le contr&ocirc;le
+                                    ind&eacute;pendant&nbsp;&ndash; sont le
+                                    th&egrave;me de cette appli et sont
+                                    trait&eacute;s de fa&ccedil;on plus
+                                    exhaustive dans diff&eacute;rents chapitres.
                                 </p>
-                                <ul>
-                                    <li>
-                                        Premi&egrave;re &eacute;tape:
-                                        d&eacute;veloppement du produit.
-                                        &Agrave; ce stade, le concept du produit
-                                        et un fournisseur sont choisis, et le
-                                        produit re&ccedil;oit sa conception
-                                        finale. C&apos;est &eacute;galement
-                                        l&agrave; que le financement est
-                                        d&eacute;cid&eacute; et intervient cinq
-                                        &agrave; neuf mois avant la date de mise
-                                        en magasin.
-                                    </li>
-                                    <li>
-                                        Deuxi&egrave;me &eacute;tape: commande
-                                        et production. Au cours de cette
-                                        &eacute;tape se produisent le placement
-                                        et la classification du produit; un
-                                        acheteur envoie un bon de commande
-                                        &eacute;lectronique au fournisseur, au
-                                        commissionnaire en douane, au
-                                        transitaire et &agrave; la banque.
-                                        Viennent ensuite le choix de
-                                        l&rsquo;usine et les tests de
-                                        pr&eacute;production, suivis de la
-                                        production de la marchandise par
-                                        l&rsquo;usine pour v&eacute;rifier
-                                        l&apos;assurance qualit&eacute; et la
-                                        conformit&eacute; sociale. Cette
-                                        &eacute;tape intervient deux &agrave;
-                                        cinq&nbsp;mois avant la date de mise en
-                                        magasin.
-                                    </li>
-                                    <li>
-                                        Troisi&egrave;me &eacute;tape:
-                                        r&eacute;servation du transporteur. Le
-                                        vendeur proc&egrave;de &agrave; une
-                                        r&eacute;servation de fret aupr&egrave;s
-                                        d&rsquo;un transitaire et le livre
-                                        &agrave; un terminal ou une station de
-                                        fret de conteneur (CFS). Cette
-                                        &eacute;tape se produit deux &agrave;
-                                        quatre&nbsp;mois avant la date de mise
-                                        en magasin.
-                                    </li>
-                                    <li>
-                                        Quatri&egrave;me &eacute;tape:
-                                        traitement des documents et
-                                        exp&eacute;dition. Le fournisseur remet
-                                        les documents d&apos;entr&eacute;e au
-                                        commissionnaire de transport et
-                                        r&egrave;gle les charges locales. Le
-                                        transitaire envoie &eacute;galement les
-                                        documents au courtier, par voie
-                                        &eacute;lectronique. Un
-                                        r&eacute;c&eacute;piss&eacute; de
-                                        transitaire est remis au fournisseur
-                                        (dont il a besoin pour &ecirc;tre
-                                        pay&eacute;). &Agrave; ce stade, le
-                                        manifeste &agrave; 24&nbsp;heures et les
-                                        informations relatives au classement de
-                                        s&eacute;curit&eacute; de
-                                        l&rsquo;importateur (ISF) sont
-                                        &eacute;galement &agrave; remettre
-                                        &agrave; la douane am&eacute;ricaine.
-                                        Apr&egrave;s le d&eacute;part du moyen
-                                        de transport, le transitaire envoie les
-                                        informations d&rsquo;exp&eacute;dition
-                                        par voie &eacute;lectronique au
-                                        commissionnaire en douane et &agrave;
-                                        l&rsquo;acheteur. Cette &eacute;tape se
-                                        d&eacute;roule un &agrave;
-                                        deux&nbsp;mois avant la date de mise en
-                                        magasin.
-                                    </li>
-                                    <li>
-                                        Cinqui&egrave;me &eacute;tape:
-                                        d&eacute;douanement. Le courtier
-                                        re&ccedil;oit les documents
-                                        d&apos;entr&eacute;e
-                                        &eacute;lectroniques, il les passe en
-                                        revue et en assure la
-                                        v&eacute;rification. Il d&eacute;pose
-                                        alors une demande d&apos;entr&eacute;e
-                                        aupr&egrave;s des douanes
-                                        am&eacute;ricaines et autres organismes
-                                        publics. &Agrave; cette &eacute;tape,
-                                        l&apos;acheteur envoie &eacute;galement
-                                        des instructions d&apos;affectation au
-                                        d&eacute;groupement. Puis le moyen de
-                                        transport arrive et le conteneur est
-                                        d&eacute;douan&eacute; pour
-                                        distribution. Tout cela se
-                                        d&eacute;roule un mois avant la date de
-                                        mise en magasin.
-                                    </li>
-                                    <li>
-                                        Sixi&egrave;me &eacute;tape:
-                                        d&eacute;groupement/exp&eacute;dition
-                                        &agrave; la destination finale. Elle se
-                                        d&eacute;roule deux semaines avant la
-                                        date de mise en magasin. La livraison
-                                        est organis&eacute;e au centre de
-                                        d&eacute;groupement (ou &agrave; la
-                                        destination finale). Les services de
-                                        d&eacute;consolidation distribuent
-                                        ensuite le produit conform&eacute;ment
-                                        aux instructions d&rsquo;affectation de
-                                        l&rsquo;acheteur. Le produit est
-                                        livr&eacute; au centre de distribution,
-                                        &agrave; l&rsquo;entrep&ocirc;t ou au
-                                        magasin. Une section Modalit&eacute;s et
-                                        informations suppl&eacute;mentaires sur
-                                        le graphique d&eacute;finit les
-                                        acronymes utilis&eacute;s dans
-                                        l&rsquo;illustration et mentionne
-                                        &eacute;galement que tous les
-                                        importateurs ne proc&egrave;dent pas
-                                        &agrave; une classification des produits
-                                        au d&eacute;but de la cha&icirc;ne
-                                        d&rsquo;approvisionnement.
-                                    </li>
-                                </ul>
-                            </Accordion.Panel>
-                        </Accordion.Section>
-                    </Accordion>
-                </div>
+                                <p>
+                                    La gestion de tout syst&egrave;me ou
+                                    programme devrait commencer par une
+                                    d&eacute;finition des buts, des objectifs et
+                                    des cibles de performance. De nombreux
+                                    programmes de conformit&eacute; sociale
+                                    &eacute;tablissent des mesures, ou
+                                    indicateurs-cl&eacute;s de performance, pour
+                                    jauger les progr&egrave;s. Ces
+                                    indicateurs-cl&eacute;s peuvent &ecirc;tre
+                                    mis au point en interne, ou dans le cadre
+                                    d&apos;un exercice d&apos;analyse
+                                    comparative des programmes de
+                                    diff&eacute;rentes entreprises.
+                                    L&apos;&eacute;quipe, une fois
+                                    &eacute;tablie, devrait comparer
+                                    p&eacute;riodiquement les progr&egrave;s par
+                                    rapport &agrave; ces buts ou indicateurs, et
+                                    rectifier les domaines o&ugrave; ils
+                                    n&apos;auront pas &eacute;t&eacute;
+                                    atteints. L&apos;&eacute;quipe devrait
+                                    &eacute;galement passer en revue ses propres
+                                    processus et politiques &agrave; intervalles
+                                    r&eacute;guliers, pour les actualiser si
+                                    n&eacute;cessaire. Les entreprises
+                                    dot&eacute;es de solides syst&egrave;mes de
+                                    conformit&eacute; sociale sont toujours en
+                                    mode «&nbsp;d&apos;am&eacute;lioration
+                                    continue&nbsp;».&nbsp;
+                                </p>
+                                <p>
+                                    L&rsquo;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://responsiblesourcingtool.org/"
+                                        title="Outil d&rsquo;approvisionnement responsable"
+                                    >
+                                        Outil d&rsquo;approvisionnement
+                                        responsable
+                                    </a>
+                                    , lanc&eacute; en&nbsp;2016 par
+                                    Verit&eacute; et le d&eacute;partement
+                                    d&apos;&Eacute;tat des &Eacute;tats-Unis,
+                                    comprend un{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://responsiblesourcingtool.org/riskmanagementprocess"
+                                        title="Exemple de flux de processus de gestion des risques de la cha&icirc;ne d&rsquo;approvisionnement"
+                                    >
+                                        Exemple de flux de processus de gestion
+                                        des risques de la cha&icirc;ne
+                                        d&rsquo;approvisionnement
+                                    </a>{" "}
+                                    qui montre comment fonctionne un
+                                    syst&egrave;me de gestion
+                                    d&rsquo;am&eacute;lioration continue
+                                    efficace pour d&eacute;tecter,
+                                    att&eacute;nuer et pr&eacute;venir la traite
+                                    des personnes au sein d&rsquo;une
+                                    cha&icirc;ne d&rsquo;approvisionnement. En
+                                    outre, son{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://responsiblesourcingtool.org/supplychainassurance"
+                                        title="Exemple de programme d&rsquo;assurance de la cha&icirc;ne d&rsquo;approvisionnement"
+                                    >
+                                        Exemple de programme d&rsquo;assurance
+                                        de la cha&icirc;ne
+                                        d&rsquo;approvisionnement
+                                    </a>{" "}
+                                    fournit un aper&ccedil;u des processus
+                                    qu&rsquo;une entreprise peut mettre en
+                                    &oelig;uvre pour identifier les situations
+                                    potentielles de risque de traite des
+                                    personnes dans ses cha&icirc;nes
+                                    d&rsquo;approvisionnement, traiter les
+                                    probl&egrave;mes identifi&eacute;s, mettre
+                                    en &oelig;uvre des solutions durables et
+                                    surveiller les r&eacute;sultats des
+                                    fournisseurs au fil du temps. Une autre
+                                    ressource pr&eacute;cisant les mesures que
+                                    les entreprises peuvent prendre pour mettre
+                                    en place et g&eacute;rer une cha&icirc;ne
+                                    d&rsquo;approvisionnement durable{" "}
+                                    <em>est le document </em>
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://supply-chain.unglobalcompact.org/site/article/183"
+                                        title="Durabilit&eacute; des cha&icirc;nes d&rsquo;approvisionnement: Guide pratique pour l&rsquo;am&eacute;lioration continue"
+                                    >
+                                        <em>
+                                            Durabilit&eacute; des cha&icirc;nes
+                                            d&rsquo;approvisionnement:
+                                            Guide pratique pour
+                                            l&rsquo;am&eacute;lioration continue
+                                        </em>
+                                    </a>
+                                    <em>,</em> publi&eacute; [en anglais] par le
+                                    Pacte mondial des Nations Unies et BSR.
+                                </p>
+                                <p>
+                                    Au niveau pratique, l&rsquo;&eacute;quipe de
+                                    direction devrait s&rsquo;assurer
+                                    d&rsquo;avoir document&eacute; toutes les
+                                    fonctions du syst&egrave;me de
+                                    conformit&eacute; sociale. La documentation
+                                    en question devrait inclure des politiques
+                                    et proc&eacute;dures &eacute;crites pour
+                                    l&rsquo;ensemble des composantes du
+                                    syst&egrave;me, ainsi que des protocoles de
+                                    communication. Elle devrait &eacute;galement
+                                    inclure des documents &agrave; distribuer
+                                    &agrave; d&apos;autres d&eacute;partements
+                                    de l&apos;entreprise, par exemple un
+                                    r&eacute;sum&eacute; des dispositions des
+                                    contrats de fournisseurs concernant leurs
+                                    obligations de conformit&eacute; sociale, ce
+                                    qui sera sans doute utile pour le
+                                    d&eacute;partement charg&eacute; des achats.
+                                    Les politiques et proc&eacute;dures
+                                    document&eacute;es de l&apos;&eacute;quipe
+                                    devraient avoir l&apos;aval et le soutien de
+                                    la direction sup&eacute;rieure.
+                                </p>
+                                <p>
+                                    Les entreprises et les associations
+                                    sectorielles peuvent choisir d&rsquo;inclure
+                                    des dispositions relatives aux
+                                    syst&egrave;mes de gestion dans leurs codes
+                                    de conduite et d&rsquo;exiger que les
+                                    membres de l&rsquo;association et/ou les
+                                    fournisseurs s&rsquo;y conforment. Ce
+                                    concept est d&eacute;montr&eacute; dans
+                                    l&rsquo;exemple ci-dessous.
+                                </p>
+                                <ExampleInAction id="eicc">
+                                    <h4>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>Exemple d&apos;action</strong>
+                                        &nbsp;{": "}
+                                        <strong>
+                                            la Responsible Business Alliance
+                                            (RBA) (anciennement appelée
+                                            Electronic Industry Citizenship
+                                            Coalition) (EICC) Code de Conduite -
+                                            Systèmes de Gestion
+                                        </strong>
+                                    </h4>
+                                    <p>
+                                        <em>Extrait du </em>
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_French.pdf"
+                                            title="Code de Conduite de
+                                                la Responsible Business Alliance
+                                                v. 6.0 (2018)"
+                                        >
+                                            <em>
+                                                Extrait du Code de Conduite de
+                                                la Responsible Business Alliance
+                                                v. 6.0 (2018)
+                                            </em>
+                                        </a>
+                                    </p>
+                                    <p>
+                                        «&nbsp;Les Participants doivent adopter
+                                        ou mettre en place un syst&egrave;me de
+                                        gestion dont le p&eacute;rim&egrave;tre
+                                        est li&eacute; au contenu de ce Code. Le
+                                        syst&egrave;me de gestion doit
+                                        &ecirc;tre con&ccedil;u pour veiller
+                                        &agrave;: (a) la conformit&eacute; aux
+                                        lois et r&eacute;glementations
+                                        applicables et aux exigences des clients
+                                        li&eacute;es &agrave;
+                                        l&apos;exploitation et aux produits des
+                                        participants ; (b) la conformit&eacute;
+                                        avec ce Code et (c)
+                                        l&rsquo;identification et
+                                        l&rsquo;att&eacute;nuation des risques
+                                        op&eacute;rationnels li&eacute;s
+                                        &agrave; ce Code. Il doit
+                                        &eacute;galement faciliter une
+                                        am&eacute;lioration continue.
+                                    </p>
+                                    <p>
+                                        Le syst&egrave;me de gestion doit
+                                        inclure les &eacute;l&eacute;ments
+                                        suivants:
+                                    </p>
+                                    <ol>
+                                        <li>
+                                            <h4>
+                                                Engagement de l&apos;entreprise
+                                            </h4>
+                                            <p>
+                                                Des d&eacute;clarations de
+                                                politique en mati&egrave;re de
+                                                responsabilit&eacute; sociale et
+                                                environnementale de
+                                                l&apos;entreprise qui affirment
+                                                l&apos;engagement du Participant
+                                                &agrave; la conformit&eacute; et
+                                                &agrave; une am&eacute;lioration
+                                                continue, soutenues par la
+                                                direction g&eacute;n&eacute;rale
+                                                et affich&eacute;es sur le lieu
+                                                de travail en langue locale.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Obligation de rendre des comptes
+                                                et responsabilit&eacute; de la
+                                                direction
+                                            </h4>
+                                            <p>
+                                                Les Participants identifient
+                                                clairement le(s) haut(s)
+                                                dirigeant(s) et
+                                                repr&eacute;sentant(s) de la
+                                                soci&eacute;t&eacute;
+                                                responsable(s) d&apos;assurer la
+                                                mise en &oelig;uvre des
+                                                syst&egrave;mes de gestion et
+                                                des programmes associ&eacute;s.
+                                                Les hauts dirigeants
+                                                r&eacute;examinent
+                                                r&eacute;guli&egrave;rement le
+                                                syst&egrave;me de gestion.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Exigences l&eacute;gales et
+                                                exigences des clients
+                                            </h4>
+                                            <p>
+                                                Un processus destin&eacute;
+                                                &agrave; identifier, suivre et
+                                                comprendre les lois et les
+                                                r&eacute;glementations
+                                                applicables ainsi que les
+                                                exigences des clients, y compris
+                                                les exigences de ce Code.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                &Eacute;valuation et gestion des
+                                                risques
+                                            </h4>
+                                            <p>
+                                                Un processus pour identifier la
+                                                conformit&eacute; juridique, les
+                                                pratiques en mati&egrave;re
+                                                d&apos;environnement, de
+                                                sant&eacute;, de
+                                                s&eacute;curit&eacute; et de
+                                                main-d&apos;&oelig;uvre et les
+                                                risques en mati&egrave;re
+                                                d&apos;&eacute;thique
+                                                associ&eacute;s aux
+                                                activit&eacute;s du Participant.
+                                            </p>
+                                            <p>
+                                                D&eacute;termination de
+                                                l&apos;importance relative de
+                                                chaque risque et mise en place
+                                                de proc&eacute;dures de
+                                                contr&ocirc;les
+                                                proc&eacute;duraux et physiques
+                                                ad&eacute;quats pour
+                                                contr&ocirc;ler les risques
+                                                identifi&eacute;s et veiller
+                                                &agrave; la conformit&eacute;
+                                                aux r&eacute;glementations.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Objectifs
+                                                d&apos;am&eacute;lioration
+                                            </h4>
+                                            <p>
+                                                Des objectifs, des cibles de
+                                                performance et des plans de mise
+                                                en &oelig;uvre &eacute;crits
+                                                afin d&apos;am&eacute;liorer la
+                                                performance sociale et
+                                                environnementale du Participant,
+                                                y compris une &eacute;valuation
+                                                p&eacute;riodique de la
+                                                performance du Participant au
+                                                regard de ces objectifs.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>Formation</h4>
+                                            <p>
+                                                Des programmes pour former les
+                                                directeurs et les
+                                                employ&eacute;s &agrave; la mise
+                                                en &oelig;uvre des
+                                                r&egrave;glements, des
+                                                proc&eacute;dures et des
+                                                objectifs
+                                                d&apos;am&eacute;lioration du
+                                                Participant, ainsi qu&apos;au
+                                                respect des exigences
+                                                l&eacute;gales et
+                                                r&eacute;glementaires
+                                                applicables.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>Communication</h4>
+                                            <p>
+                                                Un processus pour communiquer
+                                                des informations claires et
+                                                pr&eacute;cises sur les
+                                                politiques, les pratiques, les
+                                                attentes et la performance du
+                                                Participant aux employ&eacute;s,
+                                                aux fournisseurs et aux clients.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Commentaires et participation
+                                                des employ&eacute;s
+                                            </h4>
+                                            <p>
+                                                Des processus continus pour
+                                                &eacute;valuer la
+                                                compr&eacute;hension des
+                                                employ&eacute;s et obtenir leurs
+                                                commentaires sur les pratiques
+                                                et conditions trait&eacute;es
+                                                dans ce Code, et pour favoriser
+                                                l&rsquo;am&eacute;lioration
+                                                continue.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Audits et &eacute;valuations
+                                            </h4>
+                                            <p>
+                                                Des auto-&eacute;valuations
+                                                p&eacute;riodiques pour assurer
+                                                la conformit&eacute; aux
+                                                exigences l&eacute;gales et
+                                                r&eacute;glementaires, au
+                                                contenu de ce Code et aux
+                                                exigences contractuelles du
+                                                client li&eacute;es &agrave; la
+                                                responsabilit&eacute; sociale et
+                                                environnementale.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Processus d&apos;actions
+                                                correctives
+                                            </h4>
+                                            <p>
+                                                Un processus pour une correction
+                                                rapide des lacunes
+                                                identifi&eacute;es par les
+                                                &eacute;valuations, inspections,
+                                                enqu&ecirc;tes et examens
+                                                internes ou externes.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>Documentation et archivage</h4>
+                                            <p>
+                                                La cr&eacute;ation et la
+                                                conservation de documents et de
+                                                registres pour assurer la
+                                                conformit&eacute;
+                                                r&eacute;glementaire et envers
+                                                les exigences de la
+                                                soci&eacute;t&eacute; avec la
+                                                confidentialit&eacute; qui
+                                                s&apos;impose pour
+                                                prot&eacute;ger la vie
+                                                priv&eacute;e.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Responsabilit&eacute; du
+                                                fournisseur
+                                            </h4>
+                                            <p>
+                                                Un processus pour communiquer
+                                                les exigences du Code aux
+                                                fournisseurs et pour suivre la
+                                                conformit&eacute; du fournisseur
+                                                vis-&agrave;-vis du Code.&nbsp;»
+                                            </p>
+                                        </li>
+                                    </ol>
+                                </ExampleInAction>
+                <p>
+                                <em>
+                                    *Remarque: Les
+                                    r&eacute;f&eacute;rences &agrave; des
+                                    soci&eacute;t&eacute;s et entit&eacute;s non
+                                    gouvernementales sp&eacute;cifiques dans ce
+                                    guide sont &agrave; des fins
+                                    d&rsquo;information uniquement afin de
+                                    d&eacute;montrer les bonnes pratiques
+                                    reconnues &agrave; l&rsquo;&eacute;chelle
+                                    internationale, &agrave; la date de
+                                    lancement de l&rsquo;appli. Toute
+                                    r&eacute;f&eacute;rence &agrave; ces
+                                    entit&eacute;s ne saurait constituer une
+                                    approbation officielle de ces
+                                    derni&egrave;res, de leurs produits ou de
+                                    leurs services par le d&eacute;partement du
+                                    Travail des &Eacute;tats-Unis,{" "}
+                                </em>
+                                <em>
+                                    et leur inclusion dans cette appli ne
+                                    saurait &ecirc;tre interpr&eacute;t&eacute;e
+                                    comme un examen exhaustif des pratiques de
+                                    ces entit&eacute;s dans tous les domaines
+                                </em>
+                                <em>.</em>
+                            </p>
             </div>
         </StaticData>
     );

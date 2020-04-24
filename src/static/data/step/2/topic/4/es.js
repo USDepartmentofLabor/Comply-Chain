@@ -1,350 +1,433 @@
 import React from "react";
-import Accordion from "../../../../../../components/Accordion";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
-import cocoaSupplyChains from "../../../../../images/cocoa_supply_chains_es.png";
-import genericImport from "../../../../../images/generic_import_es.png";
+
 
 const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>
-                    Representaci&oacute;n gr&aacute;fica de la cadena de
-                    suministro
-                </h1>
+                <h1>Sistemas de gestión</h1>
                 <p>
-                    Las empresas saben qui&eacute;nes son sus proveedores
-                    directos y d&oacute;nde se encuentran. Sin embargo, en
-                    muchos casos, las empresas se abastecen de contratistas o
-                    agentes que no dan a conocer las f&aacute;bricas u otras
-                    instalaciones de producci&oacute;n de las cuales{" "}
-                    <em>ellos</em>, a su vez, se abastecen. Con frecuencia las
-                    empresas tienen informaci&oacute;n sobre las f&aacute;bricas
-                    y los establecimientos productores del primer orden en las
-                    cadenas de suministro pero poseen informaci&oacute;n escasa
-                    o nula sobre las pr&aacute;cticas de los proveedores de
-                    segundo, tercer o dem&aacute;s &oacute;rdenes. Las empresas
-                    deben poseer la mayor cantidad posible de informaci&oacute;n
-                    sobre los proveedores en todos los niveles de la cadena de
-                    suministro, incluso los productores de la materia prima.
-                    Cuanto m&aacute;s integral sea la representaci&oacute;n
-                    gr&aacute;fica que realiza la empresa de sus cadenas de
-                    suministro, m&aacute;s precisamente podr&aacute; identificar
-                    esos lugares en la cadena con el mayor riesgo de
-                    explotaci&oacute;n laboral. Por ende, es importante
-                    comunicarse con los equipos de abastecimiento o
-                    gesti&oacute;n de la cadena de suministro de la empresa para
-                    obtener datos sobre sus propias cadenas de suministro y, de
-                    necesitarse m&aacute;s informaci&oacute;n, trabajar
-                    estrechamente con ellos para complementar esos datos.
-                </p>
-                <p>
-                    Si la empresa actualmente no tiene acceso a
-                    informaci&oacute;n sobre los proveedores m&aacute;s
-                    all&aacute; de los proveedores de los que se abastece
-                    directamente, la mejor manera de obtener esta
-                    informaci&oacute;n es trabajar con el departamento de
-                    asesoramiento jur&iacute;dico u otra unidad pertinente de la
-                    empresa para crear requisitos contractuales que rijan la
-                    difusi&oacute;n de informaci&oacute;n integral sobre todos
-                    los proveedores.
-                </p>
-                <p>
-                    La &ldquo;representaci&oacute;n gr&aacute;fica&rdquo; no
-                    solo indica qui&eacute;nes son los proveedores (en toda la
-                    cadena de suministro), sino tambi&eacute;n d&oacute;nde se
-                    encuentran. Esta informaci&oacute;n es esencial para la
-                    evaluaci&oacute;n de riesgos e impacto en relaci&oacute;n
-                    con los entornos jur&iacute;dico y normativo, entre otras
-                    cosas. Este ejercicio puede incluir tambi&eacute;n
-                    representaciones gr&aacute;ficas de la estacionalidad de la
-                    producci&oacute;n o los ciclos de producci&oacute;n durante
-                    el a&ntilde;o, dado que estos podr&iacute;an guardar
-                    relaci&oacute;n con per&iacute;odos de mayor vulnerabilidad
-                    a la explotaci&oacute;n laboral.&nbsp;
-                </p>
-                <p>
-                    A continuaci&oacute;n siguen tres ejemplos de
-                    representaciones gr&aacute;ficas de la cadena de suministro:
-                </p>
-                <p>
-                    Ejemplo 1: cadenas de suministro del cacao (Cote
-                    D&apos;Ivoire y Ghana) <br /> Ejemplo 2: cadenas de
-                    suministro de art&iacute;culos de electr&oacute;nica:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.resolve.ngo/site-eiscm/default.htm?RD=1"
-                        title="cobalto, tantalio, y tantalio"
-                    >
-                        cobalto, tantalio, y tantalio
-                    </a>
-                    <br /> Ejemplo 3: cadena de suministro de importaciones
-                    gen&eacute;ricas en un modelo de comercializaci&oacute;n
-                    minorista
-                </p>
-                <p>
-                    Los bienes producidos con productos b&aacute;sicos
-                    agr&iacute;colas o minerales pueden ser especialmente
-                    dif&iacute;ciles de rastrear, dado que la materia prima se
-                    cosecha o extrae en zonas geogr&aacute;ficas sumamente
-                    dispersas y se agrega o combina al comienzo de la cadena de
-                    suministro. Algunas empresas y coaliciones de industrias han
-                    probado programas de &ldquo;trazabilidad&rdquo; para hacer
-                    un seguimiento retrospectivo de determinados productos
-                    b&aacute;sicos desde el producto terminado hasta al punto de
-                    origen pasando por toda la cadena de suministro.
-                </p>
-                <p>
-                    A fin de evitar confusiones, la representaci&oacute;n
-                    gr&aacute;fica de las cadenas de suministro no implica
-                    necesariamente que la empresa sea responsable de todas las
-                    consecuencias y riesgos de cada entidad en la cadena.
-                    Conforme se afirma en los{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
-                        title="Principios Rectores sobre las Empresas y los Derechos Humanos de las Naciones Unidas"
-                    >
-                        Principios rectores sobre las empresas y los derechos
-                        humanos
-                    </a>
-                    , &ldquo;para las empresas que cuenten con numerosas
-                    entidades en sus cadenas de valor puede resultar demasiado
-                    dif&iacute;cil proceder con la debida diligencia en materia
-                    de derechos humanos a nivel de cada entidad. En tal caso,
-                    las empresas deben identificar las &aacute;reas generales
-                    que presenten mayor riesgo de consecuencias negativas sobre
-                    los derechos humanos, ya sea debido al contexto operativo de
-                    ciertos proveedores o clientes, a las operaciones, los
-                    productos o los servicios de que se trate, o a otras
-                    consideraciones pertinentes, y dar prioridad a la debida
-                    diligencia en materia de derechos humanos en esas
-                    &aacute;reas&rdquo;. Este proceso de fijar prioridades se
-                    aborda a continuaci&oacute;n.
-                </p>
-                <br />
-                <h2>
-                    Cadenas de suministro del cacao (Cote D&apos;Ivoire y Ghana)
-                </h2>
-                <br />{" "}
-                <img
-                    src={cocoaSupplyChains}
-                    alt="Cadenas de suministro del cacao"
-                    longdesc="#cocoa_chains"
-                />
-                <p className="small-text">
-                    Fuente:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.crea.org/"
-                    >
-                        Centro para la Reflexi&oacute;n, la Educaci&oacute;n y
-                        la Acci&oacute;n (CREA).
-                    </a>
-                </p>
-                <div id="cocoa_chains">
-                    <Accordion id="cocoa-chains-acc">
-                        <Accordion.Section id="cocoa-description">
-                            <Accordion.Title>
-                                Descripci&oacute;n del gr&aacute;fico
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                                En este gr&aacute;fico se ilustran los
-                                diferentes actores que intervienen en la cadena
-                                de suministro del cacao: agricultores,
-                                acopiadores o transportadores, procesadores,
-                                exportadores, el mercado mundial, fabricantes
-                                (que tambi&eacute;n pueden fabricar productos
-                                con otros granos), clientes y consumidores.
-                                Adem&aacute;s, el gr&aacute;fico contiene
-                                ejemplos de entidades y actividades que entran
-                                en esas categor&iacute;as de cadenas de
-                                suministro en dos pa&iacute;ses: C&ocirc;te
-                                d&rsquo;Ivoire y Ghana. En C&ocirc;te
-                                d&rsquo;Ivoire, los agricultores pueden ser
-                                peque&ntilde;os establecimientos
-                                agr&iacute;colas familiares (&gt;750.000),
-                                operaciones independientes o cooperativas (en
-                                las que el cacao representa &lt;20% de los
-                                cultivos). Los acopiadores y transportadores son
-                                operadores privados, as&iacute; como los{" "}
-                                <i>pisteurs</i> o los <i>traitants</i>, que
-                                tienen menos v&iacute;nculos de calidad. Los
-                                procesadores y exportadores agrupan a varios
-                                participantes, incluidas las empresas
-                                internacionales. Comprende a los que producen
-                                bienes semiacabados. En Ghana, los agricultores
-                                pueden ser peque&ntilde;os establecimientos
-                                agr&iacute;colas familiares (&gt;600.000),
-                                operaciones independientes o cooperativas (en
-                                las que el cacao representa &lt;10% de los
-                                cultivos). La compra inicial de los granos de
-                                cacao est&aacute; a cargo de compradores
-                                matriculados (LBC). La Junta del Cacao de Ghana
-                                (COCOBOD) y las organizaciones afiliadas
-                                garantizan que los requisitos de calidad
-                                est&eacute;n vinculados a las ventas. En Ghana,
-                                entre los procesadores y exportadores se
-                                encuentran COCOBOD y las empresas
-                                internacionales. Comprende a los que producen
-                                bienes semiacabados. En el gr&aacute;fico se ve
-                                que los &uacute;ltimos pasos del proceso son
-                                similares en ambos pa&iacute;ses. Los granos y
-                                los productos de los peque&ntilde;os
-                                establecimientos agr&iacute;colas familiares se
-                                trasladan al mercado mundial. Los fabricantes
-                                procesan m&aacute;s a&uacute;n el producto. Los
-                                comercios minoristas, restaurantes y
-                                peque&ntilde;as empresas son los clientes. Y los
-                                consumidores son el consumidor final.&nbsp;
-                            </Accordion.Panel>
-                        </Accordion.Section>
-                    </Accordion>
-                </div>
-                <br />
-                <h2>
-                    Cadena de suministro de importaciones gen&eacute;ricas en un
-                    modelo de comercializaci&oacute;n minorista
-                </h2>
-                <br />{" "}
-                <img
-                    src={genericImport}
-                    alt="Cadena de suministro de importaciones gen&eacute;ricas en un modelo de comercializaci&oacute;n minorista"
-                    longdesc="#generic_import"
-                />
-                <p className="small-text">
-                    Fuente:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://corporate.target.com/"
-                    >
-                        Target Corporation.
-                    </a>
-                </p>
-                <div>
-                    <Accordion id="generic-import-acc">
-                        <Accordion.Section id="generic-import-description">
-                            <Accordion.Title>
-                                Descripci&oacute;n del gr&aacute;fico
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                                <p>
-                                    En este gr&aacute;fico se ilustran los pasos
-                                    en una cadena de suministro de importaciones
-                                    gen&eacute;ricas. La representaci&oacute;n
-                                    de la t&iacute;pica cadena de suministro de
-                                    un comercio minorista comienza con:
+                                    Al igual que toda unidad empresarial
+                                    exitosa, el equipo de gesti&oacute;n del
+                                    cumplimiento social debe contar con sistemas
+                                    de gesti&oacute;n integrados en los sistemas
+                                    generales de la empresa, en lugar de
+                                    aislarse del resto de las operaciones.
+                                    Muchos elementos del sistema de
+                                    gesti&oacute;n (como la evaluaci&oacute;n de
+                                    riesgos, los planes de comunicaci&oacute;n,
+                                    los sistemas de informaci&oacute;n, los
+                                    mecanismos de reclamaci&oacute;n y demanda
+                                    as&iacute; como la verificaci&oacute;n
+                                    independiente) son temas de la presente
+                                    aplicaci&oacute;n y se analizan m&aacute;s a
+                                    fondo en diferentes secciones.
                                 </p>
-                                <ul>
-                                    <li>
-                                        Primer paso: Elaboraci&oacute;n del
-                                        producto. En esta fase, se definen el
-                                        concepto del producto y el proveedor, y
-                                        se finaliza el dise&ntilde;o del
-                                        producto. A esta altura tambi&eacute;n
-                                        se decide el financiamiento y
-                                        transcurren de 5 a 9 meses hasta que el
-                                        producto llega a la tienda.
-                                    </li>
-                                    <li>
-                                        Segundo paso: Pedido y
-                                        producci&oacute;n. Aqu&iacute;, ocurren
-                                        la configuraci&oacute;n del
-                                        art&iacute;culo y su
-                                        clasificaci&oacute;n; el comprador
-                                        env&iacute;a un pedido de compra
-                                        electr&oacute;nico al proveedor, al
-                                        despachante de aduana, al transportista
-                                        y al banco. Luego, se escoge la
-                                        f&aacute;brica y se procede a realizar
-                                        las pruebas previas a la
-                                        producci&oacute;n, a lo que sigue la
-                                        producci&oacute;n de la mercanc&iacute;a
-                                        en la f&aacute;brica, con controles de
-                                        garant&iacute;a de calidad y
-                                        cumplimiento social. Todo esto sucede
-                                        entre 2 y 5 meses antes de que el
-                                        producto llegue a la tienda.
-                                    </li>
-                                    <li>
-                                        Tercer paso: Contrataci&oacute;n del
-                                        transportista. En este paso, el
-                                        proveedor contrata a un transportista y
-                                        env&iacute;a la carga a una terminal o a
-                                        una estaci&oacute;n de carga de
-                                        contenedores. Esto sucede entre 2 y 4
-                                        meses antes de que el producto llegue a
-                                        la tienda.
-                                    </li>
-                                    <li>
-                                        Cuarto paso: Tr&aacute;mites
-                                        documentales y env&iacute;o. El
-                                        proveedor entrega los documentos de
-                                        ingreso al transportista y paga los
-                                        gastos locales. El transportista
-                                        env&iacute;a la documentaci&oacute;n al
-                                        despachante por v&iacute;a
-                                        electr&oacute;nica. Se emite un recibo
-                                        del cargamento del expedidor al
-                                        proveedor (documento obligatorio para
-                                        que el proveedor pueda cobrar). En esta
-                                        fase tambi&eacute;n se deben presentar
-                                        en la Aduana de los EE.UU. el manifiesto
-                                        de carga con 24 horas de
-                                        antelaci&oacute;n al arribo. El buque
-                                        zarpa y el transportista env&iacute;a
-                                        los detalles del cargamento al
-                                        despachante y al comprador por
-                                        v&iacute;a electr&oacute;nica. Este paso
-                                        sucede entre 1 y 2 meses antes de que el
-                                        producto llegue a la tienda.
-                                    </li>
-                                    <li>
-                                        Quinto paso: Despacho aduanero. El
-                                        despachante recibe los documentos de
-                                        ingreso por v&iacute;a
-                                        electr&oacute;nica, los examina y
-                                        verifica. Luego, registra el ingreso en
-                                        la Aduana de los EE.UU. y otros
-                                        organismos p&uacute;blicos. El comprador
-                                        env&iacute;a las instrucciones de
-                                        asignaci&oacute;n para el centro de
-                                        desconsolidaci&oacute;n. Luego, llega el
-                                        buque y se libera el contenedor para su
-                                        distribuci&oacute;n. Todo esto sucede 1
-                                        mes antes de que el producto llegue a la
-                                        tienda.
-                                    </li>
-                                    <li>
-                                        Sexto paso: Desconsolidaci&oacute;n y
-                                        env&iacute;o al destino final. Esto
-                                        sucede 2 semanas antes de que el
-                                        producto llegue a la tienda. Se coordina
-                                        la entrega a un centro de
-                                        desconsolidaci&oacute;n (o destino
-                                        final). De all&iacute; se distribuye el
-                                        producto siguiendo las instrucciones de
-                                        asignaci&oacute;n del comprador. Se
-                                        entrega el producto en el centro de
-                                        distribuci&oacute;n, dep&oacute;sito o
-                                        tienda. En la secci&oacute;n del
-                                        gr&aacute;fico sobre informaci&oacute;n
-                                        y t&eacute;rminos adicionales se definen
-                                        las siglas empleadas en la
-                                        ilustraci&oacute;n y se menciona que no
-                                        todos los importadores clasifican los
-                                        art&iacute;culos al comienzo de la
-                                        cadena de suministro.
-                                    </li>
-                                </ul>
-                            </Accordion.Panel>
-                        </Accordion.Section>
-                    </Accordion>
-                </div>
+                                <p>
+                                    La gesti&oacute;n de cualquier sistema o
+                                    programa debe comenzar con el
+                                    establecimiento de metas, objetivos y
+                                    resultados de desempe&ntilde;o. Muchos
+                                    programas de cumplimiento social definen una
+                                    m&eacute;trica o indicadores clave del
+                                    desempe&ntilde;o en relaci&oacute;n con los
+                                    cuales miden los avances logrados. Los
+                                    indicadores clave del desempe&ntilde;o
+                                    pueden formularse internamente, o como parte
+                                    de un ejercicio de establecimiento de puntos
+                                    de referencia para compararse con los
+                                    programas de otras empresas. Una vez que se
+                                    establecen, el equipo debe corroborar
+                                    peri&oacute;dicamente los avances logrados
+                                    seg&uacute;n esas metas o indicadores, y
+                                    abordar los &aacute;mbitos en los que no se
+                                    alcanzaron. Por otra parte, el equipo
+                                    peri&oacute;dicamente debe examinar sus
+                                    procesos y pol&iacute;ticas y actualizarlos
+                                    seg&uacute;n corresponda. Las empresas con
+                                    sistemas de cumplimiento social
+                                    s&oacute;lidos siempre se encuentran en la
+                                    modalidad de &ldquo;mejora
+                                    continua&rdquo;.&nbsp;
+                                </p>
+                                <p>
+                                    El{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://responsiblesourcingtool.org/"
+                                        title="Responsible Sourcing Tool"
+                                    >
+                                        Responsible Sourcing Tool
+                                    </a>{" "}
+                                    (instrumento de abastecimiento responsable),
+                                    lanzado en 2016 por Verit&eacute; y el
+                                    Departamento de Estado de los Estados
+                                    Unidos, contiene un{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://responsiblesourcingtool.org/riskmanagementprocess"
+                                        title="Ejemplo de flujo de procesos para la gesti&oacute;n de riesgos en la cadena de suministro"
+                                    >
+                                        ejemplo de flujo de procesos para la
+                                        gesti&oacute;n de riesgos en la cadena
+                                        de suministro
+                                    </a>
+                                    , que demuestra c&oacute;mo funciona un
+                                    sistema eficaz de gesti&oacute;n de la
+                                    mejora continua para detectar, atenuar y
+                                    prevenir la trata de personas en la cadena
+                                    de suministro. Por otra parte, el{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://responsiblesourcingtool.org/supplychainassurance"
+                                        title="Ejemplo de programa de garant&iacute;a en la cadena de suministro"
+                                    >
+                                        ejemplo de programa de garant&iacute;a
+                                        en la cadena de suministro
+                                    </a>{" "}
+                                    contiene un resumen esquem&aacute;tico de
+                                    los procesos que puede aplicar una empresa
+                                    para identificar los puntos en la cadena de
+                                    suministro en que existe el riesgo de trata
+                                    de personas, abordar los problemas
+                                    identificados, aplicar soluciones duraderas,
+                                    as&iacute; como vigilar y dar seguimiento al
+                                    desempe&ntilde;o de los proveedores a lo
+                                    largo del tiempo. Otro recurso que contiene
+                                    un bosquejo de los pasos que puede seguir
+                                    una empresa para lograr y conservar una
+                                    cadena de suministro sostenible es la
+                                    publicaci&oacute;n <em />
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://supply-chain.unglobalcompact.org/site/article/183"
+                                        title="<i>Supply Chain Sustainability:</i> <i>A Practical Guide for Continuous Improvement</i>"
+                                    >
+                                        <em>
+                                            Supply Chain Sustainability: A
+                                            Practical Guide for Continuous
+                                            Improvement
+                                        </em>
+                                    </a>
+                                    <em>,</em> publicada por el Pacto Mundial de
+                                    las Naciones Unidas y BSR.
+                                </p>
+                                <p>
+                                    A nivel pr&aacute;ctico, el equipo de
+                                    gesti&oacute;n debe cerciorarse de
+                                    documentar todas las funciones del sistema
+                                    de cumplimiento social. Esta
+                                    documentaci&oacute;n debe incluir
+                                    pol&iacute;ticas y procedimientos escritos
+                                    para todos los componentes del sistema,
+                                    as&iacute; como protocolos de
+                                    comunicaci&oacute;n. Adem&aacute;s debe
+                                    incluir documentos para distribuir a otras
+                                    unidades de la empresa; por ejemplo,
+                                    seguramente ser&aacute; muy &uacute;til para
+                                    el departamento de abastecimiento contar con
+                                    un resumen de las disposiciones de los
+                                    contratos con proveedores en relaci&oacute;n
+                                    con las obligaciones de cumplimiento social.
+                                    Las pol&iacute;ticas y los procedimientos
+                                    documentados del equipo deben contar con la
+                                    aprobaci&oacute;n y el respaldo de la alta
+                                    gerencia.
+                                </p>
+                                <p>
+                                    Las empresas y asociaciones de la industria
+                                    pueden optar por incorporar disposiciones
+                                    sobre los sistemas de gesti&oacute;n en sus
+                                    propios c&oacute;digos de conducta y exigir
+                                    su cumplimiento entre los miembros o los
+                                    proveedores de la asociaci&oacute;n. Este
+                                    concepto se ilustra con el ejemplo que se
+                                    describe a continuaci&oacute;n.
+                                </p>
+                                <ExampleInAction id="eicc">
+                                    <h4>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Ejemplo en acci&oacute;n:
+                                            Responsible Business Alliance (RBA)
+                                            (antes conocida como Electronics
+                                            Industry Citizenship Coalition)
+                                            (EICC) Código de conducta - Sistemas
+                                            de Gestión
+                                        </strong>
+                                    </h4>
+                                    <p>
+                                        Extra&iacute;do de la <em />
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_Spanish.pdf"
+                                            title="Extraído del Código de Conducta
+                                                de Responsible Business Alliance
+                                                v. 6.0 (2018)"
+                                        >
+                                            <em>
+                                                Extraído del Código de Conducta
+                                                de Responsible Business Alliance
+                                                v. 6.0 (2018)
+                                            </em>
+                                        </a>
+                                    </p>
+                                    <p>
+                                        &ldquo;Los participantes deber&aacute;n
+                                        adoptar o establecer un sistema de
+                                        gesti&oacute;n cuyo alcance est&eacute;
+                                        relacionado con el contenido del
+                                        presente C&oacute;digo. El sistema de
+                                        gesti&oacute;n estar&aacute;
+                                        dise&ntilde;ado de manera tal de
+                                        garantizar: a) el cumplimiento de la
+                                        legislaci&oacute;n aplicable, la
+                                        normativa y los requisitos del cliente
+                                        en relaci&oacute;n con las operaciones y
+                                        los productos del participante; b) la
+                                        conformidad con el presente
+                                        C&oacute;digo y c) la
+                                        identificaci&oacute;n y
+                                        mitigaci&oacute;n de los riesgos en las
+                                        operaciones vinculados al presente
+                                        C&oacute;digo. Adem&aacute;s, debe
+                                        promover la mejora continua.
+                                    </p>
+                                    <p>
+                                        El sistema de gesti&oacute;n debe
+                                        contener los elementos que se indican a
+                                        continuaci&oacute;n:
+                                    </p>
+                                    <ol>
+                                        <li>
+                                            <h4>Compromiso de la empresa</h4>
+                                            <p>
+                                                Declaraci&oacute;n de las
+                                                pol&iacute;ticas de
+                                                responsabilidad ambiental y
+                                                social de la empresa en que se
+                                                enuncie el compromiso del
+                                                participante con el cumplimiento
+                                                y la mejora continua, con el
+                                                aval de la gerencia ejecutiva y
+                                                exhibida en el idioma local en
+                                                un lugar visible de las
+                                                instalaciones.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Responsabilidad y
+                                                rendici&oacute;n de cuentas de
+                                                la gerencia
+                                            </h4>
+                                            <p>
+                                                El participante identifica
+                                                claramente al ejecutivo
+                                                principal y al o a los
+                                                responsables en la empresa de
+                                                garantizar la ejecuci&oacute;n
+                                                de los sistemas de
+                                                gesti&oacute;n y los programas
+                                                conexos. La alta gerencia
+                                                peri&oacute;dicamente analiza el
+                                                estado de situaci&oacute;n del
+                                                sistema de gesti&oacute;n.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Requisitos legales y de los
+                                                clientes
+                                            </h4>
+                                            <p>
+                                                Proceso mediante el cual se
+                                                identifica, vigila, da
+                                                seguimiento y comprende la
+                                                legislaci&oacute;n aplicable, la
+                                                normativa y los requisitos del
+                                                cliente, incluidos los que
+                                                figuran en el presente
+                                                C&oacute;digo.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Evaluaci&oacute;n de riesgos y
+                                                gesti&oacute;n de riesgos
+                                            </h4>
+                                            <p>
+                                                Proceso mediante el cual se
+                                                identifican los riesgos en
+                                                materia ambiental, de
+                                                cumplimiento legal, salud y
+                                                seguridad, pr&aacute;cticas
+                                                laborales y &eacute;tica
+                                                vinculados a las operaciones del
+                                                participante.
+                                            </p>
+                                            <p>
+                                                Determinar la importancia
+                                                relativa de cada riesgo y
+                                                aplicar los controles
+                                                f&iacute;sicos y de
+                                                procedimiento adecuados para
+                                                contener los riesgos
+                                                identificados y garantizar el
+                                                cumplimiento normativo.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>Objetivos de mejora</h4>
+                                            <p>
+                                                Objetivos de desempe&ntilde;o
+                                                escritos, con sus metas y planes
+                                                de aplicaci&oacute;n, a fin de
+                                                mejorar el desempe&ntilde;o
+                                                social y ambiental del
+                                                participante, incluida una
+                                                evaluaci&oacute;n
+                                                peri&oacute;dica del
+                                                desempe&ntilde;o del
+                                                participante en pos del logro de
+                                                dichos objetivos.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>Capacitaci&oacute;n</h4>
+                                            <p>
+                                                Programas para capacitar a
+                                                gerentes y trabajadores en la
+                                                ejecuci&oacute;n de las
+                                                pol&iacute;ticas, los
+                                                procedimientos y los objetivos
+                                                de mejora del participante,
+                                                as&iacute; como para acatar los
+                                                requisitos legales y normativos.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>Comunicaci&oacute;n</h4>
+                                            <p>
+                                                Proceso para comunicar
+                                                informaci&oacute;n clara y
+                                                precisa sobre las
+                                                pol&iacute;ticas,
+                                                pr&aacute;cticas, expectativas y
+                                                el desempe&ntilde;o del
+                                                participante a los trabajadores,
+                                                proveedores y clientes.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Comentarios y
+                                                participaci&oacute;n de los
+                                                trabajadores
+                                            </h4>
+                                            <p>
+                                                Procesos en curso para evaluar
+                                                la comprensi&oacute;n de los
+                                                empleados y para que brinden
+                                                comentarios sobre las
+                                                pr&aacute;cticas y las
+                                                condiciones contempladas en el
+                                                C&oacute;digo, as&iacute; como
+                                                para fomentar la mejora
+                                                continua.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Auditor&iacute;as y evaluaciones
+                                            </h4>
+                                            <p>
+                                                Autoevaluaciones
+                                                peri&oacute;dicas para
+                                                garantizar el cumplimiento de
+                                                los requisitos legales y
+                                                normativos, el contenido del
+                                                C&oacute;digo y los requisitos
+                                                contractuales de los clientes
+                                                vinculados a la responsabilidad
+                                                social y ambiental.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Proceso de acci&oacute;n
+                                                correctiva
+                                            </h4>
+                                            <p>
+                                                Proceso para la
+                                                correcci&oacute;n oportuna de
+                                                las deficiencias identificadas
+                                                en las evaluaciones internas o
+                                                externas, as&iacute; como en
+                                                inspecciones, investigaciones y
+                                                ex&aacute;menes.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Documentaci&oacute;n y registros
+                                            </h4>
+                                            <p>
+                                                Formulaci&oacute;n y
+                                                mantenimiento de documentos y
+                                                registros para garantizar el
+                                                cumplimiento normativo y la
+                                                conformidad con los requisitos
+                                                de la empresa junto con la
+                                                debida confidencialidad para
+                                                proteger la privacidad.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                Responsabilidad de los
+                                                proveedores
+                                            </h4>
+                                            <p>
+                                                Proceso para comunicar los
+                                                requisitos del C&oacute;digo a
+                                                los proveedores, as&iacute; como
+                                                para vigilar y dar seguimiento
+                                                al cumplimiento del
+                                                C&oacute;digo.&rdquo;
+                                            </p>
+                                        </li>
+                                    </ol>
+                                </ExampleInAction>
+                <p>
+                                <em>
+                                    *Nota: Toda referencia que se haga en la
+                                    presente gu&iacute;a a empresas o entidades
+                                    no gubernamentales espec&iacute;ficas es con
+                                    fines informativos &uacute;nicamente a fin
+                                    de demostrar las buenas pr&aacute;cticas
+                                    internacionalmente reconocidas a la fecha de
+                                    lanzamiento de la aplicaci&oacute;n. Las
+                                    referencias a dichas entidades no debe
+                                    interpretarse como un aval oficial del
+                                    Departamento de Trabajo de los Estados
+                                    Unidos a ellas, sus productos ni servicios{" "}
+                                </em>
+                                <em>
+                                    y su menci&oacute;n no debe interpretarse
+                                    como un examen exhaustivo de las
+                                    pr&aacute;cticas que emplean dichas
+                                    entidades en todos los &aacute;mbitos
+                                </em>
+                                <em>.</em>
+                            </p>
             </div>
         </StaticData>
     );

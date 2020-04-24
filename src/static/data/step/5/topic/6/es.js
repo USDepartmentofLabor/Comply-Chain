@@ -5,117 +5,183 @@ const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>C&oacute;mo entrevistar a un ni&ntilde;o</h1>
+                <h1>Adopci&oacute;n de un c&oacute;digo actual</h1>
                 <p>
-                    <em>
-                        &ldquo;Es necesario saber entrevistar a un ni&ntilde;o
-                        cuando se contrata a gente joven: a) para determinar su
-                        edad, b) para evaluar la madurez en cuanto al trabajo
-                        que la persona puede realizar, c) para determinar la
-                        posible experiencia laboral o d) para averiguar si
-                        alguno de los trabajadores tiene menos edad que la
-                        m&iacute;nima para el tipo de trabajo o proceso que
-                        realiza.
-                    </em>
+                    En determinadas industrias, hay grupos de empresas que ya se
+                    reunieron para elaborar sistemas de cumplimiento social
+                    conjuntos que las distintas empresas individuales pueden
+                    adoptar al sumarse al grupo. En la mayor&iacute;a de los
+                    casos, estos grupos o bien tienen un c&oacute;digo de
+                    conducta o bien est&aacute;n redactando uno de manera
+                    conjunta.
                 </p>
                 <p>
-                    <em>
-                        Al entrevistar a un ni&ntilde;o que uno sospecha tiene
-                        menos edad que la m&iacute;nima obligatoria para un tipo
-                        de trabajo en particular o que haya realizado
-                        alg&uacute;n trabajo peligroso, es importante crear un
-                        ambiente distendido y de confianza. Tambi&eacute;n es
-                        importante que la conversaci&oacute;n tenga lugar en un
-                        sitio donde no haya interrupciones pero que tampoco
-                        est&eacute; demasiado alejado ni fuera de la vista. En
-                        esencia, el ni&ntilde;o debe sentirse lo m&aacute;s
-                        seguro posible.
-                    </em>
-                </p>
-                <h2>
-                    <em>¿Qu&eacute; se debe observar?</em>
-                </h2>
-                <p>
-                    <em>
-                        Se debe tratar al ni&ntilde;o con respeto y reconocerlo
-                        como un sujeto de derecho.
-                    </em>
+                    Los c&oacute;digos de la industria presentan tanto ventajas
+                    como desventajas. El aspecto positivo es que aprovechan las
+                    experiencias y las ideas de varias empresas y agrupan
+                    recursos para minimizar el esfuerzo general y el tiempo que
+                    se dedica a redactar el c&oacute;digo. Asimismo, en
+                    industrias como la de la vestimenta, donde muchas marcas
+                    tienden a compartir proveedores, un &uacute;nico
+                    c&oacute;digo acordado entre todos garantiza que los
+                    proveedores individuales no deban someterse a numerosas
+                    auditor&iacute;as regidas por c&oacute;digos divergentes y,
+                    en vez, concentrarse en mejorar el cumplimiento de un
+                    conjunto claro de normas.
                 </p>
                 <p>
-                    <em>
-                        Siempre debe haber dos adultos presentes en la
-                        entrevista en todo momento. Ning&uacute;n adulto puede
-                        estar demasiado tiempo a solas con ni&ntilde;os alejados
-                        de los dem&aacute;s para no despertar una
-                        preocupaci&oacute;n innecesaria en el ni&ntilde;o ni
-                        levantar sospechas de conducta inadecuada, amenazante o
-                        de abuso.
-                    </em>
+                    El aspecto negativo es que en el proceso de redacci&oacute;n
+                    del c&oacute;digo alguna empresa tal vez deba ceder en
+                    determinadas disposiciones. Como empresa, es importante
+                    comprender la cadena de suministro, incluidos los riesgos y
+                    desaf&iacute;os, antes de tomar la decisi&oacute;n de
+                    adoptar un c&oacute;digo grupal a fin de garantizar que este
+                    exprese compromisos f&eacute;rreos en los aspectos
+                    m&aacute;s importantes y visibles de la empresa.
                 </p>
                 <p>
-                    <em>
-                        Al entrevistar a una ni&ntilde;a, siempre debe haber una
-                        mujer presente.
-                    </em>
-                </p>
-                <p>
-                    <em>
-                        Se aconseja invitar a los padres o tutores de los
-                        ni&ntilde;os a la entrevista.
-                    </em>
-                </p>
-                <p>
-                    <em>
-                        Si el ni&ntilde;o es hu&eacute;rfano y no se puede
-                        identificar al tutor ni a ning&uacute;n pariente, se
-                        puede invitar a un representante de una ONG que vela por
-                        los derechos del ni&ntilde;o.
-                    </em>
-                </p>
-                <h2>
-                    <em>Durante la entrevista con un ni&ntilde;o</em>
-                </h2>
-                <p>
-                    <em>
-                        El objetivo principal de la entrevista siempre es
-                        escuchar al ni&ntilde;o e intentar hacer una
-                        evaluaci&oacute;n general de su situaci&oacute;n
-                        familiar y laboral:
-                    </em>
-                </p>
-                <div className="indent-margin">
-                    <p>
-                        <em>Motivos por los que trabaja el ni&ntilde;o</em>
-                    </p>
-                    <p>
-                        <em>
-                            De qu&eacute; manera el ni&ntilde;o contribuye a los
-                            ingresos de la familia y cu&aacute;les son las
-                            circunstancias de la familia (por ejemplo,
-                            desempleo, enfermedad, etc.).
-                        </em>
-                    </p>
-                    <p>
-                        <em>
-                            De qu&eacute; manera el ni&ntilde;o comprende el
-                            trabajo que realiza y lo valora.&rdquo;
-                        </em>
-                    </p>
-                </div>
-                <p>
-                    Fuente: Save the Children Dinamarca.{" "}
+                    Algunos ejemplos de c&oacute;digos de la industria son los{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.etiskhandel.no/noop/file.php?id=1580"
-                        title="Save the Children Dinamarca, Child Labour Toolkit, Responsible Approaches to Child Labour in the Textile and Garment Industry"
+                        href="https://bettercotton.org/wp-content/uploads/2014/10/production-principles-and-criteria.pdf"
+                        title="Principios y Criterios de Producci&oacute;n de la iniciativa BCI (Better Cotton Initiative)"
                     >
-                        <i>
-                            Child Labour Toolkit, Responsible Approaches to
-                            Child Labour in the Textile and Garment Industry
-                        </i>
+                        Principios y Criterios de Producci&oacute;n de la
+                        iniciativa BCI (Better Cotton Initiative)
+                    </a>{" "}
+                    para empresas que participan en toda la cadena de suministro
+                    del algod&oacute;n, el{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.eiccoalition.org/media/docs/EICCCodeofConduct5_English.pdf"
+                        title="C&oacute;digo de la Coalici&oacute;n Ciudadana de la Industria Electr&oacute;nica"
+                    >
+                        C&oacute;digo de la Coalici&oacute;n Ciudadana de la
+                        Industria Electr&oacute;nica
+                    </a>{" "}
+                    para empresas de electr&oacute;nica, la{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.bonsucro.com/en/production-standard/"
+                        title="Norma de producci&oacute;n Bonsucro"
+                    >
+                        Norma de producci&oacute;n Bonsucro
+                    </a>{" "}
+                    para empresas que trabajan en la cadena de suministro de la
+                    ca&ntilde;a de az&uacute;car y el{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ethicaltrade.org/eti-base-code"
+                        title="C&oacute;digo B&aacute;sico de la Iniciativa de Comercio &Eacute;tico para empresas de distintas industrias"
+                    >
+                        C&oacute;digo B&aacute;sico de la Iniciativa de Comercio
+                        &Eacute;tico para empresas de distintas industrias.
                     </a>
-                    , 2006.
+                </p>
+                <p>
+                    Tambi&eacute;n hay grupos de la industria que no exigen que
+                    sus socios se adhieran a un c&oacute;digo espec&iacute;fico
+                    sino que redactaron declaraciones generales de
+                    pol&iacute;tica y declaraciones de compromiso para que
+                    adopten los socios. Algunos ejemplos son el{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.aiag.org/corporate-responsibility/supply-chain-sustainability"
+                        title="Automotive Industry Action Group"
+                    >
+                        Automotive Industry Action Group
+                    </a>
+                    * y los{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-priority-industry-principles"
+                        title="Principios esenciales de la industria del Foro de Bienes de Consumo*"
+                    >
+                        principios esenciales de la industria del Foro de Bienes
+                        de Consumo*
+                    </a>{" "}
+                    en materia de trabajo forzoso.
+                </p>
+                <p>
+                    De la misma manera, hay grupos multilaterales y de varias
+                    partes interesadas que elaboraron gu&iacute;as para un
+                    producto o una l&iacute;nea de productos en particular.
+                    Algunos ejemplos son (menos el primero, solo disponible en
+                    idioma ingl&eacute;s): 1){" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.oecd.org/daf/inv/mne/mining.htm"
+                        title="Suplemento sobre esta&ntilde;o, tantalio y tungsteno de la Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas de Suministro Responsables de Minerales en las &Aacute;reas de Conflicto o de Alto Riesgo"
+                    >
+                        Suplemento sobre esta&ntilde;o, tantalio y tungsteno de
+                        la Gu&iacute;a de Debida Diligencia de la OCDE para
+                        Cadenas de Suministro Responsables de Minerales en las
+                        &Aacute;reas de Conflicto o de Alto Riesgo
+                    </a>
+                    ; 2){" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://mneguidelines.oecd.org/responsible-supply-chains-textile-garment-sector.htm"
+                        title="Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas de Suministro Responsables en los Sectores de la Producci&oacute;n de Ropa y de Calzado"
+                    >
+                        Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas
+                        de Suministro Responsables en los Sectores de la
+                        Producci&oacute;n de Ropa y de Calzado
+                    </a>
+                    ; 3){" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://mneguidelines.oecd.org/rbc-agriculture-supply-chains.htm"
+                        title="Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas de Suministro Responsables en el Sector Agr&iacute;cola"
+                    >
+                        Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas
+                        de Suministro Responsables en el Sector Agr&iacute;cola
+                    </a>
+                    ; 4){" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://mneguidelines.oecd.org/Practical-actions-for-worst-forms-of-child-labour-mining-sector.pdf"
+                        title="Acciones pr&aacute;cticas de la OCDE para que las empresas identifiquen y combatan las peores formas de trabajo infantil en las cadenas de suministro de minerales"
+                    >
+                        Acciones pr&aacute;cticas de la OCDE para que las
+                        empresas identifiquen y combatan las peores formas de
+                        trabajo infantil en las cadenas de suministro de
+                        minerales
+                    </a>
+                    .
+                </p>
+                <p>
+                    Es a la vez cada vez m&aacute;s com&uacute;n y beneficioso
+                    para las empresas exigir que sus subcontratistas y
+                    proveedores adopten su propio c&oacute;digo de conducta o un
+                    c&oacute;digo pertinente para la industria. El instrumento
+                    de abastecimiento responsable (RST) de Verit&eacute;
+                    contiene un{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.responsiblesourcingtool.org/vendoragreement"
+                        title="Ejemplo de acuerdo de responsabilidad social"
+                    >
+                        ejemplo de acuerdo de responsabilidad social
+                    </a>{" "}
+                    que complementa los contratos y acuerdos celebrados entre
+                    una empresa y sus subcontratistas o proveedores, por ejemplo
+                    en la incorporaci&oacute;n del c&oacute;digo general en los
+                    c&oacute;digos particulares y el respectivo cumplimiento,
+                    incluidos los programas de autoevaluaci&oacute;n y mejora
+                    dise&ntilde;ados para lograr el cumplimiento del
+                    c&oacute;digo.
                 </p>
             </div>
         </StaticData>

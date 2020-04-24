@@ -1,167 +1,161 @@
 import React from "react";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
+import goodweave from "../../../../../images/goodweave.jpg";
 
 const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Joining an Existing Code</h1>
+                <h1>
+                    <strong>Certification Programs</strong>
+                </h1>
                 <p>
-                    In certain industries, groups of companies have already come
-                    together to develop joint social compliance systems that
-                    individual companies can adopt by joining the group. In most
-                    cases these groups either have a code of conduct or are in
-                    the process of developing one together.
+                    Another option for developing social compliance programs is
+                    to explore existing <strong>certification </strong>programs.
+                    These programs certify products or processes against
+                    established sets of standards; some of them confer a label
+                    on certified products in order to directly reach consumers
+                    and communicate that the product was produced under certain
+                    conditions.
                 </p>
                 <p>
-                    There are both advantages and disadvantages associated with
-                    industry codes. On the positive side, they capitalize on the
-                    experiences and ideas of multiple companies and pool
-                    resources to minimize overall effort and time spent on code
-                    development. In addition, in industries such as apparel
-                    where many brands tend to share suppliers, a single
-                    agreed-upon code ensures that individual suppliers do not
-                    undergo numerous audits under diverging codes and can focus
-                    on improving compliance with a clear set of standards.
-                </p>
-                <p>
-                    On the negative side, in the course of code development any
-                    member company may have to make compromises on certain
-                    provisions. As a company, it is important to understand your
-                    supply chain and its risks and challenges before making a
-                    decision about joining a group code, in order to ensure that
-                    the group code makes strong policy commitments in the areas
-                    that are most important and salient to your business.
-                </p>
-                <p>
-                    Examples of industry codes include the{" "}
+                    While there are few existing certification programs that
+                    confer a &ldquo;child labor free&rdquo; or &ldquo;forced
+                    labor free&rdquo; label, there are programs that include
+                    child labor, forced labor and other labor issues in their
+                    certification standards. For example, the Fair Trade program
+                    is primarily aimed at ensuring a &ldquo;fair&rdquo; price
+                    for producers at the bottom of the supply chain, but
+                    producers must also meet child labor, forced labor and other
+                    labor standards in order to earn the &ldquo;Fair
+                    Trade&rdquo; certification. For more information, see the{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://bettercotton.org/wp-content/uploads/2014/10/production-principles-and-criteria.pdf"
-                        title="Better Cotton Initiative&rsquo;s Production Principles and Criteria"
+                        href="http://www.fairtrade.net/child-labour.html"
                     >
-                        Better Cotton Initiative&rsquo;s Production Principles
-                        and Criteria
+                        Fairtrade International
                     </a>{" "}
-                    for companies throughout the cotton supply chain, the{" "}
+                    and{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.eiccoalition.org/media/docs/EICCCodeofConduct5_English.pdf"
-                        title="Electronic Industry Citizenship Coalition Code"
+                        href="https://www.fairtradecertified.org"
+                        title="Fair Trade Certified"
                     >
-                        Electronic Industry Citizenship Coalition Code
+                        Fair Trade Certified
                     </a>{" "}
-                    for electronics companies, the{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.bonsucro.com/en/production-standard/"
-                        title="Bonsucro Production Standard"
-                    >
-                        Bonsucro Production Standard
-                    </a>{" "}
-                    for companies in the sugarcane supply chain,&nbsp;and{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ethicaltrade.org/eti-base-code"
-                        title="Ethical Trading Initiative&rsquo;s Base Code for companies in a variety of industries"
-                    >
-                        Ethical Trading Initiative&rsquo;s Base Code for
-                        companies in a variety of industries.
-                    </a>
+                    toolkits.
                 </p>
                 <p>
-                    There are also industry groups that do not require member
-                    adherence to a specific code, but that have developed
-                    general policy statements and statements of commitment for
-                    members to adopt. Examples include the{" "}
+                    Some certification programs aim to meet the standards of the{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.aiag.org/corporate-responsibility/supply-chain-sustainability"
-                        title="Automotive Industry Action Group"
+                        href="http://www.isealalliance.org/"
+                        title="ISEAL Alliance"
                     >
-                        Automotive Industry Action Group
+                        ISEAL Alliance
                     </a>
-                    * and the{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-priority-industry-principles"
-                        title="Consumer Goods Forum&rsquo;s* Priority Industry Principles"
-                    >
-                        Consumer Goods Forum&rsquo;s* Priority Industry
-                        Principles
-                    </a>{" "}
-                    on forced labor.
+                    , an association of organizations that develops guidance on
+                    establishment and implementation of sustainability-related
+                    standards.
                 </p>
                 <p>
-                    Similarly, there are multilateral and multi-stakeholder
-                    groups that have developed guidance for a particular product
-                    or line of products. Examples include: 1){" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.oecd.org/daf/inv/mne/mining.htm"
-                        title="Organization for Economic Co-operation and Development (OECD) Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas Supplement on Tin, Tantalum and Tungsten"
-                    >
-                        Organization for Economic Co-operation and Development
-                        (OECD) Due Diligence Guidance for Responsible Supply
-                        Chains of Minerals from Conflict-Affected and High-Risk
-                        Areas Supplement on Tin, Tantalum and Tungsten
-                    </a>
-                    ; 2){" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://mneguidelines.oecd.org/responsible-supply-chains-textile-garment-sector.htm"
-                        title="OECD Due Diligence For Responsible Supply Chains in the Garment and Footwear Sector"
-                    >
-                        OECD Due Diligence For Responsible Supply Chains in the
-                        Garment and Footwear Sector
-                    </a>
-                    ; 3){" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://mneguidelines.oecd.org/rbc-agriculture-supply-chains.htm"
-                        title="OECD Guidance for Responsible Agricultural Supply Chains"
-                    >
-                        OECD Guidance for Responsible Agricultural Supply Chains
-                    </a>
-                    ; 4){" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://mneguidelines.oecd.org/Practical-actions-for-worst-forms-of-child-labour-mining-sector.pdf"
-                        title="OECD Practical Actions for Companies to Identify and Address the Worst Forms of Child Labor in Mineral Supply Chains"
-                    >
-                        OECD Practical Actions for Companies to Identify and
-                        Address the Worst Forms of Child Labor in Mineral Supply
-                        Chains
-                    </a>
-                    .
+                    At the same time, some certification programs&mdash;and
+                    multi-stakeholder initiatives more broadly&mdash;have come
+                    under criticism related to governance arrangements, such as
+                    certification programs&rsquo; financing structures, balance
+                    of power among members and mechanisms for holding members
+                    accountable. Other criticism is related to implementation,
+                    such as issues around inadequate or insufficient auditing
+                    and inadequate stakeholder outreach. It is therefore
+                    important to understand the structure of particular programs
+                    in order to assess how they will be viewed by different
+                    stakeholders.&nbsp;
                 </p>
+                <ExampleInAction id="clt">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>Example in Action: Goodweave</strong>
+                    </h2>
+
+                    <p>
+                        For over 20 years,{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://goodweave.org/"
+                            title="GoodWeave"
+                        >
+                            GoodWeave
+                        </a>{" "}
+                        has been working to transform the carpet industry by
+                        encouraging market demand for child-labor free rugs and
+                        helping businesses to meet that demand. Rug importers
+                        and exporters that wish to be licensed by GoodWeave and
+                        earn a consumer-facing GoodWeave label must sign a
+                        legally binding contract to abide by GoodWeave&rsquo;s
+                        rigorous standard for certifying that rugs are free from
+                        child labor, forced labor, and bonded labor. As part of
+                        the certification program, companies agree to permit
+                        unannounced inspections in their supply chains to
+                        monitor for compliance with the standard and ensure that
+                        violations are remediated. Companies also pay licensing
+                        fees that support GoodWeave&rsquo;s programs for
+                        monitoring and inspection of workplaces and the
+                        rehabilitation and education of exploited children.
+                        GoodWeave is a full member of the International Social
+                        and Environmental Accreditation and Labeling (ISEAL)
+                        Alliance, an association widely known as a world leader
+                        in establishing best practices for certification
+                        standards. In the past few years, GoodWeave has expanded
+                        the reach of its program beyond the carpet industry in
+                        India, to new sectors and countries, including the brick
+                        kilns of Nepal, apparel factories in India, and
+                        home-based carpet production in Afghanistan (the latter
+                        through a DOL-funded project).
+                    </p>
+                    <p>
+                        Learn more about the DOL-funded{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan"
+                            title="Project to Prevent Child Labor in Home-Based Carpet Production in Afghanistan"
+                        >
+                            <em>
+                                Project to Prevent Child Labor in Home-Based
+                                Carpet Production in Afghanistan
+                            </em>
+                        </a>
+                        <em>, </em>implemented by GoodWeave.
+                    </p>
+                    <img src={goodweave} alt="GoodWeave International" />
+                    <p className="small-text">
+                        &copy; Lorenzo Tugnoli courtesy of GoodWeave
+                        International
+                    </p>
+                </ExampleInAction>
+
                 <p>
-                    It is both increasingly common and beneficial for companies
-                    to require that their subcontractors and suppliers adhere to
-                    their code of conduct or a relevant industry code.
-                    Verit&eacute;&rsquo;s Responsible Sourcing Tool contains a{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.responsiblesourcingtool.org/vendoragreement"
-                        title="Sample Social Responsibility Agreement"
-                    >
-                        Sample Social Responsibility Agreement
-                    </a>{" "}
-                    to supplement contracts and agreements between a company and
-                    its subcontractors or suppliers in the area of code flowdown
-                    and compliance, including in areas of self-assessment and
-                    improvement programs designed to achieve code compliance.
+                    <em>
+                        *Note: References to specific companies and
+                        non-governmental entities within this guide are for
+                        informational purposes only to demonstrate best
+                        practices that have been recognized internationally, as
+                        of the app&rsquo;s release date. Referencing the
+                        entities should not be interpreted as an official
+                        endorsement of those entities, their products, or
+                        services by the U.S. Department of Labor{" "}
+                    </em>
+                    <em>
+                        and their inclusion should not be interpreted as a
+                        comprehensive review of these entities&rsquo; practices
+                        in all areas
+                    </em>
+                    <em>.</em>
                 </p>
             </div>
         </StaticData>

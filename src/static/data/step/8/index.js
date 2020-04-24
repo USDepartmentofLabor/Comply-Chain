@@ -1,82 +1,127 @@
 import { ExtraInfo } from "./extra";
-import { Resources } from "./resource";
 import { Topics } from "./topic";
 
 export const StepData = {
     en: {
-        title: "Step 8: Report Performance",
+        title: "Step 6: Remediate Violations",
         topics: Topics.en,
-        keywords: ["Public reporting"],
+        keywords: ["Violation", "Remediation", "Corrective Action Plan", "CAP"],
         learningObjectives: [
-            "Understand the reasons for reporting publicly on social compliance programs, and the benefits for companies.",
-            "Understand the nature and scope of the information that should be reported.",
-            "Get a sense of the work involved in preparing and issuing public reports."
+            "Understand the distinction between correcting a violation and implementing systems to prevent it from recurring.",
+            "Learn about specific actions you can take to correct child labor and forced labor violations and prevent them from recurring.",
+            "Understand the basic structure of a Corrective Action Plan (CAP) as well as options for developing and implementing one."
         ],
         keyTerms: [
             {
-                termName: "Public Reporting",
+                termName: "Violation",
                 termDefinition:
-                    "Communication that is made available to the public, through a variety of channels, about all elements of a company’s social compliance system."
+                    "A situation identified through an audit that is in breach of the code of conduct."
+            },
+            {
+                termName: "Remediation",
+                termDefinition:
+                    "The actions taken in response to a code of conduct violation identified in an audit. Remediation actions should both fix the problem and prevent it from recurring."
+            },
+            {
+                termName: "Corrective Action Plan (CAP)",
+                termDefinition:
+                    "A plan of action for remediation of all violations found in a particular audit. "
             }
         ],
-        furtherResources: Resources.en,
         extraInfo: ExtraInfo.en
     },
     es: {
-        title: "Octavo paso: Notificación del desempeño",
+        title: "Sexto paso: Remediación de infracciones",
         topics: Topics.es,
-        keywords: ["Presentación de informes públicos"],
+        keywords: [
+            "Infracción",
+            "Remediación",
+            "Plan de acción correctiva",
+            "PAC"
+        ],
         learningObjectives: [
-            "Comprender los motivos por los que se deben presentar informes públicos sobre los programas de cumplimiento social y las ventajas que esto representa para la empresa.",
-            "Saber qué tipo de información incluir en los informes y el alcance de la misma.",
-            "Tener una noción del trabajo que implica redactar y presentar los informes públicos."
+            "Entender la diferencia entre rectificar una infracción y aplicar sistemas para evitar que se la vuelva a cometer.",
+            "Averiguar qué medidas específicas se pueden adoptar para rectificar las infracciones por trabajo infantil y trabajo forzoso y a la vez evitar que se las vuelva a cometer.",
+            "Comprender la estructura básica de un plan de acción correctiva (PAC), así como las opciones para formular el propio y aplicarlo."
         ],
         keyTerms: [
             {
-                termName: "Presentación de informes públicos",
+                termName: "Infracción",
                 termDefinition:
-                    "Información que se pone a disposición del público por distintas vías, sobre todos los elementos del sistema de cumplimiento social de una empresa."
+                    "En una auditoría, situación identificada como una contravención al código de conducta."
+            },
+            {
+                termName: "Remediación",
+                termDefinition:
+                    "Medidas adoptadas en respuesta a una infracción al código de conducta identificada en una auditoría. La remediación debe resolver el problema y evitar que vuelva a ocurrir."
+            },
+            {
+                termName: "Plan de acción correctiva (PAC)",
+                termDefinition:
+                    "Plan de acción para remediar todas las infracciones identificadas en una auditoría en particular."
             }
         ],
-        furtherResources: Resources.es,
         extraInfo: ExtraInfo.es
     },
     fr: {
-        title: "Huitième étape: Rendre compte des résultats",
+        title: "Sixième étape: Réparer les infractions",
         topics: Topics.fr,
-        keywords: ["Rapports publics"],
+        keywords: [
+            "Infraction",
+            "Réparation",
+            "Plan d’action corrective",
+            "PAC"
+        ],
         learningObjectives: [
-            "Comprendre les raisons qui justifient les rapports publics sur les programmes de conformité sociale et les avantages pour les entreprises.",
-            "Comprendre la nature et le champ d’application des informations qui devraient faire l’objet de rapports.",
-            "Avoir une idée des travaux de préparation et de publication des rapports publics."
+            "Comprendre la différence entre la correction d’une infraction et la mise en œuvre de systèmes visant à éviter qu’elle se reproduise.",
+            "Apprendre les mesures spécifiques à prendre pour corriger les infractions relatives au travail des enfants et au travail forcé et éviter qu’elles se reproduisent.",
+            "Comprendre la structure de base d’un Plan d'action corrective (PAC) ainsi que les options visant à en élaborer un et à le mettre en œuvre."
         ],
         keyTerms: [
             {
-                termName: "Rapports publics",
+                termName: "Infraction",
                 termDefinition:
-                    "Communication sur l’ensemble des éléments du système de conformité sociale d’une entreprise mise à la disposition du public par toute une série de chaînes de communication."
+                    "Situation identifiée par un audit constituant un manquement au code de conduite."
+            },
+            {
+                termName: "Réparation",
+                termDefinition:
+                    "Mesures prises en réponse à une infraction du code de conduite indentifiée dans le cadre de l’audit. Les mesures de réparation devraient à la fois régler le problème et l'empêcher de se reproduire."
+            },
+            {
+                termName: "Plan d'action corrective (PAC)",
+                termDefinition:
+                    "Plan d’action pour réparer toutes les infractions identifiées par un audit particulier."
             }
         ],
-        furtherResources: Resources.fr,
         extraInfo: ExtraInfo.fr
     },
-    en: {
-            title: "Step 8: Report Performance",
+    ms: {
+            title: "Step 6: Remediate Violations",
             topics: Topics.en,
-            keywords: ["Public reporting"],
+            keywords: ["Violation", "Remediation", "Corrective Action Plan", "CAP"],
             learningObjectives: [
-                "Understand the reasons for reporting publicly on social compliance programs, and the benefits for companies.",
-                "Understand the nature and scope of the information that should be reported.",
-                "Get a sense of the work involved in preparing and issuing public reports."
+                "Understand the distinction between correcting a violation and implementing systems to prevent it from recurring.",
+                "Learn about specific actions you can take to correct child labor and forced labor violations and prevent them from recurring.",
+                "Understand the basic structure of a Corrective Action Plan (CAP) as well as options for developing and implementing one."
             ],
             keyTerms: [
                 {
-                    termName: "Public Reporting",
+                    termName: "Violation",
                     termDefinition:
-                        "Communication that is made available to the public, through a variety of channels, about all elements of a company’s social compliance system."
+                        "A situation identified through an audit that is in breach of the code of conduct."
+                },
+                {
+                    termName: "Remediation",
+                    termDefinition:
+                        "The actions taken in response to a code of conduct violation identified in an audit. Remediation actions should both fix the problem and prevent it from recurring."
+                },
+                {
+                    termName: "Corrective Action Plan (CAP)",
+                    termDefinition:
+                        "A plan of action for remediation of all violations found in a particular audit. "
                 }
             ],
-            furtherResources: Resources.en,
             extraInfo: ExtraInfo.en
         }
 };

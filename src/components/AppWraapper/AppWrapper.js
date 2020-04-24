@@ -187,24 +187,6 @@ class AppWrapper extends Component {
                         key: "whatAre"
                     }
                 },
-                {
-                    props: {
-                        as: NavLink,
-                        to: Routes.WhyDevelop.path,
-                        content: localizor.strings.info.whyDevelop.title,
-                        id: "why-develop-link",
-                        key: "whyDevelop"
-                    }
-                },
-                {
-                    props: {
-                        as: NavLink,
-                        to: Routes.Basics.path,
-                        content: localizor.strings.info.basics.title,
-                        id: "basics-link",
-                        key: "basics"
-                    }
-                }
             ],
 
             bottomNavItems: [

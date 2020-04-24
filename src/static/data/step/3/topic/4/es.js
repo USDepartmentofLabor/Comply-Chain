@@ -1,243 +1,312 @@
 import React from "react";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
-import ilo from "../../../../../images/ilo.jpg";
+import leap from "../../../../../images/leap.png";
 
 const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>
-                    Tratar la vulnerabilidad de los migrantes en los
-                    c&oacute;digos de conducta
-                </h1>
+                <h1>Grupos de varias partes interesadas</h1>
                 <p>
-                    Con frecuencia, los trabajadores m&aacute;s vulnerables al
-                    trabajo forzoso y a la trata son los migrantes y temporales,
-                    que representan una proporci&oacute;n considerable de la
-                    fuerza laboral en determinadas industrias y partes del
-                    mundo. En algunos casos, los empleadores obtienen
-                    trabajadores migrantes y temporales mediante servicios de
-                    intermediaci&oacute;n o reclutamiento. En estas situaciones,
-                    los trabajadores son sumamente vulnerables a una amplia gama
-                    de abusos. Algunos reclutadores confiscan los documentos de
-                    identidad de los trabajadores a fin de atraparlos o
-                    enga&ntilde;arlos, o ambos, sobre el tipo de trabajo que
-                    realizar&aacute;n, las condiciones laborales, las
-                    condiciones del alojamiento o la vivienda y dem&aacute;s
-                    aspectos laborales. En algunos casos, se obliga a los
-                    trabajadores a efectuar pagos a los reclutadores,
-                    intermediarios y dem&aacute;s actores de la cadena de
-                    migraci&oacute;n, pagos que pueden resultar imposibles de
-                    costear y que llevan a la servidumbre por deudas. Tal como
-                    se consagra en el Convenio 181 de la OIT, todos los costos
-                    de reclutar la mano de obra deber&aacute;n ser solventados
-                    por el empleador; los trabajadores nunca deben incurrir en
-                    gasto alguno para acceder a un empleo.
+                    Algunas empresas establecen grupos o se suman a grupos
+                    compuestos por varias partes interesadas. La
+                    participaci&oacute;n en este tipo de grupos conlleva muchos
+                    beneficios, como aprender de otras empresas y otros expertos
+                    no empresariales o contar con una instancia segura para
+                    interactuar de manera colectiva con diferentes partes
+                    interesadas.&nbsp;
                 </p>
-                <p>
-                    Si se sabe o sospecha que hay trabajadores migrantes en la
-                    cadena de suministro, es importante incluir normas y
-                    disposiciones sobre el tema en el c&oacute;digo de
-                    conducta.&nbsp;
-                </p>
-                <ExampleInAction id="patagonia">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        Ejemplo en acci&oacute;n: normas sobre los trabajadores
-                        migrantes de Patagonia*
-                    </h2>
-                    <p>
-                        Cuando tras las auditor&iacute;as de 2011 se
-                        descubri&oacute; que hab&iacute;a indicios de trabajo
-                        forzoso, trata de seres humanos y explotaci&oacute;n
-                        laboral en las f&aacute;bricas de los proveedores de
-                        Patagonia en Taiw&aacute;n, la empresa de indumentaria
-                        para actividades al aire libre se dio cuenta de que a
-                        pesar de contar con un c&oacute;digo de conducta para
-                        proveedores, necesitaba normas m&aacute;s estrictas.
-                        Patagonia colabor&oacute; con Verit&eacute;*, ONG que
-                        promueve condiciones de trabajo seguras, justas y
-                        legales en todo el mundo, para investigar a fin de
-                        comprender la situaci&oacute;n de los trabajadores
-                        migrantes en su cadena de suministro. Al enterarse de
-                        que muchos trabajadores migrantes eran v&iacute;ctimas
-                        de un sistema de reclutamiento que los somet&iacute;a a
-                        la explotaci&oacute;n ya que se les cobraba tasas
-                        excesivas que deb&iacute;an pagar a los intermediarios y
-                        los volv&iacute;a vulnerables a la servidumbre por
-                        deudas, Patagonia formul&oacute; normas integrales para
-                        estos trabajadores. Gracias a esas normas, se
-                        proh&iacute;be que las f&aacute;bricas de los
-                        proveedores cobren tasas de reclutamiento;
-                        adem&aacute;s, se refieren a una serie de otros temas
-                        pertinentes para los trabajadores migrantes, como el
-                        alojamiento, las condiciones de trabajo, el salario y
-                        los procedimientos de presentaci&oacute;n de
-                        reclamaciones. Las{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/static/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw604fc14d/PDF-US/Migrant_Worker_Employment_Standards.pdf"
-                            title="Normas de empleo de trabajadores migrantes"
-                        >
-                            normas de empleo de trabajadores migrantes
-                        </a>{" "}
-                        de Patagonia est&aacute;n a disposici&oacute;n del
-                        p&uacute;blico.
-                    </p>
-                    <p>
-                        Para obtener m&aacute;s informaci&oacute;n, v&eacute;ase
-                        el art&iacute;culo (en ingl&eacute;s) Patagonia:{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/blog/2015/06/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/"
-                            title="<i>T</i><i>he Unacceptably High Cost of Labor- How a deeper dive into our supply chain led to a new Migrant Worker Standard</i>."
-                        >
-                            <em>
-                                <i>
-                                    The Unacceptably High Cost of Labor- How a
-                                    deeper dive into our supply chain led to a
-                                    new Migrant Worker Standard
-                                </i>
-                            </em>
-                        </a>
-                        <em>.</em>
-                    </p>
-                </ExampleInAction>
-                <p>
-                    Un documento de pol&iacute;tica importante que se centra en
-                    los trabajadores migrantes vulnerables es el titulado
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf"
-                        title="<i>Dhaka Principles for Migration with Dignity</i>"
-                    >
-                        {" "}
-                        Principios de Dhaka para una migraci&oacute;n con
-                        dignidad
-                    </a>{" "}
-                    (Principios de Dhaka). Los Principios de Dhaka son diez y
-                    permiten seguir al trabajador desde el reclutamiento,
-                    pasando por el empleo y hasta el final de la relaci&oacute;n
-                    laboral; presentan postulados clave que deben respetar los
-                    empleadores y los reclutadores de trabajadores migrantes a
-                    fin de garantizar una migraci&oacute;n con dignidad. Los
-                    Principios de Dhaka fueron formulados por el{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.ihrb.org/"
-                        title="Institute for Human Rights and Business"
-                    >
-                        Institute for Human Rights and Business (IHRB)
-                    </a>{" "}
-                    y cuentan con el apoyo de empresas, gobiernos, sindicatos y
-                    la sociedad civil. Se basan en las normas internacionales de
-                    derechos humanos y en los tres pilares de los{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
-                        title="<i>Principios Rectores sobre empresas y derechos humanos</i>"
-                    >
-                        Principios Rectores de las Naciones Unidas sobre
-                        empresas y derechos humanos
-                    </a>
-                    .
-                </p>
-                <img src={ilo} alt="Obrero subido a un andamio" />
-                <p className="small-text">&copy;M. Crozet/OIT</p>
-                <ExampleInAction id="leadership">
+                <ExampleInAction id="rsn">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Ejemplo en acci&oacute;n: Leadership Group for
-                            Responsible Recruitment
+                            Ejemplo en acci&oacute;n: Red de abastecimiento
+                            responsable
                         </strong>
                     </h2>
                     <p>
-                        Lanzado en mayo de 2016, el{" "}
+                        La{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment"
-                            title="Leadership Group for Responsible Recruitment"
+                            href="http://www.sourcingnetwork.org/"
+                            title="Red de abastecimiento responsable"
                         >
-                            Leadership Group for Responsible Recruitment
+                            red de abastecimiento responsable
                         </a>{" "}
-                        es una colaboraci&oacute;n entre numerosas empresas
-                        multinacionales de envergadura y organizaciones de
-                        expertos que impulsa un cambio positivo en las
-                        pr&aacute;cticas de reclutamiento de trabajadores
-                        migrantes. Los integrantes del Leadership Group se
-                        comprometieron con el principio de que el empleador
-                        paga:{" "}
-                        <em>
-                            &quot;Ning&uacute;n trabajador debe pagar por
-                            conseguir trabajo; los gastos de reclutamiento
-                            ser&aacute;n solventados por el empleador, no por el
-                            empleado.&quot;
-                        </em>
-                    </p>
-                    <p>
-                        Convocado por la organizaci&oacute;n no gubernamental{" "}
+                        es un proyecto dedicado a poner fin a los abusos en
+                        materia de derechos humanos, como el trabajo infantil y
+                        el trabajo forzoso, en la producci&oacute;n de la
+                        materia prima que se encuentra en productos comunes como
+                        los art&iacute;culos de electr&oacute;nica o las prendas
+                        de vestir. La red funciona mediante la creaci&oacute;n
+                        de coaliciones de distintos interesados, como empresas,
+                        inversionistas, defensores de los derechos humanos y
+                        otras organizaciones de la sociedad civil, para lograr
+                        un cambio positivo para las marcas, los consumidores y
+                        las comunidades afectadas. Actualmente, la red
+                        est&aacute; trabajando con sus socios para prevenir y{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.ihrb.org/"
-                            title="Institute for Human Rights and Business"
+                            href="http://www.sourcingnetwork.org/minerals/"
+                            title="erradicar los abusos en materia de derechos humanos en la extracci&oacute;n de minerales de conflicto en la Rep&uacute;blica Democr&aacute;tica del Congo"
                         >
-                            Institute for Human Rights and Business
+                            erradicar los abusos en materia de derechos humanos
+                            en la extracci&oacute;n de minerales de conflicto en
+                            la Rep&uacute;blica Democr&aacute;tica del Congo
                         </a>{" "}
-                        (IHRB), el Leadership Group reclama que el principio de
-                        que el empleador paga est&eacute; integrado en las
-                        pol&iacute;ticas y pr&aacute;cticas de empresas y
-                        gobiernos a fin de proteger a los trabajadores migrantes
-                        y compensar el riesgo de que haya trabajo forzoso en sus
-                        propias operaciones, en los v&iacute;nculos comerciales
-                        o en las cadenas de suministro mundiales. El Leadership
-                        Group brinda un medio de defensa y colaboraci&oacute;n y
-                        funge de centro de conocimientos para compartir buenas
-                        pr&aacute;cticas, instrumentos y orientaci&oacute;n en
-                        materia de reclutamiento responsable.
-                    </p>
-                    <p>
-                        Para obtener m&aacute;s informaci&oacute;n sobre el
-                        Leadership Group y los instrumentos de reclutamiento
-                        &eacute;tico, consultar el portal sobre reclutamiento
-                        responsable{" "}
+                        y en la{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.ihrb.org/employerpays/"
-                            title="Responsible Recruitment Gateway"
+                            href="http://www.sourcingnetwork.org/the-cotton-pledge"
+                            title="producci&oacute;n de algod&oacute;n en Uzbekist&aacute;n"
                         >
-                            Responsible Recruitment Gateway
+                            producci&oacute;n de algod&oacute;n en
+                            Uzbekist&aacute;n
                         </a>
                         .
                     </p>
                 </ExampleInAction>
-                <p>
-                    En algunos casos, los empleadores brindan alojamiento a los
-                    trabajadores migrantes como parte de las condiciones de
-                    empleo. Para los empleadores, se trata de una manera de
-                    reclutar empleados valiosos y retenerlos; para los
-                    trabajadores migrantes que se encuentran lejos de su hogar,
-                    este arreglo puede facilitar la vivienda que necesitan. Sin
-                    embargo, dicha vivienda debe ser segura, limpia y adecuada
-                    para la poblaci&oacute;n de trabajadores. Los trabajadores
-                    siempre deben gozar de la libertad de circulaci&oacute;n y
-                    del derecho de elegir otra vivienda si as&iacute; lo desean.
-                    Seg&uacute;n la OIT, si los trabajadores tienen
-                    &ldquo;condiciones de alojamiento degradantes&rdquo; en la
-                    vivienda que facilita el empleador y se los somete a
-                    alg&uacute;n tipo de sanci&oacute;n o amenaza que les impida
-                    irse del trabajo, se considera una situaci&oacute;n de
-                    trabajo forzoso.
-                </p>
+                <ExampleInAction id="res_min_trade">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Ejemplo en acci&oacute;n: Alianza
+                            p&uacute;blico-privada para el comercio responsable
+                            de minerales
+                        </strong>
+                    </h2>
+                    <p>
+                        La{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.resolv.org/site-ppa/"
+                            title="Alianza p&uacute;blico-privada para el comercio responsable de minerales"
+                        >
+                            Alianza p&uacute;blico-privada para el comercio
+                            responsable de minerales
+                        </a>{" "}
+                        (APP) es una iniciativa de varios interesados lanzada en
+                        2012 que respalda el trazado de rutas definidas y
+                        validadas en la cadena de suministro de minerales, en
+                        especial del esta&ntilde;o, tantalio, tungsteno y oro de
+                        la Rep&uacute;blica Democr&aacute;tica del Congo (RDC) y
+                        los pa&iacute;ses lim&iacute;trofes en la regi&oacute;n
+                        de los Grandes Lagos de &Aacute;frica Central.
+                        Actualmente, la APP est&aacute; conformada por
+                        m&aacute;s de 51 miembros, como el Departamento de
+                        Estado de los Estados Unidos, la Agencia de los Estados
+                        Unidos para el Desarrollo Internacional, empresas,
+                        grupos de la industria, organizaciones de la sociedad
+                        civil y la Conferencia Internacional de la Regi&oacute;n
+                        de los Grandes Lagos (&oacute;rgano regional que
+                        elabor&oacute; sistemas de certificaci&oacute;n de
+                        minerales). Desde su creaci&oacute;n, la APP ha
+                        acompa&ntilde;ado proyectos piloto en la RDC que
+                        promueven el abastecimiento responsable de minerales.
+                    </p>
+                    <p>
+                        Si una empresa opta por formar un grupo de varias partes
+                        interesadas o sumarse a uno ya vigente, es importante
+                        aplicar los mismos principios de gesti&oacute;n
+                        razonable al grupo que al sistema de cumplimiento social
+                        en general. La entidad debe tener metas y objetivos
+                        claros e indicadores de m&eacute;trica o
+                        desempe&ntilde;o para evaluar los avances logrados. Debe
+                        contar con procesos vigentes para la toma de decisiones
+                        y la gobernabilidad, y estos procesos y pol&iacute;ticas
+                        deben documentarse. Al mismo tiempo, debe contar con
+                        miembros definidos con funciones y responsabilidades
+                        espec&iacute;ficas.
+                    </p>
+                </ExampleInAction>
+                <ExampleInAction id="sug_phil">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Ejemplo en acci&oacute;n: esfuerzos de
+                            m&uacute;ltiples interesados para erradicar el
+                            trabajo infantil en el sector de la ca&ntilde;a de
+                            az&uacute;car en las Filipinas
+                        </strong>
+                    </h2>
+                    <p>
+                        Se calcula que en las Fil&shy;ipinas hay m&aacute;s de
+                        1,2 millones de ni&ntilde;os que trabajan en el sector
+                        agr&iacute;cola, uno de los m&aacute;s peligrosos para
+                        el trabajo infantil. Muchos de estos ni&ntilde;os
+                        trabajan en las plantaciones de ca&ntilde;a de
+                        az&uacute;car, donde el horario es prolongado y al rayo
+                        del sol, emplean herramientas peligrosas, llevan cargas
+                        pesadas y fumigan los campos con plaguicidas. En
+                        respuesta al Ente Regulador del Az&uacute;car del
+                        Departamento de Agricultura filipino, as&iacute; como al
+                        deseo de los socios de la industria de atacar el
+                        problema de manera m&aacute;s activa, el Departamento de
+                        Trabajo de los Estados Unidos se asoci&oacute; con el
+                        gobierno de las Filipinas para adoptar un enfoque
+                        m&aacute;s decisivo que permitiera atacar el problema de
+                        los ni&ntilde;os que trabajan en las plantaciones de
+                        ca&ntilde;a de az&uacute;car. El{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/agencies/ilab/our-work/projects/ABK3leap"
+                            title="proyecto ABK3 LEAP"
+                        >
+                            proyecto ABK3 LEAP
+                        </a>
+                        , financiado por ILAB y puesto en pr&aacute;ctica por{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.worldvision.org/"
+                            title="World Vision"
+                        >
+                            World Vision
+                        </a>
+                        , se concentr&oacute; en movilizar al sector privado y
+                        fomentar la creaci&oacute;n de alianzas entre el
+                        gobierno, la industria y los interesados de la
+                        comunidad. Estas iniciativas de colaboraci&oacute;n
+                        redundaron en una amplia gama de actividades, entre
+                        ellas:
+                    </p>
+                    <ul>
+                        <li>
+                            M&aacute;s de 70 instituciones y
+                            asocia&shy;ciones&nbsp;de la industria del
+                            az&uacute;car instituyeron programas para reducir el
+                            trabajo infantil en las cadenas de suministro del
+                            az&uacute;car.
+                        </li>
+                        <li>
+                            La Fundaci&oacute;n de la Industria de la
+                            Ca&ntilde;a de Az&uacute;car (SIFI), que brinda
+                            apoyo a los trabajadores del az&uacute;car y a sus
+                            familias en todo el pa&iacute;s, reuni&oacute; a los
+                            interesados en la industria del az&uacute;car (como
+                            plantadores y molineros), a las principales
+                            federaciones y a organismos p&uacute;blicos para que
+                            voluntariamente redactaran c&oacute;digos de
+                            conducta con miras a erradicar el trabajo infantil.
+                            Estos grupos de varias partes interesadas lograron
+                            adoptar c&oacute;digos de conducta en las 3
+                            provincias principales donde se cultiva la
+                            ca&ntilde;a de az&uacute;car, con lo cual llegan a
+                            la mayor&iacute;a de los plantadores y cosechadores
+                            de az&uacute;car del pa&iacute;s.
+                        </li>
+                        <li>
+                            SIFI encabez&oacute; las campa&ntilde;as para
+                            concientizar a la comunidad sobre los derechos de
+                            los ni&ntilde;os, la importancia de los estudios y
+                            los peligros que conlleva el trabajo infantil en el
+                            sector de la ca&ntilde;a de az&uacute;car.
+                            Adem&aacute;s, desempe&ntilde;&oacute; un papel
+                            crucial en la promoci&oacute;n del cumplimiento de
+                            los c&oacute;digos de conducta en toda la industria.
+                        </li>
+                        <li>
+                            En el marco del proyecto ABK3 LEAP, se realizaron
+                            trabajos de investigaci&oacute;n para evaluar e
+                            identificar las posibles mejoras al Programa de
+                            Mejoramiento del Az&uacute;car (SAP), que administra
+                            el Departamento de Trabajo y Empleo de las
+                            Filipinas. El programa SAP utiliza una parte de los
+                            impuestos recaudados del az&uacute;car producida y
+                            los destina a programas sociales que benefician a
+                            los trabajadores del sector azucarero y a sus
+                            familias.
+                        </li>
+                    </ul>
+                    <img src={leap} alt="Leap" />
+                    <p className="small-text">
+                        &copy;Christopher Leones/ABK3 LEAP
+                    </p>
+                </ExampleInAction>
+                <ExampleInAction>
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Ejemplo en acci&oacute;n: Palm Oil Innovation Group
+                        </strong>
+                    </h2>
+                    <p>
+                        Pr&aacute;cticamente la mitad de los productos envasados
+                        que compramos en el supermercado contienen aceite de
+                        palma. Est&aacute; en todo: desde el l&aacute;piz labial
+                        hasta la masa para pizza, y desde la crema no
+                        l&aacute;ctea hasta los limpiadores para
+                        autom&oacute;viles. Hasta se usa en los combustibles
+                        biodi&eacute;sel. Si bien el cultivo de la palma ha sido
+                        un importante motor del desarrollo econ&oacute;mico en
+                        todo el mundo, como en el sudeste asi&aacute;tico, donde
+                        se concentra m&aacute;s del 85 por ciento del producto
+                        mundial, la oferta suele estar te&ntilde;ida de trabajo
+                        infantil. Por ejemplo, en Indonesia y Malasia, se obliga
+                        a los ni&ntilde;os a que trabajen a la par de sus
+                        padres, quienes normalmente deben producir una
+                        determinada cuota de zafra para evitar deducciones
+                        salariales y otras sanciones. En las plantaciones,
+                        est&aacute;n expuestos a sustancias qu&iacute;micas
+                        t&oacute;xicas y se arriesgan a lesionarse por llevar
+                        cargas pesadas. Los ni&ntilde;os que trabajan en la
+                        industria del aceite de palma (ya sea en el sureste
+                        asi&aacute;tico, &Aacute;frica o Am&eacute;rica Latina)
+                        suelen hacerlo por muchas horas y faltan a la escuela.
+                    </p>
+                    <p>
+                        ¿Qu&eacute; hacen los principales productores y
+                        vendedores para combatir el trabajo infantil en la
+                        producci&oacute;n mundial de la palma y c&oacute;mo
+                        pueden tomar decisiones m&aacute;s fundamentadas los
+                        consumidores en el supermercado? Desde 2013, los
+                        productores de aceite de palma Agropalma* (Brasil),
+                        DAABON* (Colombia) y Musim Mas* (Singapur) se asociaron
+                        con marcas mundiales, como Danone*, Ferrero* y
+                        L&rsquo;Or&eacute;al* y formaron el{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://poig.org/"
+                            title="Palm Oil Innovation Group"
+                        >
+                            Palm Oil Innovation Group
+                        </a>{" "}
+                        (POIG), que tambi&eacute;n comprende a las ONG dedicadas
+                        a los derechos laborales como Verit&eacute;*, el
+                        International Labor Rights Forum* y grupos
+                        ambientalistas clave. Su misi&oacute;n es continuar con
+                        los avances logrados en la Mesa Redonda sobre el Aceite
+                        de Palma Sostenible (RSPO) para combatir el trabajo
+                        infantil. Las empresas que firman la Carta del POIG
+                        tienen un plazo de 2 a&ntilde;os para certificar que
+                        toda su producci&oacute;n de palma, as&iacute; como la
+                        de sus filiales y proveedores externos, se adecuan a los
+                        est&aacute;ndares fijados por la RSPO. Adem&aacute;s,
+                        los miembros del POIG deben demostrar, mediante
+                        verificaci&oacute;n de terceros publicada e
+                        independiente, que cuentan con otras normas sociales y
+                        ambientales en todas sus operaciones. Esto significa
+                        contar con pol&iacute;ticas claras y con un sistema de
+                        cumplimiento que proh&iacute;ba el trabajo infantil,
+                        incluidas las peores formas, en la cadena de suministro
+                        del miembro en cuesti&oacute;n. Al certificar que las
+                        operaciones se adecuan a normas rigurosas, el POIG crea
+                        reconocimiento en el mercado para las
+                        compa&ntilde;&iacute;as l&iacute;deres en la RSPO y
+                        fomenta una carrera por el primer puesto. Es el momento
+                        justo, ya que la producci&oacute;n mundial de palma se
+                        duplic&oacute; a lo largo de la &uacute;ltima
+                        d&eacute;cada y se prev&eacute; que continuar&aacute;
+                        aumentando r&aacute;pidamente.
+                    </p>
+                </ExampleInAction>
             </div>
         </StaticData>
     );

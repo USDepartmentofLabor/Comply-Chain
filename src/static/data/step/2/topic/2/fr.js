@@ -1,87 +1,292 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction";
+import betterwork from "../../../../../../static/images/betterwork.jpg";
+import { Link } from "react-router-dom";
 
 const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>
-                    &Eacute;valuer les incidences et les facteurs de risques
-                    internes
-                </h1>
-                <p>
-                    Tout processus d&apos;&eacute;valuation des risques et des
-                    incidences devrait commencer par une &eacute;tude minutieuse
-                    des processus d&rsquo;une entreprise et de la fa&ccedil;on
-                    dont elle contribue, ou peut contribuer, &agrave; des abus
-                    (travail des enfants ou travail forc&eacute;) par ses
-                    propres pratiques.&nbsp;
-                </p>
-                <p>
-                    Par exemple, il est largement reconnu que les commandes
-                    urgentes et les modifications de derni&egrave;re minute dans
-                    les cahiers des charges peuvent entra&icirc;ner des
-                    difficult&eacute;s dans les &eacute;tablissements de
-                    production quant aux heures ouvr&eacute;es, aux conditions
-                    de travail, &agrave; la r&eacute;mun&eacute;ration, &agrave;
-                    l&rsquo;externalisation et aux risques de travail
-                    forc&eacute;. De la m&ecirc;me fa&ccedil;on, les entreprises
-                    peuvent poss&eacute;der des syst&egrave;mes de
-                    conformit&eacute; sociale &eacute;tablis qui recueillent et
-                    suivent les donn&eacute;es quant &agrave; la
-                    conformit&eacute; de leurs fournisseurs au code de conduite,
-                    mais elles continuent &agrave; passer des commandes aux
-                    fournisseurs qui ont des ant&eacute;c&eacute;dents de
-                    conformit&eacute; sociale m&eacute;diocres. Cela signale aux
-                    fournisseurs que la conformit&eacute; sociale n&apos;a pas
-                    r&eacute;ellement d&apos;importance, et contrecarre toute
-                    incitation visant &agrave; am&eacute;liorer la performance.
-                    La meilleure fa&ccedil;on d&apos;att&eacute;nuer ces
-                    incidences consiste &agrave; int&eacute;grer la
-                    conformit&eacute; sociale dans toutes les unit&eacute;s
-                    pertinentes d&rsquo;une entreprise. Voici une ressource qui
-                    d&eacute;taille en profondeur cette question [en
-                    anglais]:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.asyousow.org/reports/best-current-practices-in-purchasing-the-apparel-industry"
-                        title="Best Current Practices in Purchasing: The Apparel Industry"
-                    >
-                        As You Sow&rsquo;s{" "}
-                        <em>
-                            Best Current Practices in Purchasing: The Apparel
-                            Industry
-                        </em>
-                    </a>
-                    <em>.</em>
-                </p>
-                <p>
-                    &Agrave; l&apos;instar de l&apos;&eacute;valuation des
-                    incidences ext&eacute;rieures (voir ci-dessous), ce
-                    processus d&apos;&eacute;valuation interne devrait
-                    &ecirc;tre continu et non pas un &eacute;v&eacute;nement
-                    unique. Les incidences et les risques devraient &ecirc;tre
-                    &eacute;valu&eacute;s avant toute d&eacute;cision
-                    commerciale ou modification importante des
-                    op&eacute;rations, et &agrave; intervalles r&eacute;guliers.
-                    Lorsqu&apos;il s&apos;agit de l&apos;&eacute;valuation des
-                    processus et pratiques internes d&rsquo;une entreprise, il
-                    est souvent utile d&apos;avoir la participation
-                    d&apos;experts ext&eacute;rieurs (voir Collecte
-                    d&rsquo;information).
-                </p>
-                <p>
-                    Si apr&egrave;s avoir examin&eacute; ces processus et
-                    pratiques, vous d&eacute;couvrez des violations qui sont de
-                    votre fait ou auxquelles vous avez contribu&eacute;, vous
-                    avez la responsabilit&eacute; d&apos;y rem&eacute;dier de
-                    fa&ccedil;on active. Si vous identifiez des risques, ils
-                    devraient &ecirc;tre att&eacute;nu&eacute;s ou
-                    &eacute;vit&eacute;s par le lancement d&apos;un processus de
-                    changement interne, avec tous les acteurs pertinents de
-                    l&rsquo;entreprise.
-                </p>
+                <h1>Rejoindre un programme de conformité sociale</h1>
+                                <p>
+                                    Dans certaines industries, des groupes
+                                    d&apos;entreprises se sont r&eacute;unis
+                                    pour &eacute;laborer des syst&egrave;mes de
+                                    conformit&eacute; sociale
+                                    collectifs&nbsp;&ndash; ou dans certains cas
+                                    des volets de syst&egrave;mes&nbsp;&ndash;
+                                    que des entreprises individuelles peuvent
+                                    adopter. L&apos;appartenance &agrave; ce
+                                    type de r&eacute;seau exige d&apos;ordinaire
+                                    un engagement en mati&egrave;re de temps et
+                                    de ressources pour une collaboration avec
+                                    d&apos;autres entreprises, ce qui permet au
+                                    bout du compte d&rsquo;&eacute;conomiser des
+                                    efforts et des ressources en s&apos;appuyant
+                                    sur les conclusions et
+                                    l&apos;exp&eacute;rience d&apos;autres
+                                    entreprises. Il est important de vous
+                                    informer sur les initiatives qui existent
+                                    dans votre industrie avant de d&eacute;cider
+                                    de vous joindre &agrave; un programme
+                                    existant ou alors d&apos;&eacute;laborer le
+                                    v&ocirc;tre.
+                                </p>
+                                <ExampleInAction id="better-work-garment">
+                                    <h4>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>Exemple d&apos;action</strong>
+                                        &nbsp;{": "}
+                                        Le programme{" "}
+                                        <em>
+                                            <strong>Better Work </strong>
+                                        </em>{" "}
+                                        dans l&apos;industrie de la confection
+                                    </h4>
+                                    <p>
+                                        Le programme{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://betterwork.org/"
+                                            title="Better Work"
+                                        >
+                                            Better Work
+                                        </a>
+                                        , initiative conjointe de
+                                        l&apos;Organisation internationale du
+                                        travail (OIT) et de la
+                                        Soci&eacute;t&eacute; financi&egrave;re
+                                        internationale (SFI), est destin&eacute;
+                                        &agrave; am&eacute;liorer les pratiques
+                                        du travail et la productivit&eacute;
+                                        dans l&apos;industrie de la confection.{" "}
+                                        <em>Better Work</em> est un programme
+                                        transparent de suivi des ateliers
+                                        dirig&eacute; par un organisme
+                                        cr&eacute;dible (l&apos;OIT) dans les
+                                        pays participants. Des conseillers
+                                        d&apos;entreprise, recrut&eacute;s sur
+                                        place par l&apos;OIT, se rendent dans
+                                        les ateliers pour &eacute;valuer la
+                                        conformit&eacute; aux normes
+                                        fondamentales du travail&nbsp;&ndash; la
+                                        libert&eacute; d&apos;association, les
+                                        conventions collectives,
+                                        l&apos;&eacute;limination de la
+                                        discrimination dans l&apos;emploi, du
+                                        travail des enfants et du travail
+                                        forc&eacute; &ndash; ainsi qu&apos;aux
+                                        lois nationales sur la
+                                        r&eacute;mun&eacute;ration, les
+                                        relations avec les contractuels et sur
+                                        le lieu de travail, la
+                                        s&eacute;curit&eacute; et la
+                                        sant&eacute; au travail et les heures
+                                        ouvr&eacute;es. <em>Better Work</em>{" "}
+                                        rend publiques ces &eacute;valuations
+                                        par le biais de son{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://portal.betterwork.org/transparency"
+                                            title="Portail transparence"
+                                        >
+                                            portail transparence
+                                        </a>
+                                        , ce qui permet aux acheteurs
+                                        &eacute;trangers d&apos;orienter leurs
+                                        commandes vers les ateliers qui
+                                        apportent des am&eacute;liorations
+                                        &agrave; leur conformit&eacute;. Le
+                                        programme fournit &eacute;galement des
+                                        conseils et une assistance aux mesures
+                                        de r&eacute;paration, et aide les
+                                        entreprises &agrave; am&eacute;liorer
+                                        leur conformit&eacute;.{" "}
+                                        <em>Better Work</em> est
+                                        structur&eacute; de fa&ccedil;on
+                                        &agrave; mieux aligner les incitations
+                                        pour les propri&eacute;taires des
+                                        ateliers, les acheteurs, les pouvoirs
+                                        publics et les travailleurs afin de
+                                        prot&eacute;ger les droits et
+                                        d&apos;am&eacute;liorer les moyens de
+                                        subsistance. Le d&eacute;partement du
+                                        Travail des &Eacute;tats-Unis est un
+                                        bailleur de fonds important des
+                                        programmes <em>Better Work</em> dans
+                                        plusieurs pays, aux c&ocirc;t&eacute;s
+                                        de nombreux autres gouvernements et
+                                        institutions donateurs.
+                                    </p>
+                                    <img
+                                        src={betterwork}
+                                        alt="Travail effectu&eacute; dans une usine propre et bien &eacute;clair&eacute;e"
+                                    />{" "}
+                                    <br />
+                                    <div className="small-text">
+                                        <p>
+                                            &copy; Better Work Jordanie/Photo
+                                            d&rsquo;Ala&rsquo;a al Sukhni
+                                        </p>
+                                    </div>
+                                </ExampleInAction>
+                                <p>
+                                    La plupart des associations de
+                                    l&apos;industrie poss&egrave;dent des
+                                    crit&egrave;res de base pour les entreprises
+                                    qui souhaitent en devenir membres. Par
+                                    exemple, les membres de la{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.responsiblebusiness.org/"
+                                        title="Responsible Business Alliance (RBA)"
+                                    >
+                                        Responsible Business Alliance (RBA)
+                                    </a>
+                                    , anciennement appelée Electronic Industry
+                                    Citizenship Coalition (EICC)
+                                    s&rsquo;engagent vis-&agrave;-vis d&rsquo;un{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.eiccoalition.org/standards/"
+                                        title="Code de conduite"
+                                    >
+                                        code de conduite
+                                    </a>{" "}
+                                    commun pour assurer des am&eacute;liorations
+                                    continues de la responsabilit&eacute;
+                                    sociale, environnementale et &eacute;thique
+                                    de leurs cha&icirc;nes
+                                    d&rsquo;approvisionnement. Ils
+                                    d&eacute;montrent la conformit&eacute;
+                                    &agrave; ce code commun &agrave; travers une
+                                    s&eacute;rie d&rsquo;&eacute;valuations
+                                    obligatoires, notamment le{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.eiccoalition.org/standards/vap/"
+                                        title="Processus valid&eacute; d&rsquo;&eacute;valuation"
+                                    >
+                                        processus valid&eacute;
+                                        d&rsquo;&eacute;valuation
+                                    </a>
+                                    , qui fournit des normes pour une
+                                    v&eacute;rification de conformit&eacute; sur
+                                    site et des &eacute;valuations efficaces et
+                                    partageables.
+                                </p>
+                                <p>
+                                    Qu&apos;il existe ou pas un groupe dans
+                                    votre industrie, il serait &eacute;galement
+                                    souhaitable d&apos;&eacute;tudier les
+                                    syst&egrave;mes de conformit&eacute; sociale
+                                    qui recouvrent plusieurs secteurs, comme
+                                    l&rsquo;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ethicaltrade.org"
+                                        title="Initiative pour le commerce &eacute;thique (ETI)"
+                                    >
+                                        Initiative pour le commerce
+                                        &eacute;thique (ETI)
+                                    </a>
+                                    . Gr&acirc;ce &agrave; des consultations
+                                    avec des syndicats, des organisations non
+                                    gouvernementales (ONG) et ses membres
+                                    corporatifs, l&apos;ETI a mis au point son{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ethicaltrade.org/eti-base-code"
+                                        title="Code de base de l&rsquo;ETI"
+                                    >
+                                        code de base
+                                    </a>
+                                    . Les entreprises qui s&apos;associent
+                                    &agrave; l&apos;ETI doivent adopter ce code
+                                    et accepter les{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ethicaltrade.org/resources/principles-implementation"
+                                        title="Principes de mise en &oelig;uvre de l'ETI"
+                                    >
+                                        principes de mise en &oelig;uvre de
+                                        l&apos;ETI
+                                    </a>
+                                    . Elles re&ccedil;oivent alors des outils et
+                                    une formation, et ont acc&egrave;s au
+                                    r&eacute;seau mondial de l&apos;ETI qui les
+                                    aide &agrave; trouver des solutions aux
+                                    probl&egrave;mes de conformit&eacute; dans
+                                    la pratique. Pour obtenir de plus amples
+                                    informations, voir la{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ethicaltrade.org/node/1192?lang=en"
+                                        title="Bo&icirc;te &agrave; outils de l&rsquo;ETI"
+                                    >
+                                        bo&icirc;te &agrave; outils de
+                                        l&rsquo;ETI
+                                    </a>
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ethicaltrade.org/node/1650"
+                                        title="Ressources pour le commerce &eacute;thique"
+                                    >
+                                        {" "}
+                                        de ressources pour le commerce
+                                        &eacute;thique
+                                    </a>
+                                    .
+                                </p>
+                                <p>
+                                    <Link to="/steps/3">
+                                        La 1<sup>&egrave;re</sup>{" "}
+                                        &eacute;tape: faire participer les
+                                        parties prenantes et les partenaires 
+                                    </Link>
+                                     offre de nombreux autres exemples de
+                                    programmes et d&apos;initiatives
+                                    collaboratives que vous pouvez choisir de
+                                    rejoindre.
+                                </p>
+                            <p>
+                                <em>
+                                    *Remarque: Les
+                                    r&eacute;f&eacute;rences &agrave; des
+                                    soci&eacute;t&eacute;s et entit&eacute;s non
+                                    gouvernementales sp&eacute;cifiques dans ce
+                                    guide sont &agrave; des fins
+                                    d&rsquo;information uniquement afin de
+                                    d&eacute;montrer les bonnes pratiques
+                                    reconnues &agrave; l&rsquo;&eacute;chelle
+                                    internationale, &agrave; la date de
+                                    lancement de l&rsquo;appli. Toute
+                                    r&eacute;f&eacute;rence &agrave; ces
+                                    entit&eacute;s ne saurait constituer une
+                                    approbation officielle de ces
+                                    derni&egrave;res, de leurs produits ou de
+                                    leurs services par le d&eacute;partement du
+                                    Travail des &Eacute;tats-Unis,{" "}
+                                </em>
+                                <em>
+                                    et leur inclusion dans cette appli ne
+                                    saurait &ecirc;tre interpr&eacute;t&eacute;e
+                                    comme un examen exhaustif des pratiques de
+                                    ces entit&eacute;s dans tous les domaines
+                                </em>
+                                <em>.</em>
+                            </p>
             </div>
         </StaticData>
     );

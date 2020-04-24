@@ -6,342 +6,121 @@ const en = () => {
         <StaticData>
             <div>
                 <ol>
-                    <li>
-                        Better Buying. <em>Purchasing Practices, </em>[online,
-                        accessed May 16, 2017]; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.betterbuying.org/Home/purchasing-practices"
-                            title="Purchasing Practices"
-                        >
-                            http://www.betterbuying.org/Home/purchasing-practices
-                        </a>
-                    </li>
-                    <li>
-                        BSR.{" "}
-                        <em>
-                            Conducting an Effective Human Rights Impact
-                            Assessment: Guidelines, Steps, and Example, 2013;{" "}
-                        </em>
-                        available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.bsr.org/reports/BSR_Human_Rights_Impact_Assessments.pdf"
-                            title="Conducting an Effective Human Rights Impact Assessment: Guidelines, Steps, and Example, 2013; "
-                        >
-                            https://www.bsr.org/reports/BSR_Human_Rights_Impact_Assessments.pdf
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        Good Jobs First. <em>Violation Tracker, </em>[online,
-                        accessed May 16, 2017]; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.goodjobsfirst.org/violation-tracker"
-                            title="Violation Tracker"
-                        >
-                            http://www.goodjobsfirst.org/violation-tracker
-                        </a>
-                    </li>
-                    <li>
-                        Human Rights Watch, [online, accessed June 7, 2017];
-                        available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.hrw.org/"
-                            title=">Human Rights Watch"
-                        >
-                            http://www.hrw.org/
-                        </a>
-                    </li>
-                    <li>
-                        IFC.{" "}
-                        <em>
-                            Environmental and Social Management System
-                            Implementation Handbook, 2015.{" "}
-                        </em>
-                        available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.ifc.org/wps/wcm/connect/4c41260d-1ba8-4d10-a77d-f762d60a1380/ESMS+Handbook+General+v2.1.pdf?MOD=AJPERES&CVID=lllFYII"
-                            title="Environmental and Social Management System Implementation Handbook, 2015. "
-                        >
-                            https://www.ifc.org/wps/wcm/connect/4c41260d-1ba8-4d10-a77d-f762d60a1380/ESMS+Handbook+General+v2.1.pdf?MOD=AJPERES&CVID=lllFYII
-                        </a>
-                    </li>
-                    <li>
-                        IFC.{" "}
-                        <em>
-                            Global Compact, and International Business Leaders
-                            Forum, Guide to Human Rights Impact Assessment and
-                            Management (HRIAM)
-                        </em>
-                        . 2010; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ideaspaz.org/tools/download/59336"
-                            title="Global Compact, and International Business Leaders Forum, Guide to Human Rights Impact Assessment and Management (HRIAM)"
-                        >
-                            http://www.ideaspaz.org/tools/download/59336
-                        </a>
-                    </li>
-                    <li>
-                        IFC.{" "}
-                        <em>
-                            Measure and Improve Your Labor Standards Performance
-                            - Performance Standard 2 Handbook,{" "}
-                        </em>
-                        2010; available from
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.sustainabilityxchange.info/filesagri/SAI_IFC_LaborHandbook.pdf"
-                            title="Measure and Improve Your Labor Standards Performance - Performance Standard 2 Handbook"
-                        >
-                            https://www.sustainabilityxchange.info/filesagri/SAI_IFC_LaborHandbook.pdf
-                        </a>
-                    </li>
-                    <li>
-                        Interfaith Center on Corporate Responsibility.{" "}
-                        <em>
-                            Best Practice Guidance on Ethical Recruitment of
-                            Migrant Workers.{" "}
-                        </em>
-                        New York, April 2017.; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.iccr.org/sites/default/files/iccrsbestpracticeguidanceethicalrecruitment05.09.17_final.pdf"
-                            title="Best Practice Guidance on Ethical Recruitment of Migrant Workers."
-                        >
-                            http://www.iccr.org/sites/default/files/iccrsbestpracticeguidanceethicalrecruitment05.09.17_final.pdf
-                        </a>
-                    </li>
-                    <li>
-                        International Labor Organization.{" "}
-                        <em>
-                            General principles &amp; operational guidelines for
-                            fair recruitment, 2016;
-                        </em>{" "}
-                        available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
-                            title="General principles &amp; operational guidelines for fair recruitment, 2016;"
-                        >
-                            https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        International Labor Organization. NORMLEX Information
-                        System on International Labor Standards, [online,
-                        accessed June 7, 2017]; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/dyn/normlex/en/f?p=1000:1:0::NO"
-                            title="International Labor Organization. NORMLEX Information System on International Labor Standards"
-                        >
-                            http://www.ilo.org/dyn/normlex/en/f?p=1000:1:0::NO
-                        </a>
-                        :::. NORMLEX, the ILO's database of International Labor
-                        Standards and national labor and social security laws,
-                        has a table of Ratifications of the Fundamental human
-                        rights Conventions by country, including UN Conventions
-                        pertaining to child labor and forced labor.
-                    </li>
-                    <li>
-                        ILO-IPEC. <em>Child Labor Statistics</em>, [online,
-                        accessed June 7, 2017]; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/ipec/ChildlabourstatisticsSIMPOC/lang--en/index.htm"
-                            title="Child Labor Statistics"
-                        >
-                            http://www.ilo.org/ipec/ChildlabourstatisticsSIMPOC/lang--en/index.htm
-                        </a>
-                        . Statistical Information and Monitoring Programme on
-                        Child Labour (SIMPOC) is the statistical arm of
-                        ILO-IPEC, and provides data on the extent,
-                        characteristics and determinants of child labour. SIMPOC
-                        also assists countries in the collection, documentation,
-                        processing and analysis of child labour relevant data.
-                    </li>
-                    <li>
-                        International Trade Union Confederation.{" "}
-                        <em>
-                            Global Rights Index: The World&rsquo;s Worst
-                            Countries for Workers; 2014. ;{" "}
-                        </em>
-                        available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ituc-csi.org/IMG/pdf/survey_ra_2014_eng_v2.pdf"
-                        >
-                            http://www.ituc-csi.org/IMG/pdf/survey_ra_2014_eng_v2.pdf
-                        </a>
-                        .&nbsp;
-                    </li>
-                    <li>
-                        Overseas Private Investment Corporation.{" "}
-                        <em>Environmental and Social Policy Statement, </em>
-                        January 2017; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
-                            title="Global Rights Index: The World&rsquo;s Worst Countries for Workers; 2014."
-                        >
-                            https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf
-                        </a>
-                    </li>
-                    <li>
-                        UNICEF, Multiple Indicator Cluster Surveys, [online,
-                        accessed June 7 2017]; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.childinfo.org/mics_available.html"
-                            title="UNICEF, Multiple Indicator Cluster Surveys"
-                        >
-                            http://www.childinfo.org/mics_available.html
-                        </a>
-                        . UNICEF regularly conducts Multiple Indicator Cluster
-                        Surveys (MICS); household surveys on a range of
-                        indicators of children&rsquo;s well-being, including
-                        child labor. The MIC reports and datasets are available
-                        by country.
-                    </li>
-                    <li>
-                        U.S. Department of Labor. Enforcement Data. [online,
-                        accessed June 7, 2017]; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://enforcedata.dol.gov/homePage.php"
-                            title="The U.S. Department of Labor - Data Enforcement"
-                        >
-                            https://enforcedata.dol.gov/homePage.php
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        U.S. Department of Labor, Bureau of International Labor
-                        Affairs (ILAB). <em>Executive Order 13126 List,</em>{" "}
-                        Washington, DC; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products"
-                            title="Executive Order 13126 List"
-                        >
-                            https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        U.S. Department of Labor, Bureau of International Labor
-                        Affairs (ILAB).{" "}
-                        <em>Findings on the Worst Forms of Child Labor</em>,
-                        Washington, DC; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings"
-                            title="Findings on the Worst Forms of Child Labor"
-                        >
-                            https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings
-                        </a>
-                    </li>
-                    <li>
-                        U.S. Department of Labor. Bureau of International Labor
-                        Affairs (ILAB).{" "}
-                        <em>
-                            List of Goods Produced by Child Labor or Forced
-                            Labor.
-                        </em>{" "}
-                        Washington, DC; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods/"
-                            title="List of Goods Produced by Child Labor or Forced Labor."
-                        >
-                            https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods/
-                        </a>
-                    </li>
-                    <li>
-                        U.S. Department of State.{" "}
-                        <em>Country Reports on Human Rights Practices</em>.
-                        Washington, DC; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.state.gov/g/drl/rls/hrrpt/"
-                            title="Country Reports on Human Rights Practices"
-                        >
-                            http://www.state.gov/g/drl/rls/hrrpt/
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        U.S. Department of State,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.state.gov/j/tip/index.htm"
-                            title="Office to Monitor and Combat Trafficking in Persons"
-                        >
-                            Office to Monitor and Combat Trafficking in Persons
-                        </a>
-                        . <em>Trafficking in Persons Reports. </em>Washington,
-                        DC. available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.state.gov/j/tip/rls/tiprpt/index.htm"
-                            title="Trafficking in Persons Reports"
-                        >
-                            https://www.state.gov/j/tip/index.htm
-                            <br /> tiprpt/index.htm
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        Verit&eacute;, <em>Fair Hiring Toolkit </em>available
-                        from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://helpwanted.verite.org/helpwanted/toolkit"
-                            title="Fair Hiring Toolkit"
-                        >
-                            http://helpwanted.verite.org/helpwanted/toolkit
-                        </a>
-                    </li>
-                    <li>
-                        Verit&eacute;, <em>Knowledge Portal</em>. Available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://knowledge.verite.org/#/map"
-                            title="Knowledge Portal"
-                        >
-                            http://knowledge.verite.org/#/map
-                        </a>
-                        .
-                    </li>
+                <li>
+                                    Dickson, Marsha, Suzanne Loker, Molly
+                                    Eckman, &ldquo;Stakeholder Theory and Social
+                                    Responsibility.&rdquo; Social Responsibility
+                                    in the Global Apparel Industry; Fairchild
+                                    Books, 2009: 112-215.&nbsp;
+                                </li>
+                                <li>
+                                    The International Organization for
+                                    Standardization (ISO) has set a variety of
+                                    standards for management systems, such as
+                                    ISO 17021, ISO Guide 65, ISO 9001, and ISO
+                                    19011. These standards cover issues such as
+                                    impartiality and confidentiality,
+                                    documentation and record control, management
+                                    reviews, personnel qualification criteria,
+                                    audit procedures, appeals and complaints;
+                                    available from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.iso.org/home.html"
+                                        title="International Organization for Standardization"
+                                    >
+                                        http://www.iso.org/iso/home.html
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    The International Finance
+                                    Corporation&rsquo;s Performance Standard 1
+                                    discusses the elements of effective
+                                    Environmental and Social Management Systems
+                                    (ESMS); available from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.ifc.org/wps/wcm/connect/8804e6fb-bd51-4822-92cf-3dfd8221be28/PS1_English_2012.pdf?MOD=AJPERES&CVID=jiVQIfe"
+                                        title="the elements of effective Environmental and Social Management Systems (ESMS)"
+                                    >
+                                        https://www.ifc.org/wps/wcm/connect/8804e6fb-bd51-4822-92cf-3dfd8221be28/PS1_English_2012.pdf?MOD=AJPERES&CVID=jiVQIfe
+                                    </a>
+                                </li>
+                                <li>
+                                    Locke, Richard M., Thomas Kochan, Monica
+                                    Romis, and Fei Qin. &ldquo;Beyond corporate
+                                    codes of conduct: Work organization and
+                                    labour standards at Nike&rsquo;s
+                                    suppliers&rdquo;,{" "}
+                                    <em>International Labour Review</em> 146,
+                                    no. 1/2 (2007): 21-37.
+                                </li>
+                                <li>
+                                    Mamic, Ivanka, &ldquo;Managing Global Supply
+                                    Chain: The Sports Footwear, Apparel and
+                                    Retail Sectors&rdquo;,{" "}
+                                    <em>Journal of Business Ethics,</em> (2005)
+                                    59: 81&ndash;100.
+                                </li>
+                                <li>
+                                    Social Accountability International and
+                                    International Finance Corporation<em>. </em>
+                                    Measure and Improve Your Labor Standards
+                                    Performance. 2010; available from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.ifc.org/wps/wcm/connect/e0e8e968-132a-4dbf-af0b-4b971e4a4b9b/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&CVID=jkD0.wG"
+                                        title="Measure and Improve Your Labor Standards Performance."
+                                    >
+                                        https://www.ifc.org/wps/wcm/connect/e0e8e968-132a-4dbf-af0b-4b971e4a4b9b/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&CVID=jkD0.wG
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    Social Accountability International (SAI)
+                                    offers a &ldquo;Social Fingerprint&rdquo;
+                                    program focused on management systems
+                                    development. By participating in the
+                                    &ldquo;Social Fingerprint Supply Chain
+                                    Management Program&rdquo;, companies can
+                                    assess their progress in key social
+                                    compliance performance areas and access
+                                    online training to boost competencies;
+                                    available from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://sa-intl.org/index.cfm?fuseaction=Page.viewPage"
+                                        title="Social Fingerprint"
+                                    >
+                                        http://socialfingerprint.org/
+                                    </a>
+                                    . Note: this is a fee-based publication
+                                    service.
+                                </li>
+                                <li>
+                                    United Nations Human Rights Council.{" "}
+                                    <em>
+                                        Guiding Principles on Business and Human
+                                        Rights: Implementing the United Nations
+                                        &ldquo;Protect, Respect and
+                                        Remedy&rdquo; Framework.
+                                    </em>{" "}
+                                    New York: March 21, 2011; available from{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://business-humanrights.org/en/un-guiding-principles"
+                                        title="Guiding Principles on Business and Human Rights: Implementing the United Nations Protect, Respect and Remedy; Framework."
+                                    >
+                                        http://www.business-humanrights.org/SpecialRepPortal/Home/Protect-Respect-Remedy-Framework/GuidingPrinciples
+                                    </a>
+                                    .
+                                </li>
                 </ol>
             </div>
         </StaticData>

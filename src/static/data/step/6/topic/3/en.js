@@ -5,114 +5,316 @@ const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>Corrective Action Plans</h1>
+                <h1>
+                    What Topics Should Training and Capacity-Building Cover?
+                </h1>
                 <p>
-                    A Corrective Action Plan (CAP) is typically formulated
-                    shortly after the audit. Companies handle their development
-                    in different ways: some develop CAPs themselves based on
-                    audit findings; some require the supplier to draft its own
-                    CAP for review/approval by the company; some require the
-                    vendor/agency to draft a CAP for its supplier. In some
-                    cases, auditors themselves develop the CAP, but this
-                    approach raises concerns because it may present a conflict
-                    of interest.
+                    The following are key training topics for each training
+                    audience.
                 </p>
-                <p>
-                    It is good practice to provide opportunities for worker and
-                    community input into a CAP, particularly those workers who
-                    were directly affected by violations. This can be done
-                    through a workers&rsquo; organization, a civil society
-                    organization or directly with individual workers, according
-                    to defined procedures.
-                </p>
-                <p>A CAP should include:</p>
+
+                <h2>All Audiences</h2>
                 <ul>
-                    <li>All audit findings;</li>
                     <li>
-                        The specific action(s) required to remedy each finding,
-                        including assistance for individual victims; new written
-                        policies or procedures; training for managers, staff,
-                        employees; and other actions;
-                    </li>
-                    <li>Who is responsible for each action;</li>
-                    <li>
-                        How each action will be verified/confirmed, such as
-                        record review, employee interviews, spot-checks or other
-                        means;
+                        The standards included in your code of conduct{" "}
+                        <em>
+                            (Note: this portion of the training should be
+                            thorough and comprehensive. Each standard should be
+                            explained in detail. For example, a full explanation
+                            of child labor should be provided, with examples of
+                            what is and is not considered child labor);
+                        </em>
                     </li>
                     <li>
-                        The deadline or milestones for completing each action,
-                        which normally should be as expeditious as possible; and
+                        A comprehensive overview of your social compliance
+                        system, showing all of its components and how they fit
+                        together, to help everyone understand their part in the
+                        system;
                     </li>
-                    <li>Potential consequences if actions are not taken.</li>
+                    <li>
+                        Your expectations for each component of the system, who
+                        is responsible for which components and how you hold
+                        them accountable;
+                    </li>
+                    <li>
+                        What to expect from an audit, and how audit data are
+                        independently verified;
+                    </li>
+                    <li>
+                        The company&rsquo;s remediation policies and procedures;
+                    </li>
+                    <li>
+                        Workplace values, including mutual respect and honesty;
+                    </li>
+                    <li>The company&rsquo;s public reporting; and</li>
+                    <li>
+                        Opportunities for input, including grievance mechanisms.
+                    </li>
+                </ul>
+
+                <h2>Social Compliance Team</h2>
+                <p>
+                    Intensive training in all aspects of the system. Ongoing
+                    training for this team could include use of the social
+                    compliance information system and benchmarking against other
+                    companies and initiatives.
+                </p>
+                <h2>Product Development/ Sourcing Departments</h2>
+                <p>
+                    Training in the types of data the social compliance team
+                    gathers, and how to use that data in making product
+                    development and sourcing decisions, as well as ongoing
+                    information regarding the social compliance performance of
+                    suppliers. It is critical to discuss with a company&rsquo;s
+                    product developers and buyers the impact of their practices
+                    and decisions on social compliance. Ideally, the performance
+                    evaluations and incentive structures of these teams should
+                    be informed by the degree to which they make use of social
+                    compliance data. Buy-in and participation from the highest
+                    levels of the company may be necessary in these discussions.
+                </p>
+                <h2>Other Employees</h2>
+
+                <p>
+                    Communication via newsletters, e-mails, annual reports,
+                    annual meetings or other means to ensure that all employees
+                    are aware of the company&rsquo;s commitment to social
+                    compliance. Another approach that has been used is an
+                    incentive or award system that rewards top performers in
+                    social responsibility.
+                </p>
+
+                <h2>Vendors/Agents (If Applicable)</h2>
+
+                <p>
+                    Contractual requirements to which the vendor or agent is
+                    held. Typically a vendor/agent should be required to sign a
+                    commitment to comply with the code of conduct, which should
+                    be incorporated into the contract. The contract should also
+                    specify all activities that the vendor/agent must undertake
+                    as part of the system, such as guaranteeing auditors and
+                    verification organizations unrestricted access into
+                    production facilities. If a company has fairly stable
+                    relationships with vendors/agents, you may adopt a social
+                    compliance system model that delegates significant
+                    responsibility for supplier/producer social compliance to
+                    the vendor/agent. In this case, your contract may also
+                    require the vendor/agent to:
+                </p>
+                <ul>
+                    <li>
+                        Ensure compliance of first-tier suppliers with the code
+                        of conduct;
+                    </li>
+                    <li>Provide training to first-tier suppliers;</li>
+                    <li>
+                        Conduct &ldquo;self-auditing&rdquo; of first-tier
+                        suppliers;
+                    </li>
+                    <li>
+                        Draft, implement and/or follow up on Corrective Action
+                        Plans;
+                    </li>
+                    <li>
+                        Track and report on supplier social compliance
+                        performance;
+                    </li>
+                    <li>
+                        Limit the number of subcontractors and/or disclose
+                        subcontractors at specified tier(s) of supply chains;
+                        and
+                    </li>
+                    <li>
+                        Offer incentives to the vendor/agent for good social
+                        compliance performance.
+                    </li>
+                </ul>
+                <h2>Suppliers: Management</h2>
+
+                <p>
+                    The contractual requirements to which suppliers are held, if
+                    a company contracts directly with suppliers. The supplier
+                    should be required to sign a commitment to comply with the
+                    code of conduct, which should be incorporated into the
+                    contract. The contract should also specify all activities
+                    that the supplier must undertake as part of the system, such
+                    as allowing auditors and verification organizations
+                    unrestricted access to production facilities. If a company
+                    has fairly stable relationships with suppliers, you may
+                    adopt a social compliance system model that delegates
+                    significant responsibility for social compliance to the
+                    supplier. In this case, your contract may also require the
+                    supplier to:
+                </p>
+                <ul>
+                    <li>
+                        Train supervisors, workers and other groups in social
+                        compliance;
+                    </li>
+                    <li>Conduct some &ldquo;self-auditing&rdquo;;</li>
+                    <li>
+                        Draft, implement and/or follow up on Corrective Action
+                        Plans;
+                    </li>
+                    <li>Track and report on social compliance performance;</li>
+                    <li>
+                        Limit number of subcontractors and/or disclose
+                        subcontractors at specified tier(s) of supply chains;
+                        and
+                    </li>
+                    <li>
+                        Ensure social compliance of its subcontractors and at
+                        specified tiers of the supply chain.
+                    </li>
+                </ul>
+
+                <h2>Suppliers: Supervisors</h2>
+                <ul>
+                    <li>Proper use of authority;</li>
+                    <li>
+                        Communication skills to motivate workers and communicate
+                        accomplishments, needs, skills and talents of workers to
+                        management;
+                    </li>
+                    <li>Team building skills; and</li>
+                    <li>
+                        &ldquo;Red flags&rdquo; to identify child labor, forced
+                        labor and trafficking.
+                    </li>
+                </ul>
+
+                <h2>Suppliers: Human Resources Staff</h2>
+                <ul>
+                    <li>
+                        Computation of wages, including piece rates, overtime,
+                        bonuses and legal, permitted deductions;
+                    </li>
+                    <li>
+                        Policies to ensure timely, accurate payment of wages;
+                    </li>
+                    <li>Appropriate age-verification documentation;</li>
+                    <li>
+                        Policies on appropriate treatment of children identified
+                        at worksites;
+                    </li>
+                    <li>
+                        Policies and procedures for worker recruitment and
+                        hiring;
+                    </li>
+                    <li>
+                        Procedures to ensure that all workers have contracts
+                        that clearly stipulate their employment terms, in
+                        language they understand, and that any changes to
+                        contracts are made with the informed written consent of
+                        workers;
+                    </li>
+                    <li>
+                        Mechanisms through which workers can submit any
+                        grievances, including those related to harassment,
+                        threats or intimidation;
+                    </li>
+                    <li>Appropriate record-keeping skills;</li>
+                    <li>
+                        Specific policies and procedures for migrant workers,
+                        including mechanisms to ensure that migrant workers are
+                        not charged fees by brokers/agents, are not required to
+                        post deposits, receive employment terms and conditions
+                        equal to those of non-migrants, and have ready access to
+                        their identity documents and a safe place to store them;
+                        and
+                    </li>
+                    <li>
+                        Use of the social compliance information system, as
+                        appropriate.
+                    </li>
+                </ul>
+
+                <h2>Suppliers Beyond the First Tier</h2>
+
+                <p>
+                    To the extent possible, your training and capacity-building
+                    programs should extend to suppliers beyond the first tier.
+                    Once your risk assessment has identified the areas of your
+                    supply chains at greatest risk of child labor, forced labor
+                    and other labor abuses, you should have an idea of those
+                    suppliers, at all tiers, in most need of training. The
+                    training materials you have developed for first-tier
+                    suppliers can be adapted for other levels of the supply
+                    chain. As noted, you may also require that vendors/agents or
+                    suppliers provide this training. Note that some companies
+                    achieve efficiencies by bringing together multiple
+                    suppliers&mdash;for instance, all suppliers operating in the
+                    same country or geographic region&mdash;to be trained
+                    together.
+                </p>
+
+                <h2>Workers and Trade Unions</h2>
+                <ul>
+                    <li>Responsibilities in the workplace;</li>
+                    <li>
+                        Additional workplace rights not covered in the core
+                        training content, such as rights under local law
+                        concerning freedom of employment, wage deductions, etc.;
+                    </li>
+                    <li>Proper procedures for recording hours of work;</li>
+                    <li>
+                        Understanding pay slips, calculating wages and
+                        deductions;
+                    </li>
+                    <li>
+                        &ldquo;Red flags&rdquo; to identify child labor, forced
+                        labor, and trafficking;
+                    </li>
+                    <li>
+                        Computation of wages, including piece rates, overtime,
+                        bonuses and legal, permitted deductions;
+                    </li>
+                    <li>
+                        Policies to ensure timely and accurate payment of wages;
+                    </li>
+                    <li>Appropriate age-verification documentation;</li>
+                    <li>
+                        Policies on appropriate treatment of children identified
+                        at worksites;
+                    </li>
+                    <li>
+                        Policies and procedures for worker recruitment and
+                        hiring;
+                    </li>
+                    <li>
+                        Procedures to ensure that all workers have contracts
+                        that clearly stipulate their employment terms, in
+                        language they understand, and that any changes to
+                        contracts are made with the informed written consent of
+                        workers;
+                    </li>
+                    <li>
+                        Mechanisms through which workers can submit any
+                        grievance, including harassment, threats or
+                        intimidation; and
+                    </li>
+                    <li>
+                        Specific policies and procedures for migrant workers,
+                        including mechanisms to ensure that migrant workers are
+                        not charged fees by brokers/agents, are not required to
+                        post deposits, receive employment terms and conditions
+                        equal to those of non-migrants, and have ready access to
+                        their identity documents and a safe place to store them.
+                    </li>
                 </ul>
                 <p>
-                    For example, if workers are found to be in forced labor in a
-                    workplace, the CAP may require one or more of the
-                    remediation measures in Tables 1-4 under{" "}
-                    <em>
-                        <u>Preventing Recurrence</u>
-                    </em>
-                    . It should clearly specify who is responsible for
-                    overseeing and following up on each measure. It may require
-                    the establishment of new procedures and clarify the lines of
-                    responsibility for implementing these procedures. It may
-                    establish new &ldquo;check&rdquo; mechanisms to detect
-                    forced labor in the workplace, and specify who is
-                    responsible for conducting these checks. It may also require
-                    a training session for all management on the issue of forced
-                    labor and the code of conduct&rsquo;s forced labor
-                    requirements. Finally, the CAP may state the actions that
-                    the company will take if this violation is repeated, such as
-                    temporary suspension of orders or cancellation of future
-                    orders.
-                </p>
-                <p>
-                    The Fair Labor Association (FLA) publishes{" "}
+                    It is important to note that in some industries,
+                    particularly agriculture, some workers may not be literate.
+                    Starbucks&rsquo;* code of conduct for coffee, known as the{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
-                        title="reports on all factory assessments"
+                        href="https://www.scsglobalservices.com/starbucks-cafe-practices"
                     >
-                        reports on all factory assessments
-                    </a>{" "}
-                    it conducts for member companies under the FLA Workplace
-                    Code of Conduct. These reports detail the violations found
-                    in the factory, the corrective action steps recommended and
-                    progress to date.&nbsp;
-                </p>
-                <p>
-                    Once a CAP is in place, oversight and follow-up are, of
-                    course, critical. Typically the company tracks
-                    implementation of the CAP, checking back with the supplier
-                    on progress, particularly at the times when milestones were
-                    to be reached. If the company has personnel in the
-                    geographic location, they can check back directly, the
-                    original audit team can return to do a follow-up, or another
-                    audit team can do so. The company can also hold its
-                    vendors/agents responsible for follow-up. The important
-                    point is not who does it, but that it is done in a timely
-                    and effective manner and is founded on clear communication
-                    with the supplier. As part of CAP implementation, many
-                    companies provide ongoing training and capacity building to
-                    support the supplier in the process of continuous
-                    improvement.&nbsp;
-                </p>
-                <p>
-                    Despite their clear incentive to maintain a positive
-                    business relationship with a company, occasionally suppliers
-                    will not engage effectively on CAPs either because they do
-                    not have adequate support or training or do not perceive an
-                    incentive to do so. Therefore, CAPs should include
-                    incentives for suppliers such as a price premium, purchase
-                    guarantees, access to financing and/or regular public
-                    reporting that rewards compliance. If remediation and
-                    engagement efforts have failed to achieve the desired
-                    results, you should consider ending your sourcing
-                    relationship with this supplier, taking into account the
-                    potential impacts on the workers and attempting to mitigate
-                    those impacts in the process.
+                        C.A.F.E Practices
+                    </a>
+                    , includes a requirement that all workers who are illiterate
+                    be informed of their rights under the code verbally.
                 </p>
             </div>
         </StaticData>

@@ -1,195 +1,315 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
 
 const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>The Audit Team</h1>
-                <h2>Personnel</h2>
+                <h1>What Makes a Good Code of Conduct?</h1>
                 <p>
-                    Your social compliance team consists of your social
-                    compliance staff at headquarters, as well as the personnel
-                    in the field coordinating and/or carrying out audits. For
-                    companies with an internal audit program, the audit team
-                    members are company employees; for companies that use
-                    external auditors, the audit team members are comprised of
-                    hired auditors from outside entities (whether for-profit or
-                    non-profit firms). Some companies use both internal and
-                    external auditors, depending on the sector or location of
-                    the facility.
+                    Codes take nearly as many forms and formats as there are
+                    companies. Some codes are stand-alone documents, while
+                    others are presented within broader statements of company
+                    mission, values or policies. Some are included in supplier
+                    guidance documents that include other requirements, such as
+                    product quality. Increasingly, companies are including code
+                    of conduct language in multiple documents, as social
+                    compliance considerations become more interwoven within
+                    corporate strategy across business units.
                 </p>
                 <p>
-                    All three of the auditing approaches below can be reliable
-                    and credible, as long as they are well-managed by your
-                    social compliance team and operate within the framework of a
-                    comprehensive social compliance program. However, each
-                    approach has certain advantages and disadvantages.&nbsp;
+                    Some code documents are very general&mdash;merely laying out
+                    the broad areas of compliance&mdash;while others are much
+                    more detailed. In either case, the code typically is a
+                    foundation for more detailed guidance for the
+                    decision-makers who implement the social compliance system
+                    within the company. For instance, the auditing tools derived
+                    from a code are discussed under{" "}
+                    <Link to="/steps/7">Step 5, Monitor Compliance</Link>.
                 </p>
-                <ul>
-                    <li>
-                        <h3>Internal auditors</h3>
-                    </li>
-                </ul>
+                <h2>Example Codes</h2>
                 <p>
-                    Internal auditors are company employees who are trained in
-                    the skills and competencies of social auditing. One
-                    advantage to using internal auditors is that they are likely
-                    to be easier to communicate with; for example, if there are
-                    changes in policy, it is easier to ensure consistency among
-                    your own staff than with hired external auditors. Internal
-                    auditors also may have a deeper understanding of the
-                    company&rsquo;s full social compliance program and may be
-                    able to make contributions to it beyond auditing. On the
-                    other hand, since internal auditors are company employees,
-                    some stakeholders may question the credibility of their
-                    findings.&nbsp;
+                    The following examples demonstrate the various forms that
+                    codes can take:
                 </p>
                 <ul>
                     <li>
-                        <h3>External auditors</h3>
-                    </li>
-                </ul>
-                <p>
-                    External auditors are audit professionals with defined
-                    skills and competencies, employed by social audit firms
-                    outside a company. They are a flexible workforce and may be
-                    available in geographic locations where it is not
-                    cost-effective for a company to maintain internal auditors.
-                    On the other hand, since external auditors are also paid by
-                    the company to do audits, some stakeholders may still doubt
-                    the credibility of their audit findings. In addition, some
-                    external audit groups may have their own systems in place
-                    that cannot be fully adapted to match a company&rsquo;s own
-                    protocols or parameters.
-                </p>
-                <ul>
-                    <li>
-                        <h3>Independent auditors/monitors</h3>
-                    </li>
-                </ul>
-                <p>
-                    Independent auditors/monitors are audit professionals
-                    accredited by institutions or mechanisms; their role is to
-                    ensure that auditing takes place while eliminating any
-                    direct financial transaction between the company and the
-                    auditor. Typically, a company pays a separate, independent
-                    institution for auditing services, and/or for membership in
-                    that body. The institution accredits auditors under its
-                    established standards and is responsible for scheduling and
-                    oversight of all audits. While this is designed to increase
-                    the credibility of the audit, in some sectors or geographic
-                    locations, this type of arrangement may not be available. In
-                    addition, even without a direct financial transaction, some
-                    stakeholders may still have concerns about the degree of an
-                    auditor&rsquo;s independence from the audited entity.
-                    Varying degrees of independence exist, and independence
-                    ultimately needs to be judged on a case-by-case basis.
-                </p>
-                <p>
-                    If a company opts to use internal or external auditors, it
-                    may be necessary to engage independent entities for certain
-                    roles within the social compliance system if they wish to
-                    ensure maximum effectiveness and credibility. See{" "}
-                    <Link to="/steps/7">Step 7, Independent Review</Link> for a
-                    larger discussion of independent monitoring and
-                    verification.
-                </p>
-                <h2>Auditor Competencies</h2>
-                <p>
-                    Whether internal, external or independent, all auditors must
-                    possess specific skills and knowledge in order to carry out
-                    audits effectively. In the past few years, several
-                    organizations have made efforts to formalize and document
-                    the standard skills and knowledge that an auditor should
-                    possess. For example, the{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.theapsca.org/"
-                        title="Association of Professional Social Compliance Auditors (APSCA)"
-                    >
-                        Association of Professional Social Compliance Auditors
-                        (APSCA)
-                    </a>{" "}
-                    is a practitioner-led membership body currently working to
-                    establish a certification process for social compliance
-                    auditors. Necessary knowledge includes a detailed
-                    understanding of international labor standards, industry
-                    production environments and processes, and local cultures
-                    and languages.&nbsp;
-                </p>
-                <p>
-                    It&rsquo;s important that auditors also be trained in
-                    specific protocols for handling sensitive situations
-                    involving children and/or adult victims of egregious
-                    exploitation. Auditors should be prepared to interact with
-                    children and take measures on behalf of children that are
-                    age appropriate. Procedures should also be in place to
-                    ensure that both children and adult victims of forced labor
-                    receive immediate care and services from qualified
-                    individuals or organizations.
-                </p>
-                <h2>Team Composition</h2>
-                <p>
-                    The size and composition of an audit team depends on the
-                    size and type of facility to be audited, the number of
-                    workers in the facility, and the nature of the workforce,
-                    including the languages and cultural composition of the
-                    workers. If the facility is large and a variety of languages
-                    are spoken, auditors who speak every language must be
-                    available. Gender of the workers is also an important
-                    consideration; for example, it normally is preferable for
-                    women to be interviewed by a woman in order to facilitate
-                    more comfortable discussions about issues such as sexual
-                    harassment.
-                </p>
-                <p>
-                    Many companies prefer auditors to be nationals of the
-                    countries where they will perform audits, because they know
-                    the culture, language and customs of the country, and hiring
-                    local auditors also contributes to sustainable local
-                    capacity-building.&nbsp;
-                </p>
-                <p>
-                    The team leader should ensure that the team functions
-                    interactively. Because violations can often be subtle, or
-                    deliberately concealed from auditors, the team should not
-                    simply divide up work responsibilities; in many cases, more
-                    than one auditor should examine the same issues, and the
-                    team should come together to assess findings and ensure that
-                    connections and patterns are identified. The team should
-                    collectively agree on the final audit findings.
-                </p>
-                <ExampleInAction id="better_work_assessment">
-                    <h3>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        Example in Action: Better Work Assessment Teams
-                    </h3>
-                    <p>
-                        Better Work has several regulations in place for
-                        evaluation teams, requiring two &ldquo;enterprise
-                        advisors&rdquo; [auditors] to be present for each
-                        unannounced assessment.{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://betterwork.org/our-work/factory-services"
-                            title="Better Work advisors"
+                            href="http://levistrauss.com/wp-content/uploads/2017/12/TOE.pdf"
+                            title="Levi Strauss &amp; Co*. Terms of Engagement"
                         >
-                            Better Work advisors
-                        </a>{" "}
-                        are hired locally and receive extensive training. A new
-                        advisor is always paired with a more experienced
-                        colleague, and no two advisors are paired on consecutive
-                        visits to a particular factory. Advisors conducting
-                        assessments for a particular factory are never the same
-                        individuals providing remediation and advisory services
-                        to that factory.
-                    </p>
-                </ExampleInAction>
+                            Levi Strauss &amp; Co*. Terms of Engagement
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.coca-colacompany.com/content/dam/journey/us/en/private/fileassets/pdf/unknown/unknown/SGP_Brochure_ENG.pdf"
+                            title="Coca-Cola* Supplier Guiding Principles"
+                        >
+                            Coca-Cola* Supplier Guiding Principles
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://globalassets.starbucks.com/assets/1deb372ee3d840179e59c5b9c21cd5fe.pdf"
+                            title="Starbucks* Supplier Responsibility Standards: Manufactured Goods and Services"
+                        >
+                            Starbucks* Supplier Responsibility Standards:
+                            Manufactured Goods and Services
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    A good code of conduct should be a public document and state
+                    clearly the actors within the company that are responsible
+                    for its development, oversight and implementation which
+                    should include the Board of Directors and senior management,
+                    as well as all of the business units involved in social
+                    compliance. Publishing the code communicates to all of your
+                    stakeholders that social compliance is valued at the highest
+                    levels of the company and that the company expects to be
+                    scrutinized for its degree of compliance.&nbsp;
+                </p>
+                <h2>The Content of Codes</h2>
+                <p>
+                    The content of codes has become more standardized in recent
+                    years, consolidating around core content areas that
+                    generally include:
+                </p>
+                <ul>
+                    <li>Governance and management of the code</li>
+                    <li>Scope of coverage</li>
+                    <li>Labor standards</li>
+                    <li>
+                        Additional workplace policies, such as a right to humane
+                        treatment and freedom from sexual harassment
+                    </li>
+                    <li>
+                        Environmental standards{" "}
+                        <em>
+                            (note: while these standards are often included in
+                            the larger code of conduct, they are not discussed
+                            further in this App due to its focus on child labor
+                            and forced labor)
+                        </em>
+                    </li>
+                    <li>
+                        Management systems, procedures and practice for
+                        implementation
+                    </li>
+                    <li>
+                        Legal liabilities and penalties for failure to implement
+                        code provisions
+                    </li>
+                </ul>
+                <p>
+                    With respect to labor standards, a strong code should
+                    address areas covered by the International Labor
+                    Organization&rsquo;s (ILO) core labor standards:
+                </p>
+                <ul>
+                    <li>Freedom of association and collective bargaining</li>
+                    <li>Discrimination in employment</li>
+                    <li>Child labor</li>
+                    <li>Forced labor</li>
+                </ul>
+                <p>In addition, it should cover the following issues:</p>
+                <ul>
+                    <li>Compensation</li>
+                    <li>Hours of work</li>
+                    <li>
+                        Occupational safety and health, including issues such as
+                        industrial hygiene, emergency preparedness, safety
+                        equipment, sanitation, and access to food and water
+                    </li>
+                </ul>
+                <h2>Core ILO Convention</h2>
+                <p>
+                    The International Labor Organization (ILO) has adopted
+                    standards, referred to as conventions and recommendations,
+                    in all of these areas. When a national government ratifies a
+                    convention, it is expected to take the necessary measures to
+                    ensure that its laws and practices conform to the provisions
+                    of the convention. The country is also expected to report to
+                    the ILO periodically on its implementation of each
+                    convention it has ratified. The ILO&rsquo;s core labor
+                    standards are set forth in the Declaration on{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/declaration/lang--en/index.htm"
+                        title="Fundamental Principles and Rights at Work"
+                    >
+                        Fundamental Principles and Rights at Work
+                    </a>{" "}
+                    as rights that all governments should ensure are realized,
+                    regardless of whether the government has ratified the
+                    corresponding convention or not. Governments that have not
+                    ratified the corresponding conventions must periodically
+                    report to the ILO on the realization of those rights.
+                </p>
+                <p>
+                    The following constitute the{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/global/standards/introduction-to-international-labour-standards/conventions-and-recommendations/lang--en/index.htm"
+                        title="set of core ILO conventions"
+                    >
+                        set of core ILO conventions
+                    </a>
+                    , though the ILO has additional conventions on compensation,
+                    occupational safety and health and other related labor
+                    issues.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C087"
+                        title="Freedom of Association and Protection of the Right to Organize Convention, 1948 (No. 87)"
+                    >
+                        Freedom of Association and Protection of the Right to
+                        Organize Convention, 1948 (No. 87)
+                    </a>
+                    .
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C098:NO"
+                        title="Right to Organize and Collective Bargaining Convention, 1949 (No. 98)"
+                    >
+                        Right to Organize and Collective Bargaining Convention,
+                        1949 (No. 98)
+                    </a>
+                    . This is supplemented by Recommendation 163.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ilo.org/dyn/normlex/en/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:312174,en:NO"
+                        title="Forced Labor Convention, 1930 (No. 29)"
+                    >
+                        Forced Labor Convention, 1930 (No. 29)
+                    </a>
+                    . This is supplemented by Recommendation 35.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029"
+                        title="Protocol of 2014 to the Forced Labor Convention, 1930"
+                    >
+                        Protocol of 2014 to the Forced Labor Convention, 1930
+                    </a>
+                    . This is supplemented by Recommendation 203.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C105:NO"
+                        title="Abolition of Forced Labor Convention, 1957 (No. 105)"
+                    >
+                        Abolition of Forced Labor Convention, 1957 (No. 105)
+                    </a>
+                    .
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C138:NO"
+                        title="Minimum Age Convention, 1973 (No. 138)"
+                    >
+                        Minimum Age Convention, 1973 (No. 138)
+                    </a>
+                    . This is supplemented by several Recommendations, including
+                    Recommendation 146.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C182:NO"
+                        title="Worst Forms of Child Labor Convention, 1999 (No. 182)"
+                    >
+                        Worst Forms of Child Labor Convention, 1999 (No. 182)
+                    </a>
+                    . This is supplemented by Recommendation 190.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C100:NO"
+                        title="Equal Remuneration Convention, 1951 (No. 100)"
+                    >
+                        Equal Remuneration Convention, 1951 (No. 100)
+                    </a>
+                    . This is supplemented by Recommendation 90.
+                </p>
+                <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C111:NO"
+                        title="Discrimination (Employment and Occupation) Convention, 1958 (No. 111)"
+                    >
+                        Discrimination (Employment and Occupation) Convention,
+                        1958 (No. 111)
+                    </a>
+                    . This is supplemented by Recommendation 111.
+                </p>
+                <p>
+                    The{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/empent/Publications/WCMS_094386/lang--en/index.htm"
+                    >
+                        ILO&rsquo;s Tripartite Declaration of Principles
+                        Concerning Multinational Enterprises and Social Policy
+                    </a>
+                    , adopted in 1977 states that, although ILO conventions are
+                    designed for governments, the underlying principles in them
+                    can and should be applied by companies.Today, most
+                    companies, industries and multi-industry coalitions with
+                    codes base their labor standards on the ILO conventions. In
+                    cases where national laws set lower standards than the ILO
+                    conventions&mdash;for example, with respect to the minimum
+                    age for work&mdash;companies should incorporate the ILO
+                    standard into their codes. Where national laws are equal to
+                    or more stringent than ILO standards, the code should meet
+                    or exceed national laws.
+                </p>
+                <p>
+                    Since 2010, the ILO has maintained a{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/empent/areas/business-helpdesk/lang--en/index.htm"
+                        title="Helpdesk for Business on International Labor Standards"
+                    >
+                        Helpdesk for Business on International Labor Standards
+                    </a>
+                    . This is a free and confidential service providing expert
+                    technical advice to users on the ILO&rsquo;s international
+                    labor standards and on the Tripartite Declaration of
+                    Principles Concerning Multinational Enterprises and Social
+                    Policy.
+                </p>
             </div>
         </StaticData>
     );

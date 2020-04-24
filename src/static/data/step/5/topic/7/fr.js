@@ -1,73 +1,70 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import StaticData from "../../../../../../components/StaticData";
 
 const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>
-                    Sujet particulier: Sous-traitance informelle et
-                    travail &agrave; domicile
-                </h1>
+                <h1>Communiquer le code</h1>
                 <p>
-                    Dans de nombreux pays, surtout les pays en
-                    d&eacute;veloppement, l&apos;&eacute;conomie informelle
-                    repr&eacute;sente une importante partie de
-                    l&apos;&eacute;conomie nationale. Le travail agricole est en
-                    grande partie informel et dans le secteur de la fabrication,
-                    des pans entiers de la production sont souvent
-                    sous-trait&eacute;s aupr&egrave;s d&apos;ateliers informels
-                    ou &agrave; domicile.&nbsp;
+                    Une communication efficace est un aspect important de tout
+                    programme de conformit&eacute; sociale. De nombreuses
+                    entreprises ont appris que de simples audits des lieux de
+                    travail et r&eacute;parations des violations ne
+                    r&egrave;glent pas un grand nombre des probl&egrave;mes du
+                    travail sur les sites de r&eacute;colte, d&apos;exploitation
+                    mini&egrave;re et de production, dans les installations de
+                    transformation et sur les autres lieux de travail. Une
+                    formation et une communication permanentes, le renforcement
+                    des capacit&eacute;s et l&apos;accent mis sur le
+                    perfectionnement constant se sont
+                    r&eacute;v&eacute;l&eacute;s &ecirc;tre la voie la plus
+                    efficace vers des progr&egrave;s durables dans le sens
+                    d&apos;une meilleure conformit&eacute;.
                 </p>
                 <p>
-                    Le travail des enfants et le travail forc&eacute; sont
-                    fr&eacute;quents dans l&apos;&eacute;conomie
-                    informelle&nbsp;&ndash; dans les lieux de travail non
-                    d&eacute;clar&eacute;s, en dehors du domaine des syndicats
-                    et des forces de l&apos;ordre. Le recours au travail des
-                    enfants &agrave; domicile augmente la productivit&eacute;
-                    d&apos;une cellule familiale ainsi que ses revenus, et il y
-                    a peu de chances d&rsquo;intervention des instances
-                    r&eacute;glementaires. De plus, l&apos;attention accrue
-                    accord&eacute;e par de nombreux gouvernements et entreprises
-                    &agrave; l&apos;&eacute;limination du travail des enfants
-                    pourrait avoir intensifi&eacute; sa clandestinit&eacute;
-                    dans le travail informel. L&apos;&eacute;conomie informelle
-                    comporte souvent les formes les plus dangereuses et
-                    dissimul&eacute;es de travail, et les enfants sont
-                    extr&ecirc;mement vuln&eacute;rables aux incidences
-                    n&eacute;gatives du travail li&eacute;es aux situations de
-                    travail informel.
+                    <Link to="/steps/6">
+                        La 4<sup>e</sup>&nbsp;&eacute;tape: communiquer et
+                        former l&rsquo;ensemble de votre cha&icirc;ne
+                        d&rsquo;approvisionnement
+                    </Link>{" "}
+                    d&eacute;taillera les tenants et les aboutissants de la
+                    communication de votre code et de votre syst&egrave;me de
+                    conformit&eacute; &agrave; l&rsquo;intention de
+                    diff&eacute;rents publics: vos propres employ&eacute;s, vos
+                    actionnaires, vos fournisseurs, les cadres et les
+                    contrema&icirc;tres de vos fournisseurs, les travailleurs
+                    dans les &eacute;tablissements de l&apos;ensemble de votre
+                    cha&icirc;ne d&apos;approvisionnement, les pouvoirs publics,
+                    les organisations de travailleurs, les groupes
+                    communautaires et autres. Il y sera &eacute;galement
+                    pr&eacute;cis&eacute; comment rendre votre code plus
+                    accessible pour les parties prenantes en &eacute;vitant le
+                    jargon technique inutile et en fournissant une traduction
+                    dans diff&eacute;rentes langues.
                 </p>
                 <p>
-                    Les entreprises et les groupes de plusieurs parties
-                    prenantes sont aux prises aux d&eacute;fis du travail
-                    informel et &agrave; domicile depuis des ann&eacute;es. En
-                    2010, l&apos;Initiative pour le commerce &eacute;thique a
-                    publi&eacute;{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
-                        title="ETI Homeworker Guidelines"
-                    >
-                        ETI Homeworker Guidelines
-                    </a>
                     <em>
-                        {" "}
-                        &agrave; l&rsquo;intention des d&eacute;taillants et des
-                        fournisseurs
+                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
+                        des soci&eacute;t&eacute;s et entit&eacute;s non
+                        gouvernementales sp&eacute;cifiques dans ce guide sont
+                        &agrave; des fins d&rsquo;information uniquement afin de
+                        d&eacute;montrer les bonnes pratiques reconnues &agrave;
+                        l&rsquo;&eacute;chelle internationale, &agrave; la date
+                        de lancement de l&rsquo;appli. Toute
+                        r&eacute;f&eacute;rence &agrave; ces entit&eacute;s ne
+                        saurait constituer une approbation officielle de ces
+                        derni&egrave;res, de leurs produits ou de leurs services
+                        par le d&eacute;partement du Travail des
+                        &Eacute;tats-Unis,{" "}
                     </em>
-                    . Ces directives et leurs pi&egrave;ces justificatives
-                    comprennent des outils tels qu&apos;une politique
-                    mod&egrave;le relative au travail &agrave; domicile
-                    destin&eacute;e aux d&eacute;taillants et aux fournisseurs,
-                    des guides de recherche pour identifier le travail &agrave;
-                    domicile dans les cha&icirc;nes d&apos;approvisionnement,
-                    des outils d&rsquo;inventaire et des recommandations pour
-                    fixer les r&eacute;mun&eacute;rations &agrave; la
-                    pi&egrave;ce appropri&eacute;es, puisque les travailleurs
-                    &agrave; domicile sont d&apos;ordinaire pay&eacute;s ainsi.
+                    <em>
+                        et leur inclusion dans cette appli ne saurait &ecirc;tre
+                        interpr&eacute;t&eacute;e comme un examen exhaustif des
+                        pratiques de ces entit&eacute;s dans tous les domaines
+                    </em>
+                    <em>.</em>
                 </p>
             </div>
         </StaticData>

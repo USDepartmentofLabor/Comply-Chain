@@ -1,129 +1,242 @@
 import React from "react";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
-import usDol from "../../../../../images/usdol.jpg";
+import ilo from "../../../../../images/ilo.jpg";
 
 const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>Programaci&oacute;n de las auditor&iacute;as</h1>
+                <h1>
+                    Tratar la vulnerabilidad de los migrantes en los
+                    c&oacute;digos de conducta
+                </h1>
                 <p>
-                    Si la empresa es parte de una industria o grupo de varias
-                    industrias, los sistemas y procesos del grupo pueden
-                    determinar cu&aacute;ndo se programan las auditor&iacute;as
-                    y de qu&eacute; manera. Si se procura establecer un sistema
-                    de cumplimiento social por cuenta propia, es preciso tomar
-                    varias decisiones a la hora de programar las
-                    auditor&iacute;as.
+                    Con frecuencia, los trabajadores m&aacute;s vulnerables al
+                    trabajo forzoso y a la trata son los migrantes y temporales,
+                    que representan una proporci&oacute;n considerable de la
+                    fuerza laboral en determinadas industrias y partes del
+                    mundo. En algunos casos, los empleadores obtienen
+                    trabajadores migrantes y temporales mediante servicios de
+                    intermediaci&oacute;n o reclutamiento. En estas situaciones,
+                    los trabajadores son sumamente vulnerables a una amplia gama
+                    de abusos. Algunos reclutadores confiscan los documentos de
+                    identidad de los trabajadores a fin de atraparlos o
+                    enga&ntilde;arlos, o ambos, sobre el tipo de trabajo que
+                    realizar&aacute;n, las condiciones laborales, las
+                    condiciones del alojamiento o la vivienda y dem&aacute;s
+                    aspectos laborales. En algunos casos, se obliga a los
+                    trabajadores a efectuar pagos a los reclutadores,
+                    intermediarios y dem&aacute;s actores de la cadena de
+                    migraci&oacute;n, pagos que pueden resultar imposibles de
+                    costear y que llevan a la servidumbre por deudas. Tal como
+                    se consagra en el Convenio 181 de la OIT, todos los costos
+                    de reclutar la mano de obra deber&aacute;n ser solventados
+                    por el empleador; los trabajadores nunca deben incurrir en
+                    gasto alguno para acceder a un empleo.
                 </p>
                 <p>
-                    Primero, si la auditor&iacute;a es parte de un proceso
-                    previo a la selecci&oacute;n o inscripci&oacute;n (por
-                    ejemplo, si exige que los posibles proveedores obtengan un
-                    puntaje m&iacute;nimo en una auditor&iacute;a antes de
-                    realizar el primer pedido), se deber&aacute;n programar las
-                    auditor&iacute;as de estas plantas en cuanto se considere
-                    que est&aacute;n listas, seg&uacute;n la experiencia que
-                    estas tengan con auditor&iacute;as, la capacitaci&oacute;n
-                    recibida o ambas. Una vez que el proveedor haya pasado la
-                    auditor&iacute;a y quedado inscrito como proveedor de la
-                    empresa, se deben repetir las auditor&iacute;as
-                    peri&oacute;dicamente, en funci&oacute;n de las
-                    conclusiones.
+                    Si se sabe o sospecha que hay trabajadores migrantes en la
+                    cadena de suministro, es importante incluir normas y
+                    disposiciones sobre el tema en el c&oacute;digo de
+                    conducta.&nbsp;
                 </p>
-                <ExampleInAction id="prereg">
+                <ExampleInAction id="patagonia">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        Ejemplo en acci&oacute;n: proceso previo a la
-                        inscripci&oacute;n
+                        Ejemplo en acci&oacute;n: normas sobre los trabajadores
+                        migrantes de Patagonia*
                     </h2>
                     <p>
-                        Muchas empresas exigen que todo proveedor nuevo obtenga
-                        un puntaje m&iacute;nimo en la auditoria social antes de
-                        realizar el primer pedido. Por lo general, la empresa
-                        capacita al proveedor a fin de prepararlo para la
-                        auditor&iacute;a, o tal vez se pretenda que un tercero
-                        capacite a los proveedores. Una vez que el proveedor
-                        pasa la auditor&iacute;a, algunas empresas lo inscriben
-                        en un sistema de informaci&oacute;n de cumplimiento
-                        social mientras que otras usan sistemas de red y
-                        permiten que los proveedores se inscriban por su cuenta.
-                    </p>
-                    <p>
-                        Por ejemplo, Target Corporation*, como parte del
-                        tr&aacute;mite de inscripci&oacute;n de contratistas
-                        exige que aquellos que brindan productos de la marca
-                        Target realicen una evaluaci&oacute;n de cumplimiento y
-                        derechos humanos. Si un contratista sugiere abastecerse
-                        de un proveedor con una trayectoria de infracciones en
-                        materia de cumplimiento social, Target exige un plan de
-                        acci&oacute;n correctiva completo para rectificar las
-                        infracciones antes de comenzar la producci&oacute;n.
-                        Para m&aacute;s informaci&oacute;n, v&eacute;ase el{" "}
+                        Cuando tras las auditor&iacute;as de 2011 se
+                        descubri&oacute; que hab&iacute;a indicios de trabajo
+                        forzoso, trata de seres humanos y explotaci&oacute;n
+                        laboral en las f&aacute;bricas de los proveedores de
+                        Patagonia en Taiw&aacute;n, la empresa de indumentaria
+                        para actividades al aire libre se dio cuenta de que a
+                        pesar de contar con un c&oacute;digo de conducta para
+                        proveedores, necesitaba normas m&aacute;s estrictas.
+                        Patagonia colabor&oacute; con Verit&eacute;*, ONG que
+                        promueve condiciones de trabajo seguras, justas y
+                        legales en todo el mundo, para investigar a fin de
+                        comprender la situaci&oacute;n de los trabajadores
+                        migrantes en su cadena de suministro. Al enterarse de
+                        que muchos trabajadores migrantes eran v&iacute;ctimas
+                        de un sistema de reclutamiento que los somet&iacute;a a
+                        la explotaci&oacute;n ya que se les cobraba tasas
+                        excesivas que deb&iacute;an pagar a los intermediarios y
+                        los volv&iacute;a vulnerables a la servidumbre por
+                        deudas, Patagonia formul&oacute; normas integrales para
+                        estos trabajadores. Gracias a esas normas, se
+                        proh&iacute;be que las f&aacute;bricas de los
+                        proveedores cobren tasas de reclutamiento;
+                        adem&aacute;s, se refieren a una serie de otros temas
+                        pertinentes para los trabajadores migrantes, como el
+                        alojamiento, las condiciones de trabajo, el salario y
+                        los procedimientos de presentaci&oacute;n de
+                        reclamaciones. Las{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://corporate.target.com/corporate-responsibility/responsible-sourcing/social-compliance/labor-and-human-rights"
-                            title="Sitio web de las normas para los contratistas de Target"
+                            href="http://www.patagonia.com/static/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw604fc14d/PDF-US/Migrant_Worker_Employment_Standards.pdf"
+                            title="Normas de empleo de trabajadores migrantes"
                         >
-                            sitio web de las normas para los contratistas de
-                            Target
+                            normas de empleo de trabajadores migrantes
+                        </a>{" "}
+                        de Patagonia est&aacute;n a disposici&oacute;n del
+                        p&uacute;blico.
+                    </p>
+                    <p>
+                        Para obtener m&aacute;s informaci&oacute;n, v&eacute;ase
+                        el art&iacute;culo (en ingl&eacute;s) Patagonia:{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.patagonia.com/blog/2015/06/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/"
+                            title="<i>T</i><i>he Unacceptably High Cost of Labor- How a deeper dive into our supply chain led to a new Migrant Worker Standard</i>."
+                        >
+                            <em>
+                                <i>
+                                    The Unacceptably High Cost of Labor- How a
+                                    deeper dive into our supply chain led to a
+                                    new Migrant Worker Standard
+                                </i>
+                            </em>
+                        </a>
+                        <em>.</em>
+                    </p>
+                </ExampleInAction>
+                <p>
+                    Un documento de pol&iacute;tica importante que se centra en
+                    los trabajadores migrantes vulnerables es el titulado
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf"
+                        title="<i>Dhaka Principles for Migration with Dignity</i>"
+                    >
+                        {" "}
+                        Principios de Dhaka para una migraci&oacute;n con
+                        dignidad
+                    </a>{" "}
+                    (Principios de Dhaka). Los Principios de Dhaka son diez y
+                    permiten seguir al trabajador desde el reclutamiento,
+                    pasando por el empleo y hasta el final de la relaci&oacute;n
+                    laboral; presentan postulados clave que deben respetar los
+                    empleadores y los reclutadores de trabajadores migrantes a
+                    fin de garantizar una migraci&oacute;n con dignidad. Los
+                    Principios de Dhaka fueron formulados por el{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ihrb.org/"
+                        title="Institute for Human Rights and Business"
+                    >
+                        Institute for Human Rights and Business (IHRB)
+                    </a>{" "}
+                    y cuentan con el apoyo de empresas, gobiernos, sindicatos y
+                    la sociedad civil. Se basan en las normas internacionales de
+                    derechos humanos y en los tres pilares de los{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+                        title="<i>Principios Rectores sobre empresas y derechos humanos</i>"
+                    >
+                        Principios Rectores de las Naciones Unidas sobre
+                        empresas y derechos humanos
+                    </a>
+                    .
+                </p>
+                <img src={ilo} alt="Obrero subido a un andamio" />
+                <p className="small-text">&copy;M. Crozet/OIT</p>
+                <ExampleInAction id="leadership">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Ejemplo en acci&oacute;n: Leadership Group for
+                            Responsible Recruitment
+                        </strong>
+                    </h2>
+                    <p>
+                        Lanzado en mayo de 2016, el{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment"
+                            title="Leadership Group for Responsible Recruitment"
+                        >
+                            Leadership Group for Responsible Recruitment
+                        </a>{" "}
+                        es una colaboraci&oacute;n entre numerosas empresas
+                        multinacionales de envergadura y organizaciones de
+                        expertos que impulsa un cambio positivo en las
+                        pr&aacute;cticas de reclutamiento de trabajadores
+                        migrantes. Los integrantes del Leadership Group se
+                        comprometieron con el principio de que el empleador
+                        paga:{" "}
+                        <em>
+                            &quot;Ning&uacute;n trabajador debe pagar por
+                            conseguir trabajo; los gastos de reclutamiento
+                            ser&aacute;n solventados por el empleador, no por el
+                            empleado.&quot;
+                        </em>
+                    </p>
+                    <p>
+                        Convocado por la organizaci&oacute;n no gubernamental{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ihrb.org/"
+                            title="Institute for Human Rights and Business"
+                        >
+                            Institute for Human Rights and Business
+                        </a>{" "}
+                        (IHRB), el Leadership Group reclama que el principio de
+                        que el empleador paga est&eacute; integrado en las
+                        pol&iacute;ticas y pr&aacute;cticas de empresas y
+                        gobiernos a fin de proteger a los trabajadores migrantes
+                        y compensar el riesgo de que haya trabajo forzoso en sus
+                        propias operaciones, en los v&iacute;nculos comerciales
+                        o en las cadenas de suministro mundiales. El Leadership
+                        Group brinda un medio de defensa y colaboraci&oacute;n y
+                        funge de centro de conocimientos para compartir buenas
+                        pr&aacute;cticas, instrumentos y orientaci&oacute;n en
+                        materia de reclutamiento responsable.
+                    </p>
+                    <p>
+                        Para obtener m&aacute;s informaci&oacute;n sobre el
+                        Leadership Group y los instrumentos de reclutamiento
+                        &eacute;tico, consultar el portal sobre reclutamiento
+                        responsable{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ihrb.org/employerpays/"
+                            title="Responsible Recruitment Gateway"
+                        >
+                            Responsible Recruitment Gateway
                         </a>
                         .
                     </p>
                 </ExampleInAction>
                 <p>
-                    Las empresas con grandes cadenas de suministro o proveedores
-                    dispersos suelen realizar auditor&iacute;as por muestreo.
-                    Esto es com&uacute;n con auditor&iacute;as de productores
-                    agr&iacute;colas, por ejemplo. El muestreo debe ser
-                    aleatorio y estad&iacute;sticamente representativo.
-                </p>
-                <p>
-                    Las auditor&iacute;as deben programarse en los momentos en
-                    que es m&aacute;s probable que se produzcan infracciones al
-                    c&oacute;digo. Por ejemplo, en la agricultura, es m&aacute;s
-                    probable que haya trabajo infantil en la &eacute;poca de
-                    cosecha. En la manufactura, los problemas laborales suelen
-                    ocurrir cuando las f&aacute;bricas alcanzan los niveles
-                    m&aacute;ximos de producci&oacute;n. La evaluaci&oacute;n de
-                    riesgos debe contener informaci&oacute;n que permita tomar
-                    estas decisiones.
-                </p>
-                <img
-                    id="img-browser"
-                    className="small-img"
-                    src={usDol}
-                    alt="trabajo infantil en el sector agr&iacute;cola"
-                />
-                <p className="small-text">
-                    &copy;Shelley Stinelli/Departamento de Trabajo de los
-                    Estados Unidos
-                </p>
-                <p>
-                    Las auditor&iacute;as de la cadena de suministro de la
-                    empresa deben programarse peri&oacute;dicamente. Sin
-                    embargo, el equipo de auditor&iacute;a tambi&eacute;n debe
-                    estar preparado para reaccionar r&aacute;pidamente si se
-                    recibe una reclamaci&oacute;n sobre un sitio de trabajo
-                    puntual.
-                </p>
-                <p>
-                    Algunas empresas permiten que los proveedores realicen sus
-                    propias auditor&iacute;as, en las cuales eval&uacute;an su
-                    propio desempe&ntilde;o, para lo cual emplean instrumentos
-                    de auditor&iacute;a y presentan los resultados a la empresa.
-                    Por lo general, las empresas permiten esta opci&oacute;n a
-                    los proveedores con una trayectoria establecida de
-                    desempe&ntilde;o excelente en las auditor&iacute;as, o a
-                    aquellos ubicados en pa&iacute;ses donde el gobierno posee
-                    una trayectoria de aplicaci&oacute;n eficaz del derecho
-                    laboral. Se recomienda reservar el derecho de realizar
-                    auditor&iacute;as complementarias a dichos proveedores. Las
-                    auditor&iacute;as propias presentan la ventaja de elevar la
-                    capacidad de los proveedores pero los resultados de las
-                    mismas deben ser verificados por una parte independiente.
+                    En algunos casos, los empleadores brindan alojamiento a los
+                    trabajadores migrantes como parte de las condiciones de
+                    empleo. Para los empleadores, se trata de una manera de
+                    reclutar empleados valiosos y retenerlos; para los
+                    trabajadores migrantes que se encuentran lejos de su hogar,
+                    este arreglo puede facilitar la vivienda que necesitan. Sin
+                    embargo, dicha vivienda debe ser segura, limpia y adecuada
+                    para la poblaci&oacute;n de trabajadores. Los trabajadores
+                    siempre deben gozar de la libertad de circulaci&oacute;n y
+                    del derecho de elegir otra vivienda si as&iacute; lo desean.
+                    Seg&uacute;n la OIT, si los trabajadores tienen
+                    &ldquo;condiciones de alojamiento degradantes&rdquo; en la
+                    vivienda que facilita el empleador y se los somete a
+                    alg&uacute;n tipo de sanci&oacute;n o amenaza que les impida
+                    irse del trabajo, se considera una situaci&oacute;n de
+                    trabajo forzoso.
                 </p>
             </div>
         </StaticData>

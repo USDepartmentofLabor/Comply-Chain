@@ -1,315 +1,119 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 
 const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>What Makes a Good Code of Conduct?</h1>
+                <h1>What Can Stakeholders Do?</h1>
                 <p>
-                    Codes take nearly as many forms and formats as there are
-                    companies. Some codes are stand-alone documents, while
-                    others are presented within broader statements of company
-                    mission, values or policies. Some are included in supplier
-                    guidance documents that include other requirements, such as
-                    product quality. Increasingly, companies are including code
-                    of conduct language in multiple documents, as social
-                    compliance considerations become more interwoven within
-                    corporate strategy across business units.
+                    There are fruitful ways to collaborate and partner with
+                    stakeholders on almost every component of a social
+                    compliance system. Below are just a few examples:
                 </p>
-                <p>
-                    Some code documents are very general&mdash;merely laying out
-                    the broad areas of compliance&mdash;while others are much
-                    more detailed. In either case, the code typically is a
-                    foundation for more detailed guidance for the
-                    decision-makers who implement the social compliance system
-                    within the company. For instance, the auditing tools derived
-                    from a code are discussed under{" "}
-                    <Link to="/steps/5">Step 5, Monitor Compliance</Link>.
-                </p>
-                <h2>Example Codes</h2>
-                <p>
-                    The following examples demonstrate the various forms that
-                    codes can take:
-                </p>
-                <ul>
-                    <li>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://levistrauss.com/wp-content/uploads/2017/12/TOE.pdf"
-                            title="Levi Strauss &amp; Co*. Terms of Engagement"
-                        >
-                            Levi Strauss &amp; Co*. Terms of Engagement
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.coca-colacompany.com/content/dam/journey/us/en/private/fileassets/pdf/unknown/unknown/SGP_Brochure_ENG.pdf"
-                            title="Coca-Cola* Supplier Guiding Principles"
-                        >
-                            Coca-Cola* Supplier Guiding Principles
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://globalassets.starbucks.com/assets/1deb372ee3d840179e59c5b9c21cd5fe.pdf"
-                            title="Starbucks* Supplier Responsibility Standards: Manufactured Goods and Services"
-                        >
-                            Starbucks* Supplier Responsibility Standards:
-                            Manufactured Goods and Services
-                        </a>
-                    </li>
-                </ul>
-                <p>
-                    A good code of conduct should be a public document and state
-                    clearly the actors within the company that are responsible
-                    for its development, oversight and implementation which
-                    should include the Board of Directors and senior management,
-                    as well as all of the business units involved in social
-                    compliance. Publishing the code communicates to all of your
-                    stakeholders that social compliance is valued at the highest
-                    levels of the company and that the company expects to be
-                    scrutinized for its degree of compliance.&nbsp;
-                </p>
-                <h2>The Content of Codes</h2>
-                <p>
-                    The content of codes has become more standardized in recent
-                    years, consolidating around core content areas that
-                    generally include:
-                </p>
-                <ul>
-                    <li>Governance and management of the code</li>
-                    <li>Scope of coverage</li>
-                    <li>Labor standards</li>
-                    <li>
-                        Additional workplace policies, such as a right to humane
-                        treatment and freedom from sexual harassment
-                    </li>
-                    <li>
-                        Environmental standards{" "}
+                <div className="indent-margin">
+                    <h2>Root causes</h2>
+                    <p className="indent-margin">
+                        As noted earlier, tackling the root causes of labor
+                        abuse is fundamentally a governmental responsibility.
+                        Working with governments to advocate for more resource
+                        allocation to these issues can yield lasting long-term
+                        benefits, and is likely to be more effective when
+                        several companies join together.
+                    </p>
+                    <h2>Code of conduct development</h2>
+                    <p className="indent-margin">
+                        One of the tenets of good code of conduct development is
+                        incorporating input from a broad range of stakeholders.
+                        You can seek input at the stage of initial code
+                        drafting, or maintain a standing group of contributors
+                        who provide ideas and feedback on the code on an ongoing
+                        basis.
+                    </p>
+                    <h2>Risk assessment</h2>
+                    <p className="indent-margin">
+                        Understanding your risks of child labor, forced labor
+                        and other workplace issues is often difficult due to
+                        lack of empirical data. Input from a broad range of
+                        knowledgeable people is important to get an accurate
+                        idea of risks, as well as recommendations for ways to
+                        mitigate them.
+                    </p>
+                    <h2>Training</h2>
+                    <p className="indent-margin">
+                        A successful social compliance program must make a
+                        significant investment in training and capacity
+                        building. Involvement of stakeholders can have a variety
+                        of benefits; for instance, ensuring that training
+                        materials are culturally appropriate.
+                    </p>
+                    <h2>Communication</h2>
+                    <p className="indent-margin">
+                        Stakeholders can assist in improving communication
+                        channels; for example, trade union representatives can
+                        receive feedback and concerns from workers at worksites
+                        where a union is present, while some civil society
+                        groups specialize in setting up grievance mechanisms and
+                        other communication channels at non-unionized
+                        facilities.
+                    </p>
+                    <h2>Auditing and independent monitoring/verification</h2>
+                    <p className="indent-margin">
+                        Some community-based groups are trained to carry out
+                        monitoring and independent verification services; others
+                        can provide an independent &ldquo;check&rdquo; for
+                        internal or external monitors.
+                    </p>
+                    <h2>Remediation</h2>
+                    <p className="indent-margin">
+                        Qualified organizations can provide services for victims
+                        of labor violations or link companies to local resources
+                        to assist and remedy.
+                    </p>
+                    <h2>Public reporting</h2>
+                    <p className="indent-margin">
+                        Stakeholders can be instrumental in reviewing or vetting
+                        reports and providing feedback.
+                    </p>
+                </div>
+                <OwnWords>
+                    <h2>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h2>
+                    <p>
+                        &ldquo;Stakeholder engagement can take many forms. It
+                        can be initiated by an organization or it can begin as a
+                        response by an organization to one or more stakeholders.
+                        It can take place in either informal or formal meetings
+                        and can follow a wide variety of formats such as
+                        individual meetings, conferences, workshops, public
+                        hearings, round-table discussions, advisory committees,
+                        regular and structured information and consultation
+                        procedures, collective bargaining and web-based forums.
+                        Stakeholder engagement should be interactive and is
+                        intended to provide opportunities for
+                        stakeholders&rsquo; views to be heard. Its essential
+                        feature is that it involves two-way
+                        communication.&rdquo;
+                    </p>
+                    <p>
                         <em>
-                            (note: while these standards are often included in
-                            the larger code of conduct, they are not discussed
-                            further in this App due to its focus on child labor
-                            and forced labor)
+                            Source: International Organization for
+                            Standardization (ISO){" "}
                         </em>
-                    </li>
-                    <li>
-                        Management systems, procedures and practice for
-                        implementation
-                    </li>
-                    <li>
-                        Legal liabilities and penalties for failure to implement
-                        code provisions
-                    </li>
-                </ul>
-                <p>
-                    With respect to labor standards, a strong code should
-                    address areas covered by the International Labor
-                    Organization&rsquo;s (ILO) core labor standards:
-                </p>
-                <ul>
-                    <li>Freedom of association and collective bargaining</li>
-                    <li>Discrimination in employment</li>
-                    <li>Child labor</li>
-                    <li>Forced labor</li>
-                </ul>
-                <p>In addition, it should cover the following issues:</p>
-                <ul>
-                    <li>Compensation</li>
-                    <li>Hours of work</li>
-                    <li>
-                        Occupational safety and health, including issues such as
-                        industrial hygiene, emergency preparedness, safety
-                        equipment, sanitation, and access to food and water
-                    </li>
-                </ul>
-                <h2>Core ILO Convention</h2>
-                <p>
-                    The International Labor Organization (ILO) has adopted
-                    standards, referred to as conventions and recommendations,
-                    in all of these areas. When a national government ratifies a
-                    convention, it is expected to take the necessary measures to
-                    ensure that its laws and practices conform to the provisions
-                    of the convention. The country is also expected to report to
-                    the ILO periodically on its implementation of each
-                    convention it has ratified. The ILO&rsquo;s core labor
-                    standards are set forth in the Declaration on{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/declaration/lang--en/index.htm"
-                        title="Fundamental Principles and Rights at Work"
-                    >
-                        Fundamental Principles and Rights at Work
-                    </a>{" "}
-                    as rights that all governments should ensure are realized,
-                    regardless of whether the government has ratified the
-                    corresponding convention or not. Governments that have not
-                    ratified the corresponding conventions must periodically
-                    report to the ILO on the realization of those rights.
-                </p>
-                <p>
-                    The following constitute the{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/global/standards/introduction-to-international-labour-standards/conventions-and-recommendations/lang--en/index.htm"
-                        title="set of core ILO conventions"
-                    >
-                        set of core ILO conventions
-                    </a>
-                    , though the ILO has additional conventions on compensation,
-                    occupational safety and health and other related labor
-                    issues.
-                </p>
-                <p>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C087"
-                        title="Freedom of Association and Protection of the Right to Organize Convention, 1948 (No. 87)"
-                    >
-                        Freedom of Association and Protection of the Right to
-                        Organize Convention, 1948 (No. 87)
-                    </a>
-                    .
-                </p>
-                <p>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C098:NO"
-                        title="Right to Organize and Collective Bargaining Convention, 1949 (No. 98)"
-                    >
-                        Right to Organize and Collective Bargaining Convention,
-                        1949 (No. 98)
-                    </a>
-                    . This is supplemented by Recommendation 163.
-                </p>
-                <p>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.ilo.org/dyn/normlex/en/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:312174,en:NO"
-                        title="Forced Labor Convention, 1930 (No. 29)"
-                    >
-                        Forced Labor Convention, 1930 (No. 29)
-                    </a>
-                    . This is supplemented by Recommendation 35.
-                </p>
-                <p>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029"
-                        title="Protocol of 2014 to the Forced Labor Convention, 1930"
-                    >
-                        Protocol of 2014 to the Forced Labor Convention, 1930
-                    </a>
-                    . This is supplemented by Recommendation 203.
-                </p>
-                <p>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C105:NO"
-                        title="Abolition of Forced Labor Convention, 1957 (No. 105)"
-                    >
-                        Abolition of Forced Labor Convention, 1957 (No. 105)
-                    </a>
-                    .
-                </p>
-                <p>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C138:NO"
-                        title="Minimum Age Convention, 1973 (No. 138)"
-                    >
-                        Minimum Age Convention, 1973 (No. 138)
-                    </a>
-                    . This is supplemented by several Recommendations, including
-                    Recommendation 146.
-                </p>
-                <p>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C182:NO"
-                        title="Worst Forms of Child Labor Convention, 1999 (No. 182)"
-                    >
-                        Worst Forms of Child Labor Convention, 1999 (No. 182)
-                    </a>
-                    . This is supplemented by Recommendation 190.
-                </p>
-                <p>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C100:NO"
-                        title="Equal Remuneration Convention, 1951 (No. 100)"
-                    >
-                        Equal Remuneration Convention, 1951 (No. 100)
-                    </a>
-                    . This is supplemented by Recommendation 90.
-                </p>
-                <p>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C111:NO"
-                        title="Discrimination (Employment and Occupation) Convention, 1958 (No. 111)"
-                    >
-                        Discrimination (Employment and Occupation) Convention,
-                        1958 (No. 111)
-                    </a>
-                    . This is supplemented by Recommendation 111.
-                </p>
-                <p>
-                    The{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/empent/Publications/WCMS_094386/lang--en/index.htm"
-                    >
-                        ILO&rsquo;s Tripartite Declaration of Principles
-                        Concerning Multinational Enterprises and Social Policy
-                    </a>
-                    , adopted in 1977 states that, although ILO conventions are
-                    designed for governments, the underlying principles in them
-                    can and should be applied by companies.Today, most
-                    companies, industries and multi-industry coalitions with
-                    codes base their labor standards on the ILO conventions. In
-                    cases where national laws set lower standards than the ILO
-                    conventions&mdash;for example, with respect to the minimum
-                    age for work&mdash;companies should incorporate the ILO
-                    standard into their codes. Where national laws are equal to
-                    or more stringent than ILO standards, the code should meet
-                    or exceed national laws.
-                </p>
-                <p>
-                    Since 2010, the ILO has maintained a{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/empent/areas/business-helpdesk/lang--en/index.htm"
-                        title="Helpdesk for Business on International Labor Standards"
-                    >
-                        Helpdesk for Business on International Labor Standards
-                    </a>
-                    . This is a free and confidential service providing expert
-                    technical advice to users on the ILO&rsquo;s international
-                    labor standards and on the Tripartite Declaration of
-                    Principles Concerning Multinational Enterprises and Social
-                    Policy.
-                </p>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.iso.org/standard/42546.html"
+                            title="26000, Guidance on Social Responsibility"
+                        >
+                            26000, Guidance on Social Responsibility
+                        </a>
+                        <em>, 2010</em>.
+                    </p>
+                </OwnWords>
             </div>
         </StaticData>
     );

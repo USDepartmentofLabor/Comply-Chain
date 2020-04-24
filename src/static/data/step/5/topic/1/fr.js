@@ -1,72 +1,229 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import StaticData from "../../../../../../components/StaticData";
+import Accordion from "../../../../../../components/Accordion";
 
 const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Audits: guide de d&eacute;marrage</h1>
+                <h1>Accords-cadre internationaux (ACI)</h1>
                 <p>
-                    Les audits sont au c&oelig;ur de la mise en &oelig;uvre
-                    d&apos;un syst&egrave;me efficace de conformit&eacute;
-                    sociale et devraient &ecirc;tre suivis par leurs
-                    r&eacute;sultats, l&apos;&eacute;valuation des
-                    donn&eacute;es d&apos;audit, une planification et des
-                    activit&eacute;s &agrave; partir de cette &eacute;valuation.
+                    Les ACI, &eacute;galement appel&eacute;s accords-cadre
+                    mondiaux (ACM), se distinguent des codes de conduite des
+                    entreprises car ce sont des instruments{" "}
+                    <em>n&eacute;goci&eacute;s</em> entre des entreprises
+                    multinationales et des f&eacute;d&eacute;rations syndicales
+                    internationales afin de s&apos;assurer que les entreprises
+                    s&apos;engagent &agrave; respecter certains principes
+                    essentiels englobant les relations industrielles et les
+                    conditions de travail. Il existe divers ACI mais ils se
+                    fondent sur les normes fondamentales du travail de
+                    l&apos;OIT, centr&eacute;es sur deux grandes
+                    cat&eacute;gories de normes: a) les principes et droits
+                    fondamentaux du travail (libert&eacute; d&apos;association,
+                    n&eacute;gociation collective, non-discrimination,
+                    &eacute;limination du travail forc&eacute;, abolition du
+                    travail des enfants) et les termes et conditions minimum de
+                    l&apos;emploi (dur&eacute;e du travail, salaires,
+                    s&eacute;curit&eacute; et sant&eacute; au travail) ; et b)
+                    d&apos;autres conditions de travail: mobilit&eacute; et
+                    questions connexes telles que la formation, la
+                    s&eacute;curit&eacute; de l&apos;emploi, la sous-traitance
+                    et la restructuration.&nbsp;
                 </p>
                 <p>
-                    Comme mentionn&eacute; dans{" "}
-                    <Link to="/steps/1">
-                        la 1<sup>&egrave;re</sup> &eacute;tape: faire
-                        participer les parties prenantes et les partenaires
-                    </Link>
-                    , si vous faites partie d&apos;un groupe sectoriel ou
-                    plurisectoriel, ce groupe aura peut-&ecirc;tre
-                    d&eacute;j&agrave; des auditeurs form&eacute;s et/ou des
-                    documents de formation d&apos;auditeurs. Il pourrait avoir
-                    tous les outils d&apos;audit qui correspondent au code de
-                    votre groupe. Nombre de ces groupes coordonnent la conduite
-                    d&rsquo;audits conjoints de fournisseurs communs ou le
-                    partage des rapports d&rsquo;audit.
+                    L&rsquo;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.industriall-union.org/industriall-global-union-and-hm-sign-global-framework-agreement"
+                        title="accord-cadre mondial "
+                    >
+                        accord-cadre international
+                    </a>{" "}
+                    entre le syndicat international{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.industriall-union.org/"
+                        title="IndustriALL"
+                    >
+                        IndustriALL
+                    </a>{" "}
+                    et le d&eacute;taillant de v&ecirc;tements Hennes &amp;
+                    Mauritz a fait l&rsquo;objet d&rsquo;une attention positive
+                    et couvre 1,6&nbsp;million de travailleurs et travailleuses
+                    de l&rsquo;industrie textile. Il encourage les conventions
+                    collectives aux niveaux des soci&eacute;t&eacute;s et des
+                    usines, conf&egrave;re aux travailleurs le droit explicite
+                    de refuser de travailler dans des conditions dangereuses,
+                    interdit la discrimination contre les repr&eacute;sentants
+                    des travailleurs et garantit la formation tant de la
+                    direction que des repr&eacute;sentants syndicaux concernant
+                    notamment les responsabilit&eacute;s des employeurs, les
+                    droits et obligations des travailleurs, les relations
+                    industrielles, les conventions collectives et le
+                    r&egrave;glement pacifique des conflits. Le premier
+                    accord-cadre international a &eacute;t&eacute; sign&eacute;
+                    en 1988 par l&apos;entreprise fran&ccedil;aise
+                    internationale d&apos;alimentation BSN (devenue Danone en
+                    1994) et l&apos;Union Internationale des Travailleurs de
+                    l&apos;Alimentation (UITA). Les parties sont convenues que
+                    l&apos;ACI s&apos;appliquerait &agrave; toutes les
+                    op&eacute;rations mondiales, qui en 2008 recouvraient
+                    environ 100&nbsp;000&nbsp;employ&eacute;s dans le monde
+                    entier. L&apos;accord initial pr&eacute;cisait que les deux
+                    parties encourageraient des initiatives coordonn&eacute;es
+                    sur diverses questions, y compris la formation
+                    professionnelle, la coordination des informations entre les
+                    pays, la garantie de l&apos;&eacute;galit&eacute; entre les
+                    hommes et les femmes et la mise en &oelig;uvre des droits
+                    des syndicats de travailleurs, d&eacute;finis dans les
+                    conventions sp&eacute;cifiques de l&apos;OIT. En
+                    mars&nbsp;2016,{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://business-humanrights.org/sites/default/files/webform/Danone%20-%20IUF_press%20release%20EN_final.pdf"
+                        title="Danone et l&rsquo;IUF ont sign&eacute; leur dixi&egrave;me accord"
+                    >
+                        Danone et l&rsquo;UITA ont sign&eacute; leur
+                        dixi&egrave;me accord
+                    </a>
+                    , centr&eacute; sur l&rsquo;emploi durable et les droits des
+                    travailleurs et qui s&rsquo;applique aux filiales de la
+                    soci&eacute;t&eacute; dans le monde.
                 </p>
-                <p>
-                    Apr&egrave;s avoir cibl&eacute; certains domaines de votre
-                    cha&icirc;ne d&apos;approvisionnement qui comporteraient des
-                    risques plus &eacute;lev&eacute;s et apr&egrave;s avoir
-                    communiqu&eacute; aux personnes et aux organisations
-                    pertinentes leurs r&ocirc;les et leurs
-                    responsabilit&eacute;s dans le cadre de votre syst&egrave;me
-                    de conformit&eacute; sociale, vous pouvez mettre en place
-                    des audits. Pour garantir leur utilit&eacute;, vous devez
-                    vous assurer que vous avez les effectifs idoines en place et
-                    qu&apos;ils poss&egrave;dent les outils dont ils ont besoin.
-                </p>
-                <h2>R&ocirc;le essentiel des travailleurs et des syndicats</h2>
-                <p>
-                    L&apos;une des fa&ccedil;ons les plus efficaces de
-                    surveiller les cha&icirc;nes d&apos;approvisionnement passe
-                    par les travailleurs eux-m&ecirc;mes et les syndicats qui
-                    les repr&eacute;sentent. Les travailleurs et les syndicats
-                    peuvent porter certains probl&egrave;mes &agrave;
-                    l&apos;attention d&rsquo;une entreprise avant qu&apos;un
-                    audit ne soit r&eacute;alis&eacute;. S&apos;il existe un
-                    syndicat sur un lieu de travail faisant l&apos;objet
-                    d&apos;un audit, il conviendrait de le consulter
-                    d&apos;embl&eacute;e ; dans le cas contraire, les entretiens
-                    avec les travailleurs et leurs avis devraient faire partie
-                    int&eacute;grante de l&apos;audit.
-                </p>
-                <p>
-                    Quel que soit l&apos;audit, au cas o&ugrave; des violations
-                    seraient rep&eacute;r&eacute;es, il vous faudra les
-                    r&eacute;parer. Ce point est abord&eacute; en d&eacute;tail
-                    &agrave;{" "}
-                    <Link to="/steps/6">
-                        la 6e &eacute;tape: r&eacute;parer les infractions
-                    </Link>
-                    .
-                </p>
+                <Accordion id="resources" >
+                    <Accordion.Section>
+                        <Accordion.Title>Autres ressources</Accordion.Title>
+                        <Accordion.Panel>
+                            <ol>
+                                <li>
+                                    AFL-CIO{" "}
+                                    <em>
+                                        Responsibility Outsourced: Social
+                                        Audits, Workplace Certification and
+                                        Twenty Years of Failure to Protect
+                                        Worker Rights;
+                                    </em>{" "}
+                                    1<sup>er</sup>
+                                    &nbsp;ao&ucirc;t&nbsp;2014; disponible
+                                    [en anglais] sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://aflcio.org/sites/default/files/2017-03/CSReport.pdf"
+                                        title="Responsibility Outsourced: Social Audits, Workplace Certification and Twenty Years of Failure to Protect Worker Rights"
+                                    >
+                                        https://aflcio.org/sites/default/files/2017-03/CSReport.pdf
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    Danone{" "}
+                                    <em>
+                                        Danone-UITA: signature d&rsquo;un
+                                        dixi&egrave;me accord sur l&rsquo;emploi
+                                        durable
+                                    </em>
+                                    . [en ligne, consult&eacute; le 16&nbsp;mai
+                                    2017]; disponible sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.business-humanrights.org/sites/default/files/webform/Danone%20-%20IUF_press%20release%20EN_final.pdf"
+                                        title="Danone-UITA: signature d&rsquo;un dixi&egrave;me accord sur l&rsquo;emploi durable"
+                                    >
+                                        https://www.business-humanrights.org/sites/default/files/webform/Danone%20-%20IUF_press%20release%20EN_final.pdf
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    Danone. <em>Dialogue social.</em>[en ligne,
+                                    consult&eacute; le 16&nbsp;mai 2017];
+                                    disponible sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.danone.com/impact/people-communities/social-dialogue.html"
+                                        title="Dialogue social"
+                                    >
+                                        https://www.danone.com/impact/people-communities/social-dialogue.html
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    IndustriALL.{" "}
+                                    <em>
+                                        Agreement with H&amp;M Proves
+                                        Instrumental in Resolving Conflicts
+                                    </em>
+                                    , 2016 [en ligne, consult&eacute; le
+                                    16&nbsp;mai 2016]. Disponible [en anglais]
+                                    sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.industriall-union.org/agreement-with-hm-proves-instrumental-in-resolving-conflicts-0"
+                                        title="Agreement with H&amp;M Proves Instrumental in Resolving Conflicts"
+                                    >
+                                        http://www.industriall-union.org/agreement-with-hm-proves-instrumental-in-resolving-conflicts-0
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    OIT. Cross-Border Social Dialogue and
+                                    Agreements
+                                    <em>
+                                       : An emerging global industrial
+                                        relations framework?
+                                    </em>{" "}
+                                    Gen&egrave;ve, 2008; disponible [en
+                                    anglais] sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--fr/index.htm"
+                                        title="OIT. Cross-Border Social Dialogue and Agreements: An emerging global industrial relations framework?"
+                                    >
+                                        http://www.ilo.org/global/publications/ilo-bookstore/order-online/books/WCMS_093423/lang--fr/index.htm
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    OIT. International framework agreements and
+                                    global social dialogue: parameters and
+                                    prospects; Gen&egrave;ve, 2010;
+                                    disponible [en anglais] sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--fr/index.htm"
+                                        title="International framework agreements and global social dialogue: parameters and prospects"
+                                    >
+                                        http://www.ilo.org/employment/Whatwedo/Publications/working-papers/WCMS_122176/lang--fr/index.htm
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    OIT-OIE. International framework agreements
+                                   : an employers&rsquo; guide ; 2007 ;
+                                    disponible [en anglais] sur{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1"
+                                        title="OIT-OIE. International framework agreements: an employers&rsquo; guide"
+                                    >
+                                        http://apirnet.ilo.org/resources/ifas-an-employers-guide/at_download/file1
+                                    </a>
+                                    .
+                                </li>
+                            </ol>
+                        </Accordion.Panel>
+                    </Accordion.Section>
+                </Accordion>
             </div>
         </StaticData>
     );

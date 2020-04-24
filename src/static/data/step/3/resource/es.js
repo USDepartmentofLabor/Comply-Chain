@@ -1,220 +1,164 @@
 import React from "react";
 import StaticData from "../../../../../components/StaticData";
+
 const es = () => {
     return (
         <StaticData>
             <div>
                 <ol>
                     <li>
-                        Colegio de Abogados de los Estados Unidos.{" "}
-                        <em>
-                            <i>Model Policies</i>,{" "}
-                        </em>
-                        2014; disponible en idioma ingl&eacute;s solamente en{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.americanbar.org/content/dam/aba/administrative/business_law/aba_model_policies.authcheckdam.pdf"
-                            title="<i>Model Policies</i>, 2014"
-                        >
-                            http://www.americanbar.org/content/dam/aba/administrative/business_law/aba_model_policies.authcheckdam.pdf
-                        </a>
-                        .
-                    </li>
-                    <li>
+                        Bader, Christine.{" "}
                         <em>
                             <i>
-                                Principios de Dhaka para una migraci&oacute;n
-                                con dignidad{" "}
+                                Is the Organization Investigating Apple&apos;s
+                                Factories Good Enough?
                             </i>
-                        </em>
-                        , 2012; Versi&oacute;n completa disponible en idioma
-                        ingl&eacute;s solamente en{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf"
-                            title="<i>Dhaka Principles for Migration with Dignity</i>"
-                        >
-                            http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        ICCR.{" "}
-                        <em>
-                            <i>Statement of Principles</i>,{" "}
-                        </em>
-                        2013; disponible en idioma ingl&eacute;s solamente en{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.iccr.org/sites/default/files/resources_attachments/2013ICCR_HTPrinciplesFINAL112013.pdf"
-                            title="<i>Statement of Principles</i>"
-                        >
-                            http://www.iccr.org/sites/default/files/resources_attachments/2013ICCR_HTPrinciplesFINAL112013.pdf
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        ISEAL.{" "}
-                        <em>
-                            <i>
-                                Code of Good Practice: Setting Social and
-                                Environmental Standards v 5.0
-                            </i>
-                        </em>
-                        . Alemania, junio de 2010; disponible en idioma
-                        ingl&eacute;s solamente en{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.ftc.gov/sites/default/files/documents/public_events/enforceable-codes-conduct-protecting-consumers-across-borders/iseal-code-good-practice.pdf"
-                            title="<i>Code of Good Practice: Setting Social and Environmental Standards v 5.0</i>"
-                        >
-                            https://www.ftc.gov/sites/default/files/documents/public_events/enforceable-codes-conduct-protecting-consumers-across-borders/iseal-code-good-practice.pdf
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        Kolk, Ans.{" "}
-                        <i>
-                            Corporate social responsibility in the coffee
-                            sector:
-                        </i>
-                        <i> </i>
-                        <i>
-                            The dynamics on MNC responses and code development,
-                        </i>{" "}
-                        <em>
-                            <i>European Management Journal</i>{" "}
-                        </em>
-                        23, n&uacute;m. 2 (abril de 2005): 228-236.
-                    </li>
-                    <li>
-                        {" "}
-                        Pacto Mundial de las Naciones Unidas.{" "}
-                        <em>
-                            <i>A Guide for Business:</i>{" "}
-                            <i>How to Develop a Human Rights Policy</i>
-                        </em>
-                        , 2011; disponible en idioma ingl&eacute;s solamente en{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ohchr.org/Documents/Publications/DevelopHumanRightsPolicy_en.pdf"
-                            title="<i>&gt;A Guide for Business:</i><i> </i><i>How to Develop a Human Rights Policy</i>"
-                        >
-                            http://www.ohchr.org/Documents/Publications/DevelopHumanRightsPolicy_en.pdf
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        Pacto Mundial de las Naciones Unidas.{" "}
-                        <em>
-                            <i>
-                                A Guide for Integrating Human Rights Into
-                                Business Management
-                            </i>
-                        </em>
-                        , 2da ed., 2009; disponible en idioma ingl&eacute;s
-                        solamente en{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ohchr.org/Documents/Publications/GuideHRBusinessen.pdf"
-                            title="<i>A Guide for Integrating Human Rights Into Business Management</i>"
-                        >
-                            http://www.ohchr.org/Documents/Publications/GuideHRBusinessen.pdf
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        Pacto Mundial de las Naciones Unidas.{" "}
-                        <em>
-                            <i>Human Rights and Business Learning Tool</i>
-                        </em>
-                        ; disponible en idioma ingl&eacute;s solamente en{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://human-rights-and-business-learning-tool.unglobalcompact.org/&amp;exitTitle=human-rights-and-business-learning-tool.unglobalcompact.org&amp;fedpage=no"
-                            title="<i>Human Rights and Business Learning Tool</i>"
-                        >
-                            http://human-rights-and-business-learning-tool.unglobalcompact.org
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        Pacto Mundial de las Naciones Unidas.{" "}
-                        <em>
-                            <i>From Principles to Practice:</i>
-                            <i> </i>
-                            <i>The Role of SA8000 in Implementing the U.N.</i>
-                            <i> </i>
-                            <i>Global Compact</i>
-                        </em>
-                        , 2010; disponible en idioma ingl&eacute;s solamente en{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.unglobalcompact.org/docs/issues_doc/labour/tools_guidance_materials/Principles_to_Practice.pdf&amp;exitTitle=www.unglobalcompact.org&amp;fedpage=no"
-                            title="<i>From Principles to Practice:</i><i> </i><i>The Role of SA8000 in Implementing the U.N. Global Compact</i> "
-                        >
-                            http://www.unglobalcompact.org/docs/issues_doc/labour/tools_guidance_materials/
-                            <br /> Principles_to_Practice.pdf
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        {" "}
-                        Pacto Mundial y la Oficina del Alto Comisionado para los
-                        Derechos Humanos.{" "}
-                        <em>
-                            <i>
-                                Embedding Human Rights in Business Practice IV
-                            </i>
-                        </em>
-                        , 2013; disponible en idioma ingl&eacute;s solamente en{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.unglobalcompact.org/library/401"
-                            title="<i>Embedding Human Rights in Business Practice IV</i>"
-                        >
-                            https://www.unglobalcompact.org/library/401
-                        </a>
-                        .
-                    </li>
-                    <li>
-                        Verit&eacute;.{" "}
-                        <em>
-                            <i>
-                                Kit de herramientas para la contrataci&oacute;n
-                                justa
-                            </i>{" "}
                         </em>{" "}
-                        disponible en{" "}
+                        Forbes.com. 5 de marzo de 2012; disponible en idioma
+                        ingl&eacute;s solamente en{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://helpwanted.verite.org/helpwanted/toolkit"
-                            title="<i>Kit de herramientas para la contrataci&oacute;n justa</i>"
+                            href="https://www.forbes.com/sites/forbesleadershipforum/2012/03/05/is-the-organization-investigating-apples-factories-good-enough/"
+                            title="<i>Is the Organization Investigating Apple's Factories Good Enough?</i>"
                         >
-                            http://www.verite.org/es/helpwanted/kit-de-herramientas
+                            https://www.forbes.com/sites/forbesleadershipforum/2012/03/05/is-the-organization-investigating-apples-factories-good-enough/
                         </a>
                         .
                     </li>
                     <li>
-                        Verit&eacute;. <em>Responsible Sourcing Tool; </em>
+                        Casey, Roseann.{" "}
+                        <em>
+                            <i>Meaningful Change:</i>{" "}
+                            <i>
+                                Raising the Bar in Supply Chain Workplace
+                                Standards
+                            </i>
+                        </em>
+                        . Documento de trabajo n&uacute;m 29, Iniciativa de
+                        responsabilidad social empresarial. Noviembre de 2006;
                         disponible en idioma ingl&eacute;s solamente en{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.responsiblesourcingtool.org/codeofconduct"
-                            title="<i>Instrumento de abastecimiento responsable</i>"
+                            href="https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/programs/cri/files/workingpaper_29_casey.pdf"
+                            title="<i><i><i><i>Meaningful Change:</i></i></i></i> <i>Raising the Bar in Supply Chain Workplace Standards</i>"
                         >
-                            http://www.responsiblesourcingtool.org/codeofconduct
+                            https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/programs/cri/files/workingpaper_29_casey.pdf
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Dickson, Marsha, Suzanne Loker, Molly Eckman, &ldquo;
+                        <i>Stakeholder Theory and Social Responsibility</i>
+                        &rdquo;.{" "}
+                        <i>
+                            Social Responsibility in the Global Apparel Industry
+                        </i>
+                        ; Fairchild Books, 2009: 112-215.&nbsp;
+                    </li>
+                    <li>
+                        Corporaci&oacute;n Financiera Internacional.{" "}
+                        <em>
+                            <i>
+                                Relaciones con la comunidad y otros actores
+                                sociales:{" "}
+                            </i>
+                            <i> </i>
+                            <i>
+                                Manual de pr&aacute;cticas recomendadas para las
+                                empresas que hacen negocios en mercados
+                                emergentes
+                            </i>
+                            .
+                        </em>{" "}
+                        Mayo de 2007; disponible en{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.scribd.com/doc/16903348/Stakeholder-Engagement-A-Good-Practice-Handbook-for-Companies-Doing-Business-in-Emerging-Markets-Spanish-May-2007-#fullscreen"
+                            title="Relaciones con la comunidad y otros actores sociales:<i> </i>Manual de pr&aacute;cticas recomendadas para las empresas que hacen negocios en mercados emergentes."
+                        >
+                            http://www.scribd.com/doc/16903348/Stakeholder-Engagement-A-Good-Practice-Handbook-for-Companies-Doing-Business-in-Emerging-Markets-Spanish-May-2007-#fullscreen
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        OIT-OIE.{" "}
+                        <em>
+                            <i>
+                                Herramienta de orientaci&oacute;n sobre el
+                                trabajo infantil destinada a las empresas
+                            </i>
+                        </em>
+                        , 2015{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.ilo.org/ipecinfo/product/download.do?type=document&amp;id=27555"
+                            title="Herramienta de orientaci&oacute;n sobre el trabajo infantil destinada a las empresas"
+                        >
+                            http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_28417/lang--es/index.htm
+                        </a>
+                        &nbsp;
+                    </li>
+                    <li>
+                        ISO 26000,{" "}
+                        <em>Gu&iacute;a de Responsabilidad Social, </em>
+                        2010.
+                    </li>
+                    <li>
+                        Muthuri, Judy N., Wendy Chapple y Jeremy Moon.{" "}
+                        <i>
+                            An Integrated Approach to Implementing
+                            &lsquo;Community Participation&rsquo; in Corporate
+                            Community Involvement:
+                        </i>{" "}
+                        <i>Lessons from Magadi Soda in Kenya</i>,{" "}
+                        <em>Journal of Business Ethics</em> 85, Suplemento 2
+                        (2009): 431-444.
+                    </li>
+                    <li>
+                        Perrez-Aleman, Paola y Marion Sandilands.{" "}
+                        <i>
+                            Building Value at the Top and the Bottom of the
+                            Global Supply Chain:
+                        </i>
+                        <i> </i>
+                        <i>MNC-NGO Partnerships</i>,{" "}
+                        <em>California Management Review</em> 51, N.° 1
+                        (oto&ntilde;o de 2008): 24-49.
+                    </li>
+                    <li>
+                        Van Tulder, Rob, Jeroen van Wijk y Ans Kolk,
+                        <i>
+                            {" "}
+                            From Chain Liability to Chain Responsibility:
+                        </i>{" "}
+                        <i>
+                            MNE Approaches to Implement Safety and Health Codes
+                            in International Supply Chains
+                        </i>
+                        , <em> Journal of Business Ethics</em> 85, Suplemento 2
+                        (2009): 399-412.
+                    </li>
+                    <li>
+                        Departamento de Trabajo de los Estados Unidos.
+                        Direcci&oacute;n de Asuntos Laborales Internacionales
+                        (ILAB).{" "}
+                        <em>
+                            Lista de mercanc&iacute;as producidas por trabajo
+                            infantil o trabajo forzoso.
+                        </em>{" "}
+                        Washington, DC, 2016; disponible en idioma ingl&eacute;s
+                        solamente en{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods/"
+                            title="Lista de mercanc&iacute;as producidas por trabajo infantil o trabajo forzoso."
+                        >
+                            https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods/
                         </a>
                         .
                     </li>
