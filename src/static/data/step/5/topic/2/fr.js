@@ -209,6 +209,8 @@ const fr = () => {
                     s&eacute;curit&eacute; au travail, et d&rsquo;autres
                     questions ayant trait aux droits du travail.
                 </p>
+                <ul>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -222,6 +224,8 @@ const fr = () => {
                     </a>
                     .
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -235,6 +239,8 @@ const fr = () => {
                     </a>
                     . Compl&eacute;t&eacute;e par la recommandation&nbsp;163.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -247,6 +253,8 @@ const fr = () => {
                     </a>
                     . Compl&eacute;t&eacute;e par la recommandation&nbsp;35.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -259,6 +267,8 @@ const fr = () => {
                     </a>
                     . Compl&eacute;t&eacute; par la recommandation&nbsp;203.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -271,6 +281,8 @@ const fr = () => {
                     </a>
                     .
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -284,6 +296,8 @@ const fr = () => {
                     . Compl&eacute;t&eacute;e par plusieurs recommandations,
                     notamment la recommandation&nbsp;146.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -296,6 +310,8 @@ const fr = () => {
                     </a>
                     . Compl&eacute;t&eacute;e par la recommandation&nbsp;190.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -309,6 +325,8 @@ const fr = () => {
                     </a>
                     . Compl&eacute;t&eacute;e par la recommandation&nbsp;90.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -321,6 +339,8 @@ const fr = () => {
                     </a>
                     . Compl&eacute;t&eacute;e par la recommandation&nbsp;111.
                 </p>
+                </li>
+                </ul>
                 <p>
                     La{" "}
                     <a
