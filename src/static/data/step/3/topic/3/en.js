@@ -7,14 +7,30 @@ const en = () => {
         <StaticData>
             <div>
                 <h1>Engaging Your Stakeholders </h1>
+                 <p>
+                    Once you have identified your stakeholders and understand
+                    the potential roles they can play in your social compliance
+                    system, you can begin to target certain groups for
+                    engagement. For some companies, identifying key stakeholder
+                    groups and getting them involved in specific areas of the
+                    social compliance system is the most helpful way to make
+                    targeted improvements. This is particularly true for
+                    companies that already have some elements of a social
+                    compliance system in place, but understand that there are
+                    specific areas that should be improved.
+                </p>
                 <p>
-                    Some typical roles that stakeholders can play are
-                    highlighted below:
+                    For other companies, the best &ldquo;first step&rdquo; in
+                    engaging with stakeholders may be linking with existing
+                    initiatives, such as multi-stakeholder groups, industry
+                    associations or initiatives or certification programs if
+                    they are available and a good fit given the company&rsquo;s
+                    needs and objectives.
                 </p>
                 <ul>
                     <li>
-                        Company employees
-                        <ul>
+                      <h2>Company employees</h2>
+                        <ul><h3>
                             <li>
                                 Be involved in<strong> code of conduct </strong>
                             </li>
@@ -52,14 +68,14 @@ const en = () => {
                                 other units of the company does not conflict
                                 with social compliance.
                             </li>
-                        </ul>
+                       </h3> </ul>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        Workers in production facilities and worker
-                        representative organizations
-                        <ul>
+                       <h2> Workers in production facilities and worker
+                        representative organizations</h2>
+                        <ul><h3>
                             <li>
                                 Engage in
                                 <strong> collective bargaining </strong>
@@ -102,13 +118,13 @@ const en = () => {
                                 <strong> root causes</strong> of labor
                                 violations.
                             </li>
-                        </ul>
+                       </h3> </ul>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        Suppliers throughout your supply chain
-                        <ul>
+                       <h2> Suppliers throughout your supply chain</h2>
+                        <ul><h3>
                             <li>
                                 Be involved in{" "}
                                 <strong>code of conduct development</strong>
@@ -151,14 +167,14 @@ const en = () => {
                                 violations, whether in supplier workplaces or
                                 broader communities.
                             </li>
-                        </ul>
+                        </h3></ul>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        Communities and community-based organizations throughout
-                        your supply chain
-                        <ul>
+                        <h2>Communities and community-based organizations throughout
+                        your supply chain</h2>
+                        <ul><h3>
                             <li>
                                 Provide valuable input into your
                                 <strong> code of conduct, </strong>bringing
@@ -209,13 +225,13 @@ const en = () => {
                                 violations, and/or partner with companies on
                                 initiatives to tackle them.
                             </li>
-                        </ul>
+                       </h3> </ul>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        National or international civil society organizations
-                        <ul>
+                       <h2> National or international civil society organizations</h2>
+                        <ul><h3>
                             <li>
                                 Provide valuable input into your
                                 <strong> code of conduct, </strong>bringing
@@ -251,13 +267,13 @@ const en = () => {
                                 violations, and/or partner on initiatives to
                                 tackle them.
                             </li>
-                        </ul>
+                       </h3> </ul>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        Shareholders and investor groups
-                        <ul>
+                       <h2> Shareholders and investor groups</h2>
+                        <ul><h3>
                             <li>
                                 Advocate with other shareholders to support the{" "}
                                 <strong>code of conduct</strong> and the social
@@ -282,13 +298,13 @@ const en = () => {
                                 <strong> root causes</strong> of labor abuse
                                 that may be linked to its operations.
                             </li>
-                        </ul>
+                       </h3> </ul>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        Other companies in your industry
-                        <ul>
+                       <h2> Other companies in your industry</h2>
+                        <ul><h3>
                             <li>
                                 Share example<strong> codes of conduct </strong>
                                 or develop a joint code through an industry
@@ -322,9 +338,27 @@ const en = () => {
                                 Explore ways to collaborate to address
                                 <strong> root causes </strong>of labor abuses.
                             </li>
-                        </ul>
+                       </h3> </ul>
                     </li>
                 </ul>
+                <ul>
+                    <li>
+                       <h2>The Importance of External Stakeholders in Social Compliance Systems</h2>
+                        <ul><h3>
+                            <li>
+                                PLACEHOLDER FOR TEXT
+                            </li>
+
+                            <li>
+                                 PLACEHOLDER FOR TEXT
+                            </li>
+                            <li>
+                                PLACEHOLDER FOR TEXT
+                            </li>
+                       </h3> </ul>
+                    </li>
+                </ul>
+
                 <h2>
                     The Role of Government Entities in Social Compliance Systems
                 </h2>
