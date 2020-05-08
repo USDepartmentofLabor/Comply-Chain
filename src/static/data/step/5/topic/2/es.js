@@ -194,6 +194,8 @@ const es = () => {
                     remuneraci&oacute;n, seguridad y salud en el trabajo y otras
                     cuestiones laborales relacionadas.
                 </p>
+                <ul>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -207,6 +209,8 @@ const es = () => {
                     </a>
                     .
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -219,6 +223,8 @@ const es = () => {
                     </a>
                     . Complementado por la recomendaci&oacute;n 163.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -230,6 +236,8 @@ const es = () => {
                     </a>
                     . Complementado por la recomendaci&oacute;n 35.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -242,6 +250,8 @@ const es = () => {
                     </a>
                     . Complementado por la recomendaci&oacute;n 203.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -254,6 +264,8 @@ const es = () => {
                     </a>
                     .
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -266,6 +278,8 @@ const es = () => {
                     </a>
                     . Complementado por varias recomendaciones, como la 146.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -278,6 +292,8 @@ const es = () => {
                     </a>
                     . Complementado por la recomendaci&oacute;n 190.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -290,6 +306,8 @@ const es = () => {
                     </a>
                     . Complementado por la recomendaci&oacute;n 90.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -302,6 +320,8 @@ const es = () => {
                     </a>
                     . Complementado por la recomendaci&oacute;n 111.
                 </p>
+                </li>
+                </ul>
                 <p>
                     La{" "}
                     <a

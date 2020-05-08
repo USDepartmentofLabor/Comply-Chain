@@ -21,6 +21,11 @@ export const StepData = {
                 termName: "Community",
                 termDefinition:
                     "For purposes of this toolkit, a community is comprised of the people in a geographic area (neighborhood, village, town, region) located at some point along your company’s supply chain. The communities in your company’s supply chains are among your stakeholders. "
+            },
+            {
+                termName: "Worker Voice",
+                termDefinition:
+                    "PLACEHOLDER FOR TEXT. "
             }
         ],
         furtherResources: Resources.en
@@ -45,7 +50,12 @@ export const StepData = {
                 termName: "Comunidad",
                 termDefinition:
                     "Para los fines del presente compendio de instrumentos, una comunidad está integrada por los habitantes de una zona geográfica (vecindario, aldea, pueblo, región) que se encuentra en algún punto de la cadena de suministro de la empresa. Las comunidades que se encuentran en la cadena de suministro de la empresa son algunas de las partes interesadas."
-            }
+            },
+             {
+                termName: "Worker Voice",
+                termDefinition:
+                "PLACEHOLDER FOR TEXT. "
+             }
         ],
         furtherResources: Resources.es
     },
@@ -69,6 +79,11 @@ export const StepData = {
                 termName: "Communauté",
                 termDefinition:
                     "Pour les besoins de cette boîte à outils, une communauté se compose des habitants d’une zone géographique (quartier, village, ville, région) se trouvant à un point de la chaîne d’approvisionnement de votre entreprise. Les communautés des chaînes d’approvisionnement de votre entreprise font partie de vos parties prenantes."
+            },
+            {
+                termName: "Worker Voice",
+                termDefinition:
+                "PLACEHOLDER FOR TEXT. "
             }
         ],
         furtherResources: Resources.fr
@@ -92,6 +107,11 @@ export const StepData = {
                     termName: "Community",
                     termDefinition:
                         "For purposes of this toolkit, a community is comprised of the people in a geographic area (neighborhood, village, town, region) located at some point along your company’s supply chain. The communities in your company’s supply chains are among your stakeholders. "
+                },
+                {
+                    termName: "Worker Voice",
+                    termDefinition:
+                    "PLACEHOLDER FOR TEXT. "
                 }
             ],
             furtherResources: Resources.ms

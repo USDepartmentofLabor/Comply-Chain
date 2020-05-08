@@ -169,6 +169,8 @@ const en = () => {
                     occupational safety and health and other related labor
                     issues.
                 </p>
+                <ul>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -181,6 +183,8 @@ const en = () => {
                     </a>
                     .
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -193,6 +197,8 @@ const en = () => {
                     </a>
                     . This is supplemented by Recommendation 163.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -204,6 +210,8 @@ const en = () => {
                     </a>
                     . This is supplemented by Recommendation 35.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -215,6 +223,8 @@ const en = () => {
                     </a>
                     . This is supplemented by Recommendation 203.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -226,6 +236,8 @@ const en = () => {
                     </a>
                     .
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -238,6 +250,8 @@ const en = () => {
                     . This is supplemented by several Recommendations, including
                     Recommendation 146.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -249,6 +263,8 @@ const en = () => {
                     </a>
                     . This is supplemented by Recommendation 190.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -260,6 +276,8 @@ const en = () => {
                     </a>
                     . This is supplemented by Recommendation 90.
                 </p>
+                </li>
+                <li>
                 <p>
                     <a
                         target="_blank"
@@ -272,6 +290,8 @@ const en = () => {
                     </a>
                     . This is supplemented by Recommendation 111.
                 </p>
+                </li>
+                </ul>
                 <p>
                     The{" "}
                     <a

@@ -1,6 +1,7 @@
 import React from "react";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
-import OwnWords from "../../../../../../components/OwnWords";
+// import OwnWords from "../../../../../../components/OwnWords";
+import Accordion from "../../../../../../components/Accordion";  
 import StaticData from "../../../../../../components/StaticData";
 import usFlag from "../../../../../images/us_flag.png";
 import verite from "../../../../../images/verite.png";
@@ -86,7 +87,7 @@ const ms = () => {
                     </a>
                     .
                 </p>
-                <h3>Hazardous Work for Children</h3>
+                <h2>Hazardous Work for Children</h2>
                 <p>
                     The hazardous work referred to in ILO Convention 182 Article
                     3(d) &ldquo;shall be determined by national laws or
@@ -221,7 +222,7 @@ const ms = () => {
                     why the company chose to move to a &ldquo;direct
                     employment&rdquo; policy.
                 </p>
-                <OwnWords>
+                {/* <OwnWords>
                     <h3>
                         <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
                         {": "}
@@ -269,7 +270,8 @@ const ms = () => {
                         </a>{" "}
                         April 27, 2016
                     </p>
-                </OwnWords>
+                </OwnWords> */}
+                <h2>Resources</h2>
                 <p>
                     A key resource for developing specific code of conduct
                     provisions to prevent forced labor in global supply chains
@@ -364,7 +366,15 @@ const ms = () => {
                         and conditions of contracts with subcontractors,
                         suppliers and agents.
                     </p>
-                    <p>
+                    <Accordion id="stnd-cl-fl">
+                    <Accordion.Section id="human-traffickingr">
+                    <Accordion.Title>
+                                <strong>
+                                HUMAN TRAFFICKING
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                            <p>
                         <strong>HUMAN TRAFFICKING</strong>: The Company strictly
                         prohibits human trafficking in all of our operations and
                         in those of all subcontractors, suppliers and agents in
@@ -374,6 +384,16 @@ const ms = () => {
                         the freedom to terminate their employment at any time
                         without penalty, upon giving reasonable notice.&nbsp;
                     </p>
+                                
+                        </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="recurit-trans-expenses">
+                    <Accordion.Title>
+                                <strong>
+                                RECRUITMENT FEES AND TRANSPORTATION EXPENSES
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             RECRUITMENT FEES AND TRANSPORTATION EXPENSES
@@ -388,6 +408,15 @@ const ms = () => {
                         compensation for the cost of return transportation, upon
                         completion of their employment contract.
                     </p>
+                    </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="contract-emp">
+                    <Accordion.Title>
+                                <strong>
+                                CONTRACTS OF EMPLOYMENT
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>CONTRACTS OF EMPLOYMENT</strong>: Written
                         contracts of employment shall be provided to migrant
@@ -398,6 +427,7 @@ const ms = () => {
                         associated costs, work-related hazards, and other
                         working and employment conditions.
                     </p>
+                   
                     <p>
                         Migrant workers shall be provided with a copy of their
                         employment contract at least five days prior to
@@ -425,6 +455,15 @@ const ms = () => {
                         employer shall also be responsible for paying the cost
                         of return transportation for the affected worker.
                     </p>
+                    </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="retention-emp-doc">
+                    <Accordion.Title>
+                                <strong>
+                                RETENTION OF PERSONAL DOCUMENTS
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>RETENTION OF PERSONAL DOCUMENTS</strong>:
                         Confiscating, destroying, withholding or otherwise
@@ -438,6 +477,15 @@ const ms = () => {
                         documents and other valuables that are accessible to
                         them at all times.
                     </p>
+                    </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="deposits">
+                    <Accordion.Title>
+                                <strong>
+                                DEPOSITS
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>DEPOSITS</strong>: Migrant workers shall not be
                         required to lodge monetary deposits or security
@@ -445,6 +493,15 @@ const ms = () => {
                         time as a condition of obtaining or retaining
                         employment.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="human-treatment">
+                    <Accordion.Title>
+                                <strong>
+                                HUMANE TREATMENT
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>HUMANE TREATMENT</strong>: The workplace shall
                         be free of any form of harsh or inhumane treatment.
@@ -459,6 +516,15 @@ const ms = () => {
                         include sanctions that result in wage deductions,
                         reductions in benefits, or compulsory labor.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="workplace-eql">
+                    <Accordion.Title>
+                                <strong>
+                                WORKPLACE EQUALITY
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>WORKPLACE EQUALITY</strong>: All workers,
                         irrespective of their nationality or legal status, shall
@@ -470,6 +536,15 @@ const ms = () => {
                         threatened with denunciation to authorities to coerce
                         them into taking up or maintaining employment.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="wage-benifit">
+                    <Accordion.Title>
+                                <strong>
+                                WAGES AND BENEFITS
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>WAGES AND BENEFITS</strong>: All workers shall
                         be paid at least the minimum wage required by applicable
@@ -495,6 +570,15 @@ const ms = () => {
                         order to pay off a debt. Deception in wage commitments,
                         payment, advances, and loans is prohibited.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="working-hours">
+                    <Accordion.Title>
+                                <strong>
+                                WORKING HOURS
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>WORKING HOURS</strong>: Workers shall not be
                         required to work in excess of the number of hours
@@ -512,6 +596,15 @@ const ms = () => {
                         disciplinary measure, or for failure to meet production
                         quotas.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="freedom-move-personal">
+                    <Accordion.Title>
+                                <strong>
+                                FREEDOM OF MOVEMENT AND PERSONAL FREEDOM
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             FREEDOM OF MOVEMENT AND PERSONAL FREEDOM
@@ -534,6 +627,15 @@ const ms = () => {
                         facilities shall not be made a condition of employment
                         unless required by law.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="grievance-procedure">
+                    <Accordion.Title>
+                                <strong>
+                                GRIEVANCE PROCEDURES
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>GRIEVANCE PROCEDURES</strong>: An effective,
                         confidential grievance process shall be established to
@@ -548,6 +650,15 @@ const ms = () => {
                         worker&rsquo;s native language and include the ability
                         to report grievances anonymously.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="pvt-emp-agencies-labor-rect">
+                    <Accordion.Title>
+                                <strong>
+                                PRIVATE EMPLOYMENT AGENCIES AND LABOR RECRUITERS
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             PRIVATE EMPLOYMENT AGENCIES AND LABOR RECRUITERS
@@ -562,6 +673,15 @@ const ms = () => {
                         fraudulent recruitment practices that place workers at
                         risk for human trafficking and sexual exploitation.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="emp-awar-traning">
+                    <Accordion.Title>
+                                <strong>
+                                EMPLOYEE AWARENESS AND TRAINING
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>EMPLOYEE AWARENESS AND TRAINING</strong>:
                         Workers must be made aware of their rights and
@@ -582,6 +702,9 @@ const ms = () => {
                         personal safety. Workers should be informed that the
                         company prohibits the procurement of commercial sex.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    </Accordion>
                     <p>
                         <strong>Source: Responsible Sourcing </strong>
                         <a
