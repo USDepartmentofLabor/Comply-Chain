@@ -498,7 +498,7 @@ const ms = () => {
                     <Accordion.Section id="human-treatment">
                     <Accordion.Title>
                                 <strong>
-                                DEPOSITS
+                                HUMANE TREATMENT
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
