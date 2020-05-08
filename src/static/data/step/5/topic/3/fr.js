@@ -1,10 +1,10 @@
 import React from "react";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
-import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import usFlag from "../../../../../images/us_flag.png";
 import verite from "../../../../../images/verite.png";
 import { UsFlag, Verite, VeriteFlagWrapper } from "./shared";
+import Accordion from "../../../../../../components/Accordion"; 
 
 const fr = () => {
     return (
@@ -105,7 +105,7 @@ const fr = () => {
                     </a>
                     .
                 </p>
-                <h3>Travaux dangereux pour les enfants</h3>
+                <h2>Travaux dangereux pour les enfants</h2>
                 <p>
                     Selon l&rsquo;Article&nbsp;3(d) de la la convention n
                     <sup>o</sup>&nbsp;182 de l&apos;OIT, les travaux dangereux
@@ -271,70 +271,8 @@ const fr = () => {
                     de passer &agrave; une politique d&rsquo;«&nbsp;emploi
                     direct&nbsp;».
                 </p>
-                <OwnWords>
-                    <h3>
-                        <OwnWords.Icon alt="Feedback"/>{" "}
-                        <strong>Dans leurs propres mots</strong>&nbsp;{": "}
-                    </h3>
-                    <p>
-                        <strong>Transition vers l&rsquo;emploi direct</strong>
-                    </p>
-                    <p>
-                        «&nbsp;Les recherches ind&eacute;pendantes et les
-                        r&eacute;sultats des audits montrent que les
-                        travailleurs migrants &eacute;trangers employ&eacute;s
-                        par le biais de relations d&rsquo;emploi
-                        externalis&eacute;es se r&eacute;v&egrave;lent souvent
-                        &ecirc;tre plus vuln&eacute;rables &agrave;
-                        l&rsquo;exploitation que ceux employ&eacute;s
-                        directement par les fournisseurs. Si beaucoup de
-                        fournisseurs font d&rsquo;importants efforts pour
-                        surveiller les agents de recrutement qui emploient et
-                        dirigent leurs travailleurs, nombreuses sont les
-                        violations qui restent difficiles &agrave;
-                        d&eacute;tecter et &agrave; r&eacute;gler. Tant que les
-                        syst&egrave;mes des agents de recrutement dans les pays
-                        d&rsquo;origine et de destination ne passeront pas par
-                        une vaste r&eacute;forme structurelle, nous pensons que
-                        l&rsquo;emploi direct par les fournisseurs est
-                        n&eacute;cessaires pour apporter de plus grandes
-                        protections aux travailleurs migrants &eacute;trangers.
-                    </p>
-                    <p>
-                        Cela signifie que pour les fournisseurs d&rsquo;HP, tous
-                        les travailleurs migrants &eacute;trangers doivent
-                        &ecirc;tre employ&eacute;s et
-                        r&eacute;mun&eacute;r&eacute;s directement par le
-                        fournisseur et non par des agents, sous-agents ou
-                        parties tierces. &Eacute;tant donn&eacute; que de
-                        nombreux fournisseurs d&eacute;pendent au moins en
-                        partie d&rsquo;agents de recrutement pour g&eacute;rer
-                        la direction sur le terrain des travailleurs migrants
-                        &eacute;trangers, une p&eacute;riode de transition sera
-                        n&eacute;cessaire pour faire passer l&rsquo;ensemble des
-                        travailleurs migrants &eacute;trangers,
-                        d&eacute;j&agrave; embauch&eacute;s ou nouvellement
-                        recrut&eacute;s, &agrave; l&rsquo;emploi direct.&nbsp;»
-                    </p>
-                    <p>
-                        Hewlett Packard Enterprise*,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www8.hp.com/h20195/v2/GetPDF.aspx/c05116077.pdf"
-                            title="Document d&rsquo;orientation normalis&eacute;e concernant les travailleurs migrants &eacute;trangers au sein des cha&icirc;nes d&rsquo;approvisionnement de la soci&eacute;t&eacute; Hewlett Packard"
-                        >
-                            <em>
-                                Document d&rsquo;orientation normalis&eacute;e
-                                concernant les travailleurs migrants
-                                &eacute;trangers au sein des cha&icirc;nes
-                                d&rsquo;approvisionnement de la
-                                soci&eacute;t&eacute; Hewlett Packard,
-                            </em>
-                        </a>{" "}
-                        [en anglais] 27&nbsp;avril 2016
-                    </p>
-                </OwnWords>
+                
+                <h2>Ressources</h2>
                 <p>
                     L&rsquo;
                     <a
@@ -458,6 +396,14 @@ const fr = () => {
                         contrats pass&eacute;s avec les sous-traitants, les
                         fournisseurs et les agents.
                     </p>
+                    <Accordion id="stnd-cl-fl">
+                    <Accordion.Section id="human-traffickingr">
+                    <Accordion.Title>
+                                <strong>
+                                TRAITE DES PERSONNES
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>TRAITE DES PERSONNES</strong>: La
                         soci&eacute;t&eacute; interdit formellement la traite
@@ -473,6 +419,15 @@ const fr = () => {
                         moment sans p&eacute;nalit&eacute; et avec un
                         pr&eacute;avis raisonnable.&nbsp;
                     </p>
+                    </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="recurit-trans-expenses">
+                    <Accordion.Title>
+                                <strong>
+                                FRAIS DE RECRUTEMENT ET DE TRANSPORT
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>FRAIS DE RECRUTEMENT ET DE TRANSPORT</strong>
                        : Les travailleurs ne se verront pas facturer,
@@ -487,6 +442,15 @@ const fr = () => {
                         pays d&rsquo;origine ou une compensation pour le
                         co&ucirc;t de ce transport.
                     </p>
+                    </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="contract-emp">
+                    <Accordion.Title>
+                                <strong>
+                                CONTRATS DE TRAVAIL
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>CONTRATS DE TRAVAIL</strong>: Des contrats
                         de travail &eacute;crits seront remis aux travailleurs
@@ -531,6 +495,15 @@ const fr = () => {
                         l&rsquo;employeur sera &eacute;galement responsable des
                         frais de transport de retour de la victime.
                     </p>
+                    </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="retention-emp-doc">
+                    <Accordion.Title>
+                                <strong>
+                                R&Eacute;TENTION DE DOCUMENTS PERSONNELS
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             R&Eacute;TENTION DE DOCUMENTS PERSONNELS
@@ -551,6 +524,15 @@ const fr = () => {
                         valeur auxquelles ils doivent pouvoir avoir acc&egrave;s
                         &agrave; tout moment.
                     </p>
+                    </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="deposits">
+                    <Accordion.Title>
+                                <strong>
+                                CAUTIONS
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>CAUTIONS</strong>: Les travailleurs
                         migrants ne se verront pas oblig&eacute;s de
@@ -559,6 +541,15 @@ const fr = () => {
                         moment que ce soit comme condition d&rsquo;obtention ou
                         de r&eacute;tention d&rsquo;un emploi.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="human-treatment">
+                    <Accordion.Title>
+                                <strong>
+                                TRAITEMENT INHUMAIN
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>TRAITEMENT INHUMAIN</strong>: Le lieu de
                         travail ne sera pas sujet &agrave; des traitements durs
@@ -581,6 +572,15 @@ const fr = () => {
                         r&eacute;ductions des avantages sociaux ou du travail
                         forc&eacute;.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="workplace-eql">
+                    <Accordion.Title>
+                                <strong>
+                                &Eacute;GALIT&Eacute; SUR LE LIEU DE TRAVAIL
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             &Eacute;GALIT&Eacute; SUR LE LIEU DE TRAVAIL
@@ -598,6 +598,15 @@ const fr = () => {
                         autorit&eacute;s dans le but de les forcer &agrave;
                         accepter ou &agrave; conserver un emploi.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="wage-benifit">
+                    <Accordion.Title>
+                                <strong>
+                                SALAIRES ET AVANTAGES
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>SALAIRES ET AVANTAGES</strong>: Tous les
                         travailleurs recevront au minimum le salaire minimum
@@ -633,6 +642,15 @@ const fr = () => {
                         tromperie en mati&egrave;re de salaire, de paiement,
                         d&rsquo;avance et de pr&ecirc;t est interdite.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="working-hours">
+                    <Accordion.Title>
+                                <strong>
+                                HORARIO DE TRABAJO
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>HEURES DE TRAVAIL</strong>: Les
                         travailleurs ne seront pas forc&eacute;s de travailler
@@ -656,6 +674,16 @@ const fr = () => {
                         heures suppl&eacute;mentaires comme mesure disciplinaire
                         ou pour non-respect des quotas de production.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="freedom-move-personal">
+                    <Accordion.Title>
+                                <strong>
+                                LIBERT&Eacute; DE CIRCULATION ET LIBERT&Eacute;
+                            INDIVIDUELLE
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             LIBERT&Eacute; DE CIRCULATION ET LIBERT&Eacute;
@@ -686,6 +714,16 @@ const fr = () => {
                         constituera pas une condition d&rsquo;emploi, sauf si
                         cela est exig&eacute; par la loi.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="grievance-procedure">
+                    <Accordion.Title>
+                                <strong>
+                                PROC&Eacute;DURES DE R&Egrave;GLEMENT DES
+                            R&Eacute;CLAMATIONS
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             PROC&Eacute;DURES DE R&Egrave;GLEMENT DES
@@ -708,6 +746,16 @@ const fr = () => {
                         permettront le d&eacute;p&ocirc;t anonyme de
                         r&eacute;clamations.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="pvt-emp-agencies-labor-rect">
+                    <Accordion.Title>
+                                <strong>
+                                AGENCES D&rsquo;EMPLOI PRIV&Eacute;ES ET RECRUTEURS
+                            DE MAIN D&rsquo;&OElig;UVRE
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             AGENCES D&rsquo;EMPLOI PRIV&Eacute;ES ET RECRUTEURS
@@ -729,6 +777,16 @@ const fr = () => {
                         mettent les travailleurs en situation de risque de
                         traite des personnes et d&rsquo;exploitation sexuelle.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="emp-awar-traning">
+                    <Accordion.Title>
+                                <strong>
+                                CONCIENTIZACI&Oacute;N Y CAPACITACI&Oacute;N DE LOS
+                            EMPLEADOS
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             SENSIBILISATION ET FORMATION DES EMPLOY&Eacute;S
@@ -760,6 +818,9 @@ const fr = () => {
                         soci&eacute;t&eacute; interdit tout recrutement &agrave;
                         des fins d&apos;actes sexuels tarif&eacute;s.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    </Accordion>
                     <p>
                         <strong>Source: </strong>
                         <a

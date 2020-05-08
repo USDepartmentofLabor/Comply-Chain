@@ -7,13 +7,30 @@ const en = () => {
         <StaticData>
             <div>
                 <h1>Engaging Your Stakeholders </h1>
-                <p>
-                    Some typical roles that stakeholders can play are
-                    highlighted below:
+                 <p>
+                    Once you have identified your stakeholders and understand
+                    the potential roles they can play in your social compliance
+                    system, you can begin to target certain groups for
+                    engagement. For some companies, identifying key stakeholder
+                    groups and getting them involved in specific areas of the
+                    social compliance system is the most helpful way to make
+                    targeted improvements. This is particularly true for
+                    companies that already have some elements of a social
+                    compliance system in place, but understand that there are
+                    specific areas that should be improved.
                 </p>
+                <p>
+                    For other companies, the best &ldquo;first step&rdquo; in
+                    engaging with stakeholders may be linking with existing
+                    initiatives, such as multi-stakeholder groups, industry
+                    associations or initiatives or certification programs if
+                    they are available and a good fit given the company&rsquo;s
+                    needs and objectives.
+                </p>
+                <h2>Your Stakeholders</h2>
                 <ul>
                     <li>
-                        Company employees
+                      <h3>Company employees</h3>
                         <ul>
                             <li>
                                 Be involved in<strong> code of conduct </strong>
@@ -57,8 +74,8 @@ const en = () => {
                 </ul>
                 <ul>
                     <li>
-                        Workers in production facilities and worker
-                        representative organizations
+                       <h3> Workers in production facilities and worker
+                        representative organizations</h3>
                         <ul>
                             <li>
                                 Engage in
@@ -107,7 +124,7 @@ const en = () => {
                 </ul>
                 <ul>
                     <li>
-                        Suppliers throughout your supply chain
+                       <h3> Suppliers throughout your supply chain</h3>
                         <ul>
                             <li>
                                 Be involved in{" "}
@@ -156,8 +173,8 @@ const en = () => {
                 </ul>
                 <ul>
                     <li>
-                        Communities and community-based organizations throughout
-                        your supply chain
+                        <h3>Communities and community-based organizations throughout
+                        your supply chain</h3>
                         <ul>
                             <li>
                                 Provide valuable input into your
@@ -214,7 +231,7 @@ const en = () => {
                 </ul>
                 <ul>
                     <li>
-                        National or international civil society organizations
+                       <h3> National or international civil society organizations</h3>
                         <ul>
                             <li>
                                 Provide valuable input into your
@@ -251,12 +268,12 @@ const en = () => {
                                 violations, and/or partner on initiatives to
                                 tackle them.
                             </li>
-                        </ul>
+                       </ul>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        Shareholders and investor groups
+                       <h3> Shareholders and investor groups</h3>
                         <ul>
                             <li>
                                 Advocate with other shareholders to support the{" "}
@@ -287,7 +304,7 @@ const en = () => {
                 </ul>
                 <ul>
                     <li>
-                        Other companies in your industry
+                       <h3> Other companies in your industry</h3>
                         <ul>
                             <li>
                                 Share example<strong> codes of conduct </strong>
@@ -325,9 +342,27 @@ const en = () => {
                         </ul>
                     </li>
                 </ul>
-                <h2>
+                <ul>
+                    <li>
+                       <h3>The Importance of External Stakeholders in Social Compliance Systems</h3>
+                        <ul>
+                            <li>
+                                PLACEHOLDER FOR TEXT
+                            </li>
+
+                            <li>
+                                 PLACEHOLDER FOR TEXT
+                            </li>
+                            <li>
+                                PLACEHOLDER FOR TEXT
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>
                     The Role of Government Entities in Social Compliance Systems
-                </h2>
+                </h3>
                 <p>
                     Governments are obligated to protect the human rights of
                     individuals within their territory and/or jurisdiction. This
@@ -439,27 +474,8 @@ const en = () => {
                         .
                     </p>
                 </ExampleInAction>
-                <p>
-                    Once you have identified your stakeholders and understand
-                    the potential roles they can play in your social compliance
-                    system, you can begin to target certain groups for
-                    engagement. For some companies, identifying key stakeholder
-                    groups and getting them involved in specific areas of the
-                    social compliance system is the most helpful way to make
-                    targeted improvements. This is particularly true for
-                    companies that already have some elements of a social
-                    compliance system in place, but understand that there are
-                    specific areas that should be improved.
-                </p>
-                <p>
-                    For other companies, the best &ldquo;first step&rdquo; in
-                    engaging with stakeholders may be linking with existing
-                    initiatives, such as multi-stakeholder groups, industry
-                    associations or initiatives or certification programs if
-                    they are available and a good fit given the company&rsquo;s
-                    needs and objectives.
-                </p>
             </div>
+            <br />
         </StaticData>
     );
 };

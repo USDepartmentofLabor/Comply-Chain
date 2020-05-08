@@ -1,6 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
 import Accordion from "../../../../../../components/Accordion";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction"; 
 
 const ms = () => {
     return (
@@ -78,6 +79,25 @@ const ms = () => {
                     and applies to the company&rsquo;s subsidiaries across the
                     globe.
                 </p>
+                <ExampleInAction id="eicc">
+                                    <h4>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Example in Action:
+                                        </strong>
+                                    </h4>
+                                   
+                                    
+                                    <ol>
+                                        <li>
+                                            <h4>some text</h4>
+                                            <p>
+                                                Some text. Placeholder
+                                            </p>
+                                        </li>
+                                        
+                                    </ol>
+                                </ExampleInAction>
                 <Accordion id="resources" >
                     <Accordion.Section>
                         <Accordion.Title>Further Resources</Accordion.Title>

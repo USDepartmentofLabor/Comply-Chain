@@ -1,7 +1,8 @@
 import React from "react";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
-import ilo from "../../../../../images/ilo.jpg";
+// import ilo from "../../../../../images/ilo.jpg";
+import OwnWords from "../../../../../../components/OwnWords";
 
 const ms = () => {
     return (
@@ -30,6 +31,55 @@ const ms = () => {
                     employer&mdash;workers should never pay any cost to obtain a
                     job.
                 </p>
+                <OwnWords>
+                    <h3>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h3>
+                    <p>
+                        <strong>Transitioning to Direct Employment</strong>
+                    </p>
+                    <p>
+                        &ldquo;Based on independent research and audit results,
+                        foreign migrant workers who are employed through
+                        outsourced employment relationships are often found to
+                        be more vulnerable to exploitation than those employed
+                        directly by suppliers. While many suppliers undertake
+                        extensive monitoring of the recruitment agents employing
+                        and managing their workers, many violations remain
+                        difficult to detect and address. Until there are
+                        significant structural reforms to the recruitment agent
+                        systems in both sending and receiving countries we
+                        believe that direct employment by suppliers is necessary
+                        to offer greater protections to foreign migrant workers.
+                    </p>
+                    <p>
+                        This means that with respect to HP suppliers, all
+                        foreign migrant workers must be employed and paid
+                        directly by the supplier, not by agents, sub-agents, or
+                        third parties. Recognizing that many suppliers rely on
+                        recruitment agents, at least in part, to handle on-site
+                        management of foreign migrant workers, there will be a
+                        need for a transition period to move all new and
+                        existing foreign migrant workers to direct
+                        employment.&rdquo;
+                    </p>
+                    <p>
+                        Hewlett Packard Enterprise*,{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www8.hp.com/h20195/v2/GetPDF.aspx/c05116077.pdf"
+                            title="Hewlett Packard Company Supply Chain Foreign Migrant Worker Standard Guidance Document"
+                        >
+                            <em>
+                                Hewlett Packard Company Supply Chain Foreign
+                                Migrant Worker Standard Guidance Document,
+                            </em>
+                        </a>{" "}
+                        April 27, 2016
+                    </p>
+                </OwnWords>
                 <p>
                     If you know or suspect that there is migrant labor in your
                     supply chain, it is important to include relevant standards
@@ -126,9 +176,9 @@ const ms = () => {
                     </a>
                     .
                 </p>
-                <img src={ilo} alt="Worker climbing scaffolding" />
+                {/* <img src={ilo} alt="Worker climbing scaffolding" /> */}
 
-                <p className="small-text">&copy;M. Crozet/ILO</p>
+                {/* <p className="small-text">&copy;M. Crozet/ILO</p> */}
                 <ExampleInAction id="leadership">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>

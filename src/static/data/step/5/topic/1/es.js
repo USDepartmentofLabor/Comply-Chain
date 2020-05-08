@@ -1,6 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
 import Accordion from "../../../../../../components/Accordion";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction"; 
 
 const es = () => {
     return (
@@ -89,6 +90,25 @@ const es = () => {
                     de los trabajadores, que rige para todas las filiales de la
                     empresa en el mundo.
                 </p>
+                <ExampleInAction id="eicc">
+                                    <h4>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                        Ejemplo en acci&oacute;n:
+                                        </strong>
+                                    </h4>
+                                   
+                                    
+                                    <ol>
+                                        <li>
+                                            <h4>some text</h4>
+                                            <p>
+                                                Some text.
+                                            </p>
+                                        </li>
+                                        
+                                    </ol>
+                                </ExampleInAction>
                 <Accordion id="resources" >
                     <Accordion.Section>
                         <Accordion.Title>Recursos adicionales</Accordion.Title>

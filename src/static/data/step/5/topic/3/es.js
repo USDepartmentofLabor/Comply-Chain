@@ -1,10 +1,11 @@
 import React from "react";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
-import OwnWords from "../../../../../../components/OwnWords";
+
 import StaticData from "../../../../../../components/StaticData";
 import usFlag from "../../../../../images/us_flag.png";
 import verite from "../../../../../images/verite.png";
 import { UsFlag, Verite, VeriteFlagWrapper } from "./shared";
+import Accordion from "../../../../../../components/Accordion"; 
 
 const es = () => {
     return (
@@ -96,7 +97,7 @@ const es = () => {
                     </a>
                     .
                 </p>
-                <h3>Trabajo peligroso para los ni&ntilde;os</h3>
+                <h2>Trabajo peligroso para los ni&ntilde;os</h2>
                 <p>
                     Seg&uacute;n el art&iacute;culo 3, inciso d) del Convenio
                     182 de la OIT, los tipos de trabajo peligroso
@@ -251,61 +252,8 @@ const es = () => {
                     en riesgos por los que la empresa opt&oacute; por una
                     pol&iacute;tica de &ldquo;empleo directo&rdquo;.{" "}
                 </p>
-                <OwnWords>
-                    <h3>
-                        <OwnWords.Icon alt="Feedback"/>{" "}
-                        <strong>En sus propias palabras</strong>
-                        {": "}
-                    </h3>
-                    <p>
-                        <strong>Transici&oacute;n al empleo directo</strong>
-                    </p>
-                    <p>
-                        &ldquo;Con base en investigaciones y resultados de
-                        auditor&iacute;as independientes, se determin&oacute;
-                        que los trabajadores extranjeros migrantes que trabajan
-                        en relaci&oacute;n de empleo tercerizado tienden a ser
-                        m&aacute;s vulnerables a la explotaci&oacute;n que los
-                        que trabajan directamente para los proveedores. Si bien
-                        muchos proveedores vigilan de cerca a los agentes de
-                        reclutamiento que emplean y administran a los
-                        trabajadores, resulta muy dif&iacute;cil detectar
-                        infracciones y rectificarlas. A menos que se introduzcan
-                        reformas estructurales considerables en los sistemas con
-                        empleo por agentes de reclutamiento en los pa&iacute;ses
-                        de origen y destino, el empleo directo es la mejor
-                        manera de conferir una mayor protecci&oacute;n a los
-                        trabajadores migrantes extranjeros.
-                    </p>
-                    <p>
-                        Esto significa que con respecto a los proveedores de HP,
-                        todos los trabajadores migrantes extranjeros deben ser
-                        empleados y remunerados directamente por el proveedor,
-                        no por agentes, subagentes ni terceros. Reconociendo que
-                        muchos proveedores dependen de agentes de reclutamiento,
-                        al menos en parte, para la administraci&oacute;n
-                        <i> in situ</i> de los trabajadores migrantes
-                        extranjeros, deber&aacute; haber un per&iacute;odo de
-                        transici&oacute;n que permita trasladar a los
-                        trabajadores migrantes extranjeros actuales y nuevos a
-                        la modalidad de empleo directo.&rdquo;
-                    </p>
-                    <p>
-                        Hewlett Packard Enterprise*,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www8.hp.com/h20195/v2/GetPDF.aspx/c05116077.pdf"
-                            title="<i>Hewlett Packard Company Supply Chain Foreign Migrant Worker Standard Guidance Document</i>"
-                        >
-                            <em>
-                                Hewlett Packard Company Supply Chain Foreign
-                                Migrant Worker Standard Guidance Document
-                            </em>
-                        </a>
-                        , 27 de abril de 2016
-                    </p>
-                </OwnWords>
+                
+                <h2>Recursos</h2>
                 <p>
                     Un recurso clave para redactar las disposiciones del
                     c&oacute;digo de conducta de manera de evitar el trabajo
@@ -418,6 +366,14 @@ const es = () => {
                         y condiciones contractuales con subcontratistas,
                         proveedores y agentes.
                     </p>
+                    <Accordion id="stnd-cl-fl">
+                    <Accordion.Section id="human-traffickingr">
+                    <Accordion.Title>
+                                <strong>
+                                TRATA DE SERES HUMANOS
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>TRATA DE SERES HUMANOS</strong>: La empresa
                         proh&iacute;be rotundamente la trata de seres humanos en
@@ -432,6 +388,15 @@ const es = () => {
                         de rescindir su relaci&oacute;n laboral en cualquier
                         momento sin sanci&oacute;n.&nbsp;
                     </p>
+                    </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="recurit-trans-expenses">
+                    <Accordion.Title>
+                                <strong>
+                                TASAS DE RECLUTAMIENTO Y GASTOS DE TRANSPORTE
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             TASAS DE RECLUTAMIENTO Y GASTOS DE TRANSPORTE
@@ -448,6 +413,15 @@ const es = () => {
                         su pa&iacute;s de origen, o se les solventar&aacute; el
                         gasto correspondiente.
                     </p>
+                    </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="contract-emp">
+                    <Accordion.Title>
+                                <strong>
+                                CONTRATOS DE TRABAJO
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>CONTRATOS DE TRABAJO</strong>: Los trabajadores
                         migrantes recibir&aacute;n contratos de trabajo escritos
@@ -492,6 +466,15 @@ const es = () => {
                         transporte de regreso en que incurra el trabajador
                         afectado.
                     </p>
+                    </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="retention-emp-doc">
+                    <Accordion.Title>
+                                <strong>
+                                RETENCI&Oacute;N DE DOCUMENTOS PERSONALES
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             RETENCI&Oacute;N DE DOCUMENTOS PERSONALES
@@ -507,6 +490,15 @@ const es = () => {
                         guardar bajo llave sus documentos de identidad y otros
                         objetos de valor y tener acceso a ellos en todo momento.
                     </p>
+                    </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="deposits">
+                    <Accordion.Title>
+                                <strong>
+                                DEP&Oacute;SITOS
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>DEP&Oacute;SITOS</strong>: No se podr&aacute;
                         exigir a los trabajadores migrantes que efect&uacute;en
@@ -515,6 +507,15 @@ const es = () => {
                         remuneraci&oacute;n en ning&uacute;n momento como
                         condici&oacute;n para obtener o conservar un trabajo.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="human-treatment">
+                    <Accordion.Title>
+                                <strong>
+                                TRATO HUMANO
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>TRATO HUMANO</strong>: El lugar de trabajo
                         estar&aacute; exento de cualquier forma de trato severo
@@ -533,6 +534,15 @@ const es = () => {
                         reducci&oacute;n de las prestaciones ni trabajo
                         obligatorio.{" "}
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="workplace-eql">
+                    <Accordion.Title>
+                                <strong>
+                                IGUALDAD EN EL LUGAR DE TRABAJO
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>IGUALDAD EN EL LUGAR DE TRABAJO</strong>: Todos
                         los trabajadores, independientemente de su nacionalidad
@@ -546,6 +556,15 @@ const es = () => {
                         a las autoridades para obligarlos a aceptar o conservar
                         un trabajo.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="wage-benifit">
+                    <Accordion.Title>
+                                <strong>
+                                SALARIOS Y PRESTACIONES
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>SALARIOS Y PRESTACIONES</strong>: Todos los
                         trabajadores recibir&aacute;n al menos el salario
@@ -578,6 +597,15 @@ const es = () => {
                         enga&ntilde;os en los compromisos salariales, el pago,
                         los adelantos y los pr&eacute;stamos.{" "}
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="working-hours">
+                    <Accordion.Title>
+                                <strong>
+                                HORARIO DE TRABAJO
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>HORARIO DE TRABAJO</strong>: No se
                         obligar&aacute; a los trabajadores a trabajar m&aacute;s
@@ -599,6 +627,15 @@ const es = () => {
                         disciplinaria o por no haber alcanzado las cuotas de
                         producci&oacute;n.{" "}
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="freedom-move-personal">
+                    <Accordion.Title>
+                                <strong>
+                                LIBERTAD DE CIRCULACI&Oacute;N Y LIBERTAD PERSONAL
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             LIBERTAD DE CIRCULACI&Oacute;N Y LIBERTAD PERSONAL
@@ -626,6 +663,16 @@ const es = () => {
                         exigir que los trabajadores residan en la vivienda
                         brindada o facilitada por el empleador.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="grievance-procedure">
+                    <Accordion.Title>
+                                <strong>
+                                PROCEDIMIENTO DE PRESENTACI&Oacute;N DE
+                            RECLAMACIONES
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             PROCEDIMIENTO DE PRESENTACI&Oacute;N DE
@@ -647,6 +694,16 @@ const es = () => {
                         ofrecer&aacute;n en el idioma materno del trabajador y
                         deber&aacute;n poder hacerse de manera an&oacute;nima.{" "}
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="pvt-emp-agencies-labor-rect">
+                    <Accordion.Title>
+                                <strong>
+                                AGENCIAS DE EMPLEO PARTICULARES Y RECLUTADORES DE
+                            OBREROS
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             AGENCIAS DE EMPLEO PARTICULARES Y RECLUTADORES DE
@@ -665,6 +722,16 @@ const es = () => {
                         expuestos a los riesgos de la trata de seres humanos y
                         la explotaci&oacute;n sexual.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    <Accordion.Section id="emp-awar-traning">
+                    <Accordion.Title>
+                                <strong>
+                                CONCIENTIZACI&Oacute;N Y CAPACITACI&Oacute;N DE LOS
+                            EMPLEADOS
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                     <p>
                         <strong>
                             CONCIENTIZACI&Oacute;N Y CAPACITACI&Oacute;N DE LOS
@@ -692,6 +759,9 @@ const es = () => {
                         debe informar a los trabajadores que la empresa
                         proh&iacute;be mantener actos sexuales por dinero.
                     </p>
+                    </Accordion.Panel>
+                    </Accordion.Section>
+                    </Accordion>
                     <p>
                         <strong>
                             Fuente: Instrumento de abastecimiento responsable 1,{" "}
