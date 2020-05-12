@@ -7,13 +7,31 @@ const es = () => {
         <StaticData>
             <div>
                 <h1>Participaci&oacute;n de los interesados</h1>
-                <p>
-                    A continuaci&oacute;n se destacan algunas funciones
-                    t&iacute;picas que desempe&ntilde;an las partes interesadas:
-                </p>
-                <ul>
-                    <li>
-                        Empleados de empresas
+               <p>
+                                   Tras identificar a las partes interesadas y comprender las
+                                   funciones posibles que pueden desempe&ntilde;ar en el
+                                   sistema de cumplimiento social, puede comenzar a
+                                   concentrarse en algunos grupos a los que pueda incluir. Para
+                                   algunas empresas, identificar a los grupos de interesados
+                                   clave y hacer que participen en &aacute;mbitos
+                                   espec&iacute;ficos del sistema de cumplimiento social
+                                   resulta la manera m&aacute;s &uacute;til de lograr mejoras
+                                   puntuales, sobre todo aquellas que cuentan con algunos
+                                   elementos del sistema de cumplimiento social pero que
+                                   comprenden que deben mejorar algunos &aacute;mbitos
+                                   espec&iacute;ficos.
+                               </p>
+                               <p>
+                                   Para otras empresas, el mejor &ldquo;primer paso&rdquo; en
+                                   la participaci&oacute;n de los interesados puede ser
+                                   vincularlos con las iniciativas en curso, como grupos de
+                                   varias partes interesadas, asociaciones o iniciativas de la
+                                   industria o programas de certificaci&oacute;n si
+                                   est&aacute;n disponibles y son pertinentes a la luz de las
+                                   necesidades y los objetivos de la empresa.
+                               </p>
+
+                       <h3> Empleados de empresas</h3>
                         <ul>
                             <li>
                                 Participan en el
@@ -62,12 +80,9 @@ const es = () => {
                                 empresa no discrepe con el cumplimiento social.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        Trabajadores en establecimientos productores y
-                        organizaciones de representaci&oacute;n obrera
+
+                        <h3>Trabajadores en establecimientos productores y
+                        organizaciones de representaci&oacute;n obrera</h3>
                         <ul>
                             <li>
                                 Entablan
@@ -119,11 +134,7 @@ const es = () => {
                                 de las infracciones laborales.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        Los proveedores en su cadena de suministro
+                       <h3> Los proveedores en su cadena de suministro</h3>
                         <ul>
                             <li>
                                 Participan en la{" "}
@@ -180,12 +191,9 @@ const es = () => {
                                 comunidades en general.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        Comunidades y organizaciones comunitarias en su cadena
-                        de suministro
+
+                        <h3>Comunidades y organizaciones comunitarias en su cadena
+                        de suministro</h3>
                         <ul>
                             <li>
                                 Realizan contribuciones valiosas al
@@ -252,12 +260,8 @@ const es = () => {
                                 empresas en iniciativas para hacerles frente.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        Organizaciones nacionales o internacionales de la
-                        sociedad civil
+                       <h3> Organizaciones nacionales o internacionales de la
+                        sociedad civil</h3>
                         <ul>
                             <li>
                                 Realizan contribuciones valiosas al
@@ -304,11 +308,8 @@ const es = () => {
                                 empresa en iniciativas para hacerles frente.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        Accionistas y grupos de inversionistas
+
+                       <h3> Accionistas y grupos de inversionistas</h3>
                         <ul>
                             <li>
                                 Promueven con otros accionistas el respaldo del{" "}
@@ -340,11 +341,8 @@ const es = () => {
                                 guardar relaci&oacute;n con sus operaciones.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        Otras empresas en su industria
+
+                        <h3>Otras empresas en su industria</h3>
                         <ul>
                             <li>
                                 Intercambian modelos de
@@ -388,8 +386,7 @@ const es = () => {
                                 explotaci&oacute;n laboral.
                             </li>
                         </ul>
-                    </li>
-                </ul>
+
                 <h2>
                     La funci&oacute;n de las entidades gubernamentales en los
                     sistemas de cumplimiento social
@@ -519,29 +516,6 @@ const es = () => {
                         de InPACTO.
                     </p>
                 </ExampleInAction>
-                <p>
-                    Tras identificar a las partes interesadas y comprender las
-                    funciones posibles que pueden desempe&ntilde;ar en el
-                    sistema de cumplimiento social, puede comenzar a
-                    concentrarse en algunos grupos a los que pueda incluir. Para
-                    algunas empresas, identificar a los grupos de interesados
-                    clave y hacer que participen en &aacute;mbitos
-                    espec&iacute;ficos del sistema de cumplimiento social
-                    resulta la manera m&aacute;s &uacute;til de lograr mejoras
-                    puntuales, sobre todo aquellas que cuentan con algunos
-                    elementos del sistema de cumplimiento social pero que
-                    comprenden que deben mejorar algunos &aacute;mbitos
-                    espec&iacute;ficos.
-                </p>
-                <p>
-                    Para otras empresas, el mejor &ldquo;primer paso&rdquo; en
-                    la participaci&oacute;n de los interesados puede ser
-                    vincularlos con las iniciativas en curso, como grupos de
-                    varias partes interesadas, asociaciones o iniciativas de la
-                    industria o programas de certificaci&oacute;n si
-                    est&aacute;n disponibles y son pertinentes a la luz de las
-                    necesidades y los objetivos de la empresa.
-                </p>
             </div>
         </StaticData>
     );

@@ -8,12 +8,35 @@ const fr = () => {
             <div>
                 <h1>Faire participer vos parties prenantes</h1>
                 <p>
-                    Voici quelques-unes des fonctions-type que les parties
-                    prenantes peuvent remplir:
-                </p>
-                <ul>
-                    <li>
-                        Employ&eacute;s de l&apos;entreprise
+                                    Apr&egrave;s avoir identifi&eacute; vos parties prenantes et
+                                    compris les r&ocirc;les potentiels qu&apos;elles peuvent
+                                    jouer dans votre syst&egrave;me de conformit&eacute;
+                                    sociale, vous pouvez cibler certains groupes pour les amener
+                                    &agrave; participer. Pour certaines entreprises, identifier
+                                    les groupes-cl&eacute;s de parties prenantes et les amener
+                                    &agrave; participer &agrave; des domaines sp&eacute;cifiques
+                                    du syst&egrave;me de conformit&eacute; sociale constitue la
+                                    fa&ccedil;on la plus utile d&apos;op&eacute;rer des
+                                    am&eacute;liorations cibl&eacute;es. C&apos;est
+                                    particuli&egrave;rement vrai pour les entreprises qui
+                                    poss&egrave;dent d&eacute;j&agrave; quelques
+                                    &eacute;l&eacute;ments en place d&apos;un syst&egrave;me de
+                                    conformit&eacute; sociale, mais comprennent qu&apos;il reste
+                                    des domaines pr&eacute;cis qu&apos;il conviendrait
+                                    d&apos;am&eacute;liorer.
+                                </p>
+                                <p>
+                                    Pour d&apos;autres, le «&nbsp;premier pas&nbsp;» le plus
+                                    indiqu&eacute; pour mobiliser la participation des parties
+                                    prenantes consistera &agrave; &eacute;tablir des liens avec
+                                    des initiatives existantes, par exemple des groupes de
+                                    plusieurs parties prenantes, des associations ou des
+                                    initiatives de l&apos;industrie ou des programmes de
+                                    certification &eacute;ventuels qui correspondent aux besoins
+                                    et aux objectifs de l&apos;entreprise.
+                                </p>
+
+                       <h3> Employ&eacute;s de l&apos;entreprise</h3>
                         <ul>
                             <li>
                                 Prendre part &agrave; l&apos;&eacute;laboration
@@ -71,12 +94,9 @@ const fr = () => {
                                 sociale.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        Travailleurs dans les ateliers de production et
-                        organisations de repr&eacute;sentation des travailleurs
+
+                       <h3> Travailleurs dans les ateliers de production et
+                        organisations de repr&eacute;sentation des travailleurs</h3>
                         <ul>
                             <li>
                                 Prendre part aux{" "}
@@ -131,12 +151,9 @@ const fr = () => {
                                 violations des droits du travail.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        Fournisseurs dans toute votre cha&icirc;ne
-                        d&apos;approvisionnement
+
+                        <h3>Fournisseurs dans toute votre cha&icirc;ne
+                        d&apos;approvisionnement</h3>
                         <ul>
                             <li>
                                 Prendre part &agrave; l&apos;
@@ -200,12 +217,9 @@ const fr = () => {
                                 les communaut&eacute;s.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        Communaut&eacute;s et organisations communautaires dans
-                        toute votre cha&icirc;ne d&apos;approvisionnement
+
+                <h3>        Communaut&eacute;s et organisations communautaires dans
+                        toute votre cha&icirc;ne d&apos;approvisionnement</h3>
                         <ul>
                             <li>
                                 Fournir des avis utiles pour votre{" "}
@@ -274,12 +288,9 @@ const fr = () => {
                                 initiatives pour lutter contre elles.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        Organisations nationales ou internationales de la
-                        soci&eacute;t&eacute; civile
+
+                     <h3>Organisations nationales ou internationales de la
+                        soci&eacute;t&eacute; civile</h3>
                         <ul>
                             <li>
                                 Fournir des avis utiles pour votre{" "}
@@ -330,11 +341,7 @@ const fr = () => {
                                 contre elles.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        Actionnaires et groupes d&apos;investisseurs
+                        <h3>Actionnaires et groupes d&apos;investisseurs</h3>
                         <ul>
                             <li>
                                 Pr&eacute;coniser aupr&egrave;s des autres
@@ -370,11 +377,7 @@ const fr = () => {
                                 li&eacute;es &agrave; ses op&eacute;rations.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        Autres entreprises dans votre industrie
+                        <h3>Autres entreprises dans votre industrie</h3>
                         <ul>
                             <li>
                                 Partager des exemples de{" "}
@@ -420,8 +423,6 @@ const fr = () => {
                                 des droits du travail.
                             </li>
                         </ul>
-                    </li>
-                </ul>
                 <h2>
                     R&ocirc;le des organismes du gouvernement dans les
                     syst&egrave;mes de conformit&eacute; sociale
@@ -562,34 +563,7 @@ const fr = () => {
                         d&rsquo;InPACTO.
                     </p>
                 </ExampleInAction>
-                <p>
-                    Apr&egrave;s avoir identifi&eacute; vos parties prenantes et
-                    compris les r&ocirc;les potentiels qu&apos;elles peuvent
-                    jouer dans votre syst&egrave;me de conformit&eacute;
-                    sociale, vous pouvez cibler certains groupes pour les amener
-                    &agrave; participer. Pour certaines entreprises, identifier
-                    les groupes-cl&eacute;s de parties prenantes et les amener
-                    &agrave; participer &agrave; des domaines sp&eacute;cifiques
-                    du syst&egrave;me de conformit&eacute; sociale constitue la
-                    fa&ccedil;on la plus utile d&apos;op&eacute;rer des
-                    am&eacute;liorations cibl&eacute;es. C&apos;est
-                    particuli&egrave;rement vrai pour les entreprises qui
-                    poss&egrave;dent d&eacute;j&agrave; quelques
-                    &eacute;l&eacute;ments en place d&apos;un syst&egrave;me de
-                    conformit&eacute; sociale, mais comprennent qu&apos;il reste
-                    des domaines pr&eacute;cis qu&apos;il conviendrait
-                    d&apos;am&eacute;liorer.
-                </p>
-                <p>
-                    Pour d&apos;autres, le «&nbsp;premier pas&nbsp;» le plus
-                    indiqu&eacute; pour mobiliser la participation des parties
-                    prenantes consistera &agrave; &eacute;tablir des liens avec
-                    des initiatives existantes, par exemple des groupes de
-                    plusieurs parties prenantes, des associations ou des
-                    initiatives de l&apos;industrie ou des programmes de
-                    certification &eacute;ventuels qui correspondent aux besoins
-                    et aux objectifs de l&apos;entreprise.
-                </p>
+
             </div>
         </StaticData>
     );

@@ -284,8 +284,7 @@ const en = () => {
                             </li>
                         </ul>
 
-                <ul>
-                    <li>
+
                        <h3> Other companies in your industry</h3>
                         <ul>
                             <li>
@@ -322,8 +321,7 @@ const en = () => {
                                 <strong> root causes </strong>of labor abuses.
                             </li>
                         </ul>
-                    </li>
-                </ul>
+
 
                        <h2>The Importance of External Stakeholders in Social Compliance Systems</h2>
                         <ul>
@@ -455,7 +453,7 @@ const en = () => {
                     </p>
                 </ExampleInAction>
             </div>
-            <br />
+
         </StaticData>
     );
 };
