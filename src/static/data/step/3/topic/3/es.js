@@ -30,7 +30,7 @@ const es = () => {
                                    est&aacute;n disponibles y son pertinentes a la luz de las
                                    necesidades y los objetivos de la empresa.
                                </p>
-
+                       <h2>Your Stakeholders</h2>
                        <h3> Empleados de empresas</h3>
                         <ul>
                             <li>
@@ -384,6 +384,20 @@ const es = () => {
                                 Analizan maneras de colaborar para abordar las
                                 <strong> causas fundamentales </strong>de la
                                 explotaci&oacute;n laboral.
+                            </li>
+                        </ul>
+
+                        <h2>The Importance of External Stakeholders in Social Compliance Systems</h2>
+                        <ul>
+                            <li>
+                                PLACEHOLDER FOR TEXT
+                            </li>
+
+                            <li>
+                                 PLACEHOLDER FOR TEXT
+                            </li>
+                            <li>
+                                PLACEHOLDER FOR TEXT
                             </li>
                         </ul>
 

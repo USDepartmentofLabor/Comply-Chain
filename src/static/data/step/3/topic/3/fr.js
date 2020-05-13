@@ -35,7 +35,7 @@ const fr = () => {
                                     certification &eacute;ventuels qui correspondent aux besoins
                                     et aux objectifs de l&apos;entreprise.
                                 </p>
-
+                        <h2>Your Stakeholders</h2>
                        <h3> Employ&eacute;s de l&apos;entreprise</h3>
                         <ul>
                             <li>
@@ -423,6 +423,19 @@ const fr = () => {
                                 des droits du travail.
                             </li>
                         </ul>
+                        <h2>The Importance of External Stakeholders in Social Compliance Systems</h2>
+                            <ul>
+                                <li>
+                                    PLACEHOLDER FOR TEXT
+                                </li>
+
+                                <li>
+                                     PLACEHOLDER FOR TEXT
+                                </li>
+                                <li>
+                                    PLACEHOLDER FOR TEXT
+                                </li>
+                            </ul>
                 <h2>
                     R&ocirc;le des organismes du gouvernement dans les
                     syst&egrave;mes de conformit&eacute; sociale
