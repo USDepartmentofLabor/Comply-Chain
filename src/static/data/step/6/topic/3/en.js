@@ -1,5 +1,6 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import Accordion from "../../../../../../components/Accordion";  
 
 const en = () => {
     return (
@@ -52,14 +53,32 @@ const en = () => {
                     </li>
                 </ul>
 
-                <h2>Social Compliance Team</h2>
+                <h2>Internal</h2>
+                <Accordion id="what-topic-cover">
+                <Accordion.Section id="soc-comp-team">
+                    <Accordion.Title>
+                                <strong>
+                                Social Compliance Team
+                                </strong>
+                    </Accordion.Title>
+                <Accordion.Panel>
                 <p>
                     Intensive training in all aspects of the system. Ongoing
                     training for this team could include use of the social
                     compliance information system and benchmarking against other
                     companies and initiatives.
                 </p>
-                <h2>Product Development/ Sourcing Departments</h2>
+                </Accordion.Panel>
+                </Accordion.Section>
+                
+                <Accordion.Section id="product-dept">
+                            <Accordion.Title>
+                                <strong>
+                                Product Development/ Sourcing Departments
+
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <p>
                     Training in the types of data the social compliance team
                     gathers, and how to use that data in making product
@@ -73,8 +92,17 @@ const en = () => {
                     compliance data. Buy-in and participation from the highest
                     levels of the company may be necessary in these discussions.
                 </p>
-                <h2>Other Employees</h2>
+                </Accordion.Panel>
+                </Accordion.Section>
+                
+                <Accordion.Section id="other-emp">
+                            <Accordion.Title>
+                                <strong>
+                                Other Employees
 
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <p>
                     Communication via newsletters, e-mails, annual reports,
                     annual meetings or other means to ensure that all employees
@@ -83,9 +111,17 @@ const en = () => {
                     incentive or award system that rewards top performers in
                     social responsibility.
                 </p>
+                </Accordion.Panel>
+                </Accordion.Section>
+                
+                <Accordion.Section id="vendor-agent">
+                            <Accordion.Title>
+                                <strong>
+                                Vendors/Agents (If Applicable)
 
-                <h2>Vendors/Agents (If Applicable)</h2>
-
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <p>
                     Contractual requirements to which the vendor or agent is
                     held. Typically a vendor/agent should be required to sign a
@@ -129,8 +165,18 @@ const en = () => {
                         compliance performance.
                     </li>
                 </ul>
-                <h2>Suppliers: Management</h2>
-
+                </Accordion.Panel>
+                </Accordion.Section>
+                </Accordion>
+                <h2>Suppliers</h2>
+                <Accordion id="what-topic-cover-1">
+                <Accordion.Section id="mgmt">
+                    <Accordion.Title>
+                                <strong>
+                                Management
+                                </strong>
+                    </Accordion.Title>
+                <Accordion.Panel>
                 <p>
                     The contractual requirements to which suppliers are held, if
                     a company contracts directly with suppliers. The supplier
@@ -167,8 +213,15 @@ const en = () => {
                         specified tiers of the supply chain.
                     </li>
                 </ul>
-
-                <h2>Suppliers: Supervisors</h2>
+                </Accordion.Panel>
+                </Accordion.Section>
+                <Accordion.Section id="supervisor">
+                    <Accordion.Title>
+                                <strong>
+                                Supervisors
+                                </strong>
+                    </Accordion.Title>
+                <Accordion.Panel>
                 <ul>
                     <li>Proper use of authority;</li>
                     <li>
@@ -182,8 +235,15 @@ const en = () => {
                         labor and trafficking.
                     </li>
                 </ul>
-
-                <h2>Suppliers: Human Resources Staff</h2>
+                </Accordion.Panel>
+                </Accordion.Section>
+                <Accordion.Section id="hr-staff">
+                    <Accordion.Title>
+                                <strong>
+                                Human Resources Staff
+                                </strong>
+                    </Accordion.Title>
+                <Accordion.Panel>
                 <ul>
                     <li>
                         Computation of wages, including piece rates, overtime,
@@ -228,7 +288,9 @@ const en = () => {
                         appropriate.
                     </li>
                 </ul>
-
+                </Accordion.Panel>
+                </Accordion.Section>
+                </Accordion>
                 <h2>Suppliers Beyond the First Tier</h2>
 
                 <p>

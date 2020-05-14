@@ -1,5 +1,6 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import Accordion from "../../../../../../components/Accordion";
 
 const fr = () => {
     return (
@@ -61,8 +62,15 @@ const fr = () => {
                         les m&eacute;canismes de r&eacute;clamation.
                     </li>
                 </ul>
-
-                <h2>&Eacute;quipe de conformit&eacute; sociale</h2>
+                <h2>Internes</h2>
+                <Accordion id="what-topic-cover">
+                <Accordion.Section id="soc-comp-team">
+                    <Accordion.Title>
+                                <strong>
+                                &Eacute;quipe de conformit&eacute; sociale
+                                </strong>
+                    </Accordion.Title>
+                <Accordion.Panel>    
                 <p>
                     Formation intensive relative &agrave; tous les aspects du
                     syst&egrave;me. Une formation continue pour cette
@@ -71,10 +79,18 @@ const fr = () => {
                     sociale et un r&eacute;f&eacute;rentiel par rapport &agrave;
                     d&apos;autres entreprises et d&apos;autres initiatives.
                 </p>
-                <h2>
-                    D&eacute;partements d&eacute;veloppement des
+                </Accordion.Panel>
+                </Accordion.Section>
+                
+                <Accordion.Section id="other-emp">
+                            <Accordion.Title>
+                                <strong>
+                                D&eacute;partements d&eacute;veloppement des
                     produits/approvisionnement
-                </h2>
+
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel> 
                 <p>
                     Formation relative aux types de donn&eacute;es que
                     l&apos;&eacute;quipe de conformit&eacute; sociale recueille,
@@ -95,8 +111,16 @@ const fr = () => {
                     hauts niveaux de l&apos;entreprise pourraient &ecirc;tre
                     n&eacute;cessaires pour ces discussions.
                 </p>
-                <h2>Autres employ&eacute;s</h2>
-
+                </Accordion.Panel>
+                </Accordion.Section>
+                
+                <Accordion.Section id="vendor-agent">
+                            <Accordion.Title>
+                                <strong>
+                                Autres employ&eacute;s
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <p>
                     Communication par le biais de bulletins d&apos;information,
                     de courriels, de rapports et de r&eacute;unions annuels, et
@@ -109,9 +133,16 @@ const fr = () => {
                     autre d&eacute;marche qui a &eacute;t&eacute;
                     adopt&eacute;e.
                 </p>
-
-                <h2>Fournisseurs/agents (le cas &eacute;ch&eacute;ant)</h2>
-
+                </Accordion.Panel>
+                </Accordion.Section>
+                
+                <Accordion.Section id="vendor-agent">
+                            <Accordion.Title>
+                                <strong>
+                                Fournisseurs/agents (le cas &eacute;ch&eacute;ant)
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <p>
                     Exigences contractuelles auxquelles le fournisseur ou
                     l&apos;agent est tenu. D&apos;ordinaire, un
@@ -163,8 +194,19 @@ const fr = () => {
                         sociale.
                     </li>
                 </ul>
-                <h2>Fournisseurs: gestion</h2>
+                </Accordion.Panel>
+                </Accordion.Section>
+                </Accordion>
 
+                <h2>Fournisseurs</h2>
+                <Accordion id="what-topic-cover-1">
+                <Accordion.Section id="mgmt">
+                    <Accordion.Title>
+                                <strong>
+                                Gestion
+                                </strong>
+                    </Accordion.Title>
+                <Accordion.Panel>
                 <p>
                     Exigences contractuelles auxquelles sont tenus les
                     fournisseurs, si une entreprise passe des contrats
@@ -212,8 +254,15 @@ const fr = () => {
                         la cha&icirc;ne d&apos;approvisionnement.
                     </li>
                 </ul>
-
-                <h2>Fournisseurs: contrema&icirc;tres</h2>
+                </Accordion.Panel>
+                </Accordion.Section>
+                <Accordion.Section id="supervisor">
+                    <Accordion.Title>
+                                <strong>
+                                Contrema&icirc;tres
+                                </strong>
+                    </Accordion.Title>
+                <Accordion.Panel>
                 <ul>
                     <li>Usage appropri&eacute; des pouvoirs;</li>
                     <li>
@@ -232,8 +281,15 @@ const fr = () => {
                         traite des personnes.
                     </li>
                 </ul>
-
-                <h2>Fournisseurs: personnel des ressources humaines </h2>
+                </Accordion.Panel>
+                </Accordion.Section>
+                <Accordion.Section id="hr-staff">
+                    <Accordion.Title>
+                                <strong>
+                                Personnel des ressources humaines
+                                </strong>
+                    </Accordion.Title>
+                <Accordion.Panel>
                 <ul>
                     <li>
                         Calcul des salaires, y compris du travail &agrave; la
@@ -294,7 +350,9 @@ const fr = () => {
                         conformit&eacute; sociale, le cas &eacute;ch&eacute;ant.
                     </li>
                 </ul>
-
+                </Accordion.Panel>
+                </Accordion.Section>
+                </Accordion>
                 <h2>Fournisseurs au-del&agrave; du premier niveau</h2>
 
                 <p>

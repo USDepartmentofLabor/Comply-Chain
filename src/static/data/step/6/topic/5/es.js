@@ -1,6 +1,7 @@
 import React from "react";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";  
 
 const es = () => {
     return (
@@ -45,7 +46,15 @@ const es = () => {
                     reclamaci&oacute;n al denunciante y a las dem&aacute;s
                     partes interesadas afectadas.
                 </p>
-                <p>
+                
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: Technology based Grievance Mechanism
+                        </strong>
+                    </h2>
+                    <p>
                     La tecnolog&iacute;a desempe&ntilde;a un papel cada vez
                     m&aacute;s importante en la capacidad que tienen las
                     empresas, los sindicatos, las organizaciones de la sociedad
@@ -93,6 +102,18 @@ const es = () => {
                     podr&iacute;a haber un mayor desarrollo de la
                     tecnolog&iacute;a. &nbsp;
                 </p>
+                </ExampleInAction>
+                <ExampleInAction id="grievprocedure">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: Palm Oil Grievance Procedure
+                        </strong>
+                    </h2>
+                <p>
+                    Place holder
+                </p>
+                </ExampleInAction>
                 <OwnWords>
                     <h2>
                         <OwnWords.Icon alt="Feedback"/>{" "}
