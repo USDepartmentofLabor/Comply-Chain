@@ -1,5 +1,6 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import Accordion from "../../../../../../components/Accordion";
 
 const es = () => {
     return (
@@ -63,8 +64,15 @@ const es = () => {
                         mecanismos de reclamaci&oacute;n.
                     </li>
                 </ul>
-
-                <h2>Equipo de cumplimiento social</h2>
+                <h2>Interna</h2>
+                <Accordion id="what-topic-cover">
+                <Accordion.Section id="soc-comp-team">
+                    <Accordion.Title>
+                                <strong>
+                                Equipo de cumplimiento social
+                                </strong>
+                    </Accordion.Title>
+                <Accordion.Panel>                
                 <p>
                     Capacitaci&oacute;n intensiva en todos los aspectos del
                     sistema. La capacitaci&oacute;n continua de este equipo
@@ -72,9 +80,17 @@ const es = () => {
                     cumplimiento social y una comparaci&oacute;n con otras
                     empresas e iniciativas.
                 </p>
-                <h2>
-                    Departamentos de desarrollo de productos y abastecimiento
-                </h2>
+                </Accordion.Panel>
+                </Accordion.Section>
+                
+                <Accordion.Section id="product-dept">
+                            <Accordion.Title>
+                                <strong>
+                                Departamentos de desarrollo de productos y abastecimiento
+
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <p>
                     Capacitar en los tipos de datos que recolecta el equipo de
                     cumplimiento social y la manera de usar dichos datos a la
@@ -92,8 +108,17 @@ const es = () => {
                     aceptaci&oacute;n y participaci&oacute;n de las
                     m&aacute;ximas esferas de la empresa.
                 </p>
-                <h2>Otros empleados</h2>
+                </Accordion.Panel>
+                </Accordion.Section>
+                
+                <Accordion.Section id="other-emp">
+                            <Accordion.Title>
+                                <strong>
+                                Otros empleados
 
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel> 
                 <p>
                     La comunicaci&oacute;n por boletines informativos, correo
                     electr&oacute;nico, informes anuales, reuniones anuales u
@@ -103,9 +128,17 @@ const es = () => {
                     sistema de incentivos o recompensas que premia a quienes
                     tengan el mejor desempe&ntilde;o en responsabilidad social.
                 </p>
+                </Accordion.Panel>
+                </Accordion.Section>
+                
+                <Accordion.Section id="vendor-agent">
+                            <Accordion.Title>
+                                <strong>
+                                Proveedores o agentes de la empresa (si procede)
 
-                <h2>Proveedores o agentes de la empresa (si procede)</h2>
-
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <p>
                     Los requisitos contractuales que se exigen al contratista o
                     agente. Por lo general, un contratista o agente debe firmar
@@ -152,7 +185,19 @@ const es = () => {
                         desempe&ntilde;o en el cumplimiento social.
                     </li>
                 </ul>
-                <h2>Proveedores: gerencia</h2>
+                </Accordion.Panel>
+                </Accordion.Section>
+                </Accordion>
+                <h2>Proveedores</h2>
+                <Accordion id="what-topic-cover-1">
+                <Accordion.Section id="mgmt">
+                    <Accordion.Title>
+                                <strong>
+                                Gerencia
+                                </strong>
+                    </Accordion.Title>
+                <Accordion.Panel>
+                
 
                 <p>
                     Los requisitos contractuales que se exigen a los
@@ -199,8 +244,16 @@ const es = () => {
                         de suministro.
                     </li>
                 </ul>
-
-                <h2>Proveedores: supervisores</h2>
+                </Accordion.Panel>
+                </Accordion.Section>
+                <Accordion.Section id="supervisor">
+                    <Accordion.Title>
+                                <strong>
+                                Supervisores
+                                </strong>
+                    </Accordion.Title>
+                <Accordion.Panel>
+                
                 <ul>
                     <li>Uso adecuado de la autoridad;</li>
                     <li>
@@ -217,8 +270,16 @@ const es = () => {
                         infantil, el trabajo forzoso y la trata.
                     </li>
                 </ul>
-
-                <h2>Proveedores: personal de Recursos Humanos</h2>
+                </Accordion.Panel>
+                </Accordion.Section>
+                <Accordion.Section id="hr-staff">
+                    <Accordion.Title>
+                                <strong>
+                                Personal de Recursos Humanos
+                                </strong>
+                    </Accordion.Title>
+                <Accordion.Panel>
+                
                 <ul>
                     <li>
                         C&aacute;lculo de sueldos, como el pago a destajo, las
@@ -270,7 +331,9 @@ const es = () => {
                         social, si procede.
                     </li>
                 </ul>
-
+                </Accordion.Panel>
+                </Accordion.Section>
+                </Accordion>
                 <h2>
                     Proveedores m&aacute;s all&aacute; de los de primer orden
                 </h2>

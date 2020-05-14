@@ -47,7 +47,7 @@ const en = () => {
                     <em>
                         <u>
                             <Link to="/steps/4">
-                                Assessing and Addressing Root Causes
+                                Addressing Root Causes
                             </Link>
                         </u>
                     </em>
@@ -78,6 +78,23 @@ const en = () => {
                     impacts on producers and suppliers&rsquo; incomes, so the
                     trainings may be deemed more important by management and
                     supervisors.
+                </p>
+                
+               
+                <p>
+                    Developing materials, scheduling training sessions, hiring
+                    trainers and tracking training delivery are all significant
+                    investments. There are various ways to structure financing
+                    for your training program. Some companies simply choose to
+                    allocate a large portion of their social compliance budget
+                    to training and capacity building, believing that training
+                    helps to prevent problems and ultimately saves money. Some
+                    companies provide a core set of trainings free of charge,
+                    but if code violations are found for which training is
+                    required as part of remediation, the supplier then pays
+                    those training costs. In some relationships, the
+                    vendors/agents or suppliers handle all responsibilities
+                    related to training, including all costs.
                 </p>
                 <ExampleInAction id="cocoa">
                     <h2>
@@ -167,7 +184,14 @@ const en = () => {
                         .
                     </p>
                 </ExampleInAction>
-                <p>
+                <ExampleInAction id="iloscore">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: ILO's Program for Sustaining Competitive and Responsible Enterprises (SCORE)
+                        </strong>
+                    </h2>
+                    <p>
                     The ILO&rsquo;s Program for{" "}
                     <a
                         target="_blank"
@@ -190,21 +214,7 @@ const en = () => {
                     2017, over 1,000 SMEs representing over 270,000 workers,
                     have participated in SCORE trainings.&nbsp;
                 </p>
-                <p>
-                    Developing materials, scheduling training sessions, hiring
-                    trainers and tracking training delivery are all significant
-                    investments. There are various ways to structure financing
-                    for your training program. Some companies simply choose to
-                    allocate a large portion of their social compliance budget
-                    to training and capacity building, believing that training
-                    helps to prevent problems and ultimately saves money. Some
-                    companies provide a core set of trainings free of charge,
-                    but if code violations are found for which training is
-                    required as part of remediation, the supplier then pays
-                    those training costs. In some relationships, the
-                    vendors/agents or suppliers handle all responsibilities
-                    related to training, including all costs.
-                </p>
+                </ExampleInAction>
             </div>
         </StaticData>
     );

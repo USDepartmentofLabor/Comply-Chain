@@ -1,6 +1,7 @@
 import React from "react";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";  
 
 const en = () => {
     return (
@@ -40,6 +41,13 @@ const en = () => {
                     notify both the complainant and other affected stakeholders
                     of the outcome of the grievance.
                 </p>
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: Technology based Grievance Mechanism
+                        </strong>
+                    </h2>
                 <p>
                     Technology is playing an increasing role in the ability of
                     companies, labor unions, civil society organizations, and
@@ -80,6 +88,18 @@ const en = () => {
                     rights; this is an area of need and an opportunity for
                     further technology development.&nbsp;
                 </p>
+                </ExampleInAction>
+                <ExampleInAction id="grievprocedure">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: Palm Oil Grievance Procedure
+                        </strong>
+                    </h2>
+                <p>
+                    Place holder
+                </p>
+                </ExampleInAction>
                 <OwnWords>
                     <h2>
                         <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
