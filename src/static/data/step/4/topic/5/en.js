@@ -5,6 +5,8 @@ import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import hrm from "../../../../../images/hrm.jpg";
 import panos from "../../../../../images/panos.jpg";
+import Accordion from "../../../../../../components/Accordion";
+
 
 const en = () => {
     return (
@@ -208,123 +210,176 @@ const en = () => {
                         to prevent and eliminate human rights violations in
                         their supply chains.
                     </p>
-                    <img
-                        id="img-browser"
-                        className="small-img"
-                        src={panos}
-                        alt="child labourer with a spade"
-                    />
-                    <p className="small-text">&copy;George Osodi/Panos</p>
                 </ExampleInAction>
-                <p>
-                    Following this initial research, the company should engage
-                    relevant stakeholders in gathering additional information
-                    about risks. The company should seek input from a range of
-                    groups, and put in place processes that allow for
-                    communication across language and other barriers.
-                </p>
-                <p>
-                    There may be situations where consultation with certain
-                    stakeholder groups is not possible, or where consultation
-                    did not yield all of the information you need. In these
-                    cases, experts from academic institutions, corporate social
-                    responsibility consultancies and NGOs can be engaged to
-                    assist with risk and impact assessment.
-                </p>
-                <p>What information are you looking for?</p>
-                <h2>Nature and prevalence</h2>
+                 <Accordion id="cocoa-chains-acc">
+                    <Accordion.Section id="cocoa-description">
+                        <Accordion.Title>
+                        Nature and prevalence
+                    </Accordion.Title>
+                    <Accordion.Panel>
 
-                <p className="indent-margin">
-                    Are child labor, forced labor and other labor abuses known
-                    or believed to occur in your geographic areas (or potential
-                    areas) of sourcing? What kind of work is being done? Where
-                    are abuses most often found?
-                </p>
-                <h2>Root causes</h2>
+                        <p className="indent-margin">
+                            Are child labor, forced labor and other labor abuses known
+                            or believed to occur in your geographic areas (or potential
+                            areas) of sourcing? What kind of work is being done? Where
+                            are abuses most often found?
+                        </p>
+                    </Accordion.Panel>
+                </Accordion.Section>
+                </Accordion>
+                  <Accordion id="cocoa-chains-acc">
+                                    <Accordion.Section id="cocoa-description">
+                            <Accordion.Title>
+                             Root causes
+                        </Accordion.Title>
+                        <Accordion.Panel>
 
-                <p className="indent-margin">
-                    If child labor, forced labor and other labor abuses exist,
-                    what are the root causes?
-                </p>
+                            <p className="indent-margin">
+                                If child labor, forced labor and other labor abuses exist,
+                                what are the root causes?
+                            </p>
+                        </Accordion.Panel>
+                    </Accordion.Section>
+                    </Accordion>
+                <Accordion id="cocoa-chains-acc">
+                  <Accordion.Section id="cocoa-description">
+                     <Accordion.Title>
+                     Industry structure
+                    </Accordion.Title>
+                    <Accordion.Panel>
 
-                <h2>Industry structure</h2>
-                <p className="indent-margin">
-                    How does this industry operate in the country? Are
-                    workplaces formal or informal? Are employment relationships
-                    formalized? Are there elements of production that are
-                    subcontracted? If so, is some production outsourced to
-                    homes?
-                </p>
+                        <p className="indent-margin">
+                            How does this industry operate in the country? Are
+                            workplaces formal or informal? Are employment relationships
+                            formalized? Are there elements of production that are
+                            subcontracted? If so, is some production outsourced to
+                            homes?
+                        </p>
+                    </Accordion.Panel>
+                </Accordion.Section>
+                </Accordion>
+                <Accordion id="cocoa-chains-acc">
+                  <Accordion.Section id="cocoa-description">
+                     <Accordion.Title>
+                     Labor population
+                        </Accordion.Title>
+                        <Accordion.Panel>
 
-                <h2>Labor population</h2>
+                        <p className="indent-margin">
+                            What are the characteristics of the labor force in this
+                            industry in this geographic area? Is there significant
+                            reliance on subcontracted, unskilled temporary and/or
+                            migrant workers? If so, do these workers typically speak the
+                            language of the area? Are workers predominantly of one
+                            gender or another? Is there a particular age group commonly
+                            hired?
+                        </p>
+                    </Accordion.Panel>
+                </Accordion.Section>
+                </Accordion>
 
-                <p className="indent-margin">
-                    What are the characteristics of the labor force in this
-                    industry in this geographic area? Is there significant
-                    reliance on subcontracted, unskilled temporary and/or
-                    migrant workers? If so, do these workers typically speak the
-                    language of the area? Are workers predominantly of one
-                    gender or another? Is there a particular age group commonly
-                    hired?
-                </p>
+                <Accordion id="cocoa-chains-acc">
+                                  <Accordion.Section id="cocoa-description">
+                                     <Accordion.Title>
+                                     Industrial relations
+                                        </Accordion.Title>
+                                        <Accordion.Panel>
 
-                <h2>Industrial relations</h2>
+                                        <p className="indent-margin">
+                                        Is a national legal and institutional framework in place to
+                                        allow for effective industrial relations and collective
+                                        bargaining? Are effective labor unions present? If not, are
+                                        there other mechanisms in place for workers to have a voice
+                                        in their workplaces?
+                                    </p>
+                                    </Accordion.Panel>
+                                </Accordion.Section>
+                                </Accordion>
 
-                <p className="indent-margin">
-                    Is a national legal and institutional framework in place to
-                    allow for effective industrial relations and collective
-                    bargaining? Are effective labor unions present? If not, are
-                    there other mechanisms in place for workers to have a voice
-                    in their workplaces?
-                </p>
+                  <Accordion id="cocoa-chains-acc">
+                       <Accordion.Section id="cocoa-description">
+                          <Accordion.Title>
+                         Social protection
+                             </Accordion.Title>
+                             <Accordion.Panel>
 
-                <h2>Social protection</h2>
+                             <p className="indent-margin">
+                                 Is there a social safety net in the country that protects
+                                 the most vulnerable&mdash;providing, among other things,
+                                 access to health care, income security for the elderly and
+                                 persons with disabilities, child benefits, and income
+                                 security for the unemployed and working poor? Are there
+                                 sufficient educational institutions to educate children
+                                 until they reach legal working age?
+                             </p>
+                         </Accordion.Panel>
+                     </Accordion.Section>
+                     </Accordion>
+                <Accordion id="cocoa-chains-acc">
+                           <Accordion.Section id="cocoa-description">
+                              <Accordion.Title>
+                             Legal and regulatory environment
+                                 </Accordion.Title>
+                                 <Accordion.Panel>
 
-                <p className="indent-margin">
-                    Is there a social safety net in the country that protects
-                    the most vulnerable&mdash;providing, among other things,
-                    access to health care, income security for the elderly and
-                    persons with disabilities, child benefits, and income
-                    security for the unemployed and working poor? Are there
-                    sufficient educational institutions to educate children
-                    until they reach legal working age?
-                </p>
-                <h2>Legal and regulatory environment</h2>
+                                 <p className="indent-margin">
+                                     What are the key laws and regulations concerning child
+                                     labor, forced labor and other labor issues in this
+                                     country/jurisdiction? Do those laws and regulations apply to
+                                     migrant workers? What laws exist concerning corporate
+                                     complicity in human rights abuse? To what extent are laws
+                                     enforced and is there evidence of corruption tied to lack of
+                                     enforcement?
+                                 </p>
+                             </Accordion.Panel>
+                         </Accordion.Section>
+                         </Accordion>
+                <Accordion id="cocoa-chains-acc">
+                           <Accordion.Section id="cocoa-description">
+                              <Accordion.Title>
+                            Existing Initiatives and Organizations
+                                 </Accordion.Title>
+                                 <Accordion.Panel>
 
-                <p className="indent-margin">
-                    What are the key laws and regulations concerning child
-                    labor, forced labor and other labor issues in this
-                    country/jurisdiction? Do those laws and regulations apply to
-                    migrant workers? What laws exist concerning corporate
-                    complicity in human rights abuse? To what extent are laws
-                    enforced and is there evidence of corruption tied to lack of
-                    enforcement?
-                </p>
+                                 <p>
+                                     What efforts are being undertaken, and by whom, to combat
+                                     labor abuses such as child and forced labor in this industry
+                                     or area?
+                                 </p>
 
-                <h2>Existing initiatives</h2>
+                                 <p>
+                                     To get a sense for how this general approach can be applied
+                                     in a particular sector, the{" "}
+                                     <a
+                                         target="_blank"
+                                         rel="noopener noreferrer"
+                                         href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
+                                         title="Responsible Sourcing Seafood Tool 4: Information Gathering and Risk Assessment in Seafood Supply Chains"
+                                     >
+                                         Responsible Sourcing Seafood Tool 4: Information
+                                         Gathering and Risk Assessment in Seafood Supply Chains
+                                     </a>{" "}
+                                     takes a step-by-step approach to examining country-based
+                                     risks, supply chain-based risks, and supplier-based
+                                     risks.&nbsp;
+                                 </p>
+                             </Accordion.Panel>
+                         </Accordion.Section>
+                         </Accordion>
+                          <Accordion id="cocoa-chains-acc">
+                                <Accordion.Section id="cocoa-description">
+                                   <Accordion.Title>
+                                  Market Data
+                                      </Accordion.Title>
+                                      <Accordion.Panel>
 
-                <p>
-                    What efforts are being undertaken, and by whom, to combat
-                    labor abuses such as child and forced labor in this industry
-                    or area?
-                </p>
-
-                <p>
-                    To get a sense for how this general approach can be applied
-                    in a particular sector, the{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
-                        title="Responsible Sourcing Seafood Tool 4: Information Gathering and Risk Assessment in Seafood Supply Chains"
-                    >
-                        Responsible Sourcing Seafood Tool 4: Information
-                        Gathering and Risk Assessment in Seafood Supply Chains
-                    </a>{" "}
-                    takes a step-by-step approach to examining country-based
-                    risks, supply chain-based risks, and supplier-based
-                    risks.&nbsp;
-                </p>
+                                      <p className="indent-margin">
+                                         <b>PLACEHOLDER FOR TEXT </b>
+                                      </p>
+                                  </Accordion.Panel>
+                              </Accordion.Section>
+                              </Accordion>
+                         <br />
                 <ExampleInAction id="fish">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -476,66 +531,6 @@ const en = () => {
                         , 2017
                     </p>
                 </OwnWords>
-                <h2>Migrant Workers</h2>
-                <p>
-                    Migrants are a category of workers particularly vulnerable
-                    to forced labor. In the global economy, millions of workers
-                    leave their homes for jobs elsewhere in their own country or
-                    in another part of the world. Many migrants in search of
-                    jobs place their trust in labor recruiters or brokers to
-                    make transportation arrangements and place them in jobs, but
-                    many workers find&mdash;too late&mdash;that their wages and
-                    employment terms do not match brokers&rsquo; promises. Some
-                    migrants incur large debts in the recruitment process, and
-                    become trapped in debt bondage when they cannot repay these
-                    debts. Cycles of debt bondage can also begin when employers
-                    deduct from workers&rsquo; wages for housing, food and other
-                    costs, leaving them with little or no take-home pay. Many
-                    migrant workers are required to sign contracts in languages
-                    they can&rsquo;t read; others have informal employment
-                    relationships with no contract at all. Some are required to
-                    turn over their identity documents to employers, leaving
-                    them without the option to escape abusive or exploitative
-                    conditions.
-                </p>
-                <p>
-                    If your suppliers use labor brokers to recruit and place
-                    migrant labor, you may be at risk for forced labor and
-                    trafficking in your supply chains. Recommended resources on
-                    this issue include the{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.iccr.org/"
-                        title="Interfaith Center on Corporate Responsibility&rsquo;s (ICCR)"
-                    >
-                        Interfaith Center on Corporate Responsibility&rsquo;s
-                        (ICCR)
-                    </a>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"
-                        title="Best Practice Guidance on Ethical Recruitment of Migrant Workers"
-                    >
-                        {" "}
-                        Best Practice Guidance on Ethical Recruitment of Migrant
-                        Workers
-                    </a>{" "}
-                    and the ILO&rsquo;s{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
-                        title="General Principles and Operational Guidelines for Fair Recruitment"
-                    >
-                        General Principles and Operational Guidelines for Fair
-                        Recruitment
-                    </a>
-                    , which informs the work of the ILO and of national
-                    legislatures and other social partners on promoting and
-                    ensuring fair recruitment.&nbsp;
-                </p>
                 <p>
                     Some companies take the approach of
                     &ldquo;outsourcing&rdquo; the information-gathering function
