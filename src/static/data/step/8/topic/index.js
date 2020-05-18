@@ -8,108 +8,111 @@ export const Topics = {
     en: [
         {
             keywords: [],
-            title: "Improving Victim Situations",
+            title: "The Importance of Violation Remediation",
             content: Topic1.en
         },
         {
             keywords: [],
-            title: "Preventing Recurrence",
+            title: "Improving Victim Situations",
             content: Topic2.en
         },
         {
             keywords: [],
-            title: "Corrective Action Plan",
+            title: "Preventing Recurrence",
             content: Topic3.en
         },
         {
             keywords: [],
-            title: "Communication About Remediation",
+            title: "Corrective Action Plan",
             content: Topic4.en
         },
         {
             keywords: [],
-            title: "The Importance of Violation Remediation",
+            title: "Communication About Remediation",
             content: Topic5.en
         }
+
     ],
     es: [
         {
             keywords: [],
-            title: "Mejora de la situación de las víctimas",
+            title: "The Importance of Violation Remediation",
             content: Topic1.es
         },
         {
             keywords: [],
-            title: "Prevención de la reincidencia",
+            title: "Mejora de la situación de las víctimas",
             content: Topic2.es
         },
         {
             keywords: [],
-            title: "Plan de acción correctiva",
+            title: "Prevención de la reincidencia",
             content: Topic3.es
         },
         {
             keywords: [],
-            title: "Comunicación sobre la remediación",
+            title: "Plan de acción correctiva",
             content: Topic4.es
         },
         {
             keywords: [],
-            title: "The Importance of Violation Remediation",
+            title: "Comunicación sobre la remediación",
             content: Topic5.es
         }
+
     ],
     fr: [
         {
             keywords: [],
-            title: "Améliorer la situation des victimes",
+            title: "The Importance of Violation Remediation",
             content: Topic1.fr
         },
         {
             keywords: [],
-            title: "Empêcher la récidive",
+            title: "Améliorer la situation des victimes",
             content: Topic2.fr
         },
         {
             keywords: [],
-            title: "Plan d'action corrective",
+            title: "Empêcher la récidive",
             content: Topic3.fr
         },
         {
             keywords: [],
-            title: "Communication sur les réparations",
+            title: "Plan d'action corrective",
             content: Topic4.fr
         },
         {
             keywords: [],
-            title: "The Importance of Violation Remediation",
+            title: "Communication sur les réparations",
             content: Topic5.fr
         }
+
     ],
     ms: [
             {
                 keywords: [],
-                title: "Improving Victim Situations",
+                title: "The Importance of Violation Remediation",
                 content: Topic1.ms
-            },
+            },    
             {
                 keywords: [],
-                title: "Preventing Recurrence",
+                title: "Improving Victim Situations",
                 content: Topic2.ms
             },
             {
                 keywords: [],
-                title: "Corrective Action Plan",
+                title: "Preventing Recurrence",
                 content: Topic3.ms
             },
             {
                 keywords: [],
-                title: "Communication About Remediation",
+                title: "Corrective Action Plan",
                 content: Topic4.ms
             },
             {
                 keywords: [],
-                title: "The Importance of Violation Remediation",
+                title: "Communication About Remediation",
                 content: Topic5.ms
             }
         ]

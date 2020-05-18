@@ -1,28 +1,38 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+
 const ms = () => {
     return (
         <StaticData>
             <div>
+                <h1>Communication About Remediation</h1>
                 <p>
-                    Every violation identified in an audit should be remediated.
-                    Various stakeholders should play a role in remediation: the
-                    management of the supplier facility should be committed to
-                    correcting the violations; the company should have the
-                    necessary mechanisms to ensure the technical assistance and
-                    support needed for correction; and workers or workers’
-                    organizations should be consulted for their views about
-                    which remediation actions will work best.
+                    Particularly in cases where a complaint was received,
+                    leading to an audit and finding of violations, the submitter
+                    of the complaint&mdash;and possibly other
+                    stakeholders&mdash;will expect to know how the issue was
+                    handled. Your communication and public reporting should
+                    incorporate information about remediation to the extent
+                    possible. All such communication should ensure maximum
+                    protection for victims&rsquo; safety and privacy.
                 </p>
-
                 <p>
-                    {" "}
-                    Remediation actions should always be designed to both
-                    correct the problem found and prevent it from recurring. In
-                    the case of child labor and forced labor violations, this
-                    means both improving circumstances for individual child
-                    labor or forced labor victims and preventing further child
-                    labor or forced labor from occurring at the worksite.
+                    <em>
+                        *Note: References to specific companies and
+                        non-governmental entities within this guide are for
+                        informational purposes only to demonstrate best
+                        practices that have been recognized internationally, as
+                        of the app&rsquo;s release date. Referencing the
+                        entities should not be interpreted as an official
+                        endorsement of those entities, their products, or
+                        services by the U.S. Department of Labor{" "}
+                    </em>
+                    <em>
+                        and their inclusion should not be interpreted as a
+                        comprehensive review of these entities&rsquo; practices
+                        in all areas
+                    </em>
+                    <em>.</em>
                 </p>
             </div>
         </StaticData>
