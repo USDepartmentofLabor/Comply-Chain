@@ -147,238 +147,84 @@ const en = () => {
                     <Link to="/steps/4#resources">Further Resources</Link> for
                     more information.
                 </p>
-                <ExampleInAction id="med_rep">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Example in Action: The Important Role of Media
-                            Reporting
-                        </strong>
-                    </h2>
-                    <p>
-                        The media is playing an increasingly important role in
-                        raising awareness among businesses, consumers, and the
-                        general public about child labor and forced labor. In
-                        recent years, many respected media outlets have
-                        generated headlines with their reporting on these
-                        issues, including on child labor and debt bondage in the
-                        production of Mexican agricultural produce, brutal
-                        forced labor on fishing vessels throughout Southeast
-                        Asia, bonded labor in India&rsquo;s brick kilns, and
-                        fraudulent recruitment practices in construction work in
-                        the Middle East, among many others. In many cases,
-                        journalists&rsquo; key sources are representatives of
-                        civil society organizations who have long fought to
-                        bring these issues into the spotlight, and are now
-                        finding greater opportunities to do so.
-                    </p>
-                    <p>
-                        Because of this research and reporting, we know more
-                        about the indigenous families who migrate through
-                        Central America harvesting crops, including the elderly
-                        and very young children. We understand better the kinds
-                        of government laws and policies, such as those seen in
-                        some Gulf countries, that can perpetuate forced labor by
-                        leaving migrant workers vulnerable to exploitative
-                        practices such as passport confiscation by their
-                        employers, non-payment of wages, and contract
-                        substitution without the worker&rsquo;s consent.
-                    </p>
-                    <p>
-                        We are learning about the deep linkages between forced
-                        labor and environmental destruction. In areas where
-                        goods are produced illegally or where law enforcement is
-                        weak, both people and the environment are at risk
-                        &ndash; as in gold mining, an industry with high levels
-                        of illicit production, known to contaminate drinking
-                        water and land with mercury and cyanide, and where child
-                        labor seems to proliferate. We have come to know the
-                        bleak stories behind the jubilance of mega-sporting
-                        events: stories of workers deceived and paid a pittance
-                        to construct awe-inspiring stadiums and toiling in
-                        sweatshops to make apparel and merchandise for these
-                        events. And we share in the collective abhorrence of the
-                        exploitation of fishermen at sea.
-                    </p>
-                    <p>
-                        Whether by shedding a light on opaque tiers of supply
-                        chains to increase ethical recruitment and transparent
-                        sourcing, or by spurring action to ensure that grievance
-                        and remediation mechanisms exist to address labor
-                        violations, media coverage can play an important role in
-                        contributing to businesses&rsquo; due diligence efforts
-                        to prevent and eliminate human rights violations in
-                        their supply chains.
-                    </p>
-                </ExampleInAction>
-                 <Accordion id="cocoa-chains-acc">
-                    <Accordion.Section id="cocoa-description">
-                        <Accordion.Title>
-                        Nature and prevalence
-                    </Accordion.Title>
-                    <Accordion.Panel>
-
-                        <p className="indent-margin">
-                            Are child labor, forced labor and other labor abuses known
-                            or believed to occur in your geographic areas (or potential
-                            areas) of sourcing? What kind of work is being done? Where
-                            are abuses most often found?
-                        </p>
-                    </Accordion.Panel>
-                </Accordion.Section>
-                </Accordion>
-                  <Accordion id="cocoa-chains-acc">
-                                    <Accordion.Section id="cocoa-description">
-                            <Accordion.Title>
-                             Root causes
-                        </Accordion.Title>
-                        <Accordion.Panel>
-
-                            <p className="indent-margin">
-                                If child labor, forced labor and other labor abuses exist,
-                                what are the root causes?
-                            </p>
-                        </Accordion.Panel>
-                    </Accordion.Section>
-                    </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                  <Accordion.Section id="cocoa-description">
-                     <Accordion.Title>
-                     Industry structure
-                    </Accordion.Title>
-                    <Accordion.Panel>
-
-                        <p className="indent-margin">
-                            How does this industry operate in the country? Are
-                            workplaces formal or informal? Are employment relationships
-                            formalized? Are there elements of production that are
-                            subcontracted? If so, is some production outsourced to
-                            homes?
-                        </p>
-                    </Accordion.Panel>
-                </Accordion.Section>
-                </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                  <Accordion.Section id="cocoa-description">
-                     <Accordion.Title>
-                     Labor population
-                        </Accordion.Title>
-                        <Accordion.Panel>
-
-                        <p className="indent-margin">
-                            What are the characteristics of the labor force in this
-                            industry in this geographic area? Is there significant
-                            reliance on subcontracted, unskilled temporary and/or
-                            migrant workers? If so, do these workers typically speak the
-                            language of the area? Are workers predominantly of one
-                            gender or another? Is there a particular age group commonly
-                            hired?
-                        </p>
-                    </Accordion.Panel>
-                </Accordion.Section>
-                </Accordion>
-
-                <Accordion id="cocoa-chains-acc">
-                                  <Accordion.Section id="cocoa-description">
-                                     <Accordion.Title>
-                                     Industrial relations
-                                        </Accordion.Title>
-                                        <Accordion.Panel>
-
-                                        <p className="indent-margin">
-                                        Is a national legal and institutional framework in place to
-                                        allow for effective industrial relations and collective
-                                        bargaining? Are effective labor unions present? If not, are
-                                        there other mechanisms in place for workers to have a voice
-                                        in their workplaces?
-                                    </p>
-                                    </Accordion.Panel>
-                                </Accordion.Section>
-                                </Accordion>
-
-                  <Accordion id="cocoa-chains-acc">
-                       <Accordion.Section id="cocoa-description">
-                          <Accordion.Title>
-                         Social protection
-                             </Accordion.Title>
-                             <Accordion.Panel>
-
-                             <p className="indent-margin">
-                                 Is there a social safety net in the country that protects
-                                 the most vulnerable&mdash;providing, among other things,
-                                 access to health care, income security for the elderly and
-                                 persons with disabilities, child benefits, and income
-                                 security for the unemployed and working poor? Are there
-                                 sufficient educational institutions to educate children
-                                 until they reach legal working age?
-                             </p>
-                         </Accordion.Panel>
-                     </Accordion.Section>
-                     </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                           <Accordion.Section id="cocoa-description">
-                              <Accordion.Title>
-                             Legal and regulatory environment
-                                 </Accordion.Title>
-                                 <Accordion.Panel>
-
-                                 <p className="indent-margin">
-                                     What are the key laws and regulations concerning child
-                                     labor, forced labor and other labor issues in this
-                                     country/jurisdiction? Do those laws and regulations apply to
-                                     migrant workers? What laws exist concerning corporate
-                                     complicity in human rights abuse? To what extent are laws
-                                     enforced and is there evidence of corruption tied to lack of
-                                     enforcement?
-                                 </p>
-                             </Accordion.Panel>
-                         </Accordion.Section>
-                         </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                           <Accordion.Section id="cocoa-description">
-                              <Accordion.Title>
-                            Existing Initiatives and Organizations
-                                 </Accordion.Title>
-                                 <Accordion.Panel>
-
-                                 <p>
-                                     What efforts are being undertaken, and by whom, to combat
-                                     labor abuses such as child and forced labor in this industry
-                                     or area?
-                                 </p>
-
-                                 <p>
-                                     To get a sense for how this general approach can be applied
-                                     in a particular sector, the{" "}
-                                     <a
-                                         target="_blank"
-                                         rel="noopener noreferrer"
-                                         href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
-                                         title="Responsible Sourcing Seafood Tool 4: Information Gathering and Risk Assessment in Seafood Supply Chains"
-                                     >
-                                         Responsible Sourcing Seafood Tool 4: Information
-                                         Gathering and Risk Assessment in Seafood Supply Chains
-                                     </a>{" "}
-                                     takes a step-by-step approach to examining country-based
-                                     risks, supply chain-based risks, and supplier-based
-                                     risks.&nbsp;
-                                 </p>
-                             </Accordion.Panel>
-                         </Accordion.Section>
-                         </Accordion>
-                          <Accordion id="cocoa-chains-acc">
-                                <Accordion.Section id="cocoa-description">
-                                   <Accordion.Title>
-                                  Market Data
-                                      </Accordion.Title>
-                                      <Accordion.Panel>
-
-                                      <p className="indent-margin">
-                                         <b>PLACEHOLDER FOR TEXT </b>
-                                      </p>
-                                  </Accordion.Panel>
-                              </Accordion.Section>
-                              </Accordion>
+                <p>
+                    Some companies take the approach of
+                    &ldquo;outsourcing&rdquo; the information-gathering function
+                    to an expert, such as a consulting firm, civil society group
+                    or academic institution. For instance, in 2010, the NGO
+                    Human Rights Watch* released a report documenting poor
+                    working conditions&mdash;including child labor and forced
+                    labor&mdash;on tobacco farms in Kazakhstan that supplied to
+                    Philip Morris Kazakhstan* (PMK), a wholly owned subsidiary
+                    of tobacco company Philip Morris International* (PMI). PMI
+                    subsequently commissioned the NGO{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.verite.org/"
+                        title="Verit&eacute;"
+                    >
+                        Verit&eacute;
+                    </a>
+                    * to conduct an onsite investigation of working conditions
+                    on Kazakh tobacco farms and draft a{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.verite.org/wp-content/uploads/2016/11/Verite_Report_for_PMI_on_Kazakhstan-2_May_2011.pdf"
+                        title="recommendations report"
+                    >
+                        recommendations report
+                    </a>
+                    . PMI has used the report to develop new policies and
+                    practices. These include a comprehensive auditing system for
+                    all tobacco farms in Kazakhstan, as well as partnerships
+                    with local NGOs on children&rsquo;s camps, vocational
+                    schools, community centers, schooling registration programs,
+                    and farm owner education and training programs.&nbsp;
+                </p>
+                <img src={hrm} alt="Human rights Watch" />
+                <p className="small-text">
+                    &copy;Marcus Bleasdale/Human Rights Watch
+                </p>
+                <p>
+                    If you already have well-established relationships with
+                    suppliers and are seeking to assess their existing risks,
+                    audit reports done on these suppliers by other companies or
+                    groups afford a very useful source of data. Obtaining them
+                    may require joining a group, such as the{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.sedexglobal.com/"
+                        title="Supplier Ethical Data Exchange (SEDEX)"
+                    >
+                        Supplier Ethical Data Exchange (SEDEX)
+                    </a>{" "}
+                    and{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.fairfactories.org/"
+                        title="Fair Factories Clearinghouse"
+                    >
+                        Fair Factories Clearinghouse
+                    </a>
+                    , which provide a platform for sharing information on common
+                    suppliers and collaborating on monitoring and remediation
+                    efforts.&nbsp;
+                </p>
+                <p>
+                    When audit reports are not available, there are other ways
+                    to gather information on your current suppliers to determine
+                    which ones to target for further compliance efforts.
+                    Wherever a union exists, it may be a good source of
+                    information on labor abuse risk factors. Where there is no
+                    union, the supplier may have other grievance or complaint
+                    mechanisms in place that could be a source of information.
+                    Another option, of course, is to survey all of your
+                    suppliers on the key risk factors listed above.
+                </p>
             </div>
         </StaticData>
     );

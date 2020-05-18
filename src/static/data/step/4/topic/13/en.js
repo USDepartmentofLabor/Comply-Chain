@@ -8,7 +8,7 @@ const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>Philanthtorpy</h1>
+                <h1>Philanthropy</h1>
                  <p>
                     It may make sense to target philanthropic contributions
                     toward communities in your direct supply chains,

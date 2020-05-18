@@ -169,6 +169,59 @@ const en = () => {
                                                           obvious sense to expand scope and impact and maximize
                                                           the use of available resources.
                                                     </p>
+
+                                                    <ExampleInAction id="leber">
+                                                       <h4>
+                                                           <ExampleInAction.Icon alt="Lightbulb"/>
+                                                           <strong>Example in Action</strong>: Leber Jeweler*: The
+                                                           Jewelers&rsquo; Burma Relief Project{" "}
+                                                       </h4>
+                                                       <p>
+                                                           Many gemstones&mdash;including 90 percent of the
+                                                           world&rsquo;s rubies&mdash;are mined in Burma, a country
+                                                           long ruled by a dictatorship widely known to perpetrate
+                                                           human rights abuses against its people, and still facing
+                                                           enormous governance and human rights challenges.{" "}
+                                                           <a
+                                                               target="_blank"
+                                                               rel="noopener noreferrer"
+                                                               href="https://leberjeweler.com/burma-and-blood-gems/"
+                                                               title="Leber Jeweler Inc."
+                                                           >
+                                                               Leber Jeweler Inc.
+                                                           </a>
+                                                           , a family-owned company based in Chicago, does not
+                                                           purchase any Burmese gemstones. In 2004, the company
+                                                           founded the{" "}
+                                                           <a
+                                                               target="_blank"
+                                                               rel="noopener noreferrer"
+                                                               href="https://leberjeweler.com/our-story/about-the-designers/"
+                                                               title="Jewelers&rsquo; Burma Relief Project"
+                                                           >
+                                                               Jewelers&rsquo; Burma Relief Project
+                                                           </a>
+                                                           , which brings together like-minded companies with
+                                                           non-governmental organizations (NGOs), such as the
+                                                           Foundation for the People of Burma* and Planet Care*, to
+                                                           provide humanitarian aid to Burmese people of all ethnic
+                                                           backgrounds and religions. The project was also part of
+                                                           a lobbying effort that resulted in the U.S. Congress
+                                                           passing the{" "}
+                                                           <a
+                                                               target="_blank"
+                                                               rel="noopener noreferrer"
+                                                               href="https://www.congress.gov/110/plaws/publ286/PLAW-110publ286.pdf"
+                                                               title="Tom Lantos Block Burmese JADE Act of 2008"
+                                                           >
+                                                               Tom Lantos Block Burmese JADE Act of 2008
+                                                           </a>
+                                                           , which banned the importation of all Burmese rubies and
+                                                           jade into the U.S. The ban was removed in 2016 when all
+                                                           U.S. trade sanctions against Burma were lifted by
+                                                           Executive Order.
+                                                       </p>
+                                                   </ExampleInAction>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
                                             </Accordion>
@@ -195,6 +248,36 @@ const en = () => {
                                              effort to identify and deal with child labor, forced
                                              labor and other labor abuses.
                                            </p>
+                                            <OwnWords>
+                                               <h4>
+                                                   <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                                                   {": "}
+                                               </h4>
+                                               <p>
+                                                   <em>
+                                                       &ldquo;Where labor standards are rigorously adhered
+                                                       to, workers are well unionized and labor laws are
+                                                       monitored and enforced for all workers, indigenous
+                                                       or migrant&mdash;the demand for trafficked people
+                                                       and services is likely to be low.&rdquo;
+                                                   </em>
+                                               </p>
+                                               <p>
+                                                   Source: International Labor Organization,&nbsp;
+                                                   <a
+                                                       target="_blank"
+                                                       rel="noopener noreferrer"
+                                                       href="http://www.refworld.org/docid/40360bf34.html"
+                                                       title="Trafficking in Human Beings: New Approaches to Combating the Problem"
+                                                   >
+                                                       <em>
+                                                           Trafficking in Human Beings: New Approaches to
+                                                           Combating the Problem
+                                                       </em>
+                                                   </a>
+                                                   , May 2003.
+                                               </p>
+                                           </OwnWords>
                                     </Accordion.Panel>
 
 
@@ -230,58 +313,6 @@ const en = () => {
                                  </Accordion>
                                 <br />
 
-                               <ExampleInAction id="leber">
-                                   <h4>
-                                       <ExampleInAction.Icon alt="Lightbulb"/>
-                                       <strong>Example in Action</strong>: Leber Jeweler*: The
-                                       Jewelers&rsquo; Burma Relief Project{" "}
-                                   </h4>
-                                   <p>
-                                       Many gemstones&mdash;including 90 percent of the
-                                       world&rsquo;s rubies&mdash;are mined in Burma, a country
-                                       long ruled by a dictatorship widely known to perpetrate
-                                       human rights abuses against its people, and still facing
-                                       enormous governance and human rights challenges.{" "}
-                                       <a
-                                           target="_blank"
-                                           rel="noopener noreferrer"
-                                           href="https://leberjeweler.com/burma-and-blood-gems/"
-                                           title="Leber Jeweler Inc."
-                                       >
-                                           Leber Jeweler Inc.
-                                       </a>
-                                       , a family-owned company based in Chicago, does not
-                                       purchase any Burmese gemstones. In 2004, the company
-                                       founded the{" "}
-                                       <a
-                                           target="_blank"
-                                           rel="noopener noreferrer"
-                                           href="https://leberjeweler.com/our-story/about-the-designers/"
-                                           title="Jewelers&rsquo; Burma Relief Project"
-                                       >
-                                           Jewelers&rsquo; Burma Relief Project
-                                       </a>
-                                       , which brings together like-minded companies with
-                                       non-governmental organizations (NGOs), such as the
-                                       Foundation for the People of Burma* and Planet Care*, to
-                                       provide humanitarian aid to Burmese people of all ethnic
-                                       backgrounds and religions. The project was also part of
-                                       a lobbying effort that resulted in the U.S. Congress
-                                       passing the{" "}
-                                       <a
-                                           target="_blank"
-                                           rel="noopener noreferrer"
-                                           href="https://www.congress.gov/110/plaws/publ286/PLAW-110publ286.pdf"
-                                           title="Tom Lantos Block Burmese JADE Act of 2008"
-                                       >
-                                           Tom Lantos Block Burmese JADE Act of 2008
-                                       </a>
-                                       , which banned the importation of all Burmese rubies and
-                                       jade into the U.S. The ban was removed in 2016 when all
-                                       U.S. trade sanctions against Burma were lifted by
-                                       Executive Order.
-                                   </p>
-                               </ExampleInAction>
 
             </div>
         </StaticData>
