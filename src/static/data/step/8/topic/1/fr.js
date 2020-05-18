@@ -43,7 +43,7 @@ const fr = () => {
                     enfants et au travail forc&eacute;.
                 </p>
                 <h2>Travail des enfants</h2>
-                <h3>Travailleurs mineurs.</h3>
+                {/* <h3>Travailleurs mineurs.</h3> */}
                 <p>
                     Si l&apos;audit identifie sur le lieu de travail un
                     travailleur qui n&apos;a pas l&apos;&acirc;ge l&eacute;gal
@@ -116,7 +116,7 @@ const fr = () => {
                         fournir les services applicables.
                     </li>
                 </ul>
-                <h3>Travail dangereux des enfants</h3>
+                {/* <h3>Travail dangereux des enfants</h3> */}
                 <p>
                     Aucun enfant de moins de 18&nbsp;ans ne devrait &ecirc;tre
                     soumis aux Pires formes de travail des enfants

@@ -1,4 +1,4 @@
-import { ExtraInfo } from "./extra";
+// import { ExtraInfo } from "./extra";
 import { Topics } from "./topic";
 
 export const StepData = {
@@ -28,7 +28,7 @@ export const StepData = {
                     "A plan of action for remediation of all violations found in a particular audit. "
             }
         ],
-        extraInfo: ExtraInfo.en
+        // extraInfo: ExtraInfo.en
     },
     es: {
         title: "Sexto paso: Remediación de infracciones",
@@ -61,7 +61,7 @@ export const StepData = {
                     "Plan de acción para remediar todas las infracciones identificadas en una auditoría en particular."
             }
         ],
-        extraInfo: ExtraInfo.es
+        // extraInfo: ExtraInfo.es
     },
     fr: {
         title: "Sixième étape: Réparer les infractions",
@@ -94,11 +94,11 @@ export const StepData = {
                     "Plan d’action pour réparer toutes les infractions identifiées par un audit particulier."
             }
         ],
-        extraInfo: ExtraInfo.fr
+        // extraInfo: ExtraInfo.fr
     },
     ms: {
             title: "Step 6: Remediate Violations",
-            topics: Topics.en,
+            topics: Topics.ms,
             keywords: ["Violation", "Remediation", "Corrective Action Plan", "CAP"],
             learningObjectives: [
                 "Understand the distinction between correcting a violation and implementing systems to prevent it from recurring.",
@@ -122,6 +122,6 @@ export const StepData = {
                         "A plan of action for remediation of all violations found in a particular audit. "
                 }
             ],
-            extraInfo: ExtraInfo.en
+            // extraInfo: ExtraInfo.en
         }
 };

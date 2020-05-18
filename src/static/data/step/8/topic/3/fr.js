@@ -1,5 +1,6 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const fr = () => {
     return (
@@ -152,6 +153,19 @@ const fr = () => {
                     compte des incidences potentielles sur les travailleurs
                     pour, ce faisant, tenter de les att&eacute;nuer.
                 </p>
+                <ExampleInAction id="correct-action">
+                                    <h2>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Example in Action: Best Buy
+                                        </strong>
+                                    </h2>
+                                    <p>
+                                        Place Holder
+                                    </p>
+                                    
+                                    
+                </ExampleInAction>
             </div>
         </StaticData>
     );

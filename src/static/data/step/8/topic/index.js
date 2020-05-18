@@ -2,6 +2,7 @@ import { TopicData as Topic1 } from "./1";
 import { TopicData as Topic2 } from "./2";
 import { TopicData as Topic3 } from "./3";
 import { TopicData as Topic4 } from "./4";
+import { TopicData as Topic5 } from "./5";
 
 export const Topics = {
     en: [
@@ -24,6 +25,11 @@ export const Topics = {
             keywords: [],
             title: "Communication About Remediation",
             content: Topic4.en
+        },
+        {
+            keywords: [],
+            title: "The Importance of Violation Remediation",
+            content: Topic5.en
         }
     ],
     es: [
@@ -46,6 +52,11 @@ export const Topics = {
             keywords: [],
             title: "Comunicación sobre la remediación",
             content: Topic4.es
+        },
+        {
+            keywords: [],
+            title: "The Importance of Violation Remediation",
+            content: Topic5.es
         }
     ],
     fr: [
@@ -68,28 +79,38 @@ export const Topics = {
             keywords: [],
             title: "Communication sur les réparations",
             content: Topic4.fr
+        },
+        {
+            keywords: [],
+            title: "The Importance of Violation Remediation",
+            content: Topic5.fr
         }
     ],
     ms: [
             {
                 keywords: [],
                 title: "Improving Victim Situations",
-                content: Topic1.en
+                content: Topic1.ms
             },
             {
                 keywords: [],
                 title: "Preventing Recurrence",
-                content: Topic2.en
+                content: Topic2.ms
             },
             {
                 keywords: [],
                 title: "Corrective Action Plan",
-                content: Topic3.en
+                content: Topic3.ms
             },
             {
                 keywords: [],
                 title: "Communication About Remediation",
-                content: Topic4.en
+                content: Topic4.ms
+            },
+            {
+                keywords: [],
+                title: "The Importance of Violation Remediation",
+                content: Topic5.ms
             }
         ]
 };

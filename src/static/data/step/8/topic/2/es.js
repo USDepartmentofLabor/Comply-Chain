@@ -3,6 +3,7 @@ import ExampleInAction from "../../../../../../components/ExampleInAction/Exampl
 import StaticData from "../../../../../../components/StaticData";
 import styled from "styled-components";
 import { theme } from "../../../../../../modules/config/theme";
+import Accordion from "../../../../../../components/Accordion"; 
 
 const Table = styled.table`
     border-collapse: collapse;
@@ -88,7 +89,7 @@ const es = () => {
                     cuando se descubre en un entorno de plantas de
                     producci&oacute;n.
                 </p>
-                <h3>Trabajo forzoso</h3>
+                <h2>Trabajo forzoso</h2>
                 <p>
                     En casos de <strong>trabajo forzoso</strong>, las causas
                     pueden ser:
@@ -143,6 +144,17 @@ const es = () => {
                     correctiva claro que obligue al proveedor a rendir cuentas
                     de sus actos.
                 </p>
+                <ExampleInAction id="plch">
+                                    <h2>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Example in Action: Place holder example of action
+                                        </strong>
+                                    </h2>
+                                    <p>
+                                        Place Holder
+                                    </p>                
+                </ExampleInAction>
                 <p>
                     En los cuadros 1 a 4 se describen las medidas de
                     remediaci&oacute;n que pueden adoptarse cuando se hallan
@@ -151,9 +163,19 @@ const es = () => {
                     sistemas de la gerencia deben actualizarse para evitar la
                     reincidencia.
                 </p>
+                <Accordion id="prevent-recurrence">
+                        <Accordion.Section id="practice-issue">
+                            <Accordion.Title>
+                                <strong>
+                                Problemas en la remediaci&oacute;n de las
+                        pr&aacute;cticas de reclutamiento
+
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <Table>
                     <caption>
-                        Cuadro 1: Problemas en la remediaci&oacute;n de las
+                        Cuadro: Problemas en la remediaci&oacute;n de las
                         pr&aacute;cticas de reclutamiento
                     </caption>
                     <tbody>
@@ -252,9 +274,19 @@ const es = () => {
                         </tr>
                     </tbody>
                 </Table>
+                </Accordion.Panel>
+                            </Accordion.Section>
+                    <Accordion.Section id="living-cond">
+                            <Accordion.Title>
+                                <strong>
+                                Remediaci&oacute;n de problemas con las
+                        condiciones laborales o de alojamiento
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <Table>
                     <caption>
-                        Cuadro 2: Remediaci&oacute;n de problemas con las
+                        Cuadro: Remediaci&oacute;n de problemas con las
                         condiciones laborales o de alojamiento
                     </caption>
                     <tbody>
@@ -540,9 +572,19 @@ const es = () => {
                         </tr>
                     </tbody>
                 </Table>
+                </Accordion.Panel>
+                        </Accordion.Section>
+                    <Accordion.Section id="impossible-leaving">
+                            <Accordion.Title>
+                                <strong>
+                                Remediaci&oacute;n de los problemas de la
+                        &ldquo;imposibilidad de irse&rdquo;
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <Table>
                     <caption>
-                        Cuadro 3: Remediaci&oacute;n de los problemas de la
+                        Cuadro: Remediaci&oacute;n de los problemas de la
                         &ldquo;imposibilidad de irse&rdquo;
                     </caption>
                     <tbody>
@@ -652,9 +694,19 @@ const es = () => {
                         </tr>
                     </tbody>
                 </Table>
+                </Accordion.Panel>
+                        </Accordion.Section>
+                    <Accordion.Section id="penalty-issue">
+                            <Accordion.Title>
+                                <strong>
+                                Remediaci&oacute;n de los problemas de
+                        sanciones o amenazas
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <Table width="100%">
                     <caption>
-                        Cuadro 4: Remediaci&oacute;n de los problemas de
+                        Cuadro: Remediaci&oacute;n de los problemas de
                         sanciones o amenazas
                     </caption>
                     <tbody>
@@ -721,7 +773,8 @@ const es = () => {
                                     inmigratorias.
                                 </p>
                             </td>
-                            <td rowSpan="6">
+                            {/* <td rowSpan="6"> */}
+                            <td>
                                 <p>
                                     En cualquier situaci&oacute;n de violencia,
                                     sanci&oacute;n, intimidaci&oacute;n o
@@ -763,6 +816,9 @@ const es = () => {
                                     hacerlo.
                                 </p>
                             </td>
+                            <td>
+                                <p>V&eacute;ase arriba.</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -774,6 +830,9 @@ const es = () => {
                                     despedir a los trabajadores.
                                 </p>
                             </td>
+                            <td>
+                                <p>V&eacute;ase arriba.</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -782,6 +841,9 @@ const es = () => {
                                     creencias religiosas o culturales de los
                                     trabajadores.
                                 </p>
+                            </td>
+                            <td>
+                                <p>V&eacute;ase arriba.</p>
                             </td>
                         </tr>
                         <tr>
@@ -792,6 +854,9 @@ const es = () => {
                                     los trabajadores o amenaza con sanciones
                                     econ&oacute;micas.
                                 </p>
+                            </td>
+                            <td>
+                                <p>V&eacute;ase arriba.</p>
                             </td>
                         </tr>
                         <tr>
@@ -806,9 +871,15 @@ const es = () => {
                                     a los trabajadores.
                                 </p>
                             </td>
+                            <td>
+                                <p>V&eacute;ase arriba.</p>
+                            </td>
                         </tr>
                     </tbody>
                 </Table>
+                </Accordion.Panel>
+                        </Accordion.Section>
+                </Accordion>
                 <ExampleInAction id="better_work">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
