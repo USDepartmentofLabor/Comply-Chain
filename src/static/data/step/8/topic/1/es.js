@@ -40,7 +40,7 @@ const es = () => {
                     infantil y trabajo forzoso.
                 </p>
                 <h2>Trabajo infantil</h2>
-                <h3>Trabajo de menores de edad</h3>
+                {/* <h3>Trabajo de menores de edad</h3> */}
                 <p>
                     Si en la auditor&iacute;a del lugar de trabajo se identifica
                     a un ni&ntilde;o que no tiene la edad legal para trabajar en
@@ -104,7 +104,7 @@ const es = () => {
                         correspondientes.
                     </li>
                 </ul>
-                <h3>Trabajo infantil peligroso</h3>
+                {/* <h3>Trabajo infantil peligroso</h3> */}
                 <p>
                     Ning&uacute;n ni&ntilde;o menor de 18 a&ntilde;os puede
                     realizar las peores formas de trabajo infantil especificadas

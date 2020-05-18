@@ -3,6 +3,7 @@ import ExampleInAction from "../../../../../../components/ExampleInAction/Exampl
 import StaticData from "../../../../../../components/StaticData";
 import styled from "styled-components";
 import { theme } from "../../../../../../modules/config/theme";
+import Accordion from "../../../../../../components/Accordion"; 
 
 const Table = styled.table`
     border-collapse: collapse;
@@ -77,7 +78,7 @@ const en = () => {
                     situations and preventing recurrence of child labor when
                     found in a manufacturing environment.
                 </p>
-                <h3>Forced Labor</h3>
+                <h2>Forced Labor</h2>
                 <p>
                     In instances of <strong>forced labor</strong>, causes can
                     include:
@@ -124,15 +125,37 @@ const en = () => {
                     violations should be remedied through a clear Corrective
                     Action Plan that holds the supplier accountable.
                 </p>
+                <ExampleInAction id="plch">
+                                    <h2>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Example in Action: Place holder example of action
+                                        </strong>
+                                    </h2>
+                                    <p>
+                                        Place Holder
+                                    </p>
+                                    
+                                    
+                </ExampleInAction>
                 <p>
                     Tables 1-4 describe some remediation actions that can be
                     taken when indicators of forced labor are found. In all
                     cases, issues should be documented and tracked and
                     management systems should be updated to prevent recurrence.
                 </p>
-                <Table>
+                <Accordion id="prevent-recurrence">
+                        <Accordion.Section id="practice-issue">
+                            <Accordion.Title>
+                                <strong>
+                                Remediation of Recruitment Practice Issues
+
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                            <Table>
                     <caption>
-                        Table 1: Remediation of Recruitment Practice Issues
+                        Table: Remediation of Recruitment Practice Issues
                     </caption>
                     <tbody>
                         <tr>
@@ -215,10 +238,20 @@ const en = () => {
                         </tr>
                     </tbody>
                 </Table>
+                                
+                            </Accordion.Panel>
+                            </Accordion.Section>
+                    <Accordion.Section id="living-cond">
+                            <Accordion.Title>
+                                <strong>
+                                Remediation of Working and Living Conditions Issues
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <Table>
                     <caption>
                         {" "}
-                        Table 2: Remediation of Working and Living Conditions
+                        Table: Remediation of Working and Living Conditions
                         Issues{" "}
                     </caption>
                     <tbody>
@@ -469,9 +502,18 @@ const en = () => {
                         </tr>
                     </tbody>
                 </Table>
+                </Accordion.Panel>
+                        </Accordion.Section>
+                    <Accordion.Section id="impossible-leaving">
+                            <Accordion.Title>
+                                <strong>
+                                Remediation of "Impossibility of Leaving
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <Table>
                     <caption>
-                        Table 3: Remediation of "Impossibility of Leaving"
+                        Table: Remediation of "Impossibility of Leaving"
                         Issues{" "}
                     </caption>
                     <tbody>
@@ -565,9 +607,18 @@ const en = () => {
                         </tr>
                     </tbody>
                 </Table>
+                </Accordion.Panel>
+                        </Accordion.Section>
+                    <Accordion.Section id="penalty-issue">
+                            <Accordion.Title>
+                                <strong>
+                                Remediation of Penalty or Threat Issues
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <Table width="100%">
                     <caption>
-                        Table 4: Remediation of Penalty or Threat Issues
+                        Table: Remediation of Penalty or Threat Issues
                     </caption>
                     <tbody>
                         <tr>
@@ -625,7 +676,8 @@ const en = () => {
                                     immigration authorities.
                                 </p>
                             </td>
-                            <td rowSpan="6">
+                            {/* <td rowSpan="6"> */}
+                            <td>
                                 <p>
                                     In any situation of violence, penalty,
                                     intimidation or threat, determine
@@ -661,6 +713,9 @@ const en = () => {
                                     or sexual violence.
                                 </p>
                             </td>
+                            <td>
+                                <p>See above.</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -671,6 +726,9 @@ const en = () => {
                                     conditions or threatens to fire workers.
                                 </p>
                             </td>
+                            <td>
+                                <p>See above.</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -678,6 +736,9 @@ const en = () => {
                                     Employer or recruiter exploits religious or
                                     cultural beliefs of workers.
                                 </p>
+                            </td>
+                            <td>
+                                <p>See above.</p>
                             </td>
                         </tr>
                         <tr>
@@ -687,6 +748,9 @@ const en = () => {
                                     workers&rsquo; pay or assets or threatens
                                     financial penalties.
                                 </p>
+                            </td>
+                            <td>
+                                <p>See above.</p>
                             </td>
                         </tr>
                         <tr>
@@ -699,9 +763,15 @@ const en = () => {
                                     Employer uses blackmail to coerce workers.
                                 </p>
                             </td>
+                            <td>
+                                <p>See above.</p>
+                            </td>
                         </tr>
                     </tbody>
                 </Table>
+                </Accordion.Panel>
+                        </Accordion.Section>
+                </Accordion>
                 <ExampleInAction id="better_work">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>

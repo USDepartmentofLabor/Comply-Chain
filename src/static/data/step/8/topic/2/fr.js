@@ -3,6 +3,7 @@ import ExampleInAction from "../../../../../../components/ExampleInAction/Exampl
 import StaticData from "../../../../../../components/StaticData";
 import styled from "styled-components";
 import { theme } from "../../../../../../modules/config/theme";
+import Accordion from "../../../../../../components/Accordion"; 
 
 const Table = styled.table`
     border-collapse: collapse;
@@ -92,7 +93,7 @@ const fr = () => {
                     lorsque ces cas sont d&eacute;couverts dans le secteur de la
                     manufacture.
                 </p>
-                <h3>Travail forc&eacute;</h3>
+                <h2>Travail forc&eacute;</h2>
                 <p>
                     Dans les cas de <strong>travail forc&eacute;</strong>, les
                     causes peuvent inclure:
@@ -153,6 +154,19 @@ const fr = () => {
                     plan d&apos;action corrective qui oblige le fournisseur
                     &agrave; rendre des comptes.
                 </p>
+                <ExampleInAction id="plch">
+                                    <h2>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Example in Action: Place holder example of action
+                                        </strong>
+                                    </h2>
+                                    <p>
+                                        Place Holder
+                                    </p>
+                                    
+                                    
+                </ExampleInAction>
                 <p>
                     Les tableaux 1 &agrave; 4 d&eacute;crivent certaines des
                     mesures de r&eacute;paration qui peuvent &ecirc;tre prises
@@ -163,9 +177,19 @@ const fr = () => {
                     &ecirc;tre mis &agrave; jour pour emp&ecirc;cher les
                     r&eacute;cidives.
                 </p>
+                <Accordion id="prevent-recurrence">
+                        <Accordion.Section id="practice-issue">
+                            <Accordion.Title>
+                                <strong>
+                                R&eacute;paration des probl&egrave;mes
+                        concernant les pratiques de recrutement
+
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <Table>
                     <caption>
-                        Tableau&nbsp;1: R&eacute;paration des probl&egrave;mes
+                        Tableau: R&eacute;paration des probl&egrave;mes
                         concernant les pratiques de recrutement
                     </caption>
                     <tbody>
@@ -272,9 +296,20 @@ const fr = () => {
                         </tr>
                     </tbody>
                 </Table>
+                </Accordion.Panel>
+                            </Accordion.Section>
+                    <Accordion.Section id="living-cond">
+                            <Accordion.Title>
+                                <strong>
+                                R&eacute;paration des probl&egrave;mes
+                        concernant les conditions de travail et
+                        d&rsquo;existence
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <Table>
                     <caption>
-                        Tableau&nbsp;2: R&eacute;paration des probl&egrave;mes
+                        Tableau: R&eacute;paration des probl&egrave;mes
                         concernant les conditions de travail et
                         d&rsquo;existence
                     </caption>
@@ -596,9 +631,20 @@ const fr = () => {
                         </tr>
                     </tbody>
                 </Table>
+                </Accordion.Panel>
+                        </Accordion.Section>
+                    <Accordion.Section id="impossible-leaving">
+                            <Accordion.Title>
+                                <strong>
+                                R&eacute;paration des probl&egrave;mes
+                        concernant l&apos;«&nbsp;impossibilit&eacute; de
+                        partir&nbsp;»
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <Table>
                     <caption>
-                        Tableau&nbsp;3: R&eacute;paration des probl&egrave;mes
+                        Tableau: R&eacute;paration des probl&egrave;mes
                         concernant l&apos;«&nbsp;impossibilit&eacute; de
                         partir&nbsp;»
                     </caption>
@@ -723,9 +769,19 @@ const fr = () => {
                         </tr>
                     </tbody>
                 </Table>
+                </Accordion.Panel>
+                        </Accordion.Section>
+                    <Accordion.Section id="penalty-issue">
+                            <Accordion.Title>
+                                <strong>
+                                R&eacute;paration des probl&egrave;mes
+                        concernant les sanctions ou les menaces
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
                 <Table width="100%">
                     <caption>
-                        Tableau&nbsp;4: R&eacute;paration des probl&egrave;mes
+                        Tableau: R&eacute;paration des probl&egrave;mes
                         concernant les sanctions ou les menaces
                     </caption>
                     <tbody>
@@ -795,7 +851,8 @@ const fr = () => {
                                     d&apos;immigration.
                                 </p>
                             </td>
-                            <td rowSpan="6">
+                            {/* <td rowSpan="6"> */}
+                            <td>
                                 <p>
                                     Dans toute situation de violence, de
                                     sanction, d&apos;intimidation ou de menace,
@@ -842,6 +899,9 @@ const fr = () => {
                                     sexuelles.
                                 </p>
                             </td>
+                            <td>
+                                <p>Voir ci-dessus.</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -853,6 +913,9 @@ const fr = () => {
                                     licencier des travailleurs.
                                 </p>
                             </td>
+                            <td>
+                                <p>Voir ci-dessus.</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -862,6 +925,9 @@ const fr = () => {
                                     des travailleurs.
                                 </p>
                             </td>
+                            <td>
+                                <p>Voir ci-dessus.</p>
+                            </td>
                         </tr>
                         <tr>
                             <td>
@@ -870,6 +936,9 @@ const fr = () => {
                                     salaire des travailleurs ou leurs biens, ou
                                     les menace de sanctions financi&egrave;res.
                                 </p>
+                            </td>
+                            <td>
+                                <p>Voir ci-dessus.</p>
                             </td>
                         </tr>
                         <tr>
@@ -884,9 +953,15 @@ const fr = () => {
                                     contraindre des travailleurs.
                                 </p>
                             </td>
+                            <td>
+                                <p>Voir ci-dessus.</p>
+                            </td>
                         </tr>
                     </tbody>
                 </Table>
+                </Accordion.Panel>
+                        </Accordion.Section>
+                </Accordion>
                 <ExampleInAction id="better_work">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>

@@ -1,5 +1,6 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const ms = () => {
     return (
@@ -114,6 +115,19 @@ const ms = () => {
                     potential impacts on the workers and attempting to mitigate
                     those impacts in the process.
                 </p>
+                <ExampleInAction id="correct-action">
+                                    <h2>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Example in Action: Best Buy
+                                        </strong>
+                                    </h2>
+                                    <p>
+                                        Place Holder
+                                    </p>
+                                    
+                                    
+                </ExampleInAction>
             </div>
         </StaticData>
     );
