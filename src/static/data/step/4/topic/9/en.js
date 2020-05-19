@@ -273,9 +273,9 @@ const en = () => {
                                               target="_blank"
                                               rel="noopener noreferrer"
                                               href="https://www.dfc.gov/sites/default/files/2019-08/final%20revised%20ESPS%2001132017(1).pdf"
-                                              title="Environmental and Social Policy Statement"
+                                              title="Environmental and Social Policy Statement 2017."
                                           >
-                                              Environmental and Social Policy Statement
+                                              Environmental and Social Policy Statement 2017
                                           </a>.
                                           </p>
                                                           </OwnWords>

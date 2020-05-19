@@ -10,7 +10,7 @@ const en = () => {
                 <h1>Assessing Root Causes</h1>
                 <p>
                     Among the external risk factors a company or industry will have to examine are the underlying root causes of child labor and forced labor.
-
+                    <p><h2>What are the Root causes of child labor and Forced labor?</h2></p>
                     A significant number of countries from which manufactured products are increasingly sourced—or where major agricultural commodities are grown—have deeply entrenched social,
                     economic and governance challenges that perpetuate child labor and forced labor.
                     The most salient of these challenges is poverty, which also underlies many others.
