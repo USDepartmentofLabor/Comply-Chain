@@ -508,7 +508,7 @@ const en = () => {
                     <Accordion.Section id="impossible-leaving">
                             <Accordion.Title>
                                 <strong>
-                                Remediation of "Impossibility of Leaving
+                                Remediation of "Impossibility of Leaving" Issues
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
