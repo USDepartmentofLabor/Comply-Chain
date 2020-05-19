@@ -147,6 +147,70 @@ const en = () => {
                     <Link to="/steps/4#resources">Further Resources</Link> for
                     more information.
                 </p>
+                <ExampleInAction id="med_rep">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: The Important Role of Media
+                            Reporting
+                        </strong>
+                    </h2>
+                    <p>
+                        The media is playing an increasingly important role in
+                        raising awareness among businesses, consumers, and the
+                        general public about child labor and forced labor. In
+                        recent years, many respected media outlets have
+                        generated headlines with their reporting on these
+                        issues, including on child labor and debt bondage in the
+                        production of Mexican agricultural produce, brutal
+                        forced labor on fishing vessels throughout Southeast
+                        Asia, bonded labor in India&rsquo;s brick kilns, and
+                        fraudulent recruitment practices in construction work in
+                        the Middle East, among many others. In many cases,
+                        journalists&rsquo; key sources are representatives of
+                        civil society organizations who have long fought to
+                        bring these issues into the spotlight, and are now
+                        finding greater opportunities to do so.
+                    </p>
+                    <p>
+                        Because of this research and reporting, we know more
+                        about the indigenous families who migrate through
+                        Central America harvesting crops, including the elderly
+                        and very young children. We understand better the kinds
+                        of government laws and policies, such as those seen in
+                        some Gulf countries, that can perpetuate forced labor by
+                        leaving migrant workers vulnerable to exploitative
+                        practices such as passport confiscation by their
+                        employers, non-payment of wages, and contract
+                        substitution without the worker&rsquo;s consent.
+                    </p>
+                    <p>
+                        We are learning about the deep linkages between forced
+                        labor and environmental destruction. In areas where
+                        goods are produced illegally or where law enforcement is
+                        weak, both people and the environment are at risk
+                        &ndash; as in gold mining, an industry with high levels
+                        of illicit production, known to contaminate drinking
+                        water and land with mercury and cyanide, and where child
+                        labor seems to proliferate. We have come to know the
+                        bleak stories behind the jubilance of mega-sporting
+                        events: stories of workers deceived and paid a pittance
+                        to construct awe-inspiring stadiums and toiling in
+                        sweatshops to make apparel and merchandise for these
+                        events. And we share in the collective abhorrence of the
+                        exploitation of fishermen at sea.
+                    </p>
+                    <p>
+                        Whether by shedding a light on opaque tiers of supply
+                        chains to increase ethical recruitment and transparent
+                        sourcing, or by spurring action to ensure that grievance
+                        and remediation mechanisms exist to address labor
+                        violations, media coverage can play an important role in
+                        contributing to businesses&rsquo; due diligence efforts
+                        to prevent and eliminate human rights violations in
+                        their supply chains.
+                    </p>
+                </ExampleInAction>
                 <p>
                     Some companies take the approach of
                     &ldquo;outsourcing&rdquo; the information-gathering function
@@ -225,72 +289,6 @@ const en = () => {
                     Another option, of course, is to survey all of your
                     suppliers on the key risk factors listed above.
                 </p>
-
-
-            <ExampleInAction id="med_rep">
-                <h2>
-                    <ExampleInAction.Icon alt="Lightbulb"/>
-                    <strong>
-                        Example in Action: The Important Role of Media
-                        Reporting
-                    </strong>
-                </h2>
-                <p>
-                    The media is playing an increasingly important role in
-                    raising awareness among businesses, consumers, and the
-                    general public about child labor and forced labor. In
-                    recent years, many respected media outlets have
-                    generated headlines with their reporting on these
-                    issues, including on child labor and debt bondage in the
-                    production of Mexican agricultural produce, brutal
-                    forced labor on fishing vessels throughout Southeast
-                    Asia, bonded labor in India&rsquo;s brick kilns, and
-                    fraudulent recruitment practices in construction work in
-                    the Middle East, among many others. In many cases,
-                    journalists&rsquo; key sources are representatives of
-                    civil society organizations who have long fought to
-                    bring these issues into the spotlight, and are now
-                    finding greater opportunities to do so.
-                </p>
-                <p>
-                    Because of this research and reporting, we know more
-                    about the indigenous families who migrate through
-                    Central America harvesting crops, including the elderly
-                    and very young children. We understand better the kinds
-                    of government laws and policies, such as those seen in
-                    some Gulf countries, that can perpetuate forced labor by
-                    leaving migrant workers vulnerable to exploitative
-                    practices such as passport confiscation by their
-                    employers, non-payment of wages, and contract
-                    substitution without the worker&rsquo;s consent.
-                </p>
-                <p>
-                    We are learning about the deep linkages between forced
-                    labor and environmental destruction. In areas where
-                    goods are produced illegally or where law enforcement is
-                    weak, both people and the environment are at risk
-                    &ndash; as in gold mining, an industry with high levels
-                    of illicit production, known to contaminate drinking
-                    water and land with mercury and cyanide, and where child
-                    labor seems to proliferate. We have come to know the
-                    bleak stories behind the jubilance of mega-sporting
-                    events: stories of workers deceived and paid a pittance
-                    to construct awe-inspiring stadiums and toiling in
-                    sweatshops to make apparel and merchandise for these
-                    events. And we share in the collective abhorrence of the
-                    exploitation of fishermen at sea.
-                </p>
-                <p>
-                    Whether by shedding a light on opaque tiers of supply
-                    chains to increase ethical recruitment and transparent
-                    sourcing, or by spurring action to ensure that grievance
-                    and remediation mechanisms exist to address labor
-                    violations, media coverage can play an important role in
-                    contributing to businesses&rsquo; due diligence efforts
-                    to prevent and eliminate human rights violations in
-                    their supply chains.
-                </p>
-            </ExampleInAction>
            </div>
         </StaticData>
     );
