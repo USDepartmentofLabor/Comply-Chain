@@ -1,148 +1,932 @@
 import React from "react";
-import StaticData from "../../../../../../components/StaticData";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import StaticData from "../../../../../../components/StaticData";
+import styled from "styled-components";
+import { theme } from "../../../../../../modules/config/theme";
+import Accordion from "../../../../../../components/Accordion"; 
+
+const Table = styled.table`
+    border-collapse: collapse;
+    border: 2px solid ${theme.colors.charcoal};
+    margin-bottom: 16px;
+
+    & th,
+    td {
+        border: 1px solid ${theme.colors.charcoal};
+    }
+`;
 
 const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>Planes de acci&oacute;n correctiva</h1>
+                <h1>Prevenci&oacute;n de la reincidencia</h1>
                 <p>
-                    Un plan de acci&oacute;n correctiva (PAC) suele elaborarse
-                    al poco tiempo de realizada la auditor&iacute;a. Las
-                    empresas formulan estos planes de diferentes maneras:
-                    algunas los elaboran por su propia cuenta a partir de las
-                    conclusiones de la auditor&iacute;a; otras exigen que el
-                    proveedor elabore su propio PAC, que luego examinar&aacute;
-                    y aprobar&aacute; la empresa, mientras que otras exigen que
-                    el contratista o agente redacte el PAC de su proveedor. En
-                    algunos casos, los auditores mismos elaboran el PAC pero
-                    este enfoque despierta inquietudes dado que puede haber un
-                    conflicto de intereses.
+                    Adem&aacute;s de abordar las situaciones individuales de las
+                    v&iacute;ctimas, es importante analizar el motivo que dio
+                    lugar a la infracci&oacute;n. Este an&aacute;lisis no se
+                    limita simplemente a atribuir el trabajo infantil y el
+                    trabajo forzoso a la pobreza, a instituciones
+                    gubernamentales ineficaces o a otros motivos, que se
+                    analizan en Tratamiento de las causas fundamentales.&nbsp;
                 </p>
                 <p>
-                    Es aconsejable brindar oportunidades de recibir el aporte de
-                    los trabajadores y de la comunidad para redactar el PAC, en
-                    especial de los trabajadores que se vieron afectados por las
-                    infracciones de manera directa. Esto puede hacerse mediante
-                    una organizaci&oacute;n de trabajadores, una de la sociedad
-                    civil o directamente con trabajadores individuales,
-                    seg&uacute;n los procedimientos definidos.
+                    En algunos casos, tal como se mencion&oacute;, el propio
+                    accionar de la empresa (como presionar para que le entreguen
+                    un pedido para una determinada fecha o modificar de manera
+                    repentina los vol&uacute;menes o estilos) puede dar lugar a
+                    situaciones en que los proveedores se ven presionados a
+                    exigir horas extras, incorporar mano de obra adicional, para
+                    lo cual recurren a intermediarios o reclutadores que tal vez
+                    no hagan primar el cumplimiento, o subcontratar a
+                    contratistas no autorizados para hacer el trabajo. En muchos
+                    otros casos, las fallas de la gerencia y en las
+                    pol&iacute;ticas, los procesos o la capacitaci&oacute;n en
+                    el lugar de trabajo constituyen las principales causas de
+                    infracci&oacute;n y estos problemas tienen soluci&oacute;n y
+                    se deben remediar.
                 </p>
-                <p>Todo PAC debe abarcar:</p>
-                <ul>
-                    <li>Todas las conclusiones de la auditor&iacute;a.</li>
-                    <li>
-                        Las medidas espec&iacute;ficas necesarias para remediar
-                        cada uno de los puntos mencionados en las conclusiones,
-                        incluida la asistencia a v&iacute;ctimas individuales,
-                        nuevas pol&iacute;ticas o procedimientos escritos,
-                        capacitaci&oacute;n para los gerentes, el personal,
-                        empleados y dem&aacute;s medidas.
-                    </li>
-                    <li>El responsable de cada medida.</li>
-                    <li>
-                        De qu&eacute; manera se verificar&aacute; o
-                        confirmar&aacute; cada medida, como mediante un examen
-                        de registros, entrevistas a los empleados, controles
-                        puntuales u otros.
-                    </li>
-                    <li>
-                        Las fechas l&iacute;mites o los hitos para completar
-                        cada medida, que deber&iacute;a ser cuanto antes.
-                    </li>
-                    <li>Posibles consecuencias si no se adoptan medidas.</li>
-                </ul>
+                <h2>Trabajo infantil</h2>
                 <p>
-                    Por ejemplo, si se determina que hay trabajadores en
-                    situaci&oacute;n de trabajo forzoso en un lugar de trabajo,
-                    en el PAC tal vez se exija adoptar una o m&aacute;s medidas
-                    de remediaci&oacute;n en los cuadros 1 a 4 bajo{" "}
-                    <em>
-                        <u>Prevenci&oacute;n de la reincidencia</u>
-                    </em>
-                    . Se debe especificar claramente qui&eacute;n es el
-                    responsable de la supervisi&oacute;n y el seguimiento de
-                    cada medida. Esto tal vez requiera establecer nuevos
-                    procedimientos y aclarar las l&iacute;neas de
-                    responsabilidad para aplicar estos procedimientos. Tal vez
-                    se establezcan nuevos mecanismos de &ldquo;control&rdquo;
-                    para detectar el trabajo forzoso en el lugar de trabajo y
-                    especificar qui&eacute;n es el responsable de realizar estos
-                    controles. Adem&aacute;s, quiz&aacute;s se requiera una
-                    sesi&oacute;n de capacitaci&oacute;n para toda la gerencia
-                    en el tema de trabajo forzoso y los requisitos conexos que
-                    figuran en el c&oacute;digo de conducta. Por &uacute;ltimo,
-                    en el PAC se pueden enumerar las medidas que adoptar&aacute;
-                    la empresa si vuelve a producirse esta infracci&oacute;n,
-                    como una suspensi&oacute;n temporal de los pedidos o la
-                    cancelaci&oacute;n de pedidos futuros.
+                    En casos de <strong>trabajo infantil</strong>, las causas
+                    pueden ser:
                 </p>
+                <div className="indent-margin">
+                    <p>
+                        No exigir documentos que permitan verificar la edad al
+                        momento de la contrataci&oacute;n o no constatarlos,
+                        verificarlos y darles seguimiento.
+                    </p>
+                    <p>
+                        Comprensi&oacute;n deficiente por parte de la gerencia
+                        de las actividades laborales adecuadas, los peligros o
+                        el horario laboral adecuado para los ni&ntilde;os.
+                    </p>
+                    <p>
+                        V&iacute;nculos laborales informales que permiten que
+                        los ni&ntilde;os &ldquo;se cuelen entre las
+                        grietas&rdquo;.
+                    </p>
+                </div>
                 <p>
-                    La FLA (Asociaci&oacute;n Trabajo Justo) publica{" "}
+                    La publicaci&oacute;n{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
-                        title="informes de todas las evaluaciones de f&aacute;bricas"
+                        href="http://impacttlimited.com/wp-content/uploads/2017/01/Impactt_CLOPIndustrialcontexts_REVISION_26112008.pdf"
+                        title="<i>Operational Procedures for Remediation of Child Labour in Industrial Contexts</i>"
                     >
-                        informes de todas las evaluaciones de f&aacute;bricas
+                        <i>
+                            Operational Procedures for Remediation of Child
+                            Labour in Industrial Contexts
+                        </i>
                     </a>{" "}
-                    que realiza de las empresas miembro de conformidad con el
-                    C&oacute;digo de conducta en el lugar de trabajo de la FLA.
-                    En estos informes se detallan las infracciones identificadas
-                    en la f&aacute;brica, las medidas correctivas recomendadas y
-                    los avances logrados hasta la fecha.&nbsp;
+                    (Procedimientos operativos para la remediaci&oacute;n del
+                    trabajo infantil en contextos industriales) de Impactt
+                    Limited contiene directrices detalladas sobre c&oacute;mo
+                    mejorar la situaci&oacute;n de las v&iacute;ctimas y
+                    c&oacute;mo prevenir la reincidencia del trabajo infantil
+                    cuando se descubre en un entorno de plantas de
+                    producci&oacute;n.
                 </p>
+                <h2>Trabajo forzoso</h2>
                 <p>
-                    Una vez que el PAC est&aacute; en funcionamiento, la
-                    supervisi&oacute;n y el seguimiento son, por supuesto,
-                    fundamentales. Por lo general, la empresa realiza un
-                    seguimiento de la aplicaci&oacute;n del PAC y se comunica
-                    con el proveedor para verificar los avances logrados, sobre
-                    todo en los momentos en que se deber&iacute;a haber llegado
-                    a los hitos. Si la empresa tiene personal en la zona
-                    geogr&aacute;fica, pueden verificar directamente, el equipo
-                    que realiz&oacute; la auditor&iacute;a original puede
-                    regresar a hacer una de seguimiento o se puede enviar a otro
-                    equipo. Adem&aacute;s, la empresa hace rendir cuentas a sus
-                    contratistas o agentes del seguimiento. Lo importante no es
-                    qui&eacute;n lo hace sino que se haga de manera oportuna y
-                    eficaz y que se desprenda de una comunicaci&oacute;n clara
-                    con el proveedor. Como parte de la aplicaci&oacute;n del
-                    PAC, muchas empresas brindan capacitaci&oacute;n y
-                    fortalecimiento de capacidades de manera constante a fin de
-                    apoyar al proveedor en el proceso de mejora continua.&nbsp;
+                    En casos de <strong>trabajo forzoso</strong>, las causas
+                    pueden ser:
                 </p>
+                <div className="indent-margin">
+                    <p>
+                        Un c&aacute;lculo inadecuado de los sueldos y las
+                        deducciones o el pago tard&iacute;o;
+                    </p>
+                    <p>
+                        Ausencia de pol&iacute;ticas y procedimientos claros
+                        para el reclutamiento y la contrataci&oacute;n de
+                        trabajadores;
+                    </p>
+                    <p>
+                        Ausencia de procedimientos claros para garantizar que
+                        todos los trabajadores tengan contratos donde se
+                        estipulen claramente los t&eacute;rminos de su empleo,
+                        en un idioma que comprendan y que cualquier cambio al
+                        contrato se realice con el consentimiento informado y
+                        por escrito de los trabajadores;
+                    </p>
+                    <p>
+                        Ausencia de mecanismos para que los trabajadores puedan
+                        presentar una reclamaci&oacute;n;
+                    </p>
+                    <p>Tenedur&iacute;a de libros deficiente;</p>
+                    <p>
+                        Ausencia de pol&iacute;ticas y procedimientos para los
+                        trabajadores migrantes, como mecanismos para garantizar
+                        que los intermediarios o agentes no les cobren, que no
+                        se les exija dejar un dep&oacute;sito, que puedan
+                        recibir t&eacute;rminos y condiciones de empleo
+                        an&aacute;logos a los que reciben los trabajadores no
+                        migrantes, y
+                    </p>
+                    <p>
+                        Pol&iacute;ticas que permiten que los empleadores
+                        &ldquo;retengan&rdquo; los documentos de identidad de
+                        los empleados de manera tal que no est&eacute;n a
+                        disposici&oacute;n de los trabajadores cuando estos lo
+                        deseen.
+                    </p>
+                </div>
+                <h2>Remediation Practices Related to Forced Labor</h2>
                 <p>
-                    A pesar del incentivo claro de mantener un v&iacute;nculo
-                    comercial positivo con la empresa, de vez en cuando los
-                    proveedores no participan de manera eficaz de los PAC ya sea
-                    porque no cuentan con el debido apoyo o capacitaci&oacute;n
-                    o porque no perciben cu&aacute;l es el incentivo de hacerlo.
-                    Por lo tanto, los PAC deben contemplar incentivos para los
-                    proveedores, como una prima en el precio, garant&iacute;as
-                    de compra, acceso a financiamiento o una notificaci&oacute;n
-                    p&uacute;blica y peri&oacute;dica que recompensa el
-                    cumplimiento. Si los intentos de remediaci&oacute;n y
-                    participaci&oacute;n no arrojaron los resultados deseados,
-                    se debe considerar desvincularse comercialmente del
-                    proveedor sin dejar de tener en cuenta el posible efecto que
-                    tendr&aacute; en los trabajadores e intentar atenuar dicho
-                    efecto.
+                    Por supuesto que las causas de las infracciones pueden ir
+                    m&aacute;s all&aacute; de meras fallas del sistema y ser el
+                    resultado del enga&ntilde;o deliberado por parte del
+                    proveedor, de la gerencia, de determinados empleados o de
+                    los reclutadores. Accidentales o intencionales, las
+                    infracciones deben remediarse con un plan de acci&oacute;n
+                    correctiva claro que obligue al proveedor a rendir cuentas
+                    de sus actos.
                 </p>
-                <ExampleInAction id="correct-action">
+                <ExampleInAction id="plch">
                                     <h2>
                                         <ExampleInAction.Icon alt="Lightbulb"/>
                                         <strong>
-                                            Example in Action: Best Buy
+                                            Example in Action: Place holder example of action
                                         </strong>
                                     </h2>
                                     <p>
                                         Place Holder
-                                    </p>
-                                    
-                                    
+                                    </p>                
+                </ExampleInAction>
+                <p>
+                    En los cuadros 1 a 4 se describen las medidas de
+                    remediaci&oacute;n que pueden adoptarse cuando se hallan
+                    indicadores de trabajo forzoso. En todos los casos, se deben
+                    documentar los problemas, se les debe dar seguimiento y los
+                    sistemas de la gerencia deben actualizarse para evitar la
+                    reincidencia.
+                </p>
+                <Accordion id="prevent-recurrence">
+                        <Accordion.Section id="practice-issue">
+                            <Accordion.Title>
+                                <strong>
+                                Problemas en la remediaci&oacute;n de las
+                        pr&aacute;cticas de reclutamiento
+
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                <Table>
+                    <caption>
+                        Cuadro: Problemas en la remediaci&oacute;n de las
+                        pr&aacute;cticas de reclutamiento
+                    </caption>
+                    <tbody>
+                        <tr>
+                            <th scope="col" width="55%" scope="col">
+                                <p>
+                                    <strong>Circunstancias</strong>
+                                </p>
+                            </th>
+                            <th scope="col" width="45%" scope="col">
+                                <p>
+                                    <strong>
+                                        Medidas de remediaci&oacute;n
+                                    </strong>
+                                </p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Trabajadores sustra&iacute;dos, encerrados
+                                    durante el proceso de reclutamiento o
+                                    vendidos.
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Denunciar la contravenci&oacute;n a las
+                                    autoridades responsables de la
+                                    aplicaci&oacute;n de la ley. Trabajar con
+                                    las autoridades responsables de la
+                                    aplicaci&oacute;n de la ley y con grupos
+                                    locales a fin de brindar a las
+                                    v&iacute;ctimas un lugar seguro para
+                                    quedarse y ponerlas en contacto con los
+                                    servicios que necesiten.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Trabajadores reclutados con un
+                                    pr&eacute;stamo o anticipo y que
+                                    est&eacute;n trabajando para pagarlo.
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Si el proveedor pag&oacute; el
+                                    pr&eacute;stamo o anticipo, determinar si
+                                    los t&eacute;rminos del mismo son
+                                    razonables.&nbsp;De lo contrario, pactar
+                                    t&eacute;rminos razonables entre el
+                                    proveedor y el trabajador. Si el
+                                    pr&eacute;stamo o anticipo fue pagado por un
+                                    reclutador, determinar si el proveedor
+                                    estaba al tanto del acuerdo. De ser
+                                    as&iacute;, pactar t&eacute;rminos
+                                    razonables entre el proveedor, el reclutador
+                                    y el trabajador.&nbsp;De lo contrario,
+                                    exigir que el proveedor se desvincule del
+                                    reclutador. Denunciar a los reclutadores
+                                    inescrupulosos a las autoridades.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Reclutamiento enga&ntilde;oso: a los
+                                    trabajadores se les prometieron tipos de
+                                    trabajo, condiciones de trabajo, vivienda o
+                                    alojamiento, lugares de trabajo,
+                                    empleadores, sueldos o ganancias que no se
+                                    concretan.
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Si el proveedor hizo una falsa promesa, debe
+                                    pagar a todos los empleados que deseen irse
+                                    el total del sueldo adeudado y el transporte
+                                    para regresar a su hogar.&nbsp;Si un
+                                    reclutador hizo las falsas promesas,
+                                    determinar si el proveedor estaba al tanto
+                                    del acuerdo.&nbsp;De ser as&iacute;, el
+                                    proveedor es responsable de lo
+                                    anterior.&nbsp;De lo contrario, exigir que
+                                    el proveedor se desvincule del
+                                    reclutador.&nbsp;Denunciar a los
+                                    reclutadores inescrupulosos a las
+                                    autoridades.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </Table>
+                </Accordion.Panel>
+                            </Accordion.Section>
+                    <Accordion.Section id="living-cond">
+                            <Accordion.Title>
+                                <strong>
+                                Remediaci&oacute;n de problemas con las
+                        condiciones laborales o de alojamiento
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                <Table>
+                    <caption>
+                        Cuadro: Remediaci&oacute;n de problemas con las
+                        condiciones laborales o de alojamiento
+                    </caption>
+                    <tbody>
+                        <tr>
+                            <th scope="col" width="55%" scope="col">
+                                <p>
+                                    <strong>Circunstancias</strong>
+                                </p>
+                            </th>
+                            <th scope="col" width="45%" scope="col">
+                                <p>
+                                    <strong>
+                                        Medidas de remediaci&oacute;n
+                                    </strong>
+                                </p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Trabajadores que trabajan horas extras
+                                    excesivas, m&aacute;s all&aacute; de lo que
+                                    permite la ley.
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Cerciorarse de que el proveedor abone a los
+                                    trabajadores el sueldo atrasado
+                                    correspondiente a todas las horas extras
+                                    trabajadas. Trabajar con el proveedor para
+                                    evaluar las pol&iacute;ticas de
+                                    asignaci&oacute;n de personal y las
+                                    pr&aacute;cticas de remuneraci&oacute;n,
+                                    como el precio a destajo, que contribuyen a
+                                    las horas extras. Analizar sus propias
+                                    pr&aacute;cticas de abastecimiento, como los
+                                    plazos de entrega, los cambios en los
+                                    pedidos, los precios y dem&aacute;s
+                                    presiones que pueden llevar a exigir medidas
+                                    extremas de reducci&oacute;n de costos por
+                                    parte del proveedor, incluidas las horas
+                                    extras excesivas. Cerciorarse de que todos
+                                    los trabajadores reciban capacitaci&oacute;n
+                                    en los derechos que les confieren la ley y
+                                    el sistema de cumplimiento social.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Trabajadores que se pretende trabajen
+                                    &ldquo;de guardia.&rdquo;
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Trabajar con el proveedor a fin de
+                                    dise&ntilde;ar un plan de dotaci&oacute;n de
+                                    personal m&aacute;s estructurado que se
+                                    ajuste a los requisitos fijados en el
+                                    c&oacute;digo de la empresa. Cerciorarse de
+                                    que todos los trabajadores reciban
+                                    capacitaci&oacute;n en los derechos que les
+                                    confieren la ley y el c&oacute;digo de
+                                    conducta de la empresa.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Empleador que limita la libertad de
+                                    circulaci&oacute;n o comunicaci&oacute;n de
+                                    los trabajadores.
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Determinar qui&eacute;nes (la gerencia, los
+                                    supervisores, los jefes de turno, etc.)
+                                    participan de la limitaci&oacute;n impuesta
+                                    a la libertad de circulaci&oacute;n o
+                                    comunicaci&oacute;n de los trabajadores e
+                                    investigar el accionar de estas personas).
+                                    Si las personas actuaban por su cuenta sin
+                                    conocimiento de la gerencia, tomar las
+                                    medidas adecuadas con ellas, como la
+                                    capacitaci&oacute;n, la suspensi&oacute;n o
+                                    el despido. Si las limitaciones provienen de
+                                    la gerencia, desvincularse del proveedor u
+                                    otorgarle un plazo corto para poner fin a
+                                    todas esas pr&aacute;cticas.&nbsp;
+                                </p>
+                                <p>
+                                    Investigar m&aacute;s a fondo las
+                                    condiciones y circunstancias presentes en el
+                                    lugar de trabajo que la gerencia o los
+                                    supervisores puedan estar intentando ocultar
+                                    (como entrevistas fuera del lugar de trabajo
+                                    con los trabajadores u otros integrantes de
+                                    la comunidad que est&eacute;n al tanto).
+                                    Cerciorarse de que todos los trabajadores
+                                    reciban capacitaci&oacute;n en los derechos
+                                    que les confiere la ley, incluidos los
+                                    mecanismos de reclamaci&oacute;n.
+                                    Cerciorarse de que todos los trabajadores
+                                    que deseen irse del trabajo puedan hacerlo y
+                                    percibir la totalidad del sueldo que se les
+                                    adeuda.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Condiciones degradantes de alojamiento.</p>
+                            </td>
+                            <td>
+                                <p>
+                                    Cerciorarse de que el proveedor comprenda
+                                    plenamente las normas m&iacute;nimas que la
+                                    empresa fije para la vivienda de los
+                                    empleados. Otorgar al proveedor un plazo
+                                    corto para remediar los problemas de
+                                    alojamiento. Cerciorarse de que todos los
+                                    trabajadores reciban capacitaci&oacute;n en
+                                    los derechos que les confiere la ley,
+                                    incluidas las normas para la vivienda.
+                                    Cerciorarse de que todos los trabajadores
+                                    que deseen irse del trabajo puedan hacerlo y
+                                    percibir la totalidad del sueldo que se les
+                                    adeuda.&nbsp;
+                                </p>
+                                <p>
+                                    Dar seguimiento con una investigaci&oacute;n
+                                    no anunciada que incluya entrevistas fuera
+                                    del lugar de trabajo a los trabajadores u
+                                    otros integrantes de la comunidad que
+                                    est&eacute;n al tanto. Si no mejoran las
+                                    condiciones de alojamiento, desvincularse
+                                    del proveedor sin dejar de atenuar el efecto
+                                    que esto pueda tener en los trabajadores.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Trabajadores obligados a participar de
+                                    actividades il&iacute;citas, trabajar en una
+                                    vivienda particular, para una familia o
+                                    consumir drogas adictivas.
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Determinar qui&eacute;nes (la gerencia, los
+                                    supervisores, los jefes de turno, etc.)
+                                    participan de la limitaci&oacute;n impuesta
+                                    a la libertad de circulaci&oacute;n o
+                                    comunicaci&oacute;n de los trabajadores e
+                                    investigar el accionar de estas personas. Si
+                                    las personas act&uacute;an por su cuenta sin
+                                    conocimiento de la gerencia, tomar las
+                                    medidas adecuadas con ellas, que pueden
+                                    comprender la capacitaci&oacute;n, la
+                                    suspensi&oacute;n o el despido. Si las
+                                    limitaciones provienen de la gerencia,
+                                    desvincularse del proveedor u otorgarle un
+                                    plazo corto para poner fin a todas esas
+                                    pr&aacute;cticas.&nbsp;
+                                </p>
+                                <p>
+                                    Investigar m&aacute;s a fondo las
+                                    condiciones y circunstancias presentes en el
+                                    lugar de trabajo que la gerencia o los
+                                    supervisores puedan estar intentando ocultar
+                                    (como entrevistas fuera del lugar de trabajo
+                                    a los trabajadores u otros integrantes de la
+                                    comunidad que est&eacute;n al tanto).
+                                    Cerciorarse de que todos los trabajadores
+                                    reciban capacitaci&oacute;n en los derechos
+                                    que les confiere la ley, incluidos los
+                                    mecanismos de reclamaci&oacute;n.
+                                    Cerciorarse de que todos los trabajadores
+                                    que deseen irse del trabajo puedan hacerlo y
+                                    percibir la totalidad del sueldo que se les
+                                    adeuda.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Proveedores que exageran las deudas de los
+                                    trabajadores.
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Determinar cu&aacute;l es la fuente de la
+                                    deuda inicial de los trabajadores. Si la
+                                    deuda inicial era con el proveedor,
+                                    solicitarle a este que la cancele. Si la
+                                    deuda inicial era con un reclutador,
+                                    investigar si el proveedor estaba al tanto
+                                    de la deuda. De ser as&iacute;, exigir que
+                                    el proveedor cancele la deuda. De lo
+                                    contrario, exigir que el proveedor se
+                                    desvincule del reclutador. Denunciar al
+                                    reclutador a las autoridades.
+                                </p>
+                                <p>
+                                    Con respecto a la exageraci&oacute;n de la
+                                    deuda, exigir que el empleador deje de
+                                    cobrar de inmediato cualquier tipo de
+                                    inter&eacute;s sobre la misma. Si la deuda
+                                    se exagera con compras de art&iacute;culos
+                                    al empleador, como en la cantina, determinar
+                                    si los trabajadores tienen otras
+                                    alternativas. Si comprar en las tiendas que
+                                    son propiedad del empleador es la
+                                    &uacute;nica opci&oacute;n factible para los
+                                    trabajadores, trabajar con el proveedor para
+                                    garantizar que los precios y los
+                                    t&eacute;rminos sean razonables.
+                                </p>
+                                <p>
+                                    Cerciorarse de que todos los trabajadores
+                                    que deseen irse del trabajo puedan hacerlo y
+                                    percibir la totalidad del sueldo que se les
+                                    adeuda.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Trabajadores que dependen del empleador para
+                                    la vivienda, la comida u otras necesidades.
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    En algunos casos, en especial en el caso de
+                                    los trabajadores migrantes, la vivienda, la
+                                    comida y otras necesidades que ofrece el
+                                    empleador puede ser la mejor opci&oacute;n
+                                    para todas las partes implicadas. Sin
+                                    embargo, se debe examinar la calidad de la
+                                    vivienda y de la comida y si no cumple las
+                                    normas m&iacute;nimas, trabajar con el
+                                    proveedor para que mejore la calidad.
+                                </p>
+                                <p>
+                                    Dar seguimiento con una investigaci&oacute;n
+                                    no anunciada que incluya entrevistas fuera
+                                    del lugar de trabajo a los trabajadores u
+                                    otros integrantes de la comunidad que
+                                    est&eacute;n al tanto. Si las condiciones de
+                                    alojamiento o la comida no mejoran,
+                                    desvincularse del proveedor.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Trabajadores con una dependencia personal
+                                    del empleador.
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Cerciorarse de que todos los trabajadores
+                                    reciban capacitaci&oacute;n en los derechos
+                                    que les confieren la ley y el c&oacute;digo
+                                    de conducta de la empresa independientemente
+                                    de las relaciones personales.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </Table>
+                </Accordion.Panel>
+                        </Accordion.Section>
+                    <Accordion.Section id="impossible-leaving">
+                            <Accordion.Title>
+                                <strong>
+                                Remediaci&oacute;n de los problemas de la
+                        &ldquo;imposibilidad de irse&rdquo;
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                <Table>
+                    <caption>
+                        Cuadro: Remediaci&oacute;n de los problemas de la
+                        &ldquo;imposibilidad de irse&rdquo;
+                    </caption>
+                    <tbody>
+                        <tr>
+                            <th scope="col" width="55%" scope="col">
+                                <p>
+                                    <strong>Circunstancias</strong>
+                                </p>
+                            </th>
+                            <th scope="col" width="45%" scope="col">
+                                <p>
+                                    <strong>
+                                        Medidas de remediaci&oacute;n
+                                    </strong>
+                                </p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Trabajadores que no creen que puedan
+                                    renunciar libremente por los beneficios que
+                                    ya recibieron o por las restricciones que
+                                    impone el empleador.
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Si el supervisor u otra persona hacen creer
+                                    a los trabajadores que no pueden irse porque
+                                    el proveedor les brind&oacute;
+                                    capacitaci&oacute;n u otros beneficios, o
+                                    por alg&uacute;n requisito contractual
+                                    il&iacute;cito, exija que el proveedor
+                                    adopte las medidas correctivas adecuadas con
+                                    tal persona, desde la capacitaci&oacute;n
+                                    hasta el despido. Si los trabajadores
+                                    simplemente no comprenden sus derechos,
+                                    br&iacute;ndeles capacitaci&oacute;n para
+                                    garantizar que sepan cu&aacute;ndo pueden
+                                    renunciar. Cerciorarse de que todos los
+                                    trabajadores que deseen irse del trabajo
+                                    puedan hacerlo y percibir la totalidad del
+                                    sueldo que se les adeuda.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Trabajadores que se sienten obligados a
+                                    quedarse porque le adeudan parte del
+                                    salario.
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Cerciorarse de que el salario se calcule
+                                    adecuadamente y que todos los empleados
+                                    implicados en la n&oacute;mina est&eacute;n
+                                    debidamente capacitados para saber calcular
+                                    el salario. Exigir al proveedor que pague
+                                    todos los sueldos atrasados previstos por la
+                                    legislaci&oacute;n local (por ejemplo, si la
+                                    ley exige el pago quincenal, que se paguen
+                                    todos los salarios, como m&iacute;nimo hasta
+                                    hace dos semanas). Cerciorarse de que se
+                                    formalice el cronograma de pago conforme lo
+                                    estipulan los l&iacute;mites legales y los
+                                    del c&oacute;digo de la empresa. Dar
+                                    seguimiento con una auditor&iacute;a no
+                                    anunciada. Cerciorarse de que todos los
+                                    trabajadores que deseen irse del trabajo
+                                    puedan hacerlo y percibir la totalidad del
+                                    sueldo que se les adeuda.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Trabajadores que trabajan por
+                                    per&iacute;odos excesivos o indefinidos para
+                                    pagar una deuda o un anticipo que
+                                    recibi&oacute; del empleador o reclutador.
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Si el proveedor pag&oacute; el
+                                    pr&eacute;stamo o anticipo, determinar si
+                                    los t&eacute;rminos del mismo son
+                                    razonables. De lo contrario, pactar
+                                    t&eacute;rminos razonables entre el
+                                    proveedor y el trabajador. Si el
+                                    pr&eacute;stamo o anticipo fue pagado por un
+                                    reclutador, determinar si el proveedor
+                                    estaba al tanto del acuerdo. De ser
+                                    as&iacute;, pactar t&eacute;rminos
+                                    razonables entre el proveedor, el reclutador
+                                    y el trabajador. De lo contrario, exigir que
+                                    el proveedor se desvincule del reclutador.
+                                    Denunciar a los reclutadores inescrupulosos
+                                    a las autoridades.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </Table>
+                </Accordion.Panel>
+                        </Accordion.Section>
+                    <Accordion.Section id="penalty-issue">
+                            <Accordion.Title>
+                                <strong>
+                                Remediaci&oacute;n de los problemas de
+                        sanciones o amenazas
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                <Table width="100%">
+                    <caption>
+                        Cuadro: Remediaci&oacute;n de los problemas de
+                        sanciones o amenazas
+                    </caption>
+                    <tbody>
+                        <tr>
+                            <th scope="col" width="55%" scope="col">
+                                <p>
+                                    <strong>Circunstancias</strong>
+                                </p>
+                            </th>
+                            <th scope="col" width="45%" scope="col">
+                                <p>
+                                    <strong>
+                                        Medidas de remediaci&oacute;n
+                                    </strong>
+                                </p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    El proveedor o reclutador tiene en su poder
+                                    los documentos de identidad o de viaje de
+                                    los trabajadores.
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Los proveedores nunca deben confiscar ni
+                                    tener en su poder los documentos de
+                                    identidad o de viaje de los trabajadores a
+                                    menos que sea exclusivamente con el fin de
+                                    guardarlos e incluso as&iacute;,
+                                    &uacute;nicamente si los trabajadores pueden
+                                    recuperarlos con rapidez al solicitarlo.
+                                    Exigir que el proveedor devuelva todos los
+                                    documentos de identidad a los trabajadores.
+                                    Si los trabajadores prefieren que el
+                                    proveedor los retenga para guardarlos,
+                                    cerciorarse de que se disponga de una
+                                    pol&iacute;tica para recuperar los
+                                    documentos y que todos los trabajadores
+                                    tengan conocimiento de tal pol&iacute;tica.
+                                    Dar seguimiento al tema con una
+                                    auditor&iacute;a no anunciada.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    El empleador limita la comunicaci&oacute;n
+                                    de los trabajadores.
+                                </p>
+                            </td>
+                            <td>
+                                <p>V&eacute;ase arriba.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    El empleador amenaza con entregar a los
+                                    trabajadores a las autoridades
+                                    inmigratorias.
+                                </p>
+                            </td>
+                            {/* <td rowSpan="6"> */}
+                            <td>
+                                <p>
+                                    En cualquier situaci&oacute;n de violencia,
+                                    sanci&oacute;n, intimidaci&oacute;n o
+                                    amenaza, determinar cu&aacute;les son las
+                                    partes involucradas en la infracci&oacute;n
+                                    (gerencia, supervisores, jefes de turno,
+                                    etc.). Si las personas actuaban por su
+                                    cuenta sin conocimiento de la gerencia,
+                                    tomar las medidas adecuadas con ellas, como
+                                    la capacitaci&oacute;n, la suspensi&oacute;n
+                                    o el despido.&nbsp;
+                                </p>
+                                <p>
+                                    Si las sanciones, amenazas, etc. provienen
+                                    de la gerencia o si esta era
+                                    c&oacute;mplice, desvincularse del proveedor
+                                    u otorgarle un plazo corto para poner fin a
+                                    todas esas pr&aacute;cticas. Cerciorarse de
+                                    que todos los trabajadores reciban
+                                    capacitaci&oacute;n en los derechos que les
+                                    confiere la ley, incluidos los mecanismos de
+                                    reclamaci&oacute;n. Cerciorarse de que todos
+                                    los trabajadores que deseen irse del trabajo
+                                    puedan hacerlo y percibir la totalidad del
+                                    sueldo que se les adeuda. Dar seguimiento
+                                    con auditor&iacute;as no anunciadas que
+                                    incluyan entrevistas fuera del lugar de
+                                    trabajo a los trabajadores u otros
+                                    integrantes de la comunidad que est&eacute;n
+                                    al tanto.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    El empleador perpetra violencia
+                                    f&iacute;sica o sexual o amenaza con
+                                    hacerlo.
+                                </p>
+                            </td>
+                            <td>
+                                <p>V&eacute;ase arriba.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    El empleador o reclutador amenaza con
+                                    retirar privilegios como posibles ascensos,
+                                    amenaza con deteriorar a&uacute;n m&aacute;s
+                                    las condiciones laborales o amenaza con
+                                    despedir a los trabajadores.
+                                </p>
+                            </td>
+                            <td>
+                                <p>V&eacute;ase arriba.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    El empleador o reclutador se aprovecha de
+                                    creencias religiosas o culturales de los
+                                    trabajadores.
+                                </p>
+                            </td>
+                            <td>
+                                <p>V&eacute;ase arriba.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    El empleador o reclutador retiene la
+                                    remuneraci&oacute;n o las pertenencias de
+                                    los trabajadores o amenaza con sanciones
+                                    econ&oacute;micas.
+                                </p>
+                            </td>
+                            <td>
+                                <p>V&eacute;ase arriba.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    El empleador amenaza con imponer trabajo
+                                    adicional a los trabajadores que no
+                                    colaboren.
+                                </p>
+                                <p>
+                                    El empleador recurre al soborno para obligar
+                                    a los trabajadores.
+                                </p>
+                            </td>
+                            <td>
+                                <p>V&eacute;ase arriba.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </Table>
+                </Accordion.Panel>
+                        </Accordion.Section>
+                </Accordion>
+                <ExampleInAction id="better_work">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Ejemplo en acci&oacute;n: el{" "}
+                            <strong>
+                                proceso de remediaci&oacute;n del programa{" "}
+                            </strong>
+                        </strong>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://betterwork.org/"
+                            title="Better Work"
+                        >
+                            <strong>Better Work</strong>
+                        </a>
+                    </h2>
+                    <p>
+                        El programa Better Work fomenta la elaboraci&oacute;n de
+                        estructuras y procesos democr&aacute;ticos para las
+                        relaciones industriales, lo cual se logra incluyendo a
+                        representantes de las organizaciones de empleadores y
+                        sindicatos para dise&ntilde;ar los programas y ponerlos
+                        en pr&aacute;ctica. Al nivel de la f&aacute;brica, los
+                        problemas de cumplimiento que se identifican con las
+                        evaluaciones se elevan a los comit&eacute;s consultivos
+                        de mejora del desempe&ntilde;o, &oacute;rgano conformado
+                        por 8 a 10 personas con igual cantidad de representantes
+                        de la gerencia y de los trabajadores. De ser posible, al
+                        elaborar programas de formaci&oacute;n y capacidades,
+                        estos comit&eacute;s parten de las estructuras
+                        existentes en la f&aacute;brica para una gesti&oacute;n
+                        eficaz de la mano de obra. Cada comit&eacute; se
+                        re&uacute;ne por lo menos una vez por mes. Con el apoyo
+                        de asesores del programa Better Work, formulan y
+                        supervisan la aplicaci&oacute;n de un plan de
+                        remediaci&oacute;n, lo cual garantiza que la gerencia y
+                        los trabajadores compartan la responsabilidad y la
+                        rendici&oacute;n de cuentas a lo largo de todo el
+                        proceso. Los auditores de Better Work est&aacute;n a
+                        disposici&oacute;n para brindar asistencia
+                        t&eacute;cnica y realizar auditor&iacute;as de
+                        seguimiento a fin de evaluar los logros alcanzados con
+                        el plan de remediaci&oacute;n.
+                    </p>
                 </ExampleInAction>
             </div>
         </StaticData>

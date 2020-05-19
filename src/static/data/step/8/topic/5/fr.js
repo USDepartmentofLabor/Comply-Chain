@@ -1,36 +1,48 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+
 const fr = () => {
     return (
         <StaticData>
             <div>
+                <h1>Communication sur les r&eacute;parations</h1>
                 <p>
-                    Chaque violation identifi&eacute;e dans un audit devrait
-                    &ecirc;tre r&eacute;par&eacute;e. Diff&eacute;rentes parties
-                    prenantes devraient jouer un r&ocirc;le dans la
-                    r&eacute;paration: la direction de
-                    l&apos;&eacute;tablissement du fournisseur devrait
-                    s&apos;engager &agrave; corriger les violations ;
-                    l&rsquo;entreprise devrait poss&eacute;der les
-                    m&eacute;canismes n&eacute;cessaires pour fournir
-                    l&apos;assistance technique et l&apos;appui
-                    n&eacute;cessaires &agrave; la correction ; et les
-                    travailleurs et les organisations de travailleurs devraient
-                    &ecirc;tre consult&eacute;s pour donner leur avis sur les
-                    mesures de r&eacute;paration les plus efficaces.
+                    Particuli&egrave;rement dans les cas o&ugrave; une plainte a
+                    &eacute;t&eacute; re&ccedil;ue et a entra&icirc;n&eacute; un
+                    audit et la d&eacute;tection de violations, la personne qui
+                    avait d&eacute;pos&eacute; la plainte&nbsp;&ndash; et
+                    peut-&ecirc;tre d&rsquo;autres parties
+                    prenantes&nbsp;&ndash; s&rsquo;attendront &agrave;
+                    &ecirc;tre inform&eacute;es de la fa&ccedil;on dont le
+                    probl&egrave;me a &eacute;t&eacute; trait&eacute;. Votre
+                    communication et vos rapports publics devraient comprendre,
+                    dans toute la mesure du possible, des informations sur les
+                    r&eacute;parations. Toute communication de ce type devrait
+                    garantir une protection maximale pour la
+                    s&eacute;curit&eacute; des victimes et les renseignements
+                    personnels &agrave; leur sujet.
                 </p>
-
                 <p>
-                    Les mesures de r&eacute;paration devraient toujours
-                    &ecirc;tre con&ccedil;ues pour r&eacute;gler le
-                    probl&egrave;me et l&apos;emp&ecirc;cher de se reproduire.
-                    Dans les cas de violations relatives au travail des enfants
-                    et au travail forc&eacute;, cela signifie qu&rsquo;il faut
-                    am&eacute;liorer la situation des victimes individuelles du
-                    travail des enfants et du travail forc&eacute; et
-                    emp&ecirc;cher d&apos;autres cas de travail des enfants ou
-                    de travail forc&eacute; de se produire sur le lieu de
-                    travail.
+                    <em>
+                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
+                        des entreprises et entit&eacute;s non gouvernementales
+                        sp&eacute;cifiques dans ce guide sont &agrave; des fins
+                        d&rsquo;information uniquement afin de d&eacute;montrer
+                        les bonnes pratiques reconnues &agrave;
+                        l&rsquo;&eacute;chelle internationale, &agrave; la date
+                        de lancement de l&rsquo;appli. Toute
+                        r&eacute;f&eacute;rence &agrave; ces entit&eacute;s ne
+                        saurait constituer une approbation officielle de ces
+                        derni&egrave;res, de leurs produits ou de leurs services
+                        par le d&eacute;partement du Travail des
+                        &Eacute;tats-Unis,{" "}
+                    </em>
+                    <em>
+                        et leur inclusion dans cette appli ne saurait &ecirc;tre
+                        interpr&eacute;t&eacute;e comme un examen exhaustif des
+                        pratiques de ces entit&eacute;s dans tous les domaines
+                    </em>
+                    <em>.</em>
                 </p>
             </div>
         </StaticData>

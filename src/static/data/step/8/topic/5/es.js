@@ -1,30 +1,41 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+
 const es = () => {
     return (
         <StaticData>
             <div>
+                <h1>Comunicaci&oacute;n sobre la remediaci&oacute;n</h1>
                 <p>
-                    Toda infracci&oacute;n identificada en una auditor&iacute;a
-                    se debe remediar. Las distintas partes interesadas deben
-                    participar de la remediaci&oacute;n: la gerencia de la
-                    planta del proveedor debe comprometerse a rectificar las
-                    infracciones; la empresa debe disponer de los mecanismos
-                    necesarios para garantizar la asistencia t&eacute;cnica y el
-                    apoyo necesarios para la rectificaci&oacute;n; y los
-                    trabajadores u organizaciones de trabajadores deben ser
-                    consultados a fin de obtener su opini&oacute;n sobre las
-                    medidas de remediaci&oacute;n que dar&aacute;n mejor
-                    resultado.
+                    En especial en los casos en que se recibe una denuncia que
+                    da lugar a una auditor&iacute;a y a la constataci&oacute;n
+                    de infracciones, el denunciante (y posiblemente otras partes
+                    interesadas) desear&aacute; saber c&oacute;mo se
+                    manej&oacute; el problema. En la medida de lo posible, en la
+                    comunicaci&oacute;n y la presentaci&oacute;n de informes
+                    p&uacute;blicos se debe incorporar informaci&oacute;n sobre
+                    la remediaci&oacute;n. Toda esta comunicaci&oacute;n debe
+                    garantizar la m&aacute;xima protecci&oacute;n de la
+                    seguridad y la privacidad de las v&iacute;ctimas.
                 </p>
-
                 <p>
-                    La remediaci&oacute;n siempre debe dise&ntilde;arse de
-                    manera de resolver el problema y a la vez evitar que vuelva
-                    a ocurrir. En el caso de infracciones por trabajo infantil y
-                    trabajo forzoso, esto implica tanto mejorar las condiciones
-                    para las v&iacute;ctimas individuales como evitar que
-                    vuelvan a ocurrir en el lugar de trabajo.
+                    <em>
+                        *Nota: Toda referencia que se haga en la presente
+                        gu&iacute;a a empresas o entidades no gubernamentales
+                        espec&iacute;ficas es con fines informativos
+                        &uacute;nicamente a fin de demostrar las buenas
+                        pr&aacute;cticas internacionalmente reconocidas a la
+                        fecha de lanzamiento de la aplicaci&oacute;n. Las
+                        referencias a dichas entidades no deben interpretarse
+                        como un aval oficial del Departamento de Trabajo de los
+                        Estados Unidos a ellas, sus productos ni servicios{" "}
+                    </em>
+                    <em>
+                        y su menci&oacute;n no debe interpretarse como un examen
+                        exhaustivo de las pr&aacute;cticas que emplean dichas
+                        entidades en todos los &aacute;mbitos
+                    </em>
+                    <em>.</em>
                 </p>
             </div>
         </StaticData>
