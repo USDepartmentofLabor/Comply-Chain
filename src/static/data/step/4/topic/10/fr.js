@@ -6,171 +6,79 @@ const fr = () => {
         <StaticData>
             <div>
                 <h1>
-                    Gestion des donn&eacute;es relatives &agrave; la
-                    conformit&eacute; sociale
+                   Travailleurs migrants
                 </h1>
-                <p>
-                    De nombreuses entreprises rencontrent des difficult&eacute;s
-                    techniques dans la gestion des ensembles disparates des
-                    donn&eacute;es recueillies et utilis&eacute;es par leurs
-                    diff&eacute;rents d&eacute;partements ou des consultants
-                    ext&eacute;rieurs. Les donn&eacute;es relatives &agrave; la
-                    conformit&eacute; l&eacute;gislative et r&eacute;glementaire
-                    pourront &ecirc;tre g&eacute;r&eacute;es par un service,
-                    alors que les achats et l&apos;approvisionnement le seront
-                    par un autre, les ressources humaines par un autre, etc. Ce
-                    syst&egrave;me peut fonctionner s&apos;il est bien
-                    g&eacute;r&eacute;, mais sinon, ce morcellement des
-                    donn&eacute;es peut nuire &agrave; l&apos;entreprise
-                    &agrave; plusieurs &eacute;gards: doublon, donc gaspillage
-                    de ressources ; prise de d&eacute;cisions fond&eacute;e sur
-                    des informations incompl&egrave;tes, ce qui accro&icirc;t
-                    les risques ; et diff&eacute;rents services de
-                    l&apos;entreprise envoient des messages contradictoires aux
-                    fournisseurs, ce qui peut endommager les relations
-                    commerciales.
-                </p>
-                <p>
-                    Les informations relatives &agrave; la conformit&eacute;
-                    sociale font partie de cet &eacute;quilibre. Dans de
-                    nombreuses soci&eacute;t&eacute;s, la conformit&eacute;
-                    sociale peut &ecirc;tre difficile &agrave; int&eacute;grer
-                    avec d&rsquo;autres op&eacute;rations. Mais si les
-                    donn&eacute;es relatives &agrave; la conformit&eacute;
-                    sociale ne sont pas utilis&eacute;es efficacement par
-                    l&apos;entreprise, sa r&eacute;putation et ses relations
-                    avec les parties prenantes courent de graves risques
-                    potentiels.
-                </p>
-                <p>
-                    Votre &eacute;quipe de conformit&eacute; sociale devrait
-                    avoir un syst&egrave;me d&apos;information exhaustif en
-                    place. Ce syst&egrave;me peut inclure une ou plusieurs bases
-                    de donn&eacute;es int&eacute;gr&eacute;es. Certaines de ces
-                    bases de donn&eacute;es peuvent en r&eacute;alit&eacute;
-                    appartenir &agrave; d&apos;autres services de
-                    l&apos;entreprise, par exemple un registre des
-                    vendeurs/agences, des fournisseurs et/ou des sites de
-                    production, mais elles devraient &ecirc;tre partag&eacute;es
-                    et utilis&eacute;es par toutes les &eacute;quipes
-                    pertinentes.
-                </p>
-                <p>
-                    Voici quelques exemples, &agrave; titre indicatif, de
-                    donn&eacute;es qu&apos;il faudrait saisir et suivre dans le
-                    syst&egrave;me d&apos;information:
-                </p>
-                <h2>
-                    Donn&eacute;es relatives &agrave; l&apos;approvisionnement:
-                </h2>
-                <ul>
-                    <li>Pays de provenance des produits.</li>
-                    <li>
-                        Produits sp&eacute;cifiques obtenus dans chaque pays.
-                    </li>
-                    <li>
-                        (Le cas &eacute;ch&eacute;ant) Vendeurs/agents qui
-                        passent des commandes dans des &eacute;tablissements
-                        pr&eacute;cis de production.
-                    </li>
-                    <li>
-                        Tous les &eacute;tablissements de production
-                        d&apos;o&ugrave; viennent les produits.
-                    </li>
-                    <li>
-                        Produits sp&eacute;cifiques obtenus dans chaque
-                        &eacute;tablissement de production.
-                    </li>
-                    <li>
-                        Pays et &eacute;tablissements de production
-                        envisag&eacute;s pour l&apos;obtention de produits.
-                    </li>
-                </ul>
-                <h2>
-                    Donn&eacute;es relatives &agrave; la conformit&eacute;
-                    sociale:
-                </h2>
-                <ul>
-                    <li>
-                        Donn&eacute;es d&apos;&eacute;valuation des risques
-                        concernant les pays o&ugrave; les produits sont obtenus
-                        ou pourraient l&rsquo;&ecirc;tre.
-                    </li>
-                    <li>
-                        Donn&eacute;es recueillies aupr&egrave;s des parties
-                        prenantes par le biais de consultations qui se
-                        poursuivent sur les pays, les questions relatives aux
-                        droits des travailleurs ou d&rsquo;autres sujets
-                        pertinents.
-                    </li>
-                    <li>
-                        R&eacute;clamations et plaintes re&ccedil;ues par le
-                        biais de m&eacute;canismes &eacute;tablis et leur prise
-                        en charge.
-                    </li>
-                    <li>R&eacute;sultats des audits.</li>
-                    <li>
-                        R&eacute;sultats des contr&ocirc;les
-                        ind&eacute;pendants.
-                    </li>
-                    <li>
-                        Mod&egrave;les de r&eacute;paration &agrave; utiliser
-                        dans des situations pr&eacute;cises concernant des
-                        violations du code.
-                    </li>
-                    <li>
-                        Programmes et services disponibles dans les
-                        communaut&eacute;s pour venir en aide aux victimes de
-                        violations des droits des travailleurs, y compris les
-                        enfants.
-                    </li>
-                </ul>
-                <p>
-                    Le syst&egrave;me devrait vous permettre de g&eacute;rer et
-                    d&apos;utiliser ces donn&eacute;es et de rep&eacute;rer des
-                    tendances. Finalement, un bon syst&egrave;me
-                    d&apos;information vous permettra de rep&eacute;rer,
-                    d&apos;identifier et de documenter vos r&eacute;sultats, vos
-                    r&eacute;ussites et les domaines de perfectionnement.
-                </p>
-                <p>
-                    Source:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains"
-                        title="Perspectives on Information Management in Sustainable Supply Chains de BSR"
-                    >
-                        <em>
-                            Perspectives on Information Management in
-                            Sustainable Supply Chains
-                        </em>{" "}
-                        de BSR
-                    </a>
-                    .
-                </p>
-                <p>
-                    <em>
-                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
-                        des soci&eacute;t&eacute;s et entit&eacute;s non
-                        gouvernementales sp&eacute;cifiques dans ce guide sont
-                        &agrave; des fins d&rsquo;information uniquement afin de
-                        d&eacute;montrer les bonnes pratiques reconnues &agrave;
-                        l&rsquo;&eacute;chelle internationale, &agrave; la date
-                        de lancement de l&rsquo;appli. Toute
-                        r&eacute;f&eacute;rence &agrave; ces entit&eacute;s ne
-                        saurait constituer une approbation officielle de ces
-                        derni&egrave;res, de leurs produits ou de leurs services
-                        par le d&eacute;partement du Travail des
-                        &Eacute;tats-Unis,{" "}
-                    </em>
-                    <em>
-                        et leur inclusion dans cette appli ne saurait &ecirc;tre
-                        interpr&eacute;t&eacute;e comme un examen exhaustif des
-                        pratiques de ces entit&eacute;s dans tous les domaines
-                    </em>
-                    <em>.</em>
-                </p>
+                    <p>
+                        Les migrants sont une cat&eacute;gorie de travailleurs
+                        particuli&egrave;rement vuln&eacute;rables au travail
+                        forc&eacute;. Dans l&rsquo;&eacute;conomie mondiale, des
+                        millions de travailleurs quittent leurs foyers pour
+                        travailler ailleurs, dans leur propre pays ou ailleurs dans
+                        le monde. De nombreux migrants &agrave; la recherche
+                        d&apos;un emploi font confiance &agrave; des recruteurs ou
+                        &agrave; des courtiers pour organiser les transports et les
+                        placer dans des emplois, mais d&eacute;couvrent, trop tard,
+                        que leurs salaires et les modalit&eacute;s de leur emploi ne
+                        correspondent pas aux promesses des courtiers. Certains
+                        migrants contractent des dettes importantes au cours du
+                        processus de recrutement et tombent dans le pi&egrave;ge de
+                        la servitude lorsqu&apos;ils ne peuvent rembourser ces
+                        dettes. Les cycles de servitude pour dette peuvent
+                        &eacute;galement se produire lorsque les employeurs
+                        op&egrave;rent des retenues sur le salaire des
+                        employ&eacute;s pour le logement, la nourriture et
+                        d&rsquo;autres frais, leur laissant peu ou pas de salaire
+                        net. De nombreux travailleurs migrants sont contraints de
+                        signer des contrats dans une langue qu&apos;ils ne savent
+                        pas lire ; d&apos;autres ont une relation d&apos;emploi
+                        informelle d&eacute;nu&eacute;e de tout contrat. Certains
+                        doivent remettre leurs papiers d&apos;identit&eacute;
+                        &agrave; leurs employeurs, ce qui leur enl&egrave;ve toute
+                        possibilit&eacute; de s&apos;&eacute;chapper de situations
+                        d&rsquo;abus ou d&rsquo;exploitation.
+                    </p>
+                    <p>
+                        Si vos fournisseurs ont recours &agrave; des courtiers de
+                        main-d&apos;&oelig;uvre pour recruter et placer des
+                        travailleurs migrants, vous pouvez courir un risque que le
+                        travail forc&eacute; et la traite existe dans vos
+                        cha&icirc;nes d&apos;approvisionnement. Les ressources
+                        recommand&eacute;es sur cette question comprennent les{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"
+                            title="Orientations en mati&egrave;re de bonnes pratiques sur le recrutement &eacute;thique des travailleurs migrants"
+                        >
+                            Orientations en mati&egrave;re de bonnes pratiques sur
+                            le recrutement &eacute;thique des travailleurs migrants
+                        </a>{" "}
+                        [en anglais] du{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.iccr.org/"
+                            title="Centre interconfessionnel sur la responsabilit&eacute; des entreprises (ICCR)"
+                        >
+                            Centre interconfessionnel sur la responsabilit&eacute;
+                            des entreprises (ICCR)
+                        </a>{" "}
+                        et les{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
+                            title="Principes g&eacute;n&eacute;raux et directives op&eacute;rationnelles concernant le recrutement &eacute;quitable"
+                        >
+                            Principes g&eacute;n&eacute;raux et directives
+                            op&eacute;rationnelles concernant le recrutement
+                            &eacute;quitable
+                        </a>{" "}
+                        de l&rsquo;OIT, qui informe les travaux de l&rsquo;OIT, des
+                        corps l&eacute;gislatifs au niveau national et d&apos;autres
+                        partenaires sociaux dans le cadre de la promotion et de la
+                        garantie d&rsquo;un recrutement &eacute;quitable.&nbsp;
+                    </p>
             </div>
         </StaticData>
     );

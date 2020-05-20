@@ -8,8 +8,7 @@ const es = () => {
         <StaticData>
             <div>
                 <h1>
-                    Empleo de la informaci&oacute;n de las evaluaciones de
-                    riesgos e impacto
+                    DOES THIS CHANGE GO????
                 </h1>
                 <p>
                     El equipo de cumplimiento social debe contar con un sistema

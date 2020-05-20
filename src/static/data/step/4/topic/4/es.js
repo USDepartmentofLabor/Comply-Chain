@@ -64,26 +64,6 @@ const es = () => {
                     a la explotaci&oacute;n laboral.&nbsp;
                 </p>
                 <p>
-                    A continuaci&oacute;n siguen tres ejemplos de
-                    representaciones gr&aacute;ficas de la cadena de suministro:
-                </p>
-                <p>
-                    Ejemplo 1: cadenas de suministro del cacao (Cote
-                    D&apos;Ivoire y Ghana) <br /> Ejemplo 2: cadenas de
-                    suministro de art&iacute;culos de electr&oacute;nica:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.resolve.ngo/site-eiscm/default.htm?RD=1"
-                        title="cobalto, tantalio, y tantalio"
-                    >
-                        cobalto, tantalio, y tantalio
-                    </a>
-                    <br /> Ejemplo 3: cadena de suministro de importaciones
-                    gen&eacute;ricas en un modelo de comercializaci&oacute;n
-                    minorista
-                </p>
-                <p>
                     Los bienes producidos con productos b&aacute;sicos
                     agr&iacute;colas o minerales pueden ser especialmente
                     dif&iacute;ciles de rastrear, dado que la materia prima se
@@ -125,33 +105,30 @@ const es = () => {
                     aborda a continuaci&oacute;n.
                 </p>
                 <br />
-                <h2>
-                    Cadenas de suministro del cacao (Cote D&apos;Ivoire y Ghana)
-                </h2>
-                <br />{" "}
-                <img
-                    src={cocoaSupplyChains}
-                    alt="Cadenas de suministro del cacao"
-                    longdesc="#cocoa_chains"
-                />
-                <p className="small-text">
-                    Fuente:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.crea.org/"
-                    >
-                        Centro para la Reflexi&oacute;n, la Educaci&oacute;n y
-                        la Acci&oacute;n (CREA).
-                    </a>
-                </p>
+
                 <div id="cocoa_chains">
                     <Accordion id="cocoa-chains-acc">
                         <Accordion.Section id="cocoa-description">
                             <Accordion.Title>
-                                Descripci&oacute;n del gr&aacute;fico
+                                Cadenas de suministro del cacao (Cote D&apos;Ivoire y Ghana)
                             </Accordion.Title>
                             <Accordion.Panel>
+                                <img
+                                  src={cocoaSupplyChains}
+                                  alt="Cadenas de suministro del cacao"
+                                  longdesc="#cocoa_chains"
+                              />
+                              <p className="small-text">
+                                  Fuente:{" "}
+                                  <a
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      href="http://www.crea.org/"
+                                  >
+                                      Centro para la Reflexi&oacute;n, la Educaci&oacute;n y
+                                      la Acci&oacute;n (CREA).
+                                  </a>
+                              </p>
                                 En este gr&aacute;fico se ilustran los
                                 diferentes actores que intervienen en la cadena
                                 de suministro del cacao: agricultores,
@@ -204,34 +181,39 @@ const es = () => {
                         </Accordion.Section>
                     </Accordion>
                 </div>
-                <br />
-                <h2>
-                    Cadena de suministro de importaciones gen&eacute;ricas en un
-                    modelo de comercializaci&oacute;n minorista
-                </h2>
-                <br />{" "}
-                <img
-                    src={genericImport}
-                    alt="Cadena de suministro de importaciones gen&eacute;ricas en un modelo de comercializaci&oacute;n minorista"
-                    longdesc="#generic_import"
-                />
-                <p className="small-text">
-                    Fuente:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://corporate.target.com/"
-                    >
-                        Target Corporation.
-                    </a>
-                </p>
+                <Accordion id="cocoa-chains-acc">
+                    <Accordion.Section id="cocoa-description">
+                        <Accordion.Title>
+                            Electronics Supply Chains - Cobalt, Tantalum and Tin
+                        </Accordion.Title>
+                        <Accordion.Panel>
+                            <p><b>PLACEHOLDER FOR TEXT</b></p>
+                            </Accordion.Panel>
+                    </Accordion.Section>
+                </Accordion>
                 <div>
                     <Accordion id="generic-import-acc">
                         <Accordion.Section id="generic-import-description">
                             <Accordion.Title>
-                                Descripci&oacute;n del gr&aacute;fico
+                                Cadena de suministro de importaciones gen&eacute;ricas en un modelo de comercializaci&oacute;n minorista
+
                             </Accordion.Title>
                             <Accordion.Panel>
+                                <img
+                                    src={genericImport}
+                                    alt="Cadena de suministro de importaciones gen&eacute;ricas en un modelo de comercializaci&oacute;n minorista"
+                                    longdesc="#generic_import"
+                                />
+                                <p className="small-text">
+                                    Fuente:{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://corporate.target.com/"
+                                    >
+                                        Target Corporation.
+                                    </a>
+                                </p>
                                 <p>
                                     En este gr&aacute;fico se ilustran los pasos
                                     en una cadena de suministro de importaciones
