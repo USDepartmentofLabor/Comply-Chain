@@ -356,7 +356,7 @@ const fr = () => {
                     les facteurs de risques principaux
                     &eacute;num&eacute;r&eacute;s ci-dessus.
                 </p>
-                
+
             </div>
         </StaticData>
     );

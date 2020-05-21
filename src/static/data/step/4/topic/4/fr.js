@@ -116,6 +116,7 @@ const fr = () => {
                     processus d&apos;&eacute;tablissement des priorit&eacute;s
                     est abord&eacute; ci-dessous.
                 </p>
+                <br />
                 <div id="cocoa_chains">
                     <Accordion id="cocoa-chains-acc">
                         <Accordion.Section id="cocoa-description">

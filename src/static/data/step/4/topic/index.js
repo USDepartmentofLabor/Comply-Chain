@@ -3,14 +3,13 @@ import { TopicData as Topic2 } from "./2";
 import { TopicData as Topic3 } from "./3";
 import { TopicData as Topic4 } from "./4";
 import { TopicData as Topic5 } from "./5";
+import { TopicData as Topic7 } from "./7";
+import { TopicData as Topic8 } from "./8";
 import { TopicData as Topic9 } from "./9";
 import { TopicData as Topic10 } from "./10";
 import { TopicData as Topic11 } from "./11";
 import { TopicData as Topic12 } from "./12";
 import { TopicData as Topic13 } from "./13";
-import { TopicData as Topic6 } from "./6";
-import { TopicData as Topic7 } from "./7";
-import { TopicData as Topic8 } from "./8";
 
 
 export const Topics = {
@@ -114,18 +113,18 @@ export const Topics = {
          },
          {
              keywords: [],
-             title: "Assessing Root Causes",
-             content: Topic11.en
+             title: "Evaluaci&oacute;n y tratamiento de las causas fundamentales",
+             content: Topic11.es
          },
          {
              keywords: [],
-             title: "Addressing Root Causes",
-             content: Topic12.en
+             title: "Tratamiento de las causas fundamentales del trabajo infantil y el trabajo forzoso",
+             content: Topic12.es
          },
          {
              keywords: [],
-             title: "Philanthropy",
-             content: Topic13.en
+             title: "Filantrop&iacute;a",
+             content: Topic13.es
          },
         {
             keywords: [],
@@ -137,11 +136,6 @@ export const Topics = {
             keywords: [],
             title: "Gestión de los datos sobre cumplimiento social",
             content: Topic8.es
-        },
-         {
-            keywords: [],
-            title: "TEST TOPIC",
-            content: Topic6.es
         }
 
     ],
@@ -185,18 +179,18 @@ export const Topics = {
 
         {
             keywords: [],
-            title: "Assessing Root Causes",
-            content: Topic11.en
+            title: "&Eacute;valuer les causes profondes et s&rsquo;y attaquer",
+            content: Topic11.fr
         },
         {
             keywords: [],
-            title: "Addressing Root Causes",
-            content: Topic12.en
+            title: "&Eacute;liminer les causes profondes du travail des enfants et du travail forc&eacute;",
+            content: Topic12.fr
         },
         {
             keywords: [],
-            title: "Philanthropy",
-            content: Topic13.en
+            title: "Philanthropie",
+            content: Topic13.fr
         },
         {
             keywords: [],

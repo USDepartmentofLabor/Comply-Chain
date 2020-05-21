@@ -298,6 +298,7 @@ const es = () => {
                         pescados y mariscos.
                     </p>
                 </ExampleInAction>
+                <br />
                 <OwnWords>
                     <h2>
                         <OwnWords.Icon alt="Feedback"/>{" "}
