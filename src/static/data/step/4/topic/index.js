@@ -113,7 +113,7 @@ export const Topics = {
          },
          {
              keywords: [],
-             title: "Evaluaci&oacute;n y tratamiento de las causas fundamentales",
+             title: "Evaluación y tratamiento de las causas fundamentales",
              content: Topic11.es
          },
          {
@@ -123,7 +123,7 @@ export const Topics = {
          },
          {
              keywords: [],
-             title: "Filantrop&iacute;a",
+             title: "Filantropía",
              content: Topic13.es
          },
         {
@@ -179,12 +179,13 @@ export const Topics = {
 
         {
             keywords: [],
-            title: "&Eacute;valuer les causes profondes et s&rsquo;y attaquer",
+            title: "Évaluer les causes profondes et s’y attaquer",
             content: Topic11.fr
         },
         {
             keywords: [],
-            title: "&Eacute;liminer les causes profondes du travail des enfants et du travail forc&eacute;",
+            title: "Éliminer les causes profondes du travail des enfants et du travail forcé",
+
             content: Topic12.fr
         },
         {
