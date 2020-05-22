@@ -1,12 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+
 
 const en = () => {
     return (
         <StaticData>
             <div>
                 <h1>Auditing: Getting Started </h1>
+                <h2>Auditing: Getting Started </h2>
+
+                <p>
+                    Social auditing is one of the key ways—in addition to
+                    engagement with unions/workers and grievance mechanisms—to
+                    obtain information about violations of a company’s code of
+                    conduct in your supply chain. Auditing uncovers problems; it
+                    does not solve problems. It is one piece of the larger
+                    social compliance system, and cannot and should not be done
+                    in isolation from stakeholder engagement, communication,
+                    remediation and the other steps in the process.
+                </p>
                 <p>
                     Auditing is central to the implementation of an effective
                     social compliance system and should be followed by the
@@ -50,6 +64,16 @@ const en = () => {
                     remediate them. This is covered in detail in{" "}
                     <Link to="/steps/8">Step 6, Remediate Violations</Link>.
                 </p>
+
+                <ExampleInAction id="better_work_assessment">
+                <h3>
+                    <ExampleInAction.Icon alt="Lightbulb"/>
+                    Example in Action: Worker Voice in the Audit Process
+                </h3>
+                <p>
+                   <b>PLACEHOLDER FOR TEXT</b>
+                </p>
+            </ExampleInAction>
             </div>
         </StaticData>
     );

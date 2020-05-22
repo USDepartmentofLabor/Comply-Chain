@@ -98,6 +98,26 @@ const es = () => {
                     manera que los gerentes y supervisores tal vez asignen
                     m&aacute;s importancia a la capacitaci&oacute;n.
                 </p>
+                <p>
+                    Elaborar el material, programar las sesiones de
+                    capacitaci&oacute;n, contratar a los formadores y fiscalizar
+                    el dictado de los cursos representan una inversi&oacute;n
+                    considerable. Hay varias maneras de estructurar el
+                    financiamiento del programa de capacitaci&oacute;n para la
+                    empresa. Algunas empresas simplemente optan por asignar una
+                    gran parte de su presupuesto para cumplimiento social a la
+                    capacitaci&oacute;n y el fortalecimiento de capacidades ya
+                    que creen que la capacitaci&oacute;n ayuda a prevenir
+                    problemas y a la larga permite ahorrar dinero. Otras
+                    empresas ofrecen una serie de cursos de capacitaci&oacute;n
+                    b&aacute;sica de manera gratuita pero si se identifican
+                    infracciones al c&oacute;digo para las cuales se exige
+                    capacitar al personal como parte de la remediaci&oacute;n,
+                    el proveedor asume los gastos de dicha capacitaci&oacute;n.
+                    En algunas relaciones, los contratistas, agentes o
+                    proveedores se responsabilizan de toda la
+                    capacitaci&oacute;n, incluidos los costos.
+                </p>
                 <ExampleInAction id="cocoa">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -199,7 +219,15 @@ const es = () => {
                         .
                     </p>
                 </ExampleInAction>
-                <p>
+                <ExampleInAction id="iloscore">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                        Ejemplo en acci&oacute;n: El Programa de capacitaci&oacute;n de la OIT Promoci&oacute;n de Empresas Competitivas y Responsables
+                        (PECR)
+                        </strong>
+                    </h2>
+                    <p>
                     El Programa de capacitaci&oacute;n de la OIT{" "}
                     <a
                         target="_blank"
@@ -224,26 +252,9 @@ const es = () => {
                     270.000 trabajadores) hab&iacute;an recibido la
                     capacitaci&oacute;n.&nbsp;
                 </p>
-                <p>
-                    Elaborar el material, programar las sesiones de
-                    capacitaci&oacute;n, contratar a los formadores y fiscalizar
-                    el dictado de los cursos representan una inversi&oacute;n
-                    considerable. Hay varias maneras de estructurar el
-                    financiamiento del programa de capacitaci&oacute;n para la
-                    empresa. Algunas empresas simplemente optan por asignar una
-                    gran parte de su presupuesto para cumplimiento social a la
-                    capacitaci&oacute;n y el fortalecimiento de capacidades ya
-                    que creen que la capacitaci&oacute;n ayuda a prevenir
-                    problemas y a la larga permite ahorrar dinero. Otras
-                    empresas ofrecen una serie de cursos de capacitaci&oacute;n
-                    b&aacute;sica de manera gratuita pero si se identifican
-                    infracciones al c&oacute;digo para las cuales se exige
-                    capacitar al personal como parte de la remediaci&oacute;n,
-                    el proveedor asume los gastos de dicha capacitaci&oacute;n.
-                    En algunas relaciones, los contratistas, agentes o
-                    proveedores se responsabilizan de toda la
-                    capacitaci&oacute;n, incluidos los costos.
-                </p>
+                </ExampleInAction>
+                
+                
             </div>
         </StaticData>
     );

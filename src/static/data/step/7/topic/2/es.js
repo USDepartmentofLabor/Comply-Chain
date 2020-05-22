@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
+import Accordion from "../../../../../../components/Accordion";
 
 const es = () => {
     return (
@@ -31,90 +32,101 @@ const es = () => {
                     integral de cumplimiento social. Sin embargo, cada enfoque
                     tiene ventajas y desventajas.&nbsp;
                 </p>
-                <ul>
-                    <li>
-                        <h3>Auditores internos</h3>
-                    </li>
-                </ul>
-                <p>
-                    Los auditores internos son empleados de la empresa
-                    capacitados en las especialidades y competencias de la
-                    auditor&iacute;a social. Una ventaja de usar auditores
-                    internos es que probablemente resulte m&aacute;s
-                    f&aacute;cil comunicarse con ellos; por ejemplo, si se
-                    introducen cambios a una pol&iacute;tica, es m&aacute;s
-                    f&aacute;cil garantizar la coherencia interna con el
-                    personal propio que hacerlo con auditores externos
-                    contratados. Adem&aacute;s, es probable que los auditores
-                    internos conozcan m&aacute;s a fondo la totalidad del
-                    programa de cumplimiento social de la empresa y puedan
-                    contribuir m&aacute;s all&aacute; de la auditor&iacute;a.
-                    Por otro lado, dado que los auditores internos son empleados
-                    de la empresa, algunas partes interesadas pueden cuestionar
-                    la credibilidad de sus conclusiones.&nbsp;
-                </p>
-                <ul>
-                    <li>
-                        <h3>Auditores externos</h3>
-                    </li>
-                </ul>
-                <p>
-                    Los auditores externos son profesionales de la
-                    auditor&iacute;a con especialidades y competencias
-                    definidas, empleados por firmas de auditor&iacute;a social
-                    ajenas a la empresa. Son una fuerza laboral flexible y puede
-                    estar disponible en lugares geogr&aacute;ficos donde a la
-                    empresa no le resulte rentable tener auditores internos. Por
-                    otra parte, dado que a los auditores externos tambi&eacute;n
-                    les paga la empresa para que realicen las auditor&iacute;as,
-                    algunas partes interesadas pueden poner en tela de juicio
-                    las conclusiones. Asimismo, algunos grupos de auditores
-                    externos tal vez tengan sus propios sistemas, los cuales
-                    quiz&aacute;s no se adapten plenamente a los protocolos o
-                    par&aacute;metros propios de la empresa.
-                </p>
-                <ul>
-                    <li>
-                        <h3>
-                            Encargados de la vigilancia o verificadores
-                            independientes
-                        </h3>
-                    </li>
-                </ul>
-                <p>
-                    Los encargados de la vigilancia o verificadores
-                    independientes son profesionales de la auditor&iacute;a
-                    acreditados por instituciones o mecanismos y cuya
-                    funci&oacute;n consiste en garantizar que se realice la
-                    auditor&iacute;a sin ninguna transacci&oacute;n financiera
-                    directa entre la empresa y el auditor. Por lo general, la
-                    empresa le paga a una instituci&oacute;n separada e
-                    independiente por los servicios de auditor&iacute;a, por
-                    afiliarse, o ambos. La instituci&oacute;n acredita a los
-                    auditores en virtud de normas establecidas y se encarga de
-                    programar todas las auditor&iacute;as y supervisarlas. Si
-                    bien esto est&aacute; dise&ntilde;ado para aumentar la
-                    credibilidad de la auditor&iacute;a, en algunos sectores o
-                    lugares geogr&aacute;ficos, tal vez no se pueda coordinar
-                    este tipo de arreglo. Adem&aacute;s, incluso sin
-                    transacci&oacute;n financiera directa de por medio, algunas
-                    partes interesadas pueden tener dudas acerca del grado de
-                    independencia entre el auditor y la entidad auditada. Hay
-                    distintos grados de independencia y, en definitiva, debe
-                    evaluarse caso por caso.
-                </p>
-                <p>
-                    Si desea lograr la mayor eficacia y credibilidad y la
-                    empresa opta por usar auditores externos, tal vez se deba
-                    solicitar la participaci&oacute;n de entidades
-                    independientes para algunas funciones del sistema de
-                    cumplimiento social. V&eacute;ase{" "}
-                    <Link to="/steps/9">
-                        el s&eacute;ptimo paso, Examen independiente
-                    </Link>
-                    , donde se tratar&aacute; m&aacute;s el tema de vigilancia,
-                    seguimiento y verificaci&oacute;n independientes.
-                </p>
+                <Accordion id="cocoa-chains-acc">
+                                    <Accordion.Section id="cocoa-description">
+                                       <Accordion.Title>
+                                       Auditores internos
+                                          </Accordion.Title>
+                                          <Accordion.Panel>
+                                         <p>
+                                             Los auditores internos son empleados de la empresa
+                                             capacitados en las especialidades y competencias de la
+                                             auditor&iacute;a social. Una ventaja de usar auditores
+                                             internos es que probablemente resulte m&aacute;s
+                                             f&aacute;cil comunicarse con ellos; por ejemplo, si se
+                                             introducen cambios a una pol&iacute;tica, es m&aacute;s
+                                             f&aacute;cil garantizar la coherencia interna con el
+                                             personal propio que hacerlo con auditores externos
+                                             contratados. Adem&aacute;s, es probable que los auditores
+                                             internos conozcan m&aacute;s a fondo la totalidad del
+                                             programa de cumplimiento social de la empresa y puedan
+                                             contribuir m&aacute;s all&aacute; de la auditor&iacute;a.
+                                             Por otro lado, dado que los auditores internos son empleados
+                                             de la empresa, algunas partes interesadas pueden cuestionar
+                                             la credibilidad de sus conclusiones.&nbsp;
+                                         </p>
+                                      </Accordion.Panel>
+                                  </Accordion.Section>
+                                  </Accordion>
+
+                <Accordion id="cocoa-chains-acc">
+                                    <Accordion.Section id="cocoa-description">
+                                       <Accordion.Title>
+                                       Auditores externos
+                                          </Accordion.Title>
+                                          <Accordion.Panel>
+                                         <p>
+                                             Los auditores externos son profesionales de la
+                                             auditor&iacute;a con especialidades y competencias
+                                             definidas, empleados por firmas de auditor&iacute;a social
+                                             ajenas a la empresa. Son una fuerza laboral flexible y puede
+                                             estar disponible en lugares geogr&aacute;ficos donde a la
+                                             empresa no le resulte rentable tener auditores internos. Por
+                                             otra parte, dado que a los auditores externos tambi&eacute;n
+                                             les paga la empresa para que realicen las auditor&iacute;as,
+                                             algunas partes interesadas pueden poner en tela de juicio
+                                             las conclusiones. Asimismo, algunos grupos de auditores
+                                             externos tal vez tengan sus propios sistemas, los cuales
+                                             quiz&aacute;s no se adapten plenamente a los protocolos o
+                                             par&aacute;metros propios de la empresa.
+                                         </p>
+                                      </Accordion.Panel>
+                                  </Accordion.Section>
+                                  </Accordion>
+                <Accordion id="cocoa-chains-acc">
+                                    <Accordion.Section id="cocoa-description">
+                                       <Accordion.Title>
+                                       Encargados de la vigilancia o verificadores independientes
+
+                                          </Accordion.Title>
+                                          <Accordion.Panel>
+                                         <p>
+                                             Los encargados de la vigilancia o verificadores
+                                             independientes son profesionales de la auditor&iacute;a
+                                             acreditados por instituciones o mecanismos y cuya
+                                             funci&oacute;n consiste en garantizar que se realice la
+                                             auditor&iacute;a sin ninguna transacci&oacute;n financiera
+                                             directa entre la empresa y el auditor. Por lo general, la
+                                             empresa le paga a una instituci&oacute;n separada e
+                                             independiente por los servicios de auditor&iacute;a, por
+                                             afiliarse, o ambos. La instituci&oacute;n acredita a los
+                                             auditores en virtud de normas establecidas y se encarga de
+                                             programar todas las auditor&iacute;as y supervisarlas. Si
+                                             bien esto est&aacute; dise&ntilde;ado para aumentar la
+                                             credibilidad de la auditor&iacute;a, en algunos sectores o
+                                             lugares geogr&aacute;ficos, tal vez no se pueda coordinar
+                                             este tipo de arreglo. Adem&aacute;s, incluso sin
+                                             transacci&oacute;n financiera directa de por medio, algunas
+                                             partes interesadas pueden tener dudas acerca del grado de
+                                             independencia entre el auditor y la entidad auditada. Hay
+                                             distintos grados de independencia y, en definitiva, debe
+                                             evaluarse caso por caso.
+                                         </p>
+                                         <p>
+                                             Si desea lograr la mayor eficacia y credibilidad y la
+                                             empresa opta por usar auditores externos, tal vez se deba
+                                             solicitar la participaci&oacute;n de entidades
+                                             independientes para algunas funciones del sistema de
+                                             cumplimiento social. V&eacute;ase{" "}
+                                             <Link to="/steps/9">
+                                                 el s&eacute;ptimo paso, Examen independiente
+                                             </Link>
+                                             , donde se tratar&aacute; m&aacute;s el tema de vigilancia,
+                                             seguimiento y verificaci&oacute;n independientes.
+                                         </p>
+                                      </Accordion.Panel>
+                                  </Accordion.Section>
+                                  </Accordion>
                 <h2>Competencias del auditor</h2>
                 <p>
                     Ya sea interno, externo o independiente, todo auditor debe
@@ -154,6 +166,16 @@ const es = () => {
                     atenci&oacute;n y servicios a las v&iacute;ctimas de trabajo
                     forzoso (tanto ni&ntilde;os como adultos).
                 </p>
+                <ExampleInAction id="better_work_assessment">
+                                                    <h3>
+                                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                                        Ejemplo en acci&oacute;n: Association if Professional Social Compliance Auditors (APSCA) Competency Framework
+                                                    </h3>
+                                                    <p>
+                                                    <b>PLACEHOLDER FOR TEXT</b>
+                                                    </p>
+                                  </ExampleInAction>
+
                 <h2>Composici&oacute;n del equipo</h2>
                 <p>
                     El tama&ntilde;o y la composici&oacute;n del equipo de

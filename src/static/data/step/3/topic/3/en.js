@@ -28,8 +28,7 @@ const en = () => {
                     needs and objectives.
                 </p>
                 <h2>Your Stakeholders</h2>
-                <ul>
-                    <li>
+
                       <h3>Company employees</h3>
                         <ul>
                             <li>
@@ -70,11 +69,7 @@ const en = () => {
                                 with social compliance.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                       <h3> Workers in production facilities and worker
+                        <h3> Workers in production facilities and worker
                         representative organizations</h3>
                         <ul>
                             <li>
@@ -120,10 +115,7 @@ const en = () => {
                                 violations.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
+
                        <h3> Suppliers throughout your supply chain</h3>
                         <ul>
                             <li>
@@ -169,10 +161,7 @@ const en = () => {
                                 broader communities.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
+
                         <h3>Communities and community-based organizations throughout
                         your supply chain</h3>
                         <ul>
@@ -227,10 +216,7 @@ const en = () => {
                                 initiatives to tackle them.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
+
                        <h3> National or international civil society organizations</h3>
                         <ul>
                             <li>
@@ -269,10 +255,7 @@ const en = () => {
                                 tackle them.
                             </li>
                        </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
+
                        <h3> Shareholders and investor groups</h3>
                         <ul>
                             <li>
@@ -300,10 +283,8 @@ const en = () => {
                                 that may be linked to its operations.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
+
+
                        <h3> Other companies in your industry</h3>
                         <ul>
                             <li>
@@ -340,11 +321,9 @@ const en = () => {
                                 <strong> root causes </strong>of labor abuses.
                             </li>
                         </ul>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                       <h3>The Importance of External Stakeholders in Social Compliance Systems</h3>
+
+
+                       <h2>The Importance of External Stakeholders in Social Compliance Systems</h2>
                         <ul>
                             <li>
                                 PLACEHOLDER FOR TEXT
@@ -357,12 +336,11 @@ const en = () => {
                                 PLACEHOLDER FOR TEXT
                             </li>
                         </ul>
-                    </li>
-                </ul>
 
-                <h3>
+
+                <h2>
                     The Role of Government Entities in Social Compliance Systems
-                </h3>
+                </h2>
                 <p>
                     Governments are obligated to protect the human rights of
                     individuals within their territory and/or jurisdiction. This
@@ -475,7 +453,7 @@ const en = () => {
                     </p>
                 </ExampleInAction>
             </div>
-            <br />
+
         </StaticData>
     );
 };

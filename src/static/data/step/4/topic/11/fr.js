@@ -1,176 +1,370 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
-
+import Accordion from "../../../../../../components/Accordion";
 const fr = () => {
     return (
         <StaticData>
             <div>
                 <h1>
-                    Gestion des donn&eacute;es relatives &agrave; la
-                    conformit&eacute; sociale
-                </h1>
-                <p>
-                    De nombreuses entreprises rencontrent des difficult&eacute;s
-                    techniques dans la gestion des ensembles disparates des
-                    donn&eacute;es recueillies et utilis&eacute;es par leurs
-                    diff&eacute;rents d&eacute;partements ou des consultants
-                    ext&eacute;rieurs. Les donn&eacute;es relatives &agrave; la
-                    conformit&eacute; l&eacute;gislative et r&eacute;glementaire
-                    pourront &ecirc;tre g&eacute;r&eacute;es par un service,
-                    alors que les achats et l&apos;approvisionnement le seront
-                    par un autre, les ressources humaines par un autre, etc. Ce
-                    syst&egrave;me peut fonctionner s&apos;il est bien
-                    g&eacute;r&eacute;, mais sinon, ce morcellement des
-                    donn&eacute;es peut nuire &agrave; l&apos;entreprise
-                    &agrave; plusieurs &eacute;gards: doublon, donc gaspillage
-                    de ressources ; prise de d&eacute;cisions fond&eacute;e sur
-                    des informations incompl&egrave;tes, ce qui accro&icirc;t
-                    les risques ; et diff&eacute;rents services de
-                    l&apos;entreprise envoient des messages contradictoires aux
-                    fournisseurs, ce qui peut endommager les relations
-                    commerciales.
-                </p>
-                <p>
-                    Les informations relatives &agrave; la conformit&eacute;
-                    sociale font partie de cet &eacute;quilibre. Dans de
-                    nombreuses soci&eacute;t&eacute;s, la conformit&eacute;
-                    sociale peut &ecirc;tre difficile &agrave; int&eacute;grer
-                    avec d&rsquo;autres op&eacute;rations. Mais si les
-                    donn&eacute;es relatives &agrave; la conformit&eacute;
-                    sociale ne sont pas utilis&eacute;es efficacement par
-                    l&apos;entreprise, sa r&eacute;putation et ses relations
-                    avec les parties prenantes courent de graves risques
-                    potentiels.
-                </p>
-                <p>
-                    Votre &eacute;quipe de conformit&eacute; sociale devrait
-                    avoir un syst&egrave;me d&apos;information exhaustif en
-                    place. Ce syst&egrave;me peut inclure une ou plusieurs bases
-                    de donn&eacute;es int&eacute;gr&eacute;es. Certaines de ces
-                    bases de donn&eacute;es peuvent en r&eacute;alit&eacute;
-                    appartenir &agrave; d&apos;autres services de
-                    l&apos;entreprise, par exemple un registre des
-                    vendeurs/agences, des fournisseurs et/ou des sites de
-                    production, mais elles devraient &ecirc;tre partag&eacute;es
-                    et utilis&eacute;es par toutes les &eacute;quipes
-                    pertinentes.
-                </p>
-                <p>
-                    Voici quelques exemples, &agrave; titre indicatif, de
-                    donn&eacute;es qu&apos;il faudrait saisir et suivre dans le
-                    syst&egrave;me d&apos;information:
-                </p>
-                <h2>
-                    Donn&eacute;es relatives &agrave; l&apos;approvisionnement:
-                </h2>
-                <ul>
-                    <li>Pays de provenance des produits.</li>
-                    <li>
-                        Produits sp&eacute;cifiques obtenus dans chaque pays.
-                    </li>
-                    <li>
-                        (Le cas &eacute;ch&eacute;ant) Vendeurs/agents qui
-                        passent des commandes dans des &eacute;tablissements
-                        pr&eacute;cis de production.
-                    </li>
-                    <li>
-                        Tous les &eacute;tablissements de production
-                        d&apos;o&ugrave; viennent les produits.
-                    </li>
-                    <li>
-                        Produits sp&eacute;cifiques obtenus dans chaque
-                        &eacute;tablissement de production.
-                    </li>
-                    <li>
-                        Pays et &eacute;tablissements de production
-                        envisag&eacute;s pour l&apos;obtention de produits.
-                    </li>
-                </ul>
-                <h2>
-                    Donn&eacute;es relatives &agrave; la conformit&eacute;
-                    sociale:
-                </h2>
-                <ul>
-                    <li>
-                        Donn&eacute;es d&apos;&eacute;valuation des risques
-                        concernant les pays o&ugrave; les produits sont obtenus
-                        ou pourraient l&rsquo;&ecirc;tre.
-                    </li>
-                    <li>
-                        Donn&eacute;es recueillies aupr&egrave;s des parties
-                        prenantes par le biais de consultations qui se
-                        poursuivent sur les pays, les questions relatives aux
-                        droits des travailleurs ou d&rsquo;autres sujets
-                        pertinents.
-                    </li>
-                    <li>
-                        R&eacute;clamations et plaintes re&ccedil;ues par le
-                        biais de m&eacute;canismes &eacute;tablis et leur prise
-                        en charge.
-                    </li>
-                    <li>R&eacute;sultats des audits.</li>
-                    <li>
-                        R&eacute;sultats des contr&ocirc;les
-                        ind&eacute;pendants.
-                    </li>
-                    <li>
-                        Mod&egrave;les de r&eacute;paration &agrave; utiliser
-                        dans des situations pr&eacute;cises concernant des
-                        violations du code.
-                    </li>
-                    <li>
-                        Programmes et services disponibles dans les
-                        communaut&eacute;s pour venir en aide aux victimes de
-                        violations des droits des travailleurs, y compris les
-                        enfants.
-                    </li>
-                </ul>
-                <p>
-                    Le syst&egrave;me devrait vous permettre de g&eacute;rer et
-                    d&apos;utiliser ces donn&eacute;es et de rep&eacute;rer des
-                    tendances. Finalement, un bon syst&egrave;me
-                    d&apos;information vous permettra de rep&eacute;rer,
-                    d&apos;identifier et de documenter vos r&eacute;sultats, vos
-                    r&eacute;ussites et les domaines de perfectionnement.
-                </p>
-                <p>
-                    Source:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains"
-                        title="Perspectives on Information Management in Sustainable Supply Chains de BSR"
-                    >
-                        <em>
-                            Perspectives on Information Management in
-                            Sustainable Supply Chains
-                        </em>{" "}
-                        de BSR
-                    </a>
-                    .
-                </p>
-                <p>
-                    <em>
-                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
-                        des soci&eacute;t&eacute;s et entit&eacute;s non
-                        gouvernementales sp&eacute;cifiques dans ce guide sont
-                        &agrave; des fins d&rsquo;information uniquement afin de
-                        d&eacute;montrer les bonnes pratiques reconnues &agrave;
-                        l&rsquo;&eacute;chelle internationale, &agrave; la date
-                        de lancement de l&rsquo;appli. Toute
-                        r&eacute;f&eacute;rence &agrave; ces entit&eacute;s ne
-                        saurait constituer une approbation officielle de ces
-                        derni&egrave;res, de leurs produits ou de leurs services
-                        par le d&eacute;partement du Travail des
-                        &Eacute;tats-Unis,{" "}
-                    </em>
-                    <em>
-                        et leur inclusion dans cette appli ne saurait &ecirc;tre
-                        interpr&eacute;t&eacute;e comme un examen exhaustif des
-                        pratiques de ces entit&eacute;s dans tous les domaines
-                    </em>
-                    <em>.</em>
-                </p>
+                                                    &Eacute;valuer les causes profondes et s&rsquo;y attaquer
+                                                </h1>
+                                                <p>
+                                                    Parmi les facteurs de risques externes qu&rsquo;une
+                                                    soci&eacute;t&eacute; ou qu&rsquo;un secteur devront
+                                                    &eacute;tudier figurent les causes profondes sous-jacentes
+                                                    du travail des enfants et du travail forc&eacute;.&nbsp;
+                                                </p>
+                                                <h2>
+                                                    Quelles sont les causes profondes du travail des enfants et
+                                                    du travail forc&eacute;?
+                                                </h2>
+                                                <p className="indent-margin">
+                                                    Un grand nombre de pays d&apos;o&ugrave; viennent de plus en
+                                                    plus les produits manufactur&eacute;s, ou ceux o&ugrave;
+                                                    sont cultiv&eacute;s les principaux produits agricoles, font
+                                                    face &agrave; des d&eacute;fis sociaux, &eacute;conomiques
+                                                    et de gouvernance profonds qui perp&eacute;tuent le travail
+                                                    des enfants et le travail forc&eacute;. De ces d&eacute;fis,
+                                                    le plus saillant est la <strong>pauvret&eacute;</strong>,
+                                                    qui en sous-tend &eacute;galement beaucoup d&rsquo;autres.
+                                                    Selon les estimations de la Banque mondiale pour 2013,
+                                                    767&nbsp;millions de personnes dans le monde en
+                                                    d&eacute;veloppement vivent dans une pauvret&eacute;
+                                                    extr&ecirc;me, subsistant avec moins de 1,90&nbsp;dollar
+                                                    &Eacute;.-U. par jour. Le manque d&rsquo;emploi des adultes
+                                                    proposant des salaires d&eacute;cents ne fait
+                                                    qu&rsquo;exacerber la pauvret&eacute; dans le monde.
+                                                    Celle-ci est &eacute;galement li&eacute;e &agrave; des
+                                                    vuln&eacute;rabilit&eacute;s qui ne se r&eacute;sument pas
+                                                    aux revenus faibles. Les pauvres sont d&eacute;nu&eacute;s
+                                                    de m&eacute;canismes pour faire face aux chocs
+                                                    &eacute;conomiques et p&acirc;tissent de fa&ccedil;on
+                                                    disproportionn&eacute;e d&apos;une mauvaise sant&eacute;, de
+                                                    la faim et d&apos;un acc&egrave;s insuffisant &agrave;
+                                                    l&apos;&eacute;ducation et aux services sociaux. Ainsi, ils
+                                                    pourraient &ecirc;tre plus dispos&eacute;s &agrave; accepter
+                                                    des risques pour se pr&eacute;valoir
+                                                    d&apos;opportunit&eacute;s &eacute;conomiques, ce qui les
+                                                    rend plus vuln&eacute;rables &agrave; l&apos;exploitation
+                                                    dans le travail. Cela est particuli&egrave;rement vrai pour
+                                                    les travailleurs migrants.
+                                                </p>
+                                                <h2>Causes li&eacute;es &agrave; la pauvret&eacute;</h2>
+                                                    <Accordion id="cocoa-chains-acc">
+                                                                     <Accordion.Section id="cocoa-description">
+                                                                        <Accordion.Title>
+                                                                      Manque de sensibilisation aux droits de l&apos;homme
+                                                                           </Accordion.Title>
+                                                                           <Accordion.Panel>
+
+                                                                           <p className="indent-margin">
+                                                                              Dans de nombreux pays, les travailleurs peuvent ne pas
+                                                                              avoir acc&egrave;s aux informations leur permettant de
+                                                                              comprendre ce que constituent le travail des enfants, le
+                                                                              travail forc&eacute; ou d&rsquo;autres violations des
+                                                                              droits du travail. L&rsquo;ignorance des bonnes
+                                                                              pratiques de travail et des droits des travailleurs peut
+                                                                              &ecirc;tre aggrav&eacute; par les barri&egrave;res
+                                                                              linguistiques, surtout lorsque les travailleurs parlent
+                                                                              diff&eacute;rentes langues au sein d&rsquo;un m&ecirc;me
+                                                                              &eacute;tablissement. Cela exacerbe la
+                                                                              vuln&eacute;rabilit&eacute; des personnes &agrave;
+                                                                              l&apos;exploitation dans le travail et entrave leur
+                                                                              capacit&eacute; &agrave; se syndiquer et &agrave;
+                                                                              plaider leur cause.
+                                                                           </p>
+                                                                       </Accordion.Panel>
+                                                                   </Accordion.Section>
+                                                                   </Accordion>
+                                                    <Accordion id="cocoa-chains-acc">
+                                                                     <Accordion.Section id="cocoa-description">
+                                                                        <Accordion.Title>
+                                                                      In&eacute;galit&eacute; entre les hommes et les femmes
+
+                                                                           </Accordion.Title>
+                                                                           <Accordion.Panel>
+                                                                            <p className="indent-margin">
+                                                                               Dans de nombreux pays, les femmes et les filles courent
+                                                                              des risques suppl&eacute;mentaires d&apos;exploitation
+                                                                              dans le travail, y compris le travail des enfants et le
+                                                                              travail forc&eacute;. Les femmes, par exemple, sont
+                                                                              souvent moins instruites que les hommes d&apos;un
+                                                                              m&ecirc;me milieu socio-&eacute;conomique et culturel,
+                                                                              et des facteurs sociaux peuvent restreindre leur
+                                                                              capacit&eacute; &agrave; communiquer avec des figures en
+                                                                              position d&apos;autorit&eacute;. Ce type
+                                                                              d&apos;in&eacute;galit&eacute;s peut entraver leur
+                                                                              possibilit&eacute; de s&apos;exprimer pour
+                                                                              d&eacute;fendre leurs droits de travailleuses.
+                                                                           </p>
+                                                                       </Accordion.Panel>
+                                                                   </Accordion.Section>
+                                                                   </Accordion>
+
+                                                <h2>Causes li&eacute;es &agrave; la gouvernance</h2>
+                                                <Accordion id="cocoa-chains-acc">
+                                                                 <Accordion.Section id="cocoa-description">
+                                                                    <Accordion.Title>
+                                                                  Ressources publiques inefficaces ou inad&eacute;quates
+
+                                                                       </Accordion.Title>
+                                                                       <Accordion.Panel>
+
+                                                                       <p className="indent-margin">
+                                                                          De nombreux gouvernements n&apos;ont pas adopt&eacute;
+                                                                          de lois solides contre les violations des droits du
+                                                                          travail ; d&apos;autres en poss&egrave;dent
+                                                                          peut-&ecirc;tre mais ne les font pas appliquer de
+                                                                          fa&ccedil;on ad&eacute;quate, ou font face &agrave; des
+                                                                          probl&egrave;mes de revenus insuffisants pour
+                                                                          r&eacute;gler les probl&egrave;mes sociaux. Dans
+                                                                          certains pays, la corruption des fonctionnaires, parfois
+                                                                          avec la complicit&eacute; des entreprises, et un
+                                                                          &Eacute;tat de droit asth&eacute;nique permettent
+                                                                          l&apos;existence avec impunit&eacute; de pratiques
+                                                                          abusives sur les lieux de travail. De nombreux
+                                                                          gouvernements n&apos;ayant pas de v&eacute;ritables
+                                                                          protections sociales pour leurs citoyens, les
+                                                                          travailleurs faisant l&apos;objet d&apos;abus n&apos;ont
+                                                                          donc pas d&apos;autres moyens de subsistance ou de
+                                                                          services d&apos;appui.
+                                                                       </p>
+                                                                   </Accordion.Panel>
+                                                               </Accordion.Section>
+                                                               </Accordion>
+                                                    <Accordion id="cocoa-chains-acc">
+                                                                     <Accordion.Section id="cocoa-description">
+                                                                        <Accordion.Title>
+                                                                     Absence d&apos;acc&egrave;s &agrave; une &eacute;ducation de qualit&eacute;
+
+                                                                           </Accordion.Title>
+                                                                           <Accordion.Panel>
+
+                                                                           <p className="indent-margin">
+                                                                              Dans de nombreux pays, les citoyens continuent &agrave;
+                                                                              faire face &agrave; des obstacles &agrave; une
+                                                                              &eacute;ducation ad&eacute;quate. Le manque
+                                                                              d&apos;acc&egrave;s peut venir de diff&eacute;rents
+                                                                              facteurs y compris l&apos;absence
+                                                                              d&apos;&eacute;ducation publique gratuite,
+                                                                              l&apos;obligation de payer pour l&apos;achat de manuels
+                                                                              scolaires, d&apos;uniformes et d&apos;autres articles
+                                                                              qui emp&ecirc;che les enfants issus de familles &agrave;
+                                                                              faibles revenus de s&apos;inscrire, un manque
+                                                                              d&rsquo;&eacute;coles et d&rsquo;infrastructures
+                                                                              &eacute;ducatives ou des cours de qualit&eacute;
+                                                                              m&eacute;diocre. Les enfants dont les
+                                                                              opportunit&eacute;s d&apos;&eacute;ducation sont
+                                                                              restreintes ou inexistantes sont plus susceptibles
+                                                                              d&apos;entrer dans la main-d&apos;&oelig;uvre. Les
+                                                                              personnes qui se voient refuser des opportunit&eacute;s
+                                                                              d&apos;&eacute;ducation &agrave; l&apos;enfance ont,
+                                                                              adultes, moins d&apos;opportunit&eacute;s d&apos;emploi
+                                                                              et sont donc plus vuln&eacute;rables &agrave;
+                                                                              l&apos;exploitation.
+                                                                           </p>
+                                                                       </Accordion.Panel>
+                                                                   </Accordion.Section>
+                                                                   </Accordion>
+                                                    <Accordion id="cocoa-chains-acc">
+                                                                     <Accordion.Section id="cocoa-description">
+                                                                        <Accordion.Title>
+                                                                      Faiblesse ou absence de syndicats et d&apos;autres groupes de la soci&eacute;t&eacute; civile
+
+                                                                           </Accordion.Title>
+                                                                           <Accordion.Panel>
+
+                                                                           <p className="indent-margin">
+                                                                              Dans de nombreux pays, les syndicats, ainsi que les
+                                                                              groupes de d&eacute;fense des droits de l&apos;homme et
+                                                                              d&apos;autres groupes de la soci&eacute;t&eacute;
+                                                                              civile, sont r&eacute;prim&eacute;s par le gouvernement,
+                                                                              parfois avec l&apos;appui des employeurs. Dans certains
+                                                                              cas, les syndicats qui existent ont des liens directs
+                                                                              avec le gouvernement. L&apos;absence de
+                                                                              v&eacute;ritables syndicats ind&eacute;pendants de
+                                                                              travailleurs entrave les n&eacute;gociations collectives
+                                                                              et, ce faisant, la capacit&eacute; des travailleurs
+                                                                              &agrave; plaider efficacement pour leurs droits,
+                                                                              notamment le droit &agrave; une
+                                                                              r&eacute;mun&eacute;ration &eacute;quitable et &agrave;
+                                                                              des conditions de travail s&ucirc;res. De m&ecirc;me,
+                                                                              les organisations de d&eacute;fense, notamment des
+                                                                              droits de l&rsquo;homme, font souvent l&rsquo;objet de
+                                                                              pers&eacute;cution dans les pays o&ugrave;
+                                                                              l&rsquo;&Eacute;tat de droit est en difficult&eacute;,
+                                                                              ce qui r&eacute;duit les opportunit&eacute;s viables
+                                                                              pour les travailleurs de tenter d&rsquo;obtenir de
+                                                                              l&rsquo;aide lorsqu&rsquo;ils se retrouvent en situation
+                                                                              d&rsquo;exploitation extr&ecirc;me (par exemple, travail
+                                                                              forc&eacute; et traite des personnes).
+                                                                           </p>
+                                                                       </Accordion.Panel>
+                                                                   </Accordion.Section>
+                                                                   </Accordion>
+
+                                                    <Accordion id="cocoa-chains-acc">
+                                                                     <Accordion.Section id="cocoa-description">
+                                                                        <Accordion.Title>
+                                                                      Syst&egrave;mes de migration
+                                                                           </Accordion.Title>
+                                                                           <Accordion.Panel>
+
+                                                                           <p className="indent-margin">
+                                                                              Comme nous l&rsquo;avons d&eacute;j&agrave; dit dans
+                                                                              l&rsquo;ensemble de cette bo&icirc;te &agrave; outils,
+                                                                              les travailleurs migrants repr&eacute;sentent 4,4&nbsp;%
+                                                                              de la main d&apos;&oelig;uvre mondiale. Ils sont
+                                                                              particuli&egrave;rement vuln&eacute;rables aux
+                                                                              recruteurs de main-d&apos;&oelig;uvre et autres
+                                                                              interm&eacute;diaires, aux syndicats du crime
+                                                                              organis&eacute; et aux employeurs proposant des contrats
+                                                                              malhonn&ecirc;tes et d&rsquo;autres stratag&egrave;mes
+                                                                              frauduleux. De nombreux travailleurs migrants versent
+                                                                              des commissions &agrave; ces recruteurs ou
+                                                                              interm&eacute;diaires et se retrouvent
+                                                                              pi&eacute;g&eacute;s en situation de servitude pour
+                                                                              dette: dette cyclique, comprenant souvent des
+                                                                              int&eacute;r&ecirc;ts d&eacute;raisonnables ou
+                                                                              d&apos;autres modalit&eacute;s que leurs salaires ne
+                                                                              suffisent pas &agrave; rembourser. Les cycles de
+                                                                              servitude pour dette peuvent &eacute;galement se
+                                                                              produire lorsque les employeurs op&egrave;rent des
+                                                                              d&eacute;ductions sur le salaire pour le logement, la
+                                                                              nourriture et d&rsquo;autres frais, laissant aux
+                                                                              travailleurs peu ou pas de salaire net. Les migrants
+                                                                              peuvent aussi &ecirc;tre particuli&egrave;rement
+                                                                              vuln&eacute;rables &agrave; l&rsquo;isolement sur le
+                                                                              lieu de travail, notamment si l&rsquo;employeur
+                                                                              confisque leurs papiers d&rsquo;identit&eacute; ou
+                                                                              utilise d&rsquo;autres formes de coercition physique
+                                                                              et/ou psychologique.
+                                                                           </p>
+                                                                       </Accordion.Panel>
+                                                                   </Accordion.Section>
+                                                                   </Accordion>
+                                                <h2>
+                                                    Causes li&eacute;es aux forces &eacute;conomiques mondiales
+                                                </h2>
+                                                <Accordion id="cocoa-chains-acc">
+                                                                 <Accordion.Section id="cocoa-description">
+                                                                    <Accordion.Title>
+                                                                  Concurrence mondiale
+                                                                       </Accordion.Title>
+                                                                       <Accordion.Panel>
+
+                                                                       <p className="indent-margin">
+                                                                          M&ecirc;me les entreprises
+                                                                          et les investisseurs les mieux intentionn&eacute;s
+                                                                          peuvent se trouver confront&eacute;s &agrave; des
+                                                                          contraintes dans l&apos;application d&apos;un programme
+                                                                          de conformit&eacute; sociale efficace.&nbsp;Des marges
+                                                                          restreintes ou des d&eacute;lais de production trop
+                                                                          courts peuvent, par exemple, mener les fournisseurs
+                                                                          &agrave; faire fi des exigences de conformit&eacute;
+                                                                          sociale. Une gestion efficace d&rsquo;un programme de
+                                                                          conformit&eacute; sociale n&eacute;cessite un engagement
+                                                                          et un examen continu de vos propres actions et de leurs
+                                                                          incidences sur les partenaires de la cha&icirc;ne
+                                                                          d&rsquo;approvisionnement.
+                                                                       </p>
+                                                                   </Accordion.Panel>
+                                                               </Accordion.Section>
+                                                               </Accordion>
+                                                    <Accordion id="cocoa-chains-acc">
+                                                                     <Accordion.Section id="cocoa-description">
+                                                                        <Accordion.Title>
+                                                                      Travail pr&eacute;caire
+                                                                           </Accordion.Title>
+                                                                           <Accordion.Panel>
+
+                                                                           <p className="indent-margin">
+                                                                              Dans
+                                                                              l&apos;&eacute;conomie actuelle, les relations dans
+                                                                              l&apos;emploi sont de plus en plus morcel&eacute;es, et
+                                                                              les entreprises sont plus &eacute;loign&eacute;es des
+                                                                              d&eacute;cisions d&apos;embauche, de direction et de
+                                                                              licenciement prises dans leurs cha&icirc;nes
+                                                                              d&rsquo;approvisionnement. Avec l&rsquo;informalisation
+                                                                              croissante de l&rsquo;emploi, o&ugrave; des travailleurs
+                                                                              entretiennent des relations de travail temporaire et en
+                                                                              sous-traitance, non seulement re&ccedil;oivent-ils moins
+                                                                              d&apos;avantages sociaux de leurs employeurs, tels que
+                                                                              l&apos;assurance-maladie et une retraite, mais aussi
+                                                                              moins de services d&apos;appui de l&apos;&Eacute;tat,
+                                                                              tels que l&apos;assurance-ch&ocirc;mage et la
+                                                                              s&eacute;curit&eacute; sociale, ce qui les rend plus
+                                                                              vuln&eacute;rables aux abus.
+                                                                           </p>
+                                                                       </Accordion.Panel>
+                                                                   </Accordion.Section>
+                                                                   </Accordion>
+                                                <h2>Autres facteurs externes</h2>
+                                                <Accordion id="cocoa-chains-acc">
+                                                                 <Accordion.Section id="cocoa-description">
+                                                                    <Accordion.Title>
+                                                                  Conflit
+                                                                       </Accordion.Title>
+                                                                       <Accordion.Panel>
+
+                                                                       <p className="indent-margin">
+                                                                          Selon les statistiques de la Banque
+                                                                          mondiale, environ 2 milliards de personnes vivent dans
+                                                                          des pays touch&eacute;s par des conflits violents. Les
+                                                                          pays ravag&eacute;s par des cycles de violence
+                                                                          rassemblent 17&nbsp;% des plus d&eacute;munis du monde,
+                                                                          et ce chiffre devrait augmenter jusque presque 50&nbsp;%
+                                                                          d&rsquo;ici&nbsp;2030. Le conflit est un facteur
+                                                                          incitatif de migration, car les travailleurs sont
+                                                                          souvent contraints de quitter leur foyer &agrave; la
+                                                                          recherche d&rsquo;opportunit&eacute;s en raison des
+                                                                          d&eacute;pr&eacute;dations mat&eacute;rielles et
+                                                                          &eacute;conomiques et de
+                                                                          l&apos;ins&eacute;curit&eacute;.
+                                                                       </p>
+                                                                   </Accordion.Panel>
+                                                               </Accordion.Section>
+                                                               </Accordion>
+
+                                                    <Accordion id="cocoa-chains-acc">
+                                                                     <Accordion.Section id="cocoa-description">
+                                                                        <Accordion.Title>
+                                                                      Catastrophes naturelles et &eacute;v&eacute;nements m&eacute;t&eacute;orologiques extr&ecirc;mes
+
+                                                                           </Accordion.Title>
+                                                                           <Accordion.Panel>
+
+                                                                           <p className="indent-margin">
+                                                                               Les catastrophes naturelles et les
+                                                                              &eacute;v&eacute;nements m&eacute;t&eacute;orologiques
+                                                                              extr&ecirc;mes, notamment la s&eacute;cheresse et les
+                                                                              inondations, sont &eacute;galement des facteurs
+                                                                              incitatifs de migration. Pour la seule ann&eacute;e
+                                                                              2015, l&apos;Internal Displacement Monitoring Center
+                                                                              estime &agrave; environ 19,2 millions le nombre de
+                                                                              personnes dans le monde d&eacute;plac&eacute;es par des
+                                                                              catastrophes naturelles, l&rsquo;Asie du Sud et de
+                                                                              l&rsquo;Est ayant &eacute;t&eacute;
+                                                                              particuli&egrave;rement touch&eacute;e par
+                                                                              d&apos;importants nombres de personnes
+                                                                              d&eacute;plac&eacute;es.
+                                                                           </p>
+                                                                       </Accordion.Panel>
+                                                                   </Accordion.Section>
+                                                                   </Accordion>
+                                                  <Accordion id="cocoa-chains-acc">
+                                                           <Accordion.Section id="cocoa-description">
+                                                              <Accordion.Title>
+                                                            Global Health Crises
+                                                                 </Accordion.Title>
+                                                                 <Accordion.Panel>
+
+                                                                 <p className="indent-margin">
+                                                                    <b>PLACEHOLDER FOR TEXT </b>
+                                                                 </p>
+                                                             </Accordion.Panel>
+                                                         </Accordion.Section>
+                                                         </Accordion>
             </div>
         </StaticData>
     );

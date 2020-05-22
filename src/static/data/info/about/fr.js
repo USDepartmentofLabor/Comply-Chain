@@ -459,7 +459,7 @@ const fr = () => {
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    href="mailto:GlobalKids@dol.gov?subject=Commentaires sur l%27appli Comply Chain"
+                                    href="mailto:GlobalKids@ilab.dol.gov?subject=Commentaires sur l%27appli Comply Chain"
                                     title="courrier &eacute;lectronique adress&eacute; &agrave; l'ILAB"
                                 >
                                     courrier &eacute;lectronique adress&eacute;

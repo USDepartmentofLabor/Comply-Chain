@@ -69,7 +69,7 @@ export const Info = {
         },
         indenturedProductList: {
              title:
-             "List of Goods Produced by Child Labor or Forced Labor Report",
+             "List of Products Produced by Forced or Indentured Child Labor",
               keywords: [],
               content: IndenturedProductList.es
         }
@@ -103,7 +103,7 @@ export const Info = {
         },
         indenturedProductList: {
              title:
-             "List of Goods Produced by Child Labor or Forced Labor Report",
+             "List of Products Produced by Forced or Indentured Child Labor",
               keywords: [],
               content: IndenturedProductList.fr
                  }
@@ -112,34 +112,34 @@ export const Info = {
             about: {
                 title: "About the Comply Chain App",
                 keywords: ["Child Labor", "Forced Labor"],
-                content: About.en
+                content: About.ms
             },
             whatAre: {
                 title: "What are Child Labor and Forced Labor?",
                 keywords: ["Child Labor", "Forced Labor"],
-                content: WhatAre.en
+                content: WhatAre.ms
             },
             keyResources: {
                 title: "Key Resources",
                 keywords: [],
-                content: KeyResources.en
+                content: KeyResources.ms
             },
             findings: {
                 title: "Findings on the Worst Forms of Child Labor Report",
                 keywords: [],
-                content: Findings.en
+                content: Findings.ms
             },
             goods: {
                 title:
                     "List of Goods Produced by Child Labor or Forced Labor Report",
                 keywords: [],
-                content: Goods.en
+                content: Goods.ms
             },
             indenturedProductList: {
                  title:
                  "List of Products Produced by Forced or Indentured Child Labor",
                   keywords: [],
-                  content: IndenturedProductList.en
+                  content: IndenturedProductList.ms
              }
         }
 };

@@ -11,6 +11,7 @@ import { TopicData as Topic11 } from "./11";
 import { TopicData as Topic12 } from "./12";
 import { TopicData as Topic13 } from "./13";
 
+
 export const Topics = {
     en: [
         {
@@ -39,6 +40,31 @@ export const Topics = {
             content: Topic5.en
         },
         {
+             keywords: [],
+             title: "Key Information Related to Risk and Impact",
+             content: Topic9.en
+         },
+         {
+             keywords: [],
+             title: "Migrant Workers",
+             content: Topic10.en
+         },
+         {
+             keywords: [],
+             title: "Assessing Root Causes",
+             content: Topic11.en
+         },
+         {
+             keywords: [],
+             title: "Addressing Root Causes",
+             content: Topic12.en
+         },
+         {
+             keywords: [],
+             title: "Philanthropy",
+             content: Topic13.en
+         },
+        {
             keywords: [],
             title: "Using Risk and Impact Assessment Information",
             content: Topic7.en
@@ -47,32 +73,6 @@ export const Topics = {
             keywords: [],
             title: "Social Compliance Data Management",
             content: Topic8.en
-        },
-          {
-             keywords: [],
-             title: "Key Information Related to Risk and Impact",
-             content: Topic9.en
-         },
-         {
-            keywords: [],
-            title: "Migrant Workers",
-            content: Topic10.en
-        },
-
-        {
-            keywords: [],
-            title: "Assessing Root Causes",
-            content: Topic11.en
-        },
-        {
-            keywords: [],
-            title: "Addressing Root Causes",
-            content: Topic12.en
-        },
-        {
-            keywords: [],
-            title: "Philanthropy",
-            content: Topic13.en
         }
     ],
     es: [
@@ -102,6 +102,31 @@ export const Topics = {
             content: Topic5.es
         },
         {
+             keywords: [],
+             title: "Key Information Related to Risk and Impact",
+             content: Topic9.es
+         },
+         {
+             keywords: [],
+             title: "Trabajadores migrantes",
+             content: Topic10.es
+         },
+         {
+             keywords: [],
+             title: "Evaluación y tratamiento de las causas fundamentales",
+             content: Topic11.es
+         },
+         {
+             keywords: [],
+             title: "Tratamiento de las causas fundamentales del trabajo infantil y el trabajo forzoso",
+             content: Topic12.es
+         },
+         {
+             keywords: [],
+             title: "Filantropía",
+             content: Topic13.es
+         },
+        {
             keywords: [],
             title:
                 "Empleo de la información de las evaluaciones de riesgos e impacto",
@@ -111,33 +136,8 @@ export const Topics = {
             keywords: [],
             title: "Gestión de los datos sobre cumplimiento social",
             content: Topic8.es
-        },
-         {
-             keywords: [],
-             title: "Key Information Related to Risk and Impact",
-             content: Topic9.en
-         },
-         {
-            keywords: [],
-            title: "Migrant Workers",
-            content: Topic10.en
-        },
-
-        {
-            keywords: [],
-            title: "Assessing Root Causes",
-            content: Topic11.en
-        },
-        {
-            keywords: [],
-            title: "Addressing Root Causes",
-            content: Topic12.en
-        },
-        {
-            keywords: [],
-            title: "Philanthropy",
-            content: Topic13.en
         }
+
     ],
     fr: [
         {
@@ -167,6 +167,33 @@ export const Topics = {
             content: Topic5.fr
         },
         {
+             keywords: [],
+             title: "Key Information Related to Risk and Impact",
+             content: Topic9.fr
+         },
+         {
+            keywords: [],
+            title: "Travailleurs migrants",
+            content: Topic10.fr
+        },
+
+        {
+            keywords: [],
+            title: "Évaluer les causes profondes et s’y attaquer",
+            content: Topic11.fr
+        },
+        {
+            keywords: [],
+            title: "Éliminer les causes profondes du travail des enfants et du travail forcé",
+
+            content: Topic12.fr
+        },
+        {
+            keywords: [],
+            title: "Philanthropie",
+            content: Topic13.fr
+        },
+        {
             keywords: [],
             title:
                 "Utilisation des informations tirées des évaluations des risques et des incidences",
@@ -176,32 +203,6 @@ export const Topics = {
             keywords: [],
             title: "Gestion des données relatives à la conformité sociale",
             content: Topic8.fr
-        },
-         {
-             keywords: [],
-             title: "Key Information Related to Risk and Impact",
-             content: Topic9.en
-         },
-         {
-            keywords: [],
-            title: "Migrant Workers",
-            content: Topic10.en
-        },
-
-        {
-            keywords: [],
-            title: "Assessing Root Causes",
-            content: Topic11.en
-        },
-        {
-            keywords: [],
-            title: "Addressing Root Causes",
-            content: Topic12.en
-        },
-        {
-            keywords: [],
-            title: "Philanthropy",
-            content: Topic13.en
         }
     ],
     ms: [
@@ -231,16 +232,6 @@ export const Topics = {
                 content: Topic5.en
             },
             {
-                keywords: [],
-                title: "Using Risk and Impact Assessment Information",
-                content: Topic7.en
-            },
-            {
-                keywords: [],
-                title: "Social Compliance Data Management",
-                content: Topic8.en
-            },
-             {
                  keywords: [],
                  title: "Key Information Related to Risk and Impact",
                  content: Topic9.en
@@ -250,7 +241,6 @@ export const Topics = {
                 title: "Migrant Workers",
                 content: Topic10.en
             },
-
             {
                 keywords: [],
                 title: "Assessing Root Causes",
@@ -265,6 +255,16 @@ export const Topics = {
                 keywords: [],
                 title: "Philanthropy",
                 content: Topic13.en
+            },
+            {
+                keywords: [],
+                title: "Using Risk and Impact Assessment Information",
+                content: Topic7.en
+            },
+            {
+                keywords: [],
+                title: "Social Compliance Data Management",
+                content: Topic8.en
             }
         ]
 

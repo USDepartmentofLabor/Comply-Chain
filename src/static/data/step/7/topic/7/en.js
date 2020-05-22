@@ -1,5 +1,6 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const en = () => {
     return (
@@ -31,25 +32,32 @@ const en = () => {
                     extremely vulnerable to the negative impacts of the work
                     associated with informal labor situations.
                 </p>
-                <p>
-                    Companies and multi-stakeholder groups have been grappling
-                    with the challenges of informal work and homework for years.
-                    In 2010, the Ethical Trading Initiative published{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
-                        title="ETI Homeworker Guidelines"
-                    >
-                        ETI Homeworker Guidelines
-                    </a>
-                    <em> for both retailers and suppliers</em>. These guidelines
-                    and their supporting documents include tools such as a model
-                    policy for retailers and suppliers on homework, research
-                    guides for identifying homework in supply chains, mapping
-                    tools, and guidance on setting appropriate piece rates,
-                    since homeworkers are usually paid on a piece rate basis.
-                </p>
+                <ExampleInAction id="gap">
+                    <h4>
+                    <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>Example in Action</strong>: Challenges of Informal Work
+                    </h4>
+                    <p>
+                        Companies and multi-stakeholder groups have been grappling
+                        with the challenges of informal work and homework for years.
+                        In 2010, the Ethical Trading Initiative published{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
+                            title="ETI Homeworker Guidelines"
+                        >
+                            ETI Homeworker Guidelines
+                        </a>
+                        <em> for both retailers and suppliers</em>. These guidelines
+                        and their supporting documents include tools such as a model
+                        policy for retailers and suppliers on homework, research
+                        guides for identifying homework in supply chains, mapping
+                        tools, and guidance on setting appropriate piece rates,
+                        since homeworkers are usually paid on a piece rate basis.
+                    </p>
+                </ExampleInAction>
+
             </div>
         </StaticData>
     );

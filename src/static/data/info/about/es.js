@@ -413,7 +413,7 @@ const es = () => {
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    href="mailto:GlobalKids@dol.gov?subject=Comentarios sobre la aplicación Comply Chain"
+                                    href="mailto:GlobalKids@ilab.dol.gov?subject=Comentarios sobre la aplicación Comply Chain"
                                     title="correo electr&oacute;nico a ILAB"
                                 >
                                     correo electr&oacute;nico a ILAB

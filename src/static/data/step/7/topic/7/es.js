@@ -1,5 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+
 
 const es = () => {
     return (
@@ -35,31 +37,43 @@ const es = () => {
                     vulnerables a los efectos negativos del trabajo en
                     situaci&oacute;n informal.
                 </p>
-                <p>
-                    Hay empresas y grupos de varias partes interesadas que
-                    llevan a&ntilde;os lidiando con los desaf&iacute;os del
-                    trabajo informal y el trabajo en el hogar. En 2010, la
-                    Iniciativa de Comercio &Eacute;tico public&oacute; las
-                    directrices{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
-                        title="ETI Homeworker Guidelines"
-                    >
-                        ETI Homeworker Guidelines
-                    </a>
-                    <em> para comerciantes minoristas y proveedores</em>. Estas
-                    directrices y la documentaci&oacute;n complementaria
-                    contienen instrumentos, como un modelo de pol&iacute;tica
-                    para minoristas y proveedores sobre el trabajo en el hogar,
-                    gu&iacute;as de investigaci&oacute;n para identificar el
-                    trabajo en el hogar en la cadena de suministro, instrumentos
-                    para realizar una representaci&oacute;n gr&aacute;fica y
-                    pautas para fijar el pago a destajo adecuado, dado que a
-                    quienes trabajan en el hogar se les suele pagar con esta
-                    modalidad.
-                </p>
+
+
+                <ExampleInAction id="cambodia">
+                                    <h2>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Ejemplo en acci&oacute;n: Challenges of Informal Work
+                                        </strong>
+                                    </h2>
+                                    <p>
+                                        <p>
+                                            Hay empresas y grupos de varias partes interesadas que
+                                            llevan a&ntilde;os lidiando con los desaf&iacute;os del
+                                            trabajo informal y el trabajo en el hogar. En 2010, la
+                                            Iniciativa de Comercio &Eacute;tico public&oacute; las
+                                            directrices{" "}
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
+                                                title="ETI Homeworker Guidelines"
+                                            >
+                                                ETI Homeworker Guidelines
+                                            </a>
+                                            <em> para comerciantes minoristas y proveedores</em>. Estas
+                                            directrices y la documentaci&oacute;n complementaria
+                                            contienen instrumentos, como un modelo de pol&iacute;tica
+                                            para minoristas y proveedores sobre el trabajo en el hogar,
+                                            gu&iacute;as de investigaci&oacute;n para identificar el
+                                            trabajo en el hogar en la cadena de suministro, instrumentos
+                                            para realizar una representaci&oacute;n gr&aacute;fica y
+                                            pautas para fijar el pago a destajo adecuado, dado que a
+                                            quienes trabajan en el hogar se les suele pagar con esta
+                                            modalidad.
+                                        </p>
+                                    </p>
+                                </ExampleInAction>
             </div>
         </StaticData>
     );

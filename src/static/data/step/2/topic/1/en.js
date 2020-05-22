@@ -86,7 +86,7 @@ const en = () => {
                                     standards such as occupational safety and
                                     health, wages and hours of work (see{" "}
                                     <Link to="/steps/7">Step 5, Monitor Compliance</Link>
-                                    for further information on these ILO
+                                    &nbsp;for further information on these ILO
                                     standards).
                                 </p>
                                 <p>

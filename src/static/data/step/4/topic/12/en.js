@@ -1,132 +1,319 @@
 import React from "react";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import Accordion from "../../../../../../components/Accordion";
+
 
 const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>Social Compliance Data Management</h1>
-                <p>
-                    Many companies face technical challenges in managing the
-                    disparate sets of data gathered and utilized by their
-                    different departments or by external consultants. Legal
-                    compliance and regulatory data may be managed by one unit,
-                    procurement and sourcing by another, human resources by
-                    another, and so forth. This can work if managed well, but if
-                    not, this fragmentation of data can hurt the company in a
-                    number of ways: duplication of effort, which wastes
-                    resources; decision-making based on incomplete information,
-                    which increases risk; and different units of the company
-                    sending opposing messages to suppliers, potentially damaging
-                    business relationships.
-                </p>
-                <p>
-                    Social compliance information is part of this balance. In
-                    many companies, social compliance can be difficult to
-                    integrate with other operations. But if social compliance
-                    data is not effectively used by the company, there are
-                    serious potential risks to the company&rsquo;s reputation
-                    and relationships with stakeholders.
-                </p>
-                <p>
-                    Your social compliance team should have a comprehensive
-                    information system in place. The information system may
-                    include one or several integrated databases. Some of these
-                    databases may actually belong to other business units, such
-                    as a registry of vendors/agencies, suppliers and/or
-                    production sites, but it should be shared and utilized
-                    effectively by all relevant teams.
-                </p>
-                <p>
-                    Data that should be captured and tracked in the information
-                    system include, but are not limited to:
-                </p>
-                <h2>Sourcing data:</h2>
-                <ul>
-                    <li>Countries where products are sourced.</li>
-                    <li>Specific products sourced from each country.</li>
-                    <li>
-                        (If applicable) Vendors/agents that place orders in
-                        specific production facilities.
-                    </li>
-                    <li>
-                        All production facilities from which products are
-                        sourced.
-                    </li>
-                    <li>
-                        Specific products sourced from each production facility.
-                    </li>
-                    <li>
-                        Countries and production facilities under consideration
-                        for product sourcing.
-                    </li>
-                </ul>
-                <h2>Social Compliance data:</h2>
-                <ul>
-                    <li>
-                        Risk assessment data for countries where products are or
-                        may be sourced.
-                    </li>
-                    <li>
-                        Data gathered from stakeholders through ongoing
-                        consultation, regarding countries, labor issues, or
-                        other relevant topics.
-                    </li>
-                    <li>
-                        Grievances and complaints received through established
-                        mechanisms, and how they were handled.
-                    </li>
-                    <li>Audit results.</li>
-                    <li>Independent verification results.</li>
-                    <li>
-                        Remediation models for use in specific situations
-                        involving code violations.
-                    </li>
-                    <li>
-                        Programs and services available in communities to assist
-                        victims of labor abuse, including children.
-                    </li>
-                </ul>
-                <p>
-                    The system should allow you to manage and work with this
-                    data and track patterns. Ultimately, a good information
-                    system will allow you to track, identify and document your
-                    results, successes and areas for improvement.
-                </p>
-                <p>
-                    Source:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains"
-                        title="BSR&rsquo;s Perspectives on Information Management in Sustainable Supply Chains"
-                    >
-                        BSR&rsquo;s{" "}
-                        <em>
-                            Perspectives on Information Management in
-                            Sustainable Supply Chains
-                        </em>
-                    </a>
-                    .
-                </p>
-                <p>
-                    <em>
-                        *Note: References to specific companies and
-                        non-governmental entities within this guide are for
-                        informational purposes only to demonstrate best
-                        practices that have been recognized internationally, as
-                        of the app&rsquo;s release date. Referencing the
-                        entities should not be interpreted as an official
-                        endorsement of those entities, their products, or
-                        services by the U.S. Department of Labor{" "}
-                    </em>
-                    <em>
-                        and their inclusion should not be interpreted as a
-                        comprehensive review of these entities&rsquo; practices
-                        in all areas
-                    </em>
-                    <em>.</em>
-                </p>
+                <h1>Addressing Root Causes</h1>
+               <p>
+                   The achievement of broad, shared goals&mdash;to prepare
+                   workers for good jobs, ensure fair compensation and achieve
+                   supply chains free of labor abuse&mdash;will continue to be
+                   hindered if efforts are not made to address the root causes
+                   of child labor and forced labor.
+               </p>
+               <p>
+                   The primary responsibility for protecting human rights rests
+                   with governments, both individually and working collectively
+                   in the international system. In 2015, the member states of
+                   the United Nations adopted the Sustainable Development Goals
+                   (SDGs), a roadmap for ending poverty, protecting the
+                   environment, and promoting peaceful, inclusive, and just
+                   societies by 2030. The eighth among these 17 goals is the
+                   promotion of &ldquo;inclusive and sustainable economic
+                   growth, full and productive employment, and decent work for
+                   all.&rdquo; Goal 8 contains a specific target, known as
+                   Target 8.7, which calls for taking &ldquo;immediate and
+                   effective measures to&hellip; by 2025 end child labor in all
+                   its forms.&rdquo; The G20 Labor and Employment Ministers
+                   affirmed in May 2017 that G20 member governments have the
+                   joint duty, together with private sector partners, to
+                   support the attainment of decent working conditions and
+                   strengthen compliance with internationally-recognized
+                   fundamental worker rights in global supply chains.
+               </p>
+               <p>
+                   Though governments must take the lead, business, civil
+                   society, labor unions and international organizations all
+                   have important roles in promoting and supporting such
+                   action. Companies&nbsp;have a critical part to play in this
+                   effort, including in the following areas:
+               </p>
+                <Accordion id="cocoa-chains-acc">
+                 <Accordion.Section id="cocoa-description">
+                    <Accordion.Title>
+                  Wages and benefits
+                       </Accordion.Title>
+                       <Accordion.Panel>
+                          <p className="indent-margin">
+                          Through investment and job
+                         creation, companies already contribute to economic
+                         growth and better livelihoods for workers wherever they
+                         are operating.&nbsp;Most companies also ensure that
+                         their vendors are paying workers at least the minimum
+                         wage of the country and complying with all applicable
+                         laws or negotiated agreements in relation to worker
+                         compensation, such as overtime, paid leave, and other
+                         benefits.
+                         <br />
+                         <br />
+                         In some cases, the minimum wage may not be enough to
+                         provide a decent livelihood for workers. In-work
+                         benefits to supplement salaries can help enhance
+                         workers&rsquo; welfare without a raise in the minimum
+                         wage. Some in-work benefits for low-income workers are
+                         provided by governments in the form of tax credits and
+                         reduced social security obligations. Private companies
+                         can also provide benefits through reimbursement of
+                         health care costs and provision of transportation and
+                         child care. Productivity incentive-based bonuses can
+                         also be a benefit&mdash;as long as they can actually be
+                         met on a regular basis and inability to meet them does
+                         not result in excessive hours of work or work hours that
+                         are not paid in accordance with legal requirements.
+                       </p>
+                   </Accordion.Panel>
+               </Accordion.Section>
+               </Accordion>
+
+               <Accordion id="cocoa-chains-acc">
+                                <Accordion.Section id="cocoa-description">
+                           <Accordion.Title>
+                        Building government capacity
+                              </Accordion.Title>
+                              <Accordion.Panel>
+
+                              <p className="indent-margin">
+                                 Although the responsibility for addressing root causes
+                                is that of governments, many lack the political will
+                                and/or resources to put in place a legal framework on
+                                child labor and forced labor that fully complies with
+                                international standards; enforce that framework
+                                effectively; ensure effective coordination among all
+                                government bodies addressing child and forced labor; and
+                                establish adequate policies and programs to target the
+                                forms of child and forced labor most prevalent in the
+                                country. For example, without adequate laws and
+                                enforcement of such laws related to employee wages and
+                                hours, workers can find themselves forced to work while
+                                waiting weeks or months for their wages due &ndash; a
+                                key indicator of forced labor. In countries where
+                                governments have the political will to make change, but
+                                simply lack adequate resources, companies can have an
+                                impact in a variety of ways. For example, compliance
+                                programs such as Better Work are designed not only to
+                                identify indicators of labor violations, but to work in
+                                tandem with labor inspectorates, building their capacity
+                                to find and address labor violations. Companies can also
+                                work with governments to fund a certain
+                                initiative&mdash;such as building a school in a
+                                particular community&mdash;in exchange for government
+                                provision of related services in the community.
+                              </p>
+                          </Accordion.Panel>
+                      </Accordion.Section>
+                      </Accordion>
+
+                              <Accordion id="cocoa-chains-acc">
+                                   <Accordion.Section id="cocoa-description">
+                                      <Accordion.Title>
+                                    Collaboration with governments
+                                         </Accordion.Title>
+                                         <Accordion.Panel>
+
+                                         <p className="indent-margin">
+                                           In some cases, governments are actively engaged with
+                                          industries to address the root causes of child labor and
+                                          forced labor. For example, the Government of the
+                                          Philippines implements the{" "}
+                                          <a
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              href="https://www.dole.gov.ph/social-amelioration-program-sap-in-the-sugar-industry/"
+                                          >
+                                              Social Amelioration Program (SAP)
+                                          </a>
+                                          , which distributes cash bonuses to sugar workers to
+                                          augment their income, finances socio-economic projects,
+                                          and provides other benefits, such as death and maternity
+                                          benefits. The SAP is administered by the Department of
+                                          Labor and Employment (DOLE) and is financed through the
+                                          collection of a levy imposed on sugar produced. Since
+                                          2002, the amount of the levy has been set at
+                                          approximately $0.15 per 50 kg. bag of sugar. Working
+                                          closely with DOLE, the Sugar Industry Foundation Inc. is
+                                          one of the entities charged with delivery of social,
+                                          educational, and health programs for sugar workers and
+                                          their families.
+                                         </p>
+                                     </Accordion.Panel>
+                                 </Accordion.Section>
+                                 </Accordion>
+
+                                             <Accordion id="cocoa-chains-acc">
+                                              <Accordion.Section id="cocoa-description">
+                                                 <Accordion.Title>
+                                               Collaboration with other companies
+                                                    </Accordion.Title>
+                                                    <Accordion.Panel>
+
+                                                    <p className="indent-margin">
+                                                        Acting together, companies can make a significant dent
+                                                          in the complex root causes that underlie child and
+                                                          forced labor. Sharing expertise and solutions makes
+                                                          obvious sense to expand scope and impact and maximize
+                                                          the use of available resources.
+                                                    </p>
+
+                                                    <ExampleInAction id="leber">
+                                                       <h4>
+                                                           <ExampleInAction.Icon alt="Lightbulb"/>
+                                                           <strong>Example in Action</strong>: Leber Jeweler*: The
+                                                           Jewelers&rsquo; Burma Relief Project{" "}
+                                                       </h4>
+                                                       <p>
+                                                           Many gemstones&mdash;including 90 percent of the
+                                                           world&rsquo;s rubies&mdash;are mined in Burma, a country
+                                                           long ruled by a dictatorship widely known to perpetrate
+                                                           human rights abuses against its people, and still facing
+                                                           enormous governance and human rights challenges.{" "}
+                                                           <a
+                                                               target="_blank"
+                                                               rel="noopener noreferrer"
+                                                               href="https://leberjeweler.com/burma-and-blood-gems/"
+                                                               title="Leber Jeweler Inc."
+                                                           >
+                                                               Leber Jeweler Inc.
+                                                           </a>
+                                                           , a family-owned company based in Chicago, does not
+                                                           purchase any Burmese gemstones. In 2004, the company
+                                                           founded the{" "}
+                                                           <a
+                                                               target="_blank"
+                                                               rel="noopener noreferrer"
+                                                               href="https://leberjeweler.com/our-story/about-the-designers/"
+                                                               title="Jewelers&rsquo; Burma Relief Project"
+                                                           >
+                                                               Jewelers&rsquo; Burma Relief Project
+                                                           </a>
+                                                           , which brings together like-minded companies with
+                                                           non-governmental organizations (NGOs), such as the
+                                                           Foundation for the People of Burma* and Planet Care*, to
+                                                           provide humanitarian aid to Burmese people of all ethnic
+                                                           backgrounds and religions. The project was also part of
+                                                           a lobbying effort that resulted in the U.S. Congress
+                                                           passing the{" "}
+                                                           <a
+                                                               target="_blank"
+                                                               rel="noopener noreferrer"
+                                                               href="https://www.congress.gov/110/plaws/publ286/PLAW-110publ286.pdf"
+                                                               title="Tom Lantos Block Burmese JADE Act of 2008"
+                                                           >
+                                                               Tom Lantos Block Burmese JADE Act of 2008
+                                                           </a>
+                                                           , which banned the importation of all Burmese rubies and
+                                                           jade into the U.S. The ban was removed in 2016 when all
+                                                           U.S. trade sanctions against Burma were lifted by
+                                                           Executive Order.
+                                                       </p>
+                                                   </ExampleInAction>
+                                                </Accordion.Panel>
+                                            </Accordion.Section>
+                                            </Accordion>
+
+                                <Accordion id="cocoa-chains-acc">
+                                     <Accordion.Section id="cocoa-description">
+                                        <Accordion.Title>
+                                      Supporting labor unions and other workers advocacy groups
+                                       </Accordion.Title>
+                                       <Accordion.Panel>
+                                           <p className="indent-margin">
+                                              A company&rsquo;s code of conduct should include the
+                                             rights to freedom of association and collective
+                                             bargaining, but in any given workplace there may or may
+                                             not be a union present. In workplaces where there is no
+                                             independent union, it is especially important for
+                                             auditors to look for signs that worker association may
+                                             be suppressed. If the suppression of worker association
+                                             is then identified, it should be dealt with through
+                                             remediation. When a union is present, it is important to
+                                             include union representatives in your communication and
+                                             outreach efforts. Ultimately, effective worker
+                                             organization and engagement are critical elements of any
+                                             effort to identify and deal with child labor, forced
+                                             labor and other labor abuses.
+                                           </p>
+                                            <OwnWords>
+                                               <h4>
+                                                   <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                                                   {": "}
+                                               </h4>
+                                               <p>
+                                                   <em>
+                                                       &ldquo;Where labor standards are rigorously adhered
+                                                       to, workers are well unionized and labor laws are
+                                                       monitored and enforced for all workers, indigenous
+                                                       or migrant&mdash;the demand for trafficked people
+                                                       and services is likely to be low.&rdquo;
+                                                   </em>
+                                               </p>
+                                               <p>
+                                                   Source: International Labor Organization,&nbsp;
+                                                   <a
+                                                       target="_blank"
+                                                       rel="noopener noreferrer"
+                                                       href="http://www.refworld.org/docid/40360bf34.html"
+                                                       title="Trafficking in Human Beings: New Approaches to Combating the Problem"
+                                                   >
+                                                       <em>
+                                                           Trafficking in Human Beings: New Approaches to
+                                                           Combating the Problem
+                                                       </em>
+                                                   </a>
+                                                   , May 2003.
+                                               </p>
+                                           </OwnWords>
+                                    </Accordion.Panel>
+
+
+                                   </Accordion.Section>
+                                   </Accordion>
+
+                               <Accordion id="cocoa-chains-acc">
+                                <Accordion.Section id="cocoa-description">
+                                   <Accordion.Title>
+                                 Responsible Recruitment
+                                      </Accordion.Title>
+                                      <Accordion.Panel>
+
+                                      <p className="indent-margin">
+                                         <b>PLACEHOLDER FOR TEXT </b>
+                                      </p>
+                                  </Accordion.Panel>
+                              </Accordion.Section>
+                              </Accordion>
+
+                              <Accordion id="cocoa-chains-acc">
+                                   <Accordion.Section id="cocoa-description">
+                                      <Accordion.Title>
+                                    Ensuring Worker Voice
+                                         </Accordion.Title>
+                                         <Accordion.Panel>
+
+                                         <p className="indent-margin">
+                                            <b>PLACEHOLDER FOR TEXT </b>
+                                         </p>
+                                     </Accordion.Panel>
+                                 </Accordion.Section>
+                                 </Accordion>
+                                <br />
+
+
             </div>
         </StaticData>
     );

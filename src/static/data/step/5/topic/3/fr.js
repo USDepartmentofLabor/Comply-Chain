@@ -647,7 +647,7 @@ const fr = () => {
                     <Accordion.Section id="working-hours">
                     <Accordion.Title>
                                 <strong>
-                                HORARIO DE TRABAJO
+                                HEURES DE TRAVAIL
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
@@ -782,8 +782,7 @@ const fr = () => {
                     <Accordion.Section id="emp-awar-traning">
                     <Accordion.Title>
                                 <strong>
-                                CONCIENTIZACI&Oacute;N Y CAPACITACI&Oacute;N DE LOS
-                            EMPLEADOS
+                                SENSIBILISATION ET FORMATION DES EMPLOY&Eacute;S
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>

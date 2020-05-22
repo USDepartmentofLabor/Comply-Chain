@@ -67,27 +67,6 @@ const fr = () => {
                     droits du travail.&nbsp;
                 </p>
                 <p>
-                    Voici trois exemples de cartes de cha&icirc;nes
-                    d&apos;approvisionnement:
-                </p>
-                <p>
-                    Exemple 1: Cha&icirc;nes d&apos;approvisionnement du cacao
-                    (C&ocirc;te d&apos;Ivoire et Ghana) <br /> Exemple&nbsp;2:
-                    Cha&icirc;nes d&apos;approvisionnement de
-                    l&apos;&eacute;lectronique&nbsp;&ndash;{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.resolve.ngo/site-eiscm/default.htm?RD=1"
-                        title="Cobalt, Tantale, et &Eacute;tain"
-                    >
-                        Cobalt, Tantale, et &Eacute;tain
-                    </a>
-                    <br /> Exemple 3: Cha&icirc;ne d&rsquo;alimentation
-                    d&rsquo;importation g&eacute;n&eacute;rique&nbsp;&ndash;
-                    mod&egrave;le de d&eacute;tail
-                </p>
-                <p>
                     Les marchandises produites &agrave; partir de produits
                     agricoles ou miniers peuvent &ecirc;tre
                     particuli&egrave;rement difficiles &agrave; pister, car les
@@ -138,34 +117,30 @@ const fr = () => {
                     est abord&eacute; ci-dessous.
                 </p>
                 <br />
-                <h2>
-                    Cha&icirc;nes d&apos;approvisionnement du cacao (C&ocirc;te
-                    d&apos;Ivoire et Ghana)
-                </h2>
-                <br />{" "}
-                <img
-                    src={cocoaSupplyChains}
-                    alt="Cha&icirc;nes d'approvisionnement du cacao"
-                    longdesc="#cocoa_chains"
-                />
-                <p className="small-text">
-                    Source:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.crea.org/"
-                    >
-                        Centre pour la r&eacute;flexion,
-                        l&rsquo;&eacute;ducation et l&rsquo;action (CREA).
-                    </a>
-                </p>
                 <div id="cocoa_chains">
                     <Accordion id="cocoa-chains-acc">
                         <Accordion.Section id="cocoa-description">
                             <Accordion.Title>
-                                Description du graphique
-                            </Accordion.Title>
+                               Cha&icirc;nes d&apos;approvisionnement du cacao (C&ocirc;ted&apos;Ivoire et Ghana)
+                              </Accordion.Title>
                             <Accordion.Panel>
+                                <br />
+                                <img
+                                    src={cocoaSupplyChains}
+                                    alt="Cha&icirc;nes d'approvisionnement du cacao"
+                                    longdesc="#cocoa_chains"
+                                />
+                                <p className="small-text">
+                                    Source:{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.crea.org/"
+                                    >
+                                        Centre pour la r&eacute;flexion,
+                                        l&rsquo;&eacute;ducation et l&rsquo;action (CREA).
+                                    </a>
+                                </p>
                                 Ce graphique illustre les diff&eacute;rents
                                 acteurs de la cha&icirc;ne
                                 d&apos;approvisionnement du cacao: les
@@ -229,35 +204,44 @@ const fr = () => {
                         </Accordion.Section>
                     </Accordion>
                 </div>
-                <br />
-                <h2>
-                    Cha&icirc;ne d&rsquo;approvisionnement d&rsquo;importation
-                    g&eacute;n&eacute;rique&nbsp;&ndash; mod&egrave;le de
-                    d&eacute;tail
-                </h2>
-                <br />{" "}
-                <img
-                    src={genericImport}
-                    alt="Cha&icirc;ne d&rsquo;approvisionnement d&rsquo;importation g&eacute;n&eacute;rique&nbsp;- mod&egrave;le de d&eacute;tail"
-                    longdesc="#generic_import"
-                />
-                <p className="small-text">
-                    Source:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://corporate.target.com/"
-                    >
-                        Target Corporation.
-                    </a>
-                </p>
+                <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
+                                            <Accordion.Title>
+                                            Electronics Supply Chains - Cobalt, Tantalum, and Tin
+                                        </Accordion.Title>
+                                        <Accordion.Panel>
+
+                                        <p className="small-text">
+                                        PLACEHOLDER FOR CONTENT.
+
+                                          </p>
+                                        </Accordion.Panel>
+                                    </Accordion.Section>
+                                    </Accordion>
                 <div>
                     <Accordion id="generic-import-acc">
                         <Accordion.Section id="generic-import-description">
                             <Accordion.Title>
-                                Description du graphique
+                                Cha&icirc;ne d&rsquo;approvisionnement d&rsquo;importation
+                                                    g&eacute;n&eacute;rique&nbsp;&ndash; mod&egrave;le de
+                                                    d&eacute;tail
                             </Accordion.Title>
                             <Accordion.Panel>
+                            <img
+                                src={genericImport}
+                                alt="Cha&icirc;ne d&rsquo;approvisionnement d&rsquo;importation g&eacute;n&eacute;rique&nbsp;- mod&egrave;le de d&eacute;tail"
+                                longdesc="#generic_import"
+                            />
+                            <p className="small-text">
+                                Source:{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://corporate.target.com/"
+                                >
+                                    Target Corporation.
+                                </a>
+                            </p>
                                 <p>
                                     Ce graphique illustre les &eacute;tapes
                                     d&rsquo;une cha&icirc;ne
