@@ -1,12 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+
 
 const es = () => {
     return (
         <StaticData>
             <div>
                 <h1>Auditor&iacute;as: los primeros pasos</h1>
+                <p>
+                Las auditor&iacute;as sociales son una de las principales
+                maneras (adem&aacute;s de la participaci&oacute;n de
+                sindicatos y trabajadores y los mecanismos de
+                reclamaci&oacute;n) de obtener informaci&oacute;n sobre
+                infracciones al c&oacute;digo de conducta de la empresa en
+                la cadena de suministro. La auditor&iacute;a revela
+                problemas, no los resuelve. Es uno de los componentes del
+                sistema m&aacute;s amplio de cumplimiento social y no debe
+                realizarse de manera aislada de la participaci&oacute;n de
+                las partes interesadas, la comunicaci&oacute;n, la
+                remediaci&oacute;n y dem&aacute;s pasos del proceso.
+            </p>
+
                 <p>
                     En todo sistema de cumplimiento social, la auditor&iacute;a
                     es esencial y debe estar seguida del proceso de los
@@ -65,6 +81,15 @@ const es = () => {
                     </Link>
                     .
                 </p>
+                <ExampleInAction id="better_work_assessment">
+                                    <h3>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        Ejemplo en acci&oacute;n: Worker Voice in the Audit Process
+                                    </h3>
+                                    <p>
+                                    <b>PLACEHOLDER FOR TEXT</b>
+                                    </p>
+                  </ExampleInAction>
             </div>
         </StaticData>
     );

@@ -105,12 +105,6 @@ const fr = () => {
                     fournir des informations sur lesquelles fonder ces
                     d&eacute;terminations.
                 </p>
-                <img
-                    id="img-browser"
-                    className="small-img"
-                    src={usDol}
-                    alt="travail agricole des enfants"
-                />
                 <p className="small-text">
                     &copy;Shelley Stinelli/d&eacute;partement du Travail des
                     &Eacute;tats-Unis

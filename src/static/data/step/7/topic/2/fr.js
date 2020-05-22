@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
+import Accordion from "../../../../../../components/Accordion";
 
 const fr = () => {
     return (
@@ -36,103 +37,115 @@ const fr = () => {
                     d&eacute;marche comporte des avantages et des
                     inconv&eacute;nients.&nbsp;
                 </p>
-                <ul>
-                    <li>
-                        <h3>Auditeurs internes</h3>
-                    </li>
-                </ul>
-                <p>
-                    Les auditeurs internes sont des employ&eacute;s de
-                    l&apos;entreprise qui sont form&eacute;s et poss&egrave;dent
-                    des qualifications et des comp&eacute;tences d&apos;audit
-                    social. Un avantage du recours &agrave; des auditeurs
-                    internes: il est probablement plus facile de communiquer
-                    avec eux ; par exemple, s&apos;il y a des modifications de
-                    la politique, il est plus facile d&apos;assurer une
-                    uniformit&eacute; au sein des employ&eacute;s de
-                    l&apos;entreprise qu&apos;avec des auditeurs
-                    ext&eacute;rieurs engag&eacute;s. Les auditeurs internes
-                    comprennent peut-&ecirc;tre mieux &eacute;galement le
-                    programme int&eacute;gral de conformit&eacute; sociale de
-                    l&apos;entreprise et seront peut-&ecirc;tre plus &agrave;
-                    m&ecirc;me d&apos;y contribuer au-del&agrave; des audits. En
-                    revanche, puisque les auditeurs internes sont des
-                    employ&eacute;s de l&apos;entreprise, la
-                    cr&eacute;dibilit&eacute; de leurs conclusions pourrait
-                    &ecirc;tre remise en question par certaines parties
-                    prenantes.&nbsp;
-                </p>
-                <ul>
-                    <li>
-                        <h3>Auditeurs ext&eacute;rieurs</h3>
-                    </li>
-                </ul>
-                <p>
-                    Les auditeurs ext&eacute;rieurs sont des professionnels des
-                    audits, poss&eacute;dant des qualifications et des
-                    comp&eacute;tences d&eacute;finies. Ils sont employ&eacute;s
-                    par des cabinets d&apos;audits sociaux ext&eacute;rieurs
-                    &agrave; une entreprise. Ce sont des effectifs souples et
-                    ils peuvent &ecirc;tre disponibles dans des r&eacute;gions
-                    o&ugrave; il ne serait pas rentable pour une entreprise
-                    d&apos;avoir ses propres auditeurs internes. En revanche,
-                    puisque les auditeurs ext&eacute;rieurs sont
-                    &eacute;galement pay&eacute;s par l&apos;entreprise pour
-                    r&eacute;aliser des audits, certaines parties prenantes
-                    pourraient douter de la cr&eacute;dibilit&eacute; des
-                    r&eacute;sultats de leurs audits. De plus, certains groupes
-                    d&apos;auditeurs ext&eacute;rieurs ont peut-&ecirc;tre des
-                    syst&egrave;mes en place qui leur sont propres, mais qui ne
-                    sont peut-&ecirc;tre pas totalement adapt&eacute;s aux
-                    protocoles ou aux param&egrave;tres de l&rsquo;entreprise.
-                </p>
-                <ul>
-                    <li>
-                        <h3>
-                            Auditeurs/v&eacute;rificateurs ind&eacute;pendants
-                        </h3>
-                    </li>
-                </ul>
-                <p>
-                    Les auditeurs/v&eacute;rificateurs ind&eacute;pendants sont
-                    des professionnels des audits, accr&eacute;dit&eacute;s par
-                    des institutions ou des organismes ; leur r&ocirc;le est de
-                    s&apos;assurer que les audits se d&eacute;roulent sans
-                    aucune transaction financi&egrave;re directe entre
-                    l&apos;entreprise et l&apos;auditeur. D&apos;ordinaire, une
-                    entreprise paie une institution distincte
-                    ind&eacute;pendante qui effectue les audits et/ou une
-                    redevance pour appartenir &agrave; cette institution.
-                    L&apos;institution accr&eacute;dite les auditeurs en vertu
-                    de ses normes et elle est charg&eacute;e de programmer tous
-                    les audits et de les surveiller. M&ecirc;me si cela est
-                    con&ccedil;u pour accro&icirc;tre la
-                    cr&eacute;dibilit&eacute; de l&apos;audit, dans certaines
-                    r&eacute;gions ou sites, ce type de dispositions peut ne pas
-                    &ecirc;tre disponible. De plus, m&ecirc;me en l&apos;absence
-                    d&apos;une transaction financi&egrave;re directe, certaines
-                    parties prenantes peuvent encore s&apos;inqui&eacute;ter du
-                    degr&eacute; d&apos;ind&eacute;pendance d&apos;un auditeur
-                    par rapport &agrave; l&apos;entit&eacute; faisant
-                    l&apos;objet de l&apos;audit. Il existe diff&eacute;rents
-                    degr&eacute;s d&apos;ind&eacute;pendance, et elle doit au
-                    fond &ecirc;tre jug&eacute;e au cas par cas.
-                </p>
-                <p>
-                    Si une entreprise d&eacute;cide d&apos;avoir recours
-                    &agrave; des auditeurs internes ou ext&eacute;rieurs, il
-                    pourrait &ecirc;tre n&eacute;cessaire d&apos;engager des
-                    entit&eacute;s ind&eacute;pendantes pour remplir certains
-                    r&ocirc;les dans le syst&egrave;me de conformit&eacute;
-                    sociale si elle veut s&rsquo;assurer une efficacit&eacute;
-                    et une cr&eacute;dibilit&eacute; maximales. Voir{" "}
-                    <Link to="/steps/9">
-                        la 7<sup>e</sup> &eacute;tape: examen
-                        ind&eacute;pendant
-                    </Link>{" "}
-                    pour un examen plus approfondi de la surveillance et du
-                    contr&ocirc;le ind&eacute;pendants.
-                </p>
+                <Accordion id="cocoa-chains-acc">
+                                                    <Accordion.Section id="cocoa-description">
+                                                       <Accordion.Title>
+                                                       Auditeurs internes
+                                                          </Accordion.Title>
+                                                          <Accordion.Panel>
+                                                          <p>
+                                                             Les auditeurs internes sont des employ&eacute;s de
+                                                             l&apos;entreprise qui sont form&eacute;s et poss&egrave;dent
+                                                             des qualifications et des comp&eacute;tences d&apos;audit
+                                                             social. Un avantage du recours &agrave; des auditeurs
+                                                             internes: il est probablement plus facile de communiquer
+                                                             avec eux ; par exemple, s&apos;il y a des modifications de
+                                                             la politique, il est plus facile d&apos;assurer une
+                                                             uniformit&eacute; au sein des employ&eacute;s de
+                                                             l&apos;entreprise qu&apos;avec des auditeurs
+                                                             ext&eacute;rieurs engag&eacute;s. Les auditeurs internes
+                                                             comprennent peut-&ecirc;tre mieux &eacute;galement le
+                                                             programme int&eacute;gral de conformit&eacute; sociale de
+                                                             l&apos;entreprise et seront peut-&ecirc;tre plus &agrave;
+                                                             m&ecirc;me d&apos;y contribuer au-del&agrave; des audits. En
+                                                             revanche, puisque les auditeurs internes sont des
+                                                             employ&eacute;s de l&apos;entreprise, la
+                                                             cr&eacute;dibilit&eacute; de leurs conclusions pourrait
+                                                             &ecirc;tre remise en question par certaines parties
+                                                             prenantes.&nbsp;
+                                                         </p>
+                                                      </Accordion.Panel>
+                                                  </Accordion.Section>
+                                                  </Accordion>
+                <Accordion id="cocoa-chains-acc">
+                                                    <Accordion.Section id="cocoa-description">
+                                                       <Accordion.Title>
+                                                       Auditeurs ext&eacute;rieurs
+                                                          </Accordion.Title>
+                                                          <Accordion.Panel>
+                                                        <p>
+                                                            Les auditeurs ext&eacute;rieurs sont des professionnels des
+                                                            audits, poss&eacute;dant des qualifications et des
+                                                            comp&eacute;tences d&eacute;finies. Ils sont employ&eacute;s
+                                                            par des cabinets d&apos;audits sociaux ext&eacute;rieurs
+                                                            &agrave; une entreprise. Ce sont des effectifs souples et
+                                                            ils peuvent &ecirc;tre disponibles dans des r&eacute;gions
+                                                            o&ugrave; il ne serait pas rentable pour une entreprise
+                                                            d&apos;avoir ses propres auditeurs internes. En revanche,
+                                                            puisque les auditeurs ext&eacute;rieurs sont
+                                                            &eacute;galement pay&eacute;s par l&apos;entreprise pour
+                                                            r&eacute;aliser des audits, certaines parties prenantes
+                                                            pourraient douter de la cr&eacute;dibilit&eacute; des
+                                                            r&eacute;sultats de leurs audits. De plus, certains groupes
+                                                            d&apos;auditeurs ext&eacute;rieurs ont peut-&ecirc;tre des
+                                                            syst&egrave;mes en place qui leur sont propres, mais qui ne
+                                                            sont peut-&ecirc;tre pas totalement adapt&eacute;s aux
+                                                            protocoles ou aux param&egrave;tres de l&rsquo;entreprise.
+                                                        </p>
+                                                      </Accordion.Panel>
+                                                  </Accordion.Section>
+                                                  </Accordion>
+
+                <Accordion id="cocoa-chains-acc">
+                                                    <Accordion.Section id="cocoa-description">
+                                                       <Accordion.Title>
+                                                       Auditeurs/v&eacute;rificateurs ind&eacute;pendants
+                                                          </Accordion.Title>
+                                                          <Accordion.Panel>
+                                                         <p>
+                                                             Les auditeurs/v&eacute;rificateurs ind&eacute;pendants sont
+                                                             des professionnels des audits, accr&eacute;dit&eacute;s par
+                                                             des institutions ou des organismes ; leur r&ocirc;le est de
+                                                             s&apos;assurer que les audits se d&eacute;roulent sans
+                                                             aucune transaction financi&egrave;re directe entre
+                                                             l&apos;entreprise et l&apos;auditeur. D&apos;ordinaire, une
+                                                             entreprise paie une institution distincte
+                                                             ind&eacute;pendante qui effectue les audits et/ou une
+                                                             redevance pour appartenir &agrave; cette institution.
+                                                             L&apos;institution accr&eacute;dite les auditeurs en vertu
+                                                             de ses normes et elle est charg&eacute;e de programmer tous
+                                                             les audits et de les surveiller. M&ecirc;me si cela est
+                                                             con&ccedil;u pour accro&icirc;tre la
+                                                             cr&eacute;dibilit&eacute; de l&apos;audit, dans certaines
+                                                             r&eacute;gions ou sites, ce type de dispositions peut ne pas
+                                                             &ecirc;tre disponible. De plus, m&ecirc;me en l&apos;absence
+                                                             d&apos;une transaction financi&egrave;re directe, certaines
+                                                             parties prenantes peuvent encore s&apos;inqui&eacute;ter du
+                                                             degr&eacute; d&apos;ind&eacute;pendance d&apos;un auditeur
+                                                             par rapport &agrave; l&apos;entit&eacute; faisant
+                                                             l&apos;objet de l&apos;audit. Il existe diff&eacute;rents
+                                                             degr&eacute;s d&apos;ind&eacute;pendance, et elle doit au
+                                                             fond &ecirc;tre jug&eacute;e au cas par cas.
+                                                         </p>
+                                                         <p>
+                                                             Si une entreprise d&eacute;cide d&apos;avoir recours
+                                                             &agrave; des auditeurs internes ou ext&eacute;rieurs, il
+                                                             pourrait &ecirc;tre n&eacute;cessaire d&apos;engager des
+                                                             entit&eacute;s ind&eacute;pendantes pour remplir certains
+                                                             r&ocirc;les dans le syst&egrave;me de conformit&eacute;
+                                                             sociale si elle veut s&rsquo;assurer une efficacit&eacute;
+                                                             et une cr&eacute;dibilit&eacute; maximales. Voir{" "}
+                                                             <Link to="/steps/9">
+                                                                 la 7<sup>e</sup> &eacute;tape: examen
+                                                                 ind&eacute;pendant
+                                                             </Link>{" "}
+                                                             pour un examen plus approfondi de la surveillance et du
+                                                             contr&ocirc;le ind&eacute;pendants.
+                                                         </p>
+                                                      </Accordion.Panel>
+                                                  </Accordion.Section>
+                                                  </Accordion>
+
                 <h2>Comp&eacute;tences des auditeurs</h2>
                 <p>
                     Qu&apos;ils soient internes, ext&eacute;rieurs ou
@@ -178,6 +191,15 @@ const fr = () => {
                     re&ccedil;oivent des soins et des services imm&eacute;diats
                     de personnes ou d&apos;organisations qualifi&eacute;es.
                 </p>
+                <ExampleInAction id="better_work_assessment">
+                                                <h3>
+                                                    <ExampleInAction.Icon alt="Lightbulb"/>
+                                                    Association if Professional Social Compliance Auditors (APSCA) Competency Framework
+                                                </h3>
+                                                <p>
+                                                   <b>PLACEHOLDER FOR TEXT</b>
+                                                </p>
+                                            </ExampleInAction>
                 <h2>Composition de l&apos;&eacute;quipe</h2>
                 <p>
                     La taille et la composition d&apos;une &eacute;quipe

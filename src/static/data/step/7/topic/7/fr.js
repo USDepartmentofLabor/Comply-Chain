@@ -1,5 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+
 
 const fr = () => {
     return (
@@ -39,36 +41,45 @@ const fr = () => {
                     n&eacute;gatives du travail li&eacute;es aux situations de
                     travail informel.
                 </p>
-                <p>
-                    Les entreprises et les groupes de plusieurs parties
-                    prenantes sont aux prises aux d&eacute;fis du travail
-                    informel et &agrave; domicile depuis des ann&eacute;es. En
-                    2010, l&apos;Initiative pour le commerce &eacute;thique a
-                    publi&eacute;{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
-                        title="ETI Homeworker Guidelines"
-                    >
-                        ETI Homeworker Guidelines
-                    </a>
-                    <em>
-                        {" "}
-                        &agrave; l&rsquo;intention des d&eacute;taillants et des
-                        fournisseurs
-                    </em>
-                    . Ces directives et leurs pi&egrave;ces justificatives
-                    comprennent des outils tels qu&apos;une politique
-                    mod&egrave;le relative au travail &agrave; domicile
-                    destin&eacute;e aux d&eacute;taillants et aux fournisseurs,
-                    des guides de recherche pour identifier le travail &agrave;
-                    domicile dans les cha&icirc;nes d&apos;approvisionnement,
-                    des outils d&rsquo;inventaire et des recommandations pour
-                    fixer les r&eacute;mun&eacute;rations &agrave; la
-                    pi&egrave;ce appropri&eacute;es, puisque les travailleurs
-                    &agrave; domicile sont d&apos;ordinaire pay&eacute;s ainsi.
-                </p>
+
+                <ExampleInAction id="cambodia">
+                                    <h2>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Exemple d&apos;action: Challenges of Informal Work
+                                        </strong>
+                                    </h2>
+                                    <p>
+                                        Les entreprises et les groupes de plusieurs parties
+                                        prenantes sont aux prises aux d&eacute;fis du travail
+                                        informel et &agrave; domicile depuis des ann&eacute;es. En
+                                        2010, l&apos;Initiative pour le commerce &eacute;thique a
+                                        publi&eacute;{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
+                                            title="ETI Homeworker Guidelines"
+                                        >
+                                            ETI Homeworker Guidelines
+                                        </a>
+                                        <em>
+                                            {" "}
+                                            &agrave; l&rsquo;intention des d&eacute;taillants et des
+                                            fournisseurs
+                                        </em>
+                                        . Ces directives et leurs pi&egrave;ces justificatives
+                                        comprennent des outils tels qu&apos;une politique
+                                        mod&egrave;le relative au travail &agrave; domicile
+                                        destin&eacute;e aux d&eacute;taillants et aux fournisseurs,
+                                        des guides de recherche pour identifier le travail &agrave;
+                                        domicile dans les cha&icirc;nes d&apos;approvisionnement,
+                                        des outils d&rsquo;inventaire et des recommandations pour
+                                        fixer les r&eacute;mun&eacute;rations &agrave; la
+                                        pi&egrave;ce appropri&eacute;es, puisque les travailleurs
+                                        &agrave; domicile sont d&apos;ordinaire pay&eacute;s ainsi.
+                                    </p>
+                                </ExampleInAction>
             </div>
         </StaticData>
     );

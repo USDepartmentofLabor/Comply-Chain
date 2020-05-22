@@ -91,12 +91,6 @@ const es = () => {
                     riesgos debe contener informaci&oacute;n que permita tomar
                     estas decisiones.
                 </p>
-                <img
-                    id="img-browser"
-                    className="small-img"
-                    src={usDol}
-                    alt="trabajo infantil en el sector agr&iacute;cola"
-                />
                 <p className="small-text">
                     &copy;Shelley Stinelli/Departamento de Trabajo de los
                     Estados Unidos
