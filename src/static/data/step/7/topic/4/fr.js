@@ -105,7 +105,7 @@ const fr = () => {
                     fournir des informations sur lesquelles fonder ces
                     d&eacute;terminations.
                 </p>
-                
+
                 <p>
                     Des audits de votre cha&icirc;ne d&apos;approvisionnement
                     devraient aussi &ecirc;tre programm&eacute;s
