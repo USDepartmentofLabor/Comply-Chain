@@ -184,7 +184,7 @@ const es = () => {
                 <Accordion id="cocoa-chains-acc">
                     <Accordion.Section id="cocoa-description">
                         <Accordion.Title>
-                            Electronics Supply Chains - Cobalt, Tantalum and Tin
+                            Electronics Supply Chains - Cobalt, Tantalum, and Tin
                         </Accordion.Title>
                         <Accordion.Panel>
                             <p><b>PLACEHOLDER FOR TEXT</b></p>
