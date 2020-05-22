@@ -325,7 +325,7 @@ const en = () => {
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                href="mailto:GlobalKids@dol.gov?subject=Comments on Comply Chain App"
+                                href="mailto:GlobalKids@ilab.dol.gov?subject=Comments on Comply Chain App"
                                 title="e-mailing ILAB"
                             >
                                 e-mailing ILAB
