@@ -1,176 +1,768 @@
 import React from "react";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import Accordion from "../../../../../../components/Accordion";
 
 const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>
-                    Gestion des donn&eacute;es relatives &agrave; la
-                    conformit&eacute; sociale
-                </h1>
-                <p>
-                    De nombreuses entreprises rencontrent des difficult&eacute;s
-                    techniques dans la gestion des ensembles disparates des
-                    donn&eacute;es recueillies et utilis&eacute;es par leurs
-                    diff&eacute;rents d&eacute;partements ou des consultants
-                    ext&eacute;rieurs. Les donn&eacute;es relatives &agrave; la
-                    conformit&eacute; l&eacute;gislative et r&eacute;glementaire
-                    pourront &ecirc;tre g&eacute;r&eacute;es par un service,
-                    alors que les achats et l&apos;approvisionnement le seront
-                    par un autre, les ressources humaines par un autre, etc. Ce
-                    syst&egrave;me peut fonctionner s&apos;il est bien
-                    g&eacute;r&eacute;, mais sinon, ce morcellement des
-                    donn&eacute;es peut nuire &agrave; l&apos;entreprise
-                    &agrave; plusieurs &eacute;gards: doublon, donc gaspillage
-                    de ressources ; prise de d&eacute;cisions fond&eacute;e sur
-                    des informations incompl&egrave;tes, ce qui accro&icirc;t
-                    les risques ; et diff&eacute;rents services de
-                    l&apos;entreprise envoient des messages contradictoires aux
-                    fournisseurs, ce qui peut endommager les relations
-                    commerciales.
-                </p>
-                <p>
-                    Les informations relatives &agrave; la conformit&eacute;
-                    sociale font partie de cet &eacute;quilibre. Dans de
-                    nombreuses soci&eacute;t&eacute;s, la conformit&eacute;
-                    sociale peut &ecirc;tre difficile &agrave; int&eacute;grer
-                    avec d&rsquo;autres op&eacute;rations. Mais si les
-                    donn&eacute;es relatives &agrave; la conformit&eacute;
-                    sociale ne sont pas utilis&eacute;es efficacement par
-                    l&apos;entreprise, sa r&eacute;putation et ses relations
-                    avec les parties prenantes courent de graves risques
-                    potentiels.
-                </p>
-                <p>
-                    Votre &eacute;quipe de conformit&eacute; sociale devrait
-                    avoir un syst&egrave;me d&apos;information exhaustif en
-                    place. Ce syst&egrave;me peut inclure une ou plusieurs bases
-                    de donn&eacute;es int&eacute;gr&eacute;es. Certaines de ces
-                    bases de donn&eacute;es peuvent en r&eacute;alit&eacute;
-                    appartenir &agrave; d&apos;autres services de
-                    l&apos;entreprise, par exemple un registre des
-                    vendeurs/agences, des fournisseurs et/ou des sites de
-                    production, mais elles devraient &ecirc;tre partag&eacute;es
-                    et utilis&eacute;es par toutes les &eacute;quipes
-                    pertinentes.
-                </p>
-                <p>
-                    Voici quelques exemples, &agrave; titre indicatif, de
-                    donn&eacute;es qu&apos;il faudrait saisir et suivre dans le
-                    syst&egrave;me d&apos;information:
-                </p>
-                <h2>
-                    Donn&eacute;es relatives &agrave; l&apos;approvisionnement:
-                </h2>
-                <ul>
-                    <li>Pays de provenance des produits.</li>
-                    <li>
-                        Produits sp&eacute;cifiques obtenus dans chaque pays.
-                    </li>
-                    <li>
-                        (Le cas &eacute;ch&eacute;ant) Vendeurs/agents qui
-                        passent des commandes dans des &eacute;tablissements
-                        pr&eacute;cis de production.
-                    </li>
-                    <li>
-                        Tous les &eacute;tablissements de production
-                        d&apos;o&ugrave; viennent les produits.
-                    </li>
-                    <li>
-                        Produits sp&eacute;cifiques obtenus dans chaque
-                        &eacute;tablissement de production.
-                    </li>
-                    <li>
-                        Pays et &eacute;tablissements de production
-                        envisag&eacute;s pour l&apos;obtention de produits.
-                    </li>
-                </ul>
-                <h2>
-                    Donn&eacute;es relatives &agrave; la conformit&eacute;
-                    sociale:
-                </h2>
-                <ul>
-                    <li>
-                        Donn&eacute;es d&apos;&eacute;valuation des risques
-                        concernant les pays o&ugrave; les produits sont obtenus
-                        ou pourraient l&rsquo;&ecirc;tre.
-                    </li>
-                    <li>
-                        Donn&eacute;es recueillies aupr&egrave;s des parties
-                        prenantes par le biais de consultations qui se
-                        poursuivent sur les pays, les questions relatives aux
-                        droits des travailleurs ou d&rsquo;autres sujets
-                        pertinents.
-                    </li>
-                    <li>
-                        R&eacute;clamations et plaintes re&ccedil;ues par le
-                        biais de m&eacute;canismes &eacute;tablis et leur prise
-                        en charge.
-                    </li>
-                    <li>R&eacute;sultats des audits.</li>
-                    <li>
-                        R&eacute;sultats des contr&ocirc;les
-                        ind&eacute;pendants.
-                    </li>
-                    <li>
-                        Mod&egrave;les de r&eacute;paration &agrave; utiliser
-                        dans des situations pr&eacute;cises concernant des
-                        violations du code.
-                    </li>
-                    <li>
-                        Programmes et services disponibles dans les
-                        communaut&eacute;s pour venir en aide aux victimes de
-                        violations des droits des travailleurs, y compris les
-                        enfants.
-                    </li>
-                </ul>
-                <p>
-                    Le syst&egrave;me devrait vous permettre de g&eacute;rer et
-                    d&apos;utiliser ces donn&eacute;es et de rep&eacute;rer des
-                    tendances. Finalement, un bon syst&egrave;me
-                    d&apos;information vous permettra de rep&eacute;rer,
-                    d&apos;identifier et de documenter vos r&eacute;sultats, vos
-                    r&eacute;ussites et les domaines de perfectionnement.
-                </p>
-                <p>
-                    Source:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains"
-                        title="Perspectives on Information Management in Sustainable Supply Chains de BSR"
-                    >
-                        <em>
-                            Perspectives on Information Management in
-                            Sustainable Supply Chains
-                        </em>{" "}
-                        de BSR
-                    </a>
-                    .
-                </p>
-                <p>
-                    <em>
-                        *Remarque: Les r&eacute;f&eacute;rences &agrave;
-                        des soci&eacute;t&eacute;s et entit&eacute;s non
-                        gouvernementales sp&eacute;cifiques dans ce guide sont
-                        &agrave; des fins d&rsquo;information uniquement afin de
-                        d&eacute;montrer les bonnes pratiques reconnues &agrave;
-                        l&rsquo;&eacute;chelle internationale, &agrave; la date
-                        de lancement de l&rsquo;appli. Toute
-                        r&eacute;f&eacute;rence &agrave; ces entit&eacute;s ne
-                        saurait constituer une approbation officielle de ces
-                        derni&egrave;res, de leurs produits ou de leurs services
-                        par le d&eacute;partement du Travail des
-                        &Eacute;tats-Unis,{" "}
-                    </em>
-                    <em>
-                        et leur inclusion dans cette appli ne saurait &ecirc;tre
-                        interpr&eacute;t&eacute;e comme un examen exhaustif des
-                        pratiques de ces entit&eacute;s dans tous les domaines
-                    </em>
-                    <em>.</em>
-                </p>
+                <h2>Philanthropie</h2>
+                                <p>
+                                    Il est logique d&apos;orienter les contributions
+                                    philanthropiques vers les communaut&eacute;s dans vos
+                                    cha&icirc;nes directes d&apos;approvisionnement,
+                                    particuli&egrave;rement celles les plus expos&eacute;es au
+                                    risque de travail des enfants, de travail forc&eacute; et
+                                    d&apos;autres abus des droits du travail. Bien que ces
+                                    contributions ne remplacent pas un solide syst&egrave;me de
+                                    conformit&eacute; sociale, elles peuvent aider votre
+                                    entreprise &agrave; atteindre les buts d&apos;un programme
+                                    de conformit&eacute; sociale.
+                                </p>
+                                <p>
+                                    Les initiatives philanthropiques pour appuyer la lutte
+                                    contre le travail des enfants et le travail forc&eacute;
+                                    comprennent:
+                                </p>
+                                <Accordion id="cocoa-chains-acc">
+                                                 <Accordion.Section id="cocoa-description">
+                                                    <Accordion.Title>
+                                                  Des programmes &eacute;ducatifs
+                                                       </Accordion.Title>
+                                                       <Accordion.Panel>
+
+                                                       <p className="indent-margin">
+                                                         &nbsp;Si votre
+                                                         main d&apos;&oelig;uvre est principalement
+                                                         f&eacute;minine ou si elle comprend des familles qui
+                                                         migrent ensemble, la mise &agrave; disposition
+                                                         d&rsquo;une garderie ou d&rsquo;un &eacute;tablissement
+                                                         &eacute;ducatif de la petite enfance peut avoir une
+                                                         influence positive. Dans les communaut&eacute;s
+                                                         o&ugrave; les enfants n&apos;ont pas un acc&egrave;s
+                                                         fiable &agrave; l&apos;&eacute;ducation, vous pouvez
+                                                         financer une &eacute;cole ou un &eacute;tablissement
+                                                         &eacute;ducatif. Dans les communaut&eacute;s
+                                                         dot&eacute;es d&apos;&eacute;coles mais o&ugrave; la
+                                                         qualit&eacute; de l&apos;&eacute;ducation est
+                                                         m&eacute;diocre, vous pouvez financer la formation des
+                                                         enseignants ou de meilleurs salaires pour eux.&nbsp;Dans
+                                                         les communaut&eacute;s o&ugrave; une &eacute;ducation de
+                                                         qualit&eacute; est disponible, vous pouvez financer un
+                                                         programme de bourses. L&apos;enseignement technique est
+                                                         un autre moyen de donner aux adolescents des
+                                                         comp&eacute;tences qui leur permettront de trouver de
+                                                         meilleurs emplois.
+                                                       </p>
+                                <ExampleInAction id="Isidro">
+                                    <h4>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Exemple d&apos;action: Isidro Le&oacute;n-York
+                                        </strong>
+                                    </h4>
+                                    <p>
+                                        Isidro Le&oacute;n-York est propri&eacute;taire
+                                        d&rsquo;une plantation de caf&eacute; au Nicaragua, et
+                                        grand d&eacute;fenseur de la r&eacute;duction du travail
+                                        des enfants dans le secteur caf&eacute;ier dans son
+                                        pays. Il a interdit le travail des enfants dans son
+                                        exploitation, qui emploie plus de 760&nbsp;travailleurs,
+                                        et d&eacute;di&eacute; une partie de ses
+                                        b&eacute;n&eacute;fices au financement d&rsquo;une
+                                        &eacute;cole pour leurs enfants. M. Le&oacute;n-York
+                                        s&rsquo;est &eacute;galement engag&eacute; &agrave;
+                                        fournir &agrave; ses travailleurs et leurs familles des
+                                        salaires d&eacute;cents, des repas et des soins de
+                                        sant&eacute;.
+                                    </p>
+                                    <p>
+                                        Il a toujours activement recherch&eacute;
+                                        l&rsquo;engagement d&rsquo;autres propri&eacute;taires
+                                        de plantations de caf&eacute; vis-&agrave;-vis de
+                                        l&rsquo;&eacute;limination du travail des enfants dans
+                                        son secteur et de la promotion d&rsquo;un emploi
+                                        d&eacute;cent, notamment de meilleurs salaires et
+                                        conditions de travail (de mani&egrave;re &agrave;
+                                        faciliter l&rsquo;&eacute;radication de la
+                                        pauvret&eacute;). En r&eacute;compense de ses efforts,
+                                        il a re&ccedil;u le prix{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.dol.gov/agencies/ilab/issues/child-labor/iqbal"
+                                            title="Prix Iqbal Masih"
+                                        >
+                                            Iqbal Masih
+                                        </a>{" "}
+                                        2013 du d&eacute;partement du Travail. Depuis 1995, le
+                                        d&eacute;partement du Travail soutient les efforts
+                                        internationaux de lutte contre le travail des enfants
+                                        &agrave; l&rsquo;&eacute;chelle mondiale. Pour en savoir
+                                        plus sur ces travaux et le prix Iqbal Masih, rendez-vous
+                                        sur{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.dol.gov/ilab"
+                                            title="http://www.dol.gov/ilab"
+                                        >
+                                            http://www.dol.gov/ilab
+                                        </a>{" "}
+                                        [en anglais].
+                                    </p>
+                                </ExampleInAction>
+                                </Accordion.Panel>
+                               </Accordion.Section>
+                               </Accordion>
+                                <Accordion id="cocoa-chains-acc">
+                                                 <Accordion.Section id="cocoa-description">
+                                                    <Accordion.Title>
+                                                  Programmes de subsistance
+                                                       </Accordion.Title>
+                                                       <Accordion.Panel>
+
+                                                       <p className="indent-margin">
+                                                          Les programmes de
+                                                          subsistance permettent aux pauvres
+                                                          d&apos;acqu&eacute;rir les comp&eacute;tences
+                                                          n&eacute;cessaires, ainsi que des moyens tangibles et
+                                                          intangibles pour subvenir &agrave; leur propre
+                                                          subsistance et celle de leurs familles, en cas de chocs
+                                                          et de bouleversements. Les entreprises peuvent appuyer
+                                                          ces programmes pour les travailleurs et leurs familles,
+                                                          et contribuer &agrave; leur aptitude &agrave;
+                                                          r&eacute;sister &agrave; des environnements
+                                                          &eacute;conomiques souvent impr&eacute;visibles.
+                                                          L&rsquo;am&eacute;lioration des moyens de subsistance
+                                                          des communaut&eacute;s dans lesquelles vous
+                                                          op&eacute;rez peut contribuer &agrave; leur croissance
+                                                          et &agrave; leur stabilit&eacute; et, partant, &agrave;
+                                                          la croissance et &agrave; la stabilit&eacute; de votre
+                                                          entreprise.
+                                                       </p>
+                                                   </Accordion.Panel>
+                                               </Accordion.Section>
+                                               </Accordion>
+
+                                    <Accordion id="cocoa-chains-acc">
+                                                     <Accordion.Section id="cocoa-description">
+                                                        <Accordion.Title>
+                                                      Initiatives d&apos;emploi pour les jeunes
+                                                           </Accordion.Title>
+                                                           <Accordion.Panel>
+
+                                                           <p className="indent-margin">
+                                                              Dans
+                                                              de nombreux pays en d&eacute;veloppement, les jeunes
+                                                              adultes sont touch&eacute;s de fa&ccedil;on
+                                                              disproportionn&eacute;e par le ch&ocirc;mage. La
+                                                              prestation d&apos;une formation professionnelle et de
+                                                              programmes d&apos;apprentissage permettant aux jeunes de
+                                                              gagner de l&rsquo;argent pendant leur formation est
+                                                              essentielle pour d&eacute;velopper le capital humain
+                                                              d&apos;un pays et, ce faisant, son potentiel de
+                                                              croissance future. En parrainant ces types de
+                                                              programmes, une entreprise peut, en leur fournissant les
+                                                              comp&eacute;tences n&eacute;cessaires, pr&eacute;parer
+                                                              les jeunes &agrave; &ecirc;tre des employ&eacute;s
+                                                              efficients tout en contribuant &agrave; des objectifs de
+                                                              d&eacute;veloppement plus vastes.
+                                                           </p>
+
+                                <ExampleInAction id="lco">
+                                    <h4>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>Exemple d&apos;action</strong>: League
+                                        Collegiate Outfitters*
+                                    </h4>
+                                    <p>
+                                        El Salvador, petit pays &agrave; la longue histoire de
+                                        conflit civil et d&rsquo;instabilit&eacute;, constitue
+                                        un environnement op&eacute;rationnel incertain. Mais la
+                                        branche salvadorienne de League Collegiate Outfitter,
+                                        League Central America (LCA), a saisi l&rsquo;occasion de d&eacute;velopper une
+                                        entreprise productive en investissant dans des
+                                        programmes de renforcement des capacit&eacute;s des
+                                        travailleurs et en aidant &agrave; s&rsquo;attaquer
+                                        &agrave; la pauvret&eacute; et la violence dans leurs
+                                        communaut&eacute;s. LCA a fait une priorit&eacute; de
+                                        l&rsquo;embauche de jeunes qui seraient bien en peine de
+                                        trouver du travail ailleurs, notamment des personnes
+                                        handicap&eacute;es, d&rsquo;anciens membres de gangs et
+                                        d&rsquo;autres qui risqueraient de le devenir.
+                                        Aujourd&apos;hui, les anciens membres de gangs
+                                        repr&eacute;sentent 15&nbsp;% de la main
+                                        d&apos;&oelig;uvre de l&rsquo;usine. Outre la
+                                        possibilit&eacute; d&rsquo;obtenir un emploi
+                                        d&eacute;cent, LCA offre &eacute;galement aux jeunes
+                                        l&rsquo;occasion de participer &agrave; un programme
+                                        d&rsquo;&eacute;pargne et d&rsquo;emprunt, de recevoir
+                                        une aide &agrave; la garde d&rsquo;enfants et de
+                                        poursuivre leurs &eacute;tudes, notamment des programmes
+                                        d&rsquo;&eacute;quivalence au lyc&eacute;e et des cours
+                                        d&rsquo;anglais. LCA a ainsi compris que la prestation
+                                        de tels avantages en mati&egrave;re d&rsquo;emploi
+                                        permet non seulement d&rsquo;autonomiser les jeunes en
+                                        situation de vuln&eacute;rabilit&eacute;, mais
+                                        &eacute;galement de r&eacute;duire le renouvellement du
+                                        personnel et d&rsquo;am&eacute;liorer les
+                                        efficacit&eacute;s dans le cadre de la production.
+                                    </p>
+                                </ExampleInAction>
+                                 </Accordion.Panel>
+                                   </Accordion.Section>
+                                   </Accordion>
+                                <Accordion id="cocoa-chains-acc">
+                                                 <Accordion.Section id="cocoa-description">
+                                                    <Accordion.Title>
+                                                 Programmes d&apos;autonomisation des femmes
+                                                       </Accordion.Title>
+                                                       <Accordion.Panel>
+
+                                                       <p className="indent-margin">
+                                                          Si
+                                                          une entreprise emploie de nombreuses femmes ou
+                                                          op&egrave;re dans un environnement o&ugrave; existent
+                                                          d&apos;importantes in&eacute;galit&eacute;s entre les
+                                                          genres, les programmes de parrainage visant les besoins
+                                                          sp&eacute;cifiques des femmes peuvent avoir une
+                                                          incidence positive sur la vie des travailleuses et les
+                                                          op&eacute;rations commerciales. Les programmes
+                                                          d&apos;autonomisation des femmes se pr&eacute;sentent
+                                                          sous de nombreuses formes, y compris la formation
+                                                          professionnelle, la sensibilisation &agrave; la
+                                                          sant&eacute;, les groupes d&apos;&eacute;pargne et
+                                                          l&apos;&eacute;ducation.
+                                                       </p>
+
+                                <ExampleInAction id="gap">
+                                    <h4>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>Exemple d&apos;action</strong>: Programme
+                                        P.A.C.E. de Gap Inc.*
+                                    </h4>
+                                    <p>
+                                        Dans le monde entier, des millions de femmes travaillent
+                                        dans le secteur de la confection, mais gagnent souvent
+                                        moins que les hommes et gravissent rarement les
+                                        &eacute;chelons dans leurs usines. Prenant acte de ce
+                                        probl&egrave;me, Gap Inc. a lanc&eacute; le{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.gapincsustainability.com/people/pace-changing-one-million-lives"
+                                            title="Programme P.A.C.E."
+                                        >
+                                            programme P.A.C.E.
+                                        </a>{" "}
+                                        en 2007, initiative visant l&apos;autonomisation des
+                                        femmes qui travaillent dans la confection en leur
+                                        fournissant les comp&eacute;tences de base et techniques
+                                        dont elles ont besoin pour gravir les &eacute;chelons de
+                                        l&rsquo;entreprise. Des modules d&rsquo;apprentissage
+                                        des aptitudes de base couvrent une large gamme de
+                                        sujets, depuis les connaissances financi&egrave;res
+                                        jusqu&rsquo;&agrave; la sant&eacute; globale et
+                                        g&eacute;n&eacute;sique, en passant par la
+                                        r&eacute;solution des probl&egrave;mes et la prise de
+                                        d&eacute;cisions. Des formations techniques
+                                        adapt&eacute;es &agrave; l&rsquo;environnement
+                                        sp&eacute;cifique de la manufacture viennent
+                                        compl&eacute;ter ces cours. P.A.C.E est actuellement en
+                                        vigueur dans les usines de fournisseurs de 12&nbsp;pays
+                                        et a touch&eacute; 50&nbsp;000&nbsp;femmes. Ces
+                                        derni&egrave;res ann&eacute;es, Gap Inc. a &eacute;largi
+                                        le programme au-del&agrave; des usines pour
+                                        r&eacute;pondre aux besoins des travailleuses de
+                                        l&rsquo;industrie de la confection au niveau
+                                        communautaire et faire un geste pour leurs filles en
+                                        mettant en place des programmes pour les adolescentes de
+                                        13 &agrave; 17&nbsp;ans.
+                                    </p>
+                                </ExampleInAction>
+                                 </Accordion.Panel>
+                                   </Accordion.Section>
+                                   </Accordion>
+                                <Accordion id="cocoa-chains-acc">
+                                                 <Accordion.Section id="cocoa-description">
+                                                    <Accordion.Title>
+                                                  Programmes de sant&eacute;
+                                                       </Accordion.Title>
+                                                       <Accordion.Panel>
+
+                                                       <p className="indent-margin">
+                                                          Les entreprises
+                                                          peuvent jouer un r&ocirc;le important en organisant des
+                                                          programmes de sant&eacute; pour les travailleurs,
+                                                          programmes qui am&eacute;liorent la qualit&eacute; de
+                                                          vie tout en rehaussant la productivit&eacute; au
+                                                          travail. Les programmes de sant&eacute; peuvent se
+                                                          pr&eacute;senter sous forme d&apos;initiatives
+                                                          &eacute;ducatives ou orienter la prestation de services
+                                                          de sant&eacute; vers les travailleurs et leurs familles.
+                                                          Ces efforts permettent d&apos;am&eacute;liorer la
+                                                          sant&eacute; des travailleurs et de leurs familles, ce
+                                                          qui att&eacute;nue la n&eacute;cessit&eacute; de
+                                                          s&apos;absenter du travail pour se soigner ou soigner
+                                                          d&apos;autres membres de leur famille.
+                                                       </p>
+                                                   </Accordion.Panel>
+                                               </Accordion.Section>
+                                               </Accordion>
+
+                                    <Accordion id="cocoa-chains-acc">
+                                                     <Accordion.Section id="cocoa-description">
+                                                        <Accordion.Title>
+                                                      Foyers d&apos;h&eacute;bergement, conseils, services juridiques et autres services pour les victimes
+
+                                                           </Accordion.Title>
+                                                           <Accordion.Panel>
+
+                                                           <p className="indent-margin">
+                                                               Les entreprises peuvent aider les victimes du travail
+                                                                  des enfants, du travail forc&eacute; et de la traite des
+                                                                  personnes en mettant en &oelig;uvre des mesures qui vont
+                                                                  au-del&agrave; de la surveillance et de la
+                                                                  r&eacute;paration de leurs cha&icirc;nes
+                                                                  d&apos;approvisionnement. Elles peuvent coop&eacute;rer
+                                                                  avec les forces de l&apos;ordre pour faire en sorte que
+                                                                  les coupables soient tenus responsables. Elles peuvent
+                                                                  &eacute;galement aider les victimes &agrave; avoir
+                                                                  acc&egrave;s &agrave; des services critiques, y compris
+                                                                  des foyers d&apos;h&eacute;bergement, des
+                                                                  services-conseil juridiques et psychologiques, et des
+                                                                  soins de sant&eacute;. Pour cela, il faudra
+                                                                  &eacute;ventuellement appuyer des programmes et des
+                                                                  &eacute;tablissements existants ou travailler avec des
+                                                                  partenaires et des gouvernements locaux pour lancer de
+                                                                  nouvelles initiatives.
+                                                           </p>
+                                                       </Accordion.Panel>
+                                                   </Accordion.Section>
+                                                   </Accordion>
+                                    <Accordion id="cocoa-chains-acc">
+                                                     <Accordion.Section id="cocoa-description">
+                                                        <Accordion.Title>
+                                                      &Eacute;ducation financi&egrave;re
+                                                           </Accordion.Title>
+                                                           <Accordion.Panel>
+
+                                                           <p className="indent-margin">
+                                                              Les
+                                                              travailleurs &agrave; faible revenu ne poss&egrave;dent
+                                                              souvent pas d&apos;&eacute;ducation concernant la
+                                                              gestion de leur finances.&nbsp;Une formation aux
+                                                              comp&eacute;tences financi&egrave;res de base les
+                                                              aiderait &agrave; am&eacute;liorer leur viabilit&eacute;
+                                                              financi&egrave;re.&nbsp;Il s&apos;agira par exemple
+                                                              d&apos;une formation concernant les techniques
+                                                              d&apos;&eacute;pargne de base ou de les aider &agrave;
+                                                              comprendre les produits financiers appropri&eacute;s et
+                                                              &agrave; y acc&eacute;der.
+                                                           </p>
+                                                       </Accordion.Panel>
+                                                   </Accordion.Section>
+                                                   </Accordion>
+                                    <Accordion id="cocoa-chains-acc">
+                                                     <Accordion.Section id="cocoa-description">
+                                                        <Accordion.Title>
+                                                       Modification des proc&eacute;d&eacute;s commerciaux
+                                                           </Accordion.Title>
+                                                           <Accordion.Panel>
+
+                                                           <p className="indent-margin">
+                                                               De simples changements des proc&eacute;d&eacute;s
+                                                              peuvent parfois avoir un impact consid&eacute;rable sur
+                                                              le quotidien des travailleurs. Par exemple, la
+                                                              fa&ccedil;on et le moment o&ugrave; leurs salaires sont
+                                                              vers&eacute;s sont critiques pour les employ&eacute;s
+                                                              &agrave; faible revenu. Un paiement fiable et uniforme
+                                                              rend la vie plus facile aux travailleurs qui ont peu ou
+                                                              pas d&apos;&eacute;conomies, et pour lesquels un salaire
+                                                              vers&eacute; en retard ou de fa&ccedil;on
+                                                              impr&eacute;visible leur fait courir des risques
+                                                              financiers. Les travailleurs qui sont pay&eacute;s
+                                                              &agrave; la pi&egrave;ce devraient clairement comprendre
+                                                              les modalit&eacute;s de leur r&eacute;mun&eacute;ration.
+                                                              De m&ecirc;me, les employeurs doivent s&rsquo;assurer
+                                                              que les travailleurs comprennent et acceptent
+                                                              compl&egrave;tement les retenues de salaire auxquels ils
+                                                              sont sujets, comme les imp&ocirc;ts et les cotisations
+                                                              syndicales. La formation professionnelle est
+                                                              &eacute;galement un moyen important, pour les
+                                                              entreprises, de s&rsquo;assurer que les travailleurs
+                                                              restent investis dans leur emploi tout en
+                                                              am&eacute;liorant les capacit&eacute;s commerciales et
+                                                              la productivit&eacute;.
+                                                           </p>
+                                                       </Accordion.Panel>
+                                                   </Accordion.Section>
+                                                   </Accordion>
+                                    <Accordion id="cocoa-chains-acc">
+                                                     <Accordion.Section id="cocoa-description">
+                                                        <Accordion.Title>
+                                                      D&eacute;veloppement des march&eacute;s
+                                                           </Accordion.Title>
+                                                           <Accordion.Panel>
+
+                                                           <p className="indent-margin">
+                                                             De
+                                                             nombreuses entreprises qui s&apos;approvisionnent en
+                                                             produits dans le monde en d&eacute;veloppement y
+                                                             commercialisent et y vendent &eacute;galement maintenant
+                                                             leurs produits. La croissance &eacute;conomique dans
+                                                             certains pays a cr&eacute;&eacute; de nouveaux
+                                                             march&eacute;s de grande taille pour les produits de
+                                                             consommation. De r&eacute;centes &eacute;tudes
+                                                             pr&ocirc;nent l&apos;investissement des entreprises dans
+                                                             l&apos;&eacute;ducation, la sant&eacute; et les
+                                                             programmes de subsistance en faveur du segment le plus
+                                                             pauvre de ces soci&eacute;t&eacute;s, ce que l&apos;on
+                                                             appelle « le bas de la pyramide », afin
+                                                             d&apos;encourager la croissance d&apos;une base de
+                                                             consommateurs durable.
+                                                           </p>
+                                                       </Accordion.Panel>
+                                                   </Accordion.Section>
+                                                   </Accordion>
+
+                                <Accordion id="resources">
+                                    <Accordion.Section>
+                                        <Accordion.Title>Autres ressources</Accordion.Title>
+                                        <Accordion.Panel>
+                                            <ol>
+                                                <li>
+                                                    Barnes &amp; Noble College League Collegiate
+                                                    Outfitters Creates Hope and Second Chances
+                                                    in El Salvador. [en ligne, disponible le
+                                                    8&nbsp;mai 2017]; disponible [en anglais]
+                                                    sur{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://next.bncollege.com/league-collegiate-outfitters/"
+                                                        title="Barnes &amp; Noble College League Collegiate Outfitters Creates Hope and Second Chances in El Salvador."
+                                                    >
+                                                        http://next.bncollege.com/league-collegiate-outfitters/
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    Business &amp; Human Rights Resource Centre,{" "}
+                                                    <em>Portail conflits et paix. </em>
+                                                    Disponible sur{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="https://www.business-humanrights.org/fr/conflits-et-paix/derni%C3%A8res-infos-%C2%AB-conflits-et-paix-%C2%BB"
+                                                        title="Portail conflits et paix."
+                                                    >
+                                                        https://www.business-humanrights.org/fr/conflits-et-paix/derni%C3%A8res-infos-%C2%AB-conflits-et-paix-%C2%BB
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    Chen, Shaohua, et Martin Ravillion.{" "}
+                                                    <em>
+                                                        Le monde en d&eacute;veloppement est
+                                                        plus pauvre que nous ne pensions, mais
+                                                        pas moins efficace pour autant dans la
+                                                        lutte contre la pauvret&eacute;
+                                                    </em>
+                                                    . Banque mondiale, Washington, DC,
+                                                    26&nbsp;ao&ucirc;t 2008; disponible [en
+                                                    anglais] sur{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://siteresources.worldbank.org/JAPANINJAPANESEEXT/Resources/515497-1201490097949/080827_The_Developing_World_is_Poorer_than_we_Thought.pdf"
+                                                        title="Le monde en d&eacute;veloppement est plus pauvre que nous ne pensions, mais pas moins efficace pour autant dans la lutte contre la pauvret&eacute;"
+                                                    >
+                                                        http://siteresources.worldbank.org/JAPANINJAPANESEEXT/Resources/515497-1201490097949/080827_The_Developing_World_is_Poorer_than_we_Thought.pdf
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    Ethical Trading Initiative.{" "}
+                                                    <em>Base Code Guidance: Living Wages; </em>
+                                                    disponible [en anglais] sur{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf"
+                                                        title="Base Code Guidance: Living Wages;"
+                                                    >
+                                                        https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    Fair Labor Association.
+                                                    <em> Fair Compensation</em> [en ligne,
+                                                    consult&eacute; le 15&nbsp;mai 2017];
+                                                    disponible [en anglais] sur{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://www.fairlabor.org/report-type/fair-compensation"
+                                                        title="Fair Compensation"
+                                                    >
+                                                        http://www.fairlabor.org/report-type/fair-compensation
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    Fair Labor Association.{" "}
+                                                    <em>
+                                                        Fair Compensation for Farmworkers:
+                                                        Emerging Good Practices and Challenges;{" "}
+                                                    </em>
+                                                    27&nbsp;f&eacute;vrier 2017; disponible [en
+                                                    anglais] sur{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges"
+                                                        title="Fair Compensation for Farmworkers: Emerging Good Practices and Challenges;"
+                                                    >
+                                                        http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    Fair Labor Association.{" "}
+                                                    <em>
+                                                        Toward Fair Compensation in Global
+                                                        Supply Chains: Factory Pay Assessments
+                                                        in 21 Countries;{" "}
+                                                    </em>
+                                                    3&nbsp;ao&ucirc;t&nbsp;2016; disponible [en
+                                                    anglais] sur{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries"
+                                                        title="Toward Fair Compensation in Global Supply Chains: Factory Pay Assessments in 21 Countries;"
+                                                    >
+                                                        http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    Rapport mondial sur les salaires 2016/17 de
+                                                    l&rsquo;OIT (2016): Les
+                                                    in&eacute;galit&eacute;s salariales au
+                                                    travail:{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_545416.pdf"
+                                                        title="Rapport mondial sur les salaires 2016/17: Les in&eacute;galit&eacute;s salariales au travail"
+                                                    >
+                                                        http://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_545416.pdf
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    Organisation internationale du travail.{" "}
+                                                    <em>
+                                                        Responsabilit&eacute; sociale
+                                                        d&apos;entreprise (RSE)
+                                                    </em>{" "}
+                                                    [page Web], disponible sur{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://www.ilo.org/ipec/Action/CSR/lang--fr/index.htm"
+                                                        title="Responsabilit&eacute; sociale d'entreprise (RSE)"
+                                                    >
+                                                        http://www.ilo.org/ipec/Action/CSR/lang--fr/index.htm
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    OIT (2016) Non-Standard Employment Around
+                                                    the World&nbsp;- Understanding Challenges,
+                                                    Shaping Prospects{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://www.ilo.org/global/publications/books/WCMS_534326/lang--en/index.htm"
+                                                        title="Non-Standard Employment Around the World&nbsp;- Understanding Challenges, Shaping Prospects"
+                                                    >
+                                                        http://www.ilo.org/global/publications/books/WCMS_534326/lang--fr/index.htm
+                                                    </a>{" "}
+                                                    [en anglais].
+                                                </li>
+                                                <li>
+                                                    OIT (2013) &Eacute;conomie informelle et
+                                                    travail d&eacute;cent: Guide de ressources
+                                                    sur les politiques&nbsp;&ndash; soutenir les
+                                                    transitions vers la formalit&eacute;{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://www.ilo.org/emppolicy/pubs/WCMS_229834/lang--fr/index.htm"
+                                                        title="&Eacute;conomie informelle et travail d&eacute;cent: Guide de ressources sur les politiques&nbsp;&ndash; soutenir les transitions vers la formalit&eacute;"
+                                                    >
+                                                        http://www.ilo.org/emppolicy/pubs/WCMS_229834/lang--fr/index.htm
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    OIT (2015) World Employment Social
+                                                    Outlook&nbsp;- The Changing Nature of Jobs.{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://www.ilo.org/global/research/global-reports/weso/2015-changing-nature-of-jobs/WCMS_368626/lang--fr/index.htm"
+                                                        title="World Employment Social Outlook&nbsp;- The Changing Nature of Jobs."
+                                                    >
+                                                        http://www.ilo.org/global/research/global-reports/weso/2015-changing-nature-of-jobs/WCMS_368626/lang--fr/index.htm
+                                                    </a>{" "}
+                                                    [en anglais] Veuillez noter que depuis 2015
+                                                    le rapport sur les Tendances mondiales de
+                                                    l&apos;emploi a &eacute;t&eacute;
+                                                    remplac&eacute; par une par une nouvelle
+                                                    s&eacute;rie phare annuelle de l&apos;OIT,
+                                                    Emploi et questions sociales dans le monde:
+                                                    Les Tendances (WESO en anglais).
+                                                </li>
+                                                <li>
+                                                    OIT (2014) World Social Protection Report:
+                                                    Building economic recovery, inclusive
+                                                    development and social justice.{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--fr/index.htm"
+                                                        title="World Social Protection Report: Building economic recovery, inclusive development and social justice."
+                                                    >
+                                                        http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--fr/index.htm
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    ISEAL Alliance.{" "}
+                                                    <em>Global Living Wage Coalition</em> [en
+                                                    ligne, consult&eacute; le 15&nbsp;mai 2017];
+                                                    disponible [en anglais] sur{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition"
+                                                        title="&gt;Global Living Wage Coalition"
+                                                    >
+                                                        https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    New York Times.{" "}
+                                                    <em>
+                                                        At Salvadoran Factory, Helping Troubled
+                                                        Youth Makes Business Sense.
+                                                    </em>{" "}
+                                                    21&nbsp;septembre&nbsp;2015. Disponible [en
+                                                    anglais] sur{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0."
+                                                        title="At Salvadoran Factory, Helping Troubled Youth Makes Business Sense"
+                                                    >
+                                                        https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    Weil, David. The Fissured Workplace: Why
+                                                    Work Became So Bad for So Many and What Can
+                                                    Be Done to Improve It. Cambridge, MA:
+                                                    Harvard University Press, 2014.
+                                                </li>
+                                                <li>
+                                                    Wilshaw, Rachel; Hamilton, Sloane;
+                                                    Theroux-Seguin, Julie et Daisy Gardener.{" "}
+                                                    <em>
+                                                        In Work but Trapped in Poverty: A
+                                                        Summary of Five Studies Conducted by
+                                                        Oxfam, with Updates on Progress Along
+                                                        the Road to a Living Wage;{" "}
+                                                    </em>
+                                                    Oxfam International,
+                                                    29&nbsp;septembre&nbsp;2015; disponible [en
+                                                    anglais] sur{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815"
+                                                        title="In Work but Trapped in Poverty: A Summary of Five Studies Conducted by Oxfam, with Updates on Progress Along the Road to a Living Wage"
+                                                    >
+                                                        http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    Banque mondiale. Indicateurs du
+                                                    d&eacute;veloppement dans le monde 2017.
+                                                    Washington, DC, avril 2017 ; disponible sur{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://data.worldbank.org/data-catalog/world-development-indicators"
+                                                        title="Banque mondiale. Indicateurs du d&eacute;veloppement dans le monde 2017."
+                                                    >
+                                                        http://data.worldbank.org/data-catalog/world-development-indicators
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    Institut de la Banque mondiale. Business and
+                                                    Poverty: Opening Markets to the Poor.
+                                                    Washington, DC, juin 2008 ; disponible [en
+                                                    anglais] sur{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://siteresources.worldbank.org/CGCSRLP/Resources/DevelopmentOutreachBusinessandPovertyBrochure.pdf"
+                                                        title="Institut de la Banque mondiale. Business and Poverty: Opening Markets to the Poor."
+                                                    >
+                                                        http://siteresources.worldbank.org/CGCSRLP/Resources/DevelopmentOutreachBusinessandPovertyBrochure.pdf
+                                                    </a>
+                                                    .
+                                                </li>
+                                                <li>
+                                                    Banque mondiale. Fragilit&eacute;, conflits
+                                                    et violences. 2017.{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://www.banquemondiale.org/fr/topic/fragilityconflictviolence/overview"
+                                                        title="http://www.banquemondiale.org/fr/topic/fragilityconflictviolence/overview"
+                                                    >
+                                                        http://www.banquemondiale.org/fr/topic/fragilityconflictviolence/overview
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    Internal Displacement Monitoring Centre.
+                                                    2016 Global Report on Internal Displacement
+                                                    [en anglais].{" "}
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        href="http://www.internal-displacement.org/globalreport2016/"
+                                                        title="http://www.internal-displacement.org/globalreport2016/"
+                                                    >
+                                                        http://www.internal-displacement.org/globalreport2016/
+                                                    </a>
+                                                    .
+                                                </li>
+                                            </ol>
+                                        </Accordion.Panel>
+                                    </Accordion.Section>
+                                </Accordion>
             </div>
         </StaticData>
     );

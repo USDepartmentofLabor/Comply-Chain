@@ -26,8 +26,8 @@ export const StepData = {
                     "For the purposes of this App, synonymous with auditing."
             }
         ],
-        furtherResources: Resources.en,
-        extraInfo: ExtraInfo.en
+        furtherResources: Resources.en
+
     },
     es: {
         title: "Quinto paso: Vigilancia y seguimiento del cumplimiento",

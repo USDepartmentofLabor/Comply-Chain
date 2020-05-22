@@ -112,6 +112,29 @@ const fr = () => {
                     jug&eacute;es plus importantes par la direction et les
                     contrema&icirc;tres.
                 </p>
+                <p>
+                    L&apos;&eacute;laboration de documents, la programmation de
+                    cours de formation, l&apos;embauche de formateurs et le
+                    suivi de l&apos;ex&eacute;cution de la formation
+                    repr&eacute;sentent tous des investissements importants. Il
+                    existe diff&eacute;rentes fa&ccedil;ons de structurer le
+                    financement de votre programme de formation. Certaines
+                    entreprises d&eacute;cident simplement d&apos;affecter une
+                    grande partie de leur budget de conformit&eacute; sociale
+                    &agrave; la formation et au renforcement des
+                    capacit&eacute;s, car elles estiment que la formation permet
+                    d&apos;&eacute;viter les probl&egrave;mes et qu&apos;elle
+                    est source d&apos;&eacute;conomies &agrave; long terme.
+                    Certaines entreprises offrent un ensemble de base
+                    d&rsquo;actions de formation &agrave; titre gracieux, mais
+                    si des violations du code sont rep&eacute;r&eacute;es, pour
+                    lesquelles une formation est obligatoire dans le cadre des
+                    r&eacute;parations, le fournisseur se charge alors de
+                    couvrir les frais de cette formation. Dans certaines
+                    relations, les vendeurs/agents ou fournisseurs sont
+                    enti&egrave;rement responsables de la formation, notamment
+                    de l&rsquo;ensemble des co&ucirc;ts en la mati&egrave;re.
+                </p>
                 <ExampleInAction id="cocoa">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -227,7 +250,15 @@ const fr = () => {
                         .
                     </p>
                 </ExampleInAction>
-                <p>
+                <ExampleInAction id="iloscore">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                        Exemple d&apos;action: Le programme de l&apos;OIT d&rsquo;appui des entreprises comp&eacute;titives et
+                        responsables (SCORE)
+                        </strong>
+                    </h2>
+                    <p>
                     Le programme de l&apos;OIT d&rsquo;
                     <a
                         target="_blank"
@@ -255,30 +286,10 @@ const fr = () => {
                     repr&eacute;sentant plus de 270&nbsp;000&nbsp;travailleurs
                     avaient particip&eacute; &agrave; des formations
                     organis&eacute;es par SCORE.&nbsp;
-                </p>
-                <p>
-                    L&apos;&eacute;laboration de documents, la programmation de
-                    cours de formation, l&apos;embauche de formateurs et le
-                    suivi de l&apos;ex&eacute;cution de la formation
-                    repr&eacute;sentent tous des investissements importants. Il
-                    existe diff&eacute;rentes fa&ccedil;ons de structurer le
-                    financement de votre programme de formation. Certaines
-                    entreprises d&eacute;cident simplement d&apos;affecter une
-                    grande partie de leur budget de conformit&eacute; sociale
-                    &agrave; la formation et au renforcement des
-                    capacit&eacute;s, car elles estiment que la formation permet
-                    d&apos;&eacute;viter les probl&egrave;mes et qu&apos;elle
-                    est source d&apos;&eacute;conomies &agrave; long terme.
-                    Certaines entreprises offrent un ensemble de base
-                    d&rsquo;actions de formation &agrave; titre gracieux, mais
-                    si des violations du code sont rep&eacute;r&eacute;es, pour
-                    lesquelles une formation est obligatoire dans le cadre des
-                    r&eacute;parations, le fournisseur se charge alors de
-                    couvrir les frais de cette formation. Dans certaines
-                    relations, les vendeurs/agents ou fournisseurs sont
-                    enti&egrave;rement responsables de la formation, notamment
-                    de l&rsquo;ensemble des co&ucirc;ts en la mati&egrave;re.
-                </p>
+                    </p>
+                </ExampleInAction>
+                
+                
             </div>
         </StaticData>
     );

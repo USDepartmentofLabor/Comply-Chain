@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+
 
 const fr = () => {
     return (
@@ -67,6 +69,16 @@ const fr = () => {
                     </Link>
                     .
                 </p>
+                 <ExampleInAction id="better_work_assessment">
+                                <h3>
+                                    <ExampleInAction.Icon alt="Lightbulb"/>
+                                    Exemple d&apos;action: Worker Voice in the Audit Process
+                                </h3>
+                                <p>
+                                   <b>PLACEHOLDER FOR TEXT</b>
+                                </p>
+                            </ExampleInAction>
+
             </div>
         </StaticData>
     );

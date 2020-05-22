@@ -3,7 +3,6 @@ import { TopicData as Topic2 } from "./2";
 import { TopicData as Topic3 } from "./3";
 import { TopicData as Topic4 } from "./4";
 import { TopicData as Topic5 } from "./5";
-import { TopicData as Topic6 } from "./6";
 import { TopicData as Topic7 } from "./7";
 import { TopicData as Topic8 } from "./8";
 import { TopicData as Topic9 } from "./9";
@@ -34,11 +33,6 @@ export const Topics = {
             keywords: [],
             title: "Steps in an Audit",
             content: Topic5.en
-        },
-        {
-            keywords: [],
-            title: "How to Interview a Child",
-            content: Topic6.en
         },
         {
             keywords: [],
@@ -82,11 +76,6 @@ export const Topics = {
             keywords: [],
             title: "Pasos de una auditoría",
             content: Topic5.es
-        },
-        {
-            keywords: [],
-            title: "Cómo entrevistar a un niño",
-            content: Topic6.es
         },
         {
             keywords: [],
@@ -134,11 +123,6 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Mener un entretien avec un enfant",
-            content: Topic6.fr
-        },
-        {
-            keywords: [],
             title:
                 "Sujet particulier: Sous-traitance informelle et travail à domicile",
             content: Topic7.fr
@@ -180,11 +164,6 @@ export const Topics = {
                 keywords: [],
                 title: "Steps in an Audit",
                 content: Topic5.en
-            },
-            {
-                keywords: [],
-                title: "How to Interview a Child",
-                content: Topic6.en
             },
             {
                 keywords: [],

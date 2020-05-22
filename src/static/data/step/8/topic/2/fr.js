@@ -1,940 +1,409 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
-import styled from "styled-components";
-import { theme } from "../../../../../../modules/config/theme";
-
-const Table = styled.table`
-    border-collapse: collapse;
-    border: 2px solid ${theme.colors.charcoal};
-    margin-bottom: 16px;
-
-    & th,
-    td {
-        border: 1px solid ${theme.colors.charcoal};
-    }
-`;
 
 const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Emp&ecirc;cher la r&eacute;cidive</h1>
+                <h1>Am&eacute;liorer la situation des victimes</h1>
                 <p>
-                    Outre le r&egrave;glement des situations des victimes
-                    individuelles, il est important d&apos;analyser la raison
-                    pour laquelle une violation s&apos;est produite. Cette
-                    analyse est diff&eacute;rente d&apos;une simple attribution
-                    du travail des enfants et du travail forc&eacute; &agrave;
-                    la pauvret&eacute;, &agrave; l&apos;inefficacit&eacute; des
-                    institutions du gouvernement et &agrave; d&apos;autres
-                    motifs, qui sont abord&eacute;s dans S&rsquo;attaquer aux
-                    causes profondes.&nbsp;
+                    Les &eacute;quipes d&rsquo;audit doivent &ecirc;tre
+                    pr&ecirc;tes &agrave; faire face &agrave; toutes sortes de
+                    situations relatives au travail des enfants ou au travail
+                    forc&eacute; sur le lieu de travail, allant de cas
+                    individuels &agrave; des situations d&apos;abus
+                    syst&eacute;miques et patents. Avant l&apos;audit, les
+                    auditeurs devraient se pr&eacute;parer en prenant
+                    connaissance des ressources locales, y compris des forces de
+                    l&apos;ordre et des organisations qui fournissent des
+                    services aux victimes. Les entreprises qui auront
+                    rassembl&eacute; ce type de donn&eacute;es dans le cadre de
+                    leurs &eacute;valuations des risques et de leurs efforts de
+                    communication, et les auront saisies dans leurs
+                    syst&egrave;mes d&apos;information, seront les mieux
+                    &agrave; m&ecirc;me de pr&eacute;parer les auditeurs en leur
+                    remettant ces informations &agrave; l&apos;avance.
                 </p>
                 <p>
-                    Dans ces cas, et comme indiqu&eacute; ci-dessus, les propres
-                    actions de votre entreprise (par exemple la pression
-                    exerc&eacute;e pour ex&eacute;cuter les commandes &agrave;
-                    une date donn&eacute;e ou des modifications subites de leur
-                    volume ou des mod&egrave;les) pourraient entra&icirc;ner des
-                    situations o&ugrave; les fournisseurs sont pouss&eacute;s
-                    &agrave; exiger des heures suppl&eacute;mentaires, &agrave;
-                    une embauche suppl&eacute;mentaire par le biais de courtiers
-                    ou de recruteurs qui ne sont peut-&ecirc;tre pas pleinement
-                    conformes, et/ou &agrave; sous-traiter avec des
-                    sous-traitants non agr&eacute;&eacute;s pour que le travail
-                    soit r&eacute;alis&eacute;. Dans de nombreux autres cas, les
-                    manquements de la direction et la d&eacute;faillance des
-                    politiques, des processus et/ou de la formation sur le lieu
-                    de travail sont les principales causes des violations, et
-                    ces probl&egrave;mes peuvent, et devraient, &ecirc;tre
-                    r&eacute;par&eacute;s.
+                    &Agrave; titre de principe directeur, les actions
+                    imm&eacute;diates des auditeurs et les mesures correctives
+                    permanentes prises par la direction devraient &ecirc;tre
+                    centr&eacute;es sur ce qui sert le mieux les
+                    int&eacute;r&ecirc;ts des victimes en question. Les cas
+                    d&apos;abus patents qui enfreignent la l&eacute;gislation
+                    locale devraient &ecirc;tre signal&eacute;s aux
+                    autorit&eacute;s de police locales, mais d&apos;une
+                    fa&ccedil;on qui garantisse la s&eacute;curit&eacute; et le
+                    bien-&ecirc;tre des victimes. Vous trouverez ci-dessous des
+                    recommandations g&eacute;n&eacute;rales de mesures pouvant
+                    &ecirc;tre prises en r&eacute;ponse &agrave;
+                    diff&eacute;rentes constatations relatives au travail des
+                    enfants et au travail forc&eacute;.
                 </p>
                 <h2>Travail des enfants</h2>
+                <h2>Travailleurs mineurs.</h2>
                 <p>
-                    Dans les cas de <strong>travail des enfants</strong>, les
-                    causes peuvent inclure:
-                </p>
-                <div className="indent-margin">
-                    <p>
-                        Non-v&eacute;rification de documents attestant
-                        l&apos;&acirc;ge au moment de l&apos;embauche, ou
-                        non-contr&ocirc;le, non-v&eacute;rification ou non-suivi
-                        de ces m&ecirc;mes documents ;
-                    </p>
-                    <p>
-                        De la part de la direction, manque de
-                        compr&eacute;hension des activit&eacute;s
-                        appropri&eacute;es, des dangers de l&apos;emploi, et/ou
-                        des heures de travail appropri&eacute;es pour les
-                        enfants ; et
-                    </p>
-                    <p>
-                        Relations de travail informelles permettant aux enfants
-                        de «&nbsp;passer inaper&ccedil;us&nbsp;».
-                    </p>
-                </div>
-                <p>
-                    Les{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://impacttlimited.com/wp-content/uploads/2017/01/Impactt_CLOPIndustrialcontexts_REVISION_26112008.pdf"
-                        title="Proc&eacute;dures op&eacute;rationnelles pour la r&eacute;paration des cas de travail des enfants dans les contextes industriels"
-                    >
-                        proc&eacute;dures op&eacute;rationnelles pour la
-                        r&eacute;paration des cas de travail des enfants dans
-                        les contextes industriels
-                    </a>{" "}
-                    de Impactt Limited fournissent des orientations
-                    d&eacute;taill&eacute;es sur comment am&eacute;liorer la
-                    situation des victimes et emp&ecirc;cher la r&eacute;cidive
-                    lorsque ces cas sont d&eacute;couverts dans le secteur de la
-                    manufacture.
-                </p>
-                <h3>Travail forc&eacute;</h3>
-                <p>
-                    Dans les cas de <strong>travail forc&eacute;</strong>, les
-                    causes peuvent inclure:
-                </p>
-                <div className="indent-margin">
-                    <p>
-                        Calcul inexact des salaires et des retenues, et/ou
-                        paiement retard&eacute; des salaires;
-                    </p>
-                    <p>
-                        Absence de politiques et proc&eacute;dures claires
-                        concernant le recrutement et l&apos;embauche des
-                        travailleurs;
-                    </p>
-                    <p>
-                        Absence de proc&eacute;dures claires pour s&apos;assurer
-                        que tous les travailleurs disposent d&apos;un contrat
-                        pr&eacute;cisant clairement les modalit&eacute;s de leur
-                        emploi, dans une langue qu&apos;ils comprennent, et que
-                        toute modification apport&eacute;e au contrat sera
-                        r&eacute;alis&eacute;e avec le consentement
-                        &eacute;clair&eacute; et &eacute;crit des travailleurs;
-                    </p>
-                    <p>
-                        Absence de m&eacute;canismes par lesquels les
-                        travailleurs peuvent pr&eacute;senter des
-                        r&eacute;clamations;
-                    </p>
-                    <p>Mauvaise tenue de registres;</p>
-                    <p>
-                        Absence de politiques et proc&eacute;dures
-                        sp&eacute;cifiques aux travailleurs migrants, y compris
-                        des m&eacute;canismes garantissant que les
-                        courtiers/agents ne leur r&eacute;clament pas des
-                        redevances, qu&apos;ils ne sont pas contraints de
-                        d&eacute;poser des arrhes, qu&apos;ils re&ccedil;oivent
-                        des modalit&eacute;s et des conditions d&apos;emploi
-                        &eacute;gales &agrave; celles des non-migrants; et
-                    </p>
-                    <p>
-                        Politiques qui permettent aux employeurs de
-                        «&nbsp;garder&nbsp;» les documents
-                        d&apos;identit&eacute; des employ&eacute;s de
-                        fa&ccedil;on &agrave; ce que ceux-ci ne soient pas
-                        &agrave; la disposition des travailleurs &agrave; leur
-                        gr&eacute;.
-                    </p>
-                </div>
-                <p>
-                    Bien entendu, les causes des violations peuvent aller
-                    au-del&agrave; des simples manquements d&apos;un
-                    syst&egrave;me et peuvent &ecirc;tre le r&eacute;sultat
-                    d&apos;une man&oelig;uvre d&eacute;lib&eacute;r&eacute;e du
-                    fournisseur, de la direction, de certains employ&eacute;s
-                    et/ou de recruteurs. Qu&apos;elles soient accidentelles ou
-                    d&eacute;lib&eacute;r&eacute;es, les violations devraient
-                    &ecirc;tre r&eacute;par&eacute;es par le biais d&apos;un
-                    plan d&apos;action corrective qui oblige le fournisseur
-                    &agrave; rendre des comptes.
+                    Si l&apos;audit identifie sur le lieu de travail un
+                    travailleur qui n&apos;a pas l&apos;&acirc;ge l&eacute;gal
+                    d&rsquo;admission &agrave; l&rsquo;emploi dans le pays,
+                    celui-ci devrait &ecirc;tre retir&eacute;
+                    imm&eacute;diatement de ce lieu. Si l&apos;audit identifie
+                    un enfant en &acirc;ge l&eacute;gal de travailler dans le
+                    pays, la r&eacute;ponse imm&eacute;diate appropri&eacute;e
+                    d&eacute;pend alors du code de conduite de
+                    l&rsquo;entreprise. Si l&rsquo;entreprise a fix&eacute; un
+                    &acirc;ge minimum sup&eacute;rieur &agrave; l&apos;&acirc;ge
+                    l&eacute;gal minimum, l&apos;enfant devrait quitter ce
+                    travail imm&eacute;diatement s&apos;il n&apos;a pas atteint
+                    cet &acirc;ge.&nbsp;
                 </p>
                 <p>
-                    Les tableaux 1 &agrave; 4 d&eacute;crivent certaines des
-                    mesures de r&eacute;paration qui peuvent &ecirc;tre prises
-                    si des indicateurs de travail forc&eacute; sont
-                    d&eacute;tect&eacute;s. Dans tous les cas, les
-                    probl&egrave;mes devraient &ecirc;tre document&eacute;s et
-                    suivis et les syst&egrave;mes de gestion devraient
-                    &ecirc;tre mis &agrave; jour pour emp&ecirc;cher les
-                    r&eacute;cidives.
+                    Toutefois, il est crucial de garder &agrave; l&apos;esprit
+                    les cons&eacute;quences possibles pour l&apos;enfant.
+                    L&apos;enfant et sa famille perdront des revenus et &agrave;
+                    moins que ces revenus ne soient remplac&eacute;s,
+                    l&apos;enfant trouvera simplement un emploi
+                    diff&eacute;rent, peut-&ecirc;tre dans de pires conditions
+                    pour sa sant&eacute;, sa s&eacute;curit&eacute; ou son
+                    bien-&ecirc;tre. Les entreprises peuvent prendre des mesures
+                    pour att&eacute;nuer cette situation en:
                 </p>
-                <Table>
-                    <caption>
-                        Tableau&nbsp;1: R&eacute;paration des probl&egrave;mes
-                        concernant les pratiques de recrutement
-                    </caption>
-                    <tbody>
-                        <tr>
-                            <th scope="col" width="55%" scope="col">
-                                <p>
-                                    <strong>Situations</strong>
-                                </p>
-                            </th>
-                            <th scope="col" width="45%" scope="col">
-                                <p>
-                                    <strong>
-                                        Actions de r&eacute;paration
-                                    </strong>
-                                </p>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Travailleurs enlev&eacute;s, retenus pendant
-                                    le processus de recrutement, ou vendus.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Signaler les d&eacute;lits aux
-                                    autorit&eacute;s de police. Travailler avec
-                                    les forces de l&apos;ordre et les groupes
-                                    locaux pour donner aux victimes un lieu
-                                    d&apos;h&eacute;bergement s&ucirc;r et les
-                                    mettre en relation avec les services
-                                    n&eacute;cessaires.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Travailleurs recrut&eacute;s par un
-                                    pr&ecirc;t ou une avance sur salaire et qui
-                                    travaillent pour le rembourser.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Si le fournisseur a vers&eacute; le
-                                    pr&ecirc;t ou l&apos;avance sur salaire,
-                                    d&eacute;terminer si les modalit&eacute;s en
-                                    &eacute;taient raisonnables.&nbsp;Dans le
-                                    cas contraire, n&eacute;gocier des
-                                    modalit&eacute;s raisonnables entre le
-                                    fournisseur et le travailleur. Si le
-                                    pr&ecirc;t ou l&apos;avance sur salaire a
-                                    &eacute;t&eacute; vers&eacute; par un
-                                    recruteur de main d&rsquo;&oelig;uvre,
-                                    d&eacute;terminer si le fournisseur
-                                    &eacute;tait conscient de cet arrangement.
-                                    Dans ce cas, n&eacute;gocier des
-                                    modalit&eacute;s raisonnables entre le
-                                    fournisseur, le recruteur et le
-                                    travailleur.&nbsp;Dans le cas contraire,
-                                    exiger que le fournisseur mette fin &agrave;
-                                    sa relation avec le recruteur. Signaler les
-                                    recruteurs peu scrupuleux aux
-                                    autorit&eacute;s.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Recrutement trompeur: il a &eacute;t&eacute;
-                                    promis aux travailleurs des types de
-                                    travail, des conditions de travail, des
-                                    modalit&eacute;s de contrat, des conditions
-                                    de logement ou d&apos;existence, des lieux
-                                    de travail, des employeurs ou des
-                                    salaires/revenus qui ne se sont pas
-                                    r&eacute;alis&eacute;s.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Si le fournisseur a fait de fausses
-                                    promesses, il devrait remettre
-                                    l&apos;int&eacute;gralit&eacute; des
-                                    salaires dus &agrave; tous les
-                                    employ&eacute;s qui souhaitent partir et
-                                    leur fournir des moyens de transport pour
-                                    rentrer chez eux .&nbsp;Si de fausses
-                                    promesses ont &eacute;t&eacute; faites par
-                                    un recruteur, d&eacute;terminer si le
-                                    fournisseur &eacute;tait conscient de cet
-                                    arrangement.&nbsp;Dans ce cas, le
-                                    fournisseur reste responsable des
-                                    &eacute;l&eacute;ments ci-dessus.&nbsp;Dans
-                                    le cas contraire, exiger que le fournisseur
-                                    mette fin &agrave; sa relation avec le
-                                    recruteur.&nbsp;Signaler les recruteurs peu
-                                    scrupuleux aux autorit&eacute;s.
-                                </p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </Table>
-                <Table>
-                    <caption>
-                        Tableau&nbsp;2: R&eacute;paration des probl&egrave;mes
-                        concernant les conditions de travail et
-                        d&rsquo;existence
-                    </caption>
-                    <tbody>
-                        <tr>
-                            <th scope="col" width="55%" scope="col">
-                                <p>
-                                    <strong>Situations</strong>
-                                </p>
-                            </th>
-                            <th scope="col" width="45%" scope="col">
-                                <p>
-                                    <strong>
-                                        Actions de r&eacute;paration
-                                    </strong>
-                                </p>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Heures suppl&eacute;mentaires des
-                                    travailleurs excessives d&eacute;passant les
-                                    limites l&eacute;gales.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    S&apos;assurer que le fournisseur
-                                    r&egrave;gle aux travailleurs les
-                                    arri&eacute;r&eacute;s de salaires de toutes
-                                    les heures suppl&eacute;mentaires
-                                    effectu&eacute;es. Collaborer avec le
-                                    fournisseur pour &eacute;valuer les
-                                    pratiques de dotation en personnel et de
-                                    r&eacute;mun&eacute;ration, par exemple pour
-                                    le travail pay&eacute; &agrave; la
-                                    pi&egrave;ce, qui contribuent aux heures
-                                    suppl&eacute;mentaires. Examiner vos propres
-                                    pratiques d&apos;approvisionnement, y
-                                    compris les d&eacute;lais, les modifications
-                                    des commandes, la fixation des prix et
-                                    d&rsquo;autres pressions, qui pourraient
-                                    entra&icirc;ner des mesures extraordinaires
-                                    de compression des d&eacute;penses de la
-                                    part du fournisseur, y compris des heures
-                                    suppl&eacute;mentaires excessives.
-                                    S&apos;assurer que tous les travailleurs
-                                    re&ccedil;oivent une formation au sujet de
-                                    leurs droits en vertu de la loi et du
-                                    syst&egrave;me de conformit&eacute; sociale.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Travailleurs devant effectuer des
-                                    astreintes.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Collaborer avec le fournisseur pour
-                                    concevoir un plan de dotation en personnel
-                                    plus structur&eacute; r&eacute;pondant aux
-                                    exigences de votre code. S&apos;assurer que
-                                    tous les travailleurs re&ccedil;oivent une
-                                    formation au sujet de leurs droits en vertu
-                                    de la loi et de votre syst&egrave;me de
-                                    conformit&eacute; sociale.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    L&apos;employeur limite la libert&eacute; de
-                                    circulation ou de communication des
-                                    travailleurs.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    D&eacute;terminer qui (direction,
-                                    contrema&icirc;tres, chefs
-                                    d&apos;&eacute;quipe, etc.) prend part
-                                    &agrave; la limitation de la libert&eacute;
-                                    de circulation ou de communication des
-                                    travailleurs et enqu&ecirc;ter sur les
-                                    actions de ces personnes. Si des personnes
-                                    agissent de leur propre chef sans que la
-                                    direction en soit consciente, prendre les
-                                    mesures appropri&eacute;es &agrave; leur
-                                    &eacute;gard, ce qui pourrait comprendre une
-                                    formation, une mise &agrave; pied ou un
-                                    licenciement. Si ces limitations viennent de
-                                    la direction, mettre fin &agrave; la
-                                    relation avec le fournisseur ou lui accorder
-                                    de brefs d&eacute;lais pour qu&rsquo;il
-                                    cesse ces pratiques.&nbsp;
-                                </p>
-                                <p>
-                                    Poursuivre l&apos;enqu&ecirc;te sur les
-                                    conditions et les circonstances sur le lieu
-                                    de travail que la direction ou les
-                                    contrema&icirc;tres tenteraient de
-                                    dissimuler, y compris par des entretiens
-                                    hors du site avec des travailleurs et
-                                    d&apos;autres membres de la
-                                    communaut&eacute; bien inform&eacute;s.
-                                    S&apos;assurer que tous les travailleurs
-                                    re&ccedil;oivent une formation au sujet de
-                                    leurs droits en vertu des lois et de votre
-                                    code de conduite, y compris les voies de
-                                    r&eacute;clamation. S&apos;assurer que les
-                                    travailleurs qui souhaitent quitter leur
-                                    emploi peuvent le faire et qu&apos;ils
-                                    re&ccedil;oivent
-                                    l&apos;int&eacute;gralit&eacute; des
-                                    salaires qui leur sont dus.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Conditions de vie d&eacute;gradantes.</p>
-                            </td>
-                            <td>
-                                <p>
-                                    S&apos;assurer que le fournisseur comprend
-                                    pleinement vos normes minimales concernant
-                                    le logement des employ&eacute;s. Accorder au
-                                    fournisseur de brefs d&eacute;lais pour
-                                    am&eacute;liorer l&rsquo;ensemble des
-                                    conditions d&rsquo;existence. S&apos;assurer
-                                    que tous les travailleurs re&ccedil;oivent
-                                    une formation au sujet de leurs droits en
-                                    vertu des lois et de votre code de conduite,
-                                    y compris les normes de logement.
-                                    S&apos;assurer que les travailleurs qui
-                                    souhaitent quitter leur emploi peuvent le
-                                    faire et qu&apos;ils re&ccedil;oivent
-                                    l&apos;int&eacute;gralit&eacute; des
-                                    salaires qui leur sont dus.&nbsp;
-                                </p>
-                                <p>
-                                    Faire suivre d&apos;une enqu&ecirc;te
-                                    inopin&eacute;e, qui comprend des entretiens
-                                    ext&eacute;rieurs avec les travailleurs et
-                                    d&apos;autres membres de la
-                                    communaut&eacute; bien inform&eacute;s. Si
-                                    les conditions d&rsquo;existence ne se sont
-                                    pas am&eacute;lior&eacute;es, mettre fin
-                                    &agrave; la relation avec le fournisseur,
-                                    tout en att&eacute;nuant l&apos;impact de
-                                    cette rupture sur les travailleurs.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Les travailleurs sont contraints
-                                    d&apos;ex&eacute;cuter des activit&eacute;s
-                                    illicites, de travailler pour le domicile
-                                    priv&eacute;/la famille ou de prendre des
-                                    drogues toxicomanog&egrave;nes.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    D&eacute;terminer qui (direction,
-                                    contrema&icirc;tres, chefs
-                                    d&apos;&eacute;quipe, etc.) prend part
-                                    &agrave; la limitation de la libert&eacute;
-                                    de circulation ou de communication des
-                                    travailleurs et enqu&ecirc;ter sur les
-                                    actions de ces personnes. Si des personnes
-                                    agissent de leur propre chef sans que la
-                                    direction en soit consciente, prendre les
-                                    mesures appropri&eacute;es &agrave; leur
-                                    &eacute;gard, ce qui pourrait comprendre une
-                                    formation, une mise &agrave; pied ou un
-                                    licenciement. Si ces limitations viennent de
-                                    la direction, mettre fin &agrave; la
-                                    relation avec le fournisseur ou lui accorder
-                                    de brefs d&eacute;lais pour qu&rsquo;il
-                                    cesse ces pratiques.&nbsp;
-                                </p>
-                                <p>
-                                    Poursuivre l&apos;enqu&ecirc;te sur les
-                                    conditions et les circonstances sur le lieu
-                                    de travail que la direction ou les
-                                    contrema&icirc;tres tenteraient de
-                                    dissimuler, y compris par des entretiens
-                                    hors du site avec des travailleurs et
-                                    d&apos;autres membres de la
-                                    communaut&eacute; bien inform&eacute;s.
-                                    S&apos;assurer que tous les travailleurs
-                                    re&ccedil;oivent une formation au sujet de
-                                    leurs droits en vertu des lois et de votre
-                                    code de conduite, y compris les voies de
-                                    r&eacute;clamation. S&apos;assurer que les
-                                    travailleurs qui souhaitent quitter leur
-                                    emploi peuvent le faire et qu&apos;ils
-                                    re&ccedil;oivent
-                                    l&apos;int&eacute;gralit&eacute; des
-                                    salaires qui leur sont dus.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Le fournisseur accro&icirc;t
-                                    artificiellement la dette des travailleurs.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    D&eacute;terminer la source de la dette
-                                    initiale des travailleurs. Si la dette
-                                    initiale a &eacute;t&eacute;
-                                    contract&eacute;e aupr&egrave;s du
-                                    fournisseur, exiger du fournisseur
-                                    qu&apos;il annule cette dette. Si la dette
-                                    initiale a &eacute;t&eacute;
-                                    contract&eacute;e aupr&egrave;s d&apos;un
-                                    recruteur, enqu&ecirc;ter pour savoir si le
-                                    fournisseur &eacute;tait conscient de cet
-                                    arrangement de dette. Dans ce cas, exiger du
-                                    fournisseur qu&apos;il annule la dette. Dans
-                                    le cas contraire, exiger que le fournisseur
-                                    mette fin &agrave; sa relation avec le
-                                    recruteur. Signaler le recruteur aux
-                                    autorit&eacute;s.
-                                </p>
-                                <p>
-                                    En ce qui concerne l&apos;accroissement
-                                    artificiel de la dette, exiger que
-                                    l&apos;employeur cesse imm&eacute;diatement
-                                    d&apos;imputer des int&eacute;r&ecirc;ts
-                                    quels qu&apos;ils soient sur la dette. Si la
-                                    dette est accrue par des achats
-                                    aupr&egrave;s de l&apos;employeur, par
-                                    exemple &agrave; la cantine,
-                                    d&eacute;terminer si les travailleurs ont
-                                    d&apos;autres options. Si les achats dans
-                                    des magasins d&eacute;tenus par
-                                    l&apos;employeur sont la seule option viable
-                                    pour les travailleurs, collaborer avec le
-                                    fournisseur pour garantir que les prix et
-                                    les modalit&eacute;s sont raisonnables.
-                                </p>
-                                <p>
-                                    S&apos;assurer que les travailleurs qui
-                                    souhaitent quitter leur emploi peuvent le
-                                    faire et qu&apos;ils re&ccedil;oivent
-                                    l&apos;int&eacute;gralit&eacute; des
-                                    salaires qui leur sont dus.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Les travailleurs sont tributaires de
-                                    l&apos;employeur pour leur logement, leur
-                                    nourriture ou d&rsquo;autres
-                                    n&eacute;cessit&eacute;s.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Dans certains cas, particuli&egrave;rement
-                                    en ce qui concerne les travailleurs
-                                    migrants, la fourniture par l&apos;employeur
-                                    d&rsquo;un logement, de nourriture et
-                                    d&apos;autres n&eacute;cessit&eacute;s peut
-                                    &ecirc;tre la meilleure option pour toutes
-                                    les parties concern&eacute;es. Toutefois, la
-                                    qualit&eacute; des logements et des aliments
-                                    doit &ecirc;tre examin&eacute;e et si elle
-                                    ne correspond pas aux normes minimales,
-                                    collaborer avec le fournisseur pour
-                                    l&rsquo;am&eacute;liorer.
-                                </p>
-                                <p>
-                                    Faire suivre d&apos;une enqu&ecirc;te
-                                    inopin&eacute;e, qui comprend des entretiens
-                                    ext&eacute;rieurs avec les travailleurs et
-                                    d&apos;autres membres de la
-                                    communaut&eacute; bien inform&eacute;s. Si
-                                    les conditions
-                                    d&apos;existence/d&apos;alimentation ne
-                                    s&apos;am&eacute;liorent pas, mettre fin
-                                    &agrave; la relation avec le fournisseur.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Les travailleurs sont personnellement
-                                    d&eacute;pendants de l&apos;employeur.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    S&apos;assurer que tous les travailleurs
-                                    re&ccedil;oivent une formation au sujet de
-                                    leurs droits sur le lieu de travail en vertu
-                                    des lois et de votre code de conduite,
-                                    quelles que soient leurs relations
-                                    personnelles.
-                                </p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </Table>
-                <Table>
-                    <caption>
-                        Tableau&nbsp;3: R&eacute;paration des probl&egrave;mes
-                        concernant l&apos;«&nbsp;impossibilit&eacute; de
-                        partir&nbsp;»
-                    </caption>
-                    <tbody>
-                        <tr>
-                            <th scope="col" width="55%" scope="col">
-                                <p>
-                                    <strong>Situations</strong>
-                                </p>
-                            </th>
-                            <th scope="col" width="45%" scope="col">
-                                <p>
-                                    <strong>
-                                        Actions de r&eacute;paration
-                                    </strong>
-                                </p>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Les travailleurs estiment qu&apos;ils ne
-                                    sont pas libres de d&eacute;missionner en
-                                    raison des avantages qu&apos;ils ont
-                                    re&ccedil;us ou des restrictions
-                                    impos&eacute;es par l&apos;employeur.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Si un contrema&icirc;tre ou toute autre
-                                    personne am&egrave;ne les travailleurs
-                                    &agrave; croire qu&apos;ils ne peuvent
-                                    partir parce que le fournisseur a fourni une
-                                    formation ou d&apos;autres avantages, ou
-                                    parce qu&apos;il existe un exigence
-                                    contractuelle ill&eacute;gale, exiger du
-                                    fournisseur qu&apos;il prenne des mesures
-                                    correctives appropri&eacute;es &agrave;
-                                    l&apos;encontre de cette personne, mesures
-                                    allant de la formation au licenciement. Si
-                                    les travailleurs ne comprennent simplement
-                                    pas leurs droits, fournir une formation pour
-                                    s&apos;assurer qu&apos;ils savent &agrave;
-                                    quel moment ils peuvent d&eacute;missionner.
-                                    S&apos;assurer que les travailleurs qui
-                                    souhaitent quitter leur emploi peuvent le
-                                    faire et qu&apos;ils re&ccedil;oivent
-                                    l&apos;int&eacute;gralit&eacute; des
-                                    salaires qui leur sont dus.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Les travailleurs se sentent contraints de
-                                    rester en raison de salaires qui leur sont
-                                    dus.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    S&apos;assurer que les salaires sont
-                                    calcul&eacute;s avec exactitude et que tous
-                                    les employ&eacute;s prenant part &agrave; la
-                                    comptabilit&eacute; salariale sont
-                                    suffisamment form&eacute;s au calcul des
-                                    salaires. Exiger du fournisseur qu&apos;il
-                                    r&egrave;gle tous les salaires dus en vertu
-                                    de la loi locale (par ex., si la loi locale
-                                    exige un paiement toutes les deux semaines,
-                                    exiger que tous les salaires soient
-                                    r&eacute;gl&eacute;s au minimum
-                                    jusqu&apos;&agrave; la quinzaine
-                                    pr&eacute;c&eacute;dente). S&apos;assurer
-                                    que les calendriers de la paie sont
-                                    r&eacute;gularis&eacute;s, dans les limites
-                                    l&eacute;gales et celles de votre code.
-                                    Faire suivre par un audit inopin&eacute;.
-                                    S&apos;assurer que les travailleurs qui
-                                    souhaitent quitter leur emploi peuvent le
-                                    faire et qu&apos;ils re&ccedil;oivent
-                                    l&apos;int&eacute;gralit&eacute; des
-                                    salaires qui leur sont dus.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Les employ&eacute;s travaillent pendant des
-                                    dur&eacute;es excessives ou
-                                    ind&eacute;finies pour rembourser une dette
-                                    ou une avance qu&rsquo;ils doivent &agrave;
-                                    l&apos;employeur ou au recruteur.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Si le fournisseur a vers&eacute; le
-                                    pr&ecirc;t ou l&apos;avance sur salaire,
-                                    d&eacute;terminer si les modalit&eacute;s en
-                                    &eacute;taient raisonnables. Dans le cas
-                                    contraire, n&eacute;gocier des
-                                    modalit&eacute;s raisonnables entre le
-                                    fournisseur et le travailleur. Si le
-                                    pr&ecirc;t ou l&apos;avance sur salaire a
-                                    &eacute;t&eacute; vers&eacute; par un
-                                    recruteur de main d&rsquo;&oelig;uvre,
-                                    d&eacute;terminer si le fournisseur
-                                    &eacute;tait conscient de cet arrangement.
-                                    Dans ce cas, n&eacute;gocier des
-                                    modalit&eacute;s raisonnables entre le
-                                    fournisseur, le recruteur et le travailleur.
-                                    Dans le cas contraire, exiger que le
-                                    fournisseur mette fin &agrave; sa relation
-                                    avec le recruteur. Signaler les recruteurs
-                                    peu scrupuleux aux autorit&eacute;s.
-                                </p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </Table>
-                <Table width="100%">
-                    <caption>
-                        Tableau&nbsp;4: R&eacute;paration des probl&egrave;mes
-                        concernant les sanctions ou les menaces
-                    </caption>
-                    <tbody>
-                        <tr>
-                            <th scope="col" width="55%" scope="col">
-                                <p>
-                                    <strong>Situations</strong>
-                                </p>
-                            </th>
-                            <th scope="col" width="45%" scope="col">
-                                <p>
-                                    <strong>
-                                        Actions de r&eacute;paration
-                                    </strong>
-                                </p>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Le fournisseur ou le recruteur a en sa
-                                    possession les pi&egrave;ces
-                                    d&apos;identit&eacute; ou les titres de
-                                    voyage des travailleurs.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Les fournisseurs ne devraient jamais
-                                    confisquer ni prendre possession des
-                                    pi&egrave;ces d&apos;identit&eacute;, ni des
-                                    titres de voyage des travailleurs, sauf pour
-                                    les mettre en lieu s&ucirc;r, et uniquement
-                                    si les travailleurs sont en mesure de
-                                    r&eacute;cup&eacute;rer leurs documents
-                                    &agrave; leur demande. Exiger que le
-                                    fournisseur rende toutes les pi&egrave;ces
-                                    d&apos;identit&eacute; des travailleurs. Si
-                                    les travailleurs pr&eacute;f&egrave;rent que
-                                    le fournisseur les garde en lieu s&ucirc;r,
-                                    s&apos;assurer qu&apos;il existe une
-                                    politique pour la r&eacute;cup&eacute;ration
-                                    des documents et que tous les travailleurs
-                                    la connaissent. Effectuer un contr&ocirc;le
-                                    ult&eacute;rieur sur cette question par
-                                    l&rsquo;interm&eacute;diaire d&apos;un audit
-                                    inopin&eacute;.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    L&apos;employeur restreint les
-                                    communications des travailleurs.
-                                </p>
-                            </td>
-                            <td>
-                                <p>Voir ci-dessus.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    L&apos;employeur menace de remettre les
-                                    travailleurs aux autorit&eacute;s
-                                    d&apos;immigration.
-                                </p>
-                            </td>
-                            <td rowSpan="6">
-                                <p>
-                                    Dans toute situation de violence, de
-                                    sanction, d&apos;intimidation ou de menace,
-                                    d&eacute;terminer qui (direction,
-                                    contrema&icirc;tres, chefs
-                                    d&apos;&eacute;quipe, etc.) est
-                                    impliqu&eacute; dans ces violations. Si des
-                                    personnes agissent de leur propre chef sans
-                                    que la direction en soit consciente, prendre
-                                    les mesures appropri&eacute;es &agrave; leur
-                                    &eacute;gard, ce qui pourrait comprendre une
-                                    formation, une mise &agrave; pied ou un
-                                    licenciement.&nbsp;
-                                </p>
-                                <p>
-                                    Si ces sanctions, menaces, etc. viennent de
-                                    la direction ou si la direction est
-                                    complice, mettre fin &agrave; la relation
-                                    avec le fournisseur ou lui accorder de brefs
-                                    d&eacute;lais pour cesser ces pratiques.
-                                    S&apos;assurer que tous les travailleurs
-                                    re&ccedil;oivent une formation au sujet de
-                                    leurs droits en vertu des lois et de votre
-                                    code de conduite, y compris les voies de
-                                    r&eacute;clamation. S&apos;assurer que les
-                                    travailleurs qui souhaitent quitter leur
-                                    emploi peuvent le faire et qu&apos;ils
-                                    re&ccedil;oivent
-                                    l&apos;int&eacute;gralit&eacute; des
-                                    salaires qui leur sont dus. Faire suivre
-                                    d&apos;audits inopin&eacute;s, qui
-                                    comprennent des entretiens ext&eacute;rieurs
-                                    avec les travailleurs et d&apos;autres
-                                    membres de la communaut&eacute; bien
-                                    inform&eacute;s.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    L&apos;employeur commet ou menace de
-                                    commettre des violences physiques ou
-                                    sexuelles.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    L&apos;employeur ou le recruteur menace de
-                                    retirer des privil&egrave;ges comme un
-                                    potentiel de promotion, de d&eacute;grader
-                                    encore les conditions de travail ou de
-                                    licencier des travailleurs.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    L&apos;employeur ou le recruteur exploite
-                                    les convictions religieuses ou culturelles
-                                    des travailleurs.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    L&apos;employeur ou le recruteur retient le
-                                    salaire des travailleurs ou leurs biens, ou
-                                    les menace de sanctions financi&egrave;res.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    L&apos;employeur menace de donner du travail
-                                    suppl&eacute;mentaire aux travailleurs non
-                                    coop&eacute;ratifs.
-                                </p>
-                                <p>
-                                    L&apos;employeur a recours au chantage pour
-                                    contraindre des travailleurs.
-                                </p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </Table>
-                <ExampleInAction id="better_work">
-                    <h2>
+                <ul>
+                    <li>
+                        Donnant une allocation &agrave; la famille de
+                        l&apos;enfant pour compenser les revenus perdus,
+                        &agrave; condition de pouvoir contacter la famille de
+                        l&apos;enfant;
+                    </li>
+                    <li>
+                        Offrant l&apos;emploi de l&apos;enfant &agrave; un autre
+                        membre de sa famille qui est en &acirc;ge l&eacute;gal
+                        de travailler;
+                    </li>
+                    <li>
+                        Donnant aux parents ou aux adultes de la famille de
+                        l&apos;enfant d&apos;autres possibilit&eacute;s de
+                        revenus;
+                    </li>
+                    <li>
+                        S&apos;assurant que l&apos;enfant fr&eacute;quente
+                        l&apos;&eacute;cole ou un &eacute;tablissement
+                        &eacute;ducatif similaire, en r&eacute;glant les frais
+                        connexes le cas &eacute;ch&eacute;ant et en suivant
+                        l&apos;enfant jusqu&apos;&agrave; ce qu&apos;il soit en
+                        &acirc;ge de travailler;
+                    </li>
+                    <li>
+                        Donnant &agrave; l&apos;enfant une opportunit&eacute; de
+                        formation ou d&apos;apprentissage lorsqu&apos;il aura
+                        l&apos;&acirc;ge pour suivre ces programmes, et en
+                        s&apos;engageant a lui redonner cet emploi
+                        lorsqu&apos;il aura l&apos;&acirc;ge l&eacute;gal de
+                        travailler;
+                    </li>
+                    <li>
+                        Orientant l&apos;enfant vers des services
+                        &eacute;ducatifs, de d&eacute;veloppement, psychosociaux
+                        et autres fournis par les pouvoirs publics ou des
+                        ONG; et
+                    </li>
+                    <li>
+                        Si l&apos;enfant vit s&eacute;par&eacute; de sa famille,
+                        en les r&eacute;unissant tout en s&apos;assurant que sa
+                        famille peut lui donner un environnement protecteur et
+                        fournir les services applicables.
+                    </li>
+                </ul>
+                <h2>Travail dangereux des enfants</h2>
+                <p>
+                    Aucun enfant de moins de 18&nbsp;ans ne devrait &ecirc;tre
+                    soumis aux Pires formes de travail des enfants
+                    pr&eacute;cis&eacute;s dans la Convention&nbsp;182 de
+                    l&rsquo;OIT (voir{" "}
+                    <Link to="/steps/5">
+                        3<sup>e</sup>&nbsp;&eacute;tape: &eacute;laborer
+                        un code de conduite
+                    </Link>
+                    ). Dans le cas o&ugrave; des enfants sont identifi&eacute;s
+                    dans ce type de situations, les meilleures approches sont
+                    notamment les suivantes:
+                </p>
+                <ul>
+                    <li>
+                        &Eacute;liminer toute activit&eacute; dangereuse du
+                        travail de l&apos;enfant et continuer de surveiller de
+                        pr&egrave;s les activit&eacute;s de l&apos;enfant au
+                        travail;
+                    </li>
+                    <li>
+                        S&apos;il n&apos;est pas possible de r&eacute;duire les
+                        dangers dans son environnement de travail actuel, aider
+                        l&apos;enfant &agrave; identifier d&apos;autres
+                        possibilit&eacute;s de gagner un revenu sans
+                        danger;
+                    </li>
+                    <li>
+                        S&apos;assurer que l&apos;enfant ne travaille pas trop
+                        d&apos;heures, ni &agrave; des p&eacute;riodes mettant
+                        en danger sa sant&eacute;, son bien-&ecirc;tre ou son
+                        &eacute;ducation;
+                    </li>
+                    <li>
+                        En cas de r&eacute;duction des heures de travail,
+                        trouver un moyen pour l&apos;enfant de compenser le
+                        revenu perdu par d&apos;autres opportunit&eacute;s
+                        lucratives, une allocation ou des interventions
+                        familiales; et
+                    </li>
+                    <li>
+                        Orienter l&apos;enfant vers des services
+                        &eacute;ducatifs, de d&eacute;veloppement, psychosociaux
+                        et autres fournis par les pouvoirs publics ou des ONG.
+                    </li>
+                </ul>
+                <p>
+                    Ces activit&eacute;s exigent des ressources. Les relations
+                    &eacute;tablies gr&acirc;ce &agrave; votre dur labeur sont
+                    vitales &agrave; ce stade pour vous aider &agrave; trouver
+                    des ressources et des connaissances
+                    sp&eacute;cialis&eacute;es dans la communaut&eacute;. Il
+                    existe bien s&ucirc;r des communaut&eacute;s qui ont
+                    tr&egrave;s peu de ressources et
+                    d&apos;&eacute;tablissements d&apos;&eacute;ducation. Les
+                    options d&apos;action dans ces cas-l&agrave; sont
+                    &eacute;tudi&eacute;es dans{" "}
+                    <em>S&rsquo;attaquer aux causes profondes</em>.
+                </p>
+                <ExampleInAction id="turkey">
+                    <h3>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Exemple d&apos;action: Le processus de
-                            r&eacute;paration{" "}
+                            Exemple d&apos;action: Travail de
+                            collaboration visant &agrave; traiter le travail
+                            saisonnier des enfants migrants dans le cadre de la
+                            r&eacute;colte des noisettes en Turquie
                         </strong>
+                    </h3>
+                    <p>
+                        Depuis&nbsp;2011, la Fair Labor Association (FLA),
+                        bas&eacute;e aux &Eacute;tats-Unis, &eacute;value les
+                        conditions de travail dans les exploitations agricoles
+                        de noisettes de la r&eacute;gion de la Mer noire en
+                        Turquie; ce travail a commenc&eacute; au travers
+                        d&rsquo;un projet sp&eacute;cial commandit&eacute; par
+                        la multinationale Nestl&eacute;*, avant de se poursuivre
+                        en collaboration avec Nestl&eacute; et deux de ses
+                        fournisseurs de noisettes bas&eacute;s en Turquie, Balsu
+                        Gida* et Olam Progida*. La FLA envoie chaque
+                        ann&eacute;e une &eacute;quipe
+                        d&rsquo;&eacute;valuateurs visiter un
+                        &eacute;chantillons d&rsquo;exploitations agricoles qui
+                        fournissent des noisettes &agrave; ces
+                        soci&eacute;t&eacute;s. Les conclusions ont constamment
+                        r&eacute;v&eacute;l&eacute; la pr&eacute;sence de
+                        travail des enfants, tant parmi les familles de
+                        travailleurs locaux qu&rsquo;au sein des groupes de
+                        travailleurs migrants qui se rendent dans la
+                        r&eacute;gion pour la r&eacute;colte des noisettes.
+                    </p>
+                    <p>
+                        &Agrave; la suite de ces conclusions, les
+                        soci&eacute;t&eacute;s ont tent&eacute; plusieurs
+                        strat&eacute;gies de r&eacute;parations, telles que la
+                        mise en place de partenariats avec la
+                        soci&eacute;t&eacute; civile pour construire des
+                        &eacute;coles et fournir des bourses aux enfants des
+                        travailleurs migrants et vivant dans les
+                        communaut&eacute;s locales. D&rsquo;autres interventions
+                        ont notamment concern&eacute; la formation des
+                        exploitants agricoles concernant les interdictions
+                        relatives au travail des enfants et la fourniture
+                        d&rsquo;outils de v&eacute;rification de
+                        l&rsquo;&acirc;ge des personnes concern&eacute;es pour
+                        encourager les exploitants &agrave; consigner
+                        l&rsquo;&acirc;ge des travailleurs qu&rsquo;ils
+                        embauchent.&nbsp;
+                    </p>
+                    <p>
+                        En novembre&nbsp;2015, le D&eacute;partement du Travail
+                        des &Eacute;tats-Unis a accord&eacute; &agrave; la FLA
+                        une subvention pour mettre en place le test pilote
+                        d&rsquo;un programme exhaustif et durable visant
+                        &agrave; mettre en &oelig;uvre tous les
+                        &eacute;l&eacute;ments des «&nbsp;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://betterwork.org/"
-                            title="Better Work"
+                            href="https://www.dol.gov/ilab/issues/child-labor/fcea.htm"
+                            title="Directives pour l&rsquo;&eacute;limination du travail des enfant et du travail forc&eacute; dans les cha&icirc;nes d&rsquo;approvisionnement agricoles"
                         >
-                            <strong>Better Work</strong>
+                            Directives pour l&rsquo;&eacute;limination du
+                            travail des enfant et du travail forc&eacute; dans
+                            les cha&icirc;nes d&rsquo;approvisionnement
+                            agricoles
                         </a>
-                        <strong />
-                    </h2>
-                    <p>
-                        Better Work pr&ocirc;ne l&apos;&eacute;laboration de
-                        structures et de processus d&eacute;mocratiques de
-                        relations de travail par l&apos;inclusion de
-                        repr&eacute;sentants des organisations du patronat et
-                        des syndicats dans la conception et la mise en
-                        &oelig;uvre de ses programmes. &Agrave;
-                        l&apos;&eacute;chelon de l&apos;usine, les
-                        probl&egrave;mes de conformit&eacute; identifi&eacute;s
-                        par les &eacute;valuations sont examin&eacute;s par un
-                        comit&eacute; consultatif d&apos;am&eacute;lioration des
-                        performances (PICC), groupe de 8 &agrave; 10 personnes
-                        compos&eacute; &agrave; &eacute;galit&eacute; de
-                        repr&eacute;sentants de la direction et de
-                        repr&eacute;sentants des travailleurs. Dans la mesure du
-                        possible, la cr&eacute;ation et le d&eacute;veloppement
-                        des capacit&eacute;s du PICC s&apos;appuient sur les
-                        structures patronales-syndicales efficaces existant dans
-                        une usine. Chaque PICC se r&eacute;unit au moins tous
-                        les mois. Soutenus par les conseillers Better Work, il
-                        formule et supervise la mise en &oelig;uvre d&apos;un
-                        plan de r&eacute;paration, en s&apos;assurant que la
-                        direction et les travailleurs partagent la
-                        responsabilit&eacute; et la reddition de comptes
-                        &agrave; son &eacute;gard tout au long du processus. Les
-                        conseillers Better Work sont disponibles pour fournir
-                        une assistance technique et r&eacute;aliser des visites
-                        de suivi afin d&apos;&eacute;valuer les progr&egrave;s
-                        du plan de r&eacute;paration.
+                        &nbsp;» du D&eacute;partement de l&rsquo;Agriculture des
+                        &Eacute;tats-Unis (USDA) dans la cha&icirc;ne
+                        d&rsquo;approvisionnement en noisettes de Nestl&eacute;,
+                        Balsu et Olam en Turquie. La mise en &oelig;uvre du
+                        projet a commenc&eacute; en&nbsp;2016. En&nbsp;2018, le
+                        projet publiera un rapport d&eacute;taillant les
+                        conclusions du test pilote et des recommandations
+                        &agrave; l&rsquo;intention des autres
+                        soci&eacute;t&eacute;s qui cherchent &agrave;
+                        &eacute;tablir des programmes sur la base de ces
+                        Directives.
                     </p>
                 </ExampleInAction>
+                <br />
+                <h2>Travail forc&eacute;/traite des personnes</h2>
+                <p>
+                    Si l&apos;audit identifie des victimes du travail
+                    forc&eacute; ou de la traite, les r&eacute;ponses
+                    d&eacute;pendront du type de violation et de la situation de
+                    la victime.
+                </p>
+                <p>
+                    Si les auditeurs trouvent des situations patentes de travail
+                    forc&eacute; ou de traite, ou si des comptes rendus les
+                    signalent, par exemple isolement de travailleurs ou
+                    s&eacute;vices physiques ou psychologiques &agrave; leur
+                    encontre, ces situations devraient &ecirc;tre
+                    signal&eacute;es aux autorit&eacute;s de police. Il incombe
+                    aux auditeurs et aux autres membres de votre &eacute;quipe
+                    de conformit&eacute; sociale qui pourraient se rendre sur
+                    les lieux de travail, d&apos;&ecirc;tre inform&eacute;s au
+                    pr&eacute;alable des coordonn&eacute;es des responsables de
+                    la police appropri&eacute;s.
+                </p>
+                <p>
+                    Parall&egrave;lement, il est important de comprendre les
+                    contextes locaux en termes d&apos;application des lois. Dans
+                    les environnements o&ugrave; les autorit&eacute;s de police
+                    ne sont pas pleinement form&eacute;es pour prendre en charge
+                    des cas patents d&apos;abus, les auditeurs et autres
+                    employ&eacute;s devraient &eacute;galement &ecirc;tre au
+                    courant des services disponibles pour les
+                    victimes&nbsp;&ndash; y compris dans le domaine de la
+                    sant&eacute;, du soutien psychosocial, du logement, de
+                    l&apos;aide juridique et d&rsquo;autres
+                    services&nbsp;&ndash; et &ecirc;tre pr&ecirc;ts &agrave;
+                    orienter les victimes vers ces services.
+                </p>
+                <p>
+                    En vertu de son{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.unodc.org/unodc/en/frontpage/2010/September/un-launches-global-plan-of-action-against-human-trafficking.html"
+                        title="Plan d&rsquo;action mondial pour la lutte contre la traite des personnes"
+                    >
+                        Plan d&rsquo;action mondial pour la lutte contre la
+                        traite des personnes
+                    </a>
+                    , l&apos;ONU a mis au point une gamme d&apos;outils relatifs
+                    &agrave; la prise en charge des victimes du travail
+                    forc&eacute; et de la traite des personnes et aux services
+                    &agrave; leur intention. La plupart d&rsquo;entre eux sont
+                    disponibles en diff&eacute;rentes langues. Voici quelques
+                    ressources recommand&eacute;es:
+                </p>
+                <ul>
+                    <li>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.unodc.org/documents/human-trafficking/TIP_1st_AidKit_English_V0981429.pdf"
+                            title="Manuel de premier secours &agrave; l'usage des agents de d&eacute;tection et de r&eacute;pression de premi&egrave;re ligne face &agrave; des cas de traite des &ecirc;tres humains"
+                        >
+                            Manuel de premier secours &agrave; l&apos;usage des
+                            agents de d&eacute;tection et de r&eacute;pression
+                            de premi&egrave;re ligne face &agrave; des cas de
+                            traite des &ecirc;tres humains
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://humantraffickinghotline.org/resources/victim-translation-assistance-tool-life-support-messages-victims-human-trafficking"
+                            title="Outil d&rsquo;aide &agrave; la traduction pour les victimes de la traite: messages d'assistance &agrave; la vie pour les victimes de la traite des personnes"
+                        >
+                            Outil d&rsquo;aide &agrave; la traduction pour les
+                            victimes de la traite: messages d&apos;assistance
+                            &agrave; la vie pour les victimes de la traite des
+                            personnes
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    La servitude pour dette et d&rsquo;autres formes de
+                    pi&egrave;ge financier sont des indicateurs de travail
+                    forc&eacute; ou de traite des personnes et exigent
+                    &eacute;galemnt un examen attentif de l&rsquo;ensemble de la
+                    situation afin de d&eacute;terminer la r&eacute;ponse
+                    ad&eacute;quate. S&apos;il s&apos;av&egrave;re que les
+                    travailleurs sont endett&eacute;s parce que le fournisseur
+                    leur a imput&eacute; des frais d&eacute;raisonnables de
+                    logement, nourriture et autres, l&apos;entreprise devrait
+                    exiger que le fournisseur annule la dette ou la
+                    r&eacute;duise &agrave; un montant raisonnable pour les
+                    biens et services fournis. La situation devient plus
+                    pr&eacute;occupante si le fournisseur a imput&eacute; aux
+                    travailleurs des int&eacute;r&ecirc;ts sur ces dettes, et
+                    dans ce cas, il vous faudra r&eacute;ellement &eacute;tudier
+                    l&apos;engagement d&apos;ensemble de votre fournisseur
+                    envers vos exigences de conformit&eacute; sociale.
+                </p>
+                <p>
+                    S&apos;il s&rsquo;av&egrave;re que les travailleurs ont des
+                    dettes aupr&egrave;s d&apos;un recruteur ou d&rsquo;un
+                    courtier en main-d&rsquo;&oelig;uvre, il pourrait &ecirc;tre
+                    n&eacute;cessaire de proc&eacute;der &agrave; une
+                    enqu&ecirc;te plus approfondie pour d&eacute;terminer si le
+                    fournisseur &eacute;tait conscient de ces frais
+                    exig&eacute;s par le courtier ou s&apos;il n&apos;avait pas
+                    de politique interdisant aux courtiers d&apos;imputer des
+                    frais. Si le fournisseur en &eacute;tait conscient ou
+                    s&apos;il n&apos;avait pas de politique pour dissuader
+                    activement ces pratiques, le fournisseur devrait &ecirc;tre
+                    tenu financi&egrave;rement responsable du remboursement de
+                    ces frais aux travailleurs. Si le fournisseur avait
+                    activement d&eacute;courag&eacute; ses courtiers
+                    d&apos;imputer des frais aux travailleurs, et si le courtier
+                    l&rsquo;a fait en dissimulant cette pratique au fournisseur,
+                    l&rsquo;entreprise pourrait envisager de prendre des mesures
+                    pour obtenir un remboursement du courtier, ou de rembourser
+                    simplement ces frais directement aux travailleurs.
+                </p>
+                <p>
+                    Les audits peuvent &eacute;galement r&eacute;v&eacute;ler
+                    des situations o&ugrave; les travailleurs sont contraints
+                    &agrave; des heures suppl&eacute;mentaires,
+                    r&eacute;mun&eacute;r&eacute;es l&eacute;galement ou non
+                    r&eacute;mun&eacute;r&eacute;es. Quelle que soit la
+                    r&eacute;mun&eacute;ration, si les travailleurs sont
+                    contraints de travailler de longues heures (au-del&agrave;
+                    des limites l&eacute;gales dans le pays) sous la menace de
+                    sanctions, il s&apos;agit d&apos;une situation de travail
+                    forc&eacute;. La r&eacute;paration de ces situations exige
+                    un examen soigneux, y compris de l&rsquo;incidence de vos
+                    propres pratiques sur cette situation. En effet, les courts
+                    d&eacute;lais d&apos;ex&eacute;cution et les modifications
+                    de derni&egrave;re minute des cahiers des charges de la part
+                    des acheteurs m&egrave;nent souvent &agrave; des situations
+                    d&apos;heures suppl&eacute;mentaires obligatoires.
+                    L&rsquo;entreprise devrait encourager les fournisseurs
+                    &agrave; lui dire honn&ecirc;tement qu&apos;ils ne peuvent
+                    pas remplir une commande sans contrevenir aux dispositions
+                    du code de conduite, et les r&eacute;compenser plut&ocirc;t
+                    que de simplement passer &agrave; un autre fournisseur. Pour
+                    en savoir plus sur les moyens d&rsquo;&eacute;viter de
+                    telles situations, reportez-vous &agrave; la formation
+                    destin&eacute;e aux employ&eacute;s de l&rsquo;entreprise.
+                </p>
             </div>
         </StaticData>
     );

@@ -52,7 +52,7 @@ export const StepData = {
             {
                 termName: "Sistema de cumplimiento social",
                 termDefinition:
-                    "no de los componentes del programa de RSE, sostenibilidad o rendición de cuentas de una empresa. Un sistema de cumplimiento social es una serie integrada de políticas y prácticas por las que una empresa procura garantizar la máxima adhesión a los elementos de su código de conducta que abarca cuestiones sociales y laborales."
+                    "Uno de los componentes del programa de RSE, sostenibilidad o rendición de cuentas de una empresa. Un sistema de cumplimiento social es una serie integrada de políticas y prácticas por las que una empresa procura garantizar la máxima adhesión a los elementos de su código de conducta que abarca cuestiones sociales y laborales."
             },
             {
                 termName: "Cadena de suministro",

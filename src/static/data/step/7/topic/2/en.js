@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
+import Accordion from "../../../../../../components/Accordion";
+
 
 const en = () => {
     return (
@@ -28,75 +30,90 @@ const en = () => {
                     comprehensive social compliance program. However, each
                     approach has certain advantages and disadvantages.&nbsp;
                 </p>
-                <ul>
-                    <li>
-                        <h3>Internal auditors</h3>
-                    </li>
-                </ul>
-                <p>
-                    Internal auditors are company employees who are trained in
-                    the skills and competencies of social auditing. One
-                    advantage to using internal auditors is that they are likely
-                    to be easier to communicate with; for example, if there are
-                    changes in policy, it is easier to ensure consistency among
-                    your own staff than with hired external auditors. Internal
-                    auditors also may have a deeper understanding of the
-                    company&rsquo;s full social compliance program and may be
-                    able to make contributions to it beyond auditing. On the
-                    other hand, since internal auditors are company employees,
-                    some stakeholders may question the credibility of their
-                    findings.&nbsp;
-                </p>
-                <ul>
-                    <li>
-                        <h3>External auditors</h3>
-                    </li>
-                </ul>
-                <p>
-                    External auditors are audit professionals with defined
-                    skills and competencies, employed by social audit firms
-                    outside a company. They are a flexible workforce and may be
-                    available in geographic locations where it is not
-                    cost-effective for a company to maintain internal auditors.
-                    On the other hand, since external auditors are also paid by
-                    the company to do audits, some stakeholders may still doubt
-                    the credibility of their audit findings. In addition, some
-                    external audit groups may have their own systems in place
-                    that cannot be fully adapted to match a company&rsquo;s own
-                    protocols or parameters.
-                </p>
-                <ul>
-                    <li>
-                        <h3>Independent auditors/monitors</h3>
-                    </li>
-                </ul>
-                <p>
-                    Independent auditors/monitors are audit professionals
-                    accredited by institutions or mechanisms; their role is to
-                    ensure that auditing takes place while eliminating any
-                    direct financial transaction between the company and the
-                    auditor. Typically, a company pays a separate, independent
-                    institution for auditing services, and/or for membership in
-                    that body. The institution accredits auditors under its
-                    established standards and is responsible for scheduling and
-                    oversight of all audits. While this is designed to increase
-                    the credibility of the audit, in some sectors or geographic
-                    locations, this type of arrangement may not be available. In
-                    addition, even without a direct financial transaction, some
-                    stakeholders may still have concerns about the degree of an
-                    auditor&rsquo;s independence from the audited entity.
-                    Varying degrees of independence exist, and independence
-                    ultimately needs to be judged on a case-by-case basis.
-                </p>
-                <p>
-                    If a company opts to use internal or external auditors, it
-                    may be necessary to engage independent entities for certain
-                    roles within the social compliance system if they wish to
-                    ensure maximum effectiveness and credibility. See{" "}
-                    <Link to="/steps/9">Step 7, Independent Review</Link> for a
-                    larger discussion of independent monitoring and
-                    verification.
-                </p>
+                 <Accordion id="cocoa-chains-acc">
+                    <Accordion.Section id="cocoa-description">
+                       <Accordion.Title>
+                       Internal auditors
+                          </Accordion.Title>
+                          <Accordion.Panel>
+                         <p>
+                             Internal auditors are company employees who are trained in
+                             the skills and competencies of social auditing. One
+                             advantage to using internal auditors is that they are likely
+                             to be easier to communicate with; for example, if there are
+                             changes in policy, it is easier to ensure consistency among
+                             your own staff than with hired external auditors. Internal
+                             auditors also may have a deeper understanding of the
+                             company&rsquo;s full social compliance program and may be
+                             able to make contributions to it beyond auditing. On the
+                             other hand, since internal auditors are company employees,
+                             some stakeholders may question the credibility of their
+                             findings.&nbsp;
+                         </p>
+                      </Accordion.Panel>
+                  </Accordion.Section>
+                  </Accordion>
+
+                  <Accordion id="cocoa-chains-acc">
+                      <Accordion.Section id="cocoa-description">
+                         <Accordion.Title>
+                         External auditors
+                            </Accordion.Title>
+                            <Accordion.Panel>
+
+                            <p className="indent-margin">
+                              External auditors are audit professionals with defined
+                              skills and competencies, employed by social audit firms
+                              outside a company. They are a flexible workforce and may be
+                              available in geographic locations where it is not
+                              cost-effective for a company to maintain internal auditors.
+                              On the other hand, since external auditors are also paid by
+                              the company to do audits, some stakeholders may still doubt
+                              the credibility of their audit findings. In addition, some
+                              external audit groups may have their own systems in place
+                              that cannot be fully adapted to match a company&rsquo;s own
+                              protocols or parameters.
+                            </p>
+                        </Accordion.Panel>
+                    </Accordion.Section>
+                    </Accordion>
+                        <Accordion id="cocoa-chains-acc">
+                        <Accordion.Section id="cocoa-description">
+                           <Accordion.Title>
+                           Independent auditors/monitors
+                              </Accordion.Title>
+                              <Accordion.Panel>
+
+                              <p className="indent-margin">
+                                 Independent auditors/monitors are audit professionals
+                                 accredited by institutions or mechanisms; their role is to
+                                 ensure that auditing takes place while eliminating any
+                                 direct financial transaction between the company and the
+                                 auditor. Typically, a company pays a separate, independent
+                                 institution for auditing services, and/or for membership in
+                                 that body. The institution accredits auditors under its
+                                 established standards and is responsible for scheduling and
+                                 oversight of all audits. While this is designed to increase
+                                 the credibility of the audit, in some sectors or geographic
+                                 locations, this type of arrangement may not be available. In
+                                 addition, even without a direct financial transaction, some
+                                 stakeholders may still have concerns about the degree of an
+                                 auditor&rsquo;s independence from the audited entity.
+                                 Varying degrees of independence exist, and independence
+                                 ultimately needs to be judged on a case-by-case basis.
+                              </p>
+                              <p>
+                                  If a company opts to use internal or external auditors, it
+                                  may be necessary to engage independent entities for certain
+                                  roles within the social compliance system if they wish to
+                                  ensure maximum effectiveness and credibility. See{" "}
+                                  <Link to="/steps/9">Step 7, Independent Review</Link> for a
+                                  larger discussion of independent monitoring and
+                                  verification.
+                              </p>
+                          </Accordion.Panel>
+                      </Accordion.Section>
+                      </Accordion>
                 <h2>Auditor Competencies</h2>
                 <p>
                     Whether internal, external or independent, all auditors must
@@ -132,6 +149,20 @@ const en = () => {
                     receive immediate care and services from qualified
                     individuals or organizations.
                 </p>
+                <ExampleInAction id="better_work_assessment">
+                                <h3>
+                                    <ExampleInAction.Icon alt="Lightbulb"/>
+                                    Example in Action: Association if Professional Social Compliance Auditors (APSCA) Competency Framework
+                                </h3>
+                                <p>
+                                   <b>PLACEHOLDER FOR TEXT</b>
+                                    <br />
+                                </p>
+                                <p>
+
+                                    <br />
+                                </p>
+                            </ExampleInAction>
                 <h2>Team Composition</h2>
                 <p>
                     The size and composition of an audit team depends on the
