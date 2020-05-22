@@ -80,7 +80,6 @@ const en = () => {
                     assessment should provide information to feed in to these
                     determinations.
                 </p>
-                <p className="small-text">&copy;Shelley Stinelli/USDOL</p>
                 <p>
                     Auditing of your supply chain should also be scheduled
                     regularly. However, your audit team should also be ready to
