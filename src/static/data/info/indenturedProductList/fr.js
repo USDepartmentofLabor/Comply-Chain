@@ -27,7 +27,7 @@ const fr = () => {
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                href="https://www.dol.gov/ilab/about/laws/#eo13126"
+                                href="https://www.dol.gov/agencies/ilab/about/laws/#eo13126"
                                 title="List of products report"
                                  >
                                 https://www.dol.gov/agencies/ilab/about/laws/#eo13126

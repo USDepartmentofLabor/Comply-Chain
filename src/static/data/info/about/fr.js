@@ -297,7 +297,7 @@ const fr = () => {
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    href="https://www.dol.gov/ilab/projects/"
+                                    href="https://www.dol.gov/agencies/ilab/projects/"
                                     title="projets d&rsquo;assistance technique"
                                 >
                                     projets d&rsquo;assistance technique

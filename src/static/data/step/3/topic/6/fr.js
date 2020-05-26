@@ -148,7 +148,7 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.dol.gov/ilab/projects/summaries/Afghanistan_Carpets.pdf"
+                            href="https://www.dol.gov/agencies/ilab/projects/summaries/Afghanistan_Carpets.pdf"
                             title="Projet de pr&eacute;vention du travail des enfants dans la production de tapis &agrave; domicile en Afghanistan"
                         >
                             <em>
