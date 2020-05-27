@@ -262,7 +262,7 @@ const en = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Nike*: Reporting on Remediation
+                            Example in Action: Nike: Reporting on Remediation
                         </strong>
                     </h2>
                     <p>

@@ -61,7 +61,7 @@ export const StepData = {
         furtherResources: Resources.fr,
         //extraInfo: ExtraInfo.fr
     },
-    en: {
+    ms: {
             title: "Step 8: Report Performance",
             topics: Topics.en,
             keywords: ["Public reporting"],
@@ -77,7 +77,7 @@ export const StepData = {
                         "Communication that is made available to the public, through a variety of channels, about all elements of a company’s social compliance system."
                 }
             ],
-            furtherResources: Resources.en,
+            furtherResources: Resources.ms,
             //extraInfo: ExtraInfo.en
         }
 };

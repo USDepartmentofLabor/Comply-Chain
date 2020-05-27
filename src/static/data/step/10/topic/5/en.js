@@ -23,25 +23,10 @@ const en = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Reporting as a Small Business
+                            Example in Action: Future of Fashion
                         </strong>
                     </h2>
                     <p>
-                    <br />
-                    <br />
-                    <br />
-                    </p>
-                </ExampleInAction>
-                <br />
-                <ExampleInAction id="nike">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Example in Action: Reporting as a Small Business
-                        </strong>
-                    </h2>
-                    <p>
-                    <br />
                     <br />
                     <br />
                     </p>
@@ -66,23 +51,22 @@ const en = () => {
                      <h2>
                          <ExampleInAction.Icon alt="Lightbulb"/>
                          <strong>
-                             Example in Action: Reporting as a Small Business
+                             Example in Action: Behind the Brands and Consumer Engagement
                          </strong>
                      </h2>
                      <p>
                      <br />
                      <br />
-                     <br />
                      </p>
                  </ExampleInAction>
-
-
             </div>
         </StaticData>
     );
 };
 
 export default en;
+
+
 
 
 
