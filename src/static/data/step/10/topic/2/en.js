@@ -1,5 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import hrm from "../../../../../images/hrm.jpg";
+import panos from "../../../../../images/panos.jpg";
+import Accordion from "../../../../../../components/Accordion";
 
 const en = () => {
     return (
@@ -99,6 +105,24 @@ const en = () => {
                         and with important external stakeholders.
                     </p>
                 </div>
+                 <ExampleInAction id="prereg">
+                                    <h2>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        Example in Action: Socially Responsible Investing
+                                    </h2>
+                                    <p>
+                                        <b>PLACEHOLDER FOR TEXT</b>
+                                    </p>
+                                </ExampleInAction>
+                  <ExampleInAction id="prereg">
+                                      <h2>
+                                          <ExampleInAction.Icon alt="Lightbulb"/>
+                                          Example in Action: Japanese Company&#39;s Human Rights Report Takes Flight
+                                      </h2>
+                                      <p>
+                                          <b>PLACEHOLDER FOR TEXT</b>
+                                      </p>
+                                  </ExampleInAction>
             </div>
         </StaticData>
     );

@@ -1,13 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
-import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
-import hrm from "../../../../../images/hrm.jpg";
-import panos from "../../../../../images/panos.jpg";
-import Accordion from "../../../../../../components/Accordion";
 
-const en = () => {
+const ms = () => {
     return (
         <StaticData>
             <div>
@@ -113,21 +108,22 @@ const en = () => {
                 </p>
                 <p>
                     Below are some general guidelines on content to include in a
-                    social compliance set.
+                    social compliance report:
                 </p>
-                        <h2>Risk Assessment and Due Diligence</h2>
-                        <p>A description of the{" "}
+                <ul>
+                    <li>
+                        A description of the{" "}
                         <strong>risk assessment and due diligence</strong>{" "}
-                        processes a company undertakes in its supply chains.</p>
-
-                        <h2>Sourcing Countries</h2>
-
-                        <p>The <strong>countries </strong>from which a company
+                        processes a company undertakes in its supply chains.
+                    </li>
+                    <li>
+                        The <strong>countries </strong>from which a company
                         sources. If there are countries where particular child
                         labor or forced labor issues have been prevalent, these
-                        situations should be discussed.</p>
-                        <h2>Tier 1 Suppliers</h2>
-                       <p> <strong>Your suppliers.</strong> For example,
+                        situations should be discussed.
+                    </li>
+                    <li>
+                        <strong>Your suppliers.</strong> For example,
                         electronics company <strong>Hewlett-Packard* </strong>
                         has made its{" "}
                         <a
@@ -148,11 +144,10 @@ const en = () => {
                             a list
                         </a>{" "}
                         of all factories, textile and wet processing facilities
-                        producing Target owned-brand products.</p>
-
-                        <h2>Factories/Farms/Mines Beyond Tier 1</h2>
-
-                        <p>The <strong>factories/farms/mines</strong> from which
+                        producing Target owned-brand products.
+                    </li>
+                    <li>
+                        The <strong>factories/farms/mines</strong> from which
                         you and/or your suppliers source. Publication of factory
                         lists is a growing trend for many companies pursuing
                         greater social and environmental responsibility. For
@@ -175,47 +170,39 @@ const en = () => {
                             interactive map
                         </a>{" "}
                         showing factory name, address, goods produced, languages
-                        spoken, and the number of employees by gender.</p>
-                         <OwnWords>
-                                                            <h2>
-                                                                <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
-                                                                {": "}
-                                                            </h2>
-                                                            <p>
-                                                                <b>PLACEHOLDER FOR TEXT</b>
-                                                            </p>
-                                                        </OwnWords>
-                        <h2>Metrics to Measure Progress</h2>
-                        <p>The <strong>metrics </strong>or Key Performance
+                        spoken, and the number of employees by gender.
+                    </li>
+                    <li>
+                        The <strong>metrics </strong>or Key Performance
                         Indicators (KPIs) your social compliance program uses to
                         measure progress, and your performance against those
                         metrics. When calculating performance against metrics,
                         it is important for many companies to segregate
                         performance within the company from performance in the
                         company&rsquo;s supply chain. Aggregating the two can
-                        mask the realities of supply chain performance.</p>
-
-                        <h2>Code of Conduct</h2>
-                        <p>Your <strong>code of conduct</strong>, and the areas of
+                        mask the realities of supply chain performance.
+                    </li>
+                    <li>
+                        Your <strong>code of conduct</strong>, and the areas of
                         your supply chain it covers, including any reviews or
                         updates to the code that have occurred in the reporting
-                        period.</p>
-
-                      <h2>Engagement with Stakeholder</h2>
-                        <p>A description of your{" "}
+                        period.
+                    </li>
+                    <li>
+                        A description of your{" "}
                         <strong>engagement with stakeholders</strong> and local
                         communities, including multi-stakeholder groups with
                         which you are involved, outreach as part of your risk
                         assessment, other outreach and grievance
-                        mechanisms.&nbsp;</p>
-
-                         <h2>Metrics to Measure Progress</h2>
-                         <p>An overview of your social compliance{" "}
+                        mechanisms.&nbsp;
+                    </li>
+                    <li>
+                        An overview of your social compliance{" "}
                         <strong>training programs</strong> throughout your
-                        supply chains.</p>
-
-                        <h2>Social Audit Data</h2>
-                        <p><strong>Social audit data. </strong>This data should be
+                        supply chains.
+                    </li>
+                    <li>
+                        <strong>Social audit data. </strong>This data should be
                         as comprehensive and specific as possible. Some
                         companies publish full audit reports, while others
                         aggregate audit data and publish it in compiled form.
@@ -251,13 +238,14 @@ const en = () => {
                             Philip Morris International
                         </a>
                         * publishes its own monitoring reports as well as those
-                        carried out by third-party monitors. </p>
-
-                    <h2>Remediation Policies</h2>
-                        <p>A description of your{" "}
+                        carried out by third-party monitors.
+                    </li>
+                    <li>
+                        A description of your{" "}
                         <strong>remediation policies</strong> when violations
-                        are found.</p>
-
+                        are found.
+                    </li>
+                </ul>
                 <ExampleInAction id="nike">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -287,53 +275,39 @@ const en = () => {
                         current policies and code provisions on migrant labor.
                     </p>
                 </ExampleInAction>
-                    <h2>Independent Verification Assessment Results</h2>
-                        <p>Results from your{" "}
+                <ul>
+                    <li>
+                        Results from your{" "}
                         <strong>independent verification</strong> assessment,
                         and a discussion of how you are integrating and
-                        responding to those findings.</p>
-
-                    <h2>Information on internal oversight and accountability</h2>
-                       <p> Information on{" "}
+                        responding to those findings.
+                    </li>
+                    <li>
+                        Information on{" "}
                         <strong>internal oversight and accountability</strong>{" "}
                         for the social compliance program, including to clarify
                         who is responsible for the program, and the Board and
-                        CEO&rsquo;s levels of involvement.</p>
-
-                    <h2>Challenges and lessons learned</h2>
-                        <p>A discussion of the <strong>challenges</strong> your
+                        CEO&rsquo;s levels of involvement.
+                    </li>
+                    <li>
+                        A discussion of the <strong>challenges</strong> your
                         social compliance program faces,{" "}
                         <strong>lessons learned</strong>, as well as your
-                        efforts to address root causes of labor abuse.</p>
-
-                    <h2>Case Studies of Activities</h2>
-                        <p>Case studies or{" "}
+                        efforts to address root causes of labor abuse.
+                    </li>
+                    <li>
+                        Case studies or{" "}
                         <strong>highlights of specific activities</strong>{" "}
-                        during the reporting period.</p>
-
-                    <h2>Feedback procedures</h2>
-                        <p><strong>Procedures for providing feedback</strong> on
-                        the report.</p>
-
-                    <ExampleInAction id="nike">
-                                        <h2>
-                                            <ExampleInAction.Icon alt="Lightbulb"/>
-                                            <strong>
-                                                Example in Action: Unilever&#39;s Palm Oil Supply Chain
-                                            </strong>
-                                        </h2>
-                                        <p>
-                                        <br />
-                                        <br />
-                                        </p>
-                                    </ExampleInAction>
+                        during the reporting period.
+                    </li>
+                    <li>
+                        <strong>Procedures for providing feedback</strong> on
+                        the report.
+                    </li>
+                </ul>
             </div>
         </StaticData>
     );
 };
 
-export default en;
-
-
-
-
+export default ms;
