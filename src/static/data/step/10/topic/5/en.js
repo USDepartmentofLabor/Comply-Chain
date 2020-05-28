@@ -28,7 +28,6 @@ const en = () => {
                     </h2>
                     <p>
                     <br />
-                    <br />
                     </p>
                 </ExampleInAction>
 
@@ -55,7 +54,6 @@ const en = () => {
                          </strong>
                      </h2>
                      <p>
-                     <br />
                      <br />
                      </p>
                  </ExampleInAction>

@@ -253,40 +253,6 @@ const en = () => {
                         * publishes its own monitoring reports as well as those
                         carried out by third-party monitors. </p>
 
-                    <h2>Remediation Policies</h2>
-                        <p>A description of your{" "}
-                        <strong>remediation policies</strong> when violations
-                        are found.</p>
-
-                <ExampleInAction id="nike">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Example in Action: Nike: Reporting on Remediation
-                        </strong>
-                    </h2>
-                    <p>
-                        In 2008, media reports put a spotlight on Hytex Apparel,
-                        Inc.*, a Malaysian company contracting with Nike, Inc.
-                        The reports focused on mistreatment of hundreds of
-                        migrant workers. Nike investigated and found that
-                        although Hytex was not breaking any of Malaysian
-                        immigration law, the dormitories for workers did not
-                        meet Nike&rsquo;s standards. In addition, several of
-                        Hytex&rsquo;s practices, including wage garnishment and
-                        withholding of personal documents such as passports,
-                        were in violation of Nike&rsquo;s supplier code of
-                        conduct even if not of national law.&nbsp;
-                    </p>
-                    <p>
-                        Nike worked with Hytex to return documents to workers,
-                        repay workers their garnished wages and improve the
-                        dormitories. Hytex also agreed to cover expenses for
-                        workers who wanted to return to their home countries.
-                        The situation with Hytex spurred Nike to develop its
-                        current policies and code provisions on migrant labor.
-                    </p>
-                </ExampleInAction>
                     <h2>Independent Verification Assessment Results</h2>
                         <p>Results from your{" "}
                         <strong>independent verification</strong> assessment,
@@ -324,9 +290,50 @@ const en = () => {
                                         </h2>
                                         <p>
                                         <br />
-                                        <br />
                                         </p>
                                     </ExampleInAction>
+                                    <br />
+                     <ExampleInAction id="nike">
+                                     <h2>
+                                         <ExampleInAction.Icon alt="Lightbulb"/>
+                                         <strong>
+                                             Example in Action: Unilever&#39;s Palm Oil Supply Chain
+                                         </strong>
+                                     </h2>
+                                     <p>
+                                     <br />
+                                     </p>
+                                 </ExampleInAction>
+                             <br />
+                      <ExampleInAction id="nike">
+                                          <h2>
+                                              <ExampleInAction.Icon alt="Lightbulb"/>
+                                              <strong>
+                                                  Example in Action: Nike: Reporting on Remediation
+                                              </strong>
+                                          </h2>
+                                          <p>
+                                              In 2008, media reports put a spotlight on Hytex Apparel,
+                                              Inc.*, a Malaysian company contracting with Nike, Inc.
+                                              The reports focused on mistreatment of hundreds of
+                                              migrant workers. Nike investigated and found that
+                                              although Hytex was not breaking any of Malaysian
+                                              immigration law, the dormitories for workers did not
+                                              meet Nike&rsquo;s standards. In addition, several of
+                                              Hytex&rsquo;s practices, including wage garnishment and
+                                              withholding of personal documents such as passports,
+                                              were in violation of Nike&rsquo;s supplier code of
+                                              conduct even if not of national law.&nbsp;
+                                          </p>
+                                          <p>
+                                              Nike worked with Hytex to return documents to workers,
+                                              repay workers their garnished wages and improve the
+                                              dormitories. Hytex also agreed to cover expenses for
+                                              workers who wanted to return to their home countries.
+                                              The situation with Hytex spurred Nike to develop its
+                                              current policies and code provisions on migrant labor.
+                                          </p>
+                                      </ExampleInAction>
             </div>
         </StaticData>
     );

@@ -50,6 +50,17 @@ const en = () => {
                     included in the published report itself, even where those
                     may be critical of some of the company&rsquo;s program.
                 </p>
+                <ExampleInAction id="nike">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: Reporting as a Small Business
+                        </strong>
+                    </h2>
+                    <p>
+                    <br />
+                    </p>
+                </ExampleInAction>
                 <p>
                     <em>
                         *Note: References to specific companies and
@@ -68,20 +79,7 @@ const en = () => {
                     </em>
                     <em>.</em>
                 </p>
-                <ExampleInAction id="nike">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Example in Action: Reporting as a Small Business
-                        </strong>
-                    </h2>
-                    <p>
-                    <br />
-                    <br />
-                    <br />
-                     <br />
-                    </p>
-                </ExampleInAction>
+
             </div>
         </StaticData>
     );
