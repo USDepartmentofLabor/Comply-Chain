@@ -161,62 +161,63 @@ const fr = () => {
                                                            discuter de ces situations.</p>
 
                                                         <h2>Tier 1 Suppliers</h2>
-                                                       <p> <strong>Sus proveedores.</strong> Por ejemplo, la
-                                                           empresa de art&iacute;culos de electr&oacute;nica{" "}
-                                                           <strong>Hewlett-Packard* </strong>hace p&uacute;blica su{" "}
+                                                       <p> <strong>Vos fournisseurs.</strong> Ainsi,
+                                                           l&rsquo;entreprise de l&rsquo;industrie
+                                                           &eacute;lectronique <strong>Hewlett-Packard* </strong>
+                                                           publie sa{" "}
                                                            <a
                                                                target="_blank"
                                                                rel="noopener noreferrer"
                                                                href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/supplychain.html?jumpid=in_r138_us/en/corp/sustainability/main-menu-society"
-                                                               title="lista de proveedores"
+                                                               title="liste de fournisseurs "
                                                            >
-                                                               lista de proveedores
+                                                               liste de fournisseurs
                                                            </a>{" "}
-                                                           desde 2007 y Target Corporation* publica{" "}
+                                                           depuis 2007 et Target Corporation* publie une{" "}
                                                            <a
                                                                target="_blank"
                                                                rel="noopener noreferrer"
                                                                href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Target-Global-Factory-List_Q1_2019.pdf"
-                                                               title="lista"
+                                                               title="liste"
                                                            >
-                                                               una lista
+                                                               liste
                                                            </a>{" "}
-                                                           de todas las f&aacute;bricas, plantas textiles y plantas
-                                                           de proceso h&uacute;medo que fabrican sus productos de
-                                                           marca propia.</p>
+                                                           de toutes les usines, de tous les ateliers de textile et
+                                                           de toutes les installations de traitement humide qui
+                                                           produisent des produits de marque Target.</p>
 
                                                         <h2>Factories/Farms/Mines Beyond Tier 1</h2>
 
-                                                        <p>Las{" "}
-                                                           <strong>
-                                                               f&aacute;bricas, establecimientos agr&iacute;colas o
-                                                               minas
-                                                           </strong>{" "}
-                                                           que abastecen a la empresa, a sus proveedores o a ambos.
-                                                           Publicar listas de las f&aacute;bricas es una tendencia
-                                                           creciente para muchas empresas que aspiran a una mayor
-                                                           responsabilidad social y ambiental. Por ejemplo, la
-                                                           empresa que vende art&iacute;culos deportivos para el
-                                                           aire libre <strong>Patagonia*</strong> publica una{" "}
+                                                        <p>Les{" "}
+                                                           <strong>usines/exploitations agricoles/mines</strong>{" "}
+                                                           aupr&egrave;s desquelles vous vous approvisionnez ainsi
+                                                           que vos fournisseurs. La publication de listes
+                                                           d&apos;usines est une tendance croissante pour de
+                                                           nombreuses entreprises qui veulent faire preuve
+                                                           d&rsquo;une plus grande responsabilit&eacute; sociale et
+                                                           environnementale. Par exemple, la soci&eacute;t&eacute;
+                                                           de vente de mat&eacute;riel de sports de plein air{" "}
+                                                           <strong>Patagonia*</strong> publie une{" "}
                                                            <a
                                                                target="_blank"
                                                                rel="noopener noreferrer"
                                                                href="http://www.patagonia.com/working-with-factories.html"
                                                            >
-                                                               lista de las f&aacute;bricas que hacen sus productos
+                                                               liste des usines qui fabriquent ses produits
                                                            </a>{" "}
-                                                           y un{" "}
+                                                           ainsi qu&rsquo;une{" "}
                                                            <a
                                                                target="_blank"
                                                                rel="noopener noreferrer"
                                                                href="http://www.patagonia.com/footprint.html"
-                                                               title="mapa interactivo"
+                                                               title="carte interactive"
                                                            >
-                                                               mapa interactivo
+                                                               carte interactive
                                                            </a>{" "}
-                                                           donde se muestra el nombre de la f&aacute;brica, el
-                                                           domicilio, los art&iacute;culos que fabrica, los idiomas
-                                                           que se hablan y la cantidad de empleados por sexo.</p>
+                                                           indiquant le nom de l&apos;usine, son adresse, les
+                                                           articles produits, les langues pratiqu&eacute;es et le
+                                                           nombre de ses employ&eacute;s en indiquant si ce sont
+                                                           des hommes ou des femmes.</p>
 
                                                          <OwnWords>
                                                             <h2>
@@ -229,246 +230,131 @@ const fr = () => {
                                                             </p>
                                                         </OwnWords>
                                                         <h2>Metrics to Measure Progress</h2>
-                                                        <p>La <strong>m&eacute;trica </strong>o los indicadores
-                                                           clave del desempe&ntilde;o que se utilizan en el sistema
-                                                           de cumplimiento social para medir los avances y el
-                                                           desempe&ntilde;o de la empresa en comparaci&oacute;n con
-                                                           dichos indicadores. Al calcular el desempe&ntilde;o en
-                                                           funci&oacute;n de una m&eacute;trica, para muchas
-                                                           empresas es importante desglosar el desempe&ntilde;o
-                                                           interno de la compa&ntilde;&iacute;a del
-                                                           desempe&ntilde;o en su cadena de suministro. Combinar
-                                                           ambos puede tergiversar el verdadero desempe&ntilde;o de
-                                                           la cadena de suministro.</p>
+                                                         <p>Les <strong>param&egrave;tres de mesure</strong> ou les
+                                                            indicateurs cl&eacute;s de performance (KPI) dont se
+                                                            sert votre programme de conformit&eacute; sociale pour
+                                                            mesurer les progr&egrave;s et vos r&eacute;sultats par
+                                                            rapport &agrave; ces param&egrave;tres. En calculant les
+                                                            r&eacute;sultats par rapport aux param&egrave;tres de
+                                                            mesure, il est important pour de nombreuses entreprises
+                                                            de distinguer les r&eacute;sultats au sein de
+                                                            l&apos;entreprise des r&eacute;sultats dans la
+                                                            cha&icirc;ne d&apos;approvisionnement de
+                                                            l&apos;entreprise. L&apos;agr&eacute;gation des deux
+                                                            peut occulter les r&eacute;alit&eacute;s des
+                                                            r&eacute;sultats de la cha&icirc;ne
+                                                            d&apos;approvisionnement.</p>
 
                                                         <h2>Code of Conduct</h2>
-                                                        <p>El <strong>c&oacute;digo de conducta</strong> de la
-                                                           empresa y las &aacute;reas de la cadena de suministro
-                                                           que abarca, incluido todo examen o actualizaci&oacute;n
-                                                           al c&oacute;digo que se haya realizado en el
-                                                           per&iacute;odo de notificaci&oacute;n.</p>
+                                                        <p>Votre <strong>code de conduite</strong>, et les segments
+                                                           de votre cha&icirc;ne d&apos;approvisionnement
+                                                           qu&apos;il couvre, y compris les r&eacute;visions ou
+                                                           mises &agrave; jour du code intervenues pendant la
+                                                           p&eacute;riode de d&eacute;claration.</p>
 
                                                       <h2>Engagement with Stakeholder</h2>
-                                                        <p>Una descripci&oacute;n de la{" "}
-                                                           <strong>participaci&oacute;n de los interesados</strong>{" "}
-                                                           y las comunidades locales, incluidos los grupos de
-                                                           varias partes interesadas con los que interact&uacute;a
-                                                           la empresa, las actividades de extensi&oacute;n que son
-                                                           parte de la evaluaci&oacute;n de riesgos y otros
-                                                           mecanismos de reclamaci&oacute;n y
-                                                           extensi&oacute;n.&nbsp;</p>
+                                                        <p>Une description de vos{" "}
+                                                           <strong>relations avec les parties prenantes</strong> et
+                                                           les communaut&eacute;s locales, y compris les groupes
+                                                           multipartites auxquels vous appartenez, la
+                                                           sensibilisation dans le cadre de votre &eacute;valuation
+                                                           des risques, et d&rsquo;autres m&eacute;canismes de
+                                                           sensibilisation et de r&eacute;clamation.&nbsp;</p>
 
-                                                         <h2>Metrics to Measure Progress</h2>
-                                                         <p>Un resumen esquem&aacute;tico de los{" "}
-                                                            <strong>programas de capacitaci&oacute;n</strong> en
-                                                            cumplimiento social a lo largo de todas las cadenas de
-                                                            suministro.</p>
+                                                           <h2>Metrics to Measure Progress</h2>
+                                                            <p>Une description de vos{" "}
+                                                               <strong>politiques de r&eacute;paration</strong> lorsque
+                                                               des violations sont d&eacute;tect&eacute;es.</p>
+
+
 
                                                         <h2>Social Audit Data</h2>
-                                                        <p><strong>Datos de la auditoria social. </strong>Estos
-                                                       datos deben ser lo m&aacute;s exhaustivos y
-                                                       espec&iacute;ficos posible. Algunas empresas publican
-                                                       los informes completos de las auditor&iacute;as mientras
-                                                       que otros compilan los datos y publican una
-                                                       versi&oacute;n abreviada. Por ejemplo, la{" "}
-                                                       <strong>FLA</strong> publica{" "}
-                                                       <a
-                                                           target="_blank"
-                                                           rel="noopener noreferrer"
-                                                           href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
-                                                           title="Gr&aacute;ficos de seguimiento"
-                                                       >
-                                                           &ldquo;Gr&aacute;ficos de seguimiento&rdquo;
-                                                       </a>{" "}
-                                                       en su p&aacute;gina web que contienen datos completos de
-                                                       todas las auditor&iacute;as realizadas en las
-                                                       f&aacute;bricas, as&iacute; como las medidas adoptadas
-                                                       por las empresas afiliadas a la FLA para abordar las
-                                                       conclusiones. La p&aacute;gina web de{" "}
-                                                       <a
-                                                           target="_blank"
-                                                           rel="noopener noreferrer"
-                                                           href="http://sustainability.hm.com/en/sustainability/downloads-resources/resources/supplier-compliance.html"
-                                                           title="Hennes and Mauritz"
-                                                       >
-                                                           Hennes &amp; Mauritz (H&amp;M)
-                                                       </a>
-                                                       * contiene datos sobre el desempe&ntilde;o de todos sus
-                                                       proveedores en materia de cumplimiento social.{" "}
-                                                       <a
-                                                           target="_blank"
-                                                           rel="noopener noreferrer"
-                                                           href="https://www.pmi.com/sustainability/good-agricultural-practices/upholding-labor-rights-on-the-farms"
-                                                           title="Philip Morris International"
-                                                       >
-                                                           Philip Morris International
-                                                       </a>
-                                                       * publica sus propios informes de vigilancia y
-                                                       seguimiento, as&iacute; como los que realizan los
-                                                       encargados de la vigilancia y seguimiento externos.</p>
+                                                        <p><strong>Donn&eacute;es des audits sociaux. </strong>Ces
+                                                           donn&eacute;es devraient &ecirc;tre aussi exhaustives et
+                                                           sp&eacute;cifiques que possible. Certaines entreprises
+                                                           publient des rapports d&apos;audit int&eacute;graux
+                                                           tandis que d&apos;autres regroupent les donn&eacute;es
+                                                           des audits et les publient sous forme compil&eacute;e.
+                                                           Par exemple, la <strong>FLA</strong> publie ses{" "}
+                                                           <a
+                                                               target="_blank"
+                                                               rel="noopener noreferrer"
+                                                               href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
+                                                               title="Tracking Charts"
+                                                           >
+                                                               «&nbsp;Tracking Charts&nbsp;»
+                                                           </a>{" "}
+                                                           (tableaux de suivi) sur son site Web, contenant toutes
+                                                           les informations relatives aux audits de chaque usine,
+                                                           ainsi que les mesures prises par les entreprises
+                                                           affili&eacute;es &agrave; la FLA quant aux
+                                                           r&eacute;sultats de ces audits. Le site Web de{" "}
+                                                           <a
+                                                               target="_blank"
+                                                               rel="noopener noreferrer"
+                                                               href="http://sustainability.hm.com/en/sustainability/downloads-resources/resources/supplier-compliance.html"
+                                                               title="Hennes and Mauritz"
+                                                           >
+                                                               Hennes &amp; Mauritz (H&amp;M)
+                                                           </a>
+                                                           * fournit des donn&eacute;es sur les r&eacute;sultats en
+                                                           mati&egrave;re de conformit&eacute; sociale de
+                                                           l&rsquo;ensemble de ses fournisseurs de premier niveau.{" "}
+                                                           <a
+                                                               target="_blank"
+                                                               rel="noopener noreferrer"
+                                                               href="https://www.pmi.com/sustainability/good-agricultural-practices/upholding-labor-rights-on-the-farms"
+                                                               title="Philip Morris International"
+                                                           >
+                                                               Philip Morris International
+                                                           </a>
+                                                           * publie ses propres rapports de surveillance ainsi que
+                                                           ceux de v&eacute;rificateurs tiers.</p>
+               <h2>Independent Verification Assessment Results</h2>
+                                       <p>Les r&eacute;sultats de votre &eacute;valuation par un{" "}
+                                          <strong>contr&ocirc;le ind&eacute;pendant</strong> et
+                                          des d&eacute;tails sur la fa&ccedil;on dont vous
+                                          int&eacute;grez ces conclusions et vous y
+                                          r&eacute;pondez.</p>
 
-                                                       <h2>Remediation Policies</h2>
-                                                           <p>Una descripci&oacute;n de las{" "}
-                                                              <strong>pol&iacute;ticas de remediaci&oacute;n</strong>{" "}
-                                                              de la empresa en caso de hallarse infracciones.</p>
+                                   <h2>Information on internal oversight and accountability</h2>
+                                      <p> Des informations sur la{" "}
+                                          <strong>
+                                              surveillance et la reddition de comptes internes
+                                          </strong>{" "}
+                                          en ce qui concerne le programme de conformit&eacute;
+                                          sociale, en pr&eacute;cisant qui est charg&eacute; du
+                                          programme, ainsi que le degr&eacute; de participation du
+                                          conseil d&apos;administration et du PDG.</p>
 
-                <ul>
-                    <li>
+                                   <h2>Challenges and lessons learned</h2>
+                                       <p>Un expos&eacute; des <strong>difficult&eacute;s</strong>{" "}
+                                          auxquelles est confront&eacute; votre programme de
+                                          conformit&eacute; sociale, des{" "}
+                                          <strong>enseignements tir&eacute;s</strong>, ainsi que
+                                          de vos efforts pour vous attaquer aux causes profondes
+                                          des abus des droits des travailleurs.</p>
 
-                    </li>
-                    <li>
+                                   <h2>Case Studies of Activities</h2>
+                                       <p>Des &eacute;tudes de cas ou une{" "}
+                                          <strong>
+                                              r&eacute;capitulation d&apos;activit&eacute;s
+                                              sp&eacute;cifiques
+                                          </strong>{" "}
+                                          au cours de la p&eacute;riode de d&eacute;claration.</p>
 
-                    </li>
-                    <li>
-                        <strong>Vos fournisseurs.</strong> Ainsi,
-                        l&rsquo;entreprise de l&rsquo;industrie
-                        &eacute;lectronique <strong>Hewlett-Packard* </strong>
-                        publie sa{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/supplychain.html?jumpid=in_r138_us/en/corp/sustainability/main-menu-society"
-                            title="liste de fournisseurs "
-                        >
-                            liste de fournisseurs
-                        </a>{" "}
-                        depuis 2007 et Target Corporation* publie une{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Target-Global-Factory-List_Q1_2019.pdf"
-                            title="liste"
-                        >
-                            liste
-                        </a>{" "}
-                        de toutes les usines, de tous les ateliers de textile et
-                        de toutes les installations de traitement humide qui
-                        produisent des produits de marque Target.
-                    </li>
-                    <li>
-                        Les{" "}
-                        <strong>usines/exploitations agricoles/mines</strong>{" "}
-                        aupr&egrave;s desquelles vous vous approvisionnez ainsi
-                        que vos fournisseurs. La publication de listes
-                        d&apos;usines est une tendance croissante pour de
-                        nombreuses entreprises qui veulent faire preuve
-                        d&rsquo;une plus grande responsabilit&eacute; sociale et
-                        environnementale. Par exemple, la soci&eacute;t&eacute;
-                        de vente de mat&eacute;riel de sports de plein air{" "}
-                        <strong>Patagonia*</strong> publie une{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/working-with-factories.html"
-                        >
-                            liste des usines qui fabriquent ses produits
-                        </a>{" "}
-                        ainsi qu&rsquo;une{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/footprint.html"
-                            title="carte interactive"
-                        >
-                            carte interactive
-                        </a>{" "}
-                        indiquant le nom de l&apos;usine, son adresse, les
-                        articles produits, les langues pratiqu&eacute;es et le
-                        nombre de ses employ&eacute;s en indiquant si ce sont
-                        des hommes ou des femmes.
-                    </li>
-                    <li>
-                        Les <strong>param&egrave;tres de mesure</strong> ou les
-                        indicateurs cl&eacute;s de performance (KPI) dont se
-                        sert votre programme de conformit&eacute; sociale pour
-                        mesurer les progr&egrave;s et vos r&eacute;sultats par
-                        rapport &agrave; ces param&egrave;tres. En calculant les
-                        r&eacute;sultats par rapport aux param&egrave;tres de
-                        mesure, il est important pour de nombreuses entreprises
-                        de distinguer les r&eacute;sultats au sein de
-                        l&apos;entreprise des r&eacute;sultats dans la
-                        cha&icirc;ne d&apos;approvisionnement de
-                        l&apos;entreprise. L&apos;agr&eacute;gation des deux
-                        peut occulter les r&eacute;alit&eacute;s des
-                        r&eacute;sultats de la cha&icirc;ne
-                        d&apos;approvisionnement.
-                    </li>
-                    <li>
-                        Votre <strong>code de conduite</strong>, et les segments
-                        de votre cha&icirc;ne d&apos;approvisionnement
-                        qu&apos;il couvre, y compris les r&eacute;visions ou
-                        mises &agrave; jour du code intervenues pendant la
-                        p&eacute;riode de d&eacute;claration.
-                    </li>
-                    <li>
-                        Une description de vos{" "}
-                        <strong>relations avec les parties prenantes</strong> et
-                        les communaut&eacute;s locales, y compris les groupes
-                        multipartites auxquels vous appartenez, la
-                        sensibilisation dans le cadre de votre &eacute;valuation
-                        des risques, et d&rsquo;autres m&eacute;canismes de
-                        sensibilisation et de r&eacute;clamation.&nbsp;
-                    </li>
-                    <li>
-                        Une vue d&apos;ensemble de vos{" "}
-                        <strong>programmes de formation</strong> au sujet de la
-                        conformit&eacute; sociale dans l&apos;ensemble de vos
-                        cha&icirc;nes d&apos;approvisionnement.
-                    </li>
-                    <li>
-                        <strong>Donn&eacute;es des audits sociaux. </strong>Ces
-                        donn&eacute;es devraient &ecirc;tre aussi exhaustives et
-                        sp&eacute;cifiques que possible. Certaines entreprises
-                        publient des rapports d&apos;audit int&eacute;graux
-                        tandis que d&apos;autres regroupent les donn&eacute;es
-                        des audits et les publient sous forme compil&eacute;e.
-                        Par exemple, la <strong>FLA</strong> publie ses{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
-                            title="Tracking Charts"
-                        >
-                            «&nbsp;Tracking Charts&nbsp;»
-                        </a>{" "}
-                        (tableaux de suivi) sur son site Web, contenant toutes
-                        les informations relatives aux audits de chaque usine,
-                        ainsi que les mesures prises par les entreprises
-                        affili&eacute;es &agrave; la FLA quant aux
-                        r&eacute;sultats de ces audits. Le site Web de{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://sustainability.hm.com/en/sustainability/downloads-resources/resources/supplier-compliance.html"
-                            title="Hennes and Mauritz"
-                        >
-                            Hennes &amp; Mauritz (H&amp;M)
-                        </a>
-                        * fournit des donn&eacute;es sur les r&eacute;sultats en
-                        mati&egrave;re de conformit&eacute; sociale de
-                        l&rsquo;ensemble de ses fournisseurs de premier niveau.{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.pmi.com/sustainability/good-agricultural-practices/upholding-labor-rights-on-the-farms"
-                            title="Philip Morris International"
-                        >
-                            Philip Morris International
-                        </a>
-                        * publie ses propres rapports de surveillance ainsi que
-                        ceux de v&eacute;rificateurs tiers.
-                    </li>
-                    <li>
-                        Une description de vos{" "}
-                        <strong>politiques de r&eacute;paration</strong> lorsque
-                        des violations sont d&eacute;tect&eacute;es.
-                    </li>
-                </ul>
+                                   <h2>Feedback procedures</h2>
+                                       <p><strong>
+                                          Des proc&eacute;dures de prestation d&apos;un retour
+                                          d&apos;information
+                                      </strong>{" "}
+                                      sur le rapport.</p>
+
                 <ExampleInAction id="nike">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Exemple d&apos;action: Nike*: rapports
+                            Exemple d&apos;action: Nike: rapports
                             sur les r&eacute;parations
                         </strong>
                     </h2>
@@ -502,48 +388,32 @@ const fr = () => {
                         migrants.
                     </p>
                 </ExampleInAction>
-                <ul>
-                    <li>
-                        Les r&eacute;sultats de votre &eacute;valuation par un{" "}
-                        <strong>contr&ocirc;le ind&eacute;pendant</strong> et
-                        des d&eacute;tails sur la fa&ccedil;on dont vous
-                        int&eacute;grez ces conclusions et vous y
-                        r&eacute;pondez.
-                    </li>
-                    <li>
-                        Des informations sur la{" "}
+                <br />
+                <ExampleInAction id="nike">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            surveillance et la reddition de comptes internes
-                        </strong>{" "}
-                        en ce qui concerne le programme de conformit&eacute;
-                        sociale, en pr&eacute;cisant qui est charg&eacute; du
-                        programme, ainsi que le degr&eacute; de participation du
-                        conseil d&apos;administration et du PDG.
-                    </li>
-                    <li>
-                        Un expos&eacute; des <strong>difficult&eacute;s</strong>{" "}
-                        auxquelles est confront&eacute; votre programme de
-                        conformit&eacute; sociale, des{" "}
-                        <strong>enseignements tir&eacute;s</strong>, ainsi que
-                        de vos efforts pour vous attaquer aux causes profondes
-                        des abus des droits des travailleurs.
-                    </li>
-                    <li>
-                        Des &eacute;tudes de cas ou une{" "}
-                        <strong>
-                            r&eacute;capitulation d&apos;activit&eacute;s
-                            sp&eacute;cifiques
-                        </strong>{" "}
-                        au cours de la p&eacute;riode de d&eacute;claration.
-                    </li>
-                    <li>
-                        <strong>
-                            Des proc&eacute;dures de prestation d&apos;un retour
-                            d&apos;information
-                        </strong>{" "}
-                        sur le rapport.
-                    </li>
-                </ul>
+                            Exemple d&apos;action:
+                        </strong>
+                    </h2>
+                    <p>
+                        PLACEHOLDER FOR TEXT
+                    </p>
+                </ExampleInAction>
+                                    <br />
+
+                                <ExampleInAction id="nike">
+                                    <h2>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Exemple d&apos;action:
+                                        </strong>
+                                    </h2>
+                                    <p>
+                                        PLACEHOLDER FOR TEXT
+                                    </p>
+                                </ExampleInAction>
+
             </div>
         </StaticData>
     );

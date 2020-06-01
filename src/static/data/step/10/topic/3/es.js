@@ -301,42 +301,6 @@ const es = () => {
                                               <strong>pol&iacute;ticas de remediaci&oacute;n</strong>{" "}
                                               de la empresa en caso de hallarse infracciones.</p>
 
-                                       <ExampleInAction id="nike">
-                                                           <h2>
-                                                               <ExampleInAction.Icon alt="Lightbulb"/>
-                                                               <strong>
-                                                                   Ejemplo en acci&oacute;n: Nike: notificaci&oacute;n
-                                                                   de las medidas de remediaci&oacute;n
-                                                               </strong>
-                                                           </h2>
-                                                           <p>
-                                                               En 2008, distintos informes de los medios pusieron en la
-                                                               mira a Hytex Apparel, Inc.*, una empresa malaya
-                                                               contratista de Nike Inc., mayormente por el maltrato
-                                                               conferido a centenares de trabajadores migrantes. Nike
-                                                               investig&oacute; y descubri&oacute; que si bien Hytex no
-                                                               contraven&iacute;a ninguna de las leyes inmigratorias de
-                                                               Malasia, los complejos habitacionales de los
-                                                               trabajadores no cumpl&iacute;an las normas de Nike.
-                                                               Asimismo, numerosas pr&aacute;cticas de Hytex, como el
-                                                               embargo salarial y la retenci&oacute;n de documentos
-                                                               personales como pasaportes, contraven&iacute;an el
-                                                               c&oacute;digo de conducta de los proveedores de Nike, si
-                                                               bien no la legislaci&oacute;n nacional.&nbsp;
-                                                           </p>
-                                                           <p>
-                                                               Nike colabor&oacute; con Hytex para que devolviera los
-                                                               documentos a los trabajadores, les reembolsara el
-                                                               salario embargado y mejorara los complejos
-                                                               habitacionales. Asimismo, Hytex acord&oacute; solventar
-                                                               los gastos de los trabajadores que desearan regresar a
-                                                               su pa&iacute;s de origen. La situaci&oacute;n con Hytex
-                                                               provoc&oacute; que Nike redactara las pol&iacute;ticas y
-                                                               las disposiciones actuales del c&oacute;digo en materia
-                                                               de trabajadores migrantes.
-                                                           </p>
-                                                       </ExampleInAction>
-
 
 
                     <h2>Independent Verification Assessment Results</h2>
@@ -392,6 +356,55 @@ const es = () => {
                                   <br />
                               </p>
                           </ExampleInAction>
+                           <br />
+                          <ExampleInAction id="nike">
+                            <h2>
+                                <ExampleInAction.Icon alt="Lightbulb"/>
+                                <strong>
+                                    Ejemplo en acci&oacute;n: Unilever&#39;s Palm Oil Supply Chain
+                                </strong>
+                            </h2>
+                            <p>
+                                PLACEHOLDER TEXT
+                                <br />
+                            </p>
+                        </ExampleInAction>
+                           <br />
+                          <ExampleInAction id="nike">
+                             <h2>
+                                 <ExampleInAction.Icon alt="Lightbulb"/>
+                                 <strong>
+                                     Ejemplo en acci&oacute;n: Nike: notificaci&oacute;n
+                                     de las medidas de remediaci&oacute;n
+                                 </strong>
+                             </h2>
+                             <p>
+                                 En 2008, distintos informes de los medios pusieron en la
+                                 mira a Hytex Apparel, Inc.*, una empresa malaya
+                                 contratista de Nike Inc., mayormente por el maltrato
+                                 conferido a centenares de trabajadores migrantes. Nike
+                                 investig&oacute; y descubri&oacute; que si bien Hytex no
+                                 contraven&iacute;a ninguna de las leyes inmigratorias de
+                                 Malasia, los complejos habitacionales de los
+                                 trabajadores no cumpl&iacute;an las normas de Nike.
+                                 Asimismo, numerosas pr&aacute;cticas de Hytex, como el
+                                 embargo salarial y la retenci&oacute;n de documentos
+                                 personales como pasaportes, contraven&iacute;an el
+                                 c&oacute;digo de conducta de los proveedores de Nike, si
+                                 bien no la legislaci&oacute;n nacional.&nbsp;
+                             </p>
+                             <p>
+                                 Nike colabor&oacute; con Hytex para que devolviera los
+                                 documentos a los trabajadores, les reembolsara el
+                                 salario embargado y mejorara los complejos
+                                 habitacionales. Asimismo, Hytex acord&oacute; solventar
+                                 los gastos de los trabajadores que desearan regresar a
+                                 su pa&iacute;s de origen. La situaci&oacute;n con Hytex
+                                 provoc&oacute; que Nike redactara las pol&iacute;ticas y
+                                 las disposiciones actuales del c&oacute;digo en materia
+                                 de trabajadores migrantes.
+                             </p>
+                         </ExampleInAction>
 
             </div>
         </StaticData>

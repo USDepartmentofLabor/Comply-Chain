@@ -56,6 +56,18 @@ const es = () => {
                     informe en s&iacute;, incluso los que tal vez critiquen
                     algunos aspectos del programa de la empresa.
                 </p>
+                <ExampleInAction id="nike">
+                  <h2>
+                      <ExampleInAction.Icon alt="Lightbulb"/>
+                      <strong>
+                          Ejemplo en acci&oacute;n: Reporting as a Small Business
+                      </strong>
+                  </h2>
+                  <p>
+                      PLACEHOLDER TEXT
+                      <br />
+                  </p>
+              </ExampleInAction>
                 <p>
                     <em>
                         *Nota: Toda referencia que se haga en la presente
@@ -75,18 +87,7 @@ const es = () => {
                     </em>
                     <em>.</em>
                 </p>
-                <ExampleInAction id="nike">
-                  <h2>
-                      <ExampleInAction.Icon alt="Lightbulb"/>
-                      <strong>
-                          Ejemplo en acci&oacute;n: Reporting as a Small Business
-                      </strong>
-                  </h2>
-                  <p>
-                      PLACEHOLDER TEXT
-                      <br />
-                  </p>
-              </ExampleInAction>
+
             </div>
         </StaticData>
     );
