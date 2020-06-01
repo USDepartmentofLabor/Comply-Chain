@@ -13,8 +13,8 @@ const es = () => {
                     Toda auditor&iacute;a suele constar de varios pasos, que se
                     enumeran a continuaci&oacute;n.&nbsp;
                 </p>
-                <Accordion id="cocoa-chains-acc">
-                                   <Accordion.Section id="cocoa-description">
+                <Accordion id="worksite-travel-acc">
+                                   <Accordion.Section id="worksite-travel-description">
                                       <Accordion.Title>
                                       Llegada al lugar de trabajo
                                          </Accordion.Title>
@@ -34,8 +34,8 @@ const es = () => {
                                  </Accordion.Section>
                                  </Accordion>
 
-                    <Accordion id="cocoa-chains-acc">
-                                       <Accordion.Section id="cocoa-description">
+                    <Accordion id="mgmt-meeting-acc">
+                                        <Accordion.Section id="mgmt-meeting-description">
                                           <Accordion.Title>
                                           Reuni&oacute;n de apertura con la gerencia
                                              </Accordion.Title>
@@ -55,8 +55,8 @@ const es = () => {
                                      </Accordion.Section>
                                      </Accordion>
 
-                    <Accordion id="cocoa-chains-acc">
-                                       <Accordion.Section id="cocoa-description">
+                    <Accordion id="site-walk-through-acc">
+                                      <Accordion.Section id="site-walk-through-description">
                                           <Accordion.Title>
                                           Recorrido por el lugar de trabajo
                                              </Accordion.Title>
@@ -214,8 +214,8 @@ const es = () => {
                 </Accordion.Panel>
                  </Accordion.Section>
                  </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                                   <Accordion.Section id="cocoa-description">
+                <Accordion id="worker-interview-acc">
+                                  <Accordion.Section id="worker-interview-description">
                                       <Accordion.Title>
                                       Entrevista a los trabajadores
                                          </Accordion.Title>
@@ -414,8 +414,8 @@ const es = () => {
                                      </Accordion.Panel>
                                  </Accordion.Section>
                                  </Accordion>
-                    <Accordion id="cocoa-chains-acc">
-                                       <Accordion.Section id="cocoa-description">
+                    <Accordion id="mgmnt-interview-acc">
+                                      <Accordion.Section id="mgmnt-interview-description">
                                           <Accordion.Title>
                                           Entrevistas a la gerencia
                                              </Accordion.Title>
@@ -435,8 +435,8 @@ const es = () => {
                                          </Accordion.Panel>
                                      </Accordion.Section>
                                      </Accordion>
-                    <Accordion id="cocoa-chains-acc">
-                                       <Accordion.Section id="cocoa-description">
+                    <Accordion id="broker-interview-acc">
+                                      <Accordion.Section id="broker-interview-description">
                                           <Accordion.Title>
                                           Entrevistas con intermediarios laborales y reclutadores
 
@@ -488,8 +488,8 @@ const es = () => {
                                          </Accordion.Panel>
                                      </Accordion.Section>
                                      </Accordion>
-                    <Accordion id="cocoa-chains-acc">
-                               <Accordion.Section id="cocoa-description">
+                    <Accordion id="doc-review-acc">
+                                      <Accordion.Section id="doc-review-description">
                                   <Accordion.Title>
                                   Examen de la documentaci&oacute;n
                                      </Accordion.Title>
@@ -577,8 +577,8 @@ const es = () => {
                              </Accordion.Section>
                              </Accordion>
 
-                     <Accordion id="cocoa-chains-acc">
-                    <Accordion.Section id="cocoa-description">
+                     <Accordion id="closing-meeting-acc">
+                                                       <Accordion.Section id="closing-meeting-description">
                        <Accordion.Title>
                        Reuni&oacute;n de clausura con la gerencia
                           </Accordion.Title>
@@ -600,8 +600,8 @@ const es = () => {
                       </Accordion.Panel>
                   </Accordion.Section>
                   </Accordion>
-                    <Accordion id="cocoa-chains-acc">
-                       <Accordion.Section id="cocoa-description">
+                    <Accordion id="report-prep-acc">
+                                                      <Accordion.Section id="report-prep-description">
                           <Accordion.Title>
                           Elaboraci&oacute;n del informe
                              </Accordion.Title>

@@ -1,5 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import hrm from "../../../../../images/hrm.jpg";
+import panos from "../../../../../images/panos.jpg";
+import Accordion from "../../../../../../components/Accordion";
 
 const es = () => {
     return (
@@ -69,6 +75,18 @@ const es = () => {
                     </em>
                     <em>.</em>
                 </p>
+                <ExampleInAction id="nike">
+                  <h2>
+                      <ExampleInAction.Icon alt="Lightbulb"/>
+                      <strong>
+                          Ejemplo en acci&oacute;n: Reporting as a Small Business
+                      </strong>
+                  </h2>
+                  <p>
+                      PLACEHOLDER TEXT
+                      <br />
+                  </p>
+              </ExampleInAction>
             </div>
         </StaticData>
     );

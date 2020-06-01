@@ -1,5 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import hrm from "../../../../../images/hrm.jpg";
+import panos from "../../../../../images/panos.jpg";
+import Accordion from "../../../../../../components/Accordion";
 
 const fr = () => {
     return (
@@ -35,6 +41,15 @@ const fr = () => {
                     n&apos;ont peut-&ecirc;tre pas acc&egrave;s &agrave;
                     internet.
                 </p>
+                <OwnWords>
+                        <h2>
+                            <OwnWords.Icon alt="Feedback"/>{" "}
+                            <strong>Dans leurs propres mots</strong>&nbsp;{": "}
+                        </h2>
+                        <p>
+                            PLACEHOLDER FOR TEXT
+                        </p>
+                    </OwnWords>
             </div>
         </StaticData>
     );

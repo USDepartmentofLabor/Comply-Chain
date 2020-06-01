@@ -1,5 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import hrm from "../../../../../images/hrm.jpg";
+import panos from "../../../../../images/panos.jpg";
+import Accordion from "../../../../../../components/Accordion";
 
 const es = () => {
     return (
@@ -61,6 +67,51 @@ const es = () => {
                     Presentar informes p&uacute;blicos ofrece una gama de
                     beneficios, tanto internos como externos:&nbsp;
                 </p>
+                <OwnWords>
+                                    <h2>
+                                        <OwnWords.Icon alt="Feedback"/>{" "}
+                                        <strong>En sus propias palabras</strong>
+                                        {": "}
+                                    </h2>
+                                    <p>
+                                        La responsabilidad de respetar los derechos humanos
+                                        exige que las empresas cuenten con pol&iacute;ticas y
+                                        procesos para saber y hacer saber que respetan los
+                                        derechos humanos en la pr&aacute;ctica. Hacer saber
+                                        implica comunicar, ofrecer transparencia y rendir
+                                        cuentas a las personas o grupos que puedan verse
+                                        afectados y a otros interesados, incluidos los
+                                        inversores.
+                                    </p>
+                                    <p>
+                                        La comunicaci&oacute;n puede adoptar diversas formas,
+                                        como reuniones personales, di&aacute;logos en
+                                        l&iacute;nea, consultas con los afectados e informes
+                                        p&uacute;blicos oficiales. Tambi&eacute;n la
+                                        informaci&oacute;n oficial est&aacute; evolucionando,
+                                        desde los tradicionales informes anuales y los informes
+                                        de responsabilidad/sostenibilidad empresarial hasta la
+                                        inclusi&oacute;n de actualizaciones en l&iacute;nea e
+                                        informes integrados financieros y no financieros.
+                                    </p>
+                                    <p>
+                                        <em>
+                                            Fuente:{" "}
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+                                                title="Principios Rectores sobre las Empresas y los Derechos Humanos de las Naciones Unidas"
+                                            >
+                                                <i>
+                                                    Principios Rectores sobre las Empresas y los
+                                                    Derechos Humanos de las Naciones Unidas
+                                                </i>
+                                            </a>
+                                            , 2011.
+                                        </em>
+                                    </p>
+                                </OwnWords>
                 <div style={{ marginLeft: "2%" }}>
                     <h2>
                         Educaci&oacute;n y aceptaci&oacute;n de los empleados
@@ -116,6 +167,31 @@ const es = () => {
                         dentro de la compa&ntilde;&iacute;a misma como con las
                         partes interesadas externas importantes.
                     </p>
+                    <ExampleInAction id="nike">
+                         <h2>
+                             <ExampleInAction.Icon alt="Lightbulb"/>
+                             <strong>
+                                 Ejemplo en acci&oacute;n:
+                             </strong>
+                         </h2>
+                         <p>
+                           <b>PLACEHOLDER FOR TEXT</b>
+                           <br />
+                         </p>
+                     </ExampleInAction>
+                                   <br />
+                     <ExampleInAction id="nike">
+                         <h2>
+                             <ExampleInAction.Icon alt="Lightbulb"/>
+                             <strong>
+                                 Ejemplo en acci&oacute;n:
+                             </strong>
+                         </h2>
+                         <p>
+                         <b>PLACEHOLDER FOR TEXT</b>
+                           <br />
+                         </p>
+                     </ExampleInAction>
                 </div>
             </div>
         </StaticData>

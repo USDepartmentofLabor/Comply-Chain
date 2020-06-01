@@ -27,8 +27,8 @@ const es = () => {
                     Mantener actualizada una base de datos eficaz de las
                     auditor&iacute;as presenta varios desaf&iacute;os.
                 </p>
-                <Accordion id="cocoa-chains-acc">
-                   <Accordion.Section id="cocoa-description">
+                <Accordion id="data-processing-acc">
+                                   <Accordion.Section id="data-processing-description">
                       <Accordion.Title>
                       Procesamiento de datos
                          </Accordion.Title>
@@ -78,8 +78,8 @@ const es = () => {
                  </Accordion.Section>
                  </Accordion>
 
-                <Accordion id="cocoa-chains-acc">
-                                                       <Accordion.Section id="cocoa-description">
+                <Accordion id="systems-integration-acc">
+                                                    <Accordion.Section id="systems-integration-description">
                                                           <Accordion.Title>
                                                           Integraci&oacute;n con otros sistemas de inform&aacute;tica
                                                              </Accordion.Title>
@@ -104,8 +104,8 @@ const es = () => {
                                                      </Accordion.Section>
                                                      </Accordion>
 
-                <Accordion id="cocoa-chains-acc">
-                                                       <Accordion.Section id="cocoa-description">
+                <Accordion id="using-data-acc">
+                                                                     <Accordion.Section id="using-data-description">
                                                           <Accordion.Title>
                                                           Uso de los datos
                                                              </Accordion.Title>

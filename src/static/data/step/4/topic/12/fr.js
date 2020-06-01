@@ -60,8 +60,8 @@ const fr = () => {
                                     fonctions essentielles &agrave; remplir dans cet effort, y
                                     compris dans les domaines suivants:
                                 </p>
-                                <Accordion id="cocoa-chains-acc">
-                                                 <Accordion.Section id="cocoa-description">
+                                <Accordion id="wages-benefits-acc">
+                                                 <Accordion.Section id="wages-benefits-description">
                                                     <Accordion.Title>
                                                   Salaires et avantages
                                                        </Accordion.Title>
@@ -112,8 +112,8 @@ const fr = () => {
                                                    </Accordion.Panel>
                                                </Accordion.Section>
                                                </Accordion>
-                                    <Accordion id="cocoa-chains-acc">
-                                                     <Accordion.Section id="cocoa-description">
+                                    <Accordion id="build-govt-acc">
+                                                           <Accordion.Section id="build-govt-description">
                                                         <Accordion.Title>
                                                       Renforcement des capacit&eacute;s de l&apos;&Eacute;tat
 
@@ -163,8 +163,8 @@ const fr = () => {
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
                                                    </Accordion>
-                                    <Accordion id="cocoa-chains-acc">
-                                                     <Accordion.Section id="cocoa-description">
+                                    <Accordion id="collab-govt-acc">
+                                                                       <Accordion.Section id="collab-govt-description">
                                                         <Accordion.Title>
                                                       Collaboration avec les autorit&eacute;s publiques
                                                            </Accordion.Title>
@@ -205,8 +205,8 @@ const fr = () => {
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
                                                    </Accordion>
-                                    <Accordion id="cocoa-chains-acc">
-                                                     <Accordion.Section id="cocoa-description">
+                                    <Accordion id="collab-other-comps-acc">
+                                                        <Accordion.Section id="collab-other-comps-description">
                                                         <Accordion.Title>
                                                       Collaboration avec d&apos;autres entreprises
                                                            </Accordion.Title>
@@ -286,8 +286,8 @@ const fr = () => {
                                    </Accordion.Panel>
                                    </Accordion.Section>
                                    </Accordion>
-                                <Accordion id="cocoa-chains-acc">
-                                                 <Accordion.Section id="cocoa-description">
+                                <Accordion id="labor-unions-acc">
+                                                   <Accordion.Section id="labor-unions-description">
                                                     <Accordion.Title>
                                                   Appui aux syndicats et aux autres groupes de d&eacute;fense des travailleurs
 
@@ -357,8 +357,8 @@ const fr = () => {
                                 </Accordion.Panel>
                                </Accordion.Section>
                                </Accordion>
-                               <Accordion id="cocoa-chains-acc">
-                                                <Accordion.Section id="cocoa-description">
+                               <Accordion id="responsible-recruit-acc">
+                                                               <Accordion.Section id="responsible-recruit-description">
                                                    <Accordion.Title>
                                                  Responsible Recruitment
                                                       </Accordion.Title>
@@ -371,8 +371,8 @@ const fr = () => {
                                               </Accordion.Section>
                                               </Accordion>
 
-                                              <Accordion id="cocoa-chains-acc">
-                                                   <Accordion.Section id="cocoa-description">
+                                              <Accordion id="worker-voice-acc">
+                                                                                 <Accordion.Section id="worker-voice-description">
                                                       <Accordion.Title>
                                                     Ensuring Worker Voice
                                                          </Accordion.Title>

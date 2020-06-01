@@ -26,8 +26,8 @@ const fr = () => {
                                     contre le travail des enfants et le travail forc&eacute;
                                     comprennent:
                                 </p>
-                                <Accordion id="cocoa-chains-acc">
-                                                 <Accordion.Section id="cocoa-description">
+                                <Accordion id="edu-progs-acc">
+                                                    <Accordion.Section id="edu-progs-description">
                                                     <Accordion.Title>
                                                   Des programmes &eacute;ducatifs
                                                        </Accordion.Title>
@@ -117,8 +117,8 @@ const fr = () => {
                                 </Accordion.Panel>
                                </Accordion.Section>
                                </Accordion>
-                                <Accordion id="cocoa-chains-acc">
-                                                 <Accordion.Section id="cocoa-description">
+                                <Accordion id="livelihood-progs-acc">
+                                                    <Accordion.Section id="livelihood-progs-description">
                                                     <Accordion.Title>
                                                   Programmes de subsistance
                                                        </Accordion.Title>
@@ -147,8 +147,8 @@ const fr = () => {
                                                </Accordion.Section>
                                                </Accordion>
 
-                                    <Accordion id="cocoa-chains-acc">
-                                                     <Accordion.Section id="cocoa-description">
+                                     <Accordion id="women-emp-acc">
+                                                        <Accordion.Section id="women-emp-description">
                                                         <Accordion.Title>
                                                       Initiatives d&apos;emploi pour les jeunes
                                                            </Accordion.Title>
@@ -215,8 +215,8 @@ const fr = () => {
                                  </Accordion.Panel>
                                    </Accordion.Section>
                                    </Accordion>
-                                <Accordion id="cocoa-chains-acc">
-                                                 <Accordion.Section id="cocoa-description">
+                                <Accordion id="health-programs-acc">
+                                                    <Accordion.Section id="health-programs-description">
                                                     <Accordion.Title>
                                                  Programmes d&apos;autonomisation des femmes
                                                        </Accordion.Title>
@@ -286,8 +286,8 @@ const fr = () => {
                                  </Accordion.Panel>
                                    </Accordion.Section>
                                    </Accordion>
-                                <Accordion id="cocoa-chains-acc">
-                                                 <Accordion.Section id="cocoa-description">
+                                <Accordion id="victim-shelters-acc">
+                                                     <Accordion.Section id="victim-shelters-description">
                                                     <Accordion.Title>
                                                   Programmes de sant&eacute;
                                                        </Accordion.Title>
@@ -343,8 +343,8 @@ const fr = () => {
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
                                                    </Accordion>
-                                    <Accordion id="cocoa-chains-acc">
-                                                     <Accordion.Section id="cocoa-description">
+                                   <Accordion id="financial-literacy-acc">
+                                                        <Accordion.Section id="financial-literacy-description">
                                                         <Accordion.Title>
                                                       &Eacute;ducation financi&egrave;re
                                                            </Accordion.Title>
@@ -401,8 +401,8 @@ const fr = () => {
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
                                                    </Accordion>
-                                    <Accordion id="cocoa-chains-acc">
-                                                     <Accordion.Section id="cocoa-description">
+                                    <Accordion id="dev-markets-acc">
+                                                        <Accordion.Section id="dev-markets-description">
                                                         <Accordion.Title>
                                                       D&eacute;veloppement des march&eacute;s
                                                            </Accordion.Title>

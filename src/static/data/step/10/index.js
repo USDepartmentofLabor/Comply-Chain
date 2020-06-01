@@ -1,4 +1,4 @@
-//import { ExtraInfo } from "./extra";
+import { ExtraInfo } from "./extra";
 import { Resources } from "./resource";
 import { Topics } from "./topic";
 
@@ -40,7 +40,7 @@ export const StepData = {
             }
         ],
         furtherResources: Resources.es,
-        //extraInfo: ExtraInfo.es
+        extraInfo: ExtraInfo.es
     },
     fr: {
         title: "Huitième étape: Rendre compte des résultats",

@@ -19,8 +19,8 @@ const en = () => {
                     This is particularly true for migrant workers.
                 </p>
                 <div><h2>Causes Related to Poverty</h2>
-                 <Accordion id="cocoa-chains-acc">
-                        <Accordion.Section id="cocoa-description">
+                 <Accordion id="lack-of-awareness-acc">
+                        <Accordion.Section id="lack-of-awareness-description">
                            <Accordion.Title>
                          Lack of Awareness About Human Rights
                               </Accordion.Title>
@@ -39,8 +39,8 @@ const en = () => {
                             </Accordion.Panel>
                       </Accordion.Section>
                       </Accordion>
-                   <Accordion id="cocoa-chains-acc">
-                      <Accordion.Section id="cocoa-description">
+                   <Accordion id="gender-ineq-acc">
+                      <Accordion.Section id="gender-ineq-description">
                          <Accordion.Title>
                         Gender Inequality
                             </Accordion.Title>
@@ -62,8 +62,8 @@ const en = () => {
                     </Accordion>
                 </div>
                 <div><h2>Causes Related to Governance</h2>
-                <Accordion id="cocoa-chains-acc">
-                        <Accordion.Section id="cocoa-description">
+                <Accordion id="inadequate-govt-acc">
+                        <Accordion.Section id="inadequate-govt-description">
                            <Accordion.Title>
                          Ineffective or Inadequate Government Resources
                               </Accordion.Title>
@@ -84,8 +84,8 @@ const en = () => {
                           </Accordion.Panel>
                       </Accordion.Section>
                       </Accordion>
-                   <Accordion id="cocoa-chains-acc">
-                      <Accordion.Section id="cocoa-description">
+                   <Accordion id="lack-of-access-acc">
+                      <Accordion.Section id="lack-of-access-description">
                          <Accordion.Title>
                         Lack of Access to Quality Education
                             </Accordion.Title>
@@ -109,8 +109,8 @@ const en = () => {
                         </Accordion.Panel>
                     </Accordion.Section>
                     </Accordion>
-                 <Accordion id="cocoa-chains-acc">
-                         <Accordion.Section id="cocoa-description">
+                 <Accordion id="weak-trade-acc">
+                         <Accordion.Section id="weak-trade-description">
                             <Accordion.Title>
                            Weak or Nonexistent Trade Unions and Other Civil Society Groups
                                </Accordion.Title>
@@ -135,8 +135,8 @@ const en = () => {
                            </Accordion.Panel>
                        </Accordion.Section>
                        </Accordion>
-                    <Accordion id="cocoa-chains-acc">
-                       <Accordion.Section id="cocoa-description">
+                    <Accordion id="migration-systems-acc">
+                       <Accordion.Section id="migration-systems-description">
                           <Accordion.Title>
                         Migration Systems
                              </Accordion.Title>
@@ -165,8 +165,8 @@ const en = () => {
                      </Accordion.Section>
                      </Accordion></div>
                 <div><h2>Causes Related to Global Economic Forces</h2>
-                    <Accordion id="cocoa-chains-acc">
-                    <Accordion.Section id="cocoa-description">
+                    <Accordion id="global-comp-acc">
+                    <Accordion.Section id="global-comp-acc-description">
                        <Accordion.Title>
                       Global Competition
                           </Accordion.Title>
@@ -185,8 +185,8 @@ const en = () => {
                       </Accordion.Panel>
                   </Accordion.Section>
                   </Accordion>
-               <Accordion id="cocoa-chains-acc">
-                  <Accordion.Section id="cocoa-description">
+               <Accordion id="precarious-work-acc">
+                  <Accordion.Section id="precarious-work-description">
                      <Accordion.Title>
                     Precarious Work
                         </Accordion.Title>
@@ -209,8 +209,8 @@ const en = () => {
                 </Accordion.Section>
                 </Accordion></div>
                 <div><h2>Other External Factors</h2>
-                    <Accordion id="cocoa-chains-acc">
-                    <Accordion.Section id="cocoa-description">
+                    <Accordion id="conflict-acc">
+                    <Accordion.Section id="conflict-description">
                        <Accordion.Title>
                       Conflict
                           </Accordion.Title>
@@ -230,8 +230,8 @@ const en = () => {
                       </Accordion.Panel>
                   </Accordion.Section>
                   </Accordion>
-               <Accordion id="cocoa-chains-acc">
-                  <Accordion.Section id="cocoa-description">
+               <Accordion id="natural-disaster-acc">
+                  <Accordion.Section id="natural-disaster-description">
                      <Accordion.Title>
                     Natural Disaster and Extreme Weather
                         </Accordion.Title>
@@ -249,8 +249,8 @@ const en = () => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                  <Accordion.Section id="cocoa-description">
+                <Accordion id="global-health-crisis-acc">
+                  <Accordion.Section id="global-health-crisis-description">
                      <Accordion.Title>
                    Global Health Crises
                         </Accordion.Title>

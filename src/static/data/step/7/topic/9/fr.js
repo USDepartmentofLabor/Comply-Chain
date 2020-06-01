@@ -27,8 +27,8 @@ const fr = () => {
                     La tenue d&apos;une base de donn&eacute;es efficace des
                     audits pr&eacute;sente plusieurs difficult&eacute;s.
                 </p>
-                <Accordion id="cocoa-chains-acc">
-                                   <Accordion.Section id="cocoa-description">
+                <Accordion id="data-processing-acc">
+                                   <Accordion.Section id="data-processing-description">
                                       <Accordion.Title>
                                       Traitement des donn&eacute;es
                                          </Accordion.Title>
@@ -83,8 +83,8 @@ const fr = () => {
                                      </Accordion.Panel>
                                  </Accordion.Section>
                                  </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                                   <Accordion.Section id="cocoa-description">
+                <Accordion id="systems-integration-acc">
+                                                    <Accordion.Section id="systems-integration-description">
                                       <Accordion.Title>
                                       Int&eacute;gration dans d&apos;autres syst&egrave;mes d&apos;information
 
@@ -114,8 +114,8 @@ const fr = () => {
                                  </Accordion.Section>
                                  </Accordion>
 
-                <Accordion id="cocoa-chains-acc">
-                                   <Accordion.Section id="cocoa-description">
+                <Accordion id="using-data-acc">
+                                                                     <Accordion.Section id="using-data-description">
                                       <Accordion.Title>
                                       Utiliser les donn&eacute;es
                                          </Accordion.Title>

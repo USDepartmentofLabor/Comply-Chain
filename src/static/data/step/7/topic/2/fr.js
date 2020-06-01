@@ -37,8 +37,8 @@ const fr = () => {
                     d&eacute;marche comporte des avantages et des
                     inconv&eacute;nients.&nbsp;
                 </p>
-                <Accordion id="cocoa-chains-acc">
-                                                    <Accordion.Section id="cocoa-description">
+                <Accordion id="int-auditors-acc">
+                                    <Accordion.Section id="int-auditors-description">
                                                        <Accordion.Title>
                                                        Auditeurs internes
                                                           </Accordion.Title>
@@ -67,8 +67,8 @@ const fr = () => {
                                                       </Accordion.Panel>
                                                   </Accordion.Section>
                                                   </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                                                    <Accordion.Section id="cocoa-description">
+                <Accordion id="ext-auditors-acc">
+                                      <Accordion.Section id="ext-auditors-description">
                                                        <Accordion.Title>
                                                        Auditeurs ext&eacute;rieurs
                                                           </Accordion.Title>
@@ -96,8 +96,8 @@ const fr = () => {
                                                   </Accordion.Section>
                                                   </Accordion>
 
-                <Accordion id="cocoa-chains-acc">
-                                                    <Accordion.Section id="cocoa-description">
+                <Accordion id="independent-auditors-acc">
+                                        <Accordion.Section id="independent-auditors-description">
                                                        <Accordion.Title>
                                                        Auditeurs/v&eacute;rificateurs ind&eacute;pendants
                                                           </Accordion.Title>

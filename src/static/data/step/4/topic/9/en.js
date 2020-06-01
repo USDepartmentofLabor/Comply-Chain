@@ -28,8 +28,8 @@ const en = () => {
                 assist with risk and impact assessment.
             </p>
             <p>What information are you looking for?</p> </div>
-              <Accordion id="cocoa-chains-acc">
-                                 <Accordion.Section id="cocoa-description">
+              <Accordion id="nature-prev-acc">
+                   <Accordion.Section id="nature-prev-acc-description">
                                      <Accordion.Title>
                                      Nature and prevalence
                                  </Accordion.Title>
@@ -44,8 +44,8 @@ const en = () => {
                                  </Accordion.Panel>
                              </Accordion.Section>
                              </Accordion>
-                               <Accordion id="cocoa-chains-acc">
-                                                 <Accordion.Section id="cocoa-description">
+                               <Accordion id="root-causes-acc">
+                                  <Accordion.Section id="root-causes-description">
                                          <Accordion.Title>
                                           Root causes
                                      </Accordion.Title>
@@ -58,8 +58,8 @@ const en = () => {
                                      </Accordion.Panel>
                                  </Accordion.Section>
                                  </Accordion>
-                             <Accordion id="cocoa-chains-acc">
-                               <Accordion.Section id="cocoa-description">
+                             <Accordion id="industry-structure-acc">
+                               <Accordion.Section id="industry-structure-acc-description">
                                   <Accordion.Title>
                                   Industry structure
                                  </Accordion.Title>
@@ -75,8 +75,8 @@ const en = () => {
                                  </Accordion.Panel>
                              </Accordion.Section>
                              </Accordion>
-                             <Accordion id="cocoa-chains-acc">
-                               <Accordion.Section id="cocoa-description">
+                             <Accordion id="labor-pop-acc">
+                               <Accordion.Section id="labor-pop-acc-description">
                                   <Accordion.Title>
                                   Labor population
                                      </Accordion.Title>
@@ -95,26 +95,26 @@ const en = () => {
                              </Accordion.Section>
                              </Accordion>
 
-                             <Accordion id="cocoa-chains-acc">
-                                               <Accordion.Section id="cocoa-description">
-                                                  <Accordion.Title>
-                                                  Industrial relations
-                                                     </Accordion.Title>
-                                                     <Accordion.Panel>
+                             <Accordion id="industry-rel-acc">
+                               <Accordion.Section id="industry-rel-description">
+                                  <Accordion.Title>
+                                  Industrial relations
+                                     </Accordion.Title>
+                                     <Accordion.Panel>
 
-                                                     <p className="indent-margin">
-                                                     Is a national legal and institutional framework in place to
-                                                     allow for effective industrial relations and collective
-                                                     bargaining? Are effective labor unions present? If not, are
-                                                     there other mechanisms in place for workers to have a voice
-                                                     in their workplaces?
-                                                 </p>
-                                                 </Accordion.Panel>
-                                             </Accordion.Section>
-                                             </Accordion>
+                                     <p className="indent-margin">
+                                     Is a national legal and institutional framework in place to
+                                     allow for effective industrial relations and collective
+                                     bargaining? Are effective labor unions present? If not, are
+                                     there other mechanisms in place for workers to have a voice
+                                     in their workplaces?
+                                 </p>
+                                 </Accordion.Panel>
+                             </Accordion.Section>
+                             </Accordion>
 
-                               <Accordion id="cocoa-chains-acc">
-                                    <Accordion.Section id="cocoa-description">
+                               <Accordion id="social-protection-acc">
+                                    <Accordion.Section id="social-protection-description">
                                        <Accordion.Title>
                                       Social protection
                                           </Accordion.Title>
@@ -132,8 +132,8 @@ const en = () => {
                                       </Accordion.Panel>
                                   </Accordion.Section>
                                   </Accordion>
-                             <Accordion id="cocoa-chains-acc">
-                                        <Accordion.Section id="cocoa-description">
+                             <Accordion id="legal-reg-env-acc">
+                                        <Accordion.Section id="legal-reg-env-description">
                                            <Accordion.Title>
                                           Legal and regulatory environment
                                               </Accordion.Title>
@@ -151,8 +151,8 @@ const en = () => {
                                           </Accordion.Panel>
                                       </Accordion.Section>
                                       </Accordion>
-                             <Accordion id="cocoa-chains-acc">
-                                        <Accordion.Section id="cocoa-description">
+                             <Accordion id="exist-init-org-acc">
+                                        <Accordion.Section id="exist-init-org-description">
                                            <Accordion.Title>
                                          Existing Initiatives and Organizations
                                               </Accordion.Title>
@@ -183,8 +183,8 @@ const en = () => {
                                           </Accordion.Panel>
                                       </Accordion.Section>
                                       </Accordion>
-                                       <Accordion id="cocoa-chains-acc">
-                                             <Accordion.Section id="cocoa-description">
+                                       <Accordion id="market-data-acc">
+                                             <Accordion.Section id="market-data-description">
                                                 <Accordion.Title>
                                                Market Data
                                                    </Accordion.Title>
