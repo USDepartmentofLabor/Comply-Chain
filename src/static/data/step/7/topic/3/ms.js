@@ -1104,7 +1104,7 @@ const ms = () => {
                         survivors, corporate and NGO leaders, and acquisitions
                         personnel and federal contracting officers.
                     </p>
-                </ExampleInAction>
+               
                 <p>
                     Good audit tools are more than &ldquo;checklists.&rdquo;
                     Good tools allow for recording information that auditors
@@ -1118,6 +1118,7 @@ const ms = () => {
                     directly linked to the questions contained in the tool, but
                     which the auditor still feels is important and relevant.
                 </p>
+                </ExampleInAction>
                 <p>
                     Companies increasingly require their subcontractors and
                     suppliers to perform self-assessments to highlight potential

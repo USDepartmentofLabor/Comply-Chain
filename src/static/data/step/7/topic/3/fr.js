@@ -139,8 +139,8 @@ const fr = () => {
                     des formes particuli&egrave;res de travail
                     forc&eacute;.&nbsp;
                 </p>
-                <Accordion id="recruitment-indicator-acc">
-                               <Accordion.Section id="recruitment-indicator-description">
+                <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            Indicateurs de travail forc&eacute; obtenu par des pratiques de recrutement
 
@@ -188,8 +188,8 @@ const fr = () => {
                                       </Accordion.Section>
                                       </Accordion>
 
-                <Accordion id="duress-indicator-acc">
-                                <Accordion.Section id="duress-indicator-description">
+                <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            Indicateurs de travail forc&eacute; obtenu par un travail et des conditions d&rsquo;existence sous la contrainte
 
@@ -254,8 +254,8 @@ const fr = () => {
                                           </Accordion.Panel>
                                       </Accordion.Section>
                                       </Accordion>
-                <Accordion id="impossible-leaving-acc">
-                                              <Accordion.Section id="impossible-leaving-description">
+                <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            Indicateurs de travail forc&eacute; obtenu par l&apos;impossibilit&eacute; de partir
 
@@ -291,8 +291,8 @@ const fr = () => {
                                       </Accordion>
 
 
-                <Accordion id="human-traffic-acc">
-                                                       <Accordion.Section id="human-traffic-description">
+                <Accordion id="cocoa-chains-acc">
+                    <Accordion.Section id="cocoa-description">
                        <Accordion.Title>
                        Indicateurs de sanctions ou de menaces
                           </Accordion.Title>
@@ -450,8 +450,8 @@ const fr = () => {
                             d&rsquo;emploi
                         </strong>
                     </p>
-                    <Accordion id="recruit-fee-acc">
-                                                           <Accordion.Section id="recruit-fee-description">
+                    <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            TRAITE DES PERSONNES
                                               </Accordion.Title>
@@ -513,8 +513,8 @@ const fr = () => {
                                       </Accordion.Section>
                                       </Accordion>
 
-                    <Accordion id="emp-contract-acc">
-                                                                  <Accordion.Section id="emp-contract-description">
+                    <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            FRAIS DE RECRUTEMENT ET DE TRANSPORT
                                               </Accordion.Title>
@@ -592,8 +592,8 @@ const fr = () => {
                                       </Accordion.Section>
                                       </Accordion>
 
-                    <Accordion id="doc-retention-acc">
-                                                                  <Accordion.Section id="doc-retention-description">
+                    <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            CONTRATS DE TRAVAIL
                                               </Accordion.Title>
@@ -696,8 +696,8 @@ const fr = () => {
                                       </Accordion.Section>
                                       </Accordion>
 
-                    <Accordion id="deposits-acc">
-                                                                  <Accordion.Section id="deposits-description">
+                    <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            R&Eacute;TENTION DE DOCUMENTS
                                               </Accordion.Title>
@@ -766,8 +766,8 @@ const fr = () => {
                                           </Accordion.Panel>
                                       </Accordion.Section>
                                       </Accordion>
-                    <Accordion id="humane-trtmnt-acc">
-                                                                  <Accordion.Section id="humane-trtmnt-description">
+                    <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            CAUTIONS
                                               </Accordion.Title>
@@ -803,8 +803,8 @@ const fr = () => {
                                       </Accordion.Section>
                                       </Accordion>
 
-                    <Accordion id="workplace-eq-acc">
-                                                                  <Accordion.Section id="workplace-eq-description">
+                    <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            TRAITEMENT INHUMAIN
                                               </Accordion.Title>
@@ -855,8 +855,8 @@ const fr = () => {
                                       </Accordion.Section>
                                       </Accordion>
 
-                    <Accordion id="wages-benefits-acc">
-                                                                  <Accordion.Section id="wages-benefits-description">
+                    <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            &Eacute;GALIT&Eacute; SUR LE LIEU DE TRAVAIL
                                               </Accordion.Title>
@@ -917,8 +917,8 @@ const fr = () => {
                                       </Accordion.Section>
                                       </Accordion>
 
-                    <Accordion id="working-hours-acc">
-                                                                  <Accordion.Section id="working-hours-description">
+                    <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            SALAIRES ET AVANTAGES
                                               </Accordion.Title>
@@ -1056,8 +1056,8 @@ const fr = () => {
                                       </Accordion.Section>
                                       </Accordion>
 
-                    <Accordion id="working-hours-acc">
-                                                                  <Accordion.Section id="working-hours-description">
+                    <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            HEURES DE TRAVAIL
                                               </Accordion.Title>
@@ -1125,8 +1125,8 @@ const fr = () => {
                                       </Accordion.Section>
                                       </Accordion>
 
-                    <Accordion id="freedom-acc">
-                                                                  <Accordion.Section id="freedom-description">
+                    <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            LIBERT&Eacute; DE CIRCULATION ET LIBERT&Eacute; INDIVIDUELLE
 
@@ -1186,8 +1186,8 @@ const fr = () => {
                                           </Accordion.Panel>
                                       </Accordion.Section>
                                       </Accordion>
-                    <Accordion id="grievance-acc">
-                                                                  <Accordion.Section id="grievance-description">
+                    <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            PROC&Eacute;DURES DE R&Egrave;GLEMENT DES R&Eacute;CLAMATIONS
 
@@ -1241,8 +1241,8 @@ const fr = () => {
                                       </Accordion.Section>
                                       </Accordion>
 
-                    <Accordion id="private-emp-acc">
-                                                                  <Accordion.Section id="private-emp-description">
+                    <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            AGENCES D&rsquo;EMPLOI PRIV&Eacute;ES ET RECRUTEURS DE MAIN D&rsquo;&OElig;UVRE
 
@@ -1397,8 +1397,8 @@ const fr = () => {
                                           </Accordion.Panel>
                                       </Accordion.Section>
                                       </Accordion>
-                    <Accordion id="emp-awareness-acc">
-                                                                  <Accordion.Section id="emp-awareness-description">
+                    <Accordion id="cocoa-chains-acc">
+                                        <Accordion.Section id="cocoa-description">
                                            <Accordion.Title>
                                            SENSIBILISATION ET FORMATION DES EMPLOY&Eacute;S
                                               </Accordion.Title>
@@ -1458,8 +1458,7 @@ const fr = () => {
                                           </Accordion.Panel>
                                       </Accordion.Section>
                                       </Accordion>
-                </ExampleInAction>
-                <p>
+                                      <p>
                                         <strong>
                                             Source: Outil d&rsquo;approvisionnement
                                             responsable&nbsp;1A,{" "}
@@ -1557,6 +1556,8 @@ const fr = () => {
                     trouvant dans l&apos;outil, mais qui selon l&apos;auditeur
                     sont importantes et pertinentes.
                 </p>
+                </ExampleInAction>
+                
                 <p>
                     Les entreprises exigent de plus en plus de leurs
                     sous-traitants et de leurs fournisseurs qu&rsquo;ils
