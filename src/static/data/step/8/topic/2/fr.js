@@ -236,7 +236,7 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.dol.gov/ilab/issues/child-labor/fcea.htm"
+                            href="https://www.dol.gov/agencies/ilab/issues/child-labor/fcea.htm"
                             title="Directives pour l&rsquo;&eacute;limination du travail des enfant et du travail forc&eacute; dans les cha&icirc;nes d&rsquo;approvisionnement agricoles"
                         >
                             Directives pour l&rsquo;&eacute;limination du

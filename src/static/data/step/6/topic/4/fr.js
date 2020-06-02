@@ -65,7 +65,7 @@ const fr = () => {
                     d&apos;ensemble de l&apos;entreprise, qui sont
                     examin&eacute;es plus en d&eacute;tail dans{" "}
                     <em>
-                        <Link to="/steps/4">
+                        <Link to="/steps/4/topic/9">
                             &Eacute;valuer les causes profondes et s&rsquo;y
                             attaquer
                         </Link>

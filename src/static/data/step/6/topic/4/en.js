@@ -46,7 +46,7 @@ const en = () => {
                     portfolio, discussed further in{" "}
                     <em>
                         <u>
-                            <Link to="/steps/4">
+                            <Link to="/steps/4/topic/9">
                                 Addressing Root Causes
                             </Link>
                         </u>

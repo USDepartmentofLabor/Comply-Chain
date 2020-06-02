@@ -205,7 +205,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.dol.gov/ilab/issues/child-labor/fcea.htm"
+                            href="https://www.dol.gov/agencies/ilab/issues/child-labor/fcea.htm"
                             title="Directrices para erradicar el trabajo infantil y el trabajo forzoso en las cadenas de suministro del sector agr&iacute;cola"
                         >
                             directrices para erradicar el trabajo infantil y el

@@ -60,7 +60,7 @@ const es = () => {
                     la empresa, tema que se trata en m&aacute;s detalle en{" "}
                     <em>
                         <u>
-                            <Link to="/steps/4">
+                            <Link to="/steps/4/topic/9">
                                 Evaluaci&oacute;n y tratamiento de las causas
                                 fundamentales.
                             </Link>
