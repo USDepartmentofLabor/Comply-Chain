@@ -4,23 +4,24 @@ import { Topics } from "./topic";
 
 export const StepData = {
     en: {
-        title: "Step 8: Report Performance",
+        title: "Step 8: Report Performance and Engage Consumers",
         topics: Topics.en,
         keywords: ["Public reporting"],
         learningObjectives: [
             "Understand the reasons for reporting publicly on social compliance programs, and the benefits for companies.",
             "Understand the nature and scope of the information that should be reported.",
-            "Get a sense of the work involved in preparing and issuing public reports."
+            "Get a sense of the work involved in preparing and issuing public reports.",
+            "Understand how to engage consumers on issues of social compliance."
         ],
         keyTerms: [
             {
-                termName: "Public Reporting",
+                termName: "Public Reporting and some more",
                 termDefinition:
                     "Communication that is made available to the public, through a variety of channels, about all elements of a company’s social compliance system."
             }
         ],
         furtherResources: Resources.en,
-        extraInfo: ExtraInfo.en
+       // extraInfo: ExtraInfo.en
     },
     es: {
         title: "Octavo paso: Notificación del desempeño",
@@ -39,7 +40,7 @@ export const StepData = {
             }
         ],
         furtherResources: Resources.es,
-        extraInfo: ExtraInfo.es
+        //extraInfo: ExtraInfo.es
     },
     fr: {
         title: "Huitième étape: Rendre compte des résultats",
@@ -58,9 +59,9 @@ export const StepData = {
             }
         ],
         furtherResources: Resources.fr,
-        extraInfo: ExtraInfo.fr
+        //extraInfo: ExtraInfo.fr
     },
-    en: {
+    ms: {
             title: "Step 8: Report Performance",
             topics: Topics.en,
             keywords: ["Public reporting"],
@@ -76,7 +77,7 @@ export const StepData = {
                         "Communication that is made available to the public, through a variety of channels, about all elements of a company’s social compliance system."
                 }
             ],
-            furtherResources: Resources.en,
-            extraInfo: ExtraInfo.en
+            furtherResources: Resources.ms,
+            //extraInfo: ExtraInfo.en
         }
 };

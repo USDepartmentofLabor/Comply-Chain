@@ -1,1 +1,1 @@
-export const webUrl = "https://www.dol.gov/ilab/complychain";
+export const webUrl = "https://www.dol.gov/agencies/ilab/complychain";

@@ -32,8 +32,8 @@ const es = () => {
                     integral de cumplimiento social. Sin embargo, cada enfoque
                     tiene ventajas y desventajas.&nbsp;
                 </p>
-                <Accordion id="cocoa-chains-acc">
-                                    <Accordion.Section id="cocoa-description">
+                <Accordion id="int-auditors-acc">
+                                    <Accordion.Section id="int-auditors-description">
                                        <Accordion.Title>
                                        Auditores internos
                                           </Accordion.Title>
@@ -59,8 +59,8 @@ const es = () => {
                                   </Accordion.Section>
                                   </Accordion>
 
-                <Accordion id="cocoa-chains-acc">
-                                    <Accordion.Section id="cocoa-description">
+                 <Accordion id="ext-auditors-acc">
+                                      <Accordion.Section id="ext-auditors-description">
                                        <Accordion.Title>
                                        Auditores externos
                                           </Accordion.Title>
@@ -83,8 +83,8 @@ const es = () => {
                                       </Accordion.Panel>
                                   </Accordion.Section>
                                   </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                                    <Accordion.Section id="cocoa-description">
+                <Accordion id="independent-auditors-acc">
+                                        <Accordion.Section id="independent-auditors-description">
                                        <Accordion.Title>
                                        Encargados de la vigilancia o verificadores independientes
 

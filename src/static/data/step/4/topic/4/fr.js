@@ -204,8 +204,8 @@ const fr = () => {
                         </Accordion.Section>
                     </Accordion>
                 </div>
-                <Accordion id="cocoa-chains-acc">
-                                        <Accordion.Section id="cocoa-description">
+                <Accordion id="electronic-supply-chain">
+                     <Accordion.Section id="electronic-supply-chain-description">
                                             <Accordion.Title>
                                             Electronics Supply Chains - Cobalt, Tantalum, and Tin
                                         </Accordion.Title>

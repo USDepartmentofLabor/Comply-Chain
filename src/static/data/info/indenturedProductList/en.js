@@ -26,7 +26,7 @@ const en = () => {
                  <a
                      target="_blank"
                      rel="noopener noreferrer"
-                     href="https://www.dol.gov/ilab/about/laws/#eo13126"
+                     href="https://www.dol.gov/agencies/ilab/about/laws/#eo13126"
                      title="List of products report"
                       >
                      Executive Order 13126&nbsp;"Prohibition of Acquisition of Products Produced by Forced or Indentured Child Labor"

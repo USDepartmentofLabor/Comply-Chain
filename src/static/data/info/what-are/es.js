@@ -470,7 +470,7 @@ const es = () => {
                                                     href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings"
                                                     title="Departamento de Trabajo de los Estados Unidos. Conclusiones sobre las peores formas de trabajo infantil, Washington, DC."
                                                 >
-                                                    http://www.dol.gov/ilab/programs/ocft/tda.htm
+                                                    http://www.dol.gov/agencies/ilab/programs/ocft/tda.htm
                                                 </a>
                                                 .
                                             </li>
