@@ -1,5 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import hrm from "../../../../../images/hrm.jpg";
+import panos from "../../../../../images/panos.jpg";
+import Accordion from "../../../../../../components/Accordion";
 
 const es = () => {
     return (
@@ -32,6 +38,18 @@ const es = () => {
                     una amplia gama de p&uacute;blicos, incluido el que tal vez
                     no tenga acceso a Internet.
                 </p>
+
+                <OwnWords>
+                    <h2>
+                        <OwnWords.Icon alt="Feedback"/>{" "}
+                        <strong>En sus propias palabras</strong>
+                        {": "}
+                    </h2>
+                    <p>
+                       <b>PLACEHOLDER FOR TEXT</b>
+                       <br />
+                     </p>
+                </OwnWords>
             </div>
         </StaticData>
     );

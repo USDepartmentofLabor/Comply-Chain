@@ -1,4 +1,4 @@
-import { ExtraInfo } from "./extra";
+// import { ExtraInfo } from "./extra";
 import { Resources } from "./resource";
 import { Topics } from "./topic";
 
@@ -56,7 +56,7 @@ export const StepData = {
             }
         ],
         furtherResources: Resources.es,
-        extraInfo: ExtraInfo.es
+        // extraInfo: ExtraInfo.es
     },
     fr: {
         title: "Cinquième étape: Surveiller la conformité",
@@ -82,7 +82,7 @@ export const StepData = {
             }
         ],
         furtherResources: Resources.fr,
-        extraInfo: ExtraInfo.fr
+        // extraInfo: ExtraInfo.fr
     },
      ms: {
             title: "Step 5: Monitor Compliance",
@@ -108,6 +108,6 @@ export const StepData = {
                 }
             ],
             furtherResources: Resources.ms,
-            extraInfo: ExtraInfo.ms
+            // extraInfo: ExtraInfo.ms
         }
 };

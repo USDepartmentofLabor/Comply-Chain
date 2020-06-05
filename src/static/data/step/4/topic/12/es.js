@@ -52,8 +52,8 @@ const es = () => {
                     empresas cumplen una funci&oacute;n cr&iacute;tica en esta
                     iniciativa, por ejemplo en los siguientes &aacute;mbitos:
                 </p>
-                <Accordion id="cocoa-chains-acc">
-                                 <Accordion.Section id="cocoa-description">
+               <Accordion id="wages-benefits-acc">
+                                <Accordion.Section id="wages-benefits-description">
                                      <Accordion.Title>
                                      Salarios y prestaciones
                                  </Accordion.Title>
@@ -95,8 +95,8 @@ const es = () => {
                                  </Accordion.Panel>
                              </Accordion.Section>
                              </Accordion>
-                    <Accordion id="cocoa-chains-acc">
-                                     <Accordion.Section id="cocoa-description">
+                    <Accordion id="build-govt-acc">
+                                         <Accordion.Section id="build-govt-description">
                                          <Accordion.Title>
                                          Fortalecimiento de la capacidad del gobierno
                                      </Accordion.Title>
@@ -139,8 +139,8 @@ const es = () => {
                                      </Accordion.Panel>
                                  </Accordion.Section>
                                  </Accordion>
-                    <Accordion id="cocoa-chains-acc">
-                                     <Accordion.Section id="cocoa-description">
+                    <Accordion id="collab-govt-acc">
+                                                       <Accordion.Section id="collab-govt-description">
                                          <Accordion.Title>
                                          Colaboraci&oacute;n con los gobiernos
                                      </Accordion.Title>
@@ -177,8 +177,8 @@ const es = () => {
                                      </Accordion.Panel>
                                  </Accordion.Section>
                                  </Accordion>
-                    <Accordion id="cocoa-chains-acc">
-                                     <Accordion.Section id="cocoa-description">
+                    <Accordion id="collab-other-comps-acc">
+                                         <Accordion.Section id="collab-other-comps-description">
                                          <Accordion.Title>
                                          Colaboraci&oacute;n con otras empresas
                                      </Accordion.Title>
@@ -255,8 +255,8 @@ const es = () => {
                             </Accordion.Panel>
                          </Accordion.Section>
                          </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                                 <Accordion.Section id="cocoa-description">
+                <Accordion id="labor-unions-acc">
+                                      <Accordion.Section id="labor-unions-description">
                                      <Accordion.Title>
                                      Apoyo a sindicatos y otros grupos de defensa de los trabajadores
 
@@ -322,8 +322,8 @@ const es = () => {
                 </Accordion.Panel>
                  </Accordion.Section>
                  </Accordion>
-                 <Accordion id="cocoa-chains-acc">
-                 <Accordion.Section id="cocoa-description">
+                <Accordion id="responsible-recruit-acc">
+                                                <Accordion.Section id="responsible-recruit-description">
                     <Accordion.Title>
                   Responsible Recruitment
                        </Accordion.Title>
@@ -336,8 +336,8 @@ const es = () => {
                </Accordion.Section>
                </Accordion>
 
-               <Accordion id="cocoa-chains-acc">
-                    <Accordion.Section id="cocoa-description">
+               <Accordion id="worker-voice-acc">
+                                                  <Accordion.Section id="worker-voice-description">
                        <Accordion.Title>
                      Ensuring Worker Voice
                           </Accordion.Title>

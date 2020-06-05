@@ -1,4 +1,4 @@
-import { ExtraInfo } from "./extra";
+// import { ExtraInfo } from "./extra";
 import { Resources } from "./resource";
 import { Topics } from "./topic";
 
@@ -46,7 +46,7 @@ export const StepData = {
             }
         ],
         furtherResources: Resources.en,
-        extraInfo: ExtraInfo.en
+        // extraInfo: ExtraInfo.en
     },
     es: {
         title: "Séptimo paso: Examen independiente",
@@ -91,7 +91,7 @@ export const StepData = {
             }
         ],
         furtherResources: Resources.es,
-        extraInfo: ExtraInfo.es
+        // extraInfo: ExtraInfo.es
     },
     fr: {
         title: "Septième étape: Examen indépendant",
@@ -136,11 +136,11 @@ export const StepData = {
             }
         ],
         furtherResources: Resources.fr,
-        extraInfo: ExtraInfo.fr
+        // extraInfo: ExtraInfo.fr
     },
     ms: {
             title: "Step 7: Independent Review",
-            topics: Topics.en,
+            topics: Topics.ms,
             keywords: [
                 "Independent review",
                 "Independent monitoring",
@@ -180,7 +180,7 @@ export const StepData = {
                         "A method that establishes, with statistical rigor, a causal linkage and quantifiable impact of a specific intervention."
                 }
             ],
-            furtherResources: Resources.en,
-            extraInfo: ExtraInfo.en
+            furtherResources: Resources.ms,
+            // extraInfo: ExtraInfo.en
         }
 };

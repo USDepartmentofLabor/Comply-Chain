@@ -524,10 +524,10 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.dol.gov/ilab"
-                            title="http://www.dol.gov/ilab"
+                            href="http://www.dol.gov/agencies/ilab"
+                            title="http://www.dol.gov/agencies/ilab"
                         >
-                            http://www.dol.gov/ilab
+                            http://www.dol.gov/agencies/ilab
                         </a>
                         .
                     </p>

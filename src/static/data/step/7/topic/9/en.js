@@ -22,8 +22,8 @@ const en = () => {
                     There are several challenges to maintaining an effective
                     audit database.
                 </p>
-                <Accordion id="cocoa-chains-acc">
-                   <Accordion.Section id="cocoa-description">
+                <Accordion id="data-processing-acc">
+                   <Accordion.Section id="data-processing-description">
                       <Accordion.Title>
                        Data Processing
                          </Accordion.Title>
@@ -62,8 +62,8 @@ const en = () => {
                      </Accordion.Panel>
                  </Accordion.Section>
                  </Accordion>
-                                 <Accordion id="cocoa-chains-acc">
-                                    <Accordion.Section id="cocoa-description">
+                                 <Accordion id="systems-integration-acc">
+                                    <Accordion.Section id="systems-integration-description">
                                        <Accordion.Title>
                                        Integration with Other Information Systems
                                           </Accordion.Title>
@@ -83,8 +83,8 @@ const en = () => {
                                       </Accordion.Panel>
                                   </Accordion.Section>
                                   </Accordion>
-                                  <Accordion id="cocoa-chains-acc">
-                                                     <Accordion.Section id="cocoa-description">
+                                  <Accordion id="using-data-acc">
+                                                     <Accordion.Section id="using-data-description">
                                                         <Accordion.Title>
                                                         Using the Data
                                                            </Accordion.Title>

@@ -31,8 +31,8 @@ const es = () => {
                     riesgos e impacto.
                 </p>
                 <p>¿Qu&eacute; informaci&oacute;n procura obtener?</p>
-                <Accordion id="cocoa-chains-acc">
-               <Accordion.Section id="cocoa-description">
+                <Accordion id="nature-prev-acc">
+                <Accordion.Section id="nature-prev-acc-description">
                   <Accordion.Title>
                   Naturaleza y frecuencia
                      </Accordion.Title>
@@ -49,8 +49,8 @@ const es = () => {
                  </Accordion.Panel>
              </Accordion.Section>
              </Accordion>
-                <Accordion id="cocoa-chains-acc">
-               <Accordion.Section id="cocoa-description">
+                <Accordion id="industry-structure-acc">
+                 <Accordion.Section id="industry-structure-acc-description">
                   <Accordion.Title>
                   Causas fundamentales
                      </Accordion.Title>
@@ -64,8 +64,8 @@ const es = () => {
                      </Accordion.Panel>
                  </Accordion.Section>
                  </Accordion>
-                   <Accordion id="cocoa-chains-acc">
-                      <Accordion.Section id="cocoa-description">
+                   <Accordion id="root-causes-acc">
+                     <Accordion.Section id="root-causes-description">
                          <Accordion.Title>
                          Estructura de la industria
                             </Accordion.Title>

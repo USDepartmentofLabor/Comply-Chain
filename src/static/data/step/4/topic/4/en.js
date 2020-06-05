@@ -70,8 +70,8 @@ const en = () => {
                     process is addressed below.
                 </p>
                 <br />
-                      <Accordion id="unique-name">
-                          <Accordion.Section id="unique-section-name">
+                       <Accordion id="cocoa-chains-acc">
+                              <Accordion.Section id="cocoa-description">
                               <Accordion.Title>
                               Cocoa Supply Chains (Cote D'Ivoire and Ghana)
                           </Accordion.Title>
@@ -135,8 +135,8 @@ const en = () => {
                           </Accordion.Panel>
                       </Accordion.Section>
                       </Accordion>
-                    <Accordion id="cocoa-chains-acc">
-                        <Accordion.Section id="cocoa-description">
+                    <Accordion id="electronic-supply-chain">
+                        <Accordion.Section id="electronic-supply-chain-description">
                             <Accordion.Title>
                             Electronics Supply Chains - Cobalt, Tantalum, and Tin
                         </Accordion.Title>
@@ -150,8 +150,8 @@ const en = () => {
                     </Accordion.Section>
                     </Accordion>
 
-                  <Accordion id="cocoa-chains-acc">
-                      <Accordion.Section id="cocoa-description">
+                  <Accordion id="generic-imp-supply">
+                      <Accordion.Section id="generic-imp-description">
                           <Accordion.Title>
                           Generic Import Supply Chain- Retail Model
                       </Accordion.Title>

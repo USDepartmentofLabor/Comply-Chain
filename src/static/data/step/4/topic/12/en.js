@@ -44,8 +44,8 @@ const en = () => {
                    action. Companies&nbsp;have a critical part to play in this
                    effort, including in the following areas:
                </p>
-                <Accordion id="cocoa-chains-acc">
-                 <Accordion.Section id="cocoa-description">
+                <Accordion id="wages-benefits-acc">
+                 <Accordion.Section id="wages-benefits-description">
                     <Accordion.Title>
                   Wages and benefits
                        </Accordion.Title>
@@ -81,8 +81,8 @@ const en = () => {
                </Accordion.Section>
                </Accordion>
 
-               <Accordion id="cocoa-chains-acc">
-                                <Accordion.Section id="cocoa-description">
+               <Accordion id="build-govt-acc">
+                                <Accordion.Section id="build-govt-description">
                            <Accordion.Title>
                         Building government capacity
                               </Accordion.Title>
@@ -119,8 +119,8 @@ const en = () => {
                       </Accordion.Section>
                       </Accordion>
 
-                              <Accordion id="cocoa-chains-acc">
-                                   <Accordion.Section id="cocoa-description">
+                              <Accordion id="collab-govt-acc">
+                                   <Accordion.Section id="collab-govt-description">
                                       <Accordion.Title>
                                     Collaboration with governments
                                          </Accordion.Title>
@@ -155,8 +155,8 @@ const en = () => {
                                  </Accordion.Section>
                                  </Accordion>
 
-                                             <Accordion id="cocoa-chains-acc">
-                                              <Accordion.Section id="cocoa-description">
+                                             <Accordion id="collab-other-comps-acc">
+                                              <Accordion.Section id="collab-other-comps-description">
                                                  <Accordion.Title>
                                                Collaboration with other companies
                                                     </Accordion.Title>
@@ -226,8 +226,8 @@ const en = () => {
                                             </Accordion.Section>
                                             </Accordion>
 
-                                <Accordion id="cocoa-chains-acc">
-                                     <Accordion.Section id="cocoa-description">
+                                <Accordion id="labor-unions-acc">
+                                     <Accordion.Section id="labor-unions-description">
                                         <Accordion.Title>
                                       Supporting labor unions and other workers advocacy groups
                                        </Accordion.Title>
@@ -284,8 +284,8 @@ const en = () => {
                                    </Accordion.Section>
                                    </Accordion>
 
-                               <Accordion id="cocoa-chains-acc">
-                                <Accordion.Section id="cocoa-description">
+                               <Accordion id="responsible-recruit-acc">
+                                <Accordion.Section id="responsible-recruit-description">
                                    <Accordion.Title>
                                  Responsible Recruitment
                                       </Accordion.Title>
@@ -298,8 +298,8 @@ const en = () => {
                               </Accordion.Section>
                               </Accordion>
 
-                              <Accordion id="cocoa-chains-acc">
-                                   <Accordion.Section id="cocoa-description">
+                              <Accordion id="worker-voice-acc">
+                                   <Accordion.Section id="worker-voice-description">
                                       <Accordion.Title>
                                     Ensuring Worker Voice
                                          </Accordion.Title>

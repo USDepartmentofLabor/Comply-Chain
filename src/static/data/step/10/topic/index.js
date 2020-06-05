@@ -2,6 +2,8 @@ import { TopicData as Topic1 } from "./1";
 import { TopicData as Topic2 } from "./2";
 import { TopicData as Topic3 } from "./3";
 import { TopicData as Topic4 } from "./4";
+import { TopicData as Topic5 } from "./5";
+
 
 export const Topics = {
     en: [
@@ -24,7 +26,12 @@ export const Topics = {
             keywords: [],
             title: "The Reporting Team",
             content: Topic4.en
-        }
+        },
+         {
+             keywords: [],
+             title: "Engaging Consumers",
+             content: Topic5.en
+         }
     ],
     es: [
         {
@@ -46,7 +53,12 @@ export const Topics = {
             keywords: [],
             title: "El equipo de notificación",
             content: Topic4.es
-        }
+        },
+          {
+              keywords: [],
+              title: "Engaging Consumers",
+              content: Topic5.es
+          }
     ],
     fr: [
         {
@@ -68,7 +80,12 @@ export const Topics = {
             keywords: [],
             title: "L’équipe chargée des rapports",
             content: Topic4.fr
-        }
+        },
+                  {
+                      keywords: [],
+                      title: "Engaging Consumers",
+                      content: Topic5.fr
+                  }
     ],
     ms: [
             {
@@ -90,6 +107,11 @@ export const Topics = {
                 keywords: [],
                 title: "The Reporting Team",
                 content: Topic4.en
-            }
+            },
+                      {
+                          keywords: [],
+                          title: "Engaging Consumers",
+                          content: Topic5.ms
+                      }
         ]
 };

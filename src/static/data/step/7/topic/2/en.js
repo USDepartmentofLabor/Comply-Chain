@@ -30,8 +30,8 @@ const en = () => {
                     comprehensive social compliance program. However, each
                     approach has certain advantages and disadvantages.&nbsp;
                 </p>
-                 <Accordion id="cocoa-chains-acc">
-                    <Accordion.Section id="cocoa-description">
+                 <Accordion id="int-auditors-acc">
+                    <Accordion.Section id="int-auditors-description">
                        <Accordion.Title>
                        Internal auditors
                           </Accordion.Title>
@@ -54,8 +54,8 @@ const en = () => {
                   </Accordion.Section>
                   </Accordion>
 
-                  <Accordion id="cocoa-chains-acc">
-                      <Accordion.Section id="cocoa-description">
+                  <Accordion id="ext-auditors-acc">
+                      <Accordion.Section id="ext-auditors-description">
                          <Accordion.Title>
                          External auditors
                             </Accordion.Title>
@@ -77,8 +77,8 @@ const en = () => {
                         </Accordion.Panel>
                     </Accordion.Section>
                     </Accordion>
-                        <Accordion id="cocoa-chains-acc">
-                        <Accordion.Section id="cocoa-description">
+                        <Accordion id="independent-auditors-acc">
+                        <Accordion.Section id="independent-auditors-description">
                            <Accordion.Title>
                            Independent auditors/monitors
                               </Accordion.Title>

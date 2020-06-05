@@ -13,8 +13,8 @@ const en = () => {
                     An audit typically consists of several steps, listed
                     below.&nbsp;
                 </p>
-                 <Accordion id="cocoa-chains-acc">
-                   <Accordion.Section id="cocoa-description">
+                 <Accordion id="worksite-travel-acc">
+                   <Accordion.Section id="worksite-travel-description">
                       <Accordion.Title>
                       Arrival at the worksite
                          </Accordion.Title>
@@ -31,8 +31,8 @@ const en = () => {
                      </Accordion.Panel>
                  </Accordion.Section>
                  </Accordion>
-                  <Accordion id="cocoa-chains-acc">
-                    <Accordion.Section id="cocoa-description">
+                  <Accordion id="mgmt-meeting-acc">
+                    <Accordion.Section id="mgmt-meeting-description">
                        <Accordion.Title>
                        Opening meeting with management
                           </Accordion.Title>
@@ -49,8 +49,8 @@ const en = () => {
                       </Accordion.Panel>
                   </Accordion.Section>
                   </Accordion>
-                  <Accordion id="cocoa-chains-acc">
-                  <Accordion.Section id="cocoa-description">
+                  <Accordion id="site-walk-through-acc">
+                  <Accordion.Section id="site-walk-through-description">
                      <Accordion.Title>
                      Walk-through of the worksite
                         </Accordion.Title>
@@ -150,8 +150,8 @@ const en = () => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                  <Accordion.Section id="cocoa-description">
+                <Accordion id="worker-interview-acc">
+                  <Accordion.Section id="worker-interview-description">
                      <Accordion.Title>
                      Worker interviews
                         </Accordion.Title>
@@ -367,8 +367,8 @@ const en = () => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                  <Accordion.Section id="cocoa-description">
+                <Accordion id="mgmnt-interview-acc">
+                  <Accordion.Section id="mgmnt-interview-description">
                      <Accordion.Title>
                      Management interviews
                         </Accordion.Title>
@@ -386,8 +386,8 @@ const en = () => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                  <Accordion.Section id="cocoa-description">
+                <Accordion id="broker-interview-acc">
+                  <Accordion.Section id="broker-interview-description">
                      <Accordion.Title>
                      Interviews with labor brokers and recruiters
                         </Accordion.Title>
@@ -424,8 +424,8 @@ const en = () => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 </Accordion>
-                <Accordion id="cocoa-chains-acc">
-                  <Accordion.Section id="cocoa-description">
+                <Accordion id="doc-review-acc">
+                  <Accordion.Section id="doc-review-description">
                      <Accordion.Title>
                       Documentation review
                         </Accordion.Title>
@@ -489,8 +489,8 @@ const en = () => {
                     </Accordion.Panel>
                 </Accordion.Section>
                 </Accordion>
-                                <Accordion id="cocoa-chains-acc">
-                                  <Accordion.Section id="cocoa-description">
+                                <Accordion id="closing-meeting-acc">
+                                  <Accordion.Section id="closing-meeting-description">
                                      <Accordion.Title>
                                      Closing meeting with management
                                         </Accordion.Title>
@@ -509,8 +509,8 @@ const en = () => {
                                     </Accordion.Panel>
                                 </Accordion.Section>
                                 </Accordion>
-                                <Accordion id="cocoa-chains-acc">
-                                  <Accordion.Section id="cocoa-description">
+                                <Accordion id="report-prep-acc">
+                                  <Accordion.Section id="report-prep-description">
                                      <Accordion.Title>
                                      Report preparation
                                         </Accordion.Title>

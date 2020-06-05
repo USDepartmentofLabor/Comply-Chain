@@ -1,5 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import hrm from "../../../../../images/hrm.jpg";
+import panos from "../../../../../images/panos.jpg";
+import Accordion from "../../../../../../components/Accordion";
 
 const en = () => {
     return (
@@ -49,6 +55,46 @@ const en = () => {
                     have undertaken sharing such information to demonstrate
                     engagement and leadership in their policies and programs.
                 </p>
+                <OwnWords>
+                                <h2>
+                                    <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                                    {": "}
+                                </h2>
+                                <p>
+                                    The responsibility to respect human rights requires that
+                                    business enterprises have in place policies and
+                                    processes through which they can both know and show that
+                                    they respect human rights in practice. Showing involves
+                                    communication, providing a measure of transparency and
+                                    accountability to individuals or groups who may be
+                                    impacted and to other relevant stakeholders, including
+                                    investors.
+                                </p>
+                                <p>
+                                    Communication can take a variety of forms, including
+                                    in-person meetings, online dialogues, consultation with
+                                    affected stakeholders, and formal public reports. Formal
+                                    reporting is itself evolving, from traditional annual
+                                    reports and corporate responsibility/sustainability
+                                    reports, to include on-line updates and integrated
+                                    financial and non-financial reports.
+                                </p>
+                                <p>
+                                    <em>
+                                        Source:{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+                                            title="United Nations Guiding Principles on Business and Human Rights"
+                                        >
+                                            United Nations Guiding Principles on Business
+                                            and Human Rights
+                                        </a>
+                                        , 2011.
+                                    </em>
+                                </p>
+                            </OwnWords>
                 <p>
                     Public reporting offers a variety of benefits, both internal
                     and external:&nbsp;
@@ -99,6 +145,25 @@ const en = () => {
                         and with important external stakeholders.
                     </p>
                 </div>
+                 <ExampleInAction id="prereg">
+                                    <h2>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        Example in Action: Socially Responsible Investing
+                                    </h2>
+                                    <p>
+                                        <b>PLACEHOLDER FOR TEXT</b>
+                                    </p>
+                                </ExampleInAction>
+                     <br />
+                  <ExampleInAction id="prereg">
+                                      <h2>
+                                          <ExampleInAction.Icon alt="Lightbulb"/>
+                                          Example in Action: Japanese Company&#39;s Human Rights Report Takes Flight
+                                      </h2>
+                                      <p>
+                                          <b>PLACEHOLDER FOR TEXT</b>
+                                      </p>
+                                  </ExampleInAction>
             </div>
         </StaticData>
     );

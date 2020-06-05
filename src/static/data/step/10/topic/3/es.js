@@ -1,6 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import hrm from "../../../../../images/hrm.jpg";
+import panos from "../../../../../images/panos.jpg";
+import Accordion from "../../../../../../components/Accordion";
 
 const es = () => {
     return (
@@ -128,241 +133,279 @@ const es = () => {
                     contenido que se debe incluir en el informe de cumplimiento
                     social.
                 </p>
-                <ul>
-                    <li>
-                        Una descripci&oacute;n de los procesos de{" "}
-                        <strong>
-                            evaluaci&oacute;n de riesgos y la debida diligencia
-                        </strong>{" "}
-                        que sigue la empresa en sus cadenas de suministro.
-                    </li>
-                    <li>
-                        Los <strong>pa&iacute;ses </strong>que abastecen a la
-                        empresa. Si hay pa&iacute;ses donde prevalecen
-                        determinados problemas de trabajo infantil y trabajo
-                        forzoso, tambi&eacute;n se deben mencionar estas
-                        situaciones.
-                    </li>
-                    <li>
-                        <strong>Sus proveedores.</strong> Por ejemplo, la
-                        empresa de art&iacute;culos de electr&oacute;nica{" "}
-                        <strong>Hewlett-Packard* </strong>hace p&uacute;blica su{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/supplychain.html?jumpid=in_r138_us/en/corp/sustainability/main-menu-society"
-                            title="lista de proveedores"
-                        >
-                            lista de proveedores
-                        </a>{" "}
-                        desde 2007 y Target Corporation* publica{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Target-Global-Factory-List_Q1_2019.pdf"
-                            title="lista"
-                        >
-                            una lista
-                        </a>{" "}
-                        de todas las f&aacute;bricas, plantas textiles y plantas
-                        de proceso h&uacute;medo que fabrican sus productos de
-                        marca propia.
-                    </li>
-                    <li>
-                        Las{" "}
-                        <strong>
-                            f&aacute;bricas, establecimientos agr&iacute;colas o
-                            minas
-                        </strong>{" "}
-                        que abastecen a la empresa, a sus proveedores o a ambos.
-                        Publicar listas de las f&aacute;bricas es una tendencia
-                        creciente para muchas empresas que aspiran a una mayor
-                        responsabilidad social y ambiental. Por ejemplo, la
-                        empresa que vende art&iacute;culos deportivos para el
-                        aire libre <strong>Patagonia*</strong> publica una{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/working-with-factories.html"
-                        >
-                            lista de las f&aacute;bricas que hacen sus productos
-                        </a>{" "}
-                        y un{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/footprint.html"
-                            title="mapa interactivo"
-                        >
-                            mapa interactivo
-                        </a>{" "}
-                        donde se muestra el nombre de la f&aacute;brica, el
-                        domicilio, los art&iacute;culos que fabrica, los idiomas
-                        que se hablan y la cantidad de empleados por sexo.
-                    </li>
-                    <li>
-                        La <strong>m&eacute;trica </strong>o los indicadores
-                        clave del desempe&ntilde;o que se utilizan en el sistema
-                        de cumplimiento social para medir los avances y el
-                        desempe&ntilde;o de la empresa en comparaci&oacute;n con
-                        dichos indicadores. Al calcular el desempe&ntilde;o en
-                        funci&oacute;n de una m&eacute;trica, para muchas
-                        empresas es importante desglosar el desempe&ntilde;o
-                        interno de la compa&ntilde;&iacute;a del
-                        desempe&ntilde;o en su cadena de suministro. Combinar
-                        ambos puede tergiversar el verdadero desempe&ntilde;o de
-                        la cadena de suministro.
-                    </li>
-                    <li>
-                        El <strong>c&oacute;digo de conducta</strong> de la
-                        empresa y las &aacute;reas de la cadena de suministro
-                        que abarca, incluido todo examen o actualizaci&oacute;n
-                        al c&oacute;digo que se haya realizado en el
-                        per&iacute;odo de notificaci&oacute;n.
-                    </li>
-                    <li>
-                        Una descripci&oacute;n de la{" "}
-                        <strong>participaci&oacute;n de los interesados</strong>{" "}
-                        y las comunidades locales, incluidos los grupos de
-                        varias partes interesadas con los que interact&uacute;a
-                        la empresa, las actividades de extensi&oacute;n que son
-                        parte de la evaluaci&oacute;n de riesgos y otros
-                        mecanismos de reclamaci&oacute;n y
-                        extensi&oacute;n.&nbsp;
-                    </li>
-                    <li>
-                        Un resumen esquem&aacute;tico de los{" "}
-                        <strong>programas de capacitaci&oacute;n</strong> en
-                        cumplimiento social a lo largo de todas las cadenas de
-                        suministro.
-                    </li>
-                    <li>
-                        <strong>Datos de la auditoria social. </strong>Estos
-                        datos deben ser lo m&aacute;s exhaustivos y
-                        espec&iacute;ficos posible. Algunas empresas publican
-                        los informes completos de las auditor&iacute;as mientras
-                        que otros compilan los datos y publican una
-                        versi&oacute;n abreviada. Por ejemplo, la{" "}
-                        <strong>FLA</strong> publica{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
-                            title="Gr&aacute;ficos de seguimiento"
-                        >
-                            &ldquo;Gr&aacute;ficos de seguimiento&rdquo;
-                        </a>{" "}
-                        en su p&aacute;gina web que contienen datos completos de
-                        todas las auditor&iacute;as realizadas en las
-                        f&aacute;bricas, as&iacute; como las medidas adoptadas
-                        por las empresas afiliadas a la FLA para abordar las
-                        conclusiones. La p&aacute;gina web de{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://sustainability.hm.com/en/sustainability/downloads-resources/resources/supplier-compliance.html"
-                            title="Hennes and Mauritz"
-                        >
-                            Hennes &amp; Mauritz (H&amp;M)
-                        </a>
-                        * contiene datos sobre el desempe&ntilde;o de todos sus
-                        proveedores en materia de cumplimiento social.{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.pmi.com/sustainability/good-agricultural-practices/upholding-labor-rights-on-the-farms"
-                            title="Philip Morris International"
-                        >
-                            Philip Morris International
-                        </a>
-                        * publica sus propios informes de vigilancia y
-                        seguimiento, as&iacute; como los que realizan los
-                        encargados de la vigilancia y seguimiento externos.
-                    </li>
-                    <li>
-                        Una descripci&oacute;n de las{" "}
-                        <strong>pol&iacute;ticas de remediaci&oacute;n</strong>{" "}
-                        de la empresa en caso de hallarse infracciones.
-                    </li>
-                </ul>
-                <ExampleInAction id="nike">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Ejemplo en acci&oacute;n: Nike*: notificaci&oacute;n
-                            de las medidas de remediaci&oacute;n
-                        </strong>
-                    </h2>
-                    <p>
-                        En 2008, distintos informes de los medios pusieron en la
-                        mira a Hytex Apparel, Inc.*, una empresa malaya
-                        contratista de Nike Inc., mayormente por el maltrato
-                        conferido a centenares de trabajadores migrantes. Nike
-                        investig&oacute; y descubri&oacute; que si bien Hytex no
-                        contraven&iacute;a ninguna de las leyes inmigratorias de
-                        Malasia, los complejos habitacionales de los
-                        trabajadores no cumpl&iacute;an las normas de Nike.
-                        Asimismo, numerosas pr&aacute;cticas de Hytex, como el
-                        embargo salarial y la retenci&oacute;n de documentos
-                        personales como pasaportes, contraven&iacute;an el
-                        c&oacute;digo de conducta de los proveedores de Nike, si
-                        bien no la legislaci&oacute;n nacional.&nbsp;
-                    </p>
-                    <p>
-                        Nike colabor&oacute; con Hytex para que devolviera los
-                        documentos a los trabajadores, les reembolsara el
-                        salario embargado y mejorara los complejos
-                        habitacionales. Asimismo, Hytex acord&oacute; solventar
-                        los gastos de los trabajadores que desearan regresar a
-                        su pa&iacute;s de origen. La situaci&oacute;n con Hytex
-                        provoc&oacute; que Nike redactara las pol&iacute;ticas y
-                        las disposiciones actuales del c&oacute;digo en materia
-                        de trabajadores migrantes.
-                    </p>
-                </ExampleInAction>
-                <ul>
-                    <li>
-                        Los resultados de la evaluaci&oacute;n de la{" "}
-                        <strong>verificaci&oacute;n independiente</strong> y una
-                        explicaci&oacute;n de la manera en que est&aacute;
-                        integrando dichas conclusiones y respondiendo a ellas.
-                    </li>
-                    <li>
-                        Informaci&oacute;n sobre la{" "}
-                        <strong>
-                            fiscalizaci&oacute;n interna y la rendici&oacute;n
-                            de cuentas
-                        </strong>{" "}
-                        con respecto al programa de cumplimiento social, incluso
-                        mencionar al responsable del programa y los niveles de
-                        participaci&oacute;n de la Junta y del Director
-                        Ejecutivo.
-                    </li>
-                    <li>
-                        Una explicaci&oacute;n de los{" "}
-                        <strong>desaf&iacute;os</strong> que afronta el programa
-                        de cumplimiento social de la empresa, las{" "}
-                        <strong>lecciones aprendidas</strong>, as&iacute; como
-                        las iniciativas para tratar las causas fundamentales del
-                        abuso laboral.
-                    </li>
-                    <li>
-                        Los estudios de caso o{" "}
-                        <strong>
-                            aspectos m&aacute;s notables de actividades
-                            espec&iacute;ficas
-                        </strong>{" "}
-                        durante el per&iacute;odo de notificaci&oacute;n.
-                    </li>
-                    <li>
-                        Los{" "}
-                        <strong>
-                            procedimientos para la recepci&oacute;n de
-                            comentarios
-                        </strong>{" "}
-                        sobre el informe.
-                    </li>
-                </ul>
+
+                                        <h2>Risk Assessment and Due Diligence</h2>
+                                        <p>Una descripci&oacute;n de los procesos de{" "}
+                                       <strong>
+                                           evaluaci&oacute;n de riesgos y la debida diligencia
+                                       </strong>{" "}
+                                       que sigue la empresa en sus cadenas de suministro.</p>
+
+                                        <h2>Sourcing Countries</h2>
+
+                                        <p>Los <strong>pa&iacute;ses </strong>que abastecen a la
+                                           empresa. Si hay pa&iacute;ses donde prevalecen
+                                           determinados problemas de trabajo infantil y trabajo
+                                           forzoso, tambi&eacute;n se deben mencionar estas
+                                           situaciones.</p>
+
+                                        <h2>Tier 1 Suppliers</h2>
+                                       <p> <strong>Sus proveedores.</strong> Por ejemplo, la
+                                           empresa de art&iacute;culos de electr&oacute;nica{" "}
+                                           <strong>Hewlett-Packard* </strong>hace p&uacute;blica su{" "}
+                                           <a
+                                               target="_blank"
+                                               rel="noopener noreferrer"
+                                               href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/supplychain.html?jumpid=in_r138_us/en/corp/sustainability/main-menu-society"
+                                               title="lista de proveedores"
+                                           >
+                                               lista de proveedores
+                                           </a>{" "}
+                                           desde 2007 y Target Corporation* publica{" "}
+                                           <a
+                                               target="_blank"
+                                               rel="noopener noreferrer"
+                                               href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Target-Global-Factory-List_Q1_2019.pdf"
+                                               title="lista"
+                                           >
+                                               una lista
+                                           </a>{" "}
+                                           de todas las f&aacute;bricas, plantas textiles y plantas
+                                           de proceso h&uacute;medo que fabrican sus productos de
+                                           marca propia.</p>
+
+                                        <h2>Factories/Farms/Mines Beyond Tier 1</h2>
+
+                                        <p>Las{" "}
+                                           <strong>
+                                               f&aacute;bricas, establecimientos agr&iacute;colas o
+                                               minas
+                                           </strong>{" "}
+                                           que abastecen a la empresa, a sus proveedores o a ambos.
+                                           Publicar listas de las f&aacute;bricas es una tendencia
+                                           creciente para muchas empresas que aspiran a una mayor
+                                           responsabilidad social y ambiental. Por ejemplo, la
+                                           empresa que vende art&iacute;culos deportivos para el
+                                           aire libre <strong>Patagonia*</strong> publica una{" "}
+                                           <a
+                                               target="_blank"
+                                               rel="noopener noreferrer"
+                                               href="http://www.patagonia.com/working-with-factories.html"
+                                           >
+                                               lista de las f&aacute;bricas que hacen sus productos
+                                           </a>{" "}
+                                           y un{" "}
+                                           <a
+                                               target="_blank"
+                                               rel="noopener noreferrer"
+                                               href="http://www.patagonia.com/footprint.html"
+                                               title="mapa interactivo"
+                                           >
+                                               mapa interactivo
+                                           </a>{" "}
+                                           donde se muestra el nombre de la f&aacute;brica, el
+                                           domicilio, los art&iacute;culos que fabrica, los idiomas
+                                           que se hablan y la cantidad de empleados por sexo.</p>
+
+                                         <OwnWords>
+                                            <h2>
+                                                 <OwnWords.Icon alt="Feedback"/>{" "}
+                                                 <strong>En sus propias palabras</strong>
+                                                 {": "}
+                                             </h2>
+                                            <p>
+                                                <b>PLACEHOLDER FOR TEXT</b>
+                                            </p>
+                                        </OwnWords>
+                                        <h2>Metrics to Measure Progress</h2>
+                                        <p>La <strong>m&eacute;trica </strong>o los indicadores
+                                           clave del desempe&ntilde;o que se utilizan en el sistema
+                                           de cumplimiento social para medir los avances y el
+                                           desempe&ntilde;o de la empresa en comparaci&oacute;n con
+                                           dichos indicadores. Al calcular el desempe&ntilde;o en
+                                           funci&oacute;n de una m&eacute;trica, para muchas
+                                           empresas es importante desglosar el desempe&ntilde;o
+                                           interno de la compa&ntilde;&iacute;a del
+                                           desempe&ntilde;o en su cadena de suministro. Combinar
+                                           ambos puede tergiversar el verdadero desempe&ntilde;o de
+                                           la cadena de suministro.</p>
+
+                                        <h2>Code of Conduct</h2>
+                                        <p>El <strong>c&oacute;digo de conducta</strong> de la
+                                           empresa y las &aacute;reas de la cadena de suministro
+                                           que abarca, incluido todo examen o actualizaci&oacute;n
+                                           al c&oacute;digo que se haya realizado en el
+                                           per&iacute;odo de notificaci&oacute;n.</p>
+
+                                      <h2>Engagement with Stakeholder</h2>
+                                        <p>Una descripci&oacute;n de la{" "}
+                                           <strong>participaci&oacute;n de los interesados</strong>{" "}
+                                           y las comunidades locales, incluidos los grupos de
+                                           varias partes interesadas con los que interact&uacute;a
+                                           la empresa, las actividades de extensi&oacute;n que son
+                                           parte de la evaluaci&oacute;n de riesgos y otros
+                                           mecanismos de reclamaci&oacute;n y
+                                           extensi&oacute;n.&nbsp;</p>
+
+                                         <h2>Metrics to Measure Progress</h2>
+                                         <p>Un resumen esquem&aacute;tico de los{" "}
+                                            <strong>programas de capacitaci&oacute;n</strong> en
+                                            cumplimiento social a lo largo de todas las cadenas de
+                                            suministro.</p>
+
+                                        <h2>Social Audit Data</h2>
+                                        <p><strong>Datos de la auditoria social. </strong>Estos
+                                       datos deben ser lo m&aacute;s exhaustivos y
+                                       espec&iacute;ficos posible. Algunas empresas publican
+                                       los informes completos de las auditor&iacute;as mientras
+                                       que otros compilan los datos y publican una
+                                       versi&oacute;n abreviada. Por ejemplo, la{" "}
+                                       <strong>FLA</strong> publica{" "}
+                                       <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
+                                           title="Gr&aacute;ficos de seguimiento"
+                                       >
+                                           &ldquo;Gr&aacute;ficos de seguimiento&rdquo;
+                                       </a>{" "}
+                                       en su p&aacute;gina web que contienen datos completos de
+                                       todas las auditor&iacute;as realizadas en las
+                                       f&aacute;bricas, as&iacute; como las medidas adoptadas
+                                       por las empresas afiliadas a la FLA para abordar las
+                                       conclusiones. La p&aacute;gina web de{" "}
+                                       <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="http://sustainability.hm.com/en/sustainability/downloads-resources/resources/supplier-compliance.html"
+                                           title="Hennes and Mauritz"
+                                       >
+                                           Hennes &amp; Mauritz (H&amp;M)
+                                       </a>
+                                       * contiene datos sobre el desempe&ntilde;o de todos sus
+                                       proveedores en materia de cumplimiento social.{" "}
+                                       <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="https://www.pmi.com/sustainability/good-agricultural-practices/upholding-labor-rights-on-the-farms"
+                                           title="Philip Morris International"
+                                       >
+                                           Philip Morris International
+                                       </a>
+                                       * publica sus propios informes de vigilancia y
+                                       seguimiento, as&iacute; como los que realizan los
+                                       encargados de la vigilancia y seguimiento externos.</p>
+
+                                       <h2>Remediation Policies</h2>
+                                           <p>Una descripci&oacute;n de las{" "}
+                                              <strong>pol&iacute;ticas de remediaci&oacute;n</strong>{" "}
+                                              de la empresa en caso de hallarse infracciones.</p>
+
+
+
+                    <h2>Independent Verification Assessment Results</h2>
+                                            <p>Los resultados de la evaluaci&oacute;n de la{" "}
+                                               <strong>verificaci&oacute;n independiente</strong> y una
+                                               explicaci&oacute;n de la manera en que est&aacute;
+                                               integrando dichas conclusiones y respondiendo a ellas.</p>
+
+                                        <h2>Information on internal oversight and accountability</h2>
+                                           <p> Informaci&oacute;n sobre la{" "}
+                                               <strong>
+                                                   fiscalizaci&oacute;n interna y la rendici&oacute;n
+                                                   de cuentas
+                                               </strong>{" "}
+                                               con respecto al programa de cumplimiento social, incluso
+                                               mencionar al responsable del programa y los niveles de
+                                               participaci&oacute;n de la Junta y del Director
+                                               Ejecutivo.</p>
+
+                                        <h2>Challenges and lessons learned</h2>
+                                            <p>Una explicaci&oacute;n de los{" "}
+                                               <strong>desaf&iacute;os</strong> que afronta el programa
+                                               de cumplimiento social de la empresa, las{" "}
+                                               <strong>lecciones aprendidas</strong>, as&iacute; como
+                                               las iniciativas para tratar las causas fundamentales del
+                                               abuso laboral.</p>
+
+                                        <h2>Case Studies of Activities</h2>
+                                            <p>Los estudios de caso o{" "}
+                                               <strong>
+                                                   aspectos m&aacute;s notables de actividades
+                                                   espec&iacute;ficas
+                                               </strong>{" "}
+                                               durante el per&iacute;odo de notificaci&oacute;n.</p>
+
+                                        <h2>Feedback procedures</h2>
+                                            <p>Los{" "}
+                                               <strong>
+                                                   procedimientos para la recepci&oacute;n de
+                                                   comentarios
+                                               </strong>{" "}
+                                               sobre el informe.</p>
+
+                       <ExampleInAction id="nike">
+                              <h2>
+                                  <ExampleInAction.Icon alt="Lightbulb"/>
+                                  <strong>
+                                      Ejemplo en acci&oacute;n: Unilever&#39;s Palm Oil Supply Chain
+                                  </strong>
+                              </h2>
+                              <p>
+                                  PLACEHOLDER TEXT
+                                  <br />
+                              </p>
+                          </ExampleInAction>
+                           <br />
+                          <ExampleInAction id="nike">
+                            <h2>
+                                <ExampleInAction.Icon alt="Lightbulb"/>
+                                <strong>
+                                    Ejemplo en acci&oacute;n: Unilever&#39;s Palm Oil Supply Chain
+                                </strong>
+                            </h2>
+                            <p>
+                                PLACEHOLDER TEXT
+                                <br />
+                            </p>
+                        </ExampleInAction>
+                           <br />
+                          <ExampleInAction id="nike">
+                             <h2>
+                                 <ExampleInAction.Icon alt="Lightbulb"/>
+                                 <strong>
+                                     Ejemplo en acci&oacute;n: Nike: notificaci&oacute;n
+                                     de las medidas de remediaci&oacute;n
+                                 </strong>
+                             </h2>
+                             <p>
+                                 En 2008, distintos informes de los medios pusieron en la
+                                 mira a Hytex Apparel, Inc.*, una empresa malaya
+                                 contratista de Nike Inc., mayormente por el maltrato
+                                 conferido a centenares de trabajadores migrantes. Nike
+                                 investig&oacute; y descubri&oacute; que si bien Hytex no
+                                 contraven&iacute;a ninguna de las leyes inmigratorias de
+                                 Malasia, los complejos habitacionales de los
+                                 trabajadores no cumpl&iacute;an las normas de Nike.
+                                 Asimismo, numerosas pr&aacute;cticas de Hytex, como el
+                                 embargo salarial y la retenci&oacute;n de documentos
+                                 personales como pasaportes, contraven&iacute;an el
+                                 c&oacute;digo de conducta de los proveedores de Nike, si
+                                 bien no la legislaci&oacute;n nacional.&nbsp;
+                             </p>
+                             <p>
+                                 Nike colabor&oacute; con Hytex para que devolviera los
+                                 documentos a los trabajadores, les reembolsara el
+                                 salario embargado y mejorara los complejos
+                                 habitacionales. Asimismo, Hytex acord&oacute; solventar
+                                 los gastos de los trabajadores que desearan regresar a
+                                 su pa&iacute;s de origen. La situaci&oacute;n con Hytex
+                                 provoc&oacute; que Nike redactara las pol&iacute;ticas y
+                                 las disposiciones actuales del c&oacute;digo en materia
+                                 de trabajadores migrantes.
+                             </p>
+                         </ExampleInAction>
+
             </div>
         </StaticData>
     );

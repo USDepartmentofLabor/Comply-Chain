@@ -50,8 +50,8 @@ const fr = () => {
                                                     les travailleurs migrants.
                                                 </p>
                                                 <h2>Causes li&eacute;es &agrave; la pauvret&eacute;</h2>
-                                                    <Accordion id="cocoa-chains-acc">
-                                                                     <Accordion.Section id="cocoa-description">
+                                                    <Accordion id="lack-of-awareness-acc">
+                                                                            <Accordion.Section id="lack-of-awareness-description">
                                                                         <Accordion.Title>
                                                                       Manque de sensibilisation aux droits de l&apos;homme
                                                                            </Accordion.Title>
@@ -76,8 +76,8 @@ const fr = () => {
                                                                        </Accordion.Panel>
                                                                    </Accordion.Section>
                                                                    </Accordion>
-                                                    <Accordion id="cocoa-chains-acc">
-                                                                     <Accordion.Section id="cocoa-description">
+                                                    <Accordion id="gender-ineq-acc">
+                                                                          <Accordion.Section id="gender-ineq-description">
                                                                         <Accordion.Title>
                                                                       In&eacute;galit&eacute; entre les hommes et les femmes
 
@@ -102,8 +102,8 @@ const fr = () => {
                                                                    </Accordion>
 
                                                 <h2>Causes li&eacute;es &agrave; la gouvernance</h2>
-                                                <Accordion id="cocoa-chains-acc">
-                                                                 <Accordion.Section id="cocoa-description">
+                                                <Accordion id="inadequate-govt-acc">
+                                                                        <Accordion.Section id="inadequate-govt-description">
                                                                     <Accordion.Title>
                                                                   Ressources publiques inefficaces ou inad&eacute;quates
 
@@ -132,8 +132,8 @@ const fr = () => {
                                                                    </Accordion.Panel>
                                                                </Accordion.Section>
                                                                </Accordion>
-                                                    <Accordion id="cocoa-chains-acc">
-                                                                     <Accordion.Section id="cocoa-description">
+                                                    <Accordion id="lack-of-access-acc">
+                                                                          <Accordion.Section id="lack-of-access-description">
                                                                         <Accordion.Title>
                                                                      Absence d&apos;acc&egrave;s &agrave; une &eacute;ducation de qualit&eacute;
 
@@ -166,8 +166,8 @@ const fr = () => {
                                                                        </Accordion.Panel>
                                                                    </Accordion.Section>
                                                                    </Accordion>
-                                                    <Accordion id="cocoa-chains-acc">
-                                                                     <Accordion.Section id="cocoa-description">
+                                                    <Accordion id="weak-trade-acc">
+                                                                             <Accordion.Section id="weak-trade-description">
                                                                         <Accordion.Title>
                                                                       Faiblesse ou absence de syndicats et d&apos;autres groupes de la soci&eacute;t&eacute; civile
 
@@ -203,8 +203,8 @@ const fr = () => {
                                                                    </Accordion.Section>
                                                                    </Accordion>
 
-                                                    <Accordion id="cocoa-chains-acc">
-                                                                     <Accordion.Section id="cocoa-description">
+                                                    <Accordion id="migration-systems-acc">
+                                                                            <Accordion.Section id="migration-systems-description">
                                                                         <Accordion.Title>
                                                                       Syst&egrave;mes de migration
                                                                            </Accordion.Title>
@@ -246,8 +246,8 @@ const fr = () => {
                                                 <h2>
                                                     Causes li&eacute;es aux forces &eacute;conomiques mondiales
                                                 </h2>
-                                                <Accordion id="cocoa-chains-acc">
-                                                                 <Accordion.Section id="cocoa-description">
+                                                <Accordion id="global-comp-acc">
+                                                                    <Accordion.Section id="global-comp-acc-description">
                                                                     <Accordion.Title>
                                                                   Concurrence mondiale
                                                                        </Accordion.Title>
@@ -271,8 +271,8 @@ const fr = () => {
                                                                    </Accordion.Panel>
                                                                </Accordion.Section>
                                                                </Accordion>
-                                                    <Accordion id="cocoa-chains-acc">
-                                                                     <Accordion.Section id="cocoa-description">
+                                                     <Accordion id="precarious-work-acc">
+                                                                      <Accordion.Section id="precarious-work-description">
                                                                         <Accordion.Title>
                                                                       Travail pr&eacute;caire
                                                                            </Accordion.Title>
@@ -300,8 +300,8 @@ const fr = () => {
                                                                    </Accordion.Section>
                                                                    </Accordion>
                                                 <h2>Autres facteurs externes</h2>
-                                                <Accordion id="cocoa-chains-acc">
-                                                                 <Accordion.Section id="cocoa-description">
+                                                <Accordion id="conflict-acc">
+                                                                    <Accordion.Section id="conflict-description">
                                                                     <Accordion.Title>
                                                                   Conflit
                                                                        </Accordion.Title>
@@ -326,8 +326,8 @@ const fr = () => {
                                                                </Accordion.Section>
                                                                </Accordion>
 
-                                                    <Accordion id="cocoa-chains-acc">
-                                                                     <Accordion.Section id="cocoa-description">
+                                                    <Accordion id="natural-disaster-acc">
+                                                                      <Accordion.Section id="natural-disaster-description">
                                                                         <Accordion.Title>
                                                                       Catastrophes naturelles et &eacute;v&eacute;nements m&eacute;t&eacute;orologiques extr&ecirc;mes
 
@@ -352,8 +352,8 @@ const fr = () => {
                                                                        </Accordion.Panel>
                                                                    </Accordion.Section>
                                                                    </Accordion>
-                                                  <Accordion id="cocoa-chains-acc">
-                                                           <Accordion.Section id="cocoa-description">
+                                                 <Accordion id="global-health-crisis-acc">
+                                                                   <Accordion.Section id="global-health-crisis-description">
                                                               <Accordion.Title>
                                                             Global Health Crises
                                                                  </Accordion.Title>
