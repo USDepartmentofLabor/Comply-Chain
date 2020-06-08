@@ -4,7 +4,7 @@ import { Topics } from "./topic";
 
 export const StepData = {
     en: {
-        title: "Step 8: Report Performance and Engage Consumers",
+        title: "Step 8: Report Performance and Engagement",
         topics: Topics.en,
         keywords: ["Public reporting"],
         learningObjectives: [
