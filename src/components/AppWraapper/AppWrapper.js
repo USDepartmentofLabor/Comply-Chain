@@ -324,7 +324,7 @@ class AppWrapper extends Component {
                     <Header>
                         <NavbarWrapper>
                             {/*<SkipToMainContent/>*/}
-<div tabIndex={1                                        }>
+        <div tabIndex="0">
                             <BrandStrip />
                             </div>
                             <NavBar
@@ -335,7 +335,7 @@ class AppWrapper extends Component {
                         </NavbarWrapper>
                     </Header>
                     <div aria-hidden={sideNavVisible}>
-                        <MainWrapper id="main" tabIndex={-1}>
+                        <MainWrapper id="main" tabIndex="-1">
                             {location.pathname.includes("/steps") && (
                                 <StepBarWrapper id="step_progess_bar">
                                     <StepProgressBar />

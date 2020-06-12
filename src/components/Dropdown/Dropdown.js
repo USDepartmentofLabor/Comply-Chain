@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
+import KeyboardEventHandler from 'react-keyboard-event-handler';
 
 const Wrapper = styled.div`
     float: left;
@@ -16,19 +17,26 @@ class Dropdown extends Component {
         } else {
             document.addEventListener("mousedown", this.handleClick, false);
         }
+        if (window.KeyboardEvent) {
+            document.addEventListener("keydown", this.handleKeyPress, false);
+        }
     }
 
     componentWillUnmount() {
         if (window.PointerEvent) {
-            document.removeEventListener(
-                "pointerdown",
-                this.handleClick,
-                false
-            );
+            document.removeEventListener("pointerdown",this.handleClick,false);
         } else {
             document.removeEventListener("mousedown", this.handleClick, false);
         }
+        if (window.KeyboardEvent) {
+            document.removeEventListener("keydown", this.handleKeyPress, false);
+            }
     }
+    handleKeyPress = (e) => {
+            if (e.keyCode === 13){
+                this.setState({ active: !this.state.active });
+          }
+    };
 
     handleClick = e => {
         if (this.node.contains(e.target)) {
@@ -38,8 +46,8 @@ class Dropdown extends Component {
         this.setState({ active: false });
     };
 
-    toggleActive = () => {
-        this.setState({ active: !this.state.active });
+    toggleActive = (e) => {
+            this.setState({ active: !this.state.active });
     };
 
     generatePropsForChild = child => {

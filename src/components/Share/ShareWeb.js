@@ -1,11 +1,13 @@
 import copy from "copy-to-clipboard";
 import PropTypes from "prop-types";
-import React, { Component } from "react";
+import React, { Component, node } from "react";
 import { withRouter } from "react-router-dom";
 import Dropdown from "../Dropdown";
 import { withLanguageContext } from "../Language";
 import { PocketButton } from "../Social";
 import { getPageTitle } from "./ShareUtils";
+import styled from "styled-components";
+
 
 class ShareWeb extends Component {
     handleEmail = () => {
@@ -18,29 +20,49 @@ class ShareWeb extends Component {
         );
     };
 
-    handleCopy = () => {
-        copy(window.location.href);
-    };
 
+
+//const Wrapper = styled.div`
+//    float: left;
+//    overflow: hidden;
+//`;
+
+    handleKeyDown = (e) => {
+        if (window.PointerEvent) {
+            console.log('POINTER DEVICE EVENT');
+        }
+        if (e.keyCode === 13) {
+                    console.log('ENTER KEY PRESSED');
+                }
+
+        };
+
+
+
+    myDiv = React.createRef();
     render() {
         const { id, className, children, localizor } = this.props;
         return (
-            <div tabIndex="0">
-            <Dropdown up id={id} className={className}>
-                <Dropdown.Title>{children}</Dropdown.Title>
+           <div tabIndex="0" aria-label="Share">
+            <Dropdown up id={id} className={className} onKeyDown={this.handleTapOrClick}>
+            <Dropdown.Title >{children}</Dropdown.Title>
                 <Dropdown.Content>
-                    <Dropdown.Item>
-                        <PocketButton lang="en" count="horizontal" />
+                <div><Dropdown.Item>
+                        <button><PocketButton role="button" lang="en" count="horizontal" /></button>
                     </Dropdown.Item>
                     <Dropdown.Item onClick={this.handleEmail}>
-                        Email
+                       <button>
+                       Email
+                       </button>
                     </Dropdown.Item>
                     <Dropdown.Item onClick={this.handleCopy}>
-                        {localizor.strings.general.copyLink}
+                       <button>
+                       {localizor.strings.general.copyLink}
+                       </button>
                     </Dropdown.Item>
-                </Dropdown.Content>
+               </div> </Dropdown.Content>
             </Dropdown>
-            </div>
+          </div>
         );
     }
 }
@@ -50,6 +72,7 @@ ShareWeb.propTypes = {
     match: PropTypes.object.isRequired,
     location: PropTypes.object.isRequired,
     history: PropTypes.object.isRequired,
-    children: PropTypes.node
+    children: PropTypes.node.isRequired,
+
 };
 export default withLanguageContext(withRouter(ShareWeb));
