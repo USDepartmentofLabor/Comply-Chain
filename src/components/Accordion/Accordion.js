@@ -189,7 +189,9 @@ Accordion.Title = styled.button`
     &:hover {
         background-color: #ccc;
     }
-
+    &:focus{
+        outline: auto 5px -webkit-focus-ring-color
+    }
     &:after {
         position: absolute;
         content: "+";
