@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
-import hrm from "../../../../../images/hrm.jpg";
-import panos from "../../../../../images/panos.jpg";
-import Accordion from "../../../../../../components/Accordion";
+// import hrm from "../../../../../images/hrm.jpg";
+// import panos from "../../../../../images/panos.jpg";
+// import Accordion from "../../../../../../components/Accordion";
 
 const fr = () => {
     return (
@@ -352,7 +352,7 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Exemple d&apos;action:
+                            Exemple d&apos;action: Unilever&#39;s Palm Oil Supply Chain
                         </strong>
                     </h2>
                     <p>
@@ -365,7 +365,7 @@ const fr = () => {
                                     <h2>
                                         <ExampleInAction.Icon alt="Lightbulb"/>
                                         <strong>
-                                            Exemple d&apos;action:
+                                            Exemple d&apos;action: Unilever&#39;s Palm Oil Supply Chain
                                         </strong>
                                     </h2>
                                     <p>
