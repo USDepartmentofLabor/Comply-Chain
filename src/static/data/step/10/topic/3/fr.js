@@ -222,8 +222,7 @@ const fr = () => {
                                                          <OwnWords>
                                                             <h2>
                                                                  <OwnWords.Icon alt="Feedback"/>{" "}
-                                                                 <strong>En sus propias palabras</strong>
-                                                                 {": "}
+                                                                 <strong>Dans leurs propres mots</strong>&nbsp;{": "}
                                                              </h2>
                                                             <p>
                                                                 <b>PLACEHOLDER FOR TEXT</b>
@@ -349,7 +348,31 @@ const fr = () => {
                                           d&apos;information
                                       </strong>{" "}
                                       sur le rapport.</p>
+                                      <ExampleInAction id="nike">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Exemple d&apos;action:
+                        </strong>
+                    </h2>
+                    <p>
+                        PLACEHOLDER FOR TEXT
+                    </p>
+                </ExampleInAction>
+                                    <br />
 
+                                <ExampleInAction id="nike">
+                                    <h2>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Exemple d&apos;action:
+                                        </strong>
+                                    </h2>
+                                    <p>
+                                        PLACEHOLDER FOR TEXT
+                                    </p>
+                                </ExampleInAction>
+                                <br />
                 <ExampleInAction id="nike">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -388,31 +411,8 @@ const fr = () => {
                         migrants.
                     </p>
                 </ExampleInAction>
-                <br />
-                <ExampleInAction id="nike">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Exemple d&apos;action:
-                        </strong>
-                    </h2>
-                    <p>
-                        PLACEHOLDER FOR TEXT
-                    </p>
-                </ExampleInAction>
-                                    <br />
+            
 
-                                <ExampleInAction id="nike">
-                                    <h2>
-                                        <ExampleInAction.Icon alt="Lightbulb"/>
-                                        <strong>
-                                            Exemple d&apos;action:
-                                        </strong>
-                                    </h2>
-                                    <p>
-                                        PLACEHOLDER FOR TEXT
-                                    </p>
-                                </ExampleInAction>
 
             </div>
         </StaticData>

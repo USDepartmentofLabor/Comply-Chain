@@ -7,7 +7,7 @@ const es = () => {
         <StaticData>
             <div>
                 <h1>
-                    Evaluaci&oacute;n y tratamiento de las causas fundamentales
+                    Evaluaci&oacute;n de las causas fundamentales
                 </h1>
                 <p>
                     Entre los factores de riesgo externos que una empresa o
