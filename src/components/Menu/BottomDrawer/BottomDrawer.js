@@ -57,6 +57,9 @@ const Content = styled.div`
         border: none;
     }
 `;
+const newTI = () => {
+    return "0"
+}
 
 const ContentItem = styled.span`
     border-bottom: solid 2px ${theme.colors.primaryDarker};
@@ -68,8 +71,7 @@ const ContentItem = styled.span`
 
 BottomDrawer.propTypes = {
     active: PropTypes.bool,
-    items: PropTypes.arrayOf(PropTypes.object).isRequired,
-    tabIndex: 1
+    items: PropTypes.arrayOf(PropTypes.object).isRequired
 };
 
 export default BottomDrawer;

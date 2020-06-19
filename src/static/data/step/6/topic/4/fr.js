@@ -66,8 +66,7 @@ const fr = () => {
                     examin&eacute;es plus en d&eacute;tail dans{" "}
                     <em>
                         <Link to="/steps/4/topic/9">
-                            &Eacute;valuer les causes profondes et s&rsquo;y
-                            attaquer
+                        Éliminer les causes profondes du travail des enfants et du travail forcé
                         </Link>
                     </em>
                     .

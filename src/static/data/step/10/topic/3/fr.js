@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
-import hrm from "../../../../../images/hrm.jpg";
-import panos from "../../../../../images/panos.jpg";
-import Accordion from "../../../../../../components/Accordion";
+// import hrm from "../../../../../images/hrm.jpg";
+// import panos from "../../../../../images/panos.jpg";
+// import Accordion from "../../../../../../components/Accordion";
 
 const fr = () => {
     return (
@@ -222,8 +222,7 @@ const fr = () => {
                                                          <OwnWords>
                                                             <h2>
                                                                  <OwnWords.Icon alt="Feedback"/>{" "}
-                                                                 <strong>En sus propias palabras</strong>
-                                                                 {": "}
+                                                                 <strong>Dans leurs propres mots</strong>&nbsp;{": "}
                                                              </h2>
                                                             <p>
                                                                 <b>PLACEHOLDER FOR TEXT</b>
@@ -261,7 +260,7 @@ const fr = () => {
                                                            des risques, et d&rsquo;autres m&eacute;canismes de
                                                            sensibilisation et de r&eacute;clamation.&nbsp;</p>
 
-                                                           <h2>Metrics to Measure Progress</h2>
+                                                           <h2>Politiques de r&eacute;paration</h2>
                                                             <p>Une description de vos{" "}
                                                                <strong>politiques de r&eacute;paration</strong> lorsque
                                                                des violations sont d&eacute;tect&eacute;es.</p>
@@ -349,7 +348,31 @@ const fr = () => {
                                           d&apos;information
                                       </strong>{" "}
                                       sur le rapport.</p>
+                                      <ExampleInAction id="nike">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Exemple d&apos;action: Unilever&#39;s Palm Oil Supply Chain
+                        </strong>
+                    </h2>
+                    <p>
+                        PLACEHOLDER FOR TEXT
+                    </p>
+                </ExampleInAction>
+                                    <br />
 
+                                <ExampleInAction id="nike">
+                                    <h2>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Exemple d&apos;action: Unilever&#39;s Palm Oil Supply Chain
+                                        </strong>
+                                    </h2>
+                                    <p>
+                                        PLACEHOLDER FOR TEXT
+                                    </p>
+                                </ExampleInAction>
+                                <br />
                 <ExampleInAction id="nike">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -388,31 +411,8 @@ const fr = () => {
                         migrants.
                     </p>
                 </ExampleInAction>
-                <br />
-                <ExampleInAction id="nike">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Exemple d&apos;action:
-                        </strong>
-                    </h2>
-                    <p>
-                        PLACEHOLDER FOR TEXT
-                    </p>
-                </ExampleInAction>
-                                    <br />
+            
 
-                                <ExampleInAction id="nike">
-                                    <h2>
-                                        <ExampleInAction.Icon alt="Lightbulb"/>
-                                        <strong>
-                                            Exemple d&apos;action:
-                                        </strong>
-                                    </h2>
-                                    <p>
-                                        PLACEHOLDER FOR TEXT
-                                    </p>
-                                </ExampleInAction>
 
             </div>
         </StaticData>
