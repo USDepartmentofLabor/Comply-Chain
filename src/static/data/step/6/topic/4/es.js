@@ -61,8 +61,7 @@ const es = () => {
                     <em>
                         <u>
                             <Link to="/steps/4/topic/9">
-                                Evaluaci&oacute;n y tratamiento de las causas
-                                fundamentales.
+                            Tratamiento de las causas fundamentales del trabajo infantil y el trabajo forzoso.
                             </Link>
                         </u>
                     </em>

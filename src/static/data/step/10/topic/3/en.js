@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
-import hrm from "../../../../../images/hrm.jpg";
-import panos from "../../../../../images/panos.jpg";
-import Accordion from "../../../../../../components/Accordion";
+// import hrm from "../../../../../images/hrm.jpg";
+// import panos from "../../../../../images/panos.jpg";
+// import Accordion from "../../../../../../components/Accordion";
 
 const en = () => {
     return (
@@ -209,7 +209,7 @@ const en = () => {
                         assessment, other outreach and grievance
                         mechanisms.&nbsp;</p>
 
-                         <h2>Metrics to Measure Progress</h2>
+                         <h2>Training programs</h2>
                          <p>An overview of your social compliance{" "}
                         <strong>training programs</strong> throughout your
                         supply chains.</p>
