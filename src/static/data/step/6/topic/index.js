@@ -3,7 +3,7 @@ import { TopicData as Topic2 } from "./2";
 import { TopicData as Topic3 } from "./3";
 import { TopicData as Topic4 } from "./4";
 import { TopicData as Topic5 } from "./5";
-import { TopicData as Topic6 } from "./6";
+// import { TopicData as Topic6 } from "./6";
 
 export const Topics = {
     en: [
@@ -31,12 +31,12 @@ export const Topics = {
             keywords: [],
             title: "Grievance Mechanisms",
             content: Topic5.en
-        },
-        {
-            keywords: [],
-            title: "Reaching Beyond Tier 1",
-            content: Topic6.en
         }
+        // {
+        //     keywords: [],
+        //     title: "Reaching Beyond Tier 1",
+        //     content: Topic6.en
+        // }
     ],
     es: [
         {
@@ -64,12 +64,12 @@ export const Topics = {
             keywords: [],
             title: "Mecanismos de presentación de reclamaciones",
             content: Topic5.es
-        },
-        {
-            keywords: [],
-            title: "Reaching Beyond Tier 1",
-            content: Topic6.es
         }
+        // {
+        //     keywords: [],
+        //     title: "Reaching Beyond Tier 1",
+        //     content: Topic6.es
+        // }
     ],
     fr: [
         {
@@ -97,12 +97,12 @@ export const Topics = {
             keywords: [],
             title: "Mécanismes de réclamation",
             content: Topic5.fr
-        },
-        {
-            keywords: [],
-            title: "Reaching Beyond Tier 1",
-            content: Topic6.fr
         }
+        // {
+        //     keywords: [],
+        //     title: "Reaching Beyond Tier 1",
+        //     content: Topic6.fr
+        // }
     ],
     ms: [
             {
@@ -129,11 +129,11 @@ export const Topics = {
                 keywords: [],
                 title: "Grievance Mechanisms",
                 content: Topic5.ms
-            },
-            {
-                keywords: [],
-                title: "Reaching Beyond Tier 1",
-                content: Topic6.ms
             }
+            // {
+            //     keywords: [],
+            //     title: "Reaching Beyond Tier 1",
+            //     content: Topic6.ms
+            // }
         ]
 };

@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
-import hrm from "../../../../../images/hrm.jpg";
-import panos from "../../../../../images/panos.jpg";
-import Accordion from "../../../../../../components/Accordion";
+// import hrm from "../../../../../images/hrm.jpg";
+// import panos from "../../../../../images/panos.jpg";
+// import Accordion from "../../../../../../components/Accordion";
 
 const es = () => {
     return (
@@ -247,7 +247,7 @@ const es = () => {
                                            mecanismos de reclamaci&oacute;n y
                                            extensi&oacute;n.&nbsp;</p>
 
-                                         <h2>Metrics to Measure Progress</h2>
+                                         <h2>Programas de capacitaci&oacute;n</h2>
                                          <p>Un resumen esquem&aacute;tico de los{" "}
                                             <strong>programas de capacitaci&oacute;n</strong> en
                                             cumplimiento social a lo largo de todas las cadenas de

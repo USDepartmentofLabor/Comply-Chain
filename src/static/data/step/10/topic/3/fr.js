@@ -260,7 +260,7 @@ const fr = () => {
                                                            des risques, et d&rsquo;autres m&eacute;canismes de
                                                            sensibilisation et de r&eacute;clamation.&nbsp;</p>
 
-                                                           <h2>Metrics to Measure Progress</h2>
+                                                           <h2>Politiques de r&eacute;paration</h2>
                                                             <p>Une description de vos{" "}
                                                                <strong>politiques de r&eacute;paration</strong> lorsque
                                                                des violations sont d&eacute;tect&eacute;es.</p>
