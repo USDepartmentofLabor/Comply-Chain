@@ -12,117 +12,6 @@ const en = () => {
                     is through industry-led platforms, industry associations and
                     industry-specific initiatives. Examples are below.
                 </p>
-                <ExampleInAction id="sug_phil">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Example in Action: Eliminating Child Labor in
-                            Tobacco-Growing (ECLT) Foundation
-                        </strong>
-                    </h2>
-                    <p>
-                        Launched in 2002, the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.eclt.org/"
-                            title="ECLT Foundation"
-                        >
-                            ECLT Foundation
-                        </a>{" "}
-                        employs a multi-stakeholder approach in preventing child
-                        labor in tobacco production and in protecting and
-                        improving the lives of children in tobacco growing
-                        areas. The ECLT Foundation&rsquo;s efforts follow a
-                        tripartite model that includes governments, trade
-                        unions, and employers, as well as civil society
-                        organizations, public sector representatives, and other
-                        stakeholders that address child labor in tobacco
-                        growing. As a member of the UN Global Compact and the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/ipec/Action/CSR/clp/lang--en/index.htm"
-                            title="ILO&rsquo;s Child Labor Platform"
-                        >
-                            ILO&rsquo;s Child Labor Platform
-                        </a>
-                        , the ECLT Foundation engages in global advocacy on
-                        child labor, as well as serves as a hub for research and
-                        improving the knowledge base on child labor. Since 2003,
-                        the ECLT Foundation has conducted projects with a range
-                        of public and private stakeholders in countries where
-                        child labor in the production of tobacco is prevalent,
-                        including in{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-guatemala#introduction"
-                            title="Guatemala"
-                        >
-                            Guatemala
-                        </a>
-                        ,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-kyrgyzstan#introduction"
-                            title="Kyrgyzstan"
-                        >
-                            Kyrgyzstan
-                        </a>
-                        ,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-malawi#introduction"
-                            title="Malawi"
-                        >
-                            Malawi
-                        </a>
-                        ,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-mozambique#introduction"
-                            title="Mozambique"
-                        >
-                            Mozambique
-                        </a>
-                        ,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-tanzania#introduction"
-                        >
-                            Tanzania
-                        </a>{" "}
-                        and{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-uganda#introduction"
-                            title="Uganda"
-                        >
-                            Uganda
-                        </a>
-                        . These projects have five strategic objectives:
-                        withdrawing children from child labor, providing
-                        education, raising awareness, strengthening communities,
-                        and alleviating poverty. In 2015, the ECLT entered into
-                        a{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/en/news-and-insights/the-ilo-eclt-public-private-partnership-2015-2018-global-guidance-on-hazardous-child-labour-in-tobacco-growing"
-                            title="3-year public-private partnership&nbsp;with the ILO"
-                        >
-                            3-year public-private partnership&nbsp;with the ILO
-                        </a>{" "}
-                        to develop global guidance on the hazards of child labor
-                        in tobacco growing.
-                    </p>
-                </ExampleInAction>
                 <ExampleInAction id="clt">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -197,6 +86,7 @@ const en = () => {
                         ongoing basis.
                     </p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction id="gbn">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
