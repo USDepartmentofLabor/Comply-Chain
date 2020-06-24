@@ -1,5 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import OwnWords from "../../../../../../components/OwnWords";
+
 
 const en = () => {
     return (
@@ -65,6 +67,16 @@ const en = () => {
                                     legislatures and other social partners on promoting and
                                     ensuring fair recruitment.&nbsp;
                                 </p>
+             <OwnWords>
+                                                       <h4>
+                                                           <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                                                           {": "}
+                                                       </h4>
+                                                       <p>
+                                                           <b>PLACEHOLDER TEXT</b>
+                                                       </p>
+                        </OwnWords>
+
             </div>
         </StaticData>
     );
