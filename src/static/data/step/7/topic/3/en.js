@@ -1256,8 +1256,8 @@ const en = () => {
                     Another important tool that can be used by any organization
                     or an independent third party to authenticate the scope and
                     effectiveness of the organization&rsquo;s anti-human
-                    trafficking efforts is <span lang="fr">Verit&eacute;</span>
-                    &rsquo;s{" "}
+                    trafficking efforts is <span lang="fr">Verit&eacute;&rsquo;s</span>
+                    {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
