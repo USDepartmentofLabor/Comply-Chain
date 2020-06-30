@@ -9,8 +9,7 @@ const es = () => {
         <StaticData>
             <div>
                 <h2>
-                    Tratamiento de las causas fundamentales del trabajo infantil
-                    y el trabajo forzoso
+                    Tratamiento de las causas fundamentals
                 </h2>
                 <p>
                     El logro de metas amplias y compartidas (preparar a los

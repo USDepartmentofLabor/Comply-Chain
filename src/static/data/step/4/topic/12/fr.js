@@ -9,8 +9,7 @@ const fr = () => {
         <StaticData>
             <div>
                 <h2>
-                                    &Eacute;liminer les causes profondes du travail des enfants
-                                    et du travail forc&eacute;
+                                    &Eacute;liminer les causes profondes
                                 </h2>
                                 <p>
                                     La r&eacute;alisation de buts de grande envergure et
