@@ -6,7 +6,7 @@ const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>Engaging Consumers</h1>
+                <h1>Report Engagement</h1>
                 <p>
                     Planificar la redacci&oacute;n de informes depende en cierta
                     medida de la frecuencia con que se presentan dichos informes
