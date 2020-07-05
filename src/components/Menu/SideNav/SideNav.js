@@ -15,16 +15,20 @@ class SideNav extends Component {
     }
 
     handleKeyPress = event => {
-        if (event.target.id === 'fr-btn') {
+        const { visible } = this.state;
+        if (visible) {
+        if (event.target.id === 'ms-btn') {
             this.close(event);
+            }
         }
     };
 
+
+
     componentWillMount() {
-        const { visible } = this.state;
-        if (visible) {
+
             document.addEventListener("keydown", this.handleKeyPress, false);
-        }
+
         if (window.PointerEvent) {
             document.addEventListener("pointerdown", this.close, false);
         } else {
