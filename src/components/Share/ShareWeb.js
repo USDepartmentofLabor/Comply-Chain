@@ -47,20 +47,20 @@ class ShareWeb extends Component {
             <Dropdown up id={id} className={className} onKeyDown={this.handleTapOrClick}>
             <Dropdown.Title >{children}</Dropdown.Title>
                 <Dropdown.Content>
-                <div><Dropdown.Item>
-                        <button><PocketButton role="button" lang="en" count="horizontal" /></button>
+                <Dropdown.Item>
+                        <button aria-label="Pocket"><PocketButton lang="en" count="horizontal" /></button>
                     </Dropdown.Item>
                     <Dropdown.Item onClick={this.handleEmail}>
-                       <button>
+                       <button aria-label="Email">
                        Email
                        </button>
                     </Dropdown.Item>
                     <Dropdown.Item onClick={this.handleCopy}>
-                       <button>
+                       <button aria-label="Copy">
                        {localizor.strings.general.copyLink}
                        </button>
                     </Dropdown.Item>
-               </div> </Dropdown.Content>
+                </Dropdown.Content>
             </Dropdown>
           </div>
         );

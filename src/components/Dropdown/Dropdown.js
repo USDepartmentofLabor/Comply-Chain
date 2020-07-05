@@ -12,6 +12,7 @@ class Dropdown extends Component {
     constructor(props){
         super(props);
         this.currentFocusRef = React.createRef();
+        this.handleShiftControlKeyPress = false;
       }
     state = { active: false};
 
@@ -26,6 +27,15 @@ class Dropdown extends Component {
         }
 }
 
+//    componentDidUpdate(){
+//        if(this.state.active){
+//          window.addEventListener('click', this.setState({ active: false }))
+//        }
+//        else{
+//          window.removeEventListener('click', this.setState({ active: false }))
+//        }
+//}
+
     componentWillUnmount() {
         if (window.PointerEvent) {
             document.removeEventListener("pointerdown",this.handleClick,false);
@@ -36,13 +46,25 @@ class Dropdown extends Component {
     handleKeyPress = e => {
 
     if ((this.state.active)&&(e.keyCode === 13)) {
-                   console.log('THIS.PROPS.ID ==', this.props.id);
                   return this.setState({ active: false });
     }
+
+    if ((this.state.active)&&((e.target.ariaLabel==="Share")||(e.target.ariaLabel==="Pocket")||(e.target.ariaLabel==="Email"))) {
+                return;
+     } else if ((this.state.active)&&(e.target.ariaLabel==="Copy")) {
+                  this.setState({ active: false });
+     }
+
     if ((e.target.innerText === "Share")&&(e.keyCode === 13)) {
                 this.setState({ active: !this.state.active });
     }
     };
+
+    handleShiftControlKeyPress = e => {
+        if (e.shiftKey && e.keyCode === 9) {
+          return true;
+        }
+    }
 
     handleClick = e => {
         if (this.node.contains(e.target)) {
@@ -60,7 +82,6 @@ class Dropdown extends Component {
         const { active } = this.state;
         if (child.type.displayName === "Title") {
             return React.cloneElement(child, {
-                onFocus: this.onFocus,
                 onClick: this.toggleActive
             });
         }
@@ -70,7 +91,6 @@ class Dropdown extends Component {
                 return null;
             }
             return React.cloneElement(child, {
-                onFocus: this.onFocus,
                 onClick: this.toggleActive,
                 up
             });
@@ -79,15 +99,6 @@ class Dropdown extends Component {
         return child;
     };
 
-
-
-    isFocussed = (e) => {
-     if (e.target == this.node) {
-            console.log('Focussed on Share');
-            return true;
-        }
-
-     }
     render() {
         const { children, id, className } = this.props;
         const {sampleObj} = document.activeElement;
