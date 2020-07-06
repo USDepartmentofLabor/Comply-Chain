@@ -139,9 +139,11 @@ class AppWrapper extends Component {
         storage.search.clearSearchData();
     }
 
-    handleKeyPress = e => {
-       console.log('Keyboard key press');
-    }
+    handleKeyPress = event => {
+            if (event.target.id === "bottom-drawer-indenturedProductList-link") {
+                this.toggleBottomDrawer();
+            }
+        };
 
     componentDidUpdate(prevProps) {
         if (prevProps.localizor.language !== this.props.localizor.language) {
