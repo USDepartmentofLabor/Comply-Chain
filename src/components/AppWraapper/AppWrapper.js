@@ -127,6 +127,7 @@ class AppWrapper extends Component {
     }
 
     componentWillMount() {
+    document.addEventListener("keydown", this.handleKeyPress, false);
         if (window.PointerEvent) {
             document.addEventListener("pointerdown", this.closeDrawer, false);
         } else {
@@ -137,6 +138,12 @@ class AppWrapper extends Component {
     componentDidMount() {
         storage.search.clearSearchData();
     }
+
+    handleKeyPress = event => {
+            if (event.target.id === "bottom-drawer-indenturedProductList-link") {
+                this.toggleBottomDrawer();
+            }
+        };
 
     componentDidUpdate(prevProps) {
         if (prevProps.localizor.language !== this.props.localizor.language) {
@@ -270,7 +277,8 @@ class AppWrapper extends Component {
                          as: NavLink,
                          id: "bottom-drawer-indenturedProductList-link",
                          to: Routes.IndenturedProductList.path,
-                         onClick: () => this.toggleBottomDrawer()
+                         onClick: () => this.toggleBottomDrawer(),
+                         onKeyDown: () => this.toggleBottomDrawer()
                 },
                          label: localizor.strings.info.indenturedProductList.title
                 }
@@ -294,7 +302,6 @@ class AppWrapper extends Component {
     };
 
     closeDrawer = e => {
-        if (!this.state.bottomDrawerActive) return;
         const aboutBtn = document.getElementById("about-link");
         const bottomDrawer = document.getElementById("bottom-drawer");
         if (aboutBtn.contains(e.target) || bottomDrawer.contains(e.target)) {

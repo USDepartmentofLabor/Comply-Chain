@@ -386,9 +386,9 @@ class Search extends Component {
                 <h1>{localizor.strings.general.search}</h1>
                 {query && !searching && (
                     <SearchResultsHeader>
-                        {results.length}{" "}
+                       <h2> {results.length}{" "}
                         {localizor.strings.general.searchResultsFor.toLowerCase()}{" "}
-                        "<span className="query">{query}</span>"
+                        "<span className="query">{query}</span>"</h2>
                     </SearchResultsHeader>
                 )}
                 <form action="." onSubmit={this.handleSubmit}>
@@ -423,7 +423,7 @@ class Search extends Component {
                         <SearchResult key={`search_results_${i}`}>
                             {result.to && (
                                 <ResultHeading>
-                                    <ResultTitle
+                                    <h3><ResultTitle
                                         to={this.createSearchQueryUrl(
                                             result.to,
                                             query
@@ -433,7 +433,7 @@ class Search extends Component {
                                         }
                                     >
                                         {result.title}
-                                    </ResultTitle>
+                                    </ResultTitle></h3>
                                 </ResultHeading>
                             )}
                             <p>

@@ -9,8 +9,7 @@ const es = () => {
         <StaticData>
             <div>
                 <h2>
-                    Tratamiento de las causas fundamentales del trabajo infantil
-                    y el trabajo forzoso
+                    Tratamiento de las causas fundamentals
                 </h2>
                 <p>
                     El logro de metas amplias y compartidas (preparar a los
@@ -332,12 +331,24 @@ const es = () => {
                        <p className="indent-margin">
                           <b>PLACEHOLDER FOR TEXT </b>
                        </p>
+                       <ExampleInAction id="med_rep">
+                         <h2>
+                             <ExampleInAction.Icon alt="Lightbulb"/>
+                             <strong>
+                                 Ejemplo en acci&oacute;n: AAFA/FLA Apparel & Footwear Industry Commitment to Responsible Recruitment
+                             </strong>
+                         </h2>
+                         <p>
+                            <b>PLACEHOLDER TEXT</b>
+                         </p>
+                        </ExampleInAction>
+                        <br />
                    </Accordion.Panel>
                </Accordion.Section>
                </Accordion>
 
                <Accordion id="worker-voice-acc">
-                                                  <Accordion.Section id="worker-voice-description">
+                  <Accordion.Section id="worker-voice-description">
                        <Accordion.Title>
                      Ensuring Worker Voice
                           </Accordion.Title>
@@ -346,6 +357,18 @@ const es = () => {
                           <p className="indent-margin">
                              <b>PLACEHOLDER FOR TEXT </b>
                           </p>
+                          <ExampleInAction id="med_rep">
+                            <h2>
+                                <ExampleInAction.Icon alt="Lightbulb"/>
+                                <strong>
+                                Ejemplo en acci&oacute;n: Primark’s Worker Education Groups
+                            </strong>
+                            </h2>
+                            <p>
+                               <b>PLACEHOLDER TEXT</b>
+                            </p>
+                           </ExampleInAction>
+                           <br />
                       </Accordion.Panel>
                   </Accordion.Section>
                   </Accordion>

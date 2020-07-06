@@ -106,17 +106,9 @@ const fr = () => {
                                             Text
                                         </strong>
                                     </h4>
-                                   
-                                    
-                                    <ol>
-                                        <li>
-                                            <h4>some text</h4>
-                                            <p>
-                                                Some text.
-                                            </p>
-                                        </li>
-                                        
-                                    </ol>
+                                   <p>
+                                       <b>PLACEHOLDER TEXT</b>
+                                   </p>
                                 </ExampleInAction>
                 <Accordion id="resources" >
                     <Accordion.Section>

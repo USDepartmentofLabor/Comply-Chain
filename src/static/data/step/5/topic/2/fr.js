@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+
 
 const fr = () => {
     return (
@@ -386,6 +388,37 @@ const fr = () => {
                     tripartite concernant les entreprises multinationales et la
                     politique sociale.
                 </p>
+                <ExampleInAction id="eicc">
+                    <h4>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                        Exemple d&apos;action
+                        </strong>
+                        &nbsp;{": "}
+                        <strong>
+                            Text
+                        </strong>
+                    </h4>
+                   <p>
+                       <b>PLACEHOLDER TEXT</b>
+                   </p>
+                </ExampleInAction>
+                <br />
+              <ExampleInAction id="eicc">
+                  <h4>
+                      <ExampleInAction.Icon alt="Lightbulb"/>
+                      <strong>
+                      Exemple d&apos;action
+                      </strong>
+                      &nbsp;{": "}
+                      <strong>
+                          Text
+                      </strong>
+                  </h4>
+                 <p>
+                     <b>PLACEHOLDER TEXT</b>
+                 </p>
+              </ExampleInAction>
             </div>
         </StaticData>
     );

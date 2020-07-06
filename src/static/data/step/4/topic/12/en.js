@@ -294,6 +294,18 @@ const en = () => {
                                       <p className="indent-margin">
                                          <b>PLACEHOLDER FOR TEXT </b>
                                       </p>
+                                      <ExampleInAction id="med_rep">
+                                         <h2>
+                                             <ExampleInAction.Icon alt="Lightbulb"/>
+                                             <strong>
+                                                 Example in Action: AAFA/FLA Apparel & Footwear Industry Commitment to Responsible Recruitment
+                                             </strong>
+                                         </h2>
+                                         <p>
+                                            <b>PLACEHOLDER TEXT</b>
+                                         </p>
+                                        </ExampleInAction>
+                                        <br />
                                   </Accordion.Panel>
                               </Accordion.Section>
                               </Accordion>
@@ -308,6 +320,18 @@ const en = () => {
                                          <p className="indent-margin">
                                             <b>PLACEHOLDER FOR TEXT </b>
                                          </p>
+                                         <ExampleInAction id="med_rep">
+                                          <h2>
+                                              <ExampleInAction.Icon alt="Lightbulb"/>
+                                              <strong>
+                                                  Example in Action: Primark’s Worker Education Groups
+                                              </strong>
+                                          </h2>
+                                          <p>
+                                             <b>PLACEHOLDER TEXT</b>
+                                          </p>
+                                         </ExampleInAction>
+                                         <br />
                                      </Accordion.Panel>
                                  </Accordion.Section>
                                  </Accordion>

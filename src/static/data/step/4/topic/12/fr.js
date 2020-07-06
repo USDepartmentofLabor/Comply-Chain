@@ -9,8 +9,7 @@ const fr = () => {
         <StaticData>
             <div>
                 <h2>
-                                    &Eacute;liminer les causes profondes du travail des enfants
-                                    et du travail forc&eacute;
+                                    &Eacute;liminer les causes profondes
                                 </h2>
                                 <p>
                                     La r&eacute;alisation de buts de grande envergure et
@@ -367,6 +366,18 @@ const fr = () => {
                                                       <p className="indent-margin">
                                                          <b>PLACEHOLDER FOR TEXT </b>
                                                       </p>
+                                                      <ExampleInAction id="med_rep">
+                                                       <h2>
+                                                           <ExampleInAction.Icon alt="Lightbulb"/>
+                                                           <strong>
+                                                           Exemple d&apos;action: AAFA/FLA Apparel & Footwear Industry Commitment to Responsible Recruitment
+                                                       </strong>
+                                                       </h2>
+                                                       <p>
+                                                          <b>PLACEHOLDER TEXT</b>
+                                                       </p>
+                                                      </ExampleInAction>
+                                                      <br />
                                                   </Accordion.Panel>
                                               </Accordion.Section>
                                               </Accordion>
@@ -381,6 +392,19 @@ const fr = () => {
                                                          <p className="indent-margin">
                                                             <b>PLACEHOLDER FOR TEXT </b>
                                                          </p>
+                                                         <ExampleInAction id="med_rep">
+                                                          <h2>
+                                                              <ExampleInAction.Icon alt="Lightbulb"/>
+                                                              <strong>
+                                                                  Exemple d&apos;action: Primark’s Worker Education Groups
+                                                                  de la mer
+                                                              </strong>
+                                                          </h2>
+                                                          <p>
+                                                             <b>PLACEHOLDER TEXT</b>
+                                                          </p>
+                                                         </ExampleInAction>
+                                                         <br />
                                                      </Accordion.Panel>
                                                  </Accordion.Section>
                                                  </Accordion>

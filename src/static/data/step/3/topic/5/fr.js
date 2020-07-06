@@ -13,124 +13,6 @@ const fr = () => {
                     par les plateformes, les associations et les initiatives de
                     l&apos;industrie. Voici quelques exemples.
                 </p>
-                <ExampleInAction id="sug_phil">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Exemple d&apos;action: Fondation Eliminating
-                            Child Labor in Tobacco-Growing (ECLT)
-                        </strong>
-                    </h2>
-                    <p>
-                        Lanc&eacute;e en&nbsp;2002, la{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.eclt.org/"
-                            title="Fondation ECLT"
-                        >
-                            Fondation ECLT
-                        </a>{" "}
-                        a une approche multipartite de la pr&eacute;vention du
-                        travail des enfants dans la production du tabac et de la
-                        protection et de l&rsquo;am&eacute;lioration de leurs
-                        vies dans les r&eacute;gions tabacoles. Ses efforts
-                        suivent un mod&egrave;le tripartite qui r&eacute;unit
-                        des gouvernements, des syndicats et des employeurs,
-                        ainsi que des organisations de la soci&eacute;t&eacute;
-                        civile, des repr&eacute;sentants du secteur public et
-                        d&rsquo;autres parties prenantes pour faire face au
-                        travail des enfants dans le domaine de la production du
-                        tabac. Membre du Pacte mondial de l&rsquo;ONU et de la{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/ipec/Action/CSR/clp/lang--fr/index.htm"
-                            title="Plateforme de l&rsquo;OIT sur le travail des enfants"
-                        >
-                            Plateforme de l&rsquo;OIT sur le travail des enfants
-                        </a>
-                        , la Fondation ECLT m&egrave;ne des efforts de plaidoyer
-                        sur le travail des enfants dans le monde entier et fait
-                        office de centre de recherche et
-                        d&rsquo;am&eacute;lioration des connaissances sur ce
-                        sujet. Depuis&nbsp;2003, la Fondation ECLT a men&eacute;
-                        des projets avec toute une s&eacute;rie de parties
-                        prenantes issues des secteurs public et priv&eacute;
-                        dans des pays o&ugrave; le travail des enfants est
-                        courant dans la production de tabac, notamment au{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-guatemala#introduction"
-                            title="Guatemala"
-                        >
-                            Guatemala
-                        </a>
-                        , au{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-kyrgyzstan#introduction"
-                            title="Kirghizistan"
-                        >
-                            Kirghizistan
-                        </a>
-                        , au{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-malawi#introduction"
-                            title="Malawi"
-                        >
-                            Malawi
-                        </a>
-                        , au{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-mozambique#introduction"
-                            title="Mozambique"
-                        >
-                            Mozambique
-                        </a>
-                        , en{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-tanzania#introduction"
-                        >
-                            Tanzanie
-                        </a>{" "}
-                        et en{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-uganda#introduction"
-                            title="Ouganda"
-                        >
-                            Ouganda
-                        </a>
-                        . Ces projets ont cinq objectifs
-                        strat&eacute;giques: soustraire les enfants du
-                        travail des enfants, fournir des services
-                        &eacute;ducatifs, sensibiliser, renforcer les
-                        communaut&eacute;s et r&eacute;duire la pauvret&eacute;.
-                        En 2015, l&rsquo;ECLT a commenc&eacute; un{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/en/news-and-insights/the-ilo-eclt-public-private-partnership-2015-2018-global-guidance-on-hazardous-child-labour-in-tobacco-growing"
-                            title="Partenariat public-priv&eacute; de 3&nbsp;ans avec l&rsquo;OIT"
-                        >
-                            partenariat public-priv&eacute; de 3&nbsp;ans avec
-                            l&rsquo;OIT
-                        </a>{" "}
-                        afin de mettre au point des orientations &agrave;
-                        &eacute;chelle mondiale sur les dangers du travail des
-                        enfants dans la production tabacole.
-                    </p>
-                </ExampleInAction>
                 <ExampleInAction id="clt">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -223,6 +105,7 @@ const fr = () => {
                         rejoignent constamment la plateforme.
                     </p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction id="gbn">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>

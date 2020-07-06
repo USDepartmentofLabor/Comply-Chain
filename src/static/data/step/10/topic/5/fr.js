@@ -6,7 +6,7 @@ const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Engaging Consumers</h1>
+                <h1>Report Engagement</h1>
                 <p>
                     Dresser des plans pour la production de rapports
                     d&eacute;pend dans une certaine mesure de la
@@ -17,6 +17,18 @@ const fr = () => {
                     p&eacute;riodique de donn&eacute;es sur le Web, mais tous
                     deux exigent un important investissement de temps et de
                     ressources.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
                 <ExampleInAction id="smallBusiness">
                                     <h2>

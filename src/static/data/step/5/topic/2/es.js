@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+
 
 const es = () => {
     return (
@@ -366,6 +368,29 @@ const es = () => {
                     OIT y la Declaraci&oacute;n tripartita de principios sobre
                     las empresas multinacionales y la pol&iacute;tica social.
                 </p>
+                <ExampleInAction id="eicc">
+                        <h4>
+                            <ExampleInAction.Icon alt="Lightbulb"/>
+                            <strong>
+                            Ejemplo en acci&oacute;n:
+                            </strong>
+                        </h4>
+                       <p>
+                           <b>PLACEHOLDER TEXT</b>
+                       </p>
+                    </ExampleInAction>
+                    <br />
+               <ExampleInAction id="eicc">
+                   <h4>
+                       <ExampleInAction.Icon alt="Lightbulb"/>
+                       <strong>
+                       Ejemplo en acci&oacute;n:
+                       </strong>
+                   </h4>
+                  <p>
+                      <b>PLACEHOLDER TEXT</b>
+                  </p>
+               </ExampleInAction>
             </div>
         </StaticData>
     );

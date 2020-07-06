@@ -195,13 +195,7 @@ const es = () => {
                             </th>
                         </tr>
                         <tr>
-                            <td>
-                                <p>
-                                    Trabajadores sustra&iacute;dos, encerrados
-                                    durante el proceso de reclutamiento o
-                                    vendidos.
-                                </p>
-                            </td>
+                        <th scope="row">Trabajadores sustra&iacute;dos, encerrados durante el proceso de reclutamiento o vendidos.</th>
                             <td>
                                 <p>
                                     Denunciar la contravenci&oacute;n a las
@@ -217,13 +211,7 @@ const es = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p>
-                                    Trabajadores reclutados con un
-                                    pr&eacute;stamo o anticipo y que
-                                    est&eacute;n trabajando para pagarlo.
-                                </p>
-                            </td>
+                        <th scope="row">Trabajadores reclutados con un pr&eacute;stamo o anticipo y que est&eacute;n trabajando para pagarlo.</th>
                             <td>
                                 <p>
                                     Si el proveedor pag&oacute; el
@@ -245,16 +233,12 @@ const es = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p>
-                                    Reclutamiento enga&ntilde;oso: a los
-                                    trabajadores se les prometieron tipos de
-                                    trabajo, condiciones de trabajo, vivienda o
-                                    alojamiento, lugares de trabajo,
-                                    empleadores, sueldos o ganancias que no se
-                                    concretan.
-                                </p>
-                            </td>
+                        <th scope="row">Reclutamiento enga&ntilde;oso: a los
+                                        trabajadores se les prometieron tipos de
+                                        trabajo, condiciones de trabajo, vivienda o
+                                        alojamiento, lugares de trabajo,
+                                        empleadores, sueldos o ganancias que no se
+                                        concretan.</th>
                             <td>
                                 <p>
                                     Si el proveedor hizo una falsa promesa, debe
@@ -306,13 +290,7 @@ const es = () => {
                             </th>
                         </tr>
                         <tr>
-                            <td>
-                                <p>
-                                    Trabajadores que trabajan horas extras
-                                    excesivas, m&aacute;s all&aacute; de lo que
-                                    permite la ley.
-                                </p>
-                            </td>
+                        <th scope="row">Trabajadores que trabajan horas extras excesivas, m&aacute;s all&aacute; de lo que permite la ley.</th>
                             <td>
                                 <p>
                                     Cerciorarse de que el proveedor abone a los
@@ -338,12 +316,7 @@ const es = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p>
-                                    Trabajadores que se pretende trabajen
-                                    &ldquo;de guardia.&rdquo;
-                                </p>
-                            </td>
+                        <th scope="row">Trabajadores que se pretende trabajen &ldquo;de guardia.&rdquo;</th>
                             <td>
                                 <p>
                                     Trabajar con el proveedor a fin de
@@ -359,13 +332,7 @@ const es = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p>
-                                    Empleador que limita la libertad de
-                                    circulaci&oacute;n o comunicaci&oacute;n de
-                                    los trabajadores.
-                                </p>
-                            </td>
+                        <th scope="row">Empleador que limita la libertad de circulaci&oacute;n o comunicaci&oacute;n de los trabajadores.</th>
                             <td>
                                 <p>
                                     Determinar qui&eacute;nes (la gerencia, los
@@ -403,9 +370,7 @@ const es = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p>Condiciones degradantes de alojamiento.</p>
-                            </td>
+                        <th scope="row">Condiciones degradantes de alojamiento.</th>
                             <td>
                                 <p>
                                     Cerciorarse de que el proveedor comprenda
@@ -435,14 +400,7 @@ const es = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p>
-                                    Trabajadores obligados a participar de
-                                    actividades il&iacute;citas, trabajar en una
-                                    vivienda particular, para una familia o
-                                    consumir drogas adictivas.
-                                </p>
-                            </td>
+                        <th scope="row">Trabajadores obligados a participar de actividades il&iacute;citas, trabajar en una vivienda particular, para una familia o consumir drogas adictivas.</th>
                             <td>
                                 <p>
                                     Determinar qui&eacute;nes (la gerencia, los
@@ -481,12 +439,7 @@ const es = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p>
-                                    Proveedores que exageran las deudas de los
-                                    trabajadores.
-                                </p>
-                            </td>
+                        <th scope="row">Proveedores que exageran las deudas de los trabajadores.</th>
                             <td>
                                 <p>
                                     Determinar cu&aacute;l es la fuente de la
@@ -525,12 +478,7 @@ const es = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p>
-                                    Trabajadores que dependen del empleador para
-                                    la vivienda, la comida u otras necesidades.
-                                </p>
-                            </td>
+                        <th scope="row">Trabajadores que dependen del empleador para la vivienda, la comida u otras necesidades.</th>
                             <td>
                                 <p>
                                     En algunos casos, en especial en el caso de
@@ -555,12 +503,7 @@ const es = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p>
-                                    Trabajadores con una dependencia personal
-                                    del empleador.
-                                </p>
-                            </td>
+                        <th scope="row">Trabajadores con una dependencia personal del empleador.</th>
                             <td>
                                 <p>
                                     Cerciorarse de que todos los trabajadores
@@ -604,14 +547,10 @@ const es = () => {
                             </th>
                         </tr>
                         <tr>
-                            <td>
-                                <p>
-                                    Trabajadores que no creen que puedan
-                                    renunciar libremente por los beneficios que
-                                    ya recibieron o por las restricciones que
-                                    impone el empleador.
-                                </p>
-                            </td>
+                        <th scope="row">Trabajadores que no creen que puedan
+                                        renunciar libremente por los beneficios que
+                                        ya recibieron o por las restricciones que
+                                        impone el empleador.</th>
                             <td>
                                 <p>
                                     Si el supervisor u otra persona hacen creer
@@ -634,13 +573,7 @@ const es = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p>
-                                    Trabajadores que se sienten obligados a
-                                    quedarse porque le adeudan parte del
-                                    salario.
-                                </p>
-                            </td>
+                        <th scope="row">Trabajadores que se sienten obligados a quedarse porque le adeudan parte del salario.</th>
                             <td>
                                 <p>
                                     Cerciorarse de que el salario se calcule
@@ -665,14 +598,10 @@ const es = () => {
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p>
-                                    Trabajadores que trabajan por
-                                    per&iacute;odos excesivos o indefinidos para
-                                    pagar una deuda o un anticipo que
-                                    recibi&oacute; del empleador o reclutador.
-                                </p>
-                            </td>
+                        <th scope="row">Trabajadores que trabajan por
+                                        per&iacute;odos excesivos o indefinidos para
+                                        pagar una deuda o un anticipo que
+                                        recibi&oacute; del empleador o reclutador.</th>
                             <td>
                                 <p>
                                     Si el proveedor pag&oacute; el
@@ -726,15 +655,9 @@ const es = () => {
                             </th>
                         </tr>
                         <tr>
+                        <th scope="row">El proveedor o reclutador tiene en su poder los documentos de identidad o de viaje de los trabajadores.</th>
                             <td>
-                                <p>
-                                    El proveedor o reclutador tiene en su poder
-                                    los documentos de identidad o de viaje de
-                                    los trabajadores.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
+                                <p id='P1'>
                                     Los proveedores nunca deben confiscar ni
                                     tener en su poder los documentos de
                                     identidad o de viaje de los trabajadores a
@@ -756,27 +679,15 @@ const es = () => {
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">El empleador limita la comunicaci&oacute;n de los trabajadores.</th>
                             <td>
-                                <p>
-                                    El empleador limita la comunicaci&oacute;n
-                                    de los trabajadores.
-                                </p>
-                            </td>
-                            <td>
-                                <p>V&eacute;ase arriba.</p>
+                                <p><a href="#P1">V&eacute;ase arriba.</a></p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">El empleador amenaza con entregar a los trabajadores a las autoridades inmigratorias.</th>
                             <td>
-                                <p>
-                                    El empleador amenaza con entregar a los
-                                    trabajadores a las autoridades
-                                    inmigratorias.
-                                </p>
-                            </td>
-                            {/* <td rowSpan="6"> */}
-                            <td>
-                                <p>
+                                <p id="P2">
                                     En cualquier situaci&oacute;n de violencia,
                                     sanci&oacute;n, intimidaci&oacute;n o
                                     amenaza, determinar cu&aacute;les son las
@@ -810,70 +721,38 @@ const es = () => {
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">El empleador perpetra violencia f&iacute;sica o sexual o amenaza con hacerlo.</th>
                             <td>
-                                <p>
-                                    El empleador perpetra violencia
-                                    f&iacute;sica o sexual o amenaza con
-                                    hacerlo.
-                                </p>
-                            </td>
-                            <td>
-                                <p>V&eacute;ase arriba.</p>
+                                <p><a href="#P2">V&eacute;ase arriba.</a></p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">El empleador o reclutador amenaza con
+                                        retirar privilegios como posibles ascensos,
+                                        amenaza con deteriorar a&uacute;n m&aacute;s
+                                        las condiciones laborales o amenaza con
+                                        despedir a los trabajadores.</th>
                             <td>
-                                <p>
-                                    El empleador o reclutador amenaza con
-                                    retirar privilegios como posibles ascensos,
-                                    amenaza con deteriorar a&uacute;n m&aacute;s
-                                    las condiciones laborales o amenaza con
-                                    despedir a los trabajadores.
-                                </p>
-                            </td>
-                            <td>
-                                <p>V&eacute;ase arriba.</p>
+                                <p><a href="#P2">V&eacute;ase arriba.</a></p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">El empleador o reclutador se aprovecha de creencias religiosas o culturales de los trabajadores.</th>
                             <td>
-                                <p>
-                                    El empleador o reclutador se aprovecha de
-                                    creencias religiosas o culturales de los
-                                    trabajadores.
-                                </p>
-                            </td>
-                            <td>
-                                <p>V&eacute;ase arriba.</p>
+                                <p><a href="#P2">V&eacute;ase arriba.</a></p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">El empleador o reclutador retiene la remuneraci&oacute;n o las pertenencias de los trabajadores o amenaza con sanciones econ&oacute;micas.</th>
                             <td>
-                                <p>
-                                    El empleador o reclutador retiene la
-                                    remuneraci&oacute;n o las pertenencias de
-                                    los trabajadores o amenaza con sanciones
-                                    econ&oacute;micas.
-                                </p>
-                            </td>
-                            <td>
-                                <p>V&eacute;ase arriba.</p>
+                                <p><a href="#P2">V&eacute;ase arriba.</a></p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">El empleador amenaza con imponer trabajo adicional a los trabajadores que no colaboren.<br />
+                        El empleador recurre al soborno para obligar a los trabajadores.</th>
                             <td>
-                                <p>
-                                    El empleador amenaza con imponer trabajo
-                                    adicional a los trabajadores que no
-                                    colaboren.
-                                </p>
-                                <p>
-                                    El empleador recurre al soborno para obligar
-                                    a los trabajadores.
-                                </p>
-                            </td>
-                            <td>
-                                <p>V&eacute;ase arriba.</p>
+                                <p><a href="#P2">V&eacute;ase arriba.</a></p>
                             </td>
                         </tr>
                     </tbody>
@@ -881,6 +760,7 @@ const es = () => {
                 </Accordion.Panel>
                         </Accordion.Section>
                 </Accordion>
+                <br />
                 <ExampleInAction id="better_work">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>

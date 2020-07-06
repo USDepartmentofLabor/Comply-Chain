@@ -36,61 +36,6 @@ const es = () => {
                     por el empleador; los trabajadores nunca deben incurrir en
                     gasto alguno para acceder a un empleo.
                 </p>
-                <OwnWords>
-                    <h3>
-                        <OwnWords.Icon alt="Feedback"/>{" "}
-                        <strong>En sus propias palabras</strong>
-                        {": "}
-                    </h3>
-                    <p>
-                        <strong>Transici&oacute;n al empleo directo</strong>
-                    </p>
-                    <p>
-                        &ldquo;Con base en investigaciones y resultados de
-                        auditor&iacute;as independientes, se determin&oacute;
-                        que los trabajadores extranjeros migrantes que trabajan
-                        en relaci&oacute;n de empleo tercerizado tienden a ser
-                        m&aacute;s vulnerables a la explotaci&oacute;n que los
-                        que trabajan directamente para los proveedores. Si bien
-                        muchos proveedores vigilan de cerca a los agentes de
-                        reclutamiento que emplean y administran a los
-                        trabajadores, resulta muy dif&iacute;cil detectar
-                        infracciones y rectificarlas. A menos que se introduzcan
-                        reformas estructurales considerables en los sistemas con
-                        empleo por agentes de reclutamiento en los pa&iacute;ses
-                        de origen y destino, el empleo directo es la mejor
-                        manera de conferir una mayor protecci&oacute;n a los
-                        trabajadores migrantes extranjeros.
-                    </p>
-                    <p>
-                        Esto significa que con respecto a los proveedores de HP,
-                        todos los trabajadores migrantes extranjeros deben ser
-                        empleados y remunerados directamente por el proveedor,
-                        no por agentes, subagentes ni terceros. Reconociendo que
-                        muchos proveedores dependen de agentes de reclutamiento,
-                        al menos en parte, para la administraci&oacute;n
-                        <i> in situ</i> de los trabajadores migrantes
-                        extranjeros, deber&aacute; haber un per&iacute;odo de
-                        transici&oacute;n que permita trasladar a los
-                        trabajadores migrantes extranjeros actuales y nuevos a
-                        la modalidad de empleo directo.&rdquo;
-                    </p>
-                    <p>
-                        Hewlett Packard Enterprise*,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www8.hp.com/h20195/v2/GetPDF.aspx/c05116077.pdf"
-                            title="<i>Hewlett Packard Company Supply Chain Foreign Migrant Worker Standard Guidance Document</i>"
-                        >
-                            <em>
-                                Hewlett Packard Company Supply Chain Foreign
-                                Migrant Worker Standard Guidance Document
-                            </em>
-                        </a>
-                        , 27 de abril de 2016
-                    </p>
-                </OwnWords>
                 <p>
                     Si se sabe o sospecha que hay trabajadores migrantes en la
                     cadena de suministro, es importante incluir normas y

@@ -1458,7 +1458,7 @@ const es = () => {
                         criterios de autenticaci&oacute;n de empresas para
                         combatir la trata de seres humanos
                     </a>{" "}
-                    de <span lang="fr">Verit&eacute;</span>. Este instrumento
+                    <span lang="fr">de Verit&eacute;</span>. Este instrumento
                     brinda a los evaluadores criterios para autenticar el
                     cumplimiento en toda la empresa de las iniciativas para
                     combatir la trata de seres humanos, incluidos los

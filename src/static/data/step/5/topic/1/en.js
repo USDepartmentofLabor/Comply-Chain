@@ -86,18 +86,10 @@ const en = () => {
                                             Example in Action:
                                         </strong>
                                     </h4>
-                                   
-                                    
-                                    <ol>
-                                        <li>
-                                            <h4>some text</h4>
                                             <p>
-                                                Some text. Placeholder
+                                                <b>PLACEHOLDER TEXT</b>
                                             </p>
-                                        </li>
-                                        
-                                    </ol>
-                                </ExampleInAction>
+                      </ExampleInAction>
                 <Accordion id="resources" >
                     <Accordion.Section>
                         <Accordion.Title>Further Resources</Accordion.Title>
