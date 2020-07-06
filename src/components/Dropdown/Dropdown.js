@@ -49,9 +49,9 @@ class Dropdown extends Component {
                   return this.setState({ active: false });
     }
 
-    if ((this.state.active)&&((e.target.ariaLabel==="Share")||(e.target.ariaLabel==="Pocket")||(e.target.ariaLabel==="Email"))) {
+    if ((this.state.active)&&((e.target.ariaLabel==="Share")||(e.target.ariaLabel==="Pocket")||(e.target.ariaLabel==="Copy"))) {
                 return;
-     } else if ((this.state.active)&&(e.target.ariaLabel==="Copy")) {
+     } else if ((this.state.active)&&(e.target.ariaLabel==="Email")) {
                   this.setState({ active: false });
      }
 

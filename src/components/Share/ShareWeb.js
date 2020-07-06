@@ -20,46 +20,50 @@ class ShareWeb extends Component {
         );
     };
 
+    handleCopy = () => {
+        copy(window.location.href);
+    };
 
 
-//const Wrapper = styled.div`
-//    float: left;
-//    overflow: hidden;
-//`;
-
-    handleKeyDown = (e) => {
-        if (window.PointerEvent) {
-            console.log('POINTER DEVICE EVENT');
+    componentWillMount() {
+        document.addEventListener("keydown", this.handleKeyPress, false);
         }
-        if (e.keyCode === 13) {
-                    console.log('ENTER KEY PRESSED');
-                }
 
-        };
+     componentWillUnmount() {
+         document.removeEventListener("keydown", this.handleKeyPress, false);
+         }
 
+     handleKeyPress = e => {
+          if ((e.keyCode === 13)&&(e.target.ariaLabel==="Copy")) {
+                      this.handleCopy();
+           }
+         if ((e.keyCode === 13)&&(e.target.ariaLabel==="Email")) {
+                     this.handleEmail();
+          } else {
+                    return;
+          }
+     };
 
-
-    myDiv = React.createRef();
     render() {
         const { id, className, children, localizor } = this.props;
         return (
            <div tabIndex="0" aria-label="Share">
-            <Dropdown up id={id} className={className} onKeyDown={this.handleTapOrClick}>
+            <Dropdown up id={id} className={className}>
             <Dropdown.Title >{children}</Dropdown.Title>
                 <Dropdown.Content>
                 <Dropdown.Item>
                         <button aria-label="Pocket"><PocketButton lang="en" count="horizontal" /></button>
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={this.handleEmail}>
-                       <button aria-label="Email">
-                       Email
-                       </button>
-                    </Dropdown.Item>
-                    <Dropdown.Item onClick={this.handleCopy}>
+                    <Dropdown.Item onClick={this.handleCopy} onKeyDown={this.handleCopy}>
                        <button aria-label="Copy">
                        {localizor.strings.general.copyLink}
                        </button>
                     </Dropdown.Item>
+                    <Dropdown.Item onClick={this.handleEmail} onKeyDown={this.handleEmail} >
+                                           <button aria-label="Email">
+                                           Email
+                                           </button>
+                                        </Dropdown.Item>
                 </Dropdown.Content>
             </Dropdown>
           </div>
@@ -72,7 +76,7 @@ ShareWeb.propTypes = {
     match: PropTypes.object.isRequired,
     location: PropTypes.object.isRequired,
     history: PropTypes.object.isRequired,
-    children: PropTypes.node.isRequired,
+    children: PropTypes.node
 
 };
 export default withLanguageContext(withRouter(ShareWeb));
