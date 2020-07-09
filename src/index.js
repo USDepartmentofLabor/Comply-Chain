@@ -2,6 +2,7 @@ import 'react-app-polyfill/ie11';
 import 'core-js/features/array/includes';
 import 'core-js/features/array/find-index';
 import 'core-js/features/string/includes';
+import 'core-js/es/object';
 import smoothscroll from "smoothscroll-polyfill";
 import React from "react";
 import ReactDOM from "react-dom";
