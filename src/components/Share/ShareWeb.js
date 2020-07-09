@@ -24,7 +24,9 @@ class ShareWeb extends Component {
         copy(window.location.href);
     };
 
-
+    handlePocketButton = () => {
+        this.setState({ isClicked: true });
+      };
     componentWillMount() {
         document.addEventListener("keydown", this.handleKeyPress, false);
         }
@@ -34,6 +36,9 @@ class ShareWeb extends Component {
          }
 
      handleKeyPress = e => {
+           if ((e.keyCode === 13)&&(e.target.ariaLabel==="Pocket")) {
+                   window.open("https://widgets.getpocket.com/v1/popup?url=http%3A%2F%2Flocalhost%3A3000%2F");
+            }
           if ((e.keyCode === 13)&&(e.target.ariaLabel==="Copy")) {
                       this.handleCopy();
            }
@@ -52,18 +57,18 @@ class ShareWeb extends Component {
             <Dropdown.Title >{children}</Dropdown.Title>
                 <Dropdown.Content>
                 <Dropdown.Item>
-                        <button aria-label="Pocket"><PocketButton lang="en" count="horizontal" /></button>
+                     <button type="button" aria-label="Pocket"><PocketButton lang="en" count="horizontal" /></button>
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={this.handleCopy} onKeyDown={this.handleCopy}>
+                    <Dropdown.Item onClick={this.handleCopy}>
                        <button aria-label="Copy">
                        {localizor.strings.general.copyLink}
                        </button>
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={this.handleEmail} onKeyDown={this.handleEmail} >
-                                           <button aria-label="Email">
-                                           Email
-                                           </button>
-                                        </Dropdown.Item>
+                    <Dropdown.Item onClick={this.handleEmail}>
+                   <button aria-label="Email">
+                   Email
+                   </button>
+                </Dropdown.Item>
                 </Dropdown.Content>
             </Dropdown>
           </div>
