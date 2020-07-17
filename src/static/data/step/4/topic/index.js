@@ -118,7 +118,7 @@ export const Topics = {
          },
          {
              keywords: [],
-             title: "Tratamiento de las causas fundamentales del trabajo infantil y el trabajo forzoso",
+             title: "Tratamiento de las causas fundamentales",
              content: Topic12.es
          },
          {
@@ -184,7 +184,7 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Éliminer les causes profondes du travail des enfants et du travail forcé",
+            title: "Éliminer les causes profondes",
 
             content: Topic12.fr
         },

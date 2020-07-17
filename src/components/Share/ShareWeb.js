@@ -24,7 +24,9 @@ class ShareWeb extends Component {
         copy(window.location.href);
     };
 
-
+    handlePocketButton = () => {
+        this.setState({ isClicked: true });
+      };
     componentWillMount() {
         document.addEventListener("keydown", this.handleKeyPress, false);
         }
@@ -34,36 +36,39 @@ class ShareWeb extends Component {
          }
 
      handleKeyPress = e => {
-          if ((e.keyCode === 13)&&(e.target.ariaLabel==="Copy")) {
+           if ((e.key ==="Enter")&&((e.target.ariaLabel==="Pocket")||(e.target.attributes[0].value==="button"))) {
+                  window.open("https://widgets.getpocket.com/v1/popup?url=http%3A%2F%2Flocalhost%3A3000%2F", "null");
+            }
+          else if ((e.keyCode === 13)&&((e.target.ariaLabel==="Copy")||(e.target.attributes[0].value==="Copy"))) {
                       this.handleCopy();
            }
-         if ((e.keyCode === 13)&&(e.target.ariaLabel==="Email")) {
+         else if ((e.keyCode === 13)&&((e.target.ariaLabel==="Email")||(e.target.attributes[0].value==="Email"))) {
                      this.handleEmail();
           } else {
-                    return;
+              return;
           }
      };
 
     render() {
         const { id, className, children, localizor } = this.props;
         return (
-           <div tabIndex="0" aria-label="Share">
+           <div tabIndex="0" role="document" aria-label="Share">
             <Dropdown up id={id} className={className}>
             <Dropdown.Title >{children}</Dropdown.Title>
                 <Dropdown.Content>
                 <Dropdown.Item>
-                        <button aria-label="Pocket"><PocketButton lang="en" count="horizontal" /></button>
+                     <button type="button" aria-label="Pocket"><PocketButton lang="en" count="horizontal" /></button>
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={this.handleCopy} onKeyDown={this.handleCopy}>
+                    <Dropdown.Item onClick={this.handleCopy}>
                        <button aria-label="Copy">
                        {localizor.strings.general.copyLink}
                        </button>
                     </Dropdown.Item>
-                    <Dropdown.Item onClick={this.handleEmail} onKeyDown={this.handleEmail} >
-                                           <button aria-label="Email">
-                                           Email
-                                           </button>
-                                        </Dropdown.Item>
+                    <Dropdown.Item onClick={this.handleEmail}>
+                   <button aria-label="Email">
+                   Email
+                   </button>
+                </Dropdown.Item>
                 </Dropdown.Content>
             </Dropdown>
           </div>

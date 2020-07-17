@@ -12,6 +12,7 @@ export const SVG = ({ width, height, viewBox, className, children, alt }) => (
         strokeWidth="0"
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
+        focusable="false"
     >
         {children}
     </svg>
