@@ -15,6 +15,9 @@ class SideNav extends Component {
     }
 
     handleKeyPress = event => {
+        if (event.target.id === 'what-are-link') {
+            event.target.nextSibling.ariaRoleDescription='Dropdown menu, click to Expand and View content'
+         }
         const { visible } = this.state;
         if (visible) {
         if (event.target.id === 'ms-btn') {
