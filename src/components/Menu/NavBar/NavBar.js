@@ -105,6 +105,19 @@ class NavBar extends Component {
         }
     }
 
+    componentWillMount() {
+                document.addEventListener("keydown", this.handleKeyPress, false);
+        }
+
+    handleKeyPress = e => {
+       const { stepAccordionActive } = this.state;
+       if (!stepAccordionActive && e.target.id === 'what-are-link') {
+         e.target.nextSibling.ariaRoleDescription='Dropdown menu, Collapsed, press Enter to Expand and View content';
+       } else if (stepAccordionActive && e.target.id === 'steps-dropdown') {
+         e.target.ariaRoleDescription='Expanded Dropdown menu, Scroll down to View Content';
+       }
+    };
+
     onBackButtonPressed = e => {
         e.preventDefault();
         const { visible } = this.state;
@@ -145,7 +158,7 @@ class NavBar extends Component {
     };
     render() {
         const { visible, stepAccordionActive } = this.state;
-        const { leftItems, rightItems, id, localizor, backUrl } = this.props;
+        const { leftItems, rightItems, id, localizor } = this.props;
         return (
             <div id={id}>
                 <NavbarRoot>
@@ -153,7 +166,7 @@ class NavBar extends Component {
                         <span id="navbar-left-items">
                             <NavItem
                                 as={Breadcrumbs}
-                                backUrl={backUrl}
+                                backUrl={undefined ? "Back" : "Button"}
                                 id="breadcrumbs"
                             />
                         </span>
