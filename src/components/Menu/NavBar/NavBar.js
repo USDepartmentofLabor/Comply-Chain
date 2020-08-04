@@ -112,9 +112,9 @@ class NavBar extends Component {
     handleKeyPress = e => {
        const { stepAccordionActive } = this.state;
        if (!stepAccordionActive && e.target.id === 'what-are-link') {
-         e.target.nextSibling.ariaRoleDescription='Dropdown menu, Collapsed, press Enter to Expand and View content';
+         e.target.nextSibling.ariaRoleDescription='Collapsed Menu click enter to Expand';
        } else if (stepAccordionActive && e.target.id === 'steps-dropdown') {
-         e.target.ariaRoleDescription='Expanded Dropdown menu, Scroll down to View Content';
+         e.target.ariaRoleDescription='Expanded Drop down Menu click Enter to Collapse';
        }
     };
 
