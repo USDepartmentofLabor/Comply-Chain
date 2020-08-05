@@ -158,7 +158,7 @@ class NavBar extends Component {
     };
     render() {
         const { visible, stepAccordionActive } = this.state;
-        const { leftItems, rightItems, id, localizor } = this.props;
+        const { leftItems, rightItems, id, localizor, backUrl } = this.props;
         return (
             <div id={id}>
                 <NavbarRoot>
@@ -166,7 +166,7 @@ class NavBar extends Component {
                         <span id="navbar-left-items">
                             <NavItem
                                 as={Breadcrumbs}
-                                backUrl={undefined ? "Back" : "Button"}
+                                backUrl={backUrl}
                                 id="breadcrumbs"
                             />
                         </span>
