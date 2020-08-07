@@ -117,6 +117,8 @@ class NavBar extends Component {
           e.target.ariaRoleDescription='Drop down Menu Expanded';
         } else if (stepAccordionActive && e.target.id === 'steps-dropdown') {
          e.target.ariaRoleDescription='Expanded Drop down Menu click Enter to Collapse';
+       } else if (stepAccordionActive && e.target.id === 'steps-dropdown' && e.key==="Enter") {
+                   e.target.ariaRoleDescription='Drop down Menu Collapsed';
        }
     };
 
