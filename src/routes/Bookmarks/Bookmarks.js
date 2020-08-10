@@ -366,8 +366,8 @@ class Bookmarks extends Component {
             bookmark.url
         );
 
-          const bookmarkRemoved = tags.getFirstOnPageBookmarkFromBookmarks();
-          document.getElementById(bookmarkRemoved.name).focus();
+          const firstBookmark = tags.getFirstOnPageBookmarkFromBookmarks();
+          document.getElementById(firstBookmark.name).focus();
           toast.dismiss(this.toastId);
     };
 
@@ -422,16 +422,6 @@ class EnhancedBookmarks {
         }
         return null;
     };
-
-    getDeletedBookmark = () => {
-           const bookmark = this.bookmarks.filter(bookmark => bookmark.lastRemoved === true);
-            if (bookmark.length > 0) {
-             return bookmark;
-            } else {
-            return null;}
-        };
-
-
 
     getBookmarkObjectByName = (arrayName, name) => {
         if (arrayName === 'bookmarks') {
