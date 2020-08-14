@@ -18,5 +18,9 @@ export const breadcrumbs = [
                   />
               )
             : undefined
-    }
+    },
+    {
+            path: Routes.Topic.path,
+            breadcrumb: () => <LocalizedBreadcrumb string={"Back"} />
+        }
 ];

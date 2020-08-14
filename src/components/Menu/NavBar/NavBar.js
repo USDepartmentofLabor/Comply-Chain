@@ -105,6 +105,23 @@ class NavBar extends Component {
         }
     }
 
+    componentWillMount() {
+                document.addEventListener("keydown", this.handleKeyPress, false);
+        }
+
+    handleKeyPress = e => {
+       const { stepAccordionActive } = this.state;
+       if (!stepAccordionActive && e.target.id === 'what-are-link') {
+         e.target.nextSibling.ariaRoleDescription='Collapsed Menu click enter to Expand';
+       } else if (!stepAccordionActive && e.target.id === 'steps-dropdown' && e.key==="Enter") {
+          e.target.ariaRoleDescription='Drop down Menu Expanded';
+        } else if (stepAccordionActive && e.target.id === 'steps-dropdown') {
+         e.target.ariaRoleDescription='Expanded Drop down Menu click Enter to Collapse';
+       } else if (stepAccordionActive && e.target.id === 'steps-dropdown' && e.key==="Enter") {
+                   e.target.ariaRoleDescription='Drop down Menu Collapsed';
+       }
+    };
+
     onBackButtonPressed = e => {
         e.preventDefault();
         const { visible } = this.state;

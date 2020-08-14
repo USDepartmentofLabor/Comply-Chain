@@ -141,7 +141,10 @@ class AppWrapper extends Component {
 
     handleKeyPress = event => {
             if (event.target.id === "bottom-drawer-indenturedProductList-link") {
-                this.toggleBottomDrawer();
+                this.setState({ bottomDrawerActive: true });
+            }
+            if (event.target.id === "bottom-drawer-indenturedProductList-link" && event.key==="Enter") {
+                 this.setState({ bottomDrawerActive: false });
             }
         };
 

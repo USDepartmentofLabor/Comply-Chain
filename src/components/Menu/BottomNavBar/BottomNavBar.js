@@ -11,11 +11,11 @@ class BottomNavBar extends Component {
     }
 
 
-    handleKeyPress = event => {
-        if (event.target.id === "bottom-drawer-indenturedProductList-link") {
-            this.bottomDrawerGoodLink.onClick();
-        }
-    };
+//    handleKeyPress = event => {
+//        if (event.target.id === "bottom-drawer-indenturedProductList-link") {
+//            this.bottomDrawerGoodLink.onClick();
+//        }
+//    };
 
     componentWillMount(prevProps) {
         document.addEventListener("keydown", this.handleKeyPress, false);

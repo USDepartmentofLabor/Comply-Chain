@@ -345,6 +345,12 @@ class Bookmarks extends Component {
 
     unmarkForRemoval = bookmark => {
         const { tags } = this.state;
+        let lastRemoved = null;
+        const tempBM = tags.toggleLastRemovedBookmark(bookmark.name);
+        console.log('TMP', tempBM)
+        if (tempBM) {
+            lastRemoved = Object.assign({}, tempBM);
+        }
         // Toggle the lastRemoved.
         tags.toggleLastRemovedBookmark(bookmark.name);
         // Remove the bookmark for removal (unmark).
@@ -359,7 +365,10 @@ class Bookmarks extends Component {
             bookmark.header,
             bookmark.url
         );
-        toast.dismiss(this.toastId);
+
+          const firstBookmark = tags.getFirstOnPageBookmarkFromBookmarks();
+          document.getElementById(firstBookmark.name).focus();
+          toast.dismiss(this.toastId);
     };
 
     render() {

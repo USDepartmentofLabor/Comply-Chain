@@ -190,7 +190,9 @@ Accordion.Title = styled.button`
         background-color: #ccc;
     }
     &:focus{
-        outline: auto 5px -webkit-focus-ring-color
+        outline: auto 5 px -webkit-focus-ring-color;
+        outline: auto 2px Highlight;
+        box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
     }
     &:after {
         position: absolute;
