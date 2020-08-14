@@ -334,7 +334,7 @@ const es = () => {
                             <Accordion id="financial-literacy-acc">
                                                  <Accordion.Section id="financial-literacy-description">
                                                  <Accordion.Title>
-                                                 Nature and prevalence
+                                                 Cambio de procesos comerciales
                                              </Accordion.Title>
                                              <Accordion.Panel>
 
