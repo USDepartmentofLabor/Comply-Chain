@@ -115,6 +115,9 @@ class Bookmarkable extends Component {
         this.state = { bookmarked };
         this.toastId = "bookmarkableToast";
     }
+     componentWillMount() {
+            document.addEventListener("keydown", this.handleKeyPress, false);
+     }
     componentDidUpdate(prevProps) {
         if (prevProps.titleString !== this.props.titleString) {
             const bookmarked = storage.bookmarks.retrieveBookmark(
@@ -125,7 +128,6 @@ class Bookmarkable extends Component {
             this.setState({ bookmarked });
         }
     }
-
     displayToast = () => {
         const { titleString, localizor } = this.props;
         clearTimeout(this.toastTimer);
@@ -177,12 +179,13 @@ class Bookmarkable extends Component {
             getPropByString(localizor.strings, titleString) +
             " - Comply Chain - " +
             localizor.strings.general.dol;
+         const partialTitle = getPropByString(localizor.strings, titleString);
         return (
             <Wrapper>
                 <Title title={title} />
                 <BookmarkButton
                     title={
-                        bookmarked ? `Unbookmark ${title}` : `Bookmark ${title}`
+                        bookmarked ? `${partialTitle} is Bookmarked To undo Press Enter ` : `Bookmark ${title}`
                     }
                     onClick={() => {
                         if (!bookmarked) {
