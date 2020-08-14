@@ -179,13 +179,12 @@ class Bookmarkable extends Component {
             getPropByString(localizor.strings, titleString) +
             " - Comply Chain - " +
             localizor.strings.general.dol;
-         const partialTitle = getPropByString(localizor.strings, titleString);
         return (
             <Wrapper>
                 <Title title={title} />
                 <BookmarkButton
                     title={
-                        bookmarked ? `${partialTitle} is Bookmarked To undo Press Enter ` : `Bookmark ${title}`
+                        bookmarked ? `${title} is Bookmarked To undo Bookmark Press Enter ` : `Bookmark ${title}`
                     }
                     onClick={() => {
                         if (!bookmarked) {
