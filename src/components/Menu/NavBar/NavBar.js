@@ -125,12 +125,13 @@ class NavBar extends Component {
          e.target.ariaRoleDescription='Drop down Menu Closed';
        }
 
-       if (!visible) {
-//        const elem = document.getElementById('what-are-link');
-//        console.log ('NOW NOT VISIBLE');
-//        console.log('Target ID ==', document.activeElement.href);
-//        document.getElementById(elem).blur();
-//        //console.log('Target ID ==', document.activeElement.);
+       if (!visible && e.target.id === 'menu-btn') {
+        document.getElementById('what-are-link').tabIndex="1";
+        document.getElementById('steps-dropdown').tabIndex="1";
+        document.getElementById('en-btn').tabIndex="1";
+        document.getElementById('es-btn').tabIndex="1";
+        document.getElementById('fr-btn').tabIndex="1";
+        document.getElementById('ms-btn').tabIndex="1";
         }
     };
 
