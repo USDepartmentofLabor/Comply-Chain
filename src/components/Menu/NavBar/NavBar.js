@@ -110,17 +110,30 @@ class NavBar extends Component {
         }
 
     handleKeyPress = e => {
-       const { stepAccordionActive } = this.state;
+       const { visible, stepAccordionActive } = this.state;
        if (!stepAccordionActive && e.target.id === 'what-are-link') {
-         e.target.nextSibling.ariaRoleDescription='Collapsed Menu click enter to Expand';
+         e.target.nextSibling.ariaLive='polite';
+         e.target.nextSibling.ariaRoleDescription='Closed Drop down Menu click enter to Open';
        } else if (!stepAccordionActive && e.target.id === 'steps-dropdown' && e.key==="Enter") {
-          e.target.ariaRoleDescription='Drop down Menu Expanded';
+          e.target.ariaLive='polite';
+          e.target.ariaRoleDescription='Drop down Menu Opened';
         } else if (stepAccordionActive && e.target.id === 'steps-dropdown') {
-         e.target.ariaRoleDescription='Expanded Drop down Menu click Enter to Collapse';
+         e.target.ariaLive='polite';
+         e.target.ariaRoleDescription='Opened Drop down Menu click Enter to Close';
        } else if (stepAccordionActive && e.target.id === 'steps-dropdown' && e.key==="Enter") {
-                   e.target.ariaRoleDescription='Drop down Menu Collapsed';
+         e.target.ariaLive='polite';
+         e.target.ariaRoleDescription='Drop down Menu Closed';
        }
+
+       if (!visible) {
+//        const elem = document.getElementById('what-are-link');
+//        console.log ('NOW NOT VISIBLE');
+//        console.log('Target ID ==', document.activeElement.href);
+//        document.getElementById(elem).blur();
+//        //console.log('Target ID ==', document.activeElement.);
+        }
     };
+
 
     onBackButtonPressed = e => {
         e.preventDefault();
@@ -180,13 +193,14 @@ class NavBar extends Component {
                                 as={MenuButton}
                                 right
                                 onClick={this.toggleSideNav}
+                                onKeyDown={this.handleKeyPress}
                                 ref={node => (this.closeBtn = node)}
                             >
                                 {!visible && localizor.strings.general.menu}
                                 {visible && localizor.strings.general.close}
                             </NavItem>
                             {rightItems.map((item, i) => (
-                                <NavItem
+                                <NavItem aria-live="polite"
                                     {...item.props}
                                     right
                                     key={"mobile_right_" + i}
