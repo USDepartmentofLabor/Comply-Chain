@@ -119,6 +119,7 @@ class StepProgressBar extends Component {
 												aria-label={`${
 													localizor.strings.general.step
 												} ${i + 1}`}
+												aria-hidden={true}
 											>
 												{i + 1}
 											</StepNumber>
