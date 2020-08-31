@@ -112,16 +112,16 @@ class NavBar extends Component {
     handleKeyPress = e => {
        const { visible, stepAccordionActive } = this.state;
        if (!stepAccordionActive && e.target.id === 'what-are-link') {
-         e.target.nextSibling.ariaLive='polite';
+         e.target.nextSibling.ariaLive='assertive';
          e.target.nextSibling.ariaRoleDescription='Closed Drop down Menu click enter to Open';
        } else if (!stepAccordionActive && e.target.id === 'steps-dropdown' && e.key==="Enter") {
-          e.target.ariaLive='polite';
+          e.target.ariaLive='assertive';
           e.target.ariaRoleDescription='Drop down Menu Opened';
         } else if (stepAccordionActive && e.target.id === 'steps-dropdown') {
-         e.target.ariaLive='polite';
+         e.target.ariaLive='assertive';
          e.target.ariaRoleDescription='Opened Drop down Menu click Enter to Close';
        } else if (stepAccordionActive && e.target.id === 'steps-dropdown' && e.key==="Enter") {
-         e.target.ariaLive='polite';
+         e.target.ariaLive='assertive';
          e.target.ariaRoleDescription='Drop down Menu Closed';
        }
 

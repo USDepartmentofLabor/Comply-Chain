@@ -139,6 +139,7 @@ class Bookmarkable extends Component {
                         undo={this.handleBookmark}
                         localizor={localizor}
                         name={titleString}
+                        aria-hidden={true}
                     />
                 )
             });
@@ -176,13 +177,10 @@ class Bookmarkable extends Component {
         const { localizor, titleString, children } = this.props;
         const { bookmarked } = this.state;
         const title =
-            getPropByString(localizor.strings, titleString) +
-            " - Comply Chain - " +
-            localizor.strings.general.dol;
+            getPropByString(localizor.strings, titleString);
         return (
             <Wrapper>
-                <Title title={title} />
-                <BookmarkButton
+                <BookmarkButton aria-live="assertive"
                     title={
                         bookmarked ? `${title} is Bookmarked To undo Bookmark Press Enter ` : `Bookmark ${title}`
                     }
@@ -201,7 +199,6 @@ class Bookmarkable extends Component {
                                 ? theme.colors.primary
                                 : theme.colors.base
                         }
-                        alt="Bookmark button"
                     />
                 </BookmarkButton>
                 {children}
