@@ -10,10 +10,18 @@ const en = () => {
             <div>
                 <h1>Supply Chain Mapping</h1>
                 <p>
-                    Companies know who their direct suppliers are and where they
-                    are located. The more comprehensively a company can map its supply chains.
-                    It is therefore important to communicate with the company’s sourcing and/or
-                    supply chain management teams to obtain data about their own supply chains.
+                    Companies know who their direct suppliers are and where they are located.
+                    However, in many cases, companies source from vendors or agents who do not
+                    disclose the factories or other production facilities from which they in turn source.
+                    Oftentimes companies may be aware of the first-tier factories and production facilities
+                    in their supply chains, but know little or nothing about the practices of second, third
+                    and other tiers of suppliers down the line.  Companies should know as much as possible
+                    about who supplies to them—at all levels of the supply chain, including upstream producers
+                    of raw materials.  The more comprehensively a company can map its supply chains, the more
+                    accurately it can identify those places along the chain with the greatest risks of labor abuses.
+                    It is therefore important to communicate with the company’s sourcing and/or supply chain management
+                    teams to obtain data about their own supply chains, and if more information is needed, to work closely
+                    with them to supplement that data.
                 </p>
                 <p>
                     If a company does not have access to information
@@ -34,14 +42,13 @@ const en = () => {
                     greater risk for labor abuses.&nbsp;
                 </p>
                 <p>
-                    Goods produced using agricultural or mineral commodities can
-                    be particularly difficult to trace, since the raw materials
-                    are harvested or mined in widely dispersed geographic areas
-                    and aggregated or co-mingled early in the supply chain. Some
-                    companies and industry coalitions have attempted
-                    &ldquo;traceability&rdquo; programs to track certain
-                    commodities from a finished product back through the supply
-                    chain to their point of origin.
+                    Goods produced using agricultural or mineral commodities can be particularly
+                    difficult to trace, since the raw materials are harvested or mined in widely
+                    dispersed geographic areas and aggregated or co-mingled early in the supply chain.
+                    Some companies and industry coalitions have attempted
+                    &ldquo;traceability&rdquo; programs to
+                    track certain commodities from a finished product
+                    back through the supply chain to their point of origin.
                 </p>
                 <p>
                     To be clear, mapping supply chains does not necessarily
@@ -68,6 +75,9 @@ const en = () => {
                     other relevant considerations, and prioritize those for
                     human rights due diligence.&rdquo; This prioritization
                     process is addressed below.
+                    </p>
+                    <p>
+                    The following are three examples of supply chain maps:
                 </p>
                 <br />
                        <Accordion id="cocoa-chains-acc">
@@ -98,7 +108,9 @@ const en = () => {
                                 collectors/transporters; processors; exporters;
                                 the global market; manufacturers (which may also
                                 manufacture other beans); customers; and
-                                consumers. The graphic also lists examples of
+                                customers, which include retail outlets, restaurants,
+                                and small businesses purchasing products to sell;
+                                and final consumers. The graphic also lists examples of
                                 entities and activities that fall into those
                                 supply chain categories in two countries:
                                 C&ocirc;te d&rsquo;Ivoire and Ghana. In
@@ -122,13 +134,15 @@ const en = () => {
                                 Processors and exporters in Ghana include
                                 COCOBOD and international companies. This
                                 includes those that produce semi-finished goods.
-                                The graphic lists similar final steps in the
-                                process for both countries. Beans and small
-                                family farm products are moved into the global
-                                market. Manufacturers further manufacture the
-                                products. Retail outlets, restaurants and small
-                                businesses serve as customers. And consumers are
-                                the final customer.&nbsp;
+                                The graphic lists similar final steps in the process
+                                for both countries.  Beans and small family farm products
+                                are moved into the global market to manufacturers, which take
+                                the raw good and transform it into an end product for consumers
+                                (e.g. cocoa beans into chocolate bars).  Retail outlets, restaurants
+                                and small businesses serve as initial point of sale and point of
+                                service customers.  And secondary consumers are the final customer,
+                                for example an individual purchasing a chocolate bar from a grocery
+                                store (point of sale) or a piece of chocolate cake from a restaurant (point of service).
 
 
                                             </div>
@@ -143,7 +157,14 @@ const en = () => {
                         <Accordion.Panel>
 
                         <p className="small-text">
-                        PLACEHOLDER FOR CONTENT.
+                        The graphics above illustrates the general steps in the supply chain for the electronics industry,
+                        which sources many rare earth metals from the Central African nation of the Democratic Republic of
+                        the Congo (DRC).  Although design and development on consumer electronics takes place often near the
+                        locations of end users, such as in the United States, the sourcing of materials often begins halfway
+                        around the world in Central Africa.  These mined materials are then delivered overland to ports on the coast of
+                         East Africa.  Traveling by boat, the materials are delivered to smelters in East and Southeast Asia, where the
+                         smelters refine the materials and convert the materials into usable components for the manufactures
+                         that are based both in the region and also in Europe and North America.
 
                           </p>
                         </Accordion.Panel>

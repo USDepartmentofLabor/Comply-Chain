@@ -9,18 +9,18 @@ export const StepData = {
         learningObjectives: [
             "Understand the importance of getting external entities involved in your social compliance system.",
             "Become familiar with the various forms that engagement can take, including specific examples of partnerships and other collaboration.",
-            "Identify and engage with your stakeholders."
+            "Identify and engage with your stakeholders, including identification of community impacts and social vulnerabilities."
         ],
         keyTerms: [
             {
                 termName: "Stakeholder",
                 termDefinition:
-                    "A person or group directly or indirectly affected by, or otherwise having an interest in, your company’s policies and/or actions.  The term stakeholder is widely used in government, business, and civil society organizations, not solely in relation to social compliance.  However, a company’s social compliance program may have a subset of stakeholders that is distinct from those of the company as a whole."
+                    "A person or group directly or indirectly affected by, or otherwise having an interest in, your company’s policies and/or actions.  The term stakeholder is widely used in government, business, and civil society organizations, not solely in relation to social compliance.  However, a company’s social compliance program may have a subset of stakeholders that is distinct from those of the company as a whole.  This applies to individuals and communities which are affected by a business’s operations and practices, regardless if they are directly part of a business’s formal supply chain.  For example, sugarcane producers and farmers who sell sugar to an intermediary from which the company purchases might still be directly affected by a company, even though they may not be a part of its formal supply chain.  The UN recognizes these individuals as having human rights and protections that businesses should consider in relationship to their social compliance actions. "
             },
             {
                 termName: "Community",
                 termDefinition:
-                    "For purposes of this toolkit, a community is comprised of the people in a geographic area (neighborhood, village, town, region) located at some point along your company’s supply chain. The communities in your company’s supply chains are among your stakeholders. "
+                    "For purposes of this app, a community is comprised of the people in a geographic area (neighborhood, village, town, region) located at some point along your company’s supply chain. The communities in your company’s supply chains are among your stakeholders. "
             },
             {
                 termName: "Worker Voice",

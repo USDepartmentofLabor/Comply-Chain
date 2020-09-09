@@ -26,7 +26,14 @@ const en = () => {
                     </em>
                     . The assessment should involve identifying people or groups
                     who may be affected by your business activities and
-                    projecting any adverse impacts that could occur. At a
+                    projecting any adverse impacts that could occur. Such an assessment
+                    should also factor in groups or individuals that may be acutely
+                    vulnerable to exploitation, whether through life circumstances
+                    (e.g., poverty or lack of education) or through legal and social discrimination.
+                    In addition, an assessment should factor in individuals who may be hidden
+                    from the public and are consequently unable to advocate for their rights such
+                    as survivors of rape and sexual abuse, those living with HIV/AIDS, and undocumented workers.
+                    At a
                     minimum, the assessment should involve desk research, field
                     research in the target country/community, and then a
                     baseline round of pre-sourcing audits to assess current

@@ -27,7 +27,7 @@ export const StepData = {
             {
                 termName: "Supply Chain",
                 termDefinition:
-                    "The chain that is comprised of all organizations and individuals involved in producing, processing, trading, transporting and/or distributing a product or commodity from its point of origin to the company and/or to the final retailer. "
+                    "The chain—or network—that is comprised of all organizations and individuals involved in producing, processing, trading, transporting and/or distributing a product or commodity from its point of origin to the company and/or to the final retailer.  For examples of various supply chains, please refer to Supply Chain Mapping in Step 2: Assess Risks and Impacts. "
             },
         ],
         furtherResources: Resources.en

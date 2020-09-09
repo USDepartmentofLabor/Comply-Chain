@@ -71,7 +71,10 @@ const en = () => {
                                         <strong>
                                             <em>Report</em>
                                         </strong>
-                                        <em> performance</em>
+                                        <em> performance and&nbsp;</em>
+                                        <strong>
+                                           <em>engagement</em>
+                                        </strong>
                                     </li>
                                 </ol>
                                 <p>
@@ -90,7 +93,7 @@ const en = () => {
                                     standards).
                                 </p>
                                 <p>
-                                    This App provides guidance for comprehensive
+                                    This app provides guidance for comprehensive
                                     systems, but focuses in particular on child
                                     labor and forced labor, consistent with the
                                     mandate provided to ILAB under the

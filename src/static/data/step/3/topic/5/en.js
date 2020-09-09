@@ -85,6 +85,9 @@ const en = () => {
                         relevant organizations are welcomed onto the CLP on an
                         ongoing basis.
                     </p>
+                    <p>
+                    Source: https://www.ilo.org/ipec/projects/global/WCMS_390400/lang--en/index.htm.
+                    </p>
                 </ExampleInAction>
                 <br />
                 <ExampleInAction id="gbn">
@@ -134,6 +137,18 @@ const en = () => {
                         &ndash; a global partnership aimed at ending child
                         labor, forced labor, modern slavery, and human
                         trafficking.
+                    </p>
+                    <p>
+                    For more information and an up-to-date list of members, please visit&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://flbusiness.network/"
+                    >
+                    www.flbusiness.network
+                    </a>
+                    &nbsp;or contact
+                    fl-businessnetwork@ilo.org.
                     </p>
                 </ExampleInAction>
             </div>
