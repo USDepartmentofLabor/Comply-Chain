@@ -39,9 +39,9 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://bettercotton.org/wp-content/uploads/2014/10/production-principles-and-criteria.pdf"
-                        title="Better Cotton Initiative&rsquo;s Production Principles and Criteria"
+                        title="Better Cotton Initiative's Principles and Criteria"
                     >
-                        Better Cotton Initiative&rsquo;s Production Principles
+                        Better Cotton Initiative&rsquo;s Principles
                         and Criteria
                     </a>{" "}
                     for companies throughout the cotton supply chain, the{" "}
@@ -91,9 +91,9 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-priority-industry-principles"
-                        title="Consumer Goods Forum&rsquo;s* Priority Industry Principles"
+                        title="Consumer Goods Forum&rsquo;s Guidance on the Priority Industry"
                     >
-                        Consumer Goods Forum&rsquo;s* Priority Industry
+                        Consumer Goods Forum&rsquo;s* Guidance on the Priority Industry
                         Principles
                     </a>{" "}
                     on forced labor.
@@ -128,9 +128,9 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="http://mneguidelines.oecd.org/rbc-agriculture-supply-chains.htm"
-                        title="OECD Guidance for Responsible Agricultural Supply Chains"
+                        title="OECD-FAO Guidance for Responsible Agricultural Supply Chains"
                     >
-                        OECD Guidance for Responsible Agricultural Supply Chains
+                        OECD-FAO Guidance for Responsible Agricultural Supply Chains
                     </a>
                     ; 4){" "}
                     <a
@@ -154,12 +154,12 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="http://www.responsiblesourcingtool.org/vendoragreement"
-                        title="Sample Social Responsibility Agreement"
+                        title="Sample Vendor Agreement"
                     >
-                        Sample Social Responsibility Agreement
+                        Sample Vendor Agreement
                     </a>{" "}
                     to supplement contracts and agreements between a company and
-                    its subcontractors or suppliers in the area of code flowdown
+                    its subcontractors or suppliers in the area of code communication
                     and compliance, including in areas of self-assessment and
                     improvement programs designed to achieve code compliance.
                 </p>

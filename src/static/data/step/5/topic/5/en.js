@@ -105,16 +105,17 @@ const en = () => {
                         from companies, NGOs and university members.&nbsp;
                     </p>
                     <p>
+                    Obtain more information and view the complete
+                    Workplace Code of Conduct and Compliance Benchmarks,
+                    revision highlights and a side-by-side comparison to
+                    the previous code at&nbsp;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf"
                             title="Obtain more information and view the complete Workplace Code of Conduct and Compliance Benchmarks, revision highlights and a side-by-side comparison to the previous code"
                         >
-                            Obtain more information and view the complete
-                            Workplace Code of Conduct and Compliance Benchmarks,
-                            revision highlights and a side-by-side comparison to
-                            the previous code
+                         http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf.
                         </a>
                         .
                     </p>

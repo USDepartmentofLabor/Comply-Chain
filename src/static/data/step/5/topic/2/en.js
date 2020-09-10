@@ -97,7 +97,7 @@ const en = () => {
                         <em>
                             (note: while these standards are often included in
                             the larger code of conduct, they are not discussed
-                            further in this App due to its focus on child labor
+                            further in this app due to its focus on child labor
                             and forced labor)
                         </em>
                     </li>

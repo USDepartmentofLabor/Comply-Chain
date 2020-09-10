@@ -96,94 +96,6 @@ const en = () => {
                     vendors/agents or suppliers handle all responsibilities
                     related to training, including all costs.
                 </p>
-                <ExampleInAction id="cocoa">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Example in Action: The International Chocolate and
-                            Cocoa Industry
-                        </strong>
-                    </h2>
-                    <p>
-                        For many years, the International Chocolate and Cocoa
-                        Industry has been working to reduce child labor in their
-                        supply chains, particularly in C&ocirc;te d&rsquo;Ivoire
-                        and Ghana. Recently, nine major cocoa and chocolate
-                        companies have come together to collectively support the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.worldcocoafoundation.org/about-wcf/cocoaaction/"
-                            title="World Cocoa Foundation&rsquo;s CocoaAction initiative"
-                        >
-                            World Cocoa Foundation&rsquo;s CocoaAction
-                            initiative
-                        </a>
-                        . CocoaAction represents a voluntary industry
-                        initiative, based on the vision of promoting a
-                        sustainable and socially responsible cocoa supply chain
-                        that offers a profitable way of life for cocoa farmers
-                        and their families and provides significantly improved
-                        quality of life for cocoa-growing communities.
-                        CocoaAction member companies have committed to sharing
-                        and exchanging information and best practices for
-                        activities under CocoaAction. They have also dedicated
-                        funding to implement the same agreed-upon, core
-                        interventions. In addition, CocoaAction companies have
-                        agreed to a finalized common results measurement
-                        framework and key performance indicators, which will
-                        allow them to measure progress and support learning
-                        related to the overall strategy.
-                    </p>
-                    <p>
-                        The core interventions under CocoaAction fall within two
-                        packages: productivity and community development. The
-                        productivity package is intended to help increase cocoa
-                        yields and farmer income, with one intended outcome
-                        being to help the farmers send their children to school
-                        and thereby reduce exploitative child labor. The
-                        community development package prioritizes activities
-                        around child labor alleviation, primary education, and
-                        women&rsquo;s empowerment. Under CocoaAction, companies
-                        aim to strengthen Child Protection Committees with the
-                        goal of expanding awareness of the importance of child
-                        protection and the reduction of child labor. In
-                        addition, through the strengthening of School Management
-                        Committees, member companies aim to improve the capacity
-                        of schools and communities to increase the number of
-                        effectively functioning primary schools. Finally,
-                        through the provision of skills training and income
-                        generating activities, CocoaAction aims to increase the
-                        capability, opportunity, and influence of women in cocoa
-                        growing communities. Women&rsquo;s empowerment can have
-                        a positive impact on reducing child labor as was seen in
-                        one cocoa growing community where, through income
-                        generating activities supported by a CocoaAction
-                        company, women of the community raised funds for the
-                        rehabilitation of classrooms.
-                    </p>
-                    <p>
-                        These core interventions are paired with the
-                        establishment of Child Labor Monitoring and Remediation
-                        Systems across supply chains and within communities,
-                        with the ultimate goal of significantly reducing child
-                        labor in cocoa growing communities of C&ocirc;te
-                        d&rsquo;Ivoire and Ghana.
-                    </p>
-                    <p>
-                        For more information, see the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.worldcocoafoundation.org/wp-content/uploads/2018/08/CLCCG-2016-Annual-Report.pdf"
-                            title="Child Labor Cocoa Coordinating Group&rsquo;s (CLCCG) 2016 Annual Report"
-                        >
-                            Child Labor Cocoa Coordinating Group&rsquo;s (CLCCG)
-                            2016 Annual Report
-                        </a>
-                        .
-                    </p>
-                </ExampleInAction>
                 <ExampleInAction id="iloscore">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -202,19 +114,47 @@ const en = () => {
                         Sustaining Competitive and Responsible Enterprises
                         (SCORE)
                     </a>{" "}
-                    a training program to increase the productivity of Small and
-                    Medium Enterprises (SMEs) while promoting recognition of and
-                    respect for the ILO&rsquo;s international labor standards
-                    and improving working conditions. SCORE provides
-                    &ldquo;training of trainers&rdquo; for government agencies,
-                    industry associations and trade unions, and other
-                    organizations, who then deliver the training program to
-                    SMEs. SCORE is currently active in emerging economies
-                    throughout Africa, Asia, and Latin America, and as of April
-                    2017, over 1,000 SMEs representing over 270,000 workers,
-                    have participated in SCORE trainings.&nbsp;
+                    a training program to increase the productivity of Small and Medium Enterprises (SMEs) while
+                    promoting recognition of and respect for the ILO’s international labor standards and improving
+                    working conditions.  SCORE provides “training of trainers” for government agencies, industry
+                    associations and trade unions, and other organizations, who then deliver the training program to SMEs.
+                    SCORE is currently active in emerging economies throughout Africa, Asia, and Latin America, and as of
+                    July 2019, over 2,100 SMEs have received SCORE Training in 11 countries, representing a total workforce
+                    of over 403,000 people.
                 </p>
                 </ExampleInAction>
+                <br />
+                <ExampleInAction id="cocoa">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: The International Chocolate and
+                            Cocoa Industry
+                        </strong>
+                    </h2>
+                    <p>
+                        Over the past decade, Industry funded the construction and rehabilitation of schools and provision of school
+                        supplies and other education support services in hundreds of communities in Côte d’Ivoire and Ghana.
+                        In addition to implementing child labor awareness-raising activities, Industry supported child labor data
+                        collection and monitoring through community and supply chain-based child labor monitoring and remediation systems,
+                        including an ILO-IPEC project that developed and expanded community-based child labor monitoring systems.
+                        Industry supported activities to increase the incomes of households with at-risk children and provided supplementary
+                        funding to the International Cocoa Initiative to expand its work to implement community action plans, train community
+                        child protection committees and build classrooms.
+                        For more information, see the{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.worldcocoafoundation.org/about-wcf/cocoaaction/"
+                            title="World Cocoa Foundation&rsquo;s CocoaAction initiative"
+                        >
+                            World Cocoa Foundation&rsquo;s CocoaAction
+                            initiative
+                        </a>
+                        .
+                    </p>
+                </ExampleInAction>
+
             </div>
         </StaticData>
     );

@@ -49,46 +49,28 @@ const en = () => {
                         </strong>
                     </h2>
                 <p>
-                    Technology is playing an increasing role in the ability of
-                    companies, labor unions, civil society organizations, and
-                    third-party monitoring groups to capture worker feedback on
-                    their work situations and address gaps. With more than 7
-                    billion mobile subscriptions globally, many initiatives,
-                    such as{" "}
+                    Technology is playing an increasing role in the ability of companies, labor unions, civil
+                    society organizations, and third-party monitoring groups to capture worker feedback on their
+                    work situations and address gaps.  With more than 7 billion mobile subscriptions globally, many
+                    initiatives rely on smart phone technology to administer anonymous surveys that poll workers on their
+                    working conditions in factories and fields.  Other initiatives, such as&nbsp;
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.laborvoices.com/"
-                        title="Labor Voices"
+                        href="www.contratados.org"
                     >
-                        Labor Voices
-                    </a>
-                    , rely on smart phone technology to administer anonymous
-                    surveys that poll workers on their working conditions in
-                    factories and fields. Other initiatives, such as{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.contratados.org/"
-                        title="Contratados.org"
-                    >
-                        Contratados.org
-                    </a>
-                    , utilize web-based technology to create online platforms by
-                    which workers, including migrants, are able to rate and
-                    comment on labor recruiters and contractors in their native
-                    languages. Technologies that capture &ldquo;worker
-                    voice&rdquo; are often cost effective, targeted, and safe
-                    for workers. They can provide a valuable supplement to
-                    traditional social audits, as well as provide effective
-                    mechanisms for educating workers on their rights and
-                    available resources. Many available technologies provide
-                    pathways to report worker grievances but do not provide
-                    avenues for remedying individual violations of worker
-                    rights; this is an area of need and an opportunity for
-                    further technology development.&nbsp;
+                    Contratados.org
+                    </a>,
+                    utilize web-based technology to create online platforms by which workers, including migrants,
+                    are able to rate and comment on labor recruiters and contractors in their native languages.
+                    Technologies that capture “worker voice” are often cost effective, targeted, and safe for workers.
+                    They can provide a valuable supplement to traditional social audits, as well as provide effective mechanisms
+                    for educating workers on their rights and available resources.  Many available technologies provide pathways to
+                    report worker grievances but do not provide avenues for remedying individual violations of worker rights; this
+                    is an area of need and an opportunity for further technology development.
                 </p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction id="grievprocedure">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -97,9 +79,51 @@ const en = () => {
                         </strong>
                     </h2>
                 <p>
-                    Place holder
+                  Unilever* is a British-Dutch multinational company that produces a wide range of products that use palm-oil as an
+                  ingredient.  Unilever works closely with its suppliers to promote decent work standards across its palm-oil supply chain,
+                  including developing a process by which workers’ grievances can be communicated and addressed.
+                </p>
+                <p>
+                  The process includes three important steps:
+                  <ul>
+                  <li>
+                   An acknowledgement of the grievance and a preliminary review to determine whether the grievance is applicable to our supply chain.
+                  </li>
+                  <li>
+                  An in-depth review of the grievance, working with the supplier and an independent organization to develop a time-bound action and remediation plan.
+                  </li>
+                  <li>
+                  Actions implemented by the supplier to resolve the issue, with the outcomes monitored.
+                  </li>
+                  </ul>
+                </p>
+                <p>
+                Unilever will often involve an independent organization at various stages to collate further information
+                and outline the requirements that the supplier needs to adhere to.  The company works with its suppliers to
+                help improve practices and resolve issues.  However, it takes appropriate action consistent with its&nbsp;
+                 <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.unilever.com/Images/unilever-palm-oil-policy-2016_tcm244-479933_en.pdf"
+                    title="Five Principles for Sustainable Palm Oil"
+                >
+                Five Principles for Sustainable Palm Oil
+                </a>
+                &nbsp;against suppliers who are unwilling or unable to comply.
+                </p>
+                <p>
+                As of January 2019, Unilever began publically disclosing the grievances against its suppliers, through a published&nbsp;
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.unilever.com/Images/unilever-palm-oil-grievance-tracker_tcm244-530071_en.pdf"
+                    title="Grievance tracker"
+                >
+                grievance tracker
+                </a>.
                 </p>
                 </ExampleInAction>
+                <br />
                 <OwnWords>
                     <h2>
                         <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
