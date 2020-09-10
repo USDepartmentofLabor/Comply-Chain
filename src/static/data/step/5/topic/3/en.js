@@ -256,7 +256,7 @@ const en = () => {
                         href="http://www.responsiblesourcingtool.org/codeofconduct"
                         title="Sample Code of Conduct Provisions"
                     >
-                        Sample Code of Conduct Provisions
+                        Sample Code of Conduct
                     </a>
                     , contains forced labor-related provisions that can be
                     incorporated into a company or industry code of conduct. The
@@ -268,8 +268,7 @@ const en = () => {
                         href="http://www.responsiblesourcingtool.org/laborrecruitments"
                         title="Criteria for Screening and Evaluating Labor Recruitment Candidates"
                     >
-                        Criteria for Screening and Evaluating Labor Recruitment
-                        Candidates
+                        Evaluating Labor Recruitment
                     </a>
                     , which assists companies in conducting due diligence in the
                     screening and selection of labor recruiters to minimize the
@@ -662,10 +661,10 @@ const en = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.responsiblesourcingtool.org/codeofconduct"
-                            title="Tool 1, Sample Code of Conduct Provisions"
+                            title="Tool 1, Sample Code of Conduct"
                         >
                             <strong>
-                                Tool 1, Sample Code of Conduct Provisions
+                                Tool 1, Sample Code of Conduct
                             </strong>
                         </a>
                         <strong>.</strong>
@@ -736,6 +735,59 @@ const en = () => {
                         personnel and federal contracting officers.
                     </p>
                 </ExampleInAction>
+                <br />
+                <ExampleInAction id="eicc">
+                                <h4>
+                                    <ExampleInAction.Icon alt="Lightbulb"/>
+                                    <strong>
+                                        Example in Action: Primark’s Code of Conduct of 2019
+                                    </strong>
+                                </h4>
+                                        <p>
+                                            Sample Code of Conduct provisions on forced labor and child labor, taken from the&nbsp;
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="https://madeinafreeworld.com/"
+                                                title="https://www.primark.com/en/our-ethics/code-of-conduct"
+                                            >
+                                            Primark Code of Conduct
+                                            </a>
+                                            .
+                                        </p>
+                                        <p>
+                                           <strong>Employment is freely chosen</strong>
+                                           <ol>
+                                           <li>
+                                            There must be no forced or compulsory labor in any form, including bonded, indentured, trafficked, or prison labor and overtime must be voluntary.
+                                           </li>
+                                           <li>
+                                            Any fees associated with the employment of Workers must be paid by the Employer.
+                                           </li>
+                                           <li>
+                                            Workers must not be required to lodge any monetary deposits or their identity papers with their Employer.
+                                           </li>
+                                           <li>
+                                            Workers must be free to leave their Employer after reasonable notice.
+                                           </li>
+                                           </ol>
+                                        </p>
+                                        <p>
+                                          <strong>Child Labor must not be used</strong>
+                                         <ol>
+                                         <li>
+                                          There must be no recruitment or employment of child labor.
+                                         </li>
+                                         <li>
+                                          In any given country the minimum working age, as well as rules regarding the employment of a Young Worker will be defined by the conventions of the ILO or national/regional law, whichever affords greater protection to the individual.  For clarity, Young Worker in this context refers to an individual above the legal working age but before their 18th birthday.
+
+                                         </li>
+                                         <li>
+                                          Companies must have policies and programs which prevent the recruitment and employment of child labor.
+                                         </li>
+                                         </ol>
+                                        </p>
+                  </ExampleInAction>
             </div>
         </StaticData>
     );

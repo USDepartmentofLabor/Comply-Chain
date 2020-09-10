@@ -43,49 +43,24 @@ const en = () => {
                         Standards
                     </h2>
                     <p>
-                        When 2011 audits revealed indicators of forced labor,
-                        human trafficking, and labor exploitation in
-                        Patagonia&rsquo;s supplier factories in Taiwan, the
-                        outdoor apparel company realized that despite its
-                        existing Supplier Workplace Code of Conduct, more robust
-                        standards were needed. Patagonia collaborated with
-                        Verit&eacute;*, an NGO that promotes safe, fair, and
-                        legal working conditions worldwide, to conduct research
-                        to better understand the situation of migrant workers in
-                        their supply chain. Upon finding that many migrants fall
-                        victims to an exploitative labor recruitment system that
-                        leaves workers laden with excessive broker fees and
-                        vulnerable to debt bondage, Patagonia developed
-                        comprehensive migrant worker standards. These standards
-                        ban supplier factories from charging recruitment fees
-                        and cover a range of other issues relevant for migrant
-                        workers, including living and working conditions, wages,
-                        and greivance procedures. Patagonia&rsquo;s{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/static/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw604fc14d/PDF-US/Migrant_Worker_Employment_Standards.pdf"
-                            title="Migrant Worker Employment Standards"
-                        >
-                            Migrant Worker Employment Standards
-                        </a>{" "}
-                        are publicly available.
+                        When 2011 audits revealed indicators of forced labor, human trafficking, and
+                        labor exploitation in Patagonia’s supplier factories in Taiwan, the outdoor apparel
+                        company realized that despite its existing Supplier Workplace Code of Conduct, more
+                        robust standards were needed.  Patagonia collaborated with Verité,* an NGO that promotes safe,
+                        fair, and legal working conditions worldwide, to conduct research to better understand the situation
+                        of migrant workers in their supply chain.  Upon finding that many migrants fall victims to an exploitative
+                        labor recruitment system that leaves workers laden with excessive broker fees and vulnerable to debt bondage,
+                        Patagonia developed comprehensive migrant worker standards.  These standards ban supplier factories from charging
+                        recruitment fees and cover a range of other issues relevant for migrant workers, including living and working conditions,
+                        wages, and grievance procedures.  Patagonia’s Migrant Worker Employment Standards are publicly available and are going through
+                        a revision in 2020.  Patagonia states that through their work with suppliers to implement the standard and by other brands
+                        joining the effort, “Patagonia has made significant progress in moving their suppliers to a system where workers do not pay recruitment fees.”
                     </p>
                     <p>
-                        For more information, see Patagonia{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/blog/2015/06/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/"
-                            title="The Unacceptably High Cost of Labor- How a deeper dive into our supply chain led to a new Migrant Worker Standard"
-                        >
-                            <em>
-                                The Unacceptably High Cost of Labor- How a
-                                deeper dive into our supply chain led to a new
-                                Migrant Worker Standard
-                            </em>
-                        </a>
-                        <em>.</em>
+                        Source: https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html.
+                    </p>
+                    <p>
+                        Source: https://www.patagonia.com/our-footprint/migrant-workers.html.
                     </p>
                 </ExampleInAction>
                 <p>
