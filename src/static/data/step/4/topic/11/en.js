@@ -9,14 +9,17 @@ const en = () => {
             <div>
                 <h1>Assessing Root Causes</h1>
                 <p>
-                    Among the external risk factors a company or industry will have to examine are the underlying root causes of child labor and forced labor.
                     <p><h2>What are the Root causes of child labor and Forced labor?</h2></p>
-                    A significant number of countries from which manufactured products are increasingly sourced—or where major agricultural commodities are grown—have deeply entrenched social,
-                    economic and governance challenges that perpetuate child labor and forced labor.
-                    The most salient of these challenges is poverty, which also underlies many others.
-                    According to 2013 estimates from the World Bank, …  to assume risk to avail themselves of economic opportunities,
-                     making them more vulnerable to labor exploitation.
-                    This is particularly true for migrant workers.
+                    A significant number of countries from which manufactured products are increasingly
+                    sourced—or where major agricultural commodities are grown—have deeply entrenched social,
+                    economic, and governance challenges that perpetuate child labor and forced labor.
+                    The most salient of these challenges is poverty.  According to 2015 estimates from the World Bank,
+                    736 million people in the developing world live in extreme poverty, surviving on less than $1.90 a day.
+                    Lack of adult employment with decent wages further exacerbates global poverty.  Poverty is also associated
+                    with vulnerabilities beyond low income.  Individuals who are poor lack mechanisms to cope with economic shocks,
+                    and suffer disproportionately from poor health, hunger and inadequate access to education and social services.
+                    As such, they may be more willing to assume risk to avail themselves of economic opportunities, making them more
+                    vulnerable to labor exploitation.  This is particularly true for migrant workers.
                 </p>
                 <div><h2>Causes Related to Poverty</h2>
                  <Accordion id="lack-of-awareness-acc">
@@ -47,16 +50,33 @@ const en = () => {
                             <Accordion.Panel>
 
                             <p className="indent-margin">
-                              In many countries, women and
-                                girls face additional risks of labor exploitation,
-                                including child labor and forced labor. For example,
-                                women are often less educated than men of the same
-                                socio-economic and cultural background, and social
-                                factors may restrict their capacity to communicate with
-                                authority figures. These types of inequalities can make
-                                women less capable of speaking up to defend their rights
-                                as workers.
+                              Around the world, women and girls face increased risk of labor exploitation,
+                              including forced labor and child labor.  Discriminatory laws, policies, and social
+                              norms can pose significant barriers to accessing education, training, and professional
+                              networks; participation and leadership in trade unions; and entry and advancement in the labor
+                              market, including leadership positions in companies.  As a result, women are disproportionately
+                              represented in low-paying, insecure jobs, with few labor protections and remedies for labor rights violations.
                             </p>
+                            <p>
+                              The DOL-funded&nbsp;
+                              <a
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  href="https://www.dol.gov/agencies/ilab/somos-tesoro-we-are-treasure-project-reduce-child-labor-colombia"
+                              >
+                              Somos Tesoro
+                              </a>
+                              &nbsp;project in Colombia works with more than 3,500 women in coal and gold mining communities
+                              to reduce their vulnerability to labor exploitation and gender-based violence.  It helps artisanal and small-scale
+                              female miners, including gold panners, improve their mining practices and comply with legal requirements to mine.
+                              In addition, the project partners with female-head of households to set up vegetable gardens, start new businesses,
+                              and develop job skills.  The Somos Tesoro project also works with mine owners and management, mining workers, and the
+                              Association of Entrepreneur Female Miners* (AEFM) to raise awareness of gender-based violence, set up protocols for
+                              grievance mechanisms, and develop support networks to help female miners detect and address discrimination and gender-based violence.
+                              Created with support from the Somos Tesoro project, AEFM has more than 65 female miners, including coal miners, brick-makers, engineers,
+                              and occupational and safety professionals.  Building on this success, USAID has begun to fund a complementary initiative to strengthen and expand AEFM membership across Colombia.
+                            </p>
+
                         </Accordion.Panel>
                     </Accordion.Section>
                     </Accordion>
@@ -121,7 +141,8 @@ const en = () => {
                                       and other civil society groups, are suppressed by the
                                       government, sometimes with the support of employers. In
                                       some cases, unions exist but have direct links to the
-                                      government. An absence of effective, independent trade
+                                      government or are controlled by employers.
+                                      An absence of effective, independent trade
                                       unions hampers collective bargaining and thus
                                       workers&rsquo; ability to effectively advocate for their
                                       rights, including fair compensation and safe working
@@ -257,7 +278,16 @@ const en = () => {
                         <Accordion.Panel>
 
                         <p className="indent-margin">
-                           <b>PLACEHOLDER FOR TEXT </b>
+                           Pandemics, like COVID-19, can disrupt supply chains.  The spread
+                           of the virus led to sizeable disruptions in existing global supply
+                           chains, affecting input procurement and consumer demand.  An extended
+                           disruption can lead many companies to suspend operations, as key inputs
+                           in a supply chain do not materialize.  In addition, the impact on workers
+                           can prove substantial where companies have had to shutter operations.
+                           The decreased demand from consumers has led to a decrease in demand for
+                           workers at upstream production facilities.  Moreover, the lack of appropriate
+                           personal protection equipment (PPE) for some workers who remain on the job may
+                           make for a hazardous working environment that endangers their health and safety.
                         </p>
                     </Accordion.Panel>
                 </Accordion.Section>

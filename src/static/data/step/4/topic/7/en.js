@@ -76,67 +76,38 @@ const en = () => {
                 <ExampleInAction id="Conflict_Free">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Example in Action</strong>: Conflict-Free
-                        Sourcing Initiative{" "}
+                        <strong>Example in Action</strong>: Responsible Minerals Initiative
                     </h2>
                     <p>
-                        For electronics companies, one of the key identified
-                        human rights and labor risks is conflict in the
-                        Democratic Republic of Congo, where many of the minerals
-                        used to produce electronic products are sourced. The{" "}
+                        For electronics companies, one of the key identified human rights and labor
+                        risks is conflict in the Democratic Republic of Congo, where many of the
+                        minerals used to produce electronic products are sourced.  The
+                        Responsible Minerals Initiative (RMI), began as the Conflict-Free Sourcing Initiative, was
+                        developed by the Electronic Industry Citizenship Coalition, now known as the&nbsp;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.conflictfreesourcing.org/"
-                            title="Conflict-Free Sourcing Initiative"
+                            href="www.responsiblebusiness.org"
                         >
-                            Conflict-Free Sourcing Initiative
-                        </a>{" "}
-                        (CFSI) was developed by the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.eiccoalition.org/"
-                            title="Electronic Industry Citizenship Coalition"
-                        >
-                            Electronic Industry Citizenship Coalition
-                        </a>{" "}
-                        and the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://gesi.org/"
-                            title="Global e-Sustainability Initiative"
-                        >
-                            Global e-Sustainability Initiative
-                        </a>{" "}
-                        in 2008 to promote responsible mineral sourcing from
-                        conflict-affected and high-risk areas. The CFSI has
-                        designed tools and resources that are used by more than
-                        350 companies from a variety of sectors to monitor their
-                        supply chains. The CFSI developed the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.conflictfreesourcing.org/conflict-free-smelter-program/"
-                            title="Conflict-Free Smelter Program"
-                        >
-                            Conflict-Free Smelter Program
-                        </a>{" "}
-                        that helps smelters and refiners validate, through
-                        independent third-party audits, their compliance with
-                        global standards, such as the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.oecd.org/corporate/mne/mining.htm"
-                            title="OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Area"
-                        >
-                            OECD Due Diligence Guidance for Responsible Supply
-                            Chains of Minerals from Conflict-Affected and
-                            High-Risk Areas
+                        Responsible Business Alliance
                         </a>
-                        .
+                        , and the Global e-Sustainability Initiative* in
+                        2008 to promote responsible mineral sourcing from conflict-affected and high-risk areas.
+                        The RMI has designed tools and resources that are used by more than 350 companies from a variety of
+                        sectors to monitor their supply chains.  The RMI developed the&nbsp;
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="www.conflictfreesourcing.org/conflict-free-smelter-program/"
+                        >
+                        Responsible Minerals Assurance Process (RMAP)
+                        </a>
+                        &nbsp;—formerly the Conflict-Free Smelters Program—that helps smelters and refiners validate, through
+                        independent third-party audits, their compliance with global standards, such as the OECD Due Diligence
+                        Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas
+                    </p>
+                    <p>
+                        Source: http://www.responsiblemineralsinitiative.org/.
                     </p>
                 </ExampleInAction>
                 <p>
@@ -149,7 +120,7 @@ const en = () => {
                     message to suppliers about compliance, but also had
                     devastating consequences for workers. The issue of
                     &ldquo;responsible disengagement&rdquo; from a supplier is
-                    explored in SOMO&rsquo;s discussion paper,{" "}
+                    explored in SOMO&rsquo;s discussion paper from the Centre for Research on Multinational Corporations (SOMO):{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -172,43 +143,40 @@ const en = () => {
                         L&rsquo;Or&eacute;al* and Responsible Mica Sourcing
                     </h2>
                     <p>
-                        Mica is a mineral used in various industries, including
-                        in the cosmetics industry, where it provides a
-                        glittering effect in a range of products. While
-                        L&rsquo;Or&eacute;al sources more than 60 percent of its
-                        natural mica from the United States, the rest originates
-                        from other countries such as India, where there is a
-                        high risk of child labor and unsafe working conditions.
-                        Despite these risks, L&rsquo;Or&eacute;al, which is a
-                        signatory to the United Nations Global Compact and a
-                        founding member of the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.responsible-mica-initiative.com/"
-                            title="Responsible Mica Initiative"
-                        >
-                            Responsible Mica Initiative
-                        </a>
-                        , has made a commitment to remain in India and ensure
-                        the traceability and transparency of its supply chain.
-                        L&rsquo;Or&eacute;al believes that discontinuing the use
-                        of Indian mica would not be beneficial to workers or
-                        their families, and could further exacerbate social and
-                        economic challenges. In India, L&rsquo;Or&eacute;al
-                        implements a sustainable procurement program that works
-                        with a limited number of suppliers who commit to
-                        sourcing mica from legal, gated mines, where working
-                        conditions and human rights, including the prevention
-                        and elimination of child labor, can be monitored.
-                        L&rsquo;Or&eacute;al&rsquo;s suppliers in India undergo
-                        independent audits to monitor compliance and agree to
-                        invest in community-building activities to address the
-                        underlying causes of labor violations. By working with
-                        local NGOs and other stakeholders, L&rsquo;Or&eacute;al
-                        aims to create a sustainable mica supply chain and
-                        improve the living and working conditions of the
-                        region.&nbsp;
+                        Mica is a mineral used in various industries, including in the cosmetics industry, where it provides a glittering
+                        effect in a range of products.  While L’Oréal sources more than 60 percent of its natural mica from the United States,
+                        the rest originates from other countries such as India, where there is a high risk of child labor and unsafe working conditions.
+                        In fact, DOL added mica to the 2018 List of Goods Produced by Child Labor or Forced Labor, citing evidence that children ages
+                        5 to 17 are engaged in collecting mica from abandoned mines, primarily in illegal mining operations in India, especially in
+                        the major mica-producing states of Bihar, Jharkhand, and Rajasthan.
+                    </p>
+                    <p>
+                       Despite these risks, L’Oréal, which is a signatory to the United Nations Global Compact and a founding member of the&nbsp;
+                       <a
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           href="www.responsible-mica-initiative.com/"
+                       >
+                       Responsible Mica Initiative
+                       </a>
+                       , has made a commitment to remain in India and ensure the traceability and transparency of its supply chain.
+                       L’Oréal believes that discontinuing the use of Indian mica would not be beneficial to workers or their families, and could further
+                       exacerbate social and economic challenges.  In India, L’Oréal implements a sustainable procurement program that works with a limited
+                       number of suppliers who commit to sourcing mica from legal, gated mines, where working conditions and human rights, including the
+                       prevention and elimination of child labor, can be monitored.  L’Oréal’s suppliers in India undergo independent audits to monitor
+                       compliance and agree to invest in community-building activities to address the underlying causes of labor violations.  By working with
+                       local NGOs and other stakeholders, L’Oréal&nbsp;
+                       <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica"
+                      >
+                       aims to create a sustainable mica supply chain
+                       </a>
+                       &nbsp;and improve the living and working conditions of the region.
+                    </p>
+                    <p>
+                    Source: https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica.
                     </p>
                 </ExampleInAction>
                 <p>

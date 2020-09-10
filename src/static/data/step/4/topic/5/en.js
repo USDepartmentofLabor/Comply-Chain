@@ -83,7 +83,7 @@ const en = () => {
                             Labor
                         </em>
                     </a>
-                    . Like this App, this regularly updated ILAB publication was
+                    . Like this app, this regularly updated ILAB publication was
                     mandated by the{" "}
                     <a
                         target="_blank"
@@ -123,14 +123,14 @@ const en = () => {
                     >
                         ILAB website
                     </a>
-                    , is free and available for download on the{" "}
+                    , is free and available for download on the Apple's{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://itunes.apple.com/us/app/sweat-toil-child-labor-forced/id1018240593?ls=1"
-                        title="iTunes"
+                        title="App Store"
                     >
-                        iTunes
+                        App Store
                     </a>{" "}
                     or{" "}
                     <a
@@ -178,7 +178,7 @@ const en = () => {
                         Central America harvesting crops, including the elderly
                         and very young children. We understand better the kinds
                         of government laws and policies, such as those seen in
-                        some Gulf countries, that can perpetuate forced labor by
+                        some Gulf countries, which can perpetuate forced labor by
                         leaving migrant workers vulnerable to exploitative
                         practices such as passport confiscation by their
                         employers, non-payment of wages, and contract

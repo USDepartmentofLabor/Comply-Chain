@@ -102,10 +102,10 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.sustainabilityxchange.info/filesagri/SAI_IFC_LaborHandbook.pdf"
+                            href=" https://www.ifc.org/wps/wcm/connect/e0e8e968-132a-4dbf-af0b-4b971e4a4b9b/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&CVID=jkD0.wG"
                             title="Measure and Improve Your Labor Standards Performance - Performance Standard 2 Handbook"
                         >
-                            https://www.sustainabilityxchange.info/filesagri/SAI_IFC_LaborHandbook.pdf
+                             https://www.ifc.org/wps/wcm/connect/e0e8e968-132a-4dbf-af0b-4b971e4a4b9b/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&CVID=jkD0.wG.
                         </a>
                     </li>
                     <li>
@@ -194,29 +194,21 @@ const en = () => {
                         .&nbsp;
                     </li>
                     <li>
-                        Overseas Private Investment Corporation.{" "}
-                        <em>Environmental and Social Policy Statement, </em>
-                        January 2017; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
-                            title="Global Rights Index: The World&rsquo;s Worst Countries for Workers; 2014."
-                        >
-                            https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf
-                        </a>
+                        Jungk, Margaret, Chichester, Ouida, and Fletcher, Chris.  2018.  “In Search of Justice: Pathways to Remedy at the Porgera Gold Mine.”  Report.  BSR, San Francisco.
+                    </li>
+                    <li>
+                    U.S. International Development Finance Corporation. Environmental and Social Policy and Procedures, January 2020; available from
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
+                    >
+                    https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf.
+                    </a>
                     </li>
                     <li>
                         UNICEF, Multiple Indicator Cluster Surveys, [online,
-                        accessed June 7 2017]; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.childinfo.org/mics_available.html"
-                            title="UNICEF, Multiple Indicator Cluster Surveys"
-                        >
-                            http://www.childinfo.org/mics_available.html
-                        </a>
+                        accessed June 29 2020]; available from http://mics.unicef.org/
                         . UNICEF regularly conducts Multiple Indicator Cluster
                         Surveys (MICS); household surveys on a range of
                         indicators of children&rsquo;s well-being, including

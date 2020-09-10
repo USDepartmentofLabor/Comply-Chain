@@ -10,13 +10,10 @@ const en = () => {
             <div>
                 <h1>Philanthropy</h1>
                  <p>
-                    It may make sense to target philanthropic contributions
-                    toward communities in your direct supply chains,
-                    particularly those at highest risk for child labor, forced
-                    labor and other labor abuses. While such contributions do
-                    not substitute for a robust social compliance system, they
-                    can assist in helping your company achieve the goals of a
-                    social compliance program.
+                    Companies may wish, where feasible, to target philanthropic contributions toward communities in
+                    your direct supply chains, particularly those at highest risk for child labor, forced labor,
+                    and other labor abuses.  While such contributions do not substitute for a robust social
+                    compliance system, they can assist in helping your company achieve the goals of a social compliance program.
                 </p>
                 <p>
                     Philanthropic initiatives that help to combat child and
@@ -195,34 +192,45 @@ const en = () => {
                                                                P.A.C.E Program
                                                            </h4>
                                                            <p>
-                                                               Around the world, millions of women work in the garment
-                                                               industry, often earning less money than their male
-                                                               counterparts and infrequently climbing the career ladder
-                                                               within their factories. Recognizing this problem, Gap
-                                                               Inc. launched the{" "}
+                                                               Founded on the belief that all women deserve the opportunity
+                                                               to reach their full potential, Gap Inc.  originally launched&nbsp;
                                                                <a
-                                                                   target="_blank"
-                                                                   rel="noopener noreferrer"
-                                                                   href="https://www.gapincsustainability.com/people/pace-changing-one-million-lives"
-                                                                   title="Personal Advancement and Career Enhancement (P.A.C.E.) program"
-                                                               >
-                                                                   Personal Advancement and Career Enhancement
-                                                                   (P.A.C.E.) program
-                                                               </a>{" "}
-                                                               in 2007, an initiative aimed at empowering women garment
-                                                               workers with the foundational and technical skills
-                                                               needed to advance in the workplace. Life skills learning
-                                                               modules cover a broad range of topics, from financial
-                                                               literacy, to general and reproductive health, to problem
-                                                               solving and decision making. These courses are
-                                                               complemented by technical trainings tailored to the
-                                                               specific manufacturing setting. P.A.C.E is currently
-                                                               active at supplier factories in 12 countries and has
-                                                               impacted over 50,000 women. In recent years, Gap Inc.
-                                                               has expanded the program beyond the factory to respond
-                                                               to women garment workers&rsquo; needs at the community
-                                                               level and to reach out to their daughters by providing
-                                                               programing for adolescent girls ages 13 to 17.
+                                                                     target="_blank"
+                                                                     rel="noopener noreferrer"
+                                                                     href="https://gcc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.gapincsustainability.com%2Fpeople%2Fpace-changing-one-million-lives&data=02%7C01%7CGyenes.James.J%40DOL.gov%7C9f43581ce71043ff615408d7bba07d27%7C75a6305472044e0c9126adab971d4aca%7C0%7C1%7C637184170288070350&sdata=05OBETHgj%2BzFPi9I2BvORFbPk0ozPNSiTlyv5D70Apk%3D&reserved=0"
+                                                                 >
+                                                               P.A.C.E
+                                                               </a>.
+                                                               &nbsp;(Personal Advancement & Career Enhancement) in 2007 for women working in
+                                                               the apparel supply chain, where it runs in over 300 factory locations in collaboration
+                                                               with Gap Inc. suppliers.  The initiative was designed to empower female factory workers with
+                                                               education and life skills training needed to advance in the workplace.  Modules cover a
+                                                               range of topics, including communication, problem-solving and decision-making, financial
+                                                               literacy, and health.  These courses are delivered by certified P.A.C.E. trainers and
+                                                               contextualized to meet the women’s needs based on local culture and work environment.
+                                                               The company has since expanded the program to other sites in order to reach more women,
+                                                               including rural community settings, academic and vocational institutions, emergency relief
+                                                               centers, and more.  P.A.C.E. is now active in 17 countries, and has reached over 500,000 women.
+                                                               In addition, Gap Inc. is partnering with&nbsp;
+                                                               <a
+                                                                    target="_blank"
+                                                                    rel="noopener noreferrer"
+                                                                    href="https://gcc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.empoweratwork.org%2F&data=02%7C01%7CGyenes.James.J%40DOL.gov%7C9f43581ce71043ff615408d7bba07d27%7C75a6305472044e0c9126adab971d4aca%7C0%7C1%7C637184170288070350&sdata=yWPIMKHTRqjmjJndGNOBlOosqJEqJnhvsToaIol6Yu4%3D&reserved=0"
+                                                                >
+                                                               Empower@Work
+                                                               </a>
+                                                               , an industry-wide effort that seeks to
+                                                               bring this type of training to many more women in the global apparel supply chain.
+                                                           </p>
+                                                           <p>
+                                                             Source:&nbsp;
+                                                             <a
+                                                                 target="_blank"
+                                                                 rel="noopener noreferrer"
+                                                                 href="https://www.gapinc.com/content/gapinc/html/media/pressrelease/2020/med_pr_022420_gps_PACEProgram.html"
+                                                             >
+                                                             https://www.gapinc.com/content/gapinc/html/media/pressrelease/2020/med_pr_022420_gps_PACEProgram.html
+                                                             </a>.
                                                            </p>
                                                        </ExampleInAction>
                                                    </Accordion.Panel>
