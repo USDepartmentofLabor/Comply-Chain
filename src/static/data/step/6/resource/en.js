@@ -117,11 +117,11 @@ const en = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.shiftproject.org/media/resources/docs/Shift_remediationUNGPs_2014.pdf"
-                            title="Remediation, Grievance Mechanisms and the Corporate Responsibility to Respect Human Rights."
+                            href="http://www.respect.international/remediation-grievance-mechanisms-and-the-corporate-responsibility-to-respect-human-rights/"
+                            title="http://www.respect.international/remediation-grievance-mechanisms-and-the-corporate-responsibility-to-respect-human-rights/."
                         >
                             <em>
-                                https://www.shiftproject.org/media/resources/docs/Shift_remediationUNGPs_2014.pdf
+                            http://www.respect.international/remediation-grievance-mechanisms-and-the-corporate-responsibility-to-respect-human-rights/
                             </em>
                         </a>
                     </li>

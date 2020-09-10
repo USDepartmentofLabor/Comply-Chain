@@ -35,9 +35,9 @@ const en = () => {
                 <h2>Child Labor</h2>
                 <h2>Underage Labor</h2>
                 <p>
-                    If the audit identifies a child in the workplace who is
-                    under the country&rsquo;s legal working age, the child
-                    should be removed from work immediately. If the audit
+                If an audit or other reporting mechanism identifies a child in the 
+                workplace who is under the country&rsquo;s legal working age, 
+                the child should be removed from work immediately. If the audit
                     identifies a child who is of legal age to work in the
                     country, the appropriate immediate response depends on the
                     company&rsquo;s code of conduct. If the company has set a
@@ -147,57 +147,75 @@ const en = () => {
                         </strong>
                     </h3>
                     <p>
-                        Since 2011, the U.S.-based Fair Labor Association (FLA)
-                        has been assessing working conditions on hazelnut farms
-                        in the Black Sea region of Turkey, first as a special
-                        project commissioned by the multinational corporation
-                        Nestl&eacute;*, and later as a collaboration between the
-                        FLA, Nestl&eacute; and two of its Turkey-based hazelnut
-                        suppliers, Balsu Gida* and Olam Progida*. Annually, the
-                        FLA sends a team of assessors to visit a sample of farms
-                        supplying hazelnuts to these companies. The presence of
-                        child labor has been a consistent finding, both among
-                        local workers&rsquo; families, and among the groups of
-                        migrant workers who travel to the region for the
-                        hazelnut harvest.
+                    Since 2011, the U.S.-based Fair Labor Association* (FLA) has 
+                    been assessing working conditions on hazelnut farms in the Black 
+                    Sea region of Turkey, first as a special project commissioned 
+                    by the multinational corporation Nestl&eacute;*, and later as 
+                    a collaboration between the FLA, Nestl&eacute; and two of its 
+                    Turkey-based hazelnut suppliers, Balsu Gida* and Olam Progida*. 
+                    Annually, the FLA sends a team of assessors to visit a sample of 
+                    farms supplying hazelnuts to these companies. The presence of 
+                    child labor has been a consistent finding, both among local 
+                    workers&rsquo; families, and among the groups of migrant workers 
+                    who travel to the region for the hazelnut harvest.
                     </p>
                     <p>
-                        The companies have pursued a number of remediation
-                        strategies in response to these findings, such as civil
-                        society partnerships to build schools and provide
-                        scholarships for children of migrant workers and in
-                        hazelnut communities. Further interventions have
-                        included training for farmers on child labor
-                        prohibitions, and the provision of age-verification
-                        tools to encourage farmers to document the ages of their
-                        hired workers.&nbsp;
+                    The companies have pursued a number of remediation strategies in 
+                    response to these findings, such as civil society partnerships to 
+                    build schools and provide scholarships for children of migrant workers 
+                    and in hazelnut communities. Further interventions have included training 
+                    for farmers on child labor prohibitions, and the provision of age-verification 
+                    tools to encourage farmers to document the ages of their hired workers.&nbsp;
                     </p>
                     <p>
-                        In November 2015, the U.S. Department of Labor awarded
-                        the FLA a grant to pilot-test a comprehensive,
-                        sustainable program that implements all elements of the
-                        U.S. Department of Agriculture (USDA) &ldquo;
+                    In November 2015, the U.S. Department of Labor awarded the FLA a grant to 
+                    pilot-test a comprehensive, sustainable program that implements all elements 
+                    of the U.S. Department of Agriculture (USDA) &ldquo;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.fairlabor.org/sites/default/files/documents/reports/harvesting_the_future_june_2018.pdf"
+                            href="https://www.dol.gov/agencies/ilab/piloting-usda-guidelines-hazelnut-supply-chain-turkey-0"
                             title="Guidelines for Eliminating Child and Forced Labor in Agricultural Supply Chains"
                         >
                             Guidelines for Eliminating Child and Forced Labor in
                             Agricultural Supply Chains
                         </a>
                         &rdquo; in the hazelnut supply chain of Nestl&eacute;,
-                        Balsu, and Olam in Turkey. Implementation of the project
-                        began in 2016, and in 2018 the project will publish a
-                        report detailing lessons learned from this pilot-test
-                        and recommendations for other companies seeking to
-                        establish programs based on these Guidelines.
+                        Balsu, and Olam in Turkey. Implementation of the project began in 2016. 
+                        The project yielded new insights to the seasonal movements of migrant 
+                        workers and their involvement in other supply chains, such as sugar 
+                        and citrus fruits, helping businesses and suppliers to better understand 
+                        their labor force and assess risk within their supply chains. Furthermore, 
+                        the project identified approaches to strengthen engagement with particularly 
+                        vulnerable migrant workers, including integrating women into interventions. 
+                        In 2018, the project published a report, {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.fairlabor.org/sites/default/files/documents/reports/harvesting_the_future_june_2018.pdf"
+                            title="Harvesting the Future"
+                        >
+                            Harvesting the Future
+                        </a>
+                        , detailing lessons learned from this pilot-test and recommendations for other companies
+                         seeking to establish programs based on these Guidelines, alongside the U.S. 
+                         Department of Labor’s {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/sites/dolgov/files/ILAB/evaluation_type/final_evaluation/Turkey_FLA_feval.pdf"
+                            title="External Final Evaluation"
+                        >
+                            External Final Evaluation
+                        </a>
+                        {" "}
+                         of the project.
                     </p>
                 </ExampleInAction>
                 <br />
                 <h2>Forced Labor/Trafficking in Persons</h2>
                 <p>
-                    If the audit identifies forced labor/trafficking victims,
+                    If the business identifies forced labor/trafficking victims,
                     responses can vary depending on the type and circumstances
                     of the victim&rsquo;s situation.
                 </p>
@@ -227,9 +245,9 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="http://www.unodc.org/unodc/en/frontpage/2010/September/un-launches-global-plan-of-action-against-human-trafficking.html"
-                        title="Global Plan of Action on Trafficking in Persons"
+                        title="Global Plan of Action to Trafficking in Persons"
                     >
-                        Global Plan of Action on Trafficking in Persons
+                        Global Plan of Action to Trafficking in Persons
                     </a>
                     , the UN has developed a variety of tools on appropriate
                     treatment of and services for forced labor/trafficking
@@ -244,8 +262,7 @@ const en = () => {
                             href="http://www.unodc.org/documents/human-trafficking/TIP_1st_AidKit_English_V0981429.pdf"
                             title="First Aid Kit for Use by Law Enforcement Responders in Addressing Human Trafficking"
                         >
-                            First Aid Kit for Use by Law Enforcement Responders
-                            in Addressing Human Trafficking
+                            First Aid Kit for Use by Law Enforcement First Responders in Addressing Human Trafficking
                         </a>
                     </li>
                     <li>

@@ -33,26 +33,24 @@ const en = () => {
                         Example in Action: Pre-Registration Processes
                     </h2>
                     <p>
-                        Many companies require a new supplier to earn a passing
-                        score on a social audit before the company will place
-                        any orders with that supplier. Typically, the company
-                        provides training to prepare the supplier for the audit,
-                        or may expect a vendor/agent to provide training to
-                        suppliers. Once a supplier passes an audit, some
-                        companies will then register each supplier in the social
-                        compliance information system; other companies&rsquo;
-                        information systems are web-based and allow suppliers to
-                        register themselves.
+                    Many companies require a new supplier to earn a passing 
+                    score on a social audit before the company will place 
+                    any orders with that supplier.  Typically, the company 
+                    provides training to prepare the supplier for the audit, 
+                    or may expect a vendor/agent to provide training to suppliers. 
+                    Once a supplier passes an audit, some companies will then 
+                    register each supplier in the social compliance information 
+                    system; other companies’ information systems are web-based 
+                    and allow suppliers to register themselves.
                     </p>
                     <p>
-                        For example, Target Corporation* requires all vendors
-                        that supply Target branded products to complete a human
-                        rights and compliance assessment as part of the
-                        registration process. If a vendor proposes to source
-                        from a supplier that has a history of social compliance
-                        violations, Target requires a completed corrective
-                        action plan to remediate the violations before
-                        production begins. For more information, see{" "}
+                    For example, Target Corporation* requires all vendors that 
+                    supply Target branded products to complete a human rights 
+                    and compliance assessment as part of the registration process. 
+                    If a vendor proposes to source from a supplier that has a 
+                    history of social compliance violations, Target requires a 
+                    completed corrective action plan to remediate the violations 
+                    before production begins.  For more information, see{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

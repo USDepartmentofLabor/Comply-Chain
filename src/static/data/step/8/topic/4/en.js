@@ -116,14 +116,73 @@ const en = () => {
                     those impacts in the process.
                 </p>
                 <ExampleInAction id="correct-action">
-                                    <h2>
-                                        <ExampleInAction.Icon alt="Lightbulb"/>
-                                        <strong>
-                                            Example in Action: Best Buy
-                                        </strong>
-                                    </h2>
-                                    <p>
-                                        Place Holder
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: Best Buy&rsquo;s* Corrective Action Plan
+                        </strong>
+                    </h2>
+                    <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.bestbuy.com/"
+                        title="Best Buy Co., Inc."
+                    >
+                        Best Buy Co., Inc.
+                    </a>
+                    —the American consumer electronics retailer sources products 
+                    from approximately 185 factories that employ more than 165,000 workers. 
+                    As part of the vendor contracting process, Best Buy includes provisions that 
+                    prohibit forced labor as standard. This onboarding process includes training on 
+                    Best Buy&rsquo;s Supplier Code of Conduct, which is then performed annually as part 
+                    of an overall training program and when forced labor is identified during a 
+                    review process of a particular factory. Best Buy audits approximately 75 percent 
+                    of its contracted factories in the course of one year.
+                    </p>
+                    <p>
+                    If forced labor conditions are discovered, Best Buy takes actions which include among others:
+                    <ul>
+                        <li>
+                            Cessation of specific action(s)
+                        </li>
+                        <li>
+                            Completion by the supplier of a Best Buy-approved Corrective Action Plan (CAP)
+                        </li>
+                        <li>
+                        Pay wages owed and recruitment fees reimbursed for workers
+                        </li>
+                        <li>
+                        Establishment of supplier policy to prevent forced labor and training for relevant employees
+                        </li>
+                    	<li>
+                        Reliance on outside partners with expertise on foreign migrant workers and forced labor to conduct training for factory management and staff
+                        </li>
+                    	<li>
+                        Designation of the supplier as high-risk and subjecting the supplier to further due diligence
+                        </li>
+                    	
+                    </ul>
+                    </p>
+                    <p>
+                    A lack of compliance and incomplete Best Buy-approved Corrective Action Plan (CAP) 
+                    can lead to a termination of the contract with the factory. Best Buy also has 
+                    acknowledged taking steps to engage beyond first tier suppliers to respond to 
+                    allegations of forced labor in raw material sourcing and engage smelters who 
+                    may be sourcing from mines where forced labor may be present.
+                    </p>
+                    <p>
+                    Source: {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://corporate.bestbuy.com/forced-labor-not-acceptable/"
+                        title="https://corporate.bestbuy.com/forced-labor-not-acceptable/"
+                    >
+                        https://corporate.bestbuy.com/forced-labor-not-acceptable/
+                    </a>
+                    .
+
                                     </p>
                                     
                                     

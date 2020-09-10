@@ -30,11 +30,43 @@ const en = () => {
                 </p>
                 <OwnWords>
                                     <h2>
-                                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words: The Coca-Cola Company’s* country sugar studies on child labor, forced labor, and land rights</strong>
                                         {": "}
                                     </h2>
                                     <p>
-                                        <b>PLACEHOLDER FOR TEXT</b>
+                                       
+                                    “The country study is an exercise to enable The Coca-Cola Company 
+                                    to better understand its sugar sourcing supply chain and to give 
+                                    visibility on how Coca-Cola sugar supply companies and bottling 
+                                    partners are addressing key risks. The studies are not an audit, 
+                                    but are research, and focus on three key elements: child labor, 
+                                    forced labor and land rights, as these are considered higher risk 
+                                    factors in Coca-Cola’s agriculture supply chain.”
+                                    </p>
+                                    <p>
+                                    Read more about the 
+                                    {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.coca-colacompany.com/content/dam/journey/us/en/policies/pdf/human-workplace-rights/addressing-global-issues/sugar-study-methodology-overview.pdf"
+                            title="methodology"
+                        >
+                            methodology
+                        </a>{" "}
+                                     
+                                    of Coca-Cola’s country studies and explore the 
+                                    {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.coca-colacompany.com/policies-and-practices/country-sugar-studies"
+                            title="country sugar studies"
+                        >
+                            country sugar studies
+                        </a>{" "}
+                                     
+                                    produced so far.
                                     </p>
                                 </OwnWords>
 

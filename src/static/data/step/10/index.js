@@ -11,7 +11,7 @@ export const StepData = {
             "Understand the reasons for reporting publicly on social compliance programs, and the benefits for companies.",
             "Understand the nature and scope of the information that should be reported.",
             "Get a sense of the work involved in preparing and issuing public reports.",
-            "Understand how to engage consumers on issues of social compliance."
+            "Understand how to build engagement on issues of social compliance."
         ],
         keyTerms: [
             {
