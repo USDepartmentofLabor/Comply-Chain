@@ -165,7 +165,7 @@ const en = () => {
                         >
                             Responsible Recruitment Gateway
                         </a>
-                        .
+                        &nbsp;at https://www.ihrb.org/employerpays/.
                     </p>
                 </ExampleInAction>
                 <p>

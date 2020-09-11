@@ -334,6 +334,236 @@ const en = () => {
                         </a>
                         .
                     </li>
+                    <li>
+                        Barnes & Noble College.  League Collegiate Outfitters Creates Hope and Second Chances in El Salvador. [online, accessed May 8, 2017]; available from&nbsp;
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://next.bncollege.com/league-collegiate-outfitters/"
+                            title="Barnes & Noble College"
+                        >
+                            http://next.bncollege.com/league-collegiate-outfitters/
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Business & Human Rights Resource Centre, Business, Conflict & Peace Portal. Available from&nbsp;
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.business-humanrights.org/ConflictPeacePortal/Home"
+                            title="Business & Human Rights Resource Centre, Business, Conflict & Peace Portal"
+                        >
+                            http://www.business-humanrights.org/ConflictPeacePortal/Home
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Chen, Shaohua, and Martin Ravillion.  The developing world is poorer than we thought, but no less successful in the fight against poverty. World Bank, Washington, DC, August 26, 2008; available from&nbsp;
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://documents1.worldbank.org/curated/en/526541468262138892/pdf/WPS4703.pdf"
+                            title="Chen, Shaohua, and Martin Ravillion"
+                        >
+                            http://documents1.worldbank.org/curated/en/526541468262138892/pdf/WPS4703.pdf
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Ethical Trading Initiative.  Base Code Guidance: Living Wages; available from&nbsp;
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf"
+                            title=" Ethical Trading Initiative"
+                        >
+                            https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Fair Labor Association.  Fair Compensation [online, accessed May 15, 2017]; available from&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="http://www.fairlabor.org/report-type/fair-compensation"
+                                    title="Fair Labor Association."
+                                >
+                                    http://www.fairlabor.org/report-type/fair-compensation
+                                </a>
+                                .
+                            </li>
+                            <li>
+                                Fair Labor Association.  Fair Compensation for Farmworkers: Emerging Good Practices and Challenges; February 27, 2017; available from&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges"
+                                    title="Fair Labor Association"
+                                >
+                                    http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges
+                                </a>
+                                .
+                            </li>
+                            <li>
+                                Fair Labor Association.  Toward Fair Compensation in Global Supply Chains: Factory Pay Assessments in 21 Countries; August 3, 2016; available from&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries"
+                                >
+                                    http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries
+                                </a>
+                                .
+                            </li>
+                            <li>
+                                    ILO (2016) Global Wage Report 2016/17: Wage inequality in the workplace:&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_537846.pdf"
+                                    >
+                                        https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_537846.pdf
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    International Labor Organization.  Corporate Social Responsibility (CSR) [webpage]; available from&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ilo.org/ipec/Action/CSR/lang--en/index.htm"
+                                    >
+                                        http://www.ilo.org/ipec/Action/CSR/lang--en/index.htm
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    ILO (2016) Non-Standard Employment Around the World - Understanding Challenges, Shaping Prospects&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ilo.org/global/publications/books/WCMS_534326/lang--en/index.htm"
+                                    >
+                                        http://www.ilo.org/global/publications/books/WCMS_534326/lang--en/index.htm
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    ILO (2013) The Informal Economy and Decent Work - A Policy Resource Guide for Supporting Transitions to Formality&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ilo.org/emppolicy/pubs/WCMS_212688/lang--en/index.htm"
+                                    >
+                                        http://www.ilo.org/emppolicy/pubs/WCMS_212688/lang--en/index.htm
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    ILO (2015) World Employment Social Outlook - The Changing Nature of Jobs.&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_368626.pdf"
+                                    >
+                                        http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_368626.pdf.  Note that as of 2015 the World of Work Report has been replaced by a new annual ILO flagship series, the World Employment and Social Outlook (WESO)
+                                    </a>
+                                    .
+                                </li>
+                                <li>
+                                    LO (2014) World Social Protection Report: Building economic recovery, inclusive development and social justice.&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--en/index.htm"
+                                    >
+                                        http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--en/index.htm
+                                    </a>
+                                    .
+                                </li>
+                                    <li>
+                                            ISEAL Alliance. Global Living Wage Coalition [online, accessed May 15, 2017]; available from&nbsp;
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition"
+                                            >
+                                                https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition
+                                            </a>
+                                            .
+                                        </li>
+                                        <li>
+                                            New York Times. At Salvadoran Factory, Helping Troubled Youth Makes Business Sense.  September 21, 2015; available from&nbsp;
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0"
+                                            >
+                                                https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0
+                                            </a>
+                                            .
+                                        </li>
+                                        <li>
+                                            Weil, David. The Fissured Workplace: Why Work Became So Bad for So Many and What Can Be Done to Improve It.  Cambridge, MA: Harvard University Press, 2014
+                                        </li>
+                                        <li>
+                                            Wilshaw, Rachel; Hamilton, Sloane; Theroux-Seguin, Julie, and Daisy Gardener.  In Work but Trapped in Poverty: A Summary of Five Studies Conducted by Oxfam, with Updates on Progress Along the Road to a Living Wage; Oxfam International, September 29, 2015; available from&nbsp;
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815"
+                                            >
+                                                http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815
+                                            </a>
+                                            .
+                                        </li>
+                                     <li>
+                                         World Bank. 2017 World Development Indicators. Washington, DC, April 2017; available from&nbsp;
+                                         <a
+                                             target="_blank"
+                                             rel="noopener noreferrer"
+                                             href="http://data.worldbank.org/data-catalog/world-development-indicators"
+                                         >
+                                             http://data.worldbank.org/data-catalog/world-development-indicators
+                                         </a>
+                                         .
+                                     </li>
+                                     <li>
+                                         World Bank Institute. Business and Poverty: Opening Markets to the Poor. Washington, DC, June 2008; available from&nbsp;
+                                         <a
+                                             target="_blank"
+                                             rel="noopener noreferrer"
+                                             href="http://documents1.worldbank.org/curated/en/220861468140985450/pdf/444910WBWP0BOX327404B01public1.pdf"
+                                         >
+                                             http://documents1.worldbank.org/curated/en/220861468140985450/pdf/444910WBWP0BOX327404B01public1.pdf
+                                         </a>
+                                         .
+                                     </li>
+                                     <li>
+                                         World Bank. Fragility, Conflict and Violence. Overview, 2017&nbsp;
+                                         <a
+                                             target="_blank"
+                                             rel="noopener noreferrer"
+                                             href="http://www.worldbank.org/en/topic/fragilityconflictviolence/overview"
+                                         >
+                                             http://www.worldbank.org/en/topic/fragilityconflictviolence/overview
+                                         </a>
+                                         .
+                                     </li>
+                                     <li>
+                                         Internal Displacement Monitoring Centre.  2016 Global Report on Internal Displacement.&nbsp;
+                                         <a
+                                             target="_blank"
+                                             rel="noopener noreferrer"
+                                             href="http://www.internal-displacement.org/globalreport2016/"
+                                         >
+                                             http://www.internal-displacement.org/globalreport2016/
+                                         </a>
+                                         .
+                                     </li>
+
                 </ol>
             </div>
         </StaticData>

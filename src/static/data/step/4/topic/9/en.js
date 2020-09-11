@@ -314,8 +314,8 @@ const en = () => {
                </ExampleInAction> <br />
                <OwnWords>
                                           <h4>
-                                              <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
-                                              {": "}Key Risk Factors for Labor Rights Violations
+                                              <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words
+                                              {": "}Key Risk Factors for Labor Rights Violations</strong>
                                           </h4>
                                           <p>
                                               Certain projects funded by the U.S. International Development Finance Corporation (DFC),
@@ -346,7 +346,7 @@ const en = () => {
                                               title="Environmental and Social Policy Statement 2020."
                                           >
                                               Environmental and Social Policy and Procedures
-                                          </a>, 2020 at https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf.
+                                          </a>, 2020 at https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf
                                           </p>
                                                           </OwnWords>
         </StaticData>

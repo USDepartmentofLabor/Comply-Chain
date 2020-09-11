@@ -120,7 +120,7 @@ const en = () => {
                     message to suppliers about compliance, but also had
                     devastating consequences for workers. The issue of
                     &ldquo;responsible disengagement&rdquo; from a supplier is
-                    explored in SOMO&rsquo;s discussion paper from the Centre for Research on Multinational Corporations (SOMO):{" "}
+                    explored in a discussion paper from the Centre for Research on Multinational Corporations (SOMO):{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

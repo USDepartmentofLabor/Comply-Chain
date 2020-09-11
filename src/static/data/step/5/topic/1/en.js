@@ -27,6 +27,14 @@ const en = () => {
                     restructuring.&nbsp;
                 </p>
                 <p>
+                The first IFA was signed in 1988 by the French transnational food company BSN (renamed Danone* in 1994) and the
+                International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers’ Associations* (IUF).
+                The parties agreed that the IFA would cover all global operations, which as of 2008 encompassed about 100,000 employees worldwide.
+                The initial agreement stated that both parties would promote coordinated initiatives on issues including job skills training, coordinating
+                information across countries, ensuring gender equity and implementing trade union rights as defined in specific ILO conventions.
+                In March 2016, Danone and IUF signed their tenth agreement, which focuses on sustainable employment and worker rights and applies to the company’s subsidiaries across the globe.
+                </p>
+                <p>
                     Another recent agreement that has received positive
                     attention is the{" "}
                     <a
@@ -83,11 +91,34 @@ const en = () => {
                                     <h4>
                                         <ExampleInAction.Icon alt="Lightbulb"/>
                                         <strong>
-                                            Example in Action:
+                                            Example in Action: Danone and IUF
                                         </strong>
                                     </h4>
                                             <p>
-                                                <b>PLACEHOLDER TEXT</b>
+                                                “Precarious employment” refers to employment situations that are short or fixed-term and,
+                                                in many cases, subcontracted.  Such employment situations are often less secure and lower-paid than
+                                                 permanent positions, with greater vulnerability to abuse and exploitation.  The tenth IFA between&nbsp;
+                                                 <a
+                                                     target="_blank"
+                                                     rel="noopener noreferrer"
+                                                     href="https://www.danone.com/"
+                                                 >
+                                                 Danone
+                                                 </a>
+                                                 &nbsp;and&nbsp;
+                                                 <a
+                                                      target="_blank"
+                                                      rel="noopener noreferrer"
+                                                      href="www.iuf.org/w/"
+                                                  >
+                                                 IUF
+                                                 </a>
+                                                 , signed March 16, 2015, applies to all of Danone’s subsidiaries around the world.  Per the agreement, Danone
+                                                 and IUF agreed to reduce precarious employment through “clear definitions, processes, and methodology.”  To this end,
+                                                  the IFA limits the use of temporary employment to specific situations, including “access to a new market, economic crisis,
+                                                  seasonal activity, specific competencies needed, or the acquisition of the company.”  By spelling out these specific conditions,
+                                                  the Danone and IUF agreed to promote permanent, sustainable, and direct-forms of employment, which they agreed best promotes “the
+                                                  full enjoyment fundamental rights.”
                                             </p>
                       </ExampleInAction>
                 <Accordion id="resources" >

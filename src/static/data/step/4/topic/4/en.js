@@ -174,111 +174,23 @@ const en = () => {
                   <Accordion id="generic-imp-supply">
                       <Accordion.Section id="generic-imp-description">
                           <Accordion.Title>
-                          Generic Import Supply Chain- Retail Model
+                          Seafood Supply Chain
                       </Accordion.Title>
                       <Accordion.Panel>
-                          <img
-                          src={genericImport}
-                          alt="Generic Import Supply Chain - Retail Model"
-                          longdesc="#generic_import"
-                          />
-                      <p className="small-text">
-                          Source:{" "}
-                          <a
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              href="https://corporate.target.com/"
-                          >
-                              Target Corporation.
-                          </a>
+
+                      <p>
+                        The structure of every supply chain in the seafood sector takes a similar path
+                        from the fisher to the end buyer; however, there are often many variations along the
+                        way.  Furthermore, the end user in a seafood supply chain is very diverse, including
+                        points of service (e.g., restaurants, hotels, hospitals, and schools) and points of sale
+                        (e.g. retail outlets among others).  With respect to wild caught seafood, fleets of vessels
+                        may coordinate with a “mother ship” to aggregate the daily catch.  Upon delivery of this catch to
+                        land, the seafood is either delivered to a primary processor or to the open market.  The primary
+                        processor receives the seafood and processes it for further sale to retailers or foodservice distributors
+                        who move it to end users. Seafood sold into these more formal markets entail many permutations with a
+                        variety of mid-chain players from primary processors to secondary processors to dealers to transporters
+                        among others with each playing a role to move the product closer to the point of final sale.
                       </p>
-                         <div id="cocoa_chains">
-            <p>
-                This graphic illustrates the steps in a
-                generic import supply chain. The depiction
-                of a typical retail model supply chain
-                begins with:
-            </p>
-            <ul>
-                <li>
-                    Step One: Product Development. In this
-                    phase, a product concept and supplier
-                    are determined, and a product design is
-                    finalized. This is also when financing
-                    is determined and occurs 5 to 9 months
-                    prior to the in-store date.
-                </li>
-                <li>
-                    Step Two: Order and Production. Here,
-                    item set-up and classification occurs,
-                    and a buyer sends an electronic purchase
-                    order to a vendor, customs broker,
-                    freight forwarder and bank. Factory
-                    selection and pre-production testing is
-                    next, followed by merchandise production
-                    by the factory which checks for quality
-                    assurance and social compliance. This
-                    all occurs 2 to 5 months prior to the
-                    in-store date.
-                </li>
-                <li>
-                    Step Three: Carrier Booking. Here, the
-                    vendor books cargo with a freight
-                    forwarder and delivers cargo to a
-                    terminal or Container Freight Station
-                    (CFS) location. This happens 2 to 4
-                    months prior to the in-store date.
-                </li>
-                <li>
-                    Step Four: Document Processing and
-                    Shipment. The vendor submits entry docs
-                    to the freight forwarder and pays local
-                    charges. The freight forwarder also
-                    sends docs electronically to the broker.
-                    A Forwarders Cargo Receipt (FCR) is
-                    issued to the vendor (which is required
-                    for the vendor to receive payment). The
-                    24 hour manifest and Importer Security
-                    Filing (ISF) information are due to U.S.
-                    Customs at this stage, as well. The
-                    vessel departs, and then the freight
-                    forwarder sends electronic shipping
-                    details to the customs broker and the
-                    buyer. This step occurs 1 to 2 months
-                    prior to the in-store date.
-                </li>
-                <li>
-                    Step Five: Customs Clearance. Here, the
-                    broker receives electronic entry docs,
-                    and the broker reviews and verifies
-                    documents. The broker then files entry
-                    with U.S. Customs and Other Government
-                    Agencies (OGAs). The buyer sends
-                    allocation instructions to Decon at this
-                    stage, as well. Then, the vessel arrives
-                    and the container is released for
-                    distribution. This all occurs 1 month
-                    prior to the in-store date.
-                </li>
-                <li>
-                    Step 6: Deconsolidation/Shipment to
-                    Final Destination. This occurs 2 weeks
-                    through the in-store date. Here,
-                    delivery is arranged to the
-                    deconsolidation center (or final
-                    destination). Decon then distributes the
-                    product using buyer allocation
-                    instructions. The product is delivered
-                    to the distribution center, warehouse or
-                    store. An Additional Information and
-                    Terms section of the graphic defines
-                    acronyms used in the illustration and
-                    also mentions that not all importers
-                    classify items early in the supply
-                    chain.
-                </li>
-            </ul>
-                        </div>
                       </Accordion.Panel>
                   </Accordion.Section>
                   </Accordion>

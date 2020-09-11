@@ -450,7 +450,14 @@ const en = () => {
                                                   href="https://knowthechain.org/themes/19/"
                                               >
                                             https://knowthechain.org/themes/19/
-                                            </a>
+                                            </a> and&nbsp;
+                                            <a
+                                                  target="_blank"
+                                                  rel="noopener noreferrer"
+                                                  href=" https://www.business-humanrights.org/sites/default/files/documents/KTC_Primark%20response%20June2016_v2.pdf"
+                                              >
+                                           https://www.business-humanrights.org/sites/default/files/documents/KTC_Primark%20response%20June2016_v2.pdf
+                                           </a>
                                           </p>
                                          </ExampleInAction>
                                          <br />

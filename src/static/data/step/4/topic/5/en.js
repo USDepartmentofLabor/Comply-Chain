@@ -99,9 +99,9 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.dol.gov/general/apps/ilab"
-                        title="Sweat &amp; Toil App"
+                        title="Sweat &amp; Toil app"
                     >
-                        Sweat &amp; Toil App
+                        Sweat &amp; Toil app
                     </a>
                     , along with extensive information from DOL&rsquo;s{" "}
                     <a
@@ -123,14 +123,14 @@ const en = () => {
                     >
                         ILAB website
                     </a>
-                    , is free and available for download on the Apple's{" "}
+                    , is free and available for download on the apple's{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://itunes.apple.com/us/app/sweat-toil-child-labor-forced/id1018240593?ls=1"
-                        title="App Store"
+                        title="app Store"
                     >
-                        App Store
+                        app Store
                     </a>{" "}
                     or{" "}
                     <a
