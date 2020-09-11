@@ -21,11 +21,6 @@ export const StepData = {
                 termName: "Community",
                 termDefinition:
                     "For purposes of this app, a community is comprised of the people in a geographic area (neighborhood, village, town, region) located at some point along your company’s supply chain. The communities in your company’s supply chains are among your stakeholders. "
-            },
-            {
-                termName: "Worker Voice",
-                termDefinition:
-                    "PLACEHOLDER FOR TEXT. "
             }
         ],
         furtherResources: Resources.en

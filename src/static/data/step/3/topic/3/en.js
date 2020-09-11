@@ -309,23 +309,6 @@ const en = () => {
                                 <strong> root causes </strong>of labor abuses.
                             </li>
                         </ul>
-
-
-                       <h2>The Importance of External Stakeholders in Social Compliance Systems</h2>
-                        <ul>
-                            <li>
-                                PLACEHOLDER FOR TEXT
-                            </li>
-
-                            <li>
-                                 PLACEHOLDER FOR TEXT
-                            </li>
-                            <li>
-                                PLACEHOLDER FOR TEXT
-                            </li>
-                        </ul>
-
-
                 <h2>
                     The Role of Government Entities in Social Compliance Systems
                 </h2>
