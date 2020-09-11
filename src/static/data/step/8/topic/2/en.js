@@ -215,7 +215,7 @@ const en = () => {
                 <br />
                 <h2>Forced Labor/Trafficking in Persons</h2>
                 <p>
-                    If the business identifies forced labor/trafficking victims,
+                    If a business identifies forced labor/trafficking victims,
                     responses can vary depending on the type and circumstances
                     of the victim&rsquo;s situation.
                 </p>

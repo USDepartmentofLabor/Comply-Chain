@@ -3,6 +3,9 @@ import Accordion from "../../../../../../components/Accordion";
 import StaticData from "../../../../../../components/StaticData";
 import cocoaSupplyChains from "../../../../../images/cocoa_supply_chains.png";
 import genericImport from "../../../../../images/generic_import.png";
+import electronics from "../../../../../images/electronics.jpg";
+import minerals from "../../../../../images/minerals.jpg";
+import seafood from "../../../../../images/seafood.jpg";
 
 const en = () => {
     return (
@@ -155,7 +158,16 @@ const en = () => {
                             Electronics Supply Chains - Cobalt, Tantalum, and Tin
                         </Accordion.Title>
                         <Accordion.Panel>
-
+                        <img
+                              src={electronics}
+                              alt="Electronics Supply Chains"
+                              longdesc="#electronics_chains"
+                              />
+                        <img
+                              src={minerals}
+                              alt="DRC Minerals Supply Chains"
+                              longdesc="#minerals_chains"
+                              />
                         <p className="small-text">
                         The graphics above illustrates the general steps in the supply chain for the electronics industry,
                         which sources many rare earth metals from the Central African nation of the Democratic Republic of
@@ -177,20 +189,39 @@ const en = () => {
                           Seafood Supply Chain
                       </Accordion.Title>
                       <Accordion.Panel>
-
+                          <br />
+                      <img
+                              src={seafood}
+                              alt="Seafood Supply Chains"
+                              longdesc="#seafood_chains"
+                              />
                       <p>
-                        The structure of every supply chain in the seafood sector takes a similar path
-                        from the fisher to the end buyer; however, there are often many variations along the
-                        way.  Furthermore, the end user in a seafood supply chain is very diverse, including
-                        points of service (e.g., restaurants, hotels, hospitals, and schools) and points of sale
-                        (e.g. retail outlets among others).  With respect to wild caught seafood, fleets of vessels
-                        may coordinate with a “mother ship” to aggregate the daily catch.  Upon delivery of this catch to
-                        land, the seafood is either delivered to a primary processor or to the open market.  The primary
-                        processor receives the seafood and processes it for further sale to retailers or foodservice distributors
-                        who move it to end users. Seafood sold into these more formal markets entail many permutations with a
-                        variety of mid-chain players from primary processors to secondary processors to dealers to transporters
-                        among others with each playing a role to move the product closer to the point of final sale.
-                      </p>
+                      The structure of every supply chain in the seafood sector takes a similar path from the fisher 
+                      to the end buyer; however, there are often many variations along the way. Furthermore, the end 
+                      user in a seafood supply chain is very diverse, including points of service (e.g., restaurants, 
+                      hotels, hospitals, and schools) and points of sale (e.g. retail outlets among others). With 
+                      respect to wild caught seafood, fleets of vessels may coordinate with a “mother ship” to 
+                      aggregate the daily catch. Upon delivery of this catch to land, the seafood is either delivered 
+                      to a primary processor or to the open market. The primary processor receives the seafood and 
+                      processes it for further sale to retailers or foodservice distributors who move it to end users. 
+                    </p>
+                    <p>
+                    Seafood sold into these more formal markets entail many permutations with a variety of mid-chain 
+                    players from primary processors to secondary processors to dealers to transporters among others 
+                    with each playing a role to move the product closer to the point of final sale.
+                    </p>
+                    <p>
+                    Source: {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.resolve.ngo/site-eiscm/default.htm?RD=1"
+                        title="Resolve NGO"
+                    >
+                        https://www.resolve.ngo/site-eiscm/default.htm?RD=1
+                    </a>.  
+                    </p>
+
                       </Accordion.Panel>
                   </Accordion.Section>
                   </Accordion>
