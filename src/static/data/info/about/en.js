@@ -307,7 +307,7 @@ const en = () => {
                     </Accordion.Title>
                     <Accordion.Panel>
                         <p>
-                            This app is for all companies. Companies that have
+                            This app is for all companies , as well as for academics, investors, members of civil society, and many more. Companies that have
                             not yet put in place social compliance systems may
                             find it most useful. It can also be useful for
                             companies that have systems in place but are seeking

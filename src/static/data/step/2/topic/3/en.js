@@ -227,7 +227,7 @@ const en = () => {
                                         >
                                             IFC Performance Standard 2
                                         </a>
-                                        <em>,</em> 2012.
+                                        <em>,</em> 2012. available from http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2.
                                     </p>
                                 </OwnWords>
                 <p>

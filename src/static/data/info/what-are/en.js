@@ -228,7 +228,16 @@ const en = () => {
                             <p />
                             <h3>Child Labor Estimates</h3>
                             <p>
-                                The ILO estimates that in 2016, there were 152
+                                The ILO&#39;s&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/publication/wcms_575499.pdf"
+                                    title="Global Estimates of Child Labour"
+                                >
+                                 Global Estimates of Child Labour
+                                 </a>
+                                &nbsp;estimates that in 2016, there were 152
                                 million child laborers worldwide. Global child
                                 labor statistics are not yet available from 2016
                                 onward. Of the 152 million child laborers, the most

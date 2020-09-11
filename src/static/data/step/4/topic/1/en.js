@@ -28,7 +28,7 @@ const en = () => {
                     ultimate origins of the various inputs used in the fabrication of company products.
                     Ultimately, if the sugarcane plantation is complicit in forced labor and compels
                     its workforce as such in the production of that sugarcane which is then refined
-                    and sold as sugar to the company then the downstream sugar company’s product is a product made in part with forced labor
+                    and sold as sugar to the company then the downstream sugar company’s product is a product made in part with forced labor.
                 </p>
                 <p>
                     Mineral and resource extraction have also contributed to social conflicts,

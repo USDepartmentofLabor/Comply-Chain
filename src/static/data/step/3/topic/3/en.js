@@ -364,16 +364,9 @@ const en = () => {
                     <h3>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Engagement with Government
+                            Example in Action: Brazil&rsquo;s &ldquo;Dirty List&rdquo; and Institute of the National Pact for the Eradication of Slave Labor{" "}
                         </strong>
                     </h3>
-                    <p>
-                        <strong>
-                            Brazil&rsquo;s &ldquo;Dirty List&rdquo; and
-                            Institute of the National Pact for the Eradication
-                            of Slave Labor{" "}
-                        </strong>
-                    </p>
                     <p>
                         The Government of Brazil publishes a Register of
                         Employers <em>(</em>
@@ -411,7 +404,13 @@ const en = () => {
                         six business associations are part of InPACTO.
                     </p>
                     <p>
-                        For more information, visit InPACTO at http://inpacto.org.br/.
+                        For more information, visit InPACTO at&nbsp;
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://inpacto.org.br/"
+                        >
+                        http://inpacto.org.br/</a>.
                     </p>
                 </ExampleInAction>
                 <p>Once you have identified your stakeholders and understand the potential

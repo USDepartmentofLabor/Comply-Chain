@@ -7,7 +7,9 @@ const en = () => {
         <StaticData>
             <div>
                 <h1>Model of a Social Compliance System</h1>
-                
+                                <p>
+                                While systems may vary from industry to industry, a good social compliance system in any industry includes multiple components, functioning in an integrated way.
+                                </p>
                                 <p>
                                     Although the steps below are numbered for
                                     ease of understanding, social compliance is

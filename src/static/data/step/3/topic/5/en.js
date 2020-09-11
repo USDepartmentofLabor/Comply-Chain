@@ -147,8 +147,10 @@ const en = () => {
                     >
                     www.flbusiness.network
                     </a>
-                    &nbsp;or contact
-                    fl-businessnetwork@ilo.org.
+                    &nbsp;or contact&nbsp;
+                    <a href="mailto:fl-businessnetwork@ilo.org">
+                    fl-businessnetwork@ilo.org</a>
+                    .
                     </p>
                 </ExampleInAction>
             </div>

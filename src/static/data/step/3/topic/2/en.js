@@ -111,7 +111,7 @@ const en = () => {
                         >
                             26000, Guidance on Social Responsibility
                         </a>
-                        <em>, 2010</em>.
+                        <em>, 2010</em> available from https://www.iso.org/standard/42546.html.
                     </p>
                 </OwnWords>
             </div>
