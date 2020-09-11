@@ -73,6 +73,24 @@ const en = () => {
                             goods using [forced and child labor].&rdquo;&nbsp;
                         </p>
                         <p>
+                           In the&nbsp;
+                           <a
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               href="https://www.congress.gov/bill/115th-congress/house-bill/2200/text"
+                               title="2018 reauthorization of the TVPRA"
+                           >
+                           2018 reauthorization of the TVPRA
+                           </a>
+                           , Congress added a new mandate to ILAB related to this List.
+                           Specifically, in Section 133 of the new law, Congress included language to require that “to the extent
+                           practicable, goods that are produced with inputs that are produced with forced labor or child labor” be
+                           added to the List of Goods.  This new language challenges ILAB and others around the world to not just
+                           examine final goods and products, but the inputs to those goods and products.  ILAB’s expanded mandate
+                           reinforces the expanding parameters of due diligence and confronting child labor and forced labor across
+                           often complex and multi tier global supply chains.
+                        </p>
+                        <p>
                             This app responds to these evolving mandates of the TVPRA,
                             but it also achieves a much broader purpose by actively
                             supporting the efforts of companies that seek to
