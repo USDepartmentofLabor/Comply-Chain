@@ -331,29 +331,6 @@ const en = () => {
                     Principles Concerning Multinational Enterprises and Social
                     Policy.
                 </p>
-                <ExampleInAction id="eicc">
-                            <h4>
-                                <ExampleInAction.Icon alt="Lightbulb"/>
-                                <strong>
-                                    Example in Action:
-                                </strong>
-                            </h4>
-                                    <p>
-                                        <b>PLACEHOLDER TEXT</b>
-                                    </p>
-              </ExampleInAction>
-              <br />
-              <ExampleInAction id="eicc">
-                          <h4>
-                              <ExampleInAction.Icon alt="Lightbulb"/>
-                              <strong>
-                                  Example in Action:
-                              </strong>
-                          </h4>
-                          <p>
-                              <b>PLACEHOLDER TEXT</b>
-                          </p>
-            </ExampleInAction>
             </div>
         </StaticData>
     );

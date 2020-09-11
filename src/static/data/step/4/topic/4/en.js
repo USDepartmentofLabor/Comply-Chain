@@ -155,7 +155,7 @@ const en = () => {
                     <Accordion id="electronic-supply-chain">
                         <Accordion.Section id="electronic-supply-chain-description">
                             <Accordion.Title>
-                            Electronics Supply Chains - Cobalt, Tantalum, and Tin
+                            Electronics Supply Chains
                         </Accordion.Title>
                         <Accordion.Panel>
                         <img
