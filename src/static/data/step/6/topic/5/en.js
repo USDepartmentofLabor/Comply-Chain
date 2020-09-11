@@ -257,7 +257,17 @@ const en = () => {
                 <p>
                     Source: Office of the High Commissioner of Human Rights. (2011). Guiding Principles for Business and Human Rights: 
                     Implementing the United Nations “Protect, Respect and Remedy” Framework. 
-                    Retrieved from: https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf.
+                    Retrieved from: {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+                        title="UN Protect, Respect and Remedy Framework"
+                    >
+                        
+                        https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf
+                        
+                    </a>.
                     <br />
                     {" "}
                     <a
