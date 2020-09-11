@@ -19,7 +19,7 @@ const en = () => {
                                     communication plans, information systems,
                                     grievance and complaint mechanisms, and
                                     independent verification―are the subject of
-                                    this App and are covered more
+                                    this app and are covered more
                                     comprehensively in different sections.
                                 </p>
                                 <p>
@@ -147,7 +147,7 @@ const en = () => {
                                         >
                                             <em>
                                                 Responsible Business Alliance
-                                                Code of Conduct v. 6.0 (2018)
+                                                Code of Conduct v. 6.0 (2018) available from http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_English.pdf.
                                             </em>
                                         </a>
                                     </p>

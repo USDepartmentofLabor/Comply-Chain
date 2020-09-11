@@ -82,7 +82,7 @@ const en = () => {
                     </h2>
 
                     <p>
-                        For over 20 years,{" "}
+                        For 25 years,{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -91,31 +91,37 @@ const en = () => {
                         >
                             GoodWeave
                         </a>{" "}
-                        has been working to transform the carpet industry by
-                        encouraging market demand for child-labor free rugs and
-                        helping businesses to meet that demand. Rug importers
-                        and exporters that wish to be licensed by GoodWeave and
-                        earn a consumer-facing GoodWeave label must sign a
-                        legally binding contract to abide by GoodWeave&rsquo;s
-                        rigorous standard for certifying that rugs are free from
-                        child labor, forced labor, and bonded labor. As part of
-                        the certification program, companies agree to permit
-                        unannounced inspections in their supply chains to
-                        monitor for compliance with the standard and ensure that
-                        violations are remediated. Companies also pay licensing
-                        fees that support GoodWeave&rsquo;s programs for
-                        monitoring and inspection of workplaces and the
-                        rehabilitation and education of exploited children.
-                        GoodWeave is a full member of the International Social
-                        and Environmental Accreditation and Labeling (ISEAL)
-                        Alliance, an association widely known as a world leader
-                        in establishing best practices for certification
-                        standards. In the past few years, GoodWeave has expanded
-                        the reach of its program beyond the carpet industry in
-                        India, to new sectors and countries, including the brick
-                        kilns of Nepal, apparel factories in India, and
-                        home-based carpet production in Afghanistan (the latter
-                        through a DOL-funded project).
+                        has worked to stop child labor in global supply chains.
+                        GoodWeave encourages market demand for child-labor free certified
+                        rugs and home textiles, and helps businesses to meet that demand.
+                        Importers and exporters that wish to be licensed by GoodWeave and
+                        earn a consumer-facing GoodWeave label, must sign a legally binding
+                        contract to abide by GoodWeave’s rigorous standard for certifying that
+                        products are free from child, forced and bonded labor.  As part of the
+                        certification program, companies agree to permit unannounced inspections
+                        in their supply chains to monitor for compliance with the standard and
+                        ensure that violations are remediated.  Companies also pay licensing fees
+                        that support GoodWeave’s programs for monitoring and inspection of workplaces,
+                        and the rehabilitation and education of exploited children.  GoodWeave is a full
+                        member of the International Social and Environmental Accreditation and Labeling
+                        (ISEAL) Alliance, an association widely known as a world leader in establishing best
+                        practices for certification standards.
+                    </p>
+                    <p>
+                        With over 170 brand partners and 25% of international market share, GoodWeave
+                        has transformed South Asia’s handmade carpet sector through its market-based
+                        model, where child labor has dropped from one million victims in 1995 to an
+                        estimated 200,000 today.  GoodWeave is now expanding its successful model to
+                        home textiles, apparel, fashion accessories and other sectors.
+                        Visit&nbsp;
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://goodweave.org/"
+                        >
+                        goodweave.org
+                        </a>
+                        &nbsp;to learn more.
                     </p>
                     <p>
                         Learn more about the DOL-funded{" "}
@@ -130,7 +136,7 @@ const en = () => {
                                 Carpet Production in Afghanistan
                             </em>
                         </a>
-                        <em>, </em>implemented by GoodWeave.
+                        <em>, </em>implemented by GoodWeave, at https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan.
                     </p>
                     <img src={goodweave} alt="GoodWeave International" />
                     <p className="small-text">

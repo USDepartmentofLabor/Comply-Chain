@@ -83,7 +83,7 @@ const en = () => {
                             Labor
                         </em>
                     </a>
-                    . Like this App, this regularly updated ILAB publication was
+                    . Like this app, this regularly updated ILAB publication was
                     mandated by the{" "}
                     <a
                         target="_blank"
@@ -99,9 +99,9 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.dol.gov/general/apps/ilab"
-                        title="Sweat &amp; Toil App"
+                        title="Sweat &amp; Toil app"
                     >
-                        Sweat &amp; Toil App
+                        Sweat &amp; Toil app
                     </a>
                     , along with extensive information from DOL&rsquo;s{" "}
                     <a
@@ -123,14 +123,14 @@ const en = () => {
                     >
                         ILAB website
                     </a>
-                    , is free and available for download on the{" "}
+                    , is free and available for download on the apple's{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://itunes.apple.com/us/app/sweat-toil-child-labor-forced/id1018240593?ls=1"
-                        title="iTunes"
+                        title="app Store"
                     >
-                        iTunes
+                        app Store
                     </a>{" "}
                     or{" "}
                     <a
@@ -178,7 +178,7 @@ const en = () => {
                         Central America harvesting crops, including the elderly
                         and very young children. We understand better the kinds
                         of government laws and policies, such as those seen in
-                        some Gulf countries, that can perpetuate forced labor by
+                        some Gulf countries, which can perpetuate forced labor by
                         leaving migrant workers vulnerable to exploitative
                         practices such as passport confiscation by their
                         employers, non-payment of wages, and contract

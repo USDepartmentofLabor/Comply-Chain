@@ -177,14 +177,40 @@ const en = () => {
                         showing factory name, address, goods produced, languages
                         spoken, and the number of employees by gender.</p>
                          <OwnWords>
-                                                            <h2>
-                                                                <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
-                                                                {": "}
-                                                            </h2>
-                                                            <p>
-                                                                <b>PLACEHOLDER FOR TEXT</b>
-                                                            </p>
-                                                        </OwnWords>
+                            <h2>
+                                <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                                {": "}
+                            </h2>
+                            <p>
+                            “All of these suppliers are desperately trying to find ways to 
+                            cut costs. The only thing they have substantial control over is labor.” 
+                            </p>
+                            <p>
+                            - Scott Nova, executive director of {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.workersrights.org/"
+                            title="Workers Rights Consortium"
+                        >
+                            Workers Rights Consortium
+                        </a>{""}
+                            
+                            ,* 
+                            a group that monitors and investigates labor conditions in factories 
+                            around the world, in an interview with {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.theatlantic.com/business/archive/2015/06/patagonia-labor-clothing-factory-exploitation/394658/"
+                            title="The Atlantic in 2015"
+                        >
+                            The Atlantic in 2015
+                        </a>{""}
+                            
+                            . 
+                            </p>
+                        </OwnWords>
                         <h2>Metrics to Measure Progress</h2>
                         <p>The <strong>metrics </strong>or Key Performance
                         Indicators (KPIs) your social compliance program uses to
@@ -219,7 +245,7 @@ const en = () => {
                         as comprehensive and specific as possible. Some
                         companies publish full audit reports, while others
                         aggregate audit data and publish it in compiled form.
-                        For example, the <strong>FLA</strong> publishes{" "}
+                        For example, the <strong>FLA*</strong> publishes{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -285,27 +311,171 @@ const en = () => {
                                         <h2>
                                             <ExampleInAction.Icon alt="Lightbulb"/>
                                             <strong>
-                                                Example in Action: Unilever&#39;s Palm Oil Supply Chain
+                                                Example in Action: Unilever&rsquo;s Palm Oil Supply Chain
                                             </strong>
                                         </h2>
                                         <p>
-                                        <br />
+                                        What makes ice cream smooth and creamy and keeps chocolate from melting? 
+                                        The answer is palm oil, which is in approximately half of the packaged 
+                                        products we buy at the supermarket. Palm oil is in everything from lipstick 
+                                        to pizza dough, from non-dairy creamers to automotive cleaners. It is 
+                                        even used to make biodiesel fuels. While the cultivation of palm has 
+                                        been an important motor of economic development around the globe, 
+                                        including in Southeast Asia, which accounts for more than 85 percent 
+                                        of the world&rsquo;s product, the supply is often tainted by child labor. 
+                                        In Indonesia and Malaysia, for example, children work alongside their 
+                                        parents, who often must meet harvest quotas to avoid wage deductions and 
+                                        other penalties. On the plantations, they are exposed to toxic chemicals 
+                                        and risk injury from carrying heavy loads. Children toiling in the palm 
+                                        oil industry—whether in Southeast Asia, Africa, or Latin America—often work 
+                                        long hours and miss school. So, what are leading producers and retailers 
+                                        doing to combat child labor in the global palm supply, and how can consumers 
+                                        make informed decisions at the supermarket?
                                         </p>
+                                        <p>
+                                        As an outcome related to its {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.unilever.com/Images/unilever-palm-oil-policy-2016_tcm244-479933_en.pdf"
+                                title="Sustainable Palm Oil Sourcing Policy"
+                            >
+                                Sustainable Palm Oil Sourcing Policy
+                            </a>
+                                        
+                                        , British-Dutch consumer 
+                                        goods company Unilever disclosed its full list of suppliers in 2017 and has continued to 
+                                        take steps to update its list of {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.unilever.com/Images/-palm-oil-suppliers_updated-january-2019_tcm244-530096_en.pdf"
+                                title="suppliers"
+                            >
+                                suppliers
+                            </a> {" "}
+                                         
+                                        and disclose similar lists of both {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.unilever.com/Images/-unilever-s-universal-palm-oil-mill-list_h1-2018_final_tcm244-530097_1_en.pdf"
+                                title="mills"
+                            >
+                                mills
+                            </a> {" "}
+                                        
+                                         and {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.unilever.com/Images/-unilever-s-universal-palm-oil-refinery-list_h1-2018_final_tcm244-530098_1_en.pdf"
+                                title="refineries"
+                            >
+                                refineries
+                            </a>
+                                        
+                                        . These efforts are a step in the right direction to showcase the complexity 
+                                        that lurks beneath the surface of an otherwise simple ingredient to our favorite desert: 
+                                        chocolate ice cream.  
+                                        </p>
+                                    <p>
+                                    Source:{" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.unilever.com/sustainable-living/reducing-environmental-impact/sustainable-sourcing/transforming-the-palm-oil-industry/improving-the-visibility-of-our-supply-chain/"
+                                title="unilever supply chain"
+                            >
+                                https://www.unilever.com/sustainable-living/reducing-environmental-impact/sustainable-sourcing/transforming-the-palm-oil-industry/improving-the-visibility-of-our-supply-chain/
+                            </a>.  
+                                    </p>
+                                    <p>
+                                    Source:{" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor/indonesia"
+                                title="indonesia report"
+                            >
+                                https://www.dol.gov/agencies/ilab/resources/reports/child-labor/indonesia
+                            </a>.  
+                                    </p>
+                                    <p>
+                                    Source:{" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.dol.gov/sites/dolgov/files/ILAB/ListofGoods.pdf"
+                                title="ilab list of goods"
+                            >
+                                https://www.dol.gov/sites/dolgov/files/ILAB/ListofGoods.pdf
+                            </a>.  
+                                    </p>
                                     </ExampleInAction>
                                     <br />
                      <ExampleInAction id="nike">
                                      <h2>
                                          <ExampleInAction.Icon alt="Lightbulb"/>
                                          <strong>
-                                             Example in Action: Unilever&#39;s Palm Oil Supply Chain
+                                             Example in Action: HP Inc.&rsquo;s* work to eliminate conflict-related risks from its supply chain
                                          </strong>
                                      </h2>
                                      <p>
-                                     <br />
+                                     HP Inc. (HP) is an American information technology multinational that 
+                                     develops personal computers, printers, and related equipment. In fact, 
+                                     HP is the world’s largest vendor of personal computers. The manufacturing 
+                                     of personal computers requires small amounts of various metals, such as 
+                                     tantalum, tin, tungsten, and gold. Sadly, a number of groups has sought 
+                                     to capture revenue from the mining of these minerals—known collectively 
+                                     as “3TGs” to use as funding for the perpetration of human rights violations 
+                                     in the Democratic Republic of the Congo and its neighboring countries. 
+                                     HP, like many large companies, has the most direct control over its 
+                                     immediate Tier 1 suppliers; however, the persistence of these abuses requires 
+                                     companies to explore ways to influence the behavior of those suppliers closer 
+                                     to the source of these raw materials, namely ore smelters.
+                                     </p>
+                                     <p>
+                                     In an effort to limit the intrusion of these conflict minerals into its supply 
+                                     chain, HP demands suppliers to source 3TG from ore smelters who comply with 
+                                     the {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="http://www.responsiblemineralsinitiative.org/about/rmi-initiative/"
+                                title="Responsible Minerals Initiative&rsquo;s (RMI) Responsible Minerals Assurance Process 
+                                (RMAP)"
+                            >
+                                Responsible Minerals Initiative&rsquo;s (RMI) Responsible Minerals Assurance Process 
+                                     (RMAP)
+                            </a>
+                                     
+                                     , which requires a third-party sourcing audit. RMAP and RMI are products 
+                                     of the Responsible Business Alliance (RBA)—a nonprofit comprised of electronics, 
+                                     retail, auto, and toy companies, including HP, committed to supporting the rights 
+                                     and well-being of workers and communities worldwide affected by the global supply chain. 
+                                     </p>
+                                     <p>
+                                     HP assesses suppliers&rsquo; performance through reporting templates and requesting 
+                                     corrective action, such as the removal of risky ore smelters. Importantly, 
+                                     the work of HP in this effort highlights the value of multi-stakeholder initiatives 
+                                     and leveraging public disclosure and proper reporting to drive change in the industry 
+                                     and encourage joint efforts to address these substantial and deadly risks. 
+                                     </p>
+                                     <p>
+                                     Source: {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www8.hp.com/us/en/hp-information/global-citizenship/human-progress/conflictminerals.html"
+                                title="hp human progress conflictminerals"
+                            >
+                                https://www8.hp.com/us/en/hp-information/global-citizenship/human-progress/conflictminerals.html
+                            </a>.  
                                      </p>
                                  </ExampleInAction>
                              <br />
-                      <ExampleInAction id="nike">
+                      {/* <ExampleInAction id="nike">
                                           <h2>
                                               <ExampleInAction.Icon alt="Lightbulb"/>
                                               <strong>
@@ -333,7 +503,7 @@ const en = () => {
                                               The situation with Hytex spurred Nike to develop its
                                               current policies and code provisions on migrant labor.
                                           </p>
-                                      </ExampleInAction>
+                                      </ExampleInAction> */}
             </div>
         </StaticData>
     );

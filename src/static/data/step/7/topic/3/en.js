@@ -98,8 +98,7 @@ const en = () => {
                         href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm"
                         title="Checkpoints for Companies: Eliminating and Preventing Forced Labour"
                     >
-                        Checkpoints for Companies: Eliminating and Preventing
-                        Forced Labour
+                        Eliminating and Preventing Forced Labour: Checkpoints
                     </a>
                     , which allows companies, auditors, and compliance personnel
                     to create interactive checklists to help eliminate and
@@ -321,8 +320,7 @@ const en = () => {
                     >
                         Responsible Sourcing Tool
                     </a>{" "}
-                    (RST) includes Sample Benchmarks of Good Practice in
-                    Recruitment and Employment to translate into measurable and
+                    (RST) includes Recruitment and Employment Benchmarks to translate into measurable and
                     actionable data points the requirements and good practices
                     outlined in its Sample Code of Conduct Provisions,
                     referenced in{" "}
@@ -351,8 +349,7 @@ const en = () => {
                     </p>
                     <p>
                         <strong>
-                            Sample Benchmarks of Good Practice in Recruitment
-                            and Employment
+                        Recruitment and Employment Benchmarks
                         </strong>
                     </p>
                                   <Accordion id="human-traffic-acc">
@@ -1158,8 +1155,7 @@ const en = () => {
                     title="Sample Benchmarks of Good Practice in Recruitment and Employment"
                 >
                     <strong>
-                        Sample Benchmarks of Good Practice in
-                        Recruitment and Employment
+                    Recruitment and Employment Benchmarks
                     </strong>
                 </a>
                 .

@@ -27,6 +27,41 @@ const en = () => {
                 responsibility consultancies and NGOs can be engaged to
                 assist with risk and impact assessment.
             </p>
+            <p>
+            Some companies take the approach of “outsourcing” the information-gathering
+            function to an expert, such as a consulting firm, civil society group, or academic
+            institution.  If you already have well-established relationships with suppliers and
+            are seeking to assess their existing risks, audit reports done on these suppliers by
+            other companies or groups afford a very useful source of data.  Obtaining them may
+            require joining a group, such as the&nbsp;
+            <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.sedexglobal.com/"
+                  title="Supplier Ethical Data Exchange (SEDEX)"
+              >
+            Supplier Ethical Data Exchange (SEDEX)
+             </a>
+             &nbsp;and&nbsp;
+             <a
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   href="https://www.sedexglobal.com/"
+                   title="Supplier Ethical Data Exchange (SEDEX)"
+               >
+               Fair Factories Clearinghouse
+               </a>
+            , which provide a platform for sharing information on
+            common suppliers and collaborating on monitoring and remediation efforts.
+            </p>
+            <p>
+            When audit reports are not available, there are other ways to gather information on
+            your current suppliers to determine which ones to target for further compliance efforts.
+            Wherever a union exists, field grievances or complaints may be a good source of information
+            on labor abuse risk factors.  Where there is no union, the supplier may have other grievance
+            or complaint mechanisms in place that could be sources of information.  Another option, of course,
+            is to survey all of your suppliers on the key risk factors listed above.
+            </p>
             <p>What information are you looking for?</p> </div>
               <Accordion id="nature-prev-acc">
                    <Accordion.Section id="nature-prev-acc-description">
@@ -191,7 +226,11 @@ const en = () => {
                                                    <Accordion.Panel>
 
                                                    <p className="indent-margin">
-                                                      <b>PLACEHOLDER FOR TEXT </b>
+                                                      What are the high spend categories, such as essential raw materials
+                                                      or vital components, within your operations that are most at-risk,
+                                                      and thus pose an outsized impact given any disruptions?  Do other
+                                                      companies within your industry disclose particular supplier lists or
+                                                      sourcing information that you can incorporate into your risk assessment and analysis?
                                                    </p>
                                                </Accordion.Panel>
                                            </Accordion.Section>
@@ -224,7 +263,8 @@ const en = () => {
                                            exploitation. While ships may not change their flags during a voyage, vessels have been known to use so-called flags of
                                            convenience, or the flag of a state other than that of the vessel’s owner, to avoid financial or regulatory charges in that state,
                                            as well as to subject themselves to a state’s labor regime they deem beneficial. Enforcement, prosecution, and restitution
-                                           efforts are further complicated when vessels operate within the territorial jurisdiction of another state. </p>
+                                           efforts are further complicated when vessels operate within the territorial jurisdiction of another state.
+                                           </p>
                                            <p>Illegal, unreported, and unregulated (IUU) fishing has become an ever- growing problem. IUU fishing depletes global seafood
                                            stocks and creates unfair competition within the seafood industry, including by exploiting workers. Governments have been
                                            increasing efforts related to IUU fishing. For example, under its IUU regulation, the European Union has issued preidentifications, better known as “yellow cards”, to countries that it deems are not doing enough to combat IUU fishing.
@@ -241,17 +281,47 @@ const en = () => {
                                          , under which the United States is developing a Seafood
                                            Traceability Program.
                                            </p>
+                                           <p>
+                                           Source:&nbsp;
+                                           <a
+                                                 target="_blank"
+                                                 rel="noopener noreferrer"
+                                                 href="http://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf"
+                                             >
+                                           http://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf
+                                           </a>.
+                                           </p>
+                                           <p>
+                                           Source:&nbsp;
+                                           <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf"
+                                            >
+                                           https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf
+                                           </a>.
+                                           </p>
+                                           <p>
+                                          Source:&nbsp;
+                                          <a
+                                               target="_blank"
+                                               rel="noopener noreferrer"
+                                               href="https://www.fisheries.noaa.gov/international/seafood-import-monitoring-program"
+                                           >
+                                           https://www.fisheries.noaa.gov/international/seafood-import-monitoring-program
+                                           </a>.
+                                           </p>
                </ExampleInAction> <br />
                <OwnWords>
                                           <h4>
-                                              <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
-                                              {": "}
+                                              <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words
+                                              {": "}Key Risk Factors for Labor Rights Violations</strong>
                                           </h4>
                                           <p>
-                                              Key Risk Factors for Labor Rights Violations
-                                              The U.S. Government’s Overseas Private Investment Corporation (OPIC) has processes in place to ensure that projects
-                                              receiving OPIC support are environmentally and socially sustainable. Certain OPIC-funded projects are classified as “Special
-                                              Consideration” based on a screening of labor-related factors.</p>
+                                              Certain projects funded by the U.S. International Development Finance Corporation (DFC),
+                                              the successor to the Overseas Private Investment Corporation (OPIC), are classified as
+                                              “Special Consideration” based on a screening of labor-related factors.
+                                              </p>
                                              <p> “Special Consideration projects are considered to have heightened potential for adverse project-related social risks
                                               associated with the involvement of or impact on Project Affected People including Workers. Projects may be classified as
                                               Special Consideration based on an assessment of the severity of possible social risks, and their relevance to a project.</p>
@@ -268,15 +338,15 @@ const en = () => {
                                               projects that by their nature or footprint could cause or be anticipated to cause (or be complicit in) significant adverse
                                               Human Rights impacts.”</li>
                                               </ul></p>
-                                          <p>    Source: U.S. Overseas Private Investment Corporation,
+                                          <p>  Source: U.S. International Development Finance Corporation,&nbsp;
                                           <a
                                               target="_blank"
                                               rel="noopener noreferrer"
-                                              href="https://www.dfc.gov/sites/default/files/2019-08/final%20revised%20ESPS%2001132017(1).pdf"
-                                              title="Environmental and Social Policy Statement 2017."
+                                              href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
+                                              title="Environmental and Social Policy Statement 2020."
                                           >
-                                              Environmental and Social Policy Statement 2017
-                                          </a>.
+                                              Environmental and Social Policy and Procedures
+                                          </a>, 2020 at https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf
                                           </p>
                                                           </OwnWords>
         </StaticData>

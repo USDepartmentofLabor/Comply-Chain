@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
 import Accordion from "../../../../../../components/Accordion";
+import apsca from "../../../../../../static/images/apsca.jpg";
 
 
 const en = () => {
@@ -67,12 +68,15 @@ const en = () => {
                               outside a company. They are a flexible workforce and may be
                               available in geographic locations where it is not
                               cost-effective for a company to maintain internal auditors.
-                              On the other hand, since external auditors are also paid by
-                              the company to do audits, some stakeholders may still doubt
-                              the credibility of their audit findings. In addition, some
-                              external audit groups may have their own systems in place
-                              that cannot be fully adapted to match a company&rsquo;s own
-                              protocols or parameters.
+                              Since external auditors are paid by the company to do audits, 
+                              some stakeholders may doubt the credibility of their audit findings. 
+                              In addition, some external audit groups may have their own systems 
+                              in place that cannot be fully adapted to match a company&rsquo;s own
+                              protocols or parameters. A business that relies on an independent 
+                              or third party to either conduct or to verify a self-initiated 
+                              audit must also weigh and consider that particular entity which 
+                              conducts the audit. A third party, independent auditor’s status 
+                              as such does not guarantee an absence of risk.
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
@@ -86,21 +90,21 @@ const en = () => {
 
                               <p className="indent-margin">
                                  Independent auditors/monitors are audit professionals
-                                 accredited by institutions or mechanisms; their role is to
+                                 accredited by institutions or mechanisms, such as trade or 
+                                 professional organizations; their role is to
                                  ensure that auditing takes place while eliminating any
                                  direct financial transaction between the company and the
                                  auditor. Typically, a company pays a separate, independent
                                  institution for auditing services, and/or for membership in
                                  that body. The institution accredits auditors under its
                                  established standards and is responsible for scheduling and
-                                 oversight of all audits. While this is designed to increase
-                                 the credibility of the audit, in some sectors or geographic
-                                 locations, this type of arrangement may not be available. In
-                                 addition, even without a direct financial transaction, some
-                                 stakeholders may still have concerns about the degree of an
-                                 auditor&rsquo;s independence from the audited entity.
-                                 Varying degrees of independence exist, and independence
-                                 ultimately needs to be judged on a case-by-case basis.
+                                 oversight of all audits. While this is designed to increase 
+                                 the credibility of the audit, in some sectors or geographic 
+                                 locations, this type of arrangement may not be available. In addition, 
+                                 even without a direct financial transaction, some stakeholders 
+                                 may still have concerns about the degree of an auditor&rsquo;s 
+                                 independence from the audited entity. Varying degrees of independence
+                                  exist, and independence ultimately needs to be judged on a case-by-case basis.
                               </p>
                               <p>
                                   If a company opts to use internal or external auditors, it
@@ -144,23 +148,53 @@ const en = () => {
                     involving children and/or adult victims of egregious
                     exploitation. Auditors should be prepared to interact with
                     children and take measures on behalf of children that are
-                    age appropriate. Procedures should also be in place to
-                    ensure that both children and adult victims of forced labor
-                    receive immediate care and services from qualified
-                    individuals or organizations.
+                    age appropriate. An auditing firm should also have procedures 
+                    to ensure that victims of child labor or forced labor 
+                    receive immediate care and services from qualified individuals 
+                    or organizations.
                 </p>
                 <ExampleInAction id="better_work_assessment">
                                 <h3>
                                     <ExampleInAction.Icon alt="Lightbulb"/>
-                                    Example in Action: Association if Professional Social Compliance Auditors (APSCA) Competency Framework
+                                    Example in Action: Association of Professional Social Compliance Auditors (APSCA)* Competency Framework
                                 </h3>
                                 <p>
-                                   <b>PLACEHOLDER FOR TEXT</b>
-                                    <br />
+                                {""}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.theapsca.com/"
+                                title="APSCA"
+                            >
+                                APSCA
+                            </a>{""}
+                            &rsquo;s Certified Social Compliance Auditor (CSCA) designation 
+                                signifies that an individual demonstrates specific experience, 
+                                knowledge and skills within the field of social compliance auditing. 
+                                Through a rigorous certification process—including experience, education, 
+                                examination and assessment—the CSCA candidate must demonstrate the core competencies 
+                                relevant to the profession.  Included below is APSCA’s competency framework 
+                                as reflected in foundational skills and functional knowledge areas.
                                 </p>
-                                <p>
-
                                     <br />
+                                    <img
+                        src={apsca} 
+                        />
+                                     <br />
+                               
+                                <p>
+                                <b>Source: APSCA, Competency Framework: </b>
+                                <br />
+                                {""}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.theapsca.com/uploads/7/3/4/0/73406857/apsca_competency_framework_-d-011.pdf"
+                                title="https://www.theapsca.com/uploads/7/3/4/0/73406857/apsca_competency_framework_-d-011.pdf"
+                            >
+                                https://www.theapsca.com/uploads/7/3/4/0/73406857/apsca_competency_framework_-d-011.pdf
+                            </a>{""}
+                                .
                                 </p>
                             </ExampleInAction>
                 <h2>Team Composition</h2>

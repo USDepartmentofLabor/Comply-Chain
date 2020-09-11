@@ -246,7 +246,10 @@ const en = () => {
                                              outreach efforts. Ultimately, effective worker
                                              organization and engagement are critical elements of any
                                              effort to identify and deal with child labor, forced
-                                             labor and other labor abuses.
+                                             labor and other labor abuses. An example of this partnership
+                                             is French transnational food company Danone* and the International
+                                             Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco
+                                             and Allied Workers’ Associations (IUF)* highlighted in Step 3: Develop a Code of Conduct.
                                            </p>
                                             <OwnWords>
                                                <h4>
@@ -292,7 +295,64 @@ const en = () => {
                                       <Accordion.Panel>
 
                                       <p className="indent-margin">
-                                         <b>PLACEHOLDER FOR TEXT </b>
+                                         The international labor recruitment industry is an area of concern
+                                         for many companies with global operations.  As workers increasingly
+                                         move across the globe for job opportunities, there is a rise of
+                                         abuses perpetrated against these workers within the recruitment industry
+                                         that is often murky and lacking in regulation.  Some of these abuses
+                                         include charging of excessive fees, withholding of passports, and providing
+                                         misleading information about the nature and type of job, among other abuses.
+                                         These abuses are particularly acute for migrant workers, especially those working
+                                         in high-risk countries or in high-risk supply chains, however the lack of
+                                         responsible recruitment in any supply chain presents risks to both companies and workers.
+                                      </p>
+                                      <p>
+                                      To address these concerns, companies should put in place adequate safeguards to ensure
+                                      responsible recruitment of workers.  In an effort to provide companies with such guidance,
+                                      the ILO has also released guidance on&nbsp;
+                                      <a
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
+                                          title="General principles and operational guidelines for fair recruitment and Definition of recruitment fees and related costs"
+                                      >
+                                      General principles and operational guidelines for fair recruitment and Definition of recruitment fees and related costs
+                                      </a>
+                                      &nbsp;to help companies establish
+                                      safeguards as part of the&nbsp;
+                                      <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.ilo.org/global/topics/fair-recruitment/lang--en/index.htm"
+                                            title="Fair Recruitment Initiative"
+                                        >
+                                      Fair Recruitment Initiative
+                                      </a>
+                                      .  As part of this initiative, the ILO has
+                                      compiled an&nbsp;
+                                      <a
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          href="https://www.ilo.org/gimi/FRI.action"
+                                      >
+                                      interactive map
+                                      </a>
+                                      , which highlights a global view of all the national laws, policies,
+                                      and regulations that have defined recruitment fees and related costs.
+                                      </p>
+                                      <p>
+                                      In early 2019, several U.S. Government agencies (Department of Defense, General Services Administration,
+                                      and National Aeronautics and Space Administration) published a final rule, which&nbsp;
+                                      <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.federalregister.gov/documents/2018/12/20/2018-27541/federal-acquisition-regulation-combating-trafficking-in-persons-definition-of-recruitment-fees"
+                                        >
+                                      defined recruitment fees
+                                      </a>
+                                      &nbsp;to further implement the Federal Acquisition Regulation (FAR) in an effort to reduce the risk of trafficking
+                                      in persons.  Prohibiting contractors from charging employees recruitment fees is a key element in the fight
+                                      against trafficking in persons.
                                       </p>
                                       <ExampleInAction id="med_rep">
                                          <h2>
@@ -302,7 +362,50 @@ const en = () => {
                                              </strong>
                                          </h2>
                                          <p>
-                                            <b>PLACEHOLDER TEXT</b>
+                                            In 2018, the&nbsp;
+                                            <a
+                                                  target="_blank"
+                                                  rel="noopener noreferrer"
+                                                  href="https://www.aafaglobal.org/"
+                                              >
+                                            American Apparel & Footwear Association
+                                            </a>
+                                            &nbsp;and the&nbsp;
+                                            <a
+                                                  target="_blank"
+                                                  rel="noopener noreferrer"
+                                                  href="https://www.fairlabor.org/"
+                                              >
+                                            Fair Labor Association
+                                            </a>
+                                            &nbsp;launched a joint industry effort—The Commitment to Responsible Recruitment—to address
+                                            potential forced labor risks for migrant workers in the global supply chain.
+                                         </p>
+                                         <p>
+                                         As part of this commitment, the industry and companies signing onto this initiative commit to
+                                         create conditions that no worker pay for jobs, workers retain control of their travel documents and
+                                         have full freedom of movement, and all workers are informed of the basic terms of their employment before leaving home.
+                                         </p>
+                                         <p>
+                                          The Commitment to Responsible Recruitment produced as part of this effort an&nbsp;
+                                          <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href=""
+                                            >
+                                          Action Plan on Responsible Recruitment in Malaysia
+                                          </a>
+                                          &nbsp;as a way to transfer a spoken commitment into action.
+                                         </p>
+                                         <p>
+                                          Source:&nbsp;
+                                          <a
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              href="https://www.aafaglobal.org/AAFA/Solutions_Pages/Commitment_to_Responsible_Recruitment"
+                                          >
+                                          https://www.aafaglobal.org/AAFA/Solutions_Pages/Commitment_to_Responsible_Recruitment
+                                          </a>
                                          </p>
                                         </ExampleInAction>
                                         <br />
@@ -318,7 +421,10 @@ const en = () => {
                                          <Accordion.Panel>
 
                                          <p className="indent-margin">
-                                            <b>PLACEHOLDER FOR TEXT </b>
+                                            The concept of “worker voice”—also known as worker dialogue—is workers’ freedom and ability to raise
+                                            concerns and highlight problems in the workplace.  To promote input by workers in their operations and
+                                            supply chains, employers should engage with workers on workplace conditions and provide adequate training
+                                            on rights and responsibilities and grievance mechanisms to both employees and management.
                                          </p>
                                          <ExampleInAction id="med_rep">
                                           <h2>
@@ -328,7 +434,30 @@ const en = () => {
                                               </strong>
                                           </h2>
                                           <p>
-                                             <b>PLACEHOLDER TEXT</b>
+                                             In 2009, fashion retailer Primark began working with the NGO SAVE to create Worker Education Groups (WEGs) in local
+                                             communities in the Indian state of Tamil Nadu, where many of its workers live.  These programs aim to educate workers
+                                             on their rights and the use of negotiation tactics with management.  Over the course of six years, WEGs directly reached
+                                             5,000 workers and indirectly reached 25,000 through peer-to-peer learning.  A 2015 external evaluation of the program found
+                                             that participating workers were better able to vocalize their rights and negotiate with managers in their workplace.
+                                             As a result, workers were able to successfully negotiate with their managers for improvements in safety equipment, wage
+                                             and bonus increases, paid time off, and access to benefits.  Workers were also able to use the WEGs to raise grievances with factories.
+                                          </p>
+                                          <p>
+                                          For more information on Primark’s Worker Education Groups:&nbsp;
+                                            <a
+                                                  target="_blank"
+                                                  rel="noopener noreferrer"
+                                                  href="https://knowthechain.org/themes/19/"
+                                              >
+                                            https://knowthechain.org/themes/19/
+                                            </a> and&nbsp;
+                                            <a
+                                                  target="_blank"
+                                                  rel="noopener noreferrer"
+                                                  href=" https://www.business-humanrights.org/sites/default/files/documents/KTC_Primark%20response%20June2016_v2.pdf"
+                                              >
+                                           https://www.business-humanrights.org/sites/default/files/documents/KTC_Primark%20response%20June2016_v2.pdf
+                                           </a>
                                           </p>
                                          </ExampleInAction>
                                          <br />

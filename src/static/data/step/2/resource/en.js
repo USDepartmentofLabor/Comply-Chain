@@ -94,10 +94,10 @@ const en = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://sa-intl.org/index.cfm?fuseaction=Page.viewPage"
+                                        href=" https://sa-intl.org/services/social-fingerprint/"
                                         title="Social Fingerprint"
                                     >
-                                        http://socialfingerprint.org/
+                                         https://sa-intl.org/services/social-fingerprint/
                                     </a>
                                     . Note: this is a fee-based publication
                                     service.
@@ -114,10 +114,10 @@ const en = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://business-humanrights.org/en/un-guiding-principles"
+                                        href=" https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                                         title="Guiding Principles on Business and Human Rights: Implementing the United Nations Protect, Respect and Remedy; Framework."
                                     >
-                                        http://www.business-humanrights.org/SpecialRepPortal/Home/Protect-Respect-Remedy-Framework/GuidingPrinciples
+                                         https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf
                                     </a>
                                     .
                                 </li>

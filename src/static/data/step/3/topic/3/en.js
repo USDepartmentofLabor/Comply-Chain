@@ -8,26 +8,11 @@ const en = () => {
             <div>
                 <h1>Engaging Your Stakeholders </h1>
                  <p>
-                    Once you have identified your stakeholders and understand
-                    the potential roles they can play in your social compliance
-                    system, you can begin to target certain groups for
-                    engagement. For some companies, identifying key stakeholder
-                    groups and getting them involved in specific areas of the
-                    social compliance system is the most helpful way to make
-                    targeted improvements. This is particularly true for
-                    companies that already have some elements of a social
-                    compliance system in place, but understand that there are
-                    specific areas that should be improved.
+                    The list below is not exhaustive and companies should pay special attention
+                    to how local employment structures, specifically the variance of working
+                    arrangements and relationships, may inform engagement with various stakeholders.
+                    Some typical roles that stakeholders can play are highlighted below:
                 </p>
-                <p>
-                    For other companies, the best &ldquo;first step&rdquo; in
-                    engaging with stakeholders may be linking with existing
-                    initiatives, such as multi-stakeholder groups, industry
-                    associations or initiatives or certification programs if
-                    they are available and a good fit given the company&rsquo;s
-                    needs and objectives.
-                </p>
-                <h2>Your Stakeholders</h2>
 
                       <h3>Company employees</h3>
                         <ul>
@@ -175,7 +160,10 @@ const en = () => {
                                 Provide valuable input into your
                                 <strong> risk assessment,</strong> for example,
                                 advice on gender, culture and other dynamics in
-                                the community.
+                                the community, as well as information on vulnerable
+                                individuals and groups as a way to extend stakeholder
+                                engagement beyond those actors directly tied to a company’s
+                                operation.
                             </li>
                             <li>
                                 Provide <strong>training </strong>and/or
@@ -321,28 +309,11 @@ const en = () => {
                                 <strong> root causes </strong>of labor abuses.
                             </li>
                         </ul>
-
-
-                       <h2>The Importance of External Stakeholders in Social Compliance Systems</h2>
-                        <ul>
-                            <li>
-                                PLACEHOLDER FOR TEXT
-                            </li>
-
-                            <li>
-                                 PLACEHOLDER FOR TEXT
-                            </li>
-                            <li>
-                                PLACEHOLDER FOR TEXT
-                            </li>
-                        </ul>
-
-
                 <h2>
                     The Role of Government Entities in Social Compliance Systems
                 </h2>
                 <p>
-                    Governments are obligated to protect the human rights of
+                    Governments have an obligation to protect the human rights of
                     individuals within their territory and/or jurisdiction. This
                     includes the duty to protect against human rights/labor
                     rights abuses by third parties, including business
@@ -393,16 +364,9 @@ const en = () => {
                     <h3>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Engagement with Government
+                            Example in Action: Brazil&rsquo;s &ldquo;Dirty List&rdquo; and Institute of the National Pact for the Eradication of Slave Labor{" "}
                         </strong>
                     </h3>
-                    <p>
-                        <strong>
-                            Brazil&rsquo;s &ldquo;Dirty List&rdquo; and
-                            Institute of the National Pact for the Eradication
-                            of Slave Labor{" "}
-                        </strong>
-                    </p>
                     <p>
                         The Government of Brazil publishes a Register of
                         Employers <em>(</em>
@@ -440,18 +404,28 @@ const en = () => {
                         six business associations are part of InPACTO.
                     </p>
                     <p>
-                        For more information, visit InPACTO&rsquo;s{" "}
+                        For more information, visit InPACTO at&nbsp;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.inpacto.org.br/en/"
-                            title="InPACTO&rsquo;s website"
+                            href="http://inpacto.org.br/"
                         >
-                            website
-                        </a>
-                        .
+                        http://inpacto.org.br/</a>.
                     </p>
                 </ExampleInAction>
+                <p>Once you have identified your stakeholders and understand the potential
+                   roles they can play in your social compliance system, you can begin to
+                   target certain groups for engagement.  For some companies, identifying
+                   key stakeholder groups and getting them involved in specific areas of the
+                   social compliance system is the most helpful way to make targeted improvements.
+                   This is particularly true for companies that already have some elements of a
+                   social compliance system in place, but understand that there are specific areas that should be improved.
+                   </p>
+                   <p>
+                   For other companies, the best “first step” in engaging with stakeholders may be linking with
+                   existing initiatives, such as multi-stakeholder groups, industry associations or
+                   initiatives or certification programs if they are available and a good fit given
+                   the company’s needs and objectives.</p>
             </div>
 
         </StaticData>

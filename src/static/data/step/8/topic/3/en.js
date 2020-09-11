@@ -42,6 +42,15 @@ const en = () => {
                     the main causes of violations, and these issues can and
                     should be remedied.
                 </p>
+                <p>
+                Remediation actions should always be designed to correct the problem 
+                found, provide remedies for those effected, and prevent it from recurring. 
+                In an ideal world, these steps are possible; however, some abuses, such as 
+                sexual crimes, are impossible to fully remediate given the associated emotional 
+                and societal concerns. In the case of child labor and forced labor violations, 
+                this means both improving circumstances for individual child labor or forced 
+                labor victims and preventing further child labor or forced labor from occurring at the worksite.
+                </p>
                 <h2>Child Labor</h2>
                 <p>
                     In instances of <strong>child labor</strong>, causes can
@@ -127,22 +136,67 @@ const en = () => {
                     Action Plan that holds the supplier accountable.
                 </p>
                 <ExampleInAction id="plch">
-                                    <h2>
-                                        <ExampleInAction.Icon alt="Lightbulb"/>
-                                        <strong>
-                                            Example in Action: Place holder example of action
-                                        </strong>
-                                    </h2>
-                                    <p>
-                                        Place Holder
-                                    </p>
-                                    
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: Apple&rsquo;s* Supplier Code of Conduct and Recruitment Fees
+                        </strong>
+                    </h2>
+                    <p>
+                    In 2018, Apple was awarded the {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://uk.reuters.com/article/slavery-conference-award/apple-wins-global-award-for-efforts-to-eradicate-slave-labour-idUKL8N1WY5IG"
+                        title="Stop Slavery Award by the Thomson Reuters Foundation"
+                    >
+                        Stop Slavery Award by the Thomson Reuters 
+                    Foundation
+                    </a>{" "}
+                     for making details of its supply chains public in a bid to 
+                    boost transparency and help end modern slavery.
+                    </p>
+                    <p>
+                    Yet, beginning in 2015, through its {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.apple.com/supplier-responsibility/pdf/Apple-Supplier-Code-of-Conduct-January.pdf"
+                        title="Supplier Code of Conduct"
+                    >
+                        Supplier Code of Conduct
+                    </a>{""}
+                    
+                    , Apple—the American multinational technology company—mandated that 
+                    suppliers could charge zero fees to supplier employees as part of the 
+                    recruitment process, despite existing national legislation that would allow 
+                    recruitment fees. If Apple discovers instances of practices in contradiction 
+                    to this mandate, the supplier must repay the recruitment fees. Suppliers 
+                    that do not implement measures to correct these practices risk their 
+                    business with Apple.  
+                    </p>
+                    <p>
+                    Since 2008 and as of 2018, Apple has worked to repay recruitment fees to 36,137 
+                    employees in value of $30.9 million with $616,000 paid to 287 employees in 2018 alone. 
+                    </p>
+                    <p>
+                    Source: {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2018_Progress_Report.pdf"
+                        title="https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2018_Progress_Report.pdf"
+                    >
+                        https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2018_Progress_Report.pdf
+                    </a>
+                    .
+                    </p>
                                     
                 </ExampleInAction>
                 <p>
-                    Tables 1-4 describe some remediation actions that can be
-                    taken when indicators of forced labor are found. In all
-                    cases, issues should be documented and tracked and
+                The following four sections outline some examples of specific remediation 
+                actions that could be taken when indicators of forced labor are found. 
+                In all cases, issues should be documented and tracked and
                     management systems should be updated to prevent recurrence.
                 </p>
                 <Accordion id="prevent-recurrence" role="table">

@@ -121,26 +121,29 @@ class Splash extends Component {
                         <LanguageButton
                             id="es-btn"
                             onClick={() => {
-                                this.handleLanguageChange("es");
+                                //this.handleLanguageChange("es");
+                                window.alert("THIS FEATURE IS COMING SOON");
                             }}
                         >
-                            <span lang="es">{this.props.localizor.strings.general.spanish}</span>
+                           <span lang="es">{this.props.localizor.strings.general.spanish}</span>
                         </LanguageButton>
                         <LanguageButton
                             id="fr-btn"
                             onClick={() => {
-                                this.handleLanguageChange("fr");
+                                //this.handleLanguageChange("fr");
+                                window.alert("THIS FEATURE IS COMING SOON");
                             }}
                         >
-                            <span lang="fr">{this.props.localizor.strings.general.french}</span>
+                           <span lang="fr">{this.props.localizor.strings.general.french}</span>
                         </LanguageButton>
                         <LanguageButton
                             id="ms-btn"
                             onClick={() => {
-                                this.handleLanguageChange("ms");
+                                //this.handleLanguageChange("ms");
+                                window.alert("THIS FEATURE IS COMING SOON");
                             }}
                         >
-                            <span lang="ms">{this.props.localizor.strings.general.malay}</span>
+                           <span lang="ms">{this.props.localizor.strings.general.malay}</span>
                         </LanguageButton>
                     </LanguageWrapper>
                 </FlexContent>

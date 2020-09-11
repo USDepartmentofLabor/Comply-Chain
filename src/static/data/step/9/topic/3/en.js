@@ -54,11 +54,49 @@ const en = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Search for Verification and Standards in Fashion
+                            Example in Action: The search for verification and standards in fashion
                         </strong>
                     </h2>
                     <p>
-                        Place holder
+                    There is no independent verification standard for words like “sustainable” 
+                    and “transparent;” however, a number of small startup companies are attempting 
+                    to meet the consumer demand for reliable information on a company’s efforts 
+                    to address supply chain labor abuses, among others. Startups like {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.shopwearwell.com/"
+                            title="Wearwell"
+                        >
+                            Wearwell
+                        </a>{""}
+                    ,* 
+                    {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://goodonyou.eco/"
+                            title="GoodOnYou"
+                        >
+                            GoodOnYou
+                        </a>{""}
+                    ,* 
+                    and {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://compareethics.com/"
+                            title="Compare Ethics"
+                        >
+                            Compare Ethics
+                        </a>{""}
+                    * 
+                    sift through a company&rsquo;s claims in its 
+                    reporting and audit documents and validate those claims against reality, 
+                    serving as platform for consumers to access brands that meet certain standards. 
+                    This model presents challenges but reflects a desire from customers to help break 
+                    down claims and establish verification of those claims within an apparel market 
+                    of approximately $1.5 trillion as of 2020.
                         
                     </p>
                 </ExampleInAction>

@@ -63,7 +63,11 @@ const en = () => {
                         </a>
                         .
                     </p>
+                    <p>
+                    Source: http://www.sourcingnetwork.org/.
+                    </p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction id="res_min_trade">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -83,35 +87,38 @@ const en = () => {
                             Public-Private Alliance for Responsible Minerals
                             Trade
                         </a>{" "}
-                        (PPA) is a multi-stakeholder initiative launched in 2012
-                        that supports the development of traced and validated
-                        mineral supply chain routes, particularly for tin,
-                        tantalum, tungsten, and gold from the Democratic
-                        Republic of the Congo (DRC) and neighboring countries in
-                        the Great Lakes Region of Central Africa. The PPA is
-                        currently made up of more than 51 members, including the
-                        U.S. Department of State, the U.S. Agency for
-                        International Development, businesses, industry groups,
-                        civil society organizations, and the International
-                        Conference of the Great Lakes Region&mdash;a regional
-                        body that has developed mineral certification systems.
-                        From its inception, the PPA has supported pilot projects
-                        in the DRC that promote the responsible sourcing of
-                        minerals.
+                        (PPA) is a multi-stakeholder initiative launched in 2012 that supports
+                        responsible sourcing of traced and validated mineral supply chain routes,
+                        particularly for tin, tantalum, tungsten, and gold from the Democratic
+                        Republic of the Congo (DRC) and neighboring countries in the Great Lakes
+                        Region of Central Africa.  The PPA is currently made up of more than 40 members,
+                        including the U.S. Department of Labor, the U.S. Department of State, the U.S.
+                        Agency for International Development, the German Agency for International Cooperation
+                        (GIZ), businesses, industry groups, civil society organizations, and the
+                        International Conference of the Great Lakes Region.  In 2017, the PPA developed
+                        a Memorandum of Understanding (MOU) to further support the implementation of supply
+                        chain systems in the DRC and GLR and related labor issues and working conditions in
+                        line with the OECD Due Diligence Guidance for Responsible Supply Chains of Minerals
+                        from Conflict-Affected and High-Risk Areas.  The MOU lays out the PPA governance structure
+                        and roles and responsibilities for PPA members.  PPA is led by a Governance Committee composed
+                        of representatives from the U.S. Government, businesses, and civil society; it is facilitated by the NGO Resolve.
                     </p>
                     <p>
-                        If a company chooses to form a multi-stakeholder group
-                        or join an existing one, it is important to apply the
-                        same sound management principles to the group as it does
-                        to the social compliance system as a whole. The entity
-                        should have clear goals and objectives and metrics or
-                        performance indicators to assess progress against them.
-                        It should have processes in place for decision-making
-                        and governance, and these processes and policies should
-                        be documented. And it should have defined members with
-                        distinct roles and responsibilities.
+                        If a company chooses to form a multi-stakeholder group or join an existing one, it is
+                        important to apply the same sound management principles to the group as it does to the
+                        social compliance system as a whole.  The entity should have clear goals and objectives
+                        and metrics or performance indicators to assess progress against them.  It should have
+                        clear processes in place for decision-making and governance, and these processes and
+                        policies should be documented and assessed overtime.  And it should have defined members
+                        with distinct roles and responsibilities and mechanisms to facilitate internal
+                        communication among members and disseminate information about the activities carried
+                        out by the multi-stakeholder group.
+                    </p>
+                    <p>
+                        Source: http://www.resolv.org/site-ppa/
                     </p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction id="sug_phil">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -193,12 +200,11 @@ const en = () => {
                             sugar workers and their families.
                         </li>
                     </ul>
-                    <img src={leap} alt="Leap" />
-
-                    <p className="small-text">
-                        &copy;Christopher Leones/ABK3 LEAP
+                    <p>
+                        Source: https://www.dol.gov/agencies/ilab/abk3-leap-livelihoods-education-advocacy.
                     </p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction>
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -264,6 +270,7 @@ const en = () => {
                         continue to increase rapidly.
                     </p>
                 </ExampleInAction>
+                <br />
             </div>
         </StaticData>
     );

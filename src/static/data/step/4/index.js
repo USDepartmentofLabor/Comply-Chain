@@ -29,14 +29,14 @@ export const StepData = {
                     "A situation in which damage has been done to your company, such as reputational damage or legal liability, or to individuals or entities affected by your company’s activities or linked to your company’s operations, products or services through business relationships. "
             },
             {
-                termName: "Downstream Suppliers",
+                termName: "Downstream",
                 termDefinition:
-                    "Referring to the demand side of the supply chain. One or more companies or individuals who participate in the flow of goods and services moving from the manufacturer to the final user or consumer. "
+                    "The part of the supply chain process on the demand side, referring to the flow of goods or products from a supplier to the company and to the end user or customer."
             },
             {
-                termName: "Upstream Suppliers",
+                termName: "Upstream",
                 termDefinition:
-                    "Refers to the supply side of the supply chain. Upstream partners are the suppliers who provide goods and services to the organization needed to satisfy demands which originate at point of demand or use, as well as other flows such as return product movements, payments for purchases, etc. "
+                    "The part of the supply chain process on the supply side, referring to the flow of goods or products from the company to the suppliers and to the procurers of raw materials at the farm or forest-level, in the direction of raw materials.  This includes companies’ network of supplies."
             }
         ],
         furtherResources: Resources.en

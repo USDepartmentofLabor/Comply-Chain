@@ -197,7 +197,11 @@ const en = () => {
                              representative should be interviewed. In the absence
                              of a trade union or other worker representative
                              organization, auditors should attempt to reach out
-                             to local worker advocacy groups.
+                             to local worker advocacy groups. Local civil society 
+                             organizations, particularly those involved in advocacy 
+                             for workers, may also be able to corroborate information 
+                             and provide contextual information regarding the labor 
+                             situation in a particular area
                          </p>
                          <p>
                              The Responsible Sourcing Tool contains a tool,{" "}
@@ -207,7 +211,7 @@ const en = () => {
                                  href="http://www.responsiblesourcingtool.org/workerinterviews"
                                  title="Conducting Migrant Worker Interviews"
                              >
-                                 Conducting Migrant Worker Interviews
+                                 Migrant Worker Interviews
                              </a>
                              , which provides a set of sample interview questions
                              to use when conducting targeted migrant and foreign
@@ -222,98 +226,84 @@ const en = () => {
                          <h3>
                              <OwnWords.Icon alt="Feedback"/>{" "}
                              <strong>
-                                 In Their Own Words: How to Interview a Child
+                                 In Their Own Words: Interviewing a Child
                              </strong>
                          </h3>
                          <p>
                              <em>
-                                 &ldquo;Interviewing a child is necessary in connection
-                                 with recruitment of young people: a) to assess their
-                                 age, b) to assess the maturity in connection with ﬁnding
-                                 out what job the person is able to carry out, c)
-                                 possible work experience and/or d) if one of the workers
-                                 is identified to be underage for the type of job/process
-                                 that the child or young person carries out.
+                                 &ldquo;Interviewing a child is necessary in 
+                                 connection with recruitment of young people: 
+                                 a) to assess their age, b) to assess the maturity 
+                                 in connection with ﬁnding out what job the person 
+                                 is able to carry out, c) possible work experience 
+                                 and/or d) if one of the workers is identified to be 
+                                 underage for the type of job/process that the child 
+                                 or young person carries out.
                              </em>
                          </p>
                          <p>
                              <em>
-                                 When interviewing a child that you suspect to be below
-                                 the minimum required age for the particular type of job
-                                 or where the child has been engaged in hazardous work,
-                                 it is important to create a trusting and relaxed
-                                 atmosphere. It is also important that the conversation
-                                 takes place in an undisturbed but not too remote and out
-                                 of sight environment. Essentially, the child must feel
-                                 as secure as possible.
+                             When interviewing a child that you suspect to be below 
+                             the minimum required age for the particular type of job
+                              or where the child has been engaged in hazardous work, 
+                              it is important to create a trusting and relaxed atmosphere. 
+                              It is also important that the conversation takes place in 
+                              an undisturbed but not too remote and out of sight environment. 
+                              Essentially, the child must feel as secure as possible.
                              </em>
                          </p>
                          <h2>
                              <em>What to Observe?</em>
                          </h2>
-                         <p>
-                             <em>
+                         <ul>
+                             <li>
                                  The child must be treated with respect and recognized as
                                  an individual in his or her own right.
-                             </em>
-                         </p>
-                         <p>
-                             <em>
+                            </li>
+                            <li>
                                  There must always be two adults present at the interview
                                  at all times. An adult must not spend excessive time
                                  alone with children away from others in order not to
                                  create unnecessary worry for the child and create a
                                  basis for suspicion of inappropriate or threatening
                                  behavior and abuse.
-                             </em>
-                         </p>
-                         <p>
-                             <em>
+                            </li>
+                            <li>
                                  When interviewing a girl, there must always be a woman
                                  present.
-                             </em>
-                         </p>
-                         <p>
-                             <em>
+                            </li>
+                            <li>
                                  It is advisable to invite the child&rsquo;s parents or
                                  guardians for the interview.
-                             </em>
-                         </p>
-                         <p>
-                             <em>
+                            </li>
+                            <li>
                                  If the child is an orphan and no guardian or relatives
                                  can be identified, a representative of a child rights
                                  NGO may be invited.
-                             </em>
-                         </p>
+                            </li>
+                         </ul>
                          <h2>
                              <em>During the Interview with a Child</em>
                          </h2>
-                         <p>
-                             <em>
+                         <ul>
+                            <li>
                                  The key objective of the interview is always to listen
                                  to the child and to try to make an overall assessment of
                                  the child&rsquo;s family and work situation:
-                             </em>
-                         </p>
-                         <div className="indent-margin">
-                             <p>
-                                 <em>Reasons why the child works</em>
-                             </p>
-                             <p>
-                                 <em>
+                            </li>
+                            <li>
+                             Reasons why the child works.
+                             </li>
+                             <li>
                                      How does the child contribute to the family income
                                      and what are the circumstances of the family (e.g.
                                      unemployment, disease etc.)?
-                                 </em>
-                             </p>
-                             <p>
-                                 <em>
+                            </li>
+                             <li>
                                      How does the child understand and appreciate his or
                                      her own work?&rdquo;
-                                 </em>
-                             </p>
-                         </div>
+                            </li>
+                            </ul>
                          <p>
                              Source: Save the Children Denmark,{" "}
                              <a
@@ -327,8 +317,8 @@ const en = () => {
                              </a>
                              , 2006.
                          </p>
-
-                         <p>
+                         
+                         {/* <p>
                              [1] See, Article 9(3) of&nbsp;
                              <a
                                  target="_blank"
@@ -362,7 +352,7 @@ const en = () => {
                                  <em>Q&amp;As on Business and Child Labor</em>
                              </a>
                              <em>, accessed May 11, 2017.</em>
-                         </p>
+                         </p> */}
                      </OwnWords>
                     </Accordion.Panel>
                 </Accordion.Section>

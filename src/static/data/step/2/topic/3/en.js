@@ -61,7 +61,7 @@ const en = () => {
                                     of greatest risk and leverage.
                                 </p>
                                 <p>
-                                    As noted below, recent guidance from
+                                    As noted below, the most recent guidance from
                                     international institutions has directly
                                     addressed the issue of supply chain
                                     responsibility&mdash;clarifying that
@@ -142,7 +142,7 @@ const en = () => {
                                             United Nations Guiding Principles on
                                             Human Rights and Business
                                         </a>
-                                        <em>, </em>2011.
+                                        <em>, </em>2011 available from http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf.
                                     </p>
                                     <p>
                                         <em>
@@ -181,7 +181,7 @@ const en = () => {
                                             OECD Guidelines for Multinational
                                             Enterprises
                                         </a>
-                                        <em>, </em>2011.
+                                        <em>, </em>2011 available from http://www.oecd.org/corporate/mne/.
                                     </p>
                                     <p>
                                         <em>
@@ -227,7 +227,7 @@ const en = () => {
                                         >
                                             IFC Performance Standard 2
                                         </a>
-                                        <em>,</em> 2012.
+                                        <em>,</em> 2012. available from http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2.
                                     </p>
                                 </OwnWords>
                 <p>

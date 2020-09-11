@@ -2,6 +2,7 @@ import React from "react";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";  
+import unilever from "../../../../../../static/images/unilever.jpg";
 
 const en = () => {
     return (
@@ -53,19 +54,11 @@ const en = () => {
                     companies, labor unions, civil society organizations, and
                     third-party monitoring groups to capture worker feedback on
                     their work situations and address gaps. With more than 7
-                    billion mobile subscriptions globally, many initiatives,
+                    billion mobile subscriptions globally, many initiatives rely 
+                    on smart phone technology to administer anonymous surveys that 
+                    poll workers on their working conditions in factories and fields.
+                    Other initiatives, 
                     such as{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.laborvoices.com/"
-                        title="Labor Voices"
-                    >
-                        Labor Voices
-                    </a>
-                    , rely on smart phone technology to administer anonymous
-                    surveys that poll workers on their working conditions in
-                    factories and fields. Other initiatives, such as{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -74,7 +67,7 @@ const en = () => {
                     >
                         Contratados.org
                     </a>
-                    , utilize web-based technology to create online platforms by
+                    ,* utilize web-based technology to create online platforms by
                     which workers, including migrants, are able to rate and
                     comment on labor recruiters and contractors in their native
                     languages. Technologies that capture &ldquo;worker
@@ -97,7 +90,67 @@ const en = () => {
                         </strong>
                     </h2>
                 <p>
-                    Place holder
+                    Unilever* is a British-Dutch multinational company that produces a wide range of products that use palm-oil as an ingredient. 
+                    Unilever works closely with its suppliers to promote decent work standards across its palm-oil supply chain, including developing 
+                    a process by which workers’ grievances can be communicated and addressed.
+                </p>
+                <p>
+                    The process includes three important steps:
+                    <ul>
+                    <li>
+                    An acknowledgement of the grievance and a preliminary review to determine whether the grievance is applicable to our supply chain.
+                    </li>
+                    <li>
+                    An in-depth review of the grievance, working with the supplier and an independent organization to develop a time-bound action and remediation plan.
+                    </li>
+                    <li>
+                    Actions implemented by the supplier to resolve the issue, with the outcomes monitored.
+                    </li> 
+                </ul>
+                </p>
+                <p>
+                    Unilever will often involve an independent organization at various stages to collate further information and outline 
+                    he requirements that the supplier needs to adhere to.  The company works with its suppliers to help improve practices 
+                    and resolve issues.  However, it takes appropriate action consistent with its 
+                    {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.unilever.com/Images/unilever-palm-oil-policy-2016_tcm244-479933_en.pdf"
+                        title="Five Principles for Sustainable Palm Oil"
+                    >
+                        Five Principles for Sustainable Palm Oil
+                    </a>{" "} 
+                    against suppliers who are unwilling or unable to comply.
+                    </p>
+                    <p>
+                    As of January 2019, Unilever began publically disclosing the grievances against its suppliers, through a published 
+                    {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.unilever.com/Images/unilever-palm-oil-grievance-tracker_tcm244-530071_en.pdf"
+                        title="grievance tracker"
+                    >
+                        grievance tracker
+                    </a>{""}.
+                    </p>
+                    <img
+                        src={unilever} 
+                        />
+                                     <br />
+                    
+                    <p>
+                    Source: Unilever: 
+                    {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.unilever.com/Images/palm-oil-grievance-procedure_tcm244-510633_en.pdf"
+                        title="https://www.unilever.com/Images/palm-oil-grievance-procedure_tcm244-510633_en.pdf"
+                    >
+                        https://www.unilever.com/Images/palm-oil-grievance-procedure_tcm244-510633_en.pdf
+                    </a>{""}.
                 </p>
                 </ExampleInAction>
                 <OwnWords>
@@ -148,7 +201,7 @@ const en = () => {
                     commissioned by the UN Special Representative on Business
                     and Human Rights. These pilots were focused on testing
                     grievance mechanisms involving business enterprises and
-                    communities in which they operate. The{" "}
+                    communities in which they operate. This{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -157,65 +210,70 @@ const en = () => {
                     >
                         CSRI project
                     </a>{" "}
-                    resulted in a revised set of principles for effective
-                    grievance mechanisms:
+                    resulted in a revised set of principles for effective grievance mechanisms which was incorporated 
+                    into Principle 31 of the UN Guiding Principles: Effectiveness Criteria for Non-Judicial Grievance Mechanisms:
                 </p>
-                <ol>
+                <ol type="a">
                     <li>
-                        <strong>Legitimacy: </strong>Enabling trust from the
-                        stakeholder groups for whose use they are intended, and
-                        being accountable for the fair conduct of grievance
-                        processes;
+                        <strong>Legitimate: </strong>enabling trust from the stakeholder groups 
+                        for whose use they are intended, and being accountable for 
+                        the fair conduct of grievance processes;
                     </li>
                     <li>
-                        <strong>Accessibility: </strong>Being known to all
-                        stakeholder groups for whose use they are intended, and
-                        providing adequate assistance for those who may face
+                        <strong>Accessible: </strong>being known to all 
+                        stakeholder groups for whose use they are intended, and 
+                        providing adequate assistance for those who may face 
                         particular barriers to access;
                     </li>
                     <li>
-                        <strong>Predictability: </strong>Providing a clear and
-                        known procedure with an indicative time frame for each
-                        state, and clarity on the types of process and outcome
-                        available and means of monitoring implementation;
+                        <strong>Predictable: </strong>providing a clear and known 
+                        procedure with an indicative time frame for each state, 
+                        and clarity on the types of process and outcome available 
+                        and means of monitoring implementation;
                     </li>
                     <li>
-                        <strong>Equitability: </strong>Seeking to ensure that
-                        aggrieved parties have reasonable access to sources of
-                        information, advice and expertise necessary to engage in
-                        a grievance process on fair, informed and respectful
-                        terms;
+                        <strong>Equitable: </strong>seeking to ensure that aggrieved parties 
+                        have reasonable access to sources of information, advice and 
+                        expertise necessary to engage in a grievance process on fair, informed and respectful terms;
                     </li>
                     <li>
-                        <strong>Transparency: </strong>Keeping parties to a
+                        <strong>Transparent: </strong>keeping parties to a
                         grievance informed about its progress, and providing
                         sufficient information about the mechanism&rsquo;s
                         performance to build confidence in its effectiveness and
                         meet any public interest at stake;
                     </li>
                     <li>
-                        <strong>Rights-compatibility: </strong>Ensuring that
-                        outcomes and remedies accord with internationally
-                        recognized human rights;
+                        <strong>Rights-compatible: </strong>ensuring that outcomes and remedies accord with internationally recognized human rights;
                     </li>
                     <li>
-                        <strong>Dialogue and engagement: </strong>Consulting the
-                        stakeholder groups for whose use they are intended on
-                        their design and performance, and focusing on dialogue
-                        as the means to address and resolve grievances;
+                        <strong>A source of continuous learning: </strong>drawing on relevant measures to identify lessons for improving the mechanism and preventing future grievances and harms;
                     </li>
+                    <p>Operational-level mechanisms should also be:</p>
                     <li>
-                        <strong>Continuous learning: </strong>Drawing on
-                        relevant measures to identify lessons for improving the
-                        mechanism and preventing future grievances and harms.
+                        <strong>Based on engagement and dialogue: </strong>consulting the stakeholder groups for whose use they are intended on their design and performance, and focusing on dialogue as the means to address and resolve grievances.
                     </li>
                 </ol>
                 <p>
-                    Source:{" "}
+                    Source: Office of the High Commissioner of Human Rights. (2011). Guiding Principles for Business and Human Rights: 
+                    Implementing the United Nations “Protect, Respect and Remedy” Framework. 
+                    Retrieved from: {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/report_46_GM_pilots.pdf"
+                        href="https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+                        title="UN Protect, Respect and Remedy Framework"
+                    >
+                        
+                        https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf
+                        
+                    </a>.
+                    <br />
+                    {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.respect.international/piloting-principles-for-effective-company-stakeholder-grievance-mechanisms-a-report-of-lessons-learned/"
                         title="Piloting Principles for Effective Company-Stakeholder Grievance Mechanisms: A Report of Lessons Learned"
                     >
                         <em>

@@ -97,7 +97,7 @@ const en = () => {
                         <em>
                             (note: while these standards are often included in
                             the larger code of conduct, they are not discussed
-                            further in this App due to its focus on child labor
+                            further in this app due to its focus on child labor
                             and forced labor)
                         </em>
                     </li>
@@ -331,29 +331,6 @@ const en = () => {
                     Principles Concerning Multinational Enterprises and Social
                     Policy.
                 </p>
-                <ExampleInAction id="eicc">
-                            <h4>
-                                <ExampleInAction.Icon alt="Lightbulb"/>
-                                <strong>
-                                    Example in Action:
-                                </strong>
-                            </h4>
-                                    <p>
-                                        <b>PLACEHOLDER TEXT</b>
-                                    </p>
-              </ExampleInAction>
-              <br />
-              <ExampleInAction id="eicc">
-                          <h4>
-                              <ExampleInAction.Icon alt="Lightbulb"/>
-                              <strong>
-                                  Example in Action:
-                              </strong>
-                          </h4>
-                          <p>
-                              <b>PLACEHOLDER TEXT</b>
-                          </p>
-            </ExampleInAction>
             </div>
         </StaticData>
     );

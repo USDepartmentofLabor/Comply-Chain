@@ -7,7 +7,9 @@ const en = () => {
         <StaticData>
             <div>
                 <h1>Model of a Social Compliance System</h1>
-                
+                                <p>
+                                While systems may vary from industry to industry, a good social compliance system in any industry includes multiple components, functioning in an integrated way.
+                                </p>
                                 <p>
                                     Although the steps below are numbered for
                                     ease of understanding, social compliance is
@@ -71,7 +73,10 @@ const en = () => {
                                         <strong>
                                             <em>Report</em>
                                         </strong>
-                                        <em> performance</em>
+                                        <em> performance and&nbsp;</em>
+                                        <strong>
+                                           <em>engagement</em>
+                                        </strong>
                                     </li>
                                 </ol>
                                 <p>
@@ -90,7 +95,7 @@ const en = () => {
                                     standards).
                                 </p>
                                 <p>
-                                    This App provides guidance for comprehensive
+                                    This app provides guidance for comprehensive
                                     systems, but focuses in particular on child
                                     labor and forced labor, consistent with the
                                     mandate provided to ILAB under the

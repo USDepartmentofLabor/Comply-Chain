@@ -34,8 +34,37 @@ const en = () => {
                     then, there have been more laws passed and regulations
                     promulgated, inside and outside the U.S., that strengthen
                     protections against child labor and forced labor in supply
-                    chains.&nbsp;
+                    chains. Since then, there have been more laws passed and
+                    regulations promulgated, inside and outside the U.S., that
+                    strengthen protections against child labor and forced labor
+                    in supply chains.  In addition, a number of countries incorporate
+                    various labor provisions into trade agreements.  One recent example
+                    is the United States-Mexico-Canada Agreement (USMCA), which has fully
+                    enforceable labor standards—including enforcement of laws regarding
+                    forced labor and child labor.  USMCA also includes new provisions that
+                    require the parties to take measures to prohibit the importation of goods
+                    produced by forced labor, including forced child labor, to address violence
+                    against workers exercising their labor rights, to address sex-based
+                    discrimination in the workplace, and to ensure that migrant workers are protected under labor laws.
                 </p>
+                <p>
+                    Laws and regulations concerning due diligence encompass diverse and evolving approaches.
+                    The Business & Human Rights Resource Centre maintains a list of&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.business-humanrights.org/en/national-movements-for-mandatory-human-rights-due-diligence-in-european-countries"
+                    >
+                    governmental and civil society movements for mandatory human rights due diligence in European countries</a>
+                    &nbsp;as part of its resources on&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.business-humanrights.org/en/mandatory-due-diligence"
+                    >
+                    mandatory due diligence </a>
+                </p>
+                <p>Some examples of laws and regulations follow; contact the entities that enforce them for the most up-to-date information.</p>
                 <ul id="law-list">
                 
                     <Accordion id="why-develop-acc">
@@ -49,16 +78,28 @@ const en = () => {
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                <a
+                          <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.gpo.gov/fdsys/pkg/FR-1999-06-16/pdf/99-15491.pdf"
                         >
                             Executive Order 13126, Prohibition of Acquisition of
                             Products Produced by Forced or Indentured Child
-                            Labor
+                            Labor, and its implementing regulations
                         </a>
-                        , and its implementing regulations
+                        &nbsp;signed in 1999, requires the U.S. Department of Labor to publish a&nbsp;
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products"
+                        >
+                        List of Products Produced by Forced or Indentured Child Labor </a>
+                        and their countries
+                        of origin.  This List is intended to ensure that U.S. federal agencies do
+                        not procure goods made by forced or indentured child labor.  Under procurement
+                        regulations, federal contractors who supply products on the List must certify
+                        that they have made a good faith effort to determine whether forced or indentured
+                        child labor was used to produce the items supplied.
                                 </p>
                                 
                             </Accordion.Panel>
@@ -199,8 +240,14 @@ const en = () => {
                                     U.S. If the information reasonably, but not
                                     conclusively, indicates that the goods
                                     covered were made, either wholly or in part,
-                                    by forced labor, CBP will issue a withhold
-                                    release order to prevent the goods from
+                                    by forced labor, CBP will issue a&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.cbp.gov/trade/programs-administration/forced-labor/withhold-release-orders-and-findings"
+                                    >
+                                    withhold release order </a>
+                                    to prevent the goods from
                                     entering the U.S. While the goods are being
                                     detained the manufacturer has the option of
                                     re-exporting the goods or of providing
@@ -439,18 +486,24 @@ const en = () => {
                                     region.&nbsp;
                                 </p>
                                 <p>
-                                    Covered companies must determine whether
-                                    they use such minerals and whether such
-                                    minerals are necessary to the functionality
-                                    or production of a product they manufactured
-                                    or contracted to have manufactured. If so,
-                                    the companies must conduct a good faith
-                                    inquiry into the country of origin of the
-                                    minerals, and make certain disclosures. They
-                                    are also required to make available on their
-                                    websites the information they disclose to
-                                    the SEC.
-                                </p>
+                                    The SEC promulgated a rule requiring companies to determine whether
+                                    they use such minerals and whether such minerals are necessary to the
+                                    functionality or production of a product they manufactured or contracted
+                                    to have manufactured.  If so, the rule requires that companies conduct a
+                                    good faith inquiry into the country of origin of the minerals, and make
+                                    certain disclosures to the SEC.  Under the rule, companies are also required
+                                    to make available on their websites the information they disclosed to the SEC.
+                                    </p>
+                                    <p>
+                                    However, the requirement to disclose if products are DRC conflict free was held
+                                    by a court to be a violation of the First Amendment.  As a result, the SEC‘s
+                                    Division of Corporation Finance suspended enforcement of this disclosure pending
+                                    further decision by the SEC on this issue.
+                                    </p>
+                                    <p>
+                                    Presently, companies continue to file required forms with the SEC and conduct origin inquiries.
+                                    </p>
+
                             </Accordion.Panel>
                         </Accordion.Section>
                         <Accordion.Section id="cali-supply-chain-act">
@@ -580,6 +633,46 @@ const en = () => {
                                     disclosure practices.
                                 </p>
                                 <p>
+                                See also Five Years of the California Transparency in Supply Chains Act,
+                                an insights brief prepared by&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://knowthechain.org/"
+                                >
+                                KnowTheChain
+                                </a>, an initiative led by&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://humanityunited.org/"
+                                >
+                                Humanity United
+                                </a>
+                                , in partnership with the&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.business-humanrights.org/"
+                                >
+                                Business & Human Rights Resource Centre</a>
+                                ,&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="www.sustainalytics.com/"
+                                >
+                                Sustainalytics</a>,
+                                and&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf"
+                                >
+                                Verité available at https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf.
+                                </a>
+                                </p>
+                                <p>
                                     See also{" "}
                                     <a
                                         target="_blank"
@@ -610,13 +703,37 @@ const en = () => {
                         <Accordion.Section id="aust-slav">
                             <Accordion.Title>
                                 <strong>
-                                    Australian Modern Slavery Act
+                                    Australia Modern Slavery Act
 
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    Some Text
+                                    On January 1, 2019, Australia’s&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.legislation.gov.au/Details/C2018A00153"
+                                    >
+                                    Modern Slavery Act 2018
+                                    </a>
+                                    (Act) came into force.
+                                    The Act requires entities based, or operating in Australia, which have an annual
+                                    consolidated revenue of more than AUD $100 million to report on the risks of
+                                    modern slavery in their operations and supply chains and actions taken to address
+                                    those risks in a modern slavery statement.  The statement must also describe risks
+                                    of modern slavery in the supply chain of a reporting entity (and its owned and
+                                    controlled entities), as well as the steps it has taken to respond to the risks
+                                    identified including due diligence and remediation processes.
+                                    The Government of Australia has also released&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.homeaffairs.gov.au/criminal-justice/files/modern-slavery-reporting-entities.pdf"
+                                    >
+                                    Guidance for Reporting Entities
+                                    </a>
+                                     &nbsp;to explain in plain
                                 </p>
                                 
                             </Accordion.Panel>
@@ -630,7 +747,26 @@ const en = () => {
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    Some Text
+                                    The Netherlands’ Senate approved the&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.eerstekamer.nl/behandeling/20170207/gewijzigd_voorstel_van_wet"
+                                    >
+                                    Child Labor Due Diligence Act
+                                    </a>
+                                    &nbsp;(Act) in 2019 but it awaits royal approval
+                                    before going into effect.  This Act will apply to all companies
+                                    that sell or supply goods or services to consumers to Dutch consumers,
+                                    regardless of the registration or the domicile of the company.  The Act
+                                    requires companies to submit a statement that they have applied due diligence
+                                    to assess whether a “reasonable suspicion” exists that the services or goods
+                                    supplied have come been produced with child labor in their value chains.
+                                    If a “reasonable suspicion” is found, the company must adopt and implement
+                                    a plan to address the child labor.  Companies must also investigate child labor
+                                    in their supply chain using sources that are reasonably known and accessible.
+                                    Companies that fail to comply with the law can face fines up to €870,000
+                                    or ten percent of worldwide revenue and there is criminal liability for the director.
                                 </p>
                                 
                             </Accordion.Panel>
@@ -644,7 +780,36 @@ const en = () => {
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    Some Text
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014L0095"
+                                    >
+                                    European Union (EU) Directive 2014/95/EU
+                                    </a>
+                                    &nbsp;requires public-interest companies with at
+                                    least 500 employees to publish reports on policies they implement on environmental
+                                    protection, social responsibility and treatment of employees, respect for human rights,
+                                    anti-corruption and bribery, and diversity on company boards.  In June 2017, the European
+                                    Commission published&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://ec.europa.eu/info/publications/non-financial-reporting-guidelines_en"
+                                    >
+                                    guidelines to help companies disclose environmental and social information
+                                    </a>
+                                    &nbsp;but companies have flexibility in how they report under the Directive.
+
+                                    More information can
+                                    be found on the European Commission’s&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014L0095"
+                                    >
+                                    &nbsp;website
+                                    </a>.
                                 </p>
                                 
                             </Accordion.Panel>

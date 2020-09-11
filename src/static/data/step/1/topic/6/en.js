@@ -11,8 +11,16 @@ const en = () => {
                     <strong>Loan conditionality</strong>
                 </h1>
                 <p>
-                    Business entities receiving loans from the U.S.
-                    Government&rsquo;s{" "}
+                    Business entities receiving loans from the U.S. Government’s&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.dfc.gov/"
+                    >
+                    International Development Finance Corporation
+                    </a>
+                    &nbsp;(DFC)—
+                    constituted in 2019, consolidating functions from the
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

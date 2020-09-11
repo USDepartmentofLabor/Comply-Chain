@@ -12,9 +12,9 @@ const en = () => {
                     or forced labor in violation of international standards, as
                     required under the Trafficking Victims Protection
                     Reauthorization Act (TVPRA) of 2005 and subsequent
-                    reauthorizations. As of September 20, 2018, the List of
-                    Goods Produced by Child Labor or Forced Labor comprises 148
-                    goods from 76 countries.
+                    reauthorizations. As of September 30, 2020, the List of Goods
+                    Produced by Child Labor or Forced Labor comprises more than 150 goods from 77 countries/areas.
+
                 </p>
                 <p>
                     ILAB maintains the List primarily to raise public awareness

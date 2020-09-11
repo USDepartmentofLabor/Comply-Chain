@@ -71,7 +71,8 @@ class LanguageSwitcher extends Component {
                 <LanguageButton
                     id="es-btn"
                     onClick={() => {
-                        this.handleLanguageChange("es");
+                        window.alert("THIS FEATURE IS COMING SOON");
+                        //this.handleLanguageChange("es");
                     }}
                 >
                     <span lang="es">{localizor.strings.general.spanish}</span>
@@ -79,7 +80,8 @@ class LanguageSwitcher extends Component {
                 <LanguageButton
                     id="fr-btn"
                     onClick={() => {
-                        this.handleLanguageChange("fr");
+                         window.alert("THIS FEATURE IS COMING SOON");
+                        //this.handleLanguageChange("fr");
                     }}
                 >
                     <span lang="fr">{localizor.strings.general.french}</span>
@@ -87,7 +89,8 @@ class LanguageSwitcher extends Component {
                 <LanguageButton
                     id="ms-btn"
                     onClick={() => {
-                        this.handleLanguageChange("ms");
+                        window.alert("THIS FEATURE IS COMING SOON");
+                        //this.handleLanguageChange("ms");
                     }}
                 >
                     <span lang="ms">{localizor.strings.general.malay}</span>

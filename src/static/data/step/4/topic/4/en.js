@@ -3,6 +3,9 @@ import Accordion from "../../../../../../components/Accordion";
 import StaticData from "../../../../../../components/StaticData";
 import cocoaSupplyChains from "../../../../../images/cocoa_supply_chains.png";
 import genericImport from "../../../../../images/generic_import.png";
+import electronics from "../../../../../images/electronics.jpg";
+import minerals from "../../../../../images/minerals.jpg";
+import seafood from "../../../../../images/seafood.jpg";
 
 const en = () => {
     return (
@@ -10,10 +13,18 @@ const en = () => {
             <div>
                 <h1>Supply Chain Mapping</h1>
                 <p>
-                    Companies know who their direct suppliers are and where they
-                    are located. The more comprehensively a company can map its supply chains.
-                    It is therefore important to communicate with the company’s sourcing and/or
-                    supply chain management teams to obtain data about their own supply chains.
+                    Companies know who their direct suppliers are and where they are located.
+                    However, in many cases, companies source from vendors or agents who do not
+                    disclose the factories or other production facilities from which they in turn source.
+                    Oftentimes companies may be aware of the first-tier factories and production facilities
+                    in their supply chains, but know little or nothing about the practices of second, third
+                    and other tiers of suppliers down the line.  Companies should know as much as possible
+                    about who supplies to them—at all levels of the supply chain, including upstream producers
+                    of raw materials.  The more comprehensively a company can map its supply chains, the more
+                    accurately it can identify those places along the chain with the greatest risks of labor abuses.
+                    It is therefore important to communicate with the company’s sourcing and/or supply chain management
+                    teams to obtain data about their own supply chains, and if more information is needed, to work closely
+                    with them to supplement that data.
                 </p>
                 <p>
                     If a company does not have access to information
@@ -34,14 +45,13 @@ const en = () => {
                     greater risk for labor abuses.&nbsp;
                 </p>
                 <p>
-                    Goods produced using agricultural or mineral commodities can
-                    be particularly difficult to trace, since the raw materials
-                    are harvested or mined in widely dispersed geographic areas
-                    and aggregated or co-mingled early in the supply chain. Some
-                    companies and industry coalitions have attempted
-                    &ldquo;traceability&rdquo; programs to track certain
-                    commodities from a finished product back through the supply
-                    chain to their point of origin.
+                    Goods produced using agricultural or mineral commodities can be particularly
+                    difficult to trace, since the raw materials are harvested or mined in widely
+                    dispersed geographic areas and aggregated or co-mingled early in the supply chain.
+                    Some companies and industry coalitions have attempted
+                    &ldquo;traceability&rdquo; programs to
+                    track certain commodities from a finished product
+                    back through the supply chain to their point of origin.
                 </p>
                 <p>
                     To be clear, mapping supply chains does not necessarily
@@ -68,6 +78,9 @@ const en = () => {
                     other relevant considerations, and prioritize those for
                     human rights due diligence.&rdquo; This prioritization
                     process is addressed below.
+                    </p>
+                    <p>
+                    The following are three examples of supply chain maps:
                 </p>
                 <br />
                        <Accordion id="cocoa-chains-acc">
@@ -98,7 +111,9 @@ const en = () => {
                                 collectors/transporters; processors; exporters;
                                 the global market; manufacturers (which may also
                                 manufacture other beans); customers; and
-                                consumers. The graphic also lists examples of
+                                customers, which include retail outlets, restaurants,
+                                and small businesses purchasing products to sell;
+                                and final consumers. The graphic also lists examples of
                                 entities and activities that fall into those
                                 supply chain categories in two countries:
                                 C&ocirc;te d&rsquo;Ivoire and Ghana. In
@@ -122,13 +137,15 @@ const en = () => {
                                 Processors and exporters in Ghana include
                                 COCOBOD and international companies. This
                                 includes those that produce semi-finished goods.
-                                The graphic lists similar final steps in the
-                                process for both countries. Beans and small
-                                family farm products are moved into the global
-                                market. Manufacturers further manufacture the
-                                products. Retail outlets, restaurants and small
-                                businesses serve as customers. And consumers are
-                                the final customer.&nbsp;
+                                The graphic lists similar final steps in the process
+                                for both countries.  Beans and small family farm products
+                                are moved into the global market to manufacturers, which take
+                                the raw good and transform it into an end product for consumers
+                                (e.g. cocoa beans into chocolate bars).  Retail outlets, restaurants
+                                and small businesses serve as initial point of sale and point of
+                                service customers.  And secondary consumers are the final customer,
+                                for example an individual purchasing a chocolate bar from a grocery
+                                store (point of sale) or a piece of chocolate cake from a restaurant (point of service).
 
 
                                             </div>
@@ -138,12 +155,28 @@ const en = () => {
                     <Accordion id="electronic-supply-chain">
                         <Accordion.Section id="electronic-supply-chain-description">
                             <Accordion.Title>
-                            Electronics Supply Chains - Cobalt, Tantalum, and Tin
+                            Electronics Supply Chains
                         </Accordion.Title>
                         <Accordion.Panel>
-
+                        <img
+                              src={electronics}
+                              alt="Electronics Supply Chains"
+                              longdesc="#electronics_chains"
+                              />
+                        <img
+                              src={minerals}
+                              alt="DRC Minerals Supply Chains"
+                              longdesc="#minerals_chains"
+                              />
                         <p className="small-text">
-                        PLACEHOLDER FOR CONTENT.
+                        The graphics above illustrates the general steps in the supply chain for the electronics industry,
+                        which sources many rare earth metals from the Central African nation of the Democratic Republic of
+                        the Congo (DRC).  Although design and development on consumer electronics takes place often near the
+                        locations of end users, such as in the United States, the sourcing of materials often begins halfway
+                        around the world in Central Africa.  These mined materials are then delivered overland to ports on the coast of
+                         East Africa.  Traveling by boat, the materials are delivered to smelters in East and Southeast Asia, where the
+                         smelters refine the materials and convert the materials into usable components for the manufactures
+                         that are based both in the region and also in Europe and North America.
 
                           </p>
                         </Accordion.Panel>
@@ -153,111 +186,42 @@ const en = () => {
                   <Accordion id="generic-imp-supply">
                       <Accordion.Section id="generic-imp-description">
                           <Accordion.Title>
-                          Generic Import Supply Chain- Retail Model
+                          Seafood Supply Chain
                       </Accordion.Title>
                       <Accordion.Panel>
-                          <img
-                          src={genericImport}
-                          alt="Generic Import Supply Chain - Retail Model"
-                          longdesc="#generic_import"
-                          />
-                      <p className="small-text">
-                          Source:{" "}
-                          <a
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              href="https://corporate.target.com/"
-                          >
-                              Target Corporation.
-                          </a>
-                      </p>
-                         <div id="cocoa_chains">
-            <p>
-                This graphic illustrates the steps in a
-                generic import supply chain. The depiction
-                of a typical retail model supply chain
-                begins with:
-            </p>
-            <ul>
-                <li>
-                    Step One: Product Development. In this
-                    phase, a product concept and supplier
-                    are determined, and a product design is
-                    finalized. This is also when financing
-                    is determined and occurs 5 to 9 months
-                    prior to the in-store date.
-                </li>
-                <li>
-                    Step Two: Order and Production. Here,
-                    item set-up and classification occurs,
-                    and a buyer sends an electronic purchase
-                    order to a vendor, customs broker,
-                    freight forwarder and bank. Factory
-                    selection and pre-production testing is
-                    next, followed by merchandise production
-                    by the factory which checks for quality
-                    assurance and social compliance. This
-                    all occurs 2 to 5 months prior to the
-                    in-store date.
-                </li>
-                <li>
-                    Step Three: Carrier Booking. Here, the
-                    vendor books cargo with a freight
-                    forwarder and delivers cargo to a
-                    terminal or Container Freight Station
-                    (CFS) location. This happens 2 to 4
-                    months prior to the in-store date.
-                </li>
-                <li>
-                    Step Four: Document Processing and
-                    Shipment. The vendor submits entry docs
-                    to the freight forwarder and pays local
-                    charges. The freight forwarder also
-                    sends docs electronically to the broker.
-                    A Forwarders Cargo Receipt (FCR) is
-                    issued to the vendor (which is required
-                    for the vendor to receive payment). The
-                    24 hour manifest and Importer Security
-                    Filing (ISF) information are due to U.S.
-                    Customs at this stage, as well. The
-                    vessel departs, and then the freight
-                    forwarder sends electronic shipping
-                    details to the customs broker and the
-                    buyer. This step occurs 1 to 2 months
-                    prior to the in-store date.
-                </li>
-                <li>
-                    Step Five: Customs Clearance. Here, the
-                    broker receives electronic entry docs,
-                    and the broker reviews and verifies
-                    documents. The broker then files entry
-                    with U.S. Customs and Other Government
-                    Agencies (OGAs). The buyer sends
-                    allocation instructions to Decon at this
-                    stage, as well. Then, the vessel arrives
-                    and the container is released for
-                    distribution. This all occurs 1 month
-                    prior to the in-store date.
-                </li>
-                <li>
-                    Step 6: Deconsolidation/Shipment to
-                    Final Destination. This occurs 2 weeks
-                    through the in-store date. Here,
-                    delivery is arranged to the
-                    deconsolidation center (or final
-                    destination). Decon then distributes the
-                    product using buyer allocation
-                    instructions. The product is delivered
-                    to the distribution center, warehouse or
-                    store. An Additional Information and
-                    Terms section of the graphic defines
-                    acronyms used in the illustration and
-                    also mentions that not all importers
-                    classify items early in the supply
-                    chain.
-                </li>
-            </ul>
-                        </div>
+                          <br />
+                      <img
+                              src={seafood}
+                              alt="Seafood Supply Chains"
+                              longdesc="#seafood_chains"
+                              />
+                      <p>
+                      The structure of every supply chain in the seafood sector takes a similar path from the fisher 
+                      to the end buyer; however, there are often many variations along the way. Furthermore, the end 
+                      user in a seafood supply chain is very diverse, including points of service (e.g., restaurants, 
+                      hotels, hospitals, and schools) and points of sale (e.g. retail outlets among others). With 
+                      respect to wild caught seafood, fleets of vessels may coordinate with a “mother ship” to 
+                      aggregate the daily catch. Upon delivery of this catch to land, the seafood is either delivered 
+                      to a primary processor or to the open market. The primary processor receives the seafood and 
+                      processes it for further sale to retailers or foodservice distributors who move it to end users. 
+                    </p>
+                    <p>
+                    Seafood sold into these more formal markets entail many permutations with a variety of mid-chain 
+                    players from primary processors to secondary processors to dealers to transporters among others 
+                    with each playing a role to move the product closer to the point of final sale.
+                    </p>
+                    <p>
+                    Source: {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.resolve.ngo/site-eiscm/default.htm?RD=1"
+                        title="Resolve NGO"
+                    >
+                        https://www.resolve.ngo/site-eiscm/default.htm?RD=1
+                    </a>.  
+                    </p>
+
                       </Accordion.Panel>
                   </Accordion.Section>
                   </Accordion>

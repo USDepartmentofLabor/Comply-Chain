@@ -8,7 +8,7 @@ const en = () => {
                 <h1>Findings on the Worst Forms of Child Labor</h1>
                 <p>
                     The Department of Labor's annual Findings on the Worst Forms
-                    of Child Labor focuses on the efforts of certain U.S. trade
+                    of Child Labor focuses on the efforts of more than 130 U.S. trade
                     beneficiary countries and territories to eliminate the worst
                     forms of child labor through legislation, enforcement
                     mechanisms, policies and social programs.
@@ -30,7 +30,8 @@ const en = () => {
                     </li>
                 </ul>
                 <p>
-                    The Report serves as a resource to foreign governments,
+                    The Report serves as a great resource to companies with global supply chains,
+                    foreign governments,
                     NGOs, academics and policymakers working on labor and human
                     rights issues. It helps inform Congress and Executive Branch
                     agencies that formulate labor and trade policy and is an

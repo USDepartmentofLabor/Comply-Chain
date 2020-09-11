@@ -57,30 +57,23 @@ const en = () => {
                 </p>
                 <OwnWords>
                                 <h2>
-                                    <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                                    <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words: UN Guiding Principles on Business and Human Rights</strong>
                                     {": "}
                                 </h2>
                                 <p>
-                                    The responsibility to respect human rights requires that
-                                    business enterprises have in place policies and
-                                    processes through which they can both know and show that
-                                    they respect human rights in practice. Showing involves
-                                    communication, providing a measure of transparency and
-                                    accountability to individuals or groups who may be
-                                    impacted and to other relevant stakeholders, including
-                                    investors.
+                                The responsibility to respect human rights requires that business 
+                                enterprises have in place policies and processes through which 
+                                they can both know and show that they respect human rights in practice. 
+                                Showing involves communication, providing a measure of transparency and 
+                                accountability to individuals or groups who may be impacted and to other 
+                                relevant stakeholders, including investors.
                                 </p>
                                 <p>
-                                    Communication can take a variety of forms, including
-                                    in-person meetings, online dialogues, consultation with
-                                    affected stakeholders, and formal public reports. Formal
-                                    reporting is itself evolving, from traditional annual
-                                    reports and corporate responsibility/sustainability
-                                    reports, to include on-line updates and integrated
-                                    financial and non-financial reports.
+                                Communication can take a variety of forms, including in-person meetings, 
+                                online dialogues, consultation with affected stakeholders, and formal public reportss.
                                 </p>
                                 <p>
-                                    <em>
+                                    
                                         Source:{" "}
                                         <a
                                             target="_blank"
@@ -92,7 +85,7 @@ const en = () => {
                                             and Human Rights
                                         </a>
                                         , 2011.
-                                    </em>
+                                
                                 </p>
                             </OwnWords>
                 <p>
@@ -145,7 +138,7 @@ const en = () => {
                         and with important external stakeholders.
                     </p>
                 </div>
-                 <ExampleInAction id="prereg">
+                 {/* <ExampleInAction id="prereg">
                                     <h2>
                                         <ExampleInAction.Icon alt="Lightbulb"/>
                                         Example in Action: Socially Responsible Investing
@@ -154,14 +147,64 @@ const en = () => {
                                         <b>PLACEHOLDER FOR TEXT</b>
                                     </p>
                                 </ExampleInAction>
-                     <br />
+                     <br /> */}
                   <ExampleInAction id="prereg">
                                       <h2>
                                           <ExampleInAction.Icon alt="Lightbulb"/>
-                                          Example in Action: Japanese Company&#39;s Human Rights Report Takes Flight
+                                          Example in Action: Japanese Company&rsquo;s human rights report takes flight
                                       </h2>
                                       <p>
-                                          <b>PLACEHOLDER FOR TEXT</b>
+                                      In 2018, {" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.ana.co.jp/group/en/about-us/"
+                                            title="ANA Group"
+                                        >
+                                            ANA Group*
+                                        </a>
+                                      —the Japanese airline group company—became one of the first 
+                                      Japanese company to publish a {" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.ana.co.jp/group/en/csr/effort/pdf/Human_Rights_Report_2018_e.pdf"
+                                            title="human rights report"
+                                        >
+                                            human rights report
+                                        </a>
+                                      
+                                      . Since the start of discussions 
+                                      to publish a report in 2015, ANA Group has continued to broaden its understanding 
+                                      of business and human rights driven in part by the demands of the international 
+                                      community’s growing concern and attention.  Due in part to conversations with 
+                                      human rights experts starting in 2015, ANA Group developed a {" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.ana.co.jp/group/en/csr/effort/pdf/humanrights_e.pdf"
+                                            title="Human Rights Policy"
+                                        >
+                                            Human Rights Policy
+                                        </a> {" "}
+                                       
+                                      as an initial step to outline the company’s progress. However, during this process, 
+                                      voices emerged among management that expressed concern with the fact that the 
+                                      publication of a human rights report would itself carry risks.  Nevertheless, as 
+                                      ANA expanded discussions with experts abroad and in Japan and with the global investor 
+                                      community, the company realized that publication of a human rights report is, in 
+                                      and of itself, risk management.
+                                      </p>
+                                      <p>
+                                      Source:{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.ana.co.jp/group/en/about-us/"
+                                            title="ana about us"
+                                        >
+                                            https://www.ana.co.jp/group/en/about-us/
+                                        </a>.   
                                       </p>
                                   </ExampleInAction>
             </div>

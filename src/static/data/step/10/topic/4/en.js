@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
-import OwnWords from "../../../../../../components/OwnWords";
+// import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
-import hrm from "../../../../../images/hrm.jpg";
-import panos from "../../../../../images/panos.jpg";
-import Accordion from "../../../../../../components/Accordion";
+// import hrm from "../../../../../images/hrm.jpg";
+// import panos from "../../../../../images/panos.jpg";
+// import Accordion from "../../../../../../components/Accordion";
 
 const en = () => {
     return (
@@ -26,7 +26,9 @@ const en = () => {
                     with the other business units throughout the company. Points
                     of contact throughout the company should be assigned to
                     provide input and review the report so that it reflects the
-                    integration of social compliance throughout the company.
+                    integration of social compliance throughout the entire company, 
+                    including divisions one does not normally associate with social 
+                    compliance, such as marketing and finance.
                 </p>
                 <p>
                     Other companies contract with an external service provider
@@ -54,14 +56,64 @@ const en = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Reporting as a Small Business
+                            Example in Action: Reporting as a small business
                         </strong>
                     </h2>
                     <p>
-                    <br />
+                        <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.uncommoncacao.com/company"
+                                title="Uncommon Cacao"
+                            >
+                                Uncommon Cacao
+                            </a>
+                    
+                    * is a small California-based company and registered {" "}
+                    <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://bcorporation.net/"
+                                title="B Corporation"
+                            >
+                                B Corporation
+                            </a> {" "}
+                    
+                     focused on the cacao supply chain that published its 
+                    seventh annual {" "}
+                    <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://indd.adobe.com/view/4afb053a-306c-4f52-8612-f77b23c7d466"
+                                title="Transparency Report in 2018"
+                            >
+                                Transparency Report in 2018
+                            </a>
+                    
+                    . Uncommon Cacao works with 
+                    nearly 4,000 farmers through collectives in seven different 
+                    cacao-producing countries, supplying more than 200 craft chocolatiers 
+                    globally. The company&rsquo;s consistent public reporting on purchasing and 
+                    sourcing information brings transparency to a sector that is sometimes 
+                    lacking in these details and consistency. This reporting creates 
+                    accountability for all stakeholders, enables consumers and producers 
+                    to access real data, and establish pricing benchmarks all along the 
+                    global cacao supply chain.
+                    </p>
+                    <p>
+                    Source: {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.uncommoncacao.com/company"
+                                title="cacao company"
+                            >
+                                https://www.uncommoncacao.com/company
+                            </a>.
+
                     </p>
                 </ExampleInAction>
-                <p>
+                {/* <p>
                     <em>
                         *Note: References to specific companies and
                         non-governmental entities within this guide are for
@@ -78,7 +130,7 @@ const en = () => {
                         in all areas
                     </em>
                     <em>.</em>
-                </p>
+                </p> */}
 
             </div>
         </StaticData>

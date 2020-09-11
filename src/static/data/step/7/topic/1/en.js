@@ -12,14 +12,14 @@ const en = () => {
                 <h2>Auditing: Getting Started </h2>
 
                 <p>
-                    Social auditing is one of the key ways—in addition to
-                    engagement with unions/workers and grievance mechanisms—to
-                    obtain information about violations of a company’s code of
-                    conduct in your supply chain. Auditing uncovers problems; it
-                    does not solve problems. It is one piece of the larger
-                    social compliance system, and cannot and should not be done
-                    in isolation from stakeholder engagement, communication,
-                    remediation and the other steps in the process.
+                Social auditing is one of the key ways—in addition to 
+                engagement with unions/workers and grievance mechanisms—to 
+                obtain information about violations of a company’s code of 
+                conduct in your supply chain.  Auditing uncovers problems; 
+                it does not solve problems.  It is one piece of the larger 
+                social compliance system, and cannot and should not be done 
+                in isolation from stakeholder engagement, communication, 
+                remediation and the other steps in the process.
                 </p>
                 <p>
                     Auditing is central to the implementation of an effective
@@ -48,6 +48,15 @@ const en = () => {
                     have the right personnel in place, and that they have the
                     tools they need.
                 </p>
+                <p>
+                It is also important to note that companies can explore other 
+                avenues to monitor compliance beyond the traditional audit process. 
+                Increasingly, companies are exploring other ways to gather information 
+                and monitor compliance, such as relying on the use of technology, 
+                as highlighted in several examples in this section, and through 
+                existing partnerships with the NGO community and other civil society 
+                members, among others.
+                </p>
                 <h2>The Key Role of Workers and Unions</h2>
                 <p>
                     One of the most effective ways to monitor supply chains is
@@ -68,10 +77,59 @@ const en = () => {
                 <ExampleInAction id="better_work_assessment">
                 <h3>
                     <ExampleInAction.Icon alt="Lightbulb"/>
-                    Example in Action: Worker Voice in the Audit Process
+                    Example in Action: Worker Voice
                 </h3>
                 <p>
-                   <b>PLACEHOLDER FOR TEXT</b>
+                Increasingly, business entities are finding the traditional
+                 pen and paper audit process as cumbersome and sometimes 
+                 challenging when it comes to the incorporation of worker voice. 
+                 To alleviate those issues, groups are turning more often to 
+                 technology, especially mobile phones, to find ways to answer 
+                 the call of workers.
+                </p>
+                <p>
+                One of those examples is {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ethicaltoyprogram.org/en/"
+                        title="The Ethical Toy Company"
+                    >
+                        <em>
+                        The Ethical Toy Company
+                        </em>
+                    </a>
+                * and its work with 
+                {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.microbenefits.com/"
+                        title="MicroBenefits"
+                    >
+                        <em>
+                        MicroBenefits
+                        </em>
+                    </a>
+                * 
+                and through funding from 
+                {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://thewaltdisneycompany.com/"
+                        title="The Walt Disney Company"
+                    >
+                        <em>
+                        The Walt Disney Company
+                        </em>
+                    </a>
+                * 
+                to pilot worker voice technology at 50 toy factories in China.  
+                This industry pilot that was kicked off in 2018, 
+                hopes to leverage mobile technology as a way to share and collect 
+                direct feedback from workers on working conditions within the 
+                toy supply chain. 
                 </p>
             </ExampleInAction>
             </div>

@@ -1,5 +1,6 @@
 // import { ExtraInfo } from "./extra";
 import { Topics } from "./topic";
+import { Resources } from "./resource";
 
 export const StepData = {
     en: {
@@ -15,12 +16,12 @@ export const StepData = {
             {
                 termName: "Violation",
                 termDefinition:
-                    "A situation identified through an audit that is in breach of the code of conduct."
+                    "A situation identified through an audit, or any other avenue, that is in breach of the code of conduct or other local or international standards."
             },
             {
                 termName: "Remediation",
                 termDefinition:
-                    "The actions taken in response to a code of conduct violation identified in an audit. Remediation actions should both fix the problem and prevent it from recurring."
+                    "The actions taken in response to an identified violation.  Remediation actions should strive to both fix the problem and prevent it from recurring."
             },
             {
                 termName: "Corrective Action Plan (CAP)",
@@ -29,6 +30,7 @@ export const StepData = {
             }
         ],
         // extraInfo: ExtraInfo.en
+        furtherResources: Resources.en
     },
     es: {
         title: "Sexto paso: Remediación de infracciones",
@@ -62,6 +64,7 @@ export const StepData = {
             }
         ],
         // extraInfo: ExtraInfo.es
+        furtherResources: Resources.es
     },
     fr: {
         title: "Sixième étape: Réparer les infractions",
@@ -95,6 +98,7 @@ export const StepData = {
             }
         ],
         // extraInfo: ExtraInfo.fr
+        furtherResources: Resources.fr
     },
     ms: {
             title: "Step 6: Remediate Violations",
@@ -123,5 +127,6 @@ export const StepData = {
                 }
             ],
             // extraInfo: ExtraInfo.en
+            furtherResources: Resources.ms
         }
 };
