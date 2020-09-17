@@ -126,12 +126,12 @@ class NavBar extends Component {
        }
 
        if (!visible) {
-        document.getElementById('what-are-link').tabIndex="1";
-        document.getElementById('steps-dropdown').tabIndex="1";
-        document.getElementById('en-btn').tabIndex="1";
-        document.getElementById('es-btn').tabIndex="1";
-        document.getElementById('fr-btn').tabIndex="1";
-        document.getElementById('ms-btn').tabIndex="1";
+        document.getElementById('what-are-link').tabIndex="-1";
+        document.getElementById('steps-dropdown').tabIndex="-2";
+        document.getElementById('en-btn').tabIndex="-3";
+        document.getElementById('es-btn').tabIndex="-4";
+        document.getElementById('fr-btn').tabIndex="-5";
+        document.getElementById('ms-btn').tabIndex="-6";
         } else if (visible) {
         document.getElementById('what-are-link').tabIndex="0";
         document.getElementById('steps-dropdown').tabIndex="0";
