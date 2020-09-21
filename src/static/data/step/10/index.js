@@ -15,7 +15,7 @@ export const StepData = {
         ],
         keyTerms: [
             {
-                termName: "Public Reporting and some more",
+                termName: "Public Reporting",
                 termDefinition:
                     "Communication that is made available to the public, through a variety of channels, about all elements of a company’s social compliance system."
             }

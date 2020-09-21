@@ -199,22 +199,6 @@ const en = () => {
                                                   or area?
                                               </p>
 
-                                              <p>
-                                                  To get a sense for how this general approach can be applied
-                                                  in a particular sector, the{" "}
-                                                  <a
-                                                      target="_blank"
-                                                      rel="noopener noreferrer"
-                                                      href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
-                                                      title="Responsible Sourcing Seafood Tool 4: Information Gathering and Risk Assessment in Seafood Supply Chains"
-                                                  >
-                                                      Responsible Sourcing Seafood Tool 4: Information
-                                                      Gathering and Risk Assessment in Seafood Supply Chains
-                                                  </a>{" "}
-                                                  takes a step-by-step approach to examining country-based
-                                                  risks, supply chain-based risks, and supplier-based
-                                                  risks.&nbsp;
-                                              </p>
                                           </Accordion.Panel>
                                       </Accordion.Section>
                                       </Accordion>
@@ -235,6 +219,22 @@ const en = () => {
                                                </Accordion.Panel>
                                            </Accordion.Section>
                                            </Accordion>
+                                           <p>
+                                             To get a sense for how this general approach can be applied
+                                             in a particular sector, the{" "}
+                                             <a
+                                                 target="_blank"
+                                                 rel="noopener noreferrer"
+                                                 href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
+                                                 title="Responsible Sourcing Seafood Tool 4: Information Gathering and Risk Assessment in Seafood Supply Chains"
+                                             >
+                                                 Responsible Sourcing Seafood Tool 4: Information
+                                                 Gathering and Risk Assessment in Seafood Supply Chains
+                                             </a>{" "}
+                                             takes a step-by-step approach to examining country-based
+                                             risks, supply chain-based risks, and supplier-based
+                                             risks.&nbsp;
+                                         </p>
                                            <br />
                                            <ExampleInAction id="med_rep">
                                            <h2>

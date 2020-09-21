@@ -20,7 +20,7 @@ const en = () => {
                     International Development Finance Corporation
                     </a>
                     &nbsp;(DFC)—
-                    constituted in 2019, consolidating functions from the
+                    constituted in 2019, consolidating functions from the&nbsp;
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

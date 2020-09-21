@@ -269,6 +269,9 @@ const en = () => {
                         palm has doubled in the past decade and is expected to
                         continue to increase rapidly.
                     </p>
+                    <p>
+                    Source: http://poig.org/
+                    </p>
                 </ExampleInAction>
                 <br />
             </div>

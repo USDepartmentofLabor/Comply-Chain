@@ -37,7 +37,6 @@ const en = () => {
                         </strong>
                     </h2>
                     <p>
-                        Social Accountability 8000 (SA8000) Standard,{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -45,7 +44,7 @@ const en = () => {
                             title="Social Accountability International (SAI)"
                         >
                             Social Accountability International (SAI)
-                        </a>{" "}
+                        </a>*{" "}
                         is a global non-governmental organization focused on human rights at work. 
                         In 1997, as part of a multi-stakeholder initiative, SAI created the 
                         {" "}

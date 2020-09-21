@@ -195,9 +195,9 @@ const en = () => {
                         >
                             Workers Rights Consortium
                         </a>{""}
-                            
-                            ,* 
-                            a group that monitors and investigates labor conditions in factories 
+
+                            ,*
+                            a group that monitors and investigates labor conditions in factories
                             around the world, in an interview with {" "}
                         <a
                             target="_blank"

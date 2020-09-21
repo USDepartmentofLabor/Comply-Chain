@@ -183,7 +183,7 @@ const en = () => {
                                      <br />
                                
                                 <p>
-                                <b>Source: APSCA, Competency Framework: </b>
+                                Source: APSCA, Competency Framework:
                                 <br />
                                 {""}
                             <a

@@ -13,22 +13,6 @@ const en = () => {
                     forms of child labor through legislation, enforcement
                     mechanisms, policies and social programs.
                 </p>
-                The Report presents:
-                <ul>
-                    <li>
-                        Findings on the prevalence and sectoral distribution of
-                        the worst forms of child labor in each country.
-                    </li>
-                    <li>
-                        Country-specific suggestions for government action
-                        (since 2009).
-                    </li>
-                    <li>
-                        Individual country assessments that identify where
-                        Significant, Moderate, Minimal, or No Advancement has
-                        been made (since 2011).
-                    </li>
-                </ul>
                 <p>
                     The Report serves as a great resource to companies with global supply chains,
                     foreign governments,

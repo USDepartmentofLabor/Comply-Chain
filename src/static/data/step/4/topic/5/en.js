@@ -123,7 +123,7 @@ const en = () => {
                     >
                         ILAB website
                     </a>
-                    , is free and available for download on the apple's{" "}
+                    , is free and available for download on the Apple's{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -211,84 +211,7 @@ const en = () => {
                         their supply chains.
                     </p>
                 </ExampleInAction>
-                <p>
-                    Some companies take the approach of
-                    &ldquo;outsourcing&rdquo; the information-gathering function
-                    to an expert, such as a consulting firm, civil society group
-                    or academic institution. For instance, in 2010, the NGO
-                    Human Rights Watch* released a report documenting poor
-                    working conditions&mdash;including child labor and forced
-                    labor&mdash;on tobacco farms in Kazakhstan that supplied to
-                    Philip Morris Kazakhstan* (PMK), a wholly owned subsidiary
-                    of tobacco company Philip Morris International* (PMI). PMI
-                    subsequently commissioned the NGO{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.verite.org/"
-                        title="Verit&eacute;"
-                    >
-                        Verit&eacute;
-                    </a>
-                    * to conduct an onsite investigation of working conditions
-                    on Kazakh tobacco farms and draft a{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.verite.org/wp-content/uploads/2016/11/Verite_Report_for_PMI_on_Kazakhstan-2_May_2011.pdf"
-                        title="recommendations report"
-                    >
-                        recommendations report
-                    </a>
-                    . PMI has used the report to develop new policies and
-                    practices. These include a comprehensive auditing system for
-                    all tobacco farms in Kazakhstan, as well as partnerships
-                    with local NGOs on children&rsquo;s camps, vocational
-                    schools, community centers, schooling registration programs,
-                    and farm owner education and training programs.&nbsp;
-                </p>
-                <img src={hrm} alt="Human rights Watch" />
-                <p className="small-text">
-                    &copy;Marcus Bleasdale/Human Rights Watch
-                </p>
-                <p>
-                    If you already have well-established relationships with
-                    suppliers and are seeking to assess their existing risks,
-                    audit reports done on these suppliers by other companies or
-                    groups afford a very useful source of data. Obtaining them
-                    may require joining a group, such as the{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.sedexglobal.com/"
-                        title="Supplier Ethical Data Exchange (SEDEX)"
-                    >
-                        Supplier Ethical Data Exchange (SEDEX)
-                    </a>{" "}
-                    and{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.fairfactories.org/"
-                        title="Fair Factories Clearinghouse"
-                    >
-                        Fair Factories Clearinghouse
-                    </a>
-                    , which provide a platform for sharing information on common
-                    suppliers and collaborating on monitoring and remediation
-                    efforts.&nbsp;
-                </p>
-                <p>
-                    When audit reports are not available, there are other ways
-                    to gather information on your current suppliers to determine
-                    which ones to target for further compliance efforts.
-                    Wherever a union exists, it may be a good source of
-                    information on labor abuse risk factors. Where there is no
-                    union, the supplier may have other grievance or complaint
-                    mechanisms in place that could be a source of information.
-                    Another option, of course, is to survey all of your
-                    suppliers on the key risk factors listed above.
-                </p>
+
            </div>
         </StaticData>
     );

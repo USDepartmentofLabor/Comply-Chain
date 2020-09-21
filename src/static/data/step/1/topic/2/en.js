@@ -26,7 +26,7 @@ const en = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://business-humanrights.org/en/un-guiding-principles"
+                        href="https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                     >
                         Guiding Principles on Business and Human Rights
                     </a>

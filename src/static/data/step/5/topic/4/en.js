@@ -39,7 +39,7 @@ const en = () => {
                 <ExampleInAction id="patagonia">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        Example in Action: Patagonia&rsquo;s* Migrant Worker
+                        Example in Action: Patagonia&rsquo;s Migrant Worker
                         Standards
                     </h2>
                     <p>

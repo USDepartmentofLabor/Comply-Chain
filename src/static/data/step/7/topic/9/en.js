@@ -129,26 +129,27 @@ const en = () => {
                                                                 always keep in mind the impact of such a termination on the
                                                                 workers.
                                                             </p>
-                                                            <p>
-                                                                <em>
-                                                                    *Note: References to specific companies and
-                                                                    non-governmental entities within this guide are for
-                                                                    informational purposes only to demonstrate best
-                                                                    practices that have been recognized internationally, as
-                                                                    of the app&rsquo;s release date. Referencing the
-                                                                    entities should not be interpreted as an official
-                                                                    endorsement of those entities, their products, or
-                                                                    services by the U.S. Department of Labor{" "}
-                                                                </em>
-                                                                <em>
-                                                                    and their inclusion should not be interpreted as a
-                                                                    comprehensive review of these entities&rsquo; practices
-                                                                    in all areas
-                                                                </em>
-                                                            </p>
+
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
                                                    </Accordion>
+                                                   <p>
+                                                       <em>
+                                                           *Note: References to specific companies and
+                                                           non-governmental entities within this guide are for
+                                                           informational purposes only to demonstrate best
+                                                           practices that have been recognized internationally, as
+                                                           of the app&rsquo;s release date. Referencing the
+                                                           entities should not be interpreted as an official
+                                                           endorsement of those entities, their products, or
+                                                           services by the U.S. Department of Labor{" "}
+                                                       </em>
+                                                       <em>
+                                                           and their inclusion should not be interpreted as a
+                                                           comprehensive review of these entities&rsquo; practices
+                                                           in all areas
+                                                       </em>
+                                                   </p>
 
 
             </div>

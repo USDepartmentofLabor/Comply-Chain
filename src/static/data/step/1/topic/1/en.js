@@ -53,14 +53,14 @@ const en = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.business-humanrights.org/en/national-movements-for-mandatory-human-rights-due-diligence-in-european-countries"
+                        href="https://www.business-humanrights.org/en/latest-news/national-regional-movements-for-mandatory-human-rights-environmental-due-diligence-in-europe/"
                     >
                     governmental and civil society movements for mandatory human rights due diligence in European countries</a>
                     &nbsp;as part of its resources on&nbsp;
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.business-humanrights.org/en/mandatory-due-diligence"
+                        href="https://www.business-humanrights.org/en/big-issues/mandatory-due-diligence/"
                     >
                     mandatory due diligence </a>
                 </p>
@@ -561,59 +561,6 @@ const en = () => {
                                     human trafficking; and (5) provides
                                     employees and management training on slavery
                                     and human trafficking.&nbsp;
-                                </p>
-                                <p>
-                                    See also{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://oag.ca.gov/sites/all/files/agweb/pdfs/cybersafety/sb_657_bill_ch556.pdf"
-                                    >
-                                        &nbsp;Five Years of the California
-                                        Transparency in Supply Chains Act,
-                                    </a>{" "}
-                                    an insights brief prepared by{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://knowthechain.org/"
-                                    >
-                                        KnowTheChain
-                                    </a>
-                                    , an initiative led by{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://humanityunited.org/"
-                                    >
-                                        Humanity United
-                                    </a>
-                                    , in partnership with the{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.business-humanrights.org/"
-                                    >
-                                        Business &amp; Human Rights Resource
-                                        Centre
-                                    </a>
-                                    ,{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.sustainalytics.com/"
-                                    >
-                                        Sustainalytics
-                                    </a>
-                                    , and{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.verite.org/"
-                                    >
-                                        Verit&eacute;
-                                    </a>
-                                    .
                                 </p>
                                 <p>
                                     See also{" "}

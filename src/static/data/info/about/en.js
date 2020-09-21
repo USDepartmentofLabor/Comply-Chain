@@ -28,7 +28,7 @@ const en = () => {
             </p>
             <p>
                 By downloading this app, you have shown that you are concerned
-                about these grim reality of these serious human rights violations.
+                about the grim reality of these serious human rights violations.
                 You are interested in reducing the chance that your products&mdash;and the raw materials they come
                 from&mdash;are manufactured, mined or harvested by children who
                 should be in school, or by workers locked in sweatshops or
@@ -332,6 +332,10 @@ const en = () => {
                             improvement, or those who are working with partners
                             in their global supply chains to establish such
                             programs.
+                        </p>
+                        <p>
+                        Academic specialists can use the app for information regarding trends in practices of due diligence and the evolving firled of business and human rights.
+                        Members of civil society may use the app as a way to engage with the private sector and apple the app's resources to encouraging meaningful change on the ground.
                         </p>
                     </Accordion.Panel>
                 </Accordion.Section>
