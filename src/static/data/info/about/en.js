@@ -216,7 +216,7 @@ const en = () => {
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                href="https://www.state.gov/documents/organization/265918.pdf"
+                                href="https://www.state.gov/u-s-national-contact-point-for-the-oecd-guidelines-for-multinational-enterprises/u-s-national-action-plan-on-responsible-business-conduct/"
                                 title="National Action Plan on Responsible Business Conduct (NAP-RBC)"
                             >
                                 National Action Plan on Responsible Business
