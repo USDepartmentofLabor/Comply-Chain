@@ -96,7 +96,37 @@ const en = () => {
                     >
                         UN Guiding Principles on Business and Human Rights
                     </a>{" "}
-                    and report on how they are implementing them. The civil
+                    and report on how they are implementing them.
+                    </p>
+                    <ul>
+                    <li>Part A: Governance of Respect for Human Rights
+                    <ul>
+                    <li>Policy Commitment</li>
+                    <li>Embedding Respect for Human Rights</li>
+                    </ul>
+                    </li>
+                    <br />
+                    <li>Part B: Defining the Focus of Reporting
+                    <ul>
+                    <li>Statement of salient issues</li>
+                    <li>Determination of salient issues</li>
+                    <li>Choice of focal geographies</li>
+                    <li>Additional serve impacts</li>
+                    </ul>
+                    </li>
+                    <br />
+                    <li>Part C: Management of Salient Human Rights Issues
+                    <ul>
+                    <li>Specific Policies</li>
+                    <li>Stakeholder Engagement</li>
+                    <li>Assessing Impacts</li>
+                    <li>Integrating Findings and Taking Action</li>
+                    <li>Tracking Performance</li>
+                    <li>Remediation</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <p>The civil
                     society organization Shift publishes the{" "}
                     <a
                         target="_blank"
@@ -174,8 +204,7 @@ const en = () => {
                         >
                             interactive map
                         </a>{" "}
-                        showing factory name, address, goods produced, languages
-                        spoken, and the number of employees by gender.</p>
+                        showing factories, farms, and mills.  Details include locations, number of workers, and products produced.</p>
                          <OwnWords>
                             <h2>
                                 <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
@@ -266,18 +295,9 @@ const en = () => {
                         >
                             Hennes &amp; Mauritz (H&amp;M)
                         </a>
-                        * website provides data on social compliance performance
-                        for all first tier suppliers.{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.pmi.com/resources/docs/default-source/pmi-sustainability/alp_code.pdf?sfvrsn=239bb0b5_0"
-                            title="Philip Morris International"
-                        >
-                            Philip Morris International
-                        </a>
-                        * publishes its own monitoring reports as well as those
-                        carried out by third-party monitors. </p>
+                        * website provides data on social compliance performance for all first tier suppliers. </p>
+                     <h2>Remediation Policies</h2>
+                     <p>A description of your <strong>remediation policies</strong> when violations are found.</p>
 
                     <h2>Independent Verification Assessment Results</h2>
                         <p>Results from your{" "}
