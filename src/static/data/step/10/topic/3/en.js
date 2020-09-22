@@ -145,7 +145,7 @@ const en = () => {
                     Below are some general guidelines on content to include in a
                     social compliance set.
                 </p>
-                        <h2>Risk Assessment and Due Diligence</h2>
+                        <h2>Risk Assessment and Due Diligence Processes</h2>
                         <p>A description of the{" "}
                         <strong>risk assessment and due diligence</strong>{" "}
                         processes a company undertakes in its supply chains.</p>
@@ -331,7 +331,7 @@ const en = () => {
                                         <h2>
                                             <ExampleInAction.Icon alt="Lightbulb"/>
                                             <strong>
-                                                Example in Action: Unilever&rsquo;s Palm Oil Supply Chain
+                                                Example in Action: Unilever&rsquo;s* Palm Oil Supply Chain
                                             </strong>
                                         </h2>
                                         <p>

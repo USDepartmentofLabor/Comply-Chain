@@ -110,8 +110,7 @@ const en = () => {
                                 a cocoa supply chain, which include farmers;
                                 collectors/transporters; processors; exporters;
                                 the global market; manufacturers (which may also
-                                manufacture other beans); customers; and
-                                customers, which include retail outlets, restaurants,
+                                manufacture other beans); customers; which include retail outlets, restaurants,
                                 and small businesses purchasing products to sell;
                                 and final consumers. The graphic also lists examples of
                                 entities and activities that fall into those
@@ -120,12 +119,10 @@ const en = () => {
                                 C&ocirc;te d&rsquo;Ivoire, examples of farmers
                                 include small, family farms (&gt;750,000);
                                 independent operations; and a few cooperatives
-                                (where cocoa is &lt;20% of crop). Collectors and
-                                transporters include privately-funded operators;
-                                and pisteurs, traitants; which have fewer
-                                quality linkages. Processors and exporters
-                                include various participants, including
-                                international companies. This includes those
+                                (where cocoa is &lt;20% of crop). Collectors and transporters include privately-funded
+                                operators; and pisteurs (middlemen who purchase directly from farms) and traitants
+                                (cocoa buyers purchasing from pisteurs).  Processors and exporters include
+                                various participants, including international companies. This includes those
                                 that produce semi-finished goods. In Ghana,
                                 examples of farmers include small, family farms
                                 (&gt;600,000); independent operations; and a few

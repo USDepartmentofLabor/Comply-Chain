@@ -143,9 +143,7 @@ const en = () => {
                                           and provides other benefits, such as death and maternity
                                           benefits. The SAP is administered by the Department of
                                           Labor and Employment (DOLE) and is financed through the
-                                          collection of a levy imposed on sugar produced. Since
-                                          2002, the amount of the levy has been set at
-                                          approximately $0.15 per 50 kg. bag of sugar. Working
+                                          collection of a levy imposed on sugar produced. Working
                                           closely with DOLE, the Sugar Industry Foundation Inc. is
                                           one of the entities charged with delivery of social,
                                           educational, and health programs for sugar workers and

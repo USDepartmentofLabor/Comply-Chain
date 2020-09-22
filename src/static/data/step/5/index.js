@@ -13,7 +13,7 @@ export const StepData = {
         ],
         keyTerms: [
             {
-                termName: 'Code of Conduct ("Code")',
+                termName: 'Code of Conduct',
                 termDefinition:
                     "The foundation of a social compliance program, a code of conduct is a document that sets out the social (and often, environmental) standards and policies with which a company and its suppliers are expected to comply.  Many companies refer to their codes by a name other than “code of conduct,” such as “terms of engagement,” “supplier expectations,” and many others, but the term is used throughout this app for consistency and clarity. A code is a set of voluntary standards; in this respect it differs from law—although relevant laws (both U.S. and source country) must be taken into account, as should collective bargaining agreements and international framework agreements (IFAs) with union federations, which are enforceable contracts. A code is not a substitute for any of these instruments."
             }

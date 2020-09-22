@@ -44,15 +44,11 @@ const en = () => {
                         <Accordion.Panel>
                             <h3>Definitions</h3>
                             <p>
-                                A <strong>child </strong>or{" "}
-                                <strong>children</strong> are minors under the
+                                A <strong>child </strong> is a person under the
                                 age of 18 years.
                             </p>
                             <p>
-                                <strong>Child labor</strong> includes{" "}
-                                <em>employment below the minimum age</em> as
-                                established in national legislation (excluding
-                                permissible light work) and the{" "}
+                                <strong>Child labor</strong> is work below the minimum age as established in national legislation (excluding permissible light work).  Child labor also includes the&nbsp;
                                 <em>worst forms of child labor (WFCL)</em>.
                             </p>
                             <p>
@@ -612,12 +608,7 @@ const en = () => {
                                     >
                                         [1]
                                     </a>{" "}
-                                    ILO:&nbsp;{" "}
-                                    <em>
-                                        ILO Global Estimates on Migrant
-                                        Workers:&nbsp; Results and Methodology,{" "}
-                                    </em>
-                                    Geneva, 2015, p.xi
+
                                 </sup>
                             </p>
 

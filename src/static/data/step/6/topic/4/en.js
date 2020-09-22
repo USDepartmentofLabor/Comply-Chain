@@ -122,9 +122,10 @@ const en = () => {
                     industry associations and trade unions, and other
                     organizations, who then deliver the training program to
                     SMEs. SCORE is currently active in emerging economies
-                    throughout Africa, Asia, and Latin America, aand as of July 2019, over 2,100 SMEs have received SCORE Training in 11 countries, representing a total workforce of over 403,000 people.&nbsp;
+                    throughout Africa, Asia, and Latin America, and as of July 2019, over 2,100 SMEs have received SCORE Training in 11 countries, representing a total workforce of over 403,000 people.&nbsp;
                 </p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction id="cocoa">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>

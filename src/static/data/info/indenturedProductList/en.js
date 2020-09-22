@@ -24,7 +24,7 @@ const en = () => {
                 The Department of Labor, in consultation with the Departments of State and Homeland Security, publishes and maintains the List.
                 ILAB released its initial List in 2001, and has revised it several times since then. As of March 25, 2019, the EO List comprises 34 products from 25 countries.
 
-                The List is required by &nbsp;
+                This List is required by &nbsp;
                  <a
                      target="_blank"
                      rel="noopener noreferrer"
