@@ -613,8 +613,9 @@ const en = () => {
                                     rel="noopener noreferrer"
                                     href="https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf"
                                 >
-                                Verité available at https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf.
+                                Verité
                                 </a>
+                                &nbsp;available at https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf.
                                 </p>
                                 <p>
                                     See also{" "}
