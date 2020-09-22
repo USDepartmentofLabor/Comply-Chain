@@ -30,11 +30,8 @@ const en = () => {
                     </a>
                     , enacted in the early 2010&rsquo;s to respond to human
                     rights concerns, require certain companies to publicly
-                    disclose information about their supply chains.&nbsp;Since
-                    then, there have been more laws passed and regulations
-                    promulgated, inside and outside the U.S., that strengthen
-                    protections against child labor and forced labor in supply
-                    chains. Since then, there have been more laws passed and
+                    disclose information about their supply chains.
+                    Since then, there have been more laws passed and
                     regulations promulgated, inside and outside the U.S., that
                     strengthen protections against child labor and forced labor
                     in supply chains.  In addition, a number of countries incorporate
@@ -53,7 +50,7 @@ const en = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.business-humanrights.org/en/latest-news/national-regional-movements-for-mandatory-human-rights-environmental-due-diligence-in-europe/"
+                        href="https://business-humanrights.org/en/national-movements-for-mandatory-human-rights-due-diligence-in-european-countries"
                     >
                     governmental and civil society movements for mandatory human rights due diligence in European countries</a>
                     &nbsp;as part of its resources on&nbsp;
@@ -680,7 +677,7 @@ const en = () => {
                                     >
                                     Guidance for Reporting Entities
                                     </a>
-                                     &nbsp;to explain in plain
+                                     &nbsp;to explain in plain language what entities need to do to comply with the Act.
                                 </p>
                                 
                             </Accordion.Panel>
@@ -704,7 +701,7 @@ const en = () => {
                                     </a>
                                     &nbsp;(Act) in 2019 but it awaits royal approval
                                     before going into effect.  This Act will apply to all companies
-                                    that sell or supply goods or services to consumers to Dutch consumers,
+                                    that sell or supply goods or services to Dutch consumers,
                                     regardless of the registration or the domicile of the company.  The Act
                                     requires companies to submit a statement that they have applied due diligence
                                     to assess whether a “reasonable suspicion” exists that the services or goods

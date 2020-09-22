@@ -369,10 +369,10 @@ const en = () => {
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    href="https://www.ilo.org/global/statistics-and-databases/meetings-and-events/international-conference-of-labour-statisticians/WCMS_099577/lang--en/index.htm"
+                                                    href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099577.pdf"
                                                     title="18<sup>th</sup> International Conference of Labor Statisticians Report III: Child labour statistics."
                                                 >
-                                                    https://www.ilo.org/global/statistics-and-databases/meetings-and-events/international-conference-of-labour-statisticians/WCMS_099577/lang--en/index.htm
+                                                    https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099577.pdf
                                                 </a>
                                             </li>
                                             <li>
@@ -521,9 +521,15 @@ const en = () => {
 
                             <p>
                                 Labor migration has also given rise to forced
-                                labor. There are approximately 150 million
-                                migrant workers in the global workforce.
-                                <sup>1</sup> These workers may be especially
+                                labor.&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/global/publications/books/WCMS_652001/lang--en/index.htm"
+                                >
+                                There are approximately 150 million migrant workers in the global workforce<sup>1</sup>
+                                </a>.
+                                These workers may be especially
                                 vulnerable to labor recruiters and other
                                 intermediaries, organized crime syndicates, and
                                 employers offering false contract terms and
@@ -582,8 +588,15 @@ const en = () => {
 
                             <h3>Forced Labor Estimates</h3>
                             <p>
-                                The ILO estimated in 2016 that 25 million people
-                                are victims of forced labor globally. Of these,
+                                The ILO estimated in 2016 that&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/wcmsp5/groups/public/@dgreports/@dcomm/documents/publication/wcms_575479.pdf"
+                                >
+                                25 million people are victims of forced labor globally
+                                </a>
+                                . Of these,
                                 nearly 5 million are in forced commercial sexual
                                 exploitation, and 16 million are in other forms
                                 of labor exploitation spanning sectors such as

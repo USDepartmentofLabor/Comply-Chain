@@ -31,7 +31,7 @@ const en = () => {
                                     fundamentally important that your company
                                     not only avoids causing or contributing to
                                     child and forced labor though its own
-                                    activities, but also seek to prevent or
+                                    activities, but also seeks to prevent or
                                     mitigate adverse labor rights impacts linked
                                     to its business operations through business
                                     relationships.{" "}

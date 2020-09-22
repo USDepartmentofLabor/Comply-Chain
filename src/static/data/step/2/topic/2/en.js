@@ -86,7 +86,7 @@ const en = () => {
                                         workers more effectively in order to
                                         protect rights and improve livelihoods.
                                         The U.S. Department of Labor is a major
-                                        funder of
+                                        funder of&nbsp;
                                         <em>Better Work</em> programs in several
                                         countries, along with several other
                                         donor governments and institutions.

@@ -164,7 +164,7 @@ const en = () => {
                                             ANA Group*
                                         </a>
                                       —the Japanese airline group company—became one of the first 
-                                      Japanese company to publish a {" "}
+                                      Japanese companies to publish a {" "}
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"

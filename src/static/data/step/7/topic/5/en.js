@@ -146,6 +146,39 @@ const en = () => {
                                  country of operation which you could use in interviews
                                  with workers where you may have doubts about their age.
                              </p>
+                             <p>
+                             [1] See, Article 9(3) of&nbsp;
+                             <a
+                                 target="_blank"
+                                 rel="noopener noreferrer"
+                                 href="www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138"
+                             >
+                             Convention No.  138 (1973)
+                             </a>
+                             , concerning the employers’ obligation to keep registers of young workers under 18.
+                             </p>
+                             <p>
+                             [2] See,&nbsp;
+                             <a
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  href="www.ilo.org/jakarta/whatwedo/publications/WCMS_151355/lang--en/index.htm"
+                              >
+                             Eliminating Child Labour: Guides for Employers
+                             </a>
+                             , ILO, Geneva, 2007.
+                             </p>
+                             <p>
+                             Source: Excerpted from the ILO Helpdesk for Business,&nbsp;
+                              <a
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   href="www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm"
+                               >
+                             Q&As on Business and Child Labor
+                               </a>
+                             , accessed May 11, 2017.
+                             </p>
                              </OwnWords>
                     </Accordion.Panel>
                 </Accordion.Section>
@@ -185,7 +218,7 @@ const en = () => {
                          <p>
                              Interviews also provide workers a chance to voice
                              any other concerns they may have. Workers should be
-                             ensured that all responses are confidential and are
+                             assured that all responses are confidential and are
                              never shared with management. Your contract with
                              suppliers should include a clause on non-retaliation
                              against workers for participating in an audit;
@@ -201,7 +234,7 @@ const en = () => {
                              organizations, particularly those involved in advocacy 
                              for workers, may also be able to corroborate information 
                              and provide contextual information regarding the labor 
-                             situation in a particular area
+                             situation in a particular area.
                          </p>
                          <p>
                              The Responsible Sourcing Tool contains a tool,{" "}

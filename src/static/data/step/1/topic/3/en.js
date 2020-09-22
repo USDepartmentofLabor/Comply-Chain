@@ -8,9 +8,16 @@ const en = () => {
             <div>
                 <h1>Company reputation </h1>
                 <p>
-                    A growing number of consumers are attuned to issues of labor
-                    abuse, particularly in industries such as apparel, footwear
-                    and electronics. In addition, with the explosion of social
+                    <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.conecomm.com/research-blog/2016-millennial-employee-engagement-study"
+                        >
+                    Research
+                    </a>
+                    &nbsp;finds that consumers are increasingly attuned to issues of labor abuse,
+                    particularly in industries such as apparel, electronics, footwear, and agriculture,
+                    especially chocolate and coffee products. In addition, with the explosion of social
                     media, expos&eacute;s revealing child labor, forced labor or
                     other degrading working conditions in a supply chain can
                     more easily reach consumers and damage a brand&rsquo;s

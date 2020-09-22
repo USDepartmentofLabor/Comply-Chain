@@ -318,7 +318,7 @@ const en = () => {
                     situation. Quick turn-around times and last-minute changes
                     in specifications on the part of buyers frequently lead to
                     situations of mandatory overtime. Companies should encourage
-                    suppliers to be honest if that cannot complete an order
+                    suppliers to be honest if they cannot complete an order
                     without violating the terms of the code of conduct, and
                     companies should reward them rather than simply moving their
                     business to another supplier. Refer to training for a
