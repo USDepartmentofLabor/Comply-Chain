@@ -154,7 +154,7 @@ const en = () => {
                 </p>
                 <p>
                     Below are some general guidelines on content to include in a
-                    social compliance set.
+                    social compliance report.
                 </p>
                         <h2>Risk Assessment and Due Diligence Processes</h2>
                         <p>A description of the{" "}
