@@ -98,6 +98,17 @@ const en = () => {
                     </a>{" "}
                     and report on how they are implementing them.
                     </p>
+                    <p>
+                    The&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ungpreporting.org/framework-guidance/"
+                    >
+                    UN Guiding Principles Reporting Framework Guidance
+                    </a>
+                    &nbsp;is divided into three parts:
+                    </p>
                     <ul>
                     <li>Part A: Governance of Respect for Human Rights
                     <ul>
