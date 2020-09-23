@@ -33,8 +33,8 @@ const en = () => {
                             </li>
                             <li>
                                 Act as extra &ldquo;eyes and ears&rdquo; on
-                                social compliance issues to supplement worksite
-                                monitoring programs.
+                                social compliance issues to supplement <strong>worksite
+                                monitoring</strong> programs.
                             </li>
                             <li>
                                 Contribute material for
@@ -49,7 +49,7 @@ const en = () => {
                                 while achieving other company objectives.
                             </li>
                             <li>
-                                Be trained to ensure that the work they do in
+                                Be <strong>trained</strong> to ensure that the work they do in
                                 other units of the company does not conflict
                                 with social compliance.
                             </li>
@@ -109,7 +109,7 @@ const en = () => {
                             </li>
                             <li>
                                 Help ensure that suppliers&rsquo; employees are
-                                educated on the code and work continuously to
+                                &nbsp;<strong>educated on the code</strong> and work continuously to
                                 ensure that code standards are upheld in the
                                 workplace.
                             </li>

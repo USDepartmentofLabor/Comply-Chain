@@ -60,7 +60,7 @@ const en = () => {
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Example in Action: The Fair Labor
-                            Association&rsquo;s (FLA) Accreditation Program for
+                            Association&rsquo;s* (FLA) Accreditation Program for
                             Independent External Monitors
                         </strong>
                     </h2>

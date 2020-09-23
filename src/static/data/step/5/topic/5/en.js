@@ -18,7 +18,7 @@ const en = () => {
                     representatives.&nbsp;
                 </p>
                 <p>
-                    The ISEAL Alliance, a global association for social and
+                    The ISEAL Alliance*, a global association for social and
                     environmental standards, has published a{" "}
                     <a
                         target="_blank"
@@ -57,7 +57,7 @@ const en = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>Example in Action</strong>: Fair Labor
-                        Association Code Revision Process
+                        Association* Code Revision Process
                     </h2>
                     <p>
                         The{" "}
@@ -115,7 +115,7 @@ const en = () => {
                             href="http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf"
                             title="Obtain more information and view the complete Workplace Code of Conduct and Compliance Benchmarks, revision highlights and a side-by-side comparison to the previous code"
                         >
-                         http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf.
+                         http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf
                         </a>
                         .
                     </p>

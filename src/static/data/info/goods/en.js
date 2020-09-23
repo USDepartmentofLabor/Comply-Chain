@@ -27,8 +27,8 @@ const en = () => {
                 <p>
                     Publication of the List has resulted in new opportunities
                     for ILAB to engage with foreign governments to combat forced
-                    labor and child labor. It is also a valuable resource for
-                    researchers, advocacy organizations and companies wishing to
+                    labor and child labor. It is also a valuable resource for companies, researchers,
+                    and advocacy organizations wishing to
                     carry out risk assessments and engage in due diligence on
                     labor rights in their supply chains.
                 </p>

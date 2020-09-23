@@ -44,15 +44,11 @@ const en = () => {
                         <Accordion.Panel>
                             <h3>Definitions</h3>
                             <p>
-                                A <strong>child </strong>or{" "}
-                                <strong>children</strong> are minors under the
+                                A <strong>child </strong> is a person under the
                                 age of 18 years.
                             </p>
                             <p>
-                                <strong>Child labor</strong> includes{" "}
-                                <em>employment below the minimum age</em> as
-                                established in national legislation (excluding
-                                permissible light work) and the{" "}
+                                <strong>Child labor</strong> is work below the minimum age as established in national legislation (excluding permissible light work).  Child labor also includes the&nbsp;
                                 <em>worst forms of child labor (WFCL)</em>.
                             </p>
                             <p>
@@ -226,34 +222,6 @@ const en = () => {
                                 education.
                             </p>
                             <p />
-                            <h3>Child Labor Estimates</h3>
-                            <p>
-                                The ILO&#39;s&nbsp;
-                                <a
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/publication/wcms_575499.pdf"
-                                    title="Global Estimates of Child Labour"
-                                >
-                                 Global Estimates of Child Labour
-                                 </a>
-                                &nbsp;estimates that in 2016, there were 152
-                                million child laborers worldwide. Global child
-                                labor statistics are not yet available from 2016
-                                onward. Of the 152 million child laborers, the most
-                                recent estimates indicated that 70.4 percent are engaged
-                                in agriculture, 17.2 percent in services, and 11.9 percent
-                                in industry.  Regionally, Africa accounts for one-fifth of
-                                all children in child labor and the highest absolute number
-                                of children in child labor—72 million.  Behind Africa, the
-                                Asia and the Pacific region accounts for 7 percent of all children
-                                in child labor, 62 million in absolute terms.  The Americas, Europe
-                                and Central Asia, and the Arab States account for the remaining
-                                child labor with 11 million, 6 million, and 1 million children
-                                toiling in these perilous conditions, respectively.
-
-                            </p>
-                            <p />
 
                             <Accordion >
                                 <Accordion.Section id="child-resources">
@@ -397,10 +365,10 @@ const en = () => {
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    href="https://www.ilo.org/global/statistics-and-databases/meetings-and-events/international-conference-of-labour-statisticians/WCMS_099577/lang--en/index.htm"
+                                                    href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099577.pdf"
                                                     title="18<sup>th</sup> International Conference of Labor Statisticians Report III: Child labour statistics."
                                                 >
-                                                    https://www.ilo.org/global/statistics-and-databases/meetings-and-events/international-conference-of-labour-statisticians/WCMS_099577/lang--en/index.htm
+                                                    https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_099577.pdf
                                                 </a>
                                             </li>
                                             <li>
@@ -549,9 +517,15 @@ const en = () => {
 
                             <p>
                                 Labor migration has also given rise to forced
-                                labor. There are approximately 150 million
-                                migrant workers in the global workforce.
-                                <sup>1</sup> These workers may be especially
+                                labor.&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/global/publications/books/WCMS_652001/lang--en/index.htm"
+                                >
+                                There are approximately 150 million migrant workers in the global workforce<sup>1</sup>
+                                </a>.
+                                These workers may be especially
                                 vulnerable to labor recruiters and other
                                 intermediaries, organized crime syndicates, and
                                 employers offering false contract terms and
@@ -610,30 +584,22 @@ const en = () => {
 
                             <h3>Forced Labor Estimates</h3>
                             <p>
-                                The ILO estimated in 2016 that 25 million people
-                                are victims of forced labor globally. Of these,
+                                The ILO estimated in 2016 that&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/wcmsp5/groups/public/@dgreports/@dcomm/documents/publication/wcms_575479.pdf"
+                                >
+                                25 million people are victims of forced labor globally
+                                </a>
+                                . Of these,
                                 nearly 5 million are in forced commercial sexual
                                 exploitation, and 16 million are in other forms
                                 of labor exploitation spanning sectors such as
                                 agriculture, construction, domestic work and
                                 manufacturing. The remaining 4 million are in
                                 state-imposed forms of forced labor.
-                                <sup>
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="#_ftnref1"
-                                        name="_ftn1"
-                                    >
-                                        [1]
-                                    </a>{" "}
-                                    ILO:&nbsp;{" "}
-                                    <em>
-                                        ILO Global Estimates on Migrant
-                                        Workers:&nbsp; Results and Methodology,{" "}
-                                    </em>
-                                    Geneva, 2015, p.xi
-                                </sup>
+
                             </p>
 
                             <h3>Human Trafficking</h3>

@@ -41,17 +41,17 @@ const en = () => {
                         href="https://bettercotton.org/wp-content/uploads/2014/10/production-principles-and-criteria.pdf"
                         title="Better Cotton Initiative's Principles and Criteria"
                     >
-                        Better Cotton Initiative&rsquo;s Principles
+                        Better Cotton Initiative&rsquo;s* Principles
                         and Criteria
                     </a>{" "}
                     for companies throughout the cotton supply chain, the{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.eiccoalition.org/media/docs/EICCCodeofConduct5_English.pdf"
-                        title="Electronic Industry Citizenship Coalition Code"
+                        href="www.responsiblebusiness.org"
+                        title="Responsible Business Alliance"
                     >
-                        Electronic Industry Citizenship Coalition Code
+                        Responsible Business Alliance*
                     </a>{" "}
                     for electronics companies, the{" "}
                     <a
@@ -60,7 +60,7 @@ const en = () => {
                         href="http://www.bonsucro.com/en/production-standard/"
                         title="Bonsucro Production Standard"
                     >
-                        Bonsucro Production Standard
+                        Bonsucro* Production Standard
                     </a>{" "}
                     for companies in the sugarcane supply chain,&nbsp;and{" "}
                     <a
@@ -69,7 +69,7 @@ const en = () => {
                         href="http://www.ethicaltrade.org/eti-base-code"
                         title="Ethical Trading Initiative&rsquo;s Base Code for companies in a variety of industries"
                     >
-                        Ethical Trading Initiative&rsquo;s Base Code for
+                        Ethical Trading Initiative&rsquo;s* Base Code for
                         companies in a variety of industries.
                     </a>
                 </p>

@@ -69,7 +69,7 @@ const en = () => {
                     orders.
                 </p>
                 <p>
-                    The Fair Labor Association (FLA) publishes{" "}
+                    The Fair Labor Association* (FLA) publishes{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

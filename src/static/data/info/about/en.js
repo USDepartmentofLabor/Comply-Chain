@@ -28,7 +28,7 @@ const en = () => {
             </p>
             <p>
                 By downloading this app, you have shown that you are concerned
-                about these grim reality of these serious human rights violations.
+                about the grim reality of these serious human rights violations.
                 You are interested in reducing the chance that your products&mdash;and the raw materials they come
                 from&mdash;are manufactured, mined or harvested by children who
                 should be in school, or by workers locked in sweatshops or
@@ -54,7 +54,7 @@ const en = () => {
                     <Accordion.Panel>
                         <p>
                             The Trafficking Victims Protection Reauthorization
-                            Act (TVPRA) of 2005 mandate that ILAB &ldquo;work
+                            Act (TVPRA) of 2005 mandates that ILAB &ldquo;work
                             with persons who are involved in the production of
                             goods on [ILAB&rsquo;s{" "}
                             <a
@@ -110,7 +110,7 @@ const en = () => {
                             reinforcing goals for global development over the
                             next 15 years. Within each of the SDGs, specific
                             targets have been set which will be essential to
-                            achieving the goals. Under{" "}
+                            achieving the goals by 2030. Under{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -128,7 +128,7 @@ const en = () => {
                             trafficking and secure the prohibition and
                             elimination of the worst forms of child labor,
                             including recruitment and use of child soldiers, and
-                            by 2025 end child labor in all its forms.&rdquo;
+                            by 2030 end child labor in all its forms.&rdquo;
                         </p>
                         <p>
                             ILAB's work has informed{" "}
@@ -216,7 +216,7 @@ const en = () => {
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                href="https://www.state.gov/documents/organization/265918.pdf"
+                                href="https://www.state.gov/u-s-national-contact-point-for-the-oecd-guidelines-for-multinational-enterprises/u-s-national-action-plan-on-responsible-business-conduct/"
                                 title="National Action Plan on Responsible Business Conduct (NAP-RBC)"
                             >
                                 National Action Plan on Responsible Business
@@ -308,10 +308,11 @@ const en = () => {
                             who participated in this process.
                         </p>
                         <p>
-                            The first online edition of the App was published in
+                            The first online edition of the Reducing Child Labor and Forced Labor:
+                            A Toolkit for Responsible Businesses was published in
                             December 2012. In September 2017, ILAB released the
-                            first version of the mobile application and updated
-                            the app in September 2018, including in French and
+                            first version of the mobile application, renamed Comply Chain,
+                            and later updated the app in September 2018, including in French and
                             Spanish. This 2020 rework includes additional updates
                             and makes the app available for the first time in Malay,
                             a common language across South-East Asia spoken in Brunei,
@@ -331,7 +332,13 @@ const en = () => {
                             companies that have systems in place but are seeking
                             improvement, or those who are working with partners
                             in their global supply chains to establish such
-                            programs.
+                            programs. Academic specialists can use the app for information regarding trends in practices of due diligence and the
+                            evolving field of business and human rights.  Members of civil society may use the app as a way to engage with the
+                            private sector and apply the app’s resources to encouraging meaningful change on the ground.
+                        </p>
+                        <p>
+                        Academic specialists can use the app for information regarding trends in practices of due diligence and the evolving firled of business and human rights.
+                        Members of civil society may use the app as a way to engage with the private sector and apple the app's resources to encouraging meaningful change on the ground.
                         </p>
                     </Accordion.Panel>
                 </Accordion.Section>
@@ -343,7 +350,7 @@ const en = () => {
                         <p>
                             The app is organized around{" "}
                             <strong>
-                                eight steps to build or improve a social
+                                steps to build or improve a social
                                 compliance system
                             </strong>
                             . Each step begins with learning objectives and key
@@ -384,13 +391,8 @@ const en = () => {
                             .
                         </p>
                         <p>
-                            Because ILAB&rsquo;s TVPRA mandate is to work with
-                            persons who are involved in the production of goods,
-                            this app focuses on social compliance programs for
-                            companies that produce goods, rather than services.
-                            In addition, as noted above, it focuses in
-                            particular on issues related to child labor and
-                            forced labor.
+                            Because ILAB’s TVPRA mandate is to work with persons involved in the production of goods or goods
+                            with inputs produced from child labor or forced labor, this app focuses on social compliance programs for entities, in particular companies, that produce goods, rather than services.
                         </p>
                         <p />
                     </Accordion.Panel>
@@ -399,7 +401,7 @@ const en = () => {
 
             <p>
                 <em>
-                    *Note: The contents of this document do not have the force
+                    *Note on Guidance and Organizations Referenced: The contents of this document do not have the force
                     and effect of law and are not meant to bind the public in any way.
                     This document is intended only to provide clarity to the public
                     regarding existing requirements under the law or agency policies.
@@ -426,7 +428,7 @@ const en = () => {
                     in this app based on extensive literature review and
                     engagement in social compliance-focused fora. These
                     companies have shown leadership in one or more areas of the
-                    app&rsquo;s eight &ldquo;Steps.&rdquo; These examples are
+                    app&rsquo;s &ldquo;Steps.&rdquo; These examples are
                     illustrative and not exhaustive. Many other companies have
                     also developed, or are developing, good practices in these
                     areas that could also be shared. These examples are also

@@ -98,7 +98,7 @@ const en = () => {
                                         </em>
                                     </a>
                                     <em>,</em> published by the United Nations
-                                    Global Compact and BSR.
+                                    Global Compact and BSR, formerly Business for Social Responsibility.
                                 </p>
                                 <p>
                                     At a practical level, the management team
@@ -134,205 +134,28 @@ const en = () => {
                                             Business Alliance (RBA) (formerly
                                             Electronics Industry Citizenship
                                             Coalition) (EICC) Code of Conduct –
-                                            Management Systems
+                                            Management
                                         </strong>
                                     </h4>
+
                                     <p>
+
+                                        Available from http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_English.pdf.
+                                        </p>
+                                        <p>
                                         <em>Excerpted from </em>
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            href="http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_English.pdf"
+                                            href=" http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_English.pdf"
                                             title="RBA Code of Conduct v. 6.0 (2018)"
                                         >
                                             <em>
                                                 Responsible Business Alliance
-                                                Code of Conduct v. 6.0 (2018) available from http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_English.pdf.
-                                            </em>
-                                        </a>
+                                                Code of Conduct v. 6.0 (2018)
+                                            </em></a>
                                     </p>
-                                    <p>
-                                        &ldquo;Participants shall adopt or
-                                        establish a management system whose
-                                        scope is related to the content of this
-                                        Code. The management system shall be
-                                        designed to ensure: (a) compliance with
-                                        applicable laws, regulations and
-                                        customer requirements related to the
-                                        participant&rsquo;s operations and
-                                        products; (b) conformance with this
-                                        Code; and (c) identification and
-                                        mitigation of operational risks related
-                                        to this Code. It should also facilitate
-                                        continual improvement.
-                                    </p>
-                                    <p>
-                                        The management system should contain the
-                                        following elements:
-                                    </p>
-                                    <ol>
-                                        <li>
-                                            <h4>Company Commitment</h4>
-                                            <p>
-                                                A corporate social and
-                                                environmental responsibility
-                                                policy statements affirming
-                                                Participant&rsquo;s commitment
-                                                to compliance and continual
-                                                improvement, endorsed by
-                                                executive management and posted
-                                                in the facility in the local
-                                                language.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>
-                                                Management Accountability and
-                                                Responsibility
-                                            </h4>
-                                            <p>
-                                                The Participant clearly
-                                                identifies senior executive and
-                                                company representative[s]
-                                                responsible for ensuring
-                                                implementation of the management
-                                                systems and associated programs.
-                                                Senior management reviews the
-                                                status of the management system
-                                                on a regular basis.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>
-                                                Legal and Customer Requirements
-                                            </h4>
-                                            <p>
-                                                A process to identify, monitor
-                                                and understand applicable laws,
-                                                regulations and customer
-                                                requirements, including the
-                                                requirements of this Code.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>
-                                                Risk Assessment and Risk
-                                                Management
-                                            </h4>
-                                            <p>
-                                                A process to identify the legal
-                                                compliance, environmental,
-                                                health and safety3 and labor
-                                                practice and ethics risks
-                                                associated with
-                                                Participant&rsquo;s operations.
-                                            </p>
-                                            <p>
-                                                Determination of the relative
-                                                significance for each risk and
-                                                implementation of appropriate
-                                                procedural and physical controls
-                                                to control the identified risks
-                                                and ensure regulatory
-                                                compliance.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>Improvement Objectives</h4>
-                                            <p>
-                                                Written performance objectives,
-                                                targets and implementation plans
-                                                to improve the
-                                                Participant&rsquo;s social and
-                                                environmental performance,
-                                                including a periodic assessment
-                                                of Participant&rsquo;s
-                                                performance in achieving those
-                                                objectives.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>Training</h4>
-                                            <p>
-                                                Programs for training managers
-                                                and workers to implement
-                                                Participant&rsquo;s policies,
-                                                procedures and improvement
-                                                objectives and to meet
-                                                applicable legal and regulatory
-                                                requirements.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>Communication</h4>
-                                            <p>
-                                                A process for communicating
-                                                clear and accurate information
-                                                about Participant&rsquo;s
-                                                policies, practices,
-                                                expectations and performance to
-                                                workers, suppliers and
-                                                customers.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>
-                                                Worker Feedback and
-                                                Participation
-                                            </h4>
-                                            <p>
-                                                Ongoing processes to assess
-                                                employees&rsquo; understanding
-                                                of and obtain feedback on
-                                                practices and conditions covered
-                                                by this Code and to foster
-                                                continuous improvement.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>Audits and Assessments</h4>
-                                            <p>
-                                                Periodic self-evaluations to
-                                                ensure conformity to legal and
-                                                regulatory requirements, the
-                                                content of the Code and customer
-                                                contractual requirements related
-                                                to social and environmental
-                                                responsibility.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>Corrective Action Process</h4>
-                                            <p>
-                                                A process for timely correction
-                                                of deficiencies identified by
-                                                internal or external
-                                                assessments, inspections,
-                                                investigations and reviews.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>Documentation and Records</h4>
-                                            <p>
-                                                Creation and maintenance of
-                                                documents and records to ensure
-                                                regulatory compliance and
-                                                conformity to company
-                                                requirements along with
-                                                appropriate confidentiality to
-                                                protect privacy.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>Supplier Responsibility</h4>
-                                            <p>
-                                                A process to communicate Code
-                                                requirements to suppliers and to
-                                                monitor supplier compliance to
-                                                the Code.&rdquo;
-                                            </p>
-                                        </li>
-                                    </ol>
+
                                 </ExampleInAction>
                 <p>
                                 <em>

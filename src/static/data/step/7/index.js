@@ -16,7 +16,7 @@ export const StepData = {
         ],
         keyTerms: [
             {
-                termName: "Social Audit (“Audit”)",
+                termName: "Social Audit",
                 termDefinition:
                     "The process of examining a specific worksite’s compliance with the standards set in the company’s code of conduct. The term “audit” is used throughout the app to refer to social auditing, but should not be confused with financial and other types of auditing undertaken by companies. Social auditing is one of the key ways—in addition to engagement with unions/workers and grievance mechanisms—to obtain information about violations of a company’s code of conduct in your supply chain.  Auditing uncovers problems; it does not solve problems.  It is one piece of the larger social compliance system, and cannot and should not be done in isolation from stakeholder engagement, communication, remediation and the other steps in the process."
             },

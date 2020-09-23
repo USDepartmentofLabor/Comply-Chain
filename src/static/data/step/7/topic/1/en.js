@@ -9,7 +9,6 @@ const en = () => {
         <StaticData>
             <div>
                 <h1>Auditing: Getting Started </h1>
-                <h2>Auditing: Getting Started </h2>
 
                 <p>
                 Social auditing is one of the key ways—in addition to 

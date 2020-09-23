@@ -199,22 +199,6 @@ const en = () => {
                                                   or area?
                                               </p>
 
-                                              <p>
-                                                  To get a sense for how this general approach can be applied
-                                                  in a particular sector, the{" "}
-                                                  <a
-                                                      target="_blank"
-                                                      rel="noopener noreferrer"
-                                                      href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
-                                                      title="Responsible Sourcing Seafood Tool 4: Information Gathering and Risk Assessment in Seafood Supply Chains"
-                                                  >
-                                                      Responsible Sourcing Seafood Tool 4: Information
-                                                      Gathering and Risk Assessment in Seafood Supply Chains
-                                                  </a>{" "}
-                                                  takes a step-by-step approach to examining country-based
-                                                  risks, supply chain-based risks, and supplier-based
-                                                  risks.&nbsp;
-                                              </p>
                                           </Accordion.Panel>
                                       </Accordion.Section>
                                       </Accordion>
@@ -235,6 +219,22 @@ const en = () => {
                                                </Accordion.Panel>
                                            </Accordion.Section>
                                            </Accordion>
+                                           <p>
+                                             To get a sense for how this general approach can be applied
+                                             in a particular sector, the{" "}
+                                             <a
+                                                 target="_blank"
+                                                 rel="noopener noreferrer"
+                                                 href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
+                                                 title="Responsible Sourcing Seafood Tool 4: Information Gathering and Risk Assessment in Seafood Supply Chains"
+                                             >
+                                                 Responsible Sourcing Seafood Tool 4: Information
+                                                 Gathering and Risk Assessment in Seafood Supply Chains
+                                             </a>{" "}
+                                             takes a step-by-step approach to examining country-based
+                                             risks, supply chain-based risks, and supplier-based
+                                             risks.&nbsp;
+                                         </p>
                                            <br />
                                            <ExampleInAction id="med_rep">
                                            <h2>
@@ -246,7 +246,7 @@ const en = () => {
                                            <p>
                                            Child labor and forced labor are used to catch and process fish and seafood in a range of aquatic environments around the
                                            world. The isolated nature of work on waters presents a number of challenges to child labor and forced labor law
-                                           enforcement in fishing and seafood. The
+                                           enforcement in fishing and seafood. The&nbsp;
                                            <a
                                               target="_blank"
                                               rel="noopener noreferrer"
@@ -265,11 +265,23 @@ const en = () => {
                                            as well as to subject themselves to a state’s labor regime they deem beneficial. Enforcement, prosecution, and restitution
                                            efforts are further complicated when vessels operate within the territorial jurisdiction of another state.
                                            </p>
-                                           <p>Illegal, unreported, and unregulated (IUU) fishing has become an ever- growing problem. IUU fishing depletes global seafood
-                                           stocks and creates unfair competition within the seafood industry, including by exploiting workers. Governments have been
-                                           increasing efforts related to IUU fishing. For example, under its IUU regulation, the European Union has issued preidentifications, better known as “yellow cards”, to countries that it deems are not doing enough to combat IUU fishing.
-                                           Issuance of a yellow card initiates a formal dialogue with the government in question regarding corrective measures. The U.S.
-                                           government is also taking action to address IUU fishing: a Presidential Task Force on Combatting IUU Fishing released an&nbsp;
+                                           <p>
+                                           Illegal, unreported, and unregulated (IUU) fishing has become an ever-growing problem.  IUU fishing evades regulations, undermines
+                                           fisheries management and conservation, and endangers the world food supply.  It exacerbates exploitative labor practices, which may
+                                           have a negative impact on wages and working conditions of all fishers.  IUU fishing may also involve forced labor and human trafficking,
+                                           and child labor.  Governments have been increasing efforts related to IUU fishing.  For example, the European Union regulation to end IUU
+                                           fishing requires countries that export fish to the EU or lend their flags to vessels that import into the EU meet strict standards for
+                                           fisheries management.  If these standards are not met, the countries may be ‘carded,’ which means that they could ultimately face exclusion
+                                           of their fish from the EU market.
+                                           </p>
+                                           <p>
+                                            The U.S. Government is also taking action to address IUU fishing.  In 2019, the United States Congress passed the Maritime SAFE Act.
+                                            This law created an interagency working group to provide federal agencies with a coordinated framework to counter IUU fishing and
+                                            authorized a range of agency activities.  These activities include building capacity for law enforcement and port security, improving
+                                             transparency and traceability in the seafood supply chain, promoting the use of technology to counter IUU fishing, and encouraging better
+                                              information sharing among agencies and other organizations.
+                                           </p>
+                                           <p>Prior to the Maritime SAFE Act, a Presidential Task Force on Combatting IUU Fishing released an&nbsp;
                                            <a
                                               target="_blank"
                                               rel="noopener noreferrer"
@@ -279,7 +291,10 @@ const en = () => {
                                               Action Plan for Implementing Task Force Recommendations
                                           </a>
                                          , under which the United States is developing a Seafood
-                                           Traceability Program.
+                                           Traceability Program. This traceability program, known as Seafood Import Monitoring Program,
+                                           or SIMP, requires the U.S. importer of record to provide and report key data—from the point of
+                                           harvest to the point of entry into U.S. commerce—on thirteen imported fish and fish products
+                                           identified as vulnerable IUU fishing and/or seafood fraud.  Compliance became effective at the end of 2018.
                                            </p>
                                            <p>
                                            Source:&nbsp;
@@ -349,6 +364,11 @@ const en = () => {
                                           </a>, 2020 at https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf
                                           </p>
                                                           </OwnWords>
+               <p>
+               To get a sense for how this general approach can be applied in a particular sector,
+               the Responsible Sourcing Seafood Tool 4: Information Gathering and Risk Assessment in
+               Seafood Supply Chains takes a step-by-step approach to examining country-based risks, supply chain-based risks, and supplier-based risks.
+               </p>
         </StaticData>
     );
 };

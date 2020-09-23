@@ -27,20 +27,13 @@ const en = () => {
                         >
                             Child Labor Platform
                         </a>{" "}
-                        (CLP) is a business-led forum that aims to tackle child
-                        labor in supply chains. The CLP works to identify the
-                        obstacles to the implementation of the ILO Conventions
-                        on child labor in supply chains and surrounding
-                        communities, identify practical ways of overcoming these
-                        obstacles, and catalyse collective action. This means
-                        carrying out due diligence to identify, prevent,
-                        mitigate, remediate, and account for any adverse effects
-                        on children&rsquo;s right to be free from child labour
-                        that businesses cause, contribute to, or are linked with
-                        through their relationships and operations. Since 2012,
-                        the CLP has operated as part of the UN Global
-                        Compact&rsquo;s Human Rights and Labor Working Group,
-                        with the{" "}
+                        (CLP)  is a business-led forum that aims to tackle child labor in supply chains.
+                        The CLP works to provide concrete solutions for buyers, factory owners, and supplies
+                        by supporting member companies through a comprehensive process of due diligence across tiers.
+                        This includes support for embedding strong policies and good business practices, assessing risks,
+                        measuring impact, and addressing root causes through meaningful local and global dialogue with governments,
+                        employers’ and workers’ organizations, and other stakeholders.  Since 2012, the CLP has operated as
+                        part of the UN Global Compact’s Human Rights and Labor Working Group, with the{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -58,9 +51,8 @@ const en = () => {
                         >
                             International Trade Union Confederation (ITUC)
                         </a>{" "}
-                        serving as co-chairs. In 2015, members of the CLP,
-                        including companies from the food and beverage, apparel,
-                        and mining sectors contributed to the production of a{" "}
+                        serving as co-chairs. In 2015, members of the CLP, including companies from the food and beverage,
+                        cosmetics, apparel, telecommunications, and mining sectors contributed to the production of a{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -99,44 +91,29 @@ const en = () => {
                         </strong>
                     </h2>
                     <p>
-                        The ILO&rsquo;s Global Business Network on Forced Labor,
-                        supported by initial funding from DOL and Mars, Inc.*,
-                        is set to launch in 2018 and will bring together
-                        employers&rsquo; organizations, businesses, and other
-                        stakeholders to provide opportunities to share
-                        information on how companies from a range of sectors
-                        conduct due diligence and risk assessments related to
-                        forced labor and human trafficking in their business
-                        operations. The Global Business Network will provide
-                        opportunities for companies to benchmark their
-                        performance and to facilitate peer learning on forced
-                        labor issues, including through the exchange of
-                        information on self-regulatory initiatives and best
-                        practices on managing complex supply chains. The Global
-                        Business Network will work in close collaboration with
-                        the Child Labor Platform to ensure the full support and
-                        involvement of the business community towards the
-                        achievement of the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://sustainabledevelopment.un.org/?menu=1300"
-                            title="Sustainable Development Goals"
-                        >
-                            Sustainable Development Goals
-                        </a>{" "}
-                        under ILO{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.alliance87.org/"
-                            title="Alliance 8.7"
-                        >
-                            Alliance 8.7
-                        </a>{" "}
-                        &ndash; a global partnership aimed at ending child
-                        labor, forced labor, modern slavery, and human
-                        trafficking.
+                        Launched in June 2018, the International Labor Organization’s (ILO) Global
+                        Business Network on Forced Labor (GBNFL), supported by initial funding from DOL
+                        and Mars, Inc.,* brings together the ILO with businesses of all sizes and sectors,
+                        and their networks, from around the globe to eradicate forced labor.  Operating across
+                        all sectors, and geographies, ILO GBNFL members work to engage smaller enterprises,
+                        develop actionable resources and tools, and devise local solutions that help shape
+                        national frameworks to create lasting change.  ILO GBNFL members are businesses of all
+                        sizes and sectors, as well as employer and business membership organizations including
+                        industry trade groups and sectoral associations.  Other business-led initiatives with
+                        complementary mandates and expertise can join as partners.
+
+                    </p>
+                    <p>
+                    ILO GBNFL reaches across sectors and geographies to advance the business case for an end to forced labor.
+                    The network is aligned with, and contributes to, other relevant international initiatives, in particular&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.alliance87.org"
+                    >
+                    Alliance 8.7
+                    </a>
+                    , the global partnership working to deliver on SDG Target 8.7.
                     </p>
                     <p>
                     For more information and an up-to-date list of members, please visit&nbsp;

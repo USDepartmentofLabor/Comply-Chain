@@ -8,14 +8,14 @@ const en = () => {
                 <h1>List of Products Produced by Forced or Indentured Child Labor</h1>
                 <p>
                 ILAB maintains a list of products and their source countries which it has a reasonable basis to believe are produced by forced or indentured child labor,
-                pursuant to &nbsp;
+                pursuant to
                 <a
                      target="_blank"
                      rel="noopener noreferrer"
                      href="https://www.dol.gov/agencies/ilab/about/laws"
                      title="List of products report"
                       >
-                    <span > Executive Order 13126 </span>
+                    <span> Executive Order 13126</span>
                  </a>
                 .&nbsp;This List is intended to ensure that U.S. federal agencies do not procure goods made by forced or indentured child labor.
                 Under procurement regulations, federal contractors who supply products on the List must certify that they have made a good faith effort to determine whether forced or indentured child labor was used to produce the items supplied.
@@ -24,7 +24,7 @@ const en = () => {
                 The Department of Labor, in consultation with the Departments of State and Homeland Security, publishes and maintains the List.
                 ILAB released its initial List in 2001, and has revised it several times since then. As of March 25, 2019, the EO List comprises 34 products from 25 countries.
 
-                The List is required by &nbsp;
+                This List is required by &nbsp;
                  <a
                      target="_blank"
                      rel="noopener noreferrer"

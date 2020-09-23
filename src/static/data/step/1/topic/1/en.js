@@ -30,11 +30,8 @@ const en = () => {
                     </a>
                     , enacted in the early 2010&rsquo;s to respond to human
                     rights concerns, require certain companies to publicly
-                    disclose information about their supply chains.&nbsp;Since
-                    then, there have been more laws passed and regulations
-                    promulgated, inside and outside the U.S., that strengthen
-                    protections against child labor and forced labor in supply
-                    chains. Since then, there have been more laws passed and
+                    disclose information about their supply chains.
+                    Since then, there have been more laws passed and
                     regulations promulgated, inside and outside the U.S., that
                     strengthen protections against child labor and forced labor
                     in supply chains.  In addition, a number of countries incorporate
@@ -53,14 +50,14 @@ const en = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.business-humanrights.org/en/national-movements-for-mandatory-human-rights-due-diligence-in-european-countries"
+                        href="https://business-humanrights.org/en/national-movements-for-mandatory-human-rights-due-diligence-in-european-countries"
                     >
                     governmental and civil society movements for mandatory human rights due diligence in European countries</a>
                     &nbsp;as part of its resources on&nbsp;
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.business-humanrights.org/en/mandatory-due-diligence"
+                        href="https://www.business-humanrights.org/en/big-issues/mandatory-due-diligence/"
                     >
                     mandatory due diligence </a>
                 </p>
@@ -567,59 +564,6 @@ const en = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://oag.ca.gov/sites/all/files/agweb/pdfs/cybersafety/sb_657_bill_ch556.pdf"
-                                    >
-                                        &nbsp;Five Years of the California
-                                        Transparency in Supply Chains Act,
-                                    </a>{" "}
-                                    an insights brief prepared by{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://knowthechain.org/"
-                                    >
-                                        KnowTheChain
-                                    </a>
-                                    , an initiative led by{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://humanityunited.org/"
-                                    >
-                                        Humanity United
-                                    </a>
-                                    , in partnership with the{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.business-humanrights.org/"
-                                    >
-                                        Business &amp; Human Rights Resource
-                                        Centre
-                                    </a>
-                                    ,{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.sustainalytics.com/"
-                                    >
-                                        Sustainalytics
-                                    </a>
-                                    , and{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.verite.org/"
-                                    >
-                                        Verit&eacute;
-                                    </a>
-                                    .
-                                </p>
-                                <p>
-                                    See also{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
                                         href="https://www.verite.org/the-california-transparency-in-supply-chains-act-a-resource-guide/"
                                     >
                                         <em>
@@ -669,8 +613,9 @@ const en = () => {
                                     rel="noopener noreferrer"
                                     href="https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf"
                                 >
-                                Verité available at https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf.
+                                Verité
                                 </a>
+                                &nbsp;available at https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf.
                                 </p>
                                 <p>
                                     See also{" "}
@@ -733,7 +678,7 @@ const en = () => {
                                     >
                                     Guidance for Reporting Entities
                                     </a>
-                                     &nbsp;to explain in plain
+                                     &nbsp;to explain in plain language what entities need to do to comply with the Act.
                                 </p>
                                 
                             </Accordion.Panel>
@@ -757,7 +702,7 @@ const en = () => {
                                     </a>
                                     &nbsp;(Act) in 2019 but it awaits royal approval
                                     before going into effect.  This Act will apply to all companies
-                                    that sell or supply goods or services to consumers to Dutch consumers,
+                                    that sell or supply goods or services to Dutch consumers,
                                     regardless of the registration or the domicile of the company.  The Act
                                     requires companies to submit a statement that they have applied due diligence
                                     to assess whether a “reasonable suspicion” exists that the services or goods

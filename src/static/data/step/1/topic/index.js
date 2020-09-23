@@ -17,7 +17,7 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Evolving voluntary standards and authoritative norms",
+            title: "UN Guiding Principles on Business and Human Rights and evolving voluntary standards and authoritative norms",
             content: Topic2.en
         },
         {

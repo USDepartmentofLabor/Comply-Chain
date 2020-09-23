@@ -94,7 +94,14 @@ const en = () => {
                     results, successes and areas for improvement.
                 </p>
                 <p>
-                    Source: https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains.
+                    Source:
+                    <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains"
+                      >
+                    https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains
+                   </a>.
                 </p>
                 <p>
                     <em>

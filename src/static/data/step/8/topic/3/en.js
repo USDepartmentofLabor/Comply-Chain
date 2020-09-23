@@ -405,19 +405,11 @@ const en = () => {
                         <th scope="row">Workers forced to engage in illicit activities, to work for private home/family or to take addictive drugs.</th>
                            <td>
                                 <p>
-                                    Determine who&mdash;management, supervisors,
-                                    shift leaders, etc. &mdash;are involved in
-                                    restricting workers&rsquo; freedom of
-                                    movement or communication and investigate
-                                    these individuals&rsquo; actions. If
-                                    individuals were acting on their own without
-                                    management knowledge, take appropriate
-                                    action with these individuals, which could
-                                    include training, suspension or termination.
-                                    If these restrictions came from management,
-                                    terminate the relationship with the supplier
-                                    or provide the supplier a short window of
-                                    time to end all such practices.&nbsp;
+                                    Determine who—management, supervisors, shift leaders, etc.—are involved in forcing workers to engage in illicit activities,
+                                    to work for private home/family, or to take addictive drugs and investigate these individuals’ actions.
+                                    If individuals were acting on their own without management knowledge, take appropriate action with these individuals,
+                                    which could include training, suspension or termination.  If these restrictions came from management,
+                                    terminate the relationship with the supplier or provide the supplier a short window of time to end all such practices.
                                 </p>
                                 <p>
                                     Further investigate conditions and
@@ -743,7 +735,7 @@ const en = () => {
                         capacity development of the PICC builds on a
                         factory&rsquo;s existing effective labor management
                         structures. Each PICC meets at least on a monthly basis.
-                        Supported by Better Work Advisors, they formulate e and
+                        Supported by Better Work Advisors, they formulate and
                         oversee implementation of a remediation plan, ensuring
                         that management and workers share responsibility and
                         accountability throughout the process. Better Work

@@ -39,7 +39,7 @@ const en = () => {
                 <ExampleInAction id="patagonia">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        Example in Action: Patagonia&rsquo;s* Migrant Worker
+                        Example in Action: Patagonia&rsquo;s Migrant Worker
                         Standards
                     </h2>
                     <p>
@@ -57,10 +57,27 @@ const en = () => {
                         joining the effort, “Patagonia has made significant progress in moving their suppliers to a system where workers do not pay recruitment fees.”
                     </p>
                     <p>
-                        Source: https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html.
+                        Source:&nbsp;
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html"
+                            title="Responsible Recruitment Gateway"
+                        >
+                        https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html
+                        </a>
+                        .
                     </p>
                     <p>
-                        Source: https://www.patagonia.com/our-footprint/migrant-workers.html.
+                       Source:&nbsp;
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.patagonia.com/our-footprint/migrant-workers.html"
+                            title="Responsible Recruitment Gateway"
+                        >
+                        https://www.patagonia.com/our-footprint/migrant-workers.html
+                        </a>.
                     </p>
                 </ExampleInAction>
                 <p>
@@ -163,9 +180,9 @@ const en = () => {
                             href="https://www.ihrb.org/employerpays/"
                             title="Responsible Recruitment Gateway"
                         >
-                            Responsible Recruitment Gateway
+                            Responsible Recruitment Gateway at https://www.ihrb.org/employerpays/
                         </a>
-                        &nbsp;at https://www.ihrb.org/employerpays/.
+                        .
                     </p>
                 </ExampleInAction>
                 <p>

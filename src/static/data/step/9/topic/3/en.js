@@ -31,7 +31,7 @@ const en = () => {
                     appropriate stakeholders, including unions where they exist.
                     Verifiers should conduct witness audits, which consist of a
                     verifier first accompanying and observing audits carried out
-                    the company&rsquo;s existing auditors (internal, external or
+                    by the company&rsquo;s existing auditors (internal, external or
                     independent) and then testing audit data to confirm that
                     company data systems are reliable. Announced witness audits
                     are important when it is necessary to have access to
