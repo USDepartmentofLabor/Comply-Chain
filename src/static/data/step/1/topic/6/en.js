@@ -21,14 +21,10 @@ const en = () => {
                     </a>
                     &nbsp;(DFC)—
                     constituted in 2019, consolidating functions from the&nbsp;
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
-                    >
-                        Overseas Private Investment Corporation (OPIC)
-                    </a>{" "}
-                    or the{" "}
+
+                        Overseas Private Investment Corporation <em>(OPIC)</em>
+
+                    &nbsp;or the{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

@@ -364,6 +364,11 @@ const en = () => {
                                           </a>, 2020 at https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf
                                           </p>
                                                           </OwnWords>
+               <p>
+               To get a sense for how this general approach can be applied in a particular sector,
+               the Responsible Sourcing Seafood Tool 4: Information Gathering and Risk Assessment in
+               Seafood Supply Chains takes a step-by-step approach to examining country-based risks, supply chain-based risks, and supplier-based risks.
+               </p>
         </StaticData>
     );
 };

@@ -101,14 +101,7 @@ const en = () => {
                                  When there are no birth certificates to verify age or
                                  where falsified documents are easily obtained, the
                                  following suggestions may be helpful:
-                                 <a
-                                     target="_blank"
-                                     rel="noopener noreferrer"
-                                     href="http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm#F5"
-                                     title="Eliminating Child Labour: Guides for Employers"
-                                 >
-                                     [2]&nbsp;
-                                 </a>
+
                              </p>
                              <ul>
                                  <li>
@@ -130,6 +123,14 @@ const en = () => {
                                  <li>
                                      school enrolment certificates can be a good source
                                      of information.
+                                     <a
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          href="http://www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm#F5"
+                                          title="Eliminating Child Labour: Guides for Employers"
+                                      >
+                                          [2]&nbsp;
+                                      </a>
                                  </li>
                              </ul>
                              <p>

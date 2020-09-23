@@ -98,7 +98,7 @@ const en = () => {
                                         </em>
                                     </a>
                                     <em>,</em> published by the United Nations
-                                    Global Compact and BSR, formerly Business for Social Responsibility
+                                    Global Compact and BSR, formerly Business for Social Responsibility.
                                 </p>
                                 <p>
                                     At a practical level, the management team

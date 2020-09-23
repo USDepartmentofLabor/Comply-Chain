@@ -11,7 +11,12 @@ const en = () => {
                     of Child Labor focuses on the efforts of more than 130 U.S. trade
                     beneficiary countries and territories to eliminate the worst
                     forms of child labor through legislation, enforcement
-                    mechanisms, policies and social programs.
+                    mechanisms, policies and social programs. The report presents information
+                    on the prevalence and sectoral distribution of child labor in each country
+                    and assesses the extent governments have taken action to address the problem
+                    during each reporting year.  It also provides country-specific suggestions for
+                    government action, which businesses and civil society actors can use to identify
+                    points of leverage in their own engagements with respective governments.
                 </p>
                 <p>
                     The Report serves as a great resource to companies with global supply chains,

@@ -15,7 +15,7 @@ const en = () => {
                      href="https://www.dol.gov/agencies/ilab/about/laws"
                      title="List of products report"
                       >
-                    <span > Executive Order 13126 </span>
+                    <span> Executive Order 13126</span>
                  </a>
                 .&nbsp;This List is intended to ensure that U.S. federal agencies do not procure goods made by forced or indentured child labor.
                 Under procurement regulations, federal contractors who supply products on the List must certify that they have made a good faith effort to determine whether forced or indentured child labor was used to produce the items supplied.

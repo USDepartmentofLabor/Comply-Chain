@@ -599,17 +599,7 @@ const en = () => {
                                 agriculture, construction, domestic work and
                                 manufacturing. The remaining 4 million are in
                                 state-imposed forms of forced labor.
-                                <sup>
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="#_ftnref1"
-                                        name="_ftn1"
-                                    >
-                                        [1]
-                                    </a>{" "}
 
-                                </sup>
                             </p>
 
                             <h3>Human Trafficking</h3>

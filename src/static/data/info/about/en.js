@@ -401,7 +401,7 @@ const en = () => {
 
             <p>
                 <em>
-                    *Note: The contents of this document do not have the force
+                    *Note on Guidance and Organizations Referenced: The contents of this document do not have the force
                     and effect of law and are not meant to bind the public in any way.
                     This document is intended only to provide clarity to the public
                     regarding existing requirements under the law or agency policies.
@@ -428,7 +428,7 @@ const en = () => {
                     in this app based on extensive literature review and
                     engagement in social compliance-focused fora. These
                     companies have shown leadership in one or more areas of the
-                    app&rsquo;s eight &ldquo;Steps.&rdquo; These examples are
+                    app&rsquo;s &ldquo;Steps.&rdquo; These examples are
                     illustrative and not exhaustive. Many other companies have
                     also developed, or are developing, good practices in these
                     areas that could also be shared. These examples are also
