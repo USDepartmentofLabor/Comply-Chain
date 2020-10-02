@@ -29,8 +29,9 @@ export const StepData = {
         keywords: ["Presentación de informes públicos"],
         learningObjectives: [
             "Comprender los motivos por los que se deben presentar informes públicos sobre los programas de cumplimiento social y las ventajas que esto representa para la empresa.",
-            "Saber qué tipo de información incluir en los informes y el alcance de la misma.",
-            "Tener una noción del trabajo que implica redactar y presentar los informes públicos."
+            "Comprender la naturaleza y el alcance de la información que se debe notificar.",
+            "Tener noción del trabajo que implica redactar y presentar informes públicos.",
+            "Comprender cómo generar participación en torno a temas de cumplimiento social"
         ],
         keyTerms: [
             {
