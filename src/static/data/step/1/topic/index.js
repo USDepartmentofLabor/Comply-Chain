@@ -60,7 +60,7 @@ export const Topics = {
         {
             keywords: [],
             title:
-                "Leyes y reglamentaciones",
+                "Leyes y normativa",
             content: Topic1.es
         },
         {

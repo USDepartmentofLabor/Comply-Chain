@@ -10,11 +10,7 @@ const es = () => {
                     <strong>Hacer el bien</strong>
                 </h1>
                 <p>
-                    Para algunas empresas, contar con un sistema de cumplimiento
-                    social es, en s&iacute; mismo, &ldquo;hacer lo
-                    correcto&rdquo;. Es m&aacute;s probable que estas empresas
-                    brinden apoyo y recursos considerables a sus sistemas de
-                    cumplimiento social.
+                    Para algunas empresas, contar con un sistema de cumplimiento social es, en sí mismo, “hacer lo correcto”. Es más probable que estas empresas brinden apoyo y recursos considerables a sus sistemas de cumplimiento social.
                 </p>
             </div>
         </StaticData>

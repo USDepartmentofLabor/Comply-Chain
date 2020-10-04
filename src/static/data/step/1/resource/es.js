@@ -23,9 +23,9 @@ const es = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf"
+                                        href="https://betterwork.org/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf"
                                     >
-                                        http://www1.ifc.org/wps/wcm/connect/a4aab30048865910b81afa6a6515bb18/SAI_IFC_LaborHandbook_Ch1-Intro.pdf?MOD=AJPERES&amp;CACHEID=a4aab30048865910b81afa6a6515bb18
+                                        https://betterwork.org/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf
                                     </a>
                                     .
                                 </li>

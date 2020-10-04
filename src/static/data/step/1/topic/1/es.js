@@ -7,79 +7,101 @@ const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>Leyes y reglamentacione</h1>
-                <p>
-                    Los sistemas de cumplimiento social, considerados por lo
-                    general como un emprendimiento puramente voluntario, se
-                    est&aacute;n convirtiendo en instrumentos cada vez
-                    m&aacute;s importantes para cumplir los requisitos legales.
-                    La legislaci&oacute;n en los Estados Unidos, especialmente
-                    la Ley{" "}
-                    <a
-                        href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Dodd-Frank de reforma de Wall Street y protecci&oacute;n
-                        del consumidor (2010)
-                    </a>{" "}
-                    y la Ley de{" "}
-                    <a
-                        href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        California sobre transparencia en las cadenas de
-                        suministro (2010)
-                    </a>
-                    , se promulgaron a comienzos de la d&eacute;cada de 2010 en
-                    respuesta a las inquietudes en torno a los derechos humanos
-                    y exige a ciertas empresas hacer p&uacute;blica la
-                    informaci&oacute;n sobre sus cadenas de
-                    suministro.&nbsp;Desde entonces, tanto en los Estados Unidos
-                    como en otros pa&iacute;ses, se aprobaron m&aacute;s leyes y
-                    se promulgaron m&aacute;s reglamentaciones a fin de reforzar
-                    las protecciones para combatir el trabajo infantil y el
-                    trabajo forzoso en las cadenas de suministro.&nbsp;
-                </p>
+                <h1>Leyes y normativa</h1>
+                <p>Los sistemas de cumplimiento social, considerados por lo general como un emprendimiento puramente voluntario, se est&aacute;n convirtiendo en
+                herramientas cada vez m&aacute;s importantes para cumplir los requisitos legales. La legislaci&oacute;n en los Estados Unidos, especialmente la&nbsp;
+                <a
+                    href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                Ley Dodd-Frank de reforma de Wall Street y protecci&oacute;n del consumidor (2010)
+                </a>
+                &nbsp;y la&nbsp;
+                <a
+                    href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                Ley de California sobre transparencia en las cadenas de suministro (2010)
+                </a>
+                ,
+                &nbsp;se promulgaron a comienzos de la d&eacute;cada de 2010 en respuesta a las inquietudes en torno a los derechos humanos y exige que determinadas empresas hagan p&uacute;blica
+                la informaci&oacute;n sobre sus cadenas de suministro. Desde entonces, tanto en los Estados Unidos como en otros pa&iacute;ses, se aprobaron m&aacute;s leyes y se promulgaron
+                m&aacute;s reglamentaciones a fin de reforzar las protecciones para combatir el trabajo infantil y el trabajo forzoso en las cadenas de suministro. Asimismo, varios pa&iacute;ses
+                incorporan distintas disposiciones laborales en los tratados de comercio. Un ejemplo reciente es el Tratado entre M&eacute;xico, Estados Unidos y Canad&aacute; (T-MEC), que contiene
+                normas laborales plenamente ejecutables, como la aplicaci&oacute;n de legislaci&oacute;n relativa al trabajo forzoso y al trabajo infantil. El T-MEC tambi&eacute;n contiene disposiciones
+                nuevas que exigen que las partes adopten medidas para prohibir la importaci&oacute;n de bienes producidos con trabajo forzoso, incluido el trabajo infantil forzoso, a fin de abordar la violencia hacia los
+                trabajadores que ejercen sus derechos laborales, as&iacute; como tratar el problema de la discriminaci&oacute;n por raz&oacute;n de sexo en el lugar de trabajo y garantizar que los trabajadores migrantes
+                est&eacute;n protegidos en la legislaci&oacute;n laboral.</p>
+                <p>Las leyes y normativa relativas a la debida diligencia contienen enfoques distintos y cambiantes. El Centro de Informaci&oacute;n sobre Empresas y
+                Derechos Humanos compila y actualiza una lista de&nbsp;
+                <a
+                    href="https://www.business-humanrights.org/en/national-movements-for-mandatory-human-rights-due-diligence-in-european-countries"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                movimientos gubernamentales y de la sociedad civil en pa&iacute;ses europeos a favor de la debida diligencia obligatoria en materia de derechos humanos
+                </a>
+                &nbsp;como
+                parte de la informaci&oacute;n que brinda en materia de la&nbsp;
+                <a
+                    href="https://www.business-humanrights.org/en/mandatory-due-diligence"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                debida diligencia obligatoria
+                </a>
+                . </p>
+                <p>A continuaci&oacute;n, se presentan algunos ejemplos de leyes y normativa; favor de comunicarse con las dependencias
+                encargadas de ejecutarlas para obtener la informaci&oacute;n m&aacute;s actualizada.</p>
+
                 <ul id="law-list">
                 
                     <Accordion id="why-develop-acc">
                     <Accordion.Section id="law-order">
                             <Accordion.Title>
                                 <strong>
-                                La Orden Ejecutiva 13126, Prohibici&oacute;n de la
-                            adquisici&oacute;n de productos producidos con
-                            trabajo forzoso o trabajo infantil no remunerado, y las correspondientes reglamentaciones de
-                        aplicaci&oacute;n
+                                La orden ejecutiva 13126, Prohibición de adquirir productos fabricados con trabajo infantil forzoso o  en régimen de servidumbre, y la correspondiente normativa de implementación
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
                                 <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.gpo.gov/fdsys/pkg/FR-1999-06-16/pdf/99-15491.pdf"
-                        >
-                            La Orden Ejecutiva 13126, Prohibici&oacute;n de la
-                            adquisici&oacute;n de productos producidos con
-                            trabajo forzoso o trabajo infantil no remunerado
-                        </a>
-                        , y las correspondientes reglamentaciones de
-                        aplicaci&oacute;n
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.govinfo.gov/content/pkg/FR-1999-06-16/pdf/99-15491.pdf"
+                                >
+                                La orden ejecutiva 13126, Prohibición de adquirir productos fabricados con trabajo infantil forzoso o&nbsp;
+                                </a>
+                                &nbsp;en régimen de servidumbre&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.govinfo.gov/content/pkg/FR-1999-06-16/pdf/99-15491.pdf"
+                                >
+                                y la correspondiente normativa de implementación
+                                </a>
+                                ,
+                                suscrita en 1999, exige que el Departamento de Trabajo publique una&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products"
+                                >
+                                Lista de productos fabricados con trabajo infantil forzoso o
+                                </a>
+                                &nbsp;en régimen de servidumbre y sus respectivos países de origen.
+                                Dicha lista tiene por objeto asegurar que las dependencias federales de los Estados Unidos no produzcan bienes fabricados con trabajo infantil forzoso o en régimen de servidumbre. Según la normativa
+                                de contratación pública, todo contratista del gobierno federal que facilite productos que figuran en la lista debe certificar que realizó un esfuerzo de buena fe por averiguar si se empleó trabajo infantil
+                                forzoso o en régimen de servidumbreen la producción de dichos artículos.
                                 </p>
-                                
-                            </Accordion.Panel>
+                        </Accordion.Panel>
                         </Accordion.Section>
                         <Accordion.Section id="exec-order">
                             <Accordion.Title>
                                 <strong>
-                                    La Orden Ejecutiva 13627, Fortalecimiento de
-                                    las protecciones para combatir la trata de
-                                    personas en los contratos del gobierno
-                                    federal, y las reglamentaciones de
-                                    aplicaci&oacute;n sobre adquisiciones del
-                                    gobierno federal
+                                    La Orden Ejecutiva 13627, Fortalecimiento de las protecciones para combatir la trata de personas en los contratos del gobierno federal, y las reglamentaciones de aplicación sobre adquisiciones del gobierno federal
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
@@ -99,50 +121,16 @@ const es = () => {
                                         trata de personas en los contratos del
                                         gobierno federal
                                     </a>
-                                    , y en el T&iacute;tulo XVII de la Ley de
-                                    autorizaci&oacute;n de la defensa nacional
-                                    para el ejercicio fiscal 2013, Poner fin a
-                                    la trata en los contratos p&uacute;blicos.
-                                    En la norma se refuerza la
-                                    prohibici&oacute;n vigente de la trata en
-                                    los contratos p&uacute;blicos mediante la
-                                    prohibici&oacute;n expresa de que los
-                                    contratistas, empleados de los contratistas,
-                                    subcontratistas y empleados de los
-                                    subcontratistas del gobierno federal
-                                    realicen determinados tipos de actividades
-                                    vinculadas a la trata. Por ejemplo, destruir
-                                    y confiscar los documentos de identidad,
-                                    emplear pr&aacute;cticas de reclutamiento
-                                    enga&ntilde;osas, no cubrir los gastos del
-                                    transporte de regreso al finalizar el
-                                    trabajo en la mayor&iacute;a de las
-                                    situaciones, no brindar un contrato de
-                                    empleo escrito, brindar vivienda
-                                    subest&aacute;ndar y cobrar a los empleados
-                                    una comisi&oacute;n por la
-                                    contrataci&oacute;n. Los contratistas deben
-                                    adoptar medidas adecuadas con los empleados,
-                                    agentes y subcontratistas que infrinjan las
-                                    prohibiciones y deben notificar a los
-                                    empleados las actividades prohibidas y las
-                                    respectivas consecuencias. Por otra parte,
-                                    en el caso de contratos que superen los
-                                    $500.000 y se ejecuten fuera de los Estados
-                                    Unidos, los contratistas deben elaborar un
-                                    plan de cumplimiento con un programa de
-                                    sensibilizaci&oacute;n para los empleados,
-                                    un proceso para que los empleados puedan
-                                    denunciar infracciones, un plan de vivienda
-                                    y un plan de horas y sueldos. Estos
-                                    contratistas deben certificar anualmente que
-                                    est&aacute;n aplicando los planes, y que ni
-                                    ellos ni sus subcontratistas realizan las
-                                    actividades prohibidas o, que si se
-                                    descubren infracciones en sus cadenas de
-                                    suministro, se han tomado las medidas
-                                    adecuadas de remediaci&oacute;n y
-                                    remisi&oacute;n.
+                                    , y en el Título XVII de la Ley de autorización de la defensa nacional para el ejercicio fiscal 2013, Poner fin a la trata en los contratos públicos.
+                                    En la norma se refuerza la prohibición vigente de la trata en los contratos públicos mediante la prohibición expresa de que los contratistas, empleados
+                                    de los contratistas, subcontratistas y empleados de los subcontratistas del gobierno federal realicen determinados tipos de actividades vinculadas a la trata.
+                                    Por ejemplo, destruir y confiscar los documentos de identidad, emplear prácticas de reclutamiento engañosas, no cubrir los gastos del transporte de regreso al finalizar
+                                    el trabajo en la mayoría de las situaciones, no brindar un contrato de empleo escrito, brindar vivienda subestándar y cobrar a los empleados una comisión por la contratación.
+                                    Los contratistas deben adoptar medidas adecuadas con los empleados, agentes y subcontratistas que infrinjan las prohibiciones y deben notificar a los empleados las actividades
+                                    prohibidas y las respectivas consecuencias. Por otra parte, en el caso de contratos que superen los $500.000 y se ejecuten fuera de los Estados Unidos, los contratistas deben elaborar
+                                    un plan de cumplimiento con un programa de sensibilización para los empleados, un proceso para que los empleados puedan denunciar infracciones, un plan de vivienda y un plan de horas y sueldos.
+                                    Estos contratistas deben certificar anualmente que están aplicando los planes, y que ni ellos ni sus subcontratistas realizan las actividades prohibidas o, que si se descubren infracciones en
+                                    sus cadenas de suministro, se han tomado las medidas adecuadas de remediación y remisión.
                                 </p>
                                 <p>
                                     El{" "}
@@ -153,10 +141,7 @@ const es = () => {
                                     >
                                         Responsible Sourcing Tool
                                     </a>{" "}
-                                    (instrumento de abastecimiento responsable)
-                                    lanzado en 2016 por Verit&eacute; y el
-                                    Departamento de Estado de los Estados
-                                    Unidos, contiene un{" "}
+                                    lanzado en 2016 por Verité y el Departamento de Estado de los Estados Unidos, contiene un{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -164,10 +149,7 @@ const es = () => {
                                     >
                                         modelo de plan de cumplimiento
                                     </a>{" "}
-                                    para que usen las empresas que deben
-                                    demostrar que cumplen los requisitos para
-                                    combatir la trata de personas del Reglamento
-                                    Federal de Adquisiciones.
+                                    para que usen las empresas que deben demostrar que cumplen los requisitos para combatir la trata de personas del Reglamento Federal de Adquisiciones.
                                 </p>
                             </Accordion.Panel>
                         </Accordion.Section>
@@ -231,7 +213,15 @@ const es = () => {
                                     irrebatible) que los bienes en
                                     cuesti&oacute;n fueron hechos, total o
                                     parcialmente con trabajo forzoso, CBP emite
-                                    una orden de inhabilitaci&oacute;n a fin de
+                                    una&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.cbp.gov/trade/programs-administration/forced-labor/withhold-release-orders-and-findings"
+                                    >
+                                    orden de inhabilitaci&oacute;n
+                                    </a>
+                                    &nbsp;a fin de
                                     impedir que los bienes ingresen a los
                                     Estados Unidos. Mientras los bienes se
                                     encuentren retenidos, el fabricante tiene la
@@ -459,7 +449,7 @@ const es = () => {
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    La{" "}
+                                    Mediante La{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -468,48 +458,26 @@ const es = () => {
                                         Ley Dodd-Frank de reforma de Wall Street
                                         y protecci&oacute;n del consumidor
                                     </a>{" "}
-                                    (Ley Dodd-Frank), promulgada en 2010,
-                                    orden&oacute; a la Comisi&oacute;n de
-                                    Valores y Bolsas de los EE.UU. (SEC) que
-                                    expidiera reglamentaciones por las que se
-                                    exija a las empresas fabricantes de
-                                    productos informar sobre &ldquo;minerales de
-                                    conflicto&rdquo; en las cadenas de
-                                    suministro empresariales, con arreglo a la
-                                    secci&oacute;n 1502. El Congreso
-                                    aprob&oacute; la secci&oacute;n 1502 por la
-                                    inquietud de que la explotaci&oacute;n y el
-                                    comercio de minerales de conflicto por
-                                    grupos armados contribuyen a financiar el
-                                    conflicto en la regi&oacute;n de la
-                                    Rep&uacute;blica Democr&aacute;tica del
-                                    Congo (RDC) y esto lleva a una crisis de
-                                    emergencia humanitaria. La ley estipula que
-                                    las empresas declarantes que realizan
-                                    presentaciones ante la SEC deben comunicar
-                                    anualmente si los productos que fabrican
-                                    contienen esta&ntilde;o, tantalio, tungsteno
-                                    u oro (en su conjunto considerados
-                                    &ldquo;minerales de conflicto&rdquo; en la
-                                    disposici&oacute;n) de la RDC o de un
-                                    pa&iacute;s lim&iacute;trofe y, en caso
-                                    afirmativo, si con los minerales de
-                                    conflicto se financia o beneficia a los
-                                    grupos armados en la regi&oacute;n de la
-                                    RDC.&nbsp;
+                                    (Ley Dodd-Frank), promulgada en 2010, se ordenó a la Comisión de Valores y Bolsas de los EE. UU.
+                                    (SEC) que expidiera reglamentaciones por las que se exija a las empresas fabricantes de productos
+                                    informar sobre “minerales de conflicto” en las cadenas de suministro empresariales, con arreglo a la sección 1502.
+                                    El Congreso aprobó la sección 1502 por la inquietud de que la explotación y el comercio de minerales de conflicto por
+                                    grupos armados contribuyen a financiar el conflicto en la región de la República Democrática del Congo (RDC) y esto lleva
+                                    a una crisis de emergencia humanitaria. La ley estipula que las empresas declarantes que realizan presentaciones ante la
+                                    SEC deben comunicar anualmente si los productos que fabrican contienen estaño, tantalio, tungsteno u oro (en su conjunto
+                                    considerados “minerales de conflicto” en la disposición) de la RDC o de un país limítrofe y, en caso afirmativo, si con los
+                                    minerales de conflicto se financia o beneficia a los grupos armados en la región de la RDC. La SEC publicó una disposición mediante
+                                    la cual exige que las empresas determinen si se usan tales minerales y si son necesarios para la funcionalidad o fabricación del
+                                    producto que elaboran ellas mismas o sus contratistas. En caso afirmativo, según la disposición, las empresas deben indagar de buena
+                                    fe en el país de origen de los minerales y hacer algunas divulgaciones a la SEC. Además, según la disposición, las empresas deben poner a
+                                    disposición en sus sitios web la información que hayan divulgado a la SEC.
                                 </p>
                                 <p>
-                                    Las empresas abarcadas deben determinar si
-                                    se usan tales minerales y si son necesarios
-                                    para la funcionalidad o fabricaci&oacute;n
-                                    del producto que elaboran ellas mismas o los
-                                    contratistas. En caso afirmativo, las
-                                    empresas deben indagar de buena fe en el
-                                    pa&iacute;s de origen de los minerales y
-                                    hacer algunas divulgaciones. Adem&aacute;s,
-                                    las empresas deben poner a
-                                    disposici&oacute;n en sus sitios web la
-                                    informaci&oacute;n que comunican a la SEC.
+                                    Sin embargo, un tribunal dictaminó que el requisito de divulgar si los productos no están vinculados a ningún conflicto en la RDC era
+                                    contrario a lo dispuesto en la primera enmienda. En consecuencia, la División de Finanzas Empresariales de la SEC suspendió la ejecución de este requisito a la espera de un dictamen posterior por parte de la SEC.
+                                </p>
+                                <p>
+                                Actualmente, las compañías siguen presentando a la SEC los formularios exigidos y realizando las indagaciones correspondientes en los países de origen.
                                 </p>
                             </Accordion.Panel>
                         </Accordion.Section>
@@ -690,13 +658,38 @@ const es = () => {
                         <Accordion.Section id="aust-slav">
                             <Accordion.Title>
                                 <strong>
-                                    Australian Modern Slavery Act
+                                    Ley de formas contemporáneas de esclavitud de Australia
 
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    Some Text
+                                    El 1 de enero de 2019 entró en vigor la&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.legislation.gov.au/Details/C2018A00153"
+                                    >
+                                    Ley de formas contemporáneas de esclavitud de 2018
+                                    </a>
+                                    . Según la ley,
+                                    es obligatorio que las empresas que tengan sede en Australia o que operen en dicho país y tengan ingresos
+                                    consolidados anuales superiores a AUD $100 millones, notifiquen en una declaración de formas contemporáneas
+                                    de esclavitud los riesgos de formas contemporáneas de esclavitud que están presentes en sus operaciones y cadenas de suministro,
+                                    así como las medidas que adoptaron para abordar dichos riesgos. En la declaración también deben describir los riesgos de formas
+                                    contemporáneas de esclavitud que están presentes en la cadena de suministro de la entidad declarante (y de las entidades que posea o controle),
+                                    así como las medidas adoptadas para responder a los riesgos identificados, incluidos los procesos de reparación y debida diligencia. Además,
+                                    el Gobierno de Australia publicó&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.homeaffairs.gov.au/criminal-justice/files/modern-slavery-reporting-entities.pdf"
+                                    >
+                                    orientación para las entidades declarantes
+                                    </a>
+                                    &nbsp;con el objeto de explicar de manera sencilla los requisitos que
+                                    deben cumplir las entidades para dar cumplimiento a lo dispuesto en la ley.
+
                                 </p>
                                 
                             </Accordion.Panel>
@@ -704,13 +697,28 @@ const es = () => {
                         <Accordion.Section id="ductch-labor">
                             <Accordion.Title>
                                 <strong>
-                                Dutch Child Labor Due Diligenec Law (Netherlands)
+                                Ley de debida diligencia en materia de trabajo infantil de Holanda (Países Bajos)
 
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    Some Text
+                                   El Senado de los Países Bajos aprobó la&nbsp;
+                                   <a
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       href="https://www.eerstekamer.nl/behandeling/20170207/gewijzigd_voorstel_van_wet"
+                                   >
+                                   Ley de debida diligencia en materia de trabajo infantil
+                                   </a>
+                                   &nbsp;en 2019 pero se encuentra a la espera de la
+                                   aprobación real para que entre en vigor. Esta ley rige para todas las empresas que venden o brindan bienes o servicios a consumidores holandeses
+                                   independientemente de su matrícula o domicilio legal.  Según la ley, es obligatorio que las empresas presenten una declaración en la que afirmen que
+                                   realizaron la debida diligencia para evaluar si existe “sospecha razonable” de que los bienes o servicios que brindan fueron fabricados con trabajo
+                                   infantil en sus cadenas de valor.  Si se detecta “sospecha razonable”, la empresa debe adoptar e implementar un plan para abordar el trabajo infantil.
+                                   Además, las empresas deben investigar el trabajo infantil en su cadena de suministro, para lo cual deben utilizar fuentes que sean razonablemente
+                                   conocidas y accesibles. Las empresas que no den cumplimiento a lo dispuesto en la ley pueden recibir multas de hasta €870.000 o el diez por ciento de
+                                   los ingresos que perciban a nivel mundial, además de responsabilizar penalmente al director.
                                 </p>
                                 
                             </Accordion.Panel>
@@ -718,15 +726,86 @@ const es = () => {
                         <Accordion.Section id="eu-report">
                             <Accordion.Title>
                                 <strong>
-                                EU Non-Financial Reporting Directive (2014/95/EU)
+                                Directiva de divulgación de información no financiera de la Unión Europea (2014/95/UE)
 
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    Some Text
+                                    La&nbsp;
+                                    <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:32014L0095&from=EN"
+                                     >
+                                    Directiva 2014/95/UE de la Unión Europea
+                                    </a>
+                                    &nbsp;exige que las empresas que sean entidades de interés público con al menos 500 empleados publiquen
+                                    informes sobre las políticas que implementan en materia de protección medioambiental, responsabilidad social y trato de empleados, respeto de los derechos humanos,
+                                    lucha contra la corrupción y el soborno, y diversidad en los consejos de administración. En junio de 2017, la Comisión Europea publicó&nbsp;
+                                    <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="https://ec.europa.eu/info/publications/non-financial-reporting-guidelines_en"
+                                     >
+                                    directrices para ayudar a las empresas a divulgar información social y ambiental
+                                    </a>
+                                    &nbsp;pero las empresas tienen flexibilidad respecto de la manera en que divulgan dicha información en el marco de la Directiva.
+                                    Se puede encontrar más información en el&nbsp;
+                                    <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="https://ec.europa.eu/info/business-economy-euro/company-reporting-and-auditing/company-reporting/non-financial-reporting_en"
+                                     >
+                                    sitio web
+                                    </a>
+                                    &nbsp;de la Comisión Europea.
+
                                 </p>
                                 
+                            </Accordion.Panel>
+                        </Accordion.Section>
+                        <BorderSeparator />
+                        <Accordion.Section id="eu-report">
+                            <Accordion.Title>
+                                <strong>
+                                Los Principios Rectores de las Naciones Unidas sobre las empresas y los derechos humanos, las normas voluntarias y las normas autorizadas cambiantes
+
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                                <p>
+                                  En los últimos años se intensificaron las expectativas del público de que las empresas controlen las normas del trabajo y los derechos
+                                  humanos en las cadenas de suministro. Durante décadas, las normas de aplicación voluntaria, como las&nbsp;
+                                  <a
+                                         target="_blank"
+                                         rel="noopener noreferrer"
+                                         href="www.oecd.org/daf/inv/mne/"
+                                   >
+                                  Líneas Directrices de la Organización de Cooperación y Desarrollo Económicos (OCDE) para Empresas Multinacionales
+                                  </a>
+                                  &nbsp;articularon normas básicas para las empresas en materia de mano
+                                  de obra y empleo. La modificación en 2011 de las Líneas Directrices de la OCDE junto con la adopción en junio de 2011 de los Principios Rectores
+                                  de las Naciones Unidas sobre las empresas y los derechos humanos por parte del Consejo de Derechos Humanos de las Naciones Unidas desempeñaron funciones importantes en este cambio en las expectativas del público.
+                                </p>
+                                <p>
+                                De conformidad con los&nbsp;
+                                <a
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       href="https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_SP.pdf"
+                                 >
+                                Principios Rectores sobre las Empresas y los Derechos Humanos
+                                </a>
+                                , los Estados tienen el deber de proteger a las
+                                personas dentro de su territorio o jurisdicción de las violaciones de derechos humanos cometidas por terceros, incluidas las empresas.
+                                Asimismo, los Estados tienen el deber de adoptar las medidas necesarias para garantizar que, en caso de producirse abusos, los afectados
+                                tengan acceso a recursos efectivos. Por su parte, las empresas tienen la responsabilidad de respetar los derechos humanos, por ejemplo,
+                                evitar causar o contribuir a causar un efecto negativo en los derechos humanos como consecuencia de la actividad que realizan. Los actores
+                                empresariales también tienen la responsabilidad de brindar a las víctimas acceso a recursos efectivos y de prevenir o mitigar los efectos
+                                que guardan un vínculo directo con sus operaciones, productos o servicios por medio de sus relaciones comerciales. Los Principios Rectores
+                                de las Naciones Unidas rigen para todos los Estados y todas las empresas, transnacionales o de otro tipo, independientemente del tamaño, del sector al que pertenezcan, de su ubicación, sus dueños y su estructura.
+                                </p>
                             </Accordion.Panel>
                         </Accordion.Section>
                     </Accordion>
