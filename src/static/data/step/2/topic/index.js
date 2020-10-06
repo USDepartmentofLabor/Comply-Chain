@@ -43,12 +43,12 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Incorporación a un programa de cumplimiento social",
+            title: "Incorporación a un programa de cumplimiento social vigente",
             content: Topic2.es
         },
         {
             keywords: [],
-            title: "Definici&oacute;n del alcance del sistema de cumplimiento social",
+            title: "Definición del alcance del sistema de cumplimiento social",
             content: Topic3.es
         },
         {

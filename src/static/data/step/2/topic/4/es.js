@@ -26,31 +26,16 @@ const es = () => {
                                     fondo en diferentes secciones.
                                 </p>
                                 <p>
-                                    La gesti&oacute;n de cualquier sistema o
-                                    programa debe comenzar con el
-                                    establecimiento de metas, objetivos y
-                                    resultados de desempe&ntilde;o. Muchos
-                                    programas de cumplimiento social definen una
-                                    m&eacute;trica o indicadores clave del
-                                    desempe&ntilde;o en relaci&oacute;n con los
-                                    cuales miden los avances logrados. Los
-                                    indicadores clave del desempe&ntilde;o
-                                    pueden formularse internamente, o como parte
-                                    de un ejercicio de establecimiento de puntos
-                                    de referencia para compararse con los
-                                    programas de otras empresas. Una vez que se
-                                    establecen, el equipo debe corroborar
-                                    peri&oacute;dicamente los avances logrados
-                                    seg&uacute;n esas metas o indicadores, y
-                                    abordar los &aacute;mbitos en los que no se
-                                    alcanzaron. Por otra parte, el equipo
-                                    peri&oacute;dicamente debe examinar sus
-                                    procesos y pol&iacute;ticas y actualizarlos
-                                    seg&uacute;n corresponda. Las empresas con
-                                    sistemas de cumplimiento social
-                                    s&oacute;lidos siempre se encuentran en la
-                                    modalidad de &ldquo;mejora
-                                    continua&rdquo;.&nbsp;
+                                    El punto de partida de la gestión de cualquier sistema o programa debe
+                                    ser fijar las metas, los objetivos y los resultados de desempeño. Muchos
+                                    programas de cumplimiento social definen una métrica o indicadores clave del
+                                    desempeño en relación con los cuales miden los avances logrados. Los indicadores
+                                    clave del desempeño pueden formularse internamente, o como parte de un ejercicio de
+                                    establecimiento de puntos de referencia para compararse con los programas de otras
+                                    empresas. Una vez que se establecen, el equipo debe corroborar periódicamente los avances
+                                    logrados según esas metas o indicadores, y abordar los ámbitos en los que no se alcanzaron.
+                                    Por otra parte, el equipo periódicamente debe examinar sus procesos y políticas y actualizarlos
+                                    según corresponda. Las empresas con sistemas de cumplimiento social sólidos siempre se encuentran en la modalidad de “mejora continua”.
                                 </p>
                                 <p>
                                     El{" "}
@@ -162,23 +147,7 @@ const es = () => {
                                             de Gestión
                                         </strong>
                                     </h4>
-                                    <p>
-                                        Extra&iacute;do de la <em />
-                                        <a
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            href="http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_Spanish.pdf"
-                                            title="Extraído del Código de Conducta
-                                                de Responsible Business Alliance
-                                                v. 6.0 (2018)"
-                                        >
-                                            <em>
-                                                Extraído del Código de Conducta
-                                                de Responsible Business Alliance
-                                                v. 6.0 (2018)
-                                            </em>
-                                        </a>
-                                    </p>
+
                                     <p>
                                         &ldquo;Los participantes deber&aacute;n
                                         adoptar o establecer un sistema de
@@ -201,233 +170,22 @@ const es = () => {
                                         promover la mejora continua.
                                     </p>
                                     <p>
-                                        El sistema de gesti&oacute;n debe
-                                        contener los elementos que se indican a
-                                        continuaci&oacute;n:
+                                        Extra&iacute;do de la <em />
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_Spanish.pdf"
+                                            title="Extraído del Código de Conducta
+                                                de Responsible Business Alliance
+                                                v. 6.0 (2018)"
+                                        >
+                                            <em>
+                                                Código de conducta de la Responsible Business Alliance, versión 6.0 (2018)
+                                            </em>
+                                        </a>
+                                        ; disponible en:http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_Spanish.pdf.
                                     </p>
-                                    <ol>
-                                        <li>
-                                            <h4>Compromiso de la empresa</h4>
-                                            <p>
-                                                Declaraci&oacute;n de las
-                                                pol&iacute;ticas de
-                                                responsabilidad ambiental y
-                                                social de la empresa en que se
-                                                enuncie el compromiso del
-                                                participante con el cumplimiento
-                                                y la mejora continua, con el
-                                                aval de la gerencia ejecutiva y
-                                                exhibida en el idioma local en
-                                                un lugar visible de las
-                                                instalaciones.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>
-                                                Responsabilidad y
-                                                rendici&oacute;n de cuentas de
-                                                la gerencia
-                                            </h4>
-                                            <p>
-                                                El participante identifica
-                                                claramente al ejecutivo
-                                                principal y al o a los
-                                                responsables en la empresa de
-                                                garantizar la ejecuci&oacute;n
-                                                de los sistemas de
-                                                gesti&oacute;n y los programas
-                                                conexos. La alta gerencia
-                                                peri&oacute;dicamente analiza el
-                                                estado de situaci&oacute;n del
-                                                sistema de gesti&oacute;n.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>
-                                                Requisitos legales y de los
-                                                clientes
-                                            </h4>
-                                            <p>
-                                                Proceso mediante el cual se
-                                                identifica, vigila, da
-                                                seguimiento y comprende la
-                                                legislaci&oacute;n aplicable, la
-                                                normativa y los requisitos del
-                                                cliente, incluidos los que
-                                                figuran en el presente
-                                                C&oacute;digo.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>
-                                                Evaluaci&oacute;n de riesgos y
-                                                gesti&oacute;n de riesgos
-                                            </h4>
-                                            <p>
-                                                Proceso mediante el cual se
-                                                identifican los riesgos en
-                                                materia ambiental, de
-                                                cumplimiento legal, salud y
-                                                seguridad, pr&aacute;cticas
-                                                laborales y &eacute;tica
-                                                vinculados a las operaciones del
-                                                participante.
-                                            </p>
-                                            <p>
-                                                Determinar la importancia
-                                                relativa de cada riesgo y
-                                                aplicar los controles
-                                                f&iacute;sicos y de
-                                                procedimiento adecuados para
-                                                contener los riesgos
-                                                identificados y garantizar el
-                                                cumplimiento normativo.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>Objetivos de mejora</h4>
-                                            <p>
-                                                Objetivos de desempe&ntilde;o
-                                                escritos, con sus metas y planes
-                                                de aplicaci&oacute;n, a fin de
-                                                mejorar el desempe&ntilde;o
-                                                social y ambiental del
-                                                participante, incluida una
-                                                evaluaci&oacute;n
-                                                peri&oacute;dica del
-                                                desempe&ntilde;o del
-                                                participante en pos del logro de
-                                                dichos objetivos.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>Capacitaci&oacute;n</h4>
-                                            <p>
-                                                Programas para capacitar a
-                                                gerentes y trabajadores en la
-                                                ejecuci&oacute;n de las
-                                                pol&iacute;ticas, los
-                                                procedimientos y los objetivos
-                                                de mejora del participante,
-                                                as&iacute; como para acatar los
-                                                requisitos legales y normativos.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>Comunicaci&oacute;n</h4>
-                                            <p>
-                                                Proceso para comunicar
-                                                informaci&oacute;n clara y
-                                                precisa sobre las
-                                                pol&iacute;ticas,
-                                                pr&aacute;cticas, expectativas y
-                                                el desempe&ntilde;o del
-                                                participante a los trabajadores,
-                                                proveedores y clientes.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>
-                                                Comentarios y
-                                                participaci&oacute;n de los
-                                                trabajadores
-                                            </h4>
-                                            <p>
-                                                Procesos en curso para evaluar
-                                                la comprensi&oacute;n de los
-                                                empleados y para que brinden
-                                                comentarios sobre las
-                                                pr&aacute;cticas y las
-                                                condiciones contempladas en el
-                                                C&oacute;digo, as&iacute; como
-                                                para fomentar la mejora
-                                                continua.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>
-                                                Auditor&iacute;as y evaluaciones
-                                            </h4>
-                                            <p>
-                                                Autoevaluaciones
-                                                peri&oacute;dicas para
-                                                garantizar el cumplimiento de
-                                                los requisitos legales y
-                                                normativos, el contenido del
-                                                C&oacute;digo y los requisitos
-                                                contractuales de los clientes
-                                                vinculados a la responsabilidad
-                                                social y ambiental.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>
-                                                Proceso de acci&oacute;n
-                                                correctiva
-                                            </h4>
-                                            <p>
-                                                Proceso para la
-                                                correcci&oacute;n oportuna de
-                                                las deficiencias identificadas
-                                                en las evaluaciones internas o
-                                                externas, as&iacute; como en
-                                                inspecciones, investigaciones y
-                                                ex&aacute;menes.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>
-                                                Documentaci&oacute;n y registros
-                                            </h4>
-                                            <p>
-                                                Formulaci&oacute;n y
-                                                mantenimiento de documentos y
-                                                registros para garantizar el
-                                                cumplimiento normativo y la
-                                                conformidad con los requisitos
-                                                de la empresa junto con la
-                                                debida confidencialidad para
-                                                proteger la privacidad.
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <h4>
-                                                Responsabilidad de los
-                                                proveedores
-                                            </h4>
-                                            <p>
-                                                Proceso para comunicar los
-                                                requisitos del C&oacute;digo a
-                                                los proveedores, as&iacute; como
-                                                para vigilar y dar seguimiento
-                                                al cumplimiento del
-                                                C&oacute;digo.&rdquo;
-                                            </p>
-                                        </li>
-                                    </ol>
                                 </ExampleInAction>
-                <p>
-                                <em>
-                                    *Nota: Toda referencia que se haga en la
-                                    presente gu&iacute;a a empresas o entidades
-                                    no gubernamentales espec&iacute;ficas es con
-                                    fines informativos &uacute;nicamente a fin
-                                    de demostrar las buenas pr&aacute;cticas
-                                    internacionalmente reconocidas a la fecha de
-                                    lanzamiento de la aplicaci&oacute;n. Las
-                                    referencias a dichas entidades no debe
-                                    interpretarse como un aval oficial del
-                                    Departamento de Trabajo de los Estados
-                                    Unidos a ellas, sus productos ni servicios{" "}
-                                </em>
-                                <em>
-                                    y su menci&oacute;n no debe interpretarse
-                                    como un examen exhaustivo de las
-                                    pr&aacute;cticas que emplean dichas
-                                    entidades en todos los &aacute;mbitos
-                                </em>
-                                <em>.</em>
-                            </p>
             </div>
         </StaticData>
     );

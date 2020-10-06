@@ -7,7 +7,7 @@ const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>Definici&oacute;n del alcance del sistema de cumplimiento social</h1>
+                <h1>Definición del alcance del sistema de cumplimiento social</h1>
                 <p>
                                     Actualmente en el mundo hay cerca de 80.000
                                     empresas transnacionales y una cifra diez
@@ -74,25 +74,13 @@ const es = () => {
                                     influencia.
                                 </p>
                                 <p>
-                                    Conforme se menciona a continuaci&oacute;n,
-                                    las &uacute;ltimas pautas de instituciones
-                                    internacionales abordaron directamente la
-                                    cuesti&oacute;n de la responsabilidad en la
-                                    cadena de suministro y se aclar&oacute; que
-                                    las empresas deben hacerse responsables por
-                                    las infracciones de los derechos humanos y
-                                    laborales en las cadenas de suministro.
-                                    Posiblemente las responsabilidades
-                                    espec&iacute;ficas var&iacute;en
-                                    seg&uacute;n la gravedad de los problemas en
-                                    la cadena de suministro, el grado en que la
-                                    empresa causa o contribuye directamente al
-                                    problema, la influencia de la empresa para
-                                    repercutir en la conducta del proveedor, el
-                                    tipo de relaci&oacute;n comercial entre la
-                                    empresa y el proveedor en cuesti&oacute;n,
-                                    el tama&ntilde;o de la empresa o el
-                                    proveedor y otros factores.
+                                    Tal como se indica a continuación, en las últimas pautas de las instituciones internacionales
+                                    se abordó directamente la cuestión de la responsabilidad en la cadena de suministro y se aclaró
+                                    que las empresas deben responsabilizarse de las violaciones de los derechos humanos y laborales
+                                    que se cometen en sus cadenas de suministro.  Posiblemente las responsabilidades específicas
+                                    varíen según la gravedad de los problemas en la cadena de suministro, el grado en que la empresa
+                                    causa o contribuye directamente al problema, la influencia de la empresa para repercutir en la
+                                    conducta del proveedor, el tipo de relación comercial entre la empresa y el proveedor en cuestión, el tamaño de la empresa o el proveedor y otros factores.
                                 </p>
                                 <OwnWords>
                                     <h4>
@@ -173,7 +161,7 @@ const es = () => {
                                             Unidas sobre las empresas y los
                                             derechos humanos
                                         </a>
-                                        , 2011.
+                                        , 2011; disponible en https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_SP.pdf.
                                     </p>
                                     <p>
                                         <em>
@@ -216,7 +204,8 @@ const es = () => {
                                             L&iacute;neas Directrices de la OCDE
                                             para Empresas Multinacionales
                                         </a>
-                                        <em>, </em>2011.
+                                        <em>, </em>2011; disponible en http://www.oecd.org/daf/inv/mne/MNEguidelinesESPANOL.pdf.
+
                                     </p>
                                     <p>
                                         <em>
@@ -273,29 +262,6 @@ const es = () => {
                                         <em>,</em> 2012.
                                     </p>
                                 </OwnWords>
-
-                <p>
-                                <em>
-                                    *Nota: Toda referencia que se haga en la
-                                    presente gu&iacute;a a empresas o entidades
-                                    no gubernamentales espec&iacute;ficas es con
-                                    fines informativos &uacute;nicamente a fin
-                                    de demostrar las buenas pr&aacute;cticas
-                                    internacionalmente reconocidas a la fecha de
-                                    lanzamiento de la aplicaci&oacute;n. Las
-                                    referencias a dichas entidades no debe
-                                    interpretarse como un aval oficial del
-                                    Departamento de Trabajo de los Estados
-                                    Unidos a ellas, sus productos ni servicios{" "}
-                                </em>
-                                <em>
-                                    y su menci&oacute;n no debe interpretarse
-                                    como un examen exhaustivo de las
-                                    pr&aacute;cticas que emplean dichas
-                                    entidades en todos los &aacute;mbitos
-                                </em>
-                                <em>.</em>
-                            </p>
             </div>
         </StaticData>
     );
