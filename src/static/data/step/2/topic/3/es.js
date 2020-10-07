@@ -259,7 +259,7 @@ const es = () => {
                                             Norma de desempe&ntilde;o 2 de la
                                             CFI
                                         </a>
-                                        <em>,</em> 2012.
+                                        <em>,</em> 2012; disponible en https://www.ifc.org/wps/wcm/connect/4b8d6e5a-2fec-4d16-a375-92bf4feb13d8/PS2_Spanish_2012.pdf?MOD=AJPERES&CVID=k5Lny1
                                     </p>
                                 </OwnWords>
             </div>
