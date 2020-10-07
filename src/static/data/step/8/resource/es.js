@@ -6,7 +6,7 @@ const es = () => {
             <div>
                 <ol>
                     <li>
-                    Metzger, H.  (February, 2020).  Forced Labor Not Acceptable.  Best Buy.  Retrieved from: {" "}
+                    Metzger, H.  (February, 2020).  Forced Labor Not Acceptable.  Best Buy.  Extra&iacute;do de: {" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
