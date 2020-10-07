@@ -65,7 +65,7 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Evolución de las normas voluntarias y normas autoritarias",
+            title: "Los Principios Rectores de las Naciones Unidas sobre las empresas y los derechos humanos, las normas voluntarias y las normas autorizadas cambiantes",
             content: Topic2.es
         },
         {
