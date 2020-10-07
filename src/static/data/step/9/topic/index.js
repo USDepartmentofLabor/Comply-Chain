@@ -29,7 +29,7 @@ export const Topics = {
     es: [
         {
             keywords: [],
-            title: "Why Conduct Independent Review?",
+            title: "¿Por qué realizar un examen independiente?",
             content: Topic1.es
         },
         {
