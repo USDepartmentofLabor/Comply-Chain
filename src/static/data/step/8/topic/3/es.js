@@ -4,6 +4,7 @@ import StaticData from "../../../../../../components/StaticData";
 import styled from "styled-components";
 import { theme } from "../../../../../../modules/config/theme";
 import Accordion from "../../../../../../components/Accordion"; 
+import { Link } from "react-router-dom";
 
 const Table = styled.table`
     border-collapse: collapse;
@@ -546,7 +547,12 @@ const es = () => {
                         <tr>
                         <th scope="row">El empleador limita la comunicaci&oacute;n de los trabajadores.</th>
                             <td>
-                                <p><a href="#P1">V&eacute;ase arriba.</a></p>
+                                {/* <p><a href="#P1">V&eacute;ase arriba.</a></p> */}
+                                <p>
+                                <Link to="/steps/8/topic/3/#P1">
+                                V&eacute;ase arriba.
+                                </Link>
+                                </p>
                             </td>
                         </tr>
                         <tr>
@@ -573,34 +579,59 @@ const es = () => {
                         <tr>
                         <th scope="row">El empleador perpetra violencia f&iacute;sica o sexual o amenaza con hacerlo.</th>
                             <td>
-                                <p><a href="#P2">V&eacute;ase arriba.</a></p>
+                                {/* <p><a href="#P2">V&eacute;ase arriba.</a></p> */}
+                                <p>
+                                <Link to="/steps/8/topic/3/#P2">
+                                V&eacute;ase arriba.
+                                </Link>
+                                </p>
                             </td>
                         </tr>
                         <tr>
                         <th scope="row">El empleador o reclutador amenaza con retirar privilegios como posibles ascensos, amenaza 
                         con deteriorar a&uacute;n m&aacute;s las condiciones de trabajo o con despedir a los trabajadores.</th>
                             <td>
-                                <p><a href="#P2">V&eacute;ase arriba.</a></p>
+                                {/* <p><a href="#P2">V&eacute;ase arriba.</a></p> */}
+                                <p>
+                                <Link to="/steps/8/topic/3/#P2">
+                                V&eacute;ase arriba.
+                                </Link>
+                                </p>
                             </td>
                         </tr>
                         <tr>
                         <th scope="row">El empleador o reclutador se aprovecha de las creencias religiosas o culturales de los trabajadores.</th>
                             <td>
-                                <p><a href="#P2">V&eacute;ase arriba.</a></p>
+                                {/* <p><a href="#P2">V&eacute;ase arriba.</a></p> */}
+                                <p>
+                                <Link to="/steps/8/topic/3/#P2">
+                                V&eacute;ase arriba.
+                                </Link>
+                                </p>
                             </td>
                         </tr>
                         <tr>
                         <th scope="row">El empleador o reclutador retiene la remuneraci&oacute;n o las pertenencias de los trabajadores o 
                         amenaza con imponerles sanciones econ&oacute;micas.</th>
                             <td>
-                                <p><a href="#P2">V&eacute;ase arriba.</a></p>
+                                {/* <p><a href="#P2">V&eacute;ase arriba.</a></p> */}
+                                <p>
+                                <Link to="/steps/8/topic/3/#P2">
+                                V&eacute;ase arriba.
+                                </Link>
+                                </p>
                             </td>
                         </tr>
                         <tr>
                         <th scope="row">El empleador amenaza con imponer trabajo adicional a los trabajadores que no colaboren.<br />
                         El empleador recurre al soborno para obligar a los trabajadores.</th>
                             <td>
-                                <p><a href="#P2">V&eacute;ase arriba.</a></p>
+                                {/* <p><a href="#P2">V&eacute;ase arriba.</a></p> */}
+                                <p>
+                                <Link to="/steps/8/topic/3/#P2">
+                                V&eacute;ase arriba.
+                                </Link>
+                                </p>
                             </td>
                         </tr>
                     </tbody>

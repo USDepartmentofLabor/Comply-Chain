@@ -247,7 +247,8 @@ const es = () => {
                             href="http://www.unodc.org/documents/human-trafficking/TIP_1st_AidKit_English_V0981429.pdf"
                             title="Manual de primeros auxilios para los funcionarios de los servicios de aplicaci&oacute;n de la ley encargados de la respuesta inicial en los casos de trata de personas"
                         >
-                            Manual de primeros auxilios para los funcionarios de los servicios de aplicaci&oacute;n de la ley encargados de la respuesta inicial en los casos de trata de personas
+                            Manual de primeros auxilios para los funcionarios de los servicios de aplicaci&oacute;n 
+                            de la ley encargados de la respuesta inicial en los casos de trata de personas
                         </a>
                     </li>
                     <li>
@@ -257,7 +258,8 @@ const es = () => {
                             href="https://humantraffickinghotline.org/obtenga-ayuda"
                             title="Herramienta de traducci&oacute;n para asistir a las v&iacute;ctimas (VITA): Mensajes de apoyo a las v&iacute;ctimas de la trata de personas"
                         >
-                            Herramienta de traducci&oacute;n para asistir a las v&iacute;ctimas (VITA): Mensajes de apoyo a las v&iacute;ctimas de la trata de personas
+                            Herramienta de traducci&oacute;n para asistir a las v&iacute;ctimas (VITA): Mensajes de 
+                            apoyo a las v&iacute;ctimas de la trata de personas
                         </a>
                     </li>
                 </ul>
