@@ -101,42 +101,30 @@ const es = () => {
                         >
                             GoodWeave
                         </a>{" "}
-                        trabaja para transformar la industria de las alfombras
-                        ya que fomenta en el mercado la demanda de tapetes
-                        exentos de trabajo infantil y ayuda a las empresas a
-                        atender dicha demanda. Los importadores y exportadores
-                        de tapetes que desean obtener la licencia de Goodweave y
-                        acceder al r&oacute;tulo de Goodweave que ven los
-                        consumidores deben firmar un contrato vinculante para
-                        cumplir la rigurosa norma que fija GoodWeave a fin de
-                        certificar que los tapetes est&aacute;n fabricados sin
-                        trabajo infantil, trabajo forzoso ni trabajo en
-                        condiciones de servidumbre. Como parte del programa de
-                        certificaci&oacute;n, las empresas acuerdan permitir que
-                        se realicen inspecciones sin previo aviso en sus cadenas
-                        de suministro para verificar el cumplimiento de la norma
-                        y garantizar que se rectifiquen las infracciones.
-                        Adem&aacute;s, las empresas pagan un derecho de licencia
-                        y el dinero se destina a los programas de vigilancia,
-                        seguimiento e inspecci&oacute;n que realiza GoodWeave en
-                        los lugares de trabajo, as&iacute; como a la
-                        rehabilitaci&oacute;n y los estudios de los ni&ntilde;os
-                        v&iacute;ctimas de explotaci&oacute;n. GoodWeave es
-                        miembro de pleno derecho de la Alianza Internacional de
-                        Acreditaci&oacute;n y Etiquetado Social y Ambiental
-                        (ISEAL), asociaci&oacute;n muy conocida por ser
-                        l&iacute;der mundial en la fijaci&oacute;n de las
-                        mejores pr&aacute;cticas para las normas de
-                        certificaci&oacute;n. En los &uacute;ltimos a&ntilde;os,
-                        GoodWeave ampli&oacute; el alcance de su programa
-                        m&aacute;s all&aacute; de la industria de las alfombras
-                        en la India y lleg&oacute; a nuevos sectores y
-                        pa&iacute;ses, como las f&aacute;bricas de ladrillos de
-                        Nepal, las de indumentaria en la india y la
-                        fabricaci&oacute;n casera de tapetes en
-                        Afganist&aacute;n (este &uacute;ltimo mediante un
-                        proyecto financiado por el Departamento de Trabajo de
-                        los Estados Unidos).
+                        trabaja para transformar la industria de las alfombras ya que fomenta en el
+                        mercado la demanda de tapetes exentos de trabajo infantil y ayuda a las empresas
+                        a atender dicha demanda. Los importadores y exportadores de tapetes que desean obtener
+                        la licencia de Goodweave y acceder al rótulo de Goodweave que ven los consumidores
+                        deben firmar un contrato vinculante para cumplir la rigurosa norma que fija GoodWeave
+                        a fin de certificar que los tapetes están fabricados sin trabajo infantil, trabajo forzoso
+                        ni trabajo en condiciones de servidumbre. Como parte del programa de certificación, las empresas
+                        acuerdan permitir que se realicen inspecciones sin previo aviso en sus cadenas de suministro para
+                        verificar el cumplimiento de la norma y garantizar que se rectifiquen las infracciones. Además, las
+                        empresas pagan un derecho de licencia y el dinero se destina a los programas de vigilancia, seguimiento
+                        e inspección que realiza GoodWeave en los lugares de trabajo, así como a la rehabilitación y los estudios
+                        de los niños víctimas de explotación. GoodWeave es miembro de pleno derecho de la Alianza Internacional de
+                        Acreditación y Etiquetado Social y Ambiental (ISEAL), asociación muy conocida por ser líder mundial en la
+                        fijación de las mejores prácticas para las normas de certificación. En los últimos años, GoodWeave amplió
+                        el alcance de su programa más allá de la industria de las alfombras en la India y llegó a nuevos sectores
+                        y países, como las fábricas de ladrillos de Nepal, las de indumentaria en la india y la fabricación casera
+                        de tapetes en Afganistán (este último mediante un proyecto financiado por el Departamento de Trabajo de los
+                        Estados Unidos).
+                    </p>
+                    <p>
+                        Con más de 170 marcas socias y un 25% de la participación del mercado internacional, GoodWeave logró transformar
+                        el sector de los tapetes artesanales en Asia meridional con su modelo basado en el mercado, en que el trabajo
+                        infantil se redujo de un millón de víctimas en 1995 a unas 200.000 en la actualidad.  GoodWeave ahora está ampliando
+                        su modelo comercial a los sectores de artículos textiles para el hogar, ropa, accesorios de moda y otros. Consultar goodweave.org para obtener más información.
                     </p>
                     <p>
                         Informaci&oacute;n adicional sobre el{" "}
@@ -152,8 +140,7 @@ const es = () => {
                                 Afganist&aacute;n
                             </em>
                         </a>
-                        <em>, </em>financiado por el Departamento de Trabajo y
-                        ejecutado por GoodWeave.
+                        <em>, </em>financiado por el Departamento de Trabajo y ejecutado por GoodWeave: https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan.
                     </p>
                     <img src={goodweave} alt="GoodWeave International" />
                     <p className="small-text">

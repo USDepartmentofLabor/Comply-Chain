@@ -32,24 +32,15 @@ const es = () => {
                         >
                             Plataforma sobre el trabajo infantil
                         </a>{" "}
-                        es un foro dirigido por empresas que aspira a combatir
-                        el trabajo infantil en las cadenas de suministro.
-                        Mediante la Plataforma se identifican los
-                        obst&aacute;culos para la aplicaci&oacute;n de los
-                        Convenios de la OIT en materia de trabajo infantil en
-                        las cadenas de suministro y en las comunidades
-                        aleda&ntilde;as, se identifican maneras pr&aacute;cticas
-                        de sobreponerse a dichos obst&aacute;culos y se
-                        catalizan las acciones colectivas. Esto significa
-                        realizar la debida diligencia a fin de identificar,
-                        prevenir, mitigar, remediar y dar cuenta de los efectos
-                        adversos al derecho de los ni&ntilde;os de estar exentos
-                        de realizar el trabajo infantil causado o fomentado por
-                        las empresas o vinculado a ellas por sus relaciones y
-                        operaciones. Desde 2012, la Plataforma funciona como
-                        parte del Grupo de Trabajo sobre derechos humanos y
-                        asuntos laborales del Pacto Mundial de las Naciones
-                        Unidas, con la{" "}
+                        (CLP) es un foro dirigido por empresas que aspira a combatir el trabajo infantil en
+                        las cadenas de suministro. La plataforma CLP trabaja para brindar soluciones concretas
+                        a compradores, dueños de fábricas e insumos apoyando a las empresas afiliadas con un proceso
+                        integral de debida diligencia en distintos niveles. Esto implica brindarles apoyo para que
+                        incorporen políticas firmes y buenas prácticas empresariales, la evaluación de riesgos y medición
+                        del impacto, así como para que aborden las causas fundamentales mediante un diálogo significativo
+                        en los planos local y mundial con gobiernos, organizaciones de empleadores y trabajadores y otras
+                        partes interesadas. Desde 2012, la plataforma CLP funciona como parte del Grupo de Trabajo sobre
+                        derechos humanos y asuntos laborales del Pacto Mundial de las Naciones Unidas, con la{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -97,59 +88,54 @@ const es = () => {
                         constantemente recibe con brazos abiertos a nuevas
                         empresas y organizaciones pertinentes.
                     </p>
+                    <p>Fuente: https://www.ilo.org/ipec/Action/CSR/clp/lang--es/index.htm.</p>
                 </ExampleInAction>
                 <br />
                 <ExampleInAction id="gbn">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Ejemplo en acci&oacute;n: Red mundial de empresas
-                            sobre trabajo forzoso
+                            Red mundial de empresas sobre trabajo forzoso y trata de seres humanos de la OIT
                         </strong>
                     </h2>
                     <p>
-                        En 2018 se lanzar&aacute; la Red mundial de empresas
-                        sobre trabajo forzoso, financiada inicialmente por el
-                        Departamento de Trabajo y Mars, Inc.*, que
-                        agrupar&aacute; a organizaciones patronales, empresas y
-                        dem&aacute;s interesados para que compartan
-                        informaci&oacute;n sobre c&oacute;mo las empresas de una
-                        gama de sectores realizan la debida diligencia y las
-                        evaluaciones de riesgo relativas al trabajo forzoso y la
-                        trata de seres humanos en sus operaciones comerciales.
-                        La Red permitir&aacute; que las empresas comparen su
-                        desempe&ntilde;o y facilitar&aacute; el aprendizaje
-                        entre hom&oacute;logos de cuestiones de trabajo forzoso,
-                        entre otros, mediante el intercambio de
-                        informaci&oacute;n sobre iniciativas autorreguladas y
-                        las mejores pr&aacute;cticas en el manejo de cadenas de
-                        suministro complejas. Adem&aacute;s, la Red
-                        trabajar&aacute; en estrecha colaboraci&oacute;n con la
-                        Plataforma sobre el trabajo infantil a fin de garantizar
-                        el pleno apoyo y la participaci&oacute;n de la comunidad
-                        empresarial con miras a alcanzar los{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://sustainabledevelopment.un.org/?menu=1300"
-                            title="Objetivos de Desarrollo Sostenible"
-                        >
-                            Objetivos de Desarrollo Sostenible
-                        </a>{" "}
-                        que ata&ntilde;en a la{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.alliance87.org/"
-                            title="Alianza 8.7"
-                        >
-                            Alianza 8.7
-                        </a>{" "}
-                        de la OIT, iniciativa mundial que aspira a poner fin al
-                        trabajo infantil, el trabajo forzoso, las formas
-                        contempor&aacute;neas de esclavitud y la trata de seres
-                        humanos.
+                    Lanzada en junio de 2018, la Red mundial de empresas sobre trabajo forzoso y trata de seres
+                    humanos (la Red) de la Organización Internacional del Trabajo (OIT), que recibió financiamiento
+                    inicial del Departamento de Trabajo de los Estados Unidos y de Mars, Inc.*, reúne a la OIT y a empresas
+                    del mundo entero, de todos los tamaños y sectores, y a sus redes, para erradicar el trabajo forzoso.
+                    Los miembros de la Red, que representan a todos los sectores y geografías, se esmeran por incluir a empresas
+                    más pequeñas, elaborar herramientas y recursos concretos e idear soluciones locales que ayuden a moldear los
+                    marcos nacionales para lograr cambios duraderos. Los miembros de la Red son empresas de todos los tamaños y
+                    sectores, así como organizaciones de empresas y empleadores afiliados que abarcan a grupos comerciales del
+                    rubro y asociaciones del sector. Otras iniciativas dirigidas por empresas con mandatos y conocimientos especializados complementarios pueden sumarse en calidad de socios.
                     </p>
+                    <p>
+                    La Red abarca todos los sectores y las geografías y trabaja para presentar un caso de negocios  para poner fin al trabajo forzoso.
+                    La Red trabaja en sintonía con otras iniciativas internacionales pertinentes y contribuye a su causa, en especial la&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.alliance87.org"
+                    >
+                    Alianza 8.7
+                    </a>
+                    , iniciativa mundial que aúna esfuerzos para avanzar en el cumplimiento de la meta 8.7 de los ODS.
+                    </p>
+                    <p>
+                    Para obtener más información y acceder a la lista actualizada de miembros, consultar&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.flbusiness.network"
+                    >
+                    www.flbusiness.network
+                    </a>
+                    &nbsp;o escribir a&nbsp;
+                    <a href="mailto:fl-businessnetwork@ilo.org">
+                    fl-businessnetwork@ilo.org
+                    </a>.
+                    </p>
+
                 </ExampleInAction>
             </div>
         </StaticData>

@@ -31,26 +31,21 @@ export const StepData = {
         topics: Topics.es,
         keywords: ["Parte interesada", "Comunidad"],
         learningObjectives: [
-            "Comprender la importancia de que las entidades externas participen del sistema de cumplimiento social.",
-            "Familiarizarse con las distintas formas de participación, como ejemplos específicos de alianzas y otros tipos de colaboración.",
-            "Identificar a las partes interesadas y hacerlas participar."
+            "Comprender la importancia de que las entidades externas participen del sistema de cumplimiento social de la empresa.",
+            "Familiarizarse con las distintas maneras en que puede ocurrir dicha participación e incluir ejemplos específicos de asociaciones y otros tipos de colaboración.",
+            "Identificar a las partes interesadas e invitarlas a participar, por ejemplo, a identificar los efectos en la comunidad y las vulnerabilidades sociales."
         ],
         keyTerms: [
             {
                 termName: "Parte interesada",
                 termDefinition:
-                    "Persona o grupo afectado directa o indirectamente por las políticas o el accionar de la empresa o que tiene algún tipo de interés en ellos.  El término partes interesadas tiene un uso generalizado en el gobierno, las empresas y las organizaciones de la sociedad civil, no solamente en el contexto del cumplimiento social.  No obstante, el programa de cumplimiento social de una empresa puede tener un subconjunto de partes interesadas diferente al que tiene la empresa en general."
+                    "Persona o grupo afectado directa o indirectamente por las políticas o el accionar de la empresa o que tiene algún tipo de interés en ellos. El término partes interesadas tiene un uso generalizado en el gobierno, las empresas y las organizaciones de la sociedad civil, no solamente en el contexto del cumplimiento social.  No obstante, el programa de cumplimiento social de una empresa puede tener un subconjunto de partes interesadas diferente al que tiene la empresa en general. Este término se aplica tanto para personas individuales como para comunidades que se ven afectadas por las operaciones y las prácticas de una empresa, independientemente de que sean o no parte directa de la cadena de suministro formal de una empresa. Por ejemplo: los productores de caña de azúcar y los agricultores que venden azúcar a un intermediario para el cual las compras de la empresa se pueden ver directamente afectadas por una empresa, a pesar de que no sean parte de la cadena de suministro formal. Las Naciones Unidas reconocen que estas personas gozan de derechos humanos y de protecciones que las empresas deben tener en cuenta en relación con su accionar respecto del cumplimiento social."
             },
             {
                 termName: "Comunidad",
                 termDefinition:
-                    "Para los fines del presente compendio de instrumentos, una comunidad está integrada por los habitantes de una zona geográfica (vecindario, aldea, pueblo, región) que se encuentra en algún punto de la cadena de suministro de la empresa. Las comunidades que se encuentran en la cadena de suministro de la empresa son algunas de las partes interesadas."
-            },
-             {
-                termName: "Worker Voice",
-                termDefinition:
-                "PLACEHOLDER FOR TEXT. "
-             }
+                    "Para los fines de esta aplicación, una comunidad está integrada por los habitantes de una zona geográfica (vecindario, aldea, pueblo, región) que se encuentra en algún punto de la cadena de suministro de la empresa. Las comunidades que se encuentran en la cadena de suministro de la empresa son algunas de las partes interesadas."
+            }
         ],
         furtherResources: Resources.es
     },
