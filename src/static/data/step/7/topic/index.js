@@ -80,7 +80,7 @@ export const Topics = {
         {
             keywords: [],
             title:
-                "Tema especial: la subcontratación informal y el trabajo en el hogar",
+                "Tema especial: la subcontratación informal y el trabajo a domicilio",
             content: Topic7.es
         },
         {
