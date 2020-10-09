@@ -1341,7 +1341,7 @@ const es = () => {
                 </ExampleInAction>
                 
                 <p>
-                    LLos buenos instrumentos de auditor&iacute;a son m&aacute;s que una simple &ldquo;lista de control&rdquo;. 
+                    Los buenos instrumentos de auditor&iacute;a son m&aacute;s que una simple &ldquo;lista de control&rdquo;. 
                     Los buenos instrumentos permiten registrar la informaci&oacute;n que los auditores obtienen de manera no verbal, 
                     observando las condiciones del lugar y el clima de trabajo, el lenguaje corporal de los entrevistados y 
                     dem&aacute;s indicios. Los auditores deben investigar de antemano cualquier vulnerabilidad a la que puedan estar 
