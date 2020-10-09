@@ -238,7 +238,7 @@ const es = () => {
                                 </em>
                             </p>
                             <p>
-                                <em>
+                               <em>
                                     Al entrevistar a un ni&ntilde;o que uno sospecha tiene menos edad que la m&iacute;nima obligatoria para un 
                                     tipo de trabajo en particular o que haya realizado alg&uacute;n trabajo peligroso, es importante crear un 
                                     ambiente distendido y de confianza. Tambi&eacute;n es importante que la conversaci&oacute;n tenga lugar en 
@@ -249,60 +249,48 @@ const es = () => {
                         <h2>
                             <em>&iquest;Qu&eacute; se debe observar?</em>
                         </h2>
-                        <p>
-                            <em>
+                        <ul>
+                            <li>
                                 Se debe tratar al ni&ntilde;o con respeto y reconocerlo como un sujeto de derecho.
-                            </em>
-                        </p>
-                        <p>
-                            <em>
+                            </li>
+                            <li>
                                 Siempre debe haber dos adultos presentes en la entrevista en todo momento. Ning&uacute;n adulto puede 
                                 estar demasiado tiempo a solas con ni&ntilde;os alejados de los dem&aacute;s para no despertar una 
                                 preocupaci&oacute;n innecesaria en el ni&ntilde;o ni levantar sospechas de conducta inadecuada, 
                                 amenazante o de abuso.
-                            </em>
-                        </p>
-                        <p>
-                            <em>
+                            </li>
+                            <li>
                                 Al entrevistar a una ni&ntilde;a, siempre debe haber una mujer presente.
-                            </em>
-                        </p>
-                        <p>
-                            <em>
+                            </li>
+                            <li>
                                 Se aconseja invitar a los padres o tutores de los ni&ntilde;os a la entrevista.
-                            </em>
-                        </p>
-                        <p>
-                            <em>
+                            </li>
+                            <li>
                                 Si el ni&ntilde;o es hu&eacute;rfano y no se puede identificar al tutor ni a ning&uacute;n pariente, 
                                 se puede invitar a un representante de una ONG que vela por los derechos del ni&ntilde;o.
-                            </em>
-                        </p>
+                            </li>
+                        </ul>
+                        
                         <h2>
                             <em>Durante la entrevista con un ni&ntilde;o</em>
                         </h2>
-                        <p>
-                            <em>
+                        <ul>
+                            <li>
                                 El objetivo principal de la entrevista siempre es escuchar al ni&ntilde;o e intentar hacer una 
                                 evaluaci&oacute;n general de su situaci&oacute;n familiar y laboral:
-                            </em>
-                        </p>
-                        <div className="indent-margin">
-                            <p>
-                                <em>Motivos por los que trabaja el ni&ntilde;o.</em>
-                            </p>
-                            <p>
-                                <em>
-                                    &iquest;De qu&eacute; manera el ni&ntilde;o contribuye a los ingresos de la familia y cu&aacute;les 
-                                    son las circunstancias de la familia (por ejemplo, desempleo, enfermedad, etc.)?
-                                </em>
-                            </p>
-                            <p>
-                                <em>
-                                    &iquest;De qu&eacute; manera el ni&ntilde;o comprende el trabajo que realiza y lo valora?&rdquo;
-                                </em>
-                            </p>
-                        </div>
+                            </li>
+                            <li>
+                                Motivos por los que trabaja el ni&ntilde;o.
+                            </li>
+                            <li>
+                                &iquest;De qu&eacute; manera el ni&ntilde;o contribuye a los ingresos de la familia y cu&aacute;les 
+                                son las circunstancias de la familia (por ejemplo, desempleo, enfermedad, etc.)?
+                            </li>
+                            <li>
+                            &iquest;De qu&eacute; manera el ni&ntilde;o comprende el trabajo que realiza y lo valora?&rdquo;
+                            </li>
+                        </ul>
+                        
                         <p>
                             Fuente: Save the Children Dinamarca.{" "}
                             <a
