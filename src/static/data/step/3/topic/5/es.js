@@ -95,7 +95,7 @@ const es = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Red mundial de empresas sobre trabajo forzoso y trata de seres humanos de la OIT
+                            Ejemplo en acción: Red mundial de empresas sobre trabajo forzoso y trata de seres humanos de la OIT
                         </strong>
                     </h2>
                     <p>

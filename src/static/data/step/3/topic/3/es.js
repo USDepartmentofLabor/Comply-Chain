@@ -499,7 +499,15 @@ const es = () => {
                         >
                             sitio web
                         </a>{" "}
-                        de InPACTO en https://inpacto.org.br/es/.
+                        de InPACTO en{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://inpacto.org.br/es/"
+                            title="Sitio web de InPACTO"
+                        >
+                        https://inpacto.org.br/es/
+                        </a>.
                     </p>
                 </ExampleInAction>
                 <p>
