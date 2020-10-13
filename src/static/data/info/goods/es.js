@@ -6,41 +6,31 @@ const es = () => {
         <StaticData>
             <div>
                 <h1>
-                    Lista de productos producidos por medio del trabajo infantil
-                    o del trabajo forzoso
+                    Informe de la lista de bienes producidos con trabajo infantil o trabajo infantil forzoso
                 </h1>
                 <p>
-                    La ILAB mantiene una lista de productos y sus países de
-                    origen que según le consta han sido producidos con trabajo
-                    infantil o trabajo forzoso lo que es una contravención de
-                    las normas internacionales, conforme la Ley de
-                    Reautorización para la Protección de las Víctimas de la
-                    Trata de Personas (TVPRA) de 2005 y sus reautorizaciones
-                    posteriores. Desde el 20 de septiembre de 2018, la Lista de
-                    productos producidos por medio del trabajo infantil o del
-                    trabajo forzoso incluye 148 productos de 76 países.
+                    ILAB compila y actualiza una lista de bienes, y sus respectivos pa&iacute;ses de origen, de los que 
+                    tiene motivos para creer que se producen con trabajo infantil o trabajo forzoso en contravenci&oacute;n 
+                    de las normas internacionales, tal como se exige en la Ley de 2005 de reautorizaci&oacute;n de las 
+                    protecciones a las v&iacute;ctimas de la trata (TVPRA) y las reautorizaciones posteriores. Al 30 de 
+                    septiembre de 2020, la Lista de bienes producidos con trabajo infantil o trabajo forzoso contiene 
+                    m&aacute;s de 150 bienes provenientes de 77 pa&iacute;ses o zonas.
                 </p>
                 <p>
-                    La ILAB mantiene la lista principalmente para concientizar
-                    al público acerca del trabajo forzoso y el trabajo infantil
-                    en todo el mundo, así como para fomentar iniciativas para
-                    combatirlos; no tiene la intención de ser punitiva, más bien
-                    de ser un agente catalizador para que exista un mayor grado
-                    de coordinación y colaboración estratégicas y centradas
-                    entre los que trabajan para abordar estos problemas.
+                    ILAB compila y actualiza dicha lista principalmente con el objeto de sensibilizar al p&uacute;blico 
+                    acerca del trabajo infantil y el trabajo forzoso en el mundo y de promover iniciativas para combatirlos; 
+                    no tiene por objeto ser de car&aacute;cter punitivo sino m&aacute;s bien fungir de catalizador para 
+                    lograr una colaboraci&oacute;n y coordinaci&oacute;n m&aacute;s estrat&eacute;gicas y espec&iacute;ficas 
+                    entre quienes trabajan para abordar esta problem&aacute;tica.
                 </p>
                 <p>
-                    La publicación de la Lista ha generado nuevas oportunidades
-                    para que la ILAB interactúe con gobiernos extranjeros con el
-                    fin de luchar contra el trabajo forzoso y el trabajo
-                    infantil. Es también un instrumento valioso para
-                    investigadores, organizaciones de promoción y empresas que
-                    quieren realizar evaluaciones de riesgo y participar en la
-                    diligencia debida en materia de derechos laborales en sus
-                    cadenas de suministro.
+                    Gracias a la publicaci&oacute;n de la lista, ILAB tuvo nuevas oportunidades de interactuar con gobiernos 
+                    extranjeros para combatir el trabajo forzoso y el trabajo infantil. Adem&aacute;s, es un recurso valioso 
+                    para empresas, investigadores y organizaciones de promoci&oacute;n que desean realizar evaluaciones de 
+                    riesgos y la debida diligencia sobre los derechos laborales en sus cadenas de suministro.
                 </p>
                 <p>
-                    Más información aquí:{" "}
+                    V&eacute;ase m&aacute;s informaci&oacute;n en:{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -48,7 +38,7 @@ const es = () => {
                         title="List of Goods report"
                     >
                         https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods
-                    </a>
+                    </a>.
                 </p>
             </div>
         </StaticData>

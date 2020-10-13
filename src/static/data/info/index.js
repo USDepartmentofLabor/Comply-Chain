@@ -57,19 +57,19 @@ export const Info = {
             content: KeyResources.es
         },
         findings: {
-            title: "Resultados sobre las peores formas de trabajo infantil",
+            title: "Conclusiones del informe sobre las peores formas de trabajo infantil",
             keywords: [],
             content: Findings.es
         },
         goods: {
             title:
-                "Lista de productos producidos por medio del trabajo infantil o del trabajo forzoso",
+                "Informe de la lista de bienes producidos con trabajo infantil o trabajo infantil forzoso",
             keywords: [],
             content: Goods.es
         },
         indenturedProductList: {
              title:
-             "List of Products Produced by Forced or Indentured Child Labor",
+                "Lista de productos fabricados con trabajo infantil forzoso o en régimen de servidumbre",
               keywords: [],
               content: IndenturedProductList.es
         }
