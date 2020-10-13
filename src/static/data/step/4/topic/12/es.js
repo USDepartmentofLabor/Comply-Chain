@@ -9,7 +9,7 @@ const es = () => {
         <StaticData>
             <div>
                 <h2>
-                    Tratamiento de las causas fundamentals
+                    Combatir las causas fundamentales
                 </h2>
                 <p>
                     El logro de metas amplias y compartidas (preparar a los
@@ -244,11 +244,7 @@ const es = () => {
                         >
                             Ley JADE birmana del bloque de Tom Lantos de 2008
                         </a>
-                        , cual prohibió la importación de todos los rubíes y
-                        jade birmanos a los EE. UU. La prohibición se eliminó en
-                        2016 cuando todas las sanciones comerciales de los EE.
-                        UU. contra Birmania fueron levantadas por Orden
-                        Ejecutiva.
+                        , por la que se prohíbe la importación de todos los rubíes y jades birmanos a los EE. UU. La prohibición se eliminó en 2016 cuando los Estados Unidos, por orden ejecutiva, levantaron todas las sanciones comerciales impuestas a Birmania.
                     </p>
                 </ExampleInAction>
                             </Accordion.Panel>
@@ -324,24 +320,120 @@ const es = () => {
                 <Accordion id="responsible-recruit-acc">
                                                 <Accordion.Section id="responsible-recruit-description">
                     <Accordion.Title>
-                  Responsible Recruitment
+                  Contratación responsable
                        </Accordion.Title>
                        <Accordion.Panel>
 
                        <p className="indent-margin">
-                          <b>PLACEHOLDER FOR TEXT </b>
+                       <p>
+                             La industria de la contratación laboral internacional es un ámbito de preocupación para muchas empresas que
+                             tienen operaciones en todo el mundo. A medida que los trabajadores cada vez se mudan más a otras partes del
+                             mundo en busca de oportunidades laborales, aumenta la cantidad de abusos que se cometen contra ellos en la
+                             industria de la contratación, que suele ser turbia y carecer de reglamentación. Algunos de estos abusos consisten
+                             en cobrar comisiones excesivas, retener los pasaportes y dar información engañosa sobre la naturaleza y el tipo de
+                             trabajo, entre otros. Estos abusos son particularmente apremiantes en el caso de los trabajadores migrantes, en
+                             especial los que trabajan en países de alto riesgo o en cadenas de suministro de alto riesgo; sin embargo, la
+                             ausencia de contratación responsable en cualquier cadena de suministro presenta riesgos tanto para las empresas como para los trabajadores.
+                          </p>
+                          <p>
+                          Para abordar estas inquietudes, las empresas deben poner en práctica salvaguardas suficientes que garanticen la contratación
+                          responsable de los trabajadores. En aras de brindar este tipo de orientación a las empresas, la OIT publicó, a modo de guía,
+                          los&nbsp;
+                          <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_568731/lang--es/index.htm"
+                          >
+                          Principios generales y directrices para la contratación equitativa y la Definición de las comisiones de contratación y los
+                          gastos conexos&nbsp;
+                          </a>
+                          para ayudar a las empresas a incorporar salvaguardias como parte de la&nbsp;
+                          <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.ilo.org/global/topics/fair-recruitment/lang--es/index.htm"
+                          >
+                          Iniciativa sobre la contratación equitativa
+                          </a>.
+                          Como parte de esta iniciativa, la OIT compiló un&nbsp;
+                          <a
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  href="https://www.ilo.org/gimi/FRI.action?lang=ES"
+                           >
+                          mapa interactivo
+                          </a> &nbsp;que presenta un panorama mundial de todas las leyes, políticas y
+                          reglamentos nacionales en que se definen las comisiones de contratación y los costos afines.
+                          </p>
+                          <p>
+                          A comienzos de 2019, varias dependencias del Gobierno de los Estados Unidos (el Departamento de Defensa, la Administración
+                          de Servicios Generales y la Administración Nacional de Aeronáutica y el Espacio) publicaron un dictamen definitivo, que&nbsp;
+                          <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.federalregister.gov/documents/2018/12/20/2018-27541/federal-acquisition-regulation-combating-trafficking-in-persons-definition-of-recruitment-fees"
+                           >
+                          definía las comisiones de contratación
+                          </a>
+                          &nbsp;para avanzar en la implementación del Reglamento Federal de Adquisiciones (FAR) con miras a reducir
+                          el riesgo de la trata de personas. Prohibir que los contratistas cobren a los empleados comisiones de contratación es un elemento clave para combatir la trata de personas.
+
+                          </p>
                        </p>
                        <ExampleInAction id="med_rep">
-                         <h2>
-                             <ExampleInAction.Icon alt="Lightbulb"/>
-                             <strong>
-                                 Ejemplo en acci&oacute;n: AAFA/FLA Apparel & Footwear Industry Commitment to Responsible Recruitment
-                             </strong>
-                         </h2>
-                         <p>
-                            <b>PLACEHOLDER TEXT</b>
-                         </p>
-                        </ExampleInAction>
+                           <h2>
+                               <ExampleInAction.Icon alt="Lightbulb"/>
+                               <strong>
+                               Ejemplo en acci&oacute;n: el compromiso con la contratación responsable de la AAFA*/FLA* en la industria de la ropa y el calzado
+                           </strong>
+                           </h2>
+                           <p>
+                              En 2018, la&nbsp;
+                              <a
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          href="https://www.aafaglobal.org/"
+                               >
+                              Asociación de Ropa y Calzado de los Estados Unidos
+                              </a>
+                              &nbsp;y la&nbsp;
+                              <a
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          href="https://www.fairlabor.org/"
+                                 >
+                              Fair Labor Association
+                              </a>
+                              &nbsp;lanzaron una iniciativa conjunta de la
+                              industria, el Compromiso con la Contratación Responsable, para abordar los posibles riesgos de trabajo forzoso que afrontan los trabajadores migrantes en las cadenas mundiales de suministro.
+                           </p>
+                           <p>
+                            Como parte de este compromiso, la industria y las empresas que se suman a esta iniciativa se comprometen a crear las condiciones necesarias
+                            para que ningún trabajador pague para obtener empleo, todos los trabajadores tengan pleno control de sus documentos de viaje, plena
+                            libertad de circulación y conocimiento de todos los términos básicos del empleo antes de salir de sus hogares.
+                           </p>
+                           <p>
+                            Como parte de esta iniciativa, en el seno del Compromiso con la Contratación Responsable se elaboró un&nbsp;
+                            <a
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      href="https://www.fairlabor.org/"
+                             >
+                            Plan de acción para la contratación responsable en Malasia
+                            </a>
+                            &nbsp;como manera de concretar el compromiso.
+                           </p>
+                           <p>
+                            Fuente:&nbsp;
+                            <a
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      href="https://www.aafaglobal.org/AAFA/Solutions_Pages/Commitment_to_Responsible_Recruitment"
+                             >
+                            https://www.aafaglobal.org/AAFA/Solutions_Pages/Commitment_to_Responsible_Recruitment
+                           </a>.
+                           </p>
+                          </ExampleInAction>
                         <br />
                    </Accordion.Panel>
                </Accordion.Section>
@@ -350,22 +442,52 @@ const es = () => {
                <Accordion id="worker-voice-acc">
                   <Accordion.Section id="worker-voice-description">
                        <Accordion.Title>
-                     Ensuring Worker Voice
+                     Dar voz a los trabajadores
                           </Accordion.Title>
                           <Accordion.Panel>
 
                           <p className="indent-margin">
-                             <b>PLACEHOLDER FOR TEXT </b>
+                             El concepto de “la voz del trabajador” (también conocido como diálogo con el trabajador) se refiere a la
+                             libertad que tiene el trabajador de plantear inquietudes y problemas en el trabajo. A fin de promover los
+                             insumos de los trabajadores que son parte de sus operaciones y cadenas de suministro, los empleadores deben
+                             hacerlos participar del diálogo sobre las condiciones del lugar de trabajo y brindar, tanto a los empleados
+                             como a la gerencia, la capacitación necesaria en materia de derechos, responsabilidades y mecanismos de reclamación.
                           </p>
                           <ExampleInAction id="med_rep">
                             <h2>
                                 <ExampleInAction.Icon alt="Lightbulb"/>
                                 <strong>
-                                Ejemplo en acci&oacute;n: Primark’s Worker Education Groups
+                                Ejemplo en acci&oacute;n: grupos de educación al trabajador de Primark*
                             </strong>
                             </h2>
                             <p>
-                               <b>PLACEHOLDER TEXT</b>
+                               En 2009, la cadena de moda Primark comenzó a trabajar con la ONG SAVE para crear grupos de educación al trabajador (WEG)
+                               en las comunidades locales del estado de Tamil Nadu, en la India, donde viven muchos de sus trabajadores. Estos programas
+                               aspiran a enseñar a los trabajadores sus derechos y a emplear tácticas de negociación con la gerencia. En el transcurso
+                               de seis años, los grupos WEG llegaron de manera directa a 5.000 trabajadores y a otros 25.000 de manera indirecta, a
+                               través del modelo de capacitación entre pares. En 2015, una evaluación externa del programa reveló que los trabajadores
+                               que participaban del programa podían explicar mejor sus derechos y negociar con los gerentes en el lugar de trabajo. En
+                               consecuencia, los trabajadores pudieron negociar satisfactoriamente con los gerentes y conseguir mejoras en el equipo de
+                               seguridad, un aumento de sueldo y bonificaciones, permiso (o licencia) remunerado y acceso a prestaciones. Además, los
+                               trabajadores usaron los grupos WEG para presentar reclamaciones a las fábricas.
+                            </p>
+                            <p>
+                            Para obtener más información sobre los grupos WEG de Primark, véase:&nbsp;
+                            <a
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      href="https://knowthechain.org/themes/19/"
+                             >
+                            https://knowthechain.org/themes/19/
+                            </a>
+                            y
+                            <a
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      href="https://www.business-humanrights.org/sites/default/files/documents/KTC_Primark%20response%20June2016_v2.pdf"
+                             >
+                            https://www.business-humanrights.org/sites/default/files/documents/KTC_Primark%20response%20June2016_v2.pdf
+                            </a>.
                             </p>
                            </ExampleInAction>
                            <br />

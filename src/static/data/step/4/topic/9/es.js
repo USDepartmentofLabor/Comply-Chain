@@ -11,7 +11,7 @@ const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>Key Information Related to Risk and Impact</h1>
+                <h1>Información clave relativa al riesgo y el impacto</h1>
                 <p>
                     Tras esta investigaci&oacute;n inicial, la empresa debe
                     incorporar a las partes interesadas pertinentes para
@@ -29,6 +29,39 @@ const es = () => {
                     acad&eacute;micas, consultoras sobre responsabilidad social
                     empresarial y ONG para ayudar con la evaluaci&oacute;n de
                     riesgos e impacto.
+                </p>
+                <p>
+                   Algunas empresas optan por “tercerizar” la función de recolección de
+                   información a un experto, como una consultora, un grupo de la sociedad civil o una
+                   institución académica. Si ya cuenta con relaciones bien establecidas con los proveedores y está
+                   procurando evaluar los riesgos actuales, los informes de auditoría sobre estos proveedores realizados
+                   por otras empresas o grupos constituyen una fuente de datos muy útil. Para acceder a ellos, tal vez sea
+                   requisito incorporarse al grupo, como el&nbsp;
+                   <a
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       href="https://www.sedexglobal.com/"
+                   >
+                   Supplier Ethical Data Exchange (SEDEX)*
+                   </a>
+                   &nbsp;y&nbsp;
+                   <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://www.fairfactories.org/"
+                      >
+                   Fair Factories Clearinghouse*
+                   </a>
+                   ,
+                   que brindan una plataforma para compartir información sobre proveedores comunes, así como para colaborar en las
+                   iniciativas de vigilancia, seguimiento y reparación.
+                </p>
+                <p>
+                  Si los informes de auditoría no están disponibles, hay otras maneras de obtener información sobre sus proveedores actuales
+                  para determinar los que deben ser objeto de iniciativas de cumplimiento adicionales. Si hay un sindicato constituido, las
+                  reclamaciones o denuncias en el terreno pueden ser una buena fuente de información sobre factores de riesgo de abusos laborales.
+                  Si no hay sindicato, el proveedor puede poner en práctica otros mecanismos de reclamación o denuncia para obtener información.
+                  Claramente, otra opción es estudiar a todos los proveedores a la luz de los factores de riesgo fundamentales antes mencionados.
                 </p>
                 <p>¿Qu&eacute; informaci&oacute;n procura obtener?</p>
                 <Accordion id="nature-prev-acc">
@@ -165,7 +198,7 @@ const es = () => {
                 <Accordion id="cocoa-chains-acc">
                                        <Accordion.Section id="cocoa-description">
                                           <Accordion.Title>
-                                          Iniciativas actuales
+                                          Iniciativas y organizaciones existentes
                                              </Accordion.Title>
                                              <Accordion.Panel>
 
@@ -175,43 +208,49 @@ const es = () => {
                                                  infracciones laborales como trabajo infantil y forzoso en
                                                  esta industria o zona?
                                              </p>
-
-                                             <p>
-                                                 Para tener una idea de c&oacute;mo se puede aplicar este
-                                                 enfoque general en un sector en particular, en el{" "}
-                                                 <a
-                                                     target="_blank"
-                                                     rel="noopener noreferrer"
-                                                     href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
-                                                     title="Instrumento de abastecimiento responsable 4: Recolecci&oacute;n de informaci&oacute;n y evaluaci&oacute;n de riesgos en las cadenas de suministro de la industria pesquera (en ingl&eacute;s)"
-                                                 >
-                                                     instrumento de abastecimiento responsable 4:
-                                                     Recolecci&oacute;n de informaci&oacute;n y
-                                                     evaluaci&oacute;n de riesgos en las cadenas de
-                                                     suministro de la industria pesquera
-                                                 </a>{" "}
-                                                 (disponible solamente en idioma ingl&eacute;s) se explica
-                                                 paso a paso c&oacute;mo examinar los riesgos de pa&iacute;s,
-                                                 los riesgos en la cadena de suministro y los riesgos de los
-                                                 proveedores.&nbsp;
-                                             </p>
                                          </Accordion.Panel>
                                      </Accordion.Section>
                                      </Accordion>
 
                 <Accordion id="cocoa-chains-acc">
-                                                               <Accordion.Section id="cocoa-description">
-                                                                  <Accordion.Title>
-                                                                  Market Data
-                                                                     </Accordion.Title>
-                                                                     <Accordion.Panel>
+                       <Accordion.Section id="cocoa-description">
+                          <Accordion.Title>
+                          Datos de mercado
+                             </Accordion.Title>
+                             <Accordion.Panel>
 
-                                                                     <p className="indent-margin">
-                                                                     <b>PLACEHOLDER FOR TEXT</b>
-                                                                 </p>
-                                                                 </Accordion.Panel>
-                                                             </Accordion.Section>
-                                                             </Accordion>
+                             <p className="indent-margin">
+                             ¿Cuáles son las categorías de mayor gasto, como materia prima esencial o
+                             componentes vitales, en las operaciones de la empresa que están más en riesgo
+                             y que, por lo tanto, podrían tener un impacto desmesurado ante cualquier perturbación?
+                             ¿Hay otras empresas de la industria que divulgan listas de proveedores particulares o
+                             información de fuentes que pueda incorporar su empresa en la evaluación y el análisis de riesgos?
+                         </p>
+                         </Accordion.Panel>
+                     </Accordion.Section>
+                     </Accordion>
+
+                     <Accordion id="cocoa-chains-acc">
+                        <Accordion.Section id="cocoa-description">
+                           <Accordion.Title>
+                           Continuación
+                              </Accordion.Title>
+                              <Accordion.Panel>
+
+                              <p className="indent-margin">
+                              Para tener una idea de cómo se puede aplicar este enfoque general a un sector en particular, la&nbsp;
+                              <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
+                                >
+                              herramienta 4 del RST: Recolección de información y evaluación de riesgos en las cadenas de suministro de la industria pesquera
+                              </a>
+                              &nbsp;presenta un enfoque paso a paso (en inglés) para examinar los riesgos relativos al país, a las cadenas de suministro y a los proveedores.
+                          </p>
+                          </Accordion.Panel>
+                      </Accordion.Section>
+                      </Accordion>
                                                              <br />
                 <ExampleInAction id="fish">
                     <h2>
@@ -312,26 +351,17 @@ const es = () => {
                         </strong>
                     </p>
                     <p>
-                        La Corporaci&oacute;n para Inversiones Privadas en el
-                        Extranjero del gobierno de los Estados Unidos (OPIC)
-                        cuenta con procesos que permiten garantizar que los
-                        proyectos que reciban apoyo de la OPIC sean sostenibles
-                        desde las perspectivas social y ambiental. Algunos
-                        proyectos financiados por la OPIC se clasifican como
-                        &ldquo;de especial consideraci&oacute;n&rdquo; por una
-                        serie de factores laborales.
+                        Algunos proyectos financiados por la Corporación Financiera de
+                        Desarrollo Internacional (DFC) de los Estados Unidos, sucesora
+                        de la Corporación de Inversiones Privadas en el Extranjero (OPIC),
+                        se clasifican como “de especial consideración” por una serie de factores laborales.
                     </p>
                     <p>
-                        &nbsp;&ldquo;Los proyectos de especial
-                        consideraci&oacute;n tienden a albergar un mayor
-                        potencial de que se presenten riesgos sociales
-                        relacionados con el proyecto por la participaci&oacute;n
-                        o el impacto en las personas afectadas por el proyecto,
-                        como los trabajadores. Los proyectos pueden recibir esta
-                        clasificaci&oacute;n tras realizarse una
-                        evaluaci&oacute;n de la gravedad que revisten
-                        determinados riesgos sociales posibles y la pertinencia
-                        que tienen para el proyecto.&nbsp;
+                        “Los proyectos de especial consideración tienden a albergar un mayor potencial de que se
+                        presenten riesgos sociales relacionados con el proyecto por la participación o el impacto
+                        en las personas afectadas por el proyecto, como los trabajadores. Los proyectos pueden
+                        recibir esta clasificación tras realizarse una evaluación de la gravedad que revisten
+                        determinados riesgos sociales posibles y la pertinencia que tienen para el proyecto.
                     </p>
                     <p>
                         Algunos factores de riesgo clave que pueden tenerse en
@@ -378,18 +408,15 @@ const es = () => {
                         </li>
                     </ul>
                     <p>
-                        Fuente: Corporaci&oacute;n de Inversiones Privadas en el
-                        Extranjero de los EE.UU.,{" "}
+                        Fuente: Corporación Financiera de Desarrollo Internacional de los Estados Unidos,&nbsp;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
-                            title="Declaraci&oacute;n de pol&iacute;tica ambiental y social"
+                            href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
                         >
-                            Declaraci&oacute;n de pol&iacute;tica ambiental y
-                            social
+                           Environmental and Social Policy and Procedures
                         </a>
-                        , 2017.
+                        &nbsp;, 2020; disponible en idioma inglés solamente en https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf{" "}.
                     </p>
                 </OwnWords>
             </div>

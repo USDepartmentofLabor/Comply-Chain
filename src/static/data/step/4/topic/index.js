@@ -113,12 +113,12 @@ export const Topics = {
          },
          {
              keywords: [],
-             title: "Evaluación de las causas fundamentales",
+             title: "Combatir las causas fundamentales",
              content: Topic11.es
          },
          {
              keywords: [],
-             title: "Tratamiento de las causas fundamentales",
+             title: "Combatir las causas fundamentales",
              content: Topic12.es
          },
          {

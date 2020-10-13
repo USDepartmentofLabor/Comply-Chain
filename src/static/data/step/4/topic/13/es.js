@@ -10,14 +10,11 @@ const es = () => {
             <div>
                 <h2>Filantrop&iacute;a</h2>
                            <p>
-                            Tal vez tenga sentido canalizar las contribuciones
-                            filantr&oacute;picas hacia las comunidades en las cadenas de
-                            suministro directo, en especial las m&aacute;s susceptibles
-                            al trabajo infantil, el trabajo forzoso y otros abusos
-                            laborales. Si bien las contribuciones no sustituyen a un
-                            sistema de cumplimiento social robusto, pueden ser
-                            &uacute;tiles para que la empresa alcance las metas del
-                            programa de cumplimiento social.
+                            En la medida de lo posible, las empresas tal vez deseen canalizar las contribuciones filantrópicas
+                            hacia las comunidades que se encuentren en las cadenas de suministro directo, en especial las más
+                            susceptibles al trabajo infantil, el trabajo forzoso y otros abusos laborales. Si bien las contribuciones
+                            no sustituyen a un sistema de cumplimiento social robusto, pueden ser útiles para que la empresa alcance
+                            las metas del programa de cumplimiento social.
                         </p>
                         <p>
                             Las iniciativas filantr&oacute;picas que contribuyen a
@@ -162,32 +159,23 @@ const es = () => {
                                 Collegiate Outfitters*
                             </h4>
                             <p>
-                                El Salvador, pa&iacute;s peque&ntilde;o con una larga
-                                trayectoria de conflictos civiles e inestabilidad,
-                                presenta un entorno operativo incierto. Pero la filial
-                                de El Salvador de la League Collegiate Outfitter,
-                                League Central America (LCA), vislumbr&oacute; una oportunidad de desarrollar
-                                una empresa productiva invirtiendo en programas que
-                                fomentan la capacidad de los trabajadores y ayudan a
-                                combatir la pobreza y la violencia en sus comunidades.
-                                LCA da prioridad a contratar a j&oacute;venes con
-                                dificultades para conseguir trabajo en otros lugares,
-                                como personas con discapacidad, expandilleros y aquellos
-                                susceptibles de ser incorporados a las maras. En la
-                                actualidad, los mareros rehabilitados conforman
-                                m&aacute;s del 15 por ciento de la fuerza laboral de la
-                                f&aacute;brica. Adem&aacute;s del empleo digno, LCA
-                                brinda oportunidades de que los j&oacute;venes
-                                participen en un programa de ahorro y pr&eacute;stamo,
-                                reciban asistencia para guarder&iacute;a y para
-                                continuar sus estudios, incluso mediante clases de
-                                equivalencia de certificado de educaci&oacute;n
-                                secundaria y clases de ingl&eacute;s. LCA
-                                descubri&oacute; que al brindar estas prestaciones, no
-                                solo brinda oportunidades a los j&oacute;venes
-                                vulnerables sino que reduce la rotaci&oacute;n de
-                                personal y mejora la eficiencia de la producci&oacute;n
-                                en la f&aacute;brica.
+                                El Salvador, país pequeño con una larga trayectoria de conflictos civiles e inestabilidad,
+                                presenta un entorno operativo incierto. Pero la filial de El Salvador de la League Collegiate Outfitter,&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="www.league91.com/league-central-america-making-difference-el-salvador/"
+                                >
+                                League Central America*
+                                </a>
+                                &nbsp;(LCA), vislumbró una oportunidad de crear una empresa productiva invirtiendo en
+                                programas que fomentan la capacidad de los trabajadores y ayudan a combatir la pobreza y la violencia en sus
+                                comunidades. LCA da prioridad a contratar a jóvenes con dificultades para conseguir trabajo en otros lugares,
+                                como personas con discapacidad, expandilleros y aquellos susceptibles de ser incorporados a las maras. En la actualidad,
+                                los mareros rehabilitados conforman más del 15 por ciento de la fuerza laboral de la fábrica. Además del empleo digno,
+                                LCA brinda oportunidades de que los jóvenes participen en un programa de ahorro y préstamo, reciban asistencia para guardería
+                                y para continuar sus estudios, incluso mediante clases de equivalencia de certificado de educación secundaria y clases de inglés.
+                                LCA descubrió que al brindar estas prestaciones, no solo brinda.
                             </p>
                         </ExampleInAction>
                         </Accordion.Panel>
@@ -216,42 +204,43 @@ const es = () => {
                            <ExampleInAction id="gap">
                             <h4>
                                 <ExampleInAction.Icon alt="Lightbulb"/>
-                                <strong>Ejemplo en acci&oacute;n</strong>: programa
-                                P.A.C.E. de Gap Inc.*
+                                <strong>Ejemplo en acci&oacute;n</strong>: el programa P.A.C.E. de Gap Inc.*
                             </h4>
                             <p>
-                                En todo el mundo, millones de mujeres trabajan en la
-                                industria de la vestimenta y, en general, ganan menos
-                                que sus hom&oacute;logos hombres y rara vez logran
-                                ascender en las f&aacute;bricas. Tras reconocer este
-                                problema, en 2007 Gap Inc. lanz&oacute; el{" "}
-                                <a
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="https://www.gapincsustainability.com/people/pace-changing-one-million-lives"
-                                    title="Programa P.A.C.E. (Personal Advancement and Career Enhancement)"
-                                >
-                                    programa P.A.C.E. (
-                                    <i>Personal Advancement and Career Enhancement</i>)
-                                </a>
-                                , que tiene por objeto empoderar a las trabajadoras en
-                                la industria de la vestimenta brind&aacute;ndoles las
-                                aptitudes fundamentales y t&aacute;cticas que necesitan
-                                para progresar en el trabajo. Los m&oacute;dulos de
-                                aprendizaje de aptitudes para la vida abarcan una amplia
-                                gama de temas, desde formaci&oacute;n financiera hasta
-                                salud general y reproductiva e incluso resoluci&oacute;n
-                                de problemas y toma de decisiones. Estos cursos se
-                                complementan con cursos t&eacute;cnicos adaptados al
-                                entorno espec&iacute;fico de la f&aacute;brica. P.A.C.E.
-                                actualmente se utiliza en las f&aacute;bricas de
-                                proveedores en 12 pa&iacute;ses y se imparti&oacute; a
-                                m&aacute;s de 50.000 mujeres. En los &uacute;ltimos
-                                a&ntilde;os, Gap Inc. ampli&oacute; el programa a fin de
-                                atender las necesidades que tienen las mujeres no solo
-                                en las f&aacute;bricas sino en la comunidad, as&iacute;
-                                como para llegar a sus hijas mediante programas
-                                dirigidos a adolescentes de 13 a 17 a&ntilde;os.{" "}
+                            Fundamentado en la creencia de que todas las mujeres merecen la oportunidad de alcanzar su
+                            pleno potencial, Gap Inc. originalmente lanzó el programa
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.gapincsustainability.com/people/pace-changing-one-million-lives"
+                                title="Programa P.A.C.E. (Personal Advancement and Career Enhancement)"
+                            >
+                            P.A.C.E.
+                            </a>
+                            (Personal Advancement &
+                            Career Enhancement) en 2007 para las mujeres que trabajan en la cadena de suministro de la
+                            ropa, donde funciona en más de 300 fábricas en colaboración con los proveedores de Gap Inc.
+                            La iniciativa se concibió con la idea de empoderar a las mujeres que trabajan en la fábrica
+                            brindándoles educación y capacitación en competencias para la vida que necesitan para progresar
+                            en el trabajo. Los módulos se refieren a una amplia gama de temas, como comunicación, resolución
+                            de problemas, toma de decisiones, cultura financiera y salud. Los cursos se dictan con capacitadores
+                            certificados de P.A.C.E. y se contextualizan para atender las necesidades de las mujeres en función
+                            del entorno laboral y cultural. A partir de ese año, la empresa continuó ampliando el programa y lo
+                            llevó a otros lugares a fin de llegar a más mujeres, por ejemplo en zonas rurales, en instituciones
+                            académicas y profesionales, en centros de socorro de emergencia y otros. P.A.C.E. actualmente se
+                            utiliza en las fábricas de proveedores en 17 países y benefició a más de 500.000 mujeres. Además,
+                            Gap Inc. se asoció con Empower@Work, una iniciativa de toda la industria que procura llevar este tipo
+                            de capacitación a muchas más mujeres que trabajan en la cadena mundial de suministro de ropa.
+                            </p>
+                            <p>
+                            Fuente:&nbsp;
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.gapinc.com/content/gapinc/html/media/pressrelease/2020/med_pr_022420_gps_PACEProgram.html"
+                            >
+                            https://www.gapinc.com/content/gapinc/html/media/pressrelease/2020/med_pr_022420_gps_PACEProgram.html
+                            </a>.
                             </p>
                         </ExampleInAction>
                         </Accordion.Panel>
@@ -363,6 +352,7 @@ const es = () => {
                                              </Accordion.Panel>
                                          </Accordion.Section>
                                          </Accordion>
+
                             <Accordion id="dev-markets-acc">
                                                  <Accordion.Section id="dev-markets-description">
                                                  <Accordion.Title>

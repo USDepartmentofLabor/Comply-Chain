@@ -68,14 +68,14 @@ export const StepData = {
                     "Situación en que se provocaron daños a la empresa, como el daño a la reputación o la responsabilidad legal o el causado a personas o entidades afectadas por las actividades de la empresa o vinculadas con las operaciones, los productos o servicios de la empresa mediante relaciones comerciales."
             },
              {
-                 termName: "Downstream Suppliers",
+                 termName: "Fase ulterior",
                  termDefinition:
-                     "Referring to the demand side of the supply chain. One or more companies or individuals who participate in the flow of goods and services moving from the manufacturer to the final user or consumer. "
+                     "Parte del proceso de la cadena de suministro que se encuentra más cerca de la demanda y se refiere al flujo de bienes o productos que van de un proveedor a la empresa y de esta, al usuario o consumidor final. "
              },
              {
-                 termName: "Upstream Suppliers",
+                 termName: "Fase inicial",
                  termDefinition:
-                     "Refers to the supply side of the supply chain. Upstream partners are the suppliers who provide goods and services to the organization needed to satisfy demands which originate at point of demand or use, as well as other flows such as return product movements, payments for purchases, etc. "
+                     "Parte del proceso de la cadena de suministro que se encuentra más cerca de la oferta y se refiere a los bienes o productos que van de la empresa a los proveedores y a los compradores de materia prima al nivel de bosque o establecimiento agrícola, en la dirección de la materia prima. Abarca las redes de insumos de las empresas.  "
              }
 
         ],
