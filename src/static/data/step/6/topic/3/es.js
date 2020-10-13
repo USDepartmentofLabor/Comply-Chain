@@ -52,7 +52,7 @@ const es = () => {
                         Las oportunidades de contribuir, incluidos los mecanismos de reclamaci&oacute;n
                     </li>
                 </ul>
-                <h2>Interna</h2>
+                <h2>Internos</h2>
                 <Accordion id="what-topic-cover">
                 <Accordion.Section id="soc-comp-team">
                     <Accordion.Title>
