@@ -301,11 +301,9 @@ const es = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.responsiblesourcingtool.org/laborrecruitments"
-                        title="Criterios para examinar y evaluar a los candidatos para reclutar obreros"
+                        href="www.responsiblesourcingtool.org/laborrecruitments"
                     >
-                        Criterios para examinar y evaluar a los candidatos para
-                        reclutar obreros
+                         Evaluación de la contratación de mano de obra
                     </a>
                     , que ayuda a las empresas a realizar la debida diligencia
                     en el proceso de examen y selecci&oacute;n de los
@@ -320,7 +318,7 @@ const es = () => {
                         <strong>
                             Ejemplo en acci&oacute;n:{" "}
                             <span>
-                                instrumento de abastecimiento responsable 1
+                                herramienta 1 del RST
                             </span>
                         </strong>
                     </h3>
@@ -339,518 +337,99 @@ const es = () => {
                             conducta
                         </strong>
                     </p>
-                    <p>
-                        En el c&oacute;digo de conducta de una cadena de
-                        suministro se plasman las expectativas b&aacute;sicas
-                        del desempe&ntilde;o de subcontratistas, proveedores y
-                        agentes. Es importante que en la pol&iacute;tica de
-                        abastecimiento o en el c&oacute;digo de conducta de una
-                        empresa se proh&iacute;ba expresamente la trata de seres
-                        humanos y se expongan las protecciones a los
-                        trabajadores. Cualquier empresa, incluso los
-                        contratistas del gobierno federal y sus subcontratistas,
-                        pueden utilizar los ejemplos de disposiciones que se
-                        enuncian a continuaci&oacute;n en el proceso de idear la
-                        mejor manera de crear, reforzar o modificar las
-                        pol&iacute;ticas de sus propias cadenas de suministro.
+                    <p>Fuente: Responsible Sourcing Tool,&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.responsiblesourcingtool.org/codeofconduct"
+                    >
+                    herramienta 1, Ejemplo de código de conducta
+                    </a>.
                     </p>
                     <p>
-                        El ejemplo de disposici&oacute;n del c&oacute;digo
-                        contiene factores &ldquo;propiciadores&rdquo;, es decir
-                        que contribuyen a situaciones o riesgos de trata de
-                        seres humanos, pero no tiene por objeto garantizar el
-                        cumplimiento de ning&uacute;n requisito legal
-                        espec&iacute;fico, como el Reglamento Federal de
-                        Adquisiciones (FAR). Los requisitos espec&iacute;ficos
-                        de cumplimiento se deben detallar en los t&eacute;rminos
-                        y condiciones contractuales con subcontratistas,
-                        proveedores y agentes.
+                    Véase también la herramienta 1A del RST,&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.responsiblesourcingtool.org/recruitmentandemployment"
+                    >
+                    Ejemplos de parámetros de referencia de buenas prácticas en la contratación y el empleo
+                    </a>.
                     </p>
-                    <Accordion id="stnd-cl-fl">
-                    <Accordion.Section id="human-traffickingr">
-                    <Accordion.Title>
-                                <strong>
-                                TRATA DE SERES HUMANOS
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
                     <p>
-                        <strong>TRATA DE SERES HUMANOS</strong>: La empresa
-                        proh&iacute;be rotundamente la trata de seres humanos en
-                        todas sus operaciones y en las de los subcontratistas,
-                        proveedores y agentes que integran la cadena de
-                        suministro mundial. No se someter&aacute; a los
-                        trabajadores a ninguna forma de trabajo forzoso,
-                        obligatorio, en calidad de servidumbre ni no remunerado.
-                        Todo el trabajo revestir&aacute; car&aacute;cter
-                        voluntario y, tras dar aviso con una antelaci&oacute;n
-                        razonable, los trabajadores tendr&aacute;n la libertad
-                        de rescindir su relaci&oacute;n laboral en cualquier
-                        momento sin sanci&oacute;n.&nbsp;
+                    La página&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.responsiblesourcingtool.org/recruitmentandemployment"
+                    >
+                    ResponsibleSourcingTool.org
+                    </a>
+                    &nbsp;se creó gracias a una colaboración entre el Departamento de
+                    Estado de los Estados Unidos,&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.responsiblesourcingtool.org/recruitmentandemployment"
+                    >
+                    Verité, Made in a Free World
+                    </a>
+                    &nbsp;y el&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.responsiblesourcingtool.org/recruitmentandemployment"
+                    >
+                    Aspen Institute
+                    </a>
+                    . El contenido de
+                    RST fue aportado por Verité, organización dedicada a los derechos laborales con conocimientos
+                    especializados en la cadena de suministro, con fondos de la Oficina del Departamento de Estado para
+                    Controlar y Combatir la Trata de Personas con arreglo al acuerdo de cooperación S-SJTIP-13-CA-1029.
+                    Para elaborar el RST se contó con los aportes de varios expertos de dependencias públicas de los
+                    Estados Unidos, como los departamentos de Estado y Trabajo, y otros interesados principales, como
+                    sobrevivientes de la trata, dirigentes de empresas y ONG, personal de adquisiciones y oficiales de contratación de la instancia federal.
                     </p>
-                    </Accordion.Panel>
-                        </Accordion.Section>
-                        <Accordion.Section id="recurit-trans-expenses">
-                    <Accordion.Title>
-                                <strong>
-                                TASAS DE RECLUTAMIENTO Y GASTOS DE TRANSPORTE
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
+
+                </ExampleInAction>
+                <br />
+                <ExampleInAction id="rst1">
+                    <h3>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            TASAS DE RECLUTAMIENTO Y GASTOS DE TRANSPORTE
+                            Ejemplo en acci&oacute;n:{" "}
+                            <span>
+                                el código de conducta de Primark* de 2019
+                            </span>
                         </strong>
-                        : No se cobrar&aacute; tasa ni gasto alguno a los
-                        trabajadores en concepto de reclutamiento, directo o
-                        indirecto, total o parcial, ni siquiera los gastos
-                        vinculados al traslado al pa&iacute;s de destino, ni por
-                        cursar tr&aacute;mite a la documentaci&oacute;n relativa
-                        al trabajo ni las visas de trabajo en los pa&iacute;ses
-                        de origen y destino. Una vez concluido el plazo del
-                        contrato de trabajo, se brindar&aacute; a los
-                        trabajadores el transporte necesario para que regresen a
-                        su pa&iacute;s de origen, o se les solventar&aacute; el
-                        gasto correspondiente.
-                    </p>
-                    </Accordion.Panel>
-                        </Accordion.Section>
-                        <Accordion.Section id="contract-emp">
-                    <Accordion.Title>
-                                <strong>
-                                CONTRATOS DE TRABAJO
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
+                    </h3>
                     <p>
-                        <strong>CONTRATOS DE TRABAJO</strong>: Los trabajadores
-                        migrantes recibir&aacute;n contratos de trabajo escritos
-                        en su idioma materno, en los que se indicar&aacute;
-                        claramente cu&aacute;les son sus derechos y
-                        responsabilidades, as&iacute; como las condiciones de
-                        empleo, como el salario, las prestaciones, el horario de
-                        trabajo, el lugar de trabajo, el alojamiento, la
-                        vivienda y los gastos conexos, los peligros relacionados
-                        con el trabajo y dem&aacute;s condiciones de empleo y
-                        del trabajo.
+                    Los ejemplos de disposiciones del código de conducta en materia de trabajo forzoso y trabajo infantil se tomaron del&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.primark.com/en/our-ethics/code-of-conduct"
+                    >
+                    Código de Conducta de Primark
+                    </a>.
                     </p>
                     <p>
-                        Los trabajadores migrantes recibir&aacute;n copia del
-                        contrato de trabajo en su idioma materno al menos cinco
-                        d&iacute;as antes de partir. Los trabajadores que tengan
-                        dificultades para comprender el contrato escrito
-                        escuchar&aacute;n una explicaci&oacute;n verbal de los
-                        t&eacute;rminos y las condiciones contractuales.
+                    <strong>Empleo libremente elegido</strong>
+                    <ol>
+                    <li>No puede haber trabajo forzoso ni obligatorio en ninguna de sus formas (en régimen de servidumbre, utilizando víctimas de la trata o reclusos) y las horas extra deben ser voluntarias.</li>
+                    <li>Toda comisión relacionada con el empleo del trabajador debe ser pagada por el empleador.</li>
+                    <li>No se puede obligar a los trabajadores a realizar depósitos monetarios de ningún tipo ni a entregar sus documentos de identidad al empleador</li>
+                    <li>Los trabajadores deben ser libres de desvincularse laboralmente tras un plazo razonable de preaviso.</li>
+                    </ol>
                     </p>
                     <p>
-                        Queda terminantemente prohibido usar acuerdos
-                        complementarios, sustituir contratos o que el empleador
-                        use acuerdos complementarios para reemplazar a un
-                        contrato original o a alguna de sus disposiciones por un
-                        contrato o t&eacute;rminos nuevos que resulten menos
-                        favorables para el trabajador. El per&iacute;odo de
-                        preaviso obligatorio para que los trabajadores puedan
-                        rescindir el contrato de manera anticipada no
-                        superar&aacute; un mes, y una vez que los trabajadores
-                        migrantes hayan comenzado a trabajar, no se los
-                        podr&aacute; sancionar por rescindir el contrato de
-                        manera anticipada si avisan con la antelaci&oacute;n
-                        indicada.
-                    </p>
-                    <p>
-                        Se anular&aacute; el requisito de preaviso en
-                        situaciones en que el trabajador haya sufrido
-                        hostigamiento o abuso, o si es v&iacute;ctima de la
-                        trata de personas. En esos casos, el empleador
-                        adem&aacute;s deber&aacute; sufragar los gastos de
-                        transporte de regreso en que incurra el trabajador
-                        afectado.
-                    </p>
-                    </Accordion.Panel>
-                        </Accordion.Section>
-                        <Accordion.Section id="retention-emp-doc">
-                    <Accordion.Title>
-                                <strong>
-                                RETENCI&Oacute;N DE DOCUMENTOS PERSONALES
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>
-                            RETENCI&Oacute;N DE DOCUMENTOS PERSONALES
-                        </strong>
-                        : Queda terminantemente prohibido confiscar, destruir,
-                        retener o de alguna otra manera denegar a los
-                        trabajadores acceso a sus documentos de identidad o
-                        inmigraci&oacute;n, incluidos los permisos de trabajo y
-                        documentaci&oacute;n de viaje (como pasaportes).
-                    </p>
-                    <p>
-                        Los trabajadores deben tener un lugar donde puedan
-                        guardar bajo llave sus documentos de identidad y otros
-                        objetos de valor y tener acceso a ellos en todo momento.
-                    </p>
-                    </Accordion.Panel>
-                        </Accordion.Section>
-                        <Accordion.Section id="deposits">
-                    <Accordion.Title>
-                                <strong>
-                                DEP&Oacute;SITOS
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>DEP&Oacute;SITOS</strong>: No se podr&aacute;
-                        exigir a los trabajadores migrantes que efect&uacute;en
-                        dep&oacute;sitos de dinero ni pagos en concepto de
-                        seguridad, ni que se les deduzca parte de su
-                        remuneraci&oacute;n en ning&uacute;n momento como
-                        condici&oacute;n para obtener o conservar un trabajo.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="human-treatment">
-                    <Accordion.Title>
-                                <strong>
-                                TRATO HUMANO
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>TRATO HUMANO</strong>: El lugar de trabajo
-                        estar&aacute; exento de cualquier forma de trato severo
-                        o inhumano. Se deber&aacute;n definir y comunicar
-                        claramente a todos los trabajadores las pol&iacute;ticas
-                        y los procedimientos disciplinarios, que no
-                        podr&aacute;n comprender medidas disciplinarias
-                        inhumanas, como los castigos corporales, la
-                        coacci&oacute;n mental o f&iacute;sica, ni el maltrato
-                        verbal de los trabajadores. Queda terminantemente
-                        prohibido el uso o la amenaza de violencia f&iacute;sica
-                        o sexual, hostigamiento e intimidaci&oacute;n de un
-                        trabajador, su familia o asociados allegados. Los
-                        procesos disciplinarios no pueden comprender sanciones
-                        que redunden en una reducci&oacute;n salarial,
-                        reducci&oacute;n de las prestaciones ni trabajo
-                        obligatorio.{" "}
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="workplace-eql">
-                    <Accordion.Title>
-                                <strong>
-                                IGUALDAD EN EL LUGAR DE TRABAJO
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>IGUALDAD EN EL LUGAR DE TRABAJO</strong>: Todos
-                        los trabajadores, independientemente de su nacionalidad
-                        o condici&oacute;n jur&iacute;dica, recibir&aacute;n un
-                        trato justo y equitativo. Los trabajadores migrantes
-                        gozar&aacute;n de condiciones de trabajo que no sean
-                        menos favorables que las que se confieren a los
-                        naturales del pa&iacute;s (como salarios, prestaciones y
-                        vivienda). Ni los trabajadores migrantes ni sus
-                        familiares recibir&aacute;n amenazas de ser denunciados
-                        a las autoridades para obligarlos a aceptar o conservar
-                        un trabajo.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="wage-benifit">
-                    <Accordion.Title>
-                                <strong>
-                                SALARIOS Y PRESTACIONES
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>SALARIOS Y PRESTACIONES</strong>: Todos los
-                        trabajadores recibir&aacute;n al menos el salario
-                        m&iacute;nimo exigido por la legislaci&oacute;n
-                        aplicable y recibir&aacute;n todas las prestaciones
-                        dispuestas por ley. El pago del salario se har&aacute;
-                        en intervalos peri&oacute;dicos y de manera directa a
-                        los trabajadores, de conformidad con la
-                        legislaci&oacute;n aplicable, si existe, y no se
-                        podr&aacute; demorar, diferir ni retener.{" "}
-                    </p>
-                    <p>
-                        &Uacute;nicamente se permiten las deducciones, los
-                        adelantos y pr&eacute;stamos autorizados por la
-                        legislaci&oacute;n nacional y, si se efect&uacute;an o
-                        disponen, se har&aacute;n con pleno consentimiento y
-                        comprensi&oacute;n de los trabajadores. Al momento de
-                        contratar a los trabajadores se les comunicar&aacute; el
-                        horario de trabajo, el salario que percibir&aacute;n y
-                        un c&aacute;lculo de las deducciones legales.
-                    </p>
-                    <p>
-                        Todos los trabajadores deben poseer pleno control de los
-                        ingresos percibidos. No se pueden usar las deducciones
-                        salariales para mantener a los trabajadores vinculados a
-                        sus empleadores ni al trabajo. No se mantendr&aacute; a
-                        los trabajadores en condici&oacute;n de servidumbre por
-                        deudas ni se los obligar&aacute; a trabajar para
-                        cancelar una deuda. Queda prohibido proceder con
-                        enga&ntilde;os en los compromisos salariales, el pago,
-                        los adelantos y los pr&eacute;stamos.{" "}
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="working-hours">
-                    <Accordion.Title>
-                                <strong>
-                                HORARIO DE TRABAJO
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>HORARIO DE TRABAJO</strong>: No se
-                        obligar&aacute; a los trabajadores a trabajar m&aacute;s
-                        horas que las que permite la legislaci&oacute;n
-                        nacional. Ante un vac&iacute;o legal, el horario de
-                        trabajo no superar&aacute; las ocho horas diarias ni las
-                        48 semanales, y el total de horas trabajadas, incluidas
-                        las horas extraordinarias, no superar&aacute; las 60.
-                    </p>
-                    <p>
-                        Las horas extraordinarias tendr&aacute;n un
-                        car&aacute;cter meramente voluntario a menos que sean
-                        parte de un convenio de negociaci&oacute;n colectiva
-                        legalmente reconocido. No se obligar&aacute; a
-                        ning&uacute;n trabajador a hacer horas extraordinarias
-                        bajo amenaza de sanci&oacute;n, despido o denuncia a las
-                        autoridades. No se obligar&aacute; a ning&uacute;n
-                        trabajador a hacer horas extraordinarias como medida
-                        disciplinaria o por no haber alcanzado las cuotas de
-                        producci&oacute;n.{" "}
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="freedom-move-personal">
-                    <Accordion.Title>
-                                <strong>
-                                LIBERTAD DE CIRCULACI&Oacute;N Y LIBERTAD PERSONAL
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>
-                            LIBERTAD DE CIRCULACI&Oacute;N Y LIBERTAD PERSONAL
-                        </strong>
-                        : Los trabajadores tendr&aacute;n acceso irrestricto a
-                        art&iacute;culos de primera necesidad, como agua potable
-                        y ba&ntilde;os, durante el horario de trabajo y fuera de
-                        &eacute;l, en el lugar de trabajo o en la vivienda
-                        brindada o facilitada por el empleador.{" "}
-                    </p>
-                    <p>
-                        La libertad de circulaci&oacute;n de los trabajadores no
-                        estar&aacute; sometida a restricciones irrazonables. No
-                        se encerrar&aacute; a ning&uacute;n trabajador en el
-                        lugar de trabajo ni en las instalaciones afines, (como
-                        residencias operadas por el empleador o el reclutador)
-                        ni se emplear&aacute; ning&uacute;n otro medio de
-                        coacci&oacute;n para coartar la libertad de
-                        circulaci&oacute;n o la libertad personal de los
-                        trabajadores.
-                    </p>
-                    <p>
-                        A no ser que as&iacute; lo exija la legislaci&oacute;n,
-                        como condici&oacute;n de empleo no se podr&aacute;
-                        exigir que los trabajadores residan en la vivienda
-                        brindada o facilitada por el empleador.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="grievance-procedure">
-                    <Accordion.Title>
-                                <strong>
-                                PROCEDIMIENTO DE PRESENTACI&Oacute;N DE
-                            RECLAMACIONES
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>
-                            PROCEDIMIENTO DE PRESENTACI&Oacute;N DE
-                            RECLAMACIONES
-                        </strong>
-                        : Se establecer&aacute; un procedimiento eficaz y
-                        confidencial de presentaci&oacute;n de reclamaciones a
-                        fin de garantizar que cualquier trabajador, por su
-                        propia cuenta o con otros trabajadores, pueda presentar
-                        una reclamaci&oacute;n sin sufrir prejuicios ni
-                        represalias. El procedimiento de presentaci&oacute;n de
-                        reclamaciones incluir&aacute; un proceso de
-                        apelaci&oacute;n para los trabajadores que est&eacute;n
-                        en desacuerdo con la manera en que se resolvi&oacute;
-                        una reclamaci&oacute;n.{" "}
-                    </p>
-                    <p>
-                        Los mecanismos para presentar reclamaciones se
-                        ofrecer&aacute;n en el idioma materno del trabajador y
-                        deber&aacute;n poder hacerse de manera an&oacute;nima.{" "}
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="pvt-emp-agencies-labor-rect">
-                    <Accordion.Title>
-                                <strong>
-                                AGENCIAS DE EMPLEO PARTICULARES Y RECLUTADORES DE
-                            OBREROS
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>
-                            AGENCIAS DE EMPLEO PARTICULARES Y RECLUTADORES DE
-                            OBREROS
-                        </strong>
-                        : Siempre que sea posible, las empresas deben contratar
-                        a los trabajadores de manera directa. Cuando sea
-                        necesario recurrir a la subcontrataci&oacute;n, las
-                        empresas deber&aacute;n garantizar que las agencias de
-                        empleo que contraten operen legalmente, est&eacute;n
-                        certificadas o matriculadas por una autoridad competente
-                        en el pa&iacute;s en que operan, no cobren tasas de
-                        reclutamiento, usen &uacute;nicamente a empleados
-                        capacitados y no se presten a las pr&aacute;cticas de
-                        reclutamiento fraudulento que dejen a los trabajadores
-                        expuestos a los riesgos de la trata de seres humanos y
-                        la explotaci&oacute;n sexual.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="emp-awar-traning">
-                    <Accordion.Title>
-                                <strong>
-                                CONCIENTIZACI&Oacute;N Y CAPACITACI&Oacute;N DE LOS
-                            EMPLEADOS
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>
-                            CONCIENTIZACI&Oacute;N Y CAPACITACI&Oacute;N DE LOS
-                            EMPLEADOS
-                        </strong>
-                        : Se deben comunicar los derechos y las
-                        responsabilidades a los trabajadores en el momento de
-                        contratarlos, incluidos los t&eacute;rminos y las
-                        condiciones del contrato de empleo, las disposiciones
-                        del presente C&oacute;digo y todas las leyes y
-                        reglamentaciones aplicables en el pa&iacute;s de origen,
-                        el pa&iacute;s donde se realizar&aacute; el trabajo y el
-                        pa&iacute;s o la jurisdicci&oacute;n que contrate el
-                        trabajo.
-                    </p>
-                    <p>
-                        Cuando los trabajadores llegan al pa&iacute;s de
-                        destino, se les debe ense&ntilde;ar las reglas y los
-                        procedimientos de la empresa en el lugar de trabajo, el
-                        proceso de presentaci&oacute;n de reclamaciones, los
-                        arreglos en materia de vivienda (si la empresa la brinda
-                        o la facilita) y las condiciones de trabajo, como los
-                        peligros de seguridad e higiene, as&iacute; como las
-                        precauciones que deben tomar por seguridad personal. Se
-                        debe informar a los trabajadores que la empresa
-                        proh&iacute;be mantener actos sexuales por dinero.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    </Accordion>
-                    <p>
-                        <strong>
-                            Fuente: Instrumento de abastecimiento responsable 1,{" "}
-                        </strong>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.responsiblesourcingtool.org/codeofconduct"
-                            title="Instrumento 1, Ejemplo de disposiciones del c&oacute;digo de conducta"
-                        >
-                            <strong>
-                                Ejemplo de disposiciones del c&oacute;digo de
-                                conducta
-                            </strong>
-                        </a>
-                        <strong>.</strong>
-                    </p>
-                    <p>
-                        <strong>
-                            V&eacute;ase tambi&eacute;n el instrumento de
-                            abastecimiento responsable 1A,{" "}
-                        </strong>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.responsiblesourcingtool.org/recruitmentandemployment"
-                            title=" Ejemplos de par&aacute;metros de referencia de buenas pr&aacute;cticas en la contrataci&oacute;n y el empleo"
-                        >
-                            <strong>
-                                Ejemplos de par&aacute;metros de referencia de
-                                buenas pr&aacute;cticas en la
-                                contrataci&oacute;n y el empleo
-                            </strong>
-                        </a>
-                        <strong>.</strong>
-                    </p>
-                    <p>
-                        La p&aacute;gina{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://responsiblesourcingtool.org/"
-                            title="ResponsibleSourcingTool.org"
-                        >
-                            ResponsibleSourcingTool.org
-                        </a>{" "}
-                        se cre&oacute; gracias a una colaboraci&oacute;n entre
-                        el Departamento de Estado de los Estados Unidos,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.verite.org/"
-                            title="Verit&eacute;"
-                        >
-                            Verit&eacute;
-                        </a>
-                        ,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://madeinafreeworld.com/"
-                            title="Made in a Free World"
-                        >
-                            Made in a Free World
-                        </a>{" "}
-                        y el{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.aspeninstitute.org/"
-                            title="Aspen Institute"
-                        >
-                            Aspen Institute
-                        </a>
-                        . El contenido de RST fue aportado por Verit&eacute;,
-                        organizaci&oacute;n dedicada a los derechos laborales
-                        con conocimientos especializados en la cadena de
-                        suministro, con fondos de la Oficina del Departamento de
-                        Estado para Controlar y Combatir la Trata de Personas
-                        con arreglo al acuerdo de cooperaci&oacute;n
-                        S-SJTIP-13-CA-1029
-                        <strong>.</strong> En la elaboraci&oacute;n de esta
-                        p&aacute;gina se cont&oacute; con los aportes de varios
-                        expertos de dependencias p&uacute;blicas de los Estados
-                        Unidos, como los departamentos de Estado y Trabajo, y
-                        otros interesados principales, como sobrevivientes de la
-                        trata, dirigentes de empresas y ONG, personal de
-                        adquisiciones y oficiales de contrataci&oacute;n de la
-                        instancia federal.
+                    <strong>Prohibición de usar el trabajo infantil</strong>
+                    <ol>
+                    <li>No se puede contratar ni utilizar el trabajo infantil.</li>
+                    <li>En cualquier país, la edad mínima para trabajar, así como las reglas que rigen el empleo de un trabajador joven, se definirán de conformidad con los convenios de la
+                     OIT o con la legislación nacional o regional, el que confiera mayor protección a la persona. Para aclarar, en este contexto por trabajador joven se entiende todo aquel que tiene edad legal para trabajar pero que aún no ha cumplido 18 años.</li>
+                    <li>Las empresas deben contar con políticas y programas que eviten la contratación y el empleo de trabajo infantil.</li>
+                    </ol>
                     </p>
                 </ExampleInAction>
             </div>

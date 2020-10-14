@@ -49,63 +49,32 @@ const es = () => {
                         migrantes de Patagonia*
                     </h2>
                     <p>
-                        Cuando tras las auditor&iacute;as de 2011 se
-                        descubri&oacute; que hab&iacute;a indicios de trabajo
-                        forzoso, trata de seres humanos y explotaci&oacute;n
-                        laboral en las f&aacute;bricas de los proveedores de
-                        Patagonia en Taiw&aacute;n, la empresa de indumentaria
-                        para actividades al aire libre se dio cuenta de que a
-                        pesar de contar con un c&oacute;digo de conducta para
-                        proveedores, necesitaba normas m&aacute;s estrictas.
-                        Patagonia colabor&oacute; con Verit&eacute;*, ONG que
-                        promueve condiciones de trabajo seguras, justas y
-                        legales en todo el mundo, para investigar a fin de
-                        comprender la situaci&oacute;n de los trabajadores
-                        migrantes en su cadena de suministro. Al enterarse de
-                        que muchos trabajadores migrantes eran v&iacute;ctimas
-                        de un sistema de reclutamiento que los somet&iacute;a a
-                        la explotaci&oacute;n ya que se les cobraba tasas
-                        excesivas que deb&iacute;an pagar a los intermediarios y
-                        los volv&iacute;a vulnerables a la servidumbre por
-                        deudas, Patagonia formul&oacute; normas integrales para
-                        estos trabajadores. Gracias a esas normas, se
-                        proh&iacute;be que las f&aacute;bricas de los
-                        proveedores cobren tasas de reclutamiento;
-                        adem&aacute;s, se refieren a una serie de otros temas
-                        pertinentes para los trabajadores migrantes, como el
-                        alojamiento, las condiciones de trabajo, el salario y
-                        los procedimientos de presentaci&oacute;n de
-                        reclamaciones. Las{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/static/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw604fc14d/PDF-US/Migrant_Worker_Employment_Standards.pdf"
-                            title="Normas de empleo de trabajadores migrantes"
-                        >
-                            normas de empleo de trabajadores migrantes
-                        </a>{" "}
-                        de Patagonia est&aacute;n a disposici&oacute;n del
-                        p&uacute;blico.
+                        Cuando tras las auditorías de 2011 se descubrió que había indicios de trabajo forzoso,
+                        trata de seres humanos y explotación laboral en las fábricas de los proveedores de Patagonia
+                        en Taiwán, la empresa de indumentaria para actividades al aire libre se dio cuenta de que a
+                        pesar de contar con un código de conducta para proveedores, necesitaba normas más estrictas.
+                        Patagonia colaboró con Verité*, ONG que promueve condiciones de trabajo seguras, equitativas y
+                        legales en todo el mundo, para llevar a cabo estudios de investigación que permitan comprender mejor
+                        la situación de los trabajadores migrantes en su cadena de suministro. Al enterarse de que muchos
+                        trabajadores migrantes eran víctimas de un sistema de reclutamiento que los sometía a la explotación
+                        ya que se les cobraba tasas excesivas que debían pagar a los intermediarios y los volvía vulnerables
+                        a la servidumbre por deudas, Patagonia formuló normas integrales para estos trabajadores. Gracias
+                        a esas normas, se prohíbe que las fábricas de los proveedores cobren comisiones de contratación;
+                        además, se refieren a una serie de otros temas pertinentes para los trabajadores migrantes, como
+                        alojamiento, condiciones de trabajo, salario y procedimientos de reclamación. Las normas de empleo
+                        sobre los trabajadores migrantes de Patagonia están a disposición del público y están pasando por un
+                        proceso de modificación en 2020. Patagonia afirma que gracias al trabajo que realiza con sus proveedores
+                        para implementar la norma y gracias a que hay otras marcas que se están sumando a la iniciativa,
+                         “Patagonia logró avances considerables en lograr que sus proveedores pasaran a un sistema en que los
+                         trabajadores no pagan las comisiones de contratación”.
                     </p>
                     <p>
-                        Para obtener m&aacute;s informaci&oacute;n, v&eacute;ase
-                        el art&iacute;culo (en ingl&eacute;s) Patagonia:{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/blog/2015/06/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/"
-                            title="<i>T</i><i>he Unacceptably High Cost of Labor- How a deeper dive into our supply chain led to a new Migrant Worker Standard</i>."
-                        >
-                            <em>
-                                <i>
-                                    The Unacceptably High Cost of Labor- How a
-                                    deeper dive into our supply chain led to a
-                                    new Migrant Worker Standard
-                                </i>
-                            </em>
-                        </a>
-                        <em>.</em>
+                    Fuente: https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html.
                     </p>
+                    <p>
+                    Fuente: https://www.patagonia.com/our-footprint/migrant-workers.html.
+                    </p>
+
                 </ExampleInAction>
                 <p>
                     Un documento de pol&iacute;tica importante que se centra en
@@ -218,7 +187,7 @@ const es = () => {
                         >
                             Responsible Recruitment Gateway
                         </a>
-                        .
+                        &nbsp;en https://www.ihrb.org/employerpays/.
                     </p>
                 </ExampleInAction>
                 <p>

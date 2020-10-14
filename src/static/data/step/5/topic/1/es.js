@@ -9,75 +9,27 @@ const es = () => {
             <div>
                 <h1>Acuerdos marco internacionales (IFA)</h1>
                 <p>
-                    Los IFA, tambi&eacute;n denominados acuerdos marco mundiales
-                    (GFA), son diferentes de los c&oacute;digos de conducta de
-                    una empresa dado que son instrumentos <em>negociados</em>{" "}
-                    entre empresas multinacionales y federaciones sindicales
-                    mundiales con el prop&oacute;sito de garantizar que las
-                    empresas se comprometan a respetar un n&uacute;mero de
-                    principios centrales que abarcan las relaciones laborales y
-                    las condiciones laborales. Los IFA var&iacute;an pero se
-                    basan en las normas fundamentales del trabajo de la OIT, con
-                    especial hincapi&eacute; en dos categor&iacute;as amplias de
-                    normas: a) principios y derechos fundamentales del trabajo
-                    (libertad sindical, negociaci&oacute;n colectiva, no
-                    discriminaci&oacute;n, abolici&oacute;n del trabajo forzoso,
-                    eliminaci&oacute;n del trabajo infantil) y plazos y
-                    condiciones m&iacute;nimas de empleo (horario de trabajo,
-                    salarios, seguridad y salud en el trabajo) y b) otras
-                    condiciones laborales: movilidad y cuestiones conexas, como
-                    capacitaci&oacute;n, seguridad en el empleo,
-                    subcontrataci&oacute;n y reestructuraci&oacute;n.&nbsp;
+                    Los IFA, también denominados acuerdos marco mundiales (GFA), son diferentes de
+                    los códigos de conducta de una empresa dado que son instrumentos negociados entre
+                    empresas multinacionales y federaciones sindicales mundiales con el propósito de
+                    garantizar que las empresas se comprometan a respetar un número de principios centrales
+                    que abarcan las relaciones laborales y las condiciones laborales. Los IFA varían pero se
+                    basan en las normas fundamentales del trabajo de la OIT, con especial hincapié en dos
+                    categorías amplias de normas: a) principios y derechos fundamentales del trabajo
+                    (libertad sindical, negociación colectiva, no discriminación, abolición del trabajo forzoso,
+                    eliminación del trabajo infantil) y plazos y condiciones mínimas de empleo (horario de trabajo,
+                    salarios, seguridad y salud en el trabajo) y b) otras condiciones laborales: movilidad y
+                    cuestiones conexas, como capacitación, seguridad en el empleo, subcontratación y reestructuración.
                 </p>
                 <p>
-                    Otro acuerdo reciente que recibi&oacute; atenci&oacute;n
-                    positiva es el{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.industriall-union.org/industriall-global-union-and-hm-sign-global-framework-agreement"
-                        title="Acuerdo marco mundial"
-                    >
-                        acuerdo marco mundial
-                    </a>{" "}
-                    entre el sindicato mundial{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.industriall-union.org/"
-                        title="IndustriALL"
-                    >
-                        IndustriALL
-                    </a>{" "}
-                    y el minorista de indumentaria Hennes &amp; Mauritz, que
-                    abarca a 1,6 millones de trabajadores de la industria de la
-                    vestimenta. Mediante el acuerdo se promueven los convenios
-                    de negociaci&oacute;n colectiva en las instancias de la
-                    empresa y de las f&aacute;bricas, se confiere a los
-                    trabajadores el derecho expl&iacute;cito de rehusarse a
-                    realizar trabajos peligrosos, se proh&iacute;be discriminar
-                    a los representantes de los trabajadores y se garantiza que
-                    los representantes tanto gerenciales como sindicales reciban
-                    capacitaci&oacute;n en las responsabilidades patronales, los
-                    derechos y las obligaciones de los trabajadores, relaciones
-                    con la industria, convenios de negociaci&oacute;n colectiva
-                    y resoluci&oacute;n pac&iacute;fica de conflictos, entre
-                    otros temas. El primer IFA fue firmado en 1988 por la
-                    empresa francesa transnacional de alimentos BSN (que
-                    pas&oacute; a llamarse Danone en 1994) y la Uni&oacute;n
-                    Internacional de los Trabajadores de la Alimentaci&oacute;n,
-                    Agr&iacute;colas, Hoteles, Restaurantes, Tabaco y Afines
-                    (UITA). Las partes acordaron que el IFA abarcar&iacute;a a
-                    todas las operaciones mundiales, que en 2008 afectaban a
-                    cerca de 100.000 empleados a nivel mundial. En el acuerdo
-                    inicial se indic&oacute; que ambas partes
-                    propiciar&iacute;an iniciativas coordinadas en torno a
-                    cuestiones como formaci&oacute;n de capacidades en el
-                    trabajo, coordinaci&oacute;n de informaci&oacute;n en los
-                    pa&iacute;ses, garant&iacute;a de la equidad entre los sexos
-                    y aplicaci&oacute;n de los derechos sindicales, seg&uacute;n
-                    las definiciones en convenios espec&iacute;ficos de la OIT.
-                    En marzo de 2016,{" "}
+                    El primer IFA fue firmado en 1988 por la empresa francesa transnacional de alimentos BSN
+                    (que pasó a llamarse Danone* en 1994) y la Unión Internacional de los Trabajadores de la
+                    Alimentación, Agrícolas, Hoteles, Restaurantes, Tabaco y Afines* (UITA). Las partes acordaron
+                    que el IFA abarcaría a todas las operaciones mundiales, que en 2008 afectaban a cerca de 100.000
+                    empleados a nivel mundial. En el acuerdo inicial se indicó que ambas partes propiciarían iniciativas
+                    coordinadas en torno a cuestiones como formación de capacidades en el trabajo, coordinación de información
+                    en los países, garantía de la equidad entre los sexos y aplicación de los derechos sindicales, según las
+                    definiciones en convenios específicos de la OIT. En marzo de 2016,{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -85,22 +37,69 @@ const es = () => {
                         title="Danone y la UITA firmaron su d&eacute;cimo acuerdo"
                     >
                         Danone y la UITA firmaron su d&eacute;cimo acuerdo
-                    </a>
-                    , con hincapi&eacute; en el empleo sostenible y los derechos
-                    de los trabajadores, que rige para todas las filiales de la
-                    empresa en el mundo.
+                    </a>,
+                     con hincapié en el empleo sostenible y los derechos de los trabajadores, que rige para todas las filiales de la empresa en el mundo.
                 </p>
                 <ExampleInAction id="eicc">
                                     <h4>
                                         <ExampleInAction.Icon alt="Lightbulb"/>
                                         <strong>
-                                        Ejemplo en acci&oacute;n:
+                                        Ejemplo en acci&oacute;n: Danone* y la UITA*
                                         </strong>
                                     </h4>
                                    <p>
-                                       <b>PLACEHOLDER TEXT</b>
+                                       Por “empleo precario” se entiende aquel en que el plazo es breve o fijo y, en muchos casos, se recurre a la
+                                       subcontratación. Estas condiciones de empleo suelen otorgar menos seguridad y una paga inferior a la que se
+                                       percibe en un puesto permanente, además de prestarse más al abuso y la explotación. El décimo IFA suscrito
+                                       entre Danone y la UITA el 16 de marzo de 2015 rige para todas las filiales de Danone en todo el mundo. Según
+                                       el acuerdo,&nbsp;
+                                       <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="https://www.danone.com/"
+                                       >
+                                       Danone
+                                       </a>
+                                       &nbsp;y la&nbsp;
+                                       <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="www.iuf.org/w/"
+                                       >
+                                       UITA
+                                       </a>
+                                       &nbsp;acordaron las condiciones de empleo precario “con definiciones, procesos y
+                                       metodologías claros”. A tal fin, el IFA limita el uso del empleo temporario a situaciones específicas, como
+                                       “acceso a un nuevo mercado, crisis económica, actividad estacional, competencias específicas necesarias o la adquisición de la empresa”.
+                                       Al mencionar explícitamente esas condiciones puntuales, Danone y la UITA convinieron en promover formas de empleo directo permanentes
+                                       y sostenibles que, según acordaron, constituyen la mejor manera de promover “el pleno disfrute de los derechos fundamentales”.
                                    </p>
                                 </ExampleInAction>
+                                <p>
+                                Otro acuerdo reciente que recibió atención positiva es el&nbsp;
+                                <a
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   href="www.industriall-union.org/industriall-global-union-and-hm-sign-global-framework-agreement"
+                               >
+                                acuerdo marco mundial
+                                </a>
+                                &nbsp;entre el sindicato mundial&nbsp;
+                                <a
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       href="www.industriall-union.org/"
+                                   >
+                                IndustriALL*
+                                </a>
+                                &nbsp;y la cadena
+                                minorista de ropa Hennes & Mauritz (H&M)*, que abarca a 1,6 millones de trabajadores de la industria de la ropa. Con el acuerdo,
+                                se promueven los convenios de negociación colectiva en las instancias de la empresa y de las fábricas, se confiere a los trabajadores
+                                el derecho explícito de rehusarse a realizar trabajos peligrosos, se prohíbe discriminar a los representantes de los trabajadores y se
+                                garantiza que los representantes tanto gerenciales como sindicales reciban capacitación en las responsabilidades patronales, los derechos
+                                y las obligaciones de los trabajadores, relaciones con la industria, convenios de negociación colectiva y resolución pacífica de conflictos,
+                                entre otros temas.
+                                </p>
                 <Accordion id="resources" >
                     <Accordion.Section>
                         <Accordion.Title>Recursos adicionales</Accordion.Title>
