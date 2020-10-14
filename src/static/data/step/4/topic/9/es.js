@@ -304,37 +304,62 @@ const es = () => {
                         la jurisdicci&oacute;n territorial de otro Estado.&nbsp;
                     </p>
                     <p>
-                        La pesca ilegal, no declarada y no reglamentada (INDNR)
-                        se ha convertido en un problema cada vez mayor ya que
-                        agota las reservas mundiales de pescados y mariscos y
-                        crea una situaci&oacute;n de competencia desleal en la
-                        industria, entre otros factores, por la
-                        explotaci&oacute;n de los trabajadores. Los gobiernos se
-                        han esmerado por combatir la pesca INDNR. Por ejemplo,
-                        de conformidad con el reglamento sobre la pesca INDNR de
-                        la Uni&oacute;n Europea, se emiten advertencias,
-                        m&aacute;s conocidas como &ldquo;tarjetas
-                        amarillas&rdquo;, a los pa&iacute;ses que se considera
-                        que no est&aacute;n haciendo lo suficiente para combatir
-                        la pesca INDNR. Al emitir una tarjeta amarilla se inicia
-                        un di&aacute;logo formal con el gobierno en
-                        cuesti&oacute;n sobre las medidas correctivas. El
-                        gobierno de los Estados Unidos tambi&eacute;n adopta
-                        medidas para combatir la pesca INDNR: un equipo de
-                        tareas presidencial abocado a combatir la pesca INDNR
-                        lanz&oacute; un{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf"
-                            title="Plan de acci&oacute;n para aplicar las recomendaciones del equipo de tareas"
-                        >
-                            Plan de acci&oacute;n para aplicar las
-                            recomendaciones del equipo de tareas
-                        </a>
-                        , en virtud del cual los Estados Unidos se encuentran en
-                        el proceso de elaborar un programa de trazabilidad de
-                        pescados y mariscos.
+                        La pesca ilegal, no declarada y no reglamentada (pesca INDNR) es un
+                        problema cada vez mayor. La pesca INDNR evade reglamentos, socava la
+                        gestión y conservación de las pesquerías y pone en peligro la oferta mundial de
+                        alimentos.  Exacerba las prácticas laborales de explotación, lo cual puede tener un
+                        impacto negativo en los salarios y en las condiciones de trabajo de todos los pescadores.
+                        Además, la pesca INDNR puede prestarse para el trabajo forzoso, la trata de personas y el
+                        trabajo infantil. Los gobiernos se han esmerado por combatir la pesca INDNR. Por ejemplo,
+                        de conformidad con el reglamento de la Unión Europea para poner fin a la pesca INDNR, los
+                        países que exportan pescado a la UE o que prestan sus pabellones a buques que importan a
+                        la UE tienen la obligación de cumplir estándares estrictos para la gestión de las pesquerías.
+                        Si no cumplen dichos estándares, se los puede “amonestar”, lo cual significa que su
+                        pescado podría quedar excluido del mercado de la UE.
+                    </p>
+                    <p>
+                    El Gobierno de los Estados Unidos también está adoptando medidas para tratar la problemática de la
+                    pesca INDNR. En 2019, el Congreso de los Estados Unidos aprobó la Ley marítima SAFE (sigla que en
+                    inglés significa “seguridad y rendición de cuentas en todos los puertos”). Mediante esta ley se creó
+                    un grupo de trabajo interinstitucional que brinda a las dependencias del gobierno federal un marco
+                    coordinado para combatir la pesca INDNR y se autorizó una serie de actividades a nivel dependencia.
+                    Entre estas actividades cabe mencionar fomentar la capacidad de los organismos de aplicación de la
+                    ley, mejorar la transparencia y trazabilidad en la cadena de suministro de pescados y mariscos, promover
+                    el uso de la tecnología para combatir la pesca INDNR y fomentar un mejor intercambio de información entre las dependencias y otros organismos.
+                    </p>
+                    <p>
+                    Antes de que se aprobara la Ley SAFE, un equipo de tareas presidencial abocado a combatir la pesca INDNR lanzó un&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf"
+                    >
+                    Plan de acción para aplicar las recomendaciones del equipo de tareas
+                    </a>
+                    , en virtud del cual los Estados Unidos se
+                    encuentran en el proceso de elaborar un programa de trazabilidad de pescados y mariscos. Este programa de trazabilidad,
+                    conocido como&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.fisheries.noaa.gov/international/seafood-import-monitoring-program"
+                    >
+                    Programa de vigilancia y seguimiento de las importaciones de pescados y mariscos
+                    </a>
+                    &nbsp;(Seafood Import Monitoring
+                    Program o SIMP) exige que el importador estadounidense inscrito brinde datos clave (desde el punto de captura hasta el
+                    punto de ingreso al comercio de los Estados Unidos) de trece especies de pescado y productos pesqueros que se identificaron
+                    como vulnerables a la pesca INDNR o al fraude. El cumplimiento se volvió obligatorio a finales de 2018.
+                    </p>
+                    <p>
+                    Fuente:&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.un.org/depts/los/convention_agreements/texts/unclos/convemar_es.pdf"
+                    >
+                    https://www.un.org/depts/los/convention_agreements/texts/unclos/convemar_es.pdf
+                    </a>.
                     </p>
                 </ExampleInAction>
                 <br />
