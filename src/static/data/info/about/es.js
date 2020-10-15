@@ -304,7 +304,7 @@ const es = () => {
                         </Accordion.Title>
                         <Accordion.Panel>
                             <p>
-                                ELa aplicaci&oacute;n est&aacute; dirigida a todas las empresas, as&iacute; como al sector acad&eacute;mico, a 
+                                La aplicaci&oacute;n est&aacute; dirigida a todas las empresas, as&iacute; como al sector acad&eacute;mico, a 
                                 inversionistas, miembros de la sociedad civil y muchos otros. Las que m&aacute;s se beneficiar&aacute;n son 
                                 aquellas que a&uacute;n no cuentan con un sistema de cumplimiento social. Tambi&eacute;n puede ser &uacute;til 
                                 para las empresas que cuentan con sistemas en marcha pero que procuran mejorarlos o las que trabajan con socios 
