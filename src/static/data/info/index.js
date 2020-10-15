@@ -47,7 +47,7 @@ export const Info = {
             content: About.es
         },
         whatAre: {
-            title: "¿Qué son el trabajo infantil y el trabajo forzoso?",
+            title: "Qué se entiende por trabajo infantil y trabajo forzoso",
             keywords: ["Trabajo infantil", "Trabajo forzoso"],
             content: WhatAre.es
         },

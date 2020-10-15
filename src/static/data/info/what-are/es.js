@@ -10,14 +10,11 @@ const es = () => {
             <div>
                 <h1>
                     <strong>
-                        ¿Qu&eacute; son el trabajo infantil y el trabajo
-                        forzoso?
+                        Qué se entiende por trabajo infantil y trabajo forzoso
                     </strong>
                 </h1>
-                <p>Fuente de las normas:</p>
                 <p>
-                    Las normas internacionales sobre el trabajo infantil y el
-                    trabajo forzoso fueron elaboradas por la{" "}
+                    Las normas internacionales sobre el trabajo infantil y el trabajo forzoso fueron elaboradas por la{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -26,9 +23,7 @@ const es = () => {
                     >
                         Organizaci&oacute;n Internacional del Trabajo
                     </a>{" "}
-                    (OIT), organismo especializado de las Naciones Unidas que
-                    re&uacute;ne a representantes del gobierno, empleadores y
-                    trabajadores de{" "}
+                    (OIT), organismo especializado de las Naciones Unidas que reúne a representantes del gobierno, empleadores y trabajadores de{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -37,9 +32,7 @@ const es = () => {
                     >
                         187 Estados miembros
                     </a>{" "}
-                    para fijar normas internacionales del trabajo, elaborar
-                    pol&iacute;ticas e idear programas para promover los
-                    derechos en el trabajo y el empleo digno para todos.
+                    para fijar normas internacionales del trabajo, elaborar políticas e idear programas para promover los derechos en el trabajo y el empleo digno para todos.
                 </p>
                 <Accordion  id="what-are-acc">
                     <Accordion.Section id="child-labor">
@@ -265,12 +258,24 @@ const es = () => {
                             <p />
                             <h3>C&aacute;lculos de trabajo infantil</h3>
                             <p>
-                                Seg&uacute;n los c&aacute;lculos de la OIT, en
-                                2016 en todo el mundo hab&iacute;a 152 millones
-                                de ni&ntilde;os que trabajaban. Todav&iacute;a
-                                no se dispone de las estad&iacute;sticas
-                                mundiales de trabajo infantil de 2016 en
-                                adelante.
+                                Según las&nbsp;
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/wcmsp5/groups/public/@ed_norm/@ipec/documents/publication/wcms_596481.pdf"
+                                >
+                                Estimaciones mundiales sobre el trabajo infantil
+                                </a>
+                                &nbsp;de la OIT, en 2016 hubo 152 millones
+                                de niños trabajadores en todo el mundo. Todavía no se dispone de las estadísticas mundiales de
+                                trabajo infantil de 2016 en adelante. Según las estimaciones más recientes, de los 152 millones de
+                                niños trabajadores, el 70,4% se concentra en el sector agrícola, el 17,2% en el de servicios y el
+                                11,9% en la industria. A nivel regional, África concentra una quinta parte de todos los niños en
+                                situación de trabajo infantil y ostenta el número absoluto más elevado de niños en esa situación:
+                                72 millones. Detrás de África se encuentra la región de Asia y el Pacífico, que concentra al 7% de
+                                todos los niños en situación de trabajo infantil: 62 millones en cifras absolutas. La región de las
+                                Américas, Europa y Asia Central, y los Estados Árabes concentran el resto del trabajo infantil con 11
+                                millones, 6 millones y 1 millón de niños respectivamente que trabajan en condiciones peligrosas.
                             </p>
                             <p />
                             <Accordion >
@@ -628,9 +633,16 @@ const es = () => {
                             <p>
                                 La migraci&oacute;n laboral tambi&eacute;n ha
                                 dado lugar al trabajo forzoso. En todo el mundo,
-                                hay unos 150 millones de trabajadores migrantes
-                                en la fuerza laboral.
-                                <sup>1</sup> Estos trabajadores pueden ser
+                                hay unos&nbsp;
+                                <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.ilo.org/global/publications/books/WCMS_652001/lang--en/index.htm"
+                                    >
+                                150 millones de trabajadores migrantes
+                                en la fuerza laboral mundial
+                                </a>.
+                                Estos trabajadores pueden ser
                                 especialmente vulnerables a los reclutadores
                                 laborales y a otros intermediarios, como grupos
                                 de delincuencia organizada y empleadores que
@@ -700,37 +712,22 @@ const es = () => {
                             </p>
                             <h3>C&aacute;lculos de trabajo forzoso</h3>
                             <p>
-                                Seg&uacute;n c&aacute;lculos de la OIT en 2016,
-                                en todo el mundo hab&iacute;a 25 millones de
-                                v&iacute;ctimas del trabajo forzoso. De estas, 5
-                                millones se encontraban en situaci&oacute;n de
-                                explotaci&oacute;n sexual forzosa con fines
-                                comerciales y 16 millones, en otros tipos de
-                                explotaci&oacute;n laboral en sectores como la
-                                agricultura, la construcci&oacute;n, el trabajo
-                                dom&eacute;stico y la fabricaci&oacute;n. Los 4
-                                millones restantes realizaban distintos tipos de
-                                trabajo forzoso impuestos por el Estado.
-                                <sup>
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="#_ftnref1"
-                                        name="_ftn1"
-                                    >
-                                        [1]
-                                    </a>{" "}
-                                    OIT:&nbsp;
-                                    <em>
-                                        <i>
-                                            ILO Global Estimates on Migrant
-                                            Workers:
-                                        </i>
-                                        &nbsp; <i>Results and Methodology</i>,{" "}
-                                    </em>
-                                    Ginebra, 2015, p.xi
-                                </sup>
+                            Según cálculos de la OIT,&nbsp;
+                            <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/wcmsp5/groups/public/@ed_norm/@ipec/documents/publication/wcms_596485.pdf"
+                                >
+                            en 2016 en todo el mundo había 25 millones de víctimas del trabajo forzoso
+                            </a>
+                            . De estas, casi 5 millones se encontraban en situación de explotación
+                            sexual forzosa con fines comerciales y 16 millones, en otros tipos de
+                            explotación laboral en sectores como la agricultura, la construcción, el
+                            trabajo doméstico y la fabricación. Los 4 millones restantes realizaban
+                            distintos tipos de trabajo forzoso impuestos por el Estado.
+
                             </p>
+
                             <h3>Trata de personas</h3>
                             <p>
                                 La trata de personas se define en el{" "}
