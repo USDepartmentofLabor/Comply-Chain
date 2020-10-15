@@ -14,7 +14,6 @@ const es = () => {
                                    de arreglos y vínculos laborales, pueden utilizarse en la participación
                                    de distintas partes interesadas. A continuación, se destacan algunas funciones típicas que desempeñan las partes interesadas:
                                </p>
-                       <h2>Your Stakeholders</h2>
                        <h3> Empleados de empresas</h3>
                         <ul>
                             <li>
