@@ -154,14 +154,23 @@ const es = () => {
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+                                            href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_SP.pdf"
                                             title="Principios rectores de las Naciones Unidas sobre las empresas y los derechos humanos"
                                         >
                                             Principios rectores de las Naciones
                                             Unidas sobre las empresas y los
                                             derechos humanos
                                         </a>
-                                        , 2011; disponible en https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_SP.pdf.
+                                        , 2011; disponible en{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_SP.pdf"
+                                            title="https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_SP.pdf"
+                                        >
+                                            https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_SP.pdf
+                                        </a>
+                                        .
                                     </p>
                                     <p>
                                         <em>
@@ -198,13 +207,22 @@ const es = () => {
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            href="http://www.oecd.org/corporate/mne/"
+                                            href="https://www.oecd.org/daf/inv/mne/MNEguidelinesESPANOL.pdf"
                                             title="L&iacute;neas Directrices de la OCDE para Empresas Multinacionales, 2011."
                                         >
                                             L&iacute;neas Directrices de la OCDE
                                             para Empresas Multinacionales
                                         </a>
-                                        <em>, </em>2011; disponible en http://www.oecd.org/daf/inv/mne/MNEguidelinesESPANOL.pdf.
+                                        <em>, </em>2011; disponible en{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.oecd.org/daf/inv/mne/MNEguidelinesESPANOL.pdf"
+                                            title="http://www.oecd.org/daf/inv/mne/MNEguidelinesESPANOL.pdf"
+                                        >
+                                            http://www.oecd.org/daf/inv/mne/MNEguidelinesESPANOL.pdf
+                                        </a>
+                                        .
 
                                     </p>
                                     <p>
@@ -253,13 +271,22 @@ const es = () => {
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            href="http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2"
+                                            href="https://www.ifc.org/wps/wcm/connect/4b8d6e5a-2fec-4d16-a375-92bf4feb13d8/PS2_Spanish_2012.pdf?MOD=AJPERES&CVID=k5Lny1"
                                             title="Norma de desempe&ntilde;o 2 de la CFI"
                                         >
                                             Norma de desempe&ntilde;o 2 de la
                                             CFI
                                         </a>
-                                        <em>,</em> 2012; disponible en https://www.ifc.org/wps/wcm/connect/4b8d6e5a-2fec-4d16-a375-92bf4feb13d8/PS2_Spanish_2012.pdf?MOD=AJPERES&CVID=k5Lny1
+                                        <em>,</em> 2012; disponible en{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.ifc.org/wps/wcm/connect/4b8d6e5a-2fec-4d16-a375-92bf4feb13d8/PS2_Spanish_2012.pdf?MOD=AJPERES&CVID=k5Lny1"
+                                            title="https://www.ifc.org/wps/wcm/connect/4b8d6e5a-2fec-4d16-a375-92bf4feb13d8/PS2_Spanish_2012.pdf?MOD=AJPERES&CVID=k5Lny1"
+                                        >
+                                            https://www.ifc.org/wps/wcm/connect/4b8d6e5a-2fec-4d16-a375-92bf4feb13d8/PS2_Spanish_2012.pdf?MOD=AJPERES&CVID=k5Lny1
+                                        </a>
+                                        
                                     </p>
                                 </OwnWords>
             </div>

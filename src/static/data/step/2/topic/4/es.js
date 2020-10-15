@@ -183,7 +183,18 @@ const es = () => {
                                                 Código de conducta de la Responsible Business Alliance, versión 6.0 (2018)
                                             </em>
                                         </a>
-                                        ; disponible en:http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_Spanish.pdf.
+                                        ; disponible en:{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_Spanish.pdf"
+                                            title="http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_Spanish.pdf"
+                                        >
+                                            <em>
+                                            http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_Spanish.pdf
+                                            </em>
+                                        </a>
+                                        .
                                     </p>
                                 </ExampleInAction>
             </div>
