@@ -103,7 +103,7 @@ export const Topics = {
         },
         {
              keywords: [],
-             title: "Key Information Related to Risk and Impact",
+             title: "Información clave relativa al riesgo y el impacto",
              content: Topic9.es
          },
          {
