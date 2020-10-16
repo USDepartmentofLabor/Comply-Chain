@@ -24,7 +24,7 @@ export const StepData = {
        // extraInfo: ExtraInfo.en
     },
     es: {
-        title: "Octavo paso: Notificación del desempeño",
+        title: "Octavo paso: Notificación del desempeño y participación",
         topics: Topics.es,
         keywords: ["Presentación de informes públicos"],
         learningObjectives: [
