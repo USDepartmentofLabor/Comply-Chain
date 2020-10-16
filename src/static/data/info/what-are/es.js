@@ -45,11 +45,9 @@ const es = () => {
                                 menores de 18 a&ntilde;os de edad.
                             </p>
                             <p>
-                                El <strong>trabajo infantil</strong> comprende{" "}
-                                <em>el trabajo de los menores de edad</em>{" "}
-                                conforme se establece en la legislaci&oacute;n
-                                nacional (salvo el trabajo ligero permitido) y
-                                las <em>peores formas de trabajo infantil</em>.
+                                Por <strong>trabajo infantil</strong> se entiende aquel que realiza alguien que se encuentra por
+                                debajo de la edad mínima fijada en la legislación nacional (salvo el trabajo liviano permitido).
+                                El trabajo infantil también abarca las peores <em>formas de trabajo infantil</em>.
                             </p>
                             <p>
                                 El Convenio 138 de la OIT dispone que los
