@@ -42,10 +42,10 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_27555/lang--en/index.htm"
+                            href="https://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_28417/lang--es/index.htm"
                             title="<i>C&oacute;mo hacer negocios respetando el derecho de los ni&ntilde;os a estar libres del trabajo infantil:</i> <i>Herramienta de orientaci&oacute;n de la OIT y la OIE sobre el trabajo infantil destinada a las empresas.</i>"
                         >
-                            http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_1920/lang--es/index.htm
+                            https://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_28417/lang--es/index.htm
                         </a>
                         .
                     </li>
@@ -68,17 +68,17 @@ const es = () => {
                         .
                     </li>
                     <li>
-                        Confederaci&oacute;n Sindical Internacional
+                        Confederaci&oacute;n Sindical Internacional.
                         <em>
-                            . Mini gu&iacute;a de acci&oacute;n: Trabajo forzoso
+                            Mini gu&iacute;a de acci&oacute;n: Trabajo forzoso
                         </em>
                         . 2008; disponible en{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ituc-csi.org/IMG/pdf/guide_forced_labour_EN.pdf"
+                            href="https://www.ilo.org/wcmsp5/groups/public/---ed_norm/---declaration/documents/publication/wcms_116681.pdf"
                         >
-                            https://www.ituc-csi.org/IMG/pdf/mini_guide_CL_final_ES-2.pdf
+                            https://www.ilo.org/wcmsp5/groups/public/---ed_norm/---declaration/documents/publication/wcms_116681.pdf
                         </a>
                         .
                     </li>
@@ -107,9 +107,8 @@ const es = () => {
                         OIM, OSCE y OIT.{" "}
                         <em>
                             <i>
-                                Handbook on Establishing Effective Labour
-                                Migration Policies in Countries of Origin and
-                                Destination.
+                                Manual para la instauraci&oacute;n de pol&iacute;ticas eficaces de migraci&oacute;n 
+                                laboral en los pa&iacute;ses de origen y de destino.
                             </i>
                         </em>{" "}
                         2006; disponible en idioma ingl&eacute;s solamente en{" "}
@@ -127,18 +126,16 @@ const es = () => {
                         OIM y OSCE.{" "}
                         <em>
                             <i>
-                                Training Modules on Labour Migration Management
-                                &ndash; Trainer&rsquo;s Manual
+                            M&oacute;dulos de capacitaci&oacute;n sobre la gesti&oacute;n de la migraci&oacute;n laboral. Manual para instructores 
                             </i>
                         </em>
-                        .<em /> 2011; disponible en idioma ingl&eacute;s
-                        solamente en{" "}
+                        .<em /> 2011; disponible en ingl&eacute;s solamente en{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.iom.int/jahia/webdav/shared/shared/mainsite/published_docs/"
+                            href="https://www.iom.int/jahia/webdav/shared/shared/mainsite/published_docs/brochures_and_info_sheets/Training-Module.pdf"
                         >
-                            https://www.osce.org/eea/92572?download=true
+                            https://www.iom.int/jahia/webdav/shared/shared/mainsite/published_docs/brochures_and_info_sheets/Training-Module.pdf
                         </a>
                         .
                     </li>
@@ -165,20 +162,20 @@ const es = () => {
                                 Justa;
                             </i>{" "}
                         </em>
-                        disponible en idioma ingl&eacute;s solamente en{" "}
+                        disponible en{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://helpwanted.verite.org/helpwanted/toolkit"
+                            href="http://helpwanted.verite.org/es/helpwanted/kit-de-herramientas"
                         >
-                            http://helpwanted.verite.org/helpwanted/toolkit
+                            http://helpwanted.verite.org/es/helpwanted/kit-de-herramientas
                         </a>
                         .
                     </li>
                     <li>
                         Verit&eacute;.{" "}
                         <em>
-                            <i>Instrumento de abastecimiento responsable</i>;{" "}
+                            <i>Responsible Sourcing Tool</i>;{" "}
                         </em>
                         disponible en idioma ingl&eacute;s solamente en{" "}
                         <a
@@ -186,12 +183,12 @@ const es = () => {
                             rel="noopener noreferrer"
                             href="http://responsiblesourcingtool.org/"
                         >
-                            http://www.responsiblesourcingtool.org/codeofconduct
+                            http://responsiblesourcingtool.org/
                         </a>
                         .
                     </li>
                 </ol>
-                <p>
+                {/* <p>
                     <em>
                         *Nota: Toda referencia que se haga en la presente
                         gu&iacute;a a empresas o entidades no gubernamentales
@@ -207,7 +204,7 @@ const es = () => {
                         entidades en todos los &aacute;mbitos
                     </em>
                     .
-                </p>
+                </p> */}
             </div>
         </StaticData>
     );

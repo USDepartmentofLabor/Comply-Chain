@@ -93,7 +93,7 @@ const es = () => {
                                         <strong>
                                             <em>Notificaci&oacute;n</em>
                                         </strong>
-                                        <em> del desempe&ntilde;o</em>
+                                        <em> del desempe&ntilde;o y </em><strong>participación</strong>
                                     </li>
                                 </ol>
                                 <p>
@@ -118,37 +118,11 @@ const es = () => {
                                     sobre estas normas de la OIT.)
                                 </p>
                                 <p>
-                                    La presente aplicaci&oacute;n proporciona
-                                    pautas para lograr sistemas integrales, pero
-                                    se centra en especial en el trabajo infantil
-                                    y el trabajo forzoso, de manera congruente
-                                    con el mandato dispuesto para ILAB en la Ley
-                                    de 2005 de Reautorizaci&oacute;n de la
-                                    Protecci&oacute;n a las V&iacute;ctimas de
-                                    la Trata (TVPRA).
+                                    Esta aplicación contiene pautas para lograr sistemas integrales, pero se centra en
+                                    especial en el trabajo infantil y el trabajo forzoso, de manera congruente con el
+                                    mandato dispuesto para ILAB en la Ley de 2005 de reautorización de la protección a las víctimas de la trata (TVPRA).
                                 </p>
-                                <p>
-                                <em>
-                                    *Nota: Toda referencia que se haga en la
-                                    presente gu&iacute;a a empresas o entidades
-                                    no gubernamentales espec&iacute;ficas es con
-                                    fines informativos &uacute;nicamente a fin
-                                    de demostrar las buenas pr&aacute;cticas
-                                    internacionalmente reconocidas a la fecha de
-                                    lanzamiento de la aplicaci&oacute;n. Las
-                                    referencias a dichas entidades no debe
-                                    interpretarse como un aval oficial del
-                                    Departamento de Trabajo de los Estados
-                                    Unidos a ellas, sus productos ni servicios{" "}
-                                </em>
-                                <em>
-                                    y su menci&oacute;n no debe interpretarse
-                                    como un examen exhaustivo de las
-                                    pr&aacute;cticas que emplean dichas
-                                    entidades en todos los &aacute;mbitos
-                                </em>
-                                <em>.</em>
-                            </p>
+
             </div>
         </StaticData>
     );

@@ -7,14 +7,8 @@ const es = () => {
         <StaticData>
             <div>
                 <h1>
-                    Evaluaci&oacute;n de las causas fundamentales
+                    Combatir las causas fundamentales
                 </h1>
-                <p>
-                    Entre los factores de riesgo externos que una empresa o
-                    industria debe examinar se encuentran las causas
-                    fundamentales que dan lugar al trabajo infantil y al trabajo
-                    forzoso&nbsp;
-                </p>
                 <h2>
                     ¿Cu&aacute;les son las causas fundamentales del trabajo
                     infantil y el trabajo forzoso?
@@ -81,17 +75,37 @@ const es = () => {
                      <Accordion.Panel>
 
                          <p className="indent-margin">
-                             En muchos
-                             pa&iacute;ses, las ni&ntilde;as y las mujeres afrontan
-                             riesgos adicionales de explotaci&oacute;n laboral, como
-                             el trabajo infantil y el trabajo forzoso. Por ejemplo,
-                             el nivel educativo de las mujeres suele ser inferior al
-                             de los hombres del mismo nivel socioecon&oacute;mico y
-                             cultural y los factores sociales pueden limitar su
-                             capacidad de comunicarse con figuras de autoridad. Estos
-                             tipos de desigualdad menoscaban la capacidad de la mujer
-                             de hacer o&iacute;r su voz en defensa de sus derechos
-                             como trabajadoras.
+                             En todo el mundo, las niñas y las mujeres están expuestas a un mayor riesgo de
+                             explotación laboral, como el trabajo infantil y el trabajo forzoso. Las leyes,
+                             políticas y normas sociales discriminatorias pueden imponer obstáculos considerables
+                             al acceso a la educación, a la capacitación y a las redes profesionales, a la participación
+                             en los sindicatos y a la consiguiente ocupación de cargos de dirigentes, así como al ingreso
+                             al mercado laboral con posibilidades de progresar, como ocupar cargos directivos en empresas.
+                             En consecuencia, las mujeres se ven desproporcionadamente representadas en trabajos inestables y
+                             mal remunerados, con pocas protecciones laborales y escasas posibilidades de reparación ante
+                             violaciones de los derechos laborales.
+                         </p>
+                         <p>
+                         En Colombia, el proyecto financiado por el Departamento de Trabajo&nbsp;
+                         <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.dol.gov/agencies/ilab/somos-tesoro-we-are-treasure-project-reduce-child-labor-colombia"
+                            >
+                         Somos Tesoro
+                         </a>
+                         &nbsp;trabaja con más de
+                         3.500 mujeres en comunidades mineras de oro y carbón para reducir su vulnerabilidad a la explotación
+                         laboral y la violencia de género. Ayuda a las mineras artesanales y de pequeña escala, incluidas las
+                         barequeras, a mejorar los métodos que emplean para la extracción minera y dar cumplimiento a los requisitos
+                         legales para esta actividad. Además, el proyecto se asocia con las jefas de hogar para plantar huertas,
+                         lanzar nuevos emprendimientos y desarrollar capacidades para trabajar.  El proyecto Somos Tesoro trabaja
+                         también con los dueños y la gerencia de las minas, los mineros y la Asociación de Mujeres Mineras Emprendedoras*
+                         (AMME) para sensibilizar en temas de violencia de género, elaborar protocolos para los mecanismos de reclamación y
+                         conformar redes de apoyo para ayudar a las mineras a detectar y combatir la discriminación y la violencia de género.
+                         Creada con apoyo del proyecto Somos Tesoro, AMME cuenta con más de 65 mineras que extraen carbón, fabrican ladrillos,
+                         son ingenieras y profesionales ocupacionales y de seguridad. A partir de los éxitos alcanzados, USAID comenzó a
+                         financiar una iniciativa complementaria para fortalecer y ampliar la afiliación a AMME en todo Colombia.
                          </p>
                      </Accordion.Panel>
                  </Accordion.Section>
@@ -320,12 +334,25 @@ const es = () => {
                         <Accordion id="global-health-crisis-acc">
                                           <Accordion.Section id="global-health-crisis-description">
                                             <Accordion.Title>
-                                          Global Health Crises
+                                          Crisis mundial de salud
                                                </Accordion.Title>
                                                <Accordion.Panel>
 
                                                <p className="indent-margin">
-                                                  <b>PLACEHOLDER FOR TEXT </b>
+                                                  Las pandemias, como la del COVID-19, pueden perturbar las
+                                                  cadenas de suministro. La propagación del virus produjo
+                                                  alteraciones considerables en las cadenas mundiales de
+                                                  suministro y afectó la adquisición de insumos y la demanda
+                                                  de los consumidores. Toda perturbación prolongada puede llevar a
+                                                  las empresas a suspender operaciones cuando no consiguen los insumos
+                                                  básicos en la cadena de suministro. Además, el impacto en los trabajadores
+                                                  puede ser considerable cuando las empresas se ven obligadas a cesar sus
+                                                  operaciones. La menor demanda por parte de los consumidores dio lugar a
+                                                  la consiguiente disminución en la demanda de trabajadores en las plantas de
+                                                  producción de la fase inicial. Asimismo, la falta de equipo de protección
+                                                  personal (EPP) adecuado para algunos trabajadores que continuaron en su
+                                                  empleo crea un ambiente de trabajo peligroso que pone en riesgo su salud y seguridad.
+
                                                </p>
                                            </Accordion.Panel>
                                        </Accordion.Section>

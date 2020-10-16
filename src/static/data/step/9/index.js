@@ -67,12 +67,12 @@ export const StepData = {
             {
                 termName: "Examen independiente",
                 termDefinition:
-                    "El examen independiente consta de la vigilancia independiente (auditoría) y la verificación independiente.  En el contexto del cumplimiento social, la independencia está dada por la ausencia de transacciones financieras directas entre la empresa y la entidad externa."
+                    "El examen independiente consta de la vigilancia independiente (auditoría) y la verificación independiente. En el contexto del cumplimiento social, la independencia se refiere a la ausencia de transacciones financieras directas entre la empresa y la entidad externa."
             },
             {
                 termName: "Vigilancia independiente (auditoría)",
                 termDefinition:
-                    "Vigilancia o auditoría realizada por profesionales de la auditoría acreditados por instituciones o mecanismos cuya función consiste en garantizar que se realice la auditoría sin ninguna transacción financiera directa entre la empresa y el auditor. Por lo general, la empresa le paga a una institución separada e independiente por los servicios de auditoría, por afiliarse, o ambos. La institución acredita a los auditores en virtud de normas establecidas y se encarga de programar todas las auditorías y supervisarlas.  Si bien esto está diseñado para aumentar la credibilidad de la auditoría, en algunos sectores o lugares geográficos, tal vez no se pueda coordinar este tipo de arreglo.  Además, incluso sin transacción financiera directa de por medio, algunas partes interesadas pueden tener dudas acerca del grado de independencia entre el auditor y la entidad auditada. Hay distintos grados de independencia y, en definitiva, debe evaluarse caso por caso."
+                    "Los encargados de la vigilancia y el seguimiento, o auditorías, son auditores profesionales acreditados por instituciones o mecanismos cuya función consiste en garantizar que se realice la auditoría sin que medie transacción financiera directa alguna entre la empresa y el auditor. Por lo general, la empresa le paga a una institución separada e independiente por los servicios de auditoría, por afiliarse, o ambos. La institución acredita a los auditores en virtud de normas establecidas y se encarga de programar todas las auditorías y supervisarlas. Si bien está diseñado de esta manera para aumentar la credibilidad de la auditoría, en algunos sectores o lugares geográficos, tal vez no se puedan concertar estos arreglos. Además, incluso sin transacción financiera directa de por medio, algunas partes interesadas pueden tener dudas acerca del grado de independencia entre el auditor y la entidad auditada. Hay distintos grados de independencia y, en definitiva, debe evaluarse caso por caso."
             },
             {
                 termName: "Verificación independiente",
@@ -80,9 +80,9 @@ export const StepData = {
                     "Examen independiente realizado por un tercero (normalmente, un organismo de certificación) de la aplicación y eficacia de las otras actividades del sistema de cumplimiento social."
             },
             {
-                termName: "Organismo de certificación (OC)",
+                termName: "Organismo de certificación",
                 termDefinition:
-                    "Organización acreditada para certificar o verificar el cumplimiento en otra entidad de una norma o un conjunto de normas definidas."
+                    "Órgano acreditado para certificar o verificar el cumplimiento en otra entidad de una norma o un conjunto de normas definidas."
             },
             {
                 termName: "Evaluación del impacto",

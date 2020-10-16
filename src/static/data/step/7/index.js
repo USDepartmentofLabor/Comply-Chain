@@ -48,7 +48,7 @@ export const StepData = {
             {
                 termName: "Auditoría social",
                 termDefinition:
-                    "Proceso de examinar el cumplimiento de las normas estipuladas en el código de conducta de una empresa en un lugar de trabajo específico. El término “auditoría” se emplea a lo largo de la aplicación en referencia a la auditoría social. No debe confundirse con las auditorías financieras o de otro tipo que se realizan en las empresas."
+                    "Proceso de examinar el cumplimiento de las normas estipuladas en el código de conducta de una empresa en un lugar de trabajo específico. El término “auditoría” se emplea a lo largo de la aplicación en referencia a la auditoría social. No debe confundirse con las auditorías financieras o de otro tipo que se realizan en las empresas. Las auditorías sociales son una de las principales maneras (además de la participación de sindicatos y trabajadores y los mecanismos de reclamación) de obtener información sobre infracciones al código de conducta de la empresa en la cadena de suministro. La auditoría revela problemas, no los resuelve. Es uno de los componentes del sistema más amplio de cumplimiento social y no debe realizarse de manera aislada de la participación de las partes interesadas, la comunicación, la remediación y demás pasos del proceso."
             },
             {
                 termName: "Vigilancia y seguimiento",

@@ -36,10 +36,10 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/topics/forced-labour/lang--en/index.htm"
+                            href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
                             title="<i>Lucha contra el trabajo forzoso:</i> <i>Manual para empleadores y empresas</i>"
                         >
-                            http://www.ilo.org/global/topics/forced-labour/lang--es/index.htm
+                            https://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm
                         </a>
                     </li>
                     <li>
@@ -52,7 +52,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/public/english/standards/relm/ilc/ilc90/pdf/rep-vi.pdf"
+                            href="http://www.ilo.org/public/spanish/standards/relm/ilc/ilc90/pdf/rep-vi.pdf"
                             title="El trabajo decente y la econom&iacute;a informal."
                         >
                             http://www.ilo.org/public/spanish/standards/relm/ilc/ilc90/pdf/rep-vi.pdf
@@ -107,7 +107,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/ipecinfo/product/viewProduct.do;?productId=1500"
+                            href="http://www.ilo.org/ipecinfo/product/viewProduct.do?productId=1922"
                             title="Directrices para el desarrollo de procesos de vigilancia y seguimiento del trabajo infantil."
                         >
                             http://www.ilo.org/ipecinfo/product/viewProduct.do?productId=1922
@@ -125,7 +125,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ituc-csi.org/IMG/pdf/guide_forced_labour_EN.pdf"
+                            href="https://www.ituc-csi.org/IMG/pdf/mini_guide_CL_final_ES-2.pdf"
                             title="Mini gu&iacute;a de acci&oacute;n: Trabajo forzoso"
                         >
                             https://www.ituc-csi.org/IMG/pdf/mini_guide_CL_final_ES-2.pdf
@@ -161,14 +161,14 @@ const es = () => {
                                 Justa;
                             </i>{" "}
                         </em>
-                        disponible en idioma ingl&eacute;s solamente en{" "}
+                        disponible en {" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://helpwanted.verite.org/helpwanted/toolkit"
+                            href="http://helpwanted.verite.org/es/helpwanted/kit-de-herramientas"
                             title="<i>Kit de herramientas para la contrataci&oacute;n justa</i>"
                         >
-                            http://helpwanted.verite.org/helpwanted/toolkit
+                            http://helpwanted.verite.org/es/helpwanted/kit-de-herramientas
                         </a>
                         .
                     </li>

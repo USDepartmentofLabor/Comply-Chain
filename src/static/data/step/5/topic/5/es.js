@@ -117,18 +117,13 @@ const es = () => {
                         representantes de empresas, ONG y universidades.&nbsp;
                     </p>
                     <p>
+                    Obtener más información y consultar las principales modificaciones al Código de conducta en el lugar de trabajo y las normas de cumplimiento en una comparación en paralelo con el código anterior en&nbsp;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf"
-                            title="Obtener m&aacute;s informaci&oacute;n y consultar las principales modificaciones al C&oacute;digo de conducta en el lugar de trabajo y los &Iacute;ndices de referencia de cumplimiento en una comparaci&oacute;n en paralelo con el c&oacute;digo anterior"
                         >
-                            Obtener m&aacute;s informaci&oacute;n y consultar
-                            las principales modificaciones al C&oacute;digo de
-                            conducta en el lugar de trabajo y los &Iacute;ndices
-                            de referencia de cumplimiento en una
-                            comparaci&oacute;n en paralelo con el c&oacute;digo
-                            anterior
+                            http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf
                         </a>
                         .
                     </p>

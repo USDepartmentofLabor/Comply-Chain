@@ -16,7 +16,7 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ohchr.org/Documents/Publications/HR.PUB.12.2_En.pdf"
+                            href="http://www.ohchr.org/Documents/Publications/HR.PUB.12.2_sp.pdf"
                             title="La responsabilidad de las empresas de respetar los derechos humanos: Gu&iacute;a para la interpretaci&oacute;n "
                         >
                             http://www.ohchr.org/Documents/Publications/HR.PUB.12.2_sp.pdf
@@ -26,8 +26,8 @@ const es = () => {
                     <li>
                         Du, Shuili, C. B. Bhattacharya y Sankar Sen.{" "}
                         <i>
-                            Maximizing Business Returns to Corporate Social
-                            Responsibility (CSR): The Role of CSR Communication
+                            "Maximizing Business Returns to Corporate Social
+                            Responsibility (CSR): The Role of CSR Communication"
                         </i>
                         . <em>International Journal of Management Reviews</em>{" "}
                         (2010): 8-19.
@@ -36,19 +36,18 @@ const es = () => {
                         FAO y OIT. <em />
                         <em>
                             <i>
-                                Protect Children from Pesticides!: Visual
-                                Facilitator&rsquo;s Guide
+                            &iexcl;Protege a los ni&ntilde;os de los plaguicidas!: Gu&iacute;a visual del facilitador
                             </i>
                             .
                         </em>{" "}
-                        2015; disponible en idioma ingl&eacute;s solamente en{" "}
+                        2015; disponible{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.fao.org/3/a-i3527e.pdf"
+                            href="http://www.fao.org/3/a-i4598s.pdf"
                             title="<i>Protect Children from Pesticides!: Visual Facilitator&rsquo;s Guide</i>"
                         >
-                            http://www.fao.org/3/a-i3527e.pdf
+                            http://www.fao.org/3/a-i4598s.pdf
                         </a>
                         .
                     </li>
@@ -61,7 +60,7 @@ const es = () => {
                                 industry
                             </i>
                         </em>
-                        , sin fecha; disponible en idioma ingl&eacute;s
+                        , sin fecha; disponible en idioma ingl&eacute;s y alem&aacute;n
                         solamente en{" "}
                         <a
                             target="_blank"
@@ -74,44 +73,42 @@ const es = () => {
                         .
                     </li>
                     <li>
-                        Corporaci&oacuten Financiera Internacional.{" "}
+                        Corporaci&oacute;n Financiera Internacional.{" "}
                         <em>
-                            Nota de asesor&iacute;a:{" "}
+                            Good Practice Note:{" "}
                             <em>
-                                Addressing Grievances from Project-Affected
-                                Communities,
+                            Addressing Grievances from Project-Affected Communities
                             </em>
-                        </em>
+                        </em>, 
                         n&uacute;m. 7. 2009<em>;</em> disponible en idioma
                         ingl&eacute;s solamente en{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.ifc.org/wps/wcm/connect/f9019c05-0651-4ff5-9496-c46b66dbeedb/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-f9019c05-0651-4ff5-9496-c46b66dbeedb-jkD0-.g"
+                            href="https://www.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=cbe7b18048855348ae6cfe6a6515bb18"
                             title="Nota de asesor�a: <i>Addressing Grievances from Project-Affected Communities</i>, n&uacute;m. 7."
                         >
-                            https://www.ifc.org/wps/wcm/connect/f9019c05-0651-4ff5-9496-c46b66dbeedb/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-f9019c05-0651-4ff5-9496-c46b66dbeedb-jkD0-.g
+                            https://www.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=cbe7b18048855348ae6cfe6a6515bb18
                         </a>
                         .
                     </li>
                     <li>
-                        OIT y OIE. <em />
+                        OIT y OIE. PYME y Derechos Humanos. &iquest;Cu&aacute;l es la situaci&oacute;n actual, cuales son 
+                        las oportunidades y los desaf&iacute;os y que tipo de apoyo se necesita?
+                        <em />
                         <em>
                             <i>
-                                SMEs and Human Rights: What is the current state
-                                of play, what are the opportunities and
-                                challenge, what kind of support is needed?
+                            Noviembre de 2016
                             </i>
                         </em>{" "}
-                        Noviembre de 2016; disponible en idioma ingl&eacute;s
-                        solamente en{" "}
+                        disponible en{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/wcmsp5/groups/public/---ed_emp/---emp_ent/---ifp_seed/documents/publication/wcms_535220.pdf"
+                            href="https://www.pactomundial.org/wp-content/uploads/2017/01/PYME-y-Derechos-Humanos-003.pdf"
                             title="<i>SMEs and Human Rights: What is the current state of play, what are the opportunities and challenge, what kind of support is needed?</i>"
                         >
-                            http://www.ilo.org/wcmsp5/groups/public/---ed_emp/---emp_ent/---ifp_seed/documents/publication/wcms_535220.pdf
+                            https://www.pactomundial.org/wp-content/uploads/2017/01/PYME-y-Derechos-Humanos-003.pdf
                         </a>
                         .
                     </li>
@@ -138,11 +135,11 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.shiftproject.org/media/resources/docs/Shift_remediationUNGPs_2014.pdf"
+                            href="http://www.respect.international/remediation-grievance-mechanisms-and-the-corporate-responsibility-to-respect-human-rights/"
                             title="<i>Remediation, Grievance Mechanisms and the Corporate Responsibility to Respect Human Rights.</i> "
                         >
                             <em>
-                                https://www.shiftproject.org/media/resources/docs/Shift_remediationUNGPs_2014.pdf
+                            http://www.respect.international/remediation-grievance-mechanisms-and-the-corporate-responsibility-to-respect-human-rights/
                             </em>
                         </a>
                         .

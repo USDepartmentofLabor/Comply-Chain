@@ -37,7 +37,7 @@ const es = () => {
                     auditor&iacute;a derivados de un c&oacute;digo se analizan
                     en{" "}
                     <Link to="/steps/7">
-                        el quinto paso: Vigilancia y seguimiento del
+                        el quinto paso, Vigilancia y seguimiento del
                         cumplimiento.
                     </Link>
                 </p>
@@ -368,29 +368,6 @@ const es = () => {
                     OIT y la Declaraci&oacute;n tripartita de principios sobre
                     las empresas multinacionales y la pol&iacute;tica social.
                 </p>
-                <ExampleInAction id="eicc">
-                        <h4>
-                            <ExampleInAction.Icon alt="Lightbulb"/>
-                            <strong>
-                            Ejemplo en acci&oacute;n:
-                            </strong>
-                        </h4>
-                       <p>
-                           <b>PLACEHOLDER TEXT</b>
-                       </p>
-                    </ExampleInAction>
-                    <br />
-               <ExampleInAction id="eicc">
-                   <h4>
-                       <ExampleInAction.Icon alt="Lightbulb"/>
-                       <strong>
-                       Ejemplo en acci&oacute;n:
-                       </strong>
-                   </h4>
-                  <p>
-                      <b>PLACEHOLDER TEXT</b>
-                  </p>
-               </ExampleInAction>
             </div>
         </StaticData>
     );

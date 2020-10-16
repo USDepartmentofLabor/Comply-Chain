@@ -33,7 +33,7 @@ export const StepData = {
         furtherResources: Resources.en
     },
     es: {
-        title: "Aspectos básicos de un sistema de cumplimiento social",
+        title: "Aspectos básicos del sistema de cumplimiento social",
         topics: Topics.es,
         keywords: ["Responsabilidad social empresarial (RSE)", "Sistema de cumplimiento social", "Cadena de suministro"],
         learningObjectives: [
@@ -47,17 +47,17 @@ export const StepData = {
             {
                 termName: "Responsabilidad social empresarial (RSE)",
                 termDefinition:
-                    "un concepto amplio con el que se procura describir la manera en que las empresas integran las inquietudes sociales y ambientales en sus operaciones, así como su interacción con las partes interesadas al margen de los requisitos legales. También se utilizan muchos otros términos para referirse a estas acciones, como “triple cuenta de resultados”, “sostenibilidad”, “civismo empresarial” y “cuestiones ambientales, sociales y de gobernabilidad”, entre otros. La “rendición de cuentas empresarial” es un término que suele usarse en referencia a las acciones de las empresas que se vinculan más bien con los requisitos legales."
+                    "Concepto amplio con el que se procura describir la manera en que las empresas integran las inquietudes sociales y ambientales en sus operaciones, así como su interacción con las partes interesadas al margen de los requisitos legales. También se utilizan muchos otros términos para referirse a estas acciones, como “triple cuenta de resultados”, “sostenibilidad”, “civismo empresarial” y “cuestiones ambientales, sociales y de gobernanza”, entre otros. La “rendición de cuentas empresarial” es un término que suele usarse en referencia a las acciones de las empresas que se vinculan más bien con los requisitos legales."
             },
             {
                 termName: "Sistema de cumplimiento social",
                 termDefinition:
-                    "Uno de los componentes del programa de RSE, sostenibilidad o rendición de cuentas de una empresa. Un sistema de cumplimiento social es una serie integrada de políticas y prácticas por las que una empresa procura garantizar la máxima adhesión a los elementos de su código de conducta que abarca cuestiones sociales y laborales."
+                    "Es uno de los componentes del programa de RSE, sostenibilidad o rendición de cuentas de una empresa. Un sistema de cumplimiento social es una serie integrada de políticas y prácticas por las que una empresa procura garantizar la máxima adhesión a los elementos de su código de conducta que abarca cuestiones sociales y laborales."
             },
             {
                 termName: "Cadena de suministro",
                 termDefinition:
-                    "una cadena compuesta por todas las organizaciones y los individuos que participan en la producción, el procesamiento, la comercialización, el transporte o la distribución de un producto desde el punto de origen hasta la empresa o hasta el comerciante minorista final."
+                    "Es la cadena, o red, que está integrada por todas las organizaciones y las personas que participan en la fabricación, el procesamiento, la comercialización, el transporte o la distribución de un producto común o básico desde el punto de origen hasta la empresa o hasta el comerciante minorista final. Para consultar ejemplos de distintas cadenas de suministro, véase la representación gráfica de la cadena de suministro en el segundo paso, Evaluación de riesgos e impacto."
             },
         ],
         furtherResources: Resources.es

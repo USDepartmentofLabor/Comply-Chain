@@ -36,7 +36,7 @@ export const Topics = {
     es: [
         {
             keywords: [],
-            title: "The Importance of Violation Remediation",
+            title: "La importancia de reparar las infracciones",
             content: Topic1.es
         },
         {

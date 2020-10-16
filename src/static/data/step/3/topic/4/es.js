@@ -57,26 +57,27 @@ const es = () => {
                             en la extracci&oacute;n de minerales de conflicto en
                             la Rep&uacute;blica Democr&aacute;tica del Congo
                         </a>{" "}
-                        y en la{" "}
+                        así como en la{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.sourcingnetwork.org/the-cotton-pledge"
                             title="producci&oacute;n de algod&oacute;n en Uzbekist&aacute;n"
                         >
-                            producci&oacute;n de algod&oacute;n en
-                            Uzbekist&aacute;n
+                            producción de algodón en Uzbekistán y en Turkmenistán
                         </a>
                         .
                     </p>
+                    <p>Fuente: http://www.sourcingnetwork.org/.</p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction id="res_min_trade">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Ejemplo en acci&oacute;n: Alianza
                             p&uacute;blico-privada para el comercio responsable
-                            de minerales
+                            de minerales*
                         </strong>
                     </h2>
                     <p>
@@ -90,40 +91,35 @@ const es = () => {
                             Alianza p&uacute;blico-privada para el comercio
                             responsable de minerales
                         </a>{" "}
-                        (APP) es una iniciativa de varios interesados lanzada en
-                        2012 que respalda el trazado de rutas definidas y
-                        validadas en la cadena de suministro de minerales, en
-                        especial del esta&ntilde;o, tantalio, tungsteno y oro de
-                        la Rep&uacute;blica Democr&aacute;tica del Congo (RDC) y
-                        los pa&iacute;ses lim&iacute;trofes en la regi&oacute;n
-                        de los Grandes Lagos de &Aacute;frica Central.
-                        Actualmente, la APP est&aacute; conformada por
-                        m&aacute;s de 51 miembros, como el Departamento de
-                        Estado de los Estados Unidos, la Agencia de los Estados
-                        Unidos para el Desarrollo Internacional, empresas,
-                        grupos de la industria, organizaciones de la sociedad
-                        civil y la Conferencia Internacional de la Regi&oacute;n
-                        de los Grandes Lagos (&oacute;rgano regional que
-                        elabor&oacute; sistemas de certificaci&oacute;n de
-                        minerales). Desde su creaci&oacute;n, la APP ha
-                        acompa&ntilde;ado proyectos piloto en la RDC que
-                        promueven el abastecimiento responsable de minerales.
+                        (APP) es una iniciativa de varios interesados lanzada en 2012 que fomenta el
+                        abastecimiento responsable mediante el uso de rutas trazadas y validadas en la
+                        cadena de suministro de minerales, en especial del estaño, tantalio, tungsteno y
+                        oro de la República Democrática del Congo (RDC) y los países limítrofes en la región
+                        de los Grandes Lagos de África Central. Actualmente, la APP cuenta con más de 40 miembros,
+                        entre los que se encuentra el Departamento de Trabajo, el Departamento de Estado, la Agencia
+                        de los Estados Unidos para el Desarrollo Internacional, la Agencia Alemana de Cooperación
+                        Internacional (GIZ), empresas, grupos de la industria, organizaciones de la sociedad civil y
+                        la Conferencia Internacional sobre la Región de los Grandes Lagos. En 2017, la APP redactó un
+                        Memorando de entendimiento (MdE) con el objeto de fomentar aún más la puesta en práctica de
+                        sistemas en las cadenas de suministro de la RDC y la Región de los Grandes Lagos, así como las
+                        condiciones de trabajo y asuntos laborales conexos, en consonancia con la Guía de Debida Diligencia
+                        de la OCDE para Cadenas de Suministro Responsables de Minerales en las Áreas de Conflicto o de Alto
+                        Riesgo. En el MdE se describe la estructura de gobernanza de la APP, así como las funciones y
+                        responsabilidades de sus miembros. La APP está dirigida por un Comité de Gobernanza integrado por
+                        representantes del Gobierno de los Estados Unidos, empresas y la sociedad civil; la ONG Resolve hace las veces de facilitador.
+
                     </p>
                     <p>
-                        Si una empresa opta por formar un grupo de varias partes
-                        interesadas o sumarse a uno ya vigente, es importante
-                        aplicar los mismos principios de gesti&oacute;n
-                        razonable al grupo que al sistema de cumplimiento social
-                        en general. La entidad debe tener metas y objetivos
-                        claros e indicadores de m&eacute;trica o
-                        desempe&ntilde;o para evaluar los avances logrados. Debe
-                        contar con procesos vigentes para la toma de decisiones
-                        y la gobernabilidad, y estos procesos y pol&iacute;ticas
-                        deben documentarse. Al mismo tiempo, debe contar con
-                        miembros definidos con funciones y responsabilidades
-                        espec&iacute;ficas.
+                        Si una empresa opta por formar un grupo de varias partes interesadas o sumarse a uno ya vigente, es importante aplicar
+                        los mismos principios de gestión razonable al grupo que al sistema de cumplimiento social en general. La entidad debe tener
+                        metas y objetivos claros e indicadores de métrica o desempeño para evaluar los avances logrados. Debe contar con procesos claros
+                        para la toma de decisiones y la gobernanza, y estos procesos y políticas deben documentarse y contemplar las horas extra de trabajo.
+                        Además, debe contar con miembros definidos que tengan funciones y responsabilidades claras, así como mecanismos para facilitar la
+                        comunicación interna entre los miembros y difundir información sobre las actividades que realiza el grupo con múltiples partes interesadas.
                     </p>
+                    <p>Fuente: http://www.resolv.org/site-ppa/.</p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction id="sug_phil">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -185,21 +181,14 @@ const es = () => {
                             az&uacute;car.
                         </li>
                         <li>
-                            La Fundaci&oacute;n de la Industria de la
-                            Ca&ntilde;a de Az&uacute;car (SIFI), que brinda
-                            apoyo a los trabajadores del az&uacute;car y a sus
-                            familias en todo el pa&iacute;s, reuni&oacute; a los
-                            interesados en la industria del az&uacute;car (como
-                            plantadores y molineros), a las principales
-                            federaciones y a organismos p&uacute;blicos para que
-                            voluntariamente redactaran c&oacute;digos de
-                            conducta con miras a erradicar el trabajo infantil.
-                            Estos grupos de varias partes interesadas lograron
-                            adoptar c&oacute;digos de conducta en las 3
-                            provincias principales donde se cultiva la
-                            ca&ntilde;a de az&uacute;car, con lo cual llegan a
-                            la mayor&iacute;a de los plantadores y cosechadores
-                            de az&uacute;car del pa&iacute;s.
+                            La Fundación de la Industria de la Caña de Azúcar (SIFI), que brinda apoyo
+                            a los trabajadores del azúcar y a sus familias en todo el país, reunió a los
+                            interesados en la industria del azúcar (como plantadores y molineros), a las
+                            principales federaciones y a organismos públicos para que voluntariamente redactaran
+                            códigos de conducta con miras a erradicar el trabajo infantil. Estos grupos de varias
+                            partes interesadas lograron adoptar códigos de conducta en las 3 provincias principales
+                            donde se cultiva la caña de azúcar, con lo cual llegan a la mayoría de los plantadores y
+                            cosechadores de azúcar del país.
                         </li>
                         <li>
                             SIFI encabez&oacute; las campa&ntilde;as para
@@ -228,7 +217,9 @@ const es = () => {
                     <p className="small-text">
                         &copy;Christopher Leones/ABK3 LEAP
                     </p>
+                    <p>Fuente: https://www.dol.gov/agencies/ilab/abk3-leap-livelihoods-education-advocacy.</p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction>
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -306,6 +297,7 @@ const es = () => {
                         d&eacute;cada y se prev&eacute; que continuar&aacute;
                         aumentando r&aacute;pidamente.
                     </p>
+                    <p>Fuente: http://poig.org/.</p>
                 </ExampleInAction>
             </div>
         </StaticData>

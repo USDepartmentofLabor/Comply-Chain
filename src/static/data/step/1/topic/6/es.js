@@ -18,9 +18,9 @@ const es = () => {
                         href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
                     >
                         Corporaci&oacute;n de Inversiones Privadas en el
-                        Extranjero (OPIC)
+                        Extranjero (DFC)
                     </a>
-                    , de los EE.UU. o la{" "}
+                    , del gobierno de los Estados Unidos, constituida en 2019 y que consolida las funciones de la Corporación de Inversiones Privadas en el Extranjero (OPIC), o de la{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

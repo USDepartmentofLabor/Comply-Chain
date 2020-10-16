@@ -6,7 +6,7 @@ const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>¿Qu&eacute; pueden hacer las partes interesadas?</h1>
+                <h1>Qué pueden hacer las partes interesadas</h1>
                 <p>
                     Hay maneras provechosas de colaborar y asociarse con las
                     partes interesadas en pr&aacute;cticamente todos los
@@ -16,73 +16,49 @@ const es = () => {
                 <div className="indent-margin">
                     <h2>Causas fundamentales</h2>
                     <p className="indent-margin">
-                        Conforme se mencion&oacute; anteriormente, tratar las
-                        causas fundamentales de la explotaci&oacute;n laboral es
-                        responsabilidad del gobierno principalmente. Colaborar
-                        con los gobiernos para propiciar la mayor
-                        asignaci&oacute;n de recursos a estas cuestiones puede
-                        redundar en beneficios duraderos a largo plazo y
-                        seguramente la eficacia ser&aacute; mayor con la
-                        participaci&oacute;n de varias empresas.
+                        Tal como se mencionó anteriormente, tratar las causas fundamentales
+                        de los abusos laborales es responsabilidad del gobierno principalmente.
+                        Colaborar con los gobiernos para propiciar la mayor asignación de recursos
+                        a estas cuestiones puede redundar en beneficios duraderos a largo plazo y
+                        seguramente la eficacia será mayor con la participación de varias empresas.
                     </p>
                     <h2>Formulaci&oacute;n del c&oacute;digo de conducta</h2>
                     <p className="indent-margin">
-                        Uno de los principios de un buen c&oacute;digo de
-                        conducta es la incorporaci&oacute;n de aportes de una
-                        amplia gama de partes interesadas. Puede solicitar la
-                        contribuci&oacute;n en la etapa de redacci&oacute;n
-                        inicial del c&oacute;digo o mantener un grupo permanente
-                        de colaboradores que ofrezcan ideas y comentarios sobre
-                        el c&oacute;digo de manera constante.
+                        Uno de los principios de un buen código de conducta es la incorporación de
+                        aportes de una amplia gama de partes interesadas. Puede solicitar la contribución
+                        en la etapa de redacción inicial del código o mantener un grupo permanente de
+                        colaboradores que ofrezcan ideas y comentarios sobre el código de manera constante.
                     </p>
                     <h2>Evaluaci&oacute;n de riesgos</h2>
                     <p className="indent-margin">
-                        Suele ser dif&iacute;cil comprender los riesgos de
-                        trabajo infantil, trabajo forzoso y otras cuestiones del
-                        lugar de trabajo debido a la falta de datos
-                        emp&iacute;ricos. Los aportes de una amplia gama de
-                        personas informadas es importante para formarse una idea
-                        precisa de los riesgos, as&iacute; como recomendaciones
-                        para mitigarlos.
+                        Suele ser difícil comprender los riesgos de trabajo infantil, trabajo forzoso y
+                        otras cuestiones del lugar de trabajo debido a la falta de datos empíricos.
+                        Los aportes de una amplia gama de personas informadas es importante para
+                        formarse una idea precisa de los riesgos, así como recomendaciones para mitigarlos.
                     </p>
                     <h2>Capacitaci&oacute;n</h2>
                     <p className="indent-margin">
-                        Un programa satisfactorio de cumplimiento social debe
-                        invertir considerablemente en capacitaci&oacute;n y
-                        fortalecimiento de capacidades. La participaci&oacute;n
-                        de los interesados puede redundar en numerosos
-                        beneficios, como garantizar la pertinencia cultural del
-                        material de capacitaci&oacute;n.
+                        Un programa satisfactorio de cumplimiento social debe invertir considerablemente en
+                        capacitación y fortalecimiento de capacidades. La participación de los interesados
+                        puede redundar en numerosos beneficios, como garantizar la pertinencia cultural del material de capacitación.
                     </p>
                     <h2>Comunicaci&oacute;n</h2>
                     <p className="indent-margin">
-                        Las partes interesadas pueden ayudar a mejorar los
-                        canales de comunicaci&oacute;n; por ejemplo, los
-                        representantes sindicales pueden recibir comentarios e
-                        inquietudes de los trabajadores de instalaciones con
-                        presencia sindical, mientras que otros grupos de la
-                        sociedad civil se especializan en establecer mecanismos
-                        de resarcimiento y otros canales de comunicaci&oacute;n
-                        en plantas sin presencia sindical.
+                        Las partes interesadas pueden ayudar a mejorar los canales de comunicación; por ejemplo, los
+                        representantes sindicales pueden recibir comentarios e inquietudes de los trabajadores de instalaciones
+                        con presencia sindical, mientras que otros grupos de la sociedad civil se especializan en establecer mecanismos de reclamación y otros canales de comunicación en plantas sin presencia sindical
                     </p>
                     <h2>
                         Auditor&iacute;as, vigilancia, seguimiento y
                         verificaci&oacute;n independientes
                     </h2>
                     <p className="indent-margin">
-                        Algunos grupos comunitarios poseen los conocimientos
-                        para prestar servicios de vigilancia, seguimiento y
-                        verificaci&oacute;n independientes; otros ofrecen un
-                        &ldquo;control&rdquo; independiente de los encargados
-                        internos o externos de vigilancia y seguimiento.
+                        Algunos grupos comunitarios poseen los conocimientos para prestar servicios de vigilancia, seguimiento y verificación independientes; otros ofrecen un “control” independiente de los encargados internos o externos de vigilancia y seguimiento.
                     </p>
-                    <h2>Remediaci&oacute;n</h2>
+                    <h2>Reparación</h2>
                     <p className="indent-margin">
-                        Hay organizaciones especializadas que pueden prestar
-                        servicios a las v&iacute;ctimas de infracci&oacute;n de
-                        los derechos laborales o conectar a las empresas con los
-                        recursos locales para que brinden asistencia y
-                        remediaci&oacute;n.
+                        Hay organizaciones especializadas que pueden prestar servicios a las víctimas de infracción de los derechos laborales o conectar a las empresas con los recursos locales para que brinden asistencia y reparación.
+
                     </p>
                     <h2>Presentaci&oacute;n de informes p&uacute;blicos</h2>
                     <p className="indent-margin">
@@ -129,7 +105,7 @@ const es = () => {
                         >
                             26000. <i>Gu&iacute;a de responsabilidad social </i>
                         </a>
-                        <em>, 2010</em>.
+                        <em>, 2010; disponible en: https://www.iso.org/obp/ui/#iso:std:iso:26000:ed-1:v1:es</em>.
                     </p>
                 </OwnWords>
             </div>

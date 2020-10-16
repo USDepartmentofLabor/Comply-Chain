@@ -42,11 +42,11 @@ export const StepData = {
             "Identificar a las personas y grupos con quienes se debe estar en comunicación y a quienes se debe capacitar.",
             "Definir los temas que deben incluirse en las actividades de comunicación y capacitación para cada grupo.",
             "Averiguar cuáles son los canales de comunicación adecuados y los formatos de capacitación según el público.",
-            "Saber cuál es la manera de ofrecer mecanismos eficaces de presentación de reclamaciones."
+            "Saber cuál es la manera de ofrecer mecanismos eficaces de reclamaciones."
         ],
         keyTerms: [
             {
-                termName: "Presentación de reclamaciones",
+                termName: "Reclamación",
                 termDefinition:
                     "Inquietud o queja planteada por una persona o un grupo que se encuentra en una comunidad afectada por las operaciones de la empresa."
             }

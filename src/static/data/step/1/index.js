@@ -26,7 +26,7 @@ export const StepData = {
             "La erradicación del trabajo infantil y el trabajo forzoso, así como la educación de los niños, son responsabilidades fundamentales de los gobiernos.",
             "Los programas de cumplimiento social de las empresas pueden ayudar a subsanar deficiencias críticas en ámbitos en que los gobiernos aún no lograron la capacidad plena y, conforme se esboza a continuación, cumplen otras responsabilidades y objetivos importantes.",
             "Al mismo tiempo, no son sustitutivos de acciones contundentes de los gobiernos para proteger a niños y trabajadores y no deben considerarse sustitutos adecuados de las responsabilidades de los gobiernos.",
-            "Las empresas poseen toda una gama de motivaciones para poner en marcha los sistemas de cumplimiento social."
+            "Las empresas poseen toda una gama de motivaciones para poner en marcha los sistemas de cumplimiento social. A continuación, se mencionan algunos ejemplos."
         ],
         keyTerms: [
             "Some text"

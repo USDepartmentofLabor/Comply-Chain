@@ -42,7 +42,7 @@ export const Topics = {
         {
             keywords: [],
             title:
-                "¿Por qué buscar la participación de las partes interesadas?",
+                "Por qué buscar la participación de las partes interesadas",
             content: Topic1.es
         },
         {

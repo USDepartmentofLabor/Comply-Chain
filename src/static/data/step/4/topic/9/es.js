@@ -11,7 +11,7 @@ const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>Key Information Related to Risk and Impact</h1>
+                <h1>Información clave relativa al riesgo y el impacto</h1>
                 <p>
                     Tras esta investigaci&oacute;n inicial, la empresa debe
                     incorporar a las partes interesadas pertinentes para
@@ -29,6 +29,39 @@ const es = () => {
                     acad&eacute;micas, consultoras sobre responsabilidad social
                     empresarial y ONG para ayudar con la evaluaci&oacute;n de
                     riesgos e impacto.
+                </p>
+                <p>
+                   Algunas empresas optan por “tercerizar” la función de recolección de
+                   información a un experto, como una consultora, un grupo de la sociedad civil o una
+                   institución académica. Si ya cuenta con relaciones bien establecidas con los proveedores y está
+                   procurando evaluar los riesgos actuales, los informes de auditoría sobre estos proveedores realizados
+                   por otras empresas o grupos constituyen una fuente de datos muy útil. Para acceder a ellos, tal vez sea
+                   requisito incorporarse al grupo, como el&nbsp;
+                   <a
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       href="https://www.sedexglobal.com/"
+                   >
+                   Supplier Ethical Data Exchange (SEDEX)*
+                   </a>
+                   &nbsp;y&nbsp;
+                   <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://www.fairfactories.org/"
+                      >
+                   Fair Factories Clearinghouse*
+                   </a>
+                   ,
+                   que brindan una plataforma para compartir información sobre proveedores comunes, así como para colaborar en las
+                   iniciativas de vigilancia, seguimiento y reparación.
+                </p>
+                <p>
+                  Si los informes de auditoría no están disponibles, hay otras maneras de obtener información sobre sus proveedores actuales
+                  para determinar los que deben ser objeto de iniciativas de cumplimiento adicionales. Si hay un sindicato constituido, las
+                  reclamaciones o denuncias en el terreno pueden ser una buena fuente de información sobre factores de riesgo de abusos laborales.
+                  Si no hay sindicato, el proveedor puede poner en práctica otros mecanismos de reclamación o denuncia para obtener información.
+                  Claramente, otra opción es estudiar a todos los proveedores a la luz de los factores de riesgo fundamentales antes mencionados.
                 </p>
                 <p>¿Qu&eacute; informaci&oacute;n procura obtener?</p>
                 <Accordion id="nature-prev-acc">
@@ -165,7 +198,7 @@ const es = () => {
                 <Accordion id="cocoa-chains-acc">
                                        <Accordion.Section id="cocoa-description">
                                           <Accordion.Title>
-                                          Iniciativas actuales
+                                          Iniciativas y organizaciones existentes
                                              </Accordion.Title>
                                              <Accordion.Panel>
 
@@ -175,43 +208,49 @@ const es = () => {
                                                  infracciones laborales como trabajo infantil y forzoso en
                                                  esta industria o zona?
                                              </p>
-
-                                             <p>
-                                                 Para tener una idea de c&oacute;mo se puede aplicar este
-                                                 enfoque general en un sector en particular, en el{" "}
-                                                 <a
-                                                     target="_blank"
-                                                     rel="noopener noreferrer"
-                                                     href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
-                                                     title="Instrumento de abastecimiento responsable 4: Recolecci&oacute;n de informaci&oacute;n y evaluaci&oacute;n de riesgos en las cadenas de suministro de la industria pesquera (en ingl&eacute;s)"
-                                                 >
-                                                     instrumento de abastecimiento responsable 4:
-                                                     Recolecci&oacute;n de informaci&oacute;n y
-                                                     evaluaci&oacute;n de riesgos en las cadenas de
-                                                     suministro de la industria pesquera
-                                                 </a>{" "}
-                                                 (disponible solamente en idioma ingl&eacute;s) se explica
-                                                 paso a paso c&oacute;mo examinar los riesgos de pa&iacute;s,
-                                                 los riesgos en la cadena de suministro y los riesgos de los
-                                                 proveedores.&nbsp;
-                                             </p>
                                          </Accordion.Panel>
                                      </Accordion.Section>
                                      </Accordion>
 
                 <Accordion id="cocoa-chains-acc">
-                                                               <Accordion.Section id="cocoa-description">
-                                                                  <Accordion.Title>
-                                                                  Market Data
-                                                                     </Accordion.Title>
-                                                                     <Accordion.Panel>
+                       <Accordion.Section id="cocoa-description">
+                          <Accordion.Title>
+                          Datos de mercado
+                             </Accordion.Title>
+                             <Accordion.Panel>
 
-                                                                     <p className="indent-margin">
-                                                                     <b>PLACEHOLDER FOR TEXT</b>
-                                                                 </p>
-                                                                 </Accordion.Panel>
-                                                             </Accordion.Section>
-                                                             </Accordion>
+                             <p className="indent-margin">
+                             ¿Cuáles son las categorías de mayor gasto, como materia prima esencial o
+                             componentes vitales, en las operaciones de la empresa que están más en riesgo
+                             y que, por lo tanto, podrían tener un impacto desmesurado ante cualquier perturbación?
+                             ¿Hay otras empresas de la industria que divulgan listas de proveedores particulares o
+                             información de fuentes que pueda incorporar su empresa en la evaluación y el análisis de riesgos?
+                         </p>
+                         </Accordion.Panel>
+                     </Accordion.Section>
+                     </Accordion>
+
+                     <Accordion id="cocoa-chains-acc">
+                        <Accordion.Section id="cocoa-description">
+                           <Accordion.Title>
+                           Continuación
+                              </Accordion.Title>
+                              <Accordion.Panel>
+
+                              <p className="indent-margin">
+                              Para tener una idea de cómo se puede aplicar este enfoque general a un sector en particular, la&nbsp;
+                              <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
+                                >
+                              herramienta 4 del RST: Recolección de información y evaluación de riesgos en las cadenas de suministro de la industria pesquera
+                              </a>
+                              &nbsp;presenta un enfoque paso a paso (en inglés) para examinar los riesgos relativos al país, a las cadenas de suministro y a los proveedores.
+                          </p>
+                          </Accordion.Panel>
+                      </Accordion.Section>
+                      </Accordion>
                                                              <br />
                 <ExampleInAction id="fish">
                     <h2>
@@ -265,37 +304,62 @@ const es = () => {
                         la jurisdicci&oacute;n territorial de otro Estado.&nbsp;
                     </p>
                     <p>
-                        La pesca ilegal, no declarada y no reglamentada (INDNR)
-                        se ha convertido en un problema cada vez mayor ya que
-                        agota las reservas mundiales de pescados y mariscos y
-                        crea una situaci&oacute;n de competencia desleal en la
-                        industria, entre otros factores, por la
-                        explotaci&oacute;n de los trabajadores. Los gobiernos se
-                        han esmerado por combatir la pesca INDNR. Por ejemplo,
-                        de conformidad con el reglamento sobre la pesca INDNR de
-                        la Uni&oacute;n Europea, se emiten advertencias,
-                        m&aacute;s conocidas como &ldquo;tarjetas
-                        amarillas&rdquo;, a los pa&iacute;ses que se considera
-                        que no est&aacute;n haciendo lo suficiente para combatir
-                        la pesca INDNR. Al emitir una tarjeta amarilla se inicia
-                        un di&aacute;logo formal con el gobierno en
-                        cuesti&oacute;n sobre las medidas correctivas. El
-                        gobierno de los Estados Unidos tambi&eacute;n adopta
-                        medidas para combatir la pesca INDNR: un equipo de
-                        tareas presidencial abocado a combatir la pesca INDNR
-                        lanz&oacute; un{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf"
-                            title="Plan de acci&oacute;n para aplicar las recomendaciones del equipo de tareas"
-                        >
-                            Plan de acci&oacute;n para aplicar las
-                            recomendaciones del equipo de tareas
-                        </a>
-                        , en virtud del cual los Estados Unidos se encuentran en
-                        el proceso de elaborar un programa de trazabilidad de
-                        pescados y mariscos.
+                        La pesca ilegal, no declarada y no reglamentada (pesca INDNR) es un
+                        problema cada vez mayor. La pesca INDNR evade reglamentos, socava la
+                        gestión y conservación de las pesquerías y pone en peligro la oferta mundial de
+                        alimentos.  Exacerba las prácticas laborales de explotación, lo cual puede tener un
+                        impacto negativo en los salarios y en las condiciones de trabajo de todos los pescadores.
+                        Además, la pesca INDNR puede prestarse para el trabajo forzoso, la trata de personas y el
+                        trabajo infantil. Los gobiernos se han esmerado por combatir la pesca INDNR. Por ejemplo,
+                        de conformidad con el reglamento de la Unión Europea para poner fin a la pesca INDNR, los
+                        países que exportan pescado a la UE o que prestan sus pabellones a buques que importan a
+                        la UE tienen la obligación de cumplir estándares estrictos para la gestión de las pesquerías.
+                        Si no cumplen dichos estándares, se los puede “amonestar”, lo cual significa que su
+                        pescado podría quedar excluido del mercado de la UE.
+                    </p>
+                    <p>
+                    El Gobierno de los Estados Unidos también está adoptando medidas para tratar la problemática de la
+                    pesca INDNR. En 2019, el Congreso de los Estados Unidos aprobó la Ley marítima SAFE (sigla que en
+                    inglés significa “seguridad y rendición de cuentas en todos los puertos”). Mediante esta ley se creó
+                    un grupo de trabajo interinstitucional que brinda a las dependencias del gobierno federal un marco
+                    coordinado para combatir la pesca INDNR y se autorizó una serie de actividades a nivel dependencia.
+                    Entre estas actividades cabe mencionar fomentar la capacidad de los organismos de aplicación de la
+                    ley, mejorar la transparencia y trazabilidad en la cadena de suministro de pescados y mariscos, promover
+                    el uso de la tecnología para combatir la pesca INDNR y fomentar un mejor intercambio de información entre las dependencias y otros organismos.
+                    </p>
+                    <p>
+                    Antes de que se aprobara la Ley SAFE, un equipo de tareas presidencial abocado a combatir la pesca INDNR lanzó un&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf"
+                    >
+                    Plan de acción para aplicar las recomendaciones del equipo de tareas
+                    </a>
+                    , en virtud del cual los Estados Unidos se
+                    encuentran en el proceso de elaborar un programa de trazabilidad de pescados y mariscos. Este programa de trazabilidad,
+                    conocido como&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.fisheries.noaa.gov/international/seafood-import-monitoring-program"
+                    >
+                    Programa de vigilancia y seguimiento de las importaciones de pescados y mariscos
+                    </a>
+                    &nbsp;(Seafood Import Monitoring
+                    Program o SIMP) exige que el importador estadounidense inscrito brinde datos clave (desde el punto de captura hasta el
+                    punto de ingreso al comercio de los Estados Unidos) de trece especies de pescado y productos pesqueros que se identificaron
+                    como vulnerables a la pesca INDNR o al fraude. El cumplimiento se volvió obligatorio a finales de 2018.
+                    </p>
+                    <p>
+                    Fuente:&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.un.org/depts/los/convention_agreements/texts/unclos/convemar_es.pdf"
+                    >
+                    https://www.un.org/depts/los/convention_agreements/texts/unclos/convemar_es.pdf
+                    </a>.
                     </p>
                 </ExampleInAction>
                 <br />
@@ -312,26 +376,17 @@ const es = () => {
                         </strong>
                     </p>
                     <p>
-                        La Corporaci&oacute;n para Inversiones Privadas en el
-                        Extranjero del gobierno de los Estados Unidos (OPIC)
-                        cuenta con procesos que permiten garantizar que los
-                        proyectos que reciban apoyo de la OPIC sean sostenibles
-                        desde las perspectivas social y ambiental. Algunos
-                        proyectos financiados por la OPIC se clasifican como
-                        &ldquo;de especial consideraci&oacute;n&rdquo; por una
-                        serie de factores laborales.
+                        Algunos proyectos financiados por la Corporación Financiera de
+                        Desarrollo Internacional (DFC) de los Estados Unidos, sucesora
+                        de la Corporación de Inversiones Privadas en el Extranjero (OPIC),
+                        se clasifican como “de especial consideración” por una serie de factores laborales.
                     </p>
                     <p>
-                        &nbsp;&ldquo;Los proyectos de especial
-                        consideraci&oacute;n tienden a albergar un mayor
-                        potencial de que se presenten riesgos sociales
-                        relacionados con el proyecto por la participaci&oacute;n
-                        o el impacto en las personas afectadas por el proyecto,
-                        como los trabajadores. Los proyectos pueden recibir esta
-                        clasificaci&oacute;n tras realizarse una
-                        evaluaci&oacute;n de la gravedad que revisten
-                        determinados riesgos sociales posibles y la pertinencia
-                        que tienen para el proyecto.&nbsp;
+                        “Los proyectos de especial consideración tienden a albergar un mayor potencial de que se
+                        presenten riesgos sociales relacionados con el proyecto por la participación o el impacto
+                        en las personas afectadas por el proyecto, como los trabajadores. Los proyectos pueden
+                        recibir esta clasificación tras realizarse una evaluación de la gravedad que revisten
+                        determinados riesgos sociales posibles y la pertinencia que tienen para el proyecto.
                     </p>
                     <p>
                         Algunos factores de riesgo clave que pueden tenerse en
@@ -378,18 +433,15 @@ const es = () => {
                         </li>
                     </ul>
                     <p>
-                        Fuente: Corporaci&oacute;n de Inversiones Privadas en el
-                        Extranjero de los EE.UU.,{" "}
+                        Fuente: Corporación Financiera de Desarrollo Internacional de los Estados Unidos,&nbsp;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
-                            title="Declaraci&oacute;n de pol&iacute;tica ambiental y social"
+                            href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
                         >
-                            Declaraci&oacute;n de pol&iacute;tica ambiental y
-                            social
+                           Environmental and Social Policy and Procedures
                         </a>
-                        , 2017.
+                        &nbsp;, 2020; disponible en idioma inglés solamente en https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf{" "}.
                     </p>
                 </OwnWords>
             </div>

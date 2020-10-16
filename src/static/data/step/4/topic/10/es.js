@@ -35,45 +35,38 @@ const es = () => {
                     condiciones de abuso o explotaci&oacute;n.
                 </p>
                 <p>
-                    Si sus proveedores recurren a intermediarios laborales para
-                    la contrataci&oacute;n y colocaci&oacute;n de mano de obra
-                    migrante, en sus cadenas de suministro podr&iacute;a haber
-                    trabajo forzoso y trata de personas. Algunas fuentes que se
-                    recomiendan para este tema son{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"
-                        title="<i>Best Practice Guidance on Ethical Recruitment of Migrant Workers</i>"
-                    >
-                        <i>
-                            Best Practice Guidance on Ethical Recruitment of
-                            Migrant Workers
-                        </i>
-                    </a>{" "}
-                    del{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.iccr.org/"
-                        title="Interfaith Center on Corporate Responsibility (ICCR)"
-                    >
-                        Interfaith Center on Corporate Responsibility (ICCR)
-                    </a>{" "}
-                    y los{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
-                        title="Principios generales y directrices para la contrataci&oacute;n equitativa"
-                    >
-                        Principios generales y directrices para la
-                        contrataci&oacute;n equitativa
-                    </a>{" "}
-                    de la OIT, que contiene informaci&oacute;n sobre el trabajo
-                    que realizan la OIT y las asambleas legislativas nacionales,
-                    as&iacute; como otros colaboradores sociales para promover y
-                    garantizar la contrataci&oacute;n equitativa.&nbsp;
+                   Si sus proveedores recurren a intermediarios laborales para la
+                   contratación y colocación de mano de obra migrante, en sus cadenas
+                   de suministro podría haber trabajo forzoso y trata de personas. Algunos
+                   de los recursos recomendados para este tema son los&nbsp;
+                   <a
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
+                       title="<i>Best Practice Guidance on Ethical Recruitment of Migrant Workers</i>"
+                   >
+                   Principios generales y directrices para la contratación equitativa
+                   </a>
+                   &nbsp;de la OIT, que guían el trabajo
+                   que realizan la OIT, las legislaturas nacionales y otros socios en aras de
+                   promover y garantizar la contratación equitativa, y&nbsp;
+                   <a
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       href="http://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"
+                       title="<i>Best Practice Guidance on Ethical Recruitment of Migrant Workers</i>"
+                   >
+                   Best Practice Guidance on Ethical Recruitment of Migrant Workers
+                   </a>
+                   &nbsp;del&nbsp;
+                   <a
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       href="http://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"
+                       title="<i>Best Practice Guidance on Ethical Recruitment of Migrant Workers</i>"
+                   >
+                   Interfaith Center on Corporate Responsibility (ICCR).
+                </a>
                 </p>
                 <OwnWords>
                                     <h2>
@@ -82,7 +75,26 @@ const es = () => {
                                         {": "}
                                     </h2>
                                     <p>
-                                        <b>PLACEHOLDER TEXT</b>
+                                        “Imagínense tener que pagar US $7000 para conseguir trabajo.
+                                        Este es el monto que algunos intermediarios laborales cobran a los
+                                        trabajadores migrantes en algunos países asiáticos para conseguirles empleo
+                                        en una fábrica de Taiwán, destino actual de muchos trabajos en fábrica. Esta
+                                        práctica se considera aceptable en el mercado laboral, aunque los intermediarios
+                                        suelen cobrar un monto superior al máximo permitido por la ley. El monto incluye
+                                        los gastos de transporte, visas de trabajo y demás conceptos esenciales. Pero pagar
+                                        esta suma de dinero para acceder a un puesto en una fábrica representa una carga prácticamente
+                                         imposible para los trabajadores que de por sí luchan por ganarse la vida.”
+                                    </p>
+                                    <p>
+                                    Fuente: Patagonia,&nbsp;
+                                    <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html"
+                                       >
+                                    How a Deeper Dive into Our Supply Chain Led to a New Migrant Workers Standard
+                                    </a>,
+                                    2015 disponible en idioma inglés solamente en https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html.
                                     </p>
                                 </OwnWords>
             </div>

@@ -22,10 +22,39 @@ const es = () => {
                         .
                     </li>
                     <li>
+                    Better Cotton. Principles and Criteria; disponible en idioma inglés solamente en&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://bettercotton.org/better-cotton-standard-system/production-principles-and-criteria/"
+                    >
+                    https://bettercotton.org/better-cotton-standard-system/production-principles-and-criteria/
+                    </a>.
+                    </li>
+                    <li>
+                    Bonsucro. What is the Bonsucro Production Standard?; disponible en idioma inglés solamente en&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.bonsucro.com/production-standard/"
+                    >
+                    http://www.bonsucro.com/production-standard/
+                    </a>.
+                    </li>
+                    <li>
+                    Foro de Bienes de Consumo. Guidance on the Priority Industry Principles; disponible en idioma inglés solamente en&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.theconsumergoodsforum.com/wp-content/uploads/2018/05/Guidance-on-the-Priority-Industry-Principles.pdf"
+                    >
+                    https://www.theconsumergoodsforum.com/wp-content/uploads/2018/05/Guidance-on-the-Priority-Industry-Principles.pdf
+                    </a>.
+                    </li>
+                    <li>
                         <em>
                             <i>
-                                Principios de Dhaka para una migraci&oacute;n
-                                con dignidad{" "}
+                                Principios de Daca para una Migración con Dignidad, 2012; disponible en{" "}
                             </i>
                         </em>
                         , 2012; Versi&oacute;n completa disponible en idioma
@@ -33,12 +62,22 @@ const es = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf"
+                            href="https://www.ihrb.org/uploads/member-uploads/DPs_-_Spanish.pdf"
                             title="<i>Dhaka Principles for Migration with Dignity</i>"
                         >
-                            http://www.dhaka-principles.org/pdf/2012-12-18-Dhaka-Principles-Long-Version-English.pdf
+                            https://www.ihrb.org/uploads/member-uploads/DPs_-_Spanish.pdf
                         </a>
                         .
+                    </li>
+                    <li>
+                    Iniciativa de Comercio Ético. ETI Base Code; disponible en idioma inglés solamente en&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ethicaltrade.org/eti-base-code"
+                    >
+                    https://www.ethicaltrade.org/eti-base-code
+                    </a>.
                     </li>
                     <li>
                         ICCR.{" "}

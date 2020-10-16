@@ -9,8 +9,7 @@ const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>ncorporaci&oacute;n a un programa de
-                                cumplimiento social</h1>
+                <h1>Incorporación a un programa de cumplimiento social vigente</h1>
                                 <p>
                                     En algunas industrias, hay grupos de
                                     empresas que ya se reunieron para elaborar
@@ -131,10 +130,9 @@ const es = () => {
                                         href="http://www.responsiblebusiness.org/"
                                         title="Responsible Business Alliance (RBA)"
                                     >
-                                        Responsible Business Alliance (RBA)
+                                        Responsible Business Alliance
                                     </a>
-                                    , anteriormente conocida como Electronic
-                                    Industry Citizenship Coalition (EICC) se
+                                    , (anteriormente conocida como Coalición Ciudadana de la Industria Electrónica) se
                                     comprometen a seguir un{" "}
                                     <a
                                         target="_blank"
@@ -229,7 +227,7 @@ const es = () => {
                                     .
                                 </p>
                                 <p>
-                                    El
+                                    El&nbsp;
                                     <Link to="/steps/3">
                                         primer paso, Participaci&oacute;n de los
                                         interesados y los socios
@@ -238,28 +236,7 @@ const es = () => {
                                     programas e iniciativas de
                                     colaboraci&oacute;n a las que puede sumarse.
                                 </p>
-                <p>
-                                <em>
-                                    *Nota: Toda referencia que se haga en la
-                                    presente gu&iacute;a a empresas o entidades
-                                    no gubernamentales espec&iacute;ficas es con
-                                    fines informativos &uacute;nicamente a fin
-                                    de demostrar las buenas pr&aacute;cticas
-                                    internacionalmente reconocidas a la fecha de
-                                    lanzamiento de la aplicaci&oacute;n. Las
-                                    referencias a dichas entidades no debe
-                                    interpretarse como un aval oficial del
-                                    Departamento de Trabajo de los Estados
-                                    Unidos a ellas, sus productos ni servicios{" "}
-                                </em>
-                                <em>
-                                    y su menci&oacute;n no debe interpretarse
-                                    como un examen exhaustivo de las
-                                    pr&aacute;cticas que emplean dichas
-                                    entidades en todos los &aacute;mbitos
-                                </em>
-                                <em>.</em>
-                            </p>
+
             </div>
         </StaticData>
     );

@@ -103,7 +103,7 @@ export const Topics = {
         },
         {
              keywords: [],
-             title: "Key Information Related to Risk and Impact",
+             title: "Información clave relativa al riesgo y el impacto",
              content: Topic9.es
          },
          {
@@ -113,12 +113,12 @@ export const Topics = {
          },
          {
              keywords: [],
-             title: "Evaluación de las causas fundamentales",
+             title: "Combatir las causas fundamentales",
              content: Topic11.es
          },
          {
              keywords: [],
-             title: "Tratamiento de las causas fundamentales",
+             title: "Combatir las causas fundamentales",
              content: Topic12.es
          },
          {
@@ -168,7 +168,7 @@ export const Topics = {
         },
         {
              keywords: [],
-             title: "Key Information Related to Risk and Impact",
+             title: "Información clave relativa al riesgo y el impacto",
              content: Topic9.fr
          },
          {

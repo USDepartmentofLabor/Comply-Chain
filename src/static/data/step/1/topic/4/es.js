@@ -25,9 +25,9 @@ const es = () => {
                         rel="noopener noreferrer"
                         href="http://www.bloomberg.com/sustainability/"
                     >
-                        canal de sostenibilidad
-                    </a>{" "}
-                    en Bloomberg.com.
+                        canal de sostenibilidad en Bloomberg.com
+                    </a>
+                   .
                 </p>
             </div>
         </StaticData>

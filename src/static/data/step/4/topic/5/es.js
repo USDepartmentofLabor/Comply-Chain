@@ -159,9 +159,8 @@ const es = () => {
                     &uacute;tiles para la recolecci&oacute;n inicial de
                     informaci&oacute;n. V&eacute;ase{" "}
                     <Link to="/steps/4#resources">
-                        Recursos adicionales para obtener m&aacute;s
-                        informaci&oacute;n.
-                    </Link>
+                        Recursos adicionales
+                    </Link>&nbsp;para obtener m&aacute;s informaci&oacute;n.
                 </p>
                 <ExampleInAction id="med_rep">
                     <h2>
@@ -241,99 +240,7 @@ const es = () => {
                         empresas a fin de prevenir y erradicar las violaciones
                         de los derechos humanos en sus cadenas de suministro.
                     </p>
-                    <p className="small-text">&copy;George Osodi/Panos</p>
                 </ExampleInAction>
-                <p>
-                    Algunas empresas optan por &ldquo;tercerizar&rdquo; la
-                    funci&oacute;n de recolecci&oacute;n de informaci&oacute;n a
-                    un experto, como una consultora, un grupo de la sociedad
-                    civil o una instituci&oacute;n acad&eacute;mica. Por
-                    ejemplo, en 2010, la ONG Human Rights Watch* public&oacute;
-                    un informe en el que se documentaban las condiciones
-                    laborales deficientes, incluidos el trabajo infantil y el
-                    trabajo forzoso, en los campos de tabaco en
-                    Kazajst&aacute;n, desde donde se abastec&iacute;a a Philip
-                    Morris Kazajst&aacute;n* (PMK), filial propiedad absoluta de
-                    la tabacalera Philip Morris International* (PMI). PMI
-                    posteriormente encarg&oacute; a la ONG{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.verite.org/"
-                        title="Verit&eacute;"
-                    >
-                        Verit&eacute;
-                    </a>
-                    * que realizara una investigaci&oacute;n en el lugar de las
-                    condiciones laborales en los campos de tabaco de
-                    Kazajst&aacute;n y que redacatara un{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.verite.org/wp-content/uploads/2016/11/Verite_Report_for_PMI_on_Kazakhstan-2_May_2011.pdf"
-                        title="Informe con recomendaciones"
-                    >
-                        informe con recomendaciones
-                    </a>
-                    . PMI utiliz&oacute; el informe para formular
-                    pol&iacute;ticas y pr&aacute;cticas nuevas, entre las que
-                    cabe mencionar un sistema integral de auditor&iacute;a para
-                    todos los campos de tabaco en Kazajst&aacute;n, as&iacute;
-                    como alianzas con ONG locales en los campamentos de
-                    ni&ntilde;os, escuelas profesionales, centros comunitarios,
-                    programas de inscripci&oacute;n escolar y programas de
-                    educaci&oacute;n y capacitaci&oacute;n para los propietarios
-                    de los campos.&nbsp;
-                </p>
-                <img src={hrm} alt="Human Rights Watch" />
-                <p className="small-text">
-                    &copy;Marcus Bleasdale/Human Rights Watch
-                </p>
-                <p>
-                    Si ya cuenta con relaciones bien establecidas con los
-                    proveedores y est&aacute; procurando evaluar los riesgos
-                    actuales, los informes de auditor&iacute;a sobre estos
-                    proveedores realizados por otras empresas o grupos
-                    constituyen una fuente de datos muy &uacute;til. Para
-                    acceder a ellos, tal vez sea requisito incorporarse al
-                    grupo, como el{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.sedexglobal.com/"
-                        title="Supplier Ethical Data Exchange (SEDEX)"
-                    >
-                        Supplier Ethical Data Exchange (SEDEX)
-                    </a>{" "}
-                    y{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.fairfactories.org/"
-                        title="Fair Factories Clearinghouse"
-                    >
-                        Fair Factories Clearinghouse
-                    </a>
-                    , que brindan una plataforma para compartir
-                    informaci&oacute;n sobre proveedores comunes, as&iacute;
-                    como para colaborar en las iniciativas de vigilancia,
-                    seguimiento y remediaci&oacute;n.&nbsp;
-                </p>
-                <p>
-                    Si los informes de auditor&iacute;a no est&aacute;n
-                    disponibles, hay otras maneras de obtener informaci&oacute;n
-                    sobre sus proveedores actuales para determinar los que deben
-                    ser objeto de iniciativas de cumplimiento adicionales. El
-                    sindicato, cuando est&aacute; constituido, puede ser una
-                    buena fuente de informaci&oacute;n sobre factores de riesgo
-                    para infracciones laborales. Ante la ausencia de un
-                    sindicato, el proveedor puede disponer de otros mecanismos
-                    de reclamaci&oacute;n o denuncia en vigor que podr&iacute;an
-                    ser una fuente de informaci&oacute;n. Claramente, otra
-                    opci&oacute;n es estudiar a todos los proveedores a la luz
-                    de los factores de riesgo fundamentales antes mencionados.
-                </p>
-
             </div>
         </StaticData>
     );

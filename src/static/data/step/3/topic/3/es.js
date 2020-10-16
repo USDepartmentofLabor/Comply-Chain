@@ -8,29 +8,12 @@ const es = () => {
             <div>
                 <h1>Participaci&oacute;n de los interesados</h1>
                <p>
-                                   Tras identificar a las partes interesadas y comprender las
-                                   funciones posibles que pueden desempe&ntilde;ar en el
-                                   sistema de cumplimiento social, puede comenzar a
-                                   concentrarse en algunos grupos a los que pueda incluir. Para
-                                   algunas empresas, identificar a los grupos de interesados
-                                   clave y hacer que participen en &aacute;mbitos
-                                   espec&iacute;ficos del sistema de cumplimiento social
-                                   resulta la manera m&aacute;s &uacute;til de lograr mejoras
-                                   puntuales, sobre todo aquellas que cuentan con algunos
-                                   elementos del sistema de cumplimiento social pero que
-                                   comprenden que deben mejorar algunos &aacute;mbitos
-                                   espec&iacute;ficos.
+                                   La lista que se presenta a continuación no es exhaustiva y
+                                   las empresas deben prestar especial atención a la manera en
+                                   que las estructuras locales de empleo, en especial la variedad
+                                   de arreglos y vínculos laborales, pueden utilizarse en la participación
+                                   de distintas partes interesadas. A continuación, se destacan algunas funciones típicas que desempeñan las partes interesadas:
                                </p>
-                               <p>
-                                   Para otras empresas, el mejor &ldquo;primer paso&rdquo; en
-                                   la participaci&oacute;n de los interesados puede ser
-                                   vincularlos con las iniciativas en curso, como grupos de
-                                   varias partes interesadas, asociaciones o iniciativas de la
-                                   industria o programas de certificaci&oacute;n si
-                                   est&aacute;n disponibles y son pertinentes a la luz de las
-                                   necesidades y los objetivos de la empresa.
-                               </p>
-                       <h2>Your Stakeholders</h2>
                        <h3> Empleados de empresas</h3>
                         <ul>
                             <li>
@@ -57,8 +40,8 @@ const es = () => {
                                 Hacen las veces de otro par de &ldquo;ojos y
                                 o&iacute;dos&rdquo; en cuestiones de
                                 cumplimiento social para complementar los
-                                programas de vigilancia y seguimiento en el
-                                lugar de trabajo.
+                                programas de <strong>vigilancia y seguimiento en el
+                                lugar de trabajo</strong>.
                             </li>
                             <li>
                                 Aportan material para los
@@ -75,9 +58,7 @@ const es = () => {
                                 objetivos de la empresa.
                             </li>
                             <li>
-                                Est&aacute;n formados para garantizar que el
-                                trabajo que realizan en otras unidades de la
-                                empresa no discrepe con el cumplimiento social.
+                                Están <strong>capacitados</strong> para garantizar que el trabajo que se realiza en otras unidades de la empresa no sea incompatible con el cumplimiento social.
                             </li>
                         </ul>
 
@@ -209,7 +190,11 @@ const es = () => {
                                 </strong>{" "}
                                 por ejemplo, asesoramiento en cuestiones de
                                 g&eacute;nero, cultura y dem&aacute;s temas de
-                                la comunidad.
+                                la comunidad, así como información sobre personas
+                                y grupos vulnerables para ampliar la participación
+                                de las partes interesadas y alcanzar a otros actores
+                                que no necesariamente están vinculados de manera directa
+                                 con las operaciones de una empresa.
                             </li>
                             <li>
                                 Ofrecen <strong>capacitaci&oacute;n </strong>o
@@ -387,20 +372,6 @@ const es = () => {
                             </li>
                         </ul>
 
-                        <h2>The Importance of External Stakeholders in Social Compliance Systems</h2>
-                        <ul>
-                            <li>
-                                PLACEHOLDER FOR TEXT
-                            </li>
-
-                            <li>
-                                 PLACEHOLDER FOR TEXT
-                            </li>
-                            <li>
-                                PLACEHOLDER FOR TEXT
-                            </li>
-                        </ul>
-
                 <h2>
                     La funci&oacute;n de las entidades gubernamentales en los
                     sistemas de cumplimiento social
@@ -527,9 +498,31 @@ const es = () => {
                         >
                             sitio web
                         </a>{" "}
-                        de InPACTO.
+                        de InPACTO en{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://inpacto.org.br/es/"
+                            title="Sitio web de InPACTO"
+                        >
+                        https://inpacto.org.br/es/
+                        </a>.
                     </p>
                 </ExampleInAction>
+                <p>
+                Tras identificar a las partes interesadas y comprender las funciones posibles que
+                pueden desempeñar en el sistema de cumplimiento social, puede comenzar a concentrarse
+                en algunos grupos a los que pueda incluir. Para algunas empresas, identificar a los
+                grupos clave de partes interesadas y hacer que participen en ámbitos específicos del
+                sistema de cumplimiento social resulta la manera más útil de lograr mejoras puntuales.
+                Sobre todo, en el caso de las empresas que ya cuentan con algunos elementos del sistema
+                de cumplimiento social pero que comprenden que deben mejorar determinados ámbitos específicos.
+                </p>
+                <p>
+                Para otras empresas, el mejor “primer paso” en la participación de los interesados puede ser
+                vincularlos con las iniciativas en curso, como grupos de varias partes interesadas, asociaciones
+                o iniciativas de la industria o programas de certificación si están disponibles y son pertinentes a la luz de las necesidades y los objetivos de la empresa.
+                </p>
             </div>
         </StaticData>
     );

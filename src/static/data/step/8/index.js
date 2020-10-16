@@ -50,17 +50,17 @@ export const StepData = {
             {
                 termName: "Infracción",
                 termDefinition:
-                    "En una auditoría, situación identificada como una contravención al código de conducta."
+                    "Situación identificada, en una auditoría o por cualquier otro medio, como una contravención al código de conducta o a alguna otra norma local o internacional."
             },
             {
                 termName: "Remediación",
                 termDefinition:
-                    "Medidas adoptadas en respuesta a una infracción al código de conducta identificada en una auditoría. La remediación debe resolver el problema y evitar que vuelva a ocurrir."
+                    "Medidas adoptadas en respuesta a una infracción identificada. Las medidas de reparación siempre deben diseñarse de manera de resolver el problema y a la vez evitar que vuelva a ocurrir."
             },
             {
                 termName: "Plan de acción correctiva (PAC)",
                 termDefinition:
-                    "Plan de acción para remediar todas las infracciones identificadas en una auditoría en particular."
+                    "Plan de acción para reparar todas las infracciones identificadas en una auditoría en particular."
             }
         ],
         // extraInfo: ExtraInfo.es

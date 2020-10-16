@@ -5,60 +5,62 @@ const es = () => {
     return (
                    <StaticData>
                        <div>
-                           <h1>List of Products Produced by Forced or Indentured Labor</h1>
+                           <h1>Lista de productos fabricados con trabajo infantil forzoso o en régimen de servidumbre</h1>
                            <p>
-                           ILAB maintains a list of products and their source countries which it has a reasonable basis to believe are produced by forced or indentured child labor,
-                           pursuant to &nbsp;
-                           <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="https://www.dol.gov/agencies/ilab/about/laws"
-                                title="List of products report"
-                                 >
-                                https://www.dol.gov/agencies/ilab/about/laws
-                            </a>
-                           &nbsp;Executive Order 13126.
-                           This List is intended to ensure that U.S. federal agencies do not procure goods made by forced or indentured child labor.
-                           Under procurement regulations, federal contractors who supply products on the List must certify that they have made a good faith effort to determine whether forced or indentured child labor was used to produce the items supplied.
-                           The Department of Labor, in consultation with the Departments of State and Homeland Security, publishes and maintains the List.
-                           ILAB released its initial List in 2001, and has revised it several times since then. As of March 25, 2019, the EO List comprises 34 products from 25 countries.
+                               De conformidad con la{" "}
+                               <a
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               href="https://www.dol.gov/agencies/ilab/about/laws"
+                               title="orden ejecutiva 13126"
+                               >
+                               orden ejecutiva 13126
+                               </a>,
+                               ILAB compila y actualiza una lista de productos, y sus 
+                               respectivos pa&iacute;ses de origen, de los que tiene motivos fundados para creer que se producen con 
+                               trabajo infantil forzoso o en r&eacute;gimen de servidumbre. Dicha lista tiene por objeto asegurar que 
+                               las dependencias federales de los Estados Unidos no produzcan bienes hechos con trabajo infantil forzoso 
+                               o en r&eacute;gimen de servidumbre. Seg&uacute;n la normativa de contrataci&oacute;n p&uacute;blica, 
+                               todo contratista del gobierno federal que facilite productos que figuran en la lista debe certificar 
+                               que realiz&oacute; un esfuerzo de buena fe por averiguar si se emple&oacute; trabajo infantil forzoso 
+                               o en r&eacute;gimen de servidumbre en la producci&oacute;n de dichos art&iacute;culos.
+                            </p>
 
-                           The List is required by &nbsp;
-                            <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="https://www.dol.gov/agencies/ilab/about/laws/#eo13126"
-                                title="List of products report"
-                                 >
-                                https://www.dol.gov/agencies/ilab/about/laws/#eo13126
-                                        </a>
-                           &nbsp;Executive Order 13126 &nbsp;"Prohibition of Acquisition of Products Produced by Forced or Indentured Child Labor."
-                           The procurement requirements related to products on the List are set out in a 2001 Federal Acquisition Regulation &nbsp;
-                            <a
-                                 target="_blank"
-                                rel="noopener noreferrer"
-                                href="http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=2001_register&docid=01-1503-filed.pdf"
-                                title="List of products report"
-                                 >
-                                http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=2001_register&docid=01-1503-filed.pdf
-                            </a>
+                            <p>
+                                El Departamento de Trabajo, en consulta con los departamentos de Estado y Seguridad Nacional, publica 
+                                y actualiza la lista. ILAB public&oacute; la primera lista en 2001 y, desde ese entonces, la 
+                                modific&oacute; varias veces. Al 25 de marzo de 2019, la lista emanada de la orden ejecutiva contiene 
+                                34 productos de 25 pa&iacute;ses. Esta lista constituye un requisito emanado de la{" "}
+                               <a
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               href="https://www.dol.gov/agencies/ilab/about/laws#eo13126"
+                               title="orden ejecutiva 13126"
+                               >
+                               orden ejecutiva 13126
+                               </a>. 
+                                &ldquo;Prohibici&oacute;n de adquirir productos fabricados con trabajo infantil forzoso o en r&eacute;gimen 
+                                de servidumbre&rdquo;. Los requisitos para la adquisici&oacute;n p&uacute;blica de productos que figuran 
+                                en la lista se encuentran en la normativa para adquisiciones federales de 2001denominada{" "}
+                               <a
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               href="http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=2001_register&docid=01-1503-filed.pdf"
+                               title="norma definitiva (Final Rule)"
+                               >
+                               norma definitiva 
+                                (Final Rule)
+                               </a>.
+                            </p>
 
+                            <p>
+                                ILAB compila la lista a partir de criterios y procedimientos establecidos en las denominadas &ldquo;Directrices 
+                                procedimentales para actualizar la lista de productos que requieren la certificaci&oacute;n del 
+                                contratista federal respecto del trabajo infantil forzoso o en r&eacute;gimen de servidumbre&rdquo;.
+                            </p>
 
-                           &nbsp; Final Rule.
-                           ILAB develops the List using criteria and procedures established in its &nbsp;
-                           <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="https://www.federalregister.gov/d/01-952"
-                                title="List of products report"
-                                 >
-                                https://www.federalregister.gov/d/01-952
-                           </a>
-                           &nbsp; Procedural Guidelines for the Maintenance of the List of Products Requiring Federal Contractor Certification as to Forced or Indentured Child Labor."
-                           </p>
-
-                           <p>
-                               Read more here:{" "}
+                            <p>
+                                V&eacute;ase m&aacute;s informaci&oacute;n en:{" "}
                                <a
                                target="_blank"
                                rel="noopener noreferrer"
@@ -66,8 +68,8 @@ const es = () => {
                                title="List of products report"
                                >
                                https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products
-                               </a>
-                           </p>
+                               </a>.
+                            </p>
                        </div>
                    </StaticData>
                );

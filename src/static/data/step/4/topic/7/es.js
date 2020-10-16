@@ -89,73 +89,43 @@ const es = () => {
                 <ExampleInAction id="Conflict_Free">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Ejemplo en acci&oacute;n</strong>: la iniciativa
-                        Conflict-Free Sourcing
+                        <strong>Ejemplo en acci&oacute;n</strong>:  Iniciativa de minerales responsables*
                     </h2>
                     <p>
-                        Para las empresas que fabrican art&iacute;culos de
-                        electr&oacute;nica, uno de los riesgos laborales y de
-                        derechos humanos identificados es el conflicto en la
-                        Rep&uacute;blica Democr&aacute;tica del Congo, de donde
-                        se extraen muchos de los minerales utilizados en estos
-                        art&iacute;culos. La iniciativa{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.conflictfreesourcing.org/"
-                            title="La iniciativa Conflict-Free Sourcing"
-                        >
-                            Conflict-Free Sourcing
-                        </a>{" "}
-                        (CFSI) fue elaborada en 2008 por la{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.eiccoalition.org/"
-                            title="Coalici&oacute;n Ciudadana de la Industria Electr&oacute;nica"
-                        >
-                            Coalici&oacute;n Ciudadana de la Industria
-                            Electr&oacute;nica
-                        </a>{" "}
-                        y la iniciativa{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://gesi.org/"
-                            title="Iniciativa Global e-Sustainability"
-                        >
-                            Global e-Sustainability
-                        </a>{" "}
-                        con el fin de promover el abastecimiento responsable de
-                        minerales provenientes de &aacute;reas de conflicto o de
-                        alto riesgo. En el marco de la iniciativa CFSI, se
-                        elaboraron instrumentos y recursos que se emplean en
-                        m&aacute;s de 350 empresas de una gama de sectores para
-                        vigilar las cadenas de suministro. Como parte de la
-                        iniciativa CFSI, se elabor&oacute; el programa{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.conflictfreesourcing.org/conflict-free-smelter-program/"
-                            title="Programa Conflict-Free Smelter"
-                        >
-                            Conflict-Free Smelter
-                        </a>{" "}
-                        mediante el que se ayuda a las fundidoras y
-                        refiner&iacute;as a validar, mediante auditor&iacute;as
-                        independientes realizadas por terceros, el cumplimiento
-                        de normas mundiales como la{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.oecd.org/corporate/mne/mining.htm"
-                            title="Gu&iacute;a de Debida Diligencia de la OCDE para Cadenas de Suministro Responsables de Minerales en las &Aacute;reas de Conflicto o de Alto Riesgo"
-                        >
-                            Gu&iacute;a de Debida Diligencia de la OCDE para
-                            Cadenas de Suministro Responsables de Minerales en
-                            las &Aacute;reas de Conflicto o de Alto Riesgo
-                        </a>
-                        .
+                    Para las empresas que fabrican artículos de electrónica, uno de los riesgos laborales
+                    y de derechos humanos identificados es el conflicto en la República Democrática del
+                    Congo, de donde se extraen muchos de los minerales utilizados en estos artículos. Al
+                    principio, la Iniciativa de minerales responsables (RMI) se denominó Iniciativa de
+                    abastecimiento libre de conflictos y fue diseñada en 2008 por la Electronic Industry
+                    Citizenship Coalition (Coalición Ciudadana de la Industria Electrónica), actualmente
+                    conocida como la&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.responsiblebusiness.org"
+                    >
+                    Responsible Business Alliance*
+                    </a>
+                    , y la Iniciativa mundial sobre la sostenibilidad
+                    del medio electrónico*, con el objeto de promover el abastecimiento responsable de minerales
+                    de zonas de conflicto y de alto riesgo. En el marco de la iniciativa RMI se elaboraron herramientas
+                    y recursos que se emplean en más de 350 empresas de una gama de sectores para vigilar las cadenas
+                    de suministro. Como parte de la iniciativa RMI, se elaboró el programa&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.conflictfreesourcing.org"
+                    >
+                    Responsible Minerals Assurance
+                    Process (RMAP)
+                    </a>
+                    , antiguamente conocido como Programa de Valoración para Fundiciones Libres de Conflictos,
+                    mediante el cual se ayuda a las fundidoras y refinerías a validar, mediante auditorías independientes
+                    realizadas por terceros, el cumplimiento de las normas mundiales, como la Guía de Debida Diligencia de
+                    la OCDE para Cadenas de Suministro Responsables de Minerales en las Áreas de Conflicto o de Alto Riesgo.
+                    </p>
+                    <p>
+                      Fuente: http://www.responsiblemineralsinitiative.org/.
                     </p>
                 </ExampleInAction>
                 <p>
@@ -196,51 +166,41 @@ const es = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>Ejemplo en acci&oacute;n</strong>:
-                        L&rsquo;Or&eacute;al y el abastecimiento responsable de
-                        mica
+                         L’Oréal* y el abastecimiento responsable de mica
                     </h2>
                     <p>
-                        La mica es un mineral que se utiliza en diferentes
-                        industrias, como la de los cosm&eacute;ticos, ya que
-                        brinda un efecto de brillo en una gama de productos. Si
-                        bien L&rsquo;Or&eacute;al obtiene m&aacute;s del 60 por
-                        ciento de la mica natural de los Estados Unidos, el
-                        resto proviene de otros pa&iacute;ses, como la India,
-                        donde hay un alto riesgo de trabajo infantil y
-                        condiciones de trabajo peligrosas. A pesar de estos
-                        riesgos, L&rsquo;Or&eacute;al, signataria del Pacto
-                        Mundial de las Naciones Unidas y miembro fundador de la{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.responsible-mica-initiative.com/"
-                            title="Iniciativa Mica Responsable "
-                        >
-                            iniciativa Mica Responsable
-                        </a>
-                        , asumi&oacute; el compromiso de permanecer en la India
-                        y garantizar la trazabilidad y transparencia en su
-                        cadena de suministro. L&rsquo;Or&eacute;al cree que
-                        descontinuar el uso de la mica proveniente de la India
-                        no va a beneficiar a los trabajadores ni a sus familias
-                        y podr&iacute;a exacerbar m&aacute;s a&uacute;n los
-                        desaf&iacute;os socioecon&oacute;micos. En la India,
-                        L&rsquo;Or&eacute;al puso en pr&aacute;ctica un programa
-                        de adquisici&oacute;n sostenible con una cantidad
-                        limitada de proveedores comprometidos a extraer la mica
-                        de minas legales y cercadas, donde se pueden vigilar las
-                        condiciones de trabajo y los derechos humanos, como la
-                        prevenci&oacute;n y erradicaci&oacute;n del trabajo
-                        infantil. Los proveedores de L&rsquo;Or&eacute;al en la
-                        India reciben auditor&iacute;as independientes en que se
-                        vigila el cumplimiento y, adem&aacute;s, aceptan
-                        invertir en actividades de fomento de la comunidad para
-                        tratar las causas subyacentes de las infracciones
-                        laborales. Al trabajar con las ONG locales y otros
-                        interesados, L&rsquo;Or&eacute;al procura crear una
-                        cadena de suministro sostenible de la mica y mejorar las
-                        condiciones de vida y de trabajo en la
-                        regi&oacute;n.&nbsp;
+                    La mica es un mineral que se utiliza en diferentes industrias, como la de los cosméticos,
+                    ya que brinda un efecto de brillo en una gama de productos. Si bien L’Oréal obtiene más del
+                    60 por ciento de la mica natural de los Estados Unidos, el resto proviene de otros países,
+                    como la India, donde hay un alto riesgo de trabajo infantil y condiciones de trabajo peligrosas.
+                    De hecho, el Departamento de Trabajo agregó la mica a la edición 2018 de la Lista de bienes producidos
+                    con trabajo infantil o trabajo forzoso y citó pruebas de que hay niños de entre 5 y 17 años que trabajan
+                    en la extracción de mica en minas abandonadas, mayormente en operaciones de minado ilegal en India, sobre
+                    todo en los principales estados productores del mineral como Bihar, Jharkhand y Rajastán.
+                    </p>
+                    <p>
+                    A pesar de estos riesgos, L’Oréal, signataria del Pacto Mundial de las Naciones Unidas y miembro fundador
+                    de la&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.responsible-mica-initiative.com/"
+                    >
+                    Iniciativa Mica Responsable*
+                    </a>
+                    , asumió el compromiso de permanecer en la India y garantizar la
+                    trazabilidad y transparencia en su cadena de suministro. L’Oréal cree que descontinuar el uso de la
+                    mica proveniente de la India no va a beneficiar a los trabajadores ni a sus familias y podría exacerbar
+                    más aún los desafíos socioeconómicos. En la India, L’Oréal puso en práctica un programa de adquisición
+                    sostenible con una cantidad limitada de proveedores comprometidos a extraer la mica de minas legales y
+                    cercadas, donde se pueden vigilar las condiciones de trabajo y los derechos humanos, como la prevención
+                    y erradicación del trabajo infantil. Los proveedores de L’Oréal en la India reciben auditorías independientes
+                    en que se vigila el cumplimiento y, además, aceptan invertir en actividades de fomento de la comunidad para
+                    tratar las causas subyacentes de las infracciones laborales. Al trabajar con las ONG locales y otros interesados,
+                    L’Oréal procura crear una cadena de suministro sostenible de la mica y mejorar las condiciones de vida y de trabajo en la región.
+                    </p>
+                    <p>
+                    Fuente: https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica.
                     </p>
                 </ExampleInAction>
                 <p>

@@ -5,60 +5,39 @@ const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>Resultados sobre las peores formas de trabajo infantil</h1>
+                <h1>Conclusiones del informe sobre las peores formas de trabajo infantil</h1>
                 <p>
-                    El informe anual del Departamento del Trabajo, Resultados
-                    sobre las peores formas de trabajo infantil, se centra en
-                    las labores realizadas por varios países y territorios
-                    beneficiarios del comercio estadounidense con miras a
-                    eliminar las peores formas de trabajo infantil a través de
-                    legislación, mecanismos de aplicación de la ley, políticas y
-                    programas sociales.
+                    El informe anual del Departamento de Trabajo, Conclusiones sobre las peores formas de trabajo infantil, se 
+                    centra en las iniciativas de m&aacute;s de 130 pa&iacute;ses beneficiarios del comercio con los Estados Unidos 
+                    para eliminar las peores formas de trabajo infantil mediante legislaci&oacute;n, mecanismos de ejecuci&oacute;n, 
+                    pol&iacute;ticas y programas sociales. En el informe se presenta informaci&oacute;n sobre el predominio y 
+                    distribuci&oacute;n del trabajo infantil por sectores en cada pa&iacute;s y se eval&uacute;a la medida en que 
+                    los gobiernos han tomado medidas para atacar el problema en el a&ntilde;o del informe. Adem&aacute;s, se presentan 
+                    sugerencias espec&iacute;ficas por pa&iacute;s de medidas que puede adoptar el gobierno y que pueden aprovechar las 
+                    empresas y los actores de la sociedad civil para identificar puntos de influencia en las interacciones que tienen 
+                    con sus propios gobiernos.
                 </p>
-                El informe presenta:
-                <ul>
-                    <li>
-                        resultados respecto a la prevalencia y distribución
-                        sectorial de las peores formas de trabajo infantil en
-                        cada país;
-                    </li>
-                    <li>
-                        sugerencias sobre medidas específicas por país que cada
-                        gobierno puede tomar (desde 2009);
-                    </li>
-                    <li>
-                        evaluaciones por país del nivel de progreso realizado
-                        utilizando calificaciones de avance significativo,
-                        avance moderado, avance mínimo, o avance nulo (desde
-                        2011).
-                    </li>
-                </ul>
+
                 <p>
-                    Este informe constituye un instrumento de referencia para
-                    gobiernos extranjeros, ONG, académicos y tomadores de
-                    decisiones respecto a su trabajo en materia de asuntos
-                    laborales y de derechos humanos. Ayuda a informar a
-                    entidades del Congreso y del Poder ejecutivo que elaboran
-                    políticas relativas al comercio y al empleo, además de ser
-                    un importante recurso para el Departamento a la hora de
-                    evaluar asistencia técnica y prioridades de investigación
-                    futuras en su lucha contra el trabajo infantil en todo el
-                    mundo.
+                    El informe constituye un recurso excelente para empresas con cadenas mundiales de suministro, gobiernos extranjeros, 
+                    ONG, acad&eacute;micos y formuladores de pol&iacute;ticas que trabajan en la problem&aacute;tica del trabajo y los 
+                    derechos humanos. Ayuda a informar al Congreso y a las dependencias del Poder Ejecutivo que formulan las 
+                    pol&iacute;ticas laborales y comerciales y constituye un recurso importante para el Departamento al momento de evaluar 
+                    las prioridades futuras de asistencia t&eacute;cnica en su misi&oacute;n de combatir el trabajo infantil en todo 
+                    el mundo.
                 </p>
+
                 <p>
-                    La Dirección de asuntos internacionales de trabajo (ILAB)
-                    del Departamento de Trabajo publica los Resultados cada año
-                    desde 2002, conforme al mandato de la Ley de Comercio y
-                    Desarrollo (TDA) de 2000. La TDA exige que los países
-                    cumplan los compromisos para eliminar las peores formas de
-                    trabajo infantil si quieren participar en ciertos programas
-                    comerciales preferenciales estadounidenses. También exige
-                    que el Secretario de Trabajo de los Estados Unidos publique
-                    resultados anuales relativos a las iniciativas de los países
-                    para implementar estos compromisos.
+                    Desde 2002, tal como se indica en el mandato que emana de la Ley de comercio y desarrollo de 2000 (TDA), la 
+                    Direcci&oacute;n de Asuntos Laborales Internacionales (ILAB) del Departamento publica el informe todos los a&ntilde;os. 
+                    Dicha ley exige que los pa&iacute;ses cumplan los compromisos de eliminar las peores formas de trabajo infantil a fin 
+                    de reunir los requisitos para acceder a determinados programas de preferencia comercial con los Estados Unidos. 
+                    Asimismo, exige que el secretario de Trabajo de los Estados Unidos anualmente publique las conclusiones sobre las 
+                    iniciativas implementadas en los pa&iacute;ses beneficiarios para alcanzar dichos compromisos.
                 </p>
+                
                 <p>
-                    Más información aquí:{" "}
+                    V&eacute;ase m&aacute;s informaci&oacute;n en:{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -66,7 +45,7 @@ const en = () => {
                         title="Child labor Findings Report"
                     >
                         https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings
-                    </a>
+                    </a>.
                 </p>
             </div>
         </StaticData>
