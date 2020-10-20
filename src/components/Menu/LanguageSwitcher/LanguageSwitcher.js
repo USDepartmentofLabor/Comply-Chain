@@ -80,8 +80,8 @@ class LanguageSwitcher extends Component {
                 <LanguageButton
                     id="fr-btn"
                     onClick={() => {
-                         window.alert("THIS FEATURE IS COMING SOON");
-                        //this.handleLanguageChange("fr");
+                        //  window.alert("THIS FEATURE IS COMING SOON");
+                        this.handleLanguageChange("fr");
                     }}
                 >
                     <span lang="fr">{localizor.strings.general.french}</span>

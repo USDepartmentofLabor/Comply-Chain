@@ -130,8 +130,8 @@ class Splash extends Component {
                         <LanguageButton
                             id="fr-btn"
                             onClick={() => {
-                                //this.handleLanguageChange("fr");
-                                window.alert("THIS FEATURE IS COMING SOON");
+                                this.handleLanguageChange("fr");
+                                // window.alert("THIS FEATURE IS COMING SOON");
                             }}
                         >
                            <span lang="fr">{this.props.localizor.strings.general.french}</span>

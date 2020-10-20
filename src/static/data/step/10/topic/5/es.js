@@ -82,10 +82,27 @@ const es = () => {
                       </strong>
                   </h2>
                   <p>Tras pasar 15 a&ntilde;os en el mundo de las finanzas, Vanessa Barboni 
-                      Hallik lanz&oacute; la marca de moda 
-                      Another Tomorrow
-                      * junto con Jane Chung, fundadora de 
-                      DKNY*
+                      Hallik lanz&oacute; la marca de moda{" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.anothertomorrow.co/"
+                                title="Another Tomorrow"
+                            >
+                                
+                                Another Tomorrow
+                            </a>    
+                      * junto con Jane Chung, fundadora de{" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.donnakaran.com/category/dkny.do"
+                                title="DKNY"
+                            >
+                                
+                                DKNY
+                                
+                            </a>
                       . Las fundadoras ansiaban hacer participar a los consumidores en el 
                       dise&ntilde;o de todos y cada uno de los productos que vend&iacute;an. 
                       A tal fin, cada prenda que fabrica Another Tomorrow tiene un c&oacute;digo 
