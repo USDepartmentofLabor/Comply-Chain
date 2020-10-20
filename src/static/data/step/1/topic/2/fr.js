@@ -5,7 +5,7 @@ const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Évolution des normes volontaires et faisant autorité</h1>
+                <h1>Principes directeurs relatifs aux entreprises et aux droits de l&apos;homme des Nations Unies et normes et règles volontaires qui évoluent</h1>
                 <p>
                     Ces derni&egrave;res ann&eacute;es, le grand public
                     s&apos;attend de plus en plus &agrave; ce que les
@@ -38,30 +38,19 @@ const fr = () => {
                         entreprises et aux droits de l&apos;homme
                     </a>
                     , ont jou&eacute; un r&ocirc;le important dans cette
-                    &eacute;volution des attentes du public. En vertu des
-                    Principes directeurs des Nations Unies relatifs aux
-                    entreprises et aux droits de l&apos;homme, les &Eacute;tats
-                    ont, sur leur territoire et/ou dans leur juridiction, un
-                    devoir de protection contre les violations des droits de
-                    l&rsquo;homme perp&eacute;tr&eacute;es par des parties
-                    tierces, y compris les entreprises. Ils ont &eacute;galement
-                    le devoir de prendre les mesures qui s&rsquo;imposent pour
-                    s&rsquo;assurer qu&rsquo;en cas de telles violations, les
-                    victimes ont acc&egrave;s &agrave; de v&eacute;ritables
-                    r&eacute;parations. Pour leur part, les entreprises ont la
-                    responsabilit&eacute; de respecter les droits de la
-                    personne, notamment en &eacute;vitant de provoquer des
-                    effets n&eacute;gatifs sur les droits de la personne au
-                    travers de leurs propres activit&eacute;s, ou d&rsquo;y
-                    contribuer, et en cherchant &agrave; pr&eacute;venir ou
-                    &agrave; att&eacute;nuer de tels effets directement
-                    li&eacute;s &agrave; leurs op&eacute;rations, &agrave; leurs
-                    produits ou &agrave; leurs services par leurs relations
-                    commerciales. Les principes directeurs des Nations Unies
-                    s&rsquo;appliquent &agrave; tous les &Eacute;tats et
-                    &agrave; toutes les entreprises, notamment internationales,
-                    quels que soient leur secteur, leur taille, leur
-                    emplacement, leur propri&eacute;taire et leur structure.
+                    &eacute;volution des attentes du public.
+                    </p>
+                    <p>
+                    En vertu des Principes directeurs des Nations Unies relatifs aux entreprises et aux droits de l&apos;homme,
+                    les États ont, sur leur territoire et/ou dans leur juridiction, un devoir de protection contre les violations
+                    des droits de l’homme perpétrées par des parties tierces, y compris les entreprises. Ils ont également le devoir
+                    de prendre les mesures qui s’imposent pour s’assurer qu’en cas de telles violations, les victimes ont accès à de
+                    véritables réparations. Pour leur part, les entreprises ont la responsabilité de respecter les droits de l’homme,
+                    y compris en évitant les incidences négatives tant directes qu’indirectes sur les droits de l&apos;homme en raison
+                    de leurs propres activités. Les acteurs institutionnels ont également la responsabilité de fournir aux victimes un
+                    accès à des réparations véritables et en cherchant à prévenir ou à atténuer les incidences directement liées à leurs
+                    opérations, produits ou services par leurs relations commerciales. Les principes directeurs des Nations Unies s’appliquent
+                    à tous les États et à toutes les entreprises, notamment internationales, quels que soient leur secteur, leur taille, leur emplacement, leur propriétaire et leur structure.
                 </p>
             </div>
         </StaticData>
