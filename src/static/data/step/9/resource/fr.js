@@ -7,19 +7,21 @@ const fr = () => {
                 <ol>
                     <li>
                         <em>
-                            Assessing the Impacts of Social and Environmental
-                            Standards Systems: ISEAL Code of Good Practice
+                            &Eacute;valuer les incidences des syst&egrave;mes de normes sociales et environnementales : 
+                            le Code de bonnes pratiques ISEAL
+
                         </em>
-                        , d&eacute;cembre&nbsp;2014; disponible [en
-                        anglais] sur{" "}
+                        , d&eacute;cembre 2014 ; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.isealalliance.org/our-work/defining-credibility/codes-of-good-practice/impacts-code"
-                            title="Assessing the Impacts of Social and Environmental Standards Systems: ISEAL Code of Good Practice"
+                            href="https://www.isealalliance.org/sites/default/files/resource/2019-06/ISEAL_Impacts_Code_Version_2.0.pdf"
+                            title="https://www.isealalliance.org/sites/default/files/resource/2019-06/ISEAL_Impacts_Code_Version_2.0.pdf"
                         >
-                            https://www.isealalliance.org/get-involved/resources/iseal-impacts-code-good-practice
-                        </a>
+                        <em>
+                            https://www.isealalliance.org/sites/default/files/resource/2019-06/ISEAL_Impacts_Code_Version_2.0.pdf
+                        </em>
+                        </a>.
                     </li>
                 </ol>
             </div>
