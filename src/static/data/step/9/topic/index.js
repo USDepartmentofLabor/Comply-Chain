@@ -61,7 +61,7 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Vérification indépendante",
+            title: "Contrôle indépendant",
             content: Topic3.fr
         },
         {
