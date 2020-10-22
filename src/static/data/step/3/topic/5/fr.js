@@ -104,6 +104,7 @@ const fr = () => {
                         soci&eacute;t&eacute;s et organisations pertinentes
                         rejoignent constamment la plateforme.
                     </p>
+                    <p>Source : https://www.ilo.org/ipec/projects/global/WCMS_390400/lang--fr/index.htm.</p>
                 </ExampleInAction>
                 <br />
                 <ExampleInAction id="gbn">
@@ -116,43 +117,23 @@ const fr = () => {
                         </strong>
                     </h2>
                     <p>
-                        Le R&eacute;seau mondial d&apos;entreprises de
-                        l&rsquo;OIT sur le travail forc&eacute;, soutenu par un
-                        financement initial du d&eacute;partement du Travail et
-                        Mars, Inc.*, devrait &ecirc;tre lanc&eacute;
-                        en&nbsp;2018; il rassemblera des organisations
-                        d&rsquo;employeurs, des entreprises et d&rsquo;autres
-                        parties prenantes pour donner des occasions de partager
-                        des informations sur la mani&egrave;re dont les
-                        soci&eacute;t&eacute;s de toute une s&eacute;rie de
-                        secteurs exercent leur diligence raisonnable et
-                        effectuent des &eacute;valuations de risques en
-                        mati&egrave;re de travail forc&eacute; et de traite des
-                        &ecirc;tres humains dans leurs op&eacute;rations
-                        commerciales. Le R&eacute;seau mondial
-                        d&rsquo;entreprises fournira aux soci&eacute;t&eacute;s
-                        des occasions de r&eacute;f&eacute;rencer leurs
-                        r&eacute;sultats et de faciliter l&rsquo;apprentissage
-                        par les pairs sur les questions de travail forc&eacute;,
-                        notamment par le biais de l&rsquo;&eacute;change
-                        d&rsquo;informations sur les initiatives
-                        d&rsquo;autor&eacute;glementation et les bonnes
-                        pratiques en mati&egrave;re de gestion de cha&icirc;nes
-                        d&rsquo;approvisionnement complexes. Le R&eacute;seau
-                        mondial d&rsquo;entreprises travaillera en
-                        &eacute;troite collaboration avec la Plateforme sur le
-                        travail des enfants afin d&rsquo;assurer le soutien
-                        plein et entier et la participation compl&egrave;te du
-                        secteur des affaires pour atteindre les{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://sustainabledevelopment.un.org/?menu=1300"
-                            title="Objectifs de d&eacute;veloppement durable"
-                        >
-                            Objectifs de d&eacute;veloppement durable
-                        </a>{" "}
-                        en vertu de l&rsquo;
+                    Lancé en juin 2018, le Réseau mondial d&apos;entreprises sur le travail
+                    forcé de l’Organisation internationale du travail, soutenu par un financement
+                    initial du département du Travail et de Mars, Inc.*, rassemble l’OIT et des
+                    entreprises du monde entier de toutes tailles et de tous secteurs, ainsi que
+                    leurs réseaux, dans le but d’éradiquer le travail forcé. Opérant dans tous les
+                    secteurs et dans toutes les régions du monde, les membres du Réseau œuvrent à
+                    faire participer les sociétés de taille plus réduite, à mettre au point des
+                    ressources et des outils exploitables et à élaborer des solutions locales qui
+                    aident à façonner les cadres nationaux pour un changement durable. Les membres
+                    du Réseau sont des entreprises de toutes tailles et de tous secteurs, ainsi que
+                    des organisations d’employeurs et professionnelles, notamment des groupes commerciaux
+                    industriels et des associations sectorielles. D’autres initiatives opérées par des
+                    entreprises disposant de missions et d’expertises complémentaires peuvent devenir partenaires du Réseau.
+                    </p>
+                    <p>
+                        Le Réseau opère dans tous les secteurs et toutes les régions pour faire progresser l’argument
+                        commercial de l’élimination du travail forcé. Il est aligné avec d’autres initiatives internationales pertinentes et y contribue, en particulier l&rsquo;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -160,11 +141,26 @@ const fr = () => {
                             title="Alliance&nbsp;8.7"
                         >
                             Alliance 8.7
-                        </a>{" "}
-                        de l&rsquo;OIT, partenariat mondial visant &agrave;
-                        &eacute;liminer le travail des enfants, le travail
-                        forc&eacute;, l&rsquo;esclavage moderne et la traite des
-                        personnes.
+                        </a>
+                       , partenariat international qui œuvre à la réalisation de la cible 8.7 des ODD.
+                    </p>
+                    <p>
+                    Pour de plus amples renseignements et une liste à jour des membres, veuillez visiter{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.flbusiness.network"
+                    >
+                    www.flbusiness.network
+                    </a>
+                    {" "}ou contacter{" "}
+                     <a
+                             target="_blank"
+                             rel="noopener noreferrer"
+                             href="mailto:fl-businessnetwork@ilo.org"
+                       >
+                     fl-businessnetwork@ilo.org
+                     </a>.
                     </p>
                 </ExampleInAction>
             </div>

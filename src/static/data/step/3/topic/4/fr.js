@@ -36,7 +36,7 @@ const fr = () => {
                             title="R&eacute;seau de l&rsquo;approvisionnement responsable"
                         >
                             R&eacute;seau de l&rsquo;approvisionnement
-                            responsable
+                            responsable*
                         </a>{" "}
                         (RSN) est un projet d&eacute;di&eacute; &agrave;
                         l&rsquo;&eacute;limination des violations des droits de
@@ -72,11 +72,12 @@ const fr = () => {
                             href="http://www.sourcingnetwork.org/the-cotton-pledge"
                             title="production de coton en Ouzb&eacute;kistan"
                         >
-                            production de coton en Ouzb&eacute;kistan
+                            production de coton en Ouzbékistan
                         </a>
-                        .
+                        {" "}et au Turkménistan.
                     </p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction id="res_min_trade">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -105,39 +106,35 @@ const fr = () => {
                         &eacute;tain, tantale, tungst&egrave;ne et or, en
                         R&eacute;publique d&eacute;mocratique du Congo (RDC) et
                         dans les pays voisins de la r&eacute;gion des Grands
-                        Lacs de l&rsquo;Afrique centrale. Elle se compose
-                        actuellement de plus de 51&nbsp;membres, dont le
-                        d&eacute;partement d&apos;&Eacute;tat des
-                        &Eacute;tats-Unis, l&rsquo;Agence des &Eacute;tats-Unis
-                        pour le d&eacute;veloppement international, des
-                        entreprises, des groupes sectoriels, des organisations
-                        de la soci&eacute;t&eacute; civile et la
-                        Conf&eacute;rence internationale sur la r&eacute;gion
-                        des Grands Lacs, organe r&eacute;gional qui a
-                        &eacute;labor&eacute; des syst&egrave;mes de
-                        certifications des minerais. Depuis ses d&eacute;buts,
-                        la PPA soutient des projet pilotes en RDC qui font la
-                        promotion de l&rsquo;approvisionnement responsable en
-                        minerais.
+                        Lacs de l&rsquo;Afrique centrale. Elle se compose actuellement de plus de 40 membres,
+                        dont le département du Travail des États-Unis, le département d&apos;État des États-Unis,
+                        l’Agence des États-Unis pour le développement international, l’Agence allemande pour la
+                        coopération internationale (GIZ), des entreprises, des groupes sectoriels, des organisations
+                        de la société civile et la Conférence internationale sur la région des Grands Lacs. En 2017,
+                        la PPA a élaboré un mémorandum d’accord pour appuyer plus avant la mise en œuvre de systèmes
+                        de chaîne d&apos;approvisionnement en RDC et dans la région des Grands Lacs ainsi que les
+                        questions connexes de droits des travailleurs et de conditions de travail conformément au
+                        Guide de l’OCDE sur le devoir de diligence pour des chaînes d&apos;approvisionnement responsables
+                        en minerais provenant de zones de conflit ou à haut risque. Le mémorandum d’accord précise la
+                        structure de gouvernance de la PPA et les rôles et responsabilités de ses membres. La PPA est
+                        dirigée par un comité de gouvernance composé de représentants du gouvernement des États-Unis,
+                        d’entreprises et de la société civile ; l’ONG Resolve sert de facilitateur.
                     </p>
                     <p>
-                        Si une entreprise d&eacute;cide de cr&eacute;er un
-                        groupe de plusieurs parties prenantes ou de rejoindre un
-                        tel groupe, il est important d&apos;appliquer les
-                        m&ecirc;mes principes valides de gestion &agrave; ce
-                        groupe que ceux appliqu&eacute;s au syst&egrave;me de
-                        conformit&eacute; sociale dans son ensemble. Cet organe
-                        devrait poss&eacute;der des buts et des objectifs
-                        clairs, ainsi que des param&egrave;tres ou des
-                        indicateurs de performance permettant de jauger les
-                        progr&egrave;s. Il devrait avoir des processus en place
-                        pour la prise de d&eacute;cisions et la gouvernance, et
-                        ces processus et politiques devraient &ecirc;tre
-                        document&eacute;s. Et il devrait avoir des membres
-                        d&eacute;finis, ayant des r&ocirc;les et des
-                        responsabilit&eacute;s distincts.
+                        Si une entreprise décide de créer un groupe de plusieurs parties prenantes ou de rejoindre un
+                        tel groupe, il est important d&apos;appliquer les mêmes principes valides de gestion à ce groupe
+                        que ceux appliqués au système de conformité sociale dans son ensemble. Cet organe devrait
+                        posséder des buts et des objectifs clairs, ainsi que des paramètres ou des indicateurs de
+                        performance permettant de jauger les progrès. Il devrait disposer de processus clairs en
+                        place pour la prise de décisions et la gouvernance, et ces processus et politiques devraient
+                        être documentés et évalués au fil du temps. Et il devrait avoir des membres définis, ayant des
+                        rôles et des responsabilités distincts et des mécanismes pour faciliter la communication
+                        interne entre les membres et pour diffuser les informations sur les activités menées par ce
+                        groupe à plusieurs parties prenantes.
                     </p>
+                    <p>Source : http://www.resolve.org/site-ppa/.</p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction id="sug_phil">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -184,7 +181,7 @@ const fr = () => {
                             href="https://www.worldvision.org/"
                             title="World Vision"
                         >
-                            World Vision
+                            World Vision*
                         </a>
                         , a travaill&eacute; &agrave; la mobilisation du secteur
                         priv&eacute; et la promotion de partenariats entre les
@@ -203,7 +200,7 @@ const fr = () => {
                             sucre;
                         </li>
                         <li>
-                            La Sugarcane Industry Foundation, Inc. (SIFI), qui
+                            La Sugarcane Industry Foundation, Inc.* (SIFI), qui
                             soutient les travailleurs de l&rsquo;industrie
                             sucri&egrave;re et leurs familles dans
                             l&rsquo;ensemble du pays, a r&eacute;uni des parties
@@ -248,7 +245,11 @@ const fr = () => {
                     <p className="small-text">
                         &copy;Christopher Leones/ABK3 LEAP
                     </p>
+                    <p>
+                    Source [en anglais] : https://www.dol.gov/agencies/ilab/abk3-leap-livelihoods-education-advocacy.
+                    </p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction>
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -338,6 +339,9 @@ const fr = () => {
                         derni&egrave;res ann&eacute;es et devrait continuer
                         &agrave; augmenter rapidement, cette initiative ne
                         pourrait &ecirc;tre plus opportune.
+                    </p>
+                    <p>
+                    Source : http://poig.org/.
                     </p>
                 </ExampleInAction>
             </div>

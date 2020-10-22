@@ -91,11 +91,11 @@ const fr = () => {
                 <ExampleInAction id="clt">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Exemple d&apos;action: GoodWeave</strong>
+                        <strong>Exemple d&apos;action: GoodWeave*</strong>
                     </h2>
 
                     <p>
-                        Depuis plus de 20&nbsp;ans,{" "}
+                        Depuis plus de 20 ans,{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -104,44 +104,39 @@ const fr = () => {
                         >
                             GoodWeave
                         </a>{" "}
-                        travaille &agrave; la transformation de
-                        l&rsquo;industrie du tapis en encourageant la demande de
-                        tapis libre de travail des enfants et en aidant les
-                        entreprises &agrave; y r&eacute;pondre. Les importateurs
-                        et exportateurs de tapis qui souhaitent &ecirc;tre
-                        agr&eacute;&eacute;s par GoodWeave et obtenir
-                        l&rsquo;estampille GoodWeave d&rsquo;information des
-                        consommateurs doivent signer un contrat &agrave;
-                        caract&egrave;re ex&eacute;cutoire de respect de la
-                        norme rigoureuse de GoodWeave concernant la
-                        certification de fabrication de tapis sans recours au
-                        travail des enfants, au travail forc&eacute; et au
-                        travail en servitude. Dans le cadre du programme de
-                        certification, les entreprises conviennent
-                        d&rsquo;autoriser les inspections inopin&eacute;es de
-                        leurs cha&icirc;nes d&rsquo;approvisionnement afin de
-                        v&eacute;rifier la conformit&eacute; &agrave; la norme
-                        et d&rsquo;assurer la r&eacute;paration des violations.
-                        Elles s&rsquo;acquittent &eacute;galement de redevances
-                        qui soutiennent les programmes de GoodWeave de
-                        surveillance et d&rsquo;inspection des lieux de travail
-                        et de r&eacute;insertion et d&rsquo;&eacute;ducation des
-                        enfants en situation d&rsquo;exploitation. GoodWeave est
-                        membre de plein droit de l&rsquo;Alliance internationale
-                        pour l&apos;accr&eacute;ditation et
-                        l&apos;&eacute;tiquetage sociaux et environnementaux
-                        (ISEAL Alliance), association largement reconnue comme
-                        chef de file de la mise en place des bonnes pratiques
-                        pour les normes de certification. Ces derni&egrave;res
-                        ann&eacute;es, GoodWeave a &eacute;tendu la
-                        port&eacute;e de son programme au-del&agrave; de
-                        l&rsquo;industrie des tapis en Inde pour toucher de
-                        nouveaux secteurs et de nouveaux pays, notamment les
-                        fours &agrave; brique au N&eacute;pal, les usines de
-                        confection en Inde et, par le biais d&rsquo;un projet
-                        financ&eacute; par le d&eacute;partement du Travail des
-                        &Eacute;tats-Unis, la production de tapis &agrave;
-                        domicile en Afghanistan.
+                        travaille à la transformation de l’industrie du tapis en encourageant
+                        la demande de tapis libre de travail des enfants et en aidant les entreprises
+                        à y répondre. Les importateurs et exportateurs de tapis qui souhaitent être agréés
+                        par GoodWeave et obtenir l’estampille GoodWeave d’information des consommateurs
+                        doivent signer un contrat à caractère exécutoire de respect de la norme rigoureuse
+                        de GoodWeave concernant la certification de fabrication de tapis sans recours au
+                        travail des enfants, au travail forcé et au travail en servitude. Dans le cadre du
+                        programme de certification, les entreprises conviennent d’autoriser les inspections
+                        inopinées de leurs chaînes d’approvisionnement afin de vérifier la conformité à la
+                        norme et d’assurer la réparation des violations. Elles s’acquittent également de
+                        redevances qui soutiennent les programmes de GoodWeave de surveillance et d’inspection
+                        des lieux de travail et de réinsertion et d’éducation des enfants en situation d’exploitation.
+                        GoodWeave est membre de plein droit de l’Alliance internationale pour l&apos;accréditation et
+                        l&apos;étiquetage sociaux et environnementaux (ISEAL Alliance), association largement reconnue
+                        comme chef de file de la mise en place des bonnes pratiques pour les normes de certification.
+                        Ces dernières années, GoodWeave a étendu la portée de son programme au-delà de l’industrie des
+                        tapis en Inde pour toucher de nouveaux secteurs et de nouveaux pays, notamment les fours à brique au
+                        Népal, les usines de confection en Inde et, par le biais d’un projet financé par le département du
+                        Travail des États-Unis, la production de tapis à domicile en Afghanistan.
+                    </p>
+                    <p>
+                    Avec plus de 170 marques partenaires et 25 % de la part de marché internationale, GoodWeave a transformé
+                    le secteur de la fabrication artisanale de tapis en Asie du Sud grâce à son modèle basé sur le marché, où
+                    le travail des enfants a chuté, passant d’un million de victimes en 1995 à environ 200 000 aujourd&apos;hui.
+                    GoodWeave étend maintenant son modèle couronné de succès au linge de maison, à l’habillement, aux accessoires
+                    de mode et à d’autres secteurs encore. Pour en savoir plus, rendez-vous sur{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://goodweave.org/"
+                    >
+                    goodweave.org
+                    </a>.
                     </p>
                     <p>
                         En savoir plus sur le{" "}
@@ -157,9 +152,7 @@ const fr = () => {
                                 domicile en Afghanistan
                             </em>
                         </a>
-                        <em>, </em> financ&eacute; par le d&eacute;partement du
-                        Travail des &Eacute;tats-Unis et mis en &oelig;uvre par
-                        GoodWeave [en anglais].
+                        <em>, </em> financé par le département du Travail des États-Unis et mis en œuvre par GoodWeave sur https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan [en anglais].
                     </p>
                     <img src={goodweave} alt="GoodWeave International" />
                     <p className="small-text">

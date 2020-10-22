@@ -57,23 +57,18 @@ export const StepData = {
         learningObjectives: [
             "Comprendre l’importance d’impliquer des entités extérieures dans votre système de conformité sociale.",
             "Se familiariser avec les différentes formes que peut revêtir cet engagement, notamment des exemples précis de partenariats ou d’autres types de collaboration.",
-            "Identifier vos parties prenantes et collaborer avec elles."
+            "Identifier vos parties prenantes et engager le dialogue avec elles, notamment avec l’identification des incidences sur la communauté et des vulnérabilités sociales."
         ],
         keyTerms: [
             {
                 termName: "Partie prenante",
                 termDefinition:
-                    "Personne ou groupe directement ou indirectement touché par les politiques et/ou actions de votre entreprise ou ayant sinon un intérêt dans celles-ci.  Le terme partie prenante est largement utilisé par les pouvoirs publics, les entreprises et les organisations de la société civile et pas uniquement en matière de conformité sociale.  Toutefois, le programme de conformité sociale d’une entreprise peut avoir un sous-ensemble de parties prenantes différent de celui de l’ensemble de l’entreprise."
+                    "Personne ou groupe directement ou indirectement touché par les politiques et/ou actions de votre entreprise ou ayant sinon un intérêt dans celles-ci. Le terme partie prenante est largement utilisé par les pouvoirs publics, les entreprises et les organisations de la société civile et pas uniquement en matière de conformité sociale. Toutefois, le programme de conformité sociale d’une entreprise peut avoir un sous-ensemble de parties prenantes différent de celui de l’ensemble de l’entreprise. Cela s’applique aux personnes et aux communautés touchées par les opérations ou pratiques d’une entreprise, qu’elles fassent directement partie ou non de sa chaîne d'approvisionnement officielle. Par exemple, les producteurs et cultivateurs de canne à sucre qui vendent du sucre à un intermédiaire auprès duquel la société s’approvisionne peuvent tout de même être directement touchés par une entreprise, même s’ils peuvent ne pas faire partie de sa chaîne d'approvisionnement officielle. L’ONU reconnaît ces personnes comme ayant des droits et des protections que les entreprises doivent prendre en compte dans le cadre de leurs actions en matière de conformité sociale."
             },
             {
                 termName: "Communauté",
                 termDefinition:
-                    "Pour les besoins de cette boîte à outils, une communauté se compose des habitants d’une zone géographique (quartier, village, ville, région) se trouvant à un point de la chaîne d’approvisionnement de votre entreprise. Les communautés des chaînes d’approvisionnement de votre entreprise font partie de vos parties prenantes."
-            },
-            {
-                termName: "Worker Voice",
-                termDefinition:
-                "PLACEHOLDER FOR TEXT. "
+                    "Pour les besoins de cette appli, une communauté se compose des habitants d’une zone géographique (quartier, village, ville, région) se trouvant à un point de la chaîne d’approvisionnement de votre entreprise. Les communautés des chaînes d’approvisionnement de votre entreprise font partie de vos parties prenantes."
             }
         ],
         furtherResources: Resources.fr
