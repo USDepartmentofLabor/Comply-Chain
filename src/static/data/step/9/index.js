@@ -52,6 +52,51 @@ export const StepData = {
         title: "Séptimo paso: Examen independiente",
         topics: Topics.es,
         keywords: [
+            "Examen independiente",
+            "Vigilancia independiente (auditoría)",
+            "Verificación independiente",
+            "Organismo de certificación",
+            "OC",
+            "Évaluation des incidences"
+        ],
+        learningObjectives: [
+            "Entender la diferencia entre auditoría y examen independiente y comprender la importancia que reviste este último como paso crítico del proceso de cumplimiento social.",
+            "Averiguar de qué manera la evaluación del impacto puede beneficiar al programa de la empresa."
+        ],
+        keyTerms: [
+            {
+                termName: "Examen independiente",
+                termDefinition:
+                    "El examen independiente consta de la vigilancia independiente (auditoría) y la verificación independiente. En el contexto del cumplimiento social, la independencia se refiere a la ausencia de transacciones financieras directas entre la empresa y la entidad externa."
+            },
+            {
+                termName: "Vigilancia independiente (auditoría)",
+                termDefinition:
+                    "Los encargados de la vigilancia y el seguimiento, o auditorías, son auditores profesionales acreditados por instituciones o mecanismos cuya función consiste en garantizar que se realice la auditoría sin que medie transacción financiera directa alguna entre la empresa y el auditor. Por lo general, la empresa le paga a una institución separada e independiente por los servicios de auditoría, por afiliarse, o ambos. La institución acredita a los auditores en virtud de normas establecidas y se encarga de programar todas las auditorías y supervisarlas. Si bien está diseñado de esta manera para aumentar la credibilidad de la auditoría, en algunos sectores o lugares geográficos, tal vez no se puedan concertar estos arreglos. Además, incluso sin transacción financiera directa de por medio, algunas partes interesadas pueden tener dudas acerca del grado de independencia entre el auditor y la entidad auditada. Hay distintos grados de independencia y, en definitiva, debe evaluarse caso por caso."
+            },
+            {
+                termName: "Verificación independiente",
+                termDefinition:
+                    "Examen independiente realizado por un tercero (normalmente, un organismo de certificación) de la aplicación y eficacia de las otras actividades del sistema de cumplimiento social."
+            },
+            {
+                termName: "Organismo de certificación",
+                termDefinition:
+                    "Órgano acreditado para certificar o verificar el cumplimiento en otra entidad de una norma o un conjunto de normas definidas."
+            },
+            {
+                termName: "Evaluación del impacto",
+                termDefinition:
+                    "Método que permite determinar, con rigor estadístico, una relación causal y el efecto cuantificable de una intervención específica."
+            }
+        ],
+        furtherResources: Resources.es,
+        // extraInfo: ExtraInfo.es
+    },
+    fr: {
+        title: "Septième étape: Examen indépendant",
+        topics: Topics.fr,
+        keywords: [
             "Examen indépendant",
             "Vérification indépendante (audit)",
             "Contrôle indépendant",
@@ -60,8 +105,8 @@ export const StepData = {
             "Évaluation des incidences"
         ],
         learningObjectives: [
-            "Entender la diferencia entre auditoría y examen independiente y comprender la importancia que reviste este último como paso crítico del proceso de cumplimiento social.",
-            "Averiguar de qué manera la evaluación del impacto puede beneficiar al programa de la empresa."
+            "Comprendre la différence entre un audit et un examen indépendant et comprendre l’importance de l’examen indépendant comme étape essentielle du processus de conformité sociale.",
+            "Apprendre comment l’évaluation des incidences peut profiter à votre programme."
         ],
         keyTerms: [
             {
@@ -88,51 +133,6 @@ export const StepData = {
                 termName: "Évaluation des incidences",
                 termDefinition:
                     "Méthode qui établit, avec une rigueur statistique, une relation de cause à effet et l’incidence quantifiable d'une intervention donnée."
-            }
-        ],
-        furtherResources: Resources.es,
-        // extraInfo: ExtraInfo.es
-    },
-    fr: {
-        title: "Septième étape: Examen indépendant",
-        topics: Topics.fr,
-        keywords: [
-            "Examen indépendant",
-            "Contrôle indépendant",
-            "Vérification indépendante",
-            "Organisation de certification",
-            "OC",
-            "Évaluation des incidences"
-        ],
-        learningObjectives: [
-            "Comprendre la différence entre un audit et un examen indépendant et comprendre l’importance de l’examen indépendant comme étape essentielle du processus de conformité sociale.",
-            "Apprendre comment l’évaluation des incidences peut profiter à votre programme."
-        ],
-        keyTerms: [
-            {
-                termName: "Examen indépendant",
-                termDefinition:
-                    "L’examen indépendant comprend le contrôle indépendant (audit) et la vérification indépendante.  Dans le contexte de la conformité sociale, le terme indépendance se définit comme l’absence de transaction financière directe entre l’entreprise et une entité extérieure."
-            },
-            {
-                termName: "Contrôle indépendant (audit)",
-                termDefinition:
-                    "Contrôle/audit réalisé par des professionnels des audits, accrédités par des institutions ou des organisations ; leur rôle est de s'assurer que les audits se déroulent sans aucune transaction financière directe entre l'entreprise et l'auditeur. D'ordinaire, une entreprise paie une institution distincte indépendante qui effectue les audits et/ou une redevance pour appartenir à cette institution. L'institution accrédite les auditeurs en vertu de ses normes et elle est chargée de programmer tous les audits et de les surveiller.  Même si cela est conçu pour accroître la crédibilité de l'audit, dans certaines régions ou sites, cette disposition peut ne pas être disponible.  De plus, même en l'absence d'une transaction financière directe, certaines parties prenantes peuvent encore s'inquiéter du degré d'indépendance d'un auditeur par rapport à l'entité faisant l'objet de l'audit. Il existe différents degrés d'indépendance, et cette dernière doit au fond être jugée au cas par cas."
-            },
-            {
-                termName: "Vérification indépendante",
-                termDefinition:
-                    "Examen indépendant par une partie tierce de la mise en œuvre et de l’efficacité des autres activités du système de conformité sociale, généralement effectué par une organisation de certification."
-            },
-            {
-                termName: "Organisation de certification (OC)",
-                termDefinition:
-                    "Organisation accréditée pour certifier ou vérifier la conformité d’une autre entité à une norme donnée ou à un ensemble donné de normes."
-            },
-            {
-                termName: "Évaluation des incidences",
-                termDefinition:
-                    "Méthode qui établit, avec une rigueur statistique, une relation de cause à effet et une incidence quantifiable d'une intervention donnée."
             }
         ],
         furtherResources: Resources.fr,

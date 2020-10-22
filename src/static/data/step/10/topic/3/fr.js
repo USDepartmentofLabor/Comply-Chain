@@ -288,7 +288,7 @@ const fr = () => {
                     <p>
                         <strong>Donn&eacute;es des audits sociaux.</strong> Ces donn&eacute;es devraient &ecirc;tre aussi exhaustives et 
                         sp&eacute;cifiques que possible. Certaines entreprises publient des rapports d'audit int&eacute;graux tandis que 
-                        d'autres regroupent les donn&eacute;es des audits et les publient sous forme compil&eacute;e. Par exemple, la 
+                        d'autres regroupent les donn&eacute;es des audits et les publient sous forme compil&eacute;e. Par exemple, la{" "}
                         <strong>FLA*</strong> publie ses{" "}
                         <a
                             target="_blank"
