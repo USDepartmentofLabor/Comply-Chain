@@ -11,7 +11,7 @@ const fr = () => {
                 <p>
                     Les systèmes de conformité sociale, considérés traditionnellement comme
                     une initiative purement volontaire, deviennent progressivement des moyens
-                    importants de remplir des impératifs juridiques. Des lois ont été adoptées aux États-Unis, notamment la
+                    importants de remplir des impératifs juridiques. Des lois ont été adoptées aux États-Unis, notamment la{" "}
                     <a
                         href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
                         target="_blank"
