@@ -107,7 +107,7 @@ const fr = () => {
                                         href="http://sa-intl.org/index.cfm?fuseaction=Page.viewPage"
                                         title="Social Fingerprint"
                                     >
-                                        http://socialfingerprint.org/
+                                        https://sa-intl.org/services/social-fingerprint/
                                     </a>
                                     . N.B.: il s&apos;agit d&apos;un service
                                     tarif&eacute;.
@@ -125,7 +125,7 @@ const fr = () => {
                                         r&eacute;parer&nbsp;» des Nations Unies
                                     </em>
                                     . New York:
-                                    21&nbsp;mars&nbsp;2011; disponible sur{" "}
+                                    21&nbsp;mars&nbsp;2011; disponible [en anglais] sur{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"

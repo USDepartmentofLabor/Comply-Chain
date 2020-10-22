@@ -8,7 +8,7 @@ const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Rejoindre un programme de conformité sociale</h1>
+                <h1>Rejoindre à un programme de conformité sociale existant</h1>
                                 <p>
                                     Dans certaines industries, des groupes
                                     d&apos;entreprises se sont r&eacute;unis
@@ -145,10 +145,9 @@ const fr = () => {
                                         href="http://www.responsiblebusiness.org/"
                                         title="Responsible Business Alliance (RBA)"
                                     >
-                                        Responsible Business Alliance (RBA)
+                                        Responsible Business Alliance
                                     </a>
-                                    , anciennement appelée Electronic Industry
-                                    Citizenship Coalition (EICC)
+                                    , (anciennement Coalition pour la citoyenneté de l&apos;industrie électronique)
                                     s&rsquo;engagent vis-&agrave;-vis d&rsquo;un{" "}
                                     <a
                                         target="_blank"
@@ -250,43 +249,17 @@ const fr = () => {
                                     .
                                 </p>
                                 <p>
-                                    <Link to="/steps/3">
-                                        La 1<sup>&egrave;re</sup>{" "}
-                                        &eacute;tape: faire participer les
-                                        parties prenantes et les partenaires 
-                                    </Link>
-                                     offre de nombreux autres exemples de
-                                    programmes et d&apos;initiatives
-                                    collaboratives que vous pouvez choisir de
-                                    rejoindre.
-                                </p>
-                            <p>
-                                <em>
-                                    *Remarque: Les
-                                    r&eacute;f&eacute;rences &agrave; des
-                                    soci&eacute;t&eacute;s et entit&eacute;s non
-                                    gouvernementales sp&eacute;cifiques dans ce
-                                    guide sont &agrave; des fins
-                                    d&rsquo;information uniquement afin de
-                                    d&eacute;montrer les bonnes pratiques
-                                    reconnues &agrave; l&rsquo;&eacute;chelle
-                                    internationale, &agrave; la date de
-                                    lancement de l&rsquo;appli. Toute
-                                    r&eacute;f&eacute;rence &agrave; ces
-                                    entit&eacute;s ne saurait constituer une
-                                    approbation officielle de ces
-                                    derni&egrave;res, de leurs produits ou de
-                                    leurs services par le d&eacute;partement du
-                                    Travail des &Eacute;tats-Unis,{" "}
-                                </em>
-                                <em>
-                                    et leur inclusion dans cette appli ne
-                                    saurait &ecirc;tre interpr&eacute;t&eacute;e
-                                    comme un examen exhaustif des pratiques de
-                                    ces entit&eacute;s dans tous les domaines
-                                </em>
-                                <em>.</em>
-                            </p>
+                                    La&nbsp;
+                                    <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.dol.gov/ilab/complychain/steps/1"
+                                        >
+                                    première étape, Faire participer les parties prenantes et les partenaires
+                                    </a>,
+                                     offre de nombreux autres exemples de programmes et
+                                     d&apos;initiatives collaboratives que vous pouvez choisir de rejoindre.</p>
+
             </div>
         </StaticData>
     );

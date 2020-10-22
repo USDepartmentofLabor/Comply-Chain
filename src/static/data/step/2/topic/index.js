@@ -72,7 +72,7 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Rejoindre un programme de conformité sociale",
+            title: "Rejoindre à un programme de conformité sociale existant",
             content: Topic2.fr
         },
         {
