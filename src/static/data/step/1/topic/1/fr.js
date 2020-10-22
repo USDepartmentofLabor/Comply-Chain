@@ -678,8 +678,26 @@ const fr = () => {
                                     &agrave; la traite des personnes.&nbsp;
                                 </p>
                                 <p>
+                                Voir également{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.verite.org/the-california-transparency-in-supply-chains-act-a-resource-guide/"
+                                >
+                                La loi de la Californie sur la transparence dans les chaînes d’approvisionnement : guide de ressources
+                                </a>
+                                , préparé [en anglais] par le département de la Justice de Californie, qui contient des recommandations concernant la conformité et des modèles de pratiques de communication.
+                                </p>
+                                <p>
                                 Voir également Les cinq premières années de la loi de la Californie sur la
-                                transparence dans les chaînes d’approvisionnement : dossier, rédigé par KnowTheChain,
+                                transparence dans les chaînes d’approvisionnement : dossier, rédigé par{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://knowthechain.org/"
+                                >
+                                KnowTheChain
+                                </a>,
                                 initiative menée par{" "}
                                 <a
                                     target="_blank"
@@ -750,7 +768,15 @@ const fr = () => {
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    Le 1<sup>er</sup> janvier 2019 est entrée en vigueur en Australie la Loi contre l’esclavage moderne de 2018 (la Loi).
+                                    Le 1<sup>er</sup> janvier 2019 est entrée en vigueur en Australie la{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.legislation.gov.au/Details/C2018A00153"
+                                    >
+                                    Loi contre l’esclavage moderne de 2018
+                                    </a>
+                                    {" "} (la Loi).
                                     La Loi exige que les entités qui sont basées ou qui opèrent en Australie et ont un chiffre d’affaires annuel consolidé de
                                     plus de 100 millions de dollars australiens fassent rapport, dans le cadre d’une déclaration sur l’esclavage moderne, sur
                                     les risques de l’esclavage moderne au sein de leurs opérations et dans chaînes d’approvisionnement et des mesures prises pour les éliminer.
@@ -825,10 +851,26 @@ const fr = () => {
                                            href="https://ec.europa.eu/info/publications/non-financial-reporting-guidelines_en"
                                     >
                                  lignes directrices pour aider les sociétés à publier des informations
-                                 sur les questions environnementales et sociales
+                                 sur les questions environnementales et sociales{" "}
                                  </a>
-                                 , mais il existe une certaine souplesse dans la méthode de publication en vertu des lignes directrices.
-                                 Pour plus d’informations, rendez-vous sur le site Web de la Commission européenne.
+                                 ,
+                                 <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href=""
+                                 >
+                                 mais il existe une certaine souplesse dans la méthode de publication en vertu des lignes directrices
+                                 </a>
+                                 .
+                                 Pour plus d’informations, rendez-vous sur le{" "}
+                                 <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://ec.europa.eu/info/business-economy-euro/company-reporting-and-auditing/company-reporting/non-financial-reporting_en"
+                                 >
+                                 site Web
+                                  </a>
+                                  {" "}de la Commission européenne.
                                 </p>
                                 
                             </Accordion.Panel>
