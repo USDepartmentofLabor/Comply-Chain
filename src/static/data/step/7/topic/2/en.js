@@ -53,9 +53,9 @@ const en = () => {
                          </p>
                       </Accordion.Panel>
                   </Accordion.Section>
-                  </Accordion>
+                  {/* </Accordion>
 
-                  <Accordion id="ext-auditors-acc">
+                  <Accordion id="ext-auditors-acc"> */}
                       <Accordion.Section id="ext-auditors-description">
                          <Accordion.Title>
                          External auditors
@@ -80,8 +80,8 @@ const en = () => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    </Accordion>
-                        <Accordion id="independent-auditors-acc">
+                    {/* </Accordion>
+                        <Accordion id="independent-auditors-acc"> */}
                         <Accordion.Section id="independent-auditors-description">
                            <Accordion.Title>
                            Independent auditors/monitors
