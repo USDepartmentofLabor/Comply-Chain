@@ -76,6 +76,7 @@ const fr = () => {
                         </a>
                         {" "}et au Turkménistan.
                     </p>
+                    <p>Source : http://www.sourcingnetwork.org/.</p>
                 </ExampleInAction>
                 <br />
                 <ExampleInAction id="res_min_trade">
