@@ -138,6 +138,18 @@ const fr = () => {
                                    cinquième étape, Surveiller la conformité
                                 </Link>
                             </p>
+                            <p>
+                            <em>*Remarque : Les références à des sociétés et entités
+                            non gouvernementales spécifiques dans ce guide sont à des
+                            fins d’information uniquement afin de démontrer les bonnes
+                            pratiques reconnues à l’échelle internationale, à la date de
+                            lancement de l’appli. Toute référence à ces entités ne saurait
+                            être interprété comme constituant une approbation officielle
+                            de ces dernières, de leurs produits ou de leurs services par le
+                            département du Travail des États-Unis, et leur inclusion dans
+                            cette appli ne saurait être interprétée comme un examen exhaustif
+                            des pratiques de ces entités dans tous les domaines.</em>
+                            </p>
             </div>
         </StaticData>
     );

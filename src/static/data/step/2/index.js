@@ -63,7 +63,7 @@ export const StepData = {
         furtherResources: Resources.es
     },
     fr: {
-        title: "Fondements d’un système de conformité sociale",
+        title: "Bases d’un système de conformité sociale",
         topics: Topics.fr,
         keywords: ["Responsabilité sociale des entreprises (RSE)", "Système de conformité sociale", "Chaîne d'approvisionnement"],
         learningObjectives: [

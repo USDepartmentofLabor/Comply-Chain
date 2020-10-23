@@ -120,8 +120,7 @@ const fr = () => {
                                     s&eacute;curit&eacute; au travail, les
                                     salaires et les heures ouvr&eacute;es (voir{" "}
                                     <Link to="/steps/7">
-                                        3<sup>e</sup> &eacute;tape:
-                                        &eacute;laborer un code de conduite
+                                        troisième étape :élaborer un code de conduite
                                     </Link>{" "}
                                     pour un compl&eacute;ment d&apos;information
                                     sur ces normes de l&apos;OIT).
