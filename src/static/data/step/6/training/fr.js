@@ -6,11 +6,9 @@ const fr = () => {
             <div>
                 <ol>
                     <li>
-                        Cisco, Cody, Laura Gitman et Celine Suarez (Business for
-                        Social Responsibility). «&nbsp;Good Practices for
-                        Complying with Licensors&rsquo; Social and Environmental
-                        Requirements: A Practical Guide for Licensees&nbsp;».
-                        2011 ; disponible [en anglais] sur{" "}
+                        Cisco, Cody, Laura Gitman et Celine Suarez (Business for Social Responsibility). &laquo; Good Practices 
+                        for Complying with Licensors&rsquo; Social and Environmental Requirements: A Practical Guide for Licensees 
+                        &raquo;. 2011; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -23,18 +21,14 @@ const fr = () => {
                     <li>
                         OIT et OIE.{" "}
                         <em>
-                            Comment faire des affaires tout en respectant le
-                            droit des enfants &agrave; ne pas &ecirc;tre
-                            astreints au travail des enfants: Outil
-                            d&apos;orientation du BIT et l&apos;OIE sur le
-                            travail des enfants &agrave; l&apos;intention des
-                            entreprises
+                        Comment faire des affaires tout en respectant le droit des enfants &agrave; ne pas &ecirc;tre astreints au travail des 
+                        enfants: Outil d'orientation du BIT et l'OIE sur le travail des enfants &agrave; l'intention des entreprises
                         </em>
                         . 2015; disponible sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_27555/lang--en/index.htm"
+                            href="http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_28416/lang--fr/index.htm"
                             title="Comment faire des affaires tout en respectant le droit des enfants &agrave; ne pas &ecirc;tre astreints au travail des enfants: Outil d'orientation du BIT et l'OIE sur le travail des enfants &agrave; l'intention des entreprises"
                         >
                             http://www.ilo.org/ipec/Informationresources/WCMS_IPEC_PUB_28416/lang--fr/index.htm
@@ -44,8 +38,7 @@ const fr = () => {
                     <li>
                         OIT-SAP-FL.{" "}
                         <em>
-                            Combating Forced Labour: A Handbook for Employers
-                            and Businesses 2<sup>nd</sup> edition
+                        Combattre le travail forc&eacute; : manuel pour les employeurs et le secteur priv&eacute; 2<sup>nd</sup> &eacute;dition
                         </em>
                         . 2015; disponible [en anglais] sur{" "}
                         <a
@@ -59,22 +52,21 @@ const fr = () => {
                     </li>
                     <li>
                         Conf&eacute;d&eacute;ration syndicale internationale
-                        <em>. Mini Action Guide: Forced Labour. </em>2008;
+                        <em>. Mini guide d&rsquo;action : Travail forc&eacute;, </em>2008;
                         disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ituc-csi.org/IMG/pdf/guide_forced_labour_EN.pdf"
+                            href="https://www.ituc-csi.org/IMG/pdf/guide_forced_labour_FR-2.pdf"
                         >
-                            https://www.ituc-csi.org/IMG/pdf/guide_forced_labour_EN.pdf
+                            https://www.ituc-csi.org/IMG/pdf/guide_forced_labour_FR-2.pdf
                         </a>
                         .
                     </li>
                     <li>
-                        Interfaith Center on Corporate Responsibility.{" "}
+                        Centre interconfessionnel sur la responsabilit&eacute; des entreprises.{" "}
                         <em>
-                            Best Practice Guidance on Ethical Recruitment of
-                            Migrant Workers.
+                        Orientations en mati&egrave;re de bonnes pratiques sur le recrutement &eacute;thique des travailleurs migrants.
                         </em>{" "}
                         Avril 2017; disponible [en anglais] sur{" "}
                         <a
@@ -90,9 +82,7 @@ const fr = () => {
                     <li>
                         OIM/OSCE/OIT.{" "}
                         <em>
-                            «&nbsp;Handbook on Establishing Effective Labour
-                            Migration Policies in Countries of Origin and
-                            Destination&nbsp;».
+                            Handbook on Establishing Effective Labour Migration Policies in Countries of Origin and Destination.
                         </em>{" "}
                         2006; disponible [en anglais] sur{" "}
                         <a
@@ -108,8 +98,7 @@ const fr = () => {
                     <li>
                         IOM/OSCE.{" "}
                         <em>
-                            «&nbsp;Training Modules on Labour Migration
-                            Management &ndash; Trainer&rsquo;s Manual
+                            Training Modules on Labour Migration Management – Trainer’s Manual
                         </em>
                         <em>&nbsp;».</em> 2011; disponible [en anglais]
                         sur{" "}
@@ -136,19 +125,19 @@ const fr = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;. <em>Fair Hiring Toolkit; </em>disponible
+                        Verit&eacute;. <em>Bo&icirc;te &agrave; outils de l&rsquo;embauche &eacute;quitable; </em>disponible
                         [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://helpwanted.verite.org/helpwanted/toolkit"
                         >
-                            http://helpwanted.verite.org/helpwanted/toolkit
+                           http://helpwanted.verite.org/helpwanted/toolkit
                         </a>
                         .
                     </li>
                     <li>
-                        Verit&eacute;. <em>Responsible Sourcing Tool; </em>
+                        Verit&eacute;. <em>Outil d&rsquo;approvisionnement responsable; </em>
                         disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
@@ -160,7 +149,7 @@ const fr = () => {
                         .
                     </li>
                 </ol>
-                <p>
+                {/* <p>
                     <em>
                         *Remarque: Les r&eacute;f&eacute;rences &agrave;
                         des soci&eacute;t&eacute;s et entit&eacute;s non
@@ -178,7 +167,7 @@ const fr = () => {
                         examen exhaustif des pratiques de ces entit&eacute;s
                         dans tous les domaines.
                     </em>
-                </p>
+                </p> */}
             </div>
         </StaticData>
     );

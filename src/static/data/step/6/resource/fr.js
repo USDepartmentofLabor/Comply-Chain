@@ -8,41 +8,34 @@ const fr = () => {
                     <li>
                         Nations Unies.{" "}
                         <em>
-                            La responsabilit&eacute; des entreprises de
-                            respecter les droits de l&apos;homme: Guide
-                            interpr&eacute;tatif.{" "}
+                        La responsabilit&eacute; des entreprises de respecter les droits de l'homme : Guide interpr&eacute;tatif.{" "}
                         </em>
                         2012; disponible sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ohchr.org/Documents/Publications/HR.PUB.12.2_En.pdf"
-                            title="La responsabilit&eacute; des entreprises de respecter les droits de l'homme: Guide interpr&eacute;tatif."
+                            href="http://www.ohchr.org/Documents/Publications/HR_PUB_12_2_fr.pdf"
+                            title="La responsabilit&eacute; des entreprises de respecter les droits de l'homme : Guide interpr&eacute;tatif."
                         >
                             http://www.ohchr.org/Documents/Publications/HR_PUB_12_2_fr.pdf
                         </a>
                         .
                     </li>
                     <li>
-                        Du, Shuili, C. B. Bhattacharya et Sankar Sen,
-                        «&nbsp;Maximizing Business Returns to Corporate Social
-                        Responsibility (CSR): The Role of CSR
-                        Communication&nbsp;»,{" "}
-                        <em>International Journal of Management Reviews</em>{" "}
-                        (2010): 8-19 [en anglais].
+                        Du, Shuili, C. B. Bhattacharya et Sankar Sen, &laquo; Maximizing Business Returns to Corporate Social Responsibility 
+                        (CSR): The Role of CSR Communication &raquo;, International Journal of Management Reviews (2010) : 8-19. [en anglais]
                     </li>
                     <li>
                         FAO et OIT.{" "}
                         <em>
-                            Prot&eacute;geons nos enfants des pesticides: Guide
-                            visuel d&rsquo;animation.
+                        Prot&eacute;geons nos enfants des pesticides : Guide visuel d&rsquo;animation.
                         </em>{" "}
                         2015; disponible sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.fao.org/3/a-i3527e.pdf"
-                            title="Prot&eacute;geons nos enfants des pesticides: Guide visuel d&rsquo;animation."
+                            href="http://www.fao.org/3/a-i3527f.pdf"
+                            title="Prot&eacute;geons nos enfants des pesticides : Guide visuel d&rsquo;animation."
                         >
                             http://www.fao.org/3/a-i3527f.pdf
                         </a>
@@ -51,8 +44,7 @@ const fr = () => {
                     <li>
                         GTZ,{" "}
                         <em>
-                            Promotion of social, environmental, and production
-                            standards in the readymade garment industry
+                            Promotion of social, environmental, and production standards in the readymade garment industry
                         </em>
                         , s.d.; disponible [en anglais] sur{" "}
                         <a
@@ -68,27 +60,25 @@ const fr = () => {
                     <li>
                         Soci&eacute;t&eacute; Financi&egrave;re Internationale.{" "}
                         <em>
-                            Good Practice Note: Addressing Grievances from
-                            Project-Affected Communities,{" "}
-                        </em>
+                        Good Practice Note: Addressing Grievances from Project-Affected Communities
+                        </em>, 
                         n<sup>o</sup>&nbsp;7. 2009; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.ifc.org/wps/wcm/connect/f9019c05-0651-4ff5-9496-c46b66dbeedb/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-f9019c05-0651-4ff5-9496-c46b66dbeedb-jkD0-.g"
+                            href="https://www.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=cbe7b18048855348ae6cfe6a6515bb18"
                             title="Good Practice Note: Addressing Grievances from Project-Affected Communities, n<sup>o</sup>&nbsp;7."
                         >
-                            https://www.ifc.org/wps/wcm/connect/f9019c05-0651-4ff5-9496-c46b66dbeedb/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-f9019c05-0651-4ff5-9496-c46b66dbeedb-jkD0-.g
+                            https://www.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=cbe7b18048855348ae6cfe6a6515bb18
                         </a>
                         .
                     </li>
                     <li>
                         OIT et OIE.{" "}
                         <em>
-                            SMEs and Human Rights: What is the current state of
-                            play, what are the opportunities and challenge, what
-                            kind of support is needed?
-                        </em>{" "}
+                            SMEs and Human Rights: What is the current state of play, what are the opportunities and challenge, 
+                            what kind of support is needed
+                        </em>? 
                         novembre 2016; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
@@ -118,11 +108,11 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.shiftproject.org/media/resources/docs/Shift_remediationUNGPs_2014.pdf"
+                            href="http://www.respect.international/remediation-grievance-mechanisms-and-the-corporate-responsibility-to-respect-human-rights"
                             title="Remediation, Grievance Mechanisms and the Corporate Responsibility to Respect Human Rights."
                         >
                             <em>
-                                https://www.shiftproject.org/media/resources/docs/Shift_remediationUNGPs_2014.pdf
+                            http://www.respect.international/remediation-grievance-mechanisms-and-the-corporate-responsibility-to-respect-human-rights
                             </em>
                         </a>
                         .

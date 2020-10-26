@@ -474,7 +474,7 @@ const fr = () => {
                                             <Accordion id="cocoa-chains-acc"> */}
                 <Accordion.Section id="cocoa-description">
                     <Accordion.Title>
-                    R&eacute;union de conclusion avec la direction
+                    Gestion de la R&eacute;union de conclusion
                         </Accordion.Title>
                         <Accordion.Panel>
                         <p>
