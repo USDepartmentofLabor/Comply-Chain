@@ -61,95 +61,95 @@ const en = () => {
                           </p>
                      </Accordion.Panel>
                  </Accordion.Section>
-                 </Accordion>
-                                 <Accordion id="systems-integration-acc">
-                                    <Accordion.Section id="systems-integration-description">
-                                       <Accordion.Title>
-                                       Integration with Other Information Systems
-                                          </Accordion.Title>
-                                          <Accordion.Panel>
-                                           <p>
-                                               The second challenge is integration. The database must be
-                                               integrated with information systems that track other social
-                                               compliance program data, such as supplier lists, supplier
-                                               training and capacity-building data, remediation, and
-                                               independent verification information. Second, it must be
-                                               integrated with other company functions, particularly
-                                               sourcing, so that social compliance data is utilized
-                                               effectively by other business units. Integration should be
-                                               such that the sourcing department places orders with
-                                               suppliers who perform well on social audits.
-                                           </p>
-                                      </Accordion.Panel>
-                                  </Accordion.Section>
-                                  </Accordion>
-                                  <Accordion id="using-data-acc">
-                                                     <Accordion.Section id="using-data-description">
-                                                        <Accordion.Title>
-                                                        Using the Data
-                                                           </Accordion.Title>
-                                                           <Accordion.Panel>
-                                                            <p>
-                                                                A third challenge is setting up clear processes for the use
-                                                                of data. Auditors should check the database as they prepare
-                                                                for an audit, to look at the audit history of a particular
-                                                                worksite as well as the types of violations that are common
-                                                                in that geographic location and/or product type. The social
-                                                                compliance team should have clear processes for analyzing
-                                                                data from specific audits as well as tracking patterns
-                                                                across all audits.&nbsp;
-                                                            </p>
-                                                            <p>
-                                                                If violations are found at a worksite, there should be
-                                                                processes in place for tracking that supplier&rsquo;s
-                                                                remediation. The team should be looking for patterns of
-                                                                violations in specific product lines, particular regions,
-                                                                violations related to supplier ownership/management and
-                                                                other issues. When patterns are detected, the scheduling
-                                                                audits should shift toward those types of worksites that
-                                                                seem to pose greater risks. The team should also have checks
-                                                                in place to identify &ldquo;outliers&rdquo; and verify data
-                                                                accuracy.&nbsp;
-                                                            </p>
-                                                            <p>
-                                                                There will be times when audit data reveals serious
-                                                                violations, and times when a particular supplier continues
-                                                                to violate the code despite repeated audits and remediation
-                                                                efforts. Companies will need policies to determine when to
-                                                                continue remediation, and when to discontinue their business
-                                                                relationship with a particular supplier. Some companies have
-                                                                &ldquo;no tolerance&rdquo; policies in place with respect to
-                                                                certain violations, often child labor or forced labor, for
-                                                                which they will immediately discontinue or suspend a
-                                                                relationship with a supplier. Others continue remediation
-                                                                for a certain time period or to achieve specified targets,
-                                                                but if the supplier does not show sufficient improvement,
-                                                                the company discontinues the relationship. When terminating
-                                                                a business relationship with a supplier, the company should
-                                                                always keep in mind the impact of such a termination on the
-                                                                workers.
-                                                            </p>
+                 {/* </Accordion>
+                                 <Accordion id="systems-integration-acc"> */}
+                <Accordion.Section id="systems-integration-description">
+                    <Accordion.Title>
+                    Integration with Other Information Systems
+                        </Accordion.Title>
+                        <Accordion.Panel>
+                        <p>
+                            The second challenge is integration. The database must be
+                            integrated with information systems that track other social
+                            compliance program data, such as supplier lists, supplier
+                            training and capacity-building data, remediation, and
+                            independent verification information. Second, it must be
+                            integrated with other company functions, particularly
+                            sourcing, so that social compliance data is utilized
+                            effectively by other business units. Integration should be
+                            such that the sourcing department places orders with
+                            suppliers who perform well on social audits.
+                        </p>
+                    </Accordion.Panel>
+                </Accordion.Section>
+                {/* </Accordion>
+                <Accordion id="using-data-acc"> */}
+                    <Accordion.Section id="using-data-description">
+                    <Accordion.Title>
+                    Using the Data
+                        </Accordion.Title>
+                        <Accordion.Panel>
+                        <p>
+                            A third challenge is setting up clear processes for the use
+                            of data. Auditors should check the database as they prepare
+                            for an audit, to look at the audit history of a particular
+                            worksite as well as the types of violations that are common
+                            in that geographic location and/or product type. The social
+                            compliance team should have clear processes for analyzing
+                            data from specific audits as well as tracking patterns
+                            across all audits.&nbsp;
+                        </p>
+                        <p>
+                            If violations are found at a worksite, there should be
+                            processes in place for tracking that supplier&rsquo;s
+                            remediation. The team should be looking for patterns of
+                            violations in specific product lines, particular regions,
+                            violations related to supplier ownership/management and
+                            other issues. When patterns are detected, the scheduling
+                            audits should shift toward those types of worksites that
+                            seem to pose greater risks. The team should also have checks
+                            in place to identify &ldquo;outliers&rdquo; and verify data
+                            accuracy.&nbsp;
+                        </p>
+                        <p>
+                            There will be times when audit data reveals serious
+                            violations, and times when a particular supplier continues
+                            to violate the code despite repeated audits and remediation
+                            efforts. Companies will need policies to determine when to
+                            continue remediation, and when to discontinue their business
+                            relationship with a particular supplier. Some companies have
+                            &ldquo;no tolerance&rdquo; policies in place with respect to
+                            certain violations, often child labor or forced labor, for
+                            which they will immediately discontinue or suspend a
+                            relationship with a supplier. Others continue remediation
+                            for a certain time period or to achieve specified targets,
+                            but if the supplier does not show sufficient improvement,
+                            the company discontinues the relationship. When terminating
+                            a business relationship with a supplier, the company should
+                            always keep in mind the impact of such a termination on the
+                            workers.
+                        </p>
 
-                                                       </Accordion.Panel>
-                                                   </Accordion.Section>
-                                                   </Accordion>
-                                                   <p>
-                                                       <em>
-                                                           *Note: References to specific companies and
-                                                           non-governmental entities within this guide are for
-                                                           informational purposes only to demonstrate best
-                                                           practices that have been recognized internationally, as
-                                                           of the app&rsquo;s release date. Referencing the
-                                                           entities should not be interpreted as an official
-                                                           endorsement of those entities, their products, or
-                                                           services by the U.S. Department of Labor{" "}
-                                                       </em>
-                                                       <em>
-                                                           and their inclusion should not be interpreted as a
-                                                           comprehensive review of these entities&rsquo; practices
-                                                           in all areas
-                                                       </em>
-                                                   </p>
+                    </Accordion.Panel>
+                </Accordion.Section>
+                </Accordion>
+                                <p>
+                                    <em>
+                                        *Note: References to specific companies and
+                                        non-governmental entities within this guide are for
+                                        informational purposes only to demonstrate best
+                                        practices that have been recognized internationally, as
+                                        of the app&rsquo;s release date. Referencing the
+                                        entities should not be interpreted as an official
+                                        endorsement of those entities, their products, or
+                                        services by the U.S. Department of Labor{" "}
+                                    </em>
+                                    <em>
+                                        and their inclusion should not be interpreted as a
+                                        comprehensive review of these entities&rsquo; practices
+                                        in all areas
+                                    </em>
+                                </p>
 
 
             </div>

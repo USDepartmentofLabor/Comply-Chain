@@ -30,8 +30,8 @@ const en = () => {
                          </p>
                      </Accordion.Panel>
                  </Accordion.Section>
-                 </Accordion>
-                  <Accordion id="mgmt-meeting-acc">
+                 {/* </Accordion>
+                  <Accordion id="mgmt-meeting-acc"> */}
                     <Accordion.Section id="mgmt-meeting-description">
                        <Accordion.Title>
                        Opening meeting with management
@@ -48,8 +48,8 @@ const en = () => {
                            </p>
                       </Accordion.Panel>
                   </Accordion.Section>
-                  </Accordion>
-                  <Accordion id="site-walk-through-acc">
+                  {/* </Accordion>
+                  <Accordion id="site-walk-through-acc"> */}
                   <Accordion.Section id="site-walk-through-description">
                      <Accordion.Title>
                      Walk-through of the worksite
@@ -183,8 +183,8 @@ const en = () => {
                              </OwnWords>
                     </Accordion.Panel>
                 </Accordion.Section>
-                </Accordion>
-                <Accordion id="worker-interview-acc">
+                {/* </Accordion>
+                <Accordion id="worker-interview-acc"> */}
                   <Accordion.Section id="worker-interview-description">
                      <Accordion.Title>
                      Worker interviews
@@ -390,8 +390,8 @@ const en = () => {
                      </OwnWords>
                     </Accordion.Panel>
                 </Accordion.Section>
-                </Accordion>
-                <Accordion id="mgmnt-interview-acc">
+                {/* </Accordion>
+                <Accordion id="mgmnt-interview-acc"> */}
                   <Accordion.Section id="mgmnt-interview-description">
                      <Accordion.Title>
                      Management interviews
@@ -409,8 +409,8 @@ const en = () => {
                          </p>
                     </Accordion.Panel>
                 </Accordion.Section>
-                </Accordion>
-                <Accordion id="broker-interview-acc">
+                {/* </Accordion>
+                <Accordion id="broker-interview-acc"> */}
                   <Accordion.Section id="broker-interview-description">
                      <Accordion.Title>
                      Interviews with labor brokers and recruiters
@@ -447,8 +447,8 @@ const en = () => {
                          </p>
                     </Accordion.Panel>
                 </Accordion.Section>
-                </Accordion>
-                <Accordion id="doc-review-acc">
+                {/* </Accordion>
+                <Accordion id="doc-review-acc"> */}
                   <Accordion.Section id="doc-review-description">
                      <Accordion.Title>
                       Documentation review
@@ -512,8 +512,8 @@ const en = () => {
                          </ul>
                     </Accordion.Panel>
                 </Accordion.Section>
-                </Accordion>
-                                <Accordion id="closing-meeting-acc">
+                {/* </Accordion>
+                                <Accordion id="closing-meeting-acc"> */}
                                   <Accordion.Section id="closing-meeting-description">
                                      <Accordion.Title>
                                      Closing meeting with management
@@ -532,8 +532,8 @@ const en = () => {
                                         </p>
                                     </Accordion.Panel>
                                 </Accordion.Section>
-                                </Accordion>
-                                <Accordion id="report-prep-acc">
+                                {/* </Accordion>
+                                <Accordion id="report-prep-acc"> */}
                                   <Accordion.Section id="report-prep-description">
                                      <Accordion.Title>
                                      Report preparation

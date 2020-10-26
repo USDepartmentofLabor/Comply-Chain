@@ -28,14 +28,14 @@ const fr = () => {
                             Combattre le travail forc&eacute;: Manuel pour les
                             employeurs et le secteur priv&eacute;.
                         </em>{" "}
-                        Gen&egrave;ve, 2015; disponible sur{" "}
+                        Gen&egrave;ve, 2015; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/topics/forced-labour/lang--en/index.htm"
+                            href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--fr/index.htm"
                             title="Combattre le travail forc&eacute;: Manuel pour les employeurs et le secteur priv&eacute;."
                         >
-                            http://www.ilo.org/global/topics/forced-labour/lang--fr/index.htm
+                            https://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--fr/index.htm
                         </a>
                         .
                     </li>
@@ -56,18 +56,16 @@ const fr = () => {
                     </li>
                     <li>
                         <em>
-                            Eliminating and Preventing Forced Labour:
-                            Checkpoints;{" "}
+                        Points de contr&ocirc;le : &eacute;liminer et pr&eacute;venir le travail forc&eacute; ;{" "}
                         </em>
-                        1<sup>er</sup>&nbsp;mars 2016; disponible [en
-                        anglais] sur{" "}
+                        1er mars 2016 ; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm."
+                            href="http://www.ilo.org/global/publications/WCMS_456961/lang--fr/index.htm"
                             title="Eliminating and Preventing Forced Labour: Checkpoints"
                         >
-                            http://www.ilo.org/global/publications/WCMS_456961/lang--fr/index.htm.
+                            http://www.ilo.org/global/publications/WCMS_456961/lang--fr/index.htm
                         </a>
                         .
                     </li>
@@ -80,10 +78,10 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/publications/books/WCMS_182084/lang--es/index.htm"
+                            href="http://www.ilo.org/global/publications/books/WCMS_182084/lang--fr/index.htm"
                             title="Hard to See, Harder to Count: Survey guidelines to estimate forced labour of adults and children"
                         >
-                            http://ilo.org/global/topics/forced-labour/publications/WCMS_182096/lang--fr/index.htm
+                            http://www.ilo.org/global/publications/books/WCMS_182084/lang--fr/index.htm
                         </a>
                         .
                     </li>
@@ -98,10 +96,10 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/ipecinfo/product/viewProduct.do;?productId=1500"
+                            href="http://www.ilo.org/ipecinfo/product/download.do?type=document&id=1921"
                             title="Principes directeurs pour l'&eacute;laboration de processus d'observation et de suivi du travail des enfants (OSTE)."
                         >
-                            http://www.ilo.org/ipecinfo/product/download.do?type=document&amp;id=1921
+                            http://www.ilo.org/ipecinfo/product/download.do?type=document&id=1921
                         </a>
                         .
                     </li>
@@ -114,12 +112,10 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ituc-csi.org/IMG/pdf/guide_forced_labour_EN.pdf"
+                            href="http://www.ilo.org/wcmsp5/groups/public/---ed_norm/---declaration/documents/publication/wcms_116733.pdf"
                             title="Mini guide d&rsquo;action contre le travail forc&eacute;"
                         >
-                            http://www.ilo.org/wcmsp5/groups/public/
-                            <br />
-                            ---ed_norm/---declaration/documents/publication/wcms_116733.pdf
+                            http://www.ilo.org/wcmsp5/groups/public/---ed_norm/---declaration/documents/publication/wcms_116733.pdf
                         </a>
                         .
                     </li>
@@ -142,7 +138,7 @@ const fr = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;. <em>Fair Hiring Toolkit;</em>{" "}
+                        Verit&eacute;. <em>Bo&icirc;te &agrave; outils de l&rsquo;embauche &eacute;quitable;</em>{" "}
                         disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
@@ -157,8 +153,7 @@ const fr = () => {
                     <li>
                         Verit&eacute;.{" "}
                         <em>
-                            Responsible Sourcing Tool: Recruitment and
-                            Employment Benchmarks;{" "}
+                        Outil d&rsquo;approvisionnement responsable : r&eacute;f&eacute;rences en mati&egrave;re de recrutement et d&rsquo;emploi;{" "}
                         </em>
                         disponible [en anglais] sur{" "}
                         <a
@@ -174,8 +169,7 @@ const fr = () => {
                     <li>
                         Verit&eacute;.{" "}
                         <em>
-                            Responsible Sourcing Tool: Sample Supplier
-                            Self-Assessment;
+                            Outil d&rsquo;approvisionnement responsable : exemple d&rsquo;auto-&eacute;valuation des fournisseurs;
                         </em>{" "}
                         disponible [en anglais] sur{" "}
                         <a
@@ -191,8 +185,7 @@ const fr = () => {
                     <li>
                         Verit&eacute;.{" "}
                         <em>
-                            Responsible Sourcing Tool: Conducting Migrant Worker
-                            Interviews;{" "}
+                            Outil d&rsquo;approvisionnement responsable : mener des entretiens avec les travailleurs migrants;{" "}
                         </em>
                         disponible [en anglais] sur{" "}
                         <a

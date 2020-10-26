@@ -59,9 +59,9 @@ export const StepData = {
         // extraInfo: ExtraInfo.es
     },
     fr: {
-        title: "Cinquième étape: Surveiller la conformité",
+        title: "Étape 5: Surveiller la conformité",
         topics: Topics.fr,
-        keywords: ["Audit social", "Audit", "Contrôle"],
+        keywords: ["Audit social", "Surveillance", "Contrôle"],
         learningObjectives: [
             "Comprendre les exigences en matière de personnel pour vos activités d’audit.",
             "Comprendre de quels outils vos auditeurs ont besoin pour réaliser leur travail.",
@@ -71,14 +71,14 @@ export const StepData = {
         ],
         keyTerms: [
             {
-                termName: "Audit social (« audit »)",
+                termName: "Audit social",
                 termDefinition:
-                    "Processus consistant à examiner la conformité d’un lieu de travail précis aux normes établies dans le code de conduite d’une entreprise. Le terme « audit » fait référence dans l’ensemble de l’appli à l'audit social ; à ne pas confondre avec d’autres types d’audit, comme l’audit financier, réalisés par les entreprises."
+                    "Processus consistant à examiner la conformité d’un lieu de travail précis aux normes établies dans le code de conduite d’une entreprise. Le terme « audit » fait référence dans l’ensemble de la présente appli à l'audit social ; à ne pas confondre avec d’autres types d’audit, comme l’audit financier, réalisés par les entreprises. Outre le dialogue participatif des syndicats et des travailleurs et les mécanismes de réclamation, l'audit social est l'un des principaux moyens pour obtenir des informations sur les violations, dans la chaîne d'approvisionnement, du code de conduite de votre entreprise. Les audits révèlent les problèmes ; ils ne les règlent pas. Il s'agit d'un élément du système de conformité sociale d'ensemble et ne peut, ni ne doit, être réalisé sans la participation des parties prenantes, sans communication, sans réparation et sans les autres étapes du processus."
             },
             {
-                termName: "Contrôle",
+                termName: "Surveillance",
                 termDefinition:
-                    "Pour les besoins de la présente appli, synonyme d’audit."
+                    "Aux fins de la présente appli, synonyme d’audit."
             }
         ],
         furtherResources: Resources.fr,
