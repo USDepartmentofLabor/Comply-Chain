@@ -314,7 +314,7 @@ const fr = () => {
                         href="http://www.responsiblesourcingtool.org/codeofconduct"
                         title="Exemples de dispositions de code de conduite"
                     >
-                        Exemples de dispositions de code de conduite
+                        Exemple de code de conduite
                     </a>
                     , comprend des dispositions relatives au travail
                     forc&eacute; qui peuvent &ecirc;tre incorpor&eacute;es dans
@@ -328,9 +328,7 @@ const fr = () => {
                         href="http://www.responsiblesourcingtool.org/laborrecruitments"
                         title="Crit&egrave;res de s&eacute;lection et d&rsquo;&eacute;valuation de candidats au recrutement de la main d'&oelig;uvre"
                     >
-                        Crit&egrave;res de s&eacute;lection et
-                        d&rsquo;&eacute;valuation de candidats au recrutement de
-                        la main d&apos;&oelig;uvre
+                        Évaluation des recrutements de main d'œuvre
                     </a>
                     , qui aide les entreprises &agrave; faire preuve de
                     diligence raisonnable dans le cadre du processus de
@@ -350,10 +348,6 @@ const fr = () => {
                             </span>
                         </strong>
                     </h3>
-                    <VeriteFlagWrapper>
-                        <UsFlag src={usFlag} alt="US Flag" />
-                        <Verite src={verite} alt="Verite sign" />
-                    </VeriteFlagWrapper>
                     <p style={{ color: "black" }}>
                         <strong>
                             PROTECTIONS CONTRE LA TRAITE DES PERSONNES
@@ -365,462 +359,6 @@ const fr = () => {
                         </strong>
                     </p>
                     <p>
-                        Le code de conduite d&rsquo;une cha&icirc;ne
-                        d&rsquo;approvisionnement met en place les attentes de
-                        base en mati&egrave;re de r&eacute;sultats pour les
-                        sous-traitants, les fournisseurs et les agents. Il est
-                        important pour la politique d&rsquo;approvisionnement ou
-                        le code de conduite d&rsquo;une soci&eacute;t&eacute;
-                        d&rsquo;interdire explicitement la traite des personnes
-                        et de d&eacute;finir les protections
-                        r&eacute;serv&eacute;es aux travailleurs. Les exemples
-                        de dispositions ci-dessous peuvent servir &agrave; toute
-                        soci&eacute;t&eacute;, y compris les contractuels
-                        f&eacute;d&eacute;raux et leurs sous-traitants, au cours
-                        de leur r&eacute;flexion sur la meilleure mani&egrave;re
-                        de cr&eacute;er, renforcer ou r&eacute;viser leurs
-                        propres politiques de cha&icirc;nes
-                        d&rsquo;approvisionnement.
-                    </p>
-                    <p>
-                        L&rsquo;exemple de dispositions de code traite les
-                        facteurs «&nbsp;habilitants&nbsp;» ou qui contribuent
-                        aux situations ou aux risques de traite des personnes,
-                        mais son objectif n&rsquo;est pas d&rsquo;assurer la
-                        conformit&eacute; &agrave; des exigences juridiques
-                        sp&eacute;cifiques comme la R&eacute;glementation sur
-                        les acquisitions f&eacute;d&eacute;rales (FAR). Les
-                        exigences sp&eacute;cifiques en mati&egrave;re de
-                        conformit&eacute; devraient &ecirc;tre
-                        d&eacute;taill&eacute;es dans les modalit&eacute;s des
-                        contrats pass&eacute;s avec les sous-traitants, les
-                        fournisseurs et les agents.
-                    </p>
-                    <Accordion id="stnd-cl-fl">
-                    <Accordion.Section id="human-traffickingr">
-                    <Accordion.Title>
-                                <strong>
-                                TRAITE DES PERSONNES
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>TRAITE DES PERSONNES</strong>: La
-                        soci&eacute;t&eacute; interdit formellement la traite
-                        des personnes dans toutes ses op&eacute;rations et
-                        celles de tous les sous-traitants, fournisseurs et
-                        agents de sa cha&icirc;ne d&rsquo;approvisionnement
-                        internationale. Les travailleurs ne seront assujettis
-                        &agrave; aucune forme de travail forc&eacute;,
-                        obligatoire, en servitude ou pour dette de quelque
-                        nature que ce soit. Tout travail devra &ecirc;tre
-                        volontaire et les travailleurs auront la libert&eacute;
-                        de mettre un terme &agrave; leur emploi &agrave; tout
-                        moment sans p&eacute;nalit&eacute; et avec un
-                        pr&eacute;avis raisonnable.&nbsp;
-                    </p>
-                    </Accordion.Panel>
-                        </Accordion.Section>
-                        <Accordion.Section id="recurit-trans-expenses">
-                    <Accordion.Title>
-                                <strong>
-                                FRAIS DE RECRUTEMENT ET DE TRANSPORT
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>FRAIS DE RECRUTEMENT ET DE TRANSPORT</strong>
-                       : Les travailleurs ne se verront pas facturer,
-                        directement ou indirectement, de commissions ou
-                        co&ucirc;ts de recrutement en tout ou partie, notamment
-                        les frais li&eacute;s au d&eacute;placement
-                        jusqu&rsquo;au pays de destination, ou de traitement de
-                        documents professionnels officiels et de visas de
-                        travail dans les pays d&rsquo;origine et de destination.
-                        Au terme de leur contrat de travail, les travailleurs
-                        recevront un moyen de transport pour rentrer dans leur
-                        pays d&rsquo;origine ou une compensation pour le
-                        co&ucirc;t de ce transport.
-                    </p>
-                    </Accordion.Panel>
-                        </Accordion.Section>
-                        <Accordion.Section id="contract-emp">
-                    <Accordion.Title>
-                                <strong>
-                                CONTRATS DE TRAVAIL
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>CONTRATS DE TRAVAIL</strong>: Des contrats
-                        de travail &eacute;crits seront remis aux travailleurs
-                        migrants dans leur langue maternelle, indiquant
-                        clairement leurs droits et responsabilit&eacute;s, ainsi
-                        que leurs conditions d&rsquo;emploi, notamment leurs
-                        salaires, avantages sociaux, heures et lieux de travail,
-                        conditions d&rsquo;existence, logement et co&ucirc;ts
-                        associ&eacute;s, dangers professionnels et autres
-                        conditions de travail et d&rsquo;emploi.
-                    </p>
-                    <p>
-                        Les travailleurs migrants se verront remettre un
-                        exemplaire de leur contrat de travail dans leur langue
-                        maternelle au moins cinq jours avant le d&eacute;but de
-                        leur emploi. Les travailleurs qui ont du mal &agrave;
-                        comprendre le contrat &eacute;crit se verront expliquer
-                        oralement les modalit&eacute;s du contrat.
-                    </p>
-                    <p>
-                        Le remplacement du contrat, ou la mise en place par
-                        l&rsquo;employeur d&rsquo;accords compl&eacute;mentaires
-                        visant &agrave; remplacer un contrat original ou
-                        l&rsquo;une de ses dispositions quelle qu&rsquo;elle
-                        soit, par un nouveau contrat ou de nouvelles
-                        modalit&eacute;s moins favorables pour le travailleur
-                        sont strictement interdits. Le pr&eacute;avis
-                        exig&eacute; des travailleurs pour mettre fin &agrave;
-                        leurs contrats de mani&egrave;re anticip&eacute;e
-                        n&rsquo;exc&egrave;dera pas un mois, et une fois
-                        l&rsquo;emploi commenc&eacute;, les travailleurs
-                        migrants ne pourront pas &ecirc;tre
-                        p&eacute;nalis&eacute;s en cas de r&eacute;siliation
-                        anticip&eacute;e de leur contrat de travail si le
-                        pr&eacute;avis exig&eacute; est respect&eacute;.
-                    </p>
-                    <p>
-                        Le pr&eacute;avis n&rsquo;aura pas lieu de
-                        s&rsquo;appliquer si le travailleur a &eacute;t&eacute;
-                        victime de harc&egrave;lement, de violations ou de la
-                        traite des personnes. Dans de telles situations,
-                        l&rsquo;employeur sera &eacute;galement responsable des
-                        frais de transport de retour de la victime.
-                    </p>
-                    </Accordion.Panel>
-                        </Accordion.Section>
-                        <Accordion.Section id="retention-emp-doc">
-                    <Accordion.Title>
-                                <strong>
-                                R&Eacute;TENTION DE DOCUMENTS PERSONNELS
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>
-                            R&Eacute;TENTION DE DOCUMENTS PERSONNELS
-                        </strong>
-                       : Il est strictement interdit de confisquer,
-                        d&eacute;truire ou conserver les pi&egrave;ces
-                        d&rsquo;identit&eacute; ou les documents
-                        d&rsquo;immigration d&rsquo;un travailleur ou de lui
-                        refuser de toute autre mani&egrave;re que ce soit
-                        d&rsquo;y avoir acc&egrave;s, notamment les permis de
-                        travail et les documents de voyage (p. ex. passeports).{" "}
-                    </p>
-                    <p>
-                        Les travailleurs doivent avoir &agrave; leur disposition
-                        des installations individuelles s&ucirc;res et
-                        verrouillables pour y ranger leurs pi&egrave;ces
-                        d&rsquo;identit&eacute; et d&rsquo;autres objets de
-                        valeur auxquelles ils doivent pouvoir avoir acc&egrave;s
-                        &agrave; tout moment.
-                    </p>
-                    </Accordion.Panel>
-                        </Accordion.Section>
-                        <Accordion.Section id="deposits">
-                    <Accordion.Title>
-                                <strong>
-                                CAUTIONS
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>CAUTIONS</strong>: Les travailleurs
-                        migrants ne se verront pas oblig&eacute;s de
-                        d&eacute;poser des arrhes ou des cautions de garantie ou
-                        de voir une partie de leur paie retenue &agrave; quelque
-                        moment que ce soit comme condition d&rsquo;obtention ou
-                        de r&eacute;tention d&rsquo;un emploi.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="human-treatment">
-                    <Accordion.Title>
-                                <strong>
-                                TRAITEMENT INHUMAIN
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>TRAITEMENT INHUMAIN</strong>: Le lieu de
-                        travail ne sera pas sujet &agrave; des traitements durs
-                        ou inhumains de quelque forme que ce soit. Les
-                        politiques et proc&eacute;dures disciplinaires seront
-                        clairement d&eacute;finies et communiqu&eacute;es
-                        &agrave; l&rsquo;ensemble des travailleurs et ne
-                        comprendront pas de mesures disciplinaires inhumaines
-                        telles que des punitions physiques, des mesures de
-                        coercition mentale ou physique ou des violences verbales
-                        &agrave; l&rsquo;encontre des travailleurs.
-                        L&rsquo;usage ou la menace de violences physiques ou
-                        sexuelles, le harc&egrave;lement et les mesures
-                        d&rsquo;intimidation &agrave; l&rsquo;encontre
-                        d&rsquo;un travailleur ou d&rsquo;une travailleuse, de
-                        sa famille ou de ses proches associ&eacute;s sont
-                        strictement interdits. Les proc&eacute;dures
-                        disciplinaires ne comprendront pas de sanctions
-                        entra&icirc;nant des d&eacute;ductions de salaire, des
-                        r&eacute;ductions des avantages sociaux ou du travail
-                        forc&eacute;.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="workplace-eql">
-                    <Accordion.Title>
-                                <strong>
-                                &Eacute;GALIT&Eacute; SUR LE LIEU DE TRAVAIL
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>
-                            &Eacute;GALIT&Eacute; SUR LE LIEU DE TRAVAIL
-                        </strong>
-                       : Tous les travailleurs, quels que soient leur
-                        nationalit&eacute; ou leur statut juridique, seront
-                        trait&eacute;s de fa&ccedil;on juste et
-                        &eacute;quitable. Les travailleurs migrants jouiront de
-                        conditions de travail non moins favorables que les
-                        ressortissants du pays (y compris mais sans s&rsquo;y
-                        limiter en mati&egrave;re de salaire, d&rsquo;avantage
-                        sociaux et d&rsquo;h&eacute;bergement). Les travailleurs
-                        migrants (ou les membres de leurs familles) ne se
-                        verront pas menac&eacute;s de d&eacute;nonciation aux
-                        autorit&eacute;s dans le but de les forcer &agrave;
-                        accepter ou &agrave; conserver un emploi.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="wage-benifit">
-                    <Accordion.Title>
-                                <strong>
-                                SALAIRES ET AVANTAGES
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>SALAIRES ET AVANTAGES</strong>: Tous les
-                        travailleurs recevront au minimum le salaire minimum
-                        requis par la l&eacute;gislation applicable, ainsi que
-                        tous les avantages sociaux exig&eacute;s par la loi. Le
-                        versement des salaires sera effectu&eacute; &agrave;
-                        intervalles r&eacute;guliers et directement aux
-                        travailleurs, conform&eacute;ment &agrave; la
-                        l&eacute;gislation applicable, le cas
-                        &eacute;ch&eacute;ant, et ne sera pas retard&eacute;,
-                        report&eacute; ou retenu.
-                    </p>
-                    <p>
-                        Seuls sont permis les d&eacute;ductions, les avances et
-                        les pr&ecirc;ts autoris&eacute;s par la
-                        l&eacute;gislation nationale; le cas
-                        &eacute;ch&eacute;ant, ils ne seront effectu&eacute;s
-                        qu&rsquo;avec le consentement &eacute;clair&eacute;
-                        plein et entier des travailleurs. Lors de leur embauche,
-                        les travailleurs recevront des informations sur leurs
-                        heures de travail, leur taux de
-                        r&eacute;mun&eacute;ration et le calcul des
-                        d&eacute;ductions l&eacute;gales.
-                    </p>
-                    <p>
-                        Tous les travailleurs doivent conserver le
-                        contr&ocirc;le plein et entier de leurs revenus. Il ne
-                        sera pas fait usage de d&eacute;ductions de salaires
-                        pour maintenir les travailleurs li&eacute;s &agrave;
-                        leur employeur ou leur emploi. Les travailleurs ne
-                        seront pas retenus en servitude pour dette ou assujettis
-                        au travail forc&eacute; pour rembourser une dette. Toute
-                        tromperie en mati&egrave;re de salaire, de paiement,
-                        d&rsquo;avance et de pr&ecirc;t est interdite.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="working-hours">
-                    <Accordion.Title>
-                                <strong>
-                                HEURES DE TRAVAIL
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>HEURES DE TRAVAIL</strong>: Les
-                        travailleurs ne seront pas forc&eacute;s de travailler
-                        au-del&agrave; du nombre d&rsquo;heures permis par la
-                        l&eacute;gislation nationale. Lorsque la loi est muette,
-                        les heures de travail normales ne d&eacute;passeront pas
-                        huit heures par jour et 48&nbsp;heures par semaine, et
-                        le nombre d&rsquo;heures total avec les heures
-                        suppl&eacute;mentaires ne d&eacute;passera pas
-                        60&nbsp;heures.
-                    </p>
-                    <p>
-                        Toute heure suppl&eacute;mentaire sera exclusivement
-                        volontaire, sauf dans le cadre d&rsquo;une convention
-                        collective reconnue par la loi. Aucun travailleur ne
-                        sera verra forc&eacute; de faire des heures
-                        suppl&eacute;mentaires sous la menace d&rsquo;une
-                        p&eacute;nalit&eacute;, d&rsquo;un licenciement ou
-                        d&rsquo;une d&eacute;nonciation aux autorit&eacute;s.
-                        Aucun travailleur ne se verra forc&eacute; de faire des
-                        heures suppl&eacute;mentaires comme mesure disciplinaire
-                        ou pour non-respect des quotas de production.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="freedom-move-personal">
-                    <Accordion.Title>
-                                <strong>
-                                LIBERT&Eacute; DE CIRCULATION ET LIBERT&Eacute;
-                            INDIVIDUELLE
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>
-                            LIBERT&Eacute; DE CIRCULATION ET LIBERT&Eacute;
-                            INDIVIDUELLE
-                        </strong>
-                       : Les travailleurs auront un acc&egrave;s non
-                        restreint aux n&eacute;cessit&eacute;s de base telles
-                        que de l&rsquo;eau potable et des toilettes propres
-                        pendant les heures tant ouvr&eacute;es que non
-                        ouvr&eacute;es sur le lieu de travail ou dans les
-                        logements fournis ou pr&eacute;par&eacute;s par
-                        l&rsquo;employeur.
-                    </p>
-                    <p>
-                        La libert&eacute; de circulation des travailleurs ne
-                        sera pas ind&ucirc;ment restreinte. Les travailleurs ne
-                        seront pas retenus physiquement sur le lieu de travail
-                        ou dans des locaux annexes tels que des b&acirc;timents
-                        r&eacute;sidentiels op&eacute;r&eacute;s par
-                        l&rsquo;employeur ou le recruteur, et il ne sera pas
-                        fait usage de mesures de coercition pour restreindre la
-                        libert&eacute; de circulation ou la libert&eacute;
-                        individuelle des travailleurs.
-                    </p>
-                    <p>
-                        L&rsquo;h&eacute;bergement obligatoire dans un local
-                        fourni ou pr&eacute;par&eacute; par l&rsquo;employeur ne
-                        constituera pas une condition d&rsquo;emploi, sauf si
-                        cela est exig&eacute; par la loi.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="grievance-procedure">
-                    <Accordion.Title>
-                                <strong>
-                                PROC&Eacute;DURES DE R&Egrave;GLEMENT DES
-                            R&Eacute;CLAMATIONS
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>
-                            PROC&Eacute;DURES DE R&Egrave;GLEMENT DES
-                            R&Eacute;CLAMATIONS
-                        </strong>
-                       : Un processus de r&egrave;glement des
-                        r&eacute;clamations efficace et confidentiel sera mis en
-                        place pour s&rsquo;assurer que tout travailleur,
-                        agissant seul ou conjointement avec d&rsquo;autres
-                        travailleurs, pour d&eacute;poser une r&eacute;clamation
-                        sans &ecirc;tre victime de pr&eacute;judice ou de
-                        repr&eacute;sailles de quelque sorte que ce soit. Cette
-                        proc&eacute;dure comprendra une proc&eacute;dure
-                        d&rsquo;appel pour les travailleurs en d&eacute;saccord
-                        avec le r&egrave;glement de la r&eacute;clamation.
-                    </p>
-                    <p>
-                        Les m&eacute;canismes y aff&eacute;rents seront
-                        disponibles dans la langue maternelle du travailleur et
-                        permettront le d&eacute;p&ocirc;t anonyme de
-                        r&eacute;clamations.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="pvt-emp-agencies-labor-rect">
-                    <Accordion.Title>
-                                <strong>
-                                AGENCES D&rsquo;EMPLOI PRIV&Eacute;ES ET RECRUTEURS
-                            DE MAIN D&rsquo;&OElig;UVRE
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>
-                            AGENCES D&rsquo;EMPLOI PRIV&Eacute;ES ET RECRUTEURS
-                            DE MAIN D&rsquo;&OElig;UVRE
-                        </strong>
-                       : Dans la mesure du possible, les entreprises
-                        devraient embaucher les travailleurs directement.
-                        Lorsqu&rsquo;il est n&eacute;cessaire de sous-traiter le
-                        processus de recrutement et d&rsquo;embauche, les
-                        entreprises s&rsquo;assureront que les agences
-                        d&rsquo;emploi qu&rsquo;elles engagent fonctionnent en
-                        toute l&eacute;galit&eacute;, qu&rsquo;elles sont
-                        certifi&eacute;es ou agr&eacute;&eacute;es par un
-                        organisme comp&eacute;tent du pays o&ugrave; se
-                        d&eacute;roulent les op&eacute;rations, ne facturent pas
-                        de commissions de recrutement, n&rsquo;utilisent que des
-                        employ&eacute;s form&eacute;s et ne se rendent pas
-                        coupables de pratiques de recrutement frauduleuses qui
-                        mettent les travailleurs en situation de risque de
-                        traite des personnes et d&rsquo;exploitation sexuelle.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    <Accordion.Section id="emp-awar-traning">
-                    <Accordion.Title>
-                                <strong>
-                                SENSIBILISATION ET FORMATION DES EMPLOY&Eacute;S
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                    <p>
-                        <strong>
-                            SENSIBILISATION ET FORMATION DES EMPLOY&Eacute;S
-                        </strong>
-                       : Au moment de leur embauche, les travailleurs
-                        doivent &ecirc;tre inform&eacute;s sur leurs droits et
-                        responsabilit&eacute;s, notamment les modalit&eacute;s
-                        et conditions de leur contrat de travail, les
-                        dispositions du pr&eacute;sent code et toutes les lois
-                        et r&eacute;glementations de leur pays d&rsquo;origine,
-                        du pays o&ugrave; le travail s&rsquo;effectue et de tout
-                        autre pays et juridiction contractuel au travail.
-                    </p>
-                    <p>
-                        &Agrave; l&rsquo;arriv&eacute;e dans le pays de
-                        destination, les travailleurs doivent &ecirc;tre
-                        form&eacute;s sur les r&egrave;gles et proc&eacute;dures
-                        de la soci&eacute;t&eacute; sur les lieux de travail, sa
-                        proc&eacute;dure de r&egrave;glement des
-                        r&eacute;clamations, les conditions
-                        d&rsquo;h&eacute;bergement (fourni ou
-                        pr&eacute;par&eacute; par la soci&eacute;t&eacute;) et
-                        les conditions de travail, notamment tout danger en
-                        mati&egrave;re de sant&eacute; et de
-                        s&eacute;curit&eacute; et les pr&eacute;cautions
-                        n&eacute;cessaires pour garantir la
-                        s&eacute;curit&eacute; individuelle. Les travailleurs
-                        doivent se voir informer du fait que la
-                        soci&eacute;t&eacute; interdit tout recrutement &agrave;
-                        des fins d&apos;actes sexuels tarif&eacute;s.
-                    </p>
-                    </Accordion.Panel>
-                    </Accordion.Section>
-                    </Accordion>
-                    <p>
                         <strong>Source: </strong>
                         <a
                             target="_blank"
@@ -829,9 +367,7 @@ const fr = () => {
                             title="Outil&nbsp;1, Exemples de dispositions de code de conduite"
                         >
                             <strong>
-                                Outil d&rsquo;approvisionnement
-                                responsable&nbsp;1, Exemples de dispositions de
-                                code de conduite
+                                Outil d’approvisionnement responsable 1, Exemple de code de conduite
                             </strong>
                         </a>
                         <strong> [en anglais].</strong>
@@ -915,6 +451,48 @@ const fr = () => {
                         march&eacute; au niveau f&eacute;d&eacute;ral.
                     </p>
                 </ExampleInAction>
+                <br />
+                <ExampleInAction id="rst2">
+                                    <h3>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>
+                                            Ejemplo en acci&oacute;n:{" "}
+                                            <span>
+                                                Code de conduite de Primark* de 2019
+                                            </span>
+                                        </strong>
+                                    </h3>
+                                    <p>
+                                    Exemples de dispositions de code de conduite sur le travail forcé et le travail des enfants, issus du&nbsp;
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.primark.com/en/our-ethics/code-of-conduct"
+                                    >
+                                    Code de conduite de Primark
+                                    </a>.
+                                    </p>
+                                    <p>
+                                    <strong>L’emploi est choisi librement</strong>
+                                    <ol>
+                                    <li>Il ne doit exister aucune forme quelle qu’elle soit de travail forcé ou obligatoire, notamment en servitude, pour dette, sujet à la traite ou en prison, et les heures supplémentaires doivent être volontaires.</li>
+                                    <li>Tous les frais associés à l’emploi de travailleurs doivent être payés par l’employeur.</li>
+                                    <li>Les travailleurs ne doivent pas être tenus de déposer des cautions financières ou leurs papiers d’identité auprès de leur employeur.</li>
+                                    <li>Les travailleurs doivent être libres de quitter l’employeur après un préavis raisonnable.</li>
+                                    </ol>
+                                    </p>
+                                    <p>
+                                    <strong>Le travail des enfants ne doit pas être utilisé</strong>
+                                    <ol>
+                                    <li>Il ne doit pas exister de recrutement ou d&apos;emploi du travail des enfants.</li>
+                                    <li>Quel que soit le pays, l’âge minimum d’accès à l’emploi, ainsi que les règles concernant l’emploi d’un jeune travailleur,
+                                    sera défini par les conventions de l’OIT ou la loi nationale/régionale, selon ce qui accorde la plus grande protection à la personne concernée.
+                                    À des fins de précision, le terme « jeune travailleur » désigne dans ce contexte une personne ayant atteint l’âge légal d&pos;admission à l’emploi mais de moins de 18 ans.</li>
+                                    <li>Les sociétés doivent avoir des politiques et des programmes qui évitent le recrutement et l’emploi du travail des enfants.</li>
+                                    </ol>
+                                    </p>
+                                </ExampleInAction>
+
             </div>
         </StaticData>
     );

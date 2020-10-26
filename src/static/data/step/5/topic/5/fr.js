@@ -126,21 +126,22 @@ const fr = () => {
                         d&apos;universit&eacute;s.&nbsp;
                     </p>
                     <p>
+                    Obtenir davantage d&apos;informations et voir le
+                                                Code de conduite sur le lieu de travail et les
+                                                R&eacute;f&eacute;rences de conformit&eacute;
+                                                complets, les principaux points de la
+                                                r&eacute;vision et une comparaison c&ocirc;te
+                                                &agrave; c&ocirc;te avec le code
+                                                pr&eacute;c&eacute;dent sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf"
                             title="Obtenir davantage d'informations et voir le Code de conduite sur le lieu de travail et les R&eacute;f&eacute;rences de conformit&eacute; complets, les principaux points de la r&eacute;vision et une comparaison c&ocirc;te &agrave; c&ocirc;te avec le code pr&eacute;c&eacute;dent."
                         >
-                            Obtenir davantage d&apos;informations et voir le
-                            Code de conduite sur le lieu de travail et les
-                            R&eacute;f&eacute;rences de conformit&eacute;
-                            complets, les principaux points de la
-                            r&eacute;vision et une comparaison c&ocirc;te
-                            &agrave; c&ocirc;te avec le code
-                            pr&eacute;c&eacute;dent
+                        www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf
                         </a>
-                        .
+                        {" "}[en anglais].
                     </p>
                 </ExampleInAction>
             </div>

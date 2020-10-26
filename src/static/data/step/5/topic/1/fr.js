@@ -33,55 +33,19 @@ const fr = () => {
                     et la restructuration.&nbsp;
                 </p>
                 <p>
-                    L&rsquo;
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.industriall-union.org/industriall-global-union-and-hm-sign-global-framework-agreement"
-                        title="accord-cadre mondial "
-                    >
-                        accord-cadre international
-                    </a>{" "}
-                    entre le syndicat international{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.industriall-union.org/"
-                        title="IndustriALL"
-                    >
-                        IndustriALL
-                    </a>{" "}
-                    et le d&eacute;taillant de v&ecirc;tements Hennes &amp;
-                    Mauritz a fait l&rsquo;objet d&rsquo;une attention positive
-                    et couvre 1,6&nbsp;million de travailleurs et travailleuses
-                    de l&rsquo;industrie textile. Il encourage les conventions
-                    collectives aux niveaux des soci&eacute;t&eacute;s et des
-                    usines, conf&egrave;re aux travailleurs le droit explicite
-                    de refuser de travailler dans des conditions dangereuses,
-                    interdit la discrimination contre les repr&eacute;sentants
-                    des travailleurs et garantit la formation tant de la
-                    direction que des repr&eacute;sentants syndicaux concernant
-                    notamment les responsabilit&eacute;s des employeurs, les
-                    droits et obligations des travailleurs, les relations
-                    industrielles, les conventions collectives et le
-                    r&egrave;glement pacifique des conflits. Le premier
-                    accord-cadre international a &eacute;t&eacute; sign&eacute;
-                    en 1988 par l&apos;entreprise fran&ccedil;aise
-                    internationale d&apos;alimentation BSN (devenue Danone en
-                    1994) et l&apos;Union Internationale des Travailleurs de
-                    l&apos;Alimentation (UITA). Les parties sont convenues que
-                    l&apos;ACI s&apos;appliquerait &agrave; toutes les
-                    op&eacute;rations mondiales, qui en 2008 recouvraient
-                    environ 100&nbsp;000&nbsp;employ&eacute;s dans le monde
-                    entier. L&apos;accord initial pr&eacute;cisait que les deux
-                    parties encourageraient des initiatives coordonn&eacute;es
-                    sur diverses questions, y compris la formation
-                    professionnelle, la coordination des informations entre les
-                    pays, la garantie de l&apos;&eacute;galit&eacute; entre les
-                    hommes et les femmes et la mise en &oelig;uvre des droits
-                    des syndicats de travailleurs, d&eacute;finis dans les
-                    conventions sp&eacute;cifiques de l&apos;OIT. En
-                    mars&nbsp;2016,{" "}
+                    Le premier accord-cadre international a été signé en 1988 par
+                    l&apos;entreprise française internationale d&apos;alimentation BSN
+                    (devenue Danone en 1994) et l&apos;Union internationale des travailleurs
+                    de l’alimentation, de l’agriculture, de l’hôtellerie-restauration, du
+                    tabac et des branches connexes* (UITA). Les parties sont convenues que
+                    l&apos;ACI s&apos;appliquerait à toutes les opérations mondiales, qui
+                    en 2008 recouvraient environ 100 000 employés dans le monde entier.
+                    L&apos;accord initial précisait que les deux parties encourageraient
+                    des initiatives coordonnées sur diverses questions, y compris la
+                    formation professionnelle, la coordination des informations entre les pays,
+                    la garantie de l&apos;égalité entre les hommes et les femmes et la mise en
+                    œuvre des droits des syndicats de travailleurs, définis dans les conventions
+                    spécifiques de l&apos;OIT. En mars 2016,,{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -91,9 +55,8 @@ const fr = () => {
                         Danone et l&rsquo;UITA ont sign&eacute; leur
                         dixi&egrave;me accord
                     </a>
-                    , centr&eacute; sur l&rsquo;emploi durable et les droits des
-                    travailleurs et qui s&rsquo;applique aux filiales de la
-                    soci&eacute;t&eacute; dans le monde.
+                    , centré sur l’emploi durable et les droits des travailleurs et qui
+                    s’applique aux filiales de la société dans le monde.
                 </p>
                 <ExampleInAction id="eicc">
                                     <h4>
@@ -103,13 +66,56 @@ const fr = () => {
                                         </strong>
                                         &nbsp;{": "}
                                         <strong>
-                                            Text
+                                            Danone* et l’UITA*
                                         </strong>
                                     </h4>
                                    <p>
-                                       <b>PLACEHOLDER TEXT</b>
+                                       Le terme « emploi précaire » désigne les situations d’emploi de courte durée ou à durée déterminée qui sont,
+                                       la plupart du temps, sous-traitées. Elles sont souvent moins sûres et moins bien rémunérées que les contrats
+                                       à durée indéterminée et plus vulnérables aux violations et à l’exploitation. Le dixième ACI signé par Danone
+                                       et l’UITA le 16 mars 2015 s’applique à toutes les filiales de Danone dans le monde. En vertu de cet accord,{" "}
+                                       <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="https://www.danone.com/"
+                                       >
+                                       Danone
+                                       </a>
+                                       {" "}et{" "}
+                                       <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="www.iuf.org/w/"
+                                       >
+                                       l’UITA
+                                       </a>
+                                       {" "}conviennent de réduire les emplois précaires « grâce à des définitions, une méthodologie et
+                                       des processus précis ». À cet effet, la convention fixe les conditions spécifiques du recours au travail
+                                       temporaire, notamment « ouverture d&apos;un nouveau marché, crise économique, fluctuations
+                                       d&apos;activités saisonnières, nécessité de recourir à des compétences spécifiques, acquisition d&apos;une
+                                       entreprise ». En définissant ces conditions spécifiques, Danone et l’UITA conviennent que l&apos;emploi durable,
+                                       stable et pérenne doit être privilégié, en tant que meilleur garant de « la pleine jouissance, par chaque salarié, de ses droits fondamentaux ».
                                    </p>
                                 </ExampleInAction>
+                                <p>
+                                Autre accord récent qui a fait l’objet d’une attention positive :{" "}
+                                <a
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                       href="www.industriall-union.org/industriall-global-union-and-hm-sign-global-framework-agreement"
+                                   >
+                                l’accord-cadre international
+                                 </a>
+                                 {" "}entre le syndicat international{" "}
+                                 <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="www.industriall-union.org/"
+                                >
+                                 IndustriALL
+                                 </a>
+                                 * et le détaillant de vêtements Hennes & Mauritz (H&M)*, qui couvre 1,6 million de travailleurs et travailleuses de l’industrie textile. L’accord encourage les conventions collectives aux niveaux des sociétés et des usines, confère aux travailleurs le droit explicite de refuser de travailler dans des conditions dangereuses, interdit la discrimination contre les représentants des travailleurs et garantit la formation tant de la direction que des représentants syndicaux concernant notamment les responsabilités des employeurs, les droits et obligations des travailleurs, les relations industrielles, les conventions collectives et le règlement pacifique des conflits.
+                                </p>
                 <Accordion id="resources" >
                     <Accordion.Section>
                         <Accordion.Title>Autres ressources</Accordion.Title>

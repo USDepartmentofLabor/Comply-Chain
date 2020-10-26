@@ -19,6 +19,36 @@ const fr = () => {
                         .
                     </li>
                     <li>
+                    Better Cotton. Principes et critères ; disponible [en anglais] sur{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://bettercotton.org/better-cotton-standard-system/production-principles-and-criteria/"
+                    >
+                    https://bettercotton.org/better-cotton-standard-system/production-principles-and-criteria/
+                    </a>.
+                    </li>
+                    <li>
+                    Bonsucro. Qu’est-ce que la norme de production Bonsucro ? ; disponible [en anglais] sur{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.bonsucro.com/production-standard/"
+                    >
+                    http://www.bonsucro.com/production-standard/
+                    </a>.
+                    </li>
+                    <li>
+                    Consumer Goods Forum. Guide sur les principes sectoriels prioritaires ; disponible [en anglais] sur{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.theconsumergoodsforum.com/wp-content/uploads/2018/05/Guidance-on-the-Priority-Industry-Principles.pdf"
+                    >
+                    https://www.theconsumergoodsforum.com/wp-content/uploads/2018/05/Guidance-on-the-Priority-Industry-Principles.pdf
+                    </a>.
+                    </li>
+                    <li>
                         <em>
                             Principes de Dhaka sur la migration dans la
                             dignit&eacute;
@@ -33,6 +63,16 @@ const fr = () => {
                             https://www.bsr.org/reports/BSR_Human_Rights_Impact_Assessments.pdf
                         </a>
                         .
+                    </li>
+                    <li>
+                    Initiative pour le commerce éthique. <em>Code de base de l’ETI</em> ; disponible [en anglais] sur{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ethicaltrade.org/eti-base-code"
+                    >
+                    https://www.ethicaltrade.org/eti-base-code
+                    </a>.
                     </li>
                     <li>
                         ICCR. <em>Statement of Principles, </em>2013;
@@ -114,10 +154,10 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://human-rights-and-business-learning-tool.unglobalcompact.org/&amp;exitTitle=human-rights-and-business-learning-tool.unglobalcompact.org&amp;fedpage=no"
+                            href="https://www.unglobalcompact.org/library/3"
                             title="Human Rights and Business Learning Tool"
                         >
-                            http://human-rights-and-business-learning-tool.unglobalcompact.org
+                            https://www.unglobalcompact.org/library/3
                         </a>
                         .
                     </li>
@@ -131,10 +171,10 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.dol.gov/cgi-bin/leave-dol.asp?exiturl=http://www.unglobalcompact.org/docs/issues_doc/labour/tools_guidance_materials/Principles_to_Practice.pdf&amp;exitTitle=www.unglobalcompact.org&amp;fedpage=no"
+                            href="https://d306pr3pise04h.cloudfront.net/docs/issues_doc%2Flabour%2Ftools_guidance_materials%2FPrinciples_to_Practice.pdf"
                             title="From Principles to Practice: The Role of SA8000 in Implementing the U.N. Global Compact"
                         >
-                            http://www.unglobalcompact.org/docs/issues_doc/labour/tools_guidance_materials/
+                            https://d306pr3pise04h.cloudfront.net/docs/issues_doc%2Flabour%2Ftools_guidance_materials%2FPrinciples_to_Practice.pdf
                             <br /> Principles_to_Practice.pdf
                         </a>
                         .

@@ -49,7 +49,7 @@ export const StepData = {
         ],
         keyTerms: [
             {
-                termName: "Code de conduite (« Code »)",
+                termName: "Code de conduite",
                 termDefinition:
                     "Base d’un programme de conformité sociale, un code de conduite est un document précisant les normes et politiques sociales (et, souvent, environnementales) avec lesquelles une entreprise et ses fournisseurs sont censés être en conformité.  Un grand nombre d’entreprises utilisent un autre terme que «&nbsp;code de conduite&nbsp;», tel que «&nbsp;conditions d’engagement&nbsp;», «&nbsp;attente envers les fournisseurs&nbsp;», etc., mais l’ensemble de cette appli utilise ce terme par souci de cohérence et de clarté.Un code constitue un ensemble de normes volontaires; à cet égard, il est différent d’une loi, bien qu’il faille prendre en compte la législation pertinente (à la fois aux États-Unis et dans le pays d’origine), de même que les conventions collectives et les accords-cadres internationaux (ACI) avec les fédérations syndicales, qui ont force exécutoire.  Un code ne saurait remplacer l’un de ces instruments quel qu’il soit."
             }
