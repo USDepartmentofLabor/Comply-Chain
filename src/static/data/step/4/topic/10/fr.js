@@ -11,75 +11,50 @@ const fr = () => {
                    Travailleurs migrants
                 </h1>
                     <p>
-                        Les migrants sont une cat&eacute;gorie de travailleurs
-                        particuli&egrave;rement vuln&eacute;rables au travail
-                        forc&eacute;. Dans l&rsquo;&eacute;conomie mondiale, des
-                        millions de travailleurs quittent leurs foyers pour
-                        travailler ailleurs, dans leur propre pays ou ailleurs dans
-                        le monde. De nombreux migrants &agrave; la recherche
-                        d&apos;un emploi font confiance &agrave; des recruteurs ou
-                        &agrave; des courtiers pour organiser les transports et les
-                        placer dans des emplois, mais d&eacute;couvrent, trop tard,
-                        que leurs salaires et les modalit&eacute;s de leur emploi ne
-                        correspondent pas aux promesses des courtiers. Certains
-                        migrants contractent des dettes importantes au cours du
-                        processus de recrutement et tombent dans le pi&egrave;ge de
-                        la servitude lorsqu&apos;ils ne peuvent rembourser ces
-                        dettes. Les cycles de servitude pour dette peuvent
-                        &eacute;galement se produire lorsque les employeurs
-                        op&egrave;rent des retenues sur le salaire des
-                        employ&eacute;s pour le logement, la nourriture et
-                        d&rsquo;autres frais, leur laissant peu ou pas de salaire
-                        net. De nombreux travailleurs migrants sont contraints de
-                        signer des contrats dans une langue qu&apos;ils ne savent
-                        pas lire ; d&apos;autres ont une relation d&apos;emploi
-                        informelle d&eacute;nu&eacute;e de tout contrat. Certains
-                        doivent remettre leurs papiers d&apos;identit&eacute;
-                        &agrave; leurs employeurs, ce qui leur enl&egrave;ve toute
-                        possibilit&eacute; de s&apos;&eacute;chapper de situations
-                        d&rsquo;abus ou d&rsquo;exploitation.
+                        Les migrants sont une catégorie de travailleurs particulièrement vulnérables au travail forcé.
+                        Dans l’économie mondiale, des millions de travailleurs quittent leurs foyers pour travailler ailleurs,
+                        dans leur propre pays ou ailleurs dans le monde. De nombreux migrants à la recherche d&apos;un emploi
+                        font confiance à des recruteurs ou à des courtiers pour organiser les transports et les placer dans des
+                        emplois, mais découvrent, trop tard, que leurs salaires et les modalités de leur emploi ne correspondent
+                        pas aux promesses des courtiers. Certains migrants contractent des dettes importantes au cours du
+                        processus de recrutement et tombent dans le piège de la servitude lorsqu&apos;ils ne peuvent rembourser
+                        ces dettes. Les cycles de servitude pour dette peuvent également se produire lorsque les employeurs opèrent
+                        des retenues sur le salaire des employés pour le logement, la nourriture et d’autres frais, leur laissant
+                        peu ou pas de salaire net. De nombreux travailleurs migrants sont contraints de signer des contrats dans une
+                        langue qu&apos;ils ne savent pas lire ; d&apos;autres ont une relation d&apos;emploi informelle dénuée de tout
+                        contrat. Certains doivent remettre leurs papiers d&apos;identité à leurs employeurs, ce qui leur enlève toute
+                        possibilité de s&apos;échapper de situations d’abus ou d’exploitation.
                     </p>
                     <p>
-                        Si vos fournisseurs ont recours &agrave; des courtiers de
-                        main-d&apos;&oelig;uvre pour recruter et placer des
-                        travailleurs migrants, vous pouvez courir un risque que le
-                        travail forc&eacute; et la traite existe dans vos
-                        cha&icirc;nes d&apos;approvisionnement. Les ressources
-                        recommand&eacute;es sur cette question comprennent les{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"
-                            title="Orientations en mati&egrave;re de bonnes pratiques sur le recrutement &eacute;thique des travailleurs migrants"
-                        >
-                            Orientations en mati&egrave;re de bonnes pratiques sur
-                            le recrutement &eacute;thique des travailleurs migrants
-                        </a>{" "}
-                        [en anglais] du{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.iccr.org/"
-                            title="Centre interconfessionnel sur la responsabilit&eacute; des entreprises (ICCR)"
-                        >
-                            Centre interconfessionnel sur la responsabilit&eacute;
-                            des entreprises (ICCR)
-                        </a>{" "}
-                        et les{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
-                            title="Principes g&eacute;n&eacute;raux et directives op&eacute;rationnelles concernant le recrutement &eacute;quitable"
-                        >
-                            Principes g&eacute;n&eacute;raux et directives
-                            op&eacute;rationnelles concernant le recrutement
-                            &eacute;quitable
-                        </a>{" "}
-                        de l&rsquo;OIT, qui informe les travaux de l&rsquo;OIT, des
-                        corps l&eacute;gislatifs au niveau national et d&apos;autres
-                        partenaires sociaux dans le cadre de la promotion et de la
-                        garantie d&rsquo;un recrutement &eacute;quitable.&nbsp;
+                    Si vos fournisseurs ont recours à des courtiers de main-d&apos;œuvre pour recruter et placer des travailleurs migrants,
+                    vous pouvez courir un risque que le travail forcé et la traite existe dans vos chaînes d&apos;approvisionnement.
+                    Les ressources recommandées sur cette question comprennent les{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
+                    >
+                    Principes généraux et directives opérationnelles
+                    concernant le recrutement équitable
+                    </a>
+                    {" "}de l’OIT, qui informe les travaux de l’OIT, des corps législatifs au niveau
+                    national et d&apos;autres partenaires sociaux dans le cadre de la promotion et de la garantie d’un recrutement
+                    équitable et{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"
+                    >
+                    les Orientations en matière de bonnes pratiques sur le recrutement éthique des travailleurs migrants
+                    </a>
+                    {" "}[en anglais] du{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.iccr.org/"
+                    >
+                    Centre interconfessionnel sur la responsabilité des entreprises (ICCR)
+                    </a>.
                     </p>
                     <OwnWords>
                                         <h2>
@@ -87,7 +62,25 @@ const fr = () => {
                                             <strong>Dans leurs propres mots</strong>&nbsp;{": "}
                                         </h2>
                                         <p>
-                                            <b>PLACEHOLDER FOR TEXT</b>
+                                            « Imaginez devoir payer 7 000 dollars É.-U. pour obtenir un travail. C&apos;est ce que facturent certains courtiers
+                                            de main-d&apos;œuvre à des travailleurs migrants dans des pays d’Asie pour leur trouver un emploi dans une usine de
+                                            Taïwan, où ce genre de travail ne court actuellement pas les rues. C’est là une pratique considérée comme acceptable
+                                            et faisant partie des affaires, même si ces courtiers demandent souvent des frais supérieurs aux limites légales.
+                                            Le transport, les visas de travail et d’autres éléments essentiels sont inclus. Mais payer une telle somme pour
+                                            un travail d’usine est presque impossible pour des ouvriers qui ont déjà du mal à gagner leur vie. »
+
+                                        </p>
+                                        <p>
+                                        Source : Patagonia,{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html"
+                                        >
+                                        Comment un examen approfondi de notre chaîne d&apos;approvisionnement a conduit à une nouvelle norme
+                                        pour les travailleurs migrants
+                                        </a>
+                                        {" "}[en anglais], 2015 disponible [en anglais] sur https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html.
                                         </p>
                                     </OwnWords>
             </div>

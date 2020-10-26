@@ -168,7 +168,7 @@ export const Topics = {
         },
         {
              keywords: [],
-             title: "Información clave relativa al riesgo y el impacto",
+             title: "Informations clés relatives aux risques et aux incidences",
              content: Topic9.fr
          },
          {
@@ -179,12 +179,12 @@ export const Topics = {
 
         {
             keywords: [],
-            title: "Évaluer les causes profondes et s’y attaquer",
+            title: "S’attaquer aux causes profondes",
             content: Topic11.fr
         },
         {
             keywords: [],
-            title: "Éliminer les causes profondes",
+            title: "S’attaquer aux causes profondes",
 
             content: Topic12.fr
         },

@@ -134,20 +134,7 @@ const fr = () => {
                     r&eacute;ussites et les domaines de perfectionnement.
                 </p>
                 <p>
-                    Source:{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains"
-                        title="Perspectives on Information Management in Sustainable Supply Chains de BSR"
-                    >
-                        <em>
-                            Perspectives on Information Management in
-                            Sustainable Supply Chains
-                        </em>{" "}
-                        de BSR
-                    </a>
-                    .
+                    Source [en anglais] : https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains.
                 </p>
                 <p>
                     <em>

@@ -62,7 +62,7 @@ const fr = () => {
                         </a>
                     </li>
                     <li>
-                        IFC.{" "}
+                        SFI.{" "}
                         <em>
                             Environmental and Social Management System
                             Implementation Handbook, 2015.{" "}
@@ -78,7 +78,7 @@ const fr = () => {
                         </a>
                     </li>
                     <li>
-                        IFC.{" "}
+                        SFI.{" "}
                         <em>
                             Global Compact, and International Business Leaders
                             Forum, Guide to Human Rights Impact Assessment and
@@ -95,7 +95,7 @@ const fr = () => {
                         </a>
                     </li>
                     <li>
-                        IFC.{" "}
+                        SFI.{" "}
                         <em>
                             Measure and Improve Your Labor Standards Performance
                             - Performance Standard 2 Handbook,{" "}
@@ -104,10 +104,9 @@ const fr = () => {
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.sustainabilityxchange.info/filesagri/SAI_IFC_LaborHandbook.pdf"
-                            title="Measure and Improve Your Labor Standards Performance - Performance Standard 2 Handbook"
+                            href="https://www.ifc.org/wps/wcm/connect/e0e8e968-132a-4dbf-af0b-4b971e4a4b9b/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&CVID=jkD0.wG"
                         >
-                            https://www.sustainabilityxchange.info/filesagri/SAI_IFC_LaborHandbook.pdf
+                            https://www.ifc.org/wps/wcm/connect/e0e8e968-132a-4dbf-af0b-4b971e4a4b9b/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&CVID=jkD0.wG
                         </a>
                     </li>
                     <li>
@@ -205,31 +204,22 @@ const fr = () => {
                         </a>
                         .&nbsp;
                     </li>
+                    <li>Jungk, Margaret, Chichester, Ouida, et Fletcher, Chris. 2018. « In Search of Justice: Pathways to Remedy at the Porgera Gold Mine ». Rapport. BSR, San Francisco.</li>
                     <li>
-                        Overseas Private Investment Corporation.{" "}
-                        <em>Environmental and Social Policy Statement</em>,
-                        janvier&nbsp;2017; disponible [en anglais] sur{" "}
+                        Société financière internationale de développement des États-Unis (DFC). Environmental and Social Policy and Procedures, January 2020 ; disponible [en anglais] sur{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
-                            title="L&rsquo;indice CSI des droits dans le monde: les pires endroits au monde pour les travailleurs et les travailleuses; 2014"
+                            href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
                         >
-                            https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf
+                            https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf
                         </a>
                     </li>
                     <li>
                         UNICEF, Enqu&ecirc;tes &agrave; indicateurs multiples
-                        [en ligne, consult&eacute; le 7&nbsp;juin&nbsp;2017] ;
-                        disponible [en anglais] sur{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.childinfo.org/mics_available.html"
-                            title="UNICEF, Enqu&ecirc;tes &agrave; indicateurs multiples"
-                        >
-                            http://www.childinfo.org/mics_available.html
-                        </a>
+                        [en ligne, consulté le July 29 2020];
+                        disponible [en anglais] sur
+                        http://mics.unicef.org/
                         . L&apos;UNICEF r&eacute;alise
                         r&eacute;guli&egrave;rement des enqu&ecirc;tes &agrave;
                         indicateurs multiples (MICS), des enqu&ecirc;tes des
@@ -366,6 +356,329 @@ const fr = () => {
                             title="Knowledge Portal"
                         >
                             http://knowledge.verite.org/#/map
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Barnes &amp; Noble College League Collegiate
+                        Outfitters Creates Hope and Second Chances
+                        in El Salvador. [en ligne, disponible le
+                        8&nbsp;mai 2017]; disponible [en anglais]
+                        sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://next.bncollege.com/league-collegiate-outfitters/"
+                            title="Barnes &amp; Noble College League Collegiate Outfitters Creates Hope and Second Chances in El Salvador."
+                        >
+                            http://next.bncollege.com/league-collegiate-outfitters/
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Business &amp; Human Rights Resource Centre,{" "}
+                        <em>Portail conflits et paix. </em>
+                        Disponible sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.business-humanrights.org/fr/conflits-et-paix/derni%C3%A8res-infos-%C2%AB-conflits-et-paix-%C2%BB"
+                            title="Portail conflits et paix."
+                        >
+                            https://www.business-humanrights.org/fr/conflits-et-paix/derni%C3%A8res-infos-%C2%AB-conflits-et-paix-%C2%BB
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Chen, Shaohua, et Martin Ravillion.{" "}
+                        <em>
+                            Le monde en d&eacute;veloppement est
+                            plus pauvre que nous ne pensions, mais
+                            pas moins efficace pour autant dans la
+                            lutte contre la pauvret&eacute;
+                        </em>
+                        . Banque mondiale, Washington, DC,
+                        26&nbsp;ao&ucirc;t 2008; disponible [en
+                        anglais] sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://documents1.worldbank.org/curated/en/526541468262138892/pdf/WPS4703.pdf"
+                        >
+                            http://documents1.worldbank.org/curated/en/526541468262138892/pdf/WPS4703.pdf
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Ethical Trading Initiative.{" "}
+                        <em>Base Code Guidance: Living Wages; </em>
+                        disponible [en anglais] sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf"
+                            title="Base Code Guidance: Living Wages;"
+                        >
+                            https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Fair Labor Association.
+                        <em> Fair Compensation</em> [en ligne,
+                        consult&eacute; le 15&nbsp;mai 2017];
+                        disponible [en anglais] sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.fairlabor.org/report-type/fair-compensation"
+                            title="Fair Compensation"
+                        >
+                            http://www.fairlabor.org/report-type/fair-compensation
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Fair Labor Association.{" "}
+                        <em>
+                            Fair Compensation for Farmworkers:
+                            Emerging Good Practices and Challenges;{" "}
+                        </em>
+                        27&nbsp;f&eacute;vrier 2017; disponible [en
+                        anglais] sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges"
+                            title="Fair Compensation for Farmworkers: Emerging Good Practices and Challenges;"
+                        >
+                            http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Fair Labor Association.{" "}
+                        <em>
+                            Toward Fair Compensation in Global
+                            Supply Chains: Factory Pay Assessments
+                            in 21 Countries;{" "}
+                        </em>
+                        3&nbsp;ao&ucirc;t&nbsp;2016; disponible [en
+                        anglais] sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries"
+                            title="Toward Fair Compensation in Global Supply Chains: Factory Pay Assessments in 21 Countries;"
+                        >
+                            http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Rapport mondial sur les salaires 2016/17 de
+                        l&rsquo;OIT (2016): Les
+                        in&eacute;galit&eacute;s salariales au
+                        travail:{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_545416.pdf"
+                            title="Rapport mondial sur les salaires 2016/17: Les in&eacute;galit&eacute;s salariales au travail"
+                        >
+                            http://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_545416.pdf
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Organisation internationale du travail.{" "}
+                        <em>
+                            Responsabilit&eacute; sociale
+                            d&apos;entreprise (RSE)
+                        </em>{" "}
+                        [page Web], disponible sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.ilo.org/ipec/Action/CSR/lang--fr/index.htm"
+                            title="Responsabilit&eacute; sociale d'entreprise (RSE)"
+                        >
+                            http://www.ilo.org/ipec/Action/CSR/lang--fr/index.htm
+                        </a>
+                    </li>
+                    <li>
+                        OIT (2016) Non-Standard Employment Around
+                        the World&nbsp;- Understanding Challenges,
+                        Shaping Prospects{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.ilo.org/global/publications/books/WCMS_534326/lang--en/index.htm"
+                            title="Non-Standard Employment Around the World&nbsp;- Understanding Challenges, Shaping Prospects"
+                        >
+                            http://www.ilo.org/global/publications/books/WCMS_534326/lang--fr/index.htm
+                        </a>{" "}
+                        [en anglais].
+                    </li>
+                    <li>
+                        OIT (2013) &Eacute;conomie informelle et
+                        travail d&eacute;cent: Guide de ressources
+                        sur les politiques&nbsp;&ndash; soutenir les
+                        transitions vers la formalit&eacute;{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.ilo.org/emppolicy/pubs/WCMS_229834/lang--fr/index.htm"
+                            title="&Eacute;conomie informelle et travail d&eacute;cent: Guide de ressources sur les politiques&nbsp;&ndash; soutenir les transitions vers la formalit&eacute;"
+                        >
+                            http://www.ilo.org/emppolicy/pubs/WCMS_229834/lang--fr/index.htm
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        OIT (2015) World Employment Social
+                        Outlook&nbsp;- The Changing Nature of Jobs.{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.ilo.org/global/research/global-reports/weso/2015-changing-nature-of-jobs/WCMS_368626/lang--fr/index.htm"
+                            title="World Employment Social Outlook&nbsp;- The Changing Nature of Jobs."
+                        >
+                            http://www.ilo.org/global/research/global-reports/weso/2015-changing-nature-of-jobs/WCMS_368626/lang--fr/index.htm
+                        </a>{" "}
+                        [en anglais] Veuillez noter que depuis 2015
+                        le rapport sur les Tendances mondiales de
+                        l&apos;emploi a &eacute;t&eacute;
+                        remplac&eacute; par une par une nouvelle
+                        s&eacute;rie phare annuelle de l&apos;OIT,
+                        Emploi et questions sociales dans le monde:
+                        Les Tendances (WESO en anglais).
+                    </li>
+                    <li>
+                        OIT (2014) World Social Protection Report:
+                        Building economic recovery, inclusive
+                        development and social justice.{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--fr/index.htm"
+                            title="World Social Protection Report: Building economic recovery, inclusive development and social justice."
+                        >
+                            http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--fr/index.htm
+                        </a>
+                    </li>
+                    <li>
+                        ISEAL Alliance.{" "}
+                        <em>Global Living Wage Coalition</em> [en
+                        ligne, consult&eacute; le 15&nbsp;mai 2017];
+                        disponible [en anglais] sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition"
+                            title="&gt;Global Living Wage Coalition"
+                        >
+                            https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        New York Times.{" "}
+                        <em>
+                            At Salvadoran Factory, Helping Troubled
+                            Youth Makes Business Sense.
+                        </em>{" "}
+                        21&nbsp;septembre&nbsp;2015. Disponible [en
+                        anglais] sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0."
+                            title="At Salvadoran Factory, Helping Troubled Youth Makes Business Sense"
+                        >
+                            https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Weil, David. The Fissured Workplace: Why
+                        Work Became So Bad for So Many and What Can
+                        Be Done to Improve It. Cambridge, MA:
+                        Harvard University Press, 2014.
+                    </li>
+                    <li>
+                        Wilshaw, Rachel; Hamilton, Sloane;
+                        Theroux-Seguin, Julie et Daisy Gardener.{" "}
+                        <em>
+                            In Work but Trapped in Poverty: A
+                            Summary of Five Studies Conducted by
+                            Oxfam, with Updates on Progress Along
+                            the Road to a Living Wage;{" "}
+                        </em>
+                        Oxfam International,
+                        29&nbsp;septembre&nbsp;2015; disponible [en
+                        anglais] sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815"
+                            title="In Work but Trapped in Poverty: A Summary of Five Studies Conducted by Oxfam, with Updates on Progress Along the Road to a Living Wage"
+                        >
+                            http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Banque mondiale. Indicateurs du
+                        d&eacute;veloppement dans le monde 2017.
+                        Washington, DC, avril 2017 ; disponible sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://data.worldbank.org/data-catalog/world-development-indicators"
+                            title="Banque mondiale. Indicateurs du d&eacute;veloppement dans le monde 2017."
+                        >
+                            http://data.worldbank.org/data-catalog/world-development-indicators
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Institut de la Banque mondiale. Business and
+                        Poverty: Opening Markets to the Poor.
+                        Washington, DC, juin 2008 ; disponible [en
+                        anglais] sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://documents1.worldbank.org/curated/en/220861468140985450/pdf/444910WBWP0BOX327404B01public1.pdf"
+                        >
+                            http://documents1.worldbank.org/curated/en/220861468140985450/pdf/444910WBWP0BOX327404B01public1.pdf
+                        </a>
+                        .
+                    </li>
+                    <li>
+                        Banque mondiale. Fragilit&eacute;, conflits
+                        et violences. 2017.{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.banquemondiale.org/fr/topic/fragilityconflictviolence/overview"
+                            title="http://www.banquemondiale.org/fr/topic/fragilityconflictviolence/overview"
+                        >
+                            http://www.banquemondiale.org/fr/topic/fragilityconflictviolence/overview
+                        </a>
+                    </li>
+                    <li>
+                        Internal Displacement Monitoring Centre.
+                        2016 Global Report on Internal Displacement
+                        [en anglais].{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.internal-displacement.org/globalreport2016/"
+                            title="http://www.internal-displacement.org/globalreport2016/"
+                        >
+                            http://www.internal-displacement.org/globalreport2016/
                         </a>
                         .
                     </li>

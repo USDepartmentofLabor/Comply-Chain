@@ -3,6 +3,11 @@ import Accordion from "../../../../../../components/Accordion";
 import StaticData from "../../../../../../components/StaticData";
 import cocoaSupplyChains from "../../../../../images/cocoa_supply_chains_fr.png";
 import genericImport from "../../../../../images/generic_import_fr.png";
+import electronics from "../../../../../images/electronics.jpg";
+import minerals from "../../../../../images/minerals.jpg";
+import seafood from "../../../../../images/seafood.jpg";
+
+
 
 const fr = () => {
     return (
@@ -67,20 +72,14 @@ const fr = () => {
                     droits du travail.&nbsp;
                 </p>
                 <p>
-                    Les marchandises produites &agrave; partir de produits
-                    agricoles ou miniers peuvent &ecirc;tre
-                    particuli&egrave;rement difficiles &agrave; pister, car les
-                    mati&egrave;res premi&egrave;res peuvent &ecirc;tre
-                    r&eacute;colt&eacute;es ou extraites de mines dans des
-                    r&eacute;gions tr&egrave;s dispers&eacute;es, puis
-                    &ecirc;tre regroup&eacute;es ou m&eacute;lang&eacute;es
-                    tr&egrave;s t&ocirc;t dans la cha&icirc;ne
-                    d&apos;approvisionnement. Certaines coalitions
-                    d&apos;entreprises ou de l&apos;industrie ont tent&eacute;
-                    des programmes de «&nbsp;tra&ccedil;abilit&eacute;&nbsp;»
-                    pour pister certaines marchandises, en remontant la
-                    cha&icirc;ne d&apos;approvisionnement de son produit fini
-                    jusqu&apos;au point d&apos;origine.
+                    Les marchandises produites à partir de produits agricoles ou miniers
+                    peuvent être particulièrement difficiles à pister, car les matières
+                    premières peuvent être récoltées ou extraites de mines dans des régions
+                    très dispersées, puis être regroupées ou mélangées très tôt dans la chaîne
+                    d&apos;approvisionnement. Certaines coalitions d&apos;entreprises ou de
+                    l&apos;industrie ont tenté des programmes de « traçabilité » pour pister
+                    certaines marchandises, en remontant la chaîne d&apos;approvisionnement
+                    de son produit fini jusqu&apos;au point d&apos;origine.
                 </p>
                 <p>
                     Pour &ecirc;tre clair, la cartographie des cha&icirc;nes
@@ -98,24 +97,16 @@ const fr = () => {
                         Principes directeurs des Nations Unies relatifs aux
                         entreprises et aux droits de l&apos;homme
                     </a>
-                    , «&nbsp;lorsque les entreprises comptent un grand nombre
-                    d&apos;entit&eacute;s dans leurs cha&icirc;nes de valeur, il
-                    peut &ecirc;tre difficile d&apos;exercer la diligence
-                    raisonnable pour les incidences d&eacute;favorables sur les
-                    droits de l&apos;homme de toutes ces entit&eacute;s. Si tel
-                    est le cas, les entreprises doivent recenser les domaines
-                    g&eacute;n&eacute;raux o&ugrave; le risque d&apos;incidences
-                    n&eacute;gatives sur les droits de l&apos;homme est le plus
-                    important, que cela soit d&ucirc; au cadre
-                    d&apos;exploitation de certains fournisseurs ou clients, aux
-                    activit&eacute;s, produits ou services particuliers en jeu
-                    ou &agrave; d&apos;autres consid&eacute;rations et leur
-                    conf&eacute;rer un ordre de priorit&eacute; pour
-                    l&apos;exercice de la diligence raisonnable en
-                    mati&egrave;re de droits de l&apos;homme&nbsp;». Ce
-                    processus d&apos;&eacute;tablissement des priorit&eacute;s
-                    est abord&eacute; ci-dessous.
+                    , «&nbsp;lorsque les entreprises comptent un grand nombre d&apos;entités dans leurs chaînes de valeur,
+                    il peut être difficile d&apos;exercer la diligence raisonnable pour les incidences défavorables sur les
+                    droits de l&apos;homme de toutes ces entités. Si tel est le cas, les entreprises doivent recenser les
+                    domaines généraux où le risque d&apos;incidences négatives sur les droits de l&apos;homme est le plus
+                    important, que cela soit dû au cadre d&apos;exploitation de certains fournisseurs ou clients, aux activités,
+                    produits ou services particuliers en jeu ou à d&apos;autres considérations et leur conférer un ordre de
+                    priorité pour l&apos;exercice de la diligence raisonnable en matière de droits de l&apos;homme. 
+                    » Ce processus d&apos;établissement des priorités est abordé ci-dessous.
                 </p>
+                <p>Voici trois exemples de cartes de chaînes d&apos;approvisionnement :</p>
                 <br />
                 <div id="cocoa_chains">
                     <Accordion id="cocoa-chains-acc">
@@ -141,65 +132,35 @@ const fr = () => {
                                         l&rsquo;&eacute;ducation et l&rsquo;action (CREA).
                                     </a>
                                 </p>
-                                Ce graphique illustre les diff&eacute;rents
-                                acteurs de la cha&icirc;ne
-                                d&apos;approvisionnement du cacao: les
-                                agriculteurs, les receveurs/transporteurs, les
-                                transformateurs, les exportateurs, le
-                                march&eacute; mondial, les fabricants (qui
-                                peuvent &eacute;galement fabriquer
-                                d&rsquo;autres f&egrave;ves), les clients et les
-                                consommateurs. Ce graphique r&eacute;pertorie
-                                &eacute;galement des exemples
-                                d&rsquo;entit&eacute;s et
-                                d&rsquo;activit&eacute;s r&eacute;parties entre
-                                ces cat&eacute;gories de la cha&icirc;ne
-                                d&rsquo;approvisionnement dans deux pays: la
-                                C&ocirc;te d&rsquo;Ivoire et le Ghana. En
-                                C&ocirc;te d&rsquo;Ivoire, les agriculteurs sont
-                                par exemple les petites exploitations agricoles
-                                familiales (il en existe plus de 750&nbsp;000),
-                                les op&eacute;rations ind&eacute;pendantes et
-                                quelques coop&eacute;ratives (o&ugrave; le cacao
-                                repr&eacute;sente moins de 20&nbsp;% des
-                                cultures). Les receveurs et transporteurs
-                                comprennent les op&eacute;rateurs
-                                financ&eacute;s par des entreprises
-                                priv&eacute;es, les pisteurs et les traitants,
-                                qui disposent de moins de liens de
-                                qualit&eacute;. Les transformateurs et les
-                                exportateurs comprennent diff&eacute;rents
-                                participants, notamment les
-                                soci&eacute;t&eacute;s internationales. Cette
-                                cat&eacute;gorie comprend les producteurs de
-                                produits semi-finis. Au Ghana, les agriculteurs
-                                sont par exemple les petites exploitations
-                                agricoles familiales (dont le nombre
-                                d&eacute;passe les 600&nbsp;000), les
-                                op&eacute;rations ind&eacute;pendantes et
-                                quelques coop&eacute;ratives (o&ugrave; le cacao
-                                repr&eacute;sente moins de 10&nbsp;% des
-                                cultures). L&rsquo;achat initial des
-                                f&egrave;ves de cacao est effectu&eacute; par
-                                des acheteurs agr&eacute;&eacute;s (LBC).
-                                L&rsquo;Office du cacao du Ghana (COCOBOD) et
-                                ses organisations affili&eacute;es
-                                s&rsquo;assurent que la vente est assortie
-                                d&rsquo;exigences de qualit&eacute;. Au Ghana,
-                                les transformateurs et les exportateurs sont
-                                notamment le COCOBOD et des entreprises
-                                internationales. Cette cat&eacute;gorie comprend
-                                les producteurs de produits semi-finis. Le
-                                graphique indique &eacute;galement des
-                                &eacute;tapes finales similaires dans le
-                                processus des deux pays. Les f&egrave;ves et les
-                                produits issus des petites exploitations
-                                agricoles familiales passent au march&eacute;
-                                mondial. Les fabricants poursuivent la
-                                fabrication des produits. Les magasins,
-                                restaurants et petites entreprises correspondent
-                                aux clients. Et les consommateurs sont les
-                                clients finaux.&nbsp;
+                                Ce graphique illustre les différents acteurs de la chaîne d&apos;approvisionnement
+                                du cacao : les agriculteurs, les receveurs/transporteurs, les transformateurs,
+                                les exportateurs, le marché mondial, les fabricants (qui peuvent également fabriquer
+                                d’autres fèves), les clients (qui comprennent les magasins, les restaurants et les
+                                petites entreprises qui achètent des produits pour les vendre) et les consommateurs
+                                finaux. Ce graphique répertorie également des exemples d’entités et d’activités réparties
+                                entre ces catégories de la chaîne d’approvisionnement dans deux pays : la Côte d’Ivoire
+                                et le Ghana. En Côte d’Ivoire, les agriculteurs sont par exemple les petites exploitations
+                                agricoles familiales (il en existe plus de 750 000), les opérations indépendantes et
+                                quelques coopératives (où le cacao représente moins de 20 % des cultures). Les receveurs
+                                et transporteurs comprennent les opérateurs financés par des entreprises privées, les pisteurs
+                                (intermédiaires qui achètent directement auprès des exploitations agricoles) et les traitants
+                                (qui achètent du cacao auprès des pisteurs). Les transformateurs et les exportateurs comprennent
+                                différents participants, notamment les sociétés internationales. Cette catégorie comprend les
+                                producteurs de produits semi-finis. Au Ghana, les agriculteurs sont par exemple les petites
+                                exploitations agricoles familiales (dont le nombre dépasse les 600 000), les opérations
+                                indépendantes et quelques coopératives (où le cacao représente moins de 10 % des cultures).
+                                L’achat initial des fèves de cacao est effectué par des acheteurs agréés (LBC). L’Office du
+                                cacao du Ghana* (COCOBOD) et ses organisations affiliées s’assurent que la vente est assortie
+                                d’exigences de qualité. Au Ghana, les transformateurs et les exportateurs sont notamment le
+                                COCOBOD et des entreprises internationales. Cette catégorie comprend les producteurs de
+                                produits semi-finis. Le graphique indique également des étapes finales similaires dans le
+                                processus des deux pays. Les fèves et les produits issus des petites exploitations agricoles
+                                familiales passent sur le marché mondial aux fabricants, qui transforment le produit brut en produit
+                                final pour les consommateurs (p. ex. les fèves de cacao en barres chocolatées). Les magasins,
+                                restaurants et petites entreprises servent de clients de points de vente et de service initiaux.
+                                Les consommateurs secondaires sont les clients finaux, tels qu’une personne qui achète une barre
+                                chocolatée dans une épicerie (point de vente) ou un morceau de gâteau au chocolat dans un
+                                restaurant (point de service).
                             </Accordion.Panel>
                         </Accordion.Section>
                     </Accordion>
@@ -207,12 +168,30 @@ const fr = () => {
                 <Accordion id="electronic-supply-chain">
                      <Accordion.Section id="electronic-supply-chain-description">
                                             <Accordion.Title>
-                                            Electronics Supply Chains - Cobalt, Tantalum, and Tin
+                                            Chaînes d&apos;approvisionnement des produits électroniques
                                         </Accordion.Title>
                                         <Accordion.Panel>
-
+                                        <img
+                                              src={electronics}
+                                              alt="Electronics Supply Chains"
+                                              longdesc="#electronics_chains"
+                                              />
+                                        <img
+                                              src={minerals}
+                                              alt="DRC Minerals Supply Chains"
+                                              longdesc="#minerals_chains"
+                                              />
                                         <p className="small-text">
-                                        PLACEHOLDER FOR CONTENT.
+                                        Le schéma ci-dessus illustre les étapes d’ensemble de la chaîne d&apos;approvisionnement
+                                        pour le secteur des produits électroniques, qui doit se procurer de nombreux métaux de
+                                        terre rares en République démocratique du Congo (RDC), en Afrique centrale. Bien que
+                                        la conception et le développement des produits électroniques de grande consommation
+                                        se produisent souvent à proximité des utilisateurs finaux, comme aux États-Unis,
+                                        l’approvisionnement en matériaux commence souvent à l’autre bout du monde, en Afrique centrale.
+                                        Une fois extraits, ces matériaux sont acheminés par voie terrestre vers des ports situés sur la
+                                        côte est-africaine, d’où ils partent par voie maritime jusqu’à l’Asie orientale et du Sud-Est,
+                                        où des fonderies les raffinent pour les transformer en composants qu’utilisent les fabriques
+                                        de la région, d’Europe et d’Amérique du Nord.
 
                                           </p>
                                         </Accordion.Panel>
@@ -222,158 +201,42 @@ const fr = () => {
                     <Accordion id="generic-import-acc">
                         <Accordion.Section id="generic-import-description">
                             <Accordion.Title>
-                                Cha&icirc;ne d&rsquo;approvisionnement d&rsquo;importation
-                                                    g&eacute;n&eacute;rique&nbsp;&ndash; mod&egrave;le de
-                                                    d&eacute;tail
+                                Chaînes d&apos;approvisionnement de produits de la mer
                             </Accordion.Title>
                             <Accordion.Panel>
                             <img
-                                src={genericImport}
-                                alt="Cha&icirc;ne d&rsquo;approvisionnement d&rsquo;importation g&eacute;n&eacute;rique&nbsp;- mod&egrave;le de d&eacute;tail"
-                                longdesc="#generic_import"
-                            />
-                            <p className="small-text">
-                                Source:{" "}
-                                <a
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="https://corporate.target.com/"
-                                >
-                                    Target Corporation.
-                                </a>
-                            </p>
+                                  src={seafood}
+                                  alt="Seafood Supply Chains"
+                                  longdesc="#seafood_chains"
+                                  />
+
                                 <p>
-                                    Ce graphique illustre les &eacute;tapes
-                                    d&rsquo;une cha&icirc;ne
-                                    d&rsquo;approvisionnement
-                                    d&rsquo;importation g&eacute;n&eacute;rique.
-                                    La description d&rsquo;une cha&icirc;ne
-                                    d&rsquo;approvisionnement mod&egrave;le de
-                                    d&eacute;tail typique commence ainsi:
+                                    Chaque chaîne d&apos;approvisionnement dans le secteur des produits de la mer
+                                    emprunte plus ou moins la même voie du pêcheur jusqu’à l’acheteur final, bien qu’il
+                                    y ait certaines différences en chemin. De plus, l’utilisateur final de cette chaîne
+                                    varie énormément, avec des points de service (p. ex. restaurants, hôtels, hôpitaux et
+                                    écoles) et des points de vente (p. ex. magasins, etc.). Concernant les produits de la
+                                    mer sauvages, des flottes d’embarcations peuvent coordonner leurs efforts avec un « 
+                                    vaisseau-mère » afin de rassembler les prises quotidiennes. Une fois débarqués, les
+                                    produits de la mer sont livrés soit à un transformateur primaire, soit au marché ouvert.
+                                    Le transformateur primaire reçoit les produits et les transforme pour les vendre aux détaillants
+                                    ou aux distributeurs de la restauration, qui les acheminent ensuite vers les consommateurs finaux.
+                                    Les produits de la mer vendus sur ces marchés plus officiels passent par de nombreuses étapes
+                                    aux mains de toute une gamme d’acteurs intermédiaires, depuis les transformateurs primaires aux
+                                    transformateurs secondaires, en passant par les négociants, les transporteurs, etc., qui
+                                    jouent tous un rôle dans l’acheminement du produit pour se rapprocher du point de vente final.
+
                                 </p>
-                                <ul>
-                                    <li>
-                                        Premi&egrave;re &eacute;tape:
-                                        d&eacute;veloppement du produit.
-                                        &Agrave; ce stade, le concept du produit
-                                        et un fournisseur sont choisis, et le
-                                        produit re&ccedil;oit sa conception
-                                        finale. C&apos;est &eacute;galement
-                                        l&agrave; que le financement est
-                                        d&eacute;cid&eacute; et intervient cinq
-                                        &agrave; neuf mois avant la date de mise
-                                        en magasin.
-                                    </li>
-                                    <li>
-                                        Deuxi&egrave;me &eacute;tape: commande
-                                        et production. Au cours de cette
-                                        &eacute;tape se produisent le placement
-                                        et la classification du produit; un
-                                        acheteur envoie un bon de commande
-                                        &eacute;lectronique au fournisseur, au
-                                        commissionnaire en douane, au
-                                        transitaire et &agrave; la banque.
-                                        Viennent ensuite le choix de
-                                        l&rsquo;usine et les tests de
-                                        pr&eacute;production, suivis de la
-                                        production de la marchandise par
-                                        l&rsquo;usine pour v&eacute;rifier
-                                        l&apos;assurance qualit&eacute; et la
-                                        conformit&eacute; sociale. Cette
-                                        &eacute;tape intervient deux &agrave;
-                                        cinq&nbsp;mois avant la date de mise en
-                                        magasin.
-                                    </li>
-                                    <li>
-                                        Troisi&egrave;me &eacute;tape:
-                                        r&eacute;servation du transporteur. Le
-                                        vendeur proc&egrave;de &agrave; une
-                                        r&eacute;servation de fret aupr&egrave;s
-                                        d&rsquo;un transitaire et le livre
-                                        &agrave; un terminal ou une station de
-                                        fret de conteneur (CFS). Cette
-                                        &eacute;tape se produit deux &agrave;
-                                        quatre&nbsp;mois avant la date de mise
-                                        en magasin.
-                                    </li>
-                                    <li>
-                                        Quatri&egrave;me &eacute;tape:
-                                        traitement des documents et
-                                        exp&eacute;dition. Le fournisseur remet
-                                        les documents d&apos;entr&eacute;e au
-                                        commissionnaire de transport et
-                                        r&egrave;gle les charges locales. Le
-                                        transitaire envoie &eacute;galement les
-                                        documents au courtier, par voie
-                                        &eacute;lectronique. Un
-                                        r&eacute;c&eacute;piss&eacute; de
-                                        transitaire est remis au fournisseur
-                                        (dont il a besoin pour &ecirc;tre
-                                        pay&eacute;). &Agrave; ce stade, le
-                                        manifeste &agrave; 24&nbsp;heures et les
-                                        informations relatives au classement de
-                                        s&eacute;curit&eacute; de
-                                        l&rsquo;importateur (ISF) sont
-                                        &eacute;galement &agrave; remettre
-                                        &agrave; la douane am&eacute;ricaine.
-                                        Apr&egrave;s le d&eacute;part du moyen
-                                        de transport, le transitaire envoie les
-                                        informations d&rsquo;exp&eacute;dition
-                                        par voie &eacute;lectronique au
-                                        commissionnaire en douane et &agrave;
-                                        l&rsquo;acheteur. Cette &eacute;tape se
-                                        d&eacute;roule un &agrave;
-                                        deux&nbsp;mois avant la date de mise en
-                                        magasin.
-                                    </li>
-                                    <li>
-                                        Cinqui&egrave;me &eacute;tape:
-                                        d&eacute;douanement. Le courtier
-                                        re&ccedil;oit les documents
-                                        d&apos;entr&eacute;e
-                                        &eacute;lectroniques, il les passe en
-                                        revue et en assure la
-                                        v&eacute;rification. Il d&eacute;pose
-                                        alors une demande d&apos;entr&eacute;e
-                                        aupr&egrave;s des douanes
-                                        am&eacute;ricaines et autres organismes
-                                        publics. &Agrave; cette &eacute;tape,
-                                        l&apos;acheteur envoie &eacute;galement
-                                        des instructions d&apos;affectation au
-                                        d&eacute;groupement. Puis le moyen de
-                                        transport arrive et le conteneur est
-                                        d&eacute;douan&eacute; pour
-                                        distribution. Tout cela se
-                                        d&eacute;roule un mois avant la date de
-                                        mise en magasin.
-                                    </li>
-                                    <li>
-                                        Sixi&egrave;me &eacute;tape:
-                                        d&eacute;groupement/exp&eacute;dition
-                                        &agrave; la destination finale. Elle se
-                                        d&eacute;roule deux semaines avant la
-                                        date de mise en magasin. La livraison
-                                        est organis&eacute;e au centre de
-                                        d&eacute;groupement (ou &agrave; la
-                                        destination finale). Les services de
-                                        d&eacute;consolidation distribuent
-                                        ensuite le produit conform&eacute;ment
-                                        aux instructions d&rsquo;affectation de
-                                        l&rsquo;acheteur. Le produit est
-                                        livr&eacute; au centre de distribution,
-                                        &agrave; l&rsquo;entrep&ocirc;t ou au
-                                        magasin. Une section Modalit&eacute;s et
-                                        informations suppl&eacute;mentaires sur
-                                        le graphique d&eacute;finit les
-                                        acronymes utilis&eacute;s dans
-                                        l&rsquo;illustration et mentionne
-                                        &eacute;galement que tous les
-                                        importateurs ne proc&egrave;dent pas
-                                        &agrave; une classification des produits
-                                        au d&eacute;but de la cha&icirc;ne
-                                        d&rsquo;approvisionnement.
-                                    </li>
-                                </ul>
+                                <p className="small-text">
+                                        Source:{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.resolve.ngo/site-eiscm/default.htm?RD=1"
+                                        >
+                                           https://www.resolve.ngo/site-eiscm/default.htm?RD=1
+                                        </a>.
+                                    </p>
                             </Accordion.Panel>
                         </Accordion.Section>
                     </Accordion>

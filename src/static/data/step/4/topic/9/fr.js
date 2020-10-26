@@ -12,7 +12,7 @@ const fr = () => {
         <StaticData>
             <div>
                 <h1>
-                    Key Information Related to Risk and Impact
+                    Informations clés relatives aux risques et aux incidences
                 </h1>
                 <p>
                     &Agrave; la suite de ces recherches initiales, la
@@ -34,6 +34,31 @@ const fr = () => {
                     responsabilit&eacute; sociale des entreprises et d&rsquo;ONG
                     peuvent vous aider &agrave; mener votre &eacute;valuation
                     des risques et des incidences.
+                </p>
+                <p>
+                Certaines entreprises choisissent d&apos;« externaliser » la fonction
+                de collecte des informations auprès d&apos;un expert, par exemple un
+                cabinet de consultants, un groupe de la société civile ou un établissement
+                universitaire. Si vous possédez déjà des relations bien établies avec des
+                fournisseurs et que vous souhaitez évaluer leurs risques existants, les
+                rapports réalisés sur ces fournisseurs par d&apos;autres entreprises ou
+                groupes offrent une source très utile de données. Il peut être nécessaire,
+                pour y avoir accès, de rejoindre un groupe tel que le Supplier Ethical Data
+                Exchange (SEDEX)* et Fair Factories Clearinghouse,*, qui fournissent une
+                plateforme de partage des informations sur des fournisseurs communs et de
+                collaboration sur les efforts de surveillance et de réparation.
+                </p>
+                <p>
+                Si des rapports d&apos;audits ne sont pas disponibles, il
+                existe d&apos;autres moyens de recueillir des informations sur vos
+                fournisseurs actuels, afin de déterminer lesquels viser pour des efforts
+                de conformité plus poussés. S’il existe un syndicat, les réclamations ou
+                les plaintes du terrain peuvent éventuellement constituer une bonne source
+                d&apos;information sur les facteurs de risque de violations des droits du travail.
+                S&apos;il n&apos;en existe pas, le fournisseur dispose peut-être d&apos;autres mécanismes
+                de réclamation ou de plainte qui pourraient constituer des sources d&apos;informations.
+                À l&apos;évidence, une autre option serait de sonder tous vos fournisseurs sur les
+                facteurs de risques principaux énumérés ci-dessus.
                 </p>
                 <p>Quelles informations recherchez-vous?</p>
                  <Accordion id="cocoa-chains-acc">
@@ -215,7 +240,52 @@ const fr = () => {
                                      </Accordion.Panel>
                                  </Accordion.Section>
                                  </Accordion>
-                        <br />
+                        <Accordion id="Données du marché-acc">
+                               <Accordion.Section id="Données du marché-description">
+                                  <Accordion.Title>
+                                 Données du marché
+                                     </Accordion.Title>
+                                     <Accordion.Panel>
+                                <p>
+                                     Quelles sont au sein de vos opérations les catégories de dépenses élevées, comme les
+                                     matières premières essentielles ou les composants vitaux, qui sont les plus menacées et
+                                     auraient donc une incidence désastreuse en cas de perturbations ? D’autres entreprises de
+                                     votre secteur publient-elles des listes de fournisseurs particuliers ou des informations
+                                     sur l’approvisionnement que vous pourriez inclure dans votre évaluation et votre analyse des risques ?
+                                 </p>
+                                 </Accordion.Panel>
+                             </Accordion.Section>
+                             </Accordion>
+                        <Accordion id="Suite-acc">
+                                   <Accordion.Section id="suite-description">
+                                      <Accordion.Title>
+                                     Suite
+                                         </Accordion.Title>
+                                         <Accordion.Panel>
+                                    <p>
+                                         Pour avoir une id&eacute;e de l&rsquo;application de cette
+                                         approche g&eacute;n&eacute;rale &agrave; un secteur
+                                         particulier, l&rsquo;
+                                         <a
+                                             target="_blank"
+                                             rel="noopener noreferrer"
+                                             href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
+                                             title="Outil d&rsquo;approvisionnement responsable&nbsp;des produits de la mer&nbsp;4: Collecte d&rsquo;information et &eacute;valuation des risques dans les cha&icirc;nes d&rsquo;approvisionnement des produits de la mer"
+                                         >
+                                             Outil d&rsquo;approvisionnement responsable des produits
+                                             de la mer&nbsp;4: Collecte d&rsquo;information et
+                                             &eacute;valuation des risques dans les cha&icirc;nes
+                                             d&rsquo;approvisionnement des produits de la mer
+                                         </a>{" "}
+                                         [en anglais] adopte une approche &eacute;tape par
+                                         &eacute;tape de l&rsquo;examen des risques bas&eacute;s sur
+                                         les pays, les cha&icirc;nes d&rsquo;approvisionnement et les
+                                         fournisseurs.&nbsp;
+                                     </p>
+                                     </Accordion.Panel>
+                                 </Accordion.Section>
+                                 </Accordion>
+                  <br />
                 <ExampleInAction id="fish">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -278,39 +348,81 @@ const fr = () => {
                         &Eacute;tat.&nbsp;
                     </p>
                     <p>
-                        La p&ecirc;che illicite, non d&eacute;clar&eacute;e et
-                        non r&eacute;glement&eacute;e (INN) est devenue un
-                        probl&egrave;me qui ne cesse de se d&eacute;velopper.
-                        Elle &eacute;puise les stocks mondiaux de produits de la
-                        mer et cr&eacute;e une concurrence d&eacute;loyale au
-                        sein de ce secteur, notamment en assujettissant les
-                        travailleurs &agrave; l&rsquo;exploitation. Les
-                        gouvernements ont intensifi&eacute; leurs efforts pour
-                        combattre la p&ecirc;che INN. Par exemple, dans le cadre
-                        de sa r&eacute;glementation sur ce sujet, l&rsquo;Union
-                        europ&eacute;enne a attribu&eacute; des
-                        pr&eacute;recensements, plus connus sous le nom de
-                        «&nbsp;cartons jaunes&nbsp;», aux pays qui, &agrave; ses
-                        yeux, ne luttent pas suffisamment contre la p&ecirc;che
-                        INN. L&rsquo;attribution d&rsquo;un carton jaune lance
-                        un dialogue officiel avec le gouvernement en question
-                        concernant des mesures correctives. Le gouvernement des
-                        &Eacute;tats-Unis prend &eacute;galement des mesures
-                        pour s&apos;attaquer au probl&egrave;me: un groupe
-                        de travail pr&eacute;sidentiel sur la lutte contre la
-                        p&ecirc;che INN a publi&eacute; un{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf"
-                            title="Plan d&rsquo;action pour la mise en &oelig;uvre des recommandations du groupe de travail"
-                        >
-                            Plan d&rsquo;action pour la mise en &oelig;uvre des
-                            recommandations du groupe de travail
-                        </a>{" "}
-                        [en anglais], en vertu duquel les &Eacute;tats-Unis
-                        mettent en place un programme de
-                        tra&ccedil;abilit&eacute; des produits de la mer.
+                        La pêche illicite, non déclarée et non réglementée (INN) est devenue un
+                        problème qui ne cesse de se développer. Elle élude les réglementations,
+                        sape la gestion et la conservation des ressources halieutiques et met en
+                        danger l’approvisionnement alimentaire mondial. Elle exacerbe les pratiques
+                        d’exploitation par le travail, qui peuvent avoir une incidence négative sur
+                        les salaires et les conditions de travail de tous les pêcheurs. Elle peut aussi
+                        être une source de travail forcé et des enfants et de la traite des personnes.
+                        Les gouvernements ont intensifié leurs efforts pour combattre la pêche INN.
+                        Ainsi, la réglementation de l’Union européenne qui vise à mettre fin à la pêche
+                        INN exige des pays qui exportent des poissons vers l’UE ou prêtent leur pavillon
+                        à des navires qui le font qu’ils répondent à des normes rigoureuses de gestion
+                        des ressources halieutiques. En cas de non-conformité, ces pays peuvent se voir
+                        attribuer un « carton jaune », ce qui expose leurs poissons à une exclusion du marché européen.
+                    </p>
+                    <p>
+                    Le gouvernement des États-Unis prend également des mesures pour s&apos;attaquer au problème : en 
+                    2019, le Congrès américain a adopté la Loi sur la sécurité maritime (Maritime SAFE Act), qui a
+                    créé un groupe de travail interinstitutions afin d’apporter aux organismes fédéraux un cadre
+                    coordonné permettant de lutter contre la pêche INN. Elle a également autorisé une série d’activités
+                    institutionnelles, notamment le développement des capacités pour les services de répression et de
+                    sécurité portuaire, l’amélioration de la transparence et de la traçabilité au sein de la chaîne
+                    d&apos;approvisionnement de produits de la mer, la promotion de l’usage de la technologie pour
+                    lutter contre la pêche INN, et la promotion d’un meilleur partage d’informations entre les organismes et d’autres organisations.
+                    </p>
+                    <p>
+                    Avant la mise en place de cette loi, un groupe de travail présidentiel sur la lutte contre la pêche INN a publié
+                    un&nbsp;
+                    <a
+                         target="_blank"
+                         rel="noopener noreferrer"
+                         href="https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf"
+                     >
+                    Plan d’action pour la mise en œuvre des recommandations du groupe de travail
+                    </a>{" "}
+                    [en anglais], en vertu duquel
+                    les États-Unis mettent en place un programme de traçabilité des produits de la mer. Ce programme, baptisé{" "}
+                    <a
+                         target="_blank"
+                         rel="noopener noreferrer"
+                         href="https://www.fisheries.noaa.gov/international/seafood-import-monitoring-program"
+                     >
+                    Programme de suivi des importations de produits de la mer
+                    </a>
+                    {" "}(Seafood Import Monitoring Program – SIMP), exige
+                    de l’importateur officiel aux États-Unis qu’il fournisse et signale certaines données clés (depuis le point
+                    de récolte jusqu’au point d’entrée sur le commerce américain) sur les importations de treize poissons et
+                    produits de la pêche identifiés comme pêche INN vulnérable et/ou fraude aux produits de la mer. L’obligation
+                    de conformité est entrée en vigueur fin 2018.
+                    </p>
+                    <p>Source [en anglais] :&nbsp;
+                    <a
+                         target="_blank"
+                         rel="noopener noreferrer"
+                         href="www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf"
+                     >
+                    http://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf
+                    </a>.
+                    </p>
+                    <p>Source [en anglais] :
+                    <a
+                         target="_blank"
+                         rel="noopener noreferrer"
+                         href="https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf"
+                     >
+                    https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf
+                    </a>.
+                    </p>
+                    <p>Source [en anglais] :
+                    <a
+                         target="_blank"
+                         rel="noopener noreferrer"
+                         href="https://www.fisheries.noaa.gov/international/seafood-import-monitoring-program"
+                     >
+                    https://www.fisheries.noaa.gov/international/seafood-import-monitoring-program.
+                    </a>
                     </p>
                 </ExampleInAction>
                 <br />
@@ -403,19 +515,15 @@ const fr = () => {
                         </li>
                     </ul>
                     <p>
-                        Source: Soci&eacute;t&eacute; de promotion des
-                        investissements &agrave; l&rsquo;&eacute;tranger du
-                        gouvernement des &Eacute;tats-Unis,{" "}
+                        Source: Société financière internationale de développement des États-Unis (DFC),{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
-                            title="D&eacute;claration de politique environnementale et sociale"
+                            href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
                         >
-                            D&eacute;claration de politique environnementale et
-                            sociale
+                            Politique et procédures environnementales et sociales
                         </a>{" "}
-                        [en anglais], 2017
+                        2020, disponible [en anglais] sur https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf.
                     </p>
                 </OwnWords>
             </div>
