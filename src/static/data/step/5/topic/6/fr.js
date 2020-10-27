@@ -56,17 +56,14 @@ const fr = () => {
                         Cotton Initiative*
                     </a>{" "}
                     pour les entreprises de l&apos;ensemble de la cha&icirc;ne
-                    d&apos;approvisionnement du coton, le{" "}
+                    d&apos;approvisionnement du coton, la{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.eiccoalition.org/media/docs/EICCCodeofConduct5_English.pdf"
-                        title="Code de conduite de la Coalition pour la citoyennet&eacute; de l&rsquo;industrie &eacute;lectronique"
+                        href="www.responsiblebusiness.org/code-of-conduct/"
                     >
-                        Code de conduite de la Coalition pour la
-                        citoyennet&eacute; de l&rsquo;industrie
-                        &eacute;lectronique
-                    </a>{" "}
+                        Responsible Business Alliance
+                    </a>*{" "}
                     pour les entreprises de l&rsquo;industrie
                     &eacute;lectronique, la{" "}
                     <a
@@ -115,7 +112,7 @@ const fr = () => {
                         title="Principes sectoriels prioritaires du Consumer Goods Forum"
                     >
                         Guide sur les principes sectoriels prioritaires du Consumer Goods Forum
-                    </a>{" "}
+                    </a>*{" "}
                     sur le travail forc&eacute; en sont deux exemples.
                 </p>
                 <p>

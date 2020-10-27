@@ -74,9 +74,23 @@ const fr = () => {
                         d’important progrès pour passer ses fournisseurs à un système où les travailleurs ne doivent pas payer de commissions de recrutement ».
                     </p>
                     <p>
-                        Source [en anglais] : https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html.
+                        Source [en anglais] :{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html"
+                        >
+                        https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html
+                        </a>.
                     </p>
-                    <p>Source : https://www.patagonia.com/our-footprint/migrant-workers.html.</p>
+                    <p>Source :{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.patagonia.com/our-footprint/migrant-workers.html"
+                    >
+                    https://www.patagonia.com/our-footprint/migrant-workers.html
+                    </a>.</p>
                 </ExampleInAction>
                 <p>
                     Les{" "}
@@ -144,7 +158,7 @@ const fr = () => {
                             href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment"
                             title="Groupe de leadership pour le recrutement responsable"
                         >
-                            Groupe de leadership pour le recrutement responsable
+                            Groupe de leadership pour le recrutement responsable*
                         </a>{" "}
                         est un effort de collaboration entre plusieurs grandes
                         multinationales et des organisations d&rsquo;experts
@@ -197,7 +211,15 @@ const fr = () => {
                         >
                             Portail de recrutement responsable
                         </a>{" "}
-                        sur https://www.ihrb.org/employerpays/ [en anglais].
+                        sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ihrb.org/employerpays/"
+
+                        >
+                        https://www.ihrb.org/employerpays/
+                         </a>{" "}[en anglais].
                     </p>
                 </ExampleInAction>
                 <p>
