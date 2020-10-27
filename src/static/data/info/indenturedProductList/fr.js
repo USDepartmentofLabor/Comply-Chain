@@ -5,60 +5,66 @@ const fr = () => {
     return (
                    <StaticData>
                        <div>
-                           <h1>List of Products Produced by Forced or Indentured Labor</h1>
+                           <h1>Liste des produits issus du travail forcé ou du travail pour dette des enfants</h1>
                            <p>
-                           ILAB maintains a list of products and their source countries which it has a reasonable basis to believe are produced by forced or indentured child labor,
-                           pursuant to &nbsp;
-                           <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="https://www.dol.gov/agencies/ilab/about/laws"
-                                title="List of products report"
-                                 >
-                                https://www.dol.gov/agencies/ilab/about/laws
-                            </a>
-                           &nbsp;Executive Order 13126.
-                           This List is intended to ensure that U.S. federal agencies do not procure goods made by forced or indentured child labor.
-                           Under procurement regulations, federal contractors who supply products on the List must certify that they have made a good faith effort to determine whether forced or indentured child labor was used to produce the items supplied.
-                           The Department of Labor, in consultation with the Departments of State and Homeland Security, publishes and maintains the List.
-                           ILAB released its initial List in 2001, and has revised it several times since then. As of March 25, 2019, the EO List comprises 34 products from 25 countries.
+                               L&rsquo;ILAB tient &agrave; jour une liste de produits et leurs pays d&rsquo;origine dont il y a 
+                               lieu de penser qu&rsquo;ils sont produits par le travail forc&eacute; ou le travail pour dette des 
+                               enfants, comme l&rsquo;exige le{" "}
+                               <a
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               href="https://www.dol.gov/agencies/ilab/about/laws"
+                               title="D&eacute;cret ex&eacute;cutif 13126"
+                               >
+                               D&eacute;cret ex&eacute;cutif 13126
+                               </a> 
+                               . 
+                               Cette liste a pour vocation de s&rsquo;assurer que les organismes f&eacute;d&eacute;raux am&eacute;ricains 
+                               n&rsquo;obtiennent pas de marchandises produites par le travail forc&eacute; ou le travail pour dette des 
+                               enfants. En vertu des r&eacute;glementations relatives aux achats, les contractuels f&eacute;d&eacute;raux 
+                               qui fournissent des produits figurant sur la liste doivent certifier qu&rsquo;ils ont de bonne foi 
+                               essay&eacute; de d&eacute;terminer si le travail forc&eacute; ou le travail pour dette des enfants servait 
+                               &agrave; produire les articles fournis.
+                            </p>
 
-                           The List is required by &nbsp;
-                            <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="https://www.dol.gov/agencies/ilab/about/laws/#eo13126"
-                                title="List of products report"
-                                 >
-                                https://www.dol.gov/agencies/ilab/about/laws/#eo13126
-                                        </a>
-                           &nbsp;Executive Order 13126 &nbsp;"Prohibition of Acquisition of Products Produced by Forced or Indentured Child Labor."
-                           The procurement requirements related to products on the List are set out in a 2001 Federal Acquisition Regulation &nbsp;
-                            <a
-                                 target="_blank"
-                                rel="noopener noreferrer"
-                                href="http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=2001_register&docid=01-1503-filed.pdf"
-                                title="List of products report"
-                                 >
-                                http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=2001_register&docid=01-1503-filed.pdf
-                            </a>
+                            <p>
+                                Le d&eacute;partement du Travail, en consultation avec le d&eacute;partement d'&Eacute;tat et le 
+                                d&eacute;partement de la S&eacute;curit&eacute; territoriale, publie cette liste et la met &agrave; jour. 
+                                L&rsquo;ILAB a publi&eacute; la premi&egrave;re liste en 2001 et l&rsquo;a r&eacute;vis&eacute;e plusieurs 
+                                fois depuis. Au 25 mars 2019, elle comprend 34 produits provenant de 25 pays. Cette liste est mandat&eacute;e par le{" "}
+                               <a
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               href="https://www.dol.gov/ilab/about/laws/#eo13126"
+                               title="D&eacute;cret ex&eacute;cutif 13126"
+                               >
+                               D&eacute;cret ex&eacute;cutif 13126
+                               </a>
+                                , &laquo; Interdiction d&rsquo;acquisition de produits issus du travail forc&eacute; ou du travail pour dette 
+                                des enfants &raquo;. Les exigences en mati&egrave;re d&rsquo;achat concernant les produits figurant sur cette 
+                                liste sont pr&eacute;cis&eacute;es dans la{" "}
+                               <a
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               href="http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=2001_register&docid=01-1503-filed.pdf"
+                               title="R&egrave;gle finale"
+                               >
+                               R&egrave;gle finale
+                               </a>{" "}
+                                 
+                                d&rsquo;une r&eacute;glementation 
+                                f&eacute;d&eacute;rale relative aux achats de 2001.
+                            </p>
 
+                            <p>
+                                L&rsquo;ILAB &eacute;labore cette liste &agrave; l&rsquo;aide de crit&egrave;res et de proc&eacute;dures mise en 
+                                place dans le cadre de ses &laquo; Directives en mati&egrave;re de proc&eacute;dures pour la mise &agrave; jour de 
+                                la liste de produits n&eacute;cessitant une certification des contractuels f&eacute;d&eacute;raux concernant le 
+                                travail forc&eacute; ou pour dette des enfants &raquo;.
+                            </p>
 
-                           &nbsp; Final Rule.
-                           ILAB develops the List using criteria and procedures established in its &nbsp;
-                           <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="https://www.federalregister.gov/d/01-952"
-                                title="List of products report"
-                                 >
-                                https://www.federalregister.gov/d/01-952
-                           </a>
-                           &nbsp; Procedural Guidelines for the Maintenance of the List of Products Requiring Federal Contractor Certification as to Forced or Indentured Child Labor."
-                           </p>
-
-                           <p>
-                               Read more here:{" "}
+                            <p>
+                                Pour en savoir plus:{" "}
                                <a
                                target="_blank"
                                rel="noopener noreferrer"
@@ -66,8 +72,9 @@ const fr = () => {
                                title="List of products report"
                                >
                                https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products
-                               </a>
-                           </p>
+                               </a>{" "} 
+                                [en anglais].
+                            </p>
                        </div>
                    </StaticData>
                );

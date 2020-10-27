@@ -216,34 +216,11 @@ const fr = () => {
                             title="projet de la CSRI"
                         >
                             projet de la CSRI
-                        </a>
+                        </a>{" "}
                      
                     a abouti &agrave; une r&eacute;vision de l&rsquo;ensemble de principes de m&eacute;canismes efficaces de 
                     r&eacute;clamation, inclus dans le Principe 31 des Principes directeurs de l&rsquo;ONU : crit&egrave;res 
                     d'efficacit&eacute; des m&eacute;canismes de r&eacute;clamation non judiciaires:
-
-                    En 2009-2010, l&rsquo;Initiative de responsabilit&eacute;
-                    sociale des entreprises (CSRI) de la Kennedy School de
-                    Harvard a examin&eacute; des projets pilotes
-                    command&eacute;s par le Repr&eacute;sentant sp&eacute;cial
-                    du Secr&eacute;taire g&eacute;n&eacute;ral des Nations Unies
-                    pour les entreprises et les droits de l&rsquo;homme. Ces
-                    projets pilotes &eacute;taient centr&eacute;s sur la mise
-                    &agrave; l&apos;essai des m&eacute;canismes de
-                    r&eacute;clamation relatives aux entreprises commerciales et
-                    aux communaut&eacute;s dans lesquelles elles op&egrave;rent.
-                    Le{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/report_46_GM_pilots.pdf"
-                        title="Projet CSRI"
-                    >
-                        projet CSRI
-                    </a>{" "}
-                    a abouti &agrave; un ensemble de principes
-                    r&eacute;vis&eacute;s pour des m&eacute;canismes de
-                    r&eacute;clamation efficaces:
                 </p>
                 <ol type="a">
                     <li>

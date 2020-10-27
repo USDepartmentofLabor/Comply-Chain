@@ -50,7 +50,7 @@ const fr = () => {
                         Les opportunit&eacute;s de donner des avis, y compris les m&eacute;canismes de r&eacute;clamation.
                     </li>
                 </ul>
-                <h2>Internes</h2>
+                <h2>Interne</h2>
                 <Accordion id="what-topic-cover">
                 <Accordion.Section id="soc-comp-team">
                     <Accordion.Title>
