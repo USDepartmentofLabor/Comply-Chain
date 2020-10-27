@@ -260,10 +260,10 @@ const fr = () => {
                                     >
                                         Loi sur la facilitation et
                                         l&rsquo;application des &eacute;changes
-                                        commerciaux de&nbsp;2015
-                                    </a>{" "}
-                                    (Trade Facilitation and Trade Enforcement
-                                    Act), entr&eacute;e en vigueur en
+                                        commerciaux de&nbsp;2015 (Trade Facilitation and Trade Enforcement
+                                                                                                     Act)
+                                    </a>
+                                    , entr&eacute;e en vigueur en
                                     mars&nbsp;2016, a renforc&eacute; une
                                     interdiction d&eacute;j&agrave; en place sur
                                     l&rsquo;importation des marchandises
