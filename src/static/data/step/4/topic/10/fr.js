@@ -80,7 +80,14 @@ const fr = () => {
                                         Comment un examen approfondi de notre chaîne d&apos;approvisionnement a conduit à une nouvelle norme
                                         pour les travailleurs migrants
                                         </a>
-                                        {" "}[en anglais], 2015 disponible [en anglais] sur https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html.
+                                        {" "}[en anglais], 2015 disponible [en anglais] sur{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html"
+                                        >
+                                        https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html
+                                        </a>.
                                         </p>
                                     </OwnWords>
             </div>

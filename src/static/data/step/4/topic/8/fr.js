@@ -134,7 +134,14 @@ const fr = () => {
                     r&eacute;ussites et les domaines de perfectionnement.
                 </p>
                 <p>
-                    Source [en anglais] : https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains.
+                    Source [en anglais] :{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains"
+                    >
+                    https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains
+                    </a>.
                 </p>
                 <p>
                     <em>

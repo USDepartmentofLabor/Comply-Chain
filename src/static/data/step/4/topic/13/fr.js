@@ -83,14 +83,14 @@ const fr = () => {
                                         conditions de travail (de mani&egrave;re &agrave;
                                         faciliter l&rsquo;&eacute;radication de la
                                         pauvret&eacute;). En r&eacute;compense de ses efforts,
-                                        il a re&ccedil;u le prix{" "}
+                                        il a re&ccedil;u le{" "}
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             href="https://www.dol.gov/agencies/ilab/issues/child-labor/iqbal"
                                             title="Prix Iqbal Masih"
                                         >
-                                            Iqbal Masih
+                                            prix Iqbal Masih
                                         </a>{" "}
                                         2013 du d&eacute;partement du Travail. Depuis 1995, le
                                         d&eacute;partement du Travail soutient les efforts
@@ -268,7 +268,16 @@ const fr = () => {
                                         la société a élargi le programme à d’autres sites afin de toucher davantage de femmes, notamment dans les communautés
                                         rurales, les établissements universitaires et professionnels, les centres de secours d’urgence et d’autres encore.
                                         P.A.C.E. est actuellement en vigueur dans 17 pays et a touché plus de 500 000 femmes. Par ailleurs, Gap Inc. a créé
-                                        un partenariat avec Empower@Work, effort de l’ensemble du secteur qui cherche à faire profiter de ce type de
+                                        un partenariat avec{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href=""
+                                            title="Empower@Work"
+                                        >
+                                        Empower@Work
+                                        </a>
+                                        , effort de l’ensemble du secteur qui cherche à faire profiter de ce type de
                                         formation à bien d’autres femmes de la chaîne d&apos;approvisionnement de l’habillement au niveau mondial.
                                     </p>
                                     <p>

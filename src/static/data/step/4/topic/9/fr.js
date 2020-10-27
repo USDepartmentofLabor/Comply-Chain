@@ -43,8 +43,22 @@ const fr = () => {
                 fournisseurs et que vous souhaitez évaluer leurs risques existants, les
                 rapports réalisés sur ces fournisseurs par d&apos;autres entreprises ou
                 groupes offrent une source très utile de données. Il peut être nécessaire,
-                pour y avoir accès, de rejoindre un groupe tel que le Supplier Ethical Data
-                Exchange (SEDEX)* et Fair Factories Clearinghouse,*, qui fournissent une
+                pour y avoir accès, de rejoindre un groupe tel que le{" "}
+                <a
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     href="https://www.sedexglobal.com/"
+                 >
+                Supplier Ethical Data
+                Exchange (SEDEX)*</a>
+                {""}et{" "}
+                <a
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     href="https://www.fairfactories.org/"
+                 >
+                Fair Factories Clearinghouse
+                </a>,*, qui fournissent une
                 plateforme de partage des informations sur des fournisseurs communs et de
                 collaboration sur les efforts de surveillance et de réparation.
                 </p>
@@ -206,7 +220,7 @@ const fr = () => {
                    <Accordion id="cocoa-chains-acc">
                                    <Accordion.Section id="cocoa-description">
                                       <Accordion.Title>
-                                     Initiatives existantes
+                                     Initiatives et organisations existantes
                                          </Accordion.Title>
                                          <Accordion.Panel>
 
@@ -215,27 +229,6 @@ const fr = () => {
                                          contre les violations des droits du travail, telles que le
                                          travail des enfants et le travail forc&eacute;, dans cette
                                          industrie ou dans cette r&eacute;gion?
-                                     </p>
-
-                                     <p>
-                                         Pour avoir une id&eacute;e de l&rsquo;application de cette
-                                         approche g&eacute;n&eacute;rale &agrave; un secteur
-                                         particulier, l&rsquo;
-                                         <a
-                                             target="_blank"
-                                             rel="noopener noreferrer"
-                                             href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
-                                             title="Outil d&rsquo;approvisionnement responsable&nbsp;des produits de la mer&nbsp;4: Collecte d&rsquo;information et &eacute;valuation des risques dans les cha&icirc;nes d&rsquo;approvisionnement des produits de la mer"
-                                         >
-                                             Outil d&rsquo;approvisionnement responsable des produits
-                                             de la mer&nbsp;4: Collecte d&rsquo;information et
-                                             &eacute;valuation des risques dans les cha&icirc;nes
-                                             d&rsquo;approvisionnement des produits de la mer
-                                         </a>{" "}
-                                         [en anglais] adopte une approche &eacute;tape par
-                                         &eacute;tape de l&rsquo;examen des risques bas&eacute;s sur
-                                         les pays, les cha&icirc;nes d&rsquo;approvisionnement et les
-                                         fournisseurs.&nbsp;
                                      </p>
                                      </Accordion.Panel>
                                  </Accordion.Section>
@@ -256,12 +249,7 @@ const fr = () => {
                                  </Accordion.Panel>
                              </Accordion.Section>
                              </Accordion>
-                        <Accordion id="Suite-acc">
-                                   <Accordion.Section id="suite-description">
-                                      <Accordion.Title>
-                                     Suite
-                                         </Accordion.Title>
-                                         <Accordion.Panel>
+
                                     <p>
                                          Pour avoir une id&eacute;e de l&rsquo;application de cette
                                          approche g&eacute;n&eacute;rale &agrave; un secteur
@@ -282,9 +270,7 @@ const fr = () => {
                                          les pays, les cha&icirc;nes d&rsquo;approvisionnement et les
                                          fournisseurs.&nbsp;
                                      </p>
-                                     </Accordion.Panel>
-                                 </Accordion.Section>
-                                 </Accordion>
+
                   <br />
                 <ExampleInAction id="fish">
                     <h2>
@@ -523,7 +509,14 @@ const fr = () => {
                         >
                             Politique et procédures environnementales et sociales
                         </a>{" "}
-                        2020, disponible [en anglais] sur https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf.
+                        2020, disponible [en anglais] sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
+                        >
+                        https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf
+                        </a>.
                     </p>
                 </OwnWords>
             </div>

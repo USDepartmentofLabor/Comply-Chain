@@ -139,9 +139,15 @@ const fr = () => {
                     aux normes internationales telles que le Guide OCDE sur le devoir de diligence pour des chaînes
                     d&apos;approvisionnement responsables en minerais provenant de zones de conflit ou à haut risque.
                     </p>
-                    <p>Source [en anglais] : http://www.responsiblemineralsinitiative.org/.</p>
+                    <p>Source [en anglais] :{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.responsiblemineralsinitiative.org/"
+                    >
+                    http://www.responsiblemineralsinitiative.org/
+                    </a>.</p>
                 </ExampleInAction>
-                <h3><em>Suite</em></h3>
                 <p>
                     Vos réponses aux informations de l&apos;évaluation des risques et des incidences devraient être centrées sur
                     les incidences sur les travailleurs. Aux premiers jours de la conformité sociale, les entreprises qui identifiaient
@@ -208,9 +214,15 @@ const fr = () => {
                         </a>
                          {" "}et améliorer les conditions de travail et d’existence dans la région.
                     </p>
-                    <p>Source : https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica.</p>
+                    <p>Source :{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica"
+                    >
+                    https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica
+                    </a>.</p>
                 </ExampleInAction>
-                <h3><em>Suite</em></h3>
                 <p>
                     Le renforcement des capacit&eacute;s et des relations
                     comporte d&apos;ordinaire un certain investissement de

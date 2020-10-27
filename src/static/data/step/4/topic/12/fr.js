@@ -28,7 +28,7 @@ const fr = () => {
                                     syst&egrave;me international. En&nbsp;2015, les &Eacute;tats
                                     membres des Nations Unies ont adopt&eacute; les Objectifs de
                                     d&eacute;veloppement durable (ODD), feuille de route visant
-                                    &agrave; &eacute;liminer la pauvret&eacute;, &agrave;
+                                    &agrave; &eacute;liminer la <b>pauvret&eacute;</b>, &agrave;
                                     prot&eacute;ger l&rsquo;environnement et &agrave; encourager
                                     des soci&eacute;t&eacute;s pacifiques, inclusives et justes
                                     d&rsquo;ici&nbsp;2030. Sur les 17&nbsp;objectifs, le 8
