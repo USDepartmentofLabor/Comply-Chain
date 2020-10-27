@@ -615,7 +615,8 @@ const en = () => {
                         <tr>
                         <th scope="row">Supplier or recruiter has possession of workers&rsquo; identity or travel documents.</th>
                             <td>
-                                <p id="P1">
+                                {/* <p id="P1"> */}
+                                <p>
                                     Suppliers should never confiscate or take
                                     control of workers&rsquo; identity or travel
                                     documents unless it is purely for
@@ -635,13 +636,29 @@ const en = () => {
                         <tr>
                         <th scope="row">Employer restricts workers&rsquo; communication.</th>
                             <td>
-                                <p><a href="#P1">See above.</a></p>
+                                {/* <p><a href="#P1">See above.</a></p> */}
+                                <p>
+                                <abbr title="Suppliers should never confiscate or take
+                                    control of workers&rsquo; identity or travel
+                                    documents unless it is purely for
+                                    safekeeping purposes, and then only if
+                                    workers are able to retrieve their documents
+                                    promptly upon request. Require the supplier
+                                    to return all workers&rsquo; identity
+                                    documents. If workers prefer that the
+                                    supplier hold them for safekeeping, ensure
+                                    that a policy is in place for retrieval of
+                                    documents and that all workers are aware of
+                                    the policy. Follow up to check on the issue
+                                    through an unannounced audit.">See above.</abbr> 
+                                </p>
                             </td>
                         </tr>
                         <tr>
                         <th scope="row">Employer threatens to turn workers in to immigration authorities.</th>
                             <td>
-                                <p id="P2">
+                                {/* <p id="P2"> */}
+                                <p>
                                     In any situation of violence, penalty,
                                     intimidation or threat, determine
                                     who&mdash;management, supervisors, shift
@@ -672,33 +689,173 @@ const en = () => {
                         <tr>
                         <th scope="row">Employer perpetrates or threatens physical or sexual violence.</th>
                             <td>
-                                <p><a href="#P2">See above.</a></p>
+                                {/* <p><a href="#P2">See above.</a></p> */}
+                                <p>
+                                    <abbr title="
+                                    In any situation of violence, penalty,
+                                    intimidation or threat, determine
+                                    who&mdash;management, supervisors, shift
+                                    leaders, etc. &mdash;are involved in these
+                                    violations. If individuals were acting on
+                                    their own without management knowledge, take
+                                    appropriate action with these individuals,
+                                    which could include training, suspension or
+                                    termination.
+                                    If these penalties, threats, etc., were
+                                    initiated by management or if management was
+                                    complicit, terminate the relationship with
+                                    the supplier or provide the supplier a short
+                                    window of time to end all such practices.
+                                    Ensure that all workers receive training on
+                                    their rights under the law and your code of
+                                    conduct, including channels for grievances.
+                                    Ensure that workers who wish to leave the
+                                    job are able to do so and receive their full
+                                    wages due. Follow up with unannounced audits
+                                    that include off-site interviews with
+                                    workers and knowledgeable community members.
+                                    ">
+                                        See above.
+                                    </abbr>
+                                </p>
                             </td>
                         </tr>
                         <tr>
                         <th scope="row">Employer or recruiter threatens to remove privileges like promotion potential, threatens further deterioration in working
                                         conditions or threatens to fire workers.</th>
                             <td>
-                                <p><a href="#P2">See above.</a></p>
+                                {/* <p><a href="#P2">See above.</a></p> */}
+                                <p>
+                                    <abbr title="
+                                    In any situation of violence, penalty,
+                                    intimidation or threat, determine
+                                    who&mdash;management, supervisors, shift
+                                    leaders, etc. &mdash;are involved in these
+                                    violations. If individuals were acting on
+                                    their own without management knowledge, take
+                                    appropriate action with these individuals,
+                                    which could include training, suspension or
+                                    termination.
+                                    If these penalties, threats, etc., were
+                                    initiated by management or if management was
+                                    complicit, terminate the relationship with
+                                    the supplier or provide the supplier a short
+                                    window of time to end all such practices.
+                                    Ensure that all workers receive training on
+                                    their rights under the law and your code of
+                                    conduct, including channels for grievances.
+                                    Ensure that workers who wish to leave the
+                                    job are able to do so and receive their full
+                                    wages due. Follow up with unannounced audits
+                                    that include off-site interviews with
+                                    workers and knowledgeable community members.
+                                    ">
+                                        See above.
+                                    </abbr>
+                                </p>
                             </td>
                         </tr>
                         <tr>
                         <th scope="row">Employer or recruiter exploits religious or cultural beliefs of workers.</th>
                             <td>
-                                <p><a href="#P2">See above.</a></p>
+                                {/* <p><a href="#P2">See above.</a></p> */}
+                                <p>
+                                    <abbr title="
+                                    In any situation of violence, penalty,
+                                    intimidation or threat, determine
+                                    who&mdash;management, supervisors, shift
+                                    leaders, etc. &mdash;are involved in these
+                                    violations. If individuals were acting on
+                                    their own without management knowledge, take
+                                    appropriate action with these individuals,
+                                    which could include training, suspension or
+                                    termination.
+                                    If these penalties, threats, etc., were
+                                    initiated by management or if management was
+                                    complicit, terminate the relationship with
+                                    the supplier or provide the supplier a short
+                                    window of time to end all such practices.
+                                    Ensure that all workers receive training on
+                                    their rights under the law and your code of
+                                    conduct, including channels for grievances.
+                                    Ensure that workers who wish to leave the
+                                    job are able to do so and receive their full
+                                    wages due. Follow up with unannounced audits
+                                    that include off-site interviews with
+                                    workers and knowledgeable community members.
+                                    ">
+                                        See above.
+                                    </abbr>
+                                </p>
                             </td>
                         </tr>
                         <tr>
                         <th scope="row">Employer or recruiter withholds workers&rsquo; pay or assets or threatens financial penalties.</th>
                             <td>
-                                <p><a href="#P2">See above.</a></p>
+                                {/* <p><a href="#P2">See above.</a></p> */}
+                                <p>
+                                    <abbr title="
+                                    In any situation of violence, penalty,
+                                    intimidation or threat, determine
+                                    who&mdash;management, supervisors, shift
+                                    leaders, etc. &mdash;are involved in these
+                                    violations. If individuals were acting on
+                                    their own without management knowledge, take
+                                    appropriate action with these individuals,
+                                    which could include training, suspension or
+                                    termination.
+                                    If these penalties, threats, etc., were
+                                    initiated by management or if management was
+                                    complicit, terminate the relationship with
+                                    the supplier or provide the supplier a short
+                                    window of time to end all such practices.
+                                    Ensure that all workers receive training on
+                                    their rights under the law and your code of
+                                    conduct, including channels for grievances.
+                                    Ensure that workers who wish to leave the
+                                    job are able to do so and receive their full
+                                    wages due. Follow up with unannounced audits
+                                    that include off-site interviews with
+                                    workers and knowledgeable community members.
+                                    ">
+                                        See above.
+                                    </abbr>
+                                </p>
                             </td>
                         </tr>
                         <tr>
                         <th scope="row">Employer threatens extra work for uncooperative workers.
                         Employer uses blackmail to coerce workers.</th>
                             <td>
-                                <p><a href="#P2">See above.</a></p>
+                                {/* <p><a href="#P2">See above.</a></p> */}
+                                <p>
+                                    <abbr title="
+                                    In any situation of violence, penalty,
+                                    intimidation or threat, determine
+                                    who&mdash;management, supervisors, shift
+                                    leaders, etc. &mdash;are involved in these
+                                    violations. If individuals were acting on
+                                    their own without management knowledge, take
+                                    appropriate action with these individuals,
+                                    which could include training, suspension or
+                                    termination.
+                                    If these penalties, threats, etc., were
+                                    initiated by management or if management was
+                                    complicit, terminate the relationship with
+                                    the supplier or provide the supplier a short
+                                    window of time to end all such practices.
+                                    Ensure that all workers receive training on
+                                    their rights under the law and your code of
+                                    conduct, including channels for grievances.
+                                    Ensure that workers who wish to leave the
+                                    job are able to do so and receive their full
+                                    wages due. Follow up with unannounced audits
+                                    that include off-site interviews with
+                                    workers and knowledgeable community members.
+                                    ">
+                                        See above.
+                                    </abbr>
+                                </p>
                             </td>
                         </tr>
                     </tbody>

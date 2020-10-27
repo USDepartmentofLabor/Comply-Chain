@@ -4,7 +4,7 @@ import StaticData from "../../../../../../components/StaticData";
 import styled from "styled-components";
 import { theme } from "../../../../../../modules/config/theme";
 import Accordion from "../../../../../../components/Accordion"; 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Table = styled.table`
     border-collapse: collapse;
@@ -532,7 +532,8 @@ const es = () => {
                         <tr>
                         <th scope="row">El proveedor o reclutador tiene en su poder los documentos de identidad o de viaje de los trabajadores.</th>
                             <td>
-                                <p id='P1'>
+                                {/* <p id='P1'> */}
+                                <p>
                                 Los proveedores nunca deben confiscar ni tener en su poder los documentos de identidad o 
                                 de viaje de los trabajadores a menos que sea exclusivamente con el fin de guardarlos e 
                                 incluso as&iacute;, &uacute;nicamente si los trabajadores pueden recuperarlos con rapidez 
@@ -549,30 +550,43 @@ const es = () => {
                             <td>
                                 {/* <p><a href="#P1">V&eacute;ase arriba.</a></p> */}
                                 <p>
-                                <Link to="/steps/8/topic/3/#P1">
+                                {/* <Link to="/steps/8/topic/3/#P1">
                                 V&eacute;ase arriba.
-                                </Link>
+                                </Link> */}
+                                <abbr title="
+                                Los proveedores nunca deben confiscar ni tener en su poder los documentos de identidad o 
+                                de viaje de los trabajadores a menos que sea exclusivamente con el fin de guardarlos e 
+                                incluso as&iacute;, &uacute;nicamente si los trabajadores pueden recuperarlos con rapidez 
+                                al solicitarlo. Exigir que el proveedor devuelva todos los documentos de identidad a los 
+                                trabajadores. Si los trabajadores prefieren que el proveedor los retenga para guardarlos, 
+                                cerciorarse de que se disponga de una pol&iacute;tica para recuperar los documentos y que 
+                                todos los trabajadores tengan conocimiento de tal pol&iacute;tica. Dar seguimiento al tema 
+                                con una auditor&iacute;a no anunciada.
+                                ">
+                                    V&eacute;ase arriba.
+                                    </abbr> 
                                 </p>
                             </td>
                         </tr>
                         <tr>
                         <th scope="row">El empleador amenaza con entregar a los trabajadores a las autoridades inmigratorias.</th>
                             <td>
-                                <p id="P2">
-                                En cualquier situaci&oacute;n de violencia, sanci&oacute;n, intimidaci&oacute;n o amenaza, 
-                                determinar qui&eacute;nes son las partes involucradas en la infracci&oacute;n (la gerencia, 
-                                los supervisores, los jefes de turno, etc.). Si las personas actuaban por su cuenta sin 
-                                conocimiento de la gerencia, tomar las medidas adecuadas con ellas, como la capacitaci&oacute;n, 
-                                la suspensi&oacute;n o el despido.
+                                {/* <p id="P2"> */}
+                                <p>
+                                    En cualquier situaci&oacute;n de violencia, sanci&oacute;n, intimidaci&oacute;n o amenaza, 
+                                    determinar qui&eacute;nes son las partes involucradas en la infracci&oacute;n (la gerencia, 
+                                    los supervisores, los jefes de turno, etc.). Si las personas actuaban por su cuenta sin 
+                                    conocimiento de la gerencia, tomar las medidas adecuadas con ellas, como la capacitaci&oacute;n, 
+                                    la suspensi&oacute;n o el despido.
                                 </p>
                                 <p>
-                                Si las sanciones, amenazas, etc. provienen de la gerencia o si esta era c&oacute;mplice, 
-                                desvincularse del proveedor u otorgarle un plazo corto para poner fin a todas esas pr&aacute;cticas. 
-                                Cerciorarse de que todos los trabajadores reciban capacitaci&oacute;n en los derechos que les 
-                                confiere la ley, incluidos los mecanismos de reclamaci&oacute;n. Cerciorarse de que todos los 
-                                trabajadores que deseen irse del trabajo puedan hacerlo y percibir la totalidad del sueldo que se 
-                                les adeuda. Dar seguimiento con auditor&iacute;as no anunciadas que incluyan entrevistas fuera del 
-                                lugar de trabajo a los trabajadores u otros integrantes de la comunidad que est&eacute;n al tanto.
+                                    Si las sanciones, amenazas, etc. provienen de la gerencia o si esta era c&oacute;mplice, 
+                                    desvincularse del proveedor u otorgarle un plazo corto para poner fin a todas esas pr&aacute;cticas. 
+                                    Cerciorarse de que todos los trabajadores reciban capacitaci&oacute;n en los derechos que les 
+                                    confiere la ley, incluidos los mecanismos de reclamaci&oacute;n. Cerciorarse de que todos los 
+                                    trabajadores que deseen irse del trabajo puedan hacerlo y percibir la totalidad del sueldo que se 
+                                    les adeuda. Dar seguimiento con auditor&iacute;as no anunciadas que incluyan entrevistas fuera del 
+                                    lugar de trabajo a los trabajadores u otros integrantes de la comunidad que est&eacute;n al tanto.
                                 </p>
                             </td>
                         </tr>
@@ -581,9 +595,25 @@ const es = () => {
                             <td>
                                 {/* <p><a href="#P2">V&eacute;ase arriba.</a></p> */}
                                 <p>
-                                <Link to="/steps/8/topic/3/#P2">
+                                {/* <Link to="/steps/8/topic/3/#P2">
                                 V&eacute;ase arriba.
-                                </Link>
+                                </Link> */}
+                                <abbr title="
+                                En cualquier situaci&oacute;n de violencia, sanci&oacute;n, intimidaci&oacute;n o amenaza, 
+                                determinar qui&eacute;nes son las partes involucradas en la infracci&oacute;n (la gerencia, 
+                                los supervisores, los jefes de turno, etc.). Si las personas actuaban por su cuenta sin 
+                                conocimiento de la gerencia, tomar las medidas adecuadas con ellas, como la capacitaci&oacute;n, 
+                                la suspensi&oacute;n o el despido.
+                                Si las sanciones, amenazas, etc. provienen de la gerencia o si esta era c&oacute;mplice, 
+                                desvincularse del proveedor u otorgarle un plazo corto para poner fin a todas esas pr&aacute;cticas. 
+                                Cerciorarse de que todos los trabajadores reciban capacitaci&oacute;n en los derechos que les 
+                                confiere la ley, incluidos los mecanismos de reclamaci&oacute;n. Cerciorarse de que todos los 
+                                trabajadores que deseen irse del trabajo puedan hacerlo y percibir la totalidad del sueldo que se 
+                                les adeuda. Dar seguimiento con auditor&iacute;as no anunciadas que incluyan entrevistas fuera del 
+                                lugar de trabajo a los trabajadores u otros integrantes de la comunidad que est&eacute;n al tanto.
+                                ">
+                                    V&eacute;ase arriba.
+                                    </abbr> 
                                 </p>
                             </td>
                         </tr>
@@ -593,9 +623,25 @@ const es = () => {
                             <td>
                                 {/* <p><a href="#P2">V&eacute;ase arriba.</a></p> */}
                                 <p>
-                                <Link to="/steps/8/topic/3/#P2">
+                                {/* <Link to="/steps/8/topic/3/#P2">
                                 V&eacute;ase arriba.
-                                </Link>
+                                </Link> */}
+                                <abbr title="
+                                En cualquier situaci&oacute;n de violencia, sanci&oacute;n, intimidaci&oacute;n o amenaza, 
+                                determinar qui&eacute;nes son las partes involucradas en la infracci&oacute;n (la gerencia, 
+                                los supervisores, los jefes de turno, etc.). Si las personas actuaban por su cuenta sin 
+                                conocimiento de la gerencia, tomar las medidas adecuadas con ellas, como la capacitaci&oacute;n, 
+                                la suspensi&oacute;n o el despido.
+                                Si las sanciones, amenazas, etc. provienen de la gerencia o si esta era c&oacute;mplice, 
+                                desvincularse del proveedor u otorgarle un plazo corto para poner fin a todas esas pr&aacute;cticas. 
+                                Cerciorarse de que todos los trabajadores reciban capacitaci&oacute;n en los derechos que les 
+                                confiere la ley, incluidos los mecanismos de reclamaci&oacute;n. Cerciorarse de que todos los 
+                                trabajadores que deseen irse del trabajo puedan hacerlo y percibir la totalidad del sueldo que se 
+                                les adeuda. Dar seguimiento con auditor&iacute;as no anunciadas que incluyan entrevistas fuera del 
+                                lugar de trabajo a los trabajadores u otros integrantes de la comunidad que est&eacute;n al tanto.
+                                ">
+                                    V&eacute;ase arriba.
+                                    </abbr> 
                                 </p>
                             </td>
                         </tr>
@@ -604,9 +650,25 @@ const es = () => {
                             <td>
                                 {/* <p><a href="#P2">V&eacute;ase arriba.</a></p> */}
                                 <p>
-                                <Link to="/steps/8/topic/3/#P2">
+                                {/* <Link to="/steps/8/topic/3/#P2">
                                 V&eacute;ase arriba.
-                                </Link>
+                                </Link> */}
+                                <abbr title="
+                                En cualquier situaci&oacute;n de violencia, sanci&oacute;n, intimidaci&oacute;n o amenaza, 
+                                determinar qui&eacute;nes son las partes involucradas en la infracci&oacute;n (la gerencia, 
+                                los supervisores, los jefes de turno, etc.). Si las personas actuaban por su cuenta sin 
+                                conocimiento de la gerencia, tomar las medidas adecuadas con ellas, como la capacitaci&oacute;n, 
+                                la suspensi&oacute;n o el despido.
+                                Si las sanciones, amenazas, etc. provienen de la gerencia o si esta era c&oacute;mplice, 
+                                desvincularse del proveedor u otorgarle un plazo corto para poner fin a todas esas pr&aacute;cticas. 
+                                Cerciorarse de que todos los trabajadores reciban capacitaci&oacute;n en los derechos que les 
+                                confiere la ley, incluidos los mecanismos de reclamaci&oacute;n. Cerciorarse de que todos los 
+                                trabajadores que deseen irse del trabajo puedan hacerlo y percibir la totalidad del sueldo que se 
+                                les adeuda. Dar seguimiento con auditor&iacute;as no anunciadas que incluyan entrevistas fuera del 
+                                lugar de trabajo a los trabajadores u otros integrantes de la comunidad que est&eacute;n al tanto.
+                                ">
+                                    V&eacute;ase arriba.
+                                    </abbr> 
                                 </p>
                             </td>
                         </tr>
@@ -616,9 +678,25 @@ const es = () => {
                             <td>
                                 {/* <p><a href="#P2">V&eacute;ase arriba.</a></p> */}
                                 <p>
-                                <Link to="/steps/8/topic/3/#P2">
+                                {/* <Link to="/steps/8/topic/3/#P2">
                                 V&eacute;ase arriba.
-                                </Link>
+                                </Link> */}
+                                <abbr title="
+                                En cualquier situaci&oacute;n de violencia, sanci&oacute;n, intimidaci&oacute;n o amenaza, 
+                                determinar qui&eacute;nes son las partes involucradas en la infracci&oacute;n (la gerencia, 
+                                los supervisores, los jefes de turno, etc.). Si las personas actuaban por su cuenta sin 
+                                conocimiento de la gerencia, tomar las medidas adecuadas con ellas, como la capacitaci&oacute;n, 
+                                la suspensi&oacute;n o el despido.
+                                Si las sanciones, amenazas, etc. provienen de la gerencia o si esta era c&oacute;mplice, 
+                                desvincularse del proveedor u otorgarle un plazo corto para poner fin a todas esas pr&aacute;cticas. 
+                                Cerciorarse de que todos los trabajadores reciban capacitaci&oacute;n en los derechos que les 
+                                confiere la ley, incluidos los mecanismos de reclamaci&oacute;n. Cerciorarse de que todos los 
+                                trabajadores que deseen irse del trabajo puedan hacerlo y percibir la totalidad del sueldo que se 
+                                les adeuda. Dar seguimiento con auditor&iacute;as no anunciadas que incluyan entrevistas fuera del 
+                                lugar de trabajo a los trabajadores u otros integrantes de la comunidad que est&eacute;n al tanto.
+                                ">
+                                    V&eacute;ase arriba.
+                                    </abbr> 
                                 </p>
                             </td>
                         </tr>
@@ -628,9 +706,25 @@ const es = () => {
                             <td>
                                 {/* <p><a href="#P2">V&eacute;ase arriba.</a></p> */}
                                 <p>
-                                <Link to="/steps/8/topic/3/#P2">
+                                {/* <Link to="/steps/8/topic/3/#P2">
                                 V&eacute;ase arriba.
-                                </Link>
+                                </Link> */}
+                                <abbr title="
+                                En cualquier situaci&oacute;n de violencia, sanci&oacute;n, intimidaci&oacute;n o amenaza, 
+                                determinar qui&eacute;nes son las partes involucradas en la infracci&oacute;n (la gerencia, 
+                                los supervisores, los jefes de turno, etc.). Si las personas actuaban por su cuenta sin 
+                                conocimiento de la gerencia, tomar las medidas adecuadas con ellas, como la capacitaci&oacute;n, 
+                                la suspensi&oacute;n o el despido.
+                                Si las sanciones, amenazas, etc. provienen de la gerencia o si esta era c&oacute;mplice, 
+                                desvincularse del proveedor u otorgarle un plazo corto para poner fin a todas esas pr&aacute;cticas. 
+                                Cerciorarse de que todos los trabajadores reciban capacitaci&oacute;n en los derechos que les 
+                                confiere la ley, incluidos los mecanismos de reclamaci&oacute;n. Cerciorarse de que todos los 
+                                trabajadores que deseen irse del trabajo puedan hacerlo y percibir la totalidad del sueldo que se 
+                                les adeuda. Dar seguimiento con auditor&iacute;as no anunciadas que incluyan entrevistas fuera del 
+                                lugar de trabajo a los trabajadores u otros integrantes de la comunidad que est&eacute;n al tanto.
+                                ">
+                                    V&eacute;ase arriba.
+                                    </abbr> 
                                 </p>
                             </td>
                         </tr>

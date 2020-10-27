@@ -555,7 +555,8 @@ const fr = () => {
                         <th scope="row">Fournisseur ou recruteur qui a en sa possession les pi&egrave;ces d'identit&eacute; ou les 
                         titres de voyage des travailleurs.</th>
                             <td>
-                                <p id="P1">
+                                {/* <p id="P1"> */}
+                                <p>
                                     Les fournisseurs ne devraient jamais confisquer ni prendre possession des pi&egrave;ces 
                                     d'identit&eacute;, ni des titres de voyage des travailleurs, sauf pour les mettre en lieu 
                                     s&ucirc;r, et uniquement si les travailleurs sont en mesure de r&eacute;cup&eacute;rer 
@@ -572,16 +573,30 @@ const fr = () => {
                         <th scope="row">Employeur qui restreint les communications des travailleurs.</th>
                             <td>
                                 <p>
-                                    <Link to="/steps/8/topic/3/#P1">
+                                    {/* <Link to="/steps/8/topic/3/#P1">
                                     Voir ci-dessus.
-                                    </Link>
+                                    </Link> */}
+                                    <abbr title="
+                                Les fournisseurs ne devraient jamais confisquer ni prendre possession des pi&egrave;ces 
+                                d'identit&eacute;, ni des titres de voyage des travailleurs, sauf pour les mettre en lieu 
+                                s&ucirc;r, et uniquement si les travailleurs sont en mesure de r&eacute;cup&eacute;rer 
+                                leurs documents &agrave; leur demande. Exiger que le fournisseur rende toutes les 
+                                pi&egrave;ces d'identit&eacute; des travailleurs. Si les travailleurs pr&eacute;f&egrave;rent 
+                                que le fournisseur les garde en lieu s&ucirc;r, s'assurer qu'il existe une politique pour la 
+                                r&eacute;cup&eacute;ration des documents et que tous les travailleurs la connaissent. Effectuer 
+                                un contr&ocirc;le ult&eacute;rieur sur cette question par l&rsquo;interm&eacute;diaire d'un 
+                                audit inopin&eacute;.
+                                ">
+                                    Voir ci-dessus.
+                                    </abbr> 
                                 </p>
                             </td>
                         </tr>
                         <tr>
                         <th scope="row">Employeur qui menace de remettre les travailleurs aux autorit&eacute;s d'immigration.</th>
                             <td>
-                                <p id="P2">
+                                {/* <p id="P2"> */}
+                                <p>
                                     Dans toute situation de violence, de sanction, d'intimidation ou de menace, d&eacute;terminer 
                                     qui (direction, contrema&icirc;tres, chefs d'&eacute;quipe, etc.) est impliqu&eacute; dans ces 
                                     violations. Si des personnes agissent de leur propre chef sans que la direction en soit 
@@ -604,9 +619,26 @@ const fr = () => {
                         <th scope="row">Employeur qui commet ou menace de commettre des violences physiques ou sexuelles.</th>
                             <td>
                                 <p>
-                                    <Link to="/steps/8/topic/3/#P2">
+                                    {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
-                                    </Link>
+                                    </Link> */}
+                                    <abbr title="
+                                    Dans toute situation de violence, de sanction, d'intimidation ou de menace, d&eacute;terminer 
+                                    qui (direction, contrema&icirc;tres, chefs d'&eacute;quipe, etc.) est impliqu&eacute; dans ces 
+                                    violations. Si des personnes agissent de leur propre chef sans que la direction en soit 
+                                    consciente, prendre les mesures appropri&eacute;es &agrave; leur &eacute;gard, ce qui pourrait 
+                                    comprendre une formation, une mise &agrave; pied ou un licenciement.
+                                    Si ces sanctions, menaces, etc. viennent de la direction ou si la direction est complice, mettre 
+                                    fin &agrave; la relation avec le fournisseur ou lui accorder de brefs d&eacute;lais pour cesser 
+                                    ces pratiques. S'assurer que tous les travailleurs re&ccedil;oivent une formation au sujet de 
+                                    leurs droits en vertu des lois et de votre code de conduite, y compris les voies de r&eacute;clamation. 
+                                    S'assurer que les travailleurs qui souhaitent quitter leur emploi peuvent le faire et qu'ils 
+                                    re&ccedil;oivent l'int&eacute;gralit&eacute; des salaires qui leur sont dus. Faire suivre d'audits 
+                                    inopin&eacute;s, qui comprennent des entretiens ext&eacute;rieurs avec les travailleurs et d'autres 
+                                    membres de la communaut&eacute; bien inform&eacute;s.
+                                    ">
+                                    Voir ci-dessus.
+                                    </abbr> 
                                 </p>
                             </td>
                         </tr>
@@ -615,9 +647,26 @@ const fr = () => {
                         promotion, de d&eacute;grader encore les conditions de travail ou de licencier des travailleurs.</th>
                             <td>
                                 <p>
-                                    <Link to="/steps/8/topic/3/#P2">
+                                    {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
-                                    </Link>
+                                    </Link> */}
+                                    <abbr title="
+                                    Dans toute situation de violence, de sanction, d'intimidation ou de menace, d&eacute;terminer 
+                                    qui (direction, contrema&icirc;tres, chefs d'&eacute;quipe, etc.) est impliqu&eacute; dans ces 
+                                    violations. Si des personnes agissent de leur propre chef sans que la direction en soit 
+                                    consciente, prendre les mesures appropri&eacute;es &agrave; leur &eacute;gard, ce qui pourrait 
+                                    comprendre une formation, une mise &agrave; pied ou un licenciement.
+                                    Si ces sanctions, menaces, etc. viennent de la direction ou si la direction est complice, mettre 
+                                    fin &agrave; la relation avec le fournisseur ou lui accorder de brefs d&eacute;lais pour cesser 
+                                    ces pratiques. S'assurer que tous les travailleurs re&ccedil;oivent une formation au sujet de 
+                                    leurs droits en vertu des lois et de votre code de conduite, y compris les voies de r&eacute;clamation. 
+                                    S'assurer que les travailleurs qui souhaitent quitter leur emploi peuvent le faire et qu'ils 
+                                    re&ccedil;oivent l'int&eacute;gralit&eacute; des salaires qui leur sont dus. Faire suivre d'audits 
+                                    inopin&eacute;s, qui comprennent des entretiens ext&eacute;rieurs avec les travailleurs et d'autres 
+                                    membres de la communaut&eacute; bien inform&eacute;s.
+                                    ">
+                                    Voir ci-dessus.
+                                    </abbr> 
                                 </p>
                             </td>
                         </tr>
@@ -625,9 +674,26 @@ const fr = () => {
                         <th scope="row">Employeur ou recruteur qui exploite les convictions religieuses ou culturelles des travailleurs.</th>
                             <td>
                                 <p>
-                                    <Link to="/steps/8/topic/3/#P2">
+                                    {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
-                                    </Link>
+                                    </Link> */}
+                                    <abbr title="
+                                    Dans toute situation de violence, de sanction, d'intimidation ou de menace, d&eacute;terminer 
+                                    qui (direction, contrema&icirc;tres, chefs d'&eacute;quipe, etc.) est impliqu&eacute; dans ces 
+                                    violations. Si des personnes agissent de leur propre chef sans que la direction en soit 
+                                    consciente, prendre les mesures appropri&eacute;es &agrave; leur &eacute;gard, ce qui pourrait 
+                                    comprendre une formation, une mise &agrave; pied ou un licenciement.
+                                    Si ces sanctions, menaces, etc. viennent de la direction ou si la direction est complice, mettre 
+                                    fin &agrave; la relation avec le fournisseur ou lui accorder de brefs d&eacute;lais pour cesser 
+                                    ces pratiques. S'assurer que tous les travailleurs re&ccedil;oivent une formation au sujet de 
+                                    leurs droits en vertu des lois et de votre code de conduite, y compris les voies de r&eacute;clamation. 
+                                    S'assurer que les travailleurs qui souhaitent quitter leur emploi peuvent le faire et qu'ils 
+                                    re&ccedil;oivent l'int&eacute;gralit&eacute; des salaires qui leur sont dus. Faire suivre d'audits 
+                                    inopin&eacute;s, qui comprennent des entretiens ext&eacute;rieurs avec les travailleurs et d'autres 
+                                    membres de la communaut&eacute; bien inform&eacute;s.
+                                    ">
+                                    Voir ci-dessus.
+                                    </abbr> 
                                 </p>
                             </td>
                         </tr>
@@ -635,9 +701,26 @@ const fr = () => {
                         <th scope="row">Employeur ou recruteur qui retient le salaire des travailleurs ou leurs biens, ou les menace de sanctions financi&egrave;res.</th>
                             <td>
                                 <p>
-                                    <Link to="/steps/8/topic/3/#P2">
+                                    {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
-                                    </Link>
+                                    </Link> */}
+                                    <abbr title="
+                                    Dans toute situation de violence, de sanction, d'intimidation ou de menace, d&eacute;terminer 
+                                    qui (direction, contrema&icirc;tres, chefs d'&eacute;quipe, etc.) est impliqu&eacute; dans ces 
+                                    violations. Si des personnes agissent de leur propre chef sans que la direction en soit 
+                                    consciente, prendre les mesures appropri&eacute;es &agrave; leur &eacute;gard, ce qui pourrait 
+                                    comprendre une formation, une mise &agrave; pied ou un licenciement.
+                                    Si ces sanctions, menaces, etc. viennent de la direction ou si la direction est complice, mettre 
+                                    fin &agrave; la relation avec le fournisseur ou lui accorder de brefs d&eacute;lais pour cesser 
+                                    ces pratiques. S'assurer que tous les travailleurs re&ccedil;oivent une formation au sujet de 
+                                    leurs droits en vertu des lois et de votre code de conduite, y compris les voies de r&eacute;clamation. 
+                                    S'assurer que les travailleurs qui souhaitent quitter leur emploi peuvent le faire et qu'ils 
+                                    re&ccedil;oivent l'int&eacute;gralit&eacute; des salaires qui leur sont dus. Faire suivre d'audits 
+                                    inopin&eacute;s, qui comprennent des entretiens ext&eacute;rieurs avec les travailleurs et d'autres 
+                                    membres de la communaut&eacute; bien inform&eacute;s.
+                                    ">
+                                    Voir ci-dessus.
+                                    </abbr> 
                                 </p>
                             </td>
                         </tr>
@@ -650,7 +733,23 @@ const fr = () => {
                                     {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
                                     </Link> */}
+                                    <abbr title="
+                                    Dans toute situation de violence, de sanction, d'intimidation ou de menace, d&eacute;terminer 
+                                    qui (direction, contrema&icirc;tres, chefs d'&eacute;quipe, etc.) est impliqu&eacute; dans ces 
+                                    violations. Si des personnes agissent de leur propre chef sans que la direction en soit 
+                                    consciente, prendre les mesures appropri&eacute;es &agrave; leur &eacute;gard, ce qui pourrait 
+                                    comprendre une formation, une mise &agrave; pied ou un licenciement.
+                                    Si ces sanctions, menaces, etc. viennent de la direction ou si la direction est complice, mettre 
+                                    fin &agrave; la relation avec le fournisseur ou lui accorder de brefs d&eacute;lais pour cesser 
+                                    ces pratiques. S'assurer que tous les travailleurs re&ccedil;oivent une formation au sujet de 
+                                    leurs droits en vertu des lois et de votre code de conduite, y compris les voies de r&eacute;clamation. 
+                                    S'assurer que les travailleurs qui souhaitent quitter leur emploi peuvent le faire et qu'ils 
+                                    re&ccedil;oivent l'int&eacute;gralit&eacute; des salaires qui leur sont dus. Faire suivre d'audits 
+                                    inopin&eacute;s, qui comprennent des entretiens ext&eacute;rieurs avec les travailleurs et d'autres 
+                                    membres de la communaut&eacute; bien inform&eacute;s.
+                                    ">
                                     Voir ci-dessus.
+                                    </abbr> 
                                 </p>
                             </td>
                         </tr>
