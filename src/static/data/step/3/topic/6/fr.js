@@ -152,7 +152,14 @@ const fr = () => {
                                 domicile en Afghanistan
                             </em>
                         </a>
-                        <em>, </em> financé par le département du Travail des États-Unis et mis en œuvre par GoodWeave sur https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan [en anglais].
+                        <em>, </em> financé par le département du Travail des États-Unis et mis en œuvre par GoodWeave sur
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan"
+                        >
+                        https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan
+                        </a>{" "}[en anglais].
                     </p>
                     <img src={goodweave} alt="GoodWeave International" />
                     <p className="small-text">

@@ -104,7 +104,14 @@ const fr = () => {
                         soci&eacute;t&eacute;s et organisations pertinentes
                         rejoignent constamment la plateforme.
                     </p>
-                    <p>Source : https://www.ilo.org/ipec/projects/global/WCMS_390400/lang--fr/index.htm.</p>
+                    <p>Source :{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ilo.org/ipec/projects/global/WCMS_390400/lang--fr/index.htm"
+                    >
+                    https://www.ilo.org/ipec/projects/global/WCMS_390400/lang--fr/index.htm
+                    </a>.</p>
                 </ExampleInAction>
                 <br />
                 <ExampleInAction id="gbn">

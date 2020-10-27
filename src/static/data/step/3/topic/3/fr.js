@@ -532,16 +532,18 @@ const fr = () => {
                         et 6&nbsp;associations commerciales membres.
                     </p>
                     <p>
-                        Pour plus d&apos;informations, voir le{" "}
+                        Pour plus d&apos;informations, voir le
+                            site Web
+
+                        d&rsquo;InPACTO:{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.inpacto.org.br/en/"
+                            href="http://inpacto.org.br/"
                             title="Site Web d&rsquo;InPACTO"
                         >
-                            site Web
-                        </a>{" "}
-                        d&rsquo;InPACTO: http://inpacto.org.br/
+                        http://inpacto.org.br/
+                        </a>
                     </p>
                 </ExampleInAction>
                 <p>

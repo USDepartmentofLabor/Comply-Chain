@@ -76,7 +76,14 @@ const fr = () => {
                         </a>
                         {" "}et au Turkménistan.
                     </p>
-                    <p>Source : http://www.sourcingnetwork.org/.</p>
+                    <p>Source :{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.sourcingnetwork.org/"
+                    >
+                    http://www.sourcingnetwork.org/
+                    </a>.</p>
                 </ExampleInAction>
                 <br />
                 <ExampleInAction id="res_min_trade">
@@ -133,7 +140,13 @@ const fr = () => {
                         interne entre les membres et pour diffuser les informations sur les activités menées par ce
                         groupe à plusieurs parties prenantes.
                     </p>
-                    <p>Source : http://www.resolve.org/site-ppa/.</p>
+                    <p>Source :{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.resolve.org/site-ppa/"
+                    >
+                    http://www.resolve.org/site-ppa/</a>.</p>
                 </ExampleInAction>
                 <br />
                 <ExampleInAction id="sug_phil">
@@ -247,7 +260,14 @@ const fr = () => {
                         &copy;Christopher Leones/ABK3 LEAP
                     </p>
                     <p>
-                    Source [en anglais] : https://www.dol.gov/agencies/ilab/abk3-leap-livelihoods-education-advocacy.
+                    Source [en anglais] :{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.dol.gov/agencies/ilab/abk3-leap-livelihoods-education-advocacy"
+                    >
+                    https://www.dol.gov/agencies/ilab/abk3-leap-livelihoods-education-advocacy
+                    </a>.
                     </p>
                 </ExampleInAction>
                 <br />
@@ -256,7 +276,7 @@ const fr = () => {
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Exemple d&apos;action: Groupe
-                            d&rsquo;innovation sur l&rsquo;huile de palme
+                            d&rsquo;innovation sur l&rsquo;huile de palme*
                         </strong>
                     </h2>
                     <p>
@@ -342,7 +362,14 @@ const fr = () => {
                         pourrait &ecirc;tre plus opportune.
                     </p>
                     <p>
-                    Source : http://poig.org/.
+                    Source :{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://poig.org/"
+                    >
+                    http://poig.org/
+                    </a>.
                     </p>
                 </ExampleInAction>
             </div>
