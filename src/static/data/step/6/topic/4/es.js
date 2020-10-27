@@ -99,6 +99,8 @@ const es = () => {
                     </p>
                     
                 </ExampleInAction>
+                <br />
+
                 <ExampleInAction id="iloscore">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
