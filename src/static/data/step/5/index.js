@@ -39,7 +39,7 @@ export const StepData = {
         furtherResources: Resources.es
     },
     fr: {
-        title: "Troisième étape: élaborer un code de conduite",
+        title: "3e étape : Élaborer un code de conduite",
         topics: Topics.fr,
         keywords: ["Code de conduite", "Code"],
         learningObjectives: [
