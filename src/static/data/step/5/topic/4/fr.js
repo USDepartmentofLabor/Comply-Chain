@@ -183,7 +183,7 @@ const fr = () => {
                             title="Institut pour les droits de l&rsquo;homme et les entreprises"
                         >
                             Institut pour les droits de l&rsquo;homme et les
-                            entreprises
+                            entreprises*
                         </a>{" "}
                         (IHRB), le Groupe de leadership appelle &agrave;
                         l&rsquo;inscription du Principe «&nbsp;C&rsquo;est
