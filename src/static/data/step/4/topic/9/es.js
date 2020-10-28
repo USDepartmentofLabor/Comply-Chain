@@ -441,7 +441,13 @@ const es = () => {
                         >
                            Environmental and Social Policy and Procedures
                         </a>
-                        &nbsp;, 2020; disponible en idioma inglés solamente en https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf{" "}.
+                        &nbsp;, 2020; disponible en idioma inglés solamente en{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
+                        >
+                        https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf</a>.
                     </p>
                 </OwnWords>
             </div>

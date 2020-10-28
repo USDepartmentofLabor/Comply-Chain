@@ -68,7 +68,14 @@ const es = () => {
                         </a>
                         .
                     </p>
-                    <p>Fuente: http://www.sourcingnetwork.org/.</p>
+                    <p>Fuente:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.sourcingnetwork.org/"
+                    >
+                    http://www.sourcingnetwork.org/
+                    </a>.</p>
                 </ExampleInAction>
                 <br />
                 <ExampleInAction id="res_min_trade">
@@ -117,7 +124,14 @@ const es = () => {
                         Además, debe contar con miembros definidos que tengan funciones y responsabilidades claras, así como mecanismos para facilitar la
                         comunicación interna entre los miembros y difundir información sobre las actividades que realiza el grupo con múltiples partes interesadas.
                     </p>
-                    <p>Fuente: http://www.resolv.org/site-ppa/.</p>
+                    <p>Fuente:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.resolv.org/site-ppa/"
+                    >
+                    http://www.resolv.org/site-ppa/
+                    </a>.</p>
                 </ExampleInAction>
                 <br />
                 <ExampleInAction id="sug_phil">
@@ -217,7 +231,14 @@ const es = () => {
                     <p className="small-text">
                         &copy;Christopher Leones/ABK3 LEAP
                     </p>
-                    <p>Fuente: https://www.dol.gov/agencies/ilab/abk3-leap-livelihoods-education-advocacy.</p>
+                    <p>Fuente:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.dol.gov/agencies/ilab/abk3-leap-livelihoods-education-advocacy"
+                    >
+                    https://www.dol.gov/agencies/ilab/abk3-leap-livelihoods-education-advocacy
+                    </a>.</p>
                 </ExampleInAction>
                 <br />
                 <ExampleInAction>
@@ -297,7 +318,14 @@ const es = () => {
                         d&eacute;cada y se prev&eacute; que continuar&aacute;
                         aumentando r&aacute;pidamente.
                     </p>
-                    <p>Fuente: http://poig.org/.</p>
+                    <p>Fuente:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://poig.org/"
+                    >
+                    http://poig.org/
+                    </a>.</p>
                 </ExampleInAction>
             </div>
         </StaticData>

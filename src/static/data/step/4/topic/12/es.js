@@ -156,9 +156,9 @@ const es = () => {
                                                  rel="noopener noreferrer"
                                                  href="https://www.dole.gov.ph/social-amelioration-program-sap-in-the-sugar-industry/"
                                              >
-                                                 Programa de Mejoramiento Social (SAP)
+                                                 Programa de Mejoramiento Social
                                              </a>
-                                             , mediante el que distribuye bonificaciones en efectivo
+                                             {" "}(Social Amelioration Program o SAP), mediante el que distribuye bonificaciones en efectivo
                                              a los trabajadores de la ca&ntilde;a de az&uacute;car a
                                              fin de aumentar sus ingresos, financia proyectos
                                              socioecon&oacute;micos y brinda otras prestaciones, como

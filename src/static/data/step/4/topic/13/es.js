@@ -208,7 +208,7 @@ const es = () => {
                             </h4>
                             <p>
                             Fundamentado en la creencia de que todas las mujeres merecen la oportunidad de alcanzar su
-                            pleno potencial, Gap Inc. originalmente lanzó el programa
+                            pleno potencial, Gap Inc. originalmente lanzó el programa{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -229,7 +229,14 @@ const es = () => {
                             llevó a otros lugares a fin de llegar a más mujeres, por ejemplo en zonas rurales, en instituciones
                             académicas y profesionales, en centros de socorro de emergencia y otros. P.A.C.E. actualmente se
                             utiliza en las fábricas de proveedores en 17 países y benefició a más de 500.000 mujeres. Además,
-                            Gap Inc. se asoció con Empower@Work, una iniciativa de toda la industria que procura llevar este tipo
+                            Gap Inc. se asoció con{" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href=""
+                            >
+                            Empower@Work
+                            </a>, una iniciativa de toda la industria que procura llevar este tipo
                             de capacitación a muchas más mujeres que trabajan en la cadena mundial de suministro de ropa.
                             </p>
                             <p>

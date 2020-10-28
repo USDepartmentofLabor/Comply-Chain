@@ -125,7 +125,14 @@ const es = () => {
                     la OCDE para Cadenas de Suministro Responsables de Minerales en las Áreas de Conflicto o de Alto Riesgo.
                     </p>
                     <p>
-                      Fuente: http://www.responsiblemineralsinitiative.org/.
+                      Fuente:{" "}
+                      <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="http://www.responsiblemineralsinitiative.org/"
+                      >
+                      http://www.responsiblemineralsinitiative.org/
+                      </a>.
                     </p>
                 </ExampleInAction>
                 <p>
@@ -200,7 +207,14 @@ const es = () => {
                     L’Oréal procura crear una cadena de suministro sostenible de la mica y mejorar las condiciones de vida y de trabajo en la región.
                     </p>
                     <p>
-                    Fuente: https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica.
+                    Fuente:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica"
+                    >
+                    https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica
+                    </a>.
                     </p>
                 </ExampleInAction>
                 <p>
