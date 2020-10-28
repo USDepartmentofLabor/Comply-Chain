@@ -189,7 +189,15 @@ const fr = () => {
                                             entreprises et aux droits de
                                             l&apos;homme des Nations Unies
                                         </a>
-                                        , 2011; disponible sur http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_FR.pdf.
+                                        , 2011; disponible sur{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_FR.pdf"
+
+                                        >
+                                        http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_FR.pdf
+                                        </a>.
                                     </p>
                                     <p>
                                         <em>
@@ -240,7 +248,15 @@ const fr = () => {
                                             Principes directeurs de l&apos;OCDE
                                             pour les entreprises multinationales
                                         </a>
-                                        , 2011; disponible sur http://www.oecd.org/fr/gouvernementdentreprise/mne/.
+                                        , 2011; disponible sur{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.oecd.org/fr/gouvernementdentreprise/mne/"
+
+                                        >
+                                        http://www.oecd.org/fr/gouvernementdentreprise/mne/
+                                        </a>.
                                     </p>
                                     <p>
                                         <em>
@@ -305,7 +321,14 @@ const fr = () => {
                                         >
                                             Norme de performance 2 de la SFI
                                         </a>
-                                        <em>,</em> 2012; disponible [en anglais] sur http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2.
+                                        <em>,</em> 2012; disponible [en anglais] sur{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2"
+                                        >
+                                        http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2
+                                        </a>.
                                     </p>
                                 </OwnWords>
 
