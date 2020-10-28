@@ -8,8 +8,8 @@ const fr = () => {
                 <h1>Conclusions concernant le rapport sur les pires formes de travail des enfants</h1>
                 
                 <p>
-                    Tous les ans, les <strong>Conclusions du d&eacute;partement du Travail des &Eacute;tats-Unis sur les pires 
-                        formes de travail des enfants se penchent</strong> sur les efforts de plus de 130 pays et territoires 
+                    Tous les ans, les <em>Conclusions du d&eacute;partement du Travail des &Eacute;tats-Unis sur les pires 
+                        formes de travail des enfants se</em> penchent sur les efforts de plus de 130 pays et territoires 
                         qui b&eacute;n&eacute;ficient du commerce des &Eacute;tats-Unis afin d&rsquo;&eacute;liminer les pires 
                         formes de travail des enfants par le biais de l&eacute;gislations, m&eacute;canismes de r&eacute;pression, 
                         politiques et programmes sociaux. Ce rapport pr&eacute;sente des informations sur la pr&eacute;valence et 
