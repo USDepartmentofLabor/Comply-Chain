@@ -730,7 +730,14 @@ const fr = () => {
                                 >
                                 Verité
                                 </a>
-                                , disponible [en anglais] sur https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf.
+                                , disponible [en anglais] sur{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf"
+                                >
+                                https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf
+                                </a>.
                                 </p>
                                 <p>
                                     Enfin, voir{" "}

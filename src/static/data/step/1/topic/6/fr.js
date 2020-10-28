@@ -20,7 +20,8 @@ const fr = () => {
                     >
                         Société financière internationale de développement (DFC)
                     </a>{" "}
-                    du gouvernement des &Eacute;tats-Unis ou de la{" "}
+                    du gouvernement des États-Unis (créée en 2019 pour consolider les
+                    fonctions de la Société de promotion des investissements à l’étranger – OPIC) ou de la{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
