@@ -16,7 +16,7 @@ const fr = () => {
                                                     Un grand nombre de pays d&apos;où viennent de plus en plus les produits manufacturés,
                                                     ou ceux où sont cultivés les principaux produits agricoles, font face à des défis sociaux,
                                                     économiques et de gouvernance profonds qui perpétuent le travail des enfants et le travail forcé.
-                                                    De ces défis, le plus saillant est la pauvreté. Selon les estimations de la Banque mondiale pour
+                                                    De ces défis, le plus saillant est la <b>pauvreté</b>. Selon les estimations de la Banque mondiale pour
                                                     2015, 736 millions de personnes dans le monde en développement vivent dans une pauvreté extrême,
                                                     subsistant avec moins de 1,90 dollar É.-U. par jour. Le manque d’emploi des adultes proposant des
                                                     salaires décents ne fait qu’exacerber la pauvreté dans le monde. Celle-ci est également liée à des
