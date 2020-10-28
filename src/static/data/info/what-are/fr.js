@@ -14,7 +14,6 @@ const fr = () => {
                         forc&eacute;?
                     </strong>
                 </h1>
-                <p>Sources des normes:</p>
                 <p>
                     Les normes internationales sur le travail des enfants et le
                     travail forc&eacute; ont &eacute;t&eacute;
@@ -49,10 +48,7 @@ const fr = () => {
                         <Accordion.Panel>
                             <h3>D&eacute;finitions</h3>
                             <p>
-                                Le terme <strong>enfant</strong> ou{" "}
-                                <strong>enfants</strong> s&apos;applique
-                                &agrave; l&rsquo;ensemble des personnes de moins
-                                de 18 ans.
+                                Le terme <strong>enfant</strong> s&apos;applique à une personne de moins de 18 ans.
                             </p>
                             <p>
                                 Le terme <strong>travail des enfants</strong>{" "}
@@ -164,7 +160,7 @@ const fr = () => {
                                 localisation, il faudrait, entre autres, prendre
                                 en consid&eacute;ration:
                             </p>
-                            <ol type="a">
+                            <ol>
                                 <li>
                                     les travaux qui exposent les enfants
                                     &agrave; des s&eacute;vices physiques,
@@ -785,9 +781,15 @@ const fr = () => {
                             </p>
                             <h3>Estimations sur le travail forc&eacute;</h3>
                             <p>
-                                L&apos;OIT a estim&eacute; en 2016 que
+                                L&apos;OIT a estim&eacute; en 2016 que{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/wcmsp5/groups/public/@dgreports/@dcomm/documents/publication/wcms_575479.pdf"
+                                >
                                 25&nbsp;millions de personnes &eacute;taient
-                                victimes du travail forc&eacute; dans le monde.
+                                victimes du travail forc&eacute; dans le monde
+                                </a>.
                                 Parmi elles, pr&egrave;s de 5&nbsp;millions sont
                                 victimes de l&apos;exploitation sexuelle
                                 commerciale forc&eacute;e, et 16&nbsp;millions
