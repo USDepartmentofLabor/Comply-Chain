@@ -111,8 +111,7 @@ const fr = () => {
                                 </ExampleInAction>
                                 </Accordion.Panel>
                                </Accordion.Section>
-                               </Accordion>
-                                <Accordion id="livelihood-progs-acc">
+
                                                     <Accordion.Section id="livelihood-progs-description">
                                                     <Accordion.Title>
                                                   Programmes de subsistance
@@ -140,9 +139,7 @@ const fr = () => {
                                                        </p>
                                                    </Accordion.Panel>
                                                </Accordion.Section>
-                                               </Accordion>
 
-                                     <Accordion id="women-emp-acc">
                                                         <Accordion.Section id="women-emp-description">
                                                         <Accordion.Title>
                                                       Initiatives d&apos;emploi pour les jeunes
@@ -216,8 +213,7 @@ const fr = () => {
                                 </ExampleInAction>
                                  </Accordion.Panel>
                                    </Accordion.Section>
-                                   </Accordion>
-                                <Accordion id="health-programs-acc">
+
                                                     <Accordion.Section id="health-programs-description">
                                                     <Accordion.Title>
                                                  Programmes d&apos;autonomisation des femmes
@@ -293,8 +289,7 @@ const fr = () => {
                                 </ExampleInAction>
                                  </Accordion.Panel>
                                    </Accordion.Section>
-                                   </Accordion>
-                                <Accordion id="victim-shelters-acc">
+
                                                      <Accordion.Section id="victim-shelters-description">
                                                     <Accordion.Title>
                                                   Programmes de sant&eacute;
@@ -319,9 +314,7 @@ const fr = () => {
                                                        </p>
                                                    </Accordion.Panel>
                                                </Accordion.Section>
-                                               </Accordion>
 
-                                    <Accordion id="cocoa-chains-acc">
                                                      <Accordion.Section id="cocoa-description">
                                                         <Accordion.Title>
                                                       Foyers d&apos;h&eacute;bergement, conseils, services juridiques et autres services pour les victimes
@@ -350,8 +343,7 @@ const fr = () => {
                                                            </p>
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
-                                                   </Accordion>
-                                   <Accordion id="financial-literacy-acc">
+
                                                         <Accordion.Section id="financial-literacy-description">
                                                         <Accordion.Title>
                                                       &Eacute;ducation financi&egrave;re
@@ -373,8 +365,7 @@ const fr = () => {
                                                            </p>
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
-                                                   </Accordion>
-                                    <Accordion id="cocoa-chains-acc">
+
                                                      <Accordion.Section id="cocoa-description">
                                                         <Accordion.Title>
                                                        Modification des proc&eacute;d&eacute;s commerciaux
@@ -408,8 +399,7 @@ const fr = () => {
                                                            </p>
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
-                                                   </Accordion>
-                                    <Accordion id="dev-markets-acc">
+                                                  
                                                         <Accordion.Section id="dev-markets-description">
                                                         <Accordion.Title>
                                                       D&eacute;veloppement des march&eacute;s

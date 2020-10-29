@@ -148,8 +148,8 @@ const en = () => {
                                             </div>
                           </Accordion.Panel>
                       </Accordion.Section>
-                      </Accordion>
-                    <Accordion id="electronic-supply-chain">
+                     { /*</Accordion>
+                    <Accordion id="electronic-supply-chain">*/}
                         <Accordion.Section id="electronic-supply-chain-description">
                             <Accordion.Title>
                             Electronics Supply Chains
@@ -178,9 +178,9 @@ const en = () => {
                           </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    </Accordion>
+                   {/* </Accordion>
 
-                  <Accordion id="generic-imp-supply">
+                  <Accordion id="generic-imp-supply">*/}
                       <Accordion.Section id="generic-imp-description">
                           <Accordion.Title>
                           Seafood Supply Chain

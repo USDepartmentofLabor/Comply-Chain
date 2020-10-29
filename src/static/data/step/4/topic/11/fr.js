@@ -53,8 +53,7 @@ const fr = () => {
                                                                            </p>
                                                                        </Accordion.Panel>
                                                                    </Accordion.Section>
-                                                                   </Accordion>
-                                                    <Accordion id="gender-ineq-acc">
+
                                                                           <Accordion.Section id="gender-ineq-description">
                                                                         <Accordion.Title>
                                                                       In&eacute;galit&eacute; entre les hommes et les femmes
@@ -128,8 +127,7 @@ const fr = () => {
                                                                        </p>
                                                                    </Accordion.Panel>
                                                                </Accordion.Section>
-                                                               </Accordion>
-                                                    <Accordion id="lack-of-access-acc">
+
                                                                           <Accordion.Section id="lack-of-access-description">
                                                                         <Accordion.Title>
                                                                      Absence d&apos;acc&egrave;s &agrave; une &eacute;ducation de qualit&eacute;
@@ -162,8 +160,7 @@ const fr = () => {
                                                                            </p>
                                                                        </Accordion.Panel>
                                                                    </Accordion.Section>
-                                                                   </Accordion>
-                                                    <Accordion id="weak-trade-acc">
+
                                                                              <Accordion.Section id="weak-trade-description">
                                                                         <Accordion.Title>
                                                                       Faiblesse ou absence de syndicats et d&apos;autres groupes de la soci&eacute;t&eacute; civile
@@ -198,9 +195,7 @@ const fr = () => {
                                                                            </p>
                                                                        </Accordion.Panel>
                                                                    </Accordion.Section>
-                                                                   </Accordion>
 
-                                                    <Accordion id="migration-systems-acc">
                                                                             <Accordion.Section id="migration-systems-description">
                                                                         <Accordion.Title>
                                                                       Syst&egrave;mes de migration
@@ -267,8 +262,7 @@ const fr = () => {
                                                                        </p>
                                                                    </Accordion.Panel>
                                                                </Accordion.Section>
-                                                               </Accordion>
-                                                     <Accordion id="precarious-work-acc">
+
                                                                       <Accordion.Section id="precarious-work-description">
                                                                         <Accordion.Title>
                                                                       Travail pr&eacute;caire
@@ -321,9 +315,7 @@ const fr = () => {
                                                                        </p>
                                                                    </Accordion.Panel>
                                                                </Accordion.Section>
-                                                               </Accordion>
 
-                                                    <Accordion id="natural-disaster-acc">
                                                                       <Accordion.Section id="natural-disaster-description">
                                                                         <Accordion.Title>
                                                                       Catastrophes naturelles et &eacute;v&eacute;nements m&eacute;t&eacute;orologiques extr&ecirc;mes
@@ -348,8 +340,7 @@ const fr = () => {
                                                                            </p>
                                                                        </Accordion.Panel>
                                                                    </Accordion.Section>
-                                                                   </Accordion>
-                                                 <Accordion id="global-health-crisis-acc">
+
                                                                    <Accordion.Section id="global-health-crisis-description">
                                                               <Accordion.Title>
                                                             Crises sanitaires mondiales

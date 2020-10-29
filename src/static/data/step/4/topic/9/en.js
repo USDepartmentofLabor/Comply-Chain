@@ -78,8 +78,6 @@ const en = () => {
                                      </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
-                               <Accordion id="root-causes-acc">
                                   <Accordion.Section id="root-causes-description">
                                          <Accordion.Title>
                                           Root causes
@@ -92,8 +90,7 @@ const en = () => {
                                          </p>
                                      </Accordion.Panel>
                                  </Accordion.Section>
-                                 </Accordion>
-                             <Accordion id="industry-structure-acc">
+
                                <Accordion.Section id="industry-structure-acc-description">
                                   <Accordion.Title>
                                   Industry structure
@@ -109,8 +106,7 @@ const en = () => {
                                      </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
-                             <Accordion id="labor-pop-acc">
+
                                <Accordion.Section id="labor-pop-acc-description">
                                   <Accordion.Title>
                                   Labor population
@@ -128,9 +124,7 @@ const en = () => {
                                      </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
 
-                             <Accordion id="industry-rel-acc">
                                <Accordion.Section id="industry-rel-description">
                                   <Accordion.Title>
                                   Industrial relations
@@ -146,9 +140,7 @@ const en = () => {
                                  </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
 
-                               <Accordion id="social-protection-acc">
                                     <Accordion.Section id="social-protection-description">
                                        <Accordion.Title>
                                       Social protection
@@ -166,8 +158,7 @@ const en = () => {
                                           </p>
                                       </Accordion.Panel>
                                   </Accordion.Section>
-                                  </Accordion>
-                             <Accordion id="legal-reg-env-acc">
+
                                         <Accordion.Section id="legal-reg-env-description">
                                            <Accordion.Title>
                                           Legal and regulatory environment
@@ -185,8 +176,6 @@ const en = () => {
                                               </p>
                                           </Accordion.Panel>
                                       </Accordion.Section>
-                                      </Accordion>
-                             <Accordion id="exist-init-org-acc">
                                         <Accordion.Section id="exist-init-org-description">
                                            <Accordion.Title>
                                          Existing Initiatives and Organizations
@@ -201,8 +190,6 @@ const en = () => {
 
                                           </Accordion.Panel>
                                       </Accordion.Section>
-                                      </Accordion>
-                                       <Accordion id="market-data-acc">
                                              <Accordion.Section id="market-data-description">
                                                 <Accordion.Title>
                                                Market Data

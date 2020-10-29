@@ -110,8 +110,7 @@ const fr = () => {
                                                        </p>
                                                    </Accordion.Panel>
                                                </Accordion.Section>
-                                               </Accordion>
-                                    <Accordion id="build-govt-acc">
+
                                                            <Accordion.Section id="build-govt-description">
                                                         <Accordion.Title>
                                                       Renforcement des capacit&eacute;s de l&apos;&Eacute;tat
@@ -161,8 +160,7 @@ const fr = () => {
                                                            </p>
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
-                                                   </Accordion>
-                                    <Accordion id="collab-govt-acc">
+
                                                                        <Accordion.Section id="collab-govt-description">
                                                         <Accordion.Title>
                                                       Collaboration avec les autorit&eacute;s publiques
@@ -192,8 +190,7 @@ const fr = () => {
                                                            </p>
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
-                                                   </Accordion>
-                                    <Accordion id="collab-other-comps-acc">
+
                                                         <Accordion.Section id="collab-other-comps-description">
                                                         <Accordion.Title>
                                                       Collaboration avec d&apos;autres entreprises
@@ -273,8 +270,7 @@ const fr = () => {
                                 </ExampleInAction>
                                    </Accordion.Panel>
                                    </Accordion.Section>
-                                   </Accordion>
-                                <Accordion id="labor-unions-acc">
+
                                                    <Accordion.Section id="labor-unions-description">
                                                     <Accordion.Title>
                                                   Appui aux syndicats et aux autres groupes de d&eacute;fense des travailleurs
@@ -330,8 +326,7 @@ const fr = () => {
                                 </OwnWords>
                                 </Accordion.Panel>
                                </Accordion.Section>
-                               </Accordion>
-                               <Accordion id="responsible-recruit-acc">
+
                                                                <Accordion.Section id="responsible-recruit-description">
                                                    <Accordion.Title>
                                                  Recrutement responsable
@@ -462,9 +457,7 @@ const fr = () => {
                                                       <br />
                                                   </Accordion.Panel>
                                               </Accordion.Section>
-                                              </Accordion>
 
-                                              <Accordion id="worker-voice-acc">
                                                                                  <Accordion.Section id="worker-voice-description">
                                                       <Accordion.Title>
                                                     Garantir la voix des travailleurs

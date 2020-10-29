@@ -92,8 +92,7 @@ const fr = () => {
                                     </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
-                 <Accordion id="cocoa-chains-acc">
+
                                <Accordion.Section id="cocoa-description">
                                   <Accordion.Title>
                                   Causes profondes
@@ -107,9 +106,7 @@ const fr = () => {
                                      </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
 
-                    <Accordion id="cocoa-chains-acc">
                                   <Accordion.Section id="cocoa-description">
                                      <Accordion.Title>
                                      Structure de l&apos;industrie
@@ -127,9 +124,7 @@ const fr = () => {
                                         </p>
                                     </Accordion.Panel>
                                 </Accordion.Section>
-                                </Accordion>
 
-                 <Accordion id="cocoa-chains-acc">
                                <Accordion.Section id="cocoa-description">
                                   <Accordion.Title>
                                   Population active
@@ -149,8 +144,7 @@ const fr = () => {
                                      </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
-                     <Accordion id="cocoa-chains-acc">
+
                                    <Accordion.Section id="cocoa-description">
                                       <Accordion.Title>
                                       Relations industrielles
@@ -168,8 +162,7 @@ const fr = () => {
                                          </p>
                                      </Accordion.Panel>
                                  </Accordion.Section>
-                                 </Accordion>
-                     <Accordion id="cocoa-chains-acc">
+
                                    <Accordion.Section id="cocoa-description">
                                       <Accordion.Title>
                                       Protection sociale
@@ -192,9 +185,7 @@ const fr = () => {
                                          </p>
                                      </Accordion.Panel>
                                  </Accordion.Section>
-                                 </Accordion>
 
-                 <Accordion id="cocoa-chains-acc">
                                <Accordion.Section id="cocoa-description">
                                   <Accordion.Title>
                                   Environnement juridique et r&eacute;glementaire
@@ -216,8 +207,7 @@ const fr = () => {
                                      </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
-                   <Accordion id="cocoa-chains-acc">
+
                                    <Accordion.Section id="cocoa-description">
                                       <Accordion.Title>
                                      Initiatives et organisations existantes
@@ -232,8 +222,7 @@ const fr = () => {
                                      </p>
                                      </Accordion.Panel>
                                  </Accordion.Section>
-                                 </Accordion>
-                        <Accordion id="Données du marché-acc">
+
                                <Accordion.Section id="Données du marché-description">
                                   <Accordion.Title>
                                  Données du marché

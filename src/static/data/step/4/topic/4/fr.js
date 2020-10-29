@@ -108,7 +108,6 @@ const fr = () => {
                 </p>
                 <p>Voici trois exemples de cartes de chaînes d&apos;approvisionnement :</p>
                 <br />
-                <div id="cocoa_chains">
                     <Accordion id="cocoa-chains-acc">
                         <Accordion.Section id="cocoa-description">
                             <Accordion.Title>
@@ -163,9 +162,6 @@ const fr = () => {
                                 restaurant (point de service).
                             </Accordion.Panel>
                         </Accordion.Section>
-                    </Accordion>
-                </div>
-                <Accordion id="electronic-supply-chain">
                      <Accordion.Section id="electronic-supply-chain-description">
                                             <Accordion.Title>
                                             Chaînes d&apos;approvisionnement des produits électroniques
@@ -196,9 +192,6 @@ const fr = () => {
                                           </p>
                                         </Accordion.Panel>
                                     </Accordion.Section>
-                                    </Accordion>
-                <div>
-                    <Accordion id="generic-import-acc">
                         <Accordion.Section id="generic-import-description">
                             <Accordion.Title>
                                 Chaînes d&apos;approvisionnement de produits de la mer
@@ -240,7 +233,6 @@ const fr = () => {
                             </Accordion.Panel>
                         </Accordion.Section>
                     </Accordion>
-                </div>
             </div>
         </StaticData>
     );

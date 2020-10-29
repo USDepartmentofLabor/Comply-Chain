@@ -109,7 +109,6 @@ const es = () => {
                 </p>
                 <p>A continuación, siguen tres ejemplos de representaciones gráficas de la cadena de suministro:</p>
 
-                <div id="cocoa_chains">
                     <Accordion id="cocoa-chains-acc">
                         <Accordion.Section id="cocoa-description">
                             <Accordion.Title>
@@ -152,9 +151,7 @@ const es = () => {
                                 compra una barra de chocolate en una tienda (punto de venta) o una porción de pastel de chocolate en un restaurante (punto de servicio).
                             </Accordion.Panel>
                         </Accordion.Section>
-                    </Accordion>
-                </div>
-                <Accordion id="electronic-supply-chain">
+
                         <Accordion.Section id="electronic-supply-chain-description">
                         <Accordion.Title>
                             Cadenas de suministro del cacao
@@ -178,9 +175,7 @@ const es = () => {
                             Oriental y Sudoriental, donde se los refina y convierte en componentes aptos para el uso en fábricas que se encuentran tanto en la región como en Europa y América del Norte.</p>
                             </Accordion.Panel>
                     </Accordion.Section>
-                </Accordion>
-                <div>
-                    <Accordion id="generic-import-acc">
+
                         <Accordion.Section id="generic-import-description">
                             <Accordion.Title>
                                 Cadena de suministro de pescados y mariscos
@@ -220,7 +215,6 @@ const es = () => {
                             </Accordion.Panel>
                         </Accordion.Section>
                     </Accordion>
-                </div>
             </div>
         </StaticData>
     );
