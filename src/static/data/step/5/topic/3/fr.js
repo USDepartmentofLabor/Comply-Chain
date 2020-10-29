@@ -348,6 +348,10 @@ const fr = () => {
                             </span>
                         </strong>
                     </h3>
+                    <VeriteFlagWrapper>
+                        <UsFlag src={usFlag} alt="US Flag" />
+                        <Verite src={verite} alt="Verite sign" />
+                    </VeriteFlagWrapper>
                     <p style={{ color: "black" }}>
                         <strong>
                             PROTECTIONS CONTRE LA TRAITE DES PERSONNES
