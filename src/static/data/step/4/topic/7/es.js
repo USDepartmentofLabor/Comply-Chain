@@ -204,7 +204,15 @@ const es = () => {
                     y erradicación del trabajo infantil. Los proveedores de L’Oréal en la India reciben auditorías independientes
                     en que se vigila el cumplimiento y, además, aceptan invertir en actividades de fomento de la comunidad para
                     tratar las causas subyacentes de las infracciones laborales. Al trabajar con las ONG locales y otros interesados,
-                    L’Oréal procura crear una cadena de suministro sostenible de la mica y mejorar las condiciones de vida y de trabajo en la región.
+                    L’Oréal procura crear una{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica"
+                    >
+                    cadena de suministro sostenible de la mica
+                    </a>
+                    {" "}y mejorar las condiciones de vida y de trabajo en la región.
                     </p>
                     <p>
                     Fuente:{" "}
