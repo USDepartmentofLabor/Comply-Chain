@@ -93,8 +93,7 @@ const es = () => {
                                      </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
-                    <Accordion id="build-govt-acc">
+
                                          <Accordion.Section id="build-govt-description">
                                          <Accordion.Title>
                                          Fortalecimiento de la capacidad del gobierno
@@ -137,8 +136,7 @@ const es = () => {
                                          </p>
                                      </Accordion.Panel>
                                  </Accordion.Section>
-                                 </Accordion>
-                    <Accordion id="collab-govt-acc">
+
                                                        <Accordion.Section id="collab-govt-description">
                                          <Accordion.Title>
                                          Colaboraci&oacute;n con los gobiernos
@@ -156,9 +154,9 @@ const es = () => {
                                                  rel="noopener noreferrer"
                                                  href="https://www.dole.gov.ph/social-amelioration-program-sap-in-the-sugar-industry/"
                                              >
-                                                 Programa de Mejoramiento Social (SAP)
+                                                 Programa de Mejoramiento Social
                                              </a>
-                                             , mediante el que distribuye bonificaciones en efectivo
+                                             {" "}(Social Amelioration Program o SAP), mediante el que distribuye bonificaciones en efectivo
                                              a los trabajadores de la ca&ntilde;a de az&uacute;car a
                                              fin de aumentar sus ingresos, financia proyectos
                                              socioecon&oacute;micos y brinda otras prestaciones, como
@@ -175,8 +173,7 @@ const es = () => {
                                          </p>
                                      </Accordion.Panel>
                                  </Accordion.Section>
-                                 </Accordion>
-                    <Accordion id="collab-other-comps-acc">
+
                                          <Accordion.Section id="collab-other-comps-description">
                                          <Accordion.Title>
                                          Colaboraci&oacute;n con otras empresas
@@ -249,8 +246,7 @@ const es = () => {
                 </ExampleInAction>
                             </Accordion.Panel>
                          </Accordion.Section>
-                         </Accordion>
-                <Accordion id="labor-unions-acc">
+
                                       <Accordion.Section id="labor-unions-description">
                                      <Accordion.Title>
                                      Apoyo a sindicatos y otros grupos de defensa de los trabajadores
@@ -316,8 +312,7 @@ const es = () => {
                 </OwnWords>
                 </Accordion.Panel>
                  </Accordion.Section>
-                 </Accordion>
-                <Accordion id="responsible-recruit-acc">
+
                                                 <Accordion.Section id="responsible-recruit-description">
                     <Accordion.Title>
                   Contratación responsable
@@ -437,9 +432,7 @@ const es = () => {
                         <br />
                    </Accordion.Panel>
                </Accordion.Section>
-               </Accordion>
 
-               <Accordion id="worker-voice-acc">
                   <Accordion.Section id="worker-voice-description">
                        <Accordion.Title>
                      Dar voz a los trabajadores

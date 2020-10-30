@@ -91,19 +91,19 @@ export const Info = {
             content: KeyResources.fr
         },
         findings: {
-            title: "Conclusions sur les pires formes de travail des enfants",
+            title: "Conclusions concernant le rapport sur les pires formes de travail des enfants",
             keywords: [],
             content: Findings.fr
         },
         goods: {
             title:
-                "Liste de biens issus du travail des enfants ou du travail forcé",
+                "Rapport sur la liste des biens issus du travail des enfants ou du travail forcé des enfants",
             keywords: [],
             content: Goods.fr
         },
         indenturedProductList: {
              title:
-             "List of Products Produced by Forced or Indentured Child Labor",
+             "Liste des produits issus du travail forcé ou du travail pour dette des enfants",
               keywords: [],
               content: IndenturedProductList.fr
                  }

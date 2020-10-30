@@ -108,14 +108,14 @@ export const StepData = {
                     "Situation dans laquelle un préjudice s’est produit pour votre entreprise, comme un préjudice de réputation ou une responsabilité civile, ou pour des particuliers ou des entités touchées par les activités de votre entreprise ou liées aux opérations, produits ou services de votre société par le biais de ses relations commerciales."
             },
             {
-                 termName: "Downstream Suppliers",
+                 termName: "En aval",
                  termDefinition:
-                     "Referring to the demand side of the supply chain. One or more companies or individuals who participate in the flow of goods and services moving from the manufacturer to the final user or consumer. "
+                     "Partie du processus de la chaîne d'approvisionnement du côté de la demande, en référence aux biens ou aux produits d’un fournisseur d’une société et à l’utilisateur ou client final."
              },
              {
-                 termName: "Upstream Suppliers",
+                 termName: "En amont",
                  termDefinition:
-                     "Refers to the supply side of the supply chain. Upstream partners are the suppliers who provide goods and services to the organization needed to satisfy demands which originate at point of demand or use, as well as other flows such as return product movements, payments for purchases, etc. "
+                     "Partie du processus de la chaîne d'approvisionnement du côté de l’offre, en référence au flux de biens ou produits d’une société aux fournisseurs et aux approvisionneurs de matières premières au niveau de l’exploitation agricole ou forestière, en direction des matières premières. Comprend le réseau des approvisionnements des sociétés concernées."
              }
         ],
         furtherResources: Resources.fr

@@ -33,16 +33,23 @@ const fr = () => {
                     question est abord&eacute;e plus pleinement au chapitre
                     suivant,{" "}
                     <em>
-                        <u>
                             Collecte d&apos;informations sur les risques et les
                             incidences
-                        </u>
+
                     </em>
                     . L&apos;&eacute;valuation devrait comporter
                     l&apos;identification des personnes ou des groupes qui
                     pourraient &ecirc;tre touch&eacute;s par les
                     activit&eacute;s de votre entreprise et une pr&eacute;vision
                     des incidences n&eacute;gatives qui pourraient se produire.
+                    Cette évaluation devrait également prendre en compte les groupes
+                    ou personnes qui peuvent être extrêmement vulnérables à l’exploitation,
+                    soit en raison de circonstances personnelles (p. ex. pauvreté ou éducation
+                    limitée), soit à cause de la discrimination sociale et légale. Elle
+                    devrait également prendre en compte les personnes qui peuvent être
+                    dissimulées au public et par conséquent incapables de défendre leur droits,
+                    telles que les victimes de viol et de violences sexuelles, les personnes
+                    vivant avec le VIH-sida et les travailleurs sans papiers.
                     L&apos;&eacute;valuation devrait, au minimum, comporter des
                     recherches documentaires, des recherches sur le terrain dans
                     le pays ou la communaut&eacute; vis&eacute;, puis un cycle
@@ -52,33 +59,21 @@ const fr = () => {
                     informations sur la r&eacute;alisation de ce type
                     d&apos;audits se trouvent &agrave;{" "}
                     <Link to="/steps/5">
-                        la 5<sup>e</sup>&nbsp;&eacute;tape: surveiller la
-                        conformit&eacute;.
+                        cinquième étape, Surveiller la conformité
                     </Link>
                 </p>
                 <p>
-                    Si une entreprise dispose d&eacute;j&agrave; de
-                    cha&icirc;nes d&rsquo;approvisionnement bien en place au
-                    sein desquelles elle dispose de relations d&rsquo;affaires
-                    relativement stables, vous devriez &eacute;valuer les
-                    incidences des acteurs de ces cha&icirc;nes et les risques
-                    qui leur sont associ&eacute;s. Il conviendrait pour ce faire
-                    de commencer par un exercice de cartographie des
-                    cha&icirc;nes d&apos;approvisionnement, ainsi qu&rsquo;une
-                    collecte d&rsquo;informations sur les fournisseurs ayant le
-                    plus besoin de contr&ocirc;le, des recherches documentaires,
-                    des recherches sur le terrain dans les zones cibl&eacute;es
-                    et un cycle d&rsquo;audits de r&eacute;f&eacute;rence de ces
-                    fournisseurs pour &eacute;valuer leur niveau actuel de
-                    conformit&eacute;. Ces donn&eacute;es de
-                    r&eacute;f&eacute;rence vous permettront d&apos;identifier
-                    les domaines potentiels d&apos;am&eacute;lioration des
-                    fournisseurs. D&apos;autres informations sur la
-                    r&eacute;alisation de ce type d&apos;audits se trouvent
-                    &agrave;{" "}
+                    Si une entreprise dispose déjà de chaînes d’approvisionnement bien en place au sein
+                    desquelles elle dispose de relations d’affaires relativement stables, vous devriez évaluer
+                    les incidences des acteurs de ces chaînes et les risques qui leur sont associés. Il conviendrait
+                    pour ce faire de commencer par un exercice de cartographie des chaînes d&apos;approvisionnement,
+                    ainsi qu’une collecte d’informations sur les fournisseurs ayant le plus besoin de contrôle, des
+                    recherches documentaires, des recherches sur le terrain dans les zones ciblées et un cycle d’audits
+                    de référence de ces fournisseurs pour évaluer leur niveau actuel de conformité. Ces données de
+                    référence vous permettront d&apos;identifier les domaines potentiels d&apos;amélioration des fournisseurs.
+                    D&apos;autres informations sur la réalisation de ce type d&apos;audits se trouvent à la{" "}
                     <Link to="/steps/5">
-                        la 5<sup>e</sup>&nbsp;&eacute;tape: surveiller la
-                        conformit&eacute;.
+                        cinquième étape, Surveiller la conformité
                     </Link>
                 </p>
             </div>

@@ -41,8 +41,7 @@ const en = () => {
                               themselves. </p>
                             </Accordion.Panel>
                       </Accordion.Section>
-                      </Accordion>
-                   <Accordion id="gender-ineq-acc">
+
                       <Accordion.Section id="gender-ineq-description">
                          <Accordion.Title>
                         Gender Inequality
@@ -103,8 +102,7 @@ const en = () => {
                               </p>
                           </Accordion.Panel>
                       </Accordion.Section>
-                      </Accordion>
-                   <Accordion id="lack-of-access-acc">
+
                       <Accordion.Section id="lack-of-access-description">
                          <Accordion.Title>
                         Lack of Access to Quality Education
@@ -128,8 +126,7 @@ const en = () => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    </Accordion>
-                 <Accordion id="weak-trade-acc">
+
                          <Accordion.Section id="weak-trade-description">
                             <Accordion.Title>
                            Weak or Nonexistent Trade Unions and Other Civil Society Groups
@@ -205,8 +202,7 @@ const en = () => {
                           </p>
                       </Accordion.Panel>
                   </Accordion.Section>
-                  </Accordion>
-               <Accordion id="precarious-work-acc">
+
                   <Accordion.Section id="precarious-work-description">
                      <Accordion.Title>
                     Precarious Work
@@ -250,8 +246,7 @@ const en = () => {
                           </p>
                       </Accordion.Panel>
                   </Accordion.Section>
-                  </Accordion>
-               <Accordion id="natural-disaster-acc">
+
                   <Accordion.Section id="natural-disaster-description">
                      <Accordion.Title>
                     Natural Disaster and Extreme Weather
@@ -269,8 +264,7 @@ const en = () => {
                         </p>
                     </Accordion.Panel>
                 </Accordion.Section>
-                </Accordion>
-                <Accordion id="global-health-crisis-acc">
+
                   <Accordion.Section id="global-health-crisis-description">
                      <Accordion.Title>
                    Global Health Crises

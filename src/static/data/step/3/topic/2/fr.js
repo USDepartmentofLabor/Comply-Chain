@@ -141,7 +141,14 @@ const fr = () => {
                             26000, Lignes directrices relatives &agrave; la
                             responsabilit&eacute; soci&eacute;tale
                         </a>
-                        <em>, 2010</em>.
+                        , 2010 ; disponible sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.iso.org/fr/standard/42546.html"
+                        >
+                        https://www.iso.org/fr/standard/42546.html
+                        </a>.
                     </p>
                 </OwnWords>
             </div>

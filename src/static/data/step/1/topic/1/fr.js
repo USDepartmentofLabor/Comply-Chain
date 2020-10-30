@@ -9,44 +9,56 @@ const fr = () => {
             <div>
                 <h1>Lois et réglementations</h1>
                 <p>
-                    Les syst&egrave;mes de conformit&eacute; sociale,
-                    consid&eacute;r&eacute;s traditionnellement comme une
-                    initiative purement volontaire, deviennent progressivement
-                    des moyens importants de remplir des imp&eacute;ratifs
-                    juridiques. Des lois ont &eacute;t&eacute; adopt&eacute;es
-                    aux &Eacute;tats-Unis, notamment la loi Dodd-Frank sur la
-                    r&eacute;forme de Wall Street et la protection du
-                    consommateur (
+                    Les systèmes de conformité sociale, considérés traditionnellement comme
+                    une initiative purement volontaire, deviennent progressivement des moyens
+                    importants de remplir des impératifs juridiques. Des lois ont été adoptées aux États-Unis, notamment la{" "}
                     <a
                         href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Dodd-Frank Wall Street Reform and Consumer Protection
-                        Act&nbsp;&ndash; 2010
+                        loi Dodd-Frank sur la réforme de Wall Street et la protection du consommateur (Dodd-Frank Wall Street Reform and Consumer Protection Act – 2010)
                     </a>
-                    ) et la loi de Californie sur la transparence des
-                    cha&icirc;nes d&rsquo;approvisionnement (
+                    &nbsp;et la&nbsp;
                     <a
                         href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        California Transparency in Supply Chains
-                        Act&nbsp;&ndash; 2010
+                        loi de Californie sur la transparence des chaînes d’approvisionnement (California Transparency in Supply Chains Act – 2010)
                     </a>
-                    ) et promulgu&eacute;es au d&eacute;but des
-                    ann&eacute;es&nbsp;2010 pour r&eacute;pondre aux
-                    pr&eacute;occupations concernant les droits de la personne.
-                    Elles imposent &agrave; certaines entreprises
-                    l&rsquo;obligation de communiquer des informations relatives
-                    &agrave; leurs cha&icirc;nes
-                    d&apos;approvisionnement.&nbsp;D&rsquo;autres lois et
-                    r&eacute;glementations ont &eacute;t&eacute; adopt&eacute;es
-                    et promulgu&eacute;es depuis, tant aux &Eacute;tats-Unis que
-                    dans d&rsquo;autres pays, pour renforcer les protections
-                    contre le travail des enfants et le travail forc&eacute;
-                    dans les cha&icirc;nes d&rsquo;approvisionnement.&nbsp;
+                    &nbsp;et promulguées au début des années 2010 pour répondre aux préoccupations concernant les droits de la personne. Elles imposent à certaines entreprises
+                    l’obligation de communiquer des informations relatives à leurs chaînes d&apos;approvisionnement. D’autres lois et réglementations ont été adoptées et promulguées
+                    depuis, tant aux États-Unis que dans d’autres pays, pour renforcer les protections contre le travail des enfants et le travail forcé dans les chaînes d’approvisionnement.
+                    En outre, un certain nombre de pays incorporent différentes dispositions sur le droit du travail dans leurs accords commerciaux. Ainsi, récemment,
+                    l’Accord États-Unis-Mexique-Canada (USMCA) comprend des normes pleinement applicables sur le travail, notamment en termes d’application de la législation concernant
+                    le travail forcé et le travail des enfants. Il comprend également de nouvelles dispositions exigeant des parties qu’elles prennent des mesures visant à interdire
+                    l’importation de biens issus du travail forcé, notamment le travail forcé des enfants, à s’attaquer aux problèmes de la violence à l’encontre des travailleurs qui
+                    exercent leurs droits du travail et de la discrimination sexuelle sur le lieu de travail, et à veiller à ce que les travailleurs migrants soient protégés par la législation sur le travail.
+                </p>
+                <p>
+                Les lois et réglementations sur la diligence raisonnable englobent différentes approches qui évoluent. Le Business & Human Rights Resource Centre tient à jour une
+                liste [en anglais] des&nbsp;
+                <a
+                    href="https://www.business-humanrights.org/en/national-movements-for-mandatory-human-rights-due-diligence-in-european-countries"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                mouvements des gouvernements et de la société civile pour une diligence raisonnable obligatoire des droits de l’homme dans les pays européens
+                </a>
+                &nbsp;dans le cadre de ses ressources sur la&nbsp;
+                <a
+                    href="https://www.business-humanrights.org/en/mandatory-due-diligence"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                diligence raisonnable obligatoire
+                </a>
+                .
+                </p>
+                <p>
+                Vous trouverez ci-dessous des exemples de lois et réglementations ; nous vous invitons à contacter les
+                organismes responsables de leur application pour les dernières informations les concernant.
                 </p>
                 <ul id="law-list">
                     
@@ -63,19 +75,33 @@ const fr = () => {
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                <a
+                                Le&nbsp;
+                          <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.gpo.gov/fdsys/pkg/FR-1999-06-16/pdf/99-15491.pdf"
-                        >
+                          >
                             D&eacute;cret ex&eacute;cutif&nbsp;13126,
                             Interdiction de l&apos;acquisition de produits issus
                             du travail forc&eacute; ou pour dette des enfants
-                        </a>{" "}
                         (Executive Order 13126, Prohibition of Acquisition of
                         Products Produced by Forced or Indentured Child Labor),
-                        et ses r&eacute;glementations de mise en &oelig;uvre.
-                                </p>
+                        et ses r&eacute;glementations de mise en &oelig;uvre
+                              </a>
+                        &nbsp;signé en 1999, oblige le département du Travail des États-Unis à publier une&nbsp;
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products"
+                          >
+                        Liste des produits issus du travail forcé ou du travail pour dette des enfants
+                        </a>
+                        &nbsp;ainsi que leur pays d’origine. Cette liste a pour vocation de
+                        s’assurer que les organismes fédéraux américains n’obtiennent pas de marchandises produites par le travail forcé
+                        ou le travail pour dette des enfants. En vertu des réglementations relatives aux achats, les contractuels fédéraux
+                        qui fournissent des produits figurant sur la liste doivent certifier qu’ils ont de bonne foi essayé de déterminer
+                        si le travail forcé ou le travail pour dette des enfants servait à produire les articles fournis.
+                              </p>
                                 
                             </Accordion.Panel>
                         </Accordion.Section>
@@ -115,11 +141,11 @@ const fr = () => {
                                         ex&eacute;cutif&nbsp;13627, Renforcement
                                         des protections contre la traite des
                                         personnes dans les contrats
-                                        f&eacute;d&eacute;raux
+                                        f&eacute;d&eacute;raux (Executive Order 13627 Strengthening
+                                           Protections Against Trafficking in Persons
+                                           in Federal Contracts)
                                     </a>{" "}
-                                    (Executive Order 13627 Strengthening
-                                    Protections Against Trafficking in Persons
-                                    in Federal Contracts) et dans
+                                     et dans
                                     l&rsquo;Article&nbsp;XVII de la Loi
                                     d&rsquo;autorisation de d&eacute;fense
                                     nationale pour l&rsquo;ann&eacute;e
@@ -234,10 +260,10 @@ const fr = () => {
                                     >
                                         Loi sur la facilitation et
                                         l&rsquo;application des &eacute;changes
-                                        commerciaux de&nbsp;2015
-                                    </a>{" "}
-                                    (Trade Facilitation and Trade Enforcement
-                                    Act), entr&eacute;e en vigueur en
+                                        commerciaux de&nbsp;2015 (Trade Facilitation and Trade Enforcement
+                                                                                                     Act)
+                                    </a>
+                                    , entr&eacute;e en vigueur en
                                     mars&nbsp;2016, a renforc&eacute; une
                                     interdiction d&eacute;j&agrave; en place sur
                                     l&rsquo;importation des marchandises
@@ -258,46 +284,27 @@ const fr = () => {
                                     >
                                         Loi sur les tarifs douaniers de 1930
                                     </a>
-                                    , sauf quand l&rsquo;offre de produits
-                                    fabriqu&eacute;s aux &Eacute;tats-Unis
-                                    n&rsquo;&eacute;tait pas suffisante pour
-                                    r&eacute;pondre &agrave; la demande de ces
-                                    produits dans le pays&nbsp;&ndash; exception
-                                    dite «&nbsp;de demande de
-                                    consommation&nbsp;» qui figure au
-                                    paragraphe&nbsp;910. Cette exception a
-                                    &eacute;t&eacute; abrog&eacute;e, ce qui
-                                    permet d&eacute;sormais au service des
-                                    douanes et de la protection des
-                                    fronti&egrave;res (CBP) d&rsquo;interdire
-                                    l&rsquo;importation de produits issus du
-                                    travail forc&eacute; sur le sol
-                                    am&eacute;ricain, quelle que soit la demande
-                                    dans le pays. Toute personne peut ainsi
-                                    signaler au CBP des informations indiquant
-                                    que des marchandises produites par le
-                                    travail forc&eacute; font ou pourraient
-                                    faire l&rsquo;objet d&rsquo;une importation
-                                    aux &Eacute;tats-Unis. Si ces informations
-                                    indiquent de mani&egrave;re raisonnable mais
-                                    non concluante que les marchandises en
-                                    question ont &eacute;t&eacute; produites, en
-                                    tout ou partie, par le travail forc&eacute;,
-                                    le CBP d&eacute;livre un report de
-                                    d&eacute;douanement afin d&rsquo;en
-                                    interdire l&rsquo;entr&eacute;e sur le
-                                    territoire des &Eacute;tats-Unis. Le
-                                    fabricant a alors la possibilit&eacute; de
-                                    r&eacute;-exporter les biens retenus ou de
-                                    fournir des informations probantes au CBP
-                                    indiquant qu&rsquo;ils ne sont pas le fruit
-                                    du travail forc&eacute;. En cas de
-                                    d&eacute;termination par le CBP de
-                                    l&rsquo;existence de preuves concluantes de
-                                    travail forc&eacute;, un constat formel est
-                                    publi&eacute; au registre
-                                    f&eacute;d&eacute;ral et au bulletin
-                                    douanier et les marchandises sont saisies.
+                                    {" "}(Tariff Act of 1930), sauf quand l’offre de produits fabriqués
+                                    aux États-Unis n’était pas suffisante pour répondre à la demande de ces
+                                    produits dans le pays – exception dite « de demande de consommation » qui
+                                    figure au paragraphe 910. Cette exception a été abrogée, ce qui permet désormais
+                                    au service des douanes et de la protection des frontières (CBP) d’interdire l’importation
+                                    de produits issus du travail forcé sur le sol américain, quelle que soit la demande dans
+                                    le pays. Toute personne peut faire part à ce service d’informations que des articles issus
+                                    du travail forcé sont ou ont des chances d’être importés aux États-Unis. Si ces informations
+                                    indiquent de manière raisonnable mais non concluante que les marchandises en question ont été
+                                    produites, en tout ou partie, par le travail forcé, le CBP délivre un{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.cbp.gov/trade/programs-administration/forced-labor/withhold-release-orders-and-findings"
+                                    >
+                                    report de dédouanement
+                                    </a>
+                                    {" "} afin d’en interdire l’entrée sur le territoire des États-Unis. Pendant la détention des biens, le
+                                    fabricant a la possibilité de soit les réexporter, soit de fournir des preuves au CBP qu’ils ne sont pas
+                                    issus du travail forcé. En cas de détermination par le CBP de l’existence de preuves concluantes de travail
+                                    forcé, un constat formel est publié au registre fédéral et au bulletin douanier et les marchandises sont saisies.
                                 </p>
                             </Accordion.Panel>
                         </Accordion.Section>
@@ -318,9 +325,9 @@ const fr = () => {
                                         href="http://www.legislation.gov.uk/ukpga/2015/30/pdfs/ukpga_20150030_en.pdf"
                                     >
                                         Loi du Royaume-Uni sur l&rsquo;esclavage
-                                        moderne
+                                        moderne (UK Modern Slavery Act)
                                     </a>{" "}
-                                    (UK Modern Slavery Act), en vigueur depuis
+                                    , en vigueur depuis
                                     le 29&nbsp;octobre&nbsp;2015, comprend des
                                     dispositions en mati&egrave;re de
                                     transparence dans les cha&icirc;nes
@@ -534,10 +541,10 @@ const fr = () => {
                                         href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
                                     >
                                         Dodd-Frank sur la r&eacute;forme de Wall
-                                        Street et la protection du consommateur
+                                        Street et la protection du consommateur (Dodd-Frank Wall Street Reform and Consumer
+                                        Protection Act
                                     </a>{" "}
-                                    (Dodd-Frank Wall Street Reform and Consumer
-                                    Protection Act, ou loi Dodd-Frank),
+                                    , ou loi Dodd-Frank),
                                     adopt&eacute;e en 2010, a enjoint &agrave;
                                     la Securities and Exchange Commission (SEC)
                                     des &Eacute;tats-Unis de promulguer des
@@ -573,24 +580,20 @@ const fr = () => {
                                     si c&rsquo;est le cas, si ces minerais
                                     financent des groupes arm&eacute;s de la
                                     r&eacute;gion de la RDC ou leur
-                                    profitent.&nbsp;
+                                    profitent. La SEC a promulgué une règle exigeant des entreprises qu’elles déterminent si elles utilisent
+                                    ces minerais et s’ils sont nécessaires au fonctionnement ou à la production de l’un des produits qu’ils ont
+                                    fabriqués ou fait fabriquer. Si c’est le cas, la règle exige qu’elles mènent une enquête de bonne foi dans le
+                                    pays d’origine des minerais et communiquent certaines informations à la SEC. En vertu de cette règle, elles sont
+                                    également tenues de publier sur leurs sites internet les informations qu’elles ont communiquées à la SEC.
                                 </p>
                                 <p>
-                                    Les entreprises concern&eacute;es doivent
-                                    d&eacute;terminer si elles utilisent ces
-                                    minerais et s&rsquo;ils sont
-                                    n&eacute;cessaires au fonctionnement ou
-                                    &agrave; la production de l&rsquo;un des
-                                    produits qu&rsquo;ils ont fabriqu&eacute;s
-                                    ou fait fabriquer. Si c&rsquo;est le cas,
-                                    elles doivent mener une enqu&ecirc;te de
-                                    bonne foi dans le pays d&rsquo;origine des
-                                    minerais et communiquer certaines
-                                    informations. Elles sont &eacute;galement
-                                    tenues de publier sur leurs sites Internet
-                                    les informations qu&rsquo;elles ont
-                                    communiqu&eacute;es &agrave; la SEC.
+                                    Cependant, un tribunal a jugé que
+                                    l&apos;obligation de communiquer que
+                                    les produits ne sont pas issus du conflit en RDC constituait une violation du premier amendement de
+                                    la Constitution des États-Unis. Par conséquent, le département finance des entreprises de la SEC en a
+                                    suspendu l’application dans l’attente d’autres décisions de la SEC sur la question.
                                 </p>
+                                <p>Pour l’instant, les entreprises continuent de déposer les formulaires exigés auprès de la SEC et de mener des enquêtes sur les origines des produits.</p>
                             </Accordion.Panel>
                         </Accordion.Section>
                         <BorderSeparator />
@@ -612,10 +615,10 @@ const fr = () => {
                                     >
                                         loi de la Californie sur la transparence
                                         dans les cha&icirc;nes
-                                        d&rsquo;approvisionnement
-                                    </a>{" "}
-                                    (California Transparency in Supply Chains
-                                    Act), sign&eacute;e en octobre 2010 et
+                                        d&rsquo;approvisionnement (California Transparency in Supply Chains
+                                                                                                      Act)
+                                    </a>
+                                    , sign&eacute;e en octobre 2010 et
                                     entr&eacute;e en vigueur en janvier 2012,
                                     exige que certaines entreprises rendent
                                     compte des mesures sp&eacute;cifiques
@@ -675,77 +678,66 @@ const fr = () => {
                                     &agrave; la traite des personnes.&nbsp;
                                 </p>
                                 <p>
-                                    Voir &eacute;galement{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://oag.ca.gov/sites/all/files/agweb/pdfs/cybersafety/sb_657_bill_ch556.pdf"
-                                    >
-                                        Five Years of the California
-                                        Transparency in Supply Chains Act,
-                                    </a>{" "}
-                                    dossier [en anglais] r&eacute;dig&eacute;
-                                    par{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://knowthechain.org/"
-                                    >
-                                        KnowTheChain
-                                    </a>
-                                    , initiative men&eacute;e par{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://humanityunited.org/"
-                                    >
-                                        Humanity United
-                                    </a>{" "}
-                                    en partenariat avec le{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.business-humanrights.org/"
-                                    >
-                                        Business &amp; Human Rights Resource
-                                        Centre
-                                    </a>
-                                    ,{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.sustainalytics.com/"
-                                    >
-                                        Sustainalytics
-                                    </a>{" "}
-                                    et{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.verite.org/"
-                                    >
-                                        Verit&eacute;
-                                    </a>
-                                    .
+                                Voir également{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.verite.org/the-california-transparency-in-supply-chains-act-a-resource-guide/"
+                                >
+                                La loi de la Californie sur la transparence dans les chaînes d’approvisionnement : guide de ressources
+                                </a>
+                                , préparé [en anglais] par le département de la Justice de Californie, qui contient des recommandations concernant la conformité et des modèles de pratiques de communication.
                                 </p>
                                 <p>
-                                    Voir &eacute;galement{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.verite.org/the-california-transparency-in-supply-chains-act-a-resource-guide/"
-                                    >
-                                        <em>
-                                            The California Transparency in
-                                            Supply Chains Act: A Resource Guide
-                                        </em>
-                                    </a>
-                                    <em>, </em>pr&eacute;par&eacute; [en
-                                    anglais] par le d&eacute;partement de la
-                                    Justice de Californie, qui contient des
-                                    recommandations concernant la
-                                    conformit&eacute; et des mod&egrave;les de
-                                    pratiques de communication.
+                                Voir également Les cinq premières années de la loi de la Californie sur la
+                                transparence dans les chaînes d’approvisionnement : dossier, rédigé par{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://knowthechain.org/"
+                                >
+                                KnowTheChain
+                                </a>,
+                                initiative menée par{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://humanityunited.org/"
+                                >
+                                Humanity United
+                                </a>
+                                {" "}en partenariat avec le{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.business-humanrights.org/"
+                                >
+                                Business & Human Rights Resource Centre
+                                </a>
+                                ,{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="www.sustainalytics.com/"
+                                >
+                                Sustainalytics
+                                </a>
+                                , et{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.verite.org/"
+                                >
+                                Verité
+                                </a>
+                                , disponible [en anglais] sur{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf"
+                                >
+                                https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf
+                                </a>.
                                 </p>
                                 <p>
                                     Enfin, voir{" "}
@@ -755,10 +747,7 @@ const fr = () => {
                                         href="http://www.verite.org/wp-content/uploads/2016/11/VTE_WhitePaper_California_Bill657FINAL5.pdf"
                                     >
                                         <em>
-                                            Compliance is Not Enough: Best
-                                            Practices in Responding to The
-                                            California Transparency in Supply
-                                            Chains Act
+                                            La conformité ne suffit pas : meilleures pratiques pour répondre à la loi de la Californie sur la transparence dans les chaînes d’approvisionnement
                                         </em>
                                     </a>
                                     , livre blanc [en anglais] sur la loi de la
@@ -780,13 +769,35 @@ const fr = () => {
                         <Accordion.Section id="aust-slav">
                             <Accordion.Title>
                                 <strong>
-                                    Australian Modern Slavery Act
+                                    Loi australienne contre l’esclavage moderne
 
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    Some Text
+                                    Le 1<sup>er</sup> janvier 2019 est entrée en vigueur en Australie la{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.legislation.gov.au/Details/C2018A00153"
+                                    >
+                                    Loi contre l’esclavage moderne de 2018
+                                    </a>
+                                    {" "} (la Loi).
+                                    La Loi exige que les entités qui sont basées ou qui opèrent en Australie et ont un chiffre d’affaires annuel consolidé de
+                                    plus de 100 millions de dollars australiens fassent rapport, dans le cadre d’une déclaration sur l’esclavage moderne, sur
+                                    les risques de l’esclavage moderne au sein de leurs opérations et dans chaînes d’approvisionnement et des mesures prises pour les éliminer.
+                                    La déclaration doit également décrire les risques d&apos;esclavage moderne au sein de la chaîne d’approvisionnement de l’entité déclarante
+                                    (et des entités qu’elle possède et contrôle) et des mesures prises pour répondre aux risques identifiés, notamment les processus de diligence
+                                    raisonnable et de réparation. Le gouvernement australien a également publié des{" "}
+                                    <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="https://www.homeaffairs.gov.au/criminal-justice/files/modern-slavery-reporting-entities.pdf"
+                                      >
+                                    recommandations à l&apos;intention des entités déclarantes
+                                    </a>
+                                    {" "}(en anglais) pour expliquer en termes simples ce que doivent faire les entités pour se conformer à la Loi.
                                 </p>
                                 
                             </Accordion.Panel>
@@ -794,13 +805,28 @@ const fr = () => {
                         <Accordion.Section id="ductch-labor">
                             <Accordion.Title>
                                 <strong>
-                                Dutch Child Labor Due Diligenec Law (Netherlands)
-
+                                Loi néerlandaise sur la diligence raisonnable en matière de travail des enfants (Pays-Bas)
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    Some Text
+                                  En 2019, le Sénat néerlandais a approuvé la{" "}
+                                  <a
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          href="https://www.eerstekamer.nl/behandeling/20170207/gewijzigd_voorstel_van_wet"
+                                   >
+                                  Loi sur la diligence raisonnable en matière de travail des enfants
+                                  </a>
+                                  {" "}(la Loi), qui est
+                                  en attente de l’approbation royale pour entrer en vigueur. La Loi s’appliquera à toutes les entreprises qui vendent ou fournissent
+                                  des biens ou des services aux consommateurs néerlandais, quel que soit l’enregistrement ou le siège de la société. Elle exige de
+                                  chaque société qu’elle dépose une déclaration indiquant qu’elle a fait preuve de diligence raisonnable pour évaluer s’il existait
+                                  des « soupçons raisonnables » que les biens ou services fournis seraient issus du travail des enfants dans leurs chaînes de valeur.
+                                  En cas de « soupçon raisonnable » constaté, la société doit adopter et mettre en œuvre un plan d’élimination du travail des enfants.
+                                  Les entreprises sont également dans l’obligation d’enquêter sur le travail des enfants dans leurs chaînes d’approvisionnement à l’aide
+                                  de sources raisonnablement connues et accessibles. Celles qui ne sont pas en conformité avec la loi peuvent s’exposer à des amendes
+                                  allant jusque 870 000 euros ou 10 % de leur chiffre d’affaires mondial, et la responsabilité pénale du directeur est engagée.
                                 </p>
                                 
                             </Accordion.Panel>
@@ -808,13 +834,50 @@ const fr = () => {
                         <Accordion.Section id="eu-report">
                             <Accordion.Title>
                                 <strong>
-                                EU Non-Financial Reporting Directive (2014/95/EU)
+                                Directive européenne sur la publication d&apos;informations non financières (2014/95/EU)
 
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    Some Text
+                                 La{" "}
+                                 <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="https://eur-lex.europa.eu/legal-content/fr/TXT/?uri=CELEX:32014L0095"
+                                    >
+                                 Directive 2014/95/EU de l’Union européenne (UE)
+                                 </a>
+                                 {" "}exige des sociétés d’intérêt public ayant au moins 500 employés qu’elles publient des
+                                 rapports sur les politiques qu’elles mettent en œuvre en matière de protection de l’environnement, de responsabilité sociale et de traitement
+                                 des collaborateurs, de respect des droits de l&apos;homme, de la lutte contre la corruption et les pots-de-vin, et la diversité au sein des
+                                 conseils exécutifs. En juin 2017, la Commission européenne a publié des{" "}
+                                 <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="https://ec.europa.eu/info/publications/non-financial-reporting-guidelines_en"
+                                    >
+                                 lignes directrices pour aider les sociétés à publier des informations
+                                 sur les questions environnementales et sociales{" "}
+                                 </a>
+                                 ,
+                                 <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href=""
+                                 >
+                                 mais il existe une certaine souplesse dans la méthode de publication en vertu des lignes directrices
+                                 </a>
+                                 .
+                                 Pour plus d’informations, rendez-vous sur le{" "}
+                                 <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://ec.europa.eu/info/business-economy-euro/company-reporting-and-auditing/company-reporting/non-financial-reporting_en"
+                                 >
+                                 site Web
+                                  </a>
+                                  {" "}de la Commission européenne.
                                 </p>
                                 
                             </Accordion.Panel>

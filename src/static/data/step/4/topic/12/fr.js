@@ -9,7 +9,7 @@ const fr = () => {
         <StaticData>
             <div>
                 <h2>
-                                    &Eacute;liminer les causes profondes
+                                    S’attaquer aux causes profondes
                                 </h2>
                                 <p>
                                     La r&eacute;alisation de buts de grande envergure et
@@ -28,7 +28,7 @@ const fr = () => {
                                     syst&egrave;me international. En&nbsp;2015, les &Eacute;tats
                                     membres des Nations Unies ont adopt&eacute; les Objectifs de
                                     d&eacute;veloppement durable (ODD), feuille de route visant
-                                    &agrave; &eacute;liminer la pauvret&eacute;, &agrave;
+                                    &agrave; &eacute;liminer la <b>pauvret&eacute;</b>, &agrave;
                                     prot&eacute;ger l&rsquo;environnement et &agrave; encourager
                                     des soci&eacute;t&eacute;s pacifiques, inclusives et justes
                                     d&rsquo;ici&nbsp;2030. Sur les 17&nbsp;objectifs, le 8
@@ -110,8 +110,7 @@ const fr = () => {
                                                        </p>
                                                    </Accordion.Panel>
                                                </Accordion.Section>
-                                               </Accordion>
-                                    <Accordion id="build-govt-acc">
+
                                                            <Accordion.Section id="build-govt-description">
                                                         <Accordion.Title>
                                                       Renforcement des capacit&eacute;s de l&apos;&Eacute;tat
@@ -161,8 +160,7 @@ const fr = () => {
                                                            </p>
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
-                                                   </Accordion>
-                                    <Accordion id="collab-govt-acc">
+
                                                                        <Accordion.Section id="collab-govt-description">
                                                         <Accordion.Title>
                                                       Collaboration avec les autorit&eacute;s publiques
@@ -182,29 +180,17 @@ const fr = () => {
                                                               >
                                                                   Programme d&rsquo;am&eacute;lioration sociale (SAP)
                                                               </a>
-                                                              , qui distribue des primes en liquide aux travailleurs
-                                                              de l&rsquo;industrie sucri&egrave;re pour augmenter
-                                                              leurs revenus, finance des projets
-                                                              socio&eacute;conomiques et fournit d&rsquo;autres
-                                                              avantages, notamment en mati&egrave;re de
-                                                              d&eacute;c&egrave;s et de maternit&eacute;. Ce programme
-                                                              est administr&eacute; par le d&eacute;partement du
-                                                              Travail et de l&rsquo;Emploi et financ&eacute; par une
-                                                              taxe sur la production sucri&egrave;re.
-                                                              Depuis&nbsp;2002, le montant de cette taxe est
-                                                              fix&eacute; &agrave; environ 0,15&nbsp;dollar
-                                                              &Eacute;.-U. par sac de 50&nbsp;kg de sucre. La Sugar
-                                                              Industry Foundation, Inc., qui travaille en
-                                                              &eacute;troite collaboration avec le d&eacute;partement
-                                                              du Travail et de l&rsquo;Emploi, est l&rsquo;une des
-                                                              entit&eacute;s responsable de l&rsquo;apport des
-                                                              programmes sociaux, &eacute;ducatifs et sanitaires aux
-                                                              travailleurs de ce secteur et &agrave; leurs familles.
+                                                              , qui distribue des primes en liquide aux travailleurs de l’industrie sucrière pour augmenter
+                                                              leurs revenus, finance des projets socioéconomiques et fournit d’autres avantages, notamment
+                                                              en matière de décès et de maternité. Ce programme est administré par le département du Travail
+                                                              et de l’Emploi et financé par une taxe sur la production sucrière. La Sugar Industry Foundation,
+                                                              Inc., qui travaille en étroite collaboration avec le département du Travail et de l’Emploi, est
+                                                              l’une des entités responsable de l’apport des programmes sociaux, éducatifs et sanitaires aux
+                                                              travailleurs de ce secteur et à leurs familles.
                                                            </p>
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
-                                                   </Accordion>
-                                    <Accordion id="collab-other-comps-acc">
+
                                                         <Accordion.Section id="collab-other-comps-description">
                                                         <Accordion.Title>
                                                       Collaboration avec d&apos;autres entreprises
@@ -284,8 +270,7 @@ const fr = () => {
                                 </ExampleInAction>
                                    </Accordion.Panel>
                                    </Accordion.Section>
-                                   </Accordion>
-                                <Accordion id="labor-unions-acc">
+
                                                    <Accordion.Section id="labor-unions-description">
                                                     <Accordion.Title>
                                                   Appui aux syndicats et aux autres groupes de d&eacute;fense des travailleurs
@@ -294,30 +279,16 @@ const fr = () => {
                                                        <Accordion.Panel>
 
                                                        <p className="indent-margin">
-                                                          Le code de conduite d&rsquo;une soci&eacute;t&eacute;
-                                                          devrait inclure les droits de libert&eacute;
-                                                          d&apos;association et de n&eacute;gociation collective,
-                                                          mais il n&apos;existe pas toujours de syndicats dans
-                                                          toutes les entreprises. Dans celles o&ugrave; il
-                                                          n&apos;y a pas de syndicat ind&eacute;pendant, il est
-                                                          particuli&egrave;rement important que les
-                                                          v&eacute;rificateurs rel&egrave;vent
-                                                          d&apos;&eacute;ventuels indices indiquant qu&apos;une
-                                                          association de travailleurs pourrait &ecirc;tre
-                                                          r&eacute;prim&eacute;e. En cas d&rsquo;identification de
-                                                          r&eacute;pression d&rsquo;une association de
-                                                          travailleurs, ce probl&egrave;me doit &ecirc;tre
-                                                          r&eacute;gl&eacute; au moyen d&rsquo;un processus de
-                                                          r&eacute;paration. Lorsqu&apos;il existe un syndicat, il
-                                                          est important d&apos;inclure les
-                                                          d&eacute;l&eacute;gu&eacute;s syndicaux dans vos efforts
-                                                          de communication et d&apos;action sociale. En fin de
-                                                          compte, l&apos;organisation et l&apos;engagement
-                                                          v&eacute;ritables des travailleurs sont des
-                                                          &eacute;l&eacute;ments essentiels de tout effort visant
-                                                          &agrave; identifier et &agrave; &eacute;liminer le
-                                                          travail des enfants, le travail forc&eacute; et
-                                                          d&apos;autres abus des droits du travail.
+                                                          Le code de conduite d’une société devrait inclure les droits de liberté d&apos;association et de négociation collective, mais
+                                                          il n&apos;existe pas toujours de syndicats dans toutes les entreprises. Dans celles où il n&apos;y a pas de syndicat indépendant,
+                                                          il est particulièrement important que les vérificateurs relèvent d&apos;éventuels indices indiquant qu&apos;une association
+                                                          de travailleurs pourrait être réprimée. En cas d’identification de répression d’une association de travailleurs, ce problème
+                                                          doit être réglé au moyen d’un processus de réparation. Lorsqu&apos;il existe un syndicat, il est important d&apos;inclure les
+                                                          délégués syndicaux dans vos efforts de communication et d&apos;action sociale. En fin de compte, l&apos;organisation et
+                                                          l&apos;engagement véritables des travailleurs sont des éléments essentiels de tout effort visant à identifier et à éliminer
+                                                          le travail des enfants, le travail forcé et d&apos;autres abus des droits du travail. Un exemple de ce partenariat, celui de
+                                                          l’entreprise alimentaire transnationale française Danone* et l’Union internationale des travailleurs de l’alimentation, de
+                                                          l’agriculture, de l’hôtellerie-restauration, du tabac et des branches connexes (UITA)*, est souligné à la troisième étape : élaborer un code de conduite.
                                                        </p>
 
                                 <OwnWords>
@@ -355,53 +326,187 @@ const fr = () => {
                                 </OwnWords>
                                 </Accordion.Panel>
                                </Accordion.Section>
-                               </Accordion>
-                               <Accordion id="responsible-recruit-acc">
+
                                                                <Accordion.Section id="responsible-recruit-description">
                                                    <Accordion.Title>
-                                                 Responsible Recruitment
+                                                 Recrutement responsable
                                                       </Accordion.Title>
                                                       <Accordion.Panel>
 
                                                       <p className="indent-margin">
-                                                         <b>PLACEHOLDER FOR TEXT </b>
+                                                         Le secteur du recrutement de main-d&apos;œuvre internationale préoccupe de
+                                                         nombreuses entreprises qui disposent d’opérations mondiales. Les travailleurs
+                                                         voyageant de plus en plus dans le monde entier à la recherche d’opportunités
+                                                         d’emploi, le risque d’infractions commises sur les personnes de ces travailleurs
+                                                         augmente au sein de ce secteur souvent obscur et mal réglementé. Parmi ces infractions,
+                                                         on compte le fait de facturer des commissions excessives, de retenir les passeports
+                                                         des travailleurs concernés et de donner des informations trompeuses sur le type et la
+                                                         nature de l’emploi en question. Ces infractions sont particulièrement graves pour les
+                                                         travailleurs migrants, surtout ceux qui travaillent dans des pays ou au sein de chaînes
+                                                         d&apos;approvisionnement à haut risque, mais le manque de recrutement responsable dans toute chaîne
+                                                         d&apos;approvisionnement quelle qu’elle soit présente également des risques pour les sociétés et les travailleurs.
+
+                                                      </p>
+                                                      <p>
+                                                      Pour répondre à ces préoccupations, les entreprises devraient mettre en place les garanties qui s’imposent
+                                                      afin d’assurer le recrutement responsable des travailleurs. Pour tenter de leur fournir des recommandations
+                                                      en la matière, l’OIT a publié les{" "}
+                                                      <a
+                                                          target="_blank"
+                                                          rel="noopener noreferrer"
+                                                          href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
+                                                      >
+                                                      Principes généraux et directives opérationnelles concernant le recrutement
+                                                      équitable et la Définition concernant les frais de recrutement et les coûts connexes
+                                                      </a>
+                                                      {" "}pour aider les entreprises
+                                                      à créer des garanties dans le cadre de l’
+                                                      <a
+                                                          target="_blank"
+                                                          rel="noopener noreferrer"
+                                                          href="https://www.ilo.org/global/topics/fair-recruitment/lang--en/index.htm"
+                                                      >
+                                                      Initiative de recrutement équitable
+                                                      </a>
+                                                      , dans le cadre de laquelle l’OIT a
+                                                      créé une{" "}
+                                                      <a
+                                                          target="_blank"
+                                                          rel="noopener noreferrer"
+                                                          href="http://www.refworld.org/docid/40360bf34.htmlhttps://www.ilo.org/gimi/FRI.action"
+                                                      >
+                                                      carte interactive
+                                                      </a>
+                                                      {" "}apportant une perspective mondiale des lois, politiques et réglementations nationales
+                                                      ayant défini les frais de recrutement et les coûts connexes.
+                                                      </p>
+                                                      <p>
+                                                      Début 2019, dans le but de réduire le risque de traite des personnes, plusieurs organismes du gouvernement des
+                                                      États-Unis (le département de la Défense, l’Administration des services généraux et l’Administration nationale
+                                                      aéronautique et spatiale) ont publié une règle finale qui{" "}
+                                                      <a
+                                                          target="_blank"
+                                                          rel="noopener noreferrer"
+                                                          href="https://www.federalregister.gov/documents/2018/12/20/2018-27541/federal-acquisition-regulation-combating-trafficking-in-persons-definition-of-recruitment-fees"
+                                                      >
+                                                      définit les frais de recrutement
+                                                      </a>
+                                                      {" "}afin de mieux mettre
+                                                      en œuvre la réglementation fédérale relative aux acquisitions (FAR). L’interdiction imposée aux contractuels de
+                                                      facturer des frais de recrutement aux employés constitue un élément clé de la lutte contre la traite des personnes.
                                                       </p>
                                                       <ExampleInAction id="med_rep">
                                                        <h2>
                                                            <ExampleInAction.Icon alt="Lightbulb"/>
                                                            <strong>
-                                                           Exemple d&apos;action: AAFA/FLA Apparel & Footwear Industry Commitment to Responsible Recruitment
+                                                           Exemple d&apos;action: Engagement au recrutement responsable du secteur de l’habillement et de la chaussure de l’AAFA*/FLA*
                                                        </strong>
                                                        </h2>
                                                        <p>
-                                                          <b>PLACEHOLDER TEXT</b>
+                                                          En 2018, l’
+                                                          <a
+                                                              target="_blank"
+                                                              rel="noopener noreferrer"
+                                                              href="https://www.aafaglobal.org/"
+                                                          >
+                                                          American Apparel & Footwear Association
+                                                          </a>
+                                                          {" "}(Association américaine de l’habillement et de la chaussure) et la{" "}
+                                                          <a
+                                                              target="_blank"
+                                                              rel="noopener noreferrer"
+                                                              href="https://www.fairlabor.org/"
+                                                          >
+                                                          Fair Labor Association
+                                                          </a>
+                                                          {" "}(Association pour un travail équitable) ont lancé un effort sectoriel commun,
+                                                          l’Engagement au recrutement responsable, afin de faire face aux risques de
+                                                          travail forcé potentiels auxquels s’exposent les travailleurs migrants au
+                                                          sein de la chaîne d&apos;approvisionnement mondiale.
+                                                       </p>
+                                                       <p>
+                                                       En vertu de cet engagement, le secteur et les entreprises signataires s’engagent
+                                                       à créer des conditions dans le cadre desquelles aucun travailleur ne se voit forcé
+                                                       de payer pour obtenir un emploi, les travailleurs conservent le contrôle de leurs
+                                                       documents de voyage et ont entière liberté de circulation, et sont informés des
+                                                       conditions d&apos;emploi de base avant de quitter leur pays.
+                                                       </p>
+                                                       <p>
+                                                        Dans le cadre de cet effort, l’Engagement au recrutement responsable a publié un{" "}
+                                                        <a
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            href="http://www.refworld.org/docid/40360bf34.html"
+                                                            title="Trafficking in Human Beings: New Approaches to Combating the Problem"
+                                                        >
+                                                        Plan d’action sur le recrutement responsable en Malaisie
+                                                        </a>
+                                                        {" "}pour transformer un engagement oral en mesures concrètes.
+                                                       </p>
+                                                       <p>
+                                                       Source [en anglais] :{" "}
+                                                       <a
+                                                           target="_blank"
+                                                           rel="noopener noreferrer"
+                                                           href="https://www.aafaglobal.org/AAFA/Solutions_Pages/Commitment_to_Responsible_Recruitment"
+                                                       >
+                                                       https://www.aafaglobal.org/AAFA/Solutions_Pages/Commitment_to_Responsible_Recruitment
+                                                       </a>.
                                                        </p>
                                                       </ExampleInAction>
                                                       <br />
                                                   </Accordion.Panel>
                                               </Accordion.Section>
-                                              </Accordion>
 
-                                              <Accordion id="worker-voice-acc">
                                                                                  <Accordion.Section id="worker-voice-description">
                                                       <Accordion.Title>
-                                                    Ensuring Worker Voice
+                                                    Garantir la voix des travailleurs
                                                          </Accordion.Title>
                                                          <Accordion.Panel>
 
                                                          <p className="indent-margin">
-                                                            <b>PLACEHOLDER FOR TEXT </b>
+                                                         Le concept de « voix des travailleurs », aussi appelé dialogue avec les travailleurs, représente la
+                                                         liberté des travailleurs et leur capacité à faire part de leurs préoccupations et de souligner des
+                                                         problèmes sur leur lieu de travail. Pour encourager la contribution des travailleurs dans leurs
+                                                         opérations et chaînes d&apos;approvisionnement, les employeurs devraient engager le dialogue avec
+                                                         les travailleurs sur les conditions sur le lieu de travail et dispenser des formations adéquates
+                                                         sur les droits et responsabilités et sur les mécanismes de réclamation aux employés comme à l’équipe de direction.
                                                          </p>
                                                          <ExampleInAction id="med_rep">
                                                           <h2>
                                                               <ExampleInAction.Icon alt="Lightbulb"/>
                                                               <strong>
-                                                                  Exemple d&apos;action: Primark’s Worker Education Groups
-                                                                  de la mer
+                                                                  Exemple d&apos;action : Groupes d’éducation des travailleurs de Primark*
                                                               </strong>
                                                           </h2>
                                                           <p>
-                                                             <b>PLACEHOLDER TEXT</b>
+                                                            En 2009, l’enseigne de mode Primark a commencé à travailler avec l’ONG SAVE pour créer des Groupes d’éducation des
+                                                            travailleurs dans les communautés locales de l’État du Tamil Nadu, en Inde, où vivent un grand nombre de ses ouvriers.
+                                                            L’objectif de ces programmes est d’éduquer les travailleurs sur leurs droits et l’utilisation de tactiques de négociation
+                                                            avec l’équipe de direction. Pendant six ans, ces groupes ont touché 5 000 travailleurs directement et 25 000 indirectement
+                                                            par le biais de l’apprentissage par les pairs. En 2015, une évaluation externe du programme a montré que les travailleurs
+                                                            qui y avaient participé pouvaient mieux exprimer leurs droits et négocier avec l’équipe de direction de leur lieu de travail.
+                                                            Ils ont ainsi pu négocier avec succès pour améliorer le matériel de sécurité, les augmentations de salaires et de primes, les
+                                                            congés payés et l’accès aux avantages sociaux. Ils ont également su utiliser les groupes d’éducation pour faire part de leurs
+                                                            réclamations dans les usines.
+                                                          </p>
+                                                          <p>
+                                                          Pour obtenir de plus amples renseignements sur les Groupes d’éducation des travailleurs de Primark [en anglais] :{" "}
+                                                          <a
+                                                                 target="_blank"
+                                                                 rel="noopener noreferrer"
+                                                                 href="https://knowthechain.org/themes/19/"
+                                                             >
+                                                          https://knowthechain.org/themes/19/
+                                                          </a>
+                                                          {" "}et{" "}
+                                                          <a
+                                                                 target="_blank"
+                                                                 rel="noopener noreferrer"
+                                                                 href="https://www.business-humanrights.org/sites/default/files/documents/KTC_Primark%20response%20June2016_v2.pdf"
+                                                             >
+                                                          https://www.business-humanrights.org/sites/default/files/documents/KTC_Primark%20response%20June2016_v2.pdf
+                                                          </a>.
                                                           </p>
                                                          </ExampleInAction>
                                                          <br />

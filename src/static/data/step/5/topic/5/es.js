@@ -63,7 +63,7 @@ const es = () => {
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>Ejemplo en acci&oacute;n</strong>: proceso de
                         modificaci&oacute;n del c&oacute;digo de la Fair Labor
-                        Association (FLA)
+                        Association*
                     </h2>
                     <p>
                         La{" "}

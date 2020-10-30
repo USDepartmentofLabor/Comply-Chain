@@ -84,12 +84,12 @@ export const StepData = {
             {
                 termName: "Infraction",
                 termDefinition:
-                    "Situation identifiée par un audit constituant un manquement au code de conduite."
+                    "Situation identifiée par un audit ou un autre moyen constituant un manquement au code de conduite ou à d’autres normes locales ou internationales."
             },
             {
                 termName: "Réparation",
                 termDefinition:
-                    "Mesures prises en réponse à une infraction du code de conduite indentifiée dans le cadre de l’audit. Les mesures de réparation devraient à la fois régler le problème et l'empêcher de se reproduire."
+                    "Mesures prises en réponse à une infraction identifiée. Les mesures de réparation devraient s’efforcer tant de régler le problème que de l'empêcher de se reproduire."
             },
             {
                 termName: "Plan d'action corrective (PAC)",

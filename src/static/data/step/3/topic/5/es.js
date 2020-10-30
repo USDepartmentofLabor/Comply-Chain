@@ -88,7 +88,14 @@ const es = () => {
                         constantemente recibe con brazos abiertos a nuevas
                         empresas y organizaciones pertinentes.
                     </p>
-                    <p>Fuente: https://www.ilo.org/ipec/Action/CSR/clp/lang--es/index.htm.</p>
+                    <p>Fuente:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ilo.org/ipec/Action/CSR/clp/lang--es/index.htm"
+                    >
+                    https://www.ilo.org/ipec/Action/CSR/clp/lang--es/index.htm
+                    </a>.</p>
                 </ExampleInAction>
                 <br />
                 <ExampleInAction id="gbn">

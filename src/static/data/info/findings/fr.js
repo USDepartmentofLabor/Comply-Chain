@@ -5,61 +5,43 @@ const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Conclusions sur les pires formes de travail des enfants</h1>
+                <h1>Conclusions concernant le rapport sur les pires formes de travail des enfants</h1>
+                
                 <p>
-                    Le rapport annuel du département du Travail intitulé «
-                    Conclusions sur les pires formes de travail des enfants »
-                    évalue les efforts déployés par certains pays et territoires
-                    bénéficiaires d’échanges commerciaux avec les États-Unis en
-                    vue d’éliminer les pires formes de travail des enfants par
-                    des mesures législatives, des mécanismes de répression, des
-                    politiques et des programmes sociaux.
+                    Tous les ans, les <em>Conclusions du d&eacute;partement du Travail des &Eacute;tats-Unis sur les pires 
+                        formes de travail des enfants se</em> penchent sur les efforts de plus de 130 pays et territoires 
+                        qui b&eacute;n&eacute;ficient du commerce des &Eacute;tats-Unis afin d&rsquo;&eacute;liminer les pires 
+                        formes de travail des enfants par le biais de l&eacute;gislations, m&eacute;canismes de r&eacute;pression, 
+                        politiques et programmes sociaux. Ce rapport pr&eacute;sente des informations sur la pr&eacute;valence et 
+                        la distribution sectorielle du travail des enfants dans chaque pays et &eacute;value les efforts 
+                        r&eacute;alis&eacute;s par le gouvernement du pays en question pour s&rsquo;attaquer au probl&egrave;me 
+                        pendant chaque ann&eacute;e vis&eacute;e. Il fournit &eacute;galement &agrave; chaque pays des recommandations 
+                        de mesures publiques, utiles aux entreprises et aux acteurs de la soci&eacute;t&eacute; civile pour identifier 
+                        les &eacute;ventuels leviers dans leur propre dialogue avec les gouvernements respectifs.
+                    </p>
+
+                <p>
+                    Le rapport constitue une excellente ressource pour les entreprises qui disposent de cha&icirc;nes 
+                    d&rsquo;approvisionnement mondiales, les gouvernements &eacute;trangers, les ONG, les universitaires et les 
+                    l&eacute;gislateurs qui travaillent sur les questions de travail et des droits de l&rsquo;homme. Il aide &agrave; 
+                    informer le Congr&egrave;s et les organes de l&rsquo;Ex&eacute;cutif qui &eacute;laborent les politiques sur le 
+                    droit du travail et le commerce et constitue une ressource importante pour le d&eacute;partement pour 
+                    &eacute;valuer les futures priorit&eacute;s en mati&egrave;re d&rsquo;assistance technique et de recherche dans 
+                    sa lutte contre le travail des enfants dans le monde entier.
                 </p>
-                Le rapport présente:
-                <ul>
-                    <li>
-                        Des conclusions sur la prévalence et la répartition
-                        sectorielle des pires formes du travail des enfants dans
-                        chaque pays
-                    </li>
-                    <li>
-                        Des suggestions spécifiques de mesures gouvernementales
-                        pour chaque pays (depuis 2009).
-                    </li>
-                    <li>
-                        Des évaluations individuelles de divers pays identifiant
-                        s’ils ont accompli des progrès importants, modérés,
-                        minimes ou nuls (depuis 2011).
-                    </li>
-                </ul>
+
                 <p>
-                    Le Rapport sert de ressource aux gouvernements étrangers,
-                    aux ONG, aux universitaires et aux décideurs politiques qui
-                    travaillent sur les questions de main d’œuvre et de droits
-                    de la personne. Il informe le Congrès et les organismes de
-                    l’Exécutif qui formulent les politiques applicables à la
-                    main d’œuvre et aux échanges commerciaux, et constitue une
-                    ressource importante pour l’évaluation par le département du
-                    Travail de toute future priorité en matière d’assistance
-                    technique et de recherche dans le cadre de la lutte contre
-                    le travail des enfants à l’échelle mondiale.
+                    Le Bureau des affaires internationales (ILAB) du d&eacute;partement du Travail publie ce rapport tous les ans 
+                    depuis 2002, comme l&rsquo;exige le mandat qui lui a &eacute;t&eacute; confi&eacute; par la Loi sur le commerce 
+                    et le d&eacute;veloppement (TDA) de l&rsquo;an 2000, qui exige que les pays satisfassent pleinement aux engagements 
+                    d&rsquo;&eacute;limination des pires formes de travail des enfants pour pouvoir pr&eacute;tendre &agrave; certains 
+                    programmes commerciaux pr&eacute;f&eacute;rentiels des &Eacute;tats-Unis. Elle oblige &eacute;galement le 
+                    secr&eacute;taire du Travail des &Eacute;tats-Unis &agrave; publier tous les ans des conclusions sur les mesures 
+                    prises par ces pays b&eacute;n&eacute;ficiaires en direction de la mise en &#339;uvre de ces engagements.
                 </p>
+
                 <p>
-                    Le Bureau chargé des Affaires internationales du Travail du
-                    département du Travail (ILAB) publie ces Conclusions chaque
-                    année depuis 2002, conformément au mandat de la TDA de 2000
-                    (Trade and Development Act - Loi sur le Commerce et le
-                    Développement). La TDA exige des pays qu’ils respectent des
-                    engagements visant à éliminer les pires formes de travail
-                    des enfants afin de pouvoir bénéficier de certains
-                    programmes de préférences commerciales offerts par les
-                    États-Unis. Elle exige de surcroît que le secrétaire au
-                    Commerce publie chaque année des conclusions sur les
-                    initiatives mises en place par les pays bénéficiaires pour
-                    s’acquitter de leurs engagements.
-                </p>
-                <p>
-                    Pour de plus amples informations, lire:{" "}
+                    Pour en savoir plus:{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -67,8 +49,10 @@ const fr = () => {
                         title="Child labor Findings Report"
                     >
                         https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings
-                    </a>
+                    </a>{" "}
+                    [en anglais].
                 </p>
+                
             </div>
         </StaticData>
     );

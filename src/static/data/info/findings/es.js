@@ -7,7 +7,7 @@ const en = () => {
             <div>
                 <h1>Conclusiones del informe sobre las peores formas de trabajo infantil</h1>
                 <p>
-                    El informe anual del Departamento de Trabajo, Conclusiones sobre las peores formas de trabajo infantil, se 
+                    El informe anual del Departamento de Trabajo, <em>Conclusiones sobre las peores formas de trabajo infantil</em>, se 
                     centra en las iniciativas de m&aacute;s de 130 pa&iacute;ses beneficiarios del comercio con los Estados Unidos 
                     para eliminar las peores formas de trabajo infantil mediante legislaci&oacute;n, mecanismos de ejecuci&oacute;n, 
                     pol&iacute;ticas y programas sociales. En el informe se presenta informaci&oacute;n sobre el predominio y 

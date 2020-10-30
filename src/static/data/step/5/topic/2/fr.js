@@ -42,8 +42,7 @@ const fr = () => {
                     tir&eacute;s d&apos;un code sont d&eacute;taill&eacute;s
                     dans{" "}
                     <Link to="/steps/7">
-                        la 5<sup>e</sup>&nbsp;&eacute;tape: surveiller la
-                        conformit&eacute;
+                        cinquième étape, Surveiller la conformité
                     </Link>
                 </p>
                 <h2>Exemples de codes</h2>
@@ -70,7 +69,7 @@ const fr = () => {
                             href="http://www.coca-colacompany.com/content/dam/journey/us/en/private/fileassets/pdf/unknown/unknown/SGP_Brochure_ENG.pdf"
                             title="Principes directeurs de The Coca-Cola Company pour les fournisseurs"
                         >
-                            Principes directeurs de The Coca-Cola Company pour
+                            Principes directeurs de The Coca-Cola* Company pour
                             les fournisseurs
                         </a>
                     </li>
@@ -82,7 +81,7 @@ const fr = () => {
                             title="Normes en mati&egrave;re de responsabilit&eacute; des fournisseurs de Starbucks*: produits manufactur&eacute;s et services"
                         >
                             Normes en mati&egrave;re de responsabilit&eacute;
-                            des fournisseurs de Starbucks*: produits
+                            des fournisseurs de Starbucks: produits
                             manufactur&eacute;s et services
                         </a>
                     </li>
@@ -388,37 +387,7 @@ const fr = () => {
                     tripartite concernant les entreprises multinationales et la
                     politique sociale.
                 </p>
-                <ExampleInAction id="eicc">
-                    <h4>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                        Exemple d&apos;action
-                        </strong>
-                        &nbsp;{": "}
-                        <strong>
-                            Text
-                        </strong>
-                    </h4>
-                   <p>
-                       <b>PLACEHOLDER TEXT</b>
-                   </p>
-                </ExampleInAction>
-                <br />
-              <ExampleInAction id="eicc">
-                  <h4>
-                      <ExampleInAction.Icon alt="Lightbulb"/>
-                      <strong>
-                      Exemple d&apos;action
-                      </strong>
-                      &nbsp;{": "}
-                      <strong>
-                          Text
-                      </strong>
-                  </h4>
-                 <p>
-                     <b>PLACEHOLDER TEXT</b>
-                 </p>
-              </ExampleInAction>
+
             </div>
         </StaticData>
     );

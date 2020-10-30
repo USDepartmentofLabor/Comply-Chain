@@ -53,11 +53,11 @@ export const StepData = {
         topics: Topics.es,
         keywords: [
             "Examen independiente",
-            "Vigilancia independiente",
+            "Vigilancia independiente (auditoría)",
             "Verificación independiente",
             "Organismo de certificación",
             "OC",
-            "Evaluación del impacto"
+            "Évaluation des incidences"
         ],
         learningObjectives: [
             "Entender la diferencia entre auditoría y examen independiente y comprender la importancia que reviste este último como paso crítico del proceso de cumplimiento social.",
@@ -98,9 +98,9 @@ export const StepData = {
         topics: Topics.fr,
         keywords: [
             "Examen indépendant",
+            "Vérification indépendante (audit)",
             "Contrôle indépendant",
-            "Vérification indépendante",
-            "Organisation de certification",
+            "Organisme de certification",
             "OC",
             "Évaluation des incidences"
         ],
@@ -112,27 +112,27 @@ export const StepData = {
             {
                 termName: "Examen indépendant",
                 termDefinition:
-                    "L’examen indépendant comprend le contrôle indépendant (audit) et la vérification indépendante.  Dans le contexte de la conformité sociale, le terme indépendance se définit comme l’absence de transaction financière directe entre l’entreprise et une entité extérieure."
+                    "L’examen indépendant comprend la vérification indépendante (audit) et le contrôle indépendant. Dans le contexte de la conformité sociale, le terme indépendance se définit comme l’absence de transaction financière directe entre l’entreprise et une entité extérieure."
             },
             {
-                termName: "Contrôle indépendant (audit)",
+                termName: "Vérification indépendante (audit)",
                 termDefinition:
-                    "Contrôle/audit réalisé par des professionnels des audits, accrédités par des institutions ou des organisations ; leur rôle est de s'assurer que les audits se déroulent sans aucune transaction financière directe entre l'entreprise et l'auditeur. D'ordinaire, une entreprise paie une institution distincte indépendante qui effectue les audits et/ou une redevance pour appartenir à cette institution. L'institution accrédite les auditeurs en vertu de ses normes et elle est chargée de programmer tous les audits et de les surveiller.  Même si cela est conçu pour accroître la crédibilité de l'audit, dans certaines régions ou sites, cette disposition peut ne pas être disponible.  De plus, même en l'absence d'une transaction financière directe, certaines parties prenantes peuvent encore s'inquiéter du degré d'indépendance d'un auditeur par rapport à l'entité faisant l'objet de l'audit. Il existe différents degrés d'indépendance, et cette dernière doit au fond être jugée au cas par cas."
+                    "Vérification (audit) effectuée par des professionnels des audits, accrédités par des institutions ou des organismes ; leur rôle est de s'assurer que les audits se déroulent sans aucune transaction financière directe entre l'entreprise et l'auditeur. D'ordinaire, une entreprise paie une institution distincte indépendante qui effectue les audits et/ou une redevance pour appartenir à cette institution. L'institution accrédite les auditeurs en vertu de ses normes et elle est chargée de programmer tous les audits et de les surveiller. Même si cela est conçu pour accroître la crédibilité de l'audit, dans certaines régions ou sites, ce type de dispositions peut ne pas exister. De plus, même en l'absence d'une transaction financière directe, certaines parties prenantes peuvent encore s'inquiéter du degré d'indépendance d'un auditeur par rapport à l'entité faisant l'objet de l'audit. Il existe différents degrés d'indépendance, et elle doit au fond être jugée au cas par cas."
             },
             {
-                termName: "Vérification indépendante",
+                termName: "Contrôle indépendant",
                 termDefinition:
-                    "Examen indépendant par une partie tierce de la mise en œuvre et de l’efficacité des autres activités du système de conformité sociale, généralement effectué par une organisation de certification."
+                    "Examen indépendant par une partie tierce de la mise en œuvre et de l’efficacité des autres activités du système de conformité sociale, généralement effectué par un organisme de certification."
             },
             {
-                termName: "Organisation de certification (OC)",
+                termName: "Organisme de certification",
                 termDefinition:
                     "Organisation accréditée pour certifier ou vérifier la conformité d’une autre entité à une norme donnée ou à un ensemble donné de normes."
             },
             {
                 termName: "Évaluation des incidences",
                 termDefinition:
-                    "Méthode qui établit, avec une rigueur statistique, une relation de cause à effet et une incidence quantifiable d'une intervention donnée."
+                    "Méthode qui établit, avec une rigueur statistique, une relation de cause à effet et l’incidence quantifiable d'une intervention donnée."
             }
         ],
         furtherResources: Resources.fr,

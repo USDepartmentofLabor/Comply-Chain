@@ -114,7 +114,7 @@ const fr = () => {
                         href="https://www.dol.gov/general/apps/ilab"
                         title="Appli Sweat &amp; Toil"
                     >
-                        Appli Sweat &amp; Toil
+                        appli Sweat &amp; Toil
                     </a>
                     , ainsi que les rapports d&eacute;taill&eacute;s du
                     d&eacute;partement du Travail concernant les{" "}
@@ -149,9 +149,9 @@ const fr = () => {
                         href="https://itunes.apple.com/us/app/sweat-toil-child-labor-forced/id1018240593?ls=1"
                         title="iTunes"
                     >
-                        iTunes
+                        l&apos;App Store
                     </a>{" "}
-                    ou{" "}
+                    d’Apple ou sur{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -259,103 +259,7 @@ const fr = () => {
                         l&rsquo;homme dans leurs cha&icirc;nes
                         d&rsquo;approvisionnement.
                     </p>
-                    <p className="small-text">&copy;George Osodi/Panos</p>
                 </ExampleInAction>
-
-                <p>
-                    Certaines entreprises choisissent
-                    d&apos;«&nbsp;externaliser&nbsp;» la fonction de collecte
-                    des informations aupr&egrave;s d&apos;un expert, par exemple
-                    un cabinet de consultants, un groupe de la
-                    soci&eacute;t&eacute; civile ou un &eacute;tablissement
-                    universitaire. Ainsi, en 2010, l&apos;ONG Human Rights
-                    Watch* a publi&eacute; un rapport documentant les mauvaises
-                    conditions de travail (y compris le travail des enfants et
-                    le travail forc&eacute;) dans les exploitations de
-                    tabaculture au Kazakhstan fournissant Philip Morris
-                    Kazakhstan* (PMK), filiale &agrave; 100 % de la
-                    soci&eacute;t&eacute; de tabac Philip Morris International*
-                    (PMI). PMI a par la suite confi&eacute; &agrave; l&apos;ONG{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.verite.org/"
-                        title="Verit&eacute;"
-                    >
-                        Verit&eacute;
-                    </a>
-                    * une enqu&ecirc;te sur le terrain portant sur les
-                    conditions de travail dans les exploitations de tabac
-                    kazakhes et la pr&eacute;paration d&rsquo;un{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.verite.org/wp-content/uploads/2016/11/Verite_Report_for_PMI_on_Kazakhstan-2_May_2011.pdf"
-                        title="rapport de recommandations"
-                    >
-                        rapport de recommandations
-                    </a>
-                    . PMI s&apos;est servie de ce rapport pour &eacute;laborer
-                    de nouvelles politiques et pratiques. Celles-ci comprennent
-                    un syst&egrave;me d&apos;audit exhaustif pour toutes les
-                    exploitations de tabac au Kazakhstan, ainsi que des
-                    partenariats avec des ONG locales sur des centres
-                    a&eacute;r&eacute;s pour les enfants, des &eacute;coles
-                    techniques, des centres communautaires, des programmes
-                    d&apos;inscriptions scolaires, et des programmes
-                    d&apos;&eacute;ducation et de formation des
-                    propri&eacute;taires d&apos;exploitations agricoles.&nbsp;
-                </p>
-                <img src={hrm} alt="Human Rights Watch" />
-                <p className="small-text">
-                    &copy;Marcus Bleasdale/Human Rights Watch
-                </p>
-                <p>
-                    Si vous poss&eacute;dez d&eacute;j&agrave; des relations
-                    bien &eacute;tablies avec des fournisseurs et que vous
-                    souhaitez &eacute;valuer leurs risques existants, les
-                    rapports r&eacute;alis&eacute;s sur ces fournisseurs par
-                    d&apos;autres entreprises ou groupes offrent une source
-                    tr&egrave;s utile de donn&eacute;es. Il peut &ecirc;tre
-                    n&eacute;cessaire, pour y avoir acc&egrave;s, de rejoindre
-                    un groupe tel que le{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.sedexglobal.com/"
-                        title="Supplier Ethical Data Exchange (SEDEX)"
-                    >
-                        Supplier Ethical Data Exchange (SEDEX)
-                    </a>{" "}
-                    et{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.fairfactories.org/"
-                        title="Fair Factories Clearinghouse"
-                    >
-                        Fair Factories Clearinghouse
-                    </a>
-                    , qui fournissent une plateforme de partage des informations
-                    sur des fournisseurs communs et de collaboration sur les
-                    efforts de surveillance et de r&eacute;paration.&nbsp;
-                </p>
-                <p>
-                    Si des rapports d&apos;audits ne sont pas disponibles, il
-                    existe d&apos;autres moyens de recueillir des informations
-                    sur vos fournisseurs actuels, afin de d&eacute;terminer
-                    lesquels viser pour des efforts de conformit&eacute; plus
-                    pouss&eacute;s. Un syndicat peut &eacute;ventuellement
-                    constituer une bonne source d&apos;information sur les
-                    facteurs de risque de violations des droits du travail.
-                    S&apos;il n&apos;existe pas de syndicat, le fournisseur
-                    dispose peut-&ecirc;tre d&apos;autres m&eacute;canismes de
-                    revendications ou de plaintes qui pourraient constituer une
-                    source d&apos;informations. &Agrave; l&apos;&eacute;vidence,
-                    une autre option serait de sonder tous vos fournisseurs sur
-                    les facteurs de risques principaux
-                    &eacute;num&eacute;r&eacute;s ci-dessus.
-                </p>
 
             </div>
         </StaticData>

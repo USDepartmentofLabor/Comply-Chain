@@ -22,9 +22,8 @@ const fr = () => {
                                         rel="noopener noreferrer"
                                         href="https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf"
                                     >
-                                        https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf
-                                    </a>
-                                    .
+                                    https://betterwork.org/dev/wp-content/uploads/2016/09/BW-Progress-and-Potential_Web-final.pdf
+                                    </a>.
                                 </li>
                             </ol>
             </div>

@@ -236,7 +236,15 @@ const es = () => {
                         maneras de recortar costos. El &uacute;nico factor sobre el que tienen 
                         bastante control es la mano de obra.&rdquo;
                         </p>
-                        <p>Palabras de Scott Nova, director ejecutivo de Workers Rights Consortium*, 
+                        <p>Palabras de Scott Nova, director ejecutivo de{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.workersrights.org/"
+                            title="Workers Rights Consortium"
+                        >
+                            Workers Rights Consortium
+                        </a>*,  
                             un grupo que vigila e investiga las condiciones de trabajo en f&aacute;bricas 
                             de todo el mundo, durante una entrevista con The Atlantic en 2015.</p>
                     </OwnWords>

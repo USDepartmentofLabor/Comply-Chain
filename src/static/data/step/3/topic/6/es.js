@@ -140,7 +140,14 @@ const es = () => {
                                 Afganist&aacute;n
                             </em>
                         </a>
-                        <em>, </em>financiado por el Departamento de Trabajo y ejecutado por GoodWeave: https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan.
+                        <em>, </em>financiado por el Departamento de Trabajo y ejecutado por GoodWeave:{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan."
+
+                        >
+                        https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan</a>.
                     </p>
                     <img src={goodweave} alt="GoodWeave International" />
                     <p className="small-text">

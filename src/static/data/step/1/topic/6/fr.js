@@ -11,16 +11,17 @@ const fr = () => {
                     <strong>Conditionnalité des prêts</strong>
                 </h1>
                 <p>
-                    Les entreprises qui re&ccedil;oivent des pr&ecirc;ts de
-                    l&apos;
+                    Les entreprises qui reçoivent des prêts de la
+                   {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
+                        href="https://www.dfc.gov/"
                     >
-                        Overseas Private Investment Corporation (OPIC)
+                        Société financière internationale de développement (DFC)
                     </a>{" "}
-                    du gouvernement des &Eacute;tats-Unis ou de la{" "}
+                    du gouvernement des États-Unis (créée en 2019 pour consolider les
+                    fonctions de la Société de promotion des investissements à l’étranger – OPIC) ou de la{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

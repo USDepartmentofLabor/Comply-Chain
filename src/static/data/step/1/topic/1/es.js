@@ -548,6 +548,26 @@ const es = () => {
                                     esclavitud y trata de personas.&nbsp;
                                 </p>
                                 <p>
+                                    V&eacute;ase tambi&eacute;n{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.verite.org/the-california-transparency-in-supply-chains-act-a-resource-guide/"
+                                    >
+                                        <em>
+                                            <i>
+                                                The California Transparency in
+                                                Supply Chains Act:
+                                            </i>{" "}
+                                            <i>A Resource Guide</i>
+                                        </em>
+                                    </a>
+                                    <em>, </em>elaborada por el Departamento de
+                                    Justicia de California, que contiene
+                                    recomendaciones de cumplimiento y ejemplos
+                                    de pr&aacute;cticas de divulgaci&oacute;n.
+                                </p>
+                                <p>
                                     V&eacute;ase tambi&eacute;n la
                                     publicaci&oacute;n{" "}
                                     <a
@@ -603,26 +623,6 @@ const es = () => {
                                         Verit&eacute;
                                     </a>
                                     .
-                                </p>
-                                <p>
-                                    V&eacute;ase tambi&eacute;n{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.verite.org/the-california-transparency-in-supply-chains-act-a-resource-guide/"
-                                    >
-                                        <em>
-                                            <i>
-                                                The California Transparency in
-                                                Supply Chains Act:
-                                            </i>{" "}
-                                            <i>A Resource Guide</i>
-                                        </em>
-                                    </a>
-                                    <em>, </em>elaborada por el Departamento de
-                                    Justicia de California, que contiene
-                                    recomendaciones de cumplimiento y ejemplos
-                                    de pr&aacute;cticas de divulgaci&oacute;n.
                                 </p>
                                 <p>
                                     V&eacute;ase tambi&eacute;n{" "}

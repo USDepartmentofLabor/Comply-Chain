@@ -94,7 +94,14 @@ const es = () => {
                                        >
                                     How a Deeper Dive into Our Supply Chain Led to a New Migrant Workers Standard
                                     </a>,
-                                    2015 disponible en idioma inglés solamente en https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html.
+                                    2015 disponible en idioma inglés solamente en{" "}
+                                    <a
+                                           target="_blank"
+                                           rel="noopener noreferrer"
+                                           href="https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html"
+                                       >
+                                    https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html
+                                    </a>.
                                     </p>
                                 </OwnWords>
             </div>

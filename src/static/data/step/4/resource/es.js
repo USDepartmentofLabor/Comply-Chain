@@ -371,6 +371,16 @@ const es = () => {
                         .
                     </li>
                     <li>
+                    Departamento de Estado de los Estados Unidos. Informes por país sobre la práctica de
+                    derechos humanos. Washington, DC, 2010; disponible en idioma inglés solamente en{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.state.gov/g/drl/rls/hrrpt/"
+                    >
+                    http://www.state.gov/g/drl/rls/hrrpt/</a>.
+                    </li>
+                    <li>
                         Departamento de Estado de los EE.UU.,{" "}
                         <a
                             target="_blank"

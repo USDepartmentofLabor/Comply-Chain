@@ -6,48 +6,26 @@ const fr = () => {
         <StaticData>
             <div>
                 <h1>
-                                                    &Eacute;valuer les causes profondes et s&rsquo;y attaquer
+                                                    S’attaquer aux causes profondes
                                                 </h1>
-                                                <p>
-                                                    Parmi les facteurs de risques externes qu&rsquo;une
-                                                    soci&eacute;t&eacute; ou qu&rsquo;un secteur devront
-                                                    &eacute;tudier figurent les causes profondes sous-jacentes
-                                                    du travail des enfants et du travail forc&eacute;.&nbsp;
-                                                </p>
                                                 <h2>
                                                     Quelles sont les causes profondes du travail des enfants et
                                                     du travail forc&eacute;?
                                                 </h2>
                                                 <p className="indent-margin">
-                                                    Un grand nombre de pays d&apos;o&ugrave; viennent de plus en
-                                                    plus les produits manufactur&eacute;s, ou ceux o&ugrave;
-                                                    sont cultiv&eacute;s les principaux produits agricoles, font
-                                                    face &agrave; des d&eacute;fis sociaux, &eacute;conomiques
-                                                    et de gouvernance profonds qui perp&eacute;tuent le travail
-                                                    des enfants et le travail forc&eacute;. De ces d&eacute;fis,
-                                                    le plus saillant est la <strong>pauvret&eacute;</strong>,
-                                                    qui en sous-tend &eacute;galement beaucoup d&rsquo;autres.
-                                                    Selon les estimations de la Banque mondiale pour 2013,
-                                                    767&nbsp;millions de personnes dans le monde en
-                                                    d&eacute;veloppement vivent dans une pauvret&eacute;
-                                                    extr&ecirc;me, subsistant avec moins de 1,90&nbsp;dollar
-                                                    &Eacute;.-U. par jour. Le manque d&rsquo;emploi des adultes
-                                                    proposant des salaires d&eacute;cents ne fait
-                                                    qu&rsquo;exacerber la pauvret&eacute; dans le monde.
-                                                    Celle-ci est &eacute;galement li&eacute;e &agrave; des
-                                                    vuln&eacute;rabilit&eacute;s qui ne se r&eacute;sument pas
-                                                    aux revenus faibles. Les pauvres sont d&eacute;nu&eacute;s
-                                                    de m&eacute;canismes pour faire face aux chocs
-                                                    &eacute;conomiques et p&acirc;tissent de fa&ccedil;on
-                                                    disproportionn&eacute;e d&apos;une mauvaise sant&eacute;, de
-                                                    la faim et d&apos;un acc&egrave;s insuffisant &agrave;
-                                                    l&apos;&eacute;ducation et aux services sociaux. Ainsi, ils
-                                                    pourraient &ecirc;tre plus dispos&eacute;s &agrave; accepter
-                                                    des risques pour se pr&eacute;valoir
-                                                    d&apos;opportunit&eacute;s &eacute;conomiques, ce qui les
-                                                    rend plus vuln&eacute;rables &agrave; l&apos;exploitation
-                                                    dans le travail. Cela est particuli&egrave;rement vrai pour
-                                                    les travailleurs migrants.
+                                                    Un grand nombre de pays d&apos;où viennent de plus en plus les produits manufacturés,
+                                                    ou ceux où sont cultivés les principaux produits agricoles, font face à des défis sociaux,
+                                                    économiques et de gouvernance profonds qui perpétuent le travail des enfants et le travail forcé.
+                                                    De ces défis, le plus saillant est la <b>pauvreté</b>. Selon les estimations de la Banque mondiale pour
+                                                    2015, 736 millions de personnes dans le monde en développement vivent dans une pauvreté extrême,
+                                                    subsistant avec moins de 1,90 dollar É.-U. par jour. Le manque d’emploi des adultes proposant des
+                                                    salaires décents ne fait qu’exacerber la pauvreté dans le monde. Celle-ci est également liée à des
+                                                    vulnérabilités qui ne se résument pas aux revenus faibles. Les pauvres sont dénués de mécanismes
+                                                    pour faire face aux chocs économiques et pâtissent de façon disproportionnée d&apos;une mauvaise
+                                                    santé, de la faim et d&apos;un accès insuffisant à l&apos;éducation et aux services sociaux.
+                                                    Ainsi, ils pourraient être plus disposés à accepter des risques pour se prévaloir d&apos;opportunités
+                                                    économiques, ce qui les rend plus vulnérables à l&apos;exploitation dans le travail.
+                                                    Cela est particulièrement vrai pour les travailleurs migrants.
                                                 </p>
                                                 <h2>Causes li&eacute;es &agrave; la pauvret&eacute;</h2>
                                                     <Accordion id="lack-of-awareness-acc">
@@ -75,8 +53,7 @@ const fr = () => {
                                                                            </p>
                                                                        </Accordion.Panel>
                                                                    </Accordion.Section>
-                                                                   </Accordion>
-                                                    <Accordion id="gender-ineq-acc">
+
                                                                           <Accordion.Section id="gender-ineq-description">
                                                                         <Accordion.Title>
                                                                       In&eacute;galit&eacute; entre les hommes et les femmes
@@ -84,18 +61,37 @@ const fr = () => {
                                                                            </Accordion.Title>
                                                                            <Accordion.Panel>
                                                                             <p className="indent-margin">
-                                                                               Dans de nombreux pays, les femmes et les filles courent
-                                                                              des risques suppl&eacute;mentaires d&apos;exploitation
-                                                                              dans le travail, y compris le travail des enfants et le
-                                                                              travail forc&eacute;. Les femmes, par exemple, sont
-                                                                              souvent moins instruites que les hommes d&apos;un
-                                                                              m&ecirc;me milieu socio-&eacute;conomique et culturel,
-                                                                              et des facteurs sociaux peuvent restreindre leur
-                                                                              capacit&eacute; &agrave; communiquer avec des figures en
-                                                                              position d&apos;autorit&eacute;. Ce type
-                                                                              d&apos;in&eacute;galit&eacute;s peut entraver leur
-                                                                              possibilit&eacute; de s&apos;exprimer pour
-                                                                              d&eacute;fendre leurs droits de travailleuses.
+                                                                              Dans le monde entier, les femmes et les filles courent des risques supplémentaires
+                                                                              d&apos;exploitation dans le travail, y compris le travail des enfants et le travail
+                                                                              forcé. Des lois discriminatoires, les politiques et les normes sociales peuvent constituer
+                                                                              des obstacles majeurs à l’accès à l’éducation, à la formation et aux réseaux professionnels,
+                                                                              à la participation et à la direction syndicales et à l’entrée et aux progrès sur le marché du
+                                                                              travail, notamment aux postes de dirigeants dans les sociétés. Par conséquent, les femmes
+                                                                              sont représentées de manière disproportionnée dans les emplois précaires et faiblement rémunérés
+                                                                              disposant de peu de protections et de recours en cas d’infractions des droits du travail.
+                                                                           </p>
+                                                                           <p>
+                                                                           En Colombie, le projet{" "}
+                                                                           <a
+                                                                               target="_blank"
+                                                                               rel="noopener noreferrer"
+                                                                               href="https://www.dol.gov/agencies/ilab/somos-tesoro-we-are-treasure-project-reduce-child-labor-colombia"
+                                                                           >
+                                                                           Somos Tesoro
+                                                                           </a>
+                                                                           , financé par le département du Travail, œuvre avec plus de 3 500 femmes
+                                                                           des communautés charbonnières et aurifères pour réduire leur vulnérabilité à l’exploitation par le travail et
+                                                                           aux violences sexistes. Il aide les femmes qui travaillent dans les mines artisanales et à petite échelle,
+                                                                           notamment comme orpailleuses, à améliorer leurs pratiques d’extraction et à rester en conformité avec les
+                                                                           exigences légales pour le travail minier. En outre, le projet établit des partenariats avec des femmes chefs
+                                                                           de famille pour créer des potagers, lancer des entreprises et développer des compétences professionnelles.
+                                                                           Le projet Somos Tesoro œuvre également avec les propriétaires et gestionnaires des mines, les mineurs et
+                                                                           l’Association des femmes mineurs entrepreneurs* (AEFM) pour sensibiliser aux violences sexistes, créer des
+                                                                           protocoles pour les mécanismes de réclamation et mettre en place des réseaux de soutien pour aider les
+                                                                           femmes mineurs à détecter et régler les cas de discrimination et de violences sexistes. Créé avec le soutien
+                                                                           du projet Somos Tesoro, l’AEFM regroupe plus de 65 femmes mineurs, notamment mineurs de charbon, briquetiers,
+                                                                           ingénieurs et professionnels du travail et de la sécurité. Mettant à profit cette réussite, l’USAID a commencé
+                                                                           à financer une initiative complémentaire visant à renforcer et étendre le nombre de membres de l’association dans l’ensemble du pays.
                                                                            </p>
                                                                        </Accordion.Panel>
                                                                    </Accordion.Section>
@@ -131,8 +127,7 @@ const fr = () => {
                                                                        </p>
                                                                    </Accordion.Panel>
                                                                </Accordion.Section>
-                                                               </Accordion>
-                                                    <Accordion id="lack-of-access-acc">
+
                                                                           <Accordion.Section id="lack-of-access-description">
                                                                         <Accordion.Title>
                                                                      Absence d&apos;acc&egrave;s &agrave; une &eacute;ducation de qualit&eacute;
@@ -165,8 +160,7 @@ const fr = () => {
                                                                            </p>
                                                                        </Accordion.Panel>
                                                                    </Accordion.Section>
-                                                                   </Accordion>
-                                                    <Accordion id="weak-trade-acc">
+
                                                                              <Accordion.Section id="weak-trade-description">
                                                                         <Accordion.Title>
                                                                       Faiblesse ou absence de syndicats et d&apos;autres groupes de la soci&eacute;t&eacute; civile
@@ -201,9 +195,7 @@ const fr = () => {
                                                                            </p>
                                                                        </Accordion.Panel>
                                                                    </Accordion.Section>
-                                                                   </Accordion>
 
-                                                    <Accordion id="migration-systems-acc">
                                                                             <Accordion.Section id="migration-systems-description">
                                                                         <Accordion.Title>
                                                                       Syst&egrave;mes de migration
@@ -270,8 +262,7 @@ const fr = () => {
                                                                        </p>
                                                                    </Accordion.Panel>
                                                                </Accordion.Section>
-                                                               </Accordion>
-                                                     <Accordion id="precarious-work-acc">
+
                                                                       <Accordion.Section id="precarious-work-description">
                                                                         <Accordion.Title>
                                                                       Travail pr&eacute;caire
@@ -324,9 +315,7 @@ const fr = () => {
                                                                        </p>
                                                                    </Accordion.Panel>
                                                                </Accordion.Section>
-                                                               </Accordion>
 
-                                                    <Accordion id="natural-disaster-acc">
                                                                       <Accordion.Section id="natural-disaster-description">
                                                                         <Accordion.Title>
                                                                       Catastrophes naturelles et &eacute;v&eacute;nements m&eacute;t&eacute;orologiques extr&ecirc;mes
@@ -351,16 +340,25 @@ const fr = () => {
                                                                            </p>
                                                                        </Accordion.Panel>
                                                                    </Accordion.Section>
-                                                                   </Accordion>
-                                                 <Accordion id="global-health-crisis-acc">
+
                                                                    <Accordion.Section id="global-health-crisis-description">
                                                               <Accordion.Title>
-                                                            Global Health Crises
+                                                            Crises sanitaires mondiales
                                                                  </Accordion.Title>
                                                                  <Accordion.Panel>
 
                                                                  <p className="indent-margin">
-                                                                    <b>PLACEHOLDER FOR TEXT </b>
+                                                                    Les pandémies, comme la Covid-19, peuvent perturber les chaînes d&apos;approvisionnement.
+                                                                    La propagation du virus a mené à d’importantes perturbations dans les chaînes
+                                                                    d&apos;approvisionnement mondiales avec des incidences sur les achats d’intrants
+                                                                    et la demande des consommateurs. Une perturbation prolongée peut mener de nombreuses
+                                                                    sociétés à suspendre leurs opérations quand n’arrivent pas les intrants clés d’une
+                                                                    chaîne d&apos;approvisionnement. Par ailleurs, l’incidence sur les travailleurs peut
+                                                                    s’avérer profonde en cas d’interruption des opérations d’une entreprise. La baisse de la
+                                                                    demande des consommateurs a mené à une baisse de la demande de travailleurs dans les
+                                                                    installations de production en amont. En outre, le manque d’équipement de protection
+                                                                    individuelle approprié pour les travailleurs qui continuent de travailler peut rendre
+                                                                    l’environnement de travail dangereux pour leur santé et leur sécurité.
                                                                  </p>
                                                              </Accordion.Panel>
                                                          </Accordion.Section>

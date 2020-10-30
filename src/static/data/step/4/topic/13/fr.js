@@ -10,16 +10,11 @@ const fr = () => {
             <div>
                 <h2>Philanthropie</h2>
                                 <p>
-                                    Il est logique d&apos;orienter les contributions
-                                    philanthropiques vers les communaut&eacute;s dans vos
-                                    cha&icirc;nes directes d&apos;approvisionnement,
-                                    particuli&egrave;rement celles les plus expos&eacute;es au
-                                    risque de travail des enfants, de travail forc&eacute; et
-                                    d&apos;autres abus des droits du travail. Bien que ces
-                                    contributions ne remplacent pas un solide syst&egrave;me de
-                                    conformit&eacute; sociale, elles peuvent aider votre
-                                    entreprise &agrave; atteindre les buts d&apos;un programme
-                                    de conformit&eacute; sociale.
+                                    Lorsque cela est possible, les entreprises peuvent souhaiter orienter les contributions philanthropiques
+                                    vers les communautés dans vos chaînes directes d&apos;approvisionnement, particulièrement celles les plus
+                                    exposées au risque de travail des enfants, de travail forcé et d&apos;autres abus des droits du travail.
+                                    Bien que ces contributions ne remplacent pas un solide système de conformité sociale, elles peuvent
+                                    aider votre entreprise à atteindre les buts d&apos;un programme de conformité sociale.
                                 </p>
                                 <p>
                                     Les initiatives philanthropiques pour appuyer la lutte
@@ -88,14 +83,14 @@ const fr = () => {
                                         conditions de travail (de mani&egrave;re &agrave;
                                         faciliter l&rsquo;&eacute;radication de la
                                         pauvret&eacute;). En r&eacute;compense de ses efforts,
-                                        il a re&ccedil;u le prix{" "}
+                                        il a re&ccedil;u le{" "}
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             href="https://www.dol.gov/agencies/ilab/issues/child-labor/iqbal"
                                             title="Prix Iqbal Masih"
                                         >
-                                            Iqbal Masih
+                                            prix Iqbal Masih
                                         </a>{" "}
                                         2013 du d&eacute;partement du Travail. Depuis 1995, le
                                         d&eacute;partement du Travail soutient les efforts
@@ -116,8 +111,7 @@ const fr = () => {
                                 </ExampleInAction>
                                 </Accordion.Panel>
                                </Accordion.Section>
-                               </Accordion>
-                                <Accordion id="livelihood-progs-acc">
+
                                                     <Accordion.Section id="livelihood-progs-description">
                                                     <Accordion.Title>
                                                   Programmes de subsistance
@@ -145,9 +139,7 @@ const fr = () => {
                                                        </p>
                                                    </Accordion.Panel>
                                                </Accordion.Section>
-                                               </Accordion>
 
-                                     <Accordion id="women-emp-acc">
                                                         <Accordion.Section id="women-emp-description">
                                                         <Accordion.Title>
                                                       Initiatives d&apos;emploi pour les jeunes
@@ -182,8 +174,15 @@ const fr = () => {
                                         El Salvador, petit pays &agrave; la longue histoire de
                                         conflit civil et d&rsquo;instabilit&eacute;, constitue
                                         un environnement op&eacute;rationnel incertain. Mais la
-                                        branche salvadorienne de League Collegiate Outfitter,
-                                        League Central America (LCA), a saisi l&rsquo;occasion de d&eacute;velopper une
+                                        branche salvadorienne de League Collegiate Outfitter,{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="www.league91.com/league-central-america-making-difference-el-salvador/"
+                                        >
+                                        League Central America*
+                                        </a>
+                                        {" "}(LCA), a saisi l&rsquo;occasion de d&eacute;velopper une
                                         entreprise productive en investissant dans des
                                         programmes de renforcement des capacit&eacute;s des
                                         travailleurs et en aidant &agrave; s&rsquo;attaquer
@@ -214,8 +213,7 @@ const fr = () => {
                                 </ExampleInAction>
                                  </Accordion.Panel>
                                    </Accordion.Section>
-                                   </Accordion>
-                                <Accordion id="health-programs-acc">
+
                                                     <Accordion.Section id="health-programs-description">
                                                     <Accordion.Title>
                                                  Programmes d&apos;autonomisation des femmes
@@ -245,48 +243,53 @@ const fr = () => {
                                         P.A.C.E. de Gap Inc.*
                                     </h4>
                                     <p>
-                                        Dans le monde entier, des millions de femmes travaillent
-                                        dans le secteur de la confection, mais gagnent souvent
-                                        moins que les hommes et gravissent rarement les
-                                        &eacute;chelons dans leurs usines. Prenant acte de ce
-                                        probl&egrave;me, Gap Inc. a lanc&eacute; le{" "}
+                                        Fondé sur la croyance que toutes les femmes méritent d’avoir l’opportunité d’atteindre
+                                        leur plein potentiel, la société Gap Inc. a lancé à l’origine{" "}
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             href="https://www.gapincsustainability.com/people/pace-changing-one-million-lives"
                                             title="Programme P.A.C.E."
                                         >
-                                            programme P.A.C.E.
+                                         P.A.C.E.
                                         </a>{" "}
-                                        en 2007, initiative visant l&apos;autonomisation des
-                                        femmes qui travaillent dans la confection en leur
-                                        fournissant les comp&eacute;tences de base et techniques
-                                        dont elles ont besoin pour gravir les &eacute;chelons de
-                                        l&rsquo;entreprise. Des modules d&rsquo;apprentissage
-                                        des aptitudes de base couvrent une large gamme de
-                                        sujets, depuis les connaissances financi&egrave;res
-                                        jusqu&rsquo;&agrave; la sant&eacute; globale et
-                                        g&eacute;n&eacute;sique, en passant par la
-                                        r&eacute;solution des probl&egrave;mes et la prise de
-                                        d&eacute;cisions. Des formations techniques
-                                        adapt&eacute;es &agrave; l&rsquo;environnement
-                                        sp&eacute;cifique de la manufacture viennent
-                                        compl&eacute;ter ces cours. P.A.C.E est actuellement en
-                                        vigueur dans les usines de fournisseurs de 12&nbsp;pays
-                                        et a touch&eacute; 50&nbsp;000&nbsp;femmes. Ces
-                                        derni&egrave;res ann&eacute;es, Gap Inc. a &eacute;largi
-                                        le programme au-del&agrave; des usines pour
-                                        r&eacute;pondre aux besoins des travailleuses de
-                                        l&rsquo;industrie de la confection au niveau
-                                        communautaire et faire un geste pour leurs filles en
-                                        mettant en place des programmes pour les adolescentes de
-                                        13 &agrave; 17&nbsp;ans.
+                                        (Personal Advancement & Career Enhancement – Avancement personnel et valorisation des carrières)
+                                        en 2007 pour les femmes qui travaillent dans la chaîne d&apos;approvisionnement du secteur de la confection,
+                                        où le programme est disponible dans plus de 300 usines en collaboration avec les fournisseurs de la société.
+                                        L’initiative a été conçue pour autonomiser les ouvrières des usines en leur apportant l’éducation et les compétences
+                                        de base dont elles ont besoin pour gravir les échelons de l’entreprise. Différents modules d’apprentissage couvrent
+                                        toute une série de sujets depuis la communication à la résolution des problèmes et à la prise de décisions en passant
+                                        par les connaissances financières et la santé. Les cours sont enseignés par des formateurs certifiés P.A.C.E. et mis en
+                                        contexte pour répondre aux besoins des femmes en fonction de la culture locale et de l’environnement de travail. Depuis,
+                                        la société a élargi le programme à d’autres sites afin de toucher davantage de femmes, notamment dans les communautés
+                                        rurales, les établissements universitaires et professionnels, les centres de secours d’urgence et d’autres encore.
+                                        P.A.C.E. est actuellement en vigueur dans 17 pays et a touché plus de 500 000 femmes. Par ailleurs, Gap Inc. a créé
+                                        un partenariat avec{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href=""
+                                            title="Empower@Work"
+                                        >
+                                        Empower@Work
+                                        </a>
+                                        , effort de l’ensemble du secteur qui cherche à faire profiter de ce type de
+                                        formation à bien d’autres femmes de la chaîne d&apos;approvisionnement de l’habillement au niveau mondial.
+                                    </p>
+                                    <p>
+                                    Source [en anglais] :
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.gapinc.com/content/gapinc/html/media/pressrelease/2020/med_pr_022420_gps_PACEProgram.html"
+                                    >
+                                    https://www.gapinc.com/content/gapinc/html/media/pressrelease/2020/med_pr_022420_gps_PACEProgram.html.
+                                    </a>
                                     </p>
                                 </ExampleInAction>
                                  </Accordion.Panel>
                                    </Accordion.Section>
-                                   </Accordion>
-                                <Accordion id="victim-shelters-acc">
+
                                                      <Accordion.Section id="victim-shelters-description">
                                                     <Accordion.Title>
                                                   Programmes de sant&eacute;
@@ -311,9 +314,7 @@ const fr = () => {
                                                        </p>
                                                    </Accordion.Panel>
                                                </Accordion.Section>
-                                               </Accordion>
 
-                                    <Accordion id="cocoa-chains-acc">
                                                      <Accordion.Section id="cocoa-description">
                                                         <Accordion.Title>
                                                       Foyers d&apos;h&eacute;bergement, conseils, services juridiques et autres services pour les victimes
@@ -342,8 +343,7 @@ const fr = () => {
                                                            </p>
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
-                                                   </Accordion>
-                                   <Accordion id="financial-literacy-acc">
+
                                                         <Accordion.Section id="financial-literacy-description">
                                                         <Accordion.Title>
                                                       &Eacute;ducation financi&egrave;re
@@ -365,8 +365,7 @@ const fr = () => {
                                                            </p>
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
-                                                   </Accordion>
-                                    <Accordion id="cocoa-chains-acc">
+
                                                      <Accordion.Section id="cocoa-description">
                                                         <Accordion.Title>
                                                        Modification des proc&eacute;d&eacute;s commerciaux
@@ -400,8 +399,7 @@ const fr = () => {
                                                            </p>
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
-                                                   </Accordion>
-                                    <Accordion id="dev-markets-acc">
+                                                  
                                                         <Accordion.Section id="dev-markets-description">
                                                         <Accordion.Title>
                                                       D&eacute;veloppement des march&eacute;s
@@ -428,341 +426,6 @@ const fr = () => {
                                                        </Accordion.Panel>
                                                    </Accordion.Section>
                                                    </Accordion>
-
-                                <Accordion id="resources">
-                                    <Accordion.Section>
-                                        <Accordion.Title>Autres ressources</Accordion.Title>
-                                        <Accordion.Panel>
-                                            <ol>
-                                                <li>
-                                                    Barnes &amp; Noble College League Collegiate
-                                                    Outfitters Creates Hope and Second Chances
-                                                    in El Salvador. [en ligne, disponible le
-                                                    8&nbsp;mai 2017]; disponible [en anglais]
-                                                    sur{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://next.bncollege.com/league-collegiate-outfitters/"
-                                                        title="Barnes &amp; Noble College League Collegiate Outfitters Creates Hope and Second Chances in El Salvador."
-                                                    >
-                                                        http://next.bncollege.com/league-collegiate-outfitters/
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    Business &amp; Human Rights Resource Centre,{" "}
-                                                    <em>Portail conflits et paix. </em>
-                                                    Disponible sur{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="https://www.business-humanrights.org/fr/conflits-et-paix/derni%C3%A8res-infos-%C2%AB-conflits-et-paix-%C2%BB"
-                                                        title="Portail conflits et paix."
-                                                    >
-                                                        https://www.business-humanrights.org/fr/conflits-et-paix/derni%C3%A8res-infos-%C2%AB-conflits-et-paix-%C2%BB
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    Chen, Shaohua, et Martin Ravillion.{" "}
-                                                    <em>
-                                                        Le monde en d&eacute;veloppement est
-                                                        plus pauvre que nous ne pensions, mais
-                                                        pas moins efficace pour autant dans la
-                                                        lutte contre la pauvret&eacute;
-                                                    </em>
-                                                    . Banque mondiale, Washington, DC,
-                                                    26&nbsp;ao&ucirc;t 2008; disponible [en
-                                                    anglais] sur{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://siteresources.worldbank.org/JAPANINJAPANESEEXT/Resources/515497-1201490097949/080827_The_Developing_World_is_Poorer_than_we_Thought.pdf"
-                                                        title="Le monde en d&eacute;veloppement est plus pauvre que nous ne pensions, mais pas moins efficace pour autant dans la lutte contre la pauvret&eacute;"
-                                                    >
-                                                        http://siteresources.worldbank.org/JAPANINJAPANESEEXT/Resources/515497-1201490097949/080827_The_Developing_World_is_Poorer_than_we_Thought.pdf
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    Ethical Trading Initiative.{" "}
-                                                    <em>Base Code Guidance: Living Wages; </em>
-                                                    disponible [en anglais] sur{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf"
-                                                        title="Base Code Guidance: Living Wages;"
-                                                    >
-                                                        https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    Fair Labor Association.
-                                                    <em> Fair Compensation</em> [en ligne,
-                                                    consult&eacute; le 15&nbsp;mai 2017];
-                                                    disponible [en anglais] sur{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://www.fairlabor.org/report-type/fair-compensation"
-                                                        title="Fair Compensation"
-                                                    >
-                                                        http://www.fairlabor.org/report-type/fair-compensation
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    Fair Labor Association.{" "}
-                                                    <em>
-                                                        Fair Compensation for Farmworkers:
-                                                        Emerging Good Practices and Challenges;{" "}
-                                                    </em>
-                                                    27&nbsp;f&eacute;vrier 2017; disponible [en
-                                                    anglais] sur{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges"
-                                                        title="Fair Compensation for Farmworkers: Emerging Good Practices and Challenges;"
-                                                    >
-                                                        http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    Fair Labor Association.{" "}
-                                                    <em>
-                                                        Toward Fair Compensation in Global
-                                                        Supply Chains: Factory Pay Assessments
-                                                        in 21 Countries;{" "}
-                                                    </em>
-                                                    3&nbsp;ao&ucirc;t&nbsp;2016; disponible [en
-                                                    anglais] sur{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries"
-                                                        title="Toward Fair Compensation in Global Supply Chains: Factory Pay Assessments in 21 Countries;"
-                                                    >
-                                                        http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    Rapport mondial sur les salaires 2016/17 de
-                                                    l&rsquo;OIT (2016): Les
-                                                    in&eacute;galit&eacute;s salariales au
-                                                    travail:{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_545416.pdf"
-                                                        title="Rapport mondial sur les salaires 2016/17: Les in&eacute;galit&eacute;s salariales au travail"
-                                                    >
-                                                        http://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_545416.pdf
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    Organisation internationale du travail.{" "}
-                                                    <em>
-                                                        Responsabilit&eacute; sociale
-                                                        d&apos;entreprise (RSE)
-                                                    </em>{" "}
-                                                    [page Web], disponible sur{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://www.ilo.org/ipec/Action/CSR/lang--fr/index.htm"
-                                                        title="Responsabilit&eacute; sociale d'entreprise (RSE)"
-                                                    >
-                                                        http://www.ilo.org/ipec/Action/CSR/lang--fr/index.htm
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    OIT (2016) Non-Standard Employment Around
-                                                    the World&nbsp;- Understanding Challenges,
-                                                    Shaping Prospects{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://www.ilo.org/global/publications/books/WCMS_534326/lang--en/index.htm"
-                                                        title="Non-Standard Employment Around the World&nbsp;- Understanding Challenges, Shaping Prospects"
-                                                    >
-                                                        http://www.ilo.org/global/publications/books/WCMS_534326/lang--fr/index.htm
-                                                    </a>{" "}
-                                                    [en anglais].
-                                                </li>
-                                                <li>
-                                                    OIT (2013) &Eacute;conomie informelle et
-                                                    travail d&eacute;cent: Guide de ressources
-                                                    sur les politiques&nbsp;&ndash; soutenir les
-                                                    transitions vers la formalit&eacute;{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://www.ilo.org/emppolicy/pubs/WCMS_229834/lang--fr/index.htm"
-                                                        title="&Eacute;conomie informelle et travail d&eacute;cent: Guide de ressources sur les politiques&nbsp;&ndash; soutenir les transitions vers la formalit&eacute;"
-                                                    >
-                                                        http://www.ilo.org/emppolicy/pubs/WCMS_229834/lang--fr/index.htm
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    OIT (2015) World Employment Social
-                                                    Outlook&nbsp;- The Changing Nature of Jobs.{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://www.ilo.org/global/research/global-reports/weso/2015-changing-nature-of-jobs/WCMS_368626/lang--fr/index.htm"
-                                                        title="World Employment Social Outlook&nbsp;- The Changing Nature of Jobs."
-                                                    >
-                                                        http://www.ilo.org/global/research/global-reports/weso/2015-changing-nature-of-jobs/WCMS_368626/lang--fr/index.htm
-                                                    </a>{" "}
-                                                    [en anglais] Veuillez noter que depuis 2015
-                                                    le rapport sur les Tendances mondiales de
-                                                    l&apos;emploi a &eacute;t&eacute;
-                                                    remplac&eacute; par une par une nouvelle
-                                                    s&eacute;rie phare annuelle de l&apos;OIT,
-                                                    Emploi et questions sociales dans le monde:
-                                                    Les Tendances (WESO en anglais).
-                                                </li>
-                                                <li>
-                                                    OIT (2014) World Social Protection Report:
-                                                    Building economic recovery, inclusive
-                                                    development and social justice.{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--fr/index.htm"
-                                                        title="World Social Protection Report: Building economic recovery, inclusive development and social justice."
-                                                    >
-                                                        http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--fr/index.htm
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    ISEAL Alliance.{" "}
-                                                    <em>Global Living Wage Coalition</em> [en
-                                                    ligne, consult&eacute; le 15&nbsp;mai 2017];
-                                                    disponible [en anglais] sur{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition"
-                                                        title="&gt;Global Living Wage Coalition"
-                                                    >
-                                                        https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    New York Times.{" "}
-                                                    <em>
-                                                        At Salvadoran Factory, Helping Troubled
-                                                        Youth Makes Business Sense.
-                                                    </em>{" "}
-                                                    21&nbsp;septembre&nbsp;2015. Disponible [en
-                                                    anglais] sur{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0."
-                                                        title="At Salvadoran Factory, Helping Troubled Youth Makes Business Sense"
-                                                    >
-                                                        https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    Weil, David. The Fissured Workplace: Why
-                                                    Work Became So Bad for So Many and What Can
-                                                    Be Done to Improve It. Cambridge, MA:
-                                                    Harvard University Press, 2014.
-                                                </li>
-                                                <li>
-                                                    Wilshaw, Rachel; Hamilton, Sloane;
-                                                    Theroux-Seguin, Julie et Daisy Gardener.{" "}
-                                                    <em>
-                                                        In Work but Trapped in Poverty: A
-                                                        Summary of Five Studies Conducted by
-                                                        Oxfam, with Updates on Progress Along
-                                                        the Road to a Living Wage;{" "}
-                                                    </em>
-                                                    Oxfam International,
-                                                    29&nbsp;septembre&nbsp;2015; disponible [en
-                                                    anglais] sur{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815"
-                                                        title="In Work but Trapped in Poverty: A Summary of Five Studies Conducted by Oxfam, with Updates on Progress Along the Road to a Living Wage"
-                                                    >
-                                                        http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    Banque mondiale. Indicateurs du
-                                                    d&eacute;veloppement dans le monde 2017.
-                                                    Washington, DC, avril 2017 ; disponible sur{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://data.worldbank.org/data-catalog/world-development-indicators"
-                                                        title="Banque mondiale. Indicateurs du d&eacute;veloppement dans le monde 2017."
-                                                    >
-                                                        http://data.worldbank.org/data-catalog/world-development-indicators
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    Institut de la Banque mondiale. Business and
-                                                    Poverty: Opening Markets to the Poor.
-                                                    Washington, DC, juin 2008 ; disponible [en
-                                                    anglais] sur{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://siteresources.worldbank.org/CGCSRLP/Resources/DevelopmentOutreachBusinessandPovertyBrochure.pdf"
-                                                        title="Institut de la Banque mondiale. Business and Poverty: Opening Markets to the Poor."
-                                                    >
-                                                        http://siteresources.worldbank.org/CGCSRLP/Resources/DevelopmentOutreachBusinessandPovertyBrochure.pdf
-                                                    </a>
-                                                    .
-                                                </li>
-                                                <li>
-                                                    Banque mondiale. Fragilit&eacute;, conflits
-                                                    et violences. 2017.{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://www.banquemondiale.org/fr/topic/fragilityconflictviolence/overview"
-                                                        title="http://www.banquemondiale.org/fr/topic/fragilityconflictviolence/overview"
-                                                    >
-                                                        http://www.banquemondiale.org/fr/topic/fragilityconflictviolence/overview
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    Internal Displacement Monitoring Centre.
-                                                    2016 Global Report on Internal Displacement
-                                                    [en anglais].{" "}
-                                                    <a
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        href="http://www.internal-displacement.org/globalreport2016/"
-                                                        title="http://www.internal-displacement.org/globalreport2016/"
-                                                    >
-                                                        http://www.internal-displacement.org/globalreport2016/
-                                                    </a>
-                                                    .
-                                                </li>
-                                            </ol>
-                                        </Accordion.Panel>
-                                    </Accordion.Section>
-                                </Accordion>
             </div>
         </StaticData>
     );

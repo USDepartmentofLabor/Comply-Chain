@@ -51,17 +51,17 @@ export const Topics = {
     fr: [
         {
             keywords: [],
-            title: "Why Conduct Independent Review?",
+            title: "Pourquoi effectuer un examen indépendant ?",
             content: Topic1.fr
         },
         {
             keywords: [],
-            title: "Contrôle indépendant (audit)",
+            title: "Vérification indépendante (audit)",
             content: Topic2.fr
         },
         {
             keywords: [],
-            title: "Vérification indépendante",
+            title: "Contrôle indépendant",
             content: Topic3.fr
         },
         {

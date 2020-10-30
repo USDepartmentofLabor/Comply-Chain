@@ -108,20 +108,21 @@ const es = () => {
                         muestra una mejora suficiente, la empresa se desvincula. Al desvincularse comercialmente de un proveedor, la empresa 
                         siempre debe tener presente el efecto que esto tendr&aacute; en los trabajadores.
                     </p>
-                    <p>
-                        <em>
-                            *Nota: Toda referencia que se haga en la presente gu&iacute;a a empresas o entidades no gubernamentales 
-                            espec&iacute;ficas es con fines informativos &uacute;nicamente a fin de demostrar las buenas pr&aacute;cticas 
-                            internacionalmente reconocidas a la fecha de lanzamiento de la aplicaci&oacute;n. Las referencias a dichas 
-                            entidades no deben interpretarse como un aval oficial del Departamento de Trabajo de los Estados Unidos a ellas, 
-                            sus productos ni servicios y su menci&oacute;n no debe interpretarse como un examen exhaustivo de las 
-                            pr&aacute;cticas que emplean dichas entidades en todos los &aacute;mbitos.
-                        </em>
-                        .
-                    </p>
+                    
                 </Accordion.Panel>
             </Accordion.Section>
             </Accordion>
+            <p>
+                <em>
+                    *Nota: Toda referencia que se haga en la presente gu&iacute;a a empresas o entidades no gubernamentales 
+                    espec&iacute;ficas es con fines informativos &uacute;nicamente a fin de demostrar las buenas pr&aacute;cticas 
+                    internacionalmente reconocidas a la fecha de lanzamiento de la aplicaci&oacute;n. Las referencias a dichas 
+                    entidades no deben interpretarse como un aval oficial del Departamento de Trabajo de los Estados Unidos a ellas, 
+                    sus productos ni servicios y su menci&oacute;n no debe interpretarse como un examen exhaustivo de las 
+                    pr&aacute;cticas que emplean dichas entidades en todos los &aacute;mbitos.
+                </em>
+                .
+            </p>
             </div>
         </StaticData>
     );

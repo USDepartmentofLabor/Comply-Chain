@@ -69,10 +69,24 @@ const es = () => {
                          trabajadores no pagan las comisiones de contratación”.
                     </p>
                     <p>
-                    Fuente: https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html.
+                    Fuente:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html"
+                    >
+                    https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html
+                    </a>.
                     </p>
                     <p>
-                    Fuente: https://www.patagonia.com/our-footprint/migrant-workers.html.
+                    Fuente:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.patagonia.com/our-footprint/migrant-workers.html"
+                    >
+                    https://www.patagonia.com/our-footprint/migrant-workers.html
+                    </a>.
                     </p>
 
                 </ExampleInAction>
@@ -187,7 +201,14 @@ const es = () => {
                         >
                             Responsible Recruitment Gateway
                         </a>
-                        &nbsp;en https://www.ihrb.org/employerpays/.
+                        &nbsp;en{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ihrb.org/employerpays/"
+                        >
+                        https://www.ihrb.org/employerpays/
+                        </a>.
                     </p>
                 </ExampleInAction>
                 <p>

@@ -135,36 +135,20 @@ const fr = () => {
                                 autres questions connexes sont
                                 d&eacute;velopp&eacute;es dans la{" "}
                                 <Link to="/steps/7">
-                                    5<sup>e</sup>&nbsp;&eacute;tape: surveiller
-                                    la conformit&eacute;.
+                                   cinquième étape, Surveiller la conformité
                                 </Link>
                             </p>
                             <p>
-                                <em>
-                                    *Remarque: Les
-                                    r&eacute;f&eacute;rences &agrave; des
-                                    soci&eacute;t&eacute;s et entit&eacute;s non
-                                    gouvernementales sp&eacute;cifiques dans ce
-                                    guide sont &agrave; des fins
-                                    d&rsquo;information uniquement afin de
-                                    d&eacute;montrer les bonnes pratiques
-                                    reconnues &agrave; l&rsquo;&eacute;chelle
-                                    internationale, &agrave; la date de
-                                    lancement de l&rsquo;appli. Toute
-                                    r&eacute;f&eacute;rence &agrave; ces
-                                    entit&eacute;s ne saurait constituer une
-                                    approbation officielle de ces
-                                    derni&egrave;res, de leurs produits ou de
-                                    leurs services par le d&eacute;partement du
-                                    Travail des &Eacute;tats-Unis,{" "}
-                                </em>
-                                <em>
-                                    et leur inclusion dans cette appli ne
-                                    saurait &ecirc;tre interpr&eacute;t&eacute;e
-                                    comme un examen exhaustif des pratiques de
-                                    ces entit&eacute;s dans tous les domaines
-                                </em>
-                                <em>.</em>
+                            <em>*Remarque : Les références à des sociétés et entités
+                            non gouvernementales spécifiques dans ce guide sont à des
+                            fins d’information uniquement afin de démontrer les bonnes
+                            pratiques reconnues à l’échelle internationale, à la date de
+                            lancement de l’appli. Toute référence à ces entités ne saurait
+                            être interprété comme constituant une approbation officielle
+                            de ces dernières, de leurs produits ou de leurs services par le
+                            département du Travail des États-Unis, et leur inclusion dans
+                            cette appli ne saurait être interprétée comme un examen exhaustif
+                            des pratiques de ces entités dans tous les domaines.</em>
                             </p>
             </div>
         </StaticData>

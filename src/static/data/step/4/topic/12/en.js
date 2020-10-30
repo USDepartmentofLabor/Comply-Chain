@@ -79,9 +79,8 @@ const en = () => {
                        </p>
                    </Accordion.Panel>
                </Accordion.Section>
-               </Accordion>
 
-               <Accordion id="build-govt-acc">
+
                                 <Accordion.Section id="build-govt-description">
                            <Accordion.Title>
                         Building government capacity
@@ -117,9 +116,8 @@ const en = () => {
                               </p>
                           </Accordion.Panel>
                       </Accordion.Section>
-                      </Accordion>
 
-                              <Accordion id="collab-govt-acc">
+
                                    <Accordion.Section id="collab-govt-description">
                                       <Accordion.Title>
                                     Collaboration with governments
@@ -151,9 +149,8 @@ const en = () => {
                                          </p>
                                      </Accordion.Panel>
                                  </Accordion.Section>
-                                 </Accordion>
 
-                                             <Accordion id="collab-other-comps-acc">
+
                                               <Accordion.Section id="collab-other-comps-description">
                                                  <Accordion.Title>
                                                Collaboration with other companies
@@ -222,9 +219,8 @@ const en = () => {
                                                    </ExampleInAction>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            </Accordion>
 
-                                <Accordion id="labor-unions-acc">
+
                                      <Accordion.Section id="labor-unions-description">
                                         <Accordion.Title>
                                       Supporting labor unions and other workers advocacy groups
@@ -283,9 +279,8 @@ const en = () => {
 
 
                                    </Accordion.Section>
-                                   </Accordion>
 
-                               <Accordion id="responsible-recruit-acc">
+
                                 <Accordion.Section id="responsible-recruit-description">
                                    <Accordion.Title>
                                  Responsible Recruitment
@@ -409,9 +404,8 @@ const en = () => {
                                         <br />
                                   </Accordion.Panel>
                               </Accordion.Section>
-                              </Accordion>
 
-                              <Accordion id="worker-voice-acc">
+
                                    <Accordion.Section id="worker-voice-description">
                                       <Accordion.Title>
                                     Ensuring Worker Voice

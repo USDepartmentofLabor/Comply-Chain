@@ -11,7 +11,15 @@ const fr = () => {
                     <strong>Recrutement et fidélisation du personnel</strong>
                 </h1>
                 <p>
-                    Selon un nombre croissant d&apos;&eacute;tudes, les
+                    Selon un nombre croissant d&apos;
+                    <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.conecomm.com/research-blog/2016-millennial-employee-engagement-study"
+                        >
+                    &eacute;tudes,
+                    </a>
+                    les
                     employ&eacute;s, surtout les plus jeunes,
                     pr&eacute;f&egrave;rent de plus en plus travailler pour des
                     entreprises soucieuses de leur responsabilit&eacute; sociale

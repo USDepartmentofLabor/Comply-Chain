@@ -63,7 +63,7 @@ export const StepData = {
         furtherResources: Resources.es
     },
     fr: {
-        title: "Fondements d’un système de conformité sociale",
+        title: "Bases d’un système de conformité sociale",
         topics: Topics.fr,
         keywords: ["Responsabilité sociale des entreprises (RSE)", "Système de conformité sociale", "Chaîne d'approvisionnement"],
         learningObjectives: [
@@ -87,7 +87,7 @@ export const StepData = {
             {
                 termName: "Chaîne d'approvisionnement",
                 termDefinition:
-                    "Chaîne qui se compose de toutes les organisations et des personnes physiques impliquées dans la production, la transformation, le négoce, le transport et/ou la distribution d'un produit ou d'une marchandise, de son point d'origine jusqu'à l'entreprise et/ou au détaillant final."
+                    "Chaîne qui se compose de toutes les organisations et des personnes physiques impliquées dans la production, la transformation, le négoce, le transport et/ou la distribution d'un produit ou d'une marchandise, de son point d'origine jusqu'à l'entreprise et/ou au détaillant final. Pour des exemples de différentes chaînes d'approvisionnement, veuillez vous référer à la Cartographie de la chaîne d'approvisionnement à l’Étape 2 : Évaluer les risques et les incidences."
             },
         ],
         furtherResources: Resources.fr

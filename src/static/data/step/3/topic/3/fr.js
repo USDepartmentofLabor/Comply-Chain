@@ -8,34 +8,13 @@ const fr = () => {
             <div>
                 <h1>Faire participer vos parties prenantes</h1>
                 <p>
-                                    Apr&egrave;s avoir identifi&eacute; vos parties prenantes et
-                                    compris les r&ocirc;les potentiels qu&apos;elles peuvent
-                                    jouer dans votre syst&egrave;me de conformit&eacute;
-                                    sociale, vous pouvez cibler certains groupes pour les amener
-                                    &agrave; participer. Pour certaines entreprises, identifier
-                                    les groupes-cl&eacute;s de parties prenantes et les amener
-                                    &agrave; participer &agrave; des domaines sp&eacute;cifiques
-                                    du syst&egrave;me de conformit&eacute; sociale constitue la
-                                    fa&ccedil;on la plus utile d&apos;op&eacute;rer des
-                                    am&eacute;liorations cibl&eacute;es. C&apos;est
-                                    particuli&egrave;rement vrai pour les entreprises qui
-                                    poss&egrave;dent d&eacute;j&agrave; quelques
-                                    &eacute;l&eacute;ments en place d&apos;un syst&egrave;me de
-                                    conformit&eacute; sociale, mais comprennent qu&apos;il reste
-                                    des domaines pr&eacute;cis qu&apos;il conviendrait
-                                    d&apos;am&eacute;liorer.
-                                </p>
-                                <p>
-                                    Pour d&apos;autres, le «&nbsp;premier pas&nbsp;» le plus
-                                    indiqu&eacute; pour mobiliser la participation des parties
-                                    prenantes consistera &agrave; &eacute;tablir des liens avec
-                                    des initiatives existantes, par exemple des groupes de
-                                    plusieurs parties prenantes, des associations ou des
-                                    initiatives de l&apos;industrie ou des programmes de
-                                    certification &eacute;ventuels qui correspondent aux besoins
-                                    et aux objectifs de l&apos;entreprise.
-                                </p>
-                        <h2>Your Stakeholders</h2>
+                      La liste suivante n’est pas exhaustive et les entreprises
+                      devraient faire particulièrement attention à la manière dont
+                      les structures locales d’emploi, en particulier les différences
+                      entre les arrangements et les relations de travail, peuvent informer
+                      le dialogue avec différentes parties prenantes. Voici quelques-unes
+                      des fonctions-type que les parties prenantes peuvent remplir :
+                 </p>
                        <h3> Employ&eacute;s de l&apos;entreprise</h3>
                         <ul>
                             <li>
@@ -46,8 +25,8 @@ const fr = () => {
                                 Sugg&eacute;rer les fa&ccedil;ons dont les
                                 donn&eacute;es et l&apos;analyse de l&apos;
                                 <strong>
-                                    &eacute;valuation des risques
-                                </strong>{" "}
+                                    &eacute;valuation</strong>{" "} des risques
+
                                 et des <strong>audits</strong> pourraient
                                 appuyer la prise de d&eacute;cisions sur
                                 l&apos;approvisionnement, le
@@ -63,11 +42,9 @@ const fr = () => {
                             </li>
                             <li>
                                 Faire office «&nbsp;d&rsquo;yeux et
-                                d&apos;oreilles&nbsp;» suppl&eacute;mentaires en
-                                ce qui concerne les questions de
-                                conformit&eacute; sociale, en compl&eacute;ment
-                                des programmes de conformit&eacute; sociale sur
-                                le lieu de travail.
+                                d&apos;oreilles&nbsp;» supplémentaires en ce qui
+                                concerne les questions de conformité sociale,
+                                en complément des programmes de <strong>surveillance sur le lieu de travail</strong>.
                             </li>
                             <li>
                                 Contribuer des &eacute;l&eacute;ments pour les{" "}
@@ -87,7 +64,7 @@ const fr = () => {
                                 l&apos;entreprise.
                             </li>
                             <li>
-                                &Ecirc;tre form&eacute;s pour s&apos;assurer que
+                                &Ecirc;tre <strong>form&eacute;s</strong> pour s&apos;assurer que
                                 le travail accompli dans d&apos;autres
                                 d&eacute;partements de l&apos;entreprise ne
                                 contrevient pas &agrave; la conformit&eacute;
@@ -164,8 +141,8 @@ const fr = () => {
                                 .
                             </li>
                             <li>
-                                S&apos;assurer que leurs employ&eacute;s
-                                connaissent le code et travailler en permanence
+                                S&apos;assurer que leurs employ&eacute;s{" "}
+                                <strong>connaissent le code</strong> et travailler en permanence
                                 pour faire en sorte que les normes du code sont
                                 respect&eacute;es sur le lieu de travail.
                             </li>
@@ -232,7 +209,10 @@ const fr = () => {
                                 <strong>&eacute;valuation des risques</strong>,
                                 notamment des avis sur le genre, la culture et
                                 d&apos;autres &eacute;l&eacute;ments de la
-                                dynamique de la communaut&eacute;.
+                                dynamique de la communaut&eacute;, ainsi que des
+                                informations sur les personnes et les groupes vulnérables
+                                comme manière d’élargir le dialogue avec les parties prenantes
+                                au-delà des acteurs directement liés aux opérations d’une entreprise.
                             </li>
                             <li>
                                 Fournir une <strong>formation</strong> et/ou{" "}
@@ -423,19 +403,7 @@ const fr = () => {
                                 des droits du travail.
                             </li>
                         </ul>
-                        <h2>The Importance of External Stakeholders in Social Compliance Systems</h2>
-                            <ul>
-                                <li>
-                                    PLACEHOLDER FOR TEXT
-                                </li>
 
-                                <li>
-                                     PLACEHOLDER FOR TEXT
-                                </li>
-                                <li>
-                                    PLACEHOLDER FOR TEXT
-                                </li>
-                            </ul>
                 <h2>
                     R&ocirc;le des organismes du gouvernement dans les
                     syst&egrave;mes de conformit&eacute; sociale
@@ -564,19 +532,38 @@ const fr = () => {
                         et 6&nbsp;associations commerciales membres.
                     </p>
                     <p>
-                        Pour plus d&apos;informations, voir le{" "}
+                        Pour plus d&apos;informations, voir le
+                            site Web
+
+                        d&rsquo;InPACTO:{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.inpacto.org.br/en/"
+                            href="http://inpacto.org.br/"
                             title="Site Web d&rsquo;InPACTO"
                         >
-                            site Web
-                        </a>{" "}
-                        d&rsquo;InPACTO.
+                        http://inpacto.org.br/
+                        </a>
                     </p>
                 </ExampleInAction>
-
+                <p>
+                Après avoir identifié vos parties prenantes et compris les rôles potentiels
+                qu&apos;elles peuvent jouer dans votre système de conformité sociale, vous
+                pouvez cibler certains groupes pour les amener à participer. Pour certaines
+                entreprises, identifier les groupes-clés de parties prenantes et les amener
+                à participer à des domaines spécifiques du système de conformité sociale
+                constitue la façon la plus utile d&apos;opérer des améliorations ciblées.
+                C&apos;est particulièrement vrai pour les entreprises qui possèdent déjà
+                quelques éléments en place d&apos;un système de conformité sociale, mais
+                comprennent qu&apos;il reste des domaines précis qu&apos;il conviendrait d&apos;améliorer.
+                </p>
+                <p>
+                Pour d&apos;autres, le « premier pas » le plus indiqué pour mobiliser la participation
+                des parties prenantes consistera à établir des liens avec des initiatives existantes,
+                par exemple des groupes de plusieurs parties prenantes, des associations ou des
+                initiatives de l&apos;industrie ou des programmes de certification éventuels qui
+                correspondent aux besoins et aux objectifs de l&apos;entreprise.
+                </p>
             </div>
         </StaticData>
     );

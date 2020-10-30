@@ -113,7 +113,7 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Évolution des normes volontaires et faisant autorité",
+            title: "Principes directeurs relatifs aux entreprises et aux droits de l'homme des Nations Unies et normes et règles volontaires qui évoluent",
             content: Topic2.fr
         },
         {

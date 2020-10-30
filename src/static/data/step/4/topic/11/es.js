@@ -65,9 +65,7 @@ const es = () => {
                                      </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
 
-                    <Accordion id="gender-ineq-acc">
                          <Accordion.Section id="gender-ineq-description">
                          <Accordion.Title>
                          Desigualdad de g&eacute;nero
@@ -136,8 +134,7 @@ const es = () => {
                                      </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
-                    <Accordion id="cocoa-chains-acc">
+
                                      <Accordion.Section id="cocoa-description">
                                          <Accordion.Title>
                                          Falta de acceso a educaci&oacute;n de buena calidad
@@ -164,9 +161,7 @@ const es = () => {
                                          </p>
                                      </Accordion.Panel>
                                  </Accordion.Section>
-                                 </Accordion>
 
-                    <Accordion id="lack-of-access-acc">
                                           <Accordion.Section id="lack-of-access-description">
                                          <Accordion.Title>
                                         Sindicatos y otros grupos de la sociedad civil d&eacute;biles o inexistentes
@@ -195,9 +190,7 @@ const es = () => {
                                          </p>
                                      </Accordion.Panel>
                                  </Accordion.Section>
-                                 </Accordion>
 
-                    <Accordion id="weak-trade-acc">
                                              <Accordion.Section id="weak-trade-description">
                                          <Accordion.Title>
                                          Sistemas migratorios
@@ -255,8 +248,7 @@ const es = () => {
                                      </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
-                    <Accordion id="global-comp-acc">
+
                                         <Accordion.Section id="global-comp-acc-description">
                                          <Accordion.Title>
                                          Trabajo precario
@@ -306,9 +298,7 @@ const es = () => {
                                      </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
 
-                    <Accordion id="conflict-acc">
                                         <Accordion.Section id="conflict-description">
                                          <Accordion.Title>
                                         Cat&aacute;strofes naturales y fen&oacute;menos meteorol&oacute;gicos extremos
@@ -330,8 +320,7 @@ const es = () => {
                                          </p>
                                      </Accordion.Panel>
                                  </Accordion.Section>
-                                 </Accordion>
-                        <Accordion id="global-health-crisis-acc">
+
                                           <Accordion.Section id="global-health-crisis-description">
                                             <Accordion.Title>
                                           Crisis mundial de salud

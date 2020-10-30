@@ -44,13 +44,14 @@ export const StepData = {
         //extraInfo: ExtraInfo.es
     },
     fr: {
-        title: "Huitième étape: Rendre compte des résultats",
+        title: "Huitième étape: Rendre compte des résultats et de l’engagement",
         topics: Topics.fr,
         keywords: ["Rapports publics"],
         learningObjectives: [
             "Comprendre les raisons qui justifient les rapports publics sur les programmes de conformité sociale et les avantages pour les entreprises.",
             "Comprendre la nature et le champ d’application des informations qui devraient faire l’objet de rapports.",
-            "Avoir une idée des travaux de préparation et de publication des rapports publics."
+            "Avoir une idée des travaux de préparation et de publication des rapports publics.",
+            "Comprend comment développer le dialogue participatif sur les questions de conformité sociale."
         ],
         keyTerms: [
             {

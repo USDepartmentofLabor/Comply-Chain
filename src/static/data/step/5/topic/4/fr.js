@@ -55,67 +55,42 @@ const fr = () => {
                         travailleurs migrants de Patagonia*
                     </h2>
                     <p>
-                        Lorsqu&rsquo;en&nbsp;2011, des audits ont
-                        r&eacute;v&eacute;l&eacute; des indicateurs de travail
-                        forc&eacute;, de traite des personnes et
-                        d&rsquo;exploitation dans le travail dans les usines des
-                        fournisseurs de Patagonia &agrave; Ta&iuml;wan, la
-                        soci&eacute;t&eacute; de v&ecirc;tements de plein air a
-                        compris que, malgr&eacute; son code de conduite sur le
-                        lieux de travail des fournisseurs d&eacute;j&agrave; en
-                        place, des normes plus solides &eacute;taient
-                        n&eacute;cessaires. Patagonia a donc collabor&eacute;
-                        avec Verit&eacute;*, ONG qui fait la promotion de
-                        conditions de travail s&ucirc;res, &eacute;quitable et
-                        l&eacute;gales dans le monde entier, pour mener des
-                        recherches afin de mieux comprendre la situation des
-                        travailleurs migrants dans sa cha&icirc;ne
-                        d&rsquo;approvisionnement. Apr&egrave;s avoir
-                        d&eacute;couvert que de nombreux migrants sont victimes
-                        d&rsquo;un syst&egrave;me de recrutement qui exploite
-                        les travailleurs, leur impose des commissions de
-                        recrutement excessives et les rend vuln&eacute;rables
-                        &agrave; la servitude pour dette, l&apos;entreprise a
-                        mis au point des normes exhaustives relatives aux
-                        travailleurs migrants. Ces normes interdisent aux usines
-                        de ses fournisseurs de facturer des commissions de
-                        recrutement et couvrent toute une s&eacute;rie
-                        d&rsquo;autres questions pertinentes pour les
-                        travailleurs migrants, notamment les conditions de
-                        travail et d&rsquo;existence, les salaires et les
-                        proc&eacute;dures de r&egrave;glement des
-                        r&eacute;clamations. Les{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/static/on/demandware.static/-/Library-Sites-PatagoniaShared/default/dw604fc14d/PDF-US/Migrant_Worker_Employment_Standards.pdf"
-                            title="Normes d&rsquo;emploi concernant les travailleurs migrants"
-                        >
-                            Normes d&rsquo;emploi concernant les travailleurs
-                            migrants
-                        </a>{" "}
-                        de Patagonia sont &agrave; la disposition du public [en
-                        anglais].
+                        Lorsqu’en 2011, des audits ont révélé des indicateurs de travail forcé, de traite des
+                        personnes et d’exploitation dans le travail dans les usines des fournisseurs de Patagonia à
+                        Taïwan, la société de vêtements de plein air a compris que, malgré son code de conduite sur
+                        les lieux de travail des fournisseurs déjà en place, des normes plus solides étaient nécessaires.
+                        Patagonia a donc collaboré avec Verité*, ONG qui fait la promotion de conditions de travail sûres,
+                        équitable et légales dans le monde entier, pour mener des recherches afin de mieux comprendre la
+                        situation des travailleurs migrants dans sa chaîne d’approvisionnement. Après avoir découvert que
+                        de nombreux migrants sont victimes d’un système de recrutement qui exploite les travailleurs, leur
+                        impose des commissions de recrutement excessives et les rend vulnérables à la servitude pour dette,
+                        l&apos;entreprise a mis au point des normes exhaustives relatives aux travailleurs migrants.
+                        Ces normes interdisent aux usines de ses fournisseurs de facturer des commissions de recrutement et
+                        couvrent toute une série d’autres questions pertinentes pour les travailleurs migrants, notamment les
+                        conditions de travail et d’existence, les salaires et les procédures de règlement des réclamations.
+                        Les normes relatives à l&apos;emploi des travailleurs migrants de Patagonia sont publiques et
+                        sont en 2020 en cours de révision. La société indique qu’en travaillant avec les fournisseurs pour
+                        mettre en œuvre la norme et avec d’autres marques qui rejoignent l’initiative, « Patagonia a fait
+                        d’important progrès pour passer ses fournisseurs à un système où les travailleurs ne doivent pas payer de commissions de recrutement ».
                     </p>
                     <p>
-                        Pour de plus amples informations, voir{" "}
+                        Source [en anglais] :{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.patagonia.com/blog/2015/06/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/"
-                            title="Le co&ucirc;t &eacute;lev&eacute; inacceptable de la main d&rsquo;&oelig;uvre&nbsp;&ndash; Comment une plong&eacute;e au c&oelig;ur de notre cha&icirc;ne d&rsquo;approvisionnement a conduit &agrave; une nouvelle norme pour les travailleurs migrants"
+                            href="https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html"
                         >
-                            <em>
-                                Le co&ucirc;t &eacute;lev&eacute; inacceptable
-                                de la main d&rsquo;&oelig;uvre&nbsp;&ndash;
-                                Comment une plong&eacute;e au c&oelig;ur de
-                                notre cha&icirc;ne d&rsquo;approvisionnement a
-                                conduit &agrave; une nouvelle norme pour les
-                                travailleurs migrants
-                            </em>
-                        </a>
-                        <em>.</em>
+                        https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html
+                        </a>.
                     </p>
+                    <p>Source :{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.patagonia.com/our-footprint/migrant-workers.html"
+                    >
+                    https://www.patagonia.com/our-footprint/migrant-workers.html
+                    </a>.</p>
                 </ExampleInAction>
                 <p>
                     Les{" "}
@@ -183,7 +158,7 @@ const fr = () => {
                             href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment"
                             title="Groupe de leadership pour le recrutement responsable"
                         >
-                            Groupe de leadership pour le recrutement responsable
+                            Groupe de leadership pour le recrutement responsable*
                         </a>{" "}
                         est un effort de collaboration entre plusieurs grandes
                         multinationales et des organisations d&rsquo;experts
@@ -208,7 +183,7 @@ const fr = () => {
                             title="Institut pour les droits de l&rsquo;homme et les entreprises"
                         >
                             Institut pour les droits de l&rsquo;homme et les
-                            entreprises
+                            entreprises*
                         </a>{" "}
                         (IHRB), le Groupe de leadership appelle &agrave;
                         l&rsquo;inscription du Principe «&nbsp;C&rsquo;est
@@ -236,7 +211,15 @@ const fr = () => {
                         >
                             Portail de recrutement responsable
                         </a>{" "}
-                        [en anglais].
+                        sur{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ihrb.org/employerpays/"
+
+                        >
+                        https://www.ihrb.org/employerpays/
+                         </a>{" "}[en anglais].
                     </p>
                 </ExampleInAction>
                 <p>

@@ -81,8 +81,7 @@ const es = () => {
                      </p>
                  </Accordion.Panel>
              </Accordion.Section>
-             </Accordion>
-                <Accordion id="industry-structure-acc">
+
                  <Accordion.Section id="industry-structure-acc-description">
                   <Accordion.Title>
                   Causas fundamentales
@@ -96,8 +95,7 @@ const es = () => {
                      </p>
                      </Accordion.Panel>
                  </Accordion.Section>
-                 </Accordion>
-                   <Accordion id="root-causes-acc">
+
                      <Accordion.Section id="root-causes-description">
                          <Accordion.Title>
                          Estructura de la industria
@@ -113,9 +111,7 @@ const es = () => {
                             </p>
                         </Accordion.Panel>
                     </Accordion.Section>
-                    </Accordion>
 
-                <Accordion id="cocoa-chains-acc">
                                                                <Accordion.Section id="cocoa-description">
                                                                   <Accordion.Title>
                                                                   Poblaci&oacute;n laboral
@@ -133,9 +129,7 @@ const es = () => {
                                                                      </p>
                                                                  </Accordion.Panel>
                                                              </Accordion.Section>
-                                                             </Accordion>
 
-                    <Accordion id="cocoa-chains-acc">
                                <Accordion.Section id="cocoa-description">
                                   <Accordion.Title>
                                   Relaciones industriales
@@ -151,8 +145,7 @@ const es = () => {
                                      </p>
                                  </Accordion.Panel>
                              </Accordion.Section>
-                             </Accordion>
-                    <Accordion id="cocoa-chains-acc">
+
                                    <Accordion.Section id="cocoa-description">
                                       <Accordion.Title>
                                      Protecci&oacute;n social
@@ -172,10 +165,7 @@ const es = () => {
                                          </p>
                                      </Accordion.Panel>
                                  </Accordion.Section>
-                                 </Accordion>
 
-
-                <Accordion id="cocoa-chains-acc">
                            <Accordion.Section id="cocoa-description">
                               <Accordion.Title>
                               Entorno jur&iacute;dico y reglamentario
@@ -194,8 +184,7 @@ const es = () => {
                                  </p>
                              </Accordion.Panel>
                          </Accordion.Section>
-                         </Accordion>
-                <Accordion id="cocoa-chains-acc">
+
                                        <Accordion.Section id="cocoa-description">
                                           <Accordion.Title>
                                           Iniciativas y organizaciones existentes
@@ -210,9 +199,7 @@ const es = () => {
                                              </p>
                                          </Accordion.Panel>
                                      </Accordion.Section>
-                                     </Accordion>
 
-                <Accordion id="cocoa-chains-acc">
                        <Accordion.Section id="cocoa-description">
                           <Accordion.Title>
                           Datos de mercado
@@ -228,9 +215,7 @@ const es = () => {
                          </p>
                          </Accordion.Panel>
                      </Accordion.Section>
-                     </Accordion>
 
-                     <Accordion id="cocoa-chains-acc">
                         <Accordion.Section id="cocoa-description">
                            <Accordion.Title>
                            Continuación
@@ -441,7 +426,13 @@ const es = () => {
                         >
                            Environmental and Social Policy and Procedures
                         </a>
-                        &nbsp;, 2020; disponible en idioma inglés solamente en https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf{" "}.
+                        &nbsp;, 2020; disponible en idioma inglés solamente en{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
+                        >
+                        https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf</a>.
                     </p>
                 </OwnWords>
             </div>

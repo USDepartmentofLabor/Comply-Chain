@@ -32,29 +32,16 @@ const fr = () => {
                                     mati&egrave;res premi&egrave;res.
                                 </p>
                                 <p>
-                                    Pour la plupart des entreprises, il peut
-                                    &ecirc;tre difficile de se doter d&rsquo;un
-                                    syst&egrave;me de conformit&eacute; sociale
-                                    qui permette de superviser et de
-                                    contr&ocirc;ler tous les acteurs de toutes
-                                    les cha&icirc;nes d&apos;approvisionnement.
-                                    Parall&egrave;lement, il est
-                                    fonci&egrave;rement important que votre
-                                    entreprise non seulement &eacute;vite par
-                                    ses activit&eacute;s d&apos;entra&icirc;ner
-                                    le travail des enfants et le travail
-                                    forc&eacute; ou d&apos;y contribuer, mais
-                                    aussi qu&rsquo;elle s&apos;efforce de
-                                    pr&eacute;venir ou d&apos;att&eacute;nuer
-                                    les incidences n&eacute;gatives sur les
-                                    droits des travailleurs li&eacute;es
-                                    &agrave; ses op&eacute;rations commerciales
-                                    par l&apos;interm&eacute;diaire de ses
-                                    relations commerciales. La{" "}
+                                    Pour la plupart des entreprises, il peut être difficile de se doter d’un
+                                    système de conformité sociale qui permette de superviser et de contrôler
+                                    tous les acteurs de toutes les chaînes d&apos;approvisionnement. Parallèlement,
+                                    il est foncièrement important que votre entreprise non seulement évite par ses activités
+                                    d&apos;entraîner le travail des enfants et le travail forcé ou
+                                    d&apos;y contribuer, mais aussi qu’elle s&apos;efforce de prévenir ou d&apos;atténuer les
+                                    incidences négatives sur les droits des travailleurs liées à ses opérations commerciales par
+                                    l&apos;intermédiaire de ses relations commerciales. La{" "}
                                     <Link to="/steps/4">
-                                        2<sup>e</sup>&nbsp;&eacute;tape,
-                                        &eacute;valuer les risques et les
-                                        incidences
+                                        deuxième étape, Évaluer les risques et les incidences
                                     </Link>
                                     , d&eacute;crit les processus de diligence
                                     raisonnable qu&apos;il conviendrait de
@@ -82,9 +69,7 @@ const fr = () => {
                                     la plus forte influence pour op&eacute;rer
                                     un changement utile. La{" "}
                                     <Link to="/steps/4">
-                                        2<sup>e</sup>&nbsp;&eacute;tape,
-                                        &eacute;valuer les risques et les
-                                        incidences
+                                        deuxième étape, Évaluer les risques et les incidences
                                     </Link>
                                     , vous permettra &eacute;galement
                                     d&apos;identifier les points les plus
@@ -204,7 +189,15 @@ const fr = () => {
                                             entreprises et aux droits de
                                             l&apos;homme des Nations Unies
                                         </a>
-                                        , 2011.
+                                        , 2011; disponible sur{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_FR.pdf"
+
+                                        >
+                                        http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_FR.pdf
+                                        </a>.
                                     </p>
                                     <p>
                                         <em>
@@ -255,7 +248,15 @@ const fr = () => {
                                             Principes directeurs de l&apos;OCDE
                                             pour les entreprises multinationales
                                         </a>
-                                        , 2011.
+                                        , 2011; disponible sur{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.oecd.org/fr/gouvernementdentreprise/mne/"
+
+                                        >
+                                        http://www.oecd.org/fr/gouvernementdentreprise/mne/
+                                        </a>.
                                     </p>
                                     <p>
                                         <em>
@@ -315,41 +316,22 @@ const fr = () => {
                                         <a
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            href="http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2"
+                                            href="www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2"
                                             title="IFC Performance Standard 2"
                                         >
-                                            IFC Performance Standard 2
+                                            Norme de performance 2 de la SFI
                                         </a>
-                                        <em>,</em> 2012.
+                                        <em>,</em> 2012; disponible [en anglais] sur{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2"
+                                        >
+                                        http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2
+                                        </a>.
                                     </p>
                                 </OwnWords>
-                            <p>
-                                <em>
-                                    *Remarque: Les
-                                    r&eacute;f&eacute;rences &agrave; des
-                                    soci&eacute;t&eacute;s et entit&eacute;s non
-                                    gouvernementales sp&eacute;cifiques dans ce
-                                    guide sont &agrave; des fins
-                                    d&rsquo;information uniquement afin de
-                                    d&eacute;montrer les bonnes pratiques
-                                    reconnues &agrave; l&rsquo;&eacute;chelle
-                                    internationale, &agrave; la date de
-                                    lancement de l&rsquo;appli. Toute
-                                    r&eacute;f&eacute;rence &agrave; ces
-                                    entit&eacute;s ne saurait constituer une
-                                    approbation officielle de ces
-                                    derni&egrave;res, de leurs produits ou de
-                                    leurs services par le d&eacute;partement du
-                                    Travail des &Eacute;tats-Unis,{" "}
-                                </em>
-                                <em>
-                                    et leur inclusion dans cette appli ne
-                                    saurait &ecirc;tre interpr&eacute;t&eacute;e
-                                    comme un examen exhaustif des pratiques de
-                                    ces entit&eacute;s dans tous les domaines
-                                </em>
-                                <em>.</em>
-                            </p>
+
             </div>
         </StaticData>
     );

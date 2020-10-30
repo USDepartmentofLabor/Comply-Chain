@@ -105,98 +105,57 @@ const fr = () => {
                 <ExampleInAction id="Conflict_Free">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Exemple d&apos;action</strong>: Initiative
-                        pour un approvisionnement sans conflits
+                        <strong>Exemple d&apos;action</strong>: Initiative pour des minerais responsables*
                     </h2>
                     <p>
-                        Pour les entreprises de l&rsquo;industrie
-                        &eacute;lectronique, le conflit en R&eacute;publique
-                        d&eacute;mocratique du Congo, d&rsquo;o&ugrave; viennent
-                        un grand nombre des minerais qui servent &agrave; la
-                        production des produits &eacute;lectroniques, constitue
-                        l&rsquo;un des risques essentiels identifi&eacute;s en
-                        mati&egrave;re de droits de l&rsquo;homme et de droits
-                        du travail. L&rsquo;
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.conflictfreesourcing.org/"
-                            title="Initiative pour un approvisionnement sans conflits"
-                        >
-                            Initiative pour un approvisionnement sans conflits
-                        </a>{" "}
-                        (CFSI), mise en place par la{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.eiccoalition.org/"
-                            title="Coalition pour la citoyennet&eacute; de l&rsquo;industrie &eacute;lectronique"
-                        >
-                            Coalition pour la citoyennet&eacute; de
-                            l&rsquo;industrie &eacute;lectronique
-                        </a>{" "}
-                        et l&rsquo;
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://gesi.org/"
-                            title="Initiative mondiale d&rsquo;e-durabilit&eacute;"
-                        >
-                            Initiative mondiale d&rsquo;e-durabilit&eacute;
-                        </a>{" "}
-                        en 2008, entend faire la promotion d&rsquo;un
-                        approvisionnement responsable en minerais provenant de
-                        zones &agrave; haut risque et touch&eacute;es par des
-                        conflits. La CFSI a con&ccedil;u des outils et des
-                        ressources utilis&eacute;s par plus de
-                        350&nbsp;entreprises issues de toute un s&eacute;rie de
-                        secteurs pour surveiller leurs cha&icirc;nes
-                        d&rsquo;approvisionnement. Elle a &eacute;galement mis
-                        en place le{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.conflictfreesourcing.org/conflict-free-smelter-program/"
-                            title="Programme de fonderies sans conflits"
-                        >
-                            Programme de fonderies sans conflits
-                        </a>
-                        , qui aide les fonderies et les raffineries &agrave;
-                        valider, par le biais d&rsquo;audits tiers
-                        ind&eacute;pendants, qu&rsquo;ils sont conformes aux
-                        normes internationales telles que le{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.oecd.org/corporate/mne/mining.htm"
-                            title="Guide OCDE sur le devoir de diligence pour des cha&icirc;nes d'approvisionnement responsables en minerais provenant de zones de conflit ou &agrave; haut risque"
-                        >
-                            Guide OCDE sur le devoir de diligence pour des
-                            cha&icirc;nes d&apos;approvisionnement responsables
-                            en minerais provenant de zones de conflit ou
-                            &agrave; haut risque
-                        </a>
-                        .
+                    Pour les entreprises de l’industrie électronique,
+                    le conflit en République démocratique du Congo, d’où viennent un grand nombre des minerais
+                    qui servent à la production des produits électroniques, constitue l’un des risques essentiels
+                    identifiés en matière de droits de l’homme et de droits du travail. L’Initiative pour des minerais
+                    responsables* (RMI), anciennement Initiative pour l’approvisionnement sans conflit, a été mise en
+                    place en 2008 par la Coalition des citoyens du secteur des produits électroniques, aujourd&apos;hui
+                    la{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.responsiblebusiness.org/"
+                    >
+                    Responsible Business Alliance
+                    </a>
+                    *, et la Global e-Sustainability Initiative* afin de faire la promotion
+                    d’un approvisionnement en minerais responsables provenant de zones de conflit et à haut risque. La RMI a
+                    conçu des outils et des ressources utilisés par plus de 350 entreprises issues de toute une série de
+                    secteurs pour surveiller leurs chaînes d’approvisionnement. Elle a également mis en place le{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.conflictfreesourcing.org/conflict-free-smelter-program/"
+                    >
+                    Processus
+                    d’assurance de minéraux responsables (RMAP)
+                    </a>
+                    , anciennement Programme de fonderies sans conflits, qui aide
+                    les fonderies et les raffineries à valider, par le biais d’audits tiers indépendants, qu’ils sont conformes
+                    aux normes internationales telles que le Guide OCDE sur le devoir de diligence pour des chaînes
+                    d&apos;approvisionnement responsables en minerais provenant de zones de conflit ou à haut risque.
                     </p>
+                    <p>Source [en anglais] :{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.responsiblemineralsinitiative.org/"
+                    >
+                    http://www.responsiblemineralsinitiative.org/
+                    </a>.</p>
                 </ExampleInAction>
                 <p>
-                    Vos r&eacute;ponses aux informations de
-                    l&apos;&eacute;valuation des risques et des incidences
-                    devraient &ecirc;tre centr&eacute;es sur les incidences sur
-                    les travailleurs. Aux premiers jours de la conformit&eacute;
-                    sociale, les entreprises qui identifiaient des violations
-                    patentes des droits du travail ou des risques graves dans
-                    leurs cha&icirc;nes d&apos;approvisionnement mettaient
-                    d&apos;ordinaire imm&eacute;diatement fin &agrave; leur
-                    approvisionnement aupr&egrave;s des fournisseurs en
-                    question. Ces actions &eacute;taient un message sans
-                    d&eacute;tour aux fournisseurs en ce qui concernait la
-                    conformit&eacute;, mais ils avaient &eacute;galement des
-                    effets d&eacute;vastateurs sur les travailleurs. La question
-                    du «&nbsp;d&eacute;sengagement responsable&nbsp;»
-                    vis-&agrave;-vis d&rsquo;un fournisseur a fait l&rsquo;objet
-                    d&rsquo;un document de travail [en anglais] de SOMO
-                    intitul&eacute;{" "}
+                    Vos réponses aux informations de l&apos;évaluation des risques et des incidences devraient être centrées sur
+                    les incidences sur les travailleurs. Aux premiers jours de la conformité sociale, les entreprises qui identifiaient
+                    des violations patentes des droits du travail ou des risques graves dans leurs chaînes d&apos;approvisionnement mettaient
+                    d&apos;ordinaire immédiatement fin à leur approvisionnement auprès des fournisseurs en question. Ces actions étaient
+                    un message sans détour aux fournisseurs en ce qui concernait la conformité, mais ils avaient également des effets
+                    dévastateurs sur les travailleurs. La question du « désengagement responsable » vis-à-vis d’un fournisseur a
+                    fait l’objet d’un document de travail [en anglais] du Centre de recherche sur les entreprises multinationales (SOMO) :{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -207,14 +166,9 @@ const fr = () => {
                         d&eacute;sengagement dans le cadre de la diligence
                         raisonnable en mati&egrave;re de droits de l&rsquo;homme
                     </a>
-                    . La tendance croissante dans le domaine de la
-                    conformit&eacute; sociale va dans le sens du renforcement
-                    des capacit&eacute;s et de l&apos;&eacute;laboration de
-                    relations de longue dur&eacute;e pour am&eacute;liorer la
-                    conformit&eacute;, au lieu d&apos;une cessation
-                    imm&eacute;diate en raison de ses effets n&eacute;gatifs sur
-                    les travailleurs. L&rsquo;exemple suivant en est une
-                    d&eacute;monstration.
+                    . La tendance croissante dans le domaine de la conformité sociale va dans le sens du renforcement des capacités
+                    et de l&apos;élaboration de relations de longue durée pour améliorer la conformité, au lieu d&apos;une cessation
+                    immédiate en raison de ses effets négatifs sur les travailleurs. L’exemple suivant en est une démonstration.
                 </p>
                 <ExampleInAction id="mica">
                     <h2>
@@ -224,57 +178,50 @@ const fr = () => {
                         responsable en mica
                     </h2>
                     <p>
-                        Le mica est un minerais utilis&eacute; dans
-                        diff&eacute;rent secteurs, notamment l&rsquo;industrie
-                        cosm&eacute;tique, pour donner un effet paillet&eacute;
-                        &agrave; toute une gamme de produits. Plus de 60&nbsp;%
-                        du mica naturel de L&rsquo;Or&eacute;al sont originaires
-                        des &Eacute;tats-Unis, mais le reste provient
-                        d&rsquo;autres pays, comme l&rsquo;Inde, o&ugrave; il
-                        existe un risque &eacute;lev&eacute; de travail des
-                        enfants et de conditions de travail dangereuses. En
-                        d&eacute;pit de ces risques, L&rsquo;Or&eacute;al,
-                        membre signataire du Pacte mondial des &Eacute;tats-Unis
-                        et membre fondateur de la{" "}
+                        Le mica est un minerai utilisé dans différent secteurs, notamment l’industrie cosmétique pour donner un effet pailleté à toute
+                        une gamme de produits. Plus de 60 % du mica naturel de L’Oréal sont originaires des États-Unis, mais le reste provient d’autres
+                        pays, comme l’Inde, où il existe un risque élevé de travail des enfants et de conditions de travail dangereuses. D’ailleurs, le
+                        département du Travail a ajouté le mica à la Liste des biens issus du travail des enfants ou du travail forcé de 2018, sur la
+                        base de preuves montrant des enfants de 5 à 17 ans participant à la collecte du mica dans des mines abandonnées, principalement
+                        dans le cadre d’opérations minières illégales en Inde, surtout dans les grands États producteurs de mica que sont le Bihar,
+                        le Jharkhand et le Rajasthan.
+                        </p>
+                        <p>
+                        En dépit de ces risques, L’Oréal, membre signataire du Pacte mondial des États-Unis et membre fondateur de la{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.responsible-mica-initiative.com/"
-                            title="Responsible Mica Initiative"
+                            href="www.responsible-mica-initiative.com/"
                         >
-                            Responsible Mica Initiative
+                        Responsible Mica Initiative
                         </a>
-                        , a pris l&rsquo;engagement de rester en Inde et
-                        d&rsquo;assurer la tra&ccedil;abilit&eacute; et la
-                        transparence de sa cha&icirc;ne
-                        d&rsquo;approvisionnement. La soci&eacute;t&eacute; est
-                        en effet d&apos;avis qu&rsquo;interrompre son
-                        approvisionnement en mica indien ne profiterait pas aux
-                        travailleurs et &agrave; leurs familles, et pourrait
-                        aggraver leurs probl&egrave;mes &eacute;conomiques et
-                        sociaux. En Inde, L&rsquo;Or&eacute;al met donc en
-                        &oelig;uvre un programme d&rsquo;approvisionnement
-                        durable qui travaille avec un nombre limit&eacute; de
-                        fournisseurs qui s&rsquo;engagent &agrave; fournir un
-                        mica extrait de mines l&eacute;gales et
-                        cl&ocirc;tur&eacute;es, o&ugrave; les conditions de
-                        travail et les droits de l&rsquo;homme, notamment la
-                        pr&eacute;vention et l&rsquo;&eacute;limination du
-                        travail des enfants, peuvent &ecirc;tre
-                        surveill&eacute;s. Les fournisseurs indiens de la
-                        soci&eacute;t&eacute; passent par des audits
-                        ind&eacute;pendants visant &agrave; surveiller leur
-                        conformit&eacute; et conviennent d&rsquo;investir dans
-                        des activit&eacute;s de renforcement des
-                        communaut&eacute;s afin de s&rsquo;attaquer aux causes
-                        sous-jacentes des violations des droits du travail.
-                        Ainsi, en travaillant avec des ONG locales et
-                        d&rsquo;autres parties prenantes, L&rsquo;Or&eacute;al
-                        entend cr&eacute;er une cha&icirc;ne
-                        d&rsquo;approvisionnement en mica durable et
-                        am&eacute;liorer les conditions de travail et
-                        d&rsquo;existence dans la r&eacute;gion.&nbsp;
+                        *,
+                        a pris l’engagement de rester en Inde et d’assurer la traçabilité et la transparence de sa chaîne d’approvisionnement.
+                        La société est en effet d&apos;avis qu’interrompre son approvisionnement en mica indien ne profiterait pas aux travailleurs
+                        et à leurs familles, et pourrait aggraver leurs problèmes économiques et sociaux. En Inde, L’Oréal met donc en œuvre un programme
+                        d’approvisionnement durable qui travaille avec un nombre limité de fournisseurs qui s’engagent à fournir un mica extrait de
+                        mines légales et clôturées, où les conditions de travail et les droits de l’homme, notamment la prévention et l’élimination du
+                        travail des enfants, peuvent être surveillés. Les fournisseurs indiens de la société passent par des audits indépendants visant
+                        à surveiller leur conformité et conviennent d’investir dans des activités de renforcement des communautés afin de s’attaquer aux
+                        causes sous-jacentes des violations des droits du travail. Ainsi, en travaillant avec des ONG locales et d’autres parties
+                        prenantes, L’Oréal{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica"
+                        >
+                        entend créer une chaîne d’approvisionnement en mica durable
+                        </a>
+                         {" "}et améliorer les conditions de travail et d’existence dans la région.
                     </p>
+                    <p>Source :{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica"
+                    >
+                    https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica
+                    </a>.</p>
                 </ExampleInAction>
                 <p>
                     Le renforcement des capacit&eacute;s et des relations
@@ -290,9 +237,7 @@ const fr = () => {
                     questions de formation et de communication, sont
                     d&eacute;taill&eacute;es, entre autres, &agrave; la{" "}
                     <Link to="/steps/6">
-                        4<sup>e</sup>&nbsp;&eacute;tape: communiquer et
-                        former l&rsquo;ensemble de votre cha&icirc;ne
-                        d&rsquo;approvisionnement
+                        quatrième étape, Communiquer et former dans l'ensemble de vos chaînes d'approvisionnement
                     </Link>
                     .
                 </p>

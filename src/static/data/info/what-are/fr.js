@@ -14,7 +14,6 @@ const fr = () => {
                         forc&eacute;?
                     </strong>
                 </h1>
-                <p>Sources des normes:</p>
                 <p>
                     Les normes internationales sur le travail des enfants et le
                     travail forc&eacute; ont &eacute;t&eacute;
@@ -49,21 +48,16 @@ const fr = () => {
                         <Accordion.Panel>
                             <h3>D&eacute;finitions</h3>
                             <p>
-                                Le terme <strong>enfant</strong> ou{" "}
-                                <strong>enfants</strong> s&apos;applique
-                                &agrave; l&rsquo;ensemble des personnes de moins
-                                de 18 ans.
+                                Le terme <strong>enfant</strong> s&apos;applique à une personne de moins de 18 ans.
                             </p>
                             <p>
                                 Le terme <strong>travail des enfants</strong>{" "}
-                                comprend{" "}
+                                désigne le travail effectué par une personne{" "}
                                 <em>
-                                    l&rsquo;emploi en dessous de
-                                    l&rsquo;&acirc;ge minimum permis
+                                    n’ayant pas l’âge minimum requis fixé
                                 </em>{" "}
-                                tel que d&eacute;fini par la l&eacute;gislation
-                                nationale (hormis les travaux l&eacute;gers
-                                autoris&eacute;s) et les{" "}
+                                par la législation nationale (à l’exclusion des travaux
+                                légers autorisés). Le travail des enfants comprend également les{" "}
                                 <em>pires formes de travail des enfants</em>.
                             </p>
                             <p>
@@ -86,15 +80,14 @@ const fr = () => {
                                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
                                     title="Convention n<sup>o</sup>&nbsp;182 de l&rsquo;OIT"
                                 >
-                                    convention n<sup>o</sup>&nbsp;182 de
-                                    l&rsquo;OIT
+                                    convention 182 de l’OIT
                                 </a>{" "}
                                 d&eacute;finit les pires formes de travail des
                                 enfants comme suit:
                             </p>
                             <ol type="a">
                                 <li>
-                                    toutes les formes d&apos;esclavage ou
+                                    Toutes les formes d&apos;esclavage ou
                                     pratiques analogues, telles que la vente et
                                     la traite des enfants, la servitude pour
                                     dettes et le servage ainsi que le travail
@@ -104,14 +97,14 @@ const fr = () => {
                                     conflits arm&eacute;s ;
                                 </li>
                                 <li>
-                                    l&apos;utilisation, le recrutement ou
+                                    L&apos;utilisation, le recrutement ou
                                     l&apos;offre d&apos;un enfant &agrave; des
                                     fins de prostitution, de production de
                                     mat&eacute;riel pornographique ou de
                                     spectacles pornographiques ;
                                 </li>
                                 <li>
-                                    l&apos;utilisation, le recrutement ou
+                                    L&apos;utilisation, le recrutement ou
                                     l&apos;offre d&apos;un enfant aux fins
                                     d&apos;activit&eacute;s illicites, notamment
                                     pour la production et le trafic de
@@ -120,7 +113,7 @@ const fr = () => {
                                     internationaux pertinents ; et
                                 </li>
                                 <li>
-                                    des travaux qui, par leur nature ou les
+                                    Des travaux qui, par leur nature ou les
                                     conditions dans lesquelles ils
                                     s&apos;exercent, sont susceptibles de nuire
                                     &agrave; la sant&eacute;, &agrave; la
@@ -131,8 +124,8 @@ const fr = () => {
                                 </li>
                             </ol>
                             <p>
-                                Selon la convention n<sup>o</sup>&nbsp;182 de
-                                l&apos;OIT, les travaux dangereux «&nbsp;doivent
+                                Selon la convention 182 de l&apos;OIT, les
+                                travaux dangereux «&nbsp;doivent
                                 &ecirc;tre d&eacute;termin&eacute;s par la
                                 l&eacute;gislation nationale ou
                                 l&apos;autorit&eacute; comp&eacute;tente,
@@ -150,9 +143,9 @@ const fr = () => {
                                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:R190"
                                     title="La recommandation n<sup>o</sup>&nbsp;190 de l&rsquo;OIT"
                                 >
-                                    recommandation n<sup>o</sup>&nbsp;190
+                                    recommandation n<sup>o</sup>&nbsp;190 l&rsquo;OIT
                                 </a>{" "}
-                                de l&rsquo;OIT en annexe de la convention n
+                                 en annexe de la convention n
                                 <sup>o</sup>
                                 &nbsp;182 de l&apos;OIT offre des
                                 recommandations suppl&eacute;mentaires ayant
@@ -167,7 +160,7 @@ const fr = () => {
                                 localisation, il faudrait, entre autres, prendre
                                 en consid&eacute;ration:
                             </p>
-                            <ol type="a">
+                            <ol>
                                 <li>
                                     les travaux qui exposent les enfants
                                     &agrave; des s&eacute;vices physiques,
@@ -300,12 +293,24 @@ const fr = () => {
                             <p />
                             <h3>Estimations sur le travail des enfants</h3>
                             <p>
-                                Selon les estimations de l&apos;OIT, en 2016, il
-                                y avait dans le monde entier 152&nbsp;millions
-                                d&apos;enfants travailleurs. Les statistiques
-                                mondiales sur le travail des enfants
-                                apr&egrave;s&nbsp;2016 ne sont pas encore
-                                disponibles.
+                                Selon les{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/publication/wcms_575499.pdf"
+                                >
+                                estimations mondiales sur le travail des enfants
+                                </a>
+                                {" "}de l&apos;OIT, en 2016, il y avait
+                                dans le monde entier 152 millions d&apos;enfants travailleurs. Les statistiques mondiales sur
+                                le travail des enfants après 2016 ne sont pas encore disponibles. Sur ces 152 millions, les dernières
+                                estimations indiquent que 70,4 % travaillent dans le secteur de l’agriculture, 17,2 % dans les
+                                services et 11,9 % dans le domaine industriel. Au niveau régional, l’Afrique représente un cinquième
+                                de l’ensemble des enfants travailleurs et le plus grand nombre d’entre eux, soit 72 millions. Après
+                                l’Afrique vient la région Asie-Pacifique avec 7 % de l’ensemble des enfants travailleurs, soit 62 
+                                millions. Les Amériques, l’Europe et l’Asie centrale, et les pays arabes représentent le reste du
+                                travail des enfants avec respectivement 11 millions, 6 millions et 1 million d’enfants qui peinent
+                                dans ces conditions difficiles.
                             </p>
                             <p />
                             <Accordion >
@@ -683,9 +688,15 @@ const fr = () => {
                             <p>
                                 La migration de travail donne &eacute;galement
                                 lieu &agrave; de nouvelles formes de travail
-                                forc&eacute;. Il existe environ
+                                forc&eacute;. Il existe environ{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/global/publications/books/WCMS_652001/lang--en/index.htm"
+                                >
                                 150&nbsp;millions de travailleurs migrants dans
-                                la main d&apos;&oelig;uvre internationale.
+                                la main d&apos;&oelig;uvre mondiale
+                                </a>,
                                 <sup>1</sup> Ils sont particuli&egrave;rement
                                 vuln&eacute;rables aux recruteurs de
                                 main-d&apos;&oelig;uvre et &agrave;
@@ -770,9 +781,15 @@ const fr = () => {
                             </p>
                             <h3>Estimations sur le travail forc&eacute;</h3>
                             <p>
-                                L&apos;OIT a estim&eacute; en 2016 que
+                                L&apos;OIT a estim&eacute; en 2016 que{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/wcmsp5/groups/public/@dgreports/@dcomm/documents/publication/wcms_575479.pdf"
+                                >
                                 25&nbsp;millions de personnes &eacute;taient
-                                victimes du travail forc&eacute; dans le monde.
+                                victimes du travail forc&eacute; dans le monde
+                                </a>.
                                 Parmi elles, pr&egrave;s de 5&nbsp;millions sont
                                 victimes de l&apos;exploitation sexuelle
                                 commerciale forc&eacute;e, et 16&nbsp;millions
@@ -784,16 +801,6 @@ const fr = () => {
                                 4&nbsp;autres millions de victimes sont
                                 contraintes de travailler par
                                 l&apos;&Eacute;tat.
-                            </p>
-                            <p>
-                                Source: OIT,{" "}
-                                <em>
-                                    Estimations mondiales de l&apos;OIT
-                                    concernant les travailleuses et les
-                                    travailleurs migrants: R&eacute;sultats et
-                                    m&eacute;thodologie.{" "}
-                                </em>
-                                Gen&egrave;ve, 2015, p.&nbsp;xi
                             </p>
                             <h3>Traite des personnes</h3>
                             <p>

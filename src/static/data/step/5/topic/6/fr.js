@@ -53,20 +53,17 @@ const fr = () => {
                         title="Principes et crit&egrave;res de production de la Better Cotton Initiative"
                     >
                         Principes et crit&egrave;res de production de la Better
-                        Cotton Initiative
+                        Cotton Initiative*
                     </a>{" "}
                     pour les entreprises de l&apos;ensemble de la cha&icirc;ne
-                    d&apos;approvisionnement du coton, le{" "}
+                    d&apos;approvisionnement du coton, la{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.eiccoalition.org/media/docs/EICCCodeofConduct5_English.pdf"
-                        title="Code de conduite de la Coalition pour la citoyennet&eacute; de l&rsquo;industrie &eacute;lectronique"
+                        href="www.responsiblebusiness.org/code-of-conduct/"
                     >
-                        Code de conduite de la Coalition pour la
-                        citoyennet&eacute; de l&rsquo;industrie
-                        &eacute;lectronique
-                    </a>{" "}
+                        Responsible Business Alliance
+                    </a>*{" "}
                     pour les entreprises de l&rsquo;industrie
                     &eacute;lectronique, la{" "}
                     <a
@@ -107,16 +104,15 @@ const fr = () => {
                     >
                         Automotive Industry Action Group
                     </a>
-                    * et les{" "}
+                    * et le{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-priority-industry-principles"
                         title="Principes sectoriels prioritaires du Consumer Goods Forum"
                     >
-                        Principes sectoriels prioritaires du Consumer Goods
-                        Forum
-                    </a>{" "}
+                        Guide sur les principes sectoriels prioritaires du Consumer Goods Forum
+                    </a>*{" "}
                     sur le travail forc&eacute; en sont deux exemples.
                 </p>
                 <p>
@@ -146,9 +142,7 @@ const fr = () => {
                         href="http://mneguidelines.oecd.org/responsible-supply-chains-textile-garment-sector.htm"
                         title="Guide OCDE sur le devoir de diligence pour des cha&icirc;nes d'approvisionnement responsables dans le secteur de l'habillement et de la chaussure"
                     >
-                        Guide OCDE sur le devoir de diligence pour des
-                        cha&icirc;nes d&apos;approvisionnement responsables dans
-                        le secteur de l&apos;habillement et de la chaussure
+                        Guide OCDE-FAO pour des chaînes d&apos;approvisionnement agricoles responsables
                     </a>
                     ; 3) le{" "}
                     <a
@@ -188,7 +182,7 @@ const fr = () => {
                         href="http://www.responsiblesourcingtool.org/vendoragreement"
                         title="Exemple d&rsquo;accord de responsabilit&eacute; sociale"
                     >
-                        Exemple d&rsquo;accord de responsabilit&eacute; sociale
+                        Exemple d’accord de fournisseur
                     </a>{" "}
                     qui permet de compl&eacute;ter les contrats et les accords
                     pass&eacute;s entre une soci&eacute;t&eacute; et ses

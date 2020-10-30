@@ -710,13 +710,13 @@ const es = () => {
                             </p>
                             <h3>C&aacute;lculos de trabajo forzoso</h3>
                             <p>
-                            Según cálculos de la OIT,&nbsp;
+                            Según cálculos de la OIT, en 2016&nbsp;
                             <a
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     href="https://www.ilo.org/wcmsp5/groups/public/@ed_norm/@ipec/documents/publication/wcms_596485.pdf"
                                 >
-                            en 2016 en todo el mundo había 25 millones de víctimas del trabajo forzoso
+                            en todo el mundo había 25 millones de víctimas del trabajo forzoso
                             </a>
                             . De estas, casi 5 millones se encontraban en situación de explotación
                             sexual forzosa con fines comerciales y 16 millones, en otros tipos de
