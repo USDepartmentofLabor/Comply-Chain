@@ -1,7 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../components/StaticData";
 
-const en = () => {
+const ms = () => {
     return (
         <StaticData>
             <div>
@@ -9,14 +9,11 @@ const en = () => {
                                 <li>
                                     ILO.{" "}
                                     <em>
-                                        Progress and potential: How Better Work
-                                        is Improving Garment Workers&rsquo;
-                                        Lives and Boosting Factory
-                                        Competitiveness: A Summary of an
-                                        Independent Assessment of the Better
-                                        Work Programme;.
+                                        Kemajuan dan potensi: Cara Kerja Lebih Baik adalah Memperbaiki Kehidupan
+                                        Pekerja Pakaian dan Meningkatkan Daya Saing Kilang: Ringkasan Penilaian
+                                        Bebas Program Better Work; 2016 boleh didapati dari;
                                     </em>{" "}
-                                    2016 available from{" "}
+                                    2016 boleh didapati dar{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -32,4 +29,4 @@ const en = () => {
     );
 };
 
-export default en;
+export default ms;

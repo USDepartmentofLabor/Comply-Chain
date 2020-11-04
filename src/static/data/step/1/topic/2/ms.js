@@ -1,16 +1,17 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import Accordion from "../../../../../../components/Accordion";
 
 const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>Evolving voluntary standards and authoritative norms</h1>
+                <h1>Panduan Prinsip PBB Mengenai Perniagaan dan Hak Asasi Manusia dan
+                standard sukarela yang berubah dan norma-norma yang berwibawa.</h1>
                 <p>
-                    Public expectations of companies&rsquo; control over labor
-                    standards and human rights in their supply chains have
-                    intensified in recent years. For decades, voluntary
-                    standards such as the{" "}
+                    Jangkaan orang awam terhadap syarikat yang mengawal standard buruh
+                    dan hak asasi manusia dalam rantai bekalan mereka semakin kuat.
+                    Sudah berdekad lamanya standard sukarela sepert{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -19,10 +20,9 @@ const en = () => {
                         Organization for Economic Cooperation and Development
                         (OECD) Guidelines for Multinational Enterprises
                     </a>{" "}
-                    have articulated basic norms for companies with respect to
-                    labor and employment issues. A 2011 revision to the OECD
-                    Guidelines, along with the United Nations Human Rights
-                    Council&rsquo;s June 2011 adoption of{" "}
+                    telah mengeluarkan norma-norma asas kepada syarikat berkaitan dengan pekerja
+                    dan isu pekerjaan. Kajian semula 2011 Panduan OECD, disamping Majlis Hak Asasi
+                    Manusia Pertubuhan Bangsa-Bangsa Bersatu yang diterima pakai pada Jun 2011{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -30,23 +30,22 @@ const en = () => {
                     >
                         Guiding Principles on Business and Human Rights
                     </a>
-                    , have played important roles in this shift in public
-                    expectations. Under the UN Guiding Principles on Business
-                    and Human Rights, states have the duty to protect against
-                    human rights abuse within their territory and/or
-                    jurisdiction by third parties, including business
-                    enterprises. States also have the duty to take appropriate
-                    steps to ensure that when such abuses occur, those affected
-                    have access to effective remedy. For their part, business
-                    enterprises have the responsibility to respect human rights,
-                    including by avoiding causing or contributing to adverse
-                    human rights impacts through their own activities, and by
-                    seeking to prevent or mitigate such impacts that are
-                    directly linked to their operations, products, or services
-                    by their business relationships. The UN Guiding Principles
-                    apply to all states and to all business enterprises, both
-                    transnational and others, regardless of their size, sector,
-                    location, ownership and structure.
+                    , telah memainkan peranan penting dalam mengubah jangkaan orang awam.
+                    </p>
+                    <p>
+                    Di bawah prinsip PBB mengenai dan hak asasi manusia, sesebuah negara mempunyai tugas
+                    untuk melindungi daripada penderaan hak asasi manusia dalam wilayah mereka dan/atau
+                    dalam bidang kuasa pihak ketiga, termasuk perusahaan perniagaan. Negara juga mempunyai
+                    kewajipan untuk mengambil langkah-langkah yang sesuai untuk memastikan bahawa apabila
+                    penderaan terjadi, mereka yang terjejas mempunyai akses kepada pemulihan yang efektif.
+                    Bagi pihak mereka, syarikat perniagaan mempunyai tanggungjawab untuk menghormati hak
+                    asasi manusia termasuk menghindari daripada menyebabkan atau menyumbang kepada kesan
+                    buruk hak asasi manusia melalui kegiatan mereka sendiri. Pelaku korporat juga bertanggungjawab
+                    untuk memberi akses kepada mangsa untuk mendapatkan rawatan yang berkesan dan berusaha untuk
+                    mencegah atau mengurangkan kesan yang secara langsung ada kaitan dengan operasi, produk atau
+                    perkhidmatan mereka dengan perhubungan perniagaan mereka. Prinsip panduan PBB berlaku untuk
+                    semua negara dan semua perusahaan perniagaan transnasional dan lain-lain tanpa mengira ukuran,
+                    sektor, lokasi, pemilikan dan strukturnya.
                 </p>
             </div>
         </StaticData>
