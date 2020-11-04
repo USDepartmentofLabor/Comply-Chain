@@ -61,6 +61,6 @@ export const StepData = {
             keyTerms: [
                 "Some text"
             ],
-            furtherResources: Resources.en
+            furtherResources: Resources.ms
         }
 };
