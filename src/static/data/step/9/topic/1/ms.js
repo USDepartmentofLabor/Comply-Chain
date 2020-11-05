@@ -7,41 +7,30 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-            <h1>Why Conduct Independent Review?</h1>
+            <h1>Mengapa Melakukan Kajian Semula yang Bebas?</h1>
                 <p>
-                    As discussed in Basics of a Social Compliance System, your
-                    social compliance team has set goals, objectives and targets
-                    for your system and periodically assesses performance
-                    against those targets. In addition to this internal review,
-                    you will also need periodic,{" "}
-                    <strong>independent review</strong>, which includes{" "}
-                    <strong>independent monitoring</strong> and{" "}
-                    <strong>independent verification</strong> of the
-                    effectiveness of all social compliance program elements.{" "}
-                    <em>Note: If, in </em>
+                    Seperti yang dibincangkan dalam Sistem Pematuhan Sosial Asas, pasukan pematuhan sosial anda mempunyai matlamat 
+                    yang telah ditetapkan, objektif dan sasaran bagi sistem anda dan mengakses secara berkala prestasi terhadap 
+                    sasaran tersebut. Sebagai tambahan kepada kajian dalaman ini, anda juga perlukan kajian bebas, yang termasuk 
+                    pemantauan bebas dan pengesahan bebas berkaitan dengan keberkesanan semua elemen program pematuhan sosial.{" "}
+                    <em>Catatan: Kalau dalam </em>
                     <Link to="/steps/7">Step 5, Monitor Compliance</Link>
                     <em>
-                        , a company already opted for independent
-                        monitoring/auditing, it is not necessary to repeat this
-                        step, but it is still advised to carry out independent
-                        verification.{" "}
+                    , sebuah syarikat sudah memilih pemantauan bebas/mengaudit, tidak perlu lagi untuk mengulangi langkah ini, 
+                    tetapi dinasihatkan untuk menjalankan pengesahan bebas{" "}
                     </em>
-                    Review and assessment by an independent external party helps
-                    you identify areas for improvement and provides stakeholders
-                    with desired information on the implementation and
-                    effectiveness of your system.
+                    Kajian dan penilaian oleh pihak luar yang bebas boleh membantu anda mengenal pasti bidang untuk diperbaiki dan 
+                    memberi pihak berkepentingan maklumat yang diinginkan mengenai pelaksanaan dan keberkesanan sistem anda.
                 </p>
                 <ExampleInAction id="sai_model">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Social Accountability
-                            International Model{" "}
+                            Contoh dalam Tindakan: Model Kebertanggungjawapan Sosial Antarabangsa (Social Accountability 
+                            International Model
                         </strong>
                     </h2>
                     <p>
-                        To ensure the independence of audits conducted against
-                        its Social Accountability 8000 (SA8000) Standard,{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -49,20 +38,32 @@ const ms = () => {
                             title="Social Accountability International (SAI)"
                         >
                             Social Accountability International (SAI)
+                        </a>
+                        * ialah pertubuhan badan bukan kerajaan yang memberi fokus kepada 
+                        usaha hak asasi manusia. Pada 1997, sebagai sebahagian daripada inisiatif pelbagai pihak berkepentingan, 
+                        SAI membangunkan{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.sa-intl.org/_data/global/files/SA8000Standard2014(3).pdf"
+                            title="Social Accountability (SA8000) Standard"
+                        >
+                            Social Accountability (SA8000) Standard
                         </a>{" "}
-                        founded{" "}
+                        SA8000 ialah standard persijilan sosial antarabangsa bagi kilang-kilang dan pertubuhan yang, selepas bertahun-tahun, 
+                        telah berubah menjadi kerangka inklusif yang membantu pertubuhan menunjukkan pematuhan sosial yang berkualiti tinggi 
+                        dalam rantai bekalan.   Bagi memastikan kebebasan audit yang dilakukan terhadap SA8000, SAI mengasaskan{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.saasaccreditation.org/"
+                            title="Social Accountability Accreditation Services (SAAS)"
                         >
                             Social Accountability Accreditation Services (SAAS)
                         </a>{" "}
-                        in 1997. SAAS later became a separate not-for-profit
-                        organization in 2007. SAAS is an agency that accredits
-                        and monitors organizations as certifiers of compliance
-                        with social standards, including SA8000, for ethical
-                        working conditions.
+                        pada 1997. SAAS kemudian menjadi pertubuhan bukan kerajaan yang berasingan pada 2007. SAAS ialah agensi yang memberi 
+                        tauliah dan memantau pertubuhan sebagai pengesah pematuhan dengan standard sosial, termasuk SA8000, untuk tempat 
+                        kerja yang beretika.
                     </p>
                 </ExampleInAction>
             </div>

@@ -6,305 +6,220 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>What to Include in Public Reporting </h1>
+                <h1>Laporan Penglibatan</h1>
                 <p>
-                    Public reports should include a description and discussion
-                    of all elements of the social compliance system, from the
-                    code of conduct, to community and multi-stakeholder
-                    involvement, risk assessment, training, auditing,
-                    remediation, independent verification and efforts to address
-                    root causes. Reports should also discuss the implementing
-                    environments in which the company&rsquo;s social compliance
-                    system operates, and the challenges in those environments.
-                    Many social compliance reports also highlight the various
-                    individuals and organizations partnering with the company to
-                    help achieve the program&rsquo;s goals.
+                    Selain daripada ketelusan, laporan tersebut memberi syarikat konteks untuk penglibatan dengan pengguna, pihak 
+                    berkepentingan, dan orang awam dalam usahanya, kejayaan dan cabaran, dan keperluan untuk tindakan tambahan. 
+                    Syarikat perniagaan harus memikirkan penonton yang pelbagai dalam melaporkan isu perniagaan dan hak asasi manusia, 
+                    terutama usaha untuk menangani buruh kanak-kanak dan buruh paksa dalam rantai bekalan global.
                 </p>
                 <p>
-                    Reports should be written in straightforward language that
-                    diverse audiences can understand and translated into
-                    relevant languages. They should present the aspects of the
-                    system that are working well, and also the elements that
-                    have been less successful, including lessons learned and
-                    plans for improvement. Being open about weaknesses while
-                    showing that the company understands and is actively
-                    addressing them is an important aspect of accountability in
-                    public reports.
+                    Tentulah, pengguna semakin mahukan jenama kesukaan mereka dan pembekal untuk mengikuti prinsip hak asasi manusia 
+                    dan berkongsi bagaimana isu hak asasi manusia dikenal pasti secara proaktif dan ditangani. Dengan ini, amalan hak 
+                    asasi manusia yang baik dalam sektor perniagaan adalah peluang untuk bersaing dan membina dan memperkuatkan hubungan 
+                    dengan pelanggan. Seringkali syarikat perniagaan, terutama syarikat awam, boleh mempengaruhi laporan tahunan mereka, 
+                    termasuk laporan pemegang saham seperti borang 10-K seperti yang diperlukan oleh Suruhanjaya Pertukaran dan Sekuriti 
+                    (Securities and Exchange Commission (SEC) untuk menonjolkan bagaimana syarikat menangani isu hak buruh dalam rantai 
+                    bekalan global.
                 </p>
                 <p>
-                    It is important that public reporting, while maximizing
-                    transparency, at the same time avoids posing any risks to
-                    specific individuals or organizations. This could include
-                    workers, suppliers and other stakeholders. It is also
-                    important to keep in mind commercial confidentiality
-                    considerations.
-                </p>
-                <p>
-                    If your social compliance report is embedded within a larger
-                    company sustainability or CSR report, guidance is available
-                    for developing such reports. A recommended resource is the{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.globalreporting.org/Pages/default.aspx"
-                    >
-                        Global Reporting Initiative (GRI)
-                    </a>
-                    , a network-based organization that&nbsp;produces a
-                    reporting framework widely used by companies around the
-                    world. The GRI framework sets out principles and performance
-                    indicators for reporting on companies&rsquo; environmental,
-                    social and governance performance. The framework is
-                    developed through multi-stakeholder,
-                    consensus-building&nbsp;process that includes business,
-                    civil society, labor, and academic&nbsp;and professional
-                    institutions. GRI makes available a{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://database.globalreporting.org/"
-                        title="database"
-                    >
-                        database
-                    </a>{" "}
-                    of company CSR and sustainability reports for free public
-                    use.&nbsp;
-                </p>
-                <p>
-                    Another recommended resource is the{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.ungpreporting.org/about-us/"
-                        title="UN Guiding Principles Reporting Framework"
-                    >
-                        UN Guiding Principles Reporting Framework
-                    </a>
-                    . This Reporting Framework provides comprehensive guidance
-                    and a questionnaire through which companies can benchmark
-                    their performance against the{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
-                        title="UN Guiding Principles on Business and Human Rights"
-                    >
-                        UN Guiding Principles on Business and Human Rights
-                    </a>{" "}
-                    and report on how they are implementing them. The civil
-                    society organization Shift publishes the{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ungpreporting.org/reportingdatabase/"
-                        title="UN Guiding Principles Reporting Database"
-                    >
-                        UN Guiding Principles Reporting Database
-                    </a>
-                    , where companies can submit public disclosures of their
-                    implementation of the UN Guiding Principles on Business and
-                    Human Rights for review by the Reporting Database&rsquo;s
-                    analysts.
-                </p>
-                <p>
-                    Below are some general guidelines on content to include in a
-                    social compliance report:
+                    Bagaimanapun, selain daripada pelanggan dan komuniti pelabur, laporan syarikat harus juga berazam untuk menghubungi 
+                    kumpulan lain yang terjejas oleh operasi syarikat. Senarai berikut termasuk sejumlah penonton atau pembaca dan mengapa 
+                    laporan ini penting bagi mereka:
                 </p>
                 <ul>
-                    <li>
-                        A description of the{" "}
-                        <strong>risk assessment and due diligence</strong>{" "}
-                        processes a company undertakes in its supply chains.
+                    <li>Kakitangan dan Pekerja dan Kesatuan Sekerja
+                        <ul>
+                        <li>Motivasi dan pandangan ke dalam operasi syarikat; pemasaran melalui cerita tentang jenama</li>
+                        </ul>
                     </li>
-                    <li>
-                        The <strong>countries </strong>from which a company
-                        sources. If there are countries where particular child
-                        labor or forced labor issues have been prevalent, these
-                        situations should be discussed.
+
+                    <li>Rakan kongsi Rantai Bekalan
+                        <ul>
+                        <li>Pesanan mengenai jangkaan dan hubungan perniagaan</li>
+                        </ul>
                     </li>
-                    <li>
-                        <strong>Your suppliers.</strong> For example,
-                        electronics company <strong>Hewlett-Packard* </strong>
-                        has made its{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/supplychain.html?jumpid=in_r138_us/en/corp/sustainability/main-menu-society"
-                            title="supplier list"
-                        >
-                            supplier list
-                        </a>{" "}
-                        public since 2007 and Target Corporation* publishes{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Global-Factory-List_-Q3-2019.pdf"
-                            title="list"
-                        >
-                            a list
-                        </a>{" "}
-                        of all factories, textile and wet processing facilities
-                        producing Target owned-brand products.
+                    <li>Pengawal
+                        <ul>
+                        <li>Demonstrasi proses dan langkah pematuhan</li>
+                        </ul>
                     </li>
-                    <li>
-                        The <strong>factories/farms/mines</strong> from which
-                        you and/or your suppliers source. Publication of factory
-                        lists is a growing trend for many companies pursuing
-                        greater social and environmental responsibility. For
-                        example, outdoor sports gear retailer{" "}
-                        <strong>Patagonia*</strong> publishes a{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/working-with-factories.html"
-                        >
-                            list of the factories producing its products
-                        </a>{" "}
-                        as well as an{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/footprint.html"
-                            title="interactive map"
-                        >
-                            interactive map
-                        </a>{" "}
-                        showing factory name, address, goods produced, languages
-                        spoken, and the number of employees by gender.
+                    <li>Pelabur
+                        <ul>
+                        <li>Pemetaan kerja yang akan datang dan sedang diteruskan mengenai perniagaan dan hak asasi manusia</li>
+                        </ul>
                     </li>
-                    <li>
-                        The <strong>metrics </strong>or Key Performance
-                        Indicators (KPIs) your social compliance program uses to
-                        measure progress, and your performance against those
-                        metrics. When calculating performance against metrics,
-                        it is important for many companies to segregate
-                        performance within the company from performance in the
-                        company&rsquo;s supply chain. Aggregating the two can
-                        mask the realities of supply chain performance.
+                    <li>Pertubuhan masyarakat sivil, NGO tempatan, dan Kumpulan Penyokong
+                        <ul>
+                        <li>Penegasan komitmen komuniti dan memahami impak laporan</li>
+                        </ul>
                     </li>
-                    <li>
-                        Your <strong>code of conduct</strong>, and the areas of
-                        your supply chain it covers, including any reviews or
-                        updates to the code that have occurred in the reporting
-                        period.
-                    </li>
-                    <li>
-                        A description of your{" "}
-                        <strong>engagement with stakeholders</strong> and local
-                        communities, including multi-stakeholder groups with
-                        which you are involved, outreach as part of your risk
-                        assessment, other outreach and grievance
-                        mechanisms.&nbsp;
-                    </li>
-                    <li>
-                        An overview of your social compliance{" "}
-                        <strong>training programs</strong> throughout your
-                        supply chains.
-                    </li>
-                    <li>
-                        <strong>Social audit data. </strong>This data should be
-                        as comprehensive and specific as possible. Some
-                        companies publish full audit reports, while others
-                        aggregate audit data and publish it in compiled form.
-                        For example, the <strong>FLA</strong> publishes{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
-                            title="Tracking Charts"
-                        >
-                            &ldquo;Tracking Charts&rdquo;
-                        </a>{" "}
-                        on its website that contain complete data from every
-                        audit carried out on factories, as well as the actions
-                        taken by FLA-affiliated companies to address the
-                        findings. The{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://sustainability.hm.com/en/sustainability/downloads-resources/resources/supplier-compliance.html"
-                            title="Hennes and Mauritz"
-                        >
-                            Hennes &amp; Mauritz (H&amp;M)
-                        </a>
-                        * website provides data on social compliance performance
-                        for all first tier suppliers.{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.pmi.com/resources/docs/default-source/pmi-sustainability/alp_code.pdf?sfvrsn=239bb0b5_0"
-                            title="Philip Morris International"
-                        >
-                            Philip Morris International
-                        </a>
-                        * publishes its own monitoring reports as well as those
-                        carried out by third-party monitors.
-                    </li>
-                    <li>
-                        A description of your{" "}
-                        <strong>remediation policies</strong> when violations
-                        are found.
+                    <li>Kumpulan yang terdedah
+                        <ul>
+                        <li>Mengelak pelanggaran hak dan impak buruk</li>
+                        </ul>
                     </li>
                 </ul>
                 <ExampleInAction id="nike">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Nike*: Reporting on Remediation
+                            Contoh dalam Tindakan: Tempat Asal Pakaian Anda
                         </strong>
                     </h2>
                     <p>
-                        In 2008, media reports put a spotlight on Hytex Apparel,
-                        Inc.*, a Malaysian company contracting with Nike, Inc.
-                        The reports focused on mistreatment of hundreds of
-                        migrant workers. Nike investigated and found that
-                        although Hytex was not breaking any of Malaysian
-                        immigration law, the dormitories for workers did not
-                        meet Nike&rsquo;s standards. In addition, several of
-                        Hytex&rsquo;s practices, including wage garnishment and
-                        withholding of personal documents such as passports,
-                        were in violation of Nike&rsquo;s supplier code of
-                        conduct even if not of national law.&nbsp;
+                        Selepas 15 tahun dalam sektor kewangan, Vanessa Barboni Hallik melancarkan jenama fesyen {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.anothertomorrow.co/"
+                                title="another tomorrow"
+                            >
+                                Another Tomorrow
+                            </a>
+                    
+                        * bersama dengan Jane Chung, pengasas {" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.donnakaran.com/category/dkny.do"
+                                    title="dkny"
+                                >
+                                    DKNY
+                                </a>
+                        .
+                        *  Pengasas berusaha untuk membina penglibatan pelanggan dalam rekaan setiap produk yang dijual. Untuk demikian, setiap pakaian 
+                        Another Tomorrow yang dikeluarkan mempunyai kod QR yang pelanggan boleh imbas dengan kamera telefon bimbit mereka, yang membawa 
+                        mereka ke laman web yang termasuk maklumat terperinci mengenai asal usulnya dan kitaran hidup pakaian tersebut. Laman web juga 
+                        termasuk maklumat tentang di mana pakaian dibuat dan bahan-bahannya. Maklumat yang begitu terperinci itu memberikan cahaya 
+                        kepada dunia yang gelap di mana buruh yang tidak dikenali terlibat dalam pengeluaran setiap pakaian yang dipakai oleh pengguna. 
+                        Kos tinggi dalam penyelesaian teknologi ini di atasi oleh kerjasama dari pelbagai jenama untuk menangani jurang pelaburan yang 
+                        diperlukan untuk mendorong perubahan dalam industri.
                     </p>
                     <p>
-                        Nike worked with Hytex to return documents to workers,
-                        repay workers their garnished wages and improve the
-                        dormitories. Hytex also agreed to cover expenses for
-                        workers who wanted to return to their home countries.
-                        The situation with Hytex spurred Nike to develop its
-                        current policies and code provisions on migrant labor.
+                    Sumber:{" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.anothertomorrow.co/"
+                                title="another tom"
+                            >
+                                https://www.anothertomorrow.co/
+                            </a>.  
+                    </p>
+                    <p>
+                    Sumber: {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.donnakaran.com/category/dkny.do"
+                                title="dkny cate"
+                            >
+                                https://www.donnakaran.com/category/dkny.do
+                            </a>. 
                     </p>
                 </ExampleInAction>
-                <ul>
-                    <li>
-                        Results from your{" "}
-                        <strong>independent verification</strong> assessment,
-                        and a discussion of how you are integrating and
-                        responding to those findings.
-                    </li>
-                    <li>
-                        Information on{" "}
-                        <strong>internal oversight and accountability</strong>{" "}
-                        for the social compliance program, including to clarify
-                        who is responsible for the program, and the Board and
-                        CEO&rsquo;s levels of involvement.
-                    </li>
-                    <li>
-                        A discussion of the <strong>challenges</strong> your
-                        social compliance program faces,{" "}
-                        <strong>lessons learned</strong>, as well as your
-                        efforts to address root causes of labor abuse.
-                    </li>
-                    <li>
-                        Case studies or{" "}
-                        <strong>highlights of specific activities</strong>{" "}
-                        during the reporting period.
-                    </li>
-                    <li>
-                        <strong>Procedures for providing feedback</strong> on
-                        the report.
-                    </li>
-                </ul>
+                <p>
+                    Sorotan penting berikut memberikan pandangan menyeluruh cara syarikat perniagaan boleh melibatkan pihak berkepentingan 
+                    melalui laporan awam dan usaha bantuan yang lain. 
+                </p>
+
+                <h2>Strategi hak asasi manusia yang jelas dikaitkan dalam aspek lebih luas dalam membuat laporan</h2>
+                <p>
+                    Membuat laporan ialah peluang untuk membuat kaitan dengan usaha menegakkan hak asasi manusia Laporan dan pendedahan 
+                    memberikan pengguna dan pihak berkepentingan yang lain maklumat mengenai risiko utama hak asasi manusia, tetapi juga 
+                    peluang, wawasan, dan matlamat. Tambahan pula, penerbitan laporan-laporan memberi peluang kepada syarikat untuk 
+                    meneroka strategi pelaksanaan di peringkat operasi dan/atau peringkat tempatan. Laporan-laporan ini termasuk bukan 
+                    sahaja laporan tahunan, tetapi juga laporan kelestarian, dan juga laporan lain yang diperlukan seperti borang tahunan 
+                    10-K yang diperlukan oleh SEC syarikat perdagangan awam yang termasuk maklumat, antara lain, risiko yang dihadapi oleh 
+                    syarikat. Sebagai contoh, usaha HP untuk memberi fokus kepada {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www8.hp.com/us/en/hp-information/global-citizenship/index.html"
+                        title="reporting on due diligence efforts"
+                    >
+                        reporting on due diligence efforts
+                    </a> {" "}
+                   
+                    memberi maklumat tentang hasil dan komitmen.
+                </p>
+
+                <h2>Hak Asasi Manusia yang berkait dengan kemahiran asas perniagaan</h2>
+                <p>
+                    Meneruskan usaha untuk melibatkan pengguna dalam isu hak asasi manusia dan mempromosikan kesan lebah besar bergantung 
+                    kepada keupayaan untuk mengaitkan usaha dengan kesan kepada kemahiran asas syarikat. Ambil contoh syarikat farmasi 
+                    multinasional Britain GlaxoSmithKline (GSK) dan keupayaannya untuk mengaitkan kesihatan yang positif dengan usaha 
+                    sosial syarikat dalam hal kesihatan, seperti {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.gsk.com/en-gb/responsibility/operating-responsibly/human-rights-and-modern-slavery/"
+                        title="addressing issues of human rights and modern slavery"
+                    >
+                        addressing 
+                issues of human rights and modern slavery
+                    </a>
+                
+                . 
+                </p>
+
+                <h2>Merangkumi pandangan pihak berkepentingan dalam laporan</h2>
+                <p>
+                    Merangkumi pandangan dari pihak berkepentingan, termasuk pengguna dan kumpulan lain yang terjejas oleh operasi syarikat, 
+                    boleh membantu mempromosikan perbincangan terbuka untuk menangani cabaran yang boleh menghasilkan lebih banyak maklumat. 
+                    Penglibatan dengan komuniti, pakar hak asasi manusia, rakan kongsi NGO utama, dan pekerja, bersama dengan pandangan 
+                    tentang aktiviti syarikat dan kesannya, sangat berguna untuk mendapatkan gambaran penuh penglibatan hak asasi manusia.
+                </p>
+
+                <h2>Memberi iktiraf kepada cabaran yang dihadapi oleh syarikat</h2>
+                 <p>
+                    Pengiktirafan yang jelas mengenai cabaran yang dihadapi oleh syarikat adalah penting dalam perbincangan yang boleh 
+                    menjalinkan semangat perkongsian di antara pihak kepentingan dalam mencari penyelesaian Syarikat perniagaan harus 
+                    berusaha untuk melaporkan tentang cabaran secara telus. Nestlé adalah antara syarikat yang terus melaporkan kemajuannya 
+                    dan cabaran yang sentiasa timbul dalam usaha untuk membasmikan buruh kanak-kanak dalam pengeluaran koko melalui 
+                    laporan tahunannya {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.nestle.com/sites/default/files/2019-12/nestle-tackling-child-labor-report-2019-en.pdf"
+                        title="tackling child labor"
+                    >
+                        Tackling Child Labor
+                    </a> {" "}
+                  
+                 .
+                 </p>
+
+                 <h2>Setiap laporan berkaitan dengan kualiti dan kuantiti memainkan peranan masing-masing</h2>
+                 <p>
+                    Ukuran impak terus dihargai, tetapi menjadi matlamat yang rumit Membuat laporan yang memberikan perbezaan metrik 
+                    kuantiti dan kualiti penting untuk menangani kebimbangan pengguna melalui cara yang mantap dan sahih. Contohnya, 
+                    Google&rsquo;s* {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.google.com/transparencyreport"
+                        title="transparency report "
+                    >
+                        Transparency Report
+                    </a> {" "}
+                 
+                    menyediakan data mengenai permohonannya untuk membuang isi kandungan dan data pengguna, yang menjadi cabaran utama 
+                    hak asasi manusia kepada syarikat tersebut. 
+                 </p>
+                 
+                 <p>
+                    <em>
+                    *Catatan: Rujukan kepada syarikat tertentu dan entiti bukan kerajaan dalam panduan ini hanya untuk tujuan memberi maklumat 
+                    bagi menunjukkan amalan terbaik yang telah diperakui di peringkat antarabangsa, sejak aplikasi dikeluarkan. Merujuk kepada 
+                    entiti tidak patut ditafsirkan sebagai sokongan rasmi kepada entiti tersebut, produk atau perkhidmatan mereka oleh Jabatan 
+                    Buruh AS dan penyertaan mereka tidak boleh ditafsirkan sebagai tinjauan komprehensif mengenai amalan entiti ini di dalam 
+                    semua bidang.
+                    
+                    </em>
+                    
+                 </p>
             </div>
         </StaticData>
     );

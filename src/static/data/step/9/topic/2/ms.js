@@ -8,65 +8,46 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Independent Monitoring (Auditing)</h1>
+                <h1>Pemantauan bebas (Mengaudit)</h1>
                 <p>
-                    As discussed under{" "}
+                    Seperti yang dibincangkan di bawah {" "}
                     <Link to="/steps/7">Step 5, Monitor Compliance,</Link>{" "}
-                    independent monitoring should consist of unannounced site
-                    visits to worksites in the company&rsquo;s supply chain to
-                    evaluate compliance with the code of conduct. Announced
-                    visits may also be useful when it is necessary to have
-                    access to specific personnel or documentation present. In
-                    cases where the company&rsquo;s internal or paid third-party
-                    auditors conduct audits on a sampling basis in high-risk
-                    supply chain areas, the sites visited by independent
-                    monitors can be the same as those already audited, or a
-                    different sample of worksites in those areas, or both.
+                    pemantauan bebas patut merangkumi lawatan secara mengejut tempat kerja dalam rantai bekalan syarikat bagi menilai 
+                    pematuhan kepada kod. Lawatan yang diumumkan boleh juga berguna apabila penting untuk mendapatkan akses kepada 
+                    kakitangan khusus atau dokumentasi. Dalam hal di mana pengaudit dalam syarikat atau pihak ketiga melakukan audit 
+                    dengan cara mengambil contoh kawasan rantai bekalan yang berisiko tinggi, tempat kerja yang dilawati oleh pemantau 
+                    bebas boleh serupa dengan tempat kerja yang sudah diaudit, atau mengambil contoh dari tempat kerja berbeza dalam 
+                    kawasan, atau kedua-duanya.
                 </p>
                 <p>
-                    Independent monitors should be impartial, accredited
-                    individuals or organizations with expertise on labor
-                    standards, appropriate language skills, and detailed
-                    knowledge of local workplace conditions and prevailing
-                    industry practices.
+                    Pemantau bebas tidak berat sebelah, mereka individu yang bertauliah atau pertubuhan dengan kepakaran mengenai standard 
+                    buruh, mempunyai kepakaran bahasa, dan berpengetahuan khusus mengenai keadaan tempat kerja tempatan dan amalan industri 
+                    masa kini.
                 </p>
                 <p>
-                    Independent monitors should provide the company with a
-                    report outlining their findings, and may make
-                    recommendations for remediation measures a company should
-                    take to address any violations found. Companies should make
-                    this report public, or include it in their broader public
-                    reporting.
+                    Pemantau bebas harus memberi syarikat laporan yang menggariskan penemuan mereka, dan boleh memberikan saranan untuk 
+                    langkah pemulihan yang sebuah syarikat patut ambil untuk menangani pencabulan hak yang wujud. Syarikat patut 
+                    mengeluarkan laporan ini kepada awam, atau merangkumnya ke dalam laporan awam yang lebih luas.
                 </p>
                 <p>
-                    In situations where accountability to institutional
-                    structures does not exist, independent monitoring can
-                    provide another option for credible monitoring results. And
-                    if you are not able to secure independent monitoring as
-                    described here, you can still maintain open channels of
-                    communication with stakeholders who have access to worksites
-                    and may detect labor abuses. Labor unions are viewed by some
-                    as &ldquo;independent monitors&rdquo;&mdash;if a union is
-                    present at the worksite, it should be aware of safe ways to
-                    bring issues to your attention. Similarly, individual
-                    workers and community groups may be aware of issues that are
-                    not detected by auditors. Making available to the public a
-                    list of the suppliers from whom a company sources can
-                    provide such groups the opportunity to bring issues to a
-                    company&rsquo;s attention.
+                    Dalam situasi di mana kebertanggungjawapan kepada struktur institusi tidak wujud, pemantauan bebas boleh memberikan pilihan 
+                    lain untuk hasil pemantauan yang boleh dipercayai. Dan sekiranya anda tidak boleh mendapatkan pemantauan bebas seperti 
+                    yang dijelaskan di sini, anda masih boleh mengekalkan rangkaian komunikasi yang terbuka dengan pihak berkepentingan yang 
+                    mempunyai akses kepada tempat kerja dan boleh mengesan penderaan buruh. Ada yang menganggap kesatuan sekerja sebagai 
+                    &ldquo;pemantau bebas&rdquo;&mdash;kalau kesatuan sekerja terdapat di tempat kerja, ia patut sedar cara selamat untuk 
+                    membawa isu kepada perhatian anda. Sama juga, pekerja individu dan kumpulan komuniti mungkin sedar bahawa isu yang tidak 
+                    dikesan oleh pengaudit. Menyediakan kepada pihak awam senarai pembekal dari mana syarikat mendapatkan sumber boleh memberi 
+                    kumpulan peluang untuk membawa isu kepada perhatian syarikat.
                 </p>
                 <ExampleInAction id="fla">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: The Fair Labor
-                            Association&rsquo;s (FLA) Accreditation Program for
-                            Independent External Monitors
+                            Contoh dalam Tindakan: Program Pentauliahan Persatuan Buruh Adil (The Fair Labor Association’s*  - FLA) untuk Pemantau Luar 
                         </strong>
                     </h2>
                     <p>
-                        The FLA Board of Directors accredits both monitoring
-                        organizations and individual lead auditors for its{" "}
+                        Lembaga Pengarah FLA  mentauliahkan kedua-dua pertubuhan pemantau dan ketua pengaudit individu untuk {" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -75,10 +56,8 @@ const ms = () => {
                         >
                             Independent External Monitoring program
                         </a>{" "}
-                        for a period of two years, which is then renewable for
-                        successive two-year periods. Prospective monitors may
-                        apply for accreditation for one or more countries, and
-                        for all or some provisions of the{" "}
+                        selama dua tahun, yang kemudian boleh diperbaharui untuk masa dua tahun berturut-turut. Pihak yang ingin memantau boleh 
+                        memohon untuk pentauliahan bagi satu atau dua negara, dan untuk semua peruntukan di bawah {" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -87,25 +66,18 @@ const ms = () => {
                         >
                             FLA Code of Conduct
                         </a>
-                        . Monitors are accredited based upon their fulfillment
-                        of criteria outlined in the FLA Charter and for specific
-                        regions in which they document and display (through
-                        shadow auditing conducted by the FLA prior to
-                        accreditation) experience and expertise. Lead auditors
-                        are individuals with sufficient experience to direct and
-                        manage a monitoring team and submit the required
-                        reporting. All monitors must demonstrate independence,
-                        impartiality, and a high degree of rigor and
-                        thoroughness in assessing compliance for all areas
-                        outlined in the FLA&rsquo;s Workplace Code of Conduct.
+                        . Pemantau diberi tauliah berdasarkan memenuhi kriteria yang digariskan oleh Piagam FLA dan untuk kawasan khusus di 
+                        mana mereka mencatatkan dan menunjukkan (melalui audit yang dijalankan oleh FLA secara tidak ketara sebelum pentauliahan) 
+                        pengalaman dan kepakaran.  Ketua pengaudit adalah individu dengan cukup pengalaman untuk mengarah dan mengurus pasukan dan 
+                        memuatkan laporan yang diperlukan.  Semua pemantau harus menunjukkan kebebasan, tidak berat sebelah, dan tahap ketegasan 
+                        yang tinggi dan rapi dalam menilai pematuhan untuk semua bidang yang digariskan dalam Kod Tingkah Laku Tempat Kerja FLA. 
                     </p>
                 </ExampleInAction>
                 <ExampleInAction id="bonsucro">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: The Bonsucro* Model for
-                            Accrediting Certification Bodies
+                            Contoh dalam Tindakan: Model Bonsucro* untuk Pentauliahan Pertubuhan Persijilan 
                         </strong>
                     </h2>
                     <p>
@@ -117,34 +89,18 @@ const ms = () => {
                         >
                             Bonsucro
                         </a>{" "}
-                        is a global network of sugarcane farmers, traders, civil
-                        society groups, brands and others that promotes
-                        responsible sugarcane production. In order to become
-                        recognized and approved by Bonsucro to audit and certify
-                        against the organization&rsquo;s standards, a monitoring
-                        organization, or what Bonsucro calls a Certification
-                        Body, must first meet several criteria, including the
-                        following: 1) A Certification Body (CB) must be in
-                        compliance with International Organization for
-                        Standardization (ISO) 17065:2012{" "}
-                        <em>
-                            Requirements for bodies certifying products,
-                            processes, and services,{" "}
-                        </em>
-                        while audit personnel must follow the guidelines in ISO
-                        19011:2011
-                        <em> Guidelines for auditing management systems</em>; 2)
-                        A (CB) must operate at least one accredited program that
-                        meets the sustainability criteria of Bonsucro&rsquo;s
-                        own Production Standard and Chain of Custody Standard;
-                        and 3) A CB is responsible for staying up-to-date on
-                        Bonsucro requirements and, if applicable, relevant EU
-                        legislation. When a CB is approved by Bonsucro and signs
-                        a contractual agreement, Bonsucro will issue official
-                        approval and list the CB on the Bonsucro Website as an
-                        official Bonsucro-approved CB. The CB may then be
-                        utilized to conduct audits according to Bonsucro&rsquo;s
-                        standards.
+                        adalah rangkaian global untuk petani tebu, pedagang, pertubuhan masyarakat sivil, jenama dan lain-lain yang mempromosikan 
+                        pengeluaran tebu secara bertanggungjawab.   Untuk diiktiraf dan diluluskan oleh Bonsucro bagi mengaudit dan mengeluarkan sijil 
+                        standard pertubuhan, pertubuhan memantau, atau apa Bonsucro panggil Badan Persijilan, mula-mulanya mesti menemui beberapa 
+                        kriteria, termasuk berikut: 1) Badan Persijilan (CB) mesti mematuhi pertubuhan antarabangsa untuk standard (ISO) 17065:2012 
+                        keperluan untuk badan-badan yang mengeluarkan sijil produk, proses, dan perkhidmatan, sambil kakitangan audit mesti mengikuti 
+                        garis panduan dalam ISO 19011: 2011 <em>Garis panduan untuk sistem pengurusan mengaudit;</em> 2) (CB) mesti beroperasi 
+                        sekurang-kurangnya satu program pentauliahan yang menemui kriteria lestari Standard Pengeluaran dan Rantai Penjagaan Standard  
+                        Bonsucro; dan 3) CB  bertanggungjawab untuk mengemaskini keperluan Bonsucro dan, kalau diguna, perundangan EU yang relevan. 
+                        Apabila CB diluluskan oleh Bonsucro dan menandatangani perjanjian kontrak, Bonsucro akan mengeluarkan kelulusan rasmi dan 
+                        senaraikan CB dalam laman web Bonsucro sebagai CB yang mendapat kelulusan rasmi Bonsucro.  CB tersebut kemudian digunakan 
+                        untuk menjalankan audit mengikut standard Bonsucro.
+
                     </p>
                     {/* <img
                         id="img-browser"
