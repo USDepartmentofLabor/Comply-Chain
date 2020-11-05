@@ -139,45 +139,45 @@ export const StepData = {
         // extraInfo: ExtraInfo.fr
     },
     ms: {
-            title: "Step 7: Independent Review",
+            title: "Langkah 7: Kaji Semula Secara Bebas",
             topics: Topics.ms,
             keywords: [
-                "Independent review",
-                "Independent monitoring",
-                "Independent verification",
-                "Certification body",
+                "Kaji Semula Secara Bebas",
+                "Pemantauan bebas (Mengaudit)",
+                "Pengesahan bebas",
+                "Badan Persijilan",
                 "CB",
                 "Impact Evaluation"
             ],
             learningObjectives: [
-                "Understand the difference between auditing and independent review, and understand the importance of independent review as a critical step in the social compliance process.",
-                "Learn how impact evaluation may benefit your program."
+                "Fahami perbezaan di antara mengaudit dan mengkaji semula secara bebas, dan fahami kepentingan untuk mengkaji semula secara bebas sebagai langkah kritikal dalam proses pematuhan sosial.",
+                "Pelajari bagaimana penilaian impak boleh memberi manfaat kepada program anda."
             ],
             keyTerms: [
                 {
-                    termName: "Independent Review",
+                    termName: "Kaji Semula Secara Bebas",
                     termDefinition:
-                        "Independent review consists of independent monitoring (auditing) and independent verification.  Independence in the social compliance context is defined by a lack of a direct financial transaction between the company and external entity."
+                        "Kaji Semula Secara Bebas merangkumi memantau secara bebas (mengaudit) dan pengesahan bebas. Kebebasan dalam konteks pematuhan sosial bermaksud kurangnya transaksi kewangan secara langsung di antara syarikat dan entiti luar."
                 },
                 {
-                    termName: "Independent Monitoring (Auditing)",
+                    termName: "Pemantauan bebas (Mengaudit)",
                     termDefinition:
-                        "Monitoring/auditing carried out by audit professionals accredited by institutions or mechanisms; their role is to ensure that auditing takes place while eliminating any direct financial transaction between the company and the auditor. Typically, a company pays a separate, independent institution for auditing services, and/or for membership in that body. The institution accredits auditors under its established standards and is responsible for scheduling and oversight of all audits.  While this is designed to increase the credibility of the audit, in some sectors or geographic locations, this arrangement may not be available.  In addition, even without a direct financial transaction, some stakeholders may still have concerns about the degree of an auditor’s independence from the audited entity. Varying degrees of independence exist, and independence ultimately needs to be judged on a case-by-case basis."
+                        "Memantau.mengaudit dijalankan oleh pengaudit profesional yang diakui oleh pertubuhan atau mekanisme; peranan mereka ialah memastikan yang audit dijalankan sambil menghapuskan transaksi kewangan secara langsung di antara syarikat dan pengaudit. Biasanya, syarikat membayar pertubuhan bebas yang berasingan untuk perkhidmatan audit, dan/atau untuk menjadi anggota badan tersebut. Institusi itu memperakui pengaudit di bawah standard yang ditetapkan dan bertanggungjawab untuk membuat jadual dan mengawasi semua audit. Sementara ini dibentuk untuk meningkatkan kebolehpercayaan audit tersebut, dalam beberapa sektor atau kawasan, perkhidmatan ini mungkin tidak wujud. Tambahan pula, walaupun tanpa transaksi kewangan secara langsung, ada pihak berkepentingan yang mungkin bimbang sejauh mana pengaudit itu bebas daripada entiti yang diaudit. Pelbagai tahap kebebasan wujud, dan kebebasan akhirnya perlu dinilai berdasarkan setiap kes."
                 },
                 {
-                    termName: "Independent Verification",
+                    termName: "Pengesahan bebas",
                     termDefinition:
-                        "Independent third-party review of the implementation and effectiveness of the other activities of the social compliance system, usually carried out by a Certification Body."
+                        "Kajian oleh pihak ketiga yang bebas dalam hal pelaksanaan dan keberkesanan aktiviti lain sistem pematuhan sosial, seringkali dijalankan oleh Badan Persijilan."
                 },
                 {
-                    termName: "Certification Body (CB)",
+                    termName: "Badan Persijilan",
                     termDefinition:
-                        "An organization accredited to certify or verify another entity’s compliance with a specified standard or set of standards."
+                        "Pertubuhan bertauliah yang mengeluarkan sijil atau mengesahkan pematuhan oleh entiti lain dengan standard khusus atau satu set standard."
                 },
                 {
-                    termName: "Impact Evaluation",
+                    termName: "Penilaian Impak",
                     termDefinition:
-                        "A method that establishes, with statistical rigor, a causal linkage and quantifiable impact of a specific intervention."
+                        "Satu cara yang menetapkan, dengan ketegasan statistik, pertalian sebab-penyebab dan impak kualiti dengan campur tangan secara khusus."
                 }
             ],
             furtherResources: Resources.ms,

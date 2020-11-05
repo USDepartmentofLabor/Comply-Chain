@@ -64,19 +64,20 @@ export const StepData = {
         //extraInfo: ExtraInfo.fr
     },
     ms: {
-            title: "Step 8: Report Performance",
-            topics: Topics.en,
-            keywords: ["Public reporting"],
+            title: "Langkah 8: Lapor prestasi dan penglibatan",
+            topics: Topics.ms,
+            keywords: ["Laporan Awamg"],
             learningObjectives: [
-                "Understand the reasons for reporting publicly on social compliance programs, and the benefits for companies.",
-                "Understand the nature and scope of the information that should be reported.",
-                "Get a sense of the work involved in preparing and issuing public reports."
+                "Fahami alasan untuk laporan kepada awam tentang program pematuhan sosial, dan manfaat kepada syarikat perniagaan.",
+                "Fahami keadaan dan skop maklumat yang patut dilaporkan.",
+                "Fahami kerja yang diperlukan untuk menyediakan dan mengeluarkan laporan awam.",
+                "Fahami bagaimana membina penglibatan dalam isu pematuhan sosial."
             ],
             keyTerms: [
                 {
-                    termName: "Public Reporting",
+                    termName: "Laporan Awam",
                     termDefinition:
-                        "Communication that is made available to the public, through a variety of channels, about all elements of a company’s social compliance system."
+                        "Komunikasi yang diberikan kepada awam, melalui pelbagai rangkaian, tentang semua elemen sistem pematuhan sosial syarikat."
                 }
             ],
             furtherResources: Resources.ms,
