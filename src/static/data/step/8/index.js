@@ -101,29 +101,29 @@ export const StepData = {
         furtherResources: Resources.fr
     },
     ms: {
-            title: "Step 6: Remediate Violations",
+            title: "Langkah 6: Memulihkan Pencabulan",
             topics: Topics.ms,
-            keywords: ["Violation", "Remediation", "Corrective Action Plan", "CAP"],
+            keywords: ["Pencabulan", "Pemulihan", "Pelan Tindakan Pembetulan"],
             learningObjectives: [
-                "Understand the distinction between correcting a violation and implementing systems to prevent it from recurring.",
-                "Learn about specific actions you can take to correct child labor and forced labor violations and prevent them from recurring.",
-                "Understand the basic structure of a Corrective Action Plan (CAP) as well as options for developing and implementing one."
+                "Fahami perbezaan di antara membetulkan pencabulan dan melaksanakan sistem untuk mengelak daripada berulang.",
+                "Pelajari tentang tindakan khusus yang anda boleh ambil untuk membetulkan pencabulan buruh kanak-kanak dan buruh paksa dan mengelakkannya daripada berulang.",
+                "Fahami struktur asas Pelan Tindakan Pembetulan (CAP) dan juga pilihan untuk membentuk dan melaksanakannya."
             ],
             keyTerms: [
                 {
-                    termName: "Violation",
+                    termName: "Pencabulan",
                     termDefinition:
-                        "A situation identified through an audit that is in breach of the code of conduct."
+                        "Situasi di mana melalui audit, atau cara lain, yang melanggar kod tingkah laku atau standard tempatan atau antarabangsa."
                 },
                 {
-                    termName: "Remediation",
+                    termName: "Pemulihan",
                     termDefinition:
-                        "The actions taken in response to a code of conduct violation identified in an audit. Remediation actions should both fix the problem and prevent it from recurring."
+                        "Tindakan ini diambil sebagai tindak balas sesuatu pencabulan. Tindakan pemulihan harus untuk menyelesaikan masalah dan mengelak daripada berulang."
                 },
                 {
-                    termName: "Corrective Action Plan (CAP)",
+                    termName: "Pelan Tindakan Pembetulan (CAP)",
                     termDefinition:
-                        "A plan of action for remediation of all violations found in a particular audit. "
+                        "Pelan tindakan untuk memulihkan semua pencabulan yang terdapat dalam sesuatu audit."
                 }
             ],
             // extraInfo: ExtraInfo.en

@@ -20,51 +20,48 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Preventing Recurrence</h1>
+                <h1>Mengelak daripada Berulang</h1>
                 <p>
-                    In addition to addressing individual victim situations, it
-                    is important to analyze why a violation occurred. This
-                    analysis is different than simply attributing child labor
-                    and forced labor to poverty, ineffective government
-                    institutions, and other reasons, which are discussed in
-                    Addressing Root Causes.&nbsp;
+                    Selain daripada menangani keadaan mangsa individu, penting untuk membuat analisis mengapa pencabulan 
+                    berlaku. Analisis ini berbeza daripada cuma mengaitkan buruh kanak-kanak dan buruh paksa dengan kemiskinan, 
+                    badan kerajaan yang tidak berkesan, dan sebab lain, yang dibincangkan dalam Menangani Penyebab Akar.
                 </p>
                 <p>
-                    In some cases, and as noted above, a company&rsquo;s own
-                    actions&mdash;such as pressure to fill orders by a set date
-                    or sudden changes in volume/style&mdash;could be causing
-                    situations where suppliers are pressured to require
-                    overtime, bring in additional labor using brokers or
-                    recruiters that may not be fully compliant, and/or
-                    subcontract to unauthorized contractors to get the work
-                    done. In many other cases, management failures and breakdown
-                    of policies, processes and/or training at the worksite are
-                    the main causes of violations, and these issues can and
-                    should be remedied.
+                    Dalam beberapa hal, seperti dinyatakan sebelum ini, tindakan sesebuah syarikat - seperti tekanan untuk 
+                    mengisi pesanan pada tarikh yang ditetapkan atau perubahan secara mendadak jumlah/stail - mungkin 
+                    menyebabkan situasi di mana pembekal tertekan untuk mengenakan kerja lebih masa, membawa masuk lebih 
+                    ramai pekerja menggunakan buruh atau perekrut yang tidak mematuhi sepenuhnya, dan/atau sub-kontrak 
+                    kepada kontraktor yang tidak disahkan untuk menyiapkan kerja. Dalam banyak hal, kegagalan pengurusan 
+                    dan kelemahan dasar, proses dan/atau latihan di tempat kerja adalah sebab utama pencabulan, dan 
+                    isu-isu ini boleh dan patut diperbaiki.
                 </p>
-                <h2>Child Labor</h2>
                 <p>
-                    In instances of <strong>child labor</strong>, causes can
-                    include:
+                    Tindakan memperbaiki patut dibentuk untuk membetulkan masalah yang didapati, memulihkan yang mana yang 
+                    terkesan, dan mengelakkannya daripada berulang. Dalam dunia yang sempurna, langkah-langkah ini boleh 
+                    dilakukan; bagaimanapun, masih terdapat penderaan, seperti jenayah seksual, yang mustahil untuk dihapuskan 
+                    memandangkan kebimbangan berkaitan dengan emosi dan masyarakat. Dalam hal pencabulan buruh kanak-kanak dan 
+                    buruh paksa, ini bermakna memperbaiki keadaan untuk buruh kanak-kanak perseorangan atau mangsa buruh paksa 
+                    dan menghindari buruh kanak-kanak dan buruh paksa dari berlaku di tempat kerja.
+                </p>
+                <h2>Buruh Kanak-Kanak</h2>
+                <p>
+                    Dalam hal <strong>buruh kanak-kanak</strong>, antara sebabnya termasuk:
                 </p>
                 <div className="indent-margin">
                     <p>
-                        Failure to require age verification documents at the
-                        time of hiring, or failure to check, verify and/or track
-                        them;
+                        Kegagalan meminta dokumen pengesahan umur waktu pengambilan kerja, atau gagal memeriksa, mengesahkan dan/atau 
+                        mengesan mereka;
                     </p>
                     <p>
-                        Poor understanding on the part of management of
-                        appropriate work activities, hazards and/or appropriate
-                        working hours for children; and
+                        Pihak pengurusan kurang memahami aktiviti kerja yang sesuai, bahaya dan/atau waktu kerja yang sesuai untuk 
+                        kanak-kanak; dan
                     </p>
                     <p>
-                        Informal employment relationships that allow children to
-                        &ldquo;slip through the cracks.&rdquo;
+                        Perhubungan penggajian yang tidak formal yang membenarkan kanak-kanak bolos dari sistem.
                     </p>
                 </div>
                 <p>
-                    Impactt Limited&rsquo;s{" "}
+                    Impact Limited&rsquo;s{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -74,166 +71,164 @@ const ms = () => {
                         Operational Procedures for Remediation of Child Labour
                         in Industrial Contexts
                     </a>{" "}
-                    provides detailed guidance on both improving victim
-                    situations and preventing recurrence of child labor when
-                    found in a manufacturing environment.
+                    memberi panduan terperinci dalam memperbaiki keadaan mangsa dan menghindari kejadian buruh kanak-kanak berulang sekiranya 
+                    terdapat dalam persekitaran kilang pembuatan.
                 </p>
-                <h2>Forced Labor</h2>
+                <h2>Buruh Paksa</h2>
                 <p>
-                    In instances of <strong>forced labor</strong>, causes can
-                    include:
+                    Dalam hal <strong>buruh paksa</strong>, antara sebabnya termasuk:
                 </p>
                 <div className="indent-margin">
                     <p>
-                        Inaccurate computation of wages and deductions and/or
-                        delayed wage payment;
+                        Kiraan gaji yang tidak tepat dan potongan dan/atau bayaran gaji yang lewat;
                     </p>
                     <p>
-                        Lack of clear policies and procedures for worker
-                        recruitment and hiring;
+                        Dasar dan prosedur yang kurang jelas dalam penggajian dan pengambilan pekerja;
                     </p>
                     <p>
-                        Lack of clear procedures to ensure that all workers have
-                        contracts that clearly stipulate their employment terms,
-                        in a language they understand and that any changes to
-                        contracts are made with the informed written consent of
-                        workers;
+                        Prosedur yang kurang jelas bagi memastikan semua pekerja mempunyai kontrak yang dengan terang menetapkan 
+                        terma penggajian, dalam bahasa yang mudah difahami, dan apa-apa perubahan yang dibuat pada kontrak dibuat 
+                        dengan kebenaran pekerja secara bertulis;
                     </p>
                     <p>
-                        Lack of mechanisms through which workers can submit
-                        grievances;
+                        Kurang mekanisme untuk pekerja membuat aduan; 
                     </p>
-                    <p>Poor recordkeeping;</p>
+                    <p>Menyimpan rekod yang tidak sempurna;</p>
                     <p>
-                        Lack of policies and procedures for migrant workers,
-                        including mechanisms to ensure that migrant workers are
-                        not charged fees by brokers/agents, are not required to
-                        post deposits and receive employment terms and
-                        conditions equal to those of non-migrants; and
+                        Kurang dasar dan prosedur untuk pekerja migran, termasuk mekanisme bagi memastikan pekerja migran tidak dikenakan 
+                        yuran oleh broker/ejen, tidak diperlukan meletakkan deposit dan menerima terma penggajian dan syarat yang sama 
+                        dengan bukan migran; dan
                     </p>
                     <p>
-                        Policies that allow employers to &ldquo;hold&rdquo;
-                        employees&rsquo; identification papers in such a manner
-                        that they are not available to workers at will.
+                        Dasar yang membenarkan majikan “menyimpan” dokumen pengenalan pekerja di luar kawalan pekerja.
                     </p>
                 </div>
-                <h2>Remediation Practices Related to Forced Labor</h2>
+                <h2>Amalan Pemulihan Berkaitan dengan Buruh Paksa</h2>
                 <p>
-                    Of course, causes of violations can go beyond mere system
-                    failures, and can result from deliberate deception on the
-                    part of the supplier, management, certain employees and/or
-                    labor recruiters. Whether accidental or deliberate,
-                    violations should be remedied through a clear Corrective
-                    Action Plan that holds the supplier accountable.
+                    Tentulah, penyebab pencabulan boleh berlaku di luar kegagalan sistem, dan akibat dari penipuan secara sengaja oleh 
+                    pembekal, pengurusan, pekerja tertentu dan/atau perekrut buruh. Sama ada secara tidak sengaja atau sengaja, 
+                    pencabulan harus diperbaiki melalui Pelan Tindakan Pemulihan yang mempertanggungjawabkan pembekal.
                 </p>
                 <ExampleInAction id="plch">
-                                    <h2>
-                                        <ExampleInAction.Icon alt="Lightbulb"/>
-                                        <strong>
-                                            Example in Action: Place holder example of action
-                                        </strong>
-                                    </h2>
-                                    <p>
-                                        Place Holder
-                                    </p>
-                                    
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Contoh dalam Tindakan: Kod Tingkah Laku Pembekal dan Yuran Merekrut Apple* 
+                        </strong>
+                    </h2>
+                    <p>
+                        Pada 2018, Apple menerima hadiah {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://uk.reuters.com/article/slavery-conference-award/apple-wins-global-award-for-efforts-to-eradicate-slave-labour-idUKL8N1WY5IG"
+                        title="Stop Slavery Award by the Thomson Reuters Foundation"
+                    >
+                        Stop Slavery Award by the Thomson Reuters 
+                    Foundation
+                    </a>{" "}
+                        kerana memberikan maklumat awam terperinci mengenai rantai bekalan dalam meningkatkan ketelusan dan 
+                        menamatkan perhambaan zaman moden. 
+                    </p>
+                    <p>
+                        Pun begitu, pada permulaan tahun 2015, melalui{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.apple.com/supplier-responsibility/pdf/Apple-Supplier-Code-of-Conduct-January.pdf"
+                        title="Supplier Code of Conduct"
+                    >
+                        Supplier Code of Conduct
+                    </a>{""}
+                    
+                    , Apple—syarikat teknologi multinasional Amerika—memberi mandat kepada pembekal supaya tidak mengenakan yuran 
+                    kepada pekerja  pembekal sebagai sebahagian daripada proses merekrut, walaupun terdapat undang-undang kebangsaan 
+                    yang membenarkan yuran merekrut. Sekiranya Apple mendapati amalan yang bercanggah daripada mandat ini, pembekal 
+                    mesti membayar balik yuran merekrut tersebut. Pembekal yang tidak melaksanakan tindakan untuk membetulkan amalan 
+                    ini menghadapi risiko dalam hubungan perniagaan dengan Apple. 
+                    </p>
+                    <p>
+                        Sejak 2008 dan mulai 2018, Apple telah berusaha untuk membayar balik yuran merekrut kepada 36,137 pekerja 
+                        berjumlah $30.9 juta dengan $616,000 dibayar kepada 287 pekerja pada tahun 2018. sahaja
+                    </p>
+                    <p>
+                    Sumber: {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2018_Progress_Report.pdf"
+                        title="https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2018_Progress_Report.pdf"
+                    >
+                        https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2018_Progress_Report.pdf
+                    </a>
+                    .
+                    </p>
                                     
                 </ExampleInAction>
                 <p>
-                    Tables 1-4 describe some remediation actions that can be
-                    taken when indicators of forced labor are found. In all
-                    cases, issues should be documented and tracked and
-                    management systems should be updated to prevent recurrence.
+                    Empat bahagian berikut merangka beberapa contoh khusus mengenai tindakan pemulihan yang boleh diambil apabila terdapat 
+                    penunjuk wujudnya buruh paksa. Dalam semua hal, isu-isu harus didokumenkan dan dijejak dan sistem pengurusan harus 
+                    dikemas kini untuk mengelak daripada berulang
                 </p>
-                <Accordion id="prevent-recurrence">
+                <Accordion id="prevent-recurrence" role="table">
                         <Accordion.Section id="practice-issue">
                             <Accordion.Title>
                                 <strong>
-                                Remediation of Recruitment Practice Issues
+                                Pemulihan Isu Amalan Merekrut
 
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
-                            <Table>
+                 <Table>
                     <caption>
-                        Table: Remediation of Recruitment Practice Issues
+                        Table: Pemulihan Isu Amalan Merekrut
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" scope="col">
-                                <p>
-                                    <strong>Circumstances</strong>
-                                </p>
+                            <th scope="col" width="55%">
+                                    <strong>Keadaan</strong>
                             </th>
-                            <th scope="col" width="45%" scope="col">
+                            <th scope="col" width="45%">
                                 <p>
-                                    <strong>Remediation Actions </strong>
+                                    <strong>Tindakan Pembetulan</strong>
                                 </p>
                             </th>
                         </tr>
                         <tr>
+                            <th scope="row">Pekerja diculik, dikurung dalam proses merekrut atau dijual.</th>
+
                             <td>
                                 <p>
-                                    Workers abducted, confined during the
-                                    recruitment process or sold.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Report offenses to law enforcement
-                                    authorities. Work with law enforcement and
-                                    local groups to provide victims a safe place
-                                    to stay and link them to needed services.
+                                    Laporkan kesalahan kepada pihak Penguatkuasa Undang-Undang Bekerjasama dengan penguatkuasa 
+                                    undang-undang dan kumpulan tempatan untuk menyediakan tempat yang selamat bagi mangsa dan 
+                                    hubungkan mereka dengan perkhidmatan yang diperlukan.
                                 </p>
                             </td>
                         </tr>
                         <tr>
+                                <th scope="row">Pekerja yang direkrut oleh sebab pinjaman atau duit pendahuluan dan terpaksa bekerja untuk membayar hutang tersebut.</th>
                             <td>
                                 <p>
-                                    Workers recruited through a loan or advance
-                                    and are working to pay it off.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    If the supplier paid the loan or advance,
-                                    determine whether the terms were
-                                    reasonable.&nbsp;If not, work out reasonable
-                                    terms between supplier and worker. If the
-                                    loan/advance was paid by a labor recruiter,
-                                    determine whether the supplier had knowledge
-                                    of the arrangement. If so, work out
-                                    reasonable terms between supplier, recruiter
-                                    and worker.&nbsp;If not, require the
-                                    supplier to discontinue its relationship
-                                    with the recruiter. Report unscrupulous
-                                    recruiters to authorities.
+                                    Sekiranya pembekal membayar pinjaman atau duit pendahuluan, pastikan sama ada syaratnya berpatutan. 
+                                    Sekiranya tidak, berusaha untuk mencari terma yang berpatutan di antara pembekal dan pekerja. 
+                                    Sekiranya pinjaman/duit pendahuluan telah dibayar oleh perekrut buruh, pastikan sama ada pembekal 
+                                    mengetahui tentang urusan tersebut. Sekiranya tidak, berusaha untuk mencari terma yang berpatutan 
+                                    di antara pembekal, perekrut dan pekerja. Sekiranya tidak, pembekal patut menghentikan hubungan 
+                                    dengan perekrut tersebut. Laporkan perekrut yang tidak bertanggungjawab kepada pihak berkuasa. 
                                 </p>
                             </td>
                         </tr>
                         <tr>
+                            <th scope="row">Penyelewengan dalam merekrut: pekerja dijanjikan jenis kerja, keadaan kerja, terma kontrak, 
+                            perumahan atau keadaan tempat tinggal, lokasi pekerjaan, majikan atau gaji/upah yang tidak menjadi kenyataan.</th>
+
                             <td>
                                 <p>
-                                    Deceptive recruitment: workers promised
-                                    types of work, working conditions, contract
-                                    terms, housing or living conditions, job
-                                    locations, employers or wages/earnings that
-                                    do not materialize.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    If the supplier made a false promise, the
-                                    supplier should provide all employees who
-                                    wish to leave their full wages due and
-                                    transportation home.&nbsp;If the false
-                                    promises were made by a labor recruiter,
-                                    determine whether the supplier had knowledge
-                                    of the arrangement.&nbsp;If so, the supplier
-                                    is still responsible for the above.&nbsp;If
-                                    not, require the supplier to discontinue its
-                                    relationship with the recruiter.&nbsp;Report
-                                    unscrupulous recruiters to authorities.
+                                    Sekiranya pembekal membuat janji palsu, pembekal harus memberi pekerja yang ingin berhenti, gaji penuh 
+                                    mereka dan pengangkutan untuk pulang. Sekiranya janji palsu dibuat oleh perekrut buruh, pastikan sama 
+                                    ada pembekal mengetahui tentang urusan tersebut. Kalau betul, pembekal masih bertanggungjawab ke atas 
+                                    apa yang dinyatakan sebelum ini. Sekiranya tidak, pembekal patut menghentikan hubungan dengan perekrut 
+                                    tersebut. Laporkan perekrut yang tidak bertanggungjawab kepada pihak berkuasa.
                                 </p>
                             </td>
                         </tr>
@@ -245,259 +240,149 @@ const ms = () => {
                     <Accordion.Section id="living-cond">
                             <Accordion.Title>
                                 <strong>
-                                Remediation of Working and Living Conditions Issues
+                                    Pembetulan Isu Tempat Kerja dan Keadaan Perumahan 
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
                 <Table>
                     <caption>
                         {" "}
-                        Table: Remediation of Working and Living Conditions
-                        Issues{" "}
+                        Table: Pembetulan Isu Tempat Kerja dan Keadaan Perumahan{" "}
                     </caption>
                     <tbody>
                         <tr>
                             <th scope="col" width="55%" scope="col">
                                 <p>
-                                    <strong>Circumstances</strong>
+                                    <strong>Keadaan</strong>
                                 </p>
                             </th>
                             <th scope="col" width="45%" scope="col">
                                 <p>
-                                    <strong>Remediation Actions </strong>
+                                    <strong>Tindakan Pembetulan</strong>
                                 </p>
                             </th>
                         </tr>
                         <tr>
+                                <th scope="row">Pekerja yang kerja berlebihan masa lebih daripada yang dihadkan di bawah undang-undang.</th>
+
                             <td>
                                 <p>
-                                    Workers working excessive overtime beyond
-                                    legal limits.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Ensure that the supplier pays workers back
-                                    wages for all overtime hours worked. Work
-                                    with the supplier to evaluate staffing
-                                    policies and compensation practices, such as
-                                    piece rates, that are contributing to
-                                    overtime. Examine your own sourcing
-                                    practices, including lead times, changes in
-                                    orders, pricing and other pressures that
-                                    could necessitate extreme cost-cutting
-                                    measures on the part of the supplier,
-                                    including excessive overtime. Ensure that
-                                    all workers receive training on their rights
-                                    under the law and the social compliance
-                                    system.
+                                    Pastikan pembekal membayar balik gaji untuk semua kerja lebih masa yang sudah dilakukan. Kerja dengan 
+                                    pembekal untuk menilai dasar pengambilan pekerja dan amalan pampasan, seperti bayaran untuk setiap 
+                                    unit barang yang menyumbang kepada kerja lebih masa. Periksa amalan mendapatkan sumber anda sendiri, 
+                                    termasuk masa menghabiskan kerja, perubahan pesanan, harga dan tekanan lain yang mengakibatkan langkah 
+                                    untuk mengurangkan kos dengan melampau oleh pembekal, termasuk kerja berlebihan masa. Pastikan semua 
+                                    pekerja mendapat latihan mengenai hak mereka di bawah undang-undang dan sistem pematuhan sosial.
                                 </p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                            <th scope="row">Pekerja dijangka bekerja &ldquo;bila dipanggil.&rdquo;</th>
+                           <td>
                                 <p>
-                                    Workers expected to work &ldquo;on
-                                    call.&rdquo;
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Work with the supplier to design a more
-                                    structured staffing plan that meets your
-                                    code&rsquo;s requirements. Ensure that all
-                                    workers receive training on their rights
-                                    under the law and your code of conduct.
+                                    Kerja dengan pembekal untuk membentuk pelan pengambilan pekerja dengan teratur yang sealiran dengan 
+                                    keperluan kod anda. Pastikan semua pekerja mendapat latihan mengenai hak mereka di bawah undang-undang 
+                                    dan kod tingkah laku anda.
                                 </p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">Majikan mengehadkan pergerakan pekerja atau untuk berkomunikasi.</th>
                             <td>
                                 <p>
-                                    Employer restricts workers&rsquo; freedom of
-                                    movement or communication.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Determine who&mdash;management, supervisors,
-                                    shift leaders, etc. &mdash;are involved in
-                                    restricting workers&rsquo; freedom of
-                                    movement or communication and investigate
-                                    these individuals&rsquo; actions. If
-                                    individuals were acting on their own without
-                                    management knowledge, take appropriate
-                                    action with these individuals, which could
-                                    include training, suspension or termination.
-                                    If these restrictions came from management,
-                                    terminate the relationship with the supplier
-                                    or provide the supplier a short window of
-                                    time to end all such practices.&nbsp;
+                                    Pastikan siapa - pengurusan, penyelia, ketua giliran kerja, dan lain-lain - terlibat dalam mengehadkan 
+                                    kebebasan pekerja untuk bergerak atau berkomunikasi dan menyiasat tindakan individu ini. Sekiranya 
+                                    individu bertindak sendiri tanpa pengetahuan pengurusan, ambil tindakan yang sesuai terhadap individu ini, 
+                                    yang boleh termasuk latihan, menggantung atau menghentikan kerja. Sekiranya had ini datang dari pihak 
+                                    pengurusan, hentikan hubungan dengan pembekal atau berikan pembekal waktu yang singkat untuk menamatkan 
+                                    amalan-amalan tersebut.
                                 </p>
                                 <p>
-                                    Further investigate conditions and
-                                    circumstances at the worksite that
-                                    management or supervisors may be trying to
-                                    conceal &ndash; including through off-site
-                                    interviews with workers and other
-                                    knowledgeable community members. Ensure that
-                                    all workers receive training on their rights
-                                    under the law and your code of conduct,
-                                    including channels for grievances. Ensure
-                                    that workers who wish to leave the job are
-                                    able to do so and receive their full wages
-                                    due.
+                                    Siasat dengan lebih lanjut keadaan di tempat kerja yang pengurusan atau penyelia mungkin ingin sembunyikan - 
+                                    termasuk melalui temu duga di luar dengan pekerja dan anggota komuniti yang berpengetahuan. Pastikan semua 
+                                    pekerja mendapat latihan mengenai hak mereka di bawah undang-undang dan kod tingkah laku anda, termasuk 
+                                    tempat untuk mengadu. Pastikan semua pekerja yang ingin berhenti dibenarkan membuat demikian dan menerima 
+                                    gaji penuh.
                                 </p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
-                                <p>Degrading living conditions.</p>
-                            </td>
+                        <th scope="row">Keadaan tempat tinggal yang semakin buruk.</th>
                             <td>
                                 <p>
-                                    Ensure that the supplier fully understands
-                                    your minimum standards for employee housing.
-                                    Give the supplier a short window of time to
-                                    remedy all living conditions. Ensure that
-                                    all workers receive training on their rights
-                                    under the law and your code of conduct,
-                                    including housing standards. Ensure that
-                                    workers who wish to leave the job are able
-                                    to do so and receive their full wages due.
+                                    Pastikan pembekal betul-betul memahami standard minimum anda dalam hal tempat tinggal pekerja. Berikan pembekal 
+                                    waktu yang singkat untuk membetulkan keadaan tempat tinggal. Pastikan semua pekerja mendapat latihan mengenai 
+                                    hak mereka di bawah undang-undang dan kod tingkah laku anda, termasuk standard tempat tinggal. Pastikan semua 
+                                    pekerja yang ingin berhenti dibenarkan membuat demikian dan menerima gaji penuh.
                                 </p>
                                 <p>
-                                    Follow up with an unannounced investigation
-                                    that includes off-site interviews with
-                                    workers and other knowledgeable community
-                                    members. If the living conditions have not
-                                    improved, terminate the relationship with
-                                    the supplier &ndash; while mitigating the
-                                    impact of this on the workers.
+                                    Buat langkah susulan dengan menyiasat tanpa mengumumkan, termasuk menemu duga pekerja di luar dan juga anggota 
+                                    komuniti yang berpengetahuan Sekiranya tempat tinggal masih tidak dibaiki, hentikan hubungan dengan pembekal &ndash; 
+                                    sambil mengurangkan impak kepada pekerja.
                                 </p>
                             </td>
                         </tr>
                         <tr>
-                            <td>
+                        <th scope="row">Pekerja yang dipaksa melakukan aktiviti haram, seperti bekerja di rumahnya atau di rumah keluarganya atau 
+                                mengambil dadah yang mengakibatkan ketagihan.</th>
+                           <td>
                                 <p>
-                                    Workers forced to engage in illicit
-                                    activities, to work for private home/family
-                                    or to take addictive drugs.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Determine who&mdash;management, supervisors,
-                                    shift leaders, etc. &mdash;are involved in
-                                    restricting workers&rsquo; freedom of
-                                    movement or communication and investigate
-                                    these individuals&rsquo; actions. If
-                                    individuals were acting on their own without
-                                    management knowledge, take appropriate
-                                    action with these individuals, which could
-                                    include training, suspension or termination.
-                                    If these restrictions came from management,
-                                    terminate the relationship with the supplier
-                                    or provide the supplier a short window of
-                                    time to end all such practices.&nbsp;
+                                    Pastikan siapa - pengurusan, penyelia, ketua giliran kerja, dan lain-lain - terlibat dalam mengehadkan kebebasan 
+                                    pekerja untuk bergerak atau berkomunikasi dan menyiasat tindakan individu ini. Sekiranya individu bertindak 
+                                    sendiri tanpa pengetahuan pengurusan, ambil tindakan yang sesuai terhadap individu ini, yang boleh termasuk latihan, 
+                                    menggantung atau menghentikan kerja. Sekiranya had ini datang dari pihak pengurusan, hentikan hubungan dengan 
+                                    pembekal atau berikan pembekal waktu yang singkat untuk menamatkan amalan-amalan tersebut.
                                 </p>
                                 <p>
-                                    Further investigate conditions and
-                                    circumstances at the worksite that
-                                    management or supervisors may be trying to
-                                    conceal&mdash;including through off-site
-                                    interviews with workers and other
-                                    knowledgeable community members. Ensure that
-                                    all workers receive training on their rights
-                                    under the law and your code of conduct,
-                                    including channels for grievances. Ensure
-                                    that workers who wish to leave the job are
-                                    able to do so and receive their full wages
-                                    due.
+                                    Siasat dengan lebih lanjut keadaan di tempat kerja yang pengurusan atau penyelia mungkin ingin sembunyikan &ndash; 
+                                    termasuk melalui temu duga di luar dengan pekerja dan anggota komuniti yang berpengetahuan. Pastikan semua pekerja 
+                                    mendapat latihan mengenai hak mereka di bawah undang-undang dan kod tingkah laku, termasuk tempat untuk mengadu. 
+                                    Pastikan semua pekerja yang ingin berhenti dibenarkan membuat demikian dan menerima gaji penuh.
                                 </p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">Pembekal membanyakkan kadar hutang pekerja.</th>
                             <td>
                                 <p>
-                                    Supplier inflates workers&rsquo;
-                                    indebtedness.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Determine the source of workers&rsquo;
-                                    initial debt. If the initial debt was to the
-                                    supplier, require the supplier to cancel
-                                    this debt. If the initial debt was to a
-                                    labor recruiter, investigate whether the
-                                    supplier had knowledge of the debt
-                                    arrangement. If so, require the supplier to
-                                    cancel the debt. If not, require the
-                                    supplier to terminate its relationship with
-                                    the recruiter. Report the recruiter to
-                                    authorities.
+                                    Pastikan sumber hutang awal pekerja. Sekiranya hutang awal pekerja kepada pembekal, pastikan pembekal memansuhkan 
+                                    hutang tersebut. Sekiranya hutang awal kepada perekrut buruh, siasat sama ada pembekal mengetahui tentang urusan 
+                                    hutang tersebut. Sekiranya ya, pastikan pembekal memansuhkan hutang tersebut. Sekiranya tidak, pembekal patut 
+                                    menghentikan hubungan dengan perekrut tersebut. Laporkan perekrut tersebut kepada pihak berkuasa.
                                 </p>
                                 <p>
-                                    With respect to the inflation of the debt,
-                                    require the employer to immediately stop
-                                    charging any form of interest on the debt.
-                                    If debt is inflated through purchases from
-                                    the employer, such as at a canteen,
-                                    determine whether workers have other
-                                    options. If purchases at employer-owned
-                                    stores are the only viable option for
-                                    workers, work with the supplier to ensure
-                                    that prices and terms are reasonable.
+                                    Berkaitan dengan meningkatkan jumlah hutang, pastikan majikan berhenti mengenakan faedah dalam bentuk apa pun ke 
+                                    atas hutang. Sekiranya hutang melambung akibat pembelian barang dari majikan, seperti di kantin, pastikan sama ada 
+                                    pekerja ada pilihan lain. Sekiranya pekerja tiada pilihan melainkan membeli di kedai majikan, bekerjasama dengan 
+                                    pembekal untuk memastikan harga dan terma berpatutan.
                                 </p>
                                 <p>
-                                    Ensure that workers who wish to leave the
-                                    job are able to do so and receive their full
-                                    wages due.
+                                    Pastikan semua pekerja yang ingin berhenti dibenarkan membuat demikian dan menerima gaji penuh.
                                 </p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">Pekerja bergantung kepada majikan untuk perumahan, makanan atau keperluan lain.</th>
                             <td>
                                 <p>
-                                    Workers depend on employer for housing, food
-                                    or other necessities.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    In some cases, particularly for migrant
-                                    workers, provision of housing, food and
-                                    other necessities by the employer may be the
-                                    best option for all involved. However, the
-                                    quality of the housing and foods must be
-                                    examined and if it does not meet minimum
-                                    standards, work with the supplier to improve
-                                    quality.
+                                    Dalam beberapa hal, terutama bagi pekerja migran, peruntukan tempat tinggal, makanan dan lain-lain keperluan 
+                                    oleh majikan mungkin pilihan yang terbaik untuk semua yang terlibat. Bagaimanapun, kualiti tempat tinggal; 
+                                    dan makanan mestilah diperiksa dan sekiranya ia tidak menepati standard minimum, bekerjasama dengan pembekal 
+                                    untuk memperbaiki kualiti.
                                 </p>
                                 <p>
-                                    Follow up with an unannounced investigation
-                                    that includes off-site interviews with
-                                    workers and other knowledgeable community
-                                    members. If the living/food conditions have
-                                    not improved, terminate the relationship
-                                    with the supplier.
+                                    Buat langkah susulan dengan menyiasat tanpa mengumumkan termasuk menemu duga pekerja di luar dan juga anggota 
+                                    komuniti yang berpengetahuan Sekiranya keadaan tempat tinggal/makanan tidak semakin baik, hentikan hubungan 
+                                    dengan pembekal.
                                 </p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">Pekerja bergantung secara peribadi kepada majikan.</th>
                             <td>
                                 <p>
-                                    Workers have personal dependency on
-                                    employer.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Ensure that all workers receive training on
-                                    their workplace rights under the law and
-                                    your code of conduct, regardless of personal
-                                    relationships.
+                                    Pastikan semua pekerja mendapat latihan mengenai hak mereka di tempat kerja di bawah undang-undang dan kod 
+                                    tingkah laku anda, tanpa mengira hubungan peribadi. 
                                 </p>
                             </td>
                         </tr>
@@ -508,101 +393,62 @@ const ms = () => {
                     <Accordion.Section id="impossible-leaving">
                             <Accordion.Title>
                                 <strong>
-                                Remediation of "Impossibility of Leaving" Issues
+                                Pembetulan Isu “Mustahil untuk Meninggalkan”
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
                 <Table>
                     <caption>
-                        Table: Remediation of "Impossibility of Leaving"
-                        Issues{" "}
+                        Table: Pembetulan Isu “Mustahil untuk Meninggalkan”{" "}
                     </caption>
                     <tbody>
                         <tr>
                             <th scope="col" width="55%" scope="col">
                                 <p>
-                                    <strong>Circumstances</strong>
+                                    <strong>Keadaan</strong>
                                 </p>
                             </th>
                             <th scope="col" width="45%" scope="col">
                                 <p>
-                                    <strong>Remediation Actions </strong>
+                                    <strong>Tindakan Pembetulan</strong>
                                 </p>
                             </th>
                         </tr>
                         <tr>
+                        <th scope="row">Pekerja tidak bebas berhenti oleh sebab kemudahan yang mereka terima atau sebab kekangan dari pihak majikan.</th>
                             <td>
                                 <p>
-                                    Workers do not feel free to resign because
-                                    of benefits they have received or because
-                                    employer restrictions.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    If a supervisor or other individual is
-                                    leading workers to believe they cannot leave
-                                    because the supplier has provided training
-                                    or other benefits, or because of an illegal
-                                    contractual requirement, require the
-                                    supplier to take appropriate corrective
-                                    action against this individual, from
-                                    training to termination. If workers simply
-                                    do not understand their rights, provide
-                                    training to ensure they know when they may
-                                    resign. Ensure that workers who wish to
-                                    leave the job are able to do so and receive
-                                    their full wages due.
+                                    Sekiranya penyelia atau individu lain membuat pekerja percaya bahwa mereka tidak boleh berhenti kerja sebab 
+                                    pembekal telah menyediakan latihan dan kemudahan lain, atau sebab keperluan kontrak yang tidak sah, pastikan 
+                                    pembekal mengambil tindakan pembetulan yang sesuai terhadap individu tersebut, dari latihan kepada berhenti 
+                                    kerja. Sekiranya pekerja tidak memahami hak mereka, berikan latihan bagi memastikan bila mereka boleh berhenti. 
+                                    Pastikan semua pekerja yang ingin berhenti dibenarkan membuat demikian dan diberi gaji penuh kepada mereka.
                                 </p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">Pekerja berasa mereka terpaksa terus bekerja oleh sebab mereka belum diberi gaji.</th>
                             <td>
                                 <p>
-                                    Workers feel compelled to stay because they
-                                    are due wages.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Ensure that wages are being computed
-                                    accurately and that all employees involved
-                                    in payroll are adequately trained in wage
-                                    computation. Require the supplier to pay all
-                                    wages due under local law (for example, if
-                                    local law requires payment biweekly, require
-                                    all wages to be paid, at a minimum, through
-                                    two weeks ago). Ensure that payment
-                                    schedules are formalized, within legal
-                                    limits and the limits of your code. Follow
-                                    up with an unannounced audit. Ensure that
-                                    workers who wish to leave the job are able
-                                    to do so and receive their full wages due.
+                                    Pastikan gaji dikira dengan tepat dan semua pekerja yang terlibat dalam gaji diberi cukup latihan dalam 
+                                    mengira gaji. Pastikan pembekal membayar semua gaji di bawah undang-undang tempatan (contohnya, kalau 
+                                    undang-undang tempatan menetapkan gaji dibayar dua kali sebulan, pastikan semua gaji dibayar, pada tahap 
+                                    minimum, untuk dua minggu yang lalu). Pastikan jadual pembayaran dibuat secara formal, pada tahap yang 
+                                    ditetapkan di bawah undang-undang dan kod anda. Buat lawatan susulan untuk audit yang tidak diumumkan. 
+                                    Pastikan semua pekerja yang ingin berhenti dibenarkan membuat demikian dan menerima gaji penuh kepada 
+                                    mereka.
                                 </p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">Pekerja bekerja berlebihan masa atau bekerja tanpa henti untuk membayar hutang atau duit pendahuluan kepada majikan atau perekrut.</th>
                             <td>
                                 <p>
-                                    Workers work for an excessive or indefinite
-                                    amount of time to repay a debt or advance
-                                    from the employer or recruiter.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    If the supplier paid the loan or advance,
-                                    determine whether the terms were reasonable.
-                                    If not, work out reasonable terms between
-                                    supplier and worker. If the loan/advance was
-                                    paid by a labor recruiter, determine whether
-                                    the supplier had knowledge of the
-                                    arrangement. If so, work out reasonable
-                                    terms between supplier, recruiter and
-                                    worker. If not, require the supplier to
-                                    discontinue its relationship with the
-                                    recruiter. Report unscrupulous recruiters to
-                                    authorities.
+                                    Sekiranya pembekal membayar pinjaman atau duit pendahuluan, pastikan sama ada syaratnya berpatutan. Sekiranya tidak, berusaha untuk 
+                                    mencari terma yang berpatutan di antara pembekal dan pekerja. Sekiranya pinjaman/duit pendahuluan telah dibayar oleh perekrut buruh, 
+                                    pastikan sama ada pembekal mengetahui tentang urusan tersebut. Sekiranya tidak, berusaha untuk mencari terma yang berpatutan di antara 
+                                    pembekal, perekrut dan pekerja. Sekiranya tidak, pembekal patut menghentikan hubungan dengan perekrut tersebut. Laporkan perekrut yang 
+                                    tidak bertanggungjawab kepada pihak berkuasa.
                                 </p>
                             </td>
                         </tr>
@@ -611,161 +457,187 @@ const ms = () => {
                 </Accordion.Panel>
                         </Accordion.Section>
                     <Accordion.Section id="penalty-issue">
-                            <Accordion.Title>
-                                <strong>
-                                Remediation of Penalty or Threat Issues
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
+                        <Accordion.Title>
+                            <strong>
+                            Pembetulan Isu Penalti atau Ancaman 
+                            </strong>
+                        </Accordion.Title>
+                        <Accordion.Panel>
                 <Table width="100%">
                     <caption>
-                        Table: Remediation of Penalty or Threat Issues
+                        Table: Pembetulan Isu Penalti atau Ancaman
                     </caption>
                     <tbody>
                         <tr>
                             <th scope="col" width="55%" scope="col">
                                 <p>
-                                    <strong>Circumstances</strong>
+                                    <strong>Keadaan</strong>
                                 </p>
                             </th>
                             <th scope="col" width="45%" scope="col">
                                 <p>
-                                    <strong>Remediation Actions </strong>
+                                    <strong>Pemulihan</strong>
                                 </p>
                             </th>
                         </tr>
                         <tr>
+                        <th scope="row">Pembekal atau Perekrut menyimpan dokumen pengenalan atau dokumen perjalanan.</th>
                             <td>
+                                {/* <p id="P1"> */}
                                 <p>
-                                    Supplier or recruiter has possession of
-                                    workers&rsquo; identity or travel documents.
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    Suppliers should never confiscate or take
-                                    control of workers&rsquo; identity or travel
-                                    documents unless it is purely for
-                                    safekeeping purposes, and then only if
-                                    workers are able to retrieve their documents
-                                    promptly upon request. Require the supplier
-                                    to return all workers&rsquo; identity
-                                    documents. If workers prefer that the
-                                    supplier hold them for safekeeping, ensure
-                                    that a policy is in place for retrieval of
-                                    documents and that all workers are aware of
-                                    the policy. Follow up to check on the issue
-                                    through an unannounced audit.
+                                    Pembekal tidak boleh merampas atau mengawal identiti pengenalan pekerja atau dokumen perjalanan 
+                                    melainkan cuma untuk menyimpankannya dengan baik, dan sekiranya pekerja boleh mendapatkannya 
+                                    semula dengan segera apabila diminta. Pastikan pembekal mengembalikan semua dokumen pengenalan 
+                                    pekerja. Sekiranya pekerja lebih suka kalau majikan menyimpankannya dengan selamat, pastikan ada 
+                                    dasar yang ditetapkan untuk mendapatkan semula dokumen dan semua pekerja tahu tentang dasar 
+                                    tersebut. Buat pemeriksaan susulan mengenai isu tersebut dalam audit yang tidak diumumkan.
                                 </p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">Majikan mengehadkan pekerja daripada berkomunikasi</th>
                             <td>
+                                {/* <p><a href="#P1">See above.</a></p> */}
                                 <p>
-                                    Employer restricts workers&rsquo;
-                                    communication.
-                                </p>
-                            </td>
-                            <td>
-                                <p>See above.</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>
-                                    Employer threatens to turn workers in to
-                                    immigration authorities.
-                                </p>
-                            </td>
-                            {/* <td rowSpan="6"> */}
-                            <td>
-                                <p>
-                                    In any situation of violence, penalty,
-                                    intimidation or threat, determine
-                                    who&mdash;management, supervisors, shift
-                                    leaders, etc. &mdash;are involved in these
-                                    violations. If individuals were acting on
-                                    their own without management knowledge, take
-                                    appropriate action with these individuals,
-                                    which could include training, suspension or
-                                    termination.
-                                </p>
-                                <p>
-                                    If these penalties, threats, etc., were
-                                    initiated by management or if management was
-                                    complicit, terminate the relationship with
-                                    the supplier or provide the supplier a short
-                                    window of time to end all such practices.
-                                    Ensure that all workers receive training on
-                                    their rights under the law and your code of
-                                    conduct, including channels for grievances.
-                                    Ensure that workers who wish to leave the
-                                    job are able to do so and receive their full
-                                    wages due. Follow up with unannounced audits
-                                    that include off-site interviews with
-                                    workers and knowledgeable community members.
+                                <abbr title="Pembekal tidak boleh merampas atau mengawal identiti pengenalan pekerja atau dokumen perjalanan 
+                                    melainkan cuma untuk menyimpankannya dengan baik, dan sekiranya pekerja boleh mendapatkannya 
+                                    semula dengan segera apabila diminta. Pastikan pembekal mengembalikan semua dokumen pengenalan 
+                                    pekerja. Sekiranya pekerja lebih suka kalau majikan menyimpankannya dengan selamat, pastikan ada 
+                                    dasar yang ditetapkan untuk mendapatkan semula dokumen dan semua pekerja tahu tentang dasar 
+                                    tersebut. Buat pemeriksaan susulan mengenai isu tersebut dalam audit yang tidak diumumkan.">See above.</abbr> 
                                 </p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">Majikan mengancam untuk menyerahkan pekerja kepada pihak imigresen.</th>
                             <td>
+                                {/* <p id="P2"> */}
                                 <p>
-                                    Employer perpetrates or threatens physical
-                                    or sexual violence.
+                                    Dalam mana-mana situasi yang melibatkan keganasan, penalti, ugutan atau ancaman, pastikan siapa - pengurusan, 
+                                    penyelia, ketua giliran kerja, dll. - terlibat dalam pencabulan hak ini. Sekiranya individu bertindak sendiri 
+                                    tanpa pengetahuan pengurusan, ambil tindakan yang sesuai terhadap individu ini, yang boleh termasuk latihan, 
+                                    menggantung atau menghentikan kerja.
                                 </p>
-                            </td>
-                            <td>
-                                <p>See above.</p>
+                                <p>
+                                    Sekiranya penalti, ancaman, dll., dimulakan oleh pihak pengurusan, atau kalau pengurusan bersubahat, hentikan 
+                                    hubungan dengan pembekal atau berikan pembekal waktu yang singkat untuk menamatkan amalan-amalan tersebut. 
+                                    Pastikan semua pekerja mendapat latihan mengenai hak mereka di bawah undang-undang dan kod tingkah laku, 
+                                    termasuk tempat untuk mengadu. Pastikan semua pekerja yang ingin berhenti dibenarkan membuat demikian dan 
+                                    menerima gaji penuh. Buat langkah susulan dengan audit yang tidak diumumkan termasuk menemu duga pekerja di 
+                                    luar dan juga anggota komuniti yang berpengetahuan.
+                                </p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">Majikan melakukan atau mengancam penderaan atau gangguan seksual.</th>
                             <td>
+                                {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    Employer or recruiter threatens to remove
-                                    privileges like promotion potential,
-                                    threatens further deterioration in working
-                                    conditions or threatens to fire workers.
+                                    <abbr title="
+                                    alam mana-mana situasi yang melibatkan keganasan, penalti, ugutan atau ancaman, pastikan siapa - pengurusan, 
+                                    penyelia, ketua giliran kerja, dll. - terlibat dalam pencabulan hak ini. Sekiranya individu bertindak sendiri 
+                                    tanpa pengetahuan pengurusan, ambil tindakan yang sesuai terhadap individu ini, yang boleh termasuk latihan, 
+                                    menggantung atau menghentikan kerja.
+                                    Sekiranya penalti, ancaman, dll., dimulakan oleh pihak pengurusan, atau kalau pengurusan bersubahat, hentikan 
+                                    hubungan dengan pembekal atau berikan pembekal waktu yang singkat untuk menamatkan amalan-amalan tersebut. 
+                                    Pastikan semua pekerja mendapat latihan mengenai hak mereka di bawah undang-undang dan kod tingkah laku, 
+                                    termasuk tempat untuk mengadu. Pastikan semua pekerja yang ingin berhenti dibenarkan membuat demikian dan 
+                                    menerima gaji penuh. Buat langkah susulan dengan audit yang tidak diumumkan termasuk menemu duga pekerja di 
+                                    luar dan juga anggota komuniti yang berpengetahuan.
+                                    ">
+                                        See above.
+                                    </abbr>
                                 </p>
-                            </td>
-                            <td>
-                                <p>See above.</p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">Majikan atau perekrut mengancam untuk mengambil semula hak istimewa seperti kenaikan pangkat, mengancam untuk 
+                        memburukkan keadaan di tempat kerja atau mengancam untuk membuang pekerja.</th>
                             <td>
+                                {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    Employer or recruiter exploits religious or
-                                    cultural beliefs of workers.
+                                    <abbr title="
+                                    alam mana-mana situasi yang melibatkan keganasan, penalti, ugutan atau ancaman, pastikan siapa - pengurusan, 
+                                    penyelia, ketua giliran kerja, dll. - terlibat dalam pencabulan hak ini. Sekiranya individu bertindak sendiri 
+                                    tanpa pengetahuan pengurusan, ambil tindakan yang sesuai terhadap individu ini, yang boleh termasuk latihan, 
+                                    menggantung atau menghentikan kerja.
+                                    Sekiranya penalti, ancaman, dll., dimulakan oleh pihak pengurusan, atau kalau pengurusan bersubahat, hentikan 
+                                    hubungan dengan pembekal atau berikan pembekal waktu yang singkat untuk menamatkan amalan-amalan tersebut. 
+                                    Pastikan semua pekerja mendapat latihan mengenai hak mereka di bawah undang-undang dan kod tingkah laku, 
+                                    termasuk tempat untuk mengadu. Pastikan semua pekerja yang ingin berhenti dibenarkan membuat demikian dan 
+                                    menerima gaji penuh. Buat langkah susulan dengan audit yang tidak diumumkan termasuk menemu duga pekerja di 
+                                    luar dan juga anggota komuniti yang berpengetahuan.
+                                    ">
+                                        See above.
+                                    </abbr>
                                 </p>
-                            </td>
-                            <td>
-                                <p>See above.</p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">Majikan atau perekrut mengeksploit kepercayaan agama atau budaya untuk mengancam pekerja.</th>
                             <td>
+                                {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    Employer or recruiter withholds
-                                    workers&rsquo; pay or assets or threatens
-                                    financial penalties.
+                                    <abbr title="
+                                    alam mana-mana situasi yang melibatkan keganasan, penalti, ugutan atau ancaman, pastikan siapa - pengurusan, 
+                                    penyelia, ketua giliran kerja, dll. - terlibat dalam pencabulan hak ini. Sekiranya individu bertindak sendiri 
+                                    tanpa pengetahuan pengurusan, ambil tindakan yang sesuai terhadap individu ini, yang boleh termasuk latihan, 
+                                    menggantung atau menghentikan kerja.
+                                    Sekiranya penalti, ancaman, dll., dimulakan oleh pihak pengurusan, atau kalau pengurusan bersubahat, hentikan 
+                                    hubungan dengan pembekal atau berikan pembekal waktu yang singkat untuk menamatkan amalan-amalan tersebut. 
+                                    Pastikan semua pekerja mendapat latihan mengenai hak mereka di bawah undang-undang dan kod tingkah laku, 
+                                    termasuk tempat untuk mengadu. Pastikan semua pekerja yang ingin berhenti dibenarkan membuat demikian dan 
+                                    menerima gaji penuh. Buat langkah susulan dengan audit yang tidak diumumkan termasuk menemu duga pekerja di 
+                                    luar dan juga anggota komuniti yang berpengetahuan.
+                                    ">
+                                        See above.
+                                    </abbr>
                                 </p>
-                            </td>
-                            <td>
-                                <p>See above.</p>
                             </td>
                         </tr>
                         <tr>
+                        <th scope="row">Majikan atau perekrut menahan gaji atau aset pekerja atau mengancam mengenakan penalti kewangan.</th>
                             <td>
+                                {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    Employer threatens extra work for
-                                    uncooperative workers.
-                                </p>
-                                <p>
-                                    Employer uses blackmail to coerce workers.
+                                    <abbr title="
+                                    alam mana-mana situasi yang melibatkan keganasan, penalti, ugutan atau ancaman, pastikan siapa - pengurusan, 
+                                    penyelia, ketua giliran kerja, dll. - terlibat dalam pencabulan hak ini. Sekiranya individu bertindak sendiri 
+                                    tanpa pengetahuan pengurusan, ambil tindakan yang sesuai terhadap individu ini, yang boleh termasuk latihan, 
+                                    menggantung atau menghentikan kerja.
+                                    Sekiranya penalti, ancaman, dll., dimulakan oleh pihak pengurusan, atau kalau pengurusan bersubahat, hentikan 
+                                    hubungan dengan pembekal atau berikan pembekal waktu yang singkat untuk menamatkan amalan-amalan tersebut. 
+                                    Pastikan semua pekerja mendapat latihan mengenai hak mereka di bawah undang-undang dan kod tingkah laku, 
+                                    termasuk tempat untuk mengadu. Pastikan semua pekerja yang ingin berhenti dibenarkan membuat demikian dan 
+                                    menerima gaji penuh. Buat langkah susulan dengan audit yang tidak diumumkan termasuk menemu duga pekerja di 
+                                    luar dan juga anggota komuniti yang berpengetahuan.
+                                    ">
+                                        See above.
+                                    </abbr>
                                 </p>
                             </td>
+                        </tr>
+                        <tr>
+                        <th scope="row">Majikan mengancam memberi kerja berlebihan bagi bekerja yang tidak bekerjasama. 
+                            Majikan mengugut untuk memaksa pekerja.</th>
                             <td>
-                                <p>See above.</p>
+                                {/* <p><a href="#P2">See above.</a></p> */}
+                                <p>
+                                    <abbr title="
+                                    alam mana-mana situasi yang melibatkan keganasan, penalti, ugutan atau ancaman, pastikan siapa - pengurusan, 
+                                    penyelia, ketua giliran kerja, dll. - terlibat dalam pencabulan hak ini. Sekiranya individu bertindak sendiri 
+                                    tanpa pengetahuan pengurusan, ambil tindakan yang sesuai terhadap individu ini, yang boleh termasuk latihan, 
+                                    menggantung atau menghentikan kerja.
+                                    Sekiranya penalti, ancaman, dll., dimulakan oleh pihak pengurusan, atau kalau pengurusan bersubahat, hentikan 
+                                    hubungan dengan pembekal atau berikan pembekal waktu yang singkat untuk menamatkan amalan-amalan tersebut. 
+                                    Pastikan semua pekerja mendapat latihan mengenai hak mereka di bawah undang-undang dan kod tingkah laku, 
+                                    termasuk tempat untuk mengadu. Pastikan semua pekerja yang ingin berhenti dibenarkan membuat demikian dan 
+                                    menerima gaji penuh. Buat langkah susulan dengan audit yang tidak diumumkan termasuk menemu duga pekerja di 
+                                    luar dan juga anggota komuniti yang berpengetahuan.
+                                    ">
+                                        See above.
+                                    </abbr>
+                                </p>
                             </td>
                         </tr>
                     </tbody>
@@ -773,41 +645,23 @@ const ms = () => {
                 </Accordion.Panel>
                         </Accordion.Section>
                 </Accordion>
+                <br />
                 <ExampleInAction id="better_work">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Example in Action: The </strong>
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://betterwork.org/"
-                            title="Better Work"
-                        >
-                            <strong>Better Work</strong>
-                        </a>
-                        <strong> Remediation Process</strong>
+                        <strong>Contoh dalam Tindakan: Proses Pemulihan Better Work</strong>
                     </h2>
                     <p>
-                        Better Work encourages the development of democratic
-                        industrial relations structures and processes by
-                        including representatives of employers&rsquo;
-                        organizations and trade unions in designing and
-                        implementing its programs. At the factory level,
-                        compliance issues identified through assessments are
-                        addressed by a Performance Improvement Consultative
-                        Committee (PICC), a body of 8&ndash;10 persons
-                        comprising an equal number of management and worker
-                        representatives. Where possible, the formation and
-                        capacity development of the PICC builds on a
-                        factory&rsquo;s existing effective labor management
-                        structures. Each PICC meets at least on a monthly basis.
-                        Supported by Better Work Advisors, they formulate e and
-                        oversee implementation of a remediation plan, ensuring
-                        that management and workers share responsibility and
-                        accountability throughout the process. Better Work
-                        Advisors are available to provide technical assistance
-                        and conduct follow-up visits to evaluate progress on the
-                        remediation plan.
+                        Better Work menggalakkan pertumbuhan struktur perhubungan industri demokratik dan proses dengan 
+                        menggabungkan wakil pertubuhan majikan dan kesatuan sekerja untuk membentuk dan melaksanakan 
+                        program-programnya.   Di peringkat kilang, isu pematuhan yang dikenalpasti melalui penilaian ditangani 
+                        oleh Jawatankuasa Perunding Membaiki Prestasi (PICC), sebuah badan terdiri daripada 8-10 orang dari pihak 
+                        pengurusan dan wakil pekerja.  Di mana mungkin, penubuhan dan pembangunan keupayaan PIICC dibangunkan di 
+                        atas struktur pengurusan buruh yang sedia ada dan berkesan.  Setiap PICC bertemu sekurang-kurangnya setiap 
+                        bulan.  Disokong oleh Penasihat Better Work, mereka merumuskan dan mengawasi pelaksanaan pelan pemulihan, 
+                        memastikan pengurusan dan pekerja berkongsi tanggungjawab dan kebertanggungjawapan di sepanjang proses.   
+                        Penasihat Better Work boleh memberi bantuan teknikal dan melakukan lawatan susulan untuk menilai kemajuan 
+                        pelan pemulihan.
                     </p>
                 </ExampleInAction>
             </div>
