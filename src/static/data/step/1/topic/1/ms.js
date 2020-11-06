@@ -407,7 +407,7 @@ const en = () => {
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    The{" "}
+
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -484,7 +484,14 @@ const en = () => {
                                 >
                                 Verité
                                 </a>
-                                &nbsp;available at https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf.
+                                &nbsp;available at{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf"
+                                >
+                                https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf
+                                </a>.
                                 </p>
                                 <p>
                                     Lihat juga{" "}

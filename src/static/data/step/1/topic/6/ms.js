@@ -17,7 +17,7 @@ const en = () => {
                         rel="noopener noreferrer"
                         href="https://www.dfc.gov/"
                     >
-                    International Development Finance Corporation
+                    International Development Finance Corporation(DFC)
                     </a>
                     &nbsp;—ditubuhkan pada 2019,menggabungkan fungsi dari Perbadanan Pelaburan Swasta Luar Negeri (OPIC) – atau{" "}
                     <a
