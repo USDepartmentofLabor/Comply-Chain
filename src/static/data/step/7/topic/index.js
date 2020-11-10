@@ -142,44 +142,44 @@ export const Topics = {
     ms: [
             {
                 keywords: [],
-                title: "Auditing: Getting Started ",
-                content: Topic1.en
+                title: "Mengaudit: Memulakan",
+                content: Topic1.ms
             },
             {
                 keywords: [],
-                title: "The Audit Team",
-                content: Topic2.en
+                title: "Pasukan Audit",
+                content: Topic2.ms
             },
             {
                 keywords: [],
-                title: "Audit Tools",
-                content: Topic3.en
+                title: "Peralatan Audit",
+                content: Topic3.ms
             },
             {
                 keywords: [],
-                title: "Scheduling Audits",
-                content: Topic4.en
+                title: "Menjadualkan Audit",
+                content: Topic4.ms
             },
             {
                 keywords: [],
-                title: "Steps in an Audit",
-                content: Topic5.en
+                title: "Langkah dalam Audit",
+                content: Topic5.ms
             },
             {
                 keywords: [],
-                title: "Special Topic: Informal Subcontracting and “Homework”",
-                content: Topic7.en
+                title: "Topik Khas: Sub-kontrak tidak formal dan “kerja rumah”",
+                content: Topic7.ms
             },
             {
                 keywords: [],
                 title:
-                    "Special Topic: Community-Based Child Labor Monitoring Systems",
-                content: Topic8.en
+                    "Topik Khas: Sistem Memantau Buruh Kanak-Kanak Berdasarkan Komuniti",
+                content: Topic8.ms
             },
             {
                 keywords: [],
-                title: "Managing Audit Data",
-                content: Topic9.en
+                title: "Menangani Audit Data",
+                content: Topic9.ms
             }
         ]
 };

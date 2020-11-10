@@ -85,26 +85,26 @@ export const StepData = {
         // extraInfo: ExtraInfo.fr
     },
      ms: {
-            title: "Step 5: Monitor Compliance",
+            title: "Langkah 5: Pantau Pematuhan",
             topics: Topics.ms,
-            keywords: ["Social Audit", "Auditing", "Monitoring"],
+            keywords: ["Audit Sosial", "Memantau", "Monitoring"],
             learningObjectives: [
-                "Understand the personnel requirements for your auditing activities.",
-                "Know what tools your auditors need to do their job.",
-                "Decide how you will schedule audits.",
-                "Understand the components and flow of a typical audit.",
-                "Learn good practices for managing, analyzing and using audit data."
+                "Fahami keperluan kakitangan bagi aktiviti mengaudit.",
+                "Ketahui alat yang diperlukan untuk pengaudit menjalankan tugas.",
+                "Tentukan bagaimana anda akan menjadualkan audit.",
+                "Fahami komponen dan aliran audit yang biasa diadakan.",
+                "Pelajari amalan baik untuk mengurus, menganalisis dan mengguna data audit."
             ],
             keyTerms: [
                 {
-                    termName: "Social Audit (“Audit”)",
+                    termName: "Audit Sosial",
                     termDefinition:
-                        "The process of examining a specific worksite’s compliance with the standards set in the company’s code of conduct. The term “audit” is used throughout the App to refer to social auditing, but should not be confused with financial and other types of auditing undertaken by companies."
+                        "Proses memeriksa pematuhan tapak kerja khusus dengan standard yang ditetapkan dalam kod tingkah laku syarikat. Perkataan “audit” digunakan di serata aplikasi untuk merujuk kepada mengaudit keadaan sosial, tetapi jangan dikelirukan dengan kewangan atau mengaudit jenis lain yang dijalankan oleh syarikat. Mengaudit keadaan sosial adalah cara utama—selain daripada penglibatan dengan kesatuan sekerja/pekerja dan mekanisme rungutan—bagi mendapatkan maklumat mengenai pencabulan kod tingkah laku syarikat dalam rantai bekalan anda. Mengaudit mendedahkan masalah; ia tidak menyelesaikan masalah. Ia secebis dari sistem pematuhan sosial, dan tidak boleh dan sepatutnya tidak dibuat berasingan daripada penglibatan pihak berkepentingan, komunikasi dan langkah lain dalam proses."
                 },
                 {
-                    termName: "Monitoring",
+                    termName: "Memantau",
                     termDefinition:
-                        "For the purposes of this App, synonymous with auditing."
+                        "Untuk tujuan aplikasi ini, sinonim dengan mengaudit."
                 }
             ],
             furtherResources: Resources.ms,

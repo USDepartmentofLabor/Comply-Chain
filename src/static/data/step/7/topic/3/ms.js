@@ -12,71 +12,53 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Audit Tools</h1>
+                <h1>Peralatan Audit</h1>
                 <p>
-                    Audit tool formats vary; some are on paper (later
-                    transcribed into an electronic system), while others are
-                    programmed into handheld electronic devices. Electronic
-                    tools are not necessarily superior to paper-based ones, but
-                    they do allow for greater efficiency and quicker reporting
-                    back to non-field-based team members.
+                    Format alat audit berbeza; ada ditulis di atas kertas (kemudian ditaip ke dalam sistem elektronik), dan 
+                    ada yang diprogramkan ke dalam alat elektronik mobil. Alat elektronik tidak semestinya lebih canggih 
+                    daripada yang ditulis di atas kertas, tetapi ia lebih cekap dan cepat dilaporkan ke anggota pasukan di pejabat.
                 </p>
                 <p>
-                    Audit tools are essentially sets of questions that flow
-                    directly from the code of conduct; in a sense, they
-                    &ldquo;translate&rdquo; the broader statements in the code
-                    into specific data points that must be gathered to assess
-                    compliance with the code.
+                    Peralatan audit adalah set soalan yang disalurkan dari kod tingkah laku; maksudnya ia &ldquo;menterjemahkan&rdquo; 
+                    kenyataan dalam kod kepada data khusus yang perlu dikumpulkan untuk menilai pematuhan kepada kod.
                 </p>
                 <p>
-                    For example, with respect to child labor, a code of conduct
-                    might say:
+                    Contohnya, berkenaan buruh kanak-kanak, kod tingkah laku mungkin menyatakan:
                 </p>
                 <ul>
                     <li>
-                        Suppliers shall not employ children under age 15 or the
-                        minimum age for work as defined by local law, whichever
-                        is higher.
+                        Pembekal dilarang mengambil kerja kanak-kanak bawah umur 15 atau umur minimum untuk bekerja seperti yang 
+                        terdapat dalam undang-undang tempatan, yang mana yang lebih tinggi.
                     </li>
                 </ul>
                 <p>
-                    Based on this code provision, the audit tool would then
-                    guide the auditor to examine issues such as:
+                    Berdasarkan peruntukan kod, alat audit itu kemudian akan memberi panduan kepada pengaudit untuk memeriksa isu seperti: 
                 </p>
                 <ul>
                     <li>
-                        What proof of age documentation is required at the time
-                        of hire? How is this documentation verified? Where is
-                        proof of age documentation kept?
+                        Apakah dokumen untuk membuktikan umur yang diperlukan ketika diambil bekerja? Bagaimanakah dokumen tersebut disahkan? 
+                        Di manakah dokumen untuk pengesahan umur disimpan?
                     </li>
                     <li>
-                        If there are children under age 15 in the facility, are
-                        they working in a legal apprenticeship or training
-                        program? What documentation does the facility keep to
-                        verify that this is a legitimate apprenticeship or
-                        training program?
+                        Sekiranya kanak-kanak bawah umur 15 terdapat di tempat kerja, adakah mereka bekerja sebagai perantis yang sah atau 
+                        dalam program latihan? Apakah dokumen disimpan di tempat kerja untuk mengesahkan ini program perantis yang sah atau 
+                        program latihan?
                     </li>
                     <li>
-                        Are they doing &ldquo;light work&rdquo; as defined in
-                        local law or international standards? How does the
-                        facility define and document &ldquo;light work&rdquo;?
+                        Adakah mereka membuat &ldquo;kerja ringan&ldquo; seperti yang terdapat dalam undang-undang tempatan atau standard 
+                        antarabangsa? Bagaimanakah tempat kerja mendefinisikan dan mendokumenkan &ldquo;kerja ringan&ldquo;?
                     </li>
                     <li>
-                        What are the working conditions of all persons under age
-                        18? What specific tasks are they performing? What
-                        equipment are they using? Can any of these tasks or
-                        equipment be hazardous?
+                        Apakah keadaan kerja bagi semua pekerja bawah umur 18? Apakah tugas-tugas khas yang mereka lakukan? Apakah alat yang 
+                        mereka gunakan? Adakah tugas atau alat ini membahayakan?
                     </li>
                     <li>
-                        How does the facility distinguish between hazardous and
-                        non-hazardous tasks, and how is the facility ensuring
-                        that persons under 18 do not engage in hazardous tasks
-                        in violation of international law?
+                        Bagaimanakah tempat kerja membezakan antara tugas yang berbahaya dan tidak berbahaya, dan bagaimanakah tempat kerja 
+                        memastikan yang mereka di bawah umur 18 tidak terlibat dalam kerja berbahaya lantas melanggar undang-undang antarabangsa?
                     </li>
                 </ul>
                 <p>
-                    Forced labor is an extremely complex labor rights violation
-                    that can take many forms. The ILO&rsquo;s{" "}
+                    Buruh paksa merupakan pencabulan hak buruh yang amat kompleks dan didapati dalam pelbagai bentuk. ILO &rsquo;s{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -88,231 +70,182 @@ const ms = () => {
                             and Business, Booklet 4
                         </em>
                     </a>
-                    <em>, </em>contains a useful checklist and guidance for
-                    auditors and compliance personnel to identify forced labor
-                    at the enterprise level and in global supply chains. In
-                    2016, the ILO also launched a mobile app,{" "}
+                    <em>, </em>mengandungi senarai pemeriksaan yang berguna untuk pengaudit dan kakitangan yang terlibat dalam pematuhan 
+                    bagi mengenal pasti buruh paksa di peringkat pengusaha dan dalam rantai bekalan global. Pada 2016, ILO juga 
+                    melancarkan aplikasi mobil,{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm"
                         title="Checkpoints for Companies: Eliminating and Preventing Forced Labour"
                     >
-                        Checkpoints for Companies: Eliminating and Preventing
-                        Forced Labour
+                        Eliminating and Preventing Forced Labour: Checkpoints
                     </a>
-                    , which allows companies, auditors, and compliance personnel
-                    to create interactive checklists to help eliminate and
-                    prevent forced labor in business operations. The below
-                    questions, excerpted from an ILO publication, can help an
-                    auditor identify specific forms of forced labor.&nbsp;
+                    , yang membenarkan syarikat, pengaudit, dan kakitangan pematuhan membentuk senarai pemeriksaan interaktif untuk membasmi 
+                    dan menghindari pengambilan buruh paksa dalam operasi perniagaan. Pertanyaan berikut, dipetik dari penerbitan ILO, boleh 
+                    membantu pengaudit mengenal pasti bentuk khusus buruh paksa. 
                 </p>
                 <Accordion id="recruitment-indicator-acc">
                <Accordion.Section id="recruitment-indicator-description">
                   <Accordion.Title>
-                  Indicators of Forced Labor Through Recruitment Practices
+                    Rajah 1: Penunjuk Buruh Paksa Melalui Amalan Merekrut
                      </Accordion.Title>
                      <Accordion.Panel>
                      <p className="indent-margin">
                       <ol>
                          <li>
-                             Were any workers born or descended into "slave" or
-                             bonded status?
+                            Ada terdapat pekerja yang lahir atau waris “hamba” atau status terikat?
                          </li>
                          <li>
-                             Were any workers abducted, confined during the
-                             recruitment process, or sold into this job?
+                            Ada pekerja yang diculik, dikurung semasa proses merekrut, atau dijual ke dalam kerjanya?
                          </li>
                          <li>
-                             Were any workers recruited through some form of debt
-                             arrangement, such as an advance or loan, which they are
-                             working to pay off?
+                            Ada pekerja yang direkrut melalui hutang, seperti diberi duit pendahuluan atau hutang, di 
+                            mana mereka terpaksa bayar balik?
                          </li>
                          <li>
-                             At the time of recruitment, were any workers told they
-                             would be doing work of a different nature from the work
-                             they are currently performing?
+                            Waktu direkrut, adakah pekerja diberitahu yang mereka akan membuat kerja yang lain daripada 
+                            kerja yang mereka sekarang?
                          </li>
                          <li>
-                             At the time of recruitment, were any workers promised
-                             certain working conditions, employment contract terms,
-                             living conditions, job locations, employers, or
-                             wages/earnings that are different from what they
-                             actually receiving?
+                            Pada waktu proses merekrut, adakah pekerja yang dijanjikan sesuatu keadaan kerja, terma kontrak penggajian, 
+                            tempat tinggal, lokasi kerja, majikan, atau upah/gaji yang berbeza daripada sekarang?
                          </li>
                          <li>
-                             At the time of recruitment, were workers offered
-                             marriage as an incentive?
+                            Waktu direkrut, adakah pekerja ditawarkan perkahwinan sebagai insentif?
                          </li>
                      </ol>
                  </p>
                  </Accordion.Panel>
              </Accordion.Section>
-             </Accordion>
-             <Accordion id="duress-indicator-acc">
+             {/* </Accordion>
+             <Accordion id="duress-indicator-acc"> */}
                 <Accordion.Section id="duress-indicator-description">
                    <Accordion.Title>
-                   Indicators of Forced Labor Through Work and Life Under Duress
+                    Rajah 2: Penunjuk Buruh Paksa Melalui Kerja dan Kehidupan Dalam Tekanan
                       </Accordion.Title>
                       <Accordion.Panel>
                       <p className="indent-margin">
                        <ol>
-                          <li>
-                          Are any workers working excessive overtime beyond legal
-                          limits?
+                        <li>
+                            Ada mana-mana pekerja yang kerja berlebihan masa lebih daripada yang dihadkan di bawah undang-undang?
                       </li>
                       <li>
-                          Are any workers forced to work &ldquo;on call&rdquo;
-                          (day or night)?
+                        Ada pekerja yang dipaksa bekerja &ldquo;bila dipanggil&ldquo;(siang atau malam)?
                       </li>
                       <li>
-                          Does the employer restrict workers&rsquo; freedom of
-                          movement or communication with others inside or outside
-                          the workplace?
+                        Adakah majikan mengehadkan pergerakan pekerja atau berkomunikasi dengan orang lain di dalam atau di luar tempat kerja?
                       </li>
                       <li>
-                          If workers&rsquo; lodging is provided by the employer,
-                          are the living conditions degrading?
+                        Sekiranya tempat tinggal disediakan oleh majikan, adakah keadaan tempat tinggal dalam keadaan buruk?
                       </li>
                       <li>
-                          Does the employer force workers to engage in illicit
-                          activities, to work for his/her private home or family,
-                          or to take addictive drugs?
+                        Adakah majikan memaksa pekerja melakukan aktiviti haram seperti bekerja di rumahnya atau rumah keluarganya atau mengambil 
+                        dadah yang mengakibatkan ketagihan?
                       </li>
                       <li>
-                          Does the employer impose or inflate workers&rsquo;
-                          indebtedness through means such as falsifying work
-                          records, inflating prices for goods that workers are
-                          obliged to purchase, reducing the value of goods or
-                          services produced by workers, charging excessive
-                          interest on loans or advances to workers, etc.?
+                        Adakah majikan mengenakan atau meningkatkan hutang pekerja seperti memalsukan rekod kerjanya, meningkatkan harga 
+                        barang-barang yang pekerja dipaksa beli, mengurangkan nilai barang-barang atau perkhidmatan yang dikeluarkan oleh pekerja, 
+                        meletakkan kadar faedah yang berlebihan atas pinjaman atau pendahuluan wang kepada pekerja, dan lain-lain?
                       </li>
                       <li>
-                          Are any workers dependent on the employer for housing,
-                          food, and other necessities?
+                        Adakah pekerja bergantung kepada majikan untuk perumahan , makanan, dan keperluan lain?
                       </li>
                       <li>
-                          Do any workers have dependency relationships with the
-                          employer that go beyond the job, e.g., personal
-                          relationship, dependency on the employer for family
-                          members&rsquo; employment, etc.?
+                        Adakah pekerja bergantung kepada majikan di luar batasan pekerjaan, contohnya, mempunyai perhubungan peribadi, bergantung 
+                        kepada majikan untuk mendapatkan pekerjaan bagi ahli keluarga mereka, dll.?
                       </li>
                       </ol>
                   </p>
                   </Accordion.Panel>
               </Accordion.Section>
-              </Accordion>
-              <Accordion id="impossible-leaving-acc">
-                              <Accordion.Section id="impossible-leaving-description">
-                                 <Accordion.Title>
-                                 Indicators of Forced Labor Through Impossibility of Leaving
-                                    </Accordion.Title>
-                                    <Accordion.Panel>
-                                    <p className="indent-margin">
-                                     <ol>
-                                        <li>
-                                        Do any workers feel they do not have freedom to resign
-                                        the job because of training other benefits they have
-                                        received from the employer?
-                                    </li>
-                                    <li>
-                                        Can workers terminate employment at any time, without
-                                        penalty (except as provided by law)?
-                                    </li>
-                                    <li>
-                                        Do any workers feel compelled to stay in the job because
-                                        they are waiting for wages they are due?
-                                    </li>
-                                    <li>
-                                        Are any workers working for an excessive or indefinite
-                                        period of time in order to repay a debt or advance from
-                                        the employer or recruiter?
-                                    </li>
-                                    </ol>
-                                </p>
-                                </Accordion.Panel>
-                            </Accordion.Section>
-                            </Accordion>
+              {/* </Accordion>
+              <Accordion id="impossible-leaving-acc"> */}
+                <Accordion.Section id="impossible-leaving-description">
+                    <Accordion.Title>
+                    Rajah 3: Penunjuk Buruh Paksa yang Mustahil untuk Berhenti 
+                    </Accordion.Title>
+                    <Accordion.Panel>
+                    <p className="indent-margin">
+                        <ol>
+                        <li>
+                            Adakah pekerja merasa mereka tidak bebas untuk berhenti bekerja kerana telah menerima banyak kemudahan daripada majikan?
+                        </li>
+                        <li>
+                            Bolehkah pekerja berhenti bila-bila masa, tanpa didenda (kecuali di bawah peruntukan undang-undang)?
+                        </li>
+                        <li>
+                            Adakah pekerja merasa mereka terpaksa terus bekerja sebab mereka sedang menunggu gaji yang telah dijanjikan?
+                        </li>
+                        <li>
+                            Adakah pekerja bekerja berlebihan masa atau bekerja tanpa henti untuk membayar hutang atau duit pendahuluan kepada 
+                            majikan atau perekrut?
+                        </li>
+                        </ol>
+                    </p>
+                    </Accordion.Panel>
+                </Accordion.Section>
+                            {/* </Accordion>
 
-                  <Accordion id="penalties-indicator-acc">
-                                                <Accordion.Section id="penalties-indicator-description">
-                                                   <Accordion.Title>
-                                                   Indicators of Penalties or Threats
-                                                      </Accordion.Title>
-                                                      <Accordion.Panel>
-                                                      <p>
-                                                          If any of the indicators listed above are present (note that
-                                                          any one indicator is enough; one is not needed from each
-                                                          table), the auditor should examine whether penalties or
-                                                          threats are being used to exact labor. If so, the situation
-                                                          may constitute forced labor:
-                                                      </p>
-                                                      <ol>
-                                                          <li>
-                                                              Does the employer (or recruiter) threaten to turn
-                                                              workers over to government authorities (e.g. immigration
-                                                              authorities)?
-                                                          </li>
-                                                          <li>
-                                                              Has the employer (or recruiter) taken possession of
-                                                              workers&rsquo; identity papers or travel documents?
-                                                          </li>
-                                                          <li>
-                                                              Does the employer restrict workers&rsquo; communication,
-                                                              such as by confiscating mobile phones, isolating workers
-                                                              from others, locking workers in the workplace or living
-                                                              quarters, or constant surveillance?
-                                                          </li>
-                                                          <li>
-                                                              Does the employer (or recruiter) perpetrate or threaten
-                                                              any physical or sexual violence against workers
-                                                              including violent punishment of one worker in front of
-                                                              other workers?
-                                                          </li>
-                                                          <li>
-                                                              Does the employer punish or threaten to punish workers
-                                                              through any other means, such as deprivation of food,
-                                                              water or sleep, or make threats against their family
-                                                              members?
-                                                          </li>
-                                                          <li>
-                                                              Does the employer (or recruiter) threaten to remove
-                                                              privileges such as promotion potential?
-                                                          </li>
-                                                          <li>
-                                                              Does the employer threaten further deterioration in
-                                                              working conditions?
-                                                          </li>
-                                                          <li>
-                                                              Does the employer (or recruiter) exploit religious or
-                                                              cultural beliefs to threaten workers?
-                                                          </li>
-                                                          <li>
-                                                              Does the employer (or recruiter) withhold workers&rsquo;
-                                                              assets, such as personal property, cash, etc.?
-                                                          </li>
-                                                          <li>Does the employer withhold workers&rsquo; pay?</li>
-                                                          <li>Does the employer threaten to fire/dismiss workers?</li>
-                                                          <li>
-                                                              Does the employer threaten extra work for workers who do
-                                                              not cooperate?
-                                                          </li>
-                                                          <li>Does the employer threaten financial penalties?</li>
-                                                          <li>
-                                                              Does the employer (or recruiter) threaten to withhold
-                                                              future employment opportunities, to impose financial
-                                                              penalties, to exclude workers from social or community
-                                                              activities, or use any form of blackmail to coerce
-                                                              workers?
-                                                          </li>
-                                                      </ol>
-                                  </Accordion.Panel>
-                              </Accordion.Section>
-                              </Accordion>
+                  <Accordion id="penalties-indicator-acc"> */}
+                <Accordion.Section id="penalties-indicator-description">
+                    <Accordion.Title>
+                    Rajah 4: Penunjuk Denda atau Ancaman 
+                    </Accordion.Title>
+                    <Accordion.Panel>
+                    <p>
+                        Sekiranya ada penunjuk yang disenaraikan di atas wujud (mana-mana satu penunjuk memadai; setiap satu 
+                        penunjuk dari rajah tidak diperlukan). Pengaudit harus memeriksa sama ada denda atau ancaman digunakan 
+                        untuk mengerah pekerja. Kalau ya, keadaan itu mungkin menunjukkan wujudnya buruh paksa:
+                    </p>
+                    <ol>
+                        <li>
+                            Adakah majikan (atau perekrut) mengancam untuk mendedahkan pekerja kepada pihak berkuasa (contohnya, pihak imigresen)?
+                        </li>
+                        <li>
+                            Pernahkah majikan (atau perekrut) mengambil dan menyimpan dokumen pengenalan atau dokumen perjalanan milik pekerja? 
+                        </li>
+                        <li>
+                            Adakah majikan mengehadkan peluang pekerja untuk berkomunikasi, seperti merampas telefon bimbit, menjauhi mereka daripada 
+                            rakan sekerja, mengunci mereka di dalam tempat kerja atau tempat tinggal mereka, atau sentiasa memantau mereka?
+                        </li>
+                        <li>
+                            Adakah majikan (atau perekrut) melakukan atau mengancam keganasan fizikal atau seksual terhadap pekerja termasuk menghukum 
+                            dengan kejam seorang pekerja di hadapan pekerja lain?
+                        </li>
+                        <li>
+                            Adakah majikan menghukum atau mengancam pekerja melalui cara lain, seperti mengurangkan makanan, air dan tidur, atau 
+                            mengancam ahli keluarga pekerja? 
+                        </li>
+                        <li>
+                            Adakah majikan (atau perekrut) mengancam untuk menarik balik hak istimewa seperti kemungkinan untuk naik pangkat?
+                        </li>
+                        <li>
+                            Adakah majikan mengancam untuk memburukkan lagi keadaan tempat kerja?
+                        </li>
+                        <li>
+                            Adakah majikan (atau perekrut) mengeksploit kepercayaan agama atau budaya untuk mengancam pekerja?
+                        </li>
+                        <li>
+                            Adakah majikan (atau perekrut) menahan aset pekerja, seperti harta benda peribadi, wang tunai, dll?
+                        </li>
+                        <li>Adakah majikan menahan gaji pekerja?</li>
+                        <li>Adakah majikan mengancam untuk membuang kerja/memberhentikan pekerja? </li>
+                        <li>
+                            Adakah majikan mengancam untuk memberi lebih kerja sekiranya pekerja tidak bekerjasama?
+                        </li>
+                        <li>Adakah majikan mengancam untuk mendenda dari segi kewangan?</li>
+                        <li>
+                            Adakah majikan (atau perekrut) mengancam untuk menahan peluang pekerjaan pada masa depan, mengenakan denda kewangan, 
+                            melarang pekerja daripada terlibat dalam aktiviti sosial atau komuniti, atau memeras ugut untuk memaksa pekerja?
+                        </li>
+                        </ol>
+                    </Accordion.Panel>
+                </Accordion.Section>
+            </Accordion>
                 <p>
-                    Many companies&rsquo; audit tools are proprietary, so it can
-                    be difficult to find samples to guide the development of
-                    your own. The{" "}
+                    Banyak alat audit syarikat adalah hak mereka, jadi, oleh itu sangat sukar untuk mendapatkan contoh sebagai panduan untuk 
+                    membentuk alat audit bagi anda. {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -321,24 +254,16 @@ const ms = () => {
                     >
                         Responsible Sourcing Tool
                     </a>{" "}
-                    (RST) includes Sample Benchmarks of Good Practice in
-                    Recruitment and Employment to translate into measurable and
-                    actionable data points the requirements and good practices
-                    outlined in its Sample Code of Conduct Provisions,
-                    referenced in{" "}
+                    (RST) termasuk Penanda Aras Merekrut dan Penggajian untuk menunjukkan titik data yang boleh diukur dan diambil tindakan 
+                    serta amalan baik digariskan dalam Contoh Peruntukan Kod Tingkah Laku, yang dirujuk dalam {" "}
                     <Link to="/steps/5">Step 3, Develop a Code of Conduct</Link>
-                    . These benchmarks, which cover a range of areas related to
-                    forced labor and human trafficking, including recruitment
-                    fees, contracts of employment, document retention, and
-                    freedom of movement, can serve as a basis for the
-                    development of audit instruments and for establishing and
-                    monitoring key performance indicators to evaluate the
-                    performance of suppliers and labor agents.
+                    . Penanda aras ini, yang merangkumi pelbagai bidang berkaitan dengan buruh paksa dan pemerdagangan manusia, termasuk yuran 
+                    merekrut, kontrak penggajian, dokumen untuk mengekalkan pekerja, kebebasan bergerak, boleh digunakan sebagai asas bagi membentuk 
+                    alat audit dan untuk menubuhkan dan memantau penunjuk prestasi utama dalam menilai prestasi pembekal dan ejen buruh. 
                 </p>
                 <ExampleInAction id="rst1a">
                     <h2>
-                        <ExampleInAction.Icon alt="Lightbulb" /> Example in
-                        Action: Responsible Sourcing Tool 1A
+                        <ExampleInAction.Icon alt="Lightbulb" /> Contoh dalam Tindakan: Alat Mencari Sumber Secara Bertanggungjawab 1A
                     </h2>
                     <VeriteFlagWrapper>
                         <UsFlag src={usFlag} alt="US Flag" />
@@ -346,13 +271,12 @@ const ms = () => {
                     </VeriteFlagWrapper>
                     <p>
                         <strong>
-                            PROTECTIONS AGAINST TRAFFICKING IN PERSONS{" "}
+                            MELINDUNGI DARIPADA PEMERDAGANGAN MANUSIA{" "}
                         </strong>
                     </p>
                     <p>
                         <strong>
-                            Sample Benchmarks of Good Practice in Recruitment
-                            and Employment
+                        Merekrut dan Penanda Aras Penggajian 
                         </strong>
                     </p>
                                   <Accordion id="human-traffic-acc">
@@ -403,8 +327,8 @@ const ms = () => {
                                              </ul>
                                          </Accordion.Panel>
                                      </Accordion.Section>
-                                     </Accordion>
-                                     <Accordion id="recruit-fee-acc">
+                                     {/* </Accordion>
+                                     <Accordion id="recruit-fee-acc"> */}
                                        <Accordion.Section id="recruit-fee-description">
                                           <Accordion.Title>
                                           RECRUITMENT FEES AND TRANSPORTATION EXPENSES
@@ -464,8 +388,8 @@ const ms = () => {
                                                  </ul>
                                          </Accordion.Panel>
                                      </Accordion.Section>
-                                     </Accordion>
-                    <Accordion id="emp-contract-acc">
+                                     {/* </Accordion>
+                    <Accordion id="emp-contract-acc"> */}
                                               <Accordion.Section id="emp-contract-description">
                                                  <Accordion.Title>
                                                  CONTRACTS OF EMPLOYMENT
@@ -545,8 +469,8 @@ const ms = () => {
                                                 </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            </Accordion>
-                    <Accordion id="doc-retention-acc">
+                                            {/* </Accordion>
+                    <Accordion id="doc-retention-acc"> */}
                                               <Accordion.Section id="doc-retention-description">
                                                  <Accordion.Title>
                                                  DOCUMENT RETENTION
@@ -602,8 +526,8 @@ const ms = () => {
                                                     </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            </Accordion>
-                    <Accordion id="deposits-acc">
+                                            {/* </Accordion>
+                    <Accordion id="deposits-acc"> */}
                                               <Accordion.Section id="deposits-description">
                                                  <Accordion.Title>
                                                  DEPOSITS
@@ -635,8 +559,8 @@ const ms = () => {
                                                     </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            </Accordion>
-                    <Accordion id="humane-trtmnt-acc">
+                                            {/* </Accordion>
+                    <Accordion id="humane-trtmnt-acc"> */}
                                               <Accordion.Section id="humane-trtmnt-description">
                                                  <Accordion.Title>
                                                  HUMANE TREATMENT
@@ -677,9 +601,9 @@ const ms = () => {
                                                         </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            </Accordion>
+                                            {/* </Accordion>
 
-                    <Accordion id="workplace-eq-acc">
+                    <Accordion id="workplace-eq-acc"> */}
                                               <Accordion.Section id="workplace-eq-description">
                                                  <Accordion.Title>
                                                  WORKPLACE EQUALITY
@@ -725,9 +649,9 @@ const ms = () => {
                                                     </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            </Accordion>
+                                            {/* </Accordion>
 
-                    <Accordion id="wages-benefits-acc">
+                    <Accordion id="wages-benefits-acc"> */}
                                               <Accordion.Section id="wages-benefits-description">
                                                  <Accordion.Title>
                                                  WAGES AND BENEFITS
@@ -833,9 +757,9 @@ const ms = () => {
                                                     </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            </Accordion>
+                                            {/* </Accordion>
 
-                    <Accordion id="working-hours-acc">
+                    <Accordion id="working-hours-acc"> */}
                                               <Accordion.Section id="working-hours-description">
                                                  <Accordion.Title>
                                                  WORKING HOURS
@@ -886,9 +810,9 @@ const ms = () => {
                                                         </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            </Accordion>
+                                            {/* </Accordion>
 
-                    <Accordion id="freedom-acc">
+                    <Accordion id="freedom-acc"> */}
                                               <Accordion.Section id="freedom-description">
                                                  <Accordion.Title>
                                                  FREEDOM OF MOVEMENT AND PERSONAL FREEDOM
@@ -936,9 +860,9 @@ const ms = () => {
                                                        </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            </Accordion>
+                                            {/* </Accordion>
 
-                    <Accordion id="grievance-acc">
+                    <Accordion id="grievance-acc"> */}
                                               <Accordion.Section id="grievance-description">
                                                  <Accordion.Title>
                                                  GRIEVANCE PROCEDURES
@@ -979,9 +903,9 @@ const ms = () => {
                                                        </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            </Accordion>
+                                            {/* </Accordion>
 
-                    <Accordion id="private-emp-acc">
+                    <Accordion id="private-emp-acc"> */}
                                               <Accordion.Section id="private-emp-description">
                                                  <Accordion.Title>
                                                  PRIVATE EMPLOYMENT AGENCIES AND LABOR RECRUITERS
@@ -1101,8 +1025,8 @@ const ms = () => {
                                                    </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            </Accordion>
-                    <Accordion id="emp-awareness-acc">
+                                            {/* </Accordion>
+                    <Accordion id="emp-awareness-acc"> */}
                                               <Accordion.Section id="emp-awareness-description">
                                                  <Accordion.Title>
                                                  EMPLOYEE AWARENESS AND TRAINING
@@ -1150,7 +1074,7 @@ const ms = () => {
                                             </Accordion.Section>
                                             </Accordion>
                                             <p>
-                <strong>Source: Responsible Sourcing Tool 1A, </strong>
+                <strong>Sumber: Alat Mencari Sumber Secara Bertanggungjawab 1A, </strong>
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -1158,8 +1082,7 @@ const ms = () => {
                     title="Sample Benchmarks of Good Practice in Recruitment and Employment"
                 >
                     <strong>
-                        Sample Benchmarks of Good Practice in
-                        Recruitment and Employment
+                    Recruitment and Employment Benchmarks
                     </strong>
                 </a>
                 .
@@ -1173,8 +1096,7 @@ const ms = () => {
                 >
                     ResponsibleSourcingTool.org
                 </a>{" "}
-                was created through a collaboration between the U.S.
-                Department of State,{" "}
+                dibentuk dengan kerjasama di antara Jabatan Negara AS,{" "}
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
@@ -1192,48 +1114,37 @@ const ms = () => {
                 >
                     Made in a Free World
                 </a>
-                , and the{" "}
+                , dan {" "}
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://www.aspeninstitute.org/"
-                    title="Aspen Institute"
+                    title="Institut Aspen"
                 >
-                    Aspen Institute
+                    Institut Aspen
                 </a>
-                . The content of RST was provided by{" "}
-                <span lang="fr">Verit&eacute;</span>, a labor rights
-                organization with expertise in supply chain compliance,
-                with funds from the U.S. Department of State&rsquo;s
-                Office to Monitor and Combat Trafficking in Persons
-                under Cooperative Agreement S-SJTIP-13-CA-1029
-                <strong>.</strong> The development of RST was informed
-                by experts from several U.S. government agencies,
-                including the U.S. Departments of State and Labor, and
-                other primary stakeholders including trafficking
-                survivors, corporate and NGO leaders, and acquisitions
-                personnel and federal contracting officers.
+                . Isi kandungan RST disediakan oleh y{" "}
+                <span lang="fr">Verit&eacute;</span>, sebuah pertubuhan hak buruh dengan kepakaran dalam pematuhan rantai bekalan, dengan 
+                pembiayaan dari Pejabat untuk Memantau dan Memerangi Pemerdagangan Manusia Jabatan Negara AS di bawah perjanjian kerjasama 
+                S-SJTIP-13-CA-1029.  Perkembangan RST dibantu oleh maklumat daripada pakar-pakar dari beberapa agensi kerajaan AS, termasuk 
+                Jabatan Negara AS dan Jabatan Buruh, dan pihak berkepentingan lain termasuk mangsa pemerdagangan, pemimpin korporat dan NGO, 
+                dan para pegawai pemerolehan dan  kontraktor kerajaan.
             </p>
-                       </ExampleInAction>
+        </ExampleInAction>
                 
                 <p>
-                    Good audit tools are more than &ldquo;checklists.&rdquo;
-                    Good tools allow for recording information that auditors
-                    gain nonverbally, through observation of site conditions and
-                    workplace climate, interviewees&rsquo; body language and
-                    other cues. Auditors should research in advance any
-                    vulnerabilities that the worker population at the facility
-                    may experience, and should be attentive to subtle hints that
-                    workers may be subject to pressure or coercion. Audit tools
-                    should allow for recording information that may not be
-                    directly linked to the questions contained in the tool, but
-                    which the auditor still feels is important and relevant.
+                    Alat audit yang baik lebih daripada cuma “senarai semak” sahaja. Alat yang baik membenarkan rakaman maklumat bagi 
+                    pengaudit yang merakam secara senyap, melalui pemerhatian keadaan tempat kerja dan suasananya, gerak geri orang 
+                    yang di temuduga dan petanda lain. Pengaudit harus mengkaji terlebih dahulu kelemahan yang dialami pekerja di tempat 
+                    kerja, dan patut prihatin kepada tanda-tanda yang menunjukkan pekerja tertekan atau dipaksa. Alat audit harus membenarkan 
+                    rakaman maklumat yang tidak secara langsung berkaitan dengan soalan yang terdapat dalam alat tersebut, tetapi yang 
+                    pengaudit masih merasa penting dan relevan. 
+
                 </p>
                 <p>
-                    Companies increasingly require their subcontractors and
-                    suppliers to perform self-assessments to highlight potential
-                    risks of forced labor and human trafficking in the supply
-                    chain. The Responsible Sourcing Tool&rsquo;s{" "}
+                    Syarikat perniagaan semakin memerlukan sub-kontraktor dan pembekal untuk melakukan penilaian ke atas diri sendiri 
+                    untuk menunjukkan risiko bahawa ada kemungkinan terdapat buruh paksa dan pemerdagangan manusia dalam rantai bekalan. 
+                    Alat Mencari Sumber Secara Bertanggungjawab{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -1242,22 +1153,16 @@ const ms = () => {
                     >
                         Sample Supplier/Subcontractor Self-Assessment Tool
                     </a>{" "}
-                    is designed to help suppliers and subcontractors determine
-                    whether their activities conform to company or industry
-                    codes of conduct, as well as highlight potential human
-                    trafficking risks in how they recruit, select, and hire
-                    workers, in how they work with labor brokers, and in how
-                    migrant workers are managed. This tool can be used variously
-                    as a supplier screening tool, to develop corrective action
-                    plans, or to establish key performance indicators to track
-                    ongoing social responsibility performance.
+                    dibentuk untuk membantu pembekal dan sub-kontraktor memastikan sama ada aktiviti mereka selari dengan kod tingkah laku 
+                    syarikat atau kontraktor, dan juga menunjukkan potensi risiko pemerdagangan manusia termasuk cara mereka merekrut, memilih, 
+                    dan mengambil pekerja, cara mereka bekerja dengan broker buruh, dan cara pekerja migran diurus. Alat ini boleh digunakan untuk 
+                    pelbagai kegunaan, sebagai alat menapis pembekal, membentuk rancangan tindakan kolektif, atau menubuhkan penunjuk prestasi utama 
+                    untuk mengesan prestasi tanggungjawab sosial yang sedang berlangsung.
                 </p>
                 <p>
-                    Another important tool that can be used by any organization
-                    or an independent third party to authenticate the scope and
-                    effectiveness of the organization&rsquo;s anti-human
-                    trafficking efforts is <span lang="fr">Verit&eacute;</span>
-                    &rsquo;s{" "}
+                    Satu lagi alat yang penting yang boleh digunakan oleh mana-mana pertubuhan atau pihak bebas ketiga untuk mengesahkan skop dan 
+                    keberkesanan syarikat dalam usaha anti pemerdagangan manusia yang dijalankan oleh <span lang="fr">Verit&eacute;&rsquo;s</span>
+                    {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -1266,16 +1171,10 @@ const ms = () => {
                     >
                         Anti-Human Trafficking Business Authentication Criteria
                     </a>
-                    . This tool provides assessors with criteria to authenticate
-                    company-level conformance with its anti-human trafficking
-                    efforts, including policy commitments, board and executive
-                    accountability, organizational structure, assessing and
-                    controlling risks, and performance expectations. It provides
-                    both leading practices for each criterion, as well as
-                    evidence needed for verification. The tool also provides
-                    guidance to assessors to authenticate site-level conformance
-                    with these efforts, including by specifying minimum
-                    requirements.
+                    . Alat ini memberi penilai kriteria untuk mengesahkan prestasi di peringkat syarikat selari dengan usaha anti-pemerdagangan manusia, 
+                    termasuk dasar komitmen, lembaga dan eksekutif, struktur organisasi, menilai dan mengawal risiko, dan jangkaan prestasi. Ia 
+                    menyediakan amalan utama bagi kriteria, dan juga bukti yang diperlukan untuk pengesahan. Alat ini memberi panduan kepada penilai 
+                    untuk mengesahkan pematuhan di peringkat setempat dalam usaha ini, termasuk menentukan keperluan minimum.
                 </p>
             </div>
         </StaticData>

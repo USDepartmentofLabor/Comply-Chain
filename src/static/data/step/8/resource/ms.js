@@ -18,7 +18,7 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        Mencari Keadilan (“In Search of Justice): Jalan untuk Memulih Lombong Emas Porgera (Pathways to Remedy at 
+                        Jungk, Margaret, Chichester, Ouida, dan Fletcher, Chris. 2018. Mencari Keadilan (“In Search of Justice): Jalan untuk Memulih Lombong Emas Porgera (Pathways to Remedy at 
                         the Porgera Gold Mine.”) Laporan. BSR, San Francisco.
                     </li>
                     

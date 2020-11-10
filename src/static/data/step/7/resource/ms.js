@@ -8,11 +8,9 @@ const ms = () => {
                     <li>
                         Edmonds, Casper.{" "}
                         <em>
-                            Ethical considerations when conducting research on
-                            children in the worst forms of child labour in
-                            Nepal, 2005;{" "}
+                            Pertimbangan beretika apabila melakukan kajian ke atas kanak-kanak dalam perburuhan terburuk di Nepal, 2005;{" "}
                         </em>
-                        available from{" "}
+                        boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -25,23 +23,22 @@ const ms = () => {
                     </li>
                     <li>
                         <em>
-                            Combating Forced Labour: A Handbook for Employers
-                            and Business.
+                        Memerangi Buruh Paksa: Buku Panduan untuk Majikan dan Perniagaan.
                         </em>{" "}
-                        Geneva, 2015; available from{" "}
+                        Geneva, 2015; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ilo.org/global/topics/forced-labour/lang--en/index.htm"
+                            href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm"
                             title="Combating Forced Labour: A Handbook for Employers and Business."
                         >
-                            http://www.ilo.org/global/topics/forced-labour/lang--en/index.htm
+                            https://www.ilo.org/global/topics/forced-labour/publications/WCMS_101171/lang--en/index.htm
                         </a>
                         .
                     </li>
                     <li>
-                        <em>Decent work and the informal economy</em>. Geneva,
-                        2002; available from{" "}
+                        <em>Kerja baik dan ekonomi tidak formal</em>. Geneva,
+                        2002; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -54,10 +51,9 @@ const ms = () => {
                     </li>
                     <li>
                         <em>
-                            Eliminating and Preventing Forced Labour:
-                            Checkpoints;{" "}
+                            Membasmi dan Menghindari Buruh Paksa: Pusat Pemeriksaan{" "}
                         </em>
-                        March 1, 2016; available from{" "}
+                        Mac 1, 2016; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -69,10 +65,9 @@ const ms = () => {
                     </li>
                     <li>
                         <em>
-                            Hard to See, Harder to Count: Survey guidelines to
-                            estimate forced labour of adults and children
-                        </em>
-                        . Geneva, 2011; available from{" "}
+                            Sukar Dilihat, Lebih Sukar Lagi Dikira:
+                        </em>{" "}
+                        Panduan tinjauan untuk menganggar buruh paksa di kalangan orang dewasa dan kanak-kanak. Geneva, 2011; boleh didapati dari {" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -86,10 +81,9 @@ const ms = () => {
                     <li>
                         ILO-IPEC.{" "}
                         <em>
-                            Guidelines for developing child labour monitoring
-                            (CLM) processes.
+                            Panduan untuk membentuk proses pemantauan buruh kanak-kanak (CLM).
                         </em>{" "}
-                        2005; available from{" "}
+                        2005; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -101,27 +95,26 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        <em>Mini Action Guide on Forced Labour,</em> 2008,
-                        available from{" "}
+                        <em>Panduan Mini Tindakan mengenai Buruh Paksa,</em> 2008,
+                        boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.ituc-csi.org/IMG/pdf/guide_forced_labour_EN.pdf"
                             title="Mini Action Guide on Forced Labour"
                         >
-                            http://www.ituc-csi.org/IMG/pdf/
-                            <br /> guide_forced_labour_EN.pdf
+                            http://www.ituc-csi.org/IMG/pdf/guide_forced_labour_EN.pdf
                         </a>
                         .
                     </li>
                     <li>
-                        LeBaron, Genevieve and Jane Lister,{" "}
+                        LeBaron, Genevieve dan Jane Lister,{" "}
                         <em>
                             Ethical Audits and the Supply Chains of Global
                             Corporations.{" "}
                         </em>
-                        Sheffield Political Economy Research Institute, January
-                        2016; available from{" "}
+                        Institut Kajian Ekonomi Politik Sheffield, Januari 
+                        2016; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -134,7 +127,7 @@ const ms = () => {
                     </li>
                     <li>
                         <span lang="fr">Verit&eacute;</span>.{" "}
-                        <em>Fair Hiring Toolkit; </em>available from{" "}
+                        <em>Alat Pengambilan Pekerja Secara Adil, </em>boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -148,10 +141,9 @@ const ms = () => {
                     <li>
                         <span lang="fr">Verit&eacute;</span>.{" "}
                         <em>
-                            Responsible Sourcing Tool: Recruitment and
-                            Employment Benchmarks;{" "}
+                            Alat Sumber Bertanggungjawab: Merekrut dan Penanda Aras Penggajian;{" "}
                         </em>
-                        available from{" "}
+                        boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -165,10 +157,9 @@ const ms = () => {
                     <li>
                         <span lang="fr">Verit&eacute;</span>.{" "}
                         <em>
-                            Responsible Sourcing Tool: Sample Supplier
-                            Self-Assessment;
+                            Alat Sumber Bertanggungjawab: Contoh Penilaian Diri Pembekal;
                         </em>{" "}
-                        available from{" "}
+                        boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -182,10 +173,9 @@ const ms = () => {
                     <li>
                         <span lang="fr">Verit&eacute;</span>.{" "}
                         <em>
-                            Responsible Sourcing Tool: Conducting Migrant Worker
-                            Interviews;{" "}
+                            Alat Mendapatkan Sumber Secara Bertanggungjawab Melakukan Temu Duga Pekerja Migran;{" "}
                         </em>
-                        available from{" "}
+                        boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

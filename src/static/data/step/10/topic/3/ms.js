@@ -41,7 +41,7 @@ const ms = () => {
                         href="https://www.globalreporting.org/Pages/default.aspx"
                     >
                         Global Reporting Initiative (GRI)
-                    </a>
+                    </a>{" "}
                     Global Reporting Initiative (GRI), pertubuhan berdasarkan rangkaian yang mengeluarkan kerangka laporan yang 
                     banyak digunakan oleh syarikat-syarikat seluruh dunia. Kerangka GRI menetapkan prinsip dan penunjuk prestasi 
                     untuk laporan mengenai alam sekitar, sosial dan prestasi tadbir urus syarikat. Kerangka dibentuk melalui 
@@ -86,7 +86,7 @@ const ms = () => {
                         href="https://www.ungpreporting.org/framework-guidance/"
                     >
                     UN Guiding Principles Reporting Framework Guidance
-                    </a>
+                    </a>{" "}
                     dibahagi kepada tiga bahagian:
                     </p>
                     <ul>
