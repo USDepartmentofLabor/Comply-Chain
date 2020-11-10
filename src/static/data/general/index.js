@@ -158,7 +158,7 @@ export const General = {
             prevStep: "Previous Langkah",
             nextTopic: "Next Topik",
             nextStep: "Next Langkah",
-            furtherResources: "Sumber lebih lanjut",
+            furtherResources: "Rujukan Selanjutnya",
             training: "Training Materials",
             results: "Results found for",
             searchResults: "Search Results",
