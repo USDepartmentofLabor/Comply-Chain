@@ -126,39 +126,39 @@ export const Topics = {
     ms: [
             {
                 keywords: [],
-                title: "International Framework Agreements (IFAs)",
-                content: Topic1.en
+                title: "Perjanjian-Perjanjian Kerangka Antarabangsa (IFAs)",
+                content: Topic1.ms
             },
             {
                 keywords: [],
-                title: "What Makes a Good Code of Conduct?",
-                content: Topic2.en
+                title: "Apakah Kod Tingkah Laku yang Baik?",
+                content: Topic2.ms
             },
             {
                 keywords: [],
-                title: "Standards on Child Labor and Forced Labor",
-                content: Topic3.en
+                title: "Standard mengenai Buruh Kanak-Kanak dan Buruh Paksa",
+                content: Topic3.ms
             },
             {
                 keywords: [],
                 title:
-                    "Addressing the Vulnerability of Migrants in Codes of Conduct",
-                content: Topic4.en
+                    "Menangani Kelemahan Migran dalam Kod Tingkah Laku",
+                content: Topic4.ms
             },
             {
                 keywords: [],
-                title: "How to Develop a Code",
-                content: Topic5.en
+                title: "Bagaimana Mereka Bentuk sebuah Kod",
+                content: Topic5.ms
             },
             {
                 keywords: [],
-                title: "Joining an Existing Code",
-                content: Topic6.en
+                title: "Sertai Kod yang Wujud",
+                content: Topic6.ms
             },
             {
                 keywords: [],
-                title: "Communicating the Code",
-                content: Topic7.en
+                title: "Berkomunikasi tentang Kod",
+                content: Topic7.ms
             }
         ]
 };

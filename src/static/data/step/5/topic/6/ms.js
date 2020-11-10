@@ -5,36 +5,25 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Joining an Existing Code</h1>
+                <h1>Sertai Kod yang Wujud</h1>
                 <p>
-                    In certain industries, groups of companies have already come
-                    together to develop joint social compliance systems that
-                    individual companies can adopt by joining the group. In most
-                    cases these groups either have a code of conduct or are in
-                    the process of developing one together.
+                    Dalam beberapa industri, kumpulan syarikat telah bergabung untuk membentuk sistem pematuhan sosial bersama yang syarikat
+                    individu boleh terima pakai dengan menyertai kumpulan. Dalam banyak kes, kumpulan-kumpulan ini sama ada mempunyai kod
+                    tingkah laku atau dalam proses untuk membentukkannya bersama.
                 </p>
                 <p>
-                    There are both advantages and disadvantages associated with
-                    industry codes. On the positive side, they capitalize on the
-                    experiences and ideas of multiple companies and pool
-                    resources to minimize overall effort and time spent on code
-                    development. In addition, in industries such as apparel
-                    where many brands tend to share suppliers, a single
-                    agreed-upon code ensures that individual suppliers do not
-                    undergo numerous audits under diverging codes and can focus
-                    on improving compliance with a clear set of standards.
+                   Ada kebaikan dan kekurangan berkaitan dengan kod industri. Kebaikannya ialah ia mengambil kira pengalaman dan idea pelbagai syarikat
+                   dan sumber bersama untuk mengurangkan usaha keseluruhan dan waktu yang diambil untuk membentuk kod. Tambahan pula, dalam industri seperti
+                   pakaian di mana banyak jenama cenderung untuk berkongsi pembekal tidak melalui banyak audit di bawah kod yang bercanggah dan memberi fokus
+                   untuk memperbaiki pematuhan dengan standard yang jelas.
                 </p>
                 <p>
-                    On the negative side, in the course of code development any
-                    member company may have to make compromises on certain
-                    provisions. As a company, it is important to understand your
-                    supply chain and its risks and challenges before making a
-                    decision about joining a group code, in order to ensure that
-                    the group code makes strong policy commitments in the areas
-                    that are most important and salient to your business.
+                    Kekurangannya pula, dalam membentuk kod, mana-mana syarikat mungkin perlu membuat kompromi dalam peruntukan tertentu. Sebagai syarikat,
+                    penting untuk memahami rantai bekalan anda dan risikonya dan cabarannya sebelum membuat keputusan untuk menyertai kod kumpulan, untuk
+                    memastikan bahawa kod kumpulan itu membuat dasar komitmen yang tegas dalam bidang yang paling penting dan utama kepada perniagaan anda.
                 </p>
                 <p>
-                    Examples of industry codes include the{" "}
+                    Contoh kod industri termasuk{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -44,16 +33,15 @@ const ms = () => {
                         Better Cotton Initiative&rsquo;s Production Principles
                         and Criteria
                     </a>{" "}
-                    for companies throughout the cotton supply chain, the{" "}
+                    untuk syarikat di sepanjang rantai bekalan kapas,{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.eiccoalition.org/media/docs/EICCCodeofConduct5_English.pdf"
-                        title="Electronic Industry Citizenship Coalition Code"
+                        href="www.responsiblebusiness.org/code-of-conduct/f"
                     >
-                        Electronic Industry Citizenship Coalition Code
-                    </a>{" "}
-                    for electronics companies, the{" "}
+                        Responsible Business Alliance
+                    </a>
+                    * untuk syarikat elektronik,{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -62,7 +50,7 @@ const ms = () => {
                     >
                         Bonsucro Production Standard
                     </a>{" "}
-                    for companies in the sugarcane supply chain,&nbsp;and{" "}
+                    untuk syarikat dalam rantai bekalan tebu, dan{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -74,10 +62,7 @@ const ms = () => {
                     </a>
                 </p>
                 <p>
-                    There are also industry groups that do not require member
-                    adherence to a specific code, but that have developed
-                    general policy statements and statements of commitment for
-                    members to adopt. Examples include the{" "}
+                    Ada juga kumpulan industri yang tidak memerlukan anggota untuk mengikuti kod khusus, tetapi telah membentuk kenyataan dasar am dan kenyataan komitmen untuk anggota terima pakai. Contoh termasuk{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -86,7 +71,7 @@ const ms = () => {
                     >
                         Automotive Industry Action Group
                     </a>
-                    * and the{" "}
+                    * dan{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -96,12 +81,10 @@ const ms = () => {
                         Consumer Goods Forum&rsquo;s* Priority Industry
                         Principles
                     </a>{" "}
-                    on forced labor.
+                    mengenai buruh paksa.
                 </p>
                 <p>
-                    Similarly, there are multilateral and multi-stakeholder
-                    groups that have developed guidance for a particular product
-                    or line of products. Examples include: 1){" "}
+                    Sama juga, ada kumpulan pelbagai hala dan pelbagai pihak berkepentingan yang telah membentuk panduan bagi produk tertentu atau produk-produk. Contoh termasuk: 1){" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -146,22 +129,17 @@ const ms = () => {
                     .
                 </p>
                 <p>
-                    It is both increasingly common and beneficial for companies
-                    to require that their subcontractors and suppliers adhere to
-                    their code of conduct or a relevant industry code.
-                    Verit&eacute;&rsquo;s Responsible Sourcing Tool contains a{" "}
+                    Semakin biasa dan bermanfaat bagi syarikat perniagaan untuk memerlukan sub-kontraktor mereka mengikuti kod tingkah laku atau kod
+                    industri yang relevan. Alat Sumber Bertanggungjawab Verité* mengandungi{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="http://www.responsiblesourcingtool.org/vendoragreement"
-                        title="Sample Social Responsibility Agreement"
+                        href="www.responsiblesourcingtool.org/vendoragreement"
                     >
-                        Sample Social Responsibility Agreement
+                        Sample Vendor Agreement
                     </a>{" "}
-                    to supplement contracts and agreements between a company and
-                    its subcontractors or suppliers in the area of code flowdown
-                    and compliance, including in areas of self-assessment and
-                    improvement programs designed to achieve code compliance.
+                    sebagai suplemen kontrak dan perjanjian di antara syarikat dan sub-kontraktor mereka dalam bidang kod komunikasi dan pematuhan,
+                    termasuk bidang menilai diri sendiri dan program pembaikan yang direka untuk mencapai pematuhan kod.
                 </p>
             </div>
         </StaticData>
