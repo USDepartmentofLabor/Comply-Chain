@@ -5,31 +5,24 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Why Seek Stakeholder Engagement?</h1>
+                <h1>Mengapa Inginkan Penglibatan Pihak Berkepentingan</h1>
                 <p>
-                    At this point, you probably do not have all the information
-                    you need to set up a successful social compliance system.
-                    For example, how big a problem is child labor in a
-                    particular country or city from which you source? What
-                    services should you provide to a victim of labor
-                    trafficking, if one is identified in your supply chain? Who
-                    should you hire to provide training to your key suppliers on
-                    social compliance?
+                    Pada ketika ini mungkin anda tidak mempunyai semua maklumat yang diperlukan untuk
+                    menubuhkan sistem pematuhan sosial yang berjaya. Contohnya, berapa besarkah masalah
+                    buruh kanak-kanak dalam sesuatu negara atau bandar dari mana anda mendapati sumber bahan?
+                    Perkhidmatan apakah yang anda perlu berikan kepada mangsa pemerdagangan buruh, sekiranya ia
+                    didapati dalam rantai bekalan anda? Siapa yang harus anda ambil bekerja bagi memberikan
+                    latihan kepada pembekal utama dalam pematuhan sosial?
                 </p>
                 <p>
-                    Do not try to answer these questions by yourself. By
-                    involving your stakeholders in your system, you will gather
-                    more ideas and have a broader range of people with whom to
-                    vet issues and solutions. Stakeholder involvement allows you
-                    to gather a variety of perspectives before you commit to a
-                    particular approach. Engaging stakeholders can help you to
-                    understand the consequences of certain decisions and actions
-                    for specific stakeholders, the varied and changing
-                    expectations from stakeholders, and the key issues that
-                    surface in your supply chains. It also provides buy-in,
-                    because those who participate in the development of a system
-                    will be less likely to criticize it later if they see their
-                    ideas integrated into your selected approach and programs.
+                    Jangan cuba jawab soalan ini sendiri. Dengan melibatkan pihak berkepentingan dalam sistem anda,
+                    anda boleh mengumpulkan lebih banyak idea dan mempunyai lebih banyak orang yang boleh membincangkan
+                    dan mencari penyelesaian. Penglibatan pihak berkepentingan membolehkan anda mengumpulkan pelbagai
+                    perspektif sebelum anda komited kepada pendekatan tertentu. Melibatkan pihak berkepentingan dapat
+                    membantu anda memahami keputusan dan tindakan tertentu, jangkaan yang berbeza-beza dan berubah oleh
+                    pihak berkepentingan, dan isu-isu penting yang muncul dalam rantai bekalan anda. Ia juga menarik minat
+                    mereka, kerana mereka yang terlibat dalam pembangunan sistem akan kurang cenderung untuk mengkritik
+                    nanti jika mereka melihat idea mereka disatukan dalam pendekatan dan program yang anda pilih.
                 </p>
             </div>
         </StaticData>

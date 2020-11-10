@@ -74,29 +74,24 @@ export const StepData = {
         furtherResources: Resources.fr
     },
     ms: {
-            title: "Step 1: Engage Stakeholders and Partners",
-            topics: Topics.en,
-            keywords: ["Stakeholder", "Community"],
+            title: "Langkah 1: Libatkan Pihak Berkepentingan dan Rakan Kongsi",
+            topics: Topics.ms,
+            keywords: ["Pihak Berkepentingan", "Komuniti"],
             learningObjectives: [
-                "Understand the importance of getting external entities involved in your social compliance system.",
-                "Become familiar with the various forms that engagement can take, including specific examples of partnerships and other collaboration.",
-                "Identify and engage with your stakeholders."
+                "Fahami pentingnya melibatkan entiti luar dalam sistem pematuhan sosial anda.",
+                "Biasakan diri dengan pelbagai cara yang boleh dilakukan dengan penglibatan, termasuk contoh khusus perkongsian dan kerjasama.",
+                "Kenali dan libatkan diri dengan pihak berkepentingan anda, termasuk mengenal pasti impak komuniti dan kelemahan sosial."
             ],
             keyTerms: [
                 {
-                    termName: "Stakeholder",
+                    termName: "Pihak Berkepentingan",
                     termDefinition:
-                        "A person or group directly or indirectly affected by, or otherwise having an interest in, your company’s policies and/or actions.  The term stakeholder is widely used in government, business, and civil society organizations, not solely in relation to social compliance.  However, a company’s social compliance program may have a subset of stakeholders that is distinct from those of the company as a whole."
+                        "Seseorang atau kumpulan secara langsung atau tidak langsung dipengaruhi oleh, atau sebaliknya mempunyai kepentingan dalam dasar dan/atau tindakan syarikat anda. Istilah pihak berkepentingan digunakan secara meluas dalam kerajaan, perniagaan, dan masyarakat sivil, dan tidak sahaja berkaitan dengan pematuhan sosial. Namun begitu, program pematuhan sosial mungkin mempunyai lapisan pihak berkepentingan yang khusus dan berbeza daripada syarikat secara keseluruhan. Ini termasuk individu dan komuniti yang terkesan oleh operasi perniagaan dan amalan perniagaan, tanpa mengira jika mereka adalah sebahagian daripada rantai bekalan perniagaan yang rasmi. Contohnya, pengeluar tebu dan petani yang menjual gula kepada perantara di mana pembelian daripada syarikat tersebut mungkin masih dipengaruhi secara langsung oleh sesebuah syarikat, walaupun mereka mungkin bukan sebahagian daripada rantai bekalan rasmi. PBB mengakui individu-individu ini mempunyai hak asasi manusia dan perlindungan yang harus dipertimbangkan oleh perniagaan berkaitan dengan tindakan pematuhan sosial mereka."
                 },
                 {
-                    termName: "Community",
+                    termName: "Komuniti",
                     termDefinition:
-                        "For purposes of this toolkit, a community is comprised of the people in a geographic area (neighborhood, village, town, region) located at some point along your company’s supply chain. The communities in your company’s supply chains are among your stakeholders. "
-                },
-                {
-                    termName: "Worker Voice",
-                    termDefinition:
-                    "PLACEHOLDER FOR TEXT. "
+                        "Untuk tujuan aplikasi ini, komuniti terdiri daripada kawasan geografi (kejiranan, kampung, bandar, wilayah) yang berada dalam rantai bekalan syarikat anda. Komuniti dalam rantai bekalan anda adalah antara pihak berkepentingan anda."
                 }
             ],
             furtherResources: Resources.ms

@@ -107,33 +107,33 @@ export const Topics = {
     ms: [
             {
                 keywords: [],
-                title: "Why Seek Stakeholder Engagement?",
-                content: Topic1.en
+                title: "Mengapa Inginkan Penglibatan Pihak Berkepentingan",
+                content: Topic1.ms
             },
             {
                 keywords: [],
-                title: "What Can Stakeholders Do?",
-                content: Topic2.en
+                title: "Apa yang pihak berkepentingan boleh lakukan",
+                content: Topic2.ms
             },
             {
                 keywords: [],
-                title: "Engaging Your Stakeholders",
-                content: Topic3.en
+                title: "Penglibatan Pihak Berkepentingan Anda",
+                content: Topic3.ms
             },
             {
                 keywords: [],
-                title: "Multi-Stakeholder Groups",
-                content: Topic4.en
+                title: "Kumpulan Pelbagai Pihak Berkepentingan",
+                content: Topic4.ms
             },
             {
                 keywords: [],
-                title: "Industry Associations and Initiatives",
-                content: Topic5.en
+                title: "Inisiatif dan Persatuan Industri",
+                content: Topic5.ms
             },
             {
                 keywords: [],
-                title: "Certification Programs",
-                content: Topic6.en
+                title: "Program Persijilan",
+                content: Topic6.ms
             }
         ]
 };
