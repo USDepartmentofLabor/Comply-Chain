@@ -5,34 +5,21 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Communication About Remediation</h1>
+                <h1>Komunikasi tentang Pemulihan</h1>
                 <p>
-                    Particularly in cases where a complaint was received,
-                    leading to an audit and finding of violations, the submitter
-                    of the complaint&mdash;and possibly other
-                    stakeholders&mdash;will expect to know how the issue was
-                    handled. Your communication and public reporting should
-                    incorporate information about remediation to the extent
-                    possible. All such communication should ensure maximum
-                    protection for victims&rsquo; safety and privacy.
+                    Terutama dalam kes di mana aduan diterima, yang mengakibatkan audit dan mendapati pencabulan hak, pengadu - dan 
+                    mungkin pihak berkepentingan lain - akan mendesak untuk mengetahui bagaimana isu telah ditangani. Komunikasi 
+                    anda dan laporan awam harus menggabungkan maklumat tentang pemulihan sejauh mana yang mungkin. Semua komunikasi 
+                    harus memastikan perlindungan maksimum untuk keselamatan dan hal peribadi mangsa.
                 </p>
                 <p>
                     <em>
-                        *Note: References to specific companies and
-                        non-governmental entities within this guide are for
-                        informational purposes only to demonstrate best
-                        practices that have been recognized internationally, as
-                        of the app&rsquo;s release date. Referencing the
-                        entities should not be interpreted as an official
-                        endorsement of those entities, their products, or
-                        services by the U.S. Department of Labor{" "}
+                        *Catatan: Rujukan kepada syarikat tertentu dan entiti bukan kerajaan dalam panduan ini hanya untuk tujuan 
+                        memberi maklumat bagi menunjukkan amalan terbaik yang telah diperakui di peringkat antarabangsa , sejak 
+                        aplikasi dikeluarkan. Merujuk kepada entiti tidak patut ditafsirkan sebagai sokongan rasmi kepada entiti 
+                        tersebut, produk atau perkhidmatan mereka oleh Jabatan Buruh AS dan penyertaan mereka tidak boleh ditafsirkan 
+                        sebagai tinjauan komprehensif mengenai amalan entiti ini di dalam semua bidang.
                     </em>
-                    <em>
-                        and their inclusion should not be interpreted as a
-                        comprehensive review of these entities&rsquo; practices
-                        in all areas
-                    </em>
-                    <em>.</em>
                 </p>
             </div>
         </StaticData>

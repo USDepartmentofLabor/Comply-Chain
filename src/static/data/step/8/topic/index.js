@@ -92,27 +92,27 @@ export const Topics = {
     ms: [
             {
                 keywords: [],
-                title: "The Importance of Violation Remediation",
+                title: "Kepentingan Pemulihan Pencabulan",
                 content: Topic1.ms
             },    
             {
                 keywords: [],
-                title: "Improving Victim Situations",
+                title: "Memperbaiki Keadaan Mangsa",
                 content: Topic2.ms
             },
             {
                 keywords: [],
-                title: "Preventing Recurrence",
+                title: "Mengelak daripada Berulang",
                 content: Topic3.ms
             },
             {
                 keywords: [],
-                title: "Corrective Action Plan",
+                title: "Pelan Tindakan Pembetulan (CAP)",
                 content: Topic4.ms
             },
             {
                 keywords: [],
-                title: "Communication About Remediation",
+                title: "Komunikasi tentang Pemulihan",
                 content: Topic5.ms
             }
         ]

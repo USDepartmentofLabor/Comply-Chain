@@ -6,7 +6,7 @@ const ms = () => {
             <div>
                 <ol>
                     <li>
-                    Metzger, H.  (February, 2020).  Forced Labor Not Acceptable.  Best Buy.  Retrieved from: {" "}
+                        Metzger, H.  (Februari, 2020). Buruh Paksa Tidak Diterima. Best Buy. Dipetik dari {" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -18,8 +18,8 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                    Jungk, Margaret, Chichester, Ouida, and Fletcher, Chris.  2018. 
-                    “In Search of Justice: Pathways to Remedy at the Porgera Gold Mine.”  Report.  BSR, San Francisco.
+                        Mencari Keadilan (“In Search of Justice): Jalan untuk Memulih Lombong Emas Porgera (Pathways to Remedy at 
+                        the Porgera Gold Mine.”) Laporan. BSR, San Francisco.
                     </li>
                     
                 </ol>
