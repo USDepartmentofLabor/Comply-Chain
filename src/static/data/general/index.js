@@ -142,7 +142,7 @@ export const General = {
     },
     ms: {
             home: "Laman Utama",
-            menu: "Menu Utama",
+            menu: "Menu",
             appFullTitle: "Buat Baik",
             info: "Perihal",
             contactUs: "Hubungi Kami",
