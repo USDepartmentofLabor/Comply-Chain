@@ -6,47 +6,30 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Assessing External Impacts and Risk Factors</h1>
+                <h1>Menilai Impak Luaran dan Faktor Risiko</h1>
                 <p>
-                    &ldquo;External&rdquo; impacts and risks encompass both
-                    those linked to a company&rsquo;s operations, products or
-                    services through business relationships, over which you can
-                    and should exert influence, and risks of which you have less
-                    control, such as arising from national laws or developments
-                    in wider operating environments.&nbsp;
+                    Impak “Luaran” dan risiko merangkumi yang berkaitan dengan operasi syarikat, produk atau perkhidmatan melalui hubungan perniagaan,
+                    di mana anda harus menggunakan pengaruh anda, dan risiko di mana anda boleh kawal, seperti yang timbul dari undang-undang nasional
+                    atau perkembangan dalam operasi sekitar.
                 </p>
                 <p>
-                    If a company is considering sourcing from a new country or
-                    geographic area, you are probably already carrying out other
-                    forms of risk assessment. Human rights/social compliance
-                    risk assessment should be built into those processes. This
-                    is addressed further in the next section,{" "}
-                    <em>
-                        <u>Risk and Impact Information Gathering</u>
-                    </em>
-                    . The assessment should involve identifying people or groups
-                    who may be affected by your business activities and
-                    projecting any adverse impacts that could occur. At a
-                    minimum, the assessment should involve desk research, field
-                    research in the target country/community, and then a
-                    baseline round of pre-sourcing audits to assess current
-                    levels of compliance. More information on how to conduct
-                    these types of audits is included in{" "}
+                    Sekiranya syarikat ingin mendapatkan bahan dari negara baru atau kawasan baru, anda mungkin sedang melakukan penilaian risiko dalam bentuk lain.
+                    Penilaian risiko hak asasi manusia/pematuhan sosial patut termasuk dalam proses. Ini akan dibincangkan dalam seksyen berikut, <em>Risiko dan Impak
+                    Pengumpulan Maklumat.</em> Penilaian harus melibatkan mengenal pasti orang atau kumpulan yang mungkin terpengaruh oleh aktiviti perniagaan anda dan
+                    meramalkan kesan buruk yang mungkin akan berlaku. Penilaian begitu juga harus memperhitungkan kumpulan atau individu yang mudah dieksploit,
+                    baik melalui keadaan hidup (misalnya kemiskinan, kekurangan pendidikan), atau melalui diskriminasi undang-undang dan diskriminasi sosial. Di
+                    samping itu, penilaian harus mempengaruhi individu yang mungkin tersembunyi dari orang ramai dan akibatnya tidak dapat membantu hak mereka yang
+                    terselamat dari rogol, penderaan seksual, penderita HIV/AIDS, dan pekerja tanpa dokumen. Sekurang-kurangnya, penilaian harus melibatkan kajian,
+                    penyelidikan di lapangan  di negara/ masyarakat sasaran, dan kemudian audit awal di peringkat permulaan bagi menilai tahap pematuhan semasa.
+                    Maklumat lanjut mengenai bagaimana melakukan jenis audit ini termasuk dalam{" "}
                     <Link to="/steps/5">Step 5, Monitor Compliance</Link>.
                 </p>
                 <p>
-                    If a company already has well-established supply chains in
-                    which it has relatively stable business relationships, you
-                    should assess the impacts of and risks associated with those
-                    supply chain actors. This should be done first through a
-                    supply chain mapping exercise, together with gathering
-                    information on the suppliers most in need of oversight, desk
-                    research, field research in the target areas, and a baseline
-                    round of audits on those suppliers to assess their current
-                    level of compliance. These baseline data allow you to
-                    identify suppliers&rsquo; potential areas for improvement.
-                    More information on how to conduct these types of audits is
-                    included in{" "}
+                    Sekiranya syarikat sudah mempunyai rantai bekalan yang mapan di mana ia mempunyai hubungan perniagaan yang agak stabil, anda harus menilai kesan dan
+                    risiko yang berkaitan dengan pelaku dalam rantai bekalan. Ini harus dilakukan terlebih dahulu melalui latihan pemetaan rantai bekalan, sambil mengumpul
+                    maklumat tentang pembekal yang lebih perlu dipantau, kajian di pejabat, kajian di padang di tempat sasaran, dan audit awal di peringkat permulaan mengenai
+                    pembekal untuk menilai pematuhan semasa mereka. Data awal ini akan membantu anda mengenalpasti bidang yang boleh diperbaiki bagi pembekal. Maklumat lanjut
+                    mengenai bagaimana melakukan jenis audit ini termasuk dalam{" "}
                     <Link to="/steps/5">Step 5, Monitor Compliance</Link>.
                 </p>
             </div>

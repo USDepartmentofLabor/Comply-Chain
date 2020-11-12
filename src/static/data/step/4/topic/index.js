@@ -206,66 +206,66 @@ export const Topics = {
         }
     ],
     ms: [
-            {
-                keywords: [],
-                title: "Why Conduct Risk and Impact Assessments?",
-                content: Topic1.en
-            },
-            {
-                keywords: [],
-                title: "Assessing Internal Impacts and Risk Factors",
-                content: Topic2.en
-            },
-            {
-                keywords: [],
-                title: "Assessing External Impacts and Risk Factors",
-                content: Topic3.en
-            },
-            {
-                keywords: [],
-                title: "Supply Chain Mapping",
-                content: Topic4.en
-            },
-            {
-                keywords: [],
-                title: "Risk and Impact Information Gathering",
-                content: Topic5.en
-            },
-            {
-                 keywords: [],
-                 title: "Key Information Related to Risk and Impact",
-                 content: Topic9.en
-             },
-             {
-                keywords: [],
-                title: "Migrant Workers",
-                content: Topic10.en
-            },
-            {
-                keywords: [],
-                title: "Assessing Root Causes",
-                content: Topic11.en
-            },
-            {
-                keywords: [],
-                title: "Addressing Root Causes",
-                content: Topic12.en
-            },
-            {
-                keywords: [],
-                title: "Philanthropy",
-                content: Topic13.en
-            },
-            {
-                keywords: [],
-                title: "Using Risk and Impact Assessment Information",
-                content: Topic7.en
-            },
-            {
-                keywords: [],
-                title: "Social Compliance Data Management",
-                content: Topic8.en
-            }
-        ]
+                    {
+                        keywords: [],
+                        title: "Why Conduct Risk and Impact Assessments?",
+                        content: Topic1.ms
+                    },
+                    {
+                        keywords: [],
+                        title: "Assessing Internal Impacts and Risk Factors",
+                        content: Topic2.ms
+                    },
+                    {
+                        keywords: [],
+                        title: "Assessing External Impacts and Risk Factors",
+                        content: Topic3.ms
+                    },
+                    {
+                        keywords: [],
+                        title: "Supply Chain Mapping",
+                        content: Topic4.ms
+                    },
+                    {
+                        keywords: [],
+                        title: "Risk and Impact Information Gathering",
+                        content: Topic5.ms
+                    },
+                    {
+                         keywords: [],
+                         title: "Key Information Related to Risk and Impact",
+                         content: Topic9.ms
+                     },
+                     {
+                         keywords: [],
+                         title: "Migrant Workers",
+                         content: Topic10.ms
+                     },
+                     {
+                         keywords: [],
+                         title: "Assessing Root Causes",
+                         content: Topic11.ms
+                     },
+                     {
+                         keywords: [],
+                         title: "Addressing Root Causes",
+                         content: Topic12.ms
+                     },
+                     {
+                         keywords: [],
+                         title: "Philanthropy",
+                         content: Topic13.en
+                     },
+                    {
+                        keywords: [],
+                        title: "Using Risk and Impact Assessment Information",
+                        content: Topic7.en
+                    },
+                    {
+                        keywords: [],
+                        title: "Social Compliance Data Management",
+                        content: Topic8.en
+                    }
+                ]
 
 };

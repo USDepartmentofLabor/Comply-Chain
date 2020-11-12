@@ -82,7 +82,6 @@ const en = () => {
                     <p>
                     The following are three examples of supply chain maps:
                 </p>
-                <br />
                        <Accordion id="cocoa-chains-acc">
                               <Accordion.Section id="cocoa-description">
                               <Accordion.Title>
@@ -222,7 +221,6 @@ const en = () => {
                       </Accordion.Panel>
                   </Accordion.Section>
                   </Accordion>
-            <br />
             </div>
         </StaticData>
     );

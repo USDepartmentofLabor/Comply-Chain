@@ -121,40 +121,40 @@ export const StepData = {
         furtherResources: Resources.fr
     },
     ms: {
-            title: "Step 2: Assess Risks and Impacts",
-            topics: Topics.en,
-            keywords: ["Due diligence", "Risk", "Impact"],
+            title: "Langkah 2: Penilaian Risiko dan Impak",
+            topics: Topics.ms,
+            keywords: ["Ketekunan Wajar", "Risiko", "Impak", "Aliran Hilir", "Aliran Hulu"],
             learningObjectives: [
-                "Understand the importance of risk and impact assessment as part of an overall due diligence approach.",
-                "Understand supply chain mapping as a critical step in assessing risks and impacts of labor abuse.",
-                "Learn the steps involved in risk and impact assessment and what resources are available.",
-                "Know how to use your assessment information and available resources."
+                "Fahami kepentingan penilaian risiko dan impak sebagai sebahagian daripada pendekatan ketekunan wajar.",
+                "Fahami pemetaan rantai bekalan sebagai langkah penting dalam menilai risiko dan kesan penganiayaan buruh.",
+                "Ketahui langkah-langkah yang terlibat dalam penilaian risiko dan impak dan sumber yang sedia ada.",
+                "Ketahui cara menggunakan maklumat penilaian anda dan sumber yang ada."
             ],
             keyTerms: [
                 {
-                    termName: "Due Diligence",
+                    termName: "Ketekunan Wajar",
                     termDefinition:
-                        "As defined by the United Nations Guiding Principles on Business and Human Rights, a process that includes assessing actual and potential human rights impacts (including fundamental labor rights such as child labor and forced labor), integrating and acting upon the findings, tracking responses and communicating how impacts are addressed.  Due diligence should cover assessment of the adverse impacts that a business may cause or contribute to through its own activities, as well as those that may be directly linked to its operations, products or services through business relationships.  Due diligence varies in complexity with the size of a business enterprise, the risk of severe human rights impacts and the nature and context of a business’s operations. "
+                        "Seperti yang ditentukan oleh Prinsip Panduan Pertubuhan Bangsa-Bangsa Bersatu satu proses yang termasuk kenyataan dan kemungkinan impak (termasuk hak asasi pekerja dan buruh kanak-kanak dan buruh paksa), mengintegrasikan dan bertindak berdasarkan penemuan, mengesan tindak balas dan menyampaikan bagaimana impaknya ditangani. Ketekunan wajar harus merangkumi penilaian terhadap kesan buruk yang mungkin disebabkan oleh perniagaan melalui kegiatannya sendiri, dan juga yang mungkin berkaitan secara langsung dengan operasi, produk atau perkhidmatan melalui hubungan perniagaan. Ketekunan wajar kompleks pada sifatnya, mengikut saiz perniagaan, risiko dari kesan hak asasi manusia yang buruk dan sifat dan konteks operasi perniagaan."
                 },
                 {
-                    termName: "Risk",
+                    termName: "Risiko",
                     termDefinition:
-                        "A situation that increases the potential for damage to your company, such as reputational damage or legal liability, or damage to individuals or entities affected by your company’s activities or linked to your company’s operations, products or services through business relationships.  "
+                        "Situasi yang meningkatkan potensi untuk merosakkan syarikat anda, seperti kerosakan reputasi atau liabiliti undang-undang, atau kerosakan kepada individu atau entiti yang terkesan oleh aktiviti syarikat anda atau yang berkaitan dengan operasi, produk atau perkhidmatan syarikat anda melalui hubungan perniagaan."
                 },
                 {
-                    termName: "Impact",
+                    termName: "Impak",
                     termDefinition:
-                        "A situation in which damage has been done to your company, such as reputational damage or legal liability, or to individuals or entities affected by your company’s activities or linked to your company’s operations, products or services through business relationships. "
+                        "Situasi di mana kerosakan telah berlaku kepada syarikat anda, seperti kerosakan reputasi atau liabiliti undang-undang, atau kepada individu atau entiti yang terkesan dengan aktiviti syarikat anda atau berkaitan dengan operasi syarikat anda, produk atau perkhidmatan melalui hubungan perniagaan."
                 },
                 {
-                     termName: "Downstream Suppliers",
+                     termName: "Aliran Hilir",
                      termDefinition:
-                         "Referring to the demand side of the supply chain. One or more companies or individuals who participate in the flow of goods and services moving from the manufacturer to the final user or consumer. "
+                         "Bahagian proses rantai bekalan di bahagian permintaan, bermaksud aliran barangan atau produk dari pembekal kepada syarikat dan juga pengguna atau pelanggan."
                  },
                  {
-                     termName: "Upstream Suppliers",
+                     termName: "Aliran Hulu",
                      termDefinition:
-                         "Refers to the supply side of the supply chain. Upstream partners are the suppliers who provide goods and services to the organization needed to satisfy demands which originate at point of demand or use, as well as other flows such as return product movements, payments for purchases, etc. "
+                         "Bahagian proses pada bahagian pembekalan, bermaksud aliran barangan atau produk dari syarikat kepada pembekal dan juga pihak yang mendapatkan bahan mentah di ladang atau di hutan, ke arah bahan mentah. Ini termasuk jaringan bekalan syarikat."
                  }
             ]
           }

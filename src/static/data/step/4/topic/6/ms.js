@@ -4,11 +4,11 @@ import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import Accordion from "../../../../../../components/Accordion";
 
-const ms = () => {
+const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>Assessing and Addressing Root Causes</h1>
+                <h1>Risiko dan Kesan Pengumpulan Maklumat</h1>
                 <p>
                     Among the external risk factors a company or industry will
                     have to examine are the underlying root causes of child
@@ -1050,4 +1050,4 @@ const ms = () => {
     );
 };
 
-export default ms;
+export default en;
