@@ -7,7 +7,7 @@ const ms = () => {
         <StaticData>
             <div>
                 <h1>
-                    Topik Khas: Sub-kontrak tidak formal dan &ldquo;kerja rumah&ldquo;
+                    Topik Khas: Sub-kontrak tidak formal dan &ldquo;kerja rumah&rdquo;
                 </h1>
                 <p>
                     Dalam banyak negara, terutama negara membangun, sebahagian besar ekonominya terdiri daripada ekonomi tidak 

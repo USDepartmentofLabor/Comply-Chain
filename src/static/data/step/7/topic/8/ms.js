@@ -40,7 +40,7 @@ const ms = () => {
                             title="World Vision"
                         >
                             World Vision
-                        </a>{" "}
+                        </a>* 
                         dan pertubuhan rakan kongsi tempatan untuk memerangi buruh kanak-kanak di Kampuchea, terutamanya dalam sektor pertanian, 
                         perikanan, dan perkhidmatan domestik. Dalam usaha untuk memperkuatkan tindakan berdasarkan komuniti bagi mengelak daripada 
                         dan membasmi buruh kanak-kanak, projek {" "}
