@@ -107,27 +107,27 @@ export const Topics = {
     ms: [
             {
                 keywords: [],
-                title: "Communicating, Not Policing",
+                title: "Berkomunikasi, dan Tidak Memainkan Peranan Polis",
                 content: Topic1.ms
             },
             {
                 keywords: [],
-                title: "Who Should be Trained?",
+                title: "Siapa yang Patut Dilatih?",
                 content: Topic2.ms
             },
             {
                 keywords: [],
-                title: "What Topics Should Training and Capacity-Building Cover?",
+                title: "Apakah Topik yang Harus Diterapkan dalam Program Latihan dan Pembinaan Keupayaan?",
                 content: Topic3.ms
             },
             {
                 keywords: [],
-                title: "Where, When and How Should Training be Conducted?",
+                title: "Di mana, Bila dan Bagaimanakah Program Latihan Dilakukan?",
                 content: Topic4.ms
             },
             {
                 keywords: [],
-                title: "Grievance Mechanisms",
+                title: "Mekanisme Rungutan",
                 content: Topic5.ms
             }
             // {

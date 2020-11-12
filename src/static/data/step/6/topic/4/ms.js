@@ -7,192 +7,73 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Where, When and How Should Training be Conducted?</h1>
+                <h1>Di mana, Bila dan Bagaimanakah Program Latihan Dilakukan?</h1>
                 <p>
-                    Some social compliance teams have in-house staff members who
-                    develop training materials for their company&rsquo;s
-                    program. Others contract out this function, or use training
-                    materials developed by an industry or cross-industry group.
-                    In some cases, it is also feasible and fruitful to engage
-                    some stakeholder groups in training other stakeholder
-                    groups. For example, vendors or agents can be trained, and
-                    then be charged with training all the managers, supervisors
-                    and human resources staff of the production facilities from
-                    which they source. Trade unions can also play an important
-                    role in developing training materials and raising awareness
-                    among workers and/or communities on social compliance
-                    issues.
+                    Ada pasukan pematuhan sosial yang mempunyai kakitangan yang membuat bahan latihan untuk program latihan 
+                    dalam syarikat. Ada yang memberikan fungsi ini kepada kontraktor luar, atau menggunakan bahan latihan yang 
+                    dibuat oleh industri atau kumpulan pelbagai industri. Dalam beberapa kes, juga boleh dan produktif untuk 
+                    melibatkan kumpulan yang berkepentingan untuk melatih kumpulan berkepentingan yang lain. Contohnya, penjual 
+                    atau ejen boleh dilatih, dan kemudian diberi tanggungjawab untuk melatih kakitangan sumber manusia tempat 
+                    pengeluaran di mana mereka mendapati sumber. Kesatuan sekerja juga boleh memainkan peranan penting dalam 
+                    membuat bahan latihan dan menimbulkan kesedaran di kalangan pekerja dan/atau komuniti mengenai isu pematuhan 
+                    sosial.
                 </p>
                 <p>
-                    Training for workers should be designed according to the
-                    particular worker population. In a country or geographic
-                    area where most workers have at least a basic education,
-                    training may also be taught in a classroom setting using
-                    written materials. However, there are industries and
-                    geographic areas where a significant proportion of workers
-                    may be illiterate or simply have very little experience in a
-                    classroom. In such cases, training methods and materials
-                    must be adapted to ensure that workers still capture the
-                    necessary information. Specific training formats have been
-                    developed for such populations, including films, graphical
-                    materials, posters and other visuals.
+                    Latihan untuk pekerja patut dibentuk selari dengan keperluan para pekerja tertentu. Dalam negara atau kawasan 
+                    di mana kebanyakan pekerja mempunyai pendidikan asas, latihan mungkin boleh dibuat dalam kelas atau bilik darjah 
+                    menggunakan bahan bertulis. Bagaimanapun, ada terdapat industri atau kawasan di mana kebanyakan pekerja buta 
+                    huruf dan tidak banyak pengalaman dalam bilik darjah. Dalam hal demikian, cara melatih dan bahan-bahan pelajaran 
+                    mestilah diubah suai bagi memastikan pekerja dapat memahami maklumat yang diberi. Format latihan khusus telah 
+                    dibuat untuk populasi demikian, termasuk filem, bahan grafik, poster dan bahan visual lain.
                 </p>
                 <p>
-                    In areas where many workers may lack basic education, some
-                    companies choose to go beyond basic social compliance
-                    training to offer literacy and numeracy education at the
-                    worksite or scholarships for such education. These efforts
-                    are often tied to the company&rsquo;s overall philanthropy
-                    portfolio, discussed further in{" "}
+                    Dalam keadaan di mana pekerja kurang pendidikan, ada syarikat yang memberikan lebih daripada latihan pematuhan 
+                    sosial asas untuk merangkumi pendidikan asas seperti membaca dan matematik di tempat kerja atau biasiswa untuk 
+                    mendapat pelajaran tersebut. Usaha-usaha ini sering berkaitan dengan portfolio kebajikan syarikat, yang 
+                    dijelaskan dengan lebih lanjut dalam{" "}
                     <em>
-                        <u>
-                            <Link to="/steps/4/topic/9">
-                                Addressing Root Causes
-                            </Link>
-                        </u>
+                        <Link to="/steps/4/topic/9">
+                        Assessing and Addressing Root Causes
+                        </Link>
                     </em>
                     .
                 </p>
                 <p>
-                    Cultural norms are also a key consideration in designing
-                    trainings. For instance, in some countries, men and women
-                    must be seated separately or separated by a certain distance
-                    within a room. In some cases, a trainer of a certain gender
-                    may be more appropriate for a particular group. Issues like
-                    eye contact and personal space are important for trainers to
-                    understand. It is also critical to have an understanding of
-                    teaching styles that are common in the area &ndash; for
-                    instance, in many cultures, raising one&rsquo;s hand to
-                    answer a question or having a group &ldquo;brainstorm&rdquo;
-                    is unheard of.&nbsp;
+                    Norma budaya juga menjadi pertimbangan dalam membentuk program latihan. Contohnya, di beberapa buah negara, 
+                    lelaki dan wanita mesti duduk berasingan atau berasingan dengan jarak tertentu di dalam bilik darjah. Dalam 
+                    beberapa hal, seorang pelatih lelaki atau wanita mungkin lebih sesuai untuk bersama kumpulan jantina 
+                    masing-masing. Isu seperti bertentang mata atau jarak peribadi penting untuk seorang pelatih fahami. Juga 
+                    kritikal untuk memahami cara mengajar yang biasa didapati di sesuatu tempat &ndash; contohnya, dalam banyak budaya, 
+                    mengangkat tangan untuk menjawab soalan, atau mengadakan &ldquo;brainstorm&rdquo; atau perbincangan dalam kumpulan untuk 
+                    mencetuskan idea tidak pernah dibuat.
                 </p>
                 <p>
-                    Some companies also choose to tie their social compliance
-                    training to other forms of training they may offer. In fact,
-                    many companies have found that integrating social compliance
-                    training into trainings on other topics like productivity,
-                    quality assurance and industry-specific technical skills has
-                    many benefits. Workers with improved skills are likely to be
-                    valued more highly and treated better, and improved
-                    workforce technical skills and productivity have concrete
-                    impacts on producers and suppliers&rsquo; incomes, so the
-                    trainings may be deemed more important by management and
-                    supervisors.
+                    Ada juga syarikat yang memilih untuk mengaitkan program latihan pematuhan sosial dengan latihan yang mereka tawarkan. 
+                    Malah, banyak syarikat yang mendapati menggabungkan latihan pematuhan sosial dengan latihan mengenai topik lain seperti 
+                    produktiviti, jaminan kualiti, dan kemahiran teknikal industri ada banyak manfaat. Pekerja dengan kemahiran sering 
+                    dihargai dan dilayani dengan baik, dan kemahiran teknikal tenaga kerja yang bertambah mempunyai kesan konkrit ke atas 
+                    pendapatan pengeluar dan pembekal, jadi latihan dipandang lebih penting oleh pihak pengurusan dan penyelia.
                 </p>
                 
                
                 <p>
-                    Developing materials, scheduling training sessions, hiring
-                    trainers and tracking training delivery are all significant
-                    investments. There are various ways to structure financing
-                    for your training program. Some companies simply choose to
-                    allocate a large portion of their social compliance budget
-                    to training and capacity building, believing that training
-                    helps to prevent problems and ultimately saves money. Some
-                    companies provide a core set of trainings free of charge,
-                    but if code violations are found for which training is
-                    required as part of remediation, the supplier then pays
-                    those training costs. In some relationships, the
-                    vendors/agents or suppliers handle all responsibilities
-                    related to training, including all costs.
+                    Membuat bahan, supaya sesi latihan, mendapatkan pelatih dan mengikuti penyampaian latihan semuanya merupakan pelaburan 
+                    penting. Ada beberapa cara untuk membuat peruntukan kewangan bagi program latihan. Ada syarikat yang cuma memperuntukkan 
+                    bajet dari program pematuhan sosial untuk melatih dan membina keupayaan, sambil percaya bahawa melatih boleh mengelak 
+                    daripada masalah dan akhirnya membawa kepada penyimpanan wang. Ada syarikat yang menyediakan latihan asas dengan percuma, 
+                    tetapi sekiranya terdapat pencabulan kod di mana latihan diperlukan sebagai langkah pemulihan, pembekal kemudian akan 
+                    membayar untuk kos program latihan. Dalam perhubungan tertentu, penjual/ejen atau pembekal akan menangani semua 
+                    tanggungjawab berkaitan dengan latihan, termasuk semua kos.
                 </p>
-                <ExampleInAction id="cocoa">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Example in Action: The International Chocolate and
-                            Cocoa Industry
-                        </strong>
-                    </h2>
-                    <p>
-                        For many years, the International Chocolate and Cocoa
-                        Industry has been working to reduce child labor in their
-                        supply chains, particularly in C&ocirc;te d&rsquo;Ivoire
-                        and Ghana. Recently, nine major cocoa and chocolate
-                        companies have come together to collectively support the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.worldcocoafoundation.org/about-wcf/cocoaaction/"
-                            title="World Cocoa Foundation&rsquo;s CocoaAction initiative"
-                        >
-                            World Cocoa Foundation&rsquo;s CocoaAction
-                            initiative
-                        </a>
-                        . CocoaAction represents a voluntary industry
-                        initiative, based on the vision of promoting a
-                        sustainable and socially responsible cocoa supply chain
-                        that offers a profitable way of life for cocoa farmers
-                        and their families and provides significantly improved
-                        quality of life for cocoa-growing communities.
-                        CocoaAction member companies have committed to sharing
-                        and exchanging information and best practices for
-                        activities under CocoaAction. They have also dedicated
-                        funding to implement the same agreed-upon, core
-                        interventions. In addition, CocoaAction companies have
-                        agreed to a finalized common results measurement
-                        framework and key performance indicators, which will
-                        allow them to measure progress and support learning
-                        related to the overall strategy.
-                    </p>
-                    <p>
-                        The core interventions under CocoaAction fall within two
-                        packages: productivity and community development. The
-                        productivity package is intended to help increase cocoa
-                        yields and farmer income, with one intended outcome
-                        being to help the farmers send their children to school
-                        and thereby reduce exploitative child labor. The
-                        community development package prioritizes activities
-                        around child labor alleviation, primary education, and
-                        women&rsquo;s empowerment. Under CocoaAction, companies
-                        aim to strengthen Child Protection Committees with the
-                        goal of expanding awareness of the importance of child
-                        protection and the reduction of child labor. In
-                        addition, through the strengthening of School Management
-                        Committees, member companies aim to improve the capacity
-                        of schools and communities to increase the number of
-                        effectively functioning primary schools. Finally,
-                        through the provision of skills training and income
-                        generating activities, CocoaAction aims to increase the
-                        capability, opportunity, and influence of women in cocoa
-                        growing communities. Women&rsquo;s empowerment can have
-                        a positive impact on reducing child labor as was seen in
-                        one cocoa growing community where, through income
-                        generating activities supported by a CocoaAction
-                        company, women of the community raised funds for the
-                        rehabilitation of classrooms.
-                    </p>
-                    <p>
-                        These core interventions are paired with the
-                        establishment of Child Labor Monitoring and Remediation
-                        Systems across supply chains and within communities,
-                        with the ultimate goal of significantly reducing child
-                        labor in cocoa growing communities of C&ocirc;te
-                        d&rsquo;Ivoire and Ghana.
-                    </p>
-                    <p>
-                        For more information, see the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.worldcocoafoundation.org/wp-content/uploads/2018/08/CLCCG-2016-Annual-Report.pdf"
-                            title="Child Labor Cocoa Coordinating Group&rsquo;s (CLCCG) 2016 Annual Report"
-                        >
-                            Child Labor Cocoa Coordinating Group&rsquo;s (CLCCG)
-                            2016 Annual Report
-                        </a>
-                        .
-                    </p>
-                </ExampleInAction>
                 <ExampleInAction id="iloscore">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: ILO's Program for Sustaining Competitive and Responsible Enterprises (SCORE)
+                            Contoh dalam Tindakan: Program ILO untuk Mengekalkan Usahawan yang Kompetitif dan Bertanggungjawab (SCORE)
                         </strong>
                     </h2>
                     <p>
-                    The ILO&rsquo;s Program for{" "}
+                    Program ILO{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -202,18 +83,41 @@ const ms = () => {
                         Sustaining Competitive and Responsible Enterprises
                         (SCORE)
                     </a>{" "}
-                    a training program to increase the productivity of Small and
-                    Medium Enterprises (SMEs) while promoting recognition of and
-                    respect for the ILO&rsquo;s international labor standards
-                    and improving working conditions. SCORE provides
-                    &ldquo;training of trainers&rdquo; for government agencies,
-                    industry associations and trade unions, and other
-                    organizations, who then deliver the training program to
-                    SMEs. SCORE is currently active in emerging economies
-                    throughout Africa, Asia, and Latin America, and as of April
-                    2017, over 1,000 SMEs representing over 270,000 workers,
-                    have participated in SCORE trainings.&nbsp;
+                    program latihan untuk meningkatkan produktiviti Usahawan Kecil dan Sederhana (SME) sambil mempromosi kesedaran dan 
+                    penghargaan untuk standard buruh antarabangsa ILO dan peningkatan keadaan kerja.   SCORE memberi &ldquo;latihan pelatih&rdquo; 
+                    untuk agensi kerajaan, persatuan industri dan kesatuan sekerja, dan pertubuhan lain, yang kemudian menyampaikan 
+                    program latihan kepada SMEs. SCORE kini aktif di negara berkembangan di seluruh Afrika, Asia, dan Amerika Selatan, 
+                    dan mulai Julai 2019, lebih daripada 2,100 SME telah menerima latihan SCORE di 11 buah negara, mewakili jumlah 
+                    tenaga kerja lebih dari 403,000 orang.
                 </p>
+                </ExampleInAction>
+                <br />
+                <ExampleInAction id="cocoa">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Contoh dalam tindakan: Industri Coklat dan Koko Antarabangsa 
+                        </strong>
+                    </h2>
+                    <p>
+                        Dalam dekad yang lalu, industri membiayai pembinaan dan pemulihan sekolah dan peruntukan untuk bekalan sekolah 
+                        dan perkhidmatan untuk membantu pendidikan di ratusan komuniti di C&ocirc;te d&rsquo;Ivoire and Ghana. Dalam 
+                        melaksanakan aktiviti bagi menimbulkan kesedaran tentang buruh kanak-kanak, industri ini menyokong usaha untuk 
+                        mengumpul data dan sistem untuk pemulihan buruh kanak-kanak, termasuk projek ILO-IPEC yang memgembangkan dan 
+                        meluaskan sistem berdasarkan komuniti untuk memantau buruh kanak-kanak. Industri ini menyokong aktiviti untuk 
+                        meningkatkan pendapatan kanak-kanak yang menghadapi risiko dan menyediakan dana tambahan kepada Inisiatif Koko 
+                        Antarabangsa untuk meluaskan pelaksanaan tindakan pelan komuniti, melatih jawatankuasa perlindungan kanak-kanak 
+                        masyarakat dan membina bilik darjah. Untuk maklumat lebih lanjut, sila lihat {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.worldcocoafoundation.org/wp-content/uploads/2018/08/CLCCG-2016-Annual-Report.pdf"
+                            title="Child Labor Cocoa Coordinating Group&rsquo;s (CLCCG) 2016 Annual Report"
+                        >
+                            World Cocoa Foundation&rsquo;s* CocoaAction initiative
+                        </a>
+                        .
+                    </p>
                 </ExampleInAction>
             </div>
         </StaticData>

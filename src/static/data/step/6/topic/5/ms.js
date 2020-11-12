@@ -2,70 +2,48 @@ import React from "react";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";  
+import unilever from "../../../../../../static/images/unilever.jpg";
 
 const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Grievance Mechanisms</h1>
+                <h1>Mekanisme Rungutan</h1>
                 <p>
-                    Grievance mechanisms are the cornerstone of collective
-                    bargaining. They allow workers to raise issues with
-                    employers without fear of reprisal. However, workers without
-                    the protection of a collective bargaining agreement should
-                    also have ways to make anonymous complaints and should have
-                    whistleblower protections.
+                    Mekanisme rungutan adalah kunci tawar-menawar kolektif Mereka membenarkan pekerja untuk membentangkan 
+                    isu-isu kepada majikan tanpa takut menerima balas dendam. Bagaimanapun, pekerja tanpa pelindungan 
+                    perjanjian tawar-menawar kolektif patut ada cara untuk membuat rungutan tanpa memberi nama dan patut 
+                    ada perlindungan pemberi maklumat.
                 </p>
                 <p>
-                    Companies should ensure that safe, accessible channels are
-                    available to workers to lodge complaints about any issue
-                    related to your code of conduct. Ideally, multiple channels
-                    should be available, such as through trade unions (if
-                    available), through supervisors or supplier management,
-                    directly to a company, or to a third-party that you engage
-                    for this purpose. Procedures for bringing a grievance to
-                    each available channel should be clearly explained at
-                    training sessions and posted at the worksite, in all
-                    applicable languages. When auditors and/or independent
-                    verification organizations visit worksites, workers should
-                    be encouraged to make known any complaints to them in a
-                    confidential setting.
+                    Syarikat patut memastikan saluran yang selamat dan boleh diakses wujud untuk pekerja yang merungut 
+                    tentang isu berkaitan dengan kod tingkah laku anda. Sebaik-baiknya, pelbagai saluran wujud, seperti 
+                    melalui kesatuan sekerja (kalau ada), melalui penyelia atau pengurusan pembekal, secara langsung kepada 
+                    syarikat, atau pihak ketiga yang anda libatkan untuk tujuan ini. Prosedur untuk membawa rungutan kepada 
+                    setiap saluran yang ada patut dijelaskan di sesi latihan dan dipaparkan di tempat kerja, dalam bahasa 
+                    yang digunakan. Apabila pengaudit dan/atau pertubuhan pengesahan melawat tempat kerja, pekerja harus 
+                    digalakkan untuk membuat rungutan kepada mereka di suatu tempat secara sulit. 
                 </p>
                 <p>
-                    Standard procedures should also be in place for handling and
-                    resolving complaints that are received through all channels.
-                    These procedures should be clearly explained and posted. The
-                    procedures should include protection of privacy and
-                    protection from reprisal for the person or group bringing
-                    the complaint, as well as a communications protocol to
-                    notify both the complainant and other affected stakeholders
-                    of the outcome of the grievance.
+                    Prosedur standard sepatutnya disediakan untuk menangani dan menyelesaikan rungutan yang diterima melalui 
+                    semua saluran. Prosedur ini patut di jelaskan dengan terang dan dipaparkan. Prosedur patut merangkumi 
+                    perlindungan peribadi dan perlindungan dari balas dendam bagi individu atau kumpulan yang membuat aduan, 
+                    serta protokol komunikasi bagi memberitahu kedua-kedua pengadu dan pihak berkepentingan yang terjejas 
+                    akibat aduan tersebut. 
                 </p>
                 <ExampleInAction id="grievmechanism">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Technology based Grievance Mechanism
+                            Contoh dalam Tindakan: Mekanisme rungutan berdasarkan teknologi
                         </strong>
                     </h2>
                 <p>
-                    Technology is playing an increasing role in the ability of
-                    companies, labor unions, civil society organizations, and
-                    third-party monitoring groups to capture worker feedback on
-                    their work situations and address gaps. With more than 7
-                    billion mobile subscriptions globally, many initiatives,
-                    such as{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.laborvoices.com/"
-                        title="Labor Voices"
-                    >
-                        Labor Voices
-                    </a>
-                    , rely on smart phone technology to administer anonymous
-                    surveys that poll workers on their working conditions in
-                    factories and fields. Other initiatives, such as{" "}
+                    Teknologi memainkan peranan yang semakin meningkat dalam kemampuan syarikat perniagaan, kesatuan pekerja, 
+                    pertubuhan masyarakat sivil, dan kumpulan pihak ketiga yang memantau untuk menerima maklum balas pekerja 
+                    mengenai tempat kerja dan mengatasi jurang. Dengan lebih 7 bilion pelanggan mudah alih di seluruh dunia, 
+                    banyak inisiatif bergantung kepada teknologi telefon pintar yang disiasat oleh pengguna tanpa nama yang 
+                    meninjau pekerja mengenai keadaan kerja mereka di kilang dan ladang. Inisiatif lain seperti {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -74,35 +52,93 @@ const ms = () => {
                     >
                         Contratados.org
                     </a>
-                    , utilize web-based technology to create online platforms by
-                    which workers, including migrants, are able to rate and
-                    comment on labor recruiters and contractors in their native
-                    languages. Technologies that capture &ldquo;worker
-                    voice&rdquo; are often cost effective, targeted, and safe
-                    for workers. They can provide a valuable supplement to
-                    traditional social audits, as well as provide effective
-                    mechanisms for educating workers on their rights and
-                    available resources. Many available technologies provide
-                    pathways to report worker grievances but do not provide
-                    avenues for remedying individual violations of worker
-                    rights; this is an area of need and an opportunity for
-                    further technology development.&nbsp;
+                    ,* menggunakan teknologi berasaskan web untuk membina platform melalui talian di mana pekerja, termasuk migran, 
+                    dapat menilai dan memberi komen mengenai perekrut buruh dan kontraktor dalam bahasa ibunda mereka. Teknologi 
+                    yang menangkap &ldquo;suara pekerja&rdquo; sering menjimatkan kos, tepat pada sasarannya, dan selamat untuk pekerja. Ia 
+                    boleh memberi maklumat tambahan yang berharga kepada audit sosial tradisional, dan juga memberi mekanisme 
+                    berkesan untuk mendidik pekerja mengenai hak mereka dan sumber yang sedia ada.  Banyak teknologi memberi jalan 
+                    untuk melaporkan rungutan pekerja tetapi tiada jalan untuk memulihkan pencabulan hak pekerja individu; ini adalah 
+                    bidang keperluan dan peluang untuk pengembangan teknologi lebih lanjut. 
                 </p>
                 </ExampleInAction>
                 <ExampleInAction id="grievprocedure">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Palm Oil Grievance Procedure
+                            Contoh dalam tindakan: Prosedur Rungutan Minyak Sawit 
                         </strong>
                     </h2>
                 <p>
-                    Place holder
+                    Unilever* ialah syarikat multinasional British-Belanda yang menghasilkan pelbagai jenis produk menggunakan minyak 
+                    sawit sebagai ramuan. Unilever bekerjasama rapat dengan pembekalnya untuk mempromosikan standard kerja yang baik di 
+                    sepanjang rantian bekalan minyak sawit, termasuk mengembangkan proses di mana keluhan pekerja boleh disampaikan dan 
+                    ditangani. 
+                </p>
+                <p>
+                    Proses ini termasuk tiga langkah penting: 
+                    <ul>
+                    <li>
+                        Pengakuan rungutan dan membuat kajian semula di peringkat awal untuk menentukan sama ada rungutan itu ada 
+                        kaitan dengan rantai bekalan. 
+                    </li>
+                    <li>
+                        Kajian semula secara lebih mendalam rungutan tersebut, bekerjasama dengan pembekal dan pertubuhan bebas 
+                        untuk membentuk rancangan tindakan dalam masa yang ditentukan dan rancangan pemulihan. 
+                    </li>
+                    <li>
+                        Tindakan yang dilaksanakan oleh pembekal untuk menyelesaikan masalah, dengan hasilnya dipantau. 
+                    </li> 
+                </ul>
+                </p>
+                <p>
+                    Unilever akan sering  melibatkan  pertubuhan bebas di pelbagai peringkat untuk mengumpulkan maklumat lebih lanjut 
+                    dan menggariskan keperluan yang perlu dipatuhi oleh pembekal. Syarikat bekerjasama dengan pembekalnya untuk 
+                    membantu meningkatkan amalan dan menyelesaikan masalah.  Walau  bagaimanapun, ia mengambil tindakan yang sesuai 
+                    dengan{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.unilever.com/Images/unilever-palm-oil-policy-2016_tcm244-479933_en.pdf"
+                        title="Five Principles for Sustainable Palm Oil"
+                    >
+                        Five Principles for Sustainable Palm Oil
+                    </a>{" "} 
+                    terhadap pembekal yang tidak mahu atau tidak dapat mematuhi. 
+                    </p>
+                    <p>
+                        Mulai Januari 2019, Unilever mula mengumumkan secara terbuka mengenai rungutan terhadap pembekalnya, melalui 
+                        penerbitan 
+                    {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.unilever.com/Images/unilever-palm-oil-grievance-tracker_tcm244-530071_en.pdf"
+                        title="grievance tracker"
+                    >
+                        grievance tracker
+                    </a>{""}.
+                    </p>
+                    <img
+                        src={unilever} 
+                        />
+                    <br />
+                    
+                    <p>
+                    Sumber: Unilever: 
+                    {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.unilever.com/Images/palm-oil-grievance-procedure_tcm244-510633_en.pdf"
+                        title="https://www.unilever.com/Images/palm-oil-grievance-procedure_tcm244-510633_en.pdf"
+                    >
+                        https://www.unilever.com/Images/palm-oil-grievance-procedure_tcm244-510633_en.pdf
+                    </a>{""}.
                 </p>
                 </ExampleInAction>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        <OwnWords.Icon alt="Feedback"/> <strong>Dengan Kata-kata Mereka Sendiri: Menubuhkan Mekanisme Rungutan yang Berkesan</strong>
                         {": "}
                     </h2>
                     <p>
@@ -112,25 +148,17 @@ const ms = () => {
                     </p>
                     <p>
                         <em>
-                            &ldquo;Operation-level grievance mechanisms for
-                            those potentially impacted by enterprises&rsquo;
-                            activities can be an effective means &hellip; when
-                            they meet the core criteria of: legitimacy,
-                            accessibility, predictability, equitability&hellip;
-                            and transparency, and are based on dialogue and
-                            engagement with a view to seeking agreed solutions.
-                            Such mechanisms can be administered by an enterprise
-                            alone or in collaboration with other stakeholders
-                            and can be a source of continuous learning.
-                            Operational-level grievance mechanisms should not be
-                            used to undermine the role of trade unions in
-                            addressing labor-related disputes, nor should such
-                            mechanisms preclude access to judicial or
-                            non-judicial grievance mechanisms.&rdquo;
+                            &ldquo;Mekanisme rungutan peringkat operasi bagi mereka yang terjejas oleh aktiviti pengusaha boleh menjadi kaedah 
+                            berkesan&hellip;apabila ia menemui kriteria asas: sah, boleh diakses, boleh diramal, saksama&hellip; dan telus, dan 
+                            berdasarkan dialog dan penglibatan dengan tujuan untuk mencapai penyelesaian  yang dipersetujui. Mekanisme seperti 
+                            itu boleh ditadbirkan oleh pengusaha sahaja atau dengan kerjasama pihak berkepentingan yang lain dan boleh menjadi 
+                            sumber pembelajaran yang berterusan. Mekanisme rungutan peringkat operasi tidak patut digunakan untuk menjejaskan 
+                            peranan kesatuan sekerja dalam menangani pertelingkahan berkaitan buruh, dan juga tidak menghalang akses kepada 
+                            mahkamah atau mekanisme rungutan di luar mahkamah.&rdquo;
                         </em>
                     </p>
                     <p>
-                        Source: OECD,{" "}
+                        Sumber: OECD,{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -143,12 +171,10 @@ const ms = () => {
                     </p>
                 </OwnWords>
                 <p>
-                    In 2009-2010, the Corporate Social Responsibility Initiative
-                    (CSRI) at the Harvard Kennedy School examined pilot projects
-                    commissioned by the UN Special Representative on Business
-                    and Human Rights. These pilots were focused on testing
-                    grievance mechanisms involving business enterprises and
-                    communities in which they operate. The{" "}
+                    Pada tahun 2009-2010, Inisiatif Tanggungjawab Korporat (CSRI) di Harvard Kennedy School memeriksa projek 
+                    perintis yang ditugaskan oleh Wakil Istimewa PBB mengenai Perniagaan dan Hak Asasi Manusia. Projek perintis 
+                    ini memberi fokus kepada ujian mekanisme rungutan yang melibatkan usahawan dan komuniti di tempat mereka 
+                    beroperasi.{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -157,65 +183,65 @@ const ms = () => {
                     >
                         CSRI project
                     </a>{" "}
-                    resulted in a revised set of principles for effective
-                    grievance mechanisms:
+                    menghasilkan sekumpulan prinsip yang disemak semula untuk mekanisme rungutan yang berkesan yang digabungkan dengan 
+                    Prinsip 31 Prinsip Panduan PBB: Kriteria Keberkesanan bagi rungutan di Luar Mahkamah: 
                 </p>
-                <ol>
+                <ol type="a">
                     <li>
-                        <strong>Legitimacy: </strong>Enabling trust from the
-                        stakeholder groups for whose use they are intended, and
-                        being accountable for the fair conduct of grievance
-                        processes;
+                        <strong>Sah: </strong>menjalin kepercayaan kumpulan berkepentingan bagi kegunaan mereka yang berkenaan, dan 
+                        dipertanggungjawabkan untuk berlaku adil dalam proses rungutan; 
                     </li>
                     <li>
-                        <strong>Accessibility: </strong>Being known to all
-                        stakeholder groups for whose use they are intended, and
-                        providing adequate assistance for those who may face
-                        particular barriers to access;
+                        <strong>Boleh Diakses: </strong>dikenali oleh semua kumpulan yang berkepentingan bagi kegunaan mereka yang berkenaan, 
+                        dan menyediakan bantuan secukupnya kepada mereka dihalang untuk mendapat akses; 
                     </li>
                     <li>
-                        <strong>Predictability: </strong>Providing a clear and
-                        known procedure with an indicative time frame for each
-                        state, and clarity on the types of process and outcome
-                        available and means of monitoring implementation;
+                        <strong>Boleh Diramal: </strong>memberi prosedur yang jelas dan diketahui dengan menetapkan jadual bagi setiap keadaan, dan 
+                        penjelasan tentang jenis proses dan hasil yang wujud dan cara untuk melaksanakan pemantauan; 
                     </li>
                     <li>
-                        <strong>Equitability: </strong>Seeking to ensure that
-                        aggrieved parties have reasonable access to sources of
-                        information, advice and expertise necessary to engage in
-                        a grievance process on fair, informed and respectful
-                        terms;
+                        <strong>Saksama: </strong>mencari jalan untuk memastikan pihak yang terjejas mempunyai akses yang berpatutan untuk mendapat 
+                        sumber maklumat, nasihat dan kepakaran untuk terlibat dalam proses rungutan dalam keadaan yang adil, maklum dan saling 
+                        menghormati; 
                     </li>
                     <li>
-                        <strong>Transparency: </strong>Keeping parties to a
-                        grievance informed about its progress, and providing
-                        sufficient information about the mechanism&rsquo;s
-                        performance to build confidence in its effectiveness and
-                        meet any public interest at stake;
+                        <strong>Telus: </strong>memaklumkan pihak yang terjejas tentang kemajuannya, dan menyediakan cukup maklumat tentang prestasi 
+                        mekanisme bagi membina keyakinan dalam keberkesanannya dan memastikan kemudahan awam yang terkesan dilindungi; 
                     </li>
                     <li>
-                        <strong>Rights-compatibility: </strong>Ensuring that
-                        outcomes and remedies accord with internationally
-                        recognized human rights;
+                        <strong>Serasi dengan Hak: </strong>memastikan bahawa hasil dan pemulihan serasi dengan hak asasi manusia yang diiktiraf 
+                        di peringkat antarabangsa; 
                     </li>
                     <li>
-                        <strong>Dialogue and engagement: </strong>Consulting the
-                        stakeholder groups for whose use they are intended on
-                        their design and performance, and focusing on dialogue
-                        as the means to address and resolve grievances;
+                        <strong>Sumber pembelajaran berterusan: </strong>berdasarkan langkah relevan untuk mengenal pasti pelajaran untuk membaiki 
+                        mekanisme dan mengelak dari rungutan dan kemudaratan pada masa depan; 
                     </li>
+                    <p>Mekanisme rungutan peringkat operasi juga patut:</p>
                     <li>
-                        <strong>Continuous learning: </strong>Drawing on
-                        relevant measures to identify lessons for improving the
-                        mechanism and preventing future grievances and harms.
+                        <strong>Berdasarkan penglibatan dan dialog: </strong>berunding dengan kumpulan berkepentingan dalam hal rekaan dan prestasi, 
+                        dan memberi fokus kepada dialog sebagai cara untuk menangani dan menyelesaikan rungutan.
                     </li>
                 </ol>
                 <p>
-                    Source:{" "}
+                    Sumber: Pejabat Suruhanjaya Hak Asasi Manusia. (2011). Prinsip Panduan untuk Perniagaan dan Hak Asasi Manusia: Melaksanakan 
+                    Kerangka PBB &ldquo;Lindung, Hormat dan Pulihkan&rdquo; Dipetik dari: 
+                    Retrieved from: {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/report_46_GM_pilots.pdf"
+                        href="https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+                        title="UN Protect, Respect and Remedy Framework"
+                    >
+                        
+                        https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf
+                        
+                    </a>.
+                    <br />
+                    {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.respect.international/piloting-principles-for-effective-company-stakeholder-grievance-mechanisms-a-report-of-lessons-learned/"
                         title="Piloting Principles for Effective Company-Stakeholder Grievance Mechanisms: A Report of Lessons Learned"
                     >
                         <em>
@@ -224,11 +250,10 @@ const ms = () => {
                             of Lessons Learned
                         </em>
                     </a>
-                    <em>. </em>&nbsp;Harvard Kennedy School Corporate Social
-                    Responsibility Initiative, May 23, 2011.&nbsp;
+                    <em>. </em>&nbsp;Inisiatif Tanggungjawab Korporat Harvard Kennedy School, Mei 23, 2011.&nbsp;
                 </p>
                 <p>
-                    The International Finance Corporation&rsquo;s{" "}
+                    Badan Kewangan Antarabangsa (IFC) {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -240,11 +265,10 @@ const ms = () => {
                             Project-Affected Communities
                         </em>
                     </a>{" "}
-                    also lays out the Basic Design Elements of a Project-Level
-                    Grievance Mechanism (See page 3 of the PDF).
+                    juga membentangkan Elemen Rekaan Asas Mekanisme Rungutan Peringkat Projek (Sila lihat muka surat 3 PDF).
                 </p>
                 <p>
-                    For additional research, the{" "}
+                    Untuk kajian lanjut,{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -253,26 +277,17 @@ const ms = () => {
                     >
                         SHIFT Project
                     </a>{" "}
-                    is a good source of information and guidance on
-                    operation-level grievance mechanisms.
+                    ialah sumber maklumat yang baik dan panduan untuk mekanisme rungutan peringkat operasi. 
                 </p>
                 <p>
                     <em>
-                        *Note: References to specific companies and
-                        non-governmental entities within this guide are for
-                        informational purposes only to demonstrate best
-                        practices that have been recognized internationally, as
-                        of the app&rsquo;s release date. Referencing the
-                        entities should not be interpreted as an official
-                        endorsement of those entities, their products, or
-                        services by the U.S. Department of Labor{" "}
+                        *Catatan: Rujukan kepada syarikat tertentu dan entiti bukan kerajaan dalam panduan ini hanya untuk tujuan 
+                        memberi maklumat bagi menunjukkan amalan terbaik yang telah diperakui di peringkat antarabangsa , sejak 
+                        aplikasi dikeluarkan. Merujuk kepada entiti tidak patut ditafsirkan sebagai sokongan rasmi kepada entiti 
+                        tersebut, produk atau perkhidmatan mereka oleh Jabatan Buruh AS dan penyertaan mereka tidak boleh ditafsirkan 
+                        sebagai tinjauan komprehensif mengenai amalan entiti ini di dalam semua bidang.
                     </em>
-                    <em>
-                        and their inclusion should not be interpreted as a
-                        comprehensive review of these entities&rsquo; practices
-                        in all areas
-                    </em>
-                    <em>.</em>
+                    
                 </p>
             </div>
         </StaticData>
