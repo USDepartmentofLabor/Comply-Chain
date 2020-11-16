@@ -333,7 +333,7 @@ const ms = () => {
                     <Accordion.Panel>
                     <p>
                         Mendapat akses kepada perekrut atau broker untuk temu duga boleh menjadi cabaran, dan mungkin memerlukan koordinasi dan 
-                        kerjasama pembekal. Verit&eacute;&rsquo;s{" "}
+                        kerjasama pembekal. Verit&eacute;&rsquo;s*{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

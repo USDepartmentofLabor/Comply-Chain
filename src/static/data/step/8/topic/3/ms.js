@@ -504,7 +504,8 @@ const ms = () => {
                                     semula dengan segera apabila diminta. Pastikan pembekal mengembalikan semua dokumen pengenalan 
                                     pekerja. Sekiranya pekerja lebih suka kalau majikan menyimpankannya dengan selamat, pastikan ada 
                                     dasar yang ditetapkan untuk mendapatkan semula dokumen dan semua pekerja tahu tentang dasar 
-                                    tersebut. Buat pemeriksaan susulan mengenai isu tersebut dalam audit yang tidak diumumkan.">See above.</abbr> 
+                                    tersebut. Buat pemeriksaan susulan mengenai isu tersebut dalam audit yang tidak diumumkan.">
+                                    Lihat di atas.</abbr> 
                                 </p>
                             </td>
                         </tr>
@@ -545,7 +546,7 @@ const ms = () => {
                                     menerima gaji penuh. Buat langkah susulan dengan audit yang tidak diumumkan termasuk menemu duga pekerja di 
                                     luar dan juga anggota komuniti yang berpengetahuan.
                                     ">
-                                        See above.
+                                        Lihat di atas.
                                     </abbr>
                                 </p>
                             </td>
@@ -568,7 +569,7 @@ const ms = () => {
                                     menerima gaji penuh. Buat langkah susulan dengan audit yang tidak diumumkan termasuk menemu duga pekerja di 
                                     luar dan juga anggota komuniti yang berpengetahuan.
                                     ">
-                                        See above.
+                                        Lihat di atas.
                                     </abbr>
                                 </p>
                             </td>
@@ -590,7 +591,7 @@ const ms = () => {
                                     menerima gaji penuh. Buat langkah susulan dengan audit yang tidak diumumkan termasuk menemu duga pekerja di 
                                     luar dan juga anggota komuniti yang berpengetahuan.
                                     ">
-                                        See above.
+                                        Lihat di atas.
                                     </abbr>
                                 </p>
                             </td>
@@ -612,7 +613,7 @@ const ms = () => {
                                     menerima gaji penuh. Buat langkah susulan dengan audit yang tidak diumumkan termasuk menemu duga pekerja di 
                                     luar dan juga anggota komuniti yang berpengetahuan.
                                     ">
-                                        See above.
+                                        Lihat di atas.
                                     </abbr>
                                 </p>
                             </td>
@@ -635,7 +636,7 @@ const ms = () => {
                                     menerima gaji penuh. Buat langkah susulan dengan audit yang tidak diumumkan termasuk menemu duga pekerja di 
                                     luar dan juga anggota komuniti yang berpengetahuan.
                                     ">
-                                        See above.
+                                        Lihat di atas.
                                     </abbr>
                                 </p>
                             </td>

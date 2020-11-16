@@ -225,7 +225,7 @@ const ms = () => {
                 <p>
                     Sumber: Pejabat Suruhanjaya Hak Asasi Manusia. (2011). Prinsip Panduan untuk Perniagaan dan Hak Asasi Manusia: Melaksanakan 
                     Kerangka PBB &ldquo;Lindung, Hormat dan Pulihkan&rdquo; Dipetik dari: 
-                    Retrieved from: {" "}
+                    {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
