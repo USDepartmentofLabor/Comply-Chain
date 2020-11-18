@@ -43,7 +43,12 @@ const en = () => {
                     training to offer literacy and numeracy education at the
                     worksite or scholarships for such education. These efforts
                     are often tied to the company&rsquo;s overall philanthropy
-                    portfolio, discussed further in Assessing and Addressing Root Causes.
+                    portfolio, discussed further in{" "}
+                    <em>
+                        <Link to="/steps/4/topic/9">
+                        Assessing and Addressing Root Causes
+                        </Link>
+                    </em>.
 
                 </p>
                 <p>

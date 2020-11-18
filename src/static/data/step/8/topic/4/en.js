@@ -52,7 +52,7 @@ const en = () => {
                     workplace, the CAP may require one or more of the
                     remediation measures in Tables 1-4 under{" "}
                     <em>
-                        <u>Preventing Recurrence</u>
+                        Preventing Recurrence
                     </em>
                     . It should clearly specify who is responsible for
                     overseeing and following up on each measure. It may require
@@ -135,7 +135,15 @@ const en = () => {
                     from approximately 185 factories that employ more than 165,000 workers. 
                     As part of the vendor contracting process, Best Buy includes provisions that 
                     prohibit forced labor as standard. This onboarding process includes training on 
-                    Best Buy&rsquo;s Supplier Code of Conduct, which is then performed annually as part 
+                    Best Buy&rsquo;s{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://partners.bestbuy.com/documents/20126/46231/Supplier+Code+of+Conduct.pdf/9d7062b9-2233-e7a9-c51a-2f1a34747927?t=1572468937695"
+                        title="Supplier Code of Conduct"
+                    >
+                        Supplier Code of Conduct
+                    </a>, which is then performed annually as part 
                     of an overall training program and when forced labor is identified during a 
                     review process of a particular factory. Best Buy audits approximately 75 percent 
                     of its contracted factories in the course of one year.
