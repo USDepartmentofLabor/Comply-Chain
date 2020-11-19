@@ -43,7 +43,7 @@ const ms = () => {
                             </p>
                             <p>
                                 <strong>Buruh Kanak-Kanak</strong> ialah pekerjaan di bawah umur minimum seperti yang ditetapkan dalam undang-undang negara
-                                (kecuali kerja-kerja ringan yang dibenarkan). Buruh kanak-kanak juga termasuk bentuk <em>buruh kanak-kanak terburuk (WFCL).</em>.
+                                (kecuali kerja-kerja ringan yang dibenarkan). Buruh kanak-kanak juga termasuk bentuk <em>buruh kanak-kanak terburuk (WFCL).</em>
                             </p>
                             <p>
                                 Konvensyen ILO 138 memerlukan negara-negara untuk menetapkan umur minimum untuk bekerja iaitu tidak kurang daripada umur wajib
@@ -297,7 +297,7 @@ const ms = () => {
                         <Accordion.Panel>
                             <h3>Definisi</h3>
                             <p>
-                                Definisi yang diiktiraf di peringkat antarabangsa mengenai buruh paksa atau buruh wajib terdapat di ILO Konvensyen 29. Menurut Konvensyen ini, buruh paksa atau buruh wajib
+                                Definisi yang diiktiraf di peringkat antarabangsa mengenai <b>buruh paksa atau buruh wajib</b> terdapat di ILO Konvensyen 29. Menurut Konvensyen ini, buruh paksa atau buruh wajib
                                 “semuanya kerja atau perkhidmatan yang dikenakan ke atas mana-mana orang yang diancam dengan hukuman atau orang tersebut tidak menawarkan dirinya untuk bekerja secara sukarela.
                                 ” Terdapat empat elemen penting dalam definisi ini, dan petunjuk yang berkaitan dengan setiap elemen, seperti yang dinyatakan di bawah. Gabungan petunjuk untuk setiap keadaan mesti
                                 dianalisa agar dapat ditentukan sama ada keadaan tersebut adalah kerja paksa atau tidak.

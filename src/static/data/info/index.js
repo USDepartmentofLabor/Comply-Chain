@@ -115,7 +115,7 @@ export const Info = {
                 content: About.ms
             },
             whatAre: {
-                title: "What are Child Labor and Forced Labor?",
+                title: "Apakah Buruh Kanak-Kanak dan Buruh Paksa",
                 keywords: ["Child Labor", "Forced Labor"],
                 content: WhatAre.ms
             },
