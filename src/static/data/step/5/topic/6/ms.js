@@ -48,7 +48,7 @@ const ms = () => {
                         href="http://www.bonsucro.com/en/production-standard/"
                         title="Bonsucro Production Standard"
                     >
-                        Bonsucro Production Standard
+                        Bonsucro* Production Standard
                     </a>{" "}
                     untuk syarikat dalam rantai bekalan tebu, dan{" "}
                     <a
@@ -57,7 +57,7 @@ const ms = () => {
                         href="http://www.ethicaltrade.org/eti-base-code"
                         title="Ethical Trading Initiative&rsquo;s Base Code for companies in a variety of industries"
                     >
-                        Ethical Trading Initiative&rsquo;s Base Code for
+                        Ethical Trading Initiative&rsquo;s* Base Code for
                         companies in a variety of industries.
                     </a>
                 </p>

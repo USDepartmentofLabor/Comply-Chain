@@ -197,8 +197,7 @@ const ms = () => {
                         href="http://www.responsiblesourcingtool.org/laborrecruitments"
                         title="Criteria for Screening and Evaluating Labor Recruitment Candidates"
                     >
-                       Evaluating Labor Recruitment
-                        Candidates
+                       Evaluating Labor Recruitments
                     </a>
                     , yang membantu syarikat menjalankan usaha dengan ketekunan wajar dalam menyaring dan memilih perekrut buruh bagi mengurangkan risiko pemerdagangan manusia akibat amalan penyelewengan dan penipuan dalam merekrut buruh.
                 </p>

@@ -109,7 +109,7 @@ const ms = () => {
                             title="Leadership Group for Responsible Recruitment"
                         >
                             Leadership Group for Responsible Recruitment
-                        </a>{" "}
+                        </a>*{" "}
                         merupakan kerjasama di antara beberapa syarikat multinasional yang besar dan pertubuhan pakar-pakar untuk memecut perubahan positif
                         dalam cara pekerja migran direkrut.  Ahli Kumpulan Kepimpinan komited dalam Prinsip Majikan Membayar:  <em>“Tiada pekerja patut membayar untuk pekerjaan -
                         kos untuk pengambilan sepatutnya ditanggung tidak oleh pekerja tetapi oleh majikan.”</em>
@@ -123,8 +123,8 @@ const ms = () => {
                             title="Institute for Human Rights and Business"
                         >
                             Institute for Human Rights and Business
-                        </a>{" "}
-                        * (IHRB), Kumpulan Kepimpinan menggesa Prinsip Majikan Membayar diserapkan dalam dasar dan amalan korporat dan kerajaan bagi melindungi pekerja
+                        </a>*{" "}
+                         (IHRB), Kumpulan Kepimpinan menggesa Prinsip Majikan Membayar diserapkan dalam dasar dan amalan korporat dan kerajaan bagi melindungi pekerja
                         migran dan melawan risiko buruh paksa dalam operasi mereka, perhubungan perniagaan, dan rantai bekalan global.   Bersama-sama, Kumpulan Kepimpinan
                         menyediakan platform untuk menyokong dan bekerjasama sebagai hab ilmu untuk berkongsi amalan, alat, dan panduan bagi pengambilan pekerja secara bertanggungjawab.
                     </p>
@@ -138,7 +138,15 @@ const ms = () => {
                         >
                             Responsible Recruitment Gateway
                         </a>
-                        {" "}at https://www.ihrb.org/employerpays/.
+                        {" "}at{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ihrb.org/employerpays/"
+                            title="Responsible Recruitment Gateway"
+                        >
+                        https://www.ihrb.org/employerpays/
+                        </a>.
                     </p>
                 </ExampleInAction>
                 <p>
