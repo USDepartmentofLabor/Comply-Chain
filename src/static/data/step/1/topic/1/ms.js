@@ -90,7 +90,7 @@ const en = () => {
                         memperoleh barangan yang dibuat oleh buruh paksa atau buruh kontrak kanak-kanak.
                         Di bawah peraturan pemerolehan, kontraktor kerajaan yang membekalkan produk di dalam senarai
                         mesti mengeluarkan sijil bahawa mereka telah berusaha sedaya upaya untuk mengesahkan yang
-                        buruh paksa atau buruh kontrak kanak-kanak telah digunakan untuk mengeluarkan barang yang dibekalkan..
+                        buruh paksa atau buruh kontrak kanak-kanak telah digunakan untuk mengeluarkan barang yang dibekalkan.
                                 </p>
 
                             </Accordion.Panel>
@@ -204,7 +204,6 @@ const en = () => {
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    The{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -265,7 +264,7 @@ const en = () => {
                                     >
                                         Anti-Slavery International
                                     </a>
-                                    , the{" "}
+                                    , {" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -373,10 +372,7 @@ const en = () => {
                                     konflik oleh kumpulan bersenjata bantu membiayai konflik di Republik Demokratik Congo (DRC) dan menyumbang kepada krisis darurat kemanusiaan.
                                     Undang-undang mewajibkan syarikat melapor yang menghantar fail kepada SEC untuk menyatakan setiap tahun sama ada produk yang mereka hasilkan
                                     mengandungi timah, tantalum, tungsten atau emas (kesemuanya dianggap “mineral konflik” di bawah peruntukan) dari DRC atau negara jiran, dan,
-                                    kalau ya, sama ada mineral konflik membiayai atau memberi manfaat kepada kumpulan bersenjata di kawasan DRC.
-                                    </p>
-                                    <p>
-                                    SEC mengisytiharkan peraturan yang
+                                    kalau ya, sama ada mineral konflik membiayai atau memberi manfaat kepada kumpulan bersenjata di kawasan DRC. SEC mengisytiharkan peraturan yang
                                     menghendaki syarikat untuk menentukan sama ada mereka menggunakan mineral tersebut dan adakah mineral tersebut diperlukan untuk produk berfungsi
                                     atau pengeluaran produk yang mereka hasilkan atau diberi kontrak untuk mengeluarkan produk tersebut. Sekiranya demikian, peraturan tersebut menghendaki
                                     syarikat menjalankan siasatan dengan niat baik terhadap negara asal mineral tersebut dan membuat pendedahan tertentu kepada SEC. Di bawah peraturan
@@ -385,12 +381,6 @@ const en = () => {
                                 <p>
                                    Bagaimanapun, syarat untuk mendedahkan jika produk bebas konflik DRC dianggap oleh sebuah mahkamah sebagai melanggar Pindaan Pertama AS.
                                    Oleh sebab itu, Bahagian Kewangan Korporat di bawah Suruhanjaya Sekuriti dan Pertukaran (SEC) menggantung penguatkuasaan pendedahan ini sambil menunggu keputusan selanjutnya oleh SEC dalam hal ini.
-                                    </p>
-                                    <p>
-                                    However, the requirement to disclose if products are DRC conflict free was held
-                                    by a court to be a violation of the First Amendment.  As a result, the SEC‘s
-                                    Division of Corporation Finance suspended enforcement of this disclosure pending
-                                    further decision by the SEC on this issue.
                                     </p>
                                     <p>
                                     Kini, syarikat perniagaan terus memfail borang-borang yang diperlukan kepada SEC dan melakukan siasatan mengenai asal-usul.
@@ -559,7 +549,7 @@ const en = () => {
                         <Accordion.Section id="ductch-labor">
                             <Accordion.Title>
                                 <strong>
-                                Undang-undang Ketekunan Wajar Belanda (Netherlands
+                                Undang-undang Ketekunan Wajar Belanda (Netherlands)
 
                                 </strong>
                             </Accordion.Title>

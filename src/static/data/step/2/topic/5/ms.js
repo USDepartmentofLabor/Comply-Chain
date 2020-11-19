@@ -63,7 +63,7 @@ const en = () => {
                                 pengeluaran dan bekerjasama dengan pengurusan kilang untuk mengenal pasti strategi pemulihan yang sesuai.
                                 Komposisi pasukan lapangan, kemahiran yang diperlukan, dan isu berkaitan dibincangkan dalam{" "}
                                 <Link to="/steps/7">
-                                    Step 5, Monitor Compliance
+                                    Langkah 5: Pantau Pematuhan
                                 </Link>
                                 .
                             </p>

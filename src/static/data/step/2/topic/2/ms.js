@@ -161,7 +161,7 @@ const en = () => {
                                 </p>
                                 <p>
                                     <Link to="/steps/3">
-                                        Step 1, Engage Stakeholders and Partners
+                                        Langkah 1: Libatkan Pihak Berkepentingan dan Rakan Kongsi
                                     </Link>{" "}
                                     menawarkan banyak contoh kerjasama dan inisiatif yang anda boleh sertai.
 

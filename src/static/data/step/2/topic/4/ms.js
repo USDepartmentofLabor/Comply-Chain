@@ -124,7 +124,15 @@ const en = () => {
                                                 Responsible Business Alliance
                                                 Code of Conduct v. 6.0 (2018)
                                             </em></a>
-                                            ; available from http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_English.pdf.
+                                            ; available from
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href=" http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_English.pdf"
+                                                title="RBA Code of Conduct v. 6.0 (2018)"
+                                            >
+                                            http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_English.pdf
+                                            </a>.
                                     </p>
 
                                 </ExampleInAction>

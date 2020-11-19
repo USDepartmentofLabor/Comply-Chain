@@ -37,7 +37,7 @@ const en = () => {
                                     kawasan rantai bekalan di mana syarikat mempunyai pengaruh terbaik untuk melakukan
                                     perubahan yang bermakna.{" "}
                                     <Link to="/steps/4">
-                                        Step 2, Assess Risks and Impacts
+                                        Langkah 2: Penilaian Risiko dan Impak
                                     </Link>
                                     , juga akan membantu anda mengenal pasti titik risiko dan
                                     mendapat manfaat yang paling besar.
@@ -90,7 +90,16 @@ const en = () => {
                                             United Nations Guiding Principles on
                                             Human Rights and Business
                                         </a>
-                                        <em>, </em>2011; boleh didapati dari http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf.
+                                        <em>, </em>2011; boleh didapati dari{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+                                            title="United Nations Guiding Principles on Human Rights and Business"
+                                        >
+                                        http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf
+                                        </a>.
+
                                     </p>
                                     <p>
                                         <em>
@@ -139,7 +148,15 @@ const en = () => {
                                         >
                                             IFC Performance Standard 2
                                         </a>
-                                        <em>,</em> 2012; boleh didapati dari  http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2.
+                                        <em>,</em> 2012; boleh didapati dari{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2"
+                                            title="IFC Performance Standard 2"
+                                        >
+                                        http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2
+                                        </a>.
                                     </p>
                                 </OwnWords>
             </div>

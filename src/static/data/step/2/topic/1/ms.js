@@ -76,7 +76,7 @@ const ms = () => {
                                     perundingan kolektif, diskriminasi dalam pekerjaan, buruh kanak-kanak dan
                                     buruh paksa ― dan juga standard buruh seperti keselamatan dan kesihatan di
                                     tempat kerja, gaji dan waktu bekerja (lihat{" "}
-                                    <Link to="/steps/5">Step 3,  Develop a Code of Conduct</Link>
+                                    <Link to="/steps/5">Langkah 3: Bina Kod Tingkah Laku</Link>
                                     &nbsp;untuk maklumat lanjut mengenai standard ILO ini).
                                 </p>
                                 <p>
