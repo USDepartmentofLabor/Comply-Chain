@@ -152,7 +152,7 @@ export const General = {
             step: "Langkah",
             learningObjectives: "Objektif Pembelajaran",
             keyTerms: "Terma Utama",
-            topics: "Topiks",
+            topics: "Topik",
             stepsToBasic: "Langkah Menuju Sistem Pematuhan Sosial",
             prevTopic: "Topik Sebelumnya",
             prevStep: "Langkah Sebelumnya",
