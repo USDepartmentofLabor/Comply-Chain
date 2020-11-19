@@ -122,7 +122,15 @@ const en = () => {
                                             OECD Guidelines for Multinational
                                             Enterprises
                                         </a>
-                                        <em>, </em>boleh didapati dari http://www.oecd.org/corporate/mne/.
+                                        <em>, </em>boleh didapati dari{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.oecd.org/corporate/mne/"
+                                            title="OECD Guidelines for Multinational Enterprises 2011"
+                                        >
+                                        http://www.oecd.org/corporate/mne/
+                                        </a>.
                                     </p>
                                     <p>
                                         <em>
