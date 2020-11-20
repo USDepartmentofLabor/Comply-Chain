@@ -208,63 +208,63 @@ export const Topics = {
     ms: [
                     {
                         keywords: [],
-                        title: "Why Conduct Risk and Impact Assessments?",
+                        title: "Mengapa melakukan Penilaian Risiko dan Impak?",
                         content: Topic1.ms
                     },
                     {
                         keywords: [],
-                        title: "Assessing Internal Impacts and Risk Factors",
+                        title: "Mengapa melakukan Penilaian Risiko dan Impak?",
                         content: Topic2.ms
                     },
                     {
                         keywords: [],
-                        title: "Assessing External Impacts and Risk Factors",
+                        title: "Menilai Impak Luaran dan Faktor Risiko",
                         content: Topic3.ms
                     },
                     {
                         keywords: [],
-                        title: "Supply Chain Mapping",
+                        title: "Pemetaan Rantai Bekalan",
                         content: Topic4.ms
                     },
                     {
                         keywords: [],
-                        title: "Risk and Impact Information Gathering",
+                        title: "Risiko dan Kesan Pengumpulan Maklumat",
                         content: Topic5.ms
                     },
                     {
                          keywords: [],
-                         title: "Key Information Related to Risk and Impact",
+                         title: "Maklumat Utama Berkaitan dengan Risiko dan Impak",
                          content: Topic9.ms
                      },
                      {
                          keywords: [],
-                         title: "Migrant Workers",
+                         title: "Pekerja Migran",
                          content: Topic10.ms
                      },
                      {
                          keywords: [],
-                         title: "Assessing Root Causes",
+                         title: "Menilai Penyebab Akar",
                          content: Topic11.ms
                      },
                      {
                          keywords: [],
-                         title: "Addressing Root Causes",
+                         title: "Memantau Penyebab Akar",
                          content: Topic12.ms
                      },
                      {
                          keywords: [],
-                         title: "Philanthropy",
-                         content: Topic13.en
+                         title: "Kedermawanan",
+                         content: Topic13.ms
                      },
                     {
                         keywords: [],
-                        title: "Using Risk and Impact Assessment Information",
-                        content: Topic7.en
+                        title: "Menggunakan maklumat Penilaian Risiko dan Impak",
+                        content: Topic7.ms
                     },
                     {
                         keywords: [],
-                        title: "Social Compliance Data Management",
-                        content: Topic8.en
+                        title: "Pengurusan Data Pematuhan Sosial",
+                        content: Topic8.ms
                     }
                 ]
 

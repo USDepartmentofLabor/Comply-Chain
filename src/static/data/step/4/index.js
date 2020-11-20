@@ -156,6 +156,7 @@ export const StepData = {
                      termDefinition:
                          "Bahagian proses pada bahagian pembekalan, bermaksud aliran barangan atau produk dari syarikat kepada pembekal dan juga pihak yang mendapatkan bahan mentah di ladang atau di hutan, ke arah bahan mentah. Ini termasuk jaringan bekalan syarikat."
                  }
-            ]
+            ],
+                     furtherResources: Resources.ms
           }
 };

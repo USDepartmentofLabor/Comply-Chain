@@ -7,8 +7,7 @@ const ms = () => {
             <div>
                 <ol>
                     <li>
-                        Better Buying. <em>Purchasing Practices, </em>[online,
-                        accessed May 16, 2017]; available from{" "}
+                        Membeli dengan Lebih Baik Amalan Pembelian, [talian, diakses pada Mei 16, 2017]; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -21,10 +20,9 @@ const ms = () => {
                     <li>
                         BSR.{" "}
                         <em>
-                            Conducting an Effective Human Rights Impact
-                            Assessment: Guidelines, Steps, and Example, 2013;{" "}
+                            Melakukan Penilaian Impak Hak Asasi Manusia yang Berkesan Panduan, Langkah dan Contoh, 2013{" "}
                         </em>
-                        available from{" "}
+                        boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -36,8 +34,7 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        Good Jobs First. <em>Violation Tracker, </em>[online,
-                        accessed May 16, 2017]; available from{" "}
+                        Pekerjaan yang Baik Dahulu. <em>Pengesan Pencabulan</em>, [talian, diakses pada Mei 16, 2017]; boleh didapati dari {" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -48,8 +45,7 @@ const ms = () => {
                         </a>
                     </li>
                     <li>
-                        Human Rights Watch, [online, accessed June 7, 2017];
-                        available from{" "}
+                        IFC. Buku Panduan Perlaksanaan Alam Sekitar dan Pengurusan Sistem Sosial , 2015; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -62,10 +58,9 @@ const ms = () => {
                     <li>
                         IFC.{" "}
                         <em>
-                            Environmental and Social Management System
-                            Implementation Handbook, 2015.{" "}
+                            Kompak Global, dan Forum Pemimpin Perniagaan Antarabangsa , Panduan untuk Menilai Kesan Hak Asasi Manusia dan Pengurusan (HRIAM). 2010;{" "}
                         </em>
-                        available from{" "}
+                        boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -76,13 +71,7 @@ const ms = () => {
                         </a>
                     </li>
                     <li>
-                        IFC.{" "}
-                        <em>
-                            Global Compact, and International Business Leaders
-                            Forum, Guide to Human Rights Impact Assessment and
-                            Management (HRIAM)
-                        </em>
-                        . 2010; available from{" "}
+                        IFC. <em>Kompak Global, dan Forum Pemimpin Perniagaan Antarabangsa , Panduan untuk Menilai Kesan Hak Asasi Manusia dan Pengurusan (HRIAM)</em>. 2010; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -95,10 +84,7 @@ const ms = () => {
                     <li>
                         IFC.{" "}
                         <em>
-                            Measure and Improve Your Labor Standards Performance
-                            - Performance Standard 2 Handbook,{" "}
-                        </em>
-                        2010; available from
+                            Ukur dan Perbaiki Prestasi Standard Buruh Anda - Buku Panduan Standard Prestasi 2, 2010;</em> boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -111,10 +97,9 @@ const ms = () => {
                     <li>
                         Interfaith Center on Corporate Responsibility.{" "}
                         <em>
-                            Best Practice Guidance on Ethical Recruitment of
-                            Migrant Workers.{" "}
+                            Pusat Pelbagai Agama Mengenai Tanggungjawab Korporat Panduan Amalan Terbaik mengenai Pengambilan Pekerja Migran yang Beretika
                         </em>
-                        New York, April 2017.; available from{" "}
+                        New York, April 2017; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -125,12 +110,7 @@ const ms = () => {
                         </a>
                     </li>
                     <li>
-                        International Labor Organization.{" "}
-                        <em>
-                            General principles &amp; operational guidelines for
-                            fair recruitment, 2016;
-                        </em>{" "}
-                        available from{" "}
+                        Pertubuhan Buruh Antarabangsa (ILO). <em>Prinsip Am & panduan operasi bagi pengambilan pekerja secara adil</em>, 2016; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -142,9 +122,7 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        International Labor Organization. NORMLEX Information
-                        System on International Labor Standards, [online,
-                        accessed June 7, 2017]; available from{" "}
+                        ertubuhan Buruh Antarabangsa (ILO). Sistem Maklumat NORMLEX mengenai Standard Buruh Antarabangsa, [talian, diakses pada Jun 7, 2017]; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -153,15 +131,11 @@ const ms = () => {
                         >
                             http://www.ilo.org/dyn/normlex/en/f?p=1000:1:0::NO
                         </a>
-                        :::. NORMLEX, the ILO's database of International Labor
-                        Standards and national labor and social security laws,
-                        has a table of Ratifications of the Fundamental human
-                        rights Conventions by country, including UN Conventions
-                        pertaining to child labor and forced labor.
+                        :::. NORMLEX, pangkalan data ILO dan buruh nasional dan undang-undang keselamatan sosial, mempunyai rajah Pengesahan Konvensyen hak asasi manusia yang asas
+                        mengikut negara, termasuk Konvensyen PBB berkenaan dengan buruh kanak-kanak dan buruh paksa.
                     </li>
                     <li>
-                        ILO-IPEC. <em>Child Labor Statistics</em>, [online,
-                        accessed June 7, 2017]; available from{" "}
+                        ILO-IPEC. <em>Statistik Buruh Kanak-Kanak,</em> [talian, diakses pada Jun 7, 2017]; boleh didapati dari {" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -170,20 +144,11 @@ const ms = () => {
                         >
                             http://www.ilo.org/ipec/ChildlabourstatisticsSIMPOC/lang--en/index.htm
                         </a>
-                        . Statistical Information and Monitoring Programme on
-                        Child Labour (SIMPOC) is the statistical arm of
-                        ILO-IPEC, and provides data on the extent,
-                        characteristics and determinants of child labour. SIMPOC
-                        also assists countries in the collection, documentation,
-                        processing and analysis of child labour relevant data.
+                        . Maklumat Statistik dan Program Pemantauan mengenai Buruh Kanak-Kanak (SIMPOC) merupakan cabang statistik ILO-IPEC, dan menyediakan data mengenai sejauh mana,
+                        ciri-ciri dan pengenalpastian buruh kanak-kanak. SIMPOC juga membantu negara-negara dalam mengumpul, mendokumenkan, memproses dan membuat analisis mengenai data yang relevan tentang buruh kanak-kanak.
                     </li>
                     <li>
-                        International Trade Union Confederation.{" "}
-                        <em>
-                            Global Rights Index: The World&rsquo;s Worst
-                            Countries for Workers; 2014. ;{" "}
-                        </em>
-                        available from{" "}
+                        Gabungan Kesatuan Sekerja Perdagangan Antarabangsa <em>Indeks Hak Global : Negara Terburuk untuk Pekerja;</em> 2014; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

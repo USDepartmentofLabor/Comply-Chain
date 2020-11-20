@@ -5,96 +5,68 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Social Compliance Data Management</h1>
+                <h1>Pengurusan Data Pematuhan Sosial</h1>
                 <p>
-                    Many companies face technical challenges in managing the
-                    disparate sets of data gathered and utilized by their
-                    different departments or by external consultants. Legal
-                    compliance and regulatory data may be managed by one unit,
-                    procurement and sourcing by another, human resources by
-                    another, and so forth. This can work if managed well, but if
-                    not, this fragmentation of data can hurt the company in a
-                    number of ways: duplication of effort, which wastes
-                    resources; decision-making based on incomplete information,
-                    which increases risk; and different units of the company
-                    sending opposing messages to suppliers, potentially damaging
-                    business relationships.
+                    Banyak syarikat menghadapi cabaran teknikal dalam mengurus data yang berbeza yang dikumpul dan digunakan oleh jabatan berbeza atau perunding luar.
+                    Pematuhan undang-undang dan data peraturan boleh diuruskan oleh satu unit, pemerolehan dan mendapatkan sumber oleh unit yang lain, sumber manusia oleh
+                    yang lain, dan sebagainya. Ini boleh dijalankan kalau diurus dengan baik, tetapi kalau tidak, perpecahan data ini boleh merosakkan syarikat dalam pelbagai
+                    cara: pertindihan usaha, yang membazir sumber; membuat keputusan berdasarkan maklumat yang tidak cukup yang meningkatkan risiko; dan unit berbeza dalam
+                    syarikat menghantar pesanan bercanggah kepada pembekal yang mungkin boleh merosakkan hubungan perniagaan.
                 </p>
                 <p>
-                    Social compliance information is part of this balance. In
-                    many companies, social compliance can be difficult to
-                    integrate with other operations. But if social compliance
-                    data is not effectively used by the company, there are
-                    serious potential risks to the company&rsquo;s reputation
-                    and relationships with stakeholders.
+                    Maklumat pematuhan sosial adalah sebahagian daripada perseimbangan ini Dalam banyak syarikat, pematuhan sosial boleh menjadi sukar untuk digabungkan dengan operasi lain.
+                    Bagaimanapun, sekiranya data pematuhan sosial tidak digunakan dengan berkesan, kemungkinan ada risiko serius kepada reputasi syarikat dan hubungannya dengan pihak berkepentingan.
                 </p>
                 <p>
-                    Your social compliance team should have a comprehensive
-                    information system in place. The information system may
-                    include one or several integrated databases. Some of these
-                    databases may actually belong to other business units, such
-                    as a registry of vendors/agencies, suppliers and/or
-                    production sites, but it should be shared and utilized
-                    effectively by all relevant teams.
+                    Pasukan pematuhan sosial anda patut mempunyai sistem informasi yang komprehensif. Sistem informasi ini mungkin merangkumi satu atau beberapa pangkalan data yang diintegrasikan.
+                    Sebahagian daripada pangkalan data ini mungkin dimiliki oleh unit perniagaan lain, seperti senarai penjual/ejen, pembekal dan/atau tempat pengeluaran, tetapi ia harus dikongsi dan diguna secara berkesan oleh semua pasukan yang relevan.
                 </p>
                 <p>
-                    Data that should be captured and tracked in the information
-                    system include, but are not limited to:
+                    Data yang harus diambil dan dikesan dalam sistem informasi termasuk, tetapi tidak terhad kepada:
                 </p>
-                <h2>Sourcing data:</h2>
+                <h2>Data Memperoleh Sumber:</h2>
                 <ul>
-                    <li>Countries where products are sourced.</li>
-                    <li>Specific products sourced from each country.</li>
+                    <li>Negara di mana produk diperoleh.</li>
+                    <li>Produk khusus dari setiap negara.</li>
                     <li>
-                        (If applicable) Vendors/agents that place orders in
-                        specific production facilities.
+                        (Kalau digunakan) Penjual/ejen memesan di tempat pengeluaran khusus.
                     </li>
                     <li>
-                        All production facilities from which products are
-                        sourced.
+                        Semua tempat pengeluaran dari mana sumber bahan diperoleh.
                     </li>
                     <li>
-                        Specific products sourced from each production facility.
+                        Produk khusus yang diperoleh dari setiap tempat pengeluaran.
                     </li>
                     <li>
-                        Countries and production facilities under consideration
-                        for product sourcing.
+                        Negara-negara dan tempat pengeluaran yang dipertimbangkan untuk memperoleh produk.
                     </li>
                 </ul>
-                <h2>Social Compliance data:</h2>
+                <h2>Data Pematuhan Sosial</h2>
                 <ul>
                     <li>
-                        Risk assessment data for countries where products are or
-                        may be sourced.
+                        Data penilaian berisiko bagi negara-negara yang mengeluarkan produk atau di mana bahan diperoleh.
                     </li>
                     <li>
-                        Data gathered from stakeholders through ongoing
-                        consultation, regarding countries, labor issues, or
-                        other relevant topics.
+                        Data yang dikumpul dari pihak berkepentingan melalui perbincangan, mengenai negara, isu buruh, atau topik relevan lain.
                     </li>
                     <li>
-                        Grievances and complaints received through established
-                        mechanisms, and how they were handled.
+                        Keluhan dan aduan yang diterima melalui mekanisme yang sedia ada, dan bagaimana ia dikelolakan.
                     </li>
-                    <li>Audit results.</li>
-                    <li>Independent verification results.</li>
+                    <li>Keputusan audit.</li>
+                    <li>Hasil Penilaian Pengesahan Bebas.</li>
                     <li>
-                        Remediation models for use in specific situations
-                        involving code violations.
+                        Model pemulihan yang digunakan dalam keadaan tertentu yang melibatkan pencabulan kod.
                     </li>
                     <li>
-                        Programs and services available in communities to assist
-                        victims of labor abuse, including children.
+                        Program dan perkhidmatan yang ada dalam komuniti bagi membantu mangsa penderaan buruh, termasuk buruh kanak-kanak.
                     </li>
                 </ul>
                 <p>
-                    The system should allow you to manage and work with this
-                    data and track patterns. Ultimately, a good information
-                    system will allow you to track, identify and document your
-                    results, successes and areas for improvement.
+                    Sistem patut membenarkan anda bekerja dengan data ini dan mengesan corak. Akhirnya, sistem informasi yang baik patut membenarkan
+                    anda mengesan, mengenal pasti dan mendokumenkan keputusan, kejayaan dan bidang untuk diperbaiki.
                 </p>
                 <p>
-                    Source:{" "}
+                    Sumber:{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -111,21 +83,10 @@ const ms = () => {
                 </p>
                 <p>
                     <em>
-                        *Note: References to specific companies and
-                        non-governmental entities within this guide are for
-                        informational purposes only to demonstrate best
-                        practices that have been recognized internationally, as
-                        of the app&rsquo;s release date. Referencing the
-                        entities should not be interpreted as an official
-                        endorsement of those entities, their products, or
-                        services by the U.S. Department of Labor{" "}
+                        *Catatan: Rujukan kepada syarikat tertentu dan entiti bukan kerajaan dalam panduan ini hanya untuk tujuan memberi maklumat bagi menunjukkan amalan terbaik yang
+                        telah diperakui di peringkat antarabangsa , sejak aplikasi dikeluarkan. Merujuk kepada entiti tidak patut ditafsirkan sebagai sokongan rasmi entiti tersebut,
+                        produk atau perkhidmatan oleh Jabatan Buruh AS dan penyertaan mereka tidak boleh ditafsirkan sebagai tinjauan komprehensif mengenai amalan entiti ini di dalam semua bidang.
                     </em>
-                    <em>
-                        and their inclusion should not be interpreted as a
-                        comprehensive review of these entities&rsquo; practices
-                        in all areas
-                    </em>
-                    <em>.</em>
                 </p>
             </div>
         </StaticData>

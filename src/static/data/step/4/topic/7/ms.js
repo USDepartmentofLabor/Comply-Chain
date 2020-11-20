@@ -7,149 +7,84 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Using Risk and Impact Assessment Information </h1>
+                <h1>Menggunakan maklumat Penilaian Risiko dan Impak</h1>
                 <p>
-                    Your social compliance team should have an information
-                    system to manage all of its data. All mapping and risk and
-                    impact assessment information should be entered
-                    systematically into this system and updated on a periodic
-                    basis.
+                    Pasukan pematuhan sosial anda harus mempunyai sistem informasi untuk menguruskan data. Semua pemetaan dan
+                    maklumat penilaian risiko dan impak harus dimasukkan secara teratur ke dalam sistem dan dikemaskini secara berkala.
                 </p>
                 <p>
-                    Almost every risk and impact assessment exercise in any
-                    industry will uncover some risks of labor abuses, and
-                    possibly some adverse impacts you have already caused. You
-                    will then be faced with decisions about what to do to
-                    mitigate or remediate them.
+                    Hampir setiap latihan penilaian risiko dan impak dalam mana pun industri akan mendedahkan penderaan buruh, dan mungkin
+                    kesan buruk akibat apa yang anda telah lakukan. Anda akan terpaksa membuat keputusan tentang apa yang perlu dibuat untuk mengurangkan atau memulihkan keadaan.
                 </p>
                 <p>
-                    If a risk and impact assessment reveals that a company is
-                    directly contributing to or causing adverse impacts or risks
-                    through its own sourcing or other practices, your first step
-                    should be to remediate these impacts and tackle these issues
-                    internally. As difficult as this process may be, you will
-                    not be able to manage external risks effectively if you
-                    cannot first manage internal ones.
+                    Sekiranya penilaian risiko dan impak mendedahkan bahawa syarikat menyebabkan secara langsung kesan buruk atau risiko melalui pemerolehan sumber atau amalan
+                    lain, langkah pertama anda adalah untuk mengurangkan impak ini dan menangani isu ini secara dalaman. Walaupun proses ini agak sukar, anda tidak boleh mengurus
+                    risiko dari luar secara berkesan sekiranya anda tidak menangani masalah dalaman.
                 </p>
                 <p>
-                    If your company is exploring sourcing from a new area, your
-                    risk and impact assessment should reveal whether or not the
-                    risks are too great. If there are substantial risks, this
-                    merits strong consideration of whether your sourcing needs
-                    can be met elsewhere. If the risks are ones you are willing
-                    to take, your next step is to find suppliers that will
-                    participate in your social compliance program and work with
-                    you on continuous improvement. Those commitments should be
-                    codified in your contracts with suppliers; many companies
-                    require new suppliers to meet defined social compliance
-                    benchmarks before they can sell to the company.
+                    Sekiranya syarikat anda sedang mencari bahan dari kawasan baru, penilaian risiko dan impak anda harus menunjukkan sama ada risiko terlalu besar atau tidak. Sekiranya
+                    terdapat risiko besar, ini memerlukan pertimbangan serius sama ada keperluan bahan mungkin boleh didapati dari tempat lain. Sekiranya anda sanggup menghadapi risiko,
+                    langkah berikutnya ialah mencari pembekal yang mahu terlibat dengan program pematuhan sosial anda dan bekerjasama dengan anda untuk terus memperbaiki keadaan Komitmen
+                    ini haruslah dikodkan dalam kontrak dengan pembekal; banyak syarikat memerlukan pembekal baru untuk memenuhi asas pematuhan sosial sebelum mereka menjual kepada syarikat tersebut.
                 </p>
                 <p>
-                    If you are sourcing from an area with high levels of
-                    subcontracting, you may choose to limit how much production
-                    your suppliers can subcontract to outside entities. This
-                    limitation must then be included in contracts, and in turn
-                    monitored and enforced.
+                    Sekiranya anda mendapat sumber bahan dari kawasan dengan banyak sub-kontrak, anda mungkin ingin mengehadkan pembekal anda berapa banyak pengeluaran boleh dihantar
+                    kepada sub-kontrak luar. Had ini mesti dimasukkan ke dalam kontrak, dan kemudian dipantau dan dikuatkuasakan.
                 </p>
                 <p>
-                    If your risk and impact assessment focuses on your
-                    established group of suppliers, your next steps will depend
-                    on those suppliers&rsquo; performance. If egregious labor
-                    abuses are taking place or are at risk of happening, you
-                    should attempt to work with the suppliers to remediate the
-                    abuses or improve their policies and processes. If a company
-                    does not have sufficient leverage with a supplier to change
-                    its behavior, you may attempt to increase your leverage by
-                    collaborating with other buyers or by offering
-                    capacity-building as an incentive. If the supplier does not
-                    respond to these efforts, you should consider terminating
-                    your sourcing relationship, while at the same time taking
-                    into account the impacts on the workers of ending the
-                    relationship and attempting to mitigate those impacts in the
-                    process.
+                    Kalau penilaian risiko dan impak anda memberi tumpuan kepada kumpulan pembekal yang berpengalaman, langkah berikutnya akan bergantung kepada prestasi pembekal.
+                    Kalau penderaan buruh teruk sedang berlaku atau ada risiko akan terjadi, anda patut berusaha untuk bekerjasama dengan pembekal untuk memulihkan keadaan atau memperbaiki
+                    dasar dan proses. Kalau syarikat tiada pengaruh cukup dengan pembekal untuk menukarkan tatacaranya, anda mungkin boleh cuba meningkatkan pengaruh dengan bekerjasama
+                     dengan pembeli lain atau dengan menawarkan peningkatan keupayaan sebagai insentif. Sekiranya pembekal tidak tertarik kepada usaha-usaha ini, anda harus mempertimbangkan
+                     untuk menghentikan hubungan untuk mendapatkan sumber ini, sambil mengambil kira impak kepada pekerja bila menghentikan hubungan dan cuba mengurangkan kesannya dalam proses tersebut.
                 </p>
                 <p>
-                    In some cases, a risk and impact assessment will identify a
-                    specific underlying cause of labor abuses, and stakeholders
-                    may also suggest ideas for mitigation.
+                    Dalam hal lain, penilaian risiko dan impak akan mengenal pasti penyebab khusus penderaan buruh, dan pihak yang berkepentingan juga boleh memberi saranan untuk mengurangkan keadaan buruk.
                 </p>
                 <ExampleInAction id="Conflict_Free">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Example in Action</strong>: Conflict-Free
-                        Sourcing Initiative{" "}
+                        Contoh dalam Tindakan: Inisiatif Mineral Bertanggungjawab*
                     </h2>
                     <p>
-                        For electronics companies, one of the key identified
-                        human rights and labor risks is conflict in the
-                        Democratic Republic of Congo, where many of the minerals
-                        used to produce electronic products are sourced. The{" "}
+                        Bagi syarikat elektronik, salah satu risiko utama dalam hak asasi dan buruh ialah konflik di Republik Demokratik Congo, di mana banyak terdapat sumber mineral yang digunakan
+                        untuk produk elektronik.  Inisiatif Mineral Bertanggungjawab (RMI), bermula sebagai Insiatif Mendapatkan Sumber Tanpa Konflik, dibentuk oleh Pakatan Warga Industri Elektronik,
+                        yang kini dikenali sebagai&nbsp;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.conflictfreesourcing.org/"
-                            title="Conflict-Free Sourcing Initiative"
+                            href="www.responsiblebusiness.org"
                         >
-                            Conflict-Free Sourcing Initiative
-                        </a>{" "}
-                        (CFSI) was developed by the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.eiccoalition.org/"
-                            title="Electronic Industry Citizenship Coalition"
-                        >
-                            Electronic Industry Citizenship Coalition
-                        </a>{" "}
-                        and the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://gesi.org/"
-                            title="Global e-Sustainability Initiative"
-                        >
-                            Global e-Sustainability Initiative
-                        </a>{" "}
-                        in 2008 to promote responsible mineral sourcing from
-                        conflict-affected and high-risk areas. The CFSI has
-                        designed tools and resources that are used by more than
-                        350 companies from a variety of sectors to monitor their
-                        supply chains. The CFSI developed the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.conflictfreesourcing.org/conflict-free-smelter-program/"
-                            title="Conflict-Free Smelter Program"
-                        >
-                            Conflict-Free Smelter Program
-                        </a>{" "}
-                        that helps smelters and refiners validate, through
-                        independent third-party audits, their compliance with
-                        global standards, such as the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.oecd.org/corporate/mne/mining.htm"
-                            title="OECD Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Area"
-                        >
-                            OECD Due Diligence Guidance for Responsible Supply
-                            Chains of Minerals from Conflict-Affected and
-                            High-Risk Areas
+                        Responsible Business Alliance
                         </a>
-                        .
+                        , dan Inisiatif e-Kelestarian Global (Global e-Sustainability Initiative* ) pada 2008 untuk mempromosikan pemerolehan sumber mineral secara bertanggungjawab dari kawasan yang
+                        terjejas oleh konflik dan berisiko tinggi RMI telah membentuk alat dan sumber yang digunakan oleh lebih 350 syarikat dari pelbagai sektor untuk memantau rantai bekalan mereka. RMI membentuk&nbsp;
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="www.conflictfreesourcing.org/conflict-free-smelter-program/"
+                        >
+                        Responsible Minerals Assurance Process (RMAP)
+                        </a>
+                        &nbsp;– dulu dikenali sebagai Program Pelebur Tanpa Konflik (Conflict-Free Smelters Program) – yang membantu pelebur dan penapis mengesahkan, melalui audit pihak ketiga yang bebas,
+                        pematuhan mereka kepada  standard global, seperti Panduan Ketekunan Wajar Rantai Bekalan Mineral OECD dari kawasan berisiko tinggi yang terjejas oleh konflik.
+                    </p>
+                    <p>
+                        Sumber:{" "}
+                         <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.responsiblemineralsinitiative.org/"
+                        >
+                        http://www.responsiblemineralsinitiative.org/
+                        </a>.
                     </p>
                 </ExampleInAction>
                 <p>
-                    In general, your responses to risk and impact assessment
-                    information should center around the impact on workers. In
-                    the early days of social compliance, companies that
-                    identified egregious labor abuses or serious risks in their
-                    supply chains tended to terminate sourcing immediately from
-                    the suppliers in question. Such actions sent a strong
-                    message to suppliers about compliance, but also had
-                    devastating consequences for workers. The issue of
-                    &ldquo;responsible disengagement&rdquo; from a supplier is
-                    explored in SOMO&rsquo;s discussion paper,{" "}
+                    Pada amnya, tindak balas anda kepada maklumat penilaian risiko dan impak patut bertumpu kepada kesannya terhadap pekerja. Ketika pematuhan sosial baru mula digunakan, syarikat yang mengenal pasti
+                    penderaan buruh yang buruk atau risiko serius kepada rantai pembekal, cenderung memutuskan hubungan dengan pembekal yang terbabit. Tindakan seperti itu menghantar mesej yang kuat kepada para
+                    pembekal tentang pentingnya pematuhan, tetapi ini memberi akibat buruk kepada pekerja. Isu “tidak terlibat secara bertanggungjawab” daripada pembekal diteroka dalam kertas perbincangan dari Pusat
+                    Penyelidikan mengenai Syarikat Multinasional (SOMO):{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -159,89 +94,72 @@ const ms = () => {
                         Should I stay or should I go? Exploring the role of
                         disengagement in human rights due diligence
                     </a>
-                    . The growing consensus in social compliance is toward
-                    capacity-building and development of long-term relationships
-                    as a way to improve compliance, rather than immediate
-                    termination because of the negative effects on workers. The
-                    following example demonstrates this trend.
+                    . Ramai yang semakin bersetuju bahawa pematuhan sosial sepatutnya menuju kepada peningkatan keupayaan dan membina hubungan jangka panjang sebagai cara lebih baik untuk memperbaiki pematuhan sosial,
+                    dan tidak dengan cara menghentikan hubungan yang akan memberi kesan negatif kepada pekerja. Contoh berikut menunjukkan trend ini.
                 </p>
                 <ExampleInAction id="mica">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Example in Action</strong>:
-                        L&rsquo;Or&eacute;al* and Responsible Mica Sourcing
+                        Contoh dalam Tindakan: L’Oréal* dan Pemerolehan Mica secara Bertanggungjawab
                     </h2>
                     <p>
-                        Mica is a mineral used in various industries, including
-                        in the cosmetics industry, where it provides a
-                        glittering effect in a range of products. While
-                        L&rsquo;Or&eacute;al sources more than 60 percent of its
-                        natural mica from the United States, the rest originates
-                        from other countries such as India, where there is a
-                        high risk of child labor and unsafe working conditions.
-                        Despite these risks, L&rsquo;Or&eacute;al, which is a
-                        signatory to the United Nations Global Compact and a
-                        founding member of the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.responsible-mica-initiative.com/"
-                            title="Responsible Mica Initiative"
-                        >
-                            Responsible Mica Initiative
-                        </a>
-                        , has made a commitment to remain in India and ensure
-                        the traceability and transparency of its supply chain.
-                        L&rsquo;Or&eacute;al believes that discontinuing the use
-                        of Indian mica would not be beneficial to workers or
-                        their families, and could further exacerbate social and
-                        economic challenges. In India, L&rsquo;Or&eacute;al
-                        implements a sustainable procurement program that works
-                        with a limited number of suppliers who commit to
-                        sourcing mica from legal, gated mines, where working
-                        conditions and human rights, including the prevention
-                        and elimination of child labor, can be monitored.
-                        L&rsquo;Or&eacute;al&rsquo;s suppliers in India undergo
-                        independent audits to monitor compliance and agree to
-                        invest in community-building activities to address the
-                        underlying causes of labor violations. By working with
-                        local NGOs and other stakeholders, L&rsquo;Or&eacute;al
-                        aims to create a sustainable mica supply chain and
-                        improve the living and working conditions of the
-                        region.&nbsp;
+                        Mica ialah sejenis mineral yang digunakan oleh pelbagai industri, termasuk industri kosmetik, di mana ia memberi kesan kilauan dalam pelbagai produknya.  L’Oréal mendapat lebih
+                        daripada 60 peratus sumber mica asli dari Amerika Syarikat, yang lainnya datang dari India, di mana terdapat risiko yang tinggi untuk buruh kanak-kanak dan keadaan tempat kerja yang
+                        tidak selamat.  Malah, DOL meletakkan mica dalam Senarai Barangan yang dikeluarkan oleh Buruh Kanak-kanak atau Buruh Paksa pada tahun 2018, menunjukkan terdapatnya bukti bahawa kanak-kanak
+                        berumur di antara 5 sehingga 17 tahun  terlibat dalam usaha mengumpul mica dari lombong terbiar, terutama di dalam operasi perlombongan haram di negeri-negeri yang banyak mengeluarkan mica
+                        di India seperti Bihar, Jharkhand, dan Rajasthan.
+                    </p>
+                    <p>
+                       Walaupun terdapat risiko ini, L’Oréal, yang menandatangani Kompak Global Pertubuhan Bangsa Bangsa Bersatu dan ialah anggota pengasasnya&nbsp;
+                       <a
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           href="www.responsible-mica-initiative.com/"
+                       >
+                       Responsible Mica Initiative
+                       </a>
+                       ,* ia telah membuat komitmen untuk terus kekal di India dan memastikan keupayaan untuk pengesanan dan ketelusan dalam rantai bekalannya.   L’Oréal percaya bahawa menghentikan penggunaan mica dari
+                       India tidak akan membawa manfaat kepada pekerja atau keluarga mereka, dan mungkin meningkatkan lagi cabaran sosial dan ekonomi.  Di India, L’Oréal melaksanakan program pemerolehan lestari melalui
+                       kerjasama dengan pembekal terhad yang komited untuk mencari sumber mica dari lombong yang sah dan yang dilindungi dengan pagar, di mana keadaan tempat kerja dan hak asasi manusia, termasuk langkah
+                       pencegahan dan pembasmian buruh kanak-kanak, dipantau.  Pembekal L’Oréal di India melalui audit bebas untuk memantau pematuhan bersetuju untuk melabur dalam aktiviti membina komuniti bagi menangani
+                       punca akar pencabulan hak buruh.  Dengan bekerjasama dengan NGO dan pihak berkepentingan, L’Oréal&nbsp;
+                       <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica"
+                      >
+                       aims to create a sustainable mica supply chain
+                       </a>
+                       &nbsp;memperbaiki hidup dan keadaan tempat kerja rantau tersebut.
+                    </p>
+                    <p>
+                    Sumber:{" "}
+                    <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica"
+                      >
+                    https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica
+                    </a>.
                     </p>
                 </ExampleInAction>
                 <p>
-                    Capacity-building and relationship-building usually entail
-                    some company investment in training and support for
-                    suppliers. However, many companies are adopting a model of
-                    upfront investment in building capacity of vendors, agents
-                    and suppliers, and then holding them responsible for social
-                    compliance performance&mdash;a model that can prove
-                    cost-effective over the long run. These and other training
-                    and communication issues are discussed in{" "}
-                    <Link to="/steps/4">
-                        Step 4, Communicate and Train Across Your Supply Chains
+                    Peningkatan keupayaan dan hubungan selalunya merangkumi beberapa syarikat pelaburan dalam latihan dan sokongan bagi pembekal. Bagaimanapun, banyak syarikat yang menerima pakai model pelaburan langsung dalam
+                    peningkatan upaya bagi penjual, ejen dan pembekal, dan kemudian membuatkan mereka bertanggungjawab untuk prestasi pematuhan sosial - satu model yang telah membuktikan berkesan dari segi kos dalam jangka masa
+                    panjang. Ini dan latihan serta isu komunikasi diperbincangkan dalam{" "}
+                    <Link to="/steps/6">
+                        Langkah 4: Berkomunikasi dan Melatih di Sepanjang Rantai Bekalan Anda
                     </Link>
                     .
                 </p>
                 <p>
-                    When you invest in a risk and impact assessment and uncover
-                    risks and mitigate them, do not forget to communicate about
-                    these efforts. Stakeholders who contributed to the risk and
-                    impact assessment deserve a &ldquo;feedback loop&rdquo; on
-                    how their information was used. If you took action on
-                    information that came from an existing complaint process or
-                    mechanism, you should report on your actions. Information on
-                    your risk and impact assessment and mitigation also belongs
-                    in the company&rsquo;s public reports.
+                    Apabila anda melabur dalam penilaian risiko dan impak dan menemui risiko dan mengurangkannya, jangan lupa berkomunikasi mengenai usaha-usaha ini. Pihak yang berkepentingan yang memberi sumbangan kepada penilaian
+                    risiko dan impak, berhak untuk mendapat “maklum balas” mengenai maklumat yang digunakan. Kalau anda mengambil tindakan mengenai maklumat yang datang dari proses aduan atau mekanisme berkaitan, anda perlu melaporkan
+                    tindakan anda. Maklumat dari penilaian risiko dan impak serta usaha mengurangkannya juga sebahagian daripada laporan syarikat untuk orang awam.
                 </p>
                 <p>
-                    Finally, risk and impact assessment activities should be
-                    ongoing, and you should update mapping information regularly
-                    in your information system. Social compliance risks change
-                    over time as the environment evolves and a company&rsquo;s
-                    operations change.
+                    Akhirnya, aktiviti penilaian risiko dan impak harus terus dijalankan, dan anda harus sering mengemaskini pemetaan maklumat dalam sistem informasi anda. Pematuhan sosial mungkin menghadapi risiko perubahan apabila
+                    keadaan persekitaran berubah dengan masa dan operasi syarikat berubah.
                 </p>
             </div>
         </StaticData>
