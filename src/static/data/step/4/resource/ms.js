@@ -122,7 +122,7 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        ertubuhan Buruh Antarabangsa (ILO). Sistem Maklumat NORMLEX mengenai Standard Buruh Antarabangsa, [talian, diakses pada Jun 7, 2017]; boleh didapati dari{" "}
+                        Pertubuhan Buruh Antarabangsa (ILO). Sistem Maklumat NORMLEX mengenai Standard Buruh Antarabangsa, [talian, diakses pada Jun 7, 2017]; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -159,84 +159,66 @@ const ms = () => {
                         .&nbsp;
                     </li>
                     <li>
-                        Overseas Private Investment Corporation.{" "}
-                        <em>Environmental and Social Policy Statement, </em>
-                        January 2017; available from{" "}
+                        Jungk, Margaret, Chichester, Ouida, dan Fletcher, Chris. 2018. Mencari Keadilan (“In Search of Justice): Jalan untuk Memulih Lombong Emas Porgera (Pathways to Remedy at the Porgera Gold Mine.”) Laporan. BSR, San Francisco.
+                    </li>
+                    <li>
+                        Perbadanan Kewangan Pembangunan Antarabangsa AS. Alam Sekitar dan Dasar Sosial dan Prosedur, Januari 2020; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf"
-                            title="Global Rights Index: The World&rsquo;s Worst Countries for Workers; 2014."
+                            href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
                         >
-                            https://www.opic.gov/sites/default/files/files/final%20revised%20ESPS%2001132017(1).pdf
+                            https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf
                         </a>
                     </li>
                     <li>
-                        UNICEF, Multiple Indicator Cluster Surveys, [online,
-                        accessed June 7 2017]; available from{" "}
+                        UNICEF, Tinjauan Pelbagai Petunjuk Kluster, [talian, diakses pada Julai 29 2020]; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.childinfo.org/mics_available.html"
-                            title="UNICEF, Multiple Indicator Cluster Surveys"
+                            href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
                         >
-                            http://www.childinfo.org/mics_available.html
+                            http://mics.unicef.org/
                         </a>
-                        . UNICEF regularly conducts Multiple Indicator Cluster
-                        Surveys (MICS); household surveys on a range of
-                        indicators of children&rsquo;s well-being, including
-                        child labor. The MIC reports and datasets are available
-                        by country.
+                        . UNICEF sering melakukan Tinjauan Pelbagai Petunjuk Kluster (MICS); tinjauan rumah tangga pelbagai petunjuk mengenai keadaan kanak-kanak, termasuk buruh kanak-kanak.
+                        Laporan MIC dan set data boleh didapati menurut negara.
                     </li>
                     <li>
-                        U.S. Department of Labor. Enforcement Data. [online,
-                        accessed June 7, 2017]; available from{" "}
+                        Jabatan Buruh AS Penguatkuasaan Data. [Talian, boleh diakses pada Jun 7, 2017]; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://enforcedata.dol.gov/homePage.php"
-                            title="The U.S. Department of Labor - Data Enforcement"
                         >
                             https://enforcedata.dol.gov/homePage.php
                         </a>
                         .
                     </li>
                     <li>
-                        U.S. Department of Labor, Bureau of International Labor
-                        Affairs (ILAB). <em>Executive Order 13126 List,</em>{" "}
-                        Washington, DC; available from{" "}
+                        Jabatan Buruh AS - Biro Hal Ehwal Buruh Antarabangsa (ILAB). <em>Senarai Perintah Eksekutif 13126</em> , Washington, DC; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products"
-                            title="Executive Order 13126 List"
                         >
                             https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products
                         </a>
-                        .
                     </li>
                     <li>
-                        U.S. Department of Labor, Bureau of International Labor
-                        Affairs (ILAB).{" "}
-                        <em>Findings on the Worst Forms of Child Labor</em>,
-                        Washington, DC; available from{" "}
+                        Jabatan Buruh AS Biro Hal Ehwal Buruh Antarabangsa (ILAB). <em>Penemuan Bentuk Buruh Kanak-Kanak yang Terburuk,</em> Washington, DC; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings"
-                            title="Findings on the Worst Forms of Child Labor"
                         >
                             https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings
                         </a>
+                        .
                     </li>
+
                     <li>
-                        U.S. Department of Labor. Bureau of International Labor
-                        Affairs (ILAB).{" "}
-                        <em>
-                            List of Goods Produced by Child Labor or Forced
-                            Labor.
-                        </em>{" "}
-                        Washington, DC; available from{" "}
+                        Jabatan Buruh AS Biro Hal Ehwal Buruh Antarabangsa (ILAB). Senarai Produk yang Dikeluarkan oleh Buruh Kanak-Kanak atau Buruh Paksa. Washington, DC; boleh didapati dari{" "}
+                        Washington, DC; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -247,21 +229,18 @@ const ms = () => {
                         </a>
                     </li>
                     <li>
-                        U.S. Department of State.{" "}
-                        <em>Country Reports on Human Rights Practices</em>.
-                        Washington, DC; available from{" "}
+                        Jabatan Negara AS. Laporan Negara Mengenai Amalan Hak Asasi Manusia. Washington, DC; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.state.gov/g/drl/rls/hrrpt/"
-                            title="Country Reports on Human Rights Practices"
                         >
                             http://www.state.gov/g/drl/rls/hrrpt/
                         </a>
                         .
                     </li>
                     <li>
-                        U.S. Department of State,{" "}
+                        Jabatan Negara AS,{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -270,8 +249,7 @@ const ms = () => {
                         >
                             Office to Monitor and Combat Trafficking in Persons
                         </a>
-                        . <em>Trafficking in Persons Reports. </em>Washington,
-                        DC. available from{" "}
+                        . <em>Laporan Pemerdagangan Manusia</em>. Washington, DC; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -284,8 +262,7 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;, <em>Fair Hiring Toolkit </em>available
-                        from{" "}
+                        Verité, Peralatan Pengambilan Pekerja Secara Adil boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -296,7 +273,7 @@ const ms = () => {
                         </a>
                     </li>
                     <li>
-                        Verit&eacute;, <em>Knowledge Portal</em>. Available from{" "}
+                        Verité, Portal Ilmu boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -307,6 +284,235 @@ const ms = () => {
                         </a>
                         .
                     </li>
+        <li>
+        Kolej Barnes & Noble. League Collegiate Outfitters Memberi Harapan dan Peluang Kedua di El Salvador. [talian, boleh diakses pada Mei 8, 2017]; boleh didapati dari{" "}
+        <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://next.bncollege.com/league-collegiate-outfitters/"
+            title="Barnes & Noble College"
+        >
+            http://next.bncollege.com/league-collegiate-outfitters/
+        </a>
+        .
+    </li>
+    <li>
+        Pusat Perniagaan & Sumber Hak Asasi Manusia, Perniagaan, Konflik & Portal Keamanan. Boleh didapati dari&nbsp;
+        <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://www.business-humanrights.org/ConflictPeacePortal/Home"
+            title="Business & Human Rights Resource Centre, Business, Conflict & Peace Portal"
+        >
+            http://www.business-humanrights.org/ConflictPeacePortal/Home
+        </a>
+        .
+    </li>
+    <li>
+        Chen, Shaohua, dan Martin Ravillion. Negara membangun lebih miskin daripada yang kita jangkakan, tetapi berjaya dalam perang untuk melawan kemiskinan. Bank Dunia, Washington, DC, Ogos 26, 2008; boleh didapati dari&nbsp;
+        <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://documents1.worldbank.org/curated/en/526541468262138892/pdf/WPS4703.pdf"
+            title="Chen, Shaohua, and Martin Ravillion"
+        >
+            http://documents1.worldbank.org/curated/en/526541468262138892/pdf/WPS4703.pdf
+        </a>
+        .
+    </li>
+    <li>
+        Inisiatif Perdagangan Beretika. Panduan Kod Asas: Upah Sara Hidup; boleh didapati dari&nbsp;
+        <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf"
+            title=" Ethical Trading Initiative"
+        >
+            https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf
+        </a>
+        .
+    </li>
+    <li>
+        Persatuan Buruh Adil (Fair Labor Association) <em>Pampasan Adil</em> [talian, boleh diakses pada Mei 15, 2017]; boleh didapati dari&nbsp;
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.fairlabor.org/report-type/fair-compensation"
+                    title="Fair Labor Association."
+                >
+                    http://www.fairlabor.org/report-type/fair-compensation
+                </a>
+                .
+            </li>
+            <li>
+                Persatuan Buruh Adil (Fair Labor Association) <em>Pampasan Adil bagi Pekerja Pertanian: Penimbulan Amalan Baik dan Cabaran;</em> Februari 27, 2017; boleh didapati dari&nbsp;
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges"
+                    title="Fair Labor Association"
+                >
+                    http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges
+                </a>
+                .
+            </li>
+            <li>
+                Persatuan Buruh Adil (Fair Labor Association) <em>Menuju Ke Arah Pampasan Adil dalam Rantai Bekalan Global: Penilaian Gaji Kilang di 21 Negara</em> ; Ogos 3, 2016; boleh didapati dari&nbsp;
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries"
+                >
+                    http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries
+                </a>
+                .
+            </li>
+            <li>
+                 ILO (2016) Laporan Upah Global 2016/17: Ketidakseragaman upah di tempat kerja:&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_537846.pdf"
+                    >
+                        https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_537846.pdf
+                    </a>
+                    .
+                </li>
+                <li>
+                    Pertubuhan Buruh Antarabangsa (ILO). Tanggungjawab Sosial Korporat (CSR) [laman web], boleh didapati dari&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/ipec/Action/CSR/lang--en/index.htm"
+                    >
+                        http://www.ilo.org/ipec/Action/CSR/lang--en/index.htm
+                    </a>
+                    .
+                </li>
+                <li>
+                    ILO (2016) Penggajian Tidak-Standard di Seluruh Dunia - Memahami Cabaran, Membentuk Prospek&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/global/publications/books/WCMS_534326/lang--en/index.htm"
+                    >
+                        http://www.ilo.org/global/publications/books/WCMS_534326/lang--en/index.htm
+                    </a>
+                    .
+                </li>
+                <li>
+                   ILO (2013) Ekonomi Tidak Formal dan Pekerjaan yang Memuaskan - Panduan Rujukan Dasar untuk Membantu Perubahan kepada Formaliti&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/emppolicy/pubs/WCMS_212688/lang--en/index.htm"
+                    >
+                        http://www.ilo.org/emppolicy/pubs/WCMS_212688/lang--en/index.htm
+                    </a>
+                    .
+                </li>
+                <li>
+                    ILO (2015) Pandangan Sosial dan Penggajian Dunia - Perubahan dalam Pekerjaan.&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_368626.pdf"
+                    >
+                        http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_368626.pdf.  Note that as of 2015 the World of Work Report has been replaced by a new annual ILO flagship series, the World Employment and Social Outlook (WESO)
+                    </a>
+                    . Perhatikan bahawa mulai tahun 2015 Laporan Bank Dunia telah digantikan oleh siri kemegahan tahunan ILO, Pandangan Sosial dan Penggajian Dunia (WESO).
+                </li>
+                <li>
+                   ILO (2014) Laporan Perlindungan Sosial Dunia: Membina Pemulihan ekonomi, pembangunan inklusif dan keadilan sosial.&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--en/index.htm"
+                    >
+                        http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--en/index.htm
+                    </a>
+                    .
+                </li>
+                    <li>
+                      ISEAL Alliance. <em>Pakatan Upah Sara Hidup</em> [talian, boleh diakses pada Mei 15, 2017]; boleh didapati dari&nbsp;
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition"
+                            >
+                                https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition
+                            </a>
+                            .
+                        </li>
+                        <li>
+                         New York Times. Di Kilang El Salvador, Membantu Belia Bermasalah Memahami Perniagaan September 21, 2015; boleh didapati dari&nbsp;
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0"
+                            >
+                                https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0
+                            </a>
+                            .
+                        </li>
+                        <li>
+                            Weil, David. Rekahan Tempat Kerja: Mengapa Pekerjaan Menjadi Buruk Untuk Ramai dan Apa Yang Boleh Dibuat untuk Memperbaikinya (Why Work Became So Bad for So Many and What Can Be Done to Improve It). Cambridge, MA: Harvard University Press, 2014.
+                        </li>
+                        <li>
+                            Wilshaw, Rachel; Hamilton, Sloane; Theroux-Seguin, Julie, dan Daisy Gardener. <em>Bekerja Tetapi Terperangkap Dalam Kemiskinan (In Work but Trapped in Poverty): Ringkasan Lima Kajian oleh Oxfam, dengan Kemaskini mengenai Kemajuan Ke Arah Upah Sara Hidup;</em> Oxfam International, September 29, 2015; boleh didapati dari&nbsp;
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815"
+                            >
+                                http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815
+                            </a>
+                            .
+                        </li>
+                     <li>
+                         Bank Dunia. 2017 Petunjuk Pembangunan Dunia. Washington, DC, April 2017; boleh didapati dari&nbsp;
+                         <a
+                             target="_blank"
+                             rel="noopener noreferrer"
+                             href="http://data.worldbank.org/data-catalog/world-development-indicators"
+                         >
+                             http://data.worldbank.org/data-catalog/world-development-indicators
+                         </a>
+                         .
+                     </li>
+                     <li>
+                         Institut Bank Dunia. Perniagaan dan Kemiskinan: Membuka Pasaran kepada Orang Miskin. Washington, DC, Jun 2008; boleh didapati dari&nbsp;
+                         <a
+                             target="_blank"
+                             rel="noopener noreferrer"
+                             href="http://documents1.worldbank.org/curated/en/220861468140985450/pdf/444910WBWP0BOX327404B01public1.pdf"
+                         >
+                             http://documents1.worldbank.org/curated/en/220861468140985450/pdf/444910WBWP0BOX327404B01public1.pdf
+                         </a>
+                         .
+                     </li>
+                     <li>
+                         Bank Dunia. Kelemahan, Konflik dan Keganasan. Gambaran Keseluruhan, 2017.&nbsp;
+                         <a
+                             target="_blank"
+                             rel="noopener noreferrer"
+                             href="http://www.worldbank.org/en/topic/fragilityconflictviolence/overview"
+                         >
+                             http://www.worldbank.org/en/topic/fragilityconflictviolence/overview
+                         </a>
+                         .
+                     </li>
+                     <li>
+                        Pusat Pemantauan Perpindahan Terpaksa. 2016 Laporan Global Mengenai Perpindahan Terpaksa Dalam Negeri.&nbsp;
+                         <a
+                             target="_blank"
+                             rel="noopener noreferrer"
+                             href="http://www.internal-displacement.org/globalreport2016/"
+                         >
+                             http://www.internal-displacement.org/globalreport2016/
+                         </a>
+                         .
+                     </li>
                 </ol>
             </div>
         </StaticData>

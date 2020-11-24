@@ -57,7 +57,7 @@ const ms = () => {
                         >
                         Responsible Business Alliance
                         </a>
-                        , dan Inisiatif e-Kelestarian Global (Global e-Sustainability Initiative* ) pada 2008 untuk mempromosikan pemerolehan sumber mineral secara bertanggungjawab dari kawasan yang
+                        *, dan Inisiatif e-Kelestarian Global (Global e-Sustainability Initiative* ) pada 2008 untuk mempromosikan pemerolehan sumber mineral secara bertanggungjawab dari kawasan yang
                         terjejas oleh konflik dan berisiko tinggi RMI telah membentuk alat dan sumber yang digunakan oleh lebih 350 syarikat dari pelbagai sektor untuk memantau rantai bekalan mereka. RMI membentuk&nbsp;
                         <a
                             target="_blank"

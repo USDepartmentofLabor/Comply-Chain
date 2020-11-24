@@ -32,7 +32,7 @@ const ms = () => {
               >
             Supplier Ethical Data Exchange (SEDEX)
              </a>
-             &nbsp;dan&nbsp;
+             *&nbsp;dan&nbsp;
              <a
                    target="_blank"
                    rel="noopener noreferrer"
@@ -120,30 +120,12 @@ const ms = () => {
                                           <Accordion.Panel>
 
                                           <p className="indent-margin">
-                                              Is there a social safety net in the country that protects
-                                              the most vulnerable&mdash;providing, among other things,
-                                              access to health care, income security for the elderly and
-                                              persons with disabilities, child benefits, and income
-                                              security for the unemployed and working poor? Are there
-                                              sufficient educational institutions to educate children
-                                              until they reach legal working age?
-                                          </p>
+                                                Adakah terdapat jaringan keselamatan sosial dalam negara untuk melindungi mereka yang mudah teraniaya - menyediakan, antara lain, akses kepada penjagaan kesihatan, keselamatan pendapatan untuk warga
+                                                emas dan orang kurang upaya, manfaat untuk kanak-kanak, dan keselamatan pendapatan untuk yang menganggur dan pekerja berpendapatan rendah? Adakah terdapat institusi pendidikan yang mencukupi untuk
+                                                mendidik kanak-kanak sehingga mereka mencapai umur bekerja yang sah?
+                                            </p>
                                       </Accordion.Panel>
                                   </Accordion.Section>
-
-                                        <Accordion.Section id="legal-reg-env-description">
-                                           <Accordion.Title>
-                                          Legal and regulatory environment
-                                              </Accordion.Title>
-                                              <Accordion.Panel>
-
-                                              <p className="indent-margin">
-                                                  Adakah terdapat jaringan keselamatan sosial dalam negara untuk melindungi mereka yang mudah teraniaya - menyediakan, antara lain, akses kepada penjagaan kesihatan, keselamatan pendapatan untuk warga
-                                                  emas dan orang kurang upaya, manfaat untuk kanak-kanak, dan keselamatan pendapatan untuk yang menganggur dan pekerja berpendapatan rendah? Adakah terdapat institusi pendidikan yang mencukupi untuk
-                                                  mendidik kanak-kanak sehingga mereka mencapai umur bekerja yang sah?
-                                              </p>
-                                          </Accordion.Panel>
-                                      </Accordion.Section>
                                         <Accordion.Section id="exist-init-org-description">
                                            <Accordion.Title>
                                          Keadaan Perundangan yang Sah dan Peraturan
