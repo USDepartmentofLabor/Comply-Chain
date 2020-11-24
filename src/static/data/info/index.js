@@ -110,7 +110,7 @@ export const Info = {
     },
      ms: {
             about: {
-                title: "About the Comply Chain App",
+                title: "Mengenai Aplikasi Rantai Patuh",
                 keywords: ["Child Labor", "Forced Labor"],
                 content: About.ms
             },
@@ -125,19 +125,19 @@ export const Info = {
                 content: KeyResources.ms
             },
             findings: {
-                title: "Findings on the Worst Forms of Child Labor Report",
+                title: "Penemuan Bentuk Terburuk dalam Laporan Buruh Kanak-Kanak",
                 keywords: [],
                 content: Findings.ms
             },
             goods: {
                 title:
-                    "List of Goods Produced by Child Labor or Forced Labor Report",
+                    "Laporan senarai barangan yang Dikeluarkan oleh Buruh Kanak-Kanak atau Buruh Paksa",
                 keywords: [],
                 content: Goods.ms
             },
             indenturedProductList: {
                  title:
-                 "List of Products Produced by Forced or Indentured Child Labor",
+                 "Senarai produk yang Dikeluarkan melalui Buruh Paksa atau Buruh Kontrak Kanak-Kanak",
                   keywords: [],
                   content: IndenturedProductList.ms
              }
