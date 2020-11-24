@@ -5,7 +5,7 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>List of Goods Produced by Child Labor or Forced Labor</h1>
+                <h1>Laporan senarai barangan yang Dikeluarkan oleh Buruh Kanak-Kanak atau Buruh Paksa</h1>
                 <p>
                     ILAB menyimpan senarai barangan dan negara asalnya yang dipercayai dibuat oleh buruh kanak-kanak atau buruh
                     paksa yang melanggar standard antarabangsa, yang dikehendaki di bawah Akta Membenarkan Semula Perlindungan Mangsa
