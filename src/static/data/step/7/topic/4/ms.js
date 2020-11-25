@@ -7,52 +7,38 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Scheduling Audits</h1>
+                <h1>Menjadualkan Audit</h1>
                 <p>
-                    If you are part of an industry or multi-industry group, the
-                    group&rsquo;s systems and processes may drive when and how
-                    you schedule audits. If you are pursuing a social compliance
-                    system on your own, you will have several decisions to make
-                    in scheduling your audits.
+                    Sekiranya anda sebahagian daripada industri atau kumpulan pelbagai industri, sistem dan proses kumpulan 
+                    menggerakkan bila dan bagaimana anda menjadualkan audit. Kalau anda inginkan sistem pematuhan sosial 
+                    sendiri, anda perlu membuat beberapa keputusan dalam menjadualkan audit. 
                 </p>
                 <p>
-                    First, if auditing is part of a pre-screening or
-                    pre-registration process (i.e., if you require potential
-                    suppliers to obtain a passing score on an audit before you
-                    will place your first order), you will schedule audits with
-                    these facilities as soon as you believe they are ready,
-                    based on their experience with audits and/or the training
-                    they have received. Once the supplier has passed the audit
-                    and been registered to supply to the company, audits should
-                    be repeated on a periodic basis, depending on the findings
-                    of the audit.
+                    Pertama, sekiranya proses sebelum menapis atau mendaftar adalah sebahagian daripada mengaudit (iaitu, 
+                    anda perlukan bakal pembekal mendapat markah lulus dalam proses audit sebelum membuat pesanan pertama), 
+                    anda akan menjadualkan audit di tempat tersebut sebaik sahaja anda fikir mereka sudah bersedia, 
+                    berdasarkan kepada pengalaman mereka dengan audit dan/atau latihan yang telah mereka terima. Selepas 
+                    pembekal lulus audit dan didaftar untuk menghantar bekalan kepada syarikat, audit patut diulang secara 
+                    berkala, bergantung kepada hasil audit.
                 </p>
                 <ExampleInAction id="prereg">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        Example in Action: Pre-Registration Processes
+                        Contoh dalam Tindakan: Proses sebelum mendaftar 
                     </h2>
                     <p>
-                        Many companies require a new supplier to earn a passing
-                        score on a social audit before the company will place
-                        any orders with that supplier. Typically, the company
-                        provides training to prepare the supplier for the audit,
-                        or may expect a vendor/agent to provide training to
-                        suppliers. Once a supplier passes an audit, some
-                        companies will then register each supplier in the social
-                        compliance information system; other companies&rsquo;
-                        information systems are web-based and allow suppliers to
-                        register themselves.
+                        Banyak syarikat memerlukan pembekal baru untuk mendapat markah lulus dalam audit sosial sebelum ia memesan 
+                        barang daripada pembekal tersebut.   Biasanya, syarikat itu menyediakan latihan bagi pembekal untuk audit, 
+                        atau mungkin menghendaki penjual/ejen menyediakan latihan untuk pembekal.   Selepas pembekal lulus audit, 
+                        ada syarikat yang kemudian mendaftar setiap pembekal dalam sistem informasi pematuhan sosial; ada juga yang 
+                        mempunyai sistem informasi berasaskan web dan membenarkan pembekal untuk mendaftar sendiri. 
                     </p>
                     <p>
-                        For example, Target Corporation* requires all vendors
-                        that supply Target branded products to complete a human
-                        rights and compliance assessment as part of the
-                        registration process. If a vendor proposes to source
-                        from a supplier that has a history of social compliance
-                        violations, Target requires a completed corrective
-                        action plan to remediate the violations before
-                        production begins. For more information, see{" "}
+                    Contohnya, Target Corporation* memerlukan semua penjual yang membekalkan produk dengan jenama Target untuk 
+                    melengkapkan penilaian hak asasi manusia dan pematuhan sebagai sebahagian daripada proses pendaftaran. Sekiranya 
+                    penjual mengesyorkan mendapat bekalan daripada pembekal dengan latar belakang mencabul pematuhan sosial, Target 
+                    memerlukan rancangan pembetulan lengkap untuk pemulihan sebelum pengeluaran bermula. Untuk maklumat lanjut, sila 
+                    lihat{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -66,46 +52,26 @@ const ms = () => {
                     </p>
                 </ExampleInAction>
                 <p>
-                    Companies with vast supply chains and/or dispersed suppliers
-                    typically conduct audits on a sampling basis. This is common
-                    with audits of agricultural producers, for example. Your
-                    sample should be random and statistically representative.
+                    Syarikat dengan rantai bekalan yang meluas dan/atau pembekal yang terdapat di pelbagai kawasan selalunya melakukan 
+                    audit berdasarkan contoh. Ini biasa dilakukan untuk mengaudit pengeluar produk pertanian, contohnya. Contoh yang 
+                    anda dapati harus dibuat secara rambang dan mewakili perkara lain dari segi statistik.
                 </p>
                 <p>
-                    Audits should be scheduled at times when code violations are
-                    most likely to occur. For example, in agriculture, child
-                    labor may be most likely to occur at harvest time. In
-                    manufacturing, labor issues are most likely to occur when
-                    facilities are at maximum production levels. Your risk
-                    assessment should provide information to feed in to these
-                    determinations.
-                </p>
-                <img
-                    id="img-browser"
-                    className="small-img"
-                    src={usDol}
-                    alt="agriculture child labor"
-                />
-                <p className="small-text">&copy;Shelley Stinelli/USDOL</p>
-                <p>
-                    Auditing of your supply chain should also be scheduled
-                    regularly. However, your audit team should also be ready to
-                    react quickly if a grievance is received regarding a
-                    particular worksite.
+                    Audit haruslah dijadualkan pada masa pencabulan kod dijangka akan berlaku. Contohnya, dalam pertanian, buruh 
+                    kanak-kanak mungkin terdapat pada musim menuai. Dalam pembuatan di kilang, isu buruh mungkin berlaku ketika 
+                    kilang di tahap pengeluaran maksimum. Penilaian risiko anda harus memberi maklumat dalam membuat kepastian. 
                 </p>
                 <p>
-                    Some companies allow suppliers to conduct their own
-                    self-audits, in which suppliers evaluate their own
-                    performance using the audit tools, and report it to the
-                    company. Typically, companies may allow this for suppliers
-                    who have established a pattern of excellent performance on
-                    audits, and/or for suppliers located in countries where the
-                    government has shown a pattern of effective labor law
-                    enforcement. It is still advisable to reserve the right to
-                    conduct additional audits on such suppliers. Self-auditing
-                    has the advantage of raising the capacity of suppliers, but
-                    results of self-auditing should still be verified by an
-                    independent party.
+                    Mengaudit rantai bekalan juga harus dijadualkan secara berkala. Bagaimanapun, pasukan audit juga harus bersedia 
+                    untuk bertindak segera sekiranya aduan diterima mengenai tempat kerja tertentu. 
+                </p>
+                <p>
+                    Ada syarikat yang membenarkan pembekal mereka untuk melakukan audit ke atas diri sendiri, di mana pembekal 
+                    menilai prestasi mereka sendiri menggunakan alat audit, dan melaporkan kepada syarikat. Biasanya, syarikat 
+                    membenarkan ini bagi pembekal yang telah menetapkan corak prestasi hebat dalam audit, dan/atau pembekal yang 
+                    berada di negara di mana kerajaan telah menunjukkan penguatkuasaan undang-undang yang berkesan. Masih 
+                    dinasihatkan untuk diberi hak melakukan audit bagi pembekal seperti itu. Mengaudit diri sendiri ada kebaikan 
+                    dalam membina keupayaan pembekal, tetapi hasil mengaudit diri sendiri sepatutnya disahkan oleh pihak bebas. 
                 </p>
             </div>
         </StaticData>

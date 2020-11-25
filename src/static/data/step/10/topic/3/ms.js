@@ -11,59 +11,42 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>What to Include in Public Reporting </h1>
+            <h1>Apa patut dimuatkan dalam Laporan Awam</h1>
                 <p>
-                    Public reports should include a description and discussion
-                    of all elements of the social compliance system, from the
-                    code of conduct, to community and multi-stakeholder
-                    involvement, risk assessment, training, auditing,
-                    remediation, independent verification and efforts to address
-                    root causes. Reports should also discuss the implementing
-                    environments in which the company&rsquo;s social compliance
-                    system operates, and the challenges in those environments.
-                    Many social compliance reports also highlight the various
-                    individuals and organizations partnering with the company to
-                    help achieve the program&rsquo;s goals.
+                    Laporan awam patut termasuk gambaran dan perbincangan semua elemen sistem pematuhan sosial, dari kod tingkah 
+                    laku, kepada komuniti dan penglibatan pelbagai pihak berkepentingan, penilaian risiko, latihan, mengaudit, 
+                    pemulihan, pengesahan bebas dan usaha untuk menangani penyebab akar. Laporan juga patut membincangkan 
+                    pelaksanaan alam sekitar di mana sistem pematuhan sosial syarikat beroperasi, dan cabaran dalam alam sekitar 
+                    tersebut. Banyak laporan pematuhan sosial juga menonjolkan pelbagai individu dan pertubuhan yang bekerjasama 
+                    dengan syarikat untuk membantu bagi mencapai matlamat program.
                 </p>
                 <p>
-                    Reports should be written in straightforward language that
-                    diverse audiences can understand and translated into
-                    relevant languages. They should present the aspects of the
-                    system that are working well, and also the elements that
-                    have been less successful, including lessons learned and
-                    plans for improvement. Being open about weaknesses while
-                    showing that the company understands and is actively
-                    addressing them is an important aspect of accountability in
-                    public reports.
+                    Laporan patut ditulis dengan bahasa yang berterus terang yang berbagai penonton atau pembaca boleh faham dan 
+                    menterjemahkan ke bahasa yang ditutur. Ia harus membincangkan aspek sistem yang bekerja dengan baik, dan juga 
+                    elemen yang kurang berjaya, termasuk apa yang boleh dipelajari dan rancangan untuk pembaikan. Bila berbincang 
+                    dengan terbuka kelemahan sambil menunjukkan yang syarikat memahami dan sedang menanganinya secara aktif 
+                    menunjukkan aspek penting iaitu kebertanggungjawapan dalam laporan awam.
                 </p>
                 <p>
-                    It is important that public reporting, while maximizing
-                    transparency, at the same time avoids posing any risks to
-                    specific individuals or organizations. This could include
-                    workers, suppliers and other stakeholders. It is also
-                    important to keep in mind commercial confidentiality
-                    considerations.
+                    Adalah penting yang laporan awam, sambil mementingkan ketelusan, pada masa yang sama, mengelakkan risiko 
+                    kepada individu atau pertubuhan tertentu. Ini juga termasuk pekerja, pembekal, dan pihak berkepentingan yang 
+                    lain. Juga penting untuk memikirkan tentang hal yang sulit dalam perniagaan.
                 </p>
                 <p>
-                    If your social compliance report is embedded within a larger
-                    company sustainability or CSR report, guidance is available
-                    for developing such reports. A recommended resource is the{" "}
+                    Sekiranya laporan pematuhan sosial anda termasuk dalam laporan kelestarian syarikat atau CSR, panduan terdapat 
+                    untuk mengeluarkan laporan seperti itu. Rujukan yang disarankan ialah{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.globalreporting.org/Pages/default.aspx"
                     >
                         Global Reporting Initiative (GRI)
-                    </a>
-                    , a network-based organization that&nbsp;produces a
-                    reporting framework widely used by companies around the
-                    world. The GRI framework sets out principles and performance
-                    indicators for reporting on companies&rsquo; environmental,
-                    social and governance performance. The framework is
-                    developed through multi-stakeholder,
-                    consensus-building&nbsp;process that includes business,
-                    civil society, labor, and academic&nbsp;and professional
-                    institutions. GRI makes available a{" "}
+                    </a>{" "}
+                    Global Reporting Initiative (GRI), pertubuhan berdasarkan rangkaian yang mengeluarkan kerangka laporan yang 
+                    banyak digunakan oleh syarikat-syarikat seluruh dunia. Kerangka GRI menetapkan prinsip dan penunjuk prestasi 
+                    untuk laporan mengenai alam sekitar, sosial dan prestasi tadbir urus syarikat. Kerangka dibentuk melalui 
+                    pelbagai pihak berkepentingan, proses membina konsensus yang termasuk perniagaan, masyarakat sivil, buruh, 
+                    dan institusi akademik dan profesional. GRI menyediakan{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -72,11 +55,10 @@ const ms = () => {
                     >
                         database
                     </a>{" "}
-                    of company CSR and sustainability reports for free public
-                    use.&nbsp;
+                    CSR syarikat dan laporan kelestarian bagi kegunaan awam secara percuma.
                 </p>
                 <p>
-                    Another recommended resource is the{" "}
+                    Satu lagi rujukan yang disarankan ialah{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -85,9 +67,8 @@ const ms = () => {
                     >
                         UN Guiding Principles Reporting Framework
                     </a>
-                    . This Reporting Framework provides comprehensive guidance
-                    and a questionnaire through which companies can benchmark
-                    their performance against the{" "}
+                    . Kerangka Laporan yang menyediakan panduan komprehensif dan soalan di mana syarikat boleh membandingkan penanda 
+                    aras prestasi mereka dengan{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -96,8 +77,48 @@ const ms = () => {
                     >
                         UN Guiding Principles on Business and Human Rights
                     </a>{" "}
-                    and report on how they are implementing them. The civil
-                    society organization Shift publishes the{" "}
+                    dan melaporkan tentang bagaimana mereka melaksanakannya.
+                    </p>
+                    <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ungpreporting.org/framework-guidance/"
+                    >
+                    UN Guiding Principles Reporting Framework Guidance
+                    </a>{" "}
+                    dibahagi kepada tiga bahagian:
+                    </p>
+                    <ul>
+                    <li>Bahagian A: Tadbir Urus Menghormati Hak Asasi Manusia
+                    <ul>
+                    <li>Komitmen Dasar</li>
+                    <li>Penerapan Menghormati Hak Asasi Manusia</li>
+                    </ul>
+                    </li>
+                    <br />
+                    <li>Bahagian B: Menetapkan Fokus Laporan
+                    <ul>
+                    <li>Kenyataan isu penting</li>
+                    <li>Mengenal pasti Isu penting</li>
+                    <li>Pilihan kawasan tumpuan</li>
+                    <li>Impak layanan tambahan</li>
+                    </ul>
+                    </li>
+                    <br />
+                    <li>Bahagian C: Pengurusan Isu Penting Hak Asasi Manusia
+                    <ul>
+                    <li>Dasar-dasar Khusus</li>
+                    <li>Penglibatan Pihak Berkepentingan</li>
+                    <li>Menilai Impak</li>
+                    <li>Menggabungkan Penemuan dan Mengambil Tindakan</li>
+                    <li>Menjejak Prestasi</li>
+                    <li>Pemulihan</li>
+                    </ul>
+                    </li>
+                    </ul>
+                    <p>
+                        Pertubuhan masyarakat sivil bernama Shift menerbitkan{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -106,234 +127,316 @@ const ms = () => {
                     >
                         UN Guiding Principles Reporting Database
                     </a>
-                    , where companies can submit public disclosures of their
-                    implementation of the UN Guiding Principles on Business and
-                    Human Rights for review by the Reporting Database&rsquo;s
-                    analysts.
+                    , di mana syarikat boleh menghantar pengumuman awam mengenai Perniagaan dan Hak Asasi Manusia PBB 
+                    untuk kajian oleh penganalisa Laporan Pangkalan Data.
                 </p>
                 <p>
-                    Below are some general guidelines on content to include in a
-                    social compliance set.
+                    Berikut adalah panduan awam mengenai kandungan yang boleh dimuatkan dalam laporan pematuhan sosial:
                 </p>
-                        <h2>Risk Assessment and Due Diligence</h2>
-                        <p>A description of the{" "}
-                        <strong>risk assessment and due diligence</strong>{" "}
-                        processes a company undertakes in its supply chains.</p>
+                <h2>Penilaian Risiko dan Proses Ketekunan Wajar</h2>
+                <p>
+                    Penjelasan mengenai penilaian risiko dan ketekunan wajar yang sebuah syarikat jalankan dalam rantai bekalannya. 
+                </p>
+                <h2>Negara Sumber</h2>
+                <p>
+                    Negara di mana syarikat mendapat sumber. Sekiranya ada negara di mana buruh kanak-kanak atau buruh paksa 
+                    banyak didapati, situasi ini patut dibincangkan.
+                </p>
+                <h2>Pembekal Peringkat 1</h2>
+                <p> <strong>Pembekal Anda </strong> Contohnya, syarikat elektronik <strong>Hewlett-Packard* </strong>
+                telah menyediakan{" "}
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/supplychain.html?jumpid=in_r138_us/en/corp/sustainability/main-menu-society"
+                    title="supplier list"
+                >
+                    supplier list
+                </a>{" "}
+                kepada awam sejak 2007 dan Target Corporation* menerbitkan{" "}
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Global-Factory-List_-Q3-2019.pdf"
+                    title="list"
+                >
+                    a list
+                </a>{" "}
+                semua kilang-kilang, kilang tekstil dan tempat memproses bahan basah bagi produk berjenama milik Target.</p>
 
-                        <h2>Sourcing Countries</h2>
+                <h2>Kilang/Ladang/Lombong Melepasi Peringkat 1</h2>
 
-                        <p>The <strong>countries </strong>from which a company
-                        sources. If there are countries where particular child
-                        labor or forced labor issues have been prevalent, these
-                        situations should be discussed.</p>
-                        <h2>Tier 1 Suppliers</h2>
-                       <p> <strong>Your suppliers.</strong> For example,
-                        electronics company <strong>Hewlett-Packard* </strong>
-                        has made its{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/supplychain.html?jumpid=in_r138_us/en/corp/sustainability/main-menu-society"
-                            title="supplier list"
-                        >
-                            supplier list
-                        </a>{" "}
-                        public since 2007 and Target Corporation* publishes{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Global-Factory-List_-Q3-2019.pdf"
-                            title="list"
-                        >
-                            a list
-                        </a>{" "}
-                        of all factories, textile and wet processing facilities
-                        producing Target owned-brand products.</p>
+                <p>
+                    Kilang/ladang/lombong dari mana anda dan/atau pembekal anda mendapati sumber. Penerbitan senarai kilang adalah 
+                    trend yang semakin digunakan oleh banyak syarikat yang inginkan tanggungjawab sosial dan alam sekitar yang 
+                    lebih besar. Contohnya, peruncit pakaian sukan{" "}
+                <strong>Patagonia*</strong> menerbitkan{" "}
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.patagonia.com/working-with-factories.html"
+                >
+                    list of the factories producing its products
+                </a>{" "}
+                dan juga{" "}
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="http://www.patagonia.com/footprint.html"
+                    title="interactive map"
+                >
+                    interactive map
+                </a>{" "}
+                menunjukkan kilang, ladang dan pengisar. Perincian termasuk lokasi, jumlah pekerja, dan produk yang dikeluarkan.
+                </p>
+                <OwnWords>
+                    <h2>
+                        <OwnWords.Icon alt="Feedback"/> <strong>Dengan kata-kata mereka sendiri:</strong>
+                        {": "}
+                    </h2>
+                    <p>
+                        “Semua pembekal ini bersungguh-sungguh mahu mencari jalan untuk mengurangkan kos. Satu sahaja aspek yang mereka 
+                        boleh kawal iaitu mengawal buruh.”
+                    </p>
+                    <p>
+                    - Scott Nova, pengarah eksekutif {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.workersrights.org/"
+                        title="Workers Rights Consortium"
+                    >
+                        Workers Rights Consortium
+                    </a>{""}
 
-                        <h2>Factories/Farms/Mines Beyond Tier 1</h2>
+                        ,* 
+                        satu kumpulan yang memantau dan menyiasat keadaan buruh dalam kilang seluruh dunia, dalam temu ramah dengan {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.theatlantic.com/business/archive/2015/06/patagonia-labor-clothing-factory-exploitation/394658/"
+                        title="The Atlantic in 2015"
+                    >
+                        The Atlantic in 2015
+                    </a>{""}
+                        
+                        . 
+                        </p>
+                </OwnWords>
+                    <h2>Metrik untuk Mengukur Kemajuan</h2>
+                    <p><strong>Metrik</strong> atau Penunjuk Prestasi Utama (KPI) yang program pematuhan sosial anda gunakan untuk mengukur 
+                    kemajuan, dan prestasi anda bertentangan dengan metrik tersebut. Apabila mengira prestasi terhadap metrik, penting bagi 
+                    syarikat untuk memisahkan prestasi dalam syarikat daripada pelaksanaan syarikat dalam rantai bekalan. Menggabungkan 
+                    kedua-duanya boleh menyembunyikan keadaan sebenar prestasi rantai bekalan.</p>
 
-                        <p>The <strong>factories/farms/mines</strong> from which
-                        you and/or your suppliers source. Publication of factory
-                        lists is a growing trend for many companies pursuing
-                        greater social and environmental responsibility. For
-                        example, outdoor sports gear retailer{" "}
-                        <strong>Patagonia*</strong> publishes a{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/working-with-factories.html"
-                        >
-                            list of the factories producing its products
-                        </a>{" "}
-                        as well as an{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.patagonia.com/footprint.html"
-                            title="interactive map"
-                        >
-                            interactive map
-                        </a>{" "}
-                        showing factory name, address, goods produced, languages
-                        spoken, and the number of employees by gender.</p>
-                         <OwnWords>
-                                                            <h2>
-                                                                <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
-                                                                {": "}
-                                                            </h2>
-                                                            <p>
-                                                                <b>PLACEHOLDER FOR TEXT</b>
-                                                            </p>
-                                                        </OwnWords>
-                        <h2>Metrics to Measure Progress</h2>
-                        <p>The <strong>metrics </strong>or Key Performance
-                        Indicators (KPIs) your social compliance program uses to
-                        measure progress, and your performance against those
-                        metrics. When calculating performance against metrics,
-                        it is important for many companies to segregate
-                        performance within the company from performance in the
-                        company&rsquo;s supply chain. Aggregating the two can
-                        mask the realities of supply chain performance.</p>
+                    <h2>Kod Tingkah Laku</h2>
+                    <p><strong>Kod Tingkah Laku</strong>, dan bahagian yang termasuk dalam rantai bekalan anda, termasuk kajian atau kemas 
+                    kini kod yang mungkin telah berlaku dalam waktu lapora.</p>
 
-                        <h2>Code of Conduct</h2>
-                        <p>Your <strong>code of conduct</strong>, and the areas of
-                        your supply chain it covers, including any reviews or
-                        updates to the code that have occurred in the reporting
-                        period.</p>
+                    <h2>Penglibatan dengan pihak berkepentingan</h2>
+                    <p>Penerangan tentang <strong>penglibatan anda dengan pihak berkepentingan</strong> dan komuniti tempatan, termasuk kumpulan pelbagai 
+                        pihak berkepentingan di mana anda terlibat, perkhidmatan luar sebagai sebahagian risiko penilaian anda, dan perkhidmatan luar yang 
+                        lain dan mekanisme rungutan.</p>
 
-                      <h2>Engagement with Stakeholder</h2>
-                        <p>A description of your{" "}
-                        <strong>engagement with stakeholders</strong> and local
-                        communities, including multi-stakeholder groups with
-                        which you are involved, outreach as part of your risk
-                        assessment, other outreach and grievance
-                        mechanisms.&nbsp;</p>
+                    <h2>Program Latihan</h2>
+                    <p>Gambaran keseluruhan program <strong>latihan pematuhan</strong> sosial di sepanjang rantai pematuhan anda</p>
 
-                         <h2>Training programs</h2>
-                         <p>An overview of your social compliance{" "}
-                        <strong>training programs</strong> throughout your
-                        supply chains.</p>
+                    <h2>Data Audit Sosial</h2>
+                    <p><strong>Data audit sosial </strong>Data harus komprehensif dan khusus sebaik mungkin. Ada syarikat yang menerbitkan laporan audit 
+                    penuh, dan yang lain pula mengumpulkan data audit dan menerbitkannya dalam bentuk terkumpul. Contohnya, <strong>FLA*</strong> menerbitkan {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
+                        title="Workplace Monitoring Reports"
+                    >
+                        &ldquo;Workplace Monitoring Reports&rdquo;
+                    </a>{" "}
+                    dalam laman webnya yang mengandungi data lengkap yang dijalankan dalam kilang-kilang, dan juga tindakan yang diambil oleh syarikat 
+                    yang berkaitan dengan FLA bagi menangani penemuan tersebut. Laman web{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://sustainability.hm.com/en/sustainability/downloads-resources/resources/supplier-compliance.html"
+                        title="Hennes and Mauritz"
+                    >
+                        Hennes &amp; Mauritz (H&amp;M)
+                    </a>
+                    * memberikan data mengenai prestasi pematuhan sosial bagi semua pembekal peringkat pertama. </p>
+                    <h2>Dasar Pemulihan</h2>
+                    <p>Gambaran <strong>dasar pemulihan</strong> anda apabila pencabulan hak didapati.</p>
 
-                        <h2>Social Audit Data</h2>
-                        <p><strong>Social audit data. </strong>This data should be
-                        as comprehensive and specific as possible. Some
-                        companies publish full audit reports, while others
-                        aggregate audit data and publish it in compiled form.
-                        For example, the <strong>FLA</strong> publishes{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
-                            title="Tracking Charts"
-                        >
-                            &ldquo;Tracking Charts&rdquo;
-                        </a>{" "}
-                        on its website that contain complete data from every
-                        audit carried out on factories, as well as the actions
-                        taken by FLA-affiliated companies to address the
-                        findings. The{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://sustainability.hm.com/en/sustainability/downloads-resources/resources/supplier-compliance.html"
-                            title="Hennes and Mauritz"
-                        >
-                            Hennes &amp; Mauritz (H&amp;M)
-                        </a>
-                        * website provides data on social compliance performance
-                        for all first tier suppliers.{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.pmi.com/resources/docs/default-source/pmi-sustainability/alp_code.pdf?sfvrsn=239bb0b5_0"
-                            title="Philip Morris International"
-                        >
-                            Philip Morris International
-                        </a>
-                        * publishes its own monitoring reports as well as those
-                        carried out by third-party monitors. </p>
+                    <h2>Hasil Penilaian Pengesahan Bebas</h2>
+                        <p>Hasil dari penilaian pengesahan bebas anda, dan perbincangan tentang bagaimana anda menggabungkan penemuan 
+                            tersebut dan langkah yang anda ambil.</p>
 
-                    <h2>Independent Verification Assessment Results</h2>
-                        <p>Results from your{" "}
-                        <strong>independent verification</strong> assessment,
-                        and a discussion of how you are integrating and
-                        responding to those findings.</p>
+                    <h2>Maklumat mengenai pengawasan dalaman dan kebertanggungjawapan</h2>
+                       <p> Mengenai pengawasan dalaman dan kebertanggungjawapan untuk program pematuhan sosial, termasuk untuk menjelaskan 
+                           siapa yang bertanggungjawab untuk program, dan penglibatan peringkat Lembaga dan Ketua Eksekutif.</p>
 
-                    <h2>Information on internal oversight and accountability</h2>
-                       <p> Information on{" "}
-                        <strong>internal oversight and accountability</strong>{" "}
-                        for the social compliance program, including to clarify
-                        who is responsible for the program, and the Board and
-                        CEO&rsquo;s levels of involvement.</p>
+                    <h2>Cabaran dan Pengajarannya</h2>
+                        <p>Perbincangan mengenai cabaran yang dihadapi program pematuhan sosial, pengajarannya, dan juga usaha anda untuk 
+                            menangani penyebab akar penderaan buruh.</p>
 
-                    <h2>Challenges and lessons learned</h2>
-                        <p>A discussion of the <strong>challenges</strong> your
-                        social compliance program faces,{" "}
-                        <strong>lessons learned</strong>, as well as your
-                        efforts to address root causes of labor abuse.</p>
+                    <h2>Kajian Kes Aktiviti</h2>
+                        <p>Kajian kes atau aktiviti khusus yang terserlah waktu tempoh laporan.</p>
 
-                    <h2>Case Studies of Activities</h2>
-                        <p>Case studies or{" "}
-                        <strong>highlights of specific activities</strong>{" "}
-                        during the reporting period.</p>
-
-                    <h2>Feedback procedures</h2>
-                        <p><strong>Procedures for providing feedback</strong> on
-                        the report.</p>
+                    <h2>Prosedur maklum balas</h2>
+                        <p>Prosedur untuk memberi maklum balas mengenai laporan.</p>
 
                     <ExampleInAction id="nike">
-                                        <h2>
-                                            <ExampleInAction.Icon alt="Lightbulb"/>
-                                            <strong>
-                                                Example in Action: Unilever&#39;s Palm Oil Supply Chain
-                                            </strong>
-                                        </h2>
-                                        <p>
-                                        <br />
-                                        </p>
-                                    </ExampleInAction>
-                                    <br />
-                     <ExampleInAction id="nike">
-                                     <h2>
-                                         <ExampleInAction.Icon alt="Lightbulb"/>
-                                         <strong>
-                                             Example in Action: Unilever&#39;s Palm Oil Supply Chain
-                                         </strong>
-                                     </h2>
-                                     <p>
-                                     <br />
-                                     </p>
-                                 </ExampleInAction>
+                        <h2>
+                            <ExampleInAction.Icon alt="Lightbulb"/>
+                            <strong>
+                                Contoh dalam Tindakan: Rantai Bekalan Minyak Sawit Unilever* 
+                            </strong>
+                        </h2>
+                        <p>
+                            Apa yang membuat ais krim licin dan berlemak dan membuat coklat tidak cair?  Jawapannya ialah minyak sawit 
+                            yang terdapat dalam kira-kira separuh daripada produk bungkusan yang kita beli di pasaraya.  Minyak sawit 
+                            berada dalam semua produk dari lipstik kepada tepung piza, dari krim tanpa susu kepada pembersih automotif.
+                            Ia bahkan digunakan untuk membuat bahan bakar diesel.  Walaupun penanaman kelapa sawit telah menjadi enjin 
+                            penting dalam perkembangan ekonomi di dunia, termasuk di Asia Tenggara, yang menyumbang lebih daripada 85 
+                            peratus produk dunia, bekalannya sering tercemar oleh masalah buruh kanak-kanak.  Di Indonesia dan Malaysia, 
+                            contohnya, kanak-kanak bekerja bersama ibu bapa, yang sering perlu memenuhi kuota penuaian untuk mengelakkan 
+                            potongan gaji dan hukuman yang lain.  Di ladang, mereka terdedah kepada bahan kimia beracun dan berkemungkinan 
+                            besar boleh tercedera ketika memikul bebanan yang berat.  Kanak-kanak yang bekerja keras dalam industri kelapa 
+                            sawit - sama ada di Asia Tenggara, Afrika, atau Amerika Selatan - sering bekerja berjam-jam dan tidak pergi ke 
+                            sekolah.  Apakah yang dilakukan pengeluar dan peruncit terkemuka untuk memerangi masalah buruh kanak-kanak 
+                            dalam bekalan sawit global, dan bagaimanakah pengguna boleh membuat pilihan tepat di pasaraya?
+                        </p>
+                        <p>
+                        Hasil berkaitan dengan {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.unilever.com/Images/unilever-palm-oil-policy-2016_tcm244-479933_en.pdf"
+                                title="Sustainable Palm Oil Sourcing Policy"
+                            >
+                                Sustainable Palm Oil Sourcing Policy
+                            </a>                                        
+                            , syarikat pengguna Unilever milik British-Belanda mendedahkan senarai penuh pembekalnya pada 2017 dan terus 
+                            mengambil langkah untuk mengemas kini senarai {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.unilever.com/Images/-palm-oil-suppliers_updated-january-2019_tcm244-530096_en.pdf"
+                                title="suppliers"
+                            >
+                                suppliers
+                            </a> {" "}
+                                         
+                                dan mendedahkan senarai yang sama bagi kedua-dua {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.unilever.com/Images/-unilever-s-universal-palm-oil-mill-list_h1-2018_final_tcm244-530097_1_en.pdf"
+                                title="mills"
+                            >
+                                mills
+                            </a> {" "}
+                                        
+                            dan {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.unilever.com/Images/-unilever-s-universal-palm-oil-refinery-list_h1-2018_final_tcm244-530098_1_en.pdf"
+                                title="refineries"
+                            >
+                                refineries
+                            </a>                                       
+                            . Usaha ini adalah langkah ke arah positif bagi menunjukkan apa yang kompleks terdapat di bawah bahan yang biasa kita dapati dalam pencuci mulut kegemaran kita: ais krim coklat.  
+                            </p>
+                            <p>
+                            Sumber:{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.unilever.com/sustainable-living/reducing-environmental-impact/sustainable-sourcing/transforming-the-palm-oil-industry/improving-the-visibility-of-our-supply-chain/"
+                                    title="unilever supply chain"
+                                >
+                                    https://www.unilever.com/sustainable-living/reducing-environmental-impact/sustainable-sourcing/transforming-the-palm-oil-industry/improving-the-visibility-of-our-supply-chain/
+                                </a>.  
+                            </p>
+                            <p>
+                                Sumber:{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor/indonesia"
+                                    title="indonesia report"
+                                >
+                                    https://www.dol.gov/agencies/ilab/resources/reports/child-labor/indonesia
+                                </a>.  
+                            </p>
+                            <p>
+                                Sumber:{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.dol.gov/sites/dolgov/files/ILAB/ListofGoods.pdf"
+                                    title="ilab list of goods"
+                                >
+                                    https://www.dol.gov/sites/dolgov/files/ILAB/ListofGoods.pdf
+                                </a>.  
+                            </p>
+                    </ExampleInAction>
+                    <br />
+                    <ExampleInAction id="nike">
+                        <h2>
+                            <ExampleInAction.Icon alt="Lightbulb"/>
+                            <strong>
+                            Contoh dalam Tindakan: Usaha HP Inc.* untuk membasmi risiko berkaitan dengan konflik dari rantai bekalannya. 
+                            </strong>
+                        </h2>
+                        <p>
+                            HP Inc. (HP) adalah syarikat multinasional teknologi informasi Amerika yang mengeluarkan komputer peribadi, 
+                            alat pencetak, dan alat berkaitan dengannya.   Malah, HP adalah penjual komputer peribadi terbesar di dunia. 
+                            Pembuatan komputer peribadi menggunakan sedikit bahan logam, seperti tantalum, timah, tungsten, dan emas. 
+                            Sayangnya, beberapa kumpulan telah cuba meraih pendapatan dengan melombong mineral-mineral ini—semuanya dikenali 
+                            sebagai “3TGs” untuk membiayai pencabulan hak asasi manusia di Republik Demokratik Congo dan negara-negara jirannya. 
+                            HP, seperti banyak syarikat lain, mempunyai kawalan secara langsung ke atas semua pembekal Peringkat 1; 
+                            bagaimanapun, penderaan yang terus berlaku memerlukan syarikat untuk mencari jalan bagi mempengaruhi kelakuan 
+                            pembekal yang dekat dengan sumber bahan, terutamanya pelebur logam.
+                        </p>
+                        <p>
+                            Dalam usaha untuk mengehadkan konflik bercampur dengan mineral dalam rantai bekalannya, HP mendesak pembekal 
+                            mendapatkan sumber 3TG dari pelebur logam yang mematuhi {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="http://www.responsiblemineralsinitiative.org/about/rmi-initiative/"
+                                title="Responsible Minerals Initiative&rsquo;s (RMI) Responsible Minerals Assurance Process 
+                                (RMAP)"
+                            >
+                                Responsible Minerals Initiative&rsquo;s (RMI) Responsible Minerals Assurance Process 
+                                     (RMAP)
+                            </a>
+                                     
+                            , yang memerlukan audit pihak ketiga.  RMAP dan RMI adalah produk Pakatan Perniagaan Bertanggungjawab (RBA)—sebuah 
+                            badan bukan kerajaan terdiri daripada syarikat elektronik, peruncit, automotif, dan syarikat permainan, termasuk HP, 
+                            yang komited untuk menyokong hak dan kesejahteraan pekerja dan komuniti di seluruh dunia yang terkesan oleh rantai 
+                            bekalan global. 
+                        </p>
+                        <p>
+                            HP menilai prestasi pembekal melalui contoh laporan dan meminta tindakan pembetulan, seperti mengeluarkan pelebur 
+                            logam yang berisiko.   Yang pentingnya, kerja HP dalam usaha ini menyerlahkan nilai inisiatif pihak pelbagai kepentingan 
+                            dan mempengaruhi pendedahan kepada awam dan laporan yang betul untuk membawa perubahan dalam industri dan menggalakkan 
+                            usaha kerjasama bagi menangani risiko yang besar dan boleh membawa maut.
+                        </p>
+                        <p>
+                            Sumber: {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www8.hp.com/us/en/hp-information/global-citizenship/human-progress/conflictminerals.html"
+                                title="hp human progress conflictminerals"
+                            >
+                                https://www8.hp.com/us/en/hp-information/global-citizenship/human-progress/conflictminerals.html
+                            </a>.  
+                        </p>
+                    </ExampleInAction>
                              <br />
-                      <ExampleInAction id="nike">
-                                          <h2>
-                                              <ExampleInAction.Icon alt="Lightbulb"/>
-                                              <strong>
-                                                  Example in Action: Nike: Reporting on Remediation
-                                              </strong>
-                                          </h2>
-                                          <p>
-                                              In 2008, media reports put a spotlight on Hytex Apparel,
-                                              Inc.*, a Malaysian company contracting with Nike, Inc.
-                                              The reports focused on mistreatment of hundreds of
-                                              migrant workers. Nike investigated and found that
-                                              although Hytex was not breaking any of Malaysian
-                                              immigration law, the dormitories for workers did not
-                                              meet Nike&rsquo;s standards. In addition, several of
-                                              Hytex&rsquo;s practices, including wage garnishment and
-                                              withholding of personal documents such as passports,
-                                              were in violation of Nike&rsquo;s supplier code of
-                                              conduct even if not of national law.&nbsp;
-                                          </p>
-                                          <p>
-                                              Nike worked with Hytex to return documents to workers,
-                                              repay workers their garnished wages and improve the
-                                              dormitories. Hytex also agreed to cover expenses for
-                                              workers who wanted to return to their home countries.
-                                              The situation with Hytex spurred Nike to develop its
-                                              current policies and code provisions on migrant labor.
-                                          </p>
-                                      </ExampleInAction>
             </div>
         </StaticData>
     );

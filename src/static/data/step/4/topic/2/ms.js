@@ -5,29 +5,18 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Assessing Internal Impacts and Risk Factors</h1>
+                <h1>Menilai Kesan Dalaman dan Faktor Risiko</h1>
                 <p>
-                    Any risk and impact assessment process should begin with a
-                    thorough examination of a company&rsquo;s processes and the
-                    ways in which you may be causing&mdash;or at risk of
-                    causing&mdash;child and forced labor abuse through your own
-                    practices.&nbsp;
+                    Mana-mana proses penilaian risiko dan impak patut bermula dengan pemeriksaan teliti pemprosesan dan cara yang mungkin menyebabkan -
+                    atau ada risiko menyebabkan - penganiayaan buruh kanak-kanak dan buruh paksa melalui amalan anda.
                 </p>
                 <p>
-                    For instance, it is widely acknowledged that rush orders and
-                    last-minute changes in specifications can cause problems in
-                    production facilities with respect to worker hours, working
-                    conditions, compensation issues, outsourcing, and risks of
-                    forced labor. Similarly, companies may have social
-                    compliance systems in place that collect and track data on
-                    their suppliers&rsquo; compliance with their code of
-                    conduct, yet they continue placing orders with the suppliers
-                    that have poor compliance records. This sends a signal to
-                    suppliers that social compliance does not really matter, and
-                    negates any incentive to improve performance. The best way
-                    to mitigate these impacts is to integrate social compliance
-                    within all relevant units of a company. One resource that
-                    discusses this issue in depth is{" "}
+                    Sebagai contoh, memang diketahui umum bahawa pesanan segera dan pesanan pada saat akhir, boleh menimbulkan masalah di kilang pengeluaran
+                    berkaitan dengan waktu bekerja, keadaan tempat kerja, isu upah, pekerja tambahan dari luar, dan risiko buruh paksa. Sama juga, syarikat yang
+                    mempunyai sistem pematuhan sosial yang mengumpul dan mengesan data mengenai pematuhan pembekal dengan kod tingkah laku, tetapi mereka terus
+                    mendapatkan pesanan dengan pembekal yang mempunyai rekod pematuhan yang buruk. Ini memberi isyarat kepada pembekal bahawa pematuhan sosial
+                    tidak dihiraukan, dan tidak memberi insentif untuk memperbaiki prestasi kerja. Cara terbaik untuk mengurangkan kesan ini ialah dengan pematuhan
+                    sosial di dalam unit yang relevan di dalam syarikat. Suatu sumber bahan yang membincangkan isu ini dengan mendalam ialah{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -43,22 +32,13 @@ const ms = () => {
                     <em>.</em>
                 </p>
                 <p>
-                    As with assessment of external impacts (see below), this
-                    internally-focused assessment process should be ongoing, not
-                    a one-time exercise. Impacts and risks should be assessed
-                    prior to major business decisions or changes in operation,
-                    and at periodic intervals. It is often useful to engage
-                    external experts in such an assessment of a company&rsquo;s
-                    internal processes and practices (see Information
-                    Gathering).
+                    Seperti penilaian impak luaran (sila lihat berikut), penilaian yang memberi fokus proses dalaman seharusnya berterusan, dan tidak cuma dilakukan sekali sahaja.
+                    Impak dan risiko patut dinilai sebelum membuat keputusan perniagaan utama atau menukar operasi, dan dibuat sekali-sekala. Sangat berguna untuk melibatkan pakar
+                    luar dalam penilaian proses dalaman syarikat dan amalannya (lihat Mengumpul Maklumat).
                 </p>
                 <p>
-                    If, after examining these processes and practices, you
-                    discover abuses that you have already caused or to which you
-                    have contributed, you should actively engage in remediation.
-                    If you identify risks, these should be mitigated or
-                    prevented by engaging in a process of internal change with
-                    all relevant actors in the company.
+                    Kalau, selepas memeriksa proses dan amalan, anda dapat tahu berlakunya penganiayaan telah anda lakukan atau anda telah menyebabkannya, anda seharusnya segera mencari
+                    jalan untuk memperbaiki keadaan. Kalau anda mengenal pasti risiko, ianya harus dikurangkan atau dicegah dengan melibatkan proses perubahan dalaman dengan melibatkan semua pelaku dalam syarikat.
                 </p>
             </div>
         </StaticData>

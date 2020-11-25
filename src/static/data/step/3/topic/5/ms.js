@@ -6,130 +6,16 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Industry Associations and Initiatives</h1>
+                <h1>Inisiatif dan Persatuan Industri</h1>
                 <p>
-                    Another way to identify and engage stakeholders and partners
-                    is through industry-led platforms, industry associations and
-                    industry-specific initiatives. Examples are below.
+                    Satu lagi cara untuk mengenalpasti dan melibatkan pihak berkepentingan dan rakan kongsi ialah melalui
+                    platform yang dipimpin oleh industri, persatuan industri dan inisiatif industri khusus. Contoh seperti berikut.
                 </p>
-                <ExampleInAction id="sug_phil">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>
-                            Example in Action: Eliminating Child Labor in
-                            Tobacco-Growing (ECLT) Foundation
-                        </strong>
-                    </h2>
-                    <p>
-                        Launched in 2002, the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.eclt.org/"
-                            title="ECLT Foundation"
-                        >
-                            ECLT Foundation
-                        </a>{" "}
-                        employs a multi-stakeholder approach in preventing child
-                        labor in tobacco production and in protecting and
-                        improving the lives of children in tobacco growing
-                        areas. The ECLT Foundation&rsquo;s efforts follow a
-                        tripartite model that includes governments, trade
-                        unions, and employers, as well as civil society
-                        organizations, public sector representatives, and other
-                        stakeholders that address child labor in tobacco
-                        growing. As a member of the UN Global Compact and the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.ilo.org/ipec/Action/CSR/clp/lang--en/index.htm"
-                            title="ILO&rsquo;s Child Labor Platform"
-                        >
-                            ILO&rsquo;s Child Labor Platform
-                        </a>
-                        , the ECLT Foundation engages in global advocacy on
-                        child labor, as well as serves as a hub for research and
-                        improving the knowledge base on child labor. Since 2003,
-                        the ECLT Foundation has conducted projects with a range
-                        of public and private stakeholders in countries where
-                        child labor in the production of tobacco is prevalent,
-                        including in{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-guatemala#introduction"
-                            title="Guatemala"
-                        >
-                            Guatemala
-                        </a>
-                        ,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-kyrgyzstan#introduction"
-                            title="Kyrgyzstan"
-                        >
-                            Kyrgyzstan
-                        </a>
-                        ,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-malawi#introduction"
-                            title="Malawi"
-                        >
-                            Malawi
-                        </a>
-                        ,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-mozambique#introduction"
-                            title="Mozambique"
-                        >
-                            Mozambique
-                        </a>
-                        ,{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-tanzania#introduction"
-                        >
-                            Tanzania
-                        </a>{" "}
-                        and{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/impact/projects/eclt-in-uganda#introduction"
-                            title="Uganda"
-                        >
-                            Uganda
-                        </a>
-                        . These projects have five strategic objectives:
-                        withdrawing children from child labor, providing
-                        education, raising awareness, strengthening communities,
-                        and alleviating poverty. In 2015, the ECLT entered into
-                        a{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.eclt.org/en/news-and-insights/the-ilo-eclt-public-private-partnership-2015-2018-global-guidance-on-hazardous-child-labour-in-tobacco-growing"
-                            title="3-year public-private partnership&nbsp;with the ILO"
-                        >
-                            3-year public-private partnership&nbsp;with the ILO
-                        </a>{" "}
-                        to develop global guidance on the hazards of child labor
-                        in tobacco growing.
-                    </p>
-                </ExampleInAction>
                 <ExampleInAction id="clt">
                     <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Example in Action: Child Labor Platform</strong>
+                        Contoh dalam Tindakan: Platform Buruh Kanak-Kanak
                     </h2>
                     <p>
-                        The{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -138,20 +24,11 @@ const ms = () => {
                         >
                             Child Labor Platform
                         </a>{" "}
-                        (CLP) is a business-led forum that aims to tackle child
-                        labor in supply chains. The CLP works to identify the
-                        obstacles to the implementation of the ILO Conventions
-                        on child labor in supply chains and surrounding
-                        communities, identify practical ways of overcoming these
-                        obstacles, and catalyse collective action. This means
-                        carrying out due diligence to identify, prevent,
-                        mitigate, remediate, and account for any adverse effects
-                        on children&rsquo;s right to be free from child labour
-                        that businesses cause, contribute to, or are linked with
-                        through their relationships and operations. Since 2012,
-                        the CLP has operated as part of the UN Global
-                        Compact&rsquo;s Human Rights and Labor Working Group,
-                        with the{" "}
+                        (CLP) adalah forum yang dipimpin oleh sektor perniagaan yang bertujuan untuk menangani masalah buruh kanak-kanak dalam rantai bekalan.
+                        CLP berusaha untuk memberikan penyelesaian konkrit dengan menyokong syarikat anggota melalui proses komprehensif usaha wajar di semua peringkat.
+                        Ini termasuk sokongan untuk menerapkan kebajikan yang kuat dan amalan perniagaan yang baik, menilai risiko, mengukur impak, dan menangani penyebab
+                        akar melalui dialog tempatan dan global yang bermakna dengan kerajaan, pertubuhan majikan dan pekerja dan pihak berkepentingan yang lain.
+                        Sejak 2012, CLP telah beroperasi sebagai sebahagian daripada Kumpulan Kerja Hak Asasi Manusia dan Tenaga Kerja Kompak Global PBB, dengan{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -160,7 +37,7 @@ const ms = () => {
                         >
                             International Organisation of Employers (IOE)
                         </a>{" "}
-                        and the{" "}
+                       dan{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -169,9 +46,8 @@ const ms = () => {
                         >
                             International Trade Union Confederation (ITUC)
                         </a>{" "}
-                        serving as co-chairs. In 2015, members of the CLP,
-                        including companies from the food and beverage, apparel,
-                        and mining sectors contributed to the production of a{" "}
+                        berkhidmat sebagai pengerusi bersama.   Pada 2015, anggota CLP, termasuk syarikat dari sektor makanan dan minuman, kosmetik, pakaian,
+                        telekomunikasi dan sektor perlombongan menyumbang kepada pengeluaran{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -180,9 +56,7 @@ const ms = () => {
                         >
                             Child Labor Guidance Tool for Business
                         </a>
-                        , authored by the ILO and the IOE, which serves as a
-                        resource for companies to meet the due diligence
-                        requirements laid out in the{" "}
+                        , ditulis oleh ILO dan IOE, yang menjadi sumber bagi syarikat untuk memenuhi keperluan ketekunan wajar yang ditetapkan dalam{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -192,47 +66,38 @@ const ms = () => {
                             United Nations Guiding Principles on Business and
                             Human Rights
                         </a>
-                        , as they pertain to child labor. New businesses and
-                        relevant organizations are welcomed onto the CLP on an
-                        ongoing basis.
+                        , oleh kerana ia berkenaan buruh kanak-kanak.   Perniagaan baru dan pertubuhan yang berkaitan disambut ke CLP secara berterusan.
+                    </p>
+                    <p>
+                    Sumber:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ilo.org/ipec/projects/global/WCMS_390400/lang--en/index.htm"
+                    >
+                    https://www.ilo.org/ipec/projects/global/WCMS_390400/lang--en/index.htm
+                    </a>.
                     </p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction id="gbn">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: ILO&rsquo;s Global Business
-                            Network on Forced Labor
+                            Contoh dalam Tindakan: Jaringan Perniagaan Global Buruh Paksa ILO
                         </strong>
                     </h2>
                     <p>
-                        The ILO&rsquo;s Global Business Network on Forced Labor,
-                        supported by initial funding from DOL and Mars, Inc.*,
-                        is set to launch in 2018 and will bring together
-                        employers&rsquo; organizations, businesses, and other
-                        stakeholders to provide opportunities to share
-                        information on how companies from a range of sectors
-                        conduct due diligence and risk assessments related to
-                        forced labor and human trafficking in their business
-                        operations. The Global Business Network will provide
-                        opportunities for companies to benchmark their
-                        performance and to facilitate peer learning on forced
-                        labor issues, including through the exchange of
-                        information on self-regulatory initiatives and best
-                        practices on managing complex supply chains. The Global
-                        Business Network will work in close collaboration with
-                        the Child Labor Platform to ensure the full support and
-                        involvement of the business community towards the
-                        achievement of the{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://sustainabledevelopment.un.org/?menu=1300"
-                            title="Sustainable Development Goals"
-                        >
-                            Sustainable Development Goals
-                        </a>{" "}
-                        under ILO{" "}
+                    Dilancarkan pada bulan Jun 2018, Jaringan Perniagaan Global mengenai  Buruh Paksa (GBNFL) di bawah Pertubuhan Buruh Antarabangsa (ILO), yang disokong dengan
+                    dana awal dari DOL, dan Mars, Inc.*, merapatkan ILO dengan perniagaan semua saiz dan sektor, dan rangkaian mereka, dari seluruh dunia untuk membasmi buruh paksa.
+                    Beroperasi di semua sektor, dan kawasan, anggota ILO GBNFL berusaha melibatkan perniagaan yang lebih kecil, mengembangkan sumber daya dan alat, dan mencari penyelesaian
+                    tempatan untuk membentuk kerangka nasional bagi mencipta perubahan yang sejati.  Anggota ILO GBNFL terdiri daripada perniagaan pelbagai saiz dan sektor, dan juga majikan dan
+                    pertubuhan perniagaan termasuk kumpulan perdagangan industri dan persatuan dari pelbagai sektor.  Inisiatif yang dipimpin perniagaan lain dengan mandat yang selari dengan
+                    kepakaran boleh masuk sebagai rakan kongsi.
+                    </p>
+                    <p>
+                        ILO GBNFL mencapai semua sektor dan kawasan bagi memajukan kes untuk menamatkan buruh paksaan dalam perniagaan.  Jaringan ini selari dengan, dan
+                        memberi sumbangan kepada,  inisiatif antarabangsa yang relevan, terutamanya{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -241,9 +106,24 @@ const ms = () => {
                         >
                             Alliance 8.7
                         </a>{" "}
-                        &ndash; a global partnership aimed at ending child
-                        labor, forced labor, modern slavery, and human
-                        trafficking.
+                        rakan kongsi global yang berusaha untuk mencapai  SDG Sasaran 8.7.
+                    </p>
+                    <p>
+                    Untuk maklumat lanjut dan senarai terkini keahlian, sila lawati{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="www.flbusiness.network"
+                    >
+                    www.flbusiness.network
+                    </a>{" "}atau hubungi{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="mailto:fl-businessnetwork@ilo.org"
+                    >
+                    fl-businessnetwork@ilo.org
+                    </a>.
                     </p>
                 </ExampleInAction>
             </div>

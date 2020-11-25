@@ -81,28 +81,28 @@ export const StepData = {
         training: Training.fr
     },
      ms: {
-            title: "Step 4: Communicate and Train Across Your Supply Chain",
-            topics: Topics.en,
+            title: "Langkah 4: Berkomunikasi dan Melatih di Sepanjang Rantai Bekalan Anda",
+            topics: Topics.ms,
             keywords: [
-                "Grievance",
-                "Grievance Mechanism",
-                "Training",
-                "Worker Voice"
+                "Aduan",
+                // "Grievance Mechanism",
+                // "Training",
+                // "Worker Voice"
             ],
             learningObjectives: [
-                "Identify the people and groups to whom you should communicate and provide training.",
-                "Define the topics that should be covered in communication and training activities for each group.",
-                "Learn about appropriate communication channels and training formats for different audiences.",
-                "Understand how to put effective grievance mechanisms in place."
+                "Kenal pasti orang dan kumpulan untuk berkomunikasi dan sediakan latihan.",
+                "Khususkan topik yang patut disertai dalam aktiviti komunikasi dan latihan bagi setiap kumpulan.",
+                "Belajar mengenai rangkaian komunikasi yang sesuai dan format latihan bagi penonton yang berbeza.",
+                "Fahami cara untuk meletakkan mekanisme aduan yang berkesan di tempatnya."
             ],
             keyTerms: [
                 {
-                    termName: "Grievance",
+                    termName: "Aduan",
                     termDefinition:
-                        "A concern or complaint raised by an individual or a group within a community affected by company operations."
+                        "Kebimbangan atau aduan yang ditimbulkan oleh individu atau kumpulan yang terjejas oleh operasi syarikat."
                 }
             ],
-            furtherResources: Resources.en,
-            training: Training.en
+            furtherResources: Resources.ms,
+            training: Training.ms
         }
 };

@@ -2,61 +2,50 @@ import React from "react";
 import Accordion from "../../../../components/Accordion";
 import StaticData from "../../../../components/StaticData";
 
-const ms = () => {
+const en = () => {
     return (
         <StaticData>
-            <h1>About the Comply Chain App</h1>
+            <h1>Mengenai Aplikasi Rantai Patuh</h1>
             <p>
-                In the era of globalization, the production of goods in foreign
-                countries has increased at a rapid pace. Unfortunately in too
-                many countries, illegal labor practices persist, either going
-                unchecked or willfully ignored. Lack of accountability and
-                oversight of labor rights has made it more likely that goods
-                imported into the U.S. may be tainted by child labor and forced
-                labor. The importation of forced labor-made goods is a violation
-                of U.S. trade policy that gives an unfair competitive advantage
-                to countries and businesses that do not play by the rules. In
-                turn, such abuses force U.S. workers and responsible businesses
-                to compete on an uneven playing field.
+                Pada era globalisasi, pengeluaran barangan di negara asing telah meningkat dengan pesat. Malangnya di terlalu banyak negara, amalan buruh haram tetap berlaku,
+                sama ada tidak diperiksa atau diabaikan dengan sengaja. Kekurangan pertanggungjawaban dan pengawasan hak buruh telah menyebabkan barang yang diimport ke Amerika
+                Syarikat (AS) dicemari oleh pekerja kanak-kanak dan buruh paksa. Pengimportan barang buatan pekerja paksa adalah pelanggaran dasar perdagangan AS yang memberikan
+                kelebihan persaingan yang tidak adil kepada negara dan perniagaan yang tidak mematuhi peraturan. Sebaliknya, penyalahgunaan tersebut memaksa pekerja AS dan perniagaan
+                yang bertanggungjawab terpaksa bersaing di persaingan yang tidak adil.
             </p>
             <p>
-                The International Labor Organization (ILO) estimates that there
-                are 152 million children 5-17 years old in child labor
-                worldwide, 73 million of them in hazardous forms of work. It
-                also estimates that 25 million adults and children are in forced
-                labor.
+                Pertubuhan Buruh Antarabangsa (ILO) menganggarkan bahawa terdapat 152 juta orang buruh kanak-kanak berumur di antara 5-17 tahun di seluruh dunia, dengan 73 juta
+                daripada mereka melakukan pekerjaan yang berbahaya. Ia juga menganggarkan bahawa terdapat 25 juta orang dewasa dan kanak-kanak yang menjadi buruh paksa.
             </p>
             <p>
-                By downloading this App, you have shown that you are concerned
-                about these grim realities. You are interested in reducing the
-                chance that your products&mdash;and the raw materials they come
-                from&mdash;are manufactured, mined or harvested by children who
-                should be in school, or by workers locked in sweatshops or
-                forced into work through false promises or threats.
+                Dengan memuat turunkan aplikasi ini, menunjukkan bahawa anda prihatin terhadap realiti suram pelanggaran hak asasi manusia yang serius ini. Anda berminat untuk mengurangkan
+                kemungkinan produk anda—dan bahan mentah yang mereka hasilkan—dihasilkan, ditambang atau dituai oleh kanak-kanak yang seharusnya berada di sekolah atau oleh pekerja yang terkunci
+                di dalam tempat-tempat haram atau dipaksa bekerja melalui janji-janji palsu atau ancaman.
             </p>
             <p>
-                This App was created by the U.S. Department of Labor's (DOL)
-                Bureau of International Labor Affairs (ILAB). ILAB promotes a
-                fair global playing field for workers in the United States and
-                around the world by enforcing trade commitments; strengthening
-                labor standards; and combating international child labor, forced
-                labor, and human trafficking.&nbsp;
+                Aplikasi ini direka bentuk oleh (ILAB) di bawah Jabatan Tenaga Kerja AS (DOL){" "}
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.dol.gov/agencies/ilab"
+                    title="Bureau of International Labor Affairs"
+                >
+                Bureau of International Labor Affairs
+                </a>
+                {" "}ILAB mempromosikan dataran permainan global yang adil bagi pekerja di AS dan di serata dunia dengan menguatkuasakan komitmen perdagangan; memperkuatkan standard untuk buruh; dan memerangi buruh kanak-kanak antarabangsa, buruh paksa, dan pemerdagangan manusia.
             </p>
             <p />
             <Accordion id="about-acc">
                 <Accordion.Section id="why-develop">
                     <Accordion.Title>
                         <strong>
-                            Why did the Department of Labor develop this App?
-                        </strong>
+                                Mengapakah Jabatan Tenaga Kerja mereka mengembangkan aplikasi ini?
+                    </strong>
                     </Accordion.Title>
 
                     <Accordion.Panel>
                         <p>
-                            The Trafficking Victims Protection Reauthorization
-                            Act (TVPRA) of 2005 mandate that ILAB &ldquo;work
-                            with persons who are involved in the production of
-                            goods on [ILAB&rsquo;s{" "}
+                            Akta Pengesahan Hak Perlindungan Pemerdagangan Manusia (TVPRA) tahun 2005 mewajibkan agar ILAB “untuk bekerjasama dengan orang yang terlibat di dalam pengeluaran barangan yang terdapat dalam senarai [ILAB{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -68,18 +57,27 @@ const ms = () => {
                                     Forced Labor
                                 </em>
                             </a>
-                            ] to create a standard set of practices that will
-                            reduce the likelihood that such persons will produce
-                            goods using [forced and child labor].&rdquo;&nbsp;
+                            ] bagi membentuk standard amalan yang akan mengurangkan kemungkinan bahawa orang tersebut akan menhasilkan barang dengan menggunakan [buruh paksa dan buruh kanak-kanak].”&nbsp;
                         </p>
                         <p>
-                            This App responds to this mandate, but it also
-                            achieves a much broader purpose by actively
-                            supporting the efforts of companies that seek to
-                            address these issues within their own supply chains.
-                            In addition, the App responds to efforts being made
-                            by the international community. In September 2015,
-                            UN member states adopted the{" "}
+                           Dalam&nbsp;
+                           <a
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               href="https://www.congress.gov/bill/115th-congress/house-bill/2200/text"
+                               title="2018 reauthorization of the TVPRA"
+                           >
+                           2018 reauthorization of the TVPRA
+                           </a>
+                           , Kongres telah menambah mandat baru kepada ILAB yang berkaitan dengan senarai ini. Secara khusus, dalam Seksyen 133 undang-undang baru, Kongres menyertakan ayat berikut, “sejauh mungkin,
+                           barangan yang dihasilkan dengan proses pembuatan yang menggunakan input atau tenaga kerja buruh paksa atau buruh kanak-kanak” dimasukkan dalam Senarai Barangan. Ayat tersebut memberi cabaran
+                           kepada ILAB dan pihak lain di seluruh dunia untuk bukan sahaja memeriksa barangan dan produk yang dikeluarkan, tetapi juga input dalam proses pembuatan barangan dan produk-produk tersebut.
+                           Mandat yang diperluas ILAB menekankan parameter yang semakin berkembang dalam hal ketekunan wajar (due diligence) menghadapi isu buruh kanak-kanak dan buruh paksa di rantaian bekalan global
+                           yang sering kompleks dan berlapis-lapisan.
+                        </p>
+                        <p>
+                            Aplikasi ini merupakan jawapan kepada mandat TVPRA yang sedang berkembang ini, sambil mencapai tujuan yang lebih luas dengan secara aktif menyokong usaha syarikat yang berusaha yang ingin
+                            menangani isu yang terdapat di dalam rantaian bekalan mereka sendiri. Selain itu, aplikasi ini menyokong usaha yang diambil oleh masyarakat antarabangsa. Pada bulan September 2015, ahli anggota PBB menerapkan{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -88,11 +86,9 @@ const ms = () => {
                             >
                                 Sustainable Development Goals
                             </a>{" "}
-                            (SDGs), a set of seventeen inter-related, mutually
-                            reinforcing goals for global development over the
-                            next 15 years. Within each of the SDGs, specific
-                            targets have been set which will be essential to
-                            achieving the goals. Under{" "}
+                            (SDGs), satu set matlamat berjumlah tujuh belas tujuan yang saling berkaitan dan saling memperkuatkan bagi pembangunan global dalam 15 tahun akan datang. Dalam setiap SDGs, sasaran khusus telah ditetapkan yang
+                            sangat penting untuk mencapai matlamat pada 2030. Di bawah SDG 8 mengenai Pekerjaan yang Layak dan Perkembangan Ekonomi, Sasaran 8.7 meminta pemerintah untuk:
+{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -105,15 +101,11 @@ const ms = () => {
                             on governments to:
                         </p>
                         <p className="indent-margin">
-                            &ldquo;Take immediate and effective measures to
-                            eradicate forced labor, end modern slavery and human
-                            trafficking and secure the prohibition and
-                            elimination of the worst forms of child labor,
-                            including recruitment and use of child soldiers, and
-                            by 2025 end child labor in all its forms.&rdquo;
+                            “Mengambil langkah segera dan berkesan untuk membasmi buruh paksa, hentikan perhambaan moden dan perdagangan manusia dan pastikan buruh kanak-kanak yang begitu kejam dihapuskan, termasuk pengambilan dan mengguna askar
+                            kanak-kanak bawah umur, dan pada 2030 menghentikan buruh kanak-kanak dalam pelbagai bentuk.”
                         </p>
                         <p>
-                            ILAB is actively engaged in{" "}
+                            ILAB telah memaklumkan{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -122,59 +114,54 @@ const ms = () => {
                             >
                                 Alliance 8.7
                             </a>
-                            , a global partnership that aims to provide
-                            strategic coordination of diverse stakeholders with
-                            an interest in achieving Target 8.7. A key actor in
-                            this alliance is the business community. Eradicating
-                            child and forced labor by 2025 cannot be achieved
-                            without sustained commitment from the businesses
-                            that mine, produce, manufacture, distribute, and
-                            sell goods around the world. Businesses create jobs
-                            and find workers to perform the jobs; they bear a
-                            responsibility to ensure that these working
-                            relationships respect national laws and fundamental
-                            labor rights. Some businesses and industry groups
-                            have long taken this responsibility seriously,
-                            through robust voluntary standards, due diligence,
-                            remediation, transparency, and engagement with
-                            stakeholders. Now, the combination of increased
-                            pressure from stakeholders and incentives to develop
-                            stronger responses is driving more businesses to
-                            acknowledge and address labor abuses in their supply
-                            chains. ILAB is committed to working alongside the
-                            business community in this effort.
-                        </p>
-                        <p>
-                            Since 1993, ILAB has developed a unique approach to
-                            using research to combat these abuses. ILAB employs
-                            a systematic and rigorous process to triangulate
-                            information, supporting the collection of in-country
-                            data, traveling to conduct first hand research in
-                            hard-to-reach places, and corroborating reports of
-                            labor abuses with credible local sources. This
-                            approach helps ensure the credibility and validity
-                            of ILAB&rsquo;s publications on child labor and
-                            forced labor. ILAB uses these reports to provide
-                            critical and actionable information to federal
-                            government agencies to safeguard federal
-                            procurement, help U.S. companies reduce labor abuses
-                            in their supply chains, and help foreign governments
-                            build their capacity to end modern slavery in their
-                            countries. This App is part of that effort.
-                        </p>
-                        <p>
-                            The App is also an important component of the U.S.
-                            government&rsquo;s{" "}
+                            , yang merupakan rakan kongsi global yang bertujuan untuk menyediakan penyelarasan strategik dengan pelbagai pihak berkepentingan yang mempunyai minat untuk mencapai Sasaran 8.7. ILAB juga menyokong kajian kritikal
+                            mengenai rantai bekalan global, yang membawa kepada Laporan 2019&nbsp;
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                href="https://www.state.gov/documents/organization/265918.pdf"
+                                href="https://www.ilo.org/ipec/Informationresources/WCMS_716930/lang--en/index.htm"
+                                title="Ending Child Labour, Forced Labour and Human Trafficking in Global Supply Chains"
+                            >
+                            Ending Child Labour, Forced Labour and Human Trafficking in Global Supply Chains
+                            </a>.
+                            Latihan ini mendedahkan jurang dalam data yang terkumpul dan perbezaan di antara buruh kanak-kanak dan buruh paksa dalam rantai bekalan domestik berbanding dengan rantai bekalan global, memaklumkan negara dengan kuasa ekonomi,
+                            termasuk Strategi G20 yang pertama untuk Membasmi Buruh Kanak-kanak, Buruh Paksa, dan Pemerdagangan Manusia di dalam dunia pekerjaan. Di samping itu, ILAB terus mengeluarkan nasihat mengenai usaha ILO yang semakin berkembang
+                            untuk mencapai matlamat pekerjaan yang baik dalam rantai bekalan global. Dengan matlamat itu, ILAB terlibat dengan kumpulan-kumpulan pakar dan pelbagai mesyuarat untuk mengukur perhambaan moden, termasuk merangka dan mempromosikan panduan ILO&nbsp;
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_648619.pdf"
+                                title="guidelines concerning the measurement of forced labor"
+                            >
+                            guidelines concerning the measurement of forced labor
+                            </a> pada 2018.
+
+                            </p>
+                            <p>
+                            Pemain utama di dalam pakatan ini adalah komuniti perniagaan. Membasmi buruh kanak-kanak menjelang tahun 2030 tidak boleh dicapai tanpa komitmen daripada perniagaan-perniagaan yang melombong, mengeluar, membuat, mengedar, dan menjual pelbagai barangan di
+                            serata dunia. Perniagaan-perniagaan menawarkan pekerjaan dan mencari para pekerja; mereka bertanggungjawab untuk memastikan bahawa hubungan majikan-pekerja menghormati undang-undang negara dan hak asasi pekerja. Ada beberapa perniagaan dan kumpulan industri
+                            yang mengambil berat tentang tanggungjawab mereka, melalui standard yang dijalankan secara sukarela, dengan ketekunan wajar, pembaikan pulih, ketelusan, dan kerjasama dengan pihak yang berkenaan. Kini, dengan tekanan kuat dari pihak yang berkenaan dan insentif
+                            untuk membentuk gerak balas yang lebih kuat bagi mendorong perniagaan untuk lebih sedar dan menangani penderaan pekerja di dalam rantai bekalan mereka. ILAB komited untuk bekerja di samping komuniti perniagaan dalam usaha ini.</p>
+
+                        <p>
+                            Sejak 1983, ILAB telah mendirikan pendekatan unik untuk menggunakan kajian dalam membanteras penderaan-penderaan ini. ILAB menggunakan proses yang berdisiplin dan sistematik untuk mengumpul maklumat, menyokong pengumpulan data dalam negeri, melawat tempat-tempat
+                            untuk membuat kajian, dan mengumpul maklumat daripada sumber-sumber yang boleh dipercayai untuk mengeluarkan laporan mengenai penderaan pekerja. Pendekatan ini memastikan kebolehpercayaan dan kesahihan penerbitan ILAB mengenai buruh kanak-kanak dan buruh paksa.
+                            ILAB menggunakan laporan untuk menyediakan maklumat kritikal untuk tindakan agensi-agensi kerajaan pusat bagi melindungi pemerolehan kerajaan, membantu syarikat-syarikat AS mengurangkan penderaan pekerja di dalam rantai bekalan mereka, dan membantu kerajaan
+                            asing membina keupayaan bagi menghapuskan perhambaan moden di negara mereka. Aplikasi ini merupakan sebahagian daripada usaha tersebut.
+                        </p>
+                        <p>
+                            Aplikasi ini merupakan komponen penting dalam
+                            {" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.state.gov/u-s-national-contact-point-for-the-oecd-guidelines-for-multinational-enterprises/u-s-national-action-plan-on-responsible-business-conduct/"
                                 title="National Action Plan on Responsible Business Conduct (NAP-RBC)"
                             >
                                 National Action Plan on Responsible Business
                                 Conduct (NAP-RBC)
                             </a>
-                            , which was developed pursuant to the{" "}
+                            , yang dibangunkan mengikuti{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -185,7 +172,7 @@ const ms = () => {
                                 Development&rsquo;s Guidelines for Multinational
                                 Enterprises
                             </a>{" "}
-                            and the{" "}
+                            dan{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -195,20 +182,12 @@ const ms = () => {
                                 United Nations Guiding Principles on Business
                                 and Human Rights
                             </a>
-                            . The NAP-RBC encompasses the U.S.
-                            government&rsquo;s efforts and commitments to
-                            protect human rights in the overseas operations of
-                            U.S. businesses, through research, technical
-                            cooperation, federal procurement practices, labor
-                            diplomacy, and public-private dialogue. The NAP-RBC
-                            also emphasizes the positive contributions that
-                            businesses can make to respect human rights.
+                            . NAP-RBC merangkumi usaha dan komitmen kerajaan AS untuk melindungi hak asasi manusia di dalam operasi perniagaan AS Di luar negeri, melalui kajian, kerjasama teknikal, amalan pemerolehan
+                            kerajaan pusat, diplomasi perburuhan, dan dialog pihak awam dan swasta. NAP-RBC juga menekankan sumbangan positif yang dibuat oleh syarikat-syarikat untuk menghormati hak asasi manusia.
+
                         </p>
                         <p>
-                            In addition, since 1995, the U.S. Congress has also
-                            appropriated funding to ILAB for programming to
-                            combat child labor&nbsp;and related abuses
-                            internationally, through{" "}
+                            Tambahan pula, sejak 1995, Kongres AS telah menyediakan belanjawan untuk ILAB bagi program untuk memerangi buruh kanak-kanak dan penderaan yang berkaitan  di peringkat antarabangsa, melalui{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -217,10 +196,7 @@ const ms = () => {
                             >
                                 technical assistance projects
                             </a>
-                            . ILAB has used these funds to implement more than
-                            300 in over 95 countries, in partnership with a
-                            variety of governments, international institutions,
-                            civil society organizations and industry groups.
+                            .  ILAB telah melaksanakan lebih daripada 300 projek bantuan teknikal di lebih daripada 95 buah negara, dan bekerjasama dengan kerajaan, pertubuhan persatuan sivil, dan kumpulan-kumpulan industri.
                         </p>
                         <ul>
                             <li>
@@ -232,7 +208,7 @@ const ms = () => {
                                 >
                                     Learn more
                                 </a>{" "}
-                                about ILAB&rsquo;s work around the world
+                                mengenai kerja-kerja ILAB di seluruh dunia.
                             </li>
                         </ul>
                         <p />
@@ -240,88 +216,51 @@ const ms = () => {
                 </Accordion.Section>
                 <Accordion.Section id="how-develop">
                     <Accordion.Title>
-                        <strong>How did DOL develop this App?</strong>
+                        <strong>Bagaimana DOL membina aplikasi ini?</strong>
                     </Accordion.Title>
                     <Accordion.Panel>
                         <p>
-                            Many organizations contributed to the development of
-                            this App, beginning with the National Academy of
-                            Sciences and the Center for Reflection, Education
-                            and Action (CREA), both of which carried out initial
-                            research under contract with ILAB. ILAB also
-                            collected good practices from the many organizations
-                            whose materials are linked throughout the App.
-                            Interagency partners across the U.S. Government
-                            provided feedback on the initial draft, as did a
-                            focus group of external experts from business,
-                            academia, unions, the socially responsible
-                            investment community and other civil society groups.
-                            ILAB greatly appreciates the contributions of all
-                            who participated in this process.
+                            Banyak organisasi memberi sumbangan untuk membangunkan aplikasi ini, bermula dengan Akademi Sains Nasional (National Academy of Sciences) dan Pusat untuk Renungan, Pendidikan dan Tindakan (Center for Reflection,
+                            Education and Action)  di mana kedua-duanya menjalankan kajian dengan kontrak ILAB. ILAB juga telah mengumpulkan amalan baik daripada banyak pertubuhan dan bahan informasi mereka terpaut dengan dalam aplikasi ini.
+                            Rakan kongsi di agensi-agensi lain di dalam kerajaan AS juga memberi banyak maklum balas kepada rangka permulaan, dan juga dari berbagai kumpulan fokus terdiri daripada pakar-pakar luar dari sektor swasta, pendidikan,
+                            kesatuan sekerja, dan kumpulan masyarakat sivil yang lain. ILAB dengan ikhlas ingin mengucapkan terima kasih kepada pihak yang memberi sumbangan dalam proses ini.
                         </p>
                         <p>
-                            The first online edition of the App was published in
-                            December 2012. In September 2017, ILAB released the
-                            first version of the mobile application and updated
-                            the App in September 2018, including in French and
-                            Spanish.
+                            Penerbitan pertama melalui talian Mengurangkan Buruh Kanak-kanak dan Buruh Paksa (Reducing Child Labor and Forced Labor): Alat untuk Perniagaan yang Bertanggungjawab (A Toolkit for Responsible Businesses)diterbitkan pada Disember 2012.
+                            Pada September 2017, ILAB mengeluarkan versi pertama aplikasi mobil, ditukar nama kepada Rantai Patuh (Comply Chain), dan kemudian aplikasi dikemas kini pada September 2018, termasuk ke dalam Bahasa Perancis dan Bahasa Sepanyol.
+                            Rombakan pada 2020 termasuk kemas kini tambahan dan aplikasi ini boleh didapati, buat pertama kalinya di dalam Bahasa Melayu, bahasa perantara di rantau Asia Tenggara termasuk di Brunei, Indonesia, Malaysia dan Singapura, serta di beberapa kawasan di Thailand.
                         </p>
                     </Accordion.Panel>
                 </Accordion.Section>
                 <Accordion.Section id="who-app">
                     <Accordion.Title>
-                        <strong>Who is this App for?</strong>
+                        <strong>Untuk aplikasi siapa ini?</strong>
                     </Accordion.Title>
                     <Accordion.Panel>
                         <p>
-                            This App is for all companies. Companies that have
-                            not yet put in place social compliance systems may
-                            find it most useful. It can also be useful for
-                            companies that have systems in place but are seeking
-                            improvement, or those who are working with partners
-                            in their global supply chains to establish such
-                            programs.
+                            Aplikasi ini untuk kegunaan semua syarikat, termasuk ahli akademik, para pelabur, anggota masyarakat sivil, dan banyak lagi. Syarikat-syarikat yang belum menggunakan sistem pematuhan sosial mungkin akan mendapati ia berguna untuk mereka. Ia juga berguna untuk
+                            syarikat-syarikat yang mempunyai sistem tersebut, tetapi ingin memperbaikinya, atau bagi mereka yang bekerjasama dengan rakan kongsi di dalam rantai bekalan global untuk mendirikan program tersebut. Pakar akademik boleh menggunakan aplikasi ini untuk mendapatkan
+                            maklumat mengenai trend dalam amalan ketekunan wajar dan juga dalam bidang perniagaan dan hak asasi manusia yang terus berubah. Anggota persatuan sivil juga boleh menggunakan aplikasi ini dalam usaha mereka untuk terlibat dengan sektor swasta dan menggunakan sumber
+                            aplikasi untuk melaksanakan perubahan yang bermakna di lapangan.
                         </p>
                     </Accordion.Panel>
                 </Accordion.Section>
                 <Accordion.Section id="how-use-app">
                     <Accordion.Title>
-                        <strong>How do I use this App?</strong>
+                        <strong>Bagaimanakah saya menggunakan aplikasi ini?</strong>
                     </Accordion.Title>
                     <Accordion.Panel>
                         <p>
-                            The App is organized around{" "}
-                            <strong>
-                                eight steps to build or improve a social
-                                compliance system
-                            </strong>
-                            . Each step begins with learning objectives and key
-                            terms. Companies that are new to social compliance
-                            are encouraged to work through the modules in order.
-                            Companies that wish to improve elements of their
-                            systems or work with their supply chain partners on
-                            their systems can choose which modules best fit
-                            their needs. However, they are encouraged to
-                            consider implementing all elements of the social
-                            compliance system presented here in order to ensure
-                            integration of all components and effectiveness of
-                            their systems.
+                            Aplikasi ini disusun mengikut <strong>cara untuk membina sistem pematuhan sosial.</strong> Setiap langkah bermula dengan objektif pembelajaran dan kata kunci. Syarikat perniagaan yang baru mengetahui tentang pematuhan sosial digalakkan untuk mengikuti modul dengan teratur. Syarikat
+                            yang ingin memperbaiki elemen sistem mereka atau bekerjasama dengan rakan rantai bekalan mereka boleh memilih modul mana yang paling sesuai untuk keperluan mereka. Walau bagaimanapun, mereka digalakkan untuk menerap semua elemen sistem pematuhan sosial yang disediakan
+                            di sini untuk memastikan integrasi semua komponen dan keberkesanan sistem mereka.
                         </p>
                         <p>
-                            As companies familiar with social compliance know,
-                            this App is just one of many guides, handbooks,
-                            white papers and other materials that provide
-                            information on social compliance. We hope this App
-                            provides useful guidance and examples available to
-                            help you build or strengthen your social compliance
-                            system or that of your global supply chain partners.
+                            Seperti yang diketahui oleh syarikat yang memahami pematuhan sosial, aplikasi ini adalah salah satu daripada banyak panduan, buku panduan, kertas putih dan bahan lain yang memberikan maklumat mengenai pematuhan sosial. Kami berharap aplikasi ini dapat memberikan panduan dan contoh yang
+                            berguna untuk membantu membina atau memperkuatkan sistem pematuhan sosial anda atau sistem rakan kongsi pembekalan global anda.
                         </p>
                         <p>
-                            As you use the App, you can provide feedback to
-                            assist us in improving its content. You are also
-                            encouraged to share your good practices related to
-                            social compliance from your own experience. You may
-                            do so by{" "}
+                            Sambil menggunakan aplikasi ini, anda boleh memberikan maklum balas bagi membantu kami memperbaiki isi kandungannya. Anda juga digalakkan berkongsi amalan baik berkaitan dengan pematuhan sosial mengikut pengalaman anda. Anda boleh berbuat demikian dengan menghantar{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -333,28 +272,21 @@ const ms = () => {
                             .
                         </p>
                         <p>
-                            Because ILAB&rsquo;s TVPRA mandate is to work with
-                            persons who are involved in the production of goods,
-                            this App focuses on social compliance programs for
-                            companies that produce goods, rather than services.
-                            In addition, as noted above, it focuses in
-                            particular on issues related to child labor and
-                            forced labor.
+                            Kerana mandat TVPRA ILAB adalah untuk bekerjasama dengan orang yang terlibat dalam pengeluaran barang atau barang dengan input yang dihasilkan dari buruh kanak-kanak atau buruh paksa, aplikasi ini memfokuskan kepada program pematuhan sosial untuk entiti, khususnya syarikat yang ingin menghasilkan
+                            barangan bukannya perkhidmatan. Di samping itu, seperti yang dinyatakan di atas, ia memberi fokus kepada isu yang berkaitan dengan buruh kanak-kanak dan buruh paksa.
                         </p>
                         <p />
                     </Accordion.Panel>
                 </Accordion.Section>
             </Accordion>
-
+            <p><h3>Catatan Panduan dan Pertubuhan yang dirujuk</h3></p>
             <p>
                 <em>
-                    *Note: References to specific companies and non-governmental
-                    entities within this guide are for informational purposes
-                    only to demonstrate best practices that have been recognized
-                    internationally, as of the app&rsquo;s release date.
-                    Referencing the entities should not be interpreted as an
-                    official endorsement of those entities, their products, or
-                    services by the U.S. Department of Labor{" "}
+                    Isi dokumen ini tidak mempunyai kekuatan dan kesan undang-undang dan tidak bermaksud untuk mengikat orang awam dalam cara mana pun. Dokumen ini cuma bertujuan untuk memberi penjelasan kepada orang awam mengenai syarat-syarat yang sedia ada di bawah undang-undang atau dasar-dasar agensi.
+                  </em> </p>
+                  <p>
+                   <em> Rujukan kepada syarikat tertentu dan entiti bukan kerajaan dalam panduan ini hanya untuk tujuan memberi maklumat bagi menunjukkan amalan terbaik yang telah diperakui di peringkat antarabangsa , sejak aplikasi dikeluarkan. Merujuk kepada entiti tidak patut ditafsirkan sebagai sokongan rasmi kepada entiti tersebut,
+                   produk atau perkhidmatan mereka oleh Jabatan Buruh AS dan penyertaan mereka tidak boleh ditafsirkan sebagai tinjauan komprehensif mengenai amalan entiti ini di dalam semua bidang.{" "}
                 </em>
                 <em>
                     and their inclusion should not be interpreted as a
@@ -365,26 +297,20 @@ const ms = () => {
             </p>
             <p>
                 <em>
-                    ILAB chose to highlight certain companies&rsquo; practices
-                    in this App based on extensive literature review and
-                    engagement in social compliance-focused fora. These
-                    companies have shown leadership in one or more areas of the
-                    App&rsquo;s eight &ldquo;Steps.&rdquo; These examples are
-                    illustrative and not exhaustive. Many other companies have
-                    also developed, or are developing, good practices in these
-                    areas that could also be shared. These examples are also
-                    snapshots in time and ILAB recognizes that companies&rsquo;
-                    practices may change over time. ILAB welcomes input from the
-                    public on additional leadership practices that could be
-                    highlighted in the App.{" "}
+                    ILAB ingin menyerlahkan amalan beberapa syarikat dalam aplikasi ini berdasarkan penulisan dan penglibatan mereka dalam pelbagai forum yang memberi fokus kepada pematuhan sosial. Syarikat-syarikat ini telah menunjukkan kepimpinan di dalam satu atau dua bidang yang terdapat dalam “Langkah’’ aplikasi ini .
+                    Contoh-contoh ini sebagai model dan tidak meliputi semua. Banyak lagi syarikat telah pun membuat, atau sedang membuat, amalan terbaik di dalam bidang ini yang boleh juga dikongsi. Contoh-contoh ini merupakan gambaran semasa dan ILAB sedar bahawa syarikat-syarikat boleh berubah dengan masa.
+                    ILAB mengalu-alukan input dari orang awam mengenai amalan kepimpinan yang boleh ditonjolkan di dalam aplikasi ini.
                 </em>
             </p>
             <p>
-                This application was developed for USDOL / ILAB. All Rights
-                Reserved.
+                Aplikasi ini dibangunkan oleh USDOL / ILAB.
             </p>
+            <p>
+                Anda boleh menggabungkan kandungan dari aplikasi ini ke dalam bahan anda sendiri, dan kami meminta anda mengaitkannya kepada aplikasi Rantai Patuh Jabatan Tenaga Kerja.
+            </p>
+
         </StaticData>
     );
 };
 
-export default ms;
+export default en;

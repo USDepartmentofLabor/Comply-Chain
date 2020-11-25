@@ -1,37 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
-const ms = () => {
+const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>What Makes a Good Code of Conduct?</h1>
+                <h1>Apakah Kod Tingkah Laku yang Baik?</h1>
                 <p>
-                    Codes take nearly as many forms and formats as there are
-                    companies. Some codes are stand-alone documents, while
-                    others are presented within broader statements of company
-                    mission, values or policies. Some are included in supplier
-                    guidance documents that include other requirements, such as
-                    product quality. Increasingly, companies are including code
-                    of conduct language in multiple documents, as social
-                    compliance considerations become more interwoven within
-                    corporate strategy across business units.
+                    Kod terdapat dalam banyak bentuk dan format , sebanyak syarikat perniagaan yang ada. Ada kod dalam bentuk dokumen,
+                    ada yang diberi dalam bentuk kenyataan misi syarikat, nilai dan dasar. Ada yang terdapat dalam dokumen panduan untuk pembekal
+                    yang termasuk keperluan, seperti kualiti produk. Kini, lebih banyak syarikat memasukkan kod tingkah laku dalam beberapa dokumen,
+                    sebagai pertimbangan untuk pematuhan sosial yang terdapat dalam strategi korporat dalam unit perniagaan.
                 </p>
                 <p>
-                    Some code documents are very general&mdash;merely laying out
-                    the broad areas of compliance&mdash;while others are much
-                    more detailed. In either case, the code typically is a
-                    foundation for more detailed guidance for the
-                    decision-makers who implement the social compliance system
-                    within the company. For instance, the auditing tools derived
-                    from a code are discussed under{" "}
-                    <Link to="/steps/5">Step 5, Monitor Compliance</Link>.
+                    Ada dokumen kod yang dibuat secara am - cuma menyatakan secara am tentang pematuhan -- dan yang lain pula lebih khusus. Dalam kedua-dua hal,
+                    kod selalunya menjadi asas bagi panduan yang lebih terperinci bagi pembuat keputusan yang melaksanakan sistem pematuhan sosial dalam syarikat.
+                    Contohnya, alat mengaudit yang didapati dari kod dibincangkan di bawah{" "}
+                    <Link to="/steps/7">Step 5, Monitor Compliance</Link>.
                 </p>
-                <h2>Example Codes</h2>
+                <h2>Contoh Kod</h2>
                 <p>
-                    The following examples demonstrate the various forms that
-                    codes can take:
+                    Contoh berikut menunjukkan pelbagai bentuk kod:
                 </p>
                 <ul>
                     <li>
@@ -67,80 +58,54 @@ const ms = () => {
                     </li>
                 </ul>
                 <p>
-                    A good code of conduct should be a public document and state
-                    clearly the actors within the company that are responsible
-                    for its development, oversight and implementation which
-                    should include the Board of Directors and senior management,
-                    as well as all of the business units involved in social
-                    compliance. Publishing the code communicates to all of your
-                    stakeholders that social compliance is valued at the highest
-                    levels of the company and that the company expects to be
-                    scrutinized for its degree of compliance.&nbsp;
+                    Kod tingkah laku yang baik ialah dokumen awam dan dengan jelasnya menyatakan siapa pelaku di dalam syarikat yang bertanggungjawab
+                    untuk pertumbuhannya, pemantauan dan pelaksanaan yang patut termasuk Lembaga Pengarah dan pengurus kanan, serta semua unit perniagaan
+                    yang terlibat dalam pematuhan sosial. Menerbitkan kod menunjukkan kepada semua pihak berkepentingan anda bahawa pematuhan sosial dihargai
+                    di peringkat paling tinggi dalam syarikat dan syarikat juga menjangka bahawa ianya akan dipantau sejauh mana ia mengikuti pematuhan sosial.
                 </p>
-                <h2>The Content of Codes</h2>
+                <h2>Isi Kandungan Kod</h2>
                 <p>
-                    The content of codes has become more standardized in recent
-                    years, consolidating around core content areas that
-                    generally include:
+                    Isi kandungan kod semakin menjadi standard sejak kebelakangan ini, menggabungkan isi kandungan kod yang termasuk:
                 </p>
                 <ul>
-                    <li>Governance and management of the code</li>
-                    <li>Scope of coverage</li>
-                    <li>Labor standards</li>
+                    <li>Pengawalan dan pengurusan kod.</li>
+                    <li>Skop lingkungan.</li>
+                    <li>Standard Buruh.</li>
                     <li>
-                        Additional workplace policies, such as a right to humane
-                        treatment and freedom from sexual harassment
+                        Dasar tambahan tempat kerja, seperti hak untuk dilayani dengan baik dan kebebasan daripada gangguan seksual.
                     </li>
                     <li>
-                        Environmental standards{" "}
-                        <em>
-                            (note: while these standards are often included in
-                            the larger code of conduct, they are not discussed
-                            further in this App due to its focus on child labor
-                            and forced labor)
-                        </em>
+                        Standard alam sekitar <em>(catatan: sementara standard tersebut sering dimasukkan dalam kod tingkah laku secara amnya, ia tidak dibincangkan dengan lanjut dalam aplikasi ini oleh kerana tumpuannya kepada buruh</em> kanak-kanak dan buruh paksa).
                     </li>
                     <li>
-                        Management systems, procedures and practice for
-                        implementation
+                        Sistem pengurusan, prosedur dan amalan untuk pelaksanaan.
                     </li>
                     <li>
-                        Legal liabilities and penalties for failure to implement
-                        code provisions
+                        Liabiliti di bawah undang-undang dan penalti atas kegagalan untuk melaksanakan peruntukan kod.
                     </li>
                 </ul>
                 <p>
-                    With respect to labor standards, a strong code should
-                    address areas covered by the International Labor
-                    Organization&rsquo;s (ILO) core labor standards:
+                    Berkaitan dengan standard buruh, kod yang kuat harus menangani bidang yang terdapat dalam standard dasar standard buruh Pertubuhan Buruh Antarabangsa (ILO):
                 </p>
                 <ul>
-                    <li>Freedom of association and collective bargaining</li>
-                    <li>Discrimination in employment</li>
-                    <li>Child labor</li>
-                    <li>Forced labor</li>
+                    <li>Kebebasan berpersatuan dan tawar-menawar kolektif.</li>
+                    <li>Diskriminasi dalam pekerjaan.</li>
+                    <li>Buruh Kanak-Kanak.</li>
+                    <li>Buruh Paksa.</li>
                 </ul>
-                <p>In addition, it should cover the following issues:</p>
+                <p>Di samping itu, ia patut meliputi isu-isu berikut:</p>
                 <ul>
-                    <li>Compensation</li>
-                    <li>Hours of work</li>
+                    <li>Pampasan.</li>
+                    <li>Waktu bekerja.</li>
                     <li>
-                        Occupational safety and health, including issues such as
-                        industrial hygiene, emergency preparedness, safety
-                        equipment, sanitation, and access to food and water
+                        Keselamatan dan kesihatan dalam pekerjaan, termasuk isu seperti kebersihan industri, kesediaan kecemasan, alat keselamatan, kebersihan , dan akses kepada makanan dan air.
                     </li>
                 </ul>
-                <h2>Core ILO Convention</h2>
+                <h2>Konvensyen Dasar ILO</h2>
                 <p>
-                    The International Labor Organization (ILO) has adopted
-                    standards, referred to as conventions and recommendations,
-                    in all of these areas. When a national government ratifies a
-                    convention, it is expected to take the necessary measures to
-                    ensure that its laws and practices conform to the provisions
-                    of the convention. The country is also expected to report to
-                    the ILO periodically on its implementation of each
-                    convention it has ratified. The ILO&rsquo;s core labor
-                    standards are set forth in the Declaration on{" "}
+                    Pertubuhan Buruh Antarabangsa (ILO) telah menerima pakai standard, yang dirujuk sebagai konvensyen dan saranan, dalam semua bidang ini. Apabila sesuatu kerajaan pusat mengesahkan sesuatu konvensyen,
+                    ia patut mengambil langkah untuk memastikan undang-undang dan amalannya mematuhi peruntukan dalam konvensyen. Kerajaan juga patut melaporkan kepada ILO secara berkala mengenai pelaksanaan setiap
+                    konvensyen yang telah disahkan. Standard dasar ILO mengenai buruh telah ditentukan dalam Deklarasi{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -149,14 +114,11 @@ const ms = () => {
                     >
                         Fundamental Principles and Rights at Work
                     </a>{" "}
-                    as rights that all governments should ensure are realized,
-                    regardless of whether the government has ratified the
-                    corresponding convention or not. Governments that have not
-                    ratified the corresponding conventions must periodically
-                    report to the ILO on the realization of those rights.
+                    sebagai hak yang semua kerajaan patut wujudkan, sama ada kerajaan sudah atau belum mengesahkan konvensyen tersebut. Kerajaan yang belum mengesahkan konvensyen
+                    mesti melaporkan kepada ILO secara berkala mengenai usaha untuk mewujudkan hak-hak tersebut.
                 </p>
                 <p>
-                    The following constitute the{" "}
+                    Berikut ialah{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -165,9 +127,7 @@ const ms = () => {
                     >
                         set of core ILO conventions
                     </a>
-                    , though the ILO has additional conventions on compensation,
-                    occupational safety and health and other related labor
-                    issues.
+                    , walaupun ILO mempunyai konvensyen tambahan mengenai pampasan, keselamatan pekerjaan dan isu buruh yang berkaitan.
                 </p>
                 <ul>
                 <li>
@@ -195,7 +155,7 @@ const ms = () => {
                         Right to Organize and Collective Bargaining Convention,
                         1949 (No. 98)
                     </a>
-                    . This is supplemented by Recommendation 163.
+                    . Ini ditambah dengan Saranan 163.
                 </p>
                 </li>
                 <li>
@@ -208,7 +168,7 @@ const ms = () => {
                     >
                         Forced Labor Convention, 1930 (No. 29)
                     </a>
-                    . This is supplemented by Recommendation 35.
+                    .  Ini ditambah dengan Saranan 35.
                 </p>
                 </li>
                 <li>
@@ -221,7 +181,7 @@ const ms = () => {
                     >
                         Protocol of 2014 to the Forced Labor Convention, 1930
                     </a>
-                    . This is supplemented by Recommendation 203.
+                    . Ini ditambah dengan Saranan 203.
                 </p>
                 </li>
                 <li>
@@ -247,8 +207,7 @@ const ms = () => {
                     >
                         Minimum Age Convention, 1973 (No. 138)
                     </a>
-                    . This is supplemented by several Recommendations, including
-                    Recommendation 146.
+                    . Ini ditambah dengan beberapa Saranan, termasuk Saranan 146.
                 </p>
                 </li>
                 <li>
@@ -261,7 +220,7 @@ const ms = () => {
                     >
                         Worst Forms of Child Labor Convention, 1999 (No. 182)
                     </a>
-                    . This is supplemented by Recommendation 190.
+                    . Ini ditambah dengan Saranan 190.
                 </p>
                 </li>
                 <li>
@@ -274,7 +233,7 @@ const ms = () => {
                     >
                         Equal Remuneration Convention, 1951 (No. 100)
                     </a>
-                    . This is supplemented by Recommendation 90.
+                    . Ini ditambah dengan Saranan 90.
                 </p>
                 </li>
                 <li>
@@ -288,12 +247,11 @@ const ms = () => {
                         Discrimination (Employment and Occupation) Convention,
                         1958 (No. 111)
                     </a>
-                    . This is supplemented by Recommendation 111.
+                    . Ini ditambah dengan Saranan 111.
                 </p>
                 </li>
                 </ul>
                 <p>
-                    The{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -302,20 +260,15 @@ const ms = () => {
                         ILO&rsquo;s Tripartite Declaration of Principles
                         Concerning Multinational Enterprises and Social Policy
                     </a>
-                    , adopted in 1977 states that, although ILO conventions are
-                    designed for governments, the underlying principles in them
-                    can and should be applied by companies.Today, most
-                    companies, industries and multi-industry coalitions with
-                    codes base their labor standards on the ILO conventions. In
-                    cases where national laws set lower standards than the ILO
-                    conventions&mdash;for example, with respect to the minimum
-                    age for work&mdash;companies should incorporate the ILO
-                    standard into their codes. Where national laws are equal to
-                    or more stringent than ILO standards, the code should meet
-                    or exceed national laws.
+                    , diterima pakai pada 1977 menyatakan bahawa, walaupun konvensyen ILO dibentuk untuk kerajaan, prinsip asas mengenainya
+                    boleh dan patut dipakai oleh syarikat. Kini, kebanyakan syarikat, industri dan pakatan pelbagai industri menggunakan kod
+                    dasar yang berdasarkan kepada standard buruh yang terdapat dalam konvensyen ILO. Dalam hal di mana undang-undang nasional
+                    menetapkan standard yang lebih rendah daripada konvensyen ILO—contohnya, berkaitan dengan umur minimum untuk bekerja—syarikat
+                    patut memasukkan standard ILO dalam kod mereka. Sekiranya undang-undang nasional setaraf atau lebih ketat daripada standard ILO,
+                    kod patut setaraf atau melebihi undang-undang negara.
                 </p>
                 <p>
-                    Since 2010, the ILO has maintained a{" "}
+                    Sejak 2010, ILO telah mengekalkan{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -324,15 +277,12 @@ const ms = () => {
                     >
                         Helpdesk for Business on International Labor Standards
                     </a>
-                    . This is a free and confidential service providing expert
-                    technical advice to users on the ILO&rsquo;s international
-                    labor standards and on the Tripartite Declaration of
-                    Principles Concerning Multinational Enterprises and Social
-                    Policy.
+                    . Ini adalah perkhidmatan percuma dan sulit yang memberi nasihat dari pakar teknikal kepada pengguna mengenai standard
+                    buruh antarabangsa ILO dan mengenai Prinsip Deklarasi Pakatan Tiga Pihak tentang Usahawan Pelbagai Nasional dan Dasar Sosial.
                 </p>
             </div>
         </StaticData>
     );
 };
 
-export default ms;
+export default en;

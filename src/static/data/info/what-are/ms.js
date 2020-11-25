@@ -9,12 +9,10 @@ const ms = () => {
         <StaticData>
             <div>
                 <h1>
-                    <strong>What are Child Labor and Forced Labor?</strong>
+                    <strong>Apakah Buruh Kanak-Kanak dan Buruh Paksa</strong>
                 </h1>
-                <p>Source of the Standards:</p>
                 <p>
-                    International standards on child labor and forced labor were
-                    developed by the{" "}
+                    Standard antarabangsa mengenai buruh kanak-kanak dan buruh paksa dihasilkan oleh{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -23,9 +21,7 @@ const ms = () => {
                     >
                         International Labor Organization
                     </a>{" "}
-                    (ILO), a specialized UN agency that brings together
-                    governments, employers&rsquo;, and workers&rsquo;
-                    representatives of&nbsp;
+                    (ILO), sebuah agensi khas PBB yang menyatu-padukan kerajaan, majikan dan dan wakil-wakil pekerja dari&nbsp;
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -34,33 +30,24 @@ const ms = () => {
                     >
                         187 member states&nbsp;
                     </a>
-                    to set international labor standards, develop policies, and
-                    devise programs to promote rights at work and decent work
-                    for all persons.
+                    untuk membangunkan standard buruh antarabangsa, menghasilkan dasar-dasar, dan membuat program-program
+                    untuk mempromosikan hak di tempat kerja dan pekerjaan yang memuaskan untuk semua.
                 </p>
                 <Accordion  id="what-are-acc">
                     <Accordion.Section id="child-labor">
-                        <Accordion.Title>Child Labor</Accordion.Title>
+                        <Accordion.Title>Buruh Kanak-Kanak</Accordion.Title>
                         <Accordion.Panel>
-                            <h3>Definitions</h3>
+                            <h3>Definisi</h3>
                             <p>
-                                A <strong>child </strong>or{" "}
-                                <strong>children</strong> are minors under the
-                                age of 18 years.
+                                Seorang <strong>kanak-kanak</strong> ialah seorang yang di bawah umur 18 tahun.
                             </p>
                             <p>
-                                <strong>Child labor</strong> includes{" "}
-                                <em>employment below the minimum age</em> as
-                                established in national legislation (excluding
-                                permissible light work) and the{" "}
-                                <em>worst forms of child labor (WFCL)</em>.
+                                <strong>Buruh Kanak-Kanak</strong> ialah pekerjaan di bawah umur minimum seperti yang ditetapkan dalam undang-undang negara
+                                (kecuali kerja-kerja ringan yang dibenarkan). Buruh kanak-kanak juga termasuk bentuk <em>buruh kanak-kanak terburuk (WFCL).</em>
                             </p>
                             <p>
-                                ILO Convention 138 requires countries to
-                                establish a minimum age for work no less than
-                                the age of compulsory schooling, and no less
-                                than 15 years.&nbsp; It allows less-developed
-                                countries to establish a minimum age of 14.
+                                Konvensyen ILO 138 memerlukan negara-negara untuk menetapkan umur minimum untuk bekerja iaitu tidak kurang daripada umur wajib
+                                untuk mula masuk sekolah, dan tidak kurang daripada umur 15 tahun. Ia membenarkan negara-negara miskin untuk menetapkan umur minimum 14 tahun.
                             </p>
                             <p>
                                 <a
@@ -71,48 +58,29 @@ const ms = () => {
                                 >
                                     ILO Convention 182
                                 </a>{" "}
-                                defines the WFCL as:
+                                dimaksudkan oleh WFCL sebagai:
                             </p>
                             <ol type="a">
                                 <li>
-                                    all forms of slavery or practices similar to
-                                    slavery, such as the sale and trafficking of
-                                    children, debt bondage and serfdom and
-                                    forced or compulsory labor, including forced
-                                    or compulsory recruitment of children for
-                                    use in armed conflict;
+                                    Semua bentuk perhambaan atau amalan yang serupa dengan perhambaan, seperti penjualan dan pemerdagangan kanak-kanak,
+                                    perhambaan hutang, dan perhambaan dan buruh paksa atau buruh wajib, termasuk kanak-kanak yang dikerah berjuang dalam konflik bersenjata;
                                 </li>
                                 <li>
-                                    the use, procuring or offering of a child
-                                    for prostitution, the production of
-                                    pornography or for pornographic
-                                    performances;
+                                    penggunaan, pemerolehan, atau penawaran kanak-kanak untuk pelacuran, pengeluaran pornografi, atau untuk persembahan pornografi;
                                 </li>
                                 <li>
-                                    the use, procuring or offering of a child
-                                    for illicit activities, in particular for
-                                    the production and trafficking of drugs as
-                                    defined in the relevant international
-                                    treaties; and
+                                    Penggunaan, pemerolehan atau penawaran kanak-kanak untuk kegiatan haram, khususnya untuk pengeluaran dan perdagangan dadah seperti yang
+                                    ditentukan dalam perjanjian antarabangsa yang relevan; dan
                                 </li>
                                 <li>
-                                    work which, by its nature or the
-                                    circumstances in which it is carried out, is
-                                    likely to harm the health, safety or morals
-                                    of children (referred to as &ldquo;hazardous
-                                    work&rdquo;).
+                                    pekerjaan yang, oleh sifatnya atau keadaan di mana ia dilakukan, mungkin membahayakan kesihatan, keselamatan atau moral kanak-kanak
+                                    (dirujuk sebagai “pekerjaan berbahaya”)
                                 </li>
                             </ol>
                             <p>
-                                According to ILO Convention 182, hazardous work
-                                "shall be determined by national laws or
-                                regulations or by the competent authority, after
-                                consultation with the organizations of employers
-                                and workers concerned, taking into consideration
-                                relevant international standards..." (Article
-                                4). As this suggests, forms of work identified
-                                as "hazardous" for children may vary from
-                                country to country.{" "}
+                                Menurut Konvensyen ILO 182, pekerjaan berbahaya akan “ditentukan oleh undang-undang atau peraturan nasional atau oleh pihak berkuasa, setelah berunding
+                                dengan pertubuhan majikan dan pekerja berkenaan, dengan mempertimbangkan standard antarabangsa yang relevan ...” (Artikel 4). Seperti yang dimaksudkan,
+                                bentuk pekerjaan yang dikenal pasti sebagai “berbahaya” untuk kanak-kanak mungkin berbeza dari satu negara ke negara lain.{" "}
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -121,42 +89,28 @@ const ms = () => {
                                 >
                                     ILO Recommendation No. 190
                                 </a>
-                                , which accompanies ILO Convention 182, gives
-                                additional guidance on identifying "hazardous
-                                work." ILO Recommendation No. 190 states in
-                                Section II, Paragraph 3 that "[i]n determining
-                                the types of work referred to under Article 3(d)
-                                of the Convention [ILO Convention 182], and in
-                                identifying where they exist, consideration
-                                should be given, inter alia to:
+                                , yang disertai dalam Konvensyen ILO 182, memberi panduan tambahan untuk mengenal pasti “pekerjaan berbahaya.” Saranan ILO No. 190 menyatakan dalam Seksyen II,
+                                Perenggan 3 bahawa “dalam menetapkan jenis pekerjaan yang dirujuk di bawah Artikel 3(d) Konvensyen [Konvensyen ILO 182], dan dalam mengenal pasti di mana ia wujud,
+                                pertimbangan haruslah diberikan, antara lain kepada:
                             </p>
                             <ol>
                                 <li>
-                                    work which exposes children to physical,
-                                    psychological, or sexual abuse;
+                                    Kerja yang mendedahkan kanak-kanak kepada penderaan fizikal, psikologi atau seksual;
                                 </li>
                                 <li>
-                                    work underground, under water, at dangerous
-                                    heights or in confined spaces;
+                                    kerja di bawah tanah, di dalam air, pada ketinggian berbahaya atau di tempat terkurung;
                                 </li>
                                 <li>
-                                    work with dangerous machinery, equipment and
-                                    tools, or which involves the manual handling
-                                    or transport of heavy loads;
+                                    kerja dengan mesin, peralatan dan alat berbahaya, atau yang melibatkan pengendalian manual
+                                    atau pengangkutan beban berat
                                 </li>
                                 <li>
-                                    work in an unhealthy environment which may,
-                                    for example, expose children to hazardous
-                                    substances, agents or processes, or to
-                                    temperatures, noise levels, or vibrations
-                                    damaging to their health;
+                                    kerja di persekitaran yang tidak sihat yang, misalnya, boleh mendedahkan kanak-kanak kepada bahan,
+                                    agen atau proses berbahaya, atau suhu, tahap kebisingan, atau getaran yang merosakkan kesihatan mereka;
                                 </li>
                                 <li>
-                                    work under particularly difficult conditions
-                                    such as work for long hours or during the
-                                    night or work where the child is
-                                    unreasonably confined to the premises of the
-                                    employer."
+                                    kerja dalam keadaan yang sangat sukar seperti bekerja berjam-jam atau pada waktu malam atau kerja di
+                                    mana kanak-kanak terhad di dalam tempat kerja majikan.”
                                 </li>
                             </ol>
                             <img
@@ -167,97 +121,65 @@ const ms = () => {
                             />
                             <p className="small-text">M. Crozet/ILO</p>
                             <p>
-                                Child labor spans nearly every sector and kind
-                                of work. Children harvest cotton in
-                                Turkmenistan, work as domestic servants in Haiti
-                                and mine diamonds in the Central African
-                                Republic.
+                                Pekerja kanak-kanak merangkumi semua sektor dan jenis pekerjaan. Kanak-kanak menuai kapas di Turkmenistan, bekerja
+                                sebagai pembantu rumah di Haiti, dan melombong berlian di Republik Afrika Tengah.
                             </p>
                             <p>
-                                It is important to recognize that not all work
-                                performed by children is exploitative child
-                                labor. Children of legal working age who perform
-                                work that does not hinder their mental, physical
-                                or emotional development, &ldquo;working
-                                children&rdquo; under international standards,
-                                can be an asset to their families' welfare and
-                                their nations' economic development. Such work
-                                can be performing household chores in their own
-                                homes, assisting parents in a family business
-                                outside of school hours, and working in
-                                non-hazardous activities after school or during
-                                vacations to earn extra income.
+                                Penting untuk menyedari bahawa tidak semua pekerjaan yang dilakukan kanak-kanak adalah buruh kanak-kanak yang dieksploitasi.
+                                Kanak-kanak yang melakukan pekerjaan dengan umur yang sah yang tidak menghalang perkembangan mental, fizikal atau emosi,
+                                “kanak-kanak yang bekerja” di bawah standard antarabangsa boleh menjadi aset kepada kebajikan keluarga mereka dan pembangunan
+                                ekonomi negara. Pekerjaan seperti menjalankan kerja rumah mereka sendiri, membantu ibu bapa dalam perniagaan keluarga di luar
+                                waktu sekolah, dan bekerja dalam keadaan yang tidak membahayakan selepas sekolah atau pada musim cuti untuk mendapat pendapatan sampingan.
                             </p>
                             <p>
-                                <em>Note: </em>
                                 <em>
-                                    The standards on child labor and forced
-                                    labor discussed in this App are
-                                    international standards and should not be
-                                    interpreted as U.S. law.
+                                    Catatan: Standard buruh kanak-kanak dan buruh paksa yang dibincangkan dalam aplikasi ini merupakan standard antarabangsa dan tidak ditafsirkan sebagai undang-undang AS.
                                 </em>
                             </p>
                             <p />
-                            <h3>Drivers of Child Labor</h3>
+                            <h3>Pemacu Buruh Kanak-Kanak</h3>
                             <p>
-                                Children enter the labor force due to both
-                                supply factors and industry demand for cheap,
-                                unskilled labor, among other factors. Poverty is
-                                the most salient source of pressure leading to
-                                the supply of child labor. Production processes
-                                that require an abundance of unskilled labor or
-                                that require certain physical
-                                attributes&mdash;small stature, agility,
-                                etc.&mdash;can also create demand for child
-                                labor. In addition, price pressures encourage
-                                suppliers, especially at points upstream in the
-                                supply chain, to find the cheapest labor.
-                                Children may be the only workers willing to work
-                                for these wages, or adults may find that these
-                                wage levels do not allow them to meet basic
-                                needs and they must put their children to work
-                                to supplement family income. These fundamental
-                                supply and demand factors are often reinforced
-                                by factors such as a lack of adequate access to
-                                education, inadequate employment potential for
-                                those who do receive education, exclusionary
-                                social attitudes based on caste or ethnicity,
-                                gender and cultural attitudes about work and
-                                education.
+                                Kanak-kanak menjadi tenaga kerja kerana dua faktor iaitu bekalan dan permintaan industri untuk tenaga kerja yang murah dan tidak mahir, antara faktor lain. Kemiskinan adalah
+                                sumber tekanan yang paling ketara yang membawa kepada bekalan buruh kanak-kanak. Proses pengeluaran yang memerlukan banyak tenaga tidak mahir atau yang memerlukan sifat fizikal
+                                tertentu - perawakan kecil, ketangkasan, dll. - juga boleh menimbulkan permintaan untuk pekerja kanak-kanak. Di samping itu, tekanan harga menggalakkan pembekal, terutama pada
+                                peringkat hulu di rantai pembekalan, untuk mencari tenaga kerja yang paling murah. Kanak-kanak mungkin sanggup bekerja untuk upah ini, atau orang dewasa mungkin berfikir gaji
+                                sekadar ini tidak cukup untuk keperluan asas, dan mereka terpaksa menyuruh anak-anak mereka bekerja untuk menambah pendapatan keluarga. Faktor-faktor seperti pembekalan dan
+                                permintaan sering diikuti oleh faktor-faktor lain seperti kurangnya akses kepada pendidikan, pekerjaan yang tidak mempunyai cukup potensi bagi mereka yang mempunyai pendidikan,
+                                sikap sosial yang konservatif berdasarkan kasta atau etnik, jantina, dan budaya terhadap pekerjaan dan pendidikan.
                             </p>
                             <p />
-                            <h3>Child Labor Estimates</h3>
+                            <h3>Anggaran Buruh Kanak-Kanak</h3>
                             <p>
-                                The ILO estimates that in 2016, there were 152
-                                million child laborers worldwide. Global child
-                                labor statistics are not yet available from 2016
-                                onward.
+                                ILO{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/publication/wcms_575499.pdf"
+                                    title="Global Estimates of Child Labour"
+                                >
+                                Global Estimates of Child Labour
+                                </a>
+                                {" "}mencatatkan bahawa pada 2016, terdapat 152 juta buruh kanak-kanak di serata dunia. Statistik buruh kanak-kanak belum lagi boleh diperoleh
+                                bermula dari tahun 2016. Daripada 152 juta buruh kanak-kanak, anggaran terkini menunjukkan 70.4 peratus daripada mereka terlibat dalam pertanian, 17.2 peratus dalam perkhidmatan,
+                                dan 11.9 peratus dalam industri. Dari segi rantau, satu perlima buruh kanak-kanak terdapat di Afrika - di mana terdapat jumlah tertinggi kanak-kanak yang bekerja sebagai buruh
+                                kanak-kanak—72 juta. Selepas Afrika, terdapat kira-kira 7 peratus kanak-kanak yang bekerja sebagai buruh kanak-kanak di Asia dan rantau Pasifik iaitu berjumlah seramai 62 juta.
+                                Benua Amerika, Eropah dan Asia Tengah, dan negara-negara Arab kesemuanya terdapat buruh kanak-kanak, masing-masing berjumlah 11 juta, 6 juta, dan 1 juta kanak-kanak di mana
+                                mereka dikerah bekerja dalam keadaan berbahaya.
                             </p>
-                            <p />
 
-                            <Accordion >
+                            <Accordion>
                                 <Accordion.Section id="child-resources">
                                     <Accordion.Title>
-                                        Further Resources
+                                        Rujukan Selanjutnya
                                     </Accordion.Title>
                                     <Accordion.Panel>
                                         <ol>
                                             <li>
-                                                International Labor
-                                                Organization, Global estimation
-                                                of child labour 2016: Main
-                                                results and methodology, Geneva,
-                                                September 2017.
+                                                Pertubuhan Buruh Antarabangsa (ILO), Anggaran buruh kanak-kanak pada 2016: Keputusan utama dan Metodologi, Geneva, September 2017.
                                             </li>
                                             <li>
-                                                International Labor
-                                                Organization, Accelerating
-                                                action against child labour;
-                                                Global Report under the
-                                                follow-up to the ILO Declaration
-                                                on Fundamental Principles and
-                                                Rights at Work; Geneva: 2010;
-                                                available from{" "}
+                                                Pertubuhan Buruh Antarabangsa (ILO), Melonjakkan tindakan terhadap buruh kanak-kanak; Laporan Global berikutan Deklarasi Prinsip
+                                                Asas dan Hak di tempat Kerja ILO; Geneva: 2010; boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -268,11 +190,7 @@ const ms = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                International Labor
-                                                Organization, &ldquo;What is
-                                                child labour&rdquo;, accessed
-                                                November 25, 2011; available
-                                                from{" "}
+                                                Pertubuhan Buruh Antarabangsa (ILO), “Apa itu buruh kanak-kanak”, akses pada November 25, 2011; boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -284,11 +202,8 @@ const ms = () => {
                                                 .
                                             </li>
                                             <li>
-                                                International Labor
-                                                Organization, Children in
-                                                hazardous work: What we know,
-                                                what we need to do, Geneva, June
-                                                2011; available from{" "}
+                                                Pertubuhan Buruh Antarabangsa (ILO), Kanak-kanak dalam pekerjaan kerja berbahaya: Apa yang kita ketahui, apa yang kita perlu buat,
+                                                Geneva, Jun 2011; boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -300,9 +215,7 @@ const ms = () => {
                                                 .
                                             </li>
                                             <li>
-                                                International Labor Organization
-                                                Convention 138 (Minimum Age);
-                                                available from{" "}
+                                                Pertubuhan Buruh Antarabangsa (ILO) Konvensyen 138 (Umur Minimum); boleh didapati dari {" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -313,9 +226,7 @@ const ms = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                International Labor Organization
-                                                Convention 182 (Worst Forms of
-                                                Child Labor); available from{" "}
+                                                Pertubuhan Buruh Antarabangsa (ILO) Konvensyen 182 (Bentuk Buruh Kanak-Kanak Terburuk); boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -326,14 +237,8 @@ const ms = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                International Labor
-                                                Organization-International
-                                                Organization of Employers,
-                                                Eliminating Child Labour Guide
-                                                for Employers: Guide One:
-                                                Introduction to the Issue of
-                                                Child Labour, Geneva: 2007;
-                                                available from{" "}
+                                                Pertubuhan Buruh Antarabangsa-Pertubuhan Majikan Antarabangsa, Membasmi Buruh Kanak-Kanak Panduan untuk Majikan:
+                                                Panduan Satu: Pengenalan Isu Buruh Kanak-Kanak, Geneva: 2007; boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -345,14 +250,7 @@ const ms = () => {
                                                 .
                                             </li>
                                             <li>
-                                                International Trade Union
-                                                Confederation.
-                                                <em>
-                                                    {" "}
-                                                    Mini Action Guide on Child
-                                                    Labour,{" "}
-                                                </em>
-                                                Brussels, 2008; available from{" "}
+                                                Gabungan Kesatuan Sekerja Perdagangan Antarabangsa <em>Panduan Mini Tindakan Terhadap Buruh Kanak-Kanak</em>, Brussels, 2008; boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -364,16 +262,8 @@ const ms = () => {
                                                 .
                                             </li>
                                             <li>
-                                                International Labor Office.{" "}
-                                                <em>
-                                                    18<sup>th</sup>{" "}
-                                                    International Conference of
-                                                    Labor Statisticians Report
-                                                    III: Child labour
-                                                    statistics.
-                                                </em>{" "}
-                                                Geneva, December 5, 2008.
-                                                Available at{" "}
+                                                Pejabat Buruh Antarabangsa <em>Laporan III Persidangan Antarabangsa Ahli Statistik Buruh ke-18 : Statistik buruh kanak-kanak()</em>.
+                                                Geneva, Disember 5, 2008. Boleh didapati di{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -384,10 +274,7 @@ const ms = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                U.S. Department of Labor.
-                                                &nbsp;Findings on the Worst
-                                                Forms of Child Labor,
-                                                Washington, D.C. available from{" "}
+                                                Jabatan Buruh AS Penemuan mengenai Bentuk Buruh Kanak-Kanak Terburuk, Washington, D.C. Boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -406,254 +293,127 @@ const ms = () => {
                     </Accordion.Section>
 
                     <Accordion.Section id="forced-labor">
-                        <Accordion.Title>Forced Labor</Accordion.Title>
+                        <Accordion.Title>Buruh Paksa</Accordion.Title>
                         <Accordion.Panel>
-                            <h3>Definitions</h3>
+                            <h3>Definisi</h3>
                             <p>
-                                The internationally recognized definition of{" "}
-                                <strong>forced or compulsory labor</strong> is
-                                found in ILO Convention 29. According to this
-                                Convention, forced or compulsory labor is "all
-                                work or service which is exacted from any person
-                                under the menace of any penalty and for which
-                                the said person has not offered himself
-                                voluntarily." There are four key elements to
-                                this definition, and indicators related to each
-                                element, as set forth below. The combination of
-                                indicators for each situation must be analyzed
-                                in order to determine whether the situation is
-                                one of forced labor or not.
+                                Definisi yang diiktiraf di peringkat antarabangsa mengenai <b>buruh paksa atau buruh wajib</b> terdapat di ILO Konvensyen 29. Menurut Konvensyen ini, buruh paksa atau buruh wajib
+                                “semuanya kerja atau perkhidmatan yang dikenakan ke atas mana-mana orang yang diancam dengan hukuman atau orang tersebut tidak menawarkan dirinya untuk bekerja secara sukarela.
+                                ” Terdapat empat elemen penting dalam definisi ini, dan petunjuk yang berkaitan dengan setiap elemen, seperti yang dinyatakan di bawah. Gabungan petunjuk untuk setiap keadaan mesti
+                                dianalisa agar dapat ditentukan sama ada keadaan tersebut adalah kerja paksa atau tidak.
                             </p>
                             <ul>
                                 <li>
-                                    <em>All work or service:</em> This includes
-                                    all types of work, service and employment,
-                                    regardless of the industry, sector or
-                                    occupation within which it is found, and
-                                    encompasses legal and formal employment as
-                                    well as illegal and informal work.
+                                    <em>Semua pekerjaan atau perkhidmatan:</em> Ini merangkumi semua jenis pekerjaan, perkhidmatan dan pekerjaan, tidak kira industri, sektor atau pekerjaan di mana ia didapati, dan
+                                    merangkumi pekerjaan sah dan formal serta pekerjaan haram dan tidak rasmi.
                                 </li>
                                 <li>
-                                    <em>Any person:</em> This refers to adults
-                                    and children.
+                                    <em>Mana-mana orang: Ini merujuk kepada orang dewasa dan kanak-kanak.</em>
                                 </li>
                                 <li>
-                                    <em>Menace of any penalty:</em> This refers
-                                    to a worker believing he or she will face a
-                                    penalty if they refuse to work. "Menace"
-                                    means the penalty need not be exacted, but
-                                    rather, that threats of penalty may be
-                                    sufficient, if the employee believes the
-                                    employer will exact the penalty. A wide
-                                    variety of penalties, such as confinement to
-                                    the workplace, violence against workers or
-                                    family members, retention of identity
-                                    documents, dismissal from employment, and
-                                    non-payment of wages, denunciation to
-                                    authorities, or other loss of rights or
-                                    privileges, may be sufficient to fulfill
-                                    this element of the test for forced labor.
+                                    <em>Mengancam dengan sebarang hukuman:</em> Ini merujuk kepada pekerja yang percaya dia akan menghadapi hukuman sekiranya dia tidak mahu bekerja. “Ancaman” bermaksud hukuman tidak dikenakan,
+                                    tetapi, ancaman untuk dikenakan hukuman mungkin memadai, sekiranya pekerja percaya majikan akan menjatuhkan hukuman. Pelbagai hukuman, seperti pengurungan di tempat kerja, kekerasan
+                                    terhadap pekerja atau anggota keluarganya, penyimpanan dokumen pengenalan diri, pemecatan dari pekerjaan, dan tidak dibayar upah, pencelaan di hadapan pihak berkuasa, atau kehilangan
+                                    hak atau keistimewaan yang lain, mungkin cukup untuk menguji bahawa ini semua elemen buruh paksa.
                                 </li>
                                 <li>
-                                    <em>Voluntary: </em>This refers to
-                                    workers&rsquo; consent to enter into
-                                    employment and their freedom to leave the
-                                    employment at any time, with reasonable
-                                    notice in accordance with national law or
-                                    collective agreements. In essence, persons
-                                    are in a forced labor situation if they
-                                    enter work or service against their free
-                                    choice, and cannot leave it without penalty
-                                    or the threat of penalty. Involuntariness
-                                    does not have to result from physical
-                                    punishment or constraint; it can also stem
-                                    from other forms of retaliation, such as the
-                                    loss of rights or privileges or non-payment
-                                    of wages owed. Note that a worker can be
-                                    considered to be in forced labor even if his
-                                    or her consent was given, if that consent
-                                    was obtained through the use of force,
-                                    abduction, fraud, deception or the abuse of
-                                    power or a position of vulnerability, or if
-                                    the consent has been revoked.
+                                    <em>Sukarela:</em> Ini merujuk kepada persetujuan pekerja untuk bekerja dan kebebasan mereka untuk meninggalkan pekerjaan pada bila-bila masa, dengan memberi notis secukupnya mengikut undang-undang
+                                    negara atau perjanjian kolektif. Pada dasarnya, orang yang berada dalam situasi buruh paksa jika mereka dipaksa bekerja atau berkhidmat tanpa kebebasan untuk memilih, dan mereka dan tidak
+                                    boleh meninggalkannya tanpa dihukum atau diancam dengan hukuman. Paksaan tidak harus berpunca dari hukuman fizikal atau kekangan; ia juga boleh berpunca dari bentuk pembalasan lain, seperti
+                                    kehilangan hak atau keistimewaan atau tidak menerima upah yang patut dibayar. Perhatikan bahawa seorang pekerja boleh dianggap sebagai buruh paksa walaupun dia bersetuju untuk berbuat demikian,
+                                    sekiranya persetujuan diperoleh melalui kekerasan, penculikan, penipuan atau salahguna kuasa atau dalam keadaan terdedah kepada tekanan, atau jika persetujuan telah dicabut.
                                 </li>
                             </ul>
                             <p>
-                                ILO Convention 105, another convention on forced
-                                labor, specifies that forced labor should never
-                                be used for the purpose of economic development
-                                or as a means of political coercion,
-                                discrimination, labor discipline or punishment
-                                for having participated in labor strikes.
+                                Konvensyen ILO 105, satu lagi konvensyen mengenai buruh paksa, menetapkan bahawa buruh paksa tidak boleh digunakan untuk tujuan pembangunan ekonomi atau sebagai paksaan politik, diskriminasi,
+                                disiplin buruh atau hukuman kerana menyertai mogok kerja.
                             </p>
                             <p>
-                                <em>Note: </em>
-                                <em>
-                                    The standards on child labor and forced
-                                    labor discussed in this App are
-                                    international standards and should not be
-                                    interpreted as U.S. law.
-                                </em>
+                                <em>Catatan: Standard buruh kanak-kanak dan buruh paksa yang dibincangkan dalam aplikasi ini merupakan standard antarabangsa dan tidak ditafsirkan sebagai undang-undang AS.</em>
                             </p>
                             <p />
-                            <h3>Patterns and Forms of Forced Labor</h3>
+                            <h3>Corak dan Bentuk Buruh Paksa</h3>
                             <p>
-                                Forced labor can happen in any industry and
-                                country, and can be especially prevalent in
-                                industries that require low-skilled labor, such
-                                as agriculture and mining, or occupations hidden
-                                from public view, like domestic service.
+                                Buruh paksa boleh berlaku dalam mana-mana industri dan negara terutama dalam industri yang memerlukan buruh berkemahiran rendah, seperti pertanian dan perlombongan, atau pekerjaan yang tersembunyi
+                                dari pandangan masyarakat, seperti pembantu rumah.
+
                             </p>
                             <p>
-                                Until the 20th century, most of the world's
-                                forced labor was rooted in traditional social
-                                stratification systems and patterns of
-                                discrimination, agrarian production structures,
-                                conquest, colonialism and the slave trade.
-                                Certain castes, religious minorities, and
-                                indigenous peoples have long been vulnerable to
-                                forced labor.
+                                Sehingga abad ke-20, sebahagian besar buruh paksa di dunia berakar dari sistem kelas sosial dan pola diskriminasi, struktur pengeluaran sumber pertanian, penaklukan, penjajahan, dan
+                                perdagangan hamba. Kasta tertentu, agama minoriti , dan orang asli telah lama terdedah kepada bahaya buruh paksa.
                             </p>
                             <p>
-                                Forced labor is not just a historical problem.
-                                Today, as in the past, some governments force
-                                their citizens to carry out infrastructure
-                                projects, produce goods, raise crops and perform
-                                other forms of work. Indeed, the ILO estimates
-                                that 16 percent of forced labor worldwide is
-                                state-imposed forced labor. This includes prison
-                                labor where victims are imprisoned without
-                                conviction by a court of law, and made to
-                                perform work or service.
+                                Buruh paksa bukan hanya masalah sejarah. Hari ini, seperti di masa lalu, ada kerajaan yang memaksa rakyatnya supaya menjalankan projek infrastruktur, menghasilkan barang, mengusahakan tanaman,
+                                dan melakukan pelbagai jenis pekerjaan. Memang ILO menganggarkan bahawa 16 peratus buruh paksa di seluruh dunia adalah buruh paksa yang dikenakan oleh pihak kerajaan. Ini termasuk buruh
+                                penjara di mana mangsa dipenjara tanpa disabit kesalahan di bawah undang-undang mahkamah, dan dipaksa .
                             </p>
 
                             <p>
-                                Labor migration has also given rise to forced
-                                labor. There are approximately 150 million
-                                migrant workers in the global workforce.
-                                <sup>1</sup> These workers may be especially
-                                vulnerable to labor recruiters and other
-                                intermediaries, organized crime syndicates, and
-                                employers offering false contract terms and
-                                other fraudulent schemes. Many migrants pay fees
-                                to such recruiters or intermediaries and become
-                                trapped in debt bondage: cyclical debt, often
-                                including unreasonable interest or other terms
-                                that their wages are insufficient to repay.
-                                Cycles of debt bondage can also occur when
-                                employers deduct from workers' wages for
-                                housing, food and other costs, leaving them with
-                                little or no take-home pay.{" "}
+                                Penghijrahan buruh juga telah menimbulkan buruh paksa. Dianggarkan terdapat{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/global/publications/books/WCMS_652001/lang--en/index.htm"
+                                >
+                                150 million migrant workers in the global workforce
+                                </a>
+                                . Para pekerja ini mungkin terdedah kepada perekrut buruh dan perantara lain,
+                                sindiket jenayah terancang, dan majikan yang menawarkan syarat kontrak palsu dan cara penipuan lain. Sebilangan besar pendatang membayar yuran kepada perekrut atau perantara seperti itu dan terperangkap
+                                dalam perhambaan hutang: hutang kitaran selalunya termasuk kadar faedah yang melambung atau syarat lain yang menyebabkan mereka tidak mampu membayar balik. Kitaran perhambaan hutang juga boleh berlaku
+                                apabila majikan menolak dari upah bayaran perumahan, makanan, dan lain-lain, meninggalkan mereka dengan gaji yang sedikit atau tanpa gaji langsung.
                             </p>
                             <p>
-                                Migrants can also be especially vulnerable to
-                                confinement in workplaces, including through
-                                employer retention of their identity documents
-                                and/or various forms of physical and/or
-                                psychological coercion.{" "}
+                                Pendatang juga terdedah kepada keadaan dikurung di tempat kerja, termasuk keadaan di mana majikan menyimpan dokumen pengenalan diri dan/atau pelbagai bentuk paksaan fizikal atau psikologi.
                             </p>
 
                             <p>
-                                Modern dynamics of global production and demand
-                                for cheaper, disposable goods have also
-                                increased worker vulnerability to forced labor.
-                                For instance, buyer pressure on suppliers to
-                                complete orders in an unreasonable amount of
-                                time can lead suppliers to force workers to work
-                                long hours, often without extra compensation. It
-                                can also lead suppliers to outsource production
-                                to subcontractors beyond their network of
-                                allowable subcontractors. In many countries,
-                                these are small, informal businesses that are
-                                not registered with the government and are not
-                                visible to the buyer, leaving workers outside
-                                the purview of legal protections and social
-                                compliance systems.
+                                Pemodenan pengeluaran global dan permintaan untuk barang lebih murah dan barang yang mudah buang juga telah membuat ramai pekerja terdedah buruh paksaan. Sebagai contoh, tekanan dari pembeli
+                                terhadap pembekal untuk menyediakan pesanan dalam waktu yang tak masuk akal boleh menyebabkan pembekal memaksa pekerja mereka untuk bekerja berjam-jam, sering kali tanpa pampasan tambahan.
+                                Hal ini juga boleh menyebabkan pembekal menggunakan sub-kontraktor di luar jaringan untuk menghasilkan barangan. Di banyak negara, ini merupakan perniagaan kecil dan tidak formal yang tidak
+                                berdaftar dengan kerajaan dan tidak kelihatan oleh pembeli, menyebabkan pekerja berada di luar perlindungan undang-undang dan sistem pematuhan sosial.
                             </p>
 
                             <p>
-                                While poverty can push people into exploitative
-                                work, it is important to distinguish between
-                                very poor working conditions and forced labor. A
-                                lack of economic alternatives, such as other
-                                jobs, does not by itself qualify a situation as
-                                one of forced labor. Nor do unsafe buildings,
-                                poor health and safety conditions, substandard
-                                employer-provided housing, or other labor rights
-                                violations constitute, on their own, forced
-                                labor. Forced labor is distinguished by the
-                                worker feeling a threat of penalty, exacted by
-                                his or her employer or an agent of the employer,
-                                such as a supervisor or recruiter, and
-                                performing work involuntarily.
+                                Sekiranya kemiskinan boleh membawa seseorang kepada pekerjaan yang mudah dieksploitasi, oleh itu perlu dibezakan antara keadaan pekerjaan yang buruk dan buruh paksa. Kekurangan pilihan dalam ekonomi,
+                                seperti pekerjaan lain, tidak bermakna keadaan seperti itu layak dianggap sebagai buruh paksa. Begitu juga bangunan yang berbahaya, keadaan kesihatan dan keselamatan yang buruk, perumahan yang
+                                disediakan majikan yang di bawah standard, atau pencabulan hak buruh lain, layak dianggap sebagai buruh paksa. Buruh paksa dikenali oleh pekerja sebagai rasa terancam akan dihukum, yang dikenakan
+                                oleh majikan atau ejen majikan, seperti penyelia atau perekrut, dan menjalankan kerja secara paksa.
                             </p>
 
-                            <h3>Forced Labor Estimates</h3>
+                            <h3>Anggaran Buruh Paksa</h3>
                             <p>
-                                The ILO estimated in 2016 that 25 million people
-                                are victims of forced labor globally. Of these,
-                                nearly 5 million are in forced commercial sexual
-                                exploitation, and 16 million are in other forms
-                                of labor exploitation spanning sectors such as
-                                agriculture, construction, domestic work and
-                                manufacturing. The remaining 4 million are in
-                                state-imposed forms of forced labor.
-                                <sup>
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="#_ftnref1"
-                                        name="_ftn1"
-                                    >
-                                        [1]
-                                    </a>{" "}
-                                    ILO:&nbsp;{" "}
-                                    <em>
-                                        ILO Global Estimates on Migrant
-                                        Workers:&nbsp; Results and Methodology,{" "}
-                                    </em>
-                                    Geneva, 2015, p.xi
-                                </sup>
+                                ILO menganggarkan pada 2016 bahawa{" "}
+                                <a
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.ilo.org/wcmsp5/groups/public/@dgreports/@dcomm/documents/publication/wcms_575479.pdf"                                >
+                                25 million people are victims of forced labor globally
+                                </a>. Dari ini, hampir 5 juta didapati terjebak dalam eksploitasi perdagangan seksual secara paksa, dan 16
+                                juta terdapat dalam eksploitasi buruh termasuk pertanian, pembinaan, pembantu rumah, dan kilang-kilang. Empat juta lagi terdapat dalam buruh paksa yang dijalankan oleh kerajaan.
                             </p>
 
-                            <h3>Human Trafficking</h3>
+                            <h3>Pemerdagangan Manusia</h3>
                             <p>
-                                Human trafficking, or trafficking in persons, is
-                                defined in the{" "}
+                                Pemerdagangan manusia, atau membawa masuk orang tanpa izin, didefinisikan{" "}
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     href="https://www.osce.org/odihr/19223?download=true"
                                     title="Protocol to Prevent, Suppress and Punish Trafficking in Persons, especially Women and Children"
                                 >
-                                    "Protocol to Prevent, Suppress and Punish
+                                    &quot;Protocol to Prevent, Suppress and Punish
                                     Trafficking in Persons, especially Women and
                                     Children"
                                 </a>{" "}
-                                of 2000 (a Protocol to the United Nations
-                                Convention Against Transnational Organized
-                                Crime) as "the recruitment, transportation,
-                                transfer, harboring or receipt of persons, by
-                                means of the threat or use of force or other
-                                forms of coercion, abduction, fraud, deception,
-                                the abuse of power or a position of
-                                vulnerability, or of the giving or receiving of
-                                payments or benefits to achieve the consent of a
-                                person having control over another person, for
-                                the purpose of exploitation." As set out in that
-                                Protocol, exploitation includes, at a minimum,
-                                "the exploitation of the prostitution of others
-                                or other forms of sexual exploitation, forced
-                                labor or services, slavery or practices similar
-                                to slavery, servitude or the removal of organs."
+                                pada 2000 (satu Protokol dalam Konvensyen Pertubuhan Bangsa-Bangsa Bersatu terhadap Jenayah Terancang Transnasional) sebagai &quot;merekrut, mengangkut, memindah, menyimpan, atau menerima orang,
+                                dengan menggunakan ancaman atau paksaan atau cara lain untuk mengancam, menculik, menipu, menyeleweng, menyalah guna kuasa atau dalam keadaan terdedah berbahaya, atau memberi atau menerima bayaran
+                                untuk mendapatkan persetujuan daripada orang yang menguasai orang lain, untuk tujuan eksploitasi.” Seperti yang ditetapkan dalam Protokol, eksploitasi termasuk, pada tahap minimum, “mengeksploitasi
+                                orang lain untuk pelacuran atau cara lain untuk mengeksploitasi secara seksual, buruh paksa atau perkhidmatan, perhambaan atau amalan yang sama dengan perhambaan, menjadi hamba atau mengeluarkan organ dari dalam badan.”
                             </p>
                             <img src={unoDc} alt="UNO DC" />
                             <br />
                             <p className="small-text">
-                                Source: United Nations Office on Drugs and
-                                Crime.{" "}
-                                <em>Global Report on Trafficking in Persons</em>
-                                ; 2016.{" "}
+                                Sumber: Pertubuhan Bangsa-Bangsa <em>Bersatu Pejabat Mengenai Dadah dan Jenayah Laporan Global Mengenai Pemerdagangan Manusia;</em> 2016.{" "}
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -668,14 +428,12 @@ const ms = () => {
                             <Accordion >
                                 <Accordion.Section id="forced-resources">
                                     <Accordion.Title>
-                                        Further Resources
+                                        Rujukan Selanjutnya
                                     </Accordion.Title>
                                     <Accordion.Panel>
                                         <ol>
                                             <li>
-                                                International Labor Organization
-                                                Convention 29 (Forced Labor
-                                                Convention); available from{" "}
+                                                Pertubuhan Buruh Antarabangsa (International Labor Organization) Konvensyen 29 (Konvensyen Buruh Paksa); boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -687,17 +445,7 @@ const ms = () => {
                                                 .
                                             </li>
                                             <li>
-                                                International Labor
-                                                Organization,
-                                                <em>
-                                                    {" "}
-                                                    The cost of coercion: Global
-                                                    Report under the follow-up
-                                                    to the ILO Declaration on
-                                                    Fundamental Principles and
-                                                    Rights at Work,{" "}
-                                                </em>
-                                                Geneva; 2009 available from{" "}
+                                                Pertubuhan Buruh Antarabangsa (ILO), Kos <em>paksaan: Laporan Global sebagai susulan Deklarasi ILO mengenai Prinsip Asas dan Hak di Tempat Kerja,</em> Geneva; 2009 boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -709,11 +457,7 @@ const ms = () => {
                                                 .
                                             </li>
                                             <li>
-                                                International Labor
-                                                Organization, ILO Global
-                                                Estimate of Forced Labour:
-                                                Results and Methodology, Geneva,
-                                                2012; available from{" "}
+                                                Pertubuhan Buruh Antarabangsa, Anggaran ILO mengenai Buruh Paksa Global: Keputusan dan Metodologi, Geneva, 2012; boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -725,15 +469,7 @@ const ms = () => {
                                                 .
                                             </li>
                                             <li>
-                                                International Labor
-                                                Organization,{" "}
-                                                <em>
-                                                    Hard to see, harder to count
-                                                    - Survey guidelines to
-                                                    estimate forced labour of
-                                                    adults and children,{" "}
-                                                </em>
-                                                Geneva, 2012; available from{" "}
+                                                Pertubuhan Buruh Antarabangsa, Sukar dilihat, lebih <em>sukar lagi untuk dikira - Panduan tinjauan untuk menganggar buruh paksa di kalangan orang dewasa dan kanak-kanak,</em> Geneva, 2012; boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -745,11 +481,7 @@ const ms = () => {
                                                 .
                                             </li>
                                             <li>
-                                                International Labour
-                                                Organization, Combating Forced
-                                                Labour: A Handbook for Employers
-                                                and Business, Geneva, June 25,
-                                                2015; available from{" "}
+                                                Pertubuhan Buruh Antarabangsa, Memerangi Buruh Paksa: Buku Panduan untuk Majikan dan Perniagaan, Geneva, Jun 25, 2015; boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -761,13 +493,7 @@ const ms = () => {
                                                 .
                                             </li>
                                             <li>
-                                                International Labour
-                                                Organization,{" "}
-                                                <em>
-                                                    Profits and Poverty: The
-                                                    Economics of Forced Labor
-                                                </em>
-                                                . Geneva, 2014; available from{" "}
+                                                Pertubuhan Buruh Antarabangsa, Keuntungan dan Kemiskinan: Ekonomi Buruh Paksa. Geneva, 2014; boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -778,10 +504,7 @@ const ms = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                International Labor Organization
-                                                Protocol of 2014 to the Forced
-                                                Labour Convention; available
-                                                from{" "}
+                                                Pertubuhan Buruh Antarabangsa Protokol 2014 kepada Konvensyen Buruh Paksa; boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -792,11 +515,7 @@ const ms = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                International Labor Organization
-                                                Recommendation 203 on
-                                                supplementary measures for the
-                                                effective suppression of forced
-                                                labour, 2014; available from{" "}
+                                                Pertubuhan Buruh Antarabangsa Saranan 203 mengenai langkah tambahan untuk menindas secara berkesan buruh paksa, 2014; boleh didapati dari {" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -807,13 +526,7 @@ const ms = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                International Trade Union
-                                                Confederation.{" "}
-                                                <em>
-                                                    How to Combat Forced Labour
-                                                    and Human Trafficking
-                                                </em>
-                                                , Brussels, 2010; available from{" "}
+                                                Gabungan Kesatuan Sekerja Perdagangan Antarabangsa Bagaimana Memerangi Buruh Paksa dan Pemerdagangan Manusia, Brussels, 2010; boleh didapati dari{" "}
                                                 <a
                                                     target="_blank"
                                                     rel="noopener noreferrer"

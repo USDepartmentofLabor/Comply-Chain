@@ -1,46 +1,58 @@
 import React from "react";
 import StaticData from "../../../../components/StaticData";
 
-const ms = () => {
+const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>List of Products Produced by Forced or Indentured Labor</h1>
+                <h1>Senarai produk yang Dikeluarkan melalui Buruh Paksa atau Buruh Kontrak Kanak-Kanak</h1>
                 <p>
-                    ILAB maintains a list of goods and their source countries
-                    which it has reason to believe are produced by child labor
-                    or forced labor in violation of international standards, as
-                    required under the Trafficking Victims Protection
-                    Reauthorization Act (TVPRA) of 2005 and subsequent
-                    reauthorizations. As of September 20, 2018, the List of
-                    Goods Produced by Child Labor or Forced Labor comprises 148
-                    goods from 76 countries.
+                ILAB menyimpan senarai produk dan negara asalnya yang ia percaya dikeluarkan oleh buruh paksa atau buruh kontrak kanak-kanak, menurut
+                <a
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     href="https://www.dol.gov/agencies/ilab/about/laws"
+                     title="List of products report"
+                      >
+                    <span> Executive Order 13126</span>
+                 </a>
+                .&nbsp;TSenarai ini adalah untuk memastikan yang agensi kerajaan pusat AS tidak memperoleh barangan yang dibuat oleh buruh paksa atau buruh kontrak kanak-kanak. Di bawah peraturan perolehan, kontraktor kerajaan
+                yang membekalkan produk di dalam senarai mesti mengeluarkan sijil bahawa mereka telah berusaha sedaya upaya untuk mengesahkan yang buruh paksa atau buruh kontrak kanak-kanak telah digunakan untuk mengeluarkan barang yang dibekalkan.
                 </p>
                 <p>
-                    ILAB maintains the List primarily to raise public awareness
-                    about forced labor and child labor around the world and to
-                    promote efforts to combat them; it is not intended to be
-                    punitive, but rather to serve as a catalyst for more
-                    strategic and focused coordination and collaboration among
-                    those working to address these problems.
+                Jabatan Buruh, berunding dengan Jabatan Negara dan Jabatan Keselamatan Dalam Negeri, menerbitkan dan menyimpan Senarai tersebut. ILAB mengeluarkan Senarai awalnya pada 2001, dan telah menyemak semula beberapa kali sejak itu. Mulai Mac 25,
+                2019, Senarai EO mengandungi 34 produk dari 25 buah negara. Senarai ini diperlukan{" "}
+                 <a
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     href="https://www.dol.gov/agencies/ilab/about/laws/#eo13126"
+                     title="List of products report"
+                      >
+                     Executive Order 13126
+                 </a>
+
+                .&nbsp;&quot;Larangan Perolehan Produk yang Dikeluarkan oleh Buruh Paksa atau Buruh Kontrak Kanak-Kanak&quot;. Keperluan Pemerolehan berkaitan dengan produk dalam Senarai itu terdapat dalam Peraturan Pemerolehan Persekutuan &nbsp;
+                 <a
+                      target="_blank"
+                     rel="noopener noreferrer"
+                     href="http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=2001_register&docid=01-1503-filed.pdf"
+                     title="List of products report"
+                      >
+                     Final Rule
+                 </a>.
+                    </p>
+                    <p>
+                ILAB menghasilkan Senarai itu dengan menggunakan kriteria dan prosedur yang ditetapkan dalam &quot;Panduan Prosedur bagi Pengekalan Senarai Produk yang Memerlukan Sijil Kontraktor Kerajaan berkaitan dengan Buruh Paksa atau Buruh Kontrak Kanak-Kanak&quot;.
                 </p>
                 <p>
-                    Publication of the List has resulted in new opportunities
-                    for ILAB to engage with foreign governments to combat forced
-                    labor and child labor. It is also a valuable resource for
-                    researchers, advocacy organizations and companies wishing to
-                    carry out risk assessments and engage in due diligence on
-                    labor rights in their supply chains.
-                </p>
-                <p>
-                    Read more here:{" "}
+                    Sila baca lagi:{" "}
                     <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products"
-                        title="List of products report"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products"
+                    title="List of products report"
                     >
-                        https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products
+                    https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products
                     </a>
                 </p>
             </div>
@@ -48,4 +60,4 @@ const ms = () => {
     );
 };
 
-export default ms;
+export default en;

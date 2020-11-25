@@ -48,7 +48,7 @@ const en = () => {
                             title="ETI Homeworker Guidelines"
                         >
                             ETI Homeworker Guidelines
-                        </a>
+                        </a>{" "}
                         for both retailers and suppliers. These guidelines 
                             and their supporting documents include tools such as 
                             a model policy for retailers and suppliers on homework, 

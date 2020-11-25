@@ -1,126 +1,106 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import Accordion from "../../../../../../components/Accordion";
 
 const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Managing Audit Data</h1>
+                <h1>Menangani Audit Data</h1>
                 <p>
-                    Auditing has little utility unless the company is committed
-                    to using audit data to improve labor conditions over time.
-                    Audit data should be entered into a database system that
-                    allows for thorough analysis of any particular audit, as
-                    well as analysis of aggregate data over time on each
-                    supplier and worksite audited, on each product line, on each
-                    type of violation, on compliance in distinct geographic
-                    zones, and other patterns.
+                    Mengaudit tiada banyak gunanya melainkan jika syarikat komited untuk menggunakan data audit untuk memperbaiki keadaan 
+                    buruh dalam jangka masa panjang. Data audit harus dimasukkan ke dalam sistem pangkalan data yang membenarkan analisis 
+                    menyeluruh bagi audit khusus, serta analisis data agregat ke atas setiap pembekal dan tempat kerja yang diaudit, ke 
+                    atas setiap barisan produk, ke atas setiap jenis pencabulan, atau pematuhan di zon daerah, dan bentuk lain. 
                 </p>
                 <p>
-                    There are several challenges to maintaining an effective
-                    audit database.
+                    Ada beberapa cabaran untuk mengekalkan audit pangkalan data yang berkesan.
                 </p>
-                <h2>Data Processing</h2>
-                <p>
-                    First, the system must be able to effectively process data
-                    coming from a variety of different individual auditors,
-                    including internal and external auditors and/or audit data
-                    received from industry or multi-industry group audits. If
-                    your audit tools are on paper, your auditors or other staff
-                    must be trained to enter data in a uniform way into the
-                    system. (Some companies hire subcontractors to clean audit
-                    data.) If a company also receives data from independent
-                    monitors, you should include that data as well.&nbsp;
-                </p>
-                <p>
-                    Training is especially important if you allow those being
-                    audited to enter their own information for the
-                    self-assessment. Some of these applicants may have limited
-                    computer literacy or familiarity with databases and it is
-                    crucial to teach them how to properly enter information to
-                    ensure data integrity.
-                </p>
-                <p>
-                    Before thinking about training auditors and self-assessors,
-                    you should focus on database design. A well-designed
-                    database can help ensure data integrity by making data easy
-                    for the user to enter in the right format. A customized
-                    database with a logical design means that a company only
-                    gets the information it needs and that this data is useful
-                    and analyzable. Any company, no matter its size, can
-                    minimize faulty data by starting with a good database.
-                    Additionally, data integrity checks can be automated with
-                    several software programs available.
-                </p>
-                <h2>Integration with Other Information Systems</h2>
-                <p>
-                    The second challenge is integration. The database must be
-                    integrated with information systems that track other social
-                    compliance program data, such as supplier lists, supplier
-                    training and capacity-building data, remediation, and
-                    independent verification information. Second, it must be
-                    integrated with other company functions, particularly
-                    sourcing, so that social compliance data is utilized
-                    effectively by other business units. Integration should be
-                    such that the sourcing department places orders with
-                    suppliers who perform well on social audits.
-                </p>
-                <h2>Using the Data</h2>
-                <p>
-                    A third challenge is setting up clear processes for the use
-                    of data. Auditors should check the database as they prepare
-                    for an audit, to look at the audit history of a particular
-                    worksite as well as the types of violations that are common
-                    in that geographic location and/or product type. The social
-                    compliance team should have clear processes for analyzing
-                    data from specific audits as well as tracking patterns
-                    across all audits.&nbsp;
-                </p>
-                <p>
-                    If violations are found at a worksite, there should be
-                    processes in place for tracking that supplier&rsquo;s
-                    remediation. The team should be looking for patterns of
-                    violations in specific product lines, particular regions,
-                    violations related to supplier ownership/management and
-                    other issues. When patterns are detected, the scheduling
-                    audits should shift toward those types of worksites that
-                    seem to pose greater risks. The team should also have checks
-                    in place to identify &ldquo;outliers&rdquo; and verify data
-                    accuracy.&nbsp;
-                </p>
-                <p>
-                    There will be times when audit data reveals serious
-                    violations, and times when a particular supplier continues
-                    to violate the code despite repeated audits and remediation
-                    efforts. Companies will need policies to determine when to
-                    continue remediation, and when to discontinue their business
-                    relationship with a particular supplier. Some companies have
-                    &ldquo;no tolerance&rdquo; policies in place with respect to
-                    certain violations, often child labor or forced labor, for
-                    which they will immediately discontinue or suspend a
-                    relationship with a supplier. Others continue remediation
-                    for a certain time period or to achieve specified targets,
-                    but if the supplier does not show sufficient improvement,
-                    the company discontinues the relationship. When terminating
-                    a business relationship with a supplier, the company should
-                    always keep in mind the impact of such a termination on the
-                    workers.
-                </p>
+                <Accordion id="data-processing-acc">
+                   <Accordion.Section id="data-processing-description">
+                        <Accordion.Title>
+                            Memproses Data 
+                        </Accordion.Title>
+                        <Accordion.Panel>
+                        <p>
+                            Pertama, sistem mesti mampu memproses data secara berkesan dari pelbagai pengaudit individu yang berbeza, 
+                            termasuk pengaudit dalaman dan luar dan/atau data audit yang diterima dari industri atau audit kumpulan pelbagai 
+                            industri. Kalau alat audit anda terdapat di atas kertas, pengaudit anda atau kakitangan mesti dilatih untuk 
+                            memuatkan data seragam ke dalam sistem. (Ada syarikat yang mengambil sub-kontraktor untuk membersihkan data audit.) 
+                            Sekiranya syarikat juga menerima data dari pemantau bebas, anda patut memuatkan data tersebut juga.&nbsp;
+                        </p>
+                        <p>
+                            Latihan lebih-lebih lagi penting sekiranya anda membenarkan sesiapa yang sedang diaudit untuk memuatkan maklumat bagi 
+                            menilai diri sendiri. Ada pemohon yang tidak tahu atau tidak mempunyai banyak pengalaman dalam pangkalan data dan amat 
+                            penting mengajar mereka bagaimana memuatkan maklumat bagi memastikan integriti data.
+                        </p>
+                        <p>
+                            Sebelum berfikir untuk melatih pengaudit dan penilai sendiri, anda harus fokus kepada rekaan pangkalan data. Pangkalan 
+                            data yang direka bentuk dengan baik boleh membantu memastikan integriti data dengan membuatkan mudah bagi pengguna 
+                            memuatkan data dalam format yang betul. Pangkalan data yang dibuat khas dengan reka bentuk logikal bermakna bahawa 
+                            syarikat cuma mendapat maklumat yang ia perlukan dan data ini berguna dan boleh dibuat analisis. Mana-mana syarikat, 
+                            tidak kira saiz, boleh mengurangkan data yang silap dengan memulakan dengan pangkalan data yang baik. Tambahan, 
+                            pemeriksaan integriti data boleh dibuat secara automatik dengan beberapa program perisian yang mudah didapati.
+                        </p>
+                    </Accordion.Panel>
+                </Accordion.Section>
+                 {/* </Accordion>
+                                 <Accordion id="systems-integration-acc"> */}
+                <Accordion.Section id="systems-integration-description">
+                    <Accordion.Title>
+                        Gabungan dengan Sistem Informasi Lain 
+                    </Accordion.Title>
+                    <Accordion.Panel>
+                    <p>
+                        Cabaran yang kedua ialah gabungan Pangkalan data mestilah digabungkan dengan sistem informasi yang menjejak program 
+                        pematuhan sosial yang lain, seperti senarai pembekal, latihan pembekal, dan data pembinaan keupayaan, pemulihan, dan 
+                        maklumat pengesahan bebas. Kedua, ia mesti digabungkan dengan fungsi lain dalam syarikat, terutamanya mendapatkan 
+                        sumber, supaya data pematuhan sosial digunakan secara berkesan dengan unit perniagaan yang lain. Gabungan bermaksud 
+                        bahawa sesuatu jabatan yang mencari sumber memesan daripada pembekal yang mempunyai prestasi tinggi dalam audit sosial. 
+                    </p>
+                    </Accordion.Panel>
+                </Accordion.Section>
+                {/* </Accordion>
+                <Accordion id="using-data-acc"> */}
+                <Accordion.Section id="using-data-description">
+                    <Accordion.Title>
+                        Menggunakan Data
+                    </Accordion.Title>
+                    <Accordion.Panel>
+                    <p>
+                        Cabaran ketiga ialah menetapkan proses yang jelas bagi penggunaan data. Pengaudit harus periksa pangkalan data ketika 
+                        menyediakan audit, melihat latar belakang audit tempat kerja yang khusus dan juga jenis pencabulan yang biasa di lokasi 
+                        dan/atau jenis produk. Pasukan pematuhan sosial harus ada proses jelas untuk menganalisa data dari audit khusus dan juga 
+                        menjejak bentuk semua audit. 
+
+                    </p>
+                    <p>
+                        Sekiranya terdapat pencabulan di tempat kerja, patut ada proses untuk menjejak pemulihan pembekal. Pasukan patut memerhatikan 
+                        corak pencabulan dalam barisan produk yang khusus, terutamanya kawasan, pencabulan yang berkaitan dengan pembekal/pengurusan 
+                        dan isu-isu lain. Apabila sesuatu corak dikesan, audit yang dijadualkan harus beralih kepada jenis tempat kerja yang 
+                        menunjukkan kemungkinan risiko. Pasukan harus sediakan pemeriksaan untuk mengenal pasti “pihak luar” dan sahkan ketepatan 
+                        data.&nbsp;
+                    </p>
+                    <p>
+                        Ada terdapat masa di mana audit data menunjukkan pencabulan yang serius, dan kadang kala terdapat pembekal khusus yang 
+                        terus mencabul kod walaupun audit dan usaha pemulihan dilakukan berkali-kali. Syarikat perniagaan akan perlu memastikan bila 
+                        hendak meneruskan pemulihan, dan bila untuk menghentikan hubungan perniagaan dengan pembekal yang khusus. Ada syarikat yang 
+                        mempunyai dasar &ldquo;tidak boleh tolak ansur&ldquo; berkaitan dengan pencabulan tertentu, selalunya yang melibatkan buruh 
+                        kanak-kanak atau buruh paksa, di mana mereka akan segera menghentikan atau menggantung hubungan dengan pembekal tersebut. 
+                        Yang lain meneruskan pemulihan untuk masa terhad atau mencapai sasaran khusus, tetapi kalau pembekal tidak menunjukkan 
+                        pembaikan, syarikat menghentikan hubungan. Apabila menghentikan hubungan perniagaan dengan pembekal, syarikat harus 
+                        sentiasa beringat impak penghentian kepada pekerja.
+                    </p>
+
+                    </Accordion.Panel>
+                </Accordion.Section>
+                </Accordion>
                 <p>
                     <em>
-                        *Note: References to specific companies and
-                        non-governmental entities within this guide are for
-                        informational purposes only to demonstrate best
-                        practices that have been recognized internationally, as
-                        of the app&rsquo;s release date. Referencing the
-                        entities should not be interpreted as an official
-                        endorsement of those entities, their products, or
-                        services by the U.S. Department of Labor{" "}
-                    </em>
-                    <em>
-                        and their inclusion should not be interpreted as a
-                        comprehensive review of these entities&rsquo; practices
-                        in all areas
+                    *Catatan: Rujukan kepada syarikat tertentu dan entiti bukan kerajaan dalam panduan ini hanya untuk tujuan memberi maklumat bagi 
+                    menunjukkan amalan terbaik yang telah diperakui di peringkat antarabangsa, sejak aplikasi dikeluarkan. Merujuk kepada entiti 
+                    tidak patut ditafsirkan sebagai sokongan rasmi kepada entiti tersebut, produk atau perkhidmatan mereka oleh Jabatan Buruh AS 
+                    dan penyertaan mereka tidak boleh ditafsirkan sebagai tinjauan komprehensif mengenai amalan entiti ini di dalam semua bidang.
                     </em>
                 </p>
             </div>

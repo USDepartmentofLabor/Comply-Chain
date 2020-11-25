@@ -1,55 +1,104 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 const ms = () => {
     return (
         <StaticData>
             <div>
                 <h1>
-                    Special Topic: Informal Subcontracting and
-                    &ldquo;Homework&rdquo;
+                    Topik Khas: Sub-kontrak tidak formal dan &ldquo;kerja rumah&rdquo;
                 </h1>
                 <p>
-                    In many countries, particularly developing countries, the
-                    informal economy accounts for a significant portion of the
-                    overall economy. A large proportion of agricultural work is
-                    informal, and in the manufacturing sector, portions of
-                    production are frequently subcontracted to informal
-                    workshops or homes.&nbsp;
+                    Dalam banyak negara, terutama negara membangun, sebahagian besar ekonominya terdiri daripada ekonomi tidak 
+                    formal. Sebahagian besar kerja-kerja pertanian tidak formal, dan dalam sektor pembuatan, sebahagian pengeluaran 
+                    sering diberikan kepada sub-kontraktor untuk dibuat di bengkel secara tidak formal atau di rumah.
                 </p>
                 <p>
-                    Child labor and forced labor typically thrive in the
-                    informal economy &ndash; in unregistered workplaces outside
-                    the purview of labor unions and law enforcement. Using child
-                    labor in the home increases a family unit&rsquo;s
-                    productivity and wages with little risk of interference from
-                    regulatory bodies. In addition, the increased focus by many
-                    governments and corporations on eradicating child labor may
-                    have caused more of it to be driven underground into
-                    informal work. The informal economy often involves the most
-                    dangerous and hidden forms of work, and children are
-                    extremely vulnerable to the negative impacts of the work
-                    associated with informal labor situations.
+                    Buruh kanak-kanak dan buruh paksa sering tumbuh macam cendawan dalam ekonomi tidak formal - dalam tempat kerja 
+                    yang tidak didaftar di luar pemantauan kesatuan sekerja atau pihak penguatkuasa. Menggunakan buruh kanak-kanak 
+                    dalam rumah selalunya meningkatkan produktiviti dan pendapatan unit keluarga. tanpa gangguan dari pihak berkuasa. 
+                    Tambahan pula, banyak pihak kerajaan dan korporat semakin memberi fokus kepada usaha untuk membasmi buruh 
+                    kanak-kanak yang mungkin membuatkan mereka bersembunyi di bawah tanah untuk meneruskan kerja tidak formal. Ekonomi 
+                    tidak formal selalunya melibatkan kerja yang paling berbahaya dan dibuat dalam keadaan tersembunyi, dan kanak-kanak 
+                    paling terdedah kepada kesan negatif daripada kerja sebegini yang dikaitkan dengan buruh tidak formal.
                 </p>
-                <p>
-                    Companies and multi-stakeholder groups have been grappling
-                    with the challenges of informal work and homework for years.
-                    In 2010, the Ethical Trading Initiative published{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
-                        title="ETI Homeworker Guidelines"
-                    >
-                        ETI Homeworker Guidelines
-                    </a>
-                    <em> for both retailers and suppliers</em>. These guidelines
-                    and their supporting documents include tools such as a model
-                    policy for retailers and suppliers on homework, research
-                    guides for identifying homework in supply chains, mapping
-                    tools, and guidance on setting appropriate piece rates,
-                    since homeworkers are usually paid on a piece rate basis.
-                </p>
+                <ExampleInAction id="gap">
+                    <h4>
+                    <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>Contoh dalam Tindakan: Cabaran kerja tidak formal</strong>
+                    </h4>
+                    <p>
+                        Syarikat dan kumpulan pelbagai berkepentingan menghadapi cabaran kerja tidak formal dan kerja di rumah sudah bertahun 
+                        lamanya.  Pada 2010, Ethical Trading Initiative* menerbitkan{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
+                            title="ETI Homeworker Guidelines"
+                        >
+                            ETI Homeworker Guidelines
+                        </a>{" "}
+                        <em>
+                        untuk peruncit dan pembekal
+                        </em>. 
+                        
+                        Panduan ini dan dokumen sokongan termasuk alat seperti contoh dasar untuk peruncit dan pembekal mengenai kerja rumah, 
+                        panduan kajian untuk mengenal pasti kerja di rumah dalam rantai bekalan, dan panduan mengenai kadar yang sesuai bagi 
+                        setiap unit produk, oleh sebab pekerja di rumah sering dibayar berdasarkan kadar tersebut.
+                    </p>
+                    <p>
+                        Mulai 2019, sebagai sebahagian daripada{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://traidcraftexchange.org/project-hidden-homeworkers"
+                            title="Hidden Homeworkers Programme"
+                        >
+                            Hidden Homeworkers Programme
+                        </a>
+                            —kerjasama di antara {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://traidcraftexchange.org/"
+                            title="Traidcraft Exchange"
+                        >
+                            Traidcraft Exchange
+                        </a>
+                        ,* {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://hnsa.org.in/"
+                            title="HomeNet South Asia"
+                        >
+                            HomeNet South Asia
+                        </a>
+                        ,* dan {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://hnsa.org.in/"
+                            title="Homeworkers Worldwide"
+                        >
+                            Homeworkers Worldwide
+                        </a>
+                        ,* dengan pembiayaan dari Kesatuan Eropah— {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://hnsa.org.in/"
+                            title="Preventing Child Labour Toolkit"
+                        >
+                            Preventing Child Labour Toolkit
+                        </a>
+                        {" "}dibentuk, termasuk panduan praktikal untuk menangani buruh kanak-kanak dalam pengeluaran kraftangan yang 
+                        dibuat di rumah.   Projek bertujuan untuk memperluaskan ketelusan dan pengesanan sistem yang dipimpin oleh 
+                        pelbagai pihak berkepentingan kepada peringkat lebih bawah dalam sektor pakaian dan memperbaiki keadaan kerja 
+                        pekerja di rumah di India, Nepal, dan Pakistan sebagai sebahagian daripada rantai bekalan pakaian dan kasut. 
+                    </p>
+                </ExampleInAction>
             </div>
         </StaticData>
     );

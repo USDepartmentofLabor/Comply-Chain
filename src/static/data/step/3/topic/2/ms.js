@@ -6,102 +6,88 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>What Can Stakeholders Do?</h1>
+                <h1>Apa yang pihak berkepentingan boleh lakukan</h1>
                 <p>
-                    There are fruitful ways to collaborate and partner with
-                    stakeholders on almost every component of a social
-                    compliance system. Below are just a few examples:
+                    Terdapat cara yang bermanfaat untuk bekerjasama dan berkongsi
+                    dengan pihak berkepentingan dalam setiap komponen sistem
+                    pematuhan sosial. Berikut terdapat beberapa contoh:
                 </p>
                 <div className="indent-margin">
-                    <h2>Root causes</h2>
+                    <h2>Penyebab akar</h2>
                     <p className="indent-margin">
-                        As noted earlier, tackling the root causes of labor
-                        abuse is fundamentally a governmental responsibility.
-                        Working with governments to advocate for more resource
-                        allocation to these issues can yield lasting long-term
-                        benefits, and is likely to be more effective when
-                        several companies join together.
+                        Seperti yang dinyatakan sebelum ini, menangani punca penganiayaan
+                        pekerja adalah tanggungjawab kerajaan. Bekerja dengan kerajaan untuk
+                        mendapatkan lebih banyak peruntukan sumber bagi isu ini boleh
+                        menghasilkan manfaat jangka panjang, dan berkemungkinan lebih
+                        berkesan apabila beberapa syarikat bekerjasama.
                     </p>
-                    <h2>Code of conduct development</h2>
+                    <h2>Perkembangan kod tingkah laku</h2>
                     <p className="indent-margin">
-                        One of the tenets of good code of conduct development is
-                        incorporating input from a broad range of stakeholders.
-                        You can seek input at the stage of initial code
-                        drafting, or maintain a standing group of contributors
-                        who provide ideas and feedback on the code on an ongoing
-                        basis.
+                        Salah satu prinsip perkembangan kod tingkah laku yang baik ialah
+                        memasukkan input dari pelbagai pihak berkepentingan. Anda boleh
+                        mendapatkan input pada tahap awal merangka kod atau mengekalkan
+                        kumpulan penyumbang yang memberikan idea dan maklum balas mengenai
+                        kod tersebut secara berterusan.
                     </p>
-                    <h2>Risk assessment</h2>
+                    <h2>Penilaian risiko</h2>
                     <p className="indent-margin">
-                        Understanding your risks of child labor, forced labor
-                        and other workplace issues is often difficult due to
-                        lack of empirical data. Input from a broad range of
-                        knowledgeable people is important to get an accurate
-                        idea of risks, as well as recommendations for ways to
-                        mitigate them.
+                        Memahami risiko buruh kanak-kanak, buruh paksa dan isu tempat kerja
+                        agak sukar kerana kekurangan data empirikal. Input dari sebilangan
+                        besar orang berpengetahuan adalah penting untuk mendapatkan idea
+                        yang tepat mengenai risiko, dan juga cadangan untuk mengurangkannya.
                     </p>
-                    <h2>Training</h2>
+                    <h2>Latihan</h2>
                     <p className="indent-margin">
-                        A successful social compliance program must make a
-                        significant investment in training and capacity
-                        building. Involvement of stakeholders can have a variety
-                        of benefits; for instance, ensuring that training
-                        materials are culturally appropriate.
+                        Program pematuhan sosial yang berjaya mesti melabur banyak dalam
+                        latihan dan peningkatan keupayaan. Penglibatan pihak berkepentingan
+                        membawa banyak faedah; sebagai contoh, memastikan bahawa bahan
+                        latihan sesuai dengan budaya.
                     </p>
-                    <h2>Communication</h2>
+                    <h2>Komunikasi</h2>
                     <p className="indent-margin">
-                        Stakeholders can assist in improving communication
-                        channels; for example, trade union representatives can
-                        receive feedback and concerns from workers at worksites
-                        where a union is present, while some civil society
-                        groups specialize in setting up grievance mechanisms and
-                        other communication channels at non-unionized
-                        facilities.
+                        Pihak berkepentingan boleh membaiki saluran komunikasi; contohnya, wakil
+                        kesatuan sekerja boleh menerima maklum balas dan mendengar kebimbangan
+                        pekerja di tempat kerja di mana kesatuan sekerja wujud, sementara kumpulan
+                        masyarakat sivil boleh secara khusus mengatur mekanisme untuk mendengar
+                        rungutan dan saluran komunikasi yang lain di kemudahan yang tiada kesatuan sekerja.
                     </p>
-                    <h2>Auditing and independent monitoring/verification</h2>
+                    <h2>Pengauditan dan pemantauan bebas/pengesahan</h2>
                     <p className="indent-margin">
-                        Some community-based groups are trained to carry out
-                        monitoring and independent verification services; others
-                        can provide an independent &ldquo;check&rdquo; for
-                        internal or external monitors.
+                        Beberapa kumpulan berasaskan komuniti dilatih untuk menjalankan
+                        pemantauan dan perkhidmatan pengesahan bebas; yang lain boleh
+                        memberikan “pemeriksaan” bebas untuk pemantauan dalam dan luar.
                     </p>
-                    <h2>Remediation</h2>
+                    <h2>Pemulihan</h2>
                     <p className="indent-margin">
-                        Qualified organizations can provide services for victims
-                        of labor violations or link companies to local resources
-                        to assist and remedy.
+                        Pertubuhan yang layak boleh memberikan perkhidmatan kepada
+                        mangsa pencabulan hak buruh atau menghubungkan syarikat
+                        dengan sumber tempatan untuk membantu dan memperbaiki.
                     </p>
-                    <h2>Public reporting</h2>
+                    <h2>Membuat laporan awam</h2>
                     <p className="indent-margin">
-                        Stakeholders can be instrumental in reviewing or vetting
-                        reports and providing feedback.
+                        Pihak berkepentingan boleh memainkan peranan penting
+                        dalam mengkaji semula atau mengesahkan laporan dan memberi maklum balas.
                     </p>
                 </div>
                 <OwnWords>
                     <h2>
-                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        <OwnWords.Icon alt="Feedback"/> <strong>Dengan kata-kata mereka sendiri:</strong>
                         {": "}
                     </h2>
                     <p>
-                        &ldquo;Stakeholder engagement can take many forms. It
-                        can be initiated by an organization or it can begin as a
-                        response by an organization to one or more stakeholders.
-                        It can take place in either informal or formal meetings
-                        and can follow a wide variety of formats such as
-                        individual meetings, conferences, workshops, public
-                        hearings, round-table discussions, advisory committees,
-                        regular and structured information and consultation
-                        procedures, collective bargaining and web-based forums.
-                        Stakeholder engagement should be interactive and is
-                        intended to provide opportunities for
-                        stakeholders&rsquo; views to be heard. Its essential
-                        feature is that it involves two-way
-                        communication.&rdquo;
+                        &ldquo;Penglibatan pihak berkepentingan boleh didapati dalam pelbagai bentuk.
+                        Ia boleh dimulakan oleh sebuah pertubuhan atau dimulakan sebagai tindak balas
+                        oleh pertubuhan terhadap satu atau lebih pihak berkepentingan. Ia boleh berlaku
+                        dalam perjumpaan tidak rasmi  atau rasmi dan boleh mengikuti pelbagai format
+                        seperti pertemuan dengan orang perseorangan, persidangan, bengkel, pendengaran awam,
+                        perbincangan meja bulat, jawatankuasa penasihat, prosedur perundingan dan maklumat yang
+                        biasa dan teratur, perundingan bersama dan forum berasaskan web.
+                        Penglibatan pihak berkepentingan harus interaktif dan bertujuan untuk membuka peluang
+                        kepada pandangan pihak berkepentingan. Ciri pentingnya melibatkan  komunikasi dua hala.&rdquo;
                     </p>
                     <p>
                         <em>
-                            Source: International Organization for
-                            Standardization (ISO){" "}
+                            Sumber: Pertubuhan Penstandardan Antarabangsa (ISO){" "}
                         </em>
                         <a
                             target="_blank"

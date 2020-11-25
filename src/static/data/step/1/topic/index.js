@@ -151,5 +151,52 @@ export const Topics = {
             title: "Faire le bien",
             content: Topic9.fr
         }
-    ]
+    ],
+    ms: [
+            {
+                keywords: [],
+                title: "Undang-Undang dan Peraturan",
+                content: Topic1.ms
+            },
+            {
+                keywords: [],
+                title: "Panduan Prinsip PBB Mengenai Perniagaan dan Hak Asasi Manusia dan standard sukarela yang berubah dan norma-norma yang berwibawa.",
+                content: Topic2.ms
+            },
+            {
+                keywords: [],
+                title: "Reputasi Syarikat",
+                content: Topic3.ms
+            },
+            {
+                keywords: [],
+                title: "Pemasaran dan Persaingan",
+                content: Topic4.ms
+            },
+            {
+                keywords: [],
+                title: "Tekanan Masyarakat Sivil dan Pihak Berkepentingan",
+                content: Topic5.ms
+            },
+            {
+                keywords: [],
+                title: "Syarat Pinjaman",
+                content: Topic6.ms
+            },
+            {
+                keywords: [],
+                title: "Pengurusan rantai bekalan yang ditingkatkan",
+                content: Topic7.ms
+            },
+            {
+                keywords: [],
+                title: "Pengambilan dan pengekalan pekerja",
+                content: Topic8.ms
+            },
+            {
+                keywords: [],
+                title: "Berbuat baik",
+                content: Topic9.ms
+            }
+        ]
 };

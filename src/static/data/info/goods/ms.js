@@ -5,35 +5,23 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>List of Goods Produced by Child Labor or Forced Labor</h1>
+                <h1>Laporan senarai barangan yang Dikeluarkan oleh Buruh Kanak-Kanak atau Buruh Paksa</h1>
                 <p>
-                    ILAB maintains a list of goods and their source countries
-                    which it has reason to believe are produced by child labor
-                    or forced labor in violation of international standards, as
-                    required under the Trafficking Victims Protection
-                    Reauthorization Act (TVPRA) of 2005 and subsequent
-                    reauthorizations. As of September 20, 2018, the List of
-                    Goods Produced by Child Labor or Forced Labor comprises 148
-                    goods from 76 countries.
+                    ILAB menyimpan senarai barangan dan negara asalnya yang dipercayai dibuat oleh buruh kanak-kanak atau buruh
+                    paksa yang melanggar standard antarabangsa, yang dikehendaki di bawah Akta Membenarkan Semula Perlindungan Mangsa
+                    Pemerdagangan (TVPRA) 2005 dan kebenaran semula yang berikutnya. Mulai September 30, 2020, Senarai Barangan yang Dikeluarkan
+                    oleh Buruh Kanak-kanak atau Buruh Paksa terdiri daripada 150 barangan dari 77 negara/kawasan.
                 </p>
                 <p>
-                    ILAB maintains the List primarily to raise public awareness
-                    about forced labor and child labor around the world and to
-                    promote efforts to combat them; it is not intended to be
-                    punitive, but rather to serve as a catalyst for more
-                    strategic and focused coordination and collaboration among
-                    those working to address these problems.
+                    ILAB menyimpan senarai itu terutamanya untuk meningkatkan kesedaran orang awam tentang buruh paksa dan buruh kanak-kanak di
+                    seluruh dunia dalam mempromosikan usaha untuk memeranginya; bukan untuk tujuan menghukum, tapi sebagai pemangkin penyelarasan dan kerjasama yang lebih fokus dan strategik di kalangan mereka yang menangani masalah ini.
                 </p>
                 <p>
-                    Publication of the List has resulted in new opportunities
-                    for ILAB to engage with foreign governments to combat forced
-                    labor and child labor. It is also a valuable resource for
-                    researchers, advocacy organizations and companies wishing to
-                    carry out risk assessments and engage in due diligence on
-                    labor rights in their supply chains.
+                    Penerbitan senarai ini telah menimbulkan peluang baru bagi ILAB untuk berhubung dengan kerajaan asing dalam memerangi buruh paksa dan buruh kanak-kanak. Ia juga merupakan sumber yang berguna untuk syarikat-syarikat, pengkaji dan pertubuhan penyokong yang ingin menjalankan penilaian risiko untuk melibatkan diri dalam ketekunan wajar hak pekerja di dalam rantai bekalan mereka.
+
                 </p>
                 <p>
-                    Read more here:{" "}
+                    Sila baca lagi di sini:{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

@@ -1,18 +1,18 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
+
 
 const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Why Produce Public Reporting?</h1>
+                <h1>Mengapa Mengeluarkan Laporan Awam?</h1>
                 <p>
-                    Public reporting on social compliance used to be largely
-                    voluntary, although some industry and multi-stakeholder
-                    groups required public disclosure of audit findings and
-                    other program elements as conditions for membership.
-                    However, several U.S. laws enacted at both the state and
-                    federal levels, including the{" "}
+                    Laporan Awam mengenai pematuhan sosial patut digunakan secara sukarela, walaupun ada industri dan kumpulan pelbagai 
+                    kepentingan menghendaki pendedahan awam hasil audit dan elemen program lain sebagai syarat untuk menjadi ahli. 
+                    Bagaimanapun, beberapa undang-undang yang digubal di peringkat negeri dan persekutuan, termasuk{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -21,7 +21,7 @@ const ms = () => {
                     >
                         California Transparency in Supply Chains Act
                     </a>
-                    , as well as internationally, such as the{" "}
+                    , dan juga antarabangsa, seperti{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -39,66 +39,143 @@ const ms = () => {
                     >
                         France&rsquo;s Duty of Vigilance Law
                     </a>
-                    , have mandated certain disclosures for companies covered by
-                    those laws (See Laws and Regulations for more information on
-                    public disclosure legislation). Though most reporting is
-                    still voluntary, a growing number of consumers, shareholder
-                    groups and non-governmental organizations (NGOs) have come
-                    to expect companies to share social compliance information
-                    with the public &ndash; and increasing numbers of companies
-                    have undertaken sharing such information to demonstrate
-                    engagement and leadership in their policies and programs.
+                    , telah mewajibkan pendedahan tertentu untuk syarikat yang dilindungi oleh undang-undang tersebut. (Lihat Undang-Undang dan 
+                    Peraturan untuk maklumat lanjut mengenai undang-undang pendedahan kepada awam). Walaupun banyak laporan masih dibuat secara 
+                    sukarela, semakin ramai pengguna, kumpulan pemegang saham dan badan bukan kerajaan (NGO) kini menjangkakan syarikat perniagaan 
+                    supaya berkongsi maklumat pematuhan sosial kepada awam - dan semakin banyak syarikat telah berusaha untuk berkongsi maklumat 
+                    tersebut untuk menunjukkan penglibatan dan kepimpinan dalam dasar dan program-program.
                 </p>
+                <OwnWords>
+                    <h2>
+                        <OwnWords.Icon alt="Feedback"/> <strong>Dengan kata-kata mereka sendiri: Prinsip Panduan mengenai Perniagaan dan Hak Asasi Manusia PBB</strong>
+                        {": "}
+                    </h2>
+                    <p>
+                        Tanggungjawab untuk menghormati hak asasi manusia menghendaki usahawan perniagaan mempunyai dasar dan proses di mana 
+                        kedua pihak tahu dan menunjukkan mereka menghormati amalan hak asasi manusia.  Cara untuk menunjukkan komunikasi, 
+                        memberikan langkah ketelusan dan kebertanggungjawapan kepada individu atau kumpulan yang mungkin terjejas dan pihak 
+                        berkepentingan relevan yang lain, termasuk pelabur.
+                    </p>
+                    <p>
+                        Komunikasi boleh mengambil pelbagai bentuk, termasuk mesyuarat bersemuka, dialog melalui talian, perundingan dengan 
+                        pihak berkepentingan yang terjejas dan laporan awam formal. 
+                    </p>
+                    <p>
+                        
+                        Sumber:{" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+                                title="United Nations Guiding Principles on Business and Human Rights"
+                            >
+                                United Nations Guiding Principles on Business
+                                and Human Rights
+                            </a>
+                            , 2011.
+                    
+                    </p>
+                </OwnWords>
                 <p>
-                    Public reporting offers a variety of benefits, both internal
-                    and external:&nbsp;
+                    Laporan awam menawarkan pelbagai manfaat, dalam dan luar:&nbsp;
                 </p>
                 <div style={{ marginLeft: "2%" }}>
-                    <h2>Employee Education and Buy-In</h2>
+                    <h2>Pendidikan Pekerja dan Sokongan</h2>
                     <p>
-                        Social compliance reporting helps educate everyone in
-                        the company about the program, which in turn can foster
-                        a greater commitment across the company to support
-                        social compliance and bolster loyalty among employees
-                        who value issues related to worker rights.
+                        Laporan pematuhan sosial bantu mendidik semua dalam syarikat mengenai program, yang seterusnya boleh menjalinkan 
+                        lebih komitmen di dalam syarikat untuk menyokong pematuhan sosial dan menguatkan kesetiaan di kalangan kakitangan 
+                        yang menghargai nilai berkaitan dengan hak pekerja.
                     </p>
 
-                    <h2>Self-Assessment</h2>
+                    <h2>Penilaian Diri</h2>
                     <p>
-                        The process of putting together a report requires the
-                        social compliance team to establish and/or reexamine its
-                        Key Performance Indicators (KPIs) and assess progress
-                        against them, as well as benchmark progress against
-                        their peer companies. The team should examine issues
-                        that have come up throughout the year, the approaches
-                        that were taken to address them, and whether those
-                        approaches were successful. The team should also
-                        consider whether its overall program has had any
-                        unintended consequences, and, if so, evaluate those.
+                        Proses untuk menyediakan laporan memerlukan pasukan pematuhan sosial untuk menubuhkan dan/atau memeriksa Penunjuk 
+                        Prestasi Utama (KPI) dan menilai kemajuan terhadapnya, dan juga membandingkan penanda aras kemajuan dengan syarikat 
+                        lain. Pasukan harus memeriksa isu yang timbul sepanjang tahun, pendekatan yang diambil untuk menanganinya, dan sama 
+                        ada pendekatannya berjaya. Pasukan harus mempertimbangkan sama ada program secara keseluruhan mengakibatkan sesuatu 
+                        yang tidak dikehendaki, dan kalau ya, menilaikannya.
                     </p>
 
-                    <h2>External Input</h2>
+                    <h2>Input Luar</h2>
                     <p>
-                        Reporting should offer clear processes through which
-                        important stakeholders, including workers and local
-                        community members, can provide feedback. Responses to
-                        the report can also include media coverage and use of
-                        report material in NGO campaigns. Whatever form they
-                        take, external responses help companies to evaluate and
-                        continuously improve the system, including the structure
-                        and process for future reporting.
+                        Laporan harus menawarkan proses yang jelas di mana pihak berkepentingan yang utama, termasuk pekerja dan masyarakat 
+                        tempatan, boleh memberi maklum balas. Maklum balas terhadap laporan boleh merangkumi liputan media dan juga menggunakan 
+                        bahan laporan dalam kempen NGO. Apapun bentuk yang diambil, maklum balas dari luar boleh membantu syarikat untuk 
+                        menilai dan terus memperbaiki sistem, termasuk struktur dan proses untuk laporan masa depan.
                     </p>
 
-                    <h2>Accountability</h2>
+                    <h2>Kebertanggungjawapan</h2>
                     <p>
-                        Public reporting should clearly state the goals of the
-                        social compliance program, how the company is pursuing
-                        those goals, how it measures progress against the goals
-                        and the degree of progress to date. This promotes
-                        greater accountability both within the company itself
-                        and with important external stakeholders.
+                        Laporan awam harus menyatakan matlamat program pematuhan sosial, bagaimana syarikat cuba mencapai matlamat, bagaimana 
+                        ia mengukur kemajuan ke arah matlamat dan tahap kemajuan setakat ini. Ini mempromosikan kebertanggungjawapan lebih 
+                        besar bagi kedua-duanya iaitu syarikat itu sendiri dan pihak berkepentingan luar yang utama.
                     </p>
                 </div>
+                 {/* <ExampleInAction id="prereg">
+                                    <h2>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        Example in Action: Socially Responsible Investing
+                                    </h2>
+                                    <p>
+                                        <b>PLACEHOLDER FOR TEXT</b>
+                                    </p>
+                                </ExampleInAction>
+                     <br /> */}
+                  <ExampleInAction id="prereg">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                            Contoh dalam Tindakan: Laporan hak asasi syarikat Jepun dilancarkan
+                    </h2>
+                    <p>
+                    In 2018, {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ana.co.jp/group/en/about-us/"
+                        title="ANA Group"
+                    >
+                        ANA Group*
+                    </a>
+                    —syarikat kumpulan penerbangan Jepun—menjadi salah satu syarikat Jepun yang pertama menerbitkan {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ana.co.jp/group/en/csr/effort/pdf/Human_Rights_Report_2018_e.pdf"
+                        title="human rights report"
+                    >
+                        human rights report
+                    </a>. 
+                    
+                    Sejak permulaan perbincangan untuk menerbitkan laporan pada 2015, Kumpulan ANA telah meneruskan usahanya untuk memperluaskan 
+                    fahamannya mengenai perniagaan dan hak asasi manusia berdasarkan kebimbangan dan perhatian daripada komuniti antarabangsa. 
+                    Oleh sebab perbualan dengan pakar hak asasi manusia mulai 2015, Kumpulan ANA membangunkan{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ana.co.jp/group/en/csr/effort/pdf/humanrights_e.pdf"
+                        title="Human Rights Policy"
+                    >
+                        Human Rights Policy
+                    </a> {" "}
+                    
+                    sebagai langkah permulaan untuk menggariskan kemajuan syarikat.   Bagaimanapun, dalam proses ini, suara mula timbul di kalangan 
+                    pengurusan yang bimbang penerbitan laporan hak asasi manusia akan membawa risiko.   Pun begitu, ANA memperluaskan perbincangan 
+                    dengan pakar di luar negeri, di Jepun dan juga dengan komuniti pelabur antarabangsa, dan syarikat menyedari yang penerbitan hak 
+                    asasi manusia, pada masa yang sama, adalah pengurusan risiko.
+                    </p>
+                    <p>
+                    Sumber:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ana.co.jp/group/en/about-us/"
+                        title="ana about us"
+                    >
+                        https://www.ana.co.jp/group/en/about-us/
+                    </a>.   
+                    </p>
+                </ExampleInAction>
+            
             </div>
         </StaticData>
     );

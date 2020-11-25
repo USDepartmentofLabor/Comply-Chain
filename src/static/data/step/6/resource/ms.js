@@ -6,12 +6,11 @@ const ms = () => {
             <div>
                 <ol>
                     <li>
-                        United Nations.{" "}
+                    1.	Pertubuhan Bangsa-Bangsa Bersatu. {" "}
                         <em>
-                            The Corporate Responsibility to Respect Human
-                            Rights: An Interpretive Guide.{" "}
+                        Tanggungjawab Korporat untuk Menghormati Hak Asasi Manusia: Panduan Interpretasi:{" "}
                         </em>
-                        2012; available from{" "}
+                        2012; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -25,18 +24,16 @@ const ms = () => {
                     <li>
                         Du, Shuili, C. B. Bhattacharya, and Sankar Sen,
                         &ldquo;Maximizing Business Returns to Corporate Social
-                        Responsibility (CSR): The Role of CSR
-                        Communication&rdquo;,{" "}
+                        Responsibility (CSR): Peranan Komunikasi CSR,&rdquo;{" "}
                         <em>International Journal of Management Reviews</em>{" "}
                         (2010): 8-19.
                     </li>
                     <li>
-                        FAO and ILO.{" "}
+                        FAO dan ILO.{" "}
                         <em>
-                            Protect Children from Pesticides!: Visual
-                            Facilitator&rsquo;s Guide.
+                            Lindungi Kanak-Kanak daripada Racun Serangga!: Panduan Fasilitator Visual 
                         </em>{" "}
-                        2015; available from{" "}
+                        2015; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -50,10 +47,9 @@ const ms = () => {
                     <li>
                         GTZ,{" "}
                         <em>
-                            Promotion of social, environmental, and production
-                            standards in the readymade garment industry
+                            Mempromosikan standard sosial, alam sekitar, dan pengeluaran dalam industri pakaian sudah siap
                         </em>
-                        , n.d.; available from{" "}
+                        , n.d.; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -65,30 +61,27 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        International Finance Corporation.{" "}
+                        Badan Kewangan Antarabangsa {" "}
                         <em>
-                            Good Practice Note: Addressing Grievances from
-                            Project-Affected Communities,{" "}
+                            Nota Amalan Baik: Menangani Rungutan daripada Komuniti yang Terjejas oleh Projek,{" "}
                         </em>
-                        No. 7. 2009<em>;</em> available from{" "}
+                        Nombor 7. 2009<em>;</em> boleh didapati {" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.ifc.org/wps/wcm/connect/f9019c05-0651-4ff5-9496-c46b66dbeedb/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-f9019c05-0651-4ff5-9496-c46b66dbeedb-jkD0-.g"
+                            href="https://www.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=cbe7b18048855348ae6cfe6a6515bb18"
                             title="Good Practice Note: Addressing Grievances from Project-Affected Communities"
                         >
-                            https://www.ifc.org/wps/wcm/connect/f9019c05-0651-4ff5-9496-c46b66dbeedb/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE-f9019c05-0651-4ff5-9496-c46b66dbeedb-jkD0-.g
+                            https://www.ifc.org/wps/wcm/connect/cbe7b18048855348ae6cfe6a6515bb18/IFC%2BGrievance%2BMechanisms.pdf?MOD=AJPERES&CACHEID=cbe7b18048855348ae6cfe6a6515bb18
                         </a>
                         .
                     </li>
                     <li>
-                        ILO and IOE.{" "}
+                        ILO dan IOE.{" "}
                         <em>
-                            SMEs and Human Rights: What is the current state of
-                            play, what are the opportunities and challenge, what
-                            kind of support is needed?
+                            SME dan Hak Asasi Manusia: Apakah keadaan terkini, apakah peluang dan cabaran, apakah bantuan yang diperlukan? 
                         </em>{" "}
-                        November 2016; available from{" "}
+                        November 2016; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -101,38 +94,33 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        Locke, Richard, Matthew Amengual, and Akshay Mangla.
-                        &ldquo;Virtue out of Necessity? Compliance, Commitment,
-                        and the Improvement of Labor Conditions in Global Supply
-                        Chains&rdquo;, <em>Politics &amp; Society</em> 37, no. 3
-                        (September 2009): 319-351
+                        Locke, Richard, Matthew Amengual, and Akshay Mangla. Kebaikan oleh sebab keperluan? 
+                        &ldquo;Virtue out of Necessity? Pematuhan, Komitmen, dan Pembaikan Keadaan Buruh dalam Rantai Bekalan Global&rdquo;, <em>Politics &amp; 
+                            Society</em> 37, no. 3 (September 2009): 319-351
                     </li>
                     <li>
-                        Shift.{" "}
+                        Anjakan.{" "}
                         <em>
-                            Remediation, Grievance Mechanisms and the Corporate
-                            Responsibility to Respect Human Rights.{" "}
+                            Pemulihan, Mekanisme Rungutan dan Tanggungjawab Korporat untuk Menghormati Hak Asasi Manusia.{" "}
                         </em>
-                        2014; available from{" "}
+                        2014; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.shiftproject.org/media/resources/docs/Shift_remediationUNGPs_2014.pdf"
+                            href="http://www.respect.international/remediation-grievance-mechanisms-and-the-corporate-responsibility-to-respect-human-rights/."
                             title="Remediation, Grievance Mechanisms and the Corporate Responsibility to Respect Human Rights."
                         >
                             <em>
-                                https://www.shiftproject.org/media/resources/docs/Shift_remediationUNGPs_2014.pdf
+                                http://www.respect.international/remediation-grievance-mechanisms-and-the-corporate-responsibility-to-respect-human-rights/.
                             </em>
                         </a>
                     </li>
                     <li>
-                        Office of the United Nations High Commissioner for Human
-                        Rights.{" "}
+                        Pejabat Pertubuhan Bangsa-Bangsa Bersatu Suruhanjaya untuk Hak Asasi Manusia.{" "}
                         <em>
-                            Improving accountability and access to remedy for
-                            victims of business-related human rights abuse;{" "}
+                            Memperbaiki kebertanggungjawapan dan akses untuk pemulihan mangsa penderaan hak asasi manusia berkaitan perniagaan;{" "}
                         </em>
-                        May 10, 2016; available from{" "}
+                        Mei 10, 2016; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

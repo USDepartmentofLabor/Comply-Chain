@@ -91,5 +91,33 @@ export const Topics = {
             content: Topic5.fr
         }
 
-    ]
+    ],
+    ms: [
+            {
+                keywords: [],
+                title: "Model Sistem Pematuhan Sosial",
+                content: Topic1.ms
+            },
+            {
+                keywords: [],
+                title: "Menyertai Program Pematuhan Sosial Yang Wujud",
+                content: Topic2.ms
+            },
+            {
+                keywords: [],
+                title: "Menentukan Skop Sistem Pematuhan Sosial Anda",
+                content: Topic3.ms
+            },
+            {
+                keywords: [],
+                title: "Sistem Pengurusan",
+                content: Topic4.ms
+            },
+            {
+                keywords: [],
+                title: "Pasukan Pematuhan Sosial",
+                content: Topic5.ms
+            }
+
+        ]
 };

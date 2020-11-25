@@ -5,26 +5,22 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Who Should be Trained?</h1>
+                <h1>Siapa yang Patut Dilatih?</h1>
                 <p>
-                    Many people and organizations have roles in making your
-                    social compliance system work, and each of these roles is
-                    essential. The better everyone understands their roles and
-                    responsibilities, the better the system will function.
-                    Beyond training its own employees who have social compliance
-                    responsibilities, a company should look to the following
-                    parties across its supply chain:
+                    Ramai orang dan pertubuhan mempunyai peranan untuk menjalankan sistem pematuhan sosial, dan setiap peranan ini 
+                    penting. Sekiranya semua pihak faham peranan dan tanggungjawab masing-masing, sistem akan berfungsi dengan lebih 
+                    baik. Selepas melatih pekerja sendiri yang mempunyai tanggungjawab pematuhan sosial, syarikat perniagaan harus 
+                    melihat kepada pihak berikut dalam rantai bekalannya: 
                 </p>
                 <ul>
-                    <li>Your employees</li>
-                    <li>Vendors or agents, if applicable</li>
-                    <li>Suppliers at various tiers of your supply chain</li>
+                    <li>Pekerja anda</li>
+                    <li>Penjual atau ejen, kalau digunakan</li>
+                    <li>Pembekal di pelbagai peringkat dalam rantai bekalan</li>
                     <li>
-                        Labor brokers, recruiters and employment agencies, if
-                        applicable
+                        Broker buruh, perekrut dan agensi penggajian, kalau digunakan
                     </li>
-                    <li>Workers and trade unions</li>
-                    <li>Communities and civil society groups</li>
+                    <li>Para pekerja dan kesatuan sekerja </li>
+                    <li>Komuniti dan kumpulan masyarakat sivil </li>
                 </ul>
             </div>
         </StaticData>

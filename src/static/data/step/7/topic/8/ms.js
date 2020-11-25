@@ -7,13 +7,11 @@ const ms = () => {
         <StaticData>
             <div>
                 <h1>
-                    Special Topic: Community-Based Child Labor Monitoring
-                    Systems
+                    Topik Khas: Sistem Memantau Buruh Kanak-Kanak Berdasarkan Komuniti 
                 </h1>
                 <p>
-                    In remote geographic locations and industries where
-                    production is largely dispersed and informal, some companies
-                    have pursued{" "}
+                    Di lokasi terpencil dan dalam industri di mana pengeluaran bertaburan dan tidak formal, ada syarikat yang 
+                    mencari pendekatan {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -22,23 +20,19 @@ const ms = () => {
                     >
                         community-based child labor monitoring
                     </a>{" "}
-                    approaches as an alternative to formal auditing. This
-                    methodology has been tested in smallholder agricultural
-                    production in particular.
+                    sebagai alternatif kepada audit secara formal. Pendekatan ini telah diuji dalam pengeluaran pertanian kecil terutamanya. 
                 </p>
                 <ExampleInAction id="cambodia">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Community Based Child Labor
-                            Monitoring in Cambodia
+                            Contoh dalam Tindakan: Memantau Buruh Kanak-Kanak Berdasarkan Komuniti di Kampuchea
                         </strong>
                     </h2>
                     <p>
-                        In Cambodia, community volunteers are often the first
-                        line of defense in identifying children at risk of child
-                        labor. From 2012-2016, the U.S. Department of Labor
-                        funded a project implemented by{" "}
+                        Di Kampuchea, sukarelawan seringkali memainkan peranan pertahanan barisan pertama dalam mengenalpasti kanak-kanak yang 
+                        menghadapi risiko menjadi buruh kanak-kanak. Dari 2012-2016, Jabatan Sumber Manusia AS membiayai projek yang 
+                        dilaksanakan oleh {" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -46,12 +40,10 @@ const ms = () => {
                             title="World Vision"
                         >
                             World Vision
-                        </a>{" "}
-                        and local partner organizations to combat child labor in
-                        Cambodia, particularly in the agriculture, fishing, and
-                        domestic service sectors. In an effort to strengthen
-                        community-based action to prevent and eliminate child
-                        labor, the{" "}
+                        </a>* 
+                        dan pertubuhan rakan kongsi tempatan untuk memerangi buruh kanak-kanak di Kampuchea, terutamanya dalam sektor pertanian, 
+                        perikanan, dan perkhidmatan domestik. Dalam usaha untuk memperkuatkan tindakan berdasarkan komuniti bagi mengelak daripada 
+                        dan membasmi buruh kanak-kanak, projek {" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -60,23 +52,16 @@ const ms = () => {
                         >
                             <em>Cambodians EXCEL</em>
                         </a>{" "}
-                        project created local-level child labor monitoring
-                        systems (CLMS) in target communities. The CLMS is
-                        implemented by the existing child protection mechanism,
-                        Commune Councils on Women and Children, and is
-                        supplemented by village-level volunteer monitors who are
-                        trained by the project. These monitors track vulnerable
-                        children in the community, assess whether they are
-                        involved in or at risk of involvement in child labor,
-                        and take action to help children get the social services
-                        they need. Monitors also raise awareness about the
-                        benefits of education and track children&rsquo;s school
-                        attendance through meetings with teachers and home
-                        visits.
+                        membentuk sistem memantau buruh kanak-kanak peringkat tempatan (CLMS) di dalam komuniti sasaran. CLMS dilaksanakan oleh 
+                        mekanisme pelindungan kanak-kanak yang telah wujud, iaitu Majlis Komuniti Wanita dan Kanak-Kanak, dan ditambah dengan 
+                        sukarelawan pemantau peringkat kampung yang dilatih oleh projek tersebut. Pemantau ini mengesan kanak-kanak yang terdedah 
+                        dalam komuniti, menilai sama ada mereka terlibat atau menghadapi risiko terlibat dalam buruh kanak-kanak, dan mengambil 
+                        tindakan untuk membantu kanak-kanak mendapatkan perkhidmatan sosial yang mereka perlukan. Pemantau juga menimbulkan 
+                        kesedaran  mengenai manfaat pendidikan dan mengikuti kehadiran kanak-kanak di sekolah melalui mesyuarat dengan para guru 
+                        atau lawatan rumah.
                     </p>
                     <p>
-                        For more information on the Cambodians EXCEL project,
-                        see Management Systems International,{" "}
+                        Untuk maklumat lanjut mengenai projek Rakyat Kampuchea EXCEL, sila lihat Sistem Pengurusan Antarabangsa,{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -92,14 +77,10 @@ const ms = () => {
                     </p>
                 </ExampleInAction>
                 <p>
-                    A CLMS is a time-intensive and resource-intensive approach
-                    to monitoring that requires extensive engagement at the
-                    community level. A key advantage is that it is a
-                    participatory approach that involves all appropriate
-                    stakeholders from the outset and ensures that all
-                    interactions with children&mdash;from identification to
-                    remediation&mdash;are carried out in a culturally
-                    appropriate manner.
+                    CLMS adalah pendekatan masa-intensif dan sumber-intensif untuk pemantauan yang memerlukan penglibatan luas dalam 
+                    peringkat komuniti. Manfaat utama ialah pendekatan melibatkan semua pihak berkepentingan yang sesuai dari mula, dan 
+                    memastikan bahawa semua interaksi dengan kanak-kanak - dari mengenal pasti sehingga pemulihan - dijalankan dalam 
+                    cara yang sesuai dengan budaya. 
                 </p>
             </div>
         </StaticData>

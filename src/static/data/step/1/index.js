@@ -47,5 +47,20 @@ export const StepData = {
             "Some text"
         ],
         furtherResources: Resources.fr
-    }
+    },
+    ms: {
+            title: "Mengapa Membangunkan Sistem Pematuhan Sosial",
+            topics: Topics.ms,
+            // keywords: ["Stakeholder", "Community"],
+            learningObjectives: [
+                "Membasmi buruh kanak-kanak dan buruh paksa dan mendidik anak-anak adalah tanggungjawab asas kerajaan.",
+                "Program pematuhan sosial sektor perniagaan boleh membantu mengisi jurang kritikal di mana kerajaan belum membina keupayaan penuh - dan, seperti di senaraikan di bawah, ia memenuhi tanggungjawab dan objektif yang penting.",
+                "Pada masa yang sama, mereka tidak boleh menggantikan tindakan kuat kerajaan untuk melindungi kanak-kanak dan pekerja, dan tidak boleh dianggap sebagai pengganti yang cukup untuk memenuhi tanggungjawab kerajaan.",
+                "Syarikat perniagaan mempunyai pelbagai motivasi untuk melaksanakan sistem pematuhan sosial. Ini mungkin termasuk yang berikut."
+            ],
+            keyTerms: [
+                "Some text"
+            ],
+            furtherResources: Resources.ms
+        }
 };

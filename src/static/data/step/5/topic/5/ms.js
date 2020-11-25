@@ -6,20 +6,15 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>How to Develop a Code</h1>
+                <h1>Bagaimana Mereka Bentuk sebuah Kod</h1>
                 <p>
-                    The scope and coverage of a code should match the scope and
-                    coverage of the compliance system overall. If a company
-                    chooses to develop its own code instead of joining an
-                    existing one, it is important to first familiarize yourself
-                    with good practices in code development. For instance, the
-                    process should be transparent and allow for input from a
-                    wide variety of stakeholders, including workers and their
-                    representatives.&nbsp;
+                    Skop dan ruang sesuatu kod harus selari dengan skop dan ruang/merangkumi sistem pematuhan secara keseluruhan.
+                    Sekiranya sesuatu syarikat memilih untuk mereka bentuk kodnya sendiri dan tidak menyertai yang sedia wujud, penting
+                     untuk anda mengenali amalan baik dalam mereka bentuk kod. Contohnya, prosesnya harus telus dan menggalakkan input
+                     dari pelbagai pihak yang berkepentingan, termasuk pekerja dan wakil mereka.
                 </p>
                 <p>
-                    The ISEAL Alliance, a global association for social and
-                    environmental standards, has published a{" "}
+                    ISEAL Alliance,* sebuah persatuan global untuk standard sosial dan alam sekitar, telah menerbitkan{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -28,39 +23,31 @@ const ms = () => {
                     >
                         Code of Good Practice for Standard-Setting
                     </a>{" "}
-                    that outlines the fundamental steps in developing any set of
-                    standards. According to ISEAL the process should include:
+                    yang menggariskan langkah asas dalam membentuk apa pun standard. Menurut ISEAL, prosesnya harus termasuk:
                 </p>
                 <ul>
                     <li>
-                        Clearly defining the objectives of the standard and
-                        justifying its need
+                        Memberi definisi dengan jelas objektif standard tersebut dan memberi sebab untuk keperluannya.
                     </li>
                     <li>
-                        Identifying affected stakeholders and providing them
-                        opportunities to participate
+                        Mengenalpasti pihak berkepentingan yang terjejas dan memberikan mereka peluang untuk terlibat.
                     </li>
                     <li>
-                        Having public consultations and ensuring a balance of
-                        interests
+                        Mengadakan perundingan awam dan memastikan perseimbangan dalam kepentingan masing-masing.
                     </li>
                     <li>
-                        Making the standard publicly available and reviewing it
-                        on a regular basis
+                        Mengumumkan kepada awam standard tersebut dan mengemaskini secara berkala.
                     </li>
                 </ul>
                 <p>
-                    Each of these principles is more fully elaborated in the
-                    ISEAL Code of Good Practice.&nbsp;
+                    Setiap prinsip ini dijelaskan dengan lebih lanjut dalam Kod Tingkah Laku yang dibentuk oleh ISEAL.
                 </p>
                 <ExampleInAction id="fair_labor">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Example in Action</strong>: Fair Labor
-                        Association Code Revision Process
+                        <strong>Contoh dalam Tindakan: Fair Labor Association* Proses Mengemas Kini Kod</strong>
                     </h2>
                     <p>
-                        The{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -69,9 +56,7 @@ const ms = () => {
                         >
                             Fair Labor Association
                         </a>{" "}
-                        (FLA) is a nonprofit organization that monitors
-                        conditions in affiliated factories for compliance with
-                        its{" "}
+                        (FLA) ialah badan pertubuhan bukan kerajaan yang memantau keadaan di kilang-kilang bersekutu untuk pematuhan dengan{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -80,9 +65,8 @@ const ms = () => {
                         >
                             Workplace Code of Conduct
                         </a>
-                        , based on ILO standards, and also has detailed
-                        provisions for remediation when violations are
-                        identified. The code is supplemented by{" "}
+                        , berdasarkan standard ILO, dan juga mempunyai peruntukan terperinci untuk memulihkan keadaan pencabulan yang dikenal pasti.
+                        Kod ditambah oleh{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -91,30 +75,20 @@ const ms = () => {
                         >
                             FLA Compliance Benchmarks
                         </a>
-                        , which identify specific standards for each code
-                        element. In June 2011 the FLA Board of Directors
-                        approved significant enhancements to the Workplace Code
-                        of Conduct and Compliance Benchmarks. Six out of nine
-                        elements of the adopted code were either newly created
-                        or revised, in areas ranging from employment relations,
-                        hours of work and compensation to health, safety and
-                        environment. The revised code was developed over a
-                        two-year period through a process that sought
-                        suggestions from a broad range of stakeholders and was
-                        adopted by a board that includes equal representation
-                        from companies, NGOs and university members.&nbsp;
+                        , yang mengenalpasti standard khusus bagi setiap elemen kod.   Pada Jun 2011, Lembaga Pengarah FLA meluluskan pembaikan penting pada Kod
+                        Tingkah Laku di Tempat Kerja dan Penanda aras Pematuhan.  Enam daripada sembilan elemen daripada kod yang diterima pakai sama ada baru
+                        direka atau dikemas kini, dari bidang perhubungan penggajian, waktu bekerja dan pampasan untuk kesihatan, keselamatan dan alam sekitar.
+                        Kod yang dikemas kini dibentuk dalam masa dua tahun melalui proses yang meminta saranan dari pelbagai pihak yang berkepentingan dan
+                        diterima pakai oleh lembaga yang merangkumi wakil seimbang dari syarikat perniagaan, NGO dan cerdik pandai universiti.
                     </p>
                     <p>
+                    Dapati maklumat lanjut dan sila lihat Kod Tingkah Laku Tempat Kerja  dan Penanda Aras yang lengkap, kemas kini yang diserlahkan dan perbandingan bersebelahan dengan kod lama di{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf"
-                            title="Obtain more information and view the complete Workplace Code of Conduct and Compliance Benchmarks, revision highlights and a side-by-side comparison to the previous code"
+                            href="http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf."
                         >
-                            Obtain more information and view the complete
-                            Workplace Code of Conduct and Compliance Benchmarks,
-                            revision highlights and a side-by-side comparison to
-                            the previous code
+                            http://www.fairlabor.org/sites/default/files/2011_code_enhancements.pdf.
                         </a>
                         .
                     </p>

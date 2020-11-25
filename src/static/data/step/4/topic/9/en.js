@@ -42,7 +42,7 @@ const en = () => {
               >
             Supplier Ethical Data Exchange (SEDEX)
              </a>
-             &nbsp;and&nbsp;
+             *&nbsp;and&nbsp;
              <a
                    target="_blank"
                    rel="noopener noreferrer"

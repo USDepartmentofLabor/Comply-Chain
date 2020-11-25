@@ -6,47 +6,29 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Communicating the Code</h1>
+                <h1>Berkomunikasi tentang Kod</h1>
                 <p>
-                    Effective communication is an important aspect of any social
-                    compliance program. Many companies have learned that merely
-                    auditing workplaces and remediating violations alone does
-                    not solve many of the labor problems found at harvesting,
-                    mining and production sites, processing facilities and other
-                    workplaces. Ongoing training and communication, capacity
-                    building and an emphasis on continuous improvement have been
-                    found to be the most effective path to sustaining progress
-                    toward greater compliance.
+                    Komunikasi yang berkesan adalah aspek penting dalam mana-mana program pematuhan sosial. Banyak syarikat telah mempelajari
+                    bahawa cuma mengaudit tempat kerja dan memulihkan pencabulan sahaja tidak akan menyelesaikan masalah buruh waktu menuai,
+                    melombong dan tempat pengeluaran, tempat memproses dan tempat kerja yang lain. Latihan secara berterusan dan komunikasi,
+                    pembinaan keupayaan dan tekanan kepada pembaikan berterusan didapati menjadi jalan yang berkesan untuk mengekalkan kemajuan
+                    ke arah pematuhan yang lebih baik.
                 </p>
                 <p>
                     <Link to="/steps/4">
                         Step 4, Communicate and Train Across Your Supply Chain
                     </Link>{" "}
-                    will discuss the ins and outs of communicating your code and
-                    compliance system to a variety of audiences: your own
-                    employees, your shareholders, your suppliers, supplier
-                    managers and supervisors, workers at facilities throughout
-                    the supply chain, governments, workers&rsquo; organizations,
-                    community groups and others. It will also discuss ways to
-                    make the code more accessible to stakeholders by avoiding
-                    unnecessary technical jargon and providing for translation
-                    into multiple languages.
+                    akan berbincang mengenai semua hal mengenai cara untuk berkomunikasi tentang kod dan sistem pematuhan kepada pelbagai pendengar;
+                    pekerja anda, pengurus bekalan, dan penyelia, pekerja di tempat rantai bekalan, kerajaan, pekerja pertubuhan, kumpulan komuniti
+                    dan lain-lain. Ia juga akan membincangkan cara untuk membuat kod lebih mudah diakses oleh pihak berkepentingan dengan mengelak
+                    bahasa yang sukar difahami dan memberi terjemahan dalam pelbagai bahasa.
                 </p>
                 <p>
                     <em>
-                        *Note: References to specific companies and
-                        non-governmental entities within this guide are for
-                        informational purposes only to demonstrate best
-                        practices that have been recognized internationally, as
-                        of the app&rsquo;s release date. Referencing the
-                        entities should not be interpreted as an official
-                        endorsement of those entities, their products, or
-                        services by the U.S. Department of Labor{" "}
-                    </em>
-                    <em>
-                        and their inclusion should not be interpreted as a
-                        comprehensive review of these entities&rsquo; practices
-                        in all areas
+                        *Catatan: Rujukan kepada syarikat tertentu dan entiti bukan kerajaan dalam panduan ini hanya untuk tujuan memberi maklumat bagi
+                        menunjukkan amalan terbaik yang telah diperakui di peringkat antarabangsa , sejak aplikasi dikeluarkan. Merujuk kepada entiti
+                        tidak patut ditafsirkan sebagai sokongan rasmi kepada entiti tersebut, produk atau perkhidmatan mereka oleh Jabatan Buruh AS
+                        dan penyertaan mereka tidak boleh ditafsirkan sebagai tinjauan komprehensif mengenai amalan entiti ini di dalam semua bidang.
                     </em>
                     <em>.</em>
                 </p>

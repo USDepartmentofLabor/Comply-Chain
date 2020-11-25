@@ -46,7 +46,7 @@ const en = () => {
                             title="World Vision"
                         >
                             World Vision
-                        </a>{" "}
+                        </a>*{" "}
                         and local partner organizations to combat child labor in
                         Cambodia, particularly in the agriculture, fishing, and
                         domestic service sectors. In an effort to strengthen

@@ -1,31 +1,65 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import OwnWords from "../../../../../../components/OwnWords";
 
 const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Forms of Public Reporting </h1>
+                <h1>Bentuk Laporan Awam</h1>
                 <p>
-                    A company&rsquo;s public reporting on its social compliance
-                    program, including the auditing and verification processes
-                    and other elements of the program discussed in previous
-                    sections, may be a stand-alone report or part of a broader
-                    sustainability or corporate social responsibility (CSR)
-                    report. It may be published in hard copy and/or on a
-                    company&rsquo;s website; some companies publish both an
-                    annual or other regular hard-copy report and updates online.
+                    Laporan awam syarikat mengenai program pematuhan sosial, termasuk mengaudit dan proses pengesahan dan elemen 
+                    lain dalam program yang dibincangkan dalam seksyen sebelum ini, mungkin laporan persendirian atau sebahagian 
+                    daripada kelestarian luas atau laporan tanggungjawab sosial korporat (CSR). Ia mungkin diterbitkan dalam bentuk 
+                    buku dan/atau dalam laman web syarikat; ada syarikat yang menerbitkan kedua-dua laporan tahunan atau laporan 
+                    biasa yang dibukukan dan kemas kini dalam talian.
                 </p>
                 <p>
-                    Reporting should also include periodic communication with
-                    stakeholders about issues of importance that come up
-                    unexpectedly; this type of reporting should be done as
-                    needed and as appropriate to the circumstances. Whatever
-                    format is chosen, reporting should be timely and regular,
-                    and you should make an effort to ensure that key information
-                    is accessible to a wide variety of audiences, including
-                    those who may not have access to the Internet.
+                    Laporan patut termasuk komunikasi berkala dengan pihak berkepentingan mengenai isu yang penting yang timbul 
+                    secara mendadak; laporan jenis ini patut dibuat sekiranya diperlukan dan sesuai dengan keadaan. Apapun jenis 
+                    bentuk yang dipilih, laporan patut dikeluarkan selalu dan pada masa yang ditentukan, dan anda patut berusaha 
+                    untuk memastikan maklumat utama boleh diakses kepada pelbagai pembaca, termasuk mereka yang tiada akses kepada 
+                    internet.
                 </p>
+                <OwnWords>
+                    <h2>
+                        <OwnWords.Icon alt="Feedback"/> <strong>Dengan kata-kata mereka sendiri: Kajian pengeluaran gula negara oleh Syarikat Coca-Cola* mengenai buruh kanak-kanak, buruh paksa dan hak tanah.</strong>
+                        {": "}
+                    </h2>
+                    <p>
+                        
+                        “Kajian negara ialah usaha Syarikat Coca-Cola untuk memahami dengan lebih baik rantai bekalan dalam mendapatkan 
+                        sumber gula dan mendedahkan bagaimana syarikat bekalan gula Coca-Cola dan rakan kongsi yang membotolkan minuman 
+                        menangani risiko utama.   Kajian ini bukan audit, tetapi kajian, dan tumpuannya kepada tiga elemen penting: buruh 
+                        kanak-kanak, buruh paksa dan hak tanah, sebab ini semua dianggap faktor risiko tinggi dalam rantai bekalan 
+                        pertanian Coca-Cola.”
+                    </p>
+                    <p>
+                        Sila baca lagi tentang 
+                        {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.coca-colacompany.com/content/dam/journey/us/en/policies/pdf/human-workplace-rights/addressing-global-issues/sugar-study-methodology-overview.pdf"
+                        title="methodology"
+                    >
+                        methodology
+                    </a>{" "}
+                                    
+                        kajian negara oleh Coca-Cola dan teroka 
+                        {" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.coca-colacompany.com/policies-and-practices/country-sugar-studies"
+                        title="country sugar studies"
+                    >
+                        country sugar studies
+                    </a>{" "}
+                                    
+                    yang dikeluarkan setakat ini.
+                        </p>
+                </OwnWords>
             </div>
         </StaticData>
     );

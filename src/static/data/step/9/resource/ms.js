@@ -7,17 +7,16 @@ const ms = () => {
                 <ol>
                     <li>
                         <em>
-                            Assessing the Impacts of Social and Environmental
-                            Standards Systems: ISEAL Code of Good Practice
+                            Sistem Menilai Impak Sosial dan Standard Alam Sekitar: ISEAL Kod Amalan Baik
                         </em>
-                        , December 2014; available from{" "}
+                        , Disember 2014; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.isealalliance.org/our-work/defining-credibility/codes-of-good-practice/impacts-code"
-                            title="Assessing the Impacts of Social and Environmental Standards Systems: ISEAL Code of Good Practice"
+                            href="https://www.isealalliance.org/sites/default/files/resource/2019-06/ISEAL_Impacts_Code_Version_2.0.pdf"
+                            title="Sistem Menilai Impak Sosial dan Standard Alam Sekitar: ISEAL Kod Amalan Baik"
                         >
-                            https://www.isealalliance.org/our-work/defining-credibility/codes-of-good-practice/impacts-code
+                            https://www.isealalliance.org/sites/default/files/resource/2019-06/ISEAL_Impacts_Code_Version_2.0.pdf
                         </a>
                     </li>
                 </ol>

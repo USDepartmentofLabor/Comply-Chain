@@ -290,9 +290,9 @@ const en = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
-                            title="Tracking Charts"
+                            title="“Workplace Monitoring Reports"
                         >
-                            &ldquo;Tracking Charts&rdquo;
+                            &ldquo;Workplace Monitoring Reports&rdquo;
                         </a>{" "}
                         on its website that contain complete data from every
                         audit carried out on factories, as well as the actions

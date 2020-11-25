@@ -424,7 +424,7 @@ const en = () => {
                              Gaining access to recruiters or brokers for
                              interviews can be a challenge, and is likely to
                              require the supplier&rsquo;s coordination and
-                             cooperation. Verit&eacute;&rsquo;s{" "}
+                             cooperation. Verit&eacute;&rsquo;s*{" "}
                              <a
                                  target="_blank"
                                  rel="noopener noreferrer"

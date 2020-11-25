@@ -7,10 +7,9 @@ const ms = () => {
                 <ol>
                     <li>
                         Cisco, Cody, Laura Gitman and Celine Suarez (Business
-                        for Social Responsibility). &ldquo;Good Practices for
-                        Complying with Licensors&rsquo; Social and Environmental
-                        Requirements: A Practical Guide for Licensees.&rdquo;
-                        2011; available from{" "}
+                        for Social Responsibility). &ldquo;Amalan Baik untuk Mematuhi Pemberi Lesen berkenaan Keperluan Sosial dan 
+                        Alam Sekitar: Panduan Praktikal untuk Mereka yang Menerima Lesen.&rdquo;
+                        2011; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -21,13 +20,12 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        ILO and IOE.{" "}
+                        ILO dan IOE.{" "}
                         <em>
-                            How to do business with respect for children&rsquo;s
-                            right to be free from child labour: ILO-IOE child
-                            labor guidance tool for business.
+                            Bagaimana menjalankan perniagaan berkaitan dengan hak kanak-kanak untuk bebas daripada buruh kanak-kanak: ILO-IOE 
+                            alat panduan buruh kanak-kanak untuk perniagaan 
                         </em>{" "}
-                        2015; available from{" "}
+                        2015; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -41,10 +39,9 @@ const ms = () => {
                     <li>
                         ILO-SAPFL.{" "}
                         <em>
-                            Combating Forced Labour: A Handbook for Employers
-                            and Businesses 2<sup>nd</sup>edition
+                            Memerangi Buruh Paksa: Buku Panduan untuk Majikan dan Perniagaan edisi ke-2, 
                         </em>
-                        , 2015; available from{" "}
+                        , 2015; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -55,9 +52,9 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        International Trade Union Confederation
-                        <em>. Mini Action Guide: Forced Labour. </em>2008;
-                        available from{" "}
+                        Gabungan Kesatuan Sekerja (International Trade Union Confederation)
+                        <em>. Panduan Mini mengenai Tindakan: Buruh Paksa. </em>2008;
+                        boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -68,12 +65,11 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        Interfaith Center on Corporate Responsibility.{" "}
+                        Pusat Pelbagai Agama Mengenai Tanggungjawab Korporat {" "}
                         <em>
-                            Best Practice Guidance on Ethical Recruitment of
-                            Migrant Workers.
+                            Panduan Amalan Terbaik mengenai Pengambilan Pekerja Migran yang Beretika 
                         </em>{" "}
-                        April 2017; available from{" "}
+                        April 2017; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -87,10 +83,9 @@ const ms = () => {
                     <li>
                         IOM/OSCE/ILO.{" "}
                         <em>
-                            Handbook on Establishing Effective Labour Migration
-                            Policies in Countries of Origin and Destination.
+                            Buku Panduan untuk Menubuhkan Dasar Penghijrahan yang Berkesan di Negara Asal dan Negara Destinasi
                         </em>{" "}
-                        2006; available from{" "}
+                        2006; boleh didapati dari {" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -104,10 +99,9 @@ const ms = () => {
                     <li>
                         IOM/OSCE.{" "}
                         <em>
-                            Training Modules on Labour Migration Management
-                            &ndash; Trainer&rsquo;s Manual
+                        Modul Latihan Mengenai Pengurusan Penghijrahan Buruh - Manual Pelatih.
                         </em>
-                        . 2011; available from{" "}
+                        . 2011; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -118,9 +112,9 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        United Nations.{" "}
-                        <em>Anti-Human Trafficking and Migrant Smuggling</em>
-                        .2010, available from{" "}
+                        Pertubuhan Bangsa-Bangsa Bersatu. Anti-Pemerdagangan{" "}
+                        <em>Manusia dan Penyeludupan Migran</em>
+                        .2010, boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -131,8 +125,7 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;. <em>Fair Hiring Toolkit; </em>available
-                        from{" "}
+                        Verit&eacute;. <em>Peralatan Pengambilan Pekerja Secara Adil; </em>boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -143,8 +136,8 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                        Verit&eacute;. <em>Responsible Sourcing Tool; </em>
-                        available from{" "}
+                        Verit&eacute;. <em>Alat Sumber Bertanggungjawab; </em>
+                        boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -155,20 +148,7 @@ const ms = () => {
                         .
                     </li>
                 </ol>
-                <p>
-                    <em>
-                        *Note: References to specific companies and
-                        non-governmental entities within this guide are for
-                        informational purposes only to demonstrate best
-                        practices that have been recognized internationally, as
-                        of the app&rsquo;s release date. Referencing the
-                        entities should not be interpreted as an official
-                        endorsement of those entities, their products, or
-                        services by the U.S. Department of Labor and their
-                        inclusion should not be interpreted as a comprehensive
-                        review of these entities&rsquo; practices in all areas.
-                    </em>
-                </p>
+                
             </div>
         </StaticData>
     );

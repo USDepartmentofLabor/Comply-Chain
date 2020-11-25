@@ -8,28 +8,20 @@ const ms = () => {
         <StaticData>
             <div>
                 <h1>
-                    <strong>Certification Programs</strong>
+                    <strong>Program Persijilan</strong>
                 </h1>
                 <p>
-                    Another option for developing social compliance programs is
-                    to explore existing <strong>certification </strong>programs.
-                    These programs certify products or processes against
-                    established sets of standards; some of them confer a label
-                    on certified products in order to directly reach consumers
-                    and communicate that the product was produced under certain
-                    conditions.
+                    Satu lagi cara untuk memperkembangkan program pematuhan sosial ialah dengan melihat program{" "}
+                    <strong>persijilan</strong> yang sedia ada. Program-program ini mengesahkan produk atau proses mengikuti standard
+                    yang ditetapkan; sebahagian daripada mereka memberikan label daripada produk yang diperakui agar
+                    secara langsung produk sampai kepada pengguna dan diberitahu bahawa produk tersebut dihasilkan dalam keadaan tertentu.
                 </p>
                 <p>
-                    While there are few existing certification programs that
-                    confer a &ldquo;child labor free&rdquo; or &ldquo;forced
-                    labor free&rdquo; label, there are programs that include
-                    child labor, forced labor and other labor issues in their
-                    certification standards. For example, the Fair Trade program
-                    is primarily aimed at ensuring a &ldquo;fair&rdquo; price
-                    for producers at the bottom of the supply chain, but
-                    producers must also meet child labor, forced labor and other
-                    labor standards in order to earn the &ldquo;Fair
-                    Trade&rdquo; certification. For more information, see the{" "}
+                    Walaupun ada beberapa program persijilan yang memberikan label “bebas buruh kanak-kanak” atau “bebas buruh paksa,
+                    ” ada program yang merangkumi pekerja kanak-kanak, buruh paksa dan isu buruh lain dalam standard persijilan mereka.
+                    Contohnya, program Perdagangan Adil bertujuan untuk memastikan harga “adil” bagi pengeluar di bahagian bawah rantai bekalan,
+                    tetapi pengeluar juga harus mematuhi standard buruh bagi buruh kanak-kanak, buruh paksa, dan standard buruh lain
+                    untuk mendapatkan sijil “Perdagangan Adil.” Untuk maklumat lanjut, sila lihat peralatan{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -37,7 +29,7 @@ const ms = () => {
                     >
                         Fairtrade International
                     </a>{" "}
-                    and{" "}
+                    dan{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -46,10 +38,10 @@ const ms = () => {
                     >
                         Fair Trade Certified
                     </a>{" "}
-                    toolkits.
+                    .
                 </p>
                 <p>
-                    Some certification programs aim to meet the standards of the{" "}
+                    Beberapa program persijilan bertujuan untuk memenuhi standard{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -58,31 +50,24 @@ const ms = () => {
                     >
                         ISEAL Alliance
                     </a>
-                    , an association of organizations that develops guidance on
-                    establishment and implementation of sustainability-related
-                    standards.
+                    , persatuan dalam pertubuhan yang mengeluarkan panduan mengenai penubuhan dan
+                    pelaksanaan standard yang berkaitan dengan kelestarian.
                 </p>
                 <p>
-                    At the same time, some certification programs&mdash;and
-                    multi-stakeholder initiatives more broadly&mdash;have come
-                    under criticism related to governance arrangements, such as
-                    certification programs&rsquo; financing structures, balance
-                    of power among members and mechanisms for holding members
-                    accountable. Other criticism is related to implementation,
-                    such as issues around inadequate or insufficient auditing
-                    and inadequate stakeholder outreach. It is therefore
-                    important to understand the structure of particular programs
-                    in order to assess how they will be viewed by different
-                    stakeholders.&nbsp;
+                    Pada masa yang sama, beberapa program persijilan - dan inisiatif pelbagai pihak berkepentingan yang lebih luas -
+                    mendapat kritikan berkaitan dengan peraturan tadbir urus, seperti struktur pembiayaan program persijilan,
+                    keseimbangan kuasa di antara anggota dan mekanisme supaya anggota bertanggungjawab. Kritikan lain berkaitan dengan
+                    pelaksanaan, seperti masalah audit yang tidak mencukupi dan kekurangan penglibatan pihak berkepentingan. Oleh itu
+                    penting untuk memahami struktur program tertentu untuk menilai bagaimana program tersebut akan dilihat oleh pelbagai pihak yang berkepentingan.
                 </p>
                 <ExampleInAction id="clt">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Example in Action: Goodweave</strong>
+                        <strong>Contoh dalam Tindakan: Goodweave*</strong>
                     </h2>
 
                     <p>
-                        For over 20 years,{" "}
+                        Selama 25 tahun,{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -91,34 +76,30 @@ const ms = () => {
                         >
                             GoodWeave
                         </a>{" "}
-                        has been working to transform the carpet industry by
-                        encouraging market demand for child-labor free rugs and
-                        helping businesses to meet that demand. Rug importers
-                        and exporters that wish to be licensed by GoodWeave and
-                        earn a consumer-facing GoodWeave label must sign a
-                        legally binding contract to abide by GoodWeave&rsquo;s
-                        rigorous standard for certifying that rugs are free from
-                        child labor, forced labor, and bonded labor. As part of
-                        the certification program, companies agree to permit
-                        unannounced inspections in their supply chains to
-                        monitor for compliance with the standard and ensure that
-                        violations are remediated. Companies also pay licensing
-                        fees that support GoodWeave&rsquo;s programs for
-                        monitoring and inspection of workplaces and the
-                        rehabilitation and education of exploited children.
-                        GoodWeave is a full member of the International Social
-                        and Environmental Accreditation and Labeling (ISEAL)
-                        Alliance, an association widely known as a world leader
-                        in establishing best practices for certification
-                        standards. In the past few years, GoodWeave has expanded
-                        the reach of its program beyond the carpet industry in
-                        India, to new sectors and countries, including the brick
-                        kilns of Nepal, apparel factories in India, and
-                        home-based carpet production in Afghanistan (the latter
-                        through a DOL-funded project).
+                        telah berusaha untuk menghentikan buruh kanak-kanak dalam rantai bekalan global. Goodweave menggalakkan permintaan pasaran untuk permaidani
+                        dan tekstil untuk rumah yang dikeluarkan dengan sijil bebas buruh kanak-kanak, dan membantu perniagaan untuk menemui permintaan tersebut.
+                        Pengimport dan pengeksport yang ingin dilesenkan oleh GoodWeave dan memperoleh pelanggan mesti mempunyai kontrak rasmi untuk mengikuti standard
+                         GoodWeave yang ketat untuk mendapatkan sijil bagi produk yang bebas buruh kanak-kanak, buruh paksa dan buruh paksa kontrak.  Sebagai sebahagian
+                         daripada program Persijilan, syarikat setuju untuk mengizinkan pemeriksaan tanpa pemberitahuan di rantai bekalan mereka untuk memantau pematuhan
+                         standard dan memastikan pencabulan dielakkan.  Syarikat juga membayar yuran lesen yang menyokong program GoodWeave untuk pemantauan dan pemeriksaan
+                         tempat kerja, dan pemulihan dan pendidikan kanak-kanak yang dianiaya.  GoodWeave adalah ahli penuh Perikatan Akreditasi dan Pelabelan Sosial dan
+                         Alam Sekitar Antarabangsa (ISEAL), sebuah persatuan yang terkenal sebagai peneraju dunia yang mewujudkan amalan terbaik dalam standard persijilan.
                     </p>
                     <p>
-                        Learn more about the DOL-funded{" "}
+                    Dengan lebih 170 rakan jenama dan 25% bahagian pasaran antarabangsa, GoodWeave telah mengubah sektor pembuatan permaidani buatan tangan di Asia Selatan
+                    melalui model berdasarkan pasaran, di mana kadar buruh kanak-kanak telah menurun dari satu juta mangsa pada tahun 1995 kepada kira-kira 200,000 pada hari ini.
+                    GoodWeave kini mengembangkan model yang berjaya ini kepada tekstil untuk rumah, pakaian, aksesori fesyen dan sektor-sektor yang lain.  Sila layari{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://goodweave.org/"
+                    >
+                    goodweave.org
+                    </a>
+                    {" "}untuk maklumat lanjut.
+                    </p>
+                    <p>
+                        Pelajari tentang projek yang dibiayai oleh DOL{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -130,7 +111,14 @@ const ms = () => {
                                 Carpet Production in Afghanistan
                             </em>
                         </a>
-                        <em>, </em>implemented by GoodWeave.
+                        <em>, </em>dilaksanakan oleh GoodWeave, di{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan"
+                        >
+                        https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan
+                        </a>.
                     </p>
                     <img src={goodweave} alt="GoodWeave International" />
                     <p className="small-text">
@@ -141,19 +129,10 @@ const ms = () => {
 
                 <p>
                     <em>
-                        *Note: References to specific companies and
-                        non-governmental entities within this guide are for
-                        informational purposes only to demonstrate best
-                        practices that have been recognized internationally, as
-                        of the app&rsquo;s release date. Referencing the
-                        entities should not be interpreted as an official
-                        endorsement of those entities, their products, or
-                        services by the U.S. Department of Labor{" "}
-                    </em>
-                    <em>
-                        and their inclusion should not be interpreted as a
-                        comprehensive review of these entities&rsquo; practices
-                        in all areas
+                        Catatan: Rujukan kepada syarikat tertentu dan entiti bukan kerajaan dalam panduan ini hanya untuk tujuan memberi maklumat bagi
+                        menunjukkan amalan terbaik yang telah diperakui di peringkat antarabangsa , sejak aplikasi dikeluarkan. Merujuk kepada entiti
+                        tidak patut ditafsirkan sebagai sokongan rasmi kepada entiti tersebut, produk atau perkhidmatan mereka oleh Jabatan Buruh AS dan
+                        penyertaan mereka tidak boleh ditafsirkan sebagai tinjauan komprehensif mengenai amalan entiti ini di dalam semua bidang.
                     </em>
                     <em>.</em>
                 </p>

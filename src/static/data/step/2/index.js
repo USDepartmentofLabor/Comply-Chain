@@ -91,5 +91,35 @@ export const StepData = {
             },
         ],
         furtherResources: Resources.fr
-    }
+    },
+    ms: {
+            title: "Asas Sistem Pematuhan Sosial",
+            topics: Topics.ms,
+            keywords: ["Tanggungjawab Sosial Korporat (CSR)", "Sistem Pematuhan Sosial", "Supply Chain"],
+            learningObjectives: [
+                "Memahami komponen utama sistem pematuhan sosial dan bagaimana ia sepadan.",
+                "Biasakan dengan program pematuhan sosial industri atau merentas industri yang tersedia untuk anda.",
+                "Mula menentukan skop sistem pematuhan sosial anda.",
+                "Fahami keperluan kakitangan untuk pasukan pematuhan sosial yang kuat.",
+                "Kenali sistem pengurusan yang akan menjadikan sistem pematuhan sosial anda berjaya."
+            ],
+            keyTerms: [
+                {
+                    termName: "Tanggungjawab Sosial Korporat (CSR)",
+                    termDefinition:
+                        "Konsep luas yang bertujuan untuk merangkumi bagaimana syarikat menggabungkan masalah sosial dan persekitaran ke dalam operasi mereka dan interaksi mereka dengan pihak berkepentingan selain daripada keperluan undang-undang. Banyak istilah lain juga digunakan untuk menangani tindakan tersebut, termasuk “garis bawah berlipat ganda,” “kelestarian,” “kewarganegaraan korporat,” “persekitaran, sosial dan tadbir urus (ESG),” dan banyak lagi. “Kebertanggungjawapan Korporat” merupakan istilah yang sering digunakan untuk merujuk kepada tindakan syarikat yang berkait rapat dengan keperluan undang-undang."
+                },
+                {
+                    termName: "Sistem Pematuhan Sosial",
+                    termDefinition:
+                        "Satu komponen CSR yang luas bagi syarikat, program kesinambungan atau kebertanggungjawapan. Sistem Pematuhan Sosial merupakan sekumpulan dasar dan amalan terpadu yang mana syarikat berusaha untuk memastikan pematuhan maksimum kepada elemen kod tingkah laku yang merangkumi masalah sosial dan buruh. "
+                },
+                {
+                    termName: "Rantai Bekalan",
+                    termDefinition:
+                        "Rantai - atau rangkaian - yang terdiri daripada semua pertubuhan dan individu yang terlibat dalam menghasilkan, memproses, memperdagangkan, mengangkut dan/atau mengedarkan produk atau komoditi dari tempat asalnya kepada syarikat dan/atau kepada peruncit terakhir. Untuk contoh pelbagai rantaian bekalan, sila rujuk to Pemetaan Rantai Bekalan dalam Langkah 2: Menilai Risiko dan Impak."
+                },
+            ],
+            furtherResources: Resources.ms
+        }
 };

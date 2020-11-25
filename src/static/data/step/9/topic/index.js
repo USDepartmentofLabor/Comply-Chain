@@ -73,22 +73,22 @@ export const Topics = {
     ms: [
             {
                 keywords: [],
-                title: "Why Conduct Independent Review?",
+                title: "Mengapa Melakukan Kajian Semula yang Bebas?",
                 content: Topic1.ms
             },
             {
                 keywords: [],
-                title: "Independent Monitoring (Auditing)",
+                title: "Pemantauan bebas (Mengaudit)",
                 content: Topic2.ms
             },
             {
                 keywords: [],
-                title: "Independent Verification",
+                title: "Pengesahan bebas",
                 content: Topic3.ms
             },
             {
                 keywords: [],
-                title: "Impact Evaluation",
+                title: "Penilaian Impak",
                 content: Topic4.ms
             }
         ]

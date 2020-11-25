@@ -206,66 +206,66 @@ export const Topics = {
         }
     ],
     ms: [
-            {
-                keywords: [],
-                title: "Why Conduct Risk and Impact Assessments?",
-                content: Topic1.en
-            },
-            {
-                keywords: [],
-                title: "Assessing Internal Impacts and Risk Factors",
-                content: Topic2.en
-            },
-            {
-                keywords: [],
-                title: "Assessing External Impacts and Risk Factors",
-                content: Topic3.en
-            },
-            {
-                keywords: [],
-                title: "Supply Chain Mapping",
-                content: Topic4.en
-            },
-            {
-                keywords: [],
-                title: "Risk and Impact Information Gathering",
-                content: Topic5.en
-            },
-            {
-                 keywords: [],
-                 title: "Key Information Related to Risk and Impact",
-                 content: Topic9.en
-             },
-             {
-                keywords: [],
-                title: "Migrant Workers",
-                content: Topic10.en
-            },
-            {
-                keywords: [],
-                title: "Assessing Root Causes",
-                content: Topic11.en
-            },
-            {
-                keywords: [],
-                title: "Addressing Root Causes",
-                content: Topic12.en
-            },
-            {
-                keywords: [],
-                title: "Philanthropy",
-                content: Topic13.en
-            },
-            {
-                keywords: [],
-                title: "Using Risk and Impact Assessment Information",
-                content: Topic7.en
-            },
-            {
-                keywords: [],
-                title: "Social Compliance Data Management",
-                content: Topic8.en
-            }
-        ]
+                    {
+                        keywords: [],
+                        title: "Mengapa melakukan Penilaian Risiko dan Impak?",
+                        content: Topic1.ms
+                    },
+                    {
+                        keywords: [],
+                        title: "Mengapa melakukan Penilaian Risiko dan Impak?",
+                        content: Topic2.ms
+                    },
+                    {
+                        keywords: [],
+                        title: "Menilai Impak Luaran dan Faktor Risiko",
+                        content: Topic3.ms
+                    },
+                    {
+                        keywords: [],
+                        title: "Pemetaan Rantai Bekalan",
+                        content: Topic4.ms
+                    },
+                    {
+                        keywords: [],
+                        title: "Risiko dan Kesan Pengumpulan Maklumat",
+                        content: Topic5.ms
+                    },
+                    {
+                         keywords: [],
+                         title: "Maklumat Utama Berkaitan dengan Risiko dan Impak",
+                         content: Topic9.ms
+                     },
+                     {
+                         keywords: [],
+                         title: "Pekerja Migran",
+                         content: Topic10.ms
+                     },
+                     {
+                         keywords: [],
+                         title: "Menilai Penyebab Akar",
+                         content: Topic11.ms
+                     },
+                     {
+                         keywords: [],
+                         title: "Memantau Penyebab Akar",
+                         content: Topic12.ms
+                     },
+                     {
+                         keywords: [],
+                         title: "Kedermawanan",
+                         content: Topic13.ms
+                     },
+                    {
+                        keywords: [],
+                        title: "Menggunakan maklumat Penilaian Risiko dan Impak",
+                        content: Topic7.ms
+                    },
+                    {
+                        keywords: [],
+                        title: "Pengurusan Data Pematuhan Sosial",
+                        content: Topic8.ms
+                    }
+                ]
 
 };

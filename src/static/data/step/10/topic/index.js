@@ -90,28 +90,28 @@ export const Topics = {
     ms: [
             {
                 keywords: [],
-                title: "Forms of Public Reporting",
-                content: Topic1.en
+                title: "Bentuk Laporan Awam",
+                content: Topic1.ms
             },
             {
                 keywords: [],
-                title: "Why Produce Public Reporting?",
-                content: Topic2.en
+                title: "Mengapa Mengeluarkan Laporan Awam?",
+                content: Topic2.ms
             },
             {
                 keywords: [],
-                title: "What to Include in Public Reporting",
-                content: Topic3.en
+                title: "Apa patut dimuatkan dalam Laporan Awam",
+                content: Topic3.ms
             },
             {
                 keywords: [],
-                title: "The Reporting Team",
-                content: Topic4.en
+                title: "Pasukan Melapor",
+                content: Topic4.ms
             },
-                      {
-                          keywords: [],
-                          title: "Report Engagement",
-                          content: Topic5.ms
-                      }
+            {
+                keywords: [],
+                title: "Laporan Penglibatan",
+                content: Topic5.ms
+            }
         ]
 };

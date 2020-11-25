@@ -7,234 +7,192 @@ const ms = () => {
     return (
         <StaticData>
             <div>
-                <h1>Improving Victim Situations</h1>
+                <h1>Memperbaiki Keadaan Mangsa</h1>
                 <p>
-                    Audit teams must be prepared to encounter a broad range of
-                    situations with respect to child or forced labor in the
-                    workplace, from individualized cases to situations involving
-                    systemic and egregious abuse. Prior to the audit, auditors
-                    should prepare themselves with knowledge of local resources,
-                    including law enforcement and organizations that provide
-                    victim services. Companies that have gathered this type of
-                    data as part of their risk assessments and communication
-                    efforts, and captured it in their information systems, are
-                    best equipped to prepare auditors by providing this
-                    information in advance.
+                    Pasukan audit mesti bersedia untuk menghadapi pelbagai keadaan berkaitan dengan buruh kanak-kanak atau 
+                    buruh paksa di tempat kerja, dari kes individu kepada kes yang melibatkan penderaan yang sistematik dan 
+                    buruk. Sebelum audit, pengaudit harus menyediakan diri mereka dengan ilmu mengenai sumber tempatan, 
+                    termasuk penguatkuasaan undang-undang dan pertubuhan yang memberikan perkhidmatan kepada mangsa. Syarikat 
+                    perniagaan yang telah mengumpul data seperti ini sebagai sebahagian daripada penilaian risiko dan usaha 
+                    komunikasi, dan memasukkan ke dalam sistem informasi, yang paling baik untuk menyediakan pengaudit dengan 
+                    memberikan mereka maklumat ini terlebih dahulu.
                 </p>
                 <p>
-                    As a guiding principle, auditors&rsquo; immediate actions
-                    and the ongoing corrective actions taken by management
-                    should focus on what is best for the victims in question.
-                    Cases of egregious abuse that contravene local law should be
-                    reported to local law enforcement authorities, but this
-                    should be done in a manner that ensures the safety and
-                    well-being of the victims. Below is general guidance for
-                    actions that can be taken in response to various findings of
-                    child labor and forced labor.
+                    Sebagai prinsip panduan, tindakan segera pengaudit dan tindakan pengaudit dan tindakan pembetulan yang diambil 
+                    oleh pengurusan harus memberi fokus kepada apa yang terbaik untuk mangsa tersebut. Kes penderaan yang buruk 
+                    yang melanggar undang-undang tempatan harus dilaporkan kepada pihak berkuasa tempatan, tetapi ini harus 
+                    dijalankan dalam cara yang memastikan keselamatan dan kesejahteraan mangsa. Berikut ialah panduan am untuk 
+                    tindakan yang boleh diambil untuk menangani pelbagai penemuan mengenai buruh kanak-kanak dan buruh paksa.
                 </p>
-                <h2>Child Labor</h2>
-                <h2>Underage Labor</h2>
+                <h2>Buruh Kanak-Kanak</h2>
+                <h2>Buruh Bawah Umur</h2>
                 <p>
-                    If the audit identifies a child in the workplace who is
-                    under the country&rsquo;s legal working age, the child
-                    should be removed from work immediately. If the audit
-                    identifies a child who is of legal age to work in the
-                    country, the appropriate immediate response depends on the
-                    company&rsquo;s code of conduct. If the company has set a
-                    minimum age that is higher than the legal minimum, the child
-                    should be removed from work immediately if he or she is
-                    below that age.&nbsp;
+                    Sekiranya audit atau mekanisme laporan yang lain mengenal pasti kanak-kanak di tempat kerja yang di bawah umur 
+                    sah untuk bekerja di bawah undang-undang negara, kanak-kanak tersebut harus dikeluarkan dari tempat kerja tersebut 
+                    dengan segera. Sekiranya kanak-kanak boleh bekerja secara sah dalam negara tersebut, tindakan segera yang sesuai 
+                    bergantung kepada kod tingkah laku syarikat. Sekiranya syarikat perniagaan telah menetapkan umur minimum yang 
+                    lebih tinggi daripada umur minimum yang sah, kanak-kanak harus dikeluarkan daripada tempat kerja tersebut 
+                    sekiranya ia di bawah umur tersebut. 
                 </p>
                 <p>
-                    However, it is critical to keep in mind the possible
-                    consequences for the child. The child and his or her family
-                    will lose income, and unless it is replaced, the child may
-                    simply find a different job, potentially under worse
-                    conditions for the child&rsquo;s health, safety or
-                    well-being. Companies can take steps to mitigate this
-                    situation by:
+                    Bagaimanapun, kritikal untuk memikirkan akibatnya terhadap kanak-kanak tersebut. Kanak-kanak dan keluarganya akan 
+                    kehilangan pendapatan, dan melainkan ianya digantikan, kanak-kanak tersebut akan mencari kerja lain, dengan kemungkinan 
+                    di dalam keadaan yang lebih teruk untuk kesihatannya, keselamatan dirinya. Syarikat perniagaan boleh mengambil langkah 
+                    untuk menangani keadaan ini dengan:
                 </p>
                 <ul>
                     <li>
-                        Providing a stipend to the child&rsquo;s family to make
-                        up for the lost income, if the child&rsquo;s family can
-                        be contacted;
+                        Memberi elaun kepada keluarga kanak-kanak untuk menggantikan kehilangan pendapatan, sekiranya keluarga kanak-kanak 
+                        boleh dihubungi;
                     </li>
                     <li>
-                        Offering the child&rsquo;s job to another member of the
-                        family who is of legal age to work;
+                        Menawarkan tugas kanak-kanak itu kepada ahli keluarga lain yang boleh bekerja secara sah;
                     </li>
                     <li>
-                        Providing alternative income generation opportunities to
-                        the child&rsquo;s parents or adult relatives;
+                        Memberi peluang untuk menjana pendapatan alternatif kepada ibu bapa kanak-kanak atau pun seorang saudara dewasa;
                     </li>
                     <li>
-                        Ensuring that the child attends school or an alternative
-                        educational facility, paying associated fees as needed
-                        and tracking the child until he or she is of age to
-                        work;
+                        Memastikan kanak-kanak hadir sekolah atau tempat pendidikan alternatif, membayar yuran yang diperlukan dan mengikuti 
+                        perkembangan kanak-kanak itu sehingga mencapai umur dia boleh bekerja;
                     </li>
                     <li>
-                        Providing the child a training or apprenticeship
-                        opportunity when he or she is of legal age for such
-                        programs, and committing to provide the job back once he
-                        or she is of full legal working age;
+                        Memberi kanak-kanak itu latihan atau peluang perantis apabila dia mencapai umur sah untuk program seperti itu, dan 
+                        komited untuk memberi pekerjaan itu semula apabila dia mencapai umur bekerja;
                     </li>
                     <li>
-                        Linking the child to educational, developmental,
-                        psycho-social and other services provided by the
-                        government or non-governmental organizations (NGOs); and
+                        Mengaitkan kanak-kanak kepada perkhidmatan pendidikan, pertumbuhan, psikososial dan lain-lain perkhidmatan yang 
+                        disediakan oleh pihak kerajaan atau badan bukan kerajaan (NGO); dan
                     </li>
                     <li>
-                        If the child has been living away from his or her
-                        family, reuniting the child with the family while
-                        ensuring that it can provide a protective environment,
-                        and provide the applicable services.
+                        Sekiranya kanak-kanak terpisah jauh daripada keluarganya, menyatukan kanak-kanak dengan keluarganya sambil memastikan 
+                        persekitaran yang selamat, dan memberikan perkhidmatan yang diperlukan.
                     </li>
                 </ul>
-                <h2>Hazardous Child Labor</h2>
+                <h2>Buruh Kanak-Kanak yang Berbahaya</h2>
                 <p>
-                    No child under age 18 should be involved in the Worst Forms
-                    of Child Labor specified in ILO Convention 182 (see{" "}
-                    <Link to="/steps/3">Step 3, Develop a Code of Conduct</Link>
-                    ). If children are found in such situations, the best
-                    approaches include:
+                    Tiada kanak-kanak bawah umur 18 patut terlibat dalam Buruh Kanak-Kanak yang Terburuk seperti yang ditetapkan dalam Konvensyen 
+                    ILO 182 (sila lihat {" "}
+                    <Link to="/steps/5">Step 3, Develop a Code of Conduct</Link>
+                    ). Sekiranya kanak-kanak terdapat dalam keadaan seperti itu, pendekatan yang paling baik termasuk:
                 </p>
                 <ul>
                     <li>
-                        Eliminating any dangerous work activities from the
-                        child&rsquo;s job, and closely monitoring the
-                        child&rsquo;s work activities on an ongoing basis;
+                        Membasmi aktiviti kerja yang berbahaya daripada tugas kanak-kanak, dan terus memantau dengan rapi aktiviti tugas 
+                        kanak-kanak; 
                     </li>
                     <li>
-                        Helping the child identify other safe income-earning
-                        opportunities, if there is no feasible way to reduce
-                        hazards in his or her current work environment;
+                        Membantu kanak-kanak mengenal pasti peluang pekerjaan yang lebih selamat, sekiranya tiada cara lain untuk mengurangkan 
+                        bahaya dalam persekitaran kerjanya;
                     </li>
                     <li>
-                        Ensuring that the child is not working too many hours or
-                        at times that endanger his or her health, well-being or
-                        education;
+                        Memastikan yang kanak-kanak tersebut tidak bekerja dalam waktu terlalu lama atau kadang kala membahayakan kesihatan, 
+                        diri atau pendidikannya;
                     </li>
                     <li>
-                        Finding a way for the child to make up for the lost
-                        income through other earning opportunities, a stipend or
-                        family interventions, in the event working hours are
-                        reduced; and
+                        Mencari jalan bagi kanak-kanak mendapat kembali pendapatan melalui cara lain, duit elaun atau bantuan keluarga, 
+                        dan waktu bekerja dikurangkan; dan
                     </li>
                     <li>
-                        Linking the child to educational, developmental,
-                        psycho-social and other services provided by the
-                        government or NGOs.
+                        Mengaitkan kanak-kanak kepada perkhidmatan pendidikan, pertumbuhan, psikososial dan lain-lain perkhidmatan yang 
+                        disediakan oleh pihak kerajaan atau badan bukan kerajaan (NGO).
                     </li>
                 </ul>
                 <p>
-                    These activities are resource intensive. The relationships
-                    you have worked hard to build are vital at this stage,
-                    helping you to find resources and expertise available in the
-                    community. Of course, there are communities with very few
-                    resources and educational institutions. Options for action
-                    in such cases are discussed in{" "}
-                    <em>Addressing Root Causes</em>.
+                    Aktiviti seperti ini memerlukan sumber intensif. Hubungan yang anda telah bekerja kuat untuk membina adalah penting 
+                    di peringkat ini, membantu anda untuk mencari sumber dan kepakaran yang sedia ada dalam komuniti. Tentulah, ada 
+                    komuniti dengan sumber yang sedikit dan tidak banyak institusi pendidikan. Pilihan untuk tindakan dalam hal tersebut 
+                    dibincangkan dalam Menangani Penyebab Akar.
                 </p>
                 <ExampleInAction id="turkey">
                     <h3>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Collaboration to Address Seasonal
-                            Migrant Child Labor in Turkey&rsquo;s Hazelnut
-                            Harvest
+                            Contoh dalam Tindakan: Bekerjasama untuk menangani Buruh Kanak-Kanak Migran Bermusim waktu Penuaian Kacang Hazel
                         </strong>
                     </h3>
                     <p>
-                        Since 2011, the U.S.-based Fair Labor Association (FLA)
-                        has been assessing working conditions on hazelnut farms
-                        in the Black Sea region of Turkey, first as a special
-                        project commissioned by the multinational corporation
-                        Nestl&eacute;*, and later as a collaboration between the
-                        FLA, Nestl&eacute; and two of its Turkey-based hazelnut
-                        suppliers, Balsu Gida* and Olam Progida*. Annually, the
-                        FLA sends a team of assessors to visit a sample of farms
-                        supplying hazelnuts to these companies. The presence of
-                        child labor has been a consistent finding, both among
-                        local workers&rsquo; families, and among the groups of
-                        migrant workers who travel to the region for the
-                        hazelnut harvest.
+                        Sejak 2011, Fair Labor Association* (FLA) yang beribu pejabat di AS telah menilai keadaan kerja di ladang kacang 
+                        hazel di rantai Laut Hitam Turkey, pertama sebagai projek istimewa yang dibiayai oleh syarikat multinasional Nestlé,* 
+                        dan kemudian kerjasama di antara FLA, Nestlé dan dua lagi pembekal kacang hazel Turkey, Balsu Gida* dan Olam Progida.*  
+                        Setiap tahun, FLA menghantar sepasukan penilai yang melawat beberapa contoh ladang yang membekalkan kacang hazel 
+                        kepada syarikat-syarikat ini.   Sering terdapat buruh kanak-kanak, di kalangan peladang tempatan, dan di kalangan 
+                        pekerja migran yang pergi ke rantau tersebut waktu menuai kacang hazel.
                     </p>
                     <p>
-                        The companies have pursued a number of remediation
-                        strategies in response to these findings, such as civil
-                        society partnerships to build schools and provide
-                        scholarships for children of migrant workers and in
-                        hazelnut communities. Further interventions have
-                        included training for farmers on child labor
-                        prohibitions, and the provision of age-verification
-                        tools to encourage farmers to document the ages of their
-                        hired workers.&nbsp;
+                        Syarikat-syarikat tersebut telah mencari beberapa jalan untuk strategi pemulihan seperti menjadi rakan kongsi dengan 
+                        masyarakat sivil untuk membina sekolah dan memberi biasiswa kepada kanak-kanak migran di dalam komuniti kacang hazel. 
+                        Bantuan lain termasuk latihan bagi petani tentang larangan terhadap buruh kanak-kanak, dan menyediakan alat pengesahan 
+                        umur bagi menggalakkan petani untuk mendokumenkan umur pekerja yang digaji.
                     </p>
                     <p>
-                        In November 2015, the U.S. Department of Labor awarded
-                        the FLA a grant to pilot-test a comprehensive,
-                        sustainable program that implements all elements of the
-                        U.S. Department of Agriculture (USDA) &ldquo;
+                        Pada November 2015, Jabatan Buruh  AS memberi hadiah kewangan kepada FLA untuk menguji program perintis komprehensif 
+                        lestari untuk melaksanakan semua elemen Jabatan Pertanian AS (USDA) &ldquo;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.fairlabor.org/sites/default/files/documents/reports/harvesting_the_future_june_2018.pdf"
+                            href="https://www.dol.gov/agencies/ilab/piloting-usda-guidelines-hazelnut-supply-chain-turkey-0"
                             title="Guidelines for Eliminating Child and Forced Labor in Agricultural Supply Chains"
                         >
                             Guidelines for Eliminating Child and Forced Labor in
                             Agricultural Supply Chains
                         </a>
-                        &rdquo; in the hazelnut supply chain of Nestl&eacute;,
-                        Balsu, and Olam in Turkey. Implementation of the project
-                        began in 2016, and in 2018 the project will publish a
-                        report detailing lessons learned from this pilot-test
-                        and recommendations for other companies seeking to
-                        establish programs based on these Guidelines.
+                        &rdquo; dalam rantai bekalan kacang hazel Nestlé, Balsu, dan Olam di Turkey. Pelaksanaan projek bermula pada 2016. Projek 
+                        yang menghasilkan pandangan baru kepada pergerakan pekerja migran dan penglibatan mereka dalam rantai bekalan lain, seperti 
+                        gula dan buah-buahan sitrus, dan membantu perniagaan dan pembekal memahami tenaga buruh mereka dan menilai risiko dalam 
+                        bekalan mereka.   Tambahan pula, projek mengenal pasti pendekatan untuk memperkuatkan penglibatan dengan pekerja migran yang 
+                        terdedah kepada risiko, termasuk menggabungkan wanita dalam langkah campur tangan.   Pada 2018, projek menerbitkan laporan, {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.fairlabor.org/sites/default/files/documents/reports/harvesting_the_future_june_2018.pdf"
+                            title="Harvesting the Future"
+                        >
+                            Harvesting the Future
+                        </a>
+                        , yang memberi pelajaran terperinci dari ujian perintis tersebut dan saranan bagi syarikat-syarikat lain yang ingin menubuhkan 
+                        program berdasarkan garis panduan ini, projek {" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/sites/dolgov/files/ILAB/evaluation_type/final_evaluation/Turkey_FLA_feval.pdf"
+                            title="External Final Evaluation"
+                        >
+                            External Final Evaluation
+                        </a>
+                        {" "}
+                        yang dikendali bersama Jabatan Buruh AS.
                     </p>
                 </ExampleInAction>
                 <br />
-                <h2>Forced Labor/Trafficking in Persons</h2>
+                <h2>Buruh Paksa/ Pemerdagangan Manusia</h2>
                 <p>
-                    If the audit identifies forced labor/trafficking victims,
-                    responses can vary depending on the type and circumstances
-                    of the victim&rsquo;s situation.
+                    Sekiranya sesuatu perniagaan mengenal pasti buruh paksa/pemerdagangan manusia dalam rantai bekalannya, tindakan 
+                    berbeza bergantung kepada jenis dan keadaan mangsa.
                 </p>
                 <p>
-                    If auditors encounter, or if there are any reports of,
-                    egregious situations of forced labor/trafficking, such as
-                    worker confinement or physical or psychological abuse, these
-                    situations should be reported to law enforcement
-                    authorities. It is incumbent upon auditors, and other
-                    members of your social compliance team who may visit
-                    worksites, to be aware ahead of time of the appropriate law
-                    enforcement contacts.
+                    Sekiranya pengaudit menghadapi, atau kalau ada apa pun laporan, situasi buruh paksa/pemerdagangan yang buruk, seperti 
+                    pekerja dikurung atau penderaan fizikal atau psikologi, situasi ini harus dilaporkan kepada pihak penguatkuasa yang sah. 
+                    Wajar bagi pengaudit, dan anggota pasukan pematuhan sosial yang lain yang mungkin melawat tempat kerja, sedar terlebih 
+                    dahulu pihak yang patut dihubungi dalam penguatkuasa undang-undang yang berkenaan.
                 </p>
                 <p>
-                    At the same time, it is important to understand local law
-                    enforcement contexts. In environments where law enforcement
-                    officials may not be fully trained in handling egregious
-                    cases of abuse, auditors and other personnel should also be
-                    aware of victim services that are available&mdash;including
-                    healthcare, counseling, shelter, legal aid and other
-                    services&mdash;and be prepared to refer victims to such
-                    services.
+                    Pada masa yang sama, penting untuk memahami konteks penguatkuasa undang-undang tempatan. Dalam persekitaran di mana 
+                    penguatkuasa undang-undang tidak dilatih dengan cukup untuk menangani kes penderaan, pengaudit dan kakitangan lain 
+                    harus sedar tentang perkhidmatan mangsa yang wujud - termasuk kesihatan, kaunseling, tempat perlindungan, bantuan 
+                    undang-undang dan perkhidmatan lain - dan bersedia untuk merujuk mangsa kepada perkhidmatan tersebut.
                 </p>
                 <p>
-                    Pursuant to its{" "}
+                    Berkaitan dengan {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="http://www.unodc.org/unodc/en/frontpage/2010/September/un-launches-global-plan-of-action-against-human-trafficking.html"
-                        title="Global Plan of Action on Trafficking in Persons"
+                        title="Global Plan of Action to Trafficking in Persons"
                     >
-                        Global Plan of Action on Trafficking in Persons
+                        Global Plan of Action to Trafficking in Persons
                     </a>
-                    , the UN has developed a variety of tools on appropriate
-                    treatment of and services for forced labor/trafficking
-                    victims. Most are available in multiple languages.
-                    Recommended resources include:
+                    , PBB telah membentuk pelbagai alat untuk memberi layanan yang sesuai dan perkhidmatan bagi buruh paksa/mangsa pemerdagangan. 
+                    Banyak boleh didapati dalam pelbagai bahasa. Sumber yang disarankan termasuk:
                 </p>
                 <ul>
                     <li>
@@ -244,8 +202,7 @@ const ms = () => {
                             href="http://www.unodc.org/documents/human-trafficking/TIP_1st_AidKit_English_V0981429.pdf"
                             title="First Aid Kit for Use by Law Enforcement Responders in Addressing Human Trafficking"
                         >
-                            First Aid Kit for Use by Law Enforcement Responders
-                            in Addressing Human Trafficking
+                            First Aid Kit for Use by Law Enforcement First Responders in Addressing Human Trafficking
                         </a>
                     </li>
                     <li>
@@ -261,52 +218,32 @@ const ms = () => {
                     </li>
                 </ul>
                 <p>
-                    Debt bondage or other forms of financial entrapment are
-                    indicators of forced labor/trafficking, and also require a
-                    careful examination of all circumstances to determine the
-                    appropriate response. If it is found that workers are
-                    indebted because the supplier has been charging unreasonable
-                    costs for lodging, food or other expenses, the company
-                    should require that the supplier nullify the debt or reduce
-                    it to an amount that is reasonable for the goods and
-                    services provided. The situation becomes more egregious if
-                    the supplier has charged workers interest on these debts,
-                    and in such cases you will need to give serious
-                    consideration to the supplier&rsquo;s overall commitment to
-                    your social compliance requirements.
+                    Terperangkap dalam hutang atau perangkap kewangan yang lain menunjukkan buruh paksa/pemerdagangan wujud, dan juga memerlukan 
+                    pemeriksaan semua keadaan untuk menentukan tindakan yang sesuai. Sekiranya didapati pekerja berhutang sebab pembekal telah 
+                    mengenakan kos yang keterlaluan untuk tempat tinggal, makanan atau perbelanjaan yang lain, syarikat harus mendesak pembekal 
+                    supaya memansuhkan hutang atau mengurangkannya kepada kadar yang munasabah untuk produk dan perkhidmatan yang diberikan. 
+                    Situasi menjadi buruk apabila pembekal telah mengenakan pekerja kadar faedah ke atas hutang, dan dalam keadaan tersebut anda 
+                    patut memberikan pertimbangan serius kepada komitmen keseluruhan pembekal kepada keperluan yang dituntut dalam pematuhan 
+                    sosial anda.
                 </p>
                 <p>
-                    If it is found that workers owe debts to a recruiter or
-                    labor broker, further investigation may be necessary to
-                    determine whether the supplier was aware that the broker had
-                    charged these fees, or did not have a policy in place
-                    prohibiting brokers from charging fees. If the supplier was
-                    aware, or did not have a policy in place to actively deter
-                    such practices, the supplier should be held financially
-                    responsible for repaying fees to the workers. If the
-                    supplier was actively engaged in discouraging its brokers
-                    from charging workers a fee, and the broker did so but
-                    concealed this practice from the supplier, a company may
-                    consider taking steps to obtain reimbursement from the
-                    broker, or may simply choose to pay the fees to workers.
+                    Sekiranya didapati pekerja berhutang kepada perekrut atau broker buruh, siasatan lanjut mungkin diperlukan untuk menetapkan 
+                    sama ada pembekal sedar bahawa broker telah mengenakan yuran tersebut, atau tidak terdapat dasar melarang broker daripada 
+                    mengenakan yuran tersebut. Sekiranya pembekal sedar, atau tiada dasar untuk menghalang amalan tersebut, pembekal harus 
+                    dipertanggungjawabkan untuk membayar balik yuran tersebut kepada pekerja. Sekiranya pembekal terlibat secara aktif tidak 
+                    menggalakkan broker mengenakan yuran ke atas pekerja, dan broker berbuat demikian tetapi menyembunyikan amalan ini daripada 
+                    pembekal, syarikat mungkin boleh mengambil langkah untuk mendapat bayaran balik dari broker, atau membayar yuran tersebut 
+                    kepada pekerja.
                 </p>
                 <p>
-                    Audits may also uncover situations in which workers are
-                    forced to work overtime, with or without legal overtime pay.
-                    Regardless of pay, if workers are made to work long hours
-                    (beyond legal limits in the country) under the threat of
-                    penalty, this is a situation of forced labor. Remediation of
-                    these situations requires careful consideration, including
-                    with respect to how your own practices have affected the
-                    situation. Quick turn-around times and last-minute changes
-                    in specifications on the part of buyers frequently lead to
-                    situations of mandatory overtime. Companies should encourage
-                    suppliers to be honest if that cannot complete an order
-                    without violating the terms of the code of conduct, and
-                    companies should reward them rather than simply moving their
-                    business to another supplier. Refer to training for a
-                    company&rsquo;s employees for more information on avoiding
-                    these situations.
+                    Pengaudit juga boleh membongkar keadaan di mana pekerja dipaksa bekerja lebih masa, dengan atau tanpa gaji lebih masa yang 
+                    sah. Walaupun dengan gaji sekalipun, kalau pekerja disuruh kerja masa panjang (lebih daripada had yang sah di negara 
+                    berkenaan) di bawah ancaman akan dihukum, ini menunjukkan keadaan buruh paksa. Memperbaiki keadaan ini memerlukan 
+                    pertimbangan sebaiknya, termasuk bagaimana amalan anda telah memberi kesan kepada keadaan tersebut. Waktu kitaran yang 
+                    cepat dan perubahan saat terakhir oleh pembeli sering menyebabkan pekerja terpaksa bekerja lebih masa. Syarikat patut 
+                    menggalakkan pembekal supaya berterus terang sekiranya tidak boleh menyiapkan pesanan tanpa mencabul terma kod tingkah laku, 
+                    dan syarikat patut memberi rangsangan kepada pembekal dan sebaliknya, dengan tidak berpindah kepada pembekal lain. Rujuk 
+                    kepada latihan untuk pekerja syarikat untuk maklumat lanjut bagi mengelak keadaan seperti ini.
                 </p>
             </div>
         </StaticData>
