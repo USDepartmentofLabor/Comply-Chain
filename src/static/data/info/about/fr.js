@@ -7,8 +7,7 @@ const fr = () => {
         <StaticData>
             <div>
                 <h1>
-                    &Agrave; propos de l&rsquo;appli Cha&icirc;ne de
-                    conformit&eacute;
+                    À propos de l&apos;appli Comply Chain
                 </h1>
                 <p>
                     &Agrave; l&rsquo;&egrave;re de la mondialisation, la production de marchandises dans les pays &eacute;trangers 
@@ -300,7 +299,7 @@ const fr = () => {
                                 La premi&egrave;re &eacute;dition en ligne de R&eacute;duire le travail des enfants et le travail forc&eacute;: 
                                 bo&icirc;te &agrave; outils &agrave; l&rsquo;intention des entreprises responsables a &eacute;t&eacute; 
                                 publi&eacute;e en d&eacute;cembre 2012. En septembre 2017, l&rsquo;ILAB a lanc&eacute; la premi&egrave;re 
-                                version de l&rsquo;application mobile, rebaptis&eacute;e Cha&icirc;ne de conformit&eacute;, avant de la mettre 
+                                version de l&rsquo;application mobile, rebaptis&eacute;e Comply Chain, avant de la mettre
                                 &agrave; jour en 2018 avec des versions en fran&ccedil;ais et en espagnol. Le pr&eacute;sent remaniement de 
                                 2020 comprend des mises &agrave; jour suppl&eacute;mentaires et, pour la premi&egrave;re fois, propose 
                                 l&rsquo;appli en malais, langue commune du sud-est de l&rsquo;Asie parl&eacute;e &agrave; Brunei, en 
@@ -431,7 +430,7 @@ const fr = () => {
                     
                 <p>
                     Il vous est permis d&rsquo;inclure le contenu de cette appli dans vos propres documents; nous vous prions de 
-                    bien vouloir l&rsquo;attribuer &agrave; l&rsquo;appli Cha&icirc;ne de conformit&eacute; du d&eacute;partement 
+                    bien vouloir l&rsquo;attribuer &agrave; l&rsquo;appli Comply Chain du d&eacute;partement
                     du Travail des &Eacute;tats-Unis.
                 </p>
             </div>

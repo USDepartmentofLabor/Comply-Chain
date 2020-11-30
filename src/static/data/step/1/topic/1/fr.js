@@ -31,7 +31,7 @@ const fr = () => {
                     l’obligation de communiquer des informations relatives à leurs chaînes d&apos;approvisionnement. D’autres lois et réglementations ont été adoptées et promulguées
                     depuis, tant aux États-Unis que dans d’autres pays, pour renforcer les protections contre le travail des enfants et le travail forcé dans les chaînes d’approvisionnement.
                     En outre, un certain nombre de pays incorporent différentes dispositions sur le droit du travail dans leurs accords commerciaux. Ainsi, récemment,
-                    l’Accord États-Unis-Mexique-Canada (USMCA) comprend des normes pleinement applicables sur le travail, notamment en termes d’application de la législation concernant
+                    l&apos;Accord Canada-États-Unis-Mexique (ACEUM) [USMCA en anglais] comprend des normes pleinement applicables sur le travail, notamment en termes d’application de la législation concernant
                     le travail forcé et le travail des enfants. Il comprend également de nouvelles dispositions exigeant des parties qu’elles prennent des mesures visant à interdire
                     l’importation de biens issus du travail forcé, notamment le travail forcé des enfants, à s’attaquer aux problèmes de la violence à l’encontre des travailleurs qui
                     exercent leurs droits du travail et de la discrimination sexuelle sur le lieu de travail, et à veiller à ce que les travailleurs migrants soient protégés par la législation sur le travail.
@@ -66,7 +66,7 @@ const fr = () => {
                     <Accordion.Section id="law-order">
                             <Accordion.Title>
                                 <strong>
-                                D&eacute;cret ex&eacute;cutif&nbsp;13126,
+                                Décret présidentiel 13126,
                             Interdiction de l&apos;acquisition de produits issus
                             du travail forc&eacute; ou pour dette des enfants (Executive Order 13126, Prohibition of Acquisition of
                         Products Produced by Forced or Indentured Child Labor),
@@ -81,7 +81,7 @@ const fr = () => {
                             rel="noopener noreferrer"
                             href="https://www.gpo.gov/fdsys/pkg/FR-1999-06-16/pdf/99-15491.pdf"
                           >
-                            D&eacute;cret ex&eacute;cutif&nbsp;13126,
+                            Décret présidentiel 13126,
                             Interdiction de l&apos;acquisition de produits issus
                             du travail forc&eacute; ou pour dette des enfants
                         (Executive Order 13126, Prohibition of Acquisition of
@@ -108,7 +108,7 @@ const fr = () => {
                         <Accordion.Section id="exec-order">
                             <Accordion.Title>
                                 <strong>
-                                    D&eacute;cret ex&eacute;cutif&nbsp;13627,
+                                    Décret présidentiel 13627,
                                     Renforcement des protections contre la
                                     traite des personnes dans les contrats
                                     f&eacute;d&eacute;raux et mise en
@@ -137,8 +137,7 @@ const fr = () => {
                                         rel="noopener noreferrer"
                                         href="https://www.federalregister.gov/documents/2015/01/29/2015-01524/federal-acquisition-regulation-ending-trafficking-in-persons"
                                     >
-                                        D&eacute;cret
-                                        ex&eacute;cutif&nbsp;13627, Renforcement
+                                        Décret présidentiel 13627, Renforcement
                                         des protections contre la traite des
                                         personnes dans les contrats
                                         f&eacute;d&eacute;raux (Executive Order 13627 Strengthening
