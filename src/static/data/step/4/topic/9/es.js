@@ -346,6 +346,26 @@ const es = () => {
                     https://www.un.org/depts/los/convention_agreements/texts/unclos/convemar_es.pdf
                     </a>.
                     </p>
+                    <p>
+                    Fuente:&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf"
+                    >
+                    https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf
+                    </a>.
+                    </p>
+                    <p>
+                    Fuente:&nbsp;
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.fisheries.noaa.gov/international/seafood-import-monitoring-program"
+                    >
+                    https://www.fisheries.noaa.gov/international/seafood-import-monitoring-program
+                    </a>.
+                    </p>
                 </ExampleInAction>
                 <br />
                 <OwnWords>

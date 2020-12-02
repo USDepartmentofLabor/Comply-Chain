@@ -248,6 +248,20 @@ const es = () => {
                         .&nbsp;
                     </li>
                     <li>
+                    Jungk, Margaret, Chichester, Ouida y Fletcher, Chris. 2018. Informe “In Search of Justice: Pathways to Remedy at the Porgera Gold Mine”. BSR, San Francisco.
+                </li>
+                <li>
+                    U.S. International Development Finance Corporation. Environmental and Social Policy and Procedures, enero de 2020; disponible en idioma inglés solamente en{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
+                    >
+                        https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf
+                    </a>
+                    .
+                </li>
+                    <li>
                         Overseas Private Investment Corporation.{" "}
                         <em>
                             <em>Environmental and Social Policy Statement</em>,{" "}

@@ -140,9 +140,15 @@ const es = () => {
                     </ul>
                     </li>
                     </ul>
-                    <p>La organizaci&oacute;n de la sociedad civil Shift publica la 
-                        Base de datos para el informe de los Principios rectores de 
-                        las Naciones Unidas, en la que las empresas pueden presentar 
+                    <p>La organizaci&oacute;n de la sociedad civil Shift publica la{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.ungpreporting.org/reportingdatabase/"
+                        >
+                        Base de datos para el informe de los Principios rectores de
+                        las Naciones Unidas
+                        </a>, en la que las empresas pueden presentar
                         informaci&oacute;n de car&aacute;cter p&uacute;blico sobre la 
                         manera en que est&aacute;n aplicando los Principios rectores de 
                         las Naciones Unidas sobre Empresas y Derechos Humanos para ser 
@@ -246,7 +252,13 @@ const es = () => {
                             Workers Rights Consortium
                         </a>*,  
                             un grupo que vigila e investiga las condiciones de trabajo en f&aacute;bricas 
-                            de todo el mundo, durante una entrevista con The Atlantic en 2015.</p>
+                            de todo el mundo, durante una entrevista con{" "}
+                            <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.theatlantic.com/business/archive/2015/06/patagonia-labor-clothing-factory-exploitation/394658/"
+                            >
+                            The Atlantic en 2015</a>.</p>
                     </OwnWords>
                     <h2>M&eacute;trica para medir los avances</h2>
                     <p>La <strong>m&eacute;trica</strong> o los indicadores clave del 
