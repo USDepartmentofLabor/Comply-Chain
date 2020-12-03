@@ -12,7 +12,7 @@ const fr = () => {
                     L&rsquo;ILAB tient &agrave; jour une liste des biens et de leurs pays d&rsquo;origine dont il y a lieu 
                     de penser qu&rsquo;ils sont issus du travail des enfants ou du travail forc&eacute; des enfants en 
                     contravention des normes internationales, tel qu&rsquo;exig&eacute; par la Loi de r&eacute;autorisation 
-                    de la protection des victimes de la traite (TVPRA) de 2005 et ses r&eacute;autorisations. Au 30 septembre 2020,
+                    de la protection des victimes de la traite (TVPRA) de 2005 et ses r&eacute;autorisations ultérieures. Au 30 septembre 2020,
                     la Liste des biens produits par le travail des enfants ou du travail forcé comprend plus de 150 biens provenant de 77 pays ou régions.
                 </p>
 
