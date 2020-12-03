@@ -51,7 +51,7 @@ const en = () => {
                >
                Fair Factories Clearinghouse
                </a>
-            , which provide a platform for sharing information on
+            *, which provide a platform for sharing information on
             common suppliers and collaborating on monitoring and remediation efforts.
             </p>
             <p>
@@ -348,8 +348,15 @@ const en = () => {
                                               title="Environmental and Social Policy Statement 2020."
                                           >
                                               Environmental and Social Policy and Procedures
-                                          </a>, 2020 at https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf
-                                          </p>
+                                          </a>, 2020 at{" "}
+                                          <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
+                                                title="Environmental and Social Policy Statement 2020."
+                                            >
+                                          https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf
+                                          </a>.</p>
                                                           </OwnWords>
                <p>
                To get a sense for how this general approach can be applied in a particular sector,

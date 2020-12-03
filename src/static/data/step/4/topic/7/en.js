@@ -76,7 +76,7 @@ const en = () => {
                 <ExampleInAction id="Conflict_Free">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Example in Action</strong>: Responsible Minerals Initiative
+                        <strong>Example in Action</strong>: Responsible Minerals Initiative*
                     </h2>
                     <p>
                         For electronics companies, one of the key identified human rights and labor
@@ -107,7 +107,14 @@ const en = () => {
                         Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas
                     </p>
                     <p>
-                        Source: http://www.responsiblemineralsinitiative.org/.
+                        Source:{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.responsiblemineralsinitiative.org/"
+                        >
+                        http://www.responsiblemineralsinitiative.org/
+                        </a>.
                     </p>
                 </ExampleInAction>
                 <p>
@@ -159,7 +166,7 @@ const en = () => {
                        >
                        Responsible Mica Initiative
                        </a>
-                       , has made a commitment to remain in India and ensure the traceability and transparency of its supply chain.
+                       *, has made a commitment to remain in India and ensure the traceability and transparency of its supply chain.
                        L’Oréal believes that discontinuing the use of Indian mica would not be beneficial to workers or their families, and could further
                        exacerbate social and economic challenges.  In India, L’Oréal implements a sustainable procurement program that works with a limited
                        number of suppliers who commit to sourcing mica from legal, gated mines, where working conditions and human rights, including the
@@ -176,7 +183,14 @@ const en = () => {
                        &nbsp;and improve the living and working conditions of the region.
                     </p>
                     <p>
-                    Source: https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica.
+                    Source:{" "}
+                    <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica"
+                      >
+                    https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica
+                    </a>.
                     </p>
                 </ExampleInAction>
                 <p>

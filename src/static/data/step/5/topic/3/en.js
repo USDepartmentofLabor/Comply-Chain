@@ -243,7 +243,7 @@ const en = () => {
                         title="Verit&eacute;"
                     >
                         Verit&eacute;
-                    </a>{" "}
+                    </a>*{" "}
                     and the U.S. Department of State, the RST provides a set of
                     compliance-oriented resources and risk-management tools for
                     companies, federal contractors, procurement and contracting
@@ -381,7 +381,7 @@ const en = () => {
                                 <h4>
                                     <ExampleInAction.Icon alt="Lightbulb"/>
                                     <strong>
-                                        Example in Action: Primark’s Code of Conduct of 2019
+                                        Example in Action: Primark’s* Code of Conduct of 2019
                                     </strong>
                                 </h4>
                                         <p>

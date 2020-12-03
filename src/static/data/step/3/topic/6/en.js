@@ -78,7 +78,7 @@ const en = () => {
                 <ExampleInAction id="clt">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Example in Action: Goodweave</strong>
+                        <strong>Example in Action: Goodweave*</strong>
                     </h2>
 
                     <p>
@@ -136,7 +136,14 @@ const en = () => {
                                 Carpet Production in Afghanistan
                             </em>
                         </a>
-                        <em>, </em>implemented by GoodWeave, at https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan.
+                        <em>, </em>implemented by GoodWeave, at{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan"
+                        >
+                        https://www.dol.gov/agencies/ilab/project-prevent-child-labor-home-based-carpet-production-afghanistan
+                        </a>.
                     </p>
                     <img src={goodweave} alt="GoodWeave International" />
                     <p className="small-text">

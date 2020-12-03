@@ -221,6 +221,24 @@ const en = () => {
                                 gender and cultural attitudes about work and
                                 education.
                             </p>
+                            <h3>Child Labor Estimates</h3>
+                            <p>
+                                The ILO’s{" "}
+                                <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/publication/wcms_575499.pdf"
+                                    >
+                                Global Estimates of Child Labour
+                                </a>
+                                {" "}noted that in 2016, there were 152 million child laborers worldwide.
+                                Global child labor statistics are not yet available from 2016 onward.  Of the 152 million child laborers, the most
+                                recent estimates indicated that 70.4 percent are engaged in agriculture, 17.2 percent in services, and 11.9 percent in
+                                industry.  Regionally, Africa accounts for one-fifth of all children in child labor and the highest absolute number of
+                                children in child labor—72 million.  Behind Africa, the Asia and the Pacific region accounts for 7 percent of all children in
+                                child labor, 62 million in absolute terms.  The Americas, Europe and Central Asia, and the Arab States account for the remaining
+                                child labor with 11 million, 6 million, and 1 million children toiling in these perilous conditions, respectively.
+                            </p>
                             <p />
 
                             <Accordion >

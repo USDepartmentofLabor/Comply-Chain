@@ -78,7 +78,15 @@ const en = () => {
                         ongoing basis.
                     </p>
                     <p>
-                    Source: https://www.ilo.org/ipec/projects/global/WCMS_390400/lang--en/index.htm.
+                    Source:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ilo.org/ipec/projects/global/WCMS_390400/lang--en/index.htm"
+
+                    >
+                    https://www.ilo.org/ipec/projects/global/WCMS_390400/lang--en/index.htm
+                    </a>.
                     </p>
                 </ExampleInAction>
                 <br />
