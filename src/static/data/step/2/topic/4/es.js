@@ -12,7 +12,7 @@ const es = () => {
                                     Al igual que toda unidad empresarial exitosa, el equipo de gestión del cumplimiento social debe contar con sistemas de gestión integrados en
                                     los sistemas generales de la empresa, en lugar de aislarse del resto de las operaciones. Muchos elementos del sistema de gestión (como la evaluación
                                     de riesgos, los planes de comunicación, los sistemas de información, los mecanismos de reclamación y demanda, así como la verificación independiente)
-                                    son temas de esta aplicación y se analizan más a fondo en diferentes secciones.
+                                    son temas <b>de esta aplicación</b> y se analizan más a fondo en diferentes secciones.
                                 </p>
                                 <p>
                                     El punto de partida de la gestión de cualquier sistema o programa debe
@@ -89,7 +89,7 @@ const es = () => {
                                             Improvement
                                         </em>
                                     </a>
-                                    <em>,</em> publicada por el Pacto Mundial de las Naciones Unidas y BSR, publicación conocida anteriormente como <em>Business for Social Responsibility</em>.
+                                    <em>,</em> publicada por el Pacto Mundial de las Naciones Unidas y BSR, <b>publicación conocida anteriormente como <em>Business for Social Responsibility</em></b>.
                                 </p>
                                 <p>
                                     A nivel pr&aacute;ctico, el equipo de
