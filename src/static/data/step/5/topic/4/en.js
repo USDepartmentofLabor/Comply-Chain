@@ -160,7 +160,7 @@ const en = () => {
                             title="Institute for Human Rights and Business"
                         >
                             Institute for Human Rights and Business
-                        </a>{" "}
+                        </a>*{" "}
                         (IHRB), the Leadership Group calls for the Employer Pays
                         Principle to be embedded in corporate and government
                         policy and practice to protect migrant workers and
