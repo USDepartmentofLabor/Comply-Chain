@@ -88,11 +88,11 @@ const es = () => {
                 <ExampleInAction id="clt">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Ejemplo en acci&oacute;n: GoodWeave</strong>
+                        <strong>Ejemplo en acci&oacute;n: GoodWeave*</strong>
                     </h2>
 
                     <p>
-                        Desde hace m&aacute;s de 20 a&ntilde;os,{" "}
+                        Desde hace 25 años,{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -101,24 +101,15 @@ const es = () => {
                         >
                             GoodWeave
                         </a>{" "}
-                        trabaja para transformar la industria de las alfombras ya que fomenta en el
-                        mercado la demanda de tapetes exentos de trabajo infantil y ayuda a las empresas
-                        a atender dicha demanda. Los importadores y exportadores de tapetes que desean obtener
-                        la licencia de Goodweave y acceder al rótulo de Goodweave que ven los consumidores
-                        deben firmar un contrato vinculante para cumplir la rigurosa norma que fija GoodWeave
-                        a fin de certificar que los tapetes están fabricados sin trabajo infantil, trabajo forzoso
-                        ni trabajo en condiciones de servidumbre. Como parte del programa de certificación, las empresas
-                        acuerdan permitir que se realicen inspecciones sin previo aviso en sus cadenas de suministro para
-                        verificar el cumplimiento de la norma y garantizar que se rectifiquen las infracciones. Además, las
-                        empresas pagan un derecho de licencia y el dinero se destina a los programas de vigilancia, seguimiento
-                        e inspección que realiza GoodWeave en los lugares de trabajo, así como a la rehabilitación y los estudios
-                        de los niños víctimas de explotación. GoodWeave es miembro de pleno derecho de la Alianza Internacional de
-                        Acreditación y Etiquetado Social y Ambiental (ISEAL), asociación muy conocida por ser líder mundial en la
-                        fijación de las mejores prácticas para las normas de certificación. En los últimos años, GoodWeave amplió
-                        el alcance de su programa más allá de la industria de las alfombras en la India y llegó a nuevos sectores
-                        y países, como las fábricas de ladrillos de Nepal, las de indumentaria en la india y la fabricación casera
-                        de tapetes en Afganistán (este último mediante un proyecto financiado por el Departamento de Trabajo de los
-                        Estados Unidos).
+                        trabaja para poner fin al trabajo infantil en las cadenas mundiales de suministro. Goodweave fomenta la demanda en el mercado de tapetes y artículos
+                        textiles para el hogar fabricados sin trabajo infantil y ayuda a las empresas a suplir esa demanda. Los importadores y exportadores de tapetes que desean
+                        obtener la licencia de Goodweave y acceder al rótulo de Goodweave que ven los consumidores deben firmar un contrato vinculante para cumplir el riguroso
+                        estándar que fija GoodWeave para certificar que los tapetes están fabricados sin trabajo infantil, trabajo forzoso ni trabajo en condiciones de servidumbre.
+                        Como parte del programa de certificación, las empresas acuerdan permitir que se realicen inspecciones sin previo aviso en sus cadenas de suministro para verificar
+                        el cumplimiento de la norma y garantizar que se rectifiquen las infracciones. Además, las empresas pagan un derecho de licencia y el dinero se destina a los programas
+                        de vigilancia, seguimiento e inspección que realiza GoodWeave en los lugares de trabajo, así como a la rehabilitación y los estudios de los niños víctimas de explotación.
+                        GoodWeave es miembro de pleno derecho de la Alianza Internacional de Acreditación y Etiquetado Social y Ambiental (ISEAL), asociación muy conocida por ser líder mundial en
+                        la fijación de las mejores prácticas para las normas de certificación.
                     </p>
                     <p>
                         Con más de 170 marcas socias y un 25% de la participación del mercado internacional, GoodWeave logró transformar

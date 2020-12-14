@@ -9,21 +9,10 @@ const es = () => {
             <div>
                 <h1>Sistemas de gestión</h1>
                 <p>
-                                    Al igual que toda unidad empresarial
-                                    exitosa, el equipo de gesti&oacute;n del
-                                    cumplimiento social debe contar con sistemas
-                                    de gesti&oacute;n integrados en los sistemas
-                                    generales de la empresa, en lugar de
-                                    aislarse del resto de las operaciones.
-                                    Muchos elementos del sistema de
-                                    gesti&oacute;n (como la evaluaci&oacute;n de
-                                    riesgos, los planes de comunicaci&oacute;n,
-                                    los sistemas de informaci&oacute;n, los
-                                    mecanismos de reclamaci&oacute;n y demanda
-                                    as&iacute; como la verificaci&oacute;n
-                                    independiente) son temas de la presente
-                                    aplicaci&oacute;n y se analizan m&aacute;s a
-                                    fondo en diferentes secciones.
+                                    Al igual que toda unidad empresarial exitosa, el equipo de gestión del cumplimiento social debe contar con sistemas de gestión integrados en
+                                    los sistemas generales de la empresa, en lugar de aislarse del resto de las operaciones. Muchos elementos del sistema de gestión (como la evaluación
+                                    de riesgos, los planes de comunicación, los sistemas de información, los mecanismos de reclamación y demanda, así como la verificación independiente)
+                                    son temas <b>de esta aplicación</b> y se analizan más a fondo en diferentes secciones.
                                 </p>
                                 <p>
                                     El punto de partida de la gestión de cualquier sistema o programa debe
@@ -47,7 +36,7 @@ const es = () => {
                                     >
                                         Responsible Sourcing Tool
                                     </a>{" "}
-                                    (instrumento de abastecimiento responsable),
+                                    ,
                                     lanzado en 2016 por Verit&eacute; y el
                                     Departamento de Estado de los Estados
                                     Unidos, contiene un{" "}
@@ -100,8 +89,7 @@ const es = () => {
                                             Improvement
                                         </em>
                                     </a>
-                                    <em>,</em> publicada por el Pacto Mundial de
-                                    las Naciones Unidas y BSR.
+                                    <em>,</em> publicada por el Pacto Mundial de las Naciones Unidas y BSR, <b>publicación conocida anteriormente como <em>Business for Social Responsibility</em></b>.
                                 </p>
                                 <p>
                                     A nivel pr&aacute;ctico, el equipo de
@@ -140,11 +128,7 @@ const es = () => {
                                         <ExampleInAction.Icon alt="Lightbulb"/>
                                         <strong>
                                             Ejemplo en acci&oacute;n:
-                                            Responsible Business Alliance (RBA)
-                                            (antes conocida como Electronics
-                                            Industry Citizenship Coalition)
-                                            (EICC) Código de conducta - Sistemas
-                                            de Gestión
+                                            Código de conducta, Sistemas de gestión de la Responsible Business Alliance (RBA) (anteriormente conocida como Coalición Ciudadana de la Industria Electrónica o EICC)
                                         </strong>
                                     </h4>
 

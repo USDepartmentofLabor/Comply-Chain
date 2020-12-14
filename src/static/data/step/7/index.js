@@ -59,7 +59,7 @@ export const StepData = {
         // extraInfo: ExtraInfo.es
     },
     fr: {
-        title: "Étape 5: Surveiller la conformité",
+        title: "Cinquième étape: Surveiller la conformité",
         topics: Topics.fr,
         keywords: ["Audit social", "Surveillance", "Contrôle"],
         learningObjectives: [

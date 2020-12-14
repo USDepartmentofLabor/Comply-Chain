@@ -95,7 +95,7 @@ const fr = () => {
                     </h2>
 
                     <p>
-                        Depuis plus de 20 ans,{" "}
+                        Depuis 25 ans,{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -104,25 +104,15 @@ const fr = () => {
                         >
                             GoodWeave
                         </a>{" "}
-                        travaille à la transformation de l’industrie du tapis en encourageant
-                        la demande de tapis libre de travail des enfants et en aidant les entreprises
-                        à y répondre. Les importateurs et exportateurs de tapis qui souhaitent être agréés
-                        par GoodWeave et obtenir l’estampille GoodWeave d’information des consommateurs
-                        doivent signer un contrat à caractère exécutoire de respect de la norme rigoureuse
-                        de GoodWeave concernant la certification de fabrication de tapis sans recours au
-                        travail des enfants, au travail forcé et au travail en servitude. Dans le cadre du
-                        programme de certification, les entreprises conviennent d’autoriser les inspections
-                        inopinées de leurs chaînes d’approvisionnement afin de vérifier la conformité à la
-                        norme et d’assurer la réparation des violations. Elles s’acquittent également de
-                        redevances qui soutiennent les programmes de GoodWeave de surveillance et d’inspection
-                        des lieux de travail et de réinsertion et d’éducation des enfants en situation d’exploitation.
-                        GoodWeave est membre de plein droit de l’Alliance internationale pour l&apos;accréditation et
-                        l&apos;étiquetage sociaux et environnementaux (ISEAL Alliance), association largement reconnue
-                        comme chef de file de la mise en place des bonnes pratiques pour les normes de certification.
-                        Ces dernières années, GoodWeave a étendu la portée de son programme au-delà de l’industrie des
-                        tapis en Inde pour toucher de nouveaux secteurs et de nouveaux pays, notamment les fours à brique au
-                        Népal, les usines de confection en Inde et, par le biais d’un projet financé par le département du
-                        Travail des États-Unis, la production de tapis à domicile en Afghanistan.
+                        œuvre à l’élimination du travail des enfants dans les chaînes d&apos;approvisionnement mondiales. GoodWeave encourage la demande sur le marché
+                        de tapis et de linge de maison certifiés sans recours au travail des enfants et aide les entreprises à répondre à cette demande. Les importateurs et
+                        exportateurs qui souhaitent être agréés par GoodWeave et obtenir l’estampille GoodWeave d’information des consommateurs doivent signer un contrat à
+                        caractère exécutoire de respect de la norme rigoureuse de GoodWeave concernant la certification de fabrication de produits sans recours au travail des
+                        enfants, au travail forcé et au travail en servitude. Dans le cadre du programme de certification, les entreprises conviennent d’autoriser les inspections
+                        inopinées de leurs chaînes d’approvisionnement afin de vérifier la conformité à la norme et d’assurer la réparation des violations. Elles s’acquittent également
+                        de redevances qui soutiennent les programmes de GoodWeave de surveillance et d’inspection des lieux de travail et de réinsertion et d’éducation des enfants en
+                        situation d’exploitation. GoodWeave est membre de plein droit de l’Alliance internationale pour l&apos;accréditation et l&apos;étiquetage sociaux et environnementaux
+                        (ISEAL Alliance), association largement reconnue comme chef de file de la mise en place des bonnes pratiques pour les normes de certification.
                     </p>
                     <p>
                     Avec plus de 170 marques partenaires et 25 % de la part de marché internationale, GoodWeave a transformé

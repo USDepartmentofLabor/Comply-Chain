@@ -5,18 +5,16 @@ const fr = () => {
     return (
                    <StaticData>
                        <div>
-                           <h1>Liste des produits issus du travail forcé ou du travail pour dette des enfants</h1>
+                           <h1>Liste des produits issus du travail forcé ou de la servitude pour dettes des enfants</h1>
                            <p>
-                               L&rsquo;ILAB tient &agrave; jour une liste de produits et leurs pays d&rsquo;origine dont il y a 
-                               lieu de penser qu&rsquo;ils sont produits par le travail forc&eacute; ou le travail pour dette des 
-                               enfants, comme l&rsquo;exige le{" "}
+                               L&apos;LAB tient à jour une liste des biens et de leurs pays d&apos;origine dont il ya lieu de penser qu&apos;ils sont issus du travail forcé ou de la servitude pour dettes des enfants, comme l&apos;exige le{" "}
                                <a
                                target="_blank"
                                rel="noopener noreferrer"
                                href="https://www.dol.gov/agencies/ilab/about/laws"
                                title="D&eacute;cret ex&eacute;cutif 13126"
                                >
-                               D&eacute;cret ex&eacute;cutif 13126
+                               décret présidentiel 13126
                                </a> 
                                . 
                                Cette liste a pour vocation de s&rsquo;assurer que les organismes f&eacute;d&eacute;raux am&eacute;ricains 
@@ -28,7 +26,7 @@ const fr = () => {
                             </p>
 
                             <p>
-                                Le d&eacute;partement du Travail, en consultation avec le d&eacute;partement d'&Eacute;tat et le 
+                                Le d&eacute;partement du Travail, en consultation avec le d&eacute;partement d&apos;&Eacute;tat et le
                                 d&eacute;partement de la S&eacute;curit&eacute; territoriale, publie cette liste et la met &agrave; jour. 
                                 L&rsquo;ILAB a publi&eacute; la premi&egrave;re liste en 2001 et l&rsquo;a r&eacute;vis&eacute;e plusieurs 
                                 fois depuis. Au 25 mars 2019, elle comprend 34 produits provenant de 25 pays. Cette liste est mandat&eacute;e par le{" "}
@@ -38,7 +36,7 @@ const fr = () => {
                                href="https://www.dol.gov/ilab/about/laws/#eo13126"
                                title="D&eacute;cret ex&eacute;cutif 13126"
                                >
-                               D&eacute;cret ex&eacute;cutif 13126
+                               décret présidentiel 13126
                                </a>
                                 , &laquo; Interdiction d&rsquo;acquisition de produits issus du travail forc&eacute; ou du travail pour dette 
                                 des enfants &raquo;. Les exigences en mati&egrave;re d&rsquo;achat concernant les produits figurant sur cette 

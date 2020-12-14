@@ -22,7 +22,7 @@ const en = () => {
                     risk assessment should be built into those processes. This
                     is addressed further in the next section,{" "}
                     <em>
-                        <u>Risk and Impact Information Gathering</u>
+                        <Link to="/steps/4/topic/5">Risk and Impact Information Gathering</Link>
                     </em>
                     . The assessment should involve identifying people or groups
                     who may be affected by your business activities and

@@ -6,7 +6,7 @@ const es = () => {
     return (
         <StaticData>
             <div>
-                <h1>Participaci&oacute;n de los interesados</h1>
+                <h1>Participación de las partes interesadas</h1>
                <p>
                                    La lista que se presenta a continuación no es exhaustiva y
                                    las empresas deben prestar especial atención a la manera en
@@ -274,11 +274,7 @@ const es = () => {
                                 seg&uacute;n corresponda.
                             </li>
                             <li>
-                                Ofrecen conocimientos especializados sobre
-                                enfoques para la
-                                <strong> remediaci&oacute;n</strong>, como los
-                                derechos de ni&ntilde;os, situaciones de
-                                explotaci&oacute;n y otras cuestiones.
+                                Ofrecen conocimientos especializados <strong>en</strong> enfoques de remediación, como los derechos de los niños, situaciones de <strong>abuso</strong> y otras <strong>problemáticas</strong>.
                             </li>
                             <li>
                                 Contribuyen u ofrecen comentarios para los{" "}
@@ -432,17 +428,9 @@ const es = () => {
                     <h3>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Ejemplo en acci&oacute;n: Participaci&oacute;n del
-                            gobierno
+                            Ejemplo en acción: La “lista sucia” de Brasil y el Instituto del Pacto Nacional para la Erradicación del Trabajo Esclavo
                         </strong>
                     </h3>
-                    <p>
-                        <strong>
-                            La &ldquo;lista sucia&rdquo; de Brasil y el
-                            Instituto del Pacto Nacional para la
-                            Erradicaci&oacute;n del Trabajo Esclavo
-                        </strong>
-                    </p>
                     <p>
                         El gobierno de Brasil publica un registro de empleadores{" "}
                         <em>(</em>

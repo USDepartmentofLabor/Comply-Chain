@@ -142,7 +142,15 @@ const en = () => {
                                             United Nations Guiding Principles on
                                             Human Rights and Business
                                         </a>
-                                        <em>, </em>2011 available from http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf.
+                                        <em>, </em>2011 available from{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+                                            title="United Nations Guiding Principles on Human Rights and Business"
+                                        >
+                                        http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf
+                                        </a>.
                                     </p>
                                     <p>
                                         <em>
@@ -181,7 +189,15 @@ const en = () => {
                                             OECD Guidelines for Multinational
                                             Enterprises
                                         </a>
-                                        <em>, </em>2011 available from http://www.oecd.org/corporate/mne/.
+                                        <em>, </em>2011 available from{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.oecd.org/corporate/mne/"
+                                            title="OECD Guidelines for Multinational Enterprises 2011"
+                                        >
+                                        http://www.oecd.org/corporate/mne/
+                                        </a>.
                                     </p>
                                     <p>
                                         <em>
@@ -227,7 +243,15 @@ const en = () => {
                                         >
                                             IFC Performance Standard 2
                                         </a>
-                                        <em>,</em> 2012. available from http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2.
+                                        <em>,</em> 2012. available from{" "}
+                                        <a
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            href="http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2"
+                                            title="IFC Performance Standard 2"
+                                        >
+                                        http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2
+                                        </a>.
                                     </p>
                                 </OwnWords>
                 <p>
