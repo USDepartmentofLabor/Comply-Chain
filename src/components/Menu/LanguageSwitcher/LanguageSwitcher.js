@@ -55,6 +55,7 @@ class LanguageSwitcher extends Component {
         }
         localizor.setLanguage(lang);
         this.setState({ currentLanguage: lang });
+        document.documentElement.lang = lang;
     };
     render() {
         const { localizor } = this.props;
@@ -72,6 +73,7 @@ class LanguageSwitcher extends Component {
                     id="es-btn"
                     onClick={() => {
                         // window.alert("THIS FEATURE IS COMING SOON");
+
                         this.handleLanguageChange("es");
                     }}
                 >
