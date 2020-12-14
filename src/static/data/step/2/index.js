@@ -27,7 +27,7 @@ export const StepData = {
             {
                 termName: "Supply Chain",
                 termDefinition:
-                    "The chain—or network—that is comprised of all organizations and individuals involved in producing, processing, trading, transporting and/or distributing a product or commodity from its point of origin to the company and/or to the final retailer.  For examples of various supply chains, please refer to Supply Chain Mapping in Step 2: Assess Risks and Impacts. "
+                    "The chain—or network—that is comprised of all organizations and individuals involved in producing, processing, trading, transporting and/or distributing a product or commodity from its point of origin to the company and/or to the final retailer.  For examples of various supply chains, please refer to Supply Chain Mapping in Step 2: Assess Risks and Impacts"
             },
         ],
         furtherResources: Resources.en
@@ -38,7 +38,7 @@ export const StepData = {
         keywords: ["Responsabilidad social empresarial (RSE)", "Sistema de cumplimiento social", "Cadena de suministro"],
         learningObjectives: [
             "Comprender los componentes clave de un sistema de cumplimiento social y cómo encajan.",
-            "Familiarizarse de los programas de cumplimiento social de la industria y de otras industrias que podrían estar a su disposición.",
+            "Familiarizarse con los programas de cumplimiento social de la industria y de otras industrias que podrían estar a su disposición.",
             "Comenzar a definir el alcance de su sistema de cumplimiento social.",
             "Comprender los requisitos de personal para conformar un equipo de cumplimiento social sólido.",
             "Reconocer los sistemas de gestión que marcarán el éxito de su sistema de cumplimiento social."

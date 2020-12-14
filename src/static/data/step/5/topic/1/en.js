@@ -38,7 +38,7 @@ const en = () => {
                         <h4>
                             <ExampleInAction.Icon alt="Lightbulb"/>
                             <strong>
-                                Example in Action: Danone and IUF
+                                Example in Action: Danone* and IUF*
                             </strong>
                         </h4>
                                 <p>
@@ -88,8 +88,8 @@ const en = () => {
                         title="IndustriALL"
                     >
                         IndustriALL
-                    </a>{" "}
-                    and apparel retailer Hennes &amp; Mauritz, covering 1.6
+                    </a>*{" "}
+                    and apparel retailer Hennes &amp; Mauritz(H&M)*, covering 1.6
                     million garment workers. The agreement promotes collective
                     bargaining agreements at the company and factory levels,
                     gives workers the explicit right to refuse unsafe work,

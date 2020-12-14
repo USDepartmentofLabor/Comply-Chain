@@ -39,7 +39,7 @@ const en = () => {
                 <ExampleInAction id="patagonia">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        Example in Action: Patagonia&rsquo;s Migrant Worker
+                        Example in Action: Patagonia&rsquo;s* Migrant Worker
                         Standards
                     </h2>
                     <p>
@@ -139,7 +139,7 @@ const en = () => {
                             title="Leadership Group for Responsible Recruitment"
                         >
                             Leadership Group for Responsible Recruitment
-                        </a>{" "}
+                        </a>*{" "}
                         is a collaboration between several large multinational
                         companies and expert organizations to drive positive
                         change in the way that migrant workers are recruited.
@@ -160,7 +160,7 @@ const en = () => {
                             title="Institute for Human Rights and Business"
                         >
                             Institute for Human Rights and Business
-                        </a>{" "}
+                        </a>*{" "}
                         (IHRB), the Leadership Group calls for the Employer Pays
                         Principle to be embedded in corporate and government
                         policy and practice to protect migrant workers and

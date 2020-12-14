@@ -76,7 +76,7 @@ export const Info = {
     },
     fr: {
         about: {
-            title: "À propos de l’appli Chaîne de conformité",
+            title: "À propos de l'appli Comply Chain",
             keywords: ["Travail des enfants", "Travail forcé"],
             content: About.fr
         },
@@ -91,19 +91,19 @@ export const Info = {
             content: KeyResources.fr
         },
         findings: {
-            title: "Conclusions concernant le rapport sur les pires formes de travail des enfants",
+            title: "Conclusions sur les pires formes de travail des enfants",
             keywords: [],
             content: Findings.fr
         },
         goods: {
             title:
-                "Rapport sur la liste des biens issus du travail des enfants ou du travail forcé des enfants",
+                "Liste des biens produits par le travail des enfants ou le travail forcé",
             keywords: [],
             content: Goods.fr
         },
         indenturedProductList: {
              title:
-             "Liste des produits issus du travail forcé ou du travail pour dette des enfants",
+             "Liste des produits issus du travail forcé ou de la servitude pour dettes des enfants",
               keywords: [],
               content: IndenturedProductList.fr
                  }

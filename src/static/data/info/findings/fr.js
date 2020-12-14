@@ -5,7 +5,7 @@ const fr = () => {
     return (
         <StaticData>
             <div>
-                <h1>Conclusions concernant le rapport sur les pires formes de travail des enfants</h1>
+                <h1>Conclusions sur les pires formes de travail des enfants</h1>
                 
                 <p>
                     Tous les ans, les <em>Conclusions du d&eacute;partement du Travail des &Eacute;tats-Unis sur les pires 

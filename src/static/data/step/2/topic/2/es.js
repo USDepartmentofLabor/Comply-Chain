@@ -219,10 +219,9 @@ const es = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="http://www.ethicaltrade.org/node/1650"
-                                        title="recursos para un comercio &eacute;tico"
+                                        href="www.ethicaltrade.org/node/1650"
                                     >
-                                        compendio de instrumentos de la ETI
+                                        kit de herramientas de la ETI
                                     </a>
                                     .
                                 </p>

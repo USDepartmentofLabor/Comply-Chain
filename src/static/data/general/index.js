@@ -122,7 +122,7 @@ export const General = {
         searchResultsFor: "Résultats de recherche pour",
         bookmarks: "Signet",
         share: "Partager",
-        about: "Sur",
+        about: "À propos",
         continueReading: "Continuer à lire",
         english: "Anglais",
         spanish: "Espagnol",

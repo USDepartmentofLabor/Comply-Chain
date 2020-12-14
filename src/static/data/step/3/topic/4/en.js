@@ -31,7 +31,7 @@ const en = () => {
                             href="http://www.sourcingnetwork.org/"
                             title="Responsible Sourcing Network"
                         >
-                            Responsible Sourcing Network
+                            Responsible Sourcing Network*
                         </a>{" "}
                         (RSN) is a project dedicated to ending human rights
                         abuses, including forced labor and forced child labor,
@@ -64,7 +64,15 @@ const en = () => {
                         .
                     </p>
                     <p>
-                    Source: http://www.sourcingnetwork.org/.
+                    Source:{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="http://www.sourcingnetwork.org/the-cotton-pledge"
+                        title="production of cotton in Uzbekistan"
+                    >
+                    http://www.sourcingnetwork.org/
+                    </a>.
                     </p>
                 </ExampleInAction>
                 <br />
@@ -73,7 +81,7 @@ const en = () => {
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Example in Action: Public-Private Alliance for
-                            Responsible Minerals Trade{" "}
+                            Responsible Minerals Trade*{" "}
                         </strong>
                     </h2>
                     <p>
@@ -115,7 +123,14 @@ const en = () => {
                         out by the multi-stakeholder group.
                     </p>
                     <p>
-                        Source: http://www.resolv.org/site-ppa/
+                        Source:{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://www.resolv.org/site-ppa/"
+                        >
+                        http://www.resolv.org/site-ppa/
+                        </a>
                     </p>
                 </ExampleInAction>
                 <br />
@@ -158,7 +173,7 @@ const en = () => {
                         >
                             World Vision
                         </a>
-                        , worked to mobilize the private sector and foster
+                        *, worked to mobilize the private sector and foster
                         partnerships between government, industry, and community
                         stakeholders. These collaborative efforts resulted in a
                         broad range of activities, including the following:
@@ -201,7 +216,15 @@ const en = () => {
                         </li>
                     </ul>
                     <p>
-                        Source: https://www.dol.gov/agencies/ilab/abk3-leap-livelihoods-education-advocacy.
+                        Source:{" "}
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.dol.gov/agencies/ilab/abk3-leap-livelihoods-education-advocacy"
+
+                        >
+                        https://www.dol.gov/agencies/ilab/abk3-leap-livelihoods-education-advocacy
+                        </a>.
                     </p>
                 </ExampleInAction>
                 <br />
@@ -209,7 +232,7 @@ const en = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Palm Oil Innovation Group
+                            Example in Action: Palm Oil Innovation Group*
                         </strong>
                     </h2>
                     <p>
@@ -270,7 +293,13 @@ const en = () => {
                         continue to increase rapidly.
                     </p>
                     <p>
-                    Source: http://poig.org/
+                    Source:{" "}
+                    <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="http://poig.org/"
+                        >
+                    http://poig.org/</a>
                     </p>
                 </ExampleInAction>
                 <br />

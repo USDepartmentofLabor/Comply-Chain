@@ -98,7 +98,15 @@ const en = () => {
                                         </em>
                                     </a>
                                     <em>,</em> published by the United Nations
-                                    Global Compact and BSR, formerly Business for Social Responsibility.
+                                    Global Compact and BSR, formerly{" "}
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.bsr.org/en/"
+                                        title="Business for Social Responsibility"
+                                    >
+                                    Business for Social Responsibility
+                                    </a>.
                                 </p>
                                 <p>
                                     At a practical level, the management team
@@ -140,7 +148,10 @@ const en = () => {
 
                                     <p>
 
-                                        Available from http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_English.pdf.
+                                        “Participants shall adopt or establish a management system whose scope is related to the content of this Code.
+                                        The management system shall be designed to ensure: (a) compliance with applicable laws, regulations and customer
+                                        requirements related to the participant’s operations and products; (b) conformance with this Code; and (c) identification
+                                        and mitigation of operational risks related to this Code.  It should also facilitate continual improvement.
                                         </p>
                                         <p>
                                         <em>Excerpted from </em>
@@ -154,6 +165,15 @@ const en = () => {
                                                 Responsible Business Alliance
                                                 Code of Conduct v. 6.0 (2018)
                                             </em></a>
+                                            {" "}available from{" "}
+                                            <a
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                href=" http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_English.pdf"
+                                                title="RBA Code of Conduct v. 6.0 (2018)"
+                                            >
+                                            http://www.responsiblebusiness.org/media/docs/RBACodeofConduct6.0_English.pdf
+                                            </a>.
                                     </p>
 
                                 </ExampleInAction>

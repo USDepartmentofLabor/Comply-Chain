@@ -35,8 +35,16 @@ const en = () => {
                 forced into work through false promises or threats.
             </p>
             <p>
-                This app was created by the U.S. Department of Labor's (DOL)
-                Bureau of International Labor Affairs (ILAB). ILAB promotes a
+                This app was created by the U.S. Department of Labor&apos;s (DOL){" "}
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods/"
+                    title="List of Goods Produced by Child Labor or Forced Labor"
+                >
+                Bureau of International Labor Affairs
+                 </a>
+                 {" "}(ILAB). ILAB promotes a
                 fair global playing field for workers in the United States and
                 around the world by enforcing trade commitments; strengthening
                 labor standards; and combating international child labor, forced

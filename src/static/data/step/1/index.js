@@ -23,10 +23,10 @@ export const StepData = {
         topics: Topics.es,
         // keywords: ["Stakeholder", "Community"],
         learningObjectives: [
-            "L'abolition du travail des enfants et du travail forcé et l'éducation des enfants constituent des responsabilités fondamentales de l'État.",
-            "Les programmes de conformité sociale des entreprises permettent de combler des lacunes critiques lorsque les gouvernements n'ont pas encore acquis des capacités intégrales et, comme expliqué ci-dessous, ces programmes remplissent d'autres responsabilités et objectifs essentiels.",
-            "Parallèlement, ils ne sauraient remplacer une action énergique des pouvoirs publics pour la protection des enfants et des travailleurs, et ne devraient pas être considérés comme pouvant se substituer de façon suffisante aux responsabilités des gouvernements.",
-            "Les entreprises ont diverses motivations pour la mise en œuvre de systèmes de conformité sociale, notamment les suivantes."
+            "La erradicación del trabajo infantil y el trabajo forzoso, así como la educación de los niños, son responsabilidades fundamentales de los gobiernos.",
+            " Los programas de cumplimiento social de las empresas pueden ayudar a subsanar deficiencias críticas en ámbitos en que los gobiernos aún no lograron la capacidad plena y, como se esboza a continuación, tienen otras responsabilidades y objetivos importantes.",
+            " Al mismo tiempo, no son sustitutivos de acciones contundentes de los gobiernos para proteger a niños y trabajadores y no deben considerarse sustitutos adecuados de las responsabilidades de los gobiernos.",
+            "Las empresas poseen un abanico de motivaciones para implementar los sistemas de cumplimiento social. A continuación, se mencionan algunos ejemplos."
         ],
         keyTerms: [
             "Some text"

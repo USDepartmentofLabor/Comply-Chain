@@ -56,7 +56,7 @@ export const Topics = {
         },
           {
               keywords: [],
-              title: "Notificar la participaci&oacute;n",
+              title: "Notificar la participación",
               content: Topic5.es
           }
     ],
