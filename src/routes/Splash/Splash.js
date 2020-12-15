@@ -91,6 +91,7 @@ class Splash extends Component {
         localizor.setLanguage(lang);
         storage.splash.markSplashComplete();
         onComplete();
+        document.documentElement.lang = lang;
     };
 
     render() {
