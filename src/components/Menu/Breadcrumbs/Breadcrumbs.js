@@ -16,7 +16,7 @@ Breadcrumb.Section = styled.span`
     font-size: 18px;
     color: #0275d8;
     text-decoration: none;
-    margin-left: 5px;
+    margin: 30px 0px 50px 5px;
 
     &:hover {
         text-decoration: underline;
@@ -39,11 +39,18 @@ const StyledLink = styled(NavLink)`
         text-decoration: none;
     }
 `;
+
 const Icon = styled.span`
     vertical-align: middle;
     color: ${theme.colors.primaryAltDarkest};
     font-size: 1.25em;
 `;
+
+const h1style = {
+      padding: "5px",
+      fontFamily: "Source Sans Pro",
+      margin: "-30px 0px 0px 5px"
+    };
 
 class Breadcrumbs extends Component {
     displayBreadcrumb = breadcrumbs => {
@@ -62,7 +69,7 @@ class Breadcrumbs extends Component {
                             as={StyledLink}
                             to={breadcrumb.props.match.url}
                         >
-                            Comply Chain
+                            <h1 style={h1style}>Comply Chain</h1>
                         </Breadcrumb.Section>
                     );
                 }
