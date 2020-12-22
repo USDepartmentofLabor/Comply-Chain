@@ -87,8 +87,7 @@ const en = () => {
                                 Sustainable Development Goals
                             </a>{" "}
                             (SDGs), satu set matlamat berjumlah tujuh belas tujuan yang saling berkaitan dan saling memperkuatkan bagi pembangunan global dalam 15 tahun akan datang. Dalam setiap SDGs, sasaran khusus telah ditetapkan yang
-                            sangat penting untuk mencapai matlamat pada 2030. Di bawah SDG 8 mengenai Pekerjaan yang Layak dan Perkembangan Ekonomi, Sasaran 8.7 meminta pemerintah untuk:
-{" "}
+                            sangat penting untuk mencapai matlamat pada 2030. Di bawah{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -97,8 +96,9 @@ const en = () => {
                             >
                                 SDG 8
                             </a>{" "}
-                            on Decent Work and Economic Growth, Target 8.7 calls
-                            on governments to:
+
+                            mengenai Pekerjaan yang Layak dan Perkembangan Ekonomi, Sasaran 8.7 meminta pemerintah untuk:
+
                         </p>
                         <p className="indent-margin">
                             “Mengambil langkah segera dan berkesan untuk membasmi buruh paksa, hentikan perhambaan moden dan perdagangan manusia dan pastikan buruh kanak-kanak yang begitu kejam dihapuskan, termasuk pengambilan dan mengguna askar
@@ -288,12 +288,7 @@ const en = () => {
                    <em> Rujukan kepada syarikat tertentu dan entiti bukan kerajaan dalam panduan ini hanya untuk tujuan memberi maklumat bagi menunjukkan amalan terbaik yang telah diperakui di peringkat antarabangsa , sejak aplikasi dikeluarkan. Merujuk kepada entiti tidak patut ditafsirkan sebagai sokongan rasmi kepada entiti tersebut,
                    produk atau perkhidmatan mereka oleh Jabatan Buruh AS dan penyertaan mereka tidak boleh ditafsirkan sebagai tinjauan komprehensif mengenai amalan entiti ini di dalam semua bidang.{" "}
                 </em>
-                <em>
-                    and their inclusion should not be interpreted as a
-                    comprehensive review of these entities&rsquo; practices in
-                    all areas
-                </em>
-                <em>.</em>
+
             </p>
             <p>
                 <em>

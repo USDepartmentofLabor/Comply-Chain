@@ -6,7 +6,7 @@ const ms = () => {
             <div>
                 <ol>
                     <li>
-                    1.	Pertubuhan Bangsa-Bangsa Bersatu. {" "}
+                    Pertubuhan Bangsa-Bangsa Bersatu. {" "}
                         <em>
                         Tanggungjawab Korporat untuk Menghormati Hak Asasi Manusia: Panduan Interpretasi:{" "}
                         </em>

@@ -61,6 +61,7 @@ const ms = () => {
                     bidang keperluan dan peluang untuk pengembangan teknologi lebih lanjut. 
                 </p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction id="grievprocedure">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -136,16 +137,12 @@ const ms = () => {
                     </a>{""}.
                 </p>
                 </ExampleInAction>
+                <br />
                 <OwnWords>
                     <h2>
                         <OwnWords.Icon alt="Feedback"/> <strong>Dengan Kata-kata Mereka Sendiri: Menubuhkan Mekanisme Rungutan yang Berkesan</strong>
                         {": "}
                     </h2>
-                    <p>
-                        <strong>
-                            Establishing Effective Grievance Mechanisms
-                        </strong>
-                    </p>
                     <p>
                         <em>
                             &ldquo;Mekanisme rungutan peringkat operasi bagi mereka yang terjejas oleh aktiviti pengusaha boleh menjadi kaedah 

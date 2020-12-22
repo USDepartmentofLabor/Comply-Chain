@@ -526,7 +526,6 @@ const en = () => {
                                     >
                                     Modern Slavery Act 2018
                                     </a>
-                                    (Act) came into force.
                                     Australia berkuatkuasa. Akta memerlukan entiti yang berpangkalan atau beroperasi di Australia,
                                     yang mempunyai pendapatan sebanyak lebih AUD$100 juta untuk melaporkan risiko perhambaan moden
                                     dalam operasi mereka dan rantai bekalan dan tindakan yang diambil untuk menangani risiko dalam

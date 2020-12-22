@@ -127,7 +127,7 @@ const ms = () => {
                             Contoh dalam Tindakan: Laporan hak asasi syarikat Jepun dilancarkan
                     </h2>
                     <p>
-                    In 2018, {" "}
+                    Pada 2018, {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

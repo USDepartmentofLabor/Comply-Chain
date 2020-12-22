@@ -332,8 +332,8 @@ const ms = () => {
                     </Accordion.Title>
                     <Accordion.Panel>
                     <p>
-                        Mendapat akses kepada perekrut atau broker untuk temu duga boleh menjadi cabaran, dan mungkin memerlukan koordinasi dan 
-                        kerjasama pembekal. Verit&eacute;&rsquo;s*{" "}
+                        Untuk syarikat dengan jumlah ramai pekerja migran dan kontrak dalam rantai bekalan, ada semakin banyak pergerakan terhadap menemu duga perekrut buruh dan buruh sebagai sebahagian proses audit.
+                        Verit&eacute;&rsquo;s*{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

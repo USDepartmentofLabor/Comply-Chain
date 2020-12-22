@@ -75,12 +75,7 @@ const en = () => {
                                     entiti tersebut, produk atau perkhidmatan mereka oleh Jabatan Buruh AS dan penyertaan mereka tidak boleh
                                     ditafsirkan sebagai tinjauan komprehensif mengenai amalan entiti ini di dalam semua bidang.
                                 </em>
-                                <em>
-                                    and their inclusion should not be
-                                    interpreted as a comprehensive review of
-                                    these entities&rsquo; practices in all areas
-                                </em>
-                                <em>.</em>
+
                             </p>
             </div>
         </StaticData>

@@ -45,7 +45,7 @@ const ms = () => {
                         </a>
                     </li>
                     <li>
-                        IFC. Buku Panduan Perlaksanaan Alam Sekitar dan Pengurusan Sistem Sosial , 2015; boleh didapati dari{" "}
+                        Human Rights Watch, [talian, diakses pada Jun 7, 2017]; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -56,19 +56,16 @@ const ms = () => {
                         </a>
                     </li>
                     <li>
-                        IFC.{" "}
-                        <em>
-                            Kompak Global, dan Forum Pemimpin Perniagaan Antarabangsa , Panduan untuk Menilai Kesan Hak Asasi Manusia dan Pengurusan (HRIAM). 2010;{" "}
-                        </em>
-                        boleh didapati dari{" "}
+                        IFC. Buku Panduan Perlaksanaan Alam Sekitar dan Pengurusan Sistem Sosial , 2015; boleh
+                        didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="https://www.ifc.org/wps/wcm/connect/4c41260d-1ba8-4d10-a77d-f762d60a1380/ESMS+Handbook+General+v2.1.pdf?MOD=AJPERES&CVID=lllFYII"
-                            title="Environmental and Social Management System Implementation Handbook, 2015. "
+                            href="http://documents.worldbank.org/curated/en/116191467986337508/pdf/99393-REVISED-ESMS-Handbook-General-v2-1-NEW-DATE-PUBLIC.pdf."
                         >
-                            https://www.ifc.org/wps/wcm/connect/4c41260d-1ba8-4d10-a77d-f762d60a1380/ESMS+Handbook+General+v2.1.pdf?MOD=AJPERES&CVID=lllFYII
-                        </a>
+                            http://documents.worldbank.org/curated/en/116191467986337508/pdf/99393-REVISED-ESMS-Handbook-General-v2-1-NEW-DATE-PUBLIC.pdf
+
+                        </a>.
                     </li>
                     <li>
                         IFC. <em>Kompak Global, dan Forum Pemimpin Perniagaan Antarabangsa , Panduan untuk Menilai Kesan Hak Asasi Manusia dan Pengurusan (HRIAM)</em>. 2010; boleh didapati dari{" "}
@@ -95,11 +92,8 @@ const ms = () => {
                         </a>
                     </li>
                     <li>
-                        Interfaith Center on Corporate Responsibility.{" "}
-                        <em>
-                            Pusat Pelbagai Agama Mengenai Tanggungjawab Korporat Panduan Amalan Terbaik mengenai Pengambilan Pekerja Migran yang Beretika
-                        </em>
-                        New York, April 2017; boleh didapati dari{" "}
+                        Pusat Pelbagai Agama Mengenai Tanggungjawab Korporat <em>Panduan Amalan Terbaik mengenai
+                        Pengambilan Pekerja Migran yang Beretika</em> New York, April 2017; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

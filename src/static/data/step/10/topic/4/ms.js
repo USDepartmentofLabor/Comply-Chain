@@ -59,7 +59,7 @@ const ms = () => {
                         B Corporation
                     </a> {" "}
             
-                    yang memberi fokus kepada rantai bekalan koko yang menerbitkan laporan tahun ketu {" "}
+                    yang memberi fokus kepada rantai bekalan koko yang menerbitkan laporan tahun ketujuh {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"

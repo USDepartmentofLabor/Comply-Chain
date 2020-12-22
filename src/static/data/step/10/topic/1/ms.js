@@ -24,7 +24,7 @@ const ms = () => {
                 <OwnWords>
                     <h2>
                         <OwnWords.Icon alt="Feedback"/> <strong>Dengan kata-kata mereka sendiri: Kajian pengeluaran gula negara oleh Syarikat Coca-Cola* mengenai buruh kanak-kanak, buruh paksa dan hak tanah.</strong>
-                        {": "}
+
                     </h2>
                     <p>
                         

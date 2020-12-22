@@ -16,7 +16,7 @@ const en = () => {
                       >
                     <span> Executive Order 13126</span>
                  </a>
-                .&nbsp;TSenarai ini adalah untuk memastikan yang agensi kerajaan pusat AS tidak memperoleh barangan yang dibuat oleh buruh paksa atau buruh kontrak kanak-kanak. Di bawah peraturan perolehan, kontraktor kerajaan
+                .&nbsp;Senarai ini adalah untuk memastikan yang agensi kerajaan pusat AS tidak memperoleh barangan yang dibuat oleh buruh paksa atau buruh kontrak kanak-kanak. Di bawah peraturan perolehan, kontraktor kerajaan
                 yang membekalkan produk di dalam senarai mesti mengeluarkan sijil bahawa mereka telah berusaha sedaya upaya untuk mengesahkan yang buruh paksa atau buruh kontrak kanak-kanak telah digunakan untuk mengeluarkan barang yang dibekalkan.
                 </p>
                 <p>
