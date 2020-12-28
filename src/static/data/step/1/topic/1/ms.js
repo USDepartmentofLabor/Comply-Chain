@@ -16,8 +16,7 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Dodd-Frank Wall Street Reform and Consumer Protection
-                        Act (2010)
+                        Akta Membentuk Semula Wall Street dan Perlindungan Pengguna Dodd-Frank (2010)
                     </a>{" "}
                     dan{" "}
                     <a
@@ -25,7 +24,7 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        California Transparency in Supply Chains Act (2010)
+                        Akta Ketelusan dalam Rantai Bekalan California (2010)
                     </a>
                     , yang dikuatkuasakan pada awal 2010 untuk menanggapi kebimbangan hak asasi manusia, memerlukan syarikat
                     tertentu untuk mendedahkan kepada orang awam mengenai maklumat rantai bekalan mereka. Sejak itu, ada lebih
@@ -525,7 +524,7 @@ const en = () => {
                                         href="https://www.legislation.gov.au/Details/C2018A00153"
                                     >
                                     Modern Slavery Act 2018
-                                    </a>
+                                    </a>{" "}
                                     Australia berkuatkuasa. Akta memerlukan entiti yang berpangkalan atau beroperasi di Australia,
                                     yang mempunyai pendapatan sebanyak lebih AUD$100 juta untuk melaporkan risiko perhambaan moden
                                     dalam operasi mereka dan rantai bekalan dan tindakan yang diambil untuk menangani risiko dalam

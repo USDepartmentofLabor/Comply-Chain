@@ -19,7 +19,7 @@ const ms = () => {
                         href="http://www.ilo.org/global/about-the-ilo/lang--en/index.htm"
                         title="International Labor Organization"
                     >
-                        International Labor Organization
+                        Pertubuhan Buruh Antarabangsa
                     </a>{" "}
                     (ILO), sebuah agensi khas PBB yang menyatu-padukan kerajaan, majikan dan dan wakil-wakil pekerja dari&nbsp;
                     <a
@@ -28,7 +28,7 @@ const ms = () => {
                         href="http://www.ilo.org/public/english/standards/relm/country.htm"
                         title="187 member states&nbsp;"
                     >
-                        187 member states&nbsp;
+                        187 negara anggota
                     </a>
                     untuk membangunkan standard buruh antarabangsa, menghasilkan dasar-dasar, dan membuat program-program
                     untuk mempromosikan hak di tempat kerja dan pekerjaan yang memuaskan untuk semua.
@@ -56,7 +56,7 @@ const ms = () => {
                                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
                                     title="ILO Convention 182"
                                 >
-                                    ILO Convention 182
+                                    Konvensyen ILO 182
                                 </a>{" "}
                                 dimaksudkan oleh WFCL sebagai:
                             </p>
@@ -87,7 +87,7 @@ const ms = () => {
                                     href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:R190"
                                     title="ILO Recommendation No. 190"
                                 >
-                                    ILO Recommendation No. 190
+                                    Saranan ILO No. 190
                                 </a>
                                 , yang disertai dalam Konvensyen ILO 182, memberi panduan tambahan untuk mengenal pasti “pekerjaan berbahaya.” Saranan ILO No. 190 menyatakan dalam Seksyen II,
                                 Perenggan 3 bahawa “dalam menetapkan jenis pekerjaan yang dirujuk di bawah Artikel 3(d) Konvensyen [Konvensyen ILO 182], dan dalam mengenal pasti di mana ia wujud,
@@ -157,7 +157,7 @@ const ms = () => {
                                     href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/documents/publication/wcms_575499.pdf"
                                     title="Global Estimates of Child Labour"
                                 >
-                                Global Estimates of Child Labour
+                                Anggaran Global Buruh Kanak-kanak
                                 </a>
                                 {" "}mencatatkan bahawa pada 2016, terdapat 152 juta buruh kanak-kanak di serata dunia. Statistik buruh kanak-kanak belum lagi boleh diperoleh
                                 bermula dari tahun 2016. Daripada 152 juta buruh kanak-kanak, anggaran terkini menunjukkan 70.4 peratus daripada mereka terlibat dalam pertanian, 17.2 peratus dalam perkhidmatan,
@@ -355,7 +355,7 @@ const ms = () => {
                                     rel="noopener noreferrer"
                                     href="https://www.ilo.org/global/publications/books/WCMS_652001/lang--en/index.htm"
                                 >
-                                150 million migrant workers in the global workforce
+                                150 juta orang pekerja migran dalam tenaga kerja global
                                 </a>
                                 . Para pekerja ini mungkin terdedah kepada perekrut buruh dan perantara lain,
                                 sindiket jenayah terancang, dan majikan yang menawarkan syarat kontrak palsu dan cara penipuan lain. Sebilangan besar pendatang membayar yuran kepada perekrut atau perantara seperti itu dan terperangkap
@@ -387,7 +387,7 @@ const ms = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     href="https://www.ilo.org/wcmsp5/groups/public/@dgreports/@dcomm/documents/publication/wcms_575479.pdf"                                >
-                                25 million people are victims of forced labor globally
+                                25 juta orang mangsa buruh paksa di seluruh dunia
                                 </a>. Dari ini, hampir 5 juta didapati terjebak dalam eksploitasi perdagangan seksual secara paksa, dan 16
                                 juta terdapat dalam eksploitasi buruh termasuk pertanian, pembinaan, pembantu rumah, dan kilang-kilang. Empat juta lagi terdapat dalam buruh paksa yang dijalankan oleh kerajaan.
                             </p>
@@ -401,9 +401,7 @@ const ms = () => {
                                     href="https://www.osce.org/odihr/19223?download=true"
                                     title="Protocol to Prevent, Suppress and Punish Trafficking in Persons, especially Women and Children"
                                 >
-                                    &quot;Protocol to Prevent, Suppress and Punish
-                                    Trafficking in Persons, especially Women and
-                                    Children"
+                                    “Protokol untuk Menghindar, Menekan dan Menghukum Pemerdagangan manusia, terutamanya Wanita dan Kanak-Kanak”
                                 </a>{" "}
                                 pada 2000 (satu Protokol dalam Konvensyen Pertubuhan Bangsa-Bangsa Bersatu terhadap Jenayah Terancang Transnasional) sebagai &quot;merekrut, mengangkut, memindah, menyimpan, atau menerima orang,
                                 dengan menggunakan ancaman atau paksaan atau cara lain untuk mengancam, menculik, menipu, menyeleweng, menyalah guna kuasa atau dalam keadaan terdedah berbahaya, atau memberi atau menerima bayaran

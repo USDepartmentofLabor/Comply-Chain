@@ -133,25 +133,11 @@ const es = () => {
                                     </h4>
 
                                     <p>
-                                        &ldquo;Los participantes deber&aacute;n
-                                        adoptar o establecer un sistema de
-                                        gesti&oacute;n cuyo alcance est&eacute;
-                                        relacionado con el contenido del
-                                        presente C&oacute;digo. El sistema de
-                                        gesti&oacute;n estar&aacute;
-                                        dise&ntilde;ado de manera tal de
-                                        garantizar: a) el cumplimiento de la
-                                        legislaci&oacute;n aplicable, la
-                                        normativa y los requisitos del cliente
-                                        en relaci&oacute;n con las operaciones y
-                                        los productos del participante; b) la
-                                        conformidad con el presente
-                                        C&oacute;digo y c) la
-                                        identificaci&oacute;n y
-                                        mitigaci&oacute;n de los riesgos en las
-                                        operaciones vinculados al presente
-                                        C&oacute;digo. Adem&aacute;s, debe
-                                        promover la mejora continua.
+                                        &ldquo;Los participantes deben adoptar o establecer un sistema de gestión cuyo ámbito esté
+                                        relacionado con el contenido de este Código. El sistema de gestión estará diseñado para garantizar:
+                                        (a) el cumplimiento de las leyes, las normativas y los requisitos de los clientes aplicables en relación
+                                        con las operaciones y los productos del Participante; (b) la conformidad con este Código; y (c) la identificación y
+                                        disminución de riesgos operativos relacionados con el presente. También debe facilitar una mejora continua.&rdquo;
                                     </p>
                                     <p>
                                         Extra&iacute;do de la <em />
