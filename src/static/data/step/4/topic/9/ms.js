@@ -30,7 +30,7 @@ const ms = () => {
                   href="https://www.sedexglobal.com/"
                   title="Supplier Ethical Data Exchange (SEDEX)"
               >
-            Supplier Ethical Data Exchange (SEDEX)
+            Pertukaran Data Pembekal Beretika (SEDEX)
              </a>
              *&nbsp;dan&nbsp;
              <a
@@ -39,7 +39,7 @@ const ms = () => {
                    href="https://www.sedexglobal.com/"
                    title="Supplier Ethical Data Exchange (SEDEX)"
                >
-               Fair Factories Clearinghouse
+               Gedung Penjelasan Adil untuk Kilang-kilang
                </a>
             *, yang menyediakan platform untuk berkongsi maklumat mengenai pembekal untuk berkongsi maklumat mengenai pembekal biasa dan bekerjasama untuk memantau dan memulihkan keadaan.
             </p>
@@ -171,8 +171,7 @@ const ms = () => {
                                                  href="http://www.responsiblesourcingtool.org/download/seafood/SF_Tool_04.pdf"
                                                  title="Responsible Sourcing Seafood Tool 4: Information Gathering and Risk Assessment in Seafood Supply Chains"
                                              >
-                                                 Responsible Sourcing Seafood Tool 4: Information
-                                                 Gathering and Risk Assessment in Seafood Supply Chains
+                                                  Mencari Sumber Makanan Laut Secara Bertanggungjawab Alat 4: Mengumpul Maklumat dan Penilaian risiko dalam Rantai Bekalan Makanan Laut
                                              </a>{" "}
                                              mengambil pendekatan langkah-demi-langkah untuk memeriksa risiko berdasarkan negara, risiko rantai bekalan, risiko berdasarkan rantai, dan risiko berdasarkan pembekal.
                                          </p>
@@ -193,7 +192,7 @@ const ms = () => {
                                               href="https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf"
                                               title="United Nations Convention on the Law of the Sea"
                                           >
-                                              United Nations Convention on the Law of the Sea
+                                              Konvensyen Pertubuhan Bangsa-Bangsa Bersatu mengenai Undang-Undang Laut
                                           </a> merupakan instrumen antarabangsa utama dalam isu undang-undang maritim di laut.  Konvensyen ini membezakan di antara kawasan maritim — laut sempadan, Zon Ekonomi Eksklusif, dan laut dalam -
                                           dan keupayaan negara untuk mengawal aktiviti masing-masing.  Sempadan maritim merupakan lapisan tambahan yang kompleks dalam  menguatkuasakan undang-undang buruh ke atas bot nelayan.  Negara yang
                                           mengibarkan bendera pada bot nelayan bertanggungjawab untuk mengawal keadaan buruh dalam bot tersebut.  Bagaimanapun, sekiranya negara tertentu tidak mampu atau enggan menguatkuasakan undang-undang
@@ -220,7 +219,7 @@ const ms = () => {
                                               href="https://www.iuufishing.noaa.gov/Portals/33/noaa_taskforce_report_final.pdf"
                                               title="Action Plan for Implementing Task Force Recommendations"
                                           >
-                                              Action Plan for Implementing Task Force Recommendations
+                                              Rancangan Tindakan untuk Melaksanakan Saranan Pasukan Petugas
                                           </a>
                                          , di mana Amerika Syarikat sedang membangunkan Program Pengesanan Makanan Laut.  Program pengesanan, dikenali sebagai{" "}
                                            <a
@@ -228,7 +227,7 @@ const ms = () => {
                                                  rel="noopener noreferrer"
                                                  href="https://www.fisheries.noaa.gov/international/seafood-import-monitoring-program"
                                              >
-                                           Seafood Import Monitoring Program
+                                           Program Memantau Import Makanan Laut
                                            </a>,
                                            atau SIMP, yang memerlukan pengimport AS dalam rekod untuk menyediakan dan melaporkan data utama - dari tangkapan ikan sehingga ke tahap masuk berdagang di AS - berkaitan tiga belas ikan yang diimport yang dikenal pasti sebagai perikanan
                                            IUU yang terjejas dan/atau terdapat penyelewengan makanan laut.  Pematuhan berkuatkuasa mulai akhir 2018.
@@ -292,7 +291,7 @@ const ms = () => {
                                               href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf"
                                               title="Environmental and Social Policy Statement 2020."
                                           >
-                                              Environmental and Social Policy and Procedures
+                                              Dasar Alam Sekitar dan Sosial dan Prosedur
                                           </a>, 2020 at{" "}
                                           <a
                                                 target="_blank"

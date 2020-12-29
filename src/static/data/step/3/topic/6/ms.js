@@ -36,7 +36,7 @@ const ms = () => {
                         href="https://www.fairtradecertified.org"
                         title="Fair Trade Certified"
                     >
-                        Fair Trade Certified
+                        Sijil Perdagangan Adil
                     </a>{" "}
                     .
                 </p>
@@ -48,7 +48,7 @@ const ms = () => {
                         href="http://www.isealalliance.org/"
                         title="ISEAL Alliance"
                     >
-                        ISEAL Alliance
+                        Perikatan ISEAL
                     </a>
                     , persatuan dalam pertubuhan yang mengeluarkan panduan mengenai penubuhan dan
                     pelaksanaan standard yang berkaitan dengan kelestarian.

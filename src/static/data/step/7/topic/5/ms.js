@@ -117,7 +117,7 @@ const ms = () => {
                             rel="noopener noreferrer"
                             href="www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138"
                         >
-                        Convention No.  138 (1973)
+                        Konvensyen No. 138 (1973)
                         </a>
                         , mengenai tanggungjawab majikan untuk menyimpan daftar pekerja bawah umur 18.
                         </p>
@@ -128,7 +128,7 @@ const ms = () => {
                             rel="noopener noreferrer"
                             href="www.ilo.org/jakarta/whatwedo/publications/WCMS_151355/lang--en/index.htm"
                         >
-                        Eliminating Child Labour: Guides for Employers
+                        Membasmi Buruh Kanak-kanak: Panduan untuk Majikan
                         </a>
                         , ILO, Geneva, 2007.
                         </p>
@@ -139,7 +139,7 @@ const ms = () => {
                             rel="noopener noreferrer"
                             href="www.ilo.org/empent/areas/business-helpdesk/faqs/WCMS_DOC_ENT_HLP_CHL_FAQ_EN/lang--en/index.htm"
                         >
-                        Q&As on Business and Child Labor
+                        Soal & Jawab mengenai Perniagaan dan Buruh Kanak-kanak
                         </a>
                         , diakses Mei 11, 2017.
                         </p>
@@ -187,7 +187,7 @@ const ms = () => {
                             href="http://www.responsiblesourcingtool.org/workerinterviews"
                             title="Conducting Migrant Worker Interviews"
                         >
-                            Migrant Worker Interviews
+                            Temuduga Pekerja Migran
                         </a>
                         , yang menyediakan contoh soalan temuduga untuk digunakan bila menemu duga pekerja migran dan pekerja kontrak asing yang 
                         disasarkan. Syarikat boleh menggunakan alat untuk membentuk soalan temu duga pekerja dengan matlamat untuk mengenal pasti 
@@ -340,7 +340,7 @@ const ms = () => {
                             href="http://helpwanted.verite.org/helpwanted/toolkit"
                             title="Fair Hiring Toolkit"
                         >
-                            Fair Hiring Toolkit
+                            Peralatan Pengambilan Pekerja Secara Adil
                         </a>{" "}
                         termasuk{" "}
                         <a
@@ -349,7 +349,7 @@ const ms = () => {
                             href="http://helpwanted.verite.org/helpwanted/toolkit/suppliers/managing-labor-recruiters"
                             title="sample interview questions for labor recruiters"
                         >
-                            sample interview questions for labor recruiters
+                            soalan-soalan contoh untuk temuduga bagi perekrut buruh
                         </a>{" "}
                         yang direka untuk kegunaan pengaudit sosial syarikat. 
                     </p>

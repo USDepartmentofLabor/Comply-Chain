@@ -34,7 +34,7 @@ const en = () => {
                                             href="http://betterwork.org/"
                                             title="Better Work"
                                         >
-                                            Better Work
+                                            Better Work (Kerja Lebih Baik)
                                         </a>,
                                         inisiatif bersama Pertubuhan Buruh Antarabangsa (ILO) dan Perbadanan Kewangan Antarabangsa
                                         (IFC), dibentuk untuk meningkatkan amalan dan produktiviti pekerja di sektor pakaian.
@@ -51,7 +51,7 @@ const en = () => {
                                             href="https://portal.betterwork.org/transparency"
                                             title="Transparency Portal"
                                         >
-                                            Transparency Portal
+                                            Portal Ketelusan
                                         </a>
                                         , yang membolehkan pembeli antarabangsa membuat pesanan di kilang yang berusaha untuk meningkatkan
                                         pematuhan mereka. Program ini juga memberikan nasihat dan bantuan pemulihan kepada firma untuk
@@ -82,7 +82,7 @@ const en = () => {
                                         href="http://www.responsiblebusiness.org/"
                                         title="Responsible Business Alliance (RBA)"
                                     >
-                                        Responsible Business Alliance
+                                        Pakatan Perniagaan Bertanggungjawab
                                     </a>{" "}
                                     (RBA) iaitu (bekas Gabungan Warga Industri Elektronik - Electronics
                                     Industry Citizenship Coalition) komited kepada{" "}
@@ -92,7 +92,7 @@ const en = () => {
                                         href="http://www.eiccoalition.org/standards/"
                                         title="Code of Conduct"
                                     >
-                                        Code of Conduct
+                                        Kod Tingkah Laku
                                     </a>{" "}
                                     bagi memastikan peningkatan berterusan dalam keadaan sosial, persekitaran dan
                                     tanggungjawab beretika dalam rantai bekalan mereka. Anggota RBA menunjukkan
@@ -103,7 +103,7 @@ const en = () => {
                                         href="http://www.eiccoalition.org/standards/vap/"
                                         title="Validated Assessment Process"
                                     >
-                                        Validated Assessment Process
+                                        Proses Penilaian yang Disahkan
                                     </a>
                                     , yang menentukan standard untuk pengesahan pematuhan dan
                                     penilaian yang berkesan dan boleh dikongsi.
@@ -117,7 +117,7 @@ const en = () => {
                                         href="http://www.ethicaltrade.org"
                                         title="Ethical Trading Initiative (ETI)"
                                     >
-                                        Ethical Trading Initiative (ETI)
+                                        Inisiatif Perdagangan Beretika (ETI)
                                     </a>
                                     . Melalui rundingan dengan kesatuan sekerja, badan bukan kerajaan
                                     (NGO) dan anggota korporat ETI membangunkan{" "}
@@ -127,7 +127,7 @@ const en = () => {
                                         href="http://www.ethicaltrade.org/eti-base-code"
                                         title="ETI Base Code"
                                     >
-                                        ETI Base Code
+                                        Tata Asas ETI
                                     </a>
                                     . yarikat yang menyertai ETI mesti terima pakai Kod ini dan bersetuju {" "}
                                     <a
@@ -136,7 +136,7 @@ const en = () => {
                                         href="http://www.ethicaltrade.org/resources/principles-implementation"
                                         title="ETI&rsquo;s Principles of Implementation"
                                     >
-                                        ETI&rsquo;s Principles of Implementation
+                                        Prinsip Pelaksanaan ETI
                                     </a>
                                     . Syarikat akan menerima alat, latihan dan akses kepada rangkaian global ETI
                                     untuk mendapatkan sokongan menangani isu pematuhan setempat. Untuk maklumat lanjut, sila lihat{" "}
@@ -146,7 +146,7 @@ const en = () => {
                                         href="http://www.ethicaltrade.org/node/1192?lang=en"
                                         title="ETI's toolkit"
                                     >
-                                        ETI&apos;s toolkit
+                                        Peralatan ETI
                                     </a>
                                     <a
                                         target="_blank"
@@ -155,7 +155,7 @@ const en = () => {
                                         title="resources for ethical trade"
                                     >
                                         {" "}
-                                        resources for ethical trade
+                                         sumber untuk perdagangan beretika
                                     </a>
                                     .
                                 </p>

@@ -28,7 +28,7 @@ const en = () => {
                      rel="noopener noreferrer"
                      href="https://business-humanrights.org/sites/default/files/webform/Danone%20-%20IUF_press%20release%20EN_final.pdf"
                  >
-                Danone and IUF signed their tenth agreement
+                Danone dan IUF menandatangani perjanjian kesepuluh
                 </a>
                 , yang memberi fokus kepada kelestarian
                 penggajian dan hak pekerja dan dikenakan ke atas anak-anak syarikatnya di seluruh dunia.
@@ -74,7 +74,7 @@ const en = () => {
                         href="http://www.industriall-union.org/industriall-global-union-and-hm-sign-global-framework-agreement"
                         title="global framework agreement"
                     >
-                        global framework agreement
+                        perjanjian kerangka global
                     </a>{" "}
                     di antara kesatuan sekerja global{" "}
                     <a

@@ -292,7 +292,7 @@ const ms = () => {
                         rel="noopener noreferrer"
                         href="https://www.scsglobalservices.com/starbucks-cafe-practices"
                     >
-                        C.A.F.E Practices
+                        Amalan C.A.F.E.
                     </a>
                     , termasuk keperluan yang semua pekerja yang buta huruf diberitahu hak mereka di bawah kod secara lisan.
                 </p>

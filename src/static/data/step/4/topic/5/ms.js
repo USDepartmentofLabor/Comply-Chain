@@ -22,7 +22,7 @@ const en = () => {
                         href="https://www.ihrb.org/"
                         title="Institute for Human Rights and Business"
                     >
-                        Institute for Human Rights and Business
+                        Institut untuk Hak Asasi Manusia dan Perniagaan
                     </a>{" "}
                     dan{" "}
                     <a
@@ -31,7 +31,7 @@ const en = () => {
                         href="http://www.ifc.org/wps/wcm/connect/corp_ext_content/ifc_external_corporate_site/home"
                         title="International Finance Corporation"
                     >
-                        International Finance Corporation
+                        Perbadanan Kewangan Antarabangsa
                     </a>
                     &rsquo;s{" "}
                     <a
@@ -40,7 +40,7 @@ const en = () => {
                         href="https://exim.hu/hasznos/dokumentum-tar/kornyezetvedelmi-politika-mind/1918-ifc-hiram-full-linked-4/file"
                         title="Guide to Human Rights Impact Assessment and Management"
                     >
-                        Guide to Human Rights Impact Assessment and Management
+                        Panduan untuk Menilai Kesan Hak Asasi Manusia dan Pengurusan
                     </a>{" "}
                     dan{" "}
                     <a
@@ -49,7 +49,7 @@ const en = () => {
                         href="https://www.bsr.org/en/"
                         title="Business for Social Responsibility&rsquo;s"
                     >
-                        Business for Social Responsibility&rsquo;s
+                        Perniagaan untuk Tanggungjawab Sosial bagi
                     </a>
                     <a
                         target="_blank"
@@ -59,8 +59,7 @@ const en = () => {
                     >
                         <em>
                             {" "}
-                            Conducting an Effective Human Rights Impact
-                            Assessment: Guidelines, Steps, and Examples
+                             Melakukan Penilaian Impak Hak Asasi Manusia yang Berkesan: Panduan, Langkah, dan Contoh-contoh
                         </em>
                     </a>
                 </p>
@@ -74,8 +73,7 @@ const en = () => {
                         title="List of Goods Produced by Child Labor or Forced Labor"
                     >
                         <em>
-                            List of Goods Produced by Child Labor or Forced
-                            Labor
+                            Senarai barangan yang dikeluarkan oleh Buruh Kanak-kanak atau Buruh Paksa
                         </em>
                     </a>
                     . Seperti aplikasi ini, penerbitan ILAB yang dikemas kini diberi mandat oleh{" "}
@@ -85,8 +83,7 @@ const en = () => {
                         href="https://www.congress.gov/109/plaws/publ164/PLAW-109publ164.pdf"
                         title="Trafficking Victims Protection Reauthorization Act of 2005 (TVPRA)"
                     >
-                        Trafficking Victims Protection Reauthorization Act of
-                        2005 (TVPRA)
+                        Akta Kebenaran Semula Perlindungan Mangsa Pemerdagangan 2005 (TVPRA)
                     </a>
                     . Senarai boleh didapati melalui{" "}
                     <a
@@ -95,7 +92,7 @@ const en = () => {
                         href="https://www.dol.gov/general/apps/ilab"
                         title="Sweat &amp; Toil app"
                     >
-                        Sweat &amp; Toil app
+                        Aplikasi Keringat & Kerja Keras
                     </a>
                     , bersama dengan maklumat panjang lebar dari laporan DOL{" "}
                     <a
@@ -104,7 +101,7 @@ const en = () => {
                         href="http://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings"
                         title="Findings on the Worst Forms of Child Labor"
                     >
-                        <em>Findings on the Worst Forms of Child Labor</em>
+                        <em>Penemuan Bentuk Buruh Kanak-Kanak yang Terburuk</em>
                     </a>{" "}
                     Sweat & Toil, kandungannya juga boleh didapati dari seksyen Laporan Buruh Laporan Kanak-Kanak Antarabangsa dan Buruh Paksa{" "}
                     <a
@@ -113,7 +110,7 @@ const en = () => {
                         href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor"
                         title="ILAB website"
                     >
-                        ILAB website
+                        laman web ILAB
                     </a>
                     , percuma dan boleh dimuat turun dari kedai Apple{" "}
                     <a
@@ -122,7 +119,7 @@ const en = () => {
                         href="https://itunes.apple.com/us/app/sweat-toil-child-labor-forced/id1018240593?ls=1"
                         title="app Store"
                     >
-                        app Store
+                        Kedai Aplikasi
                     </a>{" "}
                     atau{" "}
                     <a
@@ -131,10 +128,10 @@ const en = () => {
                         href="https://play.google.com/store/apps/details?id=gov.dol.childlabor"
                         title="Google Play"
                     >
-                        Google Play
+                        Aplikasi Google Play
                     </a>{" "}
                     Kerajaan AS, pertubuhan antarabangsa, NGO dan lain-lain mengeluarkan sumber tambahan yang berguna untuk mengumpul maklumat awal; sila lihat{" "}
-                    <Link to="/steps/4#resources">Further Resources</Link> untuk maklumat lanjut.
+                    <Link to="/steps/4#resources">Rujukan Selanjutnya</Link> untuk maklumat lanjut.
                 </p>
                 <ExampleInAction id="med_rep">
                     <h2>

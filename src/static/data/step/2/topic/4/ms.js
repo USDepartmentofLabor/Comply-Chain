@@ -33,7 +33,7 @@ const en = () => {
                                         href="http://responsiblesourcingtool.org/"
                                         title="Responsible Sourcing Tool"
                                     >
-                                        Responsible Sourcing Tool
+                                        Alat Mencari Sumber Bertanggungjawab
                                     </a>
                                     , dilancarkan pada 2016 oleh Verité dan Jabatan Negara AS, mengandung{" "}
                                     <a
@@ -42,8 +42,7 @@ const en = () => {
                                         href="http://responsiblesourcingtool.org/riskmanagementprocess"
                                         title="Sample Supply Chain Risk Management Process Flow"
                                     >
-                                        a Sample Supply Chain Risk Management
-                                        Process Flow
+                                        Contoh Aliran Proses Pengurusan Risiko Rantai Bekalan
                                     </a>
                                     , yang menunjukkan betapa berkesan, sistem pengurusan peningkatan berterusan
                                     beroperasi untuk menggesa, mengurangkan dan mencegah pemerdagangan manusia dalam rantai bekalan. Tambahan{" "}
@@ -53,7 +52,7 @@ const en = () => {
                                         href="http://responsiblesourcingtool.org/supplychainassurance"
                                         title="Sample Supply Chain Assurance Program"
                                     >
-                                        Sample Supply Chain Assurance Program
+                                        Contoh Program Jaminan Rantai Bekalan
                                     </a>{" "}
                                     memberikan gambaran keseluruhan mengenai proses yang dapat dilaksanakan oleh syarikat
                                     hingga mengenal pasti di mana terdapat risiko pemerdagangan manusia dalam rantai bekalannya,
@@ -67,19 +66,17 @@ const en = () => {
                                         title="Supply Chain Sustainability: A Practical Guide for Continuous Improvement"
                                     >
                                         <em>
-                                            Supply Chain Sustainability: A
-                                            Practical Guide for Continuous
-                                            Improvement
+                                            Kelestarian Rantai Bekalan: Panduan Praktikal untuk Penambahbaikan Berterusan
                                         </em>
                                     </a>
-                                    <em>,</em> diterbit oleh Kompak Global Pertubuhan Bangsa-Bangsa Bersatu dan BSR, iaitu bekas{""}
+                                    <em>,</em> diterbit oleh Kompak Global Pertubuhan Bangsa-Bangsa Bersatu dan BSR, iaitu bekas{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="https://www.bsr.org/en/"
                                         title="Business for Social Responsibility"
                                     >
-                                    Business for Social Responsibility
+                                    Perniagaan untuk Tanggungjawab Sosial
                                     </a>.
                                 </p>
                                 <p>
@@ -121,10 +118,9 @@ const en = () => {
                                             title="RBA Code of Conduct v. 6.0 (2018)"
                                         >
                                             <em>
-                                                Responsible Business Alliance
-                                                Code of Conduct v. 6.0 (2018)
+                                                Pakatan Perniagaan Bertanggungjawab Kod Tingkah Laku v. 6.0 (2018)
                                             </em></a>
-                                            ; available from
+                                            ;  boleh didapati{" "}
                                             <a
                                                 target="_blank"
                                                 rel="noopener noreferrer"

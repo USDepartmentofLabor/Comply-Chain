@@ -22,7 +22,7 @@ const ms = () => {
                 <p>
                     Seperti yang dibincangkan dalam{" "}
                     <Link to="/steps/3">
-                        Step 1, Engage Stakeholders and Partners
+                        Langkah 1, Libatkan Pihak Berkepentingan dan Rakan Kongsi
                     </Link>
                     , sekiranya anda sebahagian daripada industri atau kumpulan pelbagai industri, kumpulan ini mungkin sudah ada 
                     pengaudit terlatih dan/atau bahan latihan pengaudit. Ia mungkin sudah ada alat audit yang lengkap yang selari 
@@ -51,7 +51,7 @@ const ms = () => {
                 <p>
                     Dalam mana-mana audit, apabila pencabulan berlaku, anda harus memulihkan keadaan. Ini terdapat secara terperinci 
                     dalam{" "}
-                    <Link to="/steps/8">Step 6, Remediate Violations</Link>.
+                    <Link to="/steps/8">Langkah 6, Baiki Pelanggaran</Link>.
                 </p>
 
                 <ExampleInAction id="better_work_assessment">

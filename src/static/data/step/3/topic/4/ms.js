@@ -28,7 +28,7 @@ const en = () => {
                             href="http://www.sourcingnetwork.org/"
                             title="Responsible Sourcing Network"
                         >
-                            Responsible Sourcing Network
+                            Jaringan Mencari Sumber yang Bertanggungjawab
                         </a>{" "}
                         (RSN) merupakan projek yang mengutamakan usaha untuk menghapuskan penganiayaan hak asasi manusia, termasuk
                         buruh paksa dan buruh paksa kanak-kanak, dalam pengeluaran bahan mentah yang terdapat dalam produk harian seperti
@@ -41,9 +41,7 @@ const en = () => {
                             href="http://www.sourcingnetwork.org/minerals/"
                             title="eliminiate human rights abuses in the mining of conflict minerals from the Democratic Republic of the Congo"
                         >
-                            eliminiate human rights abuses in the mining of
-                            conflict minerals from the Democratic Republic of
-                            the Congo
+                            membasmi penganiayaan hak manusia dalam perlombongan mineral konflik dari Republik Demokratik Congo
                         </a>{" "}
                         and in the{" "}
                         <a
@@ -52,7 +50,7 @@ const en = () => {
                             href="http://www.sourcingnetwork.org/the-cotton-pledge"
                             title="production of cotton in Uzbekistan"
                         >
-                            production of cotton in Uzbekistan
+                            pengeluaran kapas di Uzbekistan dan di Turkmenistan
                         </a>
                         .
                     </p>
@@ -82,8 +80,7 @@ const en = () => {
                             href="http://www.resolv.org/site-ppa/"
                             title="Public-Private Alliance for Responsible Minerals Trade"
                         >
-                            Public-Private Alliance for Responsible Minerals
-                            Trade
+                            Perikatan Awam-Swasta bagi Perdagangan Mineral secara Bertanggungjawab
                         </a>{" "}
                         (PPA) adalah inisiatif dengan pelbagai pihak kepentingan yang dilancarkan pada tahun 2012 yang menyokong mendapatkan sumber
                         dan mineral melalui sumber rantai bekalan mineral yang dikesan dan disahkan terutamanya timah, tantalum, tungsten dan emas
@@ -134,7 +131,7 @@ const en = () => {
                             href="https://www.dol.gov/agencies/ilab/our-work/projects/ABK3leap"
                             title="ABK3 LEAP project"
                         >
-                            ABK3 LEAP project
+                            Projek LEAP ABK3
                         </a>
                         , yang dibiayai oleh ILAB dan dilaksana oleh{" "}
                         <a
@@ -143,7 +140,7 @@ const en = () => {
                             href="https://www.worldvision.org/"
                             title="World Vision"
                         >
-                            World Vision
+                            Wawasan Dunia
                         </a>
                         *, bekerjasama untuk menggalakkan sektor swasta dan memupuk kerjasama di antara kerajaan, industri dan pihak berkepentingan dalam komuniti.
                         Usaha kerjasama ini menghasilkan segala macam aktiviti, termasuk yang berikut:
@@ -203,7 +200,7 @@ const en = () => {
                             href="http://poig.org/"
                             title="Palm Oil Innovation Group"
                         >
-                            Palm Oil Innovation Group
+                            Kumpulan Inovasi Minyak Sawit
                         </a>{" "}
                         (POIG), satu kumpulan yang juga termasuk NGO hak buruh seperti Verité* dan Forum Antarabangsa Hak Buruh,* serta pengawas alam sekitar utama.  Misinya adalah untuk membangun kemajuan yang dicapai oleh Sidang
                         Meja Bulat Kelestarian Kelapa Sawit (Roundtable on Sustainable Palm Oil - RSPO) atau untuk memerangi masalah buruh kanak-kanak.  Syarikat yang menandatangani Piagam POIG mesti mengesahkan bahawa kesemua

@@ -13,7 +13,7 @@ const en = () => {
                             rel="noopener noreferrer"
                             href="https://www.conecomm.com/research-blog/2016-millennial-employee-engagement-study"
                         >
-                    Research
+                    Kajian
                     </a>
                     &nbsp;mendapati bahawa pengguna semakin terbiasa dengan masalah penderaan pekerja, terutama
                     dalam industri pakaian, elektronik, kasut, dan pertanian, terutama coklat dan produk kopi.

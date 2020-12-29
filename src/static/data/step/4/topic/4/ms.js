@@ -42,8 +42,7 @@ const ms = () => {
                         href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                         title="United Nations Guiding Principles on Business and Human Rights"
                     >
-                        United Nations Guiding Principles on Business and Human
-                        Rights
+                        Prinsip Panduan Pertubuhan Bangsa-Bangsa Bersatu mengenai Perniagaan dan Hak Asasi Manusia
                     </a>
                     , &ldquo;“di mana syarikat perniagaan mempunyai sebilangan besar entiti dalam rantai nilai mereka, mungkin amat sukar untuk melakukan usaha ketekunan wajar terhadap kesan buruk salah guna hak asasi manusia bagi semua.
                     Sekiranya begitu, syarikat perniagaan patut mengenal pasti bidang am di mana risiko buruk kesan hak asasi manusia lebih signifikan, sama ada disebabkan pembekal berkenaan atau konteks operasi pelanggan, operasi tertentu,
@@ -68,8 +67,8 @@ const ms = () => {
                                                   rel="noopener noreferrer"
                                                   href="http://www.crea.org/"
                                               >
-                                                  Center for Reflection, Education and Action (CREA).
-                                              </a>
+                                                  Pusat untuk Renungan, Pendidikan dan Tindakan (CREA)
+                                              </a>.
                                             </p>
                                              <div id="cocoa_chains">
 

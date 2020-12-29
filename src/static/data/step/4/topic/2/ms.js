@@ -23,10 +23,9 @@ const ms = () => {
                         href="http://www.asyousow.org/reports/best-current-practices-in-purchasing-the-apparel-industry"
                         title="Best Current Practices in Purchasing: The Apparel Industry"
                     >
-                        As You Sow&rsquo;s{" "}
+
                         <em>
-                            Best Current Practices in Purchasing: The Apparel
-                            Industry
+                            Amalan Terbaik ‘As You Sow’ Masa Kini dalam Pembelian: Industri Pakaian
                         </em>
                     </a>
                     <em>.</em>

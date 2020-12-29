@@ -30,8 +30,7 @@ const ms = () => {
                         href="https://bettercotton.org/wp-content/uploads/2014/10/production-principles-and-criteria.pdf"
                         title="Better Cotton Initiative&rsquo;s Production Principles and Criteria"
                     >
-                        Better Cotton Initiative&rsquo;s Production Principles
-                        and Criteria
+                        Inisiatif Better Cotton* (Kapas Lebih Baik) Prinsip dan Kriteria
                     </a>{" "}
                     untuk syarikat di sepanjang rantai bekalan kapas,{" "}
                     <a
@@ -39,7 +38,7 @@ const ms = () => {
                         rel="noopener noreferrer"
                         href="www.responsiblebusiness.org/code-of-conduct/f"
                     >
-                        Responsible Business Alliance
+                        Pakatan Perniagaan Bertanggungjawab
                     </a>
                     * untuk syarikat elektronik,{" "}
                     <a
@@ -48,7 +47,7 @@ const ms = () => {
                         href="http://www.bonsucro.com/en/production-standard/"
                         title="Bonsucro Production Standard"
                     >
-                        Bonsucro* Production Standard
+                        Bonsucro* Standard Pengeluaran
                     </a>{" "}
                     untuk syarikat dalam rantai bekalan tebu, dan{" "}
                     <a
@@ -57,8 +56,7 @@ const ms = () => {
                         href="http://www.ethicaltrade.org/eti-base-code"
                         title="Ethical Trading Initiative&rsquo;s Base Code for companies in a variety of industries"
                     >
-                        Ethical Trading Initiative&rsquo;s* Base Code for
-                        companies in a variety of industries.
+                        Inisiatif Perdagangan Beretika * Kod Asas bagi syarikat dalam pelbagai industri
                     </a>
                 </p>
                 <p>
@@ -69,7 +67,7 @@ const ms = () => {
                         href="http://www.aiag.org/corporate-responsibility/supply-chain-sustainability"
                         title="Automotive Industry Action Group"
                     >
-                        Automotive Industry Action Group
+                        Kumpulan Tindakan Industri Automotif
                     </a>
                     * dan{" "}
                     <a
@@ -78,8 +76,7 @@ const ms = () => {
                         href="http://www.theconsumergoodsforum.com/strategic-focus/social-sustainability/forced-labour-priority-industry-principles"
                         title="Consumer Goods Forum&rsquo;s* Priority Industry Principles"
                     >
-                        Consumer Goods Forum&rsquo;s* Priority Industry
-                        Principles
+                        Forum Barangan Pengguna * Panduan mengenai Prinsip Utama Industri
                     </a>{" "}
                     mengenai buruh paksa.
                 </p>
@@ -91,10 +88,8 @@ const ms = () => {
                         href="http://www.oecd.org/daf/inv/mne/mining.htm"
                         title="Organization for Economic Co-operation and Development (OECD) Due Diligence Guidance for Responsible Supply Chains of Minerals from Conflict-Affected and High-Risk Areas Supplement on Tin, Tantalum and Tungsten"
                     >
-                        Organization for Economic Co-operation and Development
-                        (OECD) Due Diligence Guidance for Responsible Supply
-                        Chains of Minerals from Conflict-Affected and High-Risk
-                        Areas Supplement on Tin, Tantalum and Tungsten
+                        Pertubuhan untuk Kerjasama Ekonomi dan Pembangunan (OECD) Panduan Ketekunan Wajar bagi Rantai Bekalan Bertanggungjawab Mineral
+                        dari Kawasan Terkesan oleh Konflik dan Berisiko Tinggi mengenai Timah, Tantalum dan Tungsten
                     </a>
                     ; 2){" "}
                     <a
@@ -103,8 +98,7 @@ const ms = () => {
                         href="http://mneguidelines.oecd.org/responsible-supply-chains-textile-garment-sector.htm"
                         title="OECD Due Diligence For Responsible Supply Chains in the Garment and Footwear Sector"
                     >
-                        OECD Due Diligence For Responsible Supply Chains in the
-                        Garment and Footwear Sector
+                        Ketekunan Wajar OECD untuk Rantai Bekalan Bertanggungjawab dalam Sektor Pakaian dan Kasut
                     </a>
                     ; 3){" "}
                     <a
@@ -113,7 +107,7 @@ const ms = () => {
                         href="http://mneguidelines.oecd.org/rbc-agriculture-supply-chains.htm"
                         title="OECD Guidance for Responsible Agricultural Supply Chains"
                     >
-                        OECD Guidance for Responsible Agricultural Supply Chains
+                        Panduan OECD-FAO untuk Rantai Bekalan Pertanian Bertanggungjawab
                     </a>
                     ; 4){" "}
                     <a
@@ -122,9 +116,8 @@ const ms = () => {
                         href="http://mneguidelines.oecd.org/Practical-actions-for-worst-forms-of-child-labour-mining-sector.pdf"
                         title="OECD Practical Actions for Companies to Identify and Address the Worst Forms of Child Labor in Mineral Supply Chains"
                     >
-                        OECD Practical Actions for Companies to Identify and
-                        Address the Worst Forms of Child Labor in Mineral Supply
-                        Chains
+                        Tindakan Praktikal OECD bagi Syarikat-Syarikat untuk Mengenal Pasti dan Menangani
+                        Bentuk Buruh Kanak-kanak Terburuk dalam Rantaian Bekalan Mineral
                     </a>
                     .
                 </p>
@@ -136,7 +129,7 @@ const ms = () => {
                         rel="noopener noreferrer"
                         href="www.responsiblesourcingtool.org/vendoragreement"
                     >
-                        Sample Vendor Agreement
+                        Contoh Perjanjian Penjual
                     </a>{" "}
                     sebagai suplemen kontrak dan perjanjian di antara syarikat dan sub-kontraktor mereka dalam bidang kod komunikasi dan pematuhan,
                     termasuk bidang menilai diri sendiri dan program pembaikan yang direka untuk mencapai pematuhan kod.

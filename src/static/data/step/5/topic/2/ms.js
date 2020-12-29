@@ -32,7 +32,7 @@ const en = () => {
                             href="http://levistrauss.com/wp-content/uploads/2017/12/TOE.pdf"
                             title="Levi Strauss &amp; Co*. Terms of Engagement"
                         >
-                            Levi Strauss &amp; Co*. Terms of Engagement
+                            Levi Strauss & Co.* Terma Penglibatan
                         </a>
                     </li>
                     <li>
@@ -42,7 +42,7 @@ const en = () => {
                             href="http://www.coca-colacompany.com/content/dam/journey/us/en/private/fileassets/pdf/unknown/unknown/SGP_Brochure_ENG.pdf"
                             title="Coca-Cola* Supplier Guiding Principles"
                         >
-                            Coca-Cola* Supplier Guiding Principles
+                            Coca-Cola* Prinsip Panduan Pembekal
                         </a>
                     </li>
                     <li>
@@ -52,8 +52,7 @@ const en = () => {
                             href="https://globalassets.starbucks.com/assets/1deb372ee3d840179e59c5b9c21cd5fe.pdf"
                             title="Starbucks* Supplier Responsibility Standards: Manufactured Goods and Services"
                         >
-                            Starbucks* Supplier Responsibility Standards:
-                            Manufactured Goods and Services
+                            Standard Tanggungjawab Pembekal Starbucks*: Barangan yang Dikilang dan Perkhidmatan
                         </a>
                     </li>
                 </ul>
@@ -112,7 +111,7 @@ const en = () => {
                         href="http://www.ilo.org/declaration/lang--en/index.htm"
                         title="Fundamental Principles and Rights at Work"
                     >
-                        Fundamental Principles and Rights at Work
+                        Prinsip Asas dan Hak di Tempat Kerja
                     </a>{" "}
                     sebagai hak yang semua kerajaan patut wujudkan, sama ada kerajaan sudah atau belum mengesahkan konvensyen tersebut. Kerajaan yang belum mengesahkan konvensyen
                     mesti melaporkan kepada ILO secara berkala mengenai usaha untuk mewujudkan hak-hak tersebut.
@@ -125,7 +124,7 @@ const en = () => {
                         href="http://www.ilo.org/global/standards/introduction-to-international-labour-standards/conventions-and-recommendations/lang--en/index.htm"
                         title="set of core ILO conventions"
                     >
-                        set of core ILO conventions
+                        set dasar konvensyen ILO
                     </a>
                     , walaupun ILO mempunyai konvensyen tambahan mengenai pampasan, keselamatan pekerjaan dan isu buruh yang berkaitan.
                 </p>
@@ -138,8 +137,7 @@ const en = () => {
                         href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C087"
                         title="Freedom of Association and Protection of the Right to Organize Convention, 1948 (No. 87)"
                     >
-                        Freedom of Association and Protection of the Right to
-                        Organize Convention, 1948 (No. 87)
+                        Konvensyen Kebebasan Berpersatuan dan Perlindungan Hak untuk Berpersatuan, 1948 (No. 87)
                     </a>
                     .
                 </p>
@@ -152,8 +150,7 @@ const en = () => {
                         href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C098:NO"
                         title="Right to Organize and Collective Bargaining Convention, 1949 (No. 98)"
                     >
-                        Right to Organize and Collective Bargaining Convention,
-                        1949 (No. 98)
+                        Konvensyen Hak untuk Berpersatuan dan Tawar-Menawar Kolektif, 1949 (No. 98)
                     </a>
                     . Ini ditambah dengan Saranan 163.
                 </p>
@@ -166,7 +163,7 @@ const en = () => {
                         href="https://www.ilo.org/dyn/normlex/en/f?p=1000:12100:0::NO::P12100_INSTRUMENT_ID,P12100_LANG_CODE:312174,en:NO"
                         title="Forced Labor Convention, 1930 (No. 29)"
                     >
-                        Forced Labor Convention, 1930 (No. 29)
+                        Konvensyen Buruh Paksa, 1930 (No. 29)
                     </a>
                     .  Ini ditambah dengan Saranan 35.
                 </p>
@@ -179,7 +176,7 @@ const en = () => {
                         href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:P029"
                         title="Protocol of 2014 to the Forced Labor Convention, 1930"
                     >
-                        Protocol of 2014 to the Forced Labor Convention, 1930
+                        Protokol 2014 berkaitan dengan Konvensyen Buruh Paksa, 1930
                     </a>
                     . Ini ditambah dengan Saranan 203.
                 </p>
@@ -192,7 +189,7 @@ const en = () => {
                         href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C105:NO"
                         title="Abolition of Forced Labor Convention, 1957 (No. 105)"
                     >
-                        Abolition of Forced Labor Convention, 1957 (No. 105)
+                        Pembasmian Konvensyen Buruh Paksa, 1957 (No. 105)
                     </a>
                     .
                 </p>
@@ -205,7 +202,7 @@ const en = () => {
                         href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C138:NO"
                         title="Minimum Age Convention, 1973 (No. 138)"
                     >
-                        Minimum Age Convention, 1973 (No. 138)
+                        Konvensyen Umur Minimum, 1973 (No. 138)
                     </a>
                     . Ini ditambah dengan beberapa Saranan, termasuk Saranan 146.
                 </p>
@@ -218,7 +215,7 @@ const en = () => {
                         href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C182:NO"
                         title="Worst Forms of Child Labor Convention, 1999 (No. 182)"
                     >
-                        Worst Forms of Child Labor Convention, 1999 (No. 182)
+                        Bentuk Konvensyen Buruh Kanak-Kanak yang Terburuk, 1999 (No. 182)
                     </a>
                     . Ini ditambah dengan Saranan 190.
                 </p>
@@ -231,7 +228,7 @@ const en = () => {
                         href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C100:NO"
                         title="Equal Remuneration Convention, 1951 (No. 100)"
                     >
-                        Equal Remuneration Convention, 1951 (No. 100)
+                        Konvensyen Gaji Saksama, 1951 (No. 100)
                     </a>
                     . Ini ditambah dengan Saranan 90.
                 </p>
@@ -244,8 +241,7 @@ const en = () => {
                         href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C111:NO"
                         title="Discrimination (Employment and Occupation) Convention, 1958 (No. 111)"
                     >
-                        Discrimination (Employment and Occupation) Convention,
-                        1958 (No. 111)
+                        Konvensyen Diskriminasi (Penggajian dan Pekerjaan), 1958 (No. 111)
                     </a>
                     . Ini ditambah dengan Saranan 111.
                 </p>
@@ -257,8 +253,7 @@ const en = () => {
                         rel="noopener noreferrer"
                         href="http://www.ilo.org/empent/Publications/WCMS_094386/lang--en/index.htm"
                     >
-                        ILO&rsquo;s Tripartite Declaration of Principles
-                        Concerning Multinational Enterprises and Social Policy
+                        Deklarasi ILO Tiga Pihak Prinsip Mengenai Usahawan Pelbagai Nasional dan Dasar Sosial
                     </a>
                     , diterima pakai pada 1977 menyatakan bahawa, walaupun konvensyen ILO dibentuk untuk kerajaan, prinsip asas mengenainya
                     boleh dan patut dipakai oleh syarikat. Kini, kebanyakan syarikat, industri dan pakatan pelbagai industri menggunakan kod
@@ -275,7 +270,7 @@ const en = () => {
                         href="http://www.ilo.org/empent/areas/business-helpdesk/lang--en/index.htm"
                         title="Helpdesk for Business on International Labor Standards"
                     >
-                        Helpdesk for Business on International Labor Standards
+                        Meja Bantuan bagi Perniagaan mengenai Standard Buruh Antarabangsa
                     </a>
                     . Ini adalah perkhidmatan percuma dan sulit yang memberi nasihat dari pakar teknikal kepada pengguna mengenai standard
                     buruh antarabangsa ILO dan mengenai Prinsip Deklarasi Pakatan Tiga Pihak tentang Usahawan Pelbagai Nasional dan Dasar Sosial.

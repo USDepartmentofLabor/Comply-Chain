@@ -22,7 +22,7 @@ const ms = () => {
                             href="http://www.ilo.org/ipec/Action/CSR/clp/lang--en/index.htm"
                             title="Child Labor Platform"
                         >
-                            Child Labor Platform
+                            Platform Buruh Kanak-Kanak
                         </a>{" "}
                         (CLP) adalah forum yang dipimpin oleh sektor perniagaan yang bertujuan untuk menangani masalah buruh kanak-kanak dalam rantai bekalan.
                         CLP berusaha untuk memberikan penyelesaian konkrit dengan menyokong syarikat anggota melalui proses komprehensif usaha wajar di semua peringkat.
@@ -35,7 +35,7 @@ const ms = () => {
                             href="http://www.ioe-emp.org/"
                             title="International Organisation of Employers (IOE)"
                         >
-                            International Organisation of Employers (IOE)
+                            Pertubuhan Majikan Antarabangsa (IOE)
                         </a>{" "}
                        dan{" "}
                         <a
@@ -44,7 +44,7 @@ const ms = () => {
                             href="https://www.ituc-csi.org/"
                             title="International Trade Union Confederation (ITUC)"
                         >
-                            International Trade Union Confederation (ITUC)
+                            Konfederasi Kesatuan Sekerja Antarabangsa (ITUC)
                         </a>{" "}
                         berkhidmat sebagai pengerusi bersama.   Pada 2015, anggota CLP, termasuk syarikat dari sektor makanan dan minuman, kosmetik, pakaian,
                         telekomunikasi dan sektor perlombongan menyumbang kepada pengeluaran{" "}
@@ -54,7 +54,7 @@ const ms = () => {
                             href="http://www.ilo.org/ipecinfo/product/download.do?type=document&amp;id=27555"
                             title="Child Labor Guidance Tool for Business"
                         >
-                            Child Labor Guidance Tool for Business
+                            Alat Panduan Buruh Kanak-Kanak bagi Perniagaan
                         </a>
                         , ditulis oleh ILO dan IOE, yang menjadi sumber bagi syarikat untuk memenuhi keperluan ketekunan wajar yang ditetapkan dalam{" "}
                         <a
@@ -63,8 +63,7 @@ const ms = () => {
                             href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                             title="United Nations Guiding Principles on Business and Human Rights"
                         >
-                            United Nations Guiding Principles on Business and
-                            Human Rights
+                            Prinsip Panduan Pertubuhan Bangsa-Bangsa Bersatu mengenai Perniagaan dan Hak Asasi Manusia
                         </a>
                         , oleh kerana ia berkenaan buruh kanak-kanak.   Perniagaan baru dan pertubuhan yang berkaitan disambut ke CLP secara berterusan.
                     </p>
@@ -104,7 +103,7 @@ const ms = () => {
                             href="http://www.alliance87.org/"
                             title="Alliance 8.7"
                         >
-                            Alliance 8.7
+                            Pakatan 8.7
                         </a>{" "}
                         rakan kongsi global yang berusaha untuk mencapai  SDG Sasaran 8.7.
                     </p>

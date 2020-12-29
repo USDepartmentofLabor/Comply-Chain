@@ -33,7 +33,7 @@ const ms = () => {
                     dijelaskan dengan lebih lanjut dalam{" "}
                     <em>
                         <Link to="/steps/4/topic/9">
-                        Assessing and Addressing Root Causes
+                        Menilai dan Menangani Penyebab Akar
                         </Link>
                     </em>
                     .
@@ -80,8 +80,7 @@ const ms = () => {
                         href="http://www.ilo.org/empent/Projects/score/lang--en/index.htm"
                         title="Sustaining Competitive and Responsible Enterprises (SCORE)"
                     >
-                        Sustaining Competitive and Responsible Enterprises
-                        (SCORE)
+                        Mengekalkan Perusahaan yang Bersaing dan Bertanggungjawab (SCORE)
                     </a>{" "}
                     program latihan untuk meningkatkan produktiviti Usahawan Kecil dan Sederhana (SME) sambil mempromosi kesedaran dan 
                     penghargaan untuk standard buruh antarabangsa ILO dan peningkatan keadaan kerja.   SCORE memberi &ldquo;latihan pelatih&rdquo; 
@@ -114,7 +113,7 @@ const ms = () => {
                             href="https://www.worldcocoafoundation.org/wp-content/uploads/2018/08/CLCCG-2016-Annual-Report.pdf"
                             title="Child Labor Cocoa Coordinating Group&rsquo;s (CLCCG) 2016 Annual Report"
                         >
-                            World Cocoa Foundation&rsquo;s* CocoaAction initiative
+                            Inisiatif Tindakan Koko Yayasan Koko Dunia*
                         </a>
                         .
                     </p>

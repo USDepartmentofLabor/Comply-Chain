@@ -16,7 +16,7 @@ const en = () => {
                         rel="noopener noreferrer"
                         href="https://www.conecomm.com/research-blog/2016-millennial-employee-engagement-study"
                     >
-                    research
+                    kajian
                     </a>
                     &nbsp;semakin banyak menunjukkan bahawa pekerja, terutama yang lebih muda, lebih suka bekerja
                     untuk syarikat-syarikat bertanggungjawab dalam hal sosial atau alam sekitar, dan mengambil

@@ -28,7 +28,7 @@ const en = () => {
                                     href="http://about.nike.com/pages/sustainable-innovation"
                                     title="sustainable innovation team"
                                 >
-                                    sustainable innovation team
+                                    pasukan inovasi lestari
                                 </a>
                                 &rdquo;, yang bertanggungjawab bukan hanya untuk pematuhan alam
                                 sekitar dan pematuhan sosial tetapi juga untuk mereka bentuk produk.

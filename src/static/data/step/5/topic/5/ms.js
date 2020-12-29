@@ -21,7 +21,7 @@ const ms = () => {
                         href="https://www.isealalliance.org/our-work/defining-credibility/codes-of-good-practice"
                         title="Code of Good Practice for Standard-Setting"
                     >
-                        Code of Good Practice for Standard-Setting
+                        Kod Amalan Baik untuk Menetapkan Standard
                     </a>{" "}
                     yang menggariskan langkah asas dalam membentuk apa pun standard. Menurut ISEAL, prosesnya harus termasuk:
                 </p>
@@ -54,7 +54,7 @@ const ms = () => {
                             href="http://www.fairlabor.org/"
                             title="Fair Labor Association"
                         >
-                            Fair Labor Association
+                            Persatuan Buruh Adil
                         </a>{" "}
                         (FLA) ialah badan pertubuhan bukan kerajaan yang memantau keadaan di kilang-kilang bersekutu untuk pematuhan dengan{" "}
                         <a
@@ -63,7 +63,7 @@ const ms = () => {
                             href="http://www.fairlabor.org/our-work/code-of-conduct"
                             title="Workplace Code of Conduct"
                         >
-                            Workplace Code of Conduct
+                            Kod Tingkah Laku di Tempat Kerja
                         </a>
                         , berdasarkan standard ILO, dan juga mempunyai peruntukan terperinci untuk memulihkan keadaan pencabulan yang dikenal pasti.
                         Kod ditambah oleh{" "}
@@ -73,7 +73,7 @@ const ms = () => {
                             href="http://www.fairlabor.org/sites/default/files/fla_complete_code_and_benchmarks.pdf"
                             title="FLA Compliance Benchmarks"
                         >
-                            FLA Compliance Benchmarks
+                            Penanda Aras Pematuhan FLA
                         </a>
                         , yang mengenalpasti standard khusus bagi setiap elemen kod.   Pada Jun 2011, Lembaga Pengarah FLA meluluskan pembaikan penting pada Kod
                         Tingkah Laku di Tempat Kerja dan Penanda aras Pematuhan.  Enam daripada sembilan elemen daripada kod yang diterima pakai sama ada baru

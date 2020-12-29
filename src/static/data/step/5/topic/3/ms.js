@@ -57,7 +57,7 @@ const ms = () => {
                         href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
                         title="ILO Convention 182"
                     >
-                        ILO Convention 182
+                        Konvensyen ILO 182
                     </a>
                     .
                 </p>
@@ -101,8 +101,7 @@ const ms = () => {
                         href="https://www.ilo.org/global/topics/forced-labour/publications/WCMS_099625/lang--en/index.htm"
                         title="Combating Forced Labor: A Handbook for Employers and Business, Booklet 3"
                     >
-                            Combating Forced Labor: A Handbook for Employers and
-                            Business, Booklet 3
+                            Memerangi Buruh Paksa: Buku Panduan untuk Majikan dan Perniagaan, Buku kecil 3
                     </a>
                     , ILO memberi panduan mengenai standard buruh paksa yang perniagaan perlu pertimbangkan untuk dimasukkan ke dalam kod mereka. Sumber berguna yang lain mengenai dasar dan standard termasuk{" "}
                     <a
@@ -111,8 +110,8 @@ const ms = () => {
                         href="https://business-humanrights.org/en/pdf-athens-ethical-principles"
                         title="Athens Ethical Principles"
                     >
-                        Athens Ethical Principles,
-                    </a>{" "}
+                        Prinsip Athens Beretika
+                    </a>,{" "}
                     atu set yang mengandungi tujuh prinsip melawan pemerdagangan manusia yang syarikat boleh ikuti secara sukarela, dan terdapat lampiran{" "}
                     <a
                         target="_blank"
@@ -120,7 +119,7 @@ const ms = () => {
                         href="https://fpbb.pl/user_upload/static/file/Luxor_Implementation_Guidelines_Ethical_Principles.pdf"
                         title="Luxor Implementation Guidelines"
                     >
-                        Luxor Implementation Guidelines
+                        Panduan Pelaksanaan Luxor
                     </a>
                     , yang boleh membantu syarikat untuk memasukkan peruntukan anti-pemerdagangan manusia dalam kod mereka; {" "}
                     <a
@@ -129,8 +128,7 @@ const ms = () => {
                         href="http://www.iccr.org/"
                         title="Interfaith Center on Corporate Responsibility&rsquo;s (ICCR)"
                     >
-                        Interfaith Center on Corporate Responsibility&rsquo;s
-                        (ICCR)
+                        Pusat Pelbagai Agama Mengenai Tanggungjawab Korporat (ICCR)
                     </a>
                     <a
                         target="_blank"
@@ -138,8 +136,7 @@ const ms = () => {
                         href="http://www.iccr.org/sites/default/files/resources_attachments/2013ICCR_HTPrinciplesFINAL112013.pdf"
                         title="Statement of Principles &amp; Recommended Practices for Confronting Human Trafficking &amp; Modern Slavery"
                     >
-                        Statement of Principles &amp; Recommended Practices for
-                        Confronting Human Trafficking &amp; Modern Slavery
+                         Kenyataan Prinsip & Saranan Amalan untuk Menghadapi Pemerdagangan Manusia & Perhambaan Moden
                     </a>
                     ; dan Persatuan Perundangan Amerika (American Bar Association - ABA){" "}
                     <a
@@ -148,8 +145,7 @@ const ms = () => {
                         href="http://www.americanbar.org/content/dam/aba/administrative/business_law/aba_model_policies.authcheckdam.pdf"
                         title="Model Business and Supplier Policies on Labor Trafficking and Child Labor"
                     >
-                        Model Business and Supplier Policies on Labor
-                        Trafficking and Child Labor
+                        Perniagaan Contoh dan Dasar Pembekal mengenai Pemerdagangan Buruh dan Buruh Kanak-kanak
                     </a>
                     .
                 </p>
@@ -169,7 +165,7 @@ const ms = () => {
                         href="http://www.responsiblesourcingtool.org/"
                         title="Responsible Sourcing Tool"
                     >
-                        Responsible Sourcing Tool
+                        Alat Mencari Sumber Bertanggungjawab
                     </a>{" "}
                     (RST). Dilancarkan pada tahun 2016 oleh{" "}
                     <a
@@ -188,7 +184,7 @@ const ms = () => {
                         href="http://www.responsiblesourcingtool.org/codeofconduct"
                         title="Sample Code of Conduct Provisions"
                     >
-                        Sample Code of Conduct Provisions
+                        Contoh Kod Tingkah Laku
                     </a>
                     , mengandungi peruntukan mengenai buruh paksa yang boleh digabungkan dengan kod tingkah laku syarikat atau industri. RST tersebut juga mengandungi alat tambahan berkaitan dengan usaha merekrut buruh, termasuk, Alat 3,{" "}
                     <a
@@ -197,7 +193,7 @@ const ms = () => {
                         href="http://www.responsiblesourcingtool.org/laborrecruitments"
                         title="Criteria for Screening and Evaluating Labor Recruitment Candidates"
                     >
-                       Evaluating Labor Recruitments
+                       Menilai Perekrutan Buruh
                     </a>
                     , yang membantu syarikat menjalankan usaha dengan ketekunan wajar dalam menyaring dan memilih perekrut buruh bagi mengurangkan risiko pemerdagangan manusia akibat amalan penyelewengan dan penipuan dalam merekrut buruh.
                 </p>
@@ -230,7 +226,7 @@ const ms = () => {
                             title="Tool 1, Sample Code of Conduct Provisions"
                         >
                             <strong>
-                                Tool 1, Sample Code of Conduct
+                                Alat 1, Sampel Kod Tingkah Laku
                             </strong>
                         </a>
                         <strong>.</strong>
@@ -244,8 +240,7 @@ const ms = () => {
                             title="Sample Benchmarks of Good Practice in Recruitment and Employment"
                         >
                             <strong>
-                                Sample Benchmarks of Good Practice in
-                                Recruitment and Employment
+                                Sampel Penanda Aras Amalan Baik dalam Perekrutan dan Penggajian
                             </strong>
                         </a>
                         .
@@ -309,7 +304,7 @@ const ms = () => {
                                                 href="https://madeinafreeworld.com/"
                                                 title="https://www.primark.com/en/our-ethics/code-of-conduct"
                                             >
-                                            Primark Code of Conduct
+                                            Kod Tingkah Laku Primark
                                             </a>
                                             .
                                         </p>
