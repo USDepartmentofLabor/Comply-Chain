@@ -46,14 +46,14 @@ const en = () => {
                         rel="noopener noreferrer"
                         href="https://business-humanrights.org/en/national-movements-for-mandatory-human-rights-due-diligence-in-european-countries"
                     >
-                    governmental and civil society movements for mandatory human rights due diligence in European countries</a>
+                    pergerakan kerajaan dan masyarakat sivil untuk ketekunan wajar yang wajib mengenai hak asasi manusia di negara-negara Eropah</a>
                     &nbsp;sebagai sebahagian daripada&nbsp;
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.business-humanrights.org/en/big-issues/mandatory-due-diligence/"
                     >
-                    mandatory due diligence </a>
+                    ketekunan wajar wajib </a>
                 </p>
                 <p>Contoh undang-undang dan peraturan mengikut; hubungi entiti yang menguatkuasakannya untuk maklumat terkini.</p>
                 <ul id="law-list">
@@ -74,9 +74,7 @@ const en = () => {
                             rel="noopener noreferrer"
                             href="https://www.gpo.gov/fdsys/pkg/FR-1999-06-16/pdf/99-15491.pdf"
                         >
-                            Executive Order 13126, Prohibition of Acquisition of
-                            Products Produced by Forced or Indentured Child
-                            Labor, and its implementing regulations
+                            Perintah Eksekutif 13126 untuk Melarang Perolehan Produk yang dikeluarkan oleh Buruh Paksa atau Buruh Kontrak Kanak-Kanak, dan peraturan yang dilaksanakan
                         </a>
                         &nbsp;ditandatangani pada 1999, memerlukan Jabatan Buruh AS untuk menerbitkan a&nbsp;
                         <a
@@ -84,7 +82,7 @@ const en = () => {
                             rel="noopener noreferrer"
                             href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products"
                         >
-                        List of Products Produced by Forced or Indentured Child Labor </a>
+                        Senarai Produk yang Dikeluarkan oleh Buruh Paksa atau Buruh Kontrak Kanak-Kanak </a>
                         dan negara asalnya. Senarai ini adalah untuk memastikan yang agensi kerajaan pusat AS tidak
                         memperoleh barangan yang dibuat oleh buruh paksa atau buruh kontrak kanak-kanak.
                         Di bawah peraturan pemerolehan, kontraktor kerajaan yang membekalkan produk di dalam senarai
@@ -110,9 +108,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="https://www.federalregister.gov/documents/2015/01/29/2015-01524/federal-acquisition-regulation-ending-trafficking-in-persons"
                                     >
-                                        Executive Order 13627 Strengthening
-                                        Protections Against Trafficking in
-                                        Persons in Federal Contracts
+                                        Perintah Ekesekutif 13627 untuk Memperkuatkan Pelindungan Terhadap Pendatang yang Diperdagang Tanpa Izin dalam Kontrak Persekutuan
                                     </a>{" "}
                                     dan Title XVII Akta Kebenaran Pertahanan Nasional untuk Tahun Fiskal 2013, Menamatkan Pemerdagangan dalam Kontrak dengan Kerajaan.
                                     Peraturan ini memperkuatkan larangan sedia ada terhadap pemerdagangan dalam kontrak dengan kerajaan dengan melarang secara tegas kontraktor,
@@ -133,7 +129,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="http://responsiblesourcingtool.org/"
                                     >
-                                        Responsible Sourcing Tool
+                                        Alat Mencari Sumber Bertanggungjawab
                                     </a>
                                     , yang dilancarkan pada 2016 oleh Verité dan Jabatan Negara AS, termasuk{" "}
                                     <a
@@ -141,7 +137,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="http://responsiblesourcingtool.org/download/footer/Tool_09.pdf"
                                     >
-                                        Compliance Plan Template
+                                        Templat Rancangan Pematuhan
                                     </a>
                                     , yang dimaksudkan untuk syarikat yang perlu menunjukkan pematuhan dalam Memerangi Pemerdagangan Manusia di bawah Peraturan Pemerolehan Persekutuan.
                                 </p>

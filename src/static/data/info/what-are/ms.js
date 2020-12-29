@@ -29,7 +29,7 @@ const ms = () => {
                         title="187 member states&nbsp;"
                     >
                         187 negara anggota
-                    </a>
+                    </a>{" "}
                     untuk membangunkan standard buruh antarabangsa, menghasilkan dasar-dasar, dan membuat program-program
                     untuk mempromosikan hak di tempat kerja dan pekerjaan yang memuaskan untuk semua.
                 </p>
