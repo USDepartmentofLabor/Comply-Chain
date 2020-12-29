@@ -12,7 +12,7 @@ const es = () => {
                                     Al igual que toda unidad empresarial exitosa, el equipo de gestión del cumplimiento social debe contar con sistemas de gestión integrados en
                                     los sistemas generales de la empresa, en lugar de aislarse del resto de las operaciones. Muchos elementos del sistema de gestión (como la evaluación
                                     de riesgos, los planes de comunicación, los sistemas de información, los mecanismos de reclamación y demanda, así como la verificación independiente)
-                                    son temas <b>de esta aplicación</b> y se analizan más a fondo en diferentes secciones.
+                                    son temas de esta aplicación y se analizan más a fondo en diferentes secciones.
                                 </p>
                                 <p>
                                     El punto de partida de la gestión de cualquier sistema o programa debe
@@ -89,7 +89,7 @@ const es = () => {
                                             Improvement
                                         </em>
                                     </a>
-                                    <em>,</em> publicada por el Pacto Mundial de las Naciones Unidas y BSR, <b>publicación conocida anteriormente como <em>Business for Social Responsibility</em></b>.
+                                    <em>,</em> publicada por el Pacto Mundial de las Naciones Unidas y BSR, publicación conocida anteriormente como <em>Business for Social Responsibility</em>.
                                 </p>
                                 <p>
                                     A nivel pr&aacute;ctico, el equipo de
@@ -133,7 +133,7 @@ const es = () => {
                                     </h4>
 
                                     <p>
-                                        &ldquo;Los participantes deben adoptar o establecer un sistema de gestión cuyo ámbito esté
+                                        Los participantes deben adoptar o establecer un sistema de gestión cuyo ámbito esté
                                         relacionado con el contenido de este Código. El sistema de gestión estará diseñado para garantizar:
                                         (a) el cumplimiento de las leyes, las normativas y los requisitos de los clientes aplicables en relación
                                         con las operaciones y los productos del Participante; (b) la conformidad con este Código; y (c) la identificación y

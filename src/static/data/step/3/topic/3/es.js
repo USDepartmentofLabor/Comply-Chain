@@ -274,7 +274,7 @@ const es = () => {
                                 seg&uacute;n corresponda.
                             </li>
                             <li>
-                                Ofrecen conocimientos especializados <strong>en</strong> enfoques de remediación, como los derechos de los niños, situaciones de <strong>abuso</strong> y otras <strong>problemáticas</strong>.
+                                Ofrecen conocimientos especializados en enfoques de <b>remediación</b>, como los derechos de los niños, situaciones de <strong>abuso</strong> y otras <strong>problemáticas</strong>.
                             </li>
                             <li>
                                 Contribuyen u ofrecen comentarios para los{" "}
