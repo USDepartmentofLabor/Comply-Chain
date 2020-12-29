@@ -37,7 +37,7 @@ const ms = () => {
                             href="http://www.ethicaltrade.org/resources/homeworker-project-resource-downloads"
                             title="ETI Homeworker Guidelines"
                         >
-                            ETI Homeworker Guidelines
+                            Panduan pekerja di rumah ETI
                         </a>{" "}
                         <em>
                         untuk peruncit dan pembekal
@@ -55,7 +55,7 @@ const ms = () => {
                             href="https://traidcraftexchange.org/project-hidden-homeworkers"
                             title="Hidden Homeworkers Programme"
                         >
-                            Hidden Homeworkers Programme
+                            Program Pekerja Sembunyi di Rumah
                         </a>
                             —kerjasama di antara {" "}
                         <a
@@ -75,7 +75,7 @@ const ms = () => {
                         >
                             HomeNet South Asia
                         </a>
-                        ,* dan {" "}
+                        ,* dan{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -91,7 +91,7 @@ const ms = () => {
                             href="https://hnsa.org.in/"
                             title="Preventing Child Labour Toolkit"
                         >
-                            Preventing Child Labour Toolkit
+                            Peralatan Menghindari Buruh Kanak-kanak
                         </a>
                         {" "}dibentuk, termasuk panduan praktikal untuk menangani buruh kanak-kanak dalam pengeluaran kraftangan yang 
                         dibuat di rumah.   Projek bertujuan untuk memperluaskan ketelusan dan pengesanan sistem yang dipimpin oleh 

@@ -18,7 +18,7 @@ const ms = () => {
                         href="http://www.ilo.org/ipec/Action/Childlabourmonitoring/lang--en/index.htm"
                         title="community-based child labor monitoring"
                     >
-                        community-based child labor monitoring
+                        memantau buruh kanak-kanak dalam masyarakat
                     </a>{" "}
                     sebagai alternatif kepada audit secara formal. Pendekatan ini telah diuji dalam pengeluaran pertanian kecil terutamanya. 
                 </p>
@@ -69,8 +69,7 @@ const ms = () => {
                             title="Independent Final Evaluation Cambodians EXCEL Project"
                         >
                             <em>
-                                Independent Final Evaluation Cambodians EXCEL
-                                Project
+                                Projek EXCEL Kemboja Penilaian Terakhir yang Bebas
                             </em>
                         </a>
                         <em>, 2016</em>.

@@ -37,7 +37,7 @@ const ms = () => {
                             href="http://www.sa-intl.org/"
                             title="Social Accountability International (SAI)"
                         >
-                            Social Accountability International (SAI)
+                            Kebertanggungjawapan Sosial Antarabangsa (SAI)
                         </a>
                         * ialah pertubuhan badan bukan kerajaan yang memberi fokus kepada 
                         usaha hak asasi manusia. Pada 1997, sebagai sebahagian daripada inisiatif pelbagai pihak berkepentingan, 
@@ -48,7 +48,7 @@ const ms = () => {
                             href="http://www.sa-intl.org/_data/global/files/SA8000Standard2014(3).pdf"
                             title="Social Accountability (SA8000) Standard"
                         >
-                            Social Accountability (SA8000) Standard
+                            Standard Kebertanggungjawapan Sosial (SA8000)
                         </a>{" "}
                         SA8000 ialah standard persijilan sosial antarabangsa bagi kilang-kilang dan pertubuhan yang, selepas bertahun-tahun, 
                         telah berubah menjadi kerangka inklusif yang membantu pertubuhan menunjukkan pematuhan sosial yang berkualiti tinggi 
@@ -59,7 +59,7 @@ const ms = () => {
                             href="http://www.saasaccreditation.org/"
                             title="Social Accountability Accreditation Services (SAAS)"
                         >
-                            Social Accountability Accreditation Services (SAAS)
+                            Perkhidmatan Pentauliahan Kebertanggungjawapan Sosial (SAAS)
                         </a>{" "}
                         pada 1997. SAAS kemudian menjadi pertubuhan bukan kerajaan yang berasingan pada 2007. SAAS ialah agensi yang memberi 
                         tauliah dan memantau pertubuhan sebagai pengesah pematuhan dengan standard sosial, termasuk SA8000, untuk tempat 

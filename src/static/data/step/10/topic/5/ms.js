@@ -139,7 +139,7 @@ const ms = () => {
                         href="https://www8.hp.com/us/en/hp-information/global-citizenship/index.html"
                         title="reporting on due diligence efforts"
                     >
-                        reporting on due diligence efforts
+                        melaporkan usaha ketekunan wajar
                     </a> {" "}
                    
                     memberi maklumat tentang hasil dan komitmen.
@@ -157,8 +157,7 @@ const ms = () => {
                         href="https://www.gsk.com/en-gb/responsibility/operating-responsibly/human-rights-and-modern-slavery/"
                         title="addressing issues of human rights and modern slavery"
                     >
-                        addressing 
-                issues of human rights and modern slavery
+                        menangani isu hak asasi manusia dan perhambaan moden
                     </a>
                 
                 . 
@@ -185,7 +184,7 @@ const ms = () => {
                         href="https://www.nestle.com/sites/default/files/2019-12/nestle-tackling-child-labor-report-2019-en.pdf"
                         title="tackling child labor"
                     >
-                        Tackling Child Labor
+                        Menangani Buruh Kanak-kanak
                     </a> {" "}
                   
                  .
@@ -202,7 +201,7 @@ const ms = () => {
                         href="http://www.google.com/transparencyreport"
                         title="transparency report "
                     >
-                        Transparency Report
+                        Laporan Ketelusan
                     </a> {" "}
                  
                     menyediakan data mengenai permohonannya untuk membuang isi kandungan dan data pengguna, yang menjadi cabaran utama 

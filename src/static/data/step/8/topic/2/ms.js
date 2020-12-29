@@ -72,7 +72,7 @@ const ms = () => {
                 <p>
                     Tiada kanak-kanak bawah umur 18 patut terlibat dalam Buruh Kanak-Kanak yang Terburuk seperti yang ditetapkan dalam Konvensyen 
                     ILO 182 (sila lihat {" "}
-                    <Link to="/steps/5">Step 3, Develop a Code of Conduct</Link>
+                    <Link to="/steps/5">Langkah 3, Bina Kod Tingkah Laku</Link>
                     ). Sekiranya kanak-kanak terdapat dalam keadaan seperti itu, pendekatan yang paling baik termasuk:
                 </p>
                 <ul>
@@ -133,8 +133,7 @@ const ms = () => {
                             href="https://www.dol.gov/agencies/ilab/piloting-usda-guidelines-hazelnut-supply-chain-turkey-0"
                             title="Guidelines for Eliminating Child and Forced Labor in Agricultural Supply Chains"
                         >
-                            Guidelines for Eliminating Child and Forced Labor in
-                            Agricultural Supply Chains
+                            Panduan untuk Membasmi Buruh Kanak-kanak dan Buruh Paksa dalam Rantai Bekalan Pertanian
                         </a>
                         &rdquo; dalam rantai bekalan kacang hazel Nestlé, Balsu, dan Olam di Turkey. Pelaksanaan projek bermula pada 2016. Projek 
                         yang menghasilkan pandangan baru kepada pergerakan pekerja migran dan penglibatan mereka dalam rantai bekalan lain, seperti 
@@ -147,7 +146,7 @@ const ms = () => {
                             href="https://www.fairlabor.org/sites/default/files/documents/reports/harvesting_the_future_june_2018.pdf"
                             title="Harvesting the Future"
                         >
-                            Harvesting the Future
+                            Menuai Hasil Masa Depan
                         </a>
                         , yang memberi pelajaran terperinci dari ujian perintis tersebut dan saranan bagi syarikat-syarikat lain yang ingin menubuhkan 
                         program berdasarkan garis panduan ini, projek {" "}
@@ -157,7 +156,7 @@ const ms = () => {
                             href="https://www.dol.gov/sites/dolgov/files/ILAB/evaluation_type/final_evaluation/Turkey_FLA_feval.pdf"
                             title="External Final Evaluation"
                         >
-                            External Final Evaluation
+                            Penilaian Luar Terakhir
                         </a>
                         {" "}
                         yang dikendali bersama Jabatan Buruh AS.
@@ -189,7 +188,7 @@ const ms = () => {
                         href="http://www.unodc.org/unodc/en/frontpage/2010/September/un-launches-global-plan-of-action-against-human-trafficking.html"
                         title="Global Plan of Action to Trafficking in Persons"
                     >
-                        Global Plan of Action to Trafficking in Persons
+                        Tindakan Rancangan Global untuk Memerangi Pemerdagangan Manusia
                     </a>
                     , PBB telah membentuk pelbagai alat untuk memberi layanan yang sesuai dan perkhidmatan bagi buruh paksa/mangsa pemerdagangan. 
                     Banyak boleh didapati dalam pelbagai bahasa. Sumber yang disarankan termasuk:
@@ -202,7 +201,7 @@ const ms = () => {
                             href="http://www.unodc.org/documents/human-trafficking/TIP_1st_AidKit_English_V0981429.pdf"
                             title="First Aid Kit for Use by Law Enforcement Responders in Addressing Human Trafficking"
                         >
-                            First Aid Kit for Use by Law Enforcement First Responders in Addressing Human Trafficking
+                            Alat Kecemasan untuk Kegunaan Anggota Kecemasan Pihak Berkuasa dalam Menangani Pemerdagangan Manusia
                         </a>
                     </li>
                     <li>
@@ -212,8 +211,7 @@ const ms = () => {
                             href="https://humantraffickinghotline.org/resources/victim-translation-assistance-tool-life-support-messages-victims-human-trafficking"
                             title="Victim Translation Assistance Tool: Life Support Messages for Victims of Human Trafficking"
                         >
-                            Victim Translation Assistance Tool: Life Support
-                            Messages for Victims of Human Trafficking
+                            Alat Bantuan Terjemahan untuk Mangsa: Pesanan untuk Menyelamat Nyawa bagi Mangsa Pemerdagangan Manusia
                         </a>
                     </li>
                 </ul>

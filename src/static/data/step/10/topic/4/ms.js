@@ -66,7 +66,7 @@ const ms = () => {
                         href="https://indd.adobe.com/view/4afb053a-306c-4f52-8612-f77b23c7d466"
                         title="Transparency Report in 2018"
                     >
-                        Transparency Report in 2018
+                        Laporan Ketelusan pada 2018
                     </a>
                     
                     . Uncommon Cacao bekerjasama secara berkumpulan dengan hampir 4,000 petani dalam tujuh buah negara yang mengeluarkan 
