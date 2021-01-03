@@ -252,7 +252,7 @@ const ms = () => {
                             href="http://responsiblesourcingtool.org/"
                             title="ResponsibleSourcingTool.org"
                         >
-                            ResponsibleSourcingTool.org
+                            Alat Mencari Sumber Bertanggungjawab
                         </a>{" "}
                         direka melalui kerjasama di antara Jabatan Negara AS,{" "}
                         <a

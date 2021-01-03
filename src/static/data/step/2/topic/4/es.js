@@ -137,7 +137,7 @@ const es = () => {
                                         relacionado con el contenido de este Código. El sistema de gestión estará diseñado para garantizar:
                                         (a) el cumplimiento de las leyes, las normativas y los requisitos de los clientes aplicables en relación
                                         con las operaciones y los productos del Participante; (b) la conformidad con este Código; y (c) la identificación y
-                                        disminución de riesgos operativos relacionados con el presente. También debe facilitar una mejora continua.&rdquo;
+                                        disminución de riesgos operativos relacionados con el presente. También debe facilitar una mejora continua.
                                     </p>
                                     <p>
                                         Extra&iacute;do de la <em />

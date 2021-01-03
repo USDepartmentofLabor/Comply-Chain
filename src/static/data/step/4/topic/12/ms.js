@@ -174,8 +174,7 @@ const ms = () => {
                                                        title="Trafficking in Human Beings: New Approaches to Combating the Problem"
                                                    >
                                                        <em>
-                                                           Trafficking in Human Beings: New Approaches to
-                                                           Combating the Problem
+                                                           Pemerdagangan Manusia: Pendekatan Baru untuk memerangi Masalah tersebut
                                                        </em>
                                                    </a>
                                                    , Mei 2003.

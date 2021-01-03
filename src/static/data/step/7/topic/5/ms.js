@@ -266,8 +266,7 @@ const ms = () => {
                             href="http://www.etiskhandel.no/noop/file.php?id=1580"
                             title="Child Labour Toolkit, Responsible Approaches to Child Labour in the Textile and Garment Industry"
                         >
-                            Child Labour Toolkit, Responsible Approaches to Child
-                            Labour in the Textile and Garment Industry
+                            Peralatan Buruh Kanak-kanak, Pendekatan Bertanggungjawab mengenai Buruh Kanak-kanak dalam Industri Pakaian dan Tekstil
                         </a>
                         , 2006.
                     </p>

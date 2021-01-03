@@ -18,7 +18,7 @@ const en = () => {
                     Ada dokumen kod yang dibuat secara am - cuma menyatakan secara am tentang pematuhan -- dan yang lain pula lebih khusus. Dalam kedua-dua hal,
                     kod selalunya menjadi asas bagi panduan yang lebih terperinci bagi pembuat keputusan yang melaksanakan sistem pematuhan sosial dalam syarikat.
                     Contohnya, alat mengaudit yang didapati dari kod dibincangkan di bawah{" "}
-                    <Link to="/steps/7">Step 5, Monitor Compliance</Link>.
+                    <Link to="/steps/7">Langkah 5, Pantau Pematuhan</Link>.
                 </p>
                 <h2>Contoh Kod</h2>
                 <p>

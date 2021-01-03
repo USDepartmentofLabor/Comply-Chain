@@ -107,8 +107,7 @@ const ms = () => {
                             title="Project to Prevent Child Labor in Home-Based Carpet Production in Afghanistan"
                         >
                             <em>
-                                Project to Prevent Child Labor in Home-Based
-                                Carpet Production in Afghanistan
+                                Projek untuk Mencegah Buruh Kanak-Kanak di dalam Rumah bagi Pengeluaran Permaidani di Afghanistan
                             </em>
                         </a>
                         <em>, </em>dilaksanakan oleh GoodWeave, di{" "}

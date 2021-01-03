@@ -330,7 +330,7 @@ const ms = () => {
                                      <Accordion id="recruit-fee-acc"> */}
                                        <Accordion.Section id="recruit-fee-description">
                                           <Accordion.Title>
-                                          RECRUITMENT FEES AND TRANSPORTATION EXPENSES
+                                          Penanda Aras Perekrutan dan Penggajian
                                              </Accordion.Title>
                                              <Accordion.Panel>
                                                 <p>
