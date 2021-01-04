@@ -49,7 +49,7 @@ const SearchButton = styled(Button)`
     }
 `;
 
-const SearchResultsHeader = styled.h1`
+const SearchResultsHeader = styled.h2`
     font-size: 17px;
     color: ${theme.colors.base};
     margin-bottom: 10px;
@@ -64,7 +64,7 @@ const SearchResult = styled.div`
     padding: 0 20px 20px;
 `;
 
-const ResultHeading = styled.h2`
+const ResultHeading = styled.h3`
     font-size: 18px;
 `;
 
@@ -386,9 +386,9 @@ class Search extends Component {
                 <h1>{localizor.strings.general.search}</h1>
                 {query && !searching && (
                     <SearchResultsHeader>
-                       <h2> {results.length}{" "}
+                        {results.length}{" "}
                         {localizor.strings.general.searchResultsFor.toLowerCase()}{" "}
-                        "<span className="query">{query}</span>"</h2>
+                        "<span className="query">{query}</span>"
                     </SearchResultsHeader>
                 )}
                 <form action="." onSubmit={this.handleSubmit}>
@@ -423,7 +423,7 @@ class Search extends Component {
                         <SearchResult key={`search_results_${i}`}>
                             {result.to && (
                                 <ResultHeading>
-                                    <h3><ResultTitle
+                                    <ResultTitle
                                         to={this.createSearchQueryUrl(
                                             result.to,
                                             query
@@ -433,7 +433,7 @@ class Search extends Component {
                                         }
                                     >
                                         {result.title}
-                                    </ResultTitle></h3>
+                                    </ResultTitle>
                                 </ResultHeading>
                             )}
                             <p>
