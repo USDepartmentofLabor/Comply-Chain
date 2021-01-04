@@ -33,7 +33,7 @@ const fr = () => {
                                <a
                                target="_blank"
                                rel="noopener noreferrer"
-                               href="https://www.dol.gov/ilab/about/laws/#eo13126"
+                               href="https://www.dol.gov/agencies/ilab/about/laws"
                                title="D&eacute;cret ex&eacute;cutif 13126"
                                >
                                décret présidentiel 13126

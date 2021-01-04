@@ -36,7 +36,7 @@ const ms = () => {
                         href="https://www.fairtradecertified.org"
                         title="Fair Trade Certified"
                     >
-                        Fair Trade Certified
+                        Sijil Perdagangan Adil
                     </a>{" "}
                     .
                 </p>
@@ -48,7 +48,7 @@ const ms = () => {
                         href="http://www.isealalliance.org/"
                         title="ISEAL Alliance"
                     >
-                        ISEAL Alliance
+                        Perikatan ISEAL
                     </a>
                     , persatuan dalam pertubuhan yang mengeluarkan panduan mengenai penubuhan dan
                     pelaksanaan standard yang berkaitan dengan kelestarian.
@@ -107,8 +107,7 @@ const ms = () => {
                             title="Project to Prevent Child Labor in Home-Based Carpet Production in Afghanistan"
                         >
                             <em>
-                                Project to Prevent Child Labor in Home-Based
-                                Carpet Production in Afghanistan
+                                Projek untuk Mencegah Buruh Kanak-Kanak di dalam Rumah bagi Pengeluaran Permaidani di Afghanistan
                             </em>
                         </a>
                         <em>, </em>dilaksanakan oleh GoodWeave, di{" "}

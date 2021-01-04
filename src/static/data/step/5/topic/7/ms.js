@@ -16,7 +16,7 @@ const ms = () => {
                 </p>
                 <p>
                     <Link to="/steps/4">
-                        Step 4, Communicate and Train Across Your Supply Chain
+                        Langkah 4: Berkomunikasi dan Berlatih di Sepanjang Rantai Bekalan Anda
                     </Link>{" "}
                     akan berbincang mengenai semua hal mengenai cara untuk berkomunikasi tentang kod dan sistem pematuhan kepada pelbagai pendengar;
                     pekerja anda, pengurus bekalan, dan penyelia, pekerja di tempat rantai bekalan, kerajaan, pekerja pertubuhan, kumpulan komuniti

@@ -22,7 +22,7 @@ const ms = () => {
                     terselamat dari rogol, penderaan seksual, penderita HIV/AIDS, dan pekerja tanpa dokumen. Sekurang-kurangnya, penilaian harus melibatkan kajian,
                     penyelidikan di lapangan  di negara/ masyarakat sasaran, dan kemudian audit awal di peringkat permulaan bagi menilai tahap pematuhan semasa.
                     Maklumat lanjut mengenai bagaimana melakukan jenis audit ini termasuk dalam{" "}
-                    <Link to="/steps/5">Step 5, Monitor Compliance</Link>.
+                    <Link to="/steps/5">Langkah 5, Pantau Pematuhan</Link>.
                 </p>
                 <p>
                     Sekiranya syarikat sudah mempunyai rantai bekalan yang mapan di mana ia mempunyai hubungan perniagaan yang agak stabil, anda harus menilai kesan dan
@@ -30,7 +30,7 @@ const ms = () => {
                     maklumat tentang pembekal yang lebih perlu dipantau, kajian di pejabat, kajian di padang di tempat sasaran, dan audit awal di peringkat permulaan mengenai
                     pembekal untuk menilai pematuhan semasa mereka. Data awal ini akan membantu anda mengenalpasti bidang yang boleh diperbaiki bagi pembekal. Maklumat lanjut
                     mengenai bagaimana melakukan jenis audit ini termasuk dalam{" "}
-                    <Link to="/steps/5">Step 5, Monitor Compliance</Link>.
+                    <Link to="/steps/5">Langkah 5, Pantau Pematuhan</Link>.
                 </p>
             </div>
         </StaticData>

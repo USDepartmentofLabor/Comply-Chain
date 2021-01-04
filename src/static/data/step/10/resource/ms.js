@@ -71,7 +71,7 @@ const ms = () => {
                         .
                     </li>
                     <li>
-                    Nestlé. Tackling Child Labor. 2019 Report; available from{" "}
+                    Nestlé. Menangani Buruh Kanak-kanak. Laporan 2019; boleh didapati dari{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

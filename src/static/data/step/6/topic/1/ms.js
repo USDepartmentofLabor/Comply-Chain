@@ -48,7 +48,7 @@ const ms = () => {
                         href="https://www.dol.gov/sites/dolgov/files/ILAB/MexicoCdE_meval.pdf"
                         title="Mid-term evaluation"
                     >
-                    mid-term evaluation
+                    penilaian penggal pertengahan
                     </a>
                     &nbsp;mendapati sektor tebu peringkat kebangsaan memainkan peranan dalam menyokong projek OSH di kilang gula sebagai 
                     langkah pertama ke arah membaiki keadaan tempat kerja. 

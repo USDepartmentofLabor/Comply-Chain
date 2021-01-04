@@ -59,14 +59,14 @@ const ms = () => {
                         B Corporation
                     </a> {" "}
             
-                    yang memberi fokus kepada rantai bekalan koko yang menerbitkan laporan tahun ketu {" "}
+                    yang memberi fokus kepada rantai bekalan koko yang menerbitkan laporan tahun ketujuh {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://indd.adobe.com/view/4afb053a-306c-4f52-8612-f77b23c7d466"
                         title="Transparency Report in 2018"
                     >
-                        Transparency Report in 2018
+                        Laporan Ketelusan pada 2018
                     </a>
                     
                     . Uncommon Cacao bekerjasama secara berkumpulan dengan hampir 4,000 petani dalam tujuh buah negara yang mengeluarkan 

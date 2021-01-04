@@ -68,8 +68,7 @@ const ms = () => {
                         href="http://impacttlimited.com/wp-content/uploads/2017/01/Impactt_CLOPIndustrialcontexts_REVISION_26112008.pdf"
                         title="Operational Procedures for Remediation of Child Labour in Industrial Contexts"
                     >
-                        Operational Procedures for Remediation of Child Labour
-                        in Industrial Contexts
+                        Prosedur Operasi untuk Pemulihan Buruh Kanak-kanak dalam Konteks Industri
                     </a>{" "}
                     memberi panduan terperinci dalam memperbaiki keadaan mangsa dan menghindari kejadian buruh kanak-kanak berulang sekiranya 
                     terdapat dalam persekitaran kilang pembuatan.
@@ -124,8 +123,7 @@ const ms = () => {
                         href="https://uk.reuters.com/article/slavery-conference-award/apple-wins-global-award-for-efforts-to-eradicate-slave-labour-idUKL8N1WY5IG"
                         title="Stop Slavery Award by the Thomson Reuters Foundation"
                     >
-                        Stop Slavery Award by the Thomson Reuters 
-                    Foundation
+                        Hadiah Hentikan Perhambaan oleh Yayasan Thomson Reuters
                     </a>{" "}
                         kerana memberikan maklumat awam terperinci mengenai rantai bekalan dalam meningkatkan ketelusan dan 
                         menamatkan perhambaan zaman moden. 
@@ -138,7 +136,7 @@ const ms = () => {
                         href="https://www.apple.com/supplier-responsibility/pdf/Apple-Supplier-Code-of-Conduct-January.pdf"
                         title="Supplier Code of Conduct"
                     >
-                        Supplier Code of Conduct
+                        Kod Tingkah Laku Pembekal
                     </a>{""}
                     
                     , Apple—syarikat teknologi multinasional Amerika—memberi mandat kepada pembekal supaya tidak mengenakan yuran 

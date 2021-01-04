@@ -86,7 +86,7 @@ const ms = () => {
                                 Sekiranya syarikat memilih untuk menggunakan pengaudit dalam atau luar, mungkin perlu untuk melibatkan entiti 
                                 bebas untuk memainkan peranan dalam sistem pematuhan sosial sekiranya mereka ingin meningkatkan keberkesanan 
                                 dan kebolehpercayaan ke tahap maksimum. Sila lihat{" "}
-                                  <Link to="/steps/9">Step 7, Independent Review</Link> untuk perbincangan lebih luas mengenai pemantauan 
+                                  <Link to="/steps/9">Langkah 7, Kaji Semula Secara Bebas</Link> untuk perbincangan lebih luas mengenai pemantauan
                                   bebas dan pengesahan. 
                             </p>
                           </Accordion.Panel>
@@ -103,8 +103,7 @@ const ms = () => {
                         href="http://www.theapsca.org/"
                         title="Association of Professional Social Compliance Auditors (APSCA)"
                     >
-                        Association of Professional Social Compliance Auditors
-                        (APSCA)
+                        Persatuan Pengaudit Pematuhan Sosial Profesyenal (APSCA)
                     </a>{" "}
                     ialah badan yang terdiri dari anggota profesional yang berusaha untuk menubuhkan proses persijilan untuk pengaudit pematuhan 
                     sosial. Pengetahuan yang diperlukan termasuk pemahaman terperinci mengenai standard buruh antarabangsa, persekitaran 
@@ -193,7 +192,7 @@ const ms = () => {
                             href="http://betterwork.org/our-work/factory-services"
                             title="Better Work advisors"
                         >
-                            Better Work advisors
+                            Penasihat Better Work
                         </a>{" "}
                         diambil bekerja dari tempatan dan menerima latihan yang luas. Penasihat baru selalu dipadankan dengan rakan yang lebih 
                         berpengalaman, dan tiada dua penasihat yang sama dipadankan untuk membuat lawatan selanjutnya ke kilang-kilang tertentu. 

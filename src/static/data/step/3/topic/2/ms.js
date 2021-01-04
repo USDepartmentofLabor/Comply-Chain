@@ -95,7 +95,7 @@ const ms = () => {
                             href="https://www.iso.org/standard/42546.html"
                             title="26000, Guidance on Social Responsibility"
                         >
-                            26000, Guidance on Social Responsibility
+                            26000, Panduan mengenai Tanggungjawab Sosial
                         </a>
                         <em>, 2010</em>.
                     </p>

@@ -17,11 +17,9 @@ const fr = () => {
                 </p>
 
                 <p>
-                    L&apos;LAB tient à jour une liste des biens et de leurs pays d&apos;origine dont il ya lieu de penser qu&apos;ils sont issus du
-                    travail des enfants ou du travail forcé en contravention des normes internationales, tel qu&apos;exigé par la Loi de réautorisation
-                    de la protection des victimes de la traite (TVPRA) de 2005 et réautorisations ultérieures ; elle n&rsquo;a pas pour vocation d&rsquo;&ecirc;tre punitive mais plut&ocirc;t de
-                    service de catalyseur pour une coordination et une collaboration plus strat&eacute;giques et 
-                    concentr&eacute;es entre les parties prenantes qui s&rsquo;attaquent &agrave; ces probl&egrave;mes.
+                    L’ILAB tient cette liste à jour principalement pour sensibiliser le public au travail forcé et au travail des enfants dans le monde et
+                    pour encourager les efforts de lutte contre ces fléaux ; elle n’a pas pour vocation d’être punitive mais plutôt de service de catalyseur
+                    pour une coordination et une collaboration plus stratégiques et concentrées entre les parties prenantes qui s’attaquent à ces problèmes.
                 </p>
 
                 <p>

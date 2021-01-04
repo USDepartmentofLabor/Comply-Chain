@@ -213,7 +213,7 @@ export const Topics = {
                     },
                     {
                         keywords: [],
-                        title: "Mengapa melakukan Penilaian Risiko dan Impak?",
+                        title: "Menilai Kesan Dalaman dan Faktor Risiko",
                         content: Topic2.ms
                     },
                     {

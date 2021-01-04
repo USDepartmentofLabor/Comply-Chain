@@ -80,7 +80,7 @@ const ms = () => {
                                               rel="noopener noreferrer"
                                               href="https://www.dole.gov.ph/social-amelioration-program-sap-in-the-sugar-industry/"
                                           >
-                                              Social Amelioration Program (SAP)
+                                              Program Penambahbaikan Sosial (SAP)
                                           </a>
                                           , yang mengedar wang tunai bonus kepada pekerja dalam industri gula untuk menambah pendapatan mereka, memberi dana untuk projek sosio-ekonomi, dan menyediakan kemudahan lain, seperti untuk kematian dan kemudahan untuk ibu-ibu.
                                           SAP ditadbirkan oleh Jabatan Buruh dan Penggajian (DOLE) dan dibiayai oleh duit yang dikumpul dari pengeluaran gula. Bekerjasama dengan DOLE, Sugar Industry Foundation Inc adalah satu entiti yang bertanggungjawab untuk menyampaikan
@@ -124,7 +124,7 @@ const ms = () => {
                                                                href="https://leberjeweler.com/our-story/about-the-designers/"
                                                                title="Jewelers&rsquo; Burma Relief Project"
                                                            >
-                                                               Jewelers&rsquo; Burma Relief Project
+                                                               Projek Bantuan Myanmar oleh Penjual Barang Kemas
                                                            </a>
                                                            , yang kerjasama syarikat yang berfikiran sama dengan badan bukan kerajaan (NGO), seperti  Yayasan Rakyat Myanmar (Foundation for the People of Burma*) dan Planet Care*, untuk memberikan bantuan
                                                            kemanusiaan kepada rakyat Myanmar dari pelbagai latar dan agama.  Projek ini juga merupakan usaha melobi di Kongres AS yang membawa kepada kelulusan{" "}
@@ -134,7 +134,7 @@ const ms = () => {
                                                                href="https://www.congress.gov/110/plaws/publ286/PLAW-110publ286.pdf"
                                                                title="Tom Lantos Block Burmese JADE Act of 2008"
                                                            >
-                                                               Tom Lantos Block Burmese JADE Act of 2008
+                                                               Akta Tom Lantos Block Burmese JADE (2008) (Akta Tom Lantos Menyekat JADE Burma 2008)
                                                            </a>
                                                            , yang melarang import permata batu rubi dari Myanmar dan permata batu jed masuk ke AS. Larangan itu dihentikan pada 2016 apabila semua sekatan ke atas Myanmar ditarik balik dengan Perintah Eksekutif.
                                                        </p>
@@ -174,8 +174,7 @@ const ms = () => {
                                                        title="Trafficking in Human Beings: New Approaches to Combating the Problem"
                                                    >
                                                        <em>
-                                                           Trafficking in Human Beings: New Approaches to
-                                                           Combating the Problem
+                                                           Pemerdagangan Manusia: Pendekatan Baru untuk memerangi Masalah tersebut
                                                        </em>
                                                    </a>
                                                    , Mei 2003.
@@ -209,7 +208,7 @@ const ms = () => {
                                           href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
                                           title="General principles and operational guidelines for fair recruitment and Definition of recruitment fees and related costs"
                                       >
-                                      General principles and operational guidelines for fair recruitment and Definition of recruitment fees and related costs
+                                      Prinsip am dan panduan operasi bagi perekrutan adil dan Definisi yuran perekrutan dan kos berkaitan
                                       </a>
                                       &nbsp;untuk membantu syarikat mendirikan mekanisme keselamatan sebagai sebahagian daripada&nbsp;
                                       <a
@@ -218,7 +217,7 @@ const ms = () => {
                                             href="https://www.ilo.org/global/topics/fair-recruitment/lang--en/index.htm"
                                             title="Fair Recruitment Initiative"
                                         >
-                                      Fair Recruitment Initiative
+                                      Inisiatif Perekrutan Adil
                                       </a>
                                       . Sebagai sebahagian daripada inisiatif, ILO telah mengumpul &nbsp;
                                       <a
@@ -226,7 +225,7 @@ const ms = () => {
                                           rel="noopener noreferrer"
                                           href="https://www.ilo.org/gimi/FRI.action"
                                       >
-                                      interactive map
+                                      peta interaktif
                                       </a>
                                       , yang menyerlahkan pandangan global undang-undang negara, dasar, dan peraturan yang menetapkan yuran merekrut dan kos berkaitan.
                                       </p>
@@ -237,7 +236,7 @@ const ms = () => {
                                             rel="noopener noreferrer"
                                             href="https://www.federalregister.gov/documents/2018/12/20/2018-27541/federal-acquisition-regulation-combating-trafficking-in-persons-definition-of-recruitment-fees"
                                         >
-                                      defined recruitment fees
+                                      yuran perekrutan yang dimaksudkan
                                       </a>
                                       &nbsp; untuk melaksanakan Peraturan Pemerolehan Persekutuan (FAR) dalam usaha untuk mengurangkan risiko pemerdagangan manusia. Melarang kontraktor daripada
                                       mengenakan yuran merekrut adalah elemen utama dalam memerangi pemerdagangan manusia.
@@ -256,7 +255,7 @@ const ms = () => {
                                                   rel="noopener noreferrer"
                                                   href="https://www.aafaglobal.org/"
                                               >
-                                            American Apparel & Footwear Association
+                                            Persatuan Pakaian & Kasut Amerika
                                             </a>
                                             &nbsp;dan the&nbsp;
                                             <a
@@ -264,7 +263,7 @@ const ms = () => {
                                                   rel="noopener noreferrer"
                                                   href="https://www.fairlabor.org/"
                                               >
-                                            Fair Labor Association
+                                            Persatuan Buruh Adil
                                             </a>
                                             &nbsp;melancarkan usaha industri bersama  – Komitmen untuk Merekrut Secara Bertanggungjawab  - untuk menangani kemungkinan risiko buruh paksa bagi
                                             pekerja migran dalam rantai bekalan global.
@@ -280,7 +279,7 @@ const ms = () => {
                                                 rel="noopener noreferrer"
                                                 href=""
                                             >
-                                          Action Plan on Responsible Recruitment in Malaysia
+                                          Pelan Tindakan untuk Perekrutan yang Bertanggungjawab di Malaysia
                                           </a>
                                           &nbsp;sebagai cara untuk menukar komitmen lisan kepada tindakan.
                                          </p>
@@ -332,7 +331,7 @@ const ms = () => {
                                                   href="https://knowthechain.org/themes/19/"
                                               >
                                             https://knowthechain.org/themes/19/
-                                            </a> and&nbsp;
+                                            </a> dan&nbsp;
                                             <a
                                                   target="_blank"
                                                   rel="noopener noreferrer"

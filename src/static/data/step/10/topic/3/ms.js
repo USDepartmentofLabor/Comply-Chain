@@ -40,7 +40,7 @@ const ms = () => {
                         rel="noopener noreferrer"
                         href="https://www.globalreporting.org/Pages/default.aspx"
                     >
-                        Global Reporting Initiative (GRI)
+                        Inisiatif Laporan Global (GRI)
                     </a>{" "}
                     Global Reporting Initiative (GRI), pertubuhan berdasarkan rangkaian yang mengeluarkan kerangka laporan yang 
                     banyak digunakan oleh syarikat-syarikat seluruh dunia. Kerangka GRI menetapkan prinsip dan penunjuk prestasi 
@@ -53,7 +53,7 @@ const ms = () => {
                         href="http://database.globalreporting.org/"
                         title="database"
                     >
-                        database
+                        pengkalan data
                     </a>{" "}
                     CSR syarikat dan laporan kelestarian bagi kegunaan awam secara percuma.
                 </p>
@@ -65,7 +65,7 @@ const ms = () => {
                         href="https://www.ungpreporting.org/about-us/"
                         title="UN Guiding Principles Reporting Framework"
                     >
-                        UN Guiding Principles Reporting Framework
+                        Kerangka Melapor Prinsip Panduan PBB
                     </a>
                     . Kerangka Laporan yang menyediakan panduan komprehensif dan soalan di mana syarikat boleh membandingkan penanda 
                     aras prestasi mereka dengan{" "}
@@ -75,7 +75,7 @@ const ms = () => {
                         href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                         title="UN Guiding Principles on Business and Human Rights"
                     >
-                        UN Guiding Principles on Business and Human Rights
+                        Prinsip Panduan PBB mengenai Perniagaan dan Hak Asasi Manusia
                     </a>{" "}
                     dan melaporkan tentang bagaimana mereka melaksanakannya.
                     </p>
@@ -85,7 +85,7 @@ const ms = () => {
                         rel="noopener noreferrer"
                         href="https://www.ungpreporting.org/framework-guidance/"
                     >
-                    UN Guiding Principles Reporting Framework Guidance
+                    Panduan Kerangka Melapor Prinsip Panduan PBB
                     </a>{" "}
                     dibahagi kepada tiga bahagian:
                     </p>
@@ -125,7 +125,7 @@ const ms = () => {
                         href="http://www.ungpreporting.org/reportingdatabase/"
                         title="UN Guiding Principles Reporting Database"
                     >
-                        UN Guiding Principles Reporting Database
+                        Pengkalan Data untuk Melapor Prinsip Panduan PBB
                     </a>
                     , di mana syarikat boleh menghantar pengumuman awam mengenai Perniagaan dan Hak Asasi Manusia PBB 
                     untuk kajian oleh penganalisa Laporan Pangkalan Data.
@@ -151,7 +151,7 @@ const ms = () => {
                     href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/supplychain.html?jumpid=in_r138_us/en/corp/sustainability/main-menu-society"
                     title="supplier list"
                 >
-                    supplier list
+                    senarai pembekal
                 </a>{" "}
                 kepada awam sejak 2007 dan Target Corporation* menerbitkan{" "}
                 <a
@@ -160,7 +160,7 @@ const ms = () => {
                     href="https://corporate.target.com/_media/TargetCorp/csr/pdf/Global-Factory-List_-Q3-2019.pdf"
                     title="list"
                 >
-                    a list
+                    satu senarai
                 </a>{" "}
                 semua kilang-kilang, kilang tekstil dan tempat memproses bahan basah bagi produk berjenama milik Target.</p>
 
@@ -176,7 +176,7 @@ const ms = () => {
                     rel="noopener noreferrer"
                     href="http://www.patagonia.com/working-with-factories.html"
                 >
-                    list of the factories producing its products
+                    senarai kilang-kilang yang mengeluarkan produknya
                 </a>{" "}
                 dan juga{" "}
                 <a
@@ -185,7 +185,7 @@ const ms = () => {
                     href="http://www.patagonia.com/footprint.html"
                     title="interactive map"
                 >
-                    interactive map
+                    peta interaktif
                 </a>{" "}
                 menunjukkan kilang, ladang dan pengisar. Perincian termasuk lokasi, jumlah pekerja, dan produk yang dikeluarkan.
                 </p>
@@ -206,7 +206,7 @@ const ms = () => {
                         href="https://www.workersrights.org/"
                         title="Workers Rights Consortium"
                     >
-                        Workers Rights Consortium
+                        Konsortium Hak Pekerja
                     </a>{""}
 
                         ,* 
@@ -217,7 +217,7 @@ const ms = () => {
                         href="https://www.theatlantic.com/business/archive/2015/06/patagonia-labor-clothing-factory-exploitation/394658/"
                         title="The Atlantic in 2015"
                     >
-                        The Atlantic in 2015
+                        The Atlantic pada 2015
                     </a>{""}
                         
                         . 
@@ -250,7 +250,7 @@ const ms = () => {
                         href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
                         title="Workplace Monitoring Reports"
                     >
-                        &ldquo;Workplace Monitoring Reports&rdquo;
+                        &ldquo;Laporan Memantau Tempat Kerja&rdquo;
                     </a>{" "}
                     dalam laman webnya yang mengandungi data lengkap yang dijalankan dalam kilang-kilang, dan juga tindakan yang diambil oleh syarikat 
                     yang berkaitan dengan FLA bagi menangani penemuan tersebut. Laman web{" "}
@@ -260,7 +260,7 @@ const ms = () => {
                         href="http://sustainability.hm.com/en/sustainability/downloads-resources/resources/supplier-compliance.html"
                         title="Hennes and Mauritz"
                     >
-                        Hennes &amp; Mauritz (H&amp;M)
+                        Hennes & Mauritz (H&M)
                     </a>
                     * memberikan data mengenai prestasi pematuhan sosial bagi semua pembekal peringkat pertama. </p>
                     <h2>Dasar Pemulihan</h2>
@@ -313,7 +313,7 @@ const ms = () => {
                                 href="https://www.unilever.com/Images/unilever-palm-oil-policy-2016_tcm244-479933_en.pdf"
                                 title="Sustainable Palm Oil Sourcing Policy"
                             >
-                                Sustainable Palm Oil Sourcing Policy
+                                Dasar Mencari Sumber Lestari Minyak Sawit
                             </a>                                        
                             , syarikat pengguna Unilever milik British-Belanda mendedahkan senarai penuh pembekalnya pada 2017 dan terus 
                             mengambil langkah untuk mengemas kini senarai {" "}
@@ -323,7 +323,7 @@ const ms = () => {
                                 href="https://www.unilever.com/Images/-palm-oil-suppliers_updated-january-2019_tcm244-530096_en.pdf"
                                 title="suppliers"
                             >
-                                suppliers
+                                para pembekal
                             </a> {" "}
                                          
                                 dan mendedahkan senarai yang sama bagi kedua-dua {" "}
@@ -333,7 +333,7 @@ const ms = () => {
                                 href="https://www.unilever.com/Images/-unilever-s-universal-palm-oil-mill-list_h1-2018_final_tcm244-530097_1_en.pdf"
                                 title="mills"
                             >
-                                mills
+                                kilang
                             </a> {" "}
                                         
                             dan {" "}
@@ -343,7 +343,7 @@ const ms = () => {
                                 href="https://www.unilever.com/Images/-unilever-s-universal-palm-oil-refinery-list_h1-2018_final_tcm244-530098_1_en.pdf"
                                 title="refineries"
                             >
-                                refineries
+                                penapis
                             </a>                                       
                             . Usaha ini adalah langkah ke arah positif bagi menunjukkan apa yang kompleks terdapat di bawah bahan yang biasa kita dapati dalam pencuci mulut kegemaran kita: ais krim coklat.  
                             </p>
@@ -409,8 +409,7 @@ const ms = () => {
                                 title="Responsible Minerals Initiative&rsquo;s (RMI) Responsible Minerals Assurance Process 
                                 (RMAP)"
                             >
-                                Responsible Minerals Initiative&rsquo;s (RMI) Responsible Minerals Assurance Process 
-                                     (RMAP)
+                                Jaminan Mineral Bertanggungjawab (RMAP) di bawah Inisiatif Mineral Bertanggungjawab (RMI)
                             </a>
                                      
                             , yang memerlukan audit pihak ketiga.  RMAP dan RMI adalah produk Pakatan Perniagaan Bertanggungjawab (RBA)—sebuah 

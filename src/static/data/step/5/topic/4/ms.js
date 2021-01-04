@@ -69,7 +69,7 @@ const ms = () => {
                         title="Dhaka Principles for Migration with Dignity"
                     >
                         {" "}
-                        Dhaka Principles for Migration with Dignity
+                        Prinsip Dhaka untuk Berpindah dengan Bermaruah
                     </a>{" "}
                     (Prinsip Dhaka). Prinsip Dhaka mengandungi sepuluh prinsip yang menjejak pekerja mulai dari pengambilan, penggajian,
                     sehingga ke akhir hubungannya dengan pekerjaannya, dan memberi prinsip utama yang majikan dan perekrut migran harus hormati bagi memastikan penghijrahan yang bermaruah. Prinsip Dhaka direka bentuk oleh{" "}
@@ -79,7 +79,7 @@ const ms = () => {
                         href="https://www.ihrb.org/"
                         title="Institute for Human Rights and Business"
                     >
-                        Institute for Human Rights and Business (IHRB)
+                        Institut Hak Asasi Manusia dan Perniagaan (IHRB)
                     </a>{" "}
                      dan disokong oleh perniagaan, kerajaan, kesatuan sekerja, dan masyarakat sivil. Ia berdasarkan standard pertubuhan hak asasi manusia dan tiga tonggak{" "}
                     <a
@@ -88,7 +88,7 @@ const ms = () => {
                         href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                         title="UN Guiding Principles on Business and Human Rights"
                     >
-                        UN Guiding Principles on Business and Human Rights
+                        Prinsip Panduan PBB mengenai Perniagaan dan Hak Asasi Manusia
                     </a>
                     .
                 </p>
@@ -108,7 +108,7 @@ const ms = () => {
                             href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment"
                             title="Leadership Group for Responsible Recruitment"
                         >
-                            Leadership Group for Responsible Recruitment
+                            Kumpulan Kepimpinan untuk Perekrutan Bertanggungjawab
                         </a>*{" "}
                         merupakan kerjasama di antara beberapa syarikat multinasional yang besar dan pertubuhan pakar-pakar untuk memecut perubahan positif
                         dalam cara pekerja migran direkrut.  Ahli Kumpulan Kepimpinan komited dalam Prinsip Majikan Membayar:  <em>“Tiada pekerja patut membayar untuk pekerjaan -
@@ -122,7 +122,7 @@ const ms = () => {
                             href="https://www.ihrb.org/"
                             title="Institute for Human Rights and Business"
                         >
-                            Institute for Human Rights and Business
+                            Institut Hak Asasi Manusia dan Perniagaan (IHRB)
                         </a>*{" "}
                          (IHRB), Kumpulan Kepimpinan menggesa Prinsip Majikan Membayar diserapkan dalam dasar dan amalan korporat dan kerajaan bagi melindungi pekerja
                         migran dan melawan risiko buruh paksa dalam operasi mereka, perhubungan perniagaan, dan rantai bekalan global.   Bersama-sama, Kumpulan Kepimpinan
@@ -136,16 +136,16 @@ const ms = () => {
                             href="https://www.ihrb.org/employerpays/"
                             title="Responsible Recruitment Gateway"
                         >
-                            Responsible Recruitment Gateway
+                            Pintu Perekrutan Bertanggungjawab
                         </a>
-                        {" "}at{" "}
+                        {" "}di{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.ihrb.org/employerpays/"
                             title="Responsible Recruitment Gateway"
                         >
-                        https://www.ihrb.org/employerpays/
+                        https://www.ihrb.org/majikanbayar/
                         </a>.
                     </p>
                 </ExampleInAction>

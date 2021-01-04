@@ -24,7 +24,7 @@ const ms = () => {
                 <OwnWords>
                     <h2>
                         <OwnWords.Icon alt="Feedback"/> <strong>Dengan kata-kata mereka sendiri: Kajian pengeluaran gula negara oleh Syarikat Coca-Cola* mengenai buruh kanak-kanak, buruh paksa dan hak tanah.</strong>
-                        {": "}
+
                     </h2>
                     <p>
                         
@@ -43,7 +43,7 @@ const ms = () => {
                         href="https://www.coca-colacompany.com/content/dam/journey/us/en/policies/pdf/human-workplace-rights/addressing-global-issues/sugar-study-methodology-overview.pdf"
                         title="methodology"
                     >
-                        methodology
+                        metodologi
                     </a>{" "}
                                     
                         kajian negara oleh Coca-Cola dan teroka 
@@ -54,7 +54,7 @@ const ms = () => {
                         href="https://www.coca-colacompany.com/policies-and-practices/country-sugar-studies"
                         title="country sugar studies"
                     >
-                        country sugar studies
+                        kajian gula negara
                     </a>{" "}
                                     
                     yang dikeluarkan setakat ini.

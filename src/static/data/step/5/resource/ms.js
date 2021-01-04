@@ -6,8 +6,7 @@ const ms = () => {
             <div>
                 <ol>
                     <li>
-                        American Bar Association. <em>Model Policies, </em>2014;
-                        available from{" "}
+                        American Bar Association. Dasar Contoh, 2014; boleh didapati dari {" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"

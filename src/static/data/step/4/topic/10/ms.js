@@ -26,8 +26,7 @@ const en = () => {
                                         href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
                                         title="General Principles and Operational Guidelines for Fair Recruitment"
                                     >
-                                        General Principles and Operational Guidelines for Fair
-                                        Recruitment
+                                        Prinsip am dan Panduan Operasi untuk Keadilan dalam Pengambilan Pekerja
                                     </a>
                                     , yang memberi maklumat mengenai kerja ILO dan badan perundangan negara dan rakan kongsi sosial yang mempromosikan dan memastikan keadilan dalam usaha merekrut pekerja, dan&nbsp;
                                     <a
@@ -36,8 +35,7 @@ const en = () => {
                                         href="http://www.iccr.org/"
                                         title="Interfaith Center on Corporate Responsibility&rsquo;s (ICCR)"
                                     >
-                                        Interfaith Center on Corporate Responsibility&rsquo;s
-                                        (ICCR)
+                                        Pusat Pelbagai Agama Mengenai Tanggungjawab Korporat (ICCR)
                                     </a>
                                     <a
                                         target="_blank"
@@ -46,8 +44,7 @@ const en = () => {
                                         title="Best Practice Guidance on Ethical Recruitment of Migrant Workers"
                                     >
                                         {" "}
-                                        Best Practice Guidance on Ethical Recruitment of Migrant
-                                        Workers
+                                         Panduan Amalan Terbaik mengenai Pengambilan Beretika Pekerja Migran
                                     </a>{" "}.
                                 </p>
              <OwnWords>
@@ -68,7 +65,7 @@ const en = () => {
                                                            rel="noopener noreferrer"
                                                            href="https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html"
                                                        >
-                                                       How a Deeper Dive into Our Supply Chain Led to a New Migrant Workers Standard
+                                                       Bagaimana Kami Menyiasat Secara Mendalam Rantai Bekalan bagi Menuju kepada Standard Pekerja Migran Baru
                                                        </a>
                                                        , 2015 at{" "}
                                                        <a

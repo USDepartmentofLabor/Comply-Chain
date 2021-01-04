@@ -11,7 +11,7 @@ const en = () => {
                     <strong>Syarat Pinjaman</strong>
                 </h1>
                 <p>
-                    Entiti perniagaan yang menerima pinjaman dari kerajaan AS&nbsp;
+                    Perbadanan Kewangan Pembangunan Antarabangsa (DFC)
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -25,7 +25,7 @@ const en = () => {
                         rel="noopener noreferrer"
                         href="http://www.ifc.org/wps/wcm/connect/Topics_Ext_Content/IFC_External_Corporate_Site/Sustainability-At-IFC/Policies-Standards/Performance-Standards"
                     >
-                        International Finance Corporation (IFC)
+                        Perbadanan Kewangan Antarabangsa (IFC)
                     </a>
                     , sebahagian daripada Kumpulan Bank Dunia, mesti mematuhi standard sosial dan persekitaran
                     tertentu dalam operasi dan rantai bekalan mereka, termasuk standard buruh kanak-kanak dan

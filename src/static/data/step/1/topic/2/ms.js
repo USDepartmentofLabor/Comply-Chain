@@ -17,8 +17,7 @@ const en = () => {
                         rel="noopener noreferrer"
                         href="http://www.oecd.org/daf/inv/mne/"
                     >
-                        Organization for Economic Cooperation and Development
-                        (OECD) Guidelines for Multinational Enterprises
+                        Panduan Pertubuhan untuk Kerjasama Ekonomi dan Pembangunan (OECD) bagi Usahawan Pelbagai Nasional
                     </a>{" "}
                     telah mengeluarkan norma-norma asas kepada syarikat berkaitan dengan pekerja
                     dan isu pekerjaan. Kajian semula 2011 Panduan OECD, disamping Majlis Hak Asasi
@@ -28,7 +27,7 @@ const en = () => {
                         rel="noopener noreferrer"
                         href="https://business-humanrights.org/en/un-guiding-principles"
                     >
-                        Guiding Principles on Business and Human Rights
+                        Prinsip Panduan PBB mengenai Perniagaan dan Hak Asasi Manusia
                     </a>
                     , telah memainkan peranan penting dalam mengubah jangkaan orang awam.
                     </p>

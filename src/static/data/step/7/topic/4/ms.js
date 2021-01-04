@@ -45,8 +45,7 @@ const ms = () => {
                             href="https://corporate.target.com/corporate-responsibility/responsible-sourcing/social-compliance/labor-and-human-rights"
                             title="Target&rsquo;s Standards of Vendor Engagement webpage"
                         >
-                            Target&rsquo;s Standards of Vendor Engagement
-                            webpage
+                            Laman web Target mengenai Standard Penglibatan Penjual
                         </a>
                         .
                     </p>

@@ -20,7 +20,7 @@ const en = () => {
                         rel="noopener noreferrer"
                         href="http://www.bloomberg.com/sustainability/"
                     >
-                        Sustainability Channel on Bloomberg.com
+                        Rangkaian Kelestarian dalam Bloomberg.com
                     </a>
                     .
                 </p>

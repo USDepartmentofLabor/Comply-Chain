@@ -11,7 +11,7 @@ const ms = () => {
                 <h1>Pemantauan bebas (Mengaudit)</h1>
                 <p>
                     Seperti yang dibincangkan di bawah {" "}
-                    <Link to="/steps/7">Step 5, Monitor Compliance,</Link>{" "}
+                    <Link to="/steps/7">Langkah 5, Pantau Pematuhan,</Link>{" "}
                     pemantauan bebas patut merangkumi lawatan secara mengejut tempat kerja dalam rantai bekalan syarikat bagi menilai 
                     pematuhan kepada kod. Lawatan yang diumumkan boleh juga berguna apabila penting untuk mendapatkan akses kepada 
                     kakitangan khusus atau dokumentasi. Dalam hal di mana pengaudit dalam syarikat atau pihak ketiga melakukan audit 
@@ -54,7 +54,7 @@ const ms = () => {
                             href="http://www.fairlabor.org/independent-external-monitoring-reports"
                             title="Independent External Monitoring program"
                         >
-                            Independent External Monitoring program
+                            Program Memantau Luar yang Bebas
                         </a>{" "}
                         selama dua tahun, yang kemudian boleh diperbaharui untuk masa dua tahun berturut-turut. Pihak yang ingin memantau boleh 
                         memohon untuk pentauliahan bagi satu atau dua negara, dan untuk semua peruntukan di bawah {" "}
@@ -64,7 +64,7 @@ const ms = () => {
                             href="http://www.fairlabor.org/our-work/code-of-conduct"
                             title="FLA Code of Conduct"
                         >
-                            FLA Code of Conduct
+                            Kod Tingkah Laku FLA
                         </a>
                         . Pemantau diberi tauliah berdasarkan memenuhi kriteria yang digariskan oleh Piagam FLA dan untuk kawasan khusus di 
                         mana mereka mencatatkan dan menunjukkan (melalui audit yang dijalankan oleh FLA secara tidak ketara sebelum pentauliahan) 

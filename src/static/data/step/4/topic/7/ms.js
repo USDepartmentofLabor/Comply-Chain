@@ -55,7 +55,7 @@ const ms = () => {
                             rel="noopener noreferrer"
                             href="www.responsiblebusiness.org"
                         >
-                        Responsible Business Alliance
+                        Pakatan Perniagaan Bertanggungjawab
                         </a>
                         *, dan Inisiatif e-Kelestarian Global (Global e-Sustainability Initiative* ) pada 2008 untuk mempromosikan pemerolehan sumber mineral secara bertanggungjawab dari kawasan yang
                         terjejas oleh konflik dan berisiko tinggi RMI telah membentuk alat dan sumber yang digunakan oleh lebih 350 syarikat dari pelbagai sektor untuk memantau rantai bekalan mereka. RMI membentuk&nbsp;
@@ -64,7 +64,7 @@ const ms = () => {
                             rel="noopener noreferrer"
                             href="www.conflictfreesourcing.org/conflict-free-smelter-program/"
                         >
-                        Responsible Minerals Assurance Process (RMAP)
+                        Proses Jaminan Mineral Bertanggungjawab (RMAP)
                         </a>
                         &nbsp;– dulu dikenali sebagai Program Pelebur Tanpa Konflik (Conflict-Free Smelters Program) – yang membantu pelebur dan penapis mengesahkan, melalui audit pihak ketiga yang bebas,
                         pematuhan mereka kepada  standard global, seperti Panduan Ketekunan Wajar Rantai Bekalan Mineral OECD dari kawasan berisiko tinggi yang terjejas oleh konflik.
@@ -91,8 +91,7 @@ const ms = () => {
                         href="https://www.somo.nl/should-i-stay-or-should-i-go/"
                         title="Should I stay or should I go? Exploring the role of disengagement in human rights due diligence"
                     >
-                        Should I stay or should I go? Exploring the role of
-                        disengagement in human rights due diligence
+                        Patutkah saya terus berada di sini atau patutkah saya beredar dari sini? Meneroka peranan pelepasan dari ketekunan wajar hak asasi manusia
                     </a>
                     . Ramai yang semakin bersetuju bahawa pematuhan sosial sepatutnya menuju kepada peningkatan keupayaan dan membina hubungan jangka panjang sebagai cara lebih baik untuk memperbaiki pematuhan sosial,
                     dan tidak dengan cara menghentikan hubungan yang akan memberi kesan negatif kepada pekerja. Contoh berikut menunjukkan trend ini.
@@ -116,7 +115,7 @@ const ms = () => {
                            rel="noopener noreferrer"
                            href="www.responsible-mica-initiative.com/"
                        >
-                       Responsible Mica Initiative
+                       Inisiatif Mica yang Bertanggungjawab
                        </a>
                        ,* ia telah membuat komitmen untuk terus kekal di India dan memastikan keupayaan untuk pengesanan dan ketelusan dalam rantai bekalannya.   L’Oréal percaya bahawa menghentikan penggunaan mica dari
                        India tidak akan membawa manfaat kepada pekerja atau keluarga mereka, dan mungkin meningkatkan lagi cabaran sosial dan ekonomi.  Di India, L’Oréal melaksanakan program pemerolehan lestari melalui
@@ -128,7 +127,7 @@ const ms = () => {
                           rel="noopener noreferrer"
                           href="https://www.loreal.com/suppliers/our-sustainable-procurement-policy/sustainable-sourcing-mica"
                       >
-                       aims to create a sustainable mica supply chain
+                       tujuan untuk membuat rantai patuh mica yang berkekalan
                        </a>
                        &nbsp;memperbaiki hidup dan keadaan tempat kerja rantau tersebut.
                     </p>

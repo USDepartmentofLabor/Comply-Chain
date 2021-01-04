@@ -56,7 +56,7 @@ const ms = () => {
                         href="http://www.fairlabor.org/transparency/workplace-monitoring-reports"
                         title="reports on all factory assessments"
                     >
-                        reports on all factory assessments
+                        laporan tentang semua penilaian kilang
                     </a>{" "}
                     yang ia lakukan untuk anggota dari syarikat perniagaan di bawah Kod Tingkah Laku Tempat Kerja FLA . Laporan ini memberi maklumat 
                     terperinci mengenai pencabulan hak yang berlaku dalam kilang, langkah pembetulan yang disarankan dan kemajuan setakat ini. 
@@ -104,7 +104,7 @@ const ms = () => {
                         href="https://partners.bestbuy.com/documents/20126/46231/Supplier+Code+of+Conduct.pdf/9d7062b9-2233-e7a9-c51a-2f1a34747927?t=1572468937695"
                         title="Supplier Code of Conduct"
                     >
-                        Supplier Code of Conduct
+                        Kod Tingkah Laku Pembekal
                     </a>
                     , yang kemudian dibuat sebagai program latihan tahunan secara keseluruhan dan apabila buruh paksa dikenal pasti ketika 
                     proses semak semula dilakukan di kilang tertentu.   Best Buy mengaudit kira-kira 75 peratus daripada kilang yang mempunyai 

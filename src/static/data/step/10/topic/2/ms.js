@@ -19,7 +19,7 @@ const ms = () => {
                         href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
                         title="California Transparency in Supply Chains Act"
                     >
-                        California Transparency in Supply Chains Act
+                        Akta Ketelusan dalam Rantai Bekalan California
                     </a>
                     , dan juga antarabangsa, seperti{" "}
                     <a
@@ -28,7 +28,7 @@ const ms = () => {
                         href="http://www.legislation.gov.uk/ukpga/2015/30/contents/enacted"
                         title="United Kingdom&rsquo;s Modern Slavery Act"
                     >
-                        United Kingdom&rsquo;s Modern Slavery Act
+                        Akta Perhambaan Moden United Kingdom
                     </a>{" "}
                     and{" "}
                     <a
@@ -37,7 +37,7 @@ const ms = () => {
                         href="https://www.business-humanrights.org/en/frances-law-on-the-corporate-duty-of-vigilance-a-practical-and-multidimensional-analysis-in-english"
                         title="France&rsquo;s Duty of Vigilance Law"
                     >
-                        France&rsquo;s Duty of Vigilance Law
+                        Tugas Perancis dalam Undang-undang Kewaspadaan
                     </a>
                     , telah mewajibkan pendedahan tertentu untuk syarikat yang dilindungi oleh undang-undang tersebut. (Lihat Undang-Undang dan 
                     Peraturan untuk maklumat lanjut mengenai undang-undang pendedahan kepada awam). Walaupun banyak laporan masih dibuat secara 
@@ -69,8 +69,7 @@ const ms = () => {
                                 href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                                 title="United Nations Guiding Principles on Business and Human Rights"
                             >
-                                United Nations Guiding Principles on Business
-                                and Human Rights
+                                Prinsip Panduan Pertubuhan Bangsa-Bangsa Bersatu mengenai Perniagaan dan Hak Asasi Manusia
                             </a>
                             , 2011.
                     
@@ -127,7 +126,7 @@ const ms = () => {
                             Contoh dalam Tindakan: Laporan hak asasi syarikat Jepun dilancarkan
                     </h2>
                     <p>
-                    In 2018, {" "}
+                    Pada 2018, {" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -143,7 +142,7 @@ const ms = () => {
                         href="https://www.ana.co.jp/group/en/csr/effort/pdf/Human_Rights_Report_2018_e.pdf"
                         title="human rights report"
                     >
-                        human rights report
+                        laporan hak asasi manusia
                     </a>. 
                     
                     Sejak permulaan perbincangan untuk menerbitkan laporan pada 2015, Kumpulan ANA telah meneruskan usahanya untuk memperluaskan 
@@ -155,7 +154,7 @@ const ms = () => {
                         href="https://www.ana.co.jp/group/en/csr/effort/pdf/humanrights_e.pdf"
                         title="Human Rights Policy"
                     >
-                        Human Rights Policy
+                        Dasar Hak Asasi Manusia
                     </a> {" "}
                     
                     sebagai langkah permulaan untuk menggariskan kemajuan syarikat.   Bagaimanapun, dalam proses ini, suara mula timbul di kalangan 

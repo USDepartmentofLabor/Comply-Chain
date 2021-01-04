@@ -53,7 +53,7 @@ const ms = () => {
                                         Libatkan diri dalam pembangunan <strong>kod tingkah laku</strong> dan bantu <strong>mendidik</strong> semua pekerja mengenai hak mereka di bawah kod tersebut.
                                     </li>
                                     <li>
-                                    Bantu <strong>mengenal pasti risik</strong> buruh kanak-kanak dan buruh paksa dan pencabulan kod lain di tempat kerja.
+                                    Bantu <strong>mengenal pasti risiko</strong> buruh kanak-kanak dan buruh paksa dan pencabulan kod lain di tempat kerja.
                                     </li>
                                     <li>
                                     Ikut serta sepenuhnya dalam <strong>latihan pekerja</strong> dan berikan maklum balas supaya boleh diperbaiki.

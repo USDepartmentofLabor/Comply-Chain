@@ -25,7 +25,7 @@ const en = () => {
                                     paksa, walaupun melalui kegiatan sendiri, tetapi juga berusaha untuk mencegah atau mengurangkan kesan buruk
                                     hak pekerja yang berkaitan dengan operasi perniagaannya, melalui hubungan perniagaan.{" "}
                                     <Link to="/steps/4">
-                                        Step 2, Assess Risks and Impacts
+                                        Langkah 2, Nilaikan Risiko dan Impak
                                     </Link>
                                     , menerangkan tentang proses ketekunan wajar yang harus anda tetapkan untuk mengenalpasti penyelewengan dan kesannya.
                                 </p>
@@ -37,7 +37,7 @@ const en = () => {
                                     kawasan rantai bekalan di mana syarikat mempunyai pengaruh terbaik untuk melakukan
                                     perubahan yang bermakna.{" "}
                                     <Link to="/steps/4">
-                                        Langkah 2: Penilaian Risiko dan Impak
+                                        Langkah 2, Nilaikan Risiko dan Impak
                                     </Link>
                                     , juga akan membantu anda mengenal pasti titik risiko dan
                                     mendapat manfaat yang paling besar.
@@ -87,8 +87,7 @@ const en = () => {
                                             href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                                             title="United Nations Guiding Principles on Human Rights and Business"
                                         >
-                                            United Nations Guiding Principles on
-                                            Human Rights and Business
+                                            Prinsip Pertubuhan Bangsa-Bangsa Bersatu mengenai Hak Asasi Manusia dan Perniagaan
                                         </a>
                                         <em>, </em>2011; boleh didapati dari{" "}
                                         <a
@@ -119,8 +118,7 @@ const en = () => {
                                             href="http://www.oecd.org/corporate/mne/"
                                             title="OECD Guidelines for Multinational Enterprises 2011"
                                         >
-                                            OECD Guidelines for Multinational
-                                            Enterprises
+                                            Panduan OECD untuk Usahawan Pelbagai Nasional
                                         </a>
                                         <em>, </em>boleh didapati dari{" "}
                                         <a
@@ -154,7 +152,7 @@ const en = () => {
                                             href="http://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps2"
                                             title="IFC Performance Standard 2"
                                         >
-                                            IFC Performance Standard 2
+                                            Standard Prestasi 2 IFC
                                         </a>
                                         <em>,</em> 2012; boleh didapati dari{" "}
                                         <a

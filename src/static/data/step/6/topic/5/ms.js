@@ -61,6 +61,7 @@ const ms = () => {
                     bidang keperluan dan peluang untuk pengembangan teknologi lebih lanjut. 
                 </p>
                 </ExampleInAction>
+                <br />
                 <ExampleInAction id="grievprocedure">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -101,7 +102,7 @@ const ms = () => {
                         href="https://www.unilever.com/Images/unilever-palm-oil-policy-2016_tcm244-479933_en.pdf"
                         title="Five Principles for Sustainable Palm Oil"
                     >
-                        Five Principles for Sustainable Palm Oil
+                        Lima Prinsip untuk Minyak Sawit Lestari
                     </a>{" "} 
                     terhadap pembekal yang tidak mahu atau tidak dapat mematuhi. 
                     </p>
@@ -115,7 +116,7 @@ const ms = () => {
                         href="https://www.unilever.com/Images/unilever-palm-oil-grievance-tracker_tcm244-530071_en.pdf"
                         title="grievance tracker"
                     >
-                        grievance tracker
+                        pengesan rungutan
                     </a>{""}.
                     </p>
                     <img
@@ -136,16 +137,12 @@ const ms = () => {
                     </a>{""}.
                 </p>
                 </ExampleInAction>
+                <br />
                 <OwnWords>
                     <h2>
                         <OwnWords.Icon alt="Feedback"/> <strong>Dengan Kata-kata Mereka Sendiri: Menubuhkan Mekanisme Rungutan yang Berkesan</strong>
                         {": "}
                     </h2>
-                    <p>
-                        <strong>
-                            Establishing Effective Grievance Mechanisms
-                        </strong>
-                    </p>
                     <p>
                         <em>
                             &ldquo;Mekanisme rungutan peringkat operasi bagi mereka yang terjejas oleh aktiviti pengusaha boleh menjadi kaedah 
@@ -165,7 +162,7 @@ const ms = () => {
                             href="http://www.oecd.org/corporate/mne/1922428.pdf"
                             title="Guidelines for Multinational Enterprises"
                         >
-                            Guidelines for Multinational Enterprises
+                            Panduan untuk Usahawan Pelbagai Nasional
                         </a>
                         <em>,</em> 2011.
                     </p>
@@ -181,7 +178,7 @@ const ms = () => {
                         href="https://sites.hks.harvard.edu/m-rcbg/CSRI/publications/report_46_GM_pilots.pdf"
                         title="CSRI project"
                     >
-                        CSRI project
+                        Projek CSRI
                     </a>{" "}
                     menghasilkan sekumpulan prinsip yang disemak semula untuk mekanisme rungutan yang berkesan yang digabungkan dengan 
                     Prinsip 31 Prinsip Panduan PBB: Kriteria Keberkesanan bagi rungutan di Luar Mahkamah: 
@@ -245,9 +242,7 @@ const ms = () => {
                         title="Piloting Principles for Effective Company-Stakeholder Grievance Mechanisms: A Report of Lessons Learned"
                     >
                         <em>
-                            Piloting Principles for Effective
-                            Company-Stakeholder Grievance Mechanisms: A Report
-                            of Lessons Learned
+                            Prinsip Perintis untuk Mekanisme Rungutan yang Berkesan bagi Syarikat-Pihak Berkepentingan: Laporan tentang Apa yang Dipelajari
                         </em>
                     </a>
                     <em>. </em>&nbsp;Inisiatif Tanggungjawab Korporat Harvard Kennedy School, Mei 23, 2011.&nbsp;
@@ -261,8 +256,7 @@ const ms = () => {
                         title="Good Practice Note: Addressing Grievances from Project-Affected Communities"
                     >
                         <em>
-                            Good Practice Note: Addressing Grievances from
-                            Project-Affected Communities
+                            Nota Amalan Baik: Menangani Rungutan dari Masyarakat yang Terjejas oleh Projek
                         </em>
                     </a>{" "}
                     juga membentangkan Elemen Rekaan Asas Mekanisme Rungutan Peringkat Projek (Sila lihat muka surat 3 PDF).
@@ -275,7 +269,7 @@ const ms = () => {
                         href="https://www.shiftproject.org/"
                         title="SHIFT Project"
                     >
-                        SHIFT Project
+                        Projek SHIFT
                     </a>{" "}
                     ialah sumber maklumat yang baik dan panduan untuk mekanisme rungutan peringkat operasi. 
                 </p>

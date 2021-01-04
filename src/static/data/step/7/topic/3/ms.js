@@ -66,8 +66,7 @@ const ms = () => {
                         title="Combating Forced Labour: A Handbook for Employers and Business, Booklet 4"
                     >
                         <em>
-                            Combating Forced Labour: A Handbook for Employers
-                            and Business, Booklet 4
+                            Memerangi Buruh Paksa: Buku Panduan untuk Majikan dan Perniagaan, Buku kecil 4
                         </em>
                     </a>
                     <em>, </em>mengandungi senarai pemeriksaan yang berguna untuk pengaudit dan kakitangan yang terlibat dalam pematuhan 
@@ -79,7 +78,7 @@ const ms = () => {
                         href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm"
                         title="Checkpoints for Companies: Eliminating and Preventing Forced Labour"
                     >
-                        Eliminating and Preventing Forced Labour: Checkpoints
+                        Membasmi dan Menghindari Buruh Paksa: Pusat Pemeriksaan
                     </a>
                     , yang membenarkan syarikat, pengaudit, dan kakitangan pematuhan membentuk senarai pemeriksaan interaktif untuk membasmi 
                     dan menghindari pengambilan buruh paksa dalam operasi perniagaan. Pertanyaan berikut, dipetik dari penerbitan ILO, boleh 
@@ -252,11 +251,11 @@ const ms = () => {
                         href="http://responsiblesourcingtool.org/"
                         title="Responsible Sourcing Tool"
                     >
-                        Responsible Sourcing Tool
+                        Alat Mencari Sumber Bertanggungjawab
                     </a>{" "}
                     (RST) termasuk Penanda Aras Merekrut dan Penggajian untuk menunjukkan titik data yang boleh diukur dan diambil tindakan 
                     serta amalan baik digariskan dalam Contoh Peruntukan Kod Tingkah Laku, yang dirujuk dalam {" "}
-                    <Link to="/steps/5">Step 3, Develop a Code of Conduct</Link>
+                    <Link to="/steps/5">Langkah 3, Bina Kod Tingkah Laku</Link>
                     . Penanda aras ini, yang merangkumi pelbagai bidang berkaitan dengan buruh paksa dan pemerdagangan manusia, termasuk yuran 
                     merekrut, kontrak penggajian, dokumen untuk mengekalkan pekerja, kebebasan bergerak, boleh digunakan sebagai asas bagi membentuk 
                     alat audit dan untuk menubuhkan dan memantau penunjuk prestasi utama dalam menilai prestasi pembekal dan ejen buruh. 
@@ -331,7 +330,7 @@ const ms = () => {
                                      <Accordion id="recruit-fee-acc"> */}
                                        <Accordion.Section id="recruit-fee-description">
                                           <Accordion.Title>
-                                          RECRUITMENT FEES AND TRANSPORTATION EXPENSES
+                                          Penanda Aras Perekrutan dan Penggajian
                                              </Accordion.Title>
                                              <Accordion.Panel>
                                                 <p>
@@ -1082,7 +1081,7 @@ const ms = () => {
                     title="Sample Benchmarks of Good Practice in Recruitment and Employment"
                 >
                     <strong>
-                    Recruitment and Employment Benchmarks
+                    Penanda Aras Perekrutan dan Penggajian
                     </strong>
                 </a>
                 .
@@ -1151,7 +1150,7 @@ const ms = () => {
                         href="http://responsiblesourcingtool.org/supplierselfassessment"
                         title="Sample Supplier/Subcontractor Self-Assessment Tool"
                     >
-                        Sample Supplier/Subcontractor Self-Assessment Tool
+                        Pembekal Contoh/Alat Penilaian Sendiri untuk Subkontraktor
                     </a>{" "}
                     dibentuk untuk membantu pembekal dan sub-kontraktor memastikan sama ada aktiviti mereka selari dengan kod tingkah laku 
                     syarikat atau kontraktor, dan juga menunjukkan potensi risiko pemerdagangan manusia termasuk cara mereka merekrut, memilih, 
@@ -1169,7 +1168,7 @@ const ms = () => {
                         href="http://responsiblesourcingtool.org/download/reports/Verite_BusinessAuthenticationCriteria_r1.pdf"
                         title="Anti-Human Trafficking Business Authentication Criteria"
                     >
-                        Anti-Human Trafficking Business Authentication Criteria
+                        Kriteria Pengesahan Perniagaan Anti-Pemerdagangan Manusia
                     </a>
                     . Alat ini memberi penilai kriteria untuk mengesahkan prestasi di peringkat syarikat selari dengan usaha anti-pemerdagangan manusia, 
                     termasuk dasar komitmen, lembaga dan eksekutif, struktur organisasi, menilai dan mengawal risiko, dan jangkaan prestasi. Ia 

@@ -30,9 +30,9 @@ const en = () => {
                     href="https://www.dol.gov/agencies/ilab"
                     title="Bureau of International Labor Affairs"
                 >
-                Bureau of International Labor Affairs
+                Biro Hal Ehwal Buruh Antarabangsa
                 </a>
-                {" "}ILAB mempromosikan dataran permainan global yang adil bagi pekerja di AS dan di serata dunia dengan menguatkuasakan komitmen perdagangan; memperkuatkan standard untuk buruh; dan memerangi buruh kanak-kanak antarabangsa, buruh paksa, dan pemerdagangan manusia.
+                {" "}(ILAB) mempromosikan dataran permainan global yang adil bagi pekerja di AS dan di serata dunia dengan menguatkuasakan komitmen perdagangan; memperkuatkan standard untuk buruh; dan memerangi buruh kanak-kanak antarabangsa, buruh paksa, dan pemerdagangan manusia.
             </p>
             <p />
             <Accordion id="about-acc">
@@ -53,8 +53,7 @@ const en = () => {
                                 title="List of Goods Produced by Child Labor or Forced Labor"
                             >
                                 <em>
-                                    List of Goods Produced by Child Labor or
-                                    Forced Labor
+                                     Senarai Barangan yang Dikeluarkan oleh Buruh Kanak-kanak atau Buruh Paksa
                                 </em>
                             </a>
                             ] bagi membentuk standard amalan yang akan mengurangkan kemungkinan bahawa orang tersebut akan menhasilkan barang dengan menggunakan [buruh paksa dan buruh kanak-kanak].”&nbsp;
@@ -67,7 +66,7 @@ const en = () => {
                                href="https://www.congress.gov/bill/115th-congress/house-bill/2200/text"
                                title="2018 reauthorization of the TVPRA"
                            >
-                           2018 reauthorization of the TVPRA
+                           Kebenaran semula 2018 TVPRA
                            </a>
                            , Kongres telah menambah mandat baru kepada ILAB yang berkaitan dengan senarai ini. Secara khusus, dalam Seksyen 133 undang-undang baru, Kongres menyertakan ayat berikut, “sejauh mungkin,
                            barangan yang dihasilkan dengan proses pembuatan yang menggunakan input atau tenaga kerja buruh paksa atau buruh kanak-kanak” dimasukkan dalam Senarai Barangan. Ayat tersebut memberi cabaran
@@ -84,11 +83,10 @@ const en = () => {
                                 href="https://sustainabledevelopment.un.org/?menu=1300"
                                 title="Sustainable Development Goals"
                             >
-                                Sustainable Development Goals
+                                Matlamat Pembangunan Lestari
                             </a>{" "}
-                            (SDGs), satu set matlamat berjumlah tujuh belas tujuan yang saling berkaitan dan saling memperkuatkan bagi pembangunan global dalam 15 tahun akan datang. Dalam setiap SDGs, sasaran khusus telah ditetapkan yang
-                            sangat penting untuk mencapai matlamat pada 2030. Di bawah SDG 8 mengenai Pekerjaan yang Layak dan Perkembangan Ekonomi, Sasaran 8.7 meminta pemerintah untuk:
-{" "}
+                            (SDG), satu set matlamat berjumlah tujuh belas tujuan yang saling berkaitan dan saling memperkuatkan bagi pembangunan global dalam 15 tahun akan datang. Dalam setiap SDGs, sasaran khusus telah ditetapkan yang
+                            sangat penting untuk mencapai matlamat pada 2030. Di bawah{" "}
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -97,8 +95,9 @@ const en = () => {
                             >
                                 SDG 8
                             </a>{" "}
-                            on Decent Work and Economic Growth, Target 8.7 calls
-                            on governments to:
+
+                            mengenai Pekerjaan yang Layak dan Perkembangan Ekonomi, Sasaran 8.7 meminta pemerintah untuk:
+
                         </p>
                         <p className="indent-margin">
                             “Mengambil langkah segera dan berkesan untuk membasmi buruh paksa, hentikan perhambaan moden dan perdagangan manusia dan pastikan buruh kanak-kanak yang begitu kejam dihapuskan, termasuk pengambilan dan mengguna askar
@@ -112,7 +111,7 @@ const en = () => {
                                 href="http://www.alliance87.org/"
                                 title="Alliance 8.7"
                             >
-                                Alliance 8.7
+                                Pakatan 8.7
                             </a>
                             , yang merupakan rakan kongsi global yang bertujuan untuk menyediakan penyelarasan strategik dengan pelbagai pihak berkepentingan yang mempunyai minat untuk mencapai Sasaran 8.7. ILAB juga menyokong kajian kritikal
                             mengenai rantai bekalan global, yang membawa kepada Laporan 2019&nbsp;
@@ -122,7 +121,7 @@ const en = () => {
                                 href="https://www.ilo.org/ipec/Informationresources/WCMS_716930/lang--en/index.htm"
                                 title="Ending Child Labour, Forced Labour and Human Trafficking in Global Supply Chains"
                             >
-                            Ending Child Labour, Forced Labour and Human Trafficking in Global Supply Chains
+                            Membasmi Buruh Kanak-kanak, Buruh Paksa, dan Pemerdagangan Manusia di dalam Rantai Bekalan Bekalan Global
                             </a>.
                             Latihan ini mendedahkan jurang dalam data yang terkumpul dan perbezaan di antara buruh kanak-kanak dan buruh paksa dalam rantai bekalan domestik berbanding dengan rantai bekalan global, memaklumkan negara dengan kuasa ekonomi,
                             termasuk Strategi G20 yang pertama untuk Membasmi Buruh Kanak-kanak, Buruh Paksa, dan Pemerdagangan Manusia di dalam dunia pekerjaan. Di samping itu, ILAB terus mengeluarkan nasihat mengenai usaha ILO yang semakin berkembang
@@ -133,7 +132,7 @@ const en = () => {
                                 href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_648619.pdf"
                                 title="guidelines concerning the measurement of forced labor"
                             >
-                            guidelines concerning the measurement of forced labor
+                            panduan mengenai pengukuran buruh paksa
                             </a> pada 2018.
 
                             </p>
@@ -158,8 +157,7 @@ const en = () => {
                                 href="https://www.state.gov/u-s-national-contact-point-for-the-oecd-guidelines-for-multinational-enterprises/u-s-national-action-plan-on-responsible-business-conduct/"
                                 title="National Action Plan on Responsible Business Conduct (NAP-RBC)"
                             >
-                                National Action Plan on Responsible Business
-                                Conduct (NAP-RBC)
+                                Rancangan Tindakan Nasional mengenai Pengendalian Perniagaan yang Bertanggungjawab (NAP-RBC)
                             </a>
                             , yang dibangunkan mengikuti{" "}
                             <a
@@ -168,9 +166,7 @@ const en = () => {
                                 href="http://www.oecd.org/corporate/mne/1922428.pdf"
                                 title="Organization for Economic Cooperation and Development&rsquo;s Guidelines for Multinational Enterprises"
                             >
-                                Organization for Economic Cooperation and
-                                Development&rsquo;s Guidelines for Multinational
-                                Enterprises
+                                Panduan Pertubuhan untuk Kerjasama Ekonomi dan Pembangunan bagi Usahawan Pelbagai Nasional
                             </a>{" "}
                             dan{" "}
                             <a
@@ -179,8 +175,7 @@ const en = () => {
                                 href="http://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
                                 title="United Nations Guiding Principles on Business and Human Rights"
                             >
-                                United Nations Guiding Principles on Business
-                                and Human Rights
+                                Prinsip Panduan Pertubuhan Bangsa-Bangsa Bersatu mengenai Perniagaan dan Hak Asasi Manusia
                             </a>
                             . NAP-RBC merangkumi usaha dan komitmen kerajaan AS untuk melindungi hak asasi manusia di dalam operasi perniagaan AS Di luar negeri, melalui kajian, kerjasama teknikal, amalan pemerolehan
                             kerajaan pusat, diplomasi perburuhan, dan dialog pihak awam dan swasta. NAP-RBC juga menekankan sumbangan positif yang dibuat oleh syarikat-syarikat untuk menghormati hak asasi manusia.
@@ -194,7 +189,7 @@ const en = () => {
                                 href="https://www.dol.gov/agencies/ilab/projects"
                                 title="technical assistance projects"
                             >
-                                technical assistance projects
+                                projek bantuan teknikal
                             </a>
                             .  ILAB telah melaksanakan lebih daripada 300 projek bantuan teknikal di lebih daripada 95 buah negara, dan bekerjasama dengan kerajaan, pertubuhan persatuan sivil, dan kumpulan-kumpulan industri.
                         </p>
@@ -206,7 +201,7 @@ const en = () => {
                                     href="http://www.dol.gov/agencies/ilab/ilab-around-world"
                                     title="Learn more"
                                 >
-                                    Learn more
+                                    Pelajari lagi
                                 </a>{" "}
                                 mengenai kerja-kerja ILAB di seluruh dunia.
                             </li>
@@ -267,7 +262,7 @@ const en = () => {
                                 href="mailto:GlobalKids@ilab.dol.gov?subject=Comments on Comply Chain App"
                                 title="e-mailing ILAB"
                             >
-                                e-mailing ILAB
+                                emel kepada ILAB
                             </a>
                             .
                         </p>
@@ -288,12 +283,7 @@ const en = () => {
                    <em> Rujukan kepada syarikat tertentu dan entiti bukan kerajaan dalam panduan ini hanya untuk tujuan memberi maklumat bagi menunjukkan amalan terbaik yang telah diperakui di peringkat antarabangsa , sejak aplikasi dikeluarkan. Merujuk kepada entiti tidak patut ditafsirkan sebagai sokongan rasmi kepada entiti tersebut,
                    produk atau perkhidmatan mereka oleh Jabatan Buruh AS dan penyertaan mereka tidak boleh ditafsirkan sebagai tinjauan komprehensif mengenai amalan entiti ini di dalam semua bidang.{" "}
                 </em>
-                <em>
-                    and their inclusion should not be interpreted as a
-                    comprehensive review of these entities&rsquo; practices in
-                    all areas
-                </em>
-                <em>.</em>
+
             </p>
             <p>
                 <em>

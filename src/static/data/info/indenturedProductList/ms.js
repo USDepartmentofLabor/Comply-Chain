@@ -14,9 +14,9 @@ const en = () => {
                      href="https://www.dol.gov/agencies/ilab/about/laws"
                      title="List of products report"
                       >
-                    <span> Executive Order 13126</span>
+                    <span> Perintah Eksekutif 13126</span>
                  </a>
-                .&nbsp;TSenarai ini adalah untuk memastikan yang agensi kerajaan pusat AS tidak memperoleh barangan yang dibuat oleh buruh paksa atau buruh kontrak kanak-kanak. Di bawah peraturan perolehan, kontraktor kerajaan
+                .&nbsp;Senarai ini adalah untuk memastikan yang agensi kerajaan pusat AS tidak memperoleh barangan yang dibuat oleh buruh paksa atau buruh kontrak kanak-kanak. Di bawah peraturan perolehan, kontraktor kerajaan
                 yang membekalkan produk di dalam senarai mesti mengeluarkan sijil bahawa mereka telah berusaha sedaya upaya untuk mengesahkan yang buruh paksa atau buruh kontrak kanak-kanak telah digunakan untuk mengeluarkan barang yang dibekalkan.
                 </p>
                 <p>
@@ -28,7 +28,7 @@ const en = () => {
                      href="https://www.dol.gov/agencies/ilab/about/laws/#eo13126"
                      title="List of products report"
                       >
-                     Executive Order 13126
+                     Perintah Eksekutif 13126
                  </a>
 
                 .&nbsp;&quot;Larangan Perolehan Produk yang Dikeluarkan oleh Buruh Paksa atau Buruh Kontrak Kanak-Kanak&quot;. Keperluan Pemerolehan berkaitan dengan produk dalam Senarai itu terdapat dalam Peraturan Pemerolehan Persekutuan &nbsp;
@@ -38,7 +38,7 @@ const en = () => {
                      href="http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=2001_register&docid=01-1503-filed.pdf"
                      title="List of products report"
                       >
-                     Final Rule
+                     Peraturan Terakhir
                  </a>.
                     </p>
                     <p>

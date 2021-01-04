@@ -54,7 +54,7 @@ const ms = () => {
                                                                  href="https://www.dol.gov/agencies/ilab/issues/child-labor/iqbal"
                                                                  title="Iqbal Masih Award"
                                                              >
-                                                                 Iqbal Masih Award
+                                                                 Hadiah Iqbal Masih
                                                              </a>
                                                              . Sejak tahun 1995, Jabatan Buruh  telah menyokong usaha global untuk memerangi eksploitasi buruh kanak-kanak di peringkat antarabangsa.  Untuk maklumat lanjut mengenai usaha ini dan Hadiah Iqbal Masih, sila layari{" "}
                                                              <a
@@ -108,7 +108,7 @@ const ms = () => {
                                                         rel="noopener noreferrer"
                                                         href="www.league91.com/league-central-america-making-difference-el-salvador/"
                                                     >
-                                                   League Central America</a>*{" "}
+                                                   Liga Amerika Tengah</a>*{" "}
                                                    (LCA),
                                                    nampak peluang untuk membangunkan  usahawan produktif melalui pelaburan yang membina kapasiti untuk pekerja dan membantu menangani kemiskinan dan keganasan dalam komuniti mereka.  LCA memberikan keutamaan kepada pengambilan pekerja
                                                    belia yang sukar mendapat pekerjaan di tempat lain, termasuk orang kurang upaya, bekas samseng, dan mereka yang terdedah kepada pengaruh samseng.  Kini, tenaga kerja di kilang terdiri daripada 15 peratus pekerja bekas samseng.

@@ -16,8 +16,7 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Dodd-Frank Wall Street Reform and Consumer Protection
-                        Act (2010)
+                        Akta Membentuk Semula Wall Street dan Perlindungan Pengguna Dodd-Frank (2010)
                     </a>{" "}
                     dan{" "}
                     <a
@@ -25,7 +24,7 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        California Transparency in Supply Chains Act (2010)
+                        Akta Ketelusan dalam Rantai Bekalan California (2010)
                     </a>
                     , yang dikuatkuasakan pada awal 2010 untuk menanggapi kebimbangan hak asasi manusia, memerlukan syarikat
                     tertentu untuk mendedahkan kepada orang awam mengenai maklumat rantai bekalan mereka. Sejak itu, ada lebih
@@ -47,14 +46,14 @@ const en = () => {
                         rel="noopener noreferrer"
                         href="https://business-humanrights.org/en/national-movements-for-mandatory-human-rights-due-diligence-in-european-countries"
                     >
-                    governmental and civil society movements for mandatory human rights due diligence in European countries</a>
+                    pergerakan kerajaan dan masyarakat sivil untuk ketekunan wajar yang wajib mengenai hak asasi manusia di negara-negara Eropah</a>
                     &nbsp;sebagai sebahagian daripada&nbsp;
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.business-humanrights.org/en/big-issues/mandatory-due-diligence/"
                     >
-                    mandatory due diligence </a>
+                    ketekunan wajar wajib </a>
                 </p>
                 <p>Contoh undang-undang dan peraturan mengikut; hubungi entiti yang menguatkuasakannya untuk maklumat terkini.</p>
                 <ul id="law-list">
@@ -75,9 +74,7 @@ const en = () => {
                             rel="noopener noreferrer"
                             href="https://www.gpo.gov/fdsys/pkg/FR-1999-06-16/pdf/99-15491.pdf"
                         >
-                            Executive Order 13126, Prohibition of Acquisition of
-                            Products Produced by Forced or Indentured Child
-                            Labor, and its implementing regulations
+                            Perintah Eksekutif 13126 untuk Melarang Perolehan Produk yang dikeluarkan oleh Buruh Paksa atau Buruh Kontrak Kanak-Kanak, dan peraturan yang dilaksanakan
                         </a>
                         &nbsp;ditandatangani pada 1999, memerlukan Jabatan Buruh AS untuk menerbitkan a&nbsp;
                         <a
@@ -85,7 +82,7 @@ const en = () => {
                             rel="noopener noreferrer"
                             href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products"
                         >
-                        List of Products Produced by Forced or Indentured Child Labor </a>
+                        Senarai Produk yang Dikeluarkan oleh Buruh Paksa atau Buruh Kontrak Kanak-Kanak </a>
                         dan negara asalnya. Senarai ini adalah untuk memastikan yang agensi kerajaan pusat AS tidak
                         memperoleh barangan yang dibuat oleh buruh paksa atau buruh kontrak kanak-kanak.
                         Di bawah peraturan pemerolehan, kontraktor kerajaan yang membekalkan produk di dalam senarai
@@ -111,9 +108,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="https://www.federalregister.gov/documents/2015/01/29/2015-01524/federal-acquisition-regulation-ending-trafficking-in-persons"
                                     >
-                                        Executive Order 13627 Strengthening
-                                        Protections Against Trafficking in
-                                        Persons in Federal Contracts
+                                        Perintah Ekesekutif 13627 untuk Memperkuatkan Pelindungan Terhadap Pendatang yang Diperdagang Tanpa Izin dalam Kontrak Persekutuan
                                     </a>{" "}
                                     dan Title XVII Akta Kebenaran Pertahanan Nasional untuk Tahun Fiskal 2013, Menamatkan Pemerdagangan dalam Kontrak dengan Kerajaan.
                                     Peraturan ini memperkuatkan larangan sedia ada terhadap pemerdagangan dalam kontrak dengan kerajaan dengan melarang secara tegas kontraktor,
@@ -134,7 +129,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="http://responsiblesourcingtool.org/"
                                     >
-                                        Responsible Sourcing Tool
+                                        Alat Mencari Sumber Bertanggungjawab
                                     </a>
                                     , yang dilancarkan pada 2016 oleh Verité dan Jabatan Negara AS, termasuk{" "}
                                     <a
@@ -142,7 +137,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="http://responsiblesourcingtool.org/download/footer/Tool_09.pdf"
                                     >
-                                        Compliance Plan Template
+                                        Templat Rancangan Pematuhan
                                     </a>
                                     , yang dimaksudkan untuk syarikat yang perlu menunjukkan pematuhan dalam Memerangi Pemerdagangan Manusia di bawah Peraturan Pemerolehan Persekutuan.
                                 </p>
@@ -162,8 +157,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="https://www.finance.senate.gov/imo/media/doc/BILLS-114hr644enr.pdf"
                                     >
-                                        Trade Facilitation and Trade Enforcement
-                                        Act of 2015
+                                        Akta Pengendalian Perdagangan dan Penguatkuasaan Perdagangan 2015
                                     </a>
                                     , yang berkuatkuasa pada Mac 2016, memperkuatkan larangan yang ada terhadap pengimportan
                                     barang yang dibuat oleh buruh paksa, lantas menghapuskan jalan keluar. Semua barang “dilombong,
@@ -174,7 +168,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="https://www.gpo.gov/fdsys/granule/USCODE-2010-title19/USCODE-2010-title19-chap4"
                                     >
-                                        Tariff Act of 1930
+                                        Akta Tarif 1930
                                     </a>
                                     , kecuali pembekalan yang dihasilkan AS merupakan barang yang tidak mencukupi untuk memenuhi permintaan AS,
                                     yang disebut pengecualian “permintaan kegunaan” dalam Seksyen 910. Pengecualian ini telah dimansuh, yang
@@ -188,7 +182,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="https://www.cbp.gov/trade/programs-administration/forced-labor/withhold-release-orders-and-findings"
                                     >
-                                    withhold release order </a>
+                                    menahan perintah pelepasan </a>
                                     untuk menghindar barang masuk ke AS. Semasa barang ditahan pengeluar mempunyai pilihan untuk mengeksport semula
                                     barang-barang atau memberikan bukti kepada CBP menunjukkan bahawa barangan tidak dikeluarkan oleh buruh paksa.
                                     Sekiranya CBP menentukan bahawa ada bukti sahih mengenai buruh paksa, ia akan menerbitkan penemuan formal dalam
@@ -209,7 +203,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="http://www.legislation.gov.uk/ukpga/2015/30/pdfs/ukpga_20150030_en.pdf"
                                     >
-                                        UK Modern Slavery Act
+                                        Akta Perhambaan Moden UK
                                     </a>
                                     , yang berkuatkuasa pada Oktober 29, 2015, mengandungi ketelusan dalam peruntukan rantai bekalan yang memerlukan semua
                                     syarikat yang mengeluarkan sekurang-kurangnya £36 juta setahun yang mengendali perniagaan di UK untuk mendedahkan
@@ -270,7 +264,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="http://www.ethicaltrade.org/"
                                     >
-                                        Ethical Trading Initiative
+                                        Inisiatif Perdagangan Beretika
                                     </a>
                                     ,{" "}
                                     <a
@@ -319,7 +313,7 @@ const en = () => {
                         <Accordion.Section id="france-dov-law">
                             <Accordion.Title>
                                 <strong>
-                                    Undang-undang Perancis mengenai Tugas Berjaga-jaga
+                                    Undang-undang Kewaspadaan Perancis
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
@@ -330,7 +324,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="https://www.business-humanrights.org/en/frances-law-on-the-corporate-duty-of-vigilance-a-practical-and-multidimensional-analysis-in-english"
                                     >
-                                        French Corporate Duty of Vigilance Law
+                                        Tugas Korporat Perancis di bawah Undang-Undang Kewaspadaan
                                     </a>
                                     , dipinda pada 28 Mac 2017, memerlukan korporat besar dengan lebih 5,000 kakitangan
                                     beribu pejabat di Perancis dan syarikat korporat asing dengan lebih 10,000 kakitangan
@@ -363,8 +357,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="https://www.sec.gov/answers/about-lawsshtml.html#df2010"
                                     >
-                                        Dodd-Frank Wall Street Reform and
-                                        Consumer Protection Act
+                                        Akta Membentuk Semula Wall Street dan Perlindungan Pengguna Dodd-Frank
                                     </a>{" "}
                                     (Akta Dodd-Frank), diluluskan pada 2010, mengarahkan Suruhanjaya Sekuriti dan Pertukaran (U.S. Securities and Exchange Commission - SEC)
                                     untuk mengeluarkan peraturan menghendaki syarikat-syarikat yang mengeluarkan produk supaya melaporkan “konflik mineral” dalam rantai
@@ -403,8 +396,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
                                     >
-                                        California Transparency in Supply Chains
-                                        Act
+                                        Akta Ketelusan dalam Rantai Bekalan California
                                     </a>
                                     , yang ditandatangani menjadi undang-undang pada Oktober 2010 dan berkuatkuasa pada Januari 2012, menghendaki syarikat-syarikat tertentu
                                     melaporkan tindakan tertentu untuk membasmi perhambaan dan pemerdagangan manusia dalam rantai bekalan mereka. Undang-undang ini disasarkan
@@ -430,8 +422,7 @@ const en = () => {
                                         href="https://www.verite.org/the-california-transparency-in-supply-chains-act-a-resource-guide/"
                                     >
                                         <em>
-                                            The California Transparency in
-                                            Supply Chains Act: A Resource Guide
+                                            Akta Ketelusan dalam Rantai Bekalan California: Panduan Rujukan
                                         </em>
                                     </a>
                                     <em>, </em>disediakan oleh Jabatan Keadilan California, yang mengandungi saranan untuk pematuhan dan contoh amalan pendedahan.
@@ -474,7 +465,7 @@ const en = () => {
                                 >
                                 Verité
                                 </a>
-                                &nbsp;available at{" "}
+                                &nbsp;boleh didapati dari{" "}
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -491,10 +482,7 @@ const en = () => {
                                         href="http://www.verite.org/wp-content/uploads/2016/11/VTE_WhitePaper_California_Bill657FINAL5.pdf"
                                     >
                                         <em>
-                                            Compliance is Not Enough: Best
-                                            Practices in Responding to The
-                                            California Transparency in Supply
-                                            Chains Act
+                                            Pematuhan Tidak Cukup: Amalan Terbaik untuk Bertindak Balas terhadap Akta Ketelusan dalam Rantai Bekalan California
                                         </em>
                                     </a>
                                     , kertas putih mengenai Ketelusan dalam Rantai Bekalan California yang disediakan oleh badan bukan kerajaan{" "}
@@ -524,9 +512,8 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="https://www.legislation.gov.au/Details/C2018A00153"
                                     >
-                                    Modern Slavery Act 2018
-                                    </a>
-                                    (Act) came into force.
+                                    Akta Perhambaan Moden 2018
+                                    </a>{" "}
                                     Australia berkuatkuasa. Akta memerlukan entiti yang berpangkalan atau beroperasi di Australia,
                                     yang mempunyai pendapatan sebanyak lebih AUD$100 juta untuk melaporkan risiko perhambaan moden
                                     dalam operasi mereka dan rantai bekalan dan tindakan yang diambil untuk menangani risiko dalam
@@ -539,7 +526,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="https://www.homeaffairs.gov.au/criminal-justice/files/modern-slavery-reporting-entities.pdf"
                                     >
-                                    Guidance for Reporting Entities
+                                    Panduan untuk Entiti yang Melapor
                                     </a>
                                      &nbsp;untuk menjelaskan dalam bahasa mudah apa yang entiti patut buat untuk mematuhi Akta tersebut.
                                 </p>
@@ -561,7 +548,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="https://www.eerstekamer.nl/behandeling/20170207/gewijzigd_voorstel_van_wet"
                                     >
-                                    Child Labor Due Diligence Act
+                                    Akta Ketekunan Wajar Buruh Kanak-kanak
                                     </a>
                                     &nbsp;pada 2019 tetapi ia menanti kelulusan diraja sebelum berkuatkuasa. Akta ini akan dikenakan
                                     terhadap semua syarikat yang menjual atau membekal barangan atau perkhidmatan pengguna kepada
@@ -591,7 +578,7 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014L0095"
                                     >
-                                    European Union (EU) Directive 2014/95/EU
+                                    Arahan 2014/95/EU Kesatuan Eropah (EU)
                                     </a>
                                     &nbsp;memerlukan syarikat dengan kepentingan awam dengan sekurang-kurangnya 500 orang kakitangan menerbitkan
                                     dasar-dasar yang mereka laksanakan mengenai perlindungan alam sekitar, tanggungjawab sosial dan layanan terhadap
@@ -602,15 +589,16 @@ const en = () => {
                                         rel="noopener noreferrer"
                                         href="https://ec.europa.eu/info/publications/non-financial-reporting-guidelines_en"
                                     >
-                                    guidelines to help companies disclose environmental and social information
+                                    panduan untuk membantu syarikat mendedahkan maklumat alam sekitar dan sosial
                                     </a>
-                                    &nbsp;Maklumat lanjut boleh didapati di Suruhanjaya Eropah&nbsp;
+                                    &nbsp;tetapi syarikat-syarikat mempunyai fleksibiliti bagaimana mereka melapor mengikut Arahan.
+                                    Maklumat lanjut boleh didapati di Suruhanjaya Eropah&nbsp;
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014L0095"
                                     >
-                                    &nbsp;website
+                                    laman web
                                     </a>.
                                 </p>
 
