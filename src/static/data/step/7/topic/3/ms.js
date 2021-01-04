@@ -251,11 +251,11 @@ const ms = () => {
                         href="http://responsiblesourcingtool.org/"
                         title="Responsible Sourcing Tool"
                     >
-                        Responsible Sourcing Tool
+                        Alat Mencari Sumber Bertanggungjawab
                     </a>{" "}
                     (RST) termasuk Penanda Aras Merekrut dan Penggajian untuk menunjukkan titik data yang boleh diukur dan diambil tindakan 
                     serta amalan baik digariskan dalam Contoh Peruntukan Kod Tingkah Laku, yang dirujuk dalam {" "}
-                    <Link to="/steps/5">Step 3, Develop a Code of Conduct</Link>
+                    <Link to="/steps/5">Langkah 3, Bina Kod Tingkah Laku</Link>
                     . Penanda aras ini, yang merangkumi pelbagai bidang berkaitan dengan buruh paksa dan pemerdagangan manusia, termasuk yuran 
                     merekrut, kontrak penggajian, dokumen untuk mengekalkan pekerja, kebebasan bergerak, boleh digunakan sebagai asas bagi membentuk 
                     alat audit dan untuk menubuhkan dan memantau penunjuk prestasi utama dalam menilai prestasi pembekal dan ejen buruh. 
@@ -1081,7 +1081,7 @@ const ms = () => {
                     title="Sample Benchmarks of Good Practice in Recruitment and Employment"
                 >
                     <strong>
-                    Recruitment and Employment Benchmarks
+                    Penanda Aras Perekrutan dan Penggajian
                     </strong>
                 </a>
                 .

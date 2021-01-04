@@ -138,14 +138,14 @@ const ms = () => {
                         >
                             Pintu Perekrutan Bertanggungjawab
                         </a>
-                        {" "}at{" "}
+                        {" "}di{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
                             href="https://www.ihrb.org/employerpays/"
                             title="Responsible Recruitment Gateway"
                         >
-                        https://www.ihrb.org/employerpays/
+                        https://www.ihrb.org/majikanbayar/
                         </a>.
                     </p>
                 </ExampleInAction>

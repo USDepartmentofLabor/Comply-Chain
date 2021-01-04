@@ -9,11 +9,14 @@ const Table = styled.table`
     border-collapse: collapse;
     border: 2px solid ${theme.colors.charcoal};
     margin-bottom: 16px;
-
+//    focusable="true"
+//    accessible="true"
+//    isAccessibilityElement="true"
+//    aria-hidden="false"
     & th,
     td {
         border: 1px solid ${theme.colors.charcoal};
-    }
+    }, accessible ="true"
 `;
 
 const en = () => {
@@ -289,7 +292,7 @@ const en = () => {
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
-                <Table>
+                <Table accessibile="true">
                     <caption>
                         {" "}
                         Table: Remediation of Working and Living Conditions
@@ -297,12 +300,12 @@ const en = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" scope="col">
+                            <th scope="col" width="55%">
                                 <p>
                                     <strong>Circumstances</strong>
                                 </p>
                             </th>
-                            <th scope="col" width="45%" scope="col">
+                            <th scope="col" width="45%">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
