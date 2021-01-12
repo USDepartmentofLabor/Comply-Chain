@@ -217,19 +217,19 @@ const en = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%">
+                            <th scope="col" width="55%" tabindex="0">
                                     <strong>Circumstances</strong>
                             </th>
-                            <th scope="col" width="45%">
+                            <th scope="col" width="45%" tabindex="0">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
                             </th>
                         </tr>
                         <tr>
-                            <th scope="row">Workers abducted, confined during the recruitment process or sold.</th>
+                            <th scope="row" tabindex="0">Workers abducted, confined during the recruitment process or sold.</th>
 
-                            <td>
+                            <td tabindex="0">
                                 <p>
                                     Report offenses to law enforcement
                                     authorities. Work with law enforcement and
@@ -239,8 +239,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                                <th scope="row">Workers recruited through a loan or advance and are working to pay it off.</th>
-                            <td>
+                                <th scope="row" tabindex="0">Workers recruited through a loan or advance and are working to pay it off.</th>
+                            <td tabindex="0">
                                 <p>
                                     If the supplier paid the loan or advance,
                                     determine whether the terms were
@@ -258,13 +258,13 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                                    <th scope="row">Deceptive recruitment: workers promised
+                                    <th scope="row" tabindex="0">Deceptive recruitment: workers promised
                                                     types of work, working conditions, contract
                                                     terms, housing or living conditions, job
                                                     locations, employers or wages/earnings that
                                                     do not materialize.</th>
 
-                            <td>
+                            <td tabindex="0">
                                 <p>
                                     If the supplier made a false promise, the
                                     supplier should provide all employees who
@@ -299,7 +299,7 @@ const en = () => {
                         Issues{" "}
                     </caption>
                     <tbody>
-                        <tr>
+                        <tr tabindex="0">
                             <th scope="col" width="55%">
                                 <p>
                                     <strong>Circumstances</strong>
@@ -311,7 +311,7 @@ const en = () => {
                                 </p>
                             </th>
                         </tr>
-                        <tr>
+                        <tr tabindex="0">
                                 <th scope="row">Workers working excessive overtime beyond legal limits.</th>
 
                             <td>
@@ -333,7 +333,7 @@ const en = () => {
                                 </p>
                             </td>
                         </tr>
-                        <tr>
+                        <tr tabindex="0">
                             <th scope="row">Workers expected to work &ldquo;on call.&rdquo;</th>
                            <td>
                                 <p>
@@ -345,7 +345,7 @@ const en = () => {
                                 </p>
                             </td>
                         </tr>
-                        <tr>
+                        <tr tabindex="0">
                         <th scope="row">Employer restricts workers&rsquo; freedom of movement or communication.</th>
                             <td>
                                 <p>
@@ -379,7 +379,7 @@ const en = () => {
                                 </p>
                             </td>
                         </tr>
-                        <tr>
+                        <tr tabindex="0">
                         <th scope="row">Degrading living conditions.</th>
                             <td>
                                 <p>
@@ -404,7 +404,7 @@ const en = () => {
                                 </p>
                             </td>
                         </tr>
-                        <tr>
+                        <tr tabindex="0">
                         <th scope="row">Workers forced to engage in illicit activities, to work for private home/family or to take addictive drugs.</th>
                            <td>
                                 <p>
@@ -430,7 +430,7 @@ const en = () => {
                                 </p>
                             </td>
                         </tr>
-                        <tr>
+                        <tr tabindex="0">
                         <th scope="row">Supplier inflates workers&rsquo; indebtedness.</th>
                             <td>
                                 <p>
@@ -465,7 +465,7 @@ const en = () => {
                                 </p>
                             </td>
                         </tr>
-                        <tr>
+                        <tr tabindex="0">
                         <th scope="row">Workers depend on employer for housing, food or other necessities.</th>
                             <td>
                                 <p>
@@ -488,7 +488,7 @@ const en = () => {
                                 </p>
                             </td>
                         </tr>
-                        <tr>
+                        <tr tabindex="0">
                         <th scope="row">Workers have personal dependency on employer.</th>
                             <td>
                                 <p>
@@ -517,7 +517,7 @@ const en = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col" tabindex="0">
                                 <p>
                                     <strong>Circumstances</strong>
                                 </p>
