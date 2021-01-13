@@ -11,15 +11,15 @@ const en = () => {
                     <strong>Syarat Pinjaman</strong>
                 </h1>
                 <p>
-                    Perbadanan Kewangan Pembangunan Antarabangsa (DFC)
+
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.dfc.gov/"
                     >
-                    International Development Finance Corporation(DFC)
+                    Perbadanan Kewangan Pembangunan Antarabangsa (DFC)
                     </a>
-                    &nbsp;—ditubuhkan pada 2019,menggabungkan fungsi dari Perbadanan Pelaburan Swasta Luar Negeri (OPIC) – atau{" "}
+                    &nbsp;— ditubuhkan pada 2019,menggabungkan fungsi dari Perbadanan Pelaburan Swasta Luar Negeri (OPIC) – atau{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
