@@ -208,12 +208,12 @@ const fr = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col" tabindex="0">
                                 <p>
                                     <strong>Situations</strong>
                                 </p>
                             </th>
-                            <th scope="col" width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col" tabindex="0">
                                 <p>
                                     <strong>
                                         Actions de r&eacute;paration
@@ -222,8 +222,8 @@ const fr = () => {
                             </th>
                         </tr>
                         <tr>
-                        <th scope="row">Travailleurs enlev&eacute;s, retenus pendant le processus de recrutement, ou vendus.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Travailleurs enlev&eacute;s, retenus pendant le processus de recrutement, ou vendus.</th>
+                            <td tabindex="0">
                                 <p>
                                     Signaler les d&eacute;lits aux autorit&eacute;s de police. Travailler avec les forces de l'ordre et les 
                                     groupes locaux pour donner aux victimes un lieu d'h&eacute;bergement s&ucirc;r et les mettre en relation 
@@ -232,8 +232,8 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Travailleurs recrut&eacute;s par un pr&ecirc;t ou une avance sur salaire et qui travaillent pour le rembourser.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Travailleurs recrut&eacute;s par un pr&ecirc;t ou une avance sur salaire et qui travaillent pour le rembourser.</th>
+                            <td tabindex="0">
                                 <p>
                                     Si le fournisseur a vers&eacute; le pr&ecirc;t ou l'avance sur salaire, d&eacute;terminer si les modalit&eacute;s 
                                     en &eacute;taient raisonnables. Dans le cas contraire, n&eacute;gocier des modalit&eacute;s raisonnables entre le 
@@ -246,10 +246,10 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Recrutement trompeur : il a &eacute;t&eacute; promis aux travailleurs des types de travail, des conditions 
+                        <th scope="row" tabindex="0">Recrutement trompeur : il a &eacute;t&eacute; promis aux travailleurs des types de travail, des conditions
                         de travail, des modalit&eacute;s de contrat, des conditions de logement ou d'existence, des lieux de travail, des employeurs 
                         ou des salaires/revenus qui ne se sont pas r&eacute;alis&eacute;s.</th>
-                            <td>
+                            <td tabindex="0">
                                 <p>
                                     Si le fournisseur a fait de fausses promesses, il devrait remettre l'int&eacute;gralit&eacute; des salaires 
                                     dus &agrave; tous les employ&eacute;s qui souhaitent partir et leur fournir des moyens de transport pour rentrer 
@@ -281,12 +281,12 @@ const fr = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col" tabindex="0">
                                 <p>
                                     <strong>Situations</strong>
                                 </p>
                             </th>
-                            <th scope="col" width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col" tabindex="0">
                                 <p>
                                     <strong>
                                         Actions de r&eacute;paration
@@ -295,8 +295,8 @@ const fr = () => {
                             </th>
                         </tr>
                         <tr>
-                        <th scope="row">Heures suppl&eacute;mentaires des travailleurs excessives d&eacute;passant les limites l&eacute;gales.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Heures suppl&eacute;mentaires des travailleurs excessives d&eacute;passant les limites l&eacute;gales.</th>
+                            <td tabindex="0">
                                 <p>
                                     S'assurer que le fournisseur r&egrave;gle aux travailleurs les arri&eacute;r&eacute;s de salaires de toutes 
                                     les heures suppl&eacute;mentaires effectu&eacute;es. Collaborer avec le fournisseur pour &eacute;valuer 
@@ -311,8 +311,8 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Travailleurs devant effectuer des astreintes.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Travailleurs devant effectuer des astreintes.</th>
+                            <td tabindex="0">
                                 <p>
                                     Collaborer avec le fournisseur pour concevoir un plan de dotation en personnel plus structur&eacute; r&eacute;pondant 
                                     aux exigences de votre code. S'assurer que tous les travailleurs re&ccedil;oivent une formation au sujet de leurs 
@@ -321,8 +321,8 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Employeur qui limite la libert&eacute; de circulation ou de communication des travailleurs.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Employeur qui limite la libert&eacute; de circulation ou de communication des travailleurs.</th>
+                            <td tabindex="0">
                                 <p>
                                     D&eacute;terminer qui (direction, contrema&icirc;tres, chefs d'&eacute;quipe, etc.) prend part &agrave; la 
                                     limitation de la libert&eacute; de circulation ou de communication des travailleurs et enqu&ecirc;ter sur 
@@ -344,8 +344,8 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Conditions d&rsquo;existence d&eacute;gradantes.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Conditions d&rsquo;existence d&eacute;gradantes.</th>
+                            <td tabindex="0">
                                 <p>
                                     S'assurer que le fournisseur comprend pleinement vos normes minimales concernant le logement des employ&eacute;s. 
                                     Accorder au fournisseur de brefs d&eacute;lais pour am&eacute;liorer l&rsquo;ensemble des conditions d&rsquo;existence. 
@@ -362,9 +362,9 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Travailleurs contraints d'ex&eacute;cuter des activit&eacute;s illicites, de travailler pour le domicile 
+                        <th scope="row" tabindex="0">Travailleurs contraints d'ex&eacute;cuter des activit&eacute;s illicites, de travailler pour le domicile
                         priv&eacute;/la famille ou de prendre des drogues toxicomanog&egrave;nes.</th>
-                            <td>
+                            <td tabindex="0">
                                 <p>
                                     D&eacute;terminer qui (direction, contrema&icirc;tres, chefs d'&eacute;quipe, etc.) prend part &agrave; la 
                                     limitation de la libert&eacute; de circulation ou de communication des travailleurs et enqu&ecirc;ter sur 
@@ -386,8 +386,8 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Fournisseur qui accro&icirc;t artificiellement la dette des travailleurs.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Fournisseur qui accro&icirc;t artificiellement la dette des travailleurs.</th>
+                            <td tabindex="0">
                             <p>
                                 D&eacute;terminer la source de la dette initiale des travailleurs. Si la dette initiale a &eacute;t&eacute; 
                                 contract&eacute;e aupr&egrave;s du fournisseur, exiger du fournisseur qu'il annule cette dette. Si la dette 
@@ -413,8 +413,8 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Travailleurs tributaires de l'employeur pour leur logement, leur nourriture ou d&rsquo;autres n&eacute;cessit&eacute;s.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Travailleurs tributaires de l'employeur pour leur logement, leur nourriture ou d&rsquo;autres n&eacute;cessit&eacute;s.</th>
+                            <td tabindex="0">
                             <p>
                                 Dans certains cas, particuli&egrave;rement en ce qui concerne les travailleurs migrants, la fourniture par 
                                 l'employeur d&rsquo;un logement, de nourriture et d'autres n&eacute;cessit&eacute;s peut &ecirc;tre la 
@@ -432,8 +432,8 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Travailleurs personnellement d&eacute;pendants de l'employeur.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Travailleurs personnellement d&eacute;pendants de l'employeur.</th>
+                            <td tabindex="0">
                                 <p>
                                     S'assurer que tous les travailleurs re&ccedil;oivent une formation au sujet de leurs droits sur le lieu 
                                     de travail en vertu des lois et de votre code de conduite, quelles que soient leurs relations personnelles.
@@ -461,12 +461,12 @@ const fr = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col" tabindex="0">
                                 <p>
                                     <strong>Situations</strong>
                                 </p>
                             </th>
-                            <th scope="col" width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col" tabindex="0">
                                 <p>
                                     <strong>
                                         Actions de r&eacute;paration
@@ -475,9 +475,9 @@ const fr = () => {
                             </th>
                         </tr>
                         <tr>
-                        <th scope="row">Travailleurs qui estiment qu'ils ne sont pas libres de d&eacute;missionner en raison des avantages 
+                        <th scope="row" tabindex="0">Travailleurs qui estiment qu'ils ne sont pas libres de d&eacute;missionner en raison des avantages
                         qu'ils ont re&ccedil;us ou des restrictions impos&eacute;es par l'employeur.</th>
-                            <td>
+                            <td tabindex="0">
                                 <p>
                                     Si un contrema&icirc;tre ou toute autre personne am&egrave;ne les travailleurs &agrave; croire qu'ils ne 
                                     peuvent partir parce que le fournisseur a fourni une formation ou d'autres avantages, ou parce qu'il existe 
@@ -491,8 +491,8 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Travailleurs qui se sentent contraints de rester en raison de salaires qui leur sont dus.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Travailleurs qui se sentent contraints de rester en raison de salaires qui leur sont dus.</th>
+                            <td tabindex="0">
                                 <p>
                                     S'assurer que les salaires sont calcul&eacute;s avec exactitude et que tous les employ&eacute;s prenant 
                                     part &agrave; la comptabilit&eacute; salariale sont suffisamment form&eacute;s au calcul des salaires. 
@@ -506,9 +506,9 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Employ&eacute;s qui travaillent pendant des dur&eacute;es excessives ou ind&eacute;finies pour 
+                        <th scope="row" tabindex="0">Employ&eacute;s qui travaillent pendant des dur&eacute;es excessives ou ind&eacute;finies pour
                         rembourser une dette ou une avance qu&rsquo;ils doivent &agrave; l'employeur ou au recruteur.</th>
-                            <td>
+                            <td tabindex="0">
                                 <p>
                                     Si le fournisseur a vers&eacute; le pr&ecirc;t ou l'avance sur salaire, d&eacute;terminer si les 
                                     modalit&eacute;s en &eacute;taient raisonnables. Dans le cas contraire, n&eacute;gocier des 
@@ -538,12 +538,12 @@ const fr = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col" tabindex="0">
                                 <p>
                                     <strong>Situations</strong>
                                 </p>
                             </th>
-                            <th scope="col" width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col" tabindex="0">
                                 <p>
                                     <strong>
                                         Actions de r&eacute;paration
@@ -552,9 +552,9 @@ const fr = () => {
                             </th>
                         </tr>
                         <tr>
-                        <th scope="row">Fournisseur ou recruteur qui a en sa possession les pi&egrave;ces d'identit&eacute; ou les 
+                        <th scope="row" tabindex="0">Fournisseur ou recruteur qui a en sa possession les pi&egrave;ces d'identit&eacute; ou les
                         titres de voyage des travailleurs.</th>
-                            <td>
+                            <td tabindex="0">
                                 {/* <p id="P1"> */}
                                 <p>
                                     Les fournisseurs ne devraient jamais confisquer ni prendre possession des pi&egrave;ces 
@@ -570,8 +570,8 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Employeur qui restreint les communications des travailleurs.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Employeur qui restreint les communications des travailleurs.</th>
+                            <td tabindex="0">
                                 <p>
                                     {/* <Link to="/steps/8/topic/3/#P1">
                                     Voir ci-dessus.
@@ -593,8 +593,8 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Employeur qui menace de remettre les travailleurs aux autorit&eacute;s d'immigration.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Employeur qui menace de remettre les travailleurs aux autorit&eacute;s d'immigration.</th>
+                            <td tabindex="0">
                                 {/* <p id="P2"> */}
                                 <p>
                                     Dans toute situation de violence, de sanction, d'intimidation ou de menace, d&eacute;terminer 
@@ -616,8 +616,8 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Employeur qui commet ou menace de commettre des violences physiques ou sexuelles.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Employeur qui commet ou menace de commettre des violences physiques ou sexuelles.</th>
+                            <td tabindex="0">
                                 <p>
                                     {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
@@ -643,9 +643,9 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Employeur ou recruteur qui menace de retirer des privil&egrave;ges comme une possibilit&eacute; de 
+                        <th scope="row" tabindex="0">Employeur ou recruteur qui menace de retirer des privil&egrave;ges comme une possibilit&eacute; de
                         promotion, de d&eacute;grader encore les conditions de travail ou de licencier des travailleurs.</th>
-                            <td>
+                            <td tabindex="0">
                                 <p>
                                     {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
@@ -671,8 +671,8 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Employeur ou recruteur qui exploite les convictions religieuses ou culturelles des travailleurs.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Employeur ou recruteur qui exploite les convictions religieuses ou culturelles des travailleurs.</th>
+                            <td tabindex="0">
                                 <p>
                                     {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
@@ -698,8 +698,8 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Employeur ou recruteur qui retient le salaire des travailleurs ou leurs biens, ou les menace de sanctions financi&egrave;res.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Employeur ou recruteur qui retient le salaire des travailleurs ou leurs biens, ou les menace de sanctions financi&egrave;res.</th>
+                            <td tabindex="0">
                                 <p>
                                     {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
@@ -725,10 +725,10 @@ const fr = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Employeur qui menace de donner du travail suppl&eacute;mentaire aux travailleurs non coop&eacute;ratifs.<br />
+                        <th scope="row" tabindex="0">Employeur qui menace de donner du travail suppl&eacute;mentaire aux travailleurs non coop&eacute;ratifs.<br />
                         Employeur qui a recours au chantage pour contraindre des travailleurs.
                         </th>
-                            <td>
+                            <td tabindex="0">
                                 <p>
                                     {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.

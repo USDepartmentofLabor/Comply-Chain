@@ -41,7 +41,7 @@ const ms = () => {
                >
                Gedung Penjelasan Adil untuk Kilang-kilang
                </a>
-            *, yang menyediakan platform untuk berkongsi maklumat mengenai pembekal untuk berkongsi maklumat mengenai pembekal biasa dan bekerjasama untuk memantau dan memulihkan keadaan.
+            *, yang menyediakan platform untuk berkongsi maklumat mengenai pembekal biasa dan bekerjasama untuk memantau dan memulihkan keadaan.
             </p>
             <p>
             Apabila laporan audit tidak wujud, ada cara lain untuk mengumpul maklumat mengenai pembekal biasa anda untuk memastikan yang mana satu boleh disasarkan untuk usaha pematuhan lanjut. Sama ada kesatuan sekerja

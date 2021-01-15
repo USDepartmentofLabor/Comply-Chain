@@ -14,7 +14,7 @@ const ms = () => {
                     sasaran tersebut. Sebagai tambahan kepada kajian dalaman ini, anda juga perlukan kajian bebas, yang termasuk 
                     pemantauan bebas dan pengesahan bebas berkaitan dengan keberkesanan semua elemen program pematuhan sosial.{" "}
                     <em>Catatan: Kalau dalam </em>
-                    <Link to="/steps/7">Step 5, Monitor Compliance</Link>
+                    <Link to="/steps/7">Langkah 5, Pantau Pematuhan</Link>
                     <em>
                     , sebuah syarikat sudah memilih pemantauan bebas/mengaudit, tidak perlu lagi untuk mengulangi langkah ini, 
                     tetapi dinasihatkan untuk menjalankan pengesahan bebas{" "}

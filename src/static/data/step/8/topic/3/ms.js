@@ -183,19 +183,19 @@ const ms = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%">
+                            <th scope="col" width="55%" tabindex="0">
                                     <strong>Keadaan</strong>
                             </th>
-                            <th scope="col" width="45%">
+                            <th scope="col" width="45%" tabindex="0">
                                 <p>
                                     <strong>Tindakan Pembetulan</strong>
                                 </p>
                             </th>
                         </tr>
                         <tr>
-                            <th scope="row">Pekerja diculik, dikurung dalam proses merekrut atau dijual.</th>
+                            <th scope="row" tabindex="0">Pekerja diculik, dikurung dalam proses merekrut atau dijual.</th>
 
-                            <td>
+                            <td tabindex="0">
                                 <p>
                                     Laporkan kesalahan kepada pihak Penguatkuasa Undang-Undang Bekerjasama dengan penguatkuasa 
                                     undang-undang dan kumpulan tempatan untuk menyediakan tempat yang selamat bagi mangsa dan 
@@ -204,8 +204,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                                <th scope="row">Pekerja yang direkrut oleh sebab pinjaman atau duit pendahuluan dan terpaksa bekerja untuk membayar hutang tersebut.</th>
-                            <td>
+                                <th scope="row" tabindex="0">Pekerja yang direkrut oleh sebab pinjaman atau duit pendahuluan dan terpaksa bekerja untuk membayar hutang tersebut.</th>
+                            <td tabindex="0">
                                 <p>
                                     Sekiranya pembekal membayar pinjaman atau duit pendahuluan, pastikan sama ada syaratnya berpatutan. 
                                     Sekiranya tidak, berusaha untuk mencari terma yang berpatutan di antara pembekal dan pekerja. 
@@ -217,10 +217,10 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row">Penyelewengan dalam merekrut: pekerja dijanjikan jenis kerja, keadaan kerja, terma kontrak, 
+                            <th scope="row" tabindex="0">Penyelewengan dalam merekrut: pekerja dijanjikan jenis kerja, keadaan kerja, terma kontrak,
                             perumahan atau keadaan tempat tinggal, lokasi pekerjaan, majikan atau gaji/upah yang tidak menjadi kenyataan.</th>
 
-                            <td>
+                            <td tabindex="0">
                                 <p>
                                     Sekiranya pembekal membuat janji palsu, pembekal harus memberi pekerja yang ingin berhenti, gaji penuh 
                                     mereka dan pengangkutan untuk pulang. Sekiranya janji palsu dibuat oleh perekrut buruh, pastikan sama 
@@ -249,21 +249,21 @@ const ms = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col" tabindex="0">
                                 <p>
                                     <strong>Keadaan</strong>
                                 </p>
                             </th>
-                            <th scope="col" width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col" tabindex="0">
                                 <p>
                                     <strong>Tindakan Pembetulan</strong>
                                 </p>
                             </th>
                         </tr>
                         <tr>
-                                <th scope="row">Pekerja yang kerja berlebihan masa lebih daripada yang dihadkan di bawah undang-undang.</th>
+                                <th scope="row" tabindex="0">Pekerja yang kerja berlebihan masa lebih daripada yang dihadkan di bawah undang-undang.</th>
 
-                            <td>
+                            <td tabindex="0">
                                 <p>
                                     Pastikan pembekal membayar balik gaji untuk semua kerja lebih masa yang sudah dilakukan. Kerja dengan 
                                     pembekal untuk menilai dasar pengambilan pekerja dan amalan pampasan, seperti bayaran untuk setiap 
@@ -275,8 +275,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row">Pekerja dijangka bekerja &ldquo;bila dipanggil.&rdquo;</th>
-                           <td>
+                            <th scope="row" tabindex="0">Pekerja dijangka bekerja &ldquo;bila dipanggil.&rdquo;</th>
+                           <td tabindex="0">
                                 <p>
                                     Kerja dengan pembekal untuk membentuk pelan pengambilan pekerja dengan teratur yang sealiran dengan 
                                     keperluan kod anda. Pastikan semua pekerja mendapat latihan mengenai hak mereka di bawah undang-undang 
@@ -285,8 +285,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Majikan mengehadkan pergerakan pekerja atau untuk berkomunikasi.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Majikan mengehadkan pergerakan pekerja atau untuk berkomunikasi.</th>
+                            <td tabindex="0">
                                 <p>
                                     Pastikan siapa - pengurusan, penyelia, ketua giliran kerja, dan lain-lain - terlibat dalam mengehadkan 
                                     kebebasan pekerja untuk bergerak atau berkomunikasi dan menyiasat tindakan individu ini. Sekiranya 
@@ -305,8 +305,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Keadaan tempat tinggal yang semakin buruk.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Keadaan tempat tinggal yang semakin buruk.</th>
+                            <td tabindex="0">
                                 <p>
                                     Pastikan pembekal betul-betul memahami standard minimum anda dalam hal tempat tinggal pekerja. Berikan pembekal 
                                     waktu yang singkat untuk membetulkan keadaan tempat tinggal. Pastikan semua pekerja mendapat latihan mengenai 
@@ -321,9 +321,9 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Pekerja yang dipaksa melakukan aktiviti haram, seperti bekerja di rumahnya atau di rumah keluarganya atau 
+                        <th scope="row" tabindex="0">Pekerja yang dipaksa melakukan aktiviti haram, seperti bekerja di rumahnya atau di rumah keluarganya atau
                                 mengambil dadah yang mengakibatkan ketagihan.</th>
-                           <td>
+                           <td tabindex="0">
                                 <p>
                                     Pastikan siapa - pengurusan, penyelia, ketua giliran kerja, dan lain-lain - terlibat dalam mengehadkan kebebasan 
                                     pekerja untuk bergerak atau berkomunikasi dan menyiasat tindakan individu ini. Sekiranya individu bertindak 
@@ -340,8 +340,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Pembekal membanyakkan kadar hutang pekerja.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Pembekal membanyakkan kadar hutang pekerja.</th>
+                            <td tabindex="0">
                                 <p>
                                     Pastikan sumber hutang awal pekerja. Sekiranya hutang awal pekerja kepada pembekal, pastikan pembekal memansuhkan 
                                     hutang tersebut. Sekiranya hutang awal kepada perekrut buruh, siasat sama ada pembekal mengetahui tentang urusan 
@@ -360,8 +360,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Pekerja bergantung kepada majikan untuk perumahan, makanan atau keperluan lain.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Pekerja bergantung kepada majikan untuk perumahan, makanan atau keperluan lain.</th>
+                            <td tabindex="0">
                                 <p>
                                     Dalam beberapa hal, terutama bagi pekerja migran, peruntukan tempat tinggal, makanan dan lain-lain keperluan 
                                     oleh majikan mungkin pilihan yang terbaik untuk semua yang terlibat. Bagaimanapun, kualiti tempat tinggal; 
@@ -376,8 +376,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Pekerja bergantung secara peribadi kepada majikan.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Pekerja bergantung secara peribadi kepada majikan.</th>
+                            <td tabindex="0">
                                 <p>
                                     Pastikan semua pekerja mendapat latihan mengenai hak mereka di tempat kerja di bawah undang-undang dan kod 
                                     tingkah laku anda, tanpa mengira hubungan peribadi. 
@@ -401,20 +401,20 @@ const ms = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col" tabindex="0">
                                 <p>
                                     <strong>Keadaan</strong>
                                 </p>
                             </th>
-                            <th scope="col" width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col" tabindex="0">
                                 <p>
                                     <strong>Tindakan Pembetulan</strong>
                                 </p>
                             </th>
                         </tr>
                         <tr>
-                        <th scope="row">Pekerja tidak bebas berhenti oleh sebab kemudahan yang mereka terima atau sebab kekangan dari pihak majikan.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Pekerja tidak bebas berhenti oleh sebab kemudahan yang mereka terima atau sebab kekangan dari pihak majikan.</th>
+                            <td tabindex="0">
                                 <p>
                                     Sekiranya penyelia atau individu lain membuat pekerja percaya bahwa mereka tidak boleh berhenti kerja sebab 
                                     pembekal telah menyediakan latihan dan kemudahan lain, atau sebab keperluan kontrak yang tidak sah, pastikan 
@@ -425,8 +425,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Pekerja berasa mereka terpaksa terus bekerja oleh sebab mereka belum diberi gaji.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Pekerja berasa mereka terpaksa terus bekerja oleh sebab mereka belum diberi gaji.</th>
+                            <td tabindex="0">
                                 <p>
                                     Pastikan gaji dikira dengan tepat dan semua pekerja yang terlibat dalam gaji diberi cukup latihan dalam 
                                     mengira gaji. Pastikan pembekal membayar semua gaji di bawah undang-undang tempatan (contohnya, kalau 
@@ -439,8 +439,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Pekerja bekerja berlebihan masa atau bekerja tanpa henti untuk membayar hutang atau duit pendahuluan kepada majikan atau perekrut.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Pekerja bekerja berlebihan masa atau bekerja tanpa henti untuk membayar hutang atau duit pendahuluan kepada majikan atau perekrut.</th>
+                            <td tabindex="0">
                                 <p>
                                     Sekiranya pembekal membayar pinjaman atau duit pendahuluan, pastikan sama ada syaratnya berpatutan. Sekiranya tidak, berusaha untuk 
                                     mencari terma yang berpatutan di antara pembekal dan pekerja. Sekiranya pinjaman/duit pendahuluan telah dibayar oleh perekrut buruh, 
@@ -467,20 +467,20 @@ const ms = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" scope="col">
+                            <th scope="col" width="55%" scope="col" tabindex="0">
                                 <p>
                                     <strong>Keadaan</strong>
                                 </p>
                             </th>
-                            <th scope="col" width="45%" scope="col">
+                            <th scope="col" width="45%" scope="col" tabindex="0">
                                 <p>
                                     <strong>Pemulihan</strong>
                                 </p>
                             </th>
                         </tr>
                         <tr>
-                        <th scope="row">Pembekal atau Perekrut menyimpan dokumen pengenalan atau dokumen perjalanan.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Pembekal atau Perekrut menyimpan dokumen pengenalan atau dokumen perjalanan.</th>
+                            <td tabindex="0">
                                 {/* <p id="P1"> */}
                                 <p>
                                     Pembekal tidak boleh merampas atau mengawal identiti pengenalan pekerja atau dokumen perjalanan 
@@ -493,8 +493,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Majikan mengehadkan pekerja daripada berkomunikasi</th>
-                            <td>
+                        <th scope="row" tabindex="0">Majikan mengehadkan pekerja daripada berkomunikasi</th>
+                            <td tabindex="0">
                                 {/* <p><a href="#P1">See above.</a></p> */}
                                 <p>
                                 <abbr title="Pembekal tidak boleh merampas atau mengawal identiti pengenalan pekerja atau dokumen perjalanan 
@@ -508,8 +508,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Majikan mengancam untuk menyerahkan pekerja kepada pihak imigresen.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Majikan mengancam untuk menyerahkan pekerja kepada pihak imigresen.</th>
+                            <td tabindex="0">
                                 {/* <p id="P2"> */}
                                 <p>
                                     Dalam mana-mana situasi yang melibatkan keganasan, penalti, ugutan atau ancaman, pastikan siapa - pengurusan, 
@@ -528,8 +528,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Majikan melakukan atau mengancam penderaan atau gangguan seksual.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Majikan melakukan atau mengancam penderaan atau gangguan seksual.</th>
+                            <td tabindex="0">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
                                     <abbr title="
@@ -550,9 +550,9 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Majikan atau perekrut mengancam untuk mengambil semula hak istimewa seperti kenaikan pangkat, mengancam untuk 
+                        <th scope="row" tabindex="0">Majikan atau perekrut mengancam untuk mengambil semula hak istimewa seperti kenaikan pangkat, mengancam untuk
                         memburukkan keadaan di tempat kerja atau mengancam untuk membuang pekerja.</th>
-                            <td>
+                            <td tabindex="0">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
                                     <abbr title="
@@ -573,8 +573,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Majikan atau perekrut mengeksploit kepercayaan agama atau budaya untuk mengancam pekerja.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Majikan atau perekrut mengeksploit kepercayaan agama atau budaya untuk mengancam pekerja.</th>
+                            <td tabindex="0">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
                                     <abbr title="
@@ -595,8 +595,8 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Majikan atau perekrut menahan gaji atau aset pekerja atau mengancam mengenakan penalti kewangan.</th>
-                            <td>
+                        <th scope="row" tabindex="0">Majikan atau perekrut menahan gaji atau aset pekerja atau mengancam mengenakan penalti kewangan.</th>
+                            <td tabindex="0">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
                                     <abbr title="
@@ -617,9 +617,9 @@ const ms = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row">Majikan mengancam memberi kerja berlebihan bagi bekerja yang tidak bekerjasama. 
+                        <th scope="row" tabindex="0">Majikan mengancam memberi kerja berlebihan bagi bekerja yang tidak bekerjasama.
                             Majikan mengugut untuk memaksa pekerja.</th>
-                            <td>
+                            <td tabindex="0">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
                                     <abbr title="

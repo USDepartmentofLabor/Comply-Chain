@@ -278,7 +278,7 @@ const ms = () => {
                         Merekrut dan Penanda Aras Penggajian 
                         </strong>
                     </p>
-                                  <Accordion id="human-traffic-acc">
+                                  {/*<Accordion id="human-traffic-acc">
                                        <Accordion.Section id="human-traffic-description">
                                           <Accordion.Title>
                                           HUMAN TRAFFICKING
@@ -327,7 +327,7 @@ const ms = () => {
                                          </Accordion.Panel>
                                      </Accordion.Section>
                                      {/* </Accordion>
-                                     <Accordion id="recruit-fee-acc"> */}
+                                     <Accordion id="recruit-fee-acc"> }
                                        <Accordion.Section id="recruit-fee-description">
                                           <Accordion.Title>
                                           Penanda Aras Perekrutan dan Penggajian
@@ -387,8 +387,8 @@ const ms = () => {
                                                  </ul>
                                          </Accordion.Panel>
                                      </Accordion.Section>
-                                     {/* </Accordion>
-                    <Accordion id="emp-contract-acc"> */}
+                                     { </Accordion>
+                    <Accordion id="emp-contract-acc"> }
                                               <Accordion.Section id="emp-contract-description">
                                                  <Accordion.Title>
                                                  CONTRACTS OF EMPLOYMENT
@@ -468,8 +468,8 @@ const ms = () => {
                                                 </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            {/* </Accordion>
-                    <Accordion id="doc-retention-acc"> */}
+                                            { </Accordion>
+                    <Accordion id="doc-retention-acc"> }
                                               <Accordion.Section id="doc-retention-description">
                                                  <Accordion.Title>
                                                  DOCUMENT RETENTION
@@ -525,8 +525,8 @@ const ms = () => {
                                                     </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            {/* </Accordion>
-                    <Accordion id="deposits-acc"> */}
+                                            { </Accordion>
+                    <Accordion id="deposits-acc"> }
                                               <Accordion.Section id="deposits-description">
                                                  <Accordion.Title>
                                                  DEPOSITS
@@ -558,8 +558,8 @@ const ms = () => {
                                                     </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            {/* </Accordion>
-                    <Accordion id="humane-trtmnt-acc"> */}
+                                            { </Accordion>
+                    <Accordion id="humane-trtmnt-acc"> }
                                               <Accordion.Section id="humane-trtmnt-description">
                                                  <Accordion.Title>
                                                  HUMANE TREATMENT
@@ -600,9 +600,9 @@ const ms = () => {
                                                         </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            {/* </Accordion>
+                                            { </Accordion>
 
-                    <Accordion id="workplace-eq-acc"> */}
+                    <Accordion id="workplace-eq-acc"> }
                                               <Accordion.Section id="workplace-eq-description">
                                                  <Accordion.Title>
                                                  WORKPLACE EQUALITY
@@ -648,9 +648,9 @@ const ms = () => {
                                                     </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            {/* </Accordion>
+                                            { </Accordion>
 
-                    <Accordion id="wages-benefits-acc"> */}
+                    <Accordion id="wages-benefits-acc"> }
                                               <Accordion.Section id="wages-benefits-description">
                                                  <Accordion.Title>
                                                  WAGES AND BENEFITS
@@ -756,9 +756,9 @@ const ms = () => {
                                                     </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            {/* </Accordion>
+                                            { </Accordion>
 
-                    <Accordion id="working-hours-acc"> */}
+                    <Accordion id="working-hours-acc"> }
                                               <Accordion.Section id="working-hours-description">
                                                  <Accordion.Title>
                                                  WORKING HOURS
@@ -809,9 +809,9 @@ const ms = () => {
                                                         </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            {/* </Accordion>
+                                            { </Accordion>
 
-                    <Accordion id="freedom-acc"> */}
+                    <Accordion id="freedom-acc"> }
                                               <Accordion.Section id="freedom-description">
                                                  <Accordion.Title>
                                                  FREEDOM OF MOVEMENT AND PERSONAL FREEDOM
@@ -859,9 +859,9 @@ const ms = () => {
                                                        </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            {/* </Accordion>
+                                            { </Accordion>
 
-                    <Accordion id="grievance-acc"> */}
+                    <Accordion id="grievance-acc"> }
                                               <Accordion.Section id="grievance-description">
                                                  <Accordion.Title>
                                                  GRIEVANCE PROCEDURES
@@ -902,9 +902,9 @@ const ms = () => {
                                                        </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            {/* </Accordion>
+                                            { </Accordion>
 
-                    <Accordion id="private-emp-acc"> */}
+                    <Accordion id="private-emp-acc"> }
                                               <Accordion.Section id="private-emp-description">
                                                  <Accordion.Title>
                                                  PRIVATE EMPLOYMENT AGENCIES AND LABOR RECRUITERS
@@ -1024,8 +1024,8 @@ const ms = () => {
                                                    </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            {/* </Accordion>
-                    <Accordion id="emp-awareness-acc"> */}
+                                            { </Accordion>
+                    <Accordion id="emp-awareness-acc"> }
                                               <Accordion.Section id="emp-awareness-description">
                                                  <Accordion.Title>
                                                  EMPLOYEE AWARENESS AND TRAINING
@@ -1071,7 +1071,7 @@ const ms = () => {
                                                     </ul>
                                                 </Accordion.Panel>
                                             </Accordion.Section>
-                                            </Accordion>
+                                            </Accordion>*/}
                                             <p>
                 <strong>Sumber: Alat Mencari Sumber Secara Bertanggungjawab 1A, </strong>
                 <a

@@ -13,14 +13,10 @@ export const breadcrumbs = [
         breadcrumb: isIOS()
             ? ({ match }) => (
                   <LocalizedBreadcrumb
-                      string={"general.step"}
-                      extra={match.params.step}
+                      string={"Back"}
+                      extra={"Back"}
                   />
               )
             : undefined
-    },
-    {
-            path: Routes.Topic.path,
-            breadcrumb: () => <LocalizedBreadcrumb string={"Back"} />
-        }
+    }
 ];
