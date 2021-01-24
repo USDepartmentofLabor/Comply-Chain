@@ -122,6 +122,7 @@ class AppWrapper extends Component {
             ...this.updateNavBarItems(),
             bottomDrawerActive: false,
             sideNavVisible: false,
+            SkipToMainContent: false,
             backUrl: undefined
         };
     }
@@ -136,10 +137,22 @@ class AppWrapper extends Component {
     }
 
     componentDidMount() {
+        document.getElementById("showSTM").style.visibility = "hidden";
         storage.search.clearSearchData();
     }
+    componentWillUpdate() {
+                document.getElementById("showSTM").style.visibility = "hidden";
+        }
+     componentDidUpdate() {
+                     document.getElementById("showSTM").style.visibility = "hidden";
+             }
 
     handleKeyPress = event => {
+            if (event.code==="Tab") {
+                 document.getElementById("showSTM").style.visibility = "visible";
+            } else {
+                 document.getElementById("showSTM").style.visibility = "hidden";
+            }
             if (event.target.id === "bottom-drawer-indenturedProductList-link") {
                 this.setState({ bottomDrawerActive: true });
             }
@@ -318,6 +331,15 @@ class AppWrapper extends Component {
         this.setState({ sideNavVisible: visible });
     };
 
+    showSkipToMainLink(event) {
+
+        if (event.key==="Tab") {
+             console.log('Show STM');
+             return true;
+        } else {
+        return false;}
+    };
+
     render() {
         const {
             navBarLeftItems,
@@ -326,15 +348,17 @@ class AppWrapper extends Component {
             bottomDrawerItems,
             sideNavVisible,
             backUrl
-        } = this.state;
+
+            } = this.state;
         const { location } = this.props;
         return (
             <MobileScrollbar>
                 <ScrollToTop>
                     <Header>
-                        <NavbarWrapper>
-                            {/*<SkipToMainContent/>*/}
-        <div tabIndex="0">
+
+                <NavbarWrapper>
+                <SkipToMainContent/>
+               <div tabIndex="0">
                             <BrandStrip />
                             </div>
                             <NavBar
