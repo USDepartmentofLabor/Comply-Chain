@@ -3,6 +3,8 @@ import { isIOS } from "../utils/platform";
 import LocalizedBreadcrumb from "./LocalizedBreadcrumb";
 import Routes from "./routes";
 
+var currentLang = document.documentElement.lang;
+
 export const breadcrumbs = [
     {
         path: Routes.Home.path,
@@ -14,7 +16,7 @@ export const breadcrumbs = [
             ? ({ match }) => (
                   <LocalizedBreadcrumb
                       string={"Back"}
-                      extra={"Back"}
+                      extra={currentLang==="es"?"Atras":currentLang==="fr"?"Retour":currentLang==="ms"?"Utama":"Back"}
                   />
               )
             : undefined
