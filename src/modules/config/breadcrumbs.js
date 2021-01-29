@@ -15,7 +15,7 @@ export const breadcrumbs = [
         breadcrumb: isIOS()
             ? ({ match }) => (
                   <LocalizedBreadcrumb
-                      string={general.back}
+                      string={"general.back"}
                       extra={""}
                   />
               )
