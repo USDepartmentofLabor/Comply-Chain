@@ -15,8 +15,8 @@ export const breadcrumbs = [
         breadcrumb: isIOS()
             ? ({ match }) => (
                   <LocalizedBreadcrumb
-                      string={"Back"}
-                      extra={currentLang==="es"?"Atras":currentLang==="fr"?"Retour":currentLang==="ms"?"Utama":"Back"}
+                      string={general.back}
+                      extra={""}
                   />
               )
             : undefined
