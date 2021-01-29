@@ -357,7 +357,7 @@ class AppWrapper extends Component {
                     <Header>
 
                 <NavbarWrapper>
-                <SkipToMainContent/>
+                <SkipToMainContent {...isBrowser}/>
                <div tabIndex="0">
                             <BrandStrip />
                             </div>
