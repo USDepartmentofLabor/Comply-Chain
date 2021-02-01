@@ -122,9 +122,10 @@ class AppWrapper extends Component {
             ...this.updateNavBarItems(),
             bottomDrawerActive: false,
             sideNavVisible: false,
-            SkipToMainContent: false,
             backUrl: undefined
         };
+
+
     }
 
     componentWillMount() {
@@ -137,22 +138,23 @@ class AppWrapper extends Component {
     }
 
     componentDidMount() {
-        document.getElementById("showSTM").style.visibility = "hidden";
+        document.getElementById("showSTM").hidden = false;
         storage.search.clearSearchData();
     }
     componentWillUpdate() {
-                document.getElementById("showSTM").style.visibility = "hidden";
+        document.getElementById("showSTM").hidden = false;
         }
      componentDidUpdate() {
-                     document.getElementById("showSTM").style.visibility = "hidden";
-             }
+        document.getElementById("showSTM").hidden = false;
+        }
 
     handleKeyPress = event => {
-            if (event.code==="Tab") {
-                 document.getElementById("showSTM").style.visibility = "visible";
-            } else {
-                 document.getElementById("showSTM").style.visibility = "hidden";
+            if (event.code==="Tab")  {
+                document.getElementById("showSTM").hidden = false;
             }
+            if (event.code==="Enter")  {
+                document.getElementById("showSTM").hidden = true;
+             }
             if (event.target.id === "bottom-drawer-indenturedProductList-link") {
                 this.setState({ bottomDrawerActive: true });
             }
@@ -357,8 +359,10 @@ class AppWrapper extends Component {
                     <Header>
 
                 <NavbarWrapper>
-                <SkipToMainContent {...isBrowser}/>
-               <div tabIndex="0">
+                  <div>
+                       { isBrowser ? <SkipToMainContent /> : null }
+                     </div>
+                 <div tabIndex="0">
                             <BrandStrip />
                             </div>
                             <NavBar

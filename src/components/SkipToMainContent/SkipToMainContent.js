@@ -1,4 +1,6 @@
 import React from "react";
+import { isBrowser } from "../../modules/utils/platform";
+
 const skipStyle = {
     height: 30,
     display: 'flex',
