@@ -138,6 +138,7 @@ class AppWrapper extends Component {
     }
 
     componentDidMount() {
+        document.getElementById("brand-name").focus();
         document.getElementById("showSTM").hidden = false;
         storage.search.clearSearchData();
     }
