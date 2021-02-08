@@ -8,6 +8,8 @@ import Routes from "../../modules/config/routes";
 import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
 import { isBrowser } from "../../modules/utils/platform";
+import { isIOS } from "../../modules/utils/platform";
+import { isAndroid } from "../../modules/utils/platform";
 import BrandStrip from "../BrandStrip";
 import Icons from "../Icons";
 import { withLanguageContext } from "../Language";
@@ -129,6 +131,7 @@ class AppWrapper extends Component {
     }
 
     componentWillMount() {
+
     document.addEventListener("keydown", this.handleKeyPress, false);
         if (window.PointerEvent) {
             document.addEventListener("pointerdown", this.closeDrawer, false);
@@ -138,8 +141,9 @@ class AppWrapper extends Component {
     }
 
     componentDidMount() {
-        document.getElementById("brand-name").focus();
-        document.getElementById("showSTM").hidden = false;
+
+        if (!isBrowser()) document.getElementById("brand-name").focus();
+        document.getElementById("showSTM").display = 'none';
         storage.search.clearSearchData();
     }
     componentWillUpdate() {
@@ -150,11 +154,16 @@ class AppWrapper extends Component {
         }
 
     handleKeyPress = event => {
-            if (event.code==="Tab")  {
-                document.getElementById("showSTM").hidden = false;
+            if ((event.code==="Tab") && (document.activeElement.hash==='#main'))  {
+            //if (event.code==="Tab") {
+                document.getElementById("showSTM").style.height = '30px';
+                document.getElementById("showSTM").focus();
+            //    document.getElementById("showSTM").style.display = 'flex';
+                console.log('Active Element ==', document.activeElement.innerHTML);
             }
             if (event.code==="Enter")  {
-                document.getElementById("showSTM").hidden = true;
+                document.getElementById("showSTM").style.height = '0px';
+                document.getElementById("showSTM").style.height = '0px';
              }
             if (event.target.id === "bottom-drawer-indenturedProductList-link") {
                 this.setState({ bottomDrawerActive: true });
@@ -334,10 +343,10 @@ class AppWrapper extends Component {
         this.setState({ sideNavVisible: visible });
     };
 
-    showSkipToMainLink(event) {
+    showSkipToMainLink = (event) => {
 
         if (event.key==="Tab") {
-             console.log('Show STM');
+             console.log('Show STM in the browser');
              return true;
         } else {
         return false;}
@@ -360,8 +369,8 @@ class AppWrapper extends Component {
                     <Header>
 
                 <NavbarWrapper>
-                  <div>
-                       { isBrowser() ? <SkipToMainContent /> : null }
+                    <div>
+                       { (isBrowser()) ? <SkipToMainContent /> : null }
                      </div>
                  <div tabIndex="0">
                             <BrandStrip />
@@ -374,13 +383,13 @@ class AppWrapper extends Component {
                         </NavbarWrapper>
                     </Header>
                     <div aria-hidden={sideNavVisible}>
-                        <MainWrapper id="main" tabIndex="-1">
+                        <MainWrapper >
                             {location.pathname.includes("/steps") && (
                                 <StepBarWrapper id="step_progess_bar">
                                     <StepProgressBar />
                                 </StepBarWrapper>
                             )}
-                            <Main>
+                    <Main id="main" tabIndex="-1">
                                 <Container id="container">
                                     <Navigator />
 

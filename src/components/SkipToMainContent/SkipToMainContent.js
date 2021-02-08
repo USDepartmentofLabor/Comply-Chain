@@ -2,16 +2,14 @@ import React from "react";
 import { isBrowser } from "../../modules/utils/platform";
 
 const skipStyle = {
-    height: 30,
+    height: 0,
     display: 'flex',
-    alignItems: 'flex-end'
-
+    alignItems:'flex-end'
 };
+
 const SkipToMainContent = () => (
-   //if () {
-   <div tabIndex={1} style={skipStyle}>
-        <a href = "#main" id="showSTM"> Skip to Main Content </a>
+   <div style={skipStyle} id="showSTM">
+        <a href = "#main" id="showSTMLink"> Skip to Main Content </a>
     </div>
-    //}
 );
 export default SkipToMainContent;

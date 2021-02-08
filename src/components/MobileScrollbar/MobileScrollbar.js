@@ -34,7 +34,7 @@ class MobileScrollbar extends Component {
 
     componentWillUnmount() {
         document
-            .getElementById("main")
+            .getElementById("main1")
             .removeEventListener("scroll", this.displayScrollbar);
     }
 
