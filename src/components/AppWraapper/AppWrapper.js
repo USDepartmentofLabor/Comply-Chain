@@ -154,8 +154,8 @@ class AppWrapper extends Component {
         }
 
     handleKeyPress = event => {
-            if ((event.code==="Tab") && (document.activeElement.hash==='#main'))  {
-            //if (event.code==="Tab") {
+            //if ((event.code==="Tab") && (document.activeElement.hash==='#main'))  {
+            if (event.code==="Tab") {
                 document.getElementById("showSTM").style.height = '30px';
                 document.getElementById("showSTM").focus();
             //    document.getElementById("showSTM").style.display = 'flex';
