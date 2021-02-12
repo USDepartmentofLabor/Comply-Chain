@@ -40,9 +40,9 @@ const SideNavFooter = styled.div`
 `;
 
 const MenuButton = styled(Button)`
-    padding: 10px 16px;
+    padding: 16px 16px;
     width: 90px;
-    height: 40px;
+    height: 55px;
     &:hover {
         background-color: ${theme.colors.primaryDarker};
         outline: solid 3px #3d3d3d;

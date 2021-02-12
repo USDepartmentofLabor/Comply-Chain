@@ -154,16 +154,19 @@ class AppWrapper extends Component {
         }
 
     handleKeyPress = event => {
-            //if ((event.code==="Tab") && (document.activeElement.hash==='#main'))  {
-            if (event.code==="Tab") {
+            //Adding conditions where the Skip to Main link would only be visible when the Tab focus is around that area.
+            if ((event.code==="Tab") && (document.activeElement.hash==='#main') || (event.code==="Tab") && (event.target.innerText==='ILAB'))  {
                 document.getElementById("showSTM").style.height = '30px';
                 document.getElementById("showSTM").focus();
-            //    document.getElementById("showSTM").style.display = 'flex';
-                console.log('Active Element ==', document.activeElement.innerHTML);
+                document.getElementById("menu-btn").style.paddingBottom = '8px';
+                document.getElementById("menu-btn").style.paddingTop = '8px';
+                document.getElementById("menu-btn").style.height = '40px';
             }
             if (event.code==="Enter")  {
                 document.getElementById("showSTM").style.height = '0px';
-                document.getElementById("showSTM").style.height = '0px';
+                document.getElementById("menu-btn").style.paddingBottom = '16px';
+                document.getElementById("menu-btn").style.paddingTop = '16px';
+                document.getElementById("menu-btn").style.height = '55px';
              }
             if (event.target.id === "bottom-drawer-indenturedProductList-link") {
                 this.setState({ bottomDrawerActive: true });

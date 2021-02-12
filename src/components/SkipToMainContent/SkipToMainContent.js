@@ -9,7 +9,7 @@ const skipStyle = {
 
 const SkipToMainContent = () => (
    <div style={skipStyle} id="showSTM">
-        <a href = "#main" id="showSTMLink"> Skip to Main Content </a>
+        <a href = "#main"> Skip to Main Content </a>
     </div>
 );
 export default SkipToMainContent;
