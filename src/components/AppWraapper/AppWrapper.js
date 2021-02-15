@@ -141,27 +141,36 @@ class AppWrapper extends Component {
     }
 
     componentDidMount() {
-
-        if (!isBrowser()) document.getElementById("brand-name").focus();
-        document.getElementById("showSTM").display = 'none';
+        if (isIOS() || isAndroid()) {
+                    document.getElementById("showSTM").tabIndex="-1";
+        }
+    if (document.getElementById("showSTM").style.height == '0px') {
+                document.getElementById("showSTM").ariaLabel = "";
+            }
         storage.search.clearSearchData();
     }
     componentWillUpdate() {
-        document.getElementById("showSTM").hidden = false;
+        if (isIOS() || isAndroid()) {
+                    document.getElementById("showSTM").tabIndex="-1";
+                }
         }
      componentDidUpdate() {
-        document.getElementById("showSTM").hidden = false;
         }
 
     handleKeyPress = event => {
             //Adding conditions where the Skip to Main link would only be visible when the Tab focus is around that area.
-            if ((event.code==="Tab") && (document.activeElement.hash==='#main') || (event.code==="Tab") && (event.target.innerText==='ILAB'))  {
+            if ((event.code==="Tab") && (event.target.innerText==="Skip to Main Content") || (event.code==="Tab") && (event.target.innerText==='ILAB'))  {
                 document.getElementById("showSTM").style.height = '30px';
-                document.getElementById("showSTM").focus();
                 document.getElementById("menu-btn").style.paddingBottom = '8px';
                 document.getElementById("menu-btn").style.paddingTop = '8px';
                 document.getElementById("menu-btn").style.height = '40px';
             }
+            if (document.getElementById("showSTM").style.height = "30px") {
+               document.getElementById("menu-btn").style.paddingBottom = '8px';
+               document.getElementById("menu-btn").style.paddingTop = '8px';
+               document.getElementById("menu-btn").style.height = '40px';
+            }
+
             if (event.code==="Enter")  {
                 document.getElementById("showSTM").style.height = '0px';
                 document.getElementById("menu-btn").style.paddingBottom = '16px';
