@@ -90,7 +90,7 @@ export const General = {
         usDol: "Dirección de Asuntos Laborales Internacionales",
         dolSeal: "Sello del Departamento de Trabajo de los Estados Unidos",
         dol: "Departamento de Trabajo de los Estados Unidos",
-        back: "Regresar",
+        back: "Atras",
         logline: "Iniciativas para eliminar las peores formas de trabajo infantil, trabajo forzoso y trata de personas en todo el mundo."
     },
     fr: {
@@ -184,7 +184,7 @@ export const General = {
             usDol: "Biro Hubungan Tenaga Kerja Antarabangsa",
             dolSeal: "Lambang Rasmi Jabatan Tenaga Kerja Amerika Syarikat",
             dol: "Jabatan Tenaga Kerja Amerika Syarikat",
-            back: "Kembali",
+            back: "Belakang",
             logline: "Berusaha untuk menghentikan bentuk-bentuk terburuk buruh kanak-kanak dan pemerdagangan manusia di seluruh dunia."
         }
 };

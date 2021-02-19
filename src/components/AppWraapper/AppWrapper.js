@@ -8,6 +8,8 @@ import Routes from "../../modules/config/routes";
 import { theme } from "../../modules/config/theme";
 import { storage } from "../../modules/storage";
 import { isBrowser } from "../../modules/utils/platform";
+import { isIOS } from "../../modules/utils/platform";
+import { isAndroid } from "../../modules/utils/platform";
 import BrandStrip from "../BrandStrip";
 import Icons from "../Icons";
 import { withLanguageContext } from "../Language";
@@ -124,9 +126,12 @@ class AppWrapper extends Component {
             sideNavVisible: false,
             backUrl: undefined
         };
+
+
     }
 
     componentWillMount() {
+
     document.addEventListener("keydown", this.handleKeyPress, false);
         if (window.PointerEvent) {
             document.addEventListener("pointerdown", this.closeDrawer, false);
@@ -136,10 +141,45 @@ class AppWrapper extends Component {
     }
 
     componentDidMount() {
+//        if (isIOS() || isAndroid()) {
+//                    document.getElementById("showSTM").tabIndex="-1";
+//        }
+//    if (document.getElementById("showSTM").style.height == '0px') {
+//                document.getElementById("showSTM").ariaLabel = "";
+//            }
         storage.search.clearSearchData();
     }
+    componentWillUpdate() {
+//        document.addEventListener("keydown", this.handleKeyPress, false);
+//        if (isIOS() || isAndroid()) {
+//                    document.getElementById("showSTM").tabIndex="-1";
+//                }
+        }
+     componentDidUpdate() {
+        }
 
     handleKeyPress = event => {
+            //Adding conditions where the Skip to Main link would only be visible when the Tab focus is around that area.
+//            var stmNavBar = document.getElementById("showSTM"); // Full Skip to Main Strip
+//            var stmNavLink = document.getElementById("showSTM1");// Inner Link
+//            var isFocused = (document.activeElement === stmNavLink);
+//            if (event.code==="Tab" && isFocused || event.code==="Tab" && event.target.innerText==='ILAB')  {
+//                stmNavBar.style.height = '30px';
+//                document.getElementById("menu-btn").style.paddingBottom = '8px';
+//                document.getElementById("menu-btn").style.paddingTop = '8px';
+//                document.getElementById("menu-btn").style.height = '40px';
+//                if (isFocused){
+//                  stmNavLink.focus();
+//                }
+//                console.log('Target == ', event.target.id);
+//            }
+//
+//            if (event.code==="Enter")  {
+//                document.getElementById("showSTM").style.height = '0px';
+//                document.getElementById("menu-btn").style.paddingBottom = '16px';
+//                document.getElementById("menu-btn").style.paddingTop = '16px';
+//                document.getElementById("menu-btn").style.height = '55px';
+//             }
             if (event.target.id === "bottom-drawer-indenturedProductList-link") {
                 this.setState({ bottomDrawerActive: true });
             }
@@ -318,6 +358,15 @@ class AppWrapper extends Component {
         this.setState({ sideNavVisible: visible });
     };
 
+    showSkipToMainLink = (event) => {
+
+        if (event.key==="Tab") {
+             console.log('Show STM in the browser');
+             return true;
+        } else {
+        return false;}
+    };
+
     render() {
         const {
             navBarLeftItems,
@@ -326,15 +375,19 @@ class AppWrapper extends Component {
             bottomDrawerItems,
             sideNavVisible,
             backUrl
-        } = this.state;
+
+            } = this.state;
         const { location } = this.props;
         return (
             <MobileScrollbar>
                 <ScrollToTop>
                     <Header>
-                        <NavbarWrapper>
-                            {/*<SkipToMainContent/>*/}
-        <div tabIndex="0">
+
+                <NavbarWrapper>
+                    {/*<div>
+                       { (isBrowser) ? <SkipToMainContent /> : null }
+                     </div>*/}
+                 <div tabIndex="0">
                             <BrandStrip />
                             </div>
                             <NavBar
@@ -345,13 +398,13 @@ class AppWrapper extends Component {
                         </NavbarWrapper>
                     </Header>
                     <div aria-hidden={sideNavVisible}>
-                        <MainWrapper id="main" tabIndex="-1">
+                        <MainWrapper >
                             {location.pathname.includes("/steps") && (
                                 <StepBarWrapper id="step_progess_bar">
                                     <StepProgressBar />
                                 </StepBarWrapper>
                             )}
-                            <Main>
+                    <Main id="main" tabIndex="-1">
                                 <Container id="container">
                                     <Navigator />
 
