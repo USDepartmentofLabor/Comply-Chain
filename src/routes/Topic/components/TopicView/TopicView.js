@@ -133,10 +133,6 @@ class TopicView extends Component {
                     titleString={titleString}
                     url={location.pathname}
                 >
-                        <HeaderIcon>
-                            <Icons.StepIcon step={step} />
-                        </HeaderIcon>
-                        {stepTitle}
                     <TopicData />
                     <TopicNavButtonGroup>
                         {prevStep && (

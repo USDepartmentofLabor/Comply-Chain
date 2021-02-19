@@ -141,42 +141,45 @@ class AppWrapper extends Component {
     }
 
     componentDidMount() {
-        if (isIOS() || isAndroid()) {
-                    document.getElementById("showSTM").tabIndex="-1";
-        }
-    if (document.getElementById("showSTM").style.height == '0px') {
-                document.getElementById("showSTM").ariaLabel = "";
-            }
+//        if (isIOS() || isAndroid()) {
+//                    document.getElementById("showSTM").tabIndex="-1";
+//        }
+//    if (document.getElementById("showSTM").style.height == '0px') {
+//                document.getElementById("showSTM").ariaLabel = "";
+//            }
         storage.search.clearSearchData();
     }
     componentWillUpdate() {
-        if (isIOS() || isAndroid()) {
-                    document.getElementById("showSTM").tabIndex="-1";
-                }
+//        document.addEventListener("keydown", this.handleKeyPress, false);
+//        if (isIOS() || isAndroid()) {
+//                    document.getElementById("showSTM").tabIndex="-1";
+//                }
         }
      componentDidUpdate() {
         }
 
     handleKeyPress = event => {
             //Adding conditions where the Skip to Main link would only be visible when the Tab focus is around that area.
-            if ((event.code==="Tab") && (event.target.innerText==="Skip to Main Content") || (event.code==="Tab") && (event.target.innerText==='ILAB'))  {
-                document.getElementById("showSTM").style.height = '30px';
-                document.getElementById("menu-btn").style.paddingBottom = '8px';
-                document.getElementById("menu-btn").style.paddingTop = '8px';
-                document.getElementById("menu-btn").style.height = '40px';
-            }
-            if (document.getElementById("showSTM").style.height = "30px") {
-               document.getElementById("menu-btn").style.paddingBottom = '8px';
-               document.getElementById("menu-btn").style.paddingTop = '8px';
-               document.getElementById("menu-btn").style.height = '40px';
-            }
-
-            if (event.code==="Enter")  {
-                document.getElementById("showSTM").style.height = '0px';
-                document.getElementById("menu-btn").style.paddingBottom = '16px';
-                document.getElementById("menu-btn").style.paddingTop = '16px';
-                document.getElementById("menu-btn").style.height = '55px';
-             }
+//            var stmNavBar = document.getElementById("showSTM"); // Full Skip to Main Strip
+//            var stmNavLink = document.getElementById("showSTM1");// Inner Link
+//            var isFocused = (document.activeElement === stmNavLink);
+//            if (event.code==="Tab" && isFocused || event.code==="Tab" && event.target.innerText==='ILAB')  {
+//                stmNavBar.style.height = '30px';
+//                document.getElementById("menu-btn").style.paddingBottom = '8px';
+//                document.getElementById("menu-btn").style.paddingTop = '8px';
+//                document.getElementById("menu-btn").style.height = '40px';
+//                if (isFocused){
+//                  stmNavLink.focus();
+//                }
+//                console.log('Target == ', event.target.id);
+//            }
+//
+//            if (event.code==="Enter")  {
+//                document.getElementById("showSTM").style.height = '0px';
+//                document.getElementById("menu-btn").style.paddingBottom = '16px';
+//                document.getElementById("menu-btn").style.paddingTop = '16px';
+//                document.getElementById("menu-btn").style.height = '55px';
+//             }
             if (event.target.id === "bottom-drawer-indenturedProductList-link") {
                 this.setState({ bottomDrawerActive: true });
             }
@@ -381,9 +384,9 @@ class AppWrapper extends Component {
                     <Header>
 
                 <NavbarWrapper>
-                    <div>
+                    {/*<div>
                        { (isBrowser) ? <SkipToMainContent /> : null }
-                     </div>
+                     </div>*/}
                  <div tabIndex="0">
                             <BrandStrip />
                             </div>
