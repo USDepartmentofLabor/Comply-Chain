@@ -2,8 +2,8 @@ import React from "react";
 import { isBrowser } from "../../modules/utils/platform";
 
 const skipStyle = {
-    height: 0,
-    display: 'flex',
+    height: 30,
+    display: 'none',
     alignItems:'flex-end',
     margin:'-1px'
 };
