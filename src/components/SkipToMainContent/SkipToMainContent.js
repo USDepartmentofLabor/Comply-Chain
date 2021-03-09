@@ -13,8 +13,8 @@ function setTabIndex() {
 }
 
 const SkipToMainContent = () => (
-   <div style={skipStyle} id="showSTM" tabIndex={setTabIndex} role="link">
-        <a href = "#main" id="showSTM1"> Skip to Main Content </a>
+   <div style={skipStyle} id="showSTM" tabIndex="-1" aria-live="assertive">
+        <a href = "#main" tabIndex={setTabIndex} id="showSTM1" > Skip to Main Content </a>
     </div>
 );
 export default SkipToMainContent;

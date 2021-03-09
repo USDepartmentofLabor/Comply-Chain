@@ -149,6 +149,9 @@ class AppWrapper extends Component {
     }
     componentWillUpdate() {
         document.getElementById("showSTM").style.display = 'none';
+        document.getElementById("menu-btn").style.paddingBottom = '16px';
+        document.getElementById("menu-btn").style.paddingTop = '16px';
+        document.getElementById("menu-btn").style.height = '55px';
         if (isIOS() || isAndroid()) {
                 document.getElementById("showSTM").style.display = 'none';
                 }
@@ -162,7 +165,8 @@ class AppWrapper extends Component {
             var stmNavLink = document.getElementById("showSTM1");// Inner Link
             var isFocused =  function () { return document.activeElement === stmNavLink;}
             if (event.code==="Tab" && !isFocused || event.code==="Tab" && event.target.innerText==='ILAB')  {
-                stmNavBar.focus();
+                //stmNavBar.focus();
+                stmNavLink.ariaLabel =""
                 stmNavBar.style.display = 'flex';
                 document.getElementById("menu-btn").style.paddingBottom = '8px';
                 document.getElementById("menu-btn").style.paddingTop = '8px';
