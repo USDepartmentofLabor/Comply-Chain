@@ -12,6 +12,7 @@ class App extends Component {
         this.setState({ splashComplete: true });
     };
     render() {
+        document.documentElement.lang = localStorage.getItem("lang");
         return (
             <LanguageProvider>
                 <AppGlobalStyles />
