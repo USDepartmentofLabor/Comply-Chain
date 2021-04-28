@@ -129,6 +129,7 @@ class AppWrapper extends Component {
 
 
     }
+    
 
     componentWillMount() {
 
@@ -158,20 +159,47 @@ class AppWrapper extends Component {
         }
      componentDidUpdate() {
         }
-
+        
+        
     handleKeyPress = event => {
             //Adding conditions where the Skip to Main link would only be visible when the Tab focus is around that area.
             var stmNavBar = document.getElementById("showSTM"); // Full Skip to Main Strip
             var stmNavLink = document.getElementById("showSTM1");// Inner Link
-            var isFocused =  function () { return document.activeElement === stmNavLink;}
-            if (event.code==="Tab" && !isFocused || event.code==="Tab" && event.target.innerText==='ILAB')  {
-                //stmNavBar.focus();
-                stmNavLink.ariaLabel =""
-                stmNavBar.style.display = 'flex';
-                document.getElementById("menu-btn").style.paddingBottom = '8px';
-                document.getElementById("menu-btn").style.paddingTop = '8px';
-                document.getElementById("menu-btn").style.height = '40px';
+            // var isFocused =  function () { return document.activeElement === stmNavLink;}
+            // if (event.code==="Tab" && !isFocused || event.code==="Tab" && event.target.innerText==='ILAB')  {
+            //     //stmNavBar.focus();
+            //     stmNavLink.ariaLabel =""
+            //     stmNavBar.style.display = 'flex';
+            //     document.getElementById("menu-btn").style.paddingBottom = '8px';
+            //     document.getElementById("menu-btn").style.paddingTop = '8px';
+            //     document.getElementById("menu-btn").style.height = '40px';
 
+            // }
+            if(event.code==="Tab"){
+                 if(event.target.innerText==='Skip to Main Content'){
+                     if(document.activeElement === stmNavLink){
+                         stmNavBar.style.display = 'none';
+                     }
+                 }else{
+                    if(event.target.innerText==='ILAB'){
+                        if(event.shiftKey && event.keyCode == 9) { 
+                            if(stmNavBar.style.display=='none'){
+                                stmNavBar.style.display = 'flex';
+                            }else{
+                                stmNavBar.style.display = 'none';
+                            }
+                        }else{
+                            stmNavBar.style.display = 'none';
+                        }
+                        
+                    }else{
+                        if(event.target.id==='main'){
+                            stmNavBar.style.display = 'flex';
+                        }else{
+                            stmNavBar.style.display = 'none';
+                        }
+                    }
+                 }
             }
 
             if (event.code==="Enter")  {
