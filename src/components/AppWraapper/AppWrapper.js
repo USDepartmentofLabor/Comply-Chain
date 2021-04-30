@@ -415,7 +415,7 @@ class AppWrapper extends Component {
                     <div>
                        { (isBrowser) ? <SkipToMainContent /> : null }
                      </div>
-                 <div tabIndex="0">
+                 <div id="brand-strip-container" tabIndex="0">
                             <BrandStrip />
                             </div>
                             <NavBar
@@ -433,7 +433,7 @@ class AppWrapper extends Component {
                                 </StepBarWrapper>
                             )}
                     <Main id="main" tabIndex="-1">
-                                <Container id="container">
+                                <Container id="container" aria-hidden="true">
                                     <Navigator />
 
                                     <ToastContainerWrapper>
