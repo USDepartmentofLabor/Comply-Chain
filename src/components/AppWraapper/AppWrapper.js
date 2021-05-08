@@ -433,7 +433,7 @@ class AppWrapper extends Component {
                                 </StepBarWrapper>
                             )}
                     <Main id="main" tabIndex="-1">
-                                <Container id="container" aria-hidden="true">
+                                <Container id="container" aria-hidden="false">
                                     <Navigator />
 
                                     <ToastContainerWrapper>

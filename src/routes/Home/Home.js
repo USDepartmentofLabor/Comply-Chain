@@ -25,7 +25,7 @@ class Home extends Component {
     render() {
         const { localizor } = this.props;
         return (
-            <HomeWrapper>
+            <HomeWrapper aria-hidden="true">
 
                 {localizor.strings.steps.map((step, i) => {
                     const bookmarked = storage.bookmarks.containsBookmarks(
