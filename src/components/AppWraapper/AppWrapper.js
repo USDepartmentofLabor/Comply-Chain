@@ -187,7 +187,7 @@ class AppWrapper extends Component {
         if(event.code==="Tab"){
                 if(!this.isStmShown && !event.shiftKey){
                     stmNavBar.style.display = 'flex';
-                    stmNavLink.focus;
+                    //stmNavLink.focus;
                     this.isStmShown = true;
                     skip_to_main_focus_div.tabIndex = '-1'
                 }else{
