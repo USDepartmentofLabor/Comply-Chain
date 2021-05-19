@@ -124,7 +124,8 @@ class AppWrapper extends Component {
             ...this.updateNavBarItems(),
             bottomDrawerActive: false,
             sideNavVisible: false,
-            backUrl: undefined
+            backUrl: undefined,
+            isStmShown:false
         };
 
 
@@ -142,14 +143,18 @@ class AppWrapper extends Component {
     }
 
     componentDidMount() {
-        document.getElementById("showSTM").style.display = 'flex';
+        //document.getElementById("showSTM").style.display = 'flex';
         if (isIOS() || isAndroid()) {
             document.getElementById("showSTM").style.display = 'none';
         }
         storage.search.clearSearchData();
     }
     componentWillUpdate() {
-        document.getElementById("showSTM").style.display = 'none';
+        
+        document.getElementById('navbar-left-items').setAttribute("tabindex","-1")
+        document.getElementById('navbar-left-items').getElementsByTagName("a")[0].setAttribute("tabindex","-1")
+        document.getElementById("menu-btn").setAttribute("tabindex","-1");
+        //document.getElementById("showSTM").style.display = 'none';
         document.getElementById("menu-btn").style.paddingBottom = '16px';
         document.getElementById("menu-btn").style.paddingTop = '16px';
         document.getElementById("menu-btn").style.height = '55px';
@@ -161,9 +166,13 @@ class AppWrapper extends Component {
         }
         
         
+
     handleKeyPress = event => {
+        console.log(event)
             //Adding conditions where the Skip to Main link would only be visible when the Tab focus is around that area.
             var stmNavBar = document.getElementById("showSTM"); // Full Skip to Main Strip
+            var skip_to_main_focus_div = document.getElementById("skip_to_main_focus_div"); // Full Skip to Main Strip
+            
             var stmNavLink = document.getElementById("showSTM1");// Inner Link
             // var isFocused =  function () { return document.activeElement === stmNavLink;}
             // if (event.code==="Tab" && !isFocused || event.code==="Tab" && event.target.innerText==='ILAB')  {
@@ -175,31 +184,82 @@ class AppWrapper extends Component {
             //     document.getElementById("menu-btn").style.height = '40px';
 
             // }
-            if(event.code==="Tab"){
-                 if(event.target.innerText==='Skip to Main Content'){
-                     if(document.activeElement === stmNavLink){
-                         stmNavBar.style.display = 'none';
-                     }
-                 }else{
-                    if(event.target.innerText==='ILAB'){
+        if(event.code==="Tab"){
+                if(!this.isStmShown && !event.shiftKey){
+                    stmNavBar.style.display = 'flex';
+                    stmNavLink.focus;
+                    this.isStmShown = true;
+                    skip_to_main_focus_div.tabIndex = '-1'
+                }else{
+                    if(event.target.innerText==='Skip to Main Content'){
+                        stmNavBar.style.display = 'none';
+                        //this.isStmShown = false;
+                        console.log("1")
+                        if(event.shiftKey && event.keyCode == 9) { 
+                            this.isStmShown = false;
+                            skip_to_main_focus_div.tabIndex = '1'
+                            stmNavLink.tabIndex = '0';
+
+                        }
+                    }
+                    if(event.target.innerText==='Comply Chain'|| event.target.innerText==='Comply Chain Homepage'){
                         if(event.shiftKey && event.keyCode == 9) { 
                             if(stmNavBar.style.display=='none'){
                                 stmNavBar.style.display = 'flex';
                             }else{
                                 stmNavBar.style.display = 'none';
+                                this.isStmShown = false;
+                                console.log("2")
                             }
-                        }else{
-                            stmNavBar.style.display = 'none';
                         }
-                        
                     }else{
-                        if(event.target.id==='main'){
-                            stmNavBar.style.display = 'flex';
-                        }else{
-                            stmNavBar.style.display = 'none';
+                            if(event.target.id==='main'){
+                                //stmNavBar.style.display = 'flex';
+                            }else{
+                                stmNavBar.style.display = 'none';
+                                console.log("3")
+                                if(!this.isStmShown){
+                                    stmNavLink.tabIndex = "99"
+                                }
+                                
+                            }
                         }
-                    }
-                 }
+                }
+                console.log(event.target.innerText)
+                
+                
+                //  if(event.target.innerText==='Skip to Main Content'){
+                //      if(document.activeElement === stmNavLink){
+                //          stmNavBar.style.display = 'none';
+                //          this.isStmShown = false;
+                //      }
+                //  }else{
+                //     if(event.target.innerText==='ILAB'){
+                //         if(event.shiftKey && event.keyCode == 9) { 
+                //             if(stmNavBar.style.display=='none'){
+                //                 stmNavBar.style.display = 'flex';
+                //             }else{
+                //                 stmNavBar.style.display = 'none';
+                //                 this.isStmShown = false;
+                //             }
+                //         }else{
+                //             //stmNavBar.style.display = 'none';
+                //         }
+                        
+                //     }else{
+                //         if(event.target.id==='main'){
+                //             stmNavBar.style.display = 'flex';
+                //         }else{
+                //             stmNavBar.style.display = 'none';
+                //             this.isStmShown = false;
+                //         }
+                //     }
+                //  }
+                if(event.shiftKey && event.keyCode == 9) { 
+                    document.getElementById('navbar-left-items').removeAttribute("tabindex");
+                    document.getElementById('navbar-left-items').getElementsByTagName("a")[0].removeAttribute("tabindex");
+                    document.getElementById("menu-btn").removeAttribute("tabindex");
+                }
             }
 
             if (event.code==="Enter")  {
@@ -207,6 +267,7 @@ class AppWrapper extends Component {
                 document.getElementById("menu-btn").style.paddingBottom = '16px';
                 document.getElementById("menu-btn").style.paddingTop = '16px';
                 document.getElementById("menu-btn").style.height = '55px';
+                this.isStmShown = true;
              }
             if (event.target.id === "bottom-drawer-indenturedProductList-link") {
                 this.setState({ bottomDrawerActive: true });
@@ -412,10 +473,11 @@ class AppWrapper extends Component {
                     <Header>
 
                 <NavbarWrapper>
+                    <div id="skip_to_main_focus_div" aria-hidden="true"></div>
                     <div>
                        { (isBrowser) ? <SkipToMainContent /> : null }
                      </div>
-                 <div id="brand-strip-container" tabIndex="0">
+                 <div id="brand-strip-container">
                             <BrandStrip />
                             </div>
                             <NavBar

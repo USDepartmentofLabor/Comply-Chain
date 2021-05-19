@@ -9,11 +9,12 @@ const skipStyle = {
 };
 
 function setTabIndex() {
-       return document.getElementById("showSTM").style.height ==='0px' ? "-1" : "0";
+    return "0";
+       //return document.getElementById("showSTM").style.height ==='0px' ? "-1" : "0";
 }
 
 const SkipToMainContent = () => (
-   <div style={skipStyle} id="showSTM" tabIndex="-1" >
+   <div style={skipStyle} id="showSTM">
         <a href = "#main" tabIndex={setTabIndex} id="showSTM1" role="none/presentation" aria-hidden="true"><span aria-label="Skip to Main Content"> Skip to Main Content </span></a>
     </div>
 );
