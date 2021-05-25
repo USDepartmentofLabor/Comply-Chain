@@ -49,7 +49,7 @@ const SearchButton = styled(Button)`
     }
 `;
 
-const SearchResultsHeader = styled.h2`
+const SearchResultsHeader = styled.h1`
     font-size: 17px;
     color: ${theme.colors.base};
     margin-bottom: 10px;
@@ -386,9 +386,11 @@ class Search extends Component {
                 <h1>{localizor.strings.general.search}</h1>
                 {query && !searching && (
                     <SearchResultsHeader>
+                        <h1>
                         {results.length}{" "}
                         {localizor.strings.general.searchResultsFor.toLowerCase()}{" "}
                         "<span className="query">{query}</span>"
+                        </h1>
                     </SearchResultsHeader>
                 )}
                 <form action="." onSubmit={this.handleSubmit}>
