@@ -388,8 +388,8 @@ class Search extends Component {
                 <h1>{localizor.strings.general.search}</h1>
                 {query && !searching && (
                     <SearchResultsHeader>
-                        <h1>
-                        {resultsTitle}"<span className="query">{query}</span>"
+                        <h1 aria-owns="search_result_h1">
+                        {resultsTitle}"<span id="search_result_h1" className="query" >{query}</span>"
                         </h1>
                     </SearchResultsHeader>
                 )}
