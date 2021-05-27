@@ -380,6 +380,8 @@ class Search extends Component {
                 " - Comply Chain - " +
                 localizor.strings.general.dol;
         }
+        let resultsTitle = results.length +" " +
+        localizor.strings.general.searchResultsFor.toLowerCase() + " ";
         return (
             <div>
                 <Title title={title}/>
@@ -387,9 +389,7 @@ class Search extends Component {
                 {query && !searching && (
                     <SearchResultsHeader>
                         <h1>
-                        {results.length}{" "}
-                        {localizor.strings.general.searchResultsFor.toLowerCase()}{" "}
-                        "<span className="query">{query}</span>"
+                        {resultsTitle}"<span className="query">{query}</span>"
                         </h1>
                     </SearchResultsHeader>
                 )}

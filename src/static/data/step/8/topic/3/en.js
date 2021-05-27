@@ -20,6 +20,12 @@ const focusBorder = {
       };
 
 const en = () => {
+    const script = document.createElement("script");
+    
+        script.src = "../../../../../../components/Utils/utils.js";
+        script.async = true;
+    
+        document.body.appendChild(script);
     return (
         <StaticData>
             <div>
@@ -217,17 +223,17 @@ const en = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" tabindex="0">
+                            <th scope="col" width="55%" tabindex="-1">
                                     <strong>Circumstances</strong>
                             </th>
-                            <th scope="col" width="45%" tabindex="0">
+                            <th scope="col" width="45%" tabindex="-1">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
                             </th>
                         </tr>
                         <tr>
-                            <th scope="row" tabindex="0">Workers abducted, confined during the recruitment process or sold.</th>
+                            <th scope="row" tabindex="-1">Workers abducted, confined during the recruitment process or sold.</th>
 
                             <td tabindex="0">
                                 <p>
@@ -239,8 +245,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                                <th scope="row" tabindex="0">Workers recruited through a loan or advance and are working to pay it off.</th>
-                            <td tabindex="0">
+                                <th scope="row" tabindex="-1">Workers recruited through a loan or advance and are working to pay it off.</th>
+                            <td tabindex="-1">
                                 <p>
                                     If the supplier paid the loan or advance,
                                     determine whether the terms were
@@ -258,13 +264,13 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                                    <th scope="row" tabindex="0">Deceptive recruitment: workers promised
+                                    <th scope="row" tabindex="-1">Deceptive recruitment: workers promised
                                                     types of work, working conditions, contract
                                                     terms, housing or living conditions, job
                                                     locations, employers or wages/earnings that
                                                     do not materialize.</th>
 
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 <p>
                                     If the supplier made a false promise, the
                                     supplier should provide all employees who
@@ -300,19 +306,19 @@ const en = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" tabindex="0">
+                            <th scope="col" width="55%" tabindex="-1">
                                 <p>
                                     <strong>Circumstances</strong>
                                 </p>
                             </th>
-                            <th scope="col" width="45%" tabindex="0">
+                            <th scope="col" width="45%" tabindex="-1">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
                             </th>
                         </tr>
                         <tr>
-                                <th scope="row" tabindex="0">Workers working excessive overtime beyond legal limits.</th>
+                                <th scope="row" tabindex="-1">Workers working excessive overtime beyond legal limits.</th>
 
                             <td tabindex="0">
                                 <p>
@@ -334,8 +340,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row" tabindex="0">Workers expected to work &ldquo;on call.&rdquo;</th>
-                           <td tabindex="0">
+                            <th scope="row" tabindex="-1">Workers expected to work &ldquo;on call.&rdquo;</th>
+                           <td tabindex="-1">
                                 <p>
                                     Work with the supplier to design a more
                                     structured staffing plan that meets your
@@ -346,8 +352,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Employer restricts workers&rsquo; freedom of movement or communication.</th>
-                            <td tabindex="0">
+                        <th scope="row" tabindex="-1">Employer restricts workers&rsquo; freedom of movement or communication.</th>
+                            <td tabindex="-1">
                                 <p>
                                     Determine who&mdash;management, supervisors,
                                     shift leaders, etc. &mdash;are involved in
@@ -380,8 +386,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Degrading living conditions.</th>
-                            <td tabindex="0">
+                        <th scope="row" tabindex="-1">Degrading living conditions.</th>
+                            <td tabindex="-1">
                                 <p>
                                     Ensure that the supplier fully understands
                                     your minimum standards for employee housing.
@@ -405,8 +411,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Workers forced to engage in illicit activities, to work for private home/family or to take addictive drugs.</th>
-                           <td tabindex="0">
+                        <th scope="row" tabindex="-1">Workers forced to engage in illicit activities, to work for private home/family or to take addictive drugs.</th>
+                           <td tabindex="-1">
                                 <p>
                                     Determine who—management, supervisors, shift leaders, etc.—are involved in forcing workers to engage in illicit activities,
                                     to work for private home/family, or to take addictive drugs and investigate these individuals’ actions.
@@ -431,8 +437,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Supplier inflates workers&rsquo; indebtedness.</th>
-                            <td tabindex="0">
+                        <th scope="row" tabindex="-1">Supplier inflates workers&rsquo; indebtedness.</th>
+                            <td tabindex="-1">
                                 <p>
                                     Determine the source of workers&rsquo;
                                     initial debt. If the initial debt was to the
@@ -466,8 +472,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Workers depend on employer for housing, food or other necessities.</th>
-                            <td tabindex="0">
+                        <th scope="row" tabindex="-1">Workers depend on employer for housing, food or other necessities.</th>
+                            <td tabindex="-1">
                                 <p>
                                     In some cases, particularly for migrant
                                     workers, provision of housing, food and
@@ -489,8 +495,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Workers have personal dependency on employer.</th>
-                            <td tabindex="0">
+                        <th scope="row" tabindex="-1">Workers have personal dependency on employer.</th>
+                            <td tabindex="-1">
                                 <p>
                                     Ensure that all workers receive training on
                                     their workplace rights under the law and
@@ -517,19 +523,19 @@ const en = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" scope="col" tabindex="0">
+                            <th scope="col" width="55%" scope="col" tabindex="-1">
                                 <p>
                                     <strong>Circumstances</strong>
                                 </p>
                             </th>
-                            <th scope="col" width="45%" scope="col" tabindex="0">
+                            <th scope="col" width="45%" scope="col" tabindex="-1">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
                             </th>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Workers do not feel free to resign because of benefits they have received or because employer restrictions.</th>
+                        <th scope="row" tabindex="-1">Workers do not feel free to resign because of benefits they have received or because employer restrictions.</th>
                             <td tabindex="0">
                                 <p>
                                     If a supervisor or other individual is
@@ -549,8 +555,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Workers feel compelled to stay because they are due wages.</th>
-                            <td tabindex="0">
+                        <th scope="row" tabindex="-1">Workers feel compelled to stay because they are due wages.</th>
+                            <td tabindex="-1">
                                 <p>
                                     Ensure that wages are being computed
                                     accurately and that all employees involved
@@ -569,8 +575,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Workers work for an excessive or indefinite amount of time to repay a debt or advance from the employer or recruiter.</th>
-                            <td tabindex="0">
+                        <th scope="row" tabindex="-1">Workers work for an excessive or indefinite amount of time to repay a debt or advance from the employer or recruiter.</th>
+                            <td tabindex="-1">
                                 <p>
                                     If the supplier paid the loan or advance,
                                     determine whether the terms were reasonable.
@@ -604,19 +610,19 @@ const en = () => {
                     </caption>
                     <tbody>
                         <tr>
-                            <th scope="col" width="55%" scope="col" tabindex="0">
+                            <th scope="col" width="55%" scope="col" tabindex="-1">
                                 <p>
                                     <strong>Circumstances</strong>
                                 </p>
                             </th>
-                            <th scope="col" width="45%" scope="col" tabindex="0">
+                            <th scope="col" width="45%" scope="col" tabindex="-1">
                                 <p>
                                     <strong>Remediation Actions </strong>
                                 </p>
                             </th>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Supplier or recruiter has possession of workers&rsquo; identity or travel documents.</th>
+                        <th scope="row" tabindex="-1">Supplier or recruiter has possession of workers&rsquo; identity or travel documents.</th>
                             <td tabindex="0">
                                 {/* <p id="P1"> */}
                                 <p>
@@ -637,8 +643,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Employer restricts workers&rsquo; communication.</th>
-                            <td tabindex="0">
+                        <th scope="row" tabindex="-1">Employer restricts workers&rsquo; communication.</th>
+                            <td tabindex="-1">
                                 {/* <p><a href="#P1">See above.</a></p> */}
                                 <p>
                                 <abbr title="Suppliers should never confiscate or take
@@ -658,8 +664,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Employer threatens to turn workers in to immigration authorities.</th>
-                            <td tabindex="0">
+                        <th scope="row" tabindex="-1">Employer threatens to turn workers in to immigration authorities.</th>
+                            <td tabindex="-1">
                                 {/* <p id="P2"> */}
                                 <p>
                                     In any situation of violence, penalty,
@@ -690,8 +696,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Employer perpetrates or threatens physical or sexual violence.</th>
-                            <td tabindex="0">
+                        <th scope="row" tabindex="-1">Employer perpetrates or threatens physical or sexual violence.</th>
+                            <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
                                     <abbr title="
@@ -724,9 +730,9 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Employer or recruiter threatens to remove privileges like promotion potential, threatens further deterioration in working
+                        <th scope="row" tabindex="-1">Employer or recruiter threatens to remove privileges like promotion potential, threatens further deterioration in working
                                         conditions or threatens to fire workers.</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
                                     <abbr title="
@@ -759,8 +765,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Employer or recruiter exploits religious or cultural beliefs of workers.</th>
-                            <td tabindex="0">
+                        <th scope="row" tabindex="-1">Employer or recruiter exploits religious or cultural beliefs of workers.</th>
+                            <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
                                     <abbr title="
@@ -793,8 +799,8 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Employer or recruiter withholds workers&rsquo; pay or assets or threatens financial penalties.</th>
-                            <td tabindex="0">
+                        <th scope="row" tabindex="-1">Employer or recruiter withholds workers&rsquo; pay or assets or threatens financial penalties.</th>
+                            <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
                                     <abbr title="
@@ -827,9 +833,9 @@ const en = () => {
                             </td>
                         </tr>
                         <tr>
-                        <th scope="row" tabindex="0">Employer threatens extra work for uncooperative workers.
+                        <th scope="row" tabindex="-1">Employer threatens extra work for uncooperative workers.
                         Employer uses blackmail to coerce workers.</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
                                     <abbr title="
