@@ -287,6 +287,9 @@ class Bookmarks extends Component {
                 transition: Slide
             });
         }
+        this.toastTimer = setTimeout(() => {
+            toast.dismiss(this.toastId);
+        }, 5000);
         const bookmarkTitle = getPropByString(localizor.strings, bookmark.name);
         const totalCharactersToRead = bookmarkTitle.length + this.standardCharactersReadFromButton;
         const readTimeInSeconds = totalCharactersToRead / this.charactersPerSecondEnglish;

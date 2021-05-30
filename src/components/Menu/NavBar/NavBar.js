@@ -203,6 +203,8 @@ class NavBar extends Component {
                                 onClick={this.toggleSideNav}
                                 onKeyDown={this.handleKeyPress}
                                 ref={node => (this.closeBtn = node)}
+                                aria-haspopup="true"
+                                aria-expanded={this.state.visible}
                             >
                                 {!visible && localizor.strings.general.menu}
                                 {visible && localizor.strings.general.close}
@@ -223,6 +225,7 @@ class NavBar extends Component {
                 <SideNav
                     id="side-nav"
                     visible={visible}
+                    
                     onClose={this.handleSideNavClose}
                     clickable={"menu-btn"}
                 >

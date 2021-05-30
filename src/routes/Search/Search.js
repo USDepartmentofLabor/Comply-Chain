@@ -49,7 +49,7 @@ const SearchButton = styled(Button)`
     }
 `;
 
-const SearchResultsHeader = styled.h2`
+const SearchResultsHeader = styled.h1`
     font-size: 17px;
     color: ${theme.colors.base};
     margin-bottom: 10px;
@@ -380,15 +380,17 @@ class Search extends Component {
                 " - Comply Chain - " +
                 localizor.strings.general.dol;
         }
+        let resultsTitle = results.length +" " +
+        localizor.strings.general.searchResultsFor.toLowerCase() + " ";
         return (
             <div>
                 <Title title={title}/>
                 <h1>{localizor.strings.general.search}</h1>
                 {query && !searching && (
                     <SearchResultsHeader>
-                        {results.length}{" "}
-                        {localizor.strings.general.searchResultsFor.toLowerCase()}{" "}
-                        "<span className="query">{query}</span>"
+                        <h1 aria-owns="search_result_h1">
+                        {resultsTitle}"<span id="search_result_h1" className="query" >{query}</span>"
+                        </h1>
                     </SearchResultsHeader>
                 )}
                 <form action="." onSubmit={this.handleSubmit}>
