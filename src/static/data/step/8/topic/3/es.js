@@ -559,7 +559,7 @@ const es = () => {
                                 {/* <Link to="/steps/8/topic/3/#P1">
                                 V&eacute;ase arriba.
                                 </Link> */}
-                                <abbr title="
+                                <abbr title="" aria-label="
                                 Los proveedores nunca deben confiscar ni tener en su poder los documentos de identidad o 
                                 de viaje de los trabajadores a menos que sea exclusivamente con el fin de guardarlos e 
                                 incluso as&iacute;, &uacute;nicamente si los trabajadores pueden recuperarlos con rapidez 
@@ -604,7 +604,7 @@ const es = () => {
                                 {/* <Link to="/steps/8/topic/3/#P2">
                                 V&eacute;ase arriba.
                                 </Link> */}
-                                <abbr title="
+                                <abbr title="" aria-label="
                                 En cualquier situaci&oacute;n de violencia, sanci&oacute;n, intimidaci&oacute;n o amenaza, 
                                 determinar qui&eacute;nes son las partes involucradas en la infracci&oacute;n (la gerencia, 
                                 los supervisores, los jefes de turno, etc.). Si las personas actuaban por su cuenta sin 
@@ -632,7 +632,7 @@ const es = () => {
                                 {/* <Link to="/steps/8/topic/3/#P2">
                                 V&eacute;ase arriba.
                                 </Link> */}
-                                <abbr title="
+                                <abbr title="" aria-label="
                                 En cualquier situaci&oacute;n de violencia, sanci&oacute;n, intimidaci&oacute;n o amenaza, 
                                 determinar qui&eacute;nes son las partes involucradas en la infracci&oacute;n (la gerencia, 
                                 los supervisores, los jefes de turno, etc.). Si las personas actuaban por su cuenta sin 
@@ -659,7 +659,7 @@ const es = () => {
                                 {/* <Link to="/steps/8/topic/3/#P2">
                                 V&eacute;ase arriba.
                                 </Link> */}
-                                <abbr title="
+                                <abbr title="" aria-label="
                                 En cualquier situaci&oacute;n de violencia, sanci&oacute;n, intimidaci&oacute;n o amenaza, 
                                 determinar qui&eacute;nes son las partes involucradas en la infracci&oacute;n (la gerencia, 
                                 los supervisores, los jefes de turno, etc.). Si las personas actuaban por su cuenta sin 
@@ -687,7 +687,7 @@ const es = () => {
                                 {/* <Link to="/steps/8/topic/3/#P2">
                                 V&eacute;ase arriba.
                                 </Link> */}
-                                <abbr title="
+                                <abbr title="" aria-label="
                                 En cualquier situaci&oacute;n de violencia, sanci&oacute;n, intimidaci&oacute;n o amenaza, 
                                 determinar qui&eacute;nes son las partes involucradas en la infracci&oacute;n (la gerencia, 
                                 los supervisores, los jefes de turno, etc.). Si las personas actuaban por su cuenta sin 
@@ -715,7 +715,7 @@ const es = () => {
                                 {/* <Link to="/steps/8/topic/3/#P2">
                                 V&eacute;ase arriba.
                                 </Link> */}
-                                <abbr title="
+                                <abbr title="" aria-label="
                                 En cualquier situaci&oacute;n de violencia, sanci&oacute;n, intimidaci&oacute;n o amenaza, 
                                 determinar qui&eacute;nes son las partes involucradas en la infracci&oacute;n (la gerencia, 
                                 los supervisores, los jefes de turno, etc.). Si las personas actuaban por su cuenta sin 
