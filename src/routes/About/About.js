@@ -6,10 +6,10 @@ import { withLanguageContext } from "../../components/Language";
 
 class About extends Component {
     componentWillUpdate(){
-        document.getElementById("brand-strip-container").setAttribute("tabindex","-1")
-        document.getElementById("navbar-left-items")[0].getElementsByTag("a")[0].setAttribute("tabindex","-1")
-        document.getElementById("menu-btn").setAttribute("tabindex","-1")
-        document.getElementById("main").setAttribute("tabindex","0")
+        // document.getElementById("brand-strip-container").setAttribute("tabindex","-1")
+        // document.getElementById("navbar-left-items")[0].getElementsByTag("a")[0].setAttribute("tabindex","-1")
+        // document.getElementById("menu-btn").setAttribute("tabindex","-1")
+        // document.getElementById("main").setAttribute("tabindex","0")
     }
     render() {
         const { localizor, location } = this.props;

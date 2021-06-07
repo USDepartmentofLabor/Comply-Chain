@@ -56,6 +56,12 @@ class LanguageSwitcher extends Component {
         localizor.setLanguage(lang);
         this.setState({ currentLanguage: lang });
         document.documentElement.lang = lang;
+        /*TODO For keyBoard issue #171
+        var inputs = document.getElementById('main').getElementsByTagName('input');
+        for (var i = 0; i < inputs.length; i++) {
+            inputs[i].setAttribute("lang",lang);
+        }*/
+        
     };
     render() {
         const { localizor } = this.props;

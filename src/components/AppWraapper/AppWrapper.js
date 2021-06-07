@@ -159,9 +159,14 @@ class AppWrapper extends Component {
         document.getElementById("menu-btn").style.paddingTop = '16px';
         document.getElementById("menu-btn").style.height = '55px';
         if (isIOS() || isAndroid()) {
-                document.getElementById("showSTM").style.display = 'none';
-                }
+            document.getElementById("showSTM").style.display = 'none';
         }
+        /*TODO For keyBoard issue #171
+        var inputs = document.getElementById('main').getElementsByTagName('input');
+        for (var i = 0; i < inputs.length; i++) {
+            inputs[i].setAttribute("lang",localStorage.getItem("lang"));
+        }*/
+    }
      componentDidUpdate() {
         }
         
