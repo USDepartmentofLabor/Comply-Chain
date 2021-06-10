@@ -15,7 +15,7 @@ const fr = () => {
                       le dialogue avec différentes parties prenantes. Voici quelques-unes
                       des fonctions-type que les parties prenantes peuvent remplir :
                  </p>
-                       <h3> Employ&eacute;s de l&apos;entreprise</h3>
+                       <h2> Employ&eacute;s de l&apos;entreprise</h2>
                         <ul>
                             <li>
                                 Prendre part &agrave; l&apos;&eacute;laboration
@@ -72,8 +72,8 @@ const fr = () => {
                             </li>
                         </ul>
 
-                       <h3> Travailleurs dans les ateliers de production et
-                        organisations de repr&eacute;sentation des travailleurs</h3>
+                       <h2> Travailleurs dans les ateliers de production et
+                        organisations de repr&eacute;sentation des travailleurs</h2>
                         <ul>
                             <li>
                                 Prendre part aux{" "}
@@ -129,8 +129,8 @@ const fr = () => {
                             </li>
                         </ul>
 
-                        <h3>Fournisseurs dans toute votre cha&icirc;ne
-                        d&apos;approvisionnement</h3>
+                        <h2>Fournisseurs dans toute votre cha&icirc;ne
+                        d&apos;approvisionnement</h2>
                         <ul>
                             <li>
                                 Prendre part &agrave; l&apos;
@@ -195,8 +195,8 @@ const fr = () => {
                             </li>
                         </ul>
 
-                <h3>        Communaut&eacute;s et organisations communautaires dans
-                        toute votre cha&icirc;ne d&apos;approvisionnement</h3>
+                <h2>        Communaut&eacute;s et organisations communautaires dans
+                        toute votre cha&icirc;ne d&apos;approvisionnement</h2>
                         <ul>
                             <li>
                                 Fournir des avis utiles pour votre{" "}
@@ -269,8 +269,8 @@ const fr = () => {
                             </li>
                         </ul>
 
-                     <h3>Organisations nationales ou internationales de la
-                        soci&eacute;t&eacute; civile</h3>
+                     <h2>Organisations nationales ou internationales de la
+                        soci&eacute;t&eacute; civile</h2>
                         <ul>
                             <li>
                                 Fournir des avis utiles pour votre{" "}
@@ -321,7 +321,7 @@ const fr = () => {
                                 contre elles.
                             </li>
                         </ul>
-                        <h3>Actionnaires et groupes d&apos;investisseurs</h3>
+                        <h2>Actionnaires et groupes d&apos;investisseurs</h2>
                         <ul>
                             <li>
                                 Pr&eacute;coniser aupr&egrave;s des autres
@@ -357,7 +357,7 @@ const fr = () => {
                                 li&eacute;es &agrave; ses op&eacute;rations.
                             </li>
                         </ul>
-                        <h3>Autres entreprises dans votre industrie</h3>
+                        <h2>Autres entreprises dans votre industrie</h2>
                         <ul>
                             <li>
                                 Partager des exemples de{" "}

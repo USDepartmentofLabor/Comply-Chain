@@ -182,7 +182,7 @@ class Bookmarkable extends Component {
             <Wrapper>
                 <BookmarkButton aria-live="assertive"
                     title={
-                        bookmarked ? `${title} is Bookmarked To undo Bookmark Press Enter ` : `Bookmark ${title}`
+                        bookmarked ? `${title} is Bookmarked To undo Bookmark Press Enter or double-tap` : `Bookmark ${title}`
                     }
                     onClick={() => {
                         if (!bookmarked) {

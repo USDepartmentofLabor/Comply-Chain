@@ -13,7 +13,7 @@ const ms = () => {
                             maklum tentang penglibatan pelbagai pihak berkepentingan. Beberapa peranan khas yang boleh
                             dimainkan oleh pihak berkepentingan ditandakan berikut:
                         </p>
-                              <h3>Kakitangan syarikat</h3>
+                              <h2>Kakitangan syarikat</h2>
                                 <ul>
                                     <li>
                                         Libatkan diri dalam <strong> kod tingkah laku </strong>
@@ -44,7 +44,7 @@ const ms = () => {
                                         <strong>Berlatih</strong> untuk memastikan bahawa pekerjaan yang mereka lakukan di unit lain dalam syarikat tidak bertentangan dengan pematuhan sosial.
                                     </li>
                                 </ul>
-                                <h3> Pekerja dalam tempat pengeluaran dan pertubuhan dengan wakil pekerja</h3>
+                                <h2> Pekerja dalam tempat pengeluaran dan pertubuhan dengan wakil pekerja</h2>
                                 <ul>
                                     <li>
                                         Libatkan diri dalam <strong>perundingan kolektif</strong> dengan pihak pengurusan mengenai isu-isu di tempat kerja.
@@ -72,7 +72,7 @@ const ms = () => {
                                     </li>
                                 </ul>
 
-                               <h3>Pembekal di sepanjang rantai bekalan</h3>
+                               <h2>Pembekal di sepanjang rantai bekalan</h2>
                                 <ul>
                                     <li>
                                      Libatkan diri dalam <strong>pembangunan kod tingkah laku</strong>.
@@ -100,7 +100,7 @@ const ms = () => {
                                     </li>
                                 </ul>
 
-                                <h3>Komuniti dan pertubuhan berasaskan komuniti di sepanjang rantai bekalan anda</h3>
+                                <h2>Komuniti dan pertubuhan berasaskan komuniti di sepanjang rantai bekalan anda</h2>
                                 <ul>
                                     <li>
                                         Berikan input berharga dalam <strong>kod tingkah laku</strong> anda, membawa pengalaman, kenalan dan kredibiliti tempatan.
@@ -129,7 +129,7 @@ const ms = () => {
                                     </li>
                                 </ul>
 
-                               <h3> Pertubuhan masyarakat sivil nasional atau antarabangsa</h3>
+                               <h2> Pertubuhan masyarakat sivil nasional atau antarabangsa</h2>
                                 <ul>
                                     <li>
                                         Berikan input berharga dalam <strong>kod tingkah laku</strong> anda, membawa pengalaman, kenalan dan kredibiliti.
@@ -154,7 +154,7 @@ const ms = () => {
                                     </li>
                                </ul>
 
-                               <h3> Pemegang saham dan kumpulan pelabur</h3>
+                               <h2> Pemegang saham dan kumpulan pelabur</h2>
                                 <ul>
                                     <li>
                                         Jadi penyokong dengan pemegang saham lain untuk menyokong <strong>kod tingkah laku</strong> dan program pematuhan secara umum.
@@ -172,7 +172,7 @@ const ms = () => {
                                 </ul>
 
 
-                               <h3>Syarikat lain dalam industri anda</h3>
+                               <h2>Syarikat lain dalam industri anda</h2>
                                 <ul>
                                     <li>
                                         Kongsi contoh <strong>kod tingkah laku</strong> atau bekerjasama untuk membangunkan kod melalui kumpulan industri dan/atau bekerja dengan pihak berkepentingan yang lain.
