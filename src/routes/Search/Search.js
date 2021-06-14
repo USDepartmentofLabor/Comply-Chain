@@ -26,11 +26,11 @@ const SearchLabel = styled.label`
         vertical-align: bottom;
     }
 `;
-
+//TODO below change offWhite to white
 const SearchInput = styled.input`
     display: block;
     color: ${theme.colors.base};
-    background-color: ${theme.colors.white};
+    background-color: ${theme.colors.offWhite};
     border: 1px solid ${theme.colors.charcoal};
     padding: 10px 30px;
     width: 100%;
