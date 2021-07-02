@@ -242,7 +242,7 @@ class Bookmarks extends Component {
                                 </PaddedContent>
                             </Item>
                             <IconWrapper
-                                aria-label="Remove bookmark"
+                                aria-label={"Remove "+ getPropByString(localizor.strings, bookmark.name) + " bookmark."}
                                 onClick={() => {this.markForRemoval(bookmark, i);}}
                             >
                                 <BookmarkIcon/>

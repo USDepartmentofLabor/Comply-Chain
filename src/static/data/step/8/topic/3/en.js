@@ -647,7 +647,7 @@ const en = () => {
                             <td tabindex="-1">
                                 {/* <p><a href="#P1">See above.</a></p> */}
                                 <p>
-                                <abbr title="Suppliers should never confiscate or take
+                                <abbr title="" aria-label="Suppliers should never confiscate or take
                                     control of workers&rsquo; identity or travel
                                     documents unless it is purely for
                                     safekeeping purposes, and then only if
@@ -700,8 +700,7 @@ const en = () => {
                             <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="
-                                    In any situation of violence, penalty,
+                                    <abbr title="" aria-label="In any situation of violence, penalty,
                                     intimidation or threat, determine
                                     who&mdash;management, supervisors, shift
                                     leaders, etc. &mdash;are involved in these
@@ -722,8 +721,7 @@ const en = () => {
                                     job are able to do so and receive their full
                                     wages due. Follow up with unannounced audits
                                     that include off-site interviews with
-                                    workers and knowledgeable community members.
-                                    ">
+                                    workers and knowledgeable community members."> 
                                         See above.
                                     </abbr>
                                 </p>
@@ -735,7 +733,7 @@ const en = () => {
                             <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     In any situation of violence, penalty,
                                     intimidation or threat, determine
                                     who&mdash;management, supervisors, shift
@@ -769,7 +767,7 @@ const en = () => {
                             <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     In any situation of violence, penalty,
                                     intimidation or threat, determine
                                     who&mdash;management, supervisors, shift
@@ -803,7 +801,7 @@ const en = () => {
                             <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     In any situation of violence, penalty,
                                     intimidation or threat, determine
                                     who&mdash;management, supervisors, shift
@@ -838,7 +836,7 @@ const en = () => {
                             <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     In any situation of violence, penalty,
                                     intimidation or threat, determine
                                     who&mdash;management, supervisors, shift

@@ -14,7 +14,7 @@ const es = () => {
                                    de arreglos y vínculos laborales, pueden utilizarse en la participación
                                    de distintas partes interesadas. A continuación, se destacan algunas funciones típicas que desempeñan las partes interesadas:
                                </p>
-                       <h3> Empleados de empresas</h3>
+                       <h2> Empleados de empresas</h2>
                         <ul>
                             <li>
                                 Participan en el
@@ -62,8 +62,8 @@ const es = () => {
                             </li>
                         </ul>
 
-                        <h3>Trabajadores en establecimientos productores y
-                        organizaciones de representaci&oacute;n obrera</h3>
+                        <h2>Trabajadores en establecimientos productores y
+                        organizaciones de representaci&oacute;n obrera</h2>
                         <ul>
                             <li>
                                 Entablan
@@ -115,7 +115,7 @@ const es = () => {
                                 de las infracciones laborales.
                             </li>
                         </ul>
-                       <h3> Los proveedores en su cadena de suministro</h3>
+                       <h2> Los proveedores en su cadena de suministro</h2>
                         <ul>
                             <li>
                                 Participan en la{" "}
@@ -173,8 +173,8 @@ const es = () => {
                             </li>
                         </ul>
 
-                        <h3>Comunidades y organizaciones comunitarias en su cadena
-                        de suministro</h3>
+                        <h2>Comunidades y organizaciones comunitarias en su cadena
+                        de suministro</h2>
                         <ul>
                             <li>
                                 Realizan contribuciones valiosas al
@@ -245,8 +245,8 @@ const es = () => {
                                 empresas en iniciativas para hacerles frente.
                             </li>
                         </ul>
-                       <h3> Organizaciones nacionales o internacionales de la
-                        sociedad civil</h3>
+                       <h2> Organizaciones nacionales o internacionales de la
+                        sociedad civil</h2>
                         <ul>
                             <li>
                                 Realizan contribuciones valiosas al
@@ -290,7 +290,7 @@ const es = () => {
                             </li>
                         </ul>
 
-                       <h3> Accionistas y grupos de inversionistas</h3>
+                       <h2> Accionistas y grupos de inversionistas</h2>
                         <ul>
                             <li>
                                 Promueven con otros accionistas el respaldo del{" "}
@@ -323,7 +323,7 @@ const es = () => {
                             </li>
                         </ul>
 
-                        <h3>Otras empresas en su industria</h3>
+                        <h2>Otras empresas en su industria</h2>
                         <ul>
                             <li>
                                 Intercambian modelos de

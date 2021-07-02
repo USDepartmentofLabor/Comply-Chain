@@ -5,7 +5,7 @@ import StaticData from "../../../../components/StaticData";
 const en = () => {
     return (
         <StaticData>
-            <h1>About the Comply Chain App</h1>
+            <h1 role="heading" aria-level="1">About the Comply Chain App</h1>
             <p>
                 In the era of globalization, the production of goods in foreign
                 countries has increased at a rapid pace. Unfortunately in too
