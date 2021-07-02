@@ -14,7 +14,7 @@ const en = () => {
                     Some typical roles that stakeholders can play are highlighted below:
                 </p>
 
-                      <h3>Company employees</h3>
+                      <h2>Company employees</h2>
                         <ul>
                             <li>
                                 Be involved in<strong> code of conduct </strong>
@@ -54,8 +54,8 @@ const en = () => {
                                 with social compliance.
                             </li>
                         </ul>
-                        <h3> Workers in production facilities and worker
-                        representative organizations</h3>
+                        <h2> Workers in production facilities and worker
+                        representative organizations</h2>
                         <ul>
                             <li>
                                 Engage in
@@ -101,7 +101,7 @@ const en = () => {
                             </li>
                         </ul>
 
-                       <h3> Suppliers throughout your supply chain</h3>
+                       <h2> Suppliers throughout your supply chain</h2>
                         <ul>
                             <li>
                                 Be involved in{" "}
@@ -147,8 +147,8 @@ const en = () => {
                             </li>
                         </ul>
 
-                        <h3>Communities and community-based organizations throughout
-                        your supply chain</h3>
+                        <h2>Communities and community-based organizations throughout
+                        your supply chain</h2>
                         <ul>
                             <li>
                                 Provide valuable input into your
@@ -205,7 +205,7 @@ const en = () => {
                             </li>
                         </ul>
 
-                       <h3> National or international civil society organizations</h3>
+                       <h2> National or international civil society organizations</h2>
                         <ul>
                             <li>
                                 Provide valuable input into your
@@ -244,7 +244,7 @@ const en = () => {
                             </li>
                        </ul>
 
-                       <h3> Shareholders and investor groups</h3>
+                       <h2> Shareholders and investor groups</h2>
                         <ul>
                             <li>
                                 Advocate with other shareholders to support the{" "}
@@ -273,7 +273,7 @@ const en = () => {
                         </ul>
 
 
-                       <h3> Other companies in your industry</h3>
+                       <h2> Other companies in your industry</h2>
                         <ul>
                             <li>
                                 Share example<strong> codes of conduct </strong>

@@ -576,7 +576,7 @@ const fr = () => {
                                     {/* <Link to="/steps/8/topic/3/#P1">
                                     Voir ci-dessus.
                                     </Link> */}
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                 Les fournisseurs ne devraient jamais confisquer ni prendre possession des pi&egrave;ces 
                                 d'identit&eacute;, ni des titres de voyage des travailleurs, sauf pour les mettre en lieu 
                                 s&ucirc;r, et uniquement si les travailleurs sont en mesure de r&eacute;cup&eacute;rer 
@@ -622,7 +622,7 @@ const fr = () => {
                                     {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
                                     </Link> */}
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     Dans toute situation de violence, de sanction, d'intimidation ou de menace, d&eacute;terminer 
                                     qui (direction, contrema&icirc;tres, chefs d'&eacute;quipe, etc.) est impliqu&eacute; dans ces 
                                     violations. Si des personnes agissent de leur propre chef sans que la direction en soit 
@@ -650,7 +650,7 @@ const fr = () => {
                                     {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
                                     </Link> */}
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     Dans toute situation de violence, de sanction, d'intimidation ou de menace, d&eacute;terminer 
                                     qui (direction, contrema&icirc;tres, chefs d'&eacute;quipe, etc.) est impliqu&eacute; dans ces 
                                     violations. Si des personnes agissent de leur propre chef sans que la direction en soit 
@@ -677,7 +677,7 @@ const fr = () => {
                                     {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
                                     </Link> */}
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     Dans toute situation de violence, de sanction, d'intimidation ou de menace, d&eacute;terminer 
                                     qui (direction, contrema&icirc;tres, chefs d'&eacute;quipe, etc.) est impliqu&eacute; dans ces 
                                     violations. Si des personnes agissent de leur propre chef sans que la direction en soit 
@@ -704,7 +704,7 @@ const fr = () => {
                                     {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
                                     </Link> */}
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     Dans toute situation de violence, de sanction, d'intimidation ou de menace, d&eacute;terminer 
                                     qui (direction, contrema&icirc;tres, chefs d'&eacute;quipe, etc.) est impliqu&eacute; dans ces 
                                     violations. Si des personnes agissent de leur propre chef sans que la direction en soit 
@@ -733,7 +733,7 @@ const fr = () => {
                                     {/* <Link to="/steps/8/topic/3/#P2">
                                     Voir ci-dessus.
                                     </Link> */}
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     Dans toute situation de violence, de sanction, d'intimidation ou de menace, d&eacute;terminer 
                                     qui (direction, contrema&icirc;tres, chefs d'&eacute;quipe, etc.) est impliqu&eacute; dans ces 
                                     violations. Si des personnes agissent de leur propre chef sans que la direction en soit 

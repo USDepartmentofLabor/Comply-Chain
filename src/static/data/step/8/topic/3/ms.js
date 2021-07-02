@@ -497,7 +497,7 @@ const ms = () => {
                             <td tabindex="-1">
                                 {/* <p><a href="#P1">See above.</a></p> */}
                                 <p>
-                                <abbr title="Pembekal tidak boleh merampas atau mengawal identiti pengenalan pekerja atau dokumen perjalanan 
+                                <abbr title="" aria-label="Pembekal tidak boleh merampas atau mengawal identiti pengenalan pekerja atau dokumen perjalanan 
                                     melainkan cuma untuk menyimpankannya dengan baik, dan sekiranya pekerja boleh mendapatkannya 
                                     semula dengan segera apabila diminta. Pastikan pembekal mengembalikan semua dokumen pengenalan 
                                     pekerja. Sekiranya pekerja lebih suka kalau majikan menyimpankannya dengan selamat, pastikan ada 
@@ -532,7 +532,7 @@ const ms = () => {
                             <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     alam mana-mana situasi yang melibatkan keganasan, penalti, ugutan atau ancaman, pastikan siapa - pengurusan, 
                                     penyelia, ketua giliran kerja, dll. - terlibat dalam pencabulan hak ini. Sekiranya individu bertindak sendiri 
                                     tanpa pengetahuan pengurusan, ambil tindakan yang sesuai terhadap individu ini, yang boleh termasuk latihan, 
@@ -555,7 +555,7 @@ const ms = () => {
                             <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     alam mana-mana situasi yang melibatkan keganasan, penalti, ugutan atau ancaman, pastikan siapa - pengurusan, 
                                     penyelia, ketua giliran kerja, dll. - terlibat dalam pencabulan hak ini. Sekiranya individu bertindak sendiri 
                                     tanpa pengetahuan pengurusan, ambil tindakan yang sesuai terhadap individu ini, yang boleh termasuk latihan, 
@@ -577,7 +577,7 @@ const ms = () => {
                             <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     alam mana-mana situasi yang melibatkan keganasan, penalti, ugutan atau ancaman, pastikan siapa - pengurusan, 
                                     penyelia, ketua giliran kerja, dll. - terlibat dalam pencabulan hak ini. Sekiranya individu bertindak sendiri 
                                     tanpa pengetahuan pengurusan, ambil tindakan yang sesuai terhadap individu ini, yang boleh termasuk latihan, 
@@ -599,7 +599,7 @@ const ms = () => {
                             <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     alam mana-mana situasi yang melibatkan keganasan, penalti, ugutan atau ancaman, pastikan siapa - pengurusan, 
                                     penyelia, ketua giliran kerja, dll. - terlibat dalam pencabulan hak ini. Sekiranya individu bertindak sendiri 
                                     tanpa pengetahuan pengurusan, ambil tindakan yang sesuai terhadap individu ini, yang boleh termasuk latihan, 
@@ -622,7 +622,7 @@ const ms = () => {
                             <td tabindex="-1">
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="
+                                    <abbr title="" aria-label="
                                     alam mana-mana situasi yang melibatkan keganasan, penalti, ugutan atau ancaman, pastikan siapa - pengurusan, 
                                     penyelia, ketua giliran kerja, dll. - terlibat dalam pencabulan hak ini. Sekiranya individu bertindak sendiri 
                                     tanpa pengetahuan pengurusan, ambil tindakan yang sesuai terhadap individu ini, yang boleh termasuk latihan, 

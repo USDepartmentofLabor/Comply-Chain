@@ -26,11 +26,11 @@ const SearchLabel = styled.label`
         vertical-align: bottom;
     }
 `;
-
+//TODO below change offWhite to white
 const SearchInput = styled.input`
     display: block;
     color: ${theme.colors.base};
-    background-color: ${theme.colors.white};
+    background-color: ${theme.colors.offWhite};
     border: 1px solid ${theme.colors.charcoal};
     padding: 10px 30px;
     width: 100%;
@@ -388,7 +388,7 @@ class Search extends Component {
                 <h1>{localizor.strings.general.search}</h1>
                 {query && !searching && (
                     <SearchResultsHeader>
-                        <h1 aria-owns="search_result_h1">
+                        <h1 aria-owns="search_result_h1" aria-label={resultsTitle + " " + query}>
                         {resultsTitle}"<span id="search_result_h1" className="query" >{query}</span>"
                         </h1>
                     </SearchResultsHeader>
