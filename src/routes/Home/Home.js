@@ -310,6 +310,9 @@ const Item = styled.div`
             )
         ),
         url(${props.image})`};
+    background-color: ${props =>
+        `${props.red ? theme.colors.red : theme.colors.primary}`
+    };
     box-shadow: ${props =>
         isIOS()
             ? `inset 0 0 0 2000px
