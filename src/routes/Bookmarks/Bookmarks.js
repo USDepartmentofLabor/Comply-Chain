@@ -48,9 +48,15 @@ const ItemHeader = styled.span`
 `;
 
 const ItemContent = styled(Link)`
-    color: ${theme.colors.primary};
     text-decoration: none;
-    width: 420px;
+    width: fit-content;
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1em;
+    font-family: ${theme.fonts.headings};
+    font-weight: bold;
 `;
 
 const ItemContentButtonAsWrapper = styled.button`
@@ -235,9 +241,7 @@ class Bookmarks extends Component {
                                         </ItemHeaderTitle>
                                     )}
                                     <ItemContent to={bookmark.url} tabIndex="-1">
-                                        <ItemContentButtonAsWrapper id={bookmark.name}>
-                                            {getPropByString(localizor.strings, bookmark.name)}
-                                        </ItemContentButtonAsWrapper>
+                                    {getPropByString(localizor.strings, bookmark.name)}
                                     </ItemContent>
                                 </PaddedContent>
                             </Item>
