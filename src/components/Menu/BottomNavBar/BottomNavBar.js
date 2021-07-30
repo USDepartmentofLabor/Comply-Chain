@@ -33,7 +33,7 @@ class BottomNavBar extends Component {
                     const Icon = item.icon;
                     return (
                         <NavItem {...item.props} key={"bottom_nav_" + i}>
-                            <NavItem.Icon>
+                            <NavItem.Icon aria-hidden = "true">
                                 <Icon alt={item.alt} />
                             </NavItem.Icon>
                             <NavItem.Label>{item.label}</NavItem.Label>
