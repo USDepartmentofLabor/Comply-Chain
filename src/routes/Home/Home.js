@@ -21,12 +21,13 @@ import homeStep9 from "../../static/images/home_step_9.jpg";
 import homeStep10 from "../../static/images/home_step_10.jpg";
 import homeWhyDevelop from "../../static/images/home_why_develop.jpg";
 import { isBrowser } from "../../modules/utils/platform";
+import { isAndroid } from "../../modules/utils/platform";
 
 class Home extends Component {
     render() {
         const { localizor } = this.props;
         return (
-            <HomeWrapper aria-hidden={isBrowser?"true":"false"}>
+            <HomeWrapper aria-hidden={window.hasOwnProperty("cordova")?"false":"true"}>
 
                 {localizor.strings.steps.map((step, i) => {
                     const bookmarked = storage.bookmarks.containsBookmarks(
