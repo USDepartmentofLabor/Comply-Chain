@@ -33,7 +33,7 @@ class BottomNavBar extends Component {
                     const Icon = item.icon;
                     return (
                         <NavItem {...item.props} key={"bottom_nav_" + i}>
-                            <NavItem.Icon>
+                            <NavItem.Icon aria-hidden = "true">
                                 <Icon alt={item.alt} />
                             </NavItem.Icon>
                             <NavItem.Label>{item.label}</NavItem.Label>
@@ -54,7 +54,7 @@ const Wrapper = styled.nav`
     left: 0;
     right: 0;
     border-top: 1px solid #e0e0e0;
-    background-color: ${theme.colors.white};
+    background-color: ${theme.colors.grayLightest};
     z-index: 1;
     padding-bottom: constant(safe-area-inset-bottom); /* iOS 11.0 */
     padding-bottom: env(safe-area-inset-bottom); /* iOS 11.2 */

@@ -30,7 +30,7 @@ const SearchLabel = styled.label`
 const SearchInput = styled.input`
     display: block;
     color: ${theme.colors.base};
-    background-color: ${theme.colors.offWhite};
+    background-color: ${theme.colors.white};
     border: 1px solid ${theme.colors.charcoal};
     padding: 10px 30px;
     width: 100%;
