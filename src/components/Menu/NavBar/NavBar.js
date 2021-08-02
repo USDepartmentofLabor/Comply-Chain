@@ -232,6 +232,7 @@ class NavBar extends Component {
                     <div id="side-nav-main-content">
                         {leftItems.map((item, i) => (
                             <SideNav.Item
+                                tabIndex = {visible?0:-1}
                                 {...item.props}
                                 key={"mobile_left_" + i}
                                 onClick={this.handleSideNavClose}
