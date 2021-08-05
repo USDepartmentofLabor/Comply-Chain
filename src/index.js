@@ -14,8 +14,9 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { whitelist } from "./modules/config/whitelist";
-import { isAndroid } from "./modules/utils/platform";
+import { isAndroid, inAppBrowserOptions_Toolbar } from "./modules/utils/platform";
 import { inAppBrowserOptions } from "./modules/utils/platform";
+import { inAppBrowserOptions1 } from "./modules/utils/platform";
 
 smoothscroll.polyfill();
 
@@ -51,6 +52,8 @@ const addInAppBrowser = () => {
                     window.open(link, "_system");
                 } else {
                     const browserOptions = inAppBrowserOptions();
+                    const browserOptions1 = inAppBrowserOptions1();
+                    window.open(link, "_blank", browserOptions1);
                     window.open(link, "_blank", browserOptions);
                 }
                 return false;
