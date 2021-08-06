@@ -380,16 +380,20 @@ class Search extends Component {
                 " - Comply Chain - " +
                 localizor.strings.general.dol;
         }
+        // let resultsTitle = results.length +" " +
+        // localizor.strings.general.searchResultsFor.toLowerCase() + " ";
         let resultsTitle = results.length +" " +
-        localizor.strings.general.searchResultsFor.toLowerCase() + " ";
+        localizor.strings.general.searchResultsFor.toLowerCase() + " " + '"' + query + '"';
         return (
             <div>
                 <Title title={title}/>
                 <h1>{localizor.strings.general.search}</h1>
                 {query && !searching && (
                     <SearchResultsHeader>
-                        <h1 aria-owns="search_result_h1" aria-label={resultsTitle + " " + query}>
-                        {resultsTitle}"<span id="search_result_h1" className="query" >{query}</span>"
+                        {/* <h1 aria-owns="search_result_h1" aria-label={resultsTitle + " " + query}>
+                        {resultsTitle}"<span id="search_result_h1" className="query" >{query}</span>" */}
+                        <h1 aria-owns="search_result_h1" aria-label={resultsTitle}>
+                        {resultsTitle}
                         </h1>
                     </SearchResultsHeader>
                 )}
