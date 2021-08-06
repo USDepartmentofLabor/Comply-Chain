@@ -49,7 +49,7 @@ const SearchButton = styled(Button)`
     }
 `;
 
-const SearchResultsHeader = styled.h1`
+const SearchResultsHeader = styled.h2`
     font-size: 17px;
     color: ${theme.colors.base};
     margin-bottom: 10px;
@@ -392,9 +392,9 @@ class Search extends Component {
                     <SearchResultsHeader>
                         {/* <h1 aria-owns="search_result_h1" aria-label={resultsTitle + " " + query}>
                         {resultsTitle}"<span id="search_result_h1" className="query" >{query}</span>" */}
-                        <h1 aria-owns="search_result_h1" aria-label={resultsTitle}>
+                        <h2 aria-owns="search_result_h2" aria-label={resultsTitle}>
                         {resultsTitle}
-                        </h1>
+                        </h2>
                     </SearchResultsHeader>
                 )}
                 <form action="." onSubmit={this.handleSubmit}>
