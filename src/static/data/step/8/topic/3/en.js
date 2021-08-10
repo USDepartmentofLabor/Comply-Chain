@@ -235,7 +235,7 @@ const en = () => {
                         <tr>
                             <th scope="row" tabindex="-1">Workers abducted, confined during the recruitment process or sold.</th>
 
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 <p>
                                     Report offenses to law enforcement
                                     authorities. Work with law enforcement and
@@ -320,7 +320,7 @@ const en = () => {
                         <tr>
                                 <th scope="row" tabindex="-1">Workers working excessive overtime beyond legal limits.</th>
 
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 <p>
                                     Ensure that the supplier pays workers back
                                     wages for all overtime hours worked. Work
@@ -536,7 +536,7 @@ const en = () => {
                         </tr>
                         <tr>
                         <th scope="row" tabindex="-1">Workers do not feel free to resign because of benefits they have received or because employer restrictions.</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 <p>
                                     If a supervisor or other individual is
                                     leading workers to believe they cannot leave
@@ -623,7 +623,7 @@ const en = () => {
                         </tr>
                         <tr>
                         <th scope="row" tabindex="-1">Supplier or recruiter has possession of workers&rsquo; identity or travel documents.</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 {/* <p id="P1"> */}
                                 <p>
                                     Suppliers should never confiscate or take
