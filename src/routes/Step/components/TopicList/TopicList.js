@@ -16,8 +16,18 @@ const Topic = styled.li`
         color: ${props =>
             props.checked ? theme.colors.primaryDarker : theme.colors.primary};
     }
+`;
+
+const UnicodeCheckBox = styled.span`
     &::before {
-        content: "${props => (props.checked ? "\\2713" : "\\25A1")}";
+        content: "${props => (props.checked ? "\\2713" : "\\2713")}";
+        padding-right: 7px;
+        font-size: 1em;
+    }
+`;
+const UnicodeCheckBox2 = styled.span`
+    &::before {
+        content: "${props => (props.checked ? "\\25A1" : "\\25A1")}";
         padding-right: 7px;
         font-size: 1em;
     }
@@ -32,23 +42,24 @@ class TopicsList extends Component {
     render() {
         const { step, topics } = this.props;
         return (
-            <Wrapper>
+            <div>
+                <br></br>
+            <div>
                 {topics.map((topic, i) => {
                     const topicId = i + 1;
                     const checked = storage.steps.isTopicComplete(step - 1, i);
                     return (
-                        <Topic
-                            className={`topicList ${checked ? "checked" : ""}`}
-                            checked={checked}
-                            key={i}
-                        >
+                        <div>
+                            {checked?<UnicodeCheckBox aria-hidden="false" aria-label = {checked?"Reviewed":"Not Reviewed"} className={`topicList ${checked ? "checked" : ""}` }></UnicodeCheckBox>:<UnicodeCheckBox2 aria-hidden="false" aria-label = {checked?"Reviewed":"Not Reviewed"} className={`topicList ${checked ? "checked" : ""}`}></UnicodeCheckBox2>}
                             <StyledLink to={`/steps/${step}/topic/${topicId}`}>
                                 {topic.title}
                             </StyledLink>
-                        </Topic>
+                            <br></br>
+                        </div>
                     );
                 })}
-            </Wrapper>
+            </div>
+            </div>
         );
     }
 }

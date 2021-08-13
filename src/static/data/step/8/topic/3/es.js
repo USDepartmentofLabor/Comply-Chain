@@ -225,7 +225,7 @@ const es = () => {
                         </tr>
                         <tr>
                         <th scope="row" tabindex="-1">Trabajadores sustra&iacute;dos, encerrados durante el proceso de reclutamiento o vendidos.</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 <p>
                                 Denunciar la contravenci&oacute;n a las autoridades responsables de la aplicaci&oacute;n de la ley. 
                                 Trabajar con las autoridades responsables de la aplicaci&oacute;n de la ley y con grupos locales a 
@@ -292,7 +292,7 @@ const es = () => {
                         </tr>
                         <tr>
                         <th scope="row" tabindex="-1">Trabajadores que trabajan horas extras excesivas, m&aacute;s all&aacute; de lo que permite la ley</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 <p>
                                 Cerciorarse de que el proveedor abone a los trabajadores el sueldo atrasado correspondiente a 
                                 todas las horas extras trabajadas. Trabajar con el proveedor para evaluar las pol&iacute;ticas 
@@ -462,7 +462,7 @@ const es = () => {
                         <tr>
                         <th scope="row" tabindex="-1">Trabajadores que no creen que puedan renunciar libremente por los beneficios
                         que ya recibieron o por las restricciones que impone el empleador.</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 <p>
                                 Si el supervisor u otra persona hacen creer a los trabajadores que no pueden irse porque 
                                 el proveedor les brind&oacute; capacitaci&oacute;n u otros beneficios, o por alg&uacute;n 
@@ -537,7 +537,7 @@ const es = () => {
                         </tr>
                         <tr>
                         <th scope="row" tabindex="-1">El proveedor o reclutador tiene en su poder los documentos de identidad o de viaje de los trabajadores.</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 {/* <p id='P1'> */}
                                 <p>
                                 Los proveedores nunca deben confiscar ni tener en su poder los documentos de identidad o 
