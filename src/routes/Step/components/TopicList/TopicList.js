@@ -42,26 +42,24 @@ class TopicsList extends Component {
     render() {
         const { step, topics } = this.props;
         return (
-            <Wrapper>
+            <div>
+                <br></br>
+            <div>
                 {topics.map((topic, i) => {
                     const topicId = i + 1;
                     const checked = storage.steps.isTopicComplete(step - 1, i);
                     return (
-                        <Topic role="switch"
-                            className={`topicList ${checked ? "checked" : ""}`}
-                            checked={checked}
-                            aria-label = {checked?"Reviewed":"Not Reviewed"}
-                            key={i}
-
-                        >
-                            {checked?<UnicodeCheckBox aria-hidden="true" aria-disabled="true" className={`topicList ${checked ? "checked" : ""}`}></UnicodeCheckBox>:<UnicodeCheckBox2 aria-hidden="true" className={`topicList ${checked ? "checked" : ""}`}></UnicodeCheckBox2>}
+                        <div>
+                            {checked?<UnicodeCheckBox aria-hidden="false" aria-label = {checked?"Reviewed":"Not Reviewed"} className={`topicList ${checked ? "checked" : ""}` }></UnicodeCheckBox>:<UnicodeCheckBox2 aria-hidden="false" aria-label = {checked?"Reviewed":"Not Reviewed"} className={`topicList ${checked ? "checked" : ""}`}></UnicodeCheckBox2>}
                             <StyledLink to={`/steps/${step}/topic/${topicId}`}>
                                 {topic.title}
                             </StyledLink>
-                        </Topic>
+                            <br></br>
+                        </div>
                     );
                 })}
-            </Wrapper>
+            </div>
+            </div>
         );
     }
 }
