@@ -195,7 +195,7 @@ const ms = () => {
                         <tr>
                             <th scope="row" tabindex="-1">Pekerja diculik, dikurung dalam proses merekrut atau dijual.</th>
 
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 <p>
                                     Laporkan kesalahan kepada pihak Penguatkuasa Undang-Undang Bekerjasama dengan penguatkuasa 
                                     undang-undang dan kumpulan tempatan untuk menyediakan tempat yang selamat bagi mangsa dan 
@@ -263,7 +263,7 @@ const ms = () => {
                         <tr>
                                 <th scope="row" tabindex="-1">Pekerja yang kerja berlebihan masa lebih daripada yang dihadkan di bawah undang-undang.</th>
 
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 <p>
                                     Pastikan pembekal membayar balik gaji untuk semua kerja lebih masa yang sudah dilakukan. Kerja dengan 
                                     pembekal untuk menilai dasar pengambilan pekerja dan amalan pampasan, seperti bayaran untuk setiap 
@@ -414,7 +414,7 @@ const ms = () => {
                         </tr>
                         <tr>
                         <th scope="row" tabindex="-1">Pekerja tidak bebas berhenti oleh sebab kemudahan yang mereka terima atau sebab kekangan dari pihak majikan.</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 <p>
                                     Sekiranya penyelia atau individu lain membuat pekerja percaya bahwa mereka tidak boleh berhenti kerja sebab 
                                     pembekal telah menyediakan latihan dan kemudahan lain, atau sebab keperluan kontrak yang tidak sah, pastikan 
@@ -480,7 +480,7 @@ const ms = () => {
                         </tr>
                         <tr>
                         <th scope="row" tabindex="-1">Pembekal atau Perekrut menyimpan dokumen pengenalan atau dokumen perjalanan.</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 {/* <p id="P1"> */}
                                 <p>
                                     Pembekal tidak boleh merampas atau mengawal identiti pengenalan pekerja atau dokumen perjalanan 

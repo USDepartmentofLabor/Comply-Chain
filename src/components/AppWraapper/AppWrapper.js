@@ -499,8 +499,8 @@ class AppWrapper extends Component {
                                     <StepProgressBar />
                                 </StepBarWrapper>
                             )}
-                    <Main id="main" tabIndex="-1">
-                                <Container id="container" aria-hidden="true">
+                    <Main id="main" >
+                                <Container id="container">
                                     <Navigator />
 
                                     <ToastContainerWrapper>

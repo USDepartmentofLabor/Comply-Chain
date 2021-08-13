@@ -223,7 +223,7 @@ const fr = () => {
                         </tr>
                         <tr>
                         <th scope="row" tabindex="-1">Travailleurs enlev&eacute;s, retenus pendant le processus de recrutement, ou vendus.</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 <p>
                                     Signaler les d&eacute;lits aux autorit&eacute;s de police. Travailler avec les forces de l'ordre et les 
                                     groupes locaux pour donner aux victimes un lieu d'h&eacute;bergement s&ucirc;r et les mettre en relation 
@@ -296,7 +296,7 @@ const fr = () => {
                         </tr>
                         <tr>
                         <th scope="row" tabindex="-1">Heures suppl&eacute;mentaires des travailleurs excessives d&eacute;passant les limites l&eacute;gales.</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 <p>
                                     S'assurer que le fournisseur r&egrave;gle aux travailleurs les arri&eacute;r&eacute;s de salaires de toutes 
                                     les heures suppl&eacute;mentaires effectu&eacute;es. Collaborer avec le fournisseur pour &eacute;valuer 
@@ -477,7 +477,7 @@ const fr = () => {
                         <tr>
                         <th scope="row" tabindex="-1">Travailleurs qui estiment qu'ils ne sont pas libres de d&eacute;missionner en raison des avantages
                         qu'ils ont re&ccedil;us ou des restrictions impos&eacute;es par l'employeur.</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 <p>
                                     Si un contrema&icirc;tre ou toute autre personne am&egrave;ne les travailleurs &agrave; croire qu'ils ne 
                                     peuvent partir parce que le fournisseur a fourni une formation ou d'autres avantages, ou parce qu'il existe 
@@ -554,7 +554,7 @@ const fr = () => {
                         <tr>
                         <th scope="row" tabindex="-1">Fournisseur ou recruteur qui a en sa possession les pi&egrave;ces d'identit&eacute; ou les
                         titres de voyage des travailleurs.</th>
-                            <td tabindex="0">
+                            <td tabindex="-1">
                                 {/* <p id="P1"> */}
                                 <p>
                                     Les fournisseurs ne devraient jamais confisquer ni prendre possession des pi&egrave;ces 

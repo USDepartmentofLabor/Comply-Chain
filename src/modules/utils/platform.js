@@ -31,12 +31,26 @@ export const isBrowser = () => {
     return false;
 };
 
+
+
 export const inAppBrowserOptions = () => {
     if (window.cordova.platformId === "ios") {
         const closebuttoncolor = theme.colors.offWhite;
         return "".concat(
             "closebuttoncolor=", closebuttoncolor
         );
+        
+    }
+    return "";
+};
+
+export const inAppBrowserOptions1 = () => {
+    if (window.cordova.platformId === "ios") {
+        const navigationbuttoncolor = theme.colors.offWhite;
+        return "".concat(
+            "navigationbuttoncolor=", navigationbuttoncolor
+        );
+        
     }
     return "";
 };
