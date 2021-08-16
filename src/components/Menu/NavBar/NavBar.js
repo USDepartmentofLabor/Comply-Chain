@@ -110,7 +110,7 @@ class NavBar extends Component {
         }
 
     handleKeyPress = e => {
-       const { visible, stepAccordionActive } = this.state;
+	   const { visible, stepAccordionActive } = this.state;
        if (!stepAccordionActive && e.target.id === 'what-are-link') {
          e.target.nextSibling.ariaLive='assertive';
          e.target.nextSibling.ariaRoleDescription='Closed Drop down Menu click enter to Open';
@@ -156,14 +156,14 @@ class NavBar extends Component {
 		  e.target.ariaLive='assertive';
 		  e.target.ariaRoleDescription='Closed Drop down Menu click Enter to Open';	
 		  e.target.ariaExpanded = 'false';
-		} else if (visible && e.target.id === 'menu-btn') {
-		  e.target.ariaLive='assertive';
-		  e.target.ariaRoleDescription='Opened Drop down Menu click Enter to Close';
-		  e.target.ariaExpanded = 'true';
 		} else if (visible && e.target.id === 'menu-btn' && e.key==="Enter") {
 		  e.target.ariaLive='assertive';
 		  e.target.ariaRoleDescription='Drop down Menu Closed';
 		  e.target.ariaExpanded = 'false';
+		} else if (visible && e.target.id === 'menu-btn') {
+		  e.target.ariaLive='assertive';
+		  e.target.ariaRoleDescription='Opened Drop down Menu click Enter to Close';
+		  e.target.ariaExpanded = 'true';
 		}
 	};
 
@@ -230,7 +230,7 @@ class NavBar extends Component {
                                 ref={node => (this.closeBtn = node)}
                                 aria-haspopup="true"
                                 aria-expanded="false"
-								ariaRoleDescription="Closed Drop down Menu click enter to Open"
+								aria-roledescription="Closed Drop down Menu click enter to Open"
                             >
                                 {!visible && localizor.strings.general.menu}
                                 {visible && localizor.strings.general.close}
