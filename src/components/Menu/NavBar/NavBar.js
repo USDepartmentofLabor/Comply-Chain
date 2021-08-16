@@ -117,12 +117,19 @@ class NavBar extends Component {
        } else if (!stepAccordionActive && e.target.id === 'steps-dropdown' && e.key==="Enter") {
           e.target.ariaLive='assertive';
           e.target.ariaRoleDescription='Drop down Menu Opened';
-        } else if (stepAccordionActive && e.target.id === 'steps-dropdown') {
-         e.target.ariaLive='assertive';
-         e.target.ariaRoleDescription='Opened Drop down Menu click Enter to Close';
+		  e.target.ariaExpanded = 'true';	
+	   } else if (!stepAccordionActive && e.target.id === 'steps-dropdown') {
+          e.target.ariaLive='assertive';
+          e.target.ariaRoleDescription='Closed Drop down Menu click Enter to Open';
+		  e.target.ariaExpanded = 'false';
+       } else if (stepAccordionActive && e.target.id === 'steps-dropdown') {
+          e.target.ariaLive='assertive';
+          e.target.ariaRoleDescription='Opened Drop down Menu click Enter to Close';
+	      e.target.ariaExpanded = 'true';
        } else if (stepAccordionActive && e.target.id === 'steps-dropdown' && e.key==="Enter") {
-         e.target.ariaLive='assertive';
-         e.target.ariaRoleDescription='Drop down Menu Closed';
+          e.target.ariaLive='assertive';
+          e.target.ariaRoleDescription='Drop down Menu Closed';
+		  e.target.ariaExpanded = 'false';
        }
 
        if (!visible) {
@@ -140,7 +147,25 @@ class NavBar extends Component {
         document.getElementById('fr-btn').tabIndex="0";
         document.getElementById('ms-btn').tabIndex="0";
         }
-    };
+
+		if (!visible && e.target.id === 'menu-btn' && e.key==="Enter") {
+		  e.target.ariaLive='assertive';
+		  e.target.ariaRoleDescription='Drop down Menu Opened';
+		  e.target.ariaExpanded = 'true';
+		} else if (!visible && e.target.id === 'menu-btn') {
+		  e.target.ariaLive='assertive';
+		  e.target.ariaRoleDescription='Closed Drop down Menu click Enter to Open';	
+		  e.target.ariaExpanded = 'false';
+		} else if (visible && e.target.id === 'menu-btn') {
+		  e.target.ariaLive='assertive';
+		  e.target.ariaRoleDescription='Opened Drop down Menu click Enter to Close';
+		  e.target.ariaExpanded = 'true';
+		} else if (visible && e.target.id === 'menu-btn' && e.key==="Enter") {
+		  e.target.ariaLive='assertive';
+		  e.target.ariaRoleDescription='Drop down Menu Closed';
+		  e.target.ariaExpanded = 'false';
+		}
+	};
 
 
     onBackButtonPressed = e => {
@@ -204,7 +229,8 @@ class NavBar extends Component {
                                 onKeyDown={this.handleKeyPress}
                                 ref={node => (this.closeBtn = node)}
                                 aria-haspopup="true"
-                                aria-expanded={this.state.visible}
+                                aria-expanded="false"
+								ariaRoleDescription="Closed Drop down Menu click enter to Open"
                             >
                                 {!visible && localizor.strings.general.menu}
                                 {visible && localizor.strings.general.close}
