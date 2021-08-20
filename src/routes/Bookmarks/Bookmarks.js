@@ -240,7 +240,8 @@ class Bookmarks extends Component {
                                             </ItemHeader>
                                         </ItemHeaderTitle>
                                     )}
-                                    <ItemContent to={bookmark.url} tabIndex="0">
+                                    {/* <ItemContent to={bookmark.url} tabIndex="0"> */}
+                                    <ItemContent to={bookmark.url}>
                                     {getPropByString(localizor.strings, bookmark.name)}
                                     </ItemContent>
                                 </PaddedContent>
