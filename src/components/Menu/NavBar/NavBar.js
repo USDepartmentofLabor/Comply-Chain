@@ -167,7 +167,6 @@ class NavBar extends Component {
 		}
 	};
 
-
     onBackButtonPressed = e => {
         e.preventDefault();
         const { visible } = this.state;
@@ -270,6 +269,8 @@ class NavBar extends Component {
                         <StepsMenuItem
                             id="steps-dropdown"
                             onClick={this.toggleStepAccordion}
+							aria-expanded="false"
+							aria-roledescription="Closed Drop down Menu click enter to Open"
                             as="button"
                             ref={node => (this.stepsAccordion = node)}
                         >
