@@ -475,14 +475,14 @@ class AppWrapper extends Component {
         return (
             <MobileScrollbar>
                 <ScrollToTop>
-                    <Header>
+                    <Header aria-hidden ={isAndroid()?"true":"false"}>
 
                 <NavbarWrapper>
                     <div id="skip_to_main_focus_div" aria-hidden="true"></div>
                     <div>
                        { (isBrowser) ? <SkipToMainContent /> : null }
                      </div>
-                 <div id="brand-strip-container">
+                            <div id="brand-strip-container" >
                             <BrandStrip />
                             </div>
                             <NavBar
