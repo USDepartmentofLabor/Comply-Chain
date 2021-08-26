@@ -388,15 +388,15 @@ class Search extends Component {
             <div>
                 <Title title={title}/>
                 <h1>{localizor.strings.general.search}</h1>
-                {query && !searching && (
+                {/* {query && !searching && (
                     <SearchResultsHeader>
                         {/* <h1 aria-owns="search_result_h1" aria-label={resultsTitle + " " + query}>
                         {resultsTitle}"<span id="search_result_h1" className="query" >{query}</span>" */}
-                        <h2 aria-owns="search_result_h2" aria-label={resultsTitle}>
+                        {/* <h2 aria-owns="search_result_h2" aria-label={resultsTitle}>
                         {resultsTitle}
                         </h2>
                     </SearchResultsHeader>
-                )}
+                     )} */}
                 <form action="." onSubmit={this.handleSubmit}>
                     <SearchLabel for="search-input">
                         <HiddenText508>Search</HiddenText508>
@@ -423,6 +423,15 @@ class Search extends Component {
                             {localizor.strings.general.search}
                         </SearchButton>
                     </SearchLabel>
+                    {query && !searching && (
+                    <SearchResultsHeader>
+                        {/* <h1 aria-owns="search_result_h1" aria-label={resultsTitle + " " + query}>
+                        {resultsTitle}"<span id="search_result_h1" className="query" >{query}</span>" */}
+                        <h2 aria-owns="search_result_h2" aria-label={resultsTitle} aria-hidden={true} tabindex="0">
+                        {resultsTitle}
+                        </h2>
+                    </SearchResultsHeader>
+                )}
                 </form>
                 {results.map((result, i) => {
                     return (
