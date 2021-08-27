@@ -225,7 +225,7 @@ class AppWrapper extends Component {
                             if(event.target.id==='main'){
                                 //stmNavBar.style.display = 'flex';
                             }else{
-                                if(event.target.innerText.includes('1\n2\n3\n4\n5\n6\n7\n8\n9\n10')||event.target.innerText.includes('Malay\nBookmarks')||event.target.innerText.includes('Malay\nSearch')){
+                                if(event.target.innerText.includes('1\n2\n3\n4\n5\n6\n7\n8\n9\n10')||event.target.innerText.includes('Malay\nBookmarks')||event.target.innerText.includes('Search\nSearch')){
                                     if(this.isStmShown2){
                                         stmNavBar.style.display = 'none';
                                         this.isStmShown2 = false;
