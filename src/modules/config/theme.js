@@ -40,7 +40,9 @@ export const theme = {
         focus: "#3e94cf",
         visited: "#4c2c92",
         red: "#9B2529",
-        redRGB: "155, 37, 41"
+        redRGB: "155, 37, 41",
+        black: "#000",
+        lightblue: "#0a80f7"
     },
     fonts: {
         headings: "Merriweather",
