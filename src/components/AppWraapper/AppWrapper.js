@@ -125,7 +125,9 @@ class AppWrapper extends Component {
             bottomDrawerActive: false,
             sideNavVisible: false,
             backUrl: undefined,
-            isStmShown:false
+            isStmShown:false,
+            isStmShown2:false
+        
         };
 
 
@@ -151,9 +153,9 @@ class AppWrapper extends Component {
     }
     componentWillUpdate() {
         
-        document.getElementById('navbar-left-items').setAttribute("tabindex","-1")
-        document.getElementById('navbar-left-items').getElementsByTagName("a")[0].setAttribute("tabindex","-1")
-        document.getElementById("menu-btn").setAttribute("tabindex","-1");
+        //document.getElementById('navbar-left-items').setAttribute("tabindex","-1")
+        //document.getElementById('navbar-left-items').getElementsByTagName("a")[0].setAttribute("tabindex","-1")
+        //document.getElementById("menu-btn").setAttribute("tabindex","-1");
         //document.getElementById("showSTM").style.display = 'none';
         document.getElementById("menu-btn").style.paddingBottom = '16px';
         document.getElementById("menu-btn").style.paddingTop = '16px';
@@ -195,6 +197,7 @@ class AppWrapper extends Component {
                     //stmNavLink.focus;
                     this.isStmShown = true;
                     skip_to_main_focus_div.tabIndex = '-1'
+                    console.log('test1')
                 }else{
                     if(event.target.innerText==='Skip to Main Content'){
                         stmNavBar.style.display = 'none';
@@ -211,6 +214,7 @@ class AppWrapper extends Component {
                         if(event.shiftKey && event.keyCode == 9) { 
                             if(stmNavBar.style.display=='none'){
                                 stmNavBar.style.display = 'flex';
+                                console.log('test2')
                             }else{
                                 stmNavBar.style.display = 'none';
                                 this.isStmShown = false;
@@ -221,12 +225,26 @@ class AppWrapper extends Component {
                             if(event.target.id==='main'){
                                 //stmNavBar.style.display = 'flex';
                             }else{
-                                stmNavBar.style.display = 'none';
-                                console.log("3")
-                                if(!this.isStmShown){
-                                    stmNavLink.tabIndex = "99"
+                                if(event.target.innerText.includes('1\n2\n3\n4\n5\n6\n7\n8\n9\n10')||event.target.innerText.includes('Malay\nBookmarks')||event.target.innerText.includes('Malay\nSearch')){
+                                    if(this.isStmShown2){
+                                        stmNavBar.style.display = 'none';
+                                        this.isStmShown2 = false;
+                                    }else{
+                                        stmNavBar.style.display = 'flex';
+                                        this.isStmShown2 = true;
+                                    }
+                                    // document.getElementById('navbar-left-items').setAttribute("tabindex","0")
+                                    // document.getElementById('navbar-left-items').getElementsByTagName("a")[0].setAttribute("tabindex","0")
+                                    // document.getElementById("menu-btn").setAttribute("tabindex","0");
+                                }else{
+                                    stmNavBar.style.display = 'none';
+                                    console.log("3")
+                                    if(!this.isStmShown){
+                                        stmNavLink.tabIndex = "99"
+                                    }
                                 }
                                 
+
                             }
                         }
                 }
