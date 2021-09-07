@@ -35,7 +35,7 @@ export const isBrowser = () => {
 
 export const inAppBrowserOptions = () => {
     if (window.cordova.platformId === "ios") {
-        const closebuttoncolor = theme.colors.offWhite;
+        const closebuttoncolor = theme.colors.lightblue;
         return "".concat(
             "closebuttoncolor=", closebuttoncolor
         );
@@ -46,9 +46,20 @@ export const inAppBrowserOptions = () => {
 
 export const inAppBrowserOptions1 = () => {
     if (window.cordova.platformId === "ios") {
-        const navigationbuttoncolor = theme.colors.offWhite;
+        const navigationbuttoncolor = theme.colors.lightblue;
         return "".concat(
             "navigationbuttoncolor=", navigationbuttoncolor
+        );
+        
+    }
+    return "";
+};
+export const inAppBrowserOptions2 = () => {
+    if (window.cordova.platformId === "ios") {
+     const toolbarcolor = theme.colors.black;
+        
+        return "".concat(
+            "toolbarcolor=", toolbarcolor
         );
         
     }
