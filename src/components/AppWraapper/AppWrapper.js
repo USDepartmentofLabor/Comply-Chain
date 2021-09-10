@@ -23,6 +23,7 @@ import StepProgressBar from "../StepProgessBar";
 import ScrollToTop from "./ScrollToTop";
 import SkipToMainContent from "../SkipToMainContent/SkipToMainContent";
 
+
 const Main = styled.div`
     padding: 0 10px;
 `;
@@ -497,6 +498,13 @@ class AppWrapper extends Component {
 
                 <NavbarWrapper>
                     <div id="skip_to_main_focus_div" aria-hidden="true"></div>
+                    {
+                        window.document.documentMode?
+                        <div class="hide">
+		                <a href="#main">Skip to Main Content</a>
+	                    </div>: null
+                    }
+                    
                     <div>
                        { (isBrowser) ? <SkipToMainContent /> : null }
                      </div>
