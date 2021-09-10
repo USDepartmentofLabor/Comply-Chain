@@ -44,7 +44,6 @@ class Dropdown extends Component {
         }
     }
     handleKeyPress = e => {
-
     if ((this.state.active)&&(e.keyCode === 13)) {
                   return this.setState({ active: false });
     }
@@ -54,8 +53,9 @@ class Dropdown extends Component {
      } else if ((this.state.active)&&(e.target.ariaLabel==="Email")) {
                   this.setState({ active: false });
      }
-
-    if ((e.target.innerText === "Share")&&(e.keyCode === 13)) {
+	
+	if ((e.target.textContent === "Share" || e.target.innerText === "Share")&&(e.keyCode === 13)) {
+				console.log("Enter event")
                 this.setState({ active: !this.state.active });
     }
     };
