@@ -494,7 +494,7 @@ class AppWrapper extends Component {
         return (
             <MobileScrollbar>
                 <ScrollToTop>
-                    <Header aria-hidden ={isAndroid()?"fasle":"true"}>
+                    <Header aria-hidden ={isAndroid()|| isIOS()?"fasle":"true"}>
 
                 <NavbarWrapper>
                     <div id="skip_to_main_focus_div" aria-hidden="true"></div>
