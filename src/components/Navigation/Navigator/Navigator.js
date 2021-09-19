@@ -7,11 +7,19 @@ import { withLanguageContext } from "../../Language";
 
 class Navigator extends Component {
     componentDidMount(){
+        this.handleFocus();
+     }
+
+     componentDidUpdate(){
+        this.handleFocus();
+     }
+
+    handleFocus() {
         var ilabLogo = document.getElementById('brand-band');
         if (ilabLogo) {
             ilabLogo.focus(); 
         }
-     }
+    }
 
     generateRoutes() {
         const { history, localizor } = this.props;
