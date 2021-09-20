@@ -37,7 +37,6 @@ class BrandStrip extends Component {
                 <BrandText
                     id="brand-name"
                     aria-label={localizor.strings.general.usDol}
-                    auto-focus
                 >
                     ILAB
                 </BrandText>
