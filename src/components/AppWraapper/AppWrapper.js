@@ -151,6 +151,7 @@ class AppWrapper extends Component {
             document.getElementById("showSTM").style.display = 'none';
         }
         storage.search.clearSearchData();
+        this.handleFocus();
     }
     componentWillUpdate() {
         
@@ -170,10 +171,13 @@ class AppWrapper extends Component {
             inputs[i].setAttribute("lang",localStorage.getItem("lang"));
         }*/
     }
-     componentDidUpdate() {
+                
+    handleFocus() {
+        var ilabLogo = document.getElementById('brand-band');
+        if (ilabLogo) {
+            ilabLogo.focus(); 
         }
-        
-        
+    }
 
     handleKeyPress = event => {
         console.log(event)
@@ -322,6 +326,7 @@ class AppWrapper extends Component {
             }
             this.setState({ backUrl });
         }
+        this.handleFocus();
     }
 
     componentWillUnmount() {
@@ -334,7 +339,8 @@ class AppWrapper extends Component {
             );
         } else {
             document.removeEventListener("mousedown", this.closeDrawer, false);
-        }
+        } 
+
     }
 
     updateNavBarItems = () => {
@@ -494,7 +500,7 @@ class AppWrapper extends Component {
         return (
             <MobileScrollbar>
                 <ScrollToTop>
-                    <Header aria-hidden ={isAndroid()?"fasle":"true"}>
+                    <Header aria-hidden ={isAndroid()|| isIOS()?"false":"true"}>
 
                 <NavbarWrapper>
                     <div id="skip_to_main_focus_div" aria-hidden="true"></div>
