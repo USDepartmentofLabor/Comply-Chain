@@ -203,7 +203,14 @@ class AppWrapper extends Component {
                     this.isStmShown = true;
                     skip_to_main_focus_div.tabIndex = '-1'
                     console.log('test1')
+                }else if(event.target.innerText.includes('ILAB\nComply Chain Homepage\nMenu')){
+                    stmNavBar.style.display = 'flex';
+                    //stmNavLink.focus;
+                    this.isStmShown = true;
+                    skip_to_main_focus_div.tabIndex = '-1'
+                    console.log('test1')
                 }else{
+
                     if(event.target.innerText==='Skip to Main Content'){
                         stmNavBar.style.display = 'none';
                         //this.isStmShown = false;
@@ -215,7 +222,7 @@ class AppWrapper extends Component {
 
                         }
                     }
-                    if(event.target.innerText==='Comply Chain'|| event.target.innerText==='Comply Chain Homepage'){
+                    if(event.target.innerText==='ILAB'){
                         if(event.shiftKey && event.keyCode == 9) { 
                             if(stmNavBar.style.display=='none'){
                                 stmNavBar.style.display = 'flex';
