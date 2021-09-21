@@ -35,12 +35,14 @@ class BrandStrip extends Component {
         return (
             <Band id="brand-band">
                 <BrandText
+                    tabIndex="0"
                     id="brand-name"
                     aria-label={localizor.strings.general.usDol}
                 >
                     ILAB
                 </BrandText>
                 <BrandLogo
+                    tabIndex="0"
                     id="brand-logo"
                     src={logo}
                     alt={localizor.strings.general.dolSeal}
