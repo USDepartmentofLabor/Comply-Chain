@@ -49,7 +49,7 @@ const SearchButton = styled(Button)`
     }
 `;
 
-const SearchResultsHeader = styled.div`
+const SearchResultsHeader = styled.h2`
     font-size: 17px;
     color: ${theme.colors.base};
     margin-bottom: 10px;
@@ -431,9 +431,16 @@ class Search extends Component {
                     {query && !searching && (
                     <SearchResultsHeader>
                         {/* <h2 aria-owns="search_result_h2" aria-label={resultsTitle} aria-hidden={false} tabindex="3"> */}
-                        <h2 aria-label={resultsTitle} aria-hidden={false} tabindex="-1">
+                        {/* <h2 aria-label={resultsTitle} aria-hidden={false} tabindex="-1">
                         {resultsTitle}
-                        </h2>
+                        </h2> */}
+                        <div role="heading" aria-level="1">
+                           
+                            <span aria-label={resultsTitle} aria-hidden={true} tabindex="0">
+                                {resultsTitle}
+                            </span>
+                            
+                        </div>
                     </SearchResultsHeader>
                      )}
                 </form>
