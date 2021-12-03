@@ -113,6 +113,7 @@ class Splash extends Component {
                     <LanguageWrapper id="language-switcher">
                         <LanguageButton
                             id="en-btn"
+                            lang="en"
                             onClick={() => {
                                 this.handleLanguageChange("en");
                             }}
@@ -121,6 +122,7 @@ class Splash extends Component {
                         </LanguageButton>
                         <LanguageButton
                             id="es-btn"
+                            lang="es"
                             onClick={() => {
                                 this.handleLanguageChange("es");
                                 // window.alert("THIS FEATURE IS COMING SOON");
@@ -130,6 +132,7 @@ class Splash extends Component {
                         </LanguageButton>
                         <LanguageButton
                             id="fr-btn"
+                            lang="fr"
                             onClick={() => {
                                 this.handleLanguageChange("fr");
                                 // window.alert("THIS FEATURE IS COMING SOON");
@@ -139,6 +142,7 @@ class Splash extends Component {
                         </LanguageButton>
                         <LanguageButton
                             id="ms-btn"
+                            lang="ms"
                             onClick={() => {
                                 this.handleLanguageChange("ms");
                                 // window.alert("THIS FEATURE IS COMING SOON");
