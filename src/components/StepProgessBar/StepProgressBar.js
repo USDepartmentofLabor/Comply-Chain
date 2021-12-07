@@ -41,16 +41,16 @@ const StepProgress = styled.div`
     border-top-right-radius: ${props => (props.viewing ? 0 : "110px")};
     border-bottom-right-radius: ${props => (props.viewing ? 0 : "110px")};
 `;
-
+//color contrast issue #10 changed from primary to step_progess_bar_text_color for line nos 48 and 53 
 const StepNumber = styled.span`
     color: ${props => {
         if (props.viewing) {
-            return theme.colors.primary;
+            return theme.colors.step_progess_bar_text_color;
         }
         if (props.accomplished) {
             return theme.colors.white;
         }
-        return theme.colors.primary;
+        return theme.colors.step_progess_bar_text_color;
     }};
     font-size: 15px;
     font-weight: bold;
