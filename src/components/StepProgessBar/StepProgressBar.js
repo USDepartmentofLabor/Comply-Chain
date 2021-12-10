@@ -19,14 +19,19 @@ const Wrapper = styled.div`
 const StepCircle = styled.div`
     width: 20px;
     height: 20px;
-    background-color: ${theme.colors.white};
+    background-color: ${theme.colors.gold};
     border-radius: 50%;
     position: relative;
+    border-style: solid
+    border-width: 1px;
+    border-color: ${theme.colors.newcolor};
+    
 `;
 
 const StepProgress = styled.div`
     width: ${props => (props.viewing ? "10px" : "20px")};
     height: 20px;
+    
     background-color: ${props => {
         if (props.viewing) {
             return theme.colors.gold;
@@ -40,12 +45,14 @@ const StepProgress = styled.div`
     border-bottom-left-radius: 110px;
     border-top-right-radius: ${props => (props.viewing ? 0 : "110px")};
     border-bottom-right-radius: ${props => (props.viewing ? 0 : "110px")};
+    
+    
 `;
 //color contrast issue #10 changed from primary to step_progess_bar_text_color for line nos 48 and 53 
 const StepNumber = styled.span`
     color: ${props => {
         if (props.viewing) {
-            return theme.colors.step_progess_bar_text_color;
+            return theme.colors.black;
         }
         if (props.accomplished) {
             return theme.colors.white;
@@ -102,17 +109,19 @@ class StepProgressBar extends Component {
 					currentStep={currentStep}
 					unfilledBackground={theme.colors.white}
 					filledBackground={theme.colors.primary}
+
 				>
 					{localizor.strings.steps.map((step, i) => {
 						const stepComplete = storage.steps.isStepComplete(i);
 						return (
 							<Step key={`progress_${step.title}`}>
 								{() => (
+                                   
 									<StepCircle>
 										<StepProgress
 											accomplished={stepComplete}
 											viewing={currentStep === i}
-										>
+										> 
 											<StepNumber
 												accomplished={stepComplete}
 												viewing={currentStep === i}
@@ -122,11 +131,14 @@ class StepProgressBar extends Component {
 												aria-hidden={true}
 											>
 												{i + 1}
+                                                {/* <StepCircle1></StepCircle1> */}
 											</StepNumber>
+                                            
 										</StepProgress>
 									</StepCircle>
-								)}
+								)}                                
 							</Step>
+                            
 						);
 					})}
 				</ProgressBar>
