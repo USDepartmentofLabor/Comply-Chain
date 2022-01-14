@@ -42,7 +42,10 @@ export const theme = {
         red: "#9B2529",
         redRGB: "155, 37, 41",
         black: "#000",
-        lightblue: "#0a80f7"
+        lightblue: "#0a80f7",
+        step_progess_bar_text_color:"#013456",
+        progresscolor: "#b15f60",
+        newcolor: "034E80"
     },
     fonts: {
         headings: "Merriweather",
