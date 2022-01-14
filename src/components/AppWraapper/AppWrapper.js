@@ -529,7 +529,7 @@ class AppWrapper extends Component {
                                 onSideNavToggle={this.handleSideNavToggle}
                                 backUrl={backUrl}
                             />
-                        </NavbarWrapper>
+                </NavbarWrapper>
                     </Header>
                     <div aria-hidden={sideNavVisible}>
                         <MainWrapper >

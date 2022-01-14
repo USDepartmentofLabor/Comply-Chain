@@ -232,14 +232,30 @@ class Bookmarks extends Component {
                             key={`bookmark_${bookmark.name}`}
                         >
                             <Item>
+                                
                                 <PaddedContent>
-                                    {bookmark.header && (
+                                    {/* { bookmark.header &&(
                                         <ItemHeaderTitle>
                                             <ItemHeader>
                                                 {getPropByString(localizor.strings, bookmark.header)}
                                             </ItemHeader>
                                         </ItemHeaderTitle>
-                                    )}
+                                    )} */}
+                                    {
+                                        bookmark.header?
+                                        (<ItemHeaderTitle>
+                                            <ItemHeader>
+                                                {getPropByString(localizor.strings, bookmark.header)}
+                                            </ItemHeader>
+                                        </ItemHeaderTitle>):
+                                        (<ItemHeaderTitle>
+                                            <ItemHeader>
+                                                {getPropByString(localizor.strings, bookmark.name)}
+                                            </ItemHeader>
+                                        </ItemHeaderTitle>)
+                                    }
+                                    
+                                    
                                     {/* <ItemContent to={bookmark.url} tabIndex="0"> */}
                                     <ItemContent to={bookmark.url}>
                                     {getPropByString(localizor.strings, bookmark.name)}
