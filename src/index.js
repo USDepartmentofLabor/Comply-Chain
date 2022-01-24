@@ -49,13 +49,13 @@ const addInAppBrowser = () => {
                 if (isAndroid() && whitelist.includes(link)) {
                     window.open(link, "_system");
                 } else {
-                    const browserOptions = inAppBrowserOptions();
-                    const browserOptions1 = inAppBrowserOptions1();
-                    // const browserOptions2 = inAppBrowserOptions2();
-                    // window.open(link, "_blank", browserOptions2);
-                    window.open(link, "_blank", browserOptions);
-                    window.open(link, "_blank", browserOptions1);
-                    
+                    // const browserOptions = inAppBrowserOptions();
+                    // const browserOptions1 = inAppBrowserOptions1();
+                    // // const browserOptions2 = inAppBrowserOptions2();
+                    // // window.open(link, "_blank", browserOptions2);
+                    // window.open(link, "_blank", browserOptions);
+                    // window.open(link, "_blank", browserOptions1);
+                    window.open(link, "_system");
                     
                 }
                 return false;
