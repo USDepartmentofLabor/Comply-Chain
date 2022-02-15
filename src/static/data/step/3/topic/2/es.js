@@ -1,6 +1,8 @@
 import React from "react";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction";
+
 
 const es = () => {
     return (
@@ -108,6 +110,18 @@ const es = () => {
                         <em>, 2010; disponible en: https://www.iso.org/obp/ui/#iso:std:iso:26000:ed-1:v1:es</em>.
                     </p>
                 </OwnWords>
+                <ExampleInAction id="better-work-garment">
+                                    <h4>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>Example in Action</strong>
+                                        {": "}
+                                        <em>
+                                            <strong>Placeholder</strong>
+                                        </em>{" "}
+                                    </h4>
+                                    <p>Placeholder</p>
+                    </ExampleInAction>
+
             </div>
         </StaticData>
     );
