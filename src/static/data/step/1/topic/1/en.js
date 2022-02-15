@@ -766,6 +766,45 @@ const en = () => {
                                 
                             </Accordion.Panel>
                         </Accordion.Section>
+                        <Accordion.Section id="test-1">
+                            <Accordion.Title>
+                                <strong>
+                                    Test1
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                                <p>
+                                    placeholder
+                                </p>
+                                
+                            </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="test-2">
+                            <Accordion.Title>
+                                <strong>
+                                    Test2
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                                <p>
+                                    placeholder
+                                </p>
+                                
+                            </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="test-3">
+                            <Accordion.Title>
+                                <strong>
+                                    Test3
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                                <p>
+                                    placeholder
+                                </p>
+                                
+                            </Accordion.Panel>
+                        </Accordion.Section>
                     </Accordion>
                 </ul>
             </div>
