@@ -1,4 +1,5 @@
 import React from "react";
+import OwnWords from "../../../../../../components/OwnWords";
 
 import StaticData from "../../../../../../components/StaticData";
 
@@ -21,6 +22,15 @@ const es = () => {
                     </a>
                     &nbsp;demuestran que los empleados, en especial los más jóvenes, tienden a inclinarse más por trabajar en empresas con responsabilidad social y ambiental, aspectos que tienen en cuenta al momento de tomar decisiones laborales para su futuro.
                 </p>
+                <OwnWords>
+                    <h2>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h2>
+                    <p>
+                        Placeholder
+                    </p>
+                </OwnWords>
             </div>
         </StaticData>
     );

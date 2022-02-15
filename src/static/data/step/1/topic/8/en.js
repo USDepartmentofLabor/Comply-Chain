@@ -1,5 +1,6 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import OwnWords from "../../../../../../components/OwnWords";
 
 
 const en = () => {
@@ -23,6 +24,15 @@ const en = () => {
                     companies that are socially and environmentally responsible,
                     and factor this into future employment decisions.
                 </p>
+                <OwnWords>
+                    <h2>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h2>
+                    <p>
+                        Placeholder
+                    </p>
+                </OwnWords>
             </div>
         </StaticData>
     );
