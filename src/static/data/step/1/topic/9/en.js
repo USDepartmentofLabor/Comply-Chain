@@ -1,5 +1,8 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction";
+
+
 
 const en = () => {
     return (
@@ -14,6 +17,29 @@ const en = () => {
                     companies are more likely to devote significant support and
                     resources to their social compliance systems.
                 </p>
+                <ExampleInAction id="better-work-garment">
+                                    <h4>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>Example in Action</strong>
+                                        {": "}
+                                        <em>
+                                            <strong>Placeholder</strong>
+                                        </em>{" "}
+                                    </h4>
+                                    <p>Placeholder</p>
+                    </ExampleInAction>
+                    <ExampleInAction id="better-work-garment">
+                                    <h4>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>Example in Action</strong>
+                                        {": "}
+                                        <em>
+                                            <strong>Placeholder</strong>
+                                        </em>{" "}
+                                    </h4>
+                                    <p>Placeholder</p>
+                                </ExampleInAction>            
+
             </div>
         </StaticData>
     );
