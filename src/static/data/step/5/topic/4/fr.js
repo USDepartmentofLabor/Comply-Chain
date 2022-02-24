@@ -40,6 +40,18 @@ const fr = () => {
                     charge de l&apos;employeur ; les travailleurs ne devraient
                     jamais payer de frais pour obtenir un emploi.
                 </p>
+                <ul>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ul>
                 <p>
                     Si vous &ecirc;tes conscient de la pr&eacute;sence
                     d&apos;une main-d&apos;&oelig;uvre migrante dans votre

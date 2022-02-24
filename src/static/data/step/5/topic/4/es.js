@@ -36,6 +36,18 @@ const es = () => {
                     por el empleador; los trabajadores nunca deben incurrir en
                     gasto alguno para acceder a un empleo.
                 </p>
+                <ul>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ul>
                 <p>
                     Si se sabe o sospecha que hay trabajadores migrantes en la
                     cadena de suministro, es importante incluir normas y

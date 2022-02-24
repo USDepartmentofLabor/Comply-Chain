@@ -31,6 +31,19 @@ const en = () => {
                     employer&mdash;workers should never pay any cost to obtain a
                     job.
                 </p>
+                <ul>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ul>
+
                 <p>
                     If you know or suspect that there is migrant labor in your
                     supply chain, it is important to include relevant standards
