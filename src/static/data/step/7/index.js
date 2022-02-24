@@ -12,7 +12,9 @@ export const StepData = {
             "Know what tools your auditors need to do their job.",
             "Decide how you will schedule audits.",
             "Understand the components and flow of a typical audit.",
-            "Learn good practices for managing, analyzing and using audit data."
+            "Learn good practices for managing, analyzing and using audit data.",
+            "Placeholder 1",
+            "Placeholder 2"
         ],
         keyTerms: [
             {
