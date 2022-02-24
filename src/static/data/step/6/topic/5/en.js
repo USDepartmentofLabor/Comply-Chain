@@ -42,6 +42,19 @@ const en = () => {
                     notify both the complainant and other affected stakeholders
                     of the outcome of the grievance.
                 </p>
+                <ul>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ul>
+
                 <ExampleInAction id="grievmechanism">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>

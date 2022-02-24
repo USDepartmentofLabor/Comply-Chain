@@ -41,6 +41,19 @@ const fr = () => {
                     ainsi qu'un protocole pour aviser le plaignant et les autres parties prenantes touch&eacute;es 
                     des r&eacute;sultats de la r&eacute;clamation.
                 </p>
+                <ul>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ul>
+
                                 
                 <ExampleInAction id="grievmechanism">
                     <h2>
