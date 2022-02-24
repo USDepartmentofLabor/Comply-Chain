@@ -23,8 +23,18 @@ const Routes = {
         component: Step,
         exact: true
     },
+    OtherStep: {
+        path: "/othersteps/:step",
+        component: Step,
+        exact: true
+    },
     Topic: {
         path: "/steps/:step/topic/:topic",
+        component: Topic,
+        exact: true
+    },
+    OtherTopic: {
+        path: "/othersteps/:step/topic/:topic",
         component: Topic,
         exact: true
     },

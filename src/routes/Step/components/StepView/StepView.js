@@ -71,68 +71,137 @@ class StepView extends Component {
 
     buildStepData = () => {
         const { step, localizor } = this.props;
-
-        const stepData = localizor.strings.steps[step - 1];
-        const prevStep =
-            (localizor.strings.steps[step - 2] && step - 1) || null;
-        const nextStep = (localizor.strings.steps[step] && step + 1) || null;
-        let items;
-        if (stepData) {
-            const topics = stepData.topics;
-            const learningObjectives = stepData.learningObjectives;
-            const keyTerms = stepData.keyTerms;
-            const Resources = stepData.furtherResources;
-            const Training = stepData.training;
-            const ExtraInfo = stepData.extraInfo;
-            items = {
-                data: {
-                    resources: {
-                        title: localizor.strings.general.furtherResources,
-                        content: Resources && <Resources />,
-                        id: "resources"
+        
+        if(step == 11 || step ==12){
+            var stepData;
+            if(step == 11){
+                stepData = localizor.strings.other_steps[0];
+            }
+            else{ 
+                stepData = localizor.strings.other_steps[1];
+            }
+            let items;
+            if (stepData) {
+                const topics = stepData.topics;
+                const learningObjectives = stepData.learningObjectives;
+                const keyTerms = stepData.keyTerms;
+                const Resources = stepData.furtherResources;
+                const Training = stepData.training;
+                const ExtraInfo = stepData.extraInfo;
+                items = {
+                    data: {
+                        resources: {
+                            title: localizor.strings.general.furtherResources,
+                            content: Resources && <Resources />,
+                            id: "resources"
+                        },
+                        learningObjectives: {
+                            title: localizor.strings.general.learningObjectives,
+                            content: (
+                                <LearningObjectiveList
+                                    objectives={learningObjectives}
+                                />
+                            ),
+                            id: "learning-objectives"
+                        },
+                        keyTerms: {
+                            title: localizor.strings.general.keyTerms,
+                            content: (
+                                <KeyTermList terms={keyTerms}>
+                                    {ExtraInfo && <ExtraInfo />}
+                                </KeyTermList>
+                            ),
+                            id: "key-terms"
+                        },
+                        topics: {
+                            title: localizor.strings.general.topics,
+                            content: (
+                                <TopicsList steps={Number(step)} topics={topics} />
+                            ),
+                            id: "topics"
+                        },
+                        training: {
+                            title: localizor.strings.general.training,
+                            content: Training && (
+                                <Searchable>
+                                    <Training />
+                                </Searchable>
+                            ),
+                            id: "training"
+                        }
                     },
-                    learningObjectives: {
-                        title: localizor.strings.general.learningObjectives,
-                        content: (
-                            <LearningObjectiveList
-                                objectives={learningObjectives}
-                            />
-                        ),
-                        id: "learning-objectives"
+                    title: stepData.title,
+                    titleString: `othersteps.${step - 1}.title`
+                };
+            }
+            return items;
+        }else{
+            const stepData = localizor.strings.steps[step - 1];
+            const prevStep =
+                (localizor.strings.steps[step - 2] && step - 1) || null;
+            const nextStep = (localizor.strings.steps[step] && step + 1) || null;
+            let items;
+            if (stepData) {
+                const topics = stepData.topics;
+                const learningObjectives = stepData.learningObjectives;
+                const keyTerms = stepData.keyTerms;
+                const Resources = stepData.furtherResources;
+                const Training = stepData.training;
+                const ExtraInfo = stepData.extraInfo;
+                items = {
+                    data: {
+                        resources: {
+                            title: localizor.strings.general.furtherResources,
+                            content: Resources && <Resources />,
+                            id: "resources"
+                        },
+                        learningObjectives: {
+                            title: localizor.strings.general.learningObjectives,
+                            content: (
+                                <LearningObjectiveList
+                                    objectives={learningObjectives}
+                                />
+                            ),
+                            id: "learning-objectives"
+                        },
+                        keyTerms: {
+                            title: localizor.strings.general.keyTerms,
+                            content: (
+                                <KeyTermList terms={keyTerms}>
+                                    {ExtraInfo && <ExtraInfo />}
+                                </KeyTermList>
+                            ),
+                            id: "key-terms"
+                        },
+                        topics: {
+                            title: localizor.strings.general.topics,
+                            content: (
+                                <TopicsList step={Number(step)} topics={topics} />
+                            ),
+                            id: "topics"
+                        },
+                        training: {
+                            title: localizor.strings.general.training,
+                            content: Training && (
+                                <Searchable>
+                                    <Training />
+                                </Searchable>
+                            ),
+                            id: "training"
+                        }
                     },
-                    keyTerms: {
-                        title: localizor.strings.general.keyTerms,
-                        content: (
-                            <KeyTermList terms={keyTerms}>
-                                {ExtraInfo && <ExtraInfo />}
-                            </KeyTermList>
-                        ),
-                        id: "key-terms"
-                    },
-                    topics: {
-                        title: localizor.strings.general.topics,
-                        content: (
-                            <TopicsList step={Number(step)} topics={topics} />
-                        ),
-                        id: "topics"
-                    },
-                    training: {
-                        title: localizor.strings.general.training,
-                        content: Training && (
-                            <Searchable>
-                                <Training />
-                            </Searchable>
-                        ),
-                        id: "training"
-                    }
-                },
-                nextStep: nextStep && `/steps/${nextStep}`,
-                prevStep: prevStep && `/steps/${prevStep}`,
-                title: stepData.title,
-                titleString: `steps.${step - 1}.title`
-            };
+                    nextStep: nextStep && `/steps/${nextStep}`,
+                    prevStep: prevStep && `/steps/${prevStep}`,
+                    title: stepData.title,
+                    titleString: `steps.${step - 1}.title`
+                };
+            }
+            return items;
         }
-        return items;
+
+
+
+        
     };
 
     navigate = path => {

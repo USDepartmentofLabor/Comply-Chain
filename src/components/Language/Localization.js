@@ -1,6 +1,6 @@
 import LocalizedStrings from "react-localization";
 import { Info } from "../../static/data/info";
-import { Steps } from "../../static/data/step";
+import { OtherSteps, Steps } from "../../static/data/step";
 import { General } from "../../static/data/general";
 
 export default class Localization {
@@ -9,22 +9,28 @@ export default class Localization {
             en: {
                 steps: Steps.en,
                 info: Info.en,
-                general: General.en
+                general: General.en,
+                other_steps:OtherSteps.en
             },
             es: {
                 steps: Steps.es,
                 info: Info.es,
-                general: General.es
+                general: General.es,
+                other_steps:OtherSteps.es
             },
             fr: {
                 steps: Steps.fr,
                 info: Info.fr,
                 general: General.fr
+                ,
+                other_steps:OtherSteps.fr
             },
             ms: {
                  steps: Steps.ms,
                  info: Info.ms,
-                 general: General.ms
+                 general: General.ms,
+                 other_steps:OtherSteps.ms
+                 
              }
         });
 
