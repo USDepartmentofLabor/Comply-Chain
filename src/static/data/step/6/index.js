@@ -16,7 +16,8 @@ export const StepData = {
             "Identify the people and groups to whom you should communicate and provide training.",
             "Define the topics that should be covered in communication and training activities for each group.",
             "Learn about appropriate communication channels and training formats for different audiences.",
-            "Understand how to put effective grievance mechanisms in place."
+            "Understand how to put effective grievance mechanisms in place.",
+            "Placeholder"
         ],
         keyTerms: [
             {
