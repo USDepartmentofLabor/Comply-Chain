@@ -16,6 +16,18 @@ const ms = () => {
                     dan pekerja atau pertubuhan pekerja harus dibawa berunding untuk mendapatkan pandangan mereka mengenai tindakan 
                     pemulihan yang mana lebih berkesan.
                 </p>
+                <ol>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ol>
 
                 {/* <p>
                     {" "}
