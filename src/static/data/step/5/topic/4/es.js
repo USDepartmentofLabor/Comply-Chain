@@ -144,6 +144,19 @@ const es = () => {
                     </a>
                     .
                 </p>
+                <ol>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ol>
+
                 {/* <img src={ilo} alt="Obrero subido a un andamio" />
                 <p className="small-text">&copy;M. Crozet/OIT</p> */}
                 <ExampleInAction id="leadership">

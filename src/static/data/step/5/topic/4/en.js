@@ -132,6 +132,19 @@ const en = () => {
                     </a>
                     .
                 </p>
+                <ol>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ol>
+
                 {/* <img src={ilo} alt="Worker climbing scaffolding" /> */}
 
                 {/* <p className="small-text">&copy;M. Crozet/ILO</p> */}
