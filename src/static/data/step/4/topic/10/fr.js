@@ -56,6 +56,18 @@ const fr = () => {
                     Centre interconfessionnel sur la responsabilité des entreprises (ICCR)
                     </a>.
                     </p>
+                    <ul>
+                        <li>
+                            <em>
+                                <strong>Test 1</strong>
+                            </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                        </li>
+                    </ul>
                     <OwnWords>
                                         <h2>
                                             <OwnWords.Icon alt="Feedback"/>{" "}
