@@ -1,4 +1,5 @@
 import React from "react";
+import OwnWords from "../../../../../../components/OwnWords";
 
 import StaticData from "../../../../../../components/StaticData";
 
@@ -23,6 +24,16 @@ const fr = () => {
                     dégradantes dans une chaîne d’alimentation pourront plus facilement toucher les consommateurs et nuire à la
                     réputation d&apos;une marque et avoir un effet négatif sur ses ventes ou sa cote en Bourse.
                 </p>
+                <OwnWords>
+                    <h2>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h2>
+                    <p>
+                        Placeholder
+                    </p>
+                </OwnWords>
+
             </div>
         </StaticData>
     );

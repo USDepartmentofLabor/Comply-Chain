@@ -265,6 +265,19 @@ const es = () => {
                     cambian con el tiempo a medida que evoluciona el entorno y
                     cambian las operaciones de la empresa.
                 </p>
+                <ol type="a">
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ol>
+
             </div>
         </StaticData>
     );

@@ -47,6 +47,18 @@ const en = () => {
                                          Panduan Amalan Terbaik mengenai Pengambilan Beretika Pekerja Migran
                                     </a>{" "}.
                                 </p>
+                                <ul>
+                                    <li>
+                                        <em>
+                                            <strong>Test 1</strong>
+                                        </em>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            <em>Test 2</em>
+                                        </strong>
+                                    </li>
+                                </ul>
              <OwnWords>
                                                        <h4>
                                                            <OwnWords.Icon alt="Feedback"/> <strong>Dengan kata-kata mereka sendiri:</strong>

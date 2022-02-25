@@ -269,6 +269,19 @@ const fr = () => {
                     l&apos;&eacute;volution de l&apos;environnement et les
                     op&eacute;rations de l&rsquo;entreprise.
                 </p>
+                <ol type="a">
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ol>
+
             </div>
         </StaticData>
     );

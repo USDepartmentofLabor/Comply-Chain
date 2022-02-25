@@ -20,6 +20,19 @@ const fr = () => {
                     devraient &ecirc;tre consult&eacute;s pour donner leur avis sur les mesures de r&eacute;paration les 
                     plus efficaces.
                 </p>
+                <ol>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ol>
+
             </div>
         </StaticData>
     );

@@ -1,6 +1,8 @@
 import React from "react";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction";
+
 
 const en = () => {
     return (
@@ -114,6 +116,18 @@ const en = () => {
                         <em>, 2010</em> available from https://www.iso.org/standard/42546.html.
                     </p>
                 </OwnWords>
+                <ExampleInAction id="better-work-garment">
+                                    <h4>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>Example in Action</strong>
+                                        {": "}
+                                        <em>
+                                            <strong>Placeholder</strong>
+                                        </em>{" "}
+                                    </h4>
+                                    <p>Placeholder</p>
+                    </ExampleInAction>
+
             </div>
         </StaticData>
     );
