@@ -44,7 +44,9 @@ export const StepData = {
             "Saber qué herramientas necesitan los auditores para hacer su trabajo.",
             "Decidir cómo programar las auditorías.",
             "Comprender cuáles son los componentes y el flujo de una auditoría típica.",
-            "Aprender las buenas prácticas para administrar, analizar y utilizar los datos de las auditorías."
+            "Aprender las buenas prácticas para administrar, analizar y utilizar los datos de las auditorías.",
+            "Placeholder 1",
+            "Placeholder 2"
         ],
         keyTerms: [
             {
@@ -69,7 +71,9 @@ export const StepData = {
             "Comprendre de quels outils vos auditeurs ont besoin pour réaliser leur travail.",
             "Décider de la manière dont vous allez programmer les audits.",
             "Comprendre les composantes et le flux des opérations d’un audit typique.",
-            "Apprendre les bonnes pratiques pour la gestion, l’analyse et l’usage des données d’audit."
+            "Apprendre les bonnes pratiques pour la gestion, l’analyse et l’usage des données d’audit.",
+            "Placeholder 1",
+            "Placeholder 2"
         ],
         keyTerms: [
             {
@@ -95,7 +99,9 @@ export const StepData = {
                 "Ketahui alat yang diperlukan untuk pengaudit menjalankan tugas.",
                 "Tentukan bagaimana anda akan menjadualkan audit.",
                 "Fahami komponen dan aliran audit yang biasa diadakan.",
-                "Pelajari amalan baik untuk mengurus, menganalisis dan mengguna data audit."
+                "Pelajari amalan baik untuk mengurus, menganalisis dan mengguna data audit.",
+                "Placeholder 1",
+                "Placeholder 2"
             ],
             keyTerms: [
                 {
