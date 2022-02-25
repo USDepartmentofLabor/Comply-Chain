@@ -1,6 +1,8 @@
 import React from "react";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction";
+
 
 const ms = () => {
     return (
@@ -100,6 +102,18 @@ const ms = () => {
                         <em>, 2010</em>.
                     </p>
                 </OwnWords>
+                <ExampleInAction id="better-work-garment">
+                                    <h4>
+                                        <ExampleInAction.Icon alt="Lightbulb"/>
+                                        <strong>Example in Action</strong>
+                                        {": "}
+                                        <em>
+                                            <strong>Placeholder</strong>
+                                        </em>{" "}
+                                    </h4>
+                                    <p>Placeholder</p>
+                    </ExampleInAction>
+
             </div>
         </StaticData>
     );

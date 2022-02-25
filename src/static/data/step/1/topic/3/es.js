@@ -1,5 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import OwnWords from "../../../../../../components/OwnWords";
+
 
 const es = () => {
     return (
@@ -22,6 +24,15 @@ const es = () => {
                     trabajo infantil, trabajo forzoso u otra condición laboral degradante en la cadena de suministro
                     pueden llegar más fácilmente a los consumidores y perjudicar la reputación de una marca y repercutir negativamente en las ventas y el precio de sus acciones.
                 </p>
+                <OwnWords>
+                    <h2>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h2>
+                    <p>
+                        Placeholder
+                    </p>
+                </OwnWords>
             </div>
         </StaticData>
     );

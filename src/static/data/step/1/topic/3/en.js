@@ -1,5 +1,5 @@
 import React from "react";
-
+import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 
 const en = () => {
@@ -23,6 +23,15 @@ const en = () => {
                     more easily reach consumers and damage a brand&rsquo;s
                     reputation and adversely impact sales or stock prices.
                 </p>
+                <OwnWords>
+                    <h2>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h2>
+                    <p>
+                        Placeholder
+                    </p>
+                </OwnWords>
             </div>
         </StaticData>
     );

@@ -1,5 +1,5 @@
 import React from "react";
-
+import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 
 const en = () => {
@@ -21,6 +21,15 @@ const en = () => {
                     buruh paksa atau keadaan kerja yang buruk dalam rantai bekalan, semakin mudah diketahui
                     pengguna dan merosakkan reputasi jenama dan memberi kesan buruk kepada penjualan atau pasaran saham.
                 </p>
+                <OwnWords>
+                    <h2>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h2>
+                    <p>
+                        Placeholder
+                    </p>
+                </OwnWords>
             </div>
         </StaticData>
     );

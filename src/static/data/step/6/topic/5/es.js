@@ -32,7 +32,19 @@ const es = () => {
                     o el grupo que realiza la denuncia, as&iacute; como un protocolo de comunicaciones para notificar el 
                     resultado de la reclamaci&oacute;n al denunciante y a las dem&aacute;s partes interesadas afectadas.
                 </p>
-                
+                <ul>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ul>
+
                 <ExampleInAction id="grievmechanism">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>

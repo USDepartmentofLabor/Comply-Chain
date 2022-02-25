@@ -1,4 +1,5 @@
 import React from "react";
+import OwnWords from "../../../../../../components/OwnWords";
 
 import StaticData from "../../../../../../components/StaticData";
 
@@ -26,6 +27,15 @@ const fr = () => {
                     et environnementale, ce dont ils tiennent compte dans leur
                     choix futur de postes.
                 </p>
+                <OwnWords>
+                    <h2>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h2>
+                    <p>
+                        Placeholder
+                    </p>
+                </OwnWords>
             </div>
         </StaticData>
     );

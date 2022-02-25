@@ -273,6 +273,16 @@ const en = () => {
                         <p />
                     </Accordion.Panel>
                 </Accordion.Section>
+                <Accordion.Section id="contact-iLab">
+                    <Accordion.Title>
+                        <strong>How do I contact ILAB?</strong>
+                    </Accordion.Title>
+                    <Accordion.Panel>
+                        <p>
+                            Test 3
+                        </p>
+                    </Accordion.Panel>
+                </Accordion.Section>
             </Accordion>
             <p><h3>Catatan Panduan dan Pertubuhan yang dirujuk</h3></p>
             <p>
