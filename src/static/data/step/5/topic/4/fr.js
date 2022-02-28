@@ -194,6 +194,15 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
+                            Placeholder
+                        </strong>
+                    </h2>
+                </ExampleInAction>
+
+                <ExampleInAction id="leadership">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
                             Exemple d&apos;action: Groupe de leadership
                             pour le recrutement responsable
                         </strong>

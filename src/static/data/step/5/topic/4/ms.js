@@ -140,6 +140,14 @@ const ms = () => {
                     </li>
                 </ul>
 
+                <ExampleInAction id="leadership">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Placeholder
+                        </strong>
+                    </h2>
+                </ExampleInAction>
 
                 <ExampleInAction id="leadership">
                     <h2>

@@ -186,6 +186,15 @@ const es = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
+                            Placeholder
+                        </strong>
+                    </h2>
+                </ExampleInAction>
+
+                <ExampleInAction id="leadership">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
                             Ejemplo en acci&oacute;n: Leadership Group for
                             Responsible Recruitment
                         </strong>
