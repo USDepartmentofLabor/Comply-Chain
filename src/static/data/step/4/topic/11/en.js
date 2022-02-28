@@ -1,6 +1,8 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
 import Accordion from "../../../../../../components/Accordion";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+ 
 
 
 const en = () => {
@@ -244,6 +246,15 @@ const en = () => {
                              opportunity due to physical and economic devastation, as
                              well as insecurity.
                           </p>
+                          <ExampleInAction id="leadership">
+                            <h2>
+                            <ExampleInAction.Icon alt="Lightbulb"/>
+                                <strong>
+                                    Example In Action
+                                </strong>
+                            </h2>
+                            <p>Placeholder</p>
+                          </ExampleInAction>
                       </Accordion.Panel>
                   </Accordion.Section>
 
