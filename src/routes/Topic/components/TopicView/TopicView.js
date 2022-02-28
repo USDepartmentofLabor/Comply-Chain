@@ -52,7 +52,14 @@ class TopicView extends Component {
     constructor(props) {
         super(props);
         const { step, topic, localizor } = this.props;
-        const stepData = localizor.strings.steps[step - 1];
+        var stepData = null;
+        if(step == 11){
+            stepData = localizor.strings.other_steps[0];
+        }else if(step == 12){
+            stepData = localizor.strings.other_steps[1];
+        }else{
+            stepData = localizor.strings.steps[step - 1];
+        }
         if (stepData) {
             this.state = this.buildTopicData();
             storage.steps.createStep(step - 1, stepData.topics.length);
@@ -67,7 +74,14 @@ class TopicView extends Component {
         ) {
             this.setState(this.buildTopicData());
             const { step, topic, localizor } = this.props;
-            const stepData = localizor.strings.steps[step - 1];
+            var stepData = null;
+            if(step == 11){
+                stepData = localizor.strings.other_steps[0];
+            }else if(step == 12){
+                stepData = localizor.strings.other_steps[1];
+            }else{
+                stepData = localizor.strings.steps[step - 1];
+            }
             if (stepData) {
                 storage.steps.createStep(step - 1, stepData.topics.length);
                 storage.steps.markTopicComplete(step - 1, topic - 1);
@@ -77,31 +91,87 @@ class TopicView extends Component {
 
     buildTopicData = () => {
         const { step, topic, localizor } = this.props;
-        const stepData = localizor.strings.steps[step - 1];
+        var stepData = null;
+        if(step == 11){
+            stepData = localizor.strings.other_steps[0];
+        }else if(step == 12){
+            stepData = localizor.strings.other_steps[1];
+        }else{
+            stepData = localizor.strings.steps[step - 1];
+        }
         let items;
         if (stepData) {
             if (stepData.topics[topic - 1]) {
                 const prevTopic =
                     (stepData.topics[topic - 2] && topic - 1) || null;
                 const nextTopic = (stepData.topics[topic] && topic + 1) || null;
-                const prevStep =
+                var prevStep = null;
+                if(step == 11){
+                    prevStep =
+                    (!prevTopic &&
+                        localizor.strings.other_steps[-2] &&
+                        -1) ||
+                    null;
+                }else if(step == 12){
+                    prevStep =
+                    (!prevTopic &&
+                        localizor.strings.other_steps[-1] &&
+                        0) ||
+                    null;
+                }else{
+                    prevStep =
                     (!prevTopic &&
                         localizor.strings.steps[step - 2] &&
                         step - 1) ||
                     null;
-                const nextStep =
+                }
+                var nextStep = null;
+                if(step == 11){
+                    nextStep =
+                    !nextTopic && localizor.strings.steps[0] && 1;
+                    items = {
+                        title: stepData.topics[topic - 1].title,
+                        stepTitle: stepData.title,
+                        titleString: `steps.${step - 1}.topics.${topic - 1}.title`,
+                        stepTitleString: `steps.${step - 1}.title`,
+                        topicData: stepData.topics[topic - 1].content,
+                        
+                        prevStep: prevStep && `/othersteps/${prevStep}`,
+                        prevTopic: prevTopic && `/othersteps/${step}/topic/${prevTopic}`,
+                        nextTopic: nextTopic && `/othersteps/${step}/topic/${nextTopic}`,
+                        nextStep: nextStep && `/othersteps/${nextStep}`
+                    };
+                }else if(step == 12){
+                    nextStep =
+                    !nextTopic && localizor.strings.steps[1] && 2;
+                    items = {
+                        title: stepData.topics[topic - 1].title,
+                        stepTitle: stepData.title,
+                        titleString: `steps.${step - 1}.topics.${topic - 1}.title`,
+                        stepTitleString: `steps.${step - 1}.title`,
+                        topicData: stepData.topics[topic - 1].content,
+                        prevStep: prevStep && `/othersteps/${prevStep}`,
+                        prevTopic: prevTopic && `/othersteps/${step}/topic/${prevTopic}`,
+                        nextTopic: nextTopic && `/othersteps/${step}/topic/${nextTopic}`,
+                        nextStep: nextStep && `/othersteps/${nextStep}`
+                    };
+                }else{
+                    nextStep =
                     !nextTopic && localizor.strings.steps[step] && step + 1;
-                items = {
-                    title: stepData.topics[topic - 1].title,
-                    stepTitle: stepData.title,
-                    titleString: `steps.${step - 1}.topics.${topic - 1}.title`,
-                    stepTitleString: `steps.${step - 1}.title`,
-                    topicData: stepData.topics[topic - 1].content,
-                    prevStep: prevStep && `/steps/${prevStep}`,
-                    prevTopic: prevTopic && `/steps/${step}/topic/${prevTopic}`,
-                    nextTopic: nextTopic && `/steps/${step}/topic/${nextTopic}`,
-                    nextStep: nextStep && `/steps/${nextStep}`
-                };
+                    items = {
+                        title: stepData.topics[topic - 1].title,
+                        stepTitle: stepData.title,
+                        titleString: `steps.${step - 1}.topics.${topic - 1}.title`,
+                        stepTitleString: `steps.${step - 1}.title`,
+                        topicData: stepData.topics[topic - 1].content,
+                        
+                        prevStep: prevStep && `/steps/${prevStep}`,
+                        prevTopic: prevTopic && `/steps/${step}/topic/${prevTopic}`,
+                        nextTopic: nextTopic && `/steps/${step}/topic/${nextTopic}`,
+                        nextStep: nextStep && `/steps/${nextStep}`
+                    };
+                }
+                
             }
         }
         return items;

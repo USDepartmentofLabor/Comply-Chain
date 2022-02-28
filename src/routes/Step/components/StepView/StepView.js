@@ -116,7 +116,7 @@ class StepView extends Component {
                         topics: {
                             title: localizor.strings.general.topics,
                             content: (
-                                <TopicsList steps={Number(step)} topics={topics} />
+                                <TopicsList step={Number(step)} topics={topics} />
                             ),
                             id: "topics"
                         },
