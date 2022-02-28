@@ -286,6 +286,16 @@ const es = () => {
                     irse del trabajo, se considera una situaci&oacute;n de
                     trabajo forzoso.
                 </p>
+                <ExampleInAction id="leadership">
+                <h2>
+                <ExampleInAction.Icon alt="Lightbulb"/>
+                    <strong>
+                            Example In Action
+                    </strong>
+                </h2>
+                <p>Placeholder</p>
+                </ExampleInAction>
+
             </div>
         </StaticData>
     );
