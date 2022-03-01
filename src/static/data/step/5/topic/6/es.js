@@ -1,5 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+
 
 const es = () => {
     return (
@@ -183,6 +185,16 @@ const es = () => {
                     dise&ntilde;ados para lograr el cumplimiento del
                     c&oacute;digo.
                 </p>
+                <ExampleInAction id="leadership">
+                <h2>
+                <ExampleInAction.Icon alt="Lightbulb"/>
+                    <strong>
+                            Example In Action
+                    </strong>
+                </h2>
+                <p>Placeholder</p>
+                </ExampleInAction>
+
             </div>
         </StaticData>
     );

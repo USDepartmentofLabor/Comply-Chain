@@ -1,5 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+
 
 const ms = () => {
     return (
@@ -134,6 +136,16 @@ const ms = () => {
                     sebagai suplemen kontrak dan perjanjian di antara syarikat dan sub-kontraktor mereka dalam bidang kod komunikasi dan pematuhan,
                     termasuk bidang menilai diri sendiri dan program pembaikan yang direka untuk mencapai pematuhan kod.
                 </p>
+                <ExampleInAction id="leadership">
+                <h2>
+                <ExampleInAction.Icon alt="Lightbulb"/>
+                    <strong>
+                            Example In Action
+                    </strong>
+                </h2>
+                <p>Placeholder</p>
+                </ExampleInAction>
+
             </div>
         </StaticData>
     );

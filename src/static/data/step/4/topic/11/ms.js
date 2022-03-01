@@ -1,6 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
 import Accordion from "../../../../../../components/Accordion";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 
 const ms = () => {
@@ -162,6 +163,16 @@ const ms = () => {
                              Menurut statistik Bank Dunia, kira-kira 2 bilion orang tinggal dalam negara yang terjejas oleh konflik yang melibatkan keganasan. Terdapat 17 peratus daripada orang miskin di negara-negara yang ditimpa kitaran keganasan di dunia, dan peratusan ini dijangka meningkat kepada 50
                              peratus menjelang 2030. Konflik adalah penyebab utama penghijrahan, apabila pekerja terpaksa meninggalkan tanah air mereka akibat kemusnahan harta benda, ekonomi dan juga keselamatan.
                           </p>
+                          <ExampleInAction id="leadership">
+                            <h2>
+                            <ExampleInAction.Icon alt="Lightbulb"/>
+                                <strong>
+                                    Example In Action
+                                </strong>
+                            </h2>
+                            <p>Placeholder</p>
+                          </ExampleInAction>
+
                       </Accordion.Panel>
                   </Accordion.Section>
 

@@ -31,6 +31,19 @@ const en = () => {
                     employer&mdash;workers should never pay any cost to obtain a
                     job.
                 </p>
+                <ul>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ul>
+
                 <p>
                     If you know or suspect that there is migrant labor in your
                     supply chain, it is important to include relevant standards
@@ -119,9 +132,54 @@ const en = () => {
                     </a>
                     .
                 </p>
+                <ol>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                    </li>
+                    <li>
+                        <strong>
+                            <em>Test 2</em>
+                        </strong>
+                    </li>
+                    <li>
+                        <strong>
+                            <em>Test 3</em>
+                        </strong>
+                    </li>
+                    <li>
+                        <strong>
+                            <em>Test 4</em>
+                        </strong>
+                    </li>
+                </ol>
+                <p>Spaceholder Sentence</p>
+                <ul>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                    </li>
+                    <li>
+                        <strong>
+                            <em>Test 2</em>
+                        </strong>
+                    </li>
+                </ul>
+
                 {/* <img src={ilo} alt="Worker climbing scaffolding" /> */}
 
                 {/* <p className="small-text">&copy;M. Crozet/ILO</p> */}
+                <ExampleInAction id="leadership">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Placeholder
+                        </strong>
+                    </h2>
+                </ExampleInAction>
+
                 <ExampleInAction id="leadership">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -200,6 +258,16 @@ const en = () => {
                     of penalty or threat preventing them from leaving their
                     jobs, this would amount to a forced labor situation.
                 </p>
+                <ExampleInAction id="leadership">
+                <h2>
+                <ExampleInAction.Icon alt="Lightbulb"/>
+                    <strong>
+                            Example In Action
+                    </strong>
+                </h2>
+                <p>Placeholder</p>
+                </ExampleInAction>
+
             </div>
         </StaticData>
     );

@@ -40,6 +40,18 @@ const fr = () => {
                     charge de l&apos;employeur ; les travailleurs ne devraient
                     jamais payer de frais pour obtenir un emploi.
                 </p>
+                <ul>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                        </li>
+                        <li>
+                            <strong>
+                                <em>Test 2</em>
+                            </strong>
+                    </li>
+                </ul>
                 <p>
                     Si vous &ecirc;tes conscient de la pr&eacute;sence
                     d&apos;une main-d&apos;&oelig;uvre migrante dans votre
@@ -137,11 +149,56 @@ const fr = () => {
                     </a>
                     .
                 </p>
+                <ol>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                    </li>
+                    <li>
+                        <strong>
+                            <em>Test 2</em>
+                        </strong>
+                    </li>
+                    <li>
+                        <strong>
+                            <em>Test 3</em>
+                        </strong>
+                    </li>
+                    <li>
+                        <strong>
+                            <em>Test 4</em>
+                        </strong>
+                    </li>
+                </ol>
+                <p>Spaceholder Sentence</p>
+                <ul>
+                    <li>
+                        <em>
+                            <strong>Test 1</strong>
+                        </em>
+                    </li>
+                    <li>
+                        <strong>
+                            <em>Test 2</em>
+                        </strong>
+                    </li>
+                </ul>
+
                 {/* <img
                     src={ilo}
                     alt="Travailleur en train de gravir un &eacute;chafaudage"
                 />
                 <p className="small-text">&copy;M. Crozet/OIT</p> */}
+                <ExampleInAction id="leadership">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Placeholder
+                        </strong>
+                    </h2>
+                </ExampleInAction>
+
                 <ExampleInAction id="leadership">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -242,6 +299,16 @@ const fr = () => {
                     s&apos;agit alors d&apos;une situation de travail
                     forc&eacute;.
                 </p>
+                <ExampleInAction id="leadership">
+                <h2>
+                <ExampleInAction.Icon alt="Lightbulb"/>
+                    <strong>
+                            Example In Action
+                    </strong>
+                </h2>
+                <p>Placeholder</p>
+                </ExampleInAction>
+
             </div>
         </StaticData>
     );

@@ -16,7 +16,8 @@ export const StepData = {
             "Identify the people and groups to whom you should communicate and provide training.",
             "Define the topics that should be covered in communication and training activities for each group.",
             "Learn about appropriate communication channels and training formats for different audiences.",
-            "Understand how to put effective grievance mechanisms in place."
+            "Understand how to put effective grievance mechanisms in place.",
+            "Placeholder"
         ],
         keyTerms: [
             {
@@ -42,7 +43,8 @@ export const StepData = {
             "Identificar a las personas y grupos con quienes se debe estar en comunicación y a quienes se debe capacitar.",
             "Definir los temas que deben incluirse en las actividades de comunicación y capacitación para cada grupo.",
             "Averiguar cuáles son los canales de comunicación adecuados y los formatos de capacitación según el público.",
-            "Saber cuál es la manera de ofrecer mecanismos eficaces de reclamaciones."
+            "Saber cuál es la manera de ofrecer mecanismos eficaces de reclamaciones.",
+            "Placeholder"
         ],
         keyTerms: [
             {
@@ -68,7 +70,8 @@ export const StepData = {
             "Identifier les personnes et les groupes avec lesquels vous devriez communiquer et que vous devriez former.",
             "Définir les sujets à traiter dans les activités de communication et de formation pour chaque groupe.",
             "Apprendre sur les chaînes de communication qui conviennent et les différents types de formation pour les différents publics.",
-            "Comprendre comment mettre en place des mécanismes de réclamation efficaces."
+            "Comprendre comment mettre en place des mécanismes de réclamation efficaces.",
+            "Placeholder"
         ],
         keyTerms: [
             {
@@ -93,7 +96,8 @@ export const StepData = {
                 "Kenal pasti orang dan kumpulan untuk berkomunikasi dan sediakan latihan.",
                 "Khususkan topik yang patut disertai dalam aktiviti komunikasi dan latihan bagi setiap kumpulan.",
                 "Belajar mengenai rangkaian komunikasi yang sesuai dan format latihan bagi penonton yang berbeza.",
-                "Fahami cara untuk meletakkan mekanisme aduan yang berkesan di tempatnya."
+                "Fahami cara untuk meletakkan mekanisme aduan yang berkesan di tempatnya.",
+                "Placeholder"
             ],
             keyTerms: [
                 {
