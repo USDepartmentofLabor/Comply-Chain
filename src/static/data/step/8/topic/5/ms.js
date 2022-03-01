@@ -1,5 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+
 
 const ms = () => {
     return (
@@ -12,6 +14,18 @@ const ms = () => {
                     anda dan laporan awam harus menggabungkan maklumat tentang pemulihan sejauh mana yang mungkin. Semua komunikasi 
                     harus memastikan perlindungan maksimum untuk keselamatan dan hal peribadi mangsa.
                 </p>
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
                 <p>
                     <em>
                         *Catatan: Rujukan kepada syarikat tertentu dan entiti bukan kerajaan dalam panduan ini hanya untuk tujuan 
