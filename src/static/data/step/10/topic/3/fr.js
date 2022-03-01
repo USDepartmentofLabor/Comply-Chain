@@ -162,6 +162,18 @@ const fr = () => {
                     probl&egrave;mes particuliers de travail des enfants ou de travail forc&eacute; ont &eacute;t&eacute; 
                     remarqu&eacute;s, il conviendrait de discuter de ces situations.
                 </p>
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
 
                 <h2>Fournisseurs de premier niveau</h2>
                 <p> 

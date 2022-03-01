@@ -142,6 +142,18 @@ const ms = () => {
                     Negara di mana syarikat mendapat sumber. Sekiranya ada negara di mana buruh kanak-kanak atau buruh paksa 
                     banyak didapati, situasi ini patut dibincangkan.
                 </p>
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
                 <h2>Pembekal Peringkat 1</h2>
                 <p> <strong>Pembekal Anda </strong> Contohnya, syarikat elektronik <strong>Hewlett-Packard* </strong>
                 telah menyediakan{" "}

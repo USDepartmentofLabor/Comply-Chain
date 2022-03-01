@@ -167,6 +167,18 @@ const en = () => {
                         sources. If there are countries where particular child
                         labor or forced labor issues have been prevalent, these
                         situations should be discussed.</p>
+                        <ExampleInAction id="grievmechanism">
+                        <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                        </h2>
+                        <p>
+                            Placeholder
+                        </p>
+                        </ExampleInAction>
+
                         <h2>Tier 1 Suppliers</h2>
                        <p> <strong>Your suppliers.</strong> For example,
                         electronics company <strong>Hewlett-Packard* </strong>

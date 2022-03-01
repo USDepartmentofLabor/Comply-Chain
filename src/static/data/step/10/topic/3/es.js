@@ -171,6 +171,18 @@ const es = () => {
                         determinados problemas de trabajo infantil y trabajo
                         forzoso, tambi&eacute;n se deben mencionar estas
                         situaciones.</p>
+                        <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
 
                     <h2>Proveedores de primer nivel</h2>
                     <p> <strong>Sus proveedores.</strong> Por ejemplo, la
