@@ -305,6 +305,19 @@ const ms = () => {
                     <h2>Kajian Kes Aktiviti</h2>
                         <p>Kajian kes atau aktiviti khusus yang terserlah waktu tempoh laporan.</p>
 
+                        <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
+
                     <h2>Prosedur maklum balas</h2>
                         <p>Prosedur untuk memberi maklum balas mengenai laporan.</p>
 

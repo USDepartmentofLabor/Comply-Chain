@@ -373,6 +373,19 @@ const fr = () => {
                         cours de la p&eacute;riode de d&eacute;claration.
                     </p>
 
+                    <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
+
                 <h2>Proc&eacute;dures de retour d&rsquo;information</h2>
 
                     <p>

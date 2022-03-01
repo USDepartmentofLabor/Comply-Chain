@@ -357,6 +357,18 @@ const en = () => {
                         <p>Case studies or{" "}
                         <strong>highlights of specific activities</strong>{" "}
                         during the reporting period.</p>
+                        <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
 
                     <h2>Feedback procedures</h2>
                         <p><strong>Procedures for providing feedback</strong> on

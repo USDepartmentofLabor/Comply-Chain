@@ -369,6 +369,19 @@ const es = () => {
                     <p>Los estudios de caso o <strong>aspectos m&aacute;s notables de actividades espec&iacute;ficas</strong> 
                     durante el per&iacute;odo de notificaci&oacute;n.</p>
 
+                    <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
+
                     <h2>Procedimientos para la recepci&oacute;n de comentarios</h2>
 
                     <p>Los <strong>procedimientos para la recepci&oacute;n de comentarios</strong> sobre el informe.</p>
