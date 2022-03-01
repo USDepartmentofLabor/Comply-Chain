@@ -207,7 +207,18 @@ const ms = () => {
                     menyediakan data mengenai permohonannya untuk membuang isi kandungan dan data pengguna, yang menjadi cabaran utama 
                     hak asasi manusia kepada syarikat tersebut. 
                  </p>
-                 
+                 <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
                  <p>
                     <em>
                     *Catatan: Rujukan kepada syarikat tertentu dan entiti bukan kerajaan dalam panduan ini hanya untuk tujuan memberi maklumat 

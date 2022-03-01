@@ -228,7 +228,18 @@ const en = () => {
                  provides data on their requests for content removal 
                  and user data, which present a key human rights challenge for the company.
                  </p>
-                 
+                 <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
                  <p>
                     <em>
                         *Note: References to specific companies and
