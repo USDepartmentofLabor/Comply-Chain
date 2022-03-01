@@ -1,5 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import OwnWords from "../../../../../../components/OwnWords";
+
 const en = () => {
     return (
         <StaticData>
@@ -20,6 +22,19 @@ const en = () => {
                     organizations should be consulted for their views about
                     which remediation actions will work best.
                 </p>
+                <OwnWords>
+                <h3>
+                <OwnWords.Icon alt="Feedback"/>{" "}
+                    <strong>
+                        In Their Own Words: The Challenges of Age
+                        Verification
+                    </strong>
+                </h3>
+                <p>
+                    Placeholder
+                </p>
+                </OwnWords>
+
                 <ol>
                     <li>
                         <em>
