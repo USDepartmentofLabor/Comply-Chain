@@ -201,6 +201,18 @@ const ms = () => {
                 </a>{" "}
                 menunjukkan kilang, ladang dan pengisar. Perincian termasuk lokasi, jumlah pekerja, dan produk yang dikeluarkan.
                 </p>
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
                 <OwnWords>
                     <h2>
                         <OwnWords.Icon alt="Feedback"/> <strong>Dengan kata-kata mereka sendiri:</strong>

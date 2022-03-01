@@ -228,6 +228,18 @@ const en = () => {
                             interactive map
                         </a>{" "}
                         showing factories, farms, and mills.  Details include locations, number of workers, and products produced.</p>
+                        <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
                          <OwnWords>
                             <h2>
                                 <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>

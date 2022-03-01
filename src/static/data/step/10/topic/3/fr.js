@@ -227,6 +227,17 @@ const fr = () => {
                     [en anglais] o&ugrave; apparaissent ses usines, exploitation agricoles et fabriques. Les d&eacute;tails fournis comprennent 
                     les sites, le nombre de travailleurs et les produits fabriqu&eacute;s.
                 </p>
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
 
                     <OwnWords>
                     <h2>

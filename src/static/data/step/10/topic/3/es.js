@@ -242,6 +242,17 @@ const es = () => {
                         y las plantas de producci&oacute;n. Entre los detalles mencionan la 
                         ubicaci&oacute;n, la cantidad de trabajadores y los productos que fabrican.
                         </p>
+                        <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
 
                         <OwnWords>
                         <h2>
