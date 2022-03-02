@@ -27,11 +27,6 @@ export const Topics = {
             title: "Where, When and How Should Training be Conducted?",
             content: Topic4.en
         },
-        {
-            keywords: [],
-            title: "Grievance Mechanisms",
-            content: Topic5.en
-        }
         // {
         //     keywords: [],
         //     title: "Reaching Beyond Tier 1",
@@ -60,11 +55,6 @@ export const Topics = {
             title: "¿Dónde, cuándo y cómo debe realizarse la capacitación?",
             content: Topic4.es
         },
-        {
-            keywords: [],
-            title: "Mecanismos de presentación de reclamaciones",
-            content: Topic5.es
-        }
         // {
         //     keywords: [],
         //     title: "Reaching Beyond Tier 1",
@@ -125,11 +115,6 @@ export const Topics = {
                 title: "Di mana, Bila dan Bagaimanakah Program Latihan Dilakukan?",
                 content: Topic4.ms
             },
-            {
-                keywords: [],
-                title: "Mekanisme Rungutan",
-                content: Topic5.ms
-            }
             // {
             //     keywords: [],
             //     title: "Reaching Beyond Tier 1",
