@@ -1,6 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
 import OwnWords from "../../../../../../components/OwnWords";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 
 const fr = () => {
