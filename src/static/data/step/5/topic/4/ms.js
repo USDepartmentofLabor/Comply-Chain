@@ -144,9 +144,10 @@ const ms = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Placeholder
+                            Example in Action: Placeholder
                         </strong>
                     </h2>
+                    <p>Placeholder</p>
                 </ExampleInAction>
 
                 <ExampleInAction id="leadership">
