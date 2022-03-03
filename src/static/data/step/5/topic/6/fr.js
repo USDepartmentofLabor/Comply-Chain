@@ -1,6 +1,6 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
-import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 
 
 const fr = () => {
@@ -195,15 +195,13 @@ const fr = () => {
                     d&rsquo;am&eacute;lioration &eacute;labor&eacute;s pour
                     atteindre la conformit&eacute; au code.
                 </p>
-                <ExampleInAction id="leadership">
-                <h2>
-                <ExampleInAction.Icon alt="Lightbulb"/>
-                    <strong>
-                            Example In Action
-                    </strong>
-                </h2>
-                <p>Placeholder</p>
-                </ExampleInAction>
+                <OwnWords>
+                    <h4>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h4>
+                    <p>Placeholder</p>                
+                </OwnWords>
 
             </div>
         </StaticData>

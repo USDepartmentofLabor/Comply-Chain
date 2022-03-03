@@ -1,6 +1,6 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
-import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+import OwnWords from "../../../../../../components/OwnWords";
 
 
 const es = () => {
@@ -185,15 +185,13 @@ const es = () => {
                     dise&ntilde;ados para lograr el cumplimiento del
                     c&oacute;digo.
                 </p>
-                <ExampleInAction id="leadership">
-                <h2>
-                <ExampleInAction.Icon alt="Lightbulb"/>
-                    <strong>
-                            Example In Action
-                    </strong>
-                </h2>
-                <p>Placeholder</p>
-                </ExampleInAction>
+                <OwnWords>
+                    <h4>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h4>
+                    <p>Placeholder</p>                
+                </OwnWords>
 
             </div>
         </StaticData>
