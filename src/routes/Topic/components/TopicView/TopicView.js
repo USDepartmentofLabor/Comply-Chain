@@ -128,7 +128,7 @@ class TopicView extends Component {
                 var nextStep = null;
                 if(step == 11){
                     nextStep =
-                    !nextTopic && localizor.strings.steps[0] && 1;
+                    !nextTopic && localizor.strings.steps[0] && 12;
                     items = {
                         title: stepData.topics[topic - 1].title,
                         stepTitle: stepData.title,
@@ -143,7 +143,7 @@ class TopicView extends Component {
                     };
                 }else if(step == 12){
                     nextStep =
-                    !nextTopic && localizor.strings.steps[1] && 2;
+                    !nextTopic && localizor.strings.steps[1] && 1;
                     items = {
                         title: stepData.topics[topic - 1].title,
                         stepTitle: stepData.title,
@@ -152,8 +152,8 @@ class TopicView extends Component {
                         topicData: stepData.topics[topic - 1].content,
                         prevStep: prevStep && `/othersteps/${prevStep}`,
                         prevTopic: prevTopic && `/othersteps/${step}/topic/${prevTopic}`,
-                        nextTopic: nextTopic && `/othersteps/${step}/topic/${nextTopic}`,
-                        nextStep: nextStep && `/othersteps/${nextStep}`
+                        nextTopic: nextTopic && `/steps/${step}/topic/${nextTopic}`,
+                        nextStep: nextStep && `/steps/${nextStep}`
                     };
                 }else{
                     nextStep =
