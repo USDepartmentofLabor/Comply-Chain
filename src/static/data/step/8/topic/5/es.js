@@ -1,5 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+
 
 const es = () => {
     return (
@@ -14,6 +16,18 @@ const es = () => {
                     informaci&oacute;n sobre la reparaci&oacute;n. Toda esta comunicaci&oacute;n debe garantizar la 
                     m&aacute;xima protecci&oacute;n de la seguridad y la privacidad de las v&iacute;ctimas.
                 </p>
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
                 <p>
                     <em>
                     *Nota: Toda referencia que se haga en la presente gu&iacute;a a empresas o entidades no gubernamentales 

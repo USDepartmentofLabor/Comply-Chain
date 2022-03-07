@@ -171,6 +171,18 @@ const es = () => {
                         determinados problemas de trabajo infantil y trabajo
                         forzoso, tambi&eacute;n se deben mencionar estas
                         situaciones.</p>
+                        <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
 
                     <h2>Proveedores de primer nivel</h2>
                     <p> <strong>Sus proveedores.</strong> Por ejemplo, la
@@ -230,6 +242,17 @@ const es = () => {
                         y las plantas de producci&oacute;n. Entre los detalles mencionan la 
                         ubicaci&oacute;n, la cantidad de trabajadores y los productos que fabrican.
                         </p>
+                        <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
 
                         <OwnWords>
                         <h2>
@@ -345,6 +368,19 @@ const es = () => {
 
                     <p>Los estudios de caso o <strong>aspectos m&aacute;s notables de actividades espec&iacute;ficas</strong> 
                     durante el per&iacute;odo de notificaci&oacute;n.</p>
+
+                    <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
 
                     <h2>Procedimientos para la recepci&oacute;n de comentarios</h2>
 

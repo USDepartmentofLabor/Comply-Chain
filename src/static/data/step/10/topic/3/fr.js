@@ -162,6 +162,18 @@ const fr = () => {
                     probl&egrave;mes particuliers de travail des enfants ou de travail forc&eacute; ont &eacute;t&eacute; 
                     remarqu&eacute;s, il conviendrait de discuter de ces situations.
                 </p>
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
 
                 <h2>Fournisseurs de premier niveau</h2>
                 <p> 
@@ -215,6 +227,17 @@ const fr = () => {
                     [en anglais] o&ugrave; apparaissent ses usines, exploitation agricoles et fabriques. Les d&eacute;tails fournis comprennent 
                     les sites, le nombre de travailleurs et les produits fabriqu&eacute;s.
                 </p>
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
 
                     <OwnWords>
                     <h2>
@@ -349,6 +372,19 @@ const fr = () => {
                         Des &eacute;tudes de cas ou une <strong>r&eacute;capitulation d'activit&eacute;s sp&eacute;cifiques</strong> au 
                         cours de la p&eacute;riode de d&eacute;claration.
                     </p>
+
+                    <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
 
                 <h2>Proc&eacute;dures de retour d&rsquo;information</h2>
 
