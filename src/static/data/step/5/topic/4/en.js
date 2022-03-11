@@ -175,6 +175,16 @@ const en = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
+                            Example in Action: Placeholder
+                        </strong>
+                    </h2>
+                    <p>Placeholder</p>
+                </ExampleInAction>
+
+                <ExampleInAction id="leadership">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
                             Example in Action: Leadership Group for Responsible
                             Recruitment
                         </strong>
@@ -249,6 +259,16 @@ const en = () => {
                     of penalty or threat preventing them from leaving their
                     jobs, this would amount to a forced labor situation.
                 </p>
+                <ExampleInAction id="leadership">
+                <h2>
+                <ExampleInAction.Icon alt="Lightbulb"/>
+                    <strong>
+                            Example In Action
+                    </strong>
+                </h2>
+                <p>Placeholder</p>
+                </ExampleInAction>
+
             </div>
         </StaticData>
     );

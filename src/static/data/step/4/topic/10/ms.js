@@ -1,6 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
 import OwnWords from "../../../../../../components/OwnWords";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 
 const en = () => {
@@ -47,6 +48,17 @@ const en = () => {
                                          Panduan Amalan Terbaik mengenai Pengambilan Beretika Pekerja Migran
                                     </a>{" "}.
                                 </p>
+                                <ExampleInAction id="clt">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>Example in action: Placeholder*</strong>
+                    </h2>
+
+                    <p>
+                        Placeholder
+                    </p>
+                </ExampleInAction>
+
                                 <ul>
                                     <li>
                                         <em>

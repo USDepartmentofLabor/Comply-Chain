@@ -533,11 +533,15 @@ class AppWrapper extends Component {
                     </Header>
                     <div aria-hidden={sideNavVisible}>
                         <MainWrapper >
-                            {location.pathname.includes("/steps") && (
+                            { 
+                            
+                            location.pathname.includes("/steps") && (
                                 <StepBarWrapper id="step_progess_bar">
                                     <StepProgressBar />
                                 </StepBarWrapper>
-                            )}
+                            )
+                            
+                            }
                     <Main id="main" >
                                 <Container id="container">
                                     <Navigator />

@@ -1,3 +1,5 @@
+import { TopicData as Topic10 } from "./10";
+import { TopicData as Topic11 } from "./11";
 import { TopicData as Topic1 } from "./1";
 import { TopicData as Topic2 } from "./2";
 import { TopicData as Topic3 } from "./3";
@@ -9,6 +11,16 @@ import { TopicData as Topic9 } from "./9";
 
 export const Topics = {
     en: [
+        {
+            keywords: [],
+            title: "Designing an Effective Compliance Monitoring System",
+            content: Topic10.en
+        },
+        {
+            keywords: [],
+            title: "Grievance Mechanisms",
+            content: Topic11.en
+        },
         {
             keywords: [],
             title: "Auditing: Getting Started ",
@@ -52,6 +64,16 @@ export const Topics = {
         }
     ],
     es: [
+        {
+            keywords: [],
+            title: "Designing an Effective Compliance Monitoring System",
+            content: Topic10.es
+        },
+        {
+            keywords: [],
+            title: "Mecanismos de presentación de reclamaciones",
+            content: Topic11.es
+        },
         {
             keywords: [],
             title: "Auditorías: los primeros pasos",
@@ -98,6 +120,16 @@ export const Topics = {
     fr: [
         {
             keywords: [],
+            title: "Designing an Effective Compliance Monitoring System",
+            content: Topic10.fr
+        },
+        {
+            keywords: [],
+            title: "Mécanismes de réclamation",
+            content: Topic11.fr
+        },
+        {
+            keywords: [],
             title: "Audits: Guide de démarrage",
             content: Topic1.fr
         },
@@ -140,6 +172,17 @@ export const Topics = {
         }
     ],
     ms: [
+        {
+            keywords: [],
+            title: "Designing an Effective Compliance Monitoring System",
+            content: Topic10.ms
+        },
+        {
+            keywords: [],
+            title: "Mekanisme Rungutan",
+            content: Topic11.ms
+        },
+
             {
                 keywords: [],
                 title: "Mengaudit: Memulakan",

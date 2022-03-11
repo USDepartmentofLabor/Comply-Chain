@@ -1,5 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import OwnWords from "../../../../../../components/OwnWords";
+
 
 const es = () => {
     return (
@@ -183,6 +185,14 @@ const es = () => {
                     dise&ntilde;ados para lograr el cumplimiento del
                     c&oacute;digo.
                 </p>
+                <OwnWords>
+                    <h4>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h4>
+                    <p>Placeholder</p>                
+                </OwnWords>
+
             </div>
         </StaticData>
     );

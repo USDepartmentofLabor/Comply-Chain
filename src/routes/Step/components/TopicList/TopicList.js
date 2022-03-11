@@ -42,6 +42,9 @@ const StyledLink = styled(Link)`
 class TopicsList extends Component {
     render() {
         const { step, topics } = this.props;
+        console.log("!!!!!!!!!!!!!!!!!!!!!")
+        console.log(step);
+        console.log(topics);
         return (
             <div>
                 <br></br>
@@ -53,9 +56,15 @@ class TopicsList extends Component {
                         return (
                             <div>
                                 {checked?<UnicodeCheckBox aria-hidden="false" aria-label = {checked?"Reviewed":"Not Reviewed"} className={`topicList ${checked ? "checked" : ""}` }></UnicodeCheckBox>:<UnicodeCheckBox2 aria-hidden="false" aria-label = {checked?"Reviewed":"Not Reviewed"} className={`topicList ${checked ? "checked" : ""}`}></UnicodeCheckBox2>}
-                                <StyledLink to={`/steps/${step}/topic/${topicId}`}>
+                                {(step == 11 || step ==12)?
+                                    (<StyledLink to={`/othersteps/${step}/topic/${topicId}`}>
                                     {topic.title}
-                                </StyledLink>
+                                    </StyledLink>):
+                                    (<StyledLink to={`/steps/${step}/topic/${topicId}`}>
+                                    {topic.title}
+                                    </StyledLink>)
+                                }
+                                
                                 <br></br>
                             </div>
                         );
@@ -63,9 +72,12 @@ class TopicsList extends Component {
                         return (
                             <div>
                                 {checked?<UnicodeCheckBox aria-hidden="true" className={`topicList ${checked ? "checked" : ""}` }></UnicodeCheckBox>:<UnicodeCheckBox2 aria-hidden="true"  className={`topicList ${checked ? "checked" : ""}`}></UnicodeCheckBox2>}
-                                <StyledLink aria-label={ checked ? "Reviewed " + topic.title : "Not Reviewed " + topic.title} to={`/steps/${step}/topic/${topicId}`} >
+                                {(step==11||step==12)?
+                                (<StyledLink aria-label={ checked ? "Reviewed " + topic.title : "Not Reviewed " + topic.title} to={`/othersteps/${step}/topic/${topicId}`} >
                                     {topic.title}
-                                </StyledLink>
+                                </StyledLink>):(<StyledLink aria-label={ checked ? "Reviewed " + topic.title : "Not Reviewed " + topic.title} to={`/steps/${step}/topic/${topicId}`} >
+                                    {topic.title}
+                                </StyledLink>)}
                                 <br></br>
                             </div>
                         );

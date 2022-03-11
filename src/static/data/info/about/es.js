@@ -363,16 +363,6 @@ const es = () => {
                             <p />
                         </Accordion.Panel>
                     </Accordion.Section>
-                    <Accordion.Section id="contact-iLab">
-                        <Accordion.Title>
-                        <strong>How do I contact ILAB?</strong>
-                        </Accordion.Title>
-                        <Accordion.Panel>
-                            <p>
-                                Test 1
-                            </p>
-                        </Accordion.Panel>
-                    </Accordion.Section>
                 </Accordion>
 
                 <p>

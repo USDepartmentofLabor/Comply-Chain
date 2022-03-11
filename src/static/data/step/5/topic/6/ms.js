@@ -1,5 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import OwnWords from "../../../../../../components/OwnWords";
+
 
 const ms = () => {
     return (
@@ -134,6 +136,14 @@ const ms = () => {
                     sebagai suplemen kontrak dan perjanjian di antara syarikat dan sub-kontraktor mereka dalam bidang kod komunikasi dan pematuhan,
                     termasuk bidang menilai diri sendiri dan program pembaikan yang direka untuk mencapai pematuhan kod.
                 </p>
+                <OwnWords>
+                    <h4>
+                        <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
+                        {": "}
+                    </h4>
+                    <p>Placeholder</p>                
+                </OwnWords>
+
             </div>
         </StaticData>
     );
