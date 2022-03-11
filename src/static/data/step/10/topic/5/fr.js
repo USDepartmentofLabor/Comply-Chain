@@ -243,6 +243,17 @@ const fr = () => {
                     donn&eacute;es des utilisateurs, qui repr&eacute;sentent pour cette soci&eacute;t&eacute; un d&eacute;fi majeur en 
                     mati&egrave;re de droits de l&rsquo;homme.
                 </p>
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
 
                 <p>
                     <em>

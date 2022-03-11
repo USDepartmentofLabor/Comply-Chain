@@ -1,6 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
 import OwnWords from "../../../../../../components/OwnWords";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
 
 const fr = () => {
@@ -56,6 +57,17 @@ const fr = () => {
                     Centre interconfessionnel sur la responsabilité des entreprises (ICCR)
                     </a>.
                     </p>
+                    <ExampleInAction id="clt">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>Example in action: Placeholder*</strong>
+                    </h2>
+
+                    <p>
+                        Placeholder
+                    </p>
+                </ExampleInAction>
+
                     <ul>
                         <li>
                             <em>

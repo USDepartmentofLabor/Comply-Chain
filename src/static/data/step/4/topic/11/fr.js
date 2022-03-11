@@ -1,6 +1,8 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
 import Accordion from "../../../../../../components/Accordion";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+
 const fr = () => {
     return (
         <StaticData>
@@ -313,6 +315,16 @@ const fr = () => {
                                                                           &eacute;conomiques et de
                                                                           l&apos;ins&eacute;curit&eacute;.
                                                                        </p>
+                                                                       <ExampleInAction id="leadership">
+                                                                            <h2>
+                                                                            <ExampleInAction.Icon alt="Lightbulb"/>
+                                                                                <strong>
+                                                                                    Example In Action
+                                                                                </strong>
+                                                                            </h2>
+                                                                            <p>Placeholder</p>
+                                                                        </ExampleInAction>
+
                                                                    </Accordion.Panel>
                                                                </Accordion.Section>
 

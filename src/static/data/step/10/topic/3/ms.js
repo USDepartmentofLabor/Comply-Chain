@@ -142,6 +142,18 @@ const ms = () => {
                     Negara di mana syarikat mendapat sumber. Sekiranya ada negara di mana buruh kanak-kanak atau buruh paksa 
                     banyak didapati, situasi ini patut dibincangkan.
                 </p>
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
                 <h2>Pembekal Peringkat 1</h2>
                 <p> <strong>Pembekal Anda </strong> Contohnya, syarikat elektronik <strong>Hewlett-Packard* </strong>
                 telah menyediakan{" "}
@@ -189,6 +201,18 @@ const ms = () => {
                 </a>{" "}
                 menunjukkan kilang, ladang dan pengisar. Perincian termasuk lokasi, jumlah pekerja, dan produk yang dikeluarkan.
                 </p>
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
                 <OwnWords>
                     <h2>
                         <OwnWords.Icon alt="Feedback"/> <strong>Dengan kata-kata mereka sendiri:</strong>
@@ -280,6 +304,19 @@ const ms = () => {
 
                     <h2>Kajian Kes Aktiviti</h2>
                         <p>Kajian kes atau aktiviti khusus yang terserlah waktu tempoh laporan.</p>
+
+                        <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
 
                     <h2>Prosedur maklum balas</h2>
                         <p>Prosedur untuk memberi maklum balas mengenai laporan.</p>

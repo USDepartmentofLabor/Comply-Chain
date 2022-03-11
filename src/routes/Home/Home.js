@@ -19,6 +19,8 @@ import homeStep7 from "../../static/images/home_step_7.jpg";
 import homeStep8 from "../../static/images/home_step_8.jpg";
 import homeStep9 from "../../static/images/home_step_9.jpg";
 import homeStep10 from "../../static/images/home_step_10.jpg";
+import homeStep11 from "../../static/images/home_step_1.jpg";
+import homeStep12 from "../../static/images/home_step_2.jpg";
 import homeWhyDevelop from "../../static/images/home_why_develop.jpg";
 import { isBrowser } from "../../modules/utils/platform";
 import { isAndroid } from "../../modules/utils/platform";
@@ -28,8 +30,90 @@ class Home extends Component {
         const { localizor } = this.props;
         return (
             <HomeWrapper aria-hidden={window.hasOwnProperty("cordova")?"false":"true"}>
+                        <IconContainer
+                            id={`home_step_${9 + 1}`}
+                            key={`home_step_${9 + 1}`}
+                        >
+                            <Item
+                                red={9% 2 !== 0}
+                                image={stepImageData[9].image}
+                                imageMobilePosition={stepImageData[9].mobile}
+                                imageDesktopPosition={stepImageData[9].desktop}
+                            >
+                                <ItemContent
+                                    bookmarked={storage.bookmarks.containsBookmarks(`steps.${9}`)}
+                                    complete={storage.steps.isStepComplete(9)}
+                                >
+                                    <FlexContent>
+                                        
+                                        <PaddedTitle>
+                                            <h2>
+                                                <ItemTitle
+                                                    to={
+                                                        (`/othersteps/${11}`)
+                                                    }
+                                                >
+                                                    
+                                                    {localizor.strings.other_steps[0].title}
+                                                    
+                                                </ItemTitle>
+                                            </h2>
+                                        </PaddedTitle>
+                                    </FlexContent>
+                                </ItemContent>
+                            </Item>
+                            <StatusIcons>
+                                {storage.bookmarks.containsBookmarks(`steps.${9}`)
+                                 && (
+                                    <BookmarkIcon alt={"Bookmarked"} />
+                                )}
+                                {storage.steps.isStepComplete(9) && <CheckIcon alt="Complete" />}
+                            </StatusIcons>
+                        </IconContainer>
+                        <IconContainer
+                            id={`home_step_${10 + 1}`}
+                            key={`home_step_${10 + 1}`}
+                        >
+                            <Item
+                                red={10% 2 !== 0}
+                                image={stepImageData[10].image}
+                                imageMobilePosition={stepImageData[10].mobile}
+                                imageDesktopPosition={stepImageData[10].desktop}
+                            >
+                                <ItemContent
+                                    bookmarked={storage.bookmarks.containsBookmarks(`steps.${10}`)}
+                                    complete={storage.steps.isStepComplete(10)}
+                                >
+                                    <FlexContent>
+                                        
+                                        <PaddedTitle>
+                                            <h2>
+                                                <ItemTitle
+                                                    to={
+                                                        (`/othersteps/${12}`)
+                                                    }
+                                                >
+                                                    
+                                                    {localizor.strings.other_steps[1].title}
+                                                    
+                                                </ItemTitle>
+                                            </h2>
+                                        </PaddedTitle>
+                                    </FlexContent>
+                                </ItemContent>
+                            </Item>
+                            <StatusIcons>
+                                {storage.bookmarks.containsBookmarks(`steps.${10}`)
+                                 && (
+                                    <BookmarkIcon alt={"Bookmarked"} />
+                                )}
+                                {storage.steps.isStepComplete(10) && <CheckIcon alt="Complete" />}
+                            </StatusIcons>
+                        </IconContainer>
+    
 
-                {localizor.strings.steps.map((step, i) => {
+                {
+                localizor.strings.steps.map((step, i) => {
                     const bookmarked = storage.bookmarks.containsBookmarks(
                         `steps.${i}`
                     );
@@ -40,7 +124,7 @@ class Home extends Component {
                             key={`home_step_${i + 1}`}
                         >
                             <Item
-                                red={i % 2 !== 0}
+                                red={i % 2 !== 1}
                                 image={stepImageData[i].image}
                                 imageMobilePosition={stepImageData[i].mobile}
                                 imageDesktopPosition={stepImageData[i].desktop}
@@ -52,14 +136,16 @@ class Home extends Component {
                                     <FlexContent>
                                         <Icon>
                                             <Icons.StepIcon
-                                                step={i + 1}
+                                                step={i + 3}
                                                 alt="Step icon"
                                             />
                                         </Icon>
                                         <PaddedTitle>
                                             <h2>
                                                 <ItemTitle
-                                                    to={`/steps/${i + 1}`}
+                                                    to={
+                                                        (`/steps/${i + 1}`)
+                                                    }
                                                 >
                                                     {step.title}
                                                 </ItemTitle>
@@ -181,7 +267,23 @@ const stepImageData = [
             y: 0
         },
         desktop: { x: 50, y: 18 }
-    }
+    },
+    {
+        image: homeStep11,
+        mobile: {
+            x: 50,
+            y: 20
+        },
+        desktop: { x: 50, y: 35 }
+    },
+    {
+        image: homeStep12,
+        mobile: {
+            x: 50,
+            y: 25
+        },
+        desktop: { x: 50, y: 25 }
+    },
 
 ];
 

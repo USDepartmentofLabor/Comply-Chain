@@ -1,5 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
+
 
 const ms = () => {
     return (
@@ -53,6 +55,16 @@ const ms = () => {
                     &nbsp;mendapati sektor tebu peringkat kebangsaan memainkan peranan dalam menyokong projek OSH di kilang gula sebagai 
                     langkah pertama ke arah membaiki keadaan tempat kerja. 
                 </p>
+                <ExampleInAction id="leadership">
+                <h2>
+                <ExampleInAction.Icon alt="Lightbulb"/>
+                    <strong>
+                            Example In Action
+                    </strong>
+                </h2>
+                <p>Placeholder</p>
+                </ExampleInAction>
+
             </div>
         </StaticData>
     );

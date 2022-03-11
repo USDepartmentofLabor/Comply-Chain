@@ -186,6 +186,16 @@ const es = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
+                            Example in Action: Placeholder
+                        </strong>
+                    </h2>
+                    <p>Placeholder</p>
+                </ExampleInAction>
+
+                <ExampleInAction id="leadership">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
                             Ejemplo en acci&oacute;n: Leadership Group for
                             Responsible Recruitment
                         </strong>
@@ -277,6 +287,16 @@ const es = () => {
                     irse del trabajo, se considera una situaci&oacute;n de
                     trabajo forzoso.
                 </p>
+                <ExampleInAction id="leadership">
+                <h2>
+                <ExampleInAction.Icon alt="Lightbulb"/>
+                    <strong>
+                            Example In Action
+                    </strong>
+                </h2>
+                <p>Placeholder</p>
+                </ExampleInAction>
+
             </div>
         </StaticData>
     );

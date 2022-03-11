@@ -140,6 +140,15 @@ const ms = () => {
                     </li>
                 </ul>
 
+                <ExampleInAction id="leadership">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: Placeholder
+                        </strong>
+                    </h2>
+                    <p>Placeholder</p>
+                </ExampleInAction>
 
                 <ExampleInAction id="leadership">
                     <h2>
@@ -204,6 +213,16 @@ const ms = () => {
                     duduk lain sekiranya mereka inginkan. Menurut ILO, sekiranya pekerja tinggal dalam “keadaan hidup yang terhina” dalam kawasan yang disediakan majikan, dan mereka dikenakan
                     hukuman atau ancaman yang menghalang mereka daripada meninggalkan kerja mereka, ini seperti mereka dalam keadaan buruh paksaan.
                 </p>
+                <ExampleInAction id="leadership">
+                <h2>
+                <ExampleInAction.Icon alt="Lightbulb"/>
+                    <strong>
+                            Example In Action
+                    </strong>
+                </h2>
+                <p>Placeholder</p>
+                </ExampleInAction>
+
             </div>
         </StaticData>
     );

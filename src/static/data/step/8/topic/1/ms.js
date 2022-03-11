@@ -1,5 +1,7 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import OwnWords from "../../../../../../components/OwnWords";
+
 const ms = () => {
     return (
         <StaticData>
@@ -16,6 +18,19 @@ const ms = () => {
                     dan pekerja atau pertubuhan pekerja harus dibawa berunding untuk mendapatkan pandangan mereka mengenai tindakan 
                     pemulihan yang mana lebih berkesan.
                 </p>
+                <OwnWords>
+                <h3>
+                <OwnWords.Icon alt="Feedback"/>{" "}
+                    <strong>
+                        In Their Own Words: The Challenges of Age
+                        Verification
+                    </strong>
+                </h3>
+                <p>
+                    Placeholder
+                </p>
+                </OwnWords>
+
                 <ol>
                     <li>
                         <em>

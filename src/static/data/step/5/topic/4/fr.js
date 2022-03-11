@@ -194,6 +194,16 @@ const fr = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
+                            Example in Action: Placeholder
+                        </strong>
+                    </h2>
+                    <p>Placeholder</p>
+                </ExampleInAction>
+
+                <ExampleInAction id="leadership">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
                             Exemple d&apos;action: Groupe de leadership
                             pour le recrutement responsable
                         </strong>
@@ -290,6 +300,16 @@ const fr = () => {
                     s&apos;agit alors d&apos;une situation de travail
                     forc&eacute;.
                 </p>
+                <ExampleInAction id="leadership">
+                <h2>
+                <ExampleInAction.Icon alt="Lightbulb"/>
+                    <strong>
+                            Example In Action
+                    </strong>
+                </h2>
+                <p>Placeholder</p>
+                </ExampleInAction>
+
             </div>
         </StaticData>
     );

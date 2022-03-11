@@ -253,6 +253,18 @@ const es = () => {
                     datos de los usuarios, lo cual presenta un desaf&iacute;o clave para la empresa en 
                     materia de derechos humanos.
                 </p>
+                <ExampleInAction id="grievmechanism">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>
+                            Example in Action: 
+                        </strong>
+                    </h2>
+                <p>
+                    Placeholder
+                </p>
+                </ExampleInAction>
+
                 <p>
                     <em>
                         *Nota: Toda referencia que se haga en la presente
