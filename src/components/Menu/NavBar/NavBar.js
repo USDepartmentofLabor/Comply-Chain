@@ -266,6 +266,32 @@ class NavBar extends Component {
                                 {item.props && item.props.content}
                             </SideNav.Item>
                         ))}
+                        {/* added static steps */}
+                        <StepsMenuItem
+                            as={NavLink}
+                            to={`/othersteps/${11}`}
+                            key={localizor.strings.other_steps[0].title}
+                            id={`step-${11}-link`}
+                            onClick={this.handleSideNavClose}
+                        >
+                            {localizor.strings.other_steps[0].title}
+                            <StepIcon>
+                                    <Icons.StepIcon step={1} />
+                                </StepIcon>
+                        </StepsMenuItem>
+                        <StepsMenuItem
+                            as={NavLink}
+                            to={`/othersteps/${12}`}
+                            key={localizor.strings.other_steps[1].title}
+                            id={`step-${12}-link`}
+                            onClick={this.handleSideNavClose}
+                        >
+                            {localizor.strings.other_steps[1].title}
+                            <StepIcon>
+                                    <Icons.StepIcon step={2} />
+                                </StepIcon>
+                        </StepsMenuItem>
+                        {/* added static steps */}
                         <StepsMenuItem
                             id="steps-dropdown"
                             onClick={this.toggleStepAccordion}
@@ -284,7 +310,6 @@ class NavBar extends Component {
                                 )}
                             </StepIcon>
                         </StepsMenuItem>
-
                         {stepAccordionActive &&
                             localizor.strings.steps.map((step, i) => {
                                 return (
@@ -297,7 +322,7 @@ class NavBar extends Component {
                                     >
                                         <StepWrapper>
                                             <StepIcon>
-                                                <Icons.StepIcon step={i + 1} />
+                                                <Icons.StepIcon step={i + 3} />
                                             </StepIcon>
                                             <StepText>{step.title}</StepText>
                                         </StepWrapper>

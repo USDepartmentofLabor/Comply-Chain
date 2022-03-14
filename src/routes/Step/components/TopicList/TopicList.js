@@ -69,12 +69,10 @@ class TopicsList extends Component {
                             </div>
                         );
                     }else{
-                        console.log("*****************");
                         return (
                             <div>
                                 {checked?<UnicodeCheckBox aria-hidden="true" className={`topicList ${checked ? "checked" : ""}` }></UnicodeCheckBox>:<UnicodeCheckBox2 aria-hidden="true"  className={`topicList ${checked ? "checked" : ""}`}></UnicodeCheckBox2>}
-                                {
-                                (step==11||step==12)?
+                                {(step==11||step==12)?
                                 (<StyledLink aria-label={ checked ? "Reviewed " + topic.title : "Not Reviewed " + topic.title} to={`/othersteps/${step}/topic/${topicId}`} >
                                     {topic.title}
                                 </StyledLink>):(<StyledLink aria-label={ checked ? "Reviewed " + topic.title : "Not Reviewed " + topic.title} to={`/steps/${step}/topic/${topicId}`} >
