@@ -69,16 +69,6 @@ const es = () => {
                    Interfaith Center on Corporate Responsibility (ICCR).
                 </a>
                 </p>
-                <ExampleInAction id="clt">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Example in action: Placeholder*</strong>
-                    </h2>
-
-                    <p>
-                        Placeholder
-                    </p>
-                </ExampleInAction>
 
                 <ul>
                     <li>
@@ -128,6 +118,17 @@ const es = () => {
                                     </a>.
                                     </p>
                                 </OwnWords>
+                                <ExampleInAction id="clt">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>Example in action: Placeholder*</strong>
+                    </h2>
+
+                    <p>
+                        Placeholder
+                    </p>
+                </ExampleInAction>
+
             </div>
         </StaticData>
     );
