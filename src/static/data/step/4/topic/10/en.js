@@ -60,16 +60,6 @@ const en = () => {
                                         Workers
                                     </a>{" "}.
                                 </p>
-                                <ExampleInAction id="clt">
-                    <h2>
-                        <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Example in action: Placeholder*</strong>
-                    </h2>
-
-                    <p>
-                        Placeholder
-                    </p>
-                </ExampleInAction>
 
                                 <ul>
                                     <li>
@@ -115,6 +105,16 @@ const en = () => {
                                                        https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html.
                                                        </a>.</p>
                         </OwnWords>
+                        <ExampleInAction id="clt">
+                    <h2>
+                        <ExampleInAction.Icon alt="Lightbulb"/>
+                        <strong>Example in action: Placeholder*</strong>
+                    </h2>
+
+                    <p>
+                        Placeholder
+                    </p>
+                </ExampleInAction>
 
             </div>
         </StaticData>
