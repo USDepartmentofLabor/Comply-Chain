@@ -78,7 +78,7 @@ const LanguageButton = styled.button`
     font-weight: bold;
     border: none;
     width: 155px;
-    height: 50px;
+    height: auto;
 
     &:hover {
         background-color: ${theme.colors.primaryDarker};
