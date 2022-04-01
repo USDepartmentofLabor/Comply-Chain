@@ -90,7 +90,7 @@ class Home extends Component {
                                             <h2>
                                                 <ItemTitle
                                                     to={
-                                                        (`/othersteps/${12}`)
+                                                        (`/othersteps/${11 + 1}`)
                                                     }
                                                 >
                                                     
