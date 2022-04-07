@@ -131,7 +131,7 @@ class StepView extends Component {
                         }
                     },
                     title: stepData.title,
-                    titleString: `othersteps.${step - 1}.title`
+                    titleString: step==11?`other_steps.0.title`:`other_steps.1.title`
                 };
             }
             return items;
