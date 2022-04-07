@@ -147,8 +147,8 @@ class TopicView extends Component {
                     items = {
                         title: stepData.topics[topic - 1].title,
                         stepTitle: stepData.title,
-                        titleString: `other_steps.0.topics.${topic - 1}.title`,
-                        stepTitleString: `other_steps.0.title`,
+                        titleString: `other_steps.1.topics.${topic - 1}.title`,
+                        stepTitleString: `other_steps.1.title`,
                         topicData: stepData.topics[topic - 1].content,
                         prevStep: prevStep && `/othersteps/${prevStep}`,
                         prevTopic: prevTopic && `/othersteps/${step}/topic/${prevTopic}`,
