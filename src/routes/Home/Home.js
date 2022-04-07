@@ -41,8 +41,8 @@ class Home extends Component {
                                 imageDesktopPosition={stepImageData[10].desktop}
                             >
                                 <ItemContent
-                                    bookmarked={storage.bookmarks.containsBookmarks(`steps.${9}`)}
-                                    complete={storage.steps.isStepComplete(9)}
+                                    bookmarked={storage.bookmarks.containsBookmarks(`other_steps.${0}`)}
+                                    complete={storage.steps.isStepComplete(10)}
                                 >
                                     <FlexContent>
                                         
@@ -63,11 +63,11 @@ class Home extends Component {
                                 </ItemContent>
                             </Item>
                             <StatusIcons>
-                                {storage.bookmarks.containsBookmarks(`steps.${9}`)
+                                {storage.bookmarks.containsBookmarks(`other_steps.${0}`)
                                  && (
                                     <BookmarkIcon alt={"Bookmarked"} />
                                 )}
-                                {storage.steps.isStepComplete(9) && <CheckIcon alt="Complete" />}
+                                {storage.steps.isStepComplete(10) && <CheckIcon alt="Complete" />}
                             </StatusIcons>
                         </IconContainer>
                         <IconContainer
@@ -81,8 +81,8 @@ class Home extends Component {
                                 imageDesktopPosition={stepImageData[11].desktop}
                             >
                                 <ItemContent
-                                    bookmarked={storage.bookmarks.containsBookmarks(`steps.${10}`)}
-                                    complete={storage.steps.isStepComplete(10)}
+                                    bookmarked={storage.bookmarks.containsBookmarks(`other_steps.${1}`)}
+                                    complete={storage.steps.isStepComplete(11)}
                                 >
                                     <FlexContent>
                                         
@@ -103,11 +103,11 @@ class Home extends Component {
                                 </ItemContent>
                             </Item>
                             <StatusIcons>
-                                {storage.bookmarks.containsBookmarks(`steps.${10}`)
+                                {storage.bookmarks.containsBookmarks(`other_steps.${1}`)
                                  && (
                                     <BookmarkIcon alt={"Bookmarked"} />
                                 )}
-                                {storage.steps.isStepComplete(10) && <CheckIcon alt="Complete" />}
+                                {storage.steps.isStepComplete(11) && <CheckIcon alt="Complete" />}
                             </StatusIcons>
                         </IconContainer>
     
