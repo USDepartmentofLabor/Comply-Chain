@@ -2,7 +2,6 @@ import { TopicData as Topic1 } from "./1";
 import { TopicData as Topic2 } from "./2";
 import { TopicData as Topic3 } from "./3";
 import { TopicData as Topic4 } from "./4";
-import { TopicData as Topic5 } from "./5";
 // import { TopicData as Topic6 } from "./6";
 
 export const Topics = {
@@ -82,11 +81,6 @@ export const Topics = {
             keywords: [],
             title: "Où, quand et comment la formation devrait-elle se tenir?",
             content: Topic4.fr
-        },
-        {
-            keywords: [],
-            title: "Mécanismes de réclamation",
-            content: Topic5.fr
         }
         // {
         //     keywords: [],
