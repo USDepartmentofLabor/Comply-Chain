@@ -90,7 +90,7 @@ const retrieveBookmark = name => {
  */
 const containsBookmarks = name => {
     const bookmarks = JSON.parse(localStorage.getItem(BOOKMARK_KEY)) || [];
-    const index = bookmarks.findIndex(bookmark => bookmark.name.includes(name));
+    const index = bookmarks.findIndex(bookmark => bookmark.name.startsWith(name));
     return index !== -1;
 };
 /**
