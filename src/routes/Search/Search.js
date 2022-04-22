@@ -431,10 +431,10 @@ class Search extends Component {
                     {query && !searching && (
                     <SearchResultsHeader>
                         {/* <h2 aria-owns="search_result_h2" aria-label={resultsTitle} aria-hidden={false} tabindex="3"> */}
-                        {/* <h2 aria-label={resultsTitle} aria-hidden={false} tabindex="-1">
+                        {/* <h2 aria-label={resultsTitle} aria-hidden={false} tabindex="0">
                         {resultsTitle}
                         </h2> */}
-                        <div role="heading" aria-level="1">
+                        { <div role="heading" aria-level="1">
                            
                             <span aria-label={resultsTitle} aria-hidden={false} tabindex="0">
                                 <h2>
@@ -442,7 +442,7 @@ class Search extends Component {
                                 </h2>
                             </span>
                             
-                        </div>
+                        </div> }
                     </SearchResultsHeader>
                      )}
                 </form>
