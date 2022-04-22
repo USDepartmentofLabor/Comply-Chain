@@ -65,9 +65,7 @@
         "query-string": "^6.2.0",
         "react": "16.8.2",
         "react-app-polyfill": "^0.2.2",
-        "react-dev-utils": "^11.0.4",
-        "webpack-dev-middleware": "^3.7.3",
-        "webpack-hot-middleware": "^2.25.1",
+        "react-dev-utils": "^12.0.0",
         "react-dom": "^16.8.2",
         "react-helmet": "^5.2.0",
         "react-highlight-words": "^0.16.0",
@@ -93,7 +91,9 @@
         "terser-webpack-plugin": "^4.1.0",
         "url-loader": "1.1.2",
         "webpack": "4.46.0",
+        "webpack-dev-middleware": "^3.7.3",
         "webpack-dev-server": "3.11.3",
+        "webpack-hot-middleware": "^2.25.1",
         "webpack-manifest-plugin": "2.0.4",
         "workbox-webpack-plugin": "3.6.3"
     },
@@ -132,7 +132,8 @@
             "cordova-pdf-generator": {},
             "cordova-plugin-statusbar": {},
             "cordova-plugin-file": {},
-            "cordova-plugin-inappbrowser": {}
+            "cordova-plugin-inappbrowser": {},
+            "cordova-plugin-disable-ios11-statusbar": {}
         },
         "platforms": [
             "ios",
@@ -192,6 +193,7 @@
     },
     "devDependencies": {
         "@types/jest": "^24.0.11",
+        "cordova-plugin-disable-ios11-statusbar": "^1.0.0",
         "cordova-plugin-inappbrowser": "^5.0.0",
         "cross-env": "^5.2.0",
         "enzyme": "^3.9.0",
