@@ -8,16 +8,14 @@ const en = () => {
             <div>
                 <h1>Engaging Your Stakeholders </h1>
                  <p>
-                    The list below is not exhaustive and companies should pay special attention
-                    to how local employment structures, specifically the variance of working
-                    arrangements and relationships, may inform engagement with various stakeholders.
-                    Some typical roles that stakeholders can play are highlighted below:
+                 The list below is not exhaustive, and companies should pay special attention to how local employment structures, specifically the variance of working arrangements and relationships, may inform engagement with various stakeholders. Some typical roles that stakeholders can play are highlighted below:
+
                 </p>
 
                       <h2>Company employees</h2>
                         <ul>
                             <li>
-                                Be involved in<strong> code of conduct </strong>
+                            Be involved in understanding and implementing your company’s <strong> code of conduct </strong>
                             </li>
                             <li>
                                 Suggest ways that your team&rsquo;s
