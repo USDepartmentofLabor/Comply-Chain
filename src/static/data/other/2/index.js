@@ -3,7 +3,7 @@ import { Topics } from "./topic";
 
 export const StepData = {
     en: {
-        title: "The Basics of a Social Compliance System",
+        title: "Basics of a Social Compliance System",
         topics: Topics.en,
         keywords: ["Corporate Social Responsibility (CSR)", "Social Compliance System", "Supply Chain"],
         learningObjectives: [
@@ -17,17 +17,17 @@ export const StepData = {
             {
                 termName: "Corporate Social Responsibility (CSR)",
                 termDefinition:
-                    "A broad concept intended to cover how companies integrate social and environmental concerns into their operations and their interactions with stakeholders aside from legal requirements. Many other terms are also used to address such actions, including the “triple bottom line”, “sustainability”, “corporate citizenship”, “environmental, social and governance (ESG)”, and many others. “Corporate accountability” is a term often used to reference companies’ actions that are more closely linked to legal requirements."
+                    "A broad concept intended to cover how companies integrate social and environmental concerns into their operations and interactions with stakeholders aside from legal requirements. Many other terms are also used to address such actions, including the “triple bottom line,” “sustainability,” “corporate citizenship,” “environmental, social, and governance (ESG),” and many others. “Corporate accountability” is a term often used to reference companies’ actions that are more closely linked to legal requirements."
             },
-            {
-                termName: "Social Compliance System",
-                termDefinition:
-                    "One component of a company’s broader CSR, sustainability or accountability program. A social compliance system is an integrated set of policies and practices through which a company seeks to ensure maximum adherence to the elements of its code of conduct that cover social and labor issues. "
-            },
+            // {
+            //     termName: "Social Compliance System",
+            //     termDefinition:
+            //         "One component of a company’s broader CSR, sustainability or accountability program. A social compliance system is an integrated set of policies and practices through which a company seeks to ensure maximum adherence to the elements of its code of conduct that cover social and labor issues. "
+            // },
             {
                 termName: "Supply Chain",
                 termDefinition:
-                    "The chain—or network—that is comprised of all organizations and individuals involved in producing, processing, trading, transporting and/or distributing a product or commodity from its point of origin to the company and/or to the final retailer.  For examples of various supply chains, please refer to Supply Chain Mapping in Step 2: Assess Risks and Impacts"
+                    "The chain or network comprised of all organizations and individuals involved in producing, processing, trading, transporting and/or distributing a product or commodity from its point of origin to the company and/or to the final retailer. For examples of various supply chains, please refer to Supply Chain Mapping in Step 2: Assess Risks and Impacts."
             },
         ],
         furtherResources: Resources.en

@@ -18,11 +18,11 @@ const en = () => {
                     benefit for the communities in which they operate.
                 </p>
                 <ExampleInAction id="cocacola-globalgoal">
-                <h4>
+                <h2>
                 <ExampleInAction.Icon alt="Lightbulb"/>
                 <strong>Example in Action</strong>
                     {": "} Coca-Cola&rsquo;s &rdquo;5by20&rdquo; global goal
-                </h4>
+                </h2>
                 <p>
                     The Coca-Cola Company*, a multinational corporation that operates globally, identified{" "}
                     <a
@@ -83,13 +83,13 @@ const en = () => {
                         
                     </p>
                     </ExampleInAction>
-
+<br></br>
                     <ExampleInAction id="better-work-garment">
-                        <h4>
+                        <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>Example in Action</strong>
                         {": "}Hindustan Unilever&rsquo;s* fair compensation framework
-                        </h4>
+                        </h2>
                         <p>
                             Hindustan Unilever&rsquo;s operations are primarily based in India, where millions of people face extreme levels of rural poverty. 
                             As part of its social compliance system, Hindustan Unilever made a conscious effort to ensure that all workers within their operations, 

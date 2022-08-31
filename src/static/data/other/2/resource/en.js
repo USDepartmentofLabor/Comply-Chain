@@ -14,16 +14,10 @@ const en = () => {
                                     Books, 2009: 112-215.&nbsp;
                                 </li>
                                 <li>
-                                    The International Organization for
-                                    Standardization (ISO) has set a variety of
-                                    standards for management systems, such as
-                                    ISO 17021, ISO Guide 65, ISO 9001, and ISO
-                                    19011. These standards cover issues such as
-                                    impartiality and confidentiality,
-                                    documentation and record control, management
-                                    reviews, personnel qualification criteria,
-                                    audit procedures, appeals and complaints;
-                                    available from{" "}
+                                    The International Organization for Standardization (ISO) has set a variety of standards for management systems, 
+                                    such as ISO 17021, ISO Guide 65, ISO 9001, and ISO 19011. These standards cover issues such as impartiality and 
+                                    confidentiality, documentation and record control, management reviews, personnel qualification criteria, audit 
+                                    procedures, and appeals and complaints; available from{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -43,11 +37,11 @@ const en = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://www.ifc.org/wps/wcm/connect/8804e6fb-bd51-4822-92cf-3dfd8221be28/PS1_English_2012.pdf?MOD=AJPERES&CVID=jiVQIfe"
+                                        href="https://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps1"
                                         title="the elements of effective Environmental and Social Management Systems (ESMS)"
                                     >
-                                        https://www.ifc.org/wps/wcm/connect/8804e6fb-bd51-4822-92cf-3dfd8221be28/PS1_English_2012.pdf?MOD=AJPERES&CVID=jiVQIfe
-                                    </a>
+                                        https://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/policies-standards/performance-standards/ps1
+                                    </a>.
                                 </li>
                                 <li>
                                     Locke, Richard M., Thomas Kochan, Monica
@@ -73,10 +67,10 @@ const en = () => {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://www.ifc.org/wps/wcm/connect/e0e8e968-132a-4dbf-af0b-4b971e4a4b9b/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&CVID=jkD0.wG"
+                                        href="https://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/publications/publications_handbook_laborstandardsperformance"
                                         title="Measure and Improve Your Labor Standards Performance."
                                     >
-                                        https://www.ifc.org/wps/wcm/connect/e0e8e968-132a-4dbf-af0b-4b971e4a4b9b/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&CVID=jkD0.wG
+                                        https://www.ifc.org/wps/wcm/connect/topics_ext_content/ifc_external_corporate_site/sustainability-at-ifc/publications/publications_handbook_laborstandardsperformance
                                     </a>
                                     .
                                 </li>
@@ -86,7 +80,7 @@ const en = () => {
                                     program focused on management systems
                                     development. By participating in the
                                     &ldquo;Social Fingerprint Supply Chain
-                                    Management Program&rdquo;, companies can
+                                    Management Program,&rdquo; companies can
                                     assess their progress in key social
                                     compliance performance areas and access
                                     online training to boost competencies;
@@ -103,7 +97,7 @@ const en = () => {
                                     service.
                                 </li>
                                 <li>
-                                    United Nations Human Rights Council.{" "}
+                                    UN Human Rights Council.{" "}
                                     <em>
                                         Guiding Principles on Business and Human
                                         Rights: Implementing the United Nations
