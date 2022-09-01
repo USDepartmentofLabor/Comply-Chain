@@ -16,7 +16,7 @@ const en = () => {
                                         Independent Assessment of the Better
                                         Work Programme;.
                                     </em>{" "}
-                                    2016 available from{" "}
+                                    2016; available from{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
