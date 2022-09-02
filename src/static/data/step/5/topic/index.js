@@ -36,7 +36,7 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Joining an Existing Code",
+            title: "Join an Existing Code",
             content: Topic6.en
         },
         {

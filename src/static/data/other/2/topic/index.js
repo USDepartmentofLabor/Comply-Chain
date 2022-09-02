@@ -9,7 +9,7 @@ export const Topics = {
     en: [
         {
             keywords: [],
-            title: "Model of a Social Compliance System",
+            title: "Model of a Social Compliance Program",
             content: Topic1.en
         },
         {
