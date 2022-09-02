@@ -6,15 +6,17 @@ export const StepData = {
     en: {
         title: "Why Develop a Social Compliance System?",
         topics: Topics.en,
-        // keywords: ["Stakeholder", "Community"],
+        keywords: ["Social Compliance System"],
         learningObjectives: [
-            "Eradicating child and forced labor and educating children are fundamental government responsibilities.",
-            "Companies’ social compliance programs can help fill critical gaps where governments have not yet developed full capacity – and, as outlined below, they fulfill other important responsibilities and objectives.",
-            "At the same time, they do not substitute for strong government action to protect children and workers, and should not be regarded as adequate substitutes for the responsibilities of governments.",
-            "Companies have a variety of motivations for implementing social compliance systems."
+            "Eradicating child labor and forced labor and educating children are fundamental government responsibilities. Companies’ social compliance programs can help fill critical gaps where governments have not yet developed full capacity; these programs, as outlined below, also fulfill other important responsibilities and objectives. At the same time, companies’ social compliance programs are not a substitute for strong government action to protect children and workers and should not be regarded as adequate substitutes for the responsibilities of governments.",
+            "Companies have a variety of motivations for implementing social compliance systems. These may include laws and regulations, company reputation, shareholder pressure, and other motivations described in this section."
         ],
         keyTerms: [
-            "Some text"
+            {
+                termName: "Social Compliance System",
+                termDefinition:
+                    "A social compliance system is one component of a company’s broader corporate social responsibility (CSR), sustainability, or accountability program. A social compliance system is an integrated set of policies and practices through which a company seeks to ensure maximum adherence to the elements of its code of conduct that cover social and labor issues."
+            },
         ],
         furtherResources: Resources.en
     },
@@ -29,7 +31,11 @@ export const StepData = {
             "Las empresas poseen un abanico de motivaciones para implementar los sistemas de cumplimiento social. A continuación, se mencionan algunos ejemplos."
         ],
         keyTerms: [
-            "Some text"
+            {
+                termName: "Social Compliance System",
+                termDefinition:
+                    "A social compliance system is one component of a company’s broader corporate social responsibility (CSR), sustainability, or accountability program. A social compliance system is an integrated set of policies and practices through which a company seeks to ensure maximum adherence to the elements of its code of conduct that cover social and labor issues."
+            },
         ],
         furtherResources: Resources.es
     },

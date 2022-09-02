@@ -68,6 +68,18 @@ const en = () => {
                         .
                     </li>
                     <li>
+                        <em>
+                            Migration with Dignity: A Guide to Implementing the Dhaka Principles.
+                        </em> 2017; available from{" "}
+                        <a 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="https://www.ihrb.org/uploads/member-uploads/IHRB%2C_Migration_with_Dignity_-_Implementing_the_Dhaka_Principles.pdf" 
+                        href="https://www.ihrb.org/uploads/member-uploads/IHRB%2C_Migration_with_Dignity_-_Implementing_the_Dhaka_Principles.pdf"
+                        >https://www.ihrb.org/uploads/member-uploads/IHRB%2C_Migration_with_Dignity_-_Implementing_the_Dhaka_Principles.pdf
+                        </a>.
+                    </li>
+                    <li>
                          Ethical Trading Initiative. <em>ETI Base Code;</em> available from  {" "}
                              <a
                                  target="_blank"

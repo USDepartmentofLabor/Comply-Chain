@@ -17,7 +17,7 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "UN Guiding Principles on Business and Human Rights and evolving voluntary standards and authoritative norms",
+            title: "Evolving Voluntary Standards and Authoritative Norms",
             content: Topic2.en
         },
         {
@@ -37,7 +37,7 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Loan conditionality",
+            title: "Loan Conditionality and Financial Due Diligence",
             content: Topic6.en
         },
         {
