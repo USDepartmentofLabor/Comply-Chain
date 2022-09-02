@@ -595,7 +595,7 @@ const en = () => {
                                         href="https://www.legislation.gov.au/Details/C2018A00153"
                                     >
                                     Modern Slavery Act 2018
-                                    </a>
+                                    </a>{" "}
                                     came into force. The act requires entities based in or operating in Australia that have an annual consolidated revenue of 
                                     more than AUD $100 million to report on the risks of modern slavery in their operations and supply chains and actions 
                                     taken to address those risks in a modern slavery statement. The statement must also describe risks of modern slavery in 
@@ -655,7 +655,7 @@ const en = () => {
                                         title="Uyghur Human Rights Policy Act"
                                     >
                                     Uyghur Human Rights Policy Act
-                                    </a>
+                                    </a>{" "}
                                      
                                     by expanding that act&rsquo;s authorization of sanctions to cover foreign individuals responsible for human rights abuses related to forced labor. 
                                     The UFPLA requires a strategy that includes: (1) guidance for importers; (2) a list of entities that work with the XUAR government to recruit, 

@@ -184,7 +184,7 @@ const en = () => {
                         href="https://www.ethicaltrade.org/eti-base-code"
                         title="Ethical Trading Initiative Base Code"
                         >Ethical Trading Initiative Base Code</a>.</li>
-                    <li>IHRB&rsquo;s 
+                    <li>IHRB&rsquo;s{" "}
                         <a 
                         target="_blank"
                         rel="noopener noreferrer"

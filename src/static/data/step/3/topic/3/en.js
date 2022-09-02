@@ -134,12 +134,12 @@ const en = () => {
                 <p>Negotiating with local authorities to offer <strong> community-based improvements </strong> alongside corporate investment.</p>
                 <p>Partnering with unions and governments for public workers projects under <strong> Community Workforce Agreements </strong> &ndash; comprehensive pre-hire collective bargaining units that set basic terms and conditions of employment.</p>
                 <ExampleInAction id="engagement_gov_brazil">
-                    <h3>
+                    <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Example in Action: Brazil&rsquo;s &ldquo;Dirty List&rdquo; and the Institute of the National Pact for the Eradication of Slave Labor{" "}
                         </strong>
-                    </h3>
+                    </h2>
                     <p>
                         The Government of Brazil publishes a Register of Employers
                         <em>

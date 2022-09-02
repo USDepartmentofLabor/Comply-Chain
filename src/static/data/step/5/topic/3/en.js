@@ -179,7 +179,7 @@ const en = () => {
                         title="2016 Hewlett Packard Enterprise* policy document"
                     >
                         2016 Hewlett Packard Enterprise* policy document
-                    </a>
+                    </a>{" "}
                     
                     explains the risk-based reasons why the company chose to move to a &ldquo;direct 
                     employment&rdquo; policy.

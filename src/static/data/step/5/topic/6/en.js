@@ -179,7 +179,7 @@ const en = () => {
                         href="https://www.hrw.org/report/2012/06/12/building-better-world-cup/protecting-migrant-workers-qatar-ahead-fifa-2022"
                         title="a history of labor abuses"
                         >a history of labor abuses
-                        </a> 
+                        </a> {" "}
                         and a workforce composed almost entirely of migrant workers. Serious labor issues included the kafala system, which made it illegal for 
                         migrant workers to change jobs or leave the country without their employer&rsquo;s permission, as well as wage theft, poor working 
                         conditions, exploitative recruitment practices, and lack of a minimum wage. Hosting the World Cup for a small country like Qatar would 
