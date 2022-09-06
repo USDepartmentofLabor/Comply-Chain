@@ -10,23 +10,23 @@ export const StepData = {
         learningObjectives: [
             "Understand the distinction between correcting a violation and implementing systems to prevent it from recurring.",
             "Learn about specific actions you can take to correct child labor and forced labor violations and prevent them from recurring.",
-            "Understand the basic structure of a Corrective Action Plan (CAP) as well as options for developing and implementing one."
+            "Understand the basic structure of a Corrective Action Plan (CAP) including CAP development and implementation options."
         ],
         keyTerms: [
             {
                 termName: "Violation",
                 termDefinition:
-                    "A situation identified through an audit, or any other avenue, that is in breach of the code of conduct or other local or international standards."
+                    "A situation identified through an audit or any other avenue that is in breach of the code of conduct or other local or international standards."
             },
             {
                 termName: "Remediation",
                 termDefinition:
-                    "The actions taken in response to an identified violation.  Remediation actions should strive to both fix the problem and prevent it from recurring."
+                    "The actions taken in response to an identified violation. Remediation actions should strive to both fix the problem and prevent it from recurring."
             },
             {
                 termName: "Corrective Action Plan (CAP)",
                 termDefinition:
-                    "A plan of action for remediation of all violations found in a particular audit. "
+                    "A plan of action for remediation of all violations found in a particular audit."
             }
         ],
         // extraInfo: ExtraInfo.en
