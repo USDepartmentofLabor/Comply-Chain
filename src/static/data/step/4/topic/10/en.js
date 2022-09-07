@@ -8,112 +8,45 @@ const en = () => {
         <StaticData>
             <div>
                 <h1>Migrant Workers</h1>
-                                <p>
-                                    Migrants are a category of workers particularly vulnerable to forced labor.
-                                    In the global economy, millions of workers leave their homes for jobs elsewhere
-                                    in their own country or in another part of the world.  Many migrants in search
-                                    of jobs place their trust in labor recruiters or brokers to make transportation
-                                    arrangements and place them in jobs, but many workers find—too late—that their
-                                    wages and employment terms do not match brokers’ promises.  Some migrants incur
-                                    large debts in the recruitment process, and become trapped in debt bondage when
-                                    they cannot repay these debts.  Cycles of debt bondage can also begin when employers
-                                    deduct from workers’ wages for housing, food and other costs, leaving them with little
-                                    or no take-home pay.  Many migrant workers are required to sign contracts in languages
-                                    they can’t read; others have informal employment relationships with no contracts at all.
-                                    Some are required to turn over their identity documents to employers, leaving them without
-                                    the option to escape abusive or exploitative conditions.
-                                </p>
-                                <p>
-                                    If your suppliers use labor brokers to recruit and place
-                                    migrant labor, you may be at risk for forced labor and
-                                    trafficking in your supply chains. Recommended resources on
-                                    this issue include the{" "} the ILO&rsquo;s{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm"
-                                        title="General Principles and Operational Guidelines for Fair Recruitment"
-                                    >
-                                        General Principles and Operational Guidelines for Fair
-                                        Recruitment
-                                    </a>
-                                    , which informs the work of the ILO and of national
-                                    legislatures and other social partners on promoting and
-                                    ensuring fair recruitment and the&nbsp;
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.iccr.org/"
-                                        title="Interfaith Center on Corporate Responsibility&rsquo;s (ICCR)"
-                                    >
-                                        Interfaith Center on Corporate Responsibility&rsquo;s
-                                        (ICCR)
-                                    </a>
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"
-                                        title="Best Practice Guidance on Ethical Recruitment of Migrant Workers"
-                                    >
-                                        {" "}
-                                        Best Practice Guidance on Ethical Recruitment of Migrant
-                                        Workers
-                                    </a>{" "}.
-                                </p>
-
-                                <ul>
-                                    <li>
-                                        <em>
-                                            <strong>Test 1</strong>
-                                        </em>
-                                    </li>
-                                    <li>
-                                        <strong>
-                                            <em>Test 2</em>
-                                        </strong>
-                                    </li>
-                                </ul>
+                <p>Migrants are a category of workers particularly vulnerable to forced labor. In the global economy, millions of workers leave their homes for jobs elsewhere in their own country or in another part of the world. Many migrants in search of jobs place their trust in labor recruiters or brokers to make transportation arrangements and place them in jobs, but many workers find&mdash;too late&mdash;that their wages and employment terms do not match brokers&rsquo; promises. Some migrants incur large debts in the recruitment process and become trapped in debt bondage when they cannot repay these debts. Cycles of debt bondage can also begin when employers deduct from workers&rsquo; wages for housing, food, and other costs, leaving them with little or no take-home pay. Many migrant workers are required to sign contracts in languages they can&rsquo;t read; others have informal employment relationships with no contracts at all. Some workers unknowingly travel abroad without an employment visa or visa of any kind. Once abroad, migrant workers may be required to turn over their identity documents to employers, leaving them without the option to escape abusive or exploitative conditions.</p>
+                <p>If your company or its suppliers employ migrant workers, you should undertake additional due diligence to ensure that the migrant workers that you and your suppliers hire are not at elevated risk for forced labor and trafficking in persons. These risks are particularly high if your suppliers use labor brokers to recruit or place migrant laborers. You should carefully screen migrant workers in your supply chain to identify and remediate illegal recruitment fees, assess whether workers understand the terms of their employment contracts, and ensure workers retain access to their identification documents. At the supplier level, you can begin to assess forced labor risks by understanding whether their policies on migrant worker recruitment and employment align with local labor laws and international labor standards.</p>
+                <p>Recommended resources on this issue include:&nbsp;</p>
+                <ul>
+                    <li>The ILO&rsquo;s <a href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm">General Principles and Operational Guidelines for Fair Recruitment</a>, which informs the work of the ILO and of national legislatures and other social partners on promoting and ensuring fair recruitment. This document also includes ILO&rsquo;s definition of recruitment fees and related costs.</li>
+                    <li><a href="https://www.ilo.org/global/topics/labour-migration/WCMS_778839/lang--en/index.htm">ILO&rsquo;s promising practices for fair recruitment database</a></li>
+                    <li><a href="https://iris.iom.int/">International Organization for Migration&rsquo;s IRIS Standard</a>&nbsp;</li>
+                    <li>The <a href="http://www.iccr.org/">Interfaith Center on Corporate Responsibility&rsquo;s (ICCR)</a><a href="http://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"> Best Practice Guidance on Ethical Recruitment of Migrant Workers</a></li>
+                </ul>
+                <p>The <a href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment">Institute for Human Rights and Business&rsquo; Leadership Group for Responsible Recruitment</a></p>
              <OwnWords>
                                                        <h4>
                                                            <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
-                                                           {": "}
+                                                           {": "} Wage theft against migrant workers during COVID-19
                                                        </h4>
-                                                       <p>
-                                                           “Imagine paying $7,000 to get a job.  That’s what some labor brokers charge
-                                                           migrant workers in Asian countries to place them in factory work in Taiwan,
-                                                           where many factory jobs go wanting these days.  The practice is considered an
-                                                            acceptable part of doing business, though brokers regularly charge above legal limits.
-                                                            Transportation, work visas and other essentials are included.  But paying that kind of
-                                                            money for a factory job is an almost impossible burden for workers already struggling to
-                                                            make a living.”
-                                                       </p>
-                                                       <p>
-                                                       Source: Source: Patagonia,&nbsp;
-                                                       <a
-                                                           target="_blank"
-                                                           rel="noopener noreferrer"
-                                                           href="https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html"
-                                                       >
-                                                       How a Deeper Dive into Our Supply Chain Led to a New Migrant Workers Standard
-                                                       </a>
-                                                       , 2015 at{" "}
-                                                       <a
-                                                          target="_blank"
-                                                          rel="noopener noreferrer"
-                                                          href="https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html"
-                                                      >
-                                                       https://www.patagonia.com/stories/the-unacceptably-high-cost-of-labor-a-new-migrant-worker-standard-from-patagonia/story-17743.html.
-                                                       </a>.</p>
+                                                       <p>Migrant Forum in Asia (MFA)* is a regional network of NGOs, associations, and trade unions committed to protecting and promoting the rights and welfare of migrant workers. Their <em>Justice for Wage Theft</em> reports analyze cases of wage theft documented by MFA and its partners. The latest report, &ldquo;<a href="https://mfasia.org/report-crying-out-for-justice-wage-theft-against-migrant-workers-during-covid-19-volume-3/">Crying Out for Justice</a>&rdquo;, was published in February 2022 and included 2,602 documented cases of wage theft across Asia since June 2020. The report documents wage theft cases in over a dozen sectors during the COVID-19 pandemic and found the largest proportion of cases in the construction sector. Wage theft cases were widely reported in the domestic work sector, disproportionately impacting female workers. In total, the cases described in MFA&rsquo;s report reflect $19.2 million in stolen wages and dues for migrant workers from Bangladesh, India, Indonesia, Nepal, and the Philippines.</p>
+                                                        
+                                                        <p>&ldquo;Wage theft is an umbrella term for a variety of wage and benefit-related violations committed against migrant workers by employers and recruiting agencies. Migrant workers, who commonly navigate multiple legal-policy frameworks in the country of origin, destination (and at times, in transit), found that during COVID-19, few mechanisms created to protect them worked in their favour. Their vulnerability and state (and employer) perceptions of the same, led to ad-hoc decision making. Civil society actors and international observers provided relief and support but further noted that existing international, bilateral, and national mechanisms of emergency support, grievance redressal, labour reforms, and of migrant protections were seldom used to guide such efforts as well.&rdquo;</p>
+                                                        
+                                                        <p>&ldquo;The Justice for Wage Theft Campaign began out of the efforts of civil society and trade unions to draw attention of states and employers to the grave violations of rights regarding migrant workers&rsquo; wages and dues. Issues of constant wage theft and non-payment of compensation and dues have been consistently highlighted by civil society as a systemic problem within labour migration. However, the COVID-19 pandemic had aggravated its occurrence and made it visible. The pandemic further exposed underlying gaps in labour migration (particularly among temporary and contractual migrant workers) and the flawed foundations upon which such migration programs have been established.&rdquo;</p>
+                                                        <p><br />Source: <a href="https://justiceforwagetheft.org/api/files/16454497686693kyxqxz1x2p.pdf">https://justiceforwagetheft.org/api/files/16454497686693kyxqxz1x2p.pdf</a></p>
+                                                        
                         </OwnWords>
+                        <p></p>
+                    
                         <ExampleInAction id="clt">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
-                        <strong>Example in action: Placeholder*</strong>
+                        <strong>Example in action: Walmart’s* investment in ethical recruitment of H-2A workers 
+</strong>
                     </h2>
 
-                    <p>
-                        Placeholder
-                    </p>
+                    <p>As one of the largest sellers of grocery products in America, Walmart* buys millions of dollars of agricultural goods from farms across the country every year. These farms often depend on migrant or seasonal workers from Mexico who come to the United States through the H-2A visa program.&nbsp;</p>
+                    <p>H-2A workers are highly vulnerable to forced labor from the earliest stages of recruitment. Local labor recruiters often promise good jobs in the United States, only to deceive H-2A workers on the nature of their employment. These brokers can charge hundreds of dollars in illegal recruitment fees to workers from poor communities. In some cases, workers pay recruitment brokers for a job that does not exist. Some recruiters and employers also refuse to reimburse workers for their visa and travel costs, which they are required to pay by law. Many H-2A workers borrow money to pay for their recruitment, which may lead to situations of debt bondage and forced labor. In one <a href="https://cdmigrante.org/wp-content/uploads/2018/02/Recruitment_Revealed.pdf"> research study </a> , 52 percent of migrant workers interviewed never received a copy of their employment contract.</p>
+                    <p>In 2016, Walmart established the goal of making responsible recruitment the standard business practice for employers throughout their supply chains by 2026. Since then, the Walmart Foundation has awarded over <a href="https://corporate.walmart.com/esgreport/esg-issues/people-in-supply-chains"> $40 million in grants </a> to promote responsible recruitment of workers in global supply chains, with a particular focus on produce in the United States and Mexico. Walmart also joined the <a href="https://www.ihrb.org/news/walmart-and-ms-join-leadership-group-for-responsible-recruitment"> Leadership Group for Responsible Recruitment </a> , a group of leading companies that aims to address forced labor and human trafficking in migrant worker recruitment.</p>
+                    <p>One practical way that Walmart has made progress toward its commitment on responsible recruitment is by growing the supply of compliant H-2A labor recruiters like CIERTO*, a non-profit international farm labor contractor. <a href="https://ciertoglobal.org/wp-content/uploads/2020/12/10_Practicas_Eng_digital.pdf"> CIERTO has been recognized by the ILO </a> for its recruitment practices, which include its comprehensive predeparture training for migrant workers and the use of independent verification mechanisms to improve labor conditions. In 2021, <a href="https://www.ciertoglobal.org/grant-by-walmart-foundation/"> the Walmart Foundation issued an $800,000 grant to CIERTO </a> to expand its presence in Mexico and the United States, build its training teams and resources, and expand its network of community partners. The goal of the grant is for Walmart and CIERTO to build capacity for the responsible recruitment of H-2A migrant workers in Mexico.&nbsp;</p>
+                    <p>The Department of Labor&rsquo;s Wage and Hour Division enforces the protections afforded to workers recruited or employed by employers using the H-2A non-immigrant visa program. Employers are required to comply with the prohibition on employees paying recruitment fees. The employer must also contractually require third parties, such as recruiters, from seeking or receiving payments from prospective employees. 20 C.F.R. &sect; 655.135. These protections are enforced regardless of immigration status.&nbsp;</p>
+                    <p><em> For more information, visit DOL&rsquo;s H-2A: Temporary Agricultural Employment of Foreign Workers page, available at </em> <a href="https://www.dol.gov/agencies/whd/agriculture/h2a"> <em> https://www.dol.gov/agencies/whd/agriculture/h2a </em> </a> <em> .&nbsp; </em></p>
+                    <p><br /> <em> For more information on Walmart and CIERTO, visit </em> <a href="https://corporate.walmart.com/esgreport/esg-issues/people-in-supply-chains"> <em> https://corporate.walmart.com/esgreport/esg-issues/people-in-supply-chains </em> </a> <em> and </em> <a href="https://www.ciertoglobal.org/"> <em> https://www.ciertoglobal.org/ </em> </a> <em> . </em></p>
                 </ExampleInAction>
 
             </div>

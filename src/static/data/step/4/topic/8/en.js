@@ -6,121 +6,79 @@ const en = () => {
         <StaticData>
             <div>
                 <h1>Social Compliance Data Management</h1>
-                <p>
-                    Many companies face technical challenges in managing the
-                    disparate sets of data gathered and utilized by their
-                    different departments or by external consultants. Legal
-                    compliance and regulatory data may be managed by one unit,
-                    procurement and sourcing by another, human resources by
-                    another, and so forth. This can work if managed well, but if
-                    not, this fragmentation of data can hurt the company in a
-                    number of ways: duplication of effort, which wastes
-                    resources; decision-making based on incomplete information,
-                    which increases risk; and different units of the company
-                    sending opposing messages to suppliers, potentially damaging
-                    business relationships.
-                </p>
-                <p>
-                    Social compliance information is part of this balance. In
-                    many companies, social compliance can be difficult to
-                    integrate with other operations. But if social compliance
-                    data is not effectively used by the company, there are
-                    serious potential risks to the company&rsquo;s reputation
-                    and relationships with stakeholders.
-                </p>
-                <p>
-                    Your social compliance team should have a comprehensive
-                    information system in place. The information system may
-                    include one or several integrated databases. Some of these
-                    databases may actually belong to other business units, such
-                    as a registry of vendors/agencies, suppliers and/or
-                    production sites, but it should be shared and utilized
-                    effectively by all relevant teams.
-                </p>
-                <p>
-                    Data that should be captured and tracked in the information
-                    system include, but are not limited to:
-                </p>
-                <h2>Sourcing data:</h2>
-                <ul>
-                    <li>Countries where products are sourced.</li>
-                    <li>Specific products sourced from each country.</li>
-                    <li>
-                        (If applicable) Vendors/agents that place orders in
-                        specific production facilities.
-                    </li>
-                    <li>
-                        All production facilities from which products are
-                        sourced.
-                    </li>
-                    <li>
-                        Specific products sourced from each production facility.
-                    </li>
-                    <li>
-                        Countries and production facilities under consideration
-                        for product sourcing.
-                    </li>
-                </ul>
-                <h2>Social Compliance data:</h2>
-                <ul>
-                    <li>
-                        Risk assessment data for countries where products are or
-                        may be sourced.
-                    </li>
-                    <li>
-                        Data gathered from stakeholders through ongoing
-                        consultation, regarding countries, labor issues, or
-                        other relevant topics.
-                    </li>
-                    <li>
-                        Grievances and complaints received through established
-                        mechanisms, and how they were handled.
-                    </li>
-                    <li>Audit results.</li>
-                    <li>Independent verification results.</li>
-                    <li>
-                        Remediation models for use in specific situations
-                        involving code violations.
-                    </li>
-                    <li>
-                        Programs and services available in communities to assist
-                        victims of labor abuse, including children.
-                    </li>
-                </ul>
-                <p>
-                    The system should allow you to manage and work with this
-                    data and track patterns. Ultimately, a good information
-                    system will allow you to track, identify and document your
-                    results, successes and areas for improvement.
-                </p>
-                <p>
-                    Source:
-                    <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          href="https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains"
-                      >
-                    https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains
-                   </a>.
-                </p>
-                <p>
-                    <em>
-                        *Note: References to specific companies and
-                        non-governmental entities within this guide are for
-                        informational purposes only to demonstrate best
-                        practices that have been recognized internationally, as
-                        of the app&rsquo;s release date. Referencing the
-                        entities should not be interpreted as an official
-                        endorsement of those entities, their products, or
-                        services by the U.S. Department of Labor{" "}
-                    </em>
-                    <em>
-                        and their inclusion should not be interpreted as a
-                        comprehensive review of these entities&rsquo; practices
-                        in all areas
-                    </em>
-                    <em>.</em>
-                </p>
+                <p>Many companies face technical challenges in managing the disparate sets of data gathered and utilized by their different departments or by external consultants. Legal compliance and regulatory data may be managed by one unit, procurement and sourcing by another, human resources by another, and so forth. This can work if managed well, but if not, this fragmentation of data can hurt the company in a number of ways: duplication of effort, which wastes resources; decision-making based on incomplete information, which increases risk; and different units of the company sending opposing messages to suppliers, potentially damaging business relationships.</p>
+            <p>Social compliance information is part of this balance. In many companies, social compliance can be difficult to integrate with other operations. But if social compliance data is not effectively used by the company, there are serious potential risks to the company&rsquo;s reputation and relationships with stakeholders.</p>
+            <p>Your social compliance team should have a comprehensive information system in place. The information system may include one or several integrated databases. Some of these databases may actually belong to other business units, such as a registry of vendors or agencies, suppliers, or production sites, but it should be shared and utilized effectively by all relevant teams.</p>
+            <p>Data that should be captured and tracked in the information system include, but are not limited to:</p>
+            <p><em>Sourcing data</em></p>
+            <ul>
+            <li>Countries where products are sourced</li>
+            <li>Specific products sourced from each country</li>
+            <li>Vendors or agents that place orders in specific production facilities (if applicable)</li>
+            <li>All production facilities from which products are sourced</li>
+            <li>Specific products sourced from each production facility</li>
+            <li>Countries and production facilities under consideration for product sourcing</li>
+            </ul>
+            <p><em>Social compliance data</em></p>
+            <ul>
+            <li>Risk assessment data for countries where products are or may be sourced</li>
+            <li>Data gathered from stakeholders through ongoing consultation regarding countries, labor issues, or other relevant topics</li>
+            <li>Grievances and complaints received through established mechanisms and how they were handled</li>
+            <li>Audit results</li>
+            <li>Independent verification results</li>
+            <li>Remediation models for use in specific situations involving code violations</li>
+            <li>Programs and services available in communities to assist victims of labor abuse, including children</li>
+            </ul>
+            <p>The system should allow you to manage and work with this data and track patterns. Ultimately, a good information system will allow you to track, identify, and document your results, successes, and areas for improvement.</p>
+            <p>Source: <a href="https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains">https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains</a>.</p>
+            <p><em>* References to specific companies and non-governmental entities within this guide are for informational purposes only to demonstrate best practices that have been recognized internationally, as of the app&rsquo;s release date. Referencing the entities should not be interpreted as an official endorsement of those entities, their products, or services by the U.S. Department of Labor and their inclusion should not be interpreted as a comprehensive review of these entities&rsquo; practices in all areas.</em></p>
+            <p>Further Resources</p>
+            <ol>
+            <li>Better Buying. <em>About Purchasing Practices. </em>[Online, accessed February 18, 2022]; available from <a href="https://betterbuying.org/about-purchasing-practices/">https://betterbuying.org/about-purchasing-practices/</a>.&nbsp;</li>
+            <li>BSR. <em>Conducting an Effective Human Rights Impact Assessment: Guidelines, Steps, and Example. </em>2013;available from <a href="https://www.bsr.org/reports/BSR_Human_Rights_Impact_Assessments.pdf">https://www.bsr.org/reports/BSR_Human_Rights_Impact_Assessments.pdf</a>.</li>
+            <li>Good Jobs First. <em>Violation Tracker. </em>[Online, accessed May 16, 2017]; available from <a href="http://www.goodjobsfirst.org/violation-tracker">http://www.goodjobsfirst.org/violation-tracker</a>.</li>
+            <li>Human Rights Watch. [Online, accessed June 7, 2017]; available from <a href="http://www.hrw.org/">http://www.hrw.org/</a>.</li>
+            <li>IFC. <em>Environmental and Social Management System Implementation Handbook, 2015; </em>available from <a href="http://documents.worldbank.org/curated/en/116191467986337508/pdf/99393-REVISED-ESMS-Handbook-General-v2-1-NEW-DATE-PUBLIC.pdf">http://documents.worldbank.org/curated/en/116191467986337508/pdf/99393-REVISED-ESMS-Handbook-General-v2-1-NEW-DATE-PUBLIC.pdf</a>.</li>
+            <li>IFC. <em>Global Compact, and International Business Leaders Forum, Guide to Human Rights Impact Assessment and Management (HRIAM)</em>. 2010; available from <a href="http://www.ideaspaz.org/tools/download/59336">http://www.ideaspaz.org/tools/download/59336</a>.</li>
+            <li>IFC. <em>Measure and Improve Your Labor Standards Performance &ndash; Performance Standard 2 Handbook, </em>2010; available from <a href="https://www.ifc.org/wps/wcm/connect/e0e8e968-132a-4dbf-af0b-4b971e4a4b9b/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&amp;CVID=jkD0.wG">https://www.ifc.org/wps/wcm/connect/e0e8e968-132a-4dbf-af0b-4b971e4a4b9b/SAI_IFC_LaborHandbook.pdf?MOD=AJPERES&amp;CVID=jkD0.wG</a>.</li>
+            <li>Interfaith Center on Corporate Responsibility. <em>Best Practice Guidance on Ethical Recruitment of Migrant Workers. </em>New York, April 2017; available from <a href="http://www.iccr.org/sites/default/files/iccrsbestpracticeguidanceethicalrecruitment05.09.17_final.pdf">http://www.iccr.org/sites/default/files/iccrsbestpracticeguidanceethicalrecruitment05.09.17_final.pdf</a>.</li>
+            <li>ILO. <em>General principles &amp; operational guidelines for fair recruitment, 2016;</em> available from <a href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm">https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm</a>.</li>
+            <li>ILO. NORMLEX Information System on International Labor Standards, [online, accessed June 7, 2017]; available from <a href="http://www.ilo.org/dyn/normlex/en/f?p=1000:1:0::NO">http://www.ilo.org/dyn/normlex/en/f?p=1000:1:0::NO</a>:::. NORMLEX, the ILO's database of International Labor Standards and national labor and social security laws, has a table of Ratifications of the Fundamental human rights Conventions by country, including UN Conventions pertaining to child labor and forced labor.</li>
+            <li>ILO-IPEC. <em>Child Labor Statistics</em>. [Online, accessed June 7, 2017]; available from <a href="http://www.ilo.org/ipec/ChildlabourstatisticsSIMPOC/lang--en/index.htm">http://www.ilo.org/ipec/ChildlabourstatisticsSIMPOC/lang--en/index.htm</a>. Statistical Information and Monitoring Programme on Child Labour (SIMPOC) is the statistical arm of ILO-IPEC, and provides data on the extent, characteristics, and determinants of child labour. SIMPOC also assists countries in the collection, documentation, processing, and analysis of child labour relevant data.</li>
+            <li>International Trade Union Confederation. <em>Global Rights Index: The World&rsquo;s Worst Countries for Workers. </em>2014;available from <a href="http://www.ituc-csi.org/IMG/pdf/survey_ra_2014_eng_v2.pdf">http://www.ituc-csi.org/IMG/pdf/survey_ra_2014_eng_v2.pdf</a>.&nbsp;</li>
+            <li>Jungk, Margaret, Chichester, Ouida, and Chris Fletcher. &ldquo;In Search of Justice: Pathways to Remedy at the Porgera Gold Mine.&rdquo; Report. BSR (2018), San Francisco.&nbsp;</li>
+            <li>U.S. International Development Finance Corporation. <em>Environmental and Social Policy and Procedures. </em>January 2020; available from <a href="https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf">https://www.dfc.gov/sites/default/files/media/documents/DFC_ESPP_012020.pdf</a>.</li>
+            <li>UNICEF. Multiple Indicator Cluster Surveys, [online, accessed July 29, 2020]; available from <a href="http://mics.unicef.org/">http://mics.unicef.org/</a>. UNICEF regularly conducts Multiple Indicator Cluster Surveys (MICS), household surveys on a range of indicators of children&rsquo;s well-being, including child labor. The MICS reports and datasets are available by country.</li>
+            <li>U.S. Department of Labor. Enforcement Data. [Online, accessed June 7, 2017]; available from <a href="https://enforcedata.dol.gov/homePage.php">https://enforcedata.dol.gov/homePage.php</a>.</li>
+            <li>U.S. Department of Labor, Bureau of International Labor Affairs (ILAB). <em>Executive Order 13126 List.</em> Washington, DC; available from <a href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products">https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-products</a>.</li>
+            <li>U.S. Department of Labor. Bureau of International Labor Affairs (ILAB). <em>Findings on the Worst Forms of Child Labor</em>. Washington, DC; available from <a href="https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings">https://www.dol.gov/agencies/ilab/resources/reports/child-labor/findings</a>.</li>
+            <li>U.S. Department of Labor. Bureau of International Labor Affairs (ILAB). <em>List of Goods Produced by Child Labor or Forced Labor. </em>Washington, DC; available from <a href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods/">https://www.dol.gov/ilab/reports/child-labor/list-of-goods/https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods/</a>.</li>
+            <li>U.S. Department of State. <em>Country Reports on Human Rights Practices</em>. Washington, DC; available from <a href="http://www.state.gov/g/drl/rls/hrrpt/">http://www.state.gov/g/drl/rls/hrrpt/</a>.</li>
+            <li>U.S. Department of State, <a href="https://www.state.gov/j/tip/index.htm">Office to Monitor and Combat Trafficking in Persons</a>. <em>Trafficking in Persons Reports. </em>Washington, DC; available from <a href="https://www.state.gov/j/tip/rls/tiprpt/index.htm">https://www.state.gov/j/tip/index.htm<br />tiprpt/index.htm</a>.</li>
+            <li>Verit&eacute;, <em>Fair Hiring Toolkit; </em>available from <a href="http://helpwanted.verite.org/helpwanted/toolkit">http://helpwanted.verite.org/helpwanted/toolkit</a>.</li>
+            <li>Verit&eacute;, <em>Knowledge Portal;</em> available from <a href="http://knowledge.verite.org/#/map">http://knowledge.verite.org/#/map</a>.</li>
+            <li>Barnes &amp; Noble College. League Collegiate Outfitters Creates Hope and Second Chances in El Salvador. [Online, accessed May 8, 2017]; available from <a href="http://next.bncollege.com/league-collegiate-outfitters/">http://next.bncollege.com/league-collegiate-outfitters/</a>.&nbsp;</li>
+            <li>Business &amp; Human Rights Resource Centre, Business, Conflict &amp; Peace Portal; available from <a href="http://www.business-humanrights.org/ConflictPeacePortal/Home">http://www.business-humanrights.org/ConflictPeacePortal/Home</a>.&nbsp;</li>
+            <li>Chen, Shaohua, and Martin Ravillion. The developing world is poorer than we thought, but no less successful in the fight against poverty. World Bank, Washington, DC, August 26, 2008; available from <a href="http://documents1.worldbank.org/curated/en/526541468262138892/pdf/WPS4703.pdf">http://documents1.worldbank.org/curated/en/526541468262138892/pdf/WPS4703.pdf</a>.&nbsp;</li>
+            <li>Ethical Trading Initiative. Base Code Guidance: Living Wages; available from <a href="https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf">https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_living_wage_guidance_2.pdf</a>.&nbsp;</li>
+            <li>Fair Labor Association. <em>Fair Compensation.</em> [Online, accessed May 15, 2017]; available from <a href="http://www.fairlabor.org/report-type/fair-compensation">http://www.fairlabor.org/report-type/fair-compensation</a>.</li>
+            <li>Fair Labor Association. <em>Fair Compensation for Farmworkers: Emerging Good Practices and Challenges. </em>February 27, 2017; available from <a href="http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges">http://www.fairlabor.org/report/fair-compensation-farmworkers-emerging-good-practices-and-challenges</a>.</li>
+            <li>Fair Labor Association. <em>Toward Fair Compensation in Global Supply Chains: Factory Pay Assessments in 21 Countries. </em>August 3, 2016; available from <a href="http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries">http://www.fairlabor.org/report/toward-fair-compensation-global-supply-chains-factory-pay-assessments-21-countries</a>.</li>
+            <li>ILO. Global Wage Report 2016/17: Wage inequality in the workplace, 2016; available from <a href="https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_537846.pdf">https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_537846.pdf</a>.</li>
+            <li>ILO. <em>Corporate Social Responsibility (CSR)</em> [webpage]; available from <a href="http://www.ilo.org/ipec/Action/CSR/lang--en/index.htm">http://www.ilo.org/ipec/Action/CSR/lang--en/index.htm</a>.</li>
+            <li>ILO. Non-Standard Employment Around the World&mdash;Understanding Challenges, Shaping Prospects, 2016; available from <a href="http://www.ilo.org/global/publications/books/WCMS_534326/lang--en/index.htm">http://www.ilo.org/global/publications/books/WCMS_534326/lang--en/index.htm</a>.</li>
+            <li>ILO. The Informal Economy and Decent Work&mdash;A Policy Resource Guide for Supporting Transitions to Formality, 2013; available from <a href="http://www.ilo.org/emppolicy/pubs/WCMS_212688/lang--en/index.htm">http://www.ilo.org/emppolicy/pubs/WCMS_212688/lang--en/index.htm</a>.</li>
+            <li>ILO. World Employment Social Outlook&mdash;The Changing Nature of Jobs, 2015; available from <a href="http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_368626.pdf">http://ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_368626.pdf</a>. Note that as of 2015, the World of Work Report has been replaced by a new annual ILO flagship series, the World Employment and Social Outlook (WESO).</li>
+            <li>ILO. World Social Protection Report: Building economic recovery, inclusive development and social justice, 2014; available from <a href="http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--en/index.htm">http://www.ilo.org/global/research/global-reports/world-social-security-report/2014/lang--en/index.htm</a>.</li>
+            <li>ISEAL Alliance. <em>Global Living Wage Coalition.</em> [Online, accessed May 15, 2017]; available from <a href="https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition">https://www.isealalliance.org/our-work/improving-effectiveness/global-living-wage-coalition</a>.</li>
+            <li>New York Times. <em>At Salvadoran Factory, Helping Troubled Youth Makes Business Sense. </em>September 21, 2015; available from <a href="https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0.">https://www.nytimes.com/2015/09/22/world/americas/at-salvadoran-factory-helping-troubled-youth-makes-business-sense.html?_r=0</a>.</li>
+            <li>Weil, David. The Fissured Workplace: Why Work Became So Bad for So Many and What Can Be Done to Improve It. Cambridge, MA: Harvard University Press, 2014.</li>
+            <li>Wilshaw, Rachel; Hamilton, Sloane; Theroux-Seguin, Julie; and Daisy Gardener. <em>In Work but Trapped in Poverty: A Summary of Five Studies Conducted by Oxfam, with Updates on Progress Along the Road to a Living Wage. </em>Oxfam International, September 29, 2015; available from <a href="http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815">http://policy-practice.oxfam.org.uk/publications/in-work-but-trapped-in-poverty-a-summary-of-five-studies-conducted-by-oxfam-wit-578815</a>.</li>
+            <li>World Bank. 2017 World Development Indicators. Washington, DC, April 2017; available from <a href="http://data.worldbank.org/data-catalog/world-development-indicators">http://data.worldbank.org/data-catalog/world-development-indicators</a>.</li>
+            <li>World Bank Institute. Business and Poverty: Opening Markets to the Poor. Washington, DC, June 2008; available from <a href="http://documents1.worldbank.org/curated/en/220861468140985450/pdf/444910WBWP0BOX327404B01public1.pdf">http://documents1.worldbank.org/curated/en/220861468140985450/pdf/444910WBWP0BOX327404B01public1.pdf</a>.</li>
+            <li>World Bank. Fragility, Conflict and Violence. Overview, 2017; available from <a href="http://www.worldbank.org/en/topic/fragilityconflictviolence/overview">http://www.worldbank.org/en/topic/fragilityconflictviolence/overview</a>.</li>
+            </ol>
+            <p>Internal Displacement Monitoring Centre. Global Report on Internal Displacement 2021; available from <a href="https://www.internal-displacement.org/global-report/grid2021/">https://www.internal-displacement.org/global-report/grid2021/</a>.</p>
             </div>
         </StaticData>
     );
