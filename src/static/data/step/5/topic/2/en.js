@@ -9,25 +9,17 @@ const en = () => {
             <div>
                 <h1>What Makes a Good Code of Conduct?</h1>
                 <p>
-                    Codes take nearly as many forms and formats as there are
-                    companies. Some codes are stand-alone documents, while
-                    others are presented within broader statements of company
-                    mission, values or policies. Some are included in supplier
-                    guidance documents that include other requirements, such as
-                    product quality. Increasingly, companies are including code
-                    of conduct language in multiple documents, as social
-                    compliance considerations become more interwoven within
-                    corporate strategy across business units.
+                    Codes take nearly as many forms and formats as there are companies. Some codes are stand-alone documents, while others 
+                    are presented within broader statements of company mission, values, or policies. Some are included in supplier guidance 
+                    documents that include other requirements, such as product quality. Increasingly, companies are including code of conduct 
+                    language in multiple documents, as social compliance considerations become more interwoven within corporate strategy across 
+                    business units.
                 </p>
                 <p>
-                    Some code documents are very general&mdash;merely laying out
-                    the broad areas of compliance&mdash;while others are much
-                    more detailed. In either case, the code typically is a
-                    foundation for more detailed guidance for the
-                    decision-makers who implement the social compliance system
-                    within the company. For instance, the auditing tools derived
-                    from a code are discussed under{" "}
-                    <Link to="/steps/7">Step 5, Monitor Compliance</Link>.
+                    Some code documents are very general&mdash;merely laying out the broad areas of compliance&mdash;while others are much more 
+                    detailed. In either case, the code typically is a foundation for more detailed guidance for the decision-makers who implement 
+                    the social compliance system within the company. For instance, the auditing tools derived from a code are discussed under{" "}
+                    <Link to="/steps/5">Step 5, Monitor Compliance</Link>.
                 </p>
                 <h2>Example Codes</h2>
                 <p>
@@ -43,6 +35,26 @@ const en = () => {
                             title="Levi Strauss &amp; Co*. Terms of Engagement"
                         >
                             Levi Strauss &amp; Co*. Terms of Engagement
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.apple.com/supplier-responsibility/pdf/Apple-Supplier-Code-of-Conduct-and-Supplier-Responsibility-Standards.pdf"
+                            title="Apple* Supplier Code of Conduct"
+                        >
+                            Apple* Supplier Code of Conduct
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://corporate.walmart.com/media-library/document/standards-for-suppliers-english/_proxyDocument?id=0000015c-e70f-d3b4-a57e-ff4f3f510000"
+                            title="Walmart* Standards for Suppliers (Product Suppliers)"
+                        >
+                            Walmart* Standards for Suppliers (Product Suppliers)
                         </a>
                     </li>
                     <li>
@@ -68,21 +80,17 @@ const en = () => {
                     </li>
                 </ul>
                 <p>
-                    A good code of conduct should be a public document and state
-                    clearly the actors within the company that are responsible
-                    for its development, oversight and implementation which
-                    should include the Board of Directors and senior management,
-                    as well as all of the business units involved in social
-                    compliance. Publishing the code communicates to all of your
-                    stakeholders that social compliance is valued at the highest
-                    levels of the company and that the company expects to be
-                    scrutinized for its degree of compliance.&nbsp;
+                    A good code of conduct should be a public document and state clearly the actors within the company who are responsible for its development, 
+                    oversight, and implementation, which should include the Board of Directors and senior management, as well as all the business units involved 
+                    in social compliance. Publishing the code communicates to all your stakeholders that social compliance is valued at the highest levels of the 
+                    company and that the company expects to be scrutinized for its degree of compliance. Codes of conduct should also detail links to contractual 
+                    controls, supply chain risk reduction, and enforcement mechanisms, such as terminating relationships with suppliers due to violations of child 
+                    labor and forced labor violations.
+
                 </p>
                 <h2>The Content of Codes</h2>
                 <p>
-                    The content of codes has become more standardized in recent
-                    years, consolidating around core content areas that
-                    generally include:
+                    The content of codes has become more standardized in recent years, consolidating around core content areas that generally include:
                 </p>
                 <ul>
                     <li>Governance and management of the code</li>
@@ -95,53 +103,56 @@ const en = () => {
                     <li>
                         Environmental standards{" "}
                         <em>
-                            (note: while these standards are often included in
-                            the larger code of conduct, they are not discussed
-                            further in this app due to its focus on child labor
-                            and forced labor)
+                            (note: while these standards are often included in the larger code of conduct, they are not discussed further in this app, which focuses 
+                            on child labor and forced labo)
                         </em>
                     </li>
                     <li>
-                        Management systems, procedures and practice for
-                        implementation
+                        Management systems, procedures and practice for implementation
                     </li>
                     <li>
-                        Legal liabilities and penalties for failure to implement
-                        code provisions
+                        Legal liabilities and penalties for failure to implement code provisions
                     </li>
                 </ul>
                 <p>
-                    With respect to labor standards, a strong code should
-                    address areas covered by the International Labor
-                    Organization&rsquo;s (ILO) core labor standards:
+                    With respect to labor standards, a strong code should address areas covered by the International Labor Organization&rsquo;s (ILO) core 
+                    labor standards, which are a set of{" "}
+                    <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href="https://www.ilo.org/declaration/lang--en/index.htm"
+                            title="Fundamental Principles and Rights at Work"
+                        >
+                            Fundamental Principles and Rights at Work
+                        </a>
+                    :
+
                 </p>
                 <ul>
-                    <li>Freedom of association and collective bargaining</li>
-                    <li>Discrimination in employment</li>
-                    <li>Child labor</li>
-                    <li>Forced labor</li>
-                </ul>
-                <p>In addition, it should cover the following issues:</p>
-                <ul>
+                    <li>Freedom of association and the effective recognition of the right to collective bargaining;</li>
+                    <li>Elimination of all forms of forced or compulsory labor;</li>
+                    <li>The effective abolition of child labor; and,</li>
+                    <li>Elimination of discrimination in respect of employment and occupation</li>
+           
+                    <li>Occupational safety and health, including issues such as industrial hygiene, emergency preparedness, safety equipment, 
+                        sanitation, and access to food and water</li>
+                    <li>In addition, a code of conduct should cover the following issues:</li>
                     <li>Compensation</li>
                     <li>Hours of work</li>
-                    <li>
-                        Occupational safety and health, including issues such as
-                        industrial hygiene, emergency preparedness, safety
-                        equipment, sanitation, and access to food and water
-                    </li>
+                    <li>Subcontracting, informal and ad-hoc contract work</li>
                 </ul>
                 <h2>Core ILO Convention</h2>
                 <p>
-                    The International Labor Organization (ILO) has adopted
-                    standards, referred to as conventions and recommendations,
-                    in all of these areas. When a national government ratifies a
-                    convention, it is expected to take the necessary measures to
-                    ensure that its laws and practices conform to the provisions
-                    of the convention. The country is also expected to report to
-                    the ILO periodically on its implementation of each
-                    convention it has ratified. The ILO&rsquo;s core labor
-                    standards are set forth in the Declaration on{" "}
+                    The International Labor Organization (ILO) is a UN specialized agency that brings together representatives of governments, trade unions, 
+                    and employers&rsquo; associations to promote social justice and internationally recognized human and labor rights by setting and supervising 
+                    the application of conventions and recommendations, as well as promoting decent work and providing technical support to governments, trade 
+                    unions, and employers. The ILO has adopted standards, referred to as conventions and recommendations, in the five categories of Fundamental 
+                    Principles and Rights as Work and others. When a national government ratifies a convention, it is expected to take the necessary measures to 
+                    ensure that its laws and practices conform to the provisions of the convention. The country is also expected to report to the ILO periodically 
+                    on its implementation of each convention it has ratified.
+                </p>
+                <p>
+                    The ILO&rsquo;s core labor standards are set forth in the Declaration on{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -150,14 +161,13 @@ const en = () => {
                     >
                         Fundamental Principles and Rights at Work
                     </a>{" "}
-                    as rights that all governments should ensure are realized,
-                    regardless of whether the government has ratified the
-                    corresponding convention or not. Governments that have not
-                    ratified the corresponding conventions must periodically
-                    report to the ILO on the realization of those rights.
+                    as rights that all governments should ensure are realized, regardless of whether the government has ratified the corresponding convention or not. 
+                    Governments that have not ratified the corresponding conventions must periodically report to the ILO on the realization of those rights.
+
                 </p>
                 <p>
-                    The following constitute the{" "}
+                    The fundamental rights are enshrined in eight ILO conventions and are considered the minimum enabling rights people need to defend and improve 
+                    their rights and conditions at work. The following constitute the{" "}
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -166,10 +176,25 @@ const en = () => {
                     >
                         set of core ILO conventions
                     </a>
-                    , though the ILO has additional conventions on compensation,
-                    occupational safety and health and other related labor
-                    issues.
+                    , though the ILO has additional conventions on 
+                    compensation, and other related labor issues. Until June 2022, there have been four categories of Fundamental Principles and Rights at Work. On 
+                    the occasion of the 110th International Labor Conference, the ILO{" "}
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_848132/lang--en/index.htm"
+                        title="adopted a resolution adding a fifth category"
+                    >
+                        adopted a resolution adding a fifth category
+                    </a>
+                    
+                    : occupational safety and health. 
+                    As each of the fundamental principles is associated with the most relevant ILO conventions, the ILO has added two conventions to the set of core 
+                    ILO conventions: Occupational Safety and Health Convention, 1981 (No. 155) and Promotional Framework for Occupational Safety and Health, 2006 
+                    (No. 187).
+
                 </p>
+                
                 <ul>
                 <li>
                 <p>
@@ -292,6 +317,32 @@ const en = () => {
                     . This is supplemented by Recommendation 111.
                 </p>
                 </li>
+                <li>
+                    <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C155"
+                        title="Occupational Safety and Health Convention, 1981 (No. 155)"
+                    >
+                        Occupational Safety and Health Convention, 1981 (No. 155)
+                    </a>
+                    .
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:::NO:12100:P12100_ILO_CODE:C187:NO"
+                        title="Promotional Framework for Occupational Safety and Health, 2006 (No. 187)"
+                    >
+                        Promotional Framework for Occupational Safety and Health, 2006 (No. 187)
+                    </a>
+                    .
+                    </p>
+                </li>
                 </ul>
                 <p>
                     The{" "}
@@ -303,17 +354,11 @@ const en = () => {
                         ILO&rsquo;s Tripartite Declaration of Principles
                         Concerning Multinational Enterprises and Social Policy
                     </a>
-                    , adopted in 1977 states that, although ILO conventions are
-                    designed for governments, the underlying principles in them
-                    can and should be applied by companies.Today, most
-                    companies, industries and multi-industry coalitions with
-                    codes base their labor standards on the ILO conventions. In
-                    cases where national laws set lower standards than the ILO
-                    conventions&mdash;for example, with respect to the minimum
-                    age for work&mdash;companies should incorporate the ILO
-                    standard into their codes. Where national laws are equal to
-                    or more stringent than ILO standards, the code should meet
-                    or exceed national laws.
+                    , adopted in 1977, states that although ILO conventions are designed for governments, the underlying principles in them can and should be 
+                    applied by companies. Today, most companies, industries, and multi-industry coalitions with codes base their labor standards on the ILO 
+                    conventions. In cases where national laws set lower standards than the ILO conventions&mdash;for example, with respect to the minimum age 
+                    for work&mdash;companies should incorporate the ILO standard into their codes. Where national laws are equal to or more stringent than ILO 
+                    standards, the code should meet or exceed national laws.
                 </p>
                 <p>
                     Since 2010, the ILO has maintained a{" "}
@@ -325,11 +370,8 @@ const en = () => {
                     >
                         Helpdesk for Business on International Labor Standards
                     </a>
-                    . This is a free and confidential service providing expert
-                    technical advice to users on the ILO&rsquo;s international
-                    labor standards and on the Tripartite Declaration of
-                    Principles Concerning Multinational Enterprises and Social
-                    Policy.
+                    . This is a free and confidential service providing expert technical advice to users on the ILO&rsquo;s international labor standards and on the 
+                    Tripartite Declaration of Principles Concerning Multinational Enterprises and Social Policy.
                 </p>
             </div>
         </StaticData>

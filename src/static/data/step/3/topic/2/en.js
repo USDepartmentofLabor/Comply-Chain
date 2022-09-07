@@ -66,15 +66,16 @@ const en = () => {
                         <em>, 2010</em> available from https://documentation.lastradainternational.org/lsidocs/3078-ISO%2026000_2010.pdf.
                     </p>
                 </OwnWords>
+                <br></br>
                 <ExampleInAction id="better-work-garment">
-                                    <h4>
+                                    <h2>
                                         <ExampleInAction.Icon alt="Lightbulb"/>
                                         <strong>Example in Action</strong>
                                         {": "}
                                         <em>
                                             <strong>Engaging cocoa supply chain stakeholders to tackle child labor</strong>
                                         </em>{" "}
-                                    </h4>
+                                    </h2>
                                     <p>Nestl&eacute;* is one of the world&rsquo;s largest purchasers of cocoa, a labor-intensive crop at risk of being produced under conditions of child labor. USDOL&rsquo;s&nbsp;<a href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods?tid=All&field_exp_good_target_id=5771&field_exp_exploitation_type_target_id_1=All&items_per_page=10">List of Goods Produced by Child Labor or Forced Labor</a> includes cocoa for six West African countries for child labor and two for forced labor.&nbsp;<a href="https://www.dol.gov/agencies/ilab/our-work/child-forced-labor-trafficking/child-labor-cocoa">C&ocirc;te d&rsquo;Ivoire and Ghana alone produce nearly 60% of the world&rsquo;s cocoa</a>, creating significant social compliance risks for companies like Nestl&eacute; and their suppliers who source cocoa from the region.</p>
 
                                     <p>Though Nestl&eacute; has implemented policies and programs to address the risk of child labor in cocoa production for many years, such as the&nbsp;<a href="https://www.nestlecocoaplan.com/">Nestl&eacute; Cocoa Plan</a> launched in 2009, its understanding of the root causes of child labor began to grow as it increased its stakeholder engagement. In 2012, Nestl&eacute; published a&nbsp;<a href="https://www.nestle.com/sites/default/files/asset-library/documents/creating%20shared%20value/rural_development/fla_final_cocoa_report.pdf">report by the Fair Labor Association</a>* aimed at mapping stakeholders in Nestl&eacute;&rsquo;s cocoa supply chain, mapping Nestl&eacute;&rsquo;s supply chain in C&ocirc;te d&rsquo;Ivoire, and assessing labor risks with a particular focus on child labor. The study found that the socioeconomic situations of farmers and their families, cultural attitudes and perceptions, issues linked with migration, and factors related to armed conflict were among the root causes driving the risk of child labor. It also helped identify dozens of stakeholders involved in Nestl&eacute;&rsquo;s cocoa supply chain in C&ocirc;te d&rsquo;Ivoire. These included governmental and intergovernmental stakeholders, such as the ILO and the C&ocirc;te d&rsquo;Ivoire Ministry of Labor; non-governmental stakeholders, such as the World Cocoa Foundation* and International Cocoa Initiative (ICI)*; business stakeholders, including Nestl&eacute;&rsquo;s first-tier suppliers; and sharecroppers, workers, and village-level committees.</p>
