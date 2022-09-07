@@ -17,7 +17,7 @@ export const StepData = {
             {
                 termName: "Public Reporting",
                 termDefinition:
-                    "Communication that is made available to the public, through a variety of channels, about all elements of a company’s social compliance system."
+                    "Communication that is made available to the public through a variety of channels about all elements of a company’s social compliance systems."
             }
         ],
         furtherResources: Resources.en,

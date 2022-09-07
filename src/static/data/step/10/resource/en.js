@@ -7,125 +7,99 @@ const en = () => {
             <div>
                 <ol>
                     <li>
-                    Fair Labor Association. Workplace Monitoring Reports. [online, accessed August 4, 2020]; 
-                    available from {" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.fairlabor.org/transparency/workplace-monitoring-reports"
-                            title="Fair Labor Association Workplace Monitoring Reports"
-                        >
-                            https://www.fairlabor.org/transparency/workplace-monitoring-reports
-                        </a>
-                    .
-                    </li>
-                    <li>
-                    Google. Google Transparency Report. [online, accessed August 4, 2020]; available from {" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://transparencyreport.google.com/"
-                            title="Google Transparency Report"
-                        >
-                            https://transparencyreport.google.com/
-                        </a>
-                    
-                    .
-                    </li>
-                    <li>
-                        Global Reporting Initiative, the UN Global Compact and
-                        Realizing Rights.{" "}
-                        <em>
-                            Corporate Human Rights Reporting: An Analysis of
-                            Current Trends
-                        </em>
-                        ; the Ethical Globalization Initiative, November 2009;
-                        available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="http://www.globalreporting.org/resourcelibrary/Human_Rights_analysis_trends.pdf"
-                            title="Corporate Human Rights Reporting: An Analysis of Current Trends"
-                        >
-                            https://www.globalreporting.org/resourcelibrary/Human_Rights_analysis_trends.pdf
+                        Fair Labor Association. Workplace Monitoring Reports. [Online, accessed August 4, 2020]; available from {" "}
+                        <a 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="https://www.fairlabor.org/transparency/workplace-monitoring-reports" 
+                        href="https://www.fairlabor.org/transparency/workplace-monitoring-reports"
+                        >https://www.fairlabor.org/transparency/workplace-monitoring-reports
                         </a>.
                     </li>
                     <li>
-                    GSK. Human rights and modern slavery. [online, accessed August 4, 2020]; available from {" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.gsk.com/en-gb/responsibility/operating-responsibly/human-rights-and-modern-slavery/"
-                            title="GSK Human rights and modern slavery"
-                        >
-                            https://www.gsk.com/en-gb/responsibility/operating-responsibly/human-rights-and-modern-slavery/
-                        </a>
-                    .
-                    </li>
-                    <li>
-                    HP. Sustainable Impact. [online, accessed August 4, 2020]; available from {" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www8.hp.com/us/en/hp-information/global-citizenship/index.html/"
-                            title="HP Sustainable Impact"
-                        >
-                            https://www8.hp.com/us/en/hp-information/global-citizenship/index.html
-                        </a>
-                    .
-                    </li>
-                    <li>
-                    Nestlé. Tackling Child Labor. 2019 Report; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.nestle.com/sites/default/files/2019-12/nestle-tackling-child-labor-report-2019-en.pdf"
-                            title="Nestlé Tackling Child Labort"
-                        >
-                            https://www.nestle.com/sites/default/files/2019-12/nestle-tackling-child-labor-report-2019-en.pdf
+                        Google. Google Transparency Report. [Online, accessed August 4, 2020]; available from {" "}
+                        <a 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="https://transparencyreport.google.com/" 
+                        href="https://transparencyreport.google.com/"
+                        >https://transparencyreport.google.com/
                         </a>.
                     </li>
                     <li>
-                        Shift and Mazars. <em>UNGP Reporting Database</em>.
-                        [online, accessed May 16, 2016]; available from{" "}
-                        <a
+                        Global Reporting Initiative, the UN Global Compact and Realizing Rights. <em>Corporate Human Rights Reporting: An Analysis 
+                            of Current Trends</em>. The Ethical Globalization Initiative, November 2009; available from {" "}
+                            <a 
                             target="_blank"
                             rel="noopener noreferrer"
-                            href="http://www.ungpreporting.org/reportingdatabase/.%20"
-                        >
-                            http://www.ungpreporting.org/reportingdatabase/.
-                        </a>
-                    </li>
-
+                            title="https://www.globalcompact.de/migrated_files/wAssets/docs/Menschenrechte/Ocai/human_rights_analysis_trends.pdf" 
+                            href="https://www.globalcompact.de/migrated_files/wAssets/docs/Menschenrechte/Ocai/human_rights_analysis_trends.pdf"
+                            >https://www.globalcompact.de/migrated_files/wAssets/docs/Menschenrechte/Ocai/human_rights_analysis_trends.pdf
+                            </a>.
+                        </li>
                     <li>
-                        United Nations Children&rsquo;s Fund, Children&rsquo;s
-                        rights in sustainability reporting: A guide for
-                        incorporating children&rsquo;s rights into GRI-based
-                        reporting, Geneva; 2014; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.unicef.org/csr/css/Childrens_Rights_in_Reporting_Second_Edition_HR.pdf"
-                            title="United Nations Children&rsquo;s Fund, Children&rsquo;s rights in sustainability reporting: A guide for incorporating children&rsquo;s rights into GRI-based reporting"
-                        >
-                            https://www.unicef.org/csr/css/Childrens_Rights_in_Reporting_Second_Edition_HR.pdf
-                        </a>
-                        .
+                        GSK. Human rights and modern slavery. [Online, accessed August 4, 2020]; available from {" "}
+                        <a 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="https://www.gsk.com/en-gb/responsibility/operating-responsibly/human-rights-and-modern-slavery/" 
+                        href="https://www.gsk.com/en-gb/responsibility/operating-responsibly/human-rights-and-modern-slavery/"
+                        >https://www.gsk.com/en-gb/responsibility/operating-responsibly/human-rights-and-modern-slavery/
+                        </a>.
                     </li>
                     <li>
-                        United Nations Global Compact and the Stichting Global
-                        Reporting Initiative (GRI), Making the Connection: Using
-                        the GRI G4 Guidelines to Communicate Progress on the UN
-                        Global Compact Principles, 2013; available from{" "}
-                        <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href="https://www.globalreporting.org/resourcelibrary/UNGC-G4-linkage-publication.pdf"
-                            title="United Nations Global Compact and the Stichting Global Reporting Initiative (GRI)"
-                        >
-                            https://www.globalreporting.org/resourcelibrary/UNGC-G4-linkage-publication.pdf
-                        </a>
+                        HP. Sustainable Impact. [Online, accessed August 4, 2020]; available from {" "}
+                        <a 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="https://www.hp.com/us-en/hp-information/sustainable-impact/people.html" 
+                        href="https://www.hp.com/us-en/hp-information/sustainable-impact/people.html"
+                        >https://www.hp.com/us-en/hp-information/sustainable-impact/people.html
+                        </a>.
                     </li>
+                    <li>
+                        <u>Nestl</u><u>&eacute;</u><u>. <em>Tackling Child Labor</em>. 2019 Report; available from </u>{" "}
+                        <a 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="https://www.nestle.com/sites/default/files/2019-12/nestle-tackling-child-labor-report-2019-en.pdf" 
+                        href="https://www.nestle.com/sites/default/files/2019-12/nestle-tackling-child-labor-report-2019-en.pdf"
+                        >https://www.nestle.com/sites/default/files/2019-12/nestle-tackling-child-labor-report-2019-en.pdf
+                        </a><u>.</u>
+                    </li>
+                    <li>
+                        Shift and Mazars. <em>UNGP Reporting Database</em>. [Online, accessed May 16, 2016]; available from {" "}
+                        <a 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="http://www.ungpreporting.org/reportingdatabase/" 
+                        href="http://www.ungpreporting.org/reportingdatabase/"
+                        >http://www.ungpreporting.org/reportingdatabase/
+                        </a>.
+                    </li>
+                    <li>
+                        UNICEF. Children&rsquo;s rights in sustainability reporting: A guide for incorporating children&rsquo;s rights 
+                        into GRI-based reporting. Geneva, 2014; available from {" "}
+                        <a 
+                        title="https://www.unicef.org/csr/css/Childrens_Rights_in_Reporting_Second_Edition_HR.pdf" 
+                        href="https://www.unicef.org/csr/css/Childrens_Rights_in_Reporting_Second_Edition_HR.pdf"
+                        >https://www.unicef.org/csr/css/Childrens_Rights_in_Reporting_Second_Edition_HR.pdf
+                        </a>.
+                    </li>
+                    <li>
+                        UN Global Compact and the Stichting Global Reporting Initiative (GRI). Making the Connection: Using the GRI G4 
+                        Guidelines to Communicate Progress on the UN Global Compact Principles, 2013; available from {" "}
+                        <a 
+                        title="https://www.globalreporting.org/resourcelibrary/UNGC-G4-linkage-publication.pdf" 
+                        href="https://www.globalreporting.org/resourcelibrary/UNGC-G4-linkage-publication.pdf"
+                        >https://www.globalreporting.org/resourcelibrary/UNGC-G4-linkage-publication.pdf
+                        </a>{" "}
+                        <a 
+                        title="https://www.unglobalcompact.org/library/306" 
+                        href="https://www.unglobalcompact.org/library/306"
+                        >https://www.unglobalcompact.org/library/306
+                        </a>.
+                        </li>
                 </ol>
             </div>
         </StaticData>
