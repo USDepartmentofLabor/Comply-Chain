@@ -13,99 +13,21 @@ const en = () => {
         <StaticData>
             <div>
                 <h1>Audit Tools</h1>
-                <p>
-                    Audit tool formats vary; some are on paper (later
-                    transcribed into an electronic system), while others are
-                    programmed into handheld electronic devices. Electronic
-                    tools are not necessarily superior to paper-based ones, but
-                    they do allow for greater efficiency and quicker reporting
-                    back to non-field-based team members.
-                </p>
-                <p>
-                    Audit tools are essentially sets of questions that flow
-                    directly from the code of conduct; in a sense, they
-                    &ldquo;translate&rdquo; the broader statements in the code
-                    into specific data points that must be gathered to assess
-                    compliance with the code.
-                </p>
-                <p>
-                    For example, with respect to child labor, a code of conduct
-                    might say:
-                </p>
+                <p>Audit tool formats vary; some are on paper (later transcribed into an electronic system), while others are programmed into handheld electronic devices. Electronic tools are not necessarily superior to paper-based ones, but they do allow for greater efficiency and quicker reporting back to non-field-based team members.</p>
+                <p>Audit tools are essentially sets of questions that flow directly from the code of conduct; in a sense, they &ldquo;translate&rdquo; the broader statements in the code into specific data points that must be gathered to assess compliance with the code.</p>
+                <p>For example, with respect to child labor, a code of conduct might say:</p>
                 <ul>
-                    <li>
-                        Suppliers shall not employ children under age 15 or the
-                        minimum age for work as defined by local law, whichever
-                        is higher.
-                    </li>
+                    <li>Suppliers shall not employ children under age 15 or the minimum age for work as defined by local law, whichever is higher.</li>
                 </ul>
-                <p>
-                    Based on this code provision, the audit tool would then
-                    guide the auditor to examine issues such as:
-                </p>
+                <p>Based on this code provision, the audit tool would then guide the auditor to examine issues such as:</p>
                 <ul>
-                    <li>
-                        What proof of age documentation is required at the time
-                        of hire? How is this documentation verified? Where is
-                        proof of age documentation kept?
-                    </li>
-                    <li>
-                        If there are children under age 15 in the facility, are
-                        they working in a legal apprenticeship or training
-                        program? What documentation does the facility keep to
-                        verify that this is a legitimate apprenticeship or
-                        training program?
-                    </li>
-                    <li>
-                        Are they doing &ldquo;light work&rdquo; as defined in
-                        local law or international standards? How does the
-                        facility define and document &ldquo;light work&rdquo;?
-                    </li>
-                    <li>
-                        What are the working conditions of all persons under age
-                        18? What specific tasks are they performing? What
-                        equipment are they using? Can any of these tasks or
-                        equipment be hazardous?
-                    </li>
-                    <li>
-                        How does the facility distinguish between hazardous and
-                        non-hazardous tasks, and how is the facility ensuring
-                        that persons under 18 do not engage in hazardous tasks
-                        in violation of international law?
-                    </li>
+                    <li>What proof of age documentation is required at the time of hire? How is this documentation verified? Where is proof of age documentation kept?</li>
+                    <li>If there are children under age 15 in the facility, are they working in a legal apprenticeship or training program? What documentation does the facility keep to verify that this is a legitimate apprenticeship or training program?</li>
+                    <li>Are children doing &ldquo;light work&rdquo; as defined in local law and international standards? How does the facility define and document light work?</li>
+                    <li>What are the working conditions of all persons under age 18? What specific tasks are they performing? What equipment are they using? Can any of these tasks or equipment be hazardous?</li>
+                    <li>How does the facility distinguish between hazardous and non-hazardous tasks, and how is the facility ensuring that persons under 18 do not engage in hazardous tasks in violation of international law?</li>
                 </ul>
-                <p>
-                    Forced labor is an extremely complex labor rights violation
-                    that can take many forms. The ILO&rsquo;s{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_099626/lang--en/index.htm"
-                        title="Combating Forced Labour: A Handbook for Employers and Business, Booklet 4"
-                    >
-                        <em>
-                            Combating Forced Labour: A Handbook for Employers
-                            and Business, Booklet 4
-                        </em>
-                    </a>
-                    <em>, </em>contains a useful checklist and guidance for
-                    auditors and compliance personnel to identify forced labor
-                    at the enterprise level and in global supply chains. In
-                    2016, the ILO also launched a mobile app,{" "}
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="http://www.ilo.org/global/publications/WCMS_456961/lang--en/index.htm"
-                        title="Checkpoints for Companies: Eliminating and Preventing Forced Labour"
-                    >
-                        Eliminating and Preventing Forced Labour: Checkpoints
-                    </a>
-                    , which allows companies, auditors, and compliance personnel
-                    to create interactive checklists to help eliminate and
-                    prevent forced labor in business operations. The below
-                    questions, excerpted from an ILO publication, can help an
-                    auditor identify specific forms of forced labor.&nbsp;
-                </p>
+                <p>Forced labor is an extremely complex labor rights violation that can take many forms. The ILO&rsquo;s <a href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_099626/lang--en/index.htm">Combating Forced Labour: A Handbook for Employers and Business, Booklet 4</a>contains a useful checklist and guidance for auditors and compliance personnel to identify forced labor at the enterprise level and in global supply chains. In 2016, the ILO also launched the mobile app <a href="https://www.ilo.org/global/publications/WCMS_460489/lang--en/index.htm">Eliminating and Preventing Forced Labour: Checkpoints</a> which allows companies, auditors, and compliance personnel to create interactive checklists to help eliminate and prevent forced labor in business operations. The questions below, excerpted from an ILO publication, can help an auditor identify specific forms of forced labor.</p>
                 <Accordion id="recruitment-indicator-acc">
                <Accordion.Section id="recruitment-indicator-description">
                   <Accordion.Title>

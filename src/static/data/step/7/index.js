@@ -8,24 +8,25 @@ export const StepData = {
         topics: Topics.en,
         keywords: ["Social Audit", "Auditing", "Monitoring"],
         learningObjectives: [
+            "Learn good practices for setting up and maintaining grievance mechanisms.",
+            "Understand what an effective compliance monitoring system involves.",
             "Understand the personnel requirements for your auditing activities.",
             "Know what tools your auditors need to do their job.",
             "Decide how you will schedule audits.",
             "Understand the components and flow of a typical audit.",
-            "Learn good practices for managing, analyzing and using audit data.",
-            "Placeholder 1",
-            "Placeholder 2"
+            "Learn good practices for managing, analyzing, and using audit data."
+
         ],
         keyTerms: [
             {
                 termName: "Social Audit",
                 termDefinition:
-                    "The process of examining a specific worksite’s compliance with the standards set in the company’s code of conduct. The term “audit” is used throughout the app to refer to social auditing, but should not be confused with financial and other types of auditing undertaken by companies. Social auditing is one of the key ways—in addition to engagement with unions/workers and grievance mechanisms—to obtain information about violations of a company’s code of conduct in your supply chain.  Auditing uncovers problems; it does not solve problems.  It is one piece of the larger social compliance system, and cannot and should not be done in isolation from stakeholder engagement, communication, remediation and the other steps in the process."
+                    "The process of examining a specific worksite’s compliance with the standards set in the company’s code of conduct. The term “audit” is used throughout the app to refer to social auditing but should not be confused with financial and other types of auditing undertaken by companies. Social auditing is one of the primary ways—in addition to engagement with unions and workers and grievance mechanisms—to obtain information about violations of a company’s code of conduct in your supply chain. Auditing uncovers problems; it does not solve problems. It is one piece of the larger social compliance system along with stakeholder engagement, communication, remediation, and the other steps in the process."
             },
             {
                 termName: "Monitoring",
                 termDefinition:
-                    "For the purposes of this app, synonymous with auditing."
+                    "For the purposes of this app, compliance monitoring is synonymous with auditing."
             }
         ],
         furtherResources: Resources.en
