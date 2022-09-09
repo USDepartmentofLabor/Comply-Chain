@@ -24,7 +24,7 @@ const en = () => {
                     </a>{" "}
                     (ILO), a specialized UN agency that brings together
                     governments, employers&rsquo;, and workers&rsquo;
-                    representatives of&nbsp;
+                    representatives from&nbsp;
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -52,10 +52,10 @@ const en = () => {
                             <a
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C182"
-                                    title="ILO Convention 182"
+                                    href="https://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138"
+                                    title="ILO Convention 138"
                                 >
-                                    ILO Convention 182
+                                    ILO Convention 138
                                 </a>{" "}
                                 requires countries to establish a minimum age for work no less than the age of compulsory schooling, and no less than 15 years. 
                                 It allows less-developed countries to establish a minimum age of 14.
@@ -85,7 +85,7 @@ const en = () => {
                                 </li>
                                 <li>
                                 Work which, by its nature or the circumstances in which it is carried out, is likely to harm the health, safety, or morals of 
-                                children (referred to as &ldquo;hazardous work&ldquo;).
+                                children (referred to as &ldquo;hazardous work&rdquo;).
                                 </li>
                             </ol>
                             <p>
@@ -103,7 +103,7 @@ const en = () => {
                                 </a>
                                 , which accompanies ILO Convention 182, gives additional guidance on identifying “hazardous work.” ILO Recommendation No. 190 states 
                                 in Section II, Paragraph 3 that “[i]n determining the types of work referred to under Article 3(d) of the Convention [ILO Convention 182], 
-                                and in identifying where they exist, consideration should be given, <em>inter alia to</em>:
+                                and in identifying where they exist, consideration should be given, <em>inter alia</em>{" "}to:
                             </p>
                             <ol>
                                 <li>
@@ -138,7 +138,7 @@ const en = () => {
                             <p>
                                 It is important to recognize that not all work performed by children is exploitative child labor. Children of legal working age 
                                 who perform work that does not hinder their mental, physical, or emotional development are “working children” under international 
-                                standards and can be an asset to their family&rdquo;s welfare and their nation&rdquo;s economic development. Such work can include performing 
+                                standards and can be an asset to their family&rsquo;s welfare and their nation&rsquo;s economic development. Such work can include performing 
                                 household chores in their own homes, assisting parents in a family business outside of school hours, and working in non-hazardous 
                                 activities after school or during vacations to earn extra income.
                             </p>
@@ -164,19 +164,19 @@ const en = () => {
                             </p>
                             <h3>Child Labor Estimates</h3>
                             <p>
-                                The ILO&rdquo;s{" "}
+                                The ILO&rsquo;s{" "}
                                 <a
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         href="https://www.ilo.org/wcmsp5/groups/public/---ed_norm/---ipec/documents/publication/wcms_797515.pdf"
                                         Title="Child Labour: Global Estimates 2020, Trends and the Road Forward report"
                                     >
-                                Child Labour: Global Estimates 2020, Trends and the Road Forward report
+                                <em>Child Labour: Global Estimates 2020, Trends and the Road Forward report</em>
                                 </a>
                                 {" "}noted that there were 160 million child laborers—63 million girls and 97 million boys&mdash;worldwide. Since the most recent 2016 estimates, the 
                                 absolute number of children in child labor has increased by more than 8 million, while the proportion of children in child labor remained unchanged. 
                                 Global child labor statistics are not yet available from 2020 onward. Of the 160 million child laborers, the most recent estimates indicate that 70.0 
-                                percent are engaged in agriculture, 19.7 percent in services, and 10.3 percent in industry. Regionally, sub&mdash;Saharan Africa accounts for the highest 
+                                percent are engaged in agriculture, 19.7 percent in services, and 10.3 percent in industry. Regionally, sub-Saharan Africa accounts for the highest 
                                 regional percentage of children in child labor and the highest absolute number of children in child labor&mdash;86.6 million. Central and Southern Asia 
                                 accounts for 5.5 percent of all child laborers, or 26.3 million in absolute terms. Behind that region, Eastern and South-Eastern Asia accounts for 
                                 6.2 percent of all child laborers, or 24.3 million in absolute terms. Northern Africa and Western Asia, Latin America and the Caribbean, and Europe 
@@ -193,7 +193,7 @@ const en = () => {
                                     <Accordion.Panel>
                                         <ol>
                                             <li>
-                                                ILO and United Nations Children&rdquo;s Fund, Child Labour: Global estimates 2020, trends and the road forward. New York, 2021. License: CC BY 4.0.
+                                                ILO and United Nations Children&rsquo;s Fund, Child Labour: Global estimates 2020, trends and the road forward. New York, 2021. License: CC BY 4.0.
                                             </li>
                                             <li>
                                                 ILO. Accelerating action against child labour; Global Report under the follow-up to the ILO Declaration on Fundamental Principles and Rights at Work; 
@@ -339,7 +339,7 @@ const en = () => {
                                         ILO Convention 29
                                     </a>
                                 . According to this Convention, 
-                                forced or compulsory labor as &rdquo;all work or service which is exacted from any person under the menace of any penalty and for which the 
+                                forced or compulsory labor as &ldquo;all work or service which is exacted from any person under the menace of any penalty and for which the 
                                 said person has not offered himself voluntarily.&rdquo; There are four key elements to this definition and indicators related to each element, 
                                 as set forth below. The combination of indicators for each situation must be analyzed to determine whether the situation is one of forced 
                                 labor or not.
@@ -353,7 +353,7 @@ const en = () => {
                                     <em>Any person:</em> This refers to adults and children.
                                 </li>
                                 <li>
-                                    <em>Menace of any penalty:</em> This refers to a worker believing he or she will face a penalty if they refuse to work. &rdquo;Menace&rdquo; means 
+                                    <em>Menace of any penalty:</em> This refers to a worker believing he or she will face a penalty if they refuse to work. &ldquo;Menace&rdquo; means 
                                     the penalty need not be exacted, but rather, that threats of penalty may be sufficient, if the employee believes the employer will exact 
                                     the penalty. A wide variety of penalties, such as confinement to the workplace, violence against workers or family members, retention of 
                                     identity documents, dismissal from employment, and non-payment of wages, denunciation to authorities, or other loss of rights or privileges, 
@@ -470,10 +470,10 @@ const en = () => {
                                     Trafficking in Persons, especially Women and
                                     Children"
                                 </a>{" "}
-                                of 2000 (a protocol to the UN Convention Against Transnational Organized Crime) as &rdquo;the recruitment, transportation, transfer, harboring or 
+                                of 2000 (a protocol to the UN Convention Against Transnational Organized Crime) as &ldquo;the recruitment, transportation, transfer, harboring or 
                                 receipt of persons, by means of the threat or use of force or other forms of coercion, abduction, fraud, deception, the abuse of power or a 
                                 position of vulnerability, or of the giving or receiving of payments or benefits to achieve the consent of a person having control over 
-                                another person, for the purpose of exploitation.&rdquo; As set out in this protocol, exploitation includes, at a minimum, &rdquo;the exploitation of the 
+                                another person, for the purpose of exploitation.&rdquo; As set out in this protocol, exploitation includes, at a minimum, &ldquo;the exploitation of the 
                                 prostitution of others or other forms of sexual exploitation, forced labor or services, slavery or practices similar to slavery, servitude or 
                                 the removal of organs.&rdquo;
                             </p>
