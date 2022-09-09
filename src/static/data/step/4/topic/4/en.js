@@ -2,7 +2,6 @@ import React from "react";
 import Accordion from "../../../../../../components/Accordion";
 import StaticData from "../../../../../../components/StaticData";
 import cocoaSupplyChains from "../../../../../images/cocoa_supply_chains.png";
-import genericImport from "../../../../../images/generic_import.png";
 import electronics from "../../../../../images/electronics.jpg";
 import minerals from "../../../../../images/minerals.jpg";
 import seafood from "../../../../../images/seafood.jpg";
@@ -37,7 +36,7 @@ const en = () => {
                 </p>
                 <p>
                     To be clear, mapping supply chains does not necessarily imply that a company is responsible for all impacts and risks associated with every entity in the chain. As stated in the
-                    <a href="https://www.google.com/search?q=un+guiding+principles+on+business+and+human+rights&amp;rlz=1C1GCEA_enUS976US977&amp;oq=un+guiding+princ&amp;aqs=chrome.1.69i57j69i59j69i60l3j69i65l2j69i60.2263j0j4&amp;sourceid=chrome&amp;ie=UTF-8">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=un+guiding+principles+on+business+and+human+rights&amp;rlz=1C1GCEA_enUS976US977&amp;oq=un+guiding+princ&amp;aqs=chrome.1.69i57j69i59j69i60l3j69i65l2j69i60.2263j0j4&amp;sourceid=chrome&amp;ie=UTF-8">
                         UN Guiding Principles on Business and Human Rights
                     </a>
                     UN Guiding Principles on Business and Human Rights, &ldquo;where business enterprises have large numbers of entities in their value chains it may be unreasonably difficult to conduct due diligence for adverse human rights impacts across them all. If so, business enterprises should identify general areas where the risk of adverse human rights impacts is more significant, whether due to certain suppliers&rsquo; or clients&rsquo; operating context, the particular operations, products or services involved, or other relevant considerations, and prioritize those for human rights due diligence.&rdquo; This prioritization process is addressed below.

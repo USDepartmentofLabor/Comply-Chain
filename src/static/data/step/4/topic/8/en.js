@@ -30,7 +30,7 @@ const en = () => {
             <li>Programs and services available in communities to assist victims of labor abuse, including children</li>
             </ul>
             <p>The system should allow you to manage and work with this data and track patterns. Ultimately, a good information system will allow you to track, identify, and document your results, successes, and areas for improvement.</p>
-            <p>Source: <a href="https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains">https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains</a>.</p>
+            <p>Source: <a target="_blank" rel="noopener noreferrer" href="https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains">https://www.bsr.org/en/our-insights/report-view/perspectives-on-information-management-in-sustainable-supply-chains</a>.</p>
             <p><em>* References to specific companies and non-governmental entities within this guide are for informational purposes only to demonstrate best practices that have been recognized internationally, as of the app&rsquo;s release date. Referencing the entities should not be interpreted as an official endorsement of those entities, their products, or services by the U.S. Department of Labor and their inclusion should not be interpreted as a comprehensive review of these entities&rsquo; practices in all areas.</em></p>
             </div>
         </StaticData>

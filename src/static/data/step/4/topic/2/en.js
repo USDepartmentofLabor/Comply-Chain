@@ -11,7 +11,7 @@ const en = () => {
                 </p>
                 <p>
                     For instance, it is widely acknowledged that rush orders and last-minute changes in specifications can cause problems in production facilities with respect to worker hours, working conditions, compensation issues, outsourcing, and risks of forced labor. Similarly, companies may have social compliance systems in place that collect and track data on their suppliers&rsquo; compliance with their code of conduct, yet they continue placing orders with suppliers that have poor compliance records. This sends a signal to suppliers that social compliance does not really matter and negates any incentive to improve performance. The best way to mitigate these impacts is to integrate social compliance within all relevant units of a company. One resource that discusses this issue in depth is{" "}
-                    <a href="http://www.asyousow.org/reports/best-current-practices-in-purchasing-the-apparel-industry">
+                    <a target="_blank" rel="noopener noreferrer" href="http://www.asyousow.org/reports/best-current-practices-in-purchasing-the-apparel-industry">
                         As You Sow&rsquo;s
                         <em>
                             Best Current Practices in Purchasing: The Apparel Industry
