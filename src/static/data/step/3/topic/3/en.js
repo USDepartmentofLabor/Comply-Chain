@@ -152,13 +152,9 @@ const en = () => {
                         ), of employers who have been found by government inspectors to be subjecting workers to &ldquo;conditions analogous to slavery.&rdquo; Before being added to the list, employers can enter into court orders or Terms of Adjustment in Conduct (TAC), requiring them to pay all wages due to workers and adopt preventive measures. Employers who do not adopt or fail to comply with court orders or TAC are added to the list. Listed companies are banned from acquiring credit from state-owned banks and may be refused credit from some private banks. Violators are kept on the list for 2 years and removed only if they have discontinued use of forced labor and paid all wages due to workers. All government labor inspection data is available to the public.
                     </p>
                     <p>
-                        &nbsp;
-                    </p>
-                    <p>
                         The Dirty List as a tool is complemented by the work of civil society actors like the Institute of the National Pact for the Eradication of Slave Labor* (InPACTO). InPACTO engages the private sector, civil society organizations, multilateral organizations, and government agencies to prevent and eliminate forced labor in supply chains. Companies or business associations that become members of InPACTO commit to cutting commercial ties with individuals or businesses on the Dirty List, monitoring their supply chains, providing training to employees and suppliers on forced labor, and supporting social reintegration programs for workers freed from forced labor, among other actions. More than 40 companies and six business associations are part of InPACTO.
                     </p>
                     <p>
-                        <br />
                         For more information, visit InPACTO at {" "}
                         <a target="_blank" rel="noopener noreferrer" href="http://inpacto.org.br/">
                         http://inpacto.org.br/.

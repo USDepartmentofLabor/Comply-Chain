@@ -26,7 +26,7 @@ const en = () => {
                     <p className="indent-margin">
                     A successful social compliance program must make a significant investment in training and capacity-building (See <Link to="/steps/4">
                         Step 4: Communicate and Train Across Your Supply Chain
-                    </Link>{" "}). Involving stakeholders can have a variety of benefits; for instance, stakeholders can help you ensure that training materials are culturally appropriate. You can find helpful lessons learned and good practices regarding training from USDOL’s <a href="https://www.dol.gov/agencies/ilab/projects" target="_blank" >technical assistance projects</a> and other initiatives.
+                    </Link>{" "}). Involving stakeholders can have a variety of benefits; for instance, stakeholders can help you ensure that training materials are culturally appropriate. You can find helpful lessons learned and good practices regarding training from USDOL’s <a href="https://www.dol.gov/agencies/ilab/projects" target="_blank" rel="noopener noreferrer">technical assistance projects</a> and other initiatives.
                     </p>
                     <h2>Communication</h2>
                     <p className="indent-margin">

@@ -12,7 +12,7 @@ const en = () => {
                             Is the Organization Investigating Apple's Factories
                             Good Enough?
                         </em>{" "}
-                        Forbes.com. March 5, 2012. available at{" "}
+                        Forbes.com. March 5, 2012; available at{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -27,9 +27,9 @@ const en = () => {
                         Casey, Roseann.{" "}
                         <em>
                             Meaningful Change: Raising the Bar in Supply Chain
-                            Workplace Standards
+                            Workplace Standards, 
                         </em>
-                        , Working Paper No., 29, Corporate Social Responsibility
+                        Working Paper No., 29, Corporate Social Responsibility
                         Initiative. November 2006; available from{" "}
                         <a
                             target="_blank"
@@ -67,7 +67,7 @@ const en = () => {
                     </li>
                     <li>
                         ILO, IOE.{" "}
-                        <em>Child Labour Guidance Tool for Business</em>, 2015{" "}
+                        <em>Child Labour Guidance Tool for Business</em>, 2015.{" "}
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -94,14 +94,14 @@ const en = () => {
                         Perrez-Aleman, Paola, and Marion Sandilands.
                         &ldquo;Building Value at the Top and the Bottom of the
                         Global Supply Chain: MNC-NGO Partnerships&rdquo;,{" "}
-                        <em>California Management Review</em> 51, no. 1 (Fall
+                        <em>California Management Review</em> 51, No. 1 (Fall
                         2008): 24-49.
                     </li>
                     <li>
                         Van Tulder, Rob, Jeroen van Wijk, and Ans Kolk,
                         &ldquo;From Chain Liability to Chain Responsibility: MNE
                         Approaches to Implement Safety and Health Codes in
-                        International Supply Chains&rdquo;,
+                        International Supply Chains,&rdquo;
                         <em> Journal of Business Ethics</em> 85, Supplement 2
                         (2009): 399-412.
                     </li>
