@@ -160,7 +160,7 @@ const en = () => {
                     <p>
                         <br />
                         For more information, visit InPACTO at {" "}
-                        <a href="http://inpacto.org.br/">
+                        <a target="_blank" rel="noopener noreferrer" href="http://inpacto.org.br/">
                         http://inpacto.org.br/.
                         </a>
                         

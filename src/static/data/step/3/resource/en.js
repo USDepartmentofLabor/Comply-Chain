@@ -106,7 +106,7 @@ const en = () => {
                         (2009): 399-412.
                     </li>
                     <li>
-                        S. Department of Labor. Bureau of International Labor
+                        U.S. Department of Labor. Bureau of International Labor
                         Affairs (ILAB).{" "}
                         <em>
                             List of Goods Produced by Child Labor or Forced
