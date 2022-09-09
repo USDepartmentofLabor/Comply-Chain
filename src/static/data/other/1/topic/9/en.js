@@ -9,7 +9,7 @@ const en = () => {
         <StaticData>
             <div>
                 <h1>
-                    <strong>Doing good</strong>
+                    <strong>Doing Good</strong>
                 </h1>
                 <p>
                     For some companies, having a social compliance system is
@@ -21,7 +21,7 @@ const en = () => {
                 <h2>
                 <ExampleInAction.Icon alt="Lightbulb"/>
                 <strong>Example in Action</strong>
-                    {": "} Coca-Cola&rsquo;s &rdquo;5by20&rdquo; global goal
+                    {": "} Coca-Cola&rsquo;s &ldquo;5by20&rdquo; global goal
                 </h2>
                 <p>
                     The Coca-Cola Company*, a multinational corporation that operates globally, identified{" "}
@@ -36,13 +36,13 @@ const en = () => {
                         impacting their business including human rights and workplace conditions. Coca-Cola works towards this 
                         priority through a Human Rights Policy, auditing thousands of suppliers to validate compliance, and engaging 
                         third parties to evaluate labor rights risks, such as risks present in the sugar supply chain. Coca-Cola 
-                        notes that investing in social compliance, such as ensuring inclusivity in the workplace, is &rdquo;both the right 
+                        notes that investing in social compliance, such as ensuring inclusivity in the workplace, is &ldquo;both the right 
                         thing to do and a strategic business priority&rdquo;. 
                     </p>
                     <p>
                         To that end, their sustainability initiatives include both compliance and social programs that address structural 
                         inequalities, including programs that address barriers that women face around the world. In 2010, Coca-Cola announced their 
-                        &rdquo;5by20&rdquo; global initiative at the UN Headquarters in New York City. This initiative aimed to facilitate the 
+                        &ldquo;5by20&rdquo; global initiative at the UN Headquarters in New York City. This initiative aimed to facilitate the 
                         economic empowerment of 5 million women entrepreneurs across their supply chains by 2020. 
                     </p>
                     <p>
@@ -59,7 +59,7 @@ const en = () => {
                         for women, their families, and their communities.” 
                     </p>
                     <p>
-                        Read more about Coca-Cola&rsquo;s &rdquo;5by20&rdquo; goal here:{" "}
+                        Read more about Coca-Cola&rsquo;s &ldquo;5by20&rdquo; goal here:{" "}
                         <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -94,7 +94,7 @@ const en = () => {
                             Hindustan Unilever&rsquo;s operations are primarily based in India, where millions of people face extreme levels of rural poverty. 
                             As part of its social compliance system, Hindustan Unilever made a conscious effort to ensure that all workers within their operations, 
                             from the factory floor to office workers, received wages that were well above the statutory minimum. Such efforts are integrated into 
-                            Unilever&rsquo;s Responsible Sourcing Policy, which aims to make &rdquo;a positive social impact on the lives of millions of people in our 
+                            Unilever&rsquo;s Responsible Sourcing Policy, which aims to make &ldquo;a positive social impact on the lives of millions of people in our 
                             supply chains around the world.&rdquo; Their approach is to ensure implementation of mandatory requirements among their suppliers while also 
                             advancing good practices above and beyond minimum requirements. 
                         </p>
@@ -109,7 +109,7 @@ const en = () => {
                             fair compensation framework 
                             </a>
                             {" "}
-                            is one such good practice. Described as a &rdquo;living wage,&rdquo; these wages considered market indicators such as inflation, commodity prices, 
+                            is one such good practice. Described as a &ldquo;living wage,&rdquo; these wages considered market indicators such as inflation, commodity prices, 
                             gender disparities, and standards of living. This commitment to a living wage ensured that employees would be able to provide not just 
                             for themselves but their families as well. 
                         </p>

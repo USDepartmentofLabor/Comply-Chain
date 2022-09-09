@@ -40,16 +40,10 @@ const en = () => {
                     <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://business-humanrights.org/en/national-movements-for-mandatory-human-rights-due-diligence-in-european-countries"
+                        href="https://www.business-humanrights.org/en/latest-news/national-regional-movements-for-mandatory-human-rights-environmental-due-diligence-in-europe/"
                     >
                     governmental and civil society movements for mandatory human rights due diligence in European countries</a>
-                    &nbsp;as part of its resources on&nbsp;
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://www.business-humanrights.org/en/big-issues/mandatory-due-diligence/"
-                    >
-                    mandatory due diligence </a>
+                    .
                 </p>
                 <p>Some examples of laws and regulations follow; contact the entities that enforce them for the most up-to-date information.</p>
                 <ul id="law-list">
@@ -72,8 +66,8 @@ const en = () => {
                             Executive Order 13126, Prohibition of Acquisition of
                             Products Produced by Forced or Indentured Child
                             Labor, and its implementing regulations
-                        </a>
-                        &nbsp;signed in 1999, requires the USDOL to publish a&nbsp;
+                        </a>,
+                        &nbsp;signed in 1999, requires USDOL to publish a&nbsp;
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -110,7 +104,7 @@ const en = () => {
                                     that manufacture products to report on “conflict minerals” in corporate supply chains under Section 1502. Congress enacted Section 1502 
                                     because of concerns that the exploitation and trade of conflict minerals by armed groups helps finance conflict in the Democratic Republic 
                                     of the Congo (DRC) and contributes to an emergency humanitarian crisis in the region. The law requires reporting companies that submit SEC 
-                                    filings to disclose annually whether products they manufacture contain tin, tantalum, tungsten, or gold (together considered &rdquo;conflict minerals&rdquo; 
+                                    filings to disclose annually whether products they manufacture contain tin, tantalum, tungsten, or gold (together considered &ldquo;conflict minerals&rdquo; 
                                     under the provision) from the DRC or an adjoining country, and, if so, whether the conflict minerals finance or benefit armed groups in and near 
                                     the DRC.&nbsp;
                                 </p>
@@ -138,126 +132,112 @@ const en = () => {
                                 </strong>
                             </Accordion.Title>
                             <Accordion.Panel>
-                                <p>
-                                    The{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
-                                    >
-                                        California Transparency in Supply Chains
-                                        Act
-                                    </a>
-                                    , which was signed into law in October 2010 and went into effect in January 2012, requires certain companies to report on 
-                                    their specific actions to eradicate slavery and human trafficking in their supply chains. The law is aimed at mid-size and 
-                                    large retailers and manufacturing companies having worldwide annual revenues of $100 million or more. Its chief goal is to 
-                                    ensure companies provide consumers with information that enables consumers to understand which companies manage their supply 
-                                    chains responsibly. It is estimated that this reporting requirement could impact about 3,200 companies headquartered in California 
-                                    or doing business in the state.
-                                </p>
-                                <p>
-                                    The law requires a company to disclose on its website its initiatives to eradicate slavery and human trafficking from its direct 
-                                    supply chain for the goods offered for sale. A company must disclose to what extent it: (1) engages in verification of product 
-                                    supply chains to evaluate and address risks of human trafficking and slavery; (2) conducts audits of suppliers; (3) requires 
-                                    direct suppliers to certify that materials incorporated into the product comply with the laws regarding slavery and human 
-                                    trafficking of the countries in which they are doing business; (4) maintains accountability standards and procedures for employees 
-                                    or contractors that fail to meet company standards regarding slavery and human trafficking; and (5) provides employees and management 
-                                    training on slavery and human trafficking.&nbsp;
-                                </p>
-                                <p>
-                                    See also{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.verite.org/the-california-transparency-in-supply-chains-act-a-resource-guide/"
-                                    >
-                                        <em>
-                                            The California Transparency in
-                                            Supply Chains Act: A Resource Guide
-                                        </em>
-                                    </a>
-                                    <em>, </em>prepared by the California Department of Justice, which contains recommendations for compliance and model disclosure practices.
-                                </p>
-                                <p>
-                                See also <em>Five Years of the California Transparency in Supply Chains Act</em>, 
-                                prepared by&nbsp;
-                                <a
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="https://knowthechain.org/"
-                                >
-                                KnowTheChain
-                                </a>, an initiative led by&nbsp;
-                                <a
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="https://humanityunited.org/"
-                                >
-                                Humanity United
-                                </a>
-                                , in partnership with the&nbsp;
-                                <a
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="https://www.business-humanrights.org/"
-                                >
-                                Business & Human Rights Resource Centre</a>
-                                ,&nbsp;
-                                <a
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="www.sustainalytics.com/"
-                                >
-                                Sustainalytics</a>,
-                                and&nbsp;
-                                <a
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf"
-                                >
-                                Verité
-                                </a>
-                                &nbsp;available at{" "}
-                                <a
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    href="https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf"
-                                >
-                                https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf
+                            <p>The{" "}
+                                <a 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="California Transparency in Supply Chains Act" 
+                                href="http://www.leginfo.ca.gov/pub/09-10/bill/sen/sb_0651-0700/sb_657_bill_20100930_chaptered.pdf"
+                                >California Transparency in Supply Chains Act
+                                </a>, 
+                                which was signed into law in October 2010 and went into effect in January 2012, requires certain companies to report on 
+                                their specific actions to eradicate slavery and human trafficking in their supply chains. The law is aimed at mid-size 
+                                and large retailers and manufacturing companies having worldwide annual revenues of $100 million or more. Its chief goal 
+                                is to ensure companies provide consumers with information that enables consumers to understand which companies manage their 
+                                supply chains responsibly. It is estimated that this reporting requirement could impact about 3,200 companies headquartered 
+                                in California or doing business in the state.
+                            </p>
+                            <p>
+                                The law requires a company to disclose on its website its initiatives to eradicate slavery and human trafficking from its 
+                                direct supply chain for the goods offered for sale. A company must disclose to what extent it: (1) engages in verification 
+                                of product supply chains to evaluate and address risks of human trafficking and slavery; (2) conducts audits of suppliers; 
+                                (3) requires direct suppliers to certify that materials incorporated into the product comply with the laws regarding slavery 
+                                and human trafficking of the countries in which they are doing business; (4) maintains accountability standards and procedures 
+                                for employees or contractors that fail to meet company standards regarding slavery and human trafficking; and (5) provides 
+                                employees and management training on slavery and human trafficking.
+                            </p>
+                            <p>
+                                See also{" "}
+                                <a 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="The California Transparency in Supply Chains Act: A Resource Guide" 
+                                href="https://www.verite.org/the-california-transparency-in-supply-chains-act-a-resource-guide/"
+                                ><em>The California Transparency in Supply Chains Act: A Resource Guide</em>
+                                </a>, 
+                                prepared by the California Department of Justice, which contains recommendations for compliance and model disclosure practices.
+                            </p>
+                            <p>
+                                See also the insights brief <em>Five Years of the California Transparency in Supply Chains Act</em>, prepared by{" "}
+                                <a 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="KnowTheChain" 
+                                href="https://knowthechain.org/"
+                                >KnowTheChain
+                                </a>, an initiative led by{" "}
+                                <a 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="Humanity United" 
+                                href="https://humanityunited.org/"
+                                >Humanity United
+                                </a> {" "}in partnership with the{" "} 
+                                <a 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="Business &amp; Human Rights Resource Centre" 
+                                href="https://www.business-humanrights.org/"
+                                >Business &amp; Human Rights Resource Centre
+                                </a>,{" "} 
+                                <a 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="Sustainalytics" 
+                                href="http://www.sustainalytics.com/"
+                                >Sustainalytics
+                                </a>, 
+                                and{" "}
+                                <a 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="Verit&eacute;" 
+                                href="https://www.verite.org/"
+                                >Verit&eacute;
+                                </a>, available at {" "}
+                                <a 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf" 
+                                href="https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf"
+                                >https://knowthechain.org/wp-content/uploads/2015/10/KnowTheChain_InsightsBrief_093015.pdf
                                 </a>. 
-                                This document identifies lessons from 500 companies identified by KnowTheChain as affected by the California Transparency in Supply Chains 
-                                Act. Recommendations in the report include increased reporting, improved guidance to companies, and enhanced transparency through a publicly 
-                                available list of companies subject to the law.
-                                </p>
-                                <p>
-                                    See also{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="http://www.verite.org/wp-content/uploads/2016/11/VTE_WhitePaper_California_Bill657FINAL5.pdf"
-                                    >
-                                        <em>
-                                            Compliance is Not Enough: Best
-                                            Practices in Responding to The
-                                            California Transparency in Supply
-                                            Chains Act
-                                        </em>
-                                    </a>
-                                    , a white paper on the California
-                                    Transparency in Supply Chains Act prepared
-                                    by the NGO{" "}
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.verite.org/?lang=en"
-                                    >
-                                        Verit&eacute;
-                                    </a>
-                                    . The white paper describes the Act, identifies sources of trafficking and forced labor risks, and suggests actions to 
-                                    address these problems in supply chains. Recommended actions include integrating existing resources on forced labor into 
-                                    corporate policies and systems, conducting labor audits oriented on forced labor, and building capacity on labor rights 
-                                    among suppliers.
-                                </p>
+                                This document identifies lessons from 500 companies identified by KnowTheChain as affected by the California Transparency in 
+                                Supply Chains Act. Recommendations in the report include increased reporting, improved guidance to companies, and enhanced 
+                                transparency through a publicly available list of companies subject to the law.
+                            </p>
+                            <p>
+                                See also {" "}
+                                <a 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="Compliance is Not Enough: Best Practices in Responding to The California Transparency in Supply Chains Act" 
+                                href="http://www.verite.org/wp-content/uploads/2016/11/VTE_WhitePaper_California_Bill657FINAL5.pdf"
+                                ><em>Compliance is Not Enough: Best Practices in Responding to The California Transparency in Supply Chains Act</em>
+                                </a>, 
+                                a white paper on the California Transparency in Supply Chains Act prepared by the NGO {" "}
+                                <a 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="Verit&eacute;" 
+                                href="https://www.verite.org/?lang=en"
+                                >Verit&eacute;
+                                </a>.<u> The white paper describes the Act, identifies sources of trafficking and forced labor risks, and suggests actions to 
+                                    address these problems in supply chains. </u>Recommended actions include integrating existing resources on forced labor 
+                                    into corporate policies and systems, conducting labor audits oriented on forced labor, and building capacity on labor 
+                                    rights among suppliers.
+                            </p>
+                                
                             </Accordion.Panel>
                         </Accordion.Section>
                         <Accordion.Section id="eu-nfrd">
@@ -287,7 +267,7 @@ const en = () => {
                                         title="guidelines to help companies disclose environmental and social information and give companies flexibility on how they report under the Directive"
                                     >
                                         guidelines to help companies disclose environmental and social information and give companies flexibility on how they report under the Directive
-                                    </a>{" "}
+                                    </a>
                                      . More information can be found on the European Commission&rsquo;s{" "}
                                      <a
                                         target="_blank"
@@ -516,7 +496,7 @@ const en = () => {
                                     &ldquo;mined, produced, or manufactured
                                     wholly or in part&rdquo; by convict, forced,
                                     or indentured labor had long been prohibited
-                                    from entering the U.S. under the{" "}
+                                    from entering the United States under the{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -524,18 +504,18 @@ const en = () => {
                                     >
                                         Tariff Act of 1930
                                     </a>
-                                    , except for when the U.S.-produced supply
-                                    of the goods was not sufficient to meet U.S.
+                                    , except for when the United States-produced supply
+                                    of the goods was not sufficient to meet United States
                                     demand for the goods, the so-called &ldquo;consumptive demand&rdquo; exception
                                     in section 910. This exception has now been
                                     repealed, allowing the Customs and Border
                                     Protection (CBP) to prevent products made
-                                    with forced labor from entering the U.S.
-                                    regardless of U.S. demand. Any person may
+                                    with forced labor from entering the United States
+                                    regardless of United States demand. Any person may
                                     report to the CBP information showing that
                                     merchandise produced by forced labor is
                                     being, or is likely to be imported into the
-                                    U.S. If the information reasonably, but not
+                                    United States If the information reasonably, but not
                                     conclusively, indicates that the goods
                                     covered were made, either wholly or in part,
                                     by forced labor, CBP will issue a&nbsp;
@@ -547,7 +527,7 @@ const en = () => {
                                     withhold release order </a>
                                     (WRO) to prevent the goods from entering the United States. While the goods are being detained, the manufacturer has the option to 
                                     re-export the goods or provide evidence to CBP demonstrating that the goods were not produced by forced labor. If CBP determines 
-                                    that there is conclusive evidence of forced labor, it will publish a formal finding in the Federal Register and Customs Bulletin 
+                                    that there is conclusive evidence of forced labor, it will publish a formal finding in the <em>Federal Register</em> and <em>Customs Bulletin</em> {" "}
                                     and seize the goods.
                                 </p>
                             </Accordion.Panel>
@@ -582,7 +562,7 @@ const en = () => {
                         <Accordion.Section id="aust-slav">
                             <Accordion.Title>
                                 <strong>
-                                    Australia Modern Slavery Act
+                                Modern Slavery Act (Australia)
 
                                 </strong>
                             </Accordion.Title>
@@ -595,7 +575,7 @@ const en = () => {
                                         href="https://www.legislation.gov.au/Details/C2018A00153"
                                     >
                                     Modern Slavery Act 2018
-                                    </a>{" "}
+                                    </a>
                                     came into force. The act requires entities based in or operating in Australia that have an annual consolidated revenue of 
                                     more than AUD $100 million to report on the risks of modern slavery in their operations and supply chains and actions 
                                     taken to address those risks in a modern slavery statement. The statement must also describe risks of modern slavery in 
@@ -609,7 +589,7 @@ const en = () => {
                                     >
                                     <em>Guidance for Reporting Entities</em>
                                     </a>
-                                     &nbsp;to explain in plain language what entities need to do to comply with the Act.
+                                     &nbsp;to explain in plain language what entities need to do to comply with the act.
                                 </p>
                                 
                             </Accordion.Panel>
@@ -622,8 +602,18 @@ const en = () => {
                             </Accordion.Title>
                             <Accordion.Panel>
                                 <p>
-                                    In June 2021, the German Parliament adopted a new law on human rights in supply chains (<em>Lieferkettensorgfaltspflichtengesetz</em>) 
-                                        , which will enter into force on January 1, 2023. Under the act, companies are obligated to identify and assess human rights and 
+                                    In June 2021, the German Parliament adopted a new law on human rights in supply chains (
+                                        <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        title="Lieferkettensorgfaltspflichtengesetz"
+                                        href=" https://dserver.bundestag.de/btd/19/286/1928649.pdf"
+                                    >
+                                    <em>Lieferkettensorgfaltspflichtengesetz</em>
+                                    </a>
+                                    ),
+                                   
+                                        which will enter into force on January 1, 2023. Under the act, companies are obligated to identify and assess human rights and 
                                         environmental risks and to establish an adequate and effective risk management system, including publication of an annual report 
                                         outlining steps to identify and address risks. The risks that companies must address include forced labor, child labor, 
                                         discrimination, violations to freedom of association, unethical employment, unsafe working conditions, and environmental degradation. 
@@ -632,6 +622,34 @@ const en = () => {
                                         compliance with the act face penalties up to €8,000,000, or up to 2 percent of global revenue as well as exclusion from public tender 
                                         process in Germany for a period of up to 3 years.
                                 </p>
+                                
+                            </Accordion.Panel>
+                        </Accordion.Section>
+                        <Accordion.Section id="ductch-labor">
+                            <Accordion.Title>
+                                <strong>
+                                Norwegian Transparency Act (Norway)
+
+                                </strong>
+                            </Accordion.Title>
+                            <Accordion.Panel>
+                            <p>
+                                Adopted in June 2021, and in force as of July 1, 2022, the Norwegian Transparency Act (
+                                    <a 
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                        title="&Aring;penhetsloven" 
+                                        href="https://lovdata.no/dokument/NLE/lov/2021-06-18-99"
+                                        ><em>&Aring;penhetsloven</em>
+                                        </a>) 
+                                        requires large companies selling products and services in Norway and large companies based in Norway providing goods or services 
+                                        outside of Norway to undertake human rights due diligence in alignment with the Organization for Economic Cooperation and Development 
+                                        (OECD) Guidelines for Multinational Enterprises. Large companies are those that meet two of the three criteria: (1) sales revenue of at 
+                                        least NOK 70 million; (2) balance sheet total of at least NOK 35 million; and/or (3) an average number of full-time employees in a 
+                                        financial year of at least 50 or equivalent hours. The act requires such companies to publish due diligence strategies and communicate 
+                                        human rights due diligence procedures, risks, activities, and findings annually and upon request.
+                            </p>
+                                
                                 
                             </Accordion.Panel>
                         </Accordion.Section>
@@ -645,9 +663,9 @@ const en = () => {
                                 <p>
                                     On December 23, 2021, President Biden signed the Uyghur Forced Labor Prevention Act (UFLPA) into law. The UFLPA, which received widespread 
                                     bipartisan support in Congress, is the latest in a line of U.S. efforts to address the plight of Uyghurs and other persecuted minority groups 
-                                    in China&rsquo;s Xinjiang Uyghur Autonomous Region (the &rdquo;XUAR&rdquo;). A key feature of the UFLPA is the creation of a rebuttable presumption that all 
+                                    in China&rsquo;s Xinjiang Uyghur Autonomous Region (the &ldquo;XUAR&rdquo;). A key feature of the UFLPA is the creation of a rebuttable presumption that all 
                                     goods manufactured even partially in the XUAR and goods made as part of labor transfer schemes from Xinjiang to elsewhere in China are products 
-                                    of forced labor and, therefore, not entitled to entry at U.S. ports. The UFPLA also builds on the 2020{" "}
+                                    of forced labor and, therefore, not entitled to entry at U.S. ports. The UFLPA also builds on the 2020{" "}
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
@@ -655,49 +673,17 @@ const en = () => {
                                         title="Uyghur Human Rights Policy Act"
                                     >
                                     Uyghur Human Rights Policy Act
-                                    </a>{" "}
+                                    </a>
                                      
                                     by expanding that act&rsquo;s authorization of sanctions to cover foreign individuals responsible for human rights abuses related to forced labor. 
-                                    The UFPLA requires a strategy that includes: (1) guidance for importers; (2) a list of entities that work with the XUAR government to recruit, 
+                                    The UFLPA requires a strategy that includes: (1) guidance for importers; (2) a list of entities that work with the XUAR government to recruit, 
                                     transport, or receive forced labor from XUAR; and (3) a list of entities that participate in “poverty alleviation” and “pairing-assistance” programs 
                                     in XUAR.
                                 </p>
                                 
                             </Accordion.Panel>
                         </Accordion.Section>
-                        {/* <Accordion.Section id="ductch-labor">
-                            <Accordion.Title>
-                                <strong>
-                                Dutch Child Labor Due Diligenec Law (Netherlands)
-
-                                </strong>
-                            </Accordion.Title>
-                            <Accordion.Panel>
-                                <p>
-                                    The Netherlands’ Senate approved the&nbsp;
-                                    <a
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        href="https://www.eerstekamer.nl/behandeling/20170207/gewijzigd_voorstel_van_wet"
-                                    >
-                                    Child Labor Due Diligence Act
-                                    </a>
-                                    &nbsp;(Act) in 2019 but it awaits royal approval
-                                    before going into effect.  This Act will apply to all companies
-                                    that sell or supply goods or services to Dutch consumers,
-                                    regardless of the registration or the domicile of the company.  The Act
-                                    requires companies to submit a statement that they have applied due diligence
-                                    to assess whether a “reasonable suspicion” exists that the services or goods
-                                    supplied have come been produced with child labor in their value chains.
-                                    If a “reasonable suspicion” is found, the company must adopt and implement
-                                    a plan to address the child labor.  Companies must also investigate child labor
-                                    in their supply chain using sources that are reasonably known and accessible.
-                                    Companies that fail to comply with the law can face fines up to €870,000
-                                    or ten percent of worldwide revenue and there is criminal liability for the director.
-                                </p>
-                                
-                            </Accordion.Panel>
-                        </Accordion.Section> */}
+                  
                         {/* <Accordion.Section id="eu-report">
                             <Accordion.Title>
                                 <strong>

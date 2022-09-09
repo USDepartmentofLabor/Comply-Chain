@@ -8,7 +8,7 @@ const en = () => {
         <StaticData>
             <div>
                 <h1>
-                    <strong>Employee recruitment and retention</strong>
+                    <strong>Employee Recruitment and Retention</strong>
                 </h1>
                 
                 <p>
@@ -67,7 +67,7 @@ const en = () => {
                         {": "} Building a strong workforce through purpose and compliance in Michigan&rsquo;s energy sector 
                     </h2>
                     <p>
-                        &rdquo;Widely viewed as an &rdquo;employer of choice&rdquo; in the region, DTE&rsquo;s* historic and successful approach 
+                        &ldquo;Widely viewed as an &ldquo;employer of choice&rdquo; in the region, DTE&rsquo;s* historic and successful approach 
                         to recruiting the right talent at the right time was focused on attracting the best qualified talent, screening and 
                         testing to achieve job and cultural fit, and targeted outreach strategies to ensure that compliance-related goals were met.  
                     </p>
@@ -78,7 +78,7 @@ const en = () => {
                         the labor market is tightening and shrinking.&rdquo;
                     </p>
                     <p>
-                        &rdquo;At DTE Energy, we&rsquo;re focused on building a safe environment where all employees feel welcome and a sense of 
+                        &ldquo;At DTE Energy, we&rsquo;re focused on building a safe environment where all employees feel welcome and a sense of 
                         belonging.  DTE&rsquo;s caring and purpose-driven culture is what makes us unique. We recognize our employees for being safe, 
                         caring and providing exceptional service to each other and our customers. We also live our purpose: “We serve with our energy, 
                         the lifeblood of communities and the engine of progress.” We establish and reinforce these values and behaviors to employees 
@@ -86,7 +86,7 @@ const en = () => {
                         our employees actively contribute to a more diverse, equitable and inclusive culture.&rdquo;
                     </p>
                     <p>
-                        &rdquo;DTE Energy is committed to offering compensation that is competitive, market-driven and internally equitable. To ensure 
+                        &ldquo;DTE Energy is committed to offering compensation that is competitive, market-driven and internally equitable. To ensure 
                         this, DTE conducts an annual review of compensation practices as part of its affirmative action programs. Approximately half 
                         of DTE Energy&rsquo;s employees are represented by unions, where pay is uniformly determined through contracts regardless of an 
                         employee&rsquo;s gender. For non-represented employees, DTE&rsquo;s Human Resources professionals establish pay ranges for each job 

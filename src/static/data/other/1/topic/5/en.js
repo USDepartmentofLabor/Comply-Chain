@@ -6,7 +6,7 @@ const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>Civil society and shareholder pressure</h1>
+                <h1>Civil Society and Shareholder Pressure</h1>
                 <p>
                     NGOs, trade unions, sustainable and responsible investor (SRI) bodies, and other civil society groups 
                     conduct investigations, publicize problems, and raise awareness about corporate conduct. Some seek to educate 
