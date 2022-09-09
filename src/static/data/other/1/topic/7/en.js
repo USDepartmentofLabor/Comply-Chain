@@ -8,7 +8,7 @@ const en = () => {
         <StaticData>
             <div>
                 <h1>
-                    <strong>Improved supply chain management</strong>
+                    <strong>Improved Supply Chain Management</strong>
                 </h1>
                 <p>
                     Good social compliance systems are based on strong overall management systems. They require planning, documentation, 

@@ -22,17 +22,17 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Company reputation",
+            title: "Company Reputation",
             content: Topic3.en
         },
         {
             keywords: [],
-            title: "Marketing and competitiveness",
+            title: "Marketing and Competitiveness",
             content: Topic4.en
         },
         {
             keywords: [],
-            title: "Civil society and shareholder pressure",
+            title: "Civil Society and Shareholder Pressure",
             content: Topic5.en
         },
         {
@@ -42,17 +42,17 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "Improved supply chain management",
+            title: "Improved Supply Chain Management",
             content: Topic7.en
         },
         {
             keywords: [],
-            title: "Employee recruitment and retention",
+            title: "Employee Recruitment and Retention",
             content: Topic8.en
         },
         {
             keywords: [],
-            title: "Doing good",
+            title: "Doing Good",
             content: Topic9.en
         }
     ],
