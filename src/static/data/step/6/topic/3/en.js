@@ -173,7 +173,7 @@ const en = () => {
                 <li>Mechanisms through which workers can submit grievances and report harassment, threats, or intimidation or other rights violations</li>
                 <li>Specific policies and procedures for migrant workers, including mechanisms to ensure that migrant workers are not charged fees by brokers or agents, are not required to post deposits, receive employment terms and conditions equal to those of non-migrants, and have ready access to their identity documents and a safe place to store them.</li>
                 </ul>
-                <p>It is important to note that in some industries, particularly agriculture, some workers may not be literate. Starbucks&rsquo;* code of conduct for coffee, known as the <a href="https://www.scsglobalservices.com/starbucks-cafe-practices">C.A.F.E Practices</a>, includes a requirement that all workers who are illiterate be informed verbally of their rights under the code.</p>
+                <p>It is important to note that in some industries, particularly agriculture, some workers may not be literate. Starbucks&rsquo;* code of conduct for coffee, known as the <a target="_blank" rel="noopener noreferrer" href="https://www.scsglobalservices.com/starbucks-cafe-practices">C.A.F.E Practices</a>, includes a requirement that all workers who are illiterate be informed verbally of their rights under the code.</p>
             
             </div>
         </StaticData>
