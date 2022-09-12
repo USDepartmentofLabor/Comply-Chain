@@ -121,7 +121,7 @@ const en = () => {
                 <p>The <strong>countries </strong>from which a company
                 sources. If there are countries where particular child
                 labor or forced labor issues have been prevalent, these
-                situations should be discussed.</p>
+                situations should be discussed and addressed.</p>
                 <ExampleInAction id="grievmechanism">
                 <h2>
                 <ExampleInAction.Icon alt="Lightbulb"/>
