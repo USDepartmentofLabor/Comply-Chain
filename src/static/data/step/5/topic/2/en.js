@@ -1,5 +1,6 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import { Link } from "react-router-dom";
 
 const en = () => {
     return (
@@ -7,7 +8,8 @@ const en = () => {
             <div>
                 <h1>What Makes a Good Code of Conduct?</h1>
                 <p>Codes take nearly as many forms and formats as there are companies. Some codes are stand-alone documents, while others are presented within broader statements of company mission, values, or policies. Some are included in supplier guidance documents that include other requirements, such as product quality. Increasingly, companies are including code of conduct language in multiple documents, as social compliance considerations become more interwoven within corporate strategy across business units.</p>
-                <p>Some code documents are very general&mdash;merely laying out the broad areas of compliance&mdash;while others are much more detailed. In either case, the code typically is a foundation for more detailed guidance for the decision-makers who implement the social compliance system within the company. For instance, the auditing tools derived from a code are discussed under <a target="_blank" rel="noopener noreferrer" href="https://www.dol.gov/ilab/complychain/steps/5">Step 5: Monitor Compliance</a>.</p>
+                <p>Some code documents are very general&mdash;merely laying out the broad areas of compliance&mdash;while others are much more detailed. In either case, the code typically is a foundation for more detailed guidance for the decision-makers who implement the social compliance system within the company. For instance, the auditing tools derived from a code are discussed under{" "}
+                    <Link to="/steps/5">Step 5, Monitor Compliance</Link>.</p>
                 <h2>Example Codes</h2>
                 <p>The following examples demonstrate the various forms that codes can take:</p>
                 <ul>
