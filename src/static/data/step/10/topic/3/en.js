@@ -111,6 +111,20 @@ const en = () => {
                             <li>Remediation</li>
                         </ul>
                 </ul>
+                <p>
+                    The civil society organization Shift publishes the{" "}
+                    <a 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="UN Guiding Principles Reporting Database" 
+                    href="http://www.ungpreporting.org/reportingdatabase/"
+                    >UN Guiding Principles Reporting Database
+                    </a>, where companies can submit public disclosures of their implementation of the UN Guiding Principles on Business and Human Rights 
+                    for review by the reporting database&rsquo;s analysts.
+                </p>
+                <p>
+                    Below are some general guidelines on content to include in a social compliance report:
+                </p>
                 <h2>Risk Assessment and Due Diligence Processes</h2>
                 <p>A description of the{" "}
                 <strong>risk assessment and due diligence</strong>{" "}
