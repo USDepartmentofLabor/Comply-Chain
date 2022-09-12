@@ -10,7 +10,7 @@ const en = () => {
                 <p>
                     Another way to identify and engage stakeholders and partners
                     is through industry-led platforms, industry associations and
-                    industry-specific initiatives. Examples are below.
+                    industry-specific initiatives.
                 </p>
                 <ExampleInAction id="clt">
                     <h2>
@@ -32,7 +32,10 @@ const en = () => {
                     <p>Launched in June 2018, the International Labor Organization&rsquo;s (ILO) Global Business Network on Forced Labor (GBNFL), supported by initial funding from USDOL and Mars, Inc.,* brings together the ILO with businesses of all sizes and sectors and their networks from around the globe to eradicate forced labor. Operating across all sectors and geographies, ILO GBNFL members work to engage smaller enterprises, develop actionable resources and tools, and devise local solutions that help shape national frameworks to create lasting change. ILO GBNFL members reflect businesses of all sizes and sectors, and employer and business membership organizations including industry trade groups and sectoral associations. Other business-led initiatives with complementary mandates and expertise can join as partners.</p>
                     
                     <p>ILO GBNFL reaches across sectors and geographies to advance the business case for an end to forced labor. The network is aligned with and contributes to other relevant international initiatives, in particular <a target="_blank" rel="noopener noreferrer" href="http://www.alliance87.org/">Alliance 8.7</a>, the global partnership working to deliver on SDG Target 8.7. ILO GBNFL maintains a <a target="_blank" rel="noopener noreferrer" href="https://flbusiness.network/library-publication/">library of resources</a> and has developed a <a target="_blank" rel="noopener noreferrer" href="https://flbusiness.network/toolkit-fair-recruitment/story.html">due diligence toolkit for fair recruitment</a> to help companies follow an effective due diligence process when hiring workers from abroad.</p>
-                    <p>For more information and an up-to-date list of members, please visit <a target="_blank" rel="noopener noreferrer" href="http://www.flbusiness.network/">www.flbusiness.network</a> or contact fl-businessnetwork@ilo.org.</p>
+                    <p>For more information and an up-to-date list of members, please visit <a target="_blank" rel="noopener noreferrer" href="http://www.flbusiness.network/">www.flbusiness.network</a> or contact {" "}
+                    <a href="mailto:fl-businessnetwork@ilo.org"
+                    >fl-businessnetwork@ilo.org
+                    </a>.</p>
                 </ExampleInAction>
             </div>
         </StaticData>
