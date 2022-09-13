@@ -16,17 +16,17 @@ export const StepData = {
             {
                 termName: "Due Diligence",
                 termDefinition:
-                    "As defined by the United Nations Guiding Principles on Business and Human Rights, a process that includes assessing actual and potential human rights impacts (including fundamental labor rights such as child labor and forced labor), integrating and acting upon the findings, tracking responses and communicating how impacts are addressed.  Due diligence should cover assessment of the adverse impacts that a business may cause or contribute to through its own activities, as well as those that may be directly linked to its operations, products or services through business relationships.  Due diligence varies in complexity with the size of a business enterprise, the risk of severe human rights impacts and the nature and context of a business’s operations. "
+                    "As defined by the UN Guiding Principles on Business and Human Rights, due diligence is a process that includes assessing actual and potential human rights impacts (including fundamental labor rights such as child labor and forced labor), integrating and acting upon the findings, tracking responses, and communicating how impacts are addressed. Due diligence should cover assessment of the adverse impacts that a business may cause or contribute to through its own activities as well as those that may be directly linked to its operations, products, or services through business relationships. Due diligence varies in complexity with the size of a business enterprise, the risk of severe human rights impacts, and the nature and context of a business’s operations."
             },
             {
                 termName: "Risk",
                 termDefinition:
-                    "A situation that increases the potential for damage to your company, such as reputational damage or legal liability, or damage to individuals or entities affected by your company’s activities or linked to your company’s operations, products or services through business relationships.  "
+                    "A situation that increases the potential for damage to your company, such as reputational damage or legal liability, or damage to individuals or entities affected by your company’s activities or linked to your company’s operations, products, or services through business relationships."
             },
             {
                 termName: "Impact",
                 termDefinition:
-                    "A situation in which damage has been done to your company, such as reputational damage or legal liability, or to individuals or entities affected by your company’s activities or linked to your company’s operations, products or services through business relationships. "
+                    "A situation in which damage has been done to your company, such as reputational damage or legal liability, or to individuals or entities affected by your company’s activities or linked to your company’s operations, products, or services, through business relationships."
             },
             {
                 termName: "Downstream",
@@ -36,8 +36,14 @@ export const StepData = {
             {
                 termName: "Upstream",
                 termDefinition:
-                    "The part of the supply chain process on the supply side, referring to the flow of goods or products from the company to the suppliers and to the procurers of raw materials at the farm or forest-level, in the direction of raw materials.  This includes companies’ network of supplies."
+                    "The part of the supply chain process on the supply side, referring to the flow of goods or products from the company to the suppliers and to the procurers of raw materials at the farm or forest level, in the direction of raw materials. This includes companies’ network of supplies."
+            },
+            {
+                termName: "Recruitment Fees",
+                termDefinition:
+                    "Recruitment fees or related costs are defined by the ILO as any fees or costs workers incur during the recruitment process to secure employment or placement, regardless of the manner, timing, or location of their imposition or collection. This includes payments for recruitment services offered by labor recruiters as well as related costs that are integral to recruitment and placement. Related costs include but are not limited to travel and lodging expenses, medical costs, and equipment costs. The U.S. government’s Federal Acquisition Regulations also define recruitment fees as “fees of any type, including charges, costs, assessments, or other financial obligations, that are associated with the recruiting process, regardless of the time, manner, or location of imposition or collection of the fee.”"
             }
+
         ],
         furtherResources: Resources.en
     },

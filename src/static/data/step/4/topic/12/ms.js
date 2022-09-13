@@ -274,13 +274,9 @@ const ms = () => {
                                          </p>
                                          <p>
                                           Komitmen terhadap Pengambilan Pekerja Secara Bertanggungjawab dihasilkan sebagai sebahagian daripada usaha ini&nbsp;
-                                          <a
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                                href=""
-                                            >
+                                          
                                           Pelan Tindakan untuk Perekrutan yang Bertanggungjawab di Malaysia
-                                          </a>
+                                          
                                           &nbsp;sebagai cara untuk menukar komitmen lisan kepada tindakan.
                                          </p>
                                          <p>

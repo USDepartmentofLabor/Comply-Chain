@@ -1,7 +1,6 @@
 import React from "react";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
-import leap from "../../../../../images/leap.png";
 
 const en = () => {
     return (

@@ -26,12 +26,12 @@ const en = () => {
                 promises or threats.
             </p>
             <p>
-                This app was created by the U.S. Department of Labor&apos;s (DOL){" "}
+                This app was created by the U.S. Department of Labor&apos;s (USDOL){" "}
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods/"
-                    title="List of Goods Produced by Child Labor or Forced Labor"
+                    href="https://www.dol.gov/agencies/ilab"
+                    title="Bureau of International Labor Affairs"
                 >
                 Bureau of International Labor Affairs
                  </a>
@@ -81,7 +81,7 @@ const en = () => {
                            </a>
                            , Congress added a new mandate for ILAB related to this list. Specifically, in Section 133 of the new law, Congress included language to 
                            require that &ldquo;to the extent practicable, goods that are produced with inputs that are produced with forced labor or child labor&ldquo; be added 
-                           to the List of Goods Produced by Child Labor or Forced Labor. This new language challenges ILAB and others around the world to trace the 
+                           to <em>the List of Goods Produced by Child Labor or Forced Labor</em>. This new language challenges ILAB and others around the world to trace the 
                            inputs made with forced or child labor to their end use in final goods and products, in addition to listing the inputs and raw materials 
                            thought to be produced with child or forced labor. ILAB&rsquo;s expanded mandate reinforces the expanding parameters of due diligence and 
                            confronting child labor and forced labor across often complex and multi-tier global supply chains.
@@ -131,7 +131,7 @@ const en = () => {
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                href="http://www.alliance87.org/"
+                                href="hyperlink: https://www.ilo.org/wcmsp5/groups/public/---dgreports/---stat/documents/meetingdocument/wcms_648619.pdf"
                                 title="guidelines concerning the measurement of forced labor"
                             >
                             guidelines concerning the measurement of forced labor
@@ -180,7 +180,7 @@ const en = () => {
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                href="https://www.state.gov/u-s-national-contact-point-for-the-oecd-guidelines-for-multinational-enterprises/u-s-national-action-plan-on-responsible-business-conduct/"
+                                href="https://www.state.gov/responsible-business-conduct-national-action-plan/"
                                 title="National Action Plan on Responsible Business Conduct (NAP-RBC)"
                             >
                                 National Action Plan on Responsible Business
@@ -242,7 +242,7 @@ const en = () => {
                 </Accordion.Section>
                 <Accordion.Section id="how-develop">
                     <Accordion.Title>
-                        <strong>How did USDOL develop this app?</strong>
+                        <strong>How Did USDOL Develop This App?</strong>
                     </Accordion.Title>
                     <Accordion.Panel>
                         <p>
@@ -279,44 +279,48 @@ const en = () => {
                         <strong>How Do I Use This App?</strong>
                     </Accordion.Title>
                     <Accordion.Panel>
-                        <p>
-                            The app is organized around {" "}
-                            <strong>
-                                steps to build or improve a social compliance system
-                            </strong>
-                            . Each step begins with learning objectives and key terms. Companies that are new to social compliance are encouraged to work through the 
-                            modules in order. Companies that wish to improve elements of their systems or work with their supply chain partners on their systems can choose 
-                            which modules best fit their needs. However, they are encouraged to consider implementing all elements of the social compliance system presented 
-                            here to ensure integration of all components and maximize the effectiveness of their systems.
-                        </p>
-                        <p>
-                            As companies familiar with social compliance know, this app is just one of many guides, handbooks, white papers, and other materials that 
-                            provide information on social compliance. We hope this app provides useful guidance and examples to help you build or strengthen your social 
-                            compliance system or that of your global supply chain partners.
-                        </p>
-                        <p>
-                            As you use the app, you can provide feedback to assist us in improving its content. You are also encouraged to share your good practices related to 
-                            social compliance from your own experience. You may do so by{" "}
-                            <a
+                    <p>
+                        The app is organized around <strong>steps to build or improve a social compliance system</strong>. Each step begins with 
+                        learning objectives and key terms. Companies that are new to social compliance are encouraged to work through the modules 
+                        in order. Companies that wish to improve elements of their systems or work with their supply chain partners on their 
+                        systems can choose which modules best fit their needs. However, they are encouraged to consider implementing all elements 
+                        of the social compliance system presented here to ensure integration of all components and maximize the effectiveness of 
+                        their systems.
+                    </p>
+                    <p>
+                        As companies familiar with social compliance know, this app is just one of many guides, handbooks, white papers, and other 
+                        materials that provide information on social compliance. We hope this app provides useful guidance and examples to help you 
+                        build or strengthen your social compliance system or that of your global supply chain partners.
+                    </p>
+                    <p>
+                        As you use the app, you can provide feedback to assist us in improving its content. You are also encouraged to share your good 
+                        practices related to social compliance from your own experience. You may do so by{" "}
+                        <a
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="mailto:GlobalKids@ilab.dol.gov?subject=Comments on Comply Chain App"
                                 title="e-mailing ILAB"
                             >
                                 e-mailing ILAB
-                            </a>
-                            .
-                        </p>
-                        <p>
-                            Because ILAB&rsquo;s TVPRA mandate is to work with persons involved in the production of goods or goods
-                            with inputs produced from child labor or forced labor, this app focuses on social compliance programs for entities, in particular companies, that produce goods, rather than services.
-                        </p>
-                        <p />
+                            </a>.
+                    </p>
+                    <p>
+                        Because ILAB&rsquo;s TVPRA mandate is to work with persons involved in the production of goods or goods with inputs produced 
+                        from child labor or forced labor, this app focuses on social compliance programs for entities, in particular companies that 
+                        produce goods rather than services. In addition, as noted above, it focuses in particular on issues related to child labor 
+                        and forced labor while highlighting the importance of advancing all labor rights, including freedom of association and 
+                        collective bargaining.
+                    </p>
+                    
                     </Accordion.Panel>
                 </Accordion.Section>
             </Accordion>
             <p>
-                Note on Guidance and Organizations Referenced
+                In addition, as noted above, it focuses in particular on issues related to child labor and forced labor while highlighting the importance of 
+                advancing all labor rights, including freedom of association and collective bargaining.
+            </p>
+            <p>
+                Note on guidance and organizations referenced
             </p>
             <p>
                 <em>
@@ -328,7 +332,7 @@ const en = () => {
                     References to specific companies and non-governmental entities within this guide are for informational purposes only to demonstrate best 
                     practices that have been recognized internationally, as of the app&rsquo;s release date. Referencing the entities should not be interpreted as an 
                     official endorsement of those entities, their products, or services by the U.S. Department of Labor and their inclusion should not be interpreted 
-                    as a comprehensive review of these entities&rsquo; practices in all areas{" "}
+                    as a comprehensive review of these entities&rsquo; practices in all areas.{" "}
                 </em>
                 </p>
                 <p>
@@ -346,7 +350,7 @@ const en = () => {
                                 input from the public
                             </a>{" "}
                      on additional leadership practices 
-                    that could be highlighted in the app.
+                    that could be highlighted in the app
                 </em>
                 <em>.</em>
             </p>
@@ -356,7 +360,9 @@ const en = () => {
                 </em>
             </p>
             <p>
+                <em>
             You may incorporate content from this app into your own materials, and we request that you attribute it to the Department of Labor&rsquo;s Comply Chain app.
+            </em>
             </p>
 
         </StaticData>

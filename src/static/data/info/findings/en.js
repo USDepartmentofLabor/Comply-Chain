@@ -7,7 +7,7 @@ const en = () => {
             <div>
                 <h1>Findings on the Worst Forms of Child Labor Report</h1>
                 <p>
-                    USDOL&rsquo;s annual Findings on the Worst Forms of Child Labor focuses on the efforts of more than 130 U.S. trade beneficiary countries and 
+                    USDOL&rsquo;s annual <em>Findings on the Worst Forms of Child Labor</em> focuses on the efforts of more than 130 U.S. trade beneficiary countries and 
                     territories to eliminate the worst forms of child labor through legislation, enforcement mechanisms, policies, and social programs. The 
                     report presents information on the prevalence and sectoral distribution of child labor in each country and assesses the extent to which 
                     governments have taken action to address the problem during each reporting year. It also provides country-specific suggestions for 
