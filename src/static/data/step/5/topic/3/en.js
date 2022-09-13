@@ -41,7 +41,7 @@ const en = () => {
                 <p>In recent years, as companies have learned more about the nature of forced labor and the forms it takes in supply chains, they have begun integrating new provisions into codes of conduct. Examples include prohibitions on worker payment of recruitment fees and requirements for suppliers to hire workers using &ldquo;direct hiring&rdquo; or &ldquo;direct employment&rdquo; practices. A <a target="_blank" rel="noopener noreferrer" href="https://www8.hp.com/h20195/v2/getpdf.aspx/c05116077.pdf">2016 Hewlett Packard Enterprise* policy document</a> explains the risk-based reasons why the company chose to move to a &ldquo;direct employment&rdquo; policy.</p>
                 
                 <h2>Resources</h2>
-                <p>A key resource for developing specific code of conduct provisions to prevent forced labor in global supply chains is the <a target="_blank" rel="noopener noreferrer" href="http://www.responsiblesourcingtool.org/">Responsible Sourcing Tool</a> (RST). Launched in 2016 by <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/">Verit&eacute;</a>* and the U.S. Department of State, the RST provides a set of compliance-oriented resources and risk management tools for companies, federal contractors, procurement and contracting professionals, advocates, investors, consumers, and other stakeholders who wish to identify, prevent, and address forced labor in supply chains. For example, Tool 1: <a target="_blank" rel="noopener noreferrer" href="http://www.responsiblesourcingtool.org/codeofconduct">Sample Code of Conduct</a> contains forced labor-related provisions that can be incorporated into a company or industry code of conduct. The RST also contains additional tools related to responsible labor recruitment, including Tool 3: <a target="_blank" rel="noopener noreferrer" href="http://www.responsiblesourcingtool.org/laborrecruitments">Evaluating Labor Recruitments</a>, which assists companies in conducting due diligence in the screening and selection of labor recruiters to minimize the risk of human trafficking as a result of fraudulent or misleading recruitment practices.</p>
+                <p>A key resource for developing specific code of conduct provisions to prevent forced labor in global supply chains is the <a target="_blank" rel="noopener noreferrer" href="http://www.responsiblesourcingtool.org/">Responsible Sourcing Tool</a> (RST). Launched in 2016 by <a target="_blank" rel="noopener noreferrer" href="https://www.verite.org/">Verit&eacute;</a>* and the U.S. Department of State, the RST provides a set of compliance-oriented resources and risk management tools for companies, federal contractors, procurement and contracting professionals, advocates, investors, consumers, and other stakeholders that wish to identify, prevent, and address forced labor in supply chains. For example, Tool 1: <a target="_blank" rel="noopener noreferrer" href="http://www.responsiblesourcingtool.org/codeofconduct">Sample Code of Conduct</a> contains forced labor-related provisions that can be incorporated into a company or industry code of conduct. The RST also contains additional tools related to responsible labor recruitment, including Tool 3: <a target="_blank" rel="noopener noreferrer" href="http://www.responsiblesourcingtool.org/laborrecruitments">Evaluating Labor Recruitments</a>, which assists companies in conducting due diligence in the screening and selection of labor recruiters to minimize the risk of human trafficking as a result of fraudulent or misleading recruitment practices.</p>
                 <ExampleInAction id="rst1">
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
@@ -64,7 +64,7 @@ const en = () => {
                     </p>
                     
                     <p>
-                        <strong>Source: Responsible Sourcing </strong>
+                        <strong>Source: RST </strong>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -78,7 +78,7 @@ const en = () => {
                         <strong>.</strong>
                     </p>
                     <p>
-                        <strong>See also Responsible Sourcing Tool 1A, </strong>
+                        <strong>See also RST Tool 1A, </strong>
                         <a
                             target="_blank"
                             rel="noopener noreferrer"
