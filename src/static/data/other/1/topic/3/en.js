@@ -6,7 +6,7 @@ const en = () => {
     return (
         <StaticData>
             <div>
-                <h1>Company reputation </h1>
+                <h1>Company Reputation </h1>
                 <p>
                     <a
                             target="_blank"
@@ -30,7 +30,7 @@ const en = () => {
                     leadership team discussed how a corporate reputation for socially responsible behavior has benefited their business:
                     </p>
                     <p>
-                    &rdquo;Having a strong and authentic social mission can differentiate you from your competitors.… It can also help attract and 
+                    &ldquo;Having a strong and authentic social mission can differentiate you from your competitors.… It can also help attract and 
                     retain great talent.… People want to be a part of a company and movement that helps others, and an authentic social mission can 
                     turn customers into loyal brand evangelists.&rdquo;
                     <br></br>
@@ -38,7 +38,7 @@ const en = () => {
                     
                     </p>
                     <p>
-                    &rdquo;[W]e have really great partnerships with our suppliers. They know that they can come to us, that we&rsquo;re going to treat them 
+                    &ldquo;[W]e have really great partnerships with our suppliers. They know that they can come to us, that we&rsquo;re going to treat them 
                     with respect and dignity. We&rsquo;re very open with them about our expectations—but they know they can come to us and say when they&rsquo;re 
                     not going to be able to meet an order without going massively over with additional overtime or subcontracting to another 
                     supplier.… [They are] not afraid of losing our business.… Understand that if you&rsquo;re experiencing really high levels of returns, poor 
@@ -55,7 +55,7 @@ const en = () => {
                             href="https://www.forbes.com/sites/simonmainwaring/2021/07/20/purpose-at-work-how-cotopaxis-purpose-moves-people-products-and-mountains/?sh=1839ecc63884"
                             title="interview published by Forbes in 2021"
                         >
-                    interview published by Forbes in 2021
+                    interview published by <em>Forbes</em> in 2021
                     </a>
                     . 
                     </p>

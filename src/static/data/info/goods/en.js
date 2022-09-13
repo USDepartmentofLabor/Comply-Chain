@@ -9,8 +9,8 @@ const en = () => {
                 <p>
                     ILAB maintains a list of goods and their source countries that it has reason to believe are produced by child labor or 
                     forced labor in violation of international standards, as required under the Trafficking Victims Protection Reauthorization Act 
-                    (TVPRA) of 2005 and subsequent reauthorizations. As of September 28, 2022, the List of Goods Produced by Child Labor or Forced 
-                    Labor comprises more than 158 goods from 77 countries or areas and 10 goods from supply chain tracing that are produced in two 
+                    (TVPRA) of 2005 and subsequent reauthorizations. As of September 28, 2022, the <em>List of Goods Produced by Child Labor or Forced 
+                    Labor</em> comprises more than 158 goods from 77 countries or areas and 10 goods from supply chain tracing that are produced in two 
                     countries.
 
                 </p>

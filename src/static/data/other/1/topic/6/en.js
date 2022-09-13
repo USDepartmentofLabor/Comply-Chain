@@ -19,8 +19,7 @@ const en = () => {
                     >
                     International Development Finance Corporation (DFC)
                     </a>
-                    &nbsp;—
-                    constituted in 2019, consolidating functions from the&nbsp;
+                    —constituted in 2019, consolidating functions from the&nbsp;
 
                         Overseas Private Investment Corporation (OPIC)
 
@@ -68,7 +67,7 @@ const en = () => {
                 <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://egmontgroup.org/"
+                        href="https://home.treasury.gov/system/files/136/Report-Money-Laundering-Human-Trafficking.pdf"
                         title="The Egmont Group of Financial Intelligence Units"
                     >
                         prevent money laundering
@@ -78,7 +77,7 @@ const en = () => {
                 <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://egmontgroup.org/"
+                        href="https://www.fatf-gafi.org/media/fatf/content/images/Human-Trafficking-2018.pdf"
                         title="linked to labor abuses"
                     >
                         linked to labor abuses
@@ -92,7 +91,7 @@ const en = () => {
                 <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://egmontgroup.org/"
+                        href="https://www.state.gov/risks-and-considerations-for-businesses-and-individuals-with-exposure-to-entities-responsible-for-undermining-democratic-processes-facilitating-corruption-and-committing-human-rights-abuses-in-burma/"
                         title="Risks and Considerations for Businesses and Individuals with Exposure to Entities Responsible for Undermining 
                         Democratic Processes, Facilitating Corruption, and Committing Human Rights Abuses in Burma (Myanmar)"
                     >

@@ -124,8 +124,8 @@ class Splash extends Component {
                             id="es-btn"
                             lang="es"
                             onClick={() => {
-                                this.handleLanguageChange("es");
-                                // window.alert("THIS FEATURE IS COMING SOON");
+                                // this.handleLanguageChange("es");
+                                window.alert("THIS FEATURE IS COMING SOON");
                             }}
                         >
                            <span lang="es">{this.props.localizor.strings.general.spanish}</span>
@@ -134,8 +134,8 @@ class Splash extends Component {
                             id="fr-btn"
                             lang="fr"
                             onClick={() => {
-                                this.handleLanguageChange("fr");
-                                // window.alert("THIS FEATURE IS COMING SOON");
+                                // this.handleLanguageChange("fr");
+                                window.alert("THIS FEATURE IS COMING SOON");
                             }}
                         >
                            <span lang="fr">{this.props.localizor.strings.general.french}</span>
@@ -144,8 +144,8 @@ class Splash extends Component {
                             id="ms-btn"
                             lang="ms"
                             onClick={() => {
-                                this.handleLanguageChange("ms");
-                                // window.alert("THIS FEATURE IS COMING SOON");
+                                // this.handleLanguageChange("ms");
+                                window.alert("THIS FEATURE IS COMING SOON");
                             }}
                         >
                            <span lang="ms">{this.props.localizor.strings.general.malay}</span>
