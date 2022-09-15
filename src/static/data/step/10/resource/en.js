@@ -42,9 +42,9 @@ const en = () => {
                         <a 
                         target="_blank"
                         rel="noopener noreferrer"
-                        title="https://www.gsk.com/en-gb/responsibility/operating-responsibly/human-rights-and-modern-slavery/" 
-                        href="https://www.gsk.com/en-gb/responsibility/operating-responsibly/human-rights-and-modern-slavery/"
-                        >https://www.gsk.com/en-gb/responsibility/operating-responsibly/human-rights-and-modern-slavery/
+                        title="https://www.gsk.com/en-gb/responsibility/ethical-standards/human-rights/" 
+                        href="https://www.gsk.com/en-gb/responsibility/ethical-standards/human-rights/"
+                        >https://www.gsk.com/en-gb/responsibility/ethical-standards/human-rights/
                         </a>.
                     </li>
                     <li>
@@ -58,14 +58,14 @@ const en = () => {
                         </a>.
                     </li>
                     <li>
-                        <u>Nestl</u><u>&eacute;</u><u>. <em>Tackling Child Labor</em>. 2019 Report; available from </u>{" "}
+                        Nestl&eacute;. <em>Tackling Child Labor</em>. 2019 Report; available from {" "}
                         <a 
                         target="_blank"
                         rel="noopener noreferrer"
                         title="https://www.nestle.com/sites/default/files/2019-12/nestle-tackling-child-labor-report-2019-en.pdf" 
                         href="https://www.nestle.com/sites/default/files/2019-12/nestle-tackling-child-labor-report-2019-en.pdf"
                         >https://www.nestle.com/sites/default/files/2019-12/nestle-tackling-child-labor-report-2019-en.pdf
-                        </a><u>.</u>
+                        </a>.
                     </li>
                     <li>
                         Shift and Mazars. <em>UNGP Reporting Database</em>. [Online, accessed May 16, 2016]; available from {" "}

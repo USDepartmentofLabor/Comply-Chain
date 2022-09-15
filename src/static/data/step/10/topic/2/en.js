@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
@@ -38,7 +38,7 @@ const en = () => {
                     href="https://www.business-humanrights.org/en/frances-law-on-the-corporate-duty-of-vigilance-a-practical-and-multidimensional-analysis-in-english"
                     >France&rsquo;s Duty of Vigilance Law
                     </a>, 
-                    have mandated certain disclosures for companies covered by those laws (see Laws and Regulations for more information on public disclosure 
+                    have mandated certain disclosures for companies covered by those laws (see <Link to="/othersteps/11/topic/1">Laws and Regulations</Link> for more information on public disclosure 
                     legislation). Though most reporting is still voluntary, a growing number of consumers, shareholder groups, and NGOs have come to expect 
                     companies to share social compliance information with the public&mdash;and increasing numbers of companies have undertaken sharing such information 
                     to demonstrate engagement and leadership in their policies and programs. A recent example is the European Commission&rsquo;s February 2022 
@@ -56,7 +56,7 @@ const en = () => {
                 <OwnWords>
                     <h2>
                         <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words: UN Guiding Principles on Business and Human Rights</strong>
-                        {": "}
+                        {""}
                     </h2>
                     <p>&ldquo;The responsibility to respect human rights requires that business enterprises have in place policies and processes through which they can both know and show that they respect human rights in practice. Showing involves communication, providing a measure of transparency and accountability to individuals or groups who may be impacted and to other relevant stakeholders, including investors.</p>
                     <p>Communication can take a variety of forms, including in-person meetings, online dialogues, consultation with affected stakeholders, and formal public reports.&rdquo;</p>
@@ -65,9 +65,9 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         title="https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf"
-                        href="https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf,%202011"
+                        href="https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf"
                         >https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf
-                        </a>{" "}UN Guiding Principles on Business and Human Rights, 2011.
+                        </a>.
                     </p>
                 </OwnWords>
                 <p>

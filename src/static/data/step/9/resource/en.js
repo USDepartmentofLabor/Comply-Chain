@@ -12,13 +12,6 @@ const en = () => {
                             <a 
                             target="_blank"
                             rel="noopener noreferrer"
-                            title="https://www.isealalliance.org/sites/default/files/resource/2019-06/ISEAL_Impacts_Code_Version_2.0.pdf" 
-                            href="https://www.isealalliance.org/sites/default/files/resource/2019-06/ISEAL_Impacts_Code_Version_2.0.pdf"
-                            >https://www.isealalliance.org/sites/default/files/resource/2019-06/ISEAL_Impacts_Code_Version_2.0.pdf
-                            </a>{" "}
-                            <a 
-                            target="_blank"
-                            rel="noopener noreferrer"
                             title="https://www.isealalliance.org/sites/default/files/resource/2017-11/ISEAL_Standard_Setting_Code_v6_Dec_2014.pdf" 
                             href="https://www.isealalliance.org/sites/default/files/resource/2017-11/ISEAL_Standard_Setting_Code_v6_Dec_2014.pdf"
                             >https://www.isealalliance.org/sites/default/files/resource/2017-11/ISEAL_Standard_Setting_Code_v6_Dec_2014.pdf

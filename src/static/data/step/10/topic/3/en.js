@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
@@ -208,7 +208,7 @@ const en = () => {
                     title="Withhold Release Order" 
                     href="https://www.cbp.gov/newsroom/national-media-release/department-homeland-security-issues-withhold-release-order-silica"
                     >Withhold Release Orders
-                    </a>{" "}(see The Importance of Violation Remediation: Withhold Release Orders to learn more about WROs) related to products 
+                    </a>{" "}(see <Link to="/steps/6/topic/1">The Importance of Violation Remediation</Link>: Withhold Release Orders to learn more about WROs) related to products 
                     produced in China, including cotton, tomatoes and downstream products, cotton and cotton products, and computer parts, among a total of{" "} 
                     <a 
                     target="_blank"
@@ -257,8 +257,16 @@ const en = () => {
                 </p>
                 <p>
                     <span>
-                        See Uyghur Forced Labor Prevention Act in Why Develop a Social Compliance System? Laws and Regulations for more information and 
-                        CBP&rsquo;s website on the Uyghur Forced Labor Prevention Act.
+                        See Uyghur Forced Labor Prevention Act in <Link to="/othersteps/11">Why Develop a Social Compliance System?</Link> Laws and Regulations for more information and 
+                        {" "}
+                        <a 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="CBP&rsquo;s website on the Uyghur Forced Labor Prevention Act" 
+                    href="https://www.cbp.gov/trade/forced-labor/UFLPA?language_content_entity=en"
+                    >CBP&rsquo;s website on the Uyghur Forced Labor Prevention Act
+                    </a>
+                        .
                     </span>
                 </p>
                 </ExampleInAction>
@@ -271,7 +279,7 @@ const en = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     title="supplier list" 
-                    href="http://www8.hp.com/us/en/hp-information/global-citizenship/society/supplychain.html?jumpid=in_r138_us/en/corp/sustainability/main-menu-society"
+                    href="https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c03728062"
                     >supplier list
                     </a>{" "}
                     public since 2007 and Target Corporation* publishes{" "}
@@ -323,7 +331,7 @@ const en = () => {
                 <p>
                     Through Taylors Sourcing Approach (TSA) &ndash; our model for how we buy our tea, coffee, herbs and packaging &ndash; we&rsquo;ve 
                     laid the foundations to build a more sustainable supply chain. Thanks to TSA we work in partnerships with strategic suppliers via 
-                    long-term contracts to improve quality and social and environmental standards.
+                    long-term contracts to improve quality and social and environmental standards.&rdquo;
                 </p>
                 <p>Source:{" "}
                     <a 
@@ -436,13 +444,13 @@ const en = () => {
                     occurred in the reporting period.
                 </p>
 
-                <h2>Engagement with Stakeholder</h2>
+                <h2>Engagement with Stakeholders</h2>
                 <p>
                     A description of your <strong>engagement with stakeholders</strong> and local communities, including multi-stakeholder groups with which 
                     you are involved, outreach as part of your risk assessment, and other outreach and grievance mechanisms.
                 </p>
 
-                <h2>Training programs</h2>
+                <h2>Training Programs</h2>
                 <p>
                     An overview of your social compliance <strong>training programs</strong> throughout your supply chains
                 </p>
@@ -478,13 +486,13 @@ const en = () => {
                     and responding to those findings.
                 </p>
 
-                <h2>Information on internal oversight and accountability</h2>
+                <h2>Information on Internal Oversight and Accountability</h2>
                     <p> 
                         Information on <strong>internal oversight and accountability</strong> for the social compliance program, including clarification 
                         as to who is responsible for the program, and the Board of Directors and CEO&rsquo;s levels of involvement.
                     </p>
 
-                <h2>Challenges and lessons learned</h2>
+                <h2>Challenges and Lessons Learned</h2>
                     <p>
                         A discussion of the <strong>challenges</strong> your social compliance program faces, <strong>lessons learned</strong>, and your efforts to 
                         address root causes of labor abuse.
@@ -565,7 +573,7 @@ const en = () => {
                 </ExampleInAction>
 
 
-                <h2>Feedback procedures</h2>
+                <h2>Feedback Procedures</h2>
                     <p><strong>Procedures for providing feedback</strong> on
                     the report.</p>
 
@@ -629,7 +637,7 @@ const en = () => {
                         >https://www.unilever.com/sustainable-living/reducing-environmental-impact/sustainable-sourcing/transforming-the-palm-oil-industry/improving-the-visibility-of-our-supply-chain/
                         </a>.
                     </p>
-                    <p><u>Source: </u>{" "}
+                    <p>Source: {" "}
                     <a 
                     target="_blank"
                     rel="noopener noreferrer"
@@ -638,7 +646,7 @@ const en = () => {
                     >https://www.dol.gov/agencies/ilab/resources/reports/child-labor/indonesia
                     </a>.
                     </p>
-                    <p><u>Source: </u>{" "}
+                    <p>Source: {" "}
                     <a 
                     target="_blank"
                     rel="noopener noreferrer"

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import StaticData from "../../../../../../components/StaticData";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 
@@ -15,7 +16,7 @@ const en = () => {
                 </p>
                 <p>
                     It is good practice to provide opportunities for worker and community input into a CAP. If individual workers are affected by violations, 
-                    they should have access to grievance procedures (See Grievance Mechanisms) and should have the right to representation. Negotiation and 
+                    they should have access to grievance procedures (See <Link to="/steps/5/topic/2">Grievance Mechanisms</Link>) and should have the right to representation. Negotiation and 
                     agreement on specific remedies can be done through unions or workers&rsquo; organizations where available, or through a civil society 
                     organization or directly with individual workers, according to defined procedures.
                 </p>
@@ -30,7 +31,7 @@ const en = () => {
                 </ul>
                 <p>
                     For example, if workers are found to be in forced labor in a workplace, the CAP may require one or more of the remediation measures in 
-                    Tables 1&ndash;4 under Preventing Recurrence. It should clearly specify who is responsible for overseeing and following up on each measure. 
+                    Tables 1&ndash;4 under <Link to="/steps/6/topic/3">Preventing Recurrence</Link>. It should clearly specify who is responsible for overseeing and following up on each measure. 
                     It may require the establishment of new procedures and clarifying the lines of responsibility for implementing these procedures. The CAP may 
                     establish new &ldquo;check&rdquo; mechanisms to detect forced labor in the workplace and specify who is responsible for conducting these 
                     checks. It may also require a training session for all management on the issue of forced labor and the code of conduct&rsquo;s forced labor 
@@ -86,7 +87,7 @@ const en = () => {
                         >Best Buy Co., Inc.
                         </a>&mdash;the American consumer electronics retailer&mdash;sources products from approximately 185 factories that employ more than 
                         165,000 workers. As part of the vendor contracting process, Best Buy includes provisions that prohibit forced labor as standard. This 
-                        onboarding process includes training on Best Buy&rsquo;s 
+                        onboarding process includes training on Best Buy&rsquo;s {" "}
                         <a 
                         target="_blank"
                         rel="noopener noreferrer"
