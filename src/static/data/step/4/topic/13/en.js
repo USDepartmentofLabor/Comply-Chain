@@ -19,7 +19,7 @@ const en = () => {
                             <Accordion id="edu-progs-acc">
                                                    <Accordion.Section id="edu-progs-description">
                                                       <Accordion.Title>
-                                                    Educational programs
+                                                    <em>Educational programs</em>
                                                          </Accordion.Title>
                                                          <Accordion.Panel>
 
@@ -37,7 +37,7 @@ const en = () => {
                                                         
                                                         <p>The Iqbal Masih Award was named after a Pakistani child who was sold into slavery as a carpet weaver at age 4, escaped at 10 and became an outspoken public advocate against child exploitation. In 1994 he received the Reebok Human Rights Award. He was tragically killed a year later at the age of 12 in his native Pakistan.</p>
                                                         
-                                                        <p>The purpose of the award is to recognize exceptional efforts to reduce the worst forms of child labor&mdash;in view of inspiring and motivating others working toward this end. The award's two major goals are: 1) To honor and give public recognition to a recipient demonstrating extraordinary efforts to combat the worst forms of child labor internationally, and who shares qualities demonstrated by Iqbal Masih including leadership, courage, integrity, and a search to end the labor exploitation of children, and 2) To raise awareness about the worst forms of child labor internationally</p>
+                                                        <p>The purpose of the award is to recognize exceptional efforts to reduce the worst forms of child labor&mdash;in view of inspiring and motivating others working toward this end. The award's two major goals are: 1) To honor and give public recognition to a recipient demonstrating extraordinary efforts to combat the worst forms of child labor internationally, and who shares qualities demonstrated by Iqbal Masih including leadership, courage, integrity, and a search to end the labor exploitation of children, and 2) To raise awareness about the worst forms of child labor internationally.</p>
                                                         <p>The award was created in response to Senate Committee direction that the Secretary of Labor "establish an annual non-monetary award recognizing the extraordinary efforts by an individual, company, organization or national government toward the reduction of the worst forms of child labor." In 2021, ILAB awarded Norma Flores L&oacute;pez and the International Labor Organization.</p>
                                                         
                                                         <p>For nearly 20 years, Flores L&oacute;pez has been a leader in the fight to end exploitative child labor. She has led the Child Labor Coalition's Domestic Issues Committee for the last decade in support of improved protections for child farmworkers and other vulnerable children. Her work on the committee has helped more than a dozen organizations leverage resources and engage in the fight against child labor.</p>
@@ -51,7 +51,7 @@ const en = () => {
 
                                        <Accordion.Section id="livelihood-progs-description">
                                           <Accordion.Title>
-                                        Livelihood programs
+                                        <em>Livelihood programs</em>
                                              </Accordion.Title>
                                              <Accordion.Panel>
 
@@ -63,7 +63,7 @@ const en = () => {
 
                                         <Accordion.Section id="youth-emp-description">
                                            <Accordion.Title>
-                                         Youth Employment initiatives
+                                         <em>Youth employment initiatives</em>
                                               </Accordion.Title>
                                               <Accordion.Panel>
 
@@ -83,7 +83,7 @@ const en = () => {
 
                                                  <Accordion.Section id="women-emp-description">
                                                     <Accordion.Title>
-                                                  Women&rsquo;s empowerment programs
+                                                  <em>Women&rsquo;s empowerment programs</em>
                                                        </Accordion.Title>
                                                        <Accordion.Panel>
 
@@ -105,7 +105,7 @@ const en = () => {
 
                                                   <Accordion.Section id="health-programs-description">
                                                      <Accordion.Title>
-                                                   Health programs
+                                                   <em>Health programs</em>
                                                         </Accordion.Title>
                                                         <Accordion.Panel>
 
@@ -117,7 +117,7 @@ const en = () => {
 
                                                    <Accordion.Section id="victim-shelters-description">
                                                       <Accordion.Title>
-                                                   Victim shelters, counseling, legal and other services
+                                                   <em>Victim shelters, counseling, legal and other services</em>
                                                          </Accordion.Title>
                                                          <Accordion.Panel>
 
@@ -130,7 +130,7 @@ const en = () => {
 
                                      <Accordion.Section id="financial-literacy-description">
                                         <Accordion.Title>
-                                        Wage and financial tools
+                                        <em>Wage and financial tools</em>
                                            </Accordion.Title>
                                            <Accordion.Panel>
 

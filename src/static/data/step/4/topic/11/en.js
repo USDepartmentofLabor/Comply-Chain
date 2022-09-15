@@ -14,17 +14,17 @@ const en = () => {
                     What are the root causes of child labor and forced labor?
                 </p>
                 <p>
-                    A significant number of countries from which manufactured products are sourced&mdash;or where major agricultural commodities are grown&mdash;have deeply entrenched social, economic, and governance challenges that perpetuate child labor and forced labor. The most salient of these challenges is
+                    A significant number of countries from which manufactured products are sourced&mdash;or where major agricultural commodities are grown&mdash;have deeply entrenched social, economic, and governance challenges that perpetuate child labor and forced labor. The most salient of these challenges is{" "}
                     <strong>
                         poverty
                     </strong>
                     . According to 2020 estimates from the World Bank, between 703 and 729 million people live in extreme poverty, surviving on less than $1.90 a day, and as many as 150 million people may be pushed into extreme poverty due to the effects of the COVID-19 pandemic. Lack of adult employment with decent wages further exacerbates global poverty. Poverty is also associated with vulnerabilities beyond low income. Individuals who are poor lack mechanisms to cope with economic shocks and suffer disproportionately from poor health, hunger, and inadequate access to education and social services. As such, they may be more willing to assume risk to avail themselves of economic opportunities, making them more vulnerable to labor exploitation. This is particularly true for migrant workers.
                 </p>
-                <div><h2>Causes Related to Poverty</h2>
+                <div><h2>Causes Related to Human Rights</h2>
                  <Accordion id="lack-of-awareness-acc">
                         <Accordion.Section id="lack-of-awareness-description">
                            <Accordion.Title>
-                         Lack of Awareness About Human Rights
+                         <em>Lack of awareness about human rights</em>
                               </Accordion.Title>
                               <Accordion.Panel>
                               <p>In many countries, workers may not have access to information enabling them to understand what constitutes child labor, forced labor, or other labor abuses. Lack of awareness about good labor practices and workers&rsquo; rights, including freedom of association and collective bargaining, can be compounded by language barriers, particularly where multiple languages are spoken by workers within a facility. This heightens individuals&rsquo; vulnerability to exploitative labor and hinders their capacity to organize and advocate for better working and living conditions.</p>
@@ -33,7 +33,7 @@ const en = () => {
 
                       <Accordion.Section id="gender-ineq-description">
                          <Accordion.Title>
-                        Gender Inequality
+                        <em>Gender inequality</em>
                             </Accordion.Title>
                             <Accordion.Panel>
 
@@ -58,7 +58,7 @@ const en = () => {
                 <Accordion id="inadequate-govt-acc">
                         <Accordion.Section id="inadequate-govt-description">
                            <Accordion.Title>
-                         Ineffective or Inadequate Government Resources
+                         <em>Ineffective or inadequate government resources</em>
                               </Accordion.Title>
                               <Accordion.Panel>
 
@@ -70,7 +70,7 @@ const en = () => {
 
                       <Accordion.Section id="lack-of-access-description">
                          <Accordion.Title>
-                        Lack of Access to Quality Education
+                        <em>Lack of access to quality education</em>
                             </Accordion.Title>
                             <Accordion.Panel>
 
@@ -82,7 +82,7 @@ const en = () => {
 
                          <Accordion.Section id="weak-trade-description">
                             <Accordion.Title>
-                           Weak or Nonexistent Trade Unions and Other Civil Society Groups
+                           <em>Weak or nonexistent trade unions and other civil society groups</em>
                                </Accordion.Title>
                                <Accordion.Panel>
 
@@ -95,7 +95,7 @@ const en = () => {
                     <Accordion id="migration-systems-acc">
                        <Accordion.Section id="migration-systems-description">
                           <Accordion.Title>
-                        Migration Systems
+                        <em>Migration systems</em>
                              </Accordion.Title>
                              <Accordion.Panel>
 
@@ -109,7 +109,7 @@ const en = () => {
                     <Accordion id="global-comp-acc">
                     <Accordion.Section id="global-comp-acc-description">
                        <Accordion.Title>
-                      Global Competition
+                      <em>Global competition</em>
                           </Accordion.Title>
                           <Accordion.Panel>
 
@@ -122,7 +122,7 @@ const en = () => {
 
                   <Accordion.Section id="precarious-work-description">
                      <Accordion.Title>
-                    Precarious Work
+                    <em>Precarious work</em>
                         </Accordion.Title>
                         <Accordion.Panel>
 
@@ -159,17 +159,17 @@ const en = () => {
 
                   <Accordion.Section id="natural-disaster-description">
                      <Accordion.Title>
-                    Natural Disaster and Extreme Weather
+                    <em>Natural disaster and extreme weather</em>
                         </Accordion.Title>
                         <Accordion.Panel>
 
-                        <p className="indent-margin">Natural disasters and extreme weather, including drought and flooding, are also push factors for migration. The Internal Displacement Monitoring Center estimates that in 2020 alone, approximately 30.7 million people worldwide were displaced by natural disaster, with South and East Asia especially affected by high numbers of displaced persons. in 2021, the <a target="_blank" rel="noopener noreferrer" href="https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050">World Bank estimated</a> that climate change could force 216 million people to internally migrate by 2050, largely due to impacts on people&rsquo;s livelihoods and risks in highly exposed locations. The <a target="_blank" rel="noopener noreferrer" href="https://www.reuters.com/article/us-global-climate-jobs/rising-heat-stress-could-cost-80-million-jobs-by-2030-u-n-idUSKCN1TW36W">latest</a> projections from the ILO indicate that rising heat stress from climate change could cost 80 million jobs by 2030, deeply impacting outdoor livelihoods and threating agricultural supply chains worldwide. Extreme climate events are already impacting workers around the world. For example, in 2020, hurricanes Eta and Iota damaged the majority of Honduras&rsquo; banana farmland, leading to the temporary layoffs of over 4,000 workers.</p>
+                        <p className="indent-margin">Natural disasters and extreme weather, including drought and flooding, are also push factors for migration. The Internal Displacement Monitoring Center estimates that in 2020 alone, approximately 30.7 million people worldwide were displaced by natural disaster, with South and East Asia especially affected by high numbers of displaced persons. In 2021, the <a target="_blank" rel="noopener noreferrer" href="https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050">World Bank estimated</a> that climate change could force 216 million people to internally migrate by 2050, largely due to impacts on people&rsquo;s livelihoods and risks in highly exposed locations. The <a target="_blank" rel="noopener noreferrer" href="https://www.reuters.com/article/us-global-climate-jobs/rising-heat-stress-could-cost-80-million-jobs-by-2030-u-n-idUSKCN1TW36W">latest</a> projections from the ILO indicate that rising heat stress from climate change could cost 80 million jobs by 2030, deeply impacting outdoor livelihoods and threating agricultural supply chains worldwide. Extreme climate events are already impacting workers around the world. For example, in 2020, hurricanes Eta and Iota damaged the majority of Honduras&rsquo; banana farmland, leading to the temporary layoffs of over 4,000 workers.</p>
                     </Accordion.Panel>
                 </Accordion.Section>
 
                   <Accordion.Section id="global-health-crisis-description">
                      <Accordion.Title>
-                   Global Health Crises
+                   <em>Global health crises</em>
                         </Accordion.Title>
                         <Accordion.Panel>
 

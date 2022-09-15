@@ -3,6 +3,7 @@ import ExampleInAction from "../../../../../../components/ExampleInAction/Exampl
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import Accordion from "../../../../../../components/Accordion";
+import { HashLink as Link } from "react-router-hash-link";
 
 
 const en = () => {
@@ -16,7 +17,7 @@ const en = () => {
                 <Accordion id="wages-benefits-acc">
                  <Accordion.Section id="wages-benefits-description">
                     <Accordion.Title>
-                  Wages and benefits
+                  <em>Wages and benefits</em>
                        </Accordion.Title>
                        <Accordion.Panel>
                        <p>Though companies must ensure that their vendors are paying workers at least the minimum wage of the country and complying with all applicable laws or negotiated agreements in relation to worker compensation, such as overtime, paid leave, and other benefits, the minimum wage may not be enough to provide a decent livelihood for workers in some cases. Worker organizations may bargain for a living wage higher than the legal minimum. In-work benefits to supplement salaries can also enhance workers&rsquo; welfare. Some in-work benefits for low-income workers are provided by governments in the form of tax credits and reduced social security obligations. Private companies can also provide benefits through reimbursement of health care costs and provision of transportation and childcare. Productivity incentive-based bonuses can also be a benefit provided workers can meet productivity targets on a regular basis and without excessive work hours or unpaid overtime.</p>
@@ -26,7 +27,7 @@ const en = () => {
 
                                 <Accordion.Section id="build-govt-description">
                            <Accordion.Title>
-                        Building government capacity
+                        <em>Building government capacity</em>
                               </Accordion.Title>
                               <Accordion.Panel>
 
@@ -37,7 +38,7 @@ const en = () => {
 
                                    <Accordion.Section id="collab-govt-description">
                                       <Accordion.Title>
-                                    Collaboration with governments
+                                    <em>Collaboration with governments</em>
                                          </Accordion.Title>
                                          <Accordion.Panel>
 
@@ -48,7 +49,7 @@ const en = () => {
 
                                               <Accordion.Section id="collab-other-comps-description">
                                                  <Accordion.Title>
-                                               Collaboration with other companies
+                                               <em>Collaboration with other companies</em>
                                                     </Accordion.Title>
                                                     <Accordion.Panel>
 
@@ -62,10 +63,10 @@ const en = () => {
 
                                      <Accordion.Section id="labor-unions-description">
                                         <Accordion.Title>
-                                      Supporting labor unions and other workers advocacy groups
+                                      <em>Supporting labor unions and other workers advocacy groups</em>
                                        </Accordion.Title>
                                        <Accordion.Panel>
-                                       <p>The rights to freedom of association and collective bargaining are core labor standards and should be included in a company&rsquo;s codes of conduct, but unions are not present in all workplaces. In workplaces where there is no independent union, it is especially important for auditors to look for signs that worker organizing and freedom of association may be suppressed. If the suppression of worker organizing and freedom of association is identified, it should be dealt with through remediation. When a union is present, it is important to include union representatives in your communication and outreach efforts. Ultimately, effective worker organization and engagement are critical elements of any effort to identify and deal with child labor, forced labor, and other labor abuses. An example of this partnership is French transnational food company Danone* and the International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers&rsquo; Associations (IUF)* highlighted in Step 3: Develop a Code of Conduct.</p>
+                                       <p>The rights to freedom of association and collective bargaining are core labor standards and should be included in a company&rsquo;s codes of conduct, but unions are not present in all workplaces. In workplaces where there is no independent union, it is especially important for auditors to look for signs that worker organizing and freedom of association may be suppressed. If the suppression of worker organizing and freedom of association is identified, it should be dealt with through remediation. When a union is present, it is important to include union representatives in your communication and outreach efforts. Ultimately, effective worker organization and engagement are critical elements of any effort to identify and deal with child labor, forced labor, and other labor abuses. An example of this partnership is French transnational food company Danone* and the International Union of Food, Agricultural, Hotel, Restaurant, Catering, Tobacco and Allied Workers&rsquo; Associations (IUF)* highlighted in Step 3: <Link to="/steps/3/" >Develop a Code of Conduct.</Link></p>
                                             <OwnWords>
                                                <h4>
                                                    <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
@@ -84,7 +85,7 @@ const en = () => {
 
                                 <Accordion.Section id="responsible-recruit-description">
                                    <Accordion.Title>
-                                 Responsible Recruitment
+                                 <em>Responsible recruitment</em>
                                       </Accordion.Title>
                                       <Accordion.Panel>
 
@@ -110,11 +111,11 @@ const en = () => {
 
                                    <Accordion.Section id="worker-voice-description">
                                       <Accordion.Title>
-                                    Ensuring Worker Voice
+                                    <em>Ensuring worker voice</em>
                                          </Accordion.Title>
                                          <Accordion.Panel>
 
-                                         <p>The concept of &ldquo;worker voice&rdquo; is workers&rsquo; freedom and ability to raise concerns, represent their own needs, and have input in the workplace. To promote input by workers in their operations and supply chains, employers should engage with workers and unions on workplace conditions and provide adequate training on rights and responsibilities and grievance mechanisms to both employees and management, with engagement extending beyond usual worker feedback mechanisms (see Step 5: Grievance Mechanisms).</p>
+                                         <p>The concept of &ldquo;worker voice&rdquo; is workers&rsquo; freedom and ability to raise concerns, represent their own needs, and have input in the workplace. To promote input by workers in their operations and supply chains, employers should engage with workers and unions on workplace conditions and provide adequate training on rights and responsibilities and grievance mechanisms to both employees and management, with engagement extending beyond usual worker feedback mechanisms (see Step 5: <Link to="/steps/5/topic/2" >Grievance Mechanisms</Link>).</p>
                                          <ExampleInAction id="med_rep">
                                           <h2>
                                               <ExampleInAction.Icon alt="Lightbulb"/>
