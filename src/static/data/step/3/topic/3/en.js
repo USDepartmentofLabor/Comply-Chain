@@ -141,10 +141,10 @@ const en = () => {
                         </strong>
                     </h2>
                     <p>
-                        The Government of Brazil publishes a Register of Employers
+                        The Government of Brazil publishes a Register of Employers{" "}
                         <em>
                             (Cadastro de Empregadores),
-                        </em>
+                        </em>{" "}
                         also known as the &ldquo;Dirty List&rdquo; (
                         <em>
                             Lista Suja

@@ -1,5 +1,6 @@
 import React from "react";
 import StaticData from "../../../../../../components/StaticData";
+import { Link } from "react-router-dom";
 
 const en = () => {
     return (
@@ -7,7 +8,8 @@ const en = () => {
             <div>
                 <h1>What Makes a Good Code of Conduct?</h1>
                 <p>Codes take nearly as many forms and formats as there are companies. Some codes are stand-alone documents, while others are presented within broader statements of company mission, values, or policies. Some are included in supplier guidance documents that include other requirements, such as product quality. Increasingly, companies are including code of conduct language in multiple documents, as social compliance considerations become more interwoven within corporate strategy across business units.</p>
-                <p>Some code documents are very general&mdash;merely laying out the broad areas of compliance&mdash;while others are much more detailed. In either case, the code typically is a foundation for more detailed guidance for the decision-makers who implement the social compliance system within the company. For instance, the auditing tools derived from a code are discussed under <a target="_blank" rel="noopener noreferrer" href="https://www.dol.gov/ilab/complychain/steps/5">Step 5: Monitor Compliance</a>.</p>
+                <p>Some code documents are very general&mdash;merely laying out the broad areas of compliance&mdash;while others are much more detailed. In either case, the code typically is a foundation for more detailed guidance for the decision-makers who implement the social compliance system within the company. For instance, the auditing tools derived from a code are discussed under{" "}
+                    <Link to="/steps/5">Step 5, Monitor Compliance</Link>.</p>
                 <h2>Example Codes</h2>
                 <p>The following examples demonstrate the various forms that codes can take:</p>
                 <ul>
@@ -36,13 +38,17 @@ const en = () => {
                     <li>The effective abolition of child labor; and,</li>
                     <li>Elimination of discrimination in respect of employment and occupation</li>
                     <li>Occupational safety and health, including issues such as industrial hygiene, emergency preparedness, safety equipment, sanitation, and access to food and water</li>
-                    <li>In addition, a code of conduct should cover the following issues:</li>
+                </ul>   
+                <p> 
+                    In addition, a code of conduct should cover the following issues:
+                </p>
+                <ul>
                     <li>Compensation</li>
                     <li>Hours of work</li>
                     <li>Subcontracting, informal and ad-hoc contract work</li>
                 </ul>
-                <h2>Core ILO Convention</h2>
-                <p>The International Labor Organization (ILO) is a UN specialized agency that brings together representatives of governments, trade unions, and employers&rsquo; associations to promote social justice and internationally recognized human and labor rights by setting and supervising the application of conventions and recommendations, as well as promoting decent work and providing technical support to governments, trade unions, and employers. The ILO has adopted standards, referred to as conventions and recommendations, in the five categories of Fundamental Principles and Rights as Work and others. When a national government ratifies a convention, it is expected to take the necessary measures to ensure that its laws and practices conform to the provisions of the convention. The country is also expected to report to the ILO periodically on its implementation of each convention it has ratified.</p>
+                <h2>Core ILO Conventions</h2>
+                <p>The International Labor Organization (ILO) is a UN specialized agency that brings together representatives of governments, trade unions, and employers&rsquo; associations to promote social justice and internationally recognized human and labor rights by setting and supervising the application of conventions and recommendations, as well as promoting decent work and providing technical support to governments, trade unions, and employers. The ILO has adopted standards, referred to as conventions and recommendations, in the five categories of Fundamental Principles and Rights at Work and others. When a national government ratifies a convention, it is expected to take the necessary measures to ensure that its laws and practices conform to the provisions of the convention. The country is also expected to report to the ILO periodically on its implementation of each convention it has ratified.</p>
                 <p>The ILO&rsquo;s core labor standards are set forth in the Declaration on <a target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/declaration/lang--en/index.htm">Fundamental Principles and Rights at Work</a> as rights that all governments should ensure are realized, regardless of whether the government has ratified the corresponding convention or not. Governments that have not ratified the corresponding conventions must periodically report to the ILO on the realization of those rights.</p>
                 <p>The fundamental rights are enshrined in eight ILO conventions and are considered the minimum enabling rights people need to defend and improve their rights and conditions at work. The following constitute the <a target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/global/standards/introduction-to-international-labour-standards/conventions-and-recommendations/lang--en/index.htm">set of core ILO conventions</a>, though the ILO has additional conventions on compensation, and other related labor issues. Until June 2022, there have been four categories of Fundamental Principles and Rights at Work. On the occasion of the 110th International Labor Conference, the ILO <a target="_blank" rel="noopener noreferrer" href="https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_848132/lang--en/index.htm">adopted a resolution adding a fifth category</a>: occupational safety and health. As each of the fundamental principles is associated with the most relevant ILO conventions, the ILO has added two conventions to the set of core ILO conventions: Occupational Safety and Health Convention, 1981 (No. 155) and Promotional Framework for Occupational Safety and Health, 2006 (No. 187).</p>
                 <ul>

@@ -12,12 +12,16 @@ const en = () => {
 
                 <p>Robust social auditing is a valuable way&mdash;in addition to engagement with unions, workers, and grievance mechanisms&mdash;to obtain information about violations of a company&rsquo;s code of conduct in your supply chain. Auditing uncovers problems; it does not solve problems. It is one piece of the larger social compliance system along with stakeholder engagement, communication, remediation, and the other steps in the process.</p>
                 <p>Auditing is central to the implementation of an effective social compliance system. Upon completion, your company should carefully review audit results, evaluate audit data, and plan activities based on this evaluation.</p>
-                <p>As discussed in <a target="_blank" rel="noopener noreferrer" href="https://www.dol.gov/ilab/complychain/steps/3">Step 1: Engage Stakeholders and Partners</a>, if you are part of an industry or multi-industry group, this group may already have trained auditors or auditor training materials. It may have complete audit tools that comport with the group&rsquo;s code. Many of these groups coordinate to conduct joint audits of shared suppliers or share audit reports.</p>
+                <p>As discussed in{" "}
+                    <Link to="/steps/1">
+                        Step 1, Engage Stakeholders and Partners
+                    </Link>, if you are part of an industry or multi-industry group, this group may already have trained auditors or auditor training materials. It may have complete audit tools that comport with the group&rsquo;s code. Many of these groups coordinate to conduct joint audits of shared suppliers or share audit reports.</p>
                 <p>Once you have targeted certain areas of your supply chain as higher risk and communicated to the relevant individuals and organizations their roles and responsibilities in your social compliance system, you can begin to set up audits. To ensure successful audits, you will need to make sure you have the right personnel in place with the tools they need.</p>
                 <p>It is also important to note that companies can explore other avenues to monitor compliance beyond the traditional audit process. Increasingly, companies are exploring other ways to gather information and monitor compliance, such as relying on the use of technology, as highlighted in several examples in this section, and through existing partnerships with the NGO community and other civil society members, among others.<br /><br /></p>
                 <h2>The Key Role of Workers and Unions</h2>
                 <p>One of the most effective ways to monitor supply chains is through workers themselves and the unions that represent them. Workers and unions can bring issues to a company&rsquo;s attention before any audit takes place. If a union is present in a workplace that is being audited, it should be consulted up front; if no union is present, worker interviews and input should be an integral part of the audit.</p>
-                <p>In any audit, when violations are found, you should remediate them. This is covered in detail in <a target="_blank" rel="noopener noreferrer" href="https://www.dol.gov/ilab/complychain/steps/8">Step 6: Remediate Violations</a>.</p>
+                <p>In any audit, when violations are found, you should remediate them. This is covered in detail in{" "}
+                    <Link to="/steps/6">Step 6, Remediate Violations</Link>.</p>
 
                 <ExampleInAction id="better_work_assessment">
                 <h3>

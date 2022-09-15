@@ -58,8 +58,7 @@ const en = () => {
                         <strong>In Their Own Words</strong>
                         {": "}
                         <strong>
-                            International Institution Guidance
-                            on Supply Chain Responsibility{" "}
+                        International institution guidance on supply chain responsibility{" "}
                         </strong>
                     </h2>
                     <p>                        

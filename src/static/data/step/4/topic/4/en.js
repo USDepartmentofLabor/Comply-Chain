@@ -18,8 +18,8 @@ const en = () => {
                     If your company currently does not have access to information about suppliers beyond those from whom it sources directly, you should work with the legal department or other appropriate units in the company to create contractual requirements for disclosing comprehensive information about suppliers at all tiers. At a minimum, companies should collect information on the locations where suppliers operate and source raw materials, labor laws in those jurisdictions, and suppliers&rsquo; labor policies. ILAB&rsquo;s annual{" "}
                     <em>
                         Findings on the Worst Forms of Child Labor
-                    </em>
-                    {" "}report details the legal framework for more than 130 countries and can help you determine whether a country&rsquo;s legal framework meets international standards.
+                    </em>{" "}
+                    report details the legal framework for more than 130 countries and can help you determine whether a country&rsquo;s legal framework meets international standards.
                 </p>
                 <p>
                     &ldquo;Mapping&rdquo; includes knowing who your suppliers are throughout the supply chain, where they are located, and how those locations may evolve over time. This information is essential for risk and impact assessment related to legal and regulatory environments, among other things. Regular maintenance of supply chain data keeps this information accurate and, in turn, reduces risks that may emerge from outdated information on suppliers. This exercise may also include maps showing seasonality of production or production cycles throughout the year, as these may be tied to times of greater risk for labor abuses.
@@ -40,8 +40,8 @@ const en = () => {
                     To be clear, mapping supply chains does not necessarily imply that a company is responsible for all impacts and risks associated with every entity in the chain. As stated in the{" "}
                     <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=un+guiding+principles+on+business+and+human+rights&amp;rlz=1C1GCEA_enUS976US977&amp;oq=un+guiding+princ&amp;aqs=chrome.1.69i57j69i59j69i60l3j69i65l2j69i60.2263j0j4&amp;sourceid=chrome&amp;ie=UTF-8">
                         UN Guiding Principles on Business and Human Rights
-                    </a>
-                    {" "}, &ldquo;where business enterprises have large numbers of entities in their value chains it may be unreasonably difficult to conduct due diligence for adverse human rights impacts across them all. If so, business enterprises should identify general areas where the risk of adverse human rights impacts is more significant, whether due to certain suppliers&rsquo; or clients&rsquo; operating context, the particular operations, products or services involved, or other relevant considerations, and prioritize those for human rights due diligence.&rdquo; This prioritization process is addressed below.
+                    </a>{" "}
+                    UN Guiding Principles on Business and Human Rights, &ldquo;where business enterprises have large numbers of entities in their value chains it may be unreasonably difficult to conduct due diligence for adverse human rights impacts across them all. If so, business enterprises should identify general areas where the risk of adverse human rights impacts is more significant, whether due to certain suppliers&rsquo; or clients&rsquo; operating context, the particular operations, products or services involved, or other relevant considerations, and prioritize those for human rights due diligence.&rdquo; This prioritization process is addressed below.
                 </p>
                 <p>
                     The following are three examples of supply chain maps:
