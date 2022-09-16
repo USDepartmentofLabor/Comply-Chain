@@ -54,13 +54,13 @@ const en = () => {
                                      Verification
                                  </strong>
                              </h3>
-                             <p>To verify the age of workers, &ldquo;employers should keep and make available to the competent authority registers or other documents indicating the names and ages or dates of birth, duly certified wherever possible, not only of children and young persons employed by them but also of those receiving vocational orientation or training in their undertakings.&rdquo; (1)&nbsp;</p>
+                             <p>To verify the age of workers, &ldquo;employers should keep and make available to the competent authority registers or other documents indicating the names and ages or dates of birth, duly certified wherever possible, not only of children and young persons employed by them but also of those receiving vocational orientation or training in their undertakings.&rdquo;</p>
                             <p>&ldquo;When there are no birth certificates to verify age or where falsified documents are easily obtained, the following suggestions may be helpful:</p>
                             <ul>
                                 <li>A medical examination prior to employment may help to indicate the person&rsquo;s true age and verify the physical aptitude for the work. Care should always be taken to respect the person&rsquo;s right to privacy.</li>
                                 <li>Cross-checking multiple written documents and affidavits can help identify false documentation.</li>
                                 <li>Employers can hold interviews with employees and applicants who appear to be below the minimum age required for work to obtain further information.</li>
-                                <li>School enrollment certificates can be a good source of information.&rdquo; (2)</li>
+                                <li>School enrollment certificates can be a good source of information.&rdquo;</li>
                             </ul>
                             <p>Local indicators may also be helpful in countries where the challenge is that the worker may not know the precise year in which they were born. For example, in some Asian countries, children do not know their precise birth year but know the animal year (Year of the Monkey, etc.). A person might know that their birth is related to some major historical event, such as independence or the start or end of a war, or a significant anniversary. You may wish to research local key events or means of marking time in the country of operation; you could use this information in interviews with workers if you have doubts about their age.</p>
                             <p>(1) See Article 9(3) of <a target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C138">Convention No. 138 (1973)</a>, concerning the employers&rsquo; obligation to keep registers of young workers under 18.</p>
@@ -132,7 +132,7 @@ const en = () => {
                      Interviews with labor brokers and recruiters
                         </Accordion.Title>
                         <Accordion.Panel>
-                        <p>For companies with significant numbers of migrant and contract workers in their supply chains, there is an increasing movement toward interviewing labor recruiters and brokers as part of the audit process. Gaining access to recruiters or brokers for interviews can be a challenge and is likely to require the supplier&rsquo;s coordination and cooperation. Verit&eacute;&rsquo;s* <a target="_blank" rel="noopener noreferrer" href="http://helpwanted.verite.org/helpwanted/toolkit">Fair Hiring Toolkit</a> includes <a target="_blank" rel="noopener noreferrer" href="http://helpwanted.verite.org/helpwanted/toolkit/suppliers/managing-labor-recruiters">sample interview questions for labor recruiters</a> that are designed for use by company social auditors.</p>
+                        <p>For companies with significant numbers of migrant and contract workers in their supply chains, there is an increasing movement toward interviewing labor recruiters and brokers as part of the audit process. Gaining access to recruiters or brokers for interviews can be a challenge and is likely to require the supplier&rsquo;s coordination and cooperation. Verit&eacute;&rsquo;s* <a target="_blank" rel="noopener noreferrer" href="https://verite.org/help-wanted/fair-hiring-toolkit/">Fair Hiring Toolkit</a> includes <a target="_blank" rel="noopener noreferrer" href="https://verite.org/help-wanted/fair-hiring-toolkit/for-suppliers/3-screening-labor-recruiters/">sample interview questions for labor recruiters</a> that are designed for use by company social auditors.</p>
                     </Accordion.Panel>
                 </Accordion.Section>
                 {/* </Accordion>

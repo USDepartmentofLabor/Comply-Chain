@@ -7,7 +7,7 @@ const en = () => {
         <StaticData>
             <div>
                 <h1>
-                    What Topics Should Training and Capacity-Building Cover?
+                    What topics should training and capacity-building cover?
                 </h1>
                 <p>
                     The following are key training topics for each training
@@ -72,7 +72,7 @@ const en = () => {
                 <Accordion.Section id="vendor-agent">
                             <Accordion.Title>
                                 <strong>
-                                Vendors/Agents (If Applicable)
+                                Vendors or Agents (If Applicable)
 
                                 </strong>
                             </Accordion.Title>

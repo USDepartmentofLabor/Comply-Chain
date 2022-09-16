@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
-import usFlag from "../../../../../images/us_flag.png";
-import verite from "../../../../../images/verite.png";
+// import usFlag from "../../../../../images/us_flag.png";
+// import verite from "../../../../../images/verite.png";
 import { UsFlag, Verite, VeriteFlagWrapper } from "./shared";
 import Accordion from "../../../../../../components/Accordion";
 
@@ -26,11 +27,11 @@ const en = () => {
                     <li>What are the working conditions of all persons under age 18? What specific tasks are they performing? What equipment are they using? Can any of these tasks or equipment be hazardous?</li>
                     <li>How does the facility distinguish between hazardous and non-hazardous tasks, and how is the facility ensuring that persons under 18 do not engage in hazardous tasks in violation of international law?</li>
                 </ul>
-                <p>Forced labor is an extremely complex labor rights violation that can take many forms. The ILO&rsquo;s <a target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_099626/lang--en/index.htm">Combating Forced Labour: A Handbook for Employers and Business, Booklet 4</a>contains a useful checklist and guidance for auditors and compliance personnel to identify forced labor at the enterprise level and in global supply chains. In 2016, the ILO also launched the mobile app <a target="_blank" rel="noopener noreferrer" href="https://www.ilo.org/global/publications/WCMS_460489/lang--en/index.htm">Eliminating and Preventing Forced Labour: Checkpoints</a> which allows companies, auditors, and compliance personnel to create interactive checklists to help eliminate and prevent forced labor in business operations. The questions below, excerpted from an ILO publication, can help an auditor identify specific forms of forced labor.</p>
+                <p>Forced labor is an extremely complex labor rights violation that can take many forms. The ILO&rsquo;s <a target="_blank" rel="noopener noreferrer" href="http://www.ilo.org/global/topics/forced-labour/publications/WCMS_099626/lang--en/index.htm">Combating Forced Labour: A Handbook for Employers and Business, Booklet 4</a>{" "}contains a useful checklist and guidance for auditors and compliance personnel to identify forced labor at the enterprise level and in global supply chains. In 2016, the ILO also launched the mobile app <a target="_blank" rel="noopener noreferrer" href="https://www.ilo.org/global/publications/WCMS_460489/lang--en/index.htm">Eliminating and Preventing Forced Labour: Checkpoints</a> which allows companies, auditors, and compliance personnel to create interactive checklists to help eliminate and prevent forced labor in business operations. The questions below, excerpted from an ILO publication, can help an auditor identify specific forms of forced labor.</p>
                 <Accordion id="recruitment-indicator-acc">
                <Accordion.Section id="recruitment-indicator-description">
                   <Accordion.Title>
-                  Indicators of Forced Labor Through Recruitment Practices
+                  Table1: Indicators of Forced Labor Through Recruitment Practices
                      </Accordion.Title>
                      <Accordion.Panel>
                      <p className="indent-margin">
@@ -49,7 +50,7 @@ const en = () => {
              <Accordion id="duress-indicator-acc"> */}
                 <Accordion.Section id="duress-indicator-description">
                    <Accordion.Title>
-                   Indicators of Forced Labor Through Work and Life Under Duress
+                   Table2: Indicators of Forced Labor Through Work and Life Under Duress
                       </Accordion.Title>
                       <Accordion.Panel>
                       <p className="indent-margin">
@@ -70,7 +71,7 @@ const en = () => {
               <Accordion id="impossible-leaving-acc"> */}
                               <Accordion.Section id="impossible-leaving-description">
                                  <Accordion.Title>
-                                 Indicators of Forced Labor Through Impossibility of Leaving
+                                 Table3: Indicators of Forced Labor Through Impossibility of Leaving
                                     </Accordion.Title>
                                     <Accordion.Panel>
                                     <p className="indent-margin">
@@ -88,7 +89,7 @@ const en = () => {
                   <Accordion id="penalties-indicator-acc"> */}
                                                 <Accordion.Section id="penalties-indicator-description">
                                                    <Accordion.Title>
-                                                   Indicators of Penalties or Threats
+                                                   Table4: Indicators of Penalties or Threats
                                                       </Accordion.Title>
                                                       <Accordion.Panel>
                                                       <p>If any of the indicators listed above are present (note that any one indicator is enough; one is not needed from each table), the auditor should examine whether penalties or threats are being used to exact labor. If so, the situation may constitute forced labor:</p>
@@ -111,7 +112,7 @@ const en = () => {
                                   </Accordion.Panel>
                               </Accordion.Section>
                               </Accordion>
-                              <p>Many companies&rsquo; audit tools are proprietary, so it can be difficult to find samples to guide the development of your own. The <a target="_blank" rel="noopener noreferrer" href="http://responsiblesourcingtool.org/"> Responsible Sourcing Tool </a> (RST) includes Recruitment and Employment Benchmarks to translate into measurable and actionable data points the requirements and good practices outlined in its Sample Code of Conduct Provisions, referenced in <a target="_blank" rel="noopener noreferrer" href="https://www.dol.gov/ilab/complychain/steps/5"> Step 3: Develop a Code of Conduct </a> . These benchmarks, which cover a range of areas related to forced labor and human trafficking, including recruitment fees, contracts of employment, document retention, and freedom of movement, can serve as a basis for the development of audit instruments and for establishing and monitoring key performance indicators to evaluate the performance of suppliers and labor agents.</p>
+                              <p>Many companies&rsquo; audit tools are proprietary, so it can be difficult to find samples to guide the development of your own. The <a target="_blank" rel="noopener noreferrer" href="http://responsiblesourcingtool.org/"> Responsible Sourcing Tool </a> (RST) includes Recruitment and Employment Benchmarks to translate into measurable and actionable data points the requirements and good practices outlined in its Sample Code of Conduct Provisions, referenced in <Link to="/steps/3">Step 3: Develop a Code of Conduct</Link>. These benchmarks, which cover a range of areas related to forced labor and human trafficking, including recruitment fees, contracts of employment, document retention, and freedom of movement, can serve as a basis for the development of audit instruments and for establishing and monitoring key performance indicators to evaluate the performance of suppliers and labor agents.</p>
 
 
                 <ExampleInAction id="rst1a">
@@ -119,10 +120,10 @@ const en = () => {
                         <ExampleInAction.Icon alt="Lightbulb" /> Example in
                         Action: Responsible Sourcing Tool 1A
                     </h2>
-                    <VeriteFlagWrapper>
+                    {/* <VeriteFlagWrapper>
                         <UsFlag src={usFlag} alt="US Flag" />
                         <Verite src={verite} alt="Verite sign" />
-                    </VeriteFlagWrapper>
+                    </VeriteFlagWrapper> */}
                     <p>
                         <strong>
                             PROTECTIONS AGAINST TRAFFICKING IN PERSONS{" "}
@@ -500,7 +501,7 @@ const en = () => {
                 >
                     Aspen Institute
                 </a>
-                . The content of RST was provided by&nbsp;<span lang="fr">Verit&eacute;</span>, a labor rights organization with expertise in supply chain compliance, with funds from the U.S. Department of State&rsquo;s Office to Monitor and Combat Trafficking in Persons under Cooperative Agreement S-SJTIP-13-CA-1029<strong>.</strong>&nbsp;The development of RST was informed by experts from several U.S. government agencies, including the U.S. Departments of State and Labor, and other primary stakeholders including trafficking survivors, corporate and NGO leaders, and acquisitions personnel and federal contracting officers.
+                . The content of RST was provided by&nbsp;<span lang="fr">Verit&eacute;</span>, a labor rights organization with expertise in supply chain compliance, with funds from the U.S. Department of State&rsquo;s Office to Monitor and Combat Trafficking in Persons under Cooperative Agreement S-SJTIP-13-CA-1029<strong>.</strong>&nbsp;The development of RST was informed by experts from several U.S. government agencies, including the USDOL, U.S. Departments of State and Labor, and other primary stakeholders including trafficking survivors, corporate and NGO leaders, and acquisitions personnel and federal contracting officers.
             </p>
                        </ExampleInAction>
                 
