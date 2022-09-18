@@ -18,7 +18,7 @@ const en = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Better Work Impact Evaluation
+                            Example in Action: Better Work impact evaluation
                         </strong>
                     </h2>
                     <p>
