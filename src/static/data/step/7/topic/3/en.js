@@ -501,7 +501,7 @@ const en = () => {
                 >
                     Aspen Institute
                 </a>
-                . The content of RST was provided by&nbsp;<span lang="fr">Verit&eacute;</span>, a labor rights organization with expertise in supply chain compliance, with funds from the U.S. Department of State&rsquo;s Office to Monitor and Combat Trafficking in Persons under Cooperative Agreement S-SJTIP-13-CA-1029<strong>.</strong>&nbsp;The development of RST was informed by experts from several U.S. government agencies, including the USDOL, U.S. Departments of State and Labor, and other primary stakeholders including trafficking survivors, corporate and NGO leaders, and acquisitions personnel and federal contracting officers.
+                . The content of RST was provided by&nbsp;<span lang="fr">Verit&eacute;</span>, a labor rights organization with expertise in supply chain compliance, with funds from the U.S. Department of State&rsquo;s Office to Monitor and Combat Trafficking in Persons under Cooperative Agreement S-SJTIP-13-CA-1029<strong>.</strong>&nbsp;The development of RST was informed by experts from several U.S. government agencies, including the USDOL, U.S. Departments of State, and other primary stakeholders including trafficking survivors, corporate and NGO leaders, and acquisitions personnel and federal contracting officers.
             </p>
                        </ExampleInAction>
                 

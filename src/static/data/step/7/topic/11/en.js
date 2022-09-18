@@ -53,7 +53,7 @@ const en = () => {
                         <li>Actions implemented by the supplier to resolve the issue, with the outcomes monitored.</li>
                     </ul>
                     <p>Unilever will often involve an independent organization at various stages to collate further information and outline the requirements for the supplier. The company works with its suppliers to help improve practices and resolve issues. However, it takes appropriate action consistent with its <a target="_blank" rel="noopener noreferrer" href="https://www.unilever.com/Images/unilever-palm-oil-policy-2016_tcm244-479933_en.pdf">Five Principles for Sustainable Palm Oil</a> against suppliers who are unwilling or unable to comply.</p>
-                    <p>As of January 2019, Unilever began publicly disclosing the grievances against its suppliers through a published <a target="_blank" rel="noopener noreferrer" href="https://www.unilever.com/Images/unilever-palm-oil-grievance-tracker_tcm244-530071_en.pdf">grievance tracker</a>.</p>
+                    <p>As of January 2019, Unilever began publicly disclosing the grievances against its suppliers through a published <a target="_blank" rel="noopener noreferrer" href="https://www.unilever.com/Images/palm-oil-grievance-procedure_tcm244-510633_en.pdf">grievance tracker</a>.</p>
                     <img
                         src={unilever} 
                         />
