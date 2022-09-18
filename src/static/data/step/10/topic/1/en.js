@@ -25,7 +25,7 @@ const en = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                        In Their Own Words: The Coca-Cola Company&rsquo;s* country sugar studies on child labor, forced labor, and land rights
+                        Example in Action: The Coca-Cola Company&rsquo;s* country sugar studies on child labor, forced labor, and land rights
                         </strong>
                     </h2>
                     <p>

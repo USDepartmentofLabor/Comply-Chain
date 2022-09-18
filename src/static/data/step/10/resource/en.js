@@ -81,20 +81,26 @@ const en = () => {
                         UNICEF. Children&rsquo;s rights in sustainability reporting: A guide for incorporating children&rsquo;s rights 
                         into GRI-based reporting. Geneva, 2014; available from {" "}
                         <a 
+                        target="_blank"
+                        rel="noopener noreferrer"
                         title="https://www.unicef.org/csr/css/Childrens_Rights_in_Reporting_Second_Edition_HR.pdf" 
                         href="https://www.unicef.org/csr/css/Childrens_Rights_in_Reporting_Second_Edition_HR.pdf"
                         >https://www.unicef.org/csr/css/Childrens_Rights_in_Reporting_Second_Edition_HR.pdf
                         </a>.
                     </li>
                     <li>
-                        UN Global Compact and the Stichting Global Reporting Initiative (GRI). Making the Connection: Using the GRI G4 
+                        UN Global Compact and the Stitchting Global Reporting Initiative (GRI). Making the Connection: Using the GRI G4 
                         Guidelines to Communicate Progress on the UN Global Compact Principles, 2013; available from {" "}
-                        <a 
+                        {/* <a 
+                        target="_blank"
+                        rel="noopener noreferrer"
                         title="https://www.globalreporting.org/resourcelibrary/UNGC-G4-linkage-publication.pdf" 
                         href="https://www.globalreporting.org/resourcelibrary/UNGC-G4-linkage-publication.pdf"
                         >https://www.globalreporting.org/resourcelibrary/UNGC-G4-linkage-publication.pdf
-                        </a>{" "}
+                        </a>{" "} */}
                         <a 
+                        target="_blank"
+                        rel="noopener noreferrer"
                         title="https://www.unglobalcompact.org/library/306" 
                         href="https://www.unglobalcompact.org/library/306"
                         >https://www.unglobalcompact.org/library/306

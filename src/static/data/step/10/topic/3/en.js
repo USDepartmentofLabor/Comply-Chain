@@ -235,6 +235,8 @@ const en = () => {
                     To further raise awareness for companies that do business in or source goods from China, especially Xinjiang, in July 2021, USDOL joined 
                     the Office of the U.S. Trade Representative, U.S. Departments of State, Treasury, Commerce, and Homeland Security in issuing an updated{" "}
                     <a 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     title="Xinjiang Supply Chain Business Advisory" 
                     href="https://www.state.gov/wp-content/uploads/2021/07/Xinjiang-Business-Advisory-13July2021.pdf"
                     >Xinjiang Supply Chain Business Advisory
@@ -249,7 +251,7 @@ const en = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Uyghur Forced Labor Prevention Act" 
-                    href="https://www.congress.gov/bill/117th-congress/house-bill/6256/text"
+                    href="https://www.cbp.gov/trade/forced-labor/UFLPA?language_content_entity=en"
                     >Uyghur Forced Labor Prevention Act
                     </a>, 
                     underscoring the United States&rsquo; commitment to combating forced labor. This law applies a rebuttable presumption that goods made in 
@@ -398,11 +400,9 @@ const en = () => {
                     </p>
                     <p>
                         Output 1: Increasing the number of tested supply chain tracing methodologies;
-                    </p>
-                    <p>
+                    <br></br>
                         Output 2: Increasing the number of piloted tools for supply chain tracing; and,
-                    </p>
-                    <p>
+                    <br></br>
                         Output 3: Increasing the dissemination of supply chain tracing tools and methodologies to a broad range of stakeholders.
                     </p>
                     <p>
@@ -417,7 +417,7 @@ const en = () => {
                     </p>
                     <p>
                         <span>
-                            For more information about the STREAMS project implemented by Verit&eacute;, visit 
+                            For more information about the STREAMS project implemented by Verit&eacute;, visit {" "}
                         </span>
                         <span>
                             <a 
@@ -518,6 +518,8 @@ const en = () => {
                 </p>
                 <p>
                     <a 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     title="Transparantem presented the results of the investigations" 
                     href="http://transparentem.org/wp-content/uploads/2021/03/Transparentem-Malaysia-2019-Monitoring-Summary.pdf"
                     >Transparantem presented the results of the investigations
@@ -550,8 +552,7 @@ const en = () => {
                     href="https://www.ilo.org/wcmsp5/groups/public/---asia/---ro-bangkok/documents/genericdocument/wcms_614381.pdf"
                     >https://www.ilo.org/wcmsp5/groups/public/---asia/---ro-bangkok/documents/genericdocument/wcms_614381.pdf
                     </a>.
-                </p>
-                <p>
+                <br></br>
                     Source:{" "}
                     <a 
                     target="_blank"
@@ -560,15 +561,15 @@ const en = () => {
                     href="http://transparentem.org/wp-content/uploads/2021/03/Transparentem-Malaysia-2019-Monitoring-Summary.pdf"
                     >http://transparentem.org/wp-content/uploads/2021/03/Transparentem-Malaysia-2019-Monitoring-Summary.pdf
                     </a>.
-                </p>
-                <p><span>Source:{" "}
+                <br></br>
+                Source:{" "}
                     <a 
                     target="_blank"
                     rel="noopener noreferrer"
                     title="http://transparentem.org/wp-content/uploads/2021/03/Transparentem-Malaysia-2020-Investigation-Summary.pdf" 
                     href="http://transparentem.org/wp-content/uploads/2021/03/Transparentem-Malaysia-2020-Investigation-Summary.pdf"
                     >http://transparentem.org/wp-content/uploads/2021/03/Transparentem-Malaysia-2020-Investigation-Summary.pdf
-                    </a>.</span>
+                    </a>.
                 </p>
                 </ExampleInAction>
 
@@ -581,7 +582,7 @@ const en = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Unilever&rsquo;s* Palm Oil Supply Chain
+                            Example in Action: Unilever&rsquo;s* palm oil supply chain
                         </strong>
                     </h2>
                     <p>
@@ -590,7 +591,7 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         title="People and Nature Policy" 
-                        href="https://assets.unilever.com/files/92ui5egz/production/700d79e541452625426918fbe50eae57c43ebbee.pdf/unilever-palm-oil-policy.pdf"
+                        href="https://assets.unilever.com/files/92ui5egz/production/cd70a5aad1bd6474a553bf857266fcbea9f41d47.pdf/unilever-people-and-nature-policy.pdf"
                         >People and Nature Policy
                         </a>, 
                         a renaming of the earlier {" "}
@@ -598,7 +599,7 @@ const en = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Sustainable Palm Oil Sourcing Policy" 
-                        href="https://www.unilever.com/Images/unilever-palm-oil-policy-2016_tcm244-479933_en.pdf"
+                        href="https://assets.unilever.com/files/92ui5egz/production/700d79e541452625426918fbe50eae57c43ebbee.pdf/unilever-palm-oil-policy.pdf"
                         >Sustainable Palm Oil Sourcing Policy
                         </a>, 
                         British-Dutch consumer goods company Unilever disclosed its full list of suppliers in 2017 and has continued to take steps to update 
