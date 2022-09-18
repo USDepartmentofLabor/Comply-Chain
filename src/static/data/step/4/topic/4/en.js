@@ -38,7 +38,7 @@ const en = () => {
                 </p>
                 <p>
                     To be clear, mapping supply chains does not necessarily imply that a company is responsible for all impacts and risks associated with every entity in the chain. As stated in the{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=un+guiding+principles+on+business+and+human+rights&amp;rlz=1C1GCEA_enUS976US977&amp;oq=un+guiding+princ&amp;aqs=chrome.1.69i57j69i59j69i60l3j69i65l2j69i60.2263j0j4&amp;sourceid=chrome&amp;ie=UTF-8">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf">
                         UN Guiding Principles on Business and Human Rights
                     </a>{" "}
                     UN Guiding Principles on Business and Human Rights, &ldquo;where business enterprises have large numbers of entities in their value chains it may be unreasonably difficult to conduct due diligence for adverse human rights impacts across them all. If so, business enterprises should identify general areas where the risk of adverse human rights impacts is more significant, whether due to certain suppliers&rsquo; or clients&rsquo; operating context, the particular operations, products or services involved, or other relevant considerations, and prioritize those for human rights due diligence.&rdquo; This prioritization process is addressed below.
@@ -49,7 +49,7 @@ const en = () => {
                        <Accordion id="cocoa-chains-acc">
                               <Accordion.Section id="cocoa-description">
                               <Accordion.Title>
-                              Example 1: Cocoa Supply Chains (Cote D'Ivoire and Ghana)
+                              Example 1: Cocoa Supply Chains
                           </Accordion.Title>
                           <Accordion.Panel>
                               <img
@@ -116,7 +116,7 @@ const en = () => {
                               alt="DRC Minerals Supply Chains"
                               longdesc="#minerals_chains"
                               />
-                        <p className="small-text">
+                        <p>
                         The graphics above illustrate the general steps in the supply chain for the electronics industry, which sources many rare earth metals from the Democratic Republic of the Congo (DRC) in Central Africa. Although the design and development of consumer electronics often take place near the locations of end users, such as in the United States, the sourcing of materials often begins halfway around the world in Central Africa. These mined materials are then delivered over land to ports on the coast of East Africa. Traveling by boat, the materials are then delivered to smelters in East and Southeast Asia, where the smelters refine the materials and convert them into usable components for the manufacturers that are based both in the region and also in Europe and North America.
 
                           </p>

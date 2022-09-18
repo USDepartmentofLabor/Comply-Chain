@@ -28,8 +28,8 @@ const en = () => {
 </Link>).
                 </p>
                 <p>
-                    If, after examining these processes and practices, you discover abuses that you have already caused or to which you have contributed, you should actively engage in remediation. If you identify risks, these should be mitigated or prevented by engaging in a process of internal change with all relevant actors in the company in close consultation with key stakeholders (see Step 1: <Link to="/steps/1/" >
-                    Engage Stakeholders and Partners</Link>).
+                    If, after examining these processes and practices, you discover abuses that you have already caused or to which you have contributed, you should actively engage in remediation. If you identify risks, these should be mitigated or prevented by engaging in a process of internal change with all relevant actors in the company in close consultation with key stakeholders (see <Link to="/steps/1/" >
+                    Step 1: Engage Stakeholders and Partners</Link>).
                 </p>
 
 
