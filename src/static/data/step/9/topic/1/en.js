@@ -11,7 +11,7 @@ const en = () => {
                 <p>
                     As discussed in the Basics of a Social Compliance System section, your social compliance team has set goals, objectives, and 
                     targets for your system and periodically assesses performance against those targets. In addition to this internal review, you will 
-                    also need periodic, <strong>independent reviews</strong>, which includes <strong>independent monitoring</strong> and 
+                    also need periodic, <strong>independent reviews</strong>, which includes <strong>independent monitoring</strong> and {" "}
                     <strong>independent verification</strong> of the effectiveness of all social compliance program elements. <em>Note: If, in </em>
                     <Link to="/steps/5">Step 5, Monitor Compliance</Link>,{" "}<em> 
                         you opted for independent monitoring </em><em>or auditing, it is not necessary to repeat this step but it is still advisable to 
@@ -24,7 +24,7 @@ const en = () => {
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
                             Example in Action: Social Accountability 
-                            International Model{" "}
+                            International model{" "}
                         </strong>
                     </h2>
                     <p>

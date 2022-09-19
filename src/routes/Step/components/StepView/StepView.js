@@ -268,7 +268,13 @@ class StepView extends Component {
                         <NavButton
                             id="next-step"
                             variant="primary"
-                            onClick={() => this.navigate(nextStep)}
+                            onClick={
+                                ()=> {
+                                    this.navigate(nextStep);
+                                    window.scrollTo(0, 0);
+                                }
+                                
+                            }
                             right
                         >
                             {localizor.strings.general.nextStep}

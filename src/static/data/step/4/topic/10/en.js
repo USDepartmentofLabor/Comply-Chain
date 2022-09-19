@@ -15,9 +15,10 @@ const en = () => {
                     <li>The ILO&rsquo;s <a target="_blank" rel="noopener noreferrer" href="https://www.ilo.org/global/topics/fair-recruitment/WCMS_536755/lang--en/index.htm">General Principles and Operational Guidelines for Fair Recruitment</a>, which informs the work of the ILO and of national legislatures and other social partners on promoting and ensuring fair recruitment. This document also includes ILO&rsquo;s definition of recruitment fees and related costs.</li>
                     <li><a target="_blank" rel="noopener noreferrer" href="https://www.ilo.org/global/topics/labour-migration/WCMS_778839/lang--en/index.htm">ILO&rsquo;s promising practices for fair recruitment database</a></li>
                     <li><a target="_blank" rel="noopener noreferrer" href="https://iris.iom.int/">International Organization for Migration&rsquo;s IRIS Standard</a>&nbsp;</li>
-                    <li>The <a target="_blank" rel="noopener noreferrer" href="http://www.iccr.org/">Interfaith Center on Corporate Responsibility&rsquo;s (ICCR)</a><a target="_blank" rel="noopener noreferrer" href="http://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"> Best Practice Guidance on Ethical Recruitment of Migrant Workers</a></li>
+                    <li>The <a target="_blank" rel="noopener noreferrer" href="https://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf">Interfaith Center on Corporate Responsibility&rsquo;s (ICCR)</a><a target="_blank" rel="noopener noreferrer" href="http://www.iccr.org/sites/default/files/iccrsbestpracticesinethicalrecruitment05.01.17.pdf"> Best Practice Guidance on Ethical Recruitment of Migrant Workers</a></li>
+                    <li>The <a target="_blank" rel="noopener noreferrer" href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment">Institute for Human Rights and Business&rsquo; Leadership Group for Responsible Recruitment</a></li>
                 </ul>
-                <p>The <a target="_blank" rel="noopener noreferrer" href="https://www.ihrb.org/employerpays/leadership-group-for-responsible-recruitment">Institute for Human Rights and Business&rsquo; Leadership Group for Responsible Recruitment</a></p>
+                
              <OwnWords>
                                                        <h4>
                                                            <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>

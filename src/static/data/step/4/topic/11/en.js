@@ -14,17 +14,17 @@ const en = () => {
                     What are the root causes of child labor and forced labor?
                 </p>
                 <p>
-                    A significant number of countries from which manufactured products are sourced&mdash;or where major agricultural commodities are grown&mdash;have deeply entrenched social, economic, and governance challenges that perpetuate child labor and forced labor. The most salient of these challenges is
+                    A significant number of countries from which manufactured products are sourced&mdash;or where major agricultural commodities are grown&mdash;have deeply entrenched social, economic, and governance challenges that perpetuate child labor and forced labor. The most salient of these challenges is{" "}
                     <strong>
                         poverty
                     </strong>
                     . According to 2020 estimates from the World Bank, between 703 and 729 million people live in extreme poverty, surviving on less than $1.90 a day, and as many as 150 million people may be pushed into extreme poverty due to the effects of the COVID-19 pandemic. Lack of adult employment with decent wages further exacerbates global poverty. Poverty is also associated with vulnerabilities beyond low income. Individuals who are poor lack mechanisms to cope with economic shocks and suffer disproportionately from poor health, hunger, and inadequate access to education and social services. As such, they may be more willing to assume risk to avail themselves of economic opportunities, making them more vulnerable to labor exploitation. This is particularly true for migrant workers.
                 </p>
-                <div><h2>Causes Related to Poverty</h2>
+                <div><h2>Causes Related to Human Rights</h2>
                  <Accordion id="lack-of-awareness-acc">
                         <Accordion.Section id="lack-of-awareness-description">
                            <Accordion.Title>
-                         Lack of Awareness About Human Rights
+                         <em>Lack of awareness about human rights</em>
                               </Accordion.Title>
                               <Accordion.Panel>
                               <p>In many countries, workers may not have access to information enabling them to understand what constitutes child labor, forced labor, or other labor abuses. Lack of awareness about good labor practices and workers&rsquo; rights, including freedom of association and collective bargaining, can be compounded by language barriers, particularly where multiple languages are spoken by workers within a facility. This heightens individuals&rsquo; vulnerability to exploitative labor and hinders their capacity to organize and advocate for better working and living conditions.</p>
@@ -33,7 +33,7 @@ const en = () => {
 
                       <Accordion.Section id="gender-ineq-description">
                          <Accordion.Title>
-                        Gender Inequality
+                        <em>Gender inequality</em>
                             </Accordion.Title>
                             <Accordion.Panel>
 
@@ -58,7 +58,7 @@ const en = () => {
                 <Accordion id="inadequate-govt-acc">
                         <Accordion.Section id="inadequate-govt-description">
                            <Accordion.Title>
-                         Ineffective or Inadequate Government Resources
+                         <em>Ineffective or inadequate government resources</em>
                               </Accordion.Title>
                               <Accordion.Panel>
 
@@ -70,7 +70,7 @@ const en = () => {
 
                       <Accordion.Section id="lack-of-access-description">
                          <Accordion.Title>
-                        Lack of Access to Quality Education
+                        <em>Lack of access to quality education</em>
                             </Accordion.Title>
                             <Accordion.Panel>
 
@@ -82,7 +82,7 @@ const en = () => {
 
                          <Accordion.Section id="weak-trade-description">
                             <Accordion.Title>
-                           Weak or Nonexistent Trade Unions and Other Civil Society Groups
+                           <em>Weak or nonexistent trade unions and other civil society groups</em>
                                </Accordion.Title>
                                <Accordion.Panel>
 
@@ -95,7 +95,7 @@ const en = () => {
                     <Accordion id="migration-systems-acc">
                        <Accordion.Section id="migration-systems-description">
                           <Accordion.Title>
-                        Migration Systems
+                        <em>Migration systems</em>
                              </Accordion.Title>
                              <Accordion.Panel>
 
@@ -109,7 +109,7 @@ const en = () => {
                     <Accordion id="global-comp-acc">
                     <Accordion.Section id="global-comp-acc-description">
                        <Accordion.Title>
-                      Global Competition
+                      <em>Global competition</em>
                           </Accordion.Title>
                           <Accordion.Panel>
 
@@ -122,7 +122,7 @@ const en = () => {
 
                   <Accordion.Section id="precarious-work-description">
                      <Accordion.Title>
-                    Precarious Work
+                    <em>Precarious work</em>
                         </Accordion.Title>
                         <Accordion.Panel>
 
@@ -152,24 +152,24 @@ const en = () => {
                             </h2>
                             <p>There is credible evidence of labor and human rights violations perpetrated by state and non-state armed actors in mining areas, including forced labor and worst forms of child labor. For example, in the Democratic Republic of the Congo (DRC), children are subjected to forced labor in mining of gold, tin ore, tantalum ore, and tungsten. Children are also used in armed conflict, sometimes as a result of forcible recruitment or abduction by non-state armed groups, and some are used as tax collectors at mining sites.</p>
                             <p>There is little public information available about whether companies identify risks related to the recruitment and use of children in mining areas. However, in 2017, the <a target="_blank" rel="noopener noreferrer" href="https://www.resolve.ngo/site-ppa/default.htm">Public-Private Alliance for Responsible Minerals Trade</a> (PPA)* supported the Coalition of Civil Society Organizations in the Great Lakes Region (COSOC-GL) to raise awareness among the DRC Armed Forces (FARDC) about the importance of demilitarizing mine sites in South Kivu in the DRC. The purpose of this engagement was to reduce incidents of human rights violations, fraud, and mine contraband and strengthen local surveillance and monitoring in support of due diligence for mineral supply chains. The PPA is a multi-stakeholder initiative with 48 members, including leadership from the U.S. Department of Labor, the U.S. Department of State, and the U.S. Agency for International Development, that promotes responsible sourcing in the Great Lakes Regions.</p>
-                            <p><br />In 2021, the International Peace Information Service*, the Project on Resources and Governance at University of California-Los Angeles*, the Sub-Saharan Field Research and Consulting Services*, and Ulula* conducted a <a target="_blank" rel="noopener noreferrer" href="https://projectrg.org/due-diligence/">study</a> funded by Apple* that assessed the impact of due diligence programs on mining communities in the eastern DRC. The study found that FARDC has less presence in mining areas covered under due diligence programs while non-security government actors, particularly mining authorities, are more present. While households from areas covered under due diligence programs have more resources to buy food and are likely to own a cellphone, they have similar rates of child labor as mining areas not covered by due diligence programs. The study concluded that due diligence programs are linked with meaningful progress towards responsible sourcing of minerals from conflict-affected and high-risk areas, and more action is required to comprehensively address social compliance risks related to armed groups and child labor.</p>
+                            <p>In 2021, the International Peace Information Service*, the Project on Resources and Governance at University of California-Los Angeles*, the Sub-Saharan Field Research and Consulting Services*, and Ulula* conducted a <a target="_blank" rel="noopener noreferrer" href="https://projectrg.org/due-diligence/">study</a> funded by Apple* that assessed the impact of due diligence programs on mining communities in the eastern DRC. The study found that FARDC has less presence in mining areas covered under due diligence programs while non-security government actors, particularly mining authorities, are more present. While households from areas covered under due diligence programs have more resources to buy food and are likely to own a cellphone, they have similar rates of child labor as mining areas not covered by due diligence programs. The study concluded that due diligence programs are linked with meaningful progress towards responsible sourcing of minerals from conflict-affected and high-risk areas, and more action is required to comprehensively address social compliance risks related to armed groups and child labor.</p>
                           </ExampleInAction>
                       </Accordion.Panel>
                   </Accordion.Section>
 
                   <Accordion.Section id="natural-disaster-description">
                      <Accordion.Title>
-                    Natural Disaster and Extreme Weather
+                    <em>Natural disaster and extreme weather</em>
                         </Accordion.Title>
                         <Accordion.Panel>
 
-                        <p className="indent-margin">Natural disasters and extreme weather, including drought and flooding, are also push factors for migration. The Internal Displacement Monitoring Center estimates that in 2020 alone, approximately 30.7 million people worldwide were displaced by natural disaster, with South and East Asia especially affected by high numbers of displaced persons. in 2021, the <a target="_blank" rel="noopener noreferrer" href="https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050">World Bank estimated</a> that climate change could force 216 million people to internally migrate by 2050, largely due to impacts on people&rsquo;s livelihoods and risks in highly exposed locations. The <a target="_blank" rel="noopener noreferrer" href="https://www.reuters.com/article/us-global-climate-jobs/rising-heat-stress-could-cost-80-million-jobs-by-2030-u-n-idUSKCN1TW36W">latest</a> projections from the ILO indicate that rising heat stress from climate change could cost 80 million jobs by 2030, deeply impacting outdoor livelihoods and threating agricultural supply chains worldwide. Extreme climate events are already impacting workers around the world. For example, in 2020, hurricanes Eta and Iota damaged the majority of Honduras&rsquo; banana farmland, leading to the temporary layoffs of over 4,000 workers.</p>
+                        <p className="indent-margin">Natural disasters and extreme weather, including drought and flooding, are also push factors for migration. The Internal Displacement Monitoring Center estimates that in 2020 alone, approximately 30.7 million people worldwide were displaced by natural disaster, with South and East Asia especially affected by high numbers of displaced persons. In 2021, the <a target="_blank" rel="noopener noreferrer" href="https://www.worldbank.org/en/news/press-release/2021/09/13/climate-change-could-force-216-million-people-to-migrate-within-their-own-countries-by-2050">World Bank estimated</a> that climate change could force 216 million people to internally migrate by 2050, largely due to impacts on people&rsquo;s livelihoods and risks in highly exposed locations. The <a target="_blank" rel="noopener noreferrer" href="https://www.reuters.com/article/us-global-climate-jobs/rising-heat-stress-could-cost-80-million-jobs-by-2030-u-n-idUSKCN1TW36W">latest</a> projections from the ILO indicate that rising heat stress from climate change could cost 80 million jobs by 2030, deeply impacting outdoor livelihoods and threating agricultural supply chains worldwide. Extreme climate events are already impacting workers around the world. For example, in 2020, hurricanes Eta and Iota damaged the majority of Honduras&rsquo; banana farmland, leading to the temporary layoffs of over 4,000 workers.</p>
                     </Accordion.Panel>
                 </Accordion.Section>
 
                   <Accordion.Section id="global-health-crisis-description">
                      <Accordion.Title>
-                   Global Health Crises
+                   <em>Global health crises</em>
                         </Accordion.Title>
                         <Accordion.Panel>
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";
 import StaticData from "../../../../../../components/StaticData";
 import styled from "styled-components";
@@ -33,7 +34,7 @@ const en = () => {
                 <p>
                     In addition to addressing individual victim situations, it is important to analyze why a violation occurred. This analysis is different 
                     than simply attributing child labor and forced labor to poverty, ineffective government institutions, and other reasons, which are 
-                    discussed in Addressing Root Causes.
+                    discussed in <Link to="/steps/2/topic/9">Addressing Root Causes</Link>.
                 </p>
                 <p>
                     A company&rsquo;s own actions&mdash;such as pressure to fill orders by a set date or sudden changes in volume or style&mdash;could be 
@@ -124,14 +125,14 @@ const en = () => {
                         in Southeast Asia. In 2020, Apple partnered with the International Organization for Migration to translate and conduct training for 
                         their suppliers on responsible recruitment.
                     </p>
-                    <p>Source: 
+                    <p>Source: {" "}
                         <a 
                         target="_blank"
                         rel="noopener noreferrer"
-                        title="https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2021_Progress_Report.pdf."
-                        href="https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2021_Progress_Report.pdf."
+                        title="https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2021_Progress_Report.pdf"
+                        href="https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2021_Progress_Report.pdf"
                         >https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2021_Progress_Report.pdf
-                        </a>.
+                        </a>
                     </p>                                    
                 </ExampleInAction>
                 <p>
@@ -163,7 +164,7 @@ const en = () => {
                             </th>
                         </tr>
                         <tr>
-                            <th scope="row"  >Workers abducted, confined during the recruitment process or sold.</th>
+                            <th scope="row"  >Workers abducted, confined during the recruitment process, or sold.</th>
 
                             <td  >
                                 <p>
@@ -252,7 +253,7 @@ const en = () => {
                         <th scope="row"  >Employer restricts workers&rsquo; freedom of movement or communication.</th>
                             <td  >
                                 <p>
-                                    DDetermine who&mdash;management, supervisors, shift leaders, etc.&mdash;is involved in restricting workers&rsquo; freedom of 
+                                    Determine who&mdash;management, supervisors, shift leaders, etc.&mdash;is involved in restricting workers&rsquo; freedom of 
                                     movement or communication and investigate these individuals&rsquo; actions. If individuals were acting on their own without 
                                     management knowledge, take appropriate action with these individuals, which could include training, suspension, or termination. 
                                     If these restrictions came from management, terminate the relationship with the supplier or provide the supplier a short 
@@ -449,7 +450,11 @@ const en = () => {
                             <td  >
                                 {/* <p><a href="#P1">See above.</a></p> */}
                                 <p>
-                                <abbr title="" aria-label="Suppliers should never confiscate or take control of workers&rsquo; identity or travel documents unless 
+                                <abbr title="Suppliers should never confiscate or take control of workers&rsquo; identity or travel documents unless 
+                                it is purely for safekeeping purposes, and then only if workers are able to retrieve their documents promptly upon request. Require 
+                                the supplier to return all workers&rsquo; identity documents. If workers prefer that the supplier hold them for safekeeping, ensure 
+                                that a policy is in place for retrieval of documents and that all workers are aware of the policy. Follow up to check on the issue 
+                                through an unannounced audit." aria-label="Suppliers should never confiscate or take control of workers&rsquo; identity or travel documents unless 
                                 it is purely for safekeeping purposes, and then only if workers are able to retrieve their documents promptly upon request. Require 
                                 the supplier to return all workers&rsquo; identity documents. If workers prefer that the supplier hold them for safekeeping, ensure 
                                 that a policy is in place for retrieval of documents and that all workers are aware of the policy. Follow up to check on the issue 
@@ -480,7 +485,14 @@ const en = () => {
                             <td  >
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="" aria-label="In any situation of violence, penalty, intimidation, or threat, determine who&mdash;management, supervisors, shift leaders, 
+                                    <abbr title="In any situation of violence, penalty, intimidation, or threat, determine who&mdash;management, supervisors, shift leaders, 
+                                    etc.&mdash;is involved in these violations. If individuals were acting on their own without management knowledge, take appropriate action 
+                                    with these individuals, which could include training, suspension, or termination.
+                                    If these penalties or threats were initiated by management or if management was complicit, terminate the relationship with the 
+                                    supplier or provide the supplier a short window of time to end all such practices. Ensure that all workers receive training on 
+                                    their rights under the law and your code of conduct, including channels for grievances. Ensure that workers who wish to leave 
+                                    the job are able to do so and receive their full wages due. Follow up with unannounced audits that include offsite interviews 
+                                    with workers and knowledgeable community members." aria-label="In any situation of violence, penalty, intimidation, or threat, determine who&mdash;management, supervisors, shift leaders, 
                                     etc.&mdash;is involved in these violations. If individuals were acting on their own without management knowledge, take appropriate action 
                                     with these individuals, which could include training, suspension, or termination.
                                     If these penalties or threats were initiated by management or if management was complicit, terminate the relationship with the 
@@ -499,7 +511,14 @@ const en = () => {
                             <td  >
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="" aria-label="
+                                    <abbr title="In any situation of violence, penalty, intimidation, or threat, determine who&mdash;management, supervisors, shift leaders, 
+                                    etc.&mdash;is involved in these violations. If individuals were acting on their own without management knowledge, take appropriate action 
+                                    with these individuals, which could include training, suspension, or termination.
+                                    If these penalties or threats were initiated by management or if management was complicit, terminate the relationship with the 
+                                    supplier or provide the supplier a short window of time to end all such practices. Ensure that all workers receive training on 
+                                    their rights under the law and your code of conduct, including channels for grievances. Ensure that workers who wish to leave 
+                                    the job are able to do so and receive their full wages due. Follow up with unannounced audits that include offsite interviews 
+                                    with workers and knowledgeable community members." aria-label="
                                     In any situation of violence, penalty, intimidation, or threat, determine who&mdash;management, supervisors, shift leaders, 
                                     etc.&mdash;is involved in these violations. If individuals were acting on their own without management knowledge, take appropriate action 
                                     with these individuals, which could include training, suspension, or termination.
@@ -519,7 +538,14 @@ const en = () => {
                             <td  >
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="" aria-label="
+                                    <abbr title="In any situation of violence, penalty, intimidation, or threat, determine who&mdash;management, supervisors, shift leaders, 
+                                    etc.&mdash;is involved in these violations. If individuals were acting on their own without management knowledge, take appropriate action 
+                                    with these individuals, which could include training, suspension, or termination.
+                                    If these penalties or threats were initiated by management or if management was complicit, terminate the relationship with the 
+                                    supplier or provide the supplier a short window of time to end all such practices. Ensure that all workers receive training on 
+                                    their rights under the law and your code of conduct, including channels for grievances. Ensure that workers who wish to leave 
+                                    the job are able to do so and receive their full wages due. Follow up with unannounced audits that include offsite interviews 
+                                    with workers and knowledgeable community members." aria-label="
                                     In any situation of violence, penalty, intimidation, or threat, determine who&mdash;management, supervisors, shift leaders, 
                                     etc.&mdash;is involved in these violations. If individuals were acting on their own without management knowledge, take appropriate action 
                                     with these individuals, which could include training, suspension, or termination.
@@ -539,7 +565,14 @@ const en = () => {
                             <td  >
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="" aria-label="
+                                    <abbr title="In any situation of violence, penalty, intimidation, or threat, determine who&mdash;management, supervisors, shift leaders, 
+                                    etc.&mdash;is involved in these violations. If individuals were acting on their own without management knowledge, take appropriate action 
+                                    with these individuals, which could include training, suspension, or termination.
+                                    If these penalties or threats were initiated by management or if management was complicit, terminate the relationship with the 
+                                    supplier or provide the supplier a short window of time to end all such practices. Ensure that all workers receive training on 
+                                    their rights under the law and your code of conduct, including channels for grievances. Ensure that workers who wish to leave 
+                                    the job are able to do so and receive their full wages due. Follow up with unannounced audits that include offsite interviews 
+                                    with workers and knowledgeable community members." aria-label="
                                     In any situation of violence, penalty, intimidation, or threat, determine who&mdash;management, supervisors, shift leaders, 
                                     etc.&mdash;is involved in these violations. If individuals were acting on their own without management knowledge, take appropriate action 
                                     with these individuals, which could include training, suspension, or termination.
@@ -560,7 +593,14 @@ const en = () => {
                             <td  >
                                 {/* <p><a href="#P2">See above.</a></p> */}
                                 <p>
-                                    <abbr title="" aria-label="
+                                    <abbr title="In any situation of violence, penalty, intimidation, or threat, determine who&mdash;management, supervisors, shift leaders, 
+                                    etc.&mdash;is involved in these violations. If individuals were acting on their own without management knowledge, take appropriate action 
+                                    with these individuals, which could include training, suspension, or termination.
+                                    If these penalties or threats were initiated by management or if management was complicit, terminate the relationship with the 
+                                    supplier or provide the supplier a short window of time to end all such practices. Ensure that all workers receive training on 
+                                    their rights under the law and your code of conduct, including channels for grievances. Ensure that workers who wish to leave 
+                                    the job are able to do so and receive their full wages due. Follow up with unannounced audits that include offsite interviews 
+                                    with workers and knowledgeable community members." aria-label="
                                     In any situation of violence, penalty, intimidation, or threat, determine who&mdash;management, supervisors, shift leaders, 
                                     etc.&mdash;is involved in these violations. If individuals were acting on their own without management knowledge, take appropriate action 
                                     with these individuals, which could include training, suspension, or termination.

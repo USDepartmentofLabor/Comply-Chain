@@ -49,6 +49,10 @@ const PrintHeader = styled.h1`
 `;
 
 class TopicView extends Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        console.log("HELLLLLLLLL");
+      }
     constructor(props) {
         super(props);
         const { step, topic, localizor } = this.props;
@@ -243,7 +247,16 @@ class TopicView extends Component {
                             <NavButton
                                 id="next-topic"
                                 variant="primary"
-                                onClick={() => this.navigate(nextTopic)}
+                                onClick={() => {
+                                    this.navigate(nextTopic);
+                                    window.scrollTo({
+                                        top: 0,
+                                        behavior: 'smooth',
+                                    });
+                                    topFunction();
+                                    console.log("HELLLLLLLLL222222");
+                                    setTimeout(function() { window.scrollTo(0,0); }, 500);
+                                }}
                                 right
                             >
                                 {localizor.strings.general.nextTopic}
@@ -288,4 +301,10 @@ TopicView.propTypes = {
     location: PropTypes.object.isRequired
 };
 
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    console.log("scrooll");
+    window.scrollTo(0, 0);
+  }
 export default withRouter(withLanguageContext(TopicView));
