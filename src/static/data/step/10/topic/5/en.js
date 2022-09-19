@@ -45,7 +45,7 @@ const en = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: The Origin of Your Garments
+                            Example in Action: The origin of your garments
                         </strong>
                     </h2>
                     <p>
@@ -170,14 +170,22 @@ const en = () => {
                     href="https://www.gsk.com/en-gb/responsibility/operating-responsibly/human-rights-and-modern-slavery/"
                     >addressing issues of human rights and modern slavery
                     </a>. 
-                    In addition to explicitly{" "}
+                    In addition to explicitly connecting their corporate values with{" "}
                     <a 
                     target="_blank"
                     rel="noopener noreferrer"
                     title="connecting their corporate values with labor rights" 
                     href="https://www.gsk.com/en-gb/responsibility/operating-responsibly/human-rights-and-modern-slavery/#tab-1-4"
-                    >connecting their corporate values with labor rights
-                    </a>, GSK conducted a human rights risk assessment in 2018, issued a Human Rights Position Statement, and published a Modern Slavery Act Statement.
+                    >labor rights
+                    </a>, GSK conducted a human rights risk assessment in 2018, issued a {" "}
+                    <a 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Human Rights Position Statement" 
+                    href="https://www.gsk.com/media/4503/human-rights-statement-policy.pdf"
+                    >Human Rights Position Statement
+                    </a>
+                    , and published a Modern Slavery Act Statement.
                 </p>
 
                 <h2>Inclusion of stakeholder viewpoints into reporting</h2>
@@ -207,6 +215,8 @@ const en = () => {
                     Measurement of impact continues to be a laudable yet troublesome goal. Reporting that contrasts both quantitative metrics and qualitative 
                     reporting is vital to addressing consumer concerns in a robust and authentic way. For example, Google&rsquo;s* {" "}
                     <a 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     title="Transparency Report " 
                     href="http://www.google.com/transparencyreport"
                     >Transparency Report 

@@ -88,15 +88,14 @@ const en = () => {
                 <p>
                     These activities are resource-intensive. The relationships you have worked hard to build are vital at this stage, helping you to find resources 
                     and expertise available in the community. Of course, there are communities with very few resources and educational institutions. Options for action 
-                    in such cases are discussed in Addressing Root Causes.
+                    in such cases are discussed in <Link to="/steps/2/topic/9">Addressing Root Causes</Link>.
                 </p>
                 <ExampleInAction id="turkey">
                     <h3>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Collaboration to Address Seasonal
-                            Migrant Child Labor in Turkey&rsquo;s Hazelnut
-                            Harvest
+                            Example in Action: Collaboration to address seasonal migrant child labor in Turkey&rsquo;s hazelnut
+                            harvest
                         </strong>
                     </h3>
                     <p>
@@ -153,7 +152,7 @@ const en = () => {
                     </p>
                 </ExampleInAction>
                 <br />
-                <h2>Forced Labor/Trafficking in Persons</h2>
+                <h2>Forced Labor and Trafficking in Persons</h2>
                 <p>
                     If a business identifies forced labor or trafficking within its supply chain, responses can vary depending on the type and circumstances of 
                     the victims&rsquo; situation.

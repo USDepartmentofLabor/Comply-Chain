@@ -11,7 +11,7 @@ const en = () => {
                 <h1>Independent Monitoring (Auditing)</h1>
                 <p>
                     As discussed under{" "}
-                    <Link to="/steps/5">Step 5, Monitor Compliance,</Link>{" "}
+                    <Link to="/steps/5">Step 5: Monitor Compliance,</Link>{" "}
                     independent monitoring should consist of unannounced site visits to worksites in the company&rsquo;s supply chain to evaluate 
                     compliance with the code of conduct. Announced visits may also be useful when it is necessary to have access to specific personnel 
                     or documentation. In cases where the company&rsquo;s internal or paid third-party auditors conduct audits on a sampling basis in 
@@ -73,8 +73,7 @@ const en = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: The Bonsucro* Model for
-                            Accrediting Certification Bodies
+                            Example in Action: The Bonsucro* model for accrediting certification bodies
                         </strong>
                     </h2>
                     <p>

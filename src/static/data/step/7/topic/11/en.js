@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import OwnWords from "../../../../../../components/OwnWords";
 import StaticData from "../../../../../../components/StaticData";
 import ExampleInAction from "../../../../../../components/ExampleInAction/ExampleInAction";  
@@ -11,7 +12,7 @@ const en = () => {
                 <h1>Grievance Mechanisms</h1>
                 <p>Grievance mechanisms are a cornerstone of worker representation. They allow unions to raise workers&rsquo; issues through an established, transparent systems that alleviate workers&rsquo; fear of reprisal from employers. However, workers without the protection of an effective union and collective bargaining agreement should also have ways to express concerns and bring their perspectives to management. Workers should have whistleblower protections that empower them to safely report serious concerns.</p>
                 <p>Effective grievance mechanisms are an important step toward stronger dialogue between workers and management and improved compliance. Along with anonymous complaint channels and labor-management dialogue, robust grievance mechanisms benefit businesses by providing information on workplace problems that can impact product quality, staff turnover, and corporate liability.</p>
-                <p>At a minimum, companies should ensure that safe, accessible grievance channels are available to workers to lodge complaints about any issue related to your code of conduct. Ideally, multiple channels should be available, such as through trade unions (if available), through supervisors or supplier management, directly to a company, or to a third-party that you engage for this purpose. Emerging technology that anonymously captures worker perspectives is another channel that helps businesses receive feedback and grievances directly from workers across their supply chain (See also Addressing the Vulnerability of Migrants in Codes of Conduct). Procedures for bringing a grievance to each available channel should be clearly explained at training sessions and posted at the worksite in all applicable languages. When auditors or independent verification organizations visit worksites, workers should be afforded a confidential setting away from supervisors or managers to make known any complaints.</p>
+                <p>At a minimum, companies should ensure that safe, accessible grievance channels are available to workers to lodge complaints about any issue related to your code of conduct. Ideally, multiple channels should be available, such as through trade unions (if available), through supervisors or supplier management, directly to a company, or to a third-party that you engage for this purpose. Emerging technology that anonymously captures worker perspectives is another channel that helps businesses receive feedback and grievances directly from workers across their supply chain (See also <Link to="/steps/3/topic/4">Addressing the Vulnerability of Migrants in Codes of Conduct</Link>). Procedures for bringing a grievance to each available channel should be clearly explained at training sessions and posted at the worksite in all applicable languages. When auditors or independent verification organizations visit worksites, workers should be afforded a confidential setting away from supervisors or managers to make known any complaints.</p>
                 <p>Standard procedures should also be in place for handling and resolving complaints that are received through all channels. These procedures should be clearly explained and posted. The procedures should include protection of privacy and protection from reprisal for the person or group bringing the complaint, and a communications protocol to notify both the complainant and other affected stakeholders of the outcome of the grievance.</p>
                 <p>Over time, businesses should evaluate the effectiveness of their grievance mechanisms. Some best practices for evaluation and considerations include:</p>
                 <ul>
@@ -19,7 +20,7 @@ const en = () => {
                     <li><strong>Themes</strong><em>:</em> Grievance data analysis pinpoints priority areas for intervention. The absence of certain types of grievances may also be a risk indicator.&nbsp;</li>
                     <li><strong>Accessibility</strong><em>:</em> Companies should assess whether all workers have equal access and ability to submit grievances by considering diversity and inclusion, or if certain workers face other obstacles to submitting grievances.</li>
                     <li><strong>Confidentiality</strong><em>:</em> Companies should examine any standard operating procedures that relate to grievance confidentiality, whistleblower protections, and reprisals. Testing grievance mechanisms through third-party auditing is another good practice.&nbsp;</li>
-                    <li><strong>Grievance resolution rate</strong><em>:</em> Companies should measure the proportion of grievances that are satisfactorily remediated and how long they take to close (see Step 6: Remediate Violations for further information on remediation).</li>
+                    <li><strong>Grievance resolution rate</strong><em>:</em> Companies should measure the proportion of grievances that are satisfactorily remediated and how long they take to close (see <Link to="/steps/6">Step 6: Remediate Violations</Link> for further information on remediation).</li>
                 </ul>
                 
 
@@ -27,7 +28,7 @@ const en = () => {
                     <h2>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Technology based Grievance Mechanism
+                            Example in Action: Technology-based feedback and grievance mechanisms
                         </strong>
                     </h2>
                     <p>Technologies that capture worker voice are often cost effective, targeted, and safe for workers. They can provide a valuable supplement to traditional social audits, as well as provide effective mechanisms for educating workers on their rights and available resources.&nbsp;</p>
@@ -51,7 +52,8 @@ const en = () => {
                         <li>An in-depth review of the grievance, working with the supplier and an independent organization to develop a time-bound action and remediation plan.</li>
                         <li>Actions implemented by the supplier to resolve the issue, with the outcomes monitored.</li>
                     </ul>
-                    <p>Unilever will often involve an independent organization at various stages to collate further information and outline the requirements for the supplier. The company works with its suppliers to help improve practices and resolve issues. However, it takes appropriate action consistent with its <a target="_blank" rel="noopener noreferrer" href="https://www.unilever.com/Images/unilever-palm-oil-policy-2016_tcm244-479933_en.pdf">Five Principles for Sustainable Palm Oil</a> against suppliers who are unwilling or unable to comply.<br />As of January 2019, Unilever began publicly disclosing the grievances against its suppliers through a published <a target="_blank" rel="noopener noreferrer" href="https://www.unilever.com/Images/unilever-palm-oil-grievance-tracker_tcm244-530071_en.pdf">grievance tracker</a>.</p>
+                    <p>Unilever will often involve an independent organization at various stages to collate further information and outline the requirements for the supplier. The company works with its suppliers to help improve practices and resolve issues. However, it takes appropriate action consistent with its <a target="_blank" rel="noopener noreferrer" href="https://www.unilever.com/Images/unilever-palm-oil-policy-2016_tcm244-479933_en.pdf">Five Principles for Sustainable Palm Oil</a> against suppliers who are unwilling or unable to comply.</p>
+                    <p>As of January 2019, Unilever began publicly disclosing the grievances against its suppliers through a published <a target="_blank" rel="noopener noreferrer" href="https://www.unilever.com/Images/palm-oil-grievance-procedure_tcm244-510633_en.pdf">grievance tracker</a>.</p>
                     <img
                         src={unilever} 
                         />
@@ -74,7 +76,7 @@ const en = () => {
                 <OwnWords>
                     <h2>
                         <OwnWords.Icon alt="Feedback"/> <strong>In Their Own Words</strong>
-                        {": "}
+                        {": "}Establishing effective grievance mechanisms
                     </h2>
                     <p><em>&ldquo;Operation-level grievance mechanisms for those potentially impacted by enterprises&rsquo; activities can be an effective means&hellip;when they meet the core criteria of: legitimacy, accessibility, predictability, equitability&hellip;and transparency, and are based on dialogue and engagement with a view to seeking agreed solutions. Such mechanisms can be administered by an enterprise alone or in collaboration with other stakeholders and can be a source of continuous learning. Operational-level grievance mechanisms should not be used to undermine the role of trade unions in addressing labor-related disputes, nor should such mechanisms preclude access to judicial or non-judicial grievance mechanisms.&rdquo;</em></p>
                     <p>Source: OECD, <a target="_blank" rel="noopener noreferrer" href="http://www.oecd.org/corporate/mne/1922428.pdf">Guidelines for Multinational Enterprises</a>, 2011.</p>

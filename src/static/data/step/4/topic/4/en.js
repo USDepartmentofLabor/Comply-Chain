@@ -28,15 +28,17 @@ const en = () => {
                     Goods produced using agricultural or mineral commodities can be particularly difficult to trace, since the raw materials are harvested or mined in widely dispersed geographic areas and aggregated or comingled early in the supply chain. Some companies and industry coalitions have implemented &ldquo;traceability&rdquo; programs to track certain commodities from a finished product back through the supply chain to their point of origin.
                 </p>
                 <p>
-                    On January 8, 2019, the Frederick Douglass Trafficking Victims Prevention and Protection Reauthorization Act of 2018 (Public Law 115&ndash;425, title I, &sect; 133(a), Jan. 8, 2019, 132 Stat. 5481) directed that ILAB&rsquo;s
+                    On January 8, 2019, the Frederick Douglass Trafficking Victims Prevention and Protection Reauthorization Act of 2018 (Public Law 115&ndash;425, title I, &sect; 133(a), Jan. 8, 2019, 132 Stat. 5481) directed that ILAB&rsquo;s{" "}
                     <em>
                         List of Goods Produced by Child Labor or Forced Labor
                     </em>
-                    include &ldquo;to the extent practicable, goods that are produced with inputs that are produced with forced labor or child labor.&rdquo; As part of this mandate, ILAB has explored several case studies to map supply chains for various supply chains, including from cobalt to lithium-ion batteries, from palm oil to oleochemicals, and from polysilicon to solar products.
+                    {" "}include &ldquo;to the extent practicable, goods that are produced with inputs that are produced with forced labor or child labor.&rdquo; As part of this mandate, ILAB has explored several case studies to map supply chains for various supply chains, including from {" "}<a target="_blank" rel="noopener noreferrer" href="https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods/supply-chains">
+                    cobalt to lithium-ion batteries, from palm oil to oleochemicals, and from polysilicon to solar products.
+                    </a>
                 </p>
                 <p>
                     To be clear, mapping supply chains does not necessarily imply that a company is responsible for all impacts and risks associated with every entity in the chain. As stated in the{" "}
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=un+guiding+principles+on+business+and+human+rights&amp;rlz=1C1GCEA_enUS976US977&amp;oq=un+guiding+princ&amp;aqs=chrome.1.69i57j69i59j69i60l3j69i65l2j69i60.2263j0j4&amp;sourceid=chrome&amp;ie=UTF-8">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf">
                         UN Guiding Principles on Business and Human Rights
                     </a>{" "}
                     UN Guiding Principles on Business and Human Rights, &ldquo;where business enterprises have large numbers of entities in their value chains it may be unreasonably difficult to conduct due diligence for adverse human rights impacts across them all. If so, business enterprises should identify general areas where the risk of adverse human rights impacts is more significant, whether due to certain suppliers&rsquo; or clients&rsquo; operating context, the particular operations, products or services involved, or other relevant considerations, and prioritize those for human rights due diligence.&rdquo; This prioritization process is addressed below.
@@ -47,7 +49,7 @@ const en = () => {
                        <Accordion id="cocoa-chains-acc">
                               <Accordion.Section id="cocoa-description">
                               <Accordion.Title>
-                              Cocoa Supply Chains (Cote D'Ivoire and Ghana)
+                              Example 1: Cocoa Supply Chains
                           </Accordion.Title>
                           <Accordion.Panel>
                               <img
@@ -71,15 +73,15 @@ const en = () => {
                                 This graphic illustrates the various players in a cocoa supply chain, which include farmers; collectors/transporters; processors; exporters; the global market; manufacturers (that may also manufacture other beans); customers, which includes retail outlets, restaurants, and small businesses purchasing products to sell; and final consumers. The graphic also lists examples of entities and activities that fall into those supply chain categories in two countries: C&ocirc;te d&rsquo;Ivoire and Ghana.&nbsp;
                             </p>
                             <p>
-                                In C&ocirc;te d&rsquo;Ivoire, examples of farmers include small, family farms (more than 750,000); independent operations; and a few cooperatives (where cocoa is less than 20% of crop). Collectors and transporters include privately funded operators; and
+                                In C&ocirc;te d&rsquo;Ivoire, examples of farmers include small, family farms (more than 750,000); independent operations; and a few cooperatives (where cocoa is less than 20% of crop). Collectors and transporters include privately funded operators; and{" "}
                                 <em>
                                     pisteurs
                                 </em>
-                                (middlemen who purchase directly from farms) and
+                                {" "}(middlemen who purchase directly from farms) and{" "}
                                 <em>
                                     traitants
                                 </em>
-                                (cocoa buyers purchasing from
+                                {" "}(cocoa buyers purchasing from{" "}
                                 <em>
                                     pisteurs
                                 </em>
@@ -101,7 +103,7 @@ const en = () => {
                     <Accordion id="electronic-supply-chain">*/}
                         <Accordion.Section id="electronic-supply-chain-description">
                             <Accordion.Title>
-                            Electronics Supply Chains
+                            Example 2: Electronics Supply Chains
                         </Accordion.Title>
                         <Accordion.Panel>
                         <img
@@ -114,7 +116,7 @@ const en = () => {
                               alt="DRC Minerals Supply Chains"
                               longdesc="#minerals_chains"
                               />
-                        <p className="small-text">
+                        <p>
                         The graphics above illustrate the general steps in the supply chain for the electronics industry, which sources many rare earth metals from the Democratic Republic of the Congo (DRC) in Central Africa. Although the design and development of consumer electronics often take place near the locations of end users, such as in the United States, the sourcing of materials often begins halfway around the world in Central Africa. These mined materials are then delivered over land to ports on the coast of East Africa. Traveling by boat, the materials are then delivered to smelters in East and Southeast Asia, where the smelters refine the materials and convert them into usable components for the manufacturers that are based both in the region and also in Europe and North America.
 
                           </p>
@@ -125,7 +127,7 @@ const en = () => {
                   <Accordion id="generic-imp-supply">*/}
                       <Accordion.Section id="generic-imp-description">
                           <Accordion.Title>
-                          Seafood Supply Chain
+                          Example 3: Seafood Supply Chain
                       </Accordion.Title>
                       <Accordion.Panel>
                           <br />

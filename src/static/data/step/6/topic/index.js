@@ -18,7 +18,7 @@ export const Topics = {
         },
         {
             keywords: [],
-            title: "What Topics Should Training and Capacity-Building Cover?",
+            title: "What topics should training and capacity-building cover?",
             content: Topic3.en
         },
         {
