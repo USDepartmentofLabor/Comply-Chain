@@ -125,14 +125,14 @@ const en = () => {
                         in Southeast Asia. In 2020, Apple partnered with the International Organization for Migration to translate and conduct training for 
                         their suppliers on responsible recruitment.
                     </p>
-                    <p>Source: 
+                    <p>Source: {" "}
                         <a 
                         target="_blank"
                         rel="noopener noreferrer"
                         title="https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2021_Progress_Report.pdf"
                         href="https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2021_Progress_Report.pdf"
                         >https://www.apple.com/supplier-responsibility/pdf/Apple_SR_2021_Progress_Report.pdf
-                        </a>.
+                        </a>
                     </p>                                    
                 </ExampleInAction>
                 <p>

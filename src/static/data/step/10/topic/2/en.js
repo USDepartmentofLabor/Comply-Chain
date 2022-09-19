@@ -115,7 +115,7 @@ const en = () => {
                     <ExampleInAction id="prereg">
                         <h2>
                             <ExampleInAction.Icon alt="Lightbulb"/>
-                            Example in Action: Japanese Company&rsquo;s human rights report takes flight
+                            Example in Action: Japanese company&rsquo;s human rights report takes flight
                         </h2>
                         <p>
                             In 2018,{" "}

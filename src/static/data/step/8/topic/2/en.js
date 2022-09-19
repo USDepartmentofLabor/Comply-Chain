@@ -94,9 +94,8 @@ const en = () => {
                     <h3>
                         <ExampleInAction.Icon alt="Lightbulb"/>
                         <strong>
-                            Example in Action: Collaboration to Address Seasonal
-                            Migrant Child Labor in Turkey&rsquo;s Hazelnut
-                            Harvest
+                            Example in Action: Collaboration to address seasonal migrant child labor in Turkey&rsquo;s hazelnut
+                            harvest
                         </strong>
                     </h3>
                     <p>

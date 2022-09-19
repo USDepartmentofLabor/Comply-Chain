@@ -259,7 +259,7 @@ const en = () => {
                 </p>
                 <p>
                     <span>
-                        See Uyghur Forced Labor Prevention Act in <Link to="/othersteps/11">Why Develop a Social Compliance System?</Link> Laws and Regulations for more information and 
+                        See Uyghur Forced Labor Prevention Act in <Link to="/othersteps/11">Why Develop a Social Compliance System?</Link> <Link to="/othersteps/11/topic/1">Laws and Regulations</Link> for more information and 
                         {" "}
                         <a 
                     target="_blank"

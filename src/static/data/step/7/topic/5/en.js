@@ -50,8 +50,7 @@ const en = () => {
                              <h3>
                                  <OwnWords.Icon alt="Feedback"/>{" "}
                                  <strong>
-                                     In Their Own Words: The Challenges of Age
-                                     Verification
+                                     In Their Own Words: The challenges of age verification
                                  </strong>
                              </h3>
                              <p>To verify the age of workers, &ldquo;employers should keep and make available to the competent authority registers or other documents indicating the names and ages or dates of birth, duly certified wherever possible, not only of children and young persons employed by them but also of those receiving vocational orientation or training in their undertakings.&rdquo;</p>
@@ -86,7 +85,7 @@ const en = () => {
                          <h3>
                              <OwnWords.Icon alt="Feedback"/>{" "}
                              <strong>
-                                 In Their Own Words: Interviewing a Child
+                                 In Their Own Words: Interviewing a child
                              </strong>
                          </h3>
                          <p>&ldquo;Interviewing a child is necessary in connection with recruitment of young people: (a) to assess their age, (b) to assess the maturity in connection with ﬁnding out what job the person is able to carry out, (c) possible work experience, and/or (d) if one of the workers is identified to be underage for the type of job/process that the child or young person carries out.</p>
