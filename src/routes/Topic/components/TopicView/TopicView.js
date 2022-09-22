@@ -49,10 +49,6 @@ const PrintHeader = styled.h1`
 `;
 
 class TopicView extends Component {
-    componentDidMount() {
-        window.scrollTo(0, 0);
-        console.log("HELLLLLLLLL");
-      }
     constructor(props) {
         super(props);
         const { step, topic, localizor } = this.props;
@@ -213,7 +209,10 @@ class TopicView extends Component {
                             <NavButton
                                 id="prev-step"
                                 variant="primaryDarkest"
-                                onClick={() => this.navigate(prevStep)}
+                                onClick={() => {
+                                    this.navigate(prevStep);
+                                    window.location.reload();
+                                }}
                                 left
                             >
                                 <Icons.ArrowDropLeft
@@ -229,7 +228,10 @@ class TopicView extends Component {
                             <NavButton
                                 id="prev-topic"
                                 variant="primaryDarkest"
-                                onClick={() => this.navigate(prevTopic)}
+                                onClick={() => {
+                                    this.navigate(prevTopic);
+                                    window.location.reload();
+                                }}
                                 left
                             >
                                 <Icons.ArrowDropLeft
@@ -249,13 +251,7 @@ class TopicView extends Component {
                                 variant="primary"
                                 onClick={() => {
                                     this.navigate(nextTopic);
-                                    window.scrollTo({
-                                        top: 0,
-                                        behavior: 'smooth',
-                                    });
-                                    topFunction();
-                                    console.log("HELLLLLLLLL222222");
-                                    setTimeout(function() { window.scrollTo(0,0); }, 500);
+                                    window.location.reload()
                                 }}
                                 right
                             >
@@ -272,7 +268,10 @@ class TopicView extends Component {
                             <NavButton
                                 id="next-step"
                                 variant="primary"
-                                onClick={() => this.navigate(nextStep)}
+                                onClick={() => {
+                                    this.navigate(nextStep);
+                                    window.location.reload();
+                                }}
                                 right
                             >
                                 {localizor.strings.general.nextStep}
@@ -301,10 +300,4 @@ TopicView.propTypes = {
     location: PropTypes.object.isRequired
 };
 
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    console.log("scrooll");
-    window.scrollTo(0, 0);
-  }
 export default withRouter(withLanguageContext(TopicView));
