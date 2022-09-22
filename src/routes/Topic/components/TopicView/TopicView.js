@@ -253,6 +253,7 @@ class TopicView extends Component {
                                         top: 0,
                                         behavior: 'smooth',
                                     });
+                                    window.location.reload()
                                     topFunction();
                                     console.log("HELLLLLLLLL222222");
                                     setTimeout(function() { window.scrollTo(0,0); }, 500);
